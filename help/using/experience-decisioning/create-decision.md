@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 11%
 
 將決定政策運用於訊息的主要步驟如下：
 
-1. [在電子郵件或程式碼型體驗中建立決定原則](#add-decision)
+1. [在電子郵件或程式碼型體驗中建立決策原則](#add-decision)
 
    選取要傳回的專案數、設定選擇策略、遞補選項和評估順序，以在電子郵件或程式碼型體驗中設定決定原則。
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 
 * **AI排名** — 目前，使用決策的歷程中的電子郵件管道不支援AI排名。
 
-## 在電子郵件或程式碼型體驗中建立決定原則 {#add-decision}
+## 在電子郵件或程式碼型體驗中建立決策原則 {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -118,7 +118,7 @@ ht-degree: 11%
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++透過電子郵件傳送Designer **[!UICONTROL 決策]**&#x200B;功能表
 
@@ -128,7 +128,7 @@ ht-degree: 11%
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. 提供名稱並選取目錄（目前僅限於預設&#x200B;**[!UICONTROL 選件]**&#x200B;目錄）。
 
@@ -236,7 +236,7 @@ ht-degree: 11%
 
      排名優惠方案現在如下：優惠方案5 、優惠方案3、優惠方案4、優惠方案2、優惠方案1、優惠方案6。
 
-   +++
++++
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**
 
@@ -291,13 +291,13 @@ ht-degree: 11%
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++在程式碼型體驗中插入決定原則程式碼
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 

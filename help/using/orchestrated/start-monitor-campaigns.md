@@ -7,16 +7,16 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
 
-# 開始和監視您的協調行銷活動 {#start-monitor}
+# 開始並監控協調式行銷活動 {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="發佈協調的行銷活動"
+>title="發佈協調式行銷活動"
 >abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定所有錯誤都已清除。"
 
 您建立了協調的行銷活動並設計了要在畫布中執行的任務後，即可發佈並監視其執行方式。
@@ -96,7 +96,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="記錄和任務"
->abstract="**記錄檔與工作**&#x200B;畫面提供協調行銷活動執行的歷史記錄，記錄所有使用者動作與遇到的錯誤。"
+>abstract="**記錄和任務**&#x200B;畫面提供執行協調式行銷活動的歷史記錄，其中記錄所有使用者動作和發生的錯誤。"
 
 監視記錄檔和任務是分析協調行銷活動並確保其正常執行的關鍵步驟。 可從畫布工具列的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;按鈕存取記錄檔和工作，該按鈕在測試和即時模式下均可用。
 

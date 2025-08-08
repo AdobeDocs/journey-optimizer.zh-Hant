@@ -7,7 +7,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 60%
+ht-degree: 74%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="建置客群活動"
->abstract="**建立對象**&#x200B;活動可讓您定義將進入協調行銷活動的對象。 在協調的行銷活動內容中傳送訊息時，訊息對象未定義於頻道活動中，而是定義於&#x200B;**建立對象**&#x200B;活動中。"
+>abstract="**建置客群**&#x200B;活動讓您可以定義會進入協調式行銷活動的客群。在協調式行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**建置客群**&#x200B;活動中定義。"
 
 身為行銷人員，您可以透過直覺式介面，建立複雜的客群細分，讓您可以根據廣泛條件和行為，鎖定使用者，以便更有效地量身打造行銷活動。
 
 若想這麼做，請使用&#x200B;**[!UICONTROL 建置客群]**&#x200B;目標定位活動。 此活動會定義進入協調行銷活動的對象。 當傳送訊息做為協調行銷活動的一部分時，對象定義在&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動中，而不是在協調行銷活動中。
 
-## 設定建置對象活動 {#build-audience-configuration}
+## 設定建置客群活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience_audienceselector"
 >title="客群"
->abstract="選取您的對象，與您設計新傳遞時使用對象的方式相同。"
+>abstract="選取您的客群，與您設計新傳遞時使用客群的方式相同。"
 
 請按照以下步驟設定「**[!UICONTROL 建置客群]**」活動：
 

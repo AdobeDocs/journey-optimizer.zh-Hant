@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="協調的行銷活動詳細目錄"
->abstract="在此畫面中，您可以存取協調行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的協調行銷活動。"
+>abstract="在此畫面中，您可以存取協調式行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的協調式行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="動作"
->abstract="本節列出協調行銷活動內使用的所有動作。"
+>abstract="本節列出在協調式行銷活動中使用的所有動作。"
 
 可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
 

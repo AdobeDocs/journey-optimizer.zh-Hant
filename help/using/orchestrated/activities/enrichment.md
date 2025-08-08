@@ -7,7 +7,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。它常用於分段活動後的行銷活動。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的行銷活動。"
 
 **[!UICONTROL 擴充]**&#x200B;活動是&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，可讓您使用其他屬性增強您的客群資料。
 
@@ -28,12 +28,12 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用來擴充您的協調行銷活動的資料。 您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取要用於擴充協調的行銷活動的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
 >title="擴充活動"
->abstract="擴充資料新增至協調行銷活動後，即可用於擴充活動後新增的活動，以根據客戶行為、偏好和需求將客戶分組成不同的群組，或建立更可能引起目標對象共鳴的個人化行銷訊息和行銷活動。"
+>abstract="將擴充資料新增至協調的行銷活動後，在擴充活動之後新增的活動中便可以使用擴充資料，根據客戶的行為、偏好和需求將客戶細分成不同群組，或是用於建立最有可能讓目標客群產生共鳴的個人化行銷訊息和行銷活動。"
 
 請按照以下步驟設定&#x200B;**擴充**&#x200B;活動：
 

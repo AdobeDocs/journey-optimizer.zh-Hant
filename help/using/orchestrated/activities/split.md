@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割活動的區段"
->abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始您的「協調流程」行銷活動之前，請確定您已使用箭頭按鈕，以符合需求的順序訂購子集。"
+>abstract="依需求新增任意數量的子集，將傳入的群體進行細分。<br/></br>執行&#x200B;**分割** 活動時，系統會依照子集新增至活動的順序，將群體細分成不同的子集。在開始協調式行銷活動之前，請使用箭頭按鈕，確保以符合需求的順序排列子集。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="分割活動篩選器"
->abstract="若要將篩選條件套用至子集，請按一下&#x200B;**[!UICONTROL 建立篩選器]**，並使用規則產生器設定所要的篩選規則。 例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
+>abstract="若要將篩選條件套用到子集，請按一下「**[!UICONTROL 建立篩選器]**」並使用規則產生器設定所需的篩選規則。例如，於傳入族群中，將有電子郵件地址存在於資料庫的輪廓包含在內。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"

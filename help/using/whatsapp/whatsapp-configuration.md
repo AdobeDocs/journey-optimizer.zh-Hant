@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="輸入您的關鍵字"
->abstract="您可以定義關鍵字，以根據使用者文字觸發特定的自動回應。 關鍵字不區分大小寫，例如stop和STOP的處理方式相同。"
+>abstract="您可以定義關鍵字，根據使用者輸入的文字來觸發特定的自動回應。關鍵字不區分大小寫，例如 stop 與 STOP 將被視為相同字詞。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -180,6 +180,6 @@ ht-degree: 13%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

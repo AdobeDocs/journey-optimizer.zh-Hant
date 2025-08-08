@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -253,7 +253,7 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="善用多實體資料"
->abstract="瞭解協調的行銷活動如何運用關聯式資料集，讓資料更為豐富，以便進行細分和個人化"
+>abstract="了解協調式行銷活動如何運用相關資料集進行資料擴充，以便進行 Segmentation &amp; personalization"
 
 
 

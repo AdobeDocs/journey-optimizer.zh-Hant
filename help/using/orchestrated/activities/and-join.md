@@ -7,7 +7,7 @@ exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 84%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
->title="AND-join 活動"
->abstract="**並加入**&#x200B;活動可讓您同步處理協調行銷活動的多個執行分支。 一旦所有前面的活動完成，就會觸發此活動。這可讓您在繼續執行「協調流程」行銷活動之前，確定特定活動已完成。"
+>title="合併連結活動"
+>abstract="**合併連結**&#x200B;活動讓您可以同步處理協調式行銷活動的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。這讓您可以確保特定活動已完成後，再繼續執行協調式行銷活動。"
 
 「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。它可讓您同步處理協調行銷活動的多個執行分支。
 
