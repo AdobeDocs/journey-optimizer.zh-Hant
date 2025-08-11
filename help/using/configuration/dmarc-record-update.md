@@ -10,9 +10,9 @@ level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,8 +66,8 @@ ht-degree: 96%
 
 **實用連結**
 
-* 在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant#about){target="_blank"}中進一步瞭解DMARC
-* 閱讀[Google Gmail宣告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* 詳閱 [Yahoo!宣告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* 於[傳遞能力最佳做法指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant#about){target="_blank"}中瞭解更多有關 DMARC 的資訊
+* 詳閱 [Google Gmail 公告](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* 詳閱 [Yahoo!公告](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

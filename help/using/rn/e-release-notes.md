@@ -1,33 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer搶鮮版發行說明
-description: Adobe Journey Optimizer發行說明
+title: Journey Optimizer 搶鮮版發行說明
+description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會在每月底整合於[發行說明](release-notes.md)。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能增強並修正錯誤。所有變更都會在每月底整合於[發行說明](release-notes.md)。
 
-**在發行日期**&#x200B;之前，下列發行前說明可能會有所變更，恕不另行通知。 連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
 
-## 2025年8月搶鮮版發行說明 {#25-7-rn}
+## 2025 年 8 月搶鮮版發行說明 {#25-7-rn}
 
-**在發行日期**&#x200B;之前，下列發行前說明可能會有所變更，恕不另行通知。 連結、畫面和更新文件會於發行日期發佈。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面和更新文件會於發行日期發佈。
 
-另請參閱[Adobe Experience Platform發行前說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+另請參閱 [Adobe Experience Platform 搶鮮版發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**發行日期**：2025年8月19日
+**發行日期**：2025 年 8 月 19 日
 
 
 ### 全新功能 {#Aug-25-8-features}
@@ -47,7 +47,7 @@ ht-degree: 37%
 <p>您只能暫停並繼續單一歷程，或可執行大量暫停，然後繼續另一組歷程操作。</p>
 <p>此外，您還可以將全域篩選器套用至已暫停歷程，即可根據屬性排除設定檔。</p>
 <img src="assets/do-not-localize/PauseResume.gif">
-<p>先前僅供有限的客戶使用（可用性限制），而此功能現在則可供所有環境使用（一般可用性）。</p>
+<p>先前僅供有限的客戶使用 (有限可用性)，目前此功能所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-pause.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -66,14 +66,14 @@ ht-degree: 37%
 <tr>
 <td>
 <p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
-<p>此功能先前在「有限可用性」中提供，現在可供所有環境使用。 透過此「一般可用性」版本，功能包括：</p>
+<p>此功能之前以「限量」的名義發行，目前所有環境都可以使用。在此「一般可用性」版本中，功能包括：</p>
 <ul>
 <li>日期中導覽的設計改善</li>
-<li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期）</li>
-<li>隱藏和顯示長時間執行行事曆專案的新設定</li>
+<li>能夠檢視草稿行銷活動 (如果您已設定開始和結束日期)</li>
+<li>隱藏和顯示長時間執行行事曆項目的新設定</li>
 </ul>
 <img src="assets/do-not-localize/calendar.gif">
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-ui.md#journeys-calendar">詳細檔案</a></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-ui.md#journeys-calendar">詳細文件</a></p>
 </td>
 </tr>
 </tbody>
@@ -83,17 +83,17 @@ ht-degree: 37%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件Designer中的深色模式</strong><br/></th>
+<th><strong>電子郵件設計工具中的深色模式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer電子郵件Designer現在提供切換到深色模式檢視的功能，您可以在此處額外定義特定的自訂設定，該設定將僅對在深色模式下讀取其電子郵件的收件者顯示。</p>
+<p>Journey Optimizer 電子郵件設計工具現在提供切換到深色模式視圖的功能，您可以在此處額外定義特定的自訂設定，該設定將僅對在深色模式下讀取其電子郵件的收件者顯示。</p>
 <p>請注意下列事項：</p>
 <ul>
-<li>深色模式的最終呈現可能會有所不同，取決於收件者的電子郵件使用者端。</li>
-<li>並非所有電子郵件使用者端都支援自訂深色模式。 此外，某些電子郵件使用者端只會對收到的所有電子郵件套用自己的預設深色模式。 在這兩種情況下，您無法轉譯您在電子郵件Designer中定義的自訂設定。</li>
+<li>深色模式的最終呈現可能會有所不同，取決於收件者的電子郵件用戶端。</li>
+<li>並非所有電子郵件用戶端都支援自訂深色模式。此外，某些電子郵件用戶端只會對收到的所有電子郵件套用自己的預設深色模式。在這兩種情況下，系統無法呈現您在電子郵件設計工具中定義的自訂設定。</li>
 </ul>
 <P>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
@@ -113,16 +113,16 @@ ht-degree: 37%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型鎖定目標，以及使用兩者的進階組合，以最大化行銷活動的有效性。</p>
-<p>透過最佳化，您可以：</p>
+<p>Journey Optimizer 現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型目標定位，以及使用兩者的進階組合，從而最大化行銷活動的有效性。</p>
+<p>使用最佳化時，您可以：</p>
 <ul>
-<li>測試多種內容變異，以識別最有效的傳訊。</li>
-<li>根據使用者屬性和情境資料提供個人化內容。</li>
+<li>測試多種內容變化，以確定出最有效的傳訊。</li>
+<li>根據使用者屬性和內容資料提供個人化內容。</li>
 <li>針對進階行銷活動策略結合目標定位和實驗。</li>
 <li>篩選出不符合變體條件的使用者。</li>
-<li>確保後援機制以維持使用者參與。</li>
+<li>確保遞補機制以維持使用者參與。</li>
 </ul>
-<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供行銷活動中的適當體驗或內容。</p>
+<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供設定檔和行銷活動中的適當體驗或內容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
 </td>

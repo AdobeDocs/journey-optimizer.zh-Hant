@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,20 +86,20 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ## 子網域護欄 {#subdomain-guardrails}
 
-套用至Journey Optimizer子網域委派的護欄和限制於[本頁](../configuration/delegate-subdomain.md#guardrails)詳細說明。
+[本頁](../configuration/delegate-subdomain.md#guardrails)詳細說明了套用至 Journey Optimizer 子網域委派的護欄和限制。
 
 ## 片段護欄 {#fragments-guardrails}
 
 下列防護措施適用於[片段](../content-management/fragments.md)：
 
-* 若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Manage library items]**&#x200B;產品設定檔中包含的&#x200B;**[和]**&#x200B;發佈片段&#x200B;**[!DNL Content Library Manager]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+* 若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;權限。[了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
-* 視覺化片段不能超過100KB。 運算式片段不能超過200KB。
-* 若要在歷程或行銷活動中使用片段，其狀態必須是&#x200B;**即時**。
+* 視覺化片段不能超過 100KB。運算式片段不能超過 200KB。
+* 若要在歷程或行銷活動中使用片段，它現在必須處於&#x200B;**即時**&#x200B;狀態。
 * 片段中不支援[內容屬性](../personalization/personalization-build-expressions.md)。
-* 視覺片段在使用主題和手動樣式模式之間不相容。 為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。 [進一步瞭解主題](../email/apply-email-themes.md)
-* 在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
+* 視覺片段在使用主題和手動樣式模式之間不相容。為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。[進一步了解主題](../email/apply-email-themes.md)
+* 在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[進一步了解連結和追蹤](../email/message-tracking.md)
 
 ## 客群護欄 {#audience}
 
@@ -132,7 +132,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -166,11 +166,11 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 下列防護措施適用於您旅程的[事件](../event/about-events.md)：
 
-* 對於每個組織，Journey Optimizer支援的尖峰流量為每秒5,000個傳入歷程事件。
+* 針對每個組織，Journey Optimizer 支援每秒 5,000 個傳入歷程事件的尖峰量。
 * 事件觸發的歷程最多可能需要 5 分鐘來處理歷程的第一個動作。
 * 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
-* 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在12:01觸發特定設定檔的歷程，而另一個事件達到12:03 （無論是相同事件還是不同事件觸發相同歷程），則此設定檔的歷程將不會再次開始。
+* 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定設定檔的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此設定檔的歷程將不會再次開始。
 * Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次收錄的事件，或來自內部 Journey Optimizer 資料集的事件（訊息意見回饋、電子郵件追蹤等等）不能用於觸發歷程。對於無法取得串流事件的使用案例，請根據這些事件建置對象，然後改為使用&#x200B;**讀取對象**&#x200B;活動。 技術上可使用客群資格篩選，但不建議使用，因為它可能會根據所使用的操作導致下游挑戰。
 
 ### 資料來源 {#data-sources-g}
@@ -260,6 +260,6 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
 * 行銷活動不能與其他管道活動搭配使用：卡片、程式碼型體驗、電子郵件、推播、SMS 簡訊、應用程式內訊息、網頁。
 
-## Campaign Orchestration護欄 {#orchestration-guardrails}
+## 行銷活動協調護欄 {#orchestration-guardrails}
 
-本節詳細說明使用Campaign Orchestraton時要牢記的護欄和限制： [決策管理護欄和限制](../orchestrated/guardrails.md)。
+本節詳細說明使用行銷活動協調時要牢記的護欄和限制：[決策管理護欄和限制](../orchestrated/guardrails.md)。

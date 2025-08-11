@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 85%
 將 WhatsApp 與 Journey Optimizer 整合需要下列項目：
 
 * Meta 企業管理員帳戶
-* [具有已驗證寄件者名稱與電話號碼的WhatsApp商業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [具有已驗證寄件者名稱與電話號碼的 WhatsApp 企業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [使用者授權權杖擁有適當使用權限](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
@@ -46,7 +46,7 @@ ht-degree: 85%
 
 * 已經可以在 Adobe Journey Optimizer 中的 WhatsApp 頻道使用 HIPAA，但第三方還未納入 Adobe 的 BAA。 客戶需自行負責法規遵循及供應商驗證。
 
-* 請注意，系統尚未支援自動化或預先定義的回應訊息。
+* 請注意，尚未支援自動化或是預先定義的回答訊息。
 
 * 自 2025 年 4 月起，會針對擁有美國電話號碼 (由 +1 開始撥號的國碼、美國區域碼組成的號碼) 的 WhatsApp 使用者，暫時暫停傳送所有行銷範本訊息。 [可到 Meta 文件中進一步瞭解](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
 
@@ -54,11 +54,11 @@ ht-degree: 85%
 
 ## 作法影片 {#video}
 
-以下影片說明如何將WhatsApp整合為Adobe Journey Optimizer中的原生管道，以大規模提供安全、即時、個人化的訊息。
+以下影片說明如何將 WhatsApp 整合為 Adobe Journey Optimizer 中的原生頻道，以便大規模提供安全、即時、個人化的訊息。
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

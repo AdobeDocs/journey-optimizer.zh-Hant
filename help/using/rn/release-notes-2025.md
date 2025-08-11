@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4203'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ ht-degree: 99%
 
    * **沙箱複製和決策** (推出日期：2025 年 6 月 3 日) - 決策物件現在可以在沙箱之間複製，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **決策規則的決策專案屬性支援** （推出日期： 2025年6月4日） *您現在可以運用決策專案屬性來建立決策規則。 [閱讀全文](../experience-decisioning/rules.md#create)
+   * **決策規則的決策項目屬性支援** (推出日期：2025 年 6 月 4 日) * 您現在可以運用決策項目屬性來建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
 
 * **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 
@@ -306,7 +306,7 @@ ht-degree: 99%
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
+<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 5 月 23 日</p>
 </td>
@@ -361,7 +361,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>完成批次分段後，就可以立即觸發日常歷程執行目前所有客戶都可以在每日排程的歷程中，使用此選項。 此選項可讓您定義的時間視窗長達 6 小時之久，等待批次分段作業的客群資料，確保使用到最新資料，執行歷程。或者如果還未準備好，就可以直接跳過。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
+<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 <p>推出日期：2025 年 5 月 20 日</p>
@@ -381,7 +381,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 目前可讓您在預設選項之外，設定以下其他 SMS 提供者：Sinch、Infobip 和 Twilio。 透過自訂 SMS 提供者設定，您就可以直接整合第三方提供者，運用動態訊息的進階來承載自訂，同時管理同意偏好設定（選擇加入/選擇退出），以便確保有遵守法規遵循規範。</p>
 <p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用（一般可用性）。</p>
+<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
 <p>推出日期：2025 年 5 月 20 日</p>
 </td>
 </td>

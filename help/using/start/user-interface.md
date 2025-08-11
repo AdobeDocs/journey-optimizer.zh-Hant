@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -179,21 +179,21 @@ ht-degree: 96%
 ![](assets/do-not-localize/Context-help.gif)
 
 
-## 產品內警示
+## 產品內警報
 
-您可以訂閱Journey Optimizer產品發行的&#x200B;**電子郵件和產品內通知**。
+您可以訂閱 Journey Optimizer 產品發行的&#x200B;**電子郵件和產品內警報**。
 
-要訂閱：
+若要訂閱：
 
-1. 瀏覽至&#x200B;**Adobe Experience Cloud偏好設定**
-1. 在&#x200B;**通知**&#x200B;下，尋找&#x200B;**Journey Optimizer新發行版本**
+1. 瀏覽至 **Adobe Experience Cloud 偏好設定**。
+1. 在&#x200B;**通知**&#x200B;下，尋找 **Journey Optimizer 新發行版本**
 1. 啟用應用程式內通知和電子郵件通知
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## AI 助理 {#ai-assistant}
 
-AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
+AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念，並取得您特定環境的運作洞察。它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
@@ -253,7 +253,7 @@ AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="善用多實體資料"
->abstract="了解協調式行銷活動如何運用相關資料集進行資料擴充，以便進行 Segmentation &amp; personalization"
+>abstract="瞭解協調的行銷活動如何運用相關資料集，讓資料更為豐富，以便進行細分和個人化"
 
 
 
