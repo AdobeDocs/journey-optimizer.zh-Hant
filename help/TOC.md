@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 98%
       + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
       + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
       + [安排行銷活動](using/campaigns/campaign-schedule.md)
-      + [檢閱及啟動動作行銷活動](using/campaigns/review-activate-campaign.md)
+      + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
    + 由 API 觸發的行銷活動 {#api-triggered-campaigns}
       + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
@@ -202,7 +202,7 @@ ht-degree: 98%
       + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
-      + [開始使用協調式行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
       + [常見問題集](using/orchestrated/orchestrated-campaigns-faq.md)
       + 資料設定 {#configuration}
@@ -212,7 +212,7 @@ ht-degree: 98%
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
             + [擷取資料](using/orchestrated/ingest-data.md)
          + [建立目標維度](using/orchestrated/target-dimension.md)
-      + 啟動您的第一個協調行銷活動{#launch}
+      + 啟動您的首次協調行銷活動{#launch}
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
          + [協調活動](using/orchestrated/orchestrate-activities.md)
@@ -775,7 +775,7 @@ ht-degree: 98%
       + [執行 IP 暖身計劃](using/configuration/ip-warmup-execution.md)
       + [IP 暖身計劃檔案](using/configuration/ip-warmup-plan-files.md)
    + 監視電子郵件地址 {#monitor-reputation}
-      + [電子郵件錯誤型別](using/configuration/email-error-types.md)
+      + [電子郵件錯誤類型](using/configuration/email-error-types.md)
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)
       + [允許清單](using/configuration/allow-list.md)
