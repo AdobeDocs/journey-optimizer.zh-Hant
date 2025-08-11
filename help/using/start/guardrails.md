@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 [!DNL Journey Optimizer] [網頁行銷活動](../web/get-started-web.md)會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
 
-各個封裝的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
 ### 程式碼型管道護欄 {#code-based-guardrails}
 
