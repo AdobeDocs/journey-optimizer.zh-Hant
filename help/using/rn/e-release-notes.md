@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>登陸頁面自訂表單</strong><br/></th>
+<th><strong>歷程路徑最佳化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您建立自訂表單，並在登入頁面中運用自訂表單，將設定檔屬性擷取至為每個表單定義的資料集中。</p>
-<p>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。</p>
+<p>Journey Optimizer現在可讓您運用人工智慧和實驗架構，最佳化您的歷程，同時確保條件與最佳化功能之間的無縫可用性及差異。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>歷程最佳化</strong><br/></th>
+<th><strong>歷程中的動作活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您運用人工智慧和實驗架構，最佳化您的歷程，同時確保條件與最佳化功能之間的無縫可用性及差異。</p>
+<p>Journey Optimizer支援新的通用動作活動，可讓您設定單一動作和多管道傳出動作，進而簡化歷程畫布中的動作設定。 透過此新活動，您還能將目標最佳化、實驗和多語言變體新增到任何內建頻道動作。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您建立自訂表單，並在登入頁面中運用自訂表單，將設定檔屬性擷取至為每個表單定義的資料集中。</p>
+<p>此功能目前為 Beta 版本，僅供 Beta 版客戶使用。若要加入 Beta 版計畫，請聯絡 Adobe 代表。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ ht-degree: 47%
      若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義將附加至同意事件的自訂屬性。
 
 - **歷程**
-   - **歷程中的動作活動** - Journey Optimizer支援新的通用動作活動，可讓您設定單一和多管道的傳出動作，進而簡化歷程畫布中的動作設定。 透過此新活動，您還能將目標最佳化、實驗和多語言變體新增到任何內建頻道動作。
    - **歷程大量作業** — 您現在可以從歷程清單中選取多個專案。 選取後，您一次最多可以暫停或恢復10個歷程。
