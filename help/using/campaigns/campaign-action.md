@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 28%
+ht-degree: 34%
 
 ---
 
@@ -89,12 +89,12 @@ ht-degree: 28%
 
 +++
 
-## 新增多個入站動作 {#multi-action}
+## 新增多項入站動作 {#multi-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
->title="新增多個入站動作"
->abstract="您可以在單一行銷活動中選取數個傳入動作。 此功能可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，每個動作都包含特定內容。"
+>title="新增多項入站動作"
+>abstract="您可以在單一行銷活動中選取多項入站動作。此功能可讓您同時對不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，且每個動作都包含特定內容。"
 
 為簡化行銷活動策劃，您可以在單一行銷活動內定義數個傳入動作，每個動作會包含特定內容。
 

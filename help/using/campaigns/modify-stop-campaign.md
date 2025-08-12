@@ -28,7 +28,7 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="協調的行銷活動詳細目錄"
+>title="協調式行銷活動詳細目錄"
 >abstract="在此畫面中，您可以存取協調式行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的協調式行銷活動。"
 
 >[!CONTEXTUALHELP]
