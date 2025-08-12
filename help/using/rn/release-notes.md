@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 98%
+source-wordcount: '1460'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 98%
 **推出日期**：2025 年 8 月 4 日
 
 Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。此發行版本推出行銷活動協調畫布和增強型資料模型，共同讓行銷人員規劃、鎖定目標及提供個人化的跨頻道行銷活動。
+
+>[!IMPORTANT]
+>
+>若要存取Campaign Orchestration，您的授權必須包含&#x200B;**Journey Optimizer — 行銷活動和歷程**&#x200B;或&#x200B;**Journey Optimizer — 行銷活動**&#x200B;套件。 請聯絡您的Adobe代表以確認您的授權並在需要時進行更新。
 
 ![行銷活動協調 GIF](assets/do-not-localize/release.gif)
 
@@ -86,7 +90,7 @@ Adobe Journey Optimizer現在支援連結至以人物為基礎的設定檔的關
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 

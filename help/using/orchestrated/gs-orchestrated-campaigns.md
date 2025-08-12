@@ -5,10 +5,10 @@ title: 開始使用協調式行銷活動
 description: 瞭解如何從協調的行銷活動開始
 short-description: 探索協調的行銷活動主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 86bd6a100644a0f50aa9e18fd7023dec11c05bfe
+source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 30%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 24%
 
 [!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 
-雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。 透過視覺化的拖放介面，您可以跨多個管道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。
+>[!IMPORTANT]
+>
+>若要存取Campaign Orchestration，您的授權必須包含&#x200B;**Journey Optimizer — 行銷活動和歷程**&#x200B;或&#x200B;**Journey Optimizer — 行銷活動**&#x200B;套件。 請聯絡您的Adobe代表以確認您的授權並在需要時進行更新。
+
+雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
