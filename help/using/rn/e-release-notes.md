@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6326e1e3056f41f1550ac785bcbf83af175b37cc
+source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 55%
+source-wordcount: '1030'
+ht-degree: 47%
 
 ---
 
@@ -18,12 +18,10 @@ ht-degree: 55%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能增強並修正錯誤。所有變更都會在每月底整合於[發行說明](release-notes.md)。
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於[發行說明](release-notes.md)。
 
+## 2025年8月發行前注意事項 {#25-8-rn}
 
-## 2025 年 8 月搶鮮版發行說明 {#25-7-rn}
-
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面和更新文件會於發行日期發佈。
+**在發行日期**&#x200B;之前，下列發行前附註可能會有所變更，恕不另行通知。 連結、畫面和更新檔案會在發行日期的發行說明中發佈。
 
 另請參閱 [Adobe Experience Platform 搶鮮版發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
@@ -64,9 +62,9 @@ ht-degree: 55%
 <p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
 <p>此功能之前以「限量」的名義發行，目前所有環境都可以使用。在此「一般可用性」版本中，功能包括：</p>
 <ul>
-<li>日期中導覽的設計改善</li>
-<li>能夠檢視草稿行銷活動 (如果您已設定開始和結束日期)</li>
-<li>隱藏和顯示長時間執行行事曆項目的新設定</li>
+<li>日期中導覽的設計改善，</li>
+<li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期），</li>
+<li>隱藏和顯示長時間執行行事曆專案的新設定。</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -110,7 +108,7 @@ ht-degree: 55%
 <p>善用在個人化編輯器中的 Adobe Experience Platform 資料，將內容個人化。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。</p>
 <p>此功能之前以 [限量] 的名義發行，目前所有環境都可以使用。 已在此一般可用性版本中，引進以下增強功能：</p>
 <ul>
-<li>支援傳入頻道</li>
+<li>支援傳入頻道、</li>
 <li>「datasetLookup」協助程式函式現在可用於運算式和視覺片段中，以使用Adobe Experience Platform資料集中的資料進行個人化內容。</li>
 <li>資料集中的選項現在可讓您啟用資料集以進行查詢個人化，而無需執行API呼叫。</li>
 </ul>
@@ -179,16 +177,15 @@ ht-degree: 55%
 
 以下列舉部分發布內容附上的改良功能。
 
+- **管理**
+   - **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防發生頻道設定失敗或遺失DNS記錄。
 
 - **行銷活動**
    - **傳出行銷活動的速率控制** — 您現在可以為傳出行銷活動（電子郵件、簡訊、推播通知）啟用節流速率控制，讓您防止下游系統（例如登陸頁面或客戶服務平台）上的超載。
    - **動作行銷活動排程** — 已更新行銷活動每日、每週和每月排程器，以改善詳細程度。 例如，您現在可以設定排程之間的周數/月數、定義要執行的日期，以及決定在特定發生次數後或特定日期停止。
 
-- **管理**
-   - **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防發生頻道設定失敗或遺失DNS記錄。
-
 - **頻道 — 推播**
-   - **推播通知到期日** — 您現在可以為每個推播通知指定到期日，這樣可防止在特定日期之後傳送對時間敏感的訊息（例如「黑色星期五促銷」），從而避免給您的客戶帶來不佳的體驗。
+   - **推播通知到期日** — 您現在可以為每個推播通知指定到期日，以防止在特定日期之後傳送對時間敏感的訊息（例如黑色星期五特賣），從而避免給您的客戶帶來不佳的體驗。
 
 - **頻道 — 電子郵件**
    - **電子郵件的PDF附件** — 您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。
