@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ ht-degree: 32%
 <tr>
 <td>
 <p>Journey Optimizer現在可讓您運用人工智慧和實驗架構，最佳化您的歷程，同時確保條件與最佳化功能之間的無縫可用性及差異。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ ht-degree: 32%
    * **一鍵取消訂閱URL的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。
 
      若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義將附加至同意事件的自訂屬性。
+
+* **決策**
+
+   * **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則用於程式碼型體驗行銷活動。
 
 * **歷程**
 
