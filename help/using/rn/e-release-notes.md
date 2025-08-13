@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 35%
+source-wordcount: '929'
+ht-degree: 34%
 
 ---
 
@@ -205,6 +205,8 @@ ht-degree: 35%
    * **傳出行銷活動的速率控制** — 您現在可以為傳出行銷活動（電子郵件、簡訊、推播通知）啟用節流速率控制，讓您防止下游系統（例如登陸頁面或客戶服務平台）上的超載。
 
    * **動作行銷活動排程** — 已更新行銷活動每日、每週和每月排程器，以改善詳細程度。 例如，您現在可以設定排程之間的周數/月數、定義要執行的日期，以及決定在特定發生次數後或特定日期停止。
+
+   * **排程交易動作行銷活動** — 排程交易動作行銷活動現在可用於透過電子郵件、簡訊和推播頻道傳送批次、對象交易式通訊。
 
 * **頻道 — 推播**
 
