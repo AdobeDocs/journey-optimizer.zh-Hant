@@ -1,121 +1,99 @@
 ---
-keywords: Journey Optimizer;首頁;熱門主題
-title: Journey Optimizer 產品文件
-description: 了解如何使用 Adobe Journey Optimizer。
 solution: Journey Optimizer
-product: journey optimizer
-exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+product: Journey Optimizer
+title: Adobe Journey Optimizer 文件
+description: Adobe Journey Optimizer 文件
+redpen-status: CREATED_||_2025-08-11_21-21-01
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 10%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] 文件 {#cjm-documentation}
 
-## 新增功能
+# Adobe Journey Optimizer 文件{#section-overview}
 
-快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](using/rn/release-notes.md)。請造訪[文件更新頁面](using/rn/documentation-updates.md)，以便掌握產品文件的最新變更。
+Adobe Journey Optimizer可讓團隊透過電子郵件、簡訊等管道，設計及提供順暢、個人化的客戶體驗。 結合行銷活動協調、資料管理和決策的進階工具，可幫助您建立即時因應客戶需求的歷程。 本檔案提供熟悉平台的藍圖，包括探索其最新功能和整合，以及學習如何管理受眾、設定歷程和分析效能。 無論您是行銷人員、資料分析人員或行銷活動經理，您都能找到量身打造的逐步指南、最佳實務和資源，以幫助您滿懷信心地實現目標。
 
->[!BEGINTABS]
+## 開始探索
 
->[!TAB 2025 年 7 月發行說明]
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-7 月發布內容現已正式上線！請參閱發行說明以探索新功能、變更及改進。
+Adobe Journey Optimizer的新增功能
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+透過Adobe Journey Optimizer中的最新發行說明、新功能和檔案變更隨時掌握最新消息。
 
->[!TAB 行銷活動協調]
+[檢視新增功能](./rp_landing_pages/whats-new-landing-page.md)
+:::
 
-Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。此發行版本推出行銷活動協調畫布和增強型資料模型，共同讓行銷人員規劃、鎖定目標及提供個人化的跨頻道行銷活動。
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+開始使用Adobe Journey Optimizer
 
->[!TAB Adobe Express]
+瞭解Adobe Journey Optimizer的基本知識，包括其功能、架構和使用者介面。
 
-Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
+[開始使用](./rp_landing_pages/get-started-landing-page.md)
+:::
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-<!--
->[!TAB AI Assistant]
+完整的歷程指南
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+透過此深入指南，設計、協調、管理和最佳化個人化客戶歷程。
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[探索歷程](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+:::
 
->[!TAB AEM 內容片段]
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-透過將 Adobe Experience Manager as a Cloud Service 與 Adobe Journey Optimizer 整合在一處，您可以立即將 AEM 內容片段順利整合到 Journey Optimizer 內容當中。已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
+瞭解及管理行銷活動
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+針對有效鎖定目標而建立、管理和最佳化各種行銷活動型別的詳細指引。
+
+[瞭解行銷活動](./rp_landing_pages/campaigns-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+通訊通道
+
+設定和管理電子郵件、簡訊、推播通知和其他頻道，以進行個人化的客戶互動。
+
+[探索頻道](./using/channels/gs-channels.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+
+衝突管理與優先順序
+
+瞭解如何有效排列行銷活動和歷程的通訊衝突優先順序並進行管理。
+
+[瞭解衝突管理](./rp_landing_pages/conflict-prioritization-landing-page.md)
+:::
+
+::::
 
 
->[!ENDTABS]
+## 其他資源
 
-## 就從基本概念開始吧！
-
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>快速入門指南</strong><br/>了解如何根據您的角色，使用個人化方法更快地在 Journey Optimizer 中實現目標。</div>
-    </td>
-    <td>
-    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>使用者介面</strong><br/>了解如何在 Journey Optimizer 中導覽及最佳化您的體驗。</div>
-    </td>
-    <td>
-    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>建立您的第一個歷程</strong><br/>設計和編排個人化的全通道歷程，以一對一客戶參與來協調行銷外聯活動。 
-    </div>
-    </td>
-    <td>
-    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>啟動您的第一個行銷活動</strong><br/>在 Journey Optimizer 中建立並開始您的第一個行銷活動，以傳送已鎖定目標的一次性內容給特定客群。</div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    </tr>
-</table>
-
-## 探索文件
-
-<table style="table-layout:auto">
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>客戶體驗</strong><br/><a href="using/building-journeys/journey.md">歷程</a> - <a href="using/campaigns/get-started-with-campaigns.md">行銷活動</a> - <a href="using/landing-pages/get-started-lp.md">登陸頁面</a> - <a href="using/reports/live-report.md">報告</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">決策管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>設定<br/>管理</strong><br/><a href="using/configuration/channel-surfaces.md">通道表面</a> - <a href="using/configuration/about-data-sources-events-actions.md">設定歷程</a> - <a href="using/administration/permissions-overview.md">存取控制</a> - <a href="using/administration/sandboxes.md">沙箱管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>通訊通道</strong><br/><a href="using/email/get-started-email.md">電子郵件</a> - <a href="using/sms/get-started-sms.md">簡訊</a> - <a href="using/in-app/get-started-in-app.md">應用程式內</a> - <a href="using/push/get-started-push.md">推播通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">直接郵件</a> - <a href="using/web/get-started-web.md">網頁</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>內容管理</strong><br/><a href="using/integrations/assets.md">資產/影像</a> - <a href="using/personalization/personalize.md">個人化</a> - <a href="using/content-management/content-templates.md">可重複使用</a>和<a href="using/personalization/dynamic-content.md">動態</a>內容 - <a href="using/content-management/preview-test.md">測試和預覽內容</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>輪廓與客群</strong><br/><a href="using/audience/about-audiences.md">客群</a> - <a href="using/audience/get-started-profiles.md">輪廓</a> - <a href="using/audience/get-started-identity.md">身分識別</a> - <a href="using/audience/license-usage.md">授權使用情況</a> - <a href="using/privacy/get-started-privacy.md">隱私權管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>資料管理</strong><br/><a href="using/data/get-started-schemas.md">結構描述</a> - <a href="using/data/get-started-datasets.md">資料集</a> - <a href="using/data/get-started-queries.md">查詢</a>
-    </td>
-  </tr>
-</table>
+- **[測試、驗證和核准](./rp_landing_pages/test-landing-page.md)** — 測試和核准您的內容、歷程和行銷活動，以確保部署前的品質和準確性。
+- **[對象、設定檔和身分](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** — 管理對象、設定檔和身分，以啟用有效的目標定位和個人化。
+- **[全面報告](./rp_landing_pages/reporting-landing-page.md)** — 使用進階報告功能來分析和最佳化歷程、行銷活動和管道。
+- **[決策功能](./rp_landing_pages/decisioning-landing-page.md)** — 運用決策工具來建立和管理個人化優惠，並最佳化行銷工作流程。
+- **[完整的資料管理](./rp_landing_pages/data-management-landing-page.md)** — 使用治理、結構描述使用和查詢功能的工具，有效地管理資料。
+- **[頻道設定](./rp_landing_pages/configuration-landing-page.md)** — 設定並最佳化通訊頻道，以符合法規並提升行銷活動效能。
+- **[歷程設定](./rp_landing_pages/configure-journeys-landing-page.md)** — 設定資料來源、事件和動作，以建立順暢的客戶歷程。
+- **[連線系統和環境](./rp_landing_pages/connect-systems-landing-page.md)** — 整合Adobe Journey Optimizer與外部系統、API和Adobe解決方案。
+- **[管理存取控制](./rp_landing_pages/access-control-landing-page.md)** — 控制使用者存取、角色和許可權，以保護資料並確保治理。
+- **[隱私權、同意和資料控管](./rp_landing_pages/privacy-landing-page.md)** — 管理資料隱私權、同意和控管，以遵守法規並保護敏感資訊。
 
 ## 其他資源
 

@@ -6,10 +6,11 @@ description: 運用訊息最佳化來建立個人化和最佳化的行銷活動�
 role: User
 level: Intermediate
 keywords: 行銷活動最佳化、實驗、目標定位、A/B測試
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 最佳化可讓您使用工具，為行銷活動的對象提供個人化和最佳化的內容，<!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)-->確保最大限度的參與和成功，以建立高度<!--customized and -->有效的行銷活動。
 
-透過最佳化，您可以：
+使用最佳化時，您可以：
 
 * 運用[目標定位](#targeting)規則
 * 執行[內容實驗](#experimentation)
 * 在單一行銷活動中使用[進階組合](#combination)的實驗和目標定位
 
-行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供行銷活動中的適當體驗或內容。
+行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供設定檔和行銷活動中的適當體驗或內容。
 
 實驗與目標鎖定之間的差異概述如下：
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 1. 建立行銷活動。 [深入瞭解](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤中，選取至少兩個輸入動作，例如[程式碼型體驗](../code-based/get-started-code-based.md)和[應用程式內](../in-app/get-started-in-app.md)。
+1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤中，選取至少兩個輸入動作，例如[程式碼型體驗](../code-based/get-started-code-based.md)和[應用程式內](../../rp_landing_pages/in-app-landing-page.md)。
 
 1. 在&#x200B;**[!UICONTROL 訊息最佳化]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Experimentation]**。
 
@@ -161,4 +162,3 @@ Journey Optimizer也可讓您在單一行銷活動中結合目標定位和實驗
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 **目錄**
 
-* [開始使用內容卡](get-started-content-card.md)
+* [開始使用內容卡](../../rp_landing_pages/content-card-landing-page.md)
 * [內容卡的先決條件](content-card-configuration-prereq.md)
 * [在 Journey Optimizer 中設定內容卡頻道](content-card-configuration.md)
 * [建立內容卡](create-content-card.md)

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 簡單的四步驟工作流程和使用者介面。
 * 提供基本設定，以便在幾分鐘內開始透過[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集行動事件資料。
-* 能夠利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}測試及驗證基本行動推播事件。
+* 能夠利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}測試及驗證基本行動推播事件。
 * 自動建立及設定所有必要的資料收集和Journey Optimizer資產。
 * 在產品指引和工具提示中。
 * 如有需要，可提供更進階實作的自然轉換。
@@ -63,7 +63,7 @@ ht-degree: 9%
 ![](assets/mobile-wf-valid.png)
 
 
-## 檢閱 {#review-mobile-wf}
+## 審閱 {#review-mobile-wf}
 
 自動化設定已完成。 您現在可以造訪標籤行動屬性，設定規則或資料元素，並開始使用Adobe Journey Optimizer傳送推播通知。
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 **相關主題**
 
-* [開始使用推播通知](get-started-push.md)
+* [開始使用推播通知](../../rp_landing_pages/push-landing-page.md)
 * [推播通知資料流程和元件](push-gs.md)
 * [設定推播通道](push-configuration.md)
 * [推播通知報告](../reports/journey-global-report-cja-push.md#push-global)

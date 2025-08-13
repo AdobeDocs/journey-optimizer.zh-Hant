@@ -1,0 +1,52 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: 個人化使用案例
+description: 個人化使用案例
+redpen-status: CREATED_||_2025-08-12_00-35-09
+source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 6%
+
+---
+
+
+# 個人化使用案例{#section-overview}
+
+想像一下，建立專為您的對象量身打造的通訊內容，讓對象每次都能感受到客製化的感覺。 Adobe Journey Optimizer的個人化使用案例可讓您做到這點，混合客戶設定檔、即時上下文和決策型優惠，以製作真正引起共鳴的訊息。 無論您是要傳送訂單狀態更新、使用購物車放棄電子郵件重新吸引購物者，還是要個人化健康相關通知，本節都可逐步引導您。 每個使用案例都會展示如何結合資料和工具（例如協助程式函式或動態範本），以傳遞受眾認為相關且吸引人的訊息。 深入瞭解這些技術如何改變您的行銷活動。
+
+## Personalization使用案例
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+訂單狀態通知Personalization教學課程
+
+瞭解如何使用設定檔、情境式和Offer Decisioning資料，針對訂單狀態更新建立個人化推播通知。
+
+[開始教學課程](../using/personalization/personalization-use-case.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+放棄購買電子郵件Personalization指南
+
+瞭解如何使用協助程式功能來新增客戶特定和產品特定的詳細資訊，以個人化購物車放棄電子郵件。
+
+[探索指南](../using/personalization/personalization-use-case-helper-functions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+健康計畫處方電子郵件Personalization範例
+
+為健康計畫訂閱者建立個人化電子郵件，以強調處方狀態，例如準備好取用或召回。
+
+[檢視範例](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+::::
