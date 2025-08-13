@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b0901a86eaa1d9a0482caf689043a1029313f6c5
+source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 34%
+source-wordcount: '956'
+ht-degree: 33%
 
 ---
 
@@ -219,6 +219,8 @@ ht-degree: 34%
 * **頻道 — SMS**
 
    * **模糊選擇退出** — 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字（例如「CANCIL」）非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。
+
+   * **驗證SMS連線** — 您現在可以傳送範例訊息至指定裝置，在Adobe Journey Optimizer中輕鬆測試及驗證SMS API認證。
 
 * **設定**
 
