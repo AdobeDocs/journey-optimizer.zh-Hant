@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的資料來源可讓您連線至使用即時、個人
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用資料來源
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的資料來源可讓您連線至使用即時、個人
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 如何設定資料Source
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的資料來源可讓您連線至使用即時、個人
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Experience Platform Data Source
 
@@ -50,7 +50,7 @@ Adobe Experience Platform Data Source
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 設定外部資料來源
 

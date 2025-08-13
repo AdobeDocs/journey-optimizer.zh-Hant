@@ -20,7 +20,7 @@ ht-degree: 6%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 訂單狀態通知Personalization教學課程
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 放棄購買電子郵件Personalization指南
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 健康計畫處方電子郵件Personalization範例
 

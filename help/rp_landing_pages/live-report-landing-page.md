@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用即時報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 量度清單
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 歷程即時報告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 行銷活動即時報告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 登陸頁面即時報告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的即時報告功能可讓您在動態的可自訂儀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 訂閱即時報告
 

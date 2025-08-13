@@ -20,7 +20,7 @@ ht-degree: 8%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 將規則產生器用於協調的行銷活動
 
@@ -30,7 +30,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 如何在Adobe Journey Optimizer中建置您的第一個規則
 
@@ -40,7 +40,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 如何在Adobe Journey Optimizer中編輯運算式
 
@@ -50,7 +50,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中建立重新定位查詢
 

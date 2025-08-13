@@ -20,7 +20,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 協調行銷活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 護欄和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 協調行銷活動的資料設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 啟動及管理協調的行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 查詢資料庫以取得協調的行銷活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計和執行複
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Campaign活動的完整指南
 

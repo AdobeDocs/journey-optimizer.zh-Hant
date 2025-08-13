@@ -20,7 +20,7 @@ ht-degree: 3%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中建立區段定義
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 開始使用對象構成
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=zh-Hant)
 
 如何使用自訂CSV上傳匯入對象
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 聯合客群構成
 

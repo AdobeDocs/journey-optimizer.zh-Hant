@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「清單」功能可讓您在工作流程中操縱
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中使用「distinct」函式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「清單」功能可讓您在工作流程中操縱
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 distinctWithNull函式 — Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ distinctWithNull函式 — Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用Adobe Journey Optimizer中的「篩選」函式
 
@@ -50,7 +50,7 @@ distinctWithNull函式 — Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中使用getListItem函式
 
@@ -60,7 +60,7 @@ distinctWithNull函式 — Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用Adobe Journey Optimizer中的「in」函式
 
@@ -70,7 +70,7 @@ distinctWithNull函式 — Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer中的Intersect函式
 

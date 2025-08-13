@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的引導式管道設定簡化了設定行動裝置和
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定行動裝置和網路頻道
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的引導式管道設定簡化了設定行動裝置和
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和修改頻道設定
 

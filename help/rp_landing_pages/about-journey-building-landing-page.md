@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 歷程活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 使用一般事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 設定反應事件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 對象資格事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用條件活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的活動是建置區塊，可讓您跨管道觸發事
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 設定等待活動
 

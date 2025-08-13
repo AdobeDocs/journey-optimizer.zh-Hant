@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用決定管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 建立及管理決策元件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 建立及最佳化排名
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理優惠方案
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立和管理決定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的決定管理可讓您在適當時機將適當的優
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 使用批次決策
 

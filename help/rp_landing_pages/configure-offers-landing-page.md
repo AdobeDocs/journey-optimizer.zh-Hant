@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「設定優惠方案」區段可讓您設計和管
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立個人化優惠方案
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「設定優惠方案」區段可讓您設計和管
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將代表新增至優惠方案
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的「設定優惠方案」區段可讓您設計和管
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 將限制新增至優惠方案
 

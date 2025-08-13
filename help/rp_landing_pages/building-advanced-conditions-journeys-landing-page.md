@@ -20,7 +20,7 @@ Adobe Journey Optimizer包含&#x200B;**進階運算式編輯器**，可讓您在
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 使用進階運算式編輯器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer包含&#x200B;**進階運算式編輯器**，可讓您在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 運算式的進階語法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer包含&#x200B;**進階運算式編輯器**，可讓您在
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer中的函式
 

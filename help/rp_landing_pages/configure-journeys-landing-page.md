@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的歷程設定可整合資料來源、事件和動作
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用歷程設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的歷程設定可整合資料來源、事件和動作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer中的事件設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的事件設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer中的資料Source設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的資料Source設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 自訂動作設定與使用
 

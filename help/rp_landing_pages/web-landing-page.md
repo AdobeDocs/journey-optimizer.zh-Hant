@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的Web頻道可讓您直接在您的網站上建立個
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 Web Channel快速入門
 
@@ -30,7 +30,7 @@ Web Channel快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定Web Channel
 
@@ -40,7 +40,7 @@ Web Channel快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立及管理網頁體驗
 
@@ -50,7 +50,7 @@ Web Channel快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 製作及管理網頁
 

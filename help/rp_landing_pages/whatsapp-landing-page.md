@@ -20,7 +20,7 @@ Adobe Journey Optimizer可讓您透過WhatsApp與對象連線，這是一個最�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 WhatsApp訊息傳送快速入門
 
@@ -30,7 +30,7 @@ WhatsApp訊息傳送快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定WhatsApp頻道
 
@@ -40,7 +40,7 @@ WhatsApp訊息傳送快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立WhatsApp訊息
 
@@ -50,7 +50,7 @@ WhatsApp訊息傳送快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hant)
 
 預覽、驗證和傳送WhatsApp訊息
 

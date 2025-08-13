@@ -20,7 +20,7 @@ Adobe Journey Optimizer的程式碼型體驗管道可讓您在數位接觸點上
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用程式碼式Experience Channel提供優惠方案
 

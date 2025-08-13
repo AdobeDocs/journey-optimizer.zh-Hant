@@ -20,7 +20,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 決策管理簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 決策管理護欄和限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 優惠資料庫使用者介面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理優惠的重要步驟
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用用於決策的自訂上傳對象
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的決策管理功能可讓行銷人員透過多個管道
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 在電子郵件中使用個人化優惠
 

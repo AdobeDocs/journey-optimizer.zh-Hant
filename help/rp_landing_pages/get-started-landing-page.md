@@ -20,7 +20,7 @@ Adobe Journey Optimizer可讓企業跨多個管道建立個人化的即時客戶
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer的主要功能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的主要功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer架構概述
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer架構概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 核心概念： Adobe Journey Optimizer中的功能區域
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer架構概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer中的角色和責任
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的角色和責任
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer使用者介面概觀
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer使用者介面概觀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中搜尋、篩選及組織內容
 

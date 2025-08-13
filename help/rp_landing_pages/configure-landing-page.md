@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「設定內容卡頻道」區段可讓您透過動
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 內容卡片頻道設定先決條件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「設定內容卡頻道」區段可讓您透過動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 在Journey Optimizer中設定內容卡頻道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的「設定內容卡頻道」區段可讓您透過動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 在行動SDK中設定內容卡支援
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的「設定內容卡頻道」區段可讓您透過動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 在網頁SDK中設定內容卡支援
 

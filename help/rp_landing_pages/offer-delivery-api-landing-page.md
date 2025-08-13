@@ -20,7 +20,7 @@ Adobe Journey Optimizer的優惠傳送API可讓您在適當的時間向適當的
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 開始使用選件傳送API
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的優惠傳送API可讓您在適當的時間向適當的
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用Decisioning API傳遞優惠方案
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的優惠傳送API可讓您在適當的時間向適當的
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用Edge Decisioning API傳遞優惠方案
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的優惠傳送API可讓您在適當的時間向適當的
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 使用批次決策API提供優惠方案
 

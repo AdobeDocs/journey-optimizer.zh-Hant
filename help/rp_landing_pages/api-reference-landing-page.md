@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「API參考」區段會解鎖為客戶提供量身
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 優惠資料庫API快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「API參考」區段會解鎖為客戶提供量身
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用Adobe Journey Optimizer API傳遞優惠方案
 

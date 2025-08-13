@@ -20,7 +20,7 @@ Adobe Journey Optimizer的決策功能結合集中式決策專案目錄與強大
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 Decisioning 簡介
 
@@ -30,7 +30,7 @@ Decisioning 簡介
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 決策護欄和限制
 
@@ -40,7 +40,7 @@ Decisioning 簡介
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 API參考資料：傳遞優惠方案
 
@@ -50,7 +50,7 @@ API參考資料：傳遞優惠方案
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管理決定專案與目錄
 
@@ -60,7 +60,7 @@ API參考資料：傳遞優惠方案
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 建立決定規則
 
@@ -70,7 +70,7 @@ API參考資料：傳遞優惠方案
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用AI模型建立排名
 

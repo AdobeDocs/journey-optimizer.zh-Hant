@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 管道設定快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 設定及管理管道設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 引導式頻道設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 委派及管理電子郵件子網域
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 實作IP熱身計畫
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 監視電子郵件傳遞能力和信譽
 

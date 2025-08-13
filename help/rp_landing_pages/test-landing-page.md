@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「測試與核准」功能可讓您在啟動前自
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 預覽、測試和驗證內容
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「測試與核准」功能可讓您在啟動前自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 歷程與行銷活動的核准工作流程
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的「測試與核准」功能可讓您在啟動前自
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 存取及訂閱系統警示
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用Personalization
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 新增及驗證Personalization
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 瞭解Personalization語法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 重複使用運算式片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 針對Personalization (Beta)使用Adobe Experience Platform資料
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的Personalization可讓您根據個別設定檔、行
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 協助程式函式參考指南
 

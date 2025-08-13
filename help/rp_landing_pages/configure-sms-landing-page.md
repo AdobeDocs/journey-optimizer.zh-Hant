@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用SMS/MMS/RCS通道設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定SMS/MMS/RCS傳訊的Sinch提供者
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定Infobip SMS、MMS和RCS提供者
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定Twilio提供者的SMS/MMS/RCS傳訊
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 設定自訂SMS提供者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過異動警報或�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立SMS/MMS/RCS通道設定
 

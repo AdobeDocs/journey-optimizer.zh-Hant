@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用所有時間報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 完整的量度清單
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 手動設定Customer Journey Analytics
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管理您的報表
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定報告資料來源
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中的「所有時間報表」是瞭解行銷活動與歷
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 排除原因
 

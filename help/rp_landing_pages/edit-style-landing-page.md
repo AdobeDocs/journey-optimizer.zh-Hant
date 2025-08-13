@@ -20,7 +20,7 @@ Adobe Journey Optimizer的電子郵件Designer包括強大的樣式工具，可�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 自訂電子郵件樣式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的電子郵件Designer包括強大的樣式工具，可�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 個人化電子郵件背景
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的電子郵件Designer包括強大的樣式工具，可�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 調整垂直對齊與邊框間距
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的電子郵件Designer包括強大的樣式工具，可�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 新增內嵌樣式屬性
 

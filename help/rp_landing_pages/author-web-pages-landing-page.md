@@ -20,7 +20,7 @@ ht-degree: 3%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 使用網頁Designer編輯內容
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用非視覺化編輯器編輯網頁內容
 
@@ -40,7 +40,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中管理網頁修改
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 監視您的網頁體驗
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 如何在Adobe Journey Optimizer中編寫單頁應用程式
 

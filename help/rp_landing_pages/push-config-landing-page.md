@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的推播通知可讓您即時與對象連線，直接
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 推播通知資料流程與設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的推播通知可讓您即時與對象連線，直接
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 推播通知頻道設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的推播通知可讓您即時與對象連線，直接
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 行動入門快速入門工作流程
 

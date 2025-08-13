@@ -21,7 +21,7 @@ ht-degree: 3%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 在測試或發佈您的歷程之前疑難排解錯誤
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 疑難排解Adobe Journey Optimizer中的即時歷程執行
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 疑難排解Adobe Journey Optimizer歷程中的傳入動作
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 疑難排解Adobe Journey Optimizer中的自訂動作
 

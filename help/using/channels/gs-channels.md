@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 電子郵件頻道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 推播通知頻道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
 
 SMS / MMS / RCS訊息
 
@@ -57,7 +57,7 @@ SMS / MMS / RCS訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
 
 直接郵件行銷活動
 
@@ -75,7 +75,7 @@ SMS / MMS / RCS訊息
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
 應用程式內傳訊
 
@@ -85,7 +85,7 @@ SMS / MMS / RCS訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 Web
 
@@ -95,7 +95,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
 
 程式碼型體驗
 
@@ -105,7 +105,7 @@ Web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hant)
 
 內容卡片
 

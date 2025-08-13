@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的AI模型可協助您根據業務目標和客戶互�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 開始使用AI模型
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的AI模型可協助您根據業務目標和客戶互�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 自動最佳化模型
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的AI模型可協助您根據業務目標和客戶互�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 個人化最佳化模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的AI模型可協助您根據業務目標和客戶互�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 逐步指南：建立AI模型
 

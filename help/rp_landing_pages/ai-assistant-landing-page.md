@@ -20,7 +20,7 @@ Adobe Journey Optimizer的AI Assistant藉由利用創新型人工智慧，針對
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 AI助理快速入門
 
@@ -30,7 +30,7 @@ AI助理快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 使用AI產生電子郵件內容
 
@@ -40,7 +40,7 @@ AI助理快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 產生推播通知內容
 
@@ -50,7 +50,7 @@ AI助理快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
 
 使用AI產生SMS內容
 
@@ -60,7 +60,7 @@ AI助理快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 網頁內容與資產產生
 
@@ -70,7 +70,7 @@ AI助理快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hant)
 
 使用AI產生登陸頁面
 

@@ -20,7 +20,7 @@ Adobe Experience Platform是提供真正個人化客戶體驗的基礎，可協�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用inAudience函式
 

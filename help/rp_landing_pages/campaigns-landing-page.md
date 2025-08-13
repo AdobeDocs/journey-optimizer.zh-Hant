@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 存取及管理行銷活動
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 動作行銷活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 由 API 觸發的行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 協調的行銷活動
 

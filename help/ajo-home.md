@@ -20,7 +20,7 @@ Adobe Journey Optimizer可讓團隊透過電子郵件、簡訊等管道，設計
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer的新增功能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 完整的歷程指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
 
 瞭解及管理行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 通訊通道
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的新增功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
 
 衝突管理與優先順序
 

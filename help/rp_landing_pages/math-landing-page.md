@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的Math區段可讓您在歷程中執行精確計算�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 隨機函式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的Math區段可讓您在歷程中執行精確計算�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 round函式
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立優惠方案版位的指南
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 如何在Adobe Journey Optimizer中建立決定規則
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=zh-Hant)
 
 如何在Adobe Journey Optimizer中建立和管理集合限定詞
 

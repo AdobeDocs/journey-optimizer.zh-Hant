@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的「建立和管理優惠方案」區段可讓您製
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 在Adobe Journey Optimizer中設定優惠方案
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中的「建立和管理優惠方案」區段可讓您製
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 如何建立遞補優惠
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中的「建立和管理優惠方案」區段可讓您製
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立和管理優惠收藏
 
