@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支援新的通用動作活動，可讓您設定單一動作和多管道傳出動作，進而簡化歷程畫布中的動作設定。 透過此新活動，您還能將目標最佳化、實驗和多語言變體新增到任何內建頻道動作。</p>
+<p>Journey Optimizer支援新的通用動作活動，可讓您設定單一動作和多管道傳出動作，進而簡化歷程畫布中的動作設定。 這項新功能特別允許：</p>
+<ul>
+<li>歷程畫布中的簡化原生動作設定。</li>
+<li>建立多動作傳入節點的容量。</li>
+<li>將最佳化新增至任何內建頻道動作的功能。</li>
+</ul>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
