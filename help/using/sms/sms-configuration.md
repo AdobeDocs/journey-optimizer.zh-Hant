@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 31%
@@ -40,7 +40,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="模糊選擇退出"
->abstract="「啟用時，模糊選擇退出會偵測與定義的選擇退出關鍵字（例如「CANCIL」）極為相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。"
+>abstract="啟用時，模糊選擇退出會偵測與定義的選擇退出關鍵字（例如「CANCIL」）極為相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。"
 
 在傳送SMS、MMS或RCS之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 
