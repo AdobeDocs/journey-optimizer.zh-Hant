@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 44%
 <li>能夠新增實驗和多語言選項至任何動作。</li>
 </ul>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。</p>
+<p>您現在可以將靜態PDF檔案附加至隨Journey Optimizer傳送的電子郵件訊息。</p>
 <ul>
-<li>您每年最多可以為每個設定檔新增6則包含PDF附件的訊息。</li>
+<li>您每年最多可以為每個設定檔傳送6則含有PDF附件的訊息。</li>
 <li>每個附件的允許檔案大小上限為5 MB。</li>
 <li>若有其他大小或容量，您可以購買附件套件附加元件。 如需詳細資訊，請聯絡您的Adobe代表。</li>
 </ul>
