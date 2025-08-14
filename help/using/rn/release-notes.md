@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
+<th><strong>電子郵件的PDF附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。</p>
+<ul>
+<li>您每年最多可以為每個設定檔新增6則包含PDF附件的訊息。</li>
+<li>每個附件的允許檔案大小上限為5 MB。</li>
+<li>若有其他大小或容量，您可以購買附件套件附加元件。 如需詳細資訊，請聯絡您的Adobe代表。</li>
+</ul>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>登陸頁面自訂表單</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您建立自訂表單，並在登入頁面中運用自訂表單，將設定檔屬性擷取至為每個表單定義的資料集中。</p>
+<p>透過[!DNL Journey Optimizer]，您現在可以透過登入頁面擷取設定檔屬性。</p>
+<p>根據特定資料集，建立、設計和管理根據您的需求量身打造的自訂表格。 然後，您可以在登入頁面中善用這些表單，將您選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ ht-degree: 46%
 
    * **推播通知到期日** — 您現在可以為每個推播通知指定到期日，以防止在特定日期之後傳送對時間敏感的訊息（例如黑色星期五特賣），從而避免給您的客戶帶來不佳的體驗。
 
-* **頻道 — 電子郵件**
-
-   * **電子郵件的PDF附件** — 您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。 此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
-
 * **頻道 — SMS**
 
    * **模糊選擇退出** — 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字（例如「CANCIL」）非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。
@@ -276,7 +296,7 @@ ht-degree: 46%
 
    * **一鍵取消訂閱URL的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。
 
-     若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義將附加至同意事件的自訂屬性。
+     若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義也將附加至同意事件的自訂屬性。
 
 * **決策**
 
