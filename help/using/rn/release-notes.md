@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ ht-degree: 48%
    * **歷程大量作業** — 您現在可以從歷程清單中選取多個專案。 選取後，您一次最多可以暫停或恢復10個歷程。
 
    * 自訂動作中的&#x200B;**重新導向(302)支援** — 自訂動作現在可以根據每個要求處理HTTP 302重新導向。 如此一來，歷程便可整合API，將請求重新導向至當地語系化或區域專屬的URL。 重新導向程式會自動執行，確保提供正確內容而不需要額外設定。
+
+* **資料集**
+
+   * **Experience Decisioning物件存放庫 — 個人化優惠專案** — 內建的匯出資料集現在會擷取所有優惠屬性和生命週期狀態，啟用完整的個人化及報告。
 
 ## 行銷活動協調
 
