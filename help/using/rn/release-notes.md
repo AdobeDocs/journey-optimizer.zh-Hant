@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 667f1a2bd03c958d7d1a95c4f9fb3378417276c0
+source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 96%
+source-wordcount: '1624'
+ht-degree: 48%
 
 ---
 
@@ -22,6 +22,265 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
+
+## 2025 年 8 月搶鮮版發行說明 {#25-8-rn}
+
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面和更新文件會於發行日期發佈。
+
+另請參閱 [Adobe Experience Platform 搶鮮版發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**發行日期**：2025 年 8 月 19 日
+
+
+### 全新功能 {#Aug-25-8-features}
+
+此版本隨附的新功能詳述如下。
+
+<table>
+<thead>
+<tr>
+<th><strong>暫停並繼續歷程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您立即可以暫停，繼續歷程。在不中斷客戶體驗的情況下，此功能可讓歷程從業人員暫時暫停即時歷程，藉此提供更大控制力，帶來更多彈性。 暫停時，系統就不會傳送任何通訊，設定檔會維持在暫停狀態，直到繼續歷程為止。</p>
+<p>您只能暫停並繼續單一歷程，或可執行大量暫停，然後繼續另一組歷程操作。</p>
+<p>此外，您還可以將全域篩選器套用至已暫停歷程，即可根據屬性排除設定檔。</p>
+<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
+<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>行事曆檢視</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
+<p>此功能之前以「限量」的名義發行，目前所有環境都可以使用。在此「一般可用性」版本中，功能包括：</p>
+<ul>
+<li>日期中導覽的設計改善，</li>
+<li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期），</li>
+<li>隱藏和顯示長時間執行行事曆專案的新設定。</li>
+</ul>
+<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
+<ul>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
+</ul>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>使用 Adobe Experience Platform 資料進行個人化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>利用個人化編輯器中[!DNL Adobe Experience Platform]的資料，個人化您的內容和決定屬性。 尤其是，這可讓您將屬性的定義擴充至資料集中的其他資料，以定期變更大量更新，而無需一次手動更新一個屬性。</p>
+<p>此功能之前以 [限量] 的名義發行，目前所有環境都可以使用。 已在此一般可用性版本中，引進以下增強功能：</p>
+<ul>
+<li>支援傳入頻道、</li>
+<li>「datasetLookup」協助程式函式現在可用於運算式和視覺片段中，以使用Adobe Experience Platform資料集中的資料進行個人化內容。</li>
+<li>資料集中的選項現在可讓您啟用資料集以進行查詢個人化，而無需執行API呼叫。</li>
+</ul>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Use Decisioning in email channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程路徑最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您運用人工智慧和實驗架構，最佳化您的歷程，同時確保條件與最佳化功能之間的無縫可用性及差異。</p>
+<p>使用路徑最佳化來鎖定目標、進行實驗或使用AI來決定通訊順序、通訊之間的時間、管道的組合，以及您在歷程畫布上可以夢見的任何事物。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的動作活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer支援新的通用動作活動，可讓您設定單一動作和多動作傳入動作群組，進而簡化歷程畫布中的動作設定。 這項新功能特別允許：</p>
+<ul>
+<li>歷程畫布中的簡化原生動作設定。</li>
+<li>建立多動作傳入節點的容量。</li>
+<li>將最佳化新增至任何內建頻道動作的功能。</li>
+<li>能夠新增實驗和多語言選項至任何動作。</li>
+</ul>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您建立自訂表單，並在登入頁面中運用自訂表單，將設定檔屬性擷取至為每個表單定義的資料集中。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>行銷活動中的最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型目標定位，以及使用兩者的進階組合，從而最大化行銷活動的有效性。</p>
+<p>使用最佳化時，您可以：</p>
+<ul>
+<li>測試多種內容變化，以確定出最有效的傳訊。</li>
+<li>根據使用者屬性和內容資料提供個人化內容。</li>
+<li>針對進階行銷活動策略結合目標定位和實驗。</li>
+<li>篩選出不符合變體條件的使用者。</li>
+<li>確保遞補機制以維持使用者參與。</li>
+</ul>
+<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供設定檔和行銷活動中的適當體驗或內容。</p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
+<p>發行日期： 2025年8月8日</p>
+<p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細文件</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改良功能 {#Aug-25-8-improv}
+
+以下列舉部分發布內容附上的改良功能。
+
+* **管理**
+
+   * **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防發生頻道設定失敗或遺失DNS記錄。
+
+* **行銷活動**
+
+   * **傳出行銷活動的速率控制** — 您現在可以為傳出行銷活動（電子郵件、簡訊、推播通知）啟用節流速率控制，讓您防止下游系統（例如登陸頁面或客戶服務平台）上的超載。
+
+   * **動作行銷活動排程** — 已更新行銷活動每日、每週和每月排程器，以改善詳細程度。 例如，您現在可以設定排程之間的周數/月數、定義要執行的日期，以及決定在特定發生次數後或特定日期停止。
+
+   * **排程交易動作行銷活動** — 排程交易動作行銷活動現在可用於透過電子郵件、簡訊和推播頻道傳送批次、對象交易式通訊。
+
+* **頻道 — 推播**
+
+   * **推播通知到期日** — 您現在可以為每個推播通知指定到期日，以防止在特定日期之後傳送對時間敏感的訊息（例如黑色星期五特賣），從而避免給您的客戶帶來不佳的體驗。
+
+* **頻道 — 電子郵件**
+
+   * **電子郵件的PDF附件** — 您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。
+
+* **頻道 — SMS**
+
+   * **模糊選擇退出** — 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字（例如「CANCIL」）非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。
+
+     請注意，**Fuzzy Opt-out**&#x200B;僅適用於Sinch和Infobip。
+
+   * **驗證SMS連線** — 您現在可以傳送範例訊息至指定裝置，在Adobe Journey Optimizer中輕鬆測試及驗證SMS API認證。
+
+* **設定**
+
+   * **動態網域支援** - Journey Optimizer現在支援在管道設定層級所列之預先定義網域的追蹤URL中的個人化。
+
+   * **一鍵取消訂閱URL的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。
+
+     若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義將附加至同意事件的自訂屬性。
+
+* **決策**
+
+   * **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則用於程式碼型體驗行銷活動。
+
+* **歷程**
+
+   * **歷程大量作業** — 您現在可以從歷程清單中選取多個專案。 選取後，您一次最多可以暫停或恢復10個歷程。
+
+   * 自訂動作中的&#x200B;**重新導向(302)支援** — 自訂動作現在可以根據每個要求處理HTTP 302重新導向。 如此一來，歷程便可整合API，將請求重新導向至當地語系化或區域專屬的URL。 重新導向程式會自動執行，確保提供正確內容而不需要額外設定。
 
 ## 行銷活動協調
 
@@ -85,217 +344,4 @@ Adobe Journey Optimizer現在支援連結至以人物為基礎的設定檔的關
 
 閱讀[行銷活動協調文件](../orchestrated/gs-orchestrated-campaigns.md)並深入了解。
 
-<!--
-## August '25 pre release notes {#25-7-rn}
 
-**Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
-
-**Release date**: August 19, 2025
-
-
-### New capabilities {#Aug-25-8-features}
-
-New capabilities coming with this release are detailed below.
-
-### Improvements {#Aug-25-8-improv}
-
-Improvements coming with this release are listed below.
--->
-
-## 2025年8月更新 {#25.8-rn}
-
-<table>
-<thead>
-<tr>
-<th><strong>行銷活動中的最佳化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 現在可讓您使用工具，為行銷活動的對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型目標定位，以及使用兩者的進階組合，從而最大化行銷活動的有效性。</p>
-<p>使用最佳化時，您可以：</p>
-<ul>
-<li>測試多種內容變化，以確定出最有效的傳訊。</li>
-<li>根據使用者屬性和內容資料提供個人化內容。</li>
-<li>針對進階行銷活動策略結合目標定位和實驗。</li>
-<li>篩選出不符合變體條件的使用者。</li>
-<li>確保遞補機制以維持使用者參與。</li>
-</ul>
-<P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供設定檔和行銷活動中的適當體驗或內容。</p>
-<p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>發行日期： 2025年8月8日</p>
-<p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細文件</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-
-## 2025 年 7 月發行說明 {#25-7-rn}
-
-**發行日期**：2025 年 7 月 29 日
-
-### 全新功能 {#features-25-7}
-
-此版本隨附的新功能詳述如下。
-
-#### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>品牌</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以建立和自訂自己的品牌，以在整個通訊過程中清楚地定義您的視覺和語言識別。透過品牌一致性分數，您可以收到即時回饋，以了解您的內容對您的品牌基調、風格和方針的反映程度，協助您在傳送的每則訊息中始終保持一致的品牌形象。</p>
-<p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
-<p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/brands.md">詳細文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>在電子郵件頻道中使用決策</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，傳送給每個對象成員。</p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
-如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision.md">詳細文件</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>LINE 頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer 已擴充其跨頻道功能，以包含對 LINE 頻道的支援。此增強功能可讓您建立、編輯和預覽 LINE 體驗，以啟用更個人化且吸引人的互動。透過 LINE，您可以與更多客戶連絡、傳送相關內容並改善您的參與度。</p>
-<p>先前僅開放請求，現在所有使用者均可使用 LINE 頻道 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/line-landing-page.md">詳細文件</a>。</p></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程試運行</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。</p>
-<img src="assets/do-not-localize/DryRun.gif">
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-dry-run.md">詳細文件</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程的補充識別碼</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>目前您可以使用輪廓 ID 和其他識別碼（例如訂購 ID、訂閱 ID 或處方 ID）來觸發歷程，即可允許同一設定檔同時出現在同一歷程中許多次。這能啟用某些情境，同時管理許多訂單或訂閱，每個執行個體還會依循自己的歷程路徑操作。</p>
-<p>之前以「限量」的名義發行，現在所有環境都可以在歷程中使用補充識別碼。在此「一般可用性」版本中，功能現在包含對「讀取對象」歷程的支援。</p>
-<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/supplemental-identifier.md">詳細文件</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 產品內警報
-
-您現在可以訂閱 Journey Optimizer 產品發行的&#x200B;**電子郵件和產品內警報**。
-
-若要訂閱：
-
-* 瀏覽至 **Adobe Experience Cloud 偏好設定**。
-* 在&#x200B;**通知**&#x200B;下，尋找 **Journey Optimizer 新發行版本**
-* 啟用應用程式內通知和電子郵件通知
-
-![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
-
-
-### 歷程條件的變更 {#ee-change@}
-
-自 7 月 8 日開始，在新的客戶組織中，歷程條件中使用的運算式編輯器不再支援使用體驗事件來建立運算式。因此，[Experience Platform 資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。使用體驗事件建立運算式/邏輯的替代方法和最佳做法可參考[這裡](../building-journeys/exp-event-lookup.md)。
-
-在單一歷程中存取歷程內容事件資料的方式不會變更。在運算式和個人化編輯器中，使用者可以繼續存取透過初始歷程事件傳入的資料。
-
-在[本常見問題集](../building-journeys/exp-event-lookup.md#faq-ee)中深入瞭解。
-
-### 改良功能 {#25-7-improv}
-
-以下列舉部分發布內容附上的改良功能。
-
-* **行銷活動**
-
-   * **行銷活動中有多個傳入動作** — 為簡化行銷活動協調，您現在可以在單一行銷活動中定義數個傳入動作。此功能可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡或網頁動作，每個動作都包含特定內容。
-     [閱讀全文](../campaigns/campaign-action.md#multi-action)
-
-   * **行銷活動詳細目錄重組** — 排程和 API 觸發的行銷活動現在分割為行銷活動詳細目錄中的個別索引標籤，以便更輕鬆導覽和管理。
-
-[閱讀全文](../campaigns/modify-stop-campaign.md)
-
-* **資料管理**
-   * **決策管理系統資料集更新** — 已刪除的個人化和遞補優惠現在在「decision_object_repository_personalized_offers」和「decision_object_repository_fallback_offers」資料集中標示為已封存。資料集中的現有記錄不會變更。
-
-[閱讀全文](../offers/export-catalog/access-dataset.md)
-
-* **歷程**
-   * **歷程沙箱工具增強功能** — 使用封裝匯出和匯入功能，跨多個沙箱複製歷程時，現在也可使用下列功能：
-      * 選取目標上的現有事件
-      * 複製獨立於歷程之外的事件
-      * 偵測欄位群組/資料來源關係，如果它們存在，則在目標連結至它們，如果不存在，則建立它們。
-
-[閱讀全文](../configuration/copy-objects-to-sandbox.md)
-
-* **頻道 — 應用程式內**
-   * **應用程式內金鑰/值配對** — 使用應用程式內訊息，您可以定義金鑰和值配對，以在訊息承載中包含自訂變數。這些金鑰-值配對可讓您根據特定設定和使用案例傳遞其他資料。[閱讀全文](../in-app/design-in-app.md)
-
-* **頻道 — 內容卡**
-
-   * **規則型行銷活動取消資格** — 編輯其他傳遞規則時，先前的「傳遞規則」選項已取代為三種不同的規則類型，以便更妥善地控制訊息時間與可見度：
-      * 顯示訊息條件：決定何時顯示內容卡的條件。
-      * 關閉訊息條件：暫時隱藏內容卡的條件。如果再次符合顯示條件，則可重新顯示。
-      * 取消訊息資格條件：永久阻止內容卡再次顯示的條件。
-
-[閱讀全文](../content-card/design-content-card.md)
-
-* **決策**
-   * **移轉工具 API** — Journey Optimizer 團隊目前正在處理移轉工具 API，以將決策管理實體移轉至決策。此工具可讓您在沙箱之間無縫移轉，並具備相依性解析和復原功能。如有興趣，請聯絡您的 Adobe 代表。
-
-* **個人化**
-   * 個人化編輯器已新增新協助程式函數「SHA256」。此函數用於計算及傳回字串的 sha256 雜湊。
-
-[閱讀全文](../personalization/functions/string.md#sha256)
