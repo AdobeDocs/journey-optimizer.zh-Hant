@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ ht-degree: 44%
 <tr>
 <td>
 <p>利用個人化編輯器中[!DNL Adobe Experience Platform]的資料，個人化您的內容和決定屬性。 尤其是，這可讓您將屬性的定義擴充至資料集中的其他資料，以定期變更大量更新，而無需一次手動更新一個屬性。</p>
-<p>此功能之前以 [限量] 的名義發行，目前所有環境都可以使用。 已在此一般可用性版本中，引進以下增強功能：</p>
+<p>此版本已引入下列增強功能：</p>
 <ul>
 <li>支援傳入頻道、</li>
 <li>「datasetLookup」協助程式函式現在可用於運算式和視覺片段中，以使用Adobe Experience Platform資料集中的資料進行個人化內容。</li>
 <li>資料集中的選項現在可讓您啟用資料集以進行查詢個人化，而無需執行API呼叫。</li>
 </ul>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ ht-degree: 44%
 
 * **管理**
 
-   * **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防發生頻道設定失敗或遺失DNS記錄。
+   * **頻道設定監視警示** — 您現在可以訂閱接收系統警示，可以透過電子郵件或Journey Optimizer通知中心接收，以防缺少<!--a channel configuration failure happens or if -->DNS記錄。
 
 * **行銷活動**
 
