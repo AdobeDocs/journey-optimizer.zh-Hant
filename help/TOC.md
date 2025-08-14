@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 804dfd79ac48b0030213e9a3ba944146a4fe8c15
+source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 98%
 
 ---
@@ -890,6 +890,7 @@ ht-degree: 98%
       + [允許清單](using/configuration/allow-list.md)
    + [使用種子清單](using/configuration/seed-lists.md)
    + [支援封存](using/configuration/archiving-support.md)
+   + [匯出訊息內容](using/configuration/message-export.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
    + [設定業務規則](using/configuration/frequency-rules.md)
 + 歷程設定 {#configure-journeys}
