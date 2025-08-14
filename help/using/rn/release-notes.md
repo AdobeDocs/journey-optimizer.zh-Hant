@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 48%
 
 ---
@@ -254,7 +254,7 @@ ht-degree: 48%
 
 * **頻道 — 電子郵件**
 
-   * **電子郵件的PDF附件** — 您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。
+   * **電子郵件的PDF附件** — 您現在可以將靜態PDF檔案附加至透過Journey Optimizer傳送的電子郵件訊息。 此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
 
 * **頻道 — SMS**
 
