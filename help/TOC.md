@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
 workflow-type: tm+mt
 source-wordcount: '2881'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
    + [架構](using/start/architecture-concepts-redpen.md)
    + [核心概念](using/start/functional-areas-redpen.md)
    + [重要術語](using/start/terminology-md-redpen.md)
-   + 角色和責任 {#quick-start}
+   + 角色與職責 {#quick-start}
       + [概觀](using/start/quick-start.md)
       + [行銷人員快速入門](using/start/path/marketer.md)
       + [資料工程師快速入門](using/start/path/data-engineer.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
       + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
       + [結束您的歷程](using/building-journeys/end-journey.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
-      + [與智慧型服務整合](using/building-journeys/ai-services-overview.md)
+      + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 活動 {#about-journey-building}
       + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
@@ -253,7 +253,7 @@ ht-degree: 98%
          + [編輯運算式](using/orchestrated/edit-expressions.md)
          + [重新鎖定目標對象](using/orchestrated/retarget.md)
       + 協調行銷活動 {#design-campaigns}
-         + [協調的行銷活動](/help/rp_landing_pages/design-campaigns-landing-page.md)
+         + [協調行銷活動](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [開始使用活動](using/orchestrated/activities/about-activities.md)
          + [合併連結](using/orchestrated/activities/and-join.md)
          + [建置客群](using/orchestrated/activities/build-audience.md)
@@ -299,8 +299,8 @@ ht-degree: 98%
    + [系統警示](using/reports/alerts.md)
 + 通訊管道 {#channels}
    + [開始使用通訊管道](using/channels/gs-channels.md)
-   + 電子郵件頻道 {#email}
-      + [電子郵件頻道](/help/rp_landing_pages/email-landing-page.md)
+   + 電子郵件管道 {#email}
+      + [電子郵件管道](/help/rp_landing_pages/email-landing-page.md)
       + [建立電子郵件](using/email/create-email.md)
       + 設計電子郵件內容 {#design-email}
          + [設計電子郵件內容](/help/rp_landing_pages/design-email-landing-page.md)
@@ -329,8 +329,8 @@ ht-degree: 98%
             + [加入內嵌樣式屬性](using/email/inline-styling.md)
             + [定義深色模式內容](using/email/dark-mode.md)
       + [管理電子郵件選擇退出](using/email/email-opt-out.md)
-      + 設定電子郵件頻道 {#configure-email}
-         + [設定電子郵件頻道](/help/rp_landing_pages/configure-email-landing-page.md)
+      + 設定電子郵件管道 {#configure-email}
+         + [設定電子郵件管道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
          + [定義電子郵件組態設定](using/email/email-settings.md)
          + [啟用清單取消訂閱](using/email/list-unsubscribe.md)
@@ -342,15 +342,15 @@ ht-degree: 98%
          + [開始使用傳遞能力](using/reports/deliverability.md)
          + [瞭解禁止名單](using/reports/suppression-list.md)
          + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
-   + 應用程式內頻道 {#in-app}
-      + [應用程式內頻道](/help/rp_landing_pages/in-app-landing-page.md)
-      + [應用程式內頻道先決條件](using/in-app/inapp-configuration.md)
+   + 應用程式內管道 {#in-app}
+      + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
+      + [應用程式內管道先決條件](using/in-app/inapp-configuration.md)
       + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
       + [設計您的應用程式內內容](using/in-app/design-in-app.md)
       + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
-   + 推播通知頻道 {#push}
-      + [推播通知頻道](/help/rp_landing_pages/push-landing-page.md)
+   + 推播通知管道 {#push}
+      + [推播通知管道](/help/rp_landing_pages/push-landing-page.md)
       + [建立推播通知](using/push/create-push.md)
       + [設計推播通知](using/push/design-push.md)
       + [檢查並傳送推播通知](using/push/send-push.md)
@@ -364,7 +364,7 @@ ht-degree: 98%
       + [開始使用文字訊息](using/sms/get-started-sms.md)
       + [建立簡訊 / MMS / RCS 訊息](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
-      + [管理選擇退出的文字訊息](using/sms/sms-opt-out.md)
+      + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
       + 設定簡訊 / MMS / RCS 頻道 {#configure-sms}
          + [設定簡訊 / MMS / RCS 頻道](/help/rp_landing_pages/configure-sms-landing-page.md)
@@ -415,8 +415,8 @@ ht-degree: 98%
          + [管理程式碼型體驗](using/code-based/publish-code-based.md)
    + 內容卡 {#content-card}
       + [內容卡](/help/rp_landing_pages/content-card-landing-page.md)
-      + 設定內容卡頻道 {#configure}
-         + [設定內容卡頻道](/help/rp_landing_pages/configure-landing-page.md)
+      + 設定內容卡管道 {#configure}
+         + [設定內容卡管道](/help/rp_landing_pages/configure-landing-page.md)
          + [內容卡的先決條件](using/content-card/content-card-configuration-prereq.md)
          + [在 Journey Optimizer 中設定內容卡頻道](using/content-card/content-card-configuration.md)
          + [在 Mobile SDK 中設定內容卡支援](using/content-card/content-card-lp.md)
@@ -539,8 +539,8 @@ ht-degree: 98%
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
-+ 客群、設定檔與身分識別 {#audiences-profiles-identities}
-   + [客群、設定檔與身分識別](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
++ 客群、輪廓與身分 {#audiences-profiles-identities}
+   + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 客群 {#audiences}
       + [客群](/help/rp_landing_pages/audiences-landing-page.md)
       + [開始使用 Audiences](using/audience/about-audiences.md)
@@ -617,8 +617,8 @@ ht-degree: 98%
          + [資料擷取欄位](using/reports/sharing-fetch-fields.md)
          + [身分識別欄位](using/reports/sharing-identity-fields.md)
       + [查詢範例](using/reports/query-examples.md)
-+ 決定功能 {#decisioning}
-   + [決定功能](/help/rp_landing_pages/decisioning-landing-page.md)
++ 決策功能 {#decisioning}
+   + [決策功能](/help/rp_landing_pages/decisioning-landing-page.md)
    + [開始使用決定功能](using/experience-decisioning/gs-decision.md)
    + 決策 {#experience-decisioning}
       + [決策](/help/rp_landing_pages/experience-decisioning-landing-page.md)
