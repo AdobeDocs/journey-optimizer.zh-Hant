@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
+source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 44%
+source-wordcount: '1749'
+ht-degree: 65%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 44%
 <p>您只能暫停並繼續單一歷程，或可執行大量暫停，然後繼續另一組歷程操作。</p>
 <p>此外，您還可以將全域篩選器套用至已暫停歷程，即可根據屬性排除設定檔。</p>
 <p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -68,9 +68,9 @@ ht-degree: 44%
 <p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
 <p>此功能之前以「限量」的名義發行，目前所有環境都可以使用。在此「一般可用性」版本中，功能包括：</p>
 <ul>
-<li>日期中導覽的設計改善，</li>
-<li>能夠檢視草稿行銷活動（如果您已設定開始和結束日期），</li>
-<li>隱藏和顯示長時間執行行事曆專案的新設定。</li>
+<li>日期中導覽的設計改善；</li>
+<li>能夠檢視草稿行銷活動 (如果您已設定開始和結束日期)；</li>
+<li>隱藏和顯示長時間執行行事曆項目的新設定。</li>
 </ul>
 <p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
@@ -114,9 +114,9 @@ ht-degree: 44%
 <p>利用個人化編輯器中[!DNL Adobe Experience Platform]的資料，個人化您的內容和決定屬性。 尤其是，這可讓您將屬性的定義擴充至資料集中的其他資料，以定期變更大量更新，而無需一次手動更新一個屬性。</p>
 <p>此版本已引入下列增強功能：</p>
 <ul>
-<li>支援傳入頻道、</li>
-<li>「datasetLookup」協助程式函式現在可用於運算式和視覺片段中，以使用Adobe Experience Platform資料集中的資料進行個人化內容。</li>
-<li>資料集中的選項現在可讓您啟用資料集以進行查詢個人化，而無需執行API呼叫。</li>
+<li>支援傳入管道；</li>
+<li>「datasetLookup」協助程式函式現在可用於運算式和視覺片段中，以使用 Adobe Experience Platform 資料集中的資料個人化內容；</li>
+<li>資料集中的選項現在可讓您啟用資料集以進行查詢個人化，而無需執行 API 呼叫。</li>
 </ul>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -153,10 +153,10 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您運用人工智慧和實驗架構，最佳化您的歷程，同時確保條件與最佳化功能之間的無縫可用性及差異。</p>
-<p>使用路徑最佳化來鎖定目標、進行實驗或使用AI來決定通訊順序、通訊之間的時間、管道的組合，以及您在歷程畫布上可以夢見的任何事物。</p>
+<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
+<p>使用新的「最佳化」活動來鎖定目標、實驗或使用AI來決定通訊順序、通訊之間的時間、管道的組合，以及您在歷程畫布上夢見的任何事物。</p>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -250,7 +250,7 @@ ht-degree: 44%
 </ul>
 <P>行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供設定檔和行銷活動中的適當體驗或內容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p>發行日期： 2025年8月8日</p>
+<p>發行日期：2025 年 8 月 8 日</p>
 <p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細文件</a></p>
 </td>
 </tr>
@@ -277,15 +277,15 @@ ht-degree: 44%
 
       * **每日、每週或每月排程**：您可以指定週期性排程應在特定日期停止，還是在特定次數後停止。
 
-   * **排程交易動作行銷活動** — 排程交易動作行銷活動現在可用於透過電子郵件、簡訊和推播頻道傳送批次、對象交易式通訊。
+   * **排程交易動作行銷活動** - 排程交易動作行銷活動現在可用於透過電子郵件、簡訊和推播管道傳送批次、以客群為基礎的交易通訊。
 
-* **頻道 — 推播**
+* **管道 - 推播**
 
-   * **推播通知到期日** — 您現在可以為每個推播通知指定到期日，以防止在特定日期之後傳送對時間敏感的訊息（例如黑色星期五特賣），從而避免給您的客戶帶來不佳的體驗。
+   * **推播通知過期日期** - 您現在可以為每個推播通知指定過期日期，以防止在特定日期之後傳送對時間敏感的訊息 (例如黑色星期五特賣)，從而避免使客戶體驗不佳。
 
-* **頻道 — SMS**
+* **管道 - 簡訊**
 
-   * **模糊選擇退出** — 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字（例如「CANCIL」）非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。 如果使用者透過定義的提示確認，則取消訂閱他們。
+   * **模糊選擇退出** - 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字 (例如「CANCIL」) 非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。如果使用者透過定義的提示確認，則可以取消訂閱。
 
      請注意，**Fuzzy Opt-out**&#x200B;僅適用於Sinch和Infobip。
 
@@ -293,9 +293,9 @@ ht-degree: 44%
 
 * **設定**
 
-   * **動態網域支援** - Journey Optimizer現在支援在管道設定層級所列之預先定義網域的追蹤URL中的個人化。
+   * **動態網域支援** - Journey Optimizer 現在支援在管道設定層級所列之預先定義網域的 URL 追蹤個人化。
 
-   * **一鍵取消訂閱URL的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。
+   * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
 
      若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義也將附加至同意事件的自訂屬性。
 
@@ -305,7 +305,7 @@ ht-degree: 44%
 
 * **歷程**
 
-   * **歷程大量作業** — 您現在可以從歷程清單中選取多個專案。 選取後，您一次最多可以暫停或恢復10個歷程。
+   * **歷程大量作業** - 您現在可以從歷程清單中選取多個項目。選取後，您一次最多可以暫停或恢復 10 個歷程。
 
    * 自訂動作中的&#x200B;**重新導向(302)支援** — 自訂動作現在可以根據每個要求處理HTTP 302重新導向。 如此一來，歷程便可整合API，將請求重新導向至當地語系化或區域專屬的URL。 重新導向程式會自動執行，確保提供正確內容而不需要額外設定。
 
@@ -321,7 +321,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 >[!IMPORTANT]
 >
->若要存取Campaign Orchestration，您的授權必須包含&#x200B;**Journey Optimizer — 行銷活動和歷程**&#x200B;或&#x200B;**Journey Optimizer — 行銷活動**&#x200B;套件。 請聯絡您的Adobe代表以確認您的授權並在需要時進行更新。
+>若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
 
 ![行銷活動協調 GIF](assets/do-not-localize/release.gif)
 
@@ -359,7 +359,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 ### 關聯式結構描述和資料集 {#oc-relational}
 
-Adobe Journey Optimizer現在支援連結至以人物為基礎的設定檔的關聯式實體（例如產品、商店、預訂、合約）。 這允許跨多維度資料結構的細分和個人化，啟用如下的使用案例：
+Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關聯式實體 (例如產品、商店、預訂、合約)。這允許跨多維度資料結構的細分和個人化，啟用如下的使用案例：
 
 * 每個預訂、訂閱或合約有一則訊息
 
