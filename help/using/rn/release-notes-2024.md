@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 10 月 29-30 日
 
-### 新功能 {#24-10-features}
+### 全新功能 {#24-10-features}
 
 此發布內容有提供下列詳細介紹的新功能：
 
@@ -359,7 +359,7 @@ ht-degree: 99%
 
 **發行版本日期**：2024 年 9 月 24-26 日
 
-### 新功能 {#24-9-features}
+### 全新功能 {#24-9-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -528,7 +528,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 8 月 20-21 日
 
-### 新功能 {#8-features}
+### 全新功能 {#8-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -630,7 +630,7 @@ ht-degree: 99%
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。[閱讀全文](../building-journeys/condition-activity.md#time_condition)
 * 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
@@ -656,7 +656,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 7 月 30-31 日
 
-### 新功能 {#27-4-features}
+### 全新功能 {#27-4-features}
 
 此發行版本提供下列新功能。
 
@@ -707,7 +707,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 6 月 18 日至 19 日
 
-### 新功能 {#june-24-features}
+### 全新功能 {#june-24-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -852,7 +852,7 @@ ht-degree: 99%
 
 * 在 Adobe Journey Optimizer 中建立行銷活動時，您現在可以在新模式中選擇行銷活動類型 (已排程或啟動)。[閱讀全文](../campaigns/create-campaign.md)
 
-#### 電子郵件頻道
+#### 電子郵件管道
 
 * **清單 - 取消訂閱** - 繼最近 Gmail 和 Yahoo 針對大量寄件者的公告後，Journey Optimizer 支援「發佈/一鍵點擊」清單取消訂閱選項。請參閱下列頁面：[電子郵件選擇退出管理](../email/email-opt-out.md#unsubscribe-header)和[設定電子郵件設定](../email/email-settings.md#list-unsubscribe)。
 
@@ -866,7 +866,7 @@ ht-degree: 99%
 
 <!--* You can now modify existing SMS configurations.-->
 
-#### 應用程式內頻道
+#### 應用程式內管道
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
@@ -883,7 +883,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 21 日至 22 日
 
-### 新功能 {#e-features}
+### 全新功能 {#e-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -1032,7 +1032,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 5 月 2 日
 
-### 新功能 {#apr-features}
+### 全新功能 {#apr-features}
 
 此發行版本提供下列詳細介紹的新功能。
 
@@ -1191,7 +1191,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 2 月 21 日至 22 日
 
-### 新功能{#feb-features}
+### 全新功能{#feb-features}
 
 此發行版本提供下列新功能。
 
@@ -1277,7 +1277,7 @@ ht-degree: 99%
 
 **發行日期**：2024 年 1 月 30 日至 31 日
 
-### 新功能{#jan24-features}
+### 全新功能{#jan24-features}
 
 此發行版本提供下列新功能。
 

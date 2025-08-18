@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2648'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 [!DNL Journey Optimizer] [網頁行銷活動](../web/get-started-web.md)會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
 
-每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
 ### 程式碼型管道護欄 {#code-based-guardrails}
 
@@ -132,7 +132,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
