@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+workflow-type: tm+mt
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -121,11 +121,17 @@ ht-degree: 100%
 >
 >如果您使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項，Adobe 就不會儲存任何取消訂閱，或是同意資料。 使用&#x200B;**[!UICONTROL 客戶管理]**&#x200B;選項，組織即選擇使用外部系統，並在此類外部系統中負責管理同意資料。外部系統與 [!DNL Journey Optimizer] 之間不會自動同步處理同意資料。 若同意資料的同步處理作業源自外部系統，以便更新 [!DNL Journey Optimizer] 中的使用者同意資料，則此同步作業必須由組織透過資料傳輸方式啟動，才能將同意資料推播回 [!DNL Journey Optimizer]。
 
-### 設定解密 API {#configure-decrypt-api}
+### 將自訂屬性附加至您的端點 {#custom-attributes}
 
 選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項時，若您輸入會在行銷活動或歷程中使用的自訂端點，當收件者按一下「取消訂閱」連結時，[!DNL Journey Optimizer] 就會將一些輪廓專屬的預設參數新增到同意更新事件上 <!--sent to the custom endpoint -->。
 
-這些參數會透過加密方式，傳送至端點。 因此，外部同意系統需要透過[Adobe Developer](https://developer.adobe.com){target="_blank"}，才能實施特定 API 來解密從Adobe 傳送的參數。
+若要進一步個人化您的自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，您可以定義也會附加至同意事件的自訂屬性。
+
+若要這麼做，請使用&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。 您在對應區段中定義的所有URL追蹤引數，除了預設引數外，還將附加至自訂一鍵取消訂閱URL的結尾。 [瞭解如何設定自訂URL追蹤](url-tracking.md)
+
+### 設定解密 API {#configure-decrypt-api}
+
+當您的收件者按一下自訂取消訂閱連結時，附加至同意更新事件的引數將以加密方式傳送至端點。 因此，外部同意系統需要透過[Adobe Developer](https://developer.adobe.com){target="_blank"}，才能實施特定 API 來解密從Adobe 傳送的參數。
 
 擷取這些參數的 GET 呼叫大多取決於目前正在使用的取消清單訂閱選項，**[!UICONTROL 一鍵取消訂閱 URL]** 或是 **[!UICONTROL Mailto (取消訂閱)]**。
 
