@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 17%
+source-wordcount: '689'
+ht-degree: 18%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 17%
 | 決定物件存放庫 — 遞補優惠 | 13 個月 | 不適用 |
 | 決定物件存放庫 — 位置 | 13 個月 | 不適用 |
 | 決定物件存放庫 — 活動 | 13 個月 | 不適用 |
+| Experience Decisioning物件存放庫 — 個人化優惠專案 | 13 個月 | 不適用 |
 | ODE DecisionEvents - prod decisioning | 13 個月 | 不適用 |
 
 ## 常見問題 {#faq}
@@ -57,7 +58,7 @@ ht-degree: 17%
 
 +++
 
-+++若為設定檔存放區中的90天TTL，設定檔本身是否會受到影響？
++++對於設定檔存放區中的90天TTL，設定檔本身是否會受到影響？
 
 90天後，會捨棄設定檔中系統產生的資料集資料，而非設定檔本身。
 
@@ -69,23 +70,23 @@ ht-degree: 17%
 
 +++
 
-+++ 客戶是否可以在設定檔存放區中增加[!DNL Journey Optimizer]系統資料集資料的TTL？
++++ 客戶是否可以在設定檔存放區中增加[!DNL Journey Optimizer]系統資料集資料的TTL？ 
 
 目前不支援TTL副檔名。 不過，我們已計畫最佳化TTL流程，以便在2025年下半年開始的某個時候允許這些擴充請求。
 
 >[!NOTE]
 >
->儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hant){target=_blank}
+>儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
-+++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？
++++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？ 
 
-目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target=_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++下列功能是否會受到TTL的影響？
++++TTL是否會影響下列功能？ 
 
 * **查詢存放區**：否
 * **歷程上限**：否
@@ -105,7 +106,7 @@ ht-degree: 17%
 
 +++
 
-+++哪一個時間戳記會用於TTL強制執行（例如，用於回填使用案例）？
++++什麼時間戳記會用於TTL強制執行（例如，用於回填使用案例）？ 
 
 系統會使用事件時間戳記（即並非擷取日期）。
 

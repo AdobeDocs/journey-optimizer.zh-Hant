@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 20%
+source-wordcount: '1720'
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 
 自訂動作只有在使用[要求](../action/about-custom-action-configuration.md#define-the-message-parameters)或[回應承載](../action/action-response.md)時才支援JSON格式。
 
-## 最佳作法{#custom-action-enhancements-best-practices}
+## 最佳做法{#custom-action-enhancements-best-practices}
 
 使用自訂動作選擇要作為目標的端點時，請確定：
 
@@ -117,6 +117,8 @@ ht-degree: 20%
    >
    > 不支援&#x200B;**DELETE**&#x200B;方法。 如果您需要更新現有的資源，請選取&#x200B;**PUT**&#x200B;方法。
 
+1. 處理可能的重新導向（302個回應）。 **自訂動作**&#x200B;會根據每個請求自動遵循HTTP 302重新導向。
+
 1. 定義標頭和查詢引數：
 
    * 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增標頭欄位]**&#x200B;以定義要傳送給外部服務的要求訊息的HTTP標頭。 預設會設定&#x200B;**[!UICONTROL Content-Type]**&#x200B;和&#x200B;**[!UICONTROL Charset]**&#x200B;標頭欄位。 您無法刪除這些欄位。 只有&#x200B;**[!UICONTROL Content-Type]**&#x200B;標頭可以修改。 其值應符合JSON格式。 以下是預設值：
@@ -149,7 +151,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 

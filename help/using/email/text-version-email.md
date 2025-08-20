@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 75%
@@ -42,4 +42,4 @@ ht-degree: 75%
 >
 >* 在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視所做的變更不會反映在 HTML 檢視中。
 >
->* 如果您在更新純文字內容後重新啟用&#x200B;**[!UICONTROL 與HTML同步]**&#x200B;選項，您的變更將會遺失，並取代為從HTML版本產生的文字內容。
+>* 如果您在更新純文字內容後重新啟用「**[!UICONTROL 與HTML同步]**」選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。

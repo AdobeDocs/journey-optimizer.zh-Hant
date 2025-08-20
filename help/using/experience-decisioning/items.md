@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1907'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,24 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
    >優先順序是整數資料型別。 整數資料型別的所有屬性都應包含整數值（無小數）。
 
 1. **標籤**&#x200B;欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
+
+1. 使用片段將多個內容新增至決定專案 — 例如，如果您想要為多個行動裝置型號顯示不同的內容。 [進一步瞭解片段](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >決定專案中的片段目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+   在&#x200B;**[!UICONTROL 片段]**&#x200B;區段中，選取您要使用的已發佈片段，並指派參考索引鍵給他們。 然後，您可以在決策原則中利用這些片段。 [了解作法](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   您只能在決定專案中選取已發佈的片段並最多新增六個片段。
+
+   >[!WARNING]
+   >
+   >目前僅支援[運算式片段](../personalization/use-expression-fragments.md)。
+   >
+   >無法使用巢狀片段（參照其他片段的片段）。 如果您新增此類片段，決策專案的[核准](#approve)將會失敗。
 
 1. 指定自訂屬性（選擇性）。 自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
 
@@ -137,14 +155,16 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## 檢閱並核准決定專案 {#approve}
+
 1. 定義決定專案的資格和上限規則後，按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以檢閱並儲存專案。
 
 1. 決定專案現在會顯示在清單中，並具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態。 當它準備好呈現給設定檔時，按一下省略符號按鈕並選取&#x200B;**[!UICONTROL 核准]**。
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## 管理決定項目 {#manage}
 

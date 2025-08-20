@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="節流率控制"
->abstract="節流率控制"
+>title="費率控制"
+>abstract="指定想要的速率限制，以設定行銷活動的速率控制。 此功能對於防止下游系統（例如登陸頁面或客戶服務平台）上的超載特別有用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"

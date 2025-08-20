@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 12%
+source-wordcount: '2745'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 12%
 
 ## 護欄和限制
 
-* **有限可用性 — 電子郵件中的決定原則** — 目前，電子郵件中的決定原則建立可在有限可用性中取得。 請聯絡您的Adobe代表以取得存取權。
+* **有限可用性 — 電子郵件中的決定原則** — 目前，電子郵件中的決定原則建立可在有限可用性中取得。 請聯絡您的 Adobe 代表以取得存取權。
 * **映象頁面** — 目前，決定專案不會在電子郵件映象頁面中呈現。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
 * **在電子郵件中巢狀內嵌決定原則** — 您無法在已經有關聯決定原則的父級電子郵件元件中巢狀內嵌多個決定原則。
@@ -138,7 +138,7 @@ ht-degree: 12%
 
    對於電子郵件，只能在&#x200B;**[!UICONTROL 重複網格]**&#x200B;內容元件中傳回多個專案。 展開下列區段以取得詳細資訊：
 
-+++ 在電子郵件中傳回多個決定專案
+   +++ 在電子郵件中傳回多個決定專案
 
    1. 將&#x200B;**[!UICONTROL 重複格線]**&#x200B;元件拖曳至畫布，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;窗格視需要加以設定。
 
@@ -150,7 +150,7 @@ ht-degree: 12%
 
    ![](assets/decision-policy-repeat-number.png)
 
-+++
+   +++
 
 1. 按一下&#x200B;**[!UICONTROL 下一步]**。
 
@@ -277,7 +277,7 @@ ht-degree: 12%
 
 建立後，決策原則以及連結至傳回決策專案的屬性即可用於您的內容，以個人化您的內容。 請依照下列步驟以執行此操作。
 
-### 插入決策原則代碼 {#insert-code}
+### 插入決定原則代碼 {#insert-code}
 
 1. 開啟個人化編輯器並存取&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表。
 
@@ -301,7 +301,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >如果程式碼插入按鈕未顯示，表示可能已針對上層元件設定決定原則。
+   >如果未顯示程式碼插入按鈕，表示可能已針對上層元件設定決定原則。
 
 1. 已新增決定原則的程式碼。 此序列將重複執行您想要傳回決定原則的次數。 例如，如果您選擇在[建立決定](#add-decision)時傳回2個專案，則相同的順序將重複兩次。
 
@@ -314,7 +314,7 @@ ht-degree: 12%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
@@ -327,6 +327,57 @@ ht-degree: 12%
 1. 您也可以新增個人化編輯器中可用的任何其他屬性，例如設定檔屬性。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### 利用片段 {#fragments}
+
+如果您的決定原則包含決定專案（包括片段），您可以在決定原則程式碼中利用這些片段。 [進一步瞭解片段](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>此功能目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+
+例如，假設您想針對多種行動裝置型號顯示不同的內容。 請務必將與這些裝置對應的片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
+
+![](assets/item-fragments.png){width=70%}
+
+完成後，您可以使用下列其中一種方法：
+
+>[!BEGINTABS]
+
+>[!TAB 直接插入代碼]
+
+只要將下方的程式碼區塊複製並貼到決定原則程式碼中即可。 以片段ID取代`variable`，並以片段參考索引鍵取代`placement`：
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB 遵循詳細步驟]
+
+1. 導覽至&#x200B;**[!UICONTROL 協助程式函式]**，並將&#x200B;**Let**&#x200B;函式`{% let variable = expression %} {{variable}}`新增至程式碼窗格，您可以在其中宣告片段的變數。
+
+   ![](assets/decision-let-function.png)
+
+1. 使用&#x200B;**Map** > **Get**&#x200B;函式`{%= get(map, string) %}`來建置您的運算式。 對應是決策專案中參考的片段，而字串可以是您在決策專案中輸入的裝置模型，做為&#x200B;**[!UICONTROL 片段參考索引鍵]**。
+
+   ![](assets/decision-map-function.png)
+
+1. 您也可以使用包含此裝置型號ID的內容屬性。
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. 新增您為片段選擇的變數作為片段ID。
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+將會從決定專案的&#x200B;**[!UICONTROL 片段]**&#x200B;區段中選取片段ID和參考索引鍵。
+
+>[!WARNING]
+>
+>如果片段索引鍵不正確或片段內容無效，呈現將會失敗，而導致Edge呼叫中的錯誤。
 
 ## 最後步驟 {#final-steps}
 

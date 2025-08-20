@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1804'
 ht-degree: 13%
 
 ---
@@ -140,6 +140,8 @@ ht-degree: 13%
 * **[!UICONTROL 作用中]**：通道設定已經過驗證，可以選取它來建立訊息。
 * **[!UICONTROL 失敗]**：通道組態驗證期間有一或數個檢查失敗。
 * **[!UICONTROL 已停用]**：頻道設定已停用。 無法用來建立新訊息。
+
+### 管道設定失敗原因 {#channel-config-failure}
 
 如果通道設定建立失敗，每個可能的失敗原因的詳細資訊如下所述。
 

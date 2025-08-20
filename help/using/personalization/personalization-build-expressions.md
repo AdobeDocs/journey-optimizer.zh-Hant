@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1560'
 ht-degree: 10%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ![](assets/perso_ee1.png)
 
-## 我可以在哪裡新增個人化
+## 我可以在哪裡新增個人化 {#where}
 
 您可以使用&#x200B;**[!DNL Journey Optimizer]**&#x200B;新增個人化圖示![圖示，在每一個欄位的](assets/do-not-localize/add-perso-icon.svg)中新增個人化。 請展開下列各節以取得詳細資訊。
 
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 +++
 
-+++傳送電子郵件至Designer
++++電子郵件 Designer
 
 在[電子郵件Designer](../email/get-started-email-design.md)中編輯電子郵件內容時，您可以使用內容相關工具列中的圖示，在文字區塊和URL中新增個人化。
 
@@ -52,13 +52,13 @@ ht-degree: 10%
 
 +++
 
-+++選件
++++產品建議
 
 在您的&#x200B;**優惠方案代表**&#x200B;中使用文字型別內容時，您可以新增個人化。 [瞭解如何建立個人化優惠](../offers/offer-library/creating-personalized-offers.md)
 
 +++
 
-+++URLs
++++URL
 
 Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 URL個人化可用於這些型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
 
@@ -76,6 +76,18 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >在個人化編輯器中編輯個人化URL時，基於安全考量，會停用協助程式功能和對象成員資格。
 >
 >url內使用的個人化權杖不支援空格。
+
+在有限可用性的情況下，Journey Optimizer也支援完整/基本URL個人化。 例如：
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>接受的網域清單必須預先提供給Adobe。
 
 +++
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1391'
+ht-degree: 11%
 
 ---
 
@@ -48,34 +48,57 @@ ht-degree: 13%
 
 ![歷程儀表板醒目提示「瀏覽」索引標籤](assets/journeys-browse.png)
 
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publishing-the-journey.md#journey-versions-journey-versions)。
+
 ### 歷程行事曆 {#calendar}
 
 除了歷程清單，[!DNL Journey Optimizer]還提供您歷程的行事曆檢視，提供其排程的清晰視覺化呈現。
 
->[!AVAILABILITY]
->
->行事曆檢視目前僅可用於一組組織（可用性限制）。 若想請求存取權，請使用[這份表單](https://forms.cloud.microsoft/r/FC49afuJVi){target="_blank"}。
->
->此功能正在開發中。 我們歡迎您使用上方功能表中的&#x200B;**[!UICONTROL Beta意見回饋]**&#x200B;按鈕來輸入和請求。
-
-若要存取行事曆檢視，請開啟歷程清單，然後按一下![行事曆圖示](assets/do-not-localize/timeline-icon.svg)圖示。
-
-行事曆顯示本週排程的所有歷程。 使用行事曆上方的箭頭按鈕，在周之間導覽。
-
-![行事曆檢視顯示即時歷程](assets/timeline-journeys.png)
-
 歷程的顯示方式：
 
-* 依預設，行事曆格線會顯示所選周的所有即時和已排程歷程。 其他篩選器選項可顯示已完成、已停止和已完成的啟動或啟動。
+* 依預設，行事曆格線會顯示所選周的所有即時和排程歷程。 其他篩選器選項可顯示已完成、已停止和已完成的啟動或啟動。
 * 在測試模式中的草稿歷程和歷程不會顯示。
 * 橫跨多天的歷程會顯示在行事曆格線的頂端。
 * 如果未指定開始時間，則會使用最接近的手動啟動時間，將其放置在行事曆中。
 * 歷程會顯示為1小時時間跨度，但這並不反映實際的傳送或完成時間。
 
-如需歷程的詳細資訊，請按一下其視覺區塊以開啟並探索其詳細資訊。
+若要在歷程行事曆中導覽：
 
-在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publishing-the-journey.md#journey-versions-journey-versions)。
+1. 若要存取行事曆檢視，請開啟歷程清單，然後按一下![行事曆圖示](assets/do-not-localize/timeline-icon.svg)圖示。
 
+1. 使用箭頭按鈕或行事曆上方的日期選擇器，在周之間移動。
+
+   行事曆顯示本週排程的所有歷程。
+
+   ![行事曆檢視顯示即時歷程](assets/timeline-journeys.png)
+
+1. 按一下![齒輪](assets/do-not-localize/Smock_Gears_18_N.png)圖示，以切換橫跨數天或數週之專案的顯示。
+
+   ![行事曆檢視顯示已上線的行銷活動](assets/journey-calendar-1.png)
+
+1. 按一下![新增行事曆](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)圖示以管理和新增最多三個外部行事曆。
+
+   顯示外部行事曆的![行事曆檢視](assets/journey-calendar-2.png)
+
+1. 拖放包含事件名稱、開始日期和結束日期的CSV檔案。
+
+   上傳的事件會針對您組織中的所有使用者顯示，並顯示在歷程和行銷活動行事曆上。
+
+   +++CSV格式應如下所示：
+
+   | Column1 | Column2 | Column3 |
+   |-|-|-|
+   | 事件名稱 | 開始日期（mm/dd/yy格式） | 結束日期（mm/dd/yy格式） |
+
+   +++
+
+1. 如有需要，您可以隱藏、取消隱藏或移除新增的外部行事曆。
+
+   顯示外部行事曆的![行事曆檢視](assets/journey-calendar-3.png)
+
+1. 如需歷程的詳細資訊，請按一下其視覺區塊以開啟並探索其詳細資訊。
+
+   ![已開啟資訊窗格的行銷活動清單](assets/journey-calendar-4.png)
 
 
 ## 篩選您的歷程 {#journey-filter}
@@ -84,7 +107,7 @@ ht-degree: 13%
 
 ![熒幕顯示已選取兩種歷程型別的歷程篩選範例](assets/filter-journeys.png)
 
-您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)，以及從&#x200B;**[!UICONTROL 狀態和版本篩選器]**&#x200B;指派的[標籤](../start/search-filter-categorize.md#tags)來篩選歷程。
+您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)，以及從[狀態和版本篩選器](../start/search-filter-categorize.md#tags)指派的&#x200B;**[!UICONTROL 標籤]**&#x200B;來篩選歷程。
 
 使用&#x200B;**[!UICONTROL 建立篩選器]**，根據歷程的建立日期或建立歷程的使用者來篩選歷程。
 
@@ -115,7 +138,7 @@ ht-degree: 13%
 歷程狀態取決於其生命週期。 可以是：
 
 * **已關閉**：歷程已使用&#x200B;**關閉新入口**&#x200B;按鈕關閉。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。
-* **草稿**：歷程處於第一個階段。 尚未發佈。
+* **草稿**：歷程處於第一個階段。 行銷活動尚未發佈。
 * **草稿（測試）**：已使用&#x200B;**測試模式**&#x200B;按鈕啟動測試模式。
 * **已完成**：歷程會在91天[全域逾時](journey-properties.md#global_timeout)後自動切換為此狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。
 * **即時**：歷程已使用&#x200B;**發佈**&#x200B;按鈕發佈。
@@ -144,3 +167,19 @@ ht-degree: 13%
    ![](assets/duplicate-jo2.png)
 
 1. 新歷程已建立並可在歷程清單中使用。
+
+
+## 大量作業 {#bulk-operations}
+
+從您的歷程清單中，您可以暫停多個&#x200B;**即時**&#x200B;歷程。 若要暫停歷程群組（_大量暫停_），請在清單中選取它們，然後按一下畫面底部藍色列中的&#x200B;**暫停**&#x200B;按鈕。 **暫停**&#x200B;按鈕僅在選取&#x200B;**即時**&#x200B;歷程時可用。
+
+![從底部列大量暫停兩個即時歷程](assets/bulk-pause-journeys.png)
+
+您也可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
+
+[進一步瞭解暫停/繼續歷程](journey-pause.md)。
+
+>[!NOTE]
+>
+>您可以暫停/繼續操作，直到每個操作10個歷程為止。
+

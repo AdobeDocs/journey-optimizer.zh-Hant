@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 8%
+source-wordcount: '1026'
+ht-degree: 9%
 
 ---
 
@@ -92,7 +92,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!AVAILABILITY]
    >
-   >目前，已購買Adobe Healthcare Shield或Privacy and Security Shield附加產品的組織無法使用電子郵件中的決策原則建立。
+   >目前，在「有限可用性」中可取得電子郵件中的決定原則建立。 請聯絡您的 Adobe 代表以取得存取權。
 
 1. 在&#x200B;**[!UICONTROL 標題]**&#x200B;區段中，檢查&#x200B;**[!UICONTROL 寄件者名稱]**、**[!UICONTROL 寄件者電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 密件副本]**&#x200B;欄位。 它們是在您選取的電子郵件設定中設定。 [深入瞭解](email-settings.md) <!--check if same for journey-->
 

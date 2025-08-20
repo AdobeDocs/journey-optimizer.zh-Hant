@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 19%
+source-wordcount: '1548'
+ht-degree: 18%
 
 ---
 
@@ -140,16 +140,6 @@ ht-degree: 19%
 
 除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。
 
->[!AVAILABILITY]
->
->行事曆檢視目前僅適用於一組組織的「動作」和API觸發的行銷活動（可用性限制）。 若想請求存取權，請使用[這份表單](https://forms.cloud.microsoft/r/FC49afuJVi){target=”_blank”}。
->
->此功能正在開發中。 我們歡迎您使用上方功能表中的&#x200B;**[!UICONTROL Beta意見回饋]**&#x200B;按鈕來輸入和請求。
-
-行事曆顯示本週排程的所有行銷活動。 使用行事曆上方的箭頭按鈕，在周之間導覽。
-
-![行事曆檢視顯示已上線的行銷活動](assets/campaigns-timeline.png)
-
 行銷活動的呈現方式：
 
 * 依預設，行事曆格線會顯示所選周的所有即時和已排程行銷活動。 其他篩選器選項可顯示已完成、已停止和已完成的特定型別或管道的啟動或啟動。
@@ -158,11 +148,43 @@ ht-degree: 19%
 * 如果未指定開始時間，則會使用最接近的手動啟動時間，將其放置在行事曆中。
 * 行銷活動會顯示為1小時時間跨度，但這並不反映實際的傳送或完成時間。
 
-如需促銷活動的詳細資訊，請按一下其視覺區塊以開啟詳細資訊。
+若要在您的「促銷活動」行事曆中導覽：
 
-若要檢視特定行銷活動的詳細資料，請從清單中選取它。 資訊窗格會隨即開啟，內含促銷活動的各種資訊，例如，其型別、報表存取權或已指派的標籤。
+1. 按一下![行事曆](assets/do-not-localize/Smock_Calendar_18_N.svg)圖示以存取您的行銷活動行事曆。
 
-![已開啟資訊窗格的行銷活動清單](assets/campaign-rail.png)
+1. 使用箭頭按鈕或行事曆上方的日期選擇器，在周之間移動。
+
+   行事曆顯示本週排程的所有行銷活動。
+
+   ![行事曆檢視顯示已上線的行銷活動](assets/campaigns-timeline.png)
+
+1. 按一下![齒輪](assets/do-not-localize/Smock_Gears_18_N.png)圖示，以切換橫跨數天或數週之專案的顯示。
+
+   ![行事曆檢視顯示已上線的行銷活動](assets/campaign-long-term.png)
+
+1. 按一下![新增行事曆](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)圖示以管理和新增最多三個外部行事曆。
+
+   顯示外部行事曆的![行事曆檢視](assets/campaign-external-calendar.png)
+
+1. 拖放包含事件名稱、開始日期和結束日期的CSV檔案。
+
+   上傳的事件會針對您組織中的所有使用者顯示，並顯示在歷程和行銷活動行事曆上。
+
+   +++CSV格式應如下所示：
+
+   | Column1 | Column2 | Column3 |
+   |-|-|-|
+   | 事件名稱 | 開始日期（mm/dd/yy格式） | 結束日期（mm/dd/yy格式） |
+
+   +++
+
+1. 如有需要，您可以隱藏、取消隱藏或移除新增的外部行事曆。
+
+   顯示外部行事曆的![行事曆檢視](assets/campaign-manage-calendar.png)
+
+1. 如需促銷活動的詳細資訊，請按一下其視覺區塊以開啟詳細資訊。 資訊窗格會隨即開啟，內含促銷活動的各種資訊，例如，其型別、報表存取權或已指派的標籤。
+
+   ![已開啟資訊窗格的行銷活動清單](assets/campaign-rail.png)
 
 ## 修改和停止週期性動作行銷活動 {#modify}
 

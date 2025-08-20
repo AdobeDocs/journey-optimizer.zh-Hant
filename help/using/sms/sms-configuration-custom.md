@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1081'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 9%
 若要設定自訂提供者，請遵循下列步驟：
 
 1. [建立API認證](#api-credential)
-1. [建立Webhook](#webhook)
+1. [建立 Webhook](#webhook)
 1. [建立頻道設定](sms-configuration-surface.md)
 1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
 
@@ -86,7 +86,17 @@ ht-degree: 9%
 
    ![](assets/sms_byo_4.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
+1. 從您現有的API認證按一下&#x200B;**[!UICONTROL 驗證SMS連線]**，透過傳送範例訊息至指定裝置來測試及驗證SMS API認證。
+
+1. 填寫&#x200B;**數字**&#x200B;和&#x200B;**訊息**&#x200B;欄位，然後按一下&#x200B;**[!UICONTROL 驗證連線]**。
+
+   >[!IMPORTANT]
+   >
+   >訊息的結構必須符合提供者的裝載格式。
+
+   ![](assets/verify-connection.png)
+
+在建立及設定您的API認證後，您現在需要為Webhook[設定](#webhook)簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
@@ -145,7 +155,7 @@ ht-degree: 9%
 
 >[!ENDTABS]
 
-## 建立Webhook {#webhook}
+## 建立 Webhook {#webhook}
 
 >[!BEGINSHADEBOX]
 

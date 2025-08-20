@@ -6,13 +6,12 @@ description: 瞭解如何暫停並繼續即時歷程
 feature: Journeys
 role: User
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 9db476ff5b693bef91e982502c6dd37321610fc7
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 7%
+source-wordcount: '2225'
+ht-degree: 6%
 
 ---
 
@@ -23,11 +22,8 @@ ht-degree: 7%
 >title="暫停您的歷程"
 >abstract="暫停上線的歷程以防止新輪廓進入。選擇是否捨棄目前在歷程當中的輪廓或予以保留。若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用全域篩選器](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用設定檔屬性退出條件](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
->[!AVAILABILITY]
->
->此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。
 
 
 ## 主要優點 {#journey-pause-benefits}
@@ -65,11 +61,15 @@ ht-degree: 7%
 
 1. 按一下&#x200B;**暫停**&#x200B;按鈕確認。
 
+可在您組織的暫停歷程中保留的設定檔最大數量會顯示在歷程詳細目錄中。 只有在至少一個歷程暫停時，它才會顯示。 此指標也會顯示暫停的歷程總數。 每30分鐘重新整理一次。 進一步瞭解[護欄和限制](#guardrails-and-limitations)。
+
+![目前暫停的歷程和設定檔數目](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+
 從您的歷程清單中，您可以暫停一或多個&#x200B;**即時**&#x200B;歷程。 若要暫停歷程群組（_大量暫停_），請在清單中選取它們，然後按一下畫面底部藍色列中的&#x200B;**暫停**&#x200B;按鈕。 **暫停**&#x200B;按鈕僅在選取&#x200B;**即時**&#x200B;歷程時可用。
 
 ![從底部列大量暫停兩個即時歷程](assets/bulk-pause-journeys.png)
 
-### 暫停歷程中的行為
+## 暫停的歷程執行邏輯 {#journey-pause-exec}
 
 歷程暫停時，一律會捨棄新的入口，無論保留/捨棄模式為何。
 
@@ -113,23 +113,23 @@ ht-degree: 7%
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
 
-## 將全域篩選器套用至暫停歷程中的設定檔 {#journey-global-filters}
+## 在暫停的歷程中套用退出條件 {#journey-global-filters}
 
-歷程暫停時，您可以根據設定檔屬性套用全域篩選器。 此篩選器可讓您排除與恢復時定義的運算式相符的設定檔。 設定全域篩選器後，即可在動作節點強制執行，即使是對新設定檔入口亦然。 符合條件的現有設定檔和進入歷程的新設定檔，會在它們遇到的下一個動作節點&#x200B;**上，從歷程**&#x200B;中排除。
+歷程暫停時，您可以根據設定檔屬性套用退出條件。 此篩選器可讓您排除與恢復時定義的運算式相符的設定檔。 一旦設定了以設定檔屬性為基礎的退出標準，就會在動作節點上強制執行，即使是新設定檔的進入也一樣。 符合條件的現有設定檔和進入歷程的新設定檔，會在它們遇到的下一個動作節點&#x200B;**上，從歷程**&#x200B;中排除。
 
 例如，若要從暫停的歷程中排除所有法國客戶，請遵循下列步驟：
 
 1. 瀏覽至您要修改的暫停歷程。
 
-1. 選取&#x200B;**退出條件與全域篩選器**&#x200B;圖示。
+1. 選取&#x200B;**退出條件**&#x200B;圖示。
 
-   ![將全域篩選器新增至暫停的歷程](assets/add-global-filter.png)
+   ![將設定檔屬性退出條件新增至暫停的歷程](assets/add-global-filter.png)
 
-1. 在&#x200B;**退出條件與全域篩選器**&#x200B;設定中，按一下&#x200B;**新增全域篩選器**&#x200B;以根據設定檔屬性定義篩選器。
+1. 在&#x200B;**退出條件**&#x200B;設定中，按一下&#x200B;**新增退出條件**&#x200B;以根據設定檔屬性定義篩選器。
 
 1. 設定運算式，以排除國家/地區屬性等於「法國」的設定檔。
 
-   ![將全域篩選器新增至暫停的歷程](assets/add-country-filter.png)
+   ![將設定檔屬性退出條件新增至暫停的歷程](assets/add-country-filter.png)
 
 1. 儲存您的篩選器，然後按一下&#x200B;**更新歷程**&#x200B;按鈕以套用您的變更。
 
@@ -137,13 +137,15 @@ ht-degree: 7%
 
    在恢復時，country屬性設定為France的所有設定檔將在下一個動作節點自動從歷程中排除。 任何國家/地區屬性設定為France的新設定檔嘗試進入歷程時，也將在下一個動作節點遭到封鎖。
 
-請注意，目前歷程中設定檔的設定檔排除和新設定檔的設定檔排除只有在到達動作節點時才會發生。
+請注意，目前歷程中設定檔的設定檔排除和新設定檔的設定檔排除只會在到達動作節點&#x200B;**時發生**。
 
 >[!CAUTION]
 >
->* 每個歷程只能設定&#x200B;**一個**&#x200B;全域篩選器。
+>* 您只能為每個歷程設定&#x200B;**一個**&#x200B;設定檔屬性型退出條件。
 >
->* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除全域篩選器。
+>* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
+>
+>* 在本節[中進一步瞭解設定檔屬性型退出條件](journey-properties.md#profile-exit-criteria)。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -169,7 +171,8 @@ ht-degree: 7%
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
    * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
-     <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
+
+
 
 ## 端對端範例 {#journey-pause-sample}
 
