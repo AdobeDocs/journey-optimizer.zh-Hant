@@ -314,7 +314,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 按一下每個資料夾以展開。 將滑鼠游標置於所需位置，然後按一下您要新增的屬性旁的+圖示。 您可以對程式碼新增任意數量的屬性。
 
