@@ -227,7 +227,7 @@ ht-degree: 99%
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [協調的行銷活動](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
-      + [開始使用協調行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
       + [護欄與限制](using/orchestrated/guardrails.md)
       + [常見問題集](using/orchestrated/orchestrated-campaigns-faq.md)
       + 資料設定 {#data-configuration}
@@ -313,8 +313,8 @@ ht-degree: 99%
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [附加PDF檔案至您的電子郵件](using/email/pdf-attachments.md)
-         + 設計您的內容 {#add-content}
-            + [設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
+         + 設計內容 {#add-content}
+            + [設計內容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
