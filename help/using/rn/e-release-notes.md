@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -164,12 +164,12 @@ ht-degree: 86%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支援新的通用動作活動，可讓您設定單一動作和多動作傳入動作群組，進而簡化歷程畫布中的動作設定。 這項新功能特別允許：</p>
+<p>Journey Optimizer 支援新的一般動作活動，可讓您設定單一動作和多動作的傳入動作群組，進而簡化歷程畫布中的動作設定。尤其是這項新功能允許：</p>
 <ul>
-<li>歷程畫布中的簡化原生動作設定。</li>
-<li>建立多動作傳入節點的容量。</li>
-<li>將最佳化新增至任何內建頻道動作的功能。</li>
-<li>能夠新增實驗和多語言選項至任何動作。</li>
+<li>簡化歷程畫布中的原生動作設定。</li>
+<li>容量用來建立多動作傳入節點。</li>
+<li>能夠將最佳化新增至任何內建管道動作。</li>
+<li>能夠將實驗與多語言選項新增至任何動作。</li>
 </ul>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -227,9 +227,9 @@ ht-degree: 86%
 
    * **模糊選擇退出** - 啟用時，**模糊選擇退出**&#x200B;選項會偵測與定義的選擇退出關鍵字 (例如「CANCIL」) 非常相似的傳入訊息，並自動傳送確認回覆以驗證使用者的取消訂閱意圖。如果使用者透過定義的提示確認，則可以取消訂閱。
 
-     請注意，**Fuzzy Opt-out**&#x200B;僅適用於Sinch和Infobip。
+     請注意，**模糊選擇退出**&#x200B;僅適用於 Sinch 與 Infobip。
 
-   * **驗證SMS連線** — 您現在可以傳送範例訊息至指定裝置，在Adobe Journey Optimizer中輕鬆測試及驗證SMS API認證。
+   * **驗證簡訊連線** - 您現在可以將範例訊息傳送至指定裝置，在 Adobe Journey Optimizer 中輕鬆測試和驗證簡訊 API 認證。
 
 * **設定**
 
@@ -241,7 +241,7 @@ ht-degree: 86%
 
 * **決策**
 
-   * **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則用於程式碼型體驗行銷活動。
+   * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過策定原則用於程式碼型體驗行銷活動。
 
 * **歷程**
 

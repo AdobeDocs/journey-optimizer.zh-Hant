@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5119'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 <td>
 <p>歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。</p>
 <img src="assets/do-not-localize/DryRun.gif">
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-dry-run.md">詳細文件</a></p>
 </td>
 </tr>
