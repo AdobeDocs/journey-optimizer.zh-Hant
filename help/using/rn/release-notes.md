@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 77%
 
 * **設定**
 
-   * **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 此功能在有限可用性的情況下提供給一組客戶。 [閱讀全文](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基底URL個人化。 此功能在有限可用性的情況下提供給一組客戶。 [瞭解詳情](../personalization/personalization-build-expressions.md#where)—8月21日更新：正在等候英文。 以確認何時部署至生產環境。—>
 
    * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
 
