@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 75%
+source-wordcount: '1672'
+ht-degree: 73%
 
 ---
 
@@ -157,31 +157,29 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>歷程中的動作活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>Journey Optimizer 支援新的一般動作活動，可讓您設定單一動作和多動作的傳入動作群組，進而簡化歷程畫布中的動作設定。尤其是這項新功能允許：</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>簡化歷程畫布中的原生動作設定。</li>
+<li>建立多動作傳入動作群組的容量。</li>
+<li>能夠將最佳化新增至任何內建管道動作。</li>
+<li>能夠將實驗與多語言選項新增至任何動作。</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a></p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在可讓您使用工具，為對象提供個人化和最佳化的內容，讓您執行內容實驗、建立規則型鎖定目標，以及使用兩者的進階組合，以最大化行銷活動的有效性<!-- and journeys-->。</p>
+<p>Journey Optimizer現在可讓您使用工具，為對象提供個人化和最佳化內容，讓您執行內容實驗、建立規則型鎖定目標，並使用兩者的進階組合，以最大化行銷活動和歷程的成效。</p>
 <p>使用最佳化時，您可以：</p>
 <ul>
 <li>測試多種內容變化，以確定出最有效的傳訊。</li>
@@ -245,9 +243,9 @@ ht-degree: 75%
 <li>篩選出不符合變體條件的使用者。</li>
 <li>確保遞補機制以維持使用者參與。</li>
 </ul>
-<P>歷程<!--/campaign is live-->之後，會根據定義的條件評估設定檔，並根據比對條件，以適當的體驗或內容傳送設定檔。</p>
+<P>歷程或行銷活動上線後，會根據定義的條件評估設定檔，並根據比對條件，提供具備適當體驗或內容的設定檔。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->推出日期： 2025年8月8日</p>
+<p>先前僅於8月8日在行銷活動中發行，現在也提供此容量自8月22日起的歷程使用。</p>
 <p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細文件</a></p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ ht-degree: 75%
 
      若要進一步個人化您的一鍵式取消訂閱連結，您現在可以定義也將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
 
+* **資料集**
+
+   * **Experience Decisioning物件存放庫 — 個人化優惠專案** — 內建的匯出資料集現在會擷取所有優惠屬性和生命週期狀態，啟用完整的個人化及報告。 [閱讀全文](../data/export-datasets.md)
+
+   * 已透過`etag`欄位引入版本檢查，以改善一致性並追蹤變更，以更可靠地提供專案。
+
 * **決策**
 
    * **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則用於程式碼型體驗行銷活動。 此功能在有限可用性的情況下提供給一組客戶。 [閱讀全文](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ ht-degree: 75%
 
    * **自訂動作中的重新導向 (302) 支援** - 自訂動作現在可以根據每個要求處理 HTTP 302 重新導向。 如此一來，歷程便可整合 API，將請求重新導向至本地化或區域特定的 URL。 系統會自動遵循重新導向，確保提供正確內容而不需要額外設定。
 
-* **資料集**
-
-   * **Experience Decisioning物件存放庫 — 個人化優惠專案** — 內建的匯出資料集現在會擷取所有優惠屬性和生命週期狀態，啟用完整的個人化及報告。 [閱讀全文](../data/export-datasets.md)
-
-   * 已透過`etag`欄位引入版本檢查，以改善一致性並追蹤變更，以更可靠地提供專案。
+   * **歷程中的多個輸入動作** — 為簡化歷程協調，您現在可以在單一歷程中定義數個輸入動作。 此功能先前可用於行銷活動，可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，每個動作都包含特定內容。 [閱讀全文](../building-journeys/journey-action.md#multi-action)
 
 ## 行銷活動協調
 
