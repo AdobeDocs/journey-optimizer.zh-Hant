@@ -4,9 +4,9 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 
    在此範例中，我們已將下表詳述的屬性新增至&#x200B;**忠誠會員資格**&#x200B;結構描述。
 
-+++ 屬性範例
+   +++ 屬性範例
 
    | 屬性名稱 | 資料類型 | 其他屬性 |
    |-|-|-|
@@ -92,7 +92,7 @@ ht-degree: 3%
    | is_active | 布林值 | 必要 |
    | lastmodified | 日期時間 | 必要 |
 
-+++
+   +++ 
 
 1. 將適當的欄位指派為&#x200B;**[!UICONTROL 主索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 版本描述項]**。
 
@@ -100,7 +100,7 @@ ht-degree: 3%
 
    * 至少有單一主索引鍵
    * 版本識別碼，例如`lastmodified`欄位類型`datetime`或`number`。
-   * 針對變更資料擷取(CDC)擷取，為名為`_change_request_type`且型別為`String`的特殊欄，其指示資料變更的型別（例如，插入、更新、刪除）並啟用增量處理。
+   * 針對變更資料擷取(CDC)擷取，為名為`_change_request_type`且型別為`String`的特殊欄，其指示資料變更的型別（例如，插入、更新、刪除）並啟用增量處理。 請注意，`_change_request_type`不應該是資料表結構描述的一部分，應該只在內嵌期間新增到資料檔案。
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

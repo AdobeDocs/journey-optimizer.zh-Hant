@@ -4,7 +4,7 @@ product: journey optimizer
 title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 * 所有內嵌必須透過&#x200B;**變更資料擷取**&#x200B;來源進行：
 
-   * **以檔案為基礎的**： `change_type`欄位為必填。
+   * **以檔案為基礎的**： `_change_request_type`欄位為必填。
 
    * 對於&#x200B;**雲端型**：必須啟用資料表記錄。
 
