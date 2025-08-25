@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-依CTR **排名的**&#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
+依CTR **[!UICONTROL 排名的]**&#x200B;個最上層決定專案表格會根據個別專案的點進率來強調其效能。 此量度有助於評估哪些專案最能有效吸引使用者並促進互動。
 
 * **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
 
@@ -157,11 +157,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 轉換率]**：產生使用者動作（例如點按）的顯示百分比，表示模型成功與使用者互動。
 
+>[!NOTE]
+>
+>目前[提升度測量](../experience-decisioning/ranking/auto-optimization-model.md#lift)報告僅適用於[個人化最佳化](../experience-decisioning/ranking/personalized-optimization-model.md) AI模型。 如果您需要提升度測量報表，請改用個人化最佳化模型。
+
 ### 保留和模型導向流量的轉換率 {#conversion-rate}
 
 >[!NOTE]
 >
->只有當行銷活動中納入[AI模型](../experience-decisioning/ranking/ai-models.md)時，才能使用Holdout和模型驅動流量&#x200B;**圖表的**&#x200B;轉換率。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>只有當行銷活動中納入&#x200B;**[!UICONTROL AI模型]**&#x200B;時，才能使用Holdout和模型驅動流量[圖表的](../experience-decisioning/ranking/ai-models.md)轉換率。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 
