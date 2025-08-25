@@ -4,10 +4,10 @@ description: 瞭解如何將優先順序分數指派給歷程與行銷活動。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 35%
+source-wordcount: '461'
+ht-degree: 24%
 
 ---
 
@@ -16,12 +16,17 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="優先順序"
->abstract="指派歷程的優先順序分數。當有所限制時 (例如頻率上限)，必須設定優先順序來確認歷程的優先性。請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。若遇到兩項歷程的優先順序分數相同的情況，將會顯示先啟動的歷程。"
+>abstract="指派行銷活動的優先順序分數。優先順序是當存在強加的限制（例如頻率上限）時確定行銷活動優先順序的關鍵。</br>輸入數值（從0到100）。 請注意，數字越大，表示優先順序越高。若遇到兩項行銷活動的優先順序分數相同的情況，將會顯示先啟動的行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先順序"
->abstract="指派歷程的優先順序分數。當有所限制時 (例如頻率上限)，必須設定優先順序來確認歷程的優先性。請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。"
+>abstract="指派歷程的優先順序分數。優先順序是當存在強加的限制（例如頻率上限）時排定歷程優先順序的關鍵。</br>輸入數值（從0到100）。 請注意，數字越大，表示優先順序越高。若遇到兩項歷程的優先順序分數相同的情況，將會顯示先啟動的歷程。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_priority"
+>title="優先順序"
+>abstract="為歷程動作指派優先順序分數。 當有多個歷程動作或行銷活動使用相同管道設定時，優先順序對於優先處理傳入動作至關重要。</br>輸入數值（從0到100）。 請注意，數字越大，表示優先順序越高。依預設，動作的優先順序分數繼承自歷程的整體優先順序分數。"
 
 Journey Optimizer可讓您為歷程或行銷活動指派優先順序分數。 當有強制的限制（例如頻率上限）時，優先順序對於優先處理歷程、行銷活動或動作至關重要。 如果客戶符合許多歷程、行銷活動或通訊的資格，而您想要選擇他們應該輸入和接收的欄位，則應利用此欄位。
 
@@ -43,4 +48,4 @@ Journey Optimizer可讓您為歷程或行銷活動指派優先順序分數。 �
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
