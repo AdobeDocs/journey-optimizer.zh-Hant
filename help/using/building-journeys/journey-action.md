@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將內建頻道動作新增至歷程
-description: 瞭解如何將內建頻道動作新增到歷程
+title: 使用動作歷程活動
+description: 瞭解如何新增通用動作活動，以在歷程畫布中設定單一動作和多動作傳入動作群組。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '991'
 ht-degree: 21%
 
 ---
