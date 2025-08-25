@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
+source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 21%
@@ -140,7 +140,7 @@ ht-degree: 21%
 
 1. 您將被導向歷程動作設定畫面的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤。
 
-   ![](assets/journey-multi-action-configuration.png)
+   ![](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. 從&#x200B;**動作**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**[!UICONTROL 網頁]**）。
 
