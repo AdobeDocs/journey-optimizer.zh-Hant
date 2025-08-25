@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 68cb46a45bf3fe8b8847109519889a9cf20157d3
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 11%
@@ -62,7 +62,7 @@ ht-degree: 11%
 * 如果未指定開始時間，則會使用最接近的手動啟動時間，將其放置在行事曆中。
 * 歷程會顯示為1小時時間跨度，但這並不反映實際的傳送或完成時間。
 
-若要在歷程行事曆中導覽：
+若要在您的「歷程」行事曆中導覽：
 
 1. 若要存取行事曆檢視，請開啟歷程清單，然後按一下![行事曆圖示](assets/do-not-localize/timeline-icon.svg)圖示。
 
