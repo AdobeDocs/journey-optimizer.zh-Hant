@@ -48,4 +48,4 @@ Journey Optimizer可讓您為歷程或行銷活動指派優先順序分數。 �
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
