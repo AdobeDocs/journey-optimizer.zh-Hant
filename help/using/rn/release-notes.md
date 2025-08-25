@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1492'
+ht-degree: 75%
 
 ---
 
@@ -315,6 +315,8 @@ ht-degree: 76%
 * **資料集**
 
    * **Experience Decisioning物件存放庫 — 個人化優惠專案** — 內建的匯出資料集現在會擷取所有優惠屬性和生命週期狀態，啟用完整的個人化及報告。 [閱讀全文](../data/export-datasets.md)
+
+   * 已透過`etag`欄位引入版本檢查，以改善一致性並追蹤變更，以更可靠地提供專案。
 
 ## 行銷活動協調
 
