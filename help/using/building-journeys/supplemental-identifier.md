@@ -2,10 +2,10 @@
 title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 4%
+source-wordcount: '1236'
+ht-degree: 5%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 4%
 
    * 如果歷程不可重新進入，則相同的設定檔ID +補充ID組合無法重新進入歷程。
    * 如果歷程透過時間視窗重新進入，則相同的設定檔ID +補充ID組合可在定義的時間視窗後重新進入。
+
+* **資料使用標籤與實作(DULE)** — 未對補充ID執行DULE驗證檢查。 這表示當歷程尋找資料治理原則違規時，不會考慮此屬性。
 
 * **下游事件設定**
 
@@ -138,6 +140,10 @@ ht-degree: 4%
       >請勿將屬性標示為&#x200B;**主要身分**。
 
    1. 選取要與補充ID關聯的名稱空間。 這必須是非人員識別碼名稱空間。
+
+      >[!NOTE]
+      >
+      >將非人員身分名稱空間套用至結構描述後，您必須建立新事件（針對事件觸發的歷程）或新欄位群組（針對讀取對象歷程），才能使用補充識別碼。 無法重新整理現有實體以識別新識別碼。
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
