@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 訊息最佳化
-description: 運用訊息最佳化來建立個人化和最佳化的行銷活動。
+description: 運用訊息最佳化來建立個人化和最佳化的行銷歷程和行銷活動。
 role: User
 level: Intermediate
 keywords: 行銷活動最佳化、實驗、目標定位、A/B測試
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在動作中或 API 觸發的行銷活動中運用訊息最佳化。您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
