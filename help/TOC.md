@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [條件](using/building-journeys/condition-activity.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [讀取客群](using/building-journeys/read-audience.md)
+      + [動作活動](using/building-journeys/journey-action.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [內容決策](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [使用動作行銷活動](using/campaigns/create-campaign.md)
       + [定義行銷活動屬性](using/campaigns/campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/campaign-action.md)
-      + [在行銷活動中利用訊息最佳化](using/campaigns/campaigns-message-optimization.md)
       + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
       + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
       + [安排行銷活動](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
+   + [善用訊息最佳化](using/campaigns/campaigns-message-optimization.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
    + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 客群 {#audiences}

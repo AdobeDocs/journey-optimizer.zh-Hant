@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '513'
 ht-degree: 18%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 18%
 
    ![](assets/journey-web-activity.png)
 
+1. 您也可以選取&#x200B;**[!UICONTROL 動作]**&#x200B;活動，讓您選取多個輸入動作。 [了解更多](journey-action.md)
 
 1. 設定您的活動。 以下連結提供詳細的設定指南。
 
@@ -60,7 +61,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="不常使用" src="../assets/do-not-localize/push.jpg">
+      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
       <a href="../push/create-push.md"><strong>建立推播<strong></a>
@@ -109,7 +110,7 @@ ht-degree: 18%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="不常使用" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
