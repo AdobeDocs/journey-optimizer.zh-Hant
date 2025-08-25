@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 94%
 
 ---
@@ -344,3 +344,9 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >title="模擬您的歷程"
 >abstract="歷程模擬可讓您驗證您的歷程，並在啟動歷程之前查看執行績效。此模擬會使用經過訓練的模型資料在整個歷程中提供數據，以便了解該歷程在真實狀況下的表現績效。"
 
+<!-- QUIET HOURS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="規則類型"
+>abstract="規則類型"
