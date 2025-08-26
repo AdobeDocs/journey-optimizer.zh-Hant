@@ -36,7 +36,7 @@ ht-degree: 6%
 >
 >目前內容範本無法用於Web Channel。
 
-若要建立、編輯和刪除內容範本，請確定您擁有&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯和刪除內容範本，請確定您擁有&#x200B;**[!DNL Manage library items]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Content Library Manager]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [在此影片中瞭解如何建立和使用範本](#video-templates)
 

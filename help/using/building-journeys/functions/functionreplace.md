@@ -56,7 +56,7 @@ ht-degree: 11%
 * 由設定檔屬性`#{ExperiencePlatform.myFieldGroup.profile.myOffers}`提供
 * 要取代的字串： `|OFFER_A`
 * 字串取代為： `''`
-* 您必須在`|`字元前新增`\\`。
+* 您必須在`\\`字元前新增`|`。
 
 運算式為：
 

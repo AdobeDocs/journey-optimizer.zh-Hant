@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
->title="建立決定規則"
+>title="建立決策規則"
 >abstract="決定規則可讓您透過直接在決定項目層級或在特定選擇策略內套用限制來定義決定項目的客群。 這能讓您精確控制應向誰呈現哪些項目。"
 
 ## 關於決定規則 {#about}
@@ -42,7 +42,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >您也可以使用來自Adobe Experience Platform的資料，透過外部資料讓您的決策邏輯更為豐富。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
+   >您也可以使用來自Adobe Experience Platform的資料，透過外部資料讓您的決策邏輯更為豐富。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 所有客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
 
 1. 決定規則建立畫面隨即開啟。 為規則命名並提供說明。
 

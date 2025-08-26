@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | 定義與版位關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數`id`和`name`不能一起使用。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
+| `name` | 用於比對實體的xdm:name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

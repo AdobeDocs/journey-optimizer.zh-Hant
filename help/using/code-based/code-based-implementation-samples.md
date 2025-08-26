@@ -27,19 +27,19 @@ ht-degree: 2%
 
 ## 使用者端實施 {#client-side-implementation}
 
-如果您是使用者端實施，則可以使用其中一個AEP使用者端SDK：AEP Web SDK或AEP Mobile SDK。
+如果您是使用者端實施，則可以使用其中一個AEP使用者端SDK： AEP Web SDK或AEP Mobile SDK。
 
 * 步驟[如下](#client-side-how)說明在範例&#x200B;**網頁SDK**&#x200B;實作中，由程式碼型體驗歷程和行銷活動擷取在Edge上發佈的內容並顯示個人化內容的程式。
 
-* 在[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}中說明使用&#x200B;**Mobile SDK**&#x200B;實作程式碼式頻道的步驟。
+* 在&#x200B;**本教學課程**&#x200B;中說明使用[行動SDK](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}實作程式碼式頻道的步驟。
 
   >[!NOTE]
   >
-  >[iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}和[Android應用程式](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}有行動使用案例的範例實作。
+  >[iOS應用程式](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}和[Android應用程式](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}提供行動使用案例的範例實作。
 
 ### 運作方式 — 網頁SDK {#client-side-how}
 
-1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}已包含在此頁面上。
+1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
 1. 您必須使用`sendEvent`命令並指定[表面URI](code-based-surface.md)<!--( or location/path)-->來擷取個人化內容。
 
@@ -138,9 +138,9 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用使用者端實作�
 
 ## 伺服器端實作 {#server-side-implementation}
 
-如果您有伺服器端實作，則可以使用其中一個AEPEdge NetworkAPI。
+如果您有伺服器端實作，則可以使用其中一個AEP Edge Network API。
 
-以下步驟說明在網頁的範例Edge NetworkAPI實作中，透過程式碼型體驗歷程和促銷活動，擷取Edge上發佈的內容並顯示個人化內容的程式。
+以下步驟說明在網頁的範例Edge Network API實作中，擷取程式碼型體驗歷程和行銷活動在Edge上發佈的內容並顯示個人化內容的程式。
 
 ### 運作方式
 
@@ -306,4 +306,4 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 如果您採用混合式實作，請參閱下列連結。
 
 * Adobe技術部落格： [Adobe Experience Platform Web SDK中的Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hant){target="_blank"}
+* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

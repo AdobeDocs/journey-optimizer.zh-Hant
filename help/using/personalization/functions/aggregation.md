@@ -35,7 +35,7 @@ ht-degree: 9%
 {%=average(orders.order.price)%}
 ```
 
-## 計數{#count}
+## Count{#count}
 
 `count`函式傳回指定陣列中的元素數目。
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 {%=min(orders.order.price) %}
 ```
 
-## 總和{#sum}
+## Sum{#sum}
 
 `sum`函式傳回陣列中所有選取值的總和。
 

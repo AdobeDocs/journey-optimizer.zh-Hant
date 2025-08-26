@@ -12,7 +12,7 @@ exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 18%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ### 片段
 
-將Adobe Experience Manager與Adobe Journey Optimizer整合後，您現在可以將AEM內容片段順暢地整合至Journey Optimizer電子郵件內容。 此簡化的連線可簡化存取及運用AEM內容的程式，讓您建立個人化和動態的行銷活動和歷程。
+將Adobe Experience Manager與Adobe Journey Optimizer整合後，您現在可以將AEM內容片段順暢地整合至Journey Optimizer電子郵件內容。 已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
 
 深入瞭解[Journey Optimizer + Adobe Experience Manager片段](../integrations/aem-fragments.md)。
 
@@ -69,9 +69,9 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 ## Adobe Express {#express}
 
-Adobe Journey Optimizer中的Adobe Express整合可讓您在建立內容時輕鬆存取Adobe Express強大的編輯工具。 此整合可讓您調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG，而不需要在解決方案之間切換。
+Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 

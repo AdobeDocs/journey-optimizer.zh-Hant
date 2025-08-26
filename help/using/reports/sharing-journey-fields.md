@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->在本節[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性。
+>在本節[中進一步瞭解歷程屬性](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)。
 
 
 ## journeyID {#journeyid-field}

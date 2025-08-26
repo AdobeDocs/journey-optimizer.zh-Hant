@@ -1,5 +1,5 @@
 ---
-title: 更新遞補優惠
+title: 更新後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
 topic: Integrations
@@ -13,9 +13,9 @@ ht-degree: 11%
 
 ---
 
-# 更新遞補優惠 {#update-fallback-offer}
+# 更新後備產品建議 {#update-fallback-offer}
 
-您可以藉由向[!DNL Offer Library] API發出PATCH要求，修改或更新容器中的遞補優惠。
+您可以透過向[!DNL Offer Library] API發出PATCH請求來修改或更新容器中的遞補優惠。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 

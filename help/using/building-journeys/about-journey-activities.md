@@ -72,7 +72,7 @@ ht-degree: 15%
    * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
    * [[!DNL Journey Optimizer]與Marketo Engage](../action/marketo-engage.md)
 
-## 最佳作法 {#best-practices}
+## 最佳做法 {#best-practices}
 
 ### 新增標籤
 

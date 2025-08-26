@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # 歷程報告 {#journey-global-report}
 
-**歷程報告**&#x200B;可作為全方位儀表板，提供與您的歷程相關聯的基本量度分析。 這包含已輸入設定檔計數和失敗個別歷程例項等詳細資訊，提供歷程成效和參與層級的全面深入分析。
+**歷程報告**&#x200B;可作為全方位儀表板，提供與您的歷程相關聯的基本量度分析。 這包含諸如輸入的設定檔計數和失敗的個人歷程例項等詳細資訊，提供全面的insight來瞭解歷程的有效性和參與程度。
 
-使用&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，可以直接從您的歷程存取&#x200B;**歷程報告**。
+使用&#x200B;**檢視報告**&#x200B;按鈕，可以直接從您的歷程存取&#x200B;**[!UICONTROL 歷程報告]**。
 
 ![](assets/gs-cja-report-3.png)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 歷程概觀 {#journey-global}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-kpis.png)
 
-**[!UICONTROL 歷程]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與您的歷程相關之基本量度的分析。 這包含已輸入設定檔計數和失敗個別歷程例項等詳細資訊，提供歷程成效和參與層級的全面深入分析。
+**[!UICONTROL 歷程]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與您的歷程相關之基本量度的分析。 這包含已進入設定檔計數和失敗個別歷程例項等詳細資訊，提供全面的insight，用於瞭解歷程的成效和參與程度。
 
 +++ 進一步瞭解Journey KPI量度
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用下列選項增強畫布自訂功能：
 

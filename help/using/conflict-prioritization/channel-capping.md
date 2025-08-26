@@ -12,7 +12,7 @@ exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
 source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->為確保管道層級上限能正常運作，在製作行銷活動或歷程時，請務必選擇最高優先順序的名稱空間。 請至[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}中，進一步了解命名空間的優先順序
+>為確保管道層級上限能正常運作，在製作行銷活動或歷程時，請務必選擇最高優先順序的名稱空間。 在[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}之中進一步了解命名空間優先順序
 
 ## 建立管道頻率上限規則
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。****
 
      ![](assets/rule-sets-create.png)
 
@@ -69,7 +69,7 @@ ht-degree: 5%
 
      >[!AVAILABILITY]
      >
-     >此功能僅適用於一組組織 (可用性限制)。 請連絡您的客戶服務以啟用它。
+     >此功能僅適用於一組組織 (有限可用性)。 請聯絡您的客戶服務以啟用這項功能。
 
    * **[!UICONTROL 每日]** — 每日頻率上限在23:59:59 UTC之前的該日有效，並在隔天的開頭重設為0。
    * **[!UICONTROL 每週]** — 當行事曆周從星期日開始時，頻率上限將持續到星期六23:59:59 UTC。 無論規則是在何時建立，有效期都適用。 例如，如果規則是在星期四建立，則此規則的有效期直到星期六的23:59:59。
@@ -77,7 +77,7 @@ ht-degree: 5%
 
    >[!IMPORTANT]
    >
-   >* 為確保準確性，請確保在編寫行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>之中進一步了解命名空間優先順序
+   >* 為確保準確性，請確保在編寫行銷活動或歷程時選擇最高優先順序的名稱空間。 在[平台身分識別服務指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}<br/>之中進一步了解命名空間優先順序
    >
    >* 一旦傳遞通訊後，設定檔計數器值就會更新。 當您傳送大量通訊時，請注意這一點，因為輸送量可能導致收件者在啟動通訊後數分鐘甚至數小時收到電子郵件（若您同時傳送數百萬封通訊）。 如果收件者收到兩則緊密相連的通訊，則這一點很重要。 我們建議將通訊間隔至少兩小時，讓收件者有充足的時間接收通訊，並相應地更新計數器值。
 
@@ -166,4 +166,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

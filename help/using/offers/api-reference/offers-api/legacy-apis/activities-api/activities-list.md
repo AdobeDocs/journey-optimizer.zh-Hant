@@ -8,7 +8,7 @@ level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 決定包含通知優惠選擇的邏輯。
 
-您可以透過對[!DNL Offer Library] API執行單一GET要求，來檢視容器中所有決定的清單。
+您可以透過對[!DNL Offer Library] API執行單一GET請求，來檢視容器中所有決定的清單。
 
 **API格式**
 
@@ -48,8 +48,8 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `default` |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[、field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[，field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`-`)前新增`orderby=-title`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的決策數。 | `limit=5` |
 
 **回應**

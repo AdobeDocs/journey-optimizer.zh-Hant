@@ -48,7 +48,7 @@ ht-degree: 21%
 
 此表格顯示組態範例：
 
-| 欄位 | 值 |
+| 欄位 | 價值 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | 路徑 | `The _id + '/messages'` |

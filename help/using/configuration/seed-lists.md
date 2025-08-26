@@ -32,17 +32,17 @@ ht-degree: 16%
 
   例如：
 
-+++ 如果您是行銷經理：
+  +++ 如果您是行銷經理：
 
   您希望所有團隊成員都能與客戶同時收到已傳送訊息的復本。 如此一來，您的團隊就可以確保訊息會以預期的版面配置、作用中URL、正確的文字和影像傳送 — 在執行前都按計畫進行。
 
-+++
+  +++
 
-+++ 如果您是產品所有者：
+  +++ 如果您是產品所有者：
 
   您需要追蹤傳送給客戶的實際訊息。 事實上，您的團隊和領導層可能會對某些行銷活動感興趣，並且需要在傳送時臨時新增以接收訊息副本。
 
-+++
+  +++
 
 * 使用種子清單的另一個原因是您的郵寄清單保護。 將種子地址插入您的郵寄清單中可讓您注意到，它是否由第三方使用，因為它包含的種子地址將接收傳送至您的郵寄清單的傳遞。
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="定義種子清單"
 >abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"

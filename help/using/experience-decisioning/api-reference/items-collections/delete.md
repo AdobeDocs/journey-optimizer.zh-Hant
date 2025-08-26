@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 刪除專案集合 {#delete-decision-item}
 
-有時可能必須移除(DELETE)專案集合。 若要這麼做，請使用您要刪除的專案集合ID，對優惠資料庫API執行DELETE要求。
+有時可能必須移除(DELETE)專案集合。 若要這麼做，請使用您要刪除的專案集合ID，對選件程式庫API執行DELETE要求。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/item-collections/itemCol
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以嘗試對專案集合進行查詢(GET)來確認刪除。 您應該會收到HTTP狀態404 （找不到），因為專案集合已移除。
+您可以嘗試對專案集合發出查詢(GET)請求，以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為專案集合已移除。

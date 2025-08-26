@@ -5,9 +5,10 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 8b07be08-b37c-4535-82d8-3304340cbcad
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '187'
 ht-degree: 4%
 
 ---
@@ -39,7 +40,7 @@ GET /{ENDPOINT_PATH}/ranking-formulas?{QUERY_PARAMS}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中有`op`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[!]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的實體數。 | `limit=5` |
 

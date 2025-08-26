@@ -44,4 +44,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以嘗試對決定專案進行查詢(GET)以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為決定專案已移除。
+您可以嘗試向決定專案提出查詢(GET)請求以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為決定專案已移除。

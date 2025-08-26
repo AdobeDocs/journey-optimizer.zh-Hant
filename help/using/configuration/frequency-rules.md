@@ -15,7 +15,7 @@ keywords: 訊息，頻率，規則，壓力
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 14%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 14%
 
 ![](assets/message-rules-access.png)
 
-若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+若要了解更多關於權限的資訊，請參閱[此區段](../administration/high-low-permissions.md)。
 
 ## 建立業務規則 {#create-new-rule}
 
@@ -134,7 +134,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->為確保每日頻率上限規則的正確性，建議使用[串流分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hant){target="_blank"}。 在[本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中進一步瞭解對象評估方法。
+>為確保每日頻率上限規則的正確性，建議使用[串流分段](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。 在[本節](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)中進一步瞭解對象評估方法。
 
 ## 啟用商業規則 {#activate-rule}
 
@@ -190,7 +190,7 @@ ht-degree: 14%
 
 您可以結合數個商業規則，如下列範例所述。
 
-1. [建立名為&#x200B;*整體行銷上限*&#x200B;的商業規則](#create-new-rule)：
+1. [建立名為](#create-new-rule)整體行銷上限&#x200B;*的商業規則*：
 
    * 選取所有色版。
    * 將上限設定為每月12個。

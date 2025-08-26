@@ -29,7 +29,7 @@ ht-degree: 4%
 
 ![](assets/cja-direct-sending-stat.png)
 
-**[!UICONTROL 傳送統計資料]**&#x200B;表格可讓您深入瞭解直接郵件歷程的效能。 檢視關鍵量度，例如鎖定目標的收件者人數和成功傳送的件數，協助您評估郵件的觸及範圍和成效。
+**[!UICONTROL 傳送統計資料]**&#x200B;表格可提供您直接郵件歷程效能的insight。 檢視關鍵量度，例如鎖定目標的收件者人數和成功傳送的件數，協助您評估郵件的觸及範圍和成效。
 
 +++ 進一步瞭解如何傳送統計資料
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 排除原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表格以視覺化方式呈現導致目標對象中排除使用者設定檔的各種因素，以防止他們接收您的直接郵件訊息。
 

@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # 刪除決定 {#delete-decision}
 
-有時可能必須移除(DELETE)決定。 使用您要刪除之決定的`id`對[!DNL Offer Library] API執行DELETE要求，即可完成此作業。
+有時可能必須移除(DELETE)決定。 若要這麼做，請使用您要刪除之決定的[!DNL Offer Library]，對`id` API執行DELETE要求。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDec
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以嘗試向決定查詢(GET)以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為決定已移除。
+您可以嘗試向決定中查詢(GET)請求以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為決定已移除。

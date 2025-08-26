@@ -53,5 +53,5 @@ ht-degree: 9%
 | SMSNoToNumberDefinedInProfile | 050153 | 簡訊 | 若設定中未定義「ToNumber」，則會產生排除事件。 |
 | SMSNoVariantDefined | 050154 | 簡訊 | 若未定義變體，則會產生排除事件。 |
 | SMSNoMessageFoundForTreatment | 050155 | 簡訊 | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |
-| WebNoVariantDefined | 050041 | Web | 若未定義網頁訊息的變體，則會產生排除事件。 |
-| WebNoMessageFoundForTreatment | 050042 | Web | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |
+| WebNoVariantDefined | 050041 | 網頁 | 若未定義網頁訊息的變體，則會產生排除事件。 |
+| WebNoMessageFoundForTreatment | 050042 | 網頁 | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |

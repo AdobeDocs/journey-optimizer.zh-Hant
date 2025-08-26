@@ -105,7 +105,7 @@ ht-degree: 9%
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. 新增所有需要的核取方塊和/或文字欄位後，按一下&#x200B;**[!UICONTROL 呼叫動作]**&#x200B;以展開對應的區段。 它可讓您定義&#x200B;**[!UICONTROL 表單]**&#x200B;元件中按鈕的行為。
+1. 新增所有需要的核取方塊和/或文字欄位後，按一下&#x200B;**[!UICONTROL Call to action]**&#x200B;以展開對應的區段。 它可讓您定義&#x200B;**[!UICONTROL 表單]**&#x200B;元件中按鈕的行為。
 
    ![](assets/lp_designer-form-call-to-action.png)
 

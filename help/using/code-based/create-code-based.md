@@ -145,4 +145,4 @@ ht-degree: 8%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

@@ -10,9 +10,9 @@ level: Beginner
 keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 可讓您建立和設計登陸頁面，將使用者引導至線上表單，讓他們可以選擇加入或選擇退出，或訂閱電子報等特定服務。
 
-➡️ [透過此影片深入了解設定訂閱和建立登陸頁面](#video)
+➡️ [在此影片中進一步瞭解設定訂閱和建立登陸頁面](#video)
 
 * 利用[!DNL Journey Optimizer]內容設計功能輕鬆建立&#x200B;**回應式登陸頁面**。
 * 快速無縫設定&#x200B;**選擇加入和選擇退出流程**。

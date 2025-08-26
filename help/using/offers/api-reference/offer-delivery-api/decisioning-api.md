@@ -25,7 +25,7 @@ ht-degree: 2%
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
@@ -218,4 +218,4 @@ The following video is intended to support your understanding of the components 
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理[&#128279;](../../../offers/get-started/starting-offer-decisioning.md)的概觀。
+依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理[的](../../../offers/get-started/starting-offer-decisioning.md)概觀。

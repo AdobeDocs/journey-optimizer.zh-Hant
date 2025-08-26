@@ -15,13 +15,13 @@ ht-degree: 14%
 
 # 建立決定 {#create-decision}
 
-您可以向[!DNL Offer Library] API發出POST要求來建立決定。
+您可以向[!DNL Offer Library] API提出POST要求來建立決定。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 

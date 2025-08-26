@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 您使用翻譯提供者的翻譯服務，須受該適用提供者的其他條款與條件所限制。 身為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用翻譯服務。 Adobe無法控制且對協力廠商產品不承擔任何責任。
+> 您使用翻譯提供者的翻譯服務，須受該適用提供者的其他條款與條件所限制。 身為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用翻譯服務。 Adobe無法控制且對協力廠商產品不負任何責任。
 
 Adobe Journey Optimizer與提供機器及人力翻譯服務的第三方翻譯提供者整合，獨立於Adobe Journey Optimizer。
 
@@ -50,4 +50,4 @@ Adobe Journey Optimizer與提供機器及人力翻譯服務的第三方翻譯提
 
    ![](assets/provider_4.png)
 
-1. 完成設定後，按一下[儲存]，完成設定。**&#x200B;**
+1. 完成設定後，按一下[儲存]，完成設定。****

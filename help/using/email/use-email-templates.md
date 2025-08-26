@@ -39,7 +39,7 @@ ht-degree: 20%
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 
-1. [從電子郵件&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面存取電子郵件Designer](get-started-email-design.md)。
+1. [從電子郵件](get-started-email-design.md)編輯內容&#x200B;**[!UICONTROL 畫面存取電子郵件Designer]**。
 
 1. 在&#x200B;**[!UICONTROL 建立您的電子郵件]**&#x200B;畫面上，預設會選取&#x200B;**[!UICONTROL 範例範本]**&#x200B;索引標籤。
 

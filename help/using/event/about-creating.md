@@ -127,7 +127,7 @@ ht-degree: 13%
 
 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
-如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 然後您必須選取身分型別，而且會使用&#x200B;_identityMap > id_&#x200B;預先填入金鑰（**[!UICONTROL 身分型別]**&#x200B;欄位下方）。
+如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 然後您必須選取身分型別，而且會使用&#x200B;**[!UICONTROL identityMap > id]**&#x200B;預先填入金鑰（_身分型別_&#x200B;欄位下方）。
 
 選取欄位時，會標籤主要身分欄位。
 

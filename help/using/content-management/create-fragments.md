@@ -11,7 +11,7 @@ exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 13%
+ht-degree: 25%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 13%
 >
 >片段中不支援[內容屬性](../personalization/personalization-build-expressions.md)。
 >
->在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步瞭解連結和追蹤](../email/message-tracking.md)
+>在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[進一步了解連結和追蹤](../email/message-tracking.md)
 
 * 針對視覺片段，視需要編輯您的內容，就像處理歷程或行銷活動中的任何電子郵件一樣。 [了解更多](../email/get-started-email-design.md)
 
@@ -79,7 +79,7 @@ ht-degree: 13%
 
   >[!CAUTION]
   >
-  >片段在使用主題和手動樣式模式之間不相容。 為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。 [進一步瞭解主題](../email/apply-email-themes.md)
+  >片段在使用主題和手動樣式模式之間不相容。 為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。[進一步了解主題](../email/apply-email-themes.md)
 
 * 針對運算式片段，利用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能，建置您的片段內容。 [了解更多](../personalization/personalization-build-expressions.md)
 
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->視覺化片段不能超過100KB。 運算式片段不能超過200KB。
+>視覺化片段不能超過 100KB。運算式片段不能超過 200KB。
 
 已建立片段並新增至具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的片段清單。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
 

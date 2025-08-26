@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
+>檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
 
 若要將允許清單匯出為CSV檔案，請選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
 
@@ -140,19 +140,19 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許包含32到126之間的所有ASCII字元。 例如，您可以在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}找到完整清單。
+   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許包含32到126之間的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
 ### 使用API呼叫新增實體 {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如：
+若要填入允許清單，您也可以使用`ALLOWED`屬性的`listType`值呼叫隱藏API。 例如：
 
 ![](assets/allow-list-api.png)
 
 您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -195,7 +195,7 @@ ht-degree: 15%
 
 * 如果實體是允許清單&#x200B;**上的**，而不是隱藏清單上的，則會傳送電子郵件給對應的收件者。 但是，如果實體也在[隱藏清單](../reports/suppression-list.md)上，則對應的收件者將不會收到電子郵件，原因為&#x200B;**[!UICONTROL 隱藏]**。
 
-* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**&#x200B;[!UICONTROL &#x200B;不允許&#x200B;]&#x200B;**。**
+* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**&#x200B;不允許&#x200B;**[!UICONTROL 。]**
 
 >[!NOTE]
 >
@@ -207,7 +207,7 @@ ht-degree: 15%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

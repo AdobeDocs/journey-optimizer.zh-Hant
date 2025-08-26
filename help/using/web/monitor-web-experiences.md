@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## 檢查網頁報告 {#check-web-reports}
 
-一旦您的網頁體驗上線，您可以檢查[歷程報告](../reports/journey-global-report-cja-web.md)和[行銷活動報告](../reports/campaign-global-report-cja-web.md)的&#x200B;**[!UICONTROL 網頁]**&#x200B;標籤，以比較曝光次數、點按率及與網頁互動次數等元素。
+一旦您的網頁體驗上線，您可以檢查&#x200B;**[!UICONTROL 歷程報告]**&#x200B;和[行銷活動報告](../reports/journey-global-report-cja-web.md)的[網頁](../reports/campaign-global-report-cja-web.md)標籤，以比較曝光次數、點按率及與網頁互動次數等元素。
 
 <!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more about the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 

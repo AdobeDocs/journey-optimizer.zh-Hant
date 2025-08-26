@@ -51,9 +51,9 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ![個人化遊樂場](assets/playground.png)
 
-➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 讓我們深入探討
+## 一起來深入探討
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的個人化，是時候深入探討這些檔案區段以開始使用此功能了。
 
@@ -97,7 +97,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448153?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
 

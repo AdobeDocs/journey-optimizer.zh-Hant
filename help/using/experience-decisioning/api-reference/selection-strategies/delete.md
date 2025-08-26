@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 刪除選取策略 {#delete-selection-strategy}
 
-有時可能需要移除(DELETE)選取策略。 若要這麼做，請使用您要刪除的選擇策略ID，對優惠資料庫API執行DELETE要求。
+有時可能必須移除(DELETE)選擇策略。 若要這麼做，請使用您要刪除的選擇策略ID，對選件程式庫API執行DELETE要求。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/selection-strategies/sel
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以嘗試對選擇策略進行查詢(GET)以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為選取策略已移除。
+您可以嘗試對選擇策略發出查詢(GET)請求以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為選取策略已移除。

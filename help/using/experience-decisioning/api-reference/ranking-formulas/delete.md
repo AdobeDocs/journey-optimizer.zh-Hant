@@ -5,7 +5,8 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
@@ -43,4 +44,3 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 成功的回應會傳回HTTP狀態200和空白內文。
 
 您可以嘗試對排名公式發出查詢(GET)請求以確認刪除。 您應該會收到HTTP狀態404 （找不到），因為已移除排名公式。
-

@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# 最佳作法 {#best-practices}
+# 最佳做法 {#best-practices}
 
 ## 即時使用案例和全通路個人化指引 {#real-time-guidance}
 

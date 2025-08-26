@@ -7,7 +7,7 @@ exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 5%
 
 了解更多：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ ht-degree: 5%
 
 使用對象深入瞭解：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ ht-degree: 5%
 
 了解更多：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ ht-degree: 5%
 
 若要根據最新的購物車進行個人化通訊，或跨多種購物車型別或產品檢視瀏覽事件：
 
-* 如果您可以存取[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將其寫入已啟用設定檔的資料集以進行啟用。
-* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* 如果您可以存取[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將其寫入已啟用設定檔的資料集以進行啟用。
+* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}那邊，了解更多相關資訊。
 
 
 ## 行為型歷程退出
@@ -122,7 +122,7 @@ ht-degree: 5%
 
 了解更多：
 
-* Adobe Experience Platform [計算屬性總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [計算屬性總覽](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -130,7 +130,7 @@ ht-degree: 5%
 
 不再支援在歷程運算式/條件中使用體驗事件。 影響會列於以下的常見問題集中：
 
-+++哪些特定功能會受到影響？
++++哪些特定功能會受到影響？ 
 
 只有運算式編輯器中的體驗事件查詢會受到影響。 下列功能&#x200B;**不**&#x200B;受影響，且保持不變：
 
@@ -150,13 +150,13 @@ ht-degree: 5%
 
 +++
 
-+++我現有的Adobe組織是否會受到此更新的影響？
++++我現有的Adobe組織是否會受到此更新的影響？ 
 
 只有當您尚未使用體驗事件查詢時，才會影響您的Adobe組織。 如果您已在[Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)中使用體驗事件，您的Adobe組織會繼續支援體驗事件查閱。
 
 +++
 
-+++我有一個新的Adobe組織。 如何解決需要體驗事件資料的使用案例？
++++我有一個新的Adobe組織。 如何解決需要體驗事件資料的使用案例？ 
 
 上述提供體驗事件的替代方法和最佳實務，有助於達成理想的使用案例。
 

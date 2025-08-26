@@ -12,11 +12,11 @@ exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 疑難排解您的歷程 {#troubleshooting}
+# 疑難排解歷程 {#troubleshooting}
 
 當客戶歷程的行為與預期不符時，要找出根本原因可能相當困難。 為協助您有效解決問題，您可以在下方找到疑難排解資源，按照最常見的問題區域進行排解。 無論您是看到歷程失敗、執行不一致或動作層級問題，每個區段都會提供目標性的指引，讓您得以調查並解決這些問題。
 

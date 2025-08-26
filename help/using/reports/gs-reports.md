@@ -5,10 +5,11 @@ title: 開始使用 [!DNL Adobe Journey Optimizer]的報告功能
 description: 瞭解如何存取及使用 [!DNL Adobe Journey Optimizer] 報告。
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
@@ -16,24 +17,24 @@ ht-degree: 15%
 
 Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深入分析。 報告適用於行銷活動、歷程、登陸頁面、訂閱清單等。 可用的報告如下所列。
 
-此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段[&#128279;](deliverability.md)中列出的最佳實務。
+此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段[中列出的](deliverability.md)最佳實務。
 
 
-## 報表型別 {#reporting-types}
+## 報告類型 {#reporting-types}
 
-* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 在本節[&#128279;](live-report.md)中進一步瞭解即時報告。
+* **過去24小時的即時報告** — 使用&#x200B;**[!UICONTROL 即時報告]**，在內建儀表板中測量並即時視覺化歷程和訊息的影響和效能。 當傳送您的傳遞或從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤執行您的歷程時，**[!UICONTROL 即時報告]**&#x200B;中就會提供資料。 若想了解即時報告的詳細資訊，請參閱[本區段](live-report.md)。
 
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer與Customer Journey Analytics之間的緊密整合可讓您更清楚檢視效能指標，讓使用者能做出更明智的決策。 在本節[&#128279;](report-gs-cja.md)中進一步瞭解所有時間報表。
+* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間能緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更明智的決策。在本節[中進一步瞭解所有時間報表](report-gs-cja.md)。
 
   ![](assets/gs-cja-report-1.png)
 
   如果您擁有Adobe Customer Journey Analytics授權，則可在Customer Journey Analytics中分析Journey Optimizer報表。 此功能強大的選項可順暢地將您重新導向至Customer Journey Analytics環境，讓您能夠廣泛個人化報告。 您可以使用專門的Customer Journey Analytics量度擴充您的Widget，將您的見解提升到全新的境界。 [了解更多](report-cja-manage.md)
 
 
-## 讓我們深入探討
+## 一起來深入探討
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的報告型別，是時候深入探討這些檔案區段了，以瞭解如何存取及瞭解報告功能。
 
@@ -109,7 +110,7 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png">
-<div align="center"><p><strong>電子郵件頻道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>歷程報告</strong></a></p></div></td>
+<div align="center"><p><strong>電子郵件管道</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>歷程報告</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>簡訊頻道</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>歷程報告</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
@@ -124,7 +125,7 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="應用程式內" src="../channels/assets/do-not-localize/inapp.jpg">
-<div align="center"><p><strong>應用程式內頻道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>歷程報告</strong></a></p></div></td>
+<div align="center"><p><strong>應用程式內管道</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>歷程報告</strong></a></p></div></td>
 <td><p><img alt="網頁" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>網頁管道</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>歷程報告</strong></a></p></div></td>
 <td><img alt="程式碼型體驗" src="../channels/assets/do-not-localize/code.png">

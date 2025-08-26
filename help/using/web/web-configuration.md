@@ -61,7 +61,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 >title="定義內容製作和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
-建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;**的**&#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。
+建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;**[!UICONTROL 的]**&#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。
 
 例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的最上方影像。
 
@@ -85,7 +85,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 1. 您可以在不同的規則之間使用&#x200B;**[!UICONTROL Or]**&#x200B;或&#x200B;**[!UICONTROL Exclude]**&#x200B;運運算元。
 
-   當符合所定義規則的其中一個頁面不應作為目標時，**[!UICONTROL 排除]**&#x200B;會很有用。 例如，您可以鎖定包含`product`的所有`luma.com`頁面，排除下列頁面： `https://luma.com/blogs/productinfo`。
+   當符合所定義規則的其中一個頁面不應作為目標時，**[!UICONTROL 排除]**&#x200B;會很有用。 例如，您可以鎖定包含`luma.com`的所有`product`頁面，排除下列頁面： `https://luma.com/blogs/productinfo`。
 
    ![](assets/web_config_4.png)
 
@@ -93,7 +93,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 ### 建立頁面比對規則的可用運運算元 {#available-operators}
 
-建立符合多個頁面[&#128279;](#web-page-matching-rule)的規則時，您可以在&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 路徑]**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 可用的運運算元如下所列。
+建立符合多個頁面[的](#web-page-matching-rule)規則時，您可以在&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 路徑]**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 可用的運運算元如下所列。
 
 * **網域**
 
@@ -123,12 +123,12 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
         <td></td>
     </tr>
     <tr>
-        <td>開頭為</td>
+        <td>開始於</td>
         <td>比對以輸入字串開頭的所有路徑（包括子路徑）。</td>
         <td></td>
     </tr>
     <tr>
-        <td>結尾為</td>
+        <td>結束於</td>
         <td>比對以輸入字串結尾的所有路徑（包括子路徑）。</td>
         <td></td>
     </tr>

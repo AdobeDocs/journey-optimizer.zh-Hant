@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢決定規則 {#lookup-decision-rule}
 
-您可以透過向[!DNL Offer Library] API發出GET要求來查詢特定的決定規則，該API在要求路徑中包含決定規則`id`。
+您可以透過向[!DNL Offer Library] API發出GET請求來查詢特定的決定規則，該API在請求路徑中包含決定規則`id`。
 
 **API格式**
 

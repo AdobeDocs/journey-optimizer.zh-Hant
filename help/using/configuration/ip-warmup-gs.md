@@ -11,7 +11,7 @@ keywords: IP, 傳遞能力
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 73%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 73%
 
 為避免遭標記為垃圾郵件，您可以使用 IP 暖身計劃功能逐步增加傳送量。 這項新選項位於&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 
 
-➡️[在此影片中瞭解如何建立及執行IP熱身計畫](#video)
+➡️ [在此影片中瞭解如何建立及執行IP熱身計畫](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +52,7 @@ Benefits
 
 了解如何建立和執行 IP 暖身計劃。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453851/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >

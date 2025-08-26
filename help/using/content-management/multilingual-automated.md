@@ -166,7 +166,7 @@ ht-degree: 20%
 
    1. 在Adobe Experience Platform資料收集中，存取您的標籤屬性。
 
-   1. 存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. 存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 
@@ -280,7 +280,7 @@ ht-degree: 20%
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
    >[!IMPORTANT]
    >

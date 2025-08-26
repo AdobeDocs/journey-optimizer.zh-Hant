@@ -20,9 +20,9 @@ ht-degree: 7%
 
 若要設定網頁應用程式內頻道，請遵循下列步驟：
 
-* 安裝Web SDK標籤擴充功能以支援Web應用程式內傳訊。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)
+* 安裝Web SDK標籤擴充功能以支援Web應用程式內傳訊。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=en)
 
-* 自訂您的觸發器。 Web應用程式內傳訊支援兩種型別的觸發器：將資料傳送至平台和手動觸發器。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=zh-Hant)
+* 自訂您的觸發器。 Web應用程式內傳訊支援兩種型別的觸發器：將資料傳送至平台和手動觸發器。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
 * 建立您的網頁應用程式內設定。 [了解更多](inapp-configuration.md)
 
@@ -67,7 +67,7 @@ ht-degree: 7%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -97,7 +97,7 @@ ht-degree: 7%
 
 1. 如有需要，請選擇要顯示應用程式內訊息的&#x200B;**[!UICONTROL 一週中的哪一天]**&#x200B;或&#x200B;**[!UICONTROL 一天中的哪個時間]**。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
+1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
 
    ![](assets/in_app_web_surface_6.png)
 

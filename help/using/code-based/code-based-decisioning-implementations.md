@@ -26,15 +26,15 @@ ht-degree: 1%
 發佈行銷活動後，將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
 
     &quot;
-    &lbrace;
-    &quot;資料&quot;： &lbrace;
-    &quot;__adobe&quot;： &lbrace;
-    &quot;ajo&quot;： &lbrace;
+    {
+    &quot;資料&quot;： {
+    &quot;__adobe&quot;： {
+    &quot;ajo&quot;： {
     &quot;dryRun&quot;： true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
+    }
+    }
+    }
+    }
     &quot;&#39;
 
 <!--
@@ -137,7 +137,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
       * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
 
-+++決策範例回應(`allowDuplicateDecisionItems` = `true`)
++++決定範例回應(`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-+++決策範例回應(`allowDuplicateDecisionItems` = `false`)
++++決定範例回應(`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

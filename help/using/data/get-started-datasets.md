@@ -9,7 +9,7 @@ level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7fb853a898a84ff31c7a24b48f963f06c4d10b6f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 

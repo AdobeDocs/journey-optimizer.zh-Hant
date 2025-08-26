@@ -17,13 +17,13 @@ ht-degree: 9%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以向[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立集合。
+您可以對[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立集合。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |

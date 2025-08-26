@@ -8,8 +8,8 @@ level: Experienced
 exl-id: be0f683d-1d39-47f6-b565-1cc7ee06ee71
 source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 選擇策略包含與適用性限制相關的集合和排名方法，以決定在[決定原則](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision)中選取時要顯示的優惠。
 
-您可以透過對優惠資料庫API執行單一GET請求，來檢視所有選擇策略的清單。
+您可以透過對選件資料庫API執行單一GET請求，來檢視所有選取策略清單。
 
 **API格式**
 
@@ -40,7 +40,7 @@ GET /{ENDPOINT_PATH}/selection-strategies?{QUERY_PARAMS}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中有`op`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[!]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的實體數。 | `limit=5` |
 

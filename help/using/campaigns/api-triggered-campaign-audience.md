@@ -7,13 +7,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
 
 ---
-
 
 # 定義API觸發的行銷活動對象 {#api-audience}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 1. **選取身分型別**
 
-   在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+   在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
 
    每個行銷活動只允許一個身分型別。 如果屬於區段的個人在不同身分中沒有選取的身分型別，則無法將該行銷活動設為目標。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解身分型別和名稱空間。
 

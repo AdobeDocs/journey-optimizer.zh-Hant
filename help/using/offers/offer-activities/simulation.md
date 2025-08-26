@@ -66,7 +66,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節[&#128279;](../../audience/get-started-identity.md){target="_blank"}中進一步瞭解Adobe Experience Platform識別名稱空間。
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節[中進一步瞭解Adobe Experience Platform識別名稱空間](../../audience/get-started-identity.md){target="_blank"}。
 
 1. 輸入身分值並按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;列出可用的設定檔。
 
@@ -103,7 +103,7 @@ ht-degree: 12%
    * 您可以使用搜尋欄位來縮小選取範圍。
    * 您可以按一下&#x200B;**[!UICONTROL 開啟優惠決定]**&#x200B;連結，開啟您建立的所有決定清單。 深入瞭解[決定](create-offer-activities.md)。
 
-   選取您選擇的決定並按一下[新增]。**&#x200B;**
+   選取您選擇的決定並按一下[新增]。****
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 
@@ -139,7 +139,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以跨多個決定/位置提出相同的主張。 在[本節](../api-reference/offer-delivery-api/decisioning-api.md)中進一步瞭解[!DNL Decisioning] API要求屬性。
+   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以跨多個決定/位置提出相同的主張。 在[!DNL Decisioning]本節[中進一步瞭解](../api-reference/offer-delivery-api/decisioning-api.md) API要求屬性。
 
 1. 在&#x200B;**[!UICONTROL 回應格式]**&#x200B;區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選取&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;時，它們會顯示在請求和回應裝載中。 在[檢視模擬結果](#simulation-results)區段中瞭解更多。
 

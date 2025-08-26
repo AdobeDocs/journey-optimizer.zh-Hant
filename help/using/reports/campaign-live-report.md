@@ -33,7 +33,7 @@ ht-degree: 26%
 * [應用程式內](#inapp-live)
 * [推播](#push-live)
 * [簡訊](#sms-live)
-* [Web](#web-tab)
+* [網頁](#web-tab)
 * [直接郵件](#direct-mail-tab)
 
 >[!AVAILABILITY]
@@ -522,7 +522,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 互動]**：與網頁的互動總數。 這包括使用者所執行的任何動作，例如點按或任何其他互動。
 
-+++
++++ 
 
 ### 網頁摘要 {#web-summary}
 
@@ -541,7 +541,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 互動]**：與網頁的互動總數。 這包括使用者所執行的任何動作，例如點按或任何其他互動。
 
-+++
++++ 
 
 ### 依元素劃分的互動 {#web-interactions}
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 
-您可以透過向[!DNL Offer Library] API發出GET要求來查詢特定集合，API在要求路徑中包含集合`id`。
+您可以透過向[!DNL Offer Library] API發出GET請求來查詢特定集合，API在請求路徑中包含集合`id`。
 
 **API格式**
 

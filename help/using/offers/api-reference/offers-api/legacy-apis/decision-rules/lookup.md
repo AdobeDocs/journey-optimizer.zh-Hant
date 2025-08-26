@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
 
 # 查詢決定規則 {#lookup-decision-rule}
 
-您可以向[!DNL Offer Library] API發出GET要求，以查詢特定的決定規則，其中會包含決定規則`@id`或要求路徑中的決定規則名稱。
+您可以向[!DNL Offer Library] API發出GET要求，查詢特定的決定規則，其中會包含決定規則`@id`或要求路徑中的決定規則名稱。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{CONTAINER_ID}` | 決策規則所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 定義與決定規則關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數s `id`和`name`不能一起使用。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Sales rule` |
+| `name` | 用於比對實體的xdm:name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Sales rule` |
 
 **要求**
 

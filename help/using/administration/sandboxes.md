@@ -58,7 +58,7 @@ ht-degree: 28%
 
 ## 存取內容 {#content-access}
 
-若要設定內容協助工具，請將內容共用資料夾指派給每個沙箱。 您可以在[!DNL Admin Console]中顯示的&#x200B;**[!UICONTROL 儲存體]**&#x200B;索引標籤中為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
+若要設定內容協助工具，請將內容共用資料夾指派給每個沙箱。 您可以在&#x200B;**[!UICONTROL 中顯示的]**&#x200B;儲存體[!DNL Admin Console]索引標籤中為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
 
 ![](assets/do-not-localize/content_access.png)
 

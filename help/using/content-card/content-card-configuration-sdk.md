@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 在 Web SDK 中設定內容卡支援 {#content-card-configuration-sdk}
 
-此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
+此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
 
 初次載入頁面時，頁面會顯示其預設狀態。 但是，如果您與&#x200B;**存款基金**&#x200B;或&#x200B;**在社群媒體上分享**&#x200B;按鈕互動，將會顯示其他內容卡。 這些卡片是由使用者端條件觸發，以確保僅在採取特定動作時才會顯示。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 ## 運作方式 {#setup}
 
-1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)。
+1. 使用範例資料夾中[檔案的設定，在頁面上包含並設定](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)網頁SDK`.env`。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -87,7 +87,7 @@ ht-degree: 4%
    });
    ```
 
-1. 使用`script.js`中找到的`contentCardsManager`物件管理內容卡片的轉譯，並傳送`interact`和`display`個事件。 從收到的主張中擷取、排序及處理內容卡片。
+1. 使用`interact`中找到的`display`物件管理內容卡片的轉譯，並傳送`contentCardsManager`和`script.js`個事件。 從收到的主張中擷取、排序及處理內容卡片。
 
    ```
    const createContentCard = (proposition, item) => {
@@ -198,9 +198,9 @@ ht-degree: 4%
 
 ### personalizationStorageEnabled
 
-`configure`命令中的`personalizationStorageEnabled`選項設定為`true`。 這可確保儲存先前限定的內容卡片，並在使用者工作階段間繼續顯示。
+`personalizationStorageEnabled`命令中的`true`選項設定為`configure`。 這可確保儲存先前限定的內容卡片，並在使用者工作階段間繼續顯示。
 
-### 觸發器
+### 觸發程序
 
 內容卡支援在使用者端評估的自訂觸發器。 符合觸發規則時，會顯示其他內容卡片。 此範例使用四個不同的行銷活動，每個內容卡一個都共用相同的表面： `web://alloy-samples.adobe.com/#content-cards-sample`。 下表概述每個行銷活動的觸發程式規則以及如何滿足這些規則。
 

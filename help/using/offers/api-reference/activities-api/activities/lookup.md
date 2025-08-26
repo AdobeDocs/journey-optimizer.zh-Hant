@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查詢決定 {#look-up-decision}
 
-您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含決定`id`，以查詢特定決定。
+您可以透過向[!DNL Offer Library] API發出GET請求來查詢特定決策，該API包含在請求路徑中的決策`id`。
 
 **API格式**
 

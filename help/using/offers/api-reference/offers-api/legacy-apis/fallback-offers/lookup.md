@@ -8,14 +8,14 @@ level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
 
 # 查詢遞補優惠 {#look-up-fallback-offers}
 
-您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含遞補優惠`@id`或遞補優惠的名稱，以查詢特定的遞補優惠。
+您可以向[!DNL Offer Library] API發出GET要求，並在要求路徑中包含遞補優惠`@id`或遞補優惠的名稱，以查詢特定的遞補優惠。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{CONTAINER_ID}` | 遞補優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | 定義與遞補優惠方案關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數`id`和`name`不能一起使用。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `F1: Web fallback` |
+| `name` | 用於比對實體的xdm:name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `F1: Web fallback` |
 
 **要求**
 

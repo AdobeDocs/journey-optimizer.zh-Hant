@@ -1,5 +1,5 @@
 ---
-title: 刪除遞補優惠
+title: 刪除後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
 topic: Integrations
@@ -13,9 +13,9 @@ ht-degree: 8%
 
 ---
 
-# 刪除遞補優惠 {#delete-fallback-offer}
+# 刪除後備產品建議 {#delete-fallback-offer}
 
-有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 這是透過使用您要刪除的遞補優惠的$id對[!DNL Offer Library] API執行DELETE要求來完成。
+有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 使用您要刪除之遞補優惠的$id，對[!DNL Offer Library] API執行DELETE要求來達成此目的。
 
 **API格式**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以嘗試對遞補優惠進行查詢(GET)以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已經從容器中移除遞補優惠。
+您可以嘗試對遞補優惠進行查詢(GET)請求以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已經從容器中移除遞補優惠。

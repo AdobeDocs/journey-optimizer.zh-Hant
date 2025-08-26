@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# 概述報表 {#channel-report-cja}
+# 概觀報表 {#channel-report-cja}
 
 概述報表可為使用者提供您環境中所有行銷活動和歷程的流量和參與量度的完整摘要。 這些量度會結合，針對來自不同管道（包含各種行銷活動和歷程）的動作呈現統一值。
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 * [行銷活動](#campaign)
 * [管道](#channel)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ![](assets/cja-channel-campaigns.png)
 
-**[!UICONTROL Campaign]**&#x200B;表格可作為全方位儀表板，呈現行銷活動關鍵量度的詳細概觀。 它提供基本資料，例如設定檔和傳送的數量，讓您深入瞭解行銷活動的績效和參與程度。
+**[!UICONTROL Campaign]**&#x200B;表格可作為全方位儀表板，呈現行銷活動關鍵量度的詳細概觀。 它提供基本資料，例如設定檔和傳送的數量，為您提供全面的insight，用於瞭解行銷活動的績效和參與程度。
 
 按一下此表所列之任何行銷活動的名稱，您就可以輕鬆個別探索每個行銷活動，並在新索引標籤中立即取得其完整報告。
 

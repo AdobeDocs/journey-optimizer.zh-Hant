@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢集合限定詞 {#look-up-tag}
 
-GET您可以透過向[!DNL Offer Library] API發出要求，在要求路徑中包含集合限定詞`id`，以查詢特定的集合限定詞（先前稱為「標籤」）。
+您可以透過向[!DNL Offer Library] API發出GET要求，在要求路徑中包含集合限定詞`id`，以查詢特定的集合限定詞（先前稱為「標籤」）。
 
 **API格式**
 

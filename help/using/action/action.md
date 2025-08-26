@@ -27,7 +27,7 @@ ht-degree: 46%
 
 ➡️ [在影片中探索此功能](#video)
 
-[!DNL Journey Optimizer]隨附內建訊息功能。 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的承載，透過 REST API 進行呼叫。
+[!DNL Journey Optimizer]隨附內建訊息功能。 自訂動作可讓您設定第三方系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可經由 REST API，搭配 JSON 格式的承載進行呼叫。
 
 * 如果您使用Adobe Campaign v7或v8，整合可應要求提供。 請參見[此頁面](../action/acc-action.md)。
 
@@ -49,4 +49,4 @@ ht-degree: 46%
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

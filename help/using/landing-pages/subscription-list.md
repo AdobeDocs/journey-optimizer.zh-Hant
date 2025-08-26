@@ -22,7 +22,7 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="設定訂閱清單"
 >abstract="建立訂閱清單以收集已選擇接收有關特定主旨或事件的通訊內容的設定檔。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=zh-Hant#define-subscription-list" text="建立訂閱清單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="建立訂閱清單"
 
 訂閱服務是指為已選擇接收特定主旨/事件/興趣/等之通訊的客戶提供的行銷商品和服務。 持續進行。 在[!DNL Journey Optimizer]中，這些選擇加入的客戶會收集到訂閱清單中。
 

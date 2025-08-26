@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -57,8 +57,8 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `demo collection` |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
-| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[、field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm：name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[，field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm:name） | `_instance.xdm:name` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`-`)前新增`orderby=-title`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的集合數。 | `limit=5` |
 
 **回應**

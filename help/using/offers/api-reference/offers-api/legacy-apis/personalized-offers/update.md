@@ -13,9 +13,9 @@ ht-degree: 10%
 
 ---
 
-# 更新個人化優惠 {#update-personalized-offer}
+# 更新個人化產品建議 {#update-personalized-offer}
 
-您可以透過向[!DNL Offer Library] API發出PATCH要求來修改或更新個人化優惠
+您可以透過向[!DNL Offer Library] API發出PATCH請求來修改或更新個人化優惠
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |

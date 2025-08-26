@@ -115,7 +115,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 

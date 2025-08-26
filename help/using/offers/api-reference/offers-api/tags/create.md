@@ -16,13 +16,13 @@ ht-degree: 13%
 
 # 建立集合限定詞 {#create-tag}
 
-您可以透過向選件程式庫API發出POST要求來建立集合限定詞（先前稱為「標籤」）。
+您可以透過向優惠資料庫API發出POST要求，以建立集合限定詞（先前稱為「標籤」）。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 

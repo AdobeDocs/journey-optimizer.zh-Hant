@@ -10,7 +10,7 @@ keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '735'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 6%
 
 * **ERR_ENDPOINTCONFIG_100**：設定上限：遺漏或無效的url
 * **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
-* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：不允許在host：port中使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：主機:port不允許url中的wildchar
 * **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
 * **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
@@ -131,7 +131,7 @@ ht-degree: 6%
 
 每個API命令的詳細資訊可在[API說明和Postman集合](#description)中取得。
 
-+++建立和部署新的上限設定
++++建立及部署新的上限設定
 
 要使用的API呼叫：
 

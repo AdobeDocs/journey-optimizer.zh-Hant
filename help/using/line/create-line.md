@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立LINE訊息
+title: 建立 LINE 訊息
 description: 瞭解如何在Journey Optimizer中建立LINE訊息
 feature: Line
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 建立LINE訊息 {#create-line}
+# 建立 LINE 訊息 {#create-line}
 
 ## 新增LINE訊息 {#create-line-journey-campaign}
 
@@ -63,14 +63,14 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定您是否想要追蹤簡訊訊息中連結的點按次數。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
+1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
 
 1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇SMS訊息的&#x200B;**[!UICONTROL 頻率]**：
 
    * 一次
    * 每日
    * 每週
-   * 月
+   * Month
 
 您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計文字訊息的內容，如下所述。
 

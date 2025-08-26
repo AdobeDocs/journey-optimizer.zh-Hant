@@ -118,7 +118,7 @@ ht-degree: 13%
 
 1. 選取或建立新的[內容卡組態](content-card-configuration.md)。
 
-1. 若要測試訊息的內容，請按一下[建立實驗]。**&#x200B;** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
+1. 若要測試訊息的內容，請按一下[建立實驗]。**** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
 
 1. 啟用「**[!UICONTROL 啟用其他傳遞規則]**」選項，然後選取「**[!UICONTROL 編輯規則]**」以定義何時應顯示、解除或永久隱藏您的訊息。
 

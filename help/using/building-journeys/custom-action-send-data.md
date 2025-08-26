@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將資料傳送至AEP
+title: 傳送資料至AEP
 description: 瞭解如何將資料傳送至AEP
 feature: Journeys, Use Cases
 topic: Content Management

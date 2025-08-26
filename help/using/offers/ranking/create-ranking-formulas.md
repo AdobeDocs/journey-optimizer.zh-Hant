@@ -185,7 +185,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++如果在呼叫中傳遞&quot;contextData.weather=hot&quot;，則提升具有&quot;attribute=hot&quot;之所有選件的優先順序。
++++如果在呼叫中傳遞「contextData.weather=hot」，則提升具有「attribute=hot」之所有選件的優先順序。
 
 >[!BEGINTABS]
 

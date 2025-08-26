@@ -10,7 +10,7 @@ level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 

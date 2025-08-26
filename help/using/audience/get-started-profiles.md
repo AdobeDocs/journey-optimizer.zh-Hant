@@ -36,7 +36,7 @@ ht-degree: 25%
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 
@@ -46,7 +46,7 @@ ht-degree: 25%
 >
 >如果貴組織是初次使用 [!DNL Adobe Journey Optimizer]，且尚未建立作用中的輪廓資料集或合併原則，則&#x200B;**輪廓**&#x200B;儀表板不可見。**總覽**&#x200B;標籤會顯示Adobe Experience Platform檔案的連結，以協助您開始使用即時客戶個人檔案。 若要瞭解如何使用&#x200B;**設定檔儀表板**，以及有關儀表板中顯示之量度的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
-您可以將多個來源的資料片段放在一起，然後組合這些片段，即可檢視每個個別客戶的完整檢視。 彙總此資料時，合併原則是用來判斷資料優先順序的方式以及合併哪些資料以建立統一檢視的規則。 在此[檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**合併原則**。
+您可以將多個來源的資料片段放在一起，然後組合這些片段，即可檢視每個個別客戶的完整檢視。 彙總此資料時，合併原則是用來判斷資料優先順序的方式以及合併哪些資料以建立統一檢視的規則。 在此&#x200B;**檔案**&#x200B;中進一步瞭解[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}。
 
 ![](assets/profiles-home.png)
 

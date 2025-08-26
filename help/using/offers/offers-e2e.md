@@ -25,7 +25,7 @@ ht-degree: 4%
 1. 在建立優惠方案之前，[定義您的元件](#define-components)
 
    * 建立位置
-   * 建立決定規則
+   * 建立決策規則
    * 建立集合限定詞（先前稱為「標籤」）
    * 建立排名（選擇性）
 
@@ -168,7 +168,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 

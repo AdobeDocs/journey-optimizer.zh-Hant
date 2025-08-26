@@ -56,7 +56,7 @@ ht-degree: 4%
 
 1. 定義將決定相符決策專案排名分數的條件。 您可以
 
-   * 從[使用者介面](#ranking-select-criteria)填入&#x200B;**[!UICONTROL 條件]**&#x200B;區段，
+   * 從&#x200B;**[!UICONTROL 使用者介面]**&#x200B;填入[條件](#ranking-select-criteria)區段，
    * 或切換至[程式碼編輯器](#ranking-code-editor)。
 
    >[!NOTE]
@@ -65,7 +65,7 @@ ht-degree: 4%
 
 1. 您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。
 
-   只要是客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
+   所有客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -118,7 +118,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -156,13 +156,13 @@ To leverage data from an AEP dataset, follow the steps below.
 
 若要在公式中運用與決策專案相關的屬性，請務必遵循排名公式程式碼中的正確語法。 展開每個區段以取得詳細資訊：
 
-+++運用決策專案標準屬性
++++利用決策專案標準屬性
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++善用決策專案自訂屬性
++++利用決策專案自訂屬性
 
 ![](../assets/formula-attribute-custom.png)
 
@@ -172,7 +172,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 您可以視需要建立許多不同的排名公式。 以下是一些範例。
 
-+++根據設定檔屬性，將優惠方案與特定優惠方案屬性提升
++++根據設定檔屬性，以特定優惠方案屬性提升優惠方案
 
 如果設定檔位在與優惠方案對應的城市，則將該城市中所有優惠方案的優先順序加倍。
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++結束日期距離現在不足24小時的Boost優惠方案
++++結束日期距離現在不足24小時的提升選件
 
 **排名公式：**
 
@@ -224,7 +224,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++根據內容資料提升優惠方案{#context-data}
++++根據內容資料{#context-data}提升優惠方案
 
 [!DNL Journey Optimizer]可讓您根據呼叫中傳遞的內容資料，提升某些優惠方案。 例如，如果傳遞`contextData.weather=hot`，則必須提升所有具有`attribute=hot`的優惠方案的優先順序。
 

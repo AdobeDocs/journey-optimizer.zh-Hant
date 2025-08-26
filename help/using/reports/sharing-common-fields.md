@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在本節[&#128279;](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)中進一步瞭解歷程屬性。
+>在本節[中進一步瞭解歷程屬性](../building-journeys/expression/journey-properties.md#journey-propertoes-fields)。
 
 
 ## 入口 {#entrance-field}

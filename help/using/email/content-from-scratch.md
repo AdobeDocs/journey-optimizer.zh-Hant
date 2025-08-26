@@ -11,8 +11,8 @@ keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 55%
+source-wordcount: '673'
+ht-degree: 52%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 55%
 
    ![](assets/email_designer_structure_components.png)
 
-   選取&#x200B;**[!UICONTROL n:n 欄]**&#x200B;元件來定義您選擇的欄數 (3 到 10 之間)。您也可以移動每個欄底部的箭頭來定義其寬度。
+   選取&#x200B;**[!UICONTROL n:n資料行]**&#x200B;元件以定義您所選擇的資料行數目（介於3到10之間）。 您也可以移動每個欄底部的箭頭來定義其寬度。
 
    >[!NOTE]
    >
@@ -120,4 +120,4 @@ ht-degree: 55%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

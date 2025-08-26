@@ -33,7 +33,7 @@ ht-degree: 7%
 
 **[!UICONTROL 進階格式]**&#x200B;切換可啟動其他選項來自訂體驗。
 
-建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 在[此頁面](send-in-app.md)瞭解更多資訊。
+建立應用程式內訊息，並定義內容與個人化後，您就可以檢閱並啟用該訊息。 然後，將根據行銷活動排程傳送通知。 請在[此頁面](send-in-app.md)了解更多。
 
 ## 訊息版面 {#message-layout}
 
@@ -90,7 +90,7 @@ ht-degree: 7%
 ![](assets/in_app_web_design_3.png)
 
 輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../content-management/assets-essentials.md)。
-您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
+您也可以為熒幕閱讀應用程式新增**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[中進一步瞭解Adobe Journey Optimizer個人化編輯器](../personalization/personalize.md)中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -130,7 +130,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
 
 +++更多具有進階格式的選項
 

@@ -52,11 +52,11 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 針對多語言內容，必須定義下列設定：
 
-* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 若要開始建立多語言內容，使用者必須被授予&#x200B;**[!UICONTROL 管理語言設定]**&#x200B;許可權。 針對自動化流程，使用者還需要與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;功能相關的許可權。 [進一步瞭解許可權](../administration/permissions.md)
 
-+++ 瞭解如何指派多語言相關許可權
+  +++ 瞭解如何指派多語言相關許可權
 
    1. 在&#x200B;**權限**&#x200B;產品中，前往&#x200B;**角色**&#x200B;標籤，然後選取所需的&#x200B;**角色**。
 
@@ -76,11 +76,11 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
    1. 如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
-+++
+  +++
 
 * 如果您無法存取翻譯頁面，您必須啟用翻譯功能，並取得與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;相關的許可權。 [了解更多](../administration/ootb-permissions.md)
 
-+++ 瞭解如何啟用翻譯功能
+  +++ 瞭解如何啟用翻譯功能
 
    1. 如果您看到下列錯誤頁面，表示尚未啟用&#x200B;**[!UICONTROL 翻譯]**&#x200B;功能。 請聯絡您的組織和沙箱管理員以請求存取權。
 
@@ -94,10 +94,10 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
    1. 如果此程式失敗，您仍會看到相同的錯誤頁面。 在這種情況下，請聯絡您的Adobe代表以取得進一步協助。
 
-+++
+  +++
 
 ## 作法影片 {#video}
 
 瞭解如何在單一行銷活動或歷程中以多種語言建立內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452125?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

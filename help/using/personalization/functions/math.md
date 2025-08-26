@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 11%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-您可以使用[Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)和[支援的語言環境](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}中概述的格式與有效語言環境
+您可以使用[Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)和[支援的區域設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}中概述的格式設定和有效區域設定
 
 **範例**
 

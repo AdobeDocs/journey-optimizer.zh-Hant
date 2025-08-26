@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除決定規則 {#delete-decision-rule}
 
-有時可能必須移除(DELETE)決定規則。 這是透過使用您要刪除的決定規則`id`對[!DNL Offer Library] API執行DELETE要求來完成。
+有時可能必須移除(DELETE)決定規則。 這是透過使用您要刪除的決定規則[!DNL Offer Library]對`id` API執行DELETE要求來完成。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule123
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以透過嘗試對決定規則進行查詢(GET)請求來確認刪除，並且應該會收到HTTP狀態404 （找不到），因為決定規則已移除。
+您可以透過嘗試向決定規則查詢(GET)請求來確認刪除，並且應該會收到HTTP狀態404 （找不到），因為決定規則已移除。

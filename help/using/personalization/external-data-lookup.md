@@ -12,7 +12,7 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -218,4 +218,4 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 * [!DNL Journey Optimizer]是否執行任何外部端點回應的快取？
 
-  目前不會。 未來將支援此功能。
+  目前不會。 未來將會支援此功能。

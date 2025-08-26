@@ -175,7 +175,7 @@ inwind.it；blu.it；virgilio.it；giallo.it；iol.it；libero.it
 wp.pl；o2.pl
 +++
 
-+++聯合網際網路
++++United Internet
 gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at；web.de；gmx.ch
 +++
 
@@ -183,7 +183,7 @@ gmx.de；1and1.com；gmx.fr；mail.com；1und1.de；gmx.com；gmx.net；gmx.at�
 bigpond.com；bigpond.com.au；bigpond.net；telstra.com；bigpond.net.au
 +++
 
-+++杜科莫
++++Docomo
 docomo.ne.jp
 +++
 
@@ -226,7 +226,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從[&#128279;](#ip-warmup-plan-tab)上方提供的清單複製並貼上網域。
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從&#x200B;**IP熱身計畫範本**&#x200B;的[OOTB網域群組](assets/IPWarmupPlan-Template.xlsx)索引標籤，或從[上方提供的](#ip-warmup-plan-tab)清單複製並貼上網域。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
@@ -267,7 +267,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
 >abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及設定檔的目標數量，然後在此處上傳。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hant#prepare-file" text="準備 IP 暖身計畫檔案"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

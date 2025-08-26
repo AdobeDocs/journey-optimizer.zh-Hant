@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # 查詢位置 {#look-up-placement}
 
-您可以向[!DNL Offer Library] API發出包含版位`id`的GET要求，以查詢特定版位。
+您可以向包含版位[!DNL Offer Library]的`id` API發出GET請求，以查詢特定版位。
 
 **API格式**
 

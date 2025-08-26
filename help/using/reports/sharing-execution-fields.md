@@ -53,7 +53,7 @@ ht-degree: 4%
 
 `actionExecutionTime`欄位代表執行動作所花費的總時間（以毫秒為單位），包括請求在佇列中等待的時間（如果已設定節流且達到速率限制）以及實際執行時間（包括連線至外部端點的網路延遲）。
 
-`Timestamp`欄位指出動作執行的結束時間。 若要判斷設定檔何時進入自訂動作節點，請從`Timestamp`中減去`actionExecutionTime`。
+`Timestamp`欄位指出動作執行的結束時間。 若要判斷設定檔何時進入自訂動作節點，請從`actionExecutionTime`中減去`Timestamp`。
 
 例如，如果`Timestamp`是&quot;2025-02-04 09:39:03 UTC&quot;，而`actionExecutionTime`是1,813,227毫秒（~31分鐘），則設定檔在大約&quot;2025-02-04 09:08:32 UTC&quot;進入節點。
 

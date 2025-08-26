@@ -69,7 +69,7 @@ ht-degree: 12%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -175,7 +175,7 @@ ht-degree: 12%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -220,7 +220,7 @@ ht-degree: 12%
 
 1. 如有需要，請選擇要顯示應用程式內訊息的&#x200B;**[!UICONTROL 一週中的哪一天]**&#x200B;或&#x200B;**[!UICONTROL 一天中的哪個時間]**。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
+1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
 
    ![](assets/in-app-schedule.png)
 
@@ -236,7 +236,7 @@ ht-degree: 12%
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451893?quality=12&learn=on&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 12%
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?learn=on&autoplay=true&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

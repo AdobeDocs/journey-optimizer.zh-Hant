@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 11%
 >
 >IP集區設定對所有環境都是通用的。 因此，任何IP集區的建立或編輯也將影響生產沙箱。
 
-## 建立IP集區 {#create-ip-pool}
+## 建立 IP 集區 {#create-ip-pool}
 
 若要建立IP集區，請執行下列步驟：
 
@@ -62,7 +62,7 @@ ht-degree: 11%
    >
    >清單中提供您執行個體布建的所有IP位址。
 
-選取IP時，您可以從清單中看到與IP相關聯的PTR記錄。 這可讓您在建立IP集區時驗證每個IP的品牌資訊，並選取具有相同品牌資訊的IP。 [進一步瞭解PTR記錄](ptr-records.md)
+選取IP時，您可以從清單中看到與IP相關聯的PTR記錄。 這可讓您在建立IP集區時驗證每個IP的品牌資訊，並選取具有相同品牌資訊的IP。 [進一步了解 PTR 記錄](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 

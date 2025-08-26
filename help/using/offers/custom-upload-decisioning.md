@@ -24,14 +24,13 @@ ht-degree: 2%
 
 如需自訂上傳對象的詳細資訊，請參閱區段：
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
 * 僅&#x200B;**決定管理**&#x200B;支援此功能，Decisioning （先前稱為「Experience Decisioning」）不支援。
-* 它只能透過&#x200B;**決策API （中樞）**&#x200B;請求使用，**Edge決策API**&#x200B;或&#x200B;**批次決策**&#x200B;不支援。
+* 它只能透過&#x200B;**決策API （中樞）**&#x200B;請求使用，**Edge決策API**&#x200B;或&#x200B;**批次決策**不支援。
  
-
 ## 使用自訂上傳對象作為資格條件 {#eligibilty}
 
 您可以在優惠或決定層級使用自訂上傳對象作為資格條件。 新增後，這些條件可從資格中排除優惠或優惠方案集合。 以下是您可以善用自訂上傳對象來調整優惠和決定資格的各種位置：

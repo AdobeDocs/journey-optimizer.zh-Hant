@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 刪除位置 {#delete-placement}
 
-有時可能需要移除(DELETE)位置。 使用您要刪除之位置的ID對[!DNL Offer Library] API執行DELETE要求來達成此目的。
+有時可能必須移除(DELETE)位置。 使用您要刪除之位置的ID對[!DNL Offer Library] API執行DELETE要求，即可完成此作業。
 
 **API格式**
 
@@ -43,4 +43,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以透過嘗試對位置進行查詢(GET)請求來確認刪除，並且應該會收到HTTP狀態404 （找不到），因為位置已移除。
+您可以嘗試向位置查詢(GET)請求來確認刪除，應該會收到HTTP狀態404 （找不到），因為位置已移除。

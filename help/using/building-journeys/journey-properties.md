@@ -137,7 +137,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -181,7 +181,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

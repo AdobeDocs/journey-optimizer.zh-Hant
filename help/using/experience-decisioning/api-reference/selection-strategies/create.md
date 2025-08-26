@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 建立選取策略 {#create-selection-strategy}
 
-您可以透過向優惠資料庫API發出POST請求來建立選擇策略。
+您可以透過向優惠資料庫API提出POST要求來建立選擇策略。
 
 **API格式**
 

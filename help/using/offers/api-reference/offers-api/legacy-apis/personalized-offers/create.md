@@ -1,5 +1,5 @@
 ---
-title: 建立個人化優惠
+title: 建立個人化產品建議
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
 topic: Integrations
@@ -13,17 +13,17 @@ ht-degree: 10%
 
 ---
 
-# 建立個人化優惠 {#create-personalized-offer}
+# 建立個人化產品建議 {#create-personalized-offer}
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向[!DNL Offer Library] API發出POST要求，同時提供容器ID，藉此建立個人化優惠方案。
+您可以對[!DNL Offer Library] API發出POST要求，同時提供容器ID，藉此建立個人化優惠方案。
 
 ## Accept和Content-Type標題 {#accept-and-content-type-headers}
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |

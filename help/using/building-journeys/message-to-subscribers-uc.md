@@ -20,7 +20,7 @@ ht-degree: 17%
 
 此使用案例的目的是建立歷程，以傳送訊息給清單的訂閱者。
 
-在此範例中，使用[!DNL Adobe Experience Platform]的&#x200B;**[!UICONTROL 同意和偏好設定詳細資料]**&#x200B;欄位群組。 若要尋找此欄位群組，請從&#x200B;**[!UICONTROL 資料管理]**&#x200B;功能表選擇&#x200B;**[!UICONTROL 結構描述]**。 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;索引標籤上，在搜尋欄位中輸入欄位群組的名稱。
+在此範例中，使用&#x200B;**[!UICONTROL 的]**&#x200B;同意和偏好設定詳細資料[!DNL Adobe Experience Platform]欄位群組。 若要尋找此欄位群組，請從&#x200B;**[!UICONTROL 資料管理]**&#x200B;功能表選擇&#x200B;**[!UICONTROL 結構描述]**。 在&#x200B;**[!UICONTROL 欄位群組]**&#x200B;索引標籤上，在搜尋欄位中輸入欄位群組的名稱。
 
 ![此欄位群組包含訂閱專案](assets/consent-and-preference-details-field-group.png)
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 
       在此範例中，訂閱清單名為`daily-email`。 電子郵件地址在`subscribers`對應中定義為金鑰，此對應連結至訂閱清單對應。
 
-      深入瞭解運算式中欄位[&#128279;](expression/field-references.md)的參考。
+      深入瞭解運算式中欄位[的](expression/field-references.md)參考。
 
       ![](assets/message-to-subscribers-uc-2.png)
 

@@ -12,7 +12,7 @@ exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 >title="輸入自己的 CSS"
 >abstract="若想要擁有更大的彈性與控制力來決定內容的外觀，您可以直接在電子郵件設計工具中新增自訂 CSS 來套用進階和特定樣式。"
 
-在設計電子郵件時，您可以直接在[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)中新增您自己的自訂CSS。 此功能可讓您套用進階和特定的樣式，以更靈活的方式控制內容的外觀。
+在設計電子郵件時，您可以直接在[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)中新增您自己的自訂CSS。 此功能可讓您套用進階和特定的樣式，從而獲得更大的靈活性並控制內容的外觀。
 
 ## 定義自訂CSS {#define-custom-css}
 
@@ -174,7 +174,7 @@ body {
 
 您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
 
-+++ 請參閱範例
++++ 請參閱範例 
 
 ```html
 <!DOCTYPE html>
@@ -235,13 +235,13 @@ body {
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 
-+++ 例如：
+  +++ 例如：
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * 確保您的CSS不會被其他CSS規則覆寫，包括任何套用至您內容的[主題](apply-email-themes.md)。
 
@@ -249,7 +249,7 @@ body {
 
    * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-+++ 例如：
+     +++ 例如：
 
      ```css
      .acr-Form {
@@ -257,4 +257,4 @@ body {
      }
      ```
 
-+++
+     +++

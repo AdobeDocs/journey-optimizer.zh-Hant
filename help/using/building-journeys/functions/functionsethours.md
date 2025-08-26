@@ -9,7 +9,7 @@ keywords: setHours，函式，運算式，歷程
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '109'
 ht-degree: 9%
 
 ---
@@ -52,4 +52,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-傳回明天8：XY下午，XY是目前時間評估的分鐘數。 如果評估在凌晨2:45進行，則傳回時間將會是晚上8:45。
+傳回明天晚上8:XY，XY是目前時間評估的分鐘數。 如果評估發生在上午2:45，則傳回的時間將會是晚上8:45。

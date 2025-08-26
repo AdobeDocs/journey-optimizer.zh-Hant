@@ -62,7 +62,7 @@ ht-degree: 22%
 
 1. 選取將套用程式碼庫體驗的平台：
 
-   * [Web](#web)
+   * [網頁](#web)
    * [iOS和/或Android](#mobile)
    * [其他](#other)
 
@@ -108,7 +108,7 @@ ht-degree: 22%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[了解更多](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則[的](../web/web-configuration.md#web-page-matching-rule)頁面，您必須輸入預設的撰寫和預覽URL **[!UICONTROL ，以便在瀏覽器中預覽體驗。]**[了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -136,7 +136,7 @@ ht-degree: 22%
 
 1. 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。 這可在應用程式的作業環境中進行準確的識別和設定，並確保順暢的整合和功能。
 
-1. 提供應用程式&#x200B;**內的**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
+1. 提供應用程式&#x200B;**[!UICONTROL 內的]**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_3.png)
 
@@ -144,7 +144,7 @@ ht-degree: 22%
 
    預覽URL是應用程式開發人員在您應用程式內設定的深層連結。 這可確保任何符合深層連結配置的URL都會在應用程式中開啟，而不是在行動網站瀏覽器中開啟。 請聯絡您的應用程式開發人員，取得為您的應用程式設定的深層連結配置。
 
-+++  下列資源可協助您為應用程式實作設定深層連結
+   +++  下列資源可協助您為應用程式實作設定深層連結
 
    * 若為Android：
 
@@ -156,11 +156,11 @@ ht-degree: 22%
 
       * [支援您的應用程式中的通用連結](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
-+++
+   +++
 
    >[!NOTE]
    >
-   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

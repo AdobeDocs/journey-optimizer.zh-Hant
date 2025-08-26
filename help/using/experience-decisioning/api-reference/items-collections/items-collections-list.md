@@ -8,7 +8,7 @@ level: Experienced
 exl-id: cc9f0d7a-6166-4736-8cb7-1989816708ad
 source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 集合（也稱為專案集合）可讓您根據偏好設定將決策專案分類及分組。 這些類別是透過制定利用決定項目屬性的規則所建立的。
 
-您可以透過對優惠資料庫API執行單一GET請求，來檢視所有專案集合的清單。
+您可以透過對優惠資料庫API執行單一GET請求，以檢視所有專案集合的清單。
 
 **API格式**
 
@@ -40,7 +40,7 @@ GET /{ENDPOINT_PATH}/item-collections?{QUERY_PARAMS}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中有`op`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[!]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的實體數。 | `limit=5` |
 

@@ -11,8 +11,8 @@ keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 52%
+source-wordcount: '343'
+ht-degree: 65%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 52%
 >
 >資料來源不支援結構描述關係。
 
-如需如何設定Adobe Experience Platform Data Source和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hant){target="_blank"}。
+如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 作法影片 {#video}
 

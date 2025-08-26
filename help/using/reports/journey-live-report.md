@@ -66,7 +66,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_statistics.png)
 
-**[!UICONTROL 歷程統計資料]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與過去24小時內您的歷程相關聯的基本量度分析。 這包含已輸入設定檔計數和失敗個別歷程例項等詳細資訊，提供歷程成效和參與層級的全面深入分析。
+**[!UICONTROL 歷程統計資料]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與過去24小時內您的歷程相關聯的基本量度分析。 這包含諸如輸入的設定檔計數和失敗的個人歷程例項等詳細資訊，提供全面的insight來瞭解歷程的有效性和參與程度。
 
 +++ 深入瞭解歷程的統計量度
 
@@ -135,7 +135,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_error_type.png)
 
-動作&#x200B;**的**&#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
+動作&#x200B;**[!UICONTROL 的]**&#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
 
 ### 過去 24 小時內執行的事件 {#event-executed-24hours}
 
@@ -647,4 +647,4 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ![](assets/journey_live_inapp_interactions.png)
 
-依型別&#x200B;**的**&#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。
+依型別&#x200B;**[!UICONTROL 的]**&#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。

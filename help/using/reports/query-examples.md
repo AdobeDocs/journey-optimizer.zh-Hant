@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 基本使用案例/常見查詢 {#common-queries}
 
-+++在特定時間範圍內有多少設定檔進入歷程
++++在特定時間範圍內進入歷程的設定檔數
 
 此查詢會提供在指定時間範圍內進入指定歷程的不同設定檔數量。
 
@@ -96,7 +96,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++
 
-+++在特定時間範圍內，已從特定歷程捨棄多少事件
++++在特定時間範圍內從特定歷程捨棄了多少事件
 
 _資料湖查詢_
 
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++兩個節點之間經過了多久的時間
++++兩個節點之間經過的時間長度 
 
 例如，您可以使用這些查詢來預估等待活動所花費的時間。 這可讓您確保等待活動已正確設定。
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++如何檢查serviceEvent的詳細資訊
++++如何檢查serviceEvent的詳細資訊 
 
 Journey Step事件資料集包含所有stepEvents和serviceEvents。 stepEvents用於報告中，因為它們與歷程中設定檔的活動（事件、動作等）相關。 serviceEvents會儲存在相同的資料集中，且會指出其他除錯資訊，例如捨棄體驗事件的原因。
 
@@ -290,7 +290,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## 訊息/動作錯誤 {#message-action-errors}
 
-+++歷程中遇到的每個錯誤清單
++++歷程中遇到的每個錯誤的清單
 
 此查詢可讓您列出執行訊息/動作時，在歷程中遇到的每個錯誤。
 
@@ -478,7 +478,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 與讀取對象相關的查詢 {#read-segment-queries}
 
-+++完成受眾匯出工作所花的時間
++++完成受眾匯出工作所需的時間
 
 _資料湖查詢_
 
@@ -512,7 +512,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 +++
 
-+++歷程因重複而捨棄的設定檔數
++++歷程因為重複而捨棄的設定檔數
 
 _資料湖查詢_
 
@@ -536,7 +536,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++由於名稱空間無效而被歷程捨棄的設定檔數
++++歷程因名稱空間無效而捨棄的設定檔數
 
 _資料湖查詢_
 
@@ -560,7 +560,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++由於沒有身分對應而被歷程捨棄的設定檔數
++++歷程因無身分對應而捨棄的設定檔數
 
 _資料湖查詢_
 
@@ -861,7 +861,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 與對象資格相關的查詢 {#segment-qualification-queries}
 
-+++已捨棄設定檔，因為對象實現與設定的對象實現不同
++++已捨棄設定檔，因為與設定的對象實現不同
 
 _資料湖查詢_
 
@@ -887,7 +887,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 +++
 
-+++特定設定檔因任何其他原因而捨棄對象資格事件
++++特定設定檔因任何其他原因而捨棄的對象資格事件
 
 _資料湖查詢_
 
@@ -1047,7 +1047,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 ## 常見的歷程型查詢 {#journey-based-queries}
 
-+++每日作用中歷程數
++++每日作用中歷程的數量
 
 _資料湖查詢_
 

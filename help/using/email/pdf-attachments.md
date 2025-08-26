@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 電子郵件，訊息，附件， pdf，編輯器
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="新增PDF附件"
->abstract="瀏覽以選取要附加至電子郵件的PDF檔案。</br>每個設定檔每年最多可傳送6則含有PDF附件的訊息。 每個附件的允許檔案大小上限為5 MB。</br>若有其他大小或容量，您可以購買附件套件附加元件。 如需詳細資訊，請聯絡您的Adobe代表。"
+>abstract="瀏覽以選取要附加至電子郵件的PDF檔案。</br>每個設定檔每年最多可傳送6則含有PDF附件的訊息。 每個附件允許的大小上限為 5 MB。</br>若有其他大小或容量，您可以購買附件套件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。"
 
 >[!AVAILABILITY]
 >
@@ -30,11 +31,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->* 您每年最多可以為每個設定檔傳送6則含有PDF附件的訊息。
+>* 您每年最多可以為每個設定檔傳送 6 封含有 PDF 附件的訊息。
 >
->* 每個附件的允許檔案大小上限為5 MB。
+>* 每個附件允許的大小上限為 5 MB。
 >
->若有其他大小或容量，您可以購買附件套件附加元件。 如需詳細資訊，請聯絡您的Adobe代表。
+>如需其他大小或流量，您可以購買附件套組附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 若要將PDF檔案附加至電子郵件訊息，請遵循下列步驟。
 
@@ -48,7 +49,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME型別]**&#x200B;區段中的&#x200B;**[!UICONTROL PDF]**&#x200B;篩選器，將選取範圍限製為正確的檔案格式。
 
@@ -61,7 +62,7 @@ ht-degree: 4%
 1. 選取您選擇的檔案。
 
    * 您一次只能選取一個檔案。
-   * 每個附件的允許檔案大小上限為5 MB。
+   * 每個附件允許的大小上限為 5 MB。
 
 1. 完成後，所選檔案的名稱和大小會顯示在&#x200B;**[!UICONTROL 附件]**&#x200B;區段中。
 

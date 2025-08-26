@@ -76,7 +76,7 @@ ht-degree: 19%
 
    +++
 
-   +++設定歷程並行上限規則
+   +++設定歷程並行上限規則 
 
    1. 在&#x200B;**[!UICONTROL 上限]**&#x200B;欄位中，設定設定檔可同時註冊的歷程數上限。
 
@@ -117,4 +117,4 @@ ht-degree: 19%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447626?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查詢選取策略 {#list-selection-strategy}
 
-您可以向優惠資料庫API提出GET要求，並在要求路徑中加入ID，藉此查詢特定的選取策略。
+您可以向優惠資料庫API發出GET請求，並在請求路徑中包含ID，以查詢特定的選取策略。
 
 **API格式**
 

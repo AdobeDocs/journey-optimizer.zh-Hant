@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 向接收者提供取消訂閱接收來自品牌通訊的功能是一項法律要求，同時確保此選擇獲得遵守。 若未遵守這些法規，品牌將面臨法律風險。它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations)的適用法規{target="_blank"}。
+進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations){target="_blank"}中的適用法規。
 
 ## 管理歷程和行銷活動中的取消訂閱 {#opt-out-ajo}
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在 [!DNL Journey Optimizer]中，同意由 Experience Platform [同意結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}負責處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值，或使用[同意原則](../action/consent.md)來覆寫預設邏輯。
+>請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
 
 ## 實施個人化同意 {#opt-out-personalization}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)，使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}並使用輪廓屬性，例如&#x200B;**[!UICONTROL 個人化內容 = 是 (選擇加入)]**，以同意個人化的使用者為目標。
+1. 使用[細分服務](../audience/about-audiences.md)建立[Adobe Experience Platform對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}，並使用個人化內容=是（選擇加入）**[!UICONTROL 之類的設定檔屬性來鎖定同意個人化的使用者。]**
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 您可以使用區段規則產生器，建立包含選擇退出輪廓的客群。
 
-1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)。
+1. 使用[細分服務](../audience/about-audiences.md)建立[Adobe Experience Platform對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}。
 
    ![](assets/perso-consent-audience-build-rule.png)
 

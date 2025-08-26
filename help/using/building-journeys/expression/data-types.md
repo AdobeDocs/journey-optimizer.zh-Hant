@@ -10,8 +10,8 @@ keywords: 運算式，資料，資料型別，歷程
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 5%
 
 ---
 
@@ -165,7 +165,7 @@ JSON格式：字串。
 
 序列化格式： ISO-8601延伸位移日期 — 時間格式。
 
-它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [深入瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}。
+它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}。
 
 **常值表示**
 
@@ -194,9 +194,9 @@ JSON格式：字串。
 
 序列化格式： ISO-8601延伸位移日期 — 時間格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME將值還原序列化和序列化。 [深入瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}。
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME將值還原序列化和序列化。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}。
 
-您也可以傳遞一個傳遞epoch值的整數。 [瞭解詳情](https://www.epochconverter.com){_blank}。
+您也可以傳遞一個傳遞epoch值的整數。 [閱讀全文](https://www.epochconverter.com){_blank}。
 
 時區可由位移或時區代碼指定（例如：歐洲/巴黎，Z — 表示UTC）。
 
@@ -258,7 +258,7 @@ JSON格式：字串。
 
 序列化格式：若要將時區ID還原序列化，會使用java函式java.time。
 
-Duration.parse：接受的格式是以ISO-8601持續時間格式PnDTnHnMn.nS為基礎，天數被視為剛好24小時。 [深入瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}。
+Duration.parse：接受的格式是以ISO-8601持續時間格式PnDTnHnMn.nS為基礎，天數被視為剛好24小時。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}。
 
 **常值表示**
 

@@ -1,5 +1,5 @@
 ---
-title: 建立遞補優惠
+title: 建立後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# 建立遞補優惠 {#create-fallback-offer}
+# 建立後備產品建議 {#create-fallback-offer}
 
 您可以對[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立遞補優惠。
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;和&#x200B;*Accept*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | 接受 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |

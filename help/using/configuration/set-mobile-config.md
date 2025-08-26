@@ -10,7 +10,7 @@ level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
   以下是執行「引導式管道設定」所需的權限。
 
-+++ 必要權限
+  +++ 必要權限
 
   <table>
     <thead>
@@ -107,7 +107,7 @@ ht-degree: 100%
     </tbody>
   </table>
 
-+++
+  +++
 
 * 如果您使用現有設定選項，請確定您使用下列Adobe Experience Platform Mobile SDK 擴充功能版本。如需 SDK 設定的詳細資訊，包括必要的相依性與初始化程式碼，請參閱[下列文件](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 

@@ -7,7 +7,8 @@ feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -39,4 +40,3 @@ ht-degree: 0%
 > 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的文字訊息。 [了解更多](../test-approve/gs-approval.md)
 
 當您的LINE訊息準備就緒時，請完成您的[歷程](../building-journeys/journey-gs.md)或[行銷活動](../campaigns/create-campaign.md)的設定以進行傳送。
-

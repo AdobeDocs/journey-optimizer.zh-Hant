@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 建立專案集合 {#create-decision-items}
 
-您可以向優惠資料庫API發出POST要求，以建立專案集合。
+您可以透過向優惠資料庫API發出POST要求來建立專案集合。
 
 **API格式**
 

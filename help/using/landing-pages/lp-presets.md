@@ -76,7 +76,7 @@ ht-degree: 15%
 
 1. 建立登入頁面預設集後，預設集會顯示在狀態為&#x200B;**[!UICONTROL 作用中]**&#x200B;的清單中。 已準備好用於您的登入頁面。
 
-您現在已準備好在[!DNL Journey Optimizer]中[建立登入頁面](../landing-pages/create-lp.md)。
+您現在已準備好在[中](../landing-pages/create-lp.md)建立登入頁面[!DNL Journey Optimizer]。
 <!--
 >[!NOTE]
 >

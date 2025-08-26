@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 2022 年 10 月發行版本 {#oct-rn-2023}
 
-### 新功能{#oct-2023-features}
+### 全新功能{#oct-2023-features}
 
 此發行版本提供下列新功能。
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
 ## 2023 年 9 月發行版本 {#sept-rn-2023}
 
-### 新功能{#sept-2023-features}
+### 全新功能{#sept-2023-features}
 
 此發行版本提供下列新功能。
 
@@ -237,7 +237,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## 2023 年 8 月發行版本 {#aug-rn-2023}
 
-### 新功能{#aug-2023-features}
+### 全新功能{#aug-2023-features}
 
 此發行版本提供下列新功能。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 電子郵件錯誤型別
+title: 電子郵件錯誤類型
 description: 使用Journey Optimizer傳送傳遞內容時，存取所有可能的電子郵件錯誤清單。
 feature: Deliverability, Channel Configuration
 topic: Administration
@@ -10,15 +10,15 @@ level: Experienced
 keywords: 重試，退回，軟，已忽略，硬，最佳化器，錯誤
 hide: true
 hidefromtoc: true
-source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
+exl-id: a8908b11-2288-4d53-897c-3f99cb5ceab4
+source-git-commit: 0cb73489981659c3f231b9def40e0e483ed3aef8
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-
-# 電子郵件錯誤型別 {#email-error-types}
+# 電子郵件錯誤類型 {#email-error-types}
 
 傳送失敗的可能原因有多種。 下表詳細說明傳送包含[!DNL Journey Optimizer]的電子郵件傳遞時可能發生的所有錯誤，以及其說明和錯誤型別。
 

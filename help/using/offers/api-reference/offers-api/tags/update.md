@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # 更新集合限定詞 {#update-collection-qualifier}
 
-您可以透過向選件程式庫API發出PATCH要求來修改或更新集合限定詞（先前稱為「標籤」）。
+您可以透過向選件程式庫API發出PATCH請求，修改或更新集合限定詞（先前稱為「標籤」）。
 
 如需JSON修補程式的詳細資訊，包括可用的作業，請參閱官方[JSON修補程式檔案](https://jsonpatch.com/)。
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 
 下表顯示請求標頭中包含&#x200B;*Content-Type*&#x200B;欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | ----------- | ----- |
 | Content-Type | `application/json` |
 

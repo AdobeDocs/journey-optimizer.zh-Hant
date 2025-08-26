@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向&#x200B;**優惠資料庫** API發出GET要求，在要求路徑中包含個人化優惠`@id`或個人化優惠的名稱，以查詢特定的個人化優惠。
+您可以向&#x200B;**優惠資料庫** API發出GET請求，在請求路徑中包含個人化優惠`@id`或個人化優惠的名稱，以查詢特定的個人化優惠。
 
 **API格式**
 
@@ -31,7 +31,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{CONTAINER_ID}` | 個人化優惠所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | 定義與個人化優惠相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
 | `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數&quot;id&quot;和&quot;name&quot;不能一起使用。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Discount offer` |
+| `name` | 用於比對實體的xdm:name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數`id`和`name`不能一起使用 | `Discount offer` |
 
 **要求**
 

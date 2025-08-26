@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程步驟分享概覽
-description: 歷程步驟分享概覽
+title: 歷程步驟分享概觀
+description: 歷程步驟分享概觀
 feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 3%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 一般工作流程為：
 
 * [!DNL Customer Journey Analytics]內嵌「歷程步驟事件」資料集。
-* 關聯的「用於Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在[!DNL Customer Journey Analytics]中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
-* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hant){target="_blank"}。
+* 關聯的「Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在[!DNL Customer Journey Analytics]中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
+* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
-➡️[使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}

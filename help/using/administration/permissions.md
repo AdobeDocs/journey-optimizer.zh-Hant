@@ -48,9 +48,9 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
-   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hant){target="_blank"}。
+   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
-在此範例中，我們會建立名為&#x200B;**Journeys唯讀角色**，其中我們會將唯讀許可權授與歷程功能。 使用者將只能存取及檢視歷程，而且將無法存取[!DNL Journey Optimizer]中的其他功能，例如&#x200B;**[!DNL Decision management]**。
+在此範例中，我們會建立名為&#x200B;**Journeys唯讀角色**，其中我們會將唯讀許可權授與歷程功能。 使用者將只能存取及檢視歷程，而且將無法存取&#x200B;**[!DNL Decision management]**&#x200B;中的其他功能，例如[!DNL Journey Optimizer]。
 
 若要建立我們的&#x200B;**唯讀歷程** **[!UICONTROL 角色]**：
 
@@ -113,7 +113,7 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. 從左側功能表中列出的[!DNL Journey Optimizer]中可用的不同資源（例如&#x200B;**[!DNL Journeys]**、**[!DNL Segments]**&#x200B;或&#x200B;**[!DNL Decision management]**）中選取。
+1. 從左側功能表中列出的&#x200B;**[!DNL Journeys]**&#x200B;中可用的不同資源（例如&#x200B;**[!DNL Segments]**、**[!DNL Decision management]**&#x200B;或[!DNL Journey Optimizer]）中選取。
 
    在此我們選取&#x200B;**[!UICONTROL Journeys]**&#x200B;資源。
 
@@ -129,4 +129,4 @@ ht-degree: 5%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;現已建立並設定。 您現在需要將其指派給使用者。
 
-如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant){target="_blank"}。
+如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。

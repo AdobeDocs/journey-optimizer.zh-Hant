@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '151'
 ht-degree: 3%
 
 ---
 
 # 查詢決定 {#look-up-decision}
 
-您可以向[!DNL Offer Library] API發出GET要求，以查詢特定決定，要求中包含決定`@id`或要求路徑中的決定名稱。
+您可以透過向[!DNL Offer Library] API發出GET請求來查詢特定決策，該API包含決策`@id`或請求路徑中的決策名稱。
 
 **API格式**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{CONTAINER_ID}` | 決策所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 定義與決定相關聯的結構描述。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | 用於比對實體`@id`屬性的字串。 字串完全相符。 引數`id`和`name`不能一起使用。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | 用於比對實體的xdm：name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
+| `name` | 用於比對實體的xdm:name屬性的字串。 字串以大寫完全相符，但可使用萬用字元。 引數&quot;id&quot;和&quot;name&quot;不能一起使用 | `LBAR` |
 
 **要求**
 

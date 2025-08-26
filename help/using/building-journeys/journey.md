@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 6c4bfc4544afc84d4a8685562f716c258a2acbab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 
@@ -50,4 +50,4 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

@@ -11,7 +11,7 @@ keywords: 優惠，決定，電子郵件，個人化，決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 如需如何建立和管理優惠方案的詳細資訊，請參閱[本節](../offers/get-started/starting-offer-decisioning.md)。
 * 如需說明如何設定優惠的&#x200B;**完整端對端範例**、在決定中使用優惠並在電子郵件中運用此決定，請檢視[此章節](../offers/offers-e2e.md#insert-decision-in-email)。
 
-➡️[瞭解如何在此影片中新增優惠方案作為個人化](#video-offers)
+➡️ [在此影片中瞭解如何新增優惠方案作為個人化](#video-offers)
 
 ## 在電子郵件中插入決定 {#insert-offers}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
       [位置](../offers/offer-library/creating-placements.md)是用來展示您的優惠方案的容器。 在此範例中，我們將使用「電子郵件上層影像」位置。 此位置已在選件資料庫中建立，以顯示位於訊息頂端的影像型別選件。
 
-   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。**&#x200B;**
+   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。****
 
       >[!NOTE]
       >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節[&#128279;](../audience/get-started-identity.md)中進一步瞭解Adobe Experience Platform識別名稱空間。
+      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節[中進一步瞭解Adobe Experience Platform識別名稱空間](../audience/get-started-identity.md)。
 
    1. 在&#x200B;**[!UICONTROL 識別值]**&#x200B;欄位中，輸入識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
 

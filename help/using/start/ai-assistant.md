@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI助理
-description: 瞭解如何善用AI助理
+title: 使用 AI 助理
+description: 了解如何善用 AI 助理
 feature: Overview
 topic: Content Management
 role: User
@@ -11,22 +11,22 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 24%
+ht-degree: 47%
 
 ---
 
-# 使用AI助理 {#ai-assistant}
+# 使用 AI 助理 {#ai-assistant}
 
 AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
 
-若要存取AI助理，請按一下頂端列中的圖示。 AI 助理便會顯示在畫面右側區段。
+若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->您必須同意Adobe Experience Cloud Generative AI使用者准則，才能使用AI Assistant。 在[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}上進一步瞭解合約。
+>您必須同意 Adobe Experience Cloud 生成式 AI 使用者準則，然後才能使用 AI 助理。若要了解更多有關此協議的資訊，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
 
 在Adobe Journey Optimizer中，您可以存取下列使用案例：
 
@@ -62,4 +62,4 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 使用「按讚」和「不滿意」來評價該答案。
 
-若要瞭解如何使用AI助理，請參閱您可以使用AI助理完成的目標範例，並瞭解AI助理的運作方式，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。
+若要了解如何使用 AI 助理、查看您可以使用 AI 助理實現的範例目標，以及了解 AI 助理的運作方式，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}。

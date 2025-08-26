@@ -10,7 +10,7 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -24,4 +24,4 @@ Adobe Journey Optimizer 可讓您從外部來源擷取資料，同時可以使�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-深入了解如何使用來源連接器從外部來源擷取資料，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target="_blank"}。
+在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解如何使用Source聯結器從外部來源擷取資料。

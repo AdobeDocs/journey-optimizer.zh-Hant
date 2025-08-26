@@ -44,7 +44,7 @@ ht-degree: 27%
         <td><a href="aggregation.md#average">平均</a></td><td>此函式傳回陣列中所有選取值的算術平均值</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">計數</a></td><td>此函式傳回給定陣列中的元素數</td>
+        <td><a href="aggregation.md#count">Count</a></td><td>此函式傳回給定陣列中的元素數</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-only-null">只計算 Null</a></td><td>此函數計算清單中 null 值的數量。</td>
@@ -89,7 +89,7 @@ ht-degree: 27%
         <td><a href="arrays-list.md#subset">子集: </a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的子集，亦即，如果陣列A中的所有元素都是陣列B的元素</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#sum">總和</a></td><td>此函式傳回陣列中所有選定值的總和</td>
+        <td><a href="aggregation.md#sum">Sum</a></td><td>此函式傳回陣列中所有選定值的總和</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">超集: </a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的超集，亦即，該陣列A是否包含陣列B中的所有元素</td>

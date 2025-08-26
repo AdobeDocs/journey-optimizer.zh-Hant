@@ -27,8 +27,8 @@ Adobe Experience Platform對象入口網站可讓您使用CSV檔案匯入對象�
 
 ![](assets/import-audience.png)
 
-有關如何匯入對象的詳細資訊，請參閱Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}。
+Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}提供了有關如何匯入對象的詳細資訊。
 
 瞭解如何在影片中以CSV格式上傳對象：
 
->[!VIDEO](https://video.tv.adobe.com/v/3423355?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

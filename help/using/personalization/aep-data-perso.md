@@ -69,7 +69,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -98,9 +98,9 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
    * **result**&#x200B;是您已指派給&#x200B;**MultiEntity**&#x200B;協助程式函式中&#x200B;**result**&#x200B;引數的值。 在此範例中，「飛行」。
    * **fieldID**&#x200B;是您要擷取的欄位識別碼。 瀏覽與您的資料集相關的記錄結構描述時，[!DNL Adobe Experience Platform]使用者介面中會顯示此ID：
 
-     +++從何處擷取欄位ID？
+     +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 

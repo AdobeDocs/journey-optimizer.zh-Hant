@@ -7,7 +7,7 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 1. 按一下屬性旁的「![顯示更多動作按鈕的影像](assets/do-not-localize/rule-builder-icon-more.svg)」按鈕，以存取這些其他選項：
 
-+++ 值的分佈
+   +++ 值的分佈
 
    分析表格中指定屬性的值分佈。此功能對於了解可用的數值、其計數和百分比相當有用。在建立查詢或建立運算式時，此功能還有助於避免出現大小寫或拼字不一致等問題。
 
@@ -50,9 +50,9 @@ ht-degree: 97%
 
    ![顯示值分佈介面的影像](assets/rule-builder-distribution-values.png)
 
-+++
+   +++
 
-+++ 新增至最愛
+   +++ 新增至最愛
 
    將屬性新增至最愛選單可快速存取您使用頻率最高的屬性。您最多可以在最愛中新增 20 個屬性。最愛和最近使用的屬性與組織內的每位使用者相關聯，確保在不同機器上也能方便存取，並提供跨裝置的順暢體驗。
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
    ![顯示最愛介面的影像](assets/rule-builder-favorites.png)
 
-+++
+   +++
 
 1. 按一下「**[!UICONTROL 確認]**」，將選取的屬性新增至您的條件。
 
@@ -70,7 +70,7 @@ ht-degree: 97%
 
 1. 從下拉式清單中選取要套用的&#x200B;**[!UICONTROL 運算子]**。可以使用各種運算子。下拉式清單中可用的運算子取決於屬性的資料類型。
 
-   +++可用運算子清單
+   +++可用運運算元清單
 
    | 運算子 | 目的 | 範例 |
    |---|---|---|
@@ -97,7 +97,7 @@ ht-degree: 97%
 
    對於日期類型屬性，可透過&#x200B;**[!UICONTROL 預設集]**&#x200B;選項使用預先定義的值。
 
-   +++參閱範例
+   +++檢視範例
 
    ![顯示預設集選項的影像](assets/rule-builder-attribute-preset.png)
 
@@ -127,7 +127,7 @@ ht-degree: 97%
 
 ![品牌表格的熒幕擷圖](assets/rule-builder-1-1-attribute-table.png)
 
-+++
++++ 
 
 對於 **1-N 連結**，您可以定義子條件來調整查詢，如下列範例所示。
 
@@ -145,7 +145,7 @@ ht-degree: 97%
 
    ![購買表格的熒幕擷圖](assets/rule-builder-1-n-collection.png)
 
-+++
++++ 
 
 ### 自訂條件與彙總資料 {#aggregate}
 

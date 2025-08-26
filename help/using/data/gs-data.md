@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 資料，管理，平台
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,14 +65,14 @@ ht-degree: 100%
 
 您可以使用 [!DNL Journey Optimizer] 的資料彈性，來滿足與資料保留、封存或刪除相關的特定需求：
 
-* **資料擷取/匯出**：您可以隨時透過資料存取 API 啟動來源資料的擷取，不受任何處罰或時間延遲。 此[資料存取 API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hant){target="_blank"} 為使用者提供 RESTful 介面，著重於擷取資料集的可發現性和可存取性 [!DNL Adobe Experience Platform]。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **資料擷取/匯出**：您可以隨時透過資料存取 API 啟動來源資料的擷取，不受任何處罰或時間延遲。 [資料存取API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=zh-Hant){target="_blank"}為使用者提供RESTful介面，著重於[!DNL Adobe Experience Platform]內擷取資料集的可發現性和可存取性。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   請注意，無法透過上述 API 或目標方法擷取歷程或行銷活動使用的內容。
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=zh-Hant){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **清除與封存機制**：資料清除和封存可自由定義，並可在 [!DNL Adobe Journey Optimizer] 自動化， 以自動化資料保留原則。 您可以為不同的資料實體定義不同的老化策略。 也可以定義匯出機制，在清除或封存過時資料之前自動匯出資料。

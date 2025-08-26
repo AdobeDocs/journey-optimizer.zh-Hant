@@ -5,10 +5,11 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 8fa34ebb7c853f9af5b3f58574374a3acb641dd9
+exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
+source-git-commit: 6378c4a8cb911088c685166b9c1b29a1773d47b7
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 7%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 7%
 
 下表顯示請求標頭中包含Content-Type欄位的有效值：
 
-| 標題名稱 | 值 |
+| 標題名稱 | 價值 |
 | --------- | ----------- | 
 | Content-Type | application/json |
 

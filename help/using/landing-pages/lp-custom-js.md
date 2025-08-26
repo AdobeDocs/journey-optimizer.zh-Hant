@@ -24,13 +24,13 @@ ht-degree: 2%
 
 若要將自訂JavaScript插入登入頁面內容，您可以執行下列作業：
 
-* 開始建立您的內容時，匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 在本節[&#128279;](../email/existing-content.md)中瞭解如何匯入內容。
+* 開始建立您的內容時匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 在本節[中瞭解如何匯入內容](../email/existing-content.md)。
 
-* 從頭開始設計您的登入頁面，或是從儲存的範本進行設計。 將&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件拖放至畫布中，並顯示原始程式碼，以將您的JavaScript新增至元件。 瞭解如何在[本節](../email/content-components.md#HTML)中使用HTML元件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* 從頭開始設計您的登入頁面，或是從儲存的範本進行設計。 將&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件拖放至畫布中，並顯示原始程式碼，以將您的JavaScript新增至元件中。 在[本節](../email/content-components.md#HTML)中瞭解如何使用HTML元件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 在本節[&#128279;](../email/code-content.md)中瞭解如何編碼您自己的內容。
+* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 在本節[中瞭解如何編碼您自己的內容](../email/code-content.md)。
 
 >[!NOTE]
 >

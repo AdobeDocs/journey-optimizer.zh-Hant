@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 >[!AVAILABILITY]
 >
->* Adobe Journey Optimizer客戶提出要求時，便會啟用傳送時間最佳化功能。 請聯絡Adobe客戶服務或您的Adobe代表，為您的組織啟用此功能。
+>* Adobe Journey Optimizer客戶提出要求時，便會啟用傳送時間最佳化功能。 請聯絡 Adobe 客戶服務，或是您的 Adobe 代表，為貴組織啟用這項功能。
 >
 >* 傳送時間最佳化僅適用於&#x200B;**電子郵件**&#x200B;和&#x200B;**推播通知**&#x200B;頻道。
 >
@@ -98,7 +98,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 ## 常見問題 {#faq-send-time}
 
-+++使用「傳送時間最佳化」前需要等候多久？
++++使用傳送時間最佳化前需要等候多久？
 
 貴組織應先在Journey Optimizer中使用「電子郵件」動作，至少30天後再在電子郵件中使用「傳送時間最佳化」 ，以收集一些電子郵件傳送、開啟和點按事件。
 
@@ -132,7 +132,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 +++
 
-+++我一律會在中午12點按電子郵件或推播訊息，為什麼演演算法沒有在下午12點傳送訊息給我？
++++我總是會在中午12點按電子郵件或推送訊息，為什麼演演算法沒有在下午12點傳送訊息給我？
 
 
 發生此問題的原因有多種：

@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # 查詢決定專案 {#lookup-decision-items}
 
-若要透過向優惠資料庫API提出GET要求來查詢特定決策專案，請在要求路徑中包含ID。
+若要查詢特定決策專案，請向優惠資料庫API提出GET請求，並在請求路徑中包含ID。
 
 **API格式**
 

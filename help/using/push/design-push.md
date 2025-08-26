@@ -60,7 +60,7 @@ ht-degree: 17%
 
 * 使用「**[!UICONTROL 新增媒體]**」按鈕在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。
 
-  瞭解如何在[此頁面](../integrations/assets.md)上使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
+  瞭解如何在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此頁面[上使用](../integrations/assets.md)。
 
 * 或在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 在這種情況下，您可以將個人化新增至URL。
 

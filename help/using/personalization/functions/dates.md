@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 11%
+source-wordcount: '1032'
+ht-degree: 13%
 
 ---
 
@@ -438,7 +438,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 您可以使用[Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)中摘要的Java日期格式函式。
 >
-> 您可以使用[Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)和[支援的語言環境](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)中概述的格式設定和有效語言環境。
+> 您可以使用[Oracle檔案](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)和[支援的地區設定](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)中概述的格式設定和有效地區設定。
 
 **範例**
 
@@ -612,7 +612,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截斷至季的開始 {#truncate-quarter}
 
-`truncateToStartOfQuarter`函式用於將日期時間截斷為其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日）的00:00。
+`truncateToStartOfQuarter`函式用於將日期時間截斷為其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日），截斷時間為00:00。
 
 **語法**
 
@@ -629,7 +629,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截斷至週的開始 {#truncate-week}
 
-`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一的00:00），以修改指定的日期時間。
+`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一為00:00），以修改指定的日期時間。
 
 **語法**
 
@@ -646,7 +646,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 截斷至年的開始 {#truncate-year}
 
-`truncateToStartOfYear`函式是用來修改指定的日期時間，方法是在00:00將日期時間截斷為一年的第一天（1月1日）。
+`truncateToStartOfYear`函式是用來修改指定的日期時間，方法是將其截斷至一年的第一天（1月1日），網址為00:00。
 
 **語法**
 

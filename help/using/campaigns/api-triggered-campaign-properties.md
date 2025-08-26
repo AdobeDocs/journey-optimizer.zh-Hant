@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
-
 
 # 定義API觸發的行銷活動屬性 {#api-properties}
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
    ![](assets/create-campaign-properties.png)
 
-1. 使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [瞭解如何使用標籤](../start/search-filter-categorize.md#tags)。
+1. 使用&#x200B;**標籤**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
 1. 您可以根據存取標籤限制對此行銷活動的存取。若要新增存取限制，請瀏覽至此頁面最上方的「**[!UICONTROL 管理存取]**」按鈕。請確定只選取您具有許可權的標籤。 [進一步瞭解物件層級存取控制](../administration/object-based-access.md)。
 

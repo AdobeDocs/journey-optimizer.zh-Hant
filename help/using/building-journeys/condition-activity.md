@@ -98,7 +98,7 @@ ht-degree: 19%
 >
 >* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 請在[此頁面](../building-journeys/timezone-management.md)了解更多。
 >
->* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是依小時設定，從00:00到12:00。
+>* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是以小時設定，從00:00到12:00。
 
 ![](assets/journey51.png)
 
@@ -175,4 +175,4 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

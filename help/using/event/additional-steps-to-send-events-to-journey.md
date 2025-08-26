@@ -12,7 +12,7 @@ exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 若要設定要傳送至&#x200B;**[!UICONTROL 串流擷取API]**&#x200B;並用於[!DNL Journey Optimizer]的事件，您必須遵循下列步驟：
 
 1. 從Adobe Experience Platform API取得入口URL。 深入瞭解[串流擷取API概觀](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant){target="_blank"}。
-1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表的裝載預覽複製裝載。 在[此頁面](../event/about-creating.md#define-the-payload-fields)瞭解更多資訊。
+1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表的裝載預覽複製裝載。 請在[此頁面](../event/about-creating.md#define-the-payload-fields)了解更多。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API：
 
@@ -88,6 +88,6 @@ ht-degree: 2%
 }
 ```
 
-為了方便識別貼上「資料」部分的地方，您可以使用JSON視覺化工具，例如[JSON格式子](https://jsonformatter.curiousconcept.com){target="_blank"}。
+若要方便識別貼上「資料」部分的地方，您可以使用JSON視覺化工具，例如[JSON格式子](https://jsonformatter.curiousconcept.com){target="_blank"}。
 
-若要疑難排解串流擷取API，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}。
+若要疑難排解串流擷取API，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}。
