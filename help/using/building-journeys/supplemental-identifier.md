@@ -2,10 +2,10 @@
 title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 4%
 
 ---
 
@@ -101,6 +101,8 @@ ht-degree: 5%
 
    1. 選取要與補充ID關聯的名稱空間。 這必須是非人員識別碼名稱空間。
 
+      將非人員身分名稱空間套用至結構描述後，您必須建立新事件才能使用補充識別碼。 無法重新整理現有實體以識別新識別碼。
+
 1. **將補充ID新增至事件**
 
    1. 建立或編輯所需的事件。 [瞭解如何設定單一事件](../event/about-creating.md)
@@ -141,9 +143,7 @@ ht-degree: 5%
 
    1. 選取要與補充ID關聯的名稱空間。 這必須是非人員識別碼名稱空間。
 
-      >[!NOTE]
-      >
-      >將非人員身分名稱空間套用至結構描述後，您必須建立新事件（針對事件觸發的歷程）或新欄位群組（針對讀取對象歷程），才能使用補充識別碼。 無法重新整理現有實體以識別新識別碼。
+      將非人員身分名稱空間套用至結構描述後，您必須建立新的欄位群組才能使用補充識別碼。 無法重新整理現有實體以識別新識別碼。
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -250,4 +250,4 @@ ht-degree: 5%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
