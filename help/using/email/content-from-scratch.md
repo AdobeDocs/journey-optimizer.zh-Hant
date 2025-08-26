@@ -120,4 +120,4 @@ ht-degree: 52%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。****
+1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**

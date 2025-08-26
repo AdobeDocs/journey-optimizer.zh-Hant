@@ -26,15 +26,15 @@ ht-degree: 1%
 發佈行銷活動後，將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
 
     &quot;
-    {
-    &quot;資料&quot;： {
-    &quot;__adobe&quot;： {
-    &quot;ajo&quot;： {
+    &lbrace;
+    &quot;資料&quot;： &lbrace;
+    &quot;__adobe&quot;： &lbrace;
+    &quot;ajo&quot;： &lbrace;
     &quot;dryRun&quot;： true
-    }
-    }
-    }
-    }
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
     &quot;&#39;
 
 <!--

@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 排除原因 {#exclude-reasons-directmail}
 
-[](assets/cja-direct-excluded.png)
+[&#128279;](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表格以視覺化方式呈現導致目標對象中排除使用者設定檔的各種因素，以防止他們接收您的直接郵件訊息。
 

@@ -105,7 +105,7 @@ ht-degree: 26%
 ![](assets/in_app_web_design_3.png)
 
 輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../integrations/assets.md)。
-您也可以為熒幕閱讀應用程式新增**[!UICONTROL 替代文字]**。
+您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 
@@ -155,7 +155,7 @@ ht-degree: 26%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
 
 +++更多具有進階格式的選項
 
@@ -242,7 +242,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
 ## 資料標籤 {#data-tab}
 
-您可以從&#x200B;**資料**&#x200B;索引標籤中定義**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
+您可以從&#x200B;**資料**&#x200B;索引標籤中定義&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
 
 如需詳細資訊，請參閱[開發人員檔案](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)。
 
@@ -250,7 +250,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
    ![](assets/in-app-data-menu.png)
 
-1. 填寫**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
+1. 填寫&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
 
    ![](assets/in-app-data-menu-1.png)
 
