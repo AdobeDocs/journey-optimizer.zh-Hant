@@ -82,13 +82,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
 
 1. 在GenStudio中，使用此範本建立具有AI提示的多個電子郵件變體並儲存。
 
    >[!NOTE]
    >
-   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
+   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
 
 ### 在Journey Optimizer中善用GenStudio體驗 {#leverage-genstudio-experiences}
 

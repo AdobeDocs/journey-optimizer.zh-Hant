@@ -22,7 +22,7 @@ ht-degree: 8%
 
 請注意，這項整合僅適用於使用Dynamic Media Manager as a Cloud Service的客戶。
 
-若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
+若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -37,9 +37,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->請確定Adobe Experience Manager as a Cloud Service已啟用Dynamic Media with OpenAPI。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
+>請確定Adobe Experience Manager as a Cloud Service已啟用Dynamic Media with OpenAPI。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
-Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和[搭配OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
+Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和[搭配OpenAPI](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -68,7 +68,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 1. 視需要調整影像引數（例如高度、寬度、旋轉、翻轉、亮度、色相等），以符合您的資產需求。
 
-   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
+   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
 
    ![](assets/dynamic-media-3.png)
 
@@ -86,7 +86,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 >[!AVAILABILITY]
 >
->**文字覆蓋個人化**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中使用。 由於Healthcare客戶無法存取Scene7模式，因此內容會使用Journey Optimizer影像的二進位復本轉譯。 如有例外，請聯絡您的Adobe代表。
+>**文字覆蓋個人化**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中使用。 由於Healthcare客戶無法存取Scene7模式，因此內容會使用Journey Optimizer影像的二進位復本轉譯。 如有例外，請聯絡您的Adobe代表。
 
 若要個人化文字覆蓋，請依照下列步驟進行：
 
@@ -127,12 +127,12 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 在Journey Optimizer中輕鬆新增動態媒體範本，並視需要更新媒體內容。 您現在可以將個人化欄位整合到媒體中，讓您在Journey Optimizer中建立更自訂且吸引人的內容。
 
-深入瞭解[動態媒體範本](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}。
+深入瞭解[動態媒體範本](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}。
 
 
 >[!AVAILABILITY]
 >
->**Dynamic Media範本**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)中使用。 由於Healthcare客戶無法存取Scene7模式，將不會轉譯內容。 如有任何例外，請聯絡Experience Manager支援。
+>**Dynamic Media範本**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7)中使用。 由於Healthcare客戶無法存取Scene7模式，將不會轉譯內容。 如有任何例外，請聯絡Experience Manager支援。
 
 
 ### 使用影像元件 {#image-component}
@@ -153,7 +153,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 1. 在&#x200B;**影像設定**&#x200B;中，瀏覽以存取動態媒體範本的引數。
 
-   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期間新增的引數。
+   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期間新增的引數。
 
    ![](assets/dynamic-media-template-3.png)
 
