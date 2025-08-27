@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
+source-git-commit: 14df4a342a88a52dc003338e323b8108817ce1ce
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 73%
+source-wordcount: '1700'
+ht-degree: 72%
 
 ---
 
@@ -259,6 +259,13 @@ ht-degree: 73%
 * **管理**
 
    * **頻道設定監視警示** — 您現在可以訂閱接收系統警示，可以透過電子郵件或Journey Optimizer通知中心接收，以防缺少<!--a channel configuration failure happens or if -->DNS記錄。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
+
+* **AI 助理**
+
+   * **以多種語言產生內容** — 現在可以法文、西班牙文、德文、義大利文、日文、瑞典文、荷蘭文和挪威文產生內容。 [閱讀全文](../content-management/generative-uc.md#languages)
+
+     推出日期： 8月25日
+
 
 * **行銷活動**
 
