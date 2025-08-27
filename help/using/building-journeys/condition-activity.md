@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
-exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a873a36c216510b7598f24805ddfcd31c71eaa46
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 19%
@@ -175,4 +174,4 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
