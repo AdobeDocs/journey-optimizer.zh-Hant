@@ -157,7 +157,7 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_redirect"
->title="重新導向至另一個 URL"
+>title="重新導向至其他 URL"
 >abstract="輸入您想要將您頁面訪客重新導向過去的現有 URL。"
 
 建立Web體驗時，您可以將訪客重新導向至另一個現有URL，而不是在Web設計工具中編寫新的變數。
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
