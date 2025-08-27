@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: bfa6e54673fc51d1bd6c253cc17a0018e3d7815b
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1752'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
+   * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
    ![](assets/full-email-4.png){zoomable="yes"}
@@ -80,7 +80,7 @@ ht-degree: 2%
 
    ![](assets/full-email-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
 
@@ -135,7 +135,7 @@ ht-degree: 2%
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
+   * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -224,7 +224,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 

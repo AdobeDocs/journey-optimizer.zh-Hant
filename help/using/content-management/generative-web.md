@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1164'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
->&#x200B;></br>
+>></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -32,7 +32,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 >[!TAB 網頁文字產生]
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
@@ -55,7 +55,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
-   * **[!UICONTROL 語言]**：西班牙文、義大利文、瑞典文和挪威文等語言選項已發佈為私人測試版，未來版本將逐步提供給所有客戶。
+   * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：您的網頁音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
@@ -65,7 +65,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -105,7 +105,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 在以下範例中，瞭解如何在Journey Optimizer中利用AI助理來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
@@ -142,7 +142,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
