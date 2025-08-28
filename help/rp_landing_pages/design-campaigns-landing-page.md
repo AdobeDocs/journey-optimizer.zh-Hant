@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 協調行銷活動
-description: 協調行銷活動
+title: 協調的行銷活動活動
+description: 協調的行銷活動活動
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
-
-# 協調行銷活動{#section-overview}
+# 協調的行銷活動活動{#section-overview}
 
 Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資料導向的行銷歷程，在適當的時間透過適當的管道與您的對象連結。 透過結合目標定位、管道和流量控制活動，您可以定義精確的受眾區段、個人化訊息，並自動化複雜的工作流程。 無論您是建立受眾、同步化行銷活動分支，或新增延遲以打造完美時機，這些活動都能共同簡化您的行銷活動執行。 透過擴充資料增強或分割受眾細分等工具，您將擁有彈性的工具組，以建立有意義、具影響力的客戶體驗。
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用協調的行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用AND — 連線活動
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 建立對象活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 變更維度活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 頻道活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可讓您設計順暢、資
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 合併活動
 
