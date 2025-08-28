@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用協調的行銷活動
 description: 瞭解如何協調行銷活動
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 66%
+source-wordcount: '407'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 66%
 * [流量控制活動](#flow-control)
 
 ![畫布中的可用活動清單](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>根據您的授權模式、許可權和實施，可用活動可能會有所不同。
 
 ## 目標定位活動 {#targeting}
 
