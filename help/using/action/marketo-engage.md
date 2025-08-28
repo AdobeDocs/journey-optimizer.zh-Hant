@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -39,21 +39,17 @@ ht-degree: 4%
 1. 在[管理]功能表區段中選取&#x200B;**[!UICONTROL 組態]**。
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 建立動作]**。 動作設定窗格會在畫面右側開啟。
 1. 輸入名稱、說明，然後選取&#x200B;**Adobe Marketo Engage**&#x200B;做為&#x200B;**動作型別**
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. 按一下您的&#x200B;**要求**&#x200B;和&#x200B;**回應**&#x200B;裝載的&#x200B;**編輯裝載**&#x200B;圖示。
 1. 針對這兩者，撰寫您的裝載並貼到專用的快顯視窗中。
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. 檢查並設定裝載值
 
 注意：若要以動態方式傳遞值，請針對每個欄位變更&#x200B;**常數**&#x200B;至&#x200B;**變數**。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-1. 在[欄位]設定畫面中按一下[儲存]。**&#x200B;**，然後按一下[儲存]。**&#x200B;**&#x200B;您的自訂動作。
+1. 在[欄位]設定畫面中按一下[儲存]。****，然後按一下[儲存]。****&#x200B;您的自訂動作。
 
 您現在可以在歷程畫布上使用自訂動作。
 
