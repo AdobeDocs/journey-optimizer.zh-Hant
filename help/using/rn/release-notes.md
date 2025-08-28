@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1702'
 ht-degree: 72%
 
 ---
@@ -283,7 +283,7 @@ ht-degree: 72%
 
 * **頻道 — 內容卡**
 
-   * **內容卡片版面配置範本** — 內容卡片通道現在提供OOTB訊息版面配置，可簡化您的撰寫體驗。 此版本包含小型影像、大型影像和僅限影像版面配置範本。
+   * **內容卡片版面配置範本** — 內容卡片通道現在提供OOTB訊息版面配置，可簡化您的撰寫體驗。 此版本包含小型影像、大型影像和僅限影像版面配置範本。 [閱讀全文](../content-card/design-content-card.md)
 
 * **管道 - 推播**
 

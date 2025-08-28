@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 2%
 
 ---
 
@@ -19,9 +19,43 @@ ht-degree: 3%
 
 定義內容並注入個人化後，您就可以檢閱並加以啟用。 將根據設定的排程傳送您的行銷活動。 [在此頁面瞭解更多](../campaigns/review-activate-campaign.md)。
 
+## 內容卡版面配置
+
+![](assets/content-card-image.png)
+
+根據您的傳訊需求，從&#x200B;**[!UICONTROL 內容卡配置]**&#x200B;區段中選擇三個影像配置選項之一。
+
+* **[!UICONTROL 小型影像]**：在文字旁邊顯示精簡的影像，非常適合內容優先於視覺效果的訊息。
+
+* **[!UICONTROL 大型影像]**：在文字上方或旁顯示顯著的影像，讓視覺效果成為您訊息的主要焦點。
+
+* **[!UICONTROL 僅限影像]**：顯示不含隨附文字的影像，非常適合視覺化訊息或獨立影像。
+
 ## 內容索引標籤 {#content-tab}
 
-從&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤，您可以定義內容卡的內容和&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕的設計，以自訂內容卡片。 此外，您可以透過媒體增強內容，並直接從此索引標籤新增動作按鈕。
+從&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤，您可以定義內容並直接從此索引標籤新增媒體和動作按鈕，以自訂內容卡片。
+
+### 文字內容 {#title-body}
+
+若要撰寫訊息，請在&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位中輸入文字。
+
+![](assets/content-card-design-2.png)
+
+如果您想要進一步修改訊息，請使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化元素。 如需如何使用個人化功能的詳細說明，請參閱[本節](../personalization/personalize.md)。
+
+### 媒體 {#add-media}
+
+**[!UICONTROL 媒體]**&#x200B;欄位可讓您新增媒體來增強內容卡片，讓您的簡報對一般使用者來說更具吸引力。
+
+![](assets/content-card-design-3.png)
+
+若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../integrations/assets.md)。
+
++++更多具有進階格式的選項
+
+如果&#x200B;**[!UICONTROL 進階格式模式]**&#x200B;已開啟，您可以在&#x200B;**[!UICONTROL 深色模式媒體URL]**&#x200B;欄位中新增用於熒幕閱讀應用程式的&#x200B;**[!UICONTROL 替代文字]**&#x200B;和另一個資產。
+
++++
 
 ### 關閉按鈕 {#close-button}
 
@@ -35,13 +69,7 @@ ht-degree: 3%
 * **[!UICONTROL 簡單]**
 * **[!UICONTROL 圓]**
 
-### 內容 {#title-body}
 
-若要撰寫訊息，請在&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位中輸入文字。
-
-![](assets/content-card-design-2.png)
-
-如果您想要進一步修改訊息，請使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化元素。 如需如何使用個人化功能的詳細說明，請參閱[本節](../personalization/personalize.md)。
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### 媒體 {#add-media}
 
-**[!UICONTROL 媒體]**&#x200B;欄位可讓您新增媒體來增強內容卡片，讓您的簡報對一般使用者來說更具吸引力。
-
-![](assets/content-card-design-3.png)
-
-若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../integrations/assets.md)。
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### 按鈕 {#add-buttons}
 
