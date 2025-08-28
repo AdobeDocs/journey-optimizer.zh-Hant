@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用Adobe Journey Optimizer開始和監視協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的行銷活動。
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 55%
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-行銷活動中的每個活動都會依序執行，直到圖表結束為止。在測試期間，您可以使用畫布中的動作列來控制行銷活動的執行。 從那裡，您可以：
+行銷活動中的每個活動都會依序執行，直到達到畫布結尾為止。 在測試期間，您可以使用畫布中的動作列來控制行銷活動的執行。 從那裡，您可以：
 
 * 隨時&#x200B;**停止**&#x200B;執行。
 * 再次&#x200B;**開始**&#x200B;執行。
@@ -115,4 +115,4 @@ ht-degree: 55%
 
 ## 後續步驟 {#next}
 
-開始協調行銷活動圖表後，您可以使用Journey Optimizer報告功能來獲得見解，例如瞭解受眾行為並測量客戶歷程中每個步驟的績效。 [進一步瞭解協調的行銷活動報告](../orchestrated/reporting-campaigns.md)
+開始協調行銷活動畫布後，您可以使用Journey Optimizer報告功能來獲得見解，例如瞭解受眾行為並測量客戶歷程中每個步驟的績效。 [進一步瞭解協調的行銷活動報告](../orchestrated/reporting-campaigns.md)
