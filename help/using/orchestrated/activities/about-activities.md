@@ -4,10 +4,10 @@ product: journey optimizer
 title: 使用協調的行銷活動
 description: 瞭解如何協調行銷活動
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 66%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 70%
 
 ![目標定位活動清單](../assets/targeting-activities.png){width="40%" align="left"}
 
+可用的目標定位活動包括：
+
 * [建立客群](build-audience.md)：定義目標族群。 您可以選取現有客群或使用規則建置器定義自己的查詢。
 * [變更維度](change-dimension.md)：在建置您的協調行銷活動時變更目標維度。
 * [合併](combine.md)：針對傳入族群，執行細分。 您可以使用聯合、交集或排除。
@@ -49,9 +51,11 @@ Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活�
 >title="結束活動"
 >abstract="**結束**&#x200B;活動讓您可以用圖形方式標記協調式行銷活動之結束。此活動並不會造成功能性影響，因此為選用。"
 
-![流量控制活動清單](../assets/flow-control-activities.png){width="30%" align="left"}
+下列活動是組織和執行「協調的行銷活動」專屬的活動。 他們的主要任務是協調其他活動。
 
-下列活動是組織和執行「協調的行銷活動」專屬的活動。 這些活動的主要任務是協調其他活動：
+![流量控制活動清單](../assets/flow-control-activities.png){width="20%" align="left"}
+
+可用的流量控制活動包括：
 
 * [並加入](and-join.md)：同步處理協調行銷活動的多個執行分支。
 * [分支](fork.md)：可讓您建立傳出轉變，以便同時啟動許多活動。

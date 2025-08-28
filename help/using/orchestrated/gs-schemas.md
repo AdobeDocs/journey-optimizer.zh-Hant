@@ -4,10 +4,10 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
-source-git-commit: 1cd98a42d6d30b21ea5fb6f8d6c745bf735b0e6c
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '236'
+ht-degree: 31%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 3%
 本指南會逐步引導您建立關聯式結構、設定用於協調行銷活動的資料集及擷取資料的程式。
 
 ![](assets/do-not-localize/schema_admin.png)
+
+資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
+
+結構描述可表示並驗證資料的結構和格式。它提供了現實世界物件 (例如人員) 的抽象定義，並概述了該物件的每個實例中應包含哪些資料 (例如姓名、生日等)。
+
 
 1. 使用DDL檔案[手動建立](manual-schema.md)關聯式結構描述[或](file-upload-schema.md)
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何從支援的來源（例如SFTP、雲端儲存空間或資料庫）將資料匯入Adobe Experience Platform。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 22%
+source-wordcount: '699'
+ht-degree: 21%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 22%
 >Adobe Experience Platform在資料流和資料集之間實施嚴格的一對一關係。 這可讓您維持來源與資料集之間的同步，以取得精確的增量擷取。
 
 Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以使用 Experience Platform 服務來建立、加標籤，同時強化傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型儲存空間、資料庫和其他許多來源) 擷取資料。 
+
+資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
 
 ## 協調行銷活動的支援來源 {#supported}
 
@@ -36,29 +38,29 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
   <tbody>
     <tr>
       <td rowspan="3">雲端儲存空間</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">雲端資料倉儲</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">資料登陸區域<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">資料登陸區域<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">檔案式上傳</td>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本機檔案上傳<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">本機檔案上傳<a></td>
     </tr>
 
 </tbody>
@@ -82,7 +84,7 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
 
   如果授權，**資料Distiller**&#x200B;可用於直接在Adobe Experience Platform中支援刪除作業，不受來源系統影響。
 
-  [進一步瞭解資料Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview)
+  [進一步瞭解資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## 設定資料流
 
@@ -98,7 +100,7 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
 
    ![](assets/admin_sources_2.png)
 
-1. 選擇您要擷取至Adobe Experience Platform的資料。
+1. 選擇要擷取至Adobe Experience Platform的資料。
 
    ![](assets/S3_config_1.png)
 
@@ -120,7 +122,7 @@ Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以
 
    請注意，支援的大小上限為100MB。
 
-1. 請在&#x200B;**[!UICONTROL 對應]**&#x200B;視窗中，確認每個來源檔案屬性，都有正確對應到目標結構描述中的對應欄位。
+1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;視窗中，確認每個來源檔案屬性與目標結構描述中的對應欄位正確對應。 [進一步瞭解目標維度](target-dimension.md)。
 
    完成後，請按一下&#x200B;**[!UICONTROL 下一步]**。
 
