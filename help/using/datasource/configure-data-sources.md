@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，設定，欄位
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 8%
+source-wordcount: '615'
+ht-degree: 7%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 您可以從未用於任何草稿或即時歷程的欄位群組中新增或移除欄位。
 
-您可以新增欄位，但無法從一個或多個草稿或即時歷程中使用的欄位群組中移除欄位。 這將避免中斷歷程。
+如果欄位群組用於一個或多個草稿或即時歷程中，您可以從所選結構描述中遞增新增欄位，但無法取消選取/移除/修改已選取的欄位。 如果修改草稿或即時歷程已使用的結構描述的現有欄位（例如，變更欄位的資料型別），則不允許更新欄位群組。 這將避免中斷歷程
 
 若要從用於一或多個歷程的欄位群組中刪除欄位，請按照以下步驟操作。 讓我們以名為「欄位群組A」的欄位群組為例。
 
