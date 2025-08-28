@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 10a228a500ac1c89f9fc400d6e7606f4b1717052
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="暫停您的歷程"
 >abstract="暫停上線的歷程以防止新輪廓進入。選擇是否捨棄目前在歷程當中的輪廓或予以保留。若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用設定檔屬性退出條件](#journey-global-filters)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
 
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
 
-## 在暫停的歷程中套用退出條件 {#journey-global-filters}
+## 在暫停的歷程中套用退出條件 {#journey-exit-criteria}
 
 歷程暫停時，您可以根據設定檔屬性套用退出條件。 此篩選器可讓您排除與恢復時定義的運算式相符的設定檔。 一旦設定了以設定檔屬性為基礎的退出標準，就會在動作節點上強制執行，即使是新設定檔的進入也一樣。 符合條件的現有設定檔和進入歷程的新設定檔，會在它們遇到的下一個動作節點&#x200B;**上，從歷程**&#x200B;中排除。
 
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 1. 選取&#x200B;**退出條件**&#x200B;圖示。
 
-   ![將設定檔屬性退出條件新增至暫停的歷程](assets/add-global-filter.png)
+   ![將設定檔屬性退出條件新增至暫停的歷程](assets/add-exit-criteria.png)
 
 1. 在&#x200B;**退出條件**&#x200B;設定中，按一下&#x200B;**新增退出條件**&#x200B;以根據設定檔屬性定義篩選器。
 
