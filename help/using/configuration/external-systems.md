@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 24%
+source-wordcount: '1615'
+ht-degree: 22%
 
 ---
 
@@ -119,3 +119,14 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 **我可以在哪裡設定逾時？ 有最大值嗎？**
 
 在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱[此章節](../configuration/external-systems.md#timeout)和[此頁面](../building-journeys/journey-properties.md#timeout_and_error)。
+
+**使用自訂動作時，Journey Optimizer開啟的連線數目上限是多少？**
+
+啟用IP Proxy並且在目標端點上定義節流設定後，連線數量會根據速率（這些是預估值，不保證數量）：
+
+* 200到2000 c/s：50個連線
+* 2000至3000之間：75個連線
+* 3000到4000之間：100個連線
+* 4000到5000之間：125個連線
+
+如果端點未定義節流設定，則Journey Optimizer的引擎會設計為放大，並且可能會有大量的連線（超過2,000個）。 為了取得有限的連線數量，客戶需要使用節流設定。
