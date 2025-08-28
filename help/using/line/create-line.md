@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
@@ -77,6 +77,18 @@ ht-degree: 6%
 >[!ENDTABS]
 
 ## 定義您的LINE內容{#line-content}
+
+Adobe Journey Optimizer支援LINE的下列訊息型別：
+
+* **文字**：傳送純文字或格式化的文字訊息。
+* **貼圖**：加入LINE的原生貼圖，以新增字元和表現力。
+* **影像**：附加影像以增強視覺吸引力。
+* **影片**：分享動態通訊的影片內容。
+* **位置**：使用地圖傳送位置資訊。
+* **範本**：利用預先定義的範本以傳送一致的訊息。
+* **Flex訊息**：使用JSON型Flex訊息，建立內容豐富的複雜版面配置。
+
+您可以直接編輯JSON內容來設定這些訊息型別，以允許動態和個人化的訊息策略。
 
 若要設定LINE內容，請遵循下列步驟。
 
