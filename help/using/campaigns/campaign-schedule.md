@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 13%
+source-wordcount: '437'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,14 @@ ht-degree: 13%
 
 若要設定速率控制，請在&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;區段中啟用&#x200B;**[!UICONTROL 節流傳遞]**&#x200B;選項，並指定所要的每秒&#x200B;**[!UICONTROL 傳遞速率]**。
 
+* 支援的最低傳送率：每秒1個。
+* 支援的最大傳遞率：啟用「節流傳遞」選項時為每秒2000。
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>設定傳送率時，行銷活動對象可執行的時間範圍上限為12小時。 如果傳送率設為不允許在12小時時間範圍內傳送訊息的所有對象的值，則剩餘的設定檔將會從行銷活動中排除。 您可以在行銷活動報告中檢視這些排除的設定檔計數。
 
 ## 設定執行頻率
 
