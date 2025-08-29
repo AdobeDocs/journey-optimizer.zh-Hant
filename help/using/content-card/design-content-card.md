@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '555'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,15 @@ ht-degree: 2%
 
 * **[!UICONTROL 小型影像]**：在文字旁邊顯示精簡的影像，非常適合內容優先於視覺效果的訊息。
 
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/)。
+
 * **[!UICONTROL 大型影像]**：在文字上方或旁顯示顯著的影像，讓視覺效果成為您訊息的主要焦點。
 
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/)。
+
 * **[!UICONTROL 僅限影像]**：顯示不含隨附文字的影像，非常適合視覺化訊息或獨立影像。
+
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/)。
 
 ## 內容索引標籤 {#content-tab}
 
@@ -37,17 +43,17 @@ ht-degree: 2%
 
 ### 文字內容 {#title-body}
 
-若要撰寫訊息，請在&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位中輸入文字。
-
 ![](assets/content-card-design-2.png)
+
+若要撰寫訊息，請在&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位中輸入文字。
 
 如果您想要進一步修改訊息，請使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化元素。 如需如何使用個人化功能的詳細說明，請參閱[本節](../personalization/personalize.md)。
 
 ### 媒體 {#add-media}
 
-**[!UICONTROL 媒體]**&#x200B;欄位可讓您新增媒體來增強內容卡片，讓您的簡報對一般使用者來說更具吸引力。
-
 ![](assets/content-card-design-3.png)
+
+**[!UICONTROL 媒體]**&#x200B;欄位可讓您新增媒體來增強內容卡片，讓您的簡報對一般使用者來說更具吸引力。
 
 若要包含媒體，請輸入您要使用之媒體的URL，或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示以從儲存在Assets媒體櫃中的資產中進行選擇。 [進一步瞭解資產管理](../integrations/assets.md)。
 
@@ -57,11 +63,38 @@ ht-degree: 2%
 
 +++
 
+### 按鈕 {#add-buttons}
+
+![](assets/content-card-design-4.png)
+
+新增按鈕讓使用者與您的內容卡片互動。
+
+1. 按一下&#x200B;**[!UICONTROL 新增按鈕]**&#x200B;以建立新的動作按鈕。
+
+1. 編輯按鈕&#x200B;**[!UICONTROL 標題]**&#x200B;欄位，指定按鈕上顯示的標籤。
+
+1. 選取&#x200B;**[!UICONTROL 互動事件]**，以定義使用者按一下按鈕或與按鈕互動時將會觸發的動作。
+
+1. 在&#x200B;**[!UICONTROL Target]**&#x200B;欄位中，輸入網頁URL或深層連結，使用者在與按鈕互動後會導向該連結。
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+
++++
+-->
+
 ### 關閉按鈕 {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-選擇&#x200B;**[!UICONTROL 關閉按鈕]**&#x200B;的&#x200B;**[!UICONTROL 樣式]**&#x200B;以自訂其外觀。
+選擇&#x200B;**[!UICONTROL 解除按鈕]**&#x200B;的&#x200B;**[!UICONTROL 樣式]**&#x200B;以自訂其外觀。
 
 您可以從下列樣式中選取：
 
@@ -84,33 +117,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 -->
 
 
-
-### 按鈕 {#add-buttons}
-
-新增按鈕讓使用者與您的內容卡片互動。
-
-![](assets/content-card-design-4.png)
-
-1. 按一下&#x200B;**[!UICONTROL 新增按鈕]**&#x200B;以建立新的動作按鈕。
-
-1. 編輯按鈕&#x200B;**[!UICONTROL 標題]**&#x200B;欄位，指定按鈕上顯示的標籤。
-
-1. 選取&#x200B;**[!UICONTROL 互動事件]**，以定義使用者按一下按鈕或與按鈕互動時將會觸發的動作。
-
-1. 在&#x200B;**[!UICONTROL Target]**&#x200B;欄位中，輸入網頁URL或深層連結，使用者在與按鈕互動後會導向該連結。
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
-
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
-
-+++
--->
 
 ### 點按時行為
 
