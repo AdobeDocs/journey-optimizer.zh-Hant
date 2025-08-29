@@ -4,9 +4,9 @@ product: journey optimizer
 title: 使用Journey Optimizer建立及排程協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的行銷活動
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1122'
 ht-degree: 66%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 66%
 
    ![](assets/create-modal.png)
 
-1. 定義行銷活動屬性。 若要這麼做，請按一下行銷活動名稱旁的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)按鈕。
-
-   ![](assets/inventory-create.png)
+1. 定義行銷活動屬性。
 
    1. 輸入行銷活動的&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -44,6 +42,11 @@ ht-degree: 66%
    1. 使用&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位將Adobe Experience Platform統一標籤指派給您的行銷活動。 這可讓您輕鬆分類，並改善協調行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
    1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+
+   您可以隨時使用行銷活動名稱旁的![行銷活動設定圖示](assets/do-not-localize/campaign-settings.svg)按鈕來存取行銷活動屬性。
+
+   ![](assets/inventory-create.png)
 
 ## 安排行銷活動 {#schedule}
 
