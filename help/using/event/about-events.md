@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
+source-git-commit: 461bf985a890d0f2f2723241846df0666248eea0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1079'
 ht-degree: 47%
 
 ---
@@ -76,9 +76,6 @@ ht-degree: 47%
 ## 更新和刪除事件 {#update-event}
 
 
-## 更新和刪除事件 {#update-event}
-
-
 為避免中斷現有歷程，當您編輯草稿、即時或關閉歷程中使用的事件時，只能變更名稱、說明或新增裝載欄位。
 
 無法刪除即時、草稿或已關閉歷程中使用的任何事件。 要刪除已使用的事件，您必須停止使用該事件的歷程，和/或將其從使用它的草稿歷程中移除。 您可以檢查&#x200B;**[!UICONTROL 欄位中的]**&#x200B;已使用。 它會顯示使用該特定事件的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
@@ -87,7 +84,7 @@ ht-degree: 47%
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 
