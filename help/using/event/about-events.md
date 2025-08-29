@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 47%
 
 ---
@@ -73,7 +73,11 @@ ht-degree: 47%
 
 對於系統產生的事件，Pipeline會篩選由[!DNL Journey Optimizer]提供且包含[!DNL Journey Optimizer]個eventID之裝載（請參閱下方的事件建立程式）的事件。 對於規則型事件，系統會使用eventID條件來識別事件。 這些事件會由 [!DNL Journey Optimizer] 監聽，並會觸發相對應的歷程。
 
-## 更新和刪除事件
+## 更新和刪除事件 {#update-event}
+
+
+## 更新和刪除事件 {#update-event}
+
 
 為避免中斷現有歷程，當您編輯草稿、即時或關閉歷程中使用的事件時，只能變更名稱、說明或新增裝載欄位。
 
@@ -83,7 +87,7 @@ ht-degree: 47%
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 
