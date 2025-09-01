@@ -5,10 +5,10 @@ title: 開始使用協調的行銷活動
 description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+source-git-commit: 94c7594e9a12b0bc91bb01989b5dd25afb662cfe
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 94%
 雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
+
+➡️ [在影片中探索協調的行銷活動](#video-oc)
 
 ## 核心功能
 
@@ -71,6 +73,15 @@ ht-degree: 94%
 * **轉變**：轉變會將來源活動連結到目標活動並定義其序列。
 
 * **工作表**：工作表包含轉變攜帶的所有資訊。每個協調的行銷活動會使用多個工作表。在這些表格中傳達的資料可以用於整個協調行銷活動的生命週期。
+
+
+## 簡介影片 {#video-oc}
+
+瞭解協調行銷活動的主要概念和功能。
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
+
 
 ## 一起來深入探討
 
