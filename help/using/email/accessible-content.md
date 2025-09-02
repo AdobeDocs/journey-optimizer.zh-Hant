@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 設計無障礙內容
 description: 瞭解如何在Journey Optimizer中為您的電子郵件和登入頁面設計無障礙內容
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # 設計無障礙內容 {#accessible-content}
 
+>[!NOTE]
+>
+>此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Journey Optimizer]設計的電子郵件和登入頁面。
+>
+>[!DNL Journey Optimizer]介面本身的協助工具在[本節](../start/accessibility.md)中有詳細說明。
+
 [歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
 
 當您在&#x200B;**中建立**&#x200B;電子郵件&#x200B;**和**&#x200B;登陸頁面[!DNL Journey Optimizer]的內容時，此頁面上列出的電子郵件行銷人員協助工具最佳實務可協助您遵循此指示。 它們是根據Web內容可及性指引(WCAG) 2.1、AA級。
-
->[!NOTE]
->
->使用[!DNL Journey Optimizer]介面本身的協助工具功能在[本節](../start/accessibility.md)中有詳細說明。
 
 歐洲協助工具法案規定，所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，都應可供存取。 因此，您必須遵循特定准則，例如使用無障礙字型、可讀格式，以及為影像提供替代文字。
 
@@ -33,7 +33,6 @@ ht-degree: 0%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
