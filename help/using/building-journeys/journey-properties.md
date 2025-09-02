@@ -137,7 +137,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
@@ -181,7 +181,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -263,7 +263,7 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出條件"
->abstract="本區段顯示結束條件選項。您可以為歷程建立一或多個退出條件規則和篩選器。"
+>abstract="本區段會顯示退出條件選項。您可以為您的歷程建立一個或多個退出條件規則及篩選器。"
 
 ### 歷程退出條件 {#exit-criteria-desc}
 

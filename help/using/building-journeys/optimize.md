@@ -15,16 +15,16 @@ exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 最佳化活動 {#journey-path-optimization}
+# 活動最佳化 {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="最佳化活動"
->abstract="**最佳化**&#x200B;活動可讓您根據特定條件（包括實驗、目標定位和特定條件）建立多個路徑，以定義個人在您的歷程中如何前進。"
+>title="活動最佳化"
+>abstract="藉由將活動&#x200B;**最佳化**，您可以根據特定準則 (包括實驗、目標選擇和特定條件) 建立多條路徑，定義每個個體在您歷程中的進展方式。"
 
 >[!AVAILABILITY]
 >

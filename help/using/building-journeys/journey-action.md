@@ -12,7 +12,7 @@ exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="動作活動"
->abstract="一般&#x200B;**動作**&#x200B;活動可讓您設定單一原生頻道動作和多個輸入活動，並能夠將最佳化新增至任何內建頻道動作。"
+>abstract="您可以透過通用的&#x200B;**動作**&#x200B;活動設定單一原生通道動作和多項入站活動，且可以在任何內建的通道動作中加入最佳化功能。"
 
 >[!AVAILABILITY]
 >
@@ -112,7 +112,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="新增多項入站動作"
->abstract="您可以在單一歷程中選取數個入站動作。 此功能可讓您同時對不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，且每個動作都包含特定內容。"
+>abstract="您可以在單一歷程中選取多項入站動作。您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
 
 若要簡化歷程協調，您可以在單一歷程動作中定義數個傳入動作。
 

@@ -14,7 +14,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
 workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="條件"
->abstract="條件可讓您根據特定條件建立多個路徑，以定義個人如何進行您的歷程。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。"
+>abstract="您可以使用「條件」，根據特定準則建立多條路徑，藉此定義每個個體在您歷程中的進展方式。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。"
 
 透過&#x200B;**條件**，您可以根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
 
@@ -191,4 +191,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
