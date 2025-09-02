@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 17%
@@ -126,7 +126,7 @@ ht-degree: 17%
    >
    >* 針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
 
-1. 視活動而定，您可以顯示所選管道的特定進階引數，並覆寫某些預設值，例如執行地址。 [了解更多](../about-journey-activities.md#advanced-parameters)
+1. 視活動而定，您可以顯示所選管道的特定進階引數，並覆寫某些預設值，例如執行地址。 [了解更多](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
