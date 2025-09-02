@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 16%
+source-wordcount: '716'
+ht-degree: 15%
 
 ---
 
@@ -91,13 +91,19 @@ ht-degree: 16%
 
 ![歷程活動屬性中的進階引數欄位](assets/journey-advanced-parameters.png)
 
-為了更好的可讀性，請使用&#x200B;**[!UICONTROL 隱藏唯讀欄位]**&#x200B;按鈕來隱藏這些引數。
+為了更好的可讀性，請使用右窗格上方的&#x200B;**[!UICONTROL 隱藏唯讀欄位]**&#x200B;按鈕來隱藏這些引數。
 
 ![隱藏歷程活動屬性中的唯讀欄點陣圖示](assets/journey-hide-read-only-fields.png)
 
 在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![在電子郵件活動屬性中啟用引數覆寫選項](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>如果進階引數已隱藏，請按一下&#x200B;**[!UICONTROL 顯示唯讀欄位]**&#x200B;按鈕
+>
+>![在歷程活動屬性中顯示唯讀欄點陣圖示](assets/journey-show-read-only-fields.png){width=60%}
 
 ### 新增替代路徑
 
