@@ -8,32 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
+source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
 
 # 設計無障礙內容 {#accessible-content}
 
+[歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
+
+此法規規定所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，皆應可供存取。 因此，在為收件者建立內容時，您必須遵循特定准則，例如使用無障礙字型、可讀格式，以及為影像提供替代文字。
+
+[!DNL Journey Optimizer] [電子郵件Designer](content-from-scratch.md)可讓行銷人員建立&#x200B;**電子郵件**&#x200B;和&#x200B;**登陸頁面**&#x200B;的內容，讓您根據網頁內容可及性指引(WCAG) 2.1 (Level AA)輕鬆遵循此指示。
+
+因此，以下列出使用[!DNL Journey Optimizer]設計無障礙內容的最佳實務。
+
 >[!NOTE]
 >
 >此頁面旨在讓您的內容可供所有收件者存取，以確保身心障礙人士可以閱讀、理解並互動您使用[!DNL Journey Optimizer]設計的電子郵件和登入頁面。
 >
->[!DNL Journey Optimizer]介面本身的協助工具在[本節](../start/accessibility.md)中有詳細說明。
-
-[歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
-
-當您在&#x200B;**中建立**&#x200B;電子郵件&#x200B;**和**&#x200B;登陸頁面[!DNL Journey Optimizer]的內容時，此頁面上列出的電子郵件行銷人員協助工具最佳實務可協助您遵循此指示。 它們是根據Web內容可及性指引(WCAG) 2.1、AA級。
-
-歐洲協助工具法案規定，所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，都應可供存取。 因此，您必須遵循特定准則，例如使用無障礙字型、可讀格式，以及為影像提供替代文字。
-
-[!DNL Journey Optimizer] [電子郵件Designer](content-from-scratch.md)可讓行銷人員建立電子郵件和登入頁面的內容，讓您輕鬆遵循這些准則。 以下列出使用[!DNL Journey Optimizer]設計無障礙內容的最佳實務。
-
-<!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
- 
-
+>另一方面，[!DNL Journey Optimizer]介面本身的協助工具在[本節](../start/accessibility.md)中有詳細說明。
+> 
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -83,7 +80,7 @@ ht-degree: 0%
 
 此外，[!DNL Journey Optimizer]電子郵件Designer可讓您預覽和最佳化不同裝置和熒幕大小的設計。 您隨時可以&#x200B;**[!UICONTROL 切換到即時檢視]**，以檢查您的內容在各種裝置大小上可能會如何呈現。
 
-![](assets/accessible-live-view.png){width="70%"}
+![](assets/accessible-live-view.png){width="80%"}
 
 >[!CAUTION]
 >
@@ -138,7 +135,7 @@ ht-degree: 0%
 
 如果能以可靠的方式存取內容，若要以更一致的方式簽入，請前往特定的外部工具，例如：
 
-* [WebAim對比檢查程式](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE網頁協助工具評估工具](https://wave.webaim.org/){target="_blank"}可評估對比和相容性。
+* [WebAim對比檢查程式](https://webaim.org/resources/contrastchecker/){target="_blank"}和[WAVE網頁協助工具評估工具](https://wave.webaim.org/){target="_blank"}，以評估對比和相容性；
 
 * 熒幕助讀程式之類的輔助技術(例如： [NVDA](https://www.nvaccess.org/download/){target="_blank"}，或iPhone上的[VoiceOver](https://support.apple.com/en-ie/guide/iphone/iph3e2e415f/ios){target="_blank"})，可從視障使用者的角度體驗電子郵件。
 
@@ -146,7 +143,7 @@ ht-degree: 0%
 
 <!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
-深色模式可增強使用者的視覺協助功能，並具備光線敏感度或視覺障礙，進而改善觀看體驗。
+深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
@@ -154,11 +151,11 @@ ht-degree: 0%
 
 [本節](dark-mode.md#best-practices)中列出了深色模式的詳細最佳實務，包括確保協助工具的准則。<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
-## 針對可存取的電子郵件使用特定屬性 {#attributes}
+## 針對協助工具使用特定屬性 {#attributes}
 
-### `lang`和`dir`屬性
+### 語言屬性 {#language}
 
-建立無障礙電子郵件時，請在電子郵件內文中包含`lang` （語言）和`dir` （文字方向）屬性。 這些屬性可協助輔助技術（例如熒幕閱讀程式）以適當的方式解譯和呈現您的內容。
+建立設計時，請在內容本文中包含`lang` （語言）和`dir` （文字方向）屬性。 這些屬性可協助輔助技術（例如熒幕閱讀程式）以適當的方式解譯和呈現您的內容。
 
 * `lang`屬性指出輔助技術所使用之電子郵件的語言，確保正確發音單字。
 
@@ -202,13 +199,13 @@ ht-degree: 0%
 >
 >如果您的電子郵件包含多種語言，請將適當的語言屬性指派給特定區段（例如`<table>`或`<td>`區塊），以確保每個部分都能正確讀取。
 
-### 配置表格和`role="presentation"`
+### 表格 {#tables}
 
-在HTML電子郵件中，表格通常用於版面。 依預設，熒幕助讀程式會將每個`<table>`視為資料表，宣告列、欄和結構。 如果表格僅用於格式設定，這可能會造成混淆。
+在HTML內容中，表格通常用於版面。 依預設，熒幕助讀程式會將每個`<table>`視為資料表，宣告列、欄和結構。 如果表格僅用於格式設定，這可能會造成混淆。
 
 將`role="presentation"` （或`role="none"`）新增至配置表格，以確保輔助技術會略過其結構並僅專注於實際內容。
 
-+++範例 — 配置表格（使用role=&quot;presentation&quot;）： 
++++範例 — 配置表格（含`role="presentation"`）
 
 ```
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"> 
@@ -229,11 +226,11 @@ ht-degree: 0%
 ```
 
 熒幕助讀程式顯示：
-「你好。 歡迎使用我們的電子報。」 *（未提及列、欄或資料表。）*
+「你好。 歡迎使用我們的電子報。」 *（未提及列、欄或資料表）*
 
 +++
 
-+++範例 — 資料表（不含role=&quot;presentation&quot;）： 
++++範例 — 資料表（不含`role="presentation"`）
 
 ```
 <table border="1" cellpadding="5" cellspacing="0"> 
@@ -268,13 +265,9 @@ ht-degree: 0%
 熒幕助讀程式顯示：
 「2欄3列的表格。」
 
-「姓名，Alice。」
+「姓名，Alice。 分數， 95。」
 
-「分數，95。」
-
-「姓名，Bob。」
-
-「Score， 88。」
+「姓名，Bob。 分數， 88。」
 
 +++
 
@@ -282,11 +275,11 @@ ht-degree: 0%
 >
 >僅使用`role="presentation"`配置表格。 對於資料表，請保留語意`<table>`結構，讓熒幕朗讀程式可以正確宣告標題和關聯性。
 
-### 連結的可辨識和描述文字
+### 連結文字 {#links}
 
-熒幕助讀程式會使用文字朗讀連結。 如果連結僅標籤為「按一下這裡」或「閱讀更多」，則輔助技術的使用者將無法知道目的地。
+熒幕助讀程式會使用文字朗讀連結。 如果連結僅標籤為「按一下這裡」或「閱讀更多」，則輔助技術的使用者將無法知道目的地。 為了確保協助工具，這些檔案需要清楚指出目標或動作的描述性文字。
 
-為確保協助工具，請撰寫清楚指出目標或動作的描述性文字。 使用電子郵件Designer將[連結](message-tracking.md#insert-links)新增到您的內容並編輯標籤，使其可辨識（可見）並描述性（清除用途）。 避免使用模糊的標籤，如「這裡」或「更多」。
+使用電子郵件Designer將[連結](message-tracking.md#insert-links)新增到您的內容並編輯標籤，使其可辨識（可見）並描述性（清除用途）。 避免使用模糊的標籤，如「這裡」或「更多」。
 
 ![](assets/accessible-link.png){width="70%"}
 
@@ -305,7 +298,7 @@ ht-degree: 0%
 
 +++
 
-+++範例 — 錯誤連結（非描述性）： 
++++範例 — 錯誤連結（非描述性）
 
 ```
 <p>Learn more about our new features.  
@@ -316,7 +309,7 @@ ht-degree: 0%
 ```
 
 熒幕助讀程式顯示：
-「連結，按一下這裡。」 *（未提供讀取順序錯亂的內容。）*
+「連結，按一下這裡。」 *（未提供讀取順序錯亂的內容）*
 
 +++
 
@@ -331,7 +324,7 @@ ht-degree: 0%
 
 提供鍵盤導覽和焦點支援，讓無法使用滑鼠的人能夠完全存取內容並與內容互動。 它也能讓所有使用者以清晰一致的方式瀏覽資訊，進而改善整體可用性。
 
-* 透過鍵盤啟用焦點（Tab/方向鍵）
+* 透過鍵盤聚焦
 
    * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
 
@@ -341,7 +334,7 @@ ht-degree: 0%
 
    * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
 
-     +++範例(CSS)：
+     +++範例(CSS)
 
      ```
      [tabindex="0"] : focus { 
