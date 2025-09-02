@@ -12,7 +12,7 @@ keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 13%
@@ -186,6 +186,10 @@ Here you can see that we have applied a different background, defined another im
 * 避免僅依賴背景顏色處理重要內容。 有些使用者端會以深色模式覆寫背景顏色，因此請確定關鍵資訊仍然可見。
 
 **在深色模式中設計可存取的內容**
+
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+If needed, it can be moved to the Design accessible content page:
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
 
 * 使用顏色組合，可輕鬆區別色盲人士。
 
