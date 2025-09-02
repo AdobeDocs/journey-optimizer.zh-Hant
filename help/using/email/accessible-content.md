@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
@@ -325,7 +324,9 @@ ht-degree: 0%
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## 提供鍵盤導覽和焦點支援<!--for landing pages--> {#keyboard}
+## 提供鍵盤導覽和焦點支援 {#keyboard}
+
+<!--for landing pages-->
 
 提供鍵盤導覽和焦點支援，讓無法使用滑鼠的人能夠完全存取內容並與內容互動。 它也能讓所有使用者以清晰一致的方式瀏覽資訊，進而改善整體可用性。
 
