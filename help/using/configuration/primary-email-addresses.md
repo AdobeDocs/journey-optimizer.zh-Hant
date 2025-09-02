@@ -73,7 +73,7 @@ ht-degree: 19%
 >id="ajo_journey_execution_address"
 >title="定義自訂值"
 >abstract="在某些特定情況下，您可以覆寫預設的執行地址。 使用欄位右側的&#x200B;**啟用引數覆寫**&#x200B;圖示來定義自訂主要地址。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="關於執行地址"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="關於執行地址"
 
 對於特定使用案例，您可以全域覆寫執行欄位設定，並在電子郵件設定層級或歷程層級定義不同的值。
 
