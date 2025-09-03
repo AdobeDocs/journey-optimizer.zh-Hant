@@ -4,9 +4,9 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
+source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '868'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,8 @@ ht-degree: 3%
 ## 為協調的行銷活動啟用資料集 {#enable}
 
 建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。
+
+請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
 
 1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;清單中找出您的資料集。
 
