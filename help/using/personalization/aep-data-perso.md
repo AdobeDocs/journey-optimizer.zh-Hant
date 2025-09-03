@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用 Adobe Experience Platform 資料進行個人化 (測試版)
+title: 使用 Adobe Experience Platform 資料進行個人化
 description: 瞭解如何使用Adobe Experience Platform資料進行個人化。
-badge: label="Beta" type="Informative"
+badge: label="有限可用性" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
-# 使用 Adobe Experience Platform 資料進行個人化{#aep-data}
+# 使用 Adobe Experience Platform 資料進行個人化 {#aep-data}
 
 >[!AVAILABILITY]
 >
->此功能目前以公開測試版的形式提供給所有客戶。
->
->若要使用此功能，您必須先接受組織的測試版條款，在個人化編輯器中新增新的「datasetLookup」協助程式函式時，這些條款就會顯示。
+>此功能目前以有限可用性版本的形式提供給所有客戶。
 
-Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platform中的資料，以[個人化您的內容](../personalization/personalize.md)。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集，如下所述。 一旦完成，您就可以使用這些資料，將內容個人化，改成[!DNL Journey Optimizer]。
+Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform記錄資料集的資料，來[個人化您的內容](../personalization/personalize.md)。 開始之前，必須先啟用查詢個人化所需的資料集以進行查詢。 本節提供詳細資訊： [使用Adobe Experience Platform資料](../data/lookup-aep-data.md)。
 
-## Beta限制和指引 {#guidelines}
-
-開始之前，請檢閱下列限制和准則：
-
-* **支援的頻道**：目前，此功能僅可用於電子郵件、簡訊和直接郵件頻道。
-* **片段**：目前無法將資料集查詢個人化放在運算式或視覺化片段中。
-
-## 啟用資料集以進行資料查詢 {#enable}
-
-為了將資料集中的資料用於個人化，您需要使用API呼叫來擷取其狀態並啟用查詢服務。 本節提供詳細資訊： [在 [!DNL Journey Optimizer]](../data/lookup-aep-data.md)中利用Adobe Experience Platform資料集
-
-## 運用資料集進行個人化 {#leverage}
-
-使用API呼叫啟用資料集查閱個人化後，您就可以使用其資料將您的內容個人化至[!DNL Journey Optimizer]。
+在資料集啟用查詢個人化後，您就可以使用其資料將您的內容個人化為[!DNL Journey Optimizer]。
 
 1. 開啟個人化編輯器，您可在每個內容中定義個人化（例如訊息），此編輯器可供使用。 [瞭解如何使用個人化編輯器](../personalization/personalization-build-expressions.md)
 
@@ -69,7 +54,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -100,7 +85,7 @@ Journey Optimizer可讓您在個人化編輯器中運用Adobe Experience Platfor
 
      +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 
