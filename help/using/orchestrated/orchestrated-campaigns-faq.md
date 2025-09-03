@@ -6,10 +6,10 @@ description: 關於Journey Optimizer協調行銷活動的常見問題
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: b7c1da838c7e87a9d8bc3ddf5ef09fa756d853b8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '991'
+ht-degree: 1%
 
 ---
 
@@ -71,6 +71,18 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 
 >[!ENDSHADEBOX]
 
+## 什麼是多實體分段？ {#multi-entity}
+
+Adobe Journey Optimizer中的Campaign Orchestration使用關聯式資料庫。 此型別的資料模型有透過1:1或1:many關係連線的個別資料結構描述。 這可讓使用者在任何結構描述上開始查詢（不僅在收件者層級），然後來回切換至其他相關結構描述，例如購買、產品、預訂或收件者詳細資訊，在如何建立區段和受眾方面提供極大的靈活性，並且
+精簡。
+
+>[!BEGINSHADEBOX]
+
+**範例** — 鎖定訂閱在未來3ad-h0天到期的所有收件者：在Campaign Orchestration中，查詢可以從「訂閱」綱要開始，搜尋該綱要的到期日欄，並傳回到期的所有訂閱，然後向上彙整至與那些特定訂閱ID相關的收件者資料，這些訂閱ID傳回結果的速度和效率比在收件者層級開始每個查詢的資料模型更快。
+
+>[!ENDSHADEBOX]
+
+
 ## 資料模型如何運作？ {#data-model}
 
 行銷活動使用&#x200B;**關聯式資料庫**。 這可讓您查詢不同的資料集（例如客戶、產品、訂閱），並靈活地連結這些資料集以進行進階分段。
@@ -108,7 +120,7 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 
 ## 許可權和同意呢？ {#permissions}
 
-許可權和同意由Adobe Experience Platform集中管理。 相同的規則適用於歷程與協調的行銷活動，以確保合規性與一致的客戶體驗。
+協調行銷活動和歷程的許可權和同意在Adobe Experience Platform中集中管理。 這些設定會在傳送前套用至每個收件者的兩個解決方案。
 
 >[!BEGINSHADEBOX]
 
@@ -116,13 +128,13 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 
 * 套用&#x200B;**集中治理** — 避免在行銷活動層級個別管理同意。
 * 定期稽核同意資料以偵測不一致。
-* 遵守&#x200B;**頻道特定的選擇退出** — 不要假設全域同意涵蓋所有頻道。
+* 遵守&#x200B;**特定管道的選擇退出** — 不要假設全域同意涵蓋所有管道。
 
 >[!ENDSHADEBOX]
 
 ## 我可以執行臨時細分嗎？ {#ad-hoc}
 
-可以。透過&#x200B;**即時分段**，您可以在現場建立複雜的查詢，並立即跨傳出頻道啟用它們。
+在Campaign Orchestration中，我們將臨機區段稱為「即時區段」，您可以即時存取關聯式存放區中的所有可用資料，在其上建立複雜的查詢，並透過傳出頻道（例如：電子郵件+簡訊）取得即時啟用的結果。
 
 >[!BEGINSHADEBOX]
 
@@ -133,6 +145,11 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 * 在啟用之前驗證對象人數，以防止傳送量少或傳送量多。
 
 >[!ENDSHADEBOX]
+
+## 關聯式資料庫中的資料是否可用於訊息個人化？ {#relational-personalization}
+
+可以。在Campaign Orchestration中，可以更新稱為「人員實體」的收件者設定檔，以及用於個人化的資料。 此外，關聯式資料庫中連結實體的擴充資料也可用於個人化。
+
 
 ## 這是否支援決策？ {#decisioning}
 
@@ -161,3 +178,4 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 * 可能的話，將&#x200B;**傳送時間錯開**，以避免造成下游系統負擔過重（例如客服中心、網站）。
 * 建立&#x200B;**監視常式** — 追蹤每次傳送後的傳遞記錄、錯誤率和選擇退出。
 * 在Customer Journey Analytics中執行&#x200B;**行銷活動後分析**，以調整下一個週期的鎖定目標和協調流程。
+
