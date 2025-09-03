@@ -6,10 +6,10 @@ description: 關於Journey Optimizer協調行銷活動的常見問題
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e63fd5dc50100000a810e2dfcb8c8e8827628b0c
+source-git-commit: a6a8521254005159b410790f88877d0591a16d15
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '1091'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 1%
 
 需要更多詳細資訊嗎？ 使用本頁底部的意見回饋選項來提出您的問題。
 
-## 什麼是協調的行銷活動？ {#what-are-oc}
+## 什麼是Campaign協調流程？ {#what-are-oc}
 
-Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執行複雜的一對多行銷活動。 它們專為品牌啟動的參與而設計，例如促銷活動、季節性行銷活動或帳戶型通訊。
+Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟或多步驟工作流程，這些工作流程會利用關聯式資料存放區來建立和細分對象，以進行批次參與。
 
-相較於單一傳送行銷活動，它們為傳出行銷帶來&#x200B;**協調流程和順序**：對象會一起透過多步驟工作流程移動，而不是接收一次性爆炸。
+它為Journey Optimizer帶來新的行銷活動型別： **協調的行銷活動**。 協調的行銷活動可協助品牌大規模執行複雜的一對多行銷活動。 它們專為品牌啟動的參與而設計，例如促銷活動、季節性行銷活動或帳戶型通訊。
 
-## 我可以使用協調行銷活動做什麼？ {#what-can-i-do}
+相較於單一傳送/動作行銷活動，它們為傳出行銷帶來&#x200B;**協調流程和順序**：對象會一起透過多步驟工作流程，而不是接收一次性爆炸。
+
+## 我可以使用協調的行銷活動做什麼？ {#what-can-i-do}
 
 主要功能包括：
 
@@ -45,10 +47,14 @@ Adobe Journey Optimizer中精心安排的行銷活動可協助品牌大規模執
 
 >[!ENDSHADEBOX]
 
+## 如何存取Campaign協調流程？ {#access-oc}
+
+若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
+
 
 ## 支援哪些管道？ {#channels}
 
-協調的行銷活動支援&#x200B;**電子郵件、簡訊和推播通知**。
+您可以建立協調的行銷活動，以傳送&#x200B;**電子郵件**、**簡訊**&#x200B;及&#x200B;**推播通知**。
 
 
 >[!BEGINSHADEBOX]
