@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
+## 2025年9月更新 {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>使用Adobe Experience Platform資料進行個人化和決策 — 可用性限制</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此功能先前於公開測試版發佈，現在僅供有限可用狀態的所有環境使用。 已在此版本中，引進以下增強功能：</p>
+<ul><li>支援傳入頻道中的資料集查詢個人化。</li>
+<li>「datasetLookup」協助程式函式現在可用於運算式片段中。</li>
+<li>資料集管理介面中的選項現在可讓您啟用以記錄為基礎的資料集，以進行查詢個人化，而無需執行API呼叫。</li>
+<li>增強的監控功能，可追蹤資料擷取狀態，並瞭解資料集何時準備好進行查詢。</li>
+<li>更新使用指南和護欄，確保最佳效能和可靠性。</li></ul></p>
+<p>如需詳細資訊，請參閱<a href="../data/lookup-aep-data.md">詳細文件</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025年8月發行說明 {#25-8-rn}
 
