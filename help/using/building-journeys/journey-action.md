@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 25%
+source-wordcount: '976'
+ht-degree: 15%
 
 ---
 
@@ -65,45 +65,69 @@ ht-degree: 25%
 
 1. 根據所選管道設定您的活動。 瞭解如何在[本節](journeys-message.md)中設定內建頻道動作。
 
-1. 使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 這些不同的選項和要遵循的步驟在[本節](../campaigns/campaigns-message-optimization.md)中有詳細說明。
+1. 使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。
 
-1. 使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，在您的歷程動作中以多種語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。 有關如何設定及使用多語言功能的詳細資訊，請參閱[本節](../content-management/multilingual-gs.md)。
+   這些不同的選項和要遵循的步驟在[本節](../campaigns/campaigns-message-optimization.md)中有詳細說明。
+
+1. 使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，在您的歷程動作中以多種語言建立內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。
+
+   有關如何設定及使用多語言功能的詳細資訊，請參閱[本節](../content-management/multilingual-gs.md)。
 
 根據所選的通訊通道，有其他設定可供使用。 請展開下列各節以取得詳細資訊。
 
 +++**套用上限規則** （電子郵件、直接郵件、推播、簡訊）
 
-在&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中，選取要套用上限規則至歷程動作的規則集。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [學習如何使用規則集](../conflict-prioritization/rule-sets.md)
+在&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中，選取要套用上限規則至歷程動作的規則集。
+
+運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。
+
+[瞭解如何使用規則集](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**追蹤參與** （電子郵件、簡訊）。
 
-使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 執行歷程後，即可從歷程報表存取追蹤結果。 [進一步瞭解歷程報告](../reports/journey-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段來追蹤收件者對您的電子郵件或簡訊傳遞的反應。
+
+執行歷程後，即可從歷程報表存取追蹤結果。
+
+[進一步瞭解歷程報告](../reports/journey-global-report-cja.md)
 
 +++
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。
+
+當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。
+
+如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
 
 +++
 
 +++**指派優先順序分數** （網頁、應用程式內、程式碼型）
 
-在&#x200B;**[!UICONTROL 衝突管理]**&#x200B;區段中，為歷程動作指派優先順序分數，可讓您在有多個歷程動作或行銷活動使用相同管道設定時，為傳入動作設定優先順序。 請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。依預設，動作的優先順序分數繼承自歷程的整體優先順序分數。 [瞭解如何將優先順序分數指派給歷程與行銷活動](../conflict-prioritization/priority-scores.md)
+在&#x200B;**[!UICONTROL 衝突管理]**&#x200B;區段中，您可以為歷程動作指派優先順序分數，讓您可以在有多個歷程動作或行銷活動使用相同管道設定時，為傳入動作設定優先順序。
+
+預設情況下，動作的優先順序分數會繼承歷程的整體優先順序分數。
+
+[瞭解如何將優先順序分數指派給管道動作](../conflict-prioritization/priority-scores.md#priority-action)
 
 +++
 
 +++**設定其他傳遞規則** （內容卡）
 
-對於內容卡歷程，您可以啟用其他傳送規則，以選擇觸發訊息的事件和條件。 [瞭解如何建立內容卡](../content-card/create-content-card.md)
+對於內容卡歷程，您可以啟用其他傳送規則，以選擇觸發訊息的事件和條件。
+
+[瞭解如何建立內容卡](../content-card/create-content-card.md)
 
 +++
 
 +++**定義觸發程式** （應用程式內）
 
-針對應用程式內訊息，您可以使用&#x200B;**[!UICONTROL 編輯觸發器]**&#x200B;按鈕，選擇觸發訊息的事件和條件。 [瞭解如何建立應用程式內訊息](../in-app/create-in-app.md)
+針對應用程式內訊息，您可以使用&#x200B;**[!UICONTROL 編輯觸發器]**&#x200B;按鈕，選擇觸發訊息的事件和條件。
+
+[瞭解如何建立應用程式內訊息](../in-app/create-in-app.md)
 
 +++
 
