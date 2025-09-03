@@ -40,7 +40,7 @@ ht-degree: 93%
 
 在 Adobe Journey Optimizer 中，Azure OpenAI 與 Azure 視覺技術所支援的 AI 助理，可為文字和影像提供主動式內容變化版本建議。這個新功能提供&#x200B;**提示文字與影像產生**。 透過 Adobe Firefly 管理影像產生功能。
 
-AI Assistant支援多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
+AI Assistant支援多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
 
 <table style="table-layout:fixed"><tr style="border: 0;">
   <tr>
