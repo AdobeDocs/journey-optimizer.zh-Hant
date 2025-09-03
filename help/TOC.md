@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [建立語言提供者](using/content-management/multilingual-provider.md)
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
+   + [訊息最佳化](using/campaigns/campaigns-message-optimization.md)
    + 內容實驗 {#content-experiment}
       + [內容實驗](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [開始使用內容實驗](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
-   + [善用訊息最佳化](using/campaigns/campaigns-message-optimization.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
    + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + 客群 {#audiences}
