@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為&#x200B;**[!UICONTROL 動作]**&#x200B;活動內
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
