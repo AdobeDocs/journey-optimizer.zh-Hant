@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 076de3f8cec65ebf864131d2e405ead7596b2514
+source-git-commit: b038493451a859c3520abe6d4155535a8a89a951
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -40,11 +40,11 @@ ht-degree: 93%
 
 在 Adobe Journey Optimizer 中，Azure OpenAI 與 Azure 視覺技術所支援的 AI 助理，可為文字和影像提供主動式內容變化版本建議。這個新功能提供&#x200B;**提示文字與影像產生**。 透過 Adobe Firefly 管理影像產生功能。
 
-AI Assistant支援多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
+AI Assistant支援多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 AI助理提供下列語言版本：
 
-<table style="table-layout:auto; border-collapse: collapse;">
+<table style="table-layout:auto;">
   <tbody>
-    <tr style="background-color: #FFFFFF;">
+    <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
           <li>法文</li>
@@ -112,7 +112,7 @@ AI Assistant支援多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並
 * 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
 * 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
 * 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 以下限制適用於 Adobe Journey Optimizer 的 AI 助理：
 
