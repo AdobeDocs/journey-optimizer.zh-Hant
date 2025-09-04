@@ -123,7 +123,7 @@ ht-degree: 9%
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
     <br/>
-      <strong>客戶上線</strong><br/><p>瞭解如何在Journey Optimizer中實施客戶入門歷程。</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">觀看使用案例影片</a>
+      <strong>客戶上線</strong><br/><p>瞭解如何在Journey Optimizer中實施客戶入門歷程。</p> - <a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">觀看使用案例影片</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
