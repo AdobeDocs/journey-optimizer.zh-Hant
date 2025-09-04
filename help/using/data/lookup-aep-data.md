@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="啟用供查詢使用"
->abstract="啟用供查詢使用"
+>abstract="啟用資料集進行查詢可讓您透過Journey Optimizer個人化和決策功能來運用其資料。"
 
 >[!AVAILABILITY]
 >
