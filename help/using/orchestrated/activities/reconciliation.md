@@ -4,7 +4,8 @@ product: journey optimizer
 title: 設定調和活動
 description: 瞭解如何在協調的行銷活動中使用調解活動
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 87%
@@ -56,7 +57,7 @@ ht-degree: 87%
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"

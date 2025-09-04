@@ -4,7 +4,8 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 58%
@@ -156,7 +157,7 @@ ht-degree: 58%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

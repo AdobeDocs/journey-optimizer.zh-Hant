@@ -4,7 +4,8 @@ product: journey optimizer
 title: 在您的協調行銷活動中使用測試活動
 description: 了解如何使用測試活動
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 83%

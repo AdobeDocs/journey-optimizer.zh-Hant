@@ -4,7 +4,8 @@ product: journey optimizer
 title: 使用Adobe Journey Optimizer報告協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer存取有關協調行銷活動的報告
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 64%

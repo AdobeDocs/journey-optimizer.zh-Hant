@@ -4,7 +4,8 @@ product: journey optimizer
 title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 3%

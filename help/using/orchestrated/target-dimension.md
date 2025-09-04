@@ -4,7 +4,8 @@ product: journey optimizer
 title: 建立您的目標維度
 description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -50,7 +51,7 @@ ht-degree: 0%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`crmID`結構描述中由唯一的`Recipient`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
+   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
 
    ![](assets/target-dimension-2.png)
 
