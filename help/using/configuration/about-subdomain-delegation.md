@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 32%
+source-wordcount: '982'
+ht-degree: 28%
 
 ---
 
@@ -86,21 +86,29 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 在[本節](delegate-subdomain.md#cname-subdomain-setup)中瞭解如何使用CNAME建立子網域以指向Adobe特定記錄。
 
+### 使用自訂子網域 {#custom-subdomain-delegation}
+
+自訂委派方法可讓您完全擁有控制及維護傳遞、轉譯及追蹤訊息所需的DNS各方面功能。
+
+在此情況下，您將完全擁有和管理我們自己的子網域，並對此程式產生之憑證擁有完全控制權。
+
+瞭解如何在[本節](delegate-custom-subdomain.md)中設定自訂網域。
+
 ## 比較設定方法
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
+<!--
+| Configuration method | How it works | Level of effort |
+|---|---|---|
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+
 
 | 設定方法 | 運作方式 | 所需投入的精力 |
 |---|---|---|
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
-
-<!--
-| Configuration method | How it works | Level of effort |
-|---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |
-| **Custom delegation method** |  Create the subdomain and namespace record - Adobe will then provide the records to be placed in your DNS servers. Upload the SSL Certificate obtained from the Certificate Authority and complete the Feedback Loop steps by verifying domain ownership and reporting email address.<br/><br/>In this setup, you have full responsibility for maintaining DNS. | Very high |-->
+| **自訂委派方法** | 建立子網域和名稱空間記錄 — Adobe接著會提供要放置在DNS伺服器中的記錄。 上傳從憑證授權單位取得的SSL憑證，並透過驗證網域所有權並報告電子郵件地址來完成回饋回圈步驟。<br/><br/>在此設定中，您完全有責任維護DNS。 | 非常高 |
 
 如需網域設定的其他資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant){target="_blank"}。
 

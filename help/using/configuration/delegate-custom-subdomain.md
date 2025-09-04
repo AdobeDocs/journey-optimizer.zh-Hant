@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 20%
+source-wordcount: '925'
+ht-degree: 18%
 
 ---
 
 # 設定自訂子網域 {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
 
 作為[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME設定](about-subdomain-delegation.md#cname-subdomain-delegation)方法的替代方法，**自訂委派**&#x200B;方法可讓您取得Journey Optimizer執行個體的子網域所有權，以完全控制產生的憑證。
 
@@ -66,8 +68,8 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="選取關鍵長度"
+>abstract="金鑰長度只能是2048或4096位元。 提交子網域後即無法變更。"
 
 1. 在&#x200B;**[!UICONTROL SSL憑證]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 產生CSR]**。
 
@@ -85,13 +87,35 @@ ht-degree: 20%
    >
    >金鑰長度只能是2048或4096位元。 提交子網域後即無法變更。
 
-1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。 將它傳送給憑證授權以取得您的SSL憑證。
+1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
-1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證以.pem格式上傳至[!DNL Journey Optimizer]。
+1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。 在將此CSR提交給CA進行簽署之前，請注意以下幾個重要事項：
 
-   >[!CAUTION]
-   >
-   >資料和CDN子網域都必須包含在相同的憑證中。
+   * 從步驟3下載的CSR僅適用於data.subdomain.com。
+
+   * 不過，憑證應同時涵蓋data.subdomain.com和cdn.subdomain.com ，做為單一憑證中的主體替代名稱(SAN)專案。 例如，如果您委派example.adobe.com，則data.subdomain.com會對應至data.example.adobe.com，而cdn.subdomain.com會對應至cdn.example.adobe.com。
+
+   * 資料(data.example.adobe.com)和CDN (cdn.example.adobe.com)子網域都需要新增為相同憑證中的對等專案。
+
+   * 大部分的CA都允許您在簽署過程中新增其他SAN （例如CDN子網域）
+
+      * 透過CA入口網站（建議使用，如果有的話），或
+      * 如果入口網站選項無法使用，請手動向他們的支援團隊請求。
+
+   * 簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
+
+1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證上傳到.pem格式的[!DNL Journey Optimizer]，並附上完整的憑證鏈結。 以下是.pem檔案格式的範例：
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## 完成回饋迴路步驟 {#feedback-loop-steps}
 
@@ -122,7 +146,7 @@ ht-degree: 20%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
