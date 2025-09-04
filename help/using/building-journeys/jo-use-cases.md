@@ -8,9 +8,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
+version: Journey Orchestration
+source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '755'
 ht-degree: 9%
 
 ---
@@ -111,6 +112,52 @@ ht-degree: 9%
 <p>
 </td>
 </tr></table>
+
+## 教學影片
+
+瀏覽影片教學課程，瞭解使用Adobe Journey Optimizer建立最常見使用案例的關鍵步驟。
+
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
+    <br/>
+      <strong>客戶上線</strong><br/><p>瞭解如何在Journey Optimizer中實施客戶入門歷程。</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">觀看使用案例影片</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
+    <br/>
+      <strong>放棄的購物車</strong><br/><p>了解如何使用 Adobe Journey Optimizer 中的教戰手冊功能實作捨棄購物車使用者案例。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">觀看使用案例影片</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-content.svg" width="35px">
+    <br/>
+      <strong>重新參與</strong><br/><p>瞭解Adobe如何在資料架構師和資料工程師教學課程以及Experience Platform Web SDK教學課程中記錄的基礎實作基礎上，調整智慧型重新參與使用案例以搭配Luma示範網站使用。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">觀看使用案例影片</a> 
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>即時優惠個人化</strong><br/><p>在Adobe Journey Optimizer中使用與天氣相關的資料來提供選件，可讓企業根據即時實際的環境條件來個人化客戶體驗。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">依照逐步教學課程進行</a>
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
+      <strong>追蹤和報告透過決策傳遞的優惠</strong><br/><p>啟用透過Adobe Journey Optimizer傳送之優惠的報告和效能分析：如果優惠是根據情境訊號進行個人化和傳送，則追蹤曝光和使用者互動以評估其有效性至關重要。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">依照逐步教學課程進行</a> 
+    </td>
+    <td>
+      <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
+      <strong>使用排名公式個人化優惠</strong><br/><p>瞭解如何在Adobe Journey Optimizer中運用郵遞區號和年收入等使用者屬性，提供個人化的財務優惠方案。 透過使用排名公式，優惠方案會根據特定地點促銷活動與收入型資格進行智慧評分與優先順序。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">依照逐步教學課程進行</a> 
+    </td>
+  </tr>
+</table>
+
+另請參閱[在Adobe Journey Optimizer中將協調流程調整為全通路參與度的影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}：在六個課程中，您會學習如何將商業通訊從簡單的傳出訊息提升為精密的全通路體驗。 透過實務範例，您深入瞭解如何建立客戶歷程，將主動式外聯與回應式參與緊密結合。
+
+
 
 ## 部落格貼文
 
