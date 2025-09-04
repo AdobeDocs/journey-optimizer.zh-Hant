@@ -20,7 +20,7 @@ ht-degree: 1%
 
 以下為Adobe Journey Optimizer的疑難排解文章清單。 每個疑難排解區段都提供常見問題的解答和問題的解決方案。
 
-另請參閱[Adobe Experience Platform常見問題集和疑難排解檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}。
+另請參閱[Adobe Experience Platform常見問題集和疑難排解檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"}。
 
 ## 電子郵件管道 {#ajo-troubleshooting-email}
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 在Adobe Journey Optimizer (AJO)中，修改電子郵件標頭中的預設CSS區塊可能會導致未預期的格式問題，尤其是在移除內容片段後。 這些問題在行動裝置上較為明顯，並可能導致版面配置轉移或樣式不一致。 若要防止此情況，請使用「主題」功能安全地套用自訂CSS，而不變更系統產生的CSS樣式。
 
-請參閱[此疑難排解文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}以瞭解如何解決此問題。
+請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"}以瞭解如何解決此問題。
 
 在此頁面[上進一步瞭解電子郵件格式](../email/get-started-email-design.md)。
 
@@ -159,7 +159,7 @@ HTML片段可能無法正確顯示在電子郵件中，經常顯示為&#x200B;**
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}，以進一步瞭解此問題。
 
-在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}中。
+在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics ](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"}中。
 
 另請參閱[Journey Optimizer所有時間報表檔案](../reports/report-gs-cja.md)
 
@@ -174,7 +174,7 @@ HTML片段可能無法正確顯示在電子郵件中，經常顯示為&#x200B;**
 
 在Adobe Journey Optimizer中布建新沙箱的組織提出了存留時間(TTL)設定如何套用至設定檔和資料湖資料集的問題。 本文說明TTL設定不會影響現有沙箱，並僅自動套用至新布建的沙箱。
 
-請參閱[此疑難排解文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，瞭解如何處理TTL。
+請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}，瞭解如何處理TTL。
 
 在此頁面[上進一步瞭解資料集存留時間](../data/datasets-ttl.md)。
 
@@ -187,7 +187,7 @@ HTML片段可能無法正確顯示在電子郵件中，經常顯示為&#x200B;**
 
 Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的專案數可能低於預期的對象數。 此問題通常因名稱空間設定不正確而發生，導致設定檔被排除在歷程之外。 解決方法包含檢查和修正名稱空間設定、檢閱相關檔案，以及調整優先順序以確保在Adobe Journey Optimizer中更順暢的操作。
 
-請參閱[此疑難排解文章](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}以瞭解如何解決此問題。
+請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"}以瞭解如何解決此問題。
 
 另請參閱[這篇關於過時對象計數的文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}。
 
@@ -203,7 +203,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 在此頁面&#x200B;**的歷程**&#x200B;中進一步瞭解[更新設定檔](../building-journeys/update-profiles.md)活動。
 
-另請參閱有關資料擷取[的](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}Adobe Experience Platform檔案。
+另請參閱有關資料擷取[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}Adobe Experience Platform檔案。
 
 +++
 
@@ -215,7 +215,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 深入瞭解[此Journey Optimizer社群貼文](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}。
 
-另請參閱[Adobe Experience Platform排程API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}，以檢查您的每日工作排程時間。
+另請參閱[Adobe Experience Platform排程API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}，以檢查您的每日工作排程時間。
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 在此頁面&#x200B;**的歷程**&#x200B;中進一步瞭解[更新設定檔](../building-journeys/update-profiles.md)活動。
 
-另請參閱[Adobe Real-Time CDP設定檔檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}。
+另請參閱[Adobe Real-Time CDP設定檔檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"}。
 
 +++
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 使用[授權使用量儀表板](../audience/license-usage.md)監視您組織的授權使用量和可參與的設定檔
 
-另請參閱[Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"}。
+另請參閱[Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home?lang=en){target="_blank"}。
 
 +++
 
@@ -420,7 +420,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}以瞭解更多資訊。
 
-另請參閱[管理API認證檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}。
+另請參閱[管理API認證檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"}。
 
 +++
 
