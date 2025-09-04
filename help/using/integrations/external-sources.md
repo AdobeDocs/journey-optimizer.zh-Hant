@@ -11,9 +11,9 @@ keywords: 整合
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,25 @@ ht-degree: 1%
 * 來自建議引擎的&#x200B;**產品建議**。
 * **物流更新**&#x200B;為傳遞狀態。
 
+## Beta 限制 {#limitations}
+
+測試版有下列限制：
+
+* 僅支援傳出頻道。
+
+* API呼叫回應僅支援JSON格式。 HTML和原始二進位影像輸出無法使用。
+
+* 僅支援以特定內容為目標的擷取API，無法使用清單API。
+
+* 整合功能適用於歷程和行銷活動，但片段不支援。
+
 ## 設定您的整合 {#configure}
 
 身為管理員，您可以依照下列步驟設定外部整合：
 
 1. 導覽至左側功能表中的&#x200B;**[!UICONTROL 組態]**&#x200B;區段，然後從&#x200B;**[!UICONTROL 整合]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 管理]**。
 
-   然後，按一下[建立整合] **&#x200B;**&#x200B;以開始新的組態。
+   然後，按一下[建立整合] ****&#x200B;以開始新的組態。
 
    ![](assets/external-integration-config-1.png)
 
@@ -73,7 +85,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 無驗證]**：適用於不需要任何認證的開放API。
 
-   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、]** API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
+   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、]** API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。****
 
    * **[!UICONTROL 基本驗證]**：使用標準HTTP基本驗證。 輸入&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
 
