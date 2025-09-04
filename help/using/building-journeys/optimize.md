@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
+source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 6%
 
 ---
@@ -50,6 +50,11 @@ ht-degree: 6%
 歷程上線後，會根據定義的條件評估設定檔，並根據比對條件，將設定檔從歷程傳送至適當的路徑。
 
 ## 使用實驗 {#experimentation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_path_experiment_success_metric"
+>title="成功量度"
+>abstract="成功量度可用來追蹤和評估實驗中執行效果最佳的處理。"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
