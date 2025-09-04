@@ -2,7 +2,8 @@
 title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 4%

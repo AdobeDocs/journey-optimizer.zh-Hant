@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -29,7 +30,7 @@ ht-degree: 5%
 >
 >為此，您需要設定內建動作。 請參見[此頁面](../action/acs-action.md)。
 
-您可為這些管道中的每一個選取Adobe Campaign Standard異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須在Adobe Campaign Standard中發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)以瞭解如何使用此功能。
+您可為這些管道中的每一個選取Adobe Campaign Standard異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須在Adobe Campaign Standard中發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以瞭解如何使用此功能。
 
 >[!NOTE]
 >
@@ -53,7 +54,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->針對電子郵件使用設定檔的交易式範本時，Adobe Campaign Standard會自動處理取消訂閱機制。 若要實作，您可以在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中輕鬆加入[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)內容區塊。 不過，如果您使用以事件為基礎的範本(rtEvent)，您必須在訊息中納入連結，將收件者的電子郵件傳遞為URL引數，並將它們導向取消訂閱登入頁面。 您必須建立此登入頁面，並確保收件者的取消訂閱決定能有效地傳輸至Adobe。
+>針對電子郵件使用設定檔的交易式範本時，Adobe Campaign Standard會自動處理取消訂閱機制。 若要實作，您可以在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中輕鬆加入[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)內容區塊。 不過，如果您使用以事件為基礎的範本(rtEvent)，您必須在訊息中納入連結，將收件者的電子郵件傳遞為URL引數，並將它們導向取消訂閱登入頁面。 您必須建立此登入頁面，並確保收件者的取消訂閱決定能有效地傳輸至Adobe。
 
 首先，您需要選擇異動訊息範本。
 

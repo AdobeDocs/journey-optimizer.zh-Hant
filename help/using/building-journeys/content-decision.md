@@ -10,7 +10,8 @@ level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
