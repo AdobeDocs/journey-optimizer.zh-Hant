@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%
@@ -52,6 +52,6 @@ ht-degree: 40%
 
 ## 新增替代路徑 {#canvas-add-path}
 
-您可以為下列歷程活動定義發生錯誤時的遞補動作： **[!UICONTROL 條件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
+您可以為下列歷程活動定義發生錯誤時的遞補動作： **[!UICONTROL 最佳化]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是解決這個問題。 為避免中斷歷程，您還可以核取選項&#x200B;**[!UICONTROL 在逾時或活動屬性中的錯誤]**&#x200B;的情況下新增替代路徑。 請參閱[此章節](../building-journeys/using-the-journey-designer.md#paths)深入瞭解。
