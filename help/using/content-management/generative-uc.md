@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: f622f81e3b31ca9eb4a4ae75c4edf6a10b4b286a
+source-git-commit: 17e3c3e123415b6fb464fbf5de1ab3882a3ad73e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 3%
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 探索可用的&#x200B;**[!UICONTROL 變數]**&#x200B;並按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以全熒幕檢視選取的變數。
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中輸入您想要的請求，並視需要修改設定，以調整內容。
 
-1. 準備就緒後，按一下[產生]。**&#x200B;**
+1. 準備就緒後，按一下[產生]。****
 
 1. 檢閱產生的&#x200B;**[!UICONTROL 變數]**&#x200B;並選取&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選選項的全熒幕檢視。
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 ## 產生類似影像
 
-![](assets/do-not-localize/uc-image-similar.gif)
+<!--![](assets/do-not-localize/uc-image-similar.gif)-->
 
 1. 設定行銷活動後，選取&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 
@@ -105,7 +105,7 @@ ht-degree: 3%
 
 1. 指定要在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中產生的內容，並視需要調整設定，以精簡內容。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 檢閱&#x200B;**[!UICONTROL 變數建議]**，以找出您偏好的資產。
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示，並為您產生的內容選取所需的&#x200B;**[!UICONTROL 語言]**。
 
-1. 視需要進一步個人化您的提示，然後按一下[產生]。**&#x200B;**
+1. 視需要進一步個人化您的提示，然後按一下[產生]。****
 
 1. 以您選取的語言檢閱&#x200B;**[!UICONTROL 變數建議]**。
 
