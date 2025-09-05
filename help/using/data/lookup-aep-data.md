@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: ea40a13765be5ff603dd848df4fb02a4dbb9a426
+source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Journey Optimizer可讓您透過個人化和決策功能，運用Adobe Experienc
 
 ### 查閱服務的權益
 
-| 功能元件 | 生產沙箱限制 | 附註 |
+| 功能元件 | 限制 | 附註 |
 | ------- | ------- | ------- |
 | 啟用查閱資料集 | 每個組織最多10個 | 可於指定時間設定查閱的資料集數目上限。 此限制適用於客戶執行個體內生產及開發沙箱中的查閱資料集總合併數量。 |
 | 資料集記錄計數 | 每個資料集最多200萬筆記錄 | 單一資料集中允許的最大記錄數，以該資料集中所有批次的總數來計算。 |
