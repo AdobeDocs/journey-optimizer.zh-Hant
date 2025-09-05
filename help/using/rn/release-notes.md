@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 152ff131334b5ad62df3e63e4ad529950f522f5a
+source-git-commit: c6179566226331d2169c3abc50a069262db80d85
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 70%
+source-wordcount: '2011'
+ht-degree: 69%
 
 ---
 
@@ -83,6 +83,12 @@ ht-degree: 70%
 </tr>
 </tbody>
 </table>
+
+### 功能改善 {#Sept-25-8-improv}
+
+* **管理**
+
+  **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
 
 ## 2025年8月發行說明 {#25-8-rn}
 
