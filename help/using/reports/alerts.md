@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 0%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-1. 您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱警示。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+1. 您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱警示。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 1. 如果發生非預期的行為，和/或您的作業達到特定條件集（例如系統違反臨界值時會發生潛在問題），警示通知會傳送給組織中訂閱這些通知的任何使用者。
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 >
 >依預設，僅啟用應用程式內警報。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 警報解決後，訂閱者會收到「已解決」通知。
 
@@ -173,50 +173,50 @@ ht-degree: 1%
 
 如果變更無法解決問題，第二天將再次觸發相同的警報。
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### AJO通道設定失敗 {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>此警示僅適用於使用&#x200B;**自訂子網域**&#x200B;委派型別的[電子郵件](../configuration/delegate-custom-subdomain.md)通道設定。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+如果系統稽核偵測到電子郵件通道設定問題，則會觸發此警報。 這些問題可能包括設定錯誤的通道設定、無效的DNS設定、隱藏清單問題、IP不一致或任何其他可能影響電子郵件傳送的錯誤。
 
-If you receive such an alert, the resolution steps are listed below:
+如果您收到這類警示，解析步驟如下所示：
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. 按一下警示以導向至[介面中受影響的](../email/get-started-email-config.md)電子郵件通道設定[!DNL Journey Optimizer]。
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   如需編輯頻道設定的指南，請參閱[本節](../configuration/channel-surfaces.md#edit-channel-surface)。
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. 檢閱提供的設定詳細資料和錯誤訊息。 常見的失敗原因包括：
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * SPF驗證失敗
+   * DKIM驗證失敗
+   * MX記錄驗證失敗
+   * 無效的DNS記錄
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >可能組態失敗的原因列於[此區段](../configuration/channel-surfaces.md)中。
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. 解決問題：
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * 視需要更新頻道設定。
+   * 您可能需要修正警報中提到的特定DNS問題。
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >由於單一網域可與多個管道設定相關聯，針對一個管道設定解決DNS問題可能會自動修復多個設定中的相關問題。
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+如果變更無法解決問題，第二天將再次觸發相同的警報。
+
+解決電子郵件設定問題時，請牢記以下列出的最佳實務：
+
+* 立即行動 — 一偵測到設定失敗就立即處理它們，以避免電子郵件傳送中斷。
+* 檢查所有設定 — 如果警報指出多個受影響的電子郵件設定，請檢視並修正每個設定。
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
