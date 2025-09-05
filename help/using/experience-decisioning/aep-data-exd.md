@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 24%
+source-wordcount: '1070'
+ht-degree: 19%
 
 ---
 
@@ -35,27 +35,45 @@ ht-degree: 24%
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。
 
-開始之前，必須先啟用查詢個人化所需的資料集以進行查詢。 本節提供詳細資訊： [使用Adobe Experience Platform資料](../data/lookup-aep-data.md)。
+>[!IMPORTANT]
+>
+>[!DNL Journey Optimizer]支援單一決定原則最多1000個查詢。
 
-## 護欄和限制 {#guidelines}
+## 先決條件
 
-開始之前，請注意下列限制和准則：
+### 啟用資料集以供查詢
 
-* 一個決定原則最多可以參考3個資料集，涵蓋其所有決定規則和排名公式的總和。 例如，如果規則使用2個資料集，則公式只能使用1個額外的資料集。
-* 一個決定規則可以使用3個資料集。
-* 排名公式可以使用3個資料集。
-* 評估決定原則時，系統將總共執行最多1000個資料集查詢（查詢）。 決策專案使用的每個資料集對應都會計為一個查詢。 範例：如果決定專案使用2個資料集，評估該選件時會計為2個查詢，以達到1000個查詢的限制。
+開始之前，必須先啟用決策所需的資料集以進行查詢。 請依照本節詳述的步驟操作： [使用Adobe Experience Platform資料](../data/lookup-aep-data.md)。
+
+### 建立對應
+
+為了使用Adobe Experience Platform的屬性來做出決策，您需要建立對應來定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料結合。 若要這麼做，請依照以下步驟進行：
+
+1. 導覽至&#x200B;**[!UICONTROL 目錄]** / **[!UICONTROL 資料集查詢]**，然後按一下&#x200B;**[!UICONTROL 建立]**。
+
+   ![](assets/exd-lookup-mapping.png)
+
+1. 設定對應：
+
+   1. 按一下「**[!UICONTROL 選取資料集]**」以顯示所有已啟用查閱的Adobe Experience Platform。 選取具有所需屬性的資料集。
+
+   1. 按一下&#x200B;**[!UICONTROL 選取索引鍵]**&#x200B;以選擇存在於決定專案屬性和資料集中的加入索引鍵（例如，航班號碼或客戶ID）。
+
+   ![](assets/exd-lookup-mapping-create.png)
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 善用Adobe Experience Platform資料 {#leverage-aep-data}
 
-資料集啟用查閱後，您可使用其屬性，以外部資料擴充您的決策邏輯。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。
+在資料集啟用查閱並建立對應後，您就可以使用該資料以透過外部資料擴充您的決策邏輯。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。
 
 來自Adobe Experience Platform資料集的屬性可用於決定邏輯的兩個部分：
 
 * **決定規則**：定義決定專案是否符合顯示條件。
 * **排名公式**：根據外部資料排定決策專案的優先順序。
+* **上限規則**：使用外部資料來計算上限規則的臨界值。
 
-下一節將說明如何在兩個內容中使用Adobe Experience Platform資料。
+下一節將說明如何在這些內容中使用Adobe Experience Platform資料。
 
 ### 決定規則 {#rules}
 
@@ -69,16 +87,9 @@ ht-degree: 24%
 
    ![](assets/exd-lookup-rule.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立對應]**&#x200B;以定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料聯結。
+1. 按一下&#x200B;**[!UICONTROL 新增資料集]**，然後選取含有您所需屬性的資料集。
 
-   * 選取具有所需屬性的資料集。
-   * 選擇同時存在於決定專案屬性和資料集中的加入金鑰（例如產品ID或商店ID）。
-
-   ![](assets/exd-lookup-mapping.png)
-
-   >[!NOTE]
-   >
-   >每個規則最多可建立3個對應。
+   ![](assets/exd-lookup-select-dataset.png)
 
 1. 按一下&#x200B;**[!UICONTROL 繼續]**。 您現在可以在&#x200B;**[!UICONTROL 資料集查閱]**&#x200B;功能表中存取資料集屬性，並在規則條件中使用這些屬性。 [瞭解如何建立決定規則](../experience-decisioning/rules.md#create)
 
@@ -92,19 +103,54 @@ ht-degree: 24%
 
 若要將Adobe Experience Platform資料用於排名公式，請執行下列步驟：
 
-1. 建立或編輯排名公式。 在&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 建立對應]**。
+1. 建立或編輯排名公式。
 
-1. 定義資料集對應：
+1. 在&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增資料集]**。
 
-   * 選取適當的資料集（例如，航班的座位可用性）。
-   * 選擇同時存在於決定專案屬性和資料集中的加入索引鍵（例如航班號碼或客戶ID）。
+1. 選取適當的資料集。
 
-   ![](assets/exd-lookup-formula-mapping.png)
+   ![](assets/exd-lookup-formula-dataset.png)
 
    >[!NOTE]
    >
-   >您最多可以為每個排名公式建立3個對應。
+   >如果您要尋找的資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。 如需詳細資訊，請參閱[必要條件](#prerequisites)區段。
 
 1. 照常使用資料集欄位來建立排名公式。 [瞭解如何建立排名公式](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)
+
+### 上限規則 {#capping-rules}
+
+上限規則用作限制，以定義可顯示決定專案的最大次數。 在上限規則中使用Adobe Experience Platform資料，可讓您根據動態的外部屬性來定義上限條件。 這是透過在上限規則中使用運算式來計算所需的上限臨界值來完成的。
+
+例如，retailer可能會想要根據即時產品詳細目錄來限制優惠方案。 他們使用參照Adobe Experience Platform資料集中`inventory_count`欄位的運算式，而不是設定500的固定臨界值。 如果資料集顯示275個專案仍有庫存，則選件最多只會傳送該數字。
+
+>[!NOTE]
+>
+>上限規則&#x200B;**運算式**&#x200B;目前是所有使用者的有限可用性功能，僅支援&#x200B;**[!UICONTROL 總共]**&#x200B;個上限型別。
+
+若要使用Adobe Experience Platform資料來設定規則運算式的上限，請遵循下列步驟：
+
+1. 建立或編輯決定專案。
+
+1. 定義專案適用性時，請按一下&#x200B;**[!UICONTROL 新增資料集]**&#x200B;並選取適當的資料集。
+
+   ![](assets/exd-lookup-capping.png)
+
+   >[!NOTE]
+   >
+   >如果您要尋找的資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。 如需詳細資訊，請參閱[必要條件](#prerequisites)區段。
+
+1. 選取&#x200B;**[!UICONTROL In總計]**&#x200B;上限型別，然後啟用&#x200B;**[!UICONTROL 運算式]**&#x200B;選項。
+
+   ![](assets/exd-lookup-capping-expression.png)
+
+   >[!NOTE]
+   >
+   >如果您要尋找的資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。 如需詳細資訊，請參閱[必要條件](#prerequisites)區段。
+
+1. 編輯運算式，並使用資料集欄位來建置運算式。
+
+   ![](assets/exd-lookup-capping-attribute.png)
+
+1. 照常完成上限和規則決定專案的設定。 [瞭解如何設定上限規則](../experience-decisioning/items.md#capping)

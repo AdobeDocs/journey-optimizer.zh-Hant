@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 69%
+source-wordcount: '2051'
+ht-degree: 68%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 69%
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2025年9月更新 {#sep-updates}
+
+### 全新功能 {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 69%
 <li>「datasetLookup」協助程式函式現在可用於運算式片段中。</li>
 <li>資料集管理介面中的選項現在可讓您啟用以記錄為基礎的資料集，以進行查詢個人化，而無需執行API呼叫。</li>
 <li>增強的監控功能，可追蹤資料擷取狀態，並瞭解資料集何時準備好進行查詢。</li>
-<li>更新使用指南和護欄，確保最佳效能和可靠性。</li></ul></p>
+<li>更新使用指南和護欄，確保最佳效能和可靠性。</li>
+<li>現在可以在決策上限規則中利用Adobe Experience Platform資料集。</li></ul></p>
 <p>如需詳細資訊，請參閱<a href="../data/lookup-aep-data.md">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 1 日</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 69%
 </tbody>
 </table>
 
-### 功能改善 {#Sept-25-8-improv}
+### 功能改善 {#Sep-25-improv}
+
+* **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
 
 * **管理**
 
