@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 140a3fe77cea73d1ab1ecb3a13ef81a29e73b08a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 4%
+source-wordcount: '188'
+ht-degree: 3%
 
 ---
 
@@ -25,12 +25,15 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hant#available-permissions){target="_blank"}許可權。
+>* 若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}許可權。
+>
+>* 如配額欄中的`N/A`所指示，某些量度（例如計算時數、電子郵件）不會顯示給開發沙箱。 控制面板中只會顯示非null的值：當量度為零或接近零時，系統不會填入量度。
+
 
 對於[!DNL Adobe Journey Optimizer]，儀表板可讓您檢查&#x200B;**可參與的設定檔**&#x200B;的數量。 可參與的設定檔是代表個人的資訊記錄，並儲存在設定檔服務中。 這些記錄是您在過去12個月中，嘗試使用Journey Optimizer的編寫、決策、傳送、實驗或協調功能所使用的設定檔。
 
 在Adobe Experience Platform檔案中進一步瞭解：
 
-* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant){target="_blank"}
-* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#exploring-the-license-usage-dashboard){target="_blank"}
+* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用的量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#available-metrics){target="_blank"}
