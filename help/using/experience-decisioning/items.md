@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 12%
@@ -124,7 +124,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 >[!NOTE]
 >
->此功能目前以「有限可用性」的形式向所有使用者提供。 有關如何使用的詳細資訊，請參閱本節： [使用Adobe Experience Platform資料進行決策](../experience-decisioning/aep-data-exd.md)
+>此功能目前以有限可用性的形式提供給所有使用者。 有關如何使用的詳細資訊，請參閱本節： [使用Adobe Experience Platform資料進行決策](../experience-decisioning/aep-data-exd.md)
 
 若要設定決定專案的上限規則，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，然後遵循以下詳細步驟。
 

@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2063'
 ht-degree: 68%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 68%
 ### 功能改善 {#Sep-25-improv}
 
 * **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
+
+  >[!NOTE]
+  >
+  >此功能目前以有限可用性的形式提供給所有使用者。
 
 * **管理**
 
