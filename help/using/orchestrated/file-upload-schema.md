@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 58%
+source-wordcount: '1041'
+ht-degree: 52%
 
 ---
 
@@ -39,6 +39,19 @@ ht-degree: 58%
 
 * **列舉**\
   以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
+其範例如下：
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * 資料控管的&#x200B;**結構描述標籤**\
   架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
@@ -61,9 +74,10 @@ ht-degree: 58%
 1. 選取&#x200B;**[!UICONTROL 匯入 DDL 檔案]**，以便定義實體關係圖，同時建立結構描述。
 
    表格結構必須包含以下元素：
-   * 至少有單一主索引鍵
+   * 至少一個主索引鍵。
    * 版本識別碼，例如`lastmodified`欄位類型`datetime`或`number`。
-   * 針對變更資料擷取(CDC)擷取，為名為`_change_request_type`且型別為`String`的特殊欄，其指示資料變更的型別（例如，插入、更新、刪除）並啟用增量處理
+   * 針對變更資料擷取(CDC)擷取，為名為`_change_request_type`且型別為`String`的特殊欄，其指示資料變更的型別（例如，插入、更新、刪除）並啟用增量處理。
+   * DDL檔案所定義的資料表不能超過200個。
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ ht-degree: 58%
 
 1. 設定每個結構描述及欄位，確定已指定主索引鍵。
 
-   必須指定單一屬性，例如`lastmodified`，做為版本描述項。這個屬性通常是`datetime`、`long`或`int`類型，為內嵌程式所必須，確保資料集完成最新資料版本更新。
+   必須將一個屬性（例如`lastmodified`）指定為版本描述項（型別`datetime`、`long`或`int`），以確保資料集以最新資料更新。 使用者可以變更版本描述項，一旦設定，該描述項就成為必要。 屬性不能同時是主索引鍵(PK)和版本描述項。
 
    ![](assets/admin_schema_2.png)
+
+1. 將屬性標示為`identity`並將它對應到定義的身分名稱空間。
+
+1. 重新命名、刪除或新增說明至每個表格。
 
 1. 完成後，請按一下&#x200B;**[!UICONTROL 完成]**。
 
@@ -94,6 +112,10 @@ ht-degree: 58%
 1. 存取資料模式的畫布視圖，然後選擇您想連結的兩個表格
 
 1. 按一下來源聯結旁的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)按鈕，然後拖放並導引箭頭朝向目標聯結，以便建立連線。
+
+   >[!NOTE]
+   >
+   >如果在DDL檔案中定義複合金鑰，則支援複合金鑰。
 
    ![](assets/admin_schema_5.png)
 
@@ -157,7 +179,7 @@ ht-degree: 58%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 
