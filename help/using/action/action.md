@@ -49,4 +49,4 @@ ht-degree: 46%
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430271?quality=12&captions=chi_hant)

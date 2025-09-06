@@ -52,7 +52,7 @@ Benefits
 
 了解如何建立和執行 IP 暖身計劃。
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453851/?learn=on&captions=chi_hant)
 
 >[!NOTE]
 >
