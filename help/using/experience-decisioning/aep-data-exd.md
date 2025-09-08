@@ -10,24 +10,39 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 19%
+source-wordcount: '1132'
+ht-degree: 7%
 
 ---
 
 # 使用 Adobe Experience Platform 資料進行決策 {#aep-data}
 
 >[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset"
+>title="資料集查詢
+>abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_catalogs_dataset_create"
+>title="資料集查詢"
+>abstract="從所有已啟用查閱的Adobe Experience Platform資料集中選取具有所需屬性的資料集，然後選取同時存在於決策專案屬性和資料集中的對應索引鍵（例如航班號碼或客戶ID）。」
+
+>[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="資料集查詢"
->abstract="在決策規則中使用 Adobe Experience Platform 資料可讓您根據動態的外部屬性來定義適用性條件，確保決策項目只會在相關時顯示。建立對應來定義 Adobe Experience Platform 資料集如何與 [!DNL Journey Optimizer] 中的資料聯結。選取具有所需屬性的資料集，並選擇決策項目屬性和資料集中都存在的聯結索引鍵。"
+>abstract="選取包含所需屬性的Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="資料集查詢"
->abstract="排名公式定義了決策項目的優先等級。透過使用 [!DNL Adobe Experience Platform] 資料集屬性，您就能動態地調整排名邏輯以反映現實世界的情況。建立對應來定義 Adobe Experience Platform 資料集如何與 [!DNL Journey Optimizer] 中的資料聯結。選取具有所需屬性的資料集，並選擇決策項目屬性和資料集中都存在的聯結索引鍵"
+>abstract="使用[!DNL Adobe Experience Platform]資料集屬性來動態調整排名邏輯，以反映真實世界的狀況。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_dataset"
+>title="新增資料集」
+>abstract="使用[!DNL Adobe Experience Platform]個資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已將其啟用以供查詢，並已建立資料集查詢對應。」
 
 >[!AVAILABILITY]
 >
@@ -55,7 +70,7 @@ ht-degree: 19%
 
 1. 設定對應：
 
-   1. 按一下「**[!UICONTROL 選取資料集]**」以顯示所有已啟用查閱的Adobe Experience Platform。 選取具有所需屬性的資料集。
+   1. 按一下&#x200B;**[!UICONTROL 選取資料集]**&#x200B;以顯示已啟用查閱的所有Adobe Experience Platform資料集。 選取具有所需屬性的資料集。
 
    1. 按一下&#x200B;**[!UICONTROL 選取索引鍵]**&#x200B;以選擇存在於決定專案屬性和資料集中的加入索引鍵（例如，航班號碼或客戶ID）。
 

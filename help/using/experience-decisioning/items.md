@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2186'
 ht-degree: 12%
 
 ---
@@ -108,6 +108,11 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。 例如，適用性規則要求目前天氣為≥80度。
 
 ## 設定上限規則 {#capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="運算式"
+>abstract="與其使用靜態值作為上限臨界值，您可以定義自己的運算式。 這可讓您使用決定屬性和/或Adobe Experience Platform資料集中的外部屬性，以動態方式計算臨界值。<br/><br/>上限規則&#x200B;**運算式**&#x200B;目前僅供所有使用者使用。 只有&#x200B;**[!UICONTROL 總計]**&#x200B;個上限型別才支援它們。"
 
 上限會用作限制，以定義優惠方案專案可顯示的最大次數。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。 您最多可以為特定決定專案建立10個上限。
 
