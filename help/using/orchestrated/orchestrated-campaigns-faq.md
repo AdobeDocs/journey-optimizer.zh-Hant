@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
+source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,12 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 ## 協調的行銷活動與歷程有何不同？ {#oc-vs-journeys}
 
-* **協調的行銷活動**：最適合&#x200B;**批次、一對多**&#x200B;行銷活動。 整個對象會在行銷活動畫布中一起移動。
+* **協調的行銷活動**：最適合&#x200B;**批次、一對多**&#x200B;行銷活動。 對象會依排程大量進度。
 * **歷程**：最適合&#x200B;**即時、一對一**&#x200B;參與。 每位客戶都會以自己的速度在歷程中移動，由行為或事件觸發。
 
 >[!BEGINSHADEBOX]
 
-**秘訣** — 許多組織會同時使用&#x200B;**兩者** — 用於觸發、反應式體驗的歷程，以及用於計畫、日曆型方案的協調行銷活動。
+**最佳實務**：搭配使用 — 針對已觸發、回應式體驗的歷程，以及針對已規劃、日曆型方案的協調行銷活動。
 
 >[!ENDSHADEBOX]
 
@@ -160,7 +160,7 @@ Adobe Journey Optimizer中的Campaign Orchestration使用關聯式資料庫。 �
 
 ## 這是否支援決策？ {#decisioning}
 
-目前，決策功能並不使用來自協調行銷活動的關聯式資料。
+可以。決策功能可使用來自協調行銷活動的關聯式資料。 關聯式結構描述與XDM結構描述連線後，XDM資料便可用於決策中。
 
 ## 跨環境的部署如何運作？ {#deployment}
 
