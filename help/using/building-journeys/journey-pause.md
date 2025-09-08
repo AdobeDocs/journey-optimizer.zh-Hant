@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2429'
 ht-degree: 6%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 6%
 >abstract="暫停上線的歷程以防止新輪廓進入。選擇是否捨棄目前在歷程當中的輪廓或予以保留。若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
 您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
-
-
 
 ## 主要優點 {#journey-pause-benefits}
 
@@ -91,6 +89,9 @@ ht-degree: 6%
 | [更新設定檔](update-profiles.md)與[跳轉](jump.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [外部資料Source](../datasource/external-data-sources.md) | 與即時歷程中的行為相同 |
 | [退出條件](journey-properties.md#exit-criteria) | 與即時歷程中的行為相同 |
+
+
+在[本節](#discards-troubleshoot)中瞭解如何疑難排解捨棄。
 
 ## 如何繼續暫停的歷程 {#journey-resume-steps}
 
@@ -195,3 +196,50 @@ ht-degree: 6%
 
 1. 全新的歷程入口在一分鐘內開始。
 1. 目前在&#x200B;**動作**&#x200B;活動上等待歷程的設定檔會以5k tps的速率繼續。 接著，他們就可以進入等待的&#x200B;**動作**，然後繼續歷程。
+
+## 疑難排解暫停歷程中的設定檔捨棄  {#discards-troubleshoot}
+
+您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+
+* 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  這將列出在歷程進入點發生的捨棄：
+
+   1. 當對象歷程正在執行且第一個節點仍在處理時，如果歷程已暫停，則會捨棄所有未處理的設定檔。
+
+   1. 當新的單一事件在歷程暫停時到達開始節點（以觸發入口）時，事件會被捨棄。
+
+* 對於在設定檔已位於歷程中時發生的捨棄，請使用下列程式碼：
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  此命令會列出設定檔在歷程中時發生的捨棄專案：
+
+   1. 如果歷程暫停，並啟用捨棄選項，而且設定檔已在暫停前輸入，則當該設定檔到達下一個動作節點時，將會捨棄該設定檔。
+
+   1. 如果歷程在選取保留選項的情況下暫停，但設定檔因超過1000萬配額而被捨棄，則這些設定檔在到達下一個動作節點時仍會被捨棄。
+
+
+

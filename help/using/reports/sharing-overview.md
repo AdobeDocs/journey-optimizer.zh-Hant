@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '518'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
 >
 >無法為即時設定檔服務開啟資料集。 請確定&#x200B;**[!UICONTROL 設定檔]**&#x200B;切換功能已關閉。
 
-[!DNL Journey Optimizer]會以串流方式在資料發生時傳送資料。 您可以使用查詢服務來查詢此資料。 您可以連線至Customer Journey Analytics或其他BI工具，以檢視與這些步驟相關的資料。
+[!DNL Journey Optimizer]會在資料發生時傳送資料，以串流方式進行。 您可以使用查詢服務來查詢此資料。 您可以連線至Customer Journey Analytics或其他BI工具，以檢視與這些步驟相關的資料。
 
 將建立下列結構描述：
 
@@ -69,6 +69,6 @@ ht-degree: 4%
 
 * [!DNL Customer Journey Analytics]內嵌「歷程步驟事件」資料集。
 * 關聯的「Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在[!DNL Customer Journey Analytics]中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
-* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hant){target="_blank"}。
+* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}

@@ -4,9 +4,9 @@ description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程�
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 19%
 
 ---
@@ -113,8 +113,8 @@ ht-degree: 19%
 
 ![](assets/journey-report.png)
 
-此外，您也可以利用Adobe Experience Platform **查詢服務**&#x200B;來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 [此區段](../reports/query-examples.md#common-queries)中有查詢範例。
+此外，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 [此區段](../reports/query-examples.md#common-queries)中有查詢範例。
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447626?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
