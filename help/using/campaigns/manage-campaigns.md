@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 16%
+source-wordcount: '1772'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 * **存取行銷活動**。 您可以從[行銷活動清單](#access)或[行銷活動行事曆](#calendar)存取行銷活動。
 
-* **建立行銷活動**。 建立步驟取決於您建立的[行銷活動型別](get-started-with-campaigns.md#get-started-with-campaigns)。 瞭解如何建立[動作行銷活動](../campaigns/create-campaign.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)，或[協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)。
+* **建立行銷活動**。 建立步驟取決於[行銷活動型別](get-started-with-campaigns.md#get-started-with-campaigns)。 瞭解如何建立[動作行銷活動](../campaigns/create-campaign.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)，或[協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)。
 
 * **定義行銷活動屬性**。 瞭解如何為[動作行銷活動](../campaigns/campaign-properties.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaign-properties.md)或[協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)設定屬性。
 
@@ -53,7 +53,7 @@ ht-degree: 16%
 >title="動作"
 >abstract="本節列出在協調式行銷活動中使用的所有動作。"
 
-可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。
+可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。 使用索引標籤來瀏覽行銷活動，依型別： **動作**&#x200B;行銷活動、**API觸發**&#x200B;行銷活動，以及&#x200B;**已協調**&#x200B;行銷活動。 深入瞭解[行銷活動型別](get-started-with-campaigns.md#get-started-with-campaigns)。 可用的型別取決於您的授權合約和許可權。
 
 >[!BEGINTABS]
 
