@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ ht-degree: 100%
 
    * **行銷活動詳細目錄重組** — 排程和 API 觸發的行銷活動現在分割為行銷活動詳細目錄中的個別索引標籤，以便更輕鬆導覽和管理。
 
-[閱讀全文](../campaigns/modify-stop-campaign.md)
+[閱讀全文](../campaigns/manage-campaigns.md)
 
 * **資料管理**
    * **決策管理系統資料集更新** — 已刪除的個人化和遞補優惠現在在「decision_object_repository_personalized_offers」和「decision_object_repository_fallback_offers」資料集中標示為已封存。資料集中的現有記錄不會變更。
@@ -423,7 +423,7 @@ ht-degree: 100%
 <p>歷程和行銷活動清單中，目前只有提供行事曆視圖。 行事曆視圖讓您可以透過視覺化方式，呈現個別清單中的所有歷程，同時啟用行銷活動。</p>
 <p>目前此變更只限開放給部分組織使用 (有限可用性)。若想請求存取權，請使用<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">這份表單</a>。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>如需詳細資訊，請參閱下列區段：<a href="../building-journeys/journey-ui.md">瀏覽並篩選您的歷程</a>、<a href="../campaigns/modify-stop-campaign.md">存取行銷活動</a>。</p>
+<p>如需詳細資訊，請參閱下列區段：<a href="../building-journeys/journey-ui.md">瀏覽並篩選您的歷程</a>、<a href="../campaigns/manage-campaigns.md">存取行銷活動</a>。</p>
 <p>推出日期：2025 年 5 月 28 日</p>
 </td>
 </tr>

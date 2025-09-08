@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 行銷活動
 description: 行銷活動
 redpen-status: CREATED_||_2025-08-11_20-28-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
-
 
 # 行銷活動{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用行銷活動
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 存取及管理行銷活動
 
 探索如何存取、管理、修改或封存行銷活動，以及探索行銷活動行事曆檢視。
 
-[瞭解如何管理行銷活動](../using/campaigns/modify-stop-campaign.md)
+[瞭解如何管理行銷活動](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 動作行銷活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 由 API 觸發的行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer中的行銷活動可讓您跨管道提供個人化、及
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 協調的行銷活動
 

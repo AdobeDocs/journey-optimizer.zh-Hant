@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 **行銷活動**
 
-* 您現在可以封存已完成和已停止的行銷活動。 [了解更多](../campaigns/modify-stop-campaign.md#archive)
+* 您現在可以封存已完成和已停止的行銷活動。 [了解更多](../campaigns/manage-campaigns.md#archive)
 
 
 ## 2022 年 9 月發行版本{#sept-2022-release}

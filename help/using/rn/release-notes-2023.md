@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -82,7 +82,7 @@ ht-degree: 100%
 **行銷活動**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。[了解更多](../campaigns/modify-stop-campaign.md#statuses)
+* 當您的其中一個行銷活動發生錯誤時，警告圖示現在會與行銷活動的狀態一起出現在行銷活動清單中。[了解更多](../campaigns/manage-campaigns.md#statuses)
 
 **歷程**
 
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **行銷活動**
 
-* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。 [閱讀全文](../campaigns/modify-stop-campaign.md#duplicate)
+* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。 [閱讀全文](../campaigns/manage-campaigns.md#duplicate)
 * 您現在可以刪除即時行銷活動的草稿修改。
-* 啟用行銷活動的步驟現已簡化。 [閱讀全文](../campaigns/modify-stop-campaign.md)
+* 啟用行銷活動的步驟現已簡化。 [閱讀全文](../campaigns/manage-campaigns.md)
 
 **決策管理**
 
