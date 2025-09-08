@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2899'
 ht-degree: 99%
 
 ---
@@ -541,6 +541,9 @@ ht-degree: 99%
       + [內容實驗](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [開始使用內容實驗](using/content-management/get-started-experiment.md)
       + [建立內容實驗](using/content-management/content-experiment.md)
+      + 實驗加速器 {#experiment}
+         + [開始使用實驗加速器](using/content-management/experiment-accelerator.md)
+         + [實驗加速器監視器](using/content-management/experiment-accelerator-monitor.md)
       + 技術說明 {#technotes}
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
