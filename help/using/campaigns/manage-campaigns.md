@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -37,11 +37,6 @@ ht-degree: 15%
 
 
 ## 存取行銷活動 {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="行銷活動清單和行事曆視圖"
->abstract="除了行銷活動清單之外，[!DNL Journey Optimizer] 還提供行銷活動的行事曆視圖，以清晰的視覺化方式呈現排程。您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ ht-degree: 15%
 
 顯示行銷活動詳細目錄的![影像](assets/inventory-actions.png)
 
-* **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。
-* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。
-* **[!UICONTROL 複製]** — 在某些情況下，您可能需要複製行銷活動，例如執行已停止的協調行銷活動。
-* **[!UICONTROL 刪除]** — 刪除行銷活動。此動作僅適用於&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
-* **[!UICONTROL 封存]** — 封存行銷活動。所有已封存的行銷活動都會在其上次修改日期後的 30 天內，以滾動重新排程方式刪除。此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。
+* **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。 深入瞭解[行銷活動報告](../reports/campaign-global-report-cja.md)。
+* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 瞭解如何在行銷活動中[使用標籤](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL 複製]** — 使用此選項來複製行銷活動，例如，執行已停止的協調行銷活動。 [了解更多](#duplicate-a-campaign)
+* **[!UICONTROL 刪除]** — 使用此選項刪除行銷活動。 [了解更多](#delete-a-campaign)
+* **[!UICONTROL 封存]** — 封存行銷活動。所有已封存的行銷活動都會在其上次修改日期後的 30 天內，以滾動重新排程方式刪除。此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。 深入瞭解[行銷活動封存](#archive-a-campaign)。
 
 針對「動作」和API觸發的行銷活動，可使用下列其他動作：
 
-* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 瞭解如何[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
 ## 行銷活動生命週期 {#statuses}
@@ -154,6 +149,11 @@ ht-degree: 15%
 ![](assets/campaign-alerts.png)
 
 ## 行銷活動行事曆 {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="行銷活動清單和行事曆視圖"
+>abstract="除了行銷活動清單之外，[!DNL Journey Optimizer] 還提供行銷活動的行事曆視圖，以清晰的視覺化方式呈現排程。您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
 
 除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。
 
@@ -244,3 +244,23 @@ ht-degree: 15%
 ![](assets/create-campaign-archive.png)
 
 接著，您可以使用清單中的專用篩選器來擷取已封存的行銷活動。
+
+
+## 刪除行銷活動 {#delete}
+
+若要刪除行銷活動，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取&#x200B;**[!UICONTROL 刪除]**。
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>此選項僅適用於&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
+
+
+## 複製行銷活動 {#duplicate}
+
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
+
+輸入行銷活動的名稱並進行確認。
+
+行銷活動會建立並新增至行銷活動清單。

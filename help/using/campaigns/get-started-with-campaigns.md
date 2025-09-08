@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '750'
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="**排程的行銷活動**&#x200B;會立即執行或在指定的日期執行，其目的在傳送行銷類型訊息。**API 觸發的**&#x200B;行銷活動是使用 API 呼叫執行的。這些目的是傳送行銷訊息 (需要使用者同意的促銷訊息) 或交易型訊息 (非商業訊息，也可以在特定情況下傳送到取消訂閱的輪廓)。"
+>abstract="選取行銷活動的型別。 可用的管道會依選取的型別而有所不同。 <br>**排程行銷活動** （動作行銷活動） — 適用於可以排程在特定時間執行的簡單、一次性批次通訊。<br>**API觸發的行銷活動** — 透過API呼叫啟動，可直接從外部系統啟用自動化、事件型傳訊。<br>**協調的行銷活動** — 提供視覺化的拖放畫布，以設計和自動化複雜的多步驟行銷工作流程，從對象細分到跨管道的個人化訊息傳遞。"
 
 使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定客群。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
