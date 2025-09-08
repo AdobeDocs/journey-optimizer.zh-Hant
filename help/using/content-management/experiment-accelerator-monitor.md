@@ -10,9 +10,9 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -64,6 +64,8 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 ![](assets/experiment-monitor-outcome.png)
 
+**[!UICONTROL 實驗結果]**&#x200B;可讓您快速檢視實驗中的成功變數。
+
 ### 設定 {#set-up}
 
 ![](assets/experiment-monitor-hypothesis.png)
@@ -112,7 +114,7 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 * **[!UICONTROL 對象]**：實驗期間鎖定的已定義使用者區段。
 
-## 機會 {#opportunities}
+### 機會 {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 >Experimentation Insights功能僅限於文字型變更的實驗。
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL 實驗深入分析]**&#x200B;是從此實驗衍生的AI產生的學習。 當實驗達到統計顯著性並提供促使其成功的內容理解時，這些見解將變為可用。 它們會醒目提示成功處理中呈現的關鍵屬性（與控制項不同），而可能影響結果。
 
