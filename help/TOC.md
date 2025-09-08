@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
+source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 99%
+source-wordcount: '2917'
+ht-degree: 98%
 
 ---
 
@@ -350,6 +350,7 @@ ht-degree: 99%
          + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
+      + [開始使用應用程式內訊息](using/in-app/get-started-in-app.md)
       + [應用程式內管道先決條件](using/in-app/inapp-configuration.md)
       + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
