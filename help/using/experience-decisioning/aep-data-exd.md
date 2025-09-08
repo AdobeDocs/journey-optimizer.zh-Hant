@@ -21,13 +21,13 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="資料集查詢
+>title="資料集查詢"
 >abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="資料集查詢"
->abstract="從所有已啟用查閱的Adobe Experience Platform資料集中選取具有所需屬性的資料集，然後選取同時存在於決策專案屬性和資料集中的對應索引鍵（例如航班號碼或客戶ID）。」
+>abstract="從所有已啟用查閱的Adobe Experience Platform資料集中選取具有所需屬性的資料集，然後選取同時存在於決策專案屬性和資料集中的對應索引鍵（例如航班號碼或客戶ID）。」"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -41,8 +41,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="新增資料集」
->abstract="使用[!DNL Adobe Experience Platform]個資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已將其啟用以供查詢，並已建立資料集查詢對應。」
+>title="新增資料集」"
+>abstract="使用[!DNL Adobe Experience Platform]個資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已將其啟用以供查詢，並已建立資料集查詢對應。」"
 
 >[!AVAILABILITY]
 >
