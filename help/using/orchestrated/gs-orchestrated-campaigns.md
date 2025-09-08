@@ -6,10 +6,10 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,13 @@ ht-degree: 92%
 <tr style="border: 0;">
 <td><img alt="多步驟行銷活動工作流程" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>多步驟行銷活動工作流程</b><br/>設計多步驟行銷活動，涵蓋每日訊息到複雜的行銷活動，例如季節性促銷活動或主要產品發佈。</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
+>
+>可用的通道因您的授權模式及附加元件而異。
 
 ## 協調的行銷活動與歷程
 

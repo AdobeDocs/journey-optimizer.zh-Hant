@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 35%
+source-wordcount: '816'
+ht-degree: 34%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 35%
 
 使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取訊息的頻道設定，再設定其他設定，例如追蹤、內容實驗或多語言內容。
 
+
+
 1. **選擇頻道**
 
    導覽至&#x200B;**[!UICONTROL 動作]**&#x200B;標籤，按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕並選取通訊通道。
 
    ![](assets/create-campaign-add-action.png)
 
+
    >[!NOTE]
+   >
+   >支援的管道包括： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[應用程式內](../in-app/get-started-in-app.md)、[網頁](../web/get-started-web.md)、[程式碼型體驗](../code-based/get-started-code-based.md)。
    >
    >可用的通道因您的授權模式及附加元件而異。
 

@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '417'
+ht-degree: 52%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >可用的通道因您的授權模式及附加元件而異。
+   >支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
    >
-   >針對API觸發的行銷活動，只有電子郵件、簡訊和推播通知通道可用。
+   >可用的通道因您的授權模式及附加元件而異。
 
 1. **選取通道設定**
 

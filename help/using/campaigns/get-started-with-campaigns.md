@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d07d4c2001bd9e9d08539788073757bc1034c9ec
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 89%
+source-wordcount: '753'
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
 * **動作行銷活動**
 
-  動作行銷活動 (或是已排程行銷活動) 允許用於行銷活動使用案例的簡單臨時批量通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
+  行動行銷活動（或排程行銷活動）允許對行銷使用案例進行簡單的臨時批次通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。 支援的管道包括：
 
 * **由 API 觸發的行銷活動**
 
