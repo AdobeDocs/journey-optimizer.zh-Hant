@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 16%
@@ -23,7 +23,7 @@ ht-degree: 16%
 
 ![](assets/campaign-content.png)
 
-## 設計內容
+## 設計內容 {#action-campaign-channels}
 
 內容建立程式取決於您選取的管道。 在以下頁面瞭解建立訊息內容的詳細步驟：
 

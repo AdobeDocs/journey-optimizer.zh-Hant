@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 55%
 動作行銷活動 (或是已排程行銷活動) 允許用於行銷活動使用案例的簡單臨時批量通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。
 
 ➡️ [在影片中探索此功能](#video)
+
+
+>[!NOTE]
+>
+>支援的管道包括： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[應用程式內](../in-app/get-started-in-app.md)、[網頁](../web/get-started-web.md)、[程式碼型體驗](../code-based/get-started-code-based.md)。
+>
+>可用的通道因您的授權模式及附加元件而異。
 
 ## Action行銷活動建立的關鍵步驟 {#steps}
 

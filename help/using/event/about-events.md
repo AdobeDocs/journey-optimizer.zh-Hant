@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 13bc5f91e0e47bf36b9b9921fa926f8a5e2a50d6
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -83,7 +83,7 @@ ht-degree: 47%
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -56,7 +56,7 @@ You can also create audience-based campaigns to send messages.-->
 
 >[!NOTE]
 >
->* 您的環境可用元件和功能取決於您的[權限](../administration/permissions.md)以及您的[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
+>* 您環境中可用的元件和功能取決於您的[許可權](../administration/permissions.md)和您的[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 >
 >* Adobe Experience Cloud 的一般隱私權准則和流程適用於 [!DNL Journey Optimizer]。 [進一步瞭解 Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
 
@@ -80,7 +80,7 @@ Journey Optimizer 的核心功能和服務主要是按照 Adobe Experience Platf
 
 數位體驗藍圖提供系統和資料流程架構圖，以協助您更清楚瞭解Adobe Experience Platform和應用程式的整合與實作方式。 藍圖提供系統間和元件資料與內容流程、操作順序和相依性的視覺化表示，以協助告知Adobe Experience Platform和應用程式的使用案例設計和架構。
 
-檢視[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+檢視[Adobe Journey Optimizer Blueprint](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]
