@@ -5,22 +5,16 @@ title: 電子郵件管道
 description: 電子郵件管道
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 32%
+source-wordcount: '333'
+ht-degree: 27%
 
 ---
 
 # 電子郵件管道{#section-overview}
 
 Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方式設計、設定及提供具影響力的電子郵件行銷活動。 無論您是使用直覺式的電子郵件Designer製作個人化訊息、設定複雜的電子郵件歷程和行銷活動，或管理合規性的選擇退出，此管道都將電子郵件行銷的各個方面整合在一起。 首先設定電子郵件通道以獲得最佳傳遞能力及個人化，然後探索工具以建立與您的對象產生迴響的動態內容。 深入瞭解進階主題，例如管理寄件者信譽和達到DMARC合規性，以確保您的電子郵件到達預定位置。 從順暢的設定到有效的設計和策略性傳遞，電子郵件通道可讓您將電子郵件行銷轉換為可靠的資料導向引擎，以供客戶參與。
-
-
->[!CONTEXTUALHELP]
->id="ajo_homepage_card4"
->title="設計電子郵件"
->abstract="使用 **Adobe Journey Optimizer** 傳送電子郵件訊息給客戶。您可以在電子郵件設計工具建立、個人化以及預覽訊息。"
 
 可建立的電子郵件傳遞：
 
@@ -38,7 +32,7 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立電子郵件
 
@@ -48,7 +42,7 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計和最佳化電子郵件內容
 
@@ -58,7 +52,7 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理電子郵件選擇退出
 
@@ -68,7 +62,7 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定電子郵件頻道
 
@@ -78,7 +72,7 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 掌握電子郵件傳遞能力
 
