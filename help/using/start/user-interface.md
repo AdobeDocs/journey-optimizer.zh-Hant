@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,17 +181,17 @@ ht-degree: 93%
 
 ## 產品內通知 {#in-product-notifications}
 
-您可以啟用&#x200B;**產品內警示和電子郵件警示**，以接收您可能感興趣之數個事件的通知：系統偵測到的失敗、核准要求及/或[!DNL Journey Optimizer]產品發行。
+您可以啟用&#x200B;**產品內警示和電子郵件警示**，以接收您可能感興趣之數個事件的通知：系統偵測到的失敗、核准要求及/或 [!DNL Journey Optimizer] 產品發行。
 
-若要啟用這些通知，請遵循下列步驟。
+若要啟用這些通知，請依照下列步驟進行。
 
 1. 瀏覽至[!DNL Adobe Experience Cloud] **[!UICONTROL 偏好設定]**。
-1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，尋找&#x200B;**[!UICONTROL Journey Optimizer]**。
+1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;下，尋找 **[!UICONTROL Journey Optimizer]**。
 1. 視需要啟用應用程式內及/或電子郵件通知：
 
-   * **[!UICONTROL 警示]**：當失敗發生時，您可以取得您所訂閱警示的系統通知。 [了解更多](../reports/alerts.md)
+   * **[!UICONTROL 警示]**：當失敗發生時，您可以取得您所訂閱警示的系統通知。[了解更多](../reports/alerts.md)
    * **[!UICONTROL 核准]**：當有人要求您核准物件或存取物件時，會通知您。
-   * **[!UICONTROL 新版本]**：您會收到任何新[!DNL Journey Optimizer]產品版本的通知。
+   * **[!UICONTROL 新版本]**：您會收到任何新 [!DNL Journey Optimizer] 產品版本的通知。
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
 source-wordcount: '2917'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 98%
       + [最佳化](using/building-journeys/optimize.md)
       + [條件](using/building-journeys/conditions.md)
       + [條件活動](using/building-journeys/condition-activity.md)
-      + [讀取對象](using/building-journeys/read-audience.md)
+      + [讀取客群](using/building-journeys/read-audience.md)
       + [等待](using/building-journeys/wait-activity.md)
       + [內容決策](using/building-journeys/content-decision.md)
       + [動作活動](using/building-journeys/journey-action.md)
@@ -255,8 +255,8 @@ ht-degree: 98%
          + [建立首次規則](using/orchestrated/build-query.md)
          + [編輯運算式](using/orchestrated/edit-expressions.md)
          + [重新鎖定目標對象](using/orchestrated/retarget.md)
-      + 協調的行銷活動活動 {#design-campaigns}
-         + [協調的行銷活動活動](/help/rp_landing_pages/design-campaigns-landing-page.md)
+      + 協調行銷活動 {#design-campaigns}
+         + [協調行銷活動](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [開始使用活動](using/orchestrated/activities/about-activities.md)
          + [合併連結](using/orchestrated/activities/and-join.md)
          + [建置客群](using/orchestrated/activities/build-audience.md)
@@ -316,7 +316,7 @@ ht-degree: 98%
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
-            + [附加PDF檔案至您的電子郵件](using/email/pdf-attachments.md)
+            + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
          + 設計內容 {#add-content}
             + [設計內容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用內容元件](using/email/content-components.md)

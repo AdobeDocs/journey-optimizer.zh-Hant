@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
 >title="速率控制"
->abstract="藉由指定所需的速率限制，設定行銷活動的速率控制。此功能對於防止下游系統 (例如登陸頁面或客戶服務平台) 過載特別有用。"
+>abstract="指定想要的速率限制，以設定行銷活動的速率控制。此功能對於防止下游系統 (例如登陸頁面或客戶服務平台) 上的超載特別有用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"
@@ -113,7 +113,7 @@ ht-degree: 69%
 
 如果您無法存取行銷活動功能，請聯絡您的管理員以請求必要的權限。
 
-+++瞭解如何指派行銷活動相關角色
++++了解如何指派行銷活動相關角色
 
 1. 若要將角色指派給 [!DNL Permissions] 產品中的使用者，請導覽至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，然後選擇其中一個與上述&#x200B;**[!UICONTROL 角色]**&#x200B;相關的內建行銷活動。
 
