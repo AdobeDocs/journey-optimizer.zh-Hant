@@ -8,9 +8,9 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '396'
 ht-degree: 15%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >目前，Journey Optimizer編寫管道不支援AI模型。
+
+➡️ [在影片中探索此功能](#video)
 
 ## AI 模型類型 {#ai-model-types}
 
@@ -56,3 +58,9 @@ ht-degree: 15%
    >AI模型需要意見事件以體驗事件的形式傳送才能收集。 [進一步了解決定管理資料集合](../data-collection/data-collection.md)
 
 1. 將AI模型指派給決定中的位置，以排名合格的優惠。 [了解更多](../offer-activities/configure-offer-selection.md)
+
+## 操作說明影片 {#video}
+
+瞭解如何為Offer Decisioning建立AI模型，以及如何將其套用至決策。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
