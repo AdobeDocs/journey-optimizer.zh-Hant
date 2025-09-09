@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,11 @@ ht-degree: 2%
 | x-api-key | `{API_KEY}` |
 
 * 包含裝載(POST、PUT、PATCH)的所有請求都需要內容型別標頭
+
+
+>[!NOTE]
+>
+>不會針對個別沙箱強制執行許可權檢查。 只要呼叫者提供有效的Token，傳送API就會通過。
 
 ## API要求 {#request}
 
