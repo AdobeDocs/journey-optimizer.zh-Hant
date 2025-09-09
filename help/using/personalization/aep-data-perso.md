@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 2%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用性版本的形式提供給所有客戶。
+>
+>目前，「datasetLookup」協助程式函式可用於有限客戶集的運算式片段。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform記錄資料集的資料，來[個人化您的內容](../personalization/personalize.md)。 開始之前，必須先啟用查詢個人化所需的資料集以進行查詢。 本節提供詳細資訊： [使用Adobe Experience Platform資料](../data/lookup-aep-data.md)。
 
@@ -54,7 +56,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -85,7 +87,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
      +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 

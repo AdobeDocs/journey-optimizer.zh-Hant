@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 91%
+source-wordcount: '2082'
+ht-degree: 90%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 91%
 <td>
 <p>此功能先前於公開測試版發佈，現在僅供有限可用狀態的所有環境使用。 已在此版本中，引進以下增強功能：</p>
 <ul><li>支援傳入頻道中的資料集查詢個人化。</li>
-<li>「datasetLookup」協助程式函式現在可用於運算式片段中。</li>
+<li>「datasetLookup」協助程式函式現在可用於運算式片段中。 目前，此功能僅供有限的客戶使用。 若想取得存取權，請聯絡您的 Adobe 代表。</li>
 <li>資料集管理介面中的選項現在可讓您啟用以記錄為基礎的資料集，以進行查詢個人化，而無需執行API呼叫。</li>
 <li>增強的監控功能，可追蹤資料擷取狀態，並瞭解資料集何時準備好進行查詢。</li>
 <li>更新使用指南和護欄，確保最佳效能和可靠性。</li>
