@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 * **[!UICONTROL Mailto (取消訂閱)]** 位址，這是將取消訂閱要求路由至進行自動處理的目標位址。在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是根據[選取的子網域](email-settings.md#subdomains)，顯示在管道設定的預設 **[!UICONTROL Mailto (取消訂閱)]** 位址。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* **[!UICONTROL 一鍵取消訂閱 URL]**，預設為根據[選取的子網域](email-settings.md#subdomains)產生的一鍵選擇退出 URL 清單取消訂閱標頭。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+*  **[!UICONTROL 一鍵取消訂閱 URL]**，預設為根據[選取的子網域](email-settings.md#subdomains)產生的一鍵選擇退出 URL 清單取消訂閱標頭。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 您可以從下拉式清單中，選取&#x200B;**[!UICONTROL 同意層級]**。它可特定於管道或輪廓身分。依據設定，當使用者使用電子郵件標題的「取消清單訂閱」URL 時，同意內容就會在 [!DNL Adobe Journey Optimizer] 中，按管道層級或 ID 層級更新。
 
@@ -125,13 +125,13 @@ ht-degree: 93%
 
 選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項時，若您輸入會在行銷活動或歷程中使用的自訂端點，當收件者按一下「取消訂閱」連結時，[!DNL Journey Optimizer] 就會將一些輪廓專屬的預設參數新增到同意更新事件上 <!--sent to the custom endpoint -->。
 
-若要進一步個人化您的自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，您可以定義也會附加至同意事件的自訂屬性。
+若要進一步個人化您的自訂&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]**，您可以定義將要同時附加至同意事件的自訂屬性。
 
-若要這麼做，請使用&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。 您在對應區段中定義的所有URL追蹤引數，除了預設引數外，還將附加至自訂一鍵取消訂閱URL的結尾。 [瞭解如何設定自訂URL追蹤](url-tracking.md)
+若要這麼做，請使用 **[!UICONTROL URL 追蹤參數]**&#x200B;區段。除了預設參數外，您在對應區段中定義的所有 URL 追蹤參數，還將附加至自訂一鍵取消訂閱 URL 的結尾。[了解如何設定自訂 URL 追蹤](url-tracking.md)
 
 ### 設定解密 API {#configure-decrypt-api}
 
-當您的收件者按一下自訂取消訂閱連結時，附加至同意更新事件的引數將以加密方式傳送至端點。 因此，外部同意系統需要透過[Adobe Developer](https://developer.adobe.com){target="_blank"}，才能實施特定 API 來解密從Adobe 傳送的參數。
+當您的收件者按一下自訂取消訂閱連結時，附加至同意更新事件的參數將以加密方式傳送至端點。因此，外部同意系統需要透過[Adobe Developer](https://developer.adobe.com){target="_blank"}，才能實施特定 API 來解密從Adobe 傳送的參數。
 
 擷取這些參數的 GET 呼叫大多取決於目前正在使用的取消清單訂閱選項，**[!UICONTROL 一鍵取消訂閱 URL]** 或是 **[!UICONTROL Mailto (取消訂閱)]**。
 
