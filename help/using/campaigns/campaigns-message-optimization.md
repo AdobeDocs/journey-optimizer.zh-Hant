@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: 行銷活動最佳化、實驗、目標定位、A/B測試
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 6%
 ➡️ [在此影片中進一步瞭解行銷活動的最佳化](#video)
 
 ## 善用目標定位 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="什麼是遞補內容？"
+>abstract="後援內容可讓您的對象在沒有符合定位規則時接收預設內容。</br>若您未選取此選項，則不符合上述目標定位規則的任何對象都不會收到內容。"
 
 目標定位會根據使用者設定檔屬性或內容屬性，將個人化內容提供給特定對象區段。
 
@@ -67,7 +72,7 @@ ht-degree: 6%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**。 後援內容可讓您的對象在沒有符合定位規則時接收預設內容。
+1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項。 後援內容可讓您的對象在沒有符合定位規則時接收預設內容。
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在動作中或 API 觸發的行銷活動中運用訊息最佳化。您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

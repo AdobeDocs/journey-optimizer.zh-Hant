@@ -11,10 +11,10 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 6%
+source-wordcount: '1297'
+ht-degree: 7%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 6%
 ## 使用實驗 {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度可用來追蹤和評估實驗中執行效果最佳的處理。"
+>abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
@@ -70,7 +70,7 @@ ht-degree: 6%
 
 1. 從&#x200B;**[!UICONTROL 方法]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 實驗]**。
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**。
 
@@ -137,15 +137,17 @@ ht-degree: 6%
 
 ➡️使用轉換率作為最佳化量度（例如：購買、註冊）。
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++訊息頻率
 
-➡️執行實驗，檢查在一週內傳送一封電子郵件還是傳送三封電子郵件是否會造成更多購買。
+執行實驗，檢查在一週內傳送一封電子郵件還是傳送三封電子郵件是否會造成更多購買。
 
-使用購買或取消訂閱率作為最佳化量度。
+➡️使用購買或取消訂閱率作為最佳化量度。
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ ht-degree: 6%
 
 ➡️使用點進率或收入作為最佳化量度。
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## 善用目標定位 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="什麼是遞補路徑？"
+>abstract="後援會針對不符合上述任何鎖定目標規則的對象建立新路徑。</br>如果您未選取此選項，任何不符合鎖定目標規則的對象都不會進入遞補路徑。"
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。
 
@@ -179,7 +188,7 @@ ht-degree: 6%
 
 1. 從&#x200B;**[!UICONTROL 方法]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 目標規則]**。
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. 按一下&#x200B;**[!UICONTROL 建立目標規則]**。
 
@@ -187,7 +196,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**。 後援內容可讓您的對象在沒有符合目標規則時接收預設內容。 如果您未選取此選項，則不符合上述定義之目標定位規則的任何受眾都不會輸入遞補路徑。
+1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項。 此動作會針對不符合上述任何鎖定目標規則的對象建立遞補路徑。
+
+   >[!NOTE]
+   >
+   >如果您未選取此選項，則任何不符合鎖定目標規則的對象都不會進入遞補路徑。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存您的目標規則設定。
 
@@ -195,7 +208,11 @@ ht-degree: 6%
 
    ![](assets/journey-targeting-paths.png)
 
-1. 在逾時或發生錯誤時，可選擇使用&#x200B;**[!UICONTROL 新增替代路徑]**&#x200B;來定義遞補動作。 [了解更多](using-the-journey-designer.md#paths)
+1. 如果您在定義規則設定時選取了&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項，請為自動新增的遞補路徑定義一或多個動作。
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. 如果逾時或發生錯誤，可選用&#x200B;**[!UICONTROL 新增替代路徑]**&#x200B;定義發生問題時的替代動作。 [了解更多](using-the-journey-designer.md#paths)
 
 1. 針對目標規則設定所定義的每個群組，為每個動作設計適當的內容。 您可以順暢地為每個動作瀏覽不同的內容。
 
@@ -219,7 +236,7 @@ ht-degree: 6%
 
 ➡️使用每個設定檔的收入或轉換率作為最佳化量度。
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ ht-degree: 6%
 
 ➡️使用點進率或下游轉換作為最佳化量度。
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++購買記錄目標定位
@@ -236,6 +255,8 @@ ht-degree: 6%
 最近購買過的客戶可以進入簡短的「感謝您+交叉銷售」路徑，而沒有購買記錄的客戶則會進入更長的培育歷程。
 
 ➡️使用重複購買率或參與率作為最佳化量度。
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
