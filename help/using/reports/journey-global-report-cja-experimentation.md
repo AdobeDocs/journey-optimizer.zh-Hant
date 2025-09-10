@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: 行銷活動報告
+description: 瞭解如何使用歷程報告中的實驗資料
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
-@ -0,0 +1,71 @@
----
-解決方案： Journey Optimizer
-product： journey optimizer
-標題：行銷活動報告
-description：瞭解如何使用Campaign報告中的實驗資料
-功能：報表
-主題：內容管理
-角色：使用者
-level： Intermediate
-exl-id： 69742163-7378-49ab-929e-86213d6e65e3
----
-# 實驗行銷活動報告 {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="成功量度"
->abstract="先前在建立實驗時選取的成功量度的總值除以設定檔的數量。"
+# 實驗歷程報告 {#campaign-global-report-cja-experimentation}
 
-## 實驗 {#experimentation}
+您的歷程報告可讓您全面瞭解實驗的執行情況，以及瞭解其影響所需的關鍵量度。
 
-**[!UICONTROL Experimentation]**&#x200B;索引標籤提供每個變體效能的重要深入分析，並識別最成功的變體。
+在Journey Optimizer中，歷程實驗分為兩種型別：
 
-請注意，定義績效最佳者可能需要一些時間。 如果您的實驗不成功，它將會設定為&#x200B;**尚無結果**。
+* [內容實驗](../content-management/content-experiment.md)
+* [路徑實驗](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## 路徑實驗 {#experimentation}
+
+>[!NOTE]
+>
+> 內容實驗的詳細表格和KPI與路徑實驗的表格和KPI相同。 如果您已設定內容實驗，請參閱以下檔案。
 
 ### 實驗KPI {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-**[!UICONTROL Experimentation]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與您的實驗相關之基本量度的分析。
+**實驗摘要**&#x200B;提供您實驗效能的重要深入分析，並識別最成功的實驗。 請注意，定義績效最佳者可能需要一些時間。 如果您的實驗不成功，它將會設定為&#x200B;**尚無結果**。
+
+**實驗關鍵績效指標(KPI)**&#x200B;可作為全方位儀表板，提供與您的實驗相關之基本量度的分析。
 
 +++ 進一步瞭解實驗KPI量度
 
@@ -45,6 +44,8 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 * **[!UICONTROL 信賴度]**：指定處理與基準處理相同的證據。 [了解更多](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
+
+
 
 ### 依成功量度的變體 {#variant-inbound}
 
@@ -74,6 +75,5 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 ### 成功量度的轉換率 {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 **[!UICONTROL 信賴區間]**&#x200B;圖表會顯示可能的改善範圍，比較基準與所選成功量度的最佳績效處理方式。 [了解更多](../content-management/experiment-calculations.md#confidence-intervals)。

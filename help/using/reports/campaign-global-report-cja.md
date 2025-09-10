@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 2%
+source-wordcount: '603'
+ht-degree: 1%
 
 ---
 
@@ -104,5 +104,23 @@ KPI會因行銷活動中使用的管道而有所不同。
 * **[!UICONTROL 不重複點按]**：點按您訊息中內容的設定檔數目。
 
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
+
++++
+
+## 目標定位概觀 {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+如果您為內容設定&#x200B;**[!UICONTROL 鎖定目標規則]**，**[!UICONTROL 鎖定目標總覽]**&#x200B;表格會提供關鍵參與量度的詳細檢視，顯示每個規則的目標設定檔如何與您的內容互動。
+
+➡️ [進一步瞭解鎖定目標規則](../campaigns/campaigns-message-optimization.md)
+
++++ 進一步瞭解鎖定目標總覽量度
+
+* **[!UICONTROL 人員]**：符合活動目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 不重複點按]**：點按電子郵件中內容的設定檔數目。
+
+* **[!UICONTROL 不重複點按率]**：至少點按一次的目標設定檔百分比。
 
 +++

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2920'
 ht-degree: 99%
 
 ---
@@ -610,6 +610,7 @@ ht-degree: 99%
          + [內容卡歷程報告](using/reports/journey-global-report-cja-content.md)
          + [直接郵件歷程報告](using/reports/journey-global-report-cja-direct.md)
          + [電子郵件歷程報告](using/reports/journey-global-report-cja-email.md)
+         + [實驗歷程報告](using/reports/journey-global-report-cja-experimentation.md)
          + [應用程式內歷程報告](using/reports/journey-global-report-cja-inapp.md)
          + [推播歷程報告](using/reports/journey-global-report-cja-push.md)
          + [簡訊歷程報告](using/reports/journey-global-report-cja-sms.md)
