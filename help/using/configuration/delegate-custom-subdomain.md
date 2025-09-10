@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="選取關鍵長度"
->abstract="金鑰長度只能是2048或4096位元。 提交子網域後即無法變更。"
+>title="選取金鑰長度"
+>abstract="金鑰長度只能是 2048 位元或 4096 位元。子網域提交後便無法變更金鑰長度。"
 
 1. 在&#x200B;**[!UICONTROL SSL憑證]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 產生CSR]**。
 
@@ -86,7 +86,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >金鑰長度只能是2048或4096位元。 提交子網域後即無法變更。
+   >金鑰長度只能是 2048 位元或 4096 位元。子網域提交後便無法變更金鑰長度。
 
 1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
@@ -147,7 +147,7 @@ ht-degree: 18%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

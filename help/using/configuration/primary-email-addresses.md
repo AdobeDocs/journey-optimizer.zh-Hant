@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 19%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 19%
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 ![](assets/primary-address-execution-fields.png)
@@ -72,7 +72,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定義自訂值"
->abstract="在某些特定情況下，您可以覆寫預設的執行地址。 使用欄位右側的&#x200B;**啟用引數覆寫**&#x200B;圖示來定義自訂主要地址。"
+>abstract="在某些特定情況下，您可以覆寫預設執行地址。使用欄位右側的「**啟用參數覆寫**」圖示定義自訂的主要地址。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="關於執行地址"
 
 對於特定使用案例，您可以全域覆寫執行欄位設定，並在電子郵件設定層級或歷程層級定義不同的值。

@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在動作中或 API 觸發的行銷活動中運用訊息最佳化。您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

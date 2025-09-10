@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Journey Optimizer可讓您指派優先順序分數給歷程、行銷活動或歷
 >
 >如果兩個歷程或行銷活動擁有相同的優先順序分數，則系統沒有繫結機制。 確保優先順序分數是唯一的，以避免衝突。
 
-## 將優先順序分數指派給傳入頻道動作 {#priority-action}
+## 針對傳入頻道動作指派優先順序分數 {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為&#x200B;**[!UICONTROL 動作]**&#x200B;活動內
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
