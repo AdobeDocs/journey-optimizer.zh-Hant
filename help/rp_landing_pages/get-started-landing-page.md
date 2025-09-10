@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: 快速入門
 description: 快速入門
 redpen-status: CREATED_||_2025-08-11_20-05-24
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
-
 
 # 快速入門{#section-overview}
 
 Adobe Journey Optimizer可讓企業跨多個管道建立個人化的即時客戶體驗，協助您在適當的時間向客戶傳達適當的訊息。 無論您是協調複雜的客戶歷程、運用AI驅動的決策，還是順暢地管理內容和資料，此平台都提供工具來最佳化每次互動。 在本節中，您將探索其主要功能（例如全通路協調、即時見解和智慧型決策）如何結合在一起，以產生具影響力的結果。 每個主題都可逐步建立您的瞭解，讓您輕鬆掌握Adobe Journey Optimizer如何將客戶參與轉變為動態且資料導向的流程。
 
-## 開始使用Adobe Journey Optimizer
+## 開始使用 Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer的主要功能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的主要功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer架構概述
 
@@ -40,17 +40,7 @@ Adobe Journey Optimizer架構概述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
-
-核心概念： Adobe Journey Optimizer中的功能區域
-
-瞭解Adobe Journey Optimizer的主要功能領域，以及這些領域如何共同作業以最佳化客戶歷程。
-
-[深入瞭解核心概念](../using/start/functional-areas-redpen.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer中的角色和責任
 
@@ -60,7 +50,7 @@ Adobe Journey Optimizer中的角色和責任
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer使用者介面概觀
 
@@ -70,7 +60,7 @@ Adobe Journey Optimizer使用者介面概觀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在Adobe Journey Optimizer中搜尋、篩選及組織內容
 
@@ -79,12 +69,24 @@ Adobe Journey Optimizer使用者介面概觀
 [瞭解如何搜尋及組織](../using/start/search-filter-categorize.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Adobe Journey Optimizer中的護欄和限制
+
+瞭解有效使用Adobe Journey Optimizer功能的限制和建議作法。
+
+[深入瞭解核心概念](../using/start/guardrails.md)
+:::
+
 ::::
 
 
 ## 其他資源
 
+- **[深入瞭解核心概念](../using/start/functional-areas-redpen.md)** — 瞭解Adobe Journey Optimizer的主要功能領域，以及這些領域如何共同運作以最佳化客戶歷程。
 - **[Adobe Journey Optimizer：重要術語](../using/start/terminology-md-redpen.md)** — 瞭解基本術語和概念，以自信地使用Adobe Journey Optimizer並有效實施行銷策略。
 - **[Adobe Journey Optimizer的協助工具功能](../using/start/accessibility.md)** — 瞭解協助工具功能及與WCAG標準的相容性，確保所有使用者的包容性。
 - **[Adobe Journey Optimizer中的AI助理快速入門](../using/start/ai-assistant.md)** — 利用AI助理在Adobe Journey Optimizer中導覽概念並取得營運深入分析。
-- **[Adobe Journey Optimizer的護欄和限制](../using/start/guardrails.md)** — 瞭解有效使用Adobe Journey Optimizer功能的限制和建議作法。
+- **[疑難排解](../using/start/troubleshooting.md)** — 每個疑難排解區段都提供常見問題的解答和問題的解決方案。
+
