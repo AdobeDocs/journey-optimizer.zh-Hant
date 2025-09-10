@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 6%
@@ -197,9 +197,9 @@ ht-degree: 6%
 1. 全新的歷程入口在一分鐘內開始。
 1. 目前在&#x200B;**動作**&#x200B;活動上等待歷程的設定檔會以5k tps的速率繼續。 接著，他們就可以進入等待的&#x200B;**動作**，然後繼續歷程。
 
-## 疑難排解暫停歷程中的設定檔捨棄  {#discards-troubleshoot}
+## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
