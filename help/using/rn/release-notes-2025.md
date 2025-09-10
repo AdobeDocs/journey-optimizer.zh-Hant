@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
 workflow-type: tm+mt
-source-wordcount: '5119'
-ht-degree: 100%
+source-wordcount: '5027'
+ht-degree: 99%
 
 ---
 
@@ -220,15 +220,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 目前有支援進階通訊解決方案 (RCS) 傳訊，可根據提供者、電信業者支援，啟用下列增強傳送訊息的功能：</p>
-<ul>
-<li>有品牌、已驗證寄件者支援：使用具有品牌化元素（標誌、寄件者名稱等）的已驗證企業檔案，可以用來來傳送訊息。</li>
-<li>訊息傳遞洞察力：接收包括訊息狀態更新（例如已傳送、已傳遞、已讀取）等詳細傳遞報告。</li>
-<li>連結追蹤：請在 RCS 訊息中內嵌、追蹤網址，以便進行參與分析。</li>
-<li>遞補簡訊：當設定檔的裝置暫不支援 RCS，或是暫時無法透過 RCS 連線時，系統會自動回覆簡訊。</li>
-<li>基本訊息構成：傳送包含選擇性媒體、豐富元素的文字型 RCS 訊息，會視供應商支援而定。</li>
-</ul>
-<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration.md">詳細文件</a>。</p>
+<p>您現在可以透過第三方提供者透過與自訂SMS提供者解決方案整合來設定、自訂及傳遞Rich Communication Services (RCS)訊息。</p>
 </td>
 </tr>
 </tbody>
