@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: 行銷活動報告
+description: 瞭解如何使用Campaign報告中的實驗資料
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
-@ -0,0 +1,71 @@
----
-解決方案： Journey Optimizer
-product： journey optimizer
-標題：行銷活動報告
-description：瞭解如何使用Campaign報告中的實驗資料
-功能：報表
-主題：內容管理
-角色：使用者
-level： Intermediate
-exl-id： 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # 實驗行銷活動報告 {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
@@ -50,7 +49,7 @@ exl-id： 69742163-7378-49ab-929e-86213d6e65e3
 
 ![](assets/cja-experimentation-variants.png)
 
-成功量度的&#x200B;**變體**&#x200B;表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
+成功量度的&#x200B;**變體**表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
 如需深入瞭解這些結果以及如何解譯，請參閱[此頁面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 進一步瞭解「依成功量度區分的變體」
