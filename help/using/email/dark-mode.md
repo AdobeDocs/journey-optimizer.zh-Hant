@@ -12,9 +12,9 @@ keywords: 深色模式，電子郵件，顏色，編輯器
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1524'
 ht-degree: 11%
 
 ---
@@ -115,7 +115,9 @@ ht-degree: 11%
 >
 >在[本節](#define-custom-dark-mode)中瞭解如何使用電子郵件Designer定義自訂深色模式設定。
 
-但是，可能會有某些限制。 例如，如果電子郵件內容中存在影像，某些電子郵件使用者端(例如Apple Mail 16 (macOs 13))將不會產生深色模式。
+不過，某些限制可能會根據每個電子郵件使用者端而適用。 例如，如果電子郵件內容中出現影像，Apple Mail 16 (macOs 13)等使用者端將不會產生深色模式。
+
+為獲得最佳結果，請使用您定位的電子郵件使用者端測試您的內容。 若要檢視儘可能接近每個使用者端最終結果的模擬，請使用電子郵件Designer中的[電子郵件呈現](../content-management/rendering.md)選項。
 
 ## 電子郵件設計工具中的深色模式 {#dark-mode-email-designer}
 
