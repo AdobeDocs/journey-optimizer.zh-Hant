@@ -8,7 +8,7 @@ feature: Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-## 在Edge Decisiong請求中傳遞內容資料的先決條件 {#prerequisites}
+## 在Edge Decisioning請求中傳遞內容資料的先決條件 {#prerequisites}
 
 與使用決策API以相當自由的格式傳遞內容不同，Edge決策內容裝載必須符合XDM體驗事件。 為此，需要將內容定義為用於資料收集的「XDM體驗事件」的一部分。
 
@@ -51,11 +51,11 @@ ht-degree: 1%
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
+   在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在Adobe Experience Platform [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在Adobe Experience Platform [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 

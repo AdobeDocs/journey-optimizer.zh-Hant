@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 12%
@@ -85,7 +85,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔，這兩個解決方案都對應不同的使用方式。 展開下列區段以取得詳細資訊：
 
-+++使用對象與決策規則
++++使用對象與決定規則
 
 基本上，對象的輸出是設定檔清單，而決定規則是在決策流程期間根據單一設定檔執行的函式。
 
