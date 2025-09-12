@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 90%
+source-wordcount: '2068'
+ht-degree: 89%
 
 ---
 
@@ -89,15 +89,19 @@ ht-degree: 90%
 
 ### 功能改善 {#Sep-25-improv}
 
+* **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 [閱讀更多資訊](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+
+  >[!NOTE]
+  >
+  >此功能在有限可用性的情況下提供給一組客戶。
+
 * **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
 
   >[!NOTE]
   >
   >此功能目前以有限可用性的形式提供給所有使用者。
 
-* **管理**
-
-  **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
+* **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
 
 ## 2025 年 8 月發行說明 {#25-8-rn}
 
@@ -357,8 +361,6 @@ ht-degree: 90%
    * **驗證簡訊連線** - 您現在可以將範例訊息傳送至指定裝置，在 Adobe Journey Optimizer 中輕鬆測試和驗證簡訊 API 認證。[閱讀全文](../sms/sms-configuration-sinch.md)
 
 * **設定**
-
-  &lt;!--* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。此功能為有限可用性，僅提供給一組客戶。[了解詳情](../personalization/personalization-build-expressions.md#where)—8 月 21 日更新：正在等候英文版。以確認何時部署至生產環境。-->
 
    * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
 

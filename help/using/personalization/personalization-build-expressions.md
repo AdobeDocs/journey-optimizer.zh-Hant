@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1565'
 ht-degree: 10%
 
 ---
@@ -77,10 +77,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >
 >url內使用的個人化權杖不支援空格。
 
-<!--
-Update on August 21: Waiting for eng. to confirm when the capacity below will be deployed on prod.
-
-In Limited Availability, Journey Optimizer also supports complete/base URL personalization. For example:
+在「有限可用性」中，Journey Optimizer也支援完整/基本URL個人化。 例如：
 
 ```
 <a href="{{profile.social.link}}" />
@@ -90,7 +87,7 @@ In Limited Availability, Journey Optimizer also supports complete/base URL perso
 
 >[!WARNING]
 >
->The list of accepted domains must be provided to Adobe upfront.-->
+>接受的網域清單必須預先提供給Adobe。
 
 +++
 
