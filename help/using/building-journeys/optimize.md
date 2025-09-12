@@ -11,10 +11,10 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 7%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 7%
 
 測試透過電子郵件傳送第一條訊息還是透過簡訊傳送第一條訊息是否會提高轉換率。
 
-➡️使用轉換率作為最佳化量度（例如：購買、註冊）。
+➡️使用轉換率作為成功量度（例如：購買、註冊）。
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ ht-degree: 7%
 
 執行實驗，檢查在一週內傳送一封電子郵件還是傳送三封電子郵件是否會造成更多購買。
 
-➡️使用購買或取消訂閱率作為最佳化量度。
+➡️使用購買或取消訂閱率作為成功量度。
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ ht-degree: 7%
 
 比較24小時等待和後續追蹤前72小時的等待，以確定哪一個時間可最大化參與。
 
-➡️使用點進率或收入作為最佳化量度。
+➡️使用點進率或收入作為成功量度。
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什麼是遞補路徑？"
->abstract="後援會針對不符合上述任何鎖定目標規則的對象建立新路徑。</br>如果您未選取此選項，任何不符合鎖定目標規則的對象都不會進入遞補路徑。"
+>abstract="備援路徑可讓您的對象在沒有符合目標規則時輸入替代路徑。 </br>如果您未選取此選項，任何不符合鎖定目標規則的對象都不會進入後援路徑並退出歷程。"
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。
 
@@ -196,11 +196,11 @@ ht-degree: 7%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項。 此動作會針對不符合上述任何鎖定目標規則的對象建立遞補路徑。
+1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補路徑]**&#x200B;選項。 此動作會針對不符合上述任何鎖定目標規則的對象建立遞補路徑。
 
    >[!NOTE]
    >
-   >如果您未選取此選項，則任何不符合鎖定目標規則的對象都不會進入遞補路徑。
+   >如果您未選取此選項，則任何不符合鎖定目標規則的對象都不會進入後援路徑並退出歷程。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存您的目標規則設定。
 
@@ -234,7 +234,7 @@ ht-degree: 7%
 
 金級狀態忠誠會員可以透過電子郵件接收個人化優惠，而所有其他會員則會導向簡訊提醒。
 
-➡️使用每個設定檔的收入或轉換率作為最佳化量度。
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ ht-degree: 7%
 
 已開啟電子郵件但未點按的客戶會收到推播通知，而完全未開啟的客戶則會收到簡訊。
 
-➡️使用點進率或下游轉換作為最佳化量度。
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ ht-degree: 7%
 
 最近購買過的客戶可以進入簡短的「感謝您+交叉銷售」路徑，而沒有購買記錄的客戶則會進入更長的培育歷程。
 
-➡️使用重複購買率或參與率作為最佳化量度。
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## 新增條件。 {#conditions}
+### 新增條件。 {#conditions}
 
-您可以新增條件，根據特定條件建立多個路徑，以定義個人在您的歷程中進度。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
+條件是一種[目標](#targeting)規則，可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。
 
 ![](assets/journey-condition.png)
 
