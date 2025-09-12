@@ -50,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/cja-experimentation-variants.png)
 
-成功量度的&#x200B;**變體**表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
+成功量度的&#x200B;**變體**&#x200B;表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
 如需深入瞭解這些結果以及如何解譯，請參閱[此頁面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 進一步瞭解「依成功量度區分的變體」
