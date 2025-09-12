@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,12 @@ ht-degree: 1%
 在Journey Optimizer中，歷程實驗分為兩種型別：
 
 * [內容實驗](../content-management/content-experiment.md)
+
+  請注意，內容實驗的詳細表格和KPI與路徑實驗的表格和KPI相同。 如果您已設定內容實驗，請參閱以下[檔案](#experimentation)。
+
 * [路徑實驗](../building-journeys/optimize.md)
 
 ## 路徑實驗 {#experimentation}
-
->[!NOTE]
->
-> 內容實驗的詳細表格和KPI與路徑實驗的表格和KPI相同。 如果您已設定內容實驗，請參閱以下檔案。
 
 ### 實驗KPI {#experimentation-kpis}
 
@@ -51,7 +50,7 @@ ht-degree: 1%
 
 ![](assets/cja-experimentation-variants.png)
 
-成功量度的&#x200B;**變體**&#x200B;表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
+成功量度的&#x200B;**變體**表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
 如需深入瞭解這些結果以及如何解譯，請參閱[此頁面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 進一步瞭解「依成功量度區分的變體」
