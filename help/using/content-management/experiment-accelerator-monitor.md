@@ -158,7 +158,7 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
    對於源自&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗，建議的變更將載入到&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗工作流程中。
 
-   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/abtest/test-ab)
 
 1. 在實驗檢視中，可存取Experimentation Accelerator所顯示的相同AI **[!UICONTROL 實驗機會]**。
 
