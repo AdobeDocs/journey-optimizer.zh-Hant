@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 99%
+source-wordcount: '1807'
+ht-degree: 96%
 
 ---
 
@@ -355,3 +355,10 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >id="ajo_journey_business_rules"
 >title="規則集"
 >abstract="規則集"
+
+<!-- DATASET LOOKUP IN JOURNEYS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_dataset_lookup"
+>title="資料集查詢活動"
+>abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。"
