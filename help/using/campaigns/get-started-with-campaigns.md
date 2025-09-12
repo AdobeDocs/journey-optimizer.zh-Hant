@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
 >abstract="選取行銷活動的型別。 可用的管道會依選取的型別而有所不同。 <br>**排程行銷活動** （動作行銷活動） — 適用於可以排程在特定時間執行的簡單、一次性批次通訊。<br>**API觸發的行銷活動** — 透過API呼叫啟動，可直接從外部系統啟用自動化、事件型傳訊。<br>**協調的行銷活動** — 提供視覺化的拖放畫布，以設計和自動化複雜的多步驟行銷工作流程，從對象細分到跨管道的個人化訊息傳遞。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="行銷活動"
+>abstract="建立您的細分流程、製作您的跨頻道訊息，並規劃您的行銷活動。 支援的管道：電子郵件、簡訊、推播通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="行銷活動"
+>abstract="傳遞單次或定期的傳出傳遞或持續的傳入動作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="行銷活動"
+>abstract="提供單一或定期的傳出交易型動作。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="行銷活動"
+>abstract="向目標客群傳遞個人化行銷通訊內容。支援的管道：電子郵件、簡訊、推播通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="行銷活動"
+>abstract="向個別輪廓或輪廓集傳遞交易型通訊內容。支援的管道：電子郵件、簡訊、推播通知。"
 
 使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定客群。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
