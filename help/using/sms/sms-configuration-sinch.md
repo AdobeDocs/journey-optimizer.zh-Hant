@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
    | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
    | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?learn=on&captions=chi_hant)。 |
+   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
    | 傳入號碼 | 新增您的唯一傳入號碼或短代碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼或短程式碼。 |
    | 自訂傳入關鍵字 | 為特定動作定義唯一的關鍵字，例如DISCOUNT、OFFERS、ENROLL。 這些關鍵字會擷取並儲存為設定檔中的屬性，可讓您在歷程中觸發串流區段資格，並提供自訂回應或動作。 |
@@ -117,6 +117,7 @@ ht-degree: 2%
 
 建立和設定API認證後，您現在需要建立MMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
 
+
 ## 設定RCS的API認證
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
@@ -125,19 +126,32 @@ Journey Optimizer透過Sinch支援RCS (Rich Communication Services)傳送訊息�
 
 請注意，當設定檔的裝置不支援RCS或暫時無法透過RCS連線時，訊息會自動回復到簡訊。
 
-➡️ [在Sinch檔案中探索Sinch如何支援RCS](https://sinch.com/blog/rcs-api-guide/)
+### 進階RCS訊息
 
-使用Sinch設定RCS：
+>[!AVAILABILITY]
+>
+> 進階RCS訊息僅適用於Sinch管理的直接帳戶。
 
 1. **設定您的品牌RCS代理程式**
 
-   請連絡您的Adobe代表，以設定品牌化RCS代理程式。 [深入瞭解品牌RCS代理程式](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   在Sinch Dashboard中建立品牌化RCS代理。 [深入瞭解品牌RCS代理程式](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **設定您的[Sinch API認證](#create-api)**
+1. **設定您的[自訂API認證](sms-configuration-custom.md)**
 
-   在您的RCS代理程式獲得核准後，您需要設定您的Sinch API認證，其中包括您的存取金鑰、秘密和服務計畫ID。 Journey Optimizer將使用這些認證，透過Sinch的平台驗證及傳送訊息。
+   您的RCS代理程式獲得核准後，您需要設定自訂API認證，包括您的AppId、名稱、URL和驗證型別。
+
+1. **使用提供者承載設定您的RCS。**
+
+   在您的[自訂API認證](sms-configuration-custom.md)中，新增您的提供者承載以驗證和自訂您的RCS訊息。
 
 1. **為您的RCS訊息建立[通道設定](sms-configuration-surface.md)**
 
    連結您的Sinch憑證並定義傳訊引數，以在Journey Optimizer中設定管道表面。 此設定可讓您從Journey Optimizer撰寫及傳送RCS訊息。
+
+1. **建立並個人化您的[簡訊訊息](../sms/create-sms.md)**
+
+   將您的裝載直接貼入SMS內容中，以內嵌及傳遞您的Rich Communication Services (RCS)訊息。
+
+   ➡️ [在Sinch檔案中探索Sinch如何支援RCS](https://sinch.com/blog/rcs-api-guide/)
+
 
