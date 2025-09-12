@@ -10,9 +10,9 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -71,11 +71,13 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 ### 設定 {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 **[!UICONTROL 假設]**&#x200B;擷取要測試的計畫變更，並記錄對主要量度的預期影響。 定義明確的&#x200B;**[!UICONTROL 假設]**&#x200B;可確保每個實驗都有可測量的目標，更易於評估結果並判斷變更是否帶來有意義的改善。
 
+請注意，若要產生[實驗深入分析](#insights)，您必須確認假設和處理詳細資料，以及要達到的統計顯著性。
+
 1. 按一下「**[!UICONTROL 新增]**」為您的實驗建立&#x200B;**[!UICONTROL 假設]**。
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. 輸入您的&#x200B;**[!UICONTROL 假設]**，詳述已進行的變更以及變更將如何影響主要量度。
 
@@ -83,7 +85,9 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 1. 按一下&#x200B;**[!UICONTROL 檢閱]**&#x200B;以新增或取代每個處理的影像。
 
-1. 選取&#x200B;**[!UICONTROL 新增影像]**&#x200B;或&#x200B;**[!UICONTROL 取代影像]**，從您的本機檔案中選擇最適合您的&#x200B;**[!UICONTROL 處理]**&#x200B;的熒幕擷圖。
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. 治療影像會自動產生，但如有需要，您可以選取&#x200B;**[!UICONTROL 新增影像]**&#x200B;或&#x200B;**[!UICONTROL 取代影像]**，以從您的本機檔案上傳您偏好的熒幕擷取畫面以供您的&#x200B;**[!UICONTROL 治療]**&#x200B;使用。
 
    請注意，熒幕擷圖應該擷取整個頁面。
 
@@ -109,7 +113,7 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 * 根據實驗建立期間的設定，Journey Optimizer的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target的&#x200B;**[!UICONTROL 主要量度]**。
 
-在Widget底部，您會找到實驗設定的簡短摘要，包括：
+在Widget底部，您可以找到實驗設定的簡短摘要，包括：
 
 * 根據實驗建立期間的設定，Journey Optimizer的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target的&#x200B;**[!UICONTROL 主要量度]**。
 
@@ -123,17 +127,17 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 >
 >機會功能僅限於文字型變更的實驗。
 
-![](assets/experiment-monitor-opportunities.png)
-
 **[!UICONTROL 機會]**&#x200B;面板會顯示AI產生的建議，這些建議旨在提升測試效能，並符合更廣泛的業務目標和KPI。
 
-1. 選取想要的機會，然後按一下&#x200B;**[!UICONTROL 檢視機會]**。
+請注意，若要產生實驗機會，您首先需要[確認假設和處理詳細資料](#set-up)。
+
+1. 瀏覽建議的機會，然後按一下&#x200B;**[!UICONTROL 檢視機會]**。
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. 選取機會會開啟&#x200B;**機會詳細資料**&#x200B;視窗，其中概述Experimentation Accelerator建議的特定處理方式或變數。 此檢視包括：
 
    * **[!UICONTROL 假設]**： AI產生的假設，可說明建議處理的預期結果。
-
-   * **[!UICONTROL 新文書處理範例]**：顯示AI建議使用的樣式的文字或片語。
 
    * **[!UICONTROL 理由]**：說明Experimentation Accelerator建議這個機會的原因。
 
@@ -142,12 +146,19 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
       * **[!UICONTROL 學習潛力]**：根據和之前測試專案的差異，預估此機會可提供多少新的insight。
 
       * **[!UICONTROL 轉換潛力]**：根據與過去運作良好的策略的相似性，預估機會勝過目前治療的可能性。
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. 然後，您可以選擇&#x200B;**[!UICONTROL 共用您的機會]**，或透過選取&#x200B;**[!UICONTROL 開啟實驗]**&#x200B;直接啟動機會。
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. 然後，您可以選取&#x200B;**[!UICONTROL 開啟實驗]**，將其直接新增到您的實驗。
 
 1. 如果原始實驗是在Adobe Journey Optimizer中建立和管理的，此動作將會在該行銷活動中開啟&#x200B;**[!UICONTROL 內容實驗面板]**。
 
    對於源自&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗，建議的變更將載入到&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗工作流程中。
+
+   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 在實驗檢視中，可存取Experimentation Accelerator所顯示的相同AI **[!UICONTROL 實驗機會]**。
 
@@ -163,9 +174,9 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 * **[!UICONTROL 位置]**：根據績效來排名處理的位置，該績效指出處理與其他處理的比較方式。
 
-* **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
-
 * 根據實驗建立期間的設定，Journey Optimizer的&#x200B;**[!UICONTROL 成功量度]**&#x200B;或Adobe Target的&#x200B;**[!UICONTROL 主要量度]**。
+
+* **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
 
 * **[!UICONTROL 提升度]**：測量指定處理的轉換率相對於基準的提升百分比。
 
@@ -179,10 +190,12 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 >
 >Experimentation Insights功能僅限於文字型變更的實驗。
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL 實驗深入分析]**&#x200B;是從此實驗衍生的AI產生的學習。 當實驗達到統計顯著性並提供促使其成功的內容理解時，這些見解將變為可用。 它們會醒目提示成功處理中呈現的關鍵屬性（與控制項不同），而可能影響結果。
 
 請注意，若要產生實驗深入分析，您首先需要[確認假設和處理詳細資料](#set-up)以及要達到的統計顯著性。
 
 按一下「**[!UICONTROL 檢視詳細資料]**」以進一步瞭解每個深入分析。
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
