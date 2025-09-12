@@ -10,10 +10,10 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +22,16 @@ ht-degree: 1%
 >[!BEGINSHADEBOX]
 
 * **[開始使用Experimentation Accelerator](experiment-accelerator.md)**
-* [實驗索引標籤](experiment-accelerator-monitor.md)
+* [透過Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
+* [Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
+* [監視實驗](experiment-accelerator-monitor.md)
+* [實驗中的量度](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
-> Experimentation Accelerator目前處於Beta版，功能會逐步推出。
+>**Experimentation Accelerator**&#x200B;要求客戶必須擁有Adobe Target或Adobe Journey Optimizer的授權。
 
 **Experimentation Accelerator**&#x200B;是功能強大的工具，專為簡化和增強實驗程式而設計。 透過與Adobe Target和Adobe Journey Optimizer整合，它提供管理、分析和最佳化實驗的集中平台。 Experimentation Accelerator可善用AI驅動的深入分析和適應性測試，協助您作出資料導向式決策、改善行銷策略及取得可衡量的結果。
 
@@ -42,119 +45,31 @@ ht-degree: 1%
 
 * **更聰明的鎖定目標**：使用行為和內容資料來排定高影響力實驗的優先順序。
 
-* **KPI監控**：追蹤跨實驗的提升度、收入和信賴度等量度。
+* **KPI監控**：追蹤跨實驗的提升度和信賴度等量度。
 
 * **順暢的Collaboration**：輕鬆分享結果，並透過即時警示管理團隊角色。
 
+## 存取Experimentation加速器
+
 在[建立並設定您的實驗](content-experiment.md)並將您的行銷活動或歷程傳送至您的設定檔後，您可以存取&#x200B;**[!UICONTROL Experimentation Accelerator]**，以深入瞭解您的實驗如何執行。
 
-若要存取&#x200B;**[!UICONTROL Experimentation Accelerator]**：
+您可以從&#x200B;**[!UICONTROL Experimentation]**&#x200B;下拉式清單的左側功能表，或透過Apps切換器存取[!UICONTROL Experimentation Accelerator]。 請注意，只有Target授權的使用者只能透過應用程式切換器存取。
 
-* 從左側功能表，選取&#x200B;**[!UICONTROL 實驗性]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL Experimentation Accelerator]**。
+可用的實驗取決於您的設定：
 
-* 或者，從應用程式切換器選取&#x200B;**[!UICONTROL Experimentation Accelerator]**。
+* **若為Adobe Journey Optimizer使用者**：在您已啟用組織的沙箱中設定的實驗會自動包含在內。
 
-請注意，只有Target授權的使用者只能透過應用程式切換器存取。
+* **對於具有Journey Optimizer的Adobe Target使用者**： Target中的任何A/B活動都會出現在Journey Optimizer的生產沙箱中的&#x200B;**[!UICONTROL Experimentation Accelerator]**。
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
+* **僅適用於Adobe Target使用者**：您Target組織中的所有A/B活動都包含在Journey Optimizer的生產沙箱中。
+
+若要使用&#x200B;**[!UICONTROL Experimentation Accelerator]**，您需要存取沙箱並取得相關許可權。
+
+<!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-overview.md">Overview</a></strong></p></div></td>
 <td><img alt="Experiments" href="experiment-accelerator-monitor.md" src="assets/do-not-localize/experiment-overview.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-monitor.md">Experiments</a></strong></p></div></td>
 <td><img alt="Metrics" href="experiment-accelerator-metrics.md" src="assets/do-not-localize/experiment-metrics.png">
 <div align="center"><p><strong><a href="experiment-accelerator-metrics.md">Metrics</a></strong></p></div></td>
-</tr></table>
--->
-
-## 什麼是A/B測試？
-
-A/B測試是比較兩個或更多版本的東西以判斷哪些在定義的目標上表現較好的程式。
-
-參與者會被隨機指派到一個版本（稱為變體），並會追蹤其行為。 結果會顯示某個版本在統計上是否優於其他版本。
-
-## 重要術語
-
-| 術語 | 定義 |
-|-|-|
-| 控制 | 用作比較基準的原始版本。 |
-| 變體或處理 | 建立新版本以針對控制項進行測試。 |
-| 假設 | 預測哪些變更將產生更好的結果，以及原因。 |
-| 樣本大小 | 測試中包含的個人或工作階段數。 |
-| 統計顯著性 | 測量結果非隨機機率所導致的信賴測量。 |
-| 提升度 | 變體與控制項相比的改善或減少百分比。 |
-| 主要量度 | 用來判斷測試是否成功的主要測量。 |
-| 次要量度 | 提供額外insight或協助監控意外影響的支援量度。 |
-| 信賴區間 | 真實效果可能下降的估計範圍。 |
-| 區段 | 獨立分析的特定對象子集（例如，新使用者、行動訪客）。 |
-
-## 執行實驗的最佳作法
-
-* **以明確的假設開始**
-
-  一個強有力的假設包括您正在改變什麼、您預期會發生什麼以及發生原因。
-範例： _我們相信變更X會因為Z而增加Y。_
-
-* **定義有意義的成功量度**
-
-  選擇符合您更廣泛目標的量度。 避免看起來好但無法反映實際影響的「虛名」量度。
-
-* **一次測試一個變更（可能的話）**
-
-  隔離變數可讓您更輕鬆地準確解讀結果。 如果一次測試多項變更，您可能無法知道造成影響的原因。
-
-* **讓測試執行足夠長的時間**
-
-  過早的結論可能會產生誤導。 等候統計上顯著的樣本大小後再採取行動。
-
-* **注意外部因素**
-
-  季節性、假期和環境中的其他變更可能會影響結果。 記錄任何可能影響測試期間行為的內容。
-
-* **周詳使用分段**
-
-  依受眾區段劃分結果可揭示隱藏的模式，但避免過度解讀小型樣本。
-
-* **檔案並共用學習專案**
-
-  清楚記錄測試內容、測試原因以及所學知識。 這有助於建立機構知識，避免重複錯誤。
-
-## 通用量度
-
-| 量度 | 測量內容 | 使用時機 |
-|-|-|-|
-| 轉換率 | 完成所需動作的使用者百分比 | 對於追蹤目標導向體驗的成功非常有用 |
-| 點進率(CTR) | 按一下特定元素的使用者百分比 | 表示體驗的吸引人程度 |
-| 參與率 | 使用者與體驗的互動等級 | 適合測量興趣或關注 |
-| 跳出率 | 不採取動作而快速離開的使用者百分比 | 可能表示不適或混淆體驗 |
-| 頁面逗留時間 | 使用者在體驗特定部分所花費的時間 | 可反映興趣深度或複雜性 |
-| 每位訪客帶來的收入(RPV) | 每個使用者取得的平均收入 | 常用於以商業為中心的實驗 |
-| 保留率 | 一段時間內回訪或持續參與的使用者百分比 | 適合用於長期價值評估 |
-
-## 什麼是好的實驗？
-
-一個好的實驗不只產生一個勝利，它產生一個清晰、可操作的學習。
-以下是要尋找的內容：
-
-&amp;amp；檢查； **統計信賴度**：變體之間的差異不太可能是偶然造成的。
-&amp;amp；檢查； **與目標校準**：主要量度反映向業務目標邁進的有意義進度。
-&amp;amp；檢查； **次要影響**：對相關量度沒有顯著的負面影響。
-&amp;amp；檢查； **可擴充性**：此結果可為未來的決策提供資訊，或將其泛化至其他區域。
-&amp;amp；check； **清晰度**：結果的原因已被合理隔離和理解。
-
-實驗不僅僅是尋找「最佳」版本，它也是透過測試和反複專案來建立知識。 在成功完成時，實驗會顯示推動更明智決策、更佳使用者體驗和改進結果的見解。
-
->[!BEGINSHADEBOX]
-
-**範例：**
-
-* **公司**：連鎖飯店
-* **假設**：如果在首頁上使用更緊急的語言，將會導致更多預訂。
-   * **控制項**：原始版本
-   * **變體**：已新增具有急迫性的新版本
-   * **主要量度**：預訂率
-   * **次要量度**：跳出率、網站逗留時間
-* **結果**：變體使預訂率提升14%，其他量度沒有負數變更。
-* **動作**：請考慮推出變體並執行後續實驗，以在其他區域測試類似的方法。
-
->[!ENDSHADEBOX]
+</tr></table-->

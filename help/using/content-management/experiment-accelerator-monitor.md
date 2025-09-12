@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Experimentation Accelerator監視器
 description: 提高有效進行實驗並產生深入見解的能力
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
 
-# 實驗索引標籤 {#monitor}
+# 追蹤您的實驗 {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [開始使用Experimentation Accelerator](experiment-accelerator.md)
-* **[實驗索引標籤](experiment-accelerator-monitor.md)**
+* [透過Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
+* [Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
+* **[監視實驗](experiment-accelerator-monitor.md)**
+* [實驗中的量度](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
 **[!UICONTROL 實驗深入分析]**&#x200B;是從此實驗衍生的AI產生的學習。 當實驗達到統計顯著性並提供促使其成功的內容理解時，這些見解將變為可用。 它們會醒目提示成功處理中呈現的關鍵屬性（與控制項不同），而可能影響結果。
 
-請注意，若要產生實驗深入分析，您首先需要[確認假設和處理詳細資料](#set-up)。
+請注意，若要產生實驗深入分析，您首先需要[確認假設和處理詳細資料](#set-up)以及要達到的統計顯著性。
 
 按一下「**[!UICONTROL 檢視詳細資料]**」以進一步瞭解每個深入分析。
