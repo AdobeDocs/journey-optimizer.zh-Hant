@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '944'
+ht-degree: 5%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 6%
 個人化最佳化會利用監督機器學習和深度學習領域的先進技術，讓商業使用者 (行銷人員) 定義業務目標，並利用他們的客戶資料來訓練商業導向的模型，以提供個人化產品建議並將 KPI 最大化。
 
 ![](../../rn/assets/do-not-localize/ai-ranking.gif)
+
+## 資料集需求
+
+若要訓練個人化最佳化模型，資料集必須符合下列最低需求：
+
+* 資料集中至少有2個選件在過去30天內必須具有至少250個顯示事件和25個成功事件（例如，點按或轉換）。
+* 過去30天內顯示少於250個和/或25個成功事件的優惠方案符合納入個人化流量的資格，但個人化模型會將其視為在最差評分*優惠方案層級執行，直到超過此臨界值為止。
+* 過去30天內顯示少於250個及/或25個成功事件的優惠方案，仍符合納入探索流量的資格。
+
+在第一次訓練個人化最佳化模型之前，會隨機提供使用個人化最佳化模型之選擇策略中的選件。
 
 ## 主要模型假設和限制 {#key}
 
