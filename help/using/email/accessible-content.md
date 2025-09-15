@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >另一方面，[!DNL Journey Optimizer]介面本身的協助工具在[本節](../start/accessibility.md)中有詳細說明。
 > 
->## 確保文字可讀性 {#text-readability}
+## 確保文字可讀性 {#text-readability}
 
 運用&#x200B;**[!UICONTROL Text]**&#x200B;元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤，確保文字可讀，例如使用適當的色彩對比和簡單字型。 [了解更多](content-components.md#text)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 使用電子郵件Designer相關結構和[內容元件](content-components.md)，以及&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格中的選項，以清晰、邏輯且簡潔的方式組織您的內容，讓所有人都能存取。
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * 使用結構化、語意化的HTML，搭配適當的標題、段落、清單和表格。
 * 確保內容遵循由左至右、由上至下的邏輯流程。
