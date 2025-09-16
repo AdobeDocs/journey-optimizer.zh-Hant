@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -119,14 +119,14 @@ Adobe Journey Optimizer中的Campaign Orchestration使用關聯式資料庫。 �
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## 協調的行銷活動可以與其他Adobe解決方案整合嗎？ {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-可以。Campaign協調流程與以下專案以原生方式整合：
-
-* **Customer Journey Analytics**：有可用的行銷活動協調流程報告。
-* **Real-Time CDP**：可在Real-Time CDP中讀取行銷活動中建置的對象。
-* **同盟對象構成(FAC)**：可作為附加元件使用。
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## 許可權和同意呢？ {#permissions}
 
