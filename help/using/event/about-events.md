@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 47%
@@ -54,7 +54,7 @@ ht-degree: 47%
 
   >[!CAUTION]
   >
-  >已為規則型事件定義上限規則。 對於指定組織，歷程可處理的合格事件數限製為每秒5,000個。 它對應於Journey Optimizer SLA。 請參閱您的Journey Optimizer授權和[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html)。
+  >已為規則型事件定義上限規則。 對於指定組織，歷程可處理的合格事件數限製為每秒5,000個。 它對應於Journey Optimizer SLA。 請參閱您的Journey Optimizer授權和[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 * **系統產生的** 事件：這些事件需要 eventID。建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 
@@ -83,7 +83,7 @@ ht-degree: 47%
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

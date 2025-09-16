@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
-hide: true
-hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1124'
 ht-degree: 4%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 4%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資訊嗎？ 使用本頁底部的意見回饋選項來提出您的問題。
+需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 ## 什麼是Campaign協調流程？ {#what-are-oc}
 
@@ -52,6 +50,7 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
 
+在[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}中進一步瞭解Campaign Orchestration授權模式。
 
 ## 支援哪些管道？ {#channels}
 
