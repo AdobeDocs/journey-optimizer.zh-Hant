@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="選取行銷活動的型別。 可用的管道會依選取的型別而有所不同。 <br>**排程行銷活動** （動作行銷活動） — 適用於可以排程在特定時間執行的簡單、一次性批次通訊。<br>**API觸發的行銷活動** — 透過API呼叫啟動，可直接從外部系統啟用自動化、事件型傳訊。<br>**協調的行銷活動** — 提供視覺化的拖放畫布，以設計和自動化複雜的多步驟行銷工作流程，從對象細分到跨管道的個人化訊息傳遞。"
+>abstract="選取行銷活動類型。可用管道根據所選類型而有所不同。<br>**已排程行銷活動** (動作行銷活動) – 非常適合簡單的一次性批次通訊，您可以安排在特定時間執行。<br>**API 觸發的行銷活動** – 透過 API 呼叫啟動，啟用直接從外部系統傳送以事件為基礎的自動化訊息功能。<br>**協調式行銷活動** – 提供視覺化的拖放式版面，用於設計和自動化複雜的多步驟行銷工作流程，從客群細分到跨管道的個人化訊息傳送都包含在內。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"

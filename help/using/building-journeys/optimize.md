@@ -161,11 +161,11 @@ ht-degree: 6%
 
 +++
 
-## 善用目標定位 {#targeting}
+## 善用目標選擇 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
->title="什麼是遞補路徑？"
+>title="什麼是後備路徑？"
 >abstract="備援路徑可讓您的對象在沒有符合目標規則時輸入替代路徑。 </br>如果您未選取此選項，任何不符合鎖定目標規則的對象都不會進入後援路徑並退出歷程。"
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。

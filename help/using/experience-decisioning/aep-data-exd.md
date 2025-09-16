@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 7%
+ht-degree: 25%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="資料集查詢"
->abstract="為了使用Adobe Experience Platform的屬性來做出決策，您需要建立對應來定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料結合。"
+>abstract="為了使用 Adobe Experience Platform 中的屬性進行決定，您需要建立對應來定義 Adobe Experience Platform 資料集如何與 [!DNL Journey Optimizer] 中的資料聯結。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="資料集查詢"
->abstract="從所有已啟用查閱的Adobe Experience Platform資料集中選取具有所需屬性的資料集，然後選取同時存在於決定專案屬性和資料集中的對應索引鍵（例如航班號碼或客戶ID）。"
+>abstract="在所有已啟用查詢的 Adobe Experience Platform 資料集中選取具有所需屬性的資料集，然後選取決定項目屬性和資料集中都存在的對應索引鍵 (例如，航班編號或客戶 ID)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="資料集查詢"
->abstract="選取包含所需屬性的Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。"
+>abstract="選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="資料集查詢"
->abstract="使用[!DNL Adobe Experience Platform]資料集屬性來動態調整排名邏輯，以反映真實世界的狀況。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，動態地調整排名邏輯以反映現實世界的情況。按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="新增資料集"
->abstract="使用[!DNL Adobe Experience Platform]個資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以使用您需要的屬性選取Adobe Experience Platform資料集。 如果資料集未顯示在清單中，請確定您已啟用它以進行查詢，並已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 >[!AVAILABILITY]
 >

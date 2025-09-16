@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="建立決策規則"
->abstract="決定規則可讓您透過直接在決定項目層級或在特定選擇策略內套用限制來定義決定項目的客群。 這能讓您精確控制應向誰呈現哪些項目。<br/><br/>選取&#x200B;**[!UICONTROL 使用資料集]**&#x200B;建立規則，以在決定規則中使用Adobe Experience Platform資料。 這可讓您根據動態的外部屬性定義資格標準，確保僅在相關時顯示決策專案。"
+>abstract="決定規則可讓您透過直接在決定項目層級或在特定選擇策略內套用限制來定義決定項目的客群。 這能讓您精確控制應向誰呈現哪些項目。<br/><br/>選取「**[!UICONTROL 使用資料集建立規則]**」，以在決定規則中使用 Adobe Experience Platform 資料。這可讓您根據動態的外部屬性來定義適用性條件，確保決定項目只會在相關時顯示。"
 
 ## 關於決定規則 {#about}
 
