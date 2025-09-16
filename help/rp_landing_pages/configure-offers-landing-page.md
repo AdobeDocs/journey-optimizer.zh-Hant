@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立個人化產品建議
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 在產品建議中新增聲明
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 在產品建議中新增限制
 

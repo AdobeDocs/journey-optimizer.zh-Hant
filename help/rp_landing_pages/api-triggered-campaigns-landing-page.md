@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 定義由 API 觸發的行銷活動屬性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定由 API 觸發的行銷活動動作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 編輯及個人化由 API 觸發的行銷活動內容
 

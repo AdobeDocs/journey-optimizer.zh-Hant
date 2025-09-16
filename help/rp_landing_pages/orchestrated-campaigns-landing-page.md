@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 協調行銷活動的資料設定
 

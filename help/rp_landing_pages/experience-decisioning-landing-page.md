@@ -40,7 +40,7 @@ Decisioning 簡介
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 API 參考：傳遞產品建議
 

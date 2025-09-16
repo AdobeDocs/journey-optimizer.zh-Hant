@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用存取控制
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管理使用者和角色
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 內建角色
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 內建權限
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 權限層級
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 以屬性為基礎的存取控制
 

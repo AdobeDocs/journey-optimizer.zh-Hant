@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的資料設定全都是透過組織和連線您的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 管理關聯式結構描述和資料集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的資料設定全都是透過組織和連線您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 如何設定目標維度
 

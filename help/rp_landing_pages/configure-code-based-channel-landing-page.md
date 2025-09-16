@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 程式碼型體驗先決條件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 程式碼型體驗表面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 實施方法範例
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 程式碼型體驗實作中的決策
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立程式碼型體驗設定
 
