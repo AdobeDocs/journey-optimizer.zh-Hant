@@ -7,14 +7,14 @@ redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 電子郵件管道{#section-overview}
 
-Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方式設計、設定及提供具影響力的電子郵件行銷活動。 無論您是使用直覺式的電子郵件Designer製作個人化訊息、設定複雜的電子郵件歷程和行銷活動，或管理合規性的選擇退出，此管道都將電子郵件行銷的各個方面整合在一起。 首先設定電子郵件通道以獲得最佳傳遞能力及個人化，然後探索工具以建立與您的對象產生迴響的動態內容。 深入瞭解進階主題，例如管理寄件者信譽和達到DMARC合規性，以確保您的電子郵件到達預定位置。 從順暢的設定到有效的設計和策略性傳遞，電子郵件通道可讓您將電子郵件行銷轉換為可靠的資料導向引擎，以供客戶參與。
+Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的方式設計、設定及提供具影響力的電子郵件行銷活動。無論您是使用直覺式的電子郵件Designer製作個人化訊息、設定複雜的電子郵件歷程和行銷活動，或管理合規性的選擇退出，此管道都將電子郵件行銷的各個方面整合在一起。 首先設定電子郵件管道以獲得最佳傳遞能力及個人化，然後探索工具以建立與您的客群產生共鳴的動態內容。深入瞭解進階主題，例如管理寄件者信譽和達到DMARC合規性，以確保您的電子郵件到達預定位置。 從順暢的設定到有效的設計和策略性傳遞，電子郵件管道可讓您將電子郵件行銷轉換為可靠的資料導向引擎，以提高客戶參與度。
 
 可建立的電子郵件傳遞：
 
@@ -27,32 +27,32 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 >
 >如果這是您第一次建立電子郵件，請確定已設定電子郵件通道。 [了解更多](../using/email/email-settings.md)
 
-## 電子郵件通道功能與檔案
+## 電子郵件管道功能與文件
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立電子郵件
 
 在歷程或行銷活動中新增、設定和測試電子郵件動作的逐步指南。
 
-[瞭解如何建立電子郵件](../using/email/create-email.md)
+[了解如何建立電子郵件](../using/email/create-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計和最佳化電子郵件內容
 
-探索使用Adobe Journey Optimizer設計回應式和個人化電子郵件內容的工具和最佳實務。
+探索使用 Adobe Journey Optimizer 設計回應式和個人化電子郵件內容的工具和最佳做法。
 
 [設計吸引人的電子郵件](design-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理電子郵件選擇退出
 
@@ -62,21 +62,21 @@ Adobe Journey Optimizer中的電子郵件通道可讓您以精確和創意的方
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-設定電子郵件頻道
+設定電子郵件管道
 
-設定和管理電子郵件設定，例如子網域委派、隱藏清單和進階功能。
+設定和管理電子郵件設定，例如子網域委派、禁止名單和進階功能。
 
 [設定電子郵件設定](configure-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 掌握電子郵件傳遞能力
 
-瞭解並最佳化電子郵件傳遞能力，運用工具、最佳實務和可操作的深入分析來改善寄件者信譽。
+了解並最佳化電子郵件傳遞能力，運用工具、最佳做法和可操作的深入分析來改善寄件者信譽。
 
 [改善電子郵件傳遞能力](deliverability-landing-page.md)
 :::
