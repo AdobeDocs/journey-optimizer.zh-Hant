@@ -5,10 +5,10 @@ title: 建立運算式
 description: 建立運算式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用進階運算式編輯器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 進階運算式語法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的函式
 
@@ -48,5 +48,27 @@ Adobe Journey Optimizer 中的函式
 
 [探索可用的函式](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Journey Optimizer資料集和相關使用案例的查詢範例
+
+存取實用的 SQL 查詢範例，以分析和管理各種使用案例中 Journey Optimizer 資料集的資料。
+
+[探索使用案例](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+資料分析的 SQL 查詢範例
+
+存取在資料湖中分析 Journey Optimizer 資料的 SQL 查詢範例，從疑難排解到報告和客群細分。
+
+[探索歷程建立](../using/reports/query-examples.md)
+:::
+
 
 ::::
