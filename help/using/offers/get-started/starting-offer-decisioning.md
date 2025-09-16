@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的新決策功能「決策」現在可透過程式碼型體驗頻道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳產品建議和體驗。設計完成後，透過個人化產品建議目標定位客群。
 
@@ -121,6 +121,6 @@ ht-degree: 100%
 
 以下影片說明如何使用決定管理來定義和管理您的產品建議，並運用即時客戶資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470052?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
