@@ -5,10 +5,10 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
+source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '1419'
+ht-degree: 3%
 
 ---
 
@@ -51,22 +51,6 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
 
 在[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}中進一步瞭解Campaign Orchestration授權模式。
-
-## 支援哪些管道？ {#channels}
-
-您可以建立協調的行銷活動，以傳送&#x200B;**電子郵件**、**簡訊**&#x200B;及&#x200B;**推播通知**。
-
-
->[!BEGINSHADEBOX]
-
-**推薦**
-
-* 將頻道與您的訊息&#x200B;**的**&#x200B;性質配對（例如，緊急=簡訊，個人化優惠=電子郵件，情境=推播）。
-* 啟用管道前，請務必驗證同意和訂閱偏好設定。
-* 測試跨多個裝置和使用者端的訊息呈現，以確保一致的體驗。
-
->[!ENDSHADEBOX]
-
 
 ## 協調的行銷活動與歷程有何不同？ {#oc-vs-journeys}
 
@@ -128,6 +112,31 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
+## 支援哪些管道？ {#channels}
+
+您可以建立協調的行銷活動，以傳送&#x200B;**電子郵件**、**簡訊**&#x200B;及&#x200B;**推播通知**。
+
+## 可以在同一個協調的行銷活動中啟動多個通訊和不同的管道嗎？
+
+是，協調的行銷活動支援跨頻道協調。
+
+## 是否提供協調的行銷活動範本？
+
+否，您無法定義或使用行銷活動範本，但可以在通訊中使用內容範本。
+
+## 訊息的內容設計工具是否專屬於協調的行銷活動？
+
+否，內容設計工具(包括電子郵件Designer)在所有Journey Optimizer功能中都很常見。
+
+## 在協調的行銷活動中，不同的管道如何連線？
+
+頻道元件和執行階段是所有Journey Optimizer行銷活動的共同點，但支援的頻道不同。
+
+## 協調的行銷活動可以與傳出頻道（網頁、inApp）連線嗎？
+
+否，協調的行銷活動不支援傳出頻道。
+
+
 ## 許可權和同意呢？ {#permissions}
 
 協調行銷活動和歷程的許可權和同意在Adobe Experience Platform中集中管理。 這些設定會在傳送前套用至每個收件者的兩個解決方案。
@@ -156,7 +165,9 @@ Yes. Campaign orchestration is natively integrated with:
 
 >[!ENDSHADEBOX]
 
+## Campaign Orchestration是否僅存取透過批次載入的資料，或查詢即時更新的表格（例如Analytics資料）？
 
+Journey Optimizer Campaign Orchestration可以先在關聯式結構描述上建立臨機查詢。 關聯式結構描述目前僅支援批次來源。 此外，它支援從任何型別的Adobe Experience Platform對象讀取對象。
 
 ## 協調的行銷活動是否支援決策？ {#decisioning}
 
@@ -187,6 +198,39 @@ Yes, follow the best practices below:
 * Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
+
+## 收件者和設定檔實體之間的關係為何？
+
+根據Adobe Experience Platform設定檔進行傳送時，會對收件者執行分段。 收件者目標維度會使用在協調行銷活動中用於分段的其他資料來擴充統一設定檔，而收件者會在執行階段與設定檔進行調解，以便傳送訊息及檢查同意原則和業務規則。 此調解對於在設定檔層級統一商業規則和同意應用程式非常有用
+
+![](assets/recipients-and-profiles.png)
+
+
+## 在哪些情況下，建議使用收件者與設定檔實體？
+
+回答「是」會建議最佳資料存放區，但請務必根據您的使用案例和限制，向您的Adobe代表確認最佳方法。
+
+| 關聯式存放區 | 即時客戶輪廓 |
+|---------|----------|
+| 資料來源是否已關聯？ | 資料串流的來源嗎？ |
+| 您打算擷取資料原樣用於行銷使用案例嗎？ | 資料的時效性是一項主要需求嗎？ |
+| 行銷啟動使用案例是否需要大量歷史資料（`>` 2個月）？ | 是否有即時動作或決定需要資料的情況？ |
+| 建立、評估和啟用對象是否有臨時需求？ | 使用預先計算的彙總時，行為資料是否可限制在`<` 90天內？ |
+|  | 需要即時個人化訊息的資料嗎？ |
+
+
+## 每個協調的行銷活動的最大活動數是多少？
+
+已協調的行銷活動中的活動數限製為500。
+
+## 是否可以執行擴充功能以新增其他資料？
+
+可以，您可以擴充關聯式存放區和Adobe Experience Platform受眾的資料。
+
+## 所有篩選器皆必須透過對象定義，還是可以設定某種型別的篩選器？
+
+協調的行銷活動支援預先定義的篩選器：您可以定義並儲存查詢作為篩選器，並將其新增至您的最愛，以便用於進一步的細分任務。
+
 
 
 >[!MORELIKETHIS]
