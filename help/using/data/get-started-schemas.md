@@ -8,37 +8,53 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 18%
 
 ---
 
 # 開始使用結構描述 {#schemas-gs}
 
-結構描述是 Experience Platform 描述資料的標準方式，允許所有符合結構描述的資料在整個組織重複使用而不會產生衝突，甚至可在多個組織之間共用。
+[!DNL Adobe Journey Optimizer]仰賴&#x200B;**Adobe Experience Platform結構描述**&#x200B;以一致且可重複使用的方式描述資料結構。 結構描述會提供真實世界物件（例如人）的抽象定義，並概述物件的每個執行個體中應該包含哪些資料（例如名稱、生日等）。 將資料擷取至Experience Platform時，其結構一律符合&#x200B;**XDM結構描述**。
 
-➡️ [了解如何在這段影片裡建立、設定結構描述](#video-schema) (影片)
+## 標準和關聯式結構描述
 
-結構描述是一組規則，足以代表並驗證資料的結構和格式。 從高層面來說，結構描述會提供真實物件 (例如個人) 等抽象定義，還會概述應加入物件的每個執行個體資料 (例如名字、姓氏、生日等)。
+Adobe Experience Platform中有兩種結構描述：
 
-在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}中，了解如何建立結構描述
+* **標準結構描述**&#x200B;為階層式結構描述，使用類別和欄位群組來擷取記錄或時間序列資料。
 
-此&#x200B;**結構描述**&#x200B;工作區[!DNL Adobe Journey Optimizer]使用者介面可讓您管理 Experience Data Model (XDM) 資源，包括結構描述、類別、結構描述欄位群組以及資料類型。 您可以檢視並探索 Adobe 提供的核心資源，並為貴組織建立自訂資源和結構描述。
+  標準結構描述由以下部分組成：
 
-![](assets/schemas-home.png)
+   * **類別** （定義資料行為：記錄或時間序列）。
+   * 一或多個&#x200B;**欄位群組** （會將特定欄位新增至結構描述）。
 
-在[本文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant){target="_blank"}中，了解如何使用結構描述的使用者介面
+  在Journey Optimizer中，標準結構描述通常用於表示&#x200B;**個人使用者及其屬性**、擷取&#x200B;**時間序列互動** （例如點選、購買或登入），以及支援&#x200B;**即時客戶個人檔案**&#x200B;以進行細分和個人化。
 
-請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant){target="_blank"}，即可瞭解如何使用結構描述編輯器，建立結構描述的逐步操作文件。
+  ➡️ [在此影片中瞭解如何建立及設定標準結構描述](#video-schema) （影片）
 
-請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}，以便檢視每個結構描述的完整欄位、屬性清單。
+* **關聯式結構描述**&#x200B;是不使用類別或欄位群組的平面、非階層式結構描述。 它們用於擷取關聯式實體的記錄資料，主要用於[!DNL Journey Optimizer] **協調的行銷活動**。
 
+  關聯實體的範例包括：
+   * 預訂、合約或訂閱
+   * 產品或目錄
+   * 商店、地點或合作夥伴
 
-## 操作說明影片{#video-schema}
+  使用關聯式結構描述時，您可以為每個實體傳送一封訊息（例如，每個預訂、每個訂閱）、根據實體屬性（例如，產品類別、商店位置）建立區段，以及透過聯絡連結到實體的所有聯絡人來改善定址能力。
 
-瞭解如何建立結構、新增欄位群組、建立及設定自訂欄位群組。
+  關聯式綱要的運作方式：
+
+   1. **手動建立結構描述或透過DDL匯入**
+   1. **連結結構描述**&#x200B;以定義實體和人員之間的關係（例如，連結至成員的忠誠度交易、連結至品牌的獎勵）。
+   1. **從支援的來源將資料**&#x200B;擷取到您的資料集中。
+
+  ➡️ [瞭解如何管理關聯式結構描述和資料集](../orchestrated/gs-schemas.md)
+➡️ [開始使用協調的行銷活動](../orchestrated/gs-schemas.md)
+
+## 作法影片{#video-schema}
+
+瞭解如何建立標準結構、新增欄位群組、建立及設定自訂欄位群組。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
