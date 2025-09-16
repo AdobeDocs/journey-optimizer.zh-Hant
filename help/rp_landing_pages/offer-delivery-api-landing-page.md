@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 使用 API，傳遞產品建議
-description: 使用 API，傳遞產品建議
+title: 使用 API 傳遞產品建議
+description: 使用 API 傳遞產品建議
 redpen-status: CREATED_||_2025-08-11_21-04-29
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# 使用 API 傳遞產品建議{#section-overview}
 
-# 使用 API，傳遞產品建議{#section-overview}
+Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向適當的客群提供個人化行銷產品建議，進而提升多個管道的參與度。無論您是使用邊緣決策 API 設計即時體驗、使用決策 API 量身打造特定產品建議，還是透過批次決策 API 擴大推廣，這些工具都提供適用於不同使用案例的多功能解決方案。您將探索每個 API 的運作方式，從處理內容資料到實施頻率上限，並探索根據您的業務需求量身打造的工作流程。開始解鎖更聰明的決策能力及順暢的整合功能，信心十足地提供具影響力的客戶體驗。
 
-Adobe Journey Optimizer的優惠傳送API可讓您在適當的時間向適當的對象提供個人化行銷優惠方案，提升多個管道的參與度。 無論您是使用Edge Decisioning API設計即時體驗、使用Decisioning API量身打造特定選件，還是透過批次決策API擴展外展活動，這些工具都提供適用於不同使用案例的多功能解決方案。 您將探索每個API的運作方式，從處理內容資料到實施頻率上限，並探索根據您的業務需求量身打造的工作流程。 開始釋放更聰明的決策能力及順暢的整合功能，信心十足地提供具影響力的客戶體驗。
-
-## 使用API傳遞優惠方案
+## 使用 API 傳遞產品建議
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-開始使用選件傳送API
+開始使用產品建議傳遞 API
 
-瞭解可用於提供個人化優惠的API，包括決策、Edge決策和批次決策API。
+了解可用於提供個人化產品建議的 API，包括決策、邊緣決策和批次決策 API。
 
 [閱讀簡介](../using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-使用Decisioning API傳遞優惠方案
+使用決策 API 傳遞產品建議
 
-使用Decisioning API建立並提供個人化行銷優惠方案，包含標題、請求和回應的詳細指引。
+使用決策 API 以及標頭、請求和回應的詳細指引，建立並提供個人化行銷產品建議。
 
-[探索決策API](../using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+[探索決策 API](../using/offers/api-reference/offer-delivery-api/decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-使用Edge Decisioning API傳遞優惠方案
+使用邊緣決策 API 傳遞產品建議
 
-透過Adobe Experience Platform Decisioning API使用Edge Web SDK實作個人化優惠傳遞。
+透過邊緣決策 API 使用 Adobe Experience Platform Web SDK 實施個人化產品建議傳遞。
 
-[瞭解Edge Decisioning](../using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+[了解邊緣決策](../using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-使用批次決策API提供優惠方案
+使用批次決策 API 傳遞產品建議
 
-運用批次決策API，批次處理決策並將優惠傳送至對象設定檔。
+運用批次決策 API，批次處理決策並將產品建議傳送至客群輪廓。
 
-[開始使用批次決策](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+[批次決策快速入門](../using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 :::
 
 ::::

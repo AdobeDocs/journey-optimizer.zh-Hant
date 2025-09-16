@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: 建立決策管理報告
 description: 建立決策管理報告
 redpen-status: CREATED_||_2025-08-11_21-02-56
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # 建立決策管理報告{#section-overview}
 
-在Adobe Journey Optimizer中建立決定管理報表，可讓您獲得寶貴的見解，瞭解個人化優惠和決定在真實情境中的表現。 透過使用事件資料和結構描述，您可以探索已選取的選件、遞補案例和刊登版位成效，這些都是改善客戶體驗的關鍵。 本節將引導您瞭解事件資料集、存取和解釋DecisioningEvents XDM架構，以及利用這些工具實現可操作的報告。 無論您是資料工程師或行銷人員，都能清楚瞭解如何自信地分析和最佳化決策流程。
+在 Adobe Journey Optimizer 中建立決策管理報告，可讓您獲得寶貴的見解，了解個人化產品建議和決策在真實情境中的表現。透過使用事件資料和結構描述，您可以探索已選取的產品建議、遞補案例和刊登版位成效，這些都是改善客戶體驗的關鍵。本節將引導您了解事件資料集、存取和解釋 DecisioningEvents XDM 結構描述，以及利用這些工具建立可操作的報告。無論您是資料工程師還是行銷人員，都能清楚了解如何自信地分析和最佳化決策流程。
 
-## 建立決定管理報告
+## 建立決策管理報告
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-使用決定管理事件
+使用決策管理事件
 
-瞭解如何使用Adobe Experience Platform將決策管理事件資料集用於報告和分析。
+了解如何使用 Adobe Experience Platform 將決策管理事件資料集用於報告和分析。
 
-[探索決定管理事件](../using/offers/reports/get-started-events.md)
+[探索決策管理事件](../using/offers/reports/get-started-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-存取及探索DecisioningEvents XDM欄位
+存取及探索 DecisioningEvents XDM 欄位
 
-存取DecisioningEvents XDM結構、探索其欄位，並瞭解其屬性以取得詳細報告。
+存取 DecisioningEvents XDM 結構描述、探索其欄位，並了解其屬性以建立詳細報告。
 
-[存取XDM欄位](../using/offers/reports/xdm-fields.md)
+[存取 XDM 欄位](../using/offers/reports/xdm-fields.md)
 :::
 
 ::::

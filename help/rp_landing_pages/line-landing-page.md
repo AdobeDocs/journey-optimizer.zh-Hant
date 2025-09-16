@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -25,36 +25,36 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 
 建立 LINE 訊息之前，請先使用 Journey Optimizer，設定好 LINE 頻道。[了解更多](../using/line/line-configuration.md)。
 
-## LINE Channel檔案
+## LINE 管道文件
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-設定LINE頻道
+設定 LINE 管道
 
-依照逐步指示，手動設定LINE頻道，或使用Adobe Journey Optimizer中的API設定頻道設定。
+依照逐步指示，手動設定 LINE 管道，或使用 Adobe Journey Optimizer 中的 API 設定管道。
 
-[瞭解如何設定](../using/line/line-configuration.md)
+[了解如何設定](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-建立和設定LINE訊息
+建立和設定 LINE 訊息
 
-探索如何將LINE訊息新增至歷程與行銷活動、個人化內容，以及執行內容測試。
+探索如何將 LINE 訊息新增至歷程與行銷活動、個人化內容，以及執行內容測試。
 
 [開始建立訊息](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-檢查並傳送LINE訊息
+檢查並傳送 LINE 訊息
 
-在Adobe Journey Optimizer中預覽、驗證和傳送LINE訊息，確保透過最佳實務成功傳送。
+在 Adobe Journey Optimizer 中預覽、驗證和傳送 LINE 訊息，確保透過最佳做法成功傳送。
 
 [取得傳送訊息的提示](../using/line/send-line.md)
 :::

@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: 客群
 description: 客群
 redpen-status: CREATED_||_2025-08-11_20-46-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # 客群{#section-overview}
 
-Adobe Journey Optimizer中的受眾可協助您根據客戶的行為、偏好和特性，將其組織成有意義的群組，在適當的時間與合適的人物聯絡。 無論您是定義區段、上傳自訂清單，還是結合來自多個來源的資料，此功能都能讓您建立高度個人化的行銷活動和歷程。 您將探索細分工具、即時啟用對象的方法，以及豐富客戶設定檔以提供量身打造體驗的技術。
+Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好和特性，將其組織成有意義的群組，在適當的時間與合適的人聯絡。無論您是定義區段、上傳自訂清單，還是結合來自多個來源的資料，此功能都能讓您建立高度個人化的行銷活動和歷程。您將探索細分工具、即時啟用客群的方法，以及擴充客戶輪廓的技術，以提供量身打造的體驗。
 
-## 受眾概述
+## 客群概觀
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-開始使用對象
+客群快速入門
 
-瞭解Adobe Journey Optimizer中對象管理、細分和啟用的基礎知識。
+了解 Adobe Journey Optimizer 中客群管理、細分和啟用的基礎知識。
 
-[探索受眾基本知識](../using/audience/about-audiences.md)
+[探索客群基本知識](../using/audience/about-audiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-建立和管理對象
+建立和管理客群
 
-探索對象建立、構成和擴充的進階工作流程，包括CSV匯入和同盟資料來源。
+探索客群建立、構成和擴充的進階工作流程，包括 CSV 匯入和聯合資料來源。
 
-[瞭解如何建立受眾](create-landing-page.md)
+[了解如何建立客群](create-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-在行銷活動和歷程中啟用對象
+在行銷活動和歷程中啟用客群
 
-瞭解如何啟用受眾，並在行銷活動和歷程中有效使用受眾，以針對性個人化。
+了解如何啟用客群，並在行銷活動和歷程中有效使用客群，以實現有針對性的個人化。
 
-[瞭解Audience Activation](../using/audience/target-audiences.md)
+[了解客群啟用](../using/audience/target-audiences.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 善用擴充屬性
 
-使用擴充屬性，以增強的對象深入分析來個人化行銷活動和歷程。
+使用擴充屬性，以增強的客群深入分析來個人化行銷活動和歷程。
 
-[瞭解擴充屬性](../using/audience/enrichment-attributes.md)
+[了解擴充屬性](../using/audience/enrichment-attributes.md)
 :::
 
 ::::

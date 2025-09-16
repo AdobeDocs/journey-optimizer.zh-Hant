@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 內容卡
 description: 內容卡
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # 內容卡{#section-overview}
 
@@ -18,38 +18,38 @@ ht-degree: 50%
 
 此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。
 
-## 內容卡檔案
+## 內容卡文件
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-設定內容卡頻道
+設定內容卡管道
 
-設定並整合Web、行動和Kiosk平台的內容卡頻道與動態個人化。
+設定並整合網頁、行動裝置和資訊站平台的內容卡管道與動態個人化。
 
-[設定頻道](configure-landing-page.md)
+[設定管道](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及設定內容卡
 
 逐步教學課程，說明如何在歷程或行銷活動中建立、自訂及實作個人化訊息的內容卡。
 
-[開始建立內容卡片](../using/content-card/create-content-card.md)
+[開始建立內容卡](../using/content-card/create-content-card.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計內容卡
 
-使用個人化訊息、媒體、動作按鈕和自訂資料來設計和自訂內容卡片。
+使用個人化訊息、媒體、動作按鈕和自訂資料來設計和自訂內容卡。
 
-[瞭解如何設計內容卡片](../using/content-card/design-content-card.md)
+[了解如何設計內容卡](../using/content-card/design-content-card.md)
 :::
 
 ::::

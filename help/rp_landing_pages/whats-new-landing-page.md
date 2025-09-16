@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 有哪幾種新增功能？
-description: 有哪幾種新增功能？
+title: 最新資訊
+description: 最新資訊
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-
-# 有哪幾種新增功能？{#section-overview}
+# 最新資訊{#section-overview}
 
 快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../using/rn/release-notes.md)。請造訪[文件更新頁面](../using/rn/documentation-updates.md)，以便掌握產品文件的最新變更。
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM 內容片段]
 
@@ -46,37 +46,37 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 >[!ENDTABS]
 
-## 發行說明和檔案更新
+## 發行說明和文件更新
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer最新發行說明
+Adobe Journey Optimizer 的最新發行說明
 
-探索Adobe Journey Optimizer的最新功能、增強功能和更新，包括行銷活動協調、最佳化和增強型頻道支援。
+探索 Adobe Journey Optimizer 的最新功能、增強功能和更新，包括行銷活動協調、最佳化和增強型管道支援。
 
 [檢視最新發行說明](../using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer舊版發行說明
+Adobe Journey Optimizer 的舊版發行說明
 
-探索往年的完整發行說明，其中包括整個Adobe Journey Optimizer的功能、整合和改進專案的詳細更新。
+探索往年的完整發行說明，其中包括整個 Adobe Journey Optimizer 的功能、整合和改進的詳細更新。
 
 [瀏覽舊版發行說明](previous-rn-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer檔案最新更新
+Adobe Journey Optimizer 文件最新更新
 
-瞭解最近對Adobe Journey Optimizer檔案的更新和變更，並按月和年進行整理。
+了解 Adobe Journey Optimizer 文件的最近更新和變更，並按月和年進行整理。
 
-[閱讀檔案更新](../using/rn/documentation-updates.md)
+[閱讀文件更新](../using/rn/documentation-updates.md)
 :::
 
 ::::
