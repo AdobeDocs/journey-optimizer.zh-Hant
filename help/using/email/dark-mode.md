@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 切換至深色模式
 description: 瞭解如何在電子郵件Designer中使用深色模式
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 4%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 4%
 >id="ac_edition_darkmode_preview"
 >title="切換至深色模式"
 >abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。<br>最終呈現取決於收件者的電子郵件使用者端。 請注意，所有電子郵件使用者端都不支援深色模式。"
-
->[!AVAILABILITY]
->
->此功能目前為測試版本，僅供測試版客戶使用。<!--To join the beta program, contact your Adobe representative.-->
 
 設計電子郵件時，[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視。
 

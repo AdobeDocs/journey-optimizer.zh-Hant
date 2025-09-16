@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2175'
 ht-degree: 89%
 
 ---
@@ -25,6 +25,28 @@ ht-degree: 89%
 ## 2025年9月更新 {#sep-updates}
 
 ### 全新功能 {#Sep-25-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設計工具中的深色模式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 電子郵件設計工具現在提供切換到深色模式視圖的功能，您可以在此處額外定義特定的自訂設定，該設定將僅對在深色模式下讀取其電子郵件的收件者顯示。</p>
+<p>請注意下列事項：</p>
+<ul>
+<li>深色模式的最終呈現可能會有所不同，取決於收件者的電子郵件用戶端。</li>
+<li>並非所有電子郵件用戶端都支援自訂深色模式。此外，某些電子郵件用戶端只會對收到的所有電子郵件套用自己的預設深色模式。在這兩種情況下，系統無法呈現您在電子郵件設計工具中定義的自訂設定。</li>
+</ul>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../email/dark-mode.md">詳細文件</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -153,29 +175,6 @@ ht-degree: 89%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
-<ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
-</ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
-<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
