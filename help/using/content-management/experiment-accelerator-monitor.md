@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator監視器
+title: Journey Optimizer Experimentation Accelerator監視器
 description: 提高有效進行實驗並產生深入見解的能力
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-* [開始使用Experimentation Accelerator](experiment-accelerator.md)
-* [透過Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
-* [Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
+* [開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* [透過Journey Optimizer Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
 * **[監視實驗](experiment-accelerator-monitor.md)**
 * [實驗中的量度](experiment-accelerator-metrics.md)
 
@@ -135,11 +135,11 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. 選取機會會開啟&#x200B;**機會詳細資料**&#x200B;視窗，其中概述Experimentation Accelerator建議的特定處理方式或變數。 此檢視包括：
+1. 選取機會會開啟&#x200B;**機會詳細資料**&#x200B;視窗，其中概述Journey Optimizer Experimentation Accelerator建議的特定處理方式或變數。 此檢視包括：
 
    * **[!UICONTROL 假設]**： AI產生的假設，可說明建議處理的預期結果。
 
-   * **[!UICONTROL 理由]**：說明Experimentation Accelerator建議這個機會的原因。
+   * **[!UICONTROL 理由]**：說明Journey Optimizer Experimentation Accelerator建議這個機會的原因。
 
    * **[!UICONTROL 機會評估]**：建議的雙重評估依據：
 
@@ -158,9 +158,9 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
    對於源自&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗，建議的變更將載入到&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗工作流程中。
 
-   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/abtest/test-ab)
+   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. 在實驗檢視中，可存取Experimentation Accelerator所顯示的相同AI **[!UICONTROL 實驗機會]**。
+1. 在實驗檢視中，可存取Journey Optimizer Experimentation Accelerator所顯示的相同AI **[!UICONTROL 實驗機會]**。
 
    選取&#x200B;**[!UICONTROL 檢視]**&#x200B;以開啟商機詳細資料。
 

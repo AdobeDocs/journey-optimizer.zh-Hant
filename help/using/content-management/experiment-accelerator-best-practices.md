@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator最佳作法
+title: Journey Optimizer Experimentation Accelerator最佳作法
 description: 提高有效進行實驗並產生深入見解的能力
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 2%
 
 ---
 
-# Experimentation Accelerator最佳作法 {#content-experiment-best-practices}
+# Journey Optimizer Experimentation Accelerator最佳作法 {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [開始使用Experimentation Accelerator](experiment-accelerator.md)
-* **[Experimentation Accelerator最佳實務](experiment-accelerator-best-practices.md)**
-* [Experimentation Accelerator的隱私權、安全性與控管](experiment-accelerator-security.md)
+* [開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* **[Journey Optimizer Experimentation Accelerator最佳實務](experiment-accelerator-best-practices.md)**
+* [Journey Optimizer Experimentation Accelerator的隱私權、安全性與控管](experiment-accelerator-security.md)
 * [監視實驗](experiment-accelerator-monitor.md)
 * [實驗中的量度](experiment-accelerator-metrics.md)
 
