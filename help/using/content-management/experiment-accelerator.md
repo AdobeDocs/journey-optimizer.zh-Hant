@@ -10,7 +10,7 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 14%
@@ -84,7 +84,7 @@ ht-degree: 14%
 
 若要將此角色指派給新使用者：
 
-1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;**&#x200B;**，然後按一下[新增使用者]&#x200B;**&#x200B;**。
+1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;****，然後按一下[新增使用者]****。
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
