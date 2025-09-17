@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 98%
 # Adobe Journey Optimizer 說明 {#using}
 
 + [Journey Optimizer 文件](ajo-home.md)
-+ 有哪幾種新增功能？ {#whats-new}
-   + [有哪幾種新增功能？](/help/rp_landing_pages/whats-new-landing-page.md)
++ 最新資訊 {#whats-new}
+   + [最新資訊](/help/rp_landing_pages/whats-new-landing-page.md)
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}
-      + [舊版發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + [上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2025 版](using/rn/release-notes-2025.md)
       + [2024 年](using/rn/release-notes-2024.md)
       + [2023 版](using/rn/release-notes-2023.md)
@@ -63,8 +63,8 @@ ht-degree: 98%
       + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
       + [暫停歷程](using/building-journeys/journey-pause.md)
       + [歷程中的即時報告](using/building-journeys/report-journey.md)
-   + 管理歷程 {#manage-journey}
-      + [管理歷程](/help/rp_landing_pages/manage-journey-landing-page.md)
+   + 管理您的歷程 {#manage-journey}
+      + [管理您的歷程](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [瀏覽及篩選您的歷程](using/building-journeys/journey-ui.md)
       + [歷程中的設定檔入口](using/building-journeys/entry-management.md)
       + [在歷程中使用補充識別碼](using/building-journeys/supplemental-identifier.md)
@@ -105,8 +105,8 @@ ht-degree: 98%
          + [操作者](using/building-journeys/expression/operators.md)
          + [歷程屬性](using/building-journeys/expression/journey-properties.md)
          + [範例](using/building-journeys/expression/advanced-editor-use-cases.md)
-      + 函數 {#main-functions-journey}
-         + [函數](/help/rp_landing_pages/main-functions-journey-landing-page.md)
+      + 函式 {#main-functions-journey}
+         + [函式](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主要功能](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
@@ -306,8 +306,8 @@ ht-degree: 98%
       + [電子郵件管道](/help/rp_landing_pages/email-landing-page.md)
       + [開始使用電子郵件](using/email/get-started-email.md)
       + [建立電子郵件](using/email/create-email.md)
-      + 設計電子郵件內容 {#design-email}
-         + [設計電子郵件內容](/help/rp_landing_pages/design-email-landing-page.md)
+      + 設計您的電子郵件內容 {#design-email}
+         + [設計您的電子郵件內容](/help/rp_landing_pages/design-email-landing-page.md)
          + [開始使用電子郵件設計](using/email/get-started-email-design.md)
          + 開始建立內容 {#start-creating-content}
             + [開始建立內容](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -367,15 +367,15 @@ ht-degree: 98%
          + [推播通知流量](using/push/push-gs.md)
          + [設定推播通知頻道](using/push/push-configuration.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-   + 簡訊 / MMS / RCS 頻道 {#sms}
-      + [簡訊 / MMS / RCS 頻道](/help/rp_landing_pages/sms-landing-page.md)
+   + 簡訊 / MMS / RCS 管道 {#sms}
+      + [簡訊 / MMS / RCS 管道](/help/rp_landing_pages/sms-landing-page.md)
       + [開始使用文字訊息](using/sms/get-started-sms.md)
       + [建立簡訊 / MMS / RCS 訊息](using/sms/create-sms.md)
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
-      + 設定簡訊 / MMS / RCS 頻道 {#configure-sms}
-         + [設定簡訊 / MMS / RCS 頻道](/help/rp_landing_pages/configure-sms-landing-page.md)
+      + 設定簡訊 / MMS / RCS 管道 {#configure-sms}
+         + [設定簡訊 / MMS / RCS 管道](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [開始使用簡訊 / MMS / RCS 設定](using/sms/sms-configuration.md)
          + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
          + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
@@ -408,8 +408,8 @@ ht-degree: 98%
    + 程式碼型體驗 {#code-based-experience}
       + [程式碼型體驗](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
-      + 設定程式碼型頻道 {#configure-code-based-channel}
-         + [設定程式碼型頻道](/help/rp_landing_pages/configure-code-based-channel-landing-page.md)
+      + 設定程式碼型管道 {#configure-code-based-channel}
+         + [設定程式碼型管道](/help/rp_landing_pages/configure-code-based-channel-landing-page.md)
          + [護欄和限制](using/code-based/code-based-prerequisites.md)
          + [程式碼型體驗表面](using/code-based/code-based-surface.md)
          + [實施方法範例](using/code-based/code-based-implementation-samples.md)
@@ -453,7 +453,7 @@ ht-degree: 98%
       + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 資料進行個人化 (測試版)](using/personalization/aep-data-perso.md)
       + 協助程式功能清單 {#functions}
-         + [協助程式功能清單](/help/rp_landing_pages/functions-landing-page.md)
+         + [協助程式函式清單](/help/rp_landing_pages/functions-landing-page.md)
          + [開始使用輔助函式](using/personalization/functions/functions.md)
          + [外部資料查詢協助程式](using/personalization/external-data-lookup.md)
          + [聚合函式](using/personalization/functions/aggregation.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [建立登陸頁面內容](using/landing-pages/lp-content.md)
          + [建立範本](using/landing-pages/lp-templates.md)
          + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
+      + [在您的登陸頁面中善用表單](using/landing-pages/lp-forms.md)
       + [建立訂閱清單](using/landing-pages/subscription-list.md)
       + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
       + 設定登陸頁面 {#lp-configuration}
@@ -533,8 +534,8 @@ ht-degree: 98%
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)
          + [建立並管理品牌](using/content-management/brands.md)
          + [評估品牌定位分數](using/content-management/brands-score.md)
-   + 多語種內容 {#content-multilingual}
-      + [多語種內容](/help/rp_landing_pages/content-multilingual-landing-page.md)
+   + 多語言內容 {#content-multilingual}
+      + [多語言內容](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [開始使用多語言內容](using/content-management/multilingual-gs.md)
       + [建立地區](using/content-management/multilingual-locale.md)
       + [建立語言提供者](using/content-management/multilingual-provider.md)
@@ -675,8 +676,8 @@ ht-degree: 98%
                + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [使用程式碼型體驗頻道提供優惠方案](using/experience-decisioning/api-reference/deliver.md)
-      + 管理決定項目 {#manage-decision-items}
-         + [管理決定項目](/help/rp_landing_pages/manage-decision-items-landing-page.md)
+      + 管理決策項目 {#manage-decision-items}
+         + [管理決策項目](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
          + [建立決定項目](using/experience-decisioning/items.md)
          + [管理項目集合](using/experience-decisioning/collections.md)
@@ -729,10 +730,10 @@ ht-degree: 98%
             + [自動最佳化模型](using/offers/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/offers/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/offers/ranking/create-ranking-strategies.md)
-      + 建立並管理產品建議 {#managing-offers-in-the-offer-library}
-         + [建立並管理產品建議](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
-         + 設定優惠 {#configure-offers}
-            + [設定優惠](/help/rp_landing_pages/configure-offers-landing-page.md)
+      + 建立和管理產品建議 {#managing-offers-in-the-offer-library}
+         + [建立和管理產品建議](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
+         + 設定產品建議 {#configure-offers}
+            + [設定產品建議](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [建立個人化產品建議](using/offers/offer-library/creating-personalized-offers.md)
             + [新增代表](using/offers/offer-library/add-representations.md)
             + [新增限制](using/offers/offer-library/add-constraints.md)
@@ -758,8 +759,8 @@ ht-degree: 98%
          + [建立決策管理報告](/help/rp_landing_pages/create-reports-landing-page.md)
          + [使用決策管理事件](using/offers/reports/get-started-events.md)
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
-      + 匯出優惠方案目錄 {#export-catalog}
-         + [匯出優惠方案目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
+      + 匯出產品建議目錄 {#export-catalog}
+         + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
@@ -856,8 +857,8 @@ ht-degree: 98%
                   + [建立決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [更新決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [刪除決定](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + 使用 API，傳遞產品建議 {#offer-delivery-api}
-            + [使用 API，傳遞產品建議](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
+         + 使用 API 傳遞產品建議 {#offer-delivery-api}
+            + [使用 API 傳遞產品建議](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [開始使用傳遞產品建議 API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [決策 API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [邊緣決策 API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -935,8 +936,8 @@ ht-degree: 98%
    + [連線系統和環境](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [與其他解決方案整合](using/integrations/ajo-integrations.md)
    + [使用 Journey Optimizer API 運作](using/configuration/ajo-apis.md)
-   + 將歷程整合入外部系統 {#external-systems}
-      + [將歷程整合入外部系統](/help/rp_landing_pages/external-systems-landing-page.md)
+   + 將您的歷程與外部系統整合 {#external-systems}
+      + [將您的歷程與外部系統整合](/help/rp_landing_pages/external-systems-landing-page.md)
       + [將歷程整合入外部系統](using/configuration/external-systems.md)
       + [設定 API 上限](using/configuration/capping.md)
       + [節流 API](using/configuration/throttling.md)
@@ -960,7 +961,7 @@ ht-degree: 98%
    + [屬性型存取控制](using/administration/attribute-based-access.md)
    + [物件等級的存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
-   + [隱私權](/help/rp_landing_pages/privacy-landing-page.md)
+   + [隱私](/help/rp_landing_pages/privacy-landing-page.md)
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權要求](using/privacy/requests.md)
    + [針對資源的稽核動作](using/privacy/audit-logs.md)
