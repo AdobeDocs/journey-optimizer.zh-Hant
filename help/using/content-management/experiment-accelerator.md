@@ -10,10 +10,10 @@ level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -63,7 +63,36 @@ ht-degree: 0%
 
 * **僅適用於Adobe Target使用者**：您Target組織中的所有A/B活動都包含在Journey Optimizer的生產沙箱中。
 
-若要使用&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**，您需要存取沙箱並取得相關許可權。
+若要使用&#x200B;**[!UICONTROL Journey Optimizer Experimentation Accelerator]**，您需要存取沙箱以及下列相關許可權：
+
+* **[!UICONTROL 檢視實驗]**
+* **[!UICONTROL 管理實驗中繼資料]**
+
++++ 瞭解如何指派實驗相關許可權
+
+1. 在&#x200B;**[!DNL Permissions]**&#x200B;產品中，移至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，並選取所需的&#x200B;**[!UICONTROL 角色]**。
+
+1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以修改權限。
+
+1. 新增&#x200B;**[!UICONTROL 實驗加速器]**&#x200B;資源，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 檢視實驗]**&#x200B;和/或&#x200B;**[!UICONTROL 管理實驗中繼資料]**。
+
+   ![](assets/permissions-experiment.png)
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**，以套用所做的變更。
+
+任何已指派給此角色的使用者都會自動更新其權限。
+
+若要將此角色指派給新使用者：
+
+1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;****，然後按一下[新增使用者]****。
+
+1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+
+   如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+
+使用者將會收到一封電子郵件，提供存取執行個體的指示。
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
