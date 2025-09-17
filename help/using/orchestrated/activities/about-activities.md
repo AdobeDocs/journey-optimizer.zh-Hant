@@ -5,10 +5,10 @@ title: 使用協調的行銷活動
 description: 瞭解如何協調行銷活動
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,10 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->根據您的授權模式、許可權和實施，可用活動可能會有所不同。
+>* 根據您的授權模式、許可權和實施，可用活動可能會有所不同。
+>
+>* 已協調的行銷活動中的活動數限製為500。
+
 
 ## 目標定位活動 {#targeting}
 
@@ -48,7 +51,9 @@ ht-degree: 63%
 
 ## 頻道活動 {#channel}
 
-Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活動。您可以將頻道活動結合到畫布中，以建立跨頻道協調的行銷活動，其可以根據客戶行為來觸發動作。 還可以使用下列&#x200B;**頻道**&#x200B;活動：電子郵件和簡訊。 [瞭解如何在協調的行銷活動內容中建立管道動作](channels.md)。
+Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活動。您可以將[頻道活動](channels.md)結合到畫布中，以建立可依據客戶行為觸發動作的跨頻道協調行銷活動。
+
+瞭解如何[在協調的行銷活動中](channels.md)建立管道動作。
 
 ## 流量控制活動 {#flow-control}
 

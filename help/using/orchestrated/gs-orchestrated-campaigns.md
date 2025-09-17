@@ -6,10 +6,10 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
 每個協調的行銷活動包含：
 
-* **活動**：活動指要執行的任務。各種活動在畫布中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
+* **活動**：活動指要執行的任務。[各種活動](activities/about-activities.md)在畫布上以圖示呈現。 每種活動都有特定屬性和所有活動共有的其他屬性。
 
   在協調的行銷活動畫布中，一個特定活動可以產生多個任務，特別是存在循環或週期性動作時。
 
