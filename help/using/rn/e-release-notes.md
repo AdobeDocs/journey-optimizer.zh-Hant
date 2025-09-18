@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 28%
+source-wordcount: '1540'
+ht-degree: 31%
 
 ---
 
@@ -77,13 +77,13 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agent已推出！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent可讓Journey Optimizer使用者使用自然語言介面建立、分析和最佳化歷程。 透過Journey Agent，從業人員可以快速偵測及解決排程或對象衝突、分析效能和流失點，並找出表現最佳的歷程，以復寫給未來的行銷活動。</p>
+<p>AI Assistant現在包含適用於Journey Optimizer的基本Journey Agent技能，讓從業人員透過自然語言介面分析歷程。 有了這些新技能，使用者可以分析和建立（即將推出）歷程，以偵測和解決潛在的排程或受眾衝突。</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ ht-degree: 28%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在使用 [!DNL Journey Optimizer]，可以透過登入頁面擷取設定檔屬性。</p>
+<p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
