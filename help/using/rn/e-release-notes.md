@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
+source-git-commit: 1db60eb4edd552c1a1b7379e06babbf3c6dd9d2f
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 28%
@@ -249,7 +249,7 @@ ht-degree: 28%
 
   >[!NOTE]
   >
-  >此功能在有限可用性的情況下提供給一組客戶。
+  >此功能以有限可用性提供給一組客戶。
 
 - **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
 
