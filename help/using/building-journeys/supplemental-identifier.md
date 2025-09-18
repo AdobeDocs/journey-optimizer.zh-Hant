@@ -3,9 +3,9 @@ title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 4%
 
 ---
@@ -17,45 +17,37 @@ ht-degree: 4%
 >title="使用補充識別碼"
 >abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。要定義補充識別碼，請選擇要用作補充識別碼的欄位並選擇與其建立關聯的命名空間。"
 
-依預設，歷程會在&#x200B;**設定檔ID**&#x200B;的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，[!DNL Journey Optimizer]可讓您擷取&#x200B;**補充識別碼**，例如訂單ID、訂閱ID、處方ID以及設定檔ID。
-在此範例中，我們已新增預訂ID作為補充識別碼。
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-如此一來，歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，除了設定檔識別碼之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
+      <p>在此範例中，我們已新增<b>預訂ID</b>作為補充識別碼。</p>
+      <p>如此一來，歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。</p>
+      <p>此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="補充識別碼範例" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [在影片中探索此功能](#video)
 
 ## 護欄和限制 {#guardrails}
 
-* **支援的歷程**：目前，補充識別碼可用於&#x200B;**事件觸發**&#x200B;和&#x200B;**讀取對象**&#x200B;歷程。 它不適用於對象資格歷程。
+* **支援的歷程**： **事件觸發**&#x200B;和&#x200B;**讀取對象**&#x200B;歷程支援補充識別碼。 對象資格歷程（亦即以對象資格活動開始的歷程）中&#x200B;**不支援**。
 
 * **並行執行個體限制**：設定檔不能有超過10個並行歷程執行個體。
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **退出條件**：如果觸發退出條件，將會退出此刻在歷程中上線之設定檔的所有執行個體。 不會與設定檔ID +補充識別碼組合相關。
 
 * **頻率規則**：從補充識別碼使用方式建立的每個歷程執行個體都計入頻率上限，即使使用補充識別碼導致多個歷程執行個體亦然。
 
@@ -77,8 +69,20 @@ ht-degree: 4%
 * **讀取對象歷程**
 
    * 如果您使用業務事件，補充ID會停用。
-
    * 補充ID必須是設定檔中的欄位（即不是事件/內容欄位）。
+   * 對於使用補充ID的讀取受眾歷程，每個歷程例項的讀取受眾活動讀取率限製為每秒500個設定檔上限。
+
+## 具有補充ID的退出條件行為 {#exit-criteria}
+
+先決條件：為補充ID啟用歷程（透過單一事件或讀取對象活動）
+
+下表說明設定退出條件時，設定檔在啟用ID的補充歷程中的行為：
+
+| 退出條件設定 | 符合退出准則時的行為 |
+| ---------------------------- | ---------------------------------- |
+| 根據非補充ID事件 | 將會退出該歷程中對應設定檔的所有執行個體。 |
+| 根據補充ID事件&#x200B;<br/>*注意：補充ID名稱空間必須符合初始節點的名稱空間。* | 僅會退出相符的設定檔+補充ID例項。 |
+| 根據對象 | 將會退出該歷程中對應設定檔的所有執行個體。 |
 
 ## 新增補充識別碼並在歷程中運用 {#add}
 
@@ -251,4 +255,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

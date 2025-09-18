@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2708'
+ht-degree: 97%
 
 ---
 
@@ -132,7 +132,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -196,29 +196,10 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 設定不會立即運用輪廓的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息 (名字、姓氏、電子郵件地址等) 所需的資訊。
 
-### 更新輪廓 {#update-profile-g}
 
-特定護欄套用於&#x200B;**[!UICONTROL 更新輪廓]**&#x200B;活動。它們會列出於[此頁面](../building-journeys/update-profiles.md)。
+### 補充識別碼 {#supplemental}
 
-### 讀取客群 {#read-segment-g}
-
-下列護欄適用於[讀取對象](../building-journeys/read-audience.md)歷程活動：
-
-* 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
-* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
-* **讀取客群**&#x200B;活動無法搭配 Adobe Campaign 活動使用。
-* **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。
-* 歷程只能有一個&#x200B;**讀取客群**&#x200B;活動。
-* 另請參閱[此頁面](../building-journeys/read-audience.md)關於如何使用&#x200B;**讀取客群**&#x200B;活動的建議。
-* 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
-
-另請參閱[此頁面](../building-journeys/read-audience.md#must-read)。
-
-### 客群鑑定 {#audience-qualif-g}
-
-下列護欄適用於[客群鑑定](../building-journeys/audience-qualification-events.md)歷程活動：
-
-* 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
+特定護欄適用於在歷程中使用補充識別碼。 它們列在[此頁面](../building-journeys/supplemental-identifier.md#guardrails)中
 
 ### 運算式編輯器 {#expression-editor}
 
@@ -227,8 +208,23 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您必須建立新的客群，才能在歷程中使用`inaudience`條件。
 * 無法在運算式編輯器中使用`timeSeriesEvents`屬性。 若想在設定檔等級存取體驗事件，請根據`XDM ExperienceEvent`結構描述建立新的欄位群組。
 
+### 歷程活動 {#activities}
 
-### 應用程式內活動 {#in-app-activity-limitations}
+#### 對象資格活動 {#audience-qualif-g}
+
+下列護欄適用於[客群鑑定](../building-journeys/audience-qualification-events.md)歷程活動：
+
+* 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
+* 受眾資格歷程不支援補充識別碼。
+
+#### 行銷活動 {#ac-g}
+
+下列護欄適用於 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活動：
+
+* Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
+* 行銷活動不能與其他管道活動搭配使用：卡片、程式碼型體驗、電子郵件、推播、SMS 簡訊、應用程式內訊息、網頁。
+
+#### 應用程式內活動 {#in-app-activity-limitations}
 
 下列護欄適用於&#x200B;**[!UICONTROL 應用程式內訊息]**&#x200B;動作。請在[此頁面](../in-app/create-in-app.md)深入了解有關應用程式內訊息的更多資訊。
 
@@ -248,16 +244,28 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
 
-### 跳轉活動 {#jump-g}
+#### 跳轉活動 {#jump-g}
 
 特定護欄適用於&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動。它們會列出於[此頁面](../building-journeys/jump.md#jump-limitations)。
 
-### 行銷活動 {#ac-g}
+#### 讀取對象活動 {#read-segment-g}
 
-下列護欄適用於 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活動：
+下列護欄適用於[讀取對象](../building-journeys/read-audience.md)歷程活動：
 
-* Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
-* 行銷活動不能與其他管道活動搭配使用：卡片、程式碼型體驗、電子郵件、推播、SMS 簡訊、應用程式內訊息、網頁。
+* 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
+* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。
+* **讀取客群**&#x200B;活動無法搭配 Adobe Campaign 活動使用。
+* **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。
+* 歷程只能有一個&#x200B;**讀取客群**&#x200B;活動。
+* 另請參閱[此頁面](../building-journeys/read-audience.md)關於如何使用&#x200B;**讀取客群**&#x200B;活動的建議。
+* 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
+* 對於使用補充ID的歷程，每個歷程執行個體的讀取對象活動讀取率限製為每秒500個設定檔上限。
+
+另請參閱[此頁面](../building-journeys/read-audience.md#must-read)。
+
+#### 更新輪廓活動 {#update-profile-g}
+
+特定護欄套用於&#x200B;**[!UICONTROL 更新輪廓]**&#x200B;活動。它們會列出於[此頁面](../building-journeys/update-profiles.md)。
 
 ## 行銷活動協調護欄 {#orchestration-guardrails}
 
