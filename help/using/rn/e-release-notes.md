@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1db60eb4edd552c1a1b7379e06babbf3c6dd9d2f
+source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 28%
@@ -243,7 +243,7 @@ ht-degree: 28%
   此功能僅適用於電子郵件管道，以及已購買Adobe高輸送量交易訊息附加產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。
 
 
-- **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 可用性日期： 9月17日
+- **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 推出日期： 9月17日
 
 - **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 [閱讀更多資訊](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
