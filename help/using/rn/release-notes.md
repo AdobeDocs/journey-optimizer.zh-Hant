@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '2226'
 ht-degree: 88%
@@ -118,7 +118,7 @@ ht-degree: 88%
 
   >[!NOTE]
   >
-  >此功能在有限可用性的情況下提供給一組客戶。
+  >此功能以有限可用性提供給一組客戶。
 
 * **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
 
@@ -376,7 +376,7 @@ ht-degree: 88%
 
 * **決策**
 
-   * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。此功能為有限可用性，僅提供給一組客戶。[閱讀全文](../experience-decisioning/create-decision.md#fragments)
+   * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。此功能以有限可用性提供給一組客戶。 [閱讀全文](../experience-decisioning/create-decision.md#fragments)
 
 * **歷程**
 

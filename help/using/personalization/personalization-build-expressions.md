@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 10%
@@ -77,7 +77,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 >
 >url內使用的個人化權杖不支援空格。
 
-在「有限可用性」中，Journey Optimizer也支援完整/基本URL個人化。 例如：
+在有限可用性的情況下，Journey Optimizer也支援完整/基本URL個人化。 例如：
 
 ```
 <a href="{{profile.social.link}}" />
