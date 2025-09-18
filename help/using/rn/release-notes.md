@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c4aa1a6ecabb7b742bce084bb96865f965531d77
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 89%
+source-wordcount: '2226'
+ht-degree: 88%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 89%
 </table>
 
 ### 功能改善 {#Sep-25-improv}
+
+* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 可用性日期： 9月17日
 
 * **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 [閱讀更多資訊](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 

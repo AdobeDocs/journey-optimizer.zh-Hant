@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 6%
+source-wordcount: '1226'
+ht-degree: 5%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。****
 
      ![](assets/rule-sets-create.png)
 
@@ -65,12 +65,7 @@ ht-degree: 6%
 
    每個期間的計數器到期日如下：
 
-   * **[!UICONTROL 小時]** — 頻率上限對所選小時數有效（至少3小時）。 計數器會在每個時間範圍的開頭自動重設。 對於3小時的頻率上限，它每3小時重設一次，這與UTC一小時的結尾一致。
-
-     >[!AVAILABILITY]
-     >
-     >此功能僅適用於一組組織 (有限可用性)。 請聯絡您的客戶服務以啟用這項功能。
-
+   * **[!UICONTROL 小時]** — 頻率上限對所選小時數有效。 計數器會在每個時間範圍的開頭自動重設。 對於1小時的頻率上限，它每小時會重設一次，與UTC一小時的結尾重合。
    * **[!UICONTROL 每日]** — 每日頻率上限在23:59:59 UTC之前的該日有效，並在隔天的開頭重設為0。
    * **[!UICONTROL 每週]** — 當行事曆周從星期日開始時，頻率上限將持續到星期六23:59:59 UTC。 無論規則是在何時建立，有效期都適用。 例如，如果規則是在星期四建立，則此規則的有效期直到星期六的23:59:59。
    * **[!UICONTROL 每月]** — 頻率上限在每月最後一天23:59:59 UTC之前有效。 例如，1月的每月到期日為01-31 23:59:59 UTC。
@@ -83,7 +78,7 @@ ht-degree: 6%
 
 1. **[!UICONTROL Every]**&#x200B;欄位可讓您根據指定的持續時間，重複數小時、數天、數週或數月的頻率限定規則。 範例：套用頻率限定規則2週。
 
-   請務必輸入符合所選期間型別的值：每小時3-23、每日1-30、每週1-4及每月1-3。
+   請務必輸入符合所選期間型別的值：每小時1-23、每日1-30、每週1-4及每月1-3。
 
    當新的時間範圍開始時，計數器會自動重設為0。 對於2天的頻率上限，此重設會每兩天的UTC午夜發生。
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
