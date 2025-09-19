@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
+source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '3064'
 ht-degree: 69%
 
 ---
@@ -260,6 +260,8 @@ ht-degree: 69%
 
 * **歷程中的資料集查詢支援**\
   歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。
+
+  此活動僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 * **模擬所有傳入頻道的內容變化**\
   先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。
