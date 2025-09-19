@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
+source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
 workflow-type: tm+mt
-source-wordcount: '3120'
-ht-degree: 67%
+source-wordcount: '2975'
+ht-degree: 71%
 
 ---
 
@@ -79,21 +79,20 @@ ht-degree: 67%
 </tbody>
 </table>
 
-
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>忠誠度應用程式的新來源聯結器</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform現在提供新的來源聯結器，適用於Talon.One、Chariceline和Kobie忠誠度應用程式。 這些聯結器可讓您將忠誠度資料順暢地串流至Adobe Experience Platform，並在Journey Optimizer中利用這些資料。</p>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -265,15 +264,15 @@ ht-degree: 67%
 * **模擬所有傳入頻道的內容變化**\
   先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。
 
-* **API觸發的行銷活動的Webhook支援**\
-  API觸發的行銷活動現在支援Webhook。 設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。
+<!--* **Webhook support for API triggered campaigns**  
+  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.-->
 
 * 歷程自訂動作中的&#x200B;**重新導向支援**\
   歷程自訂動作現在支援重新導向(302)。
 
-* **API觸發的電子郵件行銷活動的高輸送量模式**\
-  API觸發的行銷活動現在提供新的高輸送量模式。 此模式專為大規模即時傳訊（每秒最多5000筆交易）而設計，可提供更高的可用性並降低延遲。\
-  此功能僅適用於電子郵件管道，以及已購買Adobe高輸送量交易訊息附加產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。
+<!--* **High throughput mode for API triggered email campaigns**  
+  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
+  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
 
 * **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 推出日期： 9月17日
 
