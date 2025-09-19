@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86522e2562d1504bb9a67836cfabccbe3fbda4c0
+source-git-commit: a05d7e022a0b154848405a6b5d27d399a24161db
 workflow-type: tm+mt
-source-wordcount: '3064'
-ht-degree: 69%
+source-wordcount: '3093'
+ht-degree: 68%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>AI Assistant現在包含適用於Journey Optimizer的基本Journey Agent技能，讓從業人員透過自然語言介面分析歷程。 有了這些新技能，使用者可以分析和建立（即將推出）歷程，以偵測和解決潛在的排程或受眾衝突。</p>
+<p>Journey Agent由Adobe Experience Platform Agent Orchestrator提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
 </td>
 </tr>
 </tbody>
@@ -240,9 +240,12 @@ ht-degree: 69%
 
 * **新歷程警示**\
   新的預先設定警示可供歷程使用：
+
    * 超過設定檔捨棄率：過去5分鐘超過臨界值的設定檔捨棄與輸入設定檔的比率。
    * 超出自訂動作錯誤率：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
    * 超過設定檔錯誤率：過去5分鐘超過臨界值的設定檔出錯與輸入設定檔的比率。
+
+  您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
 
 * **自訂驗證現在支援巢狀JSON內文引數**\
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。
@@ -252,7 +255,7 @@ ht-degree: 69%
 
   若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
 
-* SMS頻道&#x200B;**的***mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。
 
 * **以模型為基礎的結構描述**\
