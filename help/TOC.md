@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2948'
 ht-degree: 98%
 
 ---
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [反應](using/building-journeys/reaction-events.md)
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + [最佳化](using/building-journeys/optimize.md)
-      + [條件](using/building-journeys/conditions.md)
-      + [條件活動](using/building-journeys/condition-activity.md)
       + [讀取客群](using/building-journeys/read-audience.md)
       + [等待](using/building-journeys/wait-activity.md)
+      + [條件](using/building-journeys/conditions.md)
+      + [條件](using/building-journeys/condition-activity.md)
       + [內容決策](using/building-journeys/content-decision.md)
-      + [動作活動](using/building-journeys/journey-action.md)
+      + [動作](using/building-journeys/journey-action.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard 動作](using/building-journeys/using-adobe-campaign-standard.md)

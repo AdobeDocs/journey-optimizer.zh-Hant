@@ -11,10 +11,10 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 6%
+source-wordcount: '1298'
+ht-degree: 9%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**。
 
-1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。
+1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。 在[本節](success-metrics.md)中進一步瞭解可用的度量以及如何設定清單。
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ ht-degree: 6%
 
 歷程上線後，會隨機指派使用者沿著不同路徑前進。 [!DNL Journey Optimizer]追蹤哪個路徑執行效果最佳並提供可操作的深入分析。
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+使用歷程路徑實驗報告追蹤您的歷程是否成功。 [了解更多](../reports/journey-global-report-cja-experimentation.md)
 
 ### 實驗使用案例 {#uc-experiment}
 
@@ -166,7 +166,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什麼是後備路徑？"
->abstract="備援路徑可讓您的對象在沒有符合目標規則時輸入替代路徑。 </br>如果您未選取此選項，任何不符合鎖定目標規則的對象都不會進入後援路徑並退出歷程。"
+>abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。</br>如果您未選取此選項，則任何不符合目標選擇規則的客群都不會進入後備路徑，並退出歷程。"
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。
 
@@ -224,7 +224,7 @@ ht-degree: 6%
 
 一旦歷程上線，系統就會處理為每個區段指定的路徑，以便Gold成員輸入有電子郵件選件的路徑，而其他成員輸入有簡訊提醒的路徑。
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+使用歷程報告追蹤您的歷程成功。 [了解更多](../reports/journey-global-report-cja.md#targeting)
 
 ### 鎖定目標規則使用案例 {#uc-targeting}
 
