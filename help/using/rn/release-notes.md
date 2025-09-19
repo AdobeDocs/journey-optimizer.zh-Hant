@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
+source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 88%
+source-wordcount: '3148'
+ht-degree: 67%
 
 ---
 
@@ -22,9 +22,133 @@ ht-degree: 88%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年9月更新 {#sep-updates}
 
-### 全新功能 {#Sep-25-features}
+## 2025年9月發行前注意事項 {#25-9-rn}
+
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
+
+另請參閱 [Adobe Experience Platform 搶鮮版發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**發行日期**：2025 年 9 月 23-24 日
+
+### 全新功能 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>用於擷取歷程的公用API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Web Push notifications channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>自訂動作監控和報告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>自訂動作監控和報告功能現已可用。 此功能可讓您更清楚瞭解歷程健康狀況和執行，包括生命週期狀態和效能警示。 您現在可以快速瞭解自訂動作中發生異常狀況的時間、地點和原因。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>忠誠度應用程式的新來源聯結器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform現在提供新的來源聯結器，適用於Talon.One、Chariceline和Kobie忠誠度應用程式。 這些聯結器可讓您將忠誠度資料順暢地串流至Adobe Experience Platform，並在Journey Optimizer中利用這些資料。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent已推出！</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant現在包含適用於Journey Optimizer的基本Journey Agent技能，讓從業人員透過自然語言介面分析歷程。 有了這些新技能，使用者可以分析和建立（即將推出）歷程，以偵測和解決潛在的排程或受眾衝突。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator是AI優先的產品，旨在將您的實驗提升到新的境界。 此產品專為Adobe Journey Optimizer和Adobe Target使用者打造，可整合實驗管理、提供AI支援的深入分析和機會，並推出新的實驗代理程式。</p>
+<p>您可以期待：</p>
+<ul>
+<li><strong>整合實驗詳細目錄：</strong>在一個中央工作區中快速檢視、篩選及管理Adobe Journey Optimizer和Adobe Target的所有實驗。</li>
+<li><strong>AI實驗見解和機會：</strong>使用GenAI驅動的見解和推薦，超越統計讀數。 現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
+<li>Journey Optimizer中的<strong>多臂吃角子老虎機(MAB)支援：</strong>透過多臂吃角子老虎機實驗，最大化影響，同時減少浪費的流量。 MAB不會平均分割對象，而是會即時自動為更多訪客分配表現最佳的變數，這樣您就能為更多客戶提供更好的體驗，同時仍會瞭解哪些變數有效。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在使用 [!DNL Journey Optimizer]，可以透過登入頁面擷取設定檔屬性。</p>
+<p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -90,7 +214,7 @@ ht-degree: 88%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Platform資料進行個人化和決策 — 可用性限制</strong><br/></th>
+<th><strong>使用Adobe Experience Platform資料進行個人化和決策</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -110,23 +234,67 @@ ht-degree: 88%
 </tbody>
 </table>
 
-### 功能改善 {#Sep-25-improv}
+### 功能改善
 
-* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 可用性日期： 9月17日
+- **核准原則許可權**
+在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。
 
-* **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 [閱讀更多資訊](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+- **新歷程警示**\
+  新的預先設定警示可供歷程使用：
+   - 超過設定檔捨棄率：過去5分鐘超過臨界值的設定檔捨棄與輸入設定檔的比率。
+   - 超出自訂動作錯誤率：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
+   - 超過設定檔錯誤率：過去5分鐘超過臨界值的設定檔出錯與輸入設定檔的比率。
+
+- **自訂驗證現在支援巢狀JSON內文引數**\
+  設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。
+
+- **將片段附加至決定專案**\
+  Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定政策，在程式碼型體驗行銷活動中運用。
+
+- **一鍵取消訂閱URL的自訂屬性支援**\
+  透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
+
+  若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
+
+- SMS頻道&#x200B;**的***mTLS支援
+設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。
+
+- **以模型為基礎的結構描述**\
+  為了提供更清楚且更直覺的體驗，關聯式結構描述現在在協調的行銷活動中稱為模型式結構描述。
+
+- **歷程中的資料集查詢支援**\
+  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。
+
+- **模擬所有傳入頻道的內容變化**\
+  先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。
+
+- **API觸發的行銷活動的Webhook支援**\
+  API觸發的行銷活動現在支援Webhook。 設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。
+
+- 歷程自訂動作中的&#x200B;**重新導向支援**\
+  歷程自訂動作現在支援重新導向(302)。
+
+- **API觸發的電子郵件行銷活動的高輸送量模式**\
+  API觸發的行銷活動現在提供新的高輸送量模式。 此模式專為大規模即時傳訊（每秒最多5000筆交易）而設計，可提供更高的可用性並降低延遲。\
+  此功能僅適用於電子郵件管道，以及已購買Adobe高輸送量交易訊息附加產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。
+
+
+- **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md)。 推出日期： 9月17日
+
+- **動態網域支援** - Journey Optimizer現在支援Adobe所接受的預先定義網域的完整/基本URL個人化。 [閱讀更多資訊](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
   >[!NOTE]
   >
   >此功能以有限可用性提供給一組客戶。
 
-* **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
+- **決策上限規則的運算式** — 您現在可以建立自己的運算式，以定義決策專案的上限規則臨界值。 [閱讀全文](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >此功能目前以有限可用性的形式提供給所有使用者。
+>[!NOTE]
+>
+>此功能目前以有限可用性的形式提供給所有使用者。
 
-* **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
+- **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
+
 
 ## 2025 年 8 月發行說明 {#25-8-rn}
 
