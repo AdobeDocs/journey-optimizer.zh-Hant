@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2ebdb37b390988941f29a5e6ecfe147984450d51
+source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 31%
+source-wordcount: '1529'
+ht-degree: 33%
 
 ---
 
@@ -117,9 +117,9 @@ ht-degree: 31%
 <p>Journey Optimizer Experimentation Accelerator是AI優先的產品，旨在將您的實驗提升到新的境界。 此產品專為Adobe Journey Optimizer和Adobe Target使用者打造，可整合實驗管理、提供AI支援的深入分析和機會，並推出新的實驗代理程式。</p>
 <p>您可以期待：</p>
 <ul>
-<li><strong>整合實驗詳細目錄：</strong>在一個中央工作區中快速檢視、篩選及管理Adobe Journey Optimizer和Adobe Target的所有實驗。 新的團隊切換器可讓使用者依團隊和角色量身打造檢視，確保適合的人員看到最相關的實驗。</li>
+<li><strong>整合實驗詳細目錄：</strong>在一個中央工作區中快速檢視、篩選及管理Adobe Journey Optimizer和Adobe Target的所有實驗。</li>
 <li><strong>AI實驗見解和機會：</strong>使用GenAI驅動的見解和推薦，超越統計讀數。 現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
-<li><strong>多臂吃角子老虎機(MAB)支援：</strong>透過多臂吃角子老虎機實驗，儘可能提高影響力，同時減少浪費的流量。 MAB不會平均分割對象，而是會即時自動為更多訪客分配表現最佳的變數，這樣您就能為更多客戶提供更好的體驗，同時仍會瞭解哪些變數有效。</li>
+<li>Journey Optimizer中的<strong>多臂吃角子老虎機(MAB)支援：</strong>透過多臂吃角子老虎機實驗，最大化影響，同時減少浪費的流量。 MAB不會平均分割對象，而是會即時自動為更多訪客分配表現最佳的變數，這樣您就能為更多客戶提供更好的體驗，同時仍會瞭解哪些變數有效。</li>
 </ul>
 </td>
 </tr>
@@ -258,7 +258,7 @@ ht-degree: 31%
   為了提供更清楚且更直覺的體驗，關聯式結構描述現在在協調的行銷活動中稱為模型式結構描述。
 
 - **歷程中的資料集查詢支援**\
-  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。
+  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。
 
 - **模擬所有傳入頻道的內容變化**\
   先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。
