@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立和管理由 API 觸發的行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
 
 定義由 API 觸發的行銷活動的客群
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 安排由 API 觸發的行銷活動
 

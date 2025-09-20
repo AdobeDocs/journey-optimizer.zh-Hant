@@ -50,7 +50,7 @@ Adobe Journey Optimizer 資料集是您管理和利用資料來建立有意義�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer：資料集查詢範例
 

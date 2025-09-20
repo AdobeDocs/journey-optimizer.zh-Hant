@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的「所有期間報告」是了解行銷活動與�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 所有期間報告快速入門
 

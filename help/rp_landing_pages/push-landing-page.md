@@ -38,7 +38,7 @@ Adobe Journey Optimizer 中的推播通知可直接將即時、個人化的訊�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立和設定推播通知
 

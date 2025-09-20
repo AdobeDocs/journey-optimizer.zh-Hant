@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立動作行銷活動
 

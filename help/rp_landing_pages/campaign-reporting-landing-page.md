@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 內容卡行銷活動報告
 

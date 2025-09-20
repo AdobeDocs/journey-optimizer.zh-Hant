@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 網頁內容與資產產生
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hant)
 
 使用 AI 產生登陸頁面
 
