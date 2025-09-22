@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 透過使用案例了解
+title: 透過使用案例深入了解
 description: 歷程使用案例概觀
 feature: Journeys, Use Cases
 role: User, Data Engineer
@@ -9,14 +9,14 @@ level: Intermediate, Experienced
 keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: d11a34dd13301a141fbd2ca715d3ba9d904c4f08
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '770'
 ht-degree: 9%
 
 ---
 
-# 透過使用案例了解 {#jo-uc-gs}
+# 透過使用案例深入了解 {#jo-uc-gs}
 
 本節彙集許多實用的使用案例，協助您充份運用Adobe Journey Optimizer。 無論您是要尋找戰術模式（例如隱藏邏輯、個人化技術或歷程退出策略），還是要尋找涵蓋行銷和技術工作流程的完整端對端案例，您都可以找到以下相關範例的連結。
 
@@ -108,6 +108,14 @@ ht-degree: 9%
 <img alt="使用「外部資料來源」與「自訂動作」限制輸送量" src="../assets/do-not-localize/icon-first-journey.svg">
 </a>
 <div><a href="limit-throughput.md"><strong>限制外部資料來源和自訂動作的輸送量</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey">
+<img alt="從即時歷程中移除設定檔" src="../assets/do-not-localize/icon_profile-audience.svg">
+</a>
+<div><a href="../building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey"><strong>限制外部資料來源和自訂動作的輸送量</strong></a>
 </div>
 <p>
 </td>
