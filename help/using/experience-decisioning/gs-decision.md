@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 20%
+source-wordcount: '287'
+ht-degree: 31%
 
 ---
 
 # 開始使用[!DNL Journey Optimizer]中的決定功能 {#gs-decision}
 
-[!DNL Journey Optimizer]中的決策功能可讓您在正確的時間為所有接觸點的客戶提供最佳優惠和個人化體驗。 這些功能透過集中目錄的行銷優惠和進階決策引擎簡化個人化，該引擎使用規則和排名條件為每個人提供最相關的內容。
+[!DNL Journey Optimizer]中的決策功能可讓您在正確的時間為所有接觸點的客戶提供最佳優惠和個人化體驗。 這些功能透過集中行銷產品建議目錄和進階決策引擎簡化個人化，該引擎使用規則和排名條件為每個人提供最相關的內容。
 
 主要優點：
 
@@ -46,6 +46,6 @@ ht-degree: 20%
 
 我們在Journey Optimizer中建立的功能決定管理使用中央行銷優惠資料庫和決定引擎，該引擎將規則和限制套用至即時客戶設定檔，並利用Adobe Experience Platform資料在適當的時間提供適當的優惠。
 
-決定管理目前支援四個管道：電子郵件、應用程式內傳訊、推播通知和簡訊。
+決策管理支援以下通道：電子郵件、應用程式內傳訊、推播通知、簡訊和直接郵件。
 
 ➡️ [開始使用決定管理](../offers/get-started/starting-offer-decisioning.md)

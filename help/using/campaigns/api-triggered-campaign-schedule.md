@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -51,4 +51,4 @@ ht-degree: 1%
 
 ## 後續步驟 {#next}
 
-行銷活動設定和內容準備就緒後，您就可以檢閱並啟用它。 [了解更多](review-activate-campaign.md)
+行銷活動設定和內容準備就緒後，您就可以檢閱並啟用它。 [了解更多](../campaigns/review-activate-api-triggered-campaign.md)

@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 30%
 
 ---
@@ -84,7 +84,7 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
    ![](assets/template-lock-enable.png)
 
-1. 如果您選取&#x200B;**[!UICONTROL 內容鎖定]**&#x200B;模式，您可以進一步定義使用者如何與範本互動。 開啟&#x200B;**[!UICONTROL 啟用內容版本]**&#x200B;選項，並選擇下列其中一項：
+1. 如果您選取&#x200B;**[!UICONTROL 內容鎖定]**&#x200B;模式，您可以進一步定義使用者如何與範本互動。 開啟&#x200B;**[!UICONTROL 啟用內容新增]**&#x200B;選項，並選擇下列其中一項：
 
    * **[!UICONTROL 允許結構和內容新增]**：使用者可以在現有結構之間新增結構，並在可編輯的結構中新增內容元件或片段。
 
@@ -145,7 +145,7 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL 僅可編輯的內容鎖定]**：鎖定元件的樣式，但允許編輯內容。
+   * **[!UICONTROL 僅可編輯的內容]**：鎖定元件的樣式，但允許編輯內容。
    * **[!UICONTROL 已鎖定]**：已完全鎖定元件的內容和樣式。
 
    >[!NOTE]
@@ -169,7 +169,7 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 >title="強調可編輯區域"
 >abstract="根據套用於範本的鎖定類型，您可以在範本的結構和元件執行不同的動作。若要迅速識別範本中的所有可編輯區域，請切換「**[!UICONTROL 醒目標示可編輯區域]**」選項。"
 
-使用包含鎖定內容的範本時，**[!UICONTROL 啟用治理]**&#x200B;訊息會顯示在右窗格中。
+使用包含鎖定內容的範本時，右側窗格中會顯示訊息。
 
 根據套用於範本的鎖定類型，您可以在範本的結構和元件執行不同的動作。若要迅速識別範本中的所有可編輯區域，請切換「**[!UICONTROL 醒目標示可編輯區域]**」選項。
 
@@ -196,4 +196,4 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
