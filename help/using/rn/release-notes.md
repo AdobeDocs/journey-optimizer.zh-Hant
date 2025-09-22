@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 68%
@@ -255,7 +255,7 @@ ht-degree: 68%
 
   若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。
 
 <!--* **Model-based Schemas**  
@@ -291,6 +291,8 @@ ht-degree: 68%
   此功能目前以有限可用性的形式提供給所有使用者。
 
 * **頻道設定監視警示** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，以防止發生使用自訂子網域委派型別的電子郵件頻道設定錯誤。 [閱讀全文](../reports/alerts.md#alert-dns-record-missing)
+
+* **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。
 
 
 ## 2025 年 8 月發行說明 {#25-8-rn}
@@ -532,8 +534,6 @@ ht-degree: 68%
    * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
 
      若要進一步個人化一鍵取消訂閱連結，您現在可以定義將要同時附加至同意事件的自訂屬性。[閱讀全文](../email/list-unsubscribe.md#custom-attributes)
-
-   * **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。
 
 * **資料集**
 
