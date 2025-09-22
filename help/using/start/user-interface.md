@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -361,4 +361,4 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="資料集查詢活動"
->abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。"
+>abstract="透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 Adobe Experience Platform 記錄資料集動態檢索資料。善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。"

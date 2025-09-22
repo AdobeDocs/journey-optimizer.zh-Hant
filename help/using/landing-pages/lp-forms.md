@@ -11,7 +11,8 @@ keywords: 登入，登陸頁面，建立，頁面，表單
 badge: label="有限可用性" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
+exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 2%
@@ -32,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
+   >在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
 
@@ -90,7 +91,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
 
 若要建立表單，請遵循下列步驟。
 
