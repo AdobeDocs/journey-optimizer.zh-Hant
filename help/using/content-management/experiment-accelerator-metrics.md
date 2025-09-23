@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
 # 量度 {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [透過Journey Optimizer Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
-* [監視實驗](experiment-accelerator-monitor.md)
-* **[實驗中的量度](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 量度]**&#x200B;頁面可在一個位置顯示Journey Optimizer和Target實驗中的成功量度，以便監控效能、比較和深入分析。
 

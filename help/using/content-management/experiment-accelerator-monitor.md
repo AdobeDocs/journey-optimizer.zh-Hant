@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 追蹤您的實驗 {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [透過Journey Optimizer Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
-* **[監視實驗](experiment-accelerator-monitor.md)**
-* [實驗中的量度](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL Experiments]**&#x200B;索引標籤集中了來自Adobe Journey Optimizer和Adobe Target的測試的追蹤和分析。 您可以檢視所有實驗、審查KPI，以及篩選或搜尋以找出特定測試。
 
@@ -158,7 +147,7 @@ KPI區段提供關鍵量度，包括已建立實驗總數和目前進行中的�
 
    對於源自&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗，建議的變更將載入到&#x200B;**[!DNL Adobe Target]**&#x200B;的實驗工作流程中。
 
-   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/abtest/test-ab)
+   ➡️ [在Adobe Target檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 在實驗檢視中，可存取Journey Optimizer Experimentation Accelerator所顯示的相同AI **[!UICONTROL 實驗機會]**。
 

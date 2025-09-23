@@ -8,19 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
 
 # 存取及訂閱系統警示 {#alerts}
 
-建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤：
+建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。
 
-* 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。
-* 瞭解如何在[此頁面](../campaigns/review-activate-campaign.md)上檢閱您的行銷活動。
+
 
 從專用的&#x200B;**[!UICONTROL 警示]**&#x200B;功能表，您也可以訂閱[!DNL Adobe Journey Optimizer]個系統警示，如本頁所詳述。
 
@@ -42,18 +41,34 @@ ht-degree: 0%
 
    * [歷程自訂動作失敗](#alert-custom-actions)警報
    * [讀取對象觸發器失敗](#alert-read-audiences)警報
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * 特定於通道設定的警示：
 
    * [AJO網域DNS記錄遺失](#alert-dns-record-missing)警報
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * [AJO通道設定失敗](#alert-channel-config-failure)警報
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## 訂閱警報 {#subscribe-alerts}
 
-1. 您可以選取&#x200B;**[!UICONTROL 訂閱]**&#x200B;選項，從使用者介面個別訂閱每個警示。
+如果發生非預期的行為，和/或您的作業達到特定條件集（例如系統違反臨界值時會發生潛在問題），警示通知會傳送給組織中訂閱這些通知的任何使用者。
 
-   ![](assets/alert-subscribe.png){width=80%}
+您可以從使用者介面個別訂閱每個警示，也可以從&#x200B;**[!UICONTROL 警示]**&#x200B;人員全域訂閱（請參閱[全域訂閱](#global-subscription)）<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+
+根據訂閱者的偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心（應用程式內通知）傳送。 選取您要如何在[!DNL Adobe Experience Cloud] **[!UICONTROL 偏好設定]**&#x200B;中接收這些警示。 [了解更多](../start/user-interface.md#in-product-alerts)
+
+警報解決後，訂閱者會收到「已解決」通知。
+
+
+### 全域訂閱 {#global-subscription}
+
+若要訂閱/取消訂閱所有歷程與行銷活動的警報，請遵循下列步驟：
+
+1. 從左側功能表瀏覽至&#x200B;**[!UICONTROL 警示]**&#x200B;儀表板，選取您要訂閱之警示的&#x200B;**[!UICONTROL 訂閱]**&#x200B;選項。
+
+   ![訂閱警示](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ ht-degree: 0%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-1. 您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱警示。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
-1. 如果發生非預期的行為，和/或您的作業達到特定條件集（例如系統違反臨界值時會發生潛在問題），警示通知會傳送給組織中訂閱這些通知的任何使用者。
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-根據訂閱者的偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心（應用程式內通知）傳送。 選取您要如何在[!DNL Adobe Experience Cloud] **[!UICONTROL 偏好設定]**&#x200B;中接收這些警示。 [了解更多](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->依預設，僅啟用應用程式內警報。
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-警報解決後，訂閱者會收到「已解決」通知。
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## 管理警報 {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-若要管理警示，請選取專案並使用&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕。
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-預設會啟用所有警示。 若要停用警示，請從&#x200B;**[!UICONTROL 其他動作]**&#x200B;功能表選取&#x200B;**[!UICONTROL 停用警示]**&#x200B;選項。 此警報的所有訂閱者將不再收到相關通知。
 
-選取&#x200B;**[!UICONTROL 管理警示訂閱者]**&#x200B;以檢視訂閱警示的使用者清單。 使用空白欄位以新增更多訂閱者。
-
-![](assets/alert-subscribers.png){width=80%}
-
-可能的警示狀態如下：
-
-* **[!UICONTROL 已啟用]** — 警示已啟用，目前正在監視觸發條件。
-* **[!UICONTROL 已停用]** — 警示已停用，目前未監視觸發條件。 您不會收到此警示的通知。
-* **[!UICONTROL 已觸發]** — 目前符合警示的觸發條件。
 
 ## 歷程警報 {#journey-alerts}
 
@@ -99,9 +105,12 @@ ht-degree: 0%
 >
 >Adobe Journey Optimizer特定警示僅適用於&#x200B;**即時**&#x200B;歷程。 在測試模式中，不會為歷程觸發警報。
 
+
 ### 歷程自訂動作失敗 {#alert-custom-actions}
 
 如果自訂動作失敗，此警報會警告您。 我們認為在過去5分鐘內，特定自訂動作發生超過1%的錯誤時失敗。 每30秒評估一次。
+
+按一下警示的名稱以檢查警示詳細資訊和組態。
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ ht-degree: 0%
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## 設定警報 {#configuration-alerts}
 
@@ -220,7 +249,61 @@ ht-degree: 0%
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## 管理警報 {#manage-alerts}
+
+### 編輯警報
+
+您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### 停用警示
+
+預設會啟用所有警示。 若要停用警示，請選取&#x200B;**[!UICONTROL 停用警示]**&#x200B;選項：此警示的所有訂閱者將不再收到相關通知。
 
 
+### 警示狀態
+
+可能的警示狀態如下：
+
+* **[!UICONTROL 已啟用]** — 警示已啟用，目前正在監視觸發條件。
+* **[!UICONTROL 已停用]** — 警示已停用，目前未監視觸發條件。 您不會收到此警示的通知。
+* **[!UICONTROL 已觸發]** — 目前符合警示的觸發條件。
+
+
+### 檢視和更新訂閱者 {#manage-subscribers}
+
+選取&#x200B;**[!UICONTROL 管理警示訂閱者]**&#x200B;以檢視訂閱警示的使用者清單。
+
+![](assets/alert-subscribers.png){width=80%}
+
+若要新增更多訂閱者，請輸入以逗號分隔的電子郵件，然後選取&#x200B;**[!UICONTROL 更新]**。
+
+若要移除訂閱者，請從目前的訂閱者中刪除其電子郵件地址，然後選取&#x200B;**[!UICONTROL 更新]**。
+
+## 其他資源 {#additional-resources-alerts}
+
+
+* 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。
+* 瞭解如何在[此頁面](../campaigns/review-activate-campaign.md)上檢閱您的行銷活動。

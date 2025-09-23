@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
-description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
+description: 瞭解如何直接透過使用者介面建立模型型方案。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
+# 設定手動模型架構 {#manual-schema}
 
-# 設定手動關聯式結構描述 {#manual-schema}
-
-關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
+可以直接透過使用者介面建立以模型為基礎的結構描述，以啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 
 下列範例手動定義&#x200B;**忠誠會員資格**&#x200B;結構描述，以說明協調行銷活動的必要結構。
 
-1. [使用Adobe Experience Platform介面手動建立關聯式結構描述](#schema)。
+1. [使用Adobe Experience Platform介面手動建立模型型結構描述](#schema)。
 
 1. [新增屬性](#schema-attributes)，例如客戶ID、成員資格等級和狀態列位。
 
@@ -27,11 +26,11 @@ ht-degree: 3%
 
 1. [根據您的結構描述建立資料集](#dataset)，並將其啟用以用於協調的行銷活動。
 
-1. [從支援的來源將資料](ingest-data.md)擷取到您的資料集中。
+1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
 ## 建立您的結構描述 {#schema}
 
-首先，在Adobe Experience Platform中手動建立新的關聯式結構描述。 此程式可讓您從頭開始定義結構描述結構，包括其名稱和行為。
+首先，在Adobe Experience Platform中手動建立新的模型型結構描述。 此程式可讓您從頭開始定義結構描述結構，包括其名稱和行為。
 
 1. 登入Adobe Experience Platform。
 
@@ -39,7 +38,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**[!UICONTROL 建立結構描述]**。
 
-1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;作為您的&#x200B;**結構描述型別**。
+1. 選取&#x200B;**[!UICONTROL 以模型為基礎的]**&#x200B;作為您的&#x200B;**結構描述型別**。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ ht-degree: 3%
 
 任何用於定位的結構描述都必須包含至少一個型別`String`的身分欄位，並具有相關聯的身分名稱空間。 這可確保與Adobe Journey Optimizer的定位和身分解析功能相容。
 
-+++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
++++在Adobe Experience Platform中建立模型架構時，支援下列功能
 
 * **列舉**\
   以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
@@ -68,7 +67,7 @@ ht-degree: 3%
   架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
 * **複合索引鍵**\
-  關聯式結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
+  以模型為基礎的結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
 
 +++
 
@@ -148,6 +147,12 @@ ht-degree: 3%
 您現在需要啟用資料集以協調行銷活動。
 
 ## 為協調的行銷活動啟用資料集 {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="協調的行銷活動"
+>abstract="建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。"
+
 
 建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。
 

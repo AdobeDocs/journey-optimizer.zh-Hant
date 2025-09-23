@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '601'
 ht-degree: 10%
 
 ---
@@ -77,11 +77,11 @@ ht-degree: 10%
 此類別包含原始步驟事件欄位。 請參閱本[章節](../reports/sharing-legacy-fields.md)。
 
 
-## 疑難排解journey_step_events中捨棄的事件型別  {#discarded-events}
+## 疑難排解歷程步驟事件中的捨棄事件型別  {#discarded-events}
 
-查詢journey_step_events以取得具有`eventCode = 'discard'`的記錄時，您可能會遇到數個eventTypes。
+查詢具有`eventCode = 'discard'`的記錄的歷程步驟事件時，您可能會遇到數個eventTypes。
 
-以下是最常捨棄eventTypes的定義、常見原因和疑難排解步驟：
+以下是最常捨棄`eventTypes`的定義、常見原因和疑難排解步驟：
 
 * EXTERNAL_KEY_COMPUTATION_ERROR：系統無法從事件資料計算客戶的唯一識別碼（外部索引鍵）。
 常見原因：事件裝載中缺少客戶識別碼（例如電子郵件、客戶ID）或格式錯誤。

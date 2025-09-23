@@ -1,0 +1,135 @@
+---
+title: 實驗報告中使用的統計計算
+description: 深入瞭解A/B測試和多臂吃角子老虎機
+feature: A/B Testing, Experimentation
+role: User
+level: Experienced
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 2%
+
+---
+
+# A/B和多臂吃角子老虎機實驗 {#mab-vs-ab}
+
+<!--
+>[!CONTEXTUALHELP]
+>id="ajo_ab_test_mab"
+>title="Experiment type"
+>abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
+>
+>* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
+>
+>* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
+>
+>* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
+-->
+
+此頁面提供&#x200B;**A/B**&#x200B;與&#x200B;**多臂吃角子老虎機**&#x200B;實驗的詳細比較，說明其各自的優點、限制，以及每種方法最有效的案例。
+
+## A/B {#ab-test}
+
+傳統A/B實驗涉及在處理間平均分割流量，並維持此配置，直到實驗結束為止。 一旦達到統計顯著性，就會識別成功處理並隨後進行縮放。
+
+### 優點
+
+傳統A/B實驗的關鍵優勢包括：
+
+* **統計嚴格**
+
+  固定設計提供定義清晰的錯誤率和信賴區間。
+
+  假設測試架構（例如95%信賴度）更易於套用和理解。
+
+  適當支援的實驗可降低誤報的可能性。
+
+* **簡單性**
+
+  方法簡單明瞭，設計與執行都相當容易。
+
+  結果可明確傳達給非技術利害關係人。
+
+* **完整的資料彙集**
+
+  每個處理方法都能獲得足夠的曝光度，不僅可分析成功變體，還可分析表現缺佳的替代方案。
+
+  這些額外的資訊可為長期策略性決定提供資訊。
+
+* **偏誤控制項**
+
+  固定配置會降低偏誤的易感性，例如「獲勝者的詛咒」或回歸至平均值。
+
+### 限制
+
+傳統A/B實驗的主要限制如下：
+
+* **機會成本**
+
+  相當一部分的流量會導向不良的處理，可能會減少測試期間的轉換或收入。
+
+  在實驗結束前，無法實施成功處理。
+
+* **固定期間需求**
+
+  測試通常必須在預先指定的範圍內執行，即使外部條件，例如季節性、市場變化、中途改變。
+
+  實驗期間的適應能力有限。
+
+## 多臂吃角子老虎 {#mab-experiment}
+
+多臂吃角子老虎機演演算法使用適應性配置：隨著證據的積累，會將更多流量導向表現更好的處理。 目的是最大化實驗期間的累計回報，而不是僅專注於最終結果。
+
+### 優點
+
+多臂吃角子老虎機方法的主要優點包括：
+
+* **更快的最佳化**
+
+  有前途的處理方式會更早排定優先順序，在測試期間提升整體效能。
+
+* **適應性**
+
+  配置會在收集資料時持續更新，使得多臂吃角子老虎機適用於動態環境。
+
+* **降低的機會成本**
+
+  不良處理方式會快速淘汰，將浪費的流量減至最少。
+
+* **適合持續測試**
+
+  對於持續進行的實驗或流量昂貴的內容而言有效。
+
+### 限制
+
+多臂吃角子老虎機方法的主要限製為：
+
+* **較弱的統計保證**
+
+  傳統的假設測試較難套用，而停止規則則較不清晰。
+
+* **降低透明度**
+
+  最適化配置可能很難向利害關係人解釋。
+
+* **表現缺佳的處理的有限資訊**
+
+  弱效治療很少暴露於病灶，因此限制了診斷insight。
+
+* **實作複雜性**
+
+  需要進階的演演算法和基礎架構，且更容易發生設定錯誤。
+
+## 何時使用A/B和多臂吃角子老虎機
+
+| 情境 | 建議的方法 |
+|-|-|
+| 您正在執行探索性或研究驅動測試 | A/B |
+| 您正在執行永遠啟動的行銷活動，例如廣告、建議 | 多臂吃角子老虎 |
+| 您想要在測試期間最大化轉換 | 多臂吃角子老虎 |
+| 您需要清晰、自信的深入分析 | A/B |
+| 您需要快速適應，例如季節性輪班 | 多臂吃角子老虎 |
+| 您的流量有限，希望快速最佳化投資報酬率 | 多臂吃角子老虎 |
+| 您的流量高，可以承受較慢的學習速度 | A/B |
+| 利害關係人需要明確的決策點 | A/B |
+

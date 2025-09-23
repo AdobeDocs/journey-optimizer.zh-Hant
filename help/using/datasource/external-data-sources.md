@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 36%
+source-wordcount: '1647'
+ht-degree: 37%
 
 ---
 
@@ -272,4 +272,4 @@ ht-degree: 36%
 
 >[!CAUTION]
 >
->設定自訂動作的自訂驗證時，請注意，巢狀JSON物件（例如`bodyParams`內的子物件）目前&#x200B;**不支援**。 最終請求承載中只會包含一般索引鍵/值組。 如果您的驗證端點需要巢狀物件，這可能會導致缺少欄位和驗證失敗。
+>設定自訂動作的自訂驗證時，請注意，巢狀JSON物件（例如`bodyParams`內的子物件）是&#x200B;**支援**。

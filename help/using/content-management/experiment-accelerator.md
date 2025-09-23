@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
-hide: true
-hidefromtoc: true
-source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
+exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 14%
+source-wordcount: '464'
+ht-degree: 15%
 
 ---
 
 # 開始使用Journey Optimizer Experimentation Accelerator {#content-experiment}
-
->[!BEGINSHADEBOX]
-
-* **[開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
-* [透過Journey Optimizer Experimentation Accelerator在AI中使用資料](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator最佳作法](experiment-accelerator-best-practices.md)
-* [監視實驗](experiment-accelerator-monitor.md)
-* [實驗中的量度](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -84,7 +73,7 @@ ht-degree: 14%
 
 若要將此角色指派給新使用者：
 
-1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;**&#x200B;**，然後按一下[新增使用者]&#x200B;**&#x200B;**。
+1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;****，然後按一下[新增使用者]****。
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 

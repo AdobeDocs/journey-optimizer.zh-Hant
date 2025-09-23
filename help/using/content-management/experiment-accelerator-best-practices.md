@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 2%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator最佳作法 {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [開始使用Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* **[Journey Optimizer Experimentation Accelerator最佳實務](experiment-accelerator-best-practices.md)**
-* [Journey Optimizer Experimentation Accelerator的隱私權、安全性與控管](experiment-accelerator-security.md)
-* [監視實驗](experiment-accelerator-monitor.md)
-* [實驗中的量度](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## 什麼是A/B測試？
 

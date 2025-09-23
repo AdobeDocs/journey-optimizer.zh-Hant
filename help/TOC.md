@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [常見問題集](using/orchestrated/orchestrated-campaigns-faq.md)
       + 資料設定 {#data-configuration}
          + [資料設定](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + 管理關聯式結構描述和資料集 {#schemas-datasets}
-            + [管理關聯式結構描述和資料集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + 管理以模型為基礎的結構描述和資料集 {#schemas-datasets}
+            + [管理以模型為基礎的結構描述和資料集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
             + [手動處理結構描述](using/orchestrated/manual-schema.md)
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
@@ -334,7 +334,7 @@ ht-degree: 98%
             + [加入內嵌樣式屬性](using/email/inline-styling.md)
             + [新增自訂 CSS](using/email/custom-css.md)
             + [管理深色模式內容](using/email/dark-mode.md)
-         + [建立無障礙內容](using/email/accessible-content.md)
+         + [建立可存取的內容](using/email/accessible-content.md)
       + [管理電子郵件選擇退出](using/email/email-opt-out.md)
       + 設定電子郵件管道 {#configure-email}
          + [設定電子郵件管道](/help/rp_landing_pages/configure-email-landing-page.md)
@@ -351,7 +351,7 @@ ht-degree: 98%
          + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
-      + [開始使用應用程式內訊息](using/in-app/get-started-in-app.md)
+      + [開始使用應用程式內的內容](using/in-app/get-started-in-app.md)
       + [應用程式內管道先決條件](using/in-app/inapp-configuration.md)
       + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
@@ -549,12 +549,13 @@ ht-degree: 98%
       + [建立內容實驗](using/content-management/content-experiment.md)
       + 實驗加速器 {#experiment}
          + [開始使用實驗加速器](using/content-management/experiment-accelerator.md)
-         + [透過Experimentation Accelerator在AI中使用資料](using/content-management/experiment-accelerator-security.md)
-         + [實驗加速器最佳作法](using/content-management/experiment-accelerator-best-practices.md)
-         + [實驗加速器監視器](using/content-management/experiment-accelerator-monitor.md)
-         + [實驗加速器量度](using/content-management/experiment-accelerator-metrics.md)
+         + [透過 Experimentation Accelerator，就能在 AI 中使用資料](using/content-management/experiment-accelerator-security.md)
+         + [實驗加速器最佳做法](using/content-management/experiment-accelerator-best-practices.md)
+         + [實驗加速器的監視器](using/content-management/experiment-accelerator-monitor.md)
+         + [實驗加速器的量度](using/content-management/experiment-accelerator-metrics.md)
       + 技術說明 {#technotes}
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B測試和多臂吃角子老虎機](using/content-management/mab-vs-ab.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}

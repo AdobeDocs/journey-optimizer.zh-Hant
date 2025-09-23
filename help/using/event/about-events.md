@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 47%
+source-wordcount: '1538'
+ht-degree: 33%
 
 ---
 
@@ -72,6 +72,43 @@ ht-degree: 47%
 
 對於系統產生的事件，Pipeline會篩選由[!DNL Journey Optimizer]提供且包含[!DNL Journey Optimizer]個eventID之裝載（請參閱下方的事件建立程式）的事件。 對於規則型事件，系統會使用eventID條件來識別事件。 這些事件會由 [!DNL Journey Optimizer] 監聽，並會觸發相對應的歷程。
 
+
+## 關於歷程事件輸送量 {#event-thoughput}
+
+Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程事件的尖峰量。 此配額適用於使用中歷程中使用的所有事件，包括&#x200B;**即時**、**試運行**、**已關閉**&#x200B;和&#x200B;**已暫停**&#x200B;歷程。 達到此配額時，新事件會以每秒5,000的處理速率排入佇列。 事件在佇列中可花費的時間上限為&#x200B;**24小時**。
+
+下列型別的事件會計入5,000 TPS配額：
+
+* **外部單一事件**：包含規則型事件和系統產生的事件。 如果相同的原始事件符合多個規則定義的資格，則每個合格規則都會計為個別事件。 更多詳細資訊如下。
+
+* **對象資格事件**：如果在多個歷程中使用相同的串流對象，則每個使用量會個別計算。 例如，在兩個歷程的對象資格活動中使用相同對象時，會產生兩個計入的事件。
+
+* **回應事件**：歷程中設定檔回應（已開啟電子郵件、已點按電子郵件等）所觸發的事件。
+
+* **商業事件**：事件未繫結至特定設定檔，而是繫結至商業相關事件。
+
+* **Analytics事件**：如果已啟用[與Adobe Analytics的整合以觸發歷程](about-analytics.md)，則也會包含這些事件。
+
+* **繼續事件**：當設定檔從暫停的歷程繼續時觸發的技術事件。 深入瞭解[繼續暫停的歷程](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey)。
+
+* **等待節點完成事件**：當設定檔退出等待節點時，會產生技術事件以繼續歷程。
+
+>[!NOTE]
+>
+>除了等待和恢復事件，根據讀取對象在歷程中使用時，所有其他事件型別也計入配額。
+
+### 關於符合多個規則定義的原始事件
+
+相同原始事件可符合歷程中的多個規則定義。 在&#x200B;**管理**&#x200B;區段中設定事件時，對於相同的事件結構描述，可以定義多個事件規則。 舉例來說，我們有一個購買事件，其中包含欄位「city」和「purchaseValue」。 讓我們考慮下列案例：
+
+1. 名稱為&#x200B;**的事件** E1`newYorkPurchases`是以規則定義建立，該規則定義指出`city=='New York'`。 此事件可能會在10個歷程中使用，但到時仍只會計為1個事件。
+
+1. 現在假設在與&#x200B;**E1**&#x200B;相同的事件結構描述上，也建立了名稱為`highValuePurchases`且具有`purchaseValue > 1000`作為規則定義的事件&#x200B;**E2**。 在此情況下，將依據兩個規則評估相同的傳入事件： `newYorkPurchases`和`highValuePurchases`。 現在紐約購買可能也是高價值購買。
+
+   在此情況下，Journey Optimizer會從相同的傳入事件中建立兩個事件&#x200B;**E1**&#x200B;和&#x200B;**E2**，這會讓此單一傳入事件計為兩個事件。
+
+   請注意，當這些事件用於作用中歷程時，即開始計算這些事件，包括&#x200B;**即時**、**演習**、**已關閉**&#x200B;和&#x200B;**已暫停**&#x200B;歷程。
+
 ## 更新和刪除事件 {#update-event}
 
 
@@ -83,7 +120,7 @@ ht-degree: 47%
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

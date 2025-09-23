@@ -2,32 +2,32 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
-description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
+description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 52%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
 
-# 使用DDL檔案建立關聯式結構描述 {#file-upload-schema}
+# 使用DDL檔案建立模型型方案 {#file-upload-schema}
 
-透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的關聯式資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
+透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的模型型資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
 
 您可以透過介面手動建立結構描述，或使用DDL檔案大量匯入結構描述。
 
-本章節提供如何透過上傳 DDL (資料定義語言) 檔案，可在 Adobe Experience Platform 中建立關聯式結構描述的逐步指南。使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
+本節提供如何透過上傳DDL （資料定義語言）檔案在Adobe Experience Platform中建立模型架構的逐步指引。 使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
 
-1. [上傳DDL檔案](#ddl-upload)以建立關聯式結構描述並定義其結構。
+1. [上傳DDL檔案](#ddl-upload)以建立模型架構並定義其結構。
 
 1. [定義資料模型中資料表之間的關係](#relationships)。
 
-1. [連結結構描述](#link-schema)以連線您的關聯式資料與現有的設定檔實體，例如收件者或品牌。
+1. [連結結構描述](#link-schema)，以將您的模型型資料與現有的設定檔實體（例如收件者或品牌）連結。
 
-1. [從支援的來源將資料](ingest-data.md)擷取到您的資料集中。
+1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -35,7 +35,7 @@ ht-degree: 52%
 
 支援以Excel為基礎的結構描述檔案上傳。 下載[提供的範本](assets/template.zip)以輕鬆準備您的結構描述定義。
 
-+++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
++++在Adobe Experience Platform中建立模型架構時，支援下列功能
 
 * **列舉**\
   以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
@@ -57,7 +57,7 @@ ht-degree: 52%
   架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
 * **複合索引鍵**\
-  關聯式結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
+  以模型為基礎的結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 52%
 
 1. 按一下&#x200B;**建立結構描述**。
 
-1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;作為您的&#x200B;**結構描述型別**。
+1. 選取&#x200B;**[!UICONTROL 以模型為基礎的]**&#x200B;作為您的&#x200B;**結構描述型別**。
 
    ![](assets/admin_schema_1.png)
 
@@ -155,7 +155,7 @@ ht-degree: 52%
 
 1. 請按一下&#x200B;**[!UICONTROL 開啟工作]**，以便監視建立工作的進度。 此流程可能需要幾分鐘的時間，全視 DDL 檔案中定義的表格數目而定。
 
-   您也可以開啟&#x200B;**[!UICONTROL 上傳DDL檔案]**&#x200B;視窗並選取&#x200B;**[!UICONTROL 檢視所有關聯式工作]**，以存取關聯式工作。
+   您也可以開啟&#x200B;**[!UICONTROL 上傳DDL檔案]**&#x200B;視窗並選取&#x200B;**[!UICONTROL 檢視所有DDL匯入工作]**，以存取您的DDL匯入工作。
 
    ![](assets/admin_schema_4.png)
 
@@ -179,7 +179,7 @@ ht-degree: 52%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

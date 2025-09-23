@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 03b22446ee06b5a6c20145c4b9abed95ac24e8bb
+source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '956'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,10 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 開始使用範例輸入資料來測試內容之前，請考量下列護欄和先決條件。
 
-* **管道** — 模擬內容變化僅適用於電子郵件、簡訊和推播通知管道。
+* **管道** — 模擬內容變化可用於：
+
+   * 電子郵件、簡訊和推播通知頻道；
+   * 所有傳入頻道（網頁、程式碼型體驗、應用程式內、內容卡）。
 
 * **支援的功能** — 內容變化可搭配[!DNL Journey Optimizer]多語言內容與內容實驗功能使用。 這可讓您以多種語言測試訊息，並透過實驗最佳化內容。
 
@@ -42,7 +45,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
   >[!NOTE]
   >
-  >目前無法使用目前的收件匣轉譯和垃圾郵件報告：。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
+  >目前，目前的體驗無法使用收件匣轉譯和垃圾郵件報告。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
 
 * **屬性** — 同時支援設定檔和內容屬性。
 
@@ -52,7 +55,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 ## 新增和預覽內容變數
 
-若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]**&#x200B;**[!UICONTROL 。]**
+若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]****[!UICONTROL 。]**
 
 ![](assets/simulate-sample.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 9%
+source-wordcount: '1846'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,21 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必為某些量度設定資料集。"
 
-1. 當您的訊息已個人化時，從行銷活動摘要頁面，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
+對於您的內容實驗，您可以選擇三種型別的實驗：
+
+* **[!UICONTROL A/B實驗]**：在測試開始時定義處理間的流量分割。 系統會根據您選擇的主要量度Experimentation Accelerator評估效能，然後報告兩次處理之間觀察到的提升度。
+
+* **[!UICONTROL 多臂吃角子老虎機]**：處理之間的流量分割會自動處理。 每7天會審視主要量度的效能，並據此調整權重。 Experimentation Accelerator中的報表會繼續將提升度顯示為A/B測試。
+
+* **[!UICONTROL 自備多臂吃角子老虎機]**：處理之間的流量分割會自動處理。 您有彈性決定何時及如何變更，方法是使用Experiment API即時調整配置。
+
+➡️ [進一步瞭解A/B與Multi-armed Bandit實驗之間的差異](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB A/B實驗]
+
+1. 當您的訊息已個人化時，從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
    ![](assets/content_experiment_11.png)
 
-1. 使用應用程式內或Web頻道設定實驗，並選擇&#x200B;**[!UICONTROL 傳入點按]**、**[!UICONTROL 不重複傳入點按]**、**[!UICONTROL 頁面檢視]**&#x200B;或&#x200B;**[!UICONTROL 不重複頁面檢視量度]**&#x200B;時，**[!UICONTROL 點選動作]**&#x200B;下拉式清單可讓您精確追蹤和監視特定頁面上的點按和檢視。
+1. 使用應用程式內或Web頻道設定實驗，並選擇&#x200B;**[!UICONTROL 傳入點按]**、**[!UICONTROL 不重複傳入點按]**、**[!UICONTROL 頁面檢視]**&#x200B;或&#x200B;**[!UICONTROL 不重複頁面檢視量度]**&#x200B;時，**[!UICONTROL 維度]**&#x200B;欄位可讓您精確追蹤和監視特定頁面上的點按和檢視。
 
    ![](assets/content_experiment_20.png)
+
+1. 如果您已建立API觸發的行銷活動，請從&#x200B;**[!UICONTROL 實驗型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL A/B實驗]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
 
@@ -104,7 +120,89 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 1. 啟用自動縮放實驗以自動轉出實驗的成功變數。 [進一步瞭解如何縮放成功者](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. 設定您的組態時，按一下&#x200B;**[!UICONTROL 建立]**。
+
+>[!TAB 多臂吃角子老虎機]
+
+請注意，多臂吃角子老虎機實驗僅適用於以下專案：
+
+* 傳入頻道
+* 單一歷程
+* API觸發的行銷活動（交易式和操作式）
+* 如果排程重複發生，則為傳出頻道
+
+1. 當您的訊息已個人化時，從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
+
+   ![](assets/content_experiment_3.png)
+
+1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。
+
+   在此範例中，選取&#x200B;**[!UICONTROL 電子郵件開啟]**&#x200B;以測試設定檔是否會開啟其電子郵件（如果促銷代碼在主旨行中）。
+
+   ![](assets/content_experiment_11.png)
+
+1. 如果您已建立API觸發的行銷活動，請從&#x200B;**[!UICONTROL 實驗型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 多臂吃角子老虎機]**。
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. 變更您處理方式的&#x200B;**[!UICONTROL 標題]**，以便更佳地區分它們。
+
+1. 選擇將&#x200B;**[!UICONTROL 保留]**&#x200B;群組新增至您的傳遞。 此群組將不會收到來自此行銷活動的任何內容。
+
+   切換列會自動取得母體的10%，您可以視需要調整此百分比。
+
+   >[!IMPORTANT]
+   >
+   >當在動作中使用保留群組進行內容實驗時，保留指派僅適用於該特定動作。 動作完成後，保留群組中的設定檔將繼續沿歷程路徑前進，並可接收其他動作的訊息。 因此，請確保任何後續的訊息不依賴可能位於保留群組內的設定檔所接收的訊息。 如果是，您可能需要移除保留組指派。
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB 自備多臂吃角子老虎機]
+
+請注意，自備Multi-armed Bandit實驗僅適用於以下專案：
+
+* 傳入頻道
+* 單一歷程
+* API觸發的行銷活動（交易式和操作式）
+* 如果排程重複發生，則為傳出頻道
+
+1. 當您的訊息已個人化時，從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗。
+
+   ![](assets/content_experiment_3.png)
+
+1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。
+
+   在此範例中，選取&#x200B;**[!UICONTROL 電子郵件開啟]**&#x200B;以測試設定檔是否會開啟其電子郵件（如果促銷代碼在主旨行中）。
+
+   ![](assets/content_experiment_11.png)
+
+1. 如果您已建立API觸發的行銷活動，請從&#x200B;**[!UICONTROL 實驗型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 自攜Multi-armed Bandit]**。
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. 變更您處理方式的&#x200B;**[!UICONTROL 標題]**，以便更佳地區分它們。
+
+1. 選擇將&#x200B;**[!UICONTROL 保留]**&#x200B;群組新增至您的傳遞。 此群組將不會收到來自此行銷活動的任何內容。
+
+   切換列會自動取得母體的10%，您可以視需要調整此百分比。
+
+   >[!IMPORTANT]
+   >
+   >當在動作中使用保留群組進行內容實驗時，保留指派僅適用於該特定動作。 動作完成後，保留群組中的設定檔將繼續沿歷程路徑前進，並可接收其他動作的訊息。 因此，請確保任何後續的訊息不依賴可能位於保留群組內的設定檔所接收的訊息。 如果是，您可能需要移除保留組指派。
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## 設計您的處理方式 {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化
 
 * **手動縮放**：手動檢閱實驗結果，並啟動成功處理的轉出，以完整控制時間與決定。
 
-
 ### 自動縮放 {#autoscaling}
 
 自動縮放可讓您根據實驗結果，設定何時推出成功處理或遞補專案的預先定義規則。
@@ -167,9 +264,9 @@ Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化
    * 找到獲勝者之後。
    * 實驗在所選的時間內上線後。
 
-     自動縮放時間必須排程在實驗的結束日期之前。 如果設定的時間晚於結束日期，則會出現驗證警告，且不會發佈行銷活動或歷程。
+自動縮放時間必須排程在實驗的結束日期之前。 如果設定的時間晚於結束日期，則會出現驗證警告，且不會發佈行銷活動或歷程。
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. 如果依時間比例找不到任何獲勝者，請選擇遞補行為：
 
