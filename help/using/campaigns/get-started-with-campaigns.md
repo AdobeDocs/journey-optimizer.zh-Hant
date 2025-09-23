@@ -10,9 +10,9 @@ level: Beginner
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -56,52 +56,52 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="行銷活動類型"
->abstract="選取行銷活動類型。可用管道根據所選類型而有所不同。<br>**已排程行銷活動** (動作行銷活動) – 非常適合簡單的一次性批次通訊，您可以安排在特定時間執行。<br>**API 觸發的行銷活動** – 透過 API 呼叫啟動，啟用直接從外部系統傳送以事件為基礎的自動化訊息功能。<br>**協調式行銷活動** – 提供視覺化的拖放式版面，以便設計和自動化複雜的多步驟行銷工作流程，從客群細分到跨管道傳送個人化訊息皆包含在內。"
+>abstract="選取行銷活動類型。可用管道根據所選類型而有所不同。<br>**已排程行銷活動** (動作行銷活動) – 非常適合簡單的一次性批次通訊，您可以安排在特定時間執行。<br>**API 觸發的行銷活動** – 透過 API 呼叫啟動，啟用直接從外部系統傳送以事件為基礎的自動化訊息功能。<br>**協調式行銷活動** – 提供視覺化的拖放式版面，用於設計和自動化複雜的多步驟行銷工作流程，從客群細分到跨管道的個人化訊息傳送都包含在內。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="行銷活動"
->abstract="建立細分流程、製作跨管道訊息，以及規劃行銷活動。支援的管道：電子郵件、SMS、推播。"
+>abstract="建立您的細分流程、精心製作跨管道訊息，並規劃您的行銷活動。支援的管道：電子郵件、簡訊、推播通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
 >title="行銷活動"
->abstract="傳送一次性或定期的傳出內容或持續性的傳入動作。"
+>abstract="傳遞單次或定期的傳出傳遞或持續的傳入動作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="行銷活動"
->abstract="傳送一次性或定期的傳出交易型動作。"
+>abstract="提供單一或定期的傳出交易型動作。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="行銷活動"
->abstract="向目標客群傳遞個人化的行銷通訊。支援的管道：電子郵件、SMS、推播。"
+>abstract="向目標客群傳遞個人化行銷通訊內容。支援的管道：電子郵件、簡訊、推播通知。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="行銷活動"
->abstract="向個別輪廓或輪廓集傳送交易型通訊。支援的管道：電子郵件、SMS、推播。"
+>abstract="向個別輪廓或輪廓集傳遞交易型通訊內容。支援的管道：電子郵件、簡訊、推播通知。"
 
 使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定客群。 當使用歷程時，動作會依序執行。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。
 
 ![](assets/gs-campaigns.png)
 
-您可以在Journey Optimizer中建立不同型別的行銷活動。 支援的管道和使用案例會因行銷活動型別而異。 以下列出這些型別。
+您可以在 Journey Optimizer 中，建立不同類型的行銷活動。支援的管道和使用案例會因行銷活動類型而異。這些類型列於下方。
 
 * **動作行銷活動**
 
-  行動行銷活動（或排程行銷活動）允許對行銷使用案例進行簡單的臨時批次通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。 在此頁面[上進一步瞭解Action行銷活動功能、使用案例和支援的管道](create-campaign.md)。
+  動作行銷活動 (或是已排程行銷活動) 允許用於行銷活動使用案例的簡單臨時批量通訊，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。[在此頁面上](create-campaign.md)深入了解動作行銷活動功能、使用案例和支援的管道。
 
 * **由 API 觸發的行銷活動**
 
-  API觸發的行銷活動可讓行銷通訊在適當的時間聯絡對象，或讓交易/營運訊息聯絡個人（例如密碼重設），其需求可能涉及個人化，不僅使用設定檔屬性，還會在觸發程式（即REST API裝載）中使用即時內容資料。 在此頁面[上進一步瞭解API觸發的行銷活動功能、使用案例和支援的管道](api-triggered-campaigns.md)。
+  API 觸發的行銷活動允許使用行銷通訊，以便在適當時間和客群保持聯絡，或者允許向個人傳送交易型/操作訊息，例如密碼重設，其中的需求可能涉及個體，不只會使用輪廓屬性，還會使用觸發程序中的即時上下文資料，也就是 REST API 的裝載內容。[在此頁面上](api-triggered-campaigns.md)深入了解 API 觸發的行銷活動功能、使用案例和支援的管道。
 
 * **協調的行銷活動**
 
   Adobe Journey Optimizer 中的行銷活動協調可跨頻道支援品牌啟動的複雜行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 
-  雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在一個直覺式環境中進行，專為速度、控制能力和效率而打造。 在此頁面[上進一步瞭解協調行銷活動功能、使用案例和支援的管道](../orchestrated/gs-orchestrated-campaigns.md)。
+  雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。[在此頁面上](../orchestrated/gs-orchestrated-campaigns.md)深入了解協調行銷活動功能、使用案例和支援的管道。
 
 ## 先決條件 {#prerequisites}
 
