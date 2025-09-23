@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: f82e725b58dbb2fdea70455a203d83b13b0e4a2b
+source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1430'
 ht-degree: 3%
 
 ---
@@ -253,11 +253,11 @@ Yes, follow the best practices below:
 +++
 
 
+## 其他資源
 
+如需更多學習與更新內容，請探索下列資源：
 
->[!MORELIKETHIS]
->
->* [協調的行銷活動護欄和限制](../orchestrated/guardrails.md)
->* [開始使用協調行銷活動中的結構描述和資料集](../orchestrated/gs-schemas.md)
->* [建立您的第一個協調行銷活動](../orchestrated/gs-campaign-creation.md)
->* [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [協調的行銷活動護欄和限制](../orchestrated/guardrails.md)
+* [開始使用協調行銷活動中的結構描述和資料集](../orchestrated/gs-schemas.md)
+* [建立您的第一個協調行銷活動](../orchestrated/gs-campaign-creation.md)
+* [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
