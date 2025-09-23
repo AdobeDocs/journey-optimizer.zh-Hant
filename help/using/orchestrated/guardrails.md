@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 每個結構描述&#x200B;**的平均屬性數目不應超過50個資料行**，以維持管理性和效能。
 
-* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用模型架構功能。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 可以針對協調的行銷活動或行動行銷活動啟用模型型結構描述。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用模型架構功能。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 可以針對協調的行銷活動或行動行銷活動啟用模型型結構描述。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料攝取
 
