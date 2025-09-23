@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [在影片中探索協調的行銷活動](#video-oc)
+➡️ [觀看影片，探索協調行銷活動](#video-oc)
 
 ## 核心功能
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
+>支援的管道：[電子郵件](../email/get-started-email.md)、[簡訊/MMS/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
 >
 >可用的通道因您的授權模式及附加元件而異。
 
@@ -85,7 +85,7 @@ ht-degree: 93%
 
 ## 簡介影片 {#video-oc}
 
-瞭解協調行銷活動的主要概念和功能。
+了解協調行銷活動的主要概念和功能。
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
