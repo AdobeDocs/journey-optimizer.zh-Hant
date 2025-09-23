@@ -55,7 +55,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 ## 新增和預覽內容變數
 
-若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]****[!UICONTROL 。]**
+若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]**&#x200B;**[!UICONTROL 。]**
 
 ![](assets/simulate-sample.png)
 
