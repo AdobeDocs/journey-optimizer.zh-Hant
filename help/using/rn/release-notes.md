@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3111'
 ht-degree: 68%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 68%
 
 * **核准原則許可權**
 在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。
-
+<!-->
 * **新歷程警示**\
   新的預先設定警示可供歷程使用：
 
@@ -246,6 +246,7 @@ ht-degree: 68%
    * 超過設定檔錯誤率：過去5分鐘超過臨界值的設定檔出錯與輸入設定檔的比率。
 
   您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
+-->
 
 * **自訂驗證現在支援巢狀JSON內文引數**\
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。
@@ -255,12 +256,12 @@ ht-degree: 68%
 
   若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **以模型為基礎的結構描述**\
+  關聯式結構描述現在在協調的行銷活動中稱為模型型結構描述。
 
 * **歷程中的資料集查詢支援**\
   歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。
