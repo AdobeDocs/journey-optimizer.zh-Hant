@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -241,7 +241,7 @@ group by
 
 另請參閱幾個查詢歷程步驟事件[的常用](../reports/query-examples.md)範例。
 
-
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
 
 ## 決策事件資料集{#ode-decisionevents}
 

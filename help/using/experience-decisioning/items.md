@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2179'
 ht-degree: 17%
 
 ---
@@ -79,9 +79,13 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="新增對象或決定規則"
->abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="使用對象"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="使用決定規則"
+>abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。
+
+<!--
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+-->
+
 
 依預設，所有設定檔都符合接收決定專案的資格，但您可以使用對象或規則將專案限製為僅特定設定檔，這兩個解決方案都對應不同的使用方式。 展開下列區段以取得詳細資訊：
 

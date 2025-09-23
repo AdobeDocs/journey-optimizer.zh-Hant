@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 查詢會在定義的期間內傳回每天進入歷程的設定檔數。 如果透過多個身分輸入設定檔，則會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
+
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+
 +++
 
 +++檢查設定檔的外部事件是否因任何其他原因而捨棄
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+
 +++
 
 +++檢查stateMachine依errorCode捨棄的所有事件計數
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+
 +++
 
 ## 常見的歷程型查詢 {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 查詢會在定義的期間內傳回每天觸發的不重複歷程計數。 在多天觸發的單一歷程每天將計為一次。
+
 
 +++
 
