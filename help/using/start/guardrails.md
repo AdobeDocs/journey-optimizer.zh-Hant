@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 電子郵件護欄 {#message-guardrails}
 
-下列防護措施適用於[電子郵件頻道](../../rp_landing_pages/email-landing-page.md)：
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* 您無法向帶有[!DNL Journey Optimizer]的電子郵件新增附件。
-* 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送訊息。
+您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送電子郵件訊息。
 
 ### SMS 護欄 {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 訊息回饋同步目前不適用於 MMS。
 * 同意管理在 MMS 的 SMS 通道層級運作。
 
-### 網頁管道護欄 {#web-guardrails}
+### 傳入頻道護欄 {#inbound-guardrails}
 
-[!DNL Journey Optimizer] [網頁行銷活動](../web/get-started-web.md)會選擇以其他管道上不曾有過互動的新輪廓為目標。這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
+* Journey Optimizer支援每秒5,000個傳入請求的尖峰數量。 此護欄適用於所有傳入要求，這些要求可源自任何Journey Optimizer支援的傳入頻道（[網頁](../web/get-started-web.md)、[應用程式內](../in-app/get-started-in-app.md)、[程式碼型體驗](../code-based/get-started-code-based.md)、[內容卡](../../rp_landing_pages/content-card-landing-page.md)）。
 
-各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
+  Journey Optimizer傳入頻道會將目標設定為以前可能未在其他頻道上參與的新設定檔。 這樣做會增加可互動設定檔總數，如果其超過您購買的可互動設定檔合約數量，可能會影響成本。 
 
-### 程式碼型管道護欄 {#code-based-guardrails}
+  各個封裝的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。
 
-若要在 [!DNL Journey Optimizer] 中使用程式碼型體驗動作，並傳送您的應用程式可以使用的程式碼內容承載，請遵循[此頁面](../code-based/code-based-prerequisites.md)詳述的先決條件。
+* Journey Optimizer在任何時間支援最多500個作用中的傳入動作。 這些傳入動作（[網頁](../web/get-started-web.md)、[應用程式內](../in-app/get-started-in-app.md)、[程式碼型體驗](../code-based/get-started-code-based.md)、[內容卡片](../../rp_landing_pages/content-card-landing-page.md)）若是即時行銷活動的一部分，或為即時歷程中使用的節點，則會計算在內。 達到此數目後，您必須停用使用傳入動作的舊版行銷活動或歷程，才能啟動新行銷活動。
+
+* 若要在[中使用](../code-based/get-started-code-based.md)程式碼型體驗[!DNL Journey Optimizer]動作，並傳遞您的應用程式可以使用的程式碼內容裝載，請遵循[此頁面](../code-based/code-based-prerequisites.md)上詳述的先決條件。
+
+### 異動訊息護欄 {#transactional-message-guardrails}
+
+Journey Optimizer在行銷活動中支援每秒500則交易訊息的尖峰量。
 
 ## 登陸頁面護欄 {#lp-guardrails}
 
@@ -132,7 +137,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -199,7 +204,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 ### 補充識別碼 {#supplemental}
 
-特定護欄適用於在歷程中使用補充識別碼。 它們列在[此頁面](../building-journeys/supplemental-identifier.md#guardrails)中
+特定護欄適用於在歷程中使用補充識別碼。 它們會在[本頁面](../building-journeys/supplemental-identifier.md#guardrails)中列出。
 
 ### 運算式編輯器 {#expression-editor}
 
