@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 透過使用案例深入了解
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 體驗事件查閱
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 傳送多頻道訊息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 使用 Campaign v7/v8 傳送訊息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 傳送訊息給訂閱者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用自訂動作動態傳遞集合
 
@@ -86,4 +86,4 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 
 - **[使用外部資料來源和自訂動作限制輸送量](../using/building-journeys/limit-throughput.md)** - 使用資料來源和自訂動作最佳化歷程輸送量並管理外部系統的限制。
 - **[使用自訂動作在 Experience Platform 中寫入歷程事件](../using/building-journeys/custom-action-aep.md)** - 設定已驗證的呼叫和 HTTP API 端點，以將歷程事件寫入 Adobe Experience Platform。
-- **[從即時歷程中移除設定檔](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** — 基於業務或營運原因，您可能需要從即時歷程中移除一些設定檔，並排除符合歷程中目前特定條件的設定檔。 這可透過暫停歷程來執行。
+- **[從即時歷程中移除設定檔](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** — 基於業務或營運原因，您可能需要從即時歷程中移除一些設定檔，並排除符合歷程中目前特定條件的設定檔。 這可透過暫停歷程來執行。
