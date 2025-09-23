@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 15%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 15%
 * [讀取對象](read-audience.md)
 * [等待](wait-activity.md)
 * [內容決策](content-decision.md)
+* [資料集查詢](dataset-lookup.md)
 
 ![歷程設計工具中的協調流程活動浮動視窗](assets/journey-orchestration-activities.png)
 

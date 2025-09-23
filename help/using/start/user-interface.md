@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: ht
-source-wordcount: '1807'
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+workflow-type: tm+mt
+source-wordcount: '1758'
 ht-degree: 100%
 
 ---
@@ -257,7 +257,7 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="善用多實體資料"
->abstract="瞭解協調的行銷活動如何運用相關資料集，讓資料更為豐富，以便進行細分和個人化"
+>abstract="了解協調的行銷活動如何運用相關資料集進行資料擴充，以便進行細分及個人化"
 
 
 
@@ -279,7 +279,7 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="建立並傳送行銷活動的引導式 UI"
->abstract="透過頻道設定單一或許多動作，選擇客群，設定內容，定義排程，接著一切就緒，您就可以傳送資料"
+>abstract="設定一個管道的單一或多個動作，選擇客群，設定內容，定義排程，最後一切就緒，進行傳送"
 
 
 >[!CONTEXTUALHELP]
@@ -293,7 +293,7 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_1"
->title="由交易 API 觸發的行銷活動"
+>title="交易型 API 觸發的行銷活動"
 >abstract="透過 API 呼叫觸發即時訊息"
 
 >[!CONTEXTUALHELP]
@@ -355,10 +355,3 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >id="ajo_journey_business_rules"
 >title="規則集"
 >abstract="規則集"
-
-<!-- DATASET LOOKUP IN JOURNEYS -->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_dataset_lookup"
->title="資料集查詢活動"
->abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
