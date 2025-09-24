@@ -12,9 +12,9 @@ badge: label="有限可用性" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
+source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1520'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
+   >在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
 
@@ -85,13 +85,15 @@ ht-degree: 2%
 
 所有現有表單都會顯示。 您可以根據表單的狀態、建立或修改日期來篩選表單。
 
+![](assets/lp_form-list.png)
+
 ## 建立及設計表單 {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
 
 若要建立表單，請遵循下列步驟。
 
@@ -103,29 +105,71 @@ ht-degree: 2%
 
 1. 選取&#x200B;**[!UICONTROL 預設集]**，其中包含要使用的連線以及表單的預先定義資料集。 [瞭解如何建立表單預設集](#create-form-preset)
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 按一下 **[!UICONTROL 建立]**。表單設計工具開啟，可讓您新增結構和內容[元件](../email/content-components.md#add-content-components)以建置您的內容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;元件。
 
-   <!--![](assets/lp_create-form-filled.png){width=50%}-->
+1. 若要新增特定欄位至您的表單，請將結構拖放至畫布中，並將&#x200B;**[!UICONTROL Field]**&#x200B;元件拖曳到裡面。<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-1. 表單設計工具隨即開啟。 新增[元件](../email/content-components.md#add-content-components)以建置您的表單內容。 您可以使用[Text](../email/content-components.md#text)元件和&#x200B;**[!UICONTROL Field]**&#x200B;元件。
+   ![](assets/lp_create-form-field.png)
 
-1. 使用&#x200B;**[!UICONTROL 欄位]**&#x200B;元件，您可以根據選取的資料集結構描述選取屬性。
+   然後選取下列其中一個選項：
+
+   >[!BEGINTABS]
+
+   >[!TAB 選取欄位屬性]
+
+   使用此選項可根據連結至表單的資料集結構選取屬性。
 
    >[!NOTE]
    >
-   >若要將收集的資料與設定檔對應，請選取設定檔身分欄位。 若要識別屬性清單中的身分識別欄位，請尋找標示為&#x200B;**[!UICONTROL 必要]**.<!--Explain-->的欄位
+   >資料集是在為您的表單選取的預設集中定義。 [了解更多](#create-form-preset)
+
+   ![](assets/lp_select-field-attribute.png){width=100%}
 
    例如，您可以設定電子郵件和人員ID。 當使用者填寫這些欄位時，輸入的資訊會儲存到所選的資料集。
 
-   ![](assets/lp_create-form-fields.png)
+   ![](assets/lp_create-form-field-attributes.png){width=55%}
 
-1. 您可以指定每個&#x200B;**[!UICONTROL 欄位詳細資料]**，例如指示、預設值、驗證訊息、最大長度等。
+   若要將收集的資料與設定檔對應，請選取設定檔身分欄位。 身分欄位在屬性清單中標示為&#x200B;**[!UICONTROL 必要]** — 您可以篩選它們。
 
-   ![](assets/lp_create-form-field-details.png)
+   ![](assets/lp_create-form-required-attributes.png){width=65%}
+
+   >[!TAB 新增自訂欄位]
+
+   使用此選項，您可以只定義自由欄位，而不需將其對應至連結資料集中的欄位。
+
+   ![](assets/lp_create-form-custom-field.png){width=85%}
+
+   >[!ENDTABS]
+
+1. 在右側&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤的&#x200B;**[!UICONTROL 欄位詳細資料]**&#x200B;區段中，您可以視需要指定下列元素：
+
+   * 調整&#x200B;**[!UICONTROL 標籤]**，讓表單的收件者清楚瞭解。
+   * 根據您的需求變更&#x200B;**[!UICONTROL 欄位型別]**。 可以是核取方塊、貨幣、日期、滑桿、URL等。
+
+     >[!NOTE]
+     >
+     >其他欄位詳細資料可能會因選取的欄位型別而異。
+
+   * 新增&#x200B;**[!UICONTROL 預留位置]**.<!--To explain-->
+   * 指定&#x200B;**[!UICONTROL 指示]**.<!--How will they be displayed in the form? To explain-->
+   * 輸入&#x200B;**[!UICONTROL 預設值]**，此預設值會在表單使用者填寫欄位之前顯示。
+   * 您可以定義自訂&#x200B;**[!UICONTROL 驗證訊息]**。
+   * 設定&#x200B;**[!UICONTROL 最大長度]**。 如果表單的收件者在填寫欄位時超過限制，則會顯示錯誤訊息。
+
+   ![](assets/lp_create-form-field-details.png){width=85%}
+
+1. 在&#x200B;**[!UICONTROL 欄位行為]**&#x200B;區段中，您可以定義下列專案：
+
+   * 選取&#x200B;**[!UICONTROL 必要]**&#x200B;以強制此欄位。 如果使用者未填寫欄位，他們將無法提交表單。
+   * 選取&#x200B;**[!UICONTROL 區分大小寫]**，讓欄位區分大小寫。<!--To confirm - do you mean retain capitalization when added to the dataset?-->
+   * 選取&#x200B;**[!UICONTROL 已啟用預填]**&#x200B;以從設定檔資訊填入欄位（若有）。<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
+   * 選取&#x200B;**[!UICONTROL 啟用輸入遮罩]**，以一般字元取代使用者的輸入。 您可以使用&#x200B;*9*&#x200B;表示任何數字，*a*&#x200B;表示任何字母，或*表示任何數字或字母。<!--Not sure how you define that in the form-->
+
+   ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
 1. 您可以使用&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格，視需要調整表單的版面、樣式和維度。 [進一步瞭解樣式](../email/get-started-email-style.md)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**。
+1. 設定所有欄位後，按一下&#x200B;**[!UICONTROL 儲存並關閉]**。
 
 1. 設定感謝頁面。 [了解作法](#thank-you-page)
 
