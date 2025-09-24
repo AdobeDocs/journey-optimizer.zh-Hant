@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 10fb1975aa5dcab1ad7f39815fcc5dd5ef0c187d
+source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 55%
+source-wordcount: '1806'
+ht-degree: 44%
 
 ---
 
@@ -28,69 +28,6 @@ ht-degree: 55%
 **發行日期**：2025 年 9 月 23-24 日
 
 ### 全新功能 {#sept-25-9-features}
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>Public API to retrieve journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
-<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--<table>
-<thead>
-<tr>
-<th><strong>New source connectors for loyalty apps</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-
 
 <table>
 <thead>
@@ -113,48 +50,6 @@ ht-degree: 55%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Landing page custom forms</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
-<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>PDF attachments to emails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now attach a static PDF file to an email message sent with Journey Optimizer.</p>
-<ul>
-<li>You can send up to 6 messages with a PDF attachement per profile per year.</li>
-<li>The maximum allowed file size for each attachment is 5 MB.</li>
-<li>For any additional size or volume, you can purchase the PDF Attachments add-on. For more details, contact your Adobe representative.</li>
-</ul>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -257,32 +152,17 @@ ht-degree: 55%
 </tbody>
 </table>
 
-### 改善
+
+### 改善 {#sept-25-9-improvements}
 
 * **核准原則許可權**
 在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。 [閱讀全文](../test-approve/approval-policies.md)
 
-<!--
-* **New Journey Alerts**  
-  New pre-configured alerts are available for journeys:
-
-  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
--->
-
 * **自訂驗證現在支援巢狀JSON內文引數**\
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 
-<!--
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
 
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.-->
-
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
@@ -296,15 +176,8 @@ ht-degree: 55%
 * **模擬所有傳入頻道的內容變化**\
   先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。 [閱讀全文](../test-approve/simulate-sample-input.md)
 
-<!--* **Webhook support for API triggered campaigns**  
-  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.-->
-
 * 歷程自訂動作中的&#x200B;**重新導向支援**\
   歷程自訂動作現在支援重新導向(302)。
-
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
 
 * **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。
 
@@ -321,3 +194,137 @@ ht-degree: 55%
 * **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[閱讀全文](../reports/alerts.md#alert-dns-record-missing)
 
 
+
+### 即將推出 {#sept-25-9-soon}
+
+我們即將推出下列功能和改善專案。
+
+**下列內容可能會有所變更，恕不另行通知**。 這些功能和改進發佈至生產環境時，連結、畫面和更新檔案也會發佈。
+
+<table>
+<thead>
+<tr>
+<th><strong>用於擷取歷程的公用API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>新增Web推播通知頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援Web推播通知，將推播頻道擴展至行動裝置以外。 您可以順暢地將通知傳送至行動瀏覽器和案頭瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。</p>
+<p>此增強功能可讓您運用行動推送中現有的相同撰寫工作流程和目標定位功能，即時與使用者互動並提供個人化訊息。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自訂動作監控和報告</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>自訂動作監控和報告功能現已可用。 此功能可讓您更清楚瞭解歷程健康狀況和執行，包括生命週期狀態和效能警示。 您現在可以快速瞭解自訂動作中發生異常狀況的時間、地點和原因。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>忠誠度應用程式的新來源聯結器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform現在提供新的來源聯結器，適用於Talon.One、Chariceline和Kobie忠誠度應用程式。 這些聯結器可讓您將忠誠度資料順暢地串流至Adobe Experience Platform，並在Journey Optimizer中利用這些資料。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在使用 [!DNL Journey Optimizer]，可以透過登入頁面擷取設定檔屬性。</p>
+<p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../landing-pages/lp-forms.md">詳細文件</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件的 PDF 附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以對透過 Journey Optimizer 傳送的電子郵件訊息附加靜態 PDF 檔案。</p>
+<ul>
+<li>您每年最多可以為每個設定檔傳送 6 封含有 PDF 附件的訊息。</li>
+<li>每個附件允許的大小上限為 5 MB。</li>
+<li>如需任何額外大小或容量，您可以購買PDF附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。</li>
+</ul>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+* **新歷程警示**\
+  新的預先設定警示可供歷程使用：
+
+   * [超過設定檔捨棄率](../reports/alerts.md#profile-discard-rate-exceeded)：在過去5分鐘內超過閾值的設定檔捨棄與輸入設定檔的比率。
+   * [超出自訂動作錯誤率](../reports/alerts.md#custom-action-error-rate-exceeded)：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
+   * [超過設定檔錯誤率](../reports/alerts.md#profile-error-rate-exceeded)：在過去5分鐘內，超過臨界值的設定檔錯誤率。
+
+  您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
+
+
+* **一鍵取消訂閱URL的自訂屬性支援**\
+  透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
+
+  若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
+
+* **API觸發的電子郵件行銷活動的高輸送量模式**\
+  API觸發的行銷活動現在提供新的高輸送量模式。 此模式專為大規模即時傳訊（每秒最多5000筆交易）而設計，可提供更高的可用性並降低延遲。\
+  此功能僅適用於電子郵件管道，以及已購買Adobe高輸送量交易訊息附加產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。
+
+* **API觸發的行銷活動的Webhook支援**\
+  API觸發的行銷活動現在支援Webhook。 設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。
