@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 10fb1975aa5dcab1ad7f39815fcc5dd5ef0c187d
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 58%
+source-wordcount: '1151'
+ht-degree: 55%
 
 ---
 
@@ -90,20 +90,7 @@ ht-degree: 58%
 </tbody>
 </table>-->
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Journey Agent is here!</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Powered by Adobe Experience Platform Agent Orchestrator, Journey Agent is available in Journey Optimizer. It enables you to analyze journeys through a natural language interface. The agent will detect audience or schedule conflicts and profile drop-offs in a journey to help you take steps to resolve them. Soon, you will be able to create journeys with agentic support.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 <table>
 <thead>
@@ -172,6 +159,22 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent已推出！</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
+<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>電子郵件設計工具中的深色模式</strong><br/></th>
 </tr>
 </thead>
@@ -234,7 +237,7 @@ ht-degree: 58%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Platform資料進行個人化和決策</strong><br/></th>
+<th><strong>使用 Adobe Experience Platform 資料進行個人化與決策</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -279,7 +282,7 @@ ht-degree: 58%
 
   To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.-->
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
