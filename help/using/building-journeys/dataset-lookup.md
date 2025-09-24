@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 15%
+source-wordcount: '750'
+ht-degree: 14%
 
 ---
-
 
 # 在歷程中使用[!DNL Adobe Experience Platform]資料 {#datalookup}
 
@@ -47,6 +47,15 @@ ht-degree: 15%
 * 最多20個選取的欄位。
 * 查詢鍵陣列中最多可包含500個鍵。
 * 擴充的資料大小上限為10KB。
+
+### 其他效能考量事項
+
+以下建議是避免傳遞延遲的指引：
+
+| 考量 | 建議的限制 | 說明 |
+| ------- | ------- | ------- |
+| 每個查詢的屬性 | 最多20 | 單一查閱活動中每筆記錄擷取的資料欄位數。 |
+| 查詢活動 | 每個歷程最多5個 | 每個歷程最多可包含5個個別的查詢活動。 每個查詢都可以鎖定不同的資料集。 |
 
 ## 設定資料集查詢活動 {#configure}
 

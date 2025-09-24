@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 5%
+source-wordcount: '757'
+ht-degree: 6%
 
 ---
 
@@ -55,15 +55,6 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 >[!NOTE]
 >
 >如果除了上述的護欄以外，還需要其他卷冊，請聯絡您的Adobe代表。
-
-### 其他效能考量事項
-
-以下建議是避免傳遞延遲的指引：
-
-| 考量 | 建議的限制 | 說明 |
-| ------- | ------- | ------- |
-| 每個查詢的屬性 | 最多20 | 單一查閱活動中每筆記錄擷取的資料欄位數。 |
-| 查詢活動 | 每個歷程最多5個 | 每個歷程最多可包含5個個別的查詢活動。 每個查詢都可以鎖定不同的資料集。 |
 
 ## 啟用資料集以進行資料查詢 {#enable}
 
