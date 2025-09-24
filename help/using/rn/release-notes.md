@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 44%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 44%
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
@@ -197,9 +197,7 @@ ht-degree: 44%
 
 ### 即將推出 {#sept-25-9-soon}
 
-我們即將推出下列功能和改善專案。
-
-**下列內容可能會有所變更，恕不另行通知**。 這些功能和改進發佈至生產環境時，連結、畫面和更新檔案也會發佈。
+下列功能和增強功能已排定在未來幾天發行。 **資訊可能會變更**。 這些更新上線生產後，更新的連結、畫面和檔案將會共用。
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ ht-degree: 44%
 <p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../landing-pages/lp-forms.md">詳細文件</a></p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ ht-degree: 44%
 * **新歷程警示**\
   新的預先設定警示可供歷程使用：
 
-   * [超過設定檔捨棄率](../reports/alerts.md#profile-discard-rate-exceeded)：在過去5分鐘內超過閾值的設定檔捨棄與輸入設定檔的比率。
-   * [超出自訂動作錯誤率](../reports/alerts.md#custom-action-error-rate-exceeded)：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
-   * [超過設定檔錯誤率](../reports/alerts.md#profile-error-rate-exceeded)：在過去5分鐘內，超過臨界值的設定檔錯誤率。
+   * 超過設定檔捨棄率：過去5分鐘超過臨界值的設定檔捨棄與輸入設定檔的比率。
+   * 超出自訂動作錯誤率：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
+   * 超過設定檔錯誤率：過去5分鐘超過臨界值的設定檔出錯與輸入設定檔的比率。
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
+您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
 
 
 * **一鍵取消訂閱URL的自訂屬性支援**\
