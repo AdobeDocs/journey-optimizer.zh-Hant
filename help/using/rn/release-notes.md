@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 44%
+source-wordcount: '1812'
+ht-degree: 45%
 
 ---
 
@@ -28,6 +28,22 @@ ht-degree: 44%
 **發行日期**：2025 年 9 月 23-24 日
 
 ### 全新功能 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>用於擷取歷程的公用API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -162,7 +178,7 @@ ht-degree: 44%
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
@@ -198,21 +214,6 @@ ht-degree: 44%
 ### 即將推出 {#sept-25-9-soon}
 
 下列功能和增強功能已排定在未來幾天發行。 **資訊可能會變更**。 這些更新上線生產後，更新的連結、畫面和檔案將會共用。
-
-<table>
-<thead>
-<tr>
-<th><strong>用於擷取歷程的公用API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
