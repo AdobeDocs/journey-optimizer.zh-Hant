@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
+source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1776'
 ht-degree: 43%
 
 ---
@@ -29,22 +29,22 @@ ht-degree: 43%
 
 ### 全新功能 {#sept-25-9-features}
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>用於擷取歷程的公用API</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
-<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
-<p>推出日期：2025 年 9 月 25 日</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
+<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
+<p>Availability date: Sept 25, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -78,8 +78,8 @@ ht-degree: 43%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -177,7 +177,7 @@ ht-degree: 43%
 * **核准原則許可權**
 在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。 [瞭解詳情](../test-approve/approval-policies.md) — 推出日期： 2025年9月23日
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
 
 * **以模型為基礎的結構描述**\
