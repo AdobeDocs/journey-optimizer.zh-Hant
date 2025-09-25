@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
 workflow-type: tm+mt
-source-wordcount: '2953'
+source-wordcount: '2951'
 ht-degree: 99%
 
 ---
@@ -16,8 +16,7 @@ ht-degree: 99%
 # Adobe Journey Optimizer 說明 {#using}
 
 + [Journey Optimizer 文件](ajo-home.md)
-+ 最新資訊 {#whats-new}
-   + [最新資訊](/help/rp_landing_pages/whats-new-landing-page.md)
++ 有哪幾種新增功能？ {#whats-new}
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}

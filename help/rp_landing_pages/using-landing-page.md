@@ -4,33 +4,24 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer 說明
 description: Adobe Journey Optimizer 說明
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 93%
 
 ---
 
 
 # Adobe Journey Optimizer 說明{#section-overview}
 
-Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設計及提供順暢、個人化的客戶體驗。結合行銷活動協調、資料管理和決策的進階工具，可幫助您建立即時因應客戶需求的歷程。本文件提供可熟悉平台的藍圖，包括探索其最新功能和整合，以及學習如何管理客群、設定歷程和分析績效。無論您是行銷人員、資料分析人員還是行銷活動經理，您都能找到量身打造的逐步指南、最佳實務和資源，幫助您滿懷信心地實現目標。
+Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設計及提供順暢、個人化的客戶體驗。結合行銷活動協調、資料管理和決策的進階工具，可幫助您建立即時因應客戶需求的歷程。本文件提供可熟悉平台的藍圖，包括探索其最新功能和整合，以及學習如何管理客群、設定歷程和分析績效。無論您是行銷人員、資料分析人員或行銷活動經理，您都能找到量身打造的逐步指南、最佳實務和資源，以幫助您滿懷信心地實現目標。
 
 ## Adobe Journey Optimizer 說明
 
 :::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
-
-Adobe Journey Optimizer 有哪些新功能
-
-隨時掌握有關 Adobe Journey Optimizer 最新發行說明、新功能和文件變更的最新資訊。
-
-[檢視最新資訊](whats-new-landing-page.md)
-:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 Adobe Journey Optimizer
 
@@ -40,7 +31,7 @@ Adobe Journey Optimizer 有哪些新功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -50,7 +41,7 @@ Adobe Journey Optimizer 有哪些新功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -60,7 +51,7 @@ Adobe Journey Optimizer 有哪些新功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
