@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: 21765901738001a8a702bf15d5d2a9d5d930f774
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 45%
+source-wordcount: '1815'
+ht-degree: 43%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 45%
 <td>
 <p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
 <p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 25 日</p>
 </td>
 </tr>
 </tbody>
@@ -62,6 +63,7 @@ ht-degree: 45%
 <li>Journey Optimizer中的<strong>多臂吃角子老虎機(MAB)支援：</strong>透過多臂吃角子老虎機實驗，最大化影響，同時減少浪費的流量。 MAB不會平均分割對象，而是會即時自動為更多訪客分配表現最佳的變數，這樣您就能為更多客戶提供更好的體驗，同時仍會瞭解哪些變數有效。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/experiment-accelerator.md">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 23 日</p>
 </td>
 </tr>
 </tbody>
@@ -76,8 +78,9 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
 </tbody>
@@ -172,42 +175,39 @@ ht-degree: 45%
 ### 改善 {#sept-25-9-improvements}
 
 * **核准原則許可權**
-在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。 [閱讀全文](../test-approve/approval-policies.md)
+在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。 [瞭解詳情](../test-approve/approval-policies.md) — 推出日期： 2025年9月23日
 
-* **自訂驗證現在支援巢狀JSON內文引數**\
-  設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
-
-
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
-設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
+* SMS頻道&#x200B;**的**mTLS支援
+設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
 
 * **以模型為基礎的結構描述**\
-  現在可以使用以模型為基礎的結構描述，來支援在「協調的行銷活動」中的關聯式模型需求。 [閱讀全文](../orchestrated/gs-schemas.md)
+  現在可以使用以模型為基礎的結構描述，來支援在「協調的行銷活動」中的關聯式模型需求。 [瞭解詳情](../orchestrated/gs-schemas.md) — 推出日期： 2025年9月23日
 
 * **歷程中的資料集查詢支援**\
-  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。 [閱讀全文](../building-journeys/dataset-lookup.md)
+  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。 [瞭解詳情](../building-journeys/dataset-lookup.md) — 推出日期： 2025年9月23日
 
   此活動僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
-* **模擬所有傳入頻道的內容變化**\
-  先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。 [閱讀全文](../test-approve/simulate-sample-input.md)
-
 * 歷程自訂動作中的&#x200B;**重新導向支援**\
-  歷程自訂動作現在支援重新導向(302)。
+  歷程自訂動作現在支援重新導向(302)。  — 推出日期： 2025年9月23日
 
-* **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。
+* **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[瞭解詳情](../reports/alerts.md#alert-channel-config-failure) — 推出日期： 2025年9月23日
 
-* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md) — 推出日期： 9月17日
+* **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。  — 推出日期： 2025年9月23日
 
-* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。[瞭解詳情](../personalization/personalization-build-expressions.md#where) — 推出日期： 9月12日
+* **自訂驗證現在支援巢狀JSON內文引數**\
+  設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [瞭解詳情](../datasource/external-data-sources.md#custom-authentication-mode) — 推出日期： 2025年9月18日
+
+* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md) — 推出日期： 2025年9月17日
+
+* **模擬所有傳入頻道的內容變化**\
+  先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。 [瞭解詳情](../test-approve/simulate-sample-input.md) — 推出日期： 2025年9月17日
+
+* **決策上限規則的運算式** - 您現在可以建立自己的運算式，以定義決策項目的上限規則臨界值。[瞭解詳情](../experience-decisioning/items.md#capping) — 推出日期： 2025年9月16日
+
+* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。[瞭解詳情](../personalization/personalization-build-expressions.md#where) — 推出日期： 2025年9月12日
 
   此功能以有限可用性提供給一組客戶。
-
-* **決策上限規則的運算式** - 您現在可以建立自己的運算式，以定義決策項目的上限規則臨界值。[閱讀全文](../experience-decisioning/items.md#capping)
-
-  此功能目前為有限可用性，提供給所有使用者。
-
-* **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[閱讀全文](../reports/alerts.md#alert-channel-config-failure)
 
 
 
@@ -226,6 +226,8 @@ ht-degree: 45%
 <td>
 <p>Adobe Journey Optimizer現在支援Web推播通知，將推播頻道擴展至行動裝置以外。 您可以順暢地將通知傳送至行動瀏覽器和案頭瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。</p>
 <p>此增強功能可讓您運用行動推送中現有的相同撰寫工作流程和目標定位功能，即時與使用者互動並提供個人化訊息。</p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -241,6 +243,9 @@ ht-degree: 45%
 <tr>
 <td>
 <p>自訂動作監控和報告功能現已可用。 此功能可讓您更清楚瞭解歷程健康狀況和執行，包括生命週期狀態和效能警示。 您現在可以快速瞭解自訂動作中發生異常狀況的時間、地點和原因。</p>
+<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
+</td>
 </td>
 </tr>
 </tbody>
@@ -275,7 +280,8 @@ ht-degree: 45%
 <p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -298,7 +304,8 @@ ht-degree: 45%
 </ul>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p-->
+<!--p>For more information, refer to the <a href="../email/pdf-attachments.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p-->
 </td>
 </tr>
 </tbody>
@@ -319,15 +326,24 @@ ht-degree: 45%
 
 您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
 
+<!-- Availability date: Sept XX, 2025-->
+
 
 * **一鍵取消訂閱URL的自訂屬性支援**\
   透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
 
   若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
 
+  <!-- Availability date: Sept XX, 2025-->
+
+
 * **API觸發的電子郵件行銷活動的高輸送量模式**\
   API觸發的行銷活動現在提供新的高輸送量模式。 此模式專為大規模即時傳訊（每秒最多5000筆交易）而設計，可提供更高的可用性並降低延遲。\
   此功能僅適用於電子郵件管道，以及已購買Adobe高輸送量交易訊息附加產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。
 
+  <!-- Availability date: Sept XX, 2025-->
+
 * **API觸發的行銷活動的Webhook支援**\
   API觸發的行銷活動現在支援Webhook。 設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。
+
+  <!-- Availability date: Sept XX, 2025-->
