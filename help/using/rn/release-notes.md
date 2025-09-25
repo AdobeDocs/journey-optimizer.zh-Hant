@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 46%
+source-wordcount: '1766'
+ht-degree: 45%
 
 ---
 
@@ -154,7 +154,7 @@ ht-degree: 46%
 <tbody>
 <tr>
 <td>
-<p>之前以公開 Beta 版本發行，目前此功能所有環境都適用 (有限可用性)。已在此版本中，引進以下增強功能：</p>
+<p>此功能先前於公開測試版發佈，現在可供所有環境使用。 已在此版本中，引進以下增強功能：</p>
 <ul><li>支援傳入頻道中的資料集查詢個人化。</li>
 <li>「datasetLookup」協助程式函式現在可用於運算式片段中。目前，此功能僅供有限的一組客戶使用。若想取得存取權，請聯絡您的 Adobe 代表。</li>
 <li>資料集管理介面中的選項現在可讓您啟用記錄型資料集以進行查詢個人化，而無需執行 API 呼叫。</li>
@@ -178,7 +178,7 @@ ht-degree: 46%
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
