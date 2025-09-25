@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 0%
 
 如果您需要停止歷程中所有個人的進度，可以停止它。 停止歷程逾時歷程中的所有個人。 但是，停止歷程涉及已經進入歷程的人都在他們的進度中停止。 歷程已基本關閉。 如果您想要結束歷程，最佳實務是[關閉歷程](#close-journey)。
 
-
 例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應該傳送訊息的自訂動作無法正常運作，則可以停止歷程。 若要從歷程清單停止歷程，請按一下歷程名稱右側的&#x200B;**[!UICONTROL 省略符號]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 停止]**。
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 停止]**，然後在對話方塊中確認。
 
 停止時，歷程狀態會設為&#x200B;**[!UICONTROL 已停止]**。
+
+>[!CAUTION]
+>
+>停止歷程的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。

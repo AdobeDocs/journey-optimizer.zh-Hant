@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 歷程資源 {#journey-capability}
 
-* **[!DNL Manage journeys]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除現有的歷程，以及存取歷程畫布中用來建立歷程流程的物件。
+* **[!DNL Manage journeys]**&#x200B;高階許可權可讓使用者建立新的和編輯/刪除/停止/暫停現有的歷程，以及存取歷程畫布中用來建立歷程流程的物件。
 
   +++ 此許可權包括下列低階許可權：  
 

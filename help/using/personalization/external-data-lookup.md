@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 * 在歷程中，在自訂動作活動中擷取內容，
 * 在歷程與傳入行銷活動中，在externalDataLookup協助程式中，擷取傳入動作中的資料。
 
-## 護欄和限制
+## 護欄與限制
 
 也請參閱[!DNL Journey Optimizer]傳入頻道行銷活動和Journeys#GuardrailsandGuidelines中的自訂動作。
 
@@ -172,7 +172,7 @@ First video description: <b>result.videos[0].description</b>
 
 ### 逾時和錯誤處理
 
-[!DNL Journey Optimizer]在呼叫外部端點時使用嚴格的逾時，以維持AEP Edge Network的低延遲、高輸送量的效能特性。
+[!DNL Journey Optimizer]在呼叫外部端點時使用嚴格的逾時，以維持Adobe Experience Platform Edge Network的低延遲、高輸送量的效能特性。
 
 如果端點逾時或到達端點時發生任何其他型別的錯誤，則結果變數將為空白。 在此情況下，結果變數內對屬性的任何參照也將是空的。 如果您只顯示內容中的屬性，則會顯示為空白。 如果您嘗試在結果中重複執行陣列屬性，將不會傳回任何專案。
 
@@ -198,7 +198,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ### 偵錯
 
-為協助進行偵錯，外部資料查詢的逾時和錯誤詳細資料包含在AEP Assurance的Edge Delivery檢視中。 如果您在傳入動作中看不到externalDataLookup協助程式的預期結果，您可以啟動Assurance工作階段、從Web或行動實作起始[!DNL Journey Optimizer]呼叫，並使用Edge Delivery檢視來檢查逾時或錯誤詳細資料。
+為了協助進行偵錯，外部資料查詢的逾時和錯誤詳細資料包含在Adobe Experience Platform Assurance的Edge Delivery檢視中。 如果您在傳入動作中看不到externalDataLookup協助程式的預期結果，您可以啟動Assurance工作階段、從Web或行動實作起始[!DNL Journey Optimizer]呼叫，並使用Edge Delivery檢視來檢查逾時或錯誤詳細資料。
 
 例如：
 

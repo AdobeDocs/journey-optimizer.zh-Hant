@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 | IP熱身設定 | **[!DNL Manage IP warmup plans]**：讀取、建立和編輯IP熱身計畫。</br>**[!DNL View IP warmup plans]**：對IP熱身計畫的唯讀存取權。</br>**[!DNL View IP warmup reports]**：讀取和編輯IP熱身報告。 |
 | Journey Optimizer資料庫 | **[!DNL Manage Library Items]**：新增並刪除[!DNL Journey Optimizer]資料庫中已儲存的運算式。</br>**[!DNL Simulate content]**：存取預覽和校訂的模擬內容選項。</br>**[!DNL Publish fragments]**：發佈內容片段。 |
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
-| 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
+| 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯、暫停、停止和刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
 | 訊息 | **[!DNL Manage messages]**：讀取、建立、編輯和刪除訊息。 </br>**[!DNL Manage messages preview and test]**：套用原則時，核准和發佈訊息的權利。</br>**[!DNL Publish messages]**：發佈訊息的權利。</br>**[!DNL View messages]**：訊息的唯讀存取權。</br>**[!DNL View messages report]**：讀取和編輯訊息報告。 |
 | 協調的行銷活動 | **[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯和刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL Publish orchestrated campaigns]**：發佈協調的行銷活動。 </br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL View orchestrated campaigns]**：讀取及編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。 |
 | 輪廓管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
