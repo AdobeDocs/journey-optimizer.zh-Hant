@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
+source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 10%
@@ -67,7 +67,7 @@ ht-degree: 10%
 | exportCountRealized | 整數 | 透過工作匯出的實際對象數量 |
 | exportCountFailed | 整數 | 透過工作匯出時失敗的對象數量 |
 | exportsegmentid | 字串 | 正在匯出之對象的識別碼 |
-| eventType | 字串 | 事件型別，指出它是否為資訊事件的錯誤事件：資訊、錯誤 |
+| eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
 在本節[中進一步瞭解eventTypes ](#discarded-events)。
@@ -83,24 +83,23 @@ ht-degree: 10%
 
 以下是最常捨棄`eventTypes`的定義、常見原因和疑難排解步驟：
 
-* EXTERNAL_KEY_COMPUTATION_ERROR：系統無法從事件資料計算客戶的唯一識別碼（外部索引鍵）。
-常見原因：事件裝載中缺少客戶識別碼（例如電子郵件、客戶ID）或格式錯誤。
-疑難排解：檢查事件設定中是否有必要的識別碼，確保事件資料完整且格式正確。
-* NO_INTEREST_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT：已收到區段資格事件，但沒有設定要回應此區段的歷程。
-常見原因：沒有任何歷程使用區段作為觸發器、歷程處於草稿/已停止狀態，或區段ID不相符。
-疑難排解：請確定至少有一個歷程處於即時狀態並設定用於區段，確認區段ID。
-* JOURNEY_INSTANCE_ID_NOT_CREATE：系統無法為客戶建立歷程執行個體。
-常見原因：重複的事件、高事件量、系統資源限制。
-疑難排解：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、如果持續沿用，請聯絡支援人員。
-* EVENT_WITH_NO_JOURNEY：已收到事件，但未設定作用中歷程來回應。
-常見原因：事件名稱/ID不相符、歷程未發佈、錯誤的沙箱/組織、測試模式/設定檔不相符。
-疑難排解：驗證事件和歷程設定、檢查歷程狀態、使用偵錯工具。
+* **EXTERNAL_KEY_COMPUTATION_ERROR**：系統無法從事件資料計算客戶的唯一識別碼（外部索引鍵）。
+   * 常見原因：事件裝載中缺少客戶識別碼（例如電子郵件、客戶ID）或格式錯誤。
+   * 疑難排解：檢查事件設定中是否有必要的識別碼，確保事件資料完整且格式正確。
+* **NO_INTEREST_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到區段資格事件，但沒有設定要回應此區段的歷程。
+   * 常見原因：沒有任何歷程使用區段作為觸發器、歷程處於草稿/已停止狀態，或區段ID不相符。
+   * 疑難排解：請確定至少有一個歷程處於即時狀態並設定用於區段，確認區段ID。
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**：系統無法為客戶建立歷程執行個體。
+   * 常見原因：重複的事件、高事件量、系統資源限制。
+   * 疑難排解：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、如果持續沿用，請聯絡支援人員。
+* **EVENT_WITH_NO_JOURNEY**：已收到事件，但未設定使用中歷程來回應。
+   * 常見原因：事件名稱/ID不相符、歷程未發佈、沙箱/組織錯誤、測試模式/設定檔不相符。
+   * 疑難排解：驗證事件和歷程設定、檢查歷程狀態、使用偵錯工具。
 
 對於在暫停的歷程中發生的捨棄：
 
-* PAUSED_JOURNEY_VERSION：捨棄歷程進入點發生的
-
-* JOURNEY_IN_PAUSED_STATE：捨棄設定檔在歷程中時發生的
+* **PAUSED_JOURNEY_VERSION**：捨棄歷程進入點發生的專案
+* **JOURNEY_IN_PAUSED_STATE**：捨棄設定檔在歷程中時發生的
 
 在[暫停歷程區段](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)中進一步瞭解這些事件，以及如何疑難排解它們。
 
