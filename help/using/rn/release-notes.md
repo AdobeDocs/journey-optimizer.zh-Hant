@@ -76,8 +76,8 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
 </td>
 </tr>
 </tbody>
