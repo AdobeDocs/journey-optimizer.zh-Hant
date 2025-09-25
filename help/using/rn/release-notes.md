@@ -178,7 +178,7 @@ ht-degree: 45%
   設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode)
 
 
-* SMS頻道&#x200B;**的**mTLS支援
+* SMS頻道&#x200B;**的**&#x200B;mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [閱讀全文](../sms/sms-configuration-custom.md)
 
 * **以模型為基礎的結構描述**\
