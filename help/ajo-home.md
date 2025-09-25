@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
+source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -18,7 +18,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 ## 最新資訊 {#section-new}
 
-快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../using/rn/release-notes.md)。
+快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](using/rn/release-notes.md)。
 
 >[!BEGINTABS]
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -59,7 +59,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
