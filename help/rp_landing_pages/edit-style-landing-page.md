@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 個人化電子郵件背景
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 調整垂直對齊方式與內距
 

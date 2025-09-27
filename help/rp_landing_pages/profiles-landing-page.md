@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的輪廓可讓您結合來自多個來源的資料�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 輪廓簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的輪廓可讓您結合來自多個來源的資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立測試輪廓
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的輪廓可讓您結合來自多個來源的資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用計算屬性
 

@@ -50,7 +50,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 檢查並傳送 LINE 訊息
 

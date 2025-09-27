@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立和管理產品建議集合
 

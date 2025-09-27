@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定直接郵件管道
 

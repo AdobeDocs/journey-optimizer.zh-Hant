@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 分析歷程報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 程式碼型歷程報告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 內容卡參與
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 直接郵件量度
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=zh-Hant)
 
 電子郵件歷程報告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
 應用程式內傳送訊息深入分析
 

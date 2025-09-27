@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 片段使用簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 如何建立可重複使用的片段
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 將現有內容另存為片段
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 使用可自訂的片段
 
