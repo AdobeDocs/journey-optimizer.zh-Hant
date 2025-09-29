@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: 簡訊、子網域、設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 20%
+source-wordcount: '1008'
+ht-degree: 18%
 
 ---
 
@@ -133,14 +133,23 @@ SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS�
 
 請注意，如果您無法在託管解決方案上建立驗證記錄，子網域將會標示為&#x200B;**[!UICONTROL 失敗]**。
 
+## 護欄 {#guardrails}
+
+目前，[!DNL Journey Optimizer]使用者介面不支援在設定SMS子網域後將其刪除或取消委派。
+
+不過，在[!DNL Journey Optimizer]內測試功能時，可能需要建立SMS子網域。 測試完成後，這可能會導致環境雜亂，並包含不必要的設定，因為UI不允許移除或轉派SMS子網域。
+
+以下是一些建議的步驟和考量事項：
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* 作為最佳實務，建議您僅建立必要的元件和設定，以維持整潔的環境。
+* 在有業務影響的情況下，請聯絡您的Adobe代表，他們可能會協助移除/取消委派SMS子網域。 [了解更多](#undelegate-subdomain)
+* 如需進一步協助，請聯絡Adobe以取得有效管理執行個體的指引。
+
 ## 取消委派子網域 {#undelegate-subdomain}
 
 如果您想要解除委派SMS子網域，請聯絡您的Adobe代表，告知您要解除委派的子網域。
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 如果SMS子網域指向CNAME記錄，您可以從託管解決方案中刪除您為SMS子網域建立的CNAME DNS記錄(但不刪除原始電子郵件子網域（如有）。
 
