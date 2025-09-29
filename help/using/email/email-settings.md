@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。[了解更多](../configuration/seed-lists.md)
 
@@ -170,7 +170,7 @@ ht-degree: 100%
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試參數**。
 
@@ -194,11 +194,6 @@ ht-degree: 100%
 
 ## 執行地址 {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="覆寫要使用的預設執行地址"
->abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址時，您可以選擇優先傳送哪一個。此主要地址是在沙箱層級定義，但您可以在此處覆寫此特定電子郵件設定的預設設定。"
-
 當您定位設定檔時，資料庫中可能會提供數個電子郵件地址（專業電子郵件地址、個人電子郵件地址等）。
 
 在這種情況下，[!DNL Journey Optimizer] 會在沙箱層級使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;所指定的位址，以決定優先使用設定檔服務內哪個電子郵件地址。[了解更多](../configuration/primary-email-addresses.md)
@@ -210,9 +205,6 @@ ht-degree: 100%
 
 不過，您可以在電子郵件管頻道設定層級變更此預設執行欄位。然後，您可以將此設定套用至特定行銷活動或歷程。
 
-若要這麼做，請編輯 **[!UICONTROL 傳遞地址]**欄位，並從可用的電子郵件類型 XDM 欄位清單中選取項目。
-
+若要這麼做，請編輯&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位，並從可用的電子郵件型別XDM欄位清單中選取專案。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-執行欄位會更新，然後作為預設地址使用。它會覆寫沙箱層級的一般設定。
