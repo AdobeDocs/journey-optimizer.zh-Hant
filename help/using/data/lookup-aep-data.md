@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '752'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 * 為查詢啟用的資料集不應包含任何個人識別資訊(PII)。
 * 針對查詢啟用的資料集及用於個人化的資料集無法防止刪除。 您可以自行追蹤用於個人化的資料集，以確保不會刪除或移除這些資料集。
 * 資料集必須與不屬於設定檔或事件型別的結構描述相關聯。
-* 結構描述必須具有主要身分。 只有單一主索引鍵可用於查詢。
+* 具有查詢功能的資料集支援串流資料擷取。 請記住，在資料可用於個人化或決策之前，內嵌處理仍必須完成。
 
 ### 查閱服務的權益
 
