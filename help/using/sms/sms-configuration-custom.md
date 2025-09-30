@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 7%
 
 ---
@@ -199,17 +199,19 @@ ht-degree: 7%
 
    * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](#api-credential)。
 
+   * **[!UICONTROL 寄件者電話號碼&#x200B;]**：輸入&#x200B;您要用於通訊的寄件者電話號碼。
+
+     ![](assets/webhook-inbound.png)
+
 1. 按一下![](assets/do-not-localize/Smock_Add_18_N.svg)新增您的關鍵字類別，然後依下列方式設定它們：
 
    * **[!UICONTROL 傳入關鍵字類別]**：選擇您的關鍵字類別&#x200B;**[!UICONTROL 選擇加入]**、**[!UICONTROL 選擇退出]**、**[!UICONTROL 說明]**&#x200B;或&#x200B;**[!UICONTROL 預設]**。
 
-   * **[!UICONTROL 輸入關鍵字]**：輸入將會自動觸發訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+   * **[!UICONTROL 輸入關鍵字]**：輸入將會自動觸發訊息的預設或自訂關鍵字。 按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增多個關鍵字。
 
-   * **[!UICONTROL 回複訊息]**：輸入自動傳送的自訂回應。
+   * **[!UICONTROL 回複訊息]**：從下拉式清單中選取自動傳送的自訂回應。
 
    ![](assets/sms_byo_6.png)
-
-1. 啟用&#x200B;**[!UICONTROL 模糊選擇退出]**&#x200B;選項，以偵測類似選擇退出關鍵字的訊息（例如，&#39;CANCIL&#39;）。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**&#x200B;以驗證及自訂您的要求裝載。
 
@@ -243,6 +245,8 @@ ht-degree: 7%
 
    * **[!UICONTROL 型別]**：意見。
 
+   ![](assets/webhook-feedback.png)
+
 1. 按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**&#x200B;以驗證及自訂您的要求裝載。
 
    您可以使用設定檔屬性來動態個人化您的裝載，並透過內建的協助程式函式，確保傳送準確資料以供處理和產生回應。
@@ -255,7 +259,7 @@ ht-degree: 7%
 
 1. 從您先前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;存取及複製新的&#x200B;**[!UICONTROL Webhook URL]**。
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 在建立並設定Webhook的輸入設定後，您現在需要建立SMS訊息的[頻道設定](sms-configuration-surface.md)。
 
