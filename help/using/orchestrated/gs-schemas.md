@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 重要概念
 
-在協調行銷活動的內容中，**資料集**&#x200B;是資料集合的儲存和管理結構，通常是包含結構描述（欄）和欄位（列）的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
+在協調行銷活動的內容中，**資料集**&#x200B;是資料集合的儲存和管理結構，通常是包含結構描述（列）和欄位（欄）的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
 
 **結構描述**&#x200B;代表並驗證資料的結構和格式。它提供真實世界物件（例如人）的抽象定義，並概述物件的每個例項中應包含哪些資料（例如名稱、生日等）。
 
@@ -51,6 +51,8 @@ ht-degree: 2%
 * 跨資料表的關係
 
 在以模型為基礎的資料模型中組織結構描述或表格，就是將資料結構化成多個表格。 確保每個表格儲存一種實體/結構描述型別
+
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 實施步驟 {#implementation}
 

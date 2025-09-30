@@ -5,9 +5,9 @@ title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立模型型方案。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 4%
 1. [根據您的結構描述建立資料集](#dataset)，並將其啟用以用於協調的行銷活動。
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
+
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動以模型為基礎的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
@@ -106,11 +108,11 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-建立屬性後，您需要將新建立的方案與內建方案連結。
+建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
 ## 連結結構描述 {#link-schema}
 
-在兩個結構描述之間建立關係，可讓您使用儲存在主要設定檔結構描述之外的資料，擴充協調的行銷活動。
+在兩個結構描述之間建立關係，可讓您使用主要設定檔結構描述以外的資料來增強協調的行銷活動。
 
 1. 從您新建立的結構描述中，選取要做為連結使用的屬性，然後按一下&#x200B;**[!UICONTROL 新增關係]**。
 
@@ -126,11 +128,9 @@ ht-degree: 4%
 
 1. 設定後，按一下&#x200B;**[!UICONTROL 套用]**。
 
-建立關係後，您需要根據結構描述建立資料集。
-
 ## 為結構描述建立資料集 {#dataset}
 
-定義結構描述後，下一步就是根據它建立資料集。 此資料集會儲存您擷取的資料，且必須為協調的行銷活動啟用，才能在Adobe Journey Optimizer中存取。 啟用此選項可確保識別資料集，以用於即時協調與個人化工作流程。
+定義結構描述後，您現在可以根據它建立資料集。 資料集會儲存您擷取的資料，且必須啟用，才能存取協調的行銷活動。
 
 1. 導覽至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立資料集]**。
 
@@ -144,7 +144,7 @@ ht-degree: 4%
 
 1. 輸入您&#x200B;**[!UICONTROL 資料集]**&#x200B;的&#x200B;**[!UICONTROL 名稱]**，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
-您現在需要啟用資料集以協調行銷活動。
+您現在需要啟用協調行銷活動的資料集。
 
 ## 為協調的行銷活動啟用資料集 {#enable}
 
@@ -160,7 +160,7 @@ ht-degree: 4%
 
 1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;清單中找出您的資料集。
 
-1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;設定中，啟用&#x200B;**協調行銷活動**&#x200B;選項，讓資料集可用於您的協調行銷活動。
+1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;設定中，啟用&#x200B;**協調行銷活動**&#x200B;選項，以標籤資料集可在您的協調行銷活動中使用。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

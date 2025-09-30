@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 50%
+source-wordcount: '1080'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 50%
 1. [連結結構描述](#link-schema)，以將您的模型型資料與現有的設定檔實體（例如收件者或品牌）連結。
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
+
+➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -91,7 +93,7 @@ ht-degree: 50%
 
 1. 輸入&#x200B;**[!UICONTROL 結構描述名稱]**。
 
-1. 設定每個結構描述及欄位，確定已指定主索引鍵。
+1. 設定每個結構描述及其欄，確保已指定主索引鍵和版本描述項。
 
    必須將一個屬性（例如`lastmodified`）指定為版本描述項（型別`datetime`、`long`或`int`），以確保資料集以最新資料更新。 使用者可以變更版本描述項，一旦設定，該描述項就成為必要。 屬性不能同時是主索引鍵(PK)和版本描述項。
 
@@ -107,7 +109,7 @@ ht-degree: 50%
 
 ## 定義關係 {#relationships}
 
-若想定義結構描述內所有表格之間的邏輯連線，請遵循下列步驟操作。
+建立架構時，您可以直接在DDL檔案中指定關係。 如果您偏好在檔案外部定義關係，可以在介面中依照下列步驟來定義。
 
 1. 存取資料模式的畫布視圖，然後選擇您想連結的兩個表格
 
@@ -179,7 +181,7 @@ ht-degree: 50%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 
