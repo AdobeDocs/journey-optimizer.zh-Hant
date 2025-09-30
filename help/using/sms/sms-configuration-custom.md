@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1352'
+ht-degree: 7%
 
 ---
 
@@ -175,6 +175,16 @@ ht-degree: 9%
 
 成功建立API認證後，下一步就是建立webhook並設定您的傳入設定。 此設定可確保您的系統能夠正確接收及處理傳入的資料或訊息。
 
+設定webhook時，您可以根據要擷取的資料型別定義其用途：
+
+* **[!UICONTROL 傳入]**：如果您想要擷取同意回應（例如加入或退出），並收集使用者偏好設定，請使用此選項。
+
+* **[!UICONTROL 回饋]**：選擇此選項可追蹤傳遞和參與事件（包括讀取回條和使用者互動），以支援報告和分析。
+
+>[!BEGINTABS]
+
+>[!TAB 傳入]
+
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL 簡訊Webhook]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ ht-degree: 9%
 
    * **[!UICONTROL 選取簡訊供應商]**：自訂。
 
-   * **[!UICONTROL 選取API認證]**：從下拉式清單中選擇您[先前設定的API認證](#api-credential)。
+   * **[!UICONTROL 型別]**：傳入。
 
-   * **[!UICONTROL 選擇加入關鍵字]**：輸入將會自動觸發選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](#api-credential)。
 
-   * **[!UICONTROL 選擇加入訊息]**：輸入自訂回應，此回應會自動作為您的選擇加入訊息傳送。
+1. 按一下![](assets/do-not-localize/Smock_Add_18_N.svg)新增您的關鍵字類別，然後依下列方式設定它們：
 
-   * **[!UICONTROL 選擇退出關鍵字]**：輸入將會自動觸發選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+   * **[!UICONTROL 傳入關鍵字類別]**：選擇您的關鍵字類別&#x200B;**[!UICONTROL 選擇加入]**、**[!UICONTROL 選擇退出]**、**[!UICONTROL 說明]**&#x200B;或&#x200B;**[!UICONTROL 預設]**。
 
-   * **[!UICONTROL 選擇退出訊息]**：輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。
+   * **[!UICONTROL 輸入關鍵字]**：輸入將會自動觸發訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。
+
+   * **[!UICONTROL 回複訊息]**：輸入自動傳送的自訂回應。
 
    ![](assets/sms_byo_6.png)
+
+1. 啟用&#x200B;**[!UICONTROL 模糊選擇退出]**&#x200B;選項，以偵測類似選擇退出關鍵字的訊息（例如，&#39;CANCIL&#39;）。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**&#x200B;以驗證及自訂您的要求裝載。
 
@@ -214,6 +228,41 @@ ht-degree: 9%
 在建立並設定Webhook的輸入設定後，您現在需要建立SMS訊息的[頻道設定](sms-configuration-surface.md)。
 
 設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
+
+>[!TAB 意見反應]
+
+1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL 簡訊Webhook]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
+
+   ![](assets/sms_byo_5.png)
+
+1. 設定您的Webhook設定，如下所述：
+
+   * **[!UICONTROL 名稱]**：輸入您Webhook的名稱。
+
+   * **[!UICONTROL 選取簡訊供應商]**：自訂。
+
+   * **[!UICONTROL 型別]**：意見。
+
+1. 按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**&#x200B;以驗證及自訂您的要求裝載。
+
+   您可以使用設定檔屬性來動態個人化您的裝載，並透過內建的協助程式函式，確保傳送準確資料以供處理和產生回應。
+
+1. 完成Webhook的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在&#x200B;**[!UICONTROL Webhook]**&#x200B;功能表中，按一下![bin圖示](assets/do-not-localize/Smock_Delete_18_N.svg)以刪除您的Webhook。
+
+1. 若要修改現有組態，請找到所需的Webhook，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
+
+1. 從您先前提交的&#x200B;**[!UICONTROL Webhook]**&#x200B;存取及複製新的&#x200B;**[!UICONTROL Webhook URL]**。
+
+   ![](assets/sms_byo_7.png)
+
+在建立並設定Webhook的輸入設定後，您現在需要建立SMS訊息的[頻道設定](sms-configuration-surface.md)。
+
+設定後，您就可以運用所有立即可用的頻道功能，例如訊息製作、個人化、連結追蹤和報告。
+
+>[!ENDTABS]
+
 
 ## 作法影片 {#video}
 
