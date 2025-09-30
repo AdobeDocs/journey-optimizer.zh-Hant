@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 96afe15b89b0a8291d5682bbfaa67404b5ebef93
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 7%
+source-wordcount: '767'
+ht-degree: 8%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}，您必須為貴組織部署[!DNL Assets Essentials]，並確定使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hant){target="_blank"}。
+> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您必須為貴組織部署[!DNL Assets Essentials]，並確定使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}。
 
 1. 選擇&#x200B;**[!UICONTROL 資產庫]**&#x200B;選項。
 
@@ -89,9 +89,9 @@ ht-degree: 7%
 
 ### 新增HTML或JSON檔案 {#html-json}
 
-如果選取的位置為HTML型別，您也可以新增來自[HTML資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}的Adobe Experience Cloud或JSON內容。
+如果選取的位置為HTML型別，您也可以新增來自[HTML資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON內容。
 
-例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hant){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
+例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
 
 若要在呈現中重複使用您的內容，請依照&#x200B;**本節**&#x200B;所述瀏覽[資產庫](#images)，並選取您選擇的HTML或JSON檔案。
 
@@ -103,15 +103,11 @@ ht-degree: 7%
 
 您可以使用個人化編輯器個人化URL。 深入瞭解[個人化](../../personalization/personalize.md#use-expression-editor)。
 
-
-您也可以按一下&#x200B;**[!UICONTROL 內容片段]**，直接將Adobe Experience Manager內容片段插入您的選件。 請注意，若要存取選件中的內容片段，所選位置必須屬於JSON型別。
-深入瞭解[內容片段與Journey Optimizer](../../integrations/aem-fragments.md)整合。
-
 ![](../assets/offer-content-url.png)
 
 例如，您想要個人化顯示為選件的影像。 你想讓喜歡城市度假的使用者看紐約的天際線，也想讓喜歡海灘度假的使用者看夏威夷的北岸。
 
-使用個人化編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=zh-Hant){target="_blank"}
+使用個人化編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
