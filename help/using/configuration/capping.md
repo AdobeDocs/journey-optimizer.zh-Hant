@@ -4,13 +4,13 @@ product: journey optimizer
 title: 設定 API 上限
 description: 瞭解如何使用上限API
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '730'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 上限API可幫助您建立、設定和監控您的上限設定。
 
-本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/)中提供詳細的API描述。
+本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供詳細的API描述。
 
 ## 設定API說明與Postman集合的上限 {#description}
 
-下表列出適用於上限API的可用命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供詳細資訊，包括要求範例、引數和回應格式。
+下表列出適用於上限API的可用命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
@@ -46,13 +46,13 @@ ht-degree: 6%
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
 * `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 端點設定
 
 以下是端點設定的基本結構：
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ ht-degree: 6%
 >
 >可設定的最大值為400。 如果未指定任何專案，則系統可能會開啟數千個連線，視系統的動態縮放而定。
 >
->在部署上限設定時，如果未提供「maxHttpConnection」值，則會在部署的設定中新增預設的「maxHttpConnection = -1」，這表示Journey Optimizer將使用預設系統值。
+>部署上限設定時，如果尚未設定`maxHttpConnections`值，則會將預設`maxHttpConnections = -1`新增到部署的設定，而Journey Optimizer會使用預設系統值。
 
 範例：
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ ht-degree: 6%
 
 呼叫&#x200B;**canDeploy**&#x200B;方法時，程式會驗證設定並傳回由其唯一識別碼識別的驗證狀態：
 
-```
+```json
 "ok" or "error"
 ```
 

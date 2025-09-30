@@ -4,13 +4,13 @@ product: journey optimizer
 title: 節流 API
 description: 瞭解如何使用節流API
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 48%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 48%
 
 節流API可協助您建立、設定和監視節流設定，以限制每秒傳送的事件數。
 
-本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/)中提供詳細的API描述。
+本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供詳細的API描述。
 
 ## 必讀
 
 * **每個組織一個組態：**&#x200B;目前每個組織只允許一個組態。 必須在生產沙箱上定義設定（透過標頭中的`x-sandbox-name`提供）。
 * **組織層級應用程式：**&#x200B;在組織層級套用組態。
 * **API限制處理：**&#x200B;當達到API中設定的限制時，其他事件將最多排入6小時的佇列。 無法修改此值。
-* **`maxHttpConnections`引數：** &#39;maxHttpConnections&#39;引數是可選引數，可在Capping API中使用，僅允許您限制Journey Optimizer將開啟至外部系統的連線數目。 [瞭解如何使用上限API](../configuration/capping.md)
+* **`maxHttpConnections`引數：** `maxHttpConnections`引數是可選引數，可在Capping API中使用，僅允許您限制Journey Optimizer將開啟至外部系統的連線數目。 [瞭解如何使用上限API](../configuration/capping.md)
 
   如果您想限制連線的數量，同時也要限制這些外部呼叫，則可以在相同端點上設定兩個設定，一個限制和一個上限。 兩個設定可以共存於一個端點。 若要為節流端點設定「maxHttpConnections」，請使用節流API設定節流臨界值，並使用上限API設定「maxHttpConnections」。 呼叫上限API時，您可以將上限臨界值設為高於節流臨界值的專案，這樣上限規則就不會有效發揮作用。
 
@@ -45,20 +45,21 @@ ht-degree: 48%
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 擷取節流設定 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 刪除節流設定 |
 
-此外，[這裡](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)也提供Postman集合，協助您進行測試設定。
+此外，[這裡](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"}也提供Postman集合，協助您進行測試設定。
 
-此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
+此集合已設定為共用透過&#x200B;**[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman**，這會產生具有所選整合值的Postman環境檔案。
 
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
+
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
 * `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 節流設定{#configuration}
 
 以下是節流設定的結構。 **name**&#x200B;及&#x200B;**description**&#x200B;屬性為選用。
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ ht-degree: 48%
 
 範例：
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ ht-degree: 48%
 
 建立或更新設定時，流程會驗證指定的設定，並傳回以其唯一 ID 識別的驗證狀態，其中一項為：
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ ht-degree: 48%
 
 當嘗試在非生產沙箱上建立設定時：
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ ht-degree: 48%
 
 如果給定的沙箱不存在：
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ ht-degree: 48%
 
 當嘗試建立其他設定時：
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ ht-degree: 48%
 
 **建立 - POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ ht-degree: 48%
 
 **更新 - PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ ht-degree: 48%
 
 **讀取 (更新後) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ ht-degree: 48%
 
 **讀取 (部署後) - GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
