@@ -29,7 +29,7 @@ ht-degree: 46%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
 
 ## 上傳DDL檔案{#ddl-upload}
 
