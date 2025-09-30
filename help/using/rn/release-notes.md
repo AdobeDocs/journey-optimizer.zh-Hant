@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: c25e3898e02342c90c6495cd979b91657fb03379
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1946'
 ht-degree: 40%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 40%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -181,7 +181,7 @@ ht-degree: 40%
 * **核准原則許可權**
 在建立或設定核准原則時，新增選項以防止歷程/行銷活動建立者核准自己的物件。 [瞭解詳情](../test-approve/approval-policies.md) — 推出日期： 2025年9月23日
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
 
 * **以模型為基礎的結構描述**\
@@ -215,15 +215,15 @@ ht-degree: 40%
 
 * **Webhooks** — 此版本在設定自訂SMS提供者時，為Webhooks引進下列增強功能：
 
-   * 您現在可以定義您的webhook用途，可以是傳入或回饋，具體取決於您要擷取的資料型別。
+   * 您現在可以定義您的webhook用途，可以是傳入或回饋，具體取決於您要擷取的資料型別 — 推出日期： 2025年9月23日
 
-   * 設定關鍵字的介面已經過改良，更易於設定。
+   * 設定關鍵字的介面已經過改良，更易於設定 — 推出日期： 2025年9月23日
 
 * **簡訊**
 
-   * 設定自訂SMS提供者時，您現在可以定義當傳入的SMS包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。 您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。
+   * 設定自訂SMS提供者時，您現在可以定義當傳入的SMS包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。 您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字 — 可用性日期： 2025年9月23日
 
-   * 您現在可以存取透過SMS訊息傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼字、字詞或句子。 它們儲存在&#x200B;**AJO電子郵件追蹤體驗事件**&#x200B;資料集中的&#x200B;**InboundMessage**&#x200B;下，為期13個月。
+   * 您現在可以存取透過SMS訊息傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼字、字詞或句子。 它們儲存在&#x200B;**AJO電子郵件追蹤體驗事件**&#x200B;資料集中的&#x200B;**InboundMessage**&#x200B;下，為期13個月 — 推出日期： 2025年9月23日
 
 * **WhatsApp** — 您現在可以選擇使用WhatsApp的預設執行位址或設定自訂位址。
 
