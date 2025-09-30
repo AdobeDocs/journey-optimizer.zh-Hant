@@ -4,29 +4,23 @@ description: 深入瞭解A/B測試和多臂吃角子老虎機
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
 # A/B和多臂吃角子老虎機實驗 {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="實驗型別"
+>abstract="實驗型別會決定在測試期間，流量如何在處理之間分配。 選擇最符合您目標的方法：</br><b>A/B實驗</b>：依照您定義的處理方式與測量效能，分割流量，直到結果具有統計顯著性為止。 最適合瞭解在控制下比較中哪個處理方式效果更好。</br><b>多臂吃角子老虎機</b>：在收集資料時，將流量轉移到表現較佳的處理，平衡速度和最佳化。 當您想要在實驗期間將轉換次數最大化時非常有用。</br><b>自備多臂吃角子老虎機</b>：使用您自己的演演算法來決定流量分配，如果您有自訂模型或策略，則可讓您擁有彈性。"
 
 此頁面提供&#x200B;**A/B**&#x200B;與&#x200B;**多臂吃角子老虎機**&#x200B;實驗的詳細比較，說明其各自的優點、限制，以及每種方法最有效的案例。
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ ht-degree: 2%
 | 您的流量有限，希望快速最佳化投資報酬率 | 多臂吃角子老虎 |
 | 您的流量高，可以承受較慢的學習速度 | A/B |
 | 利害關係人需要明確的決策點 | A/B |
-
