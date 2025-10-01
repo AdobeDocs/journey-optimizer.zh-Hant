@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '640'
 ht-degree: 22%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 22%
 
 * **預覽和校訂支援：**&#x200B;目前，使用CSV上傳或同盟對象構成所建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
 
-* **鎖定新設定檔：**&#x200B;當記錄和UPS設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
+* **鎖定新設定檔：**&#x200B;當記錄與整合設定檔服務設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 由於此新設定檔為空白，因此Journey Optimizer中通常使用的目標定位欄位（例如personalEmail.address、mobilePhone.number）為空白，因此無法用於目標定位。
 
   若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這將確保在建立受眾時選擇作為身分的屬性將是用於在Journey Optimizer中定位的屬性。
 
-* **啟用的記錄與身分拼接：**&#x200B;對象中的每個記錄都已啟動，包括任何重複專案。 在下次UPS設定檔匯出期間，這些記錄將進行身分拼接。 因此，啟用的記錄數可能與身分拼接後的設定檔數不同。
+* **啟用的記錄與身分拼接：**&#x200B;對象中的每個記錄都已啟動，包括任何重複專案。 在下次統一設定檔服務設定檔匯出期間，這些記錄將進行身分拼接。 因此，啟用的記錄數可能與身分拼接後的設定檔數不同。
 
 ## 在[!DNL Journey Optimizer]中鎖定對象
 

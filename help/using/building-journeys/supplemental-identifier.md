@@ -3,9 +3,9 @@ title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 6c23b920787a1b39d60b397e9c74094695e59295
+source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 4%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 4%
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用補充識別碼"
 >abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。要定義補充識別碼，請選擇要用作補充識別碼的欄位並選擇與其建立關聯的命名空間。"
-
-<!--
-By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
-In this example, we have added a booking ID as a supplemental identifier. 
-
-![](assets/event-supplemental-id.png){width=40% zoomable}
-
-By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
-
-In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -71,6 +61,7 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
    * 如果您使用業務事件，補充ID會停用。
    * 補充ID必須是設定檔中的欄位（即不是事件/內容欄位）。
    * 對於使用補充ID的讀取受眾歷程，每個歷程例項的讀取受眾活動讀取率限製為每秒500個設定檔上限。
+   * 使用具有補充ID的讀取對象歷程時，僅支援整合式設定檔服務對象。
 
 ## 具有補充ID的退出條件行為 {#exit-criteria}
 
@@ -255,4 +246,4 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
