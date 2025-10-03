@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 74%
+source-wordcount: '1111'
+ht-degree: 72%
 
 ---
 
@@ -60,16 +60,15 @@ UNUSED IDs in BJ
 
 使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
 
-
 >[!CAUTION]
 >
 >協調的行銷活動僅支援SMS、推播和電子郵件頻道。
 
+## 新增頻道活動，定義屬性 {#add}
+
 >[!PREREQUISITES]
 >
->在新增頻道活動之前，請使用[建置客群活動](build-audience.md)，定義目標客群。
-
-## 新增頻道活動，定義屬性 {#add}
+>在新增管道活動之前，請使用[建立對象](build-audience.md)或[讀取對象](read-audience.md)活動來定義目標對象。
 
 1. 請將頻道活動新增至畫布。 可用的頻道活動包括&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;和&#x200B;**[!UICONTROL 推播]**。
 
