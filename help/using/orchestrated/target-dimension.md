@@ -5,9 +5,9 @@ title: 建立您的目標維度
 description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`crmID`結構描述中由唯一的`Recipient`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
+   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
 
    ![](assets/target-dimension-2.png)
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## 設定您的頻道設定 {#channel-configuration}
 
-設定&#x200B;**[!UICONTROL 目標Dimension]**&#x200B;後，您需要設定電子郵件或簡訊&#x200B;**[!UICONTROL 頻道設定]**，並定義適當的&#x200B;**[!UICONTROL 執行詳細資料]**。 這可讓您定義：
+設定&#x200B;**[!UICONTROL 目標Dimension]**&#x200B;後，您需要設定&#x200B;**[!UICONTROL 通道設定]**&#x200B;並定義適當的&#x200B;**[!UICONTROL 執行詳細資料]**。 這可讓您定義：
 
 * **郵件傳遞的層級**：例如，每個收件者傳送一封郵件，例如每個個人傳送一封電子郵件。
 
