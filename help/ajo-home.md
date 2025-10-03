@@ -6,15 +6,15 @@ description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Adobe Journey Optimizer 文件{#section-overview}
 
-Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設計及提供順暢、個人化的客戶體驗。結合行銷活動協調、資料管理和決策的進階工具，可幫助您建立即時因應客戶需求的歷程。本文件提供可熟悉平台的藍圖，包括探索其最新功能和整合，以及學習如何管理客群、設定歷程和分析績效。無論您是行銷人員、資料分析人員或行銷活動經理，您都能找到量身打造的逐步指南、最佳實務和資源，以幫助您滿懷信心地實現目標。
+Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設計及提供順暢、個人化的客戶體驗。結合行銷活動協調、資料管理和決策的進階工具，可幫助您建立即時因應客戶需求的歷程。本文件提供可熟悉平台的藍圖，包括探索其最新功能和整合，以及學習如何管理客群、設定歷程和分析績效。無論您是行銷人員、資料分析人員還是行銷活動經理，您都能找到量身打造的逐步指南、最佳實務和資源，幫助您滿懷信心地實現目標。
 
 ## 最新資訊 {#section-new}
 
@@ -22,9 +22,9 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 >[!BEGINTABS]
 
->[!TAB 2025年9月發行版本]
+>[!TAB 2025 年 9 月版]
 
-Journey Optimizer 9月版本已上線！ 探索本月發行的新功能和改進專案發行說明。
+Journey Optimizer 9 月版已上線！在發行說明中探索本月發行的新功能和改進項目。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,27 +49,27 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
-掌握Adobe Journey Optimizer的最新發行說明、新功能和改進專案。
+隨時掌握有關 Adobe Journey Optimizer 最新發行說明、新功能和改進項目的最新資訊。
 
 [檢視發行說明](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
-瞭解Journey Optimizer的基本知識，包括其功能、架構和使用者介面。
+了解 Journey Optimizer 的基本知識，包括其功能、架構和使用者介面。
 
 [快速入門](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

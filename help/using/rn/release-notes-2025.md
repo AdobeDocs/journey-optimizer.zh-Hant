@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -256,7 +256,7 @@ ht-degree: 99%
 
 * **設定**
 
-   * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
+   * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
 
      若要進一步個人化一鍵取消訂閱連結，您現在可以定義將要同時附加至同意事件的自訂屬性。[閱讀全文](../email/list-unsubscribe.md#custom-attributes)
 
@@ -268,7 +268,7 @@ ht-degree: 99%
 
 * **決策**
 
-   * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。此功能以有限可用性提供給一組客戶。 [閱讀全文](../experience-decisioning/create-decision.md#fragments)
+   * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。此功能為有限可用性，僅提供給一組客戶。[閱讀全文](../experience-decisioning/create-decision.md#fragments)
 
 * **歷程**
 
@@ -786,7 +786,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </ul>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 5 月 23 日</p>
 </td>
@@ -841,7 +841,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <tr>
 <td>
 <p>完成批次分段後，就可以立即觸發日常歷程執行目前所有客戶都可以在每日排程的歷程中，使用此選項。 此選項可讓您定義的時間視窗長達 6 小時之久，等待批次分段作業的客群資料，確保使用到最新資料，執行歷程。或者如果還未準備好，就可以直接跳過。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#schedule">詳細文件</a>。</p>
 <p>推出日期：2025 年 5 月 20 日</p>
@@ -861,7 +861,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <td>
 <p>Journey Optimizer 目前可讓您在預設選項之外，設定以下其他 SMS 提供者：Sinch、Infobip 和 Twilio。 透過自訂 SMS 提供者設定，您就可以直接整合第三方提供者，運用動態訊息的進階來承載自訂，同時管理同意偏好設定（選擇加入/選擇退出），以便確保有遵守法規遵循規範。</p>
 <p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
-<p>之前以「限量」的名義發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>推出日期：2025 年 5 月 20 日</p>
 </td>
 </td>

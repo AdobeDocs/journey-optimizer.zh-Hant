@@ -6,9 +6,9 @@ description: 協調的行銷活動
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 協調的行銷活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 護欄與限制
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 協調行銷活動的資料設定
 
-設定以模型為基礎的結構描述、資料集和管道，以確保資料已整備妥當的協調行銷活動。
+設定基於模型的結構描述、資料集和頻道，以確保為協調的行銷活動準備好資料。
 
 [探索資料設定](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 啟動並管理協調的行銷活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 為協調的行銷活動查詢資料庫
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 行銷活動的全面指南
 
@@ -83,5 +83,5 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 
 ## 其他資源
 
-- **[常見問題集](../using/orchestrated/orchestrated-campaigns-faq.md)** — 探索有關Adobe Journey Optimizer協調行銷活動的常見問題集(FAQ)。
+- **[常見問題集](../using/orchestrated/orchestrated-campaigns-faq.md)** - 探索有關 Adobe Journey Optimizer 協調行銷活動的常見問題集 (FAQ)。
 

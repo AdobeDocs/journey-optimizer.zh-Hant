@@ -6,21 +6,21 @@ description: 歷程
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # 歷程{#section-overview}
 
-Adobe Journey Optimizer中的歷程可讓您建立個人化的多步驟客戶歷程，並即時因應觀眾的行為和需求。 使用直覺式的拖放畫布，您可以跨多個管道協調訊息和動作，運用內容資料和客群目標定位發揮最大影響。不論您是探索即時觸發程序、管理歷程屬性，還是使用自訂動作和運算式等進階工具，本節都將提供清楚的藍圖。深入了解操作指南、使用案例和疑難排解提示，放心地設計和調整歷程，提供有意義、及時的客戶體驗。
+Adobe Journey Optimizer 中的歷程可讓您建立個人化的多步驟客戶歷程，並即時因應客群的行為和需求。使用直覺式的拖放畫布，您可以跨多個管道協調訊息和動作，運用內容資料和客群目標定位發揮最大影響。不論您是探索即時觸發程序、管理歷程屬性，還是使用自訂動作和運算式等進階工具，本節都將提供清楚的藍圖。深入了解操作指南、使用案例和疑難排解提示，放心地設計和調整歷程，提供有意義、及時的客戶體驗。
 
 ## 歷程概觀
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 歷程快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立及管理歷程的全面指南
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理歷程的全面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中建立運算式
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer 的實用使用案例
 
@@ -86,6 +86,6 @@ Adobe Journey Optimizer 的實用使用案例
 
 - **[對客戶歷程進行疑難排解](troubleshoot-journey-landing-page.md)** - 診斷和解決工具、錯誤碼的歷程執行問題，並了解偵錯和最佳化的最佳做法。
 
-- **[訂閱歷程警示](../using/reports/alerts.md)** — 瞭解如何管理系統警示、訂閱通知，以及疑難排解歷程和行銷活動中的問題。
+- **[訂閱歷程警示](../using/reports/alerts.md)** - 了解如何管理系統警示、訂閱通知，以及對歷程和行銷活動中的問題進行疑難排解。
 
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1903'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -361,24 +361,24 @@ AI 助理是一種使用者介面功能，可用於導覽和瞭解 Adobe 概念�
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="啟用 Webhook"
->abstract="啟用Webhook以接收有關訊息執行狀態的即時回饋。 在啟用此選項之前，請確定您已在&#x200B;**管理** / **管道** / **意見Webhook**&#x200B;功能表中設定webhook。"
+>abstract="啟用 Webhook 以接收有關訊息執行狀態的即時回饋。在啟用此選項之前，請確定您已在&#x200B;**管理**/**頻道**/**回饋 Webhook** 選單中設定 Webhook。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
->title="意見回饋Webhook"
->abstract="意見回饋Webhook可讓您接收透過異動API觸發的行銷活動傳送之訊息執行狀態的即時意見回饋。 每個組織+沙箱組合只允許一個webhook設定。"
+>title="回饋 Webhook"
+>abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。每個組織 + 沙箱組合只允許一個 Webhook 設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
 >title="基本設定"
->abstract="在此區段中，輸入描述性名稱以識別webhook並選取此webhook應接收其意見回饋（電子郵件和/或簡訊）的頻道。 在Webhook URL欄位中，提供必須傳送意見事件的HTTPS端點。"
+>abstract="在此區段中，輸入說明性名稱以識別 Webhook 並選取此 Webhook 應接收意見回饋 (電子郵件和/或簡訊) 的頻道。在 Webhook URL 欄位中，提供必須傳送意見回饋事件的 HTTPS 端點。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
 >title="Authentication"
->abstract="如果您的端點需要JWT驗證，請從清單中選取&#x200B;**JWT驗證**，並提供必要的詳細資料。"
+>abstract="如果您的端點需要 JWT 驗證，請從清單中選取 **JWT 驗證**，並提供必要的詳細資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="標頭引數"
->abstract="在此區段中，您可以設定隨每個webhook請求傳送的其他自訂標頭。"
+>title="標頭參數"
+>abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
