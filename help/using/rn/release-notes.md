@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
+source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 42%
+source-wordcount: '1726'
+ht-degree: 45%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 24 日</p>
 </td>
 </tr>
@@ -178,7 +178,7 @@ ht-degree: 42%
 
   推出日期：2025 年 9 月 29 日
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
+* SMS頻道&#x200B;**的**mTLS支援
 設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
 
 * **以模型為基礎的結構描述**\
@@ -231,41 +231,41 @@ ht-degree: 42%
 
 下列功能和增強功能已排定在未來幾天發行。 **資訊可能會變更**。 這些更新上線生產後，更新的連結、畫面和檔案將會共用。
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>新增Web推播通知頻道</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在支援Web推播通知，將推播頻道擴展至行動裝置以外。 您可以順暢地將通知傳送至行動瀏覽器和案頭瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。</p>
-<p>此增強功能可讓您運用行動推送中現有的相同撰寫工作流程和目標定位功能，即時與使用者互動並提供個人化訊息。</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>自訂動作監控和報告</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>自訂動作監控和報告功能現已可用。 此功能可讓您更清楚瞭解歷程健康狀況和執行，包括生命週期狀態和效能警示。 您現在可以快速瞭解自訂動作中發生異常狀況的時間、地點和原因。</p>
-<!--p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-<p>Availability date: Sept XX, 2025</p-->
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
 </td>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
