@@ -235,8 +235,8 @@ ht-degree: 99%
       + [常見問題集](using/orchestrated/orchestrated-campaigns-faq.md)
       + 資料設定 {#data-configuration}
          + [資料設定](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + 管理以模型為基礎的結構描述和資料集 {#schemas-datasets}
-            + [管理以模型為基礎的結構描述和資料集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + 管理基於模型的結構描述和資料集 {#schemas-datasets}
+            + [管理基於模型的結構描述和資料集](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [開始使用結構描述和資料集](using/orchestrated/gs-schemas.md)
             + [手動處理結構描述](using/orchestrated/manual-schema.md)
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
@@ -292,7 +292,7 @@ ht-degree: 99%
       + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
-      + [自動產生內容變體](using/test-approve/simulate-sample-input-generated.md)
+      + [自動產生內容變化版本](using/test-approve/simulate-sample-input-generated.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
    + 核准歷程與行銷活動 {#approve}
       + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
@@ -555,7 +555,7 @@ ht-degree: 99%
          + [實驗加速器的量度](using/content-management/experiment-accelerator-metrics.md)
       + 技術說明 {#technotes}
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
-         + [A/B測試和多臂吃角子老虎機](using/content-management/mab-vs-ab.md)
+         + [A/B 測試和多臂老虎機](using/content-management/mab-vs-ab.md)
          + [了解統計計算](using/content-management/experiment-calculations.md)
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}

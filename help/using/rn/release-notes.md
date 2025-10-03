@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 45%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 45%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025年9月發行說明 {#25-9-rn}
+## 2025 年 9 月發行說明 {#25-9-rn}
 
 **發行日期**：2025 年 9 月 23-24 日
 
@@ -54,12 +54,12 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator是AI優先的產品，旨在將您的實驗提升到新的境界。 此產品專為Adobe Journey Optimizer和Adobe Target使用者打造，可整合實驗管理、提供AI支援的深入分析和機會，並推出新的實驗代理程式。</p>
+<p>Journey Optimizer Experimentation Accelerator 是 AI 優先的產品，旨在將您的實驗提升到新的境界。此產品專為 Adobe Journey Optimizer 和 Adobe Target 使用者打造，可整合實驗管理、提供 AI 支援的深入分析和機會，並推出新的實驗代理程式。</p>
 <p>您可以期待：</p>
 <ul>
-<li><strong>整合實驗詳細目錄：</strong>在一個中央工作區中快速檢視、篩選及管理Adobe Journey Optimizer和Adobe Target的所有實驗。</li>
-<li><strong>AI實驗見解和機會：</strong>使用GenAI驅動的見解和推薦，超越統計讀數。 現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
-<li>Journey Optimizer中的<strong>多臂吃角子老虎機(MAB)支援：</strong>透過多臂吃角子老虎機實驗，最大化影響，同時減少浪費的流量。 MAB不會平均分割對象，而是會即時自動為更多訪客分配表現最佳的變數，這樣您就能為更多客戶提供更好的體驗，同時仍會瞭解哪些變數有效。</li></ul>
+<li><strong>整合實驗詳細目錄：</strong>在單個集中式工作區中快速檢視、篩選及管理 Adobe Journey Optimizer 和 Adobe Target 的所有實驗。</li>
+<li><strong>AI 實驗見解和機會：</strong>不僅有統計讀數，還有 GenAI 驅動的見解和推薦。現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
+<li><strong>Journey Optimizer 中的多臂老虎機 (MAB) 支援：</strong>透過多臂老虎機實驗，最大化影響，同時減少浪費的流量。MAB 不會平均分割客群，而是會即時將更多訪客自動分配到效能最佳的變化版本，這樣您就能為更多客戶提供更好的體驗，同時仍會了解哪些變化版本有效。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/experiment-accelerator.md">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 23 日</p>
@@ -71,13 +71,13 @@ ht-degree: 45%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent已推出！</strong><br/></th>
+<th><strong>Journey 代理已推出！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent由<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供技術支援，可在Journey Optimizer中使用。 它可讓您透過自然語言介面分析歷程。 代理程式會偵測歷程中的對象或排程衝突與設定檔流失，協助您採取步驟解決衝突。 不久，您將能夠使用代理支援建立歷程。</p>
+<p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供技術支援，可在 Journey Optimizer 中使用。它可讓您透過自然語言介面分析歷程。代理程式會偵測歷程中的客群或排程衝突與輪廓流失，協助您採取步驟解決這些問題。不久，您將能夠使用代理程式支援建立歷程。</p>
 <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 24 日</p>
 </td>
@@ -156,7 +156,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>此功能先前於公開測試版發佈，現在可供所有環境使用。 已在此版本中，引進以下增強功能：</p>
+<p>之前以公開 Beta 版本發行，目前此功能所有環境都適用。已在此版本中，引進以下增強功能：</p>
 <ul><li>支援傳入頻道中的資料集查詢個人化。</li>
 <li>「datasetLookup」協助程式函式現在可用於運算式片段中。目前，此功能僅供有限的一組客戶使用。若想取得存取權，請聯絡您的 Adobe 代表。</li>
 <li>資料集管理介面中的選項現在可讓您啟用記錄型資料集以進行查詢個人化，而無需執行 API 呼叫。</li>
@@ -173,52 +173,52 @@ ht-degree: 45%
 
 ### 改善 {#sept-25-9-improvements}
 
-* **API觸發的行銷活動的Webhook支援**\
-  API觸發的行銷活動現在支援Webhook。 設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。 [閱讀全文](../configuration/feedback-webhooks.md)
+* **API 觸發的行銷活動的 Webhook 支援**\
+  API 觸發的行銷活動現在支援 Webhook。設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。 [閱讀全文](../configuration/feedback-webhooks.md)
 
   推出日期：2025 年 9 月 29 日
 
-* SMS頻道&#x200B;**的**&#x200B;mTLS支援
-設定自訂SMS提供者時，您現在可以選擇啟用雙向TLS (mTLS)驗證，這要求使用者端和伺服器在建立安全連線之前確認彼此的身分。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
+* **簡訊管道的 mTLS 支援**
+設定自訂簡訊提供者時，您現在可以選擇啟用雙向 TLS (mTLS) 驗證，這要求用戶端和伺服器在建立安全連線之前確認彼此的身分。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
 
-* **以模型為基礎的結構描述**\
-  現在可以使用以模型為基礎的結構描述，來支援在「協調的行銷活動」中的關聯式模型需求。 [瞭解詳情](../orchestrated/gs-schemas.md) — 推出日期： 2025年9月23日
+* **基於模型的結構描述**\
+  現在可以使用基於模型的結構描述，來支援協調行銷活動中的關聯式模型需求。[閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
 
 * **歷程中的資料集查詢支援**\
-  歷程中的新活動&#x200B;**資料集查詢**&#x200B;可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 運用此功能，您可以存取設定檔或事件裝載中可能未駐留的資料，確保客戶互動相關且及時。 [瞭解詳情](../building-journeys/dataset-lookup.md) — 推出日期： 2025年9月23日
+  歷程中的全新&#x200B;**資料集查詢**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。[閱讀全文](../building-journeys/dataset-lookup.md) - 推出日期：2025 年 9 月 23 日
 
-  此活動僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
+  此活動僅適用於一組組織 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。
 
-* 歷程自訂動作中的&#x200B;**重新導向支援**\
-  歷程自訂動作現在支援重新導向(302)。  — 推出日期： 2025年9月23日
+* **歷程自訂動作中的重新導向支援**\
+  歷程自訂動作現在支援重新導向 (302)。- 推出日期：2025 年 9 月 23 日
 
-* **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[瞭解詳情](../reports/alerts.md#alert-channel-config-failure) — 推出日期： 2025年9月23日
+* **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[閱讀全文](../reports/alerts.md#alert-channel-config-failure) - 推出日期：2025 年 9 月 23 日
 
-* **一鍵取消訂閱要求** — 我們已匯入改善功能，進一步加強Adobe Managed下所設定一鍵取消訂閱要求的處理能力，確保處理可靠且一致。  — 推出日期： 2025年9月23日
+* **一鍵取消訂閱請求** - 我們已推出改進功能，進一步加強 Adobe Managed 下所設定一鍵取消訂閱請求的處理能力，確保處理可靠且一致。- 推出日期：2025 年 9 月 23 日
 
-* **自訂驗證現在支援巢狀JSON內文引數**\
-  設定自訂動作的自訂驗證時，現在支援巢狀JSON物件（例如`bodyParams`內的子物件）。 [瞭解詳情](../datasource/external-data-sources.md#custom-authentication-mode) — 推出日期： 2025年9月18日
+* **自訂驗證現在支援巢狀 JSON 正文參數**\
+  設定自訂動作的自訂驗證時，現在支援巢狀 JSON 物件 (例如 `bodyParams` 內的子物件)。[閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode) - 推出日期：2025 年 9 月 18 日
 
-* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能以前稱為「有限可用性」，現在可供所有環境使用，並可讓您選擇1小時（之前為3小時）。 [瞭解詳情](../conflict-prioritization/channel-capping.md) — 推出日期： 2025年9月17日
+* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能之前以「有限可用性」的名義發行，目前所有環境都適用，並允許您選擇 1 小時 (之前為 3 小時)。[閱讀全文](../conflict-prioritization/channel-capping.md) - 推出日期：2025 年 9 月 17 日
 
-* **模擬所有傳入頻道的內容變化**\
-  先前僅可用於電子郵件、簡訊和推播通知頻道，模擬內容變數現在也適用於所有傳入頻道。 [瞭解詳情](../test-approve/simulate-sample-input.md) — 推出日期： 2025年9月17日
+* **模擬所有傳入管道的內容變化版本**\
+  先前僅可用於電子郵件、簡訊和推播通知管道，模擬內容變化版本現在也適用於所有傳入管道。[閱讀全文](../test-approve/simulate-sample-input.md) - 推出日期：2025 年 9 月 17 日
 
-* **決策上限規則的運算式** - 您現在可以建立自己的運算式，以定義決策項目的上限規則臨界值。[瞭解詳情](../experience-decisioning/items.md#capping) — 推出日期： 2025年9月16日
+* **決策上限規則的運算式** - 您現在可以建立自己的運算式，以定義決策項目的上限規則臨界值。[閱讀全文](../experience-decisioning/items.md#capping) - 推出日期：2025 年 9 月 16 日
 
-* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。[瞭解詳情](../personalization/personalization-build-expressions.md#where) — 推出日期： 2025年9月12日
+* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。[閱讀全文](../personalization/personalization-build-expressions.md#where) - 推出日期：2025 年 9 月 12 日
 
-  此功能以有限可用性提供給一組客戶。
+  此功能為有限可用性，僅提供給一組客戶。
 
 * **Webhooks** — 此版本在設定自訂SMS提供者時，為Webhooks引進下列增強功能：
 
-   * 您現在可以定義您的webhook用途，可以是傳入或回饋，具體取決於您要擷取的資料型別。 [瞭解詳情](../sms/sms-configuration-custom.md#webhook) — 推出日期： 2025年9月23日
+   * 您現在可以定義您的webhook用途，可以是傳入或回饋，具體取決於您要擷取的資料型別。 [閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
 
-   * 設定關鍵字的介面已經過改良，更易於設定。 [瞭解詳情](../sms/sms-configuration-custom.md#webhook) — 推出日期： 2025年9月23日
+   * 設定關鍵字的介面已經過改良，更易於設定。 [閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
 
 * **簡訊**
 
-   * 設定自訂SMS提供者時，您現在可以定義當傳入的SMS包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。 您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。 [瞭解詳情](../sms/sms-configuration-custom.md) — 推出日期： 2025年9月23日
+   * 設定自訂SMS提供者時，您現在可以定義當傳入的SMS包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。 您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。 [閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
 
    * 您現在可以存取透過SMS訊息傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼字、字詞或句子。 它們儲存在&#x200B;**AJO電子郵件追蹤體驗事件**&#x200B;資料集中的&#x200B;**InboundMessage**&#x200B;下，為期13個月。 僅適用於Sinch、Infobip和自訂SMS提供者。  — 推出日期： 2025年9月23日
 
@@ -229,7 +229,7 @@ ht-degree: 45%
 
 ### 即將推出 {#sept-25-9-soon}
 
-下列功能和增強功能已排定在未來幾天發行。 **資訊可能會變更**。 這些更新上線生產後，更新的連結、畫面和檔案將會共用。
+下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新推出後，更新的連結、畫面和文件將會共用。
 
 <!--table>
 <thead>
@@ -316,7 +316,7 @@ ht-degree: 45%
 <ul>
 <li>您每年最多可以為每個設定檔傳送 6 封含有 PDF 附件的訊息。</li>
 <li>每個附件允許的大小上限為 5 MB。</li>
-<li>如需任何額外大小或容量，您可以購買PDF附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。</li>
+<li>如需其他大小或流量，您可以購買 PDF 附件附加元件。如需詳細資訊，請聯絡您的 Adobe 代表。</li>
 </ul>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -332,22 +332,22 @@ ht-degree: 45%
 * **新歷程警示**\
   新的預先設定警示可供歷程使用：
 
-   * 超過設定檔捨棄率：過去5分鐘超過臨界值的設定檔捨棄與輸入設定檔的比率。
-   * 超出自訂動作錯誤率：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率。
-   * 超過設定檔錯誤率：過去5分鐘超過臨界值的設定檔出錯與輸入設定檔的比率。
+   * 超過輪廓捨棄率：過去 5 分鐘超過臨界值的輪廓捨棄與輸入輪廓的比率。
+   * 超過自訂動作錯誤率：過去 5 分鐘超出臨界值的自訂動作錯誤與成功 HTTP 呼叫的比率。
+   * 超過輪廓錯誤率：過去 5 分鐘超過臨界值的輪廓出錯與輸入輪廓的比率。
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-您可以修改臨界值，並訂閱個別歷程層級警報與全域警報。
+您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **一鍵取消訂閱URL的自訂屬性支援**\
-  透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的設定檔特定參數附加至同意更新事件。
+* **一鍵取消訂閱 URL 的自訂屬性支援**\
+  使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
 
-  若要進一步個人化取消訂閱電子郵件地址，您現在可以定義將附加至同意事件的自訂屬性。 自8月25日發行以來，此功能已可用於自訂的一鍵式取消訂閱連結。
+  若要進一步個人化您的取消訂閱電子郵件地址，您現在可以定義將要附加至同意事件的自訂屬性。自 8 月 25 日發行以來，此功能已可用於自訂的一鍵取消訂閱連結。
 
   <!-- Availability date: Sept XX, 2025-->

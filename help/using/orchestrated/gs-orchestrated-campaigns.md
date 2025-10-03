@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 92%
 
 每個協調的行銷活動包含：
 
-* **活動**：活動指要執行的任務。[各種活動](activities/about-activities.md)在畫布上以圖示呈現。 每種活動都有特定屬性和所有活動共有的其他屬性。
+* **活動**：活動指要執行的任務。[各種活動](activities/about-activities.md)在畫布中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
 
   在協調的行銷活動畫布中，一個特定活動可以產生多個任務，特別是存在循環或週期性動作時。
 
