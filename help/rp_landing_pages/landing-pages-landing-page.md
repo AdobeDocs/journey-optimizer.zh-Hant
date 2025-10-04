@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管理登陸頁面
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理訂閱清單
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 登陸頁面使用案例
 

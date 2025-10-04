@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 了解舊版欄位
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 歷程欄位概觀
 
