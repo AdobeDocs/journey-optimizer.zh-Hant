@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
+source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 90%
+source-wordcount: '1768'
+ht-degree: 89%
 
 ---
 
@@ -22,28 +22,30 @@ ht-degree: 90%
 
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2025 年 9 月發行說明 {#25-9-rn}
+## 2025年10月更新 {#25-10-rn}
 
-**發行日期**：2025 年 9 月 23-24 日
-
-### 全新功能 {#sept-25-9-features}
-
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Public API to retrieve journeys</strong><br/></th>
+<th><strong>用於擷取歷程的公用API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
-<p>Availability date: Sept 25, 2025</p>
+<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 25 日</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+
+## 2025 年 9 月發行說明 {#25-9-rn}
+
+**發行日期**：2025 年 9 月 23-24 日
+
+### 全新功能 {#sept-25-9-features}
 
 <table>
 <thead>
@@ -62,7 +64,7 @@ ht-degree: 90%
 <li><strong>Journey Optimizer 中的多臂老虎機 (MAB) 支援：</strong>透過多臂老虎機實驗，最大化影響，同時減少浪費的流量。MAB 不會平均分割客群，而是會即時將更多訪客自動分配到效能最佳的變化版本，這樣您就能為更多客戶提供更好的體驗，同時仍會了解哪些變化版本有效。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/experiment-accelerator.md">詳細文件</a></p>
-<p>推出日期：2025 年 9 月 23 日</p>
+<p>推出日期：2025 年 10 月 3 日</p>
 </td>
 </tr>
 </tbody>
