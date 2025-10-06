@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
-source-git-commit: 09a0b24c7e6ae071851a60f35f50e3f5048b0148
+source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator**&#x200B;需要付費授權，並且可搭配Adobe Target或Adobe Journey Optimizer使用。
+>**Journey Optimizer Experimentation Accelerator**&#x200B;需要客戶的付費授權，並且可與Adobe Target或Adobe Journey Optimizer緊密整合。
 
 **Journey Optimizer Experimentation Accelerator**&#x200B;是功能強大的工具，專為簡化和增強實驗程式而設計。 透過與Adobe Target和Adobe Journey Optimizer整合，它提供管理、分析和最佳化實驗的集中平台。 Journey Optimizer Experimentation Accelerator可善用AI驅動的深入分析和適應性測試，協助您作出資料導向式決策、改善行銷策略及取得可衡量的結果。
 
@@ -73,7 +73,7 @@ ht-degree: 15%
 
 若要將此角色指派給新使用者：
 
-1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;**&#x200B;**，然後按一下[新增使用者]&#x200B;**&#x200B;**。
+1. 導覽至[角色]儀表板中的[使用者]索引標籤&#x200B;****，然後按一下[新增使用者]****。
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
