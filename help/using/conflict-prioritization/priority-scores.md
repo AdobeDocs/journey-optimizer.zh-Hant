@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
