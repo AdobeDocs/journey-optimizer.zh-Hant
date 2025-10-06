@@ -4,7 +4,7 @@ description: 瞭解如何將優先順序分數指派給歷程與行銷活動。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -56,7 +56,7 @@ Journey Optimizer可讓您指派優先順序分數給歷程、行銷活動或歷
 >title="優先順序"
 >abstract="指派歷程動作的優先順序分數。當有多個歷程動作或行銷活動使用相同的通道設定時，必須透過優先順序來確定入站動作的優先次序。</br>請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。預設情況下，動作的優先順序分數會繼承歷程的整體優先順序分數。"
 
-Journey Optimizer也可讓您為&#x200B;**[!UICONTROL 動作]**&#x200B;活動內的傳入頻道動作指派優先順序分數。
+Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)活動內的傳入頻道動作指派優先順序分數。
 
 這可讓您在有多個歷程動作或行銷活動使用相同管道設定時，優先處理傳入動作。
 
@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為&#x200B;**[!UICONTROL 動作]**&#x200B;活動內
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
