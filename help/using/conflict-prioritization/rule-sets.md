@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 29%
+source-wordcount: '1018'
+ht-degree: 27%
 
 ---
 
@@ -74,6 +74,11 @@ ht-degree: 29%
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="規則類型"
+>abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數** （限時提供）以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息」。
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="選取訊息規則類別"
 >abstract="啟動並套用至訊息時，和所選類別相符的所有頻率規則會自動應用至該訊息。目前只有行銷類別可用。"
@@ -82,6 +87,11 @@ ht-degree: 29%
 >id="ajo_rule_set_rule_capping"
 >title="規則上限"
 >abstract="設定規則的頻率上限。根據規則集網域和「規則類型」欄位中的選擇，此欄位可以定義傳送至輪廓的訊息數量上限，或者輪廓可同時進入或註冊的歷程數量上限。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="規則集"
+>abstract="選取要套用至自訂動作的規則集。"
 
 若要建立規則集，請遵循下列步驟。
 
@@ -164,4 +174,4 @@ ht-degree: 29%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
