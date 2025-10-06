@@ -42,7 +42,7 @@ ht-degree: 89%
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../email/pdf-attachments.md">詳細文件</a></p>
-<p>推出日期：2025 年 9 月 30 日</p-->
+<p>推出日期：2025 年 9 月 30 日&lt;/p-->
 </td>
 </tr>
 </tbody>
