@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->此活動僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
+>此活動僅適用於一組組織 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。
 
 ## 必讀 {#must-read}
 
@@ -124,6 +124,7 @@ ht-degree: 14%
 1. **購買事件**：從使用者的購物車擷取SKU。
 
 1. **資料集查詢活動**：
+
 * 資料集： `products-dataset` （SKU作為主索引鍵）。
 * 查閱金鑰： `list(@event{purchase_event.products.sku})`。
 * 要傳回的欄位： `["SKU", "category", "price"]`。
@@ -133,7 +134,7 @@ ht-degree: 14%
    * 篩選類別為「家庭」的SKU。
 
      ```
-     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )} 
+     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )} 
      ```
 
    或
@@ -141,7 +142,7 @@ ht-degree: 14%
    * 彙總家庭產品的總支出，並將其與$40的臨界值進行比較。
 
      ```
-     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )}.price}, ',', true ) > 40
+     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )}.price}, ',', true ) > 40
      ```
 
 1. **Personalization編輯器**：
