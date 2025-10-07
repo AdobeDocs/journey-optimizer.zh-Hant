@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1721'
 ht-degree: 7%
 
 ---
@@ -88,9 +88,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-details.png)
 
-   對於電子郵件通道，**[!UICONTROL 專案數]**&#x200B;欄位預設設為1，除非從&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則，否則無法修改。 若要在電子郵件中傳回多個專案，您必須新增&#x200B;**[!UICONTROL 重複網格]**&#x200B;內容元件，才能在&#x200B;**[!UICONTROL 專案數]**&#x200B;欄位中選取多個專案。 展開下列區段以取得詳細資訊：
+   對於電子郵件通道，**[!UICONTROL 專案數]**&#x200B;欄位預設設為1，除非從&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則，否則無法修改。 展開下列區段以取得詳細資訊：
 
-   +++在電子郵件中傳回多個決定專案
+   +++使用&#x200B;**[!UICONTROL 重複格線]**&#x200B;元件，在電子郵件中傳回多個決定專案
 
    1. 拖曳電子郵件中的&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;窗格視需要加以設定。
 
@@ -114,13 +114,9 @@ ht-degree: 7%
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL 選擇策略]** — 決定策略會運用與適用性限制和排名方法相關的集合來決定要顯示的專案。
+   * **[!UICONTROL 選擇策略]** — 決定策略會運用與適用性限制和排名方法相關的集合來決定要顯示的專案。 您可以選取一或多個現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。 [瞭解如何建立選擇策略](selection-strategies.md)
 
-     您可以選取一或多個現有的選取策略，或使用&#x200B;**[!UICONTROL 建立選取策略]**&#x200B;按鈕建立新的選取策略。 [瞭解如何建立選擇策略](selection-strategies.md)
-
-   * **[!UICONTROL 決定專案]** — 選取單一決定專案，而不需執行選取策略。
-
-     您一次只能選取一個決定專案。 任何針對專案設定的適用性限制都會套用。
+   * **[!UICONTROL 決定專案]** — 選取單一決定專案，而不需執行選取策略。 您一次只能選取一個決定專案。 任何針對專案設定的適用性限制都會套用。
 
    >[!NOTE]
    >
@@ -194,7 +190,7 @@ ht-degree: 7%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -209,7 +205,7 @@ ht-degree: 7%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 您可以隨時使用個人化編輯器中的省略符號按鈕，或元件屬性窗格中的&#x200B;**[!UICONTROL 決策]**&#x200B;選單來編輯或刪除決定原則。
 
@@ -227,9 +223,7 @@ ht-degree: 7%
 
 ## 指派位置（電子郵件） {#placement}
 
-對於電子郵件，您需要定義與決定原則相關元件的位置。
-
-若要這麼做，請按一下元件屬性窗格中的&#x200B;**[!UICONTROL 決策]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 指派位置]**。 [瞭解如何使用版位](../experience-decisioning/placements.md)
+對於電子郵件，您需要定義與決定原則相關元件的位置。 若要這麼做，請按一下元件屬性窗格中的&#x200B;**[!UICONTROL 決策]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 指派位置]**。 [瞭解如何使用版位](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 

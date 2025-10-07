@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 24baaa2438c6bbdddd582c71dbdd36188d12f905
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 使用&#x200B;**個人化編輯器**&#x200B;時，您可以利用所有已建立或已儲存至目前沙箱的運算式片段。
 
-片段是可重複使用的元件，可跨[!DNL Journey Optimizer]個行銷活動和歷程參照。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合內容。 [瞭解如何建立和管理片段](../content-management/fragments.md)。
+片段是可重複使用的元件，可跨[!DNL Journey Optimizer]個行銷活動和歷程參照。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合內容。 [進一步瞭解片段](../content-management/fragments.md)
 
 ➡️ [在此影片中瞭解如何管理、編寫和使用片段](../content-management/fragments.md#video-fragments)
 
@@ -34,7 +34,8 @@ ht-degree: 0%
 
 1. 開啟[個人化編輯器](personalization-build-expressions.md)並在左窗格上選取&#x200B;**[!UICONTROL 片段]**&#x200B;按鈕。
 
-   清單會顯示目前沙箱上已建立或儲存為片段的所有運算式片段。 它們會依建立日期排序：最近新增的運算式片段會先顯示在清單中。 [了解更多](../content-management/fragments.md#create-expression-fragment)
+   清單會顯示目前沙箱上已建立或儲存為片段的所有運算式片段。 [瞭解如何建立片段](../content-management/create-fragments.md)
+它們會依建立日期排序：最近新增的運算式片段會先顯示在清單中。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -52,17 +53,23 @@ ht-degree: 0%
    >
    >您可以將任何&#x200B;**草稿**&#x200B;或&#x200B;**即時**&#x200B;片段新增至您的內容。 但是，如果歷程或行銷活動中使用了具有&#x200B;**草稿**&#x200B;狀態的片段，則您將無法啟用該歷程或行銷活動。 在歷程或行銷活動發佈中，草稿片段將顯示錯誤，您需要核准它們才能發佈。
 
-1. 在新增片段ID後，如果您開啟對應的運算式片段並從介面[編輯它](../content-management/fragments.md#edit-fragments)，變更便會同步。 它們會自動傳播到包含該片段ID的所有草稿或即時歷程/行銷活動。
+1. 在新增片段ID後，如果您開啟對應的運算式片段並從介面[編輯它](../content-management/manage-fragments.md#edit-fragments)，變更便會同步。 它們會自動傳播到包含該片段ID的所有草稿或即時歷程/行銷活動。
 
 1. 按一下片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕。 從開啟的關聯功能表中，選取&#x200B;**[!UICONTROL 檢視片段]**&#x200B;以取得有關該片段的詳細資訊。 也會顯示&#x200B;**[!UICONTROL 片段ID]**，可從此處複製。
 
    ![](assets/expression-fragment-view.png)
 
-1. 您可以在另一個視窗中開啟運算式片段，以編輯其內容和屬性 — 使用內容功能表中的&#x200B;**[!UICONTROL 開啟片段]**&#x200B;選項或從&#x200B;**[!UICONTROL 片段資訊]**&#x200B;窗格。 [瞭解如何編輯片段](../content-management/fragments.md#edit-fragments)
+1. 您可以在另一個視窗中開啟運算式片段，以編輯其內容和屬性 — 使用內容功能表中的&#x200B;**[!UICONTROL 開啟片段]**&#x200B;選項或從&#x200B;**[!UICONTROL 片段資訊]**&#x200B;窗格。 [瞭解如何編輯片段](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
 1. 然後您就可以照常使用[個人化編輯器](personalization-build-expressions.md)的所有個人化和編寫功能，自訂及驗證您的內容。
+
+1. 某些情況下，您只需要計算變數，因此您可能想要隱藏運算式片段的內容。 若要這麼做，請使用`render`屬性並將其設定為`false`。 例如：
+
+   ```
+   Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
+   ```
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ ht-degree: 0%
 
 可以使用的使用案例如下：
 
-1. 在片段中使用輸入變數
+1. **在片段中使用輸入變數。**
 
    當片段用於行銷活動/歷程動作內容時，它有能力運用在片段外部宣告的變數。 範例如下：
 
@@ -84,13 +91,13 @@ ht-degree: 0%
 
    我們可以看見以上在行銷活動內容中宣告`utm_content`變數。 使用片段&#x200B;**Hero區塊**&#x200B;時，將顯示要附加`utm_content`引數值的連結。 最終結果為： `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`。
 
-1. 使用片段的輸出變數
+1. **使用來自片段的輸出變數。**
 
    在片段中計算或定義的變數可用於您的內容。 在以下範例中，片段&#x200B;**F1**&#x200B;宣告了一組變數：
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   在電子郵件內容中，我們可以提供下列個人化內容：
+   在電子郵件內容中，您可以進行下列個人化：
 
    ![](../personalization/assets/use-fragment-variable.png)
 
@@ -107,7 +114,7 @@ ht-degree: 0%
 
 若要自訂欄位，請執行下列步驟：
 
-1. 從&#x200B;**片段**&#x200B;功能表將片段插入您的程式碼中。
+1. 從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表將片段插入您的程式碼中。
 
 1. 在語法結尾使用`<fieldId>="<value>"`程式碼以覆寫變數的預設值。
 
