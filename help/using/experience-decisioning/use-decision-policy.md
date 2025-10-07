@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -19,29 +19,39 @@ ht-degree: 1%
 
 ## 插入決定原則代碼 {#insert-code}
 
+>[!BEGINTABS]
+
+>[!TAB 程式碼型體驗]
+
 1. 開啟個人化編輯器並存取&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表。
 
-1. 選取&#x200B;**[!UICONTROL 插入原則]** （程式碼型體驗）或&#x200B;**[!UICONTROL 插入語法]** （電子郵件）以新增與決定原則對應的程式碼。
-
-   +++在電子郵件中插入決定原則代碼
-
-   ![](assets/decision-policy-add.png)
-
-   對於電子郵件，如果尚未預先將位置與元件相關聯，請從清單中選取一個位置，然後按一下&#x200B;**[!UICONTROL 指派]**。
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++在程式碼型體驗中插入決定原則程式碼
+1. 選取&#x200B;**[!UICONTROL 插入原則]**&#x200B;以新增與決定原則對應的程式碼。
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >如果未顯示程式碼插入按鈕，表示可能已針對上層元件設定決定原則。
+
+1. 已新增決定原則的程式碼。 此序列將重複執行您想要傳回決定原則的次數。 例如，如果您選擇在[建立決定](#add-decision)時傳回2個專案，則相同的順序將重複兩次。
+
+>[!TAB 電子郵件]
+
+1. 開啟個人化編輯器並存取&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表。
+
+1. 選取&#x200B;**[!UICONTROL 插入語法]**&#x200B;以新增與決定原則對應的程式碼。
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >如果未顯示程式碼插入按鈕，表示可能已針對上層元件設定決定原則。
+
+1. 如果尚未將任何位置預先關聯至元件，請從清單中選取一個位置，然後按一下&#x200B;**[!UICONTROL 指派]**。
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. 已新增決定原則的程式碼。 此序列將重複執行您想要傳回決定原則的次數。 例如，如果您選擇在[建立決定](#add-decision)時傳回2個專案，則相同的順序將重複兩次。
 
@@ -54,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 若要新增屬性，請按一下它旁邊的&#39;+&#39;圖示。 您可以對程式碼新增任意數量的屬性。
 
