@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 28%
@@ -83,3 +83,4 @@ ht-degree: 28%
 現在您已了解決定原則如何運作，以及它們如何協助提供個人化優惠，您已準備好建立您的第一個決定原則。
 
 ➡️ [瞭解如何建立決定原則](../experience-decisioning/create-decision-policy.md)
+
