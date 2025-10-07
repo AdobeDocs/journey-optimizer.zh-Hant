@@ -5,7 +5,7 @@ title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立模型型方案。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動以模型為基礎的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動以模型為基礎的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
