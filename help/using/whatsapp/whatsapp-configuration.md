@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 16%
+source-wordcount: '836'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 16%
 
 1. 設定您的API認證，如下所述：
 
-   * **API Token**：輸入您的API Token。 進一步瞭解[中繼檔案](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **企業帳戶ID**：輸入與您的企業組合相關的唯一編號。 進一步瞭解[中繼檔案](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)。
+   * **API Token**：輸入您的API Token。 在[Meta檔案](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)中進一步瞭解
+   * **企業帳戶ID**：輸入與您的企業組合相關的唯一編號。 進一步瞭解[Meta檔案](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)。
 
    ![](assets/whatsapp-api.png)
 
@@ -84,7 +84,7 @@ ht-degree: 16%
 >
 >若沒有指定的選擇加入或選擇退出關鍵字，則不會啟用標準同意訊息。
 
-成功建立WhatsApp API認證後，下一步就是建立webhook並設定您的傳入設定。
+成功建立WhatsApp API認證後，您現在可以設定Webhook擷取傳入回應，以管理選擇加入和選擇退出同意，並接收傳遞報表（包括可用的讀取回條）。
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL WhatsApp設定]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhooks]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
 
@@ -125,9 +125,9 @@ ht-degree: 16%
 
 1. 若要修改現有組態並存取您的&#x200B;**[!UICONTROL Webhook URL]**&#x200B;或&#x200B;**[!UICONTROL Webhook驗證工具程式]**，請找到所需的Webhook，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
-1. 複製您在此處產生的&#x200B;**[!UICONTROL Webhook驗證Toker]**，然後貼到Meta介面作為Webhook設定的一部分。
+1. 複製您在此處產生的&#x200B;**[!UICONTROL Webhook驗證Toker]**，然後貼到Meta介面中，作為Webhook設定的一部分。
 
-   如需如何以及在何處新增此驗證Token的詳細說明，請參閱[中繼檔案](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)。
+   如需如何以及在何處新增此驗證Token的詳細說明，請參閱[Meta檔案](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)。
 
 1. 從您先前提交的&#x200B;**[!UICONTROL WhatsApp Webhook]**&#x200B;存取及複製新的&#x200B;**[!UICONTROL Webhook URL]**。
 
@@ -180,6 +180,6 @@ ht-degree: 16%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

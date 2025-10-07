@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1355'
 ht-degree: 7%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 7%
 
 >[!ENDSHADEBOX]
 
-成功建立API認證後，下一步就是建立webhook並設定您的傳入設定。 此設定可確保您的系統能夠正確接收及處理傳入的資料或訊息。
+成功建立API認證後，您現在可以設定Webhook擷取傳入回應，以管理選擇加入和選擇退出同意，並接收傳遞報表，包括可用的讀取回條。
 
 設定webhook時，您可以根據要擷取的資料型別定義其用途：
 
