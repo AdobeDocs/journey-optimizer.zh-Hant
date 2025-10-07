@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1709'
+ht-degree: 15%
 
 ---
 
 # 存取和管理行銷活動 {#manage-campaigns}
-
-開始行銷活動之前，請檢查本節[中列出的下列必要條件](get-started-with-campaigns.md#permissions)。 在滿足這些先決條件後，您就可以開始建立行銷活動：
-
-* **存取行銷活動**。 您可以從[行銷活動清單](#access)或[行銷活動行事曆](#calendar)存取行銷活動。
-
-* **建立行銷活動**。 建立步驟取決於[行銷活動型別](get-started-with-campaigns.md#get-started-with-campaigns)。 瞭解如何建立[動作行銷活動](../campaigns/create-campaign.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)，或[協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)。
-
-* **定義行銷活動屬性**。 瞭解如何為[動作行銷活動](../campaigns/campaign-properties.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaign-properties.md)或[協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)設定屬性。
-
-* **定義行銷活動管道和內容**。 瞭解如何定義[動作行銷活動](../campaigns/campaign-content.md)、[API觸發的行銷活動](../campaigns/api-triggered-campaign-content.md)或[協調的行銷活動](../orchestrated/orchestrate-activities.md)的內容。
-
-* **排程您的行銷活動** — 您可以在行銷活動行事曆[中檢視排程的行銷活動](#calendar)。
-
-接著，開始測試、改善並調整您的行銷活動，再開始執行。 一旦您的行銷活動上線，您就可以監控它並存取報告。
-
-在本節[中檢視所有行銷活動狀態和警示](#statuses)。
-
-
-## 存取行銷活動 {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -259,7 +240,7 @@ ht-degree: 14%
 
 ## 複製行銷活動 {#duplicate}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

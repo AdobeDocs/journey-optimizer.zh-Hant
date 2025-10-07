@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 53%
+source-wordcount: '275'
+ht-degree: 58%
 
 ---
 
@@ -37,11 +37,13 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 
 >[!NOTE]
 >
->支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
+>支援的管道：[電子郵件](../email/get-started-email.md)、[簡訊/MMS/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
 >
 >可用的通道因您的授權模式及附加元件而異。
 
 ## API觸發的行銷活動建立的關鍵步驟 {#steps}
+
+開始行銷活動之前，請檢查本節[中列出的下列必要條件](get-started-with-campaigns.md#permissions)。 在滿足這些先決條件後，您就可以開始建立行銷活動：
 
 1. [定義行銷活動屬性](api-triggered-campaign-properties.md)
 1. [設定行銷活動動作](api-triggered-campaign-action.md)
@@ -51,12 +53,8 @@ API觸發的行銷活動的可用管道包括電子郵件、簡訊和推播訊�
 1. [審閱並啟動行銷活動](review-activate-api-triggered-campaign.md)
 1. [觸發行銷活動執行](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->在建立行銷活動之前，請確定您已檢閱一般[行銷活動先決條件](../campaigns/get-started-with-campaigns.md#prerequisites)。
-
 ## 作法影片 {#video}
 
 瞭解如何使用互動式訊息執行REST API，根據使用者互動從外部系統建立及觸發行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452736?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
