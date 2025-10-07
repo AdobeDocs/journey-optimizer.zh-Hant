@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 6c5db693b4f685c95173ef200da86133e184f78d
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 19%
+source-wordcount: '725'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 19%
 >id="ajo_exd_config_strategies"
 >title="定義您的選擇策略"
 >abstract="選擇策略可重複使用，並包括與適用性限制和排名方法相關聯的集合，用以確定在選取某個決定原則時要顯示的產品建議。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="建立決定原則」 — >"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +87,7 @@ ht-degree: 19%
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對產品建議進行排名"
 >abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳產品建議的方法：優先順序或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="建立決定原則」 — >"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
 
