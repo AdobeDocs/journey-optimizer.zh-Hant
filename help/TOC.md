@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 99%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [善用內容資料](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 進行決策](using/experience-decisioning/aep-data-exd.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
-      + [建立決定原則](using/experience-decisioning/create-decision.md)
+      + 使用決定原則傳遞優惠方案 {#decision-policies}
+         + [開始使用決定原則](using/experience-decisioning/create-decision.md)
+         + [建立決定原則](using/experience-decisioning/create-decision-policy.md)
+         + [在訊息中使用決定原則](using/experience-decisioning/use-decision-policy.md)
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
       + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件資料 {#experience-decisioning-collect-event-data}
@@ -763,7 +766,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
