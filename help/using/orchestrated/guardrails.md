@@ -5,9 +5,9 @@ title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 每個結構描述&#x200B;**的平均屬性數目不應超過50個資料行**，以維持管理性和效能。
 
-* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用模型架構功能。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 可以針對協調的行銷活動或行動行銷活動啟用模型型結構描述。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用模型架構功能。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 可以針對協調的行銷活動或行動行銷活動啟用模型型結構描述。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料攝取
 
@@ -68,6 +68,8 @@ ht-degree: 1%
 * 資料集建立期間指派的`table_name`是永久性的，並用於所有細分和個人化功能。
 
 * 目前的資料模型架構不支援&#x200B;**欄位群組**。
+
+* 目前不支援具有檔案上傳流程的複合主索引鍵。
 
 ## 活動限制
 
