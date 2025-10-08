@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -49,6 +49,8 @@ ht-degree: 2%
 每個值都包含上一個時段的百分比變化，可讓您輕鬆檢視效能是否正在改善、下降或保持穩定。
 
 ### 實驗效果
+
+![](assets/experiment-monitor-metrics-3.png)
 
 此區段顯示所選時間範圍內（過去90天、過去30天或過去7天）的所有作用中實驗，並反白顯示其對量度的貢獻。
 
