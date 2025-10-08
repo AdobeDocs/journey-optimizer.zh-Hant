@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1200'
 ht-degree: 25%
 
 ---
@@ -44,15 +44,17 @@ ht-degree: 25%
 >title="新增資料集"
 >abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
+[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。
+
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用性版本的形式提供給所有客戶。
 
-[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。
+## 護欄和限制 {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer]支援單一決定原則最多1000個查詢。
+* **支援的管道** — 具有決策的資料集查詢目前適用於電子郵件和歷程自訂動作。<!--Support for code-based experience channels is coming soon.-->
+* **屬性使用方式** — 用於決策的資料集查詢功能會使用其他屬性擴充決策專案定義 — 它不會將屬性擴充到設定檔
+* 查閱限制： [!DNL Journey Optimizer]支援每個單一決定原則最多1,000個查閱。
 
 ## 先決條件
 
