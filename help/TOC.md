@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: 672489bc8ac3cfd02f963a963bc6a584a65e9efe
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2968'
 ht-degree: 99%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 99%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -452,8 +452,8 @@ ht-degree: 99%
       + [新增個人化](using/personalization/personalization-build-expressions.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
       + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
-      + [使用 Adobe Experience Platform 資料進行個人化 (測試版)](using/personalization/aep-data-perso.md)
-      + 協助程式功能清單 {#functions}
+      + [使用 Adobe Experience Platform 資料進行個人化](using/personalization/aep-data-perso.md)
+      + 協助程式函式清單 {#functions}
          + [協助程式函式清單](/help/rp_landing_pages/functions-landing-page.md)
          + [開始使用輔助函式](using/personalization/functions/functions.md)
          + [外部資料查詢協助程式](using/personalization/external-data-lookup.md)
@@ -766,7 +766,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
