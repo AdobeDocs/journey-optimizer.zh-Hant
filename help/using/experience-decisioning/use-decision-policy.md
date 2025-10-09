@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 若要新增屬性，請按一下它旁邊的&#39;+&#39;圖示。 您可以對程式碼新增任意數量的屬性。
 
@@ -78,13 +78,13 @@ ht-degree: 1%
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## 利用片段 {#fragments}
+## 利用片段（程式碼型體驗） {#fragments}
 
 如果您的決定原則包含決定專案（包括片段），您可以在決定原則程式碼中利用這些片段。 [進一步瞭解片段](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->此功能目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>此功能目前僅適用於程式碼型體驗管道和一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 例如，假設您想針對多種行動裝置型號顯示不同的內容。 請務必將與這些裝置對應的片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
 
