@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0198df405217c7870a471d271987da08d0e2308
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 87%
+source-wordcount: '1625'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 87%
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2025年10月更新 {#25-10-rn}
+
+### 全新功能 {#25-10-features}
 
 <table>
 <thead>
@@ -64,6 +66,20 @@ ht-degree: 87%
 </tr>
 </tbody>
 </table>
+
+### 改善 {#25-10-improvements}
+
+**Mailto的自訂屬性支援（取消訂閱）**
+
+透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，藉此設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
+
+若要進一步個人化您的自訂端點，您現在可以定義將附加至同意事件的自訂屬性。
+
+>[!AVAILABILITY]
+>
+>此功能自2025年8月起已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，現在已針對「有限可用性」中的&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項發行。 請聯絡您的 Adobe 代表以取得存取權。
+
+推出日期： 2025年10月6日
 
 ## 2025 年 9 月發行說明 {#25-9-rn}
 
@@ -343,14 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
   You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
-
-* **Custom attributes support with One-click unsubscribe URL**  
-  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
-
-  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
   Availability date: Sept XX, 2025
 

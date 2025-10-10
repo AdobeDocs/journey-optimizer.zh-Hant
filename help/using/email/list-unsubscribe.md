@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: ht
-source-wordcount: '1458'
-ht-degree: 100%
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 85%
 
 ---
 
@@ -125,9 +125,13 @@ ht-degree: 100%
 
 選取&#x200B;**[!UICONTROL 客戶管理]**&#x200B;的選項時，若您輸入會在行銷活動或歷程中使用的自訂端點，當收件者按一下「取消訂閱」連結時，[!DNL Journey Optimizer] 就會將一些輪廓專屬的預設參數新增到同意更新事件上 <!--sent to the custom endpoint -->。
 
-若要進一步個人化您的自訂&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]**，您可以定義將要同時附加至同意事件的自訂屬性。
+若要進一步個人化您的端點<!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->，您可以定義也會附加至同意事件的自訂屬性。
 
-若要這麼做，請使用 **[!UICONTROL URL 追蹤參數]**&#x200B;區段。除了預設參數外，您在對應區段中定義的所有 URL 追蹤參數，還將附加至自訂一鍵取消訂閱 URL 的結尾。[了解如何設定自訂 URL 追蹤](url-tracking.md)
+>[!AVAILABILITY]
+>
+>針對&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項，此功能在「有限可用性」中提供。 請聯絡您的Adobe代表以取得存取權。 在此情況下，您需要使用下方&#x200B;**的** Mailto （取消訂閱）中說明的新查詢引數搭配自訂屬性（可用性限制）[區段](#configure-decrypt-api)。
+
+若要定義您端點的自訂屬性，請使用&#x200B;**[!UICONTROL URL追蹤引數]**&#x200B;區段。 您在對應區段中定義的所有URL追蹤引數，除了預設引數之外，也會附加至自訂端點的結尾。 [了解如何設定自訂 URL 追蹤](url-tracking.md)
 
 ### 設定解密 API {#configure-decrypt-api}
 
@@ -224,5 +228,49 @@ GET 呼叫分述如下。
     "timestamp": "2024-11-26T14:25:09.316930Z"
 }
 ```
+
++++
+
++++ 使用自訂屬性的Mailto （取消訂閱） （可用性限制）
+
+使用 **[!UICONTROL Mailto (取消訂閱)]** 選項時，按一下 [取消訂閱] 連結後將開啟一封預先填入的電子郵件，該電子郵件將傳送至指定的取消訂閱電子郵件地址。
+
+
+從2025年10月開始，如果對&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;端點使用&#x200B;**[!UICONTROL 客戶管理的]**&#x200B;選項，您可以定義將附加至同意事件的自訂屬性。 在此情況下，您需要使用下述查詢引數。
+
+>[!AVAILABILITY]
+>
+>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+
+GET 呼叫分述如下。
+
+端點：https://platform.adobe.io/journey/imp/consent/decrypt
+
+查詢參數：
+
+* **emailParamsSub**：從在Mailto地址收到的電子郵件主旨擷取的字串。
+
+   * 範例： *unsubscribev1.abc*
+
+   * 剖析值： *v1.abc*
+
+* **emailParamsBody**：從電子郵件內文（如果存在）擷取的字串，格式為&#x200B;*unsubscribev1.xyz*。
+
+   * 剖析的值： *v1.xyz*
+
+API範例： https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+
+>[!CAUTION]
+>
+>如果您使用先前的實作(例如：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>)，則需使用新的&#x200B;**emailParamsSub**&#x200B;和&#x200B;**emailParamsBody**&#x200B;引數，而非&#x200B;**emailParams**。 如需詳細資訊，請聯絡您的Adobe代表。
+
+**emailParamsSub**&#x200B;和&#x200B;**emailParamsBody**&#x200B;引數將包含在傳送給自訂端點的同意更新事件中。
+
+標頭要求：
+
+* x-api-key
+* x-gw-ims-org-id
+* 授權 (用於技術帳戶驗證的使用者權杖)
+
 
 +++
