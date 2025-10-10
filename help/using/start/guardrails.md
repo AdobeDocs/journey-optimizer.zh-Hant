@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -274,4 +274,4 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 
 ## 行銷活動協調護欄 {#orchestration-guardrails}
 
-本節詳細說明使用行銷活動協調時要牢記的護欄和限制：[決策管理護欄和限制](../orchestrated/guardrails.md)。
+使用Campaign Orchestration時請牢記的護欄和限制在本節中詳細說明： [護欄和限制](../orchestrated/guardrails.md)。
