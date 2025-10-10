@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 82%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 82%
 
 ### 改善 {#25-10-improvements}
 
-**Mailto的自訂屬性支援（取消訂閱）**
+Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
 透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，藉此設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
 
-若要進一步個人化您的自訂端點，您現在可以定義將附加至同意事件的自訂屬性。
+若要進一步個人化您的自訂端點，您現在可以定義將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
