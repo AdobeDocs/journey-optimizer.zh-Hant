@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 7%
+source-wordcount: '564'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 * 物件集合：JSON物件的陣列，例如：
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ ht-degree: 7%
 
 ## 限制 {#limitations}
 
-* 目前不支援物件陣列中的巢狀物件陣列。 例如：
+* **支援自訂動作中的巢狀陣列**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer支援自訂動作&#x200B;**回應承載**&#x200B;中的巢狀物件陣列，但此支援限於&#x200B;**請求承載**。
+
+  在請求裝載中，只有當巢狀陣列包含固定數量的專案時（如自訂動作設定中所定義），才支援巢狀陣列。 例如，如果巢狀陣列一律包含剛好三個專案，則可將其設定為常數。 當專案數量需要為動態時，只能將非巢狀陣列（位於底層的陣列）定義為變數。
+
+  範例：
+
+   1. 下列範例說明&#x200B;**不支援的使用案例**。
+
+      在此範例中，產品陣列包含具有動態專案數的巢狀陣列(`locations`)，這在要求裝載中不受支援。
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. 支援的範例，包含定義為常數的固定專案。
+
+      在此情況下，巢狀位置會由固定欄位(`location1`， `location2`)取代，讓裝載在支援的設定中保持有效。
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * 若要使用測試模式測試集合，您需要使用程式碼檢視模式。 目前商業事件不支援程式碼檢視模式。 您只能傳送包含單一元素的集合。
 
@@ -79,7 +111,7 @@ ht-degree: 7%
 
 在本節中，我們將使用以下JSON裝載範例。 這是一個物件陣列，其中的欄位是一個簡單的集合。
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -149,7 +181,7 @@ ht-degree: 7%
 
 異質型別範例：
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ ht-degree: 7%
 
 陣列陣列範例：
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
