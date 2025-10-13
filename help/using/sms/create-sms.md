@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 9%
+source-wordcount: '1112'
+ht-degree: 8%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 9%
 >id="ajo_message_sms_content"
 >title="定義您的簡訊內容"
 >abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂和個人化文字訊息 (簡訊/MMS/RCS)。"
+
+>[!AVAILABILITY]
+>
+>RCS Upscale不是HIPAA就緒服務，且不得用於收集、儲存或處理貴組織可能獲准在Journey Optimizer中處理的任何敏感個人資料，包括允許的健康資料，例如個人健康資訊或PHI。
 
 若要設定訊息內容，請遵循下列步驟。 MMS的設定在[本節](#mms-content)中有詳細說明。
 
