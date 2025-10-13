@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
+source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 8%
@@ -22,12 +22,13 @@ ht-degree: 8%
 >title="建立文字訊息。"
 >abstract="若要建立文字訊息 (簡訊/MMS/RCS)，請在歷程或行銷活動中新增簡訊動作，然後使用個人化編輯器開始對其進行個人化設定。"
 
+>[!AVAILABILITY]
+>
+>RCS Upscale不是HIPAA就緒服務，且不得用於收集、儲存或處理貴組織可能獲准在Journey Optimizer中處理的任何敏感個人資料，包括允許的健康資料，例如個人健康資訊或PHI。
+
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)、豐富通訊(RCS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增SMS動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
->[!NOTE]
->
->根據業界標準及法規，所有簡訊/多媒體簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
+根據業界標準及法規，所有簡訊/多媒體簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 ## 新增文字訊息 {#create-sms-journey-campaign}
 
@@ -96,10 +97,6 @@ ht-degree: 8%
 >id="ajo_message_sms_content"
 >title="定義您的簡訊內容"
 >abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂和個人化文字訊息 (簡訊/MMS/RCS)。"
-
->[!AVAILABILITY]
->
->RCS Upscale不是HIPAA就緒服務，且不得用於收集、儲存或處理貴組織可能獲准在Journey Optimizer中處理的任何敏感個人資料，包括允許的健康資料，例如個人健康資訊或PHI。
 
 若要設定訊息內容，請遵循下列步驟。 MMS的設定在[本節](#mms-content)中有詳細說明。
 
