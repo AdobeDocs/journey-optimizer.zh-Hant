@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2422'
 ht-degree: 27%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 27%
 
 按一下`...`圖示可檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
 
-## 函數{#functions-helper}
+## 函式{#functions-helper}
 
 ### 彙總與陣列函式
 
@@ -436,6 +436,9 @@ ht-degree: 27%
     </tr>
     <tr>
         <td><a href="helpers.md#each">Each</a></td><td>此函式用於反複處理陣列</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#execution-metadata">執行中繼資料</a></td><td>此協助程式會在訊息呈現期間擷取自訂索引鍵值中繼資料，以便將其儲存在執行階段執行中繼資料物件中</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">若</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回true，則會轉譯區塊</td>

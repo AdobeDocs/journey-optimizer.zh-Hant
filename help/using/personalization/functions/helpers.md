@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 6%
 
 ---
 
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->若要深入瞭解對象和細分服務，請參閱此[區段](../../audience/about-audiences.md)。
+>若要深入瞭解對象和細分服務，請參閱[本節](../../audience/about-audiences.md)。
 
 
 ## Unless{#unless}
 
-`unless`協助程式用於定義條件區塊。 藉由與The `if`協助程式對立，如果運算式評估傳回false，則會轉譯區塊。
+`unless`協助程式用於定義條件區塊。 藉由與`if`協助程式相對，如果運算式評估傳回false，則會轉譯區塊。
 
 **語法**
 
@@ -135,7 +135,7 @@ Some edu specific content Content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent {{/each}}
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用{{@index}}轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用{{@index}}轉譯陣列專案的索引。
 
 **語法**
 
@@ -211,3 +211,78 @@ Some edu specific content Content
     {{/each}}
 {{sum}}
 ```
+
+## 執行中繼資料 {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+
+`executionMetadata`協助程式允許動態擷取自訂索引鍵值配對，並將其儲存到訊息執行內容中。
+
+**語法**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+在此語法中，`key`參考中繼資料名稱，而`value`是要儲存的中繼資料。
+
+**使用案例**
+
+透過此功能，您可以將內容相關資訊附加至行銷活動或歷程中的任何原生動作。 這可讓您將即時傳遞內容資料匯出至外部系統，用於各種用途，例如追蹤、分析、個人化和下游處理。
+
+>[!NOTE]
+>
+>[自訂動作](../../action/action.md)不支援執行中繼資料函式。
+
+例如，您可以使用執行中繼資料協助程式，將特定ID附加至每個傳送至設定檔的每個傳送。 此資訊會在執行階段產生，然後可匯出擴充的執行中繼資料，以供與外部報告平台進行下游調解。
+
+**運作方式**
+
+從行銷活動或歷程內的管道內容中選取任何元素，並使用個人化編輯器將`executionMetadata`協助程式新增至此元素。
+
+>[!NOTE]
+>
+>顯示內容本身時，不會顯示執行中繼資料函式。
+
+
+在執行階段中，中繼資料值新增至現有的&#x200B;**[!UICONTROL 訊息回饋事件資料集]**，並加入下列結構描述：
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>在[本節](../../data/get-started-datasets.md)中進一步瞭解資料集。
+
+**限制**
+
+每個動作的機碼值組有2kb的上限。
+
+如果超過2Kb限制，訊息仍會傳送，但任何索引鍵值配對都可能遭截斷。
+
+**範例**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+在此範例中，假設`profile.person.name.firstName` = &quot;Alex&quot;，則產生的實體為：
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

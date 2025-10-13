@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bc2fd4ab90e31b86c9da8472018897131a8d05
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 77%
+source-wordcount: '1774'
+ht-degree: 75%
 
 ---
 
@@ -31,6 +31,24 @@ ht-degree: 77%
 以下列出過去幾週發佈的新功能和改進專案及其推出日期。 他們將在月底與下一個發行說明內容一起分組。 另請參閱下面[的最新](#latest-rn)發行說明。
 
 ### 全新功能 {#updates-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>執行中繼資料協助程式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>個人化編輯器中提供新的「executionMetadata」協助程式功能。 它可讓您將內容相關資訊附加至任何原生動作，並將其擷取至資料集，以匯出至外部系統。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
+<p>推出日期： 2025年10月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
