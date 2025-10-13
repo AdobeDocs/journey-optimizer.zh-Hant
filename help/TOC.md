@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 99%
@@ -154,7 +154,7 @@ ht-degree: 99%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -196,7 +196,7 @@ ht-degree: 99%
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      + [使用自訂動作動態傳遞集合](using/building-journeys/collections.md)
+      + [將集合傳遞至自訂動作引數](using/building-journeys/collections.md)
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
@@ -767,7 +767,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 46%
+source-wordcount: '358'
+ht-degree: 37%
 
 ---
 
@@ -49,4 +49,14 @@ ht-degree: 46%
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+
+## 其他資源
+
+瀏覽以下章節，進一步瞭解設定及使用自訂動作：
+
+* [設定您的自訂動作](../action/about-custom-action-configuration.md) — 瞭解如何建立和設定自訂動作
+* [使用自訂動作](../building-journeys/using-custom-actions.md) — 瞭解如何在歷程中使用自訂動作
+* [將集合傳遞至自訂動作引數](../building-journeys/collections.md) — 瞭解如何在執行階段動態填入的自訂動作引數中傳遞集合
+* [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
+

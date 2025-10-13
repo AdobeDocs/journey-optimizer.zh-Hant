@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 19%
+source-wordcount: '1829'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,34 @@ ht-degree: 19%
 如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來設定系統至您歷程的連線。例如，您可使用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
 
 自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定之後，它們會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別中。 請在[此頁面](../building-journeys/about-journey-activities.md#action-activities)了解更多。
+
+
+## 設定步驟 {#configuration-steps}
+
+以下是設定自訂動作所需的主要步驟：
+
+1. 在「管理」功能表區段中，選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 按一下&#x200B;**[!UICONTROL 建立動作]**&#x200B;以建立新動作。 動作設定窗格會在畫面右側開啟。
+
+   ![](assets/custom2.png)
+
+1. 輸入動作的名稱。
+
+   >[!NOTE]
+   >
+   >只允許使用英數字元和底線。 長度上限為30個字元。
+
+1. 新增說明至您的動作。 此步驟為選填。
+1. 使用此動作的歷程次數會顯示在&#x200B;**[!UICONTROL 用於]**&#x200B;欄位中。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕，以顯示使用此動作的歷程清單。
+1. 定義不同的&#x200B;**[!UICONTROL URL組態]**&#x200B;引數。 請參閱[此頁面](../action/about-custom-action-configuration.md#url-configuration)。
+1. 設定&#x200B;**[!UICONTROL 驗證]**&#x200B;區段。 此設定與資料來源的設定相同。  請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。
+1. 定義&#x200B;**[!UICONTROL 動作引數]**。 請參閱[此頁面](../action/about-custom-action-configuration.md#define-the-message-parameters)。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+   自訂動作現已設定完畢，且可供您在歷程中使用。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
+
+   >[!NOTE]
+   >
+   >當歷程中使用自訂動作時，大部分引數均為唯讀。 您只能修改&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 描述]**、**[!UICONTROL URL]**&#x200B;欄位和&#x200B;**[!UICONTROL 驗證]**&#x200B;區段。
 
 ## 限制{#custom-actions-limitations}
 
@@ -66,33 +94,6 @@ ht-degree: 19%
 * [資料控管](../action/action-privacy.md)。
 * [同意](../action/action-privacy.md)。
 
-
-## 設定步驟 {#configuration-steps}
-
-以下是設定自訂動作所需的主要步驟：
-
-1. 在「管理」功能表區段中，選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 按一下&#x200B;**[!UICONTROL 建立動作]**&#x200B;以建立新動作。 動作設定窗格會在畫面右側開啟。
-
-   ![](assets/custom2.png)
-
-1. 輸入動作的名稱。
-
-   >[!NOTE]
-   >
-   >只允許使用英數字元和底線。 長度上限為30個字元。
-
-1. 新增說明至您的動作。 此步驟為選填。
-1. 使用此動作的歷程次數會顯示在&#x200B;**[!UICONTROL 用於]**&#x200B;欄位中。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕，以顯示使用此動作的歷程清單。
-1. 定義不同的&#x200B;**[!UICONTROL URL組態]**&#x200B;引數。 請參閱[此頁面](../action/about-custom-action-configuration.md#url-configuration)。
-1. 設定&#x200B;**[!UICONTROL 驗證]**&#x200B;區段。 此設定與資料來源的設定相同。  請參閱[本節](../datasource/external-data-sources.md#custom-authentication-mode)。
-1. 定義&#x200B;**[!UICONTROL 動作引數]**。 請參閱[此頁面](../action/about-custom-action-configuration.md#define-the-message-parameters)。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
-
-   自訂動作現已設定完畢，且可供您在歷程中使用。 請參閱[此頁面](../building-journeys/about-journey-activities.md#action-activities)。
-
-   >[!NOTE]
-   >
-   >當歷程中使用自訂動作時，大部分引數均為唯讀。 您只能修改&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 描述]**、**[!UICONTROL URL]**&#x200B;欄位和&#x200B;**[!UICONTROL 驗證]**&#x200B;區段。
 
 ## 端點設定 {#url-configuration}
 
@@ -156,7 +157,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 
@@ -195,6 +196,15 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 >
 
 
-## 疑難排解
+* [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
 
-瞭解如何在此專屬頁面[上疑難排解自訂動作](../action/troubleshoot-custom-action.md)。
+
+## 其他資源
+
+瀏覽以下章節，進一步瞭解設定、使用及疑難排解自訂動作的相關資訊：
+
+* [開始使用自訂動作](../action/action.md) — 瞭解什麼是自訂動作，以及它們如何協助您連線至您的協力廠商系統
+* [使用自訂動作](../building-journeys/using-custom-actions.md) — 瞭解如何在歷程中使用自訂動作
+* [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
+* [將集合傳遞至自訂動作引數](../building-journeys/collections.md) — 瞭解如何在執行階段動態填入的自訂動作引數中傳遞集合
+

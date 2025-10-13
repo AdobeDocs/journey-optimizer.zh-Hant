@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 若要測試自訂動作，請遵循下列步驟：
 
 1. 導覽至&#x200B;**動作**&#x200B;設定畫面，然後選取自訂動作。
-1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**按鈕。
    ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
 1. 在快顯視窗中，允許您指定請求引數：
 
@@ -88,3 +88,13 @@ ht-degree: 2%
 * 要求方法(GET與POST的比較)和對應的裝載。
 * 自訂動作中定義的API端點和標題。
 * 使用回應資料來識別可能的設定錯誤。
+
+## 其他資源
+
+瀏覽以下章節，進一步瞭解設定及使用自訂動作：
+
+* [開始使用自訂動作](../action/action.md) — 瞭解什麼是自訂動作，以及它們如何協助您連線至您的協力廠商系統
+* [設定您的自訂動作](../action/about-custom-action-configuration.md) — 瞭解如何建立和設定自訂動作
+* [使用自訂動作](../building-journeys/using-custom-actions.md) — 瞭解如何在歷程中使用自訂動作
+* [將集合傳遞至自訂動作引數](../building-journeys/collections.md) — 瞭解如何在執行階段動態填入的自訂動作引數中傳遞集合
+

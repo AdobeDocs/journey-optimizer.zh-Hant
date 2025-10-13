@@ -1,27 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用自訂動作動態傳遞集合
-description: 使用 Campaign v7/v8 傳送訊息
+title: 將集合傳遞至自訂動作引數
+description: 瞭解如何使用自訂動作在Journey Optimizer中動態傳遞集合
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8f25fd5110777c148246864b364d02e4c6bf00da
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 6%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
 
-# 使用自訂動作動態傳遞集合{#passing-collection}
+# 將集合傳遞至自訂動作引數 {#passing-collection}
 
-您可以在自訂動作引數中傳遞集合，這些引數將在執行階段以動態方式填入。 支援兩種型別的集合：
+您可以在自訂動作引數中傳遞集合，這些引數會在執行階段以動態方式填入。
 
-* **簡單集合**：簡單資料型別的陣列，例如listString：
+支援兩種型別的集合：
+
+* **簡單集合**
+
+  將簡單集合用於基本值清單，例如字串、數字或布林值。 當您只需要傳遞專案清單而沒有其他屬性時，這些會很有用。
+
+  例如，裝置型別清單：
 
   ```json
   {
@@ -32,7 +38,11 @@ ht-degree: 6%
   }
   ```
 
-* o **物件集合**： JSON物件的陣列，例如：
+* **物件集合**
+
+  當每個專案包含多個欄位或屬性時，使用物件集合。 這些通常用於傳遞結構化資料，例如產品詳細資訊、事件記錄或專案屬性。
+
+  例如：
 
   ```json
   {
@@ -56,6 +66,9 @@ ht-degree: 6%
   }
   ```
 
+>[!NOTE]
+>
+>集合中的巢狀陣列僅部分支援自訂動作請求承載。 如需詳細資訊，請參閱[限制](#limitations)。
 
 ## 一般程式 {#general-procedure}
 
@@ -125,6 +138,8 @@ ht-degree: 6%
 
 ## 限制 {#limitations}
 
+雖然自訂動作中的集合可提供傳遞動態資料的靈活性，但需注意某些結構限制：
+
 * **支援自訂動作中的巢狀陣列**
 
   Adobe Journey Optimizer支援自訂動作&#x200B;**回應承載**&#x200B;中的巢狀物件陣列，但此支援限於&#x200B;**請求承載**。
@@ -172,7 +187,7 @@ ht-degree: 6%
       ```
 
 
-* 若要使用測試模式測試集合，您需要使用程式碼檢視模式。 目前商業事件不支援程式碼檢視模式。 您只能傳送包含單一元素的集合。
+* **測試集合**：若要使用測試模式測試集合，您必須使用程式碼檢視模式。 請注意，商業事件不支援程式碼檢視模式，因此在這種情況下，您只能傳送包含單一元素的集合。
 
 
 ## 特定案例{#examples}
@@ -208,6 +223,12 @@ ht-degree: 6%
 }
 ```
 
-**相關主題**
+## 其他資源
 
-[使用自訂動作](../building-journeys/using-custom-actions.md)
+瀏覽以下章節，進一步瞭解設定、使用及疑難排解自訂動作的相關資訊：
+
+* [開始使用自訂動作](../action/action.md) — 瞭解什麼是自訂動作，以及它們如何協助您連線至您的協力廠商系統
+* [設定您的自訂動作](../action/about-custom-action-configuration.md) — 瞭解如何建立和設定自訂動作
+* [使用自訂動作](../building-journeys/using-custom-actions.md) — 瞭解如何在歷程中使用自訂動作
+* [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
+
