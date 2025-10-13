@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
+source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 82%
+source-wordcount: '1712'
+ht-degree: 77%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 82%
 >title="有哪幾種新增功能？"
 >abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能的增強功能並修正錯誤。所有變更都會整合到每月最後一週的發行說明一起發表。[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer]遵循&#x200B;**持續傳遞模式**，允許Adobe持續提供新功能、增強功能和修正。 此方法可啟用&#x200B;**可擴充、分階段推出**&#x200B;的功能，以確保所有環境的效能和穩定性。
 
-## 2025年10月更新 {#25-10-rn}
+因為此模型，發行說明會在每月發行&#x200B;**之間**&#x200B;更新。  專屬的[最新更新](#updates-rn)區段會強調在部署到生產環境時的新功能和改善 — 因此您一律會即時收到所有變更的通知。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-### 全新功能 {#25-10-features}
+[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+## 最新更新 {#updates-rn}
+
+以下列出過去幾週發佈的新功能和改進專案及其推出日期。 他們將在月底與下一個發行說明內容一起分組。 另請參閱下面[的最新](#latest-rn)發行說明。
+
+### 全新功能 {#updates-features}
 
 <table>
 <thead>
@@ -67,7 +73,7 @@ ht-degree: 82%
 </tbody>
 </table>
 
-### 改善 {#25-10-improvements}
+### 改善 {#updates-improvements}
 
 Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
@@ -81,7 +87,7 @@ Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
 推出日期： 2025年10月6日
 
-## 2025 年 9 月發行說明 {#25-9-rn}
+## 2025 年 9 月發行說明 {#latest-rn}
 
 **發行日期**：2025 年 9 月 23-24 日
 
