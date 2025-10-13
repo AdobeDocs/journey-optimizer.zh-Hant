@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2481'
 ht-degree: 6%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 6%
 
    * **保留**&#x200B;設定檔 — 設定檔將等候下一個&#x200B;**動作**&#x200B;節點，以繼續歷程
    * **捨棄**&#x200B;設定檔 — 設定檔會在下一個&#x200B;**動作**&#x200B;節點從歷程中排除
+
+   暫停歷程時，您會假設您計畫在某個時間點繼續進行。 然而，歷程不能無限期地暫停。 為避免此問題，您可以定義歷程應暫停的時間長度（介於1到14天之間）。 在選取的天數後，歷程會自動繼續。
 
 1. 按一下&#x200B;**暫停**&#x200B;按鈕確認。
 
@@ -199,7 +201,7 @@ ht-degree: 6%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
