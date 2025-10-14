@@ -6,10 +6,11 @@ description: 瞭解如何使用Journey Optimizer設定您的環境以傳送推�
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1890'
 ht-degree: 5%
 
 ---
@@ -132,8 +133,7 @@ Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的�
 
 到這為止，您也應該在[!DNL Adobe Experience Platform Data Collection]中建立並設定行動屬性。 您通常會為想要管理的每個行動應用程式建立行動屬性。 在[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}中瞭解如何建立及設定行動屬性。
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+若要啟用&#x200B;**Web推播通知**，請確定[pushNotifications屬性](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications)已在Web SDK中正確設定。 然後，使用[sendPushSubscription命令](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription)向Adobe Experience Platform註冊推播訂閱。
 
 ## 步驟1：在Journey Optimizer中新增應用程式推送認證 {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ Adobe Experience Platform Mobile SDK透過Android與iOS相容的SDK，為您的�
 
       1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
-<!--
-    * **For Web**
+   * 適用於Web **的**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. 提供&#x200B;**[!UICONTROL 應用程式識別碼]**。
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. 輸入您的&#x200B;**[!UICONTROL VAPID公開金鑰]**&#x200B;和&#x200B;**[!UICONTROL 私密金鑰]**。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以建立您的應用程式設定。
 
@@ -228,7 +226,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
-1. 選擇您的&#x200B;**[!UICONTROL 平台]**： Android和/或iOS <!--and/or Web-->。
+1. 選擇您的&#x200B;**[!UICONTROL 平台]**： Android、iOS和/或Web。
 
 1. 選取與上面設定之&#x200B;**[!UICONTROL 推播認證]**&#x200B;相同的[應用程式ID](#push-credentials-launch)。
 
