@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '988'
 ht-degree: 16%
 
 ---
@@ -101,6 +101,8 @@ ht-degree: 16%
 快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。
 
 當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。
+
+瞭解如何在此頁面[啟用推播通知](../push/create-push.md#rapid-delivery)的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

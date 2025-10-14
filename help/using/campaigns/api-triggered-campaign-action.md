@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 52%
+source-wordcount: '429'
+ht-degree: 55%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
+   >支援的管道：[電子郵件](../email/get-started-email.md)、[簡訊/MMS/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
    >
    >可用的通道因您的授權模式及附加元件而異。
 
@@ -66,7 +66,9 @@ ht-degree: 52%
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面[啟用推播通知](../push/create-push.md#rapid-delivery)的快速傳遞模式。
+
+如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 
