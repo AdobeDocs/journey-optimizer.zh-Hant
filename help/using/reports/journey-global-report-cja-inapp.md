@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 2%
 
 +++ 進一步瞭解「顯示和點按趨勢」量度
 
-* **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
+* **[!UICONTROL 點按]**：使用者與應用程式內訊息互動的次數。
 
-* **[!UICONTROL 顯示]**：訊息開啟的次數。
+* **[!UICONTROL 顯示]**：向使用者顯示應用程式內訊息的次數。
 
 +++
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目
 
-* **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
+* **[!UICONTROL 點按]**：使用者與應用程式內訊息互動的次數。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 +++ 進一步瞭解顯示量度
 
-* **[!UICONTROL 顯示]**：訊息開啟的次數。
+* **[!UICONTROL 顯示]**：向使用者顯示應用程式內訊息的次數。
 
 * **[!UICONTROL 不重複顯示]**：訊息開啟的次數，一個設定檔的多個互動未列入考量。
 
@@ -79,11 +79,11 @@ ht-degree: 2%
 
 * **[!UICONTROL 點進開啟率(CTOR)]**：應用程式內訊息開啟的次數。
 
-* **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
+* **[!UICONTROL 點按]**：使用者與應用程式內訊息互動的次數。
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目。
 
-* **[!UICONTROL 顯示]**：訊息開啟的次數。
+* **[!UICONTROL 顯示]**：向使用者顯示應用程式內訊息的次數。
 
 * **[!UICONTROL 不重複顯示]**：訊息開啟的次數，一個設定檔的多個互動未列入考量。
 
@@ -105,9 +105,9 @@ ht-degree: 2%
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目。
 
-* **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
+* **[!UICONTROL 點按]**：使用者與應用程式內訊息互動的次數。
 
-* **[!UICONTROL 顯示]**：訊息開啟的次數。
+* **[!UICONTROL 顯示]**：向使用者顯示應用程式內訊息的次數。
 
 * **[!UICONTROL 不重複顯示]**：訊息開啟的次數，一個設定檔的多個互動未列入考量。
 
@@ -123,6 +123,6 @@ ht-degree: 2%
 
 * **[!UICONTROL 不重複點按]**：在您的應用程式內訊息中點按內容的設定檔數目
 
-* **[!UICONTROL 點按]**：內容在您應用程式內訊息中的點按次數。
+* **[!UICONTROL 點按]**：使用者與應用程式內訊息互動的次數。
 
 +++
