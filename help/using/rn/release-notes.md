@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a014d90c8a6654afcbfbd115db9a805c793cef5
+source-git-commit: 6782fabc6cb268218f55469298758272f887156a
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 76%
+source-wordcount: '1853'
+ht-degree: 73%
 
 ---
 
@@ -45,6 +45,24 @@ ht-degree: 76%
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p>如需詳細資訊，請參閱<a href="../personalization/functions/helpers.md#execution-metadata">詳細文件</a></p>
 <p>推出日期： 2025年10月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>實驗代理程式已推出！</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
+<p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
+<p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
 </tbody>
