@@ -275,6 +275,6 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->您無法將建立頁面[時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 ](#create-landing-page)您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
+>您無法將建立頁面[時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 &#x200B;](#create-landing-page)您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
 
 您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)
