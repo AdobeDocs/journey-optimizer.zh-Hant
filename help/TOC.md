@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
 workflow-type: tm+mt
-source-wordcount: '2981'
+source-wordcount: '2985'
 ht-degree: 98%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -243,6 +243,7 @@ ht-degree: 98%
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
             + [擷取資料](using/orchestrated/ingest-data.md)
          + [建立目標維度](using/orchestrated/target-dimension.md)
+         + [設定頻道設定](using/orchestrated/channel-config.md)
       + 啟動您的首次協調行銷活動 {#launch}
          + [啟動您的首次協調行銷活動](/help/rp_landing_pages/launch-landing-page.md)
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
@@ -769,7 +770,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
