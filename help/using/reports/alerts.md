@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 0%
+source-wordcount: '1650'
+ht-degree: 1%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
    * [歷程自訂動作失敗](#alert-custom-actions)警報
    * [讀取對象觸發器失敗](#alert-read-audiences)警報
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * [超過設定檔捨棄率](#alert-discard-rate)警示
+   * [自訂動作錯誤率超過](#alert-custom-action-error-rate)警報
+   * [設定檔錯誤率超過](#alert-profile-error-rate)警報
 
 * 特定於通道設定的警示：
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 如果發生非預期的行為，和/或您的作業達到特定條件集（例如系統違反臨界值時會發生潛在問題），警示通知會傳送給組織中訂閱這些通知的任何使用者。
 
-您可以從使用者介面個別訂閱每個警示，或是從&#x200B;**[!UICONTROL 警示]**&#x200B;功能表全域訂閱（請參閱[全域訂閱](#global-subscription)）<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+您可以從使用者介面個別訂閱每個警示，或是從&#x200B;**[!UICONTROL 警示]**&#x200B;功能表全域訂閱（請參閱[全域訂閱](#global-subscription)），或是單一訂閱特定歷程（請參閱[單一訂閱](#unitary-subscription)）。
 
 根據訂閱者的偏好設定，警報會透過電子郵件傳送，及/或直接在使用者介面右上角的Journey Optimizer通知中心（應用程式內通知）傳送。 選取您要如何在[!DNL Adobe Experience Cloud] **[!UICONTROL 偏好設定]**&#x200B;中接收這些警示。 [了解更多](../start/user-interface.md#in-product-alerts)
 
@@ -76,25 +76,23 @@ ht-degree: 0%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### 單一訂閱 {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+若要訂閱/取消訂閱特定歷程的警報，請遵循下列步驟：
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. 瀏覽至歷程詳細目錄，並為特定歷程選取&#x200B;**[!UICONTROL 訂閱警示]**&#x200B;選項。
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![訂閱特定歷程的警示](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. 選擇警報。 可以使用下列警示： [超過設定檔捨棄率](#alert-discard-rate)、[超過自訂動作錯誤率](#alert-custom-action-error-rate)以及[超過設定檔錯誤率](#alert-profile-error-rate)。
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. 若要取消訂閱警報，請從相同畫面取消選取警報。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### 超出輪廓捨棄率 {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+如果過去5分鐘內捨棄的設定檔與輸入的設定檔之比超過臨界值，此警報會發出警告。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+按一下警示的名稱以檢查警示詳細資訊和組態。
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### 超出自訂動作錯誤率 {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+如果自訂動作錯誤與過去5分鐘成功HTTP呼叫的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### 超出輪廓錯誤率 {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+如果自訂動作錯誤與過去5分鐘成功HTTP呼叫的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
-Click the name of the alert to check the alert details and configuration.
--->
+按一下警示的名稱以檢查警示詳細資訊和組態。
 
 ## 設定警報 {#configuration-alerts}
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### 定義自訂臨界值 {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+您可以設定[歷程警示](#journey-alerts)的臨界值。 超過預設值的臨界值警報為20%。
 
-To change the threshold:
+若要變更臨界值：
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. 瀏覽至&#x200B;**警示**&#x200B;畫面
+1. 按一下警示的&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕以進行更新
+1. 輸入新臨界值並確認。 新臨界值適用於&#x200B;**所有**&#x200B;歷程
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>所有歷程的臨界值層級都是全域的，不能為每個歷程個別修改。
 
 ### 停用警示
 
