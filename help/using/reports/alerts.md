@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 ### 單一訂閱 {#unitary-subscription}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 1. 瀏覽至歷程詳細目錄，並為特定歷程選取&#x200B;**[!UICONTROL 訂閱警示]**&#x200B;選項。
 
-   ![訂閱特定歷程的警示](assets/subscribe-journey-alert.png){width=80%}
+   ![訂閱特定歷程的警示](assets/subscribe-journey-alert.png){width=75%}
 
 1. 選擇警報。 可以使用下列警示： [超過設定檔捨棄率](#alert-discard-rate)、[超過自訂動作錯誤率](#alert-custom-action-error-rate)以及[超過設定檔錯誤率](#alert-profile-error-rate)。
 
@@ -88,13 +88,30 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
+
+
+以下列出使用者介面中可用的所有歷程通知。
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer特定警示僅適用於&#x200B;**即時**&#x200B;歷程。 在測試模式中，不會為歷程觸發警報。
+
+### 讀取對象觸發器失敗 {#alert-read-audiences}
+
+如果&#x200B;**讀取對象**&#x200B;活動在排定的執行時間後10分鐘未處理任何設定檔，此警報會警告您。 此失敗可能是技術問題或對象空白所造成。 如果失敗是由技術問題引起的，請注意，根據問題型別，重試仍可能發生（例如：如果匯出作業建立失敗，我們將每10mn重試一次，最長為1h）。
+
+![](assets/read-audience-alert.png)
+
+有關&#x200B;**讀取對象**&#x200B;活動的警示僅適用於週期性歷程。 **在即時歷程中讀取對象**&#x200B;活動，其排程為&#x200B;**執行一次**&#x200B;或&#x200B;**儘快**&#x200B;會被忽略。
+
+當設定檔進入&#x200B;**讀取對象**&#x200B;節點時，**讀取對象**&#x200B;上的警示已解決。
+
+與&#x200B;**讀取對象觸發失敗**&#x200B;警示對應的I/O事件訂閱名稱為&#x200B;**歷程讀取對象延遲、失敗和錯誤**。
+
+若要針對&#x200B;**讀取對象**&#x200B;警示進行疑難排解，請在Experience Platform介面中檢查您的對象計數。
 
 
 ### 歷程自訂動作失敗 {#alert-custom-actions}
@@ -103,7 +120,8 @@ ht-degree: 1%
 
 按一下警示的名稱以檢查警示詳細資訊和組態。
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 自訂動作警報會在過去5分鐘內解決：
 
@@ -115,41 +133,21 @@ ht-degree: 1%
 
 若要疑難排解&#x200B;**自訂動作**&#x200B;警示：
 
-* 使用其他歷程上的測試模式檢查您的自訂動作：
+* 在另一個歷程中使用[測試模式](../building-journeys/testing-the-journey.md)檢查您的自訂動作。
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* 檢查您的歷程報告以檢視動作的錯誤原因。
-
-  ![](assets/alert-troubleshooting-3.png)
+* 檢查您的[歷程報告](../reports/journey-live-report.md)，以檢視動作的錯誤原因。
 
 * 檢查您的歷程stepEvents ，以尋找「failureReason」的詳細資訊。
 
-* 檢查您的自訂動作設定，並驗證驗證是否仍然正常。 例如，使用Postman執行手動檢查。
-
-### 讀取對象觸發器失敗 {#alert-read-audiences}
-
-如果&#x200B;**讀取對象**&#x200B;活動在排定的執行時間後10分鐘未處理任何設定檔，此警報會警告您。 此失敗可能是技術問題或對象空白所造成。 如果失敗是由技術問題引起的，請注意，根據問題型別，重試仍可能發生（例如：如果匯出作業建立失敗，我們將每10mn重試一次，最長為1h）。
-
-![](assets/alerts1.png)
-
-有關&#x200B;**讀取對象**&#x200B;活動的警示僅適用於週期性歷程。 **在即時歷程中讀取對象**&#x200B;活動，其排程為&#x200B;**執行一次**&#x200B;或&#x200B;**儘快**&#x200B;會被忽略。
-
-當設定檔進入&#x200B;**讀取對象**&#x200B;節點時，**讀取對象**&#x200B;上的警示已解決。
-
-與&#x200B;**讀取對象觸發失敗**&#x200B;警示對應的I/O事件訂閱名稱為&#x200B;**歷程讀取對象延遲、失敗和錯誤**。
-
-若要針對&#x200B;**讀取對象**&#x200B;警示進行疑難排解，請在Experience Platform介面中檢查您的對象計數。
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* 檢查您的自訂動作設定，並驗證驗證是否仍然有效。 例如，使用Postman執行手動檢查。
 
 ### 超出輪廓捨棄率 {#alert-discard-rate}
 
 如果過去5分鐘內捨棄的設定檔與輸入的設定檔之比超過臨界值，此警報會發出警告。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
 按一下警示的名稱以檢查警示詳細資訊和組態。
+
+![](assets/profile-discard-alert.png)
 
 可以捨棄設定檔有幾個原因，這會通知疑難排解方法。 常見原因如下：
 
@@ -162,7 +160,7 @@ ht-degree: 1%
 
 如果自訂動作錯誤與過去5分鐘成功HTTP呼叫的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
-自訂動作錯誤可能因各種原因而發生。 您可以：
+自訂動作錯誤可能因各種原因而發生。 若要疑難排解這些錯誤，您可以：
 
 * 檢查自訂動作是否已正確設定
 * 檢查端點是否可連線，以及自訂動作是否可透過自訂動作連線檢查器連線
@@ -174,9 +172,11 @@ ht-degree: 1%
 
 按一下警示的名稱以檢查警示詳細資訊和組態。
 
-為避免此問題，您可以查詢步驟事件中的資料，以瞭解設定檔在歷程中失敗的位置和原因。
+若要疑難排解設定檔錯誤，您可以查詢步驟事件中的資料，以瞭解設定檔在歷程中失敗的位置和原因。
 
 ## 設定警報 {#configuration-alerts}
+
+以下列出使用者介面中可用的通道設定監視警示。
 
 ### AJO網域DNS記錄遺失 {#alert-dns-record-missing}
 
@@ -256,7 +256,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
