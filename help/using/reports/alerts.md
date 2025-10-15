@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # 存取及訂閱系統警示 {#alerts}
 
 建立您的歷程與行銷活動時，請使用&#x200B;**警示**&#x200B;按鈕，在執行或發佈錯誤之前檢查並解決錯誤。
-
-
 
 從專用的&#x200B;**[!UICONTROL 警示]**&#x200B;功能表，您也可以訂閱[!DNL Adobe Journey Optimizer]個系統警示，如本頁所詳述。
 
@@ -76,7 +74,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 ### 單一訂閱 {#unitary-subscription}
 
@@ -92,10 +90,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -158,16 +153,30 @@ ht-degree: 1%
 
 按一下警示的名稱以檢查警示詳細資訊和組態。
 
+可以捨棄設定檔有幾個原因，這會通知疑難排解方法。 常見原因如下：
+
+* 因為設定檔已位於單一歷程中，所以在登入時會捨棄設定檔。 若要解決此問題，請確保設定檔有足夠的時間在下一個事件到達該設定檔之前退出歷程。
+* 未針對設定檔設定身分，或讀取對象歷程使用的名稱空間未在該設定檔中使用。 若要解決此問題，請確保歷程中的名稱空間與設定檔使用的身分名稱空間相符。
+* 超過事件輸送率。 若要解決此問題，請確保進入系統的事件不超過這些限制。
+
 
 ### 超出自訂動作錯誤率 {#alert-custom-action-error-rate}
 
 如果自訂動作錯誤與過去5分鐘成功HTTP呼叫的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
+
+自訂動作錯誤可能因各種原因而發生。 您可以：
+
+* 檢查自訂動作是否已正確設定
+* 檢查端點是否可連線，以及自訂動作是否可透過自訂動作連線檢查器連線
+* 驗證驗證認證、檢查網際網路連線能力等。
 
 ### 超出輪廓錯誤率 {#alert-profile-error-rate}
 
 如果自訂動作錯誤與過去5分鐘成功HTTP呼叫的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
 按一下警示的名稱以檢查警示詳細資訊和組態。
+
+為避免此問題，您可以查詢步驟事件中的資料，以瞭解設定檔在歷程中失敗的位置和原因。
 
 ## 設定警報 {#configuration-alerts}
 
@@ -249,7 +258,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -295,7 +304,6 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 若要移除訂閱者，請從目前的訂閱者中刪除其電子郵件地址，然後選取&#x200B;**[!UICONTROL 更新]**。
 
 ## 其他資源 {#additional-resources-alerts}
-
 
 * 在[此頁面](../building-journeys/troubleshooting.md)瞭解如何疑難排解您的歷程。
 * 瞭解如何在[此頁面](../campaigns/review-activate-campaign.md)上檢閱您的行銷活動。
