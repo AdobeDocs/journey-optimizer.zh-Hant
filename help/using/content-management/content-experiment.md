@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1855'
 ht-degree: 6%
 
 ---
@@ -67,6 +67,10 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必為某些量度設定資料集。"
+
+>[!AVAILABILITY]
+>
+>Direct Mail支援Holdout功能，但目前不支援Threads。
 
 對於您的內容實驗，您可以選擇三種型別的實驗：
 
