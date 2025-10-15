@@ -39,7 +39,7 @@ ht-degree: 15%
 
 >[!INFO]
 >
->若要更進一步，請檢視此[總覽](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
+>若要更進一步，請檢視此[總覽](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
 
 ➡️ [在影片中探索此功能](#video)
 
