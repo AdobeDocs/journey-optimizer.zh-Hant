@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
 
-此法規規定所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，皆應可供存取。 因此，在為收件者建立內容時，您必須遵循特定准則，例如使用無障礙字型、可讀格式，以及為影像提供替代文字。
+此法規規定所有數位通訊，包括電子郵件、電子報、PDF和可下載內容，皆應可供存取。 因此，在為收件者建立內容時，您必須遵循特定准則，例如使用無障礙字型、可讀格式以及為影像提供替代文字。
 
 [!DNL Journey Optimizer] [電子郵件Designer](content-from-scratch.md)可讓行銷人員建立&#x200B;**電子郵件**&#x200B;和&#x200B;**登陸頁面**&#x200B;的內容，讓您根據網頁內容可及性指引(WCAG) 2.1 (Level AA)輕鬆遵循此指示。
 

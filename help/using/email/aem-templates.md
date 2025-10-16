@@ -11,9 +11,9 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -23,19 +23,19 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >與Adobe Experience Manager的整合目前僅對特定使用者開放Beta版。
->&#x200B;> 以測試版使用者身分，使用[此表單](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享意見。
+>> 以測試版使用者身分，使用[此表單](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享意見。
 
 透過Adobe Journey Optimizer，您可以透過Adobe Experience Manager網站建立自訂訊息。 首先，使用Adobe Experience Manager的內容來源設計範本，然後傳送至Adobe Journey Optimizer。 共用後，您可在Adobe Journey Optimizer的電子郵件Designer中存取這些範本，以簡化製作及傳送訊息給所需對象的程式。
 
 ## 先決條件 {#prerequisites}
 
-開始使用此功能之前，請確定您已符合下列需求：
+使用此功能之前，請確定您符合下列需求：
 
 * **Experience Manager設定**
 
   此功能適用於[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=zh-Hant){target="_blank"}。
 
-  在Beta版計畫中，Cloud Service設定是由Adobe在Adobe Experience Manager中執行，以連線至Adobe Journey Optimizer。
+  作為Beta版計畫的一部分，Cloud Service設定由Adobe在Adobe Experience Manager中執行，以連線至Adobe Journey Optimizer。
 
 * **權限**
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hant#creating-a-new-page)
+1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 將Journey Optimizer個人化語法合併至範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 1. 在&#x200B;**[!UICONTROL 範本屬性]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕，將自訂或核心資料使用標籤指派給範本。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**&#x200B;** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
+1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
 
    >[!WARNING]
    >
