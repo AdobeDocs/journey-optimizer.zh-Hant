@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 傳回3。
 
-## 計算 Null {#count-with-null}
+## Null計數 {#count-with-null}
 
 `countWithNull`函式用於計算包含null值的清單的所有元素。
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 
 傳回6。
 
-## 相異{#distinct}
+## Distinct{#distinct}
 
 `distinct`函式用於從移除重複值的陣列或清單中取得值。
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Null 的相異計數 {#distinct-count-with-null}
+## Null的相異計數 {#distinct-count-with-null}
 
 `distinctCountWithNull`函式用於計算清單中包括null值的不同值數目。
 
@@ -89,7 +89,7 @@ ht-degree: 9%
 
 傳回3。
 
-## 第一個項目{#head}
+## 第一個專案{#head}
 
 `head`函式用來傳回陣列或清單中的第一個專案。
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 {%= topN(orders,price, 5) %}
 ```
 
-## 位於{#in}
+## 在{#in}
 
 `in`函式是用來判斷專案是陣列或清單的成員。
 
@@ -149,7 +149,7 @@ ht-degree: 9%
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## 包括{#includes}
+## 包含{#includes}
 
 `includes`函式是用來判斷陣列或清單是否包含指定的專案。
 
@@ -252,7 +252,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 
-## 子集: {#subset}
+## 子集：{#subset}
 
 `subsetOf`函式是用來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的子集。 換句話說，陣列A中的所有元素都是陣列B的元素。
 
@@ -270,7 +270,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## 超集: {#superset}
+## 超集{#superset}
 
 `supersetOf`函式是用來判斷特定陣列（陣列A）是否是另一個陣列（陣列B）的超集。 換句話說，該陣列A包含陣列B中的所有元素。
 
@@ -285,5 +285,5 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 下列作業會定義已吃過至少一次壽司和比薩的人。
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

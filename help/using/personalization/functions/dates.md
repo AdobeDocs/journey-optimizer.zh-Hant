@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 13%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 日期和時間函式可用來對Journey Optimizer中的值執行日期和時間作業。
 
-## 增加天數 {#add-days}
+## 新增天數 {#add-days}
 
 `addDays`函式會依指定的天數調整指定日期，使用正值增加值，使用負值減少值。
 
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 +++
 
-## 增加小時數 {#add-hours}
+## 新增小時 {#add-hours}
 
 `addHours`函式會依指定的小時數調整指定日期，使用正值增加值，使用負值減少值。
 
@@ -51,9 +51,9 @@ ht-degree: 13%
 
 +++
 
-## 增加分鐘數 {#add-minutes}
+## 新增分鐘 {#add-minutes}
 
-`addMinutes`函式會以指定的分鐘數調整指定日期，使用正值增加值，使用負值減少值
+`addMinutes`函式會以指定的分鐘數調整指定日期，使用正值增加值，使用負值減少值。
 
 **語法**
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 
 +++
 
-## 增加月數 {#add-months}
+## 新增月份 {#add-months}
 
 `addMonths`函式會依指定的月數調整指定日期，使用正值增加值，使用負值減少值。
 
@@ -85,9 +85,9 @@ ht-degree: 13%
 
 +++
 
-## 增加秒數 {#add-seconds}
+## 新增秒數 {#add-seconds}
 
-`addSeconds`會以指定的秒數來調整指定日期，使用正值來遞增，使用負值來遞減。
+`addSeconds`函式會以指定的秒數來調整指定日期，使用正值來遞增，使用負值來遞減。
 
 **語法**
 
@@ -102,9 +102,9 @@ ht-degree: 13%
 
 +++
 
-## 增加年數 {#add-years}
+## 新增年份 {#add-years}
 
-`addYears`會依指定的年數來調整指定日期，使用正值來遞增，使用負值來遞減。
+`addYears`函式會依指定的年數調整指定日期，使用正值增加值，使用負值減少值。
 
 **語法**
 
@@ -139,7 +139,7 @@ The following operation gets the value of the identity map for the key `example@
 ```
 -->
 
-## 年齡 (以天為單位) {#age-days}
+## 年齡（天） {#age-days}
 
 `ageInDays`函式會以天數計算指定日期的存留期，即指定日期與目前日期之間經過的天數，未來日期為負數，過去日期為正數。
 
@@ -158,7 +158,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30 （亞洲/加爾各答）
 
 +++
 
-## 年齡 (以月為單位) {#age-months}
+## 年齡（月數） {#age-months}
 
 `ageInMonths`函式會以月為單位計算指定日期的年齡，也就是指定日期和目前日期之間經過的月數，未來日期的負數與過去日期的正數。
 
@@ -194,7 +194,7 @@ currentDate = 2025-01-07T12:22:46.993748+05:30（亞洲/加爾各答）
 
 +++
 
-## 轉換分區日期時間 {#convert-zoned-date-time}
+## 轉換ZonedDateTime {#convert-zoned-date-time}
 
 `convertZonedDateTime`函式將日期時間轉換為指定的時區。
 
@@ -211,7 +211,7 @@ currentDate = 2025-01-07T12:22:46.993748+05:30（亞洲/加爾各答）
 
 +++
 
-## 目前時間 (以毫秒為單位){#current-time}
+## 目前時間（以毫秒為單位）{#current-time}
 
 `currentTimeInMillis`函式用於擷取目前時間（以Epoch毫秒為單位）。
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 當月的第幾天 {#day-month}
 
-`dayOfWeek`會傳回代表該月某日的數字。
+`dayOfMonth`會傳回代表該月某日的數字。
 
 **語法**
 
@@ -269,7 +269,7 @@ The following operation gets all the values for the map `identityMap`.
 +++
 
 
-## 星期幾 {#day-week}
+## 星期 {#day-week}
 
 `dayOfWeek`函式用於擷取星期幾。
 
@@ -289,7 +289,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 年中的日{#day-year}
+## 一年當中的日{#day-year}
 
 `dayOfYear`函式用於擷取一年當中的第幾天。
 
@@ -309,7 +309,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 差異 (以秒為單位) {#diff-seconds}
+## 以秒為單位的差異 {#diff-seconds}
 
 `diffInSeconds`函式傳回兩個日期之間的秒數差。
 
@@ -343,7 +343,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 擷取分鐘 {#extract-minutes}
+## 擷取分鐘數 {#extract-minutes}
 
 `extractMinutes`函式會從指定的時間戳記中擷取分鐘元件。
 
@@ -355,7 +355,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++範例
 
-* 輸入： `{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 輸入： `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 輸出： `19`
 
 +++
@@ -377,7 +377,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 擷取秒 {#extract-seconds}
+## 擷取秒數 {#extract-seconds}
 
 `extractSeconds`函式會從指定的時間戳記中擷取第二個元件。
 
@@ -448,7 +448,7 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY", "fr_FR") %}
 ```
 
-## 取得目前分區日期時間 {#get-current-zoned-date-time}
+## 取得CurrentZonedDateTime {#get-current-zoned-date-time}
 
 `getCurrentZonedDateTime`函式傳回目前日期和時間，並附上時區資訊。
 
@@ -465,7 +465,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 小時差 {#hours-difference}
+## 時數差異 {#hours-difference}
 
 `diffInHours`函式傳回兩個日期之間的時數差。
 
@@ -482,7 +482,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 分鐘差{#diff-minutes}
+## 分鐘差異{#diff-minutes}
 
 `diffInMinutes`函式用來傳回兩個日期之間的差異（以分鐘為單位）。
 
@@ -499,7 +499,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 月差 {#months-difference}
+## 月份差異 {#months-difference}
 
 `diffInMonths`函式傳回兩個日期之間的月差。
 
@@ -573,7 +573,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 到 UTC{#to-utc}
+## 到UTC{#to-utc}
 
 `toUTC`函式用於將日期時間轉換為UTC。
 
@@ -593,7 +593,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 截斷至當天的開始 {#truncate-day}
+## 截斷至一天開始 {#truncate-day}
 
 `truncateToStartOfDay`函式是用來修改指定的日期時間，方法是將其設定為當天的開始，而時間設定為00:00。
 
@@ -610,7 +610,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 截斷至季的開始 {#truncate-quarter}
+## truncateToStartOfQuarter {#truncate-quarter}
 
 `truncateToStartOfQuarter`函式用於將日期時間截斷為其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日），截斷時間為00:00。
 
@@ -627,7 +627,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 截斷至週的開始 {#truncate-week}
+## truncateToStartOfWeek {#truncate-week}
 
 `truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一為00:00），以修改指定的日期時間。
 
@@ -639,12 +639,12 @@ The following operation gets all the values for the map `identityMap`.
 
 +++範例
 
-* 輸入： `truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* 輸入： `{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * 輸出： `2024-11-18T00:00Z // monday`
 
 +++
 
-## 截斷至年的開始 {#truncate-year}
+## truncateToStartOfYear {#truncate-year}
 
 `truncateToStartOfYear`函式是用來修改指定的日期時間，方法是將其截斷至一年的第一天（1月1日），網址為00:00。
 
@@ -661,7 +661,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-## 年中的週 {#week-of-year}
+## 一年中的周 {#week-of-year}
 
 `weekOfYear`函式用於擷取該年的周數。
 
@@ -681,7 +681,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 年差 {#diff-years}
+## 年差異 {#diff-years}
 
 `diffInYears`函式是用來傳回兩個日期之間的年差。
 

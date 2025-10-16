@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 27%
+ht-degree: 2%
 
 ---
 
@@ -47,34 +47,34 @@ ht-degree: 27%
         <td><a href="aggregation.md#count">Count</a></td><td>此函式傳回給定陣列中的元素數</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">只計算 Null</a></td><td>此函數計算清單中 null 值的數量。</td>
+        <td><a href="aggregation.md#count-only-null">只計算Null</a></td><td>此函式計算清單中null值的數量。</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-with-null">計算 Null</a></td><td>此函式計算清單的所有元素，包括null值</td>
+        <td><a href="aggregation.md#count-with-null">Null計數</a></td><td>此函式計算清單的所有元素，包括null值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">相異</a></td><td>此函式從已移除重複值的陣列或清單中取得值</td>
+        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>此函式從已移除重複值的陣列或清單中取得值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Null 的相異計數</a></td><td>此函式計算不同值的數量，包括空值</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Null的相異計數</a></td><td>此函式計算不同值的數量，包括空值</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">第一個項目</a></td><td>此函式傳回陣列或清單中的第一個專案</td>
+        <td><a href="arrays-list.md#head">第一個專案</a></td><td>此函式傳回陣列或清單中的第一個專案</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">陣列中的前 n 個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的前「N」個專案</td>
+        <td><a href="arrays-list.md#first-n">陣列中的前n個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的前「N」個專案</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">位於</a></td><td>此函式用於決定專案是陣列或清單的成員</td>
+        <td><a href="arrays-list.md#in">在</a></td><td>此函式用於決定專案是陣列或清單的成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">包括</a></td><td>此函式決定陣列或清單是否包含給定專案</td>
+        <td><a href="arrays-list.md#includes">包含</a></td><td>此函式決定陣列或清單是否包含給定專案</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#intersects">相交</a></td><td>此函式決定兩個陣列或清單是否至少有一個通用成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">陣列中的最後 n 個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的最後「N」個專案</td>
+        <td><a href="arrays-list.md#last-n">陣列中的最後n個</a></td><td>當根據給定的數值運算式依遞增順序排序時，此函式傳回陣列中的最後「N」個專案</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#max">最大值</a></td><td>此函式傳回陣列中所有選取值的最大值</td>
@@ -86,13 +86,13 @@ ht-degree: 27%
         <td><a href="arrays-list.md#notin">不在</a></td><td>此函式決定專案是否不是陣列或清單的成員</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">子集: </a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的子集，亦即，如果陣列A中的所有元素都是陣列B的元素</td>
+        <td><a href="arrays-list.md#subset">子集：</a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的子集，亦即，如果陣列A中的所有元素都是陣列B的元素</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#sum">Sum</a></td><td>此函式傳回陣列中所有選定值的總和</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">超集: </a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的超集，亦即，該陣列A是否包含陣列B中的所有元素</td>
+    <td><a href="arrays-list.md#superset">超集</a></td><td>此函式決定特定陣列（陣列A）是否是另一個陣列（陣列B）的超集，亦即，該陣列A是否包含陣列B中的所有元素</td>
     </tr>
 </table>
 
@@ -100,67 +100,67 @@ ht-degree: 27%
 
 <table>
     <tr>
-        <td><a href="dates.md#add-days">增加天數</a></td><td>此函式會依指定的天數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-days">新增天數</a></td><td>此函式會依指定的天數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-hours">增加小時數</a></td><td>此函式依指定的小時數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-hours">新增小時</a></td><td>此函式依指定的小時數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-minutes">增加分鐘數</a></td><td>此函式以指定的分鐘數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-minutes">新增分鐘</a></td><td>此函式以指定的分鐘數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-months">增加月數</a></td><td>此函式會依指定的月份數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-months">新增月份</a></td><td>此函式會依指定的月份數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-seconds">增加秒數</a></td><td>此函式以指定的秒數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-seconds">新增秒數</a></td><td>此函式以指定的秒數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#add-years">增加年數</a></td><td>此函式依指定的年數調整指定日期，使用正值增加值，使用負值減少值。</td>
+        <td><a href="dates.md#add-years">新增年份</a></td><td>此函式依指定的年數調整指定日期，使用正值增加值，使用負值減少值。</td>
     </tr>
     <tr>
         <td><a href="dates.md#age">年齡</a></td><td>此函式從指定日期擷取年齡。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-days">年齡 (以天為單位)</a></td><td>此函式計算指定日期的年齡（以天為單位），即指定日期與目前日期之間經過的天數、未來日期的負數與過去日期的正數。</td>
+        <td><a href="dates.md#age-days">年齡（天）</a></td><td>此函式計算指定日期的年齡（以天為單位），即指定日期與目前日期之間經過的天數、未來日期的負數與過去日期的正數。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#age-months">年齡 (以月為單位)</a></td><td>此函式計算指定日期的年齡（月數），即指定日期和目前日期之間經過的月數；若為未來日期的負數，則為過去日期的正數。</td>
+        <td><a href="dates.md#age-months">年齡（月數）</a></td><td>此函式計算指定日期的年齡（月數），即指定日期和目前日期之間經過的月數；若為未來日期的負數，則為過去日期的正數。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#compare-dates">比較日期</a></td><td>此函數會將第一個輸入日期與另一個輸入日期進行比較。如果 date1 等於 date2，則傳回 0；如果 date1 在 date2 之前，則傳回 -1；如果 date1 在 date2 之後，則傳回 1。</td>
+        <td><a href="dates.md#compare-dates">比較日期</a></td><td>此函式比較第一個輸入日期與另一個輸入日期。 如果date1等於date2，則傳回0；如果date1在date2之前，則傳回–1；如果date1在date2之後，則傳回1。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#convert-zoned-date-time">轉換分區日期時間</a></td><td>此函式將日期時間轉換為指定時區。</td>
+        <td><a href="dates.md#convert-zoned-date-time">轉換ZonedDateTime</a></td><td>此函式將日期時間轉換為指定時區。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">目前時間 (以毫秒為單位)</a></td><td>此函式以紀元毫秒為單位擷取目前時間。</td>
+        <td><a href="dates.md#current">目前時間（以毫秒為單位）</a></td><td>此函式擷取目前時間（以Epoch毫秒為單位）。</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式擷取兩個日期之間的天數差。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-month">當月的第幾天</a></td><td>此函數會傳回表示當月日次的數字。</td>
+        <td><a href="dates.md#day-month">當月的第幾天</a></td><td>此函式傳回代表該月某日的數字。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">星期幾</a></td><td>此函式擷取星期幾。</td>
+        <td><a href="dates.md#day-week">星期</a></td><td>此函式擷取星期幾。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">年中的日</a></td><td>此函式擷取一年當中的第幾天。</td>
+        <td><a href="dates.md#day-year">一年當中的日</a></td><td>此函式擷取一年當中的第幾天。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-seconds">差異 (以秒為單位)</a></td><td>此函數會傳回兩個日期之間的秒差。</td>
+        <td><a href="dates.md#diff-seconds">以秒為單位的差異</a></td><td>此函式傳回兩個日期之間的秒數差。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-hours">擷取小時</a></td><td>此函數會從給定的時間戳記中擷取小時部分。</td>
+        <td><a href="dates.md#extract-hours">擷取小時</a></td><td>此函式從指定的時間戳記中擷取小時元件。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-minutes">擷取分鐘</a></td><td>此函數會從給定的時間戳記中擷取分鐘部分。</td>
+        <td><a href="dates.md#extract-minutes">擷取分鐘數</a></td><td>此函式從指定的時間戳記中擷取分鐘元件。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-months">擷取月份</a></td><td>此函數會從給定的時間戳記中擷取月份部分。</td>
+        <td><a href="dates.md#extract-months">擷取月份</a></td><td>此函式從指定的時間戳記中擷取month元件。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#extract-seconds">擷取秒</a></td><td>此函數會從給定的時間戳記中擷取秒數部分。</td>
+        <td><a href="dates.md#extract-seconds">擷取秒數</a></td><td>此函式從指定的時間戳記中擷取第二個元件。</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date">格式化日期</a></td><td>此函式格式化日期時間值。</td>
@@ -169,56 +169,55 @@ ht-degree: 27%
         <td><a href="dates.md#format-date-locale">支援地區設定的日期格式</a></td><td>此函式將日期時間值格式化為其對應的語言敏感表示法，亦即所需的地區設定。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#get-current-zoned-date-time">取得目前分區日期時間</a></td><td>此函數會傳回目前日期和時間以及時區資訊。</td>
+        <td><a href="dates.md#get-current-zoned-date-time">取得CurrentZonedDateTime</a></td><td>此函式傳回目前日期和時間，並附上時區資訊。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#hours-difference">小時差</a></td><td>此函式以時數傳回兩個日期之間的差值。</td>
+        <td><a href="dates.md#hours-difference">時數差異</a></td><td>此函式以時數傳回兩個日期之間的差值。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-minutes">分鐘差</a></td><td>此函式傳回兩個日期之間的分鐘數差。</td>
+        <td><a href="dates.md#diff-minutes">分鐘差異</a></td><td>此函式傳回兩個日期之間的分鐘數差。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#months-difference">月差</a></td><td>此函式傳回兩個日期之間的月差。</td>
+        <td><a href="dates.md#months-difference">月份差異</a></td><td>此函式傳回兩個日期之間的月差。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">設定天數</a></td><td>此函數為給定的日期時間設定月份日期。</td>
+        <td><a href="dates.md#set-days">設定天數</a></td><td>此函式為給定的日期時間設定月份日期。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">設定時數</a></td><td>此函數設定日期時間的小時。</td>
+        <td><a href="dates.md#set-hours">設定小時</a></td><td>此函式設定日期時間的小時。</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-date-time">至日期時間</a></td><td>此函式將字串轉換為日期。 針對無效輸入會傳回epoch日期作為輸出。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">到 UTC</a></td><td>此函數將日期時間轉換為 UTC。</td>
+        <td><a href="dates.md#to-utc">到UTC</a></td><td>此函式將日期時間轉換為UTC。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-day">截斷至當天的開始</a></td><td>此函數會透過將給定日期時間設定為當天的開始並將時間設定為 00:00 來修改該日期時間。</td>
+        <td><a href="dates.md#truncate-day">截斷至一天開始</a></td><td>此函式將指定日期時間設為00:00，藉此修改日期時間。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-quarter">截斷至季的開始</a></td><td>此函式在00:00將日期時間截斷為其季度的第一天（例如1月1日、4月1日、7月1日、10月1日）。
+        <td><a href="dates.md#truncate-quarter">truncateToStartOfQuarter</a></td><td>此函式在00:00將日期時間截斷為其季度的第一天（例如1月1日、4月1日、7月1日、10月1日）。
 </td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-week">截斷至週的開始</a></td><td>此函數會透過將給定日期時間設定為當週的開始 (星期一的 00:00) 來修改該日期時間。</td>
+        <td><a href="dates.md#truncate-week">truncateToStartOfWeek</a></td><td>此函式將指定日期時間設定為一週的開始（星期一的00:00），以修改日期時間。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#truncate-year">截斷至年的開始</a></td><td>此函數會透過將給定日期時間截斷至該年第一天 (1 月 1 日) 的 00:00 來修改該日期時間。</td>
+        <td><a href="dates.md#truncate-year">truncateToStartOfYear</a></td><td>此函式在00:00將指定日期時間截斷為一年的第一天（1月1日），以修改日期時間。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">年中的週</a></td><td>此函式傳回年中的周數</td>
+        <td><a href="dates.md#week-of-year">一年中的周</a></td><td>此函式傳回年中的周數</td>
     </tr>
     <tr>
-        <td><a href="dates.md#diff-years">年差</a></td><td>此函式傳回兩個日期之間的年數差異。</td>
+        <td><a href="dates.md#diff-years">年差異</a></td><td>此函式傳回兩個日期之間的年數差異。</td>
     </tr>
-</table>
 </table>
 
-### 對應函數 {#map-functions}
+### 對應函式 {#map-functions}
 
 <table>
     <tr>
-        <td><a href="maps.md#get">取得</a></td><td>此函式用於擷取給定索引鍵的對應值</td>
+        <td><a href="maps.md#get">Get</a></td><td>此函式用於擷取給定索引鍵的對應值</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">索引鍵</a></td><td>此函式用於擷取給定對應的所有索引鍵</td>
@@ -228,7 +227,7 @@ ht-degree: 27%
     </tr>
 </table>
 
-### 數學函數 {#math-functions}
+### 數學函式 {#math-functions}
 
 <table>
     <tr>
@@ -238,10 +237,10 @@ ht-degree: 27%
         <td><a href="math.md#format-number">格式化數字</a></td><td>此函式將任何數字格式化為區分語言的表示法。</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">隨機</a></td><td>此函數傳回 0 到 1 之間的隨機值</td>
+        <td><a href="math.md#random">隨機</a></td><td>此函式傳回0到1之間的隨機值</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">向下四捨五入</a></td><td>此函數對數字進行向下四捨五入</td>
+        <td><a href="math.md#round-down">向下四捨五入</a></td><td>此函式對數字進行向下四捨五入</td>
     </tr>
     <tr>
         <td><a href="math.md#round-up">向上四捨五入</a></td><td>此函式對數字進行向上四捨五入</td>
@@ -253,28 +252,28 @@ ht-degree: 27%
     <td><a href="math.md#to-int">ToInt</a></td><td>將這些型別（數字、雙精度浮點數、整數、長整數、浮點數、短整數、位元組、布林值、字串）轉換成整數。</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-percentage">至百分比</a></td><td>此函數將數字轉換為百分比</td>
+        <td><a href="math.md#to-percentage">至百分比</a></td><td>此函式將數字轉換為百分比</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-precision">至精確度</a></td><td>此函數將數字轉換為所需的精確度</td>
+        <td><a href="math.md#to-precision">至精確度</a></td><td>此函式將數字轉換為所需的精確度</td>
     </tr>
     <tr>
         <td><a href="math.md#to-string">至字串</a></td><td>此函式將任何數字轉換為其字串表示。 </td>
     </tr>
 </table>
 
-### 物件函數 {#object-functions}
+### 物件函式 {#object-functions}
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">不是 Null</a></td><td>此函式用於決定物件參考是否存在</td>
+        <td><a href="objects.md#isNotNull">不是Null</a></td><td>此函式用於決定物件參考是否存在</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">是 Null</a></td><td>此函式用於決定物件參考是否不存在</td>
+        <td><a href="objects.md#isNull">為空</a></td><td>此函式用於決定物件參考是否不存在</td>
     </tr>
 </table>
 
-### 字串函數 {#string-functions}
+### 字串函式 {#string-functions}
 
 <table>
     <tr>
@@ -309,7 +308,7 @@ ht-degree: 27%
         <td><a href="string.md#equals">等於</a></td><td>此函式用於決定字串的開頭是否不是指定的子字串，須區分大小寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">等於忽略大小寫</a></td><td>此函式用於決定字串是否不以指定的子字串開頭，不區分大小寫</td>
+        <td><a href="string.md#equalsIgnoreCase">等於（忽略大小寫）</a></td><td>此函式用於決定字串是否不以指定的子字串開頭，不區分大小寫</td>
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">擷取電子郵件網域</a></td><td>此函式用於擷取電子郵件地址的網域</td>
@@ -318,25 +317,25 @@ ht-degree: 27%
         <td><a href="string.md#format-currency">格式化貨幣</a></td><td>此函式根據在第二個引數中作為字串傳遞的區域設定，將任何數字轉換為其對應的語言敏感型貨幣表示</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-host">取得 url 主機</a></td><td>此函數用於取得 URL 主機。</td>
+        <td><a href="string.md#get-url-host">取得url主機</a></td><td>此函式用於取得url主機。</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-path">取得 url 路徑</a></td><td>此函式用於取得url路徑</td>
+        <td><a href="string.md#get-url-path">取得url路徑</a></td><td>此函式用於取得url路徑</td>
     </tr>
     <tr>
-        <td><a href="string.md#get-url-protocol">取得 url 通訊協定</a></td><td>此函式用於取得url通訊協定</td>
+        <td><a href="string.md#get-url-protocol">取得url通訊協定</a></td><td>此函式用於取得url通訊協定</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">索引: </a></td><td>此函式傳回第二個引數在第一個引數中第一次出現的位置。如果沒有相符專案，則傳回–1</td>
+        <td><a href="string.md#index-of">索引：</a></td><td>此函式傳回第二個引數在第一個引數中第一次出現的位置。 如果沒有相符專案，則傳回–1</td>
     </tr>
     <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>此函式用於檢查字串或運算式是否為空。</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果參數中的字串不為空，則此函數傳回 true。</td>
+        <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果引數中的字串不是空的，此函式傳回true。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">最後索引: </a></td><td>此函數傳回第二個引數最後一次出現的位置 (在第一個引數中)。如果沒有相符項目，則傳回 -1。</td>
+        <td><a href="string.md#last-index-of">最後索引：</a></td><td>此函式傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">左側修剪</a></td><td>此函式移除字串開頭的空格</td>
@@ -351,19 +350,19 @@ ht-degree: 27%
         <td><a href="string.md#lower">小寫</a></td><td>此函式將字串轉換為小寫字母</td>
     </tr>
     <tr>
-        <td><a href="string.md#mask">遮罩</a></td><td>此函式用來以「X」字元取代字串的一部分。</td>
+        <td><a href="string.md#mask">遮色片</a></td><td>此函式用來以「X」字元取代字串的一部分。</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">符合</a></td><td>此函數用於決定字串是否符合特定的規則運算式</td>
+        <td><a href="string.md#matches">符合</a></td><td>此函式用於決定字串是否符合特定的規則運算式</td>
     </tr>
     <tr>
-        <td><a href="string.md#md5">MD5</a></td><td>此函數傳回輸入字串的 md5 雜湊。</td>
+        <td><a href="string.md#md5">MD5</a></td><td>此函式傳回輸入字串的md5雜湊。</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">不等於</a></td><td>此函式用於決定字串是否不等於指定的字串</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">不等於，忽略大小寫</a></td><td>此函數比較兩個字串，忽略大小寫。</td>
+        <td><a href="string.md#not-equal-with-ignore-case">不等於，忽略大小寫</a></td><td>此函式比較兩個字串，忽略大小寫。</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">規則運算式群組</a></td><td>此函式用於根據提供的規則運算式擷取特定資訊</td>
@@ -390,22 +389,22 @@ ht-degree: 27%
         <td><a href="string.md#string-to-date">字串至日期</a></td><td>此函式將字串值轉換為日期時間值</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-integer">字串至整數</a></td><td>此函數會將字串值轉換為整數值。</td>
+        <td><a href="string.md#string-to-integer">字串至整數</a></td><td>此函式將字串值轉換為整數值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">字串至數字</a></td><td>此函數用於將字串轉換為數字。針對無效輸入會傳回相同字串作為輸出。</td>
+        <td><a href="string.md#string-to-number">字串至數字</a></td><td>此函式用於將字串轉換為數字。 對於無效的輸入，它會傳回相同字串作為輸出。</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">子字串</a></td><td>此函數傳回開始索引和結束索引之間的字串運算式的子字串。</td>
+        <td><a href="string.md#sub-string">子字串</a></td><td>此函式傳回開始索引和結束索引之間的字串運算式的子字串。</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">字首大寫</a></td><td>此函式用於將字串中每個字詞的首字母大寫</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">至 Bool</a></td><td>此函數根據其類型將引數值轉換為布林值。</td>
+        <td><a href="string.md#to-bool">至Bool</a></td><td>此函式根據其型別將引數值轉換為布林值。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">至日期時間</a></td><td>此函數用於將字串轉換為日期。針對無效輸入會傳回 epoch 日期作為輸出。</td>
+        <td><a href="string.md#to-date-time">至日期時間</a></td><td>此函式用於將字串轉換為日期。 針對無效輸入會傳回epoch日期作為輸出。</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">僅至日期時間</a></td><td>此函式將引數值轉換為僅日期時間值。 針對無效輸入會傳回epoch日期作為輸出。</td>
@@ -417,10 +416,10 @@ ht-degree: 27%
         <td><a href="string.md#upper">大寫</a></td><td>此函式將字串轉換為大寫字母</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">Url 解碼</a></td><td>此函數用於解碼 URL 編碼的字串。</td>
+        <td><a href="string.md#url-decode">Url解碼</a></td><td>此函式用於解碼url編碼的字串。</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-encode">Url 編碼</a></td><td>此函數用於對字串進行 URL 編碼。</td>
+        <td><a href="string.md#url-encode">Url編碼</a></td><td>此函式用於對字串進行url編碼。</td>
     </tr>
 </table>
 
@@ -435,7 +434,7 @@ ht-degree: 27%
         <td><a href="helpers.md#default">預設遞補值</a></td><td>此函式用於呈現具有預設值的變數</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Each</a></td><td>此函式用於反複處理陣列</td>
+        <td><a href="helpers.md#each">每個</a></td><td>此函式用於反複處理陣列</td>
     </tr>
     <tr>
         <td><a href="helpers.md#execution-metadata">執行中繼資料</a></td><td>此協助程式會在訊息呈現期間擷取自訂索引鍵值中繼資料，以便將其儲存在執行階段執行中繼資料物件中</td>
@@ -450,7 +449,7 @@ ht-degree: 27%
         <td><a href="helpers.md#unless">Unless</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回false，則會轉譯區塊</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">With</a></td><td>此函式用於變更範本部分的評估權杖</td>
+        <td><a href="helpers.md#with">替換為</a></td><td>此函式用於變更範本部分的評估權杖</td>
     </tr>
 </table>
 

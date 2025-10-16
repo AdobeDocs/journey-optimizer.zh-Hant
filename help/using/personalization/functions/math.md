@@ -6,20 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '244'
+ht-degree: 6%
 
 ---
 
-# 數學函數 {#math}
+# 數學函式 {#math}
 
 瞭解如何在個人化編輯器中使用數學函式。
 
 ## 絕對 {#absolute}
 
-`absolute`函式可用來轉換絕對值的數字。
+`absolute`函式用於將數字轉換為其絕對值。
 
 **語法**
 
@@ -71,7 +71,7 @@ ht-degree: 11%
 
 ## 向上四捨五入 {#round-up}
 
-`Count only null`函式用於向上四捨五入數字。
+`roundUp`函式用來將數字四捨五入。
 
 **語法**
 
@@ -97,7 +97,7 @@ ht-degree: 11%
 {%= toHexString(158) %}
 ```
 
-## 至整數 {#to-int}
+## 到Int {#to-int}
 
 `toInt`函式可用來將任何這些型別（數字、雙精度浮點數、整數、長整數、浮點數、短整數、位元組、布林值、字串）轉換成整數。
 
@@ -109,7 +109,7 @@ ht-degree: 11%
 
 **範例**
 
-此查詢傳回42,6的整數值，即42。
+此查詢傳回42.6的整數值，亦即42。
 
 ```sql
 {%= toInt(42.6) %}: integer
