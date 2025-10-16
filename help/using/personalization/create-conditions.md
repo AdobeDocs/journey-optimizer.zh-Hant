@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 1. 根據您的需求建置條件式規則。 若要這麼做，請從左側選單拖放並排列所需的屬性至畫布中。
 
-   將屬性合併至畫布的步驟與區段建立體驗類似。 如需如何使用規則產生器畫布的詳細資訊，請參閱[本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#rule-builder-canvas)。
+   將屬性合併至畫布的步驟與區段建立體驗類似。 如需如何使用規則產生器畫布的詳細資訊，請參閱[本檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas)。
 
    ![](assets/conditions-create.png)
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 ## 儲存條件規則 {#save}
 
-如果存在您將會經常重複使用的條件規則，您可以將其儲存到條件程式庫。 所有已儲存的規則都會共用，並可由組織內的個人存取及使用。
+如果有您經常重複使用的條件規則，您可以將其儲存至條件程式庫。 所有已儲存的規則都會共用，並可由組織內的個人存取及使用。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 8%
 
 1. 在條件版本畫面中，按一下&#x200B;**[!UICONTROL 儲存條件]**&#x200B;按鈕。
 
-1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。**&#x200B;**
+1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。****
 
    ![](assets/conditions-name-description.png)
 

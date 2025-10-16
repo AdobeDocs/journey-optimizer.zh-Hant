@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
      >[!NOTE]
      >
-     >為此欄位輸入的值可以是欄位識別碼(*profile.packages.packageSKU*)、在歷程事件中傳遞的欄位(*context.journey.events.event_ID.productSKU*)，或是靜態值(*sku007653*)。 無論如何，系統都會使用值，並在資料集中查詢，以檢查它是否符合索引鍵。
+     >為此欄位輸入的值可以是欄位識別碼(`profile.packages.packageSKU`)、在歷程事件中傳遞的欄位(`context.journey.events.event_ID.productSKU`)或靜態值(`sku007653`)。 無論如何，系統都會使用值，並在資料集中查詢，以檢查它是否符合索引鍵。
      >
      >如果索引鍵使用常值字串值，請將文字放在引號中。 例如： `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`。 如果使用屬性值做為動態索引鍵，請移除引號。 例如： `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -56,7 +56,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -84,12 +84,12 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
    >
    >可使用協助程式函式提取的欄位數沒有硬性限制。 但是，為獲得最佳效能，建議將欄位數保持在50以下，以避免影響輸送量。
 
-   * **result**&#x200B;是您已指派給&#x200B;**MultiEntity**&#x200B;協助程式函式中&#x200B;**result**&#x200B;引數的值。 在此範例中，「飛行」。
+   * **result**&#x200B;是您已指派給&#x200B;**datasetLookup**&#x200B;協助程式函式中&#x200B;**result**&#x200B;引數的值。 在此範例中，為「flight」。
    * **fieldID**&#x200B;是您要擷取的欄位識別碼。 瀏覽與您的資料集相關的記錄結構描述時，[!DNL Adobe Experience Platform]使用者介面中會顯示此ID：
 
      +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 

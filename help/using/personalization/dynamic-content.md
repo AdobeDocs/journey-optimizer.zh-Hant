@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立動態內容
-description: 瞭解如何將動態新增至您的訊息。
+description: 瞭解如何將動態內容新增至您的訊息。
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '654'
 ht-degree: 14%
 
 ---
@@ -79,7 +79,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-select.png)
 
-   您也可以按一下[新建] **&#x200B;**&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
+   您也可以按一下[新建] ****&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
 
 1. 條件式規則會與變體相關聯。 若要提高可讀性，請從[更多動作]圖示中選取&#x200B;**[!UICONTROL 重新命名]**&#x200B;動作，以重新命名變體。
 
