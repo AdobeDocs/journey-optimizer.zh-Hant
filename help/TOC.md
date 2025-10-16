@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [歷程中的即時報告](using/building-journeys/report-journey.md)
    + 管理您的歷程 {#manage-journey}
       + [管理您的歷程](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
       + [瀏覽及篩選您的歷程](using/building-journeys/journey-ui.md)
       + [歷程中的設定檔入口](using/building-journeys/entry-management.md)
       + [在歷程中使用補充識別碼](using/building-journeys/supplemental-identifier.md)
+      + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
       + [時區管理](using/building-journeys/timezone-management.md)
       + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
       + [結束您的歷程](using/building-journeys/end-journey.md)
@@ -155,7 +155,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -771,7 +771,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
