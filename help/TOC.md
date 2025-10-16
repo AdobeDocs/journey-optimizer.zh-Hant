@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 98%
 + 歷程 {#orchestrate-journeys}
    + [歷程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [開始使用歷程](using/building-journeys/journey.md)
+   + [Journeys常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
@@ -155,7 +156,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -771,7 +772,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

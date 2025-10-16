@@ -10,10 +10,9 @@ level: Intermediate, Experienced
 keywords: 歷程，步驟事件，分析，報告，監控， XDM
 hide: true
 hidefromtoc: true
-exl-id: 9f8e7d6c-5b4a-3928-1756-849302a11c2b
-source-git-commit: 17ea20a6b16965775bda98d7db1f12e28b037aaf
+source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -165,7 +164,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 - 結合歷程步驟事件與[訊息回饋資料](../data/datasets-query-examples.md#message-feedback-event-dataset)以進行完整歸因
 - 使用時間型分析來瞭解歷程速度和瓶頸
-- 建立同類群組分析以比較不同的[歷程變數](../building-journeys/testing-the-journey.md)
 
 ### 進階分析功能 {#advanced-analytics}
 
@@ -177,13 +175,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - 歷程結果的預測性分析
 
 瞭解如何[設定Journey Optimizer資料的Customer Journey Analytics](report-gs-cja.md)。
-
-**即時決策**
-使用歷程步驟事件模式來：
-
-- 觸發即時[個人化](../personalization/personalize.md)
-- 實作[動態歷程最佳化](../building-journeys/optimize.md)
-- 透過[決定管理](../offers/get-started/starting-offer-decisioning.md)啟用內容相關的下一個最佳動作建議
 
 ## 其他資源 {#additional-resources}
 
@@ -199,7 +190,6 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 - **[資料管理](../data/export-datasets.md)**：匯出和管理歷程資料
 - **[隱私權與治理](../privacy/audit-logs.md)**：歷程事件的資料治理考量事項
 
-歷程步驟事件構成Adobe Journey Optimizer中進階歷程分析的基礎。 透過有效瞭解並利用這些活動，您可以深入瞭解客戶行為、[最佳化歷程績效](../building-journeys/optimize.md)，並為您的客戶建立更多[個人化體驗](../personalization/personalize.md)。
 
 **後續步驟：**
 
