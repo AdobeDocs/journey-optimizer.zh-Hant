@@ -50,7 +50,7 @@ ht-degree: 95%
 
 1. **設定訊息和管道**：定義設定、調整和自訂電子郵件、簡訊和推播訊息設定
 
-   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../push/push-gs.md)
+   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**&#x200B;[了解更多](../../push/push-gs.md)
 
    * 建立&#x200B;**管道設定** (即訊息預設集)，以設定電子郵件、簡訊和推播通知所需的所有技術參數。[了解更多](../../configuration/channel-surfaces.md)
 
@@ -74,4 +74,4 @@ ht-degree: 95%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
+   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
