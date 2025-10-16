@@ -9,7 +9,7 @@ level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -113,7 +113,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* 當&#x200B;**all()**&#x200B;函式中的篩選條件為空白時，篩選器會傳回清單中的所有元素。 **不過，若要計算集合的元素數，不需要all函式。
+>* 當&#x200B;**all()**&#x200B;函式中的篩選條件為空白時，篩選器會傳回清單中的所有元素。 **但是，若要計算集合的元素數目，不需要all函式。**
 >
 >* `currentEventField`僅適用於操控事件集合、`currentDataPackField`適用於操控資料來源集合，以及`currentActionField`適用於操控自訂動作回應集合。
 >
@@ -152,7 +152,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函式
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
@@ -163,7 +163,7 @@ _`<listExpression>`.at(`<index>`)_
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 結果為`token_2`。

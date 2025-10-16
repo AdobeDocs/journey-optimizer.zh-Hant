@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: 運算式、條件、使用案例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 **此運算式會尋找此使用者在過去7天中指定的所有事件：**
 
-接著，系統會選取所有未轉換為completePurchase的購物車事件。
+接著，它會選取所有未轉換為completePurchase的加入購物車事件。
 
 >[!NOTE]
 >

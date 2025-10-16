@@ -9,7 +9,7 @@ level: Experienced
 keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 5%
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * 下列範例是正確的： `3.0 * 4.0`
    * `3 * 4.0`將導致錯誤
 
-* 使用`+`運運算元時，運算式必須封裝在括弧之間。 範例：
+* 使用`+`運運算元時，運算式必須封裝在括弧中。 範例：
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
 
