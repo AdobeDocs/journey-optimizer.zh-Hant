@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 ### 單一訂閱 {#unitary-subscription}
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -256,11 +256,11 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後，您可以為這些警示定義[自訂閾值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
-#### 定義自訂臨界值 {#custom-threshold}
+### 定義自訂臨界值 {#custom-threshold}
 
 您可以設定[歷程警示](#journey-alerts)的臨界值。 超過預設值的臨界值警報為20%。
 

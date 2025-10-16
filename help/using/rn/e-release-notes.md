@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 42%
 
 ---
 
@@ -29,40 +29,7 @@ ht-degree: 29%
 
 ### 全新功能 {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程中的直接郵件頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>直接郵件頻道現在可用於歷程畫布，讓您在歷程中合併直接郵件，以前僅限於行銷活動。 直接郵件現在可用於批次和1:1歷程情境，並支援檔案擷取設定和時間型頻率設定。</p>
-<p> 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>用於擷取動作行銷活動的新API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>現已提供新的Journey Optimizer API，可讓您以程式設計方式擷取及檢查行銷活動相關資料，例如詳細資訊、版本和設定。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ ht-degree: 29%
 <tr>
 <td>
 <p>現在，直接郵件頻道可用於協調的行銷活動。 直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的直接郵件頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>直接郵件頻道現在可用於歷程畫布，讓您在歷程中合併直接郵件，以前僅限於行銷活動。 直接郵件現在可用於批次和1:1歷程情境，並支援檔案擷取設定和時間型頻率設定。</p>
+<p> 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>用於擷取動作行銷活動的新API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現已提供新的Journey Optimizer API，可讓您以程式設計方式擷取及檢查行銷活動相關資料，例如詳細資訊、版本和設定。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ ht-degree: 29%
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>新的執行中繼資料協助程式函式</strong><br/></th>
+<th><strong>執行中繼資料協助程式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>個人化編輯器中提供新的executionMetadata協助程式功能。 它可讓您將內容相關資訊附加至任何原生動作，並將其擷取至資料集，以匯出至外部系統。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>個人化編輯器中提供新的「executionMetadata」協助程式功能。 它可讓您將內容相關資訊附加至任何原生動作，並將其擷取至資料集，以匯出至外部系統。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/functions/helpers.md#execution-metadata">詳細文件</a></p>
 <p>推出日期： 2025年10月13日</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ ht-degree: 29%
 <table>
 <thead>
 <tr>
-<th><strong>實驗代理</strong><br/></th>
+<th><strong>實驗代理程式已推出！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 Experimentation Agent以Adobe Experience Platform AI平台和實驗工具為基礎，可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些方法可行、哪些方法不可行，以及下一步在哪裡實驗。</p>
-<p>在新的Experimentation Accelerator功能中，代理程式提供：</p>
+<p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
+<p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
+<p>推出日期： 2025年10月10日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件的 PDF 附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以對透過 Journey Optimizer 傳送的電子郵件訊息附加靜態 PDF 檔案。</p>
 <ul>
-<li><strong>效能：</strong>實驗中所發生情況的清楚檢視</li>
-<li><strong>深入分析：</strong>結果發生原因的說明</li>
-<li><strong>機會：</strong>後續要採取的動作指南</li>
+<li>您每年最多可以為每個設定檔傳送 6 封含有 PDF 附件的訊息。</li>
+<li>每個附件允許的大小上限為 5 MB。</li>
+<li>如需其他大小或流量，您可以購買 PDF 附件附加元件。如需詳細資訊，請聯絡您的 Adobe 代表。</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>推出日期： 2025年10月9日</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../email/pdf-attachments.md">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 30 日</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ ht-degree: 29%
 <tr>
 <td>
 <p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>推出日期： 2025年9月25日</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 25 日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### 改善
 
-- **行銷活動， Experience Decisioning，歷程**
-   - **在目標定位中選取可重複使用的規則** — 現在，您可以在歷程及行銷活動中結合訊息最佳化功能使用目標定位規則時，運用規則產生器。<!-- [Read more](../FILE.md) -->
+**在鎖定目標中選取可重複使用的規則**
 
-- **頻道 — WhatsApp**
-   - **WhatsApp通道的執行欄位** — 除了電子郵件和簡訊之外，現在還可以更新WhatsApp預設執行欄位。 您也可以覆寫WhatsApp歷程活動進階引數或WhatsApp頻道設定中的執行欄位全域設定。<!-- [Read more](../FILE.md) -->
+現在，您可以在歷程及行銷活動中搭配使用目標定位規則與訊息最佳化功能時，運用規則產生器。<!-- [Read more](../FILE.md) -->
 
-- **權限**
-   - **Journey/Campaign建立者不應能夠核准** — 新增建立或設定核准原則時的選項，以防止Journey/Campaign建立者核准自己的物件。<!-- [Read more](../FILE.md) -->
+WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
-- **管道 - 推播**
-   - **行動上線活動 — 私人測試版** — 上線活動會在行動應用程式中提供即時更新和互動式體驗，讓使用者直接在裝置熒幕上掌握進行中事件或工作的最新資訊。 此功能可透過提供即時資訊（例如進度追蹤、事件更新或互動式內容）來增強參與度，而不需要使用者開啟應用程式。<!-- [Read more](../FILE.md) -->
+除了電子郵件和簡訊之外，現在也可以更新WhatsApp預設執行欄位。 您也可以覆寫WhatsApp歷程活動進階引數或WhatsApp頻道設定中的執行欄位全域設定。<!-- [Read more](../FILE.md) -->
 
-- **歷程**
-   - **新歷程警示** — 推出日期： 2025年10月14日
-新的預先設定警示可供歷程使用：超過的設定檔捨棄率（過去5分鐘超過臨界值的設定檔捨棄與輸入設定檔的比率）、超過的自訂動作錯誤率（過去5分鐘超過臨界值的自訂動作錯誤與成功HTTP呼叫的比率）、超過的設定檔錯誤率（過去5分鐘超過臨界值的設定檔錯誤與輸入設定檔的比率）。<!-- [Read more](../FILE.md) -->
+**權限**
 
-- **設定**
-   - **一鍵取消訂閱URL的自訂屬性支援** — 推出日期： 2025年10月6日
-透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。 若要進一步個人化您的取消訂閱電子郵件地址，您現在可以定義將要附加至同意事件的自訂屬性。此功能自2025年8月起已可用於自訂的一鍵取消訂閱URL，現在已針對「有限可用性」中的Mailto （取消訂閱）選項發行。 請聯絡您的Adobe代表以取得存取權。<!-- [Read more](../FILE.md) -->
+**新歷程警示**
 
-- **管道 - 電子郵件**
-   - **電子郵件的PDF附件** — 推出日期： 2025年9月30日
-您現在可以將靜態PDF檔案附加至隨Journey Optimizer傳送的電子郵件訊息。 您每年最多可以傳送6則含有PDF附件的郵件。 每個附件的允許檔案大小上限為5 MB。 如需任何額外大小或容量，您可以購買PDF附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。
+新的預先設定警示可用於歷程： [超過的設定檔捨棄率](../reports/alerts.md#alert-discard-rate) （超過臨界值的過去5分鐘捨棄設定檔與輸入設定檔的比率）、[超過的自訂動作錯誤率](../reports/alerts.md#alert-custom-action-error-rate) （超過臨界值的自訂動作錯誤與成功HTTP呼叫的比率）以及[超過的設定檔錯誤率](../reports/alerts.md#alert-profile-error-rate) （超過臨界值的過去5分鐘錯誤設定檔與輸入設定檔的比率）。 您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。
 
-  >[!AVAILABILITY]
-  >
-  >先前以「有限可用性」發佈，該改進現在可供所有環境使用（一般可用性）。
+推出日期：2025 年 10 月 14 日
 
-  <!-- [Read more](../FILE.md) -->
+Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
+透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，藉此設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
+
+若要進一步個人化您的自訂端點，您現在可以定義將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>此功能自2025年8月起已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，現在已針對「有限可用性」中的&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項發行。 請聯絡您的 Adobe 代表以取得存取權。
+
+推出日期： 2025年10月6日
