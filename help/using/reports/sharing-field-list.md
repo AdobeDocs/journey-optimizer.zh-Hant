@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 10%
@@ -70,7 +70,7 @@ ht-degree: 10%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
@@ -83,25 +83,25 @@ ht-degree: 10%
 
 以下是最常捨棄`eventTypes`的定義、常見原因和疑難排解步驟：
 
-* EXTERNAL_KEY_COMPUTATION_ERROR：系統無法從事件資料計算客戶的唯一識別碼（外部索引鍵）。
+* **EXTERNAL_KEY_COMPUTATION_ERROR**：系統無法從事件資料計算客戶的唯一識別碼（外部索引鍵）。
 
   **常見原因**：事件承載中遺失客戶識別碼（例如電子郵件、客戶ID）或格式錯誤。
 
   **疑難排解**：檢查必要識別碼的事件設定，確保事件資料完整且格式正確。
 
-* NO_INTEREST_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT：已收到區段資格事件，但沒有設定要回應此區段的歷程。
+* **NO_INTEREST_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT**：已收到區段資格事件，但沒有設定要回應此區段的歷程。
 
   **常見原因**：沒有任何歷程使用區段作為觸發器、歷程處於草稿/已停止狀態，或區段ID不相符。
 
   **疑難排解**：確認至少有一個歷程為即時狀態且已針對區段進行設定，驗證區段ID。
 
-* JOURNEY_INSTANCE_ID_NOT_CREATE：系統無法為客戶建立歷程執行個體。
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**：系統無法為客戶建立歷程執行個體。
 
   **常見原因**：重複的事件、大量事件、系統資源限制。
 
   **疑難排解**：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、若持續發生，請聯絡支援人員。
 
-* EVENT_WITH_NO_JOURNEY：已收到事件，但未設定作用中歷程來回應
+* **EVENT_WITH_NO_JOURNEY**：已收到事件，但未設定使用中歷程來回應
 
   **常見原因**：事件名稱/ID不相符、歷程未發佈、錯誤的沙箱/組織、測試模式/設定檔不相符。
 
