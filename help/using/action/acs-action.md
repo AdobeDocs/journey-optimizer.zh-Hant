@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: 行銷活動，標準，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -58,7 +58,7 @@ ht-degree: 3%
    >
    >* URL以https開頭
    >
-   >* 與此Adobe Campaign Standard執行個體關聯的組織與Journey Optimizer的OrganizationRG相同
+   >* 與此Adobe Campaign Standard例項相關聯的組織與Journey Optimizer組織相同
 
 完成此設定後，在設計歷程時，**[!UICONTROL 動作]**&#x200B;類別中有三個動作可用： **[!UICONTROL 電子郵件]**、**[!UICONTROL 推播]**、**[!UICONTROL 簡訊]**。 [瞭解如何使用它們](../building-journeys/using-adobe-campaign-standard.md)。
 

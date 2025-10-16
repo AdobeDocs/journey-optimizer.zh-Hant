@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 您可以使用對象的擴充屬性來執行下列動作：
 
-* **根據運用目標對象擴充屬性的規則，在歷程中建立多個路徑**。 若要這麼做，請使用[讀取對象](../building-journeys/read-audience.md)活動來鎖定對象，然後根據對象的擴充屬性，在[條件](../building-journeys/condition-activity.md)活動中建立規則。
+* **根據運用目標對象擴充屬性的規則，在歷程**&#x200B;中建立多個路徑。 若要這麼做，請使用[讀取對象](../building-journeys/read-audience.md)活動來鎖定對象，然後根據對象的擴充屬性，在[條件](../building-journeys/condition-activity.md)活動中建立規則。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

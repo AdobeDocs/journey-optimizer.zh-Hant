@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -49,7 +49,7 @@ ht-degree: 4%
 
    ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-1. 在[欄位]設定畫面中按一下[儲存]。**&#x200B;**，然後按一下[儲存]。**&#x200B;**&#x200B;您的自訂動作。
+1. 在[欄位]設定畫面中按一下[儲存]。****，然後按一下[儲存]。****&#x200B;您的自訂動作。
 
 您現在可以在歷程畫布上使用自訂動作。
 
@@ -118,6 +118,6 @@ ht-degree: 4%
 
 1. 輸入此動作的標籤和說明。
 
-1. 在&#x200B;**要求引數**&#x200B;區段中，按一下每個引數的&#x200B;**編輯**&#x200B;圖示，並選取您在裝載中設定的動態值。
+1. 在&#x200B;**要求引數**&#x200B;區段中，按一下每個引數的&#x200B;**編輯**&#x200B;圖示，並選取您已在承載中設定的動態值。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
 
    根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。
 
-您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計SMS訊息的內容，如下所述。
+您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計LINE訊息的內容，如下所述。
 
 >[!TAB 新增LINE訊息至行銷活動]
 

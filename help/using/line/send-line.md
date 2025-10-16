@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: fd8437c6-0052-4116-af60-5624569bda65
-source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * **警告**&#x200B;參考建議和最佳實務。 例如，如果您的文字訊息為空白，則會顯示警告訊息。
 
-* **錯誤**&#x200B;會阻止您測試或啟動歷程，或發佈行銷活動，只要這些錯誤未解決。 例如，當缺少主旨LINE時，錯誤訊息會警告您。
+* **錯誤**&#x200B;會阻止您測試或啟動歷程，或發佈行銷活動，只要這些錯誤未解決。 例如，當主旨行遺失時，錯誤訊息會警告您。
 
 ## 傳送您的LINE訊息 {#line-send}
 

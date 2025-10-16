@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1537'
 ht-degree: 33%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 ## 單一事件 {#unitary-events}
 
-**單一**&#x200B;事件事件已連結至人員。 它們與人的行為相關（例如，某人購買產品、造訪商店、退出網站等）或與某人連結的某件事（例如，某人達到10,000點忠誠點數）。 這是[!DNL Journey Optimizer]在歷程中會監聽的事件，以便協調下一個最佳動作。 單一事件可以是規則型或系統產生。 若要瞭解如何建立單一事件，請參閱此[頁面](../event/about-creating.md)。
+**單一**&#x200B;事件已連結至人員。 它們與人的行為相關（例如，某人購買產品、造訪商店、退出網站等）或與某人連結的某件事（例如，某人達到10,000點忠誠點數）。 這是[!DNL Journey Optimizer]在歷程中會監聽的事件，以便協調下一個最佳動作。 單一事件可以是規則型或系統產生。 若要瞭解如何建立單一事件，請參閱此[頁面](../event/about-creating.md)。
 
 單一歷程 (從事件或客群資格篩選開始) 包含可防止同一事件多次錯誤觸發歷程的護欄。 在預設情況下，輪廓重新進入時會暫時封鎖 5 分鐘。例如，如果某個事件在 12:01 觸發特定設定檔的歷程，而另一個事件在 12:03 達到時間限制 (無論是相同事件或是不同事件觸發相同歷程)，則此設定檔的歷程將不會再次開始。
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程�
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

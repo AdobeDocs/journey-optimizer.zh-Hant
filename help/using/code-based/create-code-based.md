@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 8%
@@ -55,7 +55,7 @@ ht-degree: 8%
 
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-1. 一旦您的程式碼庫體驗準備就緒，請完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publishing-the-journey.md)
+1. 一旦您的程式碼型體驗準備就緒，請完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publishing-the-journey.md)
 
 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -145,4 +145,4 @@ ht-degree: 8%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

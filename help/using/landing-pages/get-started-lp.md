@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# 開始使用登陸頁面 {#get-sarted-lp}
+# 開始使用登陸頁面 {#get-started-lp}
 
 登陸頁面是使用者從電子郵件、網站、廣告或任何其他數位位置按一下後被導向到的獨立網頁。
 

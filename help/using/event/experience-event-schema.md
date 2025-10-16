@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->不再支援歷程條件中的體驗事件查閱。 請在這裡尋找替代最佳實務。 如果您的事件觸發歷程使用案例仍需要體驗事件查閱，且無法透過任何列出的替代方案取得支援，請洽詢您的Adobe代表，我們將協助您達成目標。
+>不再支援歷程條件中的體驗事件查閱。 請在這裡尋找替代最佳實務。 如果您的事件觸發歷程使用案例仍需要體驗事件查閱，且無法透過列出的任何替代方案取得支援，請聯絡您的Adobe代表，我們將協助您達成目標。
 >
 >從歷程的開始事件存取內容不受影響。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

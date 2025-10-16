@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 37%
+ht-degree: 34%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部資料來源"
->abstract="外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同的是，您可以視需要建立任意數量的外部資料來源。"
+>abstract="外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的Adobe Experience Platform資料來源不同，您可以視需要儘量建立外部資料來源。"
 
 ## 使用外部資料來源 {#gs-ext-data-sources}
 
-外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同的是，您可以視需要建立任意數量的外部資料來源。
+外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的Adobe Experience Platform資料來源不同，您可以視需要儘量建立外部資料來源。
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用輪廓和客群
-description: 瞭解如何在 [!DNL Journey Optimzier]中使用設定檔和對象。
+description: 瞭解如何在 [!DNL Journey Optimizer]中使用設定檔和對象。
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 6%

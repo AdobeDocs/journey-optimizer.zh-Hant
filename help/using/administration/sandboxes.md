@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 28%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 28%
 
    ![](assets/sandbox_3.png)
 
-1. 如有需要，請按一下旁邊的X圖示，移除沙箱對您的&#x200B;**[!UICONTROL 角色]**&#x200B;的存取權。
+1. 如有需要，請按一下它旁邊的X圖示，從您的&#x200B;**[!UICONTROL 角色]**&#x200B;移除沙箱存取權。
 
    ![](assets/sandbox_4.png)
 

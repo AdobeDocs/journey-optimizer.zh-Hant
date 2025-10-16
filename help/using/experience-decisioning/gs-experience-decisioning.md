@@ -1,19 +1,19 @@
 ---
-title: 開始使用決策
-description: 進一步了解決策
+title: 開始使用 Decisioning
+description: 深入了解決策
 feature: Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
-# 開始使用決策 {#get-started-experience-decisioning}
+# 開始使用 Decisioning {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
@@ -48,7 +48,7 @@ ht-degree: 24%
 
       ![](assets/decision_permission_2.png)
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
       如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 

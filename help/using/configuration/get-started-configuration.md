@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 48%
 
    * 管理將電子郵件地址傳送至禁止名單前執行重試的天數。[了解更多](manage-suppression-list.md)
 
-   * 啟用 **BBC電子郵件選項**，保留傳送給個人的訊息副本。 [了解更多](archiving-support.md#enable-bcc)
+   * 啟用&#x200B;**密件副本電子郵件選項**，以保留傳送給個人的郵件復本。 [了解更多](archiving-support.md#enable-bcc)
 
    * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../conflict-prioritization/rule-sets.md)
 

@@ -6,20 +6,20 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 # 設計內容卡內容 {#design-content-card}
 
-卡片的製作結構提供表單式製作體驗，為行銷人員提供開發人員可用來轉譯的基本輸入。
+卡片的製作結構提供表單式製作體驗，為行銷人員提供開發人員可轉譯的基本輸入。
 
 定義內容並注入個人化後，您就可以檢閱並加以啟用。 將根據設定的排程傳送您的行銷活動。 [在此頁面瞭解更多](../campaigns/review-activate-campaign.md)。
 
-## 內容卡版面配置
+## 內容卡片配置
 
 ![](assets/content-card-image.png)
 
@@ -27,15 +27,15 @@ ht-degree: 2%
 
 * **[!UICONTROL 小型影像]**：在文字旁邊顯示精簡的影像，非常適合內容優先於視覺效果的訊息。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/)。
 
 * **[!UICONTROL 大型影像]**：在文字上方或旁顯示顯著的影像，讓視覺效果成為您訊息的主要焦點。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/)。
 
 * **[!UICONTROL 僅限影像]**：顯示不含隨附文字的影像，非常適合視覺化訊息或獨立影像。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/)和Android[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/)。
 
 ## 內容索引標籤 {#content-tab}
 
@@ -118,7 +118,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 
 
-### 點按時行為
+### 點按時的行為
 
 ![](assets/content-card-design-5.png)
 

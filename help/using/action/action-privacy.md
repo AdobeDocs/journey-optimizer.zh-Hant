@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ### 將行銷動作套用至歷程與行銷活動{#journeys-campaigns}
 
-建立治理原則之後，您必須在 Journey Optimizer **管道設定**&#x200B;中套用相關的行銷動作。要執行此操作，請依照下列步驟執行：
+建立治理原則之後，您必須將相關的行銷動作套用至您的Journey Optimizer **管道設定**。 要執行此操作，請依照下列步驟執行：
 
 1. 存取&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 管道設定]**&#x200B;功能表。
 

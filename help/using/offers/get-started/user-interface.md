@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 33%
@@ -41,7 +41,7 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->如果您在存取決策管理或其部分功能時遇到問題，請向管理員使用者確認您已獲得所需許可權。 請參閱[授與決策管理的存取權](starting-offer-decisioning.md#granting-acess-to-decision-management)。
+>如果您在存取決策管理或其部分功能時遇到問題，請向管理員使用者確認您已獲得所需許可權。 請參閱[授與決策管理的存取權](starting-offer-decisioning.md#granting-access-to-decision-management)。
 
 ## 概觀 {#overview}
 

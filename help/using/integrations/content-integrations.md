@@ -9,16 +9,16 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '694'
 ht-degree: 27%
 
 ---
 
 # 結合解決方案和應用程式以管理您的內容 {#combine-solutions}
 
-為了建立要在全通路客戶歷程和行銷活動中啟用的訊息和內容，行銷人員和客戶體驗專業人員需要易於使用的製作選項，包括工作流程中產生的AI、編輯功能、資產、範本和片段管理。  透過Adobe Journey Optimizer，您可以輕鬆結合Adobe解決方案和應用程式，讓您的Adobe工具發揮更大效用。 這些原生整合可協助您處理特定使用案例，並延伸Adobe Journey Optimizer功能範圍。
+為了建立要在全通路客戶歷程和行銷活動中啟用的訊息和內容，行銷人員和客戶體驗專業人員需要易於使用的製作選項，包括工作流程中產生的AI、編輯功能、資產、範本和片段管理。  透過Adobe Journey Optimizer，您可以輕鬆結合Adobe解決方案和應用程式，以充分運用Adobe工具。 這些原生整合可協助您處理特定使用案例，並延伸Adobe Journey Optimizer功能範圍。
 
 ## Adobe Experience Manager {#integration-aem}
 
@@ -71,7 +71,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 

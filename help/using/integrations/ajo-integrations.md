@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -123,7 +123,7 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer檔案[中進一步瞭解Adobe Workfront + Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
+在Journey Optimizer檔案[中進一步瞭解Adobe Workfront + Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
 
 ## 自訂通道 {#integration-custom}
 

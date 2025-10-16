@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 58%
+source-wordcount: '955'
+ht-degree: 59%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 58%
 
 >[!TAB 由 API 觸發的行銷活動]
 
-**API觸發的行銷活動**&#x200B;可讓您使用API呼叫觸發行銷活動的執行。 當需要時，這些通訊可以傳送，其中不僅可能涉及密碼重設設定檔屬性，還涉及觸發程式中的即時內容資料（即REST API裝載），以進行個人化。
+**API觸發的行銷活動**&#x200B;可讓您使用API呼叫觸發行銷活動的執行。 在需要時，這些通訊可以傳送，其中可能不僅涉及使用設定檔屬性（如密碼重設）進行個人化，還涉及觸發程式中的即時內容資料（即REST API裝載）。
 
 * **已觸發API — 行銷** — 傳送個人化行銷通訊給目標對象。
 * **已觸發API — 異動** — 在個人執行動作後傳送訊息，例如密碼重設要求、購物車購買等。
@@ -164,7 +164,7 @@ ht-degree: 58%
 
    1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
       如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 

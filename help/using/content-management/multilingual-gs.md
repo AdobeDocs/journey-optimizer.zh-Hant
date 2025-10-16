@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 32%
@@ -52,7 +52,7 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 針對多語言內容，必須定義下列設定：
 
-* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 若要開始建立多語言內容，使用者必須被授予&#x200B;**[!UICONTROL 管理語言設定]**&#x200B;許可權。 針對自動化流程，使用者還需要與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;功能相關的許可權。 [進一步瞭解許可權](../administration/permissions.md)
 
@@ -100,4 +100,4 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 瞭解如何在單一行銷活動或歷程中以多種語言建立內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452125?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

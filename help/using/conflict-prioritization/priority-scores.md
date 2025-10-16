@@ -4,7 +4,7 @@ description: 瞭解如何將優先順序分數指派給歷程與行銷活動。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 35%
@@ -13,7 +13,7 @@ ht-degree: 35%
 
 # 指派優先順序分數 {#priority}
 
-Journey Optimizer可讓您指派優先順序分數給歷程、行銷活動或歷程&#x200B;**[!UICONTROL 動作]**&#x200B;活動中的傳入頻道動作。
+Journey Optimizer可讓您將優先順序分數指派給歷程、行銷活動或歷程&#x200B;**[!UICONTROL 動作]**&#x200B;活動中的傳入頻道動作。
 
 當有強制的限制（例如頻率上限）時，優先順序對於優先處理歷程、行銷活動或動作至關重要。
 
@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

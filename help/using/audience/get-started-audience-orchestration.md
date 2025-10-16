@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 51%
+ht-degree: 50%
 
 ---
 
@@ -99,13 +99,13 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-此文件提供如何在 Adobe Journey Optimizer 中使用客群構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
+本檔案提供如何在Adobe Journey Optimizer中使用對象構成的詳細資訊。 如果您是只使用即時客戶輪廓的客戶，且不使用 Adobe Journey Optimizer， 請[按一下這裡](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
 
-完成後，**產生的對象**&#x200B;會連同現有對象一起儲存到Adobe Experience Platform中，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
+完成後，**產生的對象**會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
@@ -146,7 +146,7 @@ ht-degree: 51%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant#delete-audience-compositions)中有提供詳細資訊
+>對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)中有提供詳細資訊

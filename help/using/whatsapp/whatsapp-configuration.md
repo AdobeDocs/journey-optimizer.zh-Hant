@@ -7,7 +7,7 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -41,7 +41,7 @@ ht-degree: 15%
 
    ![](assets/whatsapp-api-2.png)
 
-1. 選取用來傳送您的Whatsapp訊息的&#x200B;**寄件者名稱**。
+1. 選取用來傳送您的WhatsApp訊息的&#x200B;**寄件者名稱**。
 
 1. 您的電話號碼設定會自動填寫：
 
@@ -180,6 +180,6 @@ ht-degree: 15%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

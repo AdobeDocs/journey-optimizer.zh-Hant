@@ -4,10 +4,10 @@ description: 瞭解如何善用 Journey Optimizer 衝突與優先順序工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 使用&#x200B;**衝突偵測工具**，您可以識別歷程與行銷活動中的潛在重疊。 這非常重要，因為同時有太多通訊可能會導致客戶疲勞。 Journey Optimizer 可讓您監控時間軸、對象重疊以及頻道設定等元素。 您只要透過及早識別衝突，就可以微調行銷活動，以便避免同時使用多則訊息疲勞轟炸客戶。
 
-➡️[瞭解如何偵測歷程、行銷活動中的潛在衝突](conflicts.md)
+➡️ [瞭解如何偵測歷程與行銷活動中的潛在衝突](conflicts.md)
 
 ### 優先順序分數
 
