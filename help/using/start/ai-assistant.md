@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 47%
+ht-degree: 41%
 
 ---
 
@@ -56,7 +56,7 @@ AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並�
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
 
-查看答案並使用「**顯示來源**」按鈕，取得產品文件的直接連結並了解更多資訊。
+檢查答案，並使用&#x200B;**顯示來源**&#x200B;按鈕取得產品檔案的直接連結，並瞭解更多資訊。
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
 

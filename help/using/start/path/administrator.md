@@ -7,16 +7,16 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
 # 系統管理員快速入門 {#get-started-sys-admins}
 
-開始使用 [!DNL Adobe Journey Optimizer] 之前，準備環境需執行數個步驟。  您必須執行以上步驟，[資料工程師](data-engineer.md)和[歷程操作者](marketer.md)才可以開始使用[!DNL Adobe Journey Optimizer]。
+開始使用 [!DNL Adobe Journey Optimizer] 之前，準備環境需執行數個步驟。  您必須執行這些步驟，以便[資料工程師](data-engineer.md)和[歷程從業者](marketer.md)可以開始使用[!DNL Adobe Journey Optimizer]。
 
 身為&#x200B;**系統管理員**，您必須&#x200B;**了解角色並指派權限**，可用於沙箱管理和管道設定。 您也必須先設定沙箱，再針對可用的角色進行管理。 然後，您就能將團隊成員指派至角色。
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 1. **設定訊息和管道**：定義設定、調整和自訂電子郵件、簡訊和推播訊息設定
 
-   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**&#x200B;[了解更多](../../push/push-gs.md)
+   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../push/push-gs.md)
 
    * 建立&#x200B;**管道設定** (即訊息預設集)，以設定電子郵件、簡訊和推播通知所需的所有技術參數。[了解更多](../../configuration/channel-surfaces.md)
 
@@ -74,4 +74,4 @@ ht-degree: 97%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
