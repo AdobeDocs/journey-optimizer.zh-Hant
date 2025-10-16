@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 40%

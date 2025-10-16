@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 10%
 
 ---

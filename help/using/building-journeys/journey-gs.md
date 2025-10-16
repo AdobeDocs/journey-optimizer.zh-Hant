@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 27%
 
 ---
@@ -90,15 +90,15 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
    ![](assets/read-segment.png)
 
-1. 從從浮動視窗拖放事件或&#x200B;**讀取對象**&#x200B;活動到畫布開始。 若要進一步瞭解歷程設計，請參閱[本節](using-the-journey-designer.md)。
+1. 將事件或&#x200B;**讀取對象**&#x200B;活動從浮動視窗拖放至畫布。 若要進一步瞭解歷程設計，請參閱[本節](using-the-journey-designer.md)。
 
 ## 測試歷程 {#jo-test}
 
 建立歷程後，請先測試歷程，然後再發佈。 Journey Optimizer提供&#x200B;**測試模式**，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可確保歷程正確運作，因此您可以放心地發佈它們。 在本節[中瞭解如何測試您的歷程](testing-the-journey.md)
 
-您也可以在&#x200B;**試用**&#x200B;中執行您的歷程。 歷程試運行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料，即可測試歷程，不用聯絡實際客戶，或是更新設定檔資訊。此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。 在本節[中瞭解如何以試執行模式](journey-dry-run.md)發佈歷程。
+您也可以在&#x200B;**試用**&#x200B;中執行您的歷程。 歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。此功能有助於歷程參與者在發佈其歷程設計和對象鎖定目標之前獲得信心。 在本節[中瞭解如何以試執行模式](journey-dry-run.md)發佈歷程。
 
-## 發佈此歷程 {#jo-pub}
+## 發佈歷程 {#jo-pub}
 
 您必須發佈歷程才能啟用它，並讓新設定檔可以進入它。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。 在此[區段](publishing-the-journey.md)中進一步瞭解歷程發佈。
 
