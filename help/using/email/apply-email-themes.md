@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
@@ -115,7 +115,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    <!--![](assets/theme-buttons.png)-->
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存此佈景主題以供日後使用。****
 
 ## 套用主題至電子郵件 {#apply-themes}
 
@@ -127,7 +127,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * 選取內建的[電子郵件範本](use-email-templates.md)，以開啟電子郵件Designer。 系統會自動套用每個範本專屬的預設主題。
 
-   * 從頭開始設計[新內容](content-from-scratch.md)，並選取&#x200B;**[!UICONTROL 使用主題]s**&#x200B;以預先定義的樣式主題開始。
+   * 從頭開始設計[新內容](content-from-scratch.md)，並選取&#x200B;**[!UICONTROL 使用主題]**&#x200B;以預先定義的樣式主題開始。
 
      ![](assets/theme-from-scratch.png)
 

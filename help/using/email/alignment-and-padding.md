@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 keywords: 垂直對齊，電子郵件編輯器，邊框間距
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 12%
 
 ---
 
-# 調整垂直對齊與邊框間距 {#alignment-and-padding}
+# 調整垂直對齊方式與內距 {#alignment-and-padding}
 
 在此範例中，我們將調整由三欄組成的結構元件內的邊框間距和垂直對齊方式。
 
