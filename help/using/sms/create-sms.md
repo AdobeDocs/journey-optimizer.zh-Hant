@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: c52821a657aead38a4d08540e60686cfe117a95e
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1105'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 8%
 
 1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取&#x200B;**[!UICONTROL 協助程式功能]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 協助程式]**。
 
-   請注意，若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
+   若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
 
    >[!NOTE]
    >

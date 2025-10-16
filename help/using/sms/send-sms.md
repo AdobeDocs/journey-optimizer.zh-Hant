@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## 預覽您的文字訊息 {#preview-sms}
 
-定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。
+定義訊息內容後，您可以使用測試設定檔或範例輸入資料（從CSV/JSON檔案上傳或手動新增）來預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後使用測試設定檔資料檢查您的訊息。
 

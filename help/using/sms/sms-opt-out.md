@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->文字訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送文字訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理短代碼、長代碼和免付費號碼的訊息，如以下所述，請洽詢您的法律顧問，以確保您的簡訊通訊符合所有適用的法律規範要求。
+>文字訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送文字訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理短代碼、長代碼和免付費號碼的訊息，如以下所述，請洽詢您的法律顧問，以確保您的文字訊息通訊符合所有適用的法律規範要求。
 >
 
 ## 原生傳入關鍵字 {#sms-native-keywords}
@@ -71,6 +71,6 @@ ht-degree: 16%
 
   +++ 請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440291/?learn=on&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

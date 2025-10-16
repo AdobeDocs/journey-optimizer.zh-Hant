@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 文字訊息可在歷程或行銷活動中建立和傳送。 對於簡訊、MMS 和 RCS，請使用簡訊動作。
 
-* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增簡訊活動及定義基本設定。然後，瀏覽到「動作：簡訊」右側窗格以建立簡訊、MMS 或 RCS 訊息的內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
+* 在&#x200B;**歷程**&#x200B;中。建立歷程、新增簡訊活動及定義基本設定。然後，瀏覽到右側的SMS動作窗格以建立SMS、MMS或RCS訊息的內容。 [了解如何建立歷程](../building-journeys/journey-gs.md)
 
 * 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動後，請選取 [簡訊] 作為動作並定義基本設定。然後，編輯訊息內容以定義要傳送的簡訊、MMS 或 RCS 訊息。[了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430375?quality=12&learn=on&captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer 會透過 SMS 服務提供者 (或 SMS 閘道提供者) 
 
   +++請觀看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++
