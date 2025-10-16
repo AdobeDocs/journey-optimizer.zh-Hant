@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1708'
 ht-degree: 15%
 
 ---
@@ -240,7 +240,7 @@ ht-degree: 15%
 
 ## 複製行銷活動 {#duplicate}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

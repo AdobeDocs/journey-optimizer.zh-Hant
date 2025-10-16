@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 60%
 
    1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
       如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 

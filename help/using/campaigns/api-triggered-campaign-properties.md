@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 24%
@@ -26,7 +26,7 @@ ht-degree: 24%
 
    * **[!UICONTROL API觸發 — 行銷]** — 選取此型別的API觸發行銷活動，將個人化行銷通訊傳送給目標對象。
 
-   * **[!UICONTROL 已觸發API — 異動]** — 異動行銷活動的目標是傳送異動訊息，即在個人執行動作後傳送的訊息：密碼重設要求、購物車購買等。
+   * **[!UICONTROL 已觸發API — 異動]** — 異動行銷活動的目標是傳送異動訊息，也就是在個人執行動作後傳送的訊息：密碼重設要求、購物車購買等。
 
    ![](assets/api-triggered-modal.png)
 
