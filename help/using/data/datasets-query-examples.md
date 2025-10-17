@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 其中日期的格式為： `YYYY-MM-DD HH:MM:SS`。
 
 在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+
+>[!NOTE]
+>
+>在訊息回饋事件資料集中參考identityMap時，請注意，它只會反映執行階段使用的身分。 對於推播通知，「已傳送」事件將只會依賴連結至推播權杖的ECID，該ECID是用來傳送此通知，而「排除」事件則會依賴自訂身分。 例如，如果因為找不到推播權杖而排除設定檔，則會選取在歷程或動作行銷活動層級使用的身分來註冊此事件。 如果您需要其他名稱空間（例如自訂ID），請將這些意見記錄與設定檔相關的資料集（例如：設定檔快照資料集）聯結，以擷取完整的身分清單。
 
 
 
