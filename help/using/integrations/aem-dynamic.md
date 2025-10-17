@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 9ec2255cd618035179b5dbc01b2e15374af65f3b
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '991'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 請注意，這項整合僅適用於使用Dynamic Media Manager as a Cloud Service的客戶。
 
-若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
+若要進一步瞭解Adobe Experience Manager as a Cloud Service中的Dynamic Media，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -37,18 +37,20 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->請確定Adobe Experience Manager as a Cloud Service已啟用Dynamic Media with OpenAPI。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
+>請確定Adobe Experience Manager as a Cloud Service已啟用Dynamic Media with OpenAPI。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
-Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和[搭配OpenAPI](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
+Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和[搭配OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
 
+<!--
 >[!AVAILABILITY]
 >
->舊版Outlook （包括2016）不支援使用Dynamic Media轉譯內容。  我們正在積極努力進行永久性修正，以增強相容性。 同時，請套用下列准則：
+>Older versions of Outlook (including 2016) do not support rendering of content with Dynamic Media.  We are actively working on a permanent fix to enhance compatibility. In the meantime, apply the following guidelines:
 >
->* 對於Dynamic Media Scene7 URL：將`?bfc=on`附加至影像URL。 這會啟用自動格式交涉，確保根據使用者端的功能提供最相容的影像格式。
+>* For Dynamic Media Scene7 URLs: Append `?bfc=on` to the image URL. This enables automatic format negotiation, ensuring the most compatible image format is delivered based on the client's capabilities.
 >
->* 使用Open API的Dynamic Media：使用`.avif`格式。 此格式包含內建的遞補機制，可在必要時提供相容的格式。
+>* For Dynamic Media with Open API: Use the `.avif` format. This format includes built-in fallback mechanisms to deliver a compatible format when necessary.
 >
+-->
 
 若要在HTML內容中新增Adobe Experience Manager資產，請遵循下列步驟：
 
@@ -68,7 +70,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 1. 視需要調整影像引數（例如高度、寬度、旋轉、翻轉、亮度、色相等），以符合您的資產需求。
 
-   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
+   如需可新增至URL的影像引數完整清單，請參閱[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}。
 
    ![](assets/dynamic-media-3.png)
 
@@ -86,7 +88,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 >[!AVAILABILITY]
 >
->**文字覆蓋個人化**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中使用。 由於Healthcare客戶無法存取Scene7模式，因此內容會使用Journey Optimizer影像的二進位復本轉譯。 如有例外，請聯絡您的Adobe代表。
+>**文字覆蓋個人化**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}中使用。 由於Healthcare客戶無法存取Scene7模式，因此內容會使用Journey Optimizer影像的二進位復本轉譯。 如有例外，請聯絡您的Adobe代表。
 
 若要個人化文字覆蓋，請依照下列步驟進行：
 
@@ -127,12 +129,12 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 在Journey Optimizer中輕鬆新增動態媒體範本，並視需要更新媒體內容。 您現在可以將個人化欄位整合到媒體中，讓您在Journey Optimizer中建立更自訂且吸引人的內容。
 
-深入瞭解[動態媒體範本](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}。
+深入瞭解[動態媒體範本](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}。
 
 
 >[!AVAILABILITY]
 >
->**Dynamic Media範本**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7)中使用。 由於Healthcare客戶無法存取Scene7模式，將不會轉譯內容。 如有任何例外，請聯絡Experience Manager支援。
+>**Dynamic Media範本**&#x200B;僅可在Dynamic Media [Scene7模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7)中使用。 由於Healthcare客戶無法存取Scene7模式，將不會轉譯內容。 如有任何例外，請聯絡Experience Manager支援。
 
 
 ### 使用影像元件 {#image-component}
@@ -153,7 +155,7 @@ Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7�
 
 1. 在&#x200B;**影像設定**&#x200B;中，瀏覽以存取動態媒體範本的引數。
 
-   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期間新增的引數。
+   可用的欄位取決於Adobe Experience Manager中[範本建立](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"}期間新增的引數。
 
    ![](assets/dynamic-media-template-3.png)
 
@@ -256,5 +258,5 @@ Enable conditional content in your dynamic media to better target your audience 
 
 本教學課程涵蓋如何直接在 AJO 中修改影像、使用 HTML 模式新增文字覆蓋，在 AEM 中建立可用於超個人化的動態媒體範本，還會透過為不同客群區段，量身打造內容，將行銷活動個人化。此整合可讓行銷人員有效建立吸引人的行銷活動，並將行銷活動個人化，不必在應用程式之間切換。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463793/?learn=on&enablevpops=&autoplay=true&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
