@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 29%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -132,40 +132,66 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 
 ## 其他資源 {#additional-resources}
 
-**設定指南**
+瀏覽下列主題，進一步瞭解Journey Optimizer中的文字訊息。
+
++++設定指南
+
+瞭解如何設定及設定您的SMS環境：
 
 * [SMS通道設定概觀](sms-configuration.md)
 * [建立SMS頻道設定](sms-configuration-surface.md)
 * [設定簡訊子網域以縮短URL](sms-subdomains.md)
 
-**提供者設定指南**
++++
+
++++提供者設定指南
+
+各個SMS服務提供者的逐步設定：
 
 * [設定 Sinch 提供者](sms-configuration-sinch.md)
 * [設定 Twilio 提供者](sms-configuration-twilio.md)
 * [設定 Infobip 提供者](sms-configuration-infobip.md)
 * [設定自訂簡訊提供者](sms-configuration-custom.md)
 
-**內容建立與管理**
++++
+
++++內容建立與管理
+
+建立、個人化及管理您的簡訊內容：
 
 * [建立SMS/MMS訊息](create-sms.md)
 * [預覽、測試和傳送訊息](send-sms.md)
 * [文字訊息中的Personalization](../personalization/personalize.md)
 * [動態內容](../personalization/get-started-dynamic-content.md)
 
-**法規遵循與隱私權**
++++
+
++++法規遵循與隱私權
+
+確保您的文字訊息符合法規與隱私權標準：
 
 * [選擇退出管理](sms-opt-out.md)
 * [隱私權與同意](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**效能追蹤**
++++
+
++++效能追蹤
+
+監視和分析您的SMS行銷活動和歷程績效：
 
 * [簡訊行銷活動報告](../reports/campaign-global-report-cja-sms.md)
 * [SMS歷程報告](../reports/journey-global-report-cja-sms.md)
 
-**歷程與行銷活動整合**
++++
+
++++Journey &amp; Campaign整合
+
+瞭解如何將簡訊整合至您的客戶歷程與行銷活動中：
 
 * [將SMS訊息新增至歷程](../building-journeys/journeys-message.md)
 * [建立簡訊行銷活動](../campaigns/create-campaign.md)
+
++++
 
 ## 作法影片 {#videos}
 
@@ -185,7 +211,7 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 
 +++請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 
 +++請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
