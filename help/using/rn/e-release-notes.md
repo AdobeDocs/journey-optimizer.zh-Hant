@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
+source-git-commit: 0328ffb49ca72d293c0e1a729441cde6c3a16b45
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 42%
+source-wordcount: '1102'
+ht-degree: 44%
 
 ---
 
@@ -170,7 +170,7 @@ ht-degree: 42%
 <tr>
 <td>
 <p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，傳送給每個對象成員。</p>
-<p> 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -218,6 +218,25 @@ ht-degree: 42%
 <table>
 <thead>
 <tr>
+<th><strong>電子郵件設計工具中的主題</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>目前您可以快速套用事先審核通過的主題，以便確保所有電子郵件的品牌都有保持一致性，加快投放行銷活動的流程，個別製作高品質的電子郵件，同時減少對設計團隊的依賴。</p>
+<p>此功能先前以Beta版發佈，現在可供一組組織使用（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細文件</a>。</p>
+<!--p>Availability date: October 22, 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>新歷程警報</strong><br/></th>
 </tr>
 </thead>
@@ -227,7 +246,7 @@ ht-degree: 42%
 <p>有新的預先設定警報可用來監視歷程執行：</p>
 <ul><li><a href="../reports/alerts.md#alert-discard-rate">超過設定檔捨棄率</a>：在過去5分鐘內超過閾值的設定檔捨棄與輸入設定檔的比率</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">超出自訂動作錯誤率</a>：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">超過的設定檔錯誤率</a>：在過去5分鐘超過臨界值的設定檔錯誤率</li>。</ul> <p>您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。</p>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">超過設定檔錯誤率</a>：在過去5分鐘內，超過臨界值的設定檔錯誤率。</li></ul> <p>您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/alerts.md">詳細文件</a></p>
 <p>推出日期： 2025年10月14日</p>
 </td>
@@ -264,7 +283,7 @@ ht-degree: 42%
 <td>
 <p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
