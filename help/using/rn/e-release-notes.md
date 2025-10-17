@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
+source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '964'
 ht-degree: 45%
 
 ---
@@ -30,6 +30,25 @@ ht-degree: 45%
 ### 全新功能 {#oct-25-10-features}
 
 
+
+<table>
+<thead>
+<tr>
+<th><strong>無訊息時數/基於時間的排除</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>無訊息小時可讓您定義電子郵件、簡訊、推播和WhatsApp頻道的時間型排除專案。 它們可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。</p>
+<p>您可以透過規則集套用無訊息時數，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。 透過簡化這些流程。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,24 +196,27 @@ ht-degree: 45%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>無訊息時數/基於時間的排除</strong><br/></th>
+<th><strong>新歷程警報</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>無訊息小時可讓您定義電子郵件、簡訊、推播和WhatsApp頻道的時間型排除專案。 它們可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。</p>
-<p>您可以透過規則集套用無訊息時數，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。 透過簡化這些流程。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>有新的預先設定警報可用來監視歷程執行：</p>
+<ul><li><a href="./reports/alerts.md#alert-discard-rate">超過設定檔捨棄率</a>：在過去5分鐘內超過閾值的設定檔捨棄與輸入設定檔的比率</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">超出自訂動作錯誤率</a>：過去5分鐘超出臨界值的自訂動作錯誤與成功HTTP呼叫的比率</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">超過的設定檔錯誤率</a>：在過去5分鐘超過臨界值的設定檔錯誤率</li>。</ul> <p>您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/alerts.md">詳細文件</a></p>
+<p>推出日期： 2025年10月14日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
@@ -224,7 +246,7 @@ ht-degree: 45%
 <td>
 <p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -282,12 +304,6 @@ ht-degree: 45%
 WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
 除了電子郵件和簡訊之外，現在也可以更新WhatsApp預設執行欄位。 您也可以覆寫WhatsApp歷程活動進階引數或WhatsApp頻道設定中的執行欄位全域設定。<!-- [Read more](../FILE.md) -->
-
-**新歷程警示**
-
-新的預先設定警示可用於歷程： [超過的設定檔捨棄率](../reports/alerts.md#alert-discard-rate) （超過臨界值的過去5分鐘捨棄設定檔與輸入設定檔的比率）、[超過的自訂動作錯誤率](../reports/alerts.md#alert-custom-action-error-rate) （超過臨界值的自訂動作錯誤與成功HTTP呼叫的比率）以及[超過的設定檔錯誤率](../reports/alerts.md#alert-profile-error-rate) （超過臨界值的過去5分鐘錯誤設定檔與輸入設定檔的比率）。 您可以修改臨界值，並訂閱個別歷程層級警示與全域警示。
-
-推出日期：2025 年 10 月 14 日
 
 Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
