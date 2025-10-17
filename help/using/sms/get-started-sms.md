@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 27%
@@ -106,7 +106,7 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 <a href="create-sms.md">
 <img alt="銷售機會" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>建立文字訊息</strong>
+<div><a href="create-sms.md"><strong>建立文字訊息</strong></a>
 </div>
 <p>設計並個人化您的SMS、MMS或RCS內容</p>
 </td>
@@ -211,7 +211,7 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 
 +++請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer整合了領先的SMS服務提供者：
 
 +++請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
