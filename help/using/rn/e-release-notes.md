@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 45%
+source-wordcount: '1034'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 45%
 [!DNL Adobe Journey Optimizer]持續提供新功能、現有功能增強並修正錯誤。所有變更都會在每月底整合於[發行說明](release-notes.md)。
 
 
-## 2025年10月發行前注意事項 {#25-10-rn}
+## 2025年10月發行前注意事項 {#oct-25-10-rn}
 
 **至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
 
@@ -196,6 +196,24 @@ ht-degree: 45%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>可重複使用的鎖定規則</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您從專用的UI選單建立規則，並在建立目標定位時運用這些規則，做為行銷活動或歷程中（在最佳化歷程活動中）的內容最佳化的一部分。</p>
+<p>目前已購買決策附加元件產品的組織可使用鎖定目標規則，其他組織也可依需求使用鎖定目標規則（可用性限制）。</p>
+<p>此功能將逐步向所有客戶推出。 與此同時，請聯絡您的Adobe代表以取得存取權。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ ht-degree: 45%
 <td>
 <p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ ht-degree: 45%
 
 ### 改善
 
-**在鎖定目標中選取可重複使用的規則**
-
-現在，您可以在歷程及行銷活動中搭配使用目標定位規則與訊息最佳化功能時，運用規則產生器。<!-- [Read more](../FILE.md) -->
-
 WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
-除了電子郵件和簡訊之外，現在也可以更新WhatsApp預設執行欄位。 您也可以覆寫WhatsApp歷程活動進階引數或WhatsApp頻道設定中的執行欄位全域設定。<!-- [Read more](../FILE.md) -->
+除了電子郵件和簡訊之外，您也會在沙箱層級更新WhatsApp傳送的預設執行欄位。 您也可以在WhatsApp歷程活動進階引數或WhatsApp頻道設定中變更執行欄位，以覆寫全域設定的執行欄位。<!-- [Read more](../FILE.md) -->
 
 Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
