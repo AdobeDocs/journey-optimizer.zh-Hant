@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 0328ffb49ca72d293c0e1a729441cde6c3a16b45
+source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 44%
+source-wordcount: '1095'
+ht-degree: 45%
 
 ---
 
@@ -206,8 +206,8 @@ ht-degree: 44%
 <tr>
 <td>
 <p>Journey Optimizer現在可讓您從專用的UI選單建立規則，並在建立目標定位時運用這些規則，做為行銷活動或歷程中（在最佳化歷程活動中）的內容最佳化的一部分。</p>
-<p>目前已購買決策附加元件產品的組織可使用鎖定目標規則，其他組織也可依需求使用鎖定目標規則（可用性限制）。</p>
-<p>此功能將逐步向所有客戶推出。 與此同時，請聯絡您的Adobe代表以取得存取權。</p>
+<p>鎖定目標規則目前處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>請注意，此功能僅適用於已購買決策附加元件產品的組織。 此版本將逐步向所有客戶推出。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -283,7 +283,7 @@ ht-degree: 44%
 <td>
 <p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
