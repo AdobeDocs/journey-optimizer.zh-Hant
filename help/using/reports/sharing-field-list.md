@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 10%
+source-wordcount: '649'
+ht-degree: 9%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 10%
 
 ## serviceEvents {#servicevents-field}
 
-此Mixin包含與設定檔匯出作業對應的所有欄位。
+此Mixin包含與設定檔匯出作業對應的所有欄位。 這些事件是根據&#x200B;**讀取對象**&#x200B;活動產生，以追蹤對象匯出作業（已排入佇列、已開始、已完成、錯誤）的生命週期。 不同於一般步驟事件，serviceEvents不會繫結至個別設定檔，而是繫結至讀取對象節點本身，這表示它們可能沒有相關的設定檔識別碼。
 
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
@@ -70,7 +70,7 @@ ht-degree: 10%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
