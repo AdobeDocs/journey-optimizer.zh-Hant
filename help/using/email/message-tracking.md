@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 28%
+source-wordcount: '1344'
+ht-degree: 27%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 28%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -114,6 +114,8 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 >[!CAUTION]
 >
 >* 鏡像頁面連結是自動產生的，無法編輯。它們包含轉譯原始電子郵件所需的所有加密的個人化資料。因此，使用具有較大值的個人化屬性可能會產生冗長的鏡像頁面 URL，如果網頁瀏覽器具有最大 URL 長度，將導致連結無法在該網頁瀏覽器中作用。
+>
+>* 建立高度依賴執行階段個人化的電子郵件時（例如`#each`回圈、巢狀物件、大型裝載資料），映象頁面URL可能會變得過大，尤其是在API觸發的行銷活動使用來自裝載的廣泛內容資料時。 這可能會導致瀏覽器或郵件使用者端發生HTTP錯誤(404、422、502)。 Adobe建議限制動態欄位的廣度和深度，減少對複雜片段的依賴，並將個人化結構扁平化以防止連結失敗。
 >
 >* 在傳送到測試設定檔的[校訂](../content-management/proofs.md)中，映象頁面的連結未啟用。 它只會在最終訊息中處於活動狀態。
 
