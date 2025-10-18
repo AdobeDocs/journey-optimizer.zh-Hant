@@ -11,7 +11,7 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
+source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Adobe Journey Optimizer支援四種型別的歷程：
 
 * **[動作行銷活動](../campaigns/create-campaign.md)**：傳送給特定對象的一次性或循環通訊，適用於促銷公告或電子報等獨立訊息。
 * **[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)**：透過API呼叫觸發的行銷活動，可啟用與外部系統的整合，以根據即時事件或商業邏輯傳送訊息。
-* **[協調的行銷活動](../orchestrated/get-started-orchestrated.md)**：在畫布上建置的多步驟、以對象為基礎的行銷活動，可以包含條件、等待時間和多個動作，以建立排程、協調的體驗。
+* **[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)**：在畫布上建置的多步驟、以對象為基礎的行銷活動，可以包含條件、等待時間和多個動作，以建立排程、協調的體驗。
 
-**最佳實務**：使用[歷程](journey.md)進行複雜、事件觸發的參與與進階協調；[動作行銷活動](../campaigns/create-campaign.md)進行排程的對象型通訊；[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)從外部系統以程式設計方式觸發；以及[協調的行銷活動](../orchestrated/get-started-orchestrated.md)進行具有行銷活動特定需求的多步驟通訊。
+**最佳實務**：使用[歷程](journey.md)進行複雜、事件觸發的參與與進階協調；[動作行銷活動](../campaigns/create-campaign.md)進行排程的對象型通訊；[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)從外部系統以程式設計方式觸發；以及[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)進行具有行銷活動特定需求的多步驟通訊。
 
 +++
 
