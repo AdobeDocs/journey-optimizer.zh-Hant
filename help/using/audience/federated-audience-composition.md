@@ -32,4 +32,4 @@ Adobe [!DNL Journey Optimizer]中可用的同盟對象構成功能可查詢資�
 
 進一步瞭解影片中的同盟對象構成：
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450898?captions=chi_hant&quality=12)

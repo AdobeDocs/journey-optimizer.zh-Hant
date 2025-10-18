@@ -105,4 +105,4 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何善用個人化編輯器遊樂場，使用範例資料來撰寫及測試個人化程式碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12)
