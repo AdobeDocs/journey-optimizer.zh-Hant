@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 內容，設計，電子郵件，推播，簡訊，個人化，範本
-source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
+source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設計電子郵件內容
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 設計推播通知
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chat.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 設計SMS和MMS訊息
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 設計應用程式內訊息
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/personalization.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 個人化您的內容
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用範本和片段
 
