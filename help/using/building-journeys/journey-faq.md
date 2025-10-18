@@ -11,9 +11,9 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 0%
 
 ---
@@ -510,19 +510,25 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我可以根據偏好的頻道傳送不同的訊息嗎？
 
-可以。使用&#x200B;**條件活動**&#x200B;檢查偏好的管道：
+可以。使用&#x200B;**[條件活動](condition-activity.md)**，根據其偏好的管道路由設定檔：
 
-1. 新增條件檢查profile.preferredChannel
-2. 為每個管道建立個別路徑：
-   * **電子郵件路徑**：傳送電子郵件訊息
-   * **簡訊路徑**：傳送簡訊訊息
-   * **推播路徑**：傳送推播通知
-3. 為沒有偏好設定的設定檔新增預設路徑
+1. 在您的歷程中新增[條件活動](condition-activity.md)
+2. 檢查偏好的管道設定檔屬性（例如`profile.preferredChannel`），為每個管道建立路徑
+3. 設定通道特定路徑：
+   * **電子郵件路徑**：新增包含電子郵件最佳化內容的[電子郵件動作](../email/create-email.md)
+   * **簡訊路徑**：新增包含簡訊的[簡訊動作](../sms/create-sms.md)
+   * **推播路徑**：新增具有簡短可操作內容的[推播通知動作](../push/create-push.md)
+   * **應用程式內路徑**：為參與的應用程式使用者新增[應用程式內訊息動作](../in-app/create-in-app.md)
+4. 為沒有偏好設定的設定檔新增預設路徑，將其路由到您的主要頻道
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**最佳實務**：
 
-深入瞭解[頻道動作](journeys-message.md)。
+* 確保您的設定檔資料包含正確的頻道偏好設定
+* 針對每個管道的優點和限制設計適當的內容
+* 使用[頻道介面](../configuration/channel-surfaces.md)管理頻道設定
+* 測試所有路徑，以確保正確傳送訊息
+
+深入瞭解[條件](condition-activity.md)、[訊息動作](journeys-message.md)和[頻道選擇](../channels/gs-channels.md)。
 
 +++
 
