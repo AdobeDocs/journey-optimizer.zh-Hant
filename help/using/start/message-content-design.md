@@ -35,7 +35,7 @@ ht-degree: 2%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
 設計推播通知
 
