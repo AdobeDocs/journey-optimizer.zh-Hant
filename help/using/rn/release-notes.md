@@ -8,8 +8,8 @@ description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3eb73751fdb746dd2659e31c1b776fe2d767809f
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -288,7 +288,7 @@ ht-degree: 65%
 <td>
 <p>由<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a>提供支援，Experimentation Agent可在Journey Optimizer中使用。 </p>
 <p>Experimentation Agent是AI支援的工具，可更新您跨網站、電子郵件、推送訊息和應用程式執行和管理數位實驗的方式。 它可協助您更有效率地執行實驗、組織業務目標，以及產生可操作的深入分析，並著重說明哪些有效果、哪些無效以及下一步該在何處實驗。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a></p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -322,13 +322,13 @@ ht-degree: 65%
 <table>
 <thead>
 <tr>
-<th><strong>用於擷取歷程的公用API</strong><br/></th>
+<th><strong>用於檢索歷程的公用 API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的Journey Optimizer API現在可用於擷取歷程及其關聯的物件，例如行銷活動和表面。</p>
+<p>新的 Journey Optimizer API 現在可用於檢索歷程及其關聯的物件，例如行銷活動和表面。</p>
 <p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 25 日</p>
 </td>
@@ -351,17 +351,17 @@ WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
 除了電子郵件和簡訊之外，您也會在沙箱層級更新WhatsApp傳送的預設執行欄位。 您也可以在WhatsApp歷程活動進階引數或WhatsApp頻道設定中變更執行欄位，以覆寫全域設定的執行欄位。<!-- [Read more](../FILE.md) -->
 
-Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
+**Mailto (取消訂閱) 地址的自訂屬性支援**
 
-透過Journey Optimizer，如果您在Adobe之外管理同意，則可在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，藉此設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
+使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結和自訂取消訂閱電子郵件地址，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
 
-若要進一步個人化您的自訂端點，您現在可以定義將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
+若要進一步個人化自訂端點，您現在可以定義將要同時附加至同意事件的自訂屬性。[閱讀全文](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->此功能自2025年8月起已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，現在已針對「有限可用性」中的&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項發行。 請聯絡您的 Adobe 代表以取得存取權。
+>自 2025 年 8 月起，此功能已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]**，現在為有限可用性，僅為 **[!UICONTROL Mailto (取消訂閱)]** 選項發行。請聯絡您的 Adobe 代表以取得存取權。
 
-推出日期： 2025年10月6日
+推出日期：2025 年 10 月 6 日
 
 ## 2025 年 9 月發行說明 {#latest-rn}
 
@@ -496,7 +496,7 @@ Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 ### 改善 {#sept-25-9-improvements}
 
 * **API 觸發的行銷活動的 Webhook 支援**\
-  API 觸發的行銷活動現在支援 Webhook。設定webhook URL以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監控和自動化。 [閱讀全文](../configuration/feedback-webhooks.md)
+  API 觸發的行銷活動現在支援 Webhook。設定 Webhook URL 以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監視和自動化。[閱讀全文](../configuration/feedback-webhooks.md)
 
   推出日期：2025 年 9 月 29 日
 
@@ -532,17 +532,17 @@ Mailto （取消訂閱）位址的&#x200B;**自訂屬性支援**
 
   此功能為有限可用性，僅提供給一組客戶。
 
-* **Webhooks** — 此版本在設定自訂SMS提供者時，為Webhooks引進下列增強功能：
+* **Webhook** - 此版本在設定自訂簡訊提供者時，為 Webhook 引進下列增強功能：
 
-   * 您現在可以定義您的webhook用途，可以是傳入或回饋，具體取決於您要擷取的資料型別。 [閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
+   * 您現在可以定義您的 Webhook 用途，可以是傳入或回饋，具體取決於您要擷取的資料類型。[閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
 
-   * 設定關鍵字的介面已經過改良，更易於設定。 [閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
+   * 設定關鍵字的介面已經過改良，更易於設定。[閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
 
 * **簡訊**
 
-   * 設定自訂SMS提供者時，您現在可以定義當傳入的SMS包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。 您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。 [閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
+   * 設定自訂簡訊提供者時，您現在可以定義當傳入的簡訊包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
 
-   * 您現在可以存取透過SMS訊息傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼字、字詞或句子。 它們儲存在&#x200B;**AJO電子郵件追蹤體驗事件**&#x200B;資料集中的&#x200B;**InboundMessage**&#x200B;下，為期13個月。 僅適用於Sinch、Infobip和自訂SMS提供者。  — 推出日期： 2025年9月23日
+   * 您現在可以存取透過簡訊傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼寫錯誤、字詞或句子。它們儲存在 **AJO 電子郵件追蹤體驗事件**&#x200B;資料集中的 **InboundMessage** 下，儲存時長為 13 個月。僅適用於 Sinch、Infobip 和自訂簡訊提供者。- 推出日期：2025 年 9 月 23 日
 
 <!--
 * **Approval policy permissions**

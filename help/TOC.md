@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -707,7 +707,7 @@ ht-degree: 98%
          + [善用內容資料](using/experience-decisioning/context-data.md)
          + [使用 Adobe Experience Platform 進行決策](using/experience-decisioning/aep-data-exd.md)
       + [建立選擇策略](using/experience-decisioning/selection-strategies.md)
-      + 使用決定原則傳遞優惠方案 {#decision-policies}
+      + 使用決策原則提供產品建議 {#decision-policies}
          + [開始使用決定原則](using/experience-decisioning/create-decision.md)
          + [建立決定原則](using/experience-decisioning/create-decision-policy.md)
          + [在訊息中使用決定原則](using/experience-decisioning/use-decision-policy.md)
@@ -773,7 +773,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -921,7 +921,7 @@ ht-degree: 98%
    + [使用種子清單](using/configuration/seed-lists.md)
    + [支援封存](using/configuration/archiving-support.md)
    + [變更執行地址](using/configuration/primary-email-addresses.md)
-   + [建立意見回饋Webhook](using/configuration/feedback-webhooks.md)
+   + [建立意見回饋 Webhook](using/configuration/feedback-webhooks.md)
 + 歷程設定 {#configure-journeys}
    + [歷程設定](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [開始使用歷程設定](using/configuration/about-data-sources-events-actions.md)

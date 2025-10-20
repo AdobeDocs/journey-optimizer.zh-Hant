@@ -11,8 +11,8 @@ keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 當選取的 IP 集區處於[編輯](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。
-否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有&#x200B;**[!UICONTROL 成功]**&#x200B;狀態時重試。
+否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有**[!UICONTROL 成功]**&#x200B;狀態時重試。
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ ht-degree: 96%
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。[了解更多](../configuration/seed-lists.md)
 
@@ -170,7 +170,7 @@ ht-degree: 96%
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試參數**。
 
@@ -200,11 +200,11 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+>若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 不過，您可以在電子郵件管頻道設定層級變更此預設執行欄位。然後，您可以將此設定套用至特定行銷活動或歷程。
 
-若要這麼做，請編輯&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位，並從可用的電子郵件型別XDM欄位清單中選取專案。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+若要這麼做，請編輯&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位，並從可用的電子郵件類型 XDM 欄位清單中選取項目。[了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
