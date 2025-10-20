@@ -97,7 +97,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448153?captions=chi_hant&quality=12)
 
 了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
 
@@ -105,4 +105,4 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何善用個人化編輯器遊樂場，使用範例資料來撰寫及測試個人化程式碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12)
