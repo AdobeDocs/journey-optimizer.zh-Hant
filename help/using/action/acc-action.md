@@ -32,13 +32,12 @@ ht-degree: 12%
 提出要求時，Adobe會在布建時設定Journey Optimizer與Adobe Campaign環境之間的連線。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援以要求啟用。 您必須提供下列詳細資料：
 
 >[!BEGINTABS]
-
->適用於Adobe Journey Optimizer[!TAB 的]
+>[!TAB 適用於Adobe Journey Optimizer 的]
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->適用於Adobe Campaign[!TAB 的]
+>[!TAB 適用於Adobe Campaign 的]
 
 * 行銷活動伺服器URL
 * 即時伺服器URL
