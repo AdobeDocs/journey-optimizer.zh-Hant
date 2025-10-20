@@ -11,7 +11,7 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 50c609b3d5c90e64800fb96d9c57d6c2bfa35a66
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '4531'
 ht-degree: 0%
@@ -500,8 +500,8 @@ Learn more about [action responses](../action/action-response.md).
 
 **個人化範例**：
 
-* 「嗨{{profile.firstName}}，感謝您購買{{event.productName}}」
-* 「根據您的忠誠度等級({{profile.loyaltyTier}})，這裡有特別優惠」
+* 「嗨`{{profile.firstName}}`，感謝您購買`{{event.productName}}`」
+* 「根據您的忠誠度等級(`{{profile.loyaltyTier}}`)，這裡有特別優惠」
 * 根據客戶偏好變更的動態內容區塊
 
 深入瞭解[個人化](../personalization/personalize.md)。

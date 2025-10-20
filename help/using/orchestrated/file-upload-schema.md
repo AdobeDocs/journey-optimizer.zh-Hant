@@ -5,7 +5,7 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 46%
@@ -29,7 +29,7 @@ ht-degree: 46%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/model-based)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -182,7 +182,7 @@ ht-degree: 46%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

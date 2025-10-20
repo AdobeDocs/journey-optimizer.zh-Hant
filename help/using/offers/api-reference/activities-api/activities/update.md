@@ -3,10 +3,10 @@ title: 更新決定
 description: 決定包含通知優惠選擇的邏輯。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 9%

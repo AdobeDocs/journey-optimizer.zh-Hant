@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 5%
@@ -60,6 +60,7 @@ ht-degree: 5%
 * 在&#x200B;**線上推斷**&#x200B;階段中，候選者優惠方案會根據模型產生的即時分數進行排名。 傳統協同篩選技術很難加入功能供使用者和選件使用，而個人化最佳化屬於深度學習型建議方法，可加入並學習複雜及非線性功能的互動模式。
 
 以下是一個簡化的範例，說明個人化最佳化背後的基本概念。 假設我們有資料集，用來儲存使用者和選件之間的歷史互動，如圖1所示。 有：
+
 * 兩個選件，offer_1和offer_2，
 * 兩個特徵，feature_1和feature_2，
 * 回應欄。

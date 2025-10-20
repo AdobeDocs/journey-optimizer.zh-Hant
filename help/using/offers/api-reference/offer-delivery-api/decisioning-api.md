@@ -3,10 +3,10 @@ title: 傳遞優惠方案
 description: 決定管理是服務和UI程式的集合，可讓行銷人員使用商業邏輯和決定規則，跨頻道和應用程式建立和提供一般使用者個人化優惠體驗。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%

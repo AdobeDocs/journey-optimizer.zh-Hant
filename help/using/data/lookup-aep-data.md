@@ -5,12 +5,12 @@ title: 使用 Adobe Experience Platform 資料
 description: 瞭解如何在 [!DNL Journey Optimizer] 決策和個人化功能中使用Adobe Experience Platform資料集。
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 
 * **資料集中沒有PII** — 啟用查詢的資料集不應包含任何個人識別資訊(PII)。
 
-* &#x200B;
+* 
    * **刪除風險** — 未保護個人化中使用的資料集免於刪除。 您必須追蹤哪些資料集正在使用，以確保未將其移除。
 
 * **結構描述型別** — 資料集必須與設定檔或事件型別的&#x200B;**NOT**&#x200B;結構描述相關聯。

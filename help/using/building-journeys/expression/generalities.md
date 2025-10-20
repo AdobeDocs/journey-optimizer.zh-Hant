@@ -4,12 +4,12 @@ product: journey optimizer
 title: 進階運算式編輯器語法
 description: 瞭解進階運算式編輯器中使用的語法
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 語法，編輯器，歷程
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 5%
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 | 運算式 | 評估 |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39;優先順序高於&#39;+&#39;：2 * 10→20計算</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>&#39;*&#39;優先順序高於&#39;+&#39;：2 \* 10→20計算</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括弧會變更優先順序： (4 + 2)的評估方式→6</li><li> 6 * 10 → 60</li></ul> |
 
 ## 區分大小寫 {#case-sensitivity}

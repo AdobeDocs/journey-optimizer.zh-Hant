@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 90%
@@ -35,6 +35,7 @@ ht-degree: 90%
 >[!NOTE]
 >
 >**[!UICONTROL 寄件者電子郵件前置詞]**&#x200B;與&#x200B;**[!UICONTROL 錯誤電子郵件前置詞]**&#x200B;位址使用目前選取的[委派子網域](../configuration/about-subdomain-delegation.md)來傳送電子郵件。例如，如果委派的子網域是 *marketing.luma.com*：
+>
 >* 輸入 *contact* 作為&#x200B;**[!UICONTROL 寄件者電子郵件前置詞]** — 寄件者電子郵件為 *contact@marketing.luma.com*。
 >* 輸入 *error* 作為&#x200B;**[!UICONTROL 錯誤電子郵件前置詞]** — 錯誤位址為 *error@marketing.luma.com*。
 

@@ -5,10 +5,10 @@ title: 內容資料與決策請求
 description: 瞭解如何在決策請求中傳遞內容資料。
 badge: label="舊版" type="Informative"
 feature: Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

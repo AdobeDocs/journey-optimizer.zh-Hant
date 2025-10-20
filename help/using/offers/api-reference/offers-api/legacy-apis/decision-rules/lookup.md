@@ -3,10 +3,10 @@ title: 查詢決定規則
 description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%

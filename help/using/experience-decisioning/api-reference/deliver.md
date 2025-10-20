@@ -3,10 +3,10 @@ title: 使用程式碼型體驗頻道提供優惠方案
 description: 使用程式碼型體驗管道提供優惠方案。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 10%

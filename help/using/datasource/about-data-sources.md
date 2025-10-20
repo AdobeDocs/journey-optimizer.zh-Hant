@@ -5,11 +5,11 @@ title: 開始使用資料來源
 description: 瞭解如何開始使用資料來源
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 65%
@@ -49,7 +49,7 @@ ht-degree: 65%
 >
 >資料來源不支援結構描述關係。
 
-如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hant){target="_blank"}。
+如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 作法影片 {#video}
 

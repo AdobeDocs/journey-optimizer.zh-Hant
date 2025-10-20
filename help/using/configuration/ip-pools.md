@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -112,6 +112,7 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 >[!NOTE]
 >
 >成功更新IP集區後，您可能必須等待：
+>
 >* 幾分鐘後，單一訊息便會使用，
 >* 直到IP集區的下一個批次在批次訊息中生效。
 

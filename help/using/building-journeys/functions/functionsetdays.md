@@ -3,12 +3,12 @@ product: journey optimizer
 title: setDays
 description: 瞭解函式setDays
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: setDays，函式，運算式，歷程
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 12%

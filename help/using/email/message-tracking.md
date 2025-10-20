@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -59,7 +59,7 @@ ht-degree: 27%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 

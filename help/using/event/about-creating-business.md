@@ -5,11 +5,11 @@ title: 設定業務事件
 description: 瞭解如何建立商業活動
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=zh-Hant)。 請注意，該結構描述不需要為設定檔啟用。
+>您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html)。 請注意，該結構描述不需要為設定檔啟用。
 
 ## 重要備註 {#important-notes}
 

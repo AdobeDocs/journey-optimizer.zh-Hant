@@ -5,11 +5,11 @@ title: 外部資料來源
 description: 瞭解如何設定外部資料來源
 feature: Journeys, Data Sources, Integrations
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 34%
@@ -101,7 +101,7 @@ ht-degree: 34%
 * **[!UICONTROL 方法]**：選取POST或GET方法。 在本例中，我們選取 GET 方法。
 * **[!UICONTROL 動態值]**：在本例中，輸入以逗號分隔的不同引數，即「long，lat」。 由於參數值視執行內容而定，因此它們會在歷程中定義。[了解更多](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL 回應承載]**：在&#x200B;**[!UICONTROL 承載]**&#x200B;欄位內按一下，並貼上呼叫傳回之承載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，如果要變更目前傳遞的裝載，可以按一下&#x200B;**[!UICONTROL 貼上新的裝載]**。
-* **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
+* **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至第三方系統的有效負載。
 
 若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，系統就會在呼叫結束時自動新增這些引數。 若是 POST 呼叫，您需要：
 

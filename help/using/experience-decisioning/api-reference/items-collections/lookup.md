@@ -3,10 +3,10 @@ title: 查詢專案集合
 description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 60b2990e-e3a6-4d4b-8851-889cf91b0eef
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 5%

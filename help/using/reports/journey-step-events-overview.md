@@ -5,12 +5,12 @@ title: 使用歷程步驟事件
 description: 瞭解如何在Adobe Journey Optimizer中使用歷程步驟事件 — 瞭解其內容、重要性，以及如何將其用於分析和最佳化
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin, User
+role: Engineer, Admin, User
 level: Intermediate, Experienced
 keywords: 歷程，步驟事件，分析，報告，監控， XDM
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%

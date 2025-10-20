@@ -4,10 +4,10 @@ product: journey optimizer
 title: Journey Optimizer 資料工程師快速入門
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 feature: Get Started
-role: Data Engineer
+role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 * **事件**&#x200B;可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 在事件設定中，您會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[在此章節](../../event/about-events.md)深入瞭解事件相關內容。
 
-* [!DNL Journey Optimizer] 隨附內建訊息功能：您可以在歷程中建立訊息，並設計內容。 如果您使用協力廠商系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。[在本節](../../action/action.md)中進一步了解動作。
+* [!DNL Journey Optimizer] 隨附內建訊息功能：您可以在歷程中建立訊息，並設計內容。 如果您使用第三方系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。[在本節](../../action/action.md)中進一步了解動作。

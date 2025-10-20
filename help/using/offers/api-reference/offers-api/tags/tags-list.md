@@ -3,10 +3,10 @@ title: 列出集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 6%
@@ -39,7 +39,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 
 | 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[!]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的版位數。 | `limit=5` |
 

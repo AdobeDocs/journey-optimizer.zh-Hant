@@ -3,12 +3,12 @@ product: journey optimizer
 title: toDecimal
 description: 瞭解函式toDecimal
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 十進位，函式，運算式，歷程
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 13%

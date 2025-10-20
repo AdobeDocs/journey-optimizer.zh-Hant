@@ -3,10 +3,10 @@ title: 建立個人化產品建議
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 72ae1e269c9f0e8f3c978553b0119ffa027f73a1
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%

@@ -3,10 +3,10 @@ title: 開始使用傳遞產品建議 API
 description: 深入瞭解可用於提供個人化優惠的API。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 4%
@@ -20,6 +20,7 @@ ht-degree: 4%
 在此頁面中，您會找到&#x200B;**決策**&#x200B;與&#x200B;**Edge決策** API所提供之特定功能的相關資訊。 雖然兩者皆可讓您為客戶提供優惠方案，但我們建議儘可能針對傳入使用案例使用&#x200B;**Edge Decisioning** API，並確保平台上有更好的延遲和輸送量。
 
 如需如何使用API的詳細資訊，請參閱下列章節：
+
 * [決策 API](decisioning-api.md)
 * [邊緣決策 API](edge-decisioning-api.md)
 * [批次決策 API](batch-decisioning-api.md)

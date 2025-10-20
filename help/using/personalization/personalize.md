@@ -5,11 +5,11 @@ title: 在 Journey Optimizer 中個人化內容
 description: 開始使用個人化。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 25%
@@ -29,7 +29,7 @@ ht-degree: 25%
 
 使用&#x200B;**個人化編輯器**，您可以選取、排列、自訂及驗證所有資料，以建立您內容的自訂個人化，並利用各種工具（例如協助程式功能或預先定義的運算式）來有效地自訂訊息。
 
-Journey Optimizer採用以Handlebars為基礎的內嵌個人化語法，可讓您建立包含雙大括弧&#x200B;**{{}}{{}}**&#x200B;之內容的運算式。
+Journey Optimizer採用以Handlebars為基礎的內嵌個人化語法，可讓您建立包含雙大括弧&#x200B;**`{{}}`**&#x200B;之內容的運算式。
 
 處理訊息時，Journey Optimizer會以Experience Platform資料集中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
 
@@ -51,7 +51,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ![個人化遊樂場](assets/playground.png)
 
-➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 一起來深入探討
 
@@ -97,7 +97,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448153?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
 
@@ -105,4 +105,4 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何善用個人化編輯器遊樂場，使用範例資料來撰寫及測試個人化程式碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)

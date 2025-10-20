@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 18%
@@ -116,14 +116,15 @@ ht-degree: 18%
 1. 指定要委派的子網域名稱。
 
    ![](assets/subdomain-name.png)
-<!--
-    >[!CAUTION]
+
+<!-- >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
     >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-    Capital letters are not allowed in subdomains. TBC by PM-->
+    Capital letters are not allowed in subdomains. TBC by PM
+-->
 
 1. 在專用區段中設定&#x200B;**[!UICONTROL DMARC記錄]**。 如果子網域有現有的[DMARC記錄](dmarc-record.md)，而且[!DNL Journey Optimizer]已擷取該記錄，則您可以視需要使用相同的值或加以變更。 如果您未新增任何值，則會使用預設值。 [瞭解如何管理DMARC記錄](dmarc-record.md#set-up-dmarc)
 
@@ -163,7 +164,7 @@ ht-degree: 18%
 
 1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]&#x200B;**&#x200B;**。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

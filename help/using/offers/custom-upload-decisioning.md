@@ -6,7 +6,7 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 2%
@@ -23,14 +23,14 @@ ht-degree: 2%
 2. 在優惠代表中個人化內容。
 
 如需自訂上傳對象的詳細資訊，請參閱區段：
+
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
 * 僅&#x200B;**決定管理**&#x200B;支援此功能，Decisioning （先前稱為「Experience Decisioning」）不支援。
 * 它只能透過&#x200B;**決策API （中樞）**&#x200B;請求使用，**Edge決策API**&#x200B;或&#x200B;**批次決策**&#x200B;不支援。
- 
 
 ## 使用自訂上傳對象作為資格條件 {#eligibilty}
 

@@ -5,11 +5,11 @@ title: 資料治理
 description: 定義連結至標籤與行銷動作的治理原則。
 feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 98%
@@ -104,7 +104,7 @@ ht-degree: 98%
 
    * **管道**&#x200B;欄位可讓您選取與此自訂動作相關的管道。它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。 在範例中，我們選取&#x200B;**其他**&#x200B;頻道。
 
-   * 此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您使用該自訂動作傳送使用協力廠商的電子郵件，則可選取&#x200B;**電子郵件目標定位**。在範例中，我們選取 _Slack 行銷動作_。系統會擷取並運用與該行銷動作相關聯的治理政策。
+   * 此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您使用該自訂動作傳送使用第三方的電子郵件，則可選取&#x200B;**電子郵件目標定位**。在範例中，我們選取 _Slack 行銷動作_。系統會擷取並運用與該行銷動作相關聯的治理政策。
 
    [本節](../action/about-custom-action-configuration.md#consent-management)詳細介紹了設定自訂動作的其他步驟。
 

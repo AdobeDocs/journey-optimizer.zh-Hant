@@ -5,11 +5,11 @@ title: Personalization使用案例&amp；冒號；購物車放棄電子郵件
 description: 瞭解如何透過使用案例個人化電子郵件訊息內文。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
 1. 建立其結構描述包含`productListItems`陣列的事件。
 1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}中進一步瞭解產品清單專案資料型別。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中進一步瞭解產品清單專案資料型別。
 
 1. 建立從此事件開始的歷程。
 1. 將&#x200B;**電子郵件**&#x200B;活動新增至歷程。
@@ -105,7 +105,7 @@ ht-degree: 2%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hant){target="_blank"}中進一步瞭解人員名稱資料型別。
+      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中進一步瞭解人員名稱資料型別。
 
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 

@@ -5,11 +5,11 @@ title: 設定自訂動作
 description: 瞭解如何設定自訂動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 16%
@@ -23,7 +23,7 @@ ht-degree: 16%
 >title="自訂動作"
 >abstract="如果您使用第三方系統來傳送訊息，或想要歷程傳送 API 呼叫至第三方系統，請使用自訂動作來設定第三方系統與歷程的連線。"
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來設定系統至您歷程的連線。例如，您可使用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
+如果您使用第三方系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來設定系統至您歷程的連線。例如，您可使用自訂動作連線至下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase 等等。
 
 自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 設定之後，它們會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別中。 請在[此頁面](../building-journeys/about-journey-activities.md#action-activities)了解更多。
 
@@ -157,7 +157,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 

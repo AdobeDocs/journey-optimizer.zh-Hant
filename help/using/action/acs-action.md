@@ -5,11 +5,11 @@ title: 與 Adobe Campaign Standard 整合
 description: 瞭解如何將Journey Optimizer與Adobe Campaign Standard整合
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate
 keywords: 行銷活動，標準，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%

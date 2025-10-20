@@ -3,10 +3,10 @@ title: 批次決策 API
 description: 瞭解如何使用批次決策API ，在預先定義的決策範圍內為對象的設定檔選取最佳選件。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * 將資料集匯出至訊息傳送供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -102,12 +102,12 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
-| `xdm:activityId` | 決定的唯一識別碼。 |
+| `xdm:activityId` | 決定的唯一識別碼。 |  |
 | `xdm:dataSetId` | 可寫入決定事件的輸出資料集。 | `6196b4a1a63bd118dafe093c` |
 | `xdm:includeContent` | 這是選擇性欄位，預設為`false`。 如果`true`，則選件內容會包含在資料集的決定事件中。 | `false` |
-| `xdm:itemCount` | 此選擇性欄位會顯示專案數量，例如為決定範圍要求的選項。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位以明確要求更多選項。 每個範圍最多可請求30個選項，最少為1個。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
+| `xdm:itemCount` | 此選擇性欄位會顯示專案數量，例如為決定範圍要求的選項。 依預設，API會針對每個範圍傳回一個選項，但您可以指定此欄位以明確要求更多選項。 每個範圍最多可請求30個選項，最少為1個。 | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 唯一位置識別碼。 | `xcore:offer-placement:1410c4117306488a` |
-| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包裝函式 |
+| `xdm:propositionRequests` | 包含`placementId`和`activityId`的包裝函式 |  |
 | `xdm:segmentIds` | 值是包含對象唯一識別碼的陣列。 它只能包含一個值。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
 請參閱[決定管理檔案](../../get-started/starting-offer-decisioning.md)，以取得主要概念和屬性的概觀。
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[的](../../get-started/starting-offer-decisioning.md)概觀。
+依照此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[的](../../get-started/starting-offer-decisioning.md)概觀。

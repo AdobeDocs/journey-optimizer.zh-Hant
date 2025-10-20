@@ -5,11 +5,11 @@ title: 使用自訂動作在AEP中寫入歷程事件
 description: 使用自訂動作在AEP中寫入歷程事件
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 4%
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
+>在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
 
 ## 使用HTTP API入口設定來源
 

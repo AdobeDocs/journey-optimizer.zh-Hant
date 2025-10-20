@@ -3,10 +3,10 @@ title: 刪除決定規則
 description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 7%

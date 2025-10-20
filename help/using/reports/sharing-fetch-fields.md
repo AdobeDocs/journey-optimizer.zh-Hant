@@ -5,10 +5,10 @@ title: journeyStep 事件資料擷取欄位
 description: journeyStep 事件資料擷取欄位
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 4%
@@ -34,6 +34,7 @@ ht-degree: 4%
 型別：字串
 
 值：
+
 * aep
 * 自訂
 
@@ -44,6 +45,7 @@ ht-degree: 4%
 型別：字串
 
 值：
+
 * http
 * 上限
 * 逾時

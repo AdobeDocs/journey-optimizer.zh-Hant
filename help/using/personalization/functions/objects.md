@@ -3,19 +3,19 @@ title: 物件函式庫
 description: 物件函式庫
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 19%
+ht-degree: 7%
 
 ---
 
-# 物件函數 {#objects}
+# 物件函式 {#objects}
 
-## 是 Null{#isNull}
+## 為空{#isNull}
 
 `isNull`函式決定物件參考是否不存在。
 
@@ -33,7 +33,7 @@ ht-degree: 19%
 {%= isNull(person.homeAddress) %}
 ```
 
-## 不是 Null{#isNotNull}
+## 不是Null{#isNotNull}
 
 `isNotNull`函式決定物件參考是否存在。
 

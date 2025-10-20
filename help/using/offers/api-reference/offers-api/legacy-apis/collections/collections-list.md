@@ -3,10 +3,10 @@ title: 清單集合
 description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 4%
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=2` |
 | `{CONTAINER_ID}` | 集合所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | 定義與集合相關聯的結構描述。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
 | `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=1` |
 
 **要求**

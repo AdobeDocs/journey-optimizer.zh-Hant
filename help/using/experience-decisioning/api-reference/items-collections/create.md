@@ -3,10 +3,10 @@ title: 建立專案集合
 description: 集合可讓您根據自己的偏好設定來分類和分組決策專案。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 6%

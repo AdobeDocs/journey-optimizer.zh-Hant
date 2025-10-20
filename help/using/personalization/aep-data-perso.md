@@ -6,11 +6,11 @@ description: 瞭解如何使用Adobe Experience Platform資料進行個人化。
 badge: label="有限可用性" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -56,7 +56,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -89,7 +89,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
      +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 

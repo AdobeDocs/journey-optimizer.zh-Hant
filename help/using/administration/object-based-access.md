@@ -5,11 +5,11 @@ title: 物件等級存取控制
 description: 瞭解物件層級存取控制，其可讓您定義授權，以管理對所選物件的資料存取
 feature: Access Management
 topic: Administration
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 17%
@@ -53,7 +53,7 @@ ht-degree: 17%
 
 使用標籤為使用者提供存取權，並強制執行資料治理和同意原則。 這些治理標籤可能會影響下游消耗。
 
-您可以在[!DNL Permissions]產品中建立標籤。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=zh-Hant){target="_blank"}。
+您可以在[!DNL Permissions]產品中建立標籤。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html){target="_blank"}。
 
 您也可以直接在Journey Optimizer中建立&#x200B;**[!UICONTROL 標籤]**。 若要建立標籤，請遵循下列步驟：
 
@@ -73,7 +73,7 @@ ht-degree: 17%
 
    ![標籤設定欄位](assets/olac_3.png)
 
-1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的]**&#x200B;標籤&#x200B;**[!UICONTROL 。]**
+1. 按一下[建立]**[!UICONTROL 以儲存您的]**&#x200B;標籤&#x200B;**[!UICONTROL 。]**
 
 您新建立的&#x200B;**[!UICONTROL 標籤]**&#x200B;現在可在清單中使用。 如有需要，您可以在[!DNL Permissions]產品中修改它。
 
@@ -87,7 +87,7 @@ ht-degree: 17%
 
 1. 從&#x200B;**[!UICONTROL 管理存取權]**&#x200B;視窗，選取您的自訂或核心資料使用標籤，以管理此物件的存取權。
 
-   如需核心資料使用標籤的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant){target="_blank"}。
+   如需核心資料使用標籤的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html){target="_blank"}。
 
    ![](assets/olac_4.png)
 
@@ -95,4 +95,4 @@ ht-degree: 17%
 
 若要存取此物件，使用者的&#x200B;**[!UICONTROL 角色]**&#x200B;中必須包含特定的&#x200B;**[!UICONTROL 標籤]**。 例如，具有C1標籤的使用者將只能存取C1標籤或未標籤的物件。
 
-如需如何將&#x200B;**[!UICONTROL 標籤]**&#x200B;指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=zh-Hant#manage-labels-for-a-role){target="_blank"}。
+如需如何將&#x200B;**[!UICONTROL 標籤]**&#x200B;指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role){target="_blank"}。

@@ -5,12 +5,12 @@ title: 新增個人化
 description: 瞭解如何使用個人化編輯器新增個人化。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 10%

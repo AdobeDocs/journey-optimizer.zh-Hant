@@ -3,12 +3,12 @@ product: journey optimizer
 title: replace
 description: 瞭解函式取代
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 取代，函式，運算式，歷程
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 11%

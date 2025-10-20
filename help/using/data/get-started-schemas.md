@@ -4,12 +4,12 @@ product: journey optimizer
 title: 開始使用結構描述
 description: 了解如何在 Adobe Journey Optimizer 使用 Adobe Experience Platform 結構描述
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 

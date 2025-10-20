@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 84%
@@ -153,6 +153,7 @@ PTR 記錄更新可以有下列狀態：
 如果驗證程序失敗，則會顯示舊的 PTR 記錄。 先前與 IP 位址相關聯的有效子網域則維持不變。
 
 可能的更新錯誤類型如下：
+
 * 無法為 PTR 記錄建立新的轉寄 DNS
 * 無法更新記錄
 * 相似性無法重新上線

@@ -5,11 +5,11 @@ title: 與 Marketo Engage 整合
 description: 瞭解如何使用Marketo Engage動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -49,7 +49,7 @@ ht-degree: 4%
 
    ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-1. 在[欄位]設定畫面中按一下[儲存]。**&#x200B;**，然後按一下[儲存]。**&#x200B;**&#x200B;您的自訂動作。
+1. 在[欄位]設定畫面中按一下[儲存]。****，然後按一下[儲存]。****&#x200B;您的自訂動作。
 
 您現在可以在歷程畫布上使用自訂動作。
 

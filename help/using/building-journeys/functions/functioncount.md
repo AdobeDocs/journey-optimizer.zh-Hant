@@ -3,12 +3,12 @@ product: journey optimizer
 title: 計數
 description: 瞭解函式計數
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 計數，函式，運算式，歷程
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 10%

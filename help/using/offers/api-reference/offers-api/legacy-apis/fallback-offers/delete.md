@@ -3,10 +3,10 @@ title: 刪除後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 8%

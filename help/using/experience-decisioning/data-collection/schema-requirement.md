@@ -4,12 +4,12 @@ solution: Experience Platform
 title: 設定事件擷取
 description: 瞭解如何設定您的優惠方案綱要以擷取事件
 feature: Ranking, Datasets, Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
-source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -109,4 +109,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->如果您使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hant){target="_blank"}，連線會自動建立。
+>如果您使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}或[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}，連線會自動建立。

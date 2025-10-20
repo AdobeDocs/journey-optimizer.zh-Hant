@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
@@ -44,6 +44,7 @@ ht-degree: 6%
 此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
 
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
+
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
 * `{BASE_PATH}` ： API的進入點。
 * `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
@@ -182,6 +183,7 @@ ht-degree: 6%
 >更新已部署的組態後需要重新部署。
 
 要使用的API呼叫：
+
 1. **`list`** — 擷取現有設定。
 1. **`get`** — 擷取特定設定的詳細資料。
 1. **`update`** — 修改設定。

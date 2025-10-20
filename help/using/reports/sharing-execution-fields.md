@@ -5,13 +5,13 @@ title: journeyStep 事件動作執行欄位
 description: journeyStep 事件動作執行欄位
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -67,6 +67,7 @@ ht-degree: 4%
 型別：字串
 
 值：
+
 * http
 * 上限
 * 逾時
@@ -113,12 +114,12 @@ actionExecOrigError的錯誤碼。
 值：
 
 * 內建
-* ACS電子郵件
-* ACS簡訊
-* ACS推播
+   * ACS電子郵件
+   * ACS簡訊
+   * ACS推播
 * 客戶
-* Epsilon
-* ...
+   * Epsilon
+   * ...
 
 型別：字串
 
