@@ -4,12 +4,12 @@ product: journey optimizer
 title: 條件式指令(if， then， else)
 description: 瞭解條件式指令
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 進階，條件，動作，歷程
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

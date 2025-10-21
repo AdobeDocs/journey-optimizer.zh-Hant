@@ -5,11 +5,11 @@ title: 傳送事件至歷程的其他步驟
 description: 瞭解將事件傳送到歷程的其他步驟
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 步驟，設定，歷程，事件，串流， API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 3%
@@ -90,4 +90,4 @@ ht-degree: 3%
 
 若要方便識別貼上「資料」部分的地方，您可以使用JSON視覺化工具，例如[JSON格式子](https://jsonformatter.curiousconcept.com){target="_blank"}。
 
-若要疑難排解串流擷取API，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}。
+若要疑難排解串流擷取API，請參閱[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}。

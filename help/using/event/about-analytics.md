@@ -5,11 +5,11 @@ title: Adobe Analytics 整合
 description: 瞭解如何在Journey Optimizer中善用Adobe Analytics資料
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics，整合， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 ![](assets/ajo-aa_4.png)
 
-在[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Experience Platform來源聯結器。
+在[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"}和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}中進一步瞭解Adobe Experience Platform來源聯結器。
 
 ## 啟用此設定 {#activate-analytics-data}
 

@@ -5,11 +5,11 @@ title: 開始使用動作
 description: 瞭解如何使用動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 37%
@@ -49,7 +49,7 @@ ht-degree: 37%
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 其他資源
 

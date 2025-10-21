@@ -5,11 +5,11 @@ title: 設定單一事件
 description: 瞭解如何設定單一事件
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%

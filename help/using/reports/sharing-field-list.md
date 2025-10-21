@@ -5,10 +5,10 @@ title: 步驟事件欄位清單
 description: 步驟事件欄位清單
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -70,7 +70,7 @@ ht-degree: 9%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 

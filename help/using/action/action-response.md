@@ -5,11 +5,11 @@ title: 自訂動作增強功能
 description: 深入瞭解自訂動作的最新增強功能
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```

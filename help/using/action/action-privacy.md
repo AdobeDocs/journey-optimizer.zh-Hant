@@ -5,11 +5,11 @@ title: 資料治理
 description: 定義連結至標籤與行銷動作的治理原則。
 feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 98%

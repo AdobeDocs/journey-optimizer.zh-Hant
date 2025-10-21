@@ -6,11 +6,11 @@ description: 瞭解集合管理函式中的資料型別
 feature: Journeys
 hide: true
 hidefromtoc: true
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -228,7 +228,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_

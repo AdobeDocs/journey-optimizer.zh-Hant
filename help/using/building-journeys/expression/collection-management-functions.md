@@ -4,12 +4,12 @@ product: journey optimizer
 title: 集合管理功能
 description: 瞭解集合管理函式中的資料型別
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -152,7 +152,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函式
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_

@@ -5,11 +5,11 @@ title: 與 Adobe Campaign v7/v8 整合
 description: 瞭解如何將Journey Optimizer與Adobe Campaign v7/v8整合
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 12%
@@ -32,12 +32,13 @@ ht-degree: 12%
 提出要求時，Adobe會在布建時設定Journey Optimizer與Adobe Campaign環境之間的連線。 如果您在布建時尚未要求連線，請聯絡Adobe Journey Optimizer支援以要求啟用。 您必須提供下列詳細資料：
 
 >[!BEGINTABS]
->[!TAB 適用於Adobe Journey Optimizer 的]
+
+>適用於Adobe Journey Optimizer[!TAB 的]
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign 的]
+>適用於Adobe Campaign[!TAB 的]
 
 * 行銷活動伺服器URL
 * 即時伺服器URL
@@ -60,7 +61,7 @@ ht-degree: 12%
 
 ## 先決條件 {#prerequisites}
 
-在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 
