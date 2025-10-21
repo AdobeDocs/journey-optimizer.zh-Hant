@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 93%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在Journey Optimizer中的資料作業符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。 這些原則是 Adobe Experience Platform 規則，定義您可以對資料執行哪些行銷動作。
 
-預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可在 Experience Platform 建立同意原則，以排除尚未同意接收通訊的客戶。如果沒有自訂原則，則套用預設原則。
+預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可以在Experience Platform中建立同意原則，以排除尚未同意接收特定頻道通訊的客戶。 如果沒有自訂原則，則套用預設原則。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 1. 在 Adobe Experience Platform 中，建立同意原則與相關聯的行銷動作。[瞭解如何建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
 
-2. 使用管道設定或歷程自訂動作，在 Adobe Journey Optimizer 中套用同意原則。
+2. 使用管道設定或歷程自訂動作，在Adobe Journey Optimizer中套用同意原則。
 
    * 建立管道設定與相關聯的行銷動作。使用管道設定建立通訊時，它會繼承已建立關聯的行銷動作，並套用 Adobe Experience Platform 中定義的對應同意原則。[了解如何透過管道設定運用同意原則](#surface-marketing-actions)
 
@@ -41,7 +41,7 @@ ht-degree: 93%
 
 ## 透過管道設定運用同意原則 {#surface-marketing-actions}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時修改此預設值，成為[這裡](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}可能列出的一個值。
 
 若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。[進一步瞭解行銷動作](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 1. 儲存並[啟用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#enable){target="_blank"}此原則。
 
-1. 在 Journey Optimizer 建立電子郵件表面。 [了解作法](../configuration/channel-surfaces.md#create-channel-surface)
+1. 在Journey Optimizer中，建立電子郵件通道設定。 [了解作法](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. 在電子郵件設定詳細資料中，選擇&#x200B;**[!UICONTROL 電子郵件目標定位]**&#x200B;行銷動作。
 
