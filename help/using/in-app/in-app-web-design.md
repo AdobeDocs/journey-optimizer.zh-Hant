@@ -8,9 +8,9 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,8 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_3.png)
 
-輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../content-management/assets-essentials.md)。
+輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。<!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
 您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
@@ -130,7 +131,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
 
 +++更多具有進階格式的選項
 

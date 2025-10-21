@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '637'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 管道報表是完全可自訂的，因此您可以調整大小或移除Widget，以建立符合您特定需求的儀表板。 您也可以將報表資料匯出至PDF或CSV檔案，以供進一步分析。
 
-深入瞭解[此頁面](channel-report.md)上管道報表可用的不同量度和Widget。
+深入瞭解<!--[this page](channel-report.md)-->上管道報表可用的不同量度和Widget。
 
 ## 開始之前 {#manage-reports-prereq}
 
@@ -91,7 +91,7 @@ ht-degree: 7%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。**&#x200B;**&#x200B;**&#x200B;**
+1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。********
 
 1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
@@ -103,7 +103,7 @@ ht-degree: 7%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表按一下[匯出]&#x200B;**&#x200B;**，然後選取[CSV檔案]&#x200B;**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
 1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 將Widget資料匯出至CSV]**。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 2%
@@ -107,19 +107,19 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | 此物件包含位置與決定識別碼。 |
+| `xdm:propositionRequests` | 此物件包含位置與決定識別碼。 |  |
 | `xdm:propositionRequests.xdm:placementId` | 唯一位置識別碼。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | 唯一決定識別碼。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 要傳回的優惠方案數量。 最大數目為30。 | `"xdm:itemCount": 2` |
-| `xdm:profiles` | 此物件包含請求決策的設定檔的相關資訊。 針對API請求，這將包含一個設定檔。 |
+| `xdm:profiles` | 此物件包含請求決策的設定檔的相關資訊。 針對API請求，這將包含一個設定檔。 |  |
 | `xdm:profiles.xdm:identityMap` | 此物件會根據身分的名稱空間整合程式碼，保留一組一般使用者身分。 身分對應可攜帶每個名稱空間一個以上的身分。 如需名稱空間的詳細資訊，請參閱[此頁面](../../../audience/get-started-identity.md)。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | 使用者端產生的ID，可用來唯一識別設定檔決定請求。 此ID會回應回饋，不會影響決策的結果。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | 此物件是去重複化規則的控制項結構。 它包含一系列標幟，標幟指出是否可以在特定維度中建議相同的選項。 若標幟設為true，表示允許重複專案，且標幟指示的類別中不應移除重複專案。 設為false的標幟表示決定引擎不應跨維度提出相同主張，而是為其中一個子決定挑選下一個最佳選項。 |
+| `xdm:allowDuplicatePropositions` | 此物件是去重複化規則的控制項結構。 它包含一系列標幟，標幟指出是否可以在特定維度中建議相同的選項。 若標幟設為true，表示允許重複專案，且標幟指示的類別中不應移除重複專案。 設為false的標幟表示決定引擎不應跨維度提出相同主張，而是為其中一個子決定挑選下一個最佳選項。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 若設為true，系統可能會將相同選項指派給多個決策。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 若設為true，系統可能會將相同選項指派給多個版位。 | `"xdm:acrossPlacements": true` |
 | `xdm:enrichedAudience` | 如果您正在定位CSV對象，請新增此引數並將其設為「true」 | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 識別用來控管設定檔存取服務傳回資料的合併原則。 如果未在請求中指定，決策管理將不會傳遞任何設定檔存取服務，否則將會傳遞呼叫者提供的ID。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | 設定回應內容格式的一組標幟。 |
+| `xdm:responseFormat` | 設定回應內容格式的一組標幟。 |  |
 | `xdm:responseFormat.xdm:includeContent` | 布林值，如果設為`true`，會包含回應的內容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用來指定傳回其他中繼資料的物件。 如果未包含此屬性，則預設會傳回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此旗標會識別`xdm:activity`傳回的特定中繼資料資訊。 | `name` |
@@ -185,7 +185,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 屬性 | 說明 | 範例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | 與XDM DecisionEvent相關聯之主張實體的唯一識別碼。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | 此物件包含單一決定主張。 可針對決定傳回多個選項。 如果找不到選項，則會傳回決定的遞補優惠。 單一決定主張一律包含`options`屬性或`fallback`屬性。 當出現時，`options`屬性不能是空的。 |
+| `xdm:propositions` | 此物件包含單一決定主張。 可針對決定傳回多個選項。 如果找不到選項，則會傳回決定的遞補優惠。 單一決定主張一律包含`options`屬性或`fallback`屬性。 當出現時，`options`屬性不能是空的。 |  |
 | `xdm:propositions.xdm:activity` | 此物件包含決定的唯一識別碼。 | `"xdm:id": "dps:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | 此物件包含優惠方案位置的唯一識別碼。 | `"xdm:id": "dps:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | 此物件包含單一選項，包括其唯一識別碼。 如果存在，此物件不得為空白。 | `xdm:id": "dps:personalized-option:ccc0111` |

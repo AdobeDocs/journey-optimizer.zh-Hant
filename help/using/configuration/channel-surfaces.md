@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 13%
@@ -238,6 +238,7 @@ ht-degree: 13%
 #### 成功 {#success}
 
 一旦驗證程式成功，新版本的設定就會自動用於使用此設定的所有訊息。 不過，您可能必須等待：
+
 * 幾分鐘後，單一訊息便會使用，
 * 直到下一次批次設定在批次訊息中生效為止。
 

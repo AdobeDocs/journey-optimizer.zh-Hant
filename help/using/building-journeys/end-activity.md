@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，活動，結束
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 57%
@@ -26,4 +26,6 @@ ht-degree: 57%
 
 **[!UICONTROL End]**&#x200B;活動可讓您標籤歷程每個路徑的結尾。 這並非強制性，但為了視覺清晰度建議使用。事實上，如果歷程具有數個結束活動，我們建議您為各結尾新增標籤，讓報告更易於閱讀。 請參閱[此頁面](../reports/live-report.md)。
 
+<!--
 ![](assets/journey54.png)
+-->

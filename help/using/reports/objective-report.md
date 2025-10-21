@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 4%
 
 ---
@@ -22,15 +22,17 @@ ht-degree: 4%
 
 透過&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，可以直接從您的行銷活動存取行銷活動全域報告。
 
-行銷活動&#x200B;**[!UICONTROL 全域報告]**&#x200B;會分成不同的Widget，詳細說明行銷活動的成功與錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此[區段](../reports/global-report.md#modify-dashboard)。
+行銷活動&#x200B;**[!UICONTROL 全域報告]**&#x200B;會分成不同的Widget，詳細說明行銷活動的成功與錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此<!--[section](../reports/global-report.md#modify-dashboard)-->。
 
-如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](global-report.md#list-of-components-global.md)
+如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱<!--[this page](global-report.md#list-of-components-global.md)-->
 
 ## 行銷活動標籤 {#campaign-global-objectives}
 
 ### 傳遞 {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 **[!UICONTROL 行銷活動的統計資料]** Widget會詳細說明與您的行銷活動相關的主要資訊：
 
@@ -58,7 +60,9 @@ ht-degree: 4%
 
 ### 實驗報告 {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 **[!UICONTROL Experimentation]**&#x200B;索引標籤提供每個變體效能的重要深入分析，並識別最成功的變體。
 

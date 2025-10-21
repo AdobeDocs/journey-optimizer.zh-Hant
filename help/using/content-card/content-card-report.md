@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 6%
@@ -35,7 +35,9 @@ ht-degree: 6%
 
 ## 顯示與點選趨勢 {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 **[!UICONTROL 顯示和點選趨勢]**&#x200B;圖表可協助您瞭解訊息的整體觸及範圍和與其互動的不重複設定檔數目。
 
@@ -51,7 +53,9 @@ ht-degree: 6%
 
 ## 追蹤資料 {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 **[!UICONTROL 追蹤資料]**&#x200B;表格提供繫結至內容卡的設定檔活動詳細快照，提供參與度和內容卡有效性的基本深入分析。
 
