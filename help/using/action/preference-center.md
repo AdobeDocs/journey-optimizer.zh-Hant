@@ -109,15 +109,15 @@ ht-degree: 4%
 
     例如，若要只傳送通訊給未選擇不接收電子郵件電子報的客戶，請建立自訂原則並定義下列條件： 
     
-    *如果**[!UICONTROL 行銷動作]**等於**[!UICONTROL 電子郵件]**
+    *如果&#x200B;**[!UICONTROL 行銷動作]**&#x200B;等於&#x200B;**[!UICONTROL 電子郵件]**
     
-    *則**[!UICONTROL Newsletter_Email]**不存在**[!UICONTROL false]**或**[!UICONTROL Newsletter_Email]**不等於**[!UICONTROL false]**
+    *則&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等於&#x200B;**[!UICONTROL false]**
     
-    ！[](assets/consent-policy-email-newsletter.png){width=100%}
+    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=100%}
     
     >[！TIP]
     >
-    >啟用設定檔的資料集必須包含設定檔屬性**[!UICONTROL Newsletter_Email]**，其值設定為&#39;true&#39; （如步驟1中所述）
+    >啟用設定檔的資料集必須包含設定檔屬性&#x200B;**[!UICONTROL Newsletter_Email]**，其值設定為&#39;true&#39; （如步驟1中所述）
 
 1. 建立同意原則後，請使用[!DNL Journey Optimizer]通道設定[或](consent.md#surface-marketing-actions)歷程自訂動作[，在](consent.md#journey-custom-actions)中運用它。
 
