@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 47%
@@ -268,7 +268,7 @@ ht-degree: 47%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator現在包含Experimentation Agent，這是AI支援的對話工具，可讓您與實驗、見解和機會互動。 它增強了Journey Optimizer Experimentation Accelerator體驗，幫助您更高效地執行實驗、揭示哪些有效，並探索下一步最佳化的目標。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
 下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新推出後，更新的連結、畫面和文件將會共用。
 
-### 全新功能 {#oct-25-10-soon-features}
+#### 全新功能 {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 </tbody>
 </table>
 
-### 改良功能 {#oct-25-10-soon-improvements}
+#### 改良功能 {#oct-25-10-soon-improvements}
 
 透過AI模型在電子郵件中&#x200B;**決策**
 
