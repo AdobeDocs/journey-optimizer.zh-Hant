@@ -40,7 +40,7 @@ ht-degree: 24%
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 
