@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 15%
+source-wordcount: '902'
+ht-degree: 14%
 
 ---
 
@@ -149,15 +149,21 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!DNL WhatsApp]**&#x200B;作為您的頻道。
 
-   ![](assets/whatsapp-config-2.png)
+   ![](assets/whatsapp-config-2.png){width=80%}
 
-1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 了解更多
+1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
-1. 選取先前建立的&#x200B;**[!UICONTROL WhatsApp API組態]**。
+1. 在&#x200B;**[!UICONTROL WhatsApp設定]**&#x200B;區段中，選取先前建立的&#x200B;**[!UICONTROL WhatsApp設定]**。
 
-   ![](assets/whatsapp-config-3.png)
+   ![](assets/whatsapp-config-3.png){width=80%}
 
-1. 輸入&#x200B;您要用於通訊的&#x200B;**[!UICONTROL 寄件者名稱]**。
+1. 輸入&#x200B;您要用於通訊的&#x200B;**[!UICONTROL 寄件者電話號碼]**。
+
+1. 如果資料庫中有數個號碼，請使用&#x200B;**[!UICONTROL WhatsApp執行欄位]**&#x200B;在設定檔屬性中選取要優先使用的電話號碼。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >依預設，[!DNL Journey Optimizer]在沙箱層級使用[一般設定](../configuration/primary-email-addresses.md)中指定的電話號碼。 更新此欄位會覆寫使用此設定的歷程和行銷活動的預設值。
 
 1. 設定完所有引數後，按一下&#x200B;**[!UICONTROL 提交]**&#x200B;確認。 您也可以將頻道設定儲存為草稿，並稍後繼續其設定。
 
@@ -180,6 +186,6 @@ ht-degree: 15%
 
 +++ 請觀看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

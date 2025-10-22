@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '641'
+ht-degree: 20%
 
 ---
 
@@ -32,20 +32,18 @@ ht-degree: 23%
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
-![](assets/primary-address-execution-fields.png)
+![](assets/primary-address-execution-fields.png){width=90%}
 
 >[!NOTE]
 >
->電子郵件和簡訊通道可使用執行欄位。
+>電子郵件、簡訊和WhatsApp通道有可用的執行欄位。
 
 目前的值會用於沙箱層級的所有傳送。 您可以視需要更新這些欄位。
 
-在大多數情況下，您將會全域變更執行欄位，並定義用於所有電子郵件或簡訊訊息的值。<!--[Learn how](#admin-settings)-->
-
-<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+在大多數情況下，您將會全域變更執行欄位，並定義用於所有電子郵件、簡訊或WhatsApp訊息的值。
 
 ## 更新管理設定 {#admin-settings}
 
@@ -55,15 +53,15 @@ ht-degree: 23%
 
 1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以變更預設值。
 
-   ![](assets/primary-address.png)
+   ![](assets/primary-address-edit.png){width=70%}
 
 1. 按一下您選取的目前欄位或編輯圖示以選取新欄位。
 
-   ![](assets/primary-address-edit.png)
+   ![](assets/primary-address-edit-field.png){width=70%}
 
 1. 可用的電子郵件型別XDM欄位清單隨即顯示。 選取要使用的欄位。
 
-   ![](assets/primary-address-select-field.png)
+   ![](assets/primary-address-select-field.png){width=90%}
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認您的選擇。
 
@@ -83,18 +81,18 @@ ht-degree: 23%
 
 覆寫此值可能很實用，例如：
 
-* 測試電子郵件。 您可以新增自己的電子郵件地址：在您發佈歷程後，系統會傳送電子郵件給您。
-* 傳送電子郵件給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
+* 測試您的傳遞。 您可以新增自己的電子郵件地址或電話號碼：在您發佈歷程後，會傳送電子郵件、簡訊或WhatsApp訊息給您。
+* 傳送訊息給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 簡訊]**&#x200B;動作新增至[歷程](../email/create-email.md#create-email-journey-campaign)時，主要電子郵件地址會顯示在歷程進階引數下。
+將&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;動作新增至[歷程](../email/create-email.md#create-email-journey-campaign)時，主要電子郵件地址或電話號碼會顯示在歷程進階引數下。
 
 使用欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示覆寫此值。
 
-![](assets/journey-enable-parameter-override.png)
+![](assets/journey-enable-parameter-override.png){width=85%}
 
 >[!CAUTION]
 >
->電子郵件地址覆寫僅用於特定使用案例。 在大多數情況下，您不需要變更電子郵件地址，因為&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要電子郵件的值才是應該使用的值。
+>電子郵件地址或電話號碼覆寫僅應用於特定使用案例。 在大多數情況下，您不需要變更它，因為在沙箱層級的&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要位址的值才是應該使用的值。
 
 ## 覆寫通道設定中的預設執行欄位 {#override-execution-address-channel-config}
 
@@ -103,9 +101,13 @@ ht-degree: 23%
 >title="覆寫要使用的預設執行地址"
 >abstract="當資料庫中有數個電子郵件地址或電話號碼（個人、專業人員等）時，您可以選擇優先傳送哪一個。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定通道設定的預設設定。"
 
-您可以變更特定電子郵件或SMS [通道組態](channel-surfaces.md)的預設執行位址。
+您可以變更特定電子郵件、簡訊或WhatsApp [頻道設定](channel-surfaces.md)的預設執行位址。
 
-若要這麼做，請移至&#x200B;**[!UICONTROL 執行維度]**&#x200B;區段，並編輯&#x200B;**[!UICONTROL 執行位址]**&#x200B;下的欄位。
+若要這麼做，請移至&#x200B;**[!UICONTROL 執行維度]**&#x200B;區段，並編輯&#x200B;**[!UICONTROL 執行位址]**&#x200B;下的專用欄位。
+
+>[!NOTE]
+>
+>對於[WhatsApp管道](../whatsapp/whatsapp-configuration.md#whatsapp-configuration)，**[!UICONTROL WhatsApp執行欄位]**&#x200B;位於&#x200B;**[!UICONTROL WhatsApp設定]**&#x200B;區段下。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

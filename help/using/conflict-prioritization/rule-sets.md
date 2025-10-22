@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 27%
+source-wordcount: '1062'
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
->abstract="使用規則集將頻率上限套用至不同類型的行銷傳播。您也可以建立規則集，依照頻率上限規則，將部分對象排除在歷程以外。"
+>abstract="使用規則集將頻率上限或無訊息時數規則套用至不同型別的行銷通訊。 您也可以建立規則集，依照頻率上限規則，將部分對象排除在歷程以外。"
 
 ## 開始使用規則集 {#gs}
 
@@ -31,7 +31,11 @@ ht-degree: 27%
 
 您可以建立兩種型別的規則集：
 
-* **管道**&#x200B;規則集套用上限規則至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。
+* **管道**&#x200B;規則集套用規則至通訊管道。 它們可讓您設定：
+
+   * **頻率上限規則** - *每天傳送的電子郵件或簡訊通訊請勿超過1個。*
+   * **無訊息時數規則** （可用性限制） - *請勿在早上8點至晚上9點的時段之外傳送電子郵件訊息。*
+
 * **歷程**&#x200B;規則集將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
 
 ➡️ [在影片中探索此功能](#video)
@@ -76,7 +80,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="規則類型"
->abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數** （限時提供）以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息」。"
+>abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數** （限時提供）以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息」。
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ ht-degree: 27%
 
 1. 選取規則集的網域，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   * **管道**&#x200B;網域：為通訊管道套用上限規則。
+   * **頻道**&#x200B;網域：套用上限規則或無訊息時數規則至通訊頻道。
    * **歷程**&#x200B;網域：將專案與並行上限規則套用至歷程。
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ ht-degree: 27%
 
 1. 視需要設定規則引數。 規則可用的引數取決於建立時選取的規則集網域。
 
-   以下章節提供了有關如何設定歷程和管道上限規則的詳細資訊：
+   有關如何設定歷程和管道規則的詳細資訊，請參閱以下章節：
 
    * [歷程上限](../conflict-prioritization/journey-capping.md)
    * [依據頻道、通訊類型，設定頻率上限](../conflict-prioritization/channel-capping.md)
+   * [無訊息時數](../conflict-prioritization/quiet-hours.md) （限量提供）
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認建立規則。 您的訊息已新增至規則集，狀態為&#x200B;**[!UICONTROL 草稿]**。
 
@@ -146,7 +151,8 @@ ht-degree: 27%
    以下各節提供如何套用規則集的詳細資訊：
 
    * [將規則集套用至歷程](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [將上限規則套用至訊息](../conflict-prioritization/channel-capping.md#apply)
+   * [套用上限規則至歷程和行銷活動動作](../conflict-prioritization/channel-capping.md#apply)
+   * [將無訊息時間規則套用至歷程和行銷活動](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 存取及管理規則集 {#access-rule-sets}
 
@@ -174,4 +180,4 @@ ht-degree: 27%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

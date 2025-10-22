@@ -11,10 +11,10 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 10%
+source-wordcount: '1461'
+ht-degree: 9%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
@@ -186,9 +186,33 @@ ht-degree: 10%
 
 1. 按一下&#x200B;**[!UICONTROL 建立目標規則]**。
 
-1. 使用規則產生器來定義條件。 例如，定義忠誠度計畫的金會員規則(`loyalty.status.equals("Gold", false)`)，以及其他會員規則(`loyalty.status.notEqualTo("Gold", false)`)。
+1. 按一下「**[!UICONTROL 建立規則]**」>「**[!UICONTROL 新建]**」，然後使用規則產生器來定義您的條件。
+
+   ![](assets/journey-targeting-create-rule.png){width=100%}
+
+   例如，定義忠誠度計畫的金會員規則(`loyalty.status.equals("Gold", false)`)，以及其他會員規則(`loyalty.status.notEqualTo("Gold", false)`)。
 
    ![](assets/journey-targeting-rule.png)
+
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
+
+   ![](assets/journey-targeting-select-rule.png){width=70%}
+
+   在此情況下，組成規則的公式只會複製到歷程活動中。 從&#x200B;**[!UICONTROL 規則]**&#x200B;選單對該規則所做的任何後續變更將不會影響歷程的副本。
+
+   >[!AVAILABILITY]
+   >
+   >[使用專用的](../experience-decisioning/rules.md#create)功能表建立鎖定目標規則[!DNL Journey Optimizer]，目前可供已購買決策附加元件產品的組織使用，其他組織也可依需求使用（可用性限制）。
+   >
+   >此容量將逐步向所有客戶推出。 與此同時，請聯絡您的Adobe代表以取得存取權。
+
+1. 新增規則後，您仍可加以修改。 選擇&#x200B;**[!UICONTROL 編輯內嵌]**，以使用規則產生器即時更新它，或選擇&#x200B;**[!UICONTROL 選取規則]**&#x200B;以挑選另一個現有的規則。
+
+   ![](assets/journey-targeting-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >編輯規則內嵌不會影響其源自的現有規則。
 
 1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補路徑]**&#x200B;選項。 此動作會針對不符合上述任何鎖定目標規則的對象建立遞補路徑。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1082'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
   Adobe Journey Optimizer也提供特定的[產品內使用案例](#use-case-1)，以協助建立測試設定檔。
 
-您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant#add-data-to-dataset){target="_blank"}。
+您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
 
 請注意，建立測試設定檔與在Adobe Experience Platform中建立一般設定檔類似。 如需詳細資訊，請參閱[即時客戶個人檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 
@@ -52,9 +52,9 @@ ht-degree: 3%
    ![](assets/test-profiles-1.png)
 1. 輸入結構描述的名稱，然後按一下&#x200B;**完成**。
    ![](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**&#x200B;欄位群組。
+1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**欄位群組。
    ![](assets/test-profiles-1-ter.png)
-完成後，按一下&#x200B;**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
+完成後，按一下**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -65,13 +65,13 @@ ht-degree: 3%
    ![](assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;右側窗格中，檢查&#x200B;**[!UICONTROL 身分]**&#x200B;和&#x200B;**[!UICONTROL 主要身分]**&#x200B;選項，並選取名稱空間。 如果您希望主要身分識別是電子郵件地址，請選擇&#x200B;**[!UICONTROL 電子郵件]**&#x200B;名稱空間。 按一下&#x200B;**[!UICONTROL 套用]**。
    ![](assets/test-profiles-4bis.png)
-1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
+1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**選項。
    ![](assets/test-profiles-5.png)
 1. 按一下&#x200B;**儲存**。
 
 >[!NOTE]
 >
->如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant#prerequisites){target="_blank"}。
+>如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
 
 ### 建立資料集
 
@@ -85,12 +85,12 @@ ht-degree: 3%
    ![](assets/test-profiles-8.png)
 1. 選擇名稱，然後按一下&#x200B;**[!UICONTROL 完成]**。
    ![](assets/test-profiles-9.png)
-1. 啟用&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
+1. 啟用&#x200B;**[!UICONTROL 設定檔]**選項。
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}。
+> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
 
 ## 產品內使用案例{#use-case-1}
 
@@ -120,42 +120,44 @@ ht-degree: 3%
 >
 >測試設定檔可能會覆寫現有設定檔。 在執行使用案例之前，請確定CSV僅包含測試設定檔，並且是對正確的沙箱執行。
 
-## 將設定檔轉換為測試設定檔{#turning-profile-into-test}
+<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+## Turn a profile into a test profile{#turning-profile-into-test}
 
-您可以將現有的設定檔轉換為測試設定檔：您可以使用建立設定檔時所用的相同方式來更新設定檔屬性。
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-一個簡單的方法是在歷程中使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動，並將&#x200B;**testProfile**&#x200B;布林欄位從false變更為true。
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-您的歷程將由&#x200B;**[!UICONTROL 讀取對象]**&#x200B;和&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;活動組成。 您首先需要建立受眾，將目標定位為您要轉換為測試設定檔的設定檔。
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> 由於您將更新&#x200B;**testProfile**&#x200B;欄位，因此選擇的設定檔必須包含此欄位。 相關結構描述必須有&#x200B;**設定檔測試詳細資料**&#x200B;欄位群組。 請參閱[本節](../audience/creating-test-profiles.md#test-profiles-prerequisites)。
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. 瀏覽至&#x200B;**對象**，然後在右上角&#x200B;**建立對象**。
-   ![](assets/test-profiles-22.png)
-1. 定義對象名稱並建置對象：選擇欄位和值以定位您想要的設定檔。
-   ![](assets/test-profiles-23.png)
-1. 按一下「儲存&#x200B;**&#x200B;**」，然後檢查設定檔是否被對象正確鎖定目標。
-   ![](assets/test-profiles-24.png)
+1. Browse to **Audiences**, then **Create audience**, in the top right.
+    ![](assets/test-profiles-22.png) 
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
+    ![](assets/test-profiles-23.png) 
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
+    ![](assets/test-profiles-24.png) 
 
-   >[!NOTE]
-   >
-   > 對象計算可能需要一些時間。 若要了解客群的詳細資訊，請參閱[本章節](../audience/about-audiences.md)。
+    >[!NOTE]
+    >
+    > Audience calculation can take some time. Learn more about audiences in [this section](../audience/about-audiences.md).
 
-1. 現在建立新歷程，並從&#x200B;**[!UICONTROL 讀取對象]**&#x200B;協調活動開始。
-1. 選擇先前建立的對象和設定檔使用的名稱空間。
-   ![](assets/test-profiles-25.png)
-1. 新增&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動。
-1. 選取結構描述、**testProfiles**&#x200B;欄位和資料集，並將值設定為&#x200B;**True**。 若要執行此動作，請在&#x200B;**[!UICONTROL VALUE]**&#x200B;欄位中按一下右側的&#x200B;**筆**&#x200B;圖示，選取&#x200B;**[!UICONTROL 進階模式]**&#x200B;並輸入&#x200B;**true**。
-   ![](assets/test-profiles-26.png)
-1. 按一下&#x200B;**[!UICONTROL 發佈]**。
-1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;區段中，檢查設定檔是否已正確更新。
-   ![](assets/test-profiles-28.png)
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
+    ![](assets/test-profiles-25.png)
+1. Add an **[!UICONTROL Update Profile]** action activity. 
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
+    ![](assets/test-profiles-26.png)
+1. Click **[!UICONTROL Publish]**.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
+    ![](assets/test-profiles-28.png)
 
-   >[!NOTE]
-   >
-   > 如需&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;活動的詳細資訊，請參閱[此章節](../building-journeys/update-profiles.md)。
+    >[!NOTE]
+    >
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+-->
 
 ## 使用csv檔案建立測試設定檔{#create-test-profiles-csv}
 
@@ -187,7 +189,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant#tutorials){target="_blank"}。
+>如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
 >
 
 

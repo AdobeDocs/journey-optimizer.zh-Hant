@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 訊息最佳化
+title: 行銷活動和歷程的最佳化
 description: 運用訊息最佳化來建立個人化和最佳化的行銷歷程和行銷活動。
 role: User
 level: Intermediate
 keywords: 行銷活動最佳化、實驗、目標定位、A/B測試
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 11%
+source-wordcount: '1253'
+ht-degree: 8%
 
 ---
 
@@ -68,11 +68,35 @@ ht-degree: 11%
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. 使用規則產生器來定義條件。 例如，定義美國居民的規則、法國居民的規則以及印度居民的規則。
+1. 按一下「**[!UICONTROL 建立規則]**」>「**[!UICONTROL 建立新的]**」，然後使用規則產生器來定義您的行動條件。
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   例如，定義美國居民的規則、法國居民的規則以及印度居民的規則。
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項。 沒有符合目標選擇規則時，後備內容可讓您的客群收到預設內容。
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   在此情況下，組成規則的公式只會複製到歷程或行銷活動中。 從&#x200B;**[!UICONTROL 規則]**&#x200B;選單對該規則所做的任何後續變更將不會影響歷程或行銷活動的副本。
+
+   >[!AVAILABILITY]
+   >
+   >[使用專用的](../experience-decisioning/rules.md#create)功能表建立鎖定目標規則[!DNL Journey Optimizer]，目前可供已購買決策附加元件產品的組織使用，其他組織也可依需求使用（可用性限制）。
+   >
+   >此容量將逐步向所有客戶推出。 與此同時，請聯絡您的Adobe代表以取得存取權。
+
+1. 新增規則後，您仍可加以修改。 選擇&#x200B;**[!UICONTROL 編輯內嵌]**，以使用規則產生器即時更新它，或選擇&#x200B;**[!UICONTROL 選取規則]**&#x200B;以挑選另一個現有的規則。
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >編輯規則內嵌不會影響其源自的現有規則。
+
+1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項。 後援內容可讓您的對象在沒有符合目標規則時接收預設內容。
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 了解如何在動作中或 API 觸發的行銷活動中運用訊息最佳化。您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
