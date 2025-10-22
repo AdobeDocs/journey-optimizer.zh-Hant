@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 電子郵件、設定、表面、子網域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 62%
 
 ---
 
@@ -20,20 +20,20 @@ ht-degree: 100%
 
 為了能夠在 [!DNL Journey Optimizer] 透過歷程與行銷活動傳送電子郵件，您必須執行許多設定步驟。
 
-1. 若要確保最佳傳遞能力並保護您的聲譽，首先將要用於傳送 [!DNL Journey Optimizer] 電子郵件的子網域委派給 Adobe。這些子網域將決定要追蹤的網頁和鏡像頁面 URL 等元素。 [了解更多](../configuration/about-subdomain-delegation.md)
+1. 若要確保最佳傳遞能力並保護您的聲譽，請從&#x200B;**將您用來傳送電子郵件的**&#x200B;子網域[!DNL Journey Optimizer]委派給Adobe開始。 這些子網域將決定要追蹤的網頁和鏡像頁面 URL 等元素。 [了解更多](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. 將與您執行個體佈建的 IP 位址分組，以改善電子郵件傳遞能力和信譽。[了解更多](../configuration/ip-pools.md)
+1. 建立IP集區，將&#x200B;**與您執行個體布建的IP位址分組**。 [了解更多](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. 建立管道設定，然後選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;管道。[了解更多](../configuration/channel-surfaces.md)
+1. 建立&#x200B;**頻道設定**&#x200B;並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;頻道。 [了解更多](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. 在每個電子郵件管道設定，設定傳送電子郵件所需的所有技術參數。[了解更多](email-settings.md)
+1. 在每個電子郵件通道設定中，設定傳遞電子郵件所需的所有&#x200B;**技術引數**。 [了解更多](email-settings.md)
 
    * 可在此處選取要用於傳送電子郵件的子網域，以及要與設定關聯的 IP 集區。[了解更多](email-settings.md#subdomains-and-ip-pools)
 
@@ -43,10 +43,10 @@ ht-degree: 100%
 
    ![](assets/preset-header.png)
 
-1. 在 Adobe Experience Platform 有多個地址可用時，確定收件者優先使用的電子郵件地址。[了解更多](../configuration/primary-email-addresses.md)
+1. 當Adobe Experience Platform中有數個位址可用時，決定優先使用哪些&#x200B;**執行欄位**。 [了解更多](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 
-1. 管理將電子郵件地址傳送至禁止名單前執行重試的天數。[了解更多](../configuration/manage-suppression-list.md)
+1. 管理將電子郵件地址傳送至禁止名單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)
