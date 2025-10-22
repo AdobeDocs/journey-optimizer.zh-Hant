@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 25%
+source-wordcount: '462'
+ht-degree: 24%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 25%
 
 **資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。
 
+>[!NOTE]
+>
+>擷取資料時，電子郵件區分大小寫，這表示可建立重複的設定檔(例如，John.Greene@luma.com可建立一個設定檔，john.green@luma.com可建立另一個設定檔)，並在您的[!DNL Journey Optimizer]歷程與行銷活動中定位這些設定檔時使用。
+
 **身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID。&#x200B;URL透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視。&#x200B;URL
 
 **客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。&#x200B;URL跨各種管道與客戶互動，包括行銷活動、客戶支援和交易更新。&#x200B;URL
@@ -36,7 +40,7 @@ ht-degree: 25%
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 

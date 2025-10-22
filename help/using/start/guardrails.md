@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2860'
+ht-degree: 98%
 
 ---
 
@@ -106,11 +106,13 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 視覺片段在使用主題和手動樣式模式之間不相容。為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。[進一步了解主題](../email/apply-email-themes.md)
 * 在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[進一步了解連結和追蹤](../email/message-tracking.md)
 
-## 客群護欄 {#audience}
+## 對象和設定檔護欄 {#audience}
 
-您可以在指定的沙箱中發佈最多 10 個客群構成。如果您達到此臨界值，則需要刪除構成以釋放空間，才能發佈新的構成。
+* 您可以在指定的沙箱中發佈最多 10 個客群構成。如果您達到此臨界值，則需要刪除構成以釋放空間，才能發佈新的構成。
 
-請在[此頁面](../audience/get-started-audience-orchestration.md)深入了解有關客群構成的詳細資訊。
+  請在[此頁面](../audience/get-started-audience-orchestration.md)深入了解有關客群構成的詳細資訊。
+
+* 擷取資料時，電子郵件會區分大小寫。 這表示可以建立重複的設定檔(例如，John.Greene@luma.com的一個設定檔、john.green@luma.com的另一個設定檔)，並在您的[!DNL Journey Optimizer]歷程和行銷活動中定位這些設定檔時使用。
 
 ## 決策與決策管理護欄 {#decisioning-guardrails}
 
@@ -137,7 +139,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
