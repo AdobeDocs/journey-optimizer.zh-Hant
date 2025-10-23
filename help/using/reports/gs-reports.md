@@ -6,9 +6,9 @@ description: 瞭解如何存取及使用 [!DNL Adobe Journey Optimizer] 報告�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '448'
 ht-degree: 24%
 
 ---
@@ -133,3 +133,13 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 <td><img alt="內容卡" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>內容卡</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>行銷活動報告</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>歷程報告</strong></a></p></div></td>
 </tr></table>
+
+### 作法影片 {#video}
+
+瞭解如何有效使用Adobe Journey Optimizer中的所有時間報表。
+
++++請觀看影片
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
