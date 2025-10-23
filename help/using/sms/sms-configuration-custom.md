@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1386'
 ht-degree: 7%
 
 ---
@@ -79,6 +79,11 @@ ht-degree: 7%
 1. 新增您的&#x200B;**[!UICONTROL 提供者裝載]**，以驗證及自訂您的要求裝載。
 
    對於RCS訊息，此承載稍後會在[內容設計](create-sms.md#sms-content)期間使用。
+
+   >[!NOTE]
+   >
+   >設定具有基本或持有者驗證的自訂SMS提供者時，您必須在JSON裝載中包含`authOption`引數。 此外，**提供者承載**&#x200B;必須參考範本變數`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
+
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
