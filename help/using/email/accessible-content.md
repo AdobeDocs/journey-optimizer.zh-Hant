@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 0%
+source-wordcount: '1638'
+ht-degree: 1%
 
 ---
 
@@ -142,9 +142,9 @@ ht-degree: 0%
 
 ## 使用深色模式 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
+
+電子郵件Designer可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視，並定義支援電子郵件使用者端顯示的特定自訂設定。 [了解更多](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
