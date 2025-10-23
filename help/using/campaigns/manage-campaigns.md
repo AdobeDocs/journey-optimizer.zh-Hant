@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 14%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 14%
 
 ## 行銷活動生命週期 {#statuses}
 
-在Adobe Journey Optimizer中，每個促銷活動都會經過生命週期，而生命週期會透過其介面中的狀態來反映。 可用狀態依促銷活動型別而異，包括動作、API觸發或協調。 使用下方的標籤來探索每個行銷活動型別的特定生命週期和狀態。
+在Adobe Journey Optimizer中，每個促銷活動都會經過生命週期，而生命週期會透過其介面中的狀態來反映。 可用狀態會因行銷活動型別而異 — 「動作」、「已觸發API」或「已協調」。 使用下方的標籤來探索每個行銷活動型別的特定生命週期和狀態。
 
 >[!BEGINTABS]
 
@@ -240,7 +240,7 @@ ht-degree: 14%
 
 ## 複製行銷活動 {#duplicate}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

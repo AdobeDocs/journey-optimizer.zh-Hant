@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 3%
 
    ![](assets/api-triggered-curl.png)
 
-1. 將此cURL請求用於API以建置您的裝載並觸發行銷活動。 如需詳細資訊，請參閱[互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)。
+   >[!IMPORTANT]
+   >
+   >cURL區段中的端點在標準和[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)之間不同。
+
+1. 將此cURL請求用於API以建置您的裝載並觸發行銷活動。 如需詳細資訊，請參閱[互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，其中列出標準和高輸送量行銷活動的所有端點。
 
    [此頁面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供API呼叫範例。

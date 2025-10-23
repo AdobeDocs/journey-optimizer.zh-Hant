@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 2%
 <td><a href="../push/create-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>推播通知</strong></a></div></td>
 </tr></table>
+
+>[!IMPORTANT]
+>
+>[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)不依賴Adobe設定檔：所有個人化必須作為內容資料包含在API承載中，如下所述。 此模式僅適用於美國地區的電子郵件通道和。
 
 ## 使用內容資料製作個人化內容 {#contextual}
 

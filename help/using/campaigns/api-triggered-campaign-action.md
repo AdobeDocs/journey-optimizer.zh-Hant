@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 55%
+source-wordcount: '438'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 55%
 
    >[!NOTE]
    >
-   >支援的管道：[電子郵件](../email/get-started-email.md)、[簡訊/MMS/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。
+   >支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。 高輸送量API觸發的行銷活動目前僅支援電子郵件頻道。
    >
    >可用的通道因您的授權模式及附加元件而異。
 
@@ -36,7 +36,7 @@ ht-degree: 55%
 
    會由[系統管理員](../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
 
-   ![](assets/create-campaign-action.png)
+   ![](assets/api-triggered-create-campaign-action.png)
 
 1. **善用最佳化**
 
