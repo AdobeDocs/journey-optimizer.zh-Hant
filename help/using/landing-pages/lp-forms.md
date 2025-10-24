@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
 badge: label="有限可用性" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 2%
+source-wordcount: '1572'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>此功能目前在美國和澳洲的客戶中處於「有限可用」狀態。 請聯絡您的 Adobe 代表以取得存取權。
 
 若要使用您的[!DNL Journey Optimizer]登陸頁面擷取設定檔資料並擴充[!DNL Experience Platform]資料集，您可以在登陸頁面中運用表單。
 
@@ -33,7 +31,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -42,7 +40,7 @@ ht-degree: 2%
 
 建立表單前，您需要先建立專屬的預設集，您可在其中選取傳送表單提交資料的連線端點，以及儲存透過表單擷取之資料的資料集。
 
-當資料登陸串流端點時，會與資料集資訊連結。 然後會使用產生的來源/目標連線和來源流程，將資料推送至資料集。
+資料一旦登陸串流端點，就會與資料集資訊連結。 然後會使用產生的來源/目標連線和來源流程，將資料推送至資料集。
 
 建立預設集時：
 
@@ -53,9 +51,13 @@ ht-degree: 2%
    * **目標連線** — 資料儲存或使用的位置。
    * **Source流程** — 將資料從來源連線移至[!DNL Experience Platform]、處理對應、轉換和驗證的管道。
 
+<!--
 >[!NOTE]
 >
-> 若要存取及編輯表單預設集，您必須擁有生產沙箱的&#x200B;**[!UICONTROL 管理表單預設集]**&#x200B;許可權。 在[本節](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->中進一步瞭解許可權
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+若要建立表單預設集，請遵循下列步驟。
 
 1. 若要存取&#x200B;**[!UICONTROL 表單預設集]**&#x200B;詳細目錄，請從左側功能表選取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** >**[!UICONTROL 表單設定]**。
 
@@ -69,13 +71,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
+   >在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
 
    >[!NOTE]
    >
-   >目前只有[!DNL Adobe Experience Platform]個資料集可供選取。 一次只能選取一個資料集。
+   >目前只有[!DNL Adobe Experience Platform]個資料集可供選取。 一次可以選取一個資料集。 [進一步瞭解資料集](../data/get-started-datasets.md)
 
 1. 按一下&#x200B;**[!UICONTROL 發佈]**。 您的預設集現已準備就緒，可用於表單中。
 
@@ -93,7 +95,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
 
 若要建立表單，請遵循下列步驟。
 
@@ -192,7 +194,7 @@ ht-degree: 2%
 >title="感謝頁面"
 >abstract="設定某人填寫或轉寄表單時所發生的情況。"
 
-在&#x200B;**[!UICONTROL 感謝頁面]**&#x200B;區段中，設定使用者填寫表單時會發生什麼情況。
+返回表單詳細資料，從&#x200B;**[!UICONTROL 感謝頁面]**&#x200B;區段，設定使用者填寫表單時會發生什麼情況。
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -263,7 +265,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >您可以使用&#x200B;**[!UICONTROL 編輯表單]**&#x200B;按鈕更新選取的表單。 表單會在新標籤中開啟。 編輯表單內容的步驟與[此區段](#create-form)中說明的步驟相同。
+   >您可以使用&#x200B;**[!UICONTROL 編輯表單]**&#x200B;按鈕更新選取的表單。 表單會在新標籤中開啟。 編輯表單內容的步驟在[本節](#create-form)中有詳細說明。
 
 1. 在&#x200B;**[!UICONTROL 後續追蹤型別]**&#x200B;區段中，設定使用者填寫表單時會發生什麼情況：
 
