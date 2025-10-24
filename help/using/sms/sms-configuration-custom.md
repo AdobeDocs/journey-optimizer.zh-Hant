@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1400'
 ht-degree: 7%
 
 ---
@@ -210,9 +210,11 @@ ht-degree: 7%
 
 1. 按一下![](assets/do-not-localize/Smock_Add_18_N.svg)新增您的關鍵字類別，然後依下列方式設定它們：
 
-   * **[!UICONTROL 傳入關鍵字類別]**：選擇您的關鍵字類別&#x200B;**[!UICONTROL 選擇加入]**、**[!UICONTROL 選擇退出]**、**[!UICONTROL 說明]**&#x200B;或&#x200B;**[!UICONTROL 預設]**。
+   * **[!UICONTROL 傳入關鍵字類別]**：選擇您的關鍵字類別： **[!UICONTROL 選擇加入]**、**[!UICONTROL 選擇退出]**、**[!UICONTROL 雙重選擇加入]**、**[!UICONTROL 說明]**&#x200B;或&#x200B;**[!UICONTROL 自訂]**。
 
    * **[!UICONTROL 輸入關鍵字]**：輸入將會自動觸發訊息的預設或自訂關鍵字。 按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增多個關鍵字。
+
+     若為&#x200B;**[!UICONTROL 自訂關鍵字]**，請在歷程中針對批次式動作使用非同意相關關鍵字。
 
    * **[!UICONTROL 回複訊息]**：從下拉式清單中選取自動傳送的自訂回應。
 
