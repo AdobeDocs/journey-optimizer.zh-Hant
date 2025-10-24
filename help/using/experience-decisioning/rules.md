@@ -6,9 +6,9 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '958'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,8 @@ ht-degree: 7%
 
 * 在歷程或行銷活動中建立[內容最佳化目標](../campaigns/campaigns-message-optimization.md#targeting)時；
 * 建置[歷程路徑最佳化](../building-journeys/optimize.md#targeting)時。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 存取權規則 {#access}
 
@@ -117,7 +119,7 @@ ht-degree: 7%
    >
    >當規則引數包含未儲存在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。
 
-1. 一旦您的規則準備就緒，請按一下[建立]。**&#x200B;** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
+1. 一旦您的規則準備就緒，請按一下[建立]。**** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
 
    * 在&#x200B;**個決定專案**&#x200B;和&#x200B;**選取策略**&#x200B;中，用來控管將決定專案呈現給設定檔；
    * 或在內容最佳化或路徑最佳化中建置&#x200B;**目標**&#x200B;時。
@@ -129,3 +131,9 @@ ht-degree: 7%
 >規則字串的大小最多可達15KB （UTF-8編碼字元）。 這相當於15,000個ASCII字元（每個1個位元組），或3,750-7,500個非ASCII字元（每個2-4個位元組）。
 >
 >[進一步瞭解適用性規則護欄和限制](decisioning-guardrails.md#eligibility-rules)
+
+## 作法影片 {#video}
+
+瞭解如何在Adobe Journey Optimizer中建立、複製和套用可重複使用的&#x200B;**目標定位規則**，以根據客戶屬性（例如地區、語言和行為）有效率地個人化行銷活動 — 在提高對象精確度的同時節省時間。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

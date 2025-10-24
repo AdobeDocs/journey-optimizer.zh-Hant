@@ -73,6 +73,6 @@ ht-degree: 3%
 
 * [!DNL Customer Journey Analytics]內嵌「歷程步驟事件」資料集。
 * 關聯的「Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在[!DNL Customer Journey Analytics]中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
-* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hant){target="_blank"}。
+* 若要在[!DNL Customer Journey Analytics]中使用此資料集，如需進行跨管道歷程分析，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}。
 
 ➡️ [使用Customer Journey Analytics](cja-ajo.md){target="_blank"}
