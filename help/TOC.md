@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -555,13 +555,8 @@ ht-degree: 98%
    + 內容實驗 {#content-experiment}
       + [內容實驗](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [開始使用內容實驗](using/content-management/get-started-experiment.md)
+      + [開始使用實驗加速器](using/content-management/experiment-accelerator-gs.md)
       + [建立內容實驗](using/content-management/content-experiment.md)
-      + 實驗加速器 {#experiment}
-         + [開始使用實驗加速器](using/content-management/experiment-accelerator.md)
-         + [透過 Experimentation Accelerator，就能在 AI 中使用資料](using/content-management/experiment-accelerator-security.md)
-         + [實驗加速器最佳做法](using/content-management/experiment-accelerator-best-practices.md)
-         + [實驗加速器的監視器](using/content-management/experiment-accelerator-monitor.md)
-         + [實驗加速器的量度](using/content-management/experiment-accelerator-metrics.md)
       + 技術說明 {#technotes}
          + [技術說明](/help/rp_landing_pages/technotes-landing-page.md)
          + [A/B 測試和多臂老虎機](using/content-management/mab-vs-ab.md)
@@ -775,7 +770,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
