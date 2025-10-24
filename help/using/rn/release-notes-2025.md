@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
 workflow-type: tm+mt
-source-wordcount: '6603'
+source-wordcount: '7883'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,189 @@ ht-degree: 100%
 
 此頁面列出了於 2025 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
 
+
+## 2025 年 9 月發行說明 {#25-9-rn}
+
+**發行日期**：2025 年 9 月 23-24 日
+
+### 全新功能 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator 是 AI 優先的產品，旨在將您的實驗提升到新的境界。此產品專為 Adobe Journey Optimizer 和 Adobe Target 使用者打造，可整合實驗管理、提供 AI 支援的深入分析和機會，並推出新的實驗代理程式。</p>
+<p>您可以期待：</p>
+<ul>
+<li><strong>整合實驗詳細目錄：</strong>在單個集中式工作區中快速檢視、篩選及管理 Adobe Journey Optimizer 和 Adobe Target 的所有實驗。</li>
+<li><strong>AI 實驗見解和機會：</strong>不僅有統計讀數，還有 GenAI 驅動的見解和推薦。現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
+<li><strong>Journey Optimizer 中的多臂老虎機 (MAB) 支援：</strong>透過多臂老虎機實驗，最大化影響，同時減少浪費的流量。MAB 不會平均分割客群，而是會即時將更多訪客自動分配到效能最佳的變化版本，這樣您就能為更多客戶提供更好的體驗，同時仍會了解哪些變化版本有效。</li></ul>
+<p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/experiment-accelerator.md">詳細文件</a></p>
+<p>推出日期：2025 年 10 月 3 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey 代理已推出！</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey 代理由 <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> 提供技術支援，可在 Journey Optimizer 中使用。它可讓您透過自然語言介面分析歷程。代理程式會偵測歷程中的客群或排程衝突與輪廓流失，協助您採取步驟解決這些問題。不久，您將能夠使用代理程式支援建立歷程。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 24 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設計工具中的深色模式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 電子郵件設計工具現在提供切換到深色模式視圖的功能，您可以在此處額外定義特定的自訂設定，該設定將僅對在深色模式下讀取其電子郵件的收件者顯示。</p>
+<p>請注意下列事項：</p>
+<ul>
+<li>深色模式的最終呈現可能會有所不同，取決於收件者的電子郵件用戶端。</li>
+<li>並非所有電子郵件用戶端都支援自訂深色模式。此外，某些電子郵件用戶端只會對收到的所有電子郵件套用自己的預設深色模式。在這兩種情況下，系統無法呈現您在電子郵件設計工具中定義的自訂設定。</li>
+</ul>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../email/dark-mode.md">詳細文件</a></p>
+ <p>推出日期：2025 年 9 月 16 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程路徑最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用新的「最佳化」節點，鎖定特定客群或執行 A/B 測試，以判斷達到以業務為中心的 KPI 所需的最佳途徑。</p>
+<p>此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/optimize.md">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 4 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>子網域的自訂委派方法</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>除了完全委派和 CNAME 方法之外，目前還有提供一種新的子網域設定方法：自訂委派方法可讓您能完全掌控並維護傳遞、呈現，還有追蹤訊息所需的 DNS 各大層面。</p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../configuration/delegate-custom-subdomain.md">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 4 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用 Adobe Experience Platform 資料進行個人化與決策</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>之前以公開 Beta 版本發行，目前此功能所有環境都適用。已在此版本中，引進以下增強功能：</p>
+<ul><li>支援傳入頻道中的資料集查詢個人化。</li>
+<li>「datasetLookup」協助程式函式現在可用於運算式片段中。目前，此功能僅供有限的一組客戶使用。若想取得存取權，請聯絡您的 Adobe 代表。</li>
+<li>資料集管理介面中的選項現在可讓您啟用記錄型資料集以進行查詢個人化，而無需執行 API 呼叫。</li>
+<li>增強的監視功能，可追蹤資料擷取狀態，並了解資料集何時準備好進行查詢。</li>
+<li>更新使用指南和護欄，確保最佳績效和可靠性。</li>
+<li>現在可以在決策上限規則中利用 Adobe Experience Platform 資料集。</li></ul></p>
+<p>如需詳細資訊，請參閱<a href="../data/lookup-aep-data.md">詳細文件</a></p>
+<p>推出日期：2025 年 9 月 1 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改善 {#sept-25-9-improvements}
+
+* **API 觸發的行銷活動的 Webhook 支援**\
+  API 觸發的行銷活動現在支援 Webhook。設定 Webhook URL 以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監視和自動化。[閱讀全文](../configuration/feedback-webhooks.md)
+
+  推出日期：2025 年 9 月 29 日
+
+* **簡訊管道的 mTLS 支援**
+設定自訂簡訊提供者時，您現在可以選擇啟用雙向 TLS (mTLS) 驗證，這要求用戶端和伺服器在建立安全連線之前確認彼此的身分。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
+
+* **基於模型的結構描述**\
+  現在可以使用基於模型的結構描述，來支援協調行銷活動中的關聯式模型需求。[閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
+
+* **歷程中的資料集查詢支援**\
+  歷程中的全新&#x200B;**資料集查詢**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。[閱讀全文](../building-journeys/dataset-lookup.md) - 推出日期：2025 年 9 月 23 日
+
+  此活動僅適用於一組組織 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。
+
+* **歷程自訂動作中的重新導向支援**\
+  歷程自訂動作現在支援重新導向 (302)。- 推出日期：2025 年 9 月 23 日
+
+* **管道設定監視警示** - 您現在可以透過電子郵件或在 Journey Optimizer 通知中心訂閱接收系統警示，以防發生使用自訂子網域委派類型的電子郵件管道設定錯誤。[閱讀全文](../reports/alerts.md#alert-channel-config-failure) - 推出日期：2025 年 9 月 23 日
+
+* **一鍵取消訂閱請求** - 我們已推出改進功能，進一步加強 Adobe Managed 下所設定一鍵取消訂閱請求的處理能力，確保處理可靠且一致。- 推出日期：2025 年 9 月 23 日
+
+* **自訂驗證現在支援巢狀 JSON 正文參數**\
+  設定自訂動作的自訂驗證時，現在支援巢狀 JSON 物件 (例如 `bodyParams` 內的子物件)。[閱讀全文](../datasource/external-data-sources.md#custom-authentication-mode) - 推出日期：2025 年 9 月 18 日
+
+* **每小時重設上限頻率** - 您目前可以將每小時上限套用至頻道規則集。此功能之前以「有限可用性」的名義發行，目前所有環境都適用，並允許您選擇 1 小時 (之前為 3 小時)。[閱讀全文](../conflict-prioritization/channel-capping.md) - 推出日期：2025 年 9 月 17 日
+
+* **模擬所有傳入管道的內容變化版本**\
+  先前僅可用於電子郵件、簡訊和推播通知管道，模擬內容變化版本現在也適用於所有傳入管道。[閱讀全文](../test-approve/simulate-sample-input.md) - 推出日期：2025 年 9 月 17 日
+
+* **決策上限規則的運算式** - 您現在可以建立自己的運算式，以定義決策項目的上限規則臨界值。[閱讀全文](../experience-decisioning/items.md#capping) - 推出日期：2025 年 9 月 16 日
+
+* **動態網域支援** - Journey Optimizer 現在支援 Adobe 所接受的預先定義網域的完整/基底 URL 個人化。[閱讀全文](../personalization/personalization-build-expressions.md#where) - 推出日期：2025 年 9 月 12 日
+
+  此功能為有限可用性，僅提供給一組客戶。
+
+* **Webhook** - 此版本在設定自訂簡訊提供者時，為 Webhook 引進下列增強功能：
+
+   * 您現在可以定義您的 Webhook 用途，可以是傳入或回饋，具體取決於您要擷取的資料類型。[閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
+
+   * 設定關鍵字的介面已經過改良，更易於設定。[閱讀全文](../sms/sms-configuration-custom.md#webhook) - 推出日期：2025 年 9 月 23 日
+
+* **簡訊**
+
+   * 設定自訂簡訊提供者時，您現在可以定義當傳入的簡訊包含無法辨識的關鍵字時使用的&#x200B;**預設**&#x200B;關鍵字。您也可以為特定動作建立&#x200B;**自訂**&#x200B;關鍵字。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
+
+   * 您現在可以存取透過簡訊傳送的未定義傳入關鍵字回應，包括未在設定中明確定義的拼寫錯誤、字詞或句子。它們儲存在 **AJO 電子郵件追蹤體驗事件**&#x200B;資料集中的 **InboundMessage** 下，儲存時長為 13 個月。僅適用於 Sinch、Infobip 和自訂簡訊提供者。- 推出日期：2025 年 9 月 23 日
 
 ## 2025 年 8 月發行說明 {#25-8-rn}
 
