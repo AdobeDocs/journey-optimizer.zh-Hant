@@ -5,9 +5,9 @@ title: 建立您的目標維度
 description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
   系統必須瞭解目標結構描述如何對應到`Profile`結構描述。 這是透過共用身分欄位來達成，該欄位存在於目標結構描述和`Profile`結構描述中，並且已設定為身分名稱空間。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 建立您的目標維度 {#targeting-dimension}
 
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 1. 從下拉式清單中選擇您先前設定的[結構描述](gs-schemas.md)&#x200B;。
 
-   雖然所有關聯式結構描述都可見，但只有與&#x200B;**設定檔**&#x200B;有直接身分關聯的結構描述才符合選取的條件。
+   雖然所有關聯式結構描述都會顯示，但只有與&#x200B;**設定檔**&#x200B;有直接身分關係的結構描述才符合選取的條件。 避免選擇非人員結構描述（例如購買），並選取與設定檔直接相關的結構描述。
 
 1. 選取代表您要鎖定之實體的&#x200B;**[!UICONTROL 身分值]**。
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`crmID`結構描述中由唯一的`Recipient`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
+   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
 
    ![](assets/target-dimension-2.png)
 
