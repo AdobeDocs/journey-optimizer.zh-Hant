@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、樣式、css、內文、結構
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 62%
 
 ---
 
@@ -29,3 +29,9 @@ ht-degree: 100%
 * 了解如何[個人化您的電子郵件背景](backgrounds.md)
 * 了解如何[管理垂直對齊方式及邊框間距](alignment-and-padding.md)
 * 了解如何[自訂內嵌樣式屬性](inline-styling.md)
+* 瞭解如何[新增自訂CSS至您的電子郵件內容](custom-css.md)
+* 瞭解如何[管理深色模式內容](dark-mode.md)
+
+>[!NOTE]
+>
+>[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[中設計內容時，請務必遵循](../email/accessible-content.md)此頁面[!DNL Journey Optimizer]所列的特定樣式准則，例如調整顏色、標籤和圖示以確保清晰度，以及針對行動裝置和回應式佈局最佳化設計。

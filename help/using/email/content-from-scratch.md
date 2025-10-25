@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 50%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 52%
 >abstract="Designer 可讓您透過選取欄結構輕鬆定義範本的版面。"
 
 
-使用Adobe Journey Optimizer Designer輕鬆定義內容的結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以在數秒內設計內容的形狀。
+使用[!DNL Adobe Journey Optimizer]電子郵件Designer以輕鬆定義內容結構。 透過使用簡單的拖放動作新增和移動結構元素，您可以在數秒內設計內容的形狀。
+
+>[!NOTE]
+>
+>[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[中設計內容時，請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
 
 若要開始建立您的內容，請遵循下列步驟：
 
@@ -120,4 +124,4 @@ ht-degree: 52%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

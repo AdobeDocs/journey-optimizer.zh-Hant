@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1336'
 ht-degree: 9%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 9%
 >您也可以建立不含&#x200B;**[!UICONTROL Form]**&#x200B;元件的點進登入頁面。 在此情況下，登入頁面會顯示給使用者，但使用者不需要提交任何表單。 如果您只想顯示登入頁面，不需要收件者採取任何動作（例如選擇加入或選擇退出），或想提供不需要使用者輸入的資訊，就可以使用此功能。
 
 使用登入頁面內容設計工具，您也可以運用來自子頁面中主要頁面的內容資料。 [了解更多](#use-primary-page-context)
+
+>[!NOTE]
+>
+>[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[中設計內容時，請務必遵循](../email/accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
 
 ## 使用表單元件 {#use-form-component}
 

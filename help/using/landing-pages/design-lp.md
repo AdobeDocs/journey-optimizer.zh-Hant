@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，設計， HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 16%
+source-wordcount: '187'
+ht-degree: 13%
 
 ---
 
@@ -35,3 +35,5 @@ ht-degree: 16%
 >[!NOTE]
 >
 >登入頁面內容設計工具大多與電子郵件Designer類似。 深入瞭解[使用 [!DNL Journey Optimizer]](../email/get-started-email-design.md)設計內容。
+>
+>[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[中設計內容時，請務必遵循](../email/accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。

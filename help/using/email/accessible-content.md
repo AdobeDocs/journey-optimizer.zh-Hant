@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 * 針對行動裝置和回應式版面配置最佳化您的設計，確保按鈕較大且間距適當。
 * 定期測試裝置和熒幕大小，以維持協助工具。
 
-在[!DNL Journey Optimizer]中，您可以使用Email Designer **[!UICONTROL 樣式]**&#x200B;窗格的樣式引數和屬性，進一步調整內容中不同元素的大小和間距。 [了解更多](get-started-email-style.md)
+在[!DNL Journey Optimizer]中，您可以使用Email Designer **[!UICONTROL 樣式]**&#x200B;窗格的樣式引數和屬性，進一步調整內容中不同元素的大小和間距。 [了解作法](get-started-email-style.md)
 
 例如，您可以更新[背景](backgrounds.md)，或變更邊界、邊框間距和對齊方式，以改善內容的視覺協助工具。 [了解更多](alignment-and-padding.md)
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 ## 使用影像的替代文字 {#alt-text}
 
-使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件提供影像的替代文字。 [了解更多](content-components.md#image)
+使用&#x200B;**[!UICONTROL 影像]**&#x200B;元件提供影像的替代文字。 [了解作法](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 
 深色模式可增強對光線敏感度或視覺障礙的使用者的視覺協助功能，進而改善觀看體驗。
 
-電子郵件Designer可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視，並定義支援電子郵件使用者端顯示的特定自訂設定。 [了解更多](dark-mode.md)
+電子郵件Designer可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視，並定義支援電子郵件使用者端顯示的特定自訂設定。 [了解作法](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
