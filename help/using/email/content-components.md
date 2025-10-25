@@ -155,7 +155,7 @@ ht-degree: 48%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。**&#x200B;**
 
    ![](assets/email_designer_html_content.png)
 
