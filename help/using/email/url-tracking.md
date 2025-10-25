@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 75%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 78%
 
 下列預先定義的值可透過個人化編輯器取得：
 
+* **訊息設定檔識別碼**：訊息導向屬性會識別傳送中傳送給每個目標設定檔的每一個訊息的唯一性。
+
+* **優惠方案 ID**：電子郵件中使用的優惠方案 ID。
+
 * **來源動作 ID**：新增至歷程或行銷活動電子郵件動作的 ID。
 
 * **來源動作名稱**：新增至歷程或行銷活動電子郵件動作的名稱。
@@ -53,8 +57,6 @@ ht-degree: 78%
 * **來源名稱**：傳送電子郵件歷程或行銷活動的名稱。
 
 * **來源版本 ID**：傳送電子郵件歷程或行銷活動版本的 ID。
-
-* **優惠方案 ID**：電子郵件中使用的優惠方案 ID。
 
 >[!NOTE]
 >
