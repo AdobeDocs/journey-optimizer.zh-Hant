@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -60,15 +60,23 @@ ht-degree: 15%
 
    ![](assets/lp_preset-subdomain.png)
 
-   若要能夠選取子網域，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](#lp-subdomains)
+   >[!NOTE]
+   >
+   >若要能夠選取子網域，請確定您先前已設定至少一個登陸頁面子網域。 [了解作法](lp-subdomains.md)
 
    與所選子網域對應的設定隨即顯示。
 
-1. 您可以核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項，以選取追蹤URL的登陸頁面子網域。 [進一步瞭解追蹤](../email/message-tracking.md)
+1. 您可以核取&#x200B;**[!UICONTROL 與登陸頁面子網域相同]**&#x200B;選項，以選取&#x200B;**[!UICONTROL 追蹤URL]**&#x200B;的登陸頁面子網域。 [進一步瞭解追蹤](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例如，如果登陸頁面URL是「pages.mail.luma.com」，而追蹤URL是「data.mail.luma.com」，您可以選擇使用「pages.mail.luma.com」做為追蹤子網域。
+
+   >[!CAUTION]
+   >
+   >選取的登陸頁面子網域是用來指定&#x200B;**[!UICONTROL 追蹤URL]** <!--and **[!UICONTROL Image Delivery URL]** --> （如果該子網域是使用[現有的子網域](lp-subdomains.md#lp-use-existing-subdomain)建立的）。
+   >
+   >如果子網域是使用[新增您自己的網域](lp-subdomains.md#lp-configure-new-subdomain)選項建立的，則會改用主要子網域（亦即第一個委派的子網域）。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以確認建立登陸頁面預設集。<!--You can also save the preset as draft and resume its configuration later on.-->
 
