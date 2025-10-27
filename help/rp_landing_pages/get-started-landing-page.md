@@ -5,22 +5,24 @@ title: 快速入門
 description: 快速入門
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # 快速入門{#section-overview}
 
-Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客戶體驗，協助您在適當的時間向客戶傳達適當的訊息。無論您是協調複雜的客戶歷程、運用 AI 驅動的決策，還是順暢地管理內容和資料，此平台都提供工具來最佳化每次互動。在本節中，您將探索其主要功能 (例如全管道協調、即時見解和智慧型決策) 如何結合在一起，以產生具影響力的結果。每個主題都可逐步建立您的了解，讓您輕鬆掌握 Adobe Journey Optimizer 如何將客戶參與轉變為動態且資料導向的流程。
+Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體驗。 在適當的時間透過適當的訊息與您的客戶會面。
+
+本節將介紹此平台的核心功能 — 從全通道協調和AI驅動決策，到無縫的內容和資料管理。 您將瞭解這些強大的工具如何共同運作以最佳化每個客戶互動。 每個主題都以最後一個主題為基礎，引導您以動態的資料導向方式，逐步掌握客戶參與度。
 
 ## 開始使用 Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 主要功能
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 架構概述
 
@@ -40,7 +42,7 @@ Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 角色與職責
 
@@ -50,7 +52,7 @@ Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用者介面概觀
 
@@ -60,7 +62,7 @@ Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 搜尋、篩選及組織內容
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer 可讓企業跨多個管道建立個人化的即時客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 護欄與限制
 
