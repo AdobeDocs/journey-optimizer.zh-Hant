@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 * [傳入活動疑難排解](troubleshooting-inbound.md)
 * [自訂動作疑難排解](../action/troubleshoot-custom-action.md)
 * [歷程常見問答](journey-faq.md)
-* [護欄與限制](limitations.md)
+* [護欄與限制](../start/guardrails.md)
 
 ## 取得支援 {#getting-support}
 
