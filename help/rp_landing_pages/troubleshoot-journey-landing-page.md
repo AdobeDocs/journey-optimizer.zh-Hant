@@ -5,23 +5,27 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
+source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 68%
+source-wordcount: '413'
+ht-degree: 31%
 
 ---
 
-# 疑難排解{#section-overview}
+# 監控與疑難排解{#section-overview}
 
-當客戶歷程的行為與預期不符時，要找出根本原因可能相當困難。為協助您有效解決問題，您可以在下方找到最常見問題區域的疑難排解資源。無論您是看到歷程失敗、執行不一致還是動作層級問題，每個區段都會提供目標性的指引，讓您得以調查並解決這些問題。
+若要有效管理您的客戶歷程，則需要主動監控、深入的報告功能，以及有效的疑難排解功能。 Adobe Journey Optimizer提供全方位的工具，用於追蹤歷程績效、識別潛在問題，並在問題發生時快速解決問題。
+
+使用[系統警示](../using/reports/alerts.md)接收有關嚴重事件的通知，利用[歷程報告](../using/reports/journey-global-report-cja.md)分析效能度量，並檢閱[歷程步驟事件](../using/reports/journey-step-events-overview.md)以瞭解詳細的執行流程。 發生問題時，請查閱[錯誤碼](../using/building-journeys/error-codes-reference.md)以取得快速解決方案，並遵循特定問題區域的目標疑難排解指南，無論您是否遇到歷程失敗、執行不一致或動作層級的問題。
+
+此頁面彙集了基本資源，可幫助您監控歷程健康情況、存取關鍵報告見解，以及在客戶歷程的所有階段有效解決問題。
 
 ## 疑難排解
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 存取及訂閱系統警示
 
@@ -31,7 +35,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 錯誤代碼參考
 
@@ -41,7 +45,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -51,7 +55,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 對 Adobe Journey Optimizer 中的即時歷程執行進行疑難排解
 
@@ -61,7 +65,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 對 Adobe Journey Optimizer 歷程中的傳入動作進行疑難排解
 
@@ -71,7 +75,7 @@ ht-degree: 68%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 對 Adobe Journey Optimizer 中的自訂動作進行疑難排解
 
@@ -81,6 +85,20 @@ ht-degree: 68%
 :::
 
 ::::
+
+## 報告和監視
+
+存取關鍵報告以監控歷程績效、分析量度並識別問題：
+
+* [歷程全域報告](../using/reports/journey-global-report-cja.md) — 檢視跨所有管道的完整歷程績效量度和分析。
+
+* [歷程即時報告](../using/reports/journey-live-report.md) — 監視即時歷程執行資料並追蹤作用中的客戶互動。
+
+* [歷程步驟事件](../using/reports/journey-step-events-overview.md) — 分析詳細的逐步歷程執行事件，以進行疑難排解和最佳化。
+
+* [開始使用報表](../using/reports/report-gs-cja.md) — 瞭解報表功能、量度，以及如何存取歷程深入分析。
+
+* [傳遞能力監視](../using/reports/deliverability.md) — 追蹤訊息傳遞率，並識別跨管道的潛在傳遞問題。
 
 ## 其他資源
 
