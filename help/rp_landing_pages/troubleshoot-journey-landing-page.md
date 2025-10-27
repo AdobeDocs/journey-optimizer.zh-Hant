@@ -5,10 +5,10 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 對 Adobe Journey Optimizer 中的即時歷程執行進行疑難排解
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 對 Adobe Journey Optimizer 歷程中的傳入動作進行疑難排解
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 對 Adobe Journey Optimizer 中的自訂動作進行疑難排解
 
@@ -60,8 +60,14 @@ ht-degree: 100%
 [驗證自訂動作](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+錯誤代碼參考
+
+瞭解Adobe Journey Optimizer中的常見錯誤代碼，並尋找跨歷程、行銷活動和訊息問題的快速解決方案。
+
+[檢視錯誤代碼參考](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### 其他資源
-
-此外，請參閱[此 Adobe 社群部落格貼文](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)，其中詳述常見錯誤碼以及如何有效解決它們。
