@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 2%
    * 所有個人化必須以&#x200B;**內容資料**&#x200B;的形式包含在API承載中。 [瞭解如何使用內容相關資料個人化內容](../campaigns/api-triggered-campaign-action.md#contextual)
    * 不支援設定檔個人化。 如果使用設定檔變數，則會發生驗證錯誤。
 
+* **個人化管道設定** — 使用[設定檔個人化](../email/surface-personalization.md)的管道設定，無法用於高輸送量的行銷活動。 只能使用沒有設定檔個人化的表面。
+
 * **API端點** — 高輸送量行銷活動使用的端點與標準API觸發的行銷活動不同。 如需詳細資訊，請參閱[執行API觸發的行銷活動](../campaigns/trigger-campaigns.md#trigger)。
 
-* **行銷活動獨家性**：高輸送量的行銷活動不使用Adobe設定檔。 無論設定檔是否存在都會傳遞訊息。
+* **行銷活動獨家性** — 高輸送量的行銷活動不使用Adobe設定檔。 無論設定檔是否存在都會傳遞訊息。
 
   此外，行銷活動無法用於啟用設定檔及非設定檔的使用案例。 如果您同時需要這兩者，請建立兩個個別的行銷活動，並確保呼叫系統根據內容決定要觸發哪個行銷活動。
 
