@@ -5,10 +5,10 @@ title: 內容管理
 description: 內容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '280'
-ht-degree: 100%
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Adobe Journey Optimizer 中的個人化
+新增Personalization
 
 了解如何實施及最佳化個人化功能，以建立量身打造的客戶體驗。
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer 中的個人化
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer 的登陸頁面
+建立登陸頁面
 
 探索建立、管理和最佳化行銷活動登陸頁面的工具和教學課程。
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer 的登陸頁面
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer 的內容範本
+內容範本
 
 使用可重複使用的範本簡化內容建立，以實現有效的行銷活動和歷程管理。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的內容範本
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重複使用內容片段
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer 的內容範本
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer 的動態內容
+建立動態內容
 
 使用條件規則來建立電子郵件、簡訊和推播通知的動態個人化內容。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的動態內容
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解決方案使用案例
 
