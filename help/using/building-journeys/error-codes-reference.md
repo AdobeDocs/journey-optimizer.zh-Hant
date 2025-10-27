@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: d9d0ca98d5f86a32653c9cb73197873cb31a2c6f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -118,8 +118,9 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 
 ### 在歷程啟用之前 {#journey-best-practices}
 
-* **驗證所有資源**：確認所有參考的對象、資料來源和自訂動作都有效
+* **驗證所有資源**：確認所有參考的對象、事件、資料來源和自訂動作均已正確設定
 * **徹底測試**：使用測試模式在發佈之前識別問題（[瞭解更多](testing-the-journey.md)）
+* **驗證磁碟區**：在上線之前，先試執行以驗證對象觸及範圍和分支邏輯（[深入瞭解](journey-dry-run.md)）
 * **檢查許可權**：確認您擁有所有元件必要的存取許可權
 * **檢閱相依性**：確認所有連結的訊息和內容均已發佈
 
