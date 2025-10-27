@@ -22,7 +22,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 主要功能
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 架構概述
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 角色與職責
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用者介面概觀
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 搜尋、篩選及組織內容
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 護欄與限制
 
