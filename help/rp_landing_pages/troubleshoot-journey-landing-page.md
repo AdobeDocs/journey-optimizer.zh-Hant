@@ -5,10 +5,10 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
+source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 31%
+source-wordcount: '402'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 31%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 存取及訂閱系統警示
 
@@ -35,7 +35,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 錯誤代碼參考
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -55,9 +55,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-對 Adobe Journey Optimizer 中的即時歷程執行進行疑難排解
+疑難排解即時歷程執行
 
 診斷即時執行期間的事件驗證、輪廓輸入、歷程導覽和訊息傳送問題。
 
@@ -65,9 +65,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-對 Adobe Journey Optimizer 歷程中的傳入動作進行疑難排解
+疑難排解歷程中的傳入動作
 
 使用詳細的逐步指南對輪廓退出後的傳入動作問題進行偵錯，例如遺失內容或繼續傳送。
 
@@ -75,9 +75,9 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-對 Adobe Journey Optimizer 中的自訂動作進行疑難排解
+疑難排解自訂動作
 
 使用「傳送測試請求」功能來驗證自訂動作並進行偵錯，以確保 API 呼叫和驗證設定正確無誤。
 
