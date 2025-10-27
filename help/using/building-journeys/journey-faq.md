@@ -11,9 +11,9 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
+source-git-commit: d1b031dffa860eb4618d985a53ed13b66f136654
 workflow-type: tm+mt
-source-wordcount: '4526'
+source-wordcount: '4568'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,11 @@ Journey Optimizer與Adobe Campaign原生整合，以運用其進階功能：
 **對歷程的影響**：
 
 * 歷程會使用與對象或事件相關聯的合併原則來決定哪些設定檔資料可用
-* 合併原則會影響哪些屬性和身分可在歷程條件、個人化和動作中存取
+   * 在讀取對象或對象資格歷程中：使用來自對象的合併原則
+   * 在單一事件歷程中：使用預設合併原則
+   * 在業務事件歷程中：使用以下讀取對象活動中來自目標對象的合併原則
+
+* 合併原則會影響哪些屬性可在歷程條件、個人化和動作中存取
 * 不同的合併原則會導致歷程中使用不同的設定檔資料
 
 **最佳實務**：

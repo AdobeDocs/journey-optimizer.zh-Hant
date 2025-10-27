@@ -5,10 +5,10 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 87%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,27 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+存取及訂閱系統警示
+
+瞭解如何存取系統警示、訂閱通知，以及監視歷程和行銷活動中的嚴重事件。
+
+[存取系統警示](../using/reports/alerts.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+錯誤代碼參考
+
+瞭解Adobe Journey Optimizer中的常見錯誤代碼，並尋找跨歷程、行銷活動和訊息問題的快速解決方案。
+
+[檢視錯誤代碼參考](../using/building-journeys/error-codes-reference.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -31,7 +51,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 對 Adobe Journey Optimizer 中的即時歷程執行進行疑難排解
 
@@ -41,7 +61,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 對 Adobe Journey Optimizer 歷程中的傳入動作進行疑難排解
 
@@ -51,7 +71,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 對 Adobe Journey Optimizer 中的自訂動作進行疑難排解
 
@@ -60,14 +80,10 @@ ht-degree: 87%
 [驗證自訂動作](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
-
-錯誤代碼參考
-
-瞭解Adobe Journey Optimizer中的常見錯誤代碼，並尋找跨歷程、行銷活動和訊息問題的快速解決方案。
-
-[檢視錯誤代碼參考](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## 其他資源
+
+* [歷程常見問題集](../using/building-journeys/journey-faq.md) — 有關歷程的常見問題解答，內容涵蓋歷程型別、執行、設定和疑難排解最佳實務。
+
+* [護欄和限制](../using/start/guardrails.md) — 瞭解Journey Optimizer護欄、產品限制、效能考量事項和支援的瀏覽器，以確保最佳使用。

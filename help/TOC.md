@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 98%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
-   + 疑難排解 {#troubleshoot-journey}
-      + [疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
-      + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
-      + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
-      + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
-      + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
 + 行銷活動 {#campaigns}
    + [行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [分割](using/orchestrated/activities/split.md)
          + [測試](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
-+ 衝突管理與優先順序 {#conflict-prioritization}
++ 衝突與優先順序 {#conflict-prioritization}
    + [衝突管理與優先順序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [建立和管理核准原則](using/test-approve/approval-policies.md)
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
++ 監視與疑難排解 {#monitor}
+   + [監控與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [系統警示](using/reports/alerts.md)
+   + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
+   + 歷程疑難排解 {#troubleshoot-journey}
+      + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
+      + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
+      + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
+      + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
 + 通訊管道 {#channels}
    + [開始使用通訊管道](using/channels/gs-channels.md)
    + 電子郵件管道 {#email}
@@ -771,7 +772,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
