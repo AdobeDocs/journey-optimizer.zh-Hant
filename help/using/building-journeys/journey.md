@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 * 傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用 Adobe Experience Platform 客群&#x200B;**批次**&#x200B;傳遞。
 
-* 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
+* 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自第三方 API 服務的資料。
 
 * 請使用&#x200B;**內建動作**&#x200B;傳送在 [!DNL Journey Optimizer] 中設計的訊息，如果您使用第三方系統來傳送訊息，則建立&#x200B;**自訂動作**。
 
@@ -51,4 +51,11 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## 其他資源 {#additional-resources}
+
+* [歷程常見問題集](journey-faq.md) — 關於歷程的常見問題
+* [錯誤代碼參考](error-codes-reference.md) — 歷程錯誤代碼和疑難排解步驟
+* [警報](../reports/alerts.md) — 設定歷程監視的警報
+* [疑難排解](troubleshooting.md) — 常見歷程問題和解決方案
