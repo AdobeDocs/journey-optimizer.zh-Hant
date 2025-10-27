@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '722'
 ht-degree: 15%
 
 ---
@@ -118,3 +118,5 @@ ht-degree: 15%
 在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
 在此頁面[上瞭解如何疑難排解活動及歷程](troubleshooting.md)中的錯誤。
+
+另請參閱&#x200B;**[監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**。
