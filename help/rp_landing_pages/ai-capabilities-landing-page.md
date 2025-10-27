@@ -30,7 +30,7 @@ Adobe Journey Optimizer運用人工智慧和機器學習的力量，轉變您建
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 傳送時間最佳化
 
@@ -70,7 +70,7 @@ AI助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=zh-Hant)
 
 Customer AI整合
 
