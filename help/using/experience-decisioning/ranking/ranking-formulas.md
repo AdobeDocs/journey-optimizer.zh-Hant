@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1457'
 ht-degree: 4%
 
 ---
@@ -118,7 +118,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -221,6 +221,22 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
                     ]}
 }
 ```
+
++++
+
++++根據設定檔的郵遞區號和年收入提升優惠方案
+
+在此範例中，系統一律會先嘗試顯示郵遞區號相符選件，如果未找到相符專案，則會退回一般選件，避免顯示專供其他郵遞區號使用的選件。
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+公式的作用：
+
+* 如果優惠方案與使用者有相同的郵遞區號，請將分數設定為非常高，系統就會先挑選優惠方案。
+* 如果優惠完全沒有郵遞區號（這是一般優惠方案），請根據使用者的收入給予正常分數。
+* 如果優惠方案的郵遞區號與使用者不同，請將分數設定為非常低，以免選取優惠方案。
 
 +++
 
