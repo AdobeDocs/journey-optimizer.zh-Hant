@@ -4,9 +4,9 @@ product: journey optimizer
 title: Adobe Journey Optimizer發行週期
 feature: Release Notes
 description: 瞭解Adobe Journey Optimizer發行週期
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,10 @@ Journey Optimizer中的功能根據其複雜性、相依性和範圍而遵循不
 ![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## 常見問題 {#faq}
+
+您可以在下方找到有關Adobe Journey Optimizer發行週期的常見問題。
+
+需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++ 何時排程Adobe Journey Optimizer發行？
 

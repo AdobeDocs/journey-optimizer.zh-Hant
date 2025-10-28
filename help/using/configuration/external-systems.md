@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 20%
+source-wordcount: '1654'
+ht-degree: 19%
 
 ---
 
@@ -106,21 +106,31 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
    * 如果在5秒結束前三次重試其中一次成功，則會執行呼叫，而且不會發生錯誤。
    * 如果在重試期間到達逾時持續時間的結尾，則會取消呼叫，並在報表中計為逾時錯誤。
 
-## 常見問題{#faq}
+## 常見問題 {#faq}
 
-**如何設定上限或節流規則？ 有預設規則嗎？**
+您將找到有關整合Journey Optimizer與外部系統的常見問題集。
+
+需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+
++++ 如何設定上限或節流規則？ 有預設規則嗎？
 
 若要建立上限或節流規則，請參閱[本節](../configuration/external-systems.md#capping)。 依預設，沒有節流規則，但針對所有自訂動作、每個主機和每個沙箱，有一分鐘的時間上限為300,000次呼叫。 此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。如有需要，您可以透過我們的上限/節流API定義較大的上限或節流限制來覆寫此設定。
 
-**執行多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待時間嗎？**
++++
+
++++ 執行多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待期間嗎？
 
 對於指定的呼叫，在第一次呼叫之後最多可以執行三次重試，直到逾時持續時間結束為止。 無法變更重試次數和每次重試之間的時間。 請參閱[本節](../configuration/external-systems.md#timeout)。
 
-**我可以在哪裡設定逾時？ 有最大值嗎？**
++++
+
++++ 我可以在哪裡設定逾時？ 有最大值嗎？
 
 在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱[此章節](../configuration/external-systems.md#timeout)和[此頁面](../building-journeys/journey-properties.md#timeout_and_error)。
 
-**使用自訂動作時，Journey Optimizer開啟的連線數目上限是多少？**
++++
+
++++ 使用自訂動作時，Journey Optimizer開啟的連線數目上限是多少？
 
 啟用IP Proxy並且在目標端點上定義節流設定後，連線數量會根據速率（這些是預估值，不保證數量）：
 
@@ -130,3 +140,5 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 * 4000到5000之間：125個連線
 
 如果端點未定義節流設定，則Journey Optimizer的引擎會設計為放大，並且可能會有大量的連線（超過2,000個）。 為了取得有限的連線數量，客戶需要使用節流設定。
+
++++
