@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 3%
 * 字詞&#x200B;**true**、**false**、**null**&#x200B;和&#x200B;**未定義**&#x200B;只允許在路徑運算式的第一個部分中。
 
 * 在Handlebars中，{{expression}}傳回的值是&#x200B;**HTML逸出**。 如果運算式包含`&`，則會產生傳回的HTML逸出輸出為`&amp;`。 如果您不希望Handlebars逸出值，請使用「三重儲存」。
+
+  假設欄位`profile.person.name`的值為「Mark &amp; Mary」。 語法`{{profile.person.name}}`將顯示`Mark &amp; Mary`，而`{{{profile.person.name}}}`將顯示`Mark & Mary`。
 
 * 關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用其他反斜線(`\`)符號逸出。 範例：
 
