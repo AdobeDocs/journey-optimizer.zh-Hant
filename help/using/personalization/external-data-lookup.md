@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 1%
+source-wordcount: '1241'
+ht-degree: 2%
 
 ---
 
@@ -206,16 +206,24 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ![](assets/external-data-troubleshoot.png "寬度=50%")
 
-## 常見問題集
+## 常見問題 {#faq-external-data}
 
-* 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
+您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-  使用內容屬性>資料串流>事件功能表來瀏覽您使用的體驗事件結構，並插入相關屬性作為引數值，如下所示：
+需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 
-* [!DNL Journey Optimizer]是否執行任何外部端點回應的快取？
+使用內容屬性>資料串流>事件功能表來瀏覽您使用的體驗事件結構，並插入相關屬性作為引數值，如下所示：
 
-  目前不會。 未來將支援此功能。
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer]是否執行任何外部端點回應的快取？
+
+目前不會。 未來將支援此功能。
+
++++
