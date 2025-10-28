@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
+source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 15%
 
 * 每個歷程最多10個資料集查詢活動。
 * 最多20個選取的欄位。
-* 查詢鍵陣列中最多可包含500個鍵。
+* 查詢鍵陣列中最多可有50個鍵。
 * 擴充的資料大小上限為10KB。
 
 ### 其他效能考量事項
