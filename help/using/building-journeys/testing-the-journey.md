@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
+source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1842'
+ht-degree: 7%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 8%
 1. 若要啟動測試模式，請按一下右上角的&#x200B;**[!UICONTROL 測試模式]**&#x200B;按鈕。
 
    ![](assets/journeytest1.png)
+
+   >[!NOTE]
+   >
+   >啟用測試模式後，請等待約1-2分鐘再觸發設定檔入口。 這可讓決策套件透過決策系統完全傳播。 在啟用測試模式後立即觸發設定檔入口，可能會導致歷程偶爾失敗。
 
 1. 如果歷程至少有一個&#x200B;**等待**&#x200B;活動，請設定&#x200B;**[!UICONTROL 等待時間]**&#x200B;引數，以定義每個等待活動和事件逾時在測試模式中的持續時間。 等待和事件逾時的預設時間為10秒。 這將確保您能快速獲得測試結果。
 
