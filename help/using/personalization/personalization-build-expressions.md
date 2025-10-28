@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 10%
 
 ---
@@ -162,8 +162,6 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 1. **[!UICONTROL Picks]**：將屬性顯示為精簡的「Picks」，藉由隱藏長屬性路徑來改善可讀性。 按一下屬性以顯示其完整路徑。
 
    >[!NOTE]
-   >
-   >未來30天內，藥丸展示會逐步推廣到所有環境。
    >
    >此選項僅適用於設定檔屬性、內容屬性和動態媒體。
 
