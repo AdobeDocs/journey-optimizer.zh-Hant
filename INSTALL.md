@@ -21,6 +21,7 @@ ht-degree: 2%
    ```
    @setup-agents
    ```
+
 3. 按照提示操作
 4. 完成！✨
 
@@ -32,11 +33,13 @@ ht-degree: 2%
    ```bash
    ./setup-agents.sh
    ```
+
    或手動：
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. 完成！✨
 
 ## 驗證
@@ -136,7 +139,7 @@ journey-optimizer.en/
 
 這可確保每個人都使用相同的、最新的代理程式。
 
----
+&#x200B;---
 
 **需要協助嗎？**&#x200B;請連絡您的檔案團隊負責人或檢視內部Wiki。
 
