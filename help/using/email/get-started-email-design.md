@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 89%
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
 <!-- DOCAC-13676
-    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
+    * **Convert image designs to HTML templates** using the AI-powered image to HTML converter. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
 從內建或自訂範本清單中    * **選取現有內容**。 在[本章節](../email/use-email-templates.md)中瞭解如何使用電子郵件範本。
     
@@ -84,4 +84,4 @@ ht-degree: 89%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
