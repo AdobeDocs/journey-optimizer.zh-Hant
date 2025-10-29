@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b2841aae3bae5a83fc506d2bd217e4c632fdb5ef
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '3001'
+source-wordcount: '3006'
 ht-degree: 97%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 97%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -324,6 +324,7 @@ ht-degree: 97%
             + [開始建立內容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [從頭開始設計內容](using/email/content-from-scratch.md)
             + [匯入內容](using/email/existing-content.md)
+            + [將影像轉換為HTML範本](using/email/image-to-html.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
@@ -773,7 +774,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

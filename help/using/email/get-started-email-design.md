@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 93%
+source-wordcount: '658'
+ht-degree: 89%
 
 ---
 
@@ -65,10 +65,12 @@ ht-degree: 93%
      >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。[了解更多](create-email.md#define-email-content)
 
    * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
+<!-- DOCAC-13676
+    * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[此區段](../email/use-email-templates.md)。
-
-   ![](assets/email_designer_create_options.png)
+從內建或自訂範本清單中    * **選取現有內容**。 在[本章節](../email/use-email-templates.md)中瞭解如何使用電子郵件範本。
+    
+    ![](assets/email_designer_create_options.png)
 
 1. 一旦定義並個人化您的電子郵件內容，您就可以匯出內容以供驗證或稍後使用。按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
 
@@ -82,4 +84,4 @@ ht-degree: 93%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
