@@ -10,19 +10,14 @@ level: Beginner
 keywords: 電子郵件，範本，影像， HTML， AI，設計，加速器
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 3%
 
 ---
 
 # 使用範本加速器將影像轉換為HTML範本 {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="範本加速器"
->abstract="使用範本加速器將靜態影像設計(JPEG或PNG)轉換為完全可自訂的HTML電子郵件範本。 此AI支援功能可協助您將視覺設計快速轉換為回應式、可編輯的電子郵件內容。 注意：當您上傳影像進行轉換時，電子郵件中的所有現有內容都會刪除。"
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 3%
 
 範本加速器是&#x200B;**內容範本**&#x200B;功能表中提供的AI支援創新功能，可將靜態影像設計轉換為完全可自訂的HTML電子郵件內容範本，大幅加快電子郵件建立速度。 此工具可讓行銷人員將視覺設計從圖形設計工具或設計工具轉換為回應式、可編輯的電子郵件範本，這些範本可儲存至內容範本資料庫，然後在多個歷程及行銷活動中重複使用。
 
-透過運用創作AI技術，Template Accelerator可分析影像中的版面、印刷樣式、顏色和視覺元素，並產生簡潔的結構化HTML程式碼，以維持設計的精確度，同時確保完全可編輯性並與Email Designer相容。
+透過運用創作AI技術，範本加速器影像到HTML轉換器可分析影像中的版面、印刷樣式、顏色和視覺元素，並產生簡潔的結構化HTML程式碼，以維持設計的精確度，同時確保完整可編輯性以及與電子郵件Designer的相容性。
 
 **主要優點：**
 
@@ -97,7 +92,7 @@ ht-degree: 3%
 
 1. 進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。**&#x200B;**
+1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。****
 
 1. 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](use-email-templates.md)
 
@@ -111,7 +106,7 @@ ht-degree: 3%
 
 ## 最佳做法 {#best-practices}
 
-若要在使用範本加速器時取得最佳結果，請遵循下列建議：
+若要在使用影像至HTML轉換器時取得最佳結果，請遵循下列建議：
 
 **開始之前**
 
@@ -161,7 +156,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Template Accelerator的設計目的，是要提供建立電子郵件的強大起點。 您應使用電子郵件Designer來檢閱及調整產生的HTML，以確保其符合您的確切需求。
+>影像至HTML轉換工具的設計，是要為建立電子郵件提供堅實的起點。 您應使用電子郵件Designer來檢閱及調整產生的HTML，以確保其符合您的確切需求。
 
 ## 常見問題 {#faq}
 
