@@ -8,15 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 系統管理員快速入門 {#get-started-sys-admins}
 
-開始使用 [!DNL Adobe Journey Optimizer] 之前，準備環境需執行數個步驟。  您必須執行這些步驟，以便[資料工程師](data-engineer.md)和[歷程從業者](marketer.md)可以開始使用[!DNL Adobe Journey Optimizer]。
+開始使用 [!DNL Adobe Journey Optimizer] 之前，準備環境需執行數個步驟。  您必須執行這些步驟，[資料工程師](data-engineer.md)和[歷程實務人員](marketer.md)才能開始使用 [!DNL Adobe Journey Optimizer]。
 
 身為&#x200B;**系統管理員**，您必須&#x200B;**了解角色並指派權限**，可用於沙箱管理和管道設定。 您也必須先設定沙箱，再針對可用的角色進行管理。 然後，您就能將團隊成員指派至角色。
 
@@ -33,10 +33,10 @@ ht-degree: 95%
 
 1. 針對角色&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的角色，以授予其存取權。 權限是統一權限，允許您定義分配給&#x200B;**[!UICONTROL 角色]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或產品建議) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
 
-此外，您必須將需要存取 Assets Essentials 的使用者新增至 **Assets Essentials 消費者使用者**&#x200B;或/和 **Assets Essentials 使用者**&#x200B;角色。 [在Assets Essentials檔案中閱讀更多資訊](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"}。
+此外，您必須將需要存取 Assets Essentials 的使用者新增至 **Assets Essentials 消費者使用者**&#x200B;或/和 **Assets Essentials 使用者**&#x200B;角色。 [如需詳細資訊，請參閱 Assets Essentials 文件](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"}。
 
 >[!NOTE]
->針對 2022 年 1 月 6 日之前取得的 Journey Optimizer 產品，您必須為貴組織部署 [!DNL Adobe Experience Manager Assets Essentials] 。 在[部署Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"}一節中瞭解更多。
+>針對 2022 年 1 月 6 日之前取得的 Journey Optimizer 產品，您必須為貴組織部署 [!DNL Adobe Experience Manager Assets Essentials] 。 在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"} 一節中了解更多資訊。
 
 首次存取 [!DNL Journey Optimizer] 系統時，會佈建生產沙箱，並根據您的合約分配特定數量的 IP。
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 1. **設定訊息和管道**：定義設定、調整和自訂電子郵件、簡訊和推播訊息設定
 
-   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**&#x200B;[了解更多](../../push/push-gs.md)
+   * 在 [!DNL Adobe Experience Platform] 和 [!DNL Adobe Experience Platform Launch] 中定義&#x200B;**推播通知設定**[了解更多](../../push/push-gs.md)
 
    * 建立&#x200B;**管道設定** (即訊息預設集)，以設定電子郵件、簡訊和推播通知所需的所有技術參數。[了解更多](../../configuration/channel-surfaces.md)
 
@@ -74,4 +74,4 @@ ht-degree: 95%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。

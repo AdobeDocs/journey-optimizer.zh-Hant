@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ You can also create audience-based campaigns to send messages.-->
 
 * **現代全通路協調流程與執行**：在單一版面上，協調流程並將客戶歷程最佳化，以便達成:1客戶參與度和行銷推廣的目標，在客戶生命週期期間，也能協助品牌帶來更多價值。在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。
 
-* **智慧型決策與Personalization** — 品牌可套用集中決定，並整合人工智慧和機器學習，以在客戶體驗中設定預測性深入分析，更輕鬆自動化決策並大規模最佳化體驗。 產品建議决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨頻道的集中式產品建議。
+* **智慧決策與個人化** - 品牌可套用集中式決策，並將人工智慧與機器學習整合至整體客戶體驗中的設定預測性深入分析，讓自動化決策與大規模最佳化體驗更加輕鬆。產品建議决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨頻道的集中式產品建議。
 
 
 >[!NOTE]

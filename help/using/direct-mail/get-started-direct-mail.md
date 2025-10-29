@@ -1,6 +1,6 @@
 ---
 title: 開始使用直接郵件
-description: 瞭解如何在Journey Optimizer中建立直接郵件訊息
+description: 瞭解如何在 Journey Optimizer 建立直接郵件訊息
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,9 +8,9 @@ level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 * [使用者授權權杖擁有適當使用權限](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-在繼續整合之前，您還需要確認下列事項：
+在繼續整合之前，您還需要瞭解下列內容：
 
 * [WhatsApp 內容規則](https://www.whatsapp.com/legal/messaging-guidelines)
 * [遵守 Meta 原則](https://www.whatsapp.com/legal)
@@ -56,9 +56,9 @@ ht-degree: 96%
 
 以下影片說明如何將 WhatsApp 整合為 Adobe Journey Optimizer 中的原生頻道，以便大規模提供安全、即時、個人化的訊息。
 
-+++ 請觀看影片
++++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
