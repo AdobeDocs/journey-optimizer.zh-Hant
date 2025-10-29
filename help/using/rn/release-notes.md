@@ -314,7 +314,7 @@ New capabilities and improvements released recently are listed below, with their
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator現在包含Experimentation Agent，這是AI支援的對話工具，可讓您與實驗、見解和機會互動。 它增強了Journey Optimizer Experimentation Accelerator體驗，幫助您更高效地執行實驗、揭示哪些有效，並探索下一步最佳化的目標。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
