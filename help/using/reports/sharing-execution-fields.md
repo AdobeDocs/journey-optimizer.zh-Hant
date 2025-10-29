@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '663'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 3%
 `Timestamp`欄位指出動作執行的結束時間。 若要判斷設定檔何時進入自訂動作節點，請從`actionExecutionTime`中減去`Timestamp`。
 
 例如，如果`Timestamp`是&quot;2025-02-04 09:39:03 UTC&quot;，而`actionExecutionTime`是1,813,227毫秒（~31分鐘），則設定檔在大約&quot;2025-02-04 09:08:32 UTC&quot;進入節點。
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ ht-degree: 3%
 actionExecOrigError的錯誤碼。
 
 型別：字串
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+動作中使用的自訂動作端點的URI。
+
+型別：字串
+
+## actionOriginMethod {#actionoriginmethod}
+
+這會說明HTTP請求(GET或POST)中使用的方法。
+
+型別：字串
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+此屬性說明是否為端點啟用MTLS。
+
+型別：布林值
+
+## actionIsProxy {#actionisproxy}
+
+這會說明是否將具有已定義IP位址範圍的HTTP Proxy用於呼叫。
+
+型別：布林值
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+這會說明起始HTTP要求的時間戳記。 如果重試，這是起始最終重試嘗試的時間戳記。 時間戳記使用UTC時區的ISO8601格式。
+
+請注意，此時間戳記通常會在設定檔進入自訂動作節點後稍微顯示，或是若節流則會在設定檔進入節點後大幅顯示。
+
+型別：時間戳記
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+這會說明HTTP呼叫的回應時間。 若重試，這是最後一次重試所花費的時間。 它會測量從起始HTTP要求到從伺服器傳回完整回應的時間。 請注意，若是節流情況，這會排除佇列中的所有等待時間。
+
+型別： long
+
+## actionIsThrottled {#actionisthrottled}
+
+此屬性說明是否為端點啟用節流。
+
+型別：布林值
+
+## actionWaitTime {#actionwaittime}
+
+這描述了何時達到節流端點的設定速率限制，呼叫會以設定的速率排入佇列及處理。 此欄位會報告呼叫在執行之前在佇列中等待的時間量。 只有在actionIsThrottled為true時才==指定。
+
+型別： long
 
 ## actionBusinessType {#actionbusinesstype-field}
 
