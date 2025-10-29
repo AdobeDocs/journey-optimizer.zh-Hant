@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 92%
 
 ## 行銷活動類型
 
-[!DNL Journey Optimizer] 支援三種行銷活動類型。每種類型適合不同的使用案例，並支援不同的管道。
+[!DNL Journey Optimizer] 支援三種行銷活動類型。每種型別適合不同的使用案例，並支援不同的管道。 如需每種行銷活動型別可用頻道的詳細資訊，請參閱本區段中的表格： [歷程與行銷活動中的頻道](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -125,23 +125,6 @@ ht-degree: 92%
 
 >[!ENDTABS]
 
-## 依行銷活動類型的支援管道 {#channels}
-
-下表顯示不同行銷活動類型中每個管道的可用性，並指出其支援位置。
-
-| Channel | 動作 (行銷) | 動作 (交易型) | API 觸發 (行銷) | API 觸發 (交易型) | 協調式 |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| 電子郵件 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 簡訊 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 推播通知 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 應用程式內 | ✅ | — | — | — | — |
-| 直接郵件 | ✅ | — | — | — | — |
-| 網頁 | ✅ | — | — | — | — |
-| 程式碼型體驗 | ✅ | — | — | — | — |
-| 內容卡 | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| 折線圖 | ✅ | — | — | — | — |
-
 ## 先決條件 {#prerequisites}
 
 在使用行銷活動之前，請確定您已檢閱下列先決條件。
@@ -164,7 +147,7 @@ ht-degree: 92%
 
    1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
       如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 

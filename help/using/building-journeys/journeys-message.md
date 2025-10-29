@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 17%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 17%
 
 ## 在歷程中新增訊息  {#add-msg-in-journey}
 
-透過內建頻道動作，您可以設定傳出或傳入訊息。 支援的傳入頻道包括電子郵件、簡訊(SMS/MMS)和推播通知。 支援的輸出管道包括應用程式內、網頁、程式碼型體驗和內容卡。
+透過內建頻道動作，您可以設定傳出或傳入訊息。 如需歷程中可用頻道的詳細資訊，請參閱本節中的表格： [歷程與行銷活動中的頻道](../channels/gs-channels.md#channels)。
 
 若要將內建頻道動作新增至歷程，請遵循下列步驟。
 

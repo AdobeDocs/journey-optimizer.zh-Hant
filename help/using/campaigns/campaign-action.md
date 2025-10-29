@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >支援的管道包括： [電子郵件](../email/get-started-email.md)、[簡訊/多媒體簡訊/RCS](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[應用程式內](../in-app/get-started-in-app.md)、[網頁](../web/get-started-web.md)、[程式碼型體驗](../code-based/get-started-code-based.md)。
+   >如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。
    >
    >可用的通道因您的授權模式及附加元件而異。
 

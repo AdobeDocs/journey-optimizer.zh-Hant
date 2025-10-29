@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 52%
+source-wordcount: '449'
+ht-degree: 50%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 52%
 
    >[!NOTE]
    >
-   >支援的頻道為： [電子郵件](../email/get-started-email.md)、[簡訊](../sms/get-started-sms.md)、[推播通知](../push/get-started-push.md)。 高輸送量API觸發的行銷活動目前僅支援電子郵件頻道。
+   >如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。 可用的通道因您的授權模式及附加元件而異。
    >
-   >可用的通道因您的授權模式及附加元件而異。
+   >高輸送量API觸發的行銷活動目前僅支援電子郵件頻道。
 
 1. **選取通道設定**
 
