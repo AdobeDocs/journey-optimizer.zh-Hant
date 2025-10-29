@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer中的AI功能
 description: Adobe Journey Optimizer中的AI功能
 hide: true
 hidefromtoc: true
-source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
+source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 4%
+source-wordcount: '1436'
+ht-degree: 3%
 
 ---
 
@@ -80,68 +80,53 @@ Customer AI整合
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-歷程分析代理
+品牌一致性分數
 
-使用自然語言來分析和最佳化歷程。 識別流失點、偵測對象和排程衝突，以及取得可操作的建議。
+使用AI支援的評分來評估您的AI產生的內容與品牌指引的一致程度。
 
-[探索Journey Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[瞭解品牌一致性](../using/content-management/brands-score.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-實驗代理程式
+Experiment Accelerator
 
-使用AI支援的深入分析執行和管理數位實驗。 取得效能摘要、內容分析，以及後續測試的建議。
+使用AI驅動的見解和建議加快您的內容實驗流程。
 
-[探索實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[探索Experiment Accelerator](../using/content-management/experiment-accelerator-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Audience 代理
+AI支援的API
 
-使用對話式AI建立、分析和最佳化受眾區段。 透過自然語言查詢建立複雜的區段，並取得對象重疊的深入分析。
+透過API以程式設計方式存取Journey Optimizer的AI和機器學習功能。
 
-[瞭解Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
-
-Agent Orchestrator
-
-協調多個AI代理程式以無縫地共同作業。 結合歷程、實驗、對象和資料見解代理程式，以解決複雜任務。
-
-[探索Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+[探索AI支援的API](../using/configuration/ajo-apis.md)
 :::
 
 ::::
 
 
-## 其他資源
-
-- **[品牌一致性評分](../using/content-management/brands-score.md)** — 使用AI支援的評分，評估您的AI產生的內容與品牌指引的一致程度。
-- **[Experiment Accelerator](../using/content-management/experiment-accelerator-gs.md)** — 利用AI驅動的見解和建議加速您的內容實驗程式。
-- **[AI支援的API](../using/configuration/ajo-apis.md)** — 透過API以程式設計方式存取Journey Optimizer的AI和機器學習功能。
 
 ## Adobe Experience Cloud中的AI代理
 
 Adobe Experience Cloud AI代理將AI功能延伸到Journey Optimizer之外，為複雜的行銷任務啟用自然語言互動：
 
 - **[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 執行歷程流失分析、偵測對象和排程重疊，並接收可操作的建議以最佳化歷程效能。
-- **[實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
+- **[實驗代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 透過對話式AI建立和管理對象區段、分析對象構成並最佳化細分策略。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 協調多個專業代理程式，以有效解決複雜的多步驟行銷挑戰。
 
 ## 常見問題
 
-+++**使用AI功能需要哪些許可權？**
++++**在Journey Optimizer中使用AI助理需要哪些許可權？**
 
-若要使用AI助理來產生內容，使用者必須被授予&#x200B;**產生內容**&#x200B;許可權。 此許可權會透過許可權產品中的AI助理資源指派。 若要使用AI助理來獲取產品知識和營運見解，使用者必須同意Adobe Experience Cloud Generative AI使用者指南。
+若要使用AI助理來產生內容，使用者必須被授予&#x200B;**產生內容**&#x200B;許可權。 此許可權會透過許可權產品中的AI助理資源指派。 若要使用AI助理來獲取產品知識和營運見解，使用者必須同意Adobe Experience Cloud Generative AI使用者指南。 如需AI代理程式許可權，請參閱以下個別的常見問題集專案。
 
 [進一步瞭解許可權](../using/administration/ootb-permissions.md)
 
@@ -217,9 +202,47 @@ Adobe Experience Cloud AI代理將AI功能延伸到Journey Optimizer之外，為
 
 +++
 
++++**什麼是Adobe Experience Cloud AI代理程式？**
+
+AI代理程式是建置在Adobe Experience Platform上的專業AI助理，使用自然語言來協助您分析、最佳化及管理複雜的行銷工作。 與用於內容產生的AI Assistant不同，AI代理程式專注於營運深入分析、歷程分析、對象管理和實驗。 可用的代理程式包括Journey Analyze Agent、Experimentation Agent、Audience Agent和Agent Orchestrator。
+
+[進一步瞭解AI代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+
++++
+
++++**使用AI代理程式需要哪些許可權？**
+
+許可權依代理程式而異：
+
+- **歷程分析代理程式** — 需要&#x200B;**檢視歷程**&#x200B;許可權才能檢視深入分析，需要&#x200B;**管理歷程**&#x200B;才能建立歷程。 也需要&#x200B;**檢視區段**&#x200B;和&#x200B;**管理區段**&#x200B;許可權才能與受眾合作。
+- **實驗代理程式** — 需要&#x200B;**檢視實驗**&#x200B;許可權才能檢視深入分析，需要&#x200B;**管理實驗中繼資料**&#x200B;才能建立實驗。
+- **Audience Agent** — 需要適當的區段檢視和管理許可權。
+- 所有代理程式都需要存取AI助理並同意Adobe Experience Cloud Generative AI使用者指南。
+
++++
+
++++**歷程分析代理程式可以做什麼？**
+
+Journey Analyze代理程式可幫助您：
+
+- **分析歷程流失** — 識別客戶在歷程中流失的位置及原因，並偵測脫離模式。
+- **偵測對象重疊** — 分析多個歷程中的對象重疊，以防止疲勞過度鎖定目標。
+- **識別排程衝突** — 偵測以相同對象為目標的排程歷程之間的時間衝突。
+- **表面營運深入分析** — 取得提示式深入分析，例如「顯示所有即時歷程」或「超過X個歷程中使用哪些對象」。
+
+[探索歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+
++++
+
++++**AI代理程式如何共同運作？**
+
+**Agent Orchestrator**&#x200B;可協調多個專業代理程式以解決複雜的多步驟行銷挑戰。 例如，您可以使用Journey Analyze Agent來識別流失點、使用Audience Agent來分析區段構成，以及使用Experimentation Agent來測試解決方案 — 所有這些都是透過自然語言查詢完成的。 Orchestrator會自動決定要涉及的代理程式，並有效率地排序其工作。
+
++++
+
 +++**要使用AI功能，我是否需要同意任何條款？**
 
-是，您必須先同意[Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的Adobe代表。 此外，Adobe也將Content Credentials套用至Firefly產生的資產，作為承諾產生式AI使用透明度的一部分。
+是，您必須先同意[Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Journey Optimizer中使用AI助理或在Adobe Experience Cloud中使用AI代理程式。 如需詳細資訊，請聯絡您的Adobe代表。 此外，Adobe也將Content Credentials套用至Firefly產生的資產，作為承諾產生式AI使用透明度的一部分。
 
 +++
 
