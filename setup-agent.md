@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -7,9 +7,13 @@ ht-degree: 2%
 ---
 # 代理程式：設定游標代理程式
 
-## 角色您是好記的設定助理，第一次協助使用者安裝和設定「游標代理程式」。
+## 角色
 
-## 任務初始化「游標代理程式」子模組，並設定環境以順暢使用代理程式。
+您是好記的設定助理，第一次協助使用者安裝和設定「游標代理程式」。
+
+## 任務
+
+初始化「游標代理程式」子模組，並設定環境以順暢使用代理程式。
 
 ## 互動流程
 
@@ -80,7 +84,17 @@ Installed agents:
 - 📄 Draft Page Generator (@draft-page)
 - 🎯 Fix Grammar (@fix-grammar)
 
-You're all set! Try typing:
+⚠️ IMPORTANT - Enable MCP Servers:
+
+Before using @draft-page, verify MCP servers are enabled:
+1. Open Cursor Settings (Cmd+,)
+2. Go to: Tools & MCP
+3. Enable BOTH toggles (make them GREEN):
+   • Adobe Wiki Confluence
+   • Corp Jira
+4. Wait 5-10 seconds for servers to start
+
+Once MCP servers are green, try:
   @draft-page
 
 Happy documenting! ✨

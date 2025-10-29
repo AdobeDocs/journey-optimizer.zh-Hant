@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -138,8 +138,6 @@ journey-optimizer.en/
 **https://git.corp.adobe.com/AdobeDocs/CursorAgents**
 
 這可確保每個人都使用相同的、最新的代理程式。
-
-&#x200B;---
 
 **需要協助嗎？**&#x200B;請連絡您的檔案團隊負責人或檢視內部Wiki。
 
