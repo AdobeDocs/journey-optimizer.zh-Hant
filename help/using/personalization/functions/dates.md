@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1091'
 ht-degree: 6%
 
 ---
@@ -420,9 +420,22 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## 支援地區設定的日期格式{#format-date-locale}
+### 圖樣字元 {#pattern-characters}
 
-`formatDate`函式可用來將日期時間值格式化成對應的語言敏感表示法，亦即所需的地區設定。 格式應為有效的Java DateTimeFormat模式。
+有些樣式字母看起來可能類似，但表示不同的概念。
+
+| 模式 | 含義 | 範例（針對`2023-12-31T10:15:30Z`） |
+|---------|---------|--------------------------------------|
+| `y` | 日曆年（標準年） | `2023` |
+| `Y` | 周基準年(ISO 8601)。 可能會依年份邊界而有所不同。 | `2024` （由於2023年12月31日是在2024年的第一週） |
+| `M` | 月份（1-12或類似`Jan`， `January`的文字） | `12`或`Dec` |
+| `m` | 小時制的分鐘(0-59) | `15` |
+| `d` | 當月日期(1-31) | `31` |
+| `D` | 年日(1-366) | `365` |
+
+### 支援地區設定的日期格式{#format-date-locale}
+
+`formatDate`函式可用來將日期時間值格式化成對應的語言敏感表示法，也就是在所需的地區設定中。 格式應為有效的Java DateTimeFormat模式。
 
 **語法**
 

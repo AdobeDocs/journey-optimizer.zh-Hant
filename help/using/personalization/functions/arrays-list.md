@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 6%
+source-wordcount: '592'
+ht-degree: 5%
 
 ---
 
@@ -107,10 +107,11 @@ ht-degree: 6%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 陣列中的前`n` {#first-n}
+## 排序並取得陣列中的前N個 {#first-n}
 
-當根據給定的數值運算式依遞增順序排序時，`topN`函式用來傳回陣列中的前`N`個專案。
+`topN`函式根據給定的數值運算式以遞減順序排序陣列，並傳回前`N`個專案。 如果陣列大小小於`N`，則會傳回整個已排序陣列。
 
+此函式
 **語法**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 陣列中的最後`n`{#last-n}
+## 排序並取得陣列中的最後N個 {#last-n}
 
-當根據給定的數值運算式依遞增順序排序時，`bottomN`函式用於傳回陣列中的最後`N`個專案。
+`bottomN`函式根據給定的數值運算式以遞增順序排序陣列，並傳回前`N`個專案。 如果陣列大小小於`N`，則會傳回整個已排序陣列。
 
 **語法**
 
