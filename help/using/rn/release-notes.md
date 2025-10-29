@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 45%
+source-wordcount: '1164'
+ht-degree: 43%
 
 ---
 
@@ -22,9 +22,35 @@ ht-degree: 45%
 
 [!DNL Adobe Journey Optimizer]遵循持續傳遞模式，允許Adobe持續傳遞新功能、增強功能和修正。 此方法可讓您分階段推出可擴充的功能，以確保所有環境的效能和穩定性。
 
-基於此模型，發行說明會在每月發行之間更新。  專屬的[最新更新](#updates-rn)區段會強調在部署到生產環境時的新功能和改善 — 因此您一律會即時收到所有變更的通知。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+基於此模型，發行說明會在每月發行之間更新。  專屬的[最新更新](#latest-updates)區段會強調在部署到生產環境時的新功能和改善 — 因此您一律會即時收到所有變更的通知。 如需發行週期與可用性階段的完整詳細資訊，請參閱[Journey Optimizer發行週期](#releases.md)。
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+
+<!-- DOCAC-13676
+## Latest updates {#latest-updates}
+
+New capabilities and improvements released recently are listed below, with their availability date.
+
+### New capabilities {#latest-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Image to HTML converter</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
+<p>Availability date: November 3, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 ## 2025年10月發行說明 {#oct-25-10-rn}
 
@@ -288,7 +314,7 @@ ht-degree: 45%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Accelerator現在包含Experimentation Agent，這是AI支援的對話工具，可讓您與實驗、見解和機會互動。 它增強了Journey Optimizer Experimentation Accelerator體驗，幫助您更高效地執行實驗、揭示哪些有效，並探索下一步最佳化的目標。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2025年10月10日</p>
 </td>
 </tr>
@@ -364,36 +390,38 @@ WhatsApp頻道&#x200B;**的**&#x200B;執行欄位
 
 推出日期：2025 年 10 月 6 日
 
-### 即將推出 {#oct-25-10-soon}
+<!--
+### Coming soon {#oct-25-10-soon}
 
-下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-#### 全新功能 {#oct-25-10-soon-features}
+#### New capabilities {#oct-25-10-soon-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的主題</strong><br/></th>
+<th><strong>Themes in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>目前您可以快速套用事先審核通過的主題，以便確保所有電子郵件的品牌都有保持一致性，加快投放行銷活動的流程，個別製作高品質的電子郵件，同時減少對設計團隊的依賴。</p>
-<p>此功能先前以Beta版發佈，現在可供一組組織使用（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--img src="assets/do-not-localize/themes.gif">
+<p>You can now quickly apply pre-approved themes to ensure brand consistency across all emails, speed up your campaign creation process, and independently produce high-quality emails while reducing dependency on design teams.</p>
+<p>Previously released in beta version, this capability is now available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
-<p>Availability date: November 4, 2025</p-->
+<p>Availability date: November 4, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-#### 改良功能 {#oct-25-10-soon-improvements}
+#### Improvements {#oct-25-10-soon-improvements}
 
-透過AI模型在電子郵件中&#x200B;**決策**
+**Decisioning in emails through AI models**
 
-您現在可以使用AI模型，透過使用決策將電子郵件中的最佳內容最佳化。 例如，此功能可讓您根據自訂事件（例如購買、按鈕點選、加入購物車等）提供最佳內容。
+You can now use AI models to optimize the best content in your email through the use of Decisioning. For example, this capability allows you to offer the best content based on custom events such as Purchases, Button Clicks, Add to Cart, etc.
+-->
 
 <!--
 <table>
