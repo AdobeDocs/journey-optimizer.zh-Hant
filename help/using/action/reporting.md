@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="有限可用性" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 ![](assets/monitor-1.png)
 
 ➡️ [進一步瞭解如何設定自訂動作](../action/about-custom-action-configuration.md)
+
+除了&#x200B;**[!UICONTROL 自訂動作]**&#x200B;報告頁面之外，您也可以使用&#x200B;**[!DNL Adobe Experience Platform Query Service]**&#x200B;來建置查詢，以報告自訂動作效能測量結果。 [此區段](../reports/query-examples.md)中有查詢範例。
 
 ## KPI {#kpis}
 
