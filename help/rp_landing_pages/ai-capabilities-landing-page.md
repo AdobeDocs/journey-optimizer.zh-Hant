@@ -96,7 +96,7 @@ Customer AI整合
 
 使用AI支援的深入分析執行和管理數位實驗。 取得效能摘要、內容分析，以及後續測試的建議。
 
-[探索實驗代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[探索實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 :::
 
 :::
@@ -133,7 +133,7 @@ Agent Orchestrator
 Adobe Experience Cloud AI代理將AI功能延伸到Journey Optimizer之外，為複雜的行銷任務啟用自然語言互動：
 
 - **[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 執行歷程流失分析、偵測對象和排程重疊，並接收可操作的建議以最佳化歷程效能。
-- **[實驗代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
+- **[實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 透過對話式AI建立和管理對象區段、分析對象構成並最佳化細分策略。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 協調多個專業代理程式，以有效解決複雜的多步驟行銷挑戰。
 
