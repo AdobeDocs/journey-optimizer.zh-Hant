@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 電子郵件，匯入，內容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 34%
+source-wordcount: '259'
+ht-degree: 30%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 34%
   >
   >.zip 檔案結構沒有限制。不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
 
-<!--DOCAC-13676
+
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>如果您有影像設計(JPEG或PNG)，而不是HTML檔案，您可以使用[影像到HTML轉換器](image-to-html.md)，透過AI自動將它們轉換為可編輯的HTML電子郵件範本。
 
 若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
 

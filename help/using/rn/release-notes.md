@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 90%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -26,37 +26,40 @@ ht-degree: 90%
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## 2025 年 10 月發行說明 {#oct-25-10-rn}
+
+### 全新功能 {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>影像至HTML轉換工具</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>影像至HTML轉換器是AI支援的功能，可將靜態影像設計轉換為完全可自訂、模組化的HTML電子郵件內容範本。 此無程式碼工具可讓行銷人員將視覺設計轉換為回應式、可編輯的電子郵件範本，而不需要技術專業知識 — 非常適合平台移轉、快速建立範本及建立可重複使用的範本程式庫。</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>如需詳細資訊，請參閱<a href="../email/image-to-html.md">詳細文件</a>。</p>
+<p>推出日期：2025 年 10 月 30 日</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 2025 年 10 月發行說明 {#oct-25-10-rn}
-
-**發行日期**：2025 年 10 月 22 日
-
-### 全新功能 {#oct-25-10-features}
 
 <table>
 <thead>
@@ -362,15 +365,9 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### 改善 {#updates-improvements}
-
-<!--Availability date: October 22, 2025-->
 
 **WhatsApp 管道的執行欄位**
 

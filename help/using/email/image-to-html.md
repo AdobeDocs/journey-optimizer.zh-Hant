@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="有限可用性" type="Informative"
 keywords: 電子郵件，範本，影像， HTML， AI，設計，轉換器
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -106,7 +104,7 @@ ht-degree: 3%
 
 1. 進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。**&#x200B;**
+1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。****
 
 1. 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](use-email-templates.md)
 
