@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 # 🚀正在安裝游標代理程式
@@ -21,9 +21,13 @@ ht-degree: 2%
    ```
    @setup-agents
    ```
-
-3. 按照提示操作
+3. 代理程式將自動：
+   - 測試SSH和HTTPS存取
+   - 使用工作方法
+   - 視需要引導您完成設定
 4. 完成！✨
+
+**注意：**&#x200B;代理程式會自動偵測您是否擁有`git.corp.adobe.com`的SSH或HTTPS存取權，並使用適當的方法。 如果兩者皆不運作，則提供引導式設定。
 
 ### 選項2：使用終端機
 
@@ -34,7 +38,12 @@ ht-degree: 2%
    ./setup-agents.sh
    ```
 
-   或手動：
+   指令碼將自動：
+   - 測試SSH和HTTPS存取
+   - 使用工作方法
+   - 視需要顯示設定指示
+
+   或手動（如果您知道自己的Git已設定）：
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ ls .cursor-agents/agents/
 @fix-grammar     # Fix grammar in current file
 ```
 
-如需可用代理程式的完整清單，請參閱`.cursor-agents/AGENTS.md`。
+請參閱[AGENTS.md](AGENTS.md)以取得可用代理程式的完整清單。
 
 ## 更新代理程式
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 資料指標代理程式會以&#x200B;**Git子模組**&#x200B;的形式分佈：
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 子模組指向：
@@ -139,5 +147,35 @@ journey-optimizer.en/
 
 這可確保每個人都使用相同的、最新的代理程式。
 
-**需要協助嗎？**&#x200B;請連絡您的檔案團隊負責人或檢視內部Wiki。
+## 適用於維護者
 
+### 新增至新存放庫
+
+1. 新增子模組：
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. 複製安裝檔案：
+   - `setup-agents.sh`
+   - `setup-agent.md` （置於根中，而非子模組中）
+   - `INSTALL.md`
+
+3. 認可：
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### 更新中央存放庫
+
+應在下列位置變更代理程式：
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+所有存放庫都將透過`git submodule update --remote`接收更新。
+
+---
+
+**需要協助嗎？**&#x200B;請連絡您的檔案團隊負責人或檢視內部Wiki。
