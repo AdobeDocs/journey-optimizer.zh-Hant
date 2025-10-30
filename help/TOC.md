@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
 ht-degree: 99%
@@ -156,7 +156,7 @@ ht-degree: 99%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -324,9 +324,9 @@ ht-degree: 99%
             + [開始建立內容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [從頭開始設計內容](using/email/content-from-scratch.md)
             + [匯入內容](using/email/existing-content.md)
-            + [將影像轉換為HTML範本](using/email/image-to-html.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
+            + [將影像轉換為HTML範本](using/email/image-to-html.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
          + 設計內容 {#add-content}
@@ -774,7 +774,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
