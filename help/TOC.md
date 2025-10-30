@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + 歷程 {#orchestrate-journeys}
    + [歷程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [開始使用歷程](using/building-journeys/journey.md)
-   + [Journeys常見問題集](using/building-journeys/journey-faq.md)
+   + [歷程常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
@@ -156,7 +156,7 @@ ht-degree: 97%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
-      + [將集合傳遞至自訂動作引數](using/building-journeys/collections.md)
+      + [將集合傳遞至自訂動作參數](using/building-journeys/collections.md)
       + [加快傳遞速度](using/building-journeys/ramp-up-deliveries-uc.md)
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [安排行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
       + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
-      + [為API觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [為 API 觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [協調的行銷活動](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
             + [擷取資料](using/orchestrated/ingest-data.md)
          + [建立目標維度](using/orchestrated/target-dimension.md)
-         + [設定頻道設定](using/orchestrated/channel-config.md)
+         + [設定管道設定](using/orchestrated/channel-config.md)
       + 啟動您的首次協調行銷活動 {#launch}
          + [啟動您的首次協調行銷活動](/help/rp_landing_pages/launch-landing-page.md)
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + 設定訊息和歷程上限規則 {#capping-rules}
       + [設定訊息和歷程上限規則](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [使用規則集](using/conflict-prioritization/rule-sets.md)
-      + [管理歷程上限和仲裁](using/conflict-prioritization/journey-capping.md)
-      + [依頻道和型別設定頻率限定](using/conflict-prioritization/channel-capping.md)
-      + [設定無訊息時數](using/conflict-prioritization/quiet-hours.md)
+      + [管理歷程上限與仲裁](using/conflict-prioritization/journey-capping.md)
+      + [依據管道和類型設定頻率上限](using/conflict-prioritization/channel-capping.md)
+      + [設定勿打擾時間](using/conflict-prioritization/quiet-hours.md)
 + 測試並核准 {#test}
    + [測試並核准](/help/rp_landing_pages/test-landing-page.md)
    + 預覽與測試內容 {#preview-test}
@@ -373,7 +373,7 @@ ht-degree: 97%
       + [開始使用推播通知](using/push/get-started-push.md)
       + [建立推播通知](using/push/create-push.md)
       + [設計推播通知](using/push/design-push.md)
-      + [設計您的網頁推播通知](using/push/design-push-web.md)
+      + [設計網頁推播通知](using/push/design-push-web.md)
       + [檢查並傳送推播通知](using/push/send-push.md)
       + 設定推播通知 {#push-config}
          + [設定推播通知](/help/rp_landing_pages/push-config-landing-page.md)
@@ -774,7 +774,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

@@ -11,8 +11,8 @@ keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 >
 >為了維護您的聲譽並改善您的傳遞能力，在建立電子郵件設定之前，請設定您用於傳送電子郵件的子網域。[了解更多](../configuration/about-subdomain-delegation.md)
 >
->在建立電子郵件通道設定之前，您必須先建立至少一個IP集區。 [了解更多](../configuration/ip-pools.md)
+>在建立電子郵件管道設定之前，您必須先建立至少一個 IP 集區。[了解更多](../configuration/ip-pools.md)
 
 在管道設定的專用區段中定義電子郵件設定，如下所述。
 
@@ -33,13 +33,13 @@ ht-degree: 96%
 
 電子郵件設定依照下列邏輯傳送通訊：
 
-* 對於批次歷程，不適用於在進行電子郵件表面設定之前已啟動的批次執行。下次重複或新的執行時會擷取變更。
+* 對於批次歷程，不適用於在進行電子郵件表面設定之前已啟動的批次執行。變更將在下次重複或新執行時生效。
 
-* 若是交易型訊息，下次通訊時會立即套用變更（最多延遲五分鐘）。
+* 若是交易型訊息，下次通訊時會立即套用變更 (最多延遲五分鐘)。
 
 >[!NOTE]
 >
->更新的電子郵件組態設定會在使用組態的歷程或行銷活動中自動擷取。
+>更新的電子郵件組態設定會在使用該設定的歷程或行銷活動中自動套用。
 
 ## 電子郵件類型 {#email-type}
 
@@ -73,7 +73,7 @@ ht-degree: 96%
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 當選取的 IP 集區處於[編輯](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。
-否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有&#x200B;**[!UICONTROL 成功]**&#x200B;狀態時重試。
+否則，仍會使用 IP 集區/子網域關聯的最舊版本。如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有**[!UICONTROL 成功]**&#x200B;狀態時重試。
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ ht-degree: 96%
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。[了解更多](../configuration/seed-lists.md)
 
@@ -172,7 +172,7 @@ ht-degree: 96%
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試參數**。
 
@@ -202,7 +202,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+>若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 不過，您可以在電子郵件管頻道設定層級變更此預設執行欄位。然後，您可以將此設定套用至特定行銷活動或歷程。
