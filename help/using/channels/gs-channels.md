@@ -6,10 +6,10 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通訊管道
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 3093bd544dcc2f8a743c46cb0e45939bdf00adf1
+source-git-commit: f72478580f07defb8d596af961a8f16c315f2af0
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 電子郵件管道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推播通知管道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 簡訊 / MMS / RCS 訊息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直接郵件行銷活動
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 網頁
 
@@ -95,7 +95,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 程式碼型體驗
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 內容卡片
 
@@ -130,18 +130,17 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 
 - **行銷活動**：部署特定行銷活動，利用指定頻道來達成目標。不論是推廣新產品或推動季節性銷售，行銷活動均可讓您針對客群量身打造重點明確的傳訊策略。[了解如何建立及執行行銷活動](../campaigns/get-started-with-campaigns.md)。
 
-<!--
-The table below shows the availability of each channel across different journeys and campaign, indicating where they are supported.
+下表顯示不同歷程及行銷活動中每個管道的可用性，並指出其支援位置。
 
-| Channel              | Journeys | Action campaigns (Marketing) | Action campaigns (Transactional) | API-triggered campaigns | Orchestrated campaigns |
+| Channel | 歷程 | 動作行銷活動（行銷） | 動作行銷活動（異動） | API 觸發的行銷活動 | 協調的行銷活動 |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
-| Email                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Push notification    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In-app               | ✅ | ✅ | — | — | — | — |
-| Direct mail          | ✅ | ✅ | — | — | — | — |
-| Web                  | ✅ | ✅ | — | — | — | — |
-| Code-based exp.      | ✅ | ✅ | — | — | — | — |
-| Content cards        | ✅ | ✅ | — | — | — | — |
-| WhatsApp             | ✅ | ✅ | — | — | — | — |
-| Line                 | ✅ | ✅ | — | — | — | — |-->
+| 電子郵件 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 簡訊 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 推播通知 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 應用程式內 | ✅ | ✅ | — | — | — | — |
+| 直接郵件 | ✅ | ✅ | — | — | — | — |
+| 網頁 | ✅ | ✅ | — | — | — | — |
+| 程式碼型體驗 | ✅ | ✅ | — | — | — | — |
+| 內容卡 | ✅ | ✅ | — | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — | — |
+| 折線圖 | ✅ | ✅ | — | — | — | — |
