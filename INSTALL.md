@@ -1,5 +1,5 @@
 ---
-source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
+source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -177,6 +177,6 @@ your-repo/
 
 所有存放庫都將透過`git submodule update --remote`接收更新。
 
-&#x200B;---
+---
 
 **需要協助嗎？**&#x200B;請連絡您的檔案團隊負責人或檢視內部Wiki。
