@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer中的AI功能
 description: Adobe Journey Optimizer中的AI功能
 hide: true
 hidefromtoc: true
-source-git-commit: 4746932b5bc3099563d2a651f0f576f3a47924d9
+source-git-commit: e0881bfe296bea311d1bbef0b44dcce0beb7fbeb
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1441'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Adobe Journey Optimizer運用人工智慧和機器學習的力量，轉變您建
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 用於內容產生的 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer運用人工智慧和機器學習的力量，轉變您建
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 傳送時間最佳化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer運用人工智慧和機器學習的力量，轉變您建
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 用於決策的AI模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer運用人工智慧和機器學習的力量，轉變您建
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI助理產品知識
 
@@ -60,7 +60,7 @@ AI助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用AI進行內容實驗
 
@@ -70,17 +70,7 @@ AI助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
-
-Customer AI整合
-
-與Adobe智慧型服務整合，以預測客戶行為並在您的歷程中使用流失和轉換分數。
-
-[探索智慧型服務](../using/building-journeys/ai-services-overview.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 品牌一致性分數
 
@@ -90,7 +80,7 @@ Customer AI整合
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Experiment Accelerator
 
@@ -100,7 +90,7 @@ Experiment Accelerator
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 影像至HTML轉換工具
 
@@ -110,7 +100,7 @@ Experiment Accelerator
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 歷程營運分析(Beta)
 
@@ -128,7 +118,7 @@ Experiment Accelerator
 Adobe Experience Cloud AI代理將AI功能延伸到Journey Optimizer之外，為複雜的行銷任務啟用自然語言互動：
 
 - **[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** — 執行歷程流失分析、偵測對象和排程重疊，並接收可操作的建議以最佳化歷程效能。
-- **[實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
+- **[實驗代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** — 分析實驗結果、識別成功模式，並探索跨管道測試的新機會。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** — 透過對話式AI建立和管理對象區段、分析對象構成並最佳化細分策略。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** — 協調多個專業代理程式，以有效解決複雜的多步驟行銷挑戰。
 
