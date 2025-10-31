@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
+source-git-commit: 11bccd63afa1bf5aafcd1dff70c8193ea754d256
 workflow-type: tm+mt
-source-wordcount: '3010'
+source-wordcount: '3012'
 ht-degree: 99%
 
 ---
@@ -156,7 +156,7 @@ ht-degree: 99%
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [篩選](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [在 &#x200B;](using/building-journeys/functions/functionin.md)
+            + [在 ](using/building-journeys/functions/functionin.md)
             + [相交](using/building-journeys/functions/functionintersect.md)
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
@@ -206,6 +206,7 @@ ht-degree: 99%
    + [行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [存取和管理行銷活動](using/campaigns/manage-campaigns.md)
+   + [無訊息時數](using/campaigns/quiet-hours.md)
    + 動作行銷活動 {#action-campaigns}
       + [動作行銷活動](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [使用動作行銷活動](using/campaigns/create-campaign.md)
@@ -774,7 +775,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
