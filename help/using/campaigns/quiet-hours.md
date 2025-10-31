@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 無訊息時數、時間排除、業務規則、規則集、排程、行銷活動
-exl-id: [TO BE GENERATED]
-hide: yes
-hidefromtoc: yes
-source-git-commit: 11bccd63afa1bf5aafcd1dff70c8193ea754d256
+hide: true
+hidefromtoc: true
+source-git-commit: e5243565241551fab98a79fa118618535ce58de8
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: '980'
 ht-degree: 9%
 
 ---
