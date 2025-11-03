@@ -5,9 +5,9 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
+source-git-commit: edd641112c8b4929990fb7d04972f43a71d53534
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 ## 已更新頁面
 
 - [Adobe Journey Optimizer檔案](help/ajo-home.md) - 10月22日
-- Adobe Journey Optimizer中的[AI功能](help/rp_landing_pages/ai-capabilities-landing-page.md) - 10月31日
 - [內容管理](help/rp_landing_pages/content-management-landing-page.md) - 10月27日
 - [開始使用](help/rp_landing_pages/get-started-landing-page.md) - 10月27日
 - [舊版發行說明](help/rp_landing_pages/previous-rn-new-landing-page.md) - 10月13日
@@ -48,8 +47,6 @@ ht-degree: 0%
 - [疑難排解](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 10月27日
 - [開始執行動作](help/using/action/action.md) - 10月13日
 - [使用同意原則](help/using/action/consent.md) - 10月21日
-- [管理客戶的喜好設定](help/using/action/preference-center.md) - 10月24日
-- [歷程報告](help/using/action/reporting.md) - 10月29日
 - [疑難排解您的自訂動作](help/using/action/troubleshoot-custom-action.md) - 10月13日
 - [建立測試設定檔](help/using/audience/creating-test-profiles.md) - 10月22日
 - [關於Adobe Experience Platform對象](help/using/audience/enrichment-attributes.md) - 10月28日
@@ -58,10 +55,8 @@ ht-degree: 0%
 - [將集合傳遞至自訂動作引數](help/using/building-journeys/collections.md) - 10月13日
 - [條件活動](help/using/building-journeys/condition-activity.md) - 10月24日
 - [在歷程中使用Adobe Experience Platform資料](help/using/building-journeys/dataset-lookup.md) - 10月28日
-- [錯誤代碼參考](help/using/building-journeys/error-codes-reference.md) - 10月27日
 - [歷程中的體驗事件查閱](help/using/building-journeys/exp-event-lookup.md) - 10月28日
 - [使用動作歷程活動](help/using/building-journeys/journey-action.md) - 10月14日
-- [歷程常見問題](help/using/building-journeys/journey-faq.md) - 10月28日
 - [暫停歷程](help/using/building-journeys/journey-pause.md) - 10月13日
 - [開始使用歷程](help/using/building-journeys/journey.md) - 10月27日
 - [將內建頻道動作新增至歷程](help/using/building-journeys/journeys-message.md) - 10月29日
@@ -74,7 +69,6 @@ ht-degree: 0%
 - [編輯API觸發的行銷活動內容](help/using/campaigns/api-triggered-campaign-content.md) - 10月23日
 - [定義API觸發的行銷活動屬性](help/using/campaigns/api-triggered-campaign-properties.md) - 10月23日
 - [使用API觸發的行銷活動](help/using/campaigns/api-triggered-campaigns.md) - 10月29日
-- [為API觸發的行銷活動啟用高輸送量模式](help/using/campaigns/api-triggered-high-throughput.md) - 10月27日
 - [設定行銷活動動作](help/using/campaigns/campaign-action.md) - 10月29日
 - [行銷活動和歷程中的最佳化](help/using/campaigns/campaigns-message-optimization.md) - 10月22日
 - [建立動作行銷活動](help/using/campaigns/create-campaign.md) - 10月29日
@@ -101,20 +95,17 @@ ht-degree: 0%
 - [開始使用電子郵件設定](help/using/email/get-started-email-config.md) - 10月22日
 - [設計電子郵件](help/using/email/get-started-email-design.md) - 10月30日
 - [開始使用電子郵件樣式](help/using/email/get-started-email-style.md) - 10月25日
-- [使用影像轉換為HTMLHTML範本](help/using/email/image-to-html.md) - 10月30日
 - [設定清單取消訂閱](help/using/email/list-unsubscribe.md) - 10月15日
 - [追蹤您的訊息](help/using/email/message-tracking.md) - 10月18日
 - [將PDF檔案附加至電子郵件](help/using/email/pdf-attachments.md) - 10月6日
 - [設定URL追蹤](help/using/email/url-tracking.md) - 10月25日
 - [使用Adobe Experience Platform資料進行決策](help/using/experience-decisioning/aep-data-exd.md) - 10月8日
-- [建立決定原則](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
 - [開始使用決定原則](help/using/experience-decisioning/create-decision.md) - 10月7日
 - [決策護欄和限制](help/using/experience-decisioning/decisioning-guardrails.md) - 10月25日
 - [決定專案](help/using/experience-decisioning/items.md) - 10月8日
 - [排名公式](help/using/experience-decisioning/ranking/ranking-formulas.md) - 10月28日
 - [建置規則](help/using/experience-decisioning/rules.md) - 10月23日
 - [建立選擇策略](help/using/experience-decisioning/selection-strategies.md) - 10月7日
-- [在訊息中使用決定原則](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
 - [在Journey Optimizer中建立應用程式內通知](help/using/in-app/create-in-app.md) - 10月27日
 - [應用程式內頻道必要條件和設定](help/using/in-app/inapp-configuration.md) - 10月23日
 - [動態媒體](help/using/integrations/aem-dynamic.md) - 10月17日
@@ -142,7 +133,6 @@ ht-degree: 0%
 - [行銷活動報告](help/using/reports/campaign-global-report-cja-inapp.md) - 10月14日
 - [在 [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md)開始使用報告功能 — 10月23日
 - [歷程報告](help/using/reports/journey-global-report-cja-inapp.md) - 10月14日
-- [處理歷程步驟事件](help/using/reports/journey-step-events-overview.md) - 10月16日
 - [查詢範例](help/using/reports/query-examples.md) - 10月29日
 - [報告](help/using/reports/report-cja-manage.md) - 10月13日
 - [journeyStep事件動作執行欄位](help/using/reports/sharing-execution-fields.md) - 10月29日
@@ -152,12 +142,10 @@ ht-degree: 0%
 - [Journey Optimizer的發行說明](help/using/rn/e-release-notes.md) - 10月20日
 - [2025年發行說明](help/using/rn/release-notes-2025.md) - 10月28日
 - [發行說明](help/using/rn/release-notes.md) - 10月30日
-- [Adobe Journey Optimizer發行週期](help/using/rn/releases.md) - 10月28日
 - [開始使用簡訊(SMS/MMS/RCS)](help/using/sms/get-started-sms.md) - 10月17日
 - [設定您的自訂提供者](help/using/sms/sms-configuration-custom.md) - 10月24日
 - [設定Infobip提供者](help/using/sms/sms-configuration-infobip.md) - 10月27日
 - [設定Sinch提供者](help/using/sms/sms-configuration-sinch.md) - 10月27日
 - [Journey Optimizer護欄和限制](help/using/start/guardrails.md) - 11月3日
-- [設計訊息內容](help/using/start/message-content-design.md) - 10月18日
 - [Journey Optimizer疑難排解文章](help/using/start/troubleshooting.md) - 10月27日
 - [設定WhatsApp頻道](help/using/whatsapp/whatsapp-configuration.md) - 10月22日
