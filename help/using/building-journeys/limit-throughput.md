@@ -9,9 +9,9 @@ level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 >
 >現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
-如果您使用外部資料來源或自訂動作，您可能會想要透過限制歷程輸送量來保護外部系統：單一歷程每秒最多5,000個例項，對象觸發的歷程每秒最多20,000個例項。
+如果您使用外部資料來源或自訂動作，您可能會想要透過限制歷程輸送量來保護外部系統：單一歷程每秒最多5,000個例項，對象觸發的歷程每秒最多20,000個例項。 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解歷程處理速率和輸送量。
 
 對於自訂動作，可在產品層級使用節流功能。 請參見此[頁面](../configuration/external-systems.md#capping)。
 

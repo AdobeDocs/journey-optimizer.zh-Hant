@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '615'
+ht-degree: 20%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 21%
 事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。
 
 對於這類事件，您只能新增標籤和說明。無法編輯其餘的組態。 它由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
+
+在[本節](entry-management.md#journey-processing-rate)中進一步瞭解事件輸送量和歷程處理率。
 
 ![](assets/general-events.png)
 

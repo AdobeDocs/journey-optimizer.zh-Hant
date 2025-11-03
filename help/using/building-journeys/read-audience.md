@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 活動，歷程，讀取，對象，平台
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2461'
 ht-degree: 13%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >此外，您也可以鎖定使用從CSV檔案[上傳的](../audience/get-started-audience-orchestration.md)對象組合[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}建立的Adobe Experience Platform對象。
+   >此外，您也可以鎖定使用從CSV檔案[上傳的](../audience/get-started-audience-orchestration.md)對象組合[或](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}建立的Adobe Experience Platform對象。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
 
@@ -70,7 +70,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -90,7 +90,7 @@ ht-degree: 13%
 
 * 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
-* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
 
 * 每個組織的同時讀取對象限制：每個組織最多可同時執行五個讀取對象例項。 這包含所有沙箱和歷程中的已排程執行和業務事件觸發的執行。 此限制會強制執行，以確保所有組織的資源配置公平且平衡。
 
@@ -118,7 +118,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。
+>每個沙箱的整體讀取率設定為每秒20,000個設定檔。 因此，在相同沙箱中同時執行的所有讀取對象讀取率，每秒最多可新增20,000個設定檔。 您無法修改此上限。 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解歷程處理速率和輸送量。
 
 ### 排程此歷程 {#schedule}
 
@@ -307,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解透過讀取客群活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430361?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

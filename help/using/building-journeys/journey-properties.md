@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2748'
 ht-degree: 15%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 設定檔專案模式是在歷程層級的右側設定窗格中定義。 設定如下所述。
 
-設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)上進一步瞭解設定檔進入和重新進入管理。
+設定檔入口管理取決於歷程型別。 在[此頁面](entry-management.md)上進一步瞭解設定檔進入和重新進入管理。 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解歷程處理率以及設定檔如何流經歷程。
 
 ### 允許重新進入  {#allow-reentrance}
 
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -183,7 +183,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

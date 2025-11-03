@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 33%
+source-wordcount: '1555'
+ht-degree: 32%
 
 ---
 
@@ -77,6 +77,8 @@ ht-degree: 33%
 
 Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程事件的尖峰量。 此配額適用於使用中歷程中使用的所有事件，包括&#x200B;**即時**、**試運行**、**已關閉**&#x200B;和&#x200B;**已暫停**&#x200B;歷程。 達到此配額時，新事件會以每秒5,000的處理速率排入佇列。 事件在佇列中可花費的時間上限為&#x200B;**24小時**。
 
+如需歷程處理率以及不同歷程型別對輸送量的影響方式的詳細資訊，請參閱[本節](../building-journeys/entry-management.md#journey-processing-rate)。
+
 下列型別的事件會計入5,000 TPS配額：
 
 * **外部單一事件**：包含規則型事件和系統產生的事件。 如果相同的原始事件符合多個規則定義的資格，則每個合格規則都會計為個別事件。 更多詳細資訊如下。
@@ -120,7 +122,7 @@ Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程�
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 
