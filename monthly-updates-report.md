@@ -5,9 +5,9 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
+source-git-commit: da691f761a691eda8f2f88947a9e3c407830426f
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 0%
 - [使用規則集](help/using/conflict-prioritization/rule-sets.md) - 10月27日
 - [建立內容實驗](help/using/content-management/content-experiment.md) - 10月15日
 - [建立片段](help/using/content-management/create-fragments.md) - 10月7日
-- [實驗加速器量度](help/using/content-management/experiment-accelerator-metrics.md) - 10月24日
-- [實驗加速器](help/using/content-management/experiment-accelerator.md) - 10月24日
 - [管理片段](help/using/content-management/manage-fragments.md) — 十月7日
 - [資料集查詢範例](help/using/data/datasets-query-examples.md) - 10月17日
 - [關於資料集存留時間(TTL)護欄](help/using/data/datasets-ttl.md) - 10月28日
