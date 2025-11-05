@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -106,7 +106,7 @@ ht-degree: 3%
 
    ![](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -146,7 +146,7 @@ ht-degree: 3%
 
 1. 在內容範本中選取佈景主題時，您可以按一下&#x200B;**[!UICONTROL 編輯佈景主題]**&#x200B;按鈕進行更新。 [了解更多](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 選取元件時，您可以使用&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤中的專用圖示來解除鎖定其樣式。
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 選取的主題仍會套用到該元件，但您可以覆寫其樣式元素。 如果您變更主題，新主題只會套用至未覆寫的樣式元素。<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ ht-degree: 3%
 
 如果您變更主題，<!--the font size is still 14 and -->該元件的字型顏色仍為紅色，但此元件的背景顏色會隨著新主題而變更：
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## 在片段中善用主題 {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 
 1. 選取&#x200B;**[!UICONTROL 使用佈景主題]**&#x200B;以預先定義的樣式佈景主題開始。
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,11 +206,11 @@ ht-degree: 3%
 
 1. 您可以選取其他主題來預覽片段內容。 若要這麼做，請選取預設主題旁的箭頭，然後按一下&#x200B;**[!UICONTROL 選取主題]**。
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. 您可以在&#x200B;**[!UICONTROL Adobe主題]**&#x200B;和&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤之間導覽，並為您的片段選取最多5個相容的主題（從這兩個標籤）。
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ ht-degree: 3%
 
 1. 再次選取&#x200B;**[!UICONTROL 預設佈景主題]**&#x200B;旁的箭頭。 您現在可以在您剛選取的不同主題之間切換，以預覽每個樣式演算。
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. 再按一下&#x200B;**[!UICONTROL 選取主題]**&#x200B;以新增更多主題或變更您的選擇。
 
@@ -232,16 +232,16 @@ ht-degree: 3%
 
 1. 選取右側邊欄上的&#x200B;**[!UICONTROL 主題]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 從內容產生主題]**&#x200B;按鈕。
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. **[!UICONTROL 建立佈景主題]**&#x200B;視窗隨即開啟。 [!DNL Journey Optimizer]會自動偵測樣式元素並將它們合併成新的主題。
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. 提供主題的名稱。
 
 1. 視需要自行調整，就像從頭開始建立主題時一樣，例如新增顏色變體、編輯字型等。 [了解作法](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#leverage-themes-fragment)
+1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#leverage-themes-fragment)
