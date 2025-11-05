@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 轉換，函式，運算式，歷程，型別，轉型
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '957'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 6%
 
 當您需要以下工作時，請使用轉換函式：
 
-* 將字串值轉換為數值、布林值或日期型別
-* 在不同格式和表示之間轉換日期和時間
-* 轉換整數與小數型別之間的數值
+* 將字串值轉換為數值、布林值或日期型別([toInteger](#toInteger)， [toDecimal](#toDecimal)， [toBool](#toBool))
+* 轉換不同格式和表示之間的日期和時間([toDateTime](#toDateTime)，[toDateTimeOnly](#toDateTimeOnly)，[toDateOnly](#toDateOnly))
+* 轉換介於整數與小數型別([toInteger](#toInteger)， [toDecimal](#toDecimal))之間的數值
+* 將值轉換為字串格式([toString](#toString))或持續時間([toDuration](#toDuration))
 * 確保比較和作業的型別相容性
 * 處理來自可能具有不同型別格式的外部來源的資料
 

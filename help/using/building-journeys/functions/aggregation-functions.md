@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 彙總，函式，運算式，歷程，平均，計數，最大值，最小值，總和
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 8%
+source-wordcount: '717'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 當您需要以下動作時，請使用彙總函式：
 
-* 從清單或陣列計算統計值（平均、總計、最小值、最大值）
-* 計算集合中的元素，包含或排除null值的選項
-* 決定資料集中的唯一值
+* 從清單或陣列計算統計值([avg](#avg)，[sum](#sum)，[min](#min)，[max](#max))
+* 集合中的計數元素([count](#count)， [countOnlyNull](#countOnlyNull)， [countWithNull](#countWithNull))，包含或排除null值的選項
+* 決定資料集內的唯一值([distinctCount](#distinctCount)， [distinctCountWithNull](#distinctCountWithNull))
 * 根據計算量度做出資料導向式決策
 
 彙總函式會根據其特定行為自動處理null值，讓處理可能包含遺失或未定義值的真實資料更容易。

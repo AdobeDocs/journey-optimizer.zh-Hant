@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 日期，函式，運算式，歷程，時間
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '791'
 ht-degree: 12%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 12%
 
 有以下需求時，請使用日期函式：
 
-* 取得具有特定時區處理的目前時間或日期
-* 檢查日期是否在特定的時間範圍內（過去或未來）
-* 修改日期和時間元件（小時、天、時區）
+* 取得目前時間或具有特定時區處理的日期([now](#now)，[nowWithDelta](#nowWithDelta)，[currentTimeInMillis](#currentTimeInMillis))
+* 檢查日期是否落在特定時間範圍內([inLastDays](#inLastDays)，[inLastHours](#inLastHours)，[inLastMonths](#inLastMonths)，[inLastYears](#inLastYears)，[inNextDays](#inNextDays)，[inNextHours](#inNextHours)，[inNextMonths](#inNextMonths)，[inNextYears](#inNextYears))
+* 修改日期和時間元件([setHours](#setHours)， [setDays](#setDays)， [updateTimeZone](#updateTimeZone))
 * 執行以時間為基礎的計算和比較
 * 在不同時間格式和表示之間轉換
 

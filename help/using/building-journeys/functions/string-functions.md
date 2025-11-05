@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 字串，函式，運算式，歷程，文字，操控
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1127'
 ht-degree: 15%
 
 ---
@@ -20,15 +20,16 @@ ht-degree: 15%
 
 當您需要以下動作時，請使用字串函式：
 
-* 串連並組合多個文字值
-* 搜尋特定的文字樣式或子字串
-* 比較具有區分大小寫或不區分大小寫比對的字串
-* 使用子字串操作擷取部分文字
-* 將文字轉換為大寫或小寫
-* 檢查字串是否為空白或包含特定值
-* 以新值取代文字模式
-* 將字串分割為陣列，以供進一步處理
-* 根據規則運算式驗證文字
+* 串連並合併多個文字值([concat](#concat))
+* 搜尋特定文字模式或子字串([contain](#contain)，[containIgnoreCase](#containIgnoreCase)，[indexOf](#indexOf)，[lastIndexOf](#lastIndexOf)，[matchRegExp](#matchRegExp))
+* 比較具有區分大小寫或不區分大小寫相符專案([equalIgnoreCase](#equalIgnoreCase)， [notEqualIgnoreCase](#notEqualIgnoreCase))的字串
+* 檢查字串開始和結束([startWith](#startWith)，[startWithIgnoreCase](#startWithIgnoreCase)，[endWith](#endWith)，[endWithIgnoreCase](#endWithIgnoreCase))
+* 使用子字串作業擷取部分文字([substr](#substr))
+* 將文字轉換為大寫或小寫([upper](#upper)， [lower](#lower)， [trim](#trim))
+* 檢查字串是否為空白或包含特定值([isEmpty](#isEmpty)， [isNotEmpty](#isNotEmpty))
+* 以新值取代文字模式([replace](#replace)，[replaceAll](#replaceAll))
+* 將字串分割為陣列以供進一步處理（[分割](#split)）
+* 取得字串長度([length](#length))或產生唯一識別碼([uuid](#uuid))
 
 字串函式提供完整的文字操控功能，可讓您根據歷程運算式中的文字內容，進行複雜的資料處理和條件式邏輯。
 

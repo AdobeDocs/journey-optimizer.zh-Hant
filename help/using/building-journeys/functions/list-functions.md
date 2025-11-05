@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 keywords: 清單，函式，運算式，歷程，陣列，集合
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1158'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 當您有以下需要時，請使用清單函式：
 
-* 根據條件從集合中篩選及擷取特定專案
-* 以遞增或遞減順序排序及組織清單元素
-* 移除重複專案，並從清單中取得唯一值
-* 檢查集合中是否存在值
-* 限制從清單傳回的專案數
-* 將清單轉換為不同的格式或資料型別
-* 執行集合作業，例如尋找清單之間的共同元素
+* 根據條件（[篩選](#filter)，[getListItem](#getListItem)）從集合中篩選及擷取特定專案
+* 以遞增或遞減順序排序及組織清單專案（[排序](#sort)）
+* 移除重複專案，並從清單([distinct](#distinct)， [distinctWithNull](#distinctWithNull))取得唯一值
+* 檢查集合中是否存在值([in](#in))
+* 限制從清單傳回的專案數([limit](#limit))
+* 取得清單([listSize](#listSize))的大小，或將清單轉換為不同的格式([serializeList](#serializeList))
+* 執行集合作業，例如在清單之間尋找共同元素（[相交](#intersect)）
 
 清單函式提供強大的工具，用於處理複雜的資料結構，實現複雜的資料操作和根據收集內容的條件式邏輯。
 
