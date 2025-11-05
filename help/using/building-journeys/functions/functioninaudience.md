@@ -36,7 +36,7 @@ ht-degree: 2%
 * **已實現**：該個人符合對象定義的資格且是作用中成員
 * **已退出**：個人已離開對象，不再符合資格
 
-只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
 
 +++語法
 
