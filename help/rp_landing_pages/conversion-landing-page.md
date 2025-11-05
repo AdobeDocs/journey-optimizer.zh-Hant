@@ -5,8 +5,10 @@ title: 轉換
 description: 轉換
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -20,63 +22,63 @@ Adobe Journey Optimizer 中的轉換區段可讓您將資料轉換為符合工�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool 函式
 
 使用 toBool 函式將各種資料類型轉換為布林值。
 
-[了解如何使用 toBool 函式](../using/building-journeys/functions/functiontobool.md)
+[了解如何使用 toBool 函式](../using/building-journeys/functions/conversion-functions.md#toBool)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly 函式
 
 使用 toDateOnly 函式將日期表示轉換為 dateOnly 類型。
 
-[了解如何使用 toDateOnly 函式](../using/building-journeys/functions/functiontodateonly.md)
+[了解如何使用 toDateOnly 函式](../using/building-journeys/functions/conversion-functions.md#toDateOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime 函式
 
 使用 toDateTime 函式將各種輸入值轉換為日期時間值。
 
-[了解如何使用 toDateTime 函式](../using/building-journeys/functions/functiontodatetime.md)
+[了解如何使用 toDateTime 函式](../using/building-journeys/functions/conversion-functions.md#toDateTime)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly 函式
 
 使用 toDateTimeOnly 函式將值轉換為不含時區的日期時間格式。
 
-[了解如何使用 toDateTimeOnly 函式](../using/building-journeys/functions/functiontodatetimeonly.md)
+[了解如何使用 toDateTimeOnly 函式](../using/building-journeys/functions/conversion-functions.md#toDateTimeOnly)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal 函式
 
 使用 toDecimal 函式將各種資料類型轉換為十進位值。
 
-[了解如何使用 toDecimal 函式](../using/building-journeys/functions/functiontodecimal.md)
+[了解如何使用 toDecimal 函式](../using/building-journeys/functions/conversion-functions.md#toDecimal)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration 函式
 
 透過 toDuration 函式，使用字串或毫秒將引數轉換為持續時間值。
 
-[了解如何使用 toDuration 函式](../using/building-journeys/functions/functiontoduration.md)
+[了解如何使用 toDuration 函式](../using/building-journeys/functions/conversion-functions.md#toDuration)
 :::
 
 ::::
@@ -84,5 +86,5 @@ toDuration 函式
 
 ## 其他資源
 
-- **[toInteger 函式](../using/building-journeys/functions/functiontointeger.md)** - 使用 toInteger 函式將各種資料類型轉換為整數。
-- **[toString 函式](../using/building-journeys/functions/functiontostring.md)** - 使用 toString 函式將資料類型轉換為其字串表示方式。
+- **[toInteger 函式](../using/building-journeys/functions/conversion-functions.md#toInteger)** - 使用 toInteger 函式將各種資料類型轉換為整數。
+- **[toString 函式](../using/building-journeys/functions/conversion-functions.md#toString)** - 使用 toString 函式將資料類型轉換為其字串表示方式。

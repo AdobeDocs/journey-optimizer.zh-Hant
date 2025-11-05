@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函式，運算式，編輯器，歷程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -40,14 +40,14 @@ ht-degree: 69%
 | 彙總 | [max](../functions/aggregation-functions.md#max) |
 | 彙總 | [min](../functions/aggregation-functions.md#min) |
 | 彙總 | [sum](../functions/aggregation-functions.md#sum) |
-| 轉換 | [toBool](../functions/functiontobool.md) |
-| 轉換 | [toDateOnly](../functions/functiontodateonly.md) |
-| 轉換 | [toDateTime](../functions/functiontodatetime.md) |
-| 轉換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| 轉換 | [toDecimal](../functions/functiontodecimal.md) |
-| 轉換 | [toDuration](../functions/functiontoduration.md) |
-| 轉換 | [toInteger](../functions/functiontointeger.md) |
-| 轉換 | [toString](../functions/functiontostring.md) |
+| 轉換 | [toBool](../functions/conversion-functions.md#toBool) |
+| 轉換 | [toDateOnly](../functions/conversion-functions.md#toDateOnly) |
+| 轉換 | [toDateTime](../functions/conversion-functions.md#toDateTime) |
+| 轉換 | [toDateTimeOnly](../functions/conversion-functions.md#toDateTimeOnly) |
+| 轉換 | [toDecimal](../functions/conversion-functions.md#toDecimal) |
+| 轉換 | [toDuration](../functions/conversion-functions.md#toDuration) |
+| 轉換 | [toInteger](../functions/conversion-functions.md#toInteger) |
+| 轉換 | [toString](../functions/conversion-functions.md#toString) |
 | 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
