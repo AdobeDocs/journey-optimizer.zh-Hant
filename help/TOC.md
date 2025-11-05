@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + 函式 {#main-functions-journey}
          + [函式](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主要功能](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + 彙總 {#aggregation}
-            + [聚合函式](using/building-journeys/functions/aggregation-functions.md)
-         + 轉換 {#conversion}
-            + [轉換函式](using/building-journeys/functions/conversion-functions.md)
-         + 日期 {#date}
-            + [日期函式](using/building-journeys/functions/date-functions.md)
-         + 清單 {#list}
-            + [清單函式](using/building-journeys/functions/list-functions.md)
-         + 數學 {#math}
-            + [數學](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + 字串 {#string}
-            + [字串函式](using/building-journeys/functions/string-functions.md)
+         + [inAudience函式](using/building-journeys/functions/functioninaudience.md)
+         + [聚合函式](using/building-journeys/functions/aggregation-functions.md)
+         + [轉換函式](using/building-journeys/functions/conversion-functions.md)
+         + [日期函式](using/building-journeys/functions/date-functions.md)
+         + [清單函式](using/building-journeys/functions/list-functions.md)
+         + [數學函式](using/building-journeys/functions/math-functions.md)
+         + [字串函式](using/building-journeys/functions/string-functions.md)
    + 使用案例 {#journey-use-cases}
       + [使用案例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [透過使用案例了解](using/building-journeys/jo-use-cases.md)
@@ -712,7 +703,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
