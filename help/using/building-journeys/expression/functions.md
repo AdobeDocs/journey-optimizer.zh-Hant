@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函式，運算式，編輯器，歷程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -62,16 +62,16 @@ ht-degree: 69%
 | 日期 | [setHours](../functions/date-functions.md#setHours) |
 | 日期 | [setDays](../functions/date-functions.md#setDays) |
 | 日期 | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
-| 清單 | [distinct](../functions/functiondistinct.md) |
-| 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 清單 | [篩選器](../functions/functionfilter.md) |
-| 清單 | [getListItem](../functions/functiongetlistitem.md) |
-| 清單 | [in](../functions/functionin.md) |
-| 清單 | [相交](../functions/functionintersect.md) |
-| 清單 | [限制](../functions/functionlimit.md) |
-| 清單 | [listSize](../functions/functionlistsize.md) |
-| 清單 | [serializeList](../functions/functionserializelist.md) |
-| 清單 | [sort](../functions/functionsort.md) |
+| 清單 | [distinct](../functions/list-functions.md#distinct) |
+| 清單 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
+| 清單 | [篩選器](../functions/list-functions.md#filter) |
+| 清單 | [getListItem](../functions/list-functions.md#getListItem) |
+| 清單 | [in](../functions/list-functions.md#in) |
+| 清單 | [相交](../functions/list-functions.md#intersect) |
+| 清單 | [限制](../functions/list-functions.md#limit) |
+| 清單 | [listSize](../functions/list-functions.md#listSize) |
+| 清單 | [serializeList](../functions/list-functions.md#serializeList) |
+| 清單 | [sort](../functions/list-functions.md#sort) |
 | 數學 | [random](../functions/functionrandom.md) |
 | 數學 | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |

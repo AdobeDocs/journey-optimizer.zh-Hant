@@ -11,7 +11,7 @@ badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -116,7 +116,7 @@ ht-degree: 3%
    >
    >在決定規則（作為內容資料）中使用的歷程體驗事件中，或在[選件結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)中，在屬性上定義的任何受限制標籤都會導致DULE或同意的原則違規。 在[本節](../action/action-privacy.md)中進一步瞭解資料治理原則
 
-1. 若要檢查是否已針對進入歷程的設定檔傳回任何選件，請使用具有以下語法的[listSize](functions/functionlistsize.md)函式： `listSize(@decision{ContentdecisionName.items})>0`
+1. 若要檢查是否已針對進入歷程的設定檔傳回任何選件，請使用具有以下語法的[listSize](functions/list-functions.md#listSize)函式： `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >

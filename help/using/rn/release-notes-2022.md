@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
+<p>透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至第三方系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
 <p>資料使用標籤和實作 (DULE) 的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。</p>
 <p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細文件</a>。
 </td>
@@ -346,7 +346,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分結構描述欄位。 管理員可以使用權限介面定義涵蓋 XDM 結構描述欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或協力廠商使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
+<p>現在，您可以使用定義組織或資料使用範圍的標籤標示身分結構描述欄位。 管理員可以使用權限介面定義涵蓋 XDM 結構描述欄位的存取原則，並更好地管理使用者或使用者群組 (內部、外部或第三方使用者) 的存取權限，以及管理對特定類型資料 (即敏感個人資料/SPD) 的存取權限。</p>
 <p>以屬性為基礎的存取控制目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。</p>
 </td>
@@ -617,7 +617,7 @@ ht-degree: 100%
 **歷程**
 
 * **讀取客群** - 現在，一次性讀取客群歷程會在歷程執行 30 天後移至「已完成」狀態。 對於排程的讀取客群，是在上次執行該事件後的 30 天。 [了解更多](../building-journeys/read-audience.md)
-* **運算式編輯器** - 已新增[限制](../building-journeys/functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../building-journeys/functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../building-journeys/functions/functiondistinct.md) 和 [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 的函式。
+* **運算式編輯器** - 已新增[限制](../building-journeys/functions/list-functions.md#limit)函式，以允許您限制清單項目的數目。 [排序](../building-journeys/functions/list-functions.md#sort)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../building-journeys/functions/list-functions.md#distinct) 和 [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) 的函式。
 
 **管理**
 

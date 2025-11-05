@@ -5,22 +5,22 @@ title: 函式
 description: 函式
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # 函式{#section-overview}
 
-Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式，以量身打造您的客戶歷程。無論您是要評估客群會籍、彙總資料、轉換格式、控制日期還是處理清單，每種函式類別在最佳化工作流程中都具有獨特的用途。透過數學計算、字串自訂等工具，這些函式為製作進階條件提供無限可能性。當您探索前面的章節時，會找到可簡化複雜作業的實用範例和詳細指引，讓您輕鬆解鎖個人化歷程協調的完整潛力。
+Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式，以量身打造您的客戶歷程。無論您是要評估對象成員資格、彙總資料、轉換格式、控制日期或處理清單，每種功能類別在最佳化工作流程中都具有獨特的用途。 透過數學計算、字串自訂等工具，這些函式為製作進階條件提供無限可能性。當您探索前面的章節時，會找到可簡化複雜作業的實用範例和詳細指引，讓您輕鬆解鎖個人化歷程協調的完整潛力。
 
 ## Adobe Journey Optimizer 中的函式
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的主要函式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函式
 
@@ -40,37 +40,37 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 彙總函式參考
 
 主彙總函式，可執行歷程運算式中的平均值、計數、相異值和總和等操作。
 
-[深入了解彙總函式](aggregation-landing-page.md)
+[深入了解彙總函式](../using/building-journeys/functions/aggregation-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 轉換函式
 
 使用轉換函式轉換資料類型，以有效操控歷程協調的輸入。
 
-[探索轉換函式](conversion-landing-page.md)
+[探索轉換函式](../using/building-journeys/functions/conversion-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 的日期函式
 
 了解如何使用歷程運算式中的強大日期相關函式來操縱和評估日期和時間值。
 
-[檢視日期函式文件](date-landing-page.md)
+[檢視日期函式文件](../using/building-journeys/functions/date-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的清單函式
 

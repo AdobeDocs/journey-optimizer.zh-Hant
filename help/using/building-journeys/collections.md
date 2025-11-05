@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 將集合傳遞至自訂動作引數
+title: 將集合傳遞至自訂動作參數
 description: 瞭解如何使用自訂動作在Journey Optimizer中動態傳遞集合
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# 將集合傳遞至自訂動作引數 {#passing-collection}
+# 將集合傳遞至自訂動作參數 {#passing-collection}
 
 您可以在自訂動作引數中傳遞集合，這些引數會在執行階段以動態方式填入。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](functions/functionfilter.md)和[交集](functions/functionintersect.md)函式：
+針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](functions/list-functions.md#filter)和[交集](functions/list-functions.md#intersect)函式：
 
 ![](assets/uc-collection-5.png)
 

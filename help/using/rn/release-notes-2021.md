@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ ht-degree: 100%
 <p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段以動態方式填入。 支援兩種集合：簡單集合和物件集合。 先前建立的自訂動作將可繼續運作。 </p>
 <p>如需關於集合的詳細資訊，請參閱<a href="../building-journeys/collections.md">詳細文件</a>。 </p>
 <p>篩選和交集函式已在進階運算式編輯器中加入可用函式清單。 這提供了更多可能性來篩選和比較集合。</p>
-<p>請參閱<a href="../building-journeys/functions/functionfilter.md">篩選</a>和<a href="../building-journeys/functions/functionintersect.md">交集</a>函式。</p>
+<p>請參閱<a href="../building-journeys/functions/list-functions.md#filter">篩選</a>和<a href="../building-journeys/functions/list-functions.md#intersect">交集</a>函式。</p>
 </td>
 </tr>
 </tbody>
