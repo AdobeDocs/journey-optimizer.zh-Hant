@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience，函式，運算式，歷程，對象，細分
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 當您需要以下動作時，請使用`inAudience`函式：
 
-* [根據受眾成員資格的分支歷程路徑](../condition-activity.md#using-a-segment)
+* 根據對象成員資格的分支歷程路徑。 [了解更多](../condition-activity.md#using-a-segment)
 * 套用取決於設定檔是否屬於特定區段的條件式邏輯
 * 使用個人化體驗鎖定特定的客戶群組
 * 評估歷程條件中的即時受眾參與率
@@ -36,7 +36,7 @@ ht-degree: 1%
 * **已實現**：該個人符合對象定義的資格且是作用中成員
 * **已退出**：個人已離開對象，不再符合資格
 
-只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++語法
 
