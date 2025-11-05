@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
@@ -42,14 +42,14 @@ ht-degree: 2%
    |---|---|    
    | 簡訊供應商 | Infobip |
    | 名稱 | 選擇您的API認證名稱。 |
-   | API基本URL和API金鑰 | 存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 深入瞭解[Infobip檔案](https://www.infobip.com/docs/api){target="_blank"} |
+   | API基本URL和API金鑰 | 存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 對於區域或替代網域端點（例如`api-ny2.infobip.com`），請指定完整的基底URL，並使用Infobip支援來驗證您的授權權杖。 </br>在[Infobip檔案](https://www.infobip.com/docs/api){target="_blank"}中進一步瞭解 |
    | 選擇加入關鍵字 | 輸入將會自動觸發選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 選擇加入訊息 | 輸入自訂回應，此回應會自動作為您的選擇加入訊息傳送。 |
    | 選擇退出關鍵字 | 輸入將會自動觸發選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
    | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)。 |
+   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
    | 主體實體ID | 輸入指派的DLT主要實體識別碼。 |
    | 內容範本ID | 輸入註冊的DLT內容範本ID。 |
