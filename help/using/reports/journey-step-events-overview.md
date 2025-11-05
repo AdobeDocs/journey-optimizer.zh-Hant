@@ -4,11 +4,10 @@ product: journey optimizer
 title: 使用歷程步驟事件
 description: 瞭解如何在Adobe Journey Optimizer中使用歷程步驟事件 — 瞭解其內容、重要性，以及如何將其用於分析和最佳化
 feature: Journeys, Reporting
-topic: Content Management
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: 歷程，步驟事件，分析，報告，監控， XDM
-source-git-commit: 9320777cfb75fd1370c11b601908644ba17ff21e
+source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 歷程步驟事件是自動產生的事件，可擷取[設定檔](../audience/get-started-profiles.md)在Adobe Journey Optimizer中進行[歷程](../building-journeys/journey.md)時所採取每個步驟的詳細資訊。 這些事件提供全面的[歷程績效](../building-journeys/report-journey.md)可視性，並啟用強大的分析功能。
 
-## 什麼是歷程步驟事件？ {#what-are-step-events}
+## 什麼是歷程步驟事件 {#what-are-step-events}
 
 歷程步驟事件是系統產生的[XDM (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}事件，每當設定檔在歷程中從一個節點移至另一個節點時，Adobe Journey Optimizer會自動建立並傳送至[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"}。 每個事件都對應到客戶歷程體驗中的特定[歷程活動](../building-journeys/about-journey-activities.md)或轉變。
 
