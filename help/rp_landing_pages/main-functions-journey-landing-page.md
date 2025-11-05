@@ -5,7 +5,7 @@ title: 函式
 description: 函式
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的主要函式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函式
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 彙總函式參考
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 轉換函式
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 的日期函式
 
@@ -70,13 +70,13 @@ Adobe Journey Optimizer 的日期函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的清單函式
 
 在運算式中利用清單函式進行重複資料刪除、篩選、排序和會籍檢查等作業。
 
-[了解清單函式](list-landing-page.md)
+[了解清單函式](../using/building-journeys/functions/list-functions.md)
 :::
 
 ::::

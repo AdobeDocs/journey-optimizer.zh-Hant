@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函式，運算式，編輯器，歷程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -74,26 +74,26 @@ ht-degree: 69%
 | 清單 | [sort](../functions/list-functions.md#sort) |
 | 數學 | [random](../functions/functionrandom.md) |
 | 數學 | [round](../functions/functionround.md) |
-| 字串 | [concat](../functions/functionconcat.md) |
-| 字串 | [contain](../functions/functioncontain.md) |
-| 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| 字串 | [endWith](../functions/functionendwith.md) |
-| 字串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 字串 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| 字串 | [indexOf](../functions/functionindexof.md) |
-| 字串 | [isEmpty](../functions/functionisempty.md) |
-| 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
-| 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字串 | [length](../functions/functionlength.md) |
-| 字串 | [lower](../functions/functionlower.md) |
-| 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 字串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| 字串 | [replace](../functions/functionreplace.md) |
-| 字串 | [replaceAll](../functions/functionreplaceall.md) |
-| 字串 | [split](../functions/functionsplit.md) |
-| 字串 | [startWith](../functions/functionstartwith.md) |
-| 字串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| 字串 | [substr](../functions/functionsubstr.md) |
-| 字串 | [trim](../functions/functiontrim.md) |
-| 字串 | [upper](../functions/functionupper.md) |
-| 字串 | [uuid](../functions/functionuuid.md) |
+| 字串 | [concat](../functions/string-functions.md#concat) |
+| 字串 | [contain](../functions/string-functions.md#contain) |
+| 字串 | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| 字串 | [endWith](../functions/string-functions.md#endWith) |
+| 字串 | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| 字串 | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| 字串 | [indexOf](../functions/string-functions.md#indexOf) |
+| 字串 | [isEmpty](../functions/string-functions.md#isEmpty) |
+| 字串 | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| 字串 | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| 字串 | [length](../functions/string-functions.md#length) |
+| 字串 | [lower](../functions/string-functions.md#lower) |
+| 字串 | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| 字串 | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| 字串 | [replace](../functions/string-functions.md#replace) |
+| 字串 | [replaceAll](../functions/string-functions.md#replaceAll) |
+| 字串 | [split](../functions/string-functions.md#split) |
+| 字串 | [startWith](../functions/string-functions.md#startWith) |
+| 字串 | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| 字串 | [substr](../functions/string-functions.md#substr) |
+| 字串 | [trim](../functions/string-functions.md#trim) |
+| 字串 | [upper](../functions/string-functions.md#upper) |
+| 字串 | [uuid](../functions/string-functions.md#uuid) |
