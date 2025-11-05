@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: 彙總，函式，運算式，歷程，平均，計數，最大值，最小值，總和
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '712'
 ht-degree: 8%
 
 ---
 
 # 聚合函式 {#aggregation-functions}
 
-彙總函式用於對一組值執行計算並傳回單一值。 在歷程運算式中使用清單和陣列時，這些函式特別有用。
+彙總函式會針對一組值執行計算，並傳回單一摘要結果。 這些函式可讓您透過計算平均值、尋找最小值和最大值、計數元素以及加總數值，來分析歷程運算式中的資料。
+
+當您需要以下動作時，請使用彙總函式：
+
+* 從清單或陣列計算統計值（平均、總計、最小值、最大值）
+* 計算集合中的元素，包含或排除null值的選項
+* 決定資料集中的唯一值
+* 根據計算量度做出資料導向式決策
+
+彙總函式會根據其特定行為自動處理null值，讓處理可能包含遺失或未定義值的真實資料更容易。
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ ht-degree: 8%
 
 計算清單中Null值的數量。
 
-**注意：**&#x200B;此函式不支援引數`<listObject>`。
-
 +++語法
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ ht-degree: 8%
 
 +++
 
+**注意：**&#x200B;此函式不支援引數`<listObject>`。
+
 ## countWithNull {#countWithNull}
 
 計算清單的所有元素，包括null值。
-
-**注意：**&#x200B;此函式不支援引數`<listObject>`。
 
 +++語法
 
@@ -182,6 +190,8 @@ ht-degree: 8%
 傳回4。
 
 +++
+
+**注意：**&#x200B;此函式不支援引數`<listObject>`。
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ ht-degree: 8%
 
 計算不同值的數量，包括null值。
 
-**注意：**&#x200B;此函式不支援引數`<listObject>`。
-
 +++語法
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ ht-degree: 8%
 傳回3。
 
 +++
+
+**注意：**&#x200B;此函式不支援引數`<listObject>`。
 
 ## max {#max}
 
