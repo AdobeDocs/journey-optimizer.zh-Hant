@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1357'
+ht-degree: 84%
 
 ---
 
@@ -26,15 +26,30 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-<!--
-## Latest updates {#latest-updates}
+## 最新更新 {#latest-updates}
 
+以下列出過去幾週發佈的新功能和改進專案及其推出日期。 他們將在月底與下一個發行說明內容一起分組。 另請參閱下面[的最新](#latest-rn)發行說明。
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+#### 全新功能 {#oct-25-10-soon-features}
 
--->
-
-
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設計工具中的主題</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>目前您可以快速套用事先審核通過的主題，以便確保所有電子郵件的品牌都有保持一致性，加快投放行銷活動的流程，個別製作高品質的電子郵件，同時減少對設計團隊的依賴。</p>
+<p>此功能先前以 Beta 版發行，現在可供部分組織使用 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細文件</a>。</p>
+<p>推出日期： 2025年11月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025 年 10 月發行說明 {#oct-25-10-rn}
 
