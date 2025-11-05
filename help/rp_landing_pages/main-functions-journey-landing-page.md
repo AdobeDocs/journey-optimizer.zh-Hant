@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
-source-git-commit: 6c07fcc79c49698df748c6fc6fbd75a59c5b11c1
+source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的主要函式
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函式
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 彙總函式參考
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 轉換函式
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 的日期函式
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 的日期函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的清單函式
 
@@ -86,5 +86,5 @@ Adobe Journey Optimizer 的清單函式
 
 ## 其他資源
 
-- **[數學函式](math-landing-page.md)** - 探索用於歷程運算式中數值計算的數學函式，例如隨機函式和圓形函式。
+- **[數學函式](../using/building-journeys/functions/math-functions.md)** - 探索用於歷程運算式中數值計算的數學函式，例如隨機函式和圓形函式。
 - **[Adobe Journey Optimizer 中的字串函式](../using/building-journeys/functions/string-functions.md)** - 使用函式來控制字串，以在歷程運算式中實現串連、子字串擷取、格式設定。
