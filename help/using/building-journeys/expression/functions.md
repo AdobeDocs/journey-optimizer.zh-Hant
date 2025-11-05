@@ -9,7 +9,7 @@ level: Experienced
 keywords: 函式，運算式，編輯器，歷程
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 69%
@@ -31,15 +31,15 @@ ht-degree: 69%
 | 類別 | 函數 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| 彙總 | [avg](../functions/functionavg.md) |
-| 彙總 | [count](../functions/functioncount.md) |
-| 彙總 | [countOnlyNull](../functions/functioncountonlynull.md) |
-| 彙總 | [countWithNull](../functions/functioncountwithnull.md) |
-| 彙總 | [distinctCount](../functions/functiondistinctcount.md) |
-| 彙總 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| 彙總 | [max](../functions/functionmax.md) |
-| 彙總 | [min](../functions/functionmin.md) |
-| 彙總 | [sum](../functions/functionsum.md) |
+| 彙總 | [avg](../functions/aggregation-functions.md#avg) |
+| 彙總 | [count](../functions/aggregation-functions.md#count) |
+| 彙總 | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| 彙總 | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| 彙總 | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| 彙總 | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| 彙總 | [max](../functions/aggregation-functions.md#max) |
+| 彙總 | [min](../functions/aggregation-functions.md#min) |
+| 彙總 | [sum](../functions/aggregation-functions.md#sum) |
 | 轉換 | [toBool](../functions/functiontobool.md) |
 | 轉換 | [toDateOnly](../functions/functiontodateonly.md) |
 | 轉換 | [toDateTime](../functions/functiontodatetime.md) |
