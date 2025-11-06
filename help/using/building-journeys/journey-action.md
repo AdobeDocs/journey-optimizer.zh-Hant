@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 16%
@@ -179,7 +179,7 @@ ht-degree: 16%
 
 1. 以類似方式繼續以新增更多動作。 您最多可以在歷程動作群組中新增10個傳入動作。
 
-一旦歷程為[即時](publishing-the-journey.md)，所有動作就會同時啟動。
+一旦歷程為[即時](publish-journey.md)，所有動作就會同時啟動。
 <!--
 ## Next steps {#next}
 

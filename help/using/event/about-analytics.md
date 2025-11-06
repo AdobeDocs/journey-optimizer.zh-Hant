@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: analytics，整合， web sdk，平台
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
 ![](assets/ajo-aa_4.png)
 
-在[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant){target="_blank"}中進一步瞭解Adobe Experience Platform來源聯結器。
+在[Adobe Analytics檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"}和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}中進一步瞭解Adobe Experience Platform來源聯結器。
 
 ## 啟用此設定 {#activate-analytics-data}
 
@@ -135,6 +135,6 @@ ht-degree: 6%
 
 1. 然後，新增&#x200B;**[!UICONTROL 電子郵件動作]**。 在這封電子郵件中，系統會提示客戶對所下訂單提供意見。
 
-您現在可以測試並發佈您的歷程。 [了解更多](../building-journeys/publishing-the-journey.md)
+您現在可以測試並發佈您的歷程。 [了解更多](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)

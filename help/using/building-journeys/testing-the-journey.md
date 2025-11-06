@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 46fe967c55db9f37221a616e7979bd3fafd6b070
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 7%
@@ -93,7 +93,7 @@ ht-degree: 7%
 
    ![](assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。完成測試後，您就可以發佈歷程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。完成測試後，您就可以發佈歷程。 請參閱[此頁面](../building-journeys/publish-journey.md)。
 
 ## 觸發您的事件 {#firing_events}
 

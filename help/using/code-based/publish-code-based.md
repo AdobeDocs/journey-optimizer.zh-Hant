@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在[本節](../building-journeys/publishing-the-journey.md)中進一步瞭解發佈歷程。
+   >在[本節](../building-journeys/publish-journey.md)中進一步瞭解發佈歷程。
 
 您的程式碼型歷程會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，現在選定對象可看見。 您歷程的每個收件者都能看到您的修改。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->按一下[啟動&#x200B;**&#x200B;**]後，最多可能需要15分鐘才能讓您的變更上線。
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
 >如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
 

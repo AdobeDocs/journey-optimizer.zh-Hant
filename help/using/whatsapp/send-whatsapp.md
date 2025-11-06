@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 3%
@@ -39,4 +39,4 @@ ht-degree: 3%
 >
 > 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的文字訊息。 [了解更多](../test-approve/gs-approval.md)
 
-當您的WhatsApp訊息準備就緒時，請完成您的[歷程](../building-journeys/publishing-the-journey.md)或[行銷活動](../campaigns/review-activate-campaign.md)的設定以進行傳送。
+當您的WhatsApp訊息準備就緒時，請完成您的[歷程](../building-journeys/publish-journey.md)或[行銷活動](../campaigns/review-activate-campaign.md)的設定以進行傳送。

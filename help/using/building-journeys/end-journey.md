@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* 您無法重新啟動或刪除[已關閉](#close-journey)或[已停止](#stop-journey)歷程。 您可以[建立其新版本](publishing-the-journey.md#journey-versions-journey-versions)或[複製它](journey-ui.md#duplicate-a-journey-duplicate-a-journey)。
+>* 您無法重新啟動或刪除[已關閉](#close-journey)或[已停止](#stop-journey)歷程。 您可以[建立其新版本](publish-journey.md#journey-versions-journey-versions)或[複製它](journey-ui.md#duplicate-a-journey-duplicate-a-journey)。
 >
 >* 只能刪除已完成的歷程。
 

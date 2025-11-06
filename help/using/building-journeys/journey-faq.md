@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 0%
@@ -374,7 +374,7 @@ Journey Optimizer提供兩種測試方法：
 * 訊息和動作開始為移動歷程的設定檔執行
 * 您只能編輯已發佈歷程中的有限專案（如果您想要編輯更多，則必須建立新版本）
 
-深入瞭解[發佈歷程](publishing-the-journey.md)。
+深入瞭解[發佈歷程](publish-journey.md)。
 
 +++
 
@@ -435,7 +435,7 @@ Journey Optimizer提供兩種測試方法：
 * 將此用於緊急情況或嚴重錯誤
 * 範例：產品召回要求立即暫停促銷訊息
 
-深入瞭解[結束歷程](end-journey.md)和[發佈歷程](publishing-the-journey.md)。
+深入瞭解[結束歷程](end-journey.md)和[發佈歷程](publish-journey.md)。
 
 +++
 

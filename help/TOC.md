@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '2947'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 98%
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [歷程試運行](using/building-journeys/journey-dry-run.md)
-      + [發佈您的歷程](using/building-journeys/publishing-the-journey.md)
+      + [發佈您的歷程](using/building-journeys/publish-journey.md)
       + [暫停歷程](using/building-journeys/journey-pause.md)
       + [歷程中的即時報告](using/building-journeys/report-journey.md)
    + 管理您的歷程 {#manage-journey}
@@ -109,8 +109,7 @@ ht-degree: 98%
          + [操作者](using/building-journeys/expression/operators.md)
          + [歷程屬性](using/building-journeys/expression/journey-properties.md)
          + [範例](using/building-journeys/expression/advanced-editor-use-cases.md)
-      + 函式 {#main-functions-journey}
-         + [函式](/help/rp_landing_pages/main-functions-journey-landing-page.md)
+      + 函數 {#main-functions-journey}
          + [主要功能](using/building-journeys/expression/functions.md)
          + [inAudience函式](using/building-journeys/functions/functioninaudience.md)
          + [聚合函式](using/building-journeys/functions/aggregation-functions.md)
@@ -703,7 +702,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

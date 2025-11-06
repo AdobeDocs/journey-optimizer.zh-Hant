@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 發佈此歷程
+title: 發佈歷程
 description: 瞭解如何報告您的歷程
 feature: Journeys
 topic: Content Management
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [開始使用報告功能](../reports/gs-reports.md)
->* [發佈您的歷程](publishing-the-journey.md)
+>* [發佈您的歷程](publish-journey.md)
 >* [歷程練習](journey-dry-run.md)
 >* [設定並追蹤您的歷程量度](success-metrics.md)
 >* [自訂歷程報告](../reports/sharing-overview.md)

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >針對決定原則專案追蹤，決策原則內容需要新增`trackingToken`屬性，如下所示：
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 若要新增屬性，請按一下它旁邊的&#39;+&#39;圖示。 您可以對程式碼新增任意數量的屬性。
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
 準備好您的內容後，請檢閱並發佈您的行銷活動或歷程：
 
-* [發佈歷程](../building-journeys/publishing-the-journey.md)
+* [發佈歷程](../building-journeys/publish-journey.md)
 * [檢閱啟動行銷活動](../campaigns/review-activate-campaign.md)
 * [發佈並啟用程式碼型體驗](../code-based/publish-code-based.md)
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 10%
@@ -49,7 +49,7 @@ ht-degree: 10%
 
 ![歷程儀表板醒目提示「瀏覽」索引標籤](assets/journeys-browse.png)
 
-在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publishing-the-journey.md#journey-versions-journey-versions)。
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publish-journey.md#journey-versions-journey-versions)。
 
 ### 歷程行事曆 {#calendar}
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![熒幕顯示已選取兩種歷程型別的歷程篩選範例](assets/filter-journeys.png)
 
-您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publishing-the-journey.md#journey-versions-journey-versions)，以及從[狀態和版本篩選器](../start/search-filter-categorize.md#tags)指派的&#x200B;**[!UICONTROL 標籤]**&#x200B;來篩選歷程。
+您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publish-journey.md#journey-versions-journey-versions)，以及從[狀態和版本篩選器](../start/search-filter-categorize.md#tags)指派的&#x200B;**[!UICONTROL 標籤]**&#x200B;來篩選歷程。
 
 使用&#x200B;**[!UICONTROL 建立篩選器]**，根據歷程的建立日期或建立歷程的使用者來篩選歷程。
 
@@ -141,7 +141,7 @@ ht-degree: 10%
 * **草稿**：歷程處於第一個階段。 行銷活動尚未發佈。
 * **草稿（測試）**：已使用&#x200B;**測試模式**&#x200B;按鈕啟動測試模式。 [了解更多](../building-journeys/testing-the-journey.md)
 * **已完成**：歷程會在91天[全域逾時](journey-properties.md#global_timeout)後自動切換為此狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。
-* **即時**：歷程已使用&#x200B;**發佈**&#x200B;按鈕發佈。 [了解更多](../building-journeys/publishing-the-journey.md)
+* **即時**：歷程已使用&#x200B;**發佈**&#x200B;按鈕發佈。 [了解更多](../building-journeys/publish-journey.md)
 * **已暫停**：已使用&#x200B;**暫停**&#x200B;按鈕暫停即時歷程。 [了解更多](../building-journeys/journey-pause.md)
 * **已停止**：歷程已使用&#x200B;**停止**&#x200B;按鈕關閉。 所有個人會立即退出歷程。 [了解更多](../building-journeys/end-journey.md#stop-a-journey)
 * **已關閉**：歷程已使用&#x200B;**關閉新入口**&#x200B;按鈕關閉。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。 [了解更多](../building-journeys/end-journey.md)

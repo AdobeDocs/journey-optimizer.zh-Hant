@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -63,7 +63,7 @@ ht-degree: 17%
 
 1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-1. 在您的Web體驗準備就緒後，完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publishing-the-journey.md)
+1. 在您的Web體驗準備就緒後，完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publish-journey.md)
 
 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -206,7 +206,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >在[本節](../building-journeys/publishing-the-journey.md)中進一步瞭解發佈歷程。
+   >在[本節](../building-journeys/publish-journey.md)中進一步瞭解發佈歷程。
 
 您的網路歷程會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，且現在為唯讀。 您歷程的每個收件者都能看到您新增至網站的修改專案。
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

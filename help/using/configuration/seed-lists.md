@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 16%
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->無法刪除使用中[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publishing-the-journey.md)中使用的種子清單。 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的其他設定。 [進一步瞭解使用種子清單](#use-seed-list)
+>無法刪除使用中[行銷活動](../campaigns/review-activate-campaign.md)或[歷程](../building-journeys/publish-journey.md)中使用的種子清單。 您需要停用行銷活動/歷程，或編輯行銷活動，以使用尚未選取種子清單的其他設定。 [進一步瞭解使用種子清單](#use-seed-list)
 
 您可以按一下種子清單名稱來進行編輯。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 >id="ajo_seed_list_details"
 >title="定義種子清單"
 >abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
@@ -150,7 +150,7 @@ ht-degree: 16%
 
    ![](assets/seed-list-campaign-email.png)
 
-1. 啟用您的[行銷活動](../campaigns/review-activate-campaign.md)或發佈您的[歷程](../building-journeys/publishing-the-journey.md)。
+1. 啟用您的[行銷活動](../campaigns/review-activate-campaign.md)或發佈您的[歷程](../building-journeys/publish-journey.md)。
 
 現在，每次透過該促銷活動或歷程將電子郵件訊息傳送給客戶時，所選種子清單上的電子郵件地址也將以相同的條件收到訊息，同時具有與目標收件者相同的內容。
 
