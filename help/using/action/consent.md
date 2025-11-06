@@ -41,7 +41,7 @@ ht-degree: 99%
 
 ## 透過管道設定運用同意原則 {#surface-marketing-actions}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一。
 
 若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。[了解有關行銷活動的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 

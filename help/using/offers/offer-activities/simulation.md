@@ -103,7 +103,7 @@ ht-degree: 12%
    * 您可以使用搜尋欄位來縮小選取範圍。
    * 您可以按一下&#x200B;**[!UICONTROL 開啟優惠決定]**&#x200B;連結，開啟您建立的所有決定清單。 深入瞭解[決定](create-offer-activities.md)。
 
-   選取您選擇的決定並按一下[新增]。****
+   選取您選擇的決定並按一下[新增]。**&#x200B;**
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 

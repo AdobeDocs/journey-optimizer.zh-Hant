@@ -173,7 +173,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-6.png)
 
-1. 若要停用您的多語言組態，請按一下[新增語言] ****，然後選取要保留為當地語言的語言。
+1. 若要停用您的多語言組態，請按一下[新增語言] **&#x200B;**，然後選取要保留為當地語言的語言。
 
    ![](assets/multilingual-campaign-7.png)
 

@@ -122,7 +122,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
+1. 儲存您的變更，然後按一下[建立]。**&#x200B;** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#use-decision-policy)
 
