@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 
 | 錯誤碼 | 說明 | 根本原因 | 解決方法 |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | 校訂失敗 — 使用AEM資產傳送校訂/測試時所有資產未發佈 | 最近發佈的資產尚未在AJO中；資產ID不相符；跨存放庫使用；AEM同步延遲 | 1.僅使用來自正確存放庫/環境的已發佈資產ID<br/>2。 留出時間在AEM與AJO<br/>3之間同步。 請使用已知良好的資產<br/>4重試。 在AEM <br/><br/>**相關檔案**&#x200B;中驗證資產發佈狀態： [Assets整合](../content-management/assets.md) |
+| **CJMMAS-1732-500** | 校訂失敗 — 使用AEM資產傳送校訂/測試時所有資產未發佈 | 最近發佈的資產尚未在AJO中；資產ID不相符；跨存放庫使用；AEM同步延遲 | 1.僅使用來自正確存放庫/環境的已發佈資產ID<br/>2。 留出時間在AEM與AJO<br/>3之間同步。 請使用已知良好的資產<br/>4重試。 在AEM <br/><br/>**相關檔案**&#x200B;中驗證資產發佈狀態： [Assets整合](../integrations/assets.md) |
 | **CJMMAS-1069-500** | 儲存或發佈訊息範本時發生內部錯誤 | 後端例外狀況（基礎架構/服務錯誤或內容問題）；不支援的標籤/功能 | 1.簡化或降低範本複雜度<br/>2。 以累加步驟重新新增內容以識別問題<br/>3。 檢查[Adobe狀態頁面](https://status.adobe.com/)<br/>4。 移除不支援的功能或標籤&#x200B;<br/><br/>**相關檔案**： [內容範本](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 儲存訊息、預設集或變體時發生錯誤請求 | 訊息中缺少必填欄位或設定錯誤 | 1.完成所有必要欄位（標示星號）<br/>2。 驗證訊息/預設集組態<br/>3。 檢查欄位值格式和限制<br/>4。 檢閱UI <br/><br/>**相關檔案**&#x200B;中的驗證訊息： [電子郵件頻道](../email/get-started-email.md)，[頻道介面](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 訊息預設集編輯中無法處理的實體 | 驗證錯誤、不支援的欄位或不正確的語法 | 1.更正語法/欄位錯誤，如指示所示<br/>2。 與已知良好組態比較<br/>3。 在儲存<br/>4之前使用訊息UI驗證。 檢閱檔案&#x200B;<br/><br/>**相關檔案**&#x200B;中的欄位需求： [訊息預設集](../configuration/channel-surfaces.md)，[電子郵件設定](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 
 | 錯誤碼 | 說明 | 根本原因 | 解決方法 |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | 「衝突。 新增報表資料集時，資料集已經新增 | 嘗試新增已布建的資料集 | 1.檢閱報告設定中的資料集組態<br/>2。 不要重新新增已經存在的資料集<br/>3。 使用正式移轉檢查清單來報告移轉<br/>4。 移除重複的資料集參考&#x200B;<br/><br/>**相關檔案**： [全域報告](../reports/global-report.md)，[即時報告](../reports/live-report.md) |
+| **CJMRPS-1047-409** | 「衝突。 新增報表資料集時，資料集已經新增 | 嘗試新增已布建的資料集 | 1.檢閱報告設定中的資料集組態<br/>2。 不要重新新增已經存在的資料集<br/>3。 使用正式移轉檢查清單來報告移轉<br/>4。 移除重複的資料集參考&#x200B;<br/><br/>**相關檔案**： [報告總覽](../reports/gs-reports.md)、[行銷活動報告](../reports/campaign-global-report-cja.md)、[歷程報告](../reports/journey-global-report-cja.md) |
 
 ## 一般疑難排解方法 {#troubleshooting-approach}
 
