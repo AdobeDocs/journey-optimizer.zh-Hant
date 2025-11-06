@@ -31,4 +31,4 @@ Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.
 
 瞭解如何在影片中以CSV格式上傳對象：
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423355?captions=chi_hant&quality=12)
