@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '940'
+ht-degree: 87%
 
 ---
 
 # 開始使用 AI 助理 {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="提示範例"
+>abstract="探索下列Journey Optimizer檔案，瞭解如何建立有效的提示，以產生高轉換率的品牌上行銷內容。"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -114,7 +120,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 * 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
 * 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
 * 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 以下限制適用於 Adobe Journey Optimizer 的 AI 助理：
 
@@ -161,3 +167,12 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 <p>
 </td>
 </tr></table>
+
+## 其他資源
+
+* **[電子郵件的AI助理](generative-email.md)** — 瞭解如何使用AI助理產生和最佳化電子郵件內容變化。
+* **[推播通知的AI助理](generative-push.md)** — 瞭解如何使用AI協助建立吸引人的推播通知內容。
+* **[SMS的AI助理](generative-sms.md)** — 使用AI支援的內容建立產生有效的SMS訊息變化。
+* **[網頁體驗的AI小幫手](generative-web.md)** — 瞭解如何使用AI小幫手建立和最佳化網頁內容。
+* **[產生式實驗](generative-experimentation.md)** — 瞭解如何結合AI產生的內容與實驗。
+* **[AI Assistant教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** — 探索有關AI Assistant功能和最佳做法的逐步教學課程影片。
