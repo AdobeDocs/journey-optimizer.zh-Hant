@@ -61,4 +61,4 @@ ht-degree: 99%
 
 您可以使用 AI 助理，或手動輸入，即可定義中繼資料、關聯技術資產，例如：結構描述、區段，還可在不同的 IMS 組織之間，共用教戰手冊。
 
-如欲索取如何建立並共用教戰手冊等詳細資訊，請參閱使用案例教戰手冊檔案：[使用 AI 助理，編寫並共用您專屬的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}。
+如欲索取如何建立並共用教戰手冊等詳細資訊，請參閱使用案例教戰手冊檔案：[使用 AI 助理，編寫並共用您專屬的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hant#sharing-playbooks-sandboxes){target="_blank"}。

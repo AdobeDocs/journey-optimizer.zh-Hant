@@ -88,6 +88,6 @@ Journey Optimizer 的核心功能和服務主要是按照 Adobe Experience Platf
 >* [開始的關鍵步驟](quick-start.md)
 >* [設計歷程並傳送訊息](../building-journeys/journey-gs.md)
 >* [即時報告](../reports/live-report.md)
->* [Journey Optimizer簡介教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Journey Optimizer簡介教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Journey Optimizer 安全性概觀](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [Journey Optimizer 產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

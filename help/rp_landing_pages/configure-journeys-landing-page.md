@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的歷程設定可整合資料來源、事件和動�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 歷程設定快速入門
 

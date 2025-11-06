@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # 在 Web SDK 中設定內容卡支援 {#content-card-configuration-sdk}
 
-此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
+此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
 
 初次載入頁面時，頁面會顯示其預設狀態。 但是，如果您與&#x200B;**存款基金**&#x200B;或&#x200B;**在社群媒體上分享**&#x200B;按鈕互動，將會顯示其他內容卡。 這些卡片是由使用者端條件觸發，以確保僅在採取特定動作時才會顯示。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 ## 運作方式 {#setup}
 
-1. 使用範例資料夾中[檔案的設定，在頁面上包含並設定](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)網頁SDK`.env`。
+1. 使用範例資料夾中[檔案的設定，在頁面上包含並設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)網頁SDK`.env`。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

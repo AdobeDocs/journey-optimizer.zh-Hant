@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* 若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}許可權。
+>* 若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hant#available-permissions){target="_blank"}許可權。
 >
 >* 如配額欄中的`N/A`所指示，某些量度（例如計算時數、電子郵件）不會顯示給開發沙箱。 控制面板中只會顯示非null的值：當量度為零或接近零時，系統不會填入量度。
 
@@ -34,6 +34,6 @@ ht-degree: 3%
 
 在Adobe Experience Platform檔案中進一步瞭解：
 
-* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant){target="_blank"}
+* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用的量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#available-metrics){target="_blank"}

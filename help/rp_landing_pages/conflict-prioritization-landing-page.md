@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 衝突管理快速入門
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 指派行銷活動的優先順序分數
 

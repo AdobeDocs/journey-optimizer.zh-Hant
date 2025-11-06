@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的歷程可讓您建立個人化的多步驟客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 歷程快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立及管理歷程的全面指南
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 管理歷程的全面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 在 Adobe Journey Optimizer 中建立運算式
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 的實用使用案例
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer 的實用使用案例
 
 - **[訂閱歷程警示](../using/reports/alerts.md)** - 了解如何管理系統警示、訂閱通知，以及對歷程和行銷活動中的問題進行疑難排解。
 
-- **[歷程教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 透過涵蓋功能、功能和最佳實務的實作教學課程影片，瞭解如何建立歷程。
+- **[歷程教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 透過涵蓋功能、功能和最佳實務的實作教學課程影片，瞭解如何建立歷程。
 
 

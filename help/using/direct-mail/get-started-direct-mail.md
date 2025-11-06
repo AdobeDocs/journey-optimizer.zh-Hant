@@ -40,6 +40,6 @@ ht-degree: 76%
 * **[設定直接郵件通道](direct-mail-configuration.md)** — 設定直接郵件介面和檔案路由設定。
 * **[歷程中的直接郵件](direct-mail-journeys.md)** — 探索如何在客戶歷程中使用直接郵件動作。
 * **[測試並傳送直接郵件](test-send-direct-mail.md)** — 瞭解如何測試、驗證及發佈您的直接郵件傳遞。
-* **[直接郵件教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** — 探索直接郵件功能和最佳實務的逐步教學課程影片。
+* **[直接郵件教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** — 探索直接郵件功能和最佳實務的逐步教學課程影片。
 
 

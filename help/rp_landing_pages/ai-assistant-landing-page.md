@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 使用 AI 產生電子郵件內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 產生推播通知內容
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
 
 使用 AI 產生簡訊內容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 網頁內容與資產產生
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hant)
 
 使用 AI 產生登陸頁面
 

@@ -61,7 +61,7 @@ ht-degree: 99%
 
       >[!NOTE]
       >
-      >Adobe 提供的開箱即用的核心行銷活動列於[此表格](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#core-actions){target="_blank"}。[本節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}列出建立自訂行銷動作的步驟。
+      >Adobe 提供的開箱即用的核心行銷活動列於[此表格](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#core-actions){target="_blank"}。[本節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}列出建立自訂行銷動作的步驟。
 
    1. 選擇套用的行銷動作時會發生的情況。 在此範例中，選擇&#x200B;**[!UICONTROL 電子郵件行銷同意書]**。
 

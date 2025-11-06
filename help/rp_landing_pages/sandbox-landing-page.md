@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的沙箱就像虛擬工作區，可協助您讓環�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 使用並指派沙箱
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的沙箱就像虛擬工作區，可協助您讓環�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 在沙箱之間複製物件
 

@@ -144,4 +144,4 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 
 +++
 
-在[報告教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片
+在[報告教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片

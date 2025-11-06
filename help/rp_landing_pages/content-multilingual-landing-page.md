@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的多語言內容功能可讓您建立多種語言�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立多語言內容的語系設定
 

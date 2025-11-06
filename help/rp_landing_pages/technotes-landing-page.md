@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的技術說明提供幕後資訊，讓您了解支�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 實驗中使用的統計計算
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 實驗中使用的統計計算
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 了解實驗報告中的統計計算
 

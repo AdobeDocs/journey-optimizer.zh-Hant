@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 測試程式碼型體驗
 

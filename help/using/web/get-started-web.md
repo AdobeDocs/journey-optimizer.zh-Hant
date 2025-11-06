@@ -75,6 +75,6 @@ ht-degree: 64%
 * **[編輯網頁內容](create-web.md#edit-web-content)** — 主控網頁設計工具，以使用視覺化或非視覺化編輯模式來修改頁面。
 * **[管理網頁修改](manage-web-modifications.md)** — 瞭解如何組織、套用及管理網頁體驗中的修改。
 * **[監視Web體驗](monitor-web-experiences.md)** — 透過詳細報告追蹤及分析Web行銷活動的效能。
-* **[網路行銷活動教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** — 探索有關網路頻道功能和最佳實務的逐步教學課程影片。
+* **[網路行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** — 探索有關網路頻道功能和最佳實務的逐步教學課程影片。
 
 
