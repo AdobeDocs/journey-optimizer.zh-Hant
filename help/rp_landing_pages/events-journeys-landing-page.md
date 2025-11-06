@@ -6,7 +6,7 @@ description: 事件設定
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用歷程事件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 設定單一事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent 結構描述
 
@@ -50,7 +50,7 @@ ExperienceEvent 結構描述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics 整合功能
 
@@ -60,7 +60,7 @@ Adobe Analytics 整合功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定業務事件
 
@@ -70,7 +70,7 @@ Adobe Analytics 整合功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用串流 API 傳送事件
 

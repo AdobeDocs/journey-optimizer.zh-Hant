@@ -5,10 +5,10 @@ title: 歷程
 description: 歷程
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的歷程可讓您建立個人化的多步驟客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer 歷程快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立及管理歷程的全面指南
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理歷程的全面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中建立運算式
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer 的實用使用案例
 
@@ -87,5 +87,7 @@ Adobe Journey Optimizer 的實用使用案例
 - **[對客戶歷程進行疑難排解](troubleshoot-journey-landing-page.md)** - 診斷和解決工具、錯誤碼的歷程執行問題，並了解偵錯和最佳化的最佳做法。
 
 - **[訂閱歷程警示](../using/reports/alerts.md)** - 了解如何管理系統警示、訂閱通知，以及對歷程和行銷活動中的問題進行疑難排解。
+
+- **[歷程教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 透過涵蓋功能、功能和最佳實務的實作教學課程影片，瞭解如何建立歷程。
 
 

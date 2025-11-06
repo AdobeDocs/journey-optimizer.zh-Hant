@@ -20,9 +20,9 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
->&#x200B;></br>
+></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 精心打造和量身打造您的SMS訊息以符合對象的偏好後，請在Journey Optimizer中提升您與AI助理的通訊。
 
@@ -63,7 +63,7 @@ ht-degree: 5%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 

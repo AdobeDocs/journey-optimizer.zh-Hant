@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定無訊息時數
+title: 設定勿打擾時間
 description: 瞭解如何建立與套用無訊息時數
 feature: Rules
 topic: Content Management
@@ -12,16 +12,16 @@ keywords: 訊息，頻率，規則，壓力
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# 設定無訊息時數 {#quiet-hours}
+# 設定勿打擾時間 {#quiet-hours}
 
 ## 什麼是無訊息時數
 
-**無訊息時數**&#x200B;可讓您定義&#x200B;**電子郵件**、**簡訊**、**推播**&#x200B;及&#x200B;**WhatsApp**&#x200B;管道的時間排除專案。 它們可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。
+**無訊息時數**&#x200B;可讓您定義&#x200B;**電子郵件**、**簡訊**、**推播**&#x200B;及&#x200B;**WhatsApp**&#x200B;管道的時間排除專案。 此功能可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。
 
 您可以透過&#x200B;**規則集**&#x200B;套用無訊息時數，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->無訊息小時規則目前僅適用於一組組織（可用性限制）。 若要新增至輪候表，請聯絡您的Adobe代表。
+>目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。若要新增至輪候表，請聯絡您的 Adobe 代表。
 
 
 ➡️ [在影片中探索此功能](#video)
@@ -187,4 +187,4 @@ ht-degree: 1%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

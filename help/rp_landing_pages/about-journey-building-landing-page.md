@@ -6,7 +6,7 @@ description: 活動
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 歷程活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 使用一般事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定回應事件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 客群資格鑑定事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用條件活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 設定等待活動
 

@@ -6,7 +6,7 @@ description: 建立程式碼型體驗
 redpen-status: CREATED_||_2025-08-11_20-42-15
 exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 建立並撰寫程式碼型體驗
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在程式碼型體驗中使用可編輯的欄位
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 測試程式碼型體驗
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 發佈和管理程式碼型體驗
 

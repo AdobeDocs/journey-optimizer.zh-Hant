@@ -21,7 +21,7 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
->title="協調式行銷活動詳細目錄"
+>title="協調式行銷活動庫存"
 >abstract="在此畫面中，您可以存取協調式行銷活動的完整清單、檢查其目前狀態、上次/下次執行日期，以及建立新的協調式行銷活動。"
 
 >[!CONTEXTUALHELP]
@@ -240,7 +240,7 @@ ht-degree: 14%
 
 ## 複製行銷活動 {#duplicate}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

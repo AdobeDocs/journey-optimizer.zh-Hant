@@ -6,7 +6,7 @@ description: 引導式管道設定
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的引導式管道設定簡化了設定行動裝置�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定行動裝置和網頁管道
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的引導式管道設定簡化了設定行動裝置�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和修改管道設定
 

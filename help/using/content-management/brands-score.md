@@ -36,7 +36,7 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱和管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 
@@ -74,8 +74,8 @@ ht-degree: 18%
 
 以下影片說明如何建立和自訂您自己的品牌，以清楚定義跨通訊的視覺和口頭身分。
 
-+++ 請觀看影片
++++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470557/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

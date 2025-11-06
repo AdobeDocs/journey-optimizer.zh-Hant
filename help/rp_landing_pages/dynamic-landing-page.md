@@ -6,7 +6,7 @@ description: 動態內容
 redpen-status: CREATED_||_2025-08-12_00-40-11
 exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 動態內容快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理條件規則
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 如何在 Adobe Journey Optimizer 中建立動態內容
 

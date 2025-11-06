@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 7%
@@ -20,9 +20,9 @@ ht-degree: 7%
 
 若要設定網頁應用程式內頻道，請遵循下列步驟：
 
-* 安裝Web SDK標籤擴充功能以支援Web應用程式內傳訊。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)
+* 安裝Web SDK標籤擴充功能以支援Web應用程式內傳訊。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
-* 自訂您的觸發器。 Web應用程式內傳訊支援兩種型別的觸發器：將資料傳送至平台和手動觸發器。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=zh-Hant)
+* 自訂您的觸發器。 Web應用程式內傳訊支援兩種型別的觸發器：將資料傳送至平台和手動觸發器。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html){target="_blank"}
 
 * 建立您的網頁應用程式內設定。 [了解更多](inapp-configuration.md)
 
@@ -62,12 +62,12 @@ ht-degree: 7%
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
-      | 平台 | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 API通常會從AEP Edge擴充功能呼叫[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
+      | 平台 | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 API通常會從AEP Edge擴充功能呼叫[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent){target="_blank"}。 |
       | 手動 | 手動觸發 | 兩個相關聯的資料元素：索引鍵（定義資料集的常數，例如，性別、顏色、價格）和值（屬於資料集的變數，例如，男性/女性、綠色、100）。 |
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 

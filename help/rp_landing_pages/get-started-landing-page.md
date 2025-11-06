@@ -5,10 +5,10 @@ title: 快速入門
 description: 快速入門
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 主要功能
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 架構概述
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 角色與職責
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用者介面概觀
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 搜尋、篩選及組織內容
 
@@ -72,13 +72,13 @@ Adobe Journey Optimizer可讓您跨每個管道提供個人化的即時客戶體
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 護欄與限制
 
 了解有效使用 Adobe Journey Optimizer 功能的限制和建議做法。
 
-[深入了解核心概念](../using/start/guardrails.md)
+[檢查護欄和限制](../using/start/guardrails.md)
 :::
 
 ::::

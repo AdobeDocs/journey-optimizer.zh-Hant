@@ -6,7 +6,7 @@ description: 由 API 觸發的行銷活動
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立和管理由 API 觸發的行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 定義由 API 觸發的行銷活動屬性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定由 API 觸發的行銷活動動作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 編輯及個人化由 API 觸發的行銷活動內容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定義由 API 觸發的行銷活動的客群
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 安排由 API 觸發的行銷活動
 

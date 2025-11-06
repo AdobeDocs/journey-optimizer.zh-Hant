@@ -6,7 +6,7 @@ description: 存取控制
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用存取控制
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理使用者和角色
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 內建角色
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 內建權限
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 權限層級
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 以屬性為基礎的存取控制
 

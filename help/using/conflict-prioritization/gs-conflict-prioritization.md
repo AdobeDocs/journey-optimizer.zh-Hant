@@ -4,10 +4,10 @@ description: 瞭解如何善用 Journey Optimizer 衝突與優先順序工具。
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ ht-degree: 100%
 * **請在客群鑑定歷程中同時啟用**
 
   當同一客群鑑定事件啟用許多客群鑑定歷程時，項目上限的計數就不是那麼準確。如果計數低於上限，將會繼續仲裁歷程，卻無法取得同步啟用的最新計數。
+
+## 其他資源
+
+* **[管理衝突](conflicts.md)** — 瞭解如何識別及解決重疊行銷活動和歷程之間的衝突。
+* **[設定優先順序分數](priority-scores.md)** — 瞭解如何指派和使用優先順序分數來控制訊息傳遞優先順序。
+* **[設定頻率上限](channel-capping.md)** — 瞭解如何設定頻道層級的頻率上限，以防止過度傳訊。
+* **[建立規則集](rule-sets.md)** — 瞭解如何為進階衝突管理和訊息治理建立商業規則。
+* **[歷程特定上限](journey-capping.md)** — 設定歷程層級上限規則，以控制歷程中的訊息頻率。
+* **[衝突管理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** — 探索有關衝突管理和優先順序的逐步教學課程影片。

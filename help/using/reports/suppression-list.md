@@ -59,7 +59,7 @@ ht-degree: 11%
 >
 >訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 已隱藏]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journeys-message.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
 >
->深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}。
+>深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}。
 
 ### 傳遞失敗 {#delivery-failures}
 
@@ -74,7 +74,7 @@ ht-degree: 11%
 
 如果您繼續傳送至這些地址，可能會影響您的傳送率，因為這會告訴ISP您可能沒有遵循電子郵件地址清單維護最佳實務，因此您可能不是值得信賴的寄件者。
 
-### 垃圾訊息申訴 {#spam-complaints}
+### 垃圾郵件投訴數 {#spam-complaints}
 
 隱藏清單會收集將您的郵件標籤為垃圾郵件的電子郵件地址。 例如，如果有人寫信給客戶服務，要求永不再收到您的郵件，您執行個體中將隱藏該人員的電子郵件地址，而您將無法再傳送給該地址。
 

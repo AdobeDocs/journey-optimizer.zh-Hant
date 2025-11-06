@@ -40,7 +40,7 @@ ht-degree: 93%
 
    * 傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用 Adobe Experience Platform 客群&#x200B;**批次**&#x200B;傳遞。
 
-   * 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自協力廠商 API 服務的資料。
+   * 利用來自事件的&#x200B;**情境資料** 、來自 Adobe Experience Platform 的資訊，或來自第三方 API 服務的資料。
 
    * 如果您使用第三方系統來傳送訊息，請使用&#x200B;**內建頻道動作** (電子郵件、簡訊、推播、應用程式內) 傳送 [!DNL Journey Optimizer] 中設計的訊息或建立&#x200B;**自訂動作**。
 

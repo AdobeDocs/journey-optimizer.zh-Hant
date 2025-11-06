@@ -153,7 +153,7 @@ ht-degree: 12%
 
    * 設定檔資料已更新，除非再次訂閱，否則將不會收到您品牌的通訊。
 
-若要檢查對應的輪廓選擇是否已更新，請前往 Experience Platform，並透過選取身分識別名稱空間和對應的身分識別值來存取輪廓。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
+若要檢查對應的輪廓選擇是否已更新，請前往 Experience Platform，並透過選取身分識別命名空間和對應的身分識別值來存取輪廓。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 

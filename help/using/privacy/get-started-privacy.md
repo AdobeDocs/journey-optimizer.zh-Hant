@@ -30,7 +30,7 @@ Adobe Experience Platform 和 Journey Optimizer 提供各種工具，協助您�
 
 * **套用同意政策**：定義 Adobe Experience Platform 同意政策並將其套用至您的自訂動作，以尊重客戶的偏好設定。 [了解更多](../action/consent.md)
 
-* **套用治理策略**：運用 Adobe Experience Platform 治理政策，防止敏感欄位透過自訂動作匯出至協力廠商系統。 [了解更多](../action/action-privacy.md)
+* **套用治理策略**：運用 Adobe Experience Platform 治理政策，防止敏感欄位透過自訂動作匯出至第三方系統。 [了解更多](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

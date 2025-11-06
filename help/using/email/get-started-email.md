@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## 其他資源
+
+* **[建立電子郵件](create-email.md)** — 瞭解如何使用逐步指示在行銷活動和歷程中建立電子郵件訊息。
+* **[設計電子郵件內容](get-started-email-design.md)** — 探索從草稿開始或使用範本設計電子郵件內容的不同方式。
+* **[電子郵件設定](get-started-email-config.md)** — 瞭解如何設定電子郵件設定，包括電子郵件介面、子網域和IP集區。
+* **[電子郵件個人化及樣式](get-started-email-style.md)** — 主樣式技術，包括自訂CSS、對齊、邊框間距及深色模式支援。
+* **[追蹤及監視電子郵件](message-tracking.md)** — 瞭解如何追蹤訊息開啟、點按，以及管理效能分析的URL追蹤。
+* **[電子郵件頻道教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** — 探索有關電子郵件功能和最佳實務的逐步教學課程影片。

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '619'
 ht-degree: 22%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 22%
 
       ![](assets/decision_permission_2.png)
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
       如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users)。
 
@@ -86,4 +86,14 @@ ht-degree: 22%
 
    ➡️ [瞭解如何使用決定原則](create-decision.md)
 ➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。
+
+## 其他資源
+
+* **[建立決定專案](items.md)** — 瞭解如何建立和管理決定專案，包括選件、內容變數和體驗。
+* **[設定決定目錄](catalogs.md)** — 瞭解如何將決定專案組織到目錄中以便更好地管理。
+* **[定義選擇策略](selection-strategies.md)** — 瞭解如何使用適用性規則和排名方法建立選擇策略。
+* **[建立決定原則](create-decision-policy.md)** — 瞭解如何建立結合策略和限制的決定原則。
+* **[排名和AI模型](ranking/ranking.md)** — 個人化決策的主排名公式和AI模型。
+* **[決策護欄](decisioning-guardrails.md)** — 檢閱決策實施的重要限制和最佳實務。
+* **[決策教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 探索有關決策功能和最佳實務的逐步教學課程影片。
 

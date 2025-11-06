@@ -6,7 +6,7 @@ description: 開始使用決策管理
 redpen-status: CREATED_||_2025-08-11_20-58-31
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 決策管理簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 決策管理護欄與限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 產品建議庫使用者介面指南
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理產品建議的重要步驟
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 善用自訂上傳客群，以便做決策
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在電子郵件中使用個人化產品建議
 

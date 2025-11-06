@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 為API觸發的行銷活動啟用高輸送量模式
+title: 為 API 觸發的行銷活動啟用高輸送量模式
 description: 瞭解如何為API觸發的行銷活動啟用高輸送量模式。
 feature: Campaigns, API
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 為API觸發的行銷活動啟用高輸送量模式 {#high-throughput}
+# 為 API 觸發的行銷活動啟用高輸送量模式 {#high-throughput}
 
 高輸送量模式是專為需要&#x200B;**超大規模即時異動訊息** （每秒最多5000個異動）的組織所設計。 不同於一般API觸發的行銷活動，高輸送量行銷活動會獨立於Adobe設定檔運作，且需要不同的設定模型。
 

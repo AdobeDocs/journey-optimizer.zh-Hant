@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 99%
 
 ---
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -230,3 +230,4 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [護欄與限制](../start/guardrails.md#sms-guardrails)
+* [簡訊與行動訊息教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

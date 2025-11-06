@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的主要函式
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函式
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 彙總函式參考
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 轉換函式
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 的日期函式
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 的日期函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的清單函式
 

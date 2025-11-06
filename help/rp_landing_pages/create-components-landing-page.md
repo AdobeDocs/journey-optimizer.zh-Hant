@@ -6,7 +6,7 @@ description: 建立元件
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立產品建議刊登版位的指南
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 如何在 Adobe Journey Optimizer 中建立決策規則
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 了解如何在 Adobe Journey Optimizer 中建立並管理集合限定詞
 

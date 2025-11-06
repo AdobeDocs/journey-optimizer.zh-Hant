@@ -11,7 +11,7 @@ exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ![](assets/cja-sub-access.png)
 
-若要進一步瞭解Customer Journey Analytics工作區以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics工作區以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 訂閱清單新增
 

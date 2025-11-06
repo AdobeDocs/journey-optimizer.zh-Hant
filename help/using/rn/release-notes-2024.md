@@ -843,7 +843,7 @@ ht-degree: 100%
 
 
 * Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。[閱讀全文](../privacy/requests.md)
-* 您現在可以調整歷程詳細目錄中的欄大小。
+* 您現在可以調整歷程庫存中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)
 
@@ -1251,7 +1251,7 @@ ht-degree: 100%
 
 **歷程**
 
-* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](../building-journeys/journey-gs.md#filter)
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;庫存。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](../building-journeys/journey-gs.md#filter)
 * **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](../action/about-custom-action-configuration.md#url-configuration)
 * **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分識別定義為「primary = true」。[閱讀全文](../reports/sharing-field-list.md)
 * **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](../building-journeys/journey-properties.md)

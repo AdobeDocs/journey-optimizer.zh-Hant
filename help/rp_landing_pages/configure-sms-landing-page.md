@@ -6,7 +6,7 @@ description: 設定簡訊 / MMS / RCS 管道
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 簡訊/MMS/RCS 管道設定快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設定簡訊/MMS/RCS 訊息的 Sinch 提供者
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設定 Infobip 簡訊、MMS 和 RCS 提供者
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設定簡訊/MMS/RCS 訊息的 Twilio 提供者
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 設定自訂簡訊提供者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立簡訊/MMS/RCS 管道設定
 

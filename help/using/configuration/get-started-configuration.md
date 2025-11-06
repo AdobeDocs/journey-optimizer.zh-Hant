@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 43%
+source-wordcount: '397'
+ht-degree: 34%
 
 ---
 
@@ -73,3 +73,12 @@ ht-degree: 43%
    * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../conflict-prioritization/rule-sets.md)
 
    * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。[了解更多](primary-email-addresses.md)
+
+## 其他資源
+
+* **[設定頻道介面](channel-surfaces.md)** — 瞭解如何設定和管理電子郵件、推播、簡訊和其他頻道的頻道介面。
+* **[子網域委派](delegate-subdomain.md)** — 瞭解如何將子網域委派至Adobe，以便傳送電子郵件及建立品牌。
+* **[IP熱身](ip-warmup-gs.md)** — 探索IP位址熱身的最佳實務，以改善電子郵件傳遞能力及寄件者信譽。
+* **[管理隱藏清單](manage-suppression-list.md)** — 瞭解如何管理隱藏清單以處理退信及維護清單衛生。
+* **[設定行動應用程式](set-mobile-config.md)** — 設定推播通知和應用程式內訊息的行動應用程式設定。
+* **[設定教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** — 探索有關頻道設定和最佳實務的逐步教學課程影片。

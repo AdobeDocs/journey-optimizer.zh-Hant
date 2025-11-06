@@ -6,7 +6,7 @@ description: 歷程報告
 redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 分析歷程報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 程式碼型歷程報告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 內容卡參與
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 直接郵件量度
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 電子郵件歷程報告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息深入分析
 

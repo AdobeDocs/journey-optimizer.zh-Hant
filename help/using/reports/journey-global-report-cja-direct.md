@@ -11,7 +11,7 @@ exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## 正在傳送統計數據 {#sending-statistics-directmail}
+## 傳送統計資料 {#sending-statistics-directmail}
 
 ![](assets/cja-direct-sending-stat.png)
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 ## 排除原因 {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 排除原因]**&#x200B;表格以視覺化方式呈現導致目標對象中排除使用者設定檔的各種因素，以防止他們接收您的直接郵件訊息。
 

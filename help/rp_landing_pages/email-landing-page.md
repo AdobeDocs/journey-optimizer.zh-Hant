@@ -6,7 +6,7 @@ description: 電子郵件管道
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立電子郵件
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計和最佳化電子郵件內容
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理電子郵件選擇退出
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定電子郵件管道
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 掌握電子郵件傳遞能力
 

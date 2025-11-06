@@ -6,7 +6,7 @@ description: 客群、輪廓與身分
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 客群管理和個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 輪廓：管理和最佳化客戶資料
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 身分快速入門
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 授權使用情況儀表板
 

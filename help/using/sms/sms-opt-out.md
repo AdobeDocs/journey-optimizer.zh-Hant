@@ -69,8 +69,8 @@ ht-degree: 16%
 
 * 以下影片可協助您瞭解如何設定簡訊的雙重選擇加入。
 
-  +++ 請觀看影片
+  +++ 收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

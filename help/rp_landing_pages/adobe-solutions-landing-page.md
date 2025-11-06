@@ -6,7 +6,7 @@ description: 使用 Adobe 解決方案傳送
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign Standard 整合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign v7/v8 整合
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Marketo Engage 整合
 

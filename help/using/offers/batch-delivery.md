@@ -29,7 +29,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 * Adobe Experience Platform中的&#x200B;**資料集**。 此資料集將用於儲存使用「ODE DecisionEvents」結構描述的決策結果。 進一步瞭解[資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)。
 
-* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en_tw)中瞭解如何更新對象成員資格評估
+* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en)中瞭解如何更新對象成員資格評估
 
   >[!NOTE]
   >
@@ -53,7 +53,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 1. 選取您要用來將優惠傳送給對象的一或多個優惠決定範圍：
    1. 從清單中選取位置。
-   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。**&#x200B;**
+   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。****
    1. 重複此作業，視需要新增儘可能多的決定範圍。
 
    ![](assets/batch-decision.png)

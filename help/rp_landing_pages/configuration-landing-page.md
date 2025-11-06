@@ -6,7 +6,7 @@ description: 管道設定
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 管道設定快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定及管理管道設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 引導式管道設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 委派及管理電子郵件子網域
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 實施 IP 暖身計劃
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 監視電子郵件傳遞能力和信譽
 

@@ -6,7 +6,7 @@ description: 使用案例
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 透過使用案例深入了解
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 體驗事件查閱
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 傳送多頻道訊息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Campaign v7/v8 傳送訊息
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 傳送訊息給訂閱者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用自訂動作動態傳遞集合
 

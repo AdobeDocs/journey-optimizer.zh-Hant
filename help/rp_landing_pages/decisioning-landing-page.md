@@ -6,7 +6,7 @@ description: 決策功能
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 決策功能簡介
 
@@ -30,7 +30,7 @@ Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的決策
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的決策
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer 中的決策管理
 

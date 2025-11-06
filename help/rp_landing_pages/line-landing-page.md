@@ -6,7 +6,7 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定 LINE 管道
 
@@ -40,7 +40,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和設定 LINE 訊息
 
@@ -50,7 +50,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 檢查並傳送 LINE 訊息
 

@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -596,7 +596,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-### 改良功能 {#may-2023-improvements}
+### 改善 {#may-2023-improvements}
 
 **客群**
 
@@ -633,7 +633,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **行銷活動**
 
-* 現在可以使用省略符號動作選單從詳細目錄畫面複製行銷活動。 [閱讀全文](../campaigns/manage-campaigns.md#duplicate)
+* 現在可以使用省略符號動作選單從庫存畫面複製行銷活動。 [閱讀全文](../campaigns/manage-campaigns.md#duplicate)
 * 您現在可以刪除即時行銷活動的草稿修改。
 * 啟用行銷活動的步驟現已簡化。 [閱讀全文](../campaigns/manage-campaigns.md)
 

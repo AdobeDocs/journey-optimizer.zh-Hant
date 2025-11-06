@@ -71,7 +71,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 

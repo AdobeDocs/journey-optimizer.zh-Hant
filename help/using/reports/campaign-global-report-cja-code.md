@@ -97,11 +97,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 遞補率]**：沒有符合選取策略的執行個體百分比，導致顯示一般或較不明確的選項。
 
-### 參與漏斗 {#engagement-funnel}
+### 參與funnel {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
-**[!UICONTROL 參與漏斗]**&#x200B;表格會評估漏斗每個階段驅動使用者互動的效能，藉此監控個人化體驗的效能。
+**[!UICONTROL 參與Funnel]**&#x200B;表格會評估funnel每個階段促進使用者互動的效能，藉此監控個人化體驗的效能。
 
 * **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
 
@@ -115,11 +115,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 點進率(CTR)]**：使用者點按連結、廣告或推薦的次數與顯示次數比較的百分比。
 
-### 依選擇策略區分的參與漏斗 {#engagement-funnel-selection}
+### 依選擇策略參與funnel {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
-**[!UICONTROL 依選擇策略的「參與漏斗」]**&#x200B;表格可協助您監視和分析不同的選擇策略如何有效地吸引具有個人化體驗的使用者。
+**[!UICONTROL 依選擇策略的Engagement Funnel]**&#x200B;表格可協助您監視和分析不同的選擇策略如何有效地吸引具有個人化體驗的使用者。
 
 * **[!UICONTROL 顯示]**：在各種接觸點向使用者顯示或展示個人化體驗的總次數。
 

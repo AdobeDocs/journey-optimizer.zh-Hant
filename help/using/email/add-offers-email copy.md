@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 新增個人化優惠
+title: 新增個人化產品建議
 description: 瞭解如何將個人化優惠新增至您的訊息
 feature: Email Design, Offers
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 新增個人化優惠 {#deliver-personalized-offers}
+# 新增個人化產品建議 {#deliver-personalized-offers}
 
 在[!DNL Journey Optimizer]封電子郵件中，您可以插入將運用決定管理引擎的決定，以挑選要提供給客戶的最佳優惠方案。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
       [位置](../offers/offer-library/creating-placements.md)是用來展示您的優惠方案的容器。 在此範例中，我們將使用「電子郵件上層影像」位置。 此位置已在選件資料庫中建立，以顯示位於訊息頂端的影像型別選件。
 
-   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。**&#x200B;**
+   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。****
 
       >[!NOTE]
       >

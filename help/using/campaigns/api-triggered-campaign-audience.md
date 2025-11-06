@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 選取身分識別類型
 
-在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
 
 每個行銷活動只允許一個身分型別。 如果屬於區段的個人在不同身分中沒有選取的身分型別，則無法將該行銷活動設為目標。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解身分型別和名稱空間。
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 >
 >在&#x200B;**AJO互動式訊息設定檔資料集**&#x200B;資料集中，針對每個傳出頻道（電子郵件、簡訊和推播）分別使用三個預設名稱空間（電子郵件、電話和ECID）建立未知的設定檔。 不過，如果您使用自訂名稱空間，則會使用相同的自訂名稱空間建立身分。
 >
->[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)無法在執行時建立設定檔，因為此模式不依賴Adobe設定檔：系統不會檢查設定檔是否存在。
+>[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)無法在執行時建立設定檔，因為此模式不依賴Adobe設定檔。 系統不會檢查設定檔是否存在。
 
 ## 啟用 Webhook {#webhook}
 

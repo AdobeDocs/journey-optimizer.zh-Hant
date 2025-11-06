@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * 在您的&#x200B;**標籤屬性**&#x200B;中安裝&#x200B;**Adobe Experience Platform Web SDK**&#x200B;擴充功能，並啟用&#x200B;**Personalization儲存空間**&#x200B;選項。
 
-  此設定對於在使用者端上儲存事件歷史記錄是必要的，這是在規則產生器中實作頻率規則的先決條件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant)
+  此設定對於在使用者端上儲存事件歷史記錄是必要的，這是在規則產生器中實作頻率規則的先決條件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**保留變更**&#x200B;以儲存您的&#x200B;**動作**&#x200B;設定。
 
-1. 導覽至&#x200B;**發佈流程**&#x200B;功能表。 建立新的&#x200B;**資料庫**&#x200B;或選取現有的&#x200B;**資料庫**，並將您新建立的&#x200B;**規則**&#x200B;新增至資料庫。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hant#create-a-library)
+1. 導覽至&#x200B;**發佈流程**&#x200B;功能表。 建立新的&#x200B;**資料庫**&#x200B;或選取現有的&#x200B;**資料庫**，並將您新建立的&#x200B;**規則**&#x200B;新增至資料庫。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 從您的&#x200B;**資料庫**，選取&#x200B;**儲存並建置至開發**。
 
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**決定內容**&#x200B;區段中，定義決定要傳送哪個體驗的&#x200B;**索引鍵**&#x200B;和&#x200B;**值**&#x200B;配對。
 
-1. 存取&#x200B;**發佈流程**&#x200B;功能表、建立新的&#x200B;**資料庫**&#x200B;或選取現有的&#x200B;**資料庫**，並新增您新建立的&#x200B;**規則**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=zh-Hant#create-a-library)
+1. 存取&#x200B;**發佈流程**&#x200B;功能表、建立新的&#x200B;**資料庫**&#x200B;或選取現有的&#x200B;**資料庫**，並新增您新建立的&#x200B;**規則**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. 從您的&#x200B;**資料庫**，選取&#x200B;**儲存並建置至開發**。
 

@@ -68,4 +68,4 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 了解如何使用測試輪廓來測試各個收件匣裡的電子郵件轉譯，根據測試輪廓預覽您的個人化電子郵件，同時傳送校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430345?quality=12&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

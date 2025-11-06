@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 說明
 description: Adobe Journey Optimizer 說明
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

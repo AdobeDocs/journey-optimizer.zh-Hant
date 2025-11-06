@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![顯示使用案例教戰手冊的動態影像](../rn/assets/do-not-localize/playbooks.gif){width="85%"}
 
-每個教戰手冊都提供全面的概觀，包括加以實施所需的意圖、目標、目標角色和資源。 此外，每個教戰手冊中都提供心智圖，以視覺化方式呈現與教戰手冊相關的實際客戶接觸點。
+每個教戰手冊都提供全面的概觀，包括加以實施所需的意圖、目標、目標人物誌和資源。 此外，每個教戰手冊中都提供心智圖，以視覺化方式呈現與教戰手冊相關的實際客戶接觸點。
 
 ![顯示在探索教戰手冊檢視中的放棄購物車教戰手冊](assets/playbooks-detail.png){width="85%"}
 
@@ -61,4 +61,4 @@ ht-degree: 100%
 
 您可以使用 AI 助理，或手動輸入，即可定義中繼資料、關聯技術資產，例如：結構描述、區段，還可在不同的 IMS 組織之間，共用教戰手冊。
 
-如欲索取如何建立並共用教戰手冊等詳細資訊，請參閱使用案例教戰手冊檔案：[使用 AI 助理，編寫並共用您專屬的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=zh-Hant#sharing-playbooks-sandboxes){target="_blank"}。
+如欲索取如何建立並共用教戰手冊等詳細資訊，請參閱使用案例教戰手冊檔案：[使用 AI 助理，編寫並共用您專屬的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}。

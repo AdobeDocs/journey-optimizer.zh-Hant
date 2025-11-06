@@ -6,7 +6,7 @@ description: 用於內容產生的 AI 助理
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用 AI 產生電子郵件內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 產生推播通知內容
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 使用 AI 產生簡訊內容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 網頁內容與資產產生
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 使用 AI 產生登陸頁面
 

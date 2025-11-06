@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-## 正在傳送統計數據 {#sending-statistics-push}
+## 傳送統計資料 {#sending-statistics-push}
 
 ![](assets/cja-campaign-push-sending-stat.png)
 

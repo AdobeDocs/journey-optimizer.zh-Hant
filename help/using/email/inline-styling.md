@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 加入內嵌樣式屬性
+title: 新增內嵌樣式屬性
 description: 了解如何新增內嵌樣式屬性
 feature: Email Design
 topic: Content Management
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 ---
 
-# 加入內嵌樣式屬性 {#inline-styling}
+# 新增內嵌樣式屬性 {#inline-styling}
 
 在電子郵件Designer介面中，當您選取元素並在側面板上顯示其設定時，可以自訂該特定元素的內嵌屬性及其值。
 

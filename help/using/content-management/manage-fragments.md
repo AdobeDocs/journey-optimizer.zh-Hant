@@ -78,7 +78,7 @@ ht-degree: 17%
 
    ![](assets/fragment-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -186,7 +186,7 @@ ht-degree: 17%
    * [瞭解如何使用視覺化片段](../email/use-visual-fragments.md)
    * [瞭解如何使用運算式片段](../personalization/use-expression-fragments.md)
 
-## 探索參考 {#explore-references}
+## 探索引用 {#explore-references}
 
 您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請在片段清單或片段屬性畫面中，從&#x200B;**[!UICONTROL 更多動作]**&#x200B;選單中選取&#x200B;**[!UICONTROL 探索參考]**。
 

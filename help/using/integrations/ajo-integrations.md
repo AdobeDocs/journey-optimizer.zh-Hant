@@ -123,11 +123,11 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 此部落格[提供這項整合的關鍵步驟概述](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}。
 
-在Journey Optimizer檔案[中進一步瞭解Adobe Workfront + Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
+在Journey Optimizer檔案[中進一步瞭解Adobe Workfront + Adobe Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=zh-Hant){target="_blank"}。
 
 ## 自訂通道 {#integration-custom}
 
-如果您使用協力廠商系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可以使用自訂動作連線到下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
+如果您使用第三方系統來傳送訊息，或想要歷程傳送 API 呼叫至協力廠商系統，請使用自訂動作來連線至您的歷程。 例如，您可以使用自訂動作連線到下列系統：Epsilon、Slack、[Adobe Developer](https://developer.adobe.com){target="_blank"}、Firebase等。
 
 自訂動作是技術使用者定義的其他動作，可供行銷人員使用。 在設定之後，其會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 請在[此頁面](../building-journeys/about-journey-activities.md#action-activities)了解更多。
 
@@ -137,4 +137,4 @@ Customer AI 可讓品牌建立流失率或轉換機器學習型分數，這些�
 
 Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，讓您的歷程更為豐富。
 
-請參見[本節](../datasource/external-data-sources.md)，了解如何利用外部資料來源以定義與協力廠商系統的連線。
+請參見[本節](../datasource/external-data-sources.md)，了解如何利用外部資料來源以定義與第三方系統的連線。

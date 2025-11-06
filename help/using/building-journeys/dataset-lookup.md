@@ -11,8 +11,8 @@ version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 15%
 
 ---
 

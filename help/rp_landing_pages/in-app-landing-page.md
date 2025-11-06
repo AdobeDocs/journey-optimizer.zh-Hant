@@ -6,7 +6,7 @@ description: 應用程式內管道
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 應用程式內管道設定
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立行動應用程式內訊息
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 建立網頁應用程式內訊息
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 設計和自訂應用程式內內容
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 檢查並傳送應用程式內通知
 

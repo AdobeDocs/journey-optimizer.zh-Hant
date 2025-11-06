@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
->&#x200B;></br>
+></br>
 >
->您必須先同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 在您建立網頁並將其個人化後，請使用Journey Optimizer中由創作AI提供支援的AI助理，將您的內容提升到新的境界。
 
@@ -32,7 +32,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 >[!TAB 網頁文字產生]
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
@@ -65,7 +65,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -105,7 +105,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 在以下範例中，瞭解如何在Journey Optimizer中利用AI助理來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
@@ -142,7 +142,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 

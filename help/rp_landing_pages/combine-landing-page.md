@@ -6,7 +6,7 @@ description: 跨解決方案使用案例
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 結合 Adobe 解決方案以管理內容
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用 Adobe Experience Manager Assets
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 使用 Adobe Stock 影像
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 使用 Adobe Express 編輯資產
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 AEM 內容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Dynamic Media 工作
 

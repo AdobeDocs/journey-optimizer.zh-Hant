@@ -6,7 +6,7 @@ description: AI 模型
 redpen-status: CREATED_||_2025-08-11_20-55-44
 exl-id: 71f24028-0a4c-4945-ad74-d52472f59c1f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 開始使用 AI 模型
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 自動最佳化模型
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 個人化最佳化模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 逐步指南：建立 AI 模型
 

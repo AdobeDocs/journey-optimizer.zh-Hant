@@ -106,9 +106,9 @@ WhatsApp支援下列訊息型別：
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中設計WhatsApp訊息之前，您必須先在Meta中建立並設計範本。 [了解更多](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+在Journey Optimizer中設計WhatsApp訊息之前，您必須先在Meta中建立和設計範本。 [了解更多](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-請注意，您的WhatsApp範本必須先由Meta核准，才能在Journey Optimizer中使用。 此程式通常需要幾個小時，但最多可能需要24小時。 [了解更多](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+請注意，在Journey Optimizer中使用您的WhatsApp範本之前，必須先經過Meta核准。 此程式通常需要幾個小時，但最多可能需要24小時。 [了解更多](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ WhatsApp支援下列訊息型別：
 
    ![](assets/whatsapp-design-1.png)
 
-1. 從&#x200B;**WhatsApp範本**&#x200B;下拉式清單中，選取您先前在Meta中建立的範本。
+1. 從&#x200B;**WhatsApp範本**&#x200B;下拉式清單中，選取您先前在Meta中設計的範本。
 
    [進一步瞭解如何建立您的Whatsapp範本](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
@@ -193,8 +193,8 @@ Once you have performed your tests and validated the content, you can send your 
 
 以下影片說明如何使用Adobe Journey Optimizer建立多步驟WhatsApp歷程。
 
-+++ 請觀看影片
++++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470293/?learn=on&captions=chi_hant")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

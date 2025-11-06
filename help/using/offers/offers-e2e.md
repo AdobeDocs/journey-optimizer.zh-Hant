@@ -111,7 +111,7 @@ ht-degree: 4%
    >
    >在此範例中，我們將僅使用優先順序分數。 深入瞭解[適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
 
-## 設定優惠 {#configure-offers}
+## 設定產品建議 {#configure-offers}
 
 您現在可以建立和設定優惠方案。 在此範例中，您將根據每個特定設定檔建立四個要顯示的選件。
 
@@ -168,7 +168,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 

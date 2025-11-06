@@ -6,7 +6,7 @@ description: 衝突管理與優先順序
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 衝突管理快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 識別潛在衝突
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 指派行銷活動的優先順序分數
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定訊息和歷程上限規則
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 97%
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * 網路頻道可讓您修改頁面上的所有內容，並包含可用來進行變更的預先定義動作清單。 [了解更多](../web/web-visual-editor.md){target="_blank"}
 * 設定容易，上手快速。
-* 專注於行銷人員角色。
+* 專注於行銷人員人物誌。
 
 **程式碼型體驗**
 
@@ -66,13 +66,13 @@ ht-degree: 97%
 * 程式碼型體驗需要先在實施中的進行開發工作，以確保您的應用程式可以通過 [!DNL Journey Optimizer] 來解譯和傳遞為這些位置在邊緣上發佈的內容。[了解更多](code-based-surface.md)
 * 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，您必須識別應用程式上有哪些元件 (首頁橫幅、網頁橫幅、功能表列等) 需要修改，以便進行個人化或測試，同時與開發團隊合作，即可建立用來處理這類變更所需的實作。
 * 它可讓您使用 JSON 程式碼內容。
-* 專注於開發人員角色。
+* 專注於開發人員人物誌。
 
 ## 運作方式 {#how-it-works}
 
 >[!CAUTION]
 >
->此功能適合開發人員角色和/或經驗豐富的使用者。 只要是由開發團隊處理通道設定和初始設定，具備一些程式碼撰寫技能的行銷人員就可以使用此功能。
+>此功能適合開發人員人物誌和/或經驗豐富的使用者。 只要是由開發團隊處理通道設定和初始設定，具備一些程式碼撰寫技能的行銷人員就可以使用此功能。
 
 若要使用 [!DNL Journey Optimizer] 程式碼型體驗功能編輯內容，頁面或應用程式需要檢測。若要這樣做，您必須預先宣告特定的個別位置 (又稱為「[表面](code-based-surface.md)」)，也就是您想要插入或取代內容的位置。
 
@@ -101,4 +101,13 @@ ht-degree: 97%
    >[!INFO]
    >
    >若想確認，應用程式實施團隊會送出明確 API 或 SDK 呼叫，為程式碼型設定中已定義的表面擷取內容，例如「橫幅文字」或「建議匣 1」，或應用程式中與 UI 無關的決策點，例如「搜尋演算法參數」。 <!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [了解更多](code-based-implementation-samples.md)
+
+## 其他資源
+
+* **[建立程式碼型體驗](create-code-based.md)** — 瞭解如何建立及設定自訂實作的程式碼型行銷活動和歷程。
+* **[設定程式碼型管道](code-based-configuration.md)** — 使用適當的介面和實作設定來設定程式碼型體驗設定。
+* **[程式碼型必要條件](code-based-prerequisites.md)** — 瞭解實作所需的技術需求和開發人員資源。
+* **[測試程式碼型體驗](test-code-based.md)** — 瞭解如何在發佈之前預覽和測試您的程式碼型體驗。
+* **[實作範例](code-based-implementation-samples.md)** — 探索各種使用案例的程式碼範例和實作模式。
+* **[程式碼型體驗教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** — 探索有關程式碼型功能和最佳實務的逐步教學課程影片。
 

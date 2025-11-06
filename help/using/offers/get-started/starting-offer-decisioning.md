@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -121,6 +121,6 @@ ht-degree: 100%
 
 以下影片說明如何使用決定管理來定義和管理您的產品建議，並運用即時客戶資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470052?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -194,4 +194,4 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
 本影片說明如何讓片段中的HTML元件可編輯，以動態更新內容和樣式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464379/?learn=on&#x26;enablevpops&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

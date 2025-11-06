@@ -123,7 +123,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 * 若要透過使用者介面存取這些資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
-* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 以下是一些您可執行的範例查詢，以擷取和密件副本相對應的資訊。
 

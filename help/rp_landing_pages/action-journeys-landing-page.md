@@ -6,7 +6,7 @@ description: 動作設定
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用自訂動作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何設定自訂動作
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在自訂動作中使用 API 呼叫回應
 

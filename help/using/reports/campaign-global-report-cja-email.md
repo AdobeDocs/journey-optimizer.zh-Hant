@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由於Apple為原生郵件應用程式引入了新的隱私權保護功能，包括郵件隱私權保護，因此傳送者無法再使用追蹤畫素來收集已啟用Apple郵件隱私權保護的設定檔資料。 因此，Adobe Journey Optimizer使用追蹤畫素來追蹤電子郵件開啟的能力可能會受到影響。
->&#x200B;> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
+> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
 > 
 > 我們建議將重點放在點按次數和轉換量度上，而非開放率，以取得更準確的深入分析。
 
@@ -64,13 +64,13 @@ ht-degree: 1%
 +++
 
 
-## 不重複點按漏斗
+## 不重複點按funnel
 
 ![](assets/cja-email-click-funnel.png)
 
-**[!UICONTROL 點按漏斗]**&#x200B;圖表提供設定檔如何與您的電子郵件內容互動的詳細分析，針對互動的每個階段（從傳送到點按）提供有價值的深入分析，協助您瞭解您的訊息如何有效地促進使用者參與。
+**[!UICONTROL 按一下funnel]**&#x200B;圖表會詳細分析設定檔與您的電子郵件內容互動的方式，針對互動的每個階段（從傳送到點按）提供有價值的深入分析，協助您瞭解您的訊息如何有效地促進使用者參與。
 
-+++ 深入瞭解點選漏斗量度
++++ 進一步瞭解按一下funnel量度
 
 * **[!UICONTROL 唯一目標]**：傳送程式期間鎖定的唯一設定檔數目。
 
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 +++
 
-## 正在傳送統計數據 {#sending-statistics-email}
+## 傳送統計資料 {#sending-statistics-email}
 
 ![](assets/cja-email-sending-stat.png)
 

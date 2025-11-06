@@ -6,7 +6,7 @@ description: 行銷活動報告
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 行銷活動報告概觀
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 程式碼型行銷活動報告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 內容卡行銷活動報告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 直接郵件行銷活動報告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 電子郵件行銷活動報告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的行銷活動報告可讓您解鎖對跨各種管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 實驗行銷活動報告
 

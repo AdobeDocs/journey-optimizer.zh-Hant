@@ -6,7 +6,7 @@ description: 自訂歷程報告
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 建立和分析歷程報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 步驟事件欄位清單
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 舊版步驟事件欄位
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 資料分析的 SQL 查詢範例
 

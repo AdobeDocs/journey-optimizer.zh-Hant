@@ -6,7 +6,7 @@ description: 資料來源設定
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用資料來源
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何設定資料來源
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Experience Platform 資料來源
 
@@ -50,7 +50,7 @@ Adobe Experience Platform 資料來源
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 設定外部資料來源
 

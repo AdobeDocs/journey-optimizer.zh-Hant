@@ -6,7 +6,7 @@ description: 登陸頁面
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 登陸頁面簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立和發佈登陸頁面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理登陸頁面
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計登陸頁面的內容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理訂閱清單
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 登陸頁面使用案例
 

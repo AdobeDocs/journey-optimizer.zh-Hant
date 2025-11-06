@@ -6,7 +6,7 @@ description: 內容實驗
 redpen-status: CREATED_||_2025-08-12_00-44-26
 exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用內容實驗
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立及擴大內容實驗
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 實驗的進階統計技術
 

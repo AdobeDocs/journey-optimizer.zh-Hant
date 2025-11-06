@@ -51,7 +51,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他資源 {#additional-resources}
 

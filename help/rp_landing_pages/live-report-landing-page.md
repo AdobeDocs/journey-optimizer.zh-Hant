@@ -6,7 +6,7 @@ description: 即時報告
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用即時報告
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 量度清單
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 歷程即時報告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 行銷活動即時報告
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 登陸頁面即時報告
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的即時報告功能可讓您在動態的可自訂�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 訂閱即時報告
 

@@ -56,7 +56,7 @@ ht-degree: 15%
    * **曝光事件** （顯示的選件）
    * **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
 
-   系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
+   系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概觀。
 
    +++ 正在自訂[!DNL Customer Journey Analytics]量度上最佳化模型
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    依預設，個人化最佳化模型會使用&#x200B;**優惠點按**&#x200B;作為最佳化量度。 如果您正在使用[!DNL Customer Journey Analytics]，[!DNL Decisioning]可讓您運用自己的自訂量度來最佳化您的模型。
 
-   若要這麼做，請選取&#x200B;**[!UICONTROL 個人化最佳化]**&#x200B;模型型別，並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
+   若要這麼做，請選取&#x200B;**[!UICONTROL 個人化最佳化]**&#x200B;模型型別，並展開&#x200B;**[!UICONTROL 轉換事件]**&#x200B;下拉式清單。 來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
 
    ![](../assets/ai-model-custom-metrics.png){width=85%}
 
@@ -80,7 +80,7 @@ ht-degree: 15%
    >
    >雖然可修改歸因模型，但並非所有歸因模型都適用於AI模型最佳化。 建議您仔細選取符合您最佳化目標的歸因模型，以確保模型精確度和效能。
    >
-   >如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
+   >如需有關可用歸因模型及其使用指南的詳細資訊，請參閱[[!DNL Customer Journey Analytics] 檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}
 
    +++
 
@@ -108,7 +108,7 @@ ht-degree: 15%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-現在，每次顯示和/或按一下優惠時，您都希望&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hant#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自動擷取對應的事件。
+現在，每次顯示和/或按一下優惠時，您都希望&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自動擷取對應的事件。
 
 若要能夠在事件型別（顯示優惠或按一下優惠）中傳送，您必須在傳送至Adobe Experience Platform的體驗事件中，為每個事件型別設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
 
@@ -117,4 +117,4 @@ ht-degree: 15%
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445962?quality=12&captions=chi_hant)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

@@ -48,9 +48,9 @@ ht-degree: 5%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
-   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hant){target="_blank"}。
+   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -129,4 +129,4 @@ ht-degree: 5%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;現已建立並設定。 您現在需要將其指派給使用者。
 
-如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant){target="_blank"}。
+如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。

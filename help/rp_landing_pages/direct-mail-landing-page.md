@@ -6,7 +6,7 @@ description: 直接郵件
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 直接郵件行銷活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立直接郵件行銷活動
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何檢查並傳送直接郵件行銷活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定直接郵件管道
 

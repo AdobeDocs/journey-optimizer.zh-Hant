@@ -184,8 +184,8 @@ ht-degree: 14%
 
 以下影片說明如何在Adobe Journey Optimizer中設定WhatsApp頻道。
 
-+++ 請觀看影片
++++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

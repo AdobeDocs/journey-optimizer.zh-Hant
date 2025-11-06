@@ -39,4 +39,4 @@ ht-degree: 2%
 
 * **順暢的Collaboration**：輕鬆分享結果，並透過即時警示管理團隊角色。
 
-➡️ [存取Journey Optimizer Experimentation Accelerator檔案](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+➡️ [存取Journey Optimizer Experimentation Accelerator檔案](https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/overview)

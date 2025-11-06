@@ -155,7 +155,7 @@ ht-degree: 48%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。**&#x200B;**
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
 
    ![](assets/email_designer_html_content.png)
 
@@ -173,7 +173,7 @@ ht-degree: 48%
 
 1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以從您的資產選擇影像檔案，或按一下&#x200B;**[!UICONTROL 匯入媒體]**&#x200B;以將資產上傳到Adobe Experience Manager Assets。
 
-   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >

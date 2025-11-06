@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 97%
+source-wordcount: '2085'
+ht-degree: 93%
 
 ---
 
@@ -181,3 +181,12 @@ Adobe 使用與上述信賴序列一致的「任何時間有效」信賴度與�
   >[!CAUTION]
   >
   >更多分析代表偵測到虛假效應或誤報的機率更高。
+
+## 其他資源
+
+* **[建立內容實驗](content-experiment.md)** — 瞭解如何設計和設定A/B測試以最佳化您的訊息效能。
+* **[實驗計算](experiment-calculations.md)** — 瞭解實驗分析中使用的統計方法和量度。
+* **[多臂吃角子老虎機與A/B測試](mab-vs-ab.md)** — 比較不同的實驗方法以及何時使用每種方法。
+* **[實驗加速器](experiment-accelerator-gs.md)** — 探索如何加速由AI支援的最佳化實驗。
+* **[實驗報告計算](experiment-report-calculations.md)** — 瞭解如何解釋實驗結果和統計顯著性。
+* **[實驗教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** — 探索有關內容實驗與最佳實務的逐步教學課程影片。
