@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 動作，自訂， API，歷程，設定，服務
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 21%
+source-wordcount: '427'
+ht-degree: 20%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 21%
 在[本節](../action/action.md)中進一步瞭解自訂動作。
 
 瞭解如何在[此頁面](../action/about-custom-action-configuration.md)上建立和設定自訂動作。
+
+瞭解如何在[此頁面](../action/action-response.md)上使用自訂動作的API呼叫回應進行個人化。
 
 ## 同意與資料控管 {#privacy}
 
