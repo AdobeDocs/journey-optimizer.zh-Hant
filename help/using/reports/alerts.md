@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 1%
+source-wordcount: '2153'
+ht-degree: 2%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 1%
 
 在左側功能表的&#x200B;**[!UICONTROL 管理]**&#x200B;下，按一下&#x200B;**[!UICONTROL 警示]**。 **瀏覽**&#x200B;索引標籤中有數個預先設定的Journey Optimizer警報。
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * 歷程專屬警報：
 
@@ -39,6 +40,9 @@ ht-degree: 1%
    * [自訂動作錯誤率超過](#alert-custom-action-error-rate)警報（取代先前歷程自訂動作失敗警報）
    * [超過設定檔捨棄率](#alert-discard-rate)警示
    * [設定檔錯誤率超過](#alert-profile-error-rate)警報
+   * [歷程已發佈](#alert-journey-published)警報
+   * [歷程已完成](#alert-journey-finished)警報
+   * [自訂動作上限已觸發](#alert-custom-action-capping)警報
 
 * 特定於通道設定的警示：
 
@@ -71,7 +75,7 @@ ht-degree: 1%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 ### 單一訂閱 {#unitary-subscription}
 
@@ -81,13 +85,13 @@ ht-degree: 1%
 
    ![訂閱特定歷程的警示](assets/subscribe-journey-alert.png){width=75%}
 
-1. 選擇警報。 可以使用下列警示： [超過設定檔捨棄率](#alert-discard-rate)、[超過自訂動作錯誤率](#alert-custom-action-error-rate)以及[超過設定檔錯誤率](#alert-profile-error-rate)。
+1. 選擇警報。 下列警示可供使用： [超過設定檔捨棄率](#alert-discard-rate)、[超過自訂動作錯誤率](#alert-custom-action-error-rate)、[超過設定檔錯誤率](#alert-profile-error-rate)、[已發佈歷程](#alert-journey-published)、[歷程已完成](#alert-journey-finished)以及[已觸發自訂動作上限](#alert-custom-action-capping)。
 
 1. 若要取消訂閱警報，請從相同畫面取消選取警報。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -101,8 +105,6 @@ ht-degree: 1%
 ### 讀取對象觸發器失敗 {#alert-read-audiences}
 
 如果&#x200B;**讀取對象**&#x200B;活動在排定的執行時間後10分鐘未處理任何設定檔，此警報會警告您。 此失敗可能是技術問題或對象空白所造成。 如果失敗是由技術問題引起的，請注意，根據問題型別，重試仍可能發生（例如：如果匯出作業建立失敗，我們將每10mn重試一次，最長為1h）。
-
-![](assets/read-audience-alert.png)
 
 有關&#x200B;**讀取對象**&#x200B;活動的警示僅適用於週期性歷程。 **在即時歷程中讀取對象**&#x200B;活動，其排程為&#x200B;**執行一次**&#x200B;或&#x200B;**儘快**&#x200B;會被忽略。
 
@@ -153,6 +155,42 @@ ht-degree: 1%
 按一下警示的名稱以檢查警示詳細資訊和組態。
 
 若要疑難排解設定檔錯誤，您可以查詢步驟事件中的資料，以瞭解設定檔在歷程中失敗的位置和原因。
+
+### 已發佈歷程 {#alert-journey-published}
+
+此警報會在從業人員在歷程畫布中發佈歷程時通知您。
+
+此資訊性警報可協助您追蹤組織中的歷程生命週期事件。 沒有解決標準，因為這是一次性通知。
+
+### 歷程已完成 {#alert-journey-finished}
+
+此警報會在歷程完成後通知您。 「已完成」的定義會依歷程型別而異：
+
+| 歷程型別 | 週期性？ | 有結束日期嗎？ | 「已完成」的定義 |
+|--------------|------------|---------------|--------------------------|
+| 讀取客群 | 無 | 不適用 | 執行開始後91天 |
+| 讀取客群 | 是 | 無 | 執行開始後91天 |
+| 讀取客群 | 是 | 是 | 達到結束日期時 |
+| 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
+| 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
+
+這是資訊性警報，可幫助您追蹤歷程完成。 沒有解決標準，因為這是一次性通知。
+
+### 自訂動作上限已觸發 {#alert-custom-action-capping}
+
+當自訂動作觸發上限時，此警報會警告您。 上限是用來限制傳送至外部端點的呼叫數目，以防止端點過多。
+
+按一下警示的名稱以檢查警示詳細資訊和組態。
+
+觸發上限時，這表示在定義的時段內已達到API呼叫的最大數量，且有更多的呼叫正在節流或排入佇列。 深入瞭解[此頁面](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)上的自訂動作上限。
+
+當上限不再作用中，或在評估期間設定檔沒有達到自訂動作時，此警報即解決。
+
+若要疑難排解上限問題：
+
+* 請檢閱自訂動作的上限設定，確保上限適用於您的使用案例。
+* 檢查API呼叫量是否高於預期，並考慮調整您的歷程設計或上限設定。
+* 監視外部端點，以確保其可以處理預期的負載。
 
 ## 設定警報 {#configuration-alerts}
 
@@ -236,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

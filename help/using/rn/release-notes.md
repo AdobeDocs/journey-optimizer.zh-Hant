@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ ht-degree: 84%
 以下列出過去幾週發佈的新功能和改進專案及其推出日期。 他們將在月底與下一個發行說明內容一起分組。 另請參閱下面[的最新](#latest-rn)發行說明。
 
 ### 全新功能 {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>新歷程警示</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>三個新的歷程警報現在可協助您監控及追蹤歷程生命週期事件和自訂動作效能：</p>
+<ul>
+<li><strong>已發佈歷程</strong>：當歷程由從業人員在歷程畫布中發佈時接收通知。</li>
+<li><strong>歷程已完成</strong>：歷程完成時取得警示，並根據歷程型別使用特定定義（讀取對象或事件觸發）。</li>
+<li><strong>已觸發自訂動作上限</strong>：在自訂動作端點上啟用上限時收到通知。</li>
+</ul>
+<p>這些警報可在組織層級訂閱或針對特定歷程訂閱。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/alerts.md#journey-alerts">詳細文件</a>。</p>
+<p>推出日期： 2025年11月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
