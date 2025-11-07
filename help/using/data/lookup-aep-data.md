@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '866'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 
 * **資料集中沒有PII** — 啟用查詢的資料集不應包含任何個人識別資訊(PII)。
 
-* &#x200B;
+* 
    * **刪除風險** — 未保護個人化中使用的資料集免於刪除。 您必須追蹤哪些資料集正在使用，以確保未將其移除。
 
 * **結構描述型別** — 資料集必須與設定檔或事件型別的&#x200B;**NOT**&#x200B;結構描述相關聯。
@@ -48,6 +48,8 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
   **批次3**： Sku7、Sku8、Sku9、Sku10
 
   如果您刪除&#x200B;**批次1**，Sku1、Sku2和Sku3會從查詢存放區中移除。 然後產生的查詢資料將包含：Sku4、Sku5、Sku6、Sku7、Sku8、Sku9、Sku10。
+
+* **沒有鏈結的查詢** — 資料集查詢無法鏈結在一起。 換言之，您不能使用一次查詢的結果做為變數，然後成為執行第二次查詢的索引鍵。
 
 ### 查閱服務的權益
 
