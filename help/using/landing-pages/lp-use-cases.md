@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 12%
 例如，假設您在下個月組織活動，且您要啟動活動註冊行銷活動<!--to keep your customers that are interested updated on that event-->。 為此，您將傳送一封電子郵件，其中包含登陸頁面的連結，可讓您的收件者註冊此事件。 註冊的使用者將新增至您為此目的建立的訂閱清單中。
 
 ### 設定登入頁面 {#set-up-lp}
+
+若要設定事件註冊的登入頁面，請建立訂閱清單、設計包含登錄檔單的登入頁面，並設定必要的頁面和設定。 請依照下列步驟操作：
 
 1. 建立事件註冊的訂閱清單，此清單將儲存註冊的使用者。 在[此處](subscription-list.md#define-subscription-list)瞭解如何建立訂閱清單。
 
@@ -163,7 +165,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 

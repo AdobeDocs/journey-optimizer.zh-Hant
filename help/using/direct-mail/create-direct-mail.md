@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 19%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 19%
 >
 >Direct Mail支援Holdout功能，但目前不支援Threads。
 
-若要建立直接郵件行銷活動，請遵循下列步驟：
+若要建立直接郵件行銷活動，您將設定排程的行銷活動、選取目標對象，並設定直接郵件設定，包括訊息設定。 請依照下列步驟操作：
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1059'
 ht-degree: 9%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 1. 建立新的排程或API觸發的行銷活動，並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為您的動作。
 
-1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
+1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/campaign-schedule.md#action-campaign-schedule)。
 
    ![](assets/email_campaign_steps.png)
 
@@ -80,13 +80,15 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >title="設定電子郵件內容"
 >abstract="建立您的電子郵件內容。定義其主旨，然後利用電子郵件設計工具建置和個人化電子郵件內文。"
 
+將電子郵件動作新增至您的歷程或行銷活動後，您需要使用電子郵件Designer定義電子郵件內容，包括主旨行、寄件者資訊和電子郵件內文。 請依照下列步驟操作：
+
 1. 在歷程或行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定電子郵件內容。 [了解更多](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
 1. 若要在電子郵件中新增決定原則，請切換&#x200B;**[!UICONTROL 啟用決定]**。
 
-   決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。 [瞭解如何在電子郵件中新增決定原則](../experience-decisioning/create-decision.md#add)
+   決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。 [瞭解如何在電子郵件中新增決定原則](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +134,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告**&#x200B;參考建議和最佳實務，例如：
 
-   * **[!UICONTROL 電子郵件內文中不存在選擇退出的連結]**：將取消訂閱連結新增至您的電子郵件內文是最佳做法。 在[本節](../privacy/opt-out.md#opt-out-management)中瞭解如何進行設定。
+   * **[!UICONTROL 電子郵件內文中不存在選擇退出的連結]**：將取消訂閱連結新增至您的電子郵件內文是最佳做法。 在[本節](../privacy/opt-out.md#opt-out-decision-management)中瞭解如何進行設定。
 
      >[!NOTE]
      >
