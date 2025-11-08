@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 100%
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 管道]** - 使用此區段來設定管道，包括子網域、設定和傳遞能力設定。 [了解更多](../configuration/get-started-configuration.md)
 
-* **[!UICONTROL 標籤]** - 利用統一標籤，您可以輕鬆分類歷程與行銷活動，進而改進清單的搜尋結果。[進一步了解](../start/search-filter-categorize.md#work-with-unified-tags)
+* **[!UICONTROL 標籤]** - 利用統一標籤，您可以輕鬆分類歷程與行銷活動，進而改進清單的搜尋結果。[進一步了解](../start/search-filter-categorize.md#manage-tags)
 
 ## 產品內使用案例 {#in-product-uc}
 

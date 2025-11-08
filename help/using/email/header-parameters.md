@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 90%
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->如果您輸入之位址的子網域是[已完全委派給Adobe](../configuration/delegate-subdomain.md#full-subdomain-delegation)的網域，請聯絡您的Adobe代表。
+>如果您輸入之位址的子網域是[已完全委派給Adobe](../configuration/delegate-subdomain.md#set-up-subdomain)的網域，請聯絡您的Adobe代表。
 
 ## 轉寄電子郵件 {#forward-email}
 

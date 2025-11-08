@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 20%
@@ -33,9 +33,9 @@ ht-degree: 20%
 
 * **儲存的範本**。 您也可以使用自訂範本，執行以下動作之一：
 
-   * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#create-template-from-scratch)
+   * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#content-templates)
 
-   * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#save-as-template)
+   * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#video-templates)
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 
@@ -47,7 +47,7 @@ ht-degree: 20%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 顯示在目前沙箱上建立的所有[內容範本](../content-management/content-templates.md#create-content-templates)的清單。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
+1. 顯示在目前沙箱上建立的所有[內容範本](../content-management/content-templates.md#content-templates)的清單。 你可以&#x200B;**[!UICONTROL 依名稱]**、**[!UICONTROL 上次修改日期]**&#x200B;和&#x200B;**[!UICONTROL 上次建立日期]**&#x200B;來排序儲存的範本。
 
    ![](assets/email_designer-saved-templates-filter.png)
 

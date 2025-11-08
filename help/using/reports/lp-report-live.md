@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 13%
@@ -59,4 +59,4 @@ ht-degree: 13%
 管道的&#x200B;**[!UICONTROL 造訪次數]** / **[!UICONTROL 管道的轉換]**&#x200B;圖表代表過去24小時內與您的登入頁面成功互動的造訪總數和人員，視管道而定。
 +++
 
-如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#list-of-components-live)。
+如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#live-report)。

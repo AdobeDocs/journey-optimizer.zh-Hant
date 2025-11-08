@@ -10,7 +10,7 @@ level: Experienced
 keywords: 子網域、委派、網域、DNS
 badge: label="有限可用性" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 22%
@@ -23,7 +23,7 @@ ht-degree: 22%
 >
 >此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
 
-作為[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME設定](about-subdomain-delegation.md#cname-subdomain-delegation)方法的替代方法，**自訂委派**&#x200B;方法可讓您取得Journey Optimizer執行個體的子網域所有權，以完全控制產生的憑證。
+作為[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME設定](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自訂委派**&#x200B;方法可讓您取得Journey Optimizer執行個體的子網域所有權，以完全控制產生的憑證。
 
 在此程式中，Adobe需要確定您的DNS已正確設定，可用於傳遞、轉譯和追蹤訊息。 這就是為什麼您將需要[上傳從憑證授權單位取得的SSL憑證](#upload-ssl-certificate)，並透過驗證網域擁有權及報告電子郵件地址來完成[回圈步驟](#feedback-loop-steps)。
 
@@ -148,7 +148,7 @@ ht-degree: 22%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

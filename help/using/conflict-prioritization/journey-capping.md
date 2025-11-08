@@ -4,7 +4,7 @@ description: 瞭解如何為歷程建立上限規則，以及如何仲裁歷程�
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 18%
@@ -92,7 +92,7 @@ ht-degree: 18%
 
 1. 重複上述步驟，視需求將任意數量的規則新增至規則集。
 
-1. 當上限規則準備好套用至歷程時，請啟動已新增該規則的規則和規則集。 [瞭解如何啟用規則集](../conflict-prioritization/rule-sets.md#create)
+1. 當上限規則準備好套用至歷程時，請啟動已新增該規則的規則和規則集。 [瞭解如何啟用規則集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 將頻率上限規則套用至歷程 {#apply-capping}
 
@@ -115,8 +115,8 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-此外，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 [此區段](../reports/query-examples.md#common-queries)中有查詢範例。
+此外，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 [此區段](../reports/query-examples.md#common-queries)中有查詢範例。
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447626?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

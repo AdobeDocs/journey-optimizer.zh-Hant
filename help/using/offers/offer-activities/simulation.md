@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 12%
@@ -39,7 +39,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->由於模擬不會產生任何決定事件，因此[上限](../offer-library/creating-personalized-offers.md#capping)計數不會受到影響。
+>由於模擬不會產生任何決定事件，因此[上限](../offer-library/add-constraints.md#capping)計數不會受到影響。
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -103,7 +103,7 @@ ht-degree: 12%
    * 您可以使用搜尋欄位來縮小選取範圍。
    * 您可以按一下&#x200B;**[!UICONTROL 開啟優惠決定]**&#x200B;連結，開啟您建立的所有決定清單。 深入瞭解[決定](create-offer-activities.md)。
 
-   選取您選擇的決定並按一下[新增]。**&#x200B;**
+   選取您選擇的決定並按一下[新增]。****
 
    ![](../assets/offers_simulation-add-decision-scope-add.png)
 

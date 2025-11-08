@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 7%
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 ## 降低投訴率 {#reduce-complaint-rate}
 
-ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣就可以識別不可靠的來源。 透過快速接受選擇退出請求並顯示您是可靠的寄件者，您可以降低投訴率。 [進一步瞭解選擇退出管理](../privacy/opt-out.md#opt-out-management)
+ISP通常具有將收到的訊息報告為垃圾訊息的顯著方法。 這樣就可以識別不可靠的來源。 透過快速接受選擇退出請求並顯示您是可靠的寄件者，您可以降低投訴率。 [進一步瞭解選擇退出管理](../privacy/opt-out.md#opt-out-decision-management)
 
 一般而言，請勿透過要求收件者填寫電子郵件地址或名稱等欄位，來妨礙想要選擇退出的收件者。 取消訂閱登入頁面應只有一個驗證按鈕。
 

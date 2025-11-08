@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## 開始使用登陸頁面預設集 {#gs-lp-presets}
 
-當[建立登陸頁面](../landing-pages/create-lp.md#create-a-lp)時，您必須選取登陸頁面預設集，才能建立登陸頁面並透過&#x200B;**[!DNL Journey Optimizer]**&#x200B;運用。 預設集包含根據此預設集用於登陸頁面的子網域。
+當[建立登陸頁面](../landing-pages/create-lp.md#create-lp)時，您必須選取登陸頁面預設集，才能建立登陸頁面並透過&#x200B;**[!DNL Journey Optimizer]**&#x200B;運用。 預設集包含根據此預設集用於登陸頁面的子網域。
 
 建立預設集之前，請確定您先前已設定至少一個登陸頁面子網域。 [瞭解如何建立登陸頁面子網域](lp-subdomains.md)。
 
@@ -93,4 +93,4 @@ ht-degree: 13%
 **相關主題**：
 
 * [開始使用登陸頁面](../landing-pages/get-started-lp.md)
-* [建立登陸頁面](../landing-pages/create-lp.md#create-a-lp)
+* [建立登陸頁面](../landing-pages/create-lp.md#create-lp)

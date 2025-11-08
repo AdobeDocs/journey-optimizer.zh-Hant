@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 87%
@@ -88,7 +88,7 @@ ht-degree: 87%
 
 1. 建立參考位置的程式碼型管道設定。 [了解作法](code-based-configuration.md#create-code-based-configuration)
 
-1. 使用此設定在 [!DNL Journey Optimizer] 中建立歷程或行銷活動。[了解作法](create-code-based.md#create-code-based-campaign)
+1. 使用此設定在 [!DNL Journey Optimizer] 中建立歷程或行銷活動。[了解作法](create-code-based.md#create-code-based-experience)
 
 1. 使用 [!DNL Journey Optimizer] 個人化編輯器，為所選設定指定內容來編寫體驗。 [了解作法](create-code-based.md#edit-code)
 

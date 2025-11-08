@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ ht-degree: 99%
 
 * **行銷活動**
 
-   * **傳出行銷活動的速率控制** - 您現在可以為傳出行銷活動 (電子郵件、簡訊、推播通知) 啟用速率控制，讓您防止下游系統 (例如登陸頁面或客戶服務平台) 上的超載。[閱讀全文](../campaigns/campaign-schedule.md#rate-control)
+   * **傳出行銷活動的速率控制** - 您現在可以為傳出行銷活動 (電子郵件、簡訊、推播通知) 啟用速率控制，讓您防止下游系統 (例如登陸頁面或客戶服務平台) 上的超載。[閱讀全文](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **動作行銷活動排程** - 行銷活動每日、每週和每月排程器已更新，為定期排程提供更詳細控制：
 

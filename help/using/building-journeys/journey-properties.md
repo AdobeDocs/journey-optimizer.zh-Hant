@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 15%
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -183,7 +183,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -307,7 +307,7 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 此功能與暫停/恢復功能搭配使用，可幫助您更安全、更靈活地管理歷程。 它將手動干預降至最低，降低傳送不相關或不相容通訊的風險，並使您的歷程邏輯與目前的業務需求保持一致。
 
-請參閱本節以瞭解如何[在暫停的歷程中使用設定檔屬性退出條件](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey)。
+請參閱本節以瞭解如何[在暫停的歷程中使用設定檔屬性退出條件](journey-pause.md#journey-pause-sample)。
 
 ### 護欄與限制 {#exit-criteria-guardrails}
 

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -42,7 +42,7 @@ ht-degree: 7%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
 
    ![](../assets/activities-name.png)
 
@@ -79,7 +79,7 @@ ht-degree: 7%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
 
    ![](../assets/activities-collection.png)
 
@@ -127,7 +127,7 @@ ht-degree: 7%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
@@ -397,7 +397,7 @@ ht-degree: 7%
 
 ![](../assets/decision_click-name.png)
 
-這可讓您存取該決定的詳細資訊。 選取&#x200B;**[!UICONTROL 變更記錄]**&#x200B;標籤以[監視對決定所做的所有變更](../get-started/user-interface.md#changes-log)。
+這可讓您存取該決定的詳細資訊。 選取&#x200B;**[!UICONTROL 變更記錄]**&#x200B;標籤以[監視對決定所做的所有變更](../get-started/user-interface.md#changes-logs)。
 
 ![](../assets/decision_information.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 26%
@@ -22,7 +22,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->您的所有行銷訊息都必須包含選擇退出連結。 異動訊息不需要此屬性。 訊息類別 — **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]** — 是在[頻道設定](../configuration/channel-surfaces.md#email-type)層級及建立訊息時定義。
+>您的所有行銷訊息都必須包含選擇退出連結。 異動訊息不需要此屬性。 訊息類別 — **[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]** — 是在[頻道設定](email-settings.md#email-type)層級及建立訊息時定義。
 
 若要在電子郵件內容中插入取消訂閱連結，您可以：
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。
 
-若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL 否]**。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}。
+若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL 否]**。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}。
 
 ![](assets/opt-out-profile-choice.png)
 

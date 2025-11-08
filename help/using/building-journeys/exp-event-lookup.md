@@ -5,7 +5,7 @@ title: 歷程中的體驗事件查閱
 description: 瞭解如何在歷程中使用體驗事件查閱
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 6%
@@ -52,11 +52,11 @@ ht-degree: 6%
 
 了解更多：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()函式](../building-journeys/functions/functioninaudience.md)
 
@@ -71,11 +71,11 @@ ht-degree: 6%
 
 使用對象深入瞭解：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()函式](../building-journeys/functions/functioninaudience.md)
 
@@ -93,11 +93,11 @@ ht-degree: 6%
 
 了解更多：
 
-* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [在條件中使用對象](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()函式](../building-journeys/functions/functioninaudience.md)
 
@@ -105,8 +105,8 @@ ht-degree: 6%
 
 若要根據最新的購物車進行個人化通訊，或跨多種購物車型別或產品檢視瀏覽事件：
 
-* 如果您可以存取[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將其寫入已啟用設定檔的資料集以進行啟用。
-* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}那邊，了解更多相關資訊。
+* 如果您可以存取[Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將其寫入已啟用設定檔的資料集以進行啟用。
+* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}那邊，了解更多相關資訊。
 
 
 ## 行為型歷程退出
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 了解更多：
 
-* Adobe Experience Platform [計算屬性總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform [計算屬性總覽](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 

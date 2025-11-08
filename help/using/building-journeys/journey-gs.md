@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 24%
@@ -124,4 +124,4 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 >[!NOTE]
 >
->如果您需要修改&#x200B;**即時**&#x200B;歷程，請[建立歷程的新版本](journey-ui.md#journey-versions)。
+>如果您需要修改&#x200B;**即時**&#x200B;歷程，請[建立歷程的新版本](journey-ui.md#journey-filter)。

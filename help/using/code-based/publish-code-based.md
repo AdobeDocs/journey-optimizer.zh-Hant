@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 若要讓您的程式碼型體驗在歷程中上線，請遵循下列步驟。
 
-1. 確認您的歷程有效且沒有錯誤。 [了解更多](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+1. 確認您的歷程有效且沒有錯誤。 [了解更多](../building-journeys/troubleshooting.md#activity-errors)
 
 1. 在歷程中，選取位於右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->按一下[啟動&#x200B;**&#x200B;**]後，最多可能需要15分鐘才能讓您的變更上線。
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
 >如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
 

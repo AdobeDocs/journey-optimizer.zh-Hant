@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 5%
@@ -49,7 +49,7 @@ ht-degree: 5%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。****
 
      ![](assets/rule-sets-create.png)
 
@@ -94,7 +94,7 @@ ht-degree: 5%
 
 1. 重複上述步驟，視需求將任意數量的規則新增至規則集。
 
-1. 當上限規則已準備好套用至訊息時，請啟動規則集及其加入所在的規則。 [瞭解如何啟用規則集](../conflict-prioritization/rule-sets.md#create)
+1. 當上限規則已準備好套用至訊息時，請啟動規則集及其加入所在的規則。 [瞭解如何啟用規則集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 套用規則集至訊息 {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

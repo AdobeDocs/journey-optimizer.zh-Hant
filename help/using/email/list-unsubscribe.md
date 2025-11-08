@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!--Do not modify - Legal Review Done -->
 
-在 [!DNL Adobe Journey Optimizer]設定新的電子郵件管道設定時，從清單選取[子網域後](email-settings.md#subdomains-and-ip-pools)，會顯示&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項。這項設定預設為啟用。
+在 [!DNL Adobe Journey Optimizer]設定新的電子郵件管道設定時，從清單選取[子網域後](email-settings.md#ip-pools)，會顯示&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項。這項設定預設為啟用。
 
 ![](assets/preset-list-unsubscribe.png)
 

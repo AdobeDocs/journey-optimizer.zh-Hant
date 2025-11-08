@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -70,7 +70,7 @@ ht-degree: 9%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
@@ -112,7 +112,7 @@ ht-degree: 9%
    * **PAUSED_JOURNEY_VERSION**：捨棄歷程進入點發生的專案
    * **JOURNEY_IN_PAUSED_STATE**：捨棄設定檔在歷程中時發生的
 
-  在[暫停歷程區段](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)中進一步瞭解這些事件，以及如何疑難排解它們。
+  在[暫停歷程區段](../building-journeys/journey-pause.md#discards-troubleshoot)中進一步瞭解這些事件，以及如何疑難排解它們。
 
 ## 其他資源
 

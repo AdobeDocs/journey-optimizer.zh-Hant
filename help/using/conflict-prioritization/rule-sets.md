@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 25%
@@ -151,7 +151,7 @@ ht-degree: 25%
    以下各節提供如何套用規則集的詳細資訊：
 
    * [將規則集套用至歷程](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [套用上限規則至歷程和行銷活動動作](../conflict-prioritization/channel-capping.md#apply)
+   * [套用上限規則至歷程和行銷活動動作](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [將無訊息時間規則套用至歷程和行銷活動](../conflict-prioritization/quiet-hours.md#apply)
 
 ## 存取及管理規則集 {#access-rule-sets}
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

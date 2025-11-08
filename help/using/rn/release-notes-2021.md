@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **運算式編輯器** - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
-* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#serviceevents) 已新增與輪廓匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
+* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#servicevents-field) 已新增與輪廓匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具** - 歷程已導入協助工具增強功能。
 * **集合** - 現在支援包含子物件的物件陣列。 [閱讀全文](../building-journeys/collections.md)
 * **清單** - 已改善歷程、事件、動作、資料來源的清單畫面。
@@ -277,7 +277,7 @@ ht-degree: 100%
 **內容設計**
 
 * **背景** - 即時預覽現在支援背景影像。 [進一步了解](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **個人化**
 
@@ -351,7 +351,7 @@ ht-degree: 100%
 
 **預覽和測試**
 
-* 身分識別和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。[閱讀全文](../content-management/preview-test.md#preview-your-messages)
+* 身分識別和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。[閱讀全文](../content-management/preview-test.md#preview-test)
 * 校樣的測試電子郵件數目現在限制為 10 則。
 * 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../content-management/preview-test.md#send-proofs)
 

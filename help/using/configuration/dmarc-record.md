@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 11%
@@ -102,7 +102,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 1. 如果您正在編輯子網域：
 
-   * [已完全委派](delegate-subdomain.md#full-subdomain-delegation)給Adobe，不需要進一步的動作。
+   * [已完全委派](delegate-subdomain.md#set-up-subdomain)給Adobe，不需要進一步的動作。
 
    * 使用[CNAME](delegate-subdomain.md#cname-subdomain-setup)進行設定，您必須將DMARC的DNS記錄複製到您的代管解決方案中，以產生相符的DNS記錄。
 

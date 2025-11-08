@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3521'
 ht-degree: 26%
@@ -41,7 +41,7 @@ ht-degree: 26%
 
 行銷活動&#x200B;**[!UICONTROL 即時報告]**&#x200B;會分成不同的Widget，詳細說明行銷活動的成功與錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此[區段](../reports/live-report.md#modify-dashboard)。
 
-如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#list-of-components-live)。
+如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#live-report)。
 
 ## 行銷活動標籤 {#campaign-live}
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 42%
@@ -30,7 +30,7 @@ ht-degree: 42%
 1. 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。
 
    * 瞭解如何在[此頁面](testing-the-journey.md)上測試您的歷程。
-   * 在[本節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)中瞭解如何疑難排解您的歷程錯誤。
+   * 在[本節](../building-journeys/troubleshooting.md#activity-errors)中瞭解如何疑難排解您的歷程錯誤。
 
 1. 若要發佈歷程，請按一下右上角下拉式功能表中的&#x200B;**[!UICONTROL 發佈]**&#x200B;選項。
 
@@ -40,7 +40,7 @@ ht-degree: 42%
 
    ![](assets/journeyuc1_18.png)
 
-發佈歷程時，它處於&#x200B;**唯讀**&#x200B;模式。 在唯讀模式中，您只能修改活動標籤和說明、歷程名稱和歷程說明。 如果您需要對已發佈的歷程進行額外的修改，請建立歷程的[新版本](journey-ui.md#journey-versions)。
+發佈歷程時，它處於&#x200B;**唯讀**&#x200B;模式。 在唯讀模式中，您只能修改活動標籤和說明、歷程名稱和歷程說明。 如果您需要對已發佈的歷程進行額外的修改，請建立歷程的[新版本](journey-ui.md#journey-filter)。
 
 當您停止歷程時，歷程會永久停止。 流經歷程的所有個人會永久停止，且歷程會停止允許新登入。 如果您需要再次執行歷程，請複製歷程並發佈新歷程。
 
@@ -81,11 +81,11 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->特定護欄和限制適用於歷程的版本設定。 請在[此頁面](../start/guardrails.md#journey-versions-journey-versions-g)了解更多。
+>特定護欄和限制適用於歷程的版本設定。 請在[此頁面](../start/guardrails.md#journey-versions-g)了解更多。
 
 
 ## 作法影片 {#video}
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

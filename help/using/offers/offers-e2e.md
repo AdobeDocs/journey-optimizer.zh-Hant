@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 4%
@@ -109,7 +109,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >在此範例中，我們將僅使用優先順序分數。 深入瞭解[適用性規則和限制](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)。
+   >在此範例中，我們將僅使用優先順序分數。 深入瞭解[適用性規則和限制](../../using/offers/offer-library/add-constraints.md#eligibility)。
 
 ## 設定產品建議 {#configure-offers}
 
@@ -127,7 +127,7 @@ ht-degree: 4%
    >
    >優惠方案可顯示在訊息中的不同位置，以創造更多機會，讓使用者在不同的位置內容中使用優惠方案。
 
-   在[本節](../../using/offers/offer-library/creating-personalized-offers.md#representations)中進一步瞭解代表。
+   在[本節](../../using/offers/offer-library/add-representations.md#representations)中進一步瞭解代表。
 
 1. 選取前兩個位置的適當影像。 輸入&#x200B;*非數位 — 文字*&#x200B;位置的自訂文字。
 
@@ -168,7 +168,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 

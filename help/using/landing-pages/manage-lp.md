@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -79,7 +79,7 @@ ht-degree: 9%
 
    ![](assets/lp-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -87,6 +87,6 @@ ht-degree: 9%
 
 1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您也可以將登入頁面移至其他現有資料夾。
 
-1. 現在您可以導覽至您剛建立的資料夾。 您[從此處](create-lp.md#create-landing-page.md)建立的每個新登入頁面都會儲存至目前資料夾。
+1. 現在您可以導覽至您剛建立的資料夾。 您[從此處](create-lp.md#create-landing-page)建立的每個新登入頁面都會儲存至目前資料夾。
 
    ![](assets/lp-folder-create.png)

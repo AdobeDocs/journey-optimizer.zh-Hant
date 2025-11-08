@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 20%
@@ -32,7 +32,7 @@ ht-degree: 20%
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 ![](assets/primary-address-execution-fields.png){width=90%}
@@ -84,7 +84,7 @@ ht-degree: 20%
 * 測試您的傳遞。 您可以新增自己的電子郵件地址或電話號碼：在您發佈歷程後，會傳送電子郵件、簡訊或WhatsApp訊息給您。
 * 傳送訊息給清單的訂閱者。 在[此使用案例](../building-journeys/message-to-subscribers-uc.md)中了解更多。
 
-將&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;動作新增至[歷程](../email/create-email.md#create-email-journey-campaign)時，主要電子郵件地址或電話號碼會顯示在歷程進階引數下。
+將&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;或&#x200B;**[!UICONTROL WhatsApp]**&#x200B;動作新增至[歷程](../email/create-email.md#create-email)時，主要電子郵件地址或電話號碼會顯示在歷程進階引數下。
 
 使用欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示覆寫此值。
 

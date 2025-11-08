@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 30%
@@ -38,7 +38,7 @@ ht-degree: 30%
 
 歷程&#x200B;**[!UICONTROL 即時報告]**&#x200B;會分成不同的Widget，詳述您歷程的成功和錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此[區段](live-report.md#modify-dashboard)。
 
-如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#list-of-components-live)。
+如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](live-report.md#live-report)。
 
 ## 歷程索引標籤 {#journey-live}
 

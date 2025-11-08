@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 15%
@@ -97,7 +97,7 @@ ht-degree: 15%
 
 ![隱藏歷程活動屬性中的唯讀欄點陣圖示](assets/journey-hide-read-only-fields.png)
 
-在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#journey-parameters)
+在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![在電子郵件活動屬性中啟用引數覆寫選項](assets/journey-enable-parameter-override.png)
 

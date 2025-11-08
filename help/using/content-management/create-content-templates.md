@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 11%
@@ -75,11 +75,11 @@ ht-degree: 11%
 
      >[!NOTE]
      >
-     >您可以將決定原則新增至程式碼型體驗內容範本。 [了解更多](../experience-decisioning/create-decision.md#add-decision)
+     >您可以將決定原則新增至程式碼型體驗內容範本。 [了解更多](../experience-decisioning/create-decision.md#create-decision)
 
 1. 您可以測試內容。 [了解作法](#test-template)
 
-1. 範本準備就緒後，請按一下[儲存]。**&#x200B;**
+1. 範本準備就緒後，請按一下[儲存]。****
 
 1. 按一下範本名稱旁的箭頭，返回&#x200B;**[!UICONTROL 詳細資料]**&#x200B;畫面。
 

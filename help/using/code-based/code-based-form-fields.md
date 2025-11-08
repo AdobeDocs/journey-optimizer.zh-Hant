@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -104,7 +104,7 @@ ht-degree: 8%
 
 1. 使用版本畫面右側邊欄的&#x200B;**[!UICONTROL 顯示決策]**&#x200B;圖示，或在左側功能表的&#x200B;**[!UICONTROL 決策原則]**&#x200B;區段的運算式編輯器中，按一下&#x200B;**[!UICONTROL 新增決策原則]**。
 
-   瞭解如何在[本節](../experience-decisioning/create-decision.md#add-decision)中建立決定原則。
+   瞭解如何在[本節](../experience-decisioning/create-decision.md#create-decision)中建立決定原則。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

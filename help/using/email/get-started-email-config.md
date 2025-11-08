@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: 電子郵件、設定、表面、子網域
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 在每個電子郵件管道設定中，設定傳送電子郵件所需的所有&#x200B;**技術參數**。[了解更多](email-settings.md)
 
-   * 可在此處選取要用於傳送電子郵件的子網域，以及要與設定關聯的 IP 集區。[了解更多](email-settings.md#subdomains-and-ip-pools)
+   * 可在此處選取要用於傳送電子郵件的子網域，以及要與設定關聯的 IP 集區。[了解更多](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

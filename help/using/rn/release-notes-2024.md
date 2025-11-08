@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ ht-degree: 100%
    * 輪廓存放區中的資料為 90 天
    * 資料湖中的資料為 13 個月
 
-  將在後續階段，開放現有客戶沙箱使用這項變更。 [了解更多](../data/datasets-ttl.md#ttl)
+  將在後續階段，開放現有客戶沙箱使用這項變更。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
 
 * **自訂動作中的參數** - 可用日期：2024 年 10 月 3 日：自訂動作目前有支援無效和選用參數。[了解更多](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ ht-degree: 100%
 **歷程**
 
 * 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。[閱讀全文](../building-journeys/condition-activity.md#time_condition)
-* 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#activity-errors)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
 **推播管道**
@@ -1129,7 +1129,7 @@ ht-degree: 100%
 
 **內容管理**
 
-* 現在您可以模擬所有頻道的內容範本。 [閱讀全文](../content-management/content-templates.md#test-templates)
+* 現在您可以模擬所有頻道的內容範本。 [閱讀全文](../content-management/content-templates.md#video-templates)
 
 **個人化**
 
@@ -1242,7 +1242,7 @@ ht-degree: 100%
 
 * 您現在可以選擇&#x200B;**透過客群構成所建立的目標客群**，並在歷程中運用擴充屬性。 [了解更多](../building-journeys/read-audience.md)
 
-* 您現在可以選擇&#x200B;**從 CSV 檔案上傳**&#x200B;至歷程和行銷活動中的目標客群。[了解更多](../audience/about-audiences.md#segments-in-journey-optimizer)
+* 您現在可以選擇&#x200B;**從 CSV 檔案上傳**&#x200B;至歷程和行銷活動中的目標客群。[了解更多](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

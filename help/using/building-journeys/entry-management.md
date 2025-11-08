@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 3%
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 * **對象資格**&#x200B;歷程：這些歷程以對象資格事件開始。 這些歷程會監聽對象中設定檔的入口和出口。 發生此情況時，關聯的設定檔會進入歷程。 [閱讀全文](#entry-unitary)
 
-在所有歷程型別中，設定檔無法在同一歷程中同時出現多次，適用於歷程的所有作用中[版本](publish-journey.md#journey-versions-journey-versions)。 若要檢查某人是否在歷程中，則會將設定檔身分識別當作金鑰。 系統不允許相同的索引鍵（例如索引鍵`CRMID=3224`）位於相同歷程中的不同位置。
+在所有歷程型別中，設定檔無法在同一歷程中同時出現多次，適用於歷程的所有作用中[版本](publish-journey.md#journey-versions)。 若要檢查某人是否在歷程中，則會將設定檔身分識別當作金鑰。 系統不允許相同的索引鍵（例如索引鍵`CRMID=3224`）位於相同歷程中的不同位置。
 
 ## 歷程處理率 {#journey-processing-rate}
 
