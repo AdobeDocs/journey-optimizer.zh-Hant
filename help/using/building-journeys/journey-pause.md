@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 6%
@@ -158,7 +158,7 @@ ht-degree: 6%
 
   如果您繼續歷程以將保留的個人檔案數恢復到限制以下，歷程將立即繼續 — 但更新個人檔案計數最多可能需要30分鐘。 在這段期間，系統仍可能將這些設定檔視為已暫停。
 
-* 對於包含[傳入活動](../channels/gs-channels.md#mobile-app-and-web-experiences) （例如，應用程式內、網頁等）的歷程，暫停歷程不會中斷已觸發的通訊。 如果設定檔在暫停前符合入站活動的資格，則仍會傳送相對應的訊息。 若要完全停止所有傳入通訊，您必須停止歷程。
+* 對於包含[傳入活動](../channels/gs-channels.md#inbound-channels) （例如，應用程式內、網頁等）的歷程，暫停歷程不會中斷已觸發的通訊。 如果設定檔在暫停前符合入站活動的資格，則仍會傳送相對應的訊息。 若要完全停止所有傳入通訊，您必須停止歷程。
 * 暫停的歷程計入即時歷程配額
 * 已進入歷程但在暫停期間被捨棄的設定檔，仍會計為可參與的設定檔
 * 暫停的歷程會以即時方式納入所有商業規則中
@@ -201,7 +201,7 @@ ht-degree: 6%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

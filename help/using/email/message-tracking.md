@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 27%
@@ -59,7 +59,7 @@ ht-degree: 27%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -73,7 +73,7 @@ ht-degree: 27%
 
    * 選取&#x200B;**[!UICONTROL 外部選擇加入/訂閱]**&#x200B;以插入連結，接受來自您品牌的通訊。
 
-   * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 在[本節](email-opt-out.md#opt-out-management)中進一步瞭解選擇退出管理。
+   * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 在[本節](email-opt-out.md#email-opt-out)中進一步瞭解選擇退出管理。
 
    * 選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;以新增電子郵件映象頁面的連結。 [了解更多](#mirror-page)
 
@@ -93,7 +93,7 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](../configuration/channel-surfaces.md#email-type)中定義。
+>行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-decision-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](email-settings.md#email-type)中定義。
 
 傳送訊息之後，連結的保留期間為&#x200B;**25個月**。 延遲後，連結將無法再使用。
 
@@ -204,4 +204,4 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 >[!NOTE]
 >
->若要驗證最終URL，您可以[傳送校樣](../content-management/preview-test.md#send-proofs)，並在收到校樣後按一下電子郵件內容中的連結。 URL應顯示追蹤引數。 在上述範例中，最終URL將為： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>若要驗證最終URL，您可以[傳送校樣](../content-management/proofs.md)，並在收到校樣後按一下電子郵件內容中的連結。 URL應顯示追蹤引數。 在上述範例中，最終URL將為： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

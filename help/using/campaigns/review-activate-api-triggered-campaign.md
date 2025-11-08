@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 4%
@@ -34,11 +34,11 @@ ht-degree: 4%
 
    ![](assets/create-campaign-alerts.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
 1. 行銷活動已啟動。 其狀態為&#x200B;**[!UICONTROL 即時]**，或者&#x200B;**[!UICONTROL 已排程]** （如果您已輸入開始日期）。
 
-   **[!UICONTROL 已完成]**&#x200B;狀態會在行銷活動啟動3天後自動指派給行銷活動，如果行銷活動有週期性執行，則會在行銷活動的結束日期自動指派。 [進一步瞭解行銷活動狀態](get-started-with-campaigns.md#statuses)。
+   **[!UICONTROL 已完成]**&#x200B;狀態會在行銷活動啟動3天後自動指派給行銷活動，如果行銷活動有週期性執行，則會在行銷活動的結束日期自動指派。 [進一步瞭解行銷活動狀態](manage-campaigns.md#statuses)。
 
    如果未指定結束日期，則行銷活動會保留&#x200B;**[!UICONTROL 即時]**&#x200B;狀態。 若要變更，您必須手動停止行銷活動。 [瞭解如何停止行銷活動](manage-campaigns.md)
 

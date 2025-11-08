@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 4%
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 * **Personalization**：
 
-   * 所有個人化必須以&#x200B;**內容資料**&#x200B;的形式包含在API承載中。 [瞭解如何使用內容相關資料個人化內容](../campaigns/api-triggered-campaign-action.md#contextual)
+   * 所有個人化必須以&#x200B;**內容資料**&#x200B;的形式包含在API承載中。 [瞭解如何使用內容相關資料個人化內容](../campaigns/api-triggered-campaign-content.md#contextual)
    * 不支援設定檔個人化。 如果使用設定檔變數，則會發生驗證錯誤。
 
 * **個人化管道設定** — 使用[設定檔個人化](../email/surface-personalization.md)的管道設定，無法用於高輸送量的行銷活動。 只能使用沒有設定檔個人化的表面。

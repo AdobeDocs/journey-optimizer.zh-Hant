@@ -11,7 +11,7 @@ badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 3%
@@ -60,13 +60,13 @@ ht-degree: 3%
 
 1. 選取要傳回的專案數。 例如，如果您選取2，則會顯示最佳的2個合格優惠方案。 按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. 在&#x200B;**[!UICONTROL 策略順序]**&#x200B;區段中，選取要與決策原則一起呈現的決定專案及/或選取策略。 [了解更多](../experience-decisioning/create-decision.md#select)
+1. 在&#x200B;**[!UICONTROL 策略順序]**&#x200B;區段中，選取要與決策原則一起呈現的決定專案及/或選取策略。 [了解更多](../experience-decisioning/create-decision.md#create-decision)
 
 1. 視需要安排評估順序。
 
-   新增多個決定專案和/或策略時，會依序評估，並以每個物件或物件群組左側的數字表示。 若要變更預設順序，您可以拖放物件和/或群組以視需要重新排序。 [了解更多](../experience-decisioning/create-decision.md#evaluation-order)
+   新增多個決定專案和/或策略時，會依序評估，並以每個物件或物件群組左側的數字表示。 若要變更預設順序，您可以拖放物件和/或群組以視需要重新排序。 [了解更多](../experience-decisioning/create-decision.md#create-decision)
 
-1. （選用）新增遞補優惠。 [了解更多](../experience-decisioning/create-decision.md#fallback)
+1. （選用）新增遞補優惠。 [了解更多](../experience-decisioning/create-decision.md#create-decision)
 
 1. 檢閱並儲存您的決定原則。
 

@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 51%
@@ -40,7 +40,7 @@ ht-degree: 51%
 
 ## Action行銷活動建立的關鍵步驟 {#steps}
 
-開始行銷活動之前，請檢查本節[中列出的下列必要條件](get-started-with-campaigns.md#permissions)。 在滿足這些先決條件後，您就可以開始建立行銷活動：
+開始行銷活動之前，請檢查本節[中列出的下列必要條件](get-started-with-campaigns.md#prerequisites)。 在滿足這些先決條件後，您就可以開始建立行銷活動：
 
 1. [定義「動作」行銷活動屬性](campaign-properties.md)
 1. [設定行銷活動動作](campaign-action.md)
