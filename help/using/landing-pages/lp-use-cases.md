@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [發佈](create-lp.md#publish)登入頁面。
+1. [發佈](create-lp.md#publish-landing-page)登入頁面。
 
 1. 在[歷程](../building-journeys/journey.md)中，新增&#x200B;**電子郵件**&#x200B;活動以將流量引導至註冊登入頁面。
 
@@ -127,7 +127,7 @@ ht-degree: 12%
    >
    >請確定您參考&#x200B;**[!UICONTROL 表單]**&#x200B;元件之主要頁面&#x200B;**[!UICONTROL Call to action]**&#x200B;區段中的子頁面。 [了解更多](design-lp.md)
 
-1. 設定並定義頁面內容後，[發佈](create-lp.md#publish)登入頁面。
+1. 設定並定義頁面內容後，[發佈](create-lp.md#publish-landing-page)登入頁面。
 
 1. [在歷程中建立電子郵件訊息](../email/get-started-email-design.md)。
 
@@ -163,7 +163,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 
@@ -171,7 +171,7 @@ ht-degree: 12%
 
 **另請參閱：**
 
-* [一鍵選擇退出](../email/email-opt-out.md#one-click-opt-out-link)
+* [一鍵選擇退出](../email/email-opt-out.md#one-click-opt-out)
 * [電子郵件標題中的選擇退出連結](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,11 +182,11 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../privacy/opt-out.md#unsubscribe-header)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
 ////////
 

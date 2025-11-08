@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 19%
@@ -26,13 +26,13 @@ ht-degree: 19%
 >id="ajo_admin_subdomain_lp"
 >title="委派登陸頁面子網域"
 >abstract="您必須設定要用於登陸頁面的子網域，因為您需要此子網域才能建立登陸頁面預設集。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="建立一個登陸頁面預設集"
 >abstract="為了能夠建立登陸頁面預設集，請確保您之前已設定了至少一個登陸頁面子網域，才能從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 ## 開始使用登陸頁面子網域 {#gs-lp-subdomains}
 
@@ -88,7 +88,7 @@ ht-degree: 19%
 
    ![](assets/lp_subdomain-processing.png)
 
-   您必須等到Adobe執行必要的檢查（最多可能需要&#x200B;**4小時**.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->），才能使用該子網域傳送訊息。
+   您必須等到Adobe執行必要的檢查（最多可能需要&#x200B;**4小時**.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->），才能使用該子網域傳送訊息。
 
 1. 檢查成功後，子網域會取得&#x200B;**[!UICONTROL Success]**&#x200B;狀態。 它已準備好用來建立登入頁面預設集。
 
@@ -141,7 +141,7 @@ ht-degree: 19%
 
 如果您想要取消委派登入頁面子網域，請遵循下列步驟。
 
-1. 在[!DNL Journey Optimizer]中，取消發佈與子網域關聯的所有登入頁面。 [了解作法](create-lp.md#access-landing-pages)
+1. 在[!DNL Journey Optimizer]中，取消發佈與子網域關聯的所有登入頁面。 [了解作法](create-lp.md#create-landing-page)
 
 1. 如果登陸頁面子網域指向CNAME記錄，您可以從託管解決方案中刪除您為登陸頁面子網域建立的CNAME DNS記錄(但不刪除原始電子郵件子網域（如有）。
 
