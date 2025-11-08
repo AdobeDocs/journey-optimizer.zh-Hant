@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: e823be2257d49158492af508e23f40e749bc33be
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 19%
@@ -63,7 +63,7 @@ ht-degree: 19%
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
-1. 行銷活動可以排程為特定日期，或設定為定期重複。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
+1. 行銷活動可以排程為特定日期，或設定為定期重複。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/campaign-schedule.md)。
 
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
