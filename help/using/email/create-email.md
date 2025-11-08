@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 9%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 9%
 
 >[!TAB 新增電子郵件至行銷活動]
 
-1. 建立新的排程或API觸發的行銷活動，並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為您的動作。
+1. [建立行銷活動](../campaigns/create-campaign.md)，並選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為您的動作。
 
-1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/campaign-schedule.md#action-campaign-schedule)。
+1. 完成步驟以建立電子郵件行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/campaign-schedule.md)。
 
    ![](assets/email_campaign_steps.png)
 
