@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 **[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。標籤可用於下列物件：
 
-* [行銷活動](../campaigns/create-campaign.md#create)
+* [行銷活動](../campaigns/create-campaign.md)
 * [決定項目](../experience-decisioning/items.md)
 * [片段](../content-management/fragments.md)
 * [歷程](../building-journeys/journey-properties.md)
