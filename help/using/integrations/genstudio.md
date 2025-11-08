@@ -9,7 +9,7 @@ badge: label="有限可用性" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 15%
@@ -39,7 +39,7 @@ ht-degree: 15%
 
 >[!INFO]
 >
->若要更進一步，請檢視此[總覽](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
+>若要更進一步，請檢視此[總覽](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -56,7 +56,7 @@ ht-degree: 15%
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](../content-management/gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -82,13 +82,13 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
 
 1. 在GenStudio中，使用此範本建立具有AI提示的多個電子郵件變體並儲存。
 
    >[!NOTE]
    >
-   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
+   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
 
 ### 在Journey Optimizer中善用GenStudio體驗 {#leverage-genstudio-experiences}
 
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 了解將電子郵件範本從 Journey Optimizer 匯出至 GenStudio 進行績效行銷的過程、使用GenStudio 範本製作符合品牌要求的電子郵件，然後順暢地將其匯回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456060/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

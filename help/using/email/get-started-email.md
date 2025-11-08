@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 
 * 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。[了解如何建立行銷活動](../campaigns/create-campaign.md#configure)
+* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。瞭解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
