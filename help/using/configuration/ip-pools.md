@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 12%
@@ -103,7 +103,7 @@ IP集區現在已建立並顯示在清單中。 您可以選取它以存取其�
 
 >[!NOTE]
 >
->當[建立通道設定](channel-surfaces.md#create-channel-surface)時，如果您選取正在編輯中的IP集區（**[!UICONTROL 正在處理]**&#x200B;狀態），而且從未與為該設定選取的子網域建立關聯，則無法繼續建立設定。 [了解更多](channel-surfaces.md#subdomains-and-ip-pools)
+>當[建立通道設定](channel-surfaces.md#create-channel-surface)時，如果您選取正在編輯中的IP集區（**[!UICONTROL 正在處理]**&#x200B;狀態），而且從未與為該設定選取的子網域建立關聯，則無法繼續建立設定。 [了解更多](channel-surfaces.md#create-channel-surface)
 
 若要檢查IP集區更新狀態，請按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 最近更新]**。
 

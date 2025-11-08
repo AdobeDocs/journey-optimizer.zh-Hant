@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -29,13 +29,13 @@ ht-degree: 11%
 
 1. 針對您為熱身計畫識別的網域和IP，建立電子郵件通道[設定](channel-surfaces.md)。
 
-   與您的傳遞顧問合作，識別要使用的網域和IP。 在[本節](../email/email-settings.md#subdomains-and-ip-pools)中瞭解如何在電子郵件設定中選取它們。
+   與您的傳遞顧問合作，識別要使用的網域和IP。 在[本節](../email/email-settings.md#ip-pools)中瞭解如何在電子郵件設定中選取它們。
 
    >[!CAUTION]
    >
    >在IP熱身計畫[已啟動](ip-warmup-execution.md)後，請勿編輯電子郵件通道設定。
 
-1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email-journey-campaign)動作。
+1. 建立排程的行銷[行銷活動](../campaigns/create-campaign.md)並選取[電子郵件](../email/create-email.md#create-email)動作。
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -51,13 +51,13 @@ ht-degree: 11%
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   行銷活動[排程](../campaigns/create-campaign.md#schedule)將由其將相關聯的IP熱身計畫驅動，這表示行銷活動本身不再定義排程。
+   行銷活動[排程](../campaigns/campaign-schedule.md)將由其將相關聯的IP熱身計畫驅動，這表示行銷活動本身不再定義排程。
 
 1. 完成步驟以建立電子郵件行銷活動，例如定義行銷活動屬性、[對象](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->和[內容](../email/get-started-email-design.md#key-steps)。
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
 
    如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >[商務規則](../conflict-prioritization/rule-sets.md#apply-frequency-rule)不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
+   >[商務規則](../conflict-prioritization/rule-sets.md#rule-sets)不應用於IP熱身計畫。 套用這些規則可能會阻礙達到行銷活動所需目標設定檔數。
 
    對於已啟用IP熱身計畫的即時行銷活動，**[!UICONTROL 刪除]**&#x200B;按鈕將一直可用，直到它與IP熱身計畫相關聯為止。 行銷活動在計畫中使用後，即無法再刪除。
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 
 行銷活動上線後，即準備好用於IP熱身計畫。 [了解更多](ip-warmup-plan.md)
 
-IP熱身行銷活動只能用於一個IP熱身計畫。 不過，同一IP熱身計畫的一個或多個階段中可以使用相同的行銷活動。 [了解更多](ip-warmup-plan.md#define-phases)
+IP熱身行銷活動只能用於一個IP熱身計畫。 不過，同一IP熱身計畫的一個或多個階段中可以使用相同的行銷活動。 [了解更多](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >
