@@ -168,7 +168,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
 
 ![](assets/offers-e2e-fallback.png)
 

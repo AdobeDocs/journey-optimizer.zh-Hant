@@ -105,7 +105,7 @@ ht-degree: 50%
 
 對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
 
-完成後，**產生的對象**會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
+完成後，**產生的對象**&#x200B;會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
