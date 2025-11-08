@@ -146,7 +146,7 @@ ht-degree: 50%
 
    ![](assets/audiences-properties.png)
 
-1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)。
+1. 在&#x200B;**[!UICONTROL 對象]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**&#x200B;活動之間新增所需數量的活動，以設定您的組合。 如需如何建立組合的詳細資訊，請參閱[對象組合檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-composition)。
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +179,4 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)中有提供詳細資訊
+>對象構成目前未與沙箱重設功能整合。 在起始沙箱重設之前，您需要手動刪除您的構圖，以確保適當的清理關聯的對象資料。 Adobe Experience Platform [沙箱檔案](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant#delete-audience-compositions)中有提供詳細資訊
