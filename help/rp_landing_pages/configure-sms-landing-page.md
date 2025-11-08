@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 簡訊/MMS/RCS 管道設定快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定簡訊/MMS/RCS 訊息的 Sinch 提供者
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定 Infobip 簡訊、MMS 和 RCS 提供者
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定簡訊/MMS/RCS 訊息的 Twilio 提供者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立簡訊/MMS/RCS 管道設定
 

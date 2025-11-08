@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理條件規則
 

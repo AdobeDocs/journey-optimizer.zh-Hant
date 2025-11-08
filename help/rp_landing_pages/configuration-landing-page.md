@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 監視電子郵件傳遞能力和信譽
 

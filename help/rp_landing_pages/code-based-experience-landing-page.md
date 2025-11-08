@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您將高度個人化的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定程式碼型管道
 

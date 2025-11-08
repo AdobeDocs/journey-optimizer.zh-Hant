@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設計和最佳化電子郵件內容
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 管理電子郵件選擇退出
 

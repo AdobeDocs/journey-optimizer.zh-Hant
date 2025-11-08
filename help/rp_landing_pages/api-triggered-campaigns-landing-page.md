@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 安排由 API 觸發的行銷活動
 

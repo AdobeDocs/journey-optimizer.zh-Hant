@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用資料來源
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Experience Platform 資料來源
 

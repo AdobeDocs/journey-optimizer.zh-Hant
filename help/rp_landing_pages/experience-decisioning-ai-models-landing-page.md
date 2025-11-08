@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 開始使用 AI 模型
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 逐步指南：建立 AI 模型
 
