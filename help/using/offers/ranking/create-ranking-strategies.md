@@ -96,4 +96,4 @@ ht-degree: 23%
 
 瞭解如何建立個人化最佳化模型，以及如何將其套用至決定。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445962?captions=chi_hant&quality=12)
