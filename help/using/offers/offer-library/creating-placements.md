@@ -69,11 +69,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應該在API回應中傳回選件的內容和中繼資料。 您可以選擇包含所有中繼資料或僅包含特定欄位。「包含後設資料」的值預設為「真」。
 
-   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
+   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=zh-Hant)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
 
    >[!NOTE]
    >
-   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
+   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=zh-Hant&)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
    >
    >如果您使用[批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此畫面或您的API要求中設定這些引數。 如果畫面和APi請求之間的引數值不相符，則會使用請求值。
 

@@ -30,7 +30,7 @@ ht-degree: 0%
 
 使用Adobe Experience Platform資料來摘要決策，步驟如下：
 
-1. 在Adobe Experience Platform及其相關之&#x200B;**資料集**&#x200B;中建立&#x200B;**體驗事件結構描述**。 [瞭解如何建立結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. 在Adobe Experience Platform及其相關之&#x200B;**資料集**&#x200B;中建立&#x200B;**體驗事件結構描述**。 [瞭解如何建立結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 建立新的Adobe Experience Platform資料流：
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 如需如何使用Adobe Experience Platform的詳細指引，請探索下列資源：
 
-* [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}
+* [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview){target="_blank"}

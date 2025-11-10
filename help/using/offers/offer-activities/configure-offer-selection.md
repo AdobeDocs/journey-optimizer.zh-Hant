@@ -63,7 +63,7 @@ ht-degree: 7%
 
 ## AI 排名 {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 您也可以使用經過訓練的模型系統，藉由選取AI模型，自動排名要針對指定設定檔顯示的優惠方案。 在[本節](../ranking/create-ranking-strategies.md)中瞭解如何建立AI模型。
 
