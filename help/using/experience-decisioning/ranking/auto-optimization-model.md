@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: 自動最佳化模型
 description: 進一步瞭解自動最佳化模型
 feature: Ranking, Decision Management
@@ -8,7 +8,7 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 +++**技術詳細資料**
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
 
 從貝葉斯定理：
 

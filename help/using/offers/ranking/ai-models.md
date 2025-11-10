@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: 開始使用AI模型
 description: 瞭解允許排名優惠方案的AI模型
 badge: label="舊版" type="Informative"
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
@@ -64,4 +64,4 @@ ht-degree: 15%
 
 瞭解如何為Offer Decisioning建立AI模型，以及如何將其套用至決策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445655?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
