@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1415'
 ht-degree: 4%
 
 ---
@@ -183,7 +183,7 @@ Journey Optimizer Campaign Orchestration可以先在模型型結構描述上建�
 
 +++ 協調的行銷活動是否支援決策？
 
-可以。決策功能可使用來自協調行銷活動的關聯式資料。 在模型架構與XDM架構連線後，XDM資料便可用於決策中。
+否，協調的行銷活動不支援決策功能。
 
 +++
 
