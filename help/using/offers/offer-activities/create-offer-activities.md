@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 建立決定
 description: 了解如何建立決策
 badge: label="舊版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 7%
@@ -43,7 +45,7 @@ ht-degree: 7%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
 
    ![](../assets/activities-name.png)
 
@@ -80,7 +82,7 @@ ht-degree: 7%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
 
    ![](../assets/activities-collection.png)
 
@@ -128,7 +130,7 @@ ht-degree: 7%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 建立集合限定詞
 description: 瞭解如何為優惠方案建立集合限定詞
 badge: label="舊版" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 23%
@@ -36,7 +38,7 @@ ht-degree: 23%
 
 1. 移至&#x200B;**[!UICONTROL 集合限定詞]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立集合限定詞]**。
 
-1. 指定集合限定詞的名稱，然後按一下[儲存]。**&#x200B;**
+1. 指定集合限定詞的名稱，然後按一下[儲存]。****
 
    ![](../assets/tags_create.png)
 
