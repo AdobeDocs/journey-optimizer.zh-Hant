@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 使用協調行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用合併連結活動
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 建置客群活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 變更維度活動
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管道活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 合併活動
 
