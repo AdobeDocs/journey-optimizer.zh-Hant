@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 98%
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
             + [擷取資料](using/orchestrated/ingest-data.md)
          + [建立目標維度](using/orchestrated/target-dimension.md)
-         + [設定管道設定](using/orchestrated/channel-config.md)
+         + [設定頻道設定](using/orchestrated/channel-config.md)
       + 啟動您的首次協調行銷活動 {#launch}
          + [啟動您的首次協調行銷活動](/help/rp_landing_pages/launch-landing-page.md)
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [可到 Journey Optimizer 設定 LINE 頻道](using/line/line-configuration.md)
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
+   + 已上線活動 {#live-activity}
+      + [開始使用即時活動](using/mobile-live/get-started-mobile-live.md)
+      + [建立已上線活動](using/mobile-live/create-mobile-live.md)
+      + [常見問題集](using/mobile-live/mobile-live-faq.md)
+      + 設定內容卡管道 {#configure}
+         + [在Journey Optimizer中設定已上線活動](using/mobile-live/mobile-live-configuration.md)
+         + [設定即時活動SDK整合](using/mobile-live/mobile-live-configuration-sdk.md)
 + 內容管理 {#content-management}
    + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 個人化 {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
          + [實驗行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
          + [應用程式內行銷活動報告](using/reports/campaign-global-report-cja-inapp.md)
+         + [即時活動行銷活動報告](using/reports/campaign-global-report-cja-activity.md)
          + [推播通知行銷活動報告](using/reports/campaign-global-report-cja-push.md)
          + [簡訊行銷活動報告](using/reports/campaign-global-report-cja-sms.md)
          + [網頁行銷活動報告](using/reports/campaign-global-report-cja-web.md)
@@ -702,7 +710,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
