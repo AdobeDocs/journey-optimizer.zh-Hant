@@ -3,9 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 在您的協調行銷活動中使用測試活動
 description: 了解如何使用測試活動
+hide: true
+hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 83%

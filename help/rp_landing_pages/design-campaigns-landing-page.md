@@ -5,9 +5,9 @@ title: 協調行銷活動
 description: 協調行銷活動
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用合併連結活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 合併活動
 
@@ -91,5 +91,5 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 - **[調和活動](../using/orchestrated/activities/reconciliation.md)** — 將外部或未識別的資料與現有資源比對，以準確定位目標。
 - **[儲存客群活動](../using/orchestrated/activities/save-audience.md)** — 建立或更新可重複使用的客群，以供將來定位目標。
 - **[分割活動](../using/orchestrated/activities/split.md)** — 使用篩選器或族群大小將族群分割成子集。
-- **[測試活動](../using/orchestrated/activities/test.md)** — 根據指定的標準啟用條件式轉換。
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[等待活動](../using/orchestrated/activities/wait.md)** — 在活動之間引入延遲，以獲得更佳的時機和相關性。
