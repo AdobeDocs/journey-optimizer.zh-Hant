@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 36%
+source-wordcount: '1102'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 36%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}，以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -74,3 +74,79 @@ ht-degree: 36%
 * [!DNL Journey Optimizer]已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。 如果呼叫與自訂動作相關聯的外部系統並未導致錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。
+
+## 瞭解歷程步驟事件中的重複專案 {#duplicate-step-events}
+
+### 為什麼會看到具有相同歷程例項、設定檔、節點和請求ID的多個專案？
+
+查詢歷程步驟事件資料時，您可能會偶爾觀察同一歷程執行的重複記錄專案。 這些專案會針對以下專案共用相同的值：
+
+* `profileID` — 設定檔身分
+* `instanceID` — 歷程執行個體識別碼
+* `nodeID` — 特定歷程節點
+* `requestID` — 要求識別碼
+
+但是，這些專案有&#x200B;**個不同的`_id`值**，這是區分此案例與實際資料複製的關鍵指標。
+
+### 導致此行為的原因是什麼？
+
+這是因為Adobe Journey Optimizer微服務架構中的後端自動縮放操作（也稱為「重新平衡」）所導致。 在高負載或系統最佳化期間：
+
+1. 歷程步驟事件開始處理並記錄到歷程步驟事件資料集
+2. 自動縮放作業會重新分配各服務執行處理的工作負載
+3. 另一個服務執行個體可能會重新處理相同的事件，以不同的`_id`建立第二個記錄專案
+
+這是預期的系統行為，且&#x200B;**運作方式符合設計**。
+
+### 對歷程執行或訊息傳送是否有任何影響？
+
+**否**&#x200B;影響僅限於記錄。 Adobe Journey Optimizer在訊息執行層設有內建的重複資料刪除機制，可確保：
+
+* 每個設定檔僅會傳送一則訊息（電子郵件、簡訊、推播通知等）
+* 動作只會執行一次
+* 歷程執行正確進行
+
+您可查詢`ajo_message_feedback_event_dataset`或檢查動作執行記錄來驗證此訊息 — 即使有重複的歷程步驟事件專案，您仍會看到實際只傳送了一則訊息。
+
+### 如何在查詢中識別這些案例？
+
+分析歷程步驟事件資料時：
+
+1. **檢查`_id`欄位**： True系統層級重複專案會有相同的`_id`。 不同的`_id`值表示與上述重新平衡案例不同的記錄專案。
+
+2. **確認訊息傳送**：與訊息回饋資料互動參照，以確認只傳送了一則訊息：
+
+   ```sql
+   SELECT
+     timestamp,
+     _experience.customerJourneyManagement.messageExecution.messageExecutionID,
+     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+   FROM ajo_message_feedback_event_dataset
+   WHERE
+     _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journeyVersionID>'
+     AND TO_JSON(identityMap) like '%<profileID>%'
+   ORDER BY timestamp DESC;
+   ```
+
+3. **依唯一識別碼群組**：計算執行次數時，請使用`_id`取得正確計數：
+
+   ```sql
+   SELECT
+     COUNT(DISTINCT _id) as unique_executions
+   FROM journey_step_events
+   WHERE
+     _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+     AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
+   ```
+
+### 如果我觀察到此現象該怎麼辦？
+
+這是正常的系統行為，**不需要任何動作**。 重複的記錄並不表示您的歷程設定或訊息傳送有問題。
+
+如果您是根據歷程步驟事件建置報表或分析：
+
+* 使用`_id`作為計算唯一事件的主索引鍵
+* 分析訊息傳遞時，與訊息意見回饋資料集互動參照
+* 請注意，計時分析可能會顯示彼此在幾秒內叢集的專案
+
+如需有關查詢歷程步驟事件的詳細資訊，請參閱[查詢範例](../reports/query-examples.md)。

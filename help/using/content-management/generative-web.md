@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,13 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 >[!TAB 網頁文字產生]
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
 1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以僅鎖定特定內容。 並存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
 
-   ![](assets/web-gen-full-1.png){zoomable="yes"}
+   ![網頁設計工具，已選取文字元件並顯示AI助理功能表按鈕](assets/web-gen-full-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -50,7 +50,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/web-gen-full-2.png){zoomable="yes"}
+   網頁文字的![AI小幫手面板，包含品牌選擇器、提示欄位和提示程式庫按鈕](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -59,13 +59,13 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
    * **[!UICONTROL 音調]**：您的網頁音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
-   ![](assets/web-gen-full-3.png){zoomable="yes"}
+   ![文字設定面板，顯示網頁內容的[通訊策略]、[語言]、[音調]和[文字長度]滑桿](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -75,7 +75,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/web-gen-full-4.png){zoomable="yes"}
+   ![產生的網頁文字變化與品牌對齊分數百分比指標](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -91,7 +91,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/web-gen-full-5.png){zoomable="yes"}
+   ![調整網頁文字的功能表，顯示精緻、摘要、重新片語、使用較簡單的語言搭配色調下拉式清單](assets/web-gen-full-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -105,7 +105,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 在以下範例中，瞭解如何在Journey Optimizer中利用AI助理來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立並設定網頁之後，請按一下[編輯網頁] **&#x200B;**。
+1. 建立並設定網頁之後，請按一下[編輯網頁] ****。
 
    如需如何設定網頁的詳細資訊，請參閱[此頁面](../web/create-web.md)。
 
@@ -113,7 +113,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL 顯示AI小幫手]**。
 
-   ![](assets/web-gen-img-1.png){zoomable="yes"}
+   ![已選取影像資產的網頁設計工具，且已開啟[顯示AI小幫手]面板以產生影像](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
@@ -125,7 +125,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/web-gen-img-2.png){zoomable="yes"}
+   使用參考樣式切換、品牌選擇器和提示欄位![為網頁產生](assets/web-gen-img-2.png){zoomable="yes"}AI助理影像
 
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
@@ -136,13 +136,13 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/web-gen-img-3.png){zoomable="yes"}
+   ![具有外觀比例、內容型別、視覺強度、色彩和色調、光線和構成的網頁影像設定面板](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -152,7 +152,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/web-gen-img-4.png){zoomable="yes"}
+   ![產生網頁影像變化，具有品牌一致性分數和預覽控制項](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -163,7 +163,7 @@ Journey Optimizer中的AI Assistant可以建議更可能引起觀眾共鳴的不
 
    * **[!UICONTROL 儲存]**&#x200B;以儲存資產以供稍後存取。
 
-   ![](assets/web-gen-img-5.png){zoomable="yes"}
+   ![調整顯示「產生類似專案」、「在Adobe Express中編輯」和「儲存」按鈕的網頁影像選項](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 

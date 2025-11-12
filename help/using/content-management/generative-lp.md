@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 2%
+source-wordcount: '1887'
+ht-degree: 1%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 2%
 
 在下列範例中，我們將利用AI助理來調整現有的登入頁面範本。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
 1. 視需要個人化您的版面配置，並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![已開啟具有AI助理面板的登陸頁面設計工具，以產生完整頁面內容](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示程式庫]**，它提供各種提示概念，以改善您的登陸頁面。
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   登陸頁面的![AI助理具有提示欄位和提示程式庫存取權，可產生完整頁面](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -58,7 +58,7 @@ ht-degree: 2%
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   登陸頁面的![文字設定面板，顯示通訊策略、語言和音調選項](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
@@ -68,13 +68,13 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![具有內容型別、視覺強度、色彩和色調、光線和組合的登陸頁面的影像設定面板](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -84,7 +84,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![產生具有品牌一致性分數百分比指示器和預覽控制項的登陸頁面變數](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![調整登陸頁面的功能表，顯示重新片語、使用較簡單的語言搭配語調和通訊策略下拉式清單](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -108,13 +108,13 @@ ht-degree: 2%
 
 在下列範例中，我們將利用AI助理來增強登陸頁面的內容。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
 1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以僅鎖定特定內容。 並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![已選取文字元件的登入頁面設計工具，以及用於產生文字的AI助理面板](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示程式庫]**，其中提供各種提示概念，以改善您的登入頁面。
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![為具有提示欄位和提示程式庫按鈕的登陸頁面產生AI助理文字](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -131,14 +131,14 @@ ht-degree: 2%
    * **[!UICONTROL 膚色]**：登陸頁面的膚色應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![具有通訊策略、語言、音調和文字長度滑桿之登陸頁面的文字設定](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -148,7 +148,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![產生具有品牌對齊分數百分比和選取選項的登陸頁面文字變化](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -164,7 +164,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![調整登陸頁面文字的功能表，顯示精緻、摘要、重新片語、使用較簡單的語言搭配色調下拉式清單](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -178,7 +178,7 @@ ht-degree: 2%
 
 在以下範例中，瞭解如何運用AI Assistant來最佳化和改善您的資產，確保更方便使用者的體驗。
 
-1. 建立及設定您的登入頁面後，請按一下[編輯內容]。**&#x200B;**
+1. 建立及設定您的登入頁面後，請按一下[編輯內容]。****
 
    如需如何設定登入頁面的詳細資訊，請參閱[此頁面](../landing-pages/create-lp.md)。
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL AI小幫手]**。
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![已選取影像資產且已開啟AI助理面板以產生影像的登陸頁面設計工具](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
@@ -194,7 +194,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示程式庫]**，其中提供各種提示概念，以改善您的登入頁面。
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   使用參考樣式切換、提示欄位和提示程式庫為登陸頁面產生![AI助理影像](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
@@ -205,13 +205,13 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![登陸頁面的影像設定，包含外觀比例、內容型別、視覺強度、色彩和色調、光線和構成](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -221,7 +221,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![產生具有品牌一致性分數百分比和預覽控制項的登陸頁面影像變化](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -232,7 +232,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 儲存]**&#x200B;以儲存資產以供稍後存取。
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![調整顯示「產生類似專案」、「在Adobe Express中編輯」和「儲存」按鈕之登入頁面影像的選項](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 

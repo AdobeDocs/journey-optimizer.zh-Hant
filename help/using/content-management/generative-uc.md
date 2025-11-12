@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 使用現有內容
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![顯示AI助理重複使用現有行銷活動內容以產生新變化的動畫示範](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 設定行銷活動後，選取&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 探索可用的&#x200B;**[!UICONTROL 變數]**&#x200B;並按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以全熒幕檢視選取的變數。
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ## 調整變數
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![使用「重新片語」和「摘要」選項，以動畫方式示範AI產生的內容變化](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 設定並設定行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中輸入您想要的請求，並視需要修改設定，以調整內容。
 
-1. 準備就緒後，按一下[產生]。**&#x200B;**
+1. 準備就緒後，按一下[產生]。****
 
 1. 檢閱產生的&#x200B;**[!UICONTROL 變數]**&#x200B;並選取&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選選項的全熒幕檢視。
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
 ## 產生類似影像
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![根據所選AI產生的影像產生類似影像變化的動畫示範](assets/do-not-localize/uc-image-similar.gif)
 
 1. 設定行銷活動後，選取&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 ## 上傳樣式參考
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![上傳參考影像以引導AI助理影像產生樣式的動畫示範](assets/do-not-localize/uc-image-reference.gif)
 
 1. 設定並設定電子郵件行銷活動後，按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -105,7 +105,7 @@ ht-degree: 3%
 
 1. 指定要在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中產生的內容，並視需要調整設定，以精簡內容。
 
-1. 當您對提示感到滿意時，請按一下[產生]。**&#x200B;**
+1. 當您對提示感到滿意時，請按一下[產生]。****
 
 1. 檢閱&#x200B;**[!UICONTROL 變數建議]**，以找出您偏好的資產。
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 ## 跨支援的語言產生內容{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![AI Assistant的動畫示範，產生多種語言的內容，包括法文、西班牙文和德文](assets/do-not-localize/gen-ai-language.gif)
 
 1. 設定並設定行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示，並為您產生的內容選取所需的&#x200B;**[!UICONTROL 語言]**。
 
-1. 視需要進一步個人化您的提示，然後按一下[產生]。**&#x200B;**
+1. 視需要進一步個人化您的提示，然後按一下[產生]。****
 
 1. 以您選取的語言檢閱&#x200B;**[!UICONTROL 變數建議]**。
 

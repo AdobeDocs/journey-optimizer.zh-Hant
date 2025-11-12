@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '629'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 1. 存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   ![已開啟含有AI助理的SMS訊息編輯器面板，其中顯示品牌選擇器和提示欄位](assets/sms-genai-1.png){zoomable="yes"}
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![SMS的AI小幫手，包含品牌選擇器、提示欄位和提示程式庫存取按鈕](assets/sms-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -57,13 +57,13 @@ ht-degree: 5%
    * **[!UICONTROL 音調]**：確定文字適合您的對象和目的。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   SMS的![文字設定面板顯示通訊策略、語言、音調和長度滑桿控制項](assets/sms-genai-3.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -73,7 +73,7 @@ ht-degree: 5%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![產生的SMS變數具有品牌一致性分數百分比指示器和預覽選項](assets/sms-genai-5.png){zoomable="yes"}
 
 1. 瀏覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能並微調您的偏好設定變化：
 
@@ -85,7 +85,7 @@ ht-degree: 5%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![調整顯示重新片語的SMS選項，使用較簡單的語言搭配音調和通訊策略下拉式清單](assets/sms-genai-4.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 

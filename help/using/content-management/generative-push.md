@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 1. 存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
 
-   ![](assets/push-genai-full-1.png){zoomable="yes"}
+   ![已開啟具有AI助理的推播通知編輯器面板，顯示品牌和提示選項](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容選項。
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/push-genai-full-2.png){zoomable="yes"}
+   ![具有提示欄位的推播通知的AI助理，標題訊息和影像的欄位選取器，以及提示資料庫](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. 選擇要產生的欄位： **[!UICONTROL 標題]**、**[!UICONTROL 訊息]**&#x200B;和/或&#x200B;**[!UICONTROL 影像]**。
 
@@ -68,7 +68,7 @@ ht-degree: 2%
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：您的推播通知音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
-   ![](assets/push-genai-full-3.png){zoomable="yes"}
+   ![推播通知的文字設定面板，顯示通訊策略、語言和音調下拉式清單](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
@@ -78,13 +78,13 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/push-genai-full-5.png){zoomable="yes"}
+   ![具有內容型別、視覺強度、色彩和色調、光線和構成選項的推播通知影像設定](assets/push-genai-full-5.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![產生推播通知變化，具有品牌一致性分數百分比和預覽控制項](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/push-genai-full-6.png){zoomable="yes"}
+   ![使用更簡單的語言、音調和通訊策略控制調整推播通知的選項](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -132,7 +132,7 @@ ht-degree: 2%
 
 1. 存取您&#x200B;**[!UICONTROL 標題]**&#x200B;或&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位旁的&#x200B;**[!UICONTROL 使用AI助理編輯文字]**&#x200B;功能表。
 
-   ![](assets/push-genai-1.png){zoomable="yes"}
+   ![推播通知撰寫畫面的[標題]和[訊息]欄位旁有[使用AI助理編輯文字]按鈕](assets/push-genai-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用參考內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/push-genai-2.png){zoomable="yes"}
+   ![AI小幫手文字編輯器，具有使用參考內容切換、品牌選擇器、提示欄位和提示程式庫按鈕](assets/push-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -153,13 +153,13 @@ ht-degree: 2%
    * **[!UICONTROL 音調]**：推播通知的音調應該會與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
-   ![](assets/push-genai-4.png){zoomable="yes"}
+   ![展開文字設定，顯示通訊策略、語言、音調下拉式清單和長度滑桿](assets/push-genai-4.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -167,7 +167,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![產生具有品牌對齊分數指示器的推播通知文字變化](assets/push-genai-5.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -183,7 +183,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/push-genai-6.png){zoomable="yes"}
+   ![調整功能表，顯示精緻、摘要、重新片語、使用較簡單的語言選項搭配色調下拉式清單](assets/push-genai-6.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -207,7 +207,7 @@ ht-degree: 2%
 
 1. 存取&#x200B;**[!UICONTROL 新增媒體]**&#x200B;功能表。
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![使用[新增媒體]按鈕的推播通知編輯器，以在通知中包含影像](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
@@ -219,7 +219,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![使用參考樣式切換、品牌選擇器和提示欄位產生推播的AI助理影像](assets/push-gen-img.png){zoomable="yes"}
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
@@ -233,7 +233,7 @@ ht-degree: 2%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -250,7 +250,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 儲存]**&#x200B;以儲存資產以供稍後存取。
 
-   ![](assets/push-gen-img-2.png){zoomable="yes"}
+   ![調整顯示「產生類似專案」、「在Adobe Express中編輯」和「儲存」按鈕的推播通知影像選項](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 

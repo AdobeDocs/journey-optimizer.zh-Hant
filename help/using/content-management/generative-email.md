@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 2%
+source-wordcount: '1978'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 1. 視需要個人化您的版面配置，並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   電子郵件Designer中的![AI助理面板顯示品牌選擇和提示欄位](assets/full-email-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![提示欄位，其中提示程式庫按鈕顯示預先撰寫的提示建議](assets/full-email-2.png){zoomable="yes"}
 
 1. 您可以切換&#x200B;**[!UICONTROL 主旨列]**&#x200B;和&#x200B;**[!UICONTROL Preheader]**&#x200B;選項以將其包含在變體產生中。
 
@@ -62,7 +62,7 @@ ht-degree: 2%
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![文字設定面板，顯示通訊策略、語言和音調選項](assets/full-email-4.png){zoomable="yes"}
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
@@ -72,15 +72,15 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![影像設定面板，顯示內容型別、視覺強度、色彩和色調、光線和構成選項](assets/full-email-6.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![具有上傳品牌資產按鈕的品牌資產區段和先前已上傳資產的清單](assets/full-email-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**，然後按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![品牌一致性分數面板顯示具有詳細一致性量度的百分比分數](assets/full-email-7.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![調整功能表，顯示「重述」和「使用較簡單的語言選項」以及「語調」和「通訊策略」下拉式清單](assets/full-email-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以僅鎖定特定內容。 並存取&#x200B;**[!UICONTROL AI助理]**&#x200B;功能表。
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![已選取文字元件，且在右側面板中開啟AI助理功能表時以電子郵件傳送Designer](assets/text-genai-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 使用原始內容]**&#x200B;選項，以根據選取的內容個人化新內容。
 
@@ -130,7 +130,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![具有提示欄位、品牌選擇器和提示程式庫存取權的AI助理文字產生面板](assets/text-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
@@ -139,15 +139,15 @@ ht-degree: 2%
    * **[!UICONTROL 音調]**：您的電子郵件音調應該會對您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
    * **文字長度**：使用滑桿來選取所要的文字長度。
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![展開文字設定，顯示通訊策略、語言、音調和文字長度滑桿控制項](assets/text-genai-4.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![Brand Assets下拉式功能表顯示先前上傳之品牌資產的切換](assets/text-genai-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 1. 瀏覽產生的&#x200B;**[!UICONTROL 變數]**。
 
@@ -157,7 +157,7 @@ ht-degree: 2%
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![產生文字變化，並包含品牌對齊分數百分比指示器和預覽選項](assets/text-genai-6.png){zoomable="yes"}
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    您也可以變更文字的&#x200B;**[!UICONTROL 音調]**&#x200B;和&#x200B;**[!UICONTROL 通訊策略]**。
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![精進選項功能表，顯示精緻、摘要、重述及使用較簡單的語言按鈕與色調下拉式清單](assets/text-genai-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -197,7 +197,7 @@ ht-degree: 2%
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL AI小幫手]**。
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![已選取影像資產，且已開啟AI助理面板以產生影像，並透過電子郵件傳送Designer](assets/image-genai-1.png){zoomable="yes"}
 
 1. 啟用AI助理的&#x200B;**[!UICONTROL 參考樣式]**&#x200B;選項，以根據參考內容個人化新內容。 您也可以上傳影像以將內容新增至您的變數。
 
@@ -207,7 +207,7 @@ ht-degree: 2%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![AI助理影像產生面板，具有參考樣式切換、品牌選擇器和提示欄位](assets/image-genai-2.png){zoomable="yes"}
 
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
@@ -218,13 +218,13 @@ ht-degree: 2%
    * **[!UICONTROL 照明]**：這指的是影像中的閃電，它會塑造大氣層，並反白標示特定的元素。
    * **[!UICONTROL 構成]**：這指的是影像框架中元素的排列
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![影像設定面板，包含外觀比例、內容型別、視覺強度、色彩和色調、光線和構成控制項](assets/image-genai-4.png){zoomable="yes"}
 
 1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 在您滿意提示組態之後，請按一下[產生]。**&#x200B;**
+1. 在您滿意提示組態之後，請按一下[產生]。****
 
 1. 瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
 
@@ -247,7 +247,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 儲存]**&#x200B;以儲存資產以供稍後存取。
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![調整顯示產生類似專案、在Adobe Express中編輯以及儲存按鈕之產生影像的選項](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
