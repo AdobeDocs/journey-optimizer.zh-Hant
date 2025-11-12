@@ -73,47 +73,47 @@ ht-degree: 1%
 
    請注意，下列裝載範例中的大部分欄位是必填欄位，只有`requestId`、`dismissal-date`和`alert`是選用欄位。
 
-       ``json
-       {
+       &grave;&grave;json
+       &lbrace;
        &quot;requestId&quot;： &quot;your-request-id&quot;，
        &quot;campaignId&quot;： &quot;your-campaign-id&quot;，
-       「收件者」： [
-       {
+       「收件者」： &lbrack;
+       &lbrace;
        &quot;type&quot;： &quot;aep&quot;，
        &quot;userId&quot;： &quot;testemail@gmail.com&quot;，
        &quot;namespace&quot;： &quot;email&quot;，
-       &quot;context&quot;： {
-       &quot;requestPayload&quot;： {
-       &quot;aps&quot;： {
+       &quot;context&quot;： &lbrace;
+       &quot;requestPayload&quot;： &lbrace;
+       &quot;aps&quot;： &lbrace;
        &quot;content-available&quot;： 1，
        &quot;timestamp&quot;： 1756984054，              //目前紀元時間
        &quot;discipation-date&quot;： 1756984084，         //選擇性 — 當event=&quot;end&quot;
 時自動移除       &quot;event&quot;： &quot;update&quot;，                    //開始 | 更新 | end
        
    來自FoodDeliveryLiveActivityAttributes    的
-//欄位       &quot;content-state&quot;： {
+//欄位       &quot;content-state&quot;： &lbrace;
        &quot;orderStatus&quot;： &quot;Delivered&quot;
        ，
        
        &quot;attributes-type&quot;： &quot;FoodDeliveryLiveActivityAttributes&quot;，
-       &quot;attributes&quot;： {
+       &quot;attributes&quot;： &lbrace;
        &quot;restaurantName&quot;： &quot;Pizza&quot;，
-       &quot;liveActivityData&quot;： {
+       &quot;liveActivityData&quot;： &lbrace;
        &quot;liveActivityID&quot;： &quot;orderId1&quot;       //客戶參考識別碼
-       }
+       &rbrace;
        ，
        
-       「警示」： {
+       「警示」： &lbrace;
        &quot;title&quot;： &quot;Order Delivered！&quot;，
        「正文」：「您的披薩已到。」
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrack;
+       &rbrace;
        「
-」   +++
++++」   
 
 設計您的即時活動後，您可以使用[內建報告](../reports/campaign-global-report-cja-activity.md)來追蹤測量即時活動的影響。
