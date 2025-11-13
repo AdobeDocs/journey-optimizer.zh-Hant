@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 1%
 ## 將RTF文字新增至可自訂的片段 {#rich-text}
 
 RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新增到可編輯的片段中。 若要執行此操作，請遵循下列步驟。
-
-➡️ [瞭解如何在此影片中新增並使用RTF文字到可編輯的片段](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### 建立包含RTF文字的片段 {#add-rich-text}
 
@@ -190,8 +190,10 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## 作法影片 {#video}
+<!--
+## How-to video {#video}
 
-本影片說明如何讓片段中的HTML元件可編輯，以動態更新內容和樣式。
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464379/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
