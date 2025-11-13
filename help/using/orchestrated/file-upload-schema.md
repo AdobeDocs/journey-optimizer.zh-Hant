@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
-description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
+description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
 
-# 使用DDL檔案建立模型型方案 {#file-upload-schema}
+# 使用DDL檔案建立關聯式結構描述 {#file-upload-schema}
 
-透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的模型型資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
+透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的關聯式資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
 
 您可以透過介面手動建立結構描述，或使用DDL檔案大量匯入結構描述。
 
-本節提供如何透過上傳DDL （資料定義語言）檔案在Adobe Experience Platform中建立模型架構的逐步指引。 使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
+本章節提供如何透過上傳 DDL (資料定義語言) 檔案，可在 Adobe Experience Platform 中建立關聯式結構描述的逐步指南。使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
 
-1. [上傳DDL檔案](#ddl-upload)以建立模型架構並定義其結構。
+1. [上傳DDL檔案](#ddl-upload)以建立關聯式結構描述並定義其結構。
 
 1. [定義資料模型中資料表之間的關係](#relationships)。
 
-1. [連結結構描述](#link-schema)，以將您的模型型資料與現有的設定檔實體（例如收件者或品牌）連結。
+1. [連結結構描述](#link-schema)以連線您的關聯式資料與現有的設定檔實體，例如收件者或品牌。
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解以模型為基礎的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -37,7 +37,7 @@ ht-degree: 46%
 
 支援以Excel為基礎的結構描述檔案上傳。 下載[提供的範本](assets/template.zip)以輕鬆準備您的結構描述定義。
 
-+++在Adobe Experience Platform中建立模型架構時，支援下列功能
++++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
 
 * **列舉**\
   以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
@@ -66,7 +66,7 @@ ht-degree: 46%
 
 1. 按一下&#x200B;**建立結構描述**。
 
-1. 選取&#x200B;**[!UICONTROL 以模型為基礎的]**&#x200B;作為您的&#x200B;**結構描述型別**。
+1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;作為您的&#x200B;**結構描述型別**。
 
    ![](assets/admin_schema_1.png)
 
@@ -182,7 +182,7 @@ ht-degree: 46%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

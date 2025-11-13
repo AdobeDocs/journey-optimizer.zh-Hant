@@ -5,7 +5,7 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 13%
@@ -247,7 +247,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Campaign Orchestration是否僅存取透過批次載入的資料，或查詢即時更新的表格（例如Analytics資料）？
 
-Journey Optimizer Campaign Orchestration能以模型型結構描述為基礎，建立臨機查詢。 目前模型架構僅支援批次來源。 此外，它支援從任何型別的Adobe Experience Platform對象讀取對象活動。
+Journey Optimizer Campaign Orchestration可以在關聯式結構描述之上建立臨時查詢。 關聯式結構描述目前僅支援批次來源。 此外，它支援從任何型別的Adobe Experience Platform對象讀取對象活動。
 
 **了解更多**
 

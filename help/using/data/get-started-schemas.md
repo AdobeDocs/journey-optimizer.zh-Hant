@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] 仰賴 **Adobe Experience Platform 結構描述**，以一致且可重複使用的方式描述資料結構。結構描述會提供真實物件 (例如個人) 等抽象定義，還會概述應加入物件的每個執行個體的資料 (例如名字、生日等)。將資料擷取至 Experience Platform 時，其結構一律符合 **XDM 結構描述**。
 
-## 標準與基於模型的結構描述
+## 標準與關聯式結構描述
 
 Adobe Experience Platform 中有兩種結構描述：
 
@@ -34,22 +34,22 @@ Adobe Experience Platform 中有兩種結構描述：
 
   ➡️ [觀看這段影片，了解如何建立和設定標準結構描述](#video-schema) (影片)
 
-* **基於模型的結構描述**&#x200B;是不使用類別或欄位群組的扁平、非階層式結構描述。它們用於擷取關聯式實體的記錄資料，主要用於[!DNL Journey Optimizer]**協調行銷活動**。
+* **關聯式結構描述**&#x200B;是不使用類別或欄位群組的扁平、非階層式結構描述。它們用於擷取關聯式實體的記錄資料，主要用於[!DNL Journey Optimizer]**協調行銷活動**。
 
   關聯式實體的範例包括：
    * 預訂、合約或訂閱
    * 產品或目錄
    * 商店、地點或合作夥伴
 
-  使用基於模型的結構描述時，您可以為每個實體傳送一封訊息 (例如，每個預訂、每個訂閱)、根據實體屬性 (例如，產品類別、商店位置) 建立區段，以及透過聯絡連結到實體的所有聯絡人來改善定址能力。
+  使用關聯式結構描述時，您可以為每個實體傳送一封訊息 (例如，每個預訂、每個訂閱)、根據實體屬性 (例如，產品類別、商店位置) 建立區段，以及透過聯絡連結到實體的所有聯絡人來改善定址能力。
 
-  基於模型的結構描述的運作方式：
+  關聯式結構描述的運作方式：
 
    1. **手動建立結構描述或透過 DDL 匯入**
    1. **連結結構描述**&#x200B;以定義實體和人員之間的關係 (例如，連結至成員的忠誠度交易、連結至品牌的獎勵)。
    1. 從支援的來源&#x200B;**將資料擷取到**&#x200B;您的資料集中。
 
-  ➡️ [了解如何管理基於模型的結構描述和資料集](../orchestrated/gs-schemas.md)
+  ➡️ [了解如何管理關聯式結構描述和資料集](../orchestrated/gs-schemas.md)
 ➡️ [開始使用協調行銷活動](../orchestrated/gs-schemas.md)
 
 ## 作法影片{#video-schema}

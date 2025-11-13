@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
-description: 瞭解如何直接透過使用者介面建立模型型方案。
+description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 4%
 
 ---
 
-# 設定手動模型架構 {#manual-schema}
+# 設定手動關聯式結構描述 {#manual-schema}
 
-可以直接透過使用者介面建立以模型為基礎的結構描述，以啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
+關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 
 下列範例手動定義&#x200B;**忠誠會員資格**&#x200B;結構描述，以說明協調行銷活動的必要結構。
 
-1. [使用Adobe Experience Platform介面手動建立模型型結構描述](#schema)。
+1. [使用Adobe Experience Platform介面手動建立關聯式結構描述](#schema)。
 
 1. [新增屬性](#schema-attributes)，例如客戶ID、成員資格等級和狀態列位。
 
@@ -28,11 +28,11 @@ ht-degree: 4%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動以模型為基礎的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
-首先，在Adobe Experience Platform中手動建立新的模型型結構描述。 此程式可讓您從頭開始定義結構描述結構，包括其名稱和行為。
+首先，在Adobe Experience Platform中手動建立新的關聯式結構描述。 此程式可讓您從頭開始定義結構描述結構，包括其名稱和行為。
 
 1. 登入Adobe Experience Platform。
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 建立結構描述]**。
 
-1. 選取&#x200B;**[!UICONTROL 以模型為基礎的]**&#x200B;作為您的&#x200B;**結構描述型別**。
+1. 選取&#x200B;**[!UICONTROL 關聯式]**&#x200B;作為您的&#x200B;**結構描述型別**。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 4%
 
 任何用於定位的結構描述都必須包含至少一個型別`String`的身分欄位，並具有相關聯的身分名稱空間。 這可確保與Adobe Journey Optimizer的定位和身分解析功能相容。
 
-+++在Adobe Experience Platform中建立模型架構時，支援下列功能
++++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
 
 * **列舉**\
   以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
@@ -69,7 +69,7 @@ ht-degree: 4%
   架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
 
 * **複合索引鍵**\
-  以模型為基礎的結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
+  關聯式結構描述定義支援複合主索引鍵，可一起使用多個欄位以唯一識別記錄。
 
 +++
 
@@ -110,7 +110,7 @@ ht-degree: 4%
 
 建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 連結結構描述 {#link-schema}
 

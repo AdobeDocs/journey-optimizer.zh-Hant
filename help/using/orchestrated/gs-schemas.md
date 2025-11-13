@@ -2,10 +2,10 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定步驟
-description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立以模型為基礎的結構描述
+description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -13,9 +13,9 @@ ht-degree: 1%
 ---
 
 
-# 開始使用模型架構和資料集{#gs-schemas}
+# 開始使用關聯式結構描述和資料集{#gs-schemas}
 
-本指南會逐步引導您建立以模型為基礎的結構描述、設定用於協調行銷活動的資料集以及擷取資料。
+本指南會逐步引導您建立關聯式結構、設定用於協調行銷活動的資料集及擷取資料的程式。
 
 ![結構描述](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ ht-degree: 1%
 
 資料模型是邏輯和概念性的，不會與協調行銷活動中的實體實作繫結
 
-在&#x200B;**以模型為基礎的資料模型**&#x200B;中，資料會整理成與其他資料表相關的資料表。
+在&#x200B;**關聯式資料模型**&#x200B;中，資料會整理成與其他資料表相關的資料表。
 
 * 每個表格都有列（記錄）和欄（屬性）
 * 每個表格都有一個主索引鍵來唯一識別列
 * 資料表之間的關係是使用外部索引鍵來表示
 
-**模型型結構描述**&#x200B;是模型型資料模型的正式定義。
+**關聯式結構描述**&#x200B;是關聯式資料模型的正式定義。
 
 它會指定：
 
@@ -50,15 +50,15 @@ ht-degree: 1%
 * 限制
 * 跨資料表的關係
 
-在以模型為基礎的資料模型中組織結構描述或表格，就是將資料結構化成多個表格。 確保每個表格儲存一種實體/結構描述型別
+在關聯式資料模型中組織結構描述或表格，就是將資料結構化成多個表格。 確保每個表格儲存一種實體/結構描述型別
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 實施步驟 {#implementation}
 
-若要內嵌資料並建立以模型為基礎的結構描述，請遵循下列步驟：
+若要內嵌資料並建立關聯式綱要，請遵循下列步驟：
 
-1. 使用DDL檔案[手動建立](manual-schema.md)模型架構[或](file-upload-schema.md)
+1. 使用DDL檔案[手動建立](manual-schema.md)關聯式結構描述[或](file-upload-schema.md)
 
    定義資料模型的結構，包括表格、屬性和關係。 選擇在使用者介面中手動建置綱要，或上傳DDL檔案以加快設定。
 

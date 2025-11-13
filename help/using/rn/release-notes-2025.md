@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -162,8 +162,8 @@ ht-degree: 99%
 * **簡訊管道的 mTLS 支援**
 設定自訂簡訊提供者時，您現在可以選擇啟用雙向 TLS (mTLS) 驗證，這要求用戶端和伺服器在建立安全連線之前確認彼此的身分。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
 
-* **基於模型的結構描述**\
-  現在可以使用基於模型的結構描述，來支援協調行銷活動中的關聯式模型需求。[閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
+* **關聯式結構描述**\
+  現在可以使用關聯式結構描述，在協調的行銷活動中支援您的關聯式模型需求。 [閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
 
 * **歷程中的資料集查詢支援**\
   歷程中的全新&#x200B;**資料集查詢**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。[閱讀全文](../building-journeys/dataset-lookup.md) - 推出日期：2025 年 9 月 23 日
