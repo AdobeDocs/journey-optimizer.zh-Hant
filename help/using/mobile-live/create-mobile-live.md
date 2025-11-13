@@ -8,9 +8,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 1%
    >
    > 請注意，對於&#x200B;**API觸發的交易式**，不應啟用&#x200B;**[!UICONTROL 高輸送量]**&#x200B;選項。
 
-
    ![](assets/create-live-1.png)
 
 1. 從&#x200B;**[!UICONTROL 屬性]**&#x200B;區段，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
@@ -73,47 +72,48 @@ ht-degree: 1%
 
    請注意，下列裝載範例中的大部分欄位是必填欄位，只有`requestId`、`dismissal-date`和`alert`是選用欄位。
 
-       &grave;&grave;json
-       &lbrace;
-       &quot;requestId&quot;： &quot;your-request-id&quot;，
-       &quot;campaignId&quot;： &quot;your-campaign-id&quot;，
-       「收件者」： &lbrack;
-       &lbrace;
-       &quot;type&quot;： &quot;aep&quot;，
-       &quot;userId&quot;： &quot;testemail@gmail.com&quot;，
-       &quot;namespace&quot;： &quot;email&quot;，
-       &quot;context&quot;： &lbrace;
-       &quot;requestPayload&quot;： &lbrace;
-       &quot;aps&quot;： &lbrace;
-       &quot;content-available&quot;： 1，
-       &quot;timestamp&quot;： 1756984054，              //目前紀元時間
-       &quot;discipation-date&quot;： 1756984084，         //選擇性 — 當event=&quot;end&quot;
-時自動移除       &quot;event&quot;： &quot;update&quot;，                    //開始 | 更新 | end
-       
-   來自FoodDeliveryLiveActivityAttributes    的
-//欄位       &quot;content-state&quot;： &lbrace;
-       &quot;orderStatus&quot;： &quot;Delivered&quot;
-       ，
-       
-       &quot;attributes-type&quot;： &quot;FoodDeliveryLiveActivityAttributes&quot;，
-       &quot;attributes&quot;： &lbrace;
-       &quot;restaurantName&quot;： &quot;Pizza&quot;，
-       &quot;liveActivityData&quot;： &lbrace;
-       &quot;liveActivityID&quot;： &quot;orderId1&quot;       //客戶參考識別碼
-       &rbrace;
-       ，
-       
-       「警示」： &lbrace;
-       &quot;title&quot;： &quot;Order Delivered！&quot;，
-       「正文」：「您的披薩已到。」
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       「
-+++」   
+   ```json
+   {
+       "requestId": "your-request-id",
+       "campaignId": "your-campaign-id",
+       "recipients": [
+   {
+       "type": "aep",
+       "userId": "testemail@gmail.com",
+       "namespace": "email",
+       "context": {
+        "requestPayload": {
+       "aps": {
+       "content-available": 1,
+       "timestamp": 1756984054,              // current epoch time
+       "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+       "event": "update",                    // start | update | end
+   
+       // Fields from FoodDeliveryLiveActivityAttributes
+       "content-state": {
+         "orderStatus": "Delivered"
+       },
+   
+       "attributes-type": "FoodDeliveryLiveActivityAttributes",
+       "attributes": {
+         "restaurantName": "Pizza",
+         "liveActivityData": {
+           "liveActivityID": "orderId1"       // customer reference ID
+         }
+       },
+   
+       "alert": {
+         "title": "Order Delivered!",
+         "body": "Your pizza has arrived."
+       }
+     }
+   }
+   }
+   }
+   ]
+   }
+   ```
+
+   +++
 
 設計您的即時活動後，您可以使用[內建報告](../reports/campaign-global-report-cja-activity.md)來追蹤測量即時活動的影響。
