@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2771'
 ht-degree: 15%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 15%
 * 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者）
 * 使用[衝突管理工具](#conflict)監視衝突並排定您的歷程優先順序
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![具有一般設定和進階選項的[歷程屬性]設定窗格](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -183,7 +183,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -285,7 +285,7 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 1. 開啟您的歷程。
 
-1. 按一下位於歷程畫布右上角的![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 顯示退出條件]**&#x200B;圖示。
+1. 按一下位於歷程畫布右上角的![顯示退出條件圖示](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 顯示退出條件]**&#x200B;圖示。
 
 1. 選取&#x200B;**[!UICONTROL 新增退出條件]**。
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 您可以新增多個退出條件。
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![顯示歷程終止對象條件的退出條件面板](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### 以設定檔屬性為基礎的退出條件 {#profile-exit-criteria}

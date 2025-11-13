@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 跳轉，活動，歷程，分割，分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 10%
+source-wordcount: '885'
+ht-degree: 9%
 
 ---
 
@@ -76,16 +76,16 @@ ht-degree: 10%
 
 1. 設計您的&#x200B;**來源歷程**。
 
-   ![](assets/jump1.png)
+   ![歷程調色盤中的跳轉活動，用於歷程之間的轉換](assets/jump1.png)
 
 1. 在歷程的任何步驟中，從&#x200B;**[!UICONTROL ACTIONS]**&#x200B;類別新增&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動。 新增標籤和說明。
 
-   ![](assets/jump2.png)
+   ![跳轉活動設定中的目標歷程選擇下拉式清單](assets/jump2.png)
 
-1. 在&#x200B;**目標歷程**&#x200B;欄位內按一下。
-清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以&#x200B;**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
+1. 在&#x200B;**目標歷程**欄位內按一下。
+清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
 
-   ![](assets/jump3.png)
+   ![顯示目標歷程和動作引數的跳轉活動](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -94,12 +94,12 @@ ht-degree: 10%
 1. 選取您要跳至的目標歷程。
 **第一個事件**&#x200B;欄位已預先填入目標歷程第一個事件的名稱。 如果您的目標歷程包含多個事件，**[!UICONTROL 跳轉]**&#x200B;僅允許在第一個事件上。
 
-   ![](assets/jump4.png)
+   ![使用運算式編輯器進行跳轉活動的引數對應設定](assets/jump4.png)
 
 1. **動作引數**&#x200B;區段會顯示目標事件的所有欄位。 將每個欄位與來源事件或資料來源的欄位相對應，就像其他型別的動作一樣。 此資訊將在執行階段傳遞至目標歷程。
 1. 新增後續活動以完成您的來源歷程。
 
-   ![](assets/jump5.png)
+   ![測試歷程間跳轉活動的測試模式介面](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ ht-degree: 10%
 
 當在歷程中設定&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動時，會在目標歷程的開頭自動新增&#x200B;**[!UICONTROL 跳轉]**&#x200B;專案圖示。 這可協助您識別歷程是否可從外部觸發，也可從內部從&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動觸發。
 
-![](assets/jump7.png)
+![歷程流程顯示從來源歷程到目標歷程的跳轉](assets/jump7.png)
 
 ## 疑難排解 {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ ht-degree: 10%
 * 目標歷程為草稿、已關閉或已停止
 * 目標歷程的第一個事件已變更，且對應已中斷
 
-![](assets/jump6.png)
+![顯示跳轉活動執行量度的歷程分析](assets/jump6.png)

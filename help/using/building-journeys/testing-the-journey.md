@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 36c44728172313492898bf3374a37512e4c19789
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 8%
+source-wordcount: '1881'
+ht-degree: 7%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 8%
 
 1. 若要啟動測試模式，請按一下右上角的&#x200B;**[!UICONTROL 測試模式]**&#x200B;按鈕。
 
-   ![](assets/journeytest1.png)
+   歷程介面中的![測試模式按鈕](assets/journeytest1.png)
 
 1. 如果歷程至少有一個&#x200B;**等待**&#x200B;活動，請設定&#x200B;**[!UICONTROL 等待時間]**&#x200B;引數，以定義每個等待活動和事件逾時在測試模式中的持續時間。 等待和事件逾時的預設時間為10秒。 這將確保您能快速獲得測試結果。
 
-   ![](assets/journeytest_wait.png)
+   ![測試模式中的等待時間引數設定](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,15 +79,15 @@ ht-degree: 8%
 
 1. 使用&#x200B;**[!UICONTROL 觸發事件]**&#x200B;按鈕來設定事件並傳送給歷程。
 
-   ![](assets/journeyuctest1.png)
+   ![在測試模式中觸發事件按鈕](assets/journeyuctest1.png)
 
 1. 設定所需的不同欄位。 在&#x200B;**設定檔識別碼**&#x200B;欄位中，輸入用來識別測試設定檔的欄位值。 例如，可以是電子郵件地址。 請務必傳送與測試設定檔相關的事件。 請參閱[本節](#firing_events)。
 
-   ![](assets/journeyuctest1-bis.png)
+   ![包含設定檔識別碼輸入的事件設定欄位](assets/journeyuctest1-bis.png)
 
 1. 收到事件後，按一下&#x200B;**[!UICONTROL 顯示記錄]**&#x200B;按鈕以檢視測試結果並加以驗證。 請參閱[本節](#viewing_logs)。
 
-   ![](assets/journeyuctest2.png)
+   ![顯示記錄按鈕以檢視測試結果](assets/journeyuctest2.png)
 
 1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。完成測試後，您就可以發佈歷程。 請參閱[此頁面](../building-journeys/publish-journey.md)。
 
@@ -122,17 +122,17 @@ ht-degree: 8%
 
 如果您的歷程包含多個事件，請使用下拉選單選取一個事件。然後，針對每個事件，設定所傳遞的欄位以及傳送事件的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存最後用於測試工作階段的引數以供稍後使用。
 
-![](assets/journeytest4.png)
+![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/journeytest4.png)
 
 介面可讓您傳遞簡單事件引數。 如果您想要在事件中傳遞集合或其他進階物件，可以選取&#x200B;**[!UICONTROL 程式碼檢視]**&#x200B;來檢視裝載的整個程式碼並加以修改。 例如，您可以複製並貼上技術使用者準備的事件資訊。
 
-![](assets/journeytest5.png)
+![進階組態之JSON格式事件裝載的程式碼檢視](assets/journeytest5.png)
 
 技術使用者也可以使用此介面來撰寫事件裝載和觸發事件，而不必使用協力廠商工具。
 
 按一下&#x200B;**[!UICONTROL 傳送]**&#x200B;按鈕時，測試開始。 歷程中個人的進度以視覺流程表示。 當個人在歷程中移動時，路徑會逐步變成綠色。 如果發生錯誤，會在對應的步驟上顯示警告符號。 您可以將游標放在錯誤上以顯示有關錯誤的更多資訊，並存取完整的詳細資訊（如果有的話）。
 
-![](assets/journeytest6.png)
+![歷程測試視覺流程，顯示設定檔進度和任何錯誤](assets/journeytest6.png)
 
 當您在事件設定畫面中選取不同的測試設定檔，然後再次執行測試時，視覺流程會清除並顯示新個人的路徑。
 
@@ -144,7 +144,7 @@ ht-degree: 8%
 
 觸發事件時，**事件組態**&#x200B;畫面可讓您定義要在測試中傳遞的事件引數。 您可以按一下右上角的工具提示圖示來檢視事件ID條件。 規則評估的每個欄位旁也提供工具提示。
 
-![](assets/jo-event8.png)
+![具有規則評估工具提示的事件設定畫面](assets/jo-event8.png)
 
 ## 業務事件的測試模式 {#test-business}
 
@@ -161,7 +161,7 @@ ht-degree: 8%
 
 **[!UICONTROL 顯示記錄]**&#x200B;按鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 按鈕可讓您複製整個節點。 您需要手動重新整理頁面以更新歷程的測試結果。
 
-![](assets/journeytest3.png)
+![以JSON格式顯示歷程執行結果的測試記錄](assets/journeytest3.png)
 
 
 >[!NOTE]

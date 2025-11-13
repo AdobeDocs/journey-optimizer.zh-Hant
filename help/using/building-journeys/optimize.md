@@ -11,10 +11,10 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 9%
+source-wordcount: '1636'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 * 在每個歷程路徑中善用[目標定位](#targeting)規則
 * 將[條件](#conditions)套用至您的路徑
 
-![](assets/journey-optimize.png)
+![歷程活動浮動視窗中的「最佳化」按鈕](assets/journey-optimize.png)
 
 歷程上線後，會根據定義的條件評估設定檔，並根據比對條件，將設定檔從歷程傳送至適當的路徑。
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
@@ -71,13 +71,13 @@ ht-degree: 9%
 
 1. 從&#x200B;**[!UICONTROL 方法]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 實驗]**。
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![內容實驗設定面板](assets/journey-optimize-experiment.png){width=65%}
 
 1. 按一下&#x200B;**[!UICONTROL 建立實驗]**。
 
 1. 選取您想要為實驗設定的&#x200B;**[!UICONTROL 成功量度]**。 在[本節](success-metrics.md)中進一步瞭解可用的度量以及如何設定清單。
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![實驗](assets/journey-optimize-experiment-metrics.png){width=80%}的主要和額外量度選擇
 
 1. 您可以選擇將&#x200B;**[!UICONTROL 保留]**&#x200B;群組新增至您的傳遞。 此群組將不會從此實驗輸入任何路徑。
 
@@ -91,7 +91,7 @@ ht-degree: 9%
 
 1. 您可以為每個&#x200B;**[!UICONTROL 處理]**&#x200B;分配精確百分比，或直接開啟&#x200B;**[!UICONTROL 平均分配]**&#x200B;切換列。
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![具有百分比分佈的處理配置滑桿](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -103,17 +103,17 @@ ht-degree: 9%
 
    * 將[電子郵件](../email/create-email.md)活動拖放至第三個分支，接著拖放[簡訊](../sms/create-sms.md)活動（**處理C**）。
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![具有三個處理路徑的內容實驗範例](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. 在逾時或發生錯誤時，可選擇使用&#x200B;**[!UICONTROL 新增替代路徑]**&#x200B;來定義遞補動作。 [了解更多](using-the-journey-designer.md#paths)
 
 1. 選取管道動作，並使用&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕來存取設計工具。
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![頻道動作活動中的編輯內容按鈕](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. 從那裡，您可以使用左窗格針對實驗中的每個動作，在不同的內容之間導覽。 選取每個內容，並視需要加以設計。
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![顯示實驗](assets/journey-optimize-experiment-content.png){width=100%}處理的內容選取面板
 
 1. [發佈](publish-journey.md)您的歷程。
 
@@ -131,7 +131,7 @@ ht-degree: 9%
 
 ➡️使用轉換率作為成功量度（例如：購買、註冊）。
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![比較電子郵件與簡訊的管道效益實驗](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ ht-degree: 9%
 
 ➡️使用購買或取消訂閱率作為成功量度。
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![訊息頻率實驗測試一封電子郵件與三封電子郵件](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ ht-degree: 9%
 
 ➡️使用點進率或收入作為成功量度。
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![比較24小時與72小時延遲的等待時間實驗](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ ht-degree: 9%
 
 1. 從&#x200B;**[!UICONTROL 方法]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 目標規則]**。
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   在最佳化活動中選取![目標規則](assets/journey-optimize-targeting.png){width=60%}
 
 1. 按一下&#x200B;**[!UICONTROL 建立目標規則]**。
 
 1. 按一下「**[!UICONTROL 建立規則]**」>「**[!UICONTROL 新建]**」，然後使用規則產生器來定義您的條件。
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![用於建立目標定位條件的規則產生器介面](assets/journey-targeting-create-rule.png){width=100%}
 
    例如，定義忠誠度計畫的金會員規則(`loyalty.status.equals("Gold", false)`)，以及其他會員規則(`loyalty.status.notEqualTo("Gold", false)`)。
 
-   ![](assets/journey-targeting-rule.png)
+   金級與非金級會員的![忠誠度狀態目標規則](assets/journey-targeting-rule.png)
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![從[規則]功能表選取現有的鎖定目標規則](assets/journey-targeting-select-rule.png){width=70%}
 
    在此情況下，組成規則的公式只會複製到歷程活動中。 從&#x200B;**[!UICONTROL 規則]**&#x200B;選單對該規則所做的任何後續變更將不會影響歷程的副本。
 
@@ -208,7 +208,7 @@ ht-degree: 9%
 
 1. 新增規則後，您仍可加以修改。 選擇&#x200B;**[!UICONTROL 編輯內嵌]**，以使用規則產生器即時更新它，或選擇&#x200B;**[!UICONTROL 選取規則]**&#x200B;以挑選另一個現有的規則。
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![編輯內嵌或選取用於修改定位規則的規則選項](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ ht-degree: 9%
 
 1. 回到歷程中，拖放特定動作以自訂每個路徑。 例如，建立包含金級忠誠度會員個人化優惠方案的電子郵件，以及所有其他會員的簡訊提醒。
 
-   ![](assets/journey-targeting-paths.png)
+   ![含金級會員電子郵件和其他人簡訊的歷程路徑](assets/journey-targeting-paths.png)
 
 1. 如果您在定義規則設定時選取了&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項，請為自動新增的遞補路徑定義一或多個動作。
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   不合格設定檔的![遞補路徑設定](assets/journey-targeting-fallback.png){width=70%}
 
 1. 如果逾時或發生錯誤，可選用&#x200B;**[!UICONTROL 新增替代路徑]**&#x200B;定義發生問題時的替代動作。 [了解更多](using-the-journey-designer.md#paths)
 
 1. 針對目標規則設定所定義的每個群組，為每個動作設計適當的內容。 您可以順暢地為每個動作瀏覽不同的內容。
 
-   ![](assets/journey-targeting-design.png)
+   ![目標規則動作的內容設計面板](assets/journey-targeting-design.png)
 
    在此範例中，設計一封電子郵件，內含金級會員的特殊優惠方案，以及其他會員的SMS提醒。
 
@@ -254,7 +254,7 @@ ht-degree: 9%
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![以電子郵件和其他簡訊的Gold會員為目標的區段特定管道](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ ht-degree: 9%
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![使用推播或簡訊遞補進行電子郵件參與的行為型目標定位](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 9%
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![購買者交叉銷售路徑與非購買者培養路徑的購買歷程記錄](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 條件是一種[目標](#targeting)規則，可讓您根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。
 
-![](assets/journey-condition.png)
+![歷程中的條件活動，根據條件建立多個路徑](assets/journey-condition.png)
 
 瞭解如何在[本節](conditions.md)中定義條件。
 

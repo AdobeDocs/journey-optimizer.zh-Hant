@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1739'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 開始新歷程時，無法在第一步驟放入畫布的元素會隱藏。 這關係到所有動作、狀況活動、等待和反應。
 
-![](assets/journey38.png)
+![具有調色盤、畫布和屬性窗格的Journey Designer介面](assets/journey38.png)
 
 左上角的&#x200B;**[!UICONTROL 篩選專案]**&#x200B;圖示可讓您顯示下列篩選器：
 
@@ -46,23 +46,23 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 **畫布**&#x200B;是歷程設計器中的中央區域。 您可以在此區域中放置並設定活動。 按一下畫布中的活動以進行設定。 這會開啟右側的活動設定窗格。
 
-![](assets/journey39.png)
+![活動設定窗格在右側開啟的歷程畫布](assets/journey39.png)
 
 位於畫布右上角的&#x200B;**工具列**&#x200B;可讓您顯示/隱藏格線、放大/縮小及下載畫布的熒幕擷圖。 請參閱[本章節](../building-journeys/journey-properties.md#timeout_and_error)。
 
 <!--and show/hide timeout and error paths-->
 
-![](assets/toolbar.png){width="70%" align="left"}
+![包含縮放、格線和熒幕擷圖控制項的Journey工具列](assets/toolbar.png){width="70%" align="left"}
 
 當您按一下浮動視窗中的活動時，**活動設定窗格**&#x200B;就會顯示。 填寫必填欄位。 按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示以刪除活動。 按一下&#x200B;**[!UICONTROL 取消]**&#x200B;取消修改，或按一下&#x200B;**[!UICONTROL 確定]**&#x200B;確認。 若要刪除活動，您也可以選取一個活動（或數個活動）並按退格鍵。 按下ESC鍵將關閉活動設定窗格。
 
 依預設，唯讀欄位會隱藏。 若要顯示唯讀欄位，請按一下活動設定窗格左上方的&#x200B;**顯示唯讀欄位**&#x200B;圖示。 此設定適用於所有歷程中的所有活動。
 
-![](assets/journey59bis.png)
+![具有[顯示唯讀欄位]選項的活動設定窗格](assets/journey59bis.png)
 
 根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL 發佈]**、**[!UICONTROL 重複]**、**[!UICONTROL 刪除]**、**[!UICONTROL 測試模式]**、**[!UICONTROL 管理存取]**、**[!UICONTROL 警報]**。 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
 
-![](assets/journey41.png)
+![歷程動作按鈕：發佈、複製、刪除、測試模式、管理存取、警示](assets/journey41.png)
 
 ## 開始您的歷程 {#start-your-journey}
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 有兩種可能性：
 
-1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
+1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
 1. **從讀取對象開始**：您可以設定您的歷程以聆聽Adobe Experience Platform對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。
 
@@ -112,7 +112,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 若要為活動新增遞補動作，請在活動屬性中選取&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**&#x200B;方塊：在活動後新增其他路徑。 逾時期間由[歷程屬性](../building-journeys/journey-properties.md)中的管理員使用者定義。 例如，如果電子郵件傳送時間太長或發生錯誤，您可以決定傳送推播通知。
 
-![](assets/journey42.png)
+![在逾時或錯誤選項的情況下新增替代路徑](assets/journey42.png)
 
 各種活動（事件、動作、等待）可讓您在它們之後新增數個路徑。 若要這麼做，請將游標置於活動上並按一下「+」符號。 只有事件和等待活動可以並行設定。 如果同時設定多個事件，則選擇的路徑將是第一個發生的事件之一。
 
@@ -120,11 +120,11 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 若要刪除路徑，請將游標放在路徑上，然後按一下&#x200B;**[!UICONTROL 刪除路徑]**&#x200B;圖示。
 
-![](assets/journey42ter.png)
+![刪除路徑圖示以移除替代路徑](assets/journey42ter.png)
 
 在畫布中，當兩個活動中斷連線時，會顯示警告。 將游標放在警告圖示上以顯示錯誤訊息。 若要修正問題，只需移動已中斷連線的活動，並將其連線至上一個活動即可。
 
-![](assets/canvas-disconnected.png)
+![警告圖示在畫布中顯示已中斷連線的活動](assets/canvas-disconnected.png)
 
 ## 複製並貼上活動 {#copy-paste}
 
@@ -143,9 +143,9 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 1. 開啟歷程。
 1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
-   ![](assets/copy-paste1.png)
+   ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
-   ![](assets/copy-paste2.png)
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
+   ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
 1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動將連結至節點。
-   ![](assets/copy-paste3.png)
+   ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)

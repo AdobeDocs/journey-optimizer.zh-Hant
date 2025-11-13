@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 19%
+source-wordcount: '1652'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 19%
 
 **條件**&#x200B;活動讓您根據具體條件建立多個路徑，藉此定義每個人在您的歷程中如何推進。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
 
-![](assets/journey49.png)
+![歷程畫布中的條件活動，包含多個路徑選項](assets/journey49.png)
 
 可使用下列型別的條件：
 
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 新增和管理條件路徑 {#about_condition}
 
@@ -55,13 +55,13 @@ ht-degree: 19%
 
 如果要定義多個條件，請按一下&#x200B;**[!UICONTROL 新增路徑]**。 對於每個條件，活動後都會在畫布中新增新路徑。
 
-![](assets/journey47.png)
+![在條件活動中新增路徑按鈕，以建立其他路徑](assets/journey47.png)
 
 請注意，歷程的設計具有功能影響。 在條件之後定義數個路徑時，只會執行第一個符合資格的路徑。 這表示您可以透過將路徑置於彼此上方或下方來改變路徑的優先順序。
 
 讓我們以第一個路徑的條件「個人是VIP」以及第二個路徑的條件「個人是男性」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
 
-![](assets/journey48.png)
+![顯示VIP和男性條件的路徑優先順序](assets/journey48.png)
 
 您可以針對不符合定義條件的對象，建立其他路徑，方法是勾選&#x200B;**[!UICONTROL 針對上述情況以外的其他情況顯示路徑]**。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
 
@@ -70,7 +70,7 @@ ht-degree: 19%
 * AND：兩個條件的交集。 只考慮符合所有條件的元素。
 * OR：兩個條件的聯合。 考慮匹配兩個條件中至少一個的元素。
 
-![](assets/journey64.png)
+![運算式編輯器，顯示欄位選取和邏輯運運算元AND OR](assets/journey64.png)
 
 如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
 
@@ -93,7 +93,7 @@ ht-degree: 19%
 
 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 [了解更多](../datasource/external-data-sources.md)。
 
-![](assets/journey50.png)
+使用運算式編輯器![資料Source條件組態](assets/journey50.png)
 
 ## 時間條件 {#time_condition}
 
@@ -105,7 +105,7 @@ ht-degree: 19%
 >
 >* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是以小時設定，從00:00到12:00。
 
-![](assets/journey51.png)
+![包含小時和星期幾篩選條件的時間條件設定](assets/journey51.png)
 
 有三個可用的篩選選項：
 
@@ -123,7 +123,7 @@ ht-degree: 19%
 >
 >請注意，在百分比分割條件中沒有按鈕可新增路徑。 路徑的數量將取決於分割的次數。 在分割條件中，您無法針對其他情況新增路徑，因為它不會發生。 人們總是會進入其中一個分割路徑。
 
-![](assets/journey52.png)
+![具有多個路徑和分佈的分割組態百分比](assets/journey52.png)
 
 ## 日期條件 {#date_condition}
 
@@ -133,7 +133,7 @@ ht-degree: 19%
 >
 >時區不再為條件所特有，現在會在歷程屬性中的歷程層級定義。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
-![](assets/journey53.png)
+![日期範圍選擇器的日期條件組態](assets/journey53.png)
 
 ## 設定檔上限 {#profile_cap}
 
@@ -160,7 +160,7 @@ ht-degree: 19%
 
 測試模式中未考慮設定檔上限。
 
-![](assets/profile-cap-condition.png)
+![設定檔上限條件，設定檔上限設定](assets/profile-cap-condition.png)
 
 ## 在條件中使用對象 {#using-a-segment}
 
@@ -170,14 +170,14 @@ ht-degree: 19%
 
 1. 開啟歷程、卸除&#x200B;**[!UICONTROL 條件]**&#x200B;活動並選擇&#x200B;**資料Source條件**。
 
-   ![](assets/segment3.png)
+   ![條件活動中的資料Source條件選擇](assets/segment3.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增路徑]**&#x200B;以取得每個所需的額外路徑。 針對每個路徑，按一下&#x200B;**[!UICONTROL 運算式]**&#x200B;欄位。
 
 1. 在左側，展開&#x200B;**[!UICONTROL 對象]**&#x200B;節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 
-   ![](assets/segment4.png)
+   ![從運算式編輯器中的Audiences節點選取對象](assets/segment4.png)
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都會定義為常數。
 
-   ![](assets/uc-collection-1.png)
+   ![運算式編輯器，顯示集合函式和作業](assets/uc-collection-1.png)
 
 1. 如有需要，請調整欄位型別。 集合支援下列欄位型別：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject
 
@@ -120,21 +120,21 @@ ht-degree: 3%
 
 1. 針對每個欄位，定義將顯示在歷程畫布中的標籤。
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![篩選集合函式與條件產生器介面](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. 建立您的歷程並新增您建立的自訂動作。 請在[此頁面](../building-journeys/using-custom-actions.md)了解更多。
 
 1. 在&#x200B;**[!UICONTROL 動作引數]**&#x200B;區段中，使用進階運算式編輯器定義陣列引數（範例中為`products`）。
 
-   ![](assets/uc-collection-3.png)
+   ![包含欄位選取範圍的集合篩選運算式](assets/uc-collection-3.png)
 
 1. 對於以下每個物件欄位，輸入來源XDM結構描述中的對應欄位名稱。 如果名稱相同，則不需要這樣做。 在我們的範例中，我們只需要定義`product id`和&quot;color&quot;。
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![具有排序組態的集合排序函式](assets/uc-collection-4.png){width="50%" align="left"}
 
 針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](functions/list-functions.md#filter)和[交集](functions/list-functions.md#intersect)函式：
 
-![](assets/uc-collection-5.png)
+![使用篩選、排序和限製作業完成集合運算式](assets/uc-collection-5.png)
 
 ## 限制 {#limitations}
 
@@ -194,7 +194,7 @@ ht-degree: 3%
 
 針對異質型別和陣列陣列，陣列是以listAny型別定義。 您只能對應個別專案，但無法將陣列變更為變數。
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![具有混合資料型別和欄位選擇的異質集合](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 異質型別範例：
 

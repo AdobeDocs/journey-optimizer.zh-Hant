@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '569'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 1. 從浮動視窗的&#x200B;**動作**&#x200B;區段，將頻道活動拖放至畫布中。
 
-   ![](assets/journey-web-activity.png)
+   ![歷程畫布中的Web頻道動作活動](assets/journey-web-activity.png)
 
 1. 您也可以選取&#x200B;**[!UICONTROL 動作]**&#x200B;活動，讓您選取多個輸入動作。 [了解更多](journey-action.md)
 
@@ -139,7 +139,7 @@ ht-degree: 17%
 
 若要這麼做，請開啟您的即時歷程、選取頻道活動並按一下&#x200B;**編輯內容**。
 
-![](assets/add-a-message2.png)
+![新增動作活動下拉式清單，顯示可用的頻道選項](assets/add-a-message2.png)
 
 但是，您無法變更個人化中使用的屬性，無論是設定檔屬性或內容資料（來自事件或歷程屬性）。
 

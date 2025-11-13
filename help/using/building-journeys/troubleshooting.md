@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 40%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 40%
 
 * 如果必填欄位為空，則會顯示錯誤
 
-  ![](assets/journey63.png)
+  ![畫布中顯示歷程驗證錯誤，錯誤指標為](assets/journey63.png)
 
 * 在畫布中，當兩個活動中斷連線時，會顯示警告
 
-  ![](assets/canvas-disconnected.png)
+  ![警告圖示在歷程畫布中顯示已中斷連線的活動](assets/canvas-disconnected.png)
 
 ## 歷程中的錯誤 {#canvas-errors}
 
@@ -45,7 +45,7 @@ ht-degree: 40%
 
 系統偵測到兩種問題： **錯誤**&#x200B;和&#x200B;**警告**。 錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這可協助識別問題。
 
-![](assets/journey-error-and-warning.png)
+![歷程中的錯誤和警告指示器，包含說明工具提示](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

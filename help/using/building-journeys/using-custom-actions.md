@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 動作，自訂， API，歷程，設定，服務
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 20%
+source-wordcount: '442'
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 20%
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![具有動態引數對應的自訂動作URL組態](assets/journey-custom-action-url.png)
 
 ### 標頭和查詢引數 {#headers}
 
@@ -68,7 +68,7 @@ ht-degree: 20%
 
 若要指定動態標題和查詢引數欄位的值，請在欄位內或鉛筆圖示上按一下，然後選取所需欄位。
 
-![](assets/journey-dynamicheaderfield.png)
+自訂動作中的![動態標頭欄位設定](assets/journey-dynamicheaderfield.png)
 
 ## 動作引數
 

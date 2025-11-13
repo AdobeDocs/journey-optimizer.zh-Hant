@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1285'
 ht-degree: 6%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 6%
 
 1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。
 
-   ![](assets/segment5.png)
+   ![歷程浮動視窗中的對象資格事件](assets/segment5.png)
 
 1. 將&#x200B;**[!UICONTROL 標籤]**&#x200B;新增至活動。 此步驟為選填。
 
@@ -56,19 +56,19 @@ ht-degree: 6%
    >
    >您可以自訂清單中顯示的欄並加以排序。
 
-   ![](assets/segment6.png)
+   資格事件設定的![對象選擇下拉式清單](assets/segment6.png)
 
    新增對象後，**[!UICONTROL 複製]**&#x200B;按鈕可讓您複製其名稱和ID：
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![複製按鈕以JSON格式複製對象名稱和ID](assets/segment-copy.png)
 
 1. 在&#x200B;**[!UICONTROL 行為]**&#x200B;欄位中，選擇您是要聆聽對象入口、出口或兩者。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -76,7 +76,7 @@ ht-degree: 6%
    >
    >您只能選取以人物為基礎的身分名稱空間。 如果您已定義查閱表格的名稱空間（例如：產品查閱的ProductID名稱空間），它將無法在&#x200B;**名稱空間**&#x200B;下拉式清單中使用。
 
-   ![](assets/segment7.png)
+   ![對象資格身分的名稱空間選擇](assets/segment7.png)
 
 裝載包含以下內容資訊，您可在條件和動作中使用：
 
@@ -88,7 +88,7 @@ ht-degree: 6%
 
 檢視[條件活動](../building-journeys/condition-activity.md#about_condition)。
 
-![](assets/segment8.png)
+![事件設定中的對象進入和退出設定](assets/segment8.png)
 
 包含&#x200B;**對象資格**&#x200B;事件的新歷程在您發佈10分鐘後即可開始運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 ### 如何避免多載 {#overloads-speed-segment-qualification}
 
@@ -118,13 +118,13 @@ ht-degree: 6%
 
 * 在&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動中建立批次對象後，請勿立即使用批次對象。 這會避免第一個計算尖峰。 如果您即將使用從未計算的對象，歷程畫布中會顯示黃色警告。
 
-  ![](assets/segment-error.png)
+  ![在Adobe Experience Platform中找不到對象時的錯誤訊息](assets/segment-error.png)
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
-  ![](assets/segment-overload.png)
+  ![當對象有太多事件需要即時處理時的警告訊息](assets/segment-overload.png)
 
 在[本節](entry-management.md#profile-entrance-rate)中進一步瞭解進入率限制和輸送量。
 
@@ -164,4 +164,4 @@ ht-degree: 6%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

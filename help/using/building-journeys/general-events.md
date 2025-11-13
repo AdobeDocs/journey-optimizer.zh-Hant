@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '640'
 ht-degree: 20%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解事件輸送量和歷程處理率。
 
-![](assets/general-events.png)
+![一般事件設定面板，包含事件選取和設定](assets/general-events.png)
 
 當您卸除商務活動時，它會自動新增&#x200B;**讀取對象**&#x200B;活動。 如需商務活動的詳細資訊，請參閱[本節](../event/about-events.md)
 
@@ -55,7 +55,7 @@ ht-degree: 20%
 
 1. 在指定的逾時內未收到任何事件時，最佳實務是將個人傳送至逾時路徑。 為此，請啟用&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;選項。 在這種情況下，一旦達到逾時，個人就會繼續歷程。 建議您一律啟用&#x200B;**[!UICONTROL 設定逾時路徑]**&#x200B;選項。
 
-   ![](assets/event-timeout.png)
+   ![具有持續時間和逾時路徑選項的事件逾時設定](assets/event-timeout.png)
 
 在此範例中，歷程會在客戶進入大廳後，傳送第一封歡迎電子郵件給客戶。 然後，只有在客戶隔天進入餐廳時，才會傳送餐點折扣電子郵件。 因此，我們將餐廳事件設定為1天逾時：
 
@@ -69,4 +69,4 @@ ht-degree: 20%
 * 如果在逾時期間內收到一個事件，則個別事件會流入收到事件的路徑。
 * 如果在逾時期間內未收到任何事件，則個別會流入已定義逾時之事件的逾時分支。
 
-![](assets/event-timeout-group.png)
+![歷程中有多個具有逾時設定的事件](assets/event-timeout-group.png)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '776'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 15%
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;活動拖放到畫布中。
 
-   ![](assets/aep-data-activity.png)
+   ![歷程中的Adobe Experience Platform資料集查詢活動](assets/aep-data-activity.png)
 
 1. 新增標籤和說明。
 
@@ -81,7 +81,7 @@ ht-degree: 15%
 
    +++範例
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![資料集欄位選取範圍顯示基本資料型別和結構](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ ht-degree: 15%
 
    +++範例
 
-   ![](assets/aep-data-strings.png)
+   ![運算式編輯器，包含資料集欄位查詢和字串函式](assets/aep-data-strings.png)
 
    +++
 

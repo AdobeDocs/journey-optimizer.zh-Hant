@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1475'
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 10%
 
 若要在您的「歷程」行事曆中導覽：
 
-1. 若要存取行事曆檢視，請開啟歷程清單，然後按一下![行事曆圖示](assets/do-not-localize/timeline-icon.svg)圖示。
+1. 若要存取行事曆檢視，請開啟歷程清單，然後按一下![行事曆圖示以切換至行事曆檢視](assets/do-not-localize/timeline-icon.svg)圖示。
 
 1. 使用箭頭按鈕或行事曆上方的日期選擇器，在周之間移動。
 
@@ -73,11 +73,11 @@ ht-degree: 10%
 
    ![行事曆檢視顯示即時歷程](assets/timeline-journeys.png)
 
-1. 按一下![齒輪](assets/do-not-localize/Smock_Gears_18_N.png)圖示，以切換橫跨數天或數週之專案的顯示。
+1. 按一下「![設定」圖示可切換多日歷程顯示](assets/do-not-localize/Smock_Gears_18_N.png)圖示，可切換橫跨多日或數週的專案顯示。
 
    ![行事曆檢視顯示已上線的行銷活動](assets/journey-calendar-1.png)
 
-1. 按一下![新增行事曆](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)圖示以管理和新增最多三個外部行事曆。
+1. 按一下![新增外部行事曆圖示](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)圖示，以管理和新增最多三個外部行事曆。
 
    顯示外部行事曆的![行事曆檢視](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ ht-degree: 10%
 
 此外，在「事件」、「資料來源」和「動作」設定窗格中，**[!UICONTROL 用於]**&#x200B;欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
-![](assets/journey3bis.png)
+![用於顯示使用事件或動作的歷程次數的欄位](assets/journey3bis.png)
 
 ## 歷程型別 {#journey-types}
 
@@ -166,7 +166,7 @@ ht-degree: 10%
 
 1. 輸入歷程名稱並確認。 您也可以在歷程屬性畫面中變更名稱。 依預設，名稱設定如下： `[JOURNEY-NAME]_copy`
 
-   ![](assets/duplicate-jo2.png)
+   ![重複歷程的歷程名稱輸入欄位](assets/duplicate-jo2.png)
 
 1. 新歷程已建立並可在歷程清單中使用。
 

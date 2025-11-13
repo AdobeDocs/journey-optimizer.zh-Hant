@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '345'
 ht-degree: 17%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 17%
 
    1. 按一下&#x200B;**[!UICONTROL 位址]**&#x200B;欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![訂閱者清單目標定位的具有讀取對象的歷程流程](assets/message-to-subscribers-uc-1.png)
 
    1. 在運算式編輯器中，輸入運算式以擷取訂閱者的電子郵件地址。 [閱讀全文](expression/expressionadvanced.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 17%
 
       深入瞭解運算式中欄位[的](expression/field-references.md)參考。
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![訂閱者個人化內容的電子郵件設定](assets/message-to-subscribers-uc-2.png)
 
    1. 在&#x200B;**[!UICONTROL 新增運算式]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 確定]**。
 

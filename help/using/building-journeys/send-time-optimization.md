@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 從動作引數開啟傳送時間最佳化引數，對電子郵件或推播動作使用傳送時間最佳化。
 
-![](assets/jo-message5.png)
+電子郵件通道設定中的![傳送時間最佳化切換](assets/jo-message5.png)
 
 「傳送時間最佳化」不應用於緊急且有時效性的作業訊息，例如，訂單確認、密碼重設通知或航班閘道變更通知。 傳送時間最佳化最適合用於不太緊急的行銷通訊，例如，每週廣告、新產品的促銷資訊，或長達一個月的銷售資訊。
 
@@ -80,11 +80,11 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 這些預測會使用貝葉斯方法進行加權和組合，針對每個客戶產生每個量度（電子郵件開啟、電子郵件點按和推播開啟）的「熱度圖」，其指出每週聯絡該使用者最可能且最不可能導致所需參與結果（開啟/點按）的時數，如下例熱度圖所示：
 
-![](assets/heatmap-1.png)
+![依日期和小時顯示電子郵件最佳傳送時間的參與熱度圖](assets/heatmap-1.png)
 
 如果在星期三上午9點，且開啟傳送時間最佳化且等待時間上限為7小時的情況下，將具有上述預測概率的使用者設為目標，則訊息的選定傳送時間將會是晚上12點：
 
-![](assets/heatmap-2.png)
+![參與熱度圖包含詳細的逐小時最佳化資料](assets/heatmap-2.png)
 
 ## 傳送時間最佳化模型訓練和評分詳細資料  {#model-send-time}
 

@@ -9,9 +9,9 @@ level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源
 > 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 [閱讀全文](../building-journeys/read-audience.md)
 
 
-![](assets/limit-throughput-1.png)
+![使用速率限制設定來限制輸送量組態面板](assets/limit-throughput-1.png)
 
 您可以將此值從每秒500個執行個體修改為每秒20,000個執行個體。 如果您需要低於500/s，您還可以新增包含等待活動的「百分比分割」條件，以將您的歷程分割成多個分支，並在特定時間執行這些分支。
 
-![](assets/limit-throughput-2.png)
+![具有限制輸送量的歷程活動控制訊息傳遞率](assets/limit-throughput-2.png)
 
 讓我們以&#x200B;**受眾觸發的歷程**&#x200B;為例，此歷程使用&#x200B;**10,000個設定檔的母體**，並將資料傳送到支援&#x200B;**100個要求/秒**&#x200B;的外部系統。
 

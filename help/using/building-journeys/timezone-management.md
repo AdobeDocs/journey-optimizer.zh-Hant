@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 28%
+source-wordcount: '375'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 28%
 
 若要這麼做，請在&#x200B;**[!UICONTROL 歷程屬性]**&#x200B;窗格中選取時區。
 
-![](assets/journey72.png)
+![歷程屬性中的時區選取下拉式清單](assets/journey72.png)
 
 ## 使用輪廓時區 {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ ht-degree: 28%
 
 如果已為輪廓定義了時區，則歷程將擷取並使用該時區。如果沒有，則使用的時區將是時區欄位中定義的時區。
 
-![](assets/journey73.png)
+![個人化計時資料來源中的設定檔時區設定](assets/journey73.png)
 
 >[!NOTE]
 >

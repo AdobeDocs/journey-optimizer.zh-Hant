@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 16%
+source-wordcount: '1050'
+ht-degree: 15%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 16%
 
 1. 選取您要在歷程中善用的內建頻道活動。
 
-   ![](assets/journey-action-type-cbe.png)
+   ![顯示頻道動作和自訂動作選項的動作型別下拉式清單](assets/journey-action-type-cbe.png)
 
 1. 新增標籤至您的動作，並選取&#x200B;**[!UICONTROL 設定動作]**。
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![具有標籤和說明欄位的動作活動設定窗格](assets/journey-action-configure.png){width="80%"}
 
 1. 您將被導向歷程動作設定畫面的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤。
 
    選取用於所選頻道的設定。
 
-   ![](assets/journey-action-actions-tab.png)
+   顯示自訂和Adobe動作的[管理]功能表中的![動作索引標籤](assets/journey-action-actions-tab.png)
 
 1. 如果您選取入站頻道，則可新增多個動作。 [了解更多](#multi-action)
 
@@ -159,15 +159,15 @@ ht-degree: 16%
 
 1. 選取&#x200B;**[!UICONTROL 多重動作]**&#x200B;作為動作型別。
 
-   ![](assets/journey-multi-action.png)
+   在協調流程下的歷程浮動視窗中![多重動作活動](assets/journey-multi-action.png)
 
 1. 視需要新增標籤，並選取&#x200B;**[!UICONTROL 設定動作]**。
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![具有標籤和說明欄位的多重動作設定窗格](assets/journey-multi-action-configure.png){width="60%"}
 
 1. 您將被導向歷程動作設定畫面的&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤。
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![多重動作組態顯示要執行的動作清單](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. 從&#x200B;**動作**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**[!UICONTROL 網頁]**）。
 
@@ -175,7 +175,7 @@ ht-degree: 16%
 
 1. 使用&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，從下拉式清單中選取其他輸入動作。
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![新增動作按鈕，以在多動作活動中包含其他動作](assets/journey-multi-action-add.png){width="80%"}
 
 1. 以類似方式繼續以新增更多動作。 您最多可以在歷程動作群組中新增10個傳入動作。
 

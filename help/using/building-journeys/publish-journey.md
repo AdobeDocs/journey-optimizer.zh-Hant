@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '624'
+ht-degree: 40%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 42%
    >
    > 如果您的歷程受核准政策的約束，您必須請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   歷程工具列中的![發佈按鈕以啟動歷程](assets/journeyuc1_18.png)
 
 發佈歷程時，它處於&#x200B;**唯讀**&#x200B;模式。 在唯讀模式中，您只能修改活動標籤和說明、歷程名稱和歷程說明。 如果您需要對已發佈的歷程進行額外的修改，請建立歷程的[新版本](journey-ui.md#journey-filter)。
 
@@ -52,7 +52,7 @@ ht-degree: 42%
 
 在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。
 
-![](assets/journeyversions1.png)
+![歷程版本清單顯示已發佈和草稿版本](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 42%
 
 1. 開啟最新版本的即時歷程，按一下&#x200B;**[!UICONTROL 建立新版本]**&#x200B;並確認。
 
-   ![](assets/journeyversions2.png)
+   ![建立新版本對話方塊以複製歷程](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ ht-degree: 42%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

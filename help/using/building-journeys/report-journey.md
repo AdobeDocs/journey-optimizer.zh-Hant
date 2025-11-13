@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 顯示的事件發生在過去24小時內，事件與其顯示之間至少間隔二分鐘，通常在五分鐘內。
 
-![](assets/journey_live_report.png)
+![顯示即時績效量度的歷程即時報告儀表板](assets/journey_live_report.png)
 
 對於您處於即時或[試執行模式](journey-dry-run.md)的歷程，您可以檢查：
 

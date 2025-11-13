@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: 可遞送性，歷程，使用案例，電子郵件，聲譽
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -37,13 +37,13 @@ ht-degree: 2%
 
    1. 將&#x200B;**[!UICONTROL 限制]**&#x200B;欄位設定為此傳遞的收件者數目上限。
 
-   ![](assets/profile-cap-condition.png)
+   ![控制傳遞磁碟區的設定檔上限條件設定](assets/profile-cap-condition.png)
 
    您可以逐漸提高此限制，最多可達您的訂閱者總數。
 
 1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動之後，將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作活動新增至名義路徑。
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![斜向傳遞歷程中的電子郵件訊息設定](assets/ramp-up-deliveries-message.png)
 
    當歷程執行時，會傳送訊息給輸入的設定檔，最多為您指定的設定檔數量上限。 當達到此限制時，輸入的設定檔會採用替代路徑。
 

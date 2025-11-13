@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1124'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
-![](assets/journey-re-entrance.png)
+![在歷程屬性中切換重新進入設定](assets/journey-re-entrance.png)
 
 在重新進入期間後，設定檔可以重新進入歷程。 為避免此情況，並完全停用這些設定檔的重新進入，您可以使用設定檔或受眾資料，新增條件以測試是否已輸入設定檔。
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 在&#x200B;**商業歷程**&#x200B;中，若要允許多個商業事件執行，請在歷程屬性的&#x200B;**[!UICONTROL 執行]**&#x200B;區段中啟動對應的選項。
 
-![](assets/business-entry.png)
+![歷程設定中的商務事件專案管理選項](assets/business-entry.png)
 
 若是業務事件，對於特定歷程，第一次執行所擷取的對象資料會在1小時時段內重複使用。
 

@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 17%
+source-wordcount: '1696'
+ht-degree: 16%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 
 1. 從&#x200B;**[!UICONTROL 方法]**&#x200B;下拉式清單中選取條件。
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![已選取條件方法來最佳化活動](assets/journey-optimize-condition.png){width=80%}
 
    可使用下列型別的條件：
 
@@ -66,13 +66,13 @@ ht-degree: 17%
 
 如果要定義多個條件，請按一下&#x200B;**[!UICONTROL 新增路徑]**。 對於每個條件，活動後都會在畫布中新增新路徑。
 
-![](assets/journey-condition-add-path.png){width=80%}
+![新增路徑按鈕以建立多個條件路徑](assets/journey-condition-add-path.png){width=80%}
 
 請注意，歷程的設計具有功能影響。 在條件之後定義數個路徑時，只會執行第一個符合資格的路徑。 這表示您可以透過將路徑置於彼此上方或下方來改變路徑的優先順序。
 
 讓我們以第一個路徑的條件「個人是VIP」以及第二個路徑的條件「個人是男性」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
 
-![](assets/journey48.png)
+![路徑優先順序範例，顯示VIP條件高於男性條件](assets/journey48.png)
 
 您可以針對不符合定義條件的對象，建立其他路徑，方法是勾選&#x200B;**[!UICONTROL 針對上述情況以外的其他情況顯示路徑]**。
 
@@ -85,7 +85,7 @@ ht-degree: 17%
 * **AND** — 兩個條件的交集。 只考慮符合所有條件的元素。
 * **OR** — 兩個條件的聯合。 考慮匹配兩個條件中至少一個的元素。
 
-![](assets/journey64.png){width=80%}
+![具有拖放欄位和邏輯運運算元的簡單運算式編輯器](assets/journey64.png){width=80%}
 
 如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
 
@@ -105,7 +105,7 @@ ht-degree: 17%
 
 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 [了解更多](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+使用進階運算式編輯器的![資料Source條件](assets/journey50.png){width=80%}
 
 ## 日期條件 {#date_condition}
 
@@ -115,7 +115,7 @@ ht-degree: 17%
 >
 >時區不再為條件所特有，現在會在歷程屬性中的歷程層級定義。 [了解更多](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![日期條件設定，包含開始和結束日期欄位](assets/journey53.png)
 
 ## 百分比分割 {#percentage_split}
 
@@ -127,7 +127,7 @@ ht-degree: 17%
 >
 >請注意，在百分比分割條件中沒有按鈕可新增路徑。 路徑的數量將取決於分割的次數。 在分割條件中，您無法針對其他情況新增路徑，因為它不會發生。 人們總是會進入其中一個分割路徑。
 
-![](assets/journey52.png)
+![百分比分割組態，滑桿顯示流量分佈](assets/journey52.png)
 
 ## 時間條件 {#time_condition}
 
@@ -139,7 +139,7 @@ ht-degree: 17%
 >
 >* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是以小時設定，從00:00到12:00。
 
-![](assets/journey51.png)
+![具有小時範圍和星期幾選擇器的時間條件](assets/journey51.png)
 
 有三個可用的篩選選項：
 
@@ -172,7 +172,7 @@ ht-degree: 17%
 
 測試模式中未考慮設定檔上限。
 
-![](assets/profile-cap-condition.png)
+![具有最大設定檔限制輸入欄位的設定檔上限條件](assets/profile-cap-condition.png)
 
 ## 在條件中使用對象 {#using-a-segment}
 
@@ -182,14 +182,14 @@ ht-degree: 17%
 
 1. 開啟歷程，卸除&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動並選擇&#x200B;**[!UICONTROL 資料來源條件]**。
 
-   ![](assets/segment3.png)
+   ![在下拉式功能表中選取的Data Source條件方法](assets/segment3.png)
 
 1. 按一下&#x200B;**[!UICONTROL 新增路徑]**&#x200B;以取得每個所需的額外路徑。 針對每個路徑，按一下&#x200B;**[!UICONTROL 運算式]**&#x200B;欄位。
 
 1. 在左側，展開&#x200B;**[!UICONTROL 對象]**&#x200B;節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 
-   ![](assets/segment4.png){width=80%}
+   在運算式編輯器中用於選取Adobe Experience Platform對象的![對象節點](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

@@ -3,9 +3,9 @@ title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1424'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 4%
 
    1. 將識別碼標示為&#x200B;**[!UICONTROL 身分]**。
 
-      ![](assets/supplemental-ID-schema.png)
+      ![具有補充識別碼欄位群組的結構描述組態](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ ht-degree: 4%
 
    1. 在事件組態畫面中，勾選&#x200B;**[!UICONTROL 使用補充識別碼]**&#x200B;選項。
 
-      ![](assets/supplemental-ID-event.png)
+      ![事件組態具有補充識別項名稱空間選擇](assets/supplemental-ID-event.png)
 
    1. 使用運算式編輯器來選取您標示為補充ID的屬性。
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
    將已設定的事件拖曳至歷程畫布。 它會根據設定檔ID和補充ID來觸發歷程專案。
 
-   ![](assets/supplemental-ID-journey.png)
+   ![使用事件觸發的補充識別碼的歷程](assets/supplemental-ID-journey.png)
 
 >[!TAB 讀取對象歷程]
 
@@ -131,7 +131,7 @@ ht-degree: 4%
 
    1. 將識別碼標示為&#x200B;**[!UICONTROL 身分]**。
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![設定了補充識別碼欄位的設定檔結構描述](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ ht-degree: 4%
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ ht-degree: 4%
 
    1. 在活動屬性窗格中，開啟&#x200B;**[!UICONTROL 使用補充識別碼]**&#x200B;選項。
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![使用補充識別碼設定讀取對象活動](assets/supplemental-ID-read-audience.png)
 
    1. 在&#x200B;**[!UICONTROL 增補識別碼]**&#x200B;欄位中，使用運算式編輯器來選取您標示為增補ID的屬性。
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 使用運算式編輯器和個人化編輯器來參照個人化或條件邏輯的補充識別碼屬性。 可從&#x200B;**[!UICONTROL 內容屬性]**&#x200B;功能表存取屬性。
 
-![](assets/supplemental-ID-perso.png)
+![Personalization編輯器顯示內容的補充識別碼欄位](assets/supplemental-ID-perso.png)
 
 針對事件觸發的歷程，如果您使用陣列（例如，多個處方或原則），請使用公式來擷取特定元素。
 
@@ -246,4 +246,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

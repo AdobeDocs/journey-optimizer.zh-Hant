@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 本節介紹結合讀取對象、事件、反應事件和電子郵件/推播訊息的使用案例。
 
-![](assets/jo-uc1.png)
+![包含讀取對象、等待和電子郵件活動的簡單歷程流程](assets/jo-uc1.png)
 
 ## 使用案例的說明
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 1. 將所需欄位從左窗格拖放至中央工作區，並根據您的需求進行設定。 在此範例中，使用&#x200B;**城市**&#x200B;和&#x200B;**出生年份**&#x200B;屬性欄位。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/add-attributes.png)
+   ![用於選取擴充資料的其他屬性面板](assets/add-attributes.png)
 
 對象現在已建立並準備好用於歷程中。 使用&#x200B;**讀取對象**&#x200B;活動，屬於該對象的所有個人都可以進入歷程。
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/jo-uc2.png)
+   ![條件活動分支到Gold成員和其他路徑的歷程](assets/jo-uc2.png)
 
 事件現在已設定完畢，且準備好用於歷程中。 使用相應的事件活動，即可在每次客戶購買時觸發動作。
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 1. 以&#x200B;**讀取對象**&#x200B;活動開始歷程。 選取先前建立的對象。 屬於對象的所有個人都會進入歷程。
 
-   ![](assets/jo-uc4.png)
+   ![檢查溫度是否低於50度](assets/jo-uc4.png)的天氣狀況
 
 1. 拖放&#x200B;**電子郵件**&#x200B;動作活動，並定義「第一封郵件」的內容。 此訊息會傳送給歷程中的所有個人。 請參閱此[區段](../email/create-email.md)，瞭解如何設定和設計電子郵件。
 
-   ![](assets/jo-uc5.png)
+   ![完成天氣型歷程，包含溫度條件和電子郵件動作](assets/jo-uc5.png)
 
 1. 新增&#x200B;**回應**&#x200B;事件並選取&#x200B;**電子郵件已開啟**。 當屬於閱聽眾的個人開啟電子郵件時，就會觸發事件。
 

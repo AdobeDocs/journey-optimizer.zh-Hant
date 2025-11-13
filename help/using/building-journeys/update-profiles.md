@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 * 如同任何其他動作，您可以定義發生錯誤或逾時時的替代路徑，而且您無法同時放置兩個動作。
 * 傳送至Adobe Experience Platform的更新要求為立即/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用「欄位1」，而此欄位是由之前放置的&#x200B;**更新設定檔**&#x200B;動作所更新，您就不應該預期動作中會更新「欄位1」。
 * **更新設定檔**&#x200B;活動不支援定義為列舉或建議值的XDM欄位。
-* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}，不會更新Data Lake。
+* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不會更新Data Lake。
 
 ## 資料集選取範圍 {#dataset-selection}
 
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 1. 在調色盤的&#x200B;**動作**&#x200B;區段中，將&#x200B;**更新設定檔**&#x200B;活動拖放到畫布中。
 
-   ![](assets/profileupdate0.png)
+   ![更新歷程浮動視窗中動作](assets/profileupdate0.png)下的設定檔活動
 
 1. 從清單中選取結構描述。
 
 1. 按一下&#x200B;**欄位**&#x200B;以選取要更新的欄位。 只能選取一個欄位。
 
-   ![](assets/profileupdate2.png)
+   ![設定檔更新設定面板，包含欄位選取下拉式清單](assets/profileupdate2.png)
 
 1. 從清單中選取資料集。
 
@@ -66,15 +66,15 @@ ht-degree: 6%
 
    * 使用簡單運算式編輯器，您可以從資料來源或傳入事件中選取欄位。
 
-     ![](assets/profileupdate4.png)
+     設定檔屬性更新的![簡單模式欄位選擇器](assets/profileupdate4.png)
 
    * 若要定義特定值或運用進階函式，請選取&#x200B;**進階模式**。
 
-     ![](assets/profileupdate3.png)
+     複雜設定檔更新的![進階模式運算式編輯器](assets/profileupdate3.png)
 
 **更新設定檔**&#x200B;現已設定完成。
 
-![](assets/profileupdate1.png)
+![歷程中的設定檔更新活動，包含欄位設定](assets/profileupdate1.png)
 
 
 ## 使用測試模式 {#using-the-test-mode}

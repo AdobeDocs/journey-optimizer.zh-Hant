@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 4%
+source-wordcount: '419'
+ht-degree: 3%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 4%
 
 1. 在&#x200B;**認證**&#x200B;區段中，按一下&#x200B;**OAuth伺服器對伺服器**。
 
-   ![](assets/custom-action-aep-1.png)
+   ![具有動作型別下拉式清單的自訂動作設定畫面](assets/custom-action-aep-1.png)
 
 1. 按一下&#x200B;**檢視cURL命令**。
 
-   ![](assets/custom-action-aep-2.png)
+   ![Adobe Experience Platform動作型別選擇](assets/custom-action-aep-2.png)
 
 1. 複製cURL命令並儲存client_id、client_secret、grant_type和scope。
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
+>在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
 
 ## 使用HTTP API入口設定來源
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 在Adobe Experience Platform中，按一下左側功能表中&#x200B;**連線**&#x200B;底下的&#x200B;**來源**。 在&#x200B;**HTTP API**&#x200B;下，按一下&#x200B;**新增資料**。
 
-   ![](assets/custom-action-aep-3.png)
+   ![Adobe Experience Platform的沙箱選取下拉式清單](assets/custom-action-aep-3.png)
 
 1. 選取&#x200B;**新帳戶**&#x200B;並啟用驗證。 選取&#x200B;**連線至Source**。
 
-   ![](assets/custom-action-aep-4.png)
+   ![串流資料的資料集選擇介面](assets/custom-action-aep-4.png)
 
 1. 選取&#x200B;**下一步**&#x200B;以及您要寫入資料的資料集。 按一下&#x200B;**下一步**&#x200B;和&#x200B;**完成**。
 
-   ![](assets/custom-action-aep-5.png)
+   ![XDM結構描述欄位對應到動作引數](assets/custom-action-aep-5.png)
 
 1. 開啟新建立的資料流。 複製結構描述承載並將其儲存在記事本中。
 
@@ -109,7 +109,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 請確定已設定標題(Content-Type、Charset、sandbox-name)。
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![歷程畫布中的自訂動作（使用設定窗格）](assets/custom-action-aep-7bis.png)
 
 ### 設定驗證 {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 使用&#x200B;**按一下以測試驗證**&#x200B;按鈕以測試連線。
 
-   ![](assets/custom-action-aep-8.png)
+   ![使用運算式編輯器的引數對應介面](assets/custom-action-aep-8.png)
 
 ### 設定裝載 {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 根據您的使用案例填入歷程版本ID、節點ID、節點名稱和其他屬性。
 
-   ![](assets/custom-action-aep-9.png)
+   複雜欄位對應的![進階模式編輯器](assets/custom-action-aep-9.png)
