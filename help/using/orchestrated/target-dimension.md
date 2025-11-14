@@ -5,9 +5,9 @@ title: 建立您的目標維度
 description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 9003668674302c576ed9738c803446c476877e47
+source-git-commit: f842142a985481004192c88af2973787912c85b3
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '438'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 1%
 
   >[!IMPORTANT]
   >
-  > 目標結構描述必須與:1結構描述有1`Profile`關係。 例如，您無法使用`Purchases`作為目標結構描述，因為它通常代表一對多關係。
+  > 協調的行銷活動允許在任何與&#x200B;**設定檔**&#x200B;結構描述有直接或相關關聯的結構描述上進行目標定位。 雖然其使用方式主要是針對1:1關係，但只要關係路徑在資料模型中已正確模型化，它也會支援1:N關係，例如帳戶`>`收件者。 這樣會根據帳戶層級資料啟用目標定位，同時仍解析訊息傳送的正確設定檔身分。
 
 * **設定檔連結**
 
   系統必須瞭解目標結構描述如何對應到`Profile`結構描述。 這是透過共用身分欄位來達成，該欄位存在於目標結構描述和`Profile`結構描述中，並且已設定為身分名稱空間。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 建立您的目標維度 {#targeting-dimension}
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`crmID`結構描述中由唯一的`Recipient`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
+   [請到 Adobe Experience Platform 文件](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)那邊，了解更多相關資訊。
 
    ![](assets/target-dimension-2.png)
 
