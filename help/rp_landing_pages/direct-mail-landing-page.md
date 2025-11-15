@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 直接郵件行銷活動簡介
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何檢查並傳送直接郵件行銷活動
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的直接郵件功能可讓您製作個人化、資�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定直接郵件管道
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的資料來源可讓您連線至使用即時、個�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 如何設定資料來源
 
@@ -50,7 +50,7 @@ Adobe Experience Platform 資料來源
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 設定外部資料來源
 

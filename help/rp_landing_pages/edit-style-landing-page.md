@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 自訂電子郵件樣式
 

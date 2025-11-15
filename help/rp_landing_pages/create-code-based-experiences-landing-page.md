@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 建立並撰寫程式碼型體驗
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 在程式碼型體驗中使用可編輯的欄位
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 發佈和管理程式碼型體驗
 

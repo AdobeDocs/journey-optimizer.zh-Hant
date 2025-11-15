@@ -20,7 +20,7 @@ Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 決策功能簡介
 
@@ -30,7 +30,7 @@ Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的決策
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的決策
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的決策管理
 

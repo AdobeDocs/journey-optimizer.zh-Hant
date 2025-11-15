@@ -30,7 +30,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用 Adobe Journey Optimizer API
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的沙箱管理
 

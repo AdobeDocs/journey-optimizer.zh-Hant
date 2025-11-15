@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的「設定內容卡管道」區段可讓您透過�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 內容卡管道設定先決條件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的「設定內容卡管道」區段可讓您透過�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 在 Journey Optimizer 中設定內容卡管道
 
