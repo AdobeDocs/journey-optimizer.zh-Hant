@@ -20,7 +20,7 @@ Adobe Journey Optimizer 運用人工智慧和機器學習的力量，轉變您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 用於內容產生的 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 運用人工智慧和機器學習的力量，轉變您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 傳送時間最佳化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 運用人工智慧和機器學習的力量，轉變您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 用於決策的 AI 模型
 
@@ -60,7 +60,7 @@ AI 助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用 AI 的內容實驗
 
@@ -70,7 +70,7 @@ AI 助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 品牌一致性分數
 
@@ -80,7 +80,7 @@ AI 助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 實驗加速器
 
@@ -90,7 +90,7 @@ AI 助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 影像至 HTML 轉換工具
 
@@ -100,7 +100,7 @@ AI 助理產品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 歷程運作洞察 (Beta)
 
