@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 + [Journey Optimizer 文件](ajo-home.md)
 + 有哪幾種新增功能？ {#whats-new}
-   + [版本週期](using/rn/releases.md)
+   + [發行週期](using/rn/releases.md)
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}
@@ -47,7 +47,7 @@ ht-degree: 97%
       + [搜尋、篩選、分類](using/start/search-filter-categorize.md)
       + [協助工具](using/start/accessibility.md)
    + [使用 AI 助理](using/start/ai-assistant.md)
-   + [AJO中的AI功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
+   + [AJO 中的 AI 功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
    + [護欄和限制](using/start/guardrails.md)
 + 歷程 {#orchestrate-journeys}
@@ -111,8 +111,8 @@ ht-degree: 97%
          + [範例](using/building-journeys/expression/advanced-editor-use-cases.md)
       + 函數 {#main-functions-journey}
          + [主要功能](using/building-journeys/expression/functions.md)
-         + [inAudience函式](using/building-journeys/functions/functioninaudience.md)
-         + [聚合函式](using/building-journeys/functions/aggregation-functions.md)
+         + [inAudience 函式](using/building-journeys/functions/functioninaudience.md)
+         + [彙總函式](using/building-journeys/functions/aggregation-functions.md)
          + [轉換函式](using/building-journeys/functions/conversion-functions.md)
          + [日期函式](using/building-journeys/functions/date-functions.md)
          + [清單函式](using/building-journeys/functions/list-functions.md)
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [存取和管理行銷活動](using/campaigns/manage-campaigns.md)
-   + [無訊息時數](using/campaigns/quiet-hours.md)
+   + [勿打擾時間](using/campaigns/quiet-hours.md)
    + 動作行銷活動 {#action-campaigns}
       + [動作行銷活動](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [使用動作行銷活動](using/campaigns/create-campaign.md)
@@ -229,10 +229,10 @@ ht-degree: 97%
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
 + 監視與疑難排解 {#monitor}
-   + [監控與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [系統警示](using/reports/alerts.md)
    + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
-   + [疑難排解文章](using/start/troubleshooting.md)
+   + [移難排解文章](using/start/troubleshooting.md)
    + 歷程疑難排解 {#troubleshoot-journey}
       + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
       + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
@@ -254,7 +254,7 @@ ht-degree: 97%
             + [匯入內容](using/email/existing-content.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
-            + [將影像轉換為HTML範本](using/email/image-to-html.md)
+            + [將影像轉換為 HTML 範本](using/email/image-to-html.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
          + 設計內容 {#add-content}
@@ -406,7 +406,7 @@ ht-degree: 97%
          + [協助程式函式清單](/help/rp_landing_pages/functions-landing-page.md)
          + [開始使用輔助函式](using/personalization/functions/functions.md)
          + [外部資料查詢協助程式](using/personalization/external-data-lookup.md)
-         + [聚合函式](using/personalization/functions/aggregation.md)
+         + [彙總函式](using/personalization/functions/aggregation.md)
          + [算術函式](using/personalization/functions/arithmetic-functions.md)
          + [陣列和清單功能](using/personalization/functions/arrays-list.md)
          + [日期函式](using/personalization/functions/dates.md)
@@ -711,7 +711,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [開始使用自訂動作](using/action/action.md)
       + [設定自訂動作](using/action/about-custom-action-configuration.md)
       + [在自訂動作中使用 API 呼叫回應](using/action/action-response.md)
-      + [監視您的自訂動作](using/action/reporting.md)
+      + [監視自訂動作](using/action/reporting.md)
 + 連線系統和環境 {#connect-systems}
    + [連線系統和環境](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [與其他解決方案整合](using/integrations/ajo-integrations.md)
