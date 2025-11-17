@@ -7,9 +7,9 @@ short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。
+>如需支援管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)。
 >
 >可用的通道因您的授權模式及附加元件而異。
 
@@ -90,9 +90,9 @@ ht-degree: 79%
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
 
 
-## 一起來深入探討
+## 讓我們深入探討
 
-現在您已瞭解哪些是協調行銷活動，是時候深入探討這些檔案區段以開始使用此功能了。
+由於您已經了解何謂協調的行銷活動，您現在可以深入了解這些文件章節，以開始使用該功能。
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -124,10 +124,10 @@ ht-degree: 79%
 
 ## 其他資源
 
-* **[建置您的第一個規則](build-query.md)** — 控制規則產生器以建立目標查詢，並使用關聯式資料精確細分您的對象。
-* **[建立關聯式結構描述](gs-schemas.md)** — 瞭解如何設定關聯式結構描述，以在行銷活動中運用多實體資料。
-* **[報告協調的行銷活動](reporting-campaigns.md)** — 使用詳細的報告量度和見解追蹤和分析您的行銷活動績效。
-* **[開始並監視行銷活動](start-monitor-campaigns.md)** — 瞭解啟動行銷活動並即時監視其執行的最佳實務。
-* **[護欄和限制](guardrails.md)** — 檢閱重要護欄、限制和最佳實務，以確保最佳行銷活動效能。
-* **[常見問題](orchestrated-campaigns-faq.md)** — 尋找有關協調行銷活動特色、功能和使用案例的常見問題解答。
-* **[協調的行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** — 探索涵蓋功能和最佳實務的逐步教學課程影片。
+* **[建置您的第一個規則](build-query.md)** - 掌握規則產生器以建立目標查詢，並使用關聯式資料精確細分您的客群。
+* **[建立關聯式結構描述](gs-schemas.md)** - 了解如何設定關聯式結構描述，以在行銷活動中運用多實體資料。
+* **[報告協調的行銷活動](reporting-campaigns.md)** - 使用詳細的報告量度和深入分析追蹤並分析您的行銷活動績效。
+* **[開始並監視行銷活動](start-monitor-campaigns.md)** - 了解啟動行銷活動並即時監視其執行的最佳做法。
+* **[護欄和限制](guardrails.md)** - 檢視重要護欄、限制和最佳做法，以確保最佳行銷活動績效。
+* **[常見問題集](orchestrated-campaigns-faq.md)** - 尋找有關協調行銷活動特色、功能和使用案例的常見問題解答。
+* **[協調的行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 探索涵蓋功能和最佳做法的逐步教學課程影片。

@@ -10,9 +10,9 @@ keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他資源 {#additional-resources}
 
-* [歷程常見問題集](journey-faq.md) — 關於歷程的常見問題
-* [錯誤代碼參考](error-codes-reference.md) — 歷程錯誤代碼和疑難排解步驟
-* [警報](../reports/alerts.md) — 設定歷程監視的警報
-* [疑難排解](troubleshooting.md) — 常見歷程問題和解決方案
-* [監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) — 監視與疑難排解歷程的工具與功能
+* [歷程常見問題集](journey-faq.md) - 關於歷程的常見問題
+* [錯誤碼參考](error-codes-reference.md) - 歷程錯誤碼和疑難排解步驟
+* [警示](../reports/alerts.md) - 設定歷程監視的警示
+* [疑難排解](troubleshooting.md) - 常見歷程問題和解決方案
+* [監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 監視與疑難排解歷程的工具與功能

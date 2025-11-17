@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Journey Optimizer 10 月發布內容已上線！在發行說明中探索本月�
 
 >[!TAB 行銷活動協調]
 
-Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為品牌啟動的批次行銷活動而建置的新功能。
+Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB 無訊息時數]
+>[!TAB 勿打擾時間]
 
-無訊息小時可讓您定義電子郵件、簡訊、推播和WhatsApp頻道的時間型排除專案。
+勿打擾時間可讓您定義不接收電子郵件、簡訊、推播和 WhatsApp 管道訊息的時間。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
@@ -49,7 +49,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -59,7 +59,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -69,7 +69,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -79,7 +79,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -89,7 +89,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -99,7 +99,7 @@ Journey Optimizer現在包含&#x200B;**Campaign Orchestration**，這是專為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

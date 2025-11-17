@@ -10,9 +10,9 @@ level: Beginner
 keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 63%
 
 * 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。瞭解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ ht-degree: 63%
 
 ## 其他資源
 
-* **[建立電子郵件](create-email.md)** — 瞭解如何使用逐步指示在行銷活動和歷程中建立電子郵件訊息。
-* **[設計電子郵件內容](get-started-email-design.md)** — 探索從草稿開始或使用範本設計電子郵件內容的不同方式。
-* **[電子郵件設定](get-started-email-config.md)** — 瞭解如何設定電子郵件設定，包括電子郵件介面、子網域和IP集區。
-* **[電子郵件個人化及樣式](get-started-email-style.md)** — 主樣式技術，包括自訂CSS、對齊、邊框間距及深色模式支援。
-* **[追蹤及監視電子郵件](message-tracking.md)** — 瞭解如何追蹤訊息開啟、點按，以及管理效能分析的URL追蹤。
-* **[電子郵件頻道教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** — 探索有關電子郵件功能和最佳實務的逐步教學課程影片。
+* **[建立電子郵件](create-email.md)** - 了解如何使用逐步指示在行銷活動和歷程中建立電子郵件訊息。
+* **[設計電子郵件內容](get-started-email-design.md)** - 探索從草稿開始或使用範本設計電子郵件內容的不同方式。
+* **[電子郵件設定](get-started-email-config.md)** - 了解如何設定電子郵件設定，包括電子郵件介面、子網域和 IP 集區。
+* **[電子郵件個人化及樣式](get-started-email-style.md)** - 掌握樣式技術，包括自訂 CSS、對齊、邊框間距及深色模式支援。
+* **[追蹤及監視電子郵件](message-tracking.md)** - 了解如何追蹤訊息開啟、點按，以及管理 URL 追蹤以進行績效分析。
+* **[電子郵件管道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - 探索有關電子郵件功能和最佳做法的逐步教學課程影片。

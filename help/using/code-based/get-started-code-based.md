@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 87%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️在[本節](../experience-decisioning/experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
+➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)呈現了一個端到端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
 
 ## 何時使用程式碼型頻道，而不是其他頻道 {#code-based-vs-other-channels}
 
@@ -104,10 +104,10 @@ ht-degree: 87%
 
 ## 其他資源
 
-* **[建立程式碼型體驗](create-code-based.md)** — 瞭解如何建立及設定自訂實作的程式碼型行銷活動和歷程。
-* **[設定程式碼型管道](code-based-configuration.md)** — 使用適當的介面和實作設定來設定程式碼型體驗設定。
-* **[程式碼型必要條件](code-based-prerequisites.md)** — 瞭解實作所需的技術需求和開發人員資源。
-* **[測試程式碼型體驗](test-code-based.md)** — 瞭解如何在發佈之前預覽和測試您的程式碼型體驗。
-* **[實作範例](code-based-implementation-samples.md)** — 探索各種使用案例的程式碼範例和實作模式。
-* **[程式碼型體驗教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** — 探索有關程式碼型功能和最佳實務的逐步教學課程影片。
+* **[建立程式碼型體驗](create-code-based.md)** - 了解如何建立及設定自訂實作的程式碼型行銷活動和歷程。
+* **[設定程式碼型管道](code-based-configuration.md)** - 使用適當的介面和實作設定來設定程式碼型體驗設定。
+* **[程式碼型先決條件](code-based-prerequisites.md)** - 了解實作所需的技術需求和開發人員資源。
+* **[測試程式碼型體驗](test-code-based.md)** - 了解如何在發佈之前預覽和測試您的程式碼型體驗。
+* **[實作範例](code-based-implementation-samples.md)** - 探索各種使用案例的程式碼範例和實作模式。
+* **[程式碼型體驗教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 探索有關程式碼型功能和最佳做法的逐步教學課程影片。
 

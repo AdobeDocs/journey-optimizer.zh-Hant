@@ -8,7 +8,7 @@ exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 hidefromtoc: true
 source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer 中的「清單」函式可讓您在工作流程中操�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中使用「distinct」函式
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的「清單」函式可讓您在工作流程中操�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 函式 - Adobe Journey Optimizer
 
@@ -42,7 +42,7 @@ distinctWithNull 函式 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中使用「filter」函式
 
@@ -52,7 +52,7 @@ distinctWithNull 函式 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中使用 getListItem 函式
 
@@ -62,7 +62,7 @@ distinctWithNull 函式 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Adobe Journey Optimizer 中使用「in」函式
 
@@ -72,7 +72,7 @@ distinctWithNull 函式 - Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 中的 Intersect 函式
 

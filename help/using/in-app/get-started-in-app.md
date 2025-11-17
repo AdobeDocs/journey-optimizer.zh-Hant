@@ -8,9 +8,9 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 65%
 
 ## 其他資源
 
-* **[建立應用程式內訊息](create-in-app.md)** — 瞭解如何為行動應用程式建立和設定應用程式內訊息。
-* **[設定應用程式內頻道](inapp-configuration.md)** — 使用適當的行動應用程式設定來設定您的應用程式內訊息頻道。
-* **[設計應用程式內內容](design-in-app.md)** — 自訂應用程式內訊息配置、樣式、按鈕和互動式元素。
-* **[Web應用程式內](create-in-app-web.md)** — 探索如何建立和傳遞Web應用程式的應用程式內訊息。
-* **[應用程式內頻道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** — 探索應用程式內訊息功能和最佳實務的逐步教學課程影片。
+* **[建立應用程式內訊息](create-in-app.md)** - 了解如何為行動應用程式建立和設定應用程式內訊息。
+* **[設定應用程式內管道](inapp-configuration.md)** - 使用適當的行動應用程式設定來設定您的應用程式內傳訊管道。
+* **[設計應用程式內內容](design-in-app.md)** - 自訂應用程式內訊息版面、樣式、按鈕和互動式元素。
+* **[網頁應用程式內](create-in-app-web.md)** - 探索如何建立和傳遞網頁應用程式的應用程式內訊息。
+* **[應用程式內管道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - 探索應用程式內傳訊功能和最佳做法的逐步教學課程影片。

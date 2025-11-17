@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 95%
 
 ## 行銷活動類型
 
-[!DNL Journey Optimizer] 支援三種行銷活動類型。每種型別適合不同的使用案例，並支援不同的管道。 如需每種行銷活動型別可用頻道的詳細資訊，請參閱本區段中的表格： [歷程與行銷活動中的頻道](../channels/gs-channels.md#channels)
+[!DNL Journey Optimizer] 支援三種行銷活動類型。每種類型適合不同的使用案例，並支援不同的管道。如需每種行銷活動類型可用管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -149,7 +149,7 @@ ht-degree: 95%
 
    1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-      如果先前未建立使用者，請參閱[新增使用者檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users){target="_blank"}
+      如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users){target="_blank"}。
 
 
   接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。

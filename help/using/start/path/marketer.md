@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer 行銷人員快速入門
-description: 作為歷程從業者，進一步瞭解如何使用Journey Optimizer
+description: 作為歷程操作者，深入了解如何使用 Journey Optimizer
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 行銷人員快速入門 {#get-started-marketers}
 
-身為&#x200B;**行銷人員**&#x200B;或&#x200B;**歷程從業者**，您必須負責建立優惠方案及歷程以及設計內容。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
+作為&#x200B;**行銷人員**&#x200B;或&#x200B;**歷程實踐者**，您必須負責建立產品建議與歷程以及設計內容。一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 
 請參閱下列章節，以設定您的第一個歷程、新增產品建議及資產並傳送訊息：
 

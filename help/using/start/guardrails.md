@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2929'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送電子郵件訊息。
 
-在設計電子郵件訊息時，系統會檢查金鑰設定並顯示警告（建議和最佳實務）和錯誤（封鎖會阻礙測試或啟用的問題）警報。 在[本節](../email/create-email.md#check-email-alerts)中進一步瞭解電子郵件警示和驗證需求。
+在設計電子郵件訊息時，系統會檢查關鍵設定並顯示警告 (建議和最佳做法) 和錯誤 (封鎖會阻礙測試或啟用的問題) 的警示。在[本節](../email/create-email.md#check-email-alerts)中進一步了解電子郵件警示和驗證需求。
 
 ### SMS 護欄 {#sms-guardrails}
 
@@ -143,7 +143,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -228,7 +228,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 客群資格篩選活動無法與 Adobe Campaign 活動搭配使用。
 * 客群資格鑑定歷程不支援補充識別碼。
 
-在[本節](../building-journeys/entry-management.md#journey-processing-rate)中進一步瞭解歷程處理速率和輸送量限制。
+在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率和輸送量限制。
 
 #### 行銷活動 {#ac-g}
 
@@ -266,7 +266,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 下列護欄適用於[讀取對象](../building-journeys/read-audience.md)歷程活動：
 
 * 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
-* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免在完全相同的時間，開始超過五個歷程（具有&#x200B;**讀取對象**、排程或「儘快」），方法是將其分散在一段時間內，例如相隔5到10分鐘。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中進一步瞭解歷程處理率。
+* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
 * **讀取客群**&#x200B;活動無法搭配 Adobe Campaign 活動使用。
 * **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。
 * 歷程只能有一個&#x200B;**讀取客群**&#x200B;活動。

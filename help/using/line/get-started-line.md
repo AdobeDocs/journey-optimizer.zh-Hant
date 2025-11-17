@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 
 * 在&#x200B;**歷程**&#x200B;中。建立歷程，新增 LINE 活動，同時定義基本設定，然後瀏覽至 **[!UICONTROL 動作：LINE]** 右窗格，以便建立 LINE 訊息的內容。在[此頁面](../building-journeys/journey-gs.md)中進一步了解如何建立歷程。
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 LINE 作為您的動作，並定義基本設定，然後編輯訊息內容，以便定義想要傳送的 LINE 訊息。瞭解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 LINE 作為您的動作，並定義基本設定，然後編輯訊息內容，以便定義想要傳送的 LINE 訊息。了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 建立 LINE 訊息之前，請先使用 Journey Optimizer，設定好 LINE 頻道。[了解更多](line-configuration.md)。
 

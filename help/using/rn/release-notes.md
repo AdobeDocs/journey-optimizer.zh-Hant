@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] 遵循持續傳遞模式，允許 Adobe 持續傳遞新功能、增強功能和修正。此方法可讓您分階段推出可擴充的功能，以確保所有環境的效能和穩定性。
 
-基於此模型，發行說明會在每月發行之間更新。專屬的[最新更新](#latest-updates)區段會強調在部署到生產環境時的新功能和改善 — 因此您一律會即時收到所有變更的通知。 如需發行週期與可用性階段的完整詳細資訊，請參閱[Journey Optimizer發行週期](releases.md)。
+基於此模型，發行說明會在每月發行之間更新。專屬的[最新更新](#latest-updates)區段會強調在部署到生產環境時的新功能和改進功能，因此您一律會即時收到所有變更的通知。如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](releases.md)。
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 最新更新 {#latest-updates}
 
-以下列出過去幾週發佈的新功能和改進專案及其推出日期。 他們將在月底與下一個發行說明內容一起分組。 另請參閱下面[的最新](#latest-rn)發行說明。
+以下列出過去幾週發行的新功能和改進功能及其推出日期。這些功能將在月底與下一個發行說明內容一起分組。另請參閱下面的最新[發行說明](#latest-rn)。
 
 ### 全新功能 {#features}
 
@@ -41,15 +41,15 @@ ht-degree: 79%
 <tbody>
 <tr>
 <td>
-<p>三個新的歷程警報現在可協助您監控及追蹤歷程生命週期事件和自訂動作效能：</p>
+<p>三種新的歷程警示現在可協助您監視及追蹤歷程生命週期事件和自訂動作績效：</p>
 <ul>
-<li><strong>已發佈歷程</strong>：當歷程由從業人員在歷程畫布中發佈時接收通知。</li>
-<li><strong>歷程已完成</strong>：歷程完成時取得警示，並根據歷程型別使用特定定義（讀取對象或事件觸發）。</li>
-<li><strong>已觸發自訂動作上限</strong>：在自訂動作端點上啟用上限時收到通知。</li>
+<li><strong>歷程已發佈</strong>：當操作者歷程版面中發佈歷程時，會收到通知。</li>
+<li><strong>歷程已完成</strong>：歷程完成時收到警示，並根據歷程類型有特定定義 (讀取客群或事件觸發)。</li>
+<li><strong>自訂動作上限已觸發</strong>：在自訂動作端點上啟用上限時，會收到通知。</li>
 </ul>
-<p>這些警報可在組織層級訂閱或針對特定歷程訂閱。</p>
+<p>這些警示可在組織層級訂閱或針對特定歷程訂閱。</p>
 <p>如需詳細資訊，請參閱<a href="../reports/alerts.md#journey-alerts">詳細文件</a>。</p>
-<p>推出日期： 2025年11月5日</p>
+<p>推出日期：2025 年 11 月 5 日</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ ht-degree: 79%
 <p>此功能先前以 Beta 版發行，現在可供部分組織使用 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細文件</a>。</p>
-<p>推出日期： 2025年11月5日</p>
+<p>推出日期：2025 年 11 月 5 日</p>
 </td>
 </tr>
 </tbody>
@@ -82,13 +82,13 @@ ht-degree: 79%
 <table>
 <thead>
 <tr>
-<th><strong>影像至HTML轉換工具</strong><br/></th>
+<th><strong>影像至 HTML 轉換工具</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>影像至HTML轉換器是AI支援的功能，可將靜態影像設計轉換為完全可自訂、模組化的HTML電子郵件內容範本。 此無程式碼工具可讓行銷人員將視覺設計轉換為回應式、可編輯的電子郵件範本，而不需要技術專業知識 — 非常適合平台移轉、快速建立範本及建立可重複使用的範本程式庫。</p>
+<p>影像至 HTML 轉換工具是 AI 支援的功能，可將靜態影像設計轉換為完全可自訂、模組化的 HTML 電子郵件內容範本。此無程式碼工具可讓行銷人員將視覺設計轉換為回應式、可編輯的電子郵件範本，而不需要技術專業知識，非常適合平台移轉、快速建立範本及建立可重複使用的範本資料庫。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p>如需詳細資訊，請參閱<a href="../email/image-to-html.md">詳細文件</a>。</p>
@@ -108,10 +108,10 @@ ht-degree: 79%
 <tbody>
 <tr>
 <td>
-<p>此功能可讓您更清楚地瞭解自訂動作端點的健康狀況和效能。 新的自訂動作監視儀表板以及歷程步驟事件資料集中的對應欄位將協助您監視自訂動作端點的成功呼叫、錯誤、輸送量、回應時間和佇列等待時間。 您現在可以快速了解自訂動作中發生異常狀況的時間、位置和原因。</p>
-<p>此功能目前對客戶而言為有限可用性。</p>
+<p>此功能可讓您更清楚地了解自訂動作端點的健康狀況和績效。新的自訂動作監視儀表板以及歷程步驟事件資料集中的對應欄位將協助您監視自訂動作端點的成功呼叫、錯誤、輸送量、回應時間和佇列等待時間。您現在可以快速了解自訂動作中發生異常狀況的時間、位置和原因。</p>
+<p>此功能目前以「限量」形式向客戶發行。</p>
 <p>如需詳細資訊，請參閱<a href="../action/reporting.md">詳細文件</a>。</p>
-<p>推出日期： 2025年10月28日</p>
+<p>推出日期：2025 年 10 月 28 日</p>
 </td>
 </tr>
 </tbody>
@@ -128,10 +128,10 @@ ht-degree: 79%
 <td>
 <p>現在使用 [!DNL Journey Optimizer]，可以透過登入頁面擷取設定檔屬性。</p>
 <p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
-<p>此功能目前在美國和澳洲的客戶中處於「有限可用」狀態。 請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能目前以「限量」形式向美國和澳洲的客戶發行。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../landing-pages/lp-forms.md">詳細文件</a>。</p>
-<p>推出日期： 2025年10月23日</p>
+<p>推出日期：2025 年 10 月 23 日</p>
 </td>
 </tr>
 </tbody>

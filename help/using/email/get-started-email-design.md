@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 除了本節中列出的電子郵件設計最佳實務之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用Email Designer建立無障礙內容。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。除了本節中列出的電子郵件設計最佳做法之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用電子郵件設計工具建立無障礙內容。
 
 ## 建立電子郵件內容的關鍵步驟 {#key-steps}
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
 
-   * **使用AI支援的影像轉換為HTML轉換器，將影像設計轉換為HTML範本**。 在[本節](image-to-html.md)中瞭解如何將靜態影像轉換為可編輯的電子郵件範本。
+   * 使用 AI 支援的影像至 HTML 轉換工具，**將影像設計轉換為 HTML 範本**。在[本節](image-to-html.md)中了解如何將靜態影像轉換為可編輯的電子郵件範本。
 
    * 從內建或自訂範本的清單&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[此區段](../email/use-email-templates.md)。
 
@@ -84,4 +84,4 @@ ht-degree: 89%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

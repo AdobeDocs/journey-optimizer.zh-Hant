@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 ## 其他資源
 
-* **[建立核准原則](approval-policies.md)** — 瞭解如何設定核准原則，以強制執行行銷活動和歷程的稽核工作流程。
-* **[要求核准](request-approval.md)** — 瞭解如何提交內容以供核准及追蹤核准狀態。
-* **[檢閱及核准要求](review-approve-request.md)** — 瞭解如何以核准者身分檢閱、核准或拒絕核准要求。
-* **[使用範例輸入進行模擬](simulate-sample-input.md)** — 瞭解如何使用範例設定檔資料來測試及驗證內容。
+* **[建立核准原則](approval-policies.md)** - 了解如何設定核准原則，以強制執行行銷活動和歷程的審閱工作流程。
+* **[請求核准](request-approval.md)** - 了解如何提交內容以供核准及追蹤核准狀態。
+* **[審閱及核准請求](review-approve-request.md)** - 了解如何以核准者身分審閱、核准或拒絕核准請求。
+* **[使用範例輸入進行模擬](simulate-sample-input.md)** - 了解如何使用範例輪廓資料來測試及驗證內容。

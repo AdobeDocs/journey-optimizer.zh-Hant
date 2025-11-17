@@ -8,21 +8,21 @@ exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
 source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 函式{#section-overview}
 
-Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式，以量身打造您的客戶歷程。無論您是要評估對象成員資格、彙總資料、轉換格式、控制日期或處理清單，每種功能類別在最佳化工作流程中都具有獨特的用途。 透過數學計算、字串自訂等工具，這些函式為製作進階條件提供無限可能性。當您探索前面的章節時，會找到可簡化複雜作業的實用範例和詳細指引，讓您輕鬆解鎖個人化歷程協調的完整潛力。
+Adobe Journey Optimizer 中的函式可讓您建立動態和精確的運算式，以量身打造您的客戶歷程。無論您是要評估客群會籍、彙總資料、轉換格式、控制日期還是處理清單，每種函式類別在最佳化工作流程中都具有獨特的用途。透過數學計算、字串自訂等工具，這些函式為製作進階條件提供無限可能性。當您探索前面的章節時，會找到可簡化複雜作業的實用範例和詳細指引，讓您輕鬆解鎖個人化歷程協調的完整潛力。
 
 ## Adobe Journey Optimizer 中的函式
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的主要函式
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 inAudience 函式
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 彙總函式參考
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 轉換函式
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer 的日期函式
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 的日期函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的清單函式
 

@@ -6,7 +6,7 @@ description: 建立運算式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用進階運算式編輯器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 進階運算式語法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer 中的函式
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的函式
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Journey Optimizer 資料集、相關使用案例的查詢範例
 
@@ -61,7 +61,7 @@ Journey Optimizer 資料集、相關使用案例的查詢範例
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 資料分析的 SQL 查詢範例
 

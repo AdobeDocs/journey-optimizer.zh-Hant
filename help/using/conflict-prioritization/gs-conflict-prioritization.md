@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 88%
 
 ## 其他資源
 
-* **[管理衝突](conflicts.md)** — 瞭解如何識別及解決重疊行銷活動和歷程之間的衝突。
-* **[設定優先順序分數](priority-scores.md)** — 瞭解如何指派和使用優先順序分數來控制訊息傳遞優先順序。
-* **[設定頻率上限](channel-capping.md)** — 瞭解如何設定頻道層級的頻率上限，以防止過度傳訊。
-* **[建立規則集](rule-sets.md)** — 瞭解如何為進階衝突管理和訊息治理建立商業規則。
-* **[歷程特定上限](journey-capping.md)** — 設定歷程層級上限規則，以控制歷程中的訊息頻率。
-* **[衝突管理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** — 探索有關衝突管理和優先順序的逐步教學課程影片。
+* **[管理衝突](conflicts.md)** - 了解如何識別及解決重疊行銷活動和歷程之間的衝突。
+* **[設定優先順序分數](priority-scores.md)** - 了解如何指派和使用優先順序分數來控制訊息傳遞優先順序。
+* **[設定頻率上限](channel-capping.md)** - 了解如何設定管道層級的頻率上限，以防止過度傳訊。
+* **[建立規則集](rule-sets.md)** - 了解如何為進階衝突管理和訊息治理建立商業規則。
+* **[歷程特定上限](journey-capping.md)** - 設定歷程層級上限規則，以控制歷程中的訊息頻率。
+* **[衝突管理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 探索有關衝突管理和優先順序的逐步教學課程影片。

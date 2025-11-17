@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 * 在&#x200B;**歷程**&#x200B;中。建立歷程、新增簡訊活動及定義基本設定。然後，瀏覽到右側的「簡訊動作」窗格以建立簡訊、MMS 或 RCS 訊息的內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動後，請選取 [簡訊] 作為動作並定義基本設定。然後，編輯訊息內容以定義要傳送的簡訊、MMS 或 RCS 訊息。瞭解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動後，請選取 [簡訊] 作為動作並定義基本設定。然後，編輯訊息內容以定義要傳送的簡訊、MMS 或 RCS 訊息。了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -211,7 +211,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -230,4 +230,4 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [護欄與限制](../start/guardrails.md#sms-guardrails)
-* [簡訊與行動訊息教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}
+* [簡訊與行動傳訊教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}
