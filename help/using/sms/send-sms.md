@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,22 @@ ht-degree: 3%
 ![](assets/sms_preview_2.png)
 
 有關如何預覽及測試內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
+
+### 字元編碼和限制 {#sms-character-limits}
+
+存取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;功能表時，會顯示字元計數，以協助規劃及管理您的SMS訊息。
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizer在其SMS編輯器中使用UTF-8編碼，可讓您輸入或貼上雙位元組或Unicode字元。 然後這些字元會傳輸到服務提供者進行傳遞。 大部分的SMS提供者會針對具有160個字元限制的標準訊息使用GSM 7位元編碼，並在偵測到具有70個字元限制的非GSM字元時切換至UTF-16 (UCS-2)。
+
+請注意，字元計數不會反映動態個人化或非GSM 7位元特殊字元引進的變數。
+
+>[!IMPORTANT]
+>
+>Journey Optimizer SMS傳遞報告不會將串連訊息和動態個人化列入考量，因此可能無法反映提供者所傳送的實際訊息數量。 如需詳細使用情況和計費資訊，請聯絡您的Adobe代表。
+>
+>若要瞭解儘量降低SMS計費超額的最佳實務，請參閱[字元最佳化的SMS最佳實務](sms-cost-optimization.md)。
 
 ## 驗證您的內容 {#sms-validate}
 
