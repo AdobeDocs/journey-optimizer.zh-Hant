@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1604'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 3%
   如果您選擇「手動樣式化」模式，除非重設電子郵件，否則您將無法套用任何主題。
 
 * [片段](../content-management/fragments.md)在使用主題和手動樣式模式之間不相容。
+
+   * 主題片段無法在未使用主題建立的電子郵件內容中使用。
 
    * 若要在主題內容中利用[片段](../content-management/fragments.md)，此片段必須已使用主題自行建立。 [了解更多](#leverage-themes-fragment)
 
@@ -106,7 +108,7 @@ ht-degree: 3%
 
    ![](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -228,6 +230,10 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer]可讓您將使用手動樣式建立的範本轉換為與主題相容的內容。 如果您是在將主題引入[!DNL Journey Optimizer]之前建立內容範本，或您正在匯入外部內容，這會特別有用。
 
+>[!NOTE]
+>
+> 只有&#x200B;**電子郵件範本**&#x200B;可以轉換為與主題相容。 個別電子郵件無法轉換；您必須先將內容儲存為範本。
+
 1. 開啟電子郵件[內容範本](../content-management/create-content-templates.md)，並使用電子郵件Designer編輯其內容。
 
 1. 選取右側邊欄上的&#x200B;**[!UICONTROL 主題]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 從內容產生主題]**&#x200B;按鈕。
@@ -244,4 +250,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#leverage-themes-fragment)
+1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#leverage-themes-fragment)
