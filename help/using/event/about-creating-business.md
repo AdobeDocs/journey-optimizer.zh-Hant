@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 12%
@@ -93,8 +93,6 @@ ht-degree: 12%
    ![](assets/test-profiles-4.png)
 
 1. 在&#x200B;**[!UICONTROL 事件識別碼條件]**&#x200B;欄位內按一下。 使用簡單運算式編輯器來定義條件，系統會使用它來識別觸發您歷程的事件。
-
-   ![](assets/jo-event6-business.png)
 
    在我們的範例中，我們根據產品ID來撰寫條件。 這表示每當系統收到符合此條件的事件時，就會將其傳遞至歷程。
 
