@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
+source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '836'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 
 * **資料集中沒有PII** — 啟用查詢的資料集不應包含任何個人識別資訊(PII)。
 
-* &#x200B;
+* 
    * **刪除風險** — 未保護個人化中使用的資料集免於刪除。 您必須追蹤哪些資料集正在使用，以確保未將其移除。
 
 * **結構描述型別** — 資料集必須與設定檔或事件型別的&#x200B;**NOT**&#x200B;結構描述相關聯。
@@ -100,10 +100,6 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 在資料集管理使用者介面中，使用切換開關來啟用資料集以供查閱。
 
 ![](assets/aep-data-enable.png)
-
->[!NOTE]
->
->我們建議不要為設定檔啟用此資料集，因為這會導致設定檔豐富度增加，而且不需要執行查詢。
 
 ### API方法
 
