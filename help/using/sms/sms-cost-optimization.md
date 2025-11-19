@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Journey Optimizer允許在SMS訊息本文中最多使用1,500個字元。 超過
 
 ## 瞭解報告 {#understanding-reporting}
 
-**Journey Optimizer報告**&#x200B;會將完整訊息計為單次傳送，不考慮SMS部分。 這有助於減少可參與的設定檔數量。
+**Journey Optimizer報告**&#x200B;會將完整訊息計為單次傳送，不考慮SMS部分。
 
-**提供者報告**&#x200B;顯示傳遞的實際SMS部分，且應該用來判斷帳單和超額。
+**提供者報告**&#x200B;反映用於傳遞的實際SMS訊息部分數量，並應參考以確認帳單及任何可能的超額費用。 如果Adobe是您透過Sinch的簡訊提供者，您將每月單獨收到此計費報告。
 
 ## Personalization注意事項 {#personalization-considerations}
 
