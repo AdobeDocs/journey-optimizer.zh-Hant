@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 13%
@@ -42,15 +42,13 @@ ht-degree: 13%
 
 1. 輸入事件的名稱。 您也可以新增說明。
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >只允許使用英數字元和底線。 長度上限為30個字元。
 
-1. 在&#x200B;**[!UICONTROL 型別]**&#x200B;欄位中，選擇&#x200B;**單一**。
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. 在&#x200B;**[!UICONTROL 型別]**&#x200B;欄位中，選擇&#x200B;**單一**。
 
 1. 在&#x200B;**[!UICONTROL 事件識別碼型別]**&#x200B;欄位中，選取您要使用的事件識別碼型別： **規則型**&#x200B;或&#x200B;**系統產生**。 閱讀有關[本節](../event/about-events.md#event-id-type)中事件ID型別的詳細資訊。
 
@@ -68,8 +66,6 @@ ht-degree: 13%
 
 1. 對於規則型事件，請在&#x200B;**[!UICONTROL 事件識別碼條件]**&#x200B;欄位內按一下。 使用簡單或進階運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
 
-   ![](assets/jo-event6.png)
-
    在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件（**[!UICONTROL 城市]**&#x200B;欄位和&#x200B;**[!UICONTROL 巴黎]**&#x200B;值）的事件時，就會將其傳遞給歷程。
 
    >[!NOTE]
@@ -81,8 +77,6 @@ ht-degree: 13%
 1. 新增身分型別。 此步驟為選填，但建議您新增身分型別，以便運用儲存在「即時客戶個人檔案服務」的資訊。 它會定義事件具備的金鑰類型。請參閱[此章節](../event/about-creating.md#select-the-namespace)深入瞭解。
 
 1. 定義設定檔識別碼：從您的裝載欄位選擇一個欄位，或定義一個公式以識別與事件相關聯的人員。 如果您選取身分型別，此金鑰會自動設定（但仍可編輯）。 事實上，歷程會挑選應該與身分型別對應的金鑰（例如，如果您選取電子郵件身分型別，則會選取電子郵件金鑰）。 請參閱[此章節](../event/about-creating.md#define-the-event-key)深入瞭解。
-
-   ![](assets/jo-event7.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
