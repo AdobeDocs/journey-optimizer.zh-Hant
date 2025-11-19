@@ -10,10 +10,10 @@ level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
 badge: label="有限可用性" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能目前在美國和澳洲的客戶中處於「有限可用」狀態。 請聯絡您的 Adobe 代表以取得存取權。
+>此功能目前以「限量」形式向美國和澳洲的客戶發行。請聯絡您的 Adobe 代表以取得存取權。
 
 若要使用您的[!DNL Journey Optimizer]登陸頁面擷取設定檔資料並擴充[!DNL Experience Platform]資料集，您可以在登陸頁面中運用表單。
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
+   >在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 >id="ajo_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
 
 若要建立表單，請遵循下列步驟。
 
@@ -195,8 +195,6 @@ ht-degree: 1%
 >abstract="設定某人填寫或轉寄表單時所發生的情況。"
 
 返回表單詳細資料，從&#x200B;**[!UICONTROL 感謝頁面]**&#x200B;區段，設定使用者填寫表單時會發生什麼情況。
-
-![](assets/lp_create-form-thank-you.png){width=70%}
 
 設定下列其中一個動作：
 
