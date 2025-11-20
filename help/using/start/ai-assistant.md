@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 使用 AI 助理 {#ai-assistant}
 
-AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
+AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並獲取指定環境的運作洞察。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。
 
 若要存取 AI 助理，請按一下頂端列上的圖示。AI 助理便會顯示在畫面右側區段。
 

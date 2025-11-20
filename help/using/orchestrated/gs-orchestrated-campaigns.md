@@ -7,7 +7,7 @@ short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 100%
 
