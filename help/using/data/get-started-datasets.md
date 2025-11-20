@@ -74,8 +74,8 @@ ht-degree: 78%
 
 您可以從結構描述或CSV檔案建立資料集。 有關如何建立資料集的詳細資訊，請參閱[!DNL Adobe Experience Platform]檔案：
 
-* [使用現有結構描述建立資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [將CSV檔案對應到現有的XDM結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [使用現有結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [將CSV檔案對應到現有的XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構描述、新增資料，以及確認資料已擷取。
 
@@ -101,4 +101,4 @@ ht-degree: 78%
 >
 >* [資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
->* [資料管理授權權益最佳實務](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [資料管理授權權益最佳實務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
