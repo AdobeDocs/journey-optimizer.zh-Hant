@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 507a3caa79856dd2c8b58b395507caf164eb0546
+source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 1%
@@ -30,6 +30,8 @@ ht-degree: 1%
 >[!NOTE]
 >
 >基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節[中進一步瞭解歷程屬性](../building-journeys/expression/journey-properties.md#journey-properties-fields)。
+
++++
 
 ## 基本使用案例/常見查詢 {#common-queries}
 
