@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,19 @@ ht-degree: 1%
 * **[!UICONTROL 已退出（強制退出）]**：由於歷程從業人員設定而暫停歷程時，已退出歷程的個人總數。 對於處於練習模式的歷程，此量度一律等於零。
 * **[!UICONTROL 錯誤]**：在該活動中發生錯誤的個人總數。
 
+## 疑難排解遺失的報表資料 {#troubleshooting-missing-data}
+
+如果您的歷程報告中沒有看到預期的資料，請考慮下列事項：
+
+* **歷程名稱同步**：確認Adobe Journey Optimizer中的歷程名稱符合儲存在報表資料集中的名稱。 這些名稱不符可能會妨礙報表資料正確顯示。
+
+* **資料重新整理時間**：更新歷程名稱或設定後，請讓資料有足夠的時間重新整理。 報表資料通常會在幾分鐘內顯示，但在某些情況下可能需要更長的時間。
+
+* **存取許可權**：確保您擁有檢視歷程報告的必要許可權。 如果您沒有看到任何資料，請洽詢您的管理員，確認您已啟用&#x200B;**[!UICONTROL 檢視歷程報告]**&#x200B;許可權。 [進一步瞭解許可權](../administration/permissions.md)
+
+* **歷程狀態**：報告資料僅適用於在[試執行模式](journey-dry-run.md)中執行的已發佈歷程或歷程。 歷程草稿不會產生報告資料。
+
+如果在驗證這些專案後問題仍然存在，請聯絡您的Adobe管理員或Adobe支援以尋求協助。
 
 >[!MORELIKETHIS]
 >

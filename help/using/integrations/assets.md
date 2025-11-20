@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 資產， experience manager，整合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 7%
+source-wordcount: '1106'
+ht-degree: 5%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 7%
 
 * **[!DNL Assets as a Cloud Service]**： Adobe Experience Manager Assets as a Cloud Service提供簡單易用的雲端解決方案，有助於有效率的數位資產管理和Dynamic Media作業。 它緊密整合了進階功能，包括人工智慧和機器學習。
 
-  進一步瞭解[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=zh-Hant){target="_blank"}。
+  進一步瞭解[Adobe Experience Manager as a Cloud Service檔案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html){target="_blank"}。
 
 * **[!DNL Assets Essentials]**： Experience Manager Assets Essentials是Assets as a Cloud Service輕量型解決方案，適用於統一的資產管理和共同作業。 透過現代化、簡化的介面，其可讓創意和行銷團隊輕鬆儲存、探索和分發數位資產。
 
-  深入瞭解[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+  深入瞭解[Adobe Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 視您的合約而定，可以直接透過左側功能表&#x200B;**[!DNL Adobe Experience Manager Assets Essentials]** Assets **[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;區段從&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;存取&#x200B;**[!UICONTROL 或]**。 您也可以在[設計電子郵件內容](../email/get-started-email-design.md)時存取資產和資料夾。
 
@@ -40,14 +40,14 @@ ht-degree: 7%
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-在使用[!DNL Adobe Experience Manager Assets Essentials]之前，您必須將使用者新增到&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔。 請參閱[Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hant#add-user-groups){target="_blank"}以深入瞭解。
+在使用[!DNL Adobe Experience Manager Assets Essentials]之前，您必須將使用者新增到&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔。 請參閱[Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}以深入瞭解。
 
 >[!NOTE]
 >針對 2022 年 1 月 6 日之前取得的 Journey Optimizer 產品，您必須為貴組織部署 **[!DNL Adobe Experience Manager Assets Essentials]** 。 在[部署 Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=zh-Hant){target="_blank"} 一節中了解更多資訊。
 
 >[!TAB Adobe Experience Manager Assets 雲端服務]
 
-在使用&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;之前，您必須將使用者新增到Assets雲端服務。 閱讀[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=zh-Hant)中的詳細資訊。
+在使用&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;之前，您必須將使用者新增到Assets雲端服務。 閱讀[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html)中的詳細資訊。
 
 >[!ENDTABS]
 
@@ -83,9 +83,9 @@ ht-degree: 7%
 
 1. 從&#x200B;**[!UICONTROL 上傳檔案]**，按一下&#x200B;**[!UICONTROL 瀏覽]**，並選擇要&#x200B;**[!UICONTROL 瀏覽檔案]**&#x200B;或&#x200B;**[!UICONTROL 瀏覽資料夾]**。
 
-1. 選取您要上傳的檔案。 完成時，按一下&#x200B;**[!UICONTROL 上傳]**。 若要進一步瞭解如何管理您的資產，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-Hant)。
+1. 選取您要上傳的檔案。 完成時，按一下&#x200B;**[!UICONTROL 上傳]**。 若要進一步瞭解如何管理您的資產，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html)。
 
-1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=zh-Hant){target="_blank"}。
+1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
@@ -139,5 +139,42 @@ ht-degree: 7%
 +++ Journey Optimizer使用者可以從Journey Optimizer介面變更Adobe Experience Manager Assets as a Cloud Service存放庫嗎？
 
 只要Journey Optimizer使用者是有許可權的&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;標準使用者，並且擁有存放庫的編輯許可權，該使用者就可以編輯&#x200B;**[!DNL Adobe Experience Manager Assets as a Cloud Service]**&#x200B;存放庫。
+
++++
+
++++ 為何從Journey Optimizer傳送的電子郵件有時無法載入影像？
+
+如果資產（例如影像）是透過Adobe Experience Manager管理並在Journey Optimizer中使用，則需受限於具有存留時間(TTL)的資產生命週期政策。 TTL期間過期後，資產可能會從儲存(CDN)中移除，這可能會導致參考這些資產的電子郵件中的影像損毀。
+
+>[!NOTE]
+>
+>資產TTL由Adobe Journey Optimizer後端服務管理，目前無法供客戶設定。 所有Journey Optimizer組織的目前TTL期間皆設為730天。
+
++++
+
++++ 如何解決因資產過期而損壞的影像？
+
+若要在資產過期時還原影像可用性：
+
+1. **重新發佈受影響的資產**：導覽至Adobe Experience Manager中的資產並重新發佈。 如此一來，資產就可以在CDN中再次使用。
+
+2. **更新內容參考**：如果您使用參考過期資產的內容片段或範本：
+   * 建立內容片段的草稿或原地複製
+   * 重新新增或重新選取資產
+   * 發佈更新的內容
+
+3. **主動式管理**：為避免未來發生中斷，請考慮定期檢閱及重新發佈作用中電子郵件行銷活動所使用的資產，尤其是接近TTL到期期的資產。
+
+>[!CAUTION]
+>
+>重新發佈需求適用於所有環境（生產、暫存、開發）。 適當地管理資產的生命週期，確保資產仍然可用。
+
++++
+
++++ 資產到期邏輯日後是否會有所改善？
+
+是的，Adobe正積極致力於增強功能，以精簡資產到期日和生命週期管理邏輯。 這些改善旨在提供更佳資產生命週期狀態的可見度，並降低即時行銷活動中損壞影像的風險。
+
+如需最新更新，請洽詢您的Adobe帳戶團隊或監控Adobe Journey Optimizer發行說明。
 
 +++

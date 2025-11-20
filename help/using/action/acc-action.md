@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 9%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 12%
 
 >[!BEGINTABS]
 
->[!TAB 適用於Adobe Journey Optimizer 的]
+>適用於Adobe Journey Optimizer[!TAB 的]
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign 的]
+>適用於Adobe Campaign[!TAB 的]
 
 * 行銷活動伺服器URL
 * 即時伺服器URL
@@ -61,7 +61,7 @@ ht-degree: 12%
 
 ## 先決條件 {#prerequisites}
 
-在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 
@@ -92,9 +92,25 @@ ht-degree: 12%
 
 1. 建立新動作。 [瞭解如何建立自訂動作](../action/action.md)。
 1. 輸入名稱和說明。
-1. 在&#x200B;**動作型別**&#x200B;欄位中，選取&#x200B;**Adobe Campaign Classic**。
+1. 在&#x200B;**[!UICONTROL 動作型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL Adobe Campaign Classic]**。
    ![](assets/accintegration1.png)
-1. 按一下&#x200B;**裝載**&#x200B;欄位，然後貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
+1. 按一下&#x200B;**[!UICONTROL 裝載]**&#x200B;欄位，然後貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
 1. 根據您想要每個欄位在歷程畫布上對應，將其設定為靜態或變數。 例如，電子郵件通道引數和個人化欄位(`ctx`)等欄位通常應設定為變數，以便能夠在歷程中動態調整。
-1. 按一下&#x200B;**儲存**。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+
+## 更新現有動作 {#update-action}
+
+如果您需要更新現有的Campaign v7/v8自訂動作，例如在初始設定後即時(RT)端點變更時，請遵循下列步驟：
+
+1. 從&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，選取&#x200B;**[!UICONTROL 組態]**，然後移至&#x200B;**[!UICONTROL 動作]**。
+1. 找出並選取您要從動作清單更新的Campaign動作。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;以開啟動作設定。
+1. 使用新的RT端點URL更新&#x200B;**[!UICONTROL URL]**&#x200B;欄位。 請確認端點格式正確且可連線。
+1. 如有需要，請更新&#x200B;**[!UICONTROL 裝載]**&#x200B;設定，以符合Campaign交易式訊息結構中的任何變更。
+1. 按一下&#x200B;**[!UICONTROL 測試]**&#x200B;以驗證與新端點的連線。 在繼續之前，請確認測試傳回成功的回應。
+1. 驗證後，按一下[儲存] **[!UICONTROL 以套用您的變更。]**
+
+>[!NOTE]
+>
+>任何使用此動作的歷程都會自動使用更新的設定。 如果您有使用此動作的即時歷程，請在更新端點後密切監視它們，以確保正確傳送訊息。
 

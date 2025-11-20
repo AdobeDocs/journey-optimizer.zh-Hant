@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 10%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -42,6 +42,10 @@ ht-degree: 10%
 歷程的名稱。
 
 型別：字串
+
+>[!NOTE]
+>
+>歷程名稱可用來將歷程執行資料與報告資料集連結。 如果您重新命名歷程，請確定新名稱與您報表資料集中的名稱相符，以維持準確的報告。 不相符可能會導致報表資料無法如預期顯示。 深入瞭解[疑難排解遺失的報告資料](../building-journeys/report-journey.md#troubleshooting-missing-data)。
 
 ## 說明 {#description-field}
 
