@@ -50,7 +50,7 @@ Adobe Journey Optimizer 運用人工智慧和機器學習的力量，轉變您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 AI 助理產品知識
 
