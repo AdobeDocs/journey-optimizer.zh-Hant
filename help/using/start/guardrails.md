@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送電子郵件訊息。
 
 在設計電子郵件訊息時，系統會檢查關鍵設定並顯示警告 (建議和最佳做法) 和錯誤 (封鎖會阻礙測試或啟用的問題) 的警示。在[本節](../email/create-email.md#check-email-alerts)中進一步了解電子郵件警示和驗證需求。
+
+#### 歷程發佈的訊息內容大小 {#message-content-size}
+
+發佈包含電子郵件訊息的歷程時，後端處理後的訊息內容大小總計不得超過&#x200B;**2MB**。 在發佈期間，系統會透過修補連結、影像和套用轉換來自動處理訊息內容，這會增加裝載大小，超過編寫的內容大小。
+
+>[!CAUTION]
+>
+>如果最終處理的訊息內容超過2MB，歷程發佈將會失敗。 為避免發佈失敗，請將您編寫的郵件內容保持在2MB以下（最好在&#x200B;**1MB**&#x200B;以下），以便允許300-400KB的緩衝區用於後端處理額外負荷。
+
+**防止發佈失敗的最佳實務：**
+
+* 將編寫的電子郵件內容保持在1MB以下
+* 將內容變數的數量減到最少
+* 在將影像新增至訊息之前，請先最佳化及壓縮影像
+* 移除未使用的資產及不必要的HTML元素
+* 在將歷程發佈到生產環境之前測試訊息大小
+
+如果歷程發佈因內容大小而失敗，請減少訊息內容並重新發佈歷程。
 
 ### SMS 護欄 {#sms-guardrails}
 
