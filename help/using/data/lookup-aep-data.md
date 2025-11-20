@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 5%
 >title="啟用供查詢使用"
 >abstract="啟用資料集進行查詢，可讓您在Journey Optimizer個人化、決策和Journey Orchestration功能中運用其資料。"
 
-Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能，善用Adobe Experience Platform資料中的資料。 若要這麼做，必須先為查詢服務啟用查詢個人化所需的記錄型資料集，如下所述。
+[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]個資料的個人化、決策和歷程協調功能。 若要這麼做，必須先為查詢服務啟用查詢個人化所需的記錄型資料集，如下所述。
+
+在本節中進一步瞭解如何存取和使用資料集：[開始使用資料集](../data/get-started-datasets.md)
 
 ## 必讀
 
@@ -34,8 +36,7 @@ Journey Optimizer可讓您透過個人化、決策和Journey Orchestration功能
 
 * **資料集中沒有PII** — 啟用查詢的資料集不應包含任何個人識別資訊(PII)。
 
-* 
-   * **刪除風險** — 未保護個人化中使用的資料集免於刪除。 您必須追蹤哪些資料集正在使用，以確保未將其移除。
+* **刪除風險** — 未保護個人化中使用的資料集免於刪除。 您必須追蹤哪些資料集正在使用，以確保未將其移除。
 
 * **結構描述型別** — 資料集必須與設定檔或事件型別的&#x200B;**NOT**&#x200B;結構描述相關聯。
 
