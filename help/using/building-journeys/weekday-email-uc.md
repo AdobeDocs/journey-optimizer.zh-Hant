@@ -11,7 +11,7 @@ keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
+source-git-commit: e9e215bfb2de955b27e6bc2395df4975d86b17f0
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -43,9 +43,7 @@ ht-degree: 0%
 * 與工作相關的產品更新
 * 任何不需要週末傳送的行銷活動
 
->[!VIDEO]
->
->觀看此頁面底部的逐步[教學課程影片](#how-to-video)，瞭解完整實作。
+觀看此頁面底部的逐步[教學課程影片](#how-to-video)，瞭解完整實作。
 
 ## 先決條件
 
@@ -343,7 +341,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 瞭解如何使用Adobe Journey Optimizer只在工作日傳送電子郵件。 此影片示範條件活動和等待公式的逐步實作，以將週末專案排入佇列，以供星期一傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469391?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他資源
 
