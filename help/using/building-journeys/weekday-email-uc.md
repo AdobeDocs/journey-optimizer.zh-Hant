@@ -11,10 +11,10 @@ keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f8b594a14a1f89f77aa560a4de2b99189046af4f
+source-git-commit: 46a46fb25c1ef985a0bdea8974aa009e3699c7a3
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 1%
+source-wordcount: '1833'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 1%
 
 此方法非常適合企業間(B2B)電子郵件行銷活動、專業電子報和通訊、企業相關公告、工作相關產品更新，以及任何不希望週末送貨的行銷活動。
 
-觀看此頁面底部的逐步[教學課程影片](#how-to-video)，瞭解完整實作。
+➡️觀看逐步教學[影片](#how-to-video)
 
-## 先決條件
+>[!NOTE]
+>
+>若要實作此使用案例，您需要具備已設定的[電子郵件頻道介面](../configuration/channel-surfaces.md)、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)的活動Adobe Journey Optimizer執行個體以觸發歷程，以及對[歷程條件](condition-activity.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
 
-若要實作此使用案例，您需要具備已設定的[電子郵件頻道介面](../configuration/channel-surfaces.md)、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)的活動Adobe Journey Optimizer執行個體以觸發歷程，以及對[歷程條件](condition-activity.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
+
+
+
 
 ## 實施步驟
 
@@ -293,29 +297,25 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 ## 相關主題
 
-| 主題 | 說明 |
-|-------|-------------|
-| [關於條件活動](condition-activity.md) | 瞭解如何在您的歷程中建立不同的路徑 |
-| [在歷程中使用條件](conditions.md) | 歷程條件的詳細指南 |
-| [等待活動](wait-activity.md) | 設定等待期間和公式 |
-| [日期函式](functions/date-functions.md) | 日期和時間函式的完整參考 |
-| [運算式編輯器](expression/expressionadvanced.md) | 建立複雜運算式 |
-| [測試您的歷程](testing-the-journey.md) | 發佈前驗證歷程邏輯 |
-| [時區管理](timezone-management.md) | 處理歷程中的不同時區 |
-| [歷程最佳實務](journey-gs.md#best-practices) | 歷程設計的建議方法 |
+* [關於條件活動](condition-activity.md) — 瞭解如何在歷程中建立不同的路徑
+* [在歷程中使用條件](conditions.md) — 歷程條件的詳細指南
+* [等待活動](wait-activity.md) — 設定等待期間和公式
+* [日期函式](functions/date-functions.md) — 完成日期與時間函式的參考
+* [運算式編輯器](expression/expressionadvanced.md) — 建置複雜運算式
+* [測試您的歷程](testing-the-journey.md) — 在發佈之前驗證歷程邏輯
+* [時區管理](timezone-management.md) — 處理歷程中的不同時區
+* [歷程最佳實務](journey-gs.md#best-practices) — 歷程設計的建議方法
 
 ## 作法影片
 
 瞭解如何使用Adobe Journey Optimizer只在工作日傳送電子郵件。 此影片示範條件活動和等待公式的逐步實作，以將週末專案排入佇列，以供星期一傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469391?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他資源
 
-| 資源 | 說明 |
-|----------|-------------|
-| [運算式編輯器檔案](expression/expressionadvanced.md) | 建置及驗證歷程運算式 |
-| [歷程設計器指南](using-the-journey-designer.md) | 掌握歷程畫布 |
-| [歷程使用案例總覽](jo-use-cases.md) | 探索更多歷程模式和範例 |
-| [社群部落格貼文：如何只在工作日傳送電子郵件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | 包含詳細範例的原始部落格 |
+* [運算式編輯器檔案](expression/expressionadvanced.md) — 建置並驗證歷程運算式
+* [歷程設計器指南](using-the-journey-designer.md) — 掌握歷程畫布
+* [歷程使用案例總覽](jo-use-cases.md) — 探索更多歷程模式和範例
+* [社群部落格：如何在平日只傳送電子郵件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} — 包含詳細範例的原始部落格
 
