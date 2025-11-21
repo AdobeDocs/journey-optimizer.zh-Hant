@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ ht-degree: 0%
    * 設定[電子郵件引數](../email/email-settings.md)
    * 視需要設定[個人化](../personalization/personalize.md)
 
-1. 在電子郵件後新增&#x200B;**[!UICONTROL End]**&#x200B;活動。 [進一步瞭解結束活動](end-activity.md)
+1. 在電子郵件後新增&#x200B;**[!UICONTROL End]**&#x200B;活動。
 
 ### 步驟6：合併電子郵件的週末路徑
 
@@ -343,7 +343,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 瞭解如何使用Adobe Journey Optimizer只在工作日傳送電子郵件。 此影片示範條件活動和等待公式的逐步實作，以將週末專案排入佇列，以供星期一傳送。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469391?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## 其他資源
 
