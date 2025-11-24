@@ -11,9 +11,9 @@ keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將[**[!UICONTROL 條件&#x200B;]**&#x200B;活動](condition-activity.md)拖放到進入點之後的畫布上。
+1. 將[**[!UICONTROL 條件&#x200B;]**活動](condition-activity.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 
@@ -185,9 +185,9 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ## 相關主題
 
-* 瞭解如何使用[條件活動](condition-activity.md)在歷程中建立不同的路徑
-* 有關[在歷程中使用條件的詳細指南](conditions.md)
-* 使用[等待活動](wait-activity.md)設定等待期間和公式
-* 完成[日期函式](functions/date-functions.md)的參考
-* 使用[運算式編輯器](expression/expressionadvanced.md)建置複雜運算式
-* [歷程設計和最佳實務的建議方法](journey-gs.md#best-practices)
+* [條件活動](condition-activity.md) — 瞭解如何在歷程中建立不同的路徑
+* [在歷程中使用條件](conditions.md) — 歷程條件的詳細指南
+* [等待活動](wait-activity.md) — 設定等待期間和公式
+* [日期函式](functions/date-functions.md) — 完成日期與時間函式的參考
+* [運算式編輯器](expression/expressionadvanced.md) — 建置複雜運算式
+* [歷程最佳實務](journey-gs.md#best-practices) — 歷程設計的建議方法
