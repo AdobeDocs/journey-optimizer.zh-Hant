@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 每當決策管理為特定輪廓做出決定時，這些事件的相關資訊就會自動傳送至 Adobe Experience Platform。
 
-這可讓您針對決策獲得深入分析，例如，了解哪項產品建議已呈現給指定輪廓。 您可匯出這些資料，將其分析至您自己的報告系統，或善用 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)與其他工具，以達到增強分析與報告的目的。
+這可讓您針對決策獲得洞察，例如，了解哪項產品建議已呈現給指定輪廓。 您可匯出這些資料，將其分析至您自己的報告系統，或善用 Adobe Experience Platform [查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant)與其他工具，以達到增強分析與報告的目的。
 
 ## 資料集的可用重要資訊 {#key-information}
 

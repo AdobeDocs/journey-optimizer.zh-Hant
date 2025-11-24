@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -124,6 +124,6 @@ ht-degree: 100%
 
 以下影片說明如何使用決定管理來定義和管理您的產品建議，並運用即時客戶資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470052?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
