@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 訊息，頻率，規則，壓力
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。若要新增至輪候表，請聯絡您的 Adobe 代表。
+>無訊息小時規則目前僅適用於一組組織（可用性限制）。  未來版本將逐步向所有客戶提供。
 
 
 ➡️ [在影片中探索此功能](#video)
@@ -187,4 +187,4 @@ ht-degree: 7%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
