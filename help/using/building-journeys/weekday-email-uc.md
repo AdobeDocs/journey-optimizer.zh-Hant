@@ -11,9 +11,9 @@ keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 導覽至Adobe Journey Optimizer中的&#x200B;**[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]**。
 
-1. 按一下&#x200B;**[!UICONTROL 建立歷程]**&#x200B;以建立新歷程。 [進一步瞭解如何建立歷程](journey-gs.md)
+1. 按一下&#x200B;**[!UICONTROL 建立歷程]**&#x200B;以[建立新歷程](journey-gs.md)。
 
 1. 設定[歷程屬性](journey-properties.md)。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將&#x200B;**[!UICONTROL 條件]**&#x200B;活動拖放到進入點之後的畫布上。 [進一步瞭解條件活動](condition-activity.md)
+1. 將[**[!UICONTROL 條件&#x200B;]**活動](condition-activity.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->用於星期評估的時區是在歷程屬性中的歷程層級定義，而不是在條件層級。 公式中使用的歷程時區是歷程的設定時區，而非收件者的時區。[進一步瞭解時區管理](timezone-management.md)。
+>用於星期評估的時區是在歷程屬性中的歷程層級定義，而不是在條件層級。 公式中使用的歷程[時區](timezone-management.md)是歷程已設定的時區，而非收件者的時區。
 
 ### 步驟3：設定週末專案的等待活動
 
@@ -155,7 +155,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 測試]**&#x200B;按鈕。
 
-1. 啟用測試模式。 [瞭解如何測試您的歷程](testing-the-journey.md)
+1. 啟用[測試模式](testing-the-journey.md)。
 
 1. 建立在一星期中不同日期具有模擬進入時間的[測試設定檔](../audience/creating-test-profiles.md)：
    * **星期六專案**：驗證設定檔是否遵循星期六路徑、在指定時間等待並接收星期一的電子郵件
@@ -164,13 +164,13 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 檢閱歷程視覺效果，確保設定檔遵循正確的條件路徑（星期六、星期日或工作日）。
 
-1. 檢查歷程中是否有任何錯誤或警告。 [了解疑難排解歷程](troubleshooting.md)
+1. 檢查歷程中是否有任何[錯誤或警告](troubleshooting.md)。
 
 1. 確認「等待」公式計算所需星期一傳送時間的正確持續時間。
 
 >[!IMPORTANT]
 >
->一律在測試模式下測試您的歷程邏輯，以確保等待活動如預期般運作。 使用測試模式來模擬不同的登入案例，並驗證週末專案是否已正確排入星期一傳送的佇列。 [進一步瞭解歷程測試最佳實務](testing-the-journey.md)
+>一律在測試模式下測試您的歷程邏輯，以確保等待活動如預期般運作。 使用測試模式來模擬不同的登入案例，並驗證週末專案是否已正確排入星期一傳送的佇列。 如需詳細資訊，請參閱[歷程測試最佳實務](testing-the-journey.md)。
 
 ### 步驟7：發佈您的歷程
 
@@ -178,18 +178,16 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 發佈]**。
 
-1. 確認發佈。 [進一步瞭解發佈歷程](publish-journey.md)
+1. 確認[出版物](publish-journey.md)。
 
 1. 使用[歷程報告](report-journey.md)和[即時報告](../reports/journey-live-report.md)監視歷程績效。
 
 
 ## 相關主題
 
-* [關於條件活動](condition-activity.md) — 瞭解如何在歷程中建立不同的路徑
-* [在歷程中使用條件](conditions.md) — 歷程條件的詳細指南
-* [等待活動](wait-activity.md) — 設定等待期間和公式
-* [日期函式](functions/date-functions.md) — 完成日期與時間函式的參考
-* [運算式編輯器](expression/expressionadvanced.md) — 建置複雜運算式
-* [歷程最佳實務](journey-gs.md#best-practices) — 歷程設計的建議方法
-* [社群部落格：如何在平日只傳送電子郵件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} — 包含詳細範例的原始部落格
-
+* 瞭解如何使用[條件活動](condition-activity.md)在歷程中建立不同的路徑
+* 有關[在歷程中使用條件的詳細指南](conditions.md)
+* 使用[等待活動](wait-activity.md)設定等待期間和公式
+* 完成[日期函式](functions/date-functions.md)的參考
+* 使用[運算式編輯器](expression/expressionadvanced.md)建置複雜運算式
+* [歷程設計和最佳實務的建議方法](journey-gs.md#best-practices)
