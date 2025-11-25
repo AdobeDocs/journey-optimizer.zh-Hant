@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 21%
+source-wordcount: '1260'
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}，以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -56,6 +56,10 @@ ht-degree: 21%
   X-gw-ims-org-id - your organization's ID
   Content-type - application/json
   ```
+
+>[!NOTE]
+>
+>**針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ## 檢查人們如何導覽歷程 {#checking-how-people-navigate-through-the-journey}
 

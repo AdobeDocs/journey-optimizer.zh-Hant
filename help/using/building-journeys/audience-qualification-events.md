@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 7%
+source-wordcount: '1598'
+ht-degree: 6%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -108,11 +108,33 @@ ht-degree: 7%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 針對頻率或隱藏邏輯，請使用商業規則而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+如需串流區段的詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
 >若為串流區段，新擷取的資料可能需要最多&#x200B;**2小時**&#x200B;才能在Adobe Experience Platform中完整傳播以供即時使用。 依賴日型或時間型條件（例如「今天發生的事件」）的受眾可能會在資格計時中遇到額外的複雜性。 如果您的歷程取決於立即對象資格，請考慮在開頭新增短的[等待活動](wait-activity.md)，或允許緩衝時間以確保資格準確。
+
+#### 為何不是所有合格的設定檔都可以進入歷程 {#streaming-entry-caveats}
+
+將串流對象與&#x200B;**對象資格**&#x200B;活動搭配使用時，並非所有符合對象資格的設定檔都會進入歷程。 發生此行為的原因包括：
+
+* **已在對象中的設定檔**：只有歷程發佈後新符合對象資格的設定檔才會觸發登入。 發佈前已在對象中的設定檔將不會進入。
+
+* **歷程啟用時間**：當您發佈歷程時，**對象資格**&#x200B;活動最多需要&#x200B;**10分鐘**&#x200B;才能變成作用中並開始聆聽設定檔專案及結束。 [進一步瞭解歷程啟用](#configure-segment-qualification)。
+
+* **從對象快速退出**：如果設定檔符合對象資格，但在觸發歷程專案之前退出，則該設定檔可能不會進入歷程。
+
+* **資格與歷程處理之間的時間**：由於Adobe Experience Platform的分散式性質，設定檔符合對象資格與歷程處理該資格事件的時間之間可能會有時間差距。
+
+**建議：**
+
+* 發佈歷程後，至少等待10分鐘再傳送將觸發設定檔資格的事件或資料。 這可確保歷程完全啟動並準備好處理專案。
+
+* 若是需要確保所有合格設定檔都進入的關鍵使用案例，請考慮改用[讀取對象](read-audience.md)活動，此活動會在特定時間處理對象中的所有設定檔。
+
+* 監視歷程的[進入率和輸送量](entry-management.md#profile-entrance-rate)，以瞭解設定檔流量模式。
+
+* 如果設定檔未如預期輸入，請參閱[疑難排解指南](troubleshooting-execution.md#checking-if-people-enter-the-journey)以瞭解其他診斷步驟。
 
 ### 如何避免多載 {#overloads-speed-segment-qualification}
 
@@ -122,7 +144,7 @@ ht-degree: 7%
 
   ![在Adobe Experience Platform中找不到對象時的錯誤訊息](assets/segment-error.png)
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -166,4 +188,4 @@ ht-degree: 7%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

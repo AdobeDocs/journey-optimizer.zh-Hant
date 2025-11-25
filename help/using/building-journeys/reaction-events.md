@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，事件，反應，追蹤，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 18%
 
 ---
 
@@ -30,14 +30,19 @@ ht-degree: 20%
 
 您也可以使用此機制，在訊息沒有反應時執行動作。 若要這麼做，請建立與反應活動平行的第二個路徑，並新增等待活動。 如果等待活動中定義的期間內沒有反應，則會選擇第二個路徑。 舉例來說，您可以選擇傳送後續追蹤訊息。
 
-請注意，如果之前有管道動作活動（電子郵件和推播），您只能在畫布中使用回應活動。
-
 請參閱[關於動作活動](../building-journeys/about-journey-activities.md#action-activities)。
+
+>[!IMPORTANT]
+>
+>在歷程畫布中的&#x200B;**[!UICONTROL 頻道動作活動]**&#x200B;之後，**回應**&#x200B;活動必須置於[立即](journeys-message.md)。 如果之前沒有管道動作活動，則無法使用&#x200B;**[!UICONTROL 回應]**&#x200B;活動。
+>
+>不支援在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動或任何其他活動，並可能導致回應無法如預期運作。
 
 ![反應事件設定，包含管道選取和事件型別選項](assets/journey45.png)
 
 以下是設定反應事件的不同步驟：
 
+1. 在歷程畫布上的&#x200B;**[!UICONTROL 頻道動作活動]**&#x200B;之後立即放置[回應](journeys-message.md)活動。
 1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;至回應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取位於路徑前幾個步驟中的任何動作活動。
 1. 根據您選取的動作，選擇您要回應的專案。

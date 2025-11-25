@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 45%
+source-wordcount: '564'
+ht-degree: 46%
 
 ---
 
@@ -23,10 +23,11 @@ ht-degree: 45%
 
 ## 一般動作限制 {#action-limitations}
 
-* 沒有傳送限制。 
-* 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。 
-* 內建&#x200B;**回應**&#x200B;事件可讓您對開箱即用的動作做出回應（請參閱此[頁面](../building-journeys/reaction-events.md)）。 如果您想要對透過自訂動作傳送的訊息做出反應，則需要設定專用事件。 
+* 沒有傳送限制。
+* 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。
+* 內建&#x200B;**回應**&#x200B;事件可讓您對開箱即用的動作做出回應（請參閱此[頁面](../building-journeys/reaction-events.md)）。 如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
+
 
 ## 歷程版本限制 {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ ht-degree: 45%
 ## 事件限制 {#events-limitations}
 
 * 對於系統產生的事件，必須先在Journey Optimizer中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
+
+## 反應事件限制 {#reaction-limitations}
+
+* **[!UICONTROL 回應]**&#x200B;活動必須緊接在歷程畫布中的[頻道動作活動](../building-journeys/journeys-message.md)之後。 不支援在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動或任何其他活動，並可能導致回應無法如預期運作。 請參閱[此章節](../building-journeys/reaction-events.md)深入瞭解。
 
 ## 資料來源限制 {#data-sources-limitations}
 
