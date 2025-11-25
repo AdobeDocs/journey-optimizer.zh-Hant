@@ -149,7 +149,7 @@ HTML片段可能無法正確顯示在電子郵件中，經常顯示為&#x200B;**
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}，以進一步瞭解此問題。
 
-在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中。
+在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中。
 
 另請參閱[Journey Optimizer所有時間報表檔案](../reports/report-gs-cja.md)
 
@@ -333,7 +333,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"}，瞭解解決此問題的步驟。
 
-在此頁面[上進一步瞭解歷程節流API ](../configuration/throttling.md)。
+在此頁面[上進一步瞭解歷程節流API &#x200B;](../configuration/throttling.md)。
 
 另請參閱[與外部系統整合檔案](../configuration/external-systems.md)。
 
@@ -377,7 +377,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"}，瞭解解決此問題的步驟。
 
-在此頁面[進一步瞭解Offer Decisioning ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)的必要許可權。
+在此頁面[進一步瞭解Offer Decisioning &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)的必要許可權。
 
 +++
 
