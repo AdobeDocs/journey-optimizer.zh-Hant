@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
-source-wordcount: '5261'
+source-wordcount: '5226'
 ht-degree: 0%
 
 ---
@@ -273,17 +273,13 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
    * **逾時路徑（未開啟/按一下）**：傳送包含不同主旨行的提醒電子郵件
 
 **最佳實務**：限制重新傳送的次數，以避免出現垃圾訊息（通常最多1-2個提醒）。
-
->[!IMPORTANT]
->
->請勿在&#x200B;**[!UICONTROL 頻道動作]**&#x200B;與[回應](journeys-message.md)活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動。 **[!UICONTROL 回應]**&#x200B;必須緊接在頻道動作之後。 使用&#x200B;**[!UICONTROL 回應]**&#x200B;的內建逾時功能來等待客戶回應。
 
 深入瞭解[反應事件](reaction-events.md)。
 
