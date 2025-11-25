@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 18%
+source-wordcount: '1773'
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 新增和管理條件路徑 {#about_condition}
 
@@ -90,6 +90,14 @@ ht-degree: 18%
 使用&#x200B;**[!UICONTROL Data Source條件]**，根據資料來源或先前位於歷程中之事件的欄位來定義條件。 此型別的條件是使用運算式編輯器定義。 瞭解如何在[本節](expression/expressionadvanced.md)中使用運算式編輯器。
 
 例如，如果您使用使用構成工作流程或自訂上傳（CSV檔案）產生的擴充屬性來鎖定對象，則可運用這些擴充屬性來建置條件。
+
+>[!IMPORTANT]
+>
+>**正在處理遺失或未內嵌的屬性**
+>
+>如果您的設定檔結構描述中定義了結構描述欄位，但並未擷取該欄位的資料，Journey Optimizer和基礎即時客戶設定檔會將該欄位解譯為`null`。 因此，檢查`isEmpty()`、`isNull()`或類似函式的條件將評估為`true`，即使從未擷取該屬性。 如果您不知道欄位沒有資料，這可能會導致非預期的歷程行為。
+>
+>為避免混淆，請確保在設定檔進入歷程之前，您用在條件運算式中的屬性已搭配實際資料內嵌。 您可以驗證[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中的屬性值，以確認條件中使用的欄位是否存在資料。
 
 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 [了解更多](../datasource/external-data-sources.md)。
 
@@ -180,4 +188,4 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
