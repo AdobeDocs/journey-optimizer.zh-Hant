@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 15%
+source-wordcount: '1974'
+ht-degree: 13%
 
 ---
 
@@ -74,12 +74,18 @@ ht-degree: 15%
 
 使用自訂動作選擇要作為目標的端點時，請確定：
 
-* 此端點可使用來自[節流 API](../configuration/throttling.md) 或[設定 API 上限](../configuration/capping.md)的設定來支援歷程的輸送量，藉此加以限制。 請留意，節流設定不可低於 200 TPS。任何目標端點至少需要支援200個TPS。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中進一步瞭解歷程處理率。
+* 此端點可使用來自[節流 API](../configuration/throttling.md) 或[設定 API 上限](../configuration/capping.md)的設定來支援歷程的輸送量，藉此加以限制。 請留意，節流設定不可低於 200 TPS。任何目標端點至少需要支援200個TPS。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
 * 此端點的回應時間必須儘可能縮短。 根據預期輸送量，高回應時間可能會影響實際輸送量。
 
 所有自訂動作皆已定義1分鐘上300,000次呼叫的上限。 此外，預設上限會針對每個主機和每個沙箱執行。 例如，在沙箱上，如果您有兩個具有相同主機的端點（例如，`https://www.adobe.com/endpoint1`和`https://www.adobe.com/endpoint2`），上限將套用至adobe.com主機下的所有端點。 「endpoint1」和「endpoint2」會共用相同的上限設定，而且讓一個端點達到限制會影響到另一個端點。
 
-此限制是根據客戶使用情況設定的，以保護自訂動作所定位的外部端點。 您需要定義適當的讀取率 (使用自訂動作時為每秒 5,000 個輪廓)，以在客群歷程中將其列入考量。 如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
+>[!NOTE]
+>
+>每分鐘300,000次呼叫的上限被強製為每個沙箱的&#x200B;**滑動視窗**，以及回應時間少於0.75秒的端點的每個端點。 滑動視窗可在任何毫秒開始，這表示即使速率在對齊時鐘分鐘時低於300k/分鐘，也可能發生上限錯誤。 對於回應時間超過0.75秒的端點，每30秒150,000次呼叫的個別限制（也是滑動視窗）適用。 在[此頁面](../configuration/external-systems.md#response-time)上進一步瞭解慢速端點。
+
+預設每分鐘300,000次呼叫限制會套用至網域層級(即example.com)。 如果您需要更高的限制，請向Adobe支援查詢使用證據，並確認您端點的輸送量。 若要請求提高上限，請提供您預期呼叫數量和端點容量的詳細資料。 如果容量測試顯示端點可以處理更高的輸送量，Adobe可能會自訂上限。 如需最佳實務，請考慮重新調整歷程或實作等待活動，以錯開傳出呼叫並避免錯誤上限。
+
+此限制是根據客戶使用情況設定的，以保護自訂動作所定位的外部端點。 如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 請參閱[此頁面](../configuration/external-systems.md)。
 
 基於以下各種原因，您不應使用自訂動作來鎖定公用端點：
 
@@ -157,7 +163,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 
