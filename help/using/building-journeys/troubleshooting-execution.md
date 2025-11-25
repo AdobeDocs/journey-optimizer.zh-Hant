@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: a93f08cf2da1f2b19296359d1200a6dddacbc1f2
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1199'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 23%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}，以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -150,3 +150,13 @@ ht-degree: 23%
 * 請注意，計時分析可能會顯示彼此在幾秒內叢集的專案
 
 如需有關查詢歷程步驟事件的詳細資訊，請參閱[查詢範例](../reports/query-examples.md)。
+
+## 疑難排解儀表板量度差異 {#dashboard-metrics}
+
+如果&#x200B;**總覽**&#x200B;儀表板中顯示的度量不符合&#x200B;**瀏覽**&#x200B;索引標籤中的實際歷程次數，請驗證下列專案：
+
+* 確保問題歷程在過去24小時內曾有流量，因為沒有最近活動的歷程會從儀表板排除。
+* 檢查您是否有適當的存取許可權可檢視組織中的所有歷程。
+* 在您的歷程進行變更後，最多可等待30分鐘讓量度重新整理。
+
+如果差異持續存在，請聯絡Adobe支援，提供「概觀」和「瀏覽」索引標籤的熒幕擷取畫面以供調查。
