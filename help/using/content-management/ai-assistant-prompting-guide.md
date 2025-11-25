@@ -5,15 +5,19 @@ title: AI助理內容提示指南
 description: 瞭解如何使用CO-STAR框架為產生AI支援的內容製作有效提示，以建立高轉換率、符合品牌的行銷內容。
 role: User
 level: Intermediate
-source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
+source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 0%
+source-wordcount: '2107'
+ht-degree: 1%
 
 ---
 
-
 # AI助理提示最佳實務 {#ai-assistant-prompting-guide}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="提示範例"
+>abstract="探索Journey Optimizer檔案，瞭解如何建立有效提示，以產生高轉換率的品牌上行銷內容。"
 
 本指南可協助您建構請求、清楚傳達意圖，並確保AI產生的訊息符合您的品牌指引、受眾需求和行銷活動目標。
 瞭解如何撰寫有效提示，讓AI助理產生為您的目標量身打造的高品質品牌行銷內容。
