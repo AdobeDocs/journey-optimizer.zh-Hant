@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 17%
+source-wordcount: '817'
+ht-degree: 15%
 
 ---
 
@@ -78,13 +78,13 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hant){target=_blank}
+>儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？ 
 
-目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target=_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ ht-degree: 17%
 +++什麼時間戳記會用於TTL強制執行（例如，用於回填使用案例）？ 
 
 系統會使用事件時間戳記（即並非擷取日期）。
+
++++
+
++++我可以刪除Journey Optimizer系統產生的資料集嗎？
+
+Journey Optimizer系統產生的資料集受到保護，且無法透過標準Adobe Experience Platform UI刪除。 這些資料集是Journey Optimizer功能的必要專案，由系統管理。
+
+如果您需要永久移除Journey Optimizer系統資料集（例如，針對QA環境、沙箱清理或特定資料衛生要求），請聯絡Adobe工程或Adobe客戶服務。 這些資料集需要專門的後端程式，以確保完全安全地移除。
+
+>[!NOTE]
+>
+>若要在這些系統資料集中進行例行資料清理，請使用Privacy Service提供的&#x200B;**[!UICONTROL 資料生命週期]**&#x200B;作業來刪除特定記錄或身分。 [了解更多](../privacy/data-hygiene.md)
 
 +++
