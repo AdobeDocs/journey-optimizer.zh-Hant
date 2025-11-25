@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 * **[!UICONTROL 傳出錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
 
-* **[!UICONTROL 傳出排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+* **[!UICONTROL 傳出排除]**： Adobe Journey Optimizer已排除的設定檔數目。 [進一步瞭解排除專案的計算方式](exclusion-list.md#exclusion-list)。
 
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 

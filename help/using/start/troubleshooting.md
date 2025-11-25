@@ -7,18 +7,18 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2862'
 ht-degree: 2%
 
 ---
 
-# 疑難排解文章 {#ajo-troubleshooting}
+# 移難排解文章 {#ajo-troubleshooting}
 
 以下為Adobe Journey Optimizer的疑難排解文章清單。 每個疑難排解區段都提供常見問題的解答和問題的解決方案。
 
-另請參閱[Adobe Experience Platform常見問題集和疑難排解檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/troubleshooting){target="_blank"}。
+另請參閱[Adobe Experience Platform常見問題集和疑難排解檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}。
 
 ## 電子郵件管道 {#ajo-troubleshooting-email}
 
@@ -149,7 +149,7 @@ HTML片段可能無法正確顯示在電子郵件中，經常顯示為&#x200B;**
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}，以進一步瞭解此問題。
 
-在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中。
+在此頁面[上進一步瞭解如何將Journey Optimizer分析資料整合到Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}中。
 
 另請參閱[Journey Optimizer所有時間報表檔案](../reports/report-gs-cja.md)
 
@@ -191,7 +191,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 在此頁面&#x200B;**的歷程**&#x200B;中進一步瞭解[更新設定檔](../building-journeys/update-profiles.md)活動。
 
-另請參閱有關資料擷取[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}Adobe Experience Platform檔案。
+另請參閱有關資料擷取[的](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}Adobe Experience Platform檔案。
 
 +++
 
@@ -203,7 +203,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 深入瞭解[此Journey Optimizer社群貼文](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}。
 
-另請參閱[Adobe Experience Platform排程API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/api/schedules){target="_blank"}，以檢查您的每日工作排程時間。
+另請參閱[Adobe Experience Platform排程API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}，以檢查您的每日工作排程時間。
 
 +++
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 在此頁面&#x200B;**的歷程**&#x200B;中進一步瞭解[更新設定檔](../building-journeys/update-profiles.md)活動。
 
-另請參閱[Adobe Real-Time CDP設定檔檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}。
+另請參閱[Adobe Real-Time CDP設定檔檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}。
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 使用[授權使用量儀表板](../audience/license-usage.md)監視您組織的授權使用量和可參與的設定檔
 
-另請參閱[Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home){target="_blank"}。
+另請參閱[Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}。
 
 +++
 
@@ -239,6 +239,18 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"}，瞭解解決此問題的步驟。
 
 在此頁面[上進一步瞭解日期函式](../building-journeys/functions/date-functions.md)。
+
++++
+
++++ 為什麼傳遞+排除超過行銷活動報表中的目標對象人數？
+
+在行銷活動報表中，您可能會注意到&#x200B;**已傳遞**&#x200B;和&#x200B;**排除專案**&#x200B;的總和超過原始目標對象規模。 發生此狀況是因為&#x200B;**排除專案**&#x200B;量度會計算所有排除事件，包括相同設定檔的重複排除事件。 若在行銷活動期間將設定檔排除多次，則每個事件會個別計算。
+
+**範例**：目標為94,000個設定檔的行銷活動顯示69,000個已傳遞和37,000個排除，總計106,000個，超過原始的94,000個目標設定檔。 這是預期行為。
+
+若要瞭解排除事件總數與不重複設定檔排除數之間的差異，請參閱[排除計數說明](../reports/exclusion-list.md#exclusion-list)。
+
+深入瞭解[行銷活動報告](../reports/campaign-global-report-cja.md)和[報告量度](../reports/global-report-components-cja.md)。
 
 +++
 
@@ -321,7 +333,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"}，瞭解解決此問題的步驟。
 
-在此頁面[上進一步瞭解歷程節流API &#x200B;](../configuration/throttling.md)。
+在此頁面[上進一步瞭解歷程節流API ](../configuration/throttling.md)。
 
 另請參閱[與外部系統整合檔案](../configuration/external-systems.md)。
 
@@ -365,7 +377,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"}，瞭解解決此問題的步驟。
 
-在此頁面[進一步瞭解Offer Decisioning &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)的必要許可權。
+在此頁面[進一步瞭解Offer Decisioning ](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management)的必要許可權。
 
 +++
 
@@ -413,6 +425,6 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}以瞭解更多資訊。
 
-另請參閱[管理API認證檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}。
+另請參閱[管理API認證檔案](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}。
 
 +++

@@ -2,20 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 排除專案清單
-description: 深入瞭解傳送期間發生的排除
+description: 進一步瞭解傳送期間發生的排除
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 9%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
 # 排除原因 {#exclusion-list}
+
+## 行銷活動報告中排除專案的計算方式
+
+檢視行銷活動報表時，請注意，*排除專案*&#x200B;量度的計算方式如下：
+
+**排除專案=唯一排除專案+重複排除事件**
+
+這表示如果設定檔被多次排除（例如，由於相同設定檔有多個排除事件），則每個事件都會計入排除總數。 因此，*已傳遞*&#x200B;和&#x200B;*排除專案*&#x200B;的總和可能會超過原始目標對象規模。 此行為是預期行為，反映系統中追蹤排除事件的方式。
+
+**範例：**
+
+- 目標對象： 94,000個設定檔
+- 送達：69,000個
+- 排除專案： 37,000 （包含重複的排除事件）
+- 總計（已送達+排除專案）：106,000
+
+總計超過目標對象，因為重複的排除事件會包含在排除計數中。
+
+如需特定排除原因的詳細資訊，請參閱下表。
+
+## 排除原因清單
 
 | 排除原因 | 錯誤代碼 | Channel | 說明 |
 |-|-|-|-|

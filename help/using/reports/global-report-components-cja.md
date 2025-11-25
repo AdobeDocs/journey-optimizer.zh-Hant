@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 傳送排除專案<br/> </td> 
-   <td> Adobe Journey Optimizer已排除的設定檔數。<br/> </td> 
+   <td> Adobe Journey Optimizer已排除的設定檔數。 <a href="exclusion-list.md">進一步瞭解排除專案的計算方式</a>。<br/> </td> 
   </tr>
   <tr> 
    <td> 位置名稱<br/> </td> 
@@ -193,7 +193,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 不重複傳送排除<br/> </td> 
-   <td>由於適用性規則、對象細分或設定檔狀態而排除接收訊息的不重複設定檔數目。<br/> </td> 
+   <td>因適用性規則、對象細分或設定檔狀態而排除無法接收訊息的不重複設定檔數目。 <a href="exclusion-list.md">進一步瞭解排除專案的計算方式</a>。<br/> </td> 
   </tr>
   <tr> 
    <td>唯一目標<br/> </td> 
@@ -234,7 +234,7 @@ ht-degree: 0%
     </tr>
     <tr> 
       <td>傳出簡訊排除</td> 
-      <td>Adobe Journey Optimizer不接收SMS訊息的設定檔數。</td> 
+      <td>Adobe Journey Optimizer不接收SMS訊息的設定檔數。 <a href="exclusion-list.md">進一步瞭解排除專案的計算方式</a>。</td> 
     </tr>
     <tr> 
       <td>不重複點按</td> 
@@ -548,7 +548,7 @@ ht-degree: 0%
 </tr>
 <tr> 
    <td>傳出排除專案<br/> </td> 
-   <td>由於預先定義的條件或Adobe Journey Optimizer的篩選而排除接收直接郵件的設定檔數目。<br/> </td> 
+   <td>由於預先定義的條件或Adobe Journey Optimizer的篩選而從接收直接郵件中排除的設定檔數。 <a href="exclusion-list.md">進一步瞭解排除專案的計算方式</a>。<br/> </td> 
 </tr>
 <tr> 
    <td>輪廓<br/> </td> 
