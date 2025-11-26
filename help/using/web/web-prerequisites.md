@@ -78,7 +78,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果您使用Microsoft Edge，即使按鈕標示為「新增至Edge」****，此動作仍會將擴充功能新增至Chrome。
+   >如果您使用Microsoft Edge，即使按鈕標示為「新增至Edge」**&#x200B;**，此動作仍會將擴充功能新增至Chrome。
 
 1. 請確定已在瀏覽器的工具列中正確啟用Visual Editing Helper瀏覽器擴充功能。
 
