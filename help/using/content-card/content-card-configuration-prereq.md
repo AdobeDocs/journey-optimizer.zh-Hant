@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 5%
+source-wordcount: '430'
+ht-degree: 3%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 5%
 
 * **Adobe Experience Platform資料彙集**
 
-  [建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。 這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
-將&#x200B;**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}
+  [建立資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**選項。 這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
+將**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  確定預設合併原則已在&#x200B;**客戶** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**[!UICONTROL Edge上作用中合併原則]**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+  確定預設合併原則已在&#x200B;**客戶** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**[!UICONTROL Edge上作用中合併原則]**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,6 +44,20 @@ ht-degree: 5%
 
 * **內容實驗**
 
-  確認應用程式的[資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
+  確認應用程式的[資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
 
   瞭解如何在[本節](../reports/reporting-configuration.md)中為內容實驗報告新增資料集。
+
+## 設定檔管理護欄 {#profile-management-guardrail}
+
+[!DNL Journey Optimizer]個內容卡可以鎖定假名設定檔，這表示設定檔尚未驗證或還不知道，因為它們之前從未在其他頻道上參與。 例如，當根據類似ECID的暫時ID來鎖定所有訪客或對象時，就會發生這種情況。
+
+這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數目超過合約，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
+
+為了將您的參與設定檔保持在合理限制內，Adobe建議設定存留時間(TTL) ，以在指定時間範圍內未看到或未參與的匿名設定檔時，自動從即時客戶設定檔中刪除該設定檔。
+
+>[!NOTE]
+>
+>在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}中瞭解如何設定假名設定檔的資料有效期。
+
+Adobe建議將TTL值設為14天，以符合目前的Edge設定檔TTL。
