@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 14%
+source-wordcount: '1775'
+ht-degree: 13%
 
 ---
 
@@ -129,6 +129,10 @@ ht-degree: 14%
 
 ![](assets/campaign-alerts.png)
 
+>[!NOTE]
+>
+>Assets/影像在任何片段/內嵌訊息中的首次發佈後，最多可在2年（730天）的傳遞內容中存取。 在此到期日後（730天後的任何時間）必須重新發佈，才能在隨後2年內可供存取。 在首次發佈後730天內完成的任何重新發佈，都不會將資產/影像的到期日延長至接下來的730天。
+
 ## 行銷活動行事曆 {#calendar}
 
 >[!CONTEXTUALHELP]
@@ -240,7 +244,7 @@ ht-degree: 14%
 
 ## 複製行銷活動 {#duplicate}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

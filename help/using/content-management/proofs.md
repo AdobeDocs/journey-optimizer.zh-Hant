@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 16%
+source-wordcount: '355'
+ht-degree: 13%
 
 ---
 
@@ -51,3 +51,5 @@ ht-degree: 16%
 >[!NOTE]
 >
 >在傳送的校樣中，指向映象頁面的連結未啟用。 它僅在最終訊息中啟用。
+>
+>Assets/影像在任何片段/內嵌訊息中的首次發佈後，最多可在2年（730天）的傳遞內容或校訂內容中存取。 在此到期日後（730天後的任何時間）必須重新發佈，才能在隨後2年內可供存取。 在首次發佈後730天內完成的任何重新發佈，都不會將資產/影像的到期日延長至接下來的730天。
