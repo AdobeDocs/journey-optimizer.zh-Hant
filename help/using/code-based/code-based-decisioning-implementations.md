@@ -6,16 +6,22 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
 
-# 程式碼型體驗實作中的決策
+# 程式碼型體驗實作中的決策 {#code-based-decisioning-implementations}
 
 在程式碼型體驗中使用決策時，請考慮在下列所述的情況下將下列標幟新增到您的使用者端實作。
+
+➡️在[這些教學課程](#tutorials)中進一步瞭解如何設定Web SDK以進行決策和程式碼型體驗。
+
+>[!CAUTION]
+>
+>程式碼型體驗通道僅支援[!DNL Journey Optimizer] [決策](../experience-decisioning/gs-experience-decisioning.md)功能。 舊版決定管理功能不適用於程式碼型體驗。
 
 ## 使用決定測試程式碼型體驗 {#code-based-test-decisions}
 
@@ -288,3 +294,9 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 ```
 
 +++
+
+## 教學課程{#tutorials}
+
+在[本教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}中瞭解如何使用Journey Optimizer中的決定功能來個人化您網站上的內容選件，並著重於網頁SDK設定。
+
+在[本教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}中瞭解如何設定Web SDK並使用決策功能搭配程式碼式體驗，以使用即時天氣資料和內容相關資訊來個人化選件。

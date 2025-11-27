@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '841'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # 透過內容實驗在程式碼型體驗中使用決策 {#experience-decisioning-uc}
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
+
+>[!NOTE]
+>
+>程式碼型體驗管道不支援舊版決定管理功能。
 
 在此範例中，您不確定特定排名公式的效能是否優於預先指派的優惠方案優先順序。 若要測量哪個對象對您的目標對象執行得最好，您可以使用[內容實驗](../content-management/content-experiment.md)來建立行銷活動，其中您可定義兩個傳遞處理方式：
 
@@ -123,7 +127,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 儲存您的變更，然後按一下[建立]。**&#x200B;** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
+1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#create-decision)
 

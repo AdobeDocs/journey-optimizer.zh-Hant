@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: 應用程式內、訊息、設定、平台
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 7%
+source-wordcount: '1011'
+ht-degree: 8%
 
 ---
 
@@ -26,13 +26,17 @@ ht-degree: 7%
 
 完成後，您可以建立、設定並傳送您的第一個應用程式內訊息。 在[本節](create-in-app.md)中了解如何達成此目的。
 
+>[!CAUTION]
+>
+>以您的應用程式內訊息定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數和相關成本。 [了解更多](../start/guardrails.md#profile-management-inbound)
+
 ## 傳遞必要條件 {#delivery-prerequisites}
 
 為了正確傳遞應用程式內訊息，必須定義下列設定：
 
 * 在[Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}中，確定您已定義資料串流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服務下，您已啟用Adobe Experience Platform Edge和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。
 
-  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
+  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   >[!NOTE]
   >
@@ -40,7 +44,7 @@ ht-degree: 7%
 
   ![](assets/inapp_config_6.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您已啟用預設合併原則&#x200B;**[!UICONTROL Edge上主動合併原則]**&#x200B;選項。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您已啟用預設合併原則&#x200B;**[!UICONTROL Edge上主動合併原則]**&#x200B;選項。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合併原則由[!DNL Journey Optimizer]個傳入頻道使用，以便在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
@@ -82,7 +86,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >對於iOS和Android平台，傳送完全以應用程式ID為基礎。 如果兩個應用程式共用相同的應用程式ID，則無論在&#x200B;**[!UICONTROL 頻道設定]**&#x200B;中選取的平台為何，都會將內容傳送給兩者。
+   >對於iOS和Android平台，傳送完全以應用程式ID為基礎。 如果兩個應用程式共用相同的應用程式ID，則無論在&#x200B;**[!UICONTROL 頻道設定]**中選取的平台為何，都會將內容傳送給兩者。
    >若要將應用程式內訊息傳送限制在特定平台，您必須在歷程或行銷活動邏輯中實作裝置特定規則。
 
    ![](assets/inapp_config_10.png)
@@ -126,9 +130,9 @@ ht-degree: 7%
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
-若要啟用應用程式內管道的報表，您必須確定應用程式內實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}也包含在報表設定中。 換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。 瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
+若要啟用應用程式內管道的報表，您必須確定應用程式內實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}也包含在報表設定中。 換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。 瞭解如何在[本節](../reports/reporting-configuration.md#add-datasets)中新增資料集以進行報告。
 
-如果您&#x200B;**不是**，使用資料集結構描述的下列預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=zh-Hant#add-field-groups){target="_blank"}上所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
+如果您&#x200B;**不是**，使用資料集結構描述的下列預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}上所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
 
 [深入瞭解報告設定](../reports/reporting-configuration.md)
 
@@ -143,17 +147,4 @@ ht-degree: 7%
 * [設計應用程式內訊息](design-in-app.md)
 * [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 
-## 設定檔管理護欄 {#profile-management-guardrail}
-
-[!DNL Journey Optimizer]應用程式內訊息可鎖定假名設定檔，這表示設定檔尚未驗證或尚未知道，因為它們之前從未在其他頻道上參與。 例如，當根據類似ECID的暫時ID來鎖定所有訪客或對象時，就會發生這種情況。
-
-這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數目超過合約，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
-
-為了將您的參與設定檔保持在合理限制內，Adobe建議設定存留時間(TTL) ，以在指定時間範圍內未看到或未參與的匿名設定檔時，自動從即時客戶設定檔中刪除該設定檔。
-
->[!NOTE]
->
->在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}中瞭解如何設定假名設定檔的資料有效期。
-
-Adobe建議將TTL值設為14天，以符合目前的Edge設定檔TTL。
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,17 @@ ht-degree: 2%
 
 * 建立[程式碼型體驗通道組態](code-based-configuration.md)時，請務必輸入符合您自己的實作中宣告的字串/路徑或表面URI。 這可確保內容會傳送至指定應用程式或頁面內的所需位置。 否則，將無法傳送變更。 [閱讀全文](code-based-surface.md)
 
->[!NOTE]
+>[!CAUTION]
 >
->以您的程式碼型體驗定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數和相關成本。 [了解更多](#profile-management-guardrail)
+>以您的程式碼型體驗定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數和相關成本。 [了解更多](../start/guardrails.md#profile-management-inbound)
 
 ## 實作必要條件 {#implementation-prerequisites}
 
 程式碼型體驗支援任何型別的客戶實施，如下列選項所示。 您可以針對屬性使用使用者端、伺服器端或混合實作方法：
 
-* 僅限使用者端 — 若要對您的網頁或行動應用程式新增修改，您必須在您的網站上實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}，或在您的行動應用程式上實作[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}。
+* 僅限使用者端 — 若要對您的網頁或行動應用程式新增修改，您必須在您的網站上實作[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}，或在您的行動應用程式上實作[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}。
 
-* 混合模式 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯修改內容的使用者端。 在Adobe Experience Platform [Edge Network Server API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hant){target="_blank"}中進一步瞭解。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
+* 混合模式 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯修改內容的使用者端。 在Adobe Experience Platform [Edge Network Server API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}中進一步瞭解。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
 
 * 伺服器端 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端。 您的開發團隊必須處理回應，並在應用程式實作中在使用者端轉譯修改。
 
@@ -47,11 +47,11 @@ ht-degree: 2%
 
 * 在[Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}中，確定您已定義資料串流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服務下您已啟用&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。
 
-  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
+  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您有一個啟用&#x200B;**[!UICONTROL Edge上主動式合併原則]**&#x200B;選項的合併原則。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您有一個啟用&#x200B;**[!UICONTROL Edge上主動式合併原則]**&#x200B;選項的合併原則。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合併原則由[!DNL Journey Optimizer]個傳入頻道使用，以便在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 ## 報表必要條件 {#reporting-prerequisites}
 
-若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}也包含在報告設定中。
+若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}也包含在報告設定中。
 
 換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。
 
@@ -75,16 +75,3 @@ ht-degree: 2%
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
-## 設定檔管理護欄 {#profile-management-guardrail}
-
-[!DNL Journey Optimizer]程式碼型體驗可以鎖定假名設定檔，這表示設定檔尚未驗證或尚未知道，因為它們之前從未在其他頻道上參與。 例如，當根據類似ECID的暫時ID來鎖定所有訪客或對象時，就會發生這種情況。
-
-這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數目超過合約，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
-
-為了將您的參與設定檔保持在合理限制內，Adobe建議設定存留時間(TTL) ，以在指定時間範圍內未看到或未參與的匿名設定檔時，自動從即時客戶設定檔中刪除該設定檔。
-
->[!NOTE]
->
->在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}中瞭解如何設定假名設定檔的資料有效期。
-
-Adobe建議將TTL值設為14天，以符合目前的Edge設定檔TTL。
