@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 36%
@@ -46,9 +46,9 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。 這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。
+>* 如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。 這可確保將變更納入歷程的訊息中，且訊息與最新更新一致。
 >
->Assets/影像在任何片段/內嵌訊息中的首次發佈後，最多可在2年（730天）的傳遞內容中存取。 在此到期日後（730天後的任何時間）必須重新發佈，才能在隨後2年內可供存取。 在首次發佈後730天內完成的任何重新發佈，都不會將資產/影像的到期日延長至接下來的730天。
+>* Assets/影像在任何片段/內嵌訊息中的首次發佈後，最多可在2年（730天）的傳遞內容中存取。 在此到期日後（730天後的任何時間）必須重新發佈，才能在隨後2年內可供存取。 在首次發佈後730天內完成的任何重新發佈，都不會將資產/影像的到期日延長至接下來的730天。
 
 ## 歷程版本 {#journey-versions}
 
@@ -90,4 +90,4 @@ ht-degree: 36%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
