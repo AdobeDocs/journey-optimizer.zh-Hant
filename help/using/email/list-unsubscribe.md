@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 >
 >請參閱下方[本節](#enable-list-unsubscribe)以瞭解如何管理取消訂閱設定。
 
-在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 會立即退出對應的設定檔，可在[體驗平台](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}中更新此選項。
+在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 對應的設定檔會立即退出，而此選項會在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中更新。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中進一步瞭解同意處理。
 
 >[!NOTE]
 >
@@ -84,7 +84,6 @@ ht-degree: 100%
 * 如果您不想使用預設產生的一鍵取消訂閱 URL，可以取消核取該功能。
 
    * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
-
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 

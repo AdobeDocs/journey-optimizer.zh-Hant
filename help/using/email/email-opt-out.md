@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '995'
 ht-degree: 26%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。
 
-若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#attributes-tab)。 在&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL 否]**。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}。
+若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[屬性標籤](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL no]**。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中進一步瞭解同意處理。
 
 ![](assets/opt-out-profile-choice.png)
 
