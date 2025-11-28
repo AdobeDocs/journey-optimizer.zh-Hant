@@ -91,8 +91,8 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ### 常見使用實例 {#genstudio-use-cases}
 
-[!DNL GenStudio for Performance Marketing]與[!DNL之間的整合
-Journey Optimizer]支援各種行銷情境：
+[!DNL GenStudio for Performance Marketing]與之間的整合
+Journey Optimizer&rbrack;支援各種行銷情境：
 
 * **產品上市行銷活動**：快速產生產品公告的多個電子郵件變體，以不同的對象區段進行測試，並在您的客戶群中擴充成功版本。
 
