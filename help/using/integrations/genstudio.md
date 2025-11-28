@@ -9,9 +9,9 @@ badge: label="有限可用性" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 784f1fbfbf2cfa73666bdc943fc30028c9dc913c
+source-git-commit: c03fc0e53cdaaa735c4fa48113db7b4f848e33a8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 9%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 9%
 
 >[!INFO]
 >
->若要更進一步，請檢視此[總覽](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/tw/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
+>若要更進一步，請檢視此[總覽](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}以及[的](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}示範[!DNL Adobe GenStudio for Performance Marketing]。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -51,7 +51,7 @@ ht-degree: 9%
 
 * [!DNL GenStudio for Performance Marketing]和[!DNL Adobe Journey Optimizer]都必須屬於相同的IMS組織。
 
-* 使用者必須在&#x200B;**中至少擁有** Collaborator[!DNL GenStudio for Performance Marketing]角色或以上角色，才能使用整合功能。 [進一步瞭解GenStudio中的使用者角色](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 使用者必須在&#x200B;**中至少擁有** Collaborator[!DNL GenStudio for Performance Marketing]角色或以上角色，才能使用整合功能。 [進一步瞭解GenStudio中的使用者角色](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -91,8 +91,7 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ### 常見使用實例 {#genstudio-use-cases}
 
-[!DNL GenStudio for Performance Marketing]與之間的整合
-Journey Optimizer&rbrack;支援各種行銷情境：
+[!DNL GenStudio for Performance Marketing]與[!DNL Journey Optimizer]之間的整合支援各種行銷情境：
 
 * **產品上市行銷活動**：快速產生產品公告的多個電子郵件變體，以不同的對象區段進行測試，並在您的客戶群中擴充成功版本。
 
@@ -120,13 +119,13 @@ Journey Optimizer&rbrack;支援各種行銷情境：
 
    >[!NOTE]
    >
-   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
+   >在[!DNL GenStudio]HTML使用手冊[專屬區段中，瞭解如何將Adobe GenStudio for Performance Marketing範本上傳至](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}。
 
 1. 在GenStudio中，使用此範本建立具有AI提示的多個電子郵件變體並儲存。
 
    >[!NOTE]
    >
-   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
+   >瞭解如何在GenStudio專屬的[區段](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}中建立電子郵件體驗。
 
 ### 在Journey Optimizer中善用GenStudio體驗 {#leverage-genstudio-experiences}
 
@@ -217,4 +216,4 @@ GenStudio使用AI支援的品牌檢查，確保所有產生的內容都符合您
 
 了解將電子郵件範本從 Journey Optimizer 匯出至 GenStudio 進行績效行銷的過程、使用GenStudio 範本製作符合品牌要求的電子郵件，然後順暢地將其匯回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456060/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
