@@ -43,7 +43,7 @@ ht-degree: 98%
 >
 >請參閱下方[本節](#enable-list-unsubscribe)以瞭解如何管理取消訂閱設定。
 
-在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 對應的設定檔會立即退出，而此選項會在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中更新。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}中進一步瞭解同意處理。
+在這兩種情況下，當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。 對應的設定檔會立即退出，而此選項會在[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}中更新。 在[Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hant){target="_blank"}中進一步瞭解同意處理。
 
 >[!NOTE]
 >
