@@ -217,4 +217,4 @@ GenStudio使用AI支援的品牌檢查，確保所有產生的內容都符合您
 
 了解將電子郵件範本從 Journey Optimizer 匯出至 GenStudio 進行績效行銷的過程、使用GenStudio 範本製作符合品牌要求的電子郵件，然後順暢地將其匯回 Journey Optimizer。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456060/?captions=chi_hant&quality=12)
