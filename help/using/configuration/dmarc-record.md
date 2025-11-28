@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 11%
+source-wordcount: '1577'
+ht-degree: 10%
 
 ---
 
@@ -190,6 +190,16 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
    最佳實務是以DMARC高合規率為目標，最好接近100%，以便在最大限度提高安全性的同時，將誤報風險降至最低。
 
 1. 選取24到168小時之間的&#x200B;**報告間隔**。 它可讓網域擁有者定期接收電子郵件驗證結果的更新，並採取必要動作來改善電子郵件安全性。
+
+### 疑難排解 {#troubleshooting}
+
+設定DMARC記錄涉及將DNS TXT記錄新增到您網域的DNS設定。 此記錄會指定您的DMARC原則，例如隔離或拒絕驗證失敗的訊息。
+
+DNS變更需要在網際網路上傳播，通常在幾分鐘到48小時之間。
+
+如果您剛才變更DMARC設定，並嘗試立即驗證更新，您可能會看到錯誤或尚未偵測到變更。
+
+在嘗試驗證您的DMARC設定之前，請留出足夠的時間讓DNS記錄傳播。
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
