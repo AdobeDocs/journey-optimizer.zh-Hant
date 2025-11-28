@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 21%
+source-wordcount: '1615'
+ht-degree: 19%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 >[!AVAILABILITY]
 >
->您必須同意[使用者合約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 
 ## 存取品牌 {#generative-access}
@@ -102,7 +102,7 @@ ht-degree: 21%
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
 
-1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
+1. 若要修改您發佈的品牌，請按一下[編輯品牌]。****
 
    >[!NOTE]
    >
@@ -275,11 +275,21 @@ ht-degree: 21%
 
 1. 從&#x200B;**[!UICONTROL 寫入樣式]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增建議、例外或排除專案。
 
-1. 輸入您的建議、例外或排除專案，然後按一下[新增]。**&#x200B;**
+1. 輸入您的指引、例外或排除。 您也可以加入&#x200B;**[!UICONTROL 範例]**，以更好地說明應如何套用它。
 
    ![](assets/brands-3.png)
 
-1. 選取您要更新或刪除的其中一個准則或排除專案。
+1. 指定您指引、例外或排除的「使用」內容：
+
+   * **[!UICONTROL 管道型別]**：選擇此建議、例外或排除的適用位置。 例如，您可能希望特定的書寫樣式僅顯示在電子郵件、行動裝置、列印或其他通訊通道中。
+
+   * **[!UICONTROL 專案型別]**：指定規則套用的內容專案。 這可能包括標題、按鈕、連結或內容中的其他元件等元素。
+
+     ![](assets/brands-16.png)
+
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
+
+1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
 1. 按一下![Dive image alt text](assets/do-not-localize/Smock_Edit_18_N.svg "Edit")以編輯您的範例，或按一下![潛水影像替代文字](assets/do-not-localize/Smock_Delete_18_N.svg "刪除")圖示以刪除範例。
 
@@ -337,18 +347,29 @@ ht-degree: 21%
 
 1. 從&#x200B;**[!UICONTROL 視覺內容]**&#x200B;索引標籤，按一下![](assets/do-not-localize/Smock_Add_18_N.svg)以新增指引、排除專案或範例。
 
-1. 輸入您的建議、排除專案或範例，然後按一下[新增]。**&#x200B;**
+1. 輸入您的指引、排除專案或範例。
 
    ![](assets/brands-4.png)
+
+1. 指定指引或排除專案的使用內容：
+
+   * **[!UICONTROL 管道型別]**：選擇此建議、例外或排除的適用位置。 例如，您可能希望特定的書寫樣式僅顯示在電子郵件、行動裝置、列印或其他通訊通道中。
+
+   * **[!UICONTROL 專案型別]**：指定規則套用的內容專案。 這可能包括標題、按鈕、連結或內容中的其他元件等元素。
+
+     ![](assets/brands-16.png)
+
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 
    ![](assets/brands-13.png)
 
-1. 選取您要更新或刪除的其中一個准則或排除專案。
+1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
 1. 選取您的指引或排除專案以更新它。 按一下![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")圖示以刪除它。
 
    ![](assets/brands-14.png)
 
 您現在可以進一步個人化您的品牌，或[發佈您的品牌](#create-brand-kit)。
+
