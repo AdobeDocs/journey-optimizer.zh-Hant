@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 * 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
 * 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
 * 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 以下限制適用於 Adobe Journey Optimizer 的 AI 助理：
 

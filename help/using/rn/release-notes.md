@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1498'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 <td>
 <p>現已提供新的 Journey Optimizer API，可讓您以程式設計方式擷取及檢查行銷活動相關資料，例如詳細資訊、版本和設定。</p>
 <p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">詳細文件</a>。</p>
-<p>推出日期： 2025年11月24日</p>
+<p>推出日期：2025 年 11 月 24 日</p>
 </td>
 </tr>
 </tbody>
@@ -165,7 +165,7 @@ ht-degree: 98%
 <td>
 <p>勿打擾時間可讓您定義不接收電子郵件、簡訊、推播和 WhatsApp 管道訊息的時間。此功能可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。</p>
 <p>您可以透過規則集套用勿打擾時間，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。</p>
-<p>無訊息小時規則目前僅適用於一組組織（可用性限制）。  未來版本將逐步向所有客戶提供。</p>
+<p>目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。未來版本將逐步開放所有客戶使用。</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/quiet-hours.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 22 日</p>

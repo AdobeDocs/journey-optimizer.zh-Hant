@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7890'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator 是 AI 優先的產品，旨在將您的實驗提升到新的境界。此產品專為 Adobe Journey Optimizer 和 Adobe Target 使用者打造，可整合實驗管理、提供 AI 支援的深入分析和機會，並推出新的實驗代理程式。</p>
+<p>Journey Optimizer Experimentation Accelerator 是 AI 優先的產品，旨在將您的實驗提升到新的境界。此產品專為 Adobe Journey Optimizer 和 Adobe Target 使用者打造，可整合實驗管理、提供 AI 支援的洞察和機會，並推出新的實驗代理程式。</p>
 <p>您可以期待：</p>
 <ul>
 <li><strong>整合實驗庫存：</strong>在單個集中式工作區中快速檢視、篩選及管理 Adobe Journey Optimizer 和 Adobe Target 的所有實驗。</li>
-<li><strong>AI 實驗見解和機會：</strong>不僅有統計讀數，還有 GenAI 驅動的見解和推薦。現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
+<li><strong>AI 實驗洞察和機會：</strong>不僅有統計讀數，還有 GenAI 驅動的洞察和推薦。現在，每個實驗都會顯示可操作的機會，以及完整的支援理由，讓團隊可以更自信地決定下一個要測試的內容。</li>
 <li><strong>Journey Optimizer 中的多臂老虎機 (MAB) 支援：</strong>透過多臂老虎機實驗，最大化影響，同時減少浪費的流量。MAB 不會平均分割客群，而是會即時將更多訪客自動分配到效能最佳的變化版本，這樣您就能為更多客戶提供更好的體驗，同時仍會了解哪些變化版本有效。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/overview">詳細文件</a></p>
@@ -163,7 +163,7 @@ ht-degree: 99%
 設定自訂簡訊提供者時，您現在可以選擇啟用雙向 TLS (mTLS) 驗證，這要求用戶端和伺服器在建立安全連線之前確認彼此的身分。[閱讀全文](../sms/sms-configuration-custom.md) - 推出日期：2025 年 9 月 23 日
 
 * **關聯式結構描述**\
-  現在可以使用關聯式結構描述，在協調的行銷活動中支援您的關聯式模型需求。 [閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
+  現在可以使用關聯式結構描述，來支援協調行銷活動中的關聯式模型需求。[閱讀全文](../orchestrated/gs-schemas.md) - 推出日期：2025 年 9 月 23 日
 
 * **歷程中的資料集查詢支援**\
   歷程中的全新&#x200B;**資料集查詢**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。[閱讀全文](../building-journeys/dataset-lookup.md) - 推出日期：2025 年 9 月 23 日
@@ -1246,7 +1246,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <tbody>
 <tr>
 <td>
-<p>歷程量度現已推出，可讓您衡量您的活動對業務關鍵指標的影響，並針對您的績效提供更清楚的深入分析。</p>
+<p>歷程量度現已推出，可讓您衡量您的活動對業務關鍵指標的影響，並針對您的績效提供更清楚的洞察。</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/success-metrics.md">詳細文件</a>。</p>
