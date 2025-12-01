@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -135,11 +135,3 @@ Adobe建議遵循以下最低臨界值，以確保有效模型效能：
 **關鍵insight**：滾動式30天資料視窗可在暫時流量波動期間提供模型穩定性。 短期的尖峰或下降不會大幅干擾模型預測或效能。
 
 +++
-
-## 相關主題 {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [建立決定項目](items.md)
-* [AI模型概述](ranking/ai-models.md)
-* [決策護欄與限制](decisioning-guardrails.md)
-
