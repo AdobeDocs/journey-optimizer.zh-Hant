@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
 workflow-type: tm+mt
-source-wordcount: '2153'
+source-wordcount: '2216'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 1. 使用相同的方法&#x200B;**[!UICONTROL 取消訂閱]**。
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}來訂閱。 警報規則會整理到不同的訂閱套件中。 與特定Journey Optimizer警示對應的事件訂閱在[底下](#journey-alerts)詳細說明。
 
 ### 單一訂閱 {#unitary-subscription}
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -158,11 +158,19 @@ ht-degree: 2%
 
 ### 已發佈歷程 {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>此警報目前提供有限功能。 雖然您可以訂閱此警示，但通知尚未完全運作。
+
 此警報會在從業人員在歷程畫布中發佈歷程時通知您。
 
 此資訊性警報可協助您追蹤組織中的歷程生命週期事件。 沒有解決標準，因為這是一次性通知。
 
 ### 歷程已完成 {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>此警報目前提供有限功能。 雖然您可以訂閱此警示，但通知尚未完全運作。
 
 此警報會在歷程完成後通知您。 「已完成」的定義會依歷程型別而異：
 
@@ -177,6 +185,10 @@ ht-degree: 2%
 這是資訊性警報，可幫助您追蹤歷程完成。 沒有解決標準，因為這是一次性通知。
 
 ### 自訂動作上限已觸發 {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>此警報目前提供有限功能。 雖然您可以訂閱此警示，但通知尚未完全運作。
 
 當自訂動作觸發上限時，此警報會警告您。 上限是用來限制傳送至外部端點的呼叫數目，以防止端點過多。
 
@@ -274,7 +286,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
