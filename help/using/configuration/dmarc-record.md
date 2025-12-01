@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 10%
+source-wordcount: '1591'
+ht-degree: 9%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 10%
 
 ## 什麼是DMARC？ {#what-is-dmarc}
 
-網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。透過向電子郵件提供者和網際網路服務提供者(ISP)提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 實作 DMARC 可降低合法電子郵件遭標示為垃圾郵件或遭拒絕的風險，並改善電子郵件傳遞能力。
+網域型訊息驗證、報告和符合性 (DMARC) 是一種電子郵件驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。透過向電子郵件提供者和網際網路服務提供者(ISP)提供明確的原則，這有助於防止惡意行為者傳送聲稱來自您網域的電子郵件。 實施DMARC可降低合法電子郵件被標籤為垃圾郵件或拒絕的風險，並改善您的電子郵件傳遞能力。
 
 DMARC也提供未通過驗證訊息的報告，以及控制未通過DMARC驗證的電子郵件處理。 根據實作的[DMARC原則](#dmarc-policies)，這些電子郵件可能會被監視、隔離或拒絕。 這些功能可讓您採取動作來減少和解決潛在的錯誤。
 
-為了協助您避免傳遞問題，同時控制無法通過驗證的郵件，[!DNL Journey Optimizer]現在直接在其管理介面中支援DMARC技術。 [了解更多](#implement-dmarc)
+為了協助您在取得對驗證失敗之郵件的控制權時防止傳遞能力問題，[!DNL Journey Optimizer]現在直接在其管理介面中支援DMARC技術。 [了解更多](#implement-dmarc)
 
 ### DMARC如何運作？ {#how-dmarc-works}
 
@@ -72,7 +72,7 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 * 確定已在&#x200B;**中為**&#x200B;您已委派&#x200B;**至DMARC的所有子網域設定** Adobe記錄[!DNL Journey Optimizer]。 [了解作法](#check-subdomains-for-dmarc)
 
-* 將&#x200B;**任何新子網域**&#x200B;委派給Adobe時，您可以在&#x200B;**管理介面**&#x200B;中直接&#x200B;**設定DMARC[!DNL Journey Optimizer]**。 [了解作法](#implement-dmarc)
+* 當&#x200B;**將任何新子網域**&#x200B;委派給Adobe時，您可以&#x200B;**直接在**&#x200B;管理介面中設定DMARC[!DNL Journey Optimizer]。 [了解作法](#set-up-dmarc)
 
 ## 在[!DNL Journey Optimizer]中實作DMARC {#implement-dmarc}
 
@@ -92,15 +92,15 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
    >
    >為符合Gmail和Yahoo！的新要求，並避免頂級ISP出現傳遞問題，建議為所有委派的子網域設定DMARC記錄。 [了解更多](dmarc-record-update.md)
 
-1. 選取沒有DMARC記錄關聯的子網域，並根據您組織的需求填寫&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;區段。 在[本節](#implement-dmarc)中詳細說明填入DMARC記錄欄位的步驟。
+1. 選取沒有DMARC記錄關聯的子網域，並根據您組織的需求填寫&#x200B;**[!UICONTROL DMARC記錄]**&#x200B;區段。 在[本節](#set-up-dmarc)中詳細說明填入DMARC記錄欄位的步驟。
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
    >[!NOTE]
    >
-   >根據是否在父項網域中找到DMARC記錄，您可以選擇使用父項網域的值，或讓Adobe管理DMARC記錄。 [了解更多](#implement-dmarc)
+   >根據是否在上層網域中找到DMARC記錄，您可以選擇使用上層網域的值，或讓Adobe管理DMARC記錄。 [了解更多](#manage-dmarc-with-adobe)
 
-1. 如果您正在編輯子網域：
+1. 如果您編輯的子網域是：
 
    * [已完全委派](delegate-subdomain.md#set-up-subdomain)給Adobe，不需要進一步的動作。
 
@@ -193,38 +193,36 @@ SPF和DKIM都可用來關聯電子郵件與網域，並共同驗證電子郵件�
 
 ### 疑難排解 {#troubleshooting}
 
-設定DMARC記錄涉及將DNS TXT記錄新增到您網域的DNS設定。 此記錄會指定您的DMARC原則，例如隔離或拒絕驗證失敗的訊息。
+設定DMARC記錄時，會將DNS TXT記錄新增至您網域的DNS設定，以指定您的DMARC原則。
 
-DNS變更需要在網際網路上傳播，通常在幾分鐘到48小時之間。
+**DNS傳播時間**
 
-如果您剛才變更DMARC設定，並嘗試立即驗證更新，您可能會看到錯誤或尚未偵測到變更。
+DNS變更需要在網際網路上傳播，通常在幾分鐘到48小時之間。 如果您剛才變更DMARC設定，並嘗試立即驗證更新，您可能會看到錯誤或尚未偵測到變更。
 
-在嘗試驗證您的DMARC設定之前，請留出足夠的時間讓DNS記錄傳播。
+在嘗試驗證您的DMARC設定之前，請留出足夠的時間讓DNS記錄傳播。 如果您在48小時後持續遇到問題，請確認DNS記錄已正確新增至您的託管解決方案。
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.
+The default value (24 hours) is generally the email providers' expectation.-->
 
-**********
-
-Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
-
-DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
-
-DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
-
-DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
-
-It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+<!--
 
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
 
+* Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+* DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+* It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
 * DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
-
--->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
