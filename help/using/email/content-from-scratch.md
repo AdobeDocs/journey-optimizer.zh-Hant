@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '723'
 ht-degree: 50%
 
 ---
@@ -64,13 +64,16 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[中設計內容時，請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。在[中設計內容時，請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
 
 若要開始建立您的內容，請遵循下列步驟：
 
 1. 從Designer首頁，選取&#x200B;**[!UICONTROL 從頭開始設計]**&#x200B;選項。
 
    ![](assets/email_designer.png)
+
+
+1. 使用AI Assistant加速電子郵件建立，並使用[AI Assistant產生包含文字和影像的完整電子郵件內容，以進行完整內容產生](../content-management/generative-full-content.md)。
 
 1. 將&#x200B;**[!UICONTROL Structures]**&#x200B;拖放到畫布中，以定義電子郵件的配置，開始設計您的內容。
 
@@ -124,4 +127,4 @@ ht-degree: 50%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

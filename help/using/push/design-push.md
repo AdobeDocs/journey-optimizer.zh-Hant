@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1522'
 ht-degree: 16%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 16%
 若要撰寫訊息，請按一下&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位。 使用個人化編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解個人化編輯器中的[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)。
 
 使用裝置預覽區段來視覺化推播通知在iOS和Android裝置上的顯示方式。
+
+使用AI Assistant加速內容建立，並使用[AI Assistant產生吸引人的推播通知文字，以產生文字](../content-management/generative-text.md)，或使用[AI Assistant建立完整的推播通知，以產生完整內容](../content-management/generative-full-content.md)。
 
 ## 點按時行為 {#on-click-behavior}
 

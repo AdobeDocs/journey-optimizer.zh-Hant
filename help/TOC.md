@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2988'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
    + [使用 AI 助理](using/start/ai-assistant.md)
    + [AJO 中的 AI 功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [使用案例教戰手冊](using/start/playbooks.md)
-   + [護欄和限制](using/start/guardrails.md)
+   + [護欄與限制](using/start/guardrails.md)
 + 歷程 {#orchestrate-journeys}
    + [歷程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [開始使用歷程](using/building-journeys/journey.md)
@@ -169,7 +169,7 @@ ht-degree: 98%
             + [檔案上傳結構描述](using/orchestrated/file-upload-schema.md)
             + [擷取資料](using/orchestrated/ingest-data.md)
          + [建立目標維度](using/orchestrated/target-dimension.md)
-         + [設定頻道設定](using/orchestrated/channel-config.md)
+         + [設定管道設定](using/orchestrated/channel-config.md)
       + 啟動您的首次協調行銷活動 {#launch}
          + [啟動您的首次協調行銷活動](/help/rp_landing_pages/launch-landing-page.md)
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [檢查並傳送文字訊息](using/sms/send-sms.md)
       + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
       + [設定簡訊子網域](using/sms/sms-subdomains.md)
-      + [簡訊成本最佳化的最佳實務](using/sms/sms-cost-optimization.md)
+      + [簡訊成本最佳化的最佳做法](using/sms/sms-cost-optimization.md)
       + 設定簡訊 / MMS / RCS 管道 {#configure-sms}
          + [設定簡訊 / MMS / RCS 管道](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [開始使用簡訊 / MMS / RCS 設定](using/sms/sms-configuration.md)
@@ -387,13 +387,13 @@ ht-degree: 98%
       + [可到 Journey Optimizer 設定 LINE 頻道](using/line/line-configuration.md)
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
-   + 已上線活動 {#live-activity}
+   + 即時活動 {#live-activity}
       + [開始使用即時活動](using/mobile-live/get-started-mobile-live.md)
-      + [建立已上線活動](using/mobile-live/create-mobile-live.md)
+      + [建立即時活動](using/mobile-live/create-mobile-live.md)
       + [常見問題集](using/mobile-live/mobile-live-faq.md)
       + 設定內容卡管道 {#configure}
-         + [在Journey Optimizer中設定已上線活動](using/mobile-live/mobile-live-configuration.md)
-         + [設定即時活動SDK整合](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
+         + [設定即時活動 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
 + 內容管理 {#content-management}
    + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 個人化 {#personalization}
@@ -474,13 +474,11 @@ ht-degree: 98%
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
-      + [AI提示最佳實務](using/content-management/ai-assistant-prompting-guide.md)
-      + [使用 AI 來產生電子郵件](using/content-management/generative-email.md)
-      + [使用 AI 來產生推播](using/content-management/generative-push.md)
-      + [使用 AI 來產生簡訊](using/content-management/generative-sms.md)
-      + [使用 AI 來產生網頁](using/content-management/generative-web.md)
+      + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
+      + [使用AI產生完整內容](using/content-management/generative-full-content.md)
+      + [使用AI產生文字](using/content-management/generative-text.md)
+      + [使用AI產生影像](using/content-management/generative-image.md)
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
-      + [使用 AI 登陸頁面](using/content-management/generative-lp.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)
@@ -714,7 +712,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

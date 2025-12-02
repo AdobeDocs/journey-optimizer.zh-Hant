@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
 
@@ -1660,7 +1660,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <td>
 <p>現在就可以使用 AI 助理，為登陸頁面製作引人入勝的內容，包括全頁設計、個人化文字和自訂視覺效果。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>如需詳細資訊，請參閱<a href="../content-management/generative-lp.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/generative-full-content.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>

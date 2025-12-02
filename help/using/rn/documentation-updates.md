@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '3516'
-ht-degree: 82%
+source-wordcount: '3659'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,16 @@ ht-degree: 82%
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
+## 2025 年 12 月 {#december-2025}
+
+* 已重新整理使用AI助理產生內容的檔案，以提高清晰度和可用性。 前五個通道特定頁面（電子郵件、推播、簡訊、網頁和登入頁面）已合併為三個產生型別的頁面： [產生完整內容](../content-management/generative-full-content.md)、[產生文字](../content-management/generative-text.md)和[產生影像](../content-management/generative-image.md)。
+
 ## 2025 年 11 月 {#november-2025}
+
+* 已將針對具有傳入頻道的假名設定檔進行定位的護欄新增至[網頁](../web/web-prerequisites.md#profile-management-guardrail)、[應用程式內](../in-app/inapp-configuration.md#profile-management-guardrail)、[程式碼型體驗](../code-based/code-based-prerequisites.md#profile-management-guardrail)和[內容卡](../content-card/content-card-configuration-prereq.md#profile-management-guardrail)先決條件頁面，以及[護欄和限制](../start/guardrails.md)頁面。 此護欄指定目標定位尚未驗證或未知的設定檔會增加可參與的設定檔總數，並可能影響您的帳單。 這就是為什麼Adobe建議設定自動刪除設定檔的存留時間(TTL)，以管理您的參與設定檔計數和相關成本。
+  <!--* A new Decisioning FAQ page is now available, covering topics such as capping rules, AI model configuration, traffic requirements, and offer optimization strategies. [Read more](../experience-decisioning/decisioning-faq.md)-->
+
+* 開始使用電子郵件設計頁面已更新，以釐清如何存取電子郵件Designer。 [閱讀全文](../email/get-started-email-design.md)
 
 * DMARC記錄頁面已新增疑難排解區段，以解決DNS傳播延遲的問題。 [閱讀全文](../configuration/dmarc-record.md#troubleshooting)
 
@@ -31,26 +40,26 @@ ht-degree: 82%
 
 * 已新增附註，以指定從首次發佈起最多2年（730天）仍可存取資產和影像，並在到期後需要重新發佈。 [閱讀全文](../content-management/proofs.md)
 
-* 現在提供完整的AI助理內容提示指南。 本指南會教導您如何製作有效的提示，以建立高轉換率、符合品牌的行銷內容。 瞭解撰寫行銷目標、使用品牌資產和針對不同管道最佳化內容的最佳實務。 [閱讀全文](../content-management/ai-assistant-prompting-guide.md)
+* 全面的 AI 助理內容提示指南現已推出。本指南會教導您如何製作有效的提示，以建立高轉換率、符合品牌的行銷內容。了解撰寫行銷目標、使用品牌資產和針對不同管道最佳化內容的最佳做法。[閱讀全文](../content-management/ai-assistant-prompting-guide.md)
 
-* 區段定義檔案已新增附註，以澄清`frequencyMap`屬性不支援用於區段定義，且無法當作對象細分條件的一部分。 對於以頻率為基礎的鎖定目標，請考慮在商業規則下使用頻率上限規則。 [閱讀全文](../audience/creating-a-segment-definition.md)
+* 區段定義文件已新增附註，以澄清 `frequencyMap` 屬性不支援用於區段定義，且無法用作客群細分條件的一部分。對於以頻率為基礎的目標定位，請考慮在商業規則下使用頻率上限規則。[閱讀全文](../audience/creating-a-segment-definition.md)
 * API 呼叫回應文件中已新增一個範例，說明如何在原生管道中使用自訂動作回應。此範例示範如何在電子郵件、推播和簡訊中使用 Handlebars 語法，從自訂動作回應中反覆處理巢狀陣列。[閱讀全文](../action/action-response.md#response-in-channels)
 
-* Campaign v7/v8整合檔案中已新增一個區段，說明在即時(RT)端點變更時如何更新現有的自訂動作。 區段包含更新端點URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀全文](../action/acc-action.md#update-action)
+* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。[閱讀全文](../action/acc-action.md#update-action)
 
-* 已在視覺片段檔案中新增限制和最佳實務章節，以警告使用者包含動態內容的其他已解鎖片段中，有不支援巢狀內嵌動態內容的片段。 此指引包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。 [閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 已在視覺片段文件中新增限制和最佳做法章節，以警告使用者不支援在包含動態內容的其他已解鎖片段中內嵌包含動態內容的片段。該指南包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。[閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* 歷程即時報告檔案中已新增疑難排解章節，以協助使用者解決遺漏的報告資料問題。 區段說明與報告資料集的歷程名稱同步、資料重新整理時間、存取許可權驗證和歷程狀態需求。 [閱讀全文](../building-journeys/report-journey.md#troubleshooting-missing-data)
+* 歷程即時報告文件中已新增疑難排解章節，以協助使用者解決遺漏的報告資料問題。該章節涵蓋與報告資料集的歷程名稱同步、資料重新整理時間、存取權限驗證和歷程狀態需求。[閱讀全文](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
-* 資產檔案新增了三個新的常見問題集專案，說明資產到期日和生命週期管理。 涵蓋的主題包括AEM資產的存留時間(TTL)原則（730天）、如何解決由於資產到期而損壞的影像，以及有關即將改善資產到期邏輯的資訊。 [閱讀全文](../integrations/assets.md#faq-assets)
+* 資產文件新增了三個新的常見問題，說明資產過期和生命週期管理。涵蓋的主題包括 AEM Assets 的存留時間 (TTL) 原則 (730 天)、如何解決由於資產過期而損壞的影像，以及有關即將改善資產過期邏輯的資訊。[閱讀全文](../integrations/assets.md#faq-assets)
 
-* 「讀取對象」活動檔案新增了完整的疑難排解章節，以解決進入歷程的估計和實際設定檔之間的對象計數不相符。 區段涵蓋時間與資料傳播問題、資料驗證與監控技巧，以及最佳實務，包括使用「批次對象評估後觸發」選項。 [閱讀全文](../building-journeys/read-audience.md#audience-count-mismatch)
+* 讀取對象活動文件新增了全面的疑難排解章節，以解決進入歷程的估計和實際輪廓之間的客群計數不相符問題。該章節涵蓋時間與資料傳播問題、資料驗證與監視技巧，以及最佳做法，包括使用「批次客群評估後觸發」選項。[閱讀全文](../building-journeys/read-audience.md#audience-count-mismatch)
 
-* 已在「對象資格」事件檔案中新增附註，以釐清串流細分延遲（最長2小時），並建議為對時間敏感的歷程新增等待活動或緩衝時間。 [閱讀全文](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
+* 已在客群資格事件文件中新增附註，以釐清串流細分延遲 (最長 2 小時)，並建議為時效性歷程新增等待活動或緩衝時間。[閱讀全文](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
 
-* 在電子郵件護欄中新增了一個區段，記錄歷程發佈的2MB訊息內容大小限制，包括將編寫內容保持在1MB以下的最佳做法，以允許後端處理額外負荷。 [閱讀全文](../start/guardrails.md#message-content-size)
+* 在電子郵件護欄中新增了章節，記錄歷程發佈的 2MB 訊息內容大小限制，包括將編寫內容保持在 1MB 以下的最佳做法，以允許後端處理額外負荷。[閱讀全文](../start/guardrails.md#message-content-size)
 
-* 改善讀取對象活動中增量讀取選項的說明檔案，以釐清快照計時相依性和24小時回顧限制，包括防止遺失設定檔的建議。 [閱讀全文](../building-journeys/read-audience.md)
+* 改善有關讀取客群活動中增量讀取選項的文件，以釐清快照計時相依性和 24 小時回顧限制，包括防止遺失輪廓的建議。[閱讀全文](../building-journeys/read-audience.md)
 
 * 已在資料集查詢護欄中新增附註，以指定查詢無法鏈結在一起。[閱讀全文](../data/lookup-aep-data.md#guidelines)
 
@@ -64,9 +73,9 @@ ht-degree: 82%
 
 * 現在提供有關如何使用歷程步驟事件的文件。[閱讀全文](../reports/journey-step-events-overview.md)
 
-* 識別歷程中捨棄事件的查詢已更正，以包括區段匯出作業錯誤、Dispatcher捨棄和狀態機器捨棄的適當篩選器。 [閱讀全文](../reports/query-examples.md#common-queries)
+* 有關識別歷程中捨棄事件的查詢已更正，以包括區段匯出工作錯誤、Dispatcher 捨棄和狀態機器捨棄的適當篩選器。[閱讀全文](../reports/query-examples.md#common-queries)
 
-* 已在查詢範例檔案中的所有37個查詢範例中新增介紹性句子，以提供更好的上下文並解釋每個查詢在呈現SQL程式碼之前的用途。 這可增進使用者瞭解，並提供更清楚的指引，說明何時應使用每個查詢。 [閱讀全文](../reports/query-examples.md)
+* 已在查詢範例文件中的所有 37 個查詢範例中新增介紹性句子，以提供更好的背景資訊並解釋每個查詢在呈現 SQL 程式碼之前的用途。這可幫助使用者了解，並提供更清楚的指引，說明何時應使用每個查詢。[閱讀全文](../reports/query-examples.md)
 
 ## 2025 年 10 月 {#october-2025}
 
@@ -247,7 +256,7 @@ ht-degree: 82%
 * 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
 * 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
-* **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
+*  **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
 * 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journeys-message.md)
 * 決策和決策管理區段新增了護欄與限制。
@@ -273,7 +282,7 @@ ht-degree: 82%
 
 * 已新增端對端使用案例，以呈現 [!DNL Journey Optimizer] 程式碼型體驗管道的內容實驗中使用決策所需的所有步驟。 [閱讀全文](../experience-decisioning/experience-decisioning-uc.md)
 
-* **設定電子郵件設定** 頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭參數](../email/header-parameters.md) 以及 [URL 追蹤](../email/url-tracking.md)的新獨立頁面。
+*  **設定電子郵件設定** 頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭參數](../email/header-parameters.md) 以及 [URL 追蹤](../email/url-tracking.md)的新獨立頁面。
 
 ## 2024 年 12 月  {#nov-2024}
 
@@ -297,7 +306,7 @@ ht-degree: 82%
 * 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。[閱讀全文](../content-management/generative-email.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。[閱讀全文](../content-management/generative-full-content.md#video)
 
 <!--
 
@@ -383,7 +392,7 @@ ht-degree: 82%
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -413,7 +422,7 @@ ht-degree: 82%
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -488,7 +497,7 @@ ht-degree: 82%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -616,7 +625,7 @@ ht-degree: 82%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

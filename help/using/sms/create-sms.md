@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1119'
 ht-degree: 8%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 8%
 >title="定義您的簡訊內容"
 >abstract="透過使用個人化編輯器定義內容並結合動態元素，自訂和個人化文字訊息 (簡訊/MMS/RCS)。"
 
+
 若要設定訊息內容，請遵循下列步驟。 MMS的設定在[本節](#mms-content)中有詳細說明。
 
 1. 在歷程或行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定文字訊息內容。
@@ -107,6 +108,8 @@ ht-degree: 8%
    針對使用Infobip、Twilio或其他協力廠商提供者的RCS傳訊，請將必要的JSON裝載貼入您的[自訂SMS設定](sms-configuration-custom.md#api-credential)。
 
    ![](assets/sms-content.png)
+
+1. 使用[AI Assistant為文字產生](../content-management/generative-text.md)產生針對您的對象量身打造的互動式文字訊息。
 
 1. 使用個人化編輯器來定義內容、新增個人化和動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽下列頁面，瞭解個人化編輯器中[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)的詳細資訊。
 
