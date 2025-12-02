@@ -7,9 +7,9 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,8 @@ AI助理可以為您的電子郵件行銷活動、網頁體驗和登入頁面產
 1. 建立及設定您的行銷活動或歷程：
 
    * **電子郵件**：建立並設定您的電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../email/create-email.md)
-   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]&#x200B;**&#x200B;**。 [了解更多](../web/create-web.md)
-   * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../landing-pages/create-lp.md)
+   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]****。 [了解更多](../web/create-web.md)
+   * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 開啟設計工具]**。 [了解更多](../landing-pages/create-lp.md)
 
 1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以僅鎖定特定內容，並存取&#x200B;**[!UICONTROL AI小幫手]**&#x200B;功能表（或&#x200B;**[!UICONTROL 顯示網頁的AI小幫手]**）。
 
@@ -72,7 +72,7 @@ AI助理可以為您的電子郵件行銷活動、網頁體驗和登入頁面產
 
    ![品牌資產下拉式功能表](assets/text-genai-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -134,19 +134,17 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
    * **簡訊**： [深入瞭解](../sms/create-sms.md)
 
 1. 存取AI助理：
-   * **推播通知**：按一下&#x200B;**[!UICONTROL 標題]**&#x200B;或&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位旁的&#x200B;**[!UICONTROL 使用AI助理編輯文字]**&#x200B;功能表。
+   * **推播通知**：按一下&#x200B;**[!UICONTROL 標題]**&#x200B;或&#x200B;**[!UICONTROL 訊息]**&#x200B;欄位旁的&#x200B;**[!UICONTROL 使用AI助理編輯文字]**&#x200B;功能表。 您也可以直接存取&#x200B;**AI助理**&#x200B;功能表。
 
-     ![使用「使用AI助理編輯文字」按鈕的推播通知構成畫面](assets/push-genai-1.png){zoomable="yes"}
+     ![使用「使用AI助理編輯文字」按鈕的推播通知構成畫面](assets/push-text-1.png){zoomable="yes"}
 
-   * **簡訊**：存取&#x200B;**[!UICONTROL 顯示AI小幫手]**&#x200B;功能表。
+   * **簡訊**：按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;旁的&#x200B;**[!UICONTROL 使用AI助理編輯文字]**&#x200B;功能表或存取&#x200B;**[!UICONTROL 顯示AI助理]**&#x200B;功能表。
 
      ![已開啟AI助理面板的SMS訊息編輯器](assets/sms-genai-1.png){zoomable="yes"}
 
 ### 產生內容 {#mobile-generate-content}
 
 存取AI Assistant後，您可以進行產生設定，以建立符合您品牌和促銷活動目標的行動內容。 自訂文字引數、新增品牌資產，並提供提示以引導AI產生相關變數。
-
-1. 啟用AI助理的&#x200B;**[!UICONTROL 使用參考內容]** （用於推播）或&#x200B;**[!UICONTROL 使用原始內容]** （用於簡訊）選項，以根據選取的內容個人化新內容。
 
 1. 選取您的&#x200B;**[!UICONTROL 品牌]**，以確保AI產生的內容符合您的品牌規格。 [進一步瞭解](brands.md)品牌。
 
@@ -158,22 +156,21 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    ![具有提示欄位和選項的AI小幫手](assets/push-genai-2.png){zoomable="yes"}
 
+1. **針對推播通知**，選擇要產生的欄位：標題和/或訊息。
+
 1. 使用&#x200B;**[!UICONTROL 文字設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 通訊策略]**：選擇最適合您產生文字的通訊樣式。
    * **[!UICONTROL 語言]**：選擇您產生內容的語言。
    * **[!UICONTROL 音調]**：音調應該會與您的對象產生共鳴。 無論您是要提供豐富資訊、好玩或有說服力，AI Assistant都能據以調整訊息。
-   * **[!UICONTROL 長度]**：使用範圍滑桿選取內容的長度。
 
-   ![文字設定面板](assets/push-genai-4.png){zoomable="yes"}
+     ![文字設定面板](assets/push-genai-4.png){zoomable="yes"}
 
-1. 針對「推播」，選擇要產生的欄位：「標題」和/或「訊息」。
+1. 從&#x200B;**[!UICONTROL 參考內容]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳檔案]**&#x200B;以新增任何品牌資產，該資產包含可提供額外內容AI助理的內容或選取先前上傳的內容。
 
-1. 從&#x200B;**[!UICONTROL 品牌資產]**&#x200B;功能表，按一下&#x200B;**[!UICONTROL 上傳品牌資產]**，新增任何包含可提供額外內容AI助理或選取先前上傳之內容的品牌資產。
+   先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-   先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的品牌資產]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
-
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 
@@ -181,13 +178,13 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
 1. 產生之後，瀏覽&#x200B;**[!UICONTROL 變數]**。
 
-   按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
-
 1. 按一下百分比圖示可檢視您的&#x200B;**[!UICONTROL 品牌一致性分數]**，並識別與您的品牌之間的任何不一致性。
 
    深入瞭解[品牌一致性分數](brands-score.md)。
 
    ![產生的文字變化與品牌對齊分數](assets/push-genai-5.png){zoomable="yes"}
+
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本，或按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以取代您目前的內容。
 
 1. 導覽至&#x200B;**[!UICONTROL 預覽]**&#x200B;視窗中的&#x200B;**[!UICONTROL 調整]**&#x200B;選項，以存取其他自訂功能：
 
@@ -197,11 +194,13 @@ AI Assistant可以為您的推播通知和SMS訊息產生引人入勝的文字�
 
    * **[!UICONTROL 使用較簡單的語言]**：利用AI Assistant簡化您的語言，確保更廣大的受眾擁有清晰易懂的語言。
 
+   * **[!UICONTROL 翻譯]**：簡化您的語言，確保更廣大的受眾能清楚無誤地瞭解。
+
    * **[!UICONTROL 變更語調]**：調整訊息的語調，以更符合您的通訊風格，例如，讓訊息更友好、更專業、更緊急，或更具啟發性。
 
    * **[!UICONTROL 變更通訊策略]**：根據您的目標修改傳訊方式，例如建立緊急狀態或強調令人興奮的吸引力。
 
-   ![調整功能表](assets/push-genai-6.png){zoomable="yes"}
+     ![調整功能表](assets/push-genai-6.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
