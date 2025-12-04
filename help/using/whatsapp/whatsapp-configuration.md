@@ -203,6 +203,6 @@ ht-degree: 13%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
