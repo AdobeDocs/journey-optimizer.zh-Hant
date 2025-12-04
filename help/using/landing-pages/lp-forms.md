@@ -31,7 +31,7 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 1. 選取&#x200B;**[!UICONTROL 串流連線]**&#x200B;以用於該表單。 這是串流端點，資料會在提交表單時傳送至此處。
 
-   在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
+   在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}中進一步瞭解如何建立串流來源連線。
 
    >[!IMPORTANT]
    >
@@ -78,7 +78,7 @@ ht-degree: 2%
    >* **資料型別**&#x200B;必須設定為&#x200B;**XDM** （不是原始資料）
    >* **驗證**&#x200B;必須為&#x200B;**已停用** （未驗證的連線）
    >
-   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 >id="ajo_lp_form_preset"
 >title="選取預設集"
 >abstract="選擇預先定義的預設集，其中包含要使用的連線，以及表單預先定義的資料集。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="建立表單預設集"
 
 若要建立表單，請遵循下列步驟。
 
