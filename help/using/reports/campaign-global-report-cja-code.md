@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 1%
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>程式碼型體驗可作為傳入互動，讓使用者透過存取您的網站或應用程式來選擇加入。 因此，追蹤為傳出訊息傳遞所選擇之設定檔的&#x200B;**已鎖定目標**&#x200B;或&#x200B;**對象**&#x200B;量度，對於程式碼型行銷活動而言不會增加。
 
 ## 顯示並按一下 {#impressions-code}
 
