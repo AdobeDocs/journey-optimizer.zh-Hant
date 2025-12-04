@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，對象，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1927'
 ht-degree: 6%
 
 ---
@@ -105,6 +105,12 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >建立程式碼型實驗時，請注意下列限制：
+   >* **處理計數**：建立超過3-5個處理可能會導致效能和介面問題。 如果您在新增處理方式時遇到錯誤，請嘗試減少處理方式的數目或逐步新增，直到問題解決為止。
+   >* **保留關鍵字**：請避免在處理名稱中使用保留關鍵字（例如「保留」），因為這樣可能會導致決策節點對應錯誤，並阻礙實驗正常運作。
 
 1. 變更您處理方式的&#x200B;**[!UICONTROL 標題]**，以便更佳地區分它們。
 

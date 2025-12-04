@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 16%
+source-wordcount: '1651'
+ht-degree: 14%
 
 ---
 
@@ -67,6 +67,11 @@ ht-degree: 16%
 * 或在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 在這種情況下，您可以將個人化新增至URL。
 
 新增後，媒體會顯示在通知內文的右側。
+
+請注意，在推播通知裝載中包含媒體附件時(例如自訂資料欄位（如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像：
+
+* **iOS**：您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在&#x200B;**[!UICONTROL 進階選項]**&#x200B;區段中啟用[新增可變內容旗標](#advanced-options-push)選項。
+* **Android**：您的應用程式必須實作[自動顯示和追蹤工作流程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以處理承載中的影像附件。
 
 ## 新增按鈕 {#add-buttons-push}
 
@@ -128,7 +133,7 @@ ht-degree: 16%
 | **[!UICONTROL 通知群組]** (僅限iOS) | 將通知群組關聯至推播通知。<br/>從iOS 12開始，通知群組可讓您將訊息執行緒和通知主題整合到執行緒ID中。 例如，品牌可能會以一個群組ID傳送行銷通知，同時以一個或多個不同的ID保留更多營運型別通知。<br/>舉例說明，您可以有groupID： 123 「檢視新的春季毛衣系列」和groupID： 456 「您的包裹已送達」通知群組。 在此範例中，所有傳送通知都會整合在群組ID： 456底下。 |
 | **[!UICONTROL 通知頻道]** (僅限Android) | 將通知頻道與推播通知建立關聯。<br/>從Android 8.0 （API層級26）開始，所有通知都必須指派至管道才能顯示。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
 | **[!UICONTROL 新增content-availability旗標]** (僅限iOS) | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/>即使應用程式在背景執行，而且不需要任何使用者互動（例如點選推播通知），此功能仍可運作。 不過，如果應用程式未執行，則不適用。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| **[!UICONTROL 新增可變內容旗標]** (僅限iOS) | 在推播裝載中傳送可變內容旗標，並允許在iOS SDK中提供的通知服務應用程式擴充功能修改推播通知內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您就可以運用行動應用程式延伸模組，進一步修改從[!DNL Journey Optimizer]傳送之推播通知的內容或簡報。 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、新增對話串識別碼至通知等。 |
+| **[!UICONTROL 新增可變內容旗標]** (僅限iOS) | 在推播裝載中傳送可變內容旗標，並允許在iOS SDK中提供的通知服務應用程式擴充功能修改推播通知內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您就可以運用行動應用程式延伸模組，進一步修改從[!DNL Journey Optimizer]傳送之推播通知的內容或簡報。 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、新增對話串識別碼至通知等。<br/>**重要**：透過裝載欄位（例如`adb_media`）包含媒體附件（影像、影片）時，必須啟用此旗標，才能在iOS裝置上轉譯。 您的應用程式還必須實作Notification Service擴充功能，才能從裝載下載及處理媒體內容。 |
 | **[!UICONTROL 新增推播到期日]** (僅限iOS) | 選擇推播到期的&#x200B;**日期和時間**。 在iOS上，通知過期會強製為硬式停止，這表示在過期時間之後送達Apple推播通知服務(APNS)的任何訊息都不會傳送，以確保客戶不會收到過期或不相關的通知。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
 | **[!UICONTROL 通知可見度]** (僅限Android) | 定義推播通知的可見度。 <br/><b>私人</b>會在所有鎖定熒幕上顯示通知，但在安全鎖定熒幕隱藏機密或私人資訊。 <br/><b>Public</b>會在所有鎖定熒幕中顯示完整通知。 <br/><b>密碼</b>不會在安全鎖定熒幕上顯示通知的任何部分。 <br/>如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/reference/android/app/Notification)。 |
 | **[!UICONTROL 通知優先順序]** (僅限Android) | 定義推播通知的重要性從低到高。 這會決定推播通知在傳送時會如何「干擾」。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |

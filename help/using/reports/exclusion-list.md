@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '868'
 ht-degree: 8%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 8%
 | InAppNoVariantDefined | 050041 | 應用程式內 | 若未定義應用程式內訊息的變體，則會產生排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 應用程式內 | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推播 | 設定檔沒有推播權杖時，會產生排除事件。 |
-| PushNoValidTokenFoundForApps | 050031 | 推播 | 在設定中找不到目標應用程式的有效權杖時，會產生排除事件。 |
+| PushNoValidTokenFoundForApps | 050031 | 推播 | 在設定中找不到目標應用程式的有效權杖時，會產生排除事件。 **重要：**&#x200B;使用生產憑證時，使用者設定檔中的`pushNotificationDetails.platform`屬性必須設定為`apns`。 如果使用沙箱憑證，請將其設為`apnsSandbox`。 platform屬性和憑證型別不符將觸發此排除。 |
 | PushMalformProfile | 050034 | 推播 | 設定檔中的pushNotificationDetails格式錯誤時，會產生排除事件。 |
 | PushNoConsent | 050111 | 推播 | 當使用者選擇退出行銷推播通知時，會產生排除事件。 |
 | PushNoApplicationDefinedInPreset | 050033 | 推播 | 當設定不含任何目標應用程式時，會產生排除事件。 |

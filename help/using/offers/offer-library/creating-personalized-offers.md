@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 18%
+source-wordcount: '807'
+ht-degree: 16%
 
 ---
 
@@ -52,11 +52,6 @@ ht-degree: 18%
 >id="ajo_decisioning_new_personalized"
 >title="個人化產品建議"
 >abstract="個人化產品建議是根據適用性規則與限制建立的自訂訊息。"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="備援產品建議"
->abstract="若一般使用者不符合資格享有任何個人化產品建議，其預設產品建議便會顯示後備產品建議。"
 
 若要建立&#x200B;**選件**，請遵循下列步驟：
 
@@ -136,7 +131,7 @@ ht-degree: 18%
 
 選取「**[!UICONTROL 編輯]**」按鈕以返回優惠方案版本模式，您可以在其中修改優惠方案的[詳細資料](#create-offer)、[代表](add-representations.md#representations)，以及編輯[適用性規則和限制](add-constraints.md#eligibility)。
 
-選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。**&#x200B;**&#x200B;**&#x200B;**
+選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。********
 
 若要再次將狀態設定為&#x200B;**[!UICONTROL 已核准]**，請選取現在顯示的對應按鈕。
 
@@ -151,7 +146,7 @@ ht-degree: 18%
 
   >[!CAUTION]
   >
-  >將無法再存取選件及其內容。 此動作無法復原。
+  >將無法再存取選件及其內容。 此動作無法還原。
   >
   >如果優惠用於集合或決定中，則無法刪除該優惠。 您必須先從任何物件中移除選件。
 
