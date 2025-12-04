@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 15%
+source-wordcount: '1061'
+ht-degree: 12%
 
 ---
 
@@ -78,13 +78,13 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hant){target=_blank}
+>儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？ 
 
-目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target=_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [深入瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ ht-degree: 15%
 
 +++
 
++++新TTL如何影響需要更長時間資料保留的使用案例（例如，排除過去120天內收到電子郵件的設定檔，或一年內收到電子郵件的上限）？
+
+新TTL原則會將設定檔存放區中系統產生的資料集資料的回顧期間限製為90天，並將資料湖中的回顧期間限製為13個月。 需要存取這些期限之後資料的使用案例將受到影響。 例如，根據設定檔存放區中90天以前事件的對象細分或頻率上限將無法再使用系統資料集。
+
++++
+
++++有哪些替代方案可保留比TTL更長的資料？
+
+需要更長保留期的客戶應考慮在TTL到期之前，將相關資料從AJO資料集匯出至外部儲存空間。 Adobe Journey Optimizer支援將資料集匯出至各種雲端儲存空間目標(Amazon S3、Azure Blob、Google雲端儲存空間等)。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
+
++++
+
++++客戶應該如何準備TTL變更？
+
+* 檢閱您的使用案例，並找出任何需要保留新TTL以外的資料的使用案例。
+* 設定自動化查詢，以在刪除資料之前將關鍵資料複製到衍生的資料集。
+* 與您的Adobe代表合作，討論任何額外的需求或潛在的TTL擴充功能（預計於未來版本推出）。
+
++++
+
++++對現有沙箱強制執行TTL之前，是否會通知客戶？
+
+是，受影響的客戶會提前收到通知，產品團隊將與他們合作，確保順利轉換。
+
 +++我可以刪除Journey Optimizer系統產生的資料集嗎？
 
 Journey Optimizer系統產生的資料集受到保護，且無法透過標準Adobe Experience Platform UI刪除。 這些資料集是Journey Optimizer功能的必要專案，由系統管理。
@@ -123,5 +147,6 @@ Journey Optimizer系統產生的資料集受到保護，且無法透過標準Ado
 >[!NOTE]
 >
 >若要在這些系統資料集中進行例行資料清理，請使用Privacy Service提供的&#x200B;**[!UICONTROL 資料生命週期]**&#x200B;作業來刪除特定記錄或身分。 [了解更多](../privacy/data-hygiene.md)
+
 
 +++
