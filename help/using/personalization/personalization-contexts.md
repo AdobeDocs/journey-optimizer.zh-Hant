@@ -569,7 +569,7 @@ serializeList(
 @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
 ```
 
-2. 在集合對應UI中：
+&#x200B;2. 在集合對應UI中：
    * 將`id`對應→`productListItems.SKU`
    * 將`name`對應→`productListItems.name`
    * 將`price`對應→`productListItems.priceTotal`
@@ -691,7 +691,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
 ```
 
-3. 對應集合欄位：
+&#x200B;3. 對應集合欄位：
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
