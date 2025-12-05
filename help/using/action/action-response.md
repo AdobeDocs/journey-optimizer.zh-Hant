@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '659'
 ht-degree: 5%
 
 ---
@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### 在原生管道中使用自訂動作回應 {#response-in-channels}
 
-您可以使用Handlebars語法，從原生管道（例如電子郵件、推播或簡訊）的自訂動作回應中反複處理巢狀陣列。 當您需要使用外部系統的動態資料個人化訊息內容時，這會很有用。
+自訂動作的回應裝載欄位可用於原生通道（電子郵件、推播、簡訊）以進行訊息個人化。 這包括重複處理外部API傳回的陣列和巢狀資料結構的能力。
 
-例如，如果您的自訂動作從外部系統傳回以下回應：
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-您可以在原生通道（例如電子郵件中的執行個體）中，反複執行`responses`陣列和巢狀`productIDs`陣列，如下所示：
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-以歷程中設定的自訂動作實際名稱取代`<yourcustomaction>`。
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## 其他資源
 
