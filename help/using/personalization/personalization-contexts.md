@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: 44999e7b1a246d584dccd81bfb426222169d4f67
+source-git-commit: 61f5302510cc5082a36f17314378760e5ba7c3ae
 workflow-type: tm+mt
 source-wordcount: '2484'
 ht-degree: 3%
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下所示：
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下所示：
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -529,6 +529,7 @@ serializeList(
 * 結果： `"SKU-1,SKU-3"` （適用於查詢引數）
 
 進一步瞭解：
+
 * [&#39;所有&#39;](../building-journeys/expression/collection-management-functions.md)
 * [&#39;serializeList&#39;](../building-journeys/functions/list-functions.md#serializeList)
 
@@ -565,11 +566,11 @@ serializeList(
 
 1. 在進階模式中，設定集合運算式：
 
-```javascript
-@event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
-```
+   ```javascript
+   @event{YourEventName.commerce.productListItems.all(currentEventField.priceTotal > 0)}
+   ```
 
-&#x200B;2. 在集合對應UI中：
+1. 在集合對應UI中：
    * 將`id`對應→`productListItems.SKU`
    * 將`name`對應→`productListItems.name`
    * 將`price`對應→`productListItems.priceTotal`
@@ -685,13 +686,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 **步驟3：在歷程中連線動作**
 
 1. 在購物車放棄事件後，新增自訂動作
-2. 在`cartItems`集合的進階模式中：
+1. 在`cartItems`集合的進階模式中：
 
-```javascript
-@event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
-```
+   ```javascript
+   @event{cartAbandonment.commerce.productListItems.all(currentEventField.quantity > 0)}
+   ```
 
-&#x200B;3. 對應集合欄位：
+1. 對應集合欄位：
    * `sku` → `productListItems.SKU`
    * `price` → `productListItems.priceTotal`
    * `quantity` → `productListItems.quantity`
