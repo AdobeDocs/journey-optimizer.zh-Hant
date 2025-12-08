@@ -11,9 +11,9 @@ keywords: 活動，條件，畫布，歷程，最佳化
 badge: label="有限可用性" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1662'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
@@ -120,6 +120,10 @@ ht-degree: 8%
 歷程上線後，會隨機指派使用者沿著不同路徑前進。 [!DNL Journey Optimizer]追蹤哪個路徑執行效果最佳並提供可操作的深入分析。
 
 使用歷程路徑實驗報告追蹤您的歷程是否成功。 [了解更多](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>發佈路徑實驗後，請勿編輯其中繼資料。 編輯中繼資料將會中斷實驗結果的計算和報告。
 
 ### 實驗使用案例 {#uc-experiment}
 
@@ -194,7 +198,7 @@ ht-degree: 8%
 
    金級與非金級會員的![忠誠度狀態目標規則](assets/journey-targeting-rule.png)
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
 
    ![從[規則]功能表選取現有的鎖定目標規則](assets/journey-targeting-select-rule.png){width=70%}
 
