@@ -53,7 +53,7 @@ ht-degree: 8%
 >id="ajo_path_experiment_success_metric"
 >title="成功量度"
 >abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="設定並追蹤歷程量度"
 
 實驗可讓您根據隨機分割來測試不同路徑，以根據預先定義的成功量度來判斷哪些路徑的執行效果最佳。
 
