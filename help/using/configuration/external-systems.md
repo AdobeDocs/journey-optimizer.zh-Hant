@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 19%
@@ -60,7 +60,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 * [設定 API 上限](capping.md)
 * [節流 API](throttling.md)
 
-[Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供API的詳細說明
+[Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)提供API的詳細說明
 
 ### 資料來源和自訂動作容量 {#capacity}
 
@@ -114,7 +114,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 +++ 如何設定上限或節流規則？ 有預設規則嗎？
 
-若要建立上限或節流規則，請參閱[本節](../configuration/external-systems.md#capping)。 依預設，沒有節流規則，但針對所有自訂動作、每個主機和每個沙箱，有一分鐘的時間上限為300,000次呼叫。 「每個主機」限制適用於網域層級(例如example.com)。 此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 如需有關如何要求上限增加的詳細資訊，請參閱[此頁面](../action/about-custom-action-configuration.md)。
+若要建立上限或節流規則，請參閱[本節](../configuration/external-systems.md#capping)。 依預設，沒有節流規則，但針對所有自訂動作、每個主機和每個沙箱，有一分鐘的時間上限為300,000次呼叫。 「每個主機」限制適用於網域層級 (例如 example.com)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 如需有關如何要求上限增加的詳細資訊，請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
 +++
 

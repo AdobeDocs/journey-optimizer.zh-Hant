@@ -8,7 +8,7 @@ role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 48%
@@ -32,7 +32,7 @@ ht-degree: 48%
 
 ## 節流API說明與Postman集合 {#description}
 
-下表列出可用於節流API的命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)提供詳細資訊，包括要求範例、引數和回應格式。
+下表列出可用於節流API的命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
