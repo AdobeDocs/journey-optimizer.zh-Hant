@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 17%
+source-wordcount: '2162'
+ht-degree: 16%
 
 ---
 
@@ -37,7 +37,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="定義自訂屬性"
->abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們是在決定項目的目錄結構描述中建立的。 只有當您已在目錄結構描述中新增至少一個自訂屬性時，才會顯示此區段。"
+>abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中建立。"
 
 首先定義決定專案的標準和自訂屬性：
 
@@ -83,8 +83,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -223,7 +223,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   >[!IMPORTANT]
   >
-  >刪除後，就無法再存取決定專案及其內容。 此動作無法復原。
+  >刪除後，就無法再存取決定專案及其內容。 此動作無法還原。
 
   如果核准的優惠專案用於集合或決定，則無法刪除這些專案。 若要刪除它們，請將它們的狀態變更為「草稿」。 若要這麼做，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 復原核准]**。
 
