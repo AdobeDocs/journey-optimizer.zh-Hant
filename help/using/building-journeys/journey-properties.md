@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2849'
 ht-degree: 15%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 15%
 
 自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -183,7 +183,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -273,6 +273,10 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
 當設定檔不再符合歷程的目的時，您可能會想要從歷程中移除設定檔。 這可透過與目標管理密切相關的&#x200B;**全域退出條件**&#x200B;來達成。
 
+>[!TIP]
+>
+>尋找實際案例的實用指引？ 請參閱我們的[歷程登入與退出條件完整指南](entry-exit-criteria-guide.md)，其中包含登入與退出設定、最佳實務及最佳化策略的完整使用案例。
+
 **範例使用案例**
 
 行銷人員有一個促銷歷程，其中包含一系列通訊。 每次溝通都是為了促使客戶購買。 一旦完成購買，客戶即不應收到系列中的其餘訊息。 透過定義退出條件，會從歷程中移除購買的任何設定檔。
@@ -331,6 +335,13 @@ Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因�
 
    * 在&#x200B;**草稿歷程**&#x200B;中，*設定檔屬性*&#x200B;選項顯示為停用（唯讀），而&#x200B;*事件*&#x200B;和&#x200B;*對象*&#x200B;選項保持作用中。
    * 在&#x200B;**暫停的歷程**&#x200B;中，*設定檔屬性*&#x200B;選項會變成可編輯，*事件*&#x200B;和&#x200B;*對象*&#x200B;選項會變成唯讀。
+
+### 相關主題 {#exit-criteria-related}
+
+* [歷程登入與退出條件指南](entry-exit-criteria-guide.md) — 包含真實世界範例和最佳實務的完整指南
+* [設定檔入口管理](entry-management.md) — 設定設定檔進入歷程的方式
+* [歷程結束的方式](end-journey.md) — 瞭解自然歷程完成
+* [暫停具有設定檔屬性退出條件的歷程](journey-pause.md#journey-exit-criteria) — 暫停歷程時使用退出條件
 
 ## 歷程排程 {#schedule}
 

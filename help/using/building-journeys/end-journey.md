@@ -9,14 +9,18 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # 結束歷程 {#journey-ending}
+
+>[!TIP]
+>
+>正在尋找設定檔何時及如何結束歷程的實用指引？ 請參閱我們的[歷程登入與退出條件完整指南](entry-exit-criteria-guide.md)，其中包括真實世界的退出案例、最佳實務和設定指南。
 
 ## 即時歷程的結束方式
 
@@ -105,3 +109,10 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >停止歷程的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+
+## 相關主題
+
+* [歷程登入與退出條件指南](entry-exit-criteria-guide.md) — 包含真實世界範例和最佳實務的完整指南
+* [設定檔入口管理](entry-management.md) — 設定設定檔進入歷程的方式
+* [設定退出條件](journey-properties.md#exit-criteria) — 設定從歷程自動移除設定檔
+* [暫停歷程](journey-pause.md) — 暫時停止歷程執行

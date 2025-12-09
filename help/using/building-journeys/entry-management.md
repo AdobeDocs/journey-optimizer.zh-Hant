@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1207'
 ht-degree: 3%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 3%
 # 輪廓入口管理 {#entry-management}
 
 設定檔入口管理取決於歷程型別。
+
+>[!TIP]
+>
+>尋找實際案例的實用指引？ 請參閱我們的[歷程登入與退出條件完整指南](entry-exit-criteria-guide.md)，其中包括歡迎行銷活動、放棄購物車復原等使用案例，以及包含完整登入與退出設定範例的忠誠度方案。
 
 ## 歷程型別 {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Business events follow reentrance rules in the same way as for unitary events. I
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## 相關主題
+
+* [歷程登入與退出條件指南](entry-exit-criteria-guide.md) — 包含真實世界範例和最佳實務的完整指南
+* [設定退出條件](journey-properties.md#exit-criteria) — 定義設定檔應何時離開您的歷程
+* [結束歷程](end-journey.md) — 瞭解歷程如何關閉和完成
+* [歷程使用案例](jo-use-cases.md) — 檢視登入與退出設定的完整範例

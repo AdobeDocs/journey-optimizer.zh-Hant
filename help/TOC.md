@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
+source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2997'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + 使用案例 {#journey-use-cases}
       + [使用案例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [透過使用案例了解](using/building-journeys/jo-use-cases.md)
+      + [歷程進入和退出條件](using/building-journeys/entry-exit-criteria-guide.md)
       + [體驗事件查閱](using/building-journeys/exp-event-lookup.md)
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
@@ -388,8 +389,8 @@ ht-degree: 99%
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
    + 即時活動 {#live-activity}
-      + [開始使用即時活動](using/mobile-live/get-started-mobile-live.md)
-      + [建立即時活動](using/mobile-live/create-mobile-live.md)
+      + [開始使用即時動態](using/mobile-live/get-started-mobile-live.md)
+      + [建立即時動態](using/mobile-live/create-mobile-live.md)
       + [常見問題集](using/mobile-live/mobile-live-faq.md)
       + 設定內容卡管道 {#configure}
          + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
@@ -713,7 +714,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
