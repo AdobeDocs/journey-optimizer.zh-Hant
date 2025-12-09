@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
 source-wordcount: '3530'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -90,29 +90,29 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 若要在 [!DNL Journey Optimizer] 中使用[程式碼型體驗](../code-based/get-started-code-based.md)動作，並傳送您的應用程式可以使用的程式碼內容承載，請遵循[此頁面](../code-based/code-based-prerequisites.md)詳述的先決條件。
 
-* 若要能夠在[使用者介面中存取及編寫](../web/get-started-web.md)網頁[!DNL Journey Optimizer]，請遵循[此頁面](../web/web-prerequisites.md)上列出的先決條件。
+* 若要能夠在 [!DNL Journey Optimizer] 使用者介面中存取及編寫[網頁](../web/get-started-web.md)，請遵循[此頁面](../web/web-prerequisites.md)上列出的先決條件。
 
-* 若要使用[!DNL Journey Optimizer]在歷程與行銷活動中傳送應用程式內訊息，請遵循[本頁面](../in-app/inapp-configuration.md)上列出的傳遞必要條件。
+* 若要使用 [!DNL Journey Optimizer] 在歷程與行銷活動中傳送應用程式內訊息，請遵循[此頁面](../in-app/inapp-configuration.md)上列出的傳遞先決條件。
 
-* 若要讓Adobe Journey Optimizer正確顯示內容卡，您必須設定[此頁面](../content-card/content-card-configuration-prereq.md)上列出的Adobe Experience Platform設定。
+* 若要讓 Adobe Journey Optimizer 正確顯示內容卡，您必須設定[此頁面](../content-card/content-card-configuration-prereq.md)上列出的 Adobe Experience Platform 設定。
 
 * Journey Optimizer 支援每秒 5,000 個傳入請求的尖峰量。此護欄適用於所有傳入請求，這些請求可源自任何 Journey Optimizer 支援的傳入頻道 ([網頁](../web/get-started-web.md)、[應用程式內](../in-app/get-started-in-app.md)、[程式碼型體驗](../code-based/get-started-code-based.md)、[內容卡](../../rp_landing_pages/content-card-landing-page.md))。
 
-* Journey Optimizer 在任何時間支援最多 500 個作用中的傳入動作。如果這些傳入動作是即時行銷活動的一部分，或是即時歷程中使用的節點，則會計入這些傳入動作。 達到此數目後，您必須停用使用傳入動作的舊版行銷活動或歷程，才能啟動新行銷活動或歷程。
+* Journey Optimizer 在任何時間支援最多 500 個作用中的傳入動作。這些傳入動作若是即時行銷活動的一部分，或為即時歷程中使用的節點，則會計算在內。達到此數目後，您必須停用使用傳入動作的舊版行銷活動或歷程，才能啟動新行銷活動或歷程。
 
-#### 使用傳入頻道的設定檔管理 {#profile-management-inbound}
+#### 傳入管道的輪廓管理 {#profile-management-inbound}
 
-[!DNL Journey Optimizer]傳入頻道可鎖定假名設定檔，這表示設定檔尚未驗證或還不知道，因為它們之前從未在其他頻道上參與。 例如，當根據類似ECID的暫時ID來鎖定所有訪客或對象時，就會發生這種情況。
+[!DNL Journey Optimizer]傳入管道可鎖定假名輪廓，這表示輪廓尚未驗證或還處於未知狀態，因為它們之前從未在其他管道上有過互動。例如，當根據類似 ECID 的臨時 ID 來鎖定所有訪客或客群時，就會發生這種情況。
 
-這會增加您的可參與設定檔總數，如果您購買的可參與設定檔數目超過合約，可能會影響成本。 每個套件的授權量度都列在[Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
+這樣做會增加可互動輪廓總數，如果其超過您購買的可互動輪廓合約數量，可能會影響成本。各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可互動輪廓的數量。
 
-為了將您的參與設定檔保持在合理限制內，Adobe建議設定存留時間(TTL) ，以在指定時間範圍內未看到或未參與的匿名設定檔時，自動從即時客戶設定檔中刪除該設定檔。
+為了將您的可互動輪廓保持在合理限制內，Adobe 建議設定存留時間 (TTL)，以在指定時間範圍內未看到假名輪廓或未與之互動時，自動從即時客戶輪廓中刪除該輪廓。
 
 >[!NOTE]
 >
->在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}中瞭解如何設定假名設定檔的資料有效期。
+>在 [Experience Platform 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}中了解如何設定假名輪廓的資料有效期。
 
-Adobe建議將TTL值設為14天，以符合目前的Edge設定檔TTL。
+Adobe 建議將 TTL 值設為 14 天，以符合目前的 Edge 輪廓 TTL。
 
 ### 交易型訊息護欄 {#transactional-message-guardrails}
 
@@ -152,7 +152,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 
 * 擷取資料時，電子郵件區分大小寫。這意味著可能會建立重複的輪廓 (例如，John.Greene@luma.com 是一個輪廓、john.greene@luma.com 是另一個輪廓)，並在您的 [!DNL Journey Optimizer] 歷程和行銷活動中定位對應的收件者時使用。
 
-* 使用傳入頻道鎖定目標假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數和相關成本。 [了解更多](#profile-management-inbound)
+* 使用傳入管道定位目標假名輪廓 (未驗證的訪客) 時，請考慮設定自動刪除輪廓的存留時間 (TTL)，以管理可互動輪廓計數和相關成本。[了解更多](#profile-management-inbound)
 
 ## 決策與決策管理護欄 {#decisioning-guardrails}
 
@@ -196,7 +196,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
