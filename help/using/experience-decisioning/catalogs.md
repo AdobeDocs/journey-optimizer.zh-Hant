@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '426'
 ht-degree: 6%
 
 ---
@@ -53,11 +53,11 @@ ht-degree: 6%
 1. 目錄的結構會在新標籤中開啟，遵循以下結構：
 
    * **`_experience`**&#x200B;節點包含標準決定專案屬性，例如名稱、開始和結束日期以及說明。
-   * **`_<imsOrg>`**&#x200B;節點可容納自訂決策專案屬性。 預設不會設定自訂屬性，但您可以視需要新增更多屬性以符合您的需求。 完成後，自訂屬性會與標準屬性一起出現在決定專案建立畫面中。
+   * **`_<imsOrg>`**&#x200B;節點內含自訂決定專案屬性，其中`<imsOrg>`會由您組織的名稱取代（例如Luma公司的`_luma`）。 預設不會設定自訂屬性，但您可以視需要新增更多屬性以符合您的需求。 完成後，自訂屬性會與標準屬性一起出現在決定專案建立畫面中。
 
    ![](assets/catalogs-schema.png)
 
-1. 若要將自訂屬性新增到結構描述中，請展開&#x200B;**`_<imsOrg>`**&#x200B;節點，然後按一下結構中所需位置的「+」按鈕。
+1. 若要將自訂屬性新增到結構描述中，請展開您組織的節點（例如&#x200B;**`_luma`**），然後按一下結構中所需位置的「+」按鈕。
 
    ![](assets/catalogs-add.png)
 
