@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 * 簡單的四步驟工作流程和使用者介面。
 * 提供基本設定，以便在幾分鐘內開始透過[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}收集行動事件資料。
-* 能夠利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}測試及驗證基本行動推播事件。
+* 能夠利用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}測試及驗證基本行動推播事件。
 * 自動建立及設定所有必要的資料收集和Journey Optimizer資產。
 * 在產品指引和工具提示中。
 * 如有需要，可提供更進階實作的自然轉換。
