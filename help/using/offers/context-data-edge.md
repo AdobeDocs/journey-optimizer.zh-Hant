@@ -52,11 +52,11 @@ ht-degree: 2%
 
    ![XDM結構描述顯示具有語言和deviceType屬性的選件內容欄位群組](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在[!DNL Adobe Experience Platform] [體驗資料模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
+   在[!DNL Adobe Experience Platform] [體驗資料模型(XDM)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 
