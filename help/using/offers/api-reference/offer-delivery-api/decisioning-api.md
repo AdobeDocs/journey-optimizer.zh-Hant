@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 2%
 您可以對[!DNL Decisioning] API發出POST要求，以建立並傳遞優惠方案。
 
 本教學課程需要實際瞭解API，特別是有關決定管理。 如需詳細資訊，請參閱[決定管理API開發人員指南](../getting-started.md)。 本教學課程還要求您有唯一的位置ID和決定ID值可用。 如果您尚未取得這些值，請參閱[建立位置](../offers-api/placements/create.md)和[建立決定](../activities-api/activities/create.md)的教學課程。
+
+>[!NOTE]
+>
+>**在決策請求中傳遞內容資料**
+>
+>您可以在決策請求中傳遞內容資料（例如裝置型別、位置或使用者偏好設定），以建立動態適用性規則並根據即時條件提供個人化優惠。 [進一步瞭解內容資料與決策請求](../../context-data-decisioning.md)
 
 ## 必要的標頭 {#required-headers}
 
@@ -196,7 +202,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositions.xdm:content` | 回應內容的格式。 | 回應內容可以是： `text`、`html block`或`image link` |
 | `xdm:score` | 選項的得分，計算方式為與選項或決定相關聯的排名函式。 如果排名功能涉及在排名期間決定優惠方案的分數，API會傳回此欄位。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | 此物件包含單一遞補優惠，包括其唯一識別碼。 | `"xdm:id": "dps:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | 資源的實體或數位表現形式。 通常，格式應包括資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議從受控制的辭彙中選取值，例如，定義電腦媒體格式的[網際網路媒體型別](https://www.iana.org/assignments/media-types/)清單。 | `"dc:format": "image/png"`或`"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | 資源的實體或數位表現形式。 通常，格式應包括資源的媒體型別。 格式可用於決定顯示或操作資源所需的軟體、硬體或其他裝置。 建議從受控制的辭彙中選取值，例如，定義電腦媒體格式的[網際網路媒體型別](https://www.iana.org/assignments/media-types/)清單。 | `"dc:format": "image/png"`或 `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | 用於從內容傳遞網路或服務端點讀取資產的選用URL。 此URL可用來從使用者代理程式公開存取資產。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定回應訊息的建立時間。 以紀元時間表示。 | `"ode:createDate": 1566497582038` |
 

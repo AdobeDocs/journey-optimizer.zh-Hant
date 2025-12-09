@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-若要更進一步，您也可以將內容資料運用到&#x200B;**排名公式**&#x200B;中，或是&#x200B;**動態個人化優惠方案表示**。 例如，您可以建立單一選件，並使用個人化欄位來根據內容資料調整其表示。 例如，如果使用者有iphone，會顯示指定的影像，而另一個影像則會顯示給ipad使用者。 如需詳細資訊，請參閱下列章節：
+若要更進一步，您也可以將內容資料運用到&#x200B;**排名公式**&#x200B;中，或是&#x200B;**動態個人化優惠方案表示**。 例如，您可以建立單一選件，並使用個人化欄位來根據內容資料調整其表示。 例如，如果使用者有iPhone，會顯示指定的影像，而另一個影像則會顯示給iPad使用者。 如需詳細資訊，請參閱以下區段：
 
 * [排名公式 — 根據內容資料提升優惠](../offers/ranking/create-ranking-formulas.md#context-data)
 * [根據內容資料個人化表示](../offers/offer-library/add-representations.md#context-data)
@@ -40,9 +40,9 @@ ht-degree: 1%
 
 ## 在Edge Decisioning請求中傳遞內容資料的先決條件 {#prerequisites}
 
-與使用決策API以相當自由的格式傳遞內容不同，Edge決策內容裝載必須符合XDM體驗事件。 為此，需要將內容定義為用於資料收集的「XDM體驗事件」的一部分。
+與使用決策API以自由格式傳遞內容不同， Edge決策內容需要XDM法規遵循。 內容裝載必須與XDM體驗事件相容。 為此，需要將內容定義為用於資料收集的「XDM體驗事件」的一部分。
 
-1. 定義體驗事件結構描述。 在此使用案例中，系統會建立「優惠方案內容」結構，且優惠方案內容欄位是「優惠方案內容」欄位群組的一部分。 事實上，欄位群組會新增至體驗事件結構描述，用於與「Edge收集網路」資料流相關聯的資料收集。
+1. 定義體驗事件結構描述。 在此使用案例中，系統會建立「優惠方案內容」結構，且優惠方案內容欄位是「優惠方案內容」欄位群組的一部分。 實際上，欄位群組將會新增至體驗事件結構描述，此結構描述用於與「Edge收集網路」資料流相關聯的資料收集。
 
    >[!NOTE]
    >
@@ -50,31 +50,31 @@ ht-degree: 1%
 
    在此範例中，「選件內容」欄位群組有兩個屬性：language和deviceType。 這些屬性將用於優惠排名和適用性規則。
 
-   ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![XDM結構描述顯示具有語言和deviceType屬性的選件內容欄位群組](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在Adobe Experience Platform [Experience Data Model (XDM)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
+   在[!DNL Adobe Experience Platform] [體驗資料模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在Adobe Experience Platform [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 
-   ![](assets/context-edge-datastream.png)
+   ![已選取事件結構描述的優惠內容資料流組態](assets/context-edge-datastream.png)
 
 1. 編輯新建立的資料流，並選取「Adobe Experience Platform」作為服務，選取「選件內容」作為事件資料集。
 
-   ![](assets/context-edge-datastream-new.png)
+   ![資料流服務組態包含Adobe Experience Platform和選件內容資料集](assets/context-edge-datastream-new.png)
 
 1. 儲存資料流並複製其ID。 此ID將用於您的API要求端點。 [瞭解如何建立API呼叫](#request)
 
-   ![](assets/context-edge-datastream-copy.png)
+   ![正在從設定介面複製資料串流ID](assets/context-edge-datastream-copy.png)
 
 ## 在適用性規則中使用內容資料 {#rules}
 
 建立適用性規則，根據使用者的裝置型別決定要顯示哪些優惠方案：
 
-![](assets/context-edge-device.png)
+![適用於iPhone和iPad優惠方案的裝置型別適用性規則](assets/context-edge-device.png)
 
 * iphone裝置規則：
 
@@ -100,14 +100,14 @@ ht-degree: 1%
 
 為每個裝置型別建立選件，並將其連結至先前建立的對應適用性規則：
 
-* 適用於iphone使用者的選件：
+* iPhone使用者適用的選件：
 
-   * 選件名稱：「Edge內容 — iPhone選件內容」
+   * 選件名稱： 「Edge內容 — iPhone選件內容」
    * 相關規則：「Edge內容規則 — iphone」
 
-* ipad使用者適用的優惠方案：
+* iPad使用者適用的選件：
 
-   * 選件名稱： Edge內容 — iPad選件內容：
+   * 選件名稱： 「Edge內容 — iPad選件內容」
    * 相關規則：「Edge內容規則 — ipad」
 
 此外，建立遞補優惠（此處為「內容遞補內容」），以在不符合特定裝置條件時顯示。
@@ -116,13 +116,13 @@ ht-degree: 1%
 
 將先前建立的選件新增至靜態集合，並命名為「Edge裝置內容」。 此集合是優惠決定挑選合格優惠呈現在客戶的地方。
 
-![](assets/context-edge-collection.png)
+![包含裝置特定選件的Edge裝置內容集合](assets/context-edge-collection.png)
 
 ## 建立優惠決定 {#decision}
 
 建立新決定，利用優惠決定引擎在選取「內容遞補」優惠作為遞補優惠時，根據使用者的裝置型別，挑選要呈現給使用者的最佳優惠。
 
-![](assets/context-edge-decision.png)
+![優惠決定組態包含內容遞補為遞補優惠](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ ht-degree: 1%
 
   +++擷取決定範圍的位置
 
-  ![](assets/context-edge-copy-scope.png)
+  ![從優惠決定介面複製決定範圍的位置](assets/context-edge-copy-scope.png)
 
   +++
 
