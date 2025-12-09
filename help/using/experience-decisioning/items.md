@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
+source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 16%
+source-wordcount: '2132'
+ht-degree: 15%
 
 ---
 
@@ -33,11 +33,6 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >id="ajo_exd_item_priority"
 >title="定義決定項目的優先順序"
 >abstract="如果一個設定檔符合多個項目的條件，則可以透過優先順序將此決定項目與其他決定項目進行比較。 較高的優先順序使該項目優先於其他項目。"
-
->[!CONTEXTUALHELP]
->id="ajo_exd_item_custom_attributes"
->title="定義自訂屬性"
->abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中建立。"
 
 首先定義決定專案的標準和自訂屬性：
 
@@ -83,8 +78,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

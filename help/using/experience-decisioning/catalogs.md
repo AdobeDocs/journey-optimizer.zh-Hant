@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 6%
 
 ---
 
-# 專案目錄 {#catalog}
+# 設定項目目錄 {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="定義自訂屬性"
+>abstract="自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中建立。"
 
 在決策中，目錄可作為中央容器來組織決策專案。 每個目錄都會連結至Adobe Experience Platform結構描述，包含可指派給決定專案的所有屬性。
 
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 ![](assets/catalogs-list.png)
 
-## 護欄和限制
+## 護欄與限制
 
 為了確保最佳效能和一致性，Decisioning會強制實行下列護欄和限制：
 
