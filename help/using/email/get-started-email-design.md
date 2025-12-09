@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 開始使用電子郵件設計 {#get-started-content-design}
 
-若要存取電子郵件Designer並開始設計您的電子郵件內容，您必須先在歷程或行銷活動中[建立電子郵件](create-email.md)。
+若要存取電子郵件設計工具並開始設計您的電子郵件內容，您必須先在歷程或行銷活動中[建立電子郵件](create-email.md)。
 
-然後您可以使用[!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來匯入現有內容或從頭開始建立回應式電子郵件。 [了解更多](content-from-scratch.md)
+然後您可以使用 [!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來匯入現有內容或從頭開始建立回應式電子郵件。[了解更多](content-from-scratch.md)
 
-電子郵件Designer也可讓您：
+電子郵件設計工具也可讓您：
 
 * 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。[了解更多](../integrations/assets.md)
 
@@ -86,4 +86,4 @@ ht-degree: 91%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
