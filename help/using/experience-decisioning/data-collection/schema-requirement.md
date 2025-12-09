@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -104,6 +104,10 @@ ht-degree: 1%
 
 主張中的每個優惠方案都包含一個追蹤權杖，這是Adobe產生的唯一識別碼。 此Token必須完全依照收到的方式在對應點選或曝光事件中傳遞（不會變更）。 比對追蹤權杖可確保Adobe能夠準確地將使用者動作與正確的優惠決定建立關聯，以啟用下游報告和人工智慧為基礎的最佳化。
 
+>[!CAUTION]
+>
+>如果您在追蹤點選時未在`propositionAction.tokens`欄位中傳遞追蹤權杖，則點選事件將不會正確歸因於對應的選件。 這將導致不完整的追蹤資料，並將對報表和AI型排名最佳化產生負面影響。 請一律確保將主張中的追蹤Token納入您的點選追蹤實作中。
+
 +++**範例承載：**
 
 ```json
@@ -179,4 +183,4 @@ ht-degree: 1%
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=zh-Hant){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
