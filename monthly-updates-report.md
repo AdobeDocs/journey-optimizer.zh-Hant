@@ -5,9 +5,9 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: afa3c88093b7a3802b98aee1ed391a519499ccc2
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 新頁面
 
-- Adobe Journey Optimizer中的[AI功能](help/rp_landing_pages/ai-capabilities-landing-page.md) - 10月31日
+- [Adobe Journey Optimizer中的AI與智慧型功能](help/using/start/ai-features.md) - 10月31日
 - [管理客戶的喜好設定](help/using/action/preference-center.md) - 10月24日
 - [歷程報告](help/using/action/reporting.md) - 10月29日
 - [錯誤代碼參考](help/using/building-journeys/error-codes-reference.md) - 10月27日

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [改善的歷程畫布](using/rn/new-canvas.md)
 + 快速入門 {#get-started}
    + [快速入門](/help/rp_landing_pages/get-started-landing-page.md)
-   + [主要功能](using/start/get-started.md)
-   + [架構](using/start/architecture-concepts-redpen.md)
-   + [核心概念](using/start/functional-areas-redpen.md)
-   + [重要術語](using/start/terminology-md-redpen.md)
-   + 角色與職責 {#quick-start}
-      + [概觀](using/start/quick-start.md)
+   + Essentials {#essentials}
+      + [什麼是Journey Optimizer？](using/start/get-started.md)
+      + [瞭解其運作方式](using/start/understanding-ajo.md)
+      + [重要術語](using/start/terminology.md)
+      + [護欄與限制](using/start/guardrails.md)
+   + 角色快速入門 {#by-role}
+      + [選擇您的學習路徑](using/start/quick-start.md)
       + [行銷人員快速入門](using/start/path/marketer.md)
       + [資料工程師快速入門](using/start/path/data-engineer.md)
       + [管理員快速入門](using/start/path/administrator.md)
       + [開發人員快速入門](using/start/path/developer.md)
-   + 使用者介面 {#ui}
-      + [開始使用介面](using/start/user-interface.md)
-      + [搜尋、篩選、分類](using/start/search-filter-categorize.md)
+   + 有效率工作 {#work-efficiently}
+      + [瀏覽介面](using/start/user-interface.md)
+      + [搜尋、篩選及組織](using/start/search-filter-categorize.md)
+      + [AI與智慧型功能](using/start/ai-features.md)
       + [協助工具](using/start/accessibility.md)
-   + [使用 AI 助理](using/start/ai-assistant.md)
-   + [AJO 中的 AI 功能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [使用案例教戰手冊](using/start/playbooks.md)
-   + [護欄與限制](using/start/guardrails.md)
 + 歷程 {#orchestrate-journeys}
    + [歷程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [開始使用歷程](using/building-journeys/journey.md)
@@ -714,7 +712,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

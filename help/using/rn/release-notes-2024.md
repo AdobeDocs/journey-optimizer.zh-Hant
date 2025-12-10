@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -314,7 +314,7 @@ ht-degree: 100%
 
 **報告**
 
-* **決策報告**&#x200B;現已開放使用，可提供基本深入分析，告訴訪客如何與體驗互動。[了解更多](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
+* **決策報告**&#x200B;現已開放使用，可提供基本洞察，告訴訪客如何與體驗互動。[了解更多](../reports/campaign-global-report-cja-code.md#decisioning-kpis)
 
 **資料治理與同意原則** - 推出日期：2024 年 10 月 7 日
 
@@ -485,7 +485,7 @@ ht-degree: 100%
 
 **歷程**
 
-* **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的深入分析。我們已透過加入新的量度 (已進入、已退出、已捨棄的輪廓與錯誤輪廓) 增強此功能，讓您直接從歷程版面更深入了解使用者行為與效能。[了解更多](../building-journeys/report-journey.md)
+* **即時報告增強功能** - 即時報告會針對您的歷程效能，提供過去 24 小時內的洞察。我們已透過加入新的量度 (已進入、已退出、已捨棄的輪廓與錯誤輪廓) 增強此功能，讓您直接從歷程版面更深入了解使用者行為與效能。[了解更多](../building-journeys/report-journey.md)
 
 
 * (推出日期為：9 月 10 日) **在讀取對象上方的自動重試功能** - 正在擷取匯出工作時，會按預設在對象觸發歷程上套用重試功能 (從&#x200B;**讀取對象**&#x200B;或&#x200B;**商業事件**&#x200B;開始)。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程最多可以在預定時間後 1 小時執行。[了解更多](../building-journeys/read-audience.md#retries)
@@ -755,8 +755,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得您特定環境的操作見解。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-assistant.md">詳細文件</a>。</p>
+<p>AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並獲取指定環境的運作洞察。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1133,7 +1133,7 @@ ht-degree: 100%
 
 **個人化**
 
-* 表達式編輯器中提供了新的 **toInt** 輔助函數。它允許您將任何類型 (數字、雙精度、整數、長整型、浮點型、短整型、位元組、布林型、字串) 轉換為整數。[閱讀全文](../personalization/functions/math.md#to-int)
+* 運算式編輯器中提供了新的 **toInt** 輔助函數。它允許您將任何類型 (數字、雙精度、整數、長整型、浮點型、短整型、位元組、布林型、字串) 轉換為整數。[閱讀全文](../personalization/functions/math.md#to-int)
 
 
 
@@ -1308,7 +1308,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
-<p>如需詳細資訊，請參閱<a href="../start/playbooks.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#playbooks">詳細說明文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
