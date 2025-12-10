@@ -1,13 +1,13 @@
 ---
 title: Decisioning 使用案例
 description: 瞭解如何透過程式碼型體驗管道建立決定並用於內容實驗
-feature: Decisioning
+feature: Decisioning, Use Cases
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 4%
@@ -131,7 +131,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 儲存您的變更，然後按一下[建立]。**&#x200B;** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
+1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#create-decision)
 

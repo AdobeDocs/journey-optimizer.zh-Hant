@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Personalization使用案例&amp；冒號；訂單狀態通知
 description: 瞭解如何使用設定檔、優惠決定和內容資訊個人化訊息。
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 運算式、編輯器、使用案例、個人化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc14.png)
 
-1. 按一下驗證以確定沒有錯誤，然後按一下[儲存]。**&#x200B;**
+1. 按一下驗證以確定沒有錯誤，然後按一下[儲存]。****
 
    ![](assets/perso-uc15.png)
 
@@ -110,4 +110,4 @@ ht-degree: 2%
 
 以下影片顯示了一個類似的使用案例，運用歷程中的內容資料來個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428536?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

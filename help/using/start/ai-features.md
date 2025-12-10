@@ -4,10 +4,10 @@ product: journey optimizer
 title: AI與智慧型功能
 description: 瞭解AI和機器學習如何增強Adobe Journey Optimizer功能
 feature: Overview
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 4%
@@ -241,7 +241,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 

@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: AI助理內容提示指南
 description: 瞭解如何使用CO-STAR框架為產生AI支援的內容製作有效提示，以建立高轉換率、符合品牌的行銷內容。
+topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 1%

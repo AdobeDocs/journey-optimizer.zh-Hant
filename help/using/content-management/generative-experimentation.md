@@ -4,11 +4,11 @@ product: journey optimizer
 title: 使用Journey Optimizer中的AI助理進行內容實驗
 description: 使用Journey Optimizer中的AI助理進行內容實驗
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 9%
@@ -48,6 +48,6 @@ ht-degree: 9%
 
 1. 當您的內容實驗準備就緒時，從行銷活動摘要頁面，您可以按一下&#x200B;**[!UICONTROL 檢閱以啟動]**&#x200B;以顯示行銷活動的摘要。 如果有任何引數不正確或遺失，則會顯示警報。 [了解更多](../content-management/content-experiment.md#treatment-experiment)
 
-1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下[啟用]。**&#x200B;**
+1. 在啟動行銷活動之前，請仔細檢查所有設定是否正確，然後按一下[啟用]。****
 
 在成功設定行銷活動並個人化行銷活動後，您可以在行銷活動報告中追蹤您的行銷活動。 [了解更多](../reports/campaign-global-report-cja.md)

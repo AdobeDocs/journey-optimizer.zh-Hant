@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 傳送願望清單專案更新
 description: 傳送願望清單專案更新
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -42,7 +43,7 @@ ht-degree: 1%
 
    ![](assets/uc-reengagement-2.png){zoomable="yes"}
 
-1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]&#x200B;**&#x200B;**&#x200B;來設定對象。
+1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]****&#x200B;來設定對象。
 
 1. 按一下&#x200B;**[!UICONTROL 新增條件]**，建立下列條件以精簡您的對象：
 

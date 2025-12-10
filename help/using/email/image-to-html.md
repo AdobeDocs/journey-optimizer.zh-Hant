@@ -4,12 +4,12 @@ product: journey optimizer
 title: 使用影像轉換為HTML轉換工具將影像轉換為HTML範本
 description: 瞭解如何使用AI支援的影像至HTML轉換工具，將影像設計轉換為可編輯的HTML電子郵件範本
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="有限可用性" type="Informative"
 keywords: 電子郵件，範本，影像， HTML， AI，設計，轉換器
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 使用影像轉換為HTML轉換工具將影像轉換為HTML範本 {#image-to-html}
-
-
 
 ## 概觀 {#overview}
 
@@ -104,7 +102,7 @@ ht-degree: 3%
 
 1. 進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。**&#x200B;**
+1. 在滿意您的範本後，按一下[儲存]，即可儲存內容範本。****
 
 1. 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](use-email-templates.md)
 

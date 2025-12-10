@@ -4,16 +4,16 @@ product: journey optimizer
 title: 傳送時間最佳化
 description: 瞭解如何在訊息中最佳化引數傳送時間
 feature: Journeys, Activities, Email, Push, Send Time Optimization
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 

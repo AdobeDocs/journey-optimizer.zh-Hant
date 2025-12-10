@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 10 月版]
+>[!TAB 最新更新]
 
-Journey Optimizer 10 月發布內容已上線！在發行說明中探索本月發行的新功能和改進項目。
+Journey Optimizer 10 月發布內容已上線！在發行說明中探索最新功能和改進。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -49,7 +49,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -59,7 +59,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -69,7 +69,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -79,7 +79,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -89,7 +89,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -99,7 +99,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
