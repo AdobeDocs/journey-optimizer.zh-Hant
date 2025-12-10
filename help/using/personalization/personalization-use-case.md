@@ -110,4 +110,4 @@ ht-degree: 2%
 
 以下影片顯示了一個類似的使用案例，運用歷程中的內容資料來個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428536?captions=chi_hant&quality=12)
