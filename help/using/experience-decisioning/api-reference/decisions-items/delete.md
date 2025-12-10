@@ -1,13 +1,13 @@
 ---
 title: 刪除決定專案
 description: 決定專案是行銷優惠方案，您可以建立並組織成集合和目錄。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 4%

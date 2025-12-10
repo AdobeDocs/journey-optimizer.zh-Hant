@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: 建立資料集以收集事件
 description: 瞭解如何建立資料集以收集事件
-feature: Ranking, Decision Management, Datasets
+feature: Ranking, Datasets, Decisioning
 role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 7%
@@ -54,7 +54,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->深入瞭解如何在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant#understanding-schemas){target="_blank"}中建置結構描述。
+>深入瞭解如何在[結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}中建置結構描述。
 
 您現在已準備好使用此結構描述建立資料集。 請依照下列步驟執行此操作：
 
