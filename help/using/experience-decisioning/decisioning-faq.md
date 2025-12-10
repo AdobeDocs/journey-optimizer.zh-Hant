@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,8 +63,8 @@ ht-degree: 0%
 
 AI模型會在下一個訓練週期中識別並開始測試新提供的選件：
 
-* **自動最佳化**：每日
-* **個人化最佳化**：每週
+* **自動最佳化**&#x200B;會在下一個訓練週期中識別並開始測試新優惠方案。 自動最佳化訓練每天進行3至4次，大約每6小時一次。
+* **個人化最佳化**&#x200B;會在新優惠方案新增至優惠方案策略時，識別並開始測試新優惠方案。 它們將會包含在隨機探索流量中。 然後，這些選件將在模型的下一個培訓週期中進行個人化，每週進行一次。
 
 在識別之後，這兩種模型都會立即開始向某些訪客提供新優惠方案，以測試其效能並收集其成效的相關資料。
 
