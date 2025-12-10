@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 傳遞能力
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
+source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 73%
+source-wordcount: '322'
+ht-degree: 56%
 
 ---
 
@@ -52,8 +52,18 @@ Benefits
 
 了解如何建立和執行 IP 暖身計劃。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453851/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
 >在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant)中進一步瞭解透過IP暖身提高您的電子郵件信譽。
+
+## 其他資源 {#additional-resources}
+
+探索這些實用的部落格，以取得有關IP熱身更深入的指引：
+
+* [瞭解如何設定IP熱身](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 瞭解設定IP熱身計畫的基礎和成功實作的最佳實務。
+
+* [ IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
+
+* [IP熱身疑難排解](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 尋找對象延遲等常見問題的解決方案，並瞭解智慧重試機制。
