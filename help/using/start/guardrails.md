@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '3530'
-ht-degree: 94%
+source-wordcount: '3575'
+ht-degree: 92%
 
 ---
 
@@ -196,7 +196,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -319,6 +319,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 下列護欄適用於[讀取對象](../building-journeys/read-audience.md)歷程活動：
 
 * 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
+* 在歷程專案中，設定檔會使用批次對象快照中的屬性值。 但是，當設定檔達到&#x200B;**等待**&#x200B;活動時，歷程會透過從整合設定檔服務(UPS)擷取最新資料來自動重新整理設定檔屬性。 這表示在歷程執行期間，設定檔屬性可能會變更。
 * 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
 * **讀取客群**&#x200B;活動無法搭配 Adobe Campaign 活動使用。
 * **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。

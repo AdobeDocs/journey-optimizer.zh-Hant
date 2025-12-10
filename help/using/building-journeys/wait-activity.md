@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 15%
+source-wordcount: '891'
+ht-degree: 12%
 
 ---
 
@@ -102,8 +102,18 @@ Select the date for the execution of the next activity.
 
 若要驗證等待活動是否如預期運作，您可以使用步驟事件。 [了解更多](../reports/query-examples.md#common-queries)。
 
-## 自動等待節點  {#auto-wait-node}
+## 等待後重新整理設定檔 {#profile-refresh}
 
+當設定檔停留在以&#x200B;**讀取對象**&#x200B;活動開始的歷程中的&#x200B;**等待**&#x200B;活動時，歷程會自動從整合設定檔服務(UPS)重新整理設定檔的屬性，以擷取最新的可用資料。
+
+* **在歷程專案**：設定檔使用歷程開始時所評估之對象快照中的屬性值。
+* **在等待節點之後**：歷程會執行查詢，以從UPS擷取最新的設定檔資料，而非較舊的快照集資料。 這表示自歷程開始以來，設定檔屬性可能已變更。
+
+此行為可確保下游活動在等待期間後使用目前的設定檔資訊。 不過，如果您預期歷程在整個執行期間僅使用原始快照集資料，則可能會產生非預期的結果。
+
+範例：如果設定檔在歷程開始時符合「銀級客戶」對象的資格，但在3天等待期間升級為「金級客戶」，則等待後的活動會看到更新的「金級客戶」狀態。
+
+## 自動等待節點  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "

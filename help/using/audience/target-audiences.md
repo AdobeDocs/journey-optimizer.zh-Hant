@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 22%
+source-wordcount: '667'
+ht-degree: 21%
 
 ---
 
@@ -49,9 +49,7 @@ ht-degree: 22%
 
 * 在歷程中使用&#x200B;**讀取對象**&#x200B;協調活動，讓對象中的所有個人進入歷程並接收歷程中包含的訊息。 假設您有「銀級客戶」客群。 透過此活動，您可以讓所有銀級客戶進入歷程，並向其傳送一系列個人化訊息。 [了解如何設定讀取客群活動](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
-  >[!NOTE]
-  >
-  >任何在「讀取對象」活動中利用對象構成或自訂上傳的對象歷程，其設定檔屬性與上次批次評估一樣新。 這包括歷程中的同意/隱藏。
+  對於使用受眾構成或自訂上傳的受眾的歷程，設定檔屬性與在歷程輸入時的最後一次批次評估一樣新。 不過，在&#x200B;**等待**&#x200B;活動後，歷程會重新整理來自整合設定檔服務(UPS)的設定檔屬性，擷取最新可用的資料，這表示歷程執行期間可能會變更設定檔屬性。 [進一步瞭解等待活動後重新整理設定檔](../building-journeys/wait-activity.md#profile-refresh)
 
 * 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據客群成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/condition-activity.md#using-a-segment)。
 
