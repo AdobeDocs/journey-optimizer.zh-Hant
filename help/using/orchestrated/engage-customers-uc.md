@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **此使用案例所需的結構描述：**
 
