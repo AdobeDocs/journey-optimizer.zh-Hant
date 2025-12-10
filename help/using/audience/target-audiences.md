@@ -63,6 +63,6 @@ ht-degree: 14%
 
 只有在Audience Portal中建立的對象，才能在[!DNL Journey Optimizer]歷程與行銷活動中直接鎖定目標。 [進一步瞭解可用的對象型別](../audience/about-audiences.md#types)。
 
-如果您需要定位非支援對象(例如Customer Journey Analytics對象)的設定檔，則需要將其包裝在對象入口網站的新區段定義中。 [區段產生器檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}提供了如何在區段定義中新增對象的詳細資訊
+如果您需要定位非支援對象(例如Customer Journey Analytics對象)的設定檔，則需要將其包裝在對象入口網站的新區段定義中。 [區段產生器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}提供了如何在區段定義中新增對象的詳細資訊
 
 完成後，請等待區段評估完成，以便用於您的歷程和行銷活動。
