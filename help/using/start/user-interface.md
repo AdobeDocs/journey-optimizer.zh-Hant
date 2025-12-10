@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 34%
+source-wordcount: '1126'
+ht-degree: 33%
 
 ---
 
@@ -57,6 +57,7 @@ Journey Optimizer介麵包含四個主要區域：
 * **內容範本** — 行銷活動和歷程可重複使用的訊息範本。 [建立範本](../content-management/content-templates.md)
 * **片段** — 可用於多個訊息的內容區塊。 [使用片段](../content-management/fragments.md)
 * **登陸頁面** — 訂閱和偏好設定的網路表單。 [設計登陸頁面](../landing-pages/get-started-lp.md)
+* **使用案例教戰手冊** — 為常見行銷案例預先建立的工作流程。 [探索教戰手冊](ai-features.md#playbooks)
 
 **資料管理** — 管理您的資料基礎。 [瞭解結構描述和資料集](../data/get-started-schemas.md)
 * **結構描述** — 定義資料結構
@@ -85,8 +86,8 @@ Journey Optimizer介麵包含四個主要區域：
 * **商業規則** — 控制訊息頻率和歷程專案。 [設定商業規則](../conflict-prioritization/rule-sets.md)
 * **警示** — 檢視和管理系統警示。 [監視警示](../reports/alerts.md)
 * **沙箱** — 管理環境並在沙箱之間複製物件。 [使用沙箱](../administration/sandboxes.md)
-* **頻道** — 設定頻道設定和傳遞能力
-* **標籤** — 整理內容並加以分類
+* **頻道** — 設定頻道設定和傳遞能力。 [設定頻道設定](../configuration/channel-surfaces.md) | [開始使用組態](../configuration/get-started-configuration.md)
+* **標籤** — 整理內容並將其分類。 [使用統一的標籤](search-filter-categorize.md#tags)
 
 ## 頂端列功能 {#top-bar}
 

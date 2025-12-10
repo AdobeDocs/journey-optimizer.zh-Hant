@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # AI與智慧型功能 {#ai-features}
 
-Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助您建立、最佳化和提供卓越的客戶體驗。 從產生個人化內容到預測最佳傳送時間，AI功能可簡化您的工作流程並最大化影響。
+Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助您建立、最佳化和提供卓越的客戶體驗。 從產生個人化內容到預測最佳傳送時間，AI功能可簡化您的工作流程並最大化影響。 使用案例教戰手冊提供預先建立的範本，以快速實施常見行銷情境。
 
 ## AI 助理 {#ai-assistant}
 
@@ -136,10 +136,6 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 **Agent Orchestrator** — 協調多個專業代理程式以解決複雜的多步驟行銷挑戰。 Orchestrator會自動決定要涉及的代理程式，並有效率地排序其工作。 [進一步瞭解Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-**正在取得存取權：**
-
-擁有AI助理存取權的客戶可使用AI代理。 如需特定授權和啟用詳細資訊，請聯絡您的Adobe代表。
-
 ## 由AI支援的內容產生 {#content-generation}
 
 使用創作AI建立跨多個管道的內容並加以個人化，可在維持品牌一致性的同時加速內容建立流程。 用於產生內容的AI助理可用於[電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[簡訊](../sms/get-started-sms.md)和[網頁](../web/get-started-web.md)體驗 — 協助您產生主旨列、內文、影像和完整的訊息變化。
@@ -245,7 +241,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
