@@ -5,9 +5,9 @@ title: 使用讀取客群活動
 description: 瞭解如何在協調的行銷活動中使用讀取對象活動
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '662'
 ht-degree: 11%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 11%
 
 1. 輸入活動的&#x200B;**[!UICONTROL 標籤]**。 此標籤會作為您對象的名稱。
 
-1. 按一下![資料夾搜尋圖示](../assets/do-not-localize/folder-search.svg)，選取您要針對協調行銷活動鎖定的對象。
+1. 按一下![資料夾搜尋圖示](../assets/do-not-localize/folder-search.svg)，選取您要針對協調行銷活動鎖定的對象。 [進一步瞭解如何在Journey Optimizer中產生及鎖定對象](../audience/about-audiences.md)。
 
    ![](../assets/read-audience-2.png)
 

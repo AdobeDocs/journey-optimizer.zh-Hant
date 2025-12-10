@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 本檔案提供如何在[!DNL Adobe Journey Optimizer]內使用對象的資訊。 有關對象入口網站和對象的詳細資訊，請參閱Adobe Experience Platform細分服務檔案。 如需詳細資訊，請參閱以下章節：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服務 — 常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -73,6 +73,10 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 * **對象構成**：建立構成工作流程，將現有對象結合到視覺畫布中，並套用動作，例如排名、分割、加入以建立新對象。 [瞭解如何使用對象組合](get-started-audience-orchestration.md)
 
 * **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 [瞭解如何使用同盟對象組合](federated-audience-composition.md)。
+
+## 在歷程和行銷活動中鎖定對象 {#target-audiences}
+
+一旦您的對象準備就緒後，您就可以在建立歷程或建立行銷活動時選取他們，讓您透過相關訊息在適當的時間聯絡適當的人。 [進一步瞭解Journey Optimizer中的Audience Activation](target-audiences.md)。
 
 ## 作法影片 {#video}
 
