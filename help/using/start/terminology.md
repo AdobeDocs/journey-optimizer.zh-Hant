@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer中的基本術語和概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 8%
+source-wordcount: '751'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 8%
 
 | 術語 | 定義 |
 |------|------------|
-| **Adobe Journey Optimizer (AJO)** | 跨管道（電子郵件、簡訊、推播通知、網頁）建立及傳遞個人化訊息給客戶的應用程式。 它可讓您設計回應即時客戶動作的客戶歷程。 |
-| **Adobe Experience Platform (AEP)** | Adobe Journey Optimizer的基礎，可在一個地方收集並整理所有客戶資料。 它會建立Journey Optimizer用於個人化的統一客戶設定檔。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} |
+| **Adobe Journey Optimizer** | 跨管道（電子郵件、簡訊、推播通知、網頁）建立及傳遞個人化訊息給客戶的應用程式。 它可讓您設計回應即時客戶動作的客戶歷程。 |
+| **Adobe Experience Platform** | Adobe Journey Optimizer的基礎，可在一個地方收集並整理所有客戶資料。 它會建立Journey Optimizer用於個人化的統一客戶設定檔。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} |
 | **即時客戶輪廓** | 每個客戶的統一即時檢視，結合來自多個管道的資料，包括線上、離線、CRM和第三方資料。 每個設定檔會隨著客戶與您的品牌互動而動態更新。 [了解更多](../audience/get-started-profiles.md) |
 | **沙箱** | 提供獨立的工作區以供測試和實驗，而不會影響即時客戶通訊。 Adobe Journey Optimizer為開發、測試和生產環境提供多個沙箱。 [了解更多](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如需Adobe Experience Platform術語的完整辭彙表，請參閱[Adobe Experience Platform辭彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
+>如需Adobe Experience Platform術語的完整辭彙表，請參閱[Adobe Experience Platform辭彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 相關主題 {#related-topics}
 

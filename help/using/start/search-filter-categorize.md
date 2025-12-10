@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
 # 搜尋、篩選、整理 {#search-filter-organize}
+
+隨著您的Adobe Journey Optimizer專案成長，尋找和組織內容對於提高工作效率至關重要。 此頁面說明如何使用通用搜尋快速找到歷程、行銷活動和資產；篩選清單以聚焦於特定專案；以及使用標籤和類別來組織您的工作。 這些工具可協助您導覽大量內容、維護跨團隊的一致性，並簡化您的日常工作流程。
 
 ## 搜尋 {#unified-search}
 

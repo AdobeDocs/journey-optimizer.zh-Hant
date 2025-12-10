@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: c2e19786356ecf9604dc7f661c74a72cabcee6d4
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AI Assistant是Adobe Journey Optimizer的對話指南。 使用它可立即取�
 4. 按一下&#x200B;**顯示來源**&#x200B;以存取相關檔案
 5. 使用向上/向下縮圖為回應品質評分
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="center"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
 [進一步瞭解Experience Platform中的AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home){target="_blank"}
 
@@ -253,7 +253,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 ![使用案例教戰手冊介面](assets/playbooks-filter.png)
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -312,5 +312,5 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 >* [Experimentation Agent檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [傳送時間最佳化指南](../building-journeys/send-time-optimization.md)
 >* [建立AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
->* [使用案例教戰手冊檔案](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+>* [使用案例教戰手冊檔案](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
