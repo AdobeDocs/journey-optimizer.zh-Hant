@@ -253,7 +253,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 ![使用案例教戰手冊介面](assets/playbooks-filter.png)
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -312,5 +312,5 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 >* [Experimentation Agent檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [傳送時間最佳化指南](../building-journeys/send-time-optimization.md)
 >* [建立AI排名模型](../experience-decisioning/ranking/create-ai-models.md)
->* [使用案例教戰手冊檔案](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [使用案例教戰手冊檔案](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
 
