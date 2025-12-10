@@ -5,7 +5,7 @@ title: 快速入門
 description: 開始使用Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: a83be759a20b8b1592164119762a6dbaa5ac469a
+source-git-commit: 8bedc1162edb042767b3cab68bfac25e85c7f283
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什麼是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 瞭解其運作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 重要術語
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 行銷人員適用的
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 資料工程師專用
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 適用於管理員
 
@@ -91,7 +91,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 適用於開發人員
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/search.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/search.svg)
 
 搜尋與組織
 
@@ -173,8 +173,6 @@ AI與智慧型功能
 | 建立對象 | [對象建立指南](../using/audience/creating-a-segment-definition.md) |
 | 設定頻道 | [頻道設定指南](../using/configuration/get-started-configuration.md) |
 | 建立個人化產品建議 | [決定管理指南](../using/offers/get-started/starting-offer-decisioning.md) |
-
-&#x200B;---
 
 ## 準備好開始使用了嗎？
 
