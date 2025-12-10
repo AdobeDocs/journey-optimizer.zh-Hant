@@ -42,7 +42,7 @@ ht-degree: 1%
 
    ![](assets/uc-reengagement-2.png){zoomable="yes"}
 
-1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]****&#x200B;來設定對象。
+1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]&#x200B;**&#x200B;**&#x200B;來設定對象。
 
 1. 按一下&#x200B;**[!UICONTROL 新增條件]**，建立下列條件以精簡您的對象：
 
