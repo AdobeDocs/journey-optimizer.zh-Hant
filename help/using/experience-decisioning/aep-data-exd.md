@@ -11,7 +11,7 @@ level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 25%
@@ -51,11 +51,11 @@ ht-degree: 25%
 >
 >此功能目前以有限可用性版本的形式提供給所有客戶。
 
-## 護欄和限制 {#guardrails}
+## 護欄與限制 {#guardrails}
 
 * **支援的管道** — 具有決策的資料集查詢目前適用於電子郵件和歷程自訂動作。<!--Support for code-based experience channels is coming soon.-->
 * **屬性使用方式** — 用於決策的資料集查詢功能會使用其他屬性擴充決策專案定義 — 它不會將屬性擴充到設定檔
-* 查閱限制： [!DNL Journey Optimizer]支援每個單一決定原則最多1,000個查閱。
+* **查詢限制**： [!DNL Journey Optimizer]支援每個單一決定原則最多1,000個查詢。
 
 ## 先決條件
 
