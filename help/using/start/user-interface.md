@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -46,14 +46,14 @@ Journey Optimizer介麵包含四個主要區域：
 **歷程管理** — 建立和管理客戶體驗
 * **行銷活動** — 建立對特定對象的一次性或排程訊息。 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 * **歷程** — 建置多步驟、跨管道客戶體驗。 [建立您的第一個歷程](../building-journeys/journey-gs.md)
-* **報告** — 使用整合的Customer Journey Analytics報告分析效能。 [檢視報告檔案](../reports/campaign-global-report.md)
+* **報告** — 使用整合的Customer Journey Analytics報告分析效能。 [檢視報告檔案](../reports/campaign-global-report-cja.md)
 
 **決定管理** — 管理個人化優惠。 [了解決定管理](../offers/get-started/starting-offer-decisioning.md)
 * **優惠** — 建立和管理個人化優惠
 * **元件** — 為優惠方案設定位置、規則和標籤
 
 **內容管理** — 建立並組織內容
-* **Assets** — 影像和媒體的集中式存放庫。 [管理資產](../content-management/assets.md)
+* **Assets** — 影像和媒體的集中式存放庫。 [管理資產](../integrations/assets.md)
 * **內容範本** — 行銷活動和歷程可重複使用的訊息範本。 [建立範本](../content-management/content-templates.md)
 * **片段** — 可用於多個訊息的內容區塊。 [使用片段](../content-management/fragments.md)
 * **登陸頁面** — 訂閱和偏好設定的網路表單。 [設計登陸頁面](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ Journey Optimizer介麵包含四個主要區域：
 * **正在監視** — 追蹤資料擷取
 
 **連線** — 與其他系統整合
-* **來源** — 從外部系統擷取資料。 [設定來源](../data/get-started-sources.md)
+* **來源** — 從外部系統擷取資料。 [設定來源](get-started-sources.md)
 * **目的地** — 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)
 
 **客戶** — 管理對象和設定檔
@@ -82,7 +82,7 @@ Journey Optimizer介麵包含四個主要區域：
 
 **管理** — 設定系統設定。 [存取控制總覽](../administration/permissions-overview.md)
 * **設定** — 設定事件、資料來源和動作。 [設定管道](../configuration/get-started-configuration.md)
-* **商業規則** — 控制訊息頻率和歷程專案。 [設定商業規則](../configuration/frequency-rules.md)
+* **商業規則** — 控制訊息頻率和歷程專案。 [設定商業規則](../conflict-prioritization/rule-sets.md)
 * **警示** — 檢視和管理系統警示。 [監視警示](../reports/alerts.md)
 * **沙箱** — 管理環境並在沙箱之間複製物件。 [使用沙箱](../administration/sandboxes.md)
 * **頻道** — 設定頻道設定和傳遞能力

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 3182c3abb3b5e534d5e90ff198fee1e0ac42e0d0
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '3008'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 97%
       + [行銷人員快速入門](using/start/path/marketer.md)
       + [資料工程師快速入門](using/start/path/data-engineer.md)
       + [管理員快速入門](using/start/path/administrator.md)
-      + [開發人員快速入門](using/start/path/developer.md)
    + 有效率工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選及組織](using/start/search-filter-categorize.md)
@@ -716,7 +715,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
