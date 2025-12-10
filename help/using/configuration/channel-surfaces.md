@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 13%
+source-wordcount: '1853'
+ht-degree: 12%
 
 ---
 
@@ -252,11 +252,17 @@ ht-degree: 13%
 
 ## 停用管道設定 {#deactivate-a-surface}
 
-若要使&#x200B;**[!UICONTROL 作用中]**&#x200B;頻道設定無法用來建立新訊息，您可以停用它。 但是，目前使用此設定的歷程訊息將不會受到影響，並將繼續運作。
+若要使&#x200B;**[!UICONTROL 作用中]**&#x200B;頻道設定無法用來建立新訊息，您可以停用它。<!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
->[!NOTE]
->
->處理更新時，您無法停用管道設定。 您必須等待更新成功或失敗。 深入瞭解[編輯頻道設定](#edit-channel-surface)以及[更新狀態](#update-statuses)。
+在下列情況下，您無法停用管道設定：
+
+* 如果任何即時歷程參考它。 嘗試停用即時歷程仍在使用的設定將會導致錯誤。
+
+  若要停用管道設定，請確保使用此設定的所有即時歷程都已關閉或停止。 [瞭解如何結束歷程](../building-journeys/end-journey.md)
+
+* 正在處理通道設定的更新時。 您必須等待更新成功或失敗。 深入瞭解[編輯頻道設定](#edit-channel-surface)以及[更新狀態](#update-statuses)。
+
+若要停用通道設定，請遵循下列步驟。
 
 1. 存取通道設定清單。
 
