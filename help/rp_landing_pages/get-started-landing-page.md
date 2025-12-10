@@ -24,7 +24,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 什麼是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 瞭解其運作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hant)
 
 重要術語
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hant)
 
 行銷人員適用的
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 資料工程師專用
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 適用於管理員
 
@@ -110,7 +110,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 搜尋與組織
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 AI與智慧型功能
 
