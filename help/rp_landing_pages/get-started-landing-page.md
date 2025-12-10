@@ -174,7 +174,7 @@ AI與智慧型功能
 | 設定頻道 | [頻道設定指南](../using/configuration/get-started-configuration.md) |
 | 建立個人化產品建議 | [決定管理指南](../using/offers/get-started/starting-offer-decisioning.md) |
 
----
+&#x200B;---
 
 ## 準備好開始使用了嗎？
 
