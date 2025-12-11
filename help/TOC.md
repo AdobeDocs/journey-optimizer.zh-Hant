@@ -50,7 +50,7 @@ ht-degree: 97%
 + 歷程 {#orchestrate-journeys}
    + [歷程](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [開始使用歷程](using/building-journeys/journey.md)
-   + [Journey Orchestration — 完整指南](using/building-journeys/journey-get-started.md){hide="yes"}
+   + [Journey Orchestration — 完整指南hide="yes"](using/building-journeys/journey-get-started.md)
    + [歷程常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -716,7 +716,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
