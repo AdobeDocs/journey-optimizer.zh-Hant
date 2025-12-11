@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程常見問題
-description: 關於Journey Optimizer歷程的常見問題
+title: Journey Orchestration — 常見問題
+description: 關於Adobe Journey Optimizer中Journey Orchestration的常見問題
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 歷程，問題，回答，疑難排解，說明，指南
+keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
 workflow-type: tm+mt
-source-wordcount: '5226'
-ht-degree: 0%
+source-wordcount: '5233'
+ht-degree: 1%
 
 ---
 
 
-# 常見問題 {#faq-journeys}
+# Journey Orchestration — 常見問題 {#faq-journeys}
 
-您將會找到有關Adobe Journey Optimizer歷程的常見問題集。
+在Adobe Journey Optimizer中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 ## 一般概念
 
@@ -112,7 +112,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
    * 身分名稱空間必須符合歷程名稱空間
    * 設定檔必須存在於Adobe Experience Platform中
 
-**4。 同盟對象構成(FAC)對象**
+**4.同盟對象構成(FAC)對象**
 
 * **說明**：使用同盟資料建立的對象，可讓您從外部資料倉儲查詢及撰寫對象，而不需將資料複製到Adobe Experience Platform
 * **評估**：執行同盟對象構成時已更新靜態構成
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
