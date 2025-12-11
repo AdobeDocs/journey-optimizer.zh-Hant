@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 本檔案提供如何在[!DNL Adobe Journey Optimizer]內使用對象的資訊。 有關對象入口網站和對象的詳細資訊，請參閱Adobe Experience Platform細分服務檔案。 如需詳細資訊，請參閱以下章節：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服務 — 常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -60,13 +60,13 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 您可以使用不同方法來產生對象：
 
-* **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 對象是從區段定義產生，並會根據其評估型別在不同時間重新整理。
+* **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 對象是從區段定義產生，並會根據其評估型別在不同時間重新整理：
 
    * 串流區段：隨著新資料流入，對象會即時更新，以確保根據使用者活動保持持續相關性。
    * 批次細分：對象每24小時重新整理一次，以固定間隔擷取設定檔快照。
    * Edge區段：對象會在邊緣即時評估，以便即時個人化。
 
-[瞭解如何建立區段定義](creating-a-segment-definition.md)
+  [瞭解如何建立區段定義](creating-a-segment-definition.md)
 
 * **自訂上傳**：使用CSV檔案匯入對象。 [瞭解如何建立自訂上傳對象](custom-upload.md)
 
