@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: 日期，函式，運算式，歷程，時間
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 12%
+source-wordcount: '834'
+ht-degree: 11%
 
 ---
 
 # 日期函式 {#date-functions}
 
 日期函式可讓您在歷程運算式中控制和使用日期和時間值。 這些功能對於客戶歷程中以時間為基礎的條件、排程和時間計算至關重要。
+
+>[!NOTE]
+>
+>此頁面上的函式可用於歷程運算式。 電子郵件內容的個人化編輯器中無法使用`now()`等某些函式。 [了解更多](../../personalization/functions/dates.md)
 
 有以下需求時，請使用日期函式：
 
@@ -347,6 +351,10 @@ ht-degree: 12%
 ## now {#now}
 
 以日期時間格式傳回目前日期。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
+
+>[!NOTE]
+>
+>此函式僅適用於歷程運算式。 對於電子郵件個人化與其他內容，請改用`getCurrentZonedDateTime()`。 [了解更多](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++語法
 

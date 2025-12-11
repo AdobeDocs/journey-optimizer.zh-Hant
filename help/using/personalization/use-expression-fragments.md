@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，資料庫，個人化
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,89 @@ ht-degree: 0%
 >
 >在執行階段，系統會展開片段內的內容，然後從上到下解譯個人化程式碼。 請記住，完成更複雜的使用案例。 例如，您可以有片段F1將變數傳遞至下方的另一個片段F2。 您也可以讓視覺化片段F1將變數傳遞至巢狀運算式片段F2。
 
+## 在回圈中使用運算式片段 {#fragments-in-loops}
+
+在`{{#each}}`回圈中使用運算式片段時，請務必瞭解變數範圍的運作方式。 運算式片段可以存取訊息內容中定義的全域變數，但是這些片段無法接收回圈特定的變數做為引數。
+
+### 支援的模式：使用全域變數 {#global-variables-in-loops}
+
+運算式片段可參考在片段外部定義的全域變數，即使從回圈內呼叫片段亦然。 當您需要使用反複內容中的片段時，這是建議的方法。
+
+**範例：在回圈內使用具有全域變數的片段**
+
+在您的訊息內容中，定義全域變數並使用參考它的片段：
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+在運算式片段(fragment123)中，您可以參考`globalDiscount`變數：
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+此模式之所以能運作，是因為無論回圈內容為何，整個訊息（包括片段內）皆可存取全域變數。
+
+### 不支援：傳遞回圈變數做為片段引數 {#loop-variables-limitations}
+
+您無法將目前反複專案（例如上述範例中的`product`）以引數形式傳遞至運算式片段。 片段無法從周圍的`{{#each}}`區塊直接存取回圈範圍的變數。
+
+**範例：什麼不運作**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+片段無法接收`product`做為引數，並在內部使用，因為目前的實作不支援為回圈特定變數傳遞引數。
+
+### 建議的因應措施 {#fragments-in-loops-workarounds}
+
+當您需要將運算式片段用於回圈中的資料時，請考慮以下方法：
+
+1. **直接在訊息中包含邏輯**：不要將片段用於回圈特定的邏輯，而是直接在您的`{{#each}}`區塊中新增個人化程式碼。
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **使用回圈以外的片段**：如果片段內容不是回圈相依的，請在反複專案區塊之前或之後呼叫片段。
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **設定多個全域變數**：如果您需要跨反複專案傳遞不同的值給片段，請在每個片段呼叫之前設定全域變數（不過這會限制彈性）。
+
+>[!NOTE]
+>
+>若要反複運算關聯式資料和使用回圈，請參閱[反複運算關聯式資料](iterate-contextual-data.md)的完整指南，其中包括最佳實務、疑難排解提示和進階模式。
 
 ## 自訂可編輯欄位 {#customize-fields}
 

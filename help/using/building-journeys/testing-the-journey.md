@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1904'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->在測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 在[本節](../building-journeys/troubleshooting.md)中測試之前，請先瞭解如何檢查錯誤。
+>在測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 在[本節](../building-journeys/troubleshooting.md)中測試之前，請先瞭解如何檢查錯誤。 如果測試設定檔無法在測試模式中進行，請參閱[疑難排解測試模式轉換](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## 重要備註 {#important_notes}
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 * **分割行為** — 當歷程達到分割時，一律會選取頂端分支。 如果您想要測試不同的路徑，請重新排序分支。
 * **事件計時** — 如果歷程包含*多個事件，則按順序觸發每個事件。過早傳送事件（第一個等待節點完成之前）或太晚傳送事件（在設定的逾時之後）將會捨棄該事件，並將設定檔傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效
-* **作用中的日期視窗** — 確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。
+* **作用中的日期視窗** — 確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面[上進一步了解疑難排解此問題](troubleshooting-execution.md#troubleshooting-test-transitions)。
 * **回應事件** — 對於逾時的回應事件，最小和預設等待時間為40秒。
 * **測試資料集** — 在測試模式中觸發的事件會儲存在專用的資料集中，標示如下： `JOtestmode - <schema of your event>`
 

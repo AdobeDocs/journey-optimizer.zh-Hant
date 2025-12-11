@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '3008'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -838,6 +838,44 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
+### 回圈中的運算式片段
+
+在[回圈中使用](use-expression-fragments.md)運算式片段`{{#each}}`時，請注意，您無法傳遞回圈範圍的變數做為片段引數。 不過，片段可以存取在片段以外的訊息內容中定義的全域變數。
+
++++ 檢視範常式式碼
+
+**支援的模式 — 使用全域變數：**
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+片段可以參照`globalDiscount`，因為它已在訊息中全域定義。
+
+**不支援 — 傳遞回圈變數：**
+
+```handlebars
+{{#each products as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' currentProduct=product}}
+{{/each}}
+```
+
+**因應措施**：將個人化邏輯直接包含在回圈中，而非使用片段，或呼叫回圈外的片段。
+
++++
+
+深入瞭解如何在回圈[中使用運算式片段](use-expression-fragments.md#fragments-in-loops)，包括詳細範例和其他因應措施。
+
+
+
 ### 處理空白陣列
 
 當陣列為空時，請使用`{{else}}`子句來提供遞補內容。 深入瞭解[協助程式函式](functions/helpers.md)：
@@ -951,6 +989,34 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 * 遺失結尾標籤：每個`{{#each}}`都必須有`{{/each}}`。 請檢閱[Handlebars反複專案語法](#syntax)以取得正確結構。
 * 不正確的變數名稱：請確定在整個區塊中一律使用變數名稱。 如需命名慣例，請參閱[最佳實務](#best-practices)。
 * 不正確的路徑分隔符號：使用點(`.`)而不使用斜線或其他字元
+
++++
+
+### 運算式片段無法在回圈中運作
+
+**問題**：運算式片段在`{{#each}}`回圈中使用時未顯示預期的內容，或顯示空白/未預期的輸出。
+
++++ 檢視可能的原因和解決方案
+
+**可能的原因和解決方案**：
+
+1. **嘗試傳遞回圈變數做為引數**：運算式片段無法接收回圈範圍的變數（例如目前的反複專案等）做為引數。 這是已知的限制。
+
+   **解決方案**：使用下列變通方法之一：
+
+   * 在訊息中定義片段可存取的全域變數
+   * 直接在回圈中包含個人化邏輯，而非使用片段
+   * 如果不需要回圈特定的資料，請呼叫回圈外部的片段
+
+2. **片段需要無法使用的引數**：如果您的片段設計來接收特定的輸入引數，當這些引數無法從回圈中傳遞時，將無法正常運作。
+
+   **解決方案**：重新建構您的方法，以使用片段可以存取的全域變數。 如需範例，請參閱[最佳實務 — 回圈中的運算式片段](#best-practices)。
+
+3. **不正確的變數範圍**：片段可能正在嘗試參考只存在於回圈範圍內的變數。
+
+   **解決方案**：定義片段在訊息層級（回圈外）需要的任何變數，讓這些變數可全域存取。
+
+深入瞭解如何在回圈[中使用運算式片段](use-expression-fragments.md#fragments-in-loops)，包括詳細的說明、範例和建議的模式。
 
 +++
 

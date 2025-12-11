@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 20%
+source-wordcount: '1591'
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}，以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴Adobe Experience Platform的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}，以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -57,9 +57,43 @@ ht-degree: 20%
   Content-type - application/json
   ```
 
+>>
+**針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
+
+## 測試模式轉換疑難排解 {#troubleshooting-test-transitions}
+
+如果測試設定檔在測試模式下無法通過您的歷程，或視覺流程未顯示指示步驟進度的綠色箭頭，則此問題可能與轉變驗證有關。 本節提供診斷和解決常見測試模式問題的指引。
+
+### 測試設定檔未進行中
+
+如果測試設定檔進入歷程但未前進通過初始步驟，請檢查以下內容：
+
+* **歷程開始日期** — 最常見的原因是歷程的開始日期設定在未來。 如果目前時間在歷程設定的[開始和結束日期/時間](journey-properties.md#dates)視窗之外，則會立即捨棄測試設定檔。 若要解決：
+   * 確認歷程開始日期未設定在未來
+   * 確保目前時間在歷程的有效日期範圍內
+   * 如有必要，請更新歷程屬性以調整開始日期
+
+* **測試設定檔組態** — 確認設定檔在Adobe Experience Platform中被正確標示為測試設定檔。 如需詳細資訊，請參閱[如何建立測試設定檔](../audience/creating-test-profiles.md)。
+
+* **身分名稱空間** — 確保事件設定中使用的身分名稱空間符合測試設定檔的名稱空間。
+
+### Null轉變指標
+
+在技術疑難排解期間，您可能會在歷程的技術詳細資料中遇到設定為null的`isValidTransition`屬性。 此僅限UI的屬性不會影響後端處理或歷程效能。 但是，null值可以表示：
+
+* **歷程設定錯誤** — 歷程開始日期設定在未來，導致測試事件被無訊息捨棄
+* **已損毀的轉換** — 在極少數情況下，可能需要重新連線歷程節點
+
+如果您遇到持續的轉換問題：
+
+1. 確認歷程開始日期為目前日期
+1. 停用及重新啟用測試模式
+1. 如果問題仍然存在，請考慮複製受影響的歷程節點並重新連線它們
+1. 對於未解決的情況，請聯絡支援人員並提供歷程記錄、受影響的設定檔ID以及空轉變的詳細資訊
+
 >[!NOTE]
 >
->**針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
+>請記住，在歷程的有效日期視窗之外傳送的事件會在無訊息的情況下捨棄，不會出現錯誤訊息。 疑難排解測試設定檔進度時，務必先驗證您的歷程計時設定。
 
 ## 檢查人們如何導覽歷程 {#checking-how-people-navigate-through-the-journey}
 
