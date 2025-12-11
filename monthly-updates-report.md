@@ -5,7 +5,7 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 - [開始使用程式碼型體驗](help/using/code-based/get-started-code-based.md) - 11月22日
 - [預覽和測試您的內容](help/using/content-management/preview.md) - 11月22日
 - [Web Channel設定](help/using/web/web-configuration.md) - 11月22日
-- [建立測試設定檔](help/using/building-journeys/creating-test-profiles.md) - Nov 22
+- [建立測試設定檔](help/using/audience/creating-test-profiles.md) - Nov 22
 - [傳送校樣](help/using/content-management/proofs.md) - 11月22日
 - [測試內容範本](help/using/content-management/test-content-templates.md) - Nov 22
 - [使用測試設定檔](help/using/content-management/test-profiles.md) - Nov 22
@@ -67,7 +67,7 @@ ht-degree: 0%
 - [決策CJA報告](help/using/experience-decisioning/cja-reporting.md) - 11月15日
 - [片段](help/using/content-management/fragments.md) - 11月15日
 - [開始使用Adobe Experience Platform對象](help/using/audience/about-audiences.md) - 11月14日
-- [使用自訂上傳對象進行決策（同盟構成）](help/using/audience/custom-upload-fac.md) - 11月14日
+- [使用自訂上傳對象進行決策（同盟構成）](help/using/audience/custom-upload.md) - 11月14日
 - [設定Sinch提供者](help/using/sms/sms-configuration-sinch.md) - 11月12日
 - [Customer Journey Analytics中的行銷活動報告](help/using/reports/channel-report-cja.md) - 11月12日
 - [Customer Journey Analytics中的歷程報告](help/using/reports/journey-global-report-cja.md) - 11月12日
@@ -78,10 +78,10 @@ ht-degree: 0%
 - [開始使用決定原則](help/using/experience-decisioning/create-decision.md) - 11月7日
 - [開始使用體驗決策](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
 - [決定專案](help/using/experience-decisioning/items.md) - 11月7日
-- [決策排名方法](help/using/experience-decisioning/ranking.md) - 11月7日
+- [決策排名方法](help/using/experience-decisioning/ranking/ranking.md) - 11月7日
 - [建置規則](help/using/experience-decisioning/rules.md) - 11月7日
 - [建立選擇策略](help/using/experience-decisioning/selection-strategies.md) - 11月7日
-- [使用規則集](help/using/configuration/rule-sets.md) - 11月6日
+- [使用規則集](help/using/conflict-prioritization/rule-sets.md) - 11月6日
 - [建立決定](help/using/offers/offer-activities/create-offer-activities.md) - 11月5日
 - [建立集合](help/using/offers/offer-library/creating-collections.md) - 11月5日
 - [建立個人化優惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
