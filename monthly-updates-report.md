@@ -5,9 +5,9 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,91 @@ ht-degree: 0%
 
 # 每月檔案更新報告
 
-*報告產生於2025年10月1日至11月3日*
+*報告產生於2024年11月3日至12月11日*
 
 ## 新頁面
+
+- [歷程登入與退出條件指南](help/using/building-journeys/entry-exit-criteria-guide.md) - 12月11日
+- [歷程使用案例](help/using/building-journeys/jo-use-cases.md) - 12月11日
+- [僅在工作日傳送電子郵件](help/using/building-journeys/weekday-email-uc.md) - 12月11日
+- [反複處理內容資料](help/using/personalization/iterate-contextual-data.md) - 12月11日
+- [開始使用Journey Optimizer中的決定功能](help/using/experience-decisioning/gs-decision.md) - 11月18日
+- [定義程式碼型體驗的介面](help/using/code-based/code-based-surface.md) - 11月22日
+- [發佈及管理程式碼型體驗](help/using/code-based/publish-code-based.md) - 11月22日
+- [測試程式碼型體驗](help/using/code-based/test-code-based.md) - 11月22日
+
+## 已更新頁面
+
+- [查詢個人化的Adobe Experience Platform資料](help/using/personalization/lookup-aep-data.md) - 12月10日
+- [行動應用程式組態](help/using/configuration/set-mobile-config.md) - 12月6日
+- [具有手動翻譯的多語言內容](help/using/content-management/multilingual-provider.md) - 12月5日
+- [在您的程式碼型體驗中使用決策](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
+- [內容卡報告](help/using/content-card/content-card-report.md) - 12月2日
+- [建立內容卡](help/using/content-card/create-content-card.md) - 12月2日
+- [開始使用內容卡](help/using/content-card/get-started-content-card.md) - 12月2日
+- [設計內容卡](help/using/content-card/design-content-card.md) - 12月2日
+- [內容卡組態先決條件](help/using/content-card/content-card-configuration-prereq.md) - 12月2日
+- [內容卡SDK設定](help/using/content-card/content-card-configuration-sdk.md) - 12月2日
+- [內容卡組態](help/using/content-card/content-card-configuration.md) - 12月2日
+- [建立動作行銷活動](help/using/campaigns/create-campaign.md) - 12月2日
+- [IP熱身執行](help/using/configuration/ip-warmup-execution.md) - 11月26日
+- [建立登入頁面](help/using/landing-pages/create-lp.md) - 11月25日
+- [登陸頁面即時報告](help/using/reports/lp-report-live.md) - 11月25日
+- [以程式碼為基礎的組態](help/using/code-based/code-based-configuration.md) - 11月22日
+- [程式碼型實作方法範例](help/using/code-based/code-based-implementation-samples.md) - 11月22日
+- [以程式碼為基礎的先決條件和護欄](help/using/code-based/code-based-prerequisites.md) - 11月22日
+- [建立程式碼型體驗](help/using/code-based/create-code-based.md) - 11月22日
+- [開始使用程式碼型體驗](help/using/code-based/get-started-code-based.md) - 11月22日
+- [預覽和測試您的內容](help/using/content-management/preview.md) - 11月22日
+- [Web Channel設定](help/using/web/web-configuration.md) - 11月22日
+- [建立測試設定檔](help/using/building-journeys/creating-test-profiles.md) - Nov 22
+- [傳送校樣](help/using/content-management/proofs.md) - 11月22日
+- [測試內容範本](help/using/content-management/test-content-templates.md) - Nov 22
+- [使用測試設定檔](help/using/content-management/test-profiles.md) - Nov 22
+- [建立電子郵件](help/using/email/create-email.md) - Nov 22
+- [表面個人化](help/using/email/surface-personalization.md) - 11月22日
+- [建立推播通知](help/using/push/create-push.md) - Nov22
+- [傳送推播通知](help/using/push/send-push.md) - 11月22日
+- [傳送簡訊(SMS/MMS)](help/using/sms/send-sms.md) - 11月22日
+- [行銷人員的使用者路徑](help/using/start/path/marketer.md) - 11月22日
+- [管理員的使用者路徑](help/using/start/path/administrator.md) - 11月22日
+- [預覽並測試您的訊息](help/using/content-management/preview-test.md) - 11月22日
+- [以屬性為基礎的存取控制](help/using/administration/attribute-based-access.md) - 11月21日
+- [物件層級存取控制](help/using/administration/object-based-access.md) - 11月21日
+- [使用API觸發的行銷活動](help/using/campaigns/api-triggered-campaigns.md) - 11月21日
+- [開始使用決定管理](help/using/offers/get-started/starting-offer-decisioning.md) - 11月21日
+- [IP熱身活動](help/using/configuration/ip-warmup-campaign.md) - 11月20日
+- [IP熱身計畫](help/using/configuration/ip-warmup-plan.md) - 11月20日
+- [許可權總覽](help/using/administration/permissions-overview.md) - 11月15日
+- [決策CJA報告](help/using/experience-decisioning/cja-reporting.md) - 11月15日
+- [片段](help/using/content-management/fragments.md) - 11月15日
+- [開始使用Adobe Experience Platform對象](help/using/audience/about-audiences.md) - 11月14日
+- [使用自訂上傳對象進行決策（同盟構成）](help/using/audience/custom-upload-fac.md) - 11月14日
+- [設定Sinch提供者](help/using/sms/sms-configuration-sinch.md) - 11月12日
+- [Customer Journey Analytics中的行銷活動報告](help/using/reports/channel-report-cja.md) - 11月12日
+- [Customer Journey Analytics中的歷程報告](help/using/reports/journey-global-report-cja.md) - 11月12日
+- [具有自動化翻譯的多語言內容](help/using/content-management/multilingual-automated.md) - 11月12日
+- [決策目錄](help/using/experience-decisioning/catalogs.md) - 11月7日
+- [建立和管理決定專案集合](help/using/experience-decisioning/collections.md) - 11月7日
+- [內容資料](help/using/experience-decisioning/context-data.md) - 11月7日
+- [開始使用決定原則](help/using/experience-decisioning/create-decision.md) - 11月7日
+- [開始使用體驗決策](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
+- [決定專案](help/using/experience-decisioning/items.md) - 11月7日
+- [決策排名方法](help/using/experience-decisioning/ranking.md) - 11月7日
+- [建置規則](help/using/experience-decisioning/rules.md) - 11月7日
+- [建立選擇策略](help/using/experience-decisioning/selection-strategies.md) - 11月7日
+- [使用規則集](help/using/configuration/rule-sets.md) - 11月6日
+- [建立決定](help/using/offers/offer-activities/create-offer-activities.md) - 11月5日
+- [建立集合](help/using/offers/offer-library/creating-collections.md) - 11月5日
+- [建立個人化優惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
+- [建立版位](help/using/offers/offer-library/creating-placements.md) - 11月5日
+- [建立排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
+
+---
+
+## 上次報告： 2025年10月1日至11月3日
+
+### 新頁面
 
 - [Adobe Journey Optimizer中的AI與智慧型功能](help/using/start/ai-features.md) - 10月31日
 - [管理客戶的喜好設定](help/using/action/preference-center.md) - 10月24日
@@ -37,7 +119,7 @@ ht-degree: 0%
 - [Adobe Journey Optimizer發行週期](help/using/rn/releases.md) - 10月28日
 - [設計訊息內容](help/using/start/message-content-design.md) - 10月18日
 
-## 已更新頁面
+### 已更新頁面
 
 - [Adobe Journey Optimizer檔案](help/ajo-home.md) - 10月22日
 - [內容管理](help/rp_landing_pages/content-management-landing-page.md) - 10月27日
