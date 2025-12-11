@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 2%
@@ -23,10 +23,6 @@ ht-degree: 2%
 
 ![](../assets/access-helper-functions.png)
 
->[!NOTE]
->
->個人化編輯器中可用的功能和功能，與[歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md)中可用的功能和功能不同。 例如，`now()`函式僅可用於歷程運算式。 [了解更多](../../email/code-content.md#date-time-limitations)
-
 在[!DNL Journey Optimizer]個人化編輯器中，協助程式功能分為三個類別： [功能](#functions-helper)、[協助程式](#helper-helper)和[運運算元](#operators-helper)。
 
 選取類別，以存取子類別和函式。
@@ -34,6 +30,10 @@ ht-degree: 2%
 按一下`>`圖示即可存取子類別。 按一下`+`圖示來選取函式：函式會自動新增至個人化畫面。
 
 按一下`...`圖示可檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
+
+>[!NOTE]
+>
+>個人化編輯器中可用的功能和功能，與[歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md)中可用的功能和功能不同。 例如，`now()`函式僅可用於歷程運算式。 [了解更多](../../email/code-content.md#date-time-limitations)
 
 ## 函式{#functions-helper}
 
