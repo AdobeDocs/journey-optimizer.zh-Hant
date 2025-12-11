@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 3%
 
 ## Handlebars反複專案語法 {#syntax}
 
-Handlebars提供`{{#each}}` [協助程式](functions/helpers.md)來反複處理陣列。 基本語法為：
+Handlebars提供`{{#each}}` [協助程式](functions/helpers.md)來反複處理陣列。
+
++++ 基本語法
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -52,6 +54,8 @@ Handlebars提供`{{#each}}` [協助程式](functions/helpers.md)來反複處理�
 * 將`item`取代為您偏好的任何變數名稱（例如，`product`、`response`、`element`）
 * 使用`{{item.propertyName}}`存取每個專案的屬性
 * 您可以巢狀內嵌多重層級陣列的多個`{{#each}}`區塊
+
++++
 
 ## 反複處理事件資料 {#event-data}
 
@@ -72,7 +76,9 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下所示：
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下所示：
+
++++ 檢視範常式式碼
 
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
@@ -84,9 +90,13 @@ context.journey.events.<event_ID>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 範例：事件中的巢狀陣列
 
 對於巢狀結構，請使用巢狀`{{#each}}`區塊。 深入瞭解[最佳實務](#best-practices)中的巢狀結構。
+
++++ 檢視範常式式碼
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -98,6 +108,8 @@ context.journey.events.<event_ID>.<fieldPath>
   </ul>
 {{/each}}
 ```
+
++++
 
 ## 反複處理自訂動作回應 {#custom-action-responses}
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### 範例：來自API的產品建議
 
 如果您的自訂動作傳回產品建議：
+
++++ 檢視範常式式碼
 
 **API回應：**
 
@@ -156,9 +170,13 @@ context.journey.actions.<actionName>.<fieldPath>
 </div>
 ```
 
++++
+
 ### 範例：自訂動作的巢狀陣列
 
 如果您的自訂動作傳回巢狀陣列（例如具有產品的類別）。 如需更複雜的巢狀模式，請參閱[最佳實務](#best-practices)。
+
++++ 檢視範常式式碼
 
 **API回應：**
 
@@ -188,9 +206,13 @@ context.journey.actions.<actionName>.<fieldPath>
 {{/each}}
 ```
 
++++
+
 ### 範例：忠誠度層級優點
 
 根據忠誠度狀態顯示動態福利：
+
++++ 檢視範常式式碼
 
 **API回應：**
 
@@ -219,6 +241,8 @@ context.journey.actions.<actionName>.<fieldPath>
 </ul>
 ```
 
++++
+
 ## 反複處理資料集查詢結果 {#dataset-lookup}
 
 [資料集查詢活動](../building-journeys/dataset-lookup.md)可讓您在歷程執行階段期間，從[Adobe Experience Platform資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}擷取資料。 擴充的資料會以陣列形式儲存，並可在訊息中反複顯示。
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### 範例：資料集中的產品詳細資料
 
 如果您使用資料集查詢活動，以根據SKU擷取產品資訊：
+
++++ 檢視範常式式碼
 
 **資料集查詢組態：**
 
@@ -271,9 +297,13 @@ context.journey.datasetLookup.<activityID>.entities
 </table>
 ```
 
++++
+
 ### 範例：使用資料集資料篩選反複專案
 
 僅顯示特定類別的產品。 進一步瞭解[最佳實務](#best-practices)中的條件式篩選。
+
++++ 檢視範常式式碼
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ context.journey.datasetLookup.<activityID>.entities
 {{/each}}
 ```
 
++++
+
 ### 範例：從資料集查詢計算總計
+
++++ 檢視範常式式碼
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ context.journey.datasetLookup.<activityID>.entities
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## 使用歷程技術屬性 {#technical-properties}
 
@@ -317,6 +353,8 @@ context.journey.technicalProperties.supplementalId
 
 **案例**：歷程是由多個預訂所觸發，但您只想要顯示觸發此歷程執行個體之特定預訂（以補充ID識別）的資訊。
 
++++ 檢視範常式式碼
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 範例：包含用於追蹤的歷程ID
+
++++ 檢視範常式式碼
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## 合併多個內容來源 {#combine-sources}
 
@@ -350,6 +394,8 @@ context.journey.technicalProperties.supplementalId
 ### 範例：具有即時詳細目錄的購物車專案
 
 結合事件資料（購物車內容）與自訂動作資料（詳細目錄狀態）：
+
++++ 檢視範常式式碼
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 範例：使用資料集查詢擴充了事件資料
 
 結合[事件SKU](#event-data)與[資料集查詢](#dataset-lookup)的詳細產品資訊：
+
++++ 檢視範常式式碼
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ context.journey.technicalProperties.supplementalId
 {{/each}}
 ```
 
++++
+
 ### 範例：將多個來源與技術屬性結合
+
++++ 檢視範常式式碼
 
 ```handlebars
 <div class="personalized-content">
@@ -428,6 +482,8 @@ context.journey.technicalProperties.supplementalId
   </footer>
 </div>
 ```
+
++++
 
 ## 其他內容型別 {#other-contexts}
 
@@ -464,6 +520,8 @@ context.journey.technicalProperties.supplementalId
 
 **範例案例**：從產品清單中擷取價格大於0的第一個SKU。
 
++++ 檢視範常式式碼
+
 **事件結構描述範例**：
 
 ```json
@@ -499,9 +557,13 @@ context.journey.technicalProperties.supplementalId
 
 深入瞭解`first`集合管理函式[中的](../building-journeys/expression/collection-management-functions.md)函式。
 
++++
+
 #### 從陣列建立值清單
 
 **使用案例**：建立以逗號分隔的ID清單，以作為查詢引數傳遞（例如，`/products?ids=sku1,sku2,sku3`）。
+
++++ 檢視範常式式碼
 
 **自訂動作組態**：
 
@@ -535,9 +597,13 @@ serializeList(
 
 自訂動作的集合處理包含在[將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection)中。
 
++++
+
 #### 傳遞物件陣列至自訂動作
 
 **使用案例**：傳送要求內文中的完整物件陣列(針對POST或具有內文的GET)。
+
++++ 檢視範常式式碼
 
 **要求內文範例**：
 
@@ -584,11 +650,15 @@ Journey Optimizer會建構符合動作裝載結構的物件陣列。
 
 深入瞭解[將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection)。
 
++++
+
 ### 使用陣列進行資料集查詢 {#arrays-with-dataset-lookup}
 
 使用[資料集查詢活動](../building-journeys/dataset-lookup.md)時，您可以傳遞一組值作為查詢索引鍵，以擷取擴充的資料。
 
 **範例**：查詢事件陣列中所有SKU的產品詳細資料。
+
++++ 檢視範常式式碼
 
 **資料集查詢組態**：
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 這會建立要在資料集中查詢的所有SKU值清單。 結果可在`context.journey.datasetLookup.<activityID>.entities`以陣列形式提供，您可以在訊息中反複查詢（請參閱[反複查詢資料集查詢結果](#dataset-lookup)）。
+
++++
 
 ### 限制和模式 {#array-limitations}
 
@@ -638,6 +710,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 以下是完整的工作流程，說明如何將事件陣列與自訂動作搭配使用。
 
 **案例**：當使用者放棄購物車時，請將購物車資料傳送至外部建議API以取得個人化建議，然後在電子郵件中顯示這些建議。
+
++++ 檢視完整範例
 
 **步驟1：設定自訂動作**
 
@@ -731,6 +805,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 深入瞭解[疑難排解您的自訂動作](../action/troubleshoot-custom-action.md)。
 
++++
+
 ## 最佳做法 {#best-practices}
 
 重複上下文資料時，請遵循這些最佳實務，以建立可維護、高效能的個人化。
@@ -738,6 +814,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ### 使用描述性變數名稱
 
 選擇可清楚指出您正在反複處理的專案的變數名稱。 這可讓您的程式碼更容易閱讀及維護。 深入瞭解[個人化語法](personalization-syntax.md)：
+
++++ 檢視範例
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{#each array as |element|}}
 ```
 
++++
+
 ### 處理空白陣列
 
 當陣列為空時，請使用`{{else}}`子句來提供遞補內容。 深入瞭解[協助程式函式](functions/helpers.md)：
+
++++ 檢視範例
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 與條件式協助程式結合
 
 在條件式內容的回圈中使用`{{#if}}`。 深入瞭解[條件式規則](create-conditions.md)，並檢視[自訂動作回應](#custom-action-responses)與[資料集查詢](#dataset-lookup)區段中的範例。
+
++++ 檢視範例
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 限制效能的反複專案
 
 對於大型陣列，請考慮限制迭代次數：
+
++++ 檢視範例
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 {{/each}}
 ```
 
++++
+
 ### 存取陣列中繼資料
 
 Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
@@ -801,6 +893,8 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 * `@first`：第一個反複專案為True
 * `@last`：最後一個反複專案為True
 
++++ 檢視範例
+
 ```handlebars
 {{#each products as |product|}}
   <div class="product {{#if @first}}featured{{/if}}">
@@ -808,6 +902,8 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
   </div>
 {{/each}}
 ```
+
++++
 
 >[!NOTE]
 >
@@ -821,6 +917,8 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 **問題**：您的陣列反複專案未顯示任何內容。
 
++++ 檢視可能的原因和解決方案
+
 **可能的原因和解決方案**：
 
 1. **不正確的路徑**：根據內容來源驗證您陣列的正確路徑：
@@ -832,9 +930,13 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 3. **資料尚不可用**：請確保已在歷程流程中的訊息活動之前執行自訂動作、事件或資料集查詢活動。
 
++++
+
 ### 語法錯誤
 
 **問題**：運算式驗證失敗或未轉譯訊息。
+
++++ 檢視常見錯誤
 
 **常見錯誤**：
 
@@ -842,53 +944,30 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 * 不正確的變數名稱：請確定在整個區塊中一律使用變數名稱。 如需命名慣例，請參閱[最佳實務](#best-practices)。
 * 不正確的路徑分隔符號：使用點(`.`)而不使用斜線或其他字元
 
++++
+
 ### 測試您的反複專案
 
 使用[歷程測試模式](../building-journeys/testing-the-journey.md)驗證您的反複專案。 使用[自訂動作](#custom-action-responses)或[資料集查詢](#dataset-lookup)時，這一點尤其重要：
+
++++ 檢視測試步驟
 
 1. 以[測試模式](../building-journeys/testing-the-journey.md)開始您的歷程
 2. 使用範例資料觸發事件或自訂動作
 3. 檢查[訊息預覽](../content-management/preview.md)以驗證反複專案是否正確顯示
 4. 檢閱測試模式記錄檔是否有任何錯誤（請參閱[自訂動作測試模式記錄檔](../action/action-response.md#test-mode-logs)）
 
++++
+
 ## 相關主題 {#related-topics}
 
-**Personalization基本面：**
+**Personalization基本知識：** [開始使用個人化](personalize.md) | [新增個人化](personalization-build-expressions.md) | [Personalization語法](personalization-syntax.md) | [輔助函式](functions/helpers.md) | [建立條件式規則](create-conditions.md)
 
-* [開始使用個人化](personalize.md)
-* [新增個人化](personalization-build-expressions.md)
-* [個人化語法](personalization-syntax.md)
-* [協助程式功能](functions/helpers.md)
-* [建立條件式規則](create-conditions.md)
+**歷程組態：** [關於事件](../event/about-events.md) | [設定自訂動作](../action/about-custom-action-configuration.md) | [將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection) | [在自訂動作中使用API呼叫回應](../action/action-response.md) | [疑難排解您的自訂動作](../action/troubleshoot-custom-action.md) | [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md) | [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md) | [護欄和限制](../start/guardrails.md) | [測試您的歷程](../building-journeys/testing-the-journey.md)
 
-**歷程設定：**
+**歷程運算式函式：** [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md) | [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個） | [列出函式](../building-journeys/functions/list-functions.md) （serializeList、篩選、排序） | [陣列函式](../personalization/functions/arrays-list.md) （頭、尾）
 
-* [關於事件](../event/about-events.md)
-* [設定自訂動作](../action/about-custom-action-configuration.md)
-* [將集合傳遞至自訂動作參數](../building-journeys/collections.md#passing-collection)
-* [在自訂動作中使用 API 呼叫回應](../action/action-response.md)
-* [疑難排解自訂動作](../action/troubleshoot-custom-action.md)
-* [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md)
-* [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md)
-* [護欄與限制](../start/guardrails.md)
-* [測試您的歷程](../building-journeys/testing-the-journey.md)
+**Personalization使用案例：** [購物車放棄電子郵件](personalization-use-case-helper-functions.md) | [訂單狀態通知](personalization-use-case.md)
 
-**歷程運算式函式：**
-
-* [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md)
-* [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個）
-* [列出函式](../building-journeys/functions/list-functions.md) （serializeList、篩選、排序）
-* [陣列函式](../personalization/functions/arrays-list.md) （頭、尾）
-
-**Personalization使用案例：**
-
-* [放棄購物車電子郵件](personalization-use-case-helper-functions.md)
-* [訂單狀態通知](personalization-use-case.md)
-
-**訊息設計：**
-
-* [開始使用電子郵件設計](../email/get-started-email-design.md)
-* [建立推播通知](../push/create-push.md)
-* [建立簡訊訊息](../sms/create-sms.md)
-* [預覽並測試您的內容](../content-management/preview-test.md)
+**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽和測試您的內容](../content-management/preview-test.md)
 
