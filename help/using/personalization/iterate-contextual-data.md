@@ -7,10 +7,8 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 0%
@@ -72,7 +70,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
