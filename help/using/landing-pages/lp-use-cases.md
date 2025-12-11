@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 11%
+source-wordcount: '1184'
+ht-degree: 10%
 
 ---
 
@@ -149,6 +149,10 @@ ht-degree: 11%
 
    ![](assets/lp_opt-out-submit-form.png)
 
+   >[!WARNING]
+   >
+   >按一下電子郵件中的取消訂閱連結只會開啟登入頁面。 收件者必須&#x200B;**按一下登陸頁面**&#x200B;中的選擇退出按鈕來提交表單，以完成取消訂閱並更新其設定檔同意。
+
    如果收件者勾選方塊並提交表單：
 
    * 系統會將選擇退出的收件者重新導向至確認訊息畫面。
@@ -165,7 +169,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 
