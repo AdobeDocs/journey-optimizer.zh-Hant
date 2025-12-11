@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 14%
+source-wordcount: '764'
+ht-degree: 13%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 14%
 
 ## 啟用[!DNL Journey Optimizer]中不支援的對象型別
 
-只有在Audience Portal中建立的對象，才能在[!DNL Journey Optimizer]歷程與行銷活動中直接鎖定目標。 [進一步瞭解可用的對象型別](../audience/about-audiences.md#types)。
+只有使用&#x200B;**區段定義**、**對象組合**、**自訂上傳（CSV檔案）**&#x200B;和&#x200B;**同盟對象組合**&#x200B;產生的對象，才能在Journey Optimizer歷程和行銷活動中直接定位。 [進一步瞭解可用的對象型別](../audience/about-audiences.md#types)
 
-如果您需要定位非支援對象(例如Customer Journey Analytics對象)的設定檔，則需要將其包裝在對象入口網站的新區段定義中。 [區段產生器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}提供了如何在區段定義中新增對象的詳細資訊
+如果您需要定位非支援對象(例如Customer Journey Analytics對象)的設定檔，則需要將其包裝在對象入口網站的新區段定義中。 [區段產生器檔案](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}提供了如何在區段定義中新增對象的詳細資訊
 
 完成後，請等待區段評估完成，以便用於您的歷程和行銷活動。
