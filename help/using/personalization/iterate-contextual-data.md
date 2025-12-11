@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: f51334a0d1fd5669a057c17a6991d556b08db94a
+source-git-commit: d3a06e15440dc58267528444f90431c3b32b49f2
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -128,7 +128,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### 範例：來自API的產品建議
 
-若要顯示自訂動作API呼叫傳回的產品建議，請參閱下列範例。
+若要反複運算自訂動作傳回的一系列產品建議，並將它們顯示為訊息中的個別卡片，請參閱下列範例。
 
 +++ 檢視範常式式碼
 
@@ -172,7 +172,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### 範例：自訂動作的巢狀陣列
 
-若要反複執行自訂動作傳回的巢狀陣列（例如具有產品的類別），請參閱下列範例。
+若要反複處理包含巢狀陣列（一個物件陣列，其中每個物件都包含另一個陣列）的自訂動作回應，請參閱以下範例。 此示範使用巢狀`{{#each}}`回圈來存取多個層級的資料。
 
 +++ 檢視範常式式碼
 
@@ -301,7 +301,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### 範例：使用資料集資料篩選反複專案
 
-若要在疊代資料集查詢結果時僅篩選並顯示特定類別的產品，請參閱以下範例。
+若要在反複專案期間篩選資料集查詢結果，並僅顯示符合特定條件的專案（例如，來自特定類別的產品），請在`{{#if}}`回圈中使用條件`{{#each}}`陳述式。 請參閱下列範例。
 
 +++ 檢視範常式式碼
 
