@@ -5,7 +5,7 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
+source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 已更新頁面
 
-- [查詢個人化的Adobe Experience Platform資料](help/using/personalization/lookup-aep-data.md) - 12月10日
+- [查詢個人化的Adobe Experience Platform資料](help/using/data/lookup-aep-data.md) - 12月10日
 - [行動應用程式組態](help/using/configuration/set-mobile-config.md) - 12月6日
 - [具有手動翻譯的多語言內容](help/using/content-management/multilingual-provider.md) - 12月5日
 - [在您的程式碼型體驗中使用決策](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
