@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 2%
 
 ---
 
 # 開始使用協助程式函式{#functions}
 
-使用[!DNL Journey Optimizer]範本化語言對資料執行作業，例如計算、資料格式設定或轉換、條件，並在個人化的內容中加以處理。 在[此頁面](../personalization-syntax.md)上瞭解個人化語法准則。
+協助程式函式可讓您轉換和操控個人化內容中的資料。 使用它們來執行計算、格式化資料、套用條件並執行各種作業，為您的客戶建立動態的量身打造體驗。
+
+這些函式利用[!DNL Journey Optimizer]範本化語言。 在[此頁面](../personalization-syntax.md)中瞭解個人化語法准則。
 
 ➡️ [在此影片中瞭解如何使用協助程式函式](#video)
 
-在個人化編輯器的個人化下拉式清單提供的協助程式功能中，會運用範本語言，如下所示：
+## 存取輔助函式
+
+協助程式功能可從個人化編輯器的功能表取得：
 
 ![](../assets/access-helper-functions.png)
 
-在[!DNL Journey Optimizer]個人化編輯器中，協助程式功能分為三個類別： [功能](#functions-helper)、[協助程式](#helper-helper)和[運運算元](#operators-helper)。
+函式分為三個類別，方便瀏覽：
 
-選取類別，以存取子類別和函式。
+* **[函式](#functions-helper)** — 資料操控和轉換作業
+* **[協助程式](#helper-helper)** — 條件式邏輯和公用程式函式
+* **[運運算元](#operators-helper)** — 比較和邏輯運運算元
 
-按一下`>`圖示即可存取子類別。 按一下`+`圖示來選取函式：函式會自動新增至個人化畫面。
+**使用協助程式函式：**
 
-按一下`...`圖示可檢視函式的說明，並將其新增至您的最愛。 [了解更多](../personalize.md#fav)
+1. 選取類別以檢視其子類別和可用函式
+1. 按一下`>`圖示以展開子類別
+1. 按一下函式旁的`+`圖示，將其新增至您的個人化程式碼
+1. 按一下`...`圖示以檢視函式說明，或將其新增至您的最愛。 [了解更多](../personalize.md#fav)
 
 >[!NOTE]
 >
