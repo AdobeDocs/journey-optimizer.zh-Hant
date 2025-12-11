@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 12%
+source-wordcount: '1148'
+ht-degree: 11%
 
 ---
 
@@ -165,11 +165,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
-
-
 
 **另請參閱：**
 
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## 善用登陸頁面提交事件 {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+您可以使用在登入頁面上提交的資訊來執行進一步的動作。 例如，如果使用者訂閱指定的訂閱清單，您可以利用該資訊傳送電子郵件來建議該使用者的其他訂閱清單。
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+若要這麼做，您必須根據包含提交資訊的[AJO電子郵件追蹤體驗事件結構描述](../event/about-creating.md)，建立&#x200B;**[!UICONTROL 規則型單一事件]**，並[在歷程中使用此事件](../building-journeys/general-events.md)。
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>使用登入頁面提交事件時，請注意，事件`interactionType`欄位可能不會一律準確地反映特定使用者動作。 若要準確判斷使用者是否已選擇退出、訂閱或執行其他動作，請一律驗證實際的設定檔屬性（例如同意偏好設定）或表單欄位值，而非僅依賴事件`interactionType`。
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
