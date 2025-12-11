@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2749'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++檢視已捨棄設定檔的步驟事件
+
+此查詢會傳回歷程中捨棄之設定檔的步驟事件詳細資訊。 它有助於識別捨棄設定檔的原因，例如由於商業規則或無訊息時間限制。 特定捨棄事件型別的查詢篩選器，會顯示關鍵資訊，包括設定檔ID、執行個體ID、歷程詳細資訊以及導致捨棄的錯誤。
+
+_資料湖查詢_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_範例_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![顯示已捨棄設定檔詳細資料的查詢結果範例](assets/query-discarded-profiles.png)
+
+查詢結果會顯示索引鍵欄位，協助識別個人資料捨棄的原因：
+
+* **actionExecutionError** — 設為`businessRuleProfileDiscarded`時，表示設定檔已因商業規則而捨棄。 `eventType`欄位提供特定商業規則造成捨棄的其他詳細資料。
+
+* **eventType** — 指定造成捨棄的商業規則型別：
+   * `quietHours`：由於設定無訊息時數，已捨棄設定檔
+   * `forcedDiscardDueToQuietHours`：已強制捨棄設定檔，因為在無訊息小時內保留的設定檔已達到護欄限制
 
 +++
 
