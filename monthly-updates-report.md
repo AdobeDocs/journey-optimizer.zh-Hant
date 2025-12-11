@@ -5,9 +5,9 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
+source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,6 @@ ht-degree: 0%
 - [行動應用程式組態](help/using/configuration/set-mobile-config.md) - 12月6日
 - [具有手動翻譯的多語言內容](help/using/content-management/multilingual-provider.md) - 12月5日
 - [在您的程式碼型體驗中使用決策](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
-- [內容卡報告](help/using/content-card/content-card-report.md) - 12月2日
-- [建立內容卡](help/using/content-card/create-content-card.md) - 12月2日
-- [開始使用內容卡](help/using/content-card/get-started-content-card.md) - 12月2日
-- [設計內容卡](help/using/content-card/design-content-card.md) - 12月2日
-- [內容卡組態先決條件](help/using/content-card/content-card-configuration-prereq.md) - 12月2日
-- [內容卡SDK設定](help/using/content-card/content-card-configuration-sdk.md) - 12月2日
-- [內容卡組態](help/using/content-card/content-card-configuration.md) - 12月2日
 - [建立動作行銷活動](help/using/campaigns/create-campaign.md) - 12月2日
 - [IP熱身執行](help/using/configuration/ip-warmup-execution.md) - 11月26日
 - [建立登入頁面](help/using/landing-pages/create-lp.md) - 11月25日
