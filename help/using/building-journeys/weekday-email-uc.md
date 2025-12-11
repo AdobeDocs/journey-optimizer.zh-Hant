@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -55,7 +53,7 @@ ht-degree: 0%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將[**[!UICONTROL 條件&#x200B;]**&#x200B;活動](condition-activity.md)拖放到進入點之後的畫布上。
+1. 將[**[!UICONTROL 條件&#x200B;]**活動](condition-activity.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 

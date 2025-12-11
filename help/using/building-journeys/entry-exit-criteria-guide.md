@@ -6,11 +6,9 @@ description: 透過真實世界的範例和最佳實務，瞭解如何有效管�
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
-source-git-commit: 9e5b85dec8a58a4d008ab63337589352c0fa5ee6
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
