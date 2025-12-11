@@ -53,7 +53,7 @@ ht-degree: 1%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將[**[!UICONTROL 條件&#x200B;]**活動](condition-activity.md)拖放到進入點之後的畫布上。
+1. 將[**[!UICONTROL 條件&#x200B;]**&#x200B;活動](condition-activity.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 
