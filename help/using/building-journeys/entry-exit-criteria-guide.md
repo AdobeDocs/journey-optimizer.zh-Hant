@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 1%
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -64,11 +64,15 @@ ht-degree: 1%
 
 **新訂閱者的歡迎行銷活動**
 
+透過自動引導新訂閱者瞭解您的品牌、產品和服務，建立個人化的第一印象。
+
 * **專案**：設定檔在訂閱電子報時進入歷程
 * **退出**：設定檔完成歡迎系列的電子郵件後，或設定時間後未參與時，就會退出
 * **權益**：確保新訂閱者能及時收到上線，同時避免重複傳送訊息
 
 **放棄的購物車復原**
+
+提醒客戶留下的專案，並提供完成購買的獎勵，以重新贏取損失的收入。
 
 * **登入**：如果客戶將專案新增至購物車但未在24小時內完成結帳，則會進入歷程
 * **結束**：設定檔完成購買時結束，或未購買則在7天後結束
@@ -76,11 +80,15 @@ ht-degree: 1%
 
 **熟客方案參與度**
 
+以獨一無二的權益和個人化通訊來獎勵您最有價值的客戶，這些權益可加強品牌忠誠度並提升終身價值。
+
 * **登入**：客戶在達到特定忠誠度點數臨界值後加入歷程
 * **退出**：設定檔在兌現獎勵後結束，或如果閒置60天
 * **優點**：讓高價值客戶與個人化優惠保持互動，並避免溝通疲勞
 
 **產品意見回饋集合**
+
+在傳送後的最佳時機要求回饋意見，以收集有關客戶滿意度和產品績效的深入分析。
 
 * **專案**：客戶在收到產品傳遞確認事件後進入歷程
 * **結束**：在提交意見回饋後，設定檔結束；如果沒有回應，則在10天後結束
@@ -188,26 +196,12 @@ ht-degree: 1%
 
 **技術檔案**
 
-* [設定檔入口管理](entry-management.md) — 入口控制的詳細技術指南
-* [歷程屬性和退出條件](journey-properties.md) — 完整的設定參考
-* [歷程結束的方式](end-journey.md) — 歷程生命週期管理
-* [補充識別碼](supplemental-identifier.md) — 進階重新進入案例
-* [歷程設計器](using-the-journey-designer.md) — 建置和設計歷程
+[設定檔入口管理](entry-management.md) | [歷程屬性和退出條件](journey-properties.md) | [歷程結束的方式](end-journey.md) | [補充識別碼](supplemental-identifier.md) | [歷程設計器](using-the-journey-designer.md)
 
 **教學課程與範例**
 
-* [歷程使用案例](jo-use-cases.md) — 完成歷程範例和模式
-* [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相關功能**
 
-* [對象資格鑑定事件](audience-qualification-events.md)
-* [成功量度和目標](success-metrics.md)
-* [衝突管理](../conflict-prioritization/conflicts.md)
-* [頻率上限](../conflict-prioritization/rule-sets.md)
-* [測試歷程](testing-the-journey.md)
-* [條件活動](condition-activity.md)
-* [反應事件](reaction-events.md)
-* [等待活動](wait-activity.md)
+[對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率限定](../conflict-prioritization/rule-sets.md) | [正在測試歷程](testing-the-journey.md) | [條件活動](condition-activity.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)
