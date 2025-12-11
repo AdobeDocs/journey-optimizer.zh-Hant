@@ -5,7 +5,7 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 6c1df24a1184fb7f3fb5e6b2a2cbb3b77015b4bc
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 0%
@@ -94,8 +94,6 @@ ht-degree: 0%
 - [建立個人化優惠](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
 - [建立版位](help/using/offers/offer-library/creating-placements.md) - 11月5日
 - [建立排名策略](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
-
-&#x200B;---
 
 ## 上次報告： 2025年10月1日至11月3日
 
