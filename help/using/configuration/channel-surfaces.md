@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1854'
 ht-degree: 12%
 
 ---
@@ -256,9 +256,7 @@ ht-degree: 12%
 
 在下列情況下，您無法停用管道設定：
 
-* 如果任何即時歷程參考它。 嘗試停用即時歷程仍在使用的設定將會導致錯誤。
-
-  若要停用管道設定，請確保使用此設定的所有即時歷程都已關閉或停止。 [瞭解如何結束歷程](../building-journeys/end-journey.md)
+* 如果任何即時歷程參考它。 嘗試停用即時歷程仍在使用的設定將會導致錯誤。 若要停用管道設定，請確保使用此設定的所有即時歷程都已關閉或停止。 [瞭解如何結束歷程](../building-journeys/end-journey.md)
 
 * 正在處理通道設定的更新時。 您必須等待更新成功或失敗。 深入瞭解[編輯頻道設定](#edit-channel-surface)以及[更新狀態](#update-statuses)。
 
