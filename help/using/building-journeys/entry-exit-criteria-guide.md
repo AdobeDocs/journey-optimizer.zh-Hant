@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
-source-git-commit: a60ea57ffed3fa9e11dc202f26889d05862604d9
+source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,8 @@ ht-degree: 0%
 
 **清除定義**
 
+建立明確的檔案和命名慣例，以確保您的團隊瞭解設定檔如何在您的歷程中移動：
+
 * 在建立歷程以協調行銷與分析團隊之前，先記錄您的登入和退出邏輯
 * 建立流程圖以顯示進入點、歷程路徑和退出條件
 * 清楚地定義商業規則：「設定檔在X發生時或Y天后結束」
@@ -159,6 +161,8 @@ ht-degree: 0%
 * [為報告及篩選一致地標籤歷程](../start/search-filter-categorize.md#tags)
 
 **避免歷程重疊**
+
+協調各行銷活動的歷程策略，避免客戶混淆和訊息衝突：
 
 * [在啟動類似的歷程之前稽核使用中的歷程](journey-ui.md)以避免衝突
 * 運用[衝突管理](../conflict-prioritization/conflicts.md)和[優先順序分數](../conflict-prioritization/priority-scores.md)來解決重疊並排定歷程優先順序
@@ -170,6 +174,8 @@ ht-degree: 0%
 
 **監視和最佳化**
 
+持續評估歷程績效，並根據真實客戶行為調整您的登入和退出條件：
+
 * 使用[歷程報告](../reports/journey-global-report-cja.md)追蹤每個歷程的進入率、退出率和完成率
 * 監視[成功量度](success-metrics.md)：透過成功量度完成與逾時結束的百分比
 * 在啟動之前，針對各種設定檔案例測試[登入與退出條件](testing-the-journey.md)
@@ -177,6 +183,8 @@ ht-degree: 0%
 * 每季檢閱所有作用中的歷程
 
 **遵守頻率上限**
+
+控制所有歷程通訊的訊息頻率，以維持客戶信任和參與：
 
 * 設定適當的[重新進入等待期間](entry-management.md)或停用一次性歷程的重新進入
 * 使用[頻率限定規則](../conflict-prioritization/rule-sets.md)來防止過度通訊
