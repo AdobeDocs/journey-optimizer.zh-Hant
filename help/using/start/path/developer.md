@@ -201,7 +201,7 @@ Journey Optimizer提供完整的REST API以便程式設計方式存取：
 
 ## 測試和除錯 {#testing}
 
-1. **偵錯SDK實作**：使用Adobe Experience Platform Assurance即時檢查SDK事件、驗證資料收集，以及疑難排解整合問題。 [進一步瞭解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}。
+1. **偵錯SDK實作**：使用Adobe Experience Platform Assurance即時檢查SDK事件、驗證資料收集，以及疑難排解整合問題。 [進一步瞭解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}。
 
 1. **測試事件傳送**：確認Adobe Experience Platform已正確接收來自您應用程式的事件，並如預期觸發歷程。 監視事件擷取並驗證裝載結構。
 
