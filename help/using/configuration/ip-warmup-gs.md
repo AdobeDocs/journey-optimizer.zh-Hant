@@ -70,6 +70,6 @@ Benefits
 
 * [瞭解如何設定IP熱身](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 瞭解設定IP熱身計畫的基礎和成功實作的最佳實務。
 
-* [ IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
+* [&#x200B; IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
 
 * [IP熱身疑難排解](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 尋找對象延遲等常見問題的解決方案，並瞭解智慧重試機制。
