@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 50%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
@@ -88,23 +88,40 @@ ht-degree: 50%
 
 * **IP熱身計畫**：逐步增加電子郵件傳送量，以建立電子郵件提供者的寄件者信譽。 [了解更多](../../configuration/ip-warmup-gs.md)
 
-## 與其他角色共同作業
+## 跨角色共同作業
 
 您的管理工作可讓所有團隊獲得成功：
 
-* **支援[資料工程師](data-engineer.md)**：授與資料管理的許可權、核准沙箱存取權，以及協調資料保留原則
+>[!BEGINTABS]
 
-* **啟用[開發人員](developer.md)**：提供API認證、設定沙箱環境以進行測試，以及核准通道設定
+>[!TAB 支援資料工程師]
 
-* **啟用[行銷人員](marketer.md)**：指派適當的許可權以建立歷程和行銷活動、設定他們將使用的管道並支援測試環境
+與[資料工程師](data-engineer.md)共同作業資料管理和存取：
 
-## 保持最新狀態
+* 授予資料管理和結構描述建立的許可權
+* 核准開發和測試的沙箱存取權
+* 協調資料保留原則和治理規則
+* 啟用對進階功能（例如同盟對象構成）的存取權
 
-跟上最新的Journey Optimizer平台更新和管理變更：
+>[!TAB 啟用開發人員]
 
-* **[發行說明](../../rn/release-notes.md)**：檢閱每月發行的新功能、平台更新、安全性修補程式和組態變更
-* **[檔案更新](../../rn/documentation-updates.md)**：追蹤設定指南、許可權更新及新管理功能的最近變更
-* **[產品通知](../../rn/releases.md#staying-informed)**：瞭解如何訂閱Journey Optimizer更新的電子郵件和產品內通知，包括系統維護、安全性更新和重要產品公告。 作為管理員，您應該啟用所有重要的系統通知
+與[開發人員](developer.md)共同作業API存取與測試：
+
+* 透過Adobe Developer Console提供API認證
+* 設定用於開發和測試的沙箱環境
+* 核准管道設定（推送憑證、簡訊提供者）
+* 協調測試環境和部署策略
+
+>[!TAB 授權行銷人員]
+
+與[行銷人員](marketer.md)在許可權和頻道設定上共同作業：
+
+* 指派適當的許可權以建立歷程和行銷活動
+* 設定他們將使用的頻道（電子郵件、推播、簡訊等）
+* 支援測試環境和核准工作流程
+* 啟用新功能的存取權
+
+>[!ENDTABS]
 
 ## 後續步驟
 

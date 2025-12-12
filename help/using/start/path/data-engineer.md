@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -67,10 +67,37 @@ ht-degree: 51%
 
 探索歷程分析[的現成可用](../../reports/query-examples.md)查詢範例，以開始進行資料分析和疑難排解。
 
-## 保持最新狀態
+## 跨角色共同作業
 
-跟上最新的Journey Optimizer功能和改進專案：
+您的資料設定對其他團隊至關重要：
 
-* **[發行說明](../../rn/release-notes.md)**：檢閱每月發行的新功能、增強功能和修正
-* **[檔案更新](../../rn/documentation-updates.md)**：追蹤檔案最近的變更，包括新頁面和更新的內容
-* **[產品通知](../../rn/releases.md#staying-informed)**：瞭解如何訂閱Journey Optimizer更新的電子郵件和產品內通知，包括新功能、維護時段和重要的系統變更
+>[!BEGINTABS]
+
+>[!TAB 與系統管理員合作]
+
+與[管理員](administrator.md)共同作業存取和治理：
+
+* 要求資料管理和結構描述建立的必要許可權
+* 協呼叫於開發和測試的沙箱存取
+* 調整資料治理原則和同意管理
+* 討論資料保留原則與儲存需求
+
+>[!TAB 與開發人員合作]
+
+與[開發人員](developer.md)共同作業資料結構和事件：
+
+* 提供實作所需的XDM結構描述和事件結構
+* 定義需要傳送的事件及其必要的裝載格式
+* 符合資料收集需求和資料品質標準
+* 將測試事件傳送和資料擷取結合在一起
+
+>[!TAB 與行銷人員合作]
+
+與[行銷人員](marketer.md)共同作業對象與資料：
+
+* 建立個人化和細分的計算屬性
+* 根據其行銷活動和歷程需求建立對象
+* 為協調的行銷活動設定關聯式結構描述
+* 支援進階使用案例的多實體分段
+
+>[!ENDTABS]

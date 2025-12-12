@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1475'
 ht-degree: 3%
 
 ---
@@ -163,21 +163,40 @@ Journey Optimizer提供兩種強大的協調方法：
 
 瀏覽完整的[歷程使用案例庫](../../building-journeys/jo-use-cases.md)，並深入瞭解[協調的行銷活動](../../orchestrated/gs-orchestrated-campaigns.md)。
 
-## 與其他角色共同作業
+## 跨角色共同作業
 
 您的行銷工作連結到其他團隊：
 
-* **與[資料工程師合作](data-engineer.md)**：要求新的計算屬性、協調關聯式結構描述以協調協調行銷活動、提供對象品質的意見回饋，以及符合進階分段的多實體資料需求
-* **與[開發人員合作](developer.md)**：調整事件觸發程式、測試行動實作，以及驗證追蹤
-* **與[管理員合作](administrator.md)**：要求通道設定、確認協調行銷活動的授權存取、報告許可權問題，以及協調新功能啟用
+>[!BEGINTABS]
 
-## 保持最新狀態
+>[!TAB 與資料工程師合作]
 
-跟上最新的Journey Optimizer功能和行銷特色：
+與[資料工程師](data-engineer.md)共同作業資料與對象組態：
 
-* **[發行說明](../../rn/release-notes.md)**：檢閱每月發行的新功能、管道更新和增強功能
-* **[檔案更新](../../rn/documentation-updates.md)**：追蹤最近的變更，包括新的使用案例、最佳實務和功能檔案
-* **[產品通知](../../rn/releases.md#staying-informed)**：瞭解如何訂閱電子郵件和產品內通知，以瞭解Journey Optimizer更新內容，包括新頻道、即將推出的功能以及重要的行銷活動公告
+* 要求新的計算屬性用於個人化和細分
+* 協調協調已協調行銷活動的關聯式結構描述
+* 提供對象品質和資料正確性的意見回饋
+* 符合進階分段的多實體資料需求
+
+>[!TAB 與開發人員合作]
+
+與[開發人員](developer.md)共同作業事件追蹤與實作：
+
+* 對齊應該觸發歷程事件的使用者互動
+* 啟動前測試行動裝置和網頁實作
+* 驗證內容效能和使用者參與的追蹤
+* 疑難排解訊息傳送或個人化問題
+
+>[!TAB 與系統管理員合作]
+
+與[管理員](administrator.md)共同作業存取和設定：
+
+* 請求行銷活動和歷程的管道設定
+* 確認協調行銷活動的授權存取權和其他功能
+* 報告許可權或存取權問題
+* 協調新功能啟用和測試環境
+
+>[!ENDTABS]
 
 ## 後續步驟
 
