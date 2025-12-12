@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -34,25 +34,11 @@ ht-degree: 2%
 
 在開始實作之前，請確定您已：
 
-**技術技能：**
-
-* 使用JavaScript (適用於Web SDK)或Swift/Kotlin (適用於Mobile SDK)的體驗
-* 瞭解RESTful API和JSON
-* 熟悉非同步程式設計和事件導向架構
-* 瞭解貴組織的應用程式架構
-
-**存取和工具：**
-
-* 存取API認證的[Adobe Developer Console](https://developer.adobe.com){target="_blank"}
-* 具有應用程式程式碼基底存取權的開發環境
-* 測試工具，例如用於API測試的Postman
-* 瀏覽器開發人員工具或行動偵錯工具
-
-**來自其他團隊成員：**
-
-* 您的[系統管理員](administrator.md)授予的環境存取權
-* 來自您的[資料工程師](data-engineer.md)的XDM結構描述和事件定義
-* 來自您[行銷人員](marketer.md)的需求和使用案例
+| 類別 | 需求 |
+|----------|-------------|
+| **技術技能** | *使用JavaScript (適用於Web SDK)或Swift/Kotlin (適用於Mobile SDK)<br>*瞭解RESTful API和JSON<br>*熟悉非同步程式設計和事件導向架構<br>*瞭解貴組織的應用程式架構 |
+| **存取和工具** | *存取[Adobe Developer Console](https://developer.adobe.com){target="_blank"}以取得API認證<br>*開發環境以存取應用程式的程式碼基底<br>*測試工具，例如Postman以進行API測試<br>*瀏覽器開發人員工具或行動偵錯工具 |
+| **來自其他團隊成員** | *您的[管理員](administrator.md)<br>* XDM結構描述和事件定義從您的[資料工程師](data-engineer.md)<br>*需求和使用案例授予的環境存取權（從您的[行銷人員](marketer.md)） |
 
 ## 瞭解技術基礎 {#technical-foundation}
 
@@ -201,7 +187,7 @@ Journey Optimizer提供完整的REST API以便程式設計方式存取：
 
 ## 測試和除錯 {#testing}
 
-1. **偵錯SDK實作**：使用Adobe Experience Platform Assurance即時檢查SDK事件、驗證資料收集，以及疑難排解整合問題。 [進一步瞭解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}。
+1. **偵錯SDK實作**：使用Adobe Experience Platform Assurance即時檢查SDK事件、驗證資料收集，以及疑難排解整合問題。 [進一步瞭解Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}。
 
 1. **測試事件傳送**：確認Adobe Experience Platform已正確接收來自您應用程式的事件，並如預期觸發歷程。 監視事件擷取並驗證裝載結構。
 
@@ -252,26 +238,36 @@ Journey Optimizer提供完整的REST API以便程式設計方式存取：
 
 您的實作工作與其他團隊成員相交：
 
-**與[資料工程師合作](data-engineer.md)：**
+>[!BEGINTABS]
+
+>[!TAB 與資料工程師合作]
+
+與[資料工程師](data-engineer.md)共同作業資料與事件設定：
 
 * 取得實施所需的XDM結構描述和事件結構
 * 瞭解您需要傳送哪些事件及其必要的裝載格式
 * 符合資料收集需求和資料品質標準
 * 將測試事件傳送和資料擷取結合在一起
 
-**與[系統管理員合作](administrator.md)：**
+>[!TAB 與系統管理員合作]
+
+與[管理員](administrator.md)共同作業存取和設定：
 
 * 提供要設定之自訂動作的API規格
 * 要求必要的許可權和API認證
 * 協調通道設定需求（例如推送憑證）
 * 調整測試環境和沙箱策略
 
-**與[行銷人員合作](marketer.md)：**
+>[!TAB 與行銷人員合作]
+
+與[行銷人員](marketer.md)共同作業歷程需求和測試：
 
 * 瞭解哪些使用者互動應該觸發事件
 * 實施內容效能和使用者參與追蹤
 * 支援使用您實作的功能測試歷程
 * 疑難排解訊息傳送或個人化問題
+
+>[!ENDTABS]
 
 ## 保持最新狀態
 
@@ -279,13 +275,7 @@ Journey Optimizer提供完整的REST API以便程式設計方式存取：
 
 * **[發行說明](../../rn/release-notes.md)**：檢閱每月發行的新功能、API變更、SDK更新及錯誤修正
 * **[檔案更新](../../rn/documentation-updates.md)**：追蹤技術檔案最近的變更，包括新的實作指南和程式碼範例
-* **產品通知**：啟用您[Adobe Experience Cloud設定檔](https://experience.adobe.com/preferences){target="_blank"}中的通知，以接收有關下列專案的警示：
-   * 新的SDK版本和API更新
-   * 突破性的變更與淘汰
-   * 影響整合的維護時段
-   * 重大安全性更新
-
-  若要啟用通知，請按一下Adobe Experience Cloud右上角的設定檔圖示，前往&#x200B;**偏好設定>通知**，然後設定您的Journey Optimizer通知偏好設定。
+* **[產品通知](../../rn/releases.md#staying-informed)**：瞭解如何訂閱Journey Optimizer更新的電子郵件和產品內通知，包括新的SDK版本、API變更、重大變更和重要安全性更新
 
 ## 開始實作
 

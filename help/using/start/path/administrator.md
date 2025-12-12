@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 48%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
@@ -104,14 +104,7 @@ ht-degree: 48%
 
 * **[發行說明](../../rn/release-notes.md)**：檢閱每月發行的新功能、平台更新、安全性修補程式和組態變更
 * **[檔案更新](../../rn/documentation-updates.md)**：追蹤設定指南、許可權更新及新管理功能的最近變更
-* **產品通知**：啟用您[Adobe Experience Cloud設定檔](https://experience.adobe.com/preferences){target="_blank"}中的通知，以接收有關下列專案的嚴重警示：
-   * 系統維護時段和排程的停機時間
-   * 安全性更新和修補程式
-   * 新的管理功能和許可權變更
-   * 授權和權益更新
-   * 重要產品公告
-
-  若要啟用通知，請按一下Adobe Experience Cloud右上角的設定檔圖示，前往&#x200B;**偏好設定>通知**，然後設定您的Journey Optimizer通知偏好設定。 作為管理員，您應該啟用所有重要的系統通知。
+* **[產品通知](../../rn/releases.md#staying-informed)**：瞭解如何訂閱Journey Optimizer更新的電子郵件和產品內通知，包括系統維護、安全性更新和重要產品公告。 作為管理員，您應該啟用所有重要的系統通知
 
 ## 後續步驟
 
