@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 6%
@@ -73,7 +73,7 @@ Journey Optimizer可讓您透過電子郵件、SMS、推播、應用程式內、
 
 Journey Optimizer持續推出新功能，以增強您的行銷效率：
 
-* **內容卡**：在行動應用程式和網站中，傳遞使用者方便使用的永久、非侵入式訊息。 與推播通知不同，內容卡保持可見直到被取消。 [瞭解內容卡](../../content-card/get-started-content-card.md)
+* **內容卡**：在行動應用程式和網站中，傳遞使用者方便使用的永久、非侵入式訊息。 與推播通知不同，內容卡保持可見直到被取消。 [瞭解內容卡](../../content-card/create-content-card.md)
 
 * **衝突管理與優先順序**：使用進階上限規則控制訊息頻率並防止過度通訊。 設定優先順序分數以確保最重要的訊息會先觸及客戶。 [瞭解衝突管理](../../conflict-prioritization/gs-conflict-prioritization.md)
 
