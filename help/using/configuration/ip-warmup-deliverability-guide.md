@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP、傳遞能力、信譽、ISP、參與
-source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 6%
+source-wordcount: '1064'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 在Adobe Journey Optimizer中以新IP位址或網域啟動電子郵件行銷活動時，瞭解傳遞能力基礎對於建立強大的寄件者信譽至關重要。 本指南涵蓋重要概念、準備步驟和最佳實務，協助您從零信譽轉變為成功的收件匣放置。
 
-➡️ [觀看此影片以瞭解IP熱身傳遞基礎知識](#video)
+➡️在此[Adobe部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}的影片中瞭解傳遞能力基礎、建立聲譽和IP熱身的最佳實務。
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ IP熱身主要處理前三大支柱，方法是在您擴充至完整傳送量之
 
 | 任務 | 為何這項能力很重要 | 完成方式 |
 |------|----------------|-------------------|
-| 在AJO中保留固定IP並委派子網域 | 所有未來的信譽都附加到這些基礎結構元素 | 瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**。 [了解更多](delegate-subdomain.md) |
-| 設定SPF和DKIM | 確認您的傳送伺服器是否合法且已授權 | 子網域委派和通道設定建立後，Adobe會自動處理。 [了解更多](delegate-subdomain.md) |
-| 設定 DMARC 記錄 | 啟用電子郵件驗證報告和未來執行政策 | 子網域委派和通道設定建立後，Adobe會自動處理。 [了解更多](dmarc-record.md) |
-| 設定種子清單監視 | 在預熱流程早期偵測收件匣位置問題 | 建立管道設定時新增種子地址。 [了解更多](seed-lists.md) |
-| 建置階段1高參與度對象 | 與最活躍的收件者提高早期參與量度 | 建立過去30天內開啟或點按少於5,000個連絡人的對象 |
+| 在AJO中保留固定IP並委派子網域 | 所有未來的信譽都附加到這些基礎結構元素。 | 瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**。 [了解更多](delegate-subdomain.md) |
+| 設定SPF和DKIM | 確認您的傳送伺服器是否合法且已授權。 | 在[子網域委派](delegate-subdomain.md)和[頻道設定建立](channel-surfaces.md)後，由Adobe自動處理。 |
+| 確認已設定DMARC記錄(p=none) | 啟用電子郵件驗證報告及未來的執行政策。 | 檢查是否已為所有委派的子網域設定DMARC記錄。 委派新子網域時，您可以直接在介面中設定DMARC。 [了解更多](dmarc-record.md) |
+| 設定種子清單監視 | 會在預熱程式早期偵測收件匣位置問題。 | 建立管道設定時新增種子地址。 [了解更多](seed-lists.md) |
+| 建置階段1高參與度對象 | 與最活躍的收件者一起提高早期參與量度。 | 建立過去30天內開啟或點按少於5,000個連絡人的對象。 [了解更多](../audience/creating-a-segment-definition.md) |
 
 >[!CAUTION]
 >
@@ -58,19 +58,15 @@ IP熱身主要處理前三大支柱，方法是在您擴充至完整傳送量之
 
 | 日 | UDV的% | 目標客群 | 內容建議 |
 |------|----------|-----------------|------------------------|
-| 1-3 | 0.5% | 您參與度最高的收件者 | 使用簡短的純文字格式，並在摺頁上方加上清楚的call-to-action |
-| 4-7 | 1% | 參與的使用者加上最近的購買者 | 新增輕量型主圖影像，將連結限製為3個或更少 |
-| 8-14 | 5% | 更廣泛的作用中訂閱者清單 | 介紹您的標準電子郵件範本，但避免大量促銷內容 |
-| 15-21 | 25% | 作用中及輕度非作用中的訂閱者 | 使用一般行銷內容，同時密切監控投訴率 |
-| 22-28 | 50-100% | 完整清單（遵循隱藏清單） | 轉換為您的穩定狀態傳送步調 |
+| 1-3 | 0.5% | 您參與度最高的收件者 | 請使用簡短純文字格式，並在摺頁上方加上清楚的call-to-action。 |
+| 4-7 | 1% | 參與的使用者加上最近的購買者 | 新增輕量版主圖影像，將連結限制在3個以內。 |
+| 8-14 | 5% | 更廣泛的作用中訂閱者清單 | 介紹您的標準電子郵件範本，但避免大量促銷內容。 |
+| 15-21 | 25% | 作用中及輕度非作用中的訂閱者 | 使用一般行銷內容，同時密切監控投訴率。 |
+| 22-28 | 50-100% | 完整清單（遵循隱藏清單） | 轉換為您的穩定狀態傳送步調。 |
 
->[!NOTE]
->
->Adobe Journey Optimizer提供專屬的[IP熱身計畫功能](ip-warmup-gs.md)，可自動化磁碟區管理並簡化熱身程式，而不需要複雜的歷程設定。
+## 使用IP熱身計畫功能 {#ajo-warmup-feature}
 
-## 使用AJO的IP熱身計畫功能 {#ajo-warmup-feature}
-
-Adobe Journey Optimizer包含簡化的IP熱身計畫功能，可免除透過複雜歷程設定手動設定容量上限的需求。 此功能可確保以標準化方式建立傳送者信譽。
+Adobe Journey Optimizer包含簡化的[IP熱身計畫](ip-warmup-gs.md)功能，可免除在複雜的歷程設定中手動設定磁碟區上限的需求。 此功能可確保以標準化方式建立傳送者信譽。
 
 ### 運作方式
 
@@ -86,23 +82,19 @@ Adobe Journey Optimizer包含簡化的IP熱身計畫功能，可免除透過複�
 
 Adobe Journey Optimizer提供內建的報告功能，可追蹤您的IP熱身效能：
 
-* **即時報表**：從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤存取行銷活動的即時測量和視覺化。 [了解更多](../reports/live-report.md)
+* **即時報表**：從&#x200B;**[!UICONTROL 過去24小時]**&#x200B;索引標籤存取行銷活動的即時測量和視覺化。 [了解更多](../reports/campaign-live-report.md#email-live)
 
-* **Customer Journey Analytics整合**：如需更深入的見解，請利用Customer Journey Analytics分析來自Adobe Experience Platform的資料並建立自訂視覺效果。 [了解更多](../reports/report-gs-cja.md)
+* **所有時間報表**：如需深入分析，請利用Customer Journey Analytics分析來自Adobe Experience Platform的資料，並建立自訂視覺效果。 [了解更多](../reports/report-gs-cja.md)
 
 ### 目標量度
 
 在整個熱身過程中監視這些關鍵效能指標：
 
-| 量度 | 目標臨界值 | 超過時的動作 |
+| 量度 | 目標臨界值 | 更正動作 |
 |--------|-----------------|-------------------|
-| 投訴率 | ≤ 0.1% | 稽核區段並抑制慢性投訴者 |
-| 硬跳出率 | ≤ 2% | 檢閱清單品質和衛生實務 |
-| 開啟率 | ≥ 10% | 確認您正在鎖定參與的對象 |
-
->[!TIP]
->
->如需完整的行銷活動分析，請使用[行銷活動即時報告](../reports/campaign-live-report.md#email-live)和[Customer Journey Analytics報告](../reports/campaign-global-report-cja-email.md)功能。
+| 投訴率 | ≤ 0.1% | 如果超過，稽核區段並隱藏慢性投訴者。 |
+| 硬跳出率 | ≤ 2% | 如果超過限制，請檢閱清單品質和衛生實務。 |
+| 開啟率 | ≥ 10% | 如果太低，請確認您正在鎖定參與的對象。 |
 
 ## 疑難排解Playbook {#troubleshooting}
 
@@ -110,9 +102,9 @@ Adobe Journey Optimizer提供內建的報告功能，可追蹤您的IP熱身效�
 
 | 症狀 | 可能的原因 | 建議的動作 |
 |---------|--------------|-------------------|
-| Yahoo暫時失敗（421錯誤） | 音量增加太快 | 暫停傳送24小時，然後在先前的層級重新啟動 |
-| 種子帳戶的開啟率低於2% | IP封鎖清單 | 檢查[Google Postmaster Tools](https://postmaster.google.com/)和[Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/)；視需要開啟傳遞能力票證 |
-| 投訴率超過0.3% | 目標定位錯誤或對象過時 | 稽核區段定義並從您的[隱藏清單](manage-suppression-list.md)中排除慢性申訴者 |
+| Yahoo暫時失敗（421錯誤） | 音量增加太快 | 暫停傳送24小時，然後在先前的層級重新啟動。 |
+| 種子帳戶的開啟率低於2% | IP封鎖清單 | 檢查[Google Postmaster Tools](https://postmaster.google.com/)和[Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/)；視需要開啟傳遞能力票證。 |
+| 投訴率超過0.3% | 目標定位錯誤或對象過時 | 稽核區段定義，並從[隱藏清單](manage-suppression-list.md)中排除慢性申訴者。 |
 
 >[!IMPORTANT]
 >
@@ -122,29 +114,23 @@ Adobe Journey Optimizer提供內建的報告功能，可追蹤您的IP熱身效�
 
 完成熱身計畫且量度穩定後：
 
-* **維持一致性**：將每日流量每週增加量保持在30%以下，以維護您既定的信譽
+* **維持一致性**：將每日流量每週增加量保持在30%以下，以維護您既定的信譽。
 
-* **持續監視**：排程每季的信譽健康情況檢查，以主動識別並解決問題
+* **持續監視**：排程每季的信譽健康情況檢查，以主動識別並解決問題。
 
-* **遵守參與訊號**：繼續將參與的收件者排定優先順序，並對非作用中訂閱者實施重新參與行銷活動
+* **遵守參與訊號**：繼續將參與的收件者排定優先順序，並對非作用中訂閱者實施重新參與行銷活動。
 
-* **保持驗證最新**：定期確認您的SPF、DKIM和DMARC記錄保持正確設定
+* **保持驗證最新**：定期驗證您的SPF、DKIM和DMARC記錄是否保持正確設定。
 
 ## 重要技巧 {#key-takeaways}
 
-* **IP熱身是必要的**：略過熱身程式所花費的時間和聲譽比正確執行它所需的花費更多
+* **IP熱身是必要的**：略過熱身程式所花費的時間與信譽，會比正確執行它所需花費的時間更多。
 
-* **資料導向式決策**：每天追蹤投訴、跳出和參與率，並在ISP懲罰您之前調整您的策略
+* **資料導向式決策**：每天追蹤投訴、跳出和參與率，並在ISP懲罰您之前調整您的策略。
 
-* **先驗證，然後磁碟區**：先解決所有SPF、DKIM和DMARC問題，再開始遞增磁碟區
+* **先驗證，然後磁碟區**：先解決所有SPF、DKIM和DMARC問題，再開始增加磁碟區。
 
-* **一致性很重要**：信箱提供者偏好可預測的傳送模式；避免突然的磁碟量尖峰或不規則的傳送排程
-
-## 作法影片 {#video}
-
-瞭解Adobe Journey Optimizer中的傳遞能力基礎知識、信譽建立和IP熱身最佳實務。
-
->[!VIDEO](https://video.tv.adobe.com/v/3463793/?captions=chi_hant&learn=on)
+* **一致性很重要**：信箱提供者偏好可預測的傳送模式；避免突然的磁碟量尖峰或不規則的傳送排程。
 
 <!--
 >[!NOTE]
