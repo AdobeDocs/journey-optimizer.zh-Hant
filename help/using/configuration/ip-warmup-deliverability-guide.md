@@ -144,7 +144,7 @@ Adobe Journey Optimizer提供內建的報告功能，可追蹤您的IP熱身效�
 
 瞭解Adobe Journey Optimizer中的傳遞能力基礎知識、信譽建立和IP熱身最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463793/?captions=chi_hant&learn=on)
 
 <!--
 >[!NOTE]
