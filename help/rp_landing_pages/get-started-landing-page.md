@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 快速入門
+title: 開始使用
 description: 開始使用Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '587'
 ht-degree: 9%
 
 ---
@@ -24,7 +24,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 什麼是Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 瞭解其運作方式
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 重要術語
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 行銷人員適用的
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 資料工程師專用
 
@@ -81,13 +81,23 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 適用於管理員
 
 為您的組織設定環境、管理許可權及設定管道。
 
 [以管理員身分開始](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+適用於開發人員
+
+整合行動應用程式、實作Web SDK、設定事件及建立自訂整合。
+
+[以開發人員身分開始](../using/start/path/developer.md)
 :::
 
 ::::
@@ -100,7 +110,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 瀏覽介面
 
@@ -110,7 +120,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 搜尋與組織
 
@@ -120,7 +130,7 @@ Adobe Journey Optimizer 可讓您跨每個管道提供個人化的即時客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI與智慧型功能
 

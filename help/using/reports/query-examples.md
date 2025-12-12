@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 1%
 
 ---
 
 # 查詢範例{#query-examples}
 
-本節列出幾個在Data Lake中查詢歷程步驟事件的常用範例。
+本節提供在資料湖中查詢歷程步驟事件的常用範例。 在深入研究特定使用案例之前，請務必瞭解歷程事件資料中使用的關鍵識別碼。
 
 請確定查詢中使用的欄位在對應結構描述中有關聯的值。
 
-+++id、instanceid和profileid之間有何差異
+## 瞭解關鍵識別碼 {#key-identifiers}
+
++++id、instanceID和profileID有何不同
 
 * id：所有步驟事件專案均不重複。 兩個不同的步驟事件不能有相同的ID。
-* instanceId：instanceID對於歷程執行中與設定檔相關聯的所有步驟事件都是相同的。 如果設定檔重新進入歷程，則會使用不同的instanceId。 此新instanceId將與重新進入之執行個體的所有步驟事件（從開始到結束）相同。
+* instanceID： instanceID對於歷程執行中與設定檔相關聯的所有步驟事件都是相同的。 如果設定檔重新進入歷程，則會使用不同的instanceID。 此新instanceID將與重新進入之執行個體的所有步驟事件（從開始到結束）相同。
 * profileID：與歷程名稱空間對應的設定檔身分。
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![顯示已捨棄設定檔詳細資料的查詢結果範例](assets/query-discarded-profiles.png)
 
 查詢結果會顯示索引鍵欄位，協助識別個人資料捨棄的原因：
 
@@ -1068,7 +1069,7 @@ _資料湖查詢_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
