@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # 資料工程師快速入門 {#data-engineer}
 
-作為&#x200B;**Adobe Journey Optimizer資料工程師**，您可以準備並維護客戶設定檔資料，以支援[!DNL Journey Optimizer]安排的體驗，為結構描述中的客戶和業務資料建立模型，並設定來源聯結器以擷取資料。 當[系統管理員](administrator.md)授與您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
+作為&#x200B;**資料架構師**&#x200B;或&#x200B;**資料工程師**，您可以設定並維護客戶設定檔資料和其他資料來源，以支援[!DNL Journey Optimizer]安排的體驗。 這包括將所有客戶與業務資料（不論是來自Web、CRM或離線來源）整合至客戶的統一360度檢視中。 您可以將客戶設定檔資料和業務資料模型化為結構描述、設定來源聯結器以擷取資料，並確保資料流程順暢無阻，以啟用即時客戶分析和參與。 當[系統管理員](administrator.md)授與您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 
 >[!NOTE]
 >

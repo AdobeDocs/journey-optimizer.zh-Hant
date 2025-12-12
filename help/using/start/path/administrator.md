@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # 系統管理員快速入門 {#get-started-sys-admins}
 
-開始使用[!DNL Adobe Journey Optimizer]之前，準備您的環境需執行數個步驟。 您必須執行這些步驟，[資料工程師](data-engineer.md)和[行銷人員](marketer.md)才能開始使用[!DNL Adobe Journey Optimizer]。
+您身為&#x200B;**系統管理員**，可設定Journey Optimizer環境並管理存取權，讓您的團隊能有效且安全地工作。 您執行必要的設定步驟，讓[資料工程師](data-engineer.md)、[開發人員](developer.md)和[行銷人員](marketer.md)可以開始使用[!DNL Adobe Journey Optimizer]。
 
-身為&#x200B;**系統管理員**，您必須&#x200B;**了解角色並指派權限**，可用於沙箱管理和管道設定。 您也需要設定沙箱，並針對可用的角色進行管理。 然後，您就可以將專案團隊成員指派給角色。 當[資料工程師](data-engineer.md)設定資料結構描述和來源，以及[開發人員](developer.md)實作技術整合時，您可以確保適當的人員可以存取適當的功能。
+您的主要職責包括設定使用者群組和許可權、建立和管理沙箱，以分割不同使用者群組的資料和歷程，以及設定傳送頻道和訊息預設集，以確保透過Journey Optimizer傳送的各種訊息和資產有一致的品牌。 您可以確保適當的人員能夠存取適當的功能，同時維持安全性和控管。
 
 這些功能可由具有存取權限產品的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。[進一步了解權限](../../administration/permissions.md){target="_blank"}。
 
@@ -76,7 +76,7 @@ ht-degree: 50%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
