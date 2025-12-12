@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, 傳遞能力
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 56%
+source-wordcount: '367'
+ht-degree: 49%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 56%
 透過[!DNL Journey Optimizer]，您可以遵循最佳傳遞能力的最佳實務，以標準化且有效率的方式直接從使用者介面執行IP熱身工作流程。 使用新平台傳送電子郵件時，網際網路服務提供商 (ISP) 會懷疑無法辨識的 IP 位址。 如果突然傳送大量電子郵件，ISP 通常會將其標記為垃圾郵件。
 
 為避免遭標記為垃圾郵件，您可以使用 IP 暖身計劃功能逐步增加傳送量。 這項新選項位於&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，可讓您以整合的方式更輕鬆地操作，而不是建立複雜的每日歷程。 
+
+>[!NOTE]
+>
+>在實作IP熱身計畫之前，請先在此[IP熱身傳遞指南](ip-warmup-deliverability-guide.md)中瞭解傳遞能力基礎、聲譽建立和最佳實務。
 
 ➡️ [在此影片中瞭解如何建立及執行IP熱身計畫](#video)
 
@@ -52,7 +56,7 @@ Benefits
 
 了解如何建立和執行 IP 暖身計劃。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453851/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -62,8 +66,10 @@ Benefits
 
 探索這些實用的部落格，以取得有關IP熱身更深入的指引：
 
+* [Adobe Journey Optimizer傳遞能力指南：從零信譽到收件匣英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) — 涵蓋信譽基礎知識、熱身行事曆、監控和疑難排解最佳實務的全面指南。
+
 * [瞭解如何設定IP熱身](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 瞭解設定IP熱身計畫的基礎和成功實作的最佳實務。
 
-* [&#x200B; IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
+* [ IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
 
 * [IP熱身疑難排解](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 尋找對象延遲等常見問題的解決方案，並瞭解智慧重試機制。
