@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Journey Optimizer提供兩種協調方法，以符合不同的行銷需求：
 
 ## 跨角色Collaboration
 
-成功的Journey Optimizer實作需要跨所有角色共同作業：
+成功的Journey Optimizer實作需要跨所有角色共同作業。 每個角色都與其他角色合作，以提供順暢的客戶體驗：
 
-* **管理員**&#x200B;可設定沙箱、許可權和通道設定，以啟用其他角色
-* **資料工程師**&#x200B;提供開發人員和行銷人員賴以建立的資料基礎
-* **開發人員**&#x200B;實作行銷人員用來觸發歷程的技術整合
-* **行銷人員**&#x200B;針對資料品質、功能要求和使用者體驗，向所有團隊提供意見回饋
+>[!BEGINTABS]
+
+>[!TAB 管理員]
+
+**管理員**&#x200B;藉由管理存取權和設定來啟用所有團隊。 它們可搭配使用：
+
+* **資料工程師**：授與資料管理的許可權、核准沙箱存取權、協調治理原則
+* **開發人員**：提供API認證、設定測試環境、核准通道設定
+* **行銷人員**：指派歷程/行銷活動的許可權、設定頻道、支援測試環境
+
+>[!TAB 資料工程師]
+
+**資料工程師**&#x200B;為所有人提供資料基礎。 它們可搭配使用：
+
+* **管理員**：要求資料管理、協調治理和保留原則的許可權
+* **開發人員**：提供XDM結構描述和事件結構、定義事件裝載格式、測試資料擷取
+* **行銷人員**：建立個人化的計算屬性、建立對象、設定關聯式結構描述
+
+>[!TAB 開發人員]
+
+**開發人員**&#x200B;實作技術整合以提供歷程支援。 它們可搭配使用：
+
+* **資料工程師**：取得XDM結構描述和事件結構，根據資料收集需求調整，測試事件傳遞
+* **管理員**：提供API規格、要求許可權和認證、協調測試策略
+* **行銷人員**：瞭解事件觸發器、實作追蹤、支援歷程測試、疑難排解問題
+
+>[!TAB 市場行銷人員]
+
+**行銷人員**&#x200B;設計客戶體驗並提供意見回饋。 它們可搭配使用：
+
+* **資料工程師**：要求計算屬性、協調對象需求、提供資料品質的意見回饋
+* **開發人員**：調整事件觸發程式、測試實作、驗證追蹤
+* **管理員**：要求通道設定、確認功能存取、協調啟用
+
+>[!ENDTABS]
 
 **最佳實務：**&#x200B;定期舉行跨職能會議，以調整優先順序、共用進度並處理跨團隊的封鎖程式。
 
@@ -176,26 +207,30 @@ Journey Optimizer提供兩種協調方法，以符合不同的行銷需求：
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他資源
 
 如需更深入的學習和更新，請探索下列資源：
 
-**學習與檔案：**
+>[!BEGINTABS]
+
+>[!TAB 學習與檔案]
 
 * [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} — 所有角色的逐步教學課程影片
 * [歷程使用案例庫](../building-journeys/jo-use-cases.md) — 實際範例和實施模式
 * [AI與智慧型功能](ai-features.md) — 瞭解AI小幫手、傳送時間最佳化及內容產生
 * [使用者介面指南](user-interface.md) — 有效瀏覽Journey Optimizer
 
-**持續更新：**
+>[!TAB 保持更新]
 
 * [發行說明](../rn/release-notes.md) — 最新功能、改良與修正
 * [檔案更新](../rn/documentation-updates.md) — 追蹤近期檔案變更
 * [產品通知](../rn/releases.md#staying-informed) — 瞭解如何訂閱Journey Optimizer更新的電子郵件和產品內通知
 
-**社群與支援：**
+>[!TAB 社群與支援]
 
 * [Experience League社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} — 與其他使用者和專家交流
 * [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} — 詢問問題並分享知識
+
+>[!ENDTABS]
