@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
 workflow-type: tm+mt
-source-wordcount: '7890'
-ht-degree: 100%
+source-wordcount: '7908'
+ht-degree: 99%
 
 ---
 
@@ -894,7 +894,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
    * **沙箱複製和決策** (推出日期：2025 年 6 月 3 日) - 決策物件現在可以在沙箱之間複製，以便簡化測試，同時部署工作流程。[閱讀全文](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **決策規則的決策項目屬性支援** (推出日期：2025 年 6 月 4 日) * 您現在可以運用決策項目屬性來建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
+   * **決策規則的決策項目屬性支援** (推出日期：2025 年 6 月 4 日) - 您現在可以運用決策項目屬性來建立決策規則。[閱讀全文](../experience-decisioning/rules.md#create)
 
 * **互動式訊息執行 API 更新** — 推出日期：2025 年 6 月 6 日
 
@@ -1613,11 +1613,13 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 HTML 類型內容範本現已棄用。請注意，您仍可使用之前在 [!DNL Journey Optimizer] 中建立的現有 HTML 內容範本。[深入瞭解內容範本](../content-management/content-templates.md)
 
+**同意原則**
+
+您現在可以透過電子郵件通道設定中的行銷動作，運用自訂同意政策。 [了解更多](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
-
 
 
 
