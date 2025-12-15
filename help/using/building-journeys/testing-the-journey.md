@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1943'
 ht-degree: 7%
 
 ---
@@ -56,6 +56,7 @@ ht-degree: 7%
 * **作用中的日期視窗** — 確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面[上進一步了解疑難排解此問題](troubleshooting-execution.md#troubleshooting-test-transitions)。
 * **回應事件** — 對於逾時的回應事件，最小和預設等待時間為40秒。
 * **測試資料集** — 在測試模式中觸發的事件會儲存在專用的資料集中，標示如下： `JOtestmode - <schema of your event>`
+* **共用基礎架構** — 測試模式會在與生產相同的基礎架構上執行。 在高流量期間，您可能會注意到電子郵件傳送或事件處理有所延遲。 在這種情況下，請檢查平台流量儀表板，或在非尖峰時段重試您的測試。
 
 <!--
 * Fields from related entities are hidden from the test mode.
