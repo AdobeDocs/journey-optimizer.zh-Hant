@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 1%
    [此頁面](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)上也提供API呼叫範例。
 
 ## 疑難排解 {#troubleshooting}
+
+### 電子郵件傳遞延遲 {#delivery-delays}
+
+如果電子郵件傳送時間超過預期，請調查外部服務（例如雲端基礎結構提供者或電子郵件服務提供者）的潛在中斷或效能問題。 Journey Optimizer記錄會記錄訊息離開時間戳記，這有助於判斷傳送管道中是否發生延遲情形。
 
 ### Azure Cosmos DB驗證錯誤（500內部伺服器錯誤） {#cosmosdb-auth-errors}
 
