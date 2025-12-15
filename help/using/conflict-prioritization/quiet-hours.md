@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 訊息，頻率，規則，壓力
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->無訊息小時規則目前僅適用於一組組織（可用性限制）。  未來版本將逐步向所有客戶提供。
+>目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。未來版本將逐步開放所有客戶使用。
 
 
 ➡️ [在影片中探索此功能](#video)
 
-## 護欄和限制
+## 護欄與限制
 
 * **支援的管道** — 電子郵件、簡訊、推播和WhatsApp。
   <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
@@ -187,4 +187,4 @@ ht-degree: 4%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

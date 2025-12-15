@@ -6,7 +6,7 @@ description: 瞭解如何存取及使用 [!DNL Adobe Journey Optimizer] 報告�
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 23%
@@ -34,7 +34,7 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
   如果您擁有Adobe Customer Journey Analytics授權，則可在Customer Journey Analytics中分析Journey Optimizer報表。 此功能強大的選項可順暢地將您重新導向至Customer Journey Analytics環境，讓您能夠廣泛個人化報告。 您可以使用專門的Customer Journey Analytics量度擴充您的Widget，將您的見解提升到全新的境界。 [了解更多](report-cja-manage.md)
 
 
-## 一起來深入探討
+## 讓我們深入探討
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的報告型別，是時候深入探討這些檔案區段了，以瞭解如何存取及瞭解報告功能。
 
@@ -144,4 +144,4 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 
 +++
 
-在[報告教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片
+在[報告教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片

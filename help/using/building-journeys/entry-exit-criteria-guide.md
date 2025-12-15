@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
-source-git-commit: d1c7c9d454497f0d3c0ec75663d01aac91378d65
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 0%

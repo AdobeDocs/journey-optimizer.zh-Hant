@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 5%
@@ -64,7 +64,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
    {%#if profile.homeAddress.countryCode = "FR"%}
    <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
    {%else%}
-   <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
+   <a href="https://www.somedomain.com/en">Checkout our catalog</a>
    {%/if%}
    ```
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 

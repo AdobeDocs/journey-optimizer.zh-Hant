@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -110,7 +110,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 您將找到有關整合Journey Optimizer與外部系統的常見問題集。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何設定上限或節流規則？ 有預設規則嗎？
 

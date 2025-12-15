@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 32%
@@ -122,7 +122,7 @@ Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程�
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

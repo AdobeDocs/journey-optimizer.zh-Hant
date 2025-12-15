@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 **動作行銷活動**&#x200B;也稱為排程行銷活動，允許簡單的臨時批次通訊。
 
 * **已排程 - 行銷** - 針對行銷使用案例，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。需要收件者選擇加入。
-* **已排程 - 交易型** - 與行銷活動不同，交易型活動不需要收件者選擇加入。此類別用於與中斷、緊急情況、取消相關的通訊。支援的管道：電子郵件、簡訊、推播通知。
+* **已排程 - 交易型** - 與行銷活動不同，交易型活動不需要收件者選擇加入。此類別用於與中斷、緊急情況、取消相關的通訊。 支援的管道：電子郵件、簡訊、推播通知。
 
 ➡️ [了解如何使用動作行銷活動](create-campaign.md)
 
