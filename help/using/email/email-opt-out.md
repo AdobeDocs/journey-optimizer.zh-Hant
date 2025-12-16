@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選擇退出，電子郵件，連結，取消訂閱
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 26%
+source-wordcount: '1117'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 當收件者按一下選擇退出連結時，則會據此處理其取消訂閱請求。
 
-若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[屬性標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL no]**。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hant){target="_blank"}中深入了解同意處理。
+若要檢查對應的設定檔選擇是否已更新，請前往Experience Platform並[瀏覽至該設定檔](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}。 在[屬性標籤](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"}中，您可以看到&#x200B;**[!UICONTROL 選擇]**&#x200B;的值已變更為&#x200B;**[!UICONTROL no]**。 在 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=zh-Hant){target="_blank"}中深入了解同意處理。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ ht-degree: 26%
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 
-### 傳送包含取消訂閱連結的訊息 {#send-message-unsubscribe-link}
+### 瞭解取消訂閱流程 {#send-message-unsubscribe-link}
 
-設定好取消訂閱的登陸頁面連結後，您就可以建立並傳送訊息。
+設定登陸頁面的取消訂閱連結後，您就可以完成並傳送訊息給訂閱者。
 
-1. 使用取消訂閱連結設定您的訊息，並將其傳送給訂閱者。
+為了讓整個登入頁面選擇退出流程成功完成，應依序發生下列事件：
 
-1. 收到訊息後，如果收件者按一下取消訂閱連結，就會顯示您的登陸頁面。
+1. **按一下** — 收到郵件後，收件者按一下電子郵件中的取消訂閱連結。
+
+1. **造訪** — 登入頁面載入並顯示給收件者。
 
    ![](assets/opt-out-lp-example.png)
+
+1. **提交** — 收件者按一下登陸頁面上的取消訂閱按鈕，即可提交選擇退出表單。
 
    >[!WARNING]
    >
    >按一下電子郵件中的取消訂閱連結只會開啟登入頁面。 收件者必須&#x200B;**按一下登陸頁面**&#x200B;中的選擇退出按鈕來提交表單，以完成取消訂閱並更新其設定檔同意。
 
-1. 如果收件者提交表單 — 在此按一下登陸頁面中的&#x200B;**[!UICONTROL 取消訂閱]**&#x200B;按鈕 — 會透過API呼叫更新設定檔資料。
-
-1. 然後，選擇退出的收件者會被重新導向至確認訊息畫面，表示成功選擇退出。
+1. **取消訂閱** — 系統處理取消訂閱要求。 系統會將選擇退出的收件者重新導向至確認訊息畫面，指出已成功選擇退出。
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **同意更新** — 設定檔資料會透過API呼叫以設定檔屬性中的同意更新，這會從未來的電子郵件傳送中排除設定檔。
+
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
+此事件序列可確保正確追蹤取消訂閱過程，並在系統中準確反映設定檔的同意偏好設定。 如果此流程中的任何步驟遺失或不按順序發生，則可能表示應調查的選擇退出實施發生問題。
