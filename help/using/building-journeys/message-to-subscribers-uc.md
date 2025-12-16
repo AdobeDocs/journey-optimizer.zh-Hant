@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: 歷程，使用案例，訊息，訂閱者，清單，讀取
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 17%
+source-wordcount: '355'
+ht-degree: 15%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 17%
 
 若要設定此歷程，請遵循下列步驟：
 
-1. 建立以&#x200B;**[!UICONTROL 讀取]**&#x200B;活動開始的歷程。 [閱讀全文](journey-gs.md)。
-1. 將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作活動新增至歷程。 [閱讀全文](journeys-message.md)。
+1. 建立以&#x200B;**[!UICONTROL 讀取]**&#x200B;活動開始的歷程。 深入瞭解[建立您的第一個歷程](journey-gs.md)。
+1. 將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作活動新增至歷程。 瞭解如何[使用頻道動作](journeys-message.md)。
 1. 在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動設定的&#x200B;**[!UICONTROL 電子郵件引數]**&#x200B;區段中，將預設電子郵件地址(`PersonalEmail.adress`)取代為清單訂閱者的電子郵件地址：
 
    1. 按一下&#x200B;**[!UICONTROL 位址]**&#x200B;欄位右側的&#x200B;**[!UICONTROL 啟用引數覆寫]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
