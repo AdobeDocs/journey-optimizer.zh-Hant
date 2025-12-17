@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
 hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 94%
@@ -22,13 +22,13 @@ Adobe Journey Optimizer 的程式碼型體驗管道可讓您在數位接觸點�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用程式碼型體驗管道提供產品建議
 
 了解如何透過 Adobe Journey Optimizer 中的程式碼型體驗管道，使用用戶端、伺服器端或混合式實施來提供個人化產品建議。
 
-[探索實施方法](../using/experience-decisioning/api-reference/deliver.md)
+[探索實施方法](../using/experience-decisioning/use-decision-policy.md)
 :::
 
 ::::
