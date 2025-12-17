@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [查詢適用性規則](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + 位置 {#placements}
+            + [建立版位](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [位置清單](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [查詢位置](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [更新版位](using/experience-decisioning/api-reference/exd-placements/update.md)
       + 管理決策項目 {#manage-decision-items}
          + [管理決策項目](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
@@ -716,7 +721,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
