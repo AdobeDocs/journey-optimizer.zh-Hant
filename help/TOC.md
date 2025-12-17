@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3015'
 ht-degree: 97%
 
 ---
@@ -597,38 +597,37 @@ ht-degree: 97%
       + [決策常見問題集](using/experience-decisioning/decisioning-faq.md)
       + API 參考 {#experience-decisioning-api-reference}
          + [API 參考](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + 建立並管理優惠項目 {#create-manage}
-            + 決定項目 {#decision-items}
-               + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [刪除決定項目](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [查找決定項目](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [更新決定項目](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + 項目集合 {#items-collections}
-               + [建立項目集合](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [刪除項目集合](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [項目集合清單](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [查找項目集合](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [更新項目集合](using/experience-decisioning/api-reference/items-collections/update.md)
-            + 選擇策略 {#selection-strategies}
-               + [建立選擇策略](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [刪除選擇策略](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [查找選擇策略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [選擇策略清單](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [更新選擇策略](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + 排名公式 {#ranking-formulas}
-               + [建立排名公式](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [刪除排名公式](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [查詢排名公式](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [選擇排名公式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [更新排名公式](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + 適用性規則 {#eligibility-rules}
-               + [建立適用性規則](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [刪除適用性規則](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [查詢適用性規則](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-      + [使用程式碼型體驗頻道提供優惠方案](using/experience-decisioning/api-reference/deliver.md)
+         + [開始使用Decisioning API](using/experience-decisioning/api-reference/getting-started.md)
+         + 決定項目 {#decision-items}
+            + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [刪除決定項目](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [查找決定項目](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [更新決定項目](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + 項目集合 {#items-collections}
+            + [建立項目集合](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [刪除項目集合](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [項目集合清單](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [查找項目集合](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [更新項目集合](using/experience-decisioning/api-reference/items-collections/update.md)
+         + 選擇策略 {#selection-strategies}
+            + [建立選擇策略](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [刪除選擇策略](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [查找選擇策略](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選擇策略清單](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [更新選擇策略](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + 排名公式 {#ranking-formulas}
+            + [建立排名公式](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [刪除排名公式](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [查詢排名公式](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [選擇排名公式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [更新排名公式](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + 適用性規則 {#eligibility-rules}
+            + [建立適用性規則](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [刪除適用性規則](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [查詢適用性規則](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
       + 管理決策項目 {#manage-decision-items}
          + [管理決策項目](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
@@ -717,7 +716,7 @@ ht-degree: 97%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
