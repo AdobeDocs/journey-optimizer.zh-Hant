@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: 5d1e62ba9f42a0828cc1faec5f0b7aa4e4f90a24
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Adobe Journey Optimizer是以原生方式建置在Adobe Experience Platform上�
 * **[瀏覽完整的API參考](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** — 存取所有Journey Optimizer API並直接進行測試
 * **[設定驗證](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** — 收集必要的認證，以開始使用API
 * **[決定管理API](../offers/api-reference/getting-started.md)** — 以程式設計方式管理優惠和決定
-* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** — 使用程式碼型體驗提供個人化的決定專案
+* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** — 使用程式碼型體驗提供個人化的決定專案
 
 ## Authentication {#authentication}
 
@@ -64,7 +64,7 @@ Journey Optimizer也提供Experience Decisioning API，透過程式碼式體驗�
 * **排名公式** — 設定自訂排名邏輯
 * **位置** — 定義決策專案出現的位置
 
-進一步瞭解[Experience Decisioning API參考](../experience-decisioning/api-reference/deliver.md)，並探索如何[使用程式碼式體驗來提供選件](../experience-decisioning/api-reference/deliver.md)。
+進一步瞭解[Experience Decisioning API參考](../experience-decisioning/api-reference/getting-started.md)，並探索如何[使用程式碼式體驗來提供選件](../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 相關主題 {#related-topics}
 
@@ -73,7 +73,7 @@ Journey Optimizer也提供Experience Decisioning API，透過程式碼式體驗�
 * [Adobe Journey Optimizer API參考](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
 * [驗證指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
 * [決策管理 API 開發人員指南](../offers/api-reference/getting-started.md)
-* [Experience Decisioning API參考](../experience-decisioning/api-reference/deliver.md)
+* [Experience Decisioning API參考](../experience-decisioning/api-reference/getting-started.md)
 
 **Journey Optimizer整合**
 

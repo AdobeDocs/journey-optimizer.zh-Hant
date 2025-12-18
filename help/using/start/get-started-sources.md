@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer支援各種型別的來源，以便連線至您現有的系統
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️在[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}中檢視完整清單
+➡️在[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}中檢視完整清單
 
 ## 開始之前 {#prerequisites}
 
@@ -81,7 +81,7 @@ Journey Optimizer支援各種型別的來源，以便連線至您現有的系統
 * **Source系統認證** — 您要連線的外部系統的驗證詳細資料
 * **瞭解您的資料** — 瞭解您需要哪些資料欄位，以及它們如何對應到Journey Optimizer設定檔
 
-➡️瞭解[存取控制和許可權](../../administration/permissions.md)
+➡️瞭解[存取控制和許可權](../administration/permissions.md)
 
 ## 來源如何運作 {#how-sources-work}
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer使用Adobe Experience Platform的來源架構。 以下�
 
 現在您已瞭解來源以及其重要原因：
 
-* 探索[來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}以尋找您系統的聯結器
+* 探索[來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}以尋找您系統的聯結器
 * 瞭解如何[建立來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * 瞭解[資料對應和轉換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * 瞭解如何[在歷程中使用匯入的資料](../building-journeys/journey-gs.md)
