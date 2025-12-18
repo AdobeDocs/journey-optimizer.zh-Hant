@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: 歷程，協調，快速入門，入門，功能
-source-git-commit: 4b14338cd2f152c95e87fa2a36f9c09f60b0806e
+source-git-commit: 0f6034572bdb1e77cca85aeb53358aeed8792145
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 44%
+source-wordcount: '848'
+ht-degree: 48%
 
 ---
 
@@ -33,44 +33,13 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 **準備好開始建置嗎？**&#x200B;在[此頁面](journey-gs.md)瞭解如何建立及設計您的第一個歷程。
 
-## 歷程快速入門 {#section-getting-started}
-
-探索Adobe Journey Optimizer中精通Journey Orchestration的關鍵區域。
-
->[!BEGINTABS]
-
->[!TAB 建立您的第一個歷程]
-
-瞭解如何從頭開始建立及設計您的第一個歷程，包括設定事件、新增活動以及在發佈前測試。
-
-[![了解更多](../assets/do-not-localize/learn-more-button.svg)](journey-gs.md)
-
->[!TAB 重要功能]
-
-探索您可以使用歷程做什麼：即時傳送、情境資料、內建和自訂動作、視覺化設計人員和測試功能。
-
-[![了解更多](../assets/do-not-localize/learn-more-button.svg)](#capabilities)
-
->[!TAB 使用案例]
-
-探索真實世界的歷程範例，包括歡迎電子郵件、傳送時間最佳化、加速傳遞和工作日目標定位。
-
-[![了解更多](../assets/do-not-localize/learn-more-button.svg)](#use-cases)
-
->[!TAB 學習資源]
-
-存取影片教學課程、逐步指南和檔案，以掌握歷程建立和疑難排解。
-
-[![了解更多](../assets/do-not-localize/learn-more-button.svg)](#learning-resources)
-
->[!ENDTABS]
 
 ## 主要功能 {#capabilities}
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **即時和批次傳遞**
 
@@ -80,7 +49,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **內容資料**
 
@@ -90,7 +59,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **內建動作**
 
@@ -100,7 +69,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **自訂動作**
 
@@ -110,7 +79,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **視覺化歷程設計工具**
 
@@ -120,7 +89,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試與最佳化**
 
@@ -140,47 +109,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
-
-**歡迎新訂閱者**
-
-當客戶訂閱您的服務時，傳送個人化的歡迎歷程，引導他們完成入門步驟。
-
-[了解更多](message-to-subscribers-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
-
-**最佳化電子郵件傳送時間**
-
-使用AI支援的傳送時間最佳化，在每個客戶最有可能參與時傳送電子郵件。
-
-[了解更多](send-time-optimization.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
-
-**加速傳遞**
-
-逐步增加訊息量，以提升您的傳送信譽並避免傳遞能力問題。
-
-[了解更多](ramp-up-deliveries-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
-
-**依據工作日**&#x200B;鎖定目標
-
-根據客戶進入您歷程的星期幾傳送不同內容。
-
-[了解更多](weekday-email-uc.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **透過使用案例學習**
 
@@ -190,7 +119,47 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+**歡迎新訂閱者**
+
+當客戶訂閱您的服務時，傳送個人化的歡迎歷程，引導他們完成入門步驟。
+
+[了解更多](message-to-subscribers-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**最佳化電子郵件傳送時間**
+
+使用AI支援的傳送時間最佳化，在每個客戶最有可能參與時傳送電子郵件。
+
+[了解更多](send-time-optimization.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**加速傳遞**
+
+逐步增加訊息量，以提升您的傳送信譽並避免傳遞能力問題。
+
+[了解更多](ramp-up-deliveries-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**依據工作日**&#x200B;鎖定目標
+
+根據客戶進入您歷程的星期幾傳送不同內容。
+
+[了解更多](weekday-email-uc.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **歷程常見問題集**
 
@@ -210,7 +179,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **建立和管理歷程**
 
@@ -220,7 +189,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **歷程活動**
 
@@ -230,7 +199,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **運算式與條件**
 
@@ -240,7 +209,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **疑難排解和監視**
 
@@ -250,7 +219,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **歷程設計工具總覽**
 
@@ -260,7 +229,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試與發佈**
 
@@ -275,7 +244,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 其他資源
 
