@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
+source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
 workflow-type: tm+mt
-source-wordcount: '7908'
+source-wordcount: '7909'
 ht-degree: 99%
 
 ---
@@ -1615,7 +1615,7 @@ HTML 類型內容範本現已棄用。請注意，您仍可使用之前在 [!DNL
 
 **同意原則**
 
-您現在可以透過電子郵件通道設定中的行銷動作，運用自訂同意政策。 [了解更多](../action/consent.md#surface-marketing-actions)
+您現在可以透過交易電子郵件通道設定中的行銷動作，運用自訂同意政策。 [了解更多](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
