@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
+source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3035'
 ht-degree: 96%
 
 ---
@@ -472,7 +472,9 @@ ht-degree: 96%
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express 工作](using/integrations/express.md)
       + [使用 Experience Manager 範本工作](using/integrations/aem-templates.md)
-      + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
+      + Experience Manager內容片段 {#fragments}
+         + [開始使用Experience Manager內容片段](using/integrations/aem-fragments-gs.md)
+         + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + [使用整合](using/integrations/external-sources.md)
@@ -721,7 +723,7 @@ ht-degree: 96%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
