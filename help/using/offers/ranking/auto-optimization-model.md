@@ -9,14 +9,18 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 0%
+source-wordcount: '1509'
+ht-degree: 1%
 
 ---
 
 # 自動最佳化模型 {#auto-optimization-model}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 自動最佳化模型旨在提供可大幅提升業務客戶所設定回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。 此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能進行最佳化。
 
@@ -71,7 +75,7 @@ ht-degree: 0%
 
 +++**技術詳細資料**
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
 
 從貝葉斯定理：
 

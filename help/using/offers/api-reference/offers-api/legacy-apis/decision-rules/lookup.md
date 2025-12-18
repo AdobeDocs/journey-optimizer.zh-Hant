@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查詢決定規則
 description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 12%
 
 ---
 
 # 查詢決定規則 {#lookup-decision-rule}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以向[!DNL Offer Library] API發出GET要求，查詢特定的決定規則，其中會包含決定規則`@id`或要求路徑中的決定規則名稱。
 

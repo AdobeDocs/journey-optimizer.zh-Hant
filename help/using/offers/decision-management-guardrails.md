@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 14%
+source-wordcount: '365'
+ht-degree: 18%
 
 ---
 
 # 決策管理護欄與限制 {#decision-management-guardrails}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 為確保最佳使用決定管理，請謹記以下護欄和限制。
 

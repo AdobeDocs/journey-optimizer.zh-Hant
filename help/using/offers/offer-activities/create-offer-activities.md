@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 7%
+source-wordcount: '2566'
+ht-degree: 9%
 
 ---
 
 # 建立決定 {#create-offer-activities}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 決定是優惠的容器，可運用優惠決定引擎，根據傳遞的目標來挑選最佳優惠。
 
@@ -45,7 +49,7 @@ ht-degree: 7%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
 
    ![](../assets/activities-name.png)
 
@@ -82,7 +86,7 @@ ht-degree: 7%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
 
    ![](../assets/activities-collection.png)
 
@@ -130,7 +134,7 @@ ht-degree: 7%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
@@ -235,7 +239,7 @@ ht-degree: 7%
 * 範圍1：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 * 範圍2：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 
-+++ **範例1**
++++ **範例 1**
 
 選取範圍如下：
 
@@ -244,7 +248,7 @@ ht-degree: 7%
 
 +++
 
-+++ **範例2**
++++ **範例 2**
 
 在此範例中，選件1已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -255,7 +259,7 @@ ht-degree: 7%
 
 +++
 
-+++ **範例3**
++++ **範例 3**
 
 在此範例中，選件1和選件3已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -275,7 +279,7 @@ ht-degree: 7%
 * 範圍1：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 * 範圍2：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 
-+++ **範例1**
++++ **範例 1**
 
 選取範圍如下：
 
@@ -284,7 +288,7 @@ ht-degree: 7%
 
 +++
 
-+++ **範例2**
++++ **範例 2**
 
 在此範例中，選件1已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -296,7 +300,7 @@ ht-degree: 7%
 
 +++
 
-+++ **範例3**
++++ **範例 3**
 
 在此範例中，選件1和選件3已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -382,7 +386,7 @@ ht-degree: 7%
 
   >[!CAUTION]
   >
-  >系統將無法再存取決定及其內容。 此動作無法復原。
+  >系統將無法再存取決定及其內容。 此動作無法還原。
   >
   >如果決定用於其他物件，則無法刪除該決定。
 

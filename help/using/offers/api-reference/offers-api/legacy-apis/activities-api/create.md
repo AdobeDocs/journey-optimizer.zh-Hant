@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 建立決定
 description: 決定包含通知優惠選擇的邏輯。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 13%
+source-wordcount: '125'
+ht-degree: 25%
 
 ---
 
 # 建立決定 {#create-decision}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以對[!DNL Offer Library] API提出POST要求，同時提供容器ID來建立決定。
 

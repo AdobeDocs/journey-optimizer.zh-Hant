@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: 更新集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 10%
+source-wordcount: '135'
+ht-degree: 22%
 
 ---
 
 
 # 更新集合限定詞 {#update-collection-qualifier}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以透過向選件程式庫API發出PATCH請求，修改或更新集合限定詞（先前稱為「標籤」）。
 

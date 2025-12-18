@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 16%
+source-wordcount: '824'
+ht-degree: 18%
 
 ---
 
 # 建立個人化產品建議 {#create-personalized-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 建立優惠方案之前，請確定您已建立：
 
@@ -131,7 +135,7 @@ ht-degree: 16%
 
 選取「**[!UICONTROL 編輯]**」按鈕以返回優惠方案版本模式，您可以在其中修改優惠方案的[詳細資料](#create-offer)、[代表](add-representations.md#representations)，以及編輯[適用性規則和限制](add-constraints.md#eligibility)。
 
-選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。**&#x200B;**&#x200B;**&#x200B;**
+選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。********
 
 若要再次將狀態設定為&#x200B;**[!UICONTROL 已核准]**，請選取現在顯示的對應按鈕。
 

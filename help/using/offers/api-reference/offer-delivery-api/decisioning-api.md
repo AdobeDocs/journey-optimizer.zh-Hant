@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 傳遞優惠方案
 description: 決定管理是服務和UI程式的集合，可讓行銷人員使用商業邏輯和決定規則，跨頻道和應用程式建立和提供一般使用者個人化優惠體驗。
+badge: label="舊版" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 2%
+source-wordcount: '1112'
+ht-degree: 4%
 
 ---
 
 # 使用Decisioning API傳遞優惠方案 {#decisioning-api}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
 
 使用決定管理，您可以使用商業邏輯和決定規則，跨頻道和應用程式建立並提供使用者個人化的優惠體驗。 優惠方案是行銷訊息，其中可能包含與其關聯的規則，以指定誰有資格檢視優惠方案。
 

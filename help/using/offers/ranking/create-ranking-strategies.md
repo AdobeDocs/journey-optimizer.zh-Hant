@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 23%
+source-wordcount: '497'
+ht-degree: 26%
 
 ---
 
 # 建立 AI 模型 {#ai-rankings}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]可讓您建立&#x200B;**AI模型**，以根據您的業務目標來排名優惠。
 
@@ -59,7 +63,7 @@ ht-degree: 23%
    >* **曝光事件** （顯示的選件）
    >* **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
    >
-   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 請在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)中進一步瞭解此專案。
+   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 請在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)中進一步瞭解此專案。
 
 1. 選取轉換和曝光事件收集所在的資料集。 瞭解如何在[此區段](../data-collection/create-dataset.md)中建立這類資料集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -89,7 +93,7 @@ ht-degree: 23%
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-現在，每次顯示和/或按一下優惠時，您都希望&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hant#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自動擷取對應的事件。
+現在，每次顯示和/或按一下優惠時，您都希望&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自動擷取對應的事件。
 
 若要能夠在事件型別（顯示優惠或按一下優惠）中傳送，您必須在傳送至Adobe Experience Platform的體驗事件中，為每個事件型別設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
 
@@ -97,4 +101,4 @@ ht-degree: 23%
 
 瞭解如何建立個人化最佳化模型，以及如何將其套用至決定。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445962?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

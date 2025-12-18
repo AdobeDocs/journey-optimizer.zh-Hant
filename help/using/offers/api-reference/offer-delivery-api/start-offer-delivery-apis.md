@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 開始使用傳遞產品建議 API
 description: 深入瞭解可用於提供個人化優惠的API。
+badge: label="舊版" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '487'
+ht-degree: 7%
 
 ---
 
 # 開始使用傳遞產品建議 API {#about-decisioning-apis}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
 
 您可以使用&#x200B;**決策**&#x200B;或&#x200B;**Edge決策** API來傳遞優惠方案。 此外，**批次決策** API可讓您透過一次呼叫，將優惠傳送給指定對象中的所有設定檔。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 

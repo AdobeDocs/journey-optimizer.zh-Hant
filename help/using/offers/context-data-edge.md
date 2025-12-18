@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 4%
 
 ---
 
 # 內容資料與邊緣決策請求 {#edge}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 本節將引導您在Edge Decisioning請求中傳遞內容資料，並在適用性規則中使用這些資料。 我們將探索端對端使用案例，以示範如何根據客戶使用的裝置型別提供個人化優惠方案。
 
@@ -52,11 +56,11 @@ ht-degree: 2%
 
    ![XDM結構描述顯示具有語言和deviceType屬性的選件內容欄位群組](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   在[!DNL Adobe Experience Platform] [體驗資料模型(XDM)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
+   在[!DNL Adobe Experience Platform] [體驗資料模型(XDM)指南](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}中瞭解如何使用結構描述
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 

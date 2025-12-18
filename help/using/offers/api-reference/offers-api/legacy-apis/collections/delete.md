@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 刪除集合
 description: 集合是優惠方案的子集，根據行銷人員定義的預先定義條件，例如優惠方案類別。
 feature: Decision Management, API, Collections
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '172'
+ht-degree: 16%
 
 ---
 
 # 刪除集合 {#delete-collection}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 有時可能必須移除(DELETE)集合。 只能刪除您在租使用者容器中建立的集合。 使用您要刪除之集合的$id，對[!DNL Offer Library] API執行DELETE要求來達成此目的。
 

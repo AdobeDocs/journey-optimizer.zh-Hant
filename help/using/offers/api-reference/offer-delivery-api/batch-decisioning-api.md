@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 批次決策 API
 description: 瞭解如何使用批次決策API ，在預先定義的決策範圍內為對象的設定檔選取最佳選件。
+badge: label="舊版" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 3%
+source-wordcount: '747'
+ht-degree: 5%
 
 ---
 
 
 # 使用[!DNL Batch Decisioning] API傳遞優惠方案 {#deliver-offers-batch}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API可讓組織在一次呼叫中對特定對象中的所有設定檔使用決策功能。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 
@@ -33,7 +38,7 @@ ht-degree: 3%
 
 * 將資料集匯出至訊息傳送供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -182,4 +187,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[的](../../get-started/starting-offer-decisioning.md)概觀。
+依照此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[的](../../get-started/starting-offer-decisioning.md)概觀。

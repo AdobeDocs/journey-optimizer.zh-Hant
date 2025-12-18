@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 31%
+source-wordcount: '647'
+ht-degree: 33%
 
 ---
 
 # 建立版位 {#create-placements}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -71,11 +75,11 @@ ht-degree: 31%
 
    * **[!UICONTROL 包含內容]** / **[!UICONTROL 包含中繼資料]**：指定是否應該在API回應中傳回選件的內容和中繼資料。 您可以選擇包含所有中繼資料或僅包含特定欄位。「包含後設資料」的值預設為「真」。
 
-   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=zh-Hant)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
+   如果您使用[決策API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html)，也可以將這些引數直接設定到您的API要求中。 不過，在使用者介面中設定這些變數有助於節省時間，因為您不需要在每個API要求中傳遞這些變數。 請注意，如果您同時在使用者介面和API要求中設定引數，來自API要求的值將會優先於來自介面的值。
 
    >[!NOTE]
    >
-   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=zh-Hant&)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
+   >如果您使用[Edge Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)，則無法在您的請求中設定這些引數。 您必須在此畫面中定義這些變數。
    >
    >如果您使用[批次決策API](../api-reference/offer-delivery-api/batch-decisioning-api.md)，您可以在此畫面或您的API要求中設定這些引數。 如果畫面和APi請求之間的引數值不相符，則會使用請求值。
 

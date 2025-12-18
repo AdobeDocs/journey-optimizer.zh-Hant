@@ -9,14 +9,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 64%
+source-wordcount: '113'
+ht-degree: 69%
 
 ---
 
 # 存取事件 XDM 欄位 {#decisioningevents-xdm-schema}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 您可以直接從包含決定管理事件的資料集存取DecisioningEvents XDM架構。
 

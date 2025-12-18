@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 刪除決定規則
 description: 決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 7%
+source-wordcount: '138'
+ht-degree: 19%
 
 ---
 
 # 刪除決定規則 {#delete-decision-rule}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 有時可能必須移除(DELETE)決定規則。 這是透過使用您要刪除的決定規則[!DNL Offer Library]對`id` API執行DELETE要求來完成。
 

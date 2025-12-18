@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 更新投放位置
 description: 版位是用來展示優惠方案的容器。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 9%
+source-wordcount: '161'
+ht-degree: 19%
 
 ---
 
 # 更新位置 {#update-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以透過向[!DNL Offer Library] API發出PATCH請求來修改或更新位置。
 

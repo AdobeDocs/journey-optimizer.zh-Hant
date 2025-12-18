@@ -10,14 +10,18 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 33%
+source-wordcount: '654'
+ht-degree: 35%
 
 ---
 
 # 優惠資料庫使用者介面 {#user-interface}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 左側邊欄中的&#x200B;**[!UICONTROL 決定管理]**&#x200B;區段提供兩個功能表，可讓您存取決定管理功能：
 

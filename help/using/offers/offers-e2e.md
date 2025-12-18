@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 4%
+source-wordcount: '1118'
+ht-degree: 6%
 
 ---
 
 # 使用案例：設定個人化優惠以在電子郵件中使用 {#configure-add-personalized-offers-email}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 本節提供端對端範例，說明如何根據您先前建立的決定，設定優惠方案並在電子郵件中使用。
 
@@ -171,7 +175,7 @@ ht-degree: 4%
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。**&#x200B;**
+1. 檢閱您的遞補優惠，然後按一下[儲存並核准]。****
 
 ![](assets/offers-e2e-fallback.png)
 

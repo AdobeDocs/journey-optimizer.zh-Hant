@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 23%
+source-wordcount: '203'
+ht-degree: 30%
 
 ---
 
 # 建立集合限定詞 {#create-tags}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
@@ -38,7 +42,7 @@ ht-degree: 23%
 
 1. 移至&#x200B;**[!UICONTROL 集合限定詞]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立集合限定詞]**。
 
-1. 指定集合限定詞的名稱，然後按一下[儲存]。**&#x200B;**
+1. 指定集合限定詞的名稱，然後按一下[儲存]。****
 
    ![](../assets/tags_create.png)
 

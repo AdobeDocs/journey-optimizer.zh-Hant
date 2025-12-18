@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 9%
+source-wordcount: '409'
+ht-degree: 13%
 
 ---
 
 # 建立後備產品建議 {#create-fallback-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -61,7 +65,7 @@ ht-degree: 9%
    >
    >遞補優惠應包含[決定](../offer-activities/create-offer-activities.md)內使用的所有代表。 例如，如果您在決定中有5個優惠方案，而且每個優惠方案都有不同的代表方式，則備援優惠方案應包含5個代表方式。
 
-1. 新增遞補優惠的宣告後，會顯示摘要。 如果所有專案皆已正確設定，且您的遞補優惠已準備好呈現給客戶，請按一下[完成]&#x200B;**&#x200B;**，然後選取[儲存]並核准&#x200B;**[!UICONTROL 。]**
+1. 新增遞補優惠的宣告後，會顯示摘要。 如果所有專案皆已正確設定，且您的遞補優惠已準備好呈現給客戶，請按一下[完成]****，然後選取[儲存]並核准&#x200B;**[!UICONTROL 。]**
 
    您也可以將遞補優惠儲存為草稿，以便稍後編輯及核准。
 

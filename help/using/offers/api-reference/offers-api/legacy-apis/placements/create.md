@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 建立位置
 description: 版位是用來展示優惠方案的容器。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 11%
+source-wordcount: '149'
+ht-degree: 22%
 
 ---
 
 # 建立位置 {#create-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以對[!DNL Offer Library] API發出POST要求，同時提供容器ID來建立位置。
 

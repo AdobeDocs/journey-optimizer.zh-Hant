@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 建立個人化產品建議
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '175'
+ht-degree: 20%
 
 ---
 
 # 建立個人化產品建議 {#create-personalized-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 

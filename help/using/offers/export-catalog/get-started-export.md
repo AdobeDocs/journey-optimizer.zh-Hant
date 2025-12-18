@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '115'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
 
-# 開始使用產品建議目錄匯出 {#export-catalog}
+# 開始使用產品建議目錄匯出   {#export-catalog}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 Journey Optimizer 可讓您自動將產品建議目錄匯出至 Adobe Experience Platform。
 

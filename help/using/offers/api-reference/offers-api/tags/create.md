@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: 建立集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 13%
+source-wordcount: '139'
+ht-degree: 24%
 
 ---
 
 
 # 建立集合限定詞 {#create-tag}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以透過向優惠資料庫API發出POST要求，以建立集合限定詞（先前稱為「標籤」）。
 

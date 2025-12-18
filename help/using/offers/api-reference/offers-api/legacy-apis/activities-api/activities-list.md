@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 列舉決定
 description: 決定包含通知優惠選擇的邏輯。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 12%
 
 ---
 
 # 列舉決定 {#list-decisions}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 決定包含通知優惠選擇的邏輯。
 

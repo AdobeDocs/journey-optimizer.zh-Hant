@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 清單位置
 description: 版位是用來展示優惠方案的容器。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 11%
+source-wordcount: '306'
+ht-degree: 16%
 
 ---
 
 # 清單位置 {#list-placements}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至產品建議時，系統會要求您選取可顯示該內容的版位。
 

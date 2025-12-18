@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 5%
+source-wordcount: '227'
+ht-degree: 12%
 
 ---
 
 # 開始使用內容資料 {#context-data}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 作為決策請求的一部分傳送的資料被視為內容資料。 例如，您可以在決定引擎中運用內容資料，以設計決定規則，要求作出決定請求時目前的天氣為≥80度。
 

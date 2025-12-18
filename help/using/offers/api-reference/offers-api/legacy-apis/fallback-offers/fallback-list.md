@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 列出後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 10%
 
 ---
 
 # 列出後備產品建議 {#list-fallback-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶。 建立遞補優惠的步驟包含建立一或多個表示，例如建立優惠時。
 

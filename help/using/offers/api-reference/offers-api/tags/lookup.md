@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 查詢集合限定詞
 description: 集合限定詞可讓您更妥善地組織和排序優惠方案。
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 19%
 
 ---
 
 # 查詢集合限定詞 {#look-up-tag}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 您可以向選件程式庫API發出GET請求，在請求路徑中包含集合限定詞ID，藉此查詢特定的集合限定詞（先前稱為「標籤」）。
 

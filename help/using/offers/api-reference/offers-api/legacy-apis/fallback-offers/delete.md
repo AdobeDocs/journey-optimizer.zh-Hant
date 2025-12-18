@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 刪除後備產品建議
 description: 如果客戶不符合其他優惠方案的資格，系統會傳送遞補優惠方案給客戶
 feature: Decision Management, API
+badge: label="舊版" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 17%
 
 ---
 
 # 刪除後備產品建議 {#delete-fallback-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 有時可能必須移除(DELETE)遞補優惠。 您只能在租使用者容器中建立的遞補優惠方案，才會被刪除。 使用您要刪除之遞補優惠的$id，對[!DNL Offer Library] API執行DELETE要求來達成此目的。
 

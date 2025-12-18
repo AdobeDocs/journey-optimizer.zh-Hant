@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 12%
+source-wordcount: '104'
+ht-degree: 26%
 
 ---
 
 # 存取匯出的產品建議目錄 {#access-exported-catalog}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 可在Adobe Experience Platform **[!UICONTROL 資料集]**&#x200B;功能表中存取匯出的優惠目錄。 系統會為您選件資料庫的每個物件建立一個資料集。
 
