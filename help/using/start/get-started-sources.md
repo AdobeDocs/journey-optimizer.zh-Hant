@@ -71,7 +71,7 @@ Journey Optimizer支援各種型別的來源，以便連線至您現有的系統
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️在[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}中檢視完整清單
+➡️在[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}中檢視完整清單
 
 ## 開始之前 {#prerequisites}
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer使用Adobe Experience Platform的來源架構。 以下�
 
 現在您已瞭解來源以及其重要原因：
 
-* 探索[來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}以尋找您系統的聯結器
+* 探索[來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}以尋找您系統的聯結器
 * 瞭解如何[建立來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * 瞭解[資料對應和轉換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
 * 瞭解如何[在歷程中使用匯入的資料](../building-journeys/journey-gs.md)
