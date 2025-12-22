@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 追蹤，監視，分析，報告，傳遞能力
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer提供通道專用的追蹤功能。 以下說明如何為每�
 
 * **設定URL追蹤引數** — 在表面層級設定追蹤引數，以自動將行銷活動識別碼（utm_campaign、utm_source等）附加至所有電子郵件連結。 這可讓您在整個數位生態系統中進行歸因追蹤。 [了解更多](../email/url-tracking.md)
 
-* **追蹤片段中的連結** — 會自動追蹤可重複使用內容片段中的所有連結，提供共用內容元件之間參與情況的完整檢視。
+* **追蹤已儲存片段中的連結** — 在歷程或行銷活動中啟用追蹤時，當重複使用此片段時，也會追蹤從此歷程或行銷活動的內容儲存的片段中的連結。 [了解更多](../content-management/save-fragments.md)
 
 * **新增映象頁面追蹤** — 啟用映象頁面選項，以建立您電子郵件的網頁版本，並自動追蹤檢視者。 [了解更多](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ Journey Optimizer提供通道專用的追蹤功能。 以下說明如何為每�
 
 >[!NOTE]
 >
->推播追蹤需要行動SDK實施。 確認應用程式已正確設定Adobe Experience Platform Mobile SDK。
+>推播追蹤需要行動SDK實施。 確認應用程式已正確設定Adobe Experience Platform Mobile SDK。 [了解更多](../push/push-configuration.md#integrate-mobile-app)
 
 **分析參與：**&#x200B;檢視報告中的點進率、按鈕效能以及追蹤的連結詳細資料。 [行銷活動報告](../reports/campaign-global-report-cja-push.md) | [歷程報告](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 * 設定為Adobe Experience Platform設定的資料串流
 * 使用Web SDK或Mobile SDK在程式碼中實作事件集合
-* 在使用者檢視或按一下個人化內容時傳送主張互動事件
+* 顯示或點選內容時傳送顯示和互動事件
 
 [進一步瞭解實作必要條件](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 +++內容卡追蹤
 
-內容卡會自動追蹤使用者互動。 設定內容和顯示規則以控制追蹤行為。
+[內容卡](../content-card/create-content-card.md)會自動追蹤使用者互動。 設定內容和顯示規則以控制追蹤行為。
 
 **如何實作：**
 
@@ -201,7 +201,7 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 +++登陸頁面追蹤
 
-登陸頁面隨附不需要額外設定的內建追蹤功能。 Journey Optimizer會自動擷取造訪、轉換和跳出率。
+[登陸頁面](../reports/lp-report-global-cja.md)包含不需要額外設定的內建追蹤。 Journey Optimizer會自動擷取造訪、轉換和跳出率。
 
 **自動追蹤的內容：**
 
@@ -210,7 +210,7 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 * **跳出率** — 未互動的訪客百分比
 * **效能趨勢** — 顯示量度如何演化的時間序列資料
 
-**最佳化效能：**&#x200B;使用追蹤資料來調整表單欄位、測試內容變化、識別有效的流量來源，並減少放棄率。 [了解更多](../reports/lp-report-global-cja.md)
+**最佳化效能：**&#x200B;使用追蹤資料來調整表單欄位、測試內容變化、識別有效的流量來源，並減少放棄率。
 
 +++
 
@@ -218,19 +218,11 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 除了管道層級追蹤，設定追蹤來測量整體效能並瞭解行銷方案的客戶行為。
 
-**設定行銷活動追蹤：**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **定義轉換量度** — 指定哪些動作會計為轉換（購買、註冊、下載），以測量參與量度以外的促銷活動成效。
-
-* **設定排程** — 設定傳送時間最佳化，以追蹤不同計時策略的效能，並識別最佳傳送期間。 [了解更多](../building-journeys/send-time-optimization.md)
-
-**設定歷程追蹤：**
-
 * **定義自訂成功量度** — 設定符合您業務目標（購買、報名、續約等）的特定KPI，超出標準參與量度。 [了解更多](../building-journeys/success-metrics.md)
 
 * **啟用歷程步驟事件** — 啟用詳細追蹤客戶在歷程中採取的每個動作。 如此一來，入口/出口點、路徑選取和出口位置都可清楚顯示。 [了解更多](../reports/journey-step-events-overview.md)
+
+* **設定排程** — 設定傳送時間最佳化，以追蹤不同計時策略的效能，並識別最佳傳送期間。 [了解更多](../building-journeys/send-time-optimization.md)
 
 * **設定自訂動作監視** — 設定與外部系統整合的追蹤，以監視API呼叫、回應時間和錯誤模式。 [了解更多](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效
 * **閱聽追蹤** — 對於電子郵件，閱聽會被自動追蹤。 針對程式碼型體驗，您必須在程式碼中實作主張顯示事件。
 * **點選追蹤** — 決策專案的點選會在電子郵件中自動追蹤；程式碼型體驗需要實作點選事件。
 
-**程式碼型追蹤的必要條件：**&#x200B;若要追蹤程式碼型體驗中的決策，請確定您的實作使用Web SDK或Mobile SDK將主張互動事件（顯示和點按）傳送至Adobe Experience Platform。 [了解更多](../experience-decisioning/gs-experience-decisioning.md)
+**程式碼型追蹤的必要條件：**&#x200B;若要追蹤程式碼型體驗中的決策，請確定您的實作使用Web SDK或Mobile SDK將主張互動事件（顯示和點按）傳送至Adobe Experience Platform。 [了解更多](../experience-decisioning/data-collection/schema-requirement.md)
 
 **分析效能：**&#x200B;檢視決策KPI、比較決策專案、分析選擇策略，以及監視報告中的AI模型效能。 [了解更多](../experience-decisioning/cja-reporting.md)
 
@@ -288,7 +280,7 @@ Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效
 
 **傳遞能力監視：**
 
-* **定期檢閱隱藏清單**，瞭解位址為何遭到封鎖，並維護清單衛生。 [了解更多](../reports/suppression-list.md)
+* **請定期檢閱隱藏清單**，瞭解位址為何遭到封鎖，並維護清單衛生。 [了解更多](../reports/suppression-list.md)
 
 * **分析傳遞錯誤**&#x200B;以診斷失敗並採取更正動作。 [了解更多](../configuration/email-error-types.md)
 
