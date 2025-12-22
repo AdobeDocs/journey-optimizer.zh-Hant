@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [核准請求](using/test-approve/review-approve-request.md)
 + 監視與疑難排解 {#monitor}
    + [監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [系統警示](using/reports/alerts.md)
-   + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
-   + [移難排解文章](using/start/troubleshooting.md)
-   + 歷程疑難排解 {#troubleshoot-journey}
-      + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
-      + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
-      + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
-      + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
+   + [開始使用追蹤](using/start/get-started-tracking.md)
+   + 電子郵件傳遞能力 {#deliverability}
+      + [電子郵件傳遞能力](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [開始使用傳遞能力](using/reports/deliverability.md)
+      + [瞭解禁止名單](using/reports/suppression-list.md)
+      + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
+   + 監視警示和錯誤代碼 {#monitor-alerts-errors}
+      + [系統警示](using/reports/alerts.md)
+      + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
+   + 疑難排解 {#troubleshooting}
+      + [疑難排解常見問題](using/start/troubleshooting.md)
+      + 歷程疑難排解 {#troubleshoot-journey}
+         + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
+         + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
+         + [疑難排解傳入動作](using/building-journeys/troubleshooting-inbound.md)
+         + [疑難排解自訂動作](using/action/troubleshoot-custom-action.md)
 + 通訊管道 {#channels}
    + [開始使用通訊管道](using/channels/gs-channels.md)
    + 電子郵件管道 {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [標頭參數](using/email/header-parameters.md)
          + [URL 追蹤](using/email/url-tracking.md)
          + [個人化電子郵件組態](using/email/surface-personalization.md)
-      + 電子郵件傳遞能力 {#deliverability}
-         + [電子郵件傳遞能力](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [開始使用傳遞能力](using/reports/deliverability.md)
-         + [瞭解禁止名單](using/reports/suppression-list.md)
-         + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
       + [開始使用應用程式內的內容](using/in-app/get-started-in-app.md)
@@ -721,7 +724,7 @@ ht-degree: 96%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
