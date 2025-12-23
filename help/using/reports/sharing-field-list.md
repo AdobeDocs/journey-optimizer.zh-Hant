@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -53,7 +53,7 @@ ht-degree: 9%
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
 | ID | 字串 | 設定檔識別碼會識別歷程中傳送/使用的設定檔。 例如： foo@adobe.com。 |
-| 名稱空間 | 字串 | 此欄位說明歷程中使用的設定檔所參考的名稱空間。 例如：電子郵件、ECID |
+| namespace | 字串 | 此欄位說明歷程中使用的設定檔所參考的名稱空間。 例如：電子郵件、ECID |
 
 ## serviceEvents {#servicevents-field}
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
@@ -95,7 +95,7 @@ ht-degree: 9%
 
   **疑難排解**：確認至少有一個歷程為即時狀態且已針對區段進行設定，驗證區段ID。
 
-* **JOURNEY_INSTANCE_ID_NOT_CREATE**：系統無法為客戶建立歷程執行個體。
+* **JOURNEY_INSTANCE_ID_NOT_CREATED**：系統無法為客戶建立歷程執行個體。
 
   **常見原因**：重複的事件、大量事件、系統資源限制。
 
