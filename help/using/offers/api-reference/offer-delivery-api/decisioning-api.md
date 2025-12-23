@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1129'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | 此物件是去重複化規則的控制項結構。 它包含一系列標幟，標幟指出是否可以在特定維度中建議相同的選項。 若標幟設為true，表示允許重複專案，且標幟指示的類別中不應移除重複專案。 設為false的標幟表示決定引擎不應跨維度提出相同主張，而是為其中一個子決定挑選下一個最佳選項。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | 若設為true，系統可能會將相同選項指派給多個決策。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | 若設為true，系統可能會將相同選項指派給多個版位。 | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | 如果您正在定位CSV對象，請新增此引數並將其設為「true」 | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | 如果您正在定位自訂上傳(CSV)對象，且想要擷取優惠決定回應中的擴充資料，請將此引數設為`true`。 [進一步瞭解如何將CSV對象用於決策](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | 識別用來控管設定檔存取服務傳回資料的合併原則。 如果未在請求中指定，決策管理將不會傳遞任何設定檔存取服務，否則將會傳遞呼叫者提供的ID。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 設定回應內容格式的一組標幟。 |  |
 | `xdm:responseFormat.xdm:includeContent` | 布林值，如果設為`true`，會包含回應的內容。 | `"xdm:includeContent": true` |
