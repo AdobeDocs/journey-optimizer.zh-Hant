@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 38%
+source-wordcount: '1139'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,75 @@ Adobe Journey Optimizer 中的歷程可讓您建立個人化的多步驟客戶�
 Journey Optimizer [歷程設計器](using-the-journey-designer.md)提供行銷人員和歷程從業人員跨管道協調多步驟1:1歷程所需的一切。 這包括直覺式的拖放畫布，以協調歷程的每個步驟、定義目標對象，並包含目標對象成員將根據行為、情境資料和業務事件看到的跨管道訊息、選件和內容。 探索[真實的使用案例](jo-use-cases.md)，瞭解如何套用這些功能。
 
 ➡️ [在影片中探索 Journey Optimizer](#video)
+
+## 歷程概觀
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+開始建立歷程
+
+設計、測試、發佈和追蹤客戶歷程的逐步指南，以建立個人化的全管道行銷活動。
+
+[建立您的第一個歷程](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration — 完整指南
+
+涵蓋Adobe Journey Optimizer中歷程建立、管理和最佳化各個層面的完整檔案。
+
+[探索完整的指南](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+管理您的歷程
+
+使用篩選、輪廓管理、時區和最佳化技術的工具，有效管理客戶歷程。
+
+[了解歷程管理](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+歷程活動
+
+探索如何在歷程中設定和使用活動，例如觸發程序、決策步驟、客群管理和個人化訊息。
+
+[探索活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+建立運算式
+
+掌握如何使用強大的工具和語法為動態工作流程、資料操控和進階歷程協調建立運算式。
+
+[了解運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+歷程使用案例
+
+探索 Adobe Journey Optimizer 的真實使用案例，包括多管道傳訊以及與外部系統的整合。
+
+[探索使用案例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## 您可以使用歷程做什麼？
+
+在歷程設計工具中，行銷人員可以在事件發生時，透過任何頻道，傳送即時觸發的 1:1 訊息。 例如，當客戶訂閱服務時，它可以[觸發歡迎電子郵件](message-to-subscribers-uc.md)，鼓勵他們第一次登入應用程式並設定其偏好設定。 完成購買、開啟電子郵件和登入應用程式等操作，可用於推動新客戶完成其歷程。
 
 ## 歷程型別
 
@@ -124,78 +193,17 @@ Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用
 
 >[!ENDTABS]
 
-## 歷程概觀
+## 歷程Designer{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+[歷程設計器](using-the-journey-designer.md)是直覺式的拖放畫布，可讓您以視覺化方式建置和協調客戶歷程。 它提供您設計多步驟體驗所需的一切：
 
-開始建立歷程
+* **[內建頻道動作](journeys-message.md)** — 透過電子郵件、推播通知、SMS/MMS、應用程式內、Web、程式碼型體驗等傳送訊息，全都直接在Journey Optimizer中設計
+* **[自訂動作](using-custom-actions.md)** — 整合協力廠商系統，以在外部平台中傳送訊息或觸發工作流程
+* **[協調活動](about-journey-activities.md)** — 新增邏輯、條件、等待時間和對象鎖定目標，以建立複雜的客戶體驗
+* **[條件](condition-activity.md)** — 根據設定檔屬性、對象成員資格或即時事件來分支您的歷程
+* **[運算式](expression/expressionadvanced.md)** — 使用運算式編輯器建置進階邏輯和個人化
 
-設計、測試、發佈和追蹤客戶歷程的逐步指南，以建立個人化的全管道行銷活動。
-
-[建立您的第一個歷程](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
-
-Journey Orchestration — 完整指南
-
-涵蓋Adobe Journey Optimizer中歷程建立、管理和最佳化各個層面的完整檔案。
-
-[探索完整的指南](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
-
-管理您的歷程
-
-使用篩選、輪廓管理、時區和最佳化技術的工具，有效管理客戶歷程。
-
-[了解歷程管理](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
-
-歷程活動
-
-探索如何在歷程中設定和使用活動，例如觸發程序、決策步驟、客群管理和個人化訊息。
-
-[探索活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
-
-建立運算式
-
-掌握如何使用強大的工具和語法為動態工作流程、資料操控和進階歷程協調建立運算式。
-
-[了解運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
-
-歷程使用案例
-
-探索 Adobe Journey Optimizer 的真實使用案例，包括多管道傳訊以及與外部系統的整合。
-
-[探索使用案例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## 使用案例{#uc-journey}
-
-在歷程設計工具中，行銷人員可以在事件發生時，透過任何頻道，傳送即時觸發的 1:1 訊息。 例如，當客戶訂閱服務時，它可以[觸發歡迎電子郵件](message-to-subscribers-uc.md)，鼓勵他們第一次登入應用程式並設定其偏好設定。 完成購買、開啟電子郵件和登入應用程式等操作，可用於推動新客戶完成其歷程。
-
-[歷程設計器](using-the-journey-designer.md)提供[內建頻道操作](journeys-message.md)，可支援輸出訊息，例如電子郵件、推播通知和 SMS/MMS，以及傳入頻道，包括行動應用程式、網站和直接在 Journey Optimizer 建立的程式碼型體驗。 您也可以使用第三方系統來傳送訊息 (不論是透過電子郵件、文字或其他管道)，Journey Optimizer 包含[自訂動作](using-custom-actions.md)，以允許這些系統直接從歷程設計器整合到歷程中。
-
-瞭解如何在下列[端到端使用案例](jo-use-cases.md)中建立歷程。
+瞭解如何在這些端對端使用案例[中使用歷程設計器](jo-use-cases.md)。
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Journey Orchestration — 完整指南
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他資源 {#additional-resources}
 
