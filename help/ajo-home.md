@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 91%
@@ -56,7 +56,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -66,7 +66,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -76,27 +76,27 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
 透過此深入指南，設計、協調、管理和最佳化個人化客戶歷程。
 
-[探索歷程](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+[探索歷程](using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
 針對有效目標定位而建立、管理和最佳化各種行銷活動類型的詳細指引。
 
-[了解行銷活動](./rp_landing_pages/campaigns-landing-page.md)
+[了解行銷活動](using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -106,7 +106,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

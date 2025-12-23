@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer 說明
 description: Adobe Journey Optimizer 說明
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 Adobe Journey Optimizer
 
@@ -31,27 +31,27 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
 透過此深入指南，設計、協調、管理和最佳化個人化客戶歷程。
 
-[探索歷程](orchestrate-journeys-landing-page.md)
+[探索歷程](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
 針對有效目標定位而建立、管理和最佳化各種行銷活動類型的詳細指引。
 
-[了解行銷活動](campaigns-landing-page.md)
+[了解行銷活動](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
