@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 38%
 
 ---
 
@@ -35,11 +35,100 @@ Journey Optimizer [歷程設計器](using-the-journey-designer.md)提供行銷�
 
 ➡️ [在影片中探索 Journey Optimizer](#video)
 
+## 歷程型別
+
+Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用案例和進入機制而設計。 根據您想要設定檔輸入的方式選擇正確的型別，並逐步完成客戶體驗。
+
+>[!BEGINTABS]
+
+>[!TAB 單一歷程]
+
+**單一歷程**&#x200B;會在特定動作發生時（例如購買、應用程式登入或表單提交），由事件個別觸發。 個人檔案在收到事件時即時進入歷程，一次進入一個，因此非常適合個人化、行為導向的體驗。
+
+**主要特性：**
+
+* 即時、事件導向輸入
+* 個別設定檔處理中
+* 最適合異動訊息和立即回應
+* 支援來自觸發事件的內容資料
+
+**使用案例：**
+
+* 購買後的訂單確認
+* 有人訂閱時歡迎電子郵件
+* 瀏覽行為所觸發的購物車放棄率
+* 密碼重設通知
+
+➡️ [瞭解事件設定](../event/about-events.md) | [一般事件](general-events.md) | [傳送訊息給訂閱者使用案例](message-to-subscribers-uc.md)
+
+>[!TAB 讀取對象歷程]
+
+**讀取對象歷程**&#x200B;從Adobe Experience Platform中的對象開始，並批次傳送訊息給該對象中的所有設定檔。 此歷程型別會一次處理整個對象，非常適合用於排程行銷活動和週期性通訊。
+
+**主要特性：**
+
+* 批次處理對象區段
+* 已排程或一次性執行
+* 所有設定檔同時輸入
+* 支援大規模通訊
+
+**使用案例：**
+
+* 每月電子報
+* 目標區段的促銷活動
+* 向所有客戶發佈產品
+* 季節性行銷活動
+
+➡️ [瞭解閱讀對象活動](read-audience.md) | [開始使用對象](../audience/about-audiences.md) | [多頻道傳訊使用案例](journeys-uc.md)
+
+>[!TAB 對象資格歷程]
+
+**當設定檔符合（或退出）特定對象區段資格時，就會觸發**&#x200B;對象資格歷程。 設定檔會即時符合對象條件，因此可個別進入歷程，當客戶行為變更時可立即參與。
+
+**主要特性：**
+
+* 以資格為基礎的即時輸入
+* 持續監控對象會籍
+* 符合資格的個別設定檔處理
+* 串流受眾體驗最佳
+
+**使用案例：**
+
+* VIP層級升級通知
+* 客戶非作用中時重新參與
+* 首次購買慶祝訊息
+* 客戶移動時的地理目標定位
+
+➡️ [瞭解對象資格](audience-qualification-events.md) | [條件活動](condition-activity.md) | [正在建立區段定義](../audience/creating-a-segment-definition.md)
+
+>[!TAB 商務活動歷程]
+
+**業務事件歷程**&#x200B;是由同時影響多個設定檔的業務事件（例如庫存更新、天氣警報或價格變更）觸發。 這些歷程不會因應個別客戶行動，而是因應更廣泛的業務環境或外部因素。
+
+**主要特性：**
+
+* 由業務層級事件觸發，而非個別動作
+* 一次影響多個設定檔
+* 事件發生時鎖定特定對象
+* 結合事件導向計時與受眾目標定位
+
+**使用案例：**
+
+* 向感興趣的客戶發出低詳細目錄警示
+* 快閃銷售公告
+* 天氣型促銷活動
+* 價格下降通知
+* 產品補貨警報
+
+➡️ [瞭解業務活動](general-events.md) | [設定業務事件](../event/about-creating-business.md) | [專案管理](entry-management.md)
+
+>[!ENDTABS]
+
 ## 歷程概觀
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始建立歷程
 
@@ -49,7 +138,7 @@ Journey Optimizer [歷程設計器](using-the-journey-designer.md)提供行銷�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration — 完整指南
 
@@ -59,7 +148,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理您的歷程
 
@@ -69,7 +158,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 歷程活動
 
@@ -79,7 +168,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 建立運算式
 
@@ -89,7 +178,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 歷程使用案例
 
@@ -116,7 +205,7 @@ Journey Orchestration — 完整指南
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他資源 {#additional-resources}
 
