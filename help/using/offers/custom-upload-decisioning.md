@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
+source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '614'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 >
 >[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
-透過Journey Optimizer，您可以利用使用自訂上傳（CSV檔案）建立的對象資料至Adobe Experience Platform來支援您的決策管理工作流程。 當設定檔上不需要資料，但在決策用途中仍然是必要資料時，這會特別有用。
+透過[!DNL Journey Optimizer]，您可以將使用自訂上傳（CSV檔案）建立的對象資料運用到[!DNL Adobe Experience Platform]中。 此資料可支援您的決策管理工作流程。 當設定檔上不需要資料，但在決策用途中仍然是必要資料時，這會特別有用。
 
 來自自訂上傳對象的資料可在決策管理中用於以下用途：
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 如需自訂上傳對象的詳細資訊，請參閱區段：
 
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
@@ -47,10 +47,10 @@ ht-degree: 5%
 * 使用自訂上傳對象建立決定規則：
 
    1. 編寫規則時，請存取&#x200B;**對象**&#x200B;索引標籤，然後在清單中搜尋您的CSV對象。 將對象拖放至規則畫布。
-   1. 使用&#x200B;**屬性**&#x200B;標籤，並導覽至連結至所選對象的擴充結構，以存取CSV檔案中的所有資料，並在您的規則中使用這些資料。 這可讓您使用CSV檔案中的欄位來調整規則。 [瞭解如何建立決定規則](../offers/offer-library/creating-decision-rules.md)
+   1. 使用&#x200B;**屬性**&#x200B;標籤，並導覽至連結至所選對象的擴充結構描述。 這可讓您存取CSV檔案中的所有資料，並在您的規則中使用這些資料。 [瞭解如何建立決定規則](../offers/offer-library/creating-decision-rules.md)
    1. 儲存規則。 建立規則後，即可在優惠和決定層級使用，以精簡適用性。
 
-  ![](assets/csv-rule.png)
+  決定規則畫布中的![CSV對象](assets/csv-rule.png)
 
 * 使用自訂上傳對象作為選件限制。 [瞭解如何將限制新增至優惠方案](../offers/offer-library/add-constraints.md)
 
@@ -59,22 +59,22 @@ ht-degree: 5%
    * 使用自訂上傳對象來定義優惠方案適用性，
    * 套用規則以運用自訂上傳對象。
 
-  ![](assets/csv-offer.png)
+  ![自訂上傳對象限制選項](assets/csv-offer.png)
 
 * 在決定層級使用自訂上傳對象。
 
   設定決定時，在&#x200B;**新增決定範圍**&#x200B;步驟中，您可以使用自訂上傳對象作為優惠集合的評估標準。 [瞭解如何定義決定範圍](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
-  ![](assets/csv-decision.png)
+  ![決定層級的自訂上傳對象](assets/csv-decision.png)
 
 ## 使用自訂上傳對象來個人化優惠方案宣告
 
 自訂上傳對象也可以參考CSV檔案中的資料，用來個人化優惠方案表示的內容。 [瞭解如何新增代表至優惠方案](../offers/offer-library/add-representations.md)
 
-為了能夠利用自訂上傳對象的屬性進行個人化，您首先需要新增自訂對象作為限制。 若要這麼做，在製作選件時，請在&#x200B;**新增限制**&#x200B;步驟中，新增對象作為限制，或選取運用自訂上傳對象的規則。
+若要利用自訂上傳對象的屬性進行個人化，您首先需要新增自訂對象作為限制。 若要這麼做，在製作選件時，請在&#x200B;**新增限制**&#x200B;步驟中，新增對象作為限制，或選取運用自訂上傳對象的規則。
 
-![](assets/csv-offer.png)
+![自訂上傳對象限制選項](assets/csv-offer.png)
 
 對象新增為限制後，您可使用其屬性來個人化表示內容。 若要這麼做，請存取&#x200B;**設定檔屬性**&#x200B;索引標籤，並搜尋自訂上傳對象。 從對象中選取相關屬性，以個人化選件內容。
 
-![](assets/csv-perso.png)
+![設定檔屬性個人化介面](assets/csv-perso.png)
