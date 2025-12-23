@@ -128,7 +128,7 @@ Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始建立歷程
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 Journey Orchestration — 完整指南
 
@@ -148,7 +148,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 管理您的歷程
 
@@ -158,7 +158,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 歷程活動
 
@@ -168,7 +168,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 建立運算式
 
@@ -178,7 +178,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 歷程使用案例
 
