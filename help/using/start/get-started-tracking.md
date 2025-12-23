@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 追蹤，監視，分析，報告，傳遞能力
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer提供通道專用的追蹤功能。 以下說明如何為每�
 
 * **設定URL追蹤引數** — 在表面層級設定追蹤引數，以自動將行銷活動識別碼（utm_campaign、utm_source等）附加至所有電子郵件連結。 這可讓您在整個數位生態系統中進行歸因追蹤。 [了解更多](../email/url-tracking.md)
 
-* **追蹤已儲存片段中的連結** — 在歷程或行銷活動中啟用追蹤時，當重複使用此片段時，也會追蹤從此歷程或行銷活動的內容儲存的片段中的連結。 [了解更多](../content-management/save-fragments.md)
+* **追蹤已儲存片段中的連結** — 當您從已啟用追蹤的內容儲存片段時，當您在其他歷程或行銷活動中重複使用片段時，該片段中的連結仍會受到追蹤。 [了解更多](../content-management/save-fragments.md)
 
 * **新增映象頁面追蹤** — 啟用映象頁面選項，以建立您電子郵件的網頁版本，並自動追蹤檢視者。 [了解更多](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ Journey Optimizer提供通道專用的追蹤功能。 以下說明如何為每�
 
 **設定點選追蹤：**
 
-在設計Web修改時，您可以選取要追蹤的特定元素（按鈕、影像、連結）。 如此可啟用這些元素的點選追蹤，而不需要其他程式碼。 [了解更多](../web/monitor-web-experiences.md)
+製作網頁時，您可以選取要追蹤的特定元素（按鈕、影像、連結）。 如此可啟用這些元素的點選追蹤，而不需要其他程式碼。 [了解更多](../web/monitor-web-experiences.md)
 
-* **追蹤任何可點按的元素** — 選取您網頁個人化中的按鈕、影像、連結或任何互動元素
-* **自動資料收集** — 設定後，Journey Optimizer會自動擷取點選事件並將其與設定檔建立關聯
-* **即時監視** — 在使用者互動驗證個人化有效性時追蹤使用者互動
+* **追蹤任何可點按的元素** — 選取您網頁個人化中的按鈕、影像、連結或任何互動元素。
+* **自動資料收集** — 設定後，Journey Optimizer會自動擷取點選事件並將其與設定檔建立關聯。
+* **即時監視** — 在使用者互動驗證個人化有效性時追蹤使用者互動。
 
 **檢視追蹤資料：**&#x200B;存取報表中的顯示量度、點進率及元素層級效能。 [行銷活動報告](../reports/campaign-global-report-cja-web.md) | [歷程報告](../reports/journey-global-report-cja-web.md)
 
@@ -141,11 +141,13 @@ Journey Optimizer提供通道專用的追蹤功能。 以下說明如何為每�
 
 **設定追蹤：**
 
-* **設定顯示規則** — 使用觸發器（應用程式啟動、熒幕載入）、頻率規則和對象條件定義應用程式內訊息出現的時間和位置。 正確設定可確保準確追蹤觸發和顯示的訊息。 [了解更多](../in-app/create-in-app.md)
+* **定義顯示規則** — 使用觸發器（應用程式啟動、熒幕載入）、頻率規則和對象條件，設定應用程式內訊息出現的時間和位置。 正確設定可確保準確追蹤觸發和顯示的訊息。
 
 * **新增追蹤的元素** — 在訊息內容中包含按鈕、連結和互動式元素。 系統會自動使用詳細標籤追蹤每個互動。
 
 * **最佳化顯示時間** — 設定一週中的某天和一天中的某時間規則，將觸發訊息實際顯示給使用者的可能性最大化。
+
+[瞭解如何設定應用程式內訊息](../in-app/create-in-app.md)
 
 **追蹤的內容：** Journey Optimizer會自動擷取顯示、按鈕點按、解除、觸發與顯示的量度，以及連結效能。 [行銷活動報告](../reports/campaign-global-report-cja-inapp.md) | [歷程報告](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 **運作方式：**
 
-* **自動連結追蹤** — 使用URL協助程式函式，將任何URL新增至您的SMS內容。 Journey Optimizer會自動縮短連結，並追蹤點按，不需要額外設定。 若要縮短URL長度，您必須先設定SMS子網域。 [了解更多](../sms/create-sms.md#sms-content)
+* **自動連結追蹤** — 使用URL協助程式函式，將任何URL新增至您的SMS內容。 Journey Optimizer會自動縮短連結，並追蹤點按，不需要額外設定。 若要縮短URL長度，您必須先設定SMS子網域。 [了解更多](../sms/sms-subdomains.md)
 
-* **傳入郵件追蹤** — 會自動擷取收件者的回覆，讓您監視雙向交談和回應模式。
+* **傳入郵件追蹤** — 會自動擷取收件者的回覆，讓您監視雙向交談和回應模式。 [了解更多](../sms/sms-opt-out.md#sms-native-keywords)
 
 **檢視量度：**&#x200B;存取連結點選資料、傳入訊息磁碟區以及報表中的訊息型別效能。 [行銷活動報告](../reports/campaign-global-report-cja-sms.md) | [歷程報告](../reports/journey-global-report-cja-sms.md)
 
@@ -173,9 +175,9 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 在追蹤運作之前，您需要設定實施以傳送互動事件（顯示、點按）至Adobe Experience Platform。 此設定需要：
 
-* 設定為Adobe Experience Platform設定的資料串流
-* 使用Web SDK或Mobile SDK在程式碼中實作事件集合
-* 顯示或點選內容時傳送顯示和互動事件
+* 設定為Adobe Experience Platform設定的資料串流。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)
+* 使用Web SDK或Mobile SDK在程式碼中實作事件集合。
+* 顯示或點選內容時傳送顯示和互動事件。
 
 [進一步瞭解實作必要條件](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +187,7 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 +++內容卡追蹤
 
-[內容卡](../content-card/create-content-card.md)會自動追蹤使用者互動。 設定內容和顯示規則以控制追蹤行為。
+內容卡會自動追蹤使用者互動。 設定內容和顯示規則以控制追蹤行為。
 
 **如何實作：**
 
@@ -195,13 +197,15 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 * **設定顯示規則** — 定義卡片出現的時間和位置，以確保顯示和互動的追蹤準確無誤。
 
+[瞭解如何設定內容卡](../content-card/create-content-card.md)
+
 **監視參與：**&#x200B;追蹤多個工作階段的顯示、點按、點進率及參與模式。 [行銷活動報告](../reports/campaign-global-report-cja-content.md) | [歷程報告](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++登陸頁面追蹤
 
-[登陸頁面](../reports/lp-report-global-cja.md)包含不需要額外設定的內建追蹤。 Journey Optimizer會自動擷取造訪、轉換和跳出率。
+登陸頁面隨附不需要額外設定的內建追蹤功能。 Journey Optimizer會自動擷取造訪、轉換和跳出率。
 
 **自動追蹤的內容：**
 
@@ -210,7 +214,9 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 * **跳出率** — 未互動的訪客百分比
 * **效能趨勢** — 顯示量度如何演化的時間序列資料
 
-**最佳化效能：**&#x200B;使用追蹤資料來調整表單欄位、測試內容變化、識別有效的流量來源，並減少放棄率。
+[瞭解如何設定登入頁面](../landing-pages/create-lp.md)
+
+**監視效能：**&#x200B;追蹤一段時間內的造訪模式、轉換率和跳出率，以瞭解使用者如何與您的表格互動，並找出需要改善的領域。 [行銷活動報告](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效能。 設定您的設定以確保資料收集正確。
 
-**設定最佳化追蹤：**
+### 設定最佳化追蹤 {#optimization-tracking}
 
-* **設定實驗** — 建立實驗或使用鎖定目標時，定義要追蹤的量度（轉換、點按、自訂事件）。 Journey Optimizer會自動收集每個處理的效能資料。 [了解更多](../campaigns/campaigns-message-optimization.md)
+* **在您的行銷活動和歷程中最佳化**
 
-* **設定路徑最佳化** — 新增&#x200B;**最佳化**&#x200B;活動至您的歷程並設定多個路徑。 Journey Optimizer會自動追蹤設定檔採取哪些路徑並測量效能。 [了解更多](../building-journeys/optimize.md)
+   * 建立實驗時，定義要追蹤的量度（轉換、點按、自訂事件）。 Journey Optimizer會自動收集每個處理的效能資料。 [了解更多](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**分析結果：**&#x200B;在實驗報告中檢視轉換率、統計顯著性和處理間的提升度。 [行銷活動報告](../reports/campaign-global-report-cja-experimentation.md) | [歷程報告](../reports/journey-global-report-cja-experimentation.md)
+   * 建立鎖定目標規則，將不同內容傳送至不同的受眾區段。 Journey Optimizer會自動追蹤每個目標群組的參與量度，讓您比較不同區段的效能。 [了解更多](../campaigns/campaigns-message-optimization.md#targeting)
 
-**追蹤決策效能：**
+* **歷程路徑最佳化** — 新增&#x200B;**最佳化**&#x200B;活動至您的歷程並設定多個路徑。 Journey Optimizer會自動追蹤設定檔採取哪些路徑並測量效能。 [了解更多](../building-journeys/optimize.md)
+
+**分析結果：**&#x200B;檢視實驗報告中處理間的轉換率、統計顯著性和提升度，或比較目標區段間的參與量度。 [實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md) | [實驗歷程報告](../reports/journey-global-report-cja-experimentation.md) | [歷程目標定位報告](../reports/journey-global-report-cja.md#targeting)
+
+### 追蹤決策效能 {#decisioning-tracking}
 
 使用決策來個人化內容時，Journey Optimizer會自動追蹤決策事件、曝光次數和點按次數，而不需要其他設定。
 
@@ -270,19 +280,19 @@ Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效
 
 除了追蹤參與以外，請設定監控以確保訊息可到達收件匣且系統以最佳方式執行。
 
-**設定主動式監視：**
-
-* **設定警示** — 設定歷程錯誤、自訂動作失敗和嚴重問題的即時通知，以快速回應問題。 [了解更多](../reports/alerts.md)
-
-* **啟用稽核記錄** — 啟用稽核記錄以追蹤資源上的所有動作，以符合法規及疑難排解。 [了解更多](../privacy/audit-logs.md)
-
-* **監視整合** — 追蹤自訂動作效能和外部系統連線，以及早識別整合問題。 [了解更多](../action/reporting.md)
-
-**傳遞能力監視：**
+傳遞能力監視透過追蹤關鍵指標，幫助確保您的訊息到達收件者的收件匣，並維持健康的寄件者信譽：
 
 * **請定期檢閱隱藏清單**，瞭解位址為何遭到封鎖，並維護清單衛生。 [了解更多](../reports/suppression-list.md)
 
 * **分析傳遞錯誤**&#x200B;以診斷失敗並採取更正動作。 [了解更多](../configuration/email-error-types.md)
 
 * **遵循DMARC、SPF和DKIM的最佳實務**，以最大化收件匣位置。 [了解更多](../reports/deliverability.md)
+
+設定主動式監控，接收重大事件和系統問題的即時通知，讓您在影響客戶體驗之前快速回應：
+
+* **設定警示** — 設定歷程錯誤、自訂動作失敗和嚴重問題的即時通知，以快速回應問題。 [了解更多](../reports/alerts.md)
+
+* **啟用稽核記錄** — 啟用稽核記錄以追蹤資源上的所有動作，以符合法規及疑難排解。 [了解更多](../privacy/audit-logs.md)
+
+* **監視整合** — 追蹤自訂動作效能和外部系統連線，以及早識別整合問題。 [了解更多](../action/reporting.md)
 
