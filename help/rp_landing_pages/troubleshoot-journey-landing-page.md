@@ -49,7 +49,7 @@ ht-degree: 35%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 存取及訂閱系統警示
 
@@ -59,7 +59,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 錯誤碼參考
 
@@ -69,7 +69,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -79,7 +79,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 疑難排解即時歷程執行
 
@@ -89,7 +89,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 對歷程中的傳入動作進行疑難排解
 
@@ -99,7 +99,7 @@ ht-degree: 35%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 疑難排解自訂動作
 
