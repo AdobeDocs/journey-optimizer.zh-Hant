@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 30%
+source-wordcount: '1108'
+ht-degree: 34%
 
 ---
 
@@ -31,15 +31,13 @@ Adobe Journey Optimizer 中的歷程可讓您建立個人化的多步驟客戶�
 
 * 使用&#x200B;**[歷程設計器](using-the-journey-designer.md)**，建置您的多步驟使用案例：輕鬆拖放進入事件或[讀取對象活動](read-audience.md)、新增[條件](condition-activity.md)並傳送個人化訊息。
 
-Journey Optimizer [歷程設計器](using-the-journey-designer.md)提供行銷人員和歷程從業人員跨管道協調多步驟1:1歷程所需的一切。 這包括直覺式的拖放畫布，以協調歷程的每個步驟、定義目標對象，並包含目標對象成員將根據行為、情境資料和業務事件看到的跨管道訊息、選件和內容。 探索[真實的使用案例](jo-use-cases.md)，瞭解如何套用這些功能。
-
 ➡️ [在影片中探索 Journey Optimizer](#video)
 
 ## 歷程概觀
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始建立歷程
 
@@ -49,7 +47,7 @@ Journey Optimizer [歷程設計器](using-the-journey-designer.md)提供行銷�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration — 完整指南
 
@@ -59,7 +57,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理您的歷程
 
@@ -69,7 +67,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 歷程活動
 
@@ -79,7 +77,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 建立運算式
 
@@ -89,7 +87,7 @@ Journey Orchestration — 完整指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 歷程使用案例
 
@@ -195,7 +193,9 @@ Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用
 
 ## 歷程Designer{#journey-designer}
 
-[歷程設計器](using-the-journey-designer.md)是直覺式的拖放畫布，可讓您以視覺化方式建置和協調客戶歷程。 它提供您設計多步驟體驗所需的一切：
+[歷程設計器](using-the-journey-designer.md)提供行銷人員和歷程從業人員跨管道協調多步驟1:1歷程所需的一切。 這包括直覺式的拖放畫布，用以協調歷程的每個步驟、定義目標對象，並包含目標對象成員將根據行為、情境資料和業務事件看到的跨頻道訊息、優惠和內容。
+
+歷程設計器提供您設計多步驟體驗所需的一切：
 
 * **[內建頻道動作](journeys-message.md)** — 透過電子郵件、推播通知、SMS/MMS、應用程式內、Web、程式碼型體驗等傳送訊息，全都直接在Journey Optimizer中設計
 * **[自訂動作](using-custom-actions.md)** — 整合協力廠商系統，以在外部平台中傳送訊息或觸發工作流程
@@ -213,7 +213,7 @@ Adobe Journey Optimizer支援四種歷程型別，每種都針對不同的使用
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## 其他資源 {#additional-resources}
 
