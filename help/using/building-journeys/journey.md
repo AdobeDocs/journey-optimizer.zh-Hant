@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 歷程, 探索, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 82db04eb2da8b69404d99185471495ea41739c6d
+source-git-commit: 32ca652c07cb7df48b9fa6fc2122583be839377e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1428'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 >[!TAB 單一歷程]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant) **何時使用：**&#x200B;事件觸發的即時體驗
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **何時使用：**&#x200B;事件觸發的即時體驗
 
 **單一歷程**&#x200B;會在特定動作（購買、應用程式登入、表單提交）發生時個別觸發。 設定檔一次會即時輸入一個，因此非常適合用於即時行為導向的回應。
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 >[!TAB 讀取對象歷程]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant) **何時使用：**&#x200B;已排程行銷活動給對象區段
+![圖示](https://cdn.experienceleague.adobe.com/icons/database.svg) **何時使用：**&#x200B;已排程行銷活動給對象區段
 
 **讀取對象歷程**&#x200B;從Adobe Experience Platform對象開始，並同時以批次傳送訊息給所有設定檔。 此歷程型別適用於已排程的大型通訊。
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 >[!TAB 對象資格歷程]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant) **何時使用：**&#x200B;對對象會籍變更的即時回應
+![圖示](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **何時使用：**&#x200B;對對象會籍變更的即時回應
 
 當設定檔符合（或退出）特定對象的資格時，**對象資格歷程**&#x200B;會觸發。 設定檔會即時符合條件，因此可個別輸入，並在客戶行為變更時立即參與。
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 >[!TAB 商務活動歷程]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant) **何時使用：**&#x200B;影響多個客戶的業務狀況
+![圖示](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **何時使用：**&#x200B;影響多個客戶的業務狀況
 
 **業務事件歷程**&#x200B;是由同時影響多個設定檔的業務層級事件（庫存更新、天氣警報、價格變更）觸發。 這些功能可回應更廣泛的業務環境，而非個別動作。
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -141,7 +141,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **運用資料**
 
@@ -161,7 +161,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -171,7 +171,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調活動**
 
@@ -188,14 +188,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 建立成功的歷程會遵循清晰、可重複的流程。 以下是您的逐步工作流程：
 
-```mermaid
-graph LR
-    A[1. Plan] --> B[2. Design]
-    B --> C[3. Test]
-    C --> D[4. Publish]
-    D --> E[5. Monitor]
-    E --> F[6. Optimize]
-```
+**1。 計畫**→**2。 設計**→**3。 測試**→**4。 發佈**→**5。 監視** → **6。 最佳化**
 
 ### &#x200B;1. **規劃您的歷程** {#plan}
 
@@ -269,7 +262,7 @@ graph LR
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新訂閱者**
 
@@ -279,7 +272,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -289,7 +282,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加速傳遞**
 
@@ -299,7 +292,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日**&#x200B;鎖定目標
 
@@ -309,7 +302,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多頻道行銷活動**
 
@@ -319,7 +312,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -337,7 +330,7 @@ graph LR
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -347,7 +340,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -357,7 +350,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試執行**
 
@@ -367,7 +360,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -377,7 +370,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和組織**
 
@@ -387,7 +380,7 @@ graph LR
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -404,7 +397,7 @@ graph LR
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
