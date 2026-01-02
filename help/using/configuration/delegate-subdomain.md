@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
-source-wordcount: '1906'
+source-wordcount: '1928'
 ht-degree: 18%
 
 ---
@@ -126,6 +126,10 @@ ht-degree: 18%
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
+    >[！NOTE]
+    >
+    >使用DNS提供者建立新的子網域後，在嘗試委派至Adobe之前，請允許24到48小時的DNS傳播。
+
 1. 在專用區段中設定&#x200B;**[!UICONTROL DMARC記錄]**。 如果子網域有現有的[DMARC記錄](dmarc-record.md)，而且[!DNL Journey Optimizer]已擷取該記錄，則您可以視需要使用相同的值或加以變更。 如果您未新增任何值，則會使用預設值。 [瞭解如何管理DMARC記錄](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
@@ -164,7 +168,7 @@ ht-degree: 18%
 
 1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]&#x200B;**&#x200B;**。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
