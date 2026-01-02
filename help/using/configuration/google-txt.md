@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域， google， txt，記錄， gmail，傳遞能力
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 30%
+source-wordcount: '280'
+ht-degree: 22%
 
 ---
 
@@ -40,3 +40,17 @@ TXT記錄是一種DNS記錄，用於提供關於網域的文字資訊，可以�
    ![](assets/subdomain-google-txt.png)
 
 1. 新增 TXT 記錄後，該記錄必須獲得 Google 驗證。若要這麼做，請導覽至[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->，然後啟動驗證步驟。
+
+## 更新Google TXT記錄 {#update-google-txt-record}
+
+若要更新現有的Google TXT記錄，請遵循下列步驟：
+
+1. 從&#x200B;**[!UICONTROL 子網域]**&#x200B;功能表開啟子網域。
+
+1. 清除&#x200B;**[!UICONTROL Google txt記錄]**&#x200B;欄位中的現有值，然後按一下&#x200B;**[!UICONTROL 儲存]**。 此步驟會以空字串取代先前的Google TXT記錄值。
+
+1. 現在，請重新開啟相同的子網域，並輸入新的驗證代碼。
+
+1. 再按一下&#x200B;**[!UICONTROL 儲存]**。
+
+1. 透過[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}驗證更新的記錄。
