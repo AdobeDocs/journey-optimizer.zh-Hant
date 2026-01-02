@@ -366,7 +366,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 
 **主要差異**：歷程維護即時動作的個別客戶狀態；動作/API行銷活動會批次傳送簡單訊息；協調的行銷活動會提供具有多實體分段功能的批次工作流程畫布。
 
-<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[瞭解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
+&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[瞭解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**
