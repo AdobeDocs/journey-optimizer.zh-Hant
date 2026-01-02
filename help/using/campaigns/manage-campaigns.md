@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1612'
 ht-degree: 9%
 
 ---
@@ -31,18 +31,17 @@ ht-degree: 9%
 
 瞭解如何在Adobe Journey Optimizer中存取、整理及管理您的行銷活動。 本指南涵蓋各種內容，從尋找行銷活動到瞭解狀態、執行常見作業及維護行銷活動工作區。
 
-## 快速入門：常見工作 {#quick-tasks}
+>[!BEGINSHADEBOX]
 
-直接跳到您需要的：
+**直接跳到您需要的專案：**
 
-* **建立新的行銷活動** → [選擇您的行銷活動型別](get-started-with-campaigns.md#campaign-types)
-   * [建立動作行銷活動](create-campaign.md)
-   * [建立API觸發的行銷活動](api-triggered-campaigns.md)
-   * [建立協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
-* **尋找現有行銷活動** → [搜尋和篩選](#access)
-* **檢視行銷活動績效** → [行銷活動報告](../reports/campaign-global-report-cja.md)
-* **排程行銷活動** → [使用行事曆](#calendar)
-* **管理衝突** → [衝突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+* **建立新的行銷活動** - [選擇您的行銷活動型別](get-started-with-campaigns.md#campaign-types) | [建立動作行銷活動](create-campaign.md) | [建立API觸發的行銷活動](api-triggered-campaigns.md) | [建立協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
+* **尋找現有行銷活動** - [搜尋和篩選](#access)
+* **檢視行銷活動績效** - [行銷活動報告](../reports/campaign-global-report-cja.md)
+* **排程行銷活動** - [使用行事曆](#calendar)
+* **管理衝突** - [衝突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+
+>[!ENDSHADEBOX]
 
 ## 存取和瀏覽行銷活動 {#access}
 
@@ -250,7 +249,7 @@ ht-degree: 9%
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 
