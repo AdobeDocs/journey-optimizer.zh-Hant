@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用歷程
-description: 開始使用歷程
+description: 開始使用歷程 — 瞭解在Adobe Journey Optimizer中建立個人化客戶體驗的歷程型別、工作流程、功能和最佳實務
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: 歷程, 探索, 開始
+keywords: 歷程，探索，開始，單一，讀取對象，對象資格，業務事件，即時，已排程，批次，事件觸發，工作流程，協調，個人化，多管道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -37,57 +37,29 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 ➡️ **準備好開始建置嗎？** [在5分鐘內建立您的第一個歷程](journey-gs.md)。
 
+### 歷程與行銷活動：何時使用各個 {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer提供三種觸及客戶的方法： **歷程** （1:1即時協調）、**行銷活動** （簡單批次或API觸發的傳遞）及&#x200B;**協調的行銷活動** （具有多實體資料的批次畫布工作流程）。
+
+**快速決定：**
+
+* 使用&#x200B;**歷程**&#x200B;進行多步驟、行為導向的體驗，讓每位客戶以自己的步調前進
+* 使用&#x200B;**Action/API Campaigns**&#x200B;將簡單、排程或觸發的訊息傳遞給對象
+* 針對需要多實體細分和精確預先傳送計數的複雜批次工作流程，使用&#x200B;**協調的行銷活動**
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
+
 ## 選擇您的歷程型別 {#journey-types}
 
-**在您開始建立**&#x200B;之前，請務必瞭解適合您使用案例的歷程型別。 Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機制和業務案例而設計：
+Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機制和業務案例而設計：
 
->[!BEGINTABS]
+* **單一歷程**：即時、事件觸發的體驗（訂單確認、歡迎電子郵件）
+* **閱讀對象歷程**：已排程批次通訊至對象區段（電子報、促銷活動）
+* **對象資格歷程**：對對象會籍變更的即時回應(VIP升級、重新參與)
+* **業務事件歷程**：影響多個客戶的業務狀況（詳細目錄警示、快閃銷售）
 
->[!TAB 單一歷程]
-
-**何時使用：**&#x200B;即時事件觸發的體驗
-
-**單一歷程**&#x200B;會在特定動作（購買、應用程式登入、表單提交）發生時個別觸發。 設定檔一次會即時輸入一個，因此非常適合用於即時行為導向的回應。
-
-**最適合：**&#x200B;購買後的訂單確認、有人訂閱時的歡迎電子郵件、瀏覽時觸發的購物車放棄及密碼重設通知。
-
-➡️ [瞭解事件](../event/about-events.md) | [傳送訊息給訂閱者使用案例](message-to-subscribers-uc.md)
-
->[!TAB 讀取對象歷程]
-
-**何時使用：**&#x200B;已排程行銷活動給對象區段
-
-**讀取對象歷程**&#x200B;從Adobe Experience Platform對象開始，並同時以批次傳送訊息給所有設定檔。 此歷程型別適用於已排程的大型通訊。
-
-**最適合：**&#x200B;每月電子報、目標區段的促銷活動、產品公告和季節性行銷活動。
-
-➡️ [瞭解閱讀對象](read-audience.md) | [開始使用對象](../audience/about-audiences.md)
-
->[!TAB 對象資格歷程]
-
-**何時使用：**&#x200B;對象成員資格變更的即時回應
-
-當設定檔符合（或退出）特定對象的資格時，**對象資格歷程**&#x200B;會觸發。 設定檔會即時符合條件，因此可個別輸入，並在客戶行為變更時立即參與。
-
-**最適合：** VIP層級升級通知、客戶停止活動時重新參與、首次購買慶祝訊息，以及客戶移動時的地理定位。
-
-➡️ [瞭解對象資格](audience-qualification-events.md) | [正在建立對象](../audience/creating-a-segment-definition.md)
-
->[!TAB 商務活動歷程]
-
-**何時使用：**&#x200B;影響多個客戶的業務狀況
-
-**業務事件歷程**&#x200B;是由同時影響多個設定檔的業務層級事件（庫存更新、天氣警報、價格變更）觸發。 這些功能可回應更廣泛的業務環境，而非個別動作。
-
-**完美搭配：**&#x200B;向感興趣的客戶發出低庫存警示、閃電銷售公告、天氣型促銷、降價通知以及產品補貨警示。
-
-➡️ [瞭解業務活動](../event/about-creating-business.md) | [專案管理](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->不確定要選擇哪種型別？ 從事件型體驗的&#x200B;**單一歷程**&#x200B;或排程行銷活動的&#x200B;**讀取對象歷程**&#x200B;開始 — 這些涵蓋最常見的使用案例。
+➡️ **[歷程型別和選擇指南](journey-types-selection.md)** — 詳細比較、決策樹和功能相容性矩陣
 
 ## 使用歷程設計器建置 {#journey-designer}
 
@@ -100,7 +72,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -110,7 +82,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -120,7 +92,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -130,7 +102,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **運用資料**
 
@@ -140,7 +112,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -150,7 +122,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調活動**
 
@@ -241,7 +213,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新訂閱者**
 
@@ -251,7 +223,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -261,7 +233,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加速傳遞**
 
@@ -271,7 +243,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日**&#x200B;鎖定目標
 
@@ -281,7 +253,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多頻道行銷活動**
 
@@ -291,7 +263,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -309,7 +281,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -319,7 +291,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -329,7 +301,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試執行**
 
@@ -339,7 +311,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -349,7 +321,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和組織**
 
@@ -359,7 +331,7 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -376,9 +348,37 @@ Adobe Journey Optimizer可讓您建立個人化的多步驟客戶歷程，並即
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## 常見問題 {#common-questions}
+
+**問：歷程與行銷活動之間有何差異？**
+
+答：Adobe Journey Optimizer提供三種方法：
+
+* **歷程**： 1:1即時協調，每個設定檔會依照自己的步調進行各個步驟。 最適合具有條件邏輯（例如上線、購物車放棄）的行為導向多步驟體驗。
+
+* **行銷活動（動作和API觸發）**：將簡單的訊息傳送給對象，依排程或透過API觸發同時執行所有設定檔。 最適合促銷活動、電子報、交易式訊息。
+
+* **協調的行銷活動**：使用關聯式資料（設定檔+產品/商店/預訂）進行複雜分段的多步驟批次工作流程。 所有設定檔連同確切的預先傳送計數一起處理。 最適合季節性促銷、產品推出，以及需要多實體資料的促銷活動。
+
+**主要差異**：歷程維護即時動作的個別客戶狀態；動作/API行銷活動會批次傳送簡單訊息；協調的行銷活動會提供具有多實體分段功能的批次工作流程畫布。
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[瞭解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**問：是否可以編輯即時歷程？**
+
+答：您可以編輯有限的元素（名稱、訊息內容），但結構變更需要建立新版本。 [瞭解歷程版本](publish-journey.md#journey-versions)
+
+➡️ **更多問題？** [檢視完整的歷程常見問答集](journey-faq.md)，包含40個以上的詳細答案
 
 ## 需要協助嗎？ {#help}
 

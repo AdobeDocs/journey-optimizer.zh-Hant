@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '1549'
 ht-degree: 31%
@@ -249,25 +249,25 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
 * **許可權** — 您需要根據行銷活動型別的適當許可權。 如果您無法存取Campaign功能，請聯絡管理員。 [瞭解內建角色→](../administration/ootb-product-profiles.md)
 
-| 行銷活動類型 | 權限 |
-|----------------------------|----------------------------------------------------------------------------|
-| **動作行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
-| **由 API 觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
-| **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
+  | 行銷活動類型 | 權限 |
+  |----------------------------|----------------------------------------------------------------------------|
+  | **動作行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
+  | **由 API 觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
+  | **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
 
 +++指派行銷活動許可權
 
 1. 導覽至&#x200B;**[!UICONTROL 產品中的]**&#x200B;角色[!DNL Permissions]索引標籤，並選取其中一個內建行銷活動相關&#x200B;**[!UICONTROL 角色]**。
 
-1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
+   1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
    如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users){target="_blank"}。
 
-接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
+   接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-+++
+   +++
 
 ## Campaign功能 {#capabilities}
 
@@ -276,7 +276,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -286,7 +286,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制項**
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **對象目標定位**
 
@@ -306,7 +306,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -316,7 +316,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **無訊息時數**
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 
