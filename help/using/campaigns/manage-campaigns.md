@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 13%
+source-wordcount: '1616'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,24 @@ ht-degree: 13%
 >title="動作"
 >abstract="本節列出在協調式行銷活動中使用的所有動作。"
 
-可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。 使用索引標籤來依型別瀏覽行銷活動： **動作**&#x200B;行銷活動、**API觸發**&#x200B;行銷活動，以及&#x200B;**已協調**&#x200B;行銷活動。 深入瞭解[行銷活動型別](get-started-with-campaigns.md#get-started-campaigns)。 可用的型別取決於您的授權合約和許可權。
+瞭解如何在Adobe Journey Optimizer中存取、整理及管理您的行銷活動。 本指南涵蓋各種內容，從尋找行銷活動到瞭解狀態、執行常見作業及維護行銷活動工作區。
+
+## 快速入門：常見工作 {#quick-tasks}
+
+直接跳到您需要的：
+
+* **建立新的行銷活動** → [選擇您的行銷活動型別](get-started-with-campaigns.md#campaign-types)
+   * [建立動作行銷活動](create-campaign.md)
+   * [建立API觸發的行銷活動](api-triggered-campaigns.md)
+   * [建立協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
+* **尋找現有行銷活動** → [搜尋和篩選](#access)
+* **檢視行銷活動績效** → [行銷活動報告](../reports/campaign-global-report-cja.md)
+* **排程行銷活動** → [使用行事曆](#calendar)
+* **管理衝突** → [衝突管理指南](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## 存取和瀏覽行銷活動 {#access}
+
+可從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表存取行銷活動。 使用索引標籤來依型別瀏覽行銷活動： **動作**&#x200B;行銷活動、**API觸發**&#x200B;行銷活動，以及&#x200B;**已協調**&#x200B;行銷活動。 深入瞭解[行銷活動型別](get-started-with-campaigns.md#campaign-types)。 可用的型別取決於您的授權合約和許可權。
 
 >[!BEGINTABS]
 
@@ -53,77 +70,59 @@ ht-degree: 13%
 
 選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;索引標籤以存取協調流程行銷活動清單。
 
-![影像顯示協調行銷活動詳細目錄](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![影像顯示協調行銷活動詳細目錄](assets/inventory.png){zoomable="yes"}
 
-清單中每個已協調的行銷活動都會顯示資訊，例如行銷活動的目前[狀態](#status)、相關頻道和標籤，或上次修改行銷活動的時間。 您可以按一下「![設定版面按鈕](assets/do-not-localize/inventory-configure-layout.svg)」按鈕來自訂顯示的欄。
+清單中每個已協調的行銷活動都會顯示資訊，例如行銷活動的目前[狀態](#statuses)、相關頻道和標籤，或上次修改行銷活動的時間。 您可以按一下「![設定版面按鈕](assets/do-not-localize/inventory-configure-layout.svg)」按鈕來自訂顯示的欄。
 
 >[!ENDTABS]
+
+### 搜尋和篩選行銷活動 {#search-filter}
 
 此外，還可使用搜尋列和篩選器，以便在清單中輕鬆搜尋。例如，您可以篩選行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
-行銷活動詳細目錄中的「![顯示更多動作按鈕的影像](assets/do-not-localize/rule-builder-icon-more.svg)」按鈕，可讓您執行各種作業，詳情如下。
+## Campaign作業 {#operations}
+
+行銷活動詳細目錄中的![影像顯示「更多動作」按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕，可讓您執行各種作業。
 
 顯示行銷活動詳細目錄的![影像](assets/inventory-actions.png)
 
-* **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。 深入瞭解[行銷活動報告](../reports/campaign-global-report-cja.md)。
-* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 瞭解如何在行銷活動中[使用標籤](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL 複製]** — 使用此選項來複製行銷活動，例如，執行已停止的協調行銷活動。 [了解更多](#duplicate-a-campaign)
-* **[!UICONTROL 刪除]** — 使用此選項刪除行銷活動。 [了解更多](#delete-a-campaign)
-* **[!UICONTROL 封存]** — 封存行銷活動。所有已封存的行銷活動都會在其上次修改日期後的30天內，以滾動排程刪除。 此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。 深入瞭解[行銷活動封存](#archive-a-campaign)。
+### 可用動作
 
-針對「動作」和API觸發的行銷活動，可使用下列其他動作：
+**對於所有行銷活動型別：**
 
-* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 瞭解如何[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。 [進一步瞭解行銷活動報告→](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 [瞭解如何使用標籤→](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 複製]** — 使用此選項來複製行銷活動，例如，執行已停止的協調行銷活動。 [進一步瞭解複製→](#duplicate-a-campaign)
+* **[!UICONTROL 刪除]** — 使用此選項刪除行銷活動。 [進一步瞭解刪除→](#delete-a-campaign)
+* **[!UICONTROL 封存]** — 封存行銷活動。所有已封存的行銷活動都會在其上次修改日期後的30天內，以滾動排程刪除。 此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。 [進一步了解封存→](#archive-a-campaign)
+
+**僅適用於Action和API觸發的行銷活動：**
+
+* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
-## 行銷活動生命週期 {#statuses}
+## 瞭解行銷活動狀態 {#statuses}
 
-在Adobe Journey Optimizer中，每個促銷活動都會經過生命週期，而生命週期會透過其介面中的狀態來反映。 可用狀態會因行銷活動型別而異 — 「動作」、「已觸發API」或「已協調」。 使用下方的標籤來探索每個行銷活動型別的特定生命週期和狀態。
+每個行銷活動都會經過生命週期，而生命週期會透過其介面中的狀態來反映。 瞭解這些狀態可協助您瞭解哪些動作可供使用，以及後續要做什麼。
 
->[!BEGINTABS]
-
->[!TAB 動作行銷活動]
-
-* **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟動。
-* **[!UICONTROL 已排程]**：行銷活動已設定為在特定的開始日期啟動。
-* **[!UICONTROL 即時]**：行銷活動已啟用。
-* **[!UICONTROL 稽核中]**：行銷活動已提交核准以便發佈。 [瞭解如何使用核准](../test-approve/gs-approval.md)
-* **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](manage-campaigns.md#stop)
-* **[!UICONTROL 已完成]**：行銷活動已完成。 此狀態會在行銷活動啟動3天後自動指派，如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
-* **[!UICONTROL 失敗]**：行銷活動執行失敗。 檢查記錄以識別問題。
-* **[!UICONTROL 已封存]**：行銷活動已封存。 [瞭解如何封存行銷活動](manage-campaigns.md#archive)
-
->[!NOTE]
->
->**[!UICONTROL 即時]**&#x200B;或&#x200B;**[!UICONTROL 已排程]**&#x200B;狀態旁的「開啟草稿版本」圖示表示已建立新版本的動作或API觸發的行銷活動，但尚未啟動。
-
->[!TAB 由 API 觸發的行銷活動]
-
-* **[!UICONTROL 草稿]**：行銷活動正在編輯中，尚未啟動。
-* **[!UICONTROL 已排程]**：行銷活動已設定為在特定的開始日期啟動。
-* **[!UICONTROL 即時]**：行銷活動已啟用。
-* **[!UICONTROL 稽核中]**：行銷活動已提交核准以便發佈。 [瞭解如何使用核准](../test-approve/gs-approval.md)
-* **[!UICONTROL 已停止]**：行銷活動已手動停止。 您無法再啟用或重複使用它。 [瞭解如何停止行銷活動](manage-campaigns.md#stop)
-* **[!UICONTROL 已完成]**：行銷活動已完成。 此狀態會在行銷活動啟動3天後自動指派，如果行銷活動有週期性執行，則會在行銷活動的結束日期指派。
-* **[!UICONTROL 失敗]**：行銷活動執行失敗。 檢查記錄以識別問題。
-* **[!UICONTROL 已封存]**：行銷活動已封存。 [瞭解如何封存行銷活動](manage-campaigns.md#archive)
+| 狀態 | 動作行銷活動 | API 觸發的行銷活動 | 協調的行銷活動 | 其含義 | 後續動作 |
+|--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
+| **[!UICONTROL 草稿]** | ✅ | ✅ | ✅ | 正在編輯，未啟動 | 繼續編輯或[啟動行銷活動](review-activate-campaign.md) |
+| **[!UICONTROL 已排程]** | ✅ | ✅ | ✅ | 針對特定開始日期設定 | 等候啟動，[視需要修改](#modify)，或[在行事曆中檢視](#calendar) |
+| **[!UICONTROL 即時]** | ✅ | ✅ | ✅ | 已啟用且執行中 | [監視效能](../reports/campaign-global-report-cja.md)，[視需要建立新版本](#modify) |
+| **[!UICONTROL 稽核中]** | ✅ | ✅ | — | 已提交進行核准 | 等待[核准](../test-approve/gs-approval.md)或修改 |
+| **[!UICONTROL 已停止]** | ✅ | ✅ | ✅ | 已手動停止，無法重新啟用 | [重複以重複使用](#duplicate-a-campaign) |
+| **[!UICONTROL 已完成]** | ✅ | ✅ | ✅ | 執行完成（在啟動後3天或循環的結束日期自動指派） | [檢視報告](../reports/campaign-global-report-cja.md)、[封存](#archive-a-campaign)或[重複](#duplicate-a-campaign) |
+| **[!UICONTROL 已失敗]** | ✅ | ✅ | — | 執行失敗 | 檢查記錄，修正問題，[重複以重試](#duplicate-a-campaign) |
+| **[!UICONTROL 已封存]** | ✅ | ✅ | ✅ | 已封存（30天後自動刪除） | [必要時使用篩選器](#access)擷取 |
+| **[!UICONTROL 已關閉]** | — | — | ✅ | 循環行銷活動已關閉，不允許新專案（在所有活動完成之前繼續） | 等待完成 |
+| **[!UICONTROL 發佈]** | — | — | ✅ | 正在發佈 | 等待發佈完成 |
 
 >[!NOTE]
 >
->**[!UICONTROL 即時]**&#x200B;或&#x200B;**[!UICONTROL 已排程]**&#x200B;狀態旁的「開啟草稿版本」圖示表示已建立新版本的動作或API觸發的行銷活動，但尚未啟動。
+>對於動作和API觸發的行銷活動，**[!UICONTROL 即時]**&#x200B;或&#x200B;**[!UICONTROL 已排程]**&#x200B;狀態旁的「開啟草稿版本」圖示表示新版本已建立且尚未啟用。
 
->[!TAB 協調的行銷活動]
-
-* **[!UICONTROL 草稿]**：已建立協調的行銷活動。 行銷活動尚未發佈。
-* **[!UICONTROL 發佈]**：正在發佈協調的行銷活動。
-* **[!UICONTROL 即時]**：已發佈且正在執行協調的行銷活動。
-* **[!UICONTROL 已排程]**：已排程協調的行銷活動執行。
-* **[!UICONTROL 已完成]**：協調的行銷活動執行已完成。 行銷活動完成傳送訊息且沒有出錯後，系統最多在 3 天內自動指派「已完成」狀態。
-* **[!UICONTROL 已關閉]**：當週期性行銷活動已關閉時，會顯示此狀態。行銷活動會繼續執行直到其所有活動完成，但無法再有設定檔進入行銷活動。
-* **[!UICONTROL 已封存]**：已封存協調的行銷活動。 所有已封存的行銷活動都會在上次修改日期後的 30 天內，以滾動重新排程方式刪除。您可以複製已封存的行銷活動 (如有必要)，以繼續處理。
-* **[!UICONTROL 已停止]**：已停止協調的行銷活動執行。 若要再次啟動行銷活動，您必須複製它。
-
->[!ENDTABS]
+### 錯誤指標
 
 當您的其中一個行銷活動發生錯誤時，警告圖示會出現在行銷活動的狀態旁。 按一下該按鈕，以顯示有關警示的資訊。 這些警報可能會發生在各種情況下，例如行銷活動訊息尚未發佈或如果選擇的設定不正確。
 
@@ -142,6 +141,8 @@ ht-degree: 13%
 
 除了行銷活動清單，[!DNL Journey Optimizer]還提供行銷活動的行事曆檢視，提供其排程的清晰視覺化呈現。
 
+### 行事曆的運作方式
+
 行銷活動的呈現方式：
 
 * 依預設，行事曆格線會顯示所選周的所有即時和已排程行銷活動。 其他篩選器選項可顯示已完成、已停止和已完成的特定型別或管道的啟動或啟動。
@@ -150,7 +151,7 @@ ht-degree: 13%
 * 如果未指定開始時間，則會使用最接近的手動啟動時間，將其放置在行事曆中。
 * 行銷活動會顯示為1小時時間跨度，但這並不反映實際的傳送或完成時間。
 
-若要在您的「促銷活動」行事曆中導覽：
+### 瀏覽行事曆
 
 1. 按一下![行事曆](assets/do-not-localize/Smock_Calendar_18_N.svg)圖示以存取您的行銷活動行事曆。
 
@@ -210,6 +211,13 @@ ht-degree: 13%
    >
    >啟用草稿將會取代行銷活動的即時版本。
 
+**相關主題：**
+* [行銷活動屬性](campaign-properties.md)
+* [行銷活動動作](campaign-action.md)
+* [行銷活動內容](campaign-content.md)
+* [行銷活動對象](campaign-audience.md)
+* [行銷活動排程](campaign-schedule.md)
+
 ### 停止動作行銷活動 {#stop}
 
 若要停止週期性行銷活動，請開啟行銷活動，然後按一下&#x200B;**[!UICONTROL 停止行銷活動]**&#x200B;按鈕。
@@ -220,7 +228,7 @@ ht-degree: 13%
 >
 >停止行銷活動不會停止正在進行的傳送，但會停止排程的傳送，或者如果傳送已經進行，則會停止下一次發生。
 
-## 封存行銷活動 {#archive}
+## 封存行銷活動 {#archive-a-campaign}
 
 隨著時間過去，行銷活動清單會持續成長，最終使瀏覽已完成和已停止的行銷活動變得更困難。
 
@@ -230,8 +238,7 @@ ht-degree: 13%
 
 接著，您可以使用清單中的專用篩選器來擷取已封存的行銷活動。
 
-
-## 刪除行銷活動 {#delete}
+## 刪除行銷活動 {#delete-a-campaign}
 
 若要刪除行銷活動，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取&#x200B;**[!UICONTROL 刪除]**。
 
@@ -241,11 +248,22 @@ ht-degree: 13%
 >
 >此選項僅適用於&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動。
 
+## 複製行銷活動 {#duplicate-a-campaign}
 
-## 複製行銷活動 {#duplicate}
-
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 
 行銷活動會建立並新增至行銷活動清單。
+
+## 其他資源
+
+* **快速入門** - [開始使用行銷活動](get-started-with-campaigns.md) | [建立您的第一個動作行銷活動](create-campaign.md) | [API觸發的行銷活動指南](api-triggered-campaigns.md) | [協調的行銷活動指南](../orchestrated/gs-orchestrated-campaigns.md)
+
+* **行銷活動設定** - [行銷活動屬性](campaign-properties.md) | [行銷活動動作和頻道](campaign-action.md) | [行銷活動內容設計](campaign-content.md) | [行銷活動對象選擇](campaign-audience.md) | [行銷活動排程](campaign-schedule.md)
+
+* **進階功能** - [核准工作流程](../test-approve/gs-approval.md) | [衝突管理與優先順序](../conflict-prioritization/gs-conflict-prioritization.md) | [依據頻道的頻率限定](../conflict-prioritization/channel-capping.md) | [優先順序分數](../conflict-prioritization/priority-scores.md) | [將行銷活動匯出至其他沙箱](../configuration/copy-objects-to-sandbox.md)
+
+* **監視和最佳化** - [行銷活動報告(CJA)](../reports/campaign-global-report-cja.md) | [設定警示](../reports/alerts.md)
+
+* **組織** - [使用標籤](../start/search-filter-categorize.md) | [管理許可權](../administration/ootb-product-profiles.md)
