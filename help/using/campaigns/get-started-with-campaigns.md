@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -276,27 +276,27 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
-針對特定日期/時間排程行銷活動、設定循環傳送，以及最佳化傳送時間以獲得最大影響。
+針對特定日期/時間排程行銷活動、設定循環傳送，以及最佳化傳送時間以獲得最大影響。 （動作和API觸發的行銷活動）
 
 [瞭解排程](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制項**
 
-限制訊息輸送量，以防止登入頁面或客戶服務平台等下游系統過載。
+限制訊息輸送量，以防止登入頁面或客戶服務平台等下游系統過載。 （動作和API觸發的行銷活動）
 
 [控制速率限制](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **對象目標定位**
 
@@ -306,33 +306,33 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
-在行銷活動上線之前實施稽核和核准程式，確保品質和合規性。
+在行銷活動上線之前實施稽核和核准程式，確保品質和合規性。 （動作和API觸發的行銷活動）
 
 [檢閱並啟動](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **無訊息時數**
 
-避免在指定的時間範圍內傳送訊息，以尊重客戶偏好設定。
+避免在指定的時間範圍內傳送訊息，以尊重客戶偏好設定。 （動作和API觸發的行銷活動）
 
 [設定無訊息時數](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**傳送時間最佳化**
+**最佳化**
 
-使用AI來決定傳送訊息的最佳時機，以最大化每個人的參與度。
+使用鎖定目標規則和內容實驗提供個人化內容並最大化參與度。
 
-[最佳化傳送時間](campaigns-message-optimization.md)
+[最佳化行銷活動](campaigns-message-optimization.md)
 :::
 
 ::::
