@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -69,13 +69,13 @@ ht-degree: 1%
    >
    >在[本節](../campaigns/review-activate-campaign.md)中進一步瞭解啟用行銷活動。
 
-您的程式碼型行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，且現在對選取的對象可見。 行銷活動的每位收件者都能看到您新增至內容的修改。
+您的程式碼型行銷活動會採用&#x200B;**[!UICONTROL 即時]** [狀態](../campaigns/manage-campaigns.md#statuses)，且現在對選取的對象可見。 行銷活動的每位收件者都能看到您新增至內容的修改。
 
 >[!NOTE]
 >
->按一下[啟動&#x200B;**&#x200B;**]後，最多可能需要15分鐘才能讓您的變更上線。
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
->如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
+>如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]** [狀態](../campaigns/manage-campaigns.md#statuses)。
 
 ## 停止程式碼型歷程或行銷活動 {#stop-code-based-experience}
 

@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 9%
@@ -191,7 +191,7 @@ ht-degree: 9%
 
 ## 修改和停止週期性動作行銷活動 {#modify}
 
-### 修改動作行銷活動
+### 修改動作行銷活動 {#modify-an-action-campaign}
 
 若要修改和建立循環動作行銷活動的新版本，請遵循下列步驟：
 
@@ -250,7 +250,7 @@ ht-degree: 9%
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

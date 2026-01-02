@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 51%
+source-wordcount: '201'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 51%
 
 >[!NOTE]
 >
->如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。
+>如需支援管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)。
 >
 >可用的通道因您的授權模式及附加元件而異。
 
@@ -48,6 +48,8 @@ ht-degree: 51%
 1. [定義「動作」行銷活動對象](campaign-audience.md)
 1. [排程動作行銷活動](campaign-schedule.md)
 1. [檢閱並啟動動作行銷活動](review-activate-campaign.md)
+
+深入瞭解[完整行銷活動建立工作流程，其中包含特定型別的指南→](get-started-with-campaigns.md#workflow)
 
 ## 作法影片 {#video}
 

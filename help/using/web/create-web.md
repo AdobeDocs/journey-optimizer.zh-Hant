@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 17%
@@ -230,13 +230,13 @@ ht-degree: 17%
    >
    >在[本節](../campaigns/review-activate-campaign.md)中進一步瞭解啟用行銷活動。
 
-您的網路行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，現在選定的對象可以看到。 行銷活動的每位收件者都能看到您新增至網站的修改內容。
+您的網路行銷活動會採用&#x200B;**[!UICONTROL 即時]** [狀態](../campaigns/manage-campaigns.md#statuses)，且現在對選取的對象可見。 行銷活動的每位收件者都能看到您新增至網站的修改內容。
 
 >[!NOTE]
 >
 >按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;後，最多可能需要15分鐘的時間才能讓網站上的網路行銷活動變更上線。
 >
->如果您為網路行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]**。
+>如果您為網路行銷活動定義了排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]** [狀態](../campaigns/manage-campaigns.md#statuses)。
 
 一旦您的體驗上線，您就可以監視您的網路歷程和行銷活動。 [了解更多](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

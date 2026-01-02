@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 35%
+source-wordcount: '282'
+ht-degree: 40%
 
 ---
 
@@ -34,7 +34,7 @@ API觸發的行銷活動可讓行銷通訊在適當的時間聯絡對象，或�
 
 >[!NOTE]
 >
->如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。
+>如需支援管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)。
 >
 >可用的通道因您的授權模式及附加元件而異。
 
@@ -50,8 +50,10 @@ API觸發的行銷活動可讓行銷通訊在適當的時間聯絡對象，或�
 1. [審閱並啟動行銷活動](review-activate-api-triggered-campaign.md)
 1. [觸發行銷活動執行](trigger-campaigns.md)
 
+深入瞭解[完整行銷活動建立工作流程，其中包含特定型別的指南→](get-started-with-campaigns.md#workflow)
+
 ## 作法影片 {#video}
 
 瞭解如何使用互動式訊息執行REST API，根據使用者互動從外部系統建立及觸發行銷活動。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452736?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

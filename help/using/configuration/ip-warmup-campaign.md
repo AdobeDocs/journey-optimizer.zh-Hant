@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 11%
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
    >
    >IP熱身行銷活動不支援CSV上傳對象，且會在行銷活動啟用時導致錯誤。
 
@@ -81,5 +81,5 @@ IP熱身行銷活動只能用於一個IP熱身計畫。 不過，同一IP熱身�
 
 >[!NOTE]
 >
->在IP熱身計畫中使用即時行銷活動時，當計畫為[標籤為已完成](ip-warmup-execution.md#mark-as-completed)後，該行銷活動的狀態會變更為&#x200B;**[!UICONTROL 已停止]**。
+>在IP熱身計畫中使用即時行銷活動時，當計畫標籤為[已完成](ip-warmup-execution.md#mark-as-completed)後，該行銷活動的[狀態](../campaigns/manage-campaigns.md#statuses)會變更為&#x200B;**[!UICONTROL 已停止]**。
 
