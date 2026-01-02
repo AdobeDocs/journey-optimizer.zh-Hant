@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 8b57aa06f40cfc5c1b4d1971e54eecb224338cc7
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 98%
+source-wordcount: '1566'
+ht-degree: 31%
 
 ---
 
@@ -84,81 +84,299 @@ ht-degree: 98%
 >title="行銷活動"
 >abstract="向個別輪廓或輪廓集傳遞交易型通訊內容。支援的管道：電子郵件、簡訊、推播通知。"
 
-使用 [!DNL Journey Optimizer] 行銷活動以跨多個管道向特定客群提供一次性內容。不同於逐步執行動作的歷程，行銷活動會同時執行動作，即立即執行或依定義的排程執行。
+Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內容傳送給特定對象。 使用行銷活動，您可以同時執行協調的行銷動作，在正確的時間以正確的訊息觸及對象。
+
+本指南提供清楚的藍圖，可協助您瞭解行銷活動基本面、為您的使用案例選擇正確的行銷活動型別，並自信地設計提供具影響力客戶體驗的行銷活動。
+
+## 什麼是行銷活動？
+
+**行銷活動**&#x200B;是協調的行銷動作，可跨一或多個管道將內容傳送給特定對象。 與動作依序執行的歷程不同，行銷活動會同時執行動作 — 立即執行或依定義的排程執行。
+
+使用[!DNL Journey Optimizer]來：
+
+* 將&#x200B;**單次或循環內容**&#x200B;傳遞至目標對象區段
+* 在電子郵件、推播、簡訊、應用程式內、網頁等之間執行&#x200B;**協調式多頻道通訊**
+* 透過API呼叫觸發即時事件導向傳訊的&#x200B;**自動回應**
+* 使用視覺化協調工具設計&#x200B;**複雜的行銷工作流程**
 
 ![](assets/gs-campaigns.png)
 
-## 行銷活動類型
+➡️ **準備好開始建置嗎？** [在幾分鐘內建立您的第一個行銷活動](create-campaign.md)。
 
-[!DNL Journey Optimizer] 支援三種行銷活動類型。每種類型適合不同的使用案例，並支援不同的管道。如需每種行銷活動類型可用管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)
+## 選擇您的行銷活動型別 {#campaign-types}
+
+**在您開始建立**&#x200B;之前，請務必瞭解哪種型別的行銷活動適合您的使用案例。 Adobe Journey Optimizer支援三種行銷活動型別，分別針對不同情境和啟用機制而設計：
 
 ![](assets/campaign-modal.png)
 
 >[!BEGINTABS]
 
->[!TAB 協調的行銷活動]
+>[!TAB 動作行銷活動（已排程）]
 
-**協調行銷活動**&#x200B;可跨管道支援品牌啟動的複雜行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
+![圖示](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **何時使用：**&#x200B;簡單、排程的批次通訊
 
-雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。
+**動作行銷活動** （也稱為排程行銷活動）適用於在特定時間執行的直接、一次性或循環批次通訊。
 
-➡️ [了解如何使用協調行銷活動](../orchestrated/gs-orchestrated-campaigns.md)。
+**兩個類別：**
 
->[!TAB 動作行銷活動 (或排程的行銷活動)]
+* **行銷** — 促銷優惠、參與行銷活動、公告、法律通知或原則更新。 需要收件者選擇加入。
+* **異動** — 中斷、緊急狀況、取消。 不需要選擇加入。
 
-**動作行銷活動**&#x200B;也稱為排程行銷活動，允許簡單的臨時批次通訊。
+**最適合：**
 
-* **已排程 - 行銷** - 針對行銷使用案例，例如促銷優惠、參與行銷活動、公告、法律通知或原則更新。需要收件者選擇加入。
-* **已排程 - 交易型** - 與行銷活動不同，交易型活動不需要收件者選擇加入。此類別用於與中斷、緊急情況、取消相關的通訊。 支援的管道：電子郵件、簡訊、推播通知。
+* 每月傳送電子報給客戶區段
+* 時效性強的促銷宣告
+* 季節性行銷活動
+* 產品上市通訊
+* 服務中斷通知
 
-➡️ [了解如何使用動作行銷活動](create-campaign.md)
+➡️ [瞭解動作行銷活動](create-campaign.md)
 
 >[!TAB 由 API 觸發的行銷活動]
 
-**API 觸發的行銷活動**&#x200B;可讓您使用 API 呼叫觸發行銷活動的執行。如果在進行個人化時不僅涉及使用密碼重設等輪廓屬性，還涉及觸發程序中的即時內容資料 (即 REST API 承載)，可以傳送這些通訊。
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **何時使用：**&#x200B;與外部系統即時事件導向的傳訊
 
-* **API 觸發 - 行銷** - 傳送個人化行銷通訊給目標客群。
-* **API 觸發 - 交易型** - 在個人執行動作後傳送訊息，例如密碼重設請求、購物車購買等。
+**API觸發的行銷活動**&#x200B;會透過API呼叫啟用，啟用直接從外部系統自動傳訊。 這些行銷活動支援使用個人檔案屬性和API裝載的即時內容資料進行個人化。
 
-➡️ [了解如何使用 API 觸發的行銷活動](api-triggered-campaigns.md)
+**兩個類別：**
 
+* **行銷** — 與目標對象進行個人化的行銷通訊
+* **異動** — 個別動作（密碼重設、購物車購買等）後的訊息
+
+**最適合：**
+
+* 密碼重設確認
+* 購物車放棄復原
+* 訂單確認與送貨更新
+* 帳戶活動通知
+* 即時個人化建議
+
+➡️ [瞭解API觸發的行銷活動](api-triggered-campaigns.md)
+
+>[!TAB 協調的行銷活動]
+
+![圖示](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **何時使用：**&#x200B;複雜的多步驟行銷工作流程
+
+**協調的行銷活動**&#x200B;提供視覺化的拖放畫布，以設計和自動化複雜的行銷工作流程。 從受眾細分到跨頻道個人化訊息傳送，所有事情都發生在專為快速和控制而建立的直覺式環境中。
+
+**最適合：**
+
+* 多步驟客戶參與計畫
+* 複雜的分段和目標定位策略
+* 跨頻道行銷活動策劃
+* 大規模品牌啟動行銷
+* 具有多個決策點的進階工作流程自動化
+
+➡️ [瞭解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
+>[!NOTE]
+>
+>不確定要選擇哪種型別？ 針對排程批次通訊從&#x200B;**動作行銷活動**&#x200B;開始，或針對即時傳訊從&#x200B;**API觸發的行銷活動**&#x200B;開始 — 這些涵蓋最常見的使用案例。
+
+>[!NOTE]
+>
+>不確定要選擇哪種型別？ 針對排程批次通訊從&#x200B;**動作行銷活動**&#x200B;開始，或針對即時傳訊從&#x200B;**API觸發的行銷活動**&#x200B;開始 — 這些涵蓋最常見的使用案例。
+
+## 您的行銷活動建立工作流程 {#workflow}
+
+建立成功的行銷活動會遵循清晰、可重複的流程。 以下是您的逐步工作流程：
+
+**1。 計畫**→**2。 設定**→**3。 設計**→**4。 檢閱**→**5。 啟動**→**6。 監視**
+
+### &#x200B;1. **規劃您的行銷活動** {#plan}
+
+開始之前，請釐清您的目標：
+
+* **目標是什麼？** （例如，推動轉換、提高參與度、通知客戶）
+* **對象是誰？** (來自Adobe Experience Platform的特定區段)
+* **適合哪個行銷活動型別？** （請參閱上述[行銷活動型別](#campaign-types)）
+* **您將使用哪些管道？** （電子郵件、推播、簡訊、應用程式內、網頁等）
+* **何時應該執行？** （立即、排程或API觸發）
+
+### &#x200B;2. **設定行銷活動屬性** {#configure}
+
+設定行銷活動的基礎：
+
+1. **為行銷活動命名並描述**，以方便識別
+2. **選取行銷活動型別** （動作、API觸發或協調）
+3. **從Adobe Experience Platform選擇您的對象**
+4. 如果使用衝突管理，**設定優先順序**
+5. **設定排程** （針對動作行銷活動）或API詳細資料（針對API觸發）
+
+**特定型別的參考線：**
+* [動作行銷活動屬性→](campaign-properties.md)
+* [API觸發的行銷活動屬性→](api-triggered-campaign-properties.md)
+* [協調的行銷活動設定→](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;3. **設計您的內容** {#design}
+
+為受眾建立吸引人的訊息：
+
+* 針對豐富的電子郵件體驗使用&#x200B;**電子郵件Designer**
+* 使用影像和深層連結設定&#x200B;**推播通知**
+* 設計&#x200B;**簡訊/多媒體簡訊服務**&#x200B;與個人化
+* 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
+* 使用設定檔屬性和內容資料新增&#x200B;**個人化**
+
+**特定型別的參考線：**
+* [動作行銷活動內容→](campaign-content.md)
+* [API觸發的行銷活動內容→](api-triggered-campaign-content.md)
+* [協調的行銷活動內容→](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;4. **檢閱和測試** {#review}
+
+一律在啟用前檢閱您的行銷活動：
+
+* 使用測試設定檔&#x200B;**預覽內容**
+* **檢查目標定位**，以確保適當的對象
+* **驗證排程**&#x200B;和啟用設定
+* 如果使用核准工作流程，**要求核准**
+* 使用種子清單&#x200B;**測試傳遞能力**
+
+**特定型別的參考線：**
+* [檢閱動作行銷活動→](review-activate-campaign.md)
+* [檢閱API觸發的行銷活動→](review-activate-api-triggered-campaign.md)
+* [檢閱協調的行銷活動→](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;5. **啟動您的行銷活動** {#activate}
+
+檢閱完成後，請啟動您的行銷活動：
+
+* **手動啟動** — 立即啟動或在排程時間啟動
+* **API啟用** — 針對API觸發的行銷活動，請使用啟用端點
+* **核准流程** — 如有需要，請等待利害關係人的核准
+* 注意：無法編輯作用中的行銷活動（您必須複製才能進行變更）
+
+**特定型別的參考線：**
+* [啟動動作行銷活動→](review-activate-campaign.md)
+* [啟用API觸發的行銷活動報→](review-activate-api-triggered-campaign.md)
+* [啟用協調的行銷活動報→](../orchestrated/create-orchestrated-campaigns.md)
+
+### &#x200B;6. **監視和分析** {#monitor}
+
+追蹤行銷活動的執行方式：
+
+* 檢視行銷活動報表和分析
+* 監視傳遞率和參與量度
+* 追蹤錯誤和退信
+* 分析轉換率和ROI
+* 使用見解進行最佳化
+
+**特定型別的參考線：**
+* [行動促銷活動報表→](../reports/campaign-global-report-cja.md)
+* [API觸發的行銷活動監控→定](api-triggered-campaigns.md#monitor)
+* [協調的行銷活動分析→](../orchestrated/create-orchestrated-campaigns.md)
+
+➡️ **準備好開始了嗎？**&#x200B;選擇您的行銷活動型別：
+* [建立動作行銷活動資→](create-campaign.md)
+* [建立API觸發的行銷活動→料](api-triggered-campaigns.md)
+* [建立協調的行銷活動→料](../orchestrated/gs-orchestrated-campaigns.md)
+
 ## 先決條件 {#prerequisites}
 
-在使用行銷活動之前，請確定您已檢閱下列先決條件。
+在使用行銷活動之前，請確定您已具備下列專案：
 
-* **客群** - 建立行銷活動之前必須有可用的客群。[開始使用客群](../audience/about-audiences.md)。
+### 必要的設定
 
-* **管道設定** - 若要選取管道，您必須建立相對應的管道設定 (即預設)，使其可供使用。[了解如何設定頻道設定](../configuration/channel-surfaces.md)。
+* **對象** — 對象必須可在Adobe Experience Platform中使用，才能建立行銷活動。 [開始使用對象→](../audience/about-audiences.md)
 
-* **權限** - 行銷活動僅適用於具有下列適當權限的使用者。如果您無法存取行銷活動功能，請聯絡您的管理員以請求必要的權限。[瞭解有關 Journey Optimizer 內建角色的詳細資訊](../administration/ootb-product-profiles.md)
+* **頻道設定** — 頻道設定（預設集）必須已建立，並且可供您想要使用的頻道使用。 [設定頻道設定→](../configuration/channel-surfaces.md)
 
-  | 行銷活動類型 | 權限 |
-  |----------------------------|----------------------------------------------------------------------------|
-  | **動作行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
-  | **由 API 觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
-  | **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
+* **許可權** — 您需要根據行銷活動型別的適當許可權。 如果您無法存取Campaign功能，請聯絡管理員。 [瞭解內建角色→](../administration/ootb-product-profiles.md)
 
-  +++了解如何指派行銷活動相關角色
+| 行銷活動類型 | 權限 |
+|----------------------------|----------------------------------------------------------------------------|
+| **動作行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
+| **由 API 觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
+| **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
 
-   1. 若要將角色指派給 [!DNL Permissions] 產品中的使用者，請導覽至&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，然後選擇其中一個與上述&#x200B;**[!UICONTROL 角色]**&#x200B;相關的內建行銷活動。
++++指派行銷活動許可權
 
-   1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
+1. 導覽至&#x200B;**[!UICONTROL 產品中的]**&#x200B;角色[!DNL Permissions]索引標籤，並選取其中一個內建行銷活動相關&#x200B;**[!UICONTROL 角色]**。
 
-   1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 新增使用者]**。
 
-      如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users){target="_blank"}。
+1. 輸入您的使用者名稱或電子郵件地址，或從清單中選擇使用者，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
+   如果之前未建立使用者，請參閱[新增使用者文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/ui/users){target="_blank"}。
 
-  接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
+接著，使用者應會收到一封電子郵件，並重新導向至您的執行個體。
 
-  +++
++++
 
-## 讓我們深入探討
+## Campaign功能 {#capabilities}
 
-目前您已瞭解[!DNL Journey Optimizer]中的行銷活動，該是時候深入探討這些文件章節內容，才能開始建立首次行銷活動。
+當您更熟悉行銷活動時，請探索這些強大的功能：
+
+:::: landing-cards-container
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+
+**排程與時間**
+
+針對特定日期/時間排程行銷活動、設定循環傳送，以及最佳化傳送時間以獲得最大影響。
+
+[瞭解排程](campaign-schedule.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+**速率控制項**
+
+限制訊息輸送量，以防止登入頁面或客戶服務平台等下游系統過載。
+
+[控制速率限制](create-campaign.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+**對象目標定位**
+
+精準鎖定特定Adobe Experience Platform對象，並動態管理對象資格。
+
+[選取行銷活動對象](campaign-audience.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**核准工作流程**
+
+在行銷活動上線之前實施稽核和核准程式，確保品質和合規性。
+
+[檢閱並啟動](review-activate-campaign.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+**無訊息時數**
+
+避免在指定的時間範圍內傳送訊息，以尊重客戶偏好設定。
+
+[設定無訊息時數](quiet-hours.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+**傳送時間最佳化**
+
+使用AI來決定傳送訊息的最佳時機，以最大化每個人的參與度。
+
+[最佳化傳送時間](campaigns-message-optimization.md)
+:::
+
+::::
+
+## 開始使用行銷活動型別 {#get-started-types}
+
+現在您已瞭解[!DNL Journey Optimizer]中的行銷活動，請選擇您的行銷活動型別以開始：
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
 <td><a href="create-campaign.md"><img width="70%" alt="動作行銷活動" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">動作行銷活動</a></td>
