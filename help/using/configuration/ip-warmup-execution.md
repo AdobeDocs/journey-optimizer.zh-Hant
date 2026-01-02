@@ -33,7 +33,7 @@ ht-degree: 10%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除網域群組"
 >abstract="選取要從目前階段排除的網域。網域排除需要非執行階段，因此您可能必須分割執行中階段才能新增排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hant#split-phase" text="分割階段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -166,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定義一個時間範圍，在萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}有任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
+1. 或者，您可以定義一個時間範圍，在萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#how-segmentation-works){target="_blank"}有任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 同時執行多個IP熱身計畫時，如果所有計畫的目標都是相同的IP集區和網域，預測可能造成的影響至關重要。 例如，如果ISP執行每日100封電子郵件的限制，則針對相同網域執行數個計畫可能會超過此臨界值。
 
-請確定您已排程足夠的時間來允許執行[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
+請確定您已排程足夠的時間來允許執行[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -236,7 +236,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果啟動階段的第一次執行：
 
-   * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+   * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
    * 已使用下列命名慣例為已排除的網域群組（如果有的話）建立對象： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
