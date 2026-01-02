@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 歷程，探索，開始，單一，讀取對象，對象資格，業務事件，即時，已排程，批次，事件觸發，工作流程，協調，個人化，多管道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: f3636ffa945e0ad5a5e75e90a83af2c3ca930544
+source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1448'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,8 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 * **對象資格歷程**：對對象會籍變更的即時回應(VIP升級、重新參與)
 * **業務事件歷程**：影響多個客戶的業務狀況（詳細目錄警示、快閃銷售）
 
-➡️ **[歷程型別和選擇指南](journey-types-selection.md)** — 詳細比較、決策樹和功能相容性矩陣
+<!-- waiting for DOCAC-13912 
+➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix -->
 
 ## 使用歷程設計器建置 {#journey-designer}
 
@@ -72,7 +73,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -82,7 +83,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -92,7 +93,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -102,7 +103,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **運用資料**
 
@@ -112,7 +113,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -122,7 +123,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調活動**
 
@@ -154,11 +155,11 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 
 使用歷程設計器建置您的流程：
 
-1. **設定專案條件** — 定義設定檔如何輸入（事件、對象、資格）
-2. **新增協調邏輯** — 包含等待時間、條件和決定點
-3. **設定訊息** — 設計您的通訊或運用現有的範本
-4. **設定動作** — 設定要執行的內建或自訂動作
-5. **定義退出條件** — 指定設定檔完成歷程的時間和方式
+* **設定專案條件** — 定義設定檔如何輸入（事件、對象、資格）
+* **新增協調邏輯** — 包含等待時間、條件和決定點
+* **設定訊息** — 設計您的通訊或運用現有的範本
+* **設定動作** — 設定要執行的內建或自訂動作
+* **定義退出條件** — 指定設定檔完成歷程的時間和方式
 
 [瞭解如何使用歷程設計器→](using-the-journey-designer.md)
 
@@ -213,7 +214,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新訂閱者**
 
@@ -223,7 +224,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -233,7 +234,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加速傳遞**
 
@@ -243,7 +244,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日**&#x200B;鎖定目標
 
@@ -253,7 +254,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多頻道行銷活動**
 
@@ -263,7 +264,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -281,7 +282,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -291,7 +292,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -301,7 +302,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試執行**
 
@@ -311,7 +312,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -321,7 +322,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和組織**
 
@@ -331,7 +332,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -348,15 +349,15 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## 常見問題 {#common-questions}
 
-**問：歷程與行銷活動之間有何差異？**
++++ 歷程與行銷活動之間有何差異？
 
-答：Adobe Journey Optimizer提供三種方法：
+Adobe Journey Optimizer提供三種方法：
 
 * **歷程**： 1:1即時協調，每個設定檔會依照自己的步調進行各個步驟。 最適合具有條件邏輯（例如上線、購物車放棄）的行為導向多步驟體驗。
 
@@ -369,15 +370,21 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [瞭解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
 
-<!-- Waiting for DOCAC-13912
-**Q: Which journey type should I use?**
++++
 
-A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+<!-- Waiting for DOCAC-13912
++++ Which journey type should I use?
+
+Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+
++++
 -->
 
-**問：是否可以編輯即時歷程？**
++++ 我可以編輯即時歷程嗎？
 
-答：您可以編輯有限的元素（名稱、訊息內容），但結構變更需要建立新版本。 [瞭解歷程版本](publish-journey.md#journey-versions)
+您可以編輯有限的元素（名稱、訊息內容），但結構變更需要建立新版本。 [瞭解歷程版本](publish-journey.md#journey-versions)
+
++++
 
 ➡️ **更多問題？** [檢視完整的歷程常見問答集](journey-faq.md)，包含40個以上的詳細答案
 
