@@ -113,7 +113,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
 >[!TAB 動作行銷活動（已排程）]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **何時使用：**&#x200B;簡單、排程的批次通訊
+![圖示](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant) **何時使用：**&#x200B;簡單、排程的批次通訊
 
 **動作行銷活動** （也稱為排程行銷活動）適用於在特定時間執行的直接、一次性或循環批次通訊。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
 >[!TAB 由 API 觸發的行銷活動]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **何時使用：**&#x200B;與外部系統即時事件導向的傳訊
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant) **何時使用：**&#x200B;與外部系統即時事件導向的傳訊
 
 **API觸發的行銷活動**&#x200B;會透過API呼叫啟用，啟用直接從外部系統自動傳訊。 這些行銷活動支援使用個人檔案屬性和API裝載的即時內容資料進行個人化。
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
 >[!TAB 協調的行銷活動]
 
-![圖示](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **何時使用：**&#x200B;複雜的多步驟行銷工作流程
+![圖示](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant) **何時使用：**&#x200B;複雜的多步驟行銷工作流程
 
 **協調的行銷活動**&#x200B;提供視覺化的拖放畫布，以設計和自動化複雜的行銷工作流程。 從受眾細分到跨頻道個人化訊息傳送，所有事情都發生在專為快速和控制而建立的直覺式環境中。
 
@@ -309,7 +309,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
 
 **排程與時間**
 
@@ -319,7 +319,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 **速率控制項**
 
@@ -329,7 +329,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 **對象目標定位**
 
@@ -339,7 +339,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 **核准工作流程**
 
@@ -349,7 +349,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 **無訊息時數**
 
@@ -359,7 +359,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 **傳送時間最佳化**
 
