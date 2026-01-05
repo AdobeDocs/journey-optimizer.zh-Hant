@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: 測試，驗證，核准，品質保證， qa，測試設定檔，個人化，呈現，垃圾郵件檢查，內容實驗， a/b測試，衝突偵測，種子清單，校樣，範例資料，核准工作流程，電子郵件測試，驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 57f32088aa9cef55ed68729995326d3eae401bd5
+source-git-commit: f774ce00cea82eca84410bd76f482e53d3c60bf6
 workflow-type: tm+mt
 source-wordcount: '3103'
 ht-degree: 4%
@@ -38,7 +38,7 @@ ht-degree: 4%
 | 功能 | 套用至 | 頻道限制 | 先決條件 | 主要用途 | 文件 |
 |------------|-----------|---------------------|--------------|-----------------|---------------|
 | [測試輪廓](../using/content-management/test-profiles.md) | 行銷活動、歷程 | 所有管道 | 已建立測試設定檔 | 預覽個人化內容 | [指南](#testing-campaigns) |
-| [範例輸入資料](../test-approve/simulate-sample-input.md) | 行銷活動、歷程 | 電子郵件、簡訊、推播、網頁、程式碼、應用程式內、內容卡 | CSV/JSON檔案 | 測試多個個人化變體 | [指南](#simulate-content-variations) |
+| [範例輸入資料](../using/test-approve/simulate-sample-input.md) | 行銷活動、歷程 | 電子郵件、簡訊、推播、網頁、程式碼、應用程式內、內容卡 | CSV/JSON檔案 | 測試多個個人化變體 | [指南](#simulate-content-variations) |
 | [測試模式](../using/building-journeys/testing-the-journey.md) | 僅限歷程 | 不適用 | 草稿歷程，已設定名稱空間 | 模擬設定檔進度 | [卡片](#test-your-journey) |
 | [試用](../using/building-journeys/journey-dry-run.md) | 僅限歷程 | 不適用 | 歷程已建立 | 分析執行路徑 | [卡片](#journey-dry-run) |
 | [電子郵件呈現](../using/content-management/rendering.md) | 行銷活動、歷程 | 僅限電子郵件 | Litmus整合 | 驗證跨使用者端的顯示 | [工作流程](#2-technical-validation) |
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 **[練習](../using/building-journeys/journey-dry-run.md)** =追蹤路徑而不傳送訊息或進行API呼叫的歷程執行分析工具。 使用案例：驗證邏輯而不佔用資源。 [了解試用](../using/building-journeys/journey-dry-run.md)
 
-**[範例輸入資料](../test-approve/simulate-sample-input.md)** =包含測試個人化之設定檔屬性值的CSV或JSON檔案。 最多可支援30種變體。 建立測試設定檔的替代方法。 [如何模擬內容變化](../test-approve/simulate-sample-input.md)
+**[範例輸入資料](../using/test-approve/simulate-sample-input.md)** =包含測試個人化之設定檔屬性值的CSV或JSON檔案。 最多可支援30種變體。 建立測試設定檔的替代方法。 [如何模擬內容變化](../using/test-approve/simulate-sample-input.md)
 
 **[種子清單](../using/configuration/seed-lists.md)** =實際傳送（而非測試傳送）中自動包含內部利害關係人的電子郵件地址。 僅限電子郵件頻道。 使用案例：品質監控與法規遵循。 [設定種子清單](../using/configuration/seed-lists.md)
 
@@ -144,7 +144,7 @@ ht-degree: 4%
 
 **對於所有行銷活動：**
 
-* 使用[測試設定檔](../using/content-management/test-profiles.md)或[範例輸入資料](../test-approve/simulate-sample-input.md)預覽及測試內容
+* 使用[測試設定檔](../using/content-management/test-profiles.md)或[範例輸入資料](../using/test-approve/simulate-sample-input.md)預覽及測試內容
 * 檢查跨裝置和使用者端的[電子郵件呈現](../using/content-management/rendering.md) （僅限電子郵件通道）
 * 執行[垃圾郵件分數檢查](../using/content-management/spam-report.md) （僅限電子郵件通道）
 * 檢閱[與其他行銷活動和歷程的衝突](../using/conflict-prioritization/conflicts.md)
@@ -184,7 +184,7 @@ ht-degree: 4%
 **內容建立期間：**
 
 * 使用[測試設定檔](../using/content-management/test-profiles.md)預覽，以驗證個人化轉譯器是否正確
-* 使用CSV/JSON檔案中的[範例輸入資料](../test-approve/simulate-sample-input.md)測試多個案例（支援最多30種變體）
+* 使用CSV/JSON檔案中的[範例輸入資料](../using/test-approve/simulate-sample-input.md)測試多個案例（支援最多30種變體）
 
 ## 測試最佳實務
 
@@ -198,7 +198,7 @@ ht-degree: 4%
 
 1. **徹底驗證個人化** — 使用多個[具有不同屬性值的測試設定檔](../using/content-management/test-profiles.md)進行測試，以確認個人化權杖正確轉譯且遞補值有效。 使用[個人化遊樂場](../using/personalization/personalize.md#playground)，嘗試使用個人化運算式，並使用範例資料測試程式碼，然後再將其套用至您的行銷活動。
 
-1. **使用範例資料測試內容變異** — 使用CSV或JSON檔案中的[範例輸入資料](../test-approve/simulate-sample-input.md)來測試最多30個個人化案例，而不需要建立許多測試設定檔，可節省時間並確保完整的涵蓋範圍。 支援電子郵件、簡訊、推播、網頁、程式碼型體驗、應用程式內和內容卡頻道。
+1. **使用範例資料測試內容變異** — 使用CSV或JSON檔案中的[範例輸入資料](../using/test-approve/simulate-sample-input.md)來測試最多30個個人化案例，而不需要建立許多測試設定檔，可節省時間並確保完整的涵蓋範圍。 支援電子郵件、簡訊、推播、網頁、程式碼型體驗、應用程式內和內容卡頻道。
 
 1. **使用種子清單進行利害關係人監控** — 設定[種子清單](../using/configuration/seed-lists.md)以自動包含內部利害關係人，在執行階段這些利害關係人將收到所有傳遞的復本，以進行品質監控和合規性驗證（僅限電子郵件管道）。
 
@@ -226,7 +226,7 @@ ht-degree: 4%
 
 * 在&#x200B;**[個人化遊樂場](../using/personalization/personalize.md#playground)**&#x200B;中嘗試個人化運算式，以使用範例資料測試和調整您的程式碼，然後再套用至即時內容
 
-* 使用CSV/JSON檔案中的&#x200B;**[範例輸入資料](../test-approve/simulate-sample-input.md)**&#x200B;測試多個變數，以驗證各種設定檔案例中的個人化
+* 使用CSV/JSON檔案中的&#x200B;**[範例輸入資料](../using/test-approve/simulate-sample-input.md)**&#x200B;測試多個變數，以驗證各種設定檔案例中的個人化
 
 * 驗證不同熒幕大小和電子郵件使用者端的[呈現](../using/content-management/rendering.md)
 
@@ -311,7 +311,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -321,7 +321,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -331,7 +331,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -341,7 +341,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -351,7 +351,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -361,7 +361,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization遊樂場
 
@@ -381,7 +381,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監控的種子清單
 
@@ -391,7 +391,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -406,7 +406,7 @@ Personalization遊樂場
 
 ### 基本測試和驗證指南
 
-* [模擬內容變化](../test-approve/simulate-sample-input.md) — 使用CSV或JSON檔案測試最多30個個人化案例。 不須建立多個測試設定檔即可進行多語言內容測試的理想選擇。 支援電子郵件、簡訊、推播、網頁、程式碼、應用程式內和內容卡。
+* [模擬內容變化](../using/test-approve/simulate-sample-input.md) — 使用CSV或JSON檔案測試最多30個個人化案例。 不須建立多個測試設定檔即可進行多語言內容測試的理想選擇。 支援電子郵件、簡訊、推播、網頁、程式碼、應用程式內和內容卡。
 
 * [建立測試設定檔](../using/audience/creating-test-profiles.md) — 建立和管理測試設定檔以模擬客戶案例。 瞭解如何標幟設定檔以進行測試、設定屬性以及組織測試區段。
 
@@ -471,7 +471,7 @@ Personalization遊樂場
 
 +++**問：啟動行銷活動之前需要哪些測試？**
 
-**最小值：**&#x200B;包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
+**最小值：**包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
 **建議：** +電子郵件呈現+衝突偵測+核准工作流程
 **最佳實務：** +範例輸入資料測試+種子清單+ A/B實驗（如果最佳化）
 
@@ -479,7 +479,7 @@ Personalization遊樂場
 
 +++**問：如何測試個人化而不建立許多測試設定檔？**
 
-**主要解決方案：**&#x200B;使用[範例輸入資料](../test-approve/simulate-sample-input.md)搭配CSV/JSON檔案（支援最多30種變體）
+**主要解決方案：**&#x200B;使用[範例輸入資料](../using/test-approve/simulate-sample-input.md)搭配CSV/JSON檔案（支援最多30種變體）
 **替代方案：**&#x200B;建立3-5個代表性的[測試設定檔](../using/audience/creating-test-profiles.md)，涵蓋主要區段
 **學習工具：**&#x200B;個人化遊樂場[中的](../using/personalization/personalize.md#playground)實驗優先
 
@@ -487,25 +487,25 @@ Personalization遊樂場
 
 +++**問：歷程的測試模式與試執行之間有何差異？**
 
-**測試模式：**&#x200B;透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
-**試執行：**&#x200B;追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
+**測試模式：**透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
+**試執行：**追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
 **搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用=全面涵蓋範圍。
 
 +++
 
 +++**問：我可以在生產/即時狀態中測試歷程嗎？**
 
-**測試模式：**&#x200B;否 — 僅草稿歷程
-**練習：**&#x200B;是 — 適用於任何歷程狀態
-**內容預覽：**&#x200B;是 — 隨時預覽個別訊息
+**測試模式：**否 — 僅草稿歷程
+**練習：**是 — 適用於任何歷程狀態
+**內容預覽：**是 — 隨時預覽個別訊息
 **因應措施：**&#x200B;重複的即時歷程以草稿進行完整測試模式驗證
 
 +++
 
 +++**問：哪些測試功能需要外部整合？**
 
-**電子郵件呈現：**&#x200B;需要Litmus整合（個別授權）
-**其他所有專案：**&#x200B;內建至Journey Optimizer，不需要其他整合
+**電子郵件呈現：**需要Litmus整合（個別授權）
+**其他所有專案：**內建至Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試設定檔需要即時客戶設定檔服務（包含）
 
 +++
@@ -513,8 +513,8 @@ Personalization遊樂場
 +++**問：如何測試API觸發的行銷活動？**
 
 **選項1：**&#x200B;使用[促銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}進行程式設計測試
-**選項2：**&#x200B;在UI中使用測試設定檔預覽內容
-**選項3：**&#x200B;傳送校樣以測試電子郵件地址
+**選項2：**在UI中使用測試設定檔預覽內容
+**選項3：**傳送校樣以測試電子郵件地址
 **最佳實務：**&#x200B;結合所有這三項以進行全面驗證
 
 +++
