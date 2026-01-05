@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 22%
+source-wordcount: '1648'
+ht-degree: 18%
 
 ---
 
@@ -115,6 +115,10 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>使用SSH金鑰驗證時，金鑰必須是&#x200B;**Base64編碼的OpenSSH**&#x200B;私密金鑰。 如果是PPK格式檔案，請使用PuTTY工具將其轉換為OpenSSH格式。 如需詳細指示，請參閱[本節](#ssh-key-generation)。
+
 >[!NOTE]
 >
 >若要指定伺服器上儲存檔案的路徑，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
@@ -145,7 +149,7 @@ ht-degree: 22%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
@@ -154,6 +158,36 @@ ht-degree: 22%
 填寫伺服器型別的詳細資料後，請選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
 
 您也可以選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以建立檔案路由組態，但您無法在組態中選取它，直到它是&#x200B;**[!UICONTROL 作用中]**&#x200B;為止。
+
+### 產生SFTP驗證的SSH金鑰 {#ssh-key-generation}
+
+如果您使用具有SSH金鑰驗證的SFTP，則必須擁有Base64編碼的OpenSSH私密金鑰。 如果金鑰的格式不正確，則在設定檔案路由時，可能會遇到連線錯誤。
+
++++產生Base64編碼的OpenSSH私密金鑰
+
+1. 在PuTTYgen中，產生您的金鑰組。 建議使用2048位元或更新版本的RSA。
+1. 從功能表選取&#x200B;**轉換** > **匯出OpenSSH金鑰**。
+1. 出現提示時，選擇儲存私密金鑰&#x200B;**而不使用密碼保護**。
+1. 在儲存對話方塊中，選取&#x200B;**所有檔案(*)。*)**&#x200B;做為檔案型別，以確保將金鑰儲存為純文字，而不是儲存為.ppk檔案。
+1. 使用文字編輯器開啟儲存的檔案，並驗證其格式：
+   * 檔案必須以`-----BEGIN RSA PRIVATE KEY-----`開頭（前後有五個破折號）。
+   * 應該沒有表示加密的文字。
+   * 檔案必須以`-----END RSA PRIVATE KEY-----`結尾（前後有五個破折號）。
+1. 複製&#x200B;**整個檔案內容** （包括`-----BEGIN/END RSA PRIVATE KEY-----`標籤），並使用[Base64 Encode和Decode](https://www.base64encode.org/)之類的工具將其編碼至Base64。
+
+   >[!NOTE]
+   >
+   >在Base64編碼輸出中，移除任何MIME格式。 編碼索引鍵必須是單一連續字串。
+
+1. 您現在可以將Base64編碼的SSH金鑰貼到Journey Optimizer中的專用欄位。
+
+>[!CAUTION]
+>
+>Base64編碼之後，金鑰將不再包含`-----BEGIN/END RSA PRIVATE KEY-----`標籤，且不得包含任何分行符號。 必須將對應的公開金鑰新增至SFTP伺服器的授權金鑰檔案。
+
+如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+
++++
 
 ## 建立直接郵件設定 {#direct-mail-surface}
 
