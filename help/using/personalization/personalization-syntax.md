@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 語法一般規則 {#general-rules}
 
-* 識別碼可以是任何Unicode字元，但以下專案除外：
+* 識別碼可以是任何Unicode字元，但下列為Handlebars語法保留的特殊字元除外：
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ ht-degree: 2%
 
   假設欄位`profile.person.name`的值為「Mark &amp; Mary」。 語法`{{profile.person.name}}`將顯示`Mark &amp; Mary`，而`{{{profile.person.name}}}`將顯示`Mark & Mary`。
 
-* 關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用其他反斜線(`\`)符號逸出。 範例：
+* 關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用額外的反斜線(`\`)符號逸出。 範例：
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ ht-degree: 2%
 
   +++
 
-## 輔助程式{#helpers-all}
+## 輔助程式 {#helpers-all}
 
 Handlebars協助程式是簡單識別碼，後面可能會接著引數。 每個引數都是Handlebars運算式。 這些協助程式可從範本中的任何內容存取。
 
@@ -144,7 +144,7 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。 每個
 
 區塊是具有區塊開啟(`{{# }}`)和結束(`{{/}}`)的運算式。
 
-如需協助程式函式的詳細資訊，請參閱[本節](functions/helpers.md)。
+    如需協助程式函式的詳細資訊，請參閱[本節](functions/helpers.md)。
 
 ## 常值型別 {#literal-types}
 
