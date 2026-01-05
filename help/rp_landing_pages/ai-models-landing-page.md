@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: AI 模型
 description: AI 模型
 redpen-status: CREATED_||_2025-08-11_20-59-35
+badge: label="舊版" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
 
 # AI 模型{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來做出更聰明、資料導向的決策，以符合您的業務目標。無論您是要實現更高的轉換率、更高的收入，還是要提供個人化的客戶體驗，這些模型都會根據您的需求進行調整。您將探索兩種類型的 AI 模型：自動最佳化 (著重根據過去資料改善整體績效) 和個人化最佳化 (為個別客戶量身打造建議)。透過建立及使用這些模型的明確指引，您將了解如何釋放其潛力，以最佳化每次互動，讓您的行銷策略更有效且更具影響力。
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 AI 模型
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 了解自動最佳化模型
 
@@ -40,7 +45,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 了解個人化最佳化模型
 
@@ -50,7 +55,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立 AI 模型
 
