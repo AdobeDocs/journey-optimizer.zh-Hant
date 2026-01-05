@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '666'
+ht-degree: 2%
 
 ---
 
@@ -50,6 +50,26 @@ ht-degree: 3%
 * 關於常值函式引數，範本化語言剖析器不支援單一未逸出的反斜線(`\`)符號。 此字元必須使用其他反斜線(`\`)符號逸出。 範例：
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## 保留關鍵字 {#reserved-keywords}
+
+某些關鍵字在Profile Query Language (PQL)中會保留，並且無法直接用作個人化運算式中的欄位或變數名稱。 如果您的XDM結構描述包含名稱符合保留關鍵字的欄位，您必須使用反引號(`` ` ``)將其逸出，以便在運算式中參照。
+
+**保留的關鍵字包括：**
+
+* `next`
+* `last`
+* `this`
+
+**範例：**
+
+如果您的設定檔結構描述有名為`next`的欄位，您必須以反引號將其換行：
+
+```
+{{profile.person.`next`.name}}
+```
+
+如果沒有反引號，個人化編輯器將會因錯誤而無法通過驗證。
 
 ## 可用的名稱空間 {#namespaces}
 
