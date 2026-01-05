@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 測試，驗證，核准，品質保證， qa，測試設定檔，個人化，呈現，垃圾郵件檢查，內容實驗， a/b測試，衝突偵測，種子清單，校樣，範例資料，核准工作流程，電子郵件測試，驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1b774d95a117903695e6954fb2c820adfdf0d3bb
+source-git-commit: abb2ed3cfa617bb9afc23c8f69634d5afe89b33e
 workflow-type: tm+mt
-source-wordcount: '2768'
-ht-degree: 5%
+source-wordcount: '2997'
+ht-degree: 4%
 
 ---
 
@@ -315,7 +315,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -325,7 +325,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -335,7 +335,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -345,7 +345,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -355,7 +355,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -365,7 +365,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization遊樂場
 
@@ -385,7 +385,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監控的種子清單
 
@@ -395,7 +395,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -408,7 +408,9 @@ Personalization遊樂場
 
 ## 其他資源
 
-### 基本測試和驗證指南
+>[!BEGINTABS]
+
+>[!TAB 基本指南]
 
 * [模擬內容變化](../using/test-approve/simulate-sample-input.md) — 使用CSV或JSON檔案測試最多30個個人化案例。 不須建立多個測試設定檔即可進行多語言內容測試的理想選擇。 支援電子郵件、簡訊、推播、網頁、程式碼、應用程式內和內容卡。
 
@@ -418,65 +420,64 @@ Personalization遊樂場
 
 * [歷程常見問題集](../using/building-journeys/journey-faq.md) — 關於歷程測試、執行和疑難排解的常見問題快速參考。
 
-<!-- ### Dependencies and relationships
+>[!TAB 相依性和關係]
 
-Understand how testing capabilities connect to each other and to your broader Journey Optimizer workflows. This section maps prerequisites, upstream/downstream dependencies, and common capability combinations.
+瞭解測試功能如何相互關聯以及您更廣泛的Journey Optimizer工作流程。 本節將對應先決條件、上游/下游相依性及通用功能組合。
 
-+++**Prerequisites (required before testing)**
++++**先決條件（測試前必須有）**
 
-* Test profiles must be created before using test mode or content preview
-* Approval policies must be configured before submitting for approval
-* Seed lists must be created before adding to campaigns/journeys
-* Litmus integration required for email rendering tests
-* Journey must be in draft status to use test mode
-* Journey must have namespace configured to use test mode
-
-+++
-
-+++**What testing depends on (upstream)**
-
-* Content creation: Need campaigns or journeys to test
-* Test profiles: Required for test mode and content preview
-* Approval policies: Required for approval workflows
-* Configuration: Channel configurations, email authentication, domain settings
+* 必須先建立測試設定檔，才能使用測試模式或內容預覽
+* 在提交以進行核准之前，必須先設定核准原則
+* 您必須先建立種子清單，才能新增至行銷活動/歷程
+* 電子郵件轉譯測試需要Litmus整合
+* 歷程必須處於草稿狀態才能使用測試模式
+* 歷程必須已將名稱空間設定為使用測試模式
 
 +++
 
-+++**What depends on testing (downstream)**
++++**依賴哪些測試（上游）**
 
-* Campaign/journey activation: Cannot activate without resolving errors
-* Publishing: Approval may be required before publishing
-* Live monitoring: Post-launch monitoring and reporting
-* Optimization: Use test results to refine future campaigns
-
-+++
-
-+++**Related capabilities**
-
-* Testing + Approval workflows = Quality assurance process
-* Testing + Conflict detection = Preventing customer over-messaging
-* Testing + Content experiments = Performance optimization
-* Testing + Reporting = Continuous improvement cycle
-* Test profiles + Personalization = Content validation
-* Dry run + Test mode = Comprehensive journey validation
+* 內容建立：需要行銷活動或歷程進行測試
+* 測試設定檔：測試模式和內容預覽的必要專案
+* 核准政策：核准工作流程所必需
+* 設定：頻道設定、電子郵件驗證、網域設定
 
 +++
 
-+++**Common capability combinations**
++++**取決於測試（下游）**&#x200B;的專案
 
-* Content testing: Test profiles + Sample input data + Personalization playground
-* Email validation: Rendering tests + Spam scores + Test profiles + Proofs
-* Journey validation: Test mode + Dry run + Test profiles
-* Pre-launch checklist: All technical tests + Conflict detection + Approval workflows
+* 行銷活動/歷程啟用：不解決錯誤就無法啟用
+* 發佈：發佈前可能需要核准
+* 即時監視：啟動後的監視和報告
+* 最佳化：使用測試結果來調整未來的行銷活動
 
 +++
--->
 
-### 常見問題
++++**相關功能**
+
+* 測試+核准工作流程=品質保證流程
+* 測試+衝突偵測=防止客戶過度傳送訊息
+* 測試+內容實驗=效能最佳化
+* 測試+報告=持續改善週期
+* 測試設定檔+ Personalization =內容驗證
+* 練習+測試模式=完整的歷程驗證
+
++++
+
++++**通用功能組合**
+
+* 內容測試：測試設定檔+範例輸入資料+ Personalization遊樂場
+* 電子郵件驗證：呈現測試+垃圾郵件分數+測試設定檔+校樣
+* 歷程驗證：測試模式+試執行+測試設定檔
+* 啟動前檢查清單：所有技術測試+衝突偵測+核准工作流程
+
++++
+
+>[!TAB 常見問題]
 
 +++**問：啟動行銷活動之前需要哪些測試？**
 
-**最小值：**&#x200B;包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
+**最小值：**包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
 **建議：** +電子郵件呈現+衝突偵測+核准工作流程
 **最佳實務：** +範例輸入資料測試+種子清單+ A/B實驗（如果最佳化）
 
@@ -492,25 +493,25 @@ Understand how testing capabilities connect to each other and to your broader Jo
 
 +++**問：歷程的測試模式與試執行之間有何差異？**
 
-**測試模式：**&#x200B;透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
-**試執行：**&#x200B;追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
+**測試模式：**透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
+**試執行：**追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
 **搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用=全面涵蓋範圍。
 
 +++
 
 +++**問：我可以在生產/即時狀態中測試歷程嗎？**
 
-**測試模式：**&#x200B;否 — 僅草稿歷程
-**練習：**&#x200B;是 — 適用於任何歷程狀態
-**內容預覽：**&#x200B;是 — 隨時預覽個別訊息
+**測試模式：**否 — 僅草稿歷程
+**練習：**是 — 適用於任何歷程狀態
+**內容預覽：**是 — 隨時預覽個別訊息
 **因應措施：**&#x200B;重複的即時歷程以草稿進行完整測試模式驗證
 
 +++
 
 +++**問：哪些測試功能需要外部整合？**
 
-**電子郵件呈現：**&#x200B;需要Litmus整合（個別授權）
-**其他所有專案：**&#x200B;內建至Journey Optimizer，不需要其他整合
+**電子郵件呈現：**需要Litmus整合（個別授權）
+**其他所有專案：**內建至Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試設定檔需要即時客戶設定檔服務（包含）
 
 +++
@@ -518,9 +519,10 @@ Understand how testing capabilities connect to each other and to your broader Jo
 +++**問：如何測試API觸發的行銷活動？**
 
 **選項1：**&#x200B;使用[促銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}進行程式設計測試
-**選項2：**&#x200B;在UI中使用測試設定檔預覽內容
-**選項3：**&#x200B;傳送校樣以測試電子郵件地址
+**選項2：**在UI中使用測試設定檔預覽內容
+**選項3：**傳送校樣以測試電子郵件地址
 **最佳實務：**&#x200B;結合所有這三項以進行全面驗證
 
 +++
 
+>[!ENDTABS]
