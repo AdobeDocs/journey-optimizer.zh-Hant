@@ -6,7 +6,7 @@ description: 決策管理
 redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="舊版" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的產品建議提供給適當的客群。結合建立個人化產品建議的工具、使用 AI 或自訂規則智慧地排名產品建議，以及分析即時意見回饋，您可以跨管道製作順暢、資料導向的客戶體驗。本節將引導您建置刊登版位和決策規則等基本元件，整合內容與事件資料以精確鎖定目標，並將 API 用於進階工作流程。無論您是設計電子郵件行銷活動還是最佳化網頁互動，都能獲得可操作的洞察和策略，以提升您的決策功能。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決策管理快速入門
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 建立及管理決策元件
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 建立和最佳化排名
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理產品建議
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立和管理決定
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用批次決策
 
