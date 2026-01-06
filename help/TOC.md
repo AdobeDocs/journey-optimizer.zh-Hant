@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
-source-wordcount: '3038'
+source-wordcount: '3041'
 ht-degree: 99%
 
 ---
@@ -235,8 +235,8 @@ ht-degree: 99%
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
 + 監視與疑難排解 {#monitor}
-   + [監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [開始使用追蹤](using/start/get-started-tracking.md)
+   + [開始使用監控和疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Journey Optimizer中的追蹤](using/start/get-started-tracking.md)
    + 電子郵件傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解禁止名單](using/reports/suppression-list.md)
@@ -724,7 +724,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 追蹤，監視，分析，報告，傳遞能力
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 開始使用Journey Optimizer中的追蹤功能 {#get-started-tracking}
 
-追蹤和監控可讓您評估行銷活動的成效、最佳化客戶體驗，並確保訊息送達其預期的收件者。 Journey Optimizer提供全方位追蹤功能，可擷取客戶互動、傳遞效能及系統健康狀況，協助您做出資料導向式決策，同時尊重隱私權並維護合規性。
+追蹤可讓您評估行銷活動的成效、最佳化客戶體驗，並確保訊息送達其預期的收件者。 Journey Optimizer提供全方位追蹤功能，可擷取客戶互動、傳遞效能及系統健康狀況，協助您做出資料導向式決策，同時尊重隱私權並維護合規性。
 
 大部分追蹤都會在您建立訊息和歷程時自動設定。 若是進階案例，您可以設定自訂量度、設定URL引數，以及與外部分析平台整合。 透過內建報告存取您的追蹤資料，或匯出資料以在Customer Journey Analytics中進行更深入的分析。
 
@@ -232,9 +232,9 @@ SMS追蹤只需要最少的設定 — Journey Optimizer會自動縮短並追蹤�
 
 * **設定自訂動作監視** — 設定與外部系統整合的追蹤，以監視API呼叫、回應時間和錯誤模式。 [了解更多](../action/reporting.md)
 
-* **自訂報告和資料匯出** — 建立量身打造的報告，並將追蹤資料匯出至外部系統，以進行更深入的分析。 [了解更多](../reports/sharing-overview.md)
+* **建立自訂報告並匯出資料** — 建立量身打造的報告並匯出追蹤資料至外部系統，以進行更深入的分析。 [了解更多](../reports/sharing-overview.md)
 
-**檢視統一的效能：**&#x200B;存取行銷活動和歷程的完整報告，以比較電子郵件、推播、簡訊和其他管道的效能，並瞭解哪些組合可帶來最佳結果。 [行銷活動報告](../reports/campaign-global-report-cja.md) | [歷程報告](../reports/journey-global-report-cja.md)
+* **檢視統一的效能：**&#x200B;存取行銷活動和歷程的完整報告，以比較電子郵件、推播、簡訊和其他管道的效能，並瞭解哪些組合可帶來最佳結果。 [行銷活動報告](../reports/campaign-global-report-cja.md) | [歷程報告](../reports/journey-global-report-cja.md)
 
 ## 追蹤最佳化和決策效能 {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效
 
 ### 設定最佳化追蹤 {#optimization-tracking}
 
-* **在您的行銷活動和歷程中最佳化**
+* **在您的行銷活動和歷程中最佳化**：
 
    * 建立實驗時，定義要追蹤的量度（轉換、點按、自訂事件）。 Journey Optimizer會自動收集每個處理的效能資料。 [了解更多](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * 建立鎖定目標規則，將不同內容傳送至不同的受眾區段。 Journey Optimizer會自動追蹤每個目標群組的參與量度，讓您比較不同區段的效能。 [了解更多](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **歷程路徑最佳化** — 新增&#x200B;**最佳化**&#x200B;活動至您的歷程並設定多個路徑。 Journey Optimizer會自動追蹤設定檔採取哪些路徑並測量效能。 [了解更多](../building-journeys/optimize.md)
+* **歷程路徑最佳化**：新增&#x200B;**最佳化**&#x200B;活動至您的歷程並設定多個路徑。 Journey Optimizer會自動追蹤設定檔採取哪些路徑並測量效能。 [了解更多](../building-journeys/optimize.md)
 
-**分析結果：**&#x200B;檢視實驗報告中處理間的轉換率、統計顯著性和提升度，或比較目標區段間的參與量度。 [實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md) | [實驗歷程報告](../reports/journey-global-report-cja-experimentation.md) | [歷程目標定位報告](../reports/journey-global-report-cja.md#targeting)
+若要分析結果：在實驗報告中檢視轉換率、統計顯著性和治療之間的提升度，或比較目標區段之間的參與量度。 [實驗行銷活動報告](../reports/campaign-global-report-cja-experimentation.md) | [實驗歷程報告](../reports/journey-global-report-cja-experimentation.md) | [歷程目標定位報告](../reports/journey-global-report-cja.md#targeting)
 
 ### 追蹤決策效能 {#decisioning-tracking}
 
 使用決策來個人化內容時，Journey Optimizer會自動追蹤決策事件、曝光次數和點按次數，而不需要其他設定。
 
 * **自動事件擷取** — 每當為設定檔選取決策專案時，Journey Optimizer就會自動擷取決策事件。
-* **閱聽追蹤** — 對於電子郵件，閱聽會被自動追蹤。 針對程式碼型體驗，您必須在程式碼中實作主張顯示事件。
+* **閱聽追蹤** — 對於電子郵件，閱聽會被自動追蹤。 針對程式碼型體驗，您必須在程式碼中實作主張顯示事件。 [了解更多](../code-based/code-based-implementation-samples.md#client-side-how)
 * **點選追蹤** — 決策專案的點選會在電子郵件中自動追蹤；程式碼型體驗需要實作點選事件。
 
-**程式碼型追蹤的必要條件：**&#x200B;若要追蹤程式碼型體驗中的決策，請確定您的實作使用Web SDK或Mobile SDK將主張互動事件（顯示和點按）傳送至Adobe Experience Platform。 [了解更多](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>若要在&#x200B;**程式碼型體驗**&#x200B;中追蹤決策，請確保您的實作使用Web SDK或Mobile SDK將主張互動事件（顯示和點按）傳送至Adobe Experience Platform。 [了解更多](../experience-decisioning/data-collection/schema-requirement.md)
 
-**分析效能：**&#x200B;檢視決策KPI、比較決策專案、分析選擇策略，以及監視報告中的AI模型效能。 [了解更多](../experience-decisioning/cja-reporting.md)
+監控效能：檢視決策KPI、比較決策專案、分析選擇策略，以及在報表中監控AI模型效能。 [了解更多](../experience-decisioning/cja-reporting.md)
 
 ## 控制追蹤資料的使用情況 {#data-governance}
 
