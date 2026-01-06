@@ -724,7 +724,7 @@ ht-degree: 99%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
