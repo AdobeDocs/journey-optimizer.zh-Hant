@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant)
 
 IP 暖身傳遞能力指南
 
@@ -30,7 +30,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 開始使用 IP 暖身計劃
 
@@ -40,7 +40,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立 IP 暖身行銷活動
 
@@ -50,7 +50,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 如何建立和管理 IP 暖身計劃
 
@@ -60,7 +60,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 執行並管理您的 IP 暖身計劃
 
