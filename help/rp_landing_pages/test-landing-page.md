@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 測試，驗證，核准，品質保證， qa，測試設定檔，個人化，呈現，垃圾郵件檢查，內容實驗， a/b測試，衝突偵測，種子清單，校樣，範例資料，核准工作流程，電子郵件測試，驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
+source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2284'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization遊樂場
 
@@ -96,7 +96,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監控的種子清單
 
@@ -106,7 +106,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -290,89 +290,16 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 建議的測試工作流程
 
-遵循此系統化方法，確保進行徹底測試並順利核准：
+在啟動之前，請依照此4階段方法，驗證您的行銷活動和歷程：
 
-### 1.內容開發與預覽
+| 階段 | 測試內容 | 關鍵動作 |
+|-------|-------------|-------------|
+| **1。 內容驗證** | Personalization，設計，呈現 | [使用測試設定檔預覽](../using/content-management/preview-test.md)，使用CSV/JSON測試[多個變數](../using/test-approve/simulate-sample-input.md)，驗證跨裝置的[呈現](../using/content-management/rendering.md) |
+| **2. 技術檢查** | 可遞送性、連結、衝突 | 執行[垃圾郵件分數檢查](../using/content-management/spam-report.md)、驗證連結、檢查[是否與其他行銷活動衝突](../using/conflict-prioritization/conflicts.md) |
+| **3.歷程邏輯** （僅限歷程） | 登入條件、流量、分支 | 使用[測試模式](../using/building-journeys/testing-the-journey.md)來模擬進度，針對複雜路徑執行[練習](../using/building-journeys/journey-dry-run.md) |
+| **4.啟動前** | 設定、核准、監視 | 送出以進行[核准](../using/test-approve/gs-approval.md)，驗證排程和對象，啟用[警示](../using/reports/alerts.md) |
 
-首先，請建立您的內容，並使用預覽功能來驗證初始設計和個人化：
-
-* 設計您的[電子郵件](../using/email/create-email.md)、[簡訊](../using/sms/create-sms.md)、[推播通知](../using/push/create-push.md)或其他頻道內容
-
-* 使用&#x200B;**[模擬內容](../using/content-management/preview-test.md)**&#x200B;功能，以使用測試設定檔預覽
-
-* 檢查[個人化權杖](../using/personalization/personalization-syntax.md)、動態內容和遞補值
-
-* 在&#x200B;**[個人化遊樂場](../using/personalization/personalize.md#playground)**&#x200B;中嘗試個人化運算式，以使用範例資料測試和調整您的程式碼，然後再套用至即時內容
-
-* 使用CSV/JSON檔案中的&#x200B;**[範例輸入資料](../using/test-approve/simulate-sample-input.md)**&#x200B;測試多個變數，以驗證各種設定檔案例中的個人化
-
-* 驗證不同熒幕大小和電子郵件使用者端的[呈現](../using/content-management/rendering.md)
-
-### 2.技術驗證
-
-驗證影響傳遞能力與功能的技術層面：
-
-* 執行[垃圾郵件分數檢查](../using/content-management/spam-report.md)以識別潛在傳遞能力問題
-
-* 測試連結，確保連結未中斷並正確追蹤
-
-* 驗證[電子郵件驗證](../using/configuration/dmarc-record.md) (SPF、DKIM、DMARC)設定
-
-* 檢閱HTML演算，並檢查CSS相容性問題
-
-* 在行動裝置和案頭裝置上測試[回應式設計](../using/email/content-from-scratch.md)
-
-* 檢查與其他行銷活動和歷程的[潛在衝突](../using/conflict-prioritization/conflicts.md)，以防止客戶訊息疲勞和時間問題
-
-### 3.歷程測試（僅限歷程）
-
-如果您正在測試歷程，請驗證協調邏輯：
-
-* 啟動&#x200B;**[測試模式](../using/building-journeys/testing-the-journey.md)**&#x200B;以模擬歷程中的設定檔進度
-
-* 測試不同的[進入條件](../using/building-journeys/entry-management.md)和對象資格
-
-* 驗證[等待活動](../using/building-journeys/wait-activity.md)、[條件](../using/building-journeys/condition-activity.md)和分支邏輯是否正確運作
-
-* 使用複雜歷程的&#x200B;**[練習](../using/building-journeys/journey-dry-run.md)**&#x200B;來分析執行路徑而不傳送訊息
-
-* 檢查[事件](../using/event/about-events.md)是否正確觸發，以及[自訂動作](../using/action/about-custom-action-configuration.md)是否如預期般執行
-
-### 4.核准提交
-
-測試完成且問題解決後：
-
-* 根據您組織的[核准原則](../using/test-approve/approval-policies.md)提交行銷活動或歷程以進行核准
-
-* 在[核准要求](../using/test-approve/request-approval.md)中包含測試結果和檔案
-
-* 處理[核准者](../using/test-approve/review-approve-request.md)的任何意見回饋或變更要求
-
-* 進行必要的修訂，若有重大變更則重新測試
-
-### 5.啟動前驗證
-
-在啟用您的行銷活動或歷程之前：
-
-* 對所有設定、對象和[排程執行最終稽核](../using/building-journeys/journey-properties.md)
-
-* 確認所有核准都已就緒且已記錄
-
-* 確認傳送時間和[時區](../using/building-journeys/timezone-management.md)是否正確
-
-* 啟用[監視和警示](../using/reports/alerts.md)以追蹤啟動後的效能
-
-### 6.監視與重複
-
-啟動後，請繼續監視以及早發現任何問題：
-
-* 針對歷程錯誤、高跳出率或低參與度設定[系統警示](../using/reports/alerts.md)
-
-* 檢閱[即時報告](../using/building-journeys/report-journey.md)以追蹤績效是否符合預期
-
-* 如果發生嚴重問題，請準備[暫停或修改](../using/building-journeys/journey-pause.md)個歷程
-
-* 記錄吸取的經驗教訓，以改進未來的測試流程
+**專業秘訣：**&#x200B;從[個人化遊樂場](../using/personalization/personalize.md#playground)開始，在建立內容之前先測試運算式，並一律在啟動之前檢查[衝突偵測](../using/conflict-prioritization/conflicts.md)，以防止過度傳訊。
 
 ## 實際測試：使用案例
 
@@ -480,7 +407,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：啟動行銷活動之前需要哪些測試？**
 
-**最小值：**&#x200B;包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
+**最小值：**包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
 **建議：** +電子郵件呈現+衝突偵測+核准工作流程
 **最佳實務：** +範例輸入資料測試+種子清單+ A/B實驗（如果最佳化）
 
@@ -496,25 +423,25 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：歷程的測試模式與試執行之間有何差異？**
 
-**測試模式：**&#x200B;透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
-**試執行：**&#x200B;追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
+**測試模式：**透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
+**試執行：**追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
 **搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用=全面涵蓋範圍。
 
 +++
 
 +++**問：我可以在生產/即時狀態中測試歷程嗎？**
 
-**測試模式：**&#x200B;否 — 僅草稿歷程
-**練習：**&#x200B;是 — 適用於任何歷程狀態
-**內容預覽：**&#x200B;是 — 隨時預覽個別訊息
+**測試模式：**否 — 僅草稿歷程
+**練習：**是 — 適用於任何歷程狀態
+**內容預覽：**是 — 隨時預覽個別訊息
 **因應措施：**&#x200B;重複的即時歷程以草稿進行完整測試模式驗證
 
 +++
 
 +++**問：哪些測試功能需要外部整合？**
 
-**電子郵件呈現：**&#x200B;需要Litmus整合（個別授權）
-**其他所有專案：**&#x200B;內建至Journey Optimizer，不需要其他整合
+**電子郵件呈現：**需要Litmus整合（個別授權）
+**其他所有專案：**內建至Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試設定檔需要即時客戶設定檔服務（包含）
 
 +++
@@ -522,8 +449,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 +++**問：如何測試API觸發的行銷活動？**
 
 **選項1：**&#x200B;使用[促銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}進行程式設計測試
-**選項2：**&#x200B;在UI中使用測試設定檔預覽內容
-**選項3：**&#x200B;傳送校樣以測試電子郵件地址
+**選項2：**在UI中使用測試設定檔預覽內容
+**選項3：**傳送校樣以測試電子郵件地址
 **最佳實務：**&#x200B;結合所有這三項以進行全面驗證
 
 +++
