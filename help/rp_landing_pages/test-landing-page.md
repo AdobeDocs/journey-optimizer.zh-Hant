@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: 測試，驗證，核准，品質保證， qa，測試設定檔，個人化，呈現，垃圾郵件檢查，內容實驗， a/b測試，衝突偵測，種子清單，校樣，範例資料，核准工作流程，電子郵件測試，驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1f0890dd4257f049fd041dc2dbf6d45cd0d7092c
+source-git-commit: 5b1a68bb64fc55de894cb97a5239f4e1cd77fb40
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2308'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -76,7 +76,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization遊樂場
 
@@ -96,7 +96,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監控的種子清單
 
@@ -106,7 +106,7 @@ Personalization遊樂場
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -233,7 +233,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **對於API觸發的行銷活動：**
 
-* 使用[Campaign模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}以程式設計方式觸發校訂工作
+* 使用[Campaign模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}以程式設計方式觸發校訂工作
 
 >[!TAB 正在測試歷程]
 
@@ -314,27 +314,29 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ## 重要術語
 
-**[測試設定檔](../using/content-management/test-profiles.md)** =用於預覽個人化內容的綜合客戶設定檔（不是真正的客戶）。 在即時客戶個人檔案服務中標幟。 測試模式和內容預覽的必要專案。 [瞭解如何建立測試設定檔](../using/audience/creating-test-profiles.md)
+熟悉這些基本的測試概念，以更加瞭解Journey Optimizer的測試和核准功能。 每個辭彙都連結到詳細檔案。
 
-**[測試模式](../using/building-journeys/testing-the-journey.md)** =透過歷程路徑傳送測試設定檔的歷程模擬功能。 限制：僅草稿歷程，需要名稱空間，僅測試設定檔。 [請參閱測試模式檔案](../using/building-journeys/testing-the-journey.md)
+**[測試設定檔](../using/content-management/test-profiles.md)** — 用於預覽個人化內容的綜合客戶設定檔（不是真正的客戶）。 在即時客戶個人檔案服務中標幟。 測試模式和內容預覽的必要專案。 [瞭解如何建立測試設定檔](../using/audience/creating-test-profiles.md)
 
-**[練習](../using/building-journeys/journey-dry-run.md)** =追蹤路徑而不傳送訊息或進行API呼叫的歷程執行分析工具。 使用案例：驗證邏輯而不佔用資源。 [了解試用](../using/building-journeys/journey-dry-run.md)
+**[測試模式](../using/building-journeys/testing-the-journey.md)** — 透過歷程路徑傳送測試設定檔的歷程模擬功能。 限制：僅草稿歷程，需要名稱空間，僅測試設定檔。 [請參閱測試模式檔案](../using/building-journeys/testing-the-journey.md)
 
-**[範例輸入資料](../using/test-approve/simulate-sample-input.md)** =包含測試個人化之設定檔屬性值的CSV或JSON檔案。 最多可支援30種變體。 建立測試設定檔的替代方法。 [如何模擬內容變化](../using/test-approve/simulate-sample-input.md)
+**[練習](../using/building-journeys/journey-dry-run.md)** — 追蹤路徑而不傳送訊息或進行API呼叫的歷程執行分析工具。 使用案例：驗證邏輯而不佔用資源。 [了解試用](../using/building-journeys/journey-dry-run.md)
 
-**[種子清單](../using/configuration/seed-lists.md)** =實際傳送（而非測試傳送）中自動包含內部利害關係人的電子郵件地址。 僅限電子郵件頻道。 使用案例：品質監控與法規遵循。 [設定種子清單](../using/configuration/seed-lists.md)
+**[範例輸入資料](../using/test-approve/simulate-sample-input.md)** — 包含測試個人化之設定檔屬性值的CSV或JSON檔案。 最多可支援30種變體。 建立測試設定檔的替代方法。 [如何模擬內容變化](../using/test-approve/simulate-sample-input.md)
 
-**[內容實驗](../using/content-management/get-started-experiment.md)** = A/B測試或比較內容變化的多臂吃角子老虎機實驗。 僅限行銷活動，不適用於歷程。 [開始使用實驗](../using/content-management/get-started-experiment.md) | [建立實驗](../using/content-management/content-experiment.md)
+**[種子清單](../using/configuration/seed-lists.md)** — 實際傳遞（而非測試傳送）中自動包含內部利害關係人的電子郵件地址。 僅限電子郵件頻道。 使用案例：品質監控與法規遵循。 [設定種子清單](../using/configuration/seed-lists.md)
 
-**[校樣](../using/content-management/proofs.md)** =使用測試設定檔資料測試傳送至特定電子郵件地址的電子郵件傳遞。 與種子清單（校樣是手動測試傳送，種子清單是利害關係人的自動副本）不同。 [傳送校樣](../using/content-management/proofs.md)
+**[內容實驗](../using/content-management/get-started-experiment.md)** - A/B測試或比較內容變化的多臂吃角子老虎機實驗。 僅限行銷活動，不適用於歷程。 [開始使用實驗](../using/content-management/get-started-experiment.md) | [建立實驗](../using/content-management/content-experiment.md)
 
-**[衝突偵測](../using/conflict-prioritization/conflicts.md)** =可識別針對相同對象之重疊行銷活動和歷程的工具。 有限歷程支援：單一、對象資格和讀取對象型別。 [瞭解衝突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
+**[校樣](../using/content-management/proofs.md)** — 使用測試設定檔資料測試傳送至特定電子郵件地址的電子郵件傳遞。 與種子清單（校樣是手動測試傳送，種子清單是利害關係人的自動副本）不同。 [傳送校樣](../using/content-management/proofs.md)
 
-**[核准工作流程](../using/test-approve/gs-approval.md)** =啟動前需要利害關係人核准的多步驟稽核程式。 需要核准原則設定。 [設定核准](../using/test-approve/gs-approval.md) | [建立原則](../using/test-approve/approval-policies.md)
+**[衝突偵測](../using/conflict-prioritization/conflicts.md)** — 可識別針對相同對象之重疊行銷活動和歷程的工具。 有限歷程支援：單一、對象資格和讀取對象型別。 [瞭解衝突管理](../using/conflict-prioritization/gs-conflict-prioritization.md)
 
-**[呈現測試](../using/content-management/rendering.md)** =跨電子郵件使用者端(Gmail、Outlook、Apple Mail)和裝置的電子郵件顯示驗證。 需要Litmus整合。 [測試電子郵件呈現](../using/content-management/rendering.md)
+**[核准工作流程](../using/test-approve/gs-approval.md)** — 需要利害關係人在啟用前核准的多步驟稽核程式。 需要核准原則設定。 [設定核准](../using/test-approve/gs-approval.md) | [建立原則](../using/test-approve/approval-policies.md)
 
-**[Personalization playground](../using/personalization/personalize.md#playground)** =互動式學習環境，使用個人化語法進行實驗，並使用範例資料測試運算式。 不需要即時資料集。 [存取遊樂場](../using/personalization/personalize.md#playground)
+**[呈現測試](../using/content-management/rendering.md)** — 跨電子郵件使用者端(Gmail、Outlook、Apple Mail)和裝置的電子郵件顯示驗證。 需要Litmus整合。 [測試電子郵件呈現](../using/content-management/rendering.md)
+
+**[Personalization playground](../using/personalization/personalize.md#playground)** — 互動式學習環境，使用個人化語法進行實驗，並使用範例資料測試運算式。 不需要即時資料集。 [存取遊樂場](../using/personalization/personalize.md#playground)
 
 ## 其他資源
 
@@ -385,12 +387,12 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**相關功能**
 
-* 測試+核准工作流程=品質保證流程
-* 測試+衝突偵測=防止客戶過度傳送訊息
-* 測試+內容實驗=效能最佳化
-* 測試+報告=持續改善週期
-* 測試設定檔+ Personalization =內容驗證
-* 練習+測試模式=完整的歷程驗證
+* 測試+核准工作流程 — 品質保證流程
+* 測試+衝突偵測 — 防止客戶過度傳送訊息
+* 測試+內容實驗 — 效能最佳化
+* 測試+報告 — 持續改善週期
+* 測試設定檔+ Personalization — 內容驗證
+* 練習+測試模式 — 完整的歷程驗證
 
 +++
 
@@ -407,7 +409,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：啟動行銷活動之前需要哪些測試？**
 
-**最小值：**&#x200B;包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
+**最小值：**包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
 **建議：** +電子郵件呈現+衝突偵測+核准工作流程
 **最佳實務：** +範例輸入資料測試+種子清單+ A/B實驗（如果最佳化）
 
@@ -423,34 +425,34 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：歷程的測試模式與試執行之間有何差異？**
 
-**測試模式：**&#x200B;透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
-**試執行：**&#x200B;追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
-**搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用=全面涵蓋範圍。
+**測試模式：**透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程+名稱空間。
+**試執行：**追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 未傳送任何訊息，未執行任何動作。
+**搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用 — 完整的涵蓋範圍。
 
 +++
 
 +++**問：我可以在生產/即時狀態中測試歷程嗎？**
 
-**測試模式：**&#x200B;否 — 僅草稿歷程
-**練習：**&#x200B;是 — 適用於任何歷程狀態
-**內容預覽：**&#x200B;是 — 隨時預覽個別訊息
+**測試模式：**否 — 僅草稿歷程
+**練習：**是 — 適用於任何歷程狀態
+**內容預覽：**是 — 隨時預覽個別訊息
 **因應措施：**&#x200B;重複的即時歷程以草稿進行完整測試模式驗證
 
 +++
 
 +++**問：哪些測試功能需要外部整合？**
 
-**電子郵件呈現：**&#x200B;需要Litmus整合（個別授權）
-**其他所有專案：**&#x200B;內建至Journey Optimizer，不需要其他整合
+**電子郵件呈現：**需要Litmus整合（個別授權）
+**其他所有專案：**內建至Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試設定檔需要即時客戶設定檔服務（包含）
 
 +++
 
 +++**問：如何測試API觸發的行銷活動？**
 
-**選項1：**&#x200B;使用[促銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}進行程式設計測試
-**選項2：**&#x200B;在UI中使用測試設定檔預覽內容
-**選項3：**&#x200B;傳送校樣以測試電子郵件地址
+**選項1：**&#x200B;使用[行銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;}進行程式設計測試
+**選項2：**在UI中使用測試設定檔預覽內容
+**選項3：**傳送校樣以測試電子郵件地址
 **最佳實務：**&#x200B;結合所有這三項以進行全面驗證
 
 +++
