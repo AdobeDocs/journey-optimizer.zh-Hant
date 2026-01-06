@@ -11,9 +11,9 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 99%
 ### 其他變更{#sept-2022-other}
 
 * 「行銷活動快速傳送」模式已取代「歷程突發模式」。 [了解更多](../push/create-push.md#rapid-delivery)
-* 為了改善效能，從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 [了解更多](../start/guardrails.md#expression-editor)
+* 為了改善效能，從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有歷程會保留目前的行為。[了解更多](../start/guardrails.md#expression-editor)
 * 排程的讀取客群歷程以 1 小時為限的限制已經移除。 這些歷程現在可立即執行。
 
 

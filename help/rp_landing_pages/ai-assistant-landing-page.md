@@ -6,9 +6,9 @@ description: 用於內容產生的 AI 助理
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 AI 助理
 
@@ -30,31 +30,31 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 產生完整內容
 
-瞭解如何使用AI助理製作完整的內容，包括電子郵件、推播通知、網頁和登入頁面的文字和影像。
+了解如何使用 AI 助理製作完整的內容，包括電子郵件、推播通知、網頁和登陸頁面的文字和影像。
 
-[瞭解完整內容產生](../using/content-management/generative-full-content.md)
+[了解完整內容產生](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 僅產生文字
 
-使用AI助理產生並調整所有頻道的文字內容，包括電子郵件、簡訊、推播通知、網頁和登入頁面。
+使用 AI 助理產生並調整所有管道的文字內容，包括電子郵件、簡訊、推播通知、網頁和登陸頁面。
 
 [探索文字產生](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 僅產生影像
 
-使用AI助理建立和自訂影像，以用於電子郵件、推播通知、網頁和登陸頁面。
+使用 AI 助理建立和自訂影像，以用於電子郵件、推播通知、網頁和登陸頁面。
 
 [產生影像](../using/content-management/generative-image.md)
 :::

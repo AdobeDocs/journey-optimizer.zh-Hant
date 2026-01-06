@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 93%
 * **[編輯網頁內容](create-web.md#edit-web-content)** - 掌握網頁設計工具，以使用視覺化或非視覺化編輯模式來修改頁面。
 * **[管理網頁修改](manage-web-modifications.md)** - 了解如何組織、套用及管理網頁體驗中的修改。
 * **[監視網頁體驗](monitor-web-experiences.md)** - 透過詳細報告追蹤及分析網頁行銷活動的績效。
-* **[使用AI助理產生網頁內容](../content-management/generative-full-content.md)** — 利用AI以文字和影像建立並最佳化網頁內容。
+* **[使用 AI 助理產生網頁內容](../content-management/generative-full-content.md)**：善用 AI，以文字、影像來建立、最佳化網頁內容。
 * **[網頁行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 探索有關網頁管道功能和最佳做法的逐步教學課程影片。
 
 

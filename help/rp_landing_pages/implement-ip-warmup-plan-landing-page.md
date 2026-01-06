@@ -6,9 +6,9 @@ description: 實施 IP 暖身計劃
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 92%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
-IP熱身傳遞指南
+IP 暖身傳遞能力指南
 
-在開始IP熱身歷程之前，瞭解傳遞能力基本知識、信譽建立和最佳實務。
+在開始 IP 暖身歷程之前，了解傳遞能力基本知識、信譽建立和最佳做法。
 
 [閱讀指南](../using/configuration/ip-warmup-deliverability-guide.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 開始使用 IP 暖身計劃
 
@@ -40,7 +40,7 @@ IP熱身傳遞指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立 IP 暖身行銷活動
 
@@ -50,7 +50,7 @@ IP熱身傳遞指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何建立和管理 IP 暖身計劃
 
@@ -60,7 +60,7 @@ IP熱身傳遞指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 執行並管理您的 IP 暖身計劃
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 * [預覽、測試和傳送訊息](send-sms.md)
 * [文字訊息中的個人化](../personalization/personalize.md)
 * [動態內容](../personalization/get-started-dynamic-content.md)
-* [使用AI助理產生簡訊內容](../content-management/generative-text.md)
+* [使用 AI 助理產生簡訊內容](../content-management/generative-text.md)
 
 +++
 
@@ -212,7 +212,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
