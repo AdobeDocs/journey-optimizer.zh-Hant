@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 >[!TAB 最新更新]
 
-在發行說明中瞭解最新的Journey Optimizer功能和改進。
+在發行說明中探索最新的 Journey Optimizer 功能和改進項目。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
->[!TAB 反複處理內容資料]
+>[!TAB 反覆處理內容資料]
 
-瞭解如何使用疊代語法來顯示訊息中各種來源的動態資料清單，包括事件、自訂動作回應和其他內容資料。
+了解如何使用反覆處理語法來顯示訊息中各種來源的動態資料清單，包括事件、自訂動作回應和其他內容資料。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
@@ -56,7 +56,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -66,7 +66,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -76,7 +76,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -86,7 +86,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -96,7 +96,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -106,7 +106,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

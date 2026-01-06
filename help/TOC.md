@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 96%
    + [文件更新](using/rn/documentation-updates.md)
    + [每月更新報告](../monthly-updates-report.md)
    + [改善的歷程畫布](using/rn/new-canvas.md)
-+ 快速入門 {#get-started}
-   + [快速入門](/help/rp_landing_pages/get-started-landing-page.md)
-   + Essentials {#essentials}
-      + [什麼是Journey Optimizer？](using/start/get-started.md)
-      + [瞭解其運作方式](using/start/understanding-ajo.md)
++ 開始使用 {#get-started}
+   + [開始使用](/help/rp_landing_pages/get-started-landing-page.md)
+   + 基本要點 {#essentials}
+      + [什麼是 Journey Optimizer？](using/start/get-started.md)
+      + [了解其運作原理](using/start/understanding-ajo.md)
       + [重要術語](using/start/terminology.md)
       + [護欄與限制](using/start/guardrails.md)
    + 角色快速入門 {#by-role}
@@ -43,16 +43,16 @@ ht-degree: 96%
       + [資料工程師快速入門](using/start/path/data-engineer.md)
       + [管理員快速入門](using/start/path/administrator.md)
       + [開發人員快速入門](using/start/path/developer.md)
-   + 有效率工作 {#work-efficiently}
+   + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
-      + [搜尋、篩選及組織](using/start/search-filter-categorize.md)
-      + [AI與智慧型功能](using/start/ai-features.md)
+      + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
+      + [AI 與智慧功能](using/start/ai-features.md)
       + [協助工具](using/start/accessibility.md)
       + [歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + [歷程型別和選取指南](using/building-journeys/journey-types-selection.md)
-   + [Journey Orchestration常見問題集](using/building-journeys/journey-faq.md)
+   + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
@@ -120,7 +120,7 @@ ht-degree: 96%
          + [字串函式](using/building-journeys/functions/string-functions.md)
    + 使用案例 {#journey-use-cases}
       + [使用案例](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-      + [透過使用案例了解](using/building-journeys/jo-use-cases.md)
+      + [透過使用案例深入了解](using/building-journeys/jo-use-cases.md)
       + [歷程進入和退出條件](using/building-journeys/entry-exit-criteria-guide.md)
       + [體驗事件查閱](using/building-journeys/exp-event-lookup.md)
       + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
@@ -202,7 +202,7 @@ ht-degree: 96%
          + [測試](using/orchestrated/activities/test.md)
          + [等待](using/orchestrated/activities/wait.md)
       + 透過使用案例深入了解 {#use-cases}
-         + [傳送願望清單專案更新](using/orchestrated/wishlist-uc.md)
+         + [傳送願望清單項目更新](using/orchestrated/wishlist-uc.md)
          + [透過瀏覽活動與客戶互動](using/orchestrated/engage-customers-uc.md)
          + [通知使用者產品可用性](using/orchestrated/product-availability-uc.md)
 + 衝突與優先順序 {#conflict-prioritization}
@@ -408,7 +408,7 @@ ht-degree: 96%
       + [開始使用個人化](using/personalization/personalize.md)
       + [新增個人化](using/personalization/personalization-build-expressions.md)
       + [個人化語法](using/personalization/personalization-syntax.md)
-      + [反複運算內容資料](using/personalization/iterate-contextual-data.md)
+      + [反覆處理內容資料](using/personalization/iterate-contextual-data.md)
       + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 資料進行個人化](using/personalization/aep-data-perso.md)
       + 協助程式函式清單 {#functions}
@@ -443,7 +443,7 @@ ht-degree: 96%
          + [新增自訂 JavaScript](using/landing-pages/lp-custom-js.md)
       + [在您的登陸頁面中善用表單](using/landing-pages/lp-forms.md)
       + [建立訂閱清單](using/landing-pages/subscription-list.md)
-      + [透過使用案例了解](using/landing-pages/lp-use-cases.md)
+      + [透過使用案例深入了解](using/landing-pages/lp-use-cases.md)
       + 設定登陸頁面 {#lp-configuration}
          + [設定登陸頁面](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [設定登陸頁面子網域](using/landing-pages/lp-subdomains.md)
@@ -483,9 +483,9 @@ ht-degree: 96%
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
       + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-      + [使用AI產生完整內容](using/content-management/generative-full-content.md)
-      + [使用AI產生文字](using/content-management/generative-text.md)
-      + [使用AI產生影像](using/content-management/generative-image.md)
+      + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
+      + [使用 AI 產生文字](using/content-management/generative-text.md)
+      + [使用 AI 產生影像](using/content-management/generative-image.md)
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [決策常見問題集](using/experience-decisioning/decisioning-faq.md)
       + API 參考 {#experience-decisioning-api-reference}
          + [API 參考](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [開始使用Decisioning API](using/experience-decisioning/api-reference/getting-started.md)
+         + [開始使用決策 API](using/experience-decisioning/api-reference/getting-started.md)
          + 決定項目 {#decision-items}
             + [建立決定項目](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [決定項目清單](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -631,11 +631,11 @@ ht-degree: 96%
             + [查詢適用性規則](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [適用性規則清單](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [更新適用性規則](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + 位置 {#placements}
-            + [建立版位](using/experience-decisioning/api-reference/exd-placements/create.md)
-            + [位置清單](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
-            + [查詢位置](using/experience-decisioning/api-reference/exd-placements/lookup.md)
-            + [更新版位](using/experience-decisioning/api-reference/exd-placements/update.md)
+         + 刊登版位 {#placements}
+            + [建立刊登版位](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [刊登版位清單](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [查詢刊登版位](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [更新刊登版位](using/experience-decisioning/api-reference/exd-placements/update.md)
       + 管理決策項目 {#manage-decision-items}
          + [管理決策項目](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [設定項目目錄](using/experience-decisioning/catalogs.md)
@@ -680,7 +680,7 @@ ht-degree: 96%
          + [使用案例：在電子郵件中插入優惠](using/offers/offers-e2e.md)
       + 建立元件 {#create-components}
          + [建立元件](/help/rp_landing_pages/create-components-landing-page.md)
-         + [建立位置](using/offers/offer-library/creating-placements.md)
+         + [建立刊登版位](using/offers/offer-library/creating-placements.md)
          + [建立決策規則](using/offers/offer-library/creating-decision-rules.md)
          + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
       + 建立排名 {#rankings}
@@ -724,7 +724,7 @@ ht-degree: 96%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -734,7 +734,7 @@ ht-degree: 96%
          + [API 參考](/help/rp_landing_pages/api-reference-landing-page.md)
          + [快速入門](using/offers/api-reference/getting-started.md)
          + 使用 API，建立並管理優惠 {#offers-api}
-            + 位置 {#placements}
+            + 刊登版位 {#placements}
                + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
                + [建立位置](using/offers/api-reference/offers-api/placements/create.md)
@@ -778,7 +778,7 @@ ht-degree: 96%
                + [刪除決定](using/offers/api-reference/activities-api/activities/delete.md)
             + 舊版 API {#legacy-api}
                + [關於舊版 API](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-               + 位置 {#legacy-api-placements}
+               + 刊登版位 {#legacy-api-placements}
                   + [清單位置](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                   + [查詢位置](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                   + [建立位置](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [建立 IP 集區](using/configuration/ip-pools.md)
    + 實施 IP 暖身計劃 {#implement-ip-warmup-plan}
       + [實施 IP 暖身計劃](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP熱身傳遞指南](using/configuration/ip-warmup-deliverability-guide.md)
+      + [IP 暖身傳遞能力指南](using/configuration/ip-warmup-deliverability-guide.md)
       + [開始使用 IP 暖身計劃](using/configuration/ip-warmup-gs.md)
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立 IP 暖身計劃](using/configuration/ip-warmup-plan.md)
@@ -900,7 +900,7 @@ ht-degree: 96%
 + 連線系統和環境 {#connect-systems}
    + [連線系統和環境](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [與其他解決方案整合](using/integrations/ajo-integrations.md)
-   + [使用 Journey Optimizer API 運作](using/configuration/ajo-apis.md)
+   + [使用 Journey Optimizer API](using/configuration/ajo-apis.md)
    + 將您的歷程與外部系統整合 {#external-systems}
       + [將您的歷程與外部系統整合](/help/rp_landing_pages/external-systems-landing-page.md)
       + [將歷程整合入外部系統](using/configuration/external-systems.md)
