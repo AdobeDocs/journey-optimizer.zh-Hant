@@ -28,7 +28,7 @@ ht-degree: 23%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 如何預覽和測試您的內容
 
@@ -38,7 +38,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何選取測試設定檔
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用測試輪廓來預覽您的內容
 
@@ -58,7 +58,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 使用測試輪廓資料，傳送校樣
 
@@ -68,7 +68,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hant)
 
 如何使用Litmus測試電子郵件呈現
 
@@ -78,7 +78,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 如何模擬和測試內容變異
 
