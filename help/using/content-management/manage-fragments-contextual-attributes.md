@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -82,8 +82,7 @@ ht-degree: 3%
 ## 相關主題 {#related-topics}
 
 * [管理片段](manage-fragments.md)
-* [在電子郵件中使用視覺化片段](../email/use-visual-fragments.md)
-* [使用運算式片段](../personalization/use-expression-fragments.md)
+* [編輯片段](manage-fragments.md#edit-fragments)
 * [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md)
 * [個人化語法](../personalization/personalization-syntax.md)
 
