@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '935'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 程式碼型體驗支援任何型別的客戶實施。 您可以在此頁面找到每種實作方法的範例：
 
-* [使用者端](#client-side-implementation)
+* [用戶端](#client-side-implementation)
 * [伺服器端](#server-side-implementation)
 * [混合式](#hybrid-implementation)
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ### 運作方式 — 網頁SDK {#client-side-how}
 
-1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}已包含在此頁面上。
+1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
 1. 您必須使用`sendEvent`命令並指定[表面URI](code-based-surface.md)<!--( or location/path)-->來擷取個人化內容。
 
@@ -308,7 +308,45 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 如果您採用混合式實作，請參閱下列連結。
 
 * Adobe技術部落格： [Adobe Experience Platform Web SDK中的Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hant){target="_blank"}
+* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## 使用Adobe Experience Platform Assurance偵錯Edge網路API呼叫 {#debugging-edge-api-assurance}
+
+直接將Edge Network API用於程式碼型體驗時(不使用Web SDK或Mobile SDK)，您可以將Assurance工作階段ID加入為驗證Token標頭，藉此使用Adobe Experience Platform Assurance除錯API呼叫。
+
+1. 從作用中的Assurance工作階段取得您的Adobe Experience Platform Assurance工作階段ID，或使用Assurance API建立工作階段ID。
+
+1. 新增具有Assurance工作階段ID的`x-adobe-aep-validation-token`標頭，以透過Assurance工作階段路由您的Edge Network API請求。
+
+   **範例：**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. 設定之後，請開啟您的Assurance工作階段並選取&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;檢視來即時檢視Edge Network API要求和回應，包括要求承載、回應內容、個人化主張和錯誤訊息。
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
