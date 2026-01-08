@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
+source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1513'
 ht-degree: 31%
 
 ---
@@ -157,97 +157,6 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 >
 >不確定要選擇哪種型別？ 針對排程批次通訊從&#x200B;**動作行銷活動**&#x200B;開始，或針對即時傳訊從&#x200B;**API觸發的行銷活動**&#x200B;開始 — 這些涵蓋最常見的使用案例。
 
-## 您的行銷活動建立工作流程 {#workflow}
-
-建立成功的行銷活動會遵循清晰、可重複的流程。 以下是您的逐步工作流程：
-
-+++ 1.規劃您的行銷活動
-
-開始之前，請釐清您的目標：
-
-* **目標是什麼？** （例如，推動轉換、提高參與度、通知客戶）
-* **對象是誰？** (例如，建置或從Adobe Experience Platform中選取)
-* **適合哪個行銷活動型別？** （請參閱上述[行銷活動型別](#campaign-types)）
-* **您將使用哪些管道？** （電子郵件、推播、簡訊、應用程式內、網頁等） → [檢視依行銷活動型別支援的管道](../channels/gs-channels.md#channels)
-* **何時應該執行？** （立即、排程或API觸發）
-
-+++
-
-+++設定行銷活動屬性
-
-設定行銷活動的基礎：
-
-1. **為行銷活動命名並描述**，以方便識別
-2. **選取行銷活動型別** （動作、API觸發或協調）
-3. **選擇您的對象**
-4. 如果使用衝突管理，**設定優先順序**
-5. **設定排程** （針對動作行銷活動）或API詳細資料（針對API觸發）
-
-**特定型別的指南：** [動作行銷活動屬性](campaign-properties.md) | [API觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++設計內容
-
-為受眾建立吸引人的訊息：
-
-* 針對豐富的電子郵件體驗使用&#x200B;**電子郵件Designer**
-* 使用影像和深層連結設定&#x200B;**推播通知**
-* 設計&#x200B;**簡訊/多媒體簡訊服務**&#x200B;與個人化
-* 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
-* 使用設定檔屬性和內容資料新增&#x200B;**個人化**
-
-**特定型別的指南：** [動作行銷活動內容](campaign-content.md) | [API觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++檢閱和測試
-
-一律在啟用前檢閱您的行銷活動：
-
-* 使用測試設定檔&#x200B;**預覽內容**
-* **檢查目標定位**，以確保適當的對象
-* **驗證排程**&#x200B;和啟用設定
-* 如果使用核准工作流程，**要求核准**
-* 使用種子清單&#x200B;**測試傳遞能力**
-
-**特定型別的指南：** [檢閱動作行銷活動](review-activate-campaign.md) | [檢閱API觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++啟用您的行銷活動
-
-檢閱完成後，請啟動您的行銷活動：
-
-* **手動啟動** — 立即啟動或在排程時間啟動
-* **API啟用** — 針對API觸發的行銷活動，請使用啟用端點
-* **核准流程** — 如有需要，請等待利害關係人的核准
-
-注意：無法編輯作用中的行銷活動（您必須複製才能進行變更）
-
-**特定型別的指南：** [啟動動作行銷活動](review-activate-campaign.md) | [啟用API觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++監視和分析
-
-追蹤行銷活動的執行方式：
-
-* 檢視行銷活動報表和分析
-* 監視傳遞率和參與量度
-* 追蹤錯誤和退信
-* 分析轉換率和ROI
-* 使用見解進行最佳化
-
-**特定型別的指南：** [動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-➡️ **準備好開始了嗎？**&#x200B;選擇您的行銷活動型別：
-* [建立動作行銷活動資→](create-campaign.md)
-* [建立API觸發的行銷活動→料](api-triggered-campaigns.md)
-* [建立協調的行銷活動→料](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## 先決條件 {#prerequisites}
 
 在使用行銷活動之前，請確定您已具備下列專案：
@@ -258,10 +167,14 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
 * **許可權** — 您需要根據行銷活動型別的適當許可權。 如果您無法存取Campaign功能，請聯絡管理員。 [瞭解內建角色→](../administration/ootb-product-profiles.md)
 
+  +++行銷活動許可權清單
+
   | 行銷活動類型 | 權限 |
   |-------------|---------------|
   | **動作行銷活動**&#x200B;和&#x200B;**API觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
   | **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
+
+  +++
 
   +++如何指派行銷活動許可權
 
@@ -277,14 +190,108 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 
   +++
 
-## Campaign功能 {#capabilities}
+## 您的行銷活動建立工作流程 {#workflow}
+
+建立成功的行銷活動會遵循清晰、可重複的流程。 以下是您的逐步工作流程：
+
++++1.規劃您的行銷活動
+
+開始之前，請釐清您的目標：
+
+* **目標是什麼？** （例如，推動轉換、提高參與度、通知客戶）
+* **對象是誰？** (例如，建置或從Adobe Experience Platform中選取)
+* **適合哪個行銷活動型別？** （請參閱上述[行銷活動型別](#campaign-types)）
+* **您將使用哪些管道？** （電子郵件、推播、簡訊、應用程式內、網頁等） → [檢視依行銷活動型別支援的管道](../channels/gs-channels.md#channels)
+* **何時應該執行？** （立即、排程或API觸發）
+
++++
+
++++2.設定行銷活動屬性
+
+設定行銷活動的基礎：
+
+1. **為行銷活動命名並描述**，以方便識別
+2. **選取行銷活動型別** （動作、API觸發或協調）
+3. **選擇您的對象**
+4. 如果使用衝突管理，**設定優先順序**
+5. **設定排程** （針對動作行銷活動）或API詳細資料（針對API觸發）
+
+**特定型別的指南：** [動作行銷活動屬性](campaign-properties.md) | [API觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++3.設計您的內容
+
+為受眾建立吸引人的訊息：
+
+* 針對豐富的電子郵件體驗使用&#x200B;**電子郵件Designer**
+* 使用影像和深層連結設定&#x200B;**推播通知**
+* 設計&#x200B;**簡訊/多媒體簡訊服務**&#x200B;與個人化
+* 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
+* 使用設定檔屬性和內容資料新增&#x200B;**個人化**
+
+**特定型別的指南：** [動作行銷活動內容](campaign-content.md) | [API觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++4.檢閱及測試
+
+一律在啟用前檢閱您的行銷活動：
+
+* 使用測試設定檔&#x200B;**預覽內容**
+* **檢查目標定位**，以確保適當的對象
+* **驗證排程**&#x200B;和啟用設定
+* 如果使用核准工作流程，**要求核准**
+* 使用種子清單&#x200B;**測試傳遞能力**
+
+**特定型別的指南：** [檢閱動作行銷活動](review-activate-campaign.md) | [檢閱API觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++5.啟用您的行銷活動
+
+檢閱完成後，請啟動您的行銷活動：
+
+* **手動啟動** — 立即啟動或在排程時間啟動
+* **API啟用** — 針對API觸發的行銷活動，請使用啟用端點
+* **核准流程** — 如有需要，請等待利害關係人的核准
+
+注意：無法編輯作用中的行銷活動（您必須複製才能進行變更）
+
+**特定型別的指南：** [啟動動作行銷活動](review-activate-campaign.md) | [啟用API觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++6.監控和分析
+
+追蹤行銷活動的執行方式：
+
+* 檢視行銷活動報表和分析
+* 監視傳遞率和參與量度
+* 追蹤錯誤和退信
+* 分析轉換率和ROI
+* 使用見解進行最佳化
+
+**特定型別的指南：** [動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## 讓我們深入探討 {#get-started-types}
+
+現在您已瞭解[!DNL Journey Optimizer]中的行銷活動，請選擇您的行銷活動型別以開始：
+
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img width="70%" alt="動作行銷活動" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">動作行銷活動</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">由 API 觸發的行銷活動</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推播" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">協調的行銷活動</a></td>
+</tr></table>
 
 當您更熟悉行銷活動時，請探索這些強大的功能：
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -294,7 +301,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制項**
 
@@ -304,7 +311,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **對象目標定位**
 
@@ -314,7 +321,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -324,7 +331,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **無訊息時數**
 
@@ -334,7 +341,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 
@@ -344,13 +351,3 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 ::::
-
-## 開始使用行銷活動型別 {#get-started-types}
-
-現在您已瞭解[!DNL Journey Optimizer]中的行銷活動，請選擇您的行銷活動型別以開始：
-
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="動作行銷活動" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">動作行銷活動</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="簡訊" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">由 API 觸發的行銷活動</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="推播" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">協調的行銷活動</a></td>
-</tr></table>
