@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 22%
+source-wordcount: '787'
+ht-degree: 21%
 
 ---
 
@@ -119,3 +119,7 @@ ht-degree: 22%
 
 * [瞭解如何使用視覺化片段](../email/use-visual-fragments.md)
 * [瞭解如何使用運算式片段](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>發佈後，您無法將新的個人化屬性新增到即時片段。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](manage-fragments.md#adding-new-attributes)
