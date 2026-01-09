@@ -5,30 +5,30 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 71%
+source-wordcount: '1126'
+ht-degree: 60%
 
 ---
 
 
-# 頻道活動 {#channel}
+# 管道活動 {#channel}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="電子郵件活動"
->abstract="電子郵件活動可讓您在協調式行銷活動中傳送電子郵件，單次訊息和定期訊息皆適用。此活動會自動執行傳送電子郵件至相同協調式行銷活動內計算的某個目標的流程。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="電子郵件活動可讓您在「已協調」行銷活動中針對一次性訊息和循環訊息傳送電子郵件。 此活動會自動執行傳送電子郵件至相同協調式行銷活動內計算的某個目標的流程。您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="簡訊活動"
->abstract="簡訊活動可讓您在協調式行銷活動中傳送簡訊，單次訊息和定期訊息皆適用。此活動可自動化流程，將簡訊傳送給在同一協調式行銷活動中計算出的目標。您可以將管道活動與多步驟行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="SMS活動可讓您在協調的行銷活動中針對一次性訊息和循環訊息傳送SMS。 此活動可自動化流程，將簡訊傳送給在同一協調式行銷活動中計算出的目標。您可以將管道活動與多步驟行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="推播活動"
->abstract="推播活動讓您在協調式行銷活動當中傳送推播。推播活動可以傳送單次和定期的協調式行銷活動訊息，自動傳送推播至相同協調式行銷活動內預先定義的目標。您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="推播活動可讓您在協調的行銷活動中傳送推播通知。 它可啟用一次性與循環協調行銷活動的傳送，將推播通知自動傳送至相同協調行銷活動內預先定義的目標。 您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 <!--
 UNUSED IDs in BJ
@@ -36,12 +36,12 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity lets you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending of iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity lets you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending of Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-[!DNL Adobe Journey Optimizer]可讓您跨頻道，透過電子郵件、簡訊和推播通知，自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動，其可根據客戶行為和資料觸發動作。
+[!DNL Adobe Journey Optimizer]可讓您跨頻道，透過電子郵件、簡訊和推播通知，自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
 例如：
 
@@ -80,7 +80,7 @@ UNUSED IDs in BJ
 
 1. 請在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入說明，然後切換至&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，以便設定活動。
 
-## 設定頻道設定和設定 {#configuration}
+## 設定頻道組態和設定 {#configuration}
 
 使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取訊息的頻道設定，再設定其他設定，例如追蹤、內容實驗或多語言內容。
 
@@ -100,7 +100,7 @@ UNUSED IDs in BJ
 
 1. **啟用快速傳遞模式** （推播）
 
-   快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面[啟用推播通知](../../push/create-push.md#rapid-delivery)的快速傳遞模式。
+   快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[啟用推播通知](../../push/create-push.md#rapid-delivery)的快速傳遞模式。
 
    如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -118,7 +118,7 @@ UNUSED IDs in BJ
 
 ## 定義內容 {#content}
 
-切換至 **[!UICONTROL [內容]]** 索引標籤，以便建立訊息。 步驟程式會因選定的頻道而有所不同。 若要瞭解建立訊息內容之詳細步驟，請前往以下頁面：
+切換至 **[!UICONTROL [內容]]** 索引標籤，以便建立訊息。 流程步驟因所選管道而異。 若要瞭解建立訊息內容之詳細步驟，請前往以下頁面：
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
@@ -128,7 +128,7 @@ UNUSED IDs in BJ
 
 ## 新增個人化
 
-協調行銷活動中的Personalization的運作方式與其他&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;行銷活動或歷程類似，但有一些主要差異是特定於協調畫布的。
+協調行銷活動中的Personalization的運作方式與其他&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;行銷活動或歷程類似。 不過，還是有一些協調畫布特有的關鍵差異。
 
 當您從協調的行銷活動存取個人化編輯器時，有兩個主要資料夾包含可用於個人化的屬性，如下所述。
 
@@ -192,3 +192,4 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
