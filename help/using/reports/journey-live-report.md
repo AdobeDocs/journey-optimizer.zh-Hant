@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="已執行的動作和錯誤"
->abstract="「已執行的動作和錯誤」小工具呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。這個小工具提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的見解。"
+>abstract="「已執行的動作和錯誤」小工具呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。這個小工具提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -148,12 +148,12 @@ ht-degree: 30%
 
 過去24小時內執行的&#x200B;**[!UICONTROL 事件]** Widget可讓您識別在過去24小時內成功執行了哪些事件。
 
-### 事件 {#events}
+### 活動 {#events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
->title="事件"
->abstract="「事件」小工具提供哪些事件已成功執行的全面檢視，進而提供過去 24 小時內詳細深入解析的摘要數字、圖表和表格。"
+>title="活動"
+>abstract="「事件」小工具提供哪些事件已成功執行的全面檢視，進而提供過去 24 小時內詳細洞察的摘要數字、圖表和表格。"
 
 ![](assets/journey_live_events.png)
 
@@ -164,7 +164,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="依據來源劃分的事件"
->abstract="「依據來源劃分的事件」表格和圖表提供過去 24 小時內成功接收事件的檢視。這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的深入解析。"
+>abstract="「依據來源劃分的事件」表格和圖表提供過去 24 小時內成功接收事件的檢視。這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的洞察。"
 
 ![](assets/journey_events_origin.png)
 
@@ -239,7 +239,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="電子郵件 - 依日期劃分的效能"
->abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的深入分析，進而對電子郵件傳送過程進行詳細分析。"
+>abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的洞察，進而對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -317,7 +317,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="電子郵件 - 最佳收件者網域"
->abstract="「電子郵件 - 最佳收件者」網域圖表和表格提供收件者開啟電子郵件時最常使用網域的詳細劃分，針對過去 24 小時內的收件者行為提供重要的深入分析。"
+>abstract="「電子郵件 - 最佳收件者」網域圖表和表格提供收件者開啟電子郵件時最常使用網域的詳細劃分，針對過去 24 小時內的收件者行為提供重要的洞察。"
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -328,7 +328,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="電子郵件 - 產品建議"
->abstract="「產品建議統計資料」和「產品建議詳細統計資料」小工具提供過去 24 小時對產品建議績效的全面深入解析，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
+>abstract="「產品建議統計資料」和「產品建議詳細統計資料」小工具提供過去 24 小時對產品建議績效的全面洞察，進而提供其長期影響的詳細分析，並呈現詳細的統計資料以供更深入的了解。"
 
 >[!NOTE]
 >
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="應用程式內績效"
->abstract="應用程式內績效 KPI 提供有關訪客在過去 24 小時內與應用程式內訊息互動情況的基本深入解析。"
+>abstract="應用程式內績效 KPI 提供有關訪客在過去 24 小時內與應用程式內訊息互動情況的基本洞察。"
 
 ![](assets/journey_live_inapp_performance.png)
 
