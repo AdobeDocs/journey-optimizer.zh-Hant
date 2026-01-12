@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '681'
 ht-degree: 5%
 
 ---
@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 自訂動作的回應裝載欄位可用於原生通道（電子郵件、推播、簡訊）以進行訊息個人化。 這包括重複處理外部API傳回的陣列和巢狀資料結構的能力。
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+如需在訊息中反複處理自訂動作回應資料的詳細範例和語法，請參閱[使用Handlebars反複處理內容資料](../personalization/iterate-contextual-data.md#custom-action-responses)。
 
 ## 其他資源
 
