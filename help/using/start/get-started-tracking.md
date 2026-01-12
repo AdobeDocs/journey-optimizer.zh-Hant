@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: 追蹤，監視，分析，報告，傳遞能力
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -244,9 +244,9 @@ Journey Optimizer會自動追蹤最佳化實驗、目標定位策略和決策效
 
 * **在您的行銷活動和歷程中最佳化**：
 
-   * 建立實驗時，定義要追蹤的量度（轉換、點按、自訂事件）。 Journey Optimizer會自動收集每個處理的效能資料。 [了解更多](../campaigns/optimization-experimentation.md)
+   * 建立實驗時，定義要追蹤的量度（轉換、點按、自訂事件）。 Journey Optimizer會自動收集每個處理的效能資料。 [了解更多](../content-management/optimization-experimentation.md)
 
-   * 建立鎖定目標規則，將不同內容傳送至不同的受眾區段。 Journey Optimizer會自動追蹤每個目標群組的參與量度，讓您比較不同區段的效能。 [了解更多](../campaigns/optimization-targeting.md)
+   * 建立鎖定目標規則，將不同內容傳送至不同的受眾區段。 Journey Optimizer會自動追蹤每個目標群組的參與量度，讓您比較不同區段的效能。 [了解更多](../content-management/optimization-targeting.md)
 
 * **歷程路徑最佳化**：新增&#x200B;**最佳化**&#x200B;活動至您的歷程並設定多個路徑。 Journey Optimizer會自動追蹤設定檔採取哪些路徑並測量效能。 [了解更多](../building-journeys/optimize.md)
 

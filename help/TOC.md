@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
 ht-degree: 98%
@@ -502,10 +502,10 @@ ht-degree: 98%
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
    + 內容最佳化 {#message-optimization}
-      + [開始使用最佳化](using/campaigns/gs-message-optimization.md)
-      + [使用目標定位](using/campaigns/optimization-targeting.md)
-      + [使用實驗](using/campaigns/optimization-experimentation.md)
-      + [結合目標定位與實驗](using/campaigns/optimization-combination.md)
+      + [開始使用最佳化](using/content-management/gs-message-optimization.md)
+      + [使用目標定位](using/content-management/optimization-targeting.md)
+      + [使用實驗](using/content-management/optimization-experimentation.md)
+      + [結合目標定位與實驗](using/content-management/optimization-combination.md)
    + 內容實驗 {#content-experiment}
       + [開始使用內容實驗](using/content-management/get-started-experiment.md)
       + [開始使用實驗加速器](using/content-management/experiment-accelerator-gs.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出  ](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)

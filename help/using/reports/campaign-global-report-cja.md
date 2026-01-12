@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -113,7 +113,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 如果您為內容設定&#x200B;**[!UICONTROL 鎖定目標規則]**，**[!UICONTROL 鎖定目標總覽]**&#x200B;表格會提供關鍵參與量度的詳細檢視，顯示每個規則的目標設定檔如何與您的內容互動。
 
-➡️ [進一步瞭解鎖定目標規則](../campaigns/optimization-targeting.md)
+➡️ [進一步瞭解鎖定目標規則](../content-management/optimization-targeting.md)
 
 +++ 進一步瞭解鎖定目標總覽量度
 

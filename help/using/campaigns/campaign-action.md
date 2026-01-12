@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 34%
@@ -43,7 +43,7 @@ ht-degree: 34%
 
 1. **善用最佳化**
 
-   使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 這些不同的選項和要遵循的步驟在[本節](gs-message-optimization.md)中有詳細說明。
+   使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 這些不同的選項和要遵循的步驟在[本節](../content-management/gs-message-optimization.md)中有詳細說明。
 <!--
 1. **Create a content experiment**
 

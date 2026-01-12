@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![](assets/gs-cja-report-3.png)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 歷程概觀 {#journey-global}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用下列選項增強畫布自訂功能：
 
@@ -154,7 +154,7 @@ ht-degree: 1%
 
 如果您為內容設定&#x200B;**[!UICONTROL 鎖定目標規則]**，**[!UICONTROL 鎖定目標總覽]**&#x200B;表格會提供關鍵參與量度的詳細檢視，顯示每個規則的目標設定檔如何與您的內容互動。
 
-➡️ [進一步瞭解鎖定目標規則](../campaigns/optimization-targeting.md)
+➡️ [進一步瞭解鎖定目標規則](../content-management/optimization-targeting.md)
 
 +++ 進一步瞭解鎖定目標總覽量度
 
