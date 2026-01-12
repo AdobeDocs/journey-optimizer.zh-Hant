@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1483'
 ht-degree: 10%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 10%
 
 * **草稿**：歷程處於第一個階段。 行銷活動尚未發佈。
 * **草稿（測試）**：已使用&#x200B;**測試模式**&#x200B;按鈕啟動測試模式。 [了解更多](../building-journeys/testing-the-journey.md)
-* **已完成**：歷程會在91天[全域逾時](journey-properties.md#global_timeout)後自動切換為此狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。
+* **已完成**：歷程會根據歷程型別和設定自動切換為此狀態。 歷程中已有的設定檔會正常完成歷程。 新設定檔無法再進入歷程。 [瞭解歷程何時被視為已完成](end-journey.md#journey-finished-definition)。
 * **即時**：歷程已使用&#x200B;**發佈**&#x200B;按鈕發佈。 [了解更多](../building-journeys/publish-journey.md)
 * **已暫停**：已使用&#x200B;**暫停**&#x200B;按鈕暫停即時歷程。 [了解更多](../building-journeys/journey-pause.md)
 * **已停止**：歷程已使用&#x200B;**停止**&#x200B;按鈕關閉。 所有個人會立即退出歷程。 [了解更多](../building-journeys/end-journey.md#stop-journey)

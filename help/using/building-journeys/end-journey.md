@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '991'
+ht-degree: 2%
 
 ---
 
@@ -66,6 +66,20 @@ ht-degree: 0%
 >[!TIP]
 >
 >單次區段歷程在執行一次後仍會維持&#x200B;**即時**&#x200B;狀態。 設定檔一旦完成即無法重新輸入，但歷程會維持在&#x200B;**即時**&#x200B;狀態，直到預設全域逾時過期為止。 您可以使用&#x200B;**關閉新入口**&#x200B;選項，更早手動關閉入口。
+
+### 何時歷程會視為「已完成」？ {#journey-finished-definition}
+
+「已完成」的定義會依歷程型別而異：
+
+| 歷程型別 | 週期性？ | 有結束日期嗎？ | 「已完成」的定義 |
+|--------------|------------|---------------|--------------------------|
+| 讀取客群 | 無 | 不適用 | 執行開始後91天 |
+| 讀取客群 | 是 | 無 | 執行開始後91天 |
+| 讀取客群 | 是 | 是 | 達到結束日期時 |
+| 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
+| 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
+
+這是資訊性警報，可幫助您追蹤歷程完成。 沒有解決標準，因為這是一次性通知。
 
 ### 關閉新入口 {#close-to-new-entrances}
 
