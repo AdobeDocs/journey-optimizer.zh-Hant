@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -78,8 +78,6 @@ ht-degree: 2%
 | 讀取客群 | 是 | 是 | 達到結束日期時 |
 | 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
 | 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
-
-這是資訊性警報，可幫助您追蹤歷程完成。 沒有解決標準，因為這是一次性通知。
 
 ### 關閉新入口 {#close-to-new-entrances}
 
