@@ -5,7 +5,7 @@ title: 動作行銷活動
 description: 動作行銷活動
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立動作行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定義動作行銷活動屬性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定行銷活動動作
 
@@ -50,17 +50,17 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 善用訊息最佳化
 
 使用目標定位和實驗來最大化參與度並建立個人化行銷活動。
 
-[最佳化行銷活動](../using/campaigns/campaigns-message-optimization.md)
+[最佳化行銷活動](../using/campaigns/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 編輯行銷活動內容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定義行銷活動的客群
 

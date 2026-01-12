@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >如需支援頻道的詳細資訊，請參閱本節中的表格：歷程與行銷活動中的[頻道](../channels/gs-channels.md#channels)。
+   >如需支援管道的詳細資訊，請參閱本節中的表格：[歷程與行銷活動中的管道](../channels/gs-channels.md#channels)。
    >
    >可用的通道因您的授權模式及附加元件而異。
 
@@ -43,7 +43,7 @@ ht-degree: 32%
 
 1. **善用最佳化**
 
-   使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 這些不同的選項和要遵循的步驟在[本節](campaigns-message-optimization.md)中有詳細說明。
+   使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 這些不同的選項和要遵循的步驟在[本節](gs-message-optimization.md)中有詳細說明。
 <!--
 1. **Create a content experiment**
 

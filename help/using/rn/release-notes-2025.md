@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ ht-degree: 99%
 <P>歷程或行銷活動上線後，會根據定義的條件評估輪廓，並根據比對條件，提供輪廓和適當的體驗或內容。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>先前於 8 月 8 日僅在行銷活動中發行，現在自 8 月 22 日期起，此容量也可在歷程中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../campaigns/campaigns-message-optimization.md">詳細文件</a></p>
+<p>如需詳細資訊，請參閱<a href="../campaigns/gs-message-optimization.md">詳細文件</a></p>
 </td>
 </tr>
 </tbody>

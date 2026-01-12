@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 50%
@@ -40,7 +40,7 @@ ht-degree: 50%
 
 1. **善用最佳化**
 
-   使用&#x200B;**[!UICONTROL 訊息最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 本節中詳細說明這些不同的選項和要遵循的步驟： [行銷活動中的最佳化](campaigns-message-optimization.md)。
+   使用&#x200B;**[!UICONTROL 訊息最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。 本節中詳細說明這些不同的選項和要遵循的步驟： [行銷活動中的最佳化](gs-message-optimization.md)。
 <!--
 1. **Create a content experiment**
 

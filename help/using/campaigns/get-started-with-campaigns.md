@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 31%
@@ -291,7 +291,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -301,7 +301,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制項**
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **對象目標定位**
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -331,7 +331,7 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **無訊息時數**
 
@@ -341,13 +341,13 @@ Adobe Journey Optimizer可讓您跨多個管道，將具針對性的一次性內
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 
 使用鎖定目標規則和內容實驗提供個人化內容並最大化參與度。
 
-[最佳化行銷活動](campaigns-message-optimization.md)
+[最佳化行銷活動](gs-message-optimization.md)
 :::
 
 ::::

@@ -5,7 +5,7 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: e0e82dad61d3ccc1c48435ba7b49bff51c7e9636
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -165,7 +165,7 @@ ht-degree: 0%
 - [定義API觸發的行銷活動屬性](help/using/campaigns/api-triggered-campaign-properties.md) - 10月23日
 - [使用API觸發的行銷活動](help/using/campaigns/api-triggered-campaigns.md) - 10月29日
 - [設定行銷活動動作](help/using/campaigns/campaign-action.md) - 10月29日
-- [行銷活動和歷程中的最佳化](help/using/campaigns/campaigns-message-optimization.md) - 10月22日
+- [行銷活動和歷程中的最佳化](help/using/campaigns/gs-message-optimization.md) - 10月22日
 - [建立動作行銷活動](help/using/campaigns/create-campaign.md) - 10月29日
 - [開始使用行銷活動](help/using/campaigns/get-started-with-campaigns.md) - 10月29日
 - [存取及管理行銷活動](help/using/campaigns/manage-campaigns.md) - 10月23日
