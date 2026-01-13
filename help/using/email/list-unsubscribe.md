@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,9 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->針對 **[!UICONTROL Mailto (取消訂閱)]** 選項，此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。在此情況下，您需要使用[下方](#configure-decrypt-api)的 **Mailto (取消訂閱) 與自訂屬性 (有限可用性)** 區段中描述的新查詢參數。
+>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>
+>針對&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項，您需要使用下方&#x200B;**的**&#x200B;區段[自訂屬性（可用性限制）](#configure-decrypt-api)Mailto （取消訂閱）中說明的新查詢引數。
 
 若要定義您端點的自訂屬性，請使用 **[!UICONTROL URL 追蹤參數]**&#x200B;區段。除了預設參數外，您在對應區段中定義的所有 URL 追蹤參數，還將附加至自訂端點的結尾。[了解如何設定自訂 URL 追蹤](url-tracking.md)
 
