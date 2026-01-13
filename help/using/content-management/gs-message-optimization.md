@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用內容最佳化
 description: 瞭解如何使用內容最佳化，在您的行銷活動和歷程中提供個人化和最佳化的內容。
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 最佳化、目標定位、實驗、A/B測試、行銷活動、歷程、個人化
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 瞭解如何在行動中或API觸發的行銷活動中運用內容最佳化。 您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **相關主題**
 
