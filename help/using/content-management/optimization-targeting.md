@@ -54,7 +54,7 @@ ht-degree: 8%
 
    ![](../campaigns/assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
 
    ![](../campaigns/assets/msg-optimization-select-rule.png){width=70%}
 
