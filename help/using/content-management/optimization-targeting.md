@@ -6,7 +6,7 @@ description: 瞭解如何運用目標定位規則，為特定受眾區段提供�
 role: User
 level: Intermediate
 keywords: 鎖定目標，最佳化，對象，個人化，規則
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 8%
@@ -54,7 +54,7 @@ ht-degree: 8%
 
    ![](../campaigns/assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
 
    ![](../campaigns/assets/msg-optimization-select-rule.png){width=70%}
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 
    在此範例中，請為美國居民設計特定內容、為法國居民設計不同內容，並為印度居民設計其他內容。
 
-1. [啟動](review-activate-campaign.md)您的歷程或行銷活動。
+1. [啟動](../campaigns/review-activate-campaign.md)您的歷程或行銷活動。
 
 一旦歷程/行銷活動上線，就會傳送為每個目標量身打造的內容，好讓美國居民收到特定訊息、法國居民收到不同訊息等。
 

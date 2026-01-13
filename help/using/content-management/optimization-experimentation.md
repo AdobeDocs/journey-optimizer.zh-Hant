@@ -6,7 +6,7 @@ description: 瞭解如何使用內容實驗來測試多個內容版本並判斷�
 role: User
 level: Intermediate
 keywords: 實驗，最佳化， A/B測試，內容實驗，處理
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -53,7 +53,7 @@ ht-degree: 2%
    >
    >您可以選取其他動作：實驗適用於新增至行銷活動或歷程[動作活動](../building-journeys/journey-action.md)的所有動作。
 
-1. [啟動](review-activate-campaign.md)您的歷程或行銷活動。
+1. [啟動](../campaigns/review-activate-campaign.md)您的歷程或行銷活動。
 
 歷程/行銷活動上線後，使用者會被隨機指派不同的內容變數。 [!DNL Journey Optimizer]會追蹤哪些變數可推動更多購買，並提供可操作的深入分析。
 
