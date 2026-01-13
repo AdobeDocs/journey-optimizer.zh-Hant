@@ -111,7 +111,7 @@ ht-degree: 8%
 
 瞭解如何在行動中或API觸發的行銷活動中運用內容最佳化。 您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470379?captions=chi_hant&quality=12)
 
 **相關主題**
 
