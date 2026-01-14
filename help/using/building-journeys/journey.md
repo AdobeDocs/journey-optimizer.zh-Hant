@@ -73,7 +73,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 **定義進入點**
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 **傳送訊息**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 **新增邏輯和條件**
 
@@ -103,7 +103,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 **善用資料**
 
@@ -113,7 +113,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 **連線外部系統**
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 **新增協調流程活動**
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 **歡迎新的訂閱者**
 
@@ -224,7 +224,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
 
 **傳送時間最佳化**
 
@@ -234,7 +234,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 **加快交付速度**
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 **依據工作日鎖定目標**
 
@@ -254,7 +254,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 **多管道行銷活動**
 
@@ -264,7 +264,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 **所有使用案例**
 
@@ -282,7 +282,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 **進階運算式**
 
@@ -292,7 +292,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 **時區管理**
 
@@ -302,7 +302,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 **測試模式與試運行**
 
@@ -312,7 +312,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 **複製到沙箱**
 
@@ -322,7 +322,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 **標籤和整理**
 
@@ -332,7 +332,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 **輸送量控制**
 

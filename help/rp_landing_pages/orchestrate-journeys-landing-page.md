@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的活動
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 的實用使用案例
 

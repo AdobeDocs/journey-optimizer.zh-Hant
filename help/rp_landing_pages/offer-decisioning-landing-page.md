@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立和管理決定
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 使用批次決策
 

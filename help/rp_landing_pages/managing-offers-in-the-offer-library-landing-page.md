@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 在 Adobe Journey Optimizer 中設定產品建議
 

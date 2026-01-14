@@ -35,7 +35,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用決策 API 傳遞產品建議
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用邊緣決策 API 傳遞產品建議
 
