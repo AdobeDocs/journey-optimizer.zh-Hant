@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="舊版" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決策管理快速入門
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 建立及管理決策元件
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 建立和最佳化排名
 
@@ -55,17 +55,17 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理產品建議
 
 在 Adobe Journey Optimizer 中建立個人化產品建議、遞補選項和集合的逐步指南。
 
-[快速入門](managing-offers-in-the-offer-library-landing-page.md)
+[開始使用](managing-offers-in-the-offer-library-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立和管理決定
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 使用批次決策
 

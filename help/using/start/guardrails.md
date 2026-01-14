@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 護欄與限制 {#limitations}
 
-在下方，您會找到使用[!DNL Adobe Journey Optimizer]時的護欄和限制。
+當使用 [!DNL Adobe Journey Optimizer] 時，您將找到下列護欄和限制。
 
 權益、產品限制和效能護欄全都列於 [Adobe Journey Optimizer 產品說明頁面上](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -42,9 +42,9 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 將在後續階段，開放&#x200B;**現有客戶沙箱**&#x200B;使用這項變更。 [進一步瞭解資料集存留時間 (TTL) 護欄](../data/datasets-ttl.md)
 
-## 管道和傳訊 {#channel-guardrails}
+## 管道與傳訊 {#channel-guardrails}
 
-本節涵蓋所有通訊頻道的護欄，包括電子郵件、簡訊、傳入頻道（網頁、應用程式內、程式碼、內容卡片）和交易式訊息。
+本節涵蓋所有通訊管道的護欄，包括電子郵件、簡訊、傳入管道 (網頁、應用程式內、程式碼型、內容卡) 和交易型訊息。
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Adobe 建議將 TTL 值設為 14 天，以符合目前的 Edge 輪廓 TTL。
 
 Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰量。
 
-## 內容與Assets {#content-assets}
+## 內容與資產 {#content-assets}
 
 本節涵蓋內容建立與管理的護欄，包括登陸頁面、子網域和片段。
 
@@ -148,9 +148,9 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 視覺片段在使用主題和手動樣式模式之間不相容。為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。[進一步了解主題](../email/apply-email-themes.md)
 * 在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[進一步了解連結和追蹤](../email/message-tracking.md)
 
-## 對象和設定檔 {#audiences-profiles}
+## 客群和輪廓 {#audiences-profiles}
 
-本節涵蓋對象管理、設定檔處理和參與設定檔考量事項的護欄。
+本節涵蓋客群管理、輪廓處理和可互動輪廓考量事項的護欄。
 
 ### 客群和輪廓護欄 {#audience}
 
@@ -166,14 +166,14 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 
 ### 決策與決策管理護欄 {#decisioning-guardrails}
 
-有關使用決策或決策管理時須牢記的護欄和限制，請參閱以下決策和決策管理章節：
+決策和決策管理部分詳細說明了使用決策或決策管理時需要牢記的護欄與限制：
 
 * [決策護欄與限制](../experience-decisioning/decisioning-guardrails.md)
 * [決策管理護欄與限制](../offers/decision-management-guardrails.md)
 
 ## 歷程 {#journeys-guardrails}
 
-本節涵蓋歷程的護欄和限制，包括一般歷程限制、歷程元件（動作、事件、資料來源）、歷程活動以及自訂動作和運算式編輯器等特定功能。
+本節涵蓋歷程的護欄和限制，包括一般歷程限制、歷程元件 (動作、事件、資料來源)、歷程活動以及自訂動作和運算式編輯器等特定功能。
 
 ### 一般歷程護欄 {#journeys-guardrails-journeys}
 
@@ -208,7 +208,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 

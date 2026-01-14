@@ -11,13 +11,13 @@ level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
 ht-degree: 100%
 
 ---
 
-# 開始使用決定管理事件 {#monitor-offer-events}
+# 開始使用決策管理事件 {#monitor-offer-events}
 
 >[!TIP]
 >

@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 ### 行銷活動協調
 
-* **選擇正確的方法**： [比較歷程型別](../../building-journeys/journey.md#journey-types)以取得即時、行為觸發的體驗，或[促銷活動型別](../../campaigns/get-started-with-campaigns.md#campaign-types)以取得排程的批次促銷活動
+* **選擇對的方法**：[比較歷程類型](../../building-journeys/journey.md#journey-types)，還可取得即時、行為觸發的體驗，或[促銷活動類型](../../campaigns/get-started-with-campaigns.md#campaign-types)，就能取得排程的批次行銷活動
 * **定義明確的行銷活動目標**：在設計多步驟工作流程之前建立目標
 * **從試驗客群開始**：在擴充之前驗證計數和細分邏輯
 * **運用關聯式資料**：使用多實體細分，將客戶資料與帳戶、購買、訂閱連線，以進行精確目標定位

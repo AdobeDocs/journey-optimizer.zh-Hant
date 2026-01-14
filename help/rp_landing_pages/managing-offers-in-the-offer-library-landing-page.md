@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-00-55
 badge: label="舊版" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 在 Adobe Journey Optimizer 中設定產品建議
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立遞補產品建議
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立和管理產品建議集合
 

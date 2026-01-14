@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 開始使用排名
+title: 排名快速入門
 description: 了解如何使用排名
 badge: label="舊版" type="Informative"
 feature: Ranking, Decision Management
@@ -11,13 +11,13 @@ level: Intermediate
 exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-# 開始使用排名 {#create-fallback-offers}
+# 排名快速入門 {#create-fallback-offers}
 
 >[!TIP]
 >

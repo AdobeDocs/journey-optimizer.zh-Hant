@@ -7,7 +7,7 @@ badge: label="舊版" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 排名快速入門
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及使用排名公式
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 產品建議排名的 AI 模型
 

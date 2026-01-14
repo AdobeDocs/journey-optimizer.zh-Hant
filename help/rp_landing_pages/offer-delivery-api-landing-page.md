@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="舊版" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 開始使用產品建議傳遞 API
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用決策 API 傳遞產品建議
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用邊緣決策 API 傳遞產品建議
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用批次決策 API 傳遞產品建議
 
