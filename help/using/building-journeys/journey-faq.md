@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
+source-wordcount: '5231'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 +++ 我可以在歷程中傳送訊息給設定檔嗎？
 
-可以。Journey Optimizer包含&#x200B;**內建頻道動作**，可讓您透過電子郵件、推播通知、SMS/MMS/RCS、應用程式內訊息、網頁體驗、程式碼型體驗、直接郵件、內容卡、WhatsApp和LINE傳送訊息。 您可以直接在Journey Optimizer中設計訊息內容，並將其新增為歷程中的動作活動。
+可以。Journey Optimizer包含&#x200B;**內建頻道動作**，可讓您透過電子郵件、推播通知、SMS/MMS/RCS、應用程式內訊息、網頁體驗、程式碼型體驗、內容卡片、WhatsApp和LINE傳送訊息。 您可以直接在Journey Optimizer中設計訊息內容，並將其新增為歷程中的動作活動。
 
 對於原生不支援的管道，您可以使用&#x200B;**自訂動作**&#x200B;與外部傳訊平台整合，並透過任何協力廠商管道傳送訊息。
 
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程

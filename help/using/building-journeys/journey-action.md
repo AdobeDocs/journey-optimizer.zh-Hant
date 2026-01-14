@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 15%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 根據所選的通訊通道，有其他設定可供使用。 請展開下列各節以取得詳細資訊。
 
-+++**套用上限規則** （電子郵件、直接郵件、推播、簡訊）
++++**套用上限規則** （電子郵件、推播、簡訊）
 
 在&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中，選取要套用上限規則至歷程動作的規則集。
 

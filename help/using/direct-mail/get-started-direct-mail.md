@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
 
 * **[建立直接郵件](create-direct-mail.md)** - 了解如何建立直接郵件傳遞，以及設定離線管道的擷取檔案。
 * **[設定直接郵件管道](direct-mail-configuration.md)** - 設定直接郵件介面和檔案路由設定。
-* **[歷程中的直接郵件](direct-mail-journeys.md)** - 探索如何在客戶歷程中使用直接郵件動作。
 * **[測試並傳送直接郵件](test-send-direct-mail.md)** - 了解如何測試、驗證及發佈您的直接郵件傳遞。
 * **[直接郵件教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 探索直接郵件功能和最佳做法的逐步教學課程影片。
 
