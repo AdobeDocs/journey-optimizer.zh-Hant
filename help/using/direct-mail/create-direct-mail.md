@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '787'
 ht-degree: 19%
 
 ---
@@ -30,12 +30,7 @@ ht-degree: 19%
 >1. [檔案路由組態](../direct-mail/direct-mail-configuration.md#file-routing-configuration)，指定應該上傳及儲存解壓縮檔案的伺服器，
 >1. 將參考檔案路由設定的[直接郵件設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
-
 ## 建立直接郵件行銷活動{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->Direct Mail支援Holdout功能，但目前不支援Threads。
 
 若要建立直接郵件行銷活動，您將設定排程的行銷活動、選取目標對象，並設定直接郵件設定，包括訊息設定。 請依照下列步驟操作：
 
@@ -62,6 +57,10 @@ ht-degree: 19%
 1. 選取或建立要使用的&#x200B;**[!UICONTROL 直接郵件組態]**。 [瞭解如何建立直接郵件設定](direct-mail-configuration.md#direct-mail-surface)。
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >直接郵件支援&#x200B;**保留**&#x200B;功能，但目前不支援&#x200B;**處理**。 [瞭解如何使用實驗](../content-management/get-started-experiment.md)
 
 1. 行銷活動可以排程為特定日期，或設定為定期重複。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/campaign-schedule.md)。
 
