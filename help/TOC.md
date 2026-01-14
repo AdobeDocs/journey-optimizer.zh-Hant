@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + [Journey快速入門手冊](using/building-journeys/journey-get-started.md)
-   + [歷程型別和選取指南](using/building-journeys/journey-types-selection.md)
+   + [歷程類型和選取指南](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
    + 管理您的歷程 {#manage-journey}
       + [管理您的歷程](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [瀏覽及篩選您的歷程](using/building-journeys/journey-ui.md)
-      + [使用標籤組織](using/building-journeys/tags.md)
+      + [使用標籤整理](using/building-journeys/tags.md)
       + [歷程中的設定檔入口](using/building-journeys/entry-management.md)
       + [在歷程中使用補充識別碼](using/building-journeys/supplemental-identifier.md)
       + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
@@ -124,7 +124,7 @@ ht-degree: 98%
       + [透過使用案例深入了解](using/building-journeys/jo-use-cases.md)
       + [歷程進入和退出條件](using/building-journeys/entry-exit-criteria-guide.md)
       + [體驗事件查閱](using/building-journeys/exp-event-lookup.md)
-      + [傳送多頻道訊息](using/building-journeys/journeys-uc.md)
+      + [傳送多管道訊息](using/building-journeys/journeys-uc.md)
       + [使用 Campaign v7/v8 傳送訊息](using/building-journeys/ajo-ac.md)
       + [傳送訊息給訂閱者](using/building-journeys/message-to-subscribers-uc.md)
       + [只在工作日傳送電子郵件](using/building-journeys/weekday-email-uc.md)
@@ -236,17 +236,17 @@ ht-degree: 98%
       + [請求核准](using/test-approve/request-approval.md)
       + [核准請求](using/test-approve/review-approve-request.md)
 + 監視與疑難排解 {#monitor}
-   + [開始使用監控和疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Journey Optimizer中的追蹤](using/start/get-started-tracking.md)
+   + [開始監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [在 Journey Optimizer 中追蹤](using/start/get-started-tracking.md)
    + 電子郵件傳遞能力 {#deliverability}
       + [開始使用傳遞能力](using/reports/deliverability.md)
       + [瞭解禁止名單](using/reports/suppression-list.md)
       + [新的 DMARC 需求](using/configuration/dmarc-record-update.md)
-   + 監視警示和錯誤代碼 {#monitor-alerts-errors}
+   + 監視警示和錯誤碼 {#monitor-alerts-errors}
       + [系統警示](using/reports/alerts.md)
       + [錯誤代碼參考](using/building-journeys/error-codes-reference.md)
    + 疑難排解 {#troubleshooting}
-      + [疑難排解常見問題](using/start/troubleshooting.md)
+      + [疑難排解常見問題集](using/start/troubleshooting.md)
       + 歷程疑難排解 {#troubleshoot-journey}
          + [疑難排解歷程錯誤](using/building-journeys/troubleshooting.md)
          + [疑難排解歷程執行](using/building-journeys/troubleshooting-execution.md)
@@ -690,7 +690,7 @@ ht-degree: 98%
          + [建立集合限定詞](using/offers/offer-library/creating-tags.md)
       + 建立排名 {#rankings}
          + [建立排名](/help/rp_landing_pages/rankings-landing-page.md)
-         + [開始使用排名](using/offers/ranking/get-started-rankings.md)
+         + [排名快速入門](using/offers/ranking/get-started-rankings.md)
          + [排名公式](using/offers/ranking/create-ranking-formulas.md)
          + AI 模型 {#ai-models}
             + [AI 模型](/help/rp_landing_pages/ai-models-landing-page.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [存取事件 XDM 欄位](using/offers/reports/xdm-fields.md)
       + 匯出產品建議目錄 {#export-catalog}
          + [匯出產品建議目錄](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [開始使用產品建議目錄匯出  &#x200B;](using/offers/export-catalog/get-started-export.md)
+         + [開始使用產品建議目錄匯出](using/offers/export-catalog/get-started-export.md)
          + [存取匯出的產品建議目錄](using/offers/export-catalog/access-dataset.md)
          + [個人化產品建議資料集](using/offers/export-catalog/export-offers.md)
          + [決定資料集](using/offers/export-catalog/export-decisions.md)
@@ -769,7 +769,7 @@ ht-degree: 98%
                + [建立集合](using/offers/api-reference/offers-api/collections/create.md)
                + [更新集合](using/offers/api-reference/offers-api/collections/update.md)
                + [刪除集合](using/offers/api-reference/offers-api/collections/delete.md)
-            + 後備優惠方案 {#fallback-offers}
+            + 遞補產品建議 {#fallback-offers}
                + [列出後備產品建議](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
                + [查詢後備產品建議](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
                + [建立後備產品建議](using/offers/api-reference/offers-api/fallback-offers/create.md)
@@ -807,7 +807,7 @@ ht-degree: 98%
                   + [建立個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
                   + [更新個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
                   + [刪除個人化產品建議](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-               + 後備優惠方案 {#legacy-api-fallback-offers}
+               + 遞補產品建議 {#legacy-api-fallback-offers}
                   + [列出後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                   + [查詢後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
                   + [建立後備產品建議](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
