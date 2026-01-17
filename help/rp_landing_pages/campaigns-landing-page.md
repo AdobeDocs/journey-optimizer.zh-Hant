@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 存取和管理行銷活動
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 動作行銷活動
 

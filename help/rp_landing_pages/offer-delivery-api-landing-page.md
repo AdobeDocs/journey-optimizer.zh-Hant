@@ -25,7 +25,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 開始使用產品建議傳遞 API
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 使用批次決策 API 傳遞產品建議
 
