@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->停止歷程的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>停止歷程需要&#x200B;**[!DNL Manage journeys]**&#x200B;許可權。 如果歷程包含內嵌行銷活動或訊息節點，使用者還需要&#x200B;**行銷活動>發佈行銷活動**&#x200B;許可權。 如果歷程使用資產（例如在電子郵件中），使用者必須擁有這些資產資料夾的存取權。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
 
 ## 相關主題
 
