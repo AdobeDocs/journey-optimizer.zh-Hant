@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
+source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 18%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 本檔案提供如何在[!DNL Adobe Journey Optimizer]內使用對象的資訊。 有關對象入口網站和對象的詳細資訊，請參閱Adobe Experience Platform細分服務檔案。 如需詳細資訊，請參閱以下章節：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服務 — 常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}
 
