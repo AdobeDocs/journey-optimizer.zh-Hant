@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '889'
 ht-degree: 5%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 5%
 * **結構描述型別** — 資料集必須與設定檔或事件型別的&#x200B;**NOT**&#x200B;結構描述相關聯。
 
 * **保持查詢切換開啟** — 避免重複開啟和關閉資料集。 這樣做可能會導致意外的索引行為。 最佳實務是啟用資料集，直到您打算使用它進行查詢為止。
+
+* **Edge啟用區域** — 啟用查閱的資料集僅適用於資料集沙箱所在的區域（例如NLD2或VA7）的傳入邊緣型啟用。 您可以在UI中沙箱名稱旁邊看到沙箱區域。
 
 * **批次資料刪除** — 從資料集移除批次資料，會從查詢服務中完全移除所有相符的索引鍵。 例如：
 
