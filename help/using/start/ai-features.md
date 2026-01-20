@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI與智慧型功能
+title: AI 與智慧功能
 description: 瞭解AI和機器學習如何增強Adobe Journey Optimizer功能
 feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 4%
+source-wordcount: '1676'
+ht-degree: 3%
 
 ---
 
-# AI與智慧型功能 {#ai-features}
+# AI 與智慧功能 {#ai-features}
 
 Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助您建立、最佳化和提供卓越的客戶體驗。 從產生個人化內容到預測最佳傳送時間，AI功能可簡化您的工作流程並最大化影響。 使用案例教戰手冊提供預先建立的範本，以快速實施常見行銷情境。
 
@@ -66,7 +66,21 @@ AI Assistant是Adobe Journey Optimizer的對話指南。 使用它可立即取�
 
 Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的AI代理程式，為歷程最佳化和實驗提供深入分析和可操作的建議。
 
-### 歷程分析代理 {#journey-agent}
+### Journey Agent {#journey-agent}
+
+Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們來最佳化現有歷程，或從自然語言提示建立新歷程。
+
++++**需要的許可權**
+
+* **檢視歷程** — 直接在AI助理中檢視歷程的深入分析
+* **管理歷程** — 直接在AI助理中建立新的歷程
+* **檢視區段** — 檢視對象的深入分析並搜尋現有對象
+* **管理區段** — 直接在AI Assistant中建立新對象
+* **檢視歷程事件、資料來源和動作** — 建立技能以搜尋歷程事件和自訂動作所需
+
++++
+
+#### 歷程分析技能 {#journey-analyze-skill}
 
 [歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
 
@@ -88,12 +102,27 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 +++
 
-+++**需要的許可權**
++++
 
-* **檢視歷程** — 直接在AI助理中檢視歷程的深入分析
-* **管理歷程** — 直接在AI助理中建立新的歷程
-* **檢視區段** — 檢視對象的深入分析
-* **管理區段** — 直接在AI Assistant中建立新對象
+#### 歷程建立技能 {#journey-create-skill}
+
+[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+
++++**主要功能**
+
+* **自然語言歷程建立** — 描述您想要的歷程並自動建立
+* **以事件和受眾為基礎的開始** — 建立事件觸發、以受眾為基礎、業務事件或受眾資格歷程
+* **條件邏輯** — 根據客戶屬性或行為建置分割路徑
+* **多頻道傳訊** — 新增電子郵件、推播和簡訊動作
+* **排程** — 設定開始日期與步驟之間的時間
+
++++
+
++++**範例提示**
+
+* 「建立歷程，從客戶線上購買並傳送感謝推播通知時開始。」
+* 「使用兩星期內的三封電子郵件，從12/20開始建立以我日間徒步旅行者受眾為目標的歷程。」
+* 「建立歷程，此歷程從使用者進入我的商店位置開始，並根據他們是否有有效的電子郵件地址進行追蹤。」
 
 +++
 
@@ -241,7 +270,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -264,6 +293,7 @@ Adobe Journey Optimizer以AI Assistant的對話功能為基礎，提供專門的
 * 用於產生內容的&#x200B;**[AI小幫手](#content-generation)** — 需要[產生內容]許可權
 * **[AI小幫手](#ai-assistant)**&#x200B;產品知識 — 需要與Adobe Generative AI使用者指南取得共識
 * **[歷程分析代理程式](#journey-agent)** — 需要檢視/管理歷程和檢視/管理區段許可權
+* **[歷程建立代理程式](#journey-create-agent)** — 需要管理歷程、檢視歷程事件/資料來源/動作、檢視區段及管理區段許可權
 * **[Experimentation Agent](#experimentation-agent)** — 需要檢視實驗和管理實驗中繼資料許可權
 
 所有AI代理程式都需要存取AI助理並同意Adobe Experience Cloud Generative AI使用者指南。
