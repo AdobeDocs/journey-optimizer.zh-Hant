@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 60%
+ht-degree: 57%
 
 ---
 
@@ -86,7 +86,7 @@ UNUSED IDs in BJ
 
 1. **選取通道設定**
 
-   會由[系統管理員](../../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[了解如何設定頻道設定](../../configuration/channel-surfaces.md)。
+   會由[系統管理員](../../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../../configuration/channel-surfaces.md)
 
    ![顯示 [動作] 區段的影像](../assets/channel-actions.png)
 
@@ -110,7 +110,7 @@ UNUSED IDs in BJ
 
 1. **新增多語言內容**
 
-   使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，就能在行銷活動中，使用多語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。 本區段有提供如何設定、使用多語言功能的詳細資訊：[開始使用多語言內容](../../content-management/multilingual-gs.md)
+   使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，就能在行銷活動中，使用多語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。 本節提供如何設定及使用多語言功能的詳細資訊： [開始使用多語言內容](../../content-management/multilingual-gs.md)。
 
    ![影像會顯示內容實驗區段](../assets/channel-experiment.png)
 
@@ -144,7 +144,7 @@ UNUSED IDs in BJ
 
    * **`Enrichment`**：包含透過畫布中的&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料。 這可讓您根據外部資料集或在協調期間納入的其他邏輯來個人化訊息。 [瞭解如何使用擴充活動](../activities/enrichment.md)
 
-如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)
+如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)。
 
 ## 檢查並測試您的內容
 

@@ -4,9 +4,9 @@ product: journey optimizer
 title: 設定您的頻道設定
 description: 瞭解如何設定您的頻道設定
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -66,3 +66,25 @@ ht-degree: 0%
 1. 設定之後，按一下&#x200B;**[!UICONTROL 提交]**。
 
 您的頻道現在已準備好搭配&#x200B;**協調的行銷活動**&#x200B;使用，將會根據選取的目標維度傳遞訊息。
+
+## URL追蹤引數 {#url-tracking}
+
+設定管道設定時，您可以定義URL追蹤引數，將中繼資料附加至追蹤的連結，以監控電子郵件行銷活動的效能，以用於分析和報告用途。
+
+若要這麼做，可使用`{{context.system.source.*}}`語法，取得協調行銷活動的特定內容屬性：
+
+* **`context.system.source.id`**：協調的行銷活動識別碼
+* **`context.system.source.name`**：協調的行銷活動名稱
+* **`context.system.source.versionId`**：協調的行銷活動版本識別碼
+* **`context.system.source.actionId`**：頻道動作節點識別碼
+* **`context.system.source.actionName`**：頻道動作節點名稱
+* **`context.system.source.channel`**：頻道型別（電子郵件、簡訊、推播）
+* **`context.system.IdentityNamespace`**：已使用身分名稱空間
+
+例如：
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+在[本節](../email/url-tracking.md)中進一步瞭解URL追蹤引數。
