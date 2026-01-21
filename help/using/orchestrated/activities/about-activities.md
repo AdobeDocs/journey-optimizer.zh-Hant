@@ -5,9 +5,9 @@ title: 使用協調的行銷活動
 description: 瞭解如何協調行銷活動
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 61%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 61%
 以下各節會詳細介紹所有活動：
 
 * [目標定位活動](#targeting)
-* [頻道活動](#channel)
+* [管道活動](#channel)
 * [流量控制活動](#flow-control)
 
 ![畫布中的可用活動清單](../assets/orchestrated-activities.png){width="80%" align="left"}
@@ -49,7 +49,7 @@ ht-degree: 61%
 * [調和](reconciliation.md)：定義 Journey Optimizer資料中的資料與工作表中資料之間的連結，例如從外部檔案載入的資料。
 * [分割](split.md)：將傳入族群分割成許多子集。
 
-## 頻道活動 {#channel}
+## 管道活動 {#channel}
 
 Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活動。您可以將[頻道活動](channels.md)結合到畫布中，以建立可依據客戶行為觸發動作的跨頻道協調行銷活動。
 
@@ -61,6 +61,11 @@ Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活�
 >id="ajo_orchestration_end"
 >title="結束活動"
 >abstract="**結束**&#x200B;活動讓您可以用圖形方式標記協調式行銷活動之結束。此活動並不會造成功能性影響，因此為選用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="外部訊號"
+>abstract="外部訊號"
 
 下列活動是組織和執行「協調的行銷活動」專屬的活動。 他們的主要任務是協調其他活動。
 
