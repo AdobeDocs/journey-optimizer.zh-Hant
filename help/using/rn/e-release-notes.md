@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 32%
+source-wordcount: '2068'
+ht-degree: 30%
 
 ---
 
@@ -218,6 +218,21 @@ ht-degree: 32%
 <table>
 <thead>
 <tr>
+<th><strong>訊息匯出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在可以<strong>將已傳送的傳遞</strong>匯出至特定資料集，以用於封存和法規遵循目的。 此容量不僅適用於電子郵件，也適用於其他管道，例如簡訊。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>用於擷取動作行銷活動的新 API</strong><br/></th>
 </tr>
 </thead>
@@ -291,23 +306,21 @@ ht-degree: 32%
 
 #### 管道
 
-* **訊息匯出** — 現在可以<strong>匯出已傳送的傳遞</strong>至特定資料集，以用於封存和法規遵循目的。 此容量不僅適用於電子郵件，也適用於其他管道，例如簡訊。
-
 * **SMS Webhooks：階段II** — 將提供的說明。
 
 * **WhatsApp轉售選件** — 提供說明。
 
 #### 電子郵件 Designer
 
-* **就地更正 — Acrite — 電子郵件和登陸頁面** — 要提供的說明。
+* **電子郵件設計工具中的就地更正** - <strong>AI支援的自動內容建議</strong>現在可在電子郵件Designer中在內容驗證期間偵測到違規時取得。 如果內容標示為不符合品牌指導方針或品質標準，系統會主動產生修正的替代方案，以供線上檢閱和套用，進而改善法規遵循並加快生產速度。
 
 #### 體驗決策
 
-* **歷程仲裁 — 公式** — 您現在可以使用<strong>公式和AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，以確保客戶進入最相關的歷程。
+* **歷程仲裁** — 您現在可以使用<strong>公式和AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。
 
 * **exd沙箱工具檔案 — 更新** — 提供說明。
 
-* **自助移轉工具API** — 提供說明。
+* **自助移轉工具API** — 提供一組新的<strong>移轉工具API</strong>，可將Offer Management實體移轉至Experience Decisioning。 此工具可讓您在沙箱之間無縫移轉，並具備相依性解析和復原功能。
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至決定專案的功能，這些決定專案可在程式碼型體驗行銷活動中透過決定原則運用。
 
@@ -316,6 +329,8 @@ ht-degree: 32%
 #### 歷程
 
 * **在歷程自訂動作中善用失敗回應承載** — 提供說明。
+
+* **結合原生和Adobe Campaign訊息動作** - Journey Optimizer現在可讓您在同一歷程中結合Adobe Campaign v7/v8訊息動作和原生頻道動作。
 
 * **歷程中的歷程裝載大小驗證** - Journey Optimizer現在提供<strong>裝載大小驗證</strong>，以協助確保最佳效能和系統穩定性。 當建置或發佈歷程時，如果裝載大小接近或超過建議的限制，您會收到明確的警告和錯誤，以及最佳化歷程設定的可操作指引。 此主動式驗證可幫助您儘早識別潛在問題並維護歷程績效。
 
@@ -359,6 +374,23 @@ ht-degree: 32%
 <tr>
 <td>
 <p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理管道專用內容，為電子郵件和推播等管道建立內容，套用和預覽範本，透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內嵌編輯。</p>
+<p>推出日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>內容決定活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過歷程畫布中的專屬內容決定活動，在歷程中加入<strong>個人化優惠</strong>，並在歷程活動（包括條件和自訂動作）中使用這些優惠。</p>
+<p>推出日期：2026年2月2日</p>
 </td>
 </tr>
 </tbody>
