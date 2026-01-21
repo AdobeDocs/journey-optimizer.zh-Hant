@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 44%
+source-wordcount: '1990'
+ht-degree: 47%
 
 ---
 
@@ -312,16 +312,6 @@ ht-degree: 44%
 * **SMS Webhooks：階段II** — 將提供的說明。
 
 * **WhatsApp轉售選件** — 提供說明。
-
-* **WhatsApp通道的執行欄位** — 除了電子郵件和簡訊之外，您現在可以在沙箱層級更新WhatsApp傳送的預設執行欄位。 您也可以在WhatsApp歷程活動進階引數或WhatsApp管道設定中變更執行欄位，以覆寫全域設定的執行欄位。 [閱讀全文](../configuration/primary-email-addresses.md)
-
-  推出日期：2025 年 10 月 22 日
-
-* **Mailto （取消訂閱）地址的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，您可以在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。 若要進一步個人化您的自訂端點，您現在可以定義也將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
-
-  **注意**：此功能自2025年8月起已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，現在已針對「有限可用性」中的&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項發行。 請聯絡您的 Adobe 代表以取得存取權。
-
-  推出日期：2025 年 10 月 6 日
 
 #### 電子郵件 Designer
 
