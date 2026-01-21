@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
+source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 41%
+source-wordcount: '2168'
+ht-degree: 44%
 
 ---
 
@@ -231,6 +231,65 @@ ht-degree: 41%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>用於擷取動作行銷活動的新 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現已提供新的 Journey Optimizer API，可讓您以程式設計方式擷取及檢查行銷活動相關資料，例如詳細資訊、版本和設定。</p>
+<p>如需詳細資訊，請參閱<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">詳細文件</a>。</p>
+<p>推出日期：2025 年 11 月 24 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>新歷程警示</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>三種新的歷程警示現在可協助您監視及追蹤歷程生命週期事件和自訂動作績效：</p>
+<ul>
+<li><strong>歷程已發佈</strong>：當操作者歷程版面中發佈歷程時，會收到通知。</li>
+<li><strong>歷程已完成</strong>：歷程完成時收到警示，並根據歷程類型有特定定義 (讀取客群或事件觸發)。</li>
+<li><strong>自訂動作上限已觸發</strong>：在自訂動作端點上啟用上限時，會收到通知。</li>
+</ul>
+<p>這些警示可在組織層級訂閱或針對特定歷程訂閱。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/alerts.md#journey-alerts">詳細文件</a>。</p>
+<p>推出日期：2025 年 11 月 5 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設計工具中的主題</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>目前您可以快速套用事先審核通過的主題，以便確保所有電子郵件的品牌都有保持一致性，加快投放行銷活動的流程，個別製作高品質的電子郵件，同時減少對設計團隊的依賴。</p>
+<p>此功能先前以 Beta 版發行，現在可供部分組織使用 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>如需詳細資訊，請參閱<a href="../email/apply-email-themes.md">詳細文件</a>。</p>
+<p>推出日期：2025 年 11 月 5 日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改善 {#jan-26-01-improv}
 
 以下列舉部分發布內容附上的改良功能。
@@ -253,6 +312,16 @@ ht-degree: 41%
 * **SMS Webhooks：階段II** — 將提供的說明。
 
 * **WhatsApp轉售選件** — 提供說明。
+
+* **WhatsApp通道的執行欄位** — 除了電子郵件和簡訊之外，您現在可以在沙箱層級更新WhatsApp傳送的預設執行欄位。 您也可以在WhatsApp歷程活動進階引數或WhatsApp管道設定中變更執行欄位，以覆寫全域設定的執行欄位。 [閱讀全文](../configuration/primary-email-addresses.md)
+
+  推出日期：2025 年 10 月 22 日
+
+* **Mailto （取消訂閱）地址的自訂屬性支援** — 使用Journey Optimizer，如果您在Adobe外部管理同意，您可以在電子郵件設定中定義您自己的一鍵式取消訂閱連結和自訂取消訂閱電子郵件地址，以設定外部自訂端點。 當您的收件者按一下取消訂閱連結時，Journey Optimizer會將一些預設的設定檔特定引數附加至同意更新事件。 若要進一步個人化您的自訂端點，您現在可以定義也將附加至同意事件的自訂屬性。 [閱讀全文](../email/list-unsubscribe.md#custom-attributes)
+
+  **注意**：此功能自2025年8月起已可用於自訂&#x200B;**[!UICONTROL 一鍵取消訂閱URL]**，現在已針對「有限可用性」中的&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項發行。 請聯絡您的 Adobe 代表以取得存取權。
+
+  推出日期：2025 年 10 月 6 日
 
 #### 電子郵件 Designer
 
