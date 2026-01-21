@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 25%
+source-wordcount: '1380'
+ht-degree: 24%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 25%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -96,6 +96,10 @@ ht-degree: 25%
 >行銷型別電子郵件訊息必須包含[選擇退出連結](../privacy/opt-out.md#opt-out-decision-management)，交易式訊息不需要此連結。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）在建立訊息時已在[頻道設定](email-settings.md#email-type)中定義。
 
 傳送訊息之後，連結的保留期間為&#x200B;**25個月**。 延遲後，連結將無法再使用。
+
+>[!CAUTION]
+>
+>當按鈕的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 追蹤資料集中的`_experience.customerJourneyManagement.messageInteraction.label`欄位將會記錄URL值。
 
 ## 連結至映象頁面 {#mirror-page}
 
