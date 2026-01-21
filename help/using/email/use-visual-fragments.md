@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 1%
 
 ---
@@ -111,10 +111,6 @@ ht-degree: 1%
 
 如果所選片段的某些部分已變為可編輯，您可以在將片段新增到內容中後覆寫其預設值。 [瞭解如何使您的片段可自訂](../content-management/customizable-fragments.md)
 
->[!CAUTION]
->
->當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;都可在片段中編輯時，追蹤報告會顯示URL而非按鈕標籤。<!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
-
 若要自訂片段中可編輯的欄位，請遵循下列步驟：
 
 1. 將片段新增至您的內容。
@@ -128,6 +124,10 @@ ht-degree: 1%
    在下列範例中，可以編輯影像&#x200B;**來源**&#x200B;和&#x200B;**替代文字**，以及[按一下這裡]按鈕&#x200B;**URL**。
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 [進一步瞭解追蹤](../email/message-tracking.md)
 
 ## 中斷繼承 {#break-inheritance}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1370'
 ht-degree: 24%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 24%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 >[!CAUTION]
 >
->當按鈕的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 追蹤資料集中的`_experience.customerJourneyManagement.messageInteraction.label`欄位將會記錄URL值。
+>當按鈕的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在[可自訂片段](../content-management/customizable-fragments.md)中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。
 
 ## 連結至映象頁面 {#mirror-page}
 
