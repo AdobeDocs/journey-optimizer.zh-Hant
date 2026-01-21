@@ -26,7 +26,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 ### AI和機器學習功能
 
-* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
+* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
 
 * **提升度測量**：能夠在AI模型中視覺化探索與利用流量。 這讓行銷人員和資料科學家可以量化AI探索如何改善長期模型效能和發現新的成功選件。 流量分配的透明度可建立對AI決策的信任，並讓團隊能夠隨著時間推移最佳化學習和效能。 [了解更多](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道（[程式碼型體驗](../code-based/get-started-code-based.md)及[電子郵件](../email/get-started-email.md)目前可用，其他通道將於2026年下半年推出）。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 
