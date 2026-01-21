@@ -12,10 +12,10 @@ badge: label="有限可用性" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
+source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '513'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="保留並匯出您已傳送的內容"
->abstract="選取此選項可讓您使用此設定，將已傳送的電子郵件或簡訊訊息內容寫入 [!DNL Experience Platform] 資料集。記錄會保留 3 個日曆日，在此期間您可以將其匯出至您自己的儲存空間。"
+>abstract="選取此選項可讓您使用此設定，將已傳送的電子郵件或簡訊訊息內容寫入 [!DNL Experience Platform] 資料集。記錄會自內嵌後保留7個日曆日，在此期間，您可以將記錄匯出至您自己的儲存空間。"
 
 >[!AVAILABILITY]
 >
@@ -34,18 +34,18 @@ ht-degree: 12%
 
 透過此功能，透過[!DNL Journey Optimizer]傳送且標示為要匯出的電子郵件和簡訊內容會寫入[!DNL Experience Platform] **AJO訊息匯出資料集**。
 
-然後，記錄會保留在&#x200B;**AJO訊息匯出資料集**&#x200B;中三天，在此期間您可以將記錄匯出至您選擇的外部系統。
+然後，記錄會保留在&#x200B;**AJO訊息匯出資料集**&#x200B;中，從內嵌到七天之後，您就可以將它們匯出到您選擇的外部系統。
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
 ## 護欄
 
 * 此功能僅支援電子郵件和簡訊頻道。
-* AJO訊息匯出資料集中的記錄會自內嵌後保留三個行事曆日。
+* AJO訊息匯出資料集中的記錄會在擷取後保留七天。
 * 在啟用訊息匯出之前，不支援對已傳送的訊息使用回填，如下所述。
 
 ## 啟用訊息匯出 {#enable-message-export}
@@ -67,15 +67,15 @@ ht-degree: 12%
 >
 >必須針對每個沙箱設定此設定。
 
-1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
+1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
 
-1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用下列資料建立資料集匯出流程：
 
    * Source資料集：選取&#x200B;**AJO訊息匯出資料集**。
    * 檔案格式：選取JSON或Parquet （根據下游工具選擇一個格式）。
-   * 排程：確保在3天保留期間內執行。
+   * 排程：確保在7天的保留期間內執行。
 
 ### 在通道設定中啟用訊息匯出 {#config-message-export}
 
