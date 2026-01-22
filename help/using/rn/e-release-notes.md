@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 21%
@@ -388,7 +388,7 @@ ht-degree: 21%
 <td>
 <p>您現在可以透過歷程畫布中的專屬內容決定活動，在歷程中加入<strong>個人化優惠</strong>，並在歷程活動（包括條件和自訂動作）中使用這些優惠。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">產品JIRA工作的連結</a></p>
-<p>推出日期：2026年2月2日</p>
+<p>推出日期： 2026年2月3日</p>
 </td>
 </tr>
 </tbody>
