@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2407'
 ht-degree: 21%
 
 ---
@@ -178,7 +178,13 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>現在可以<strong>將已傳送的傳遞</strong>匯出至特定資料集，以用於封存和法規遵循目的。 此容量不僅適用於電子郵件，也適用於其他管道，例如簡訊。 訊息匯出資料集的資料保留期現在為<strong>7天</strong>。</p>
+<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
+<ul>
+<li>符合法規合規性要求（例如HIPAA）</li>
+<li>封存法律索償和客戶服務查詢的訊息</li>
+<li>保留傳送給個人的個人化內容復本</li>
+</ul>
+<p>記錄會保留在AJO訊息匯出資料集中<strong>從內嵌</strong>起的7個日曆日。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">產品JIRA工作的連結</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ ht-degree: 21%
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">產品JIRA工作的連結</a>
 
 #### 體驗決策
-
-* **exd沙箱工具檔案 — 更新** — 提供說明。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">連結到DOCAC JIRA工作</a>
 
 * **自助移轉工具API** — 提供一組新的<strong>移轉工具API</strong>，可將Offer Management實體移轉至Experience Decisioning。 此工具可讓您在沙箱之間無縫移轉，並具備相依性解析和復原功能。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">產品JIRA工作的連結</a>
