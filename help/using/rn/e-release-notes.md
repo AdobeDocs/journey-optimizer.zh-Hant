@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 20%
+source-wordcount: '2358'
+ht-degree: 21%
 
 ---
 
@@ -298,11 +298,6 @@ ht-degree: 20%
 
 #### 體驗決策
 
-* **歷程仲裁** — 您現在可以使用<strong>公式和AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。
-
-  **注意**：這項改善僅適用於一組組織（可用性限制）。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">產品JIRA工作的連結</a>
-
 * **exd沙箱工具檔案 — 更新** — 提供說明。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">連結到DOCAC JIRA工作</a>
 
@@ -398,3 +393,4 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
