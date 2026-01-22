@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 21%
+source-wordcount: '2414'
+ht-degree: 20%
 
 ---
 
@@ -180,6 +180,24 @@ ht-degree: 21%
 <td>
 <p>現在可以<strong>將已傳送的傳遞</strong>匯出至特定資料集，以用於封存和法規遵循目的。 此容量不僅適用於電子郵件，也適用於其他管道，例如簡訊。 訊息匯出資料集的資料保留期現在為<strong>7天</strong>。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">產品JIRA工作的連結</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent — 建立歷程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Create Agent可讓Journey Optimizer使用者使用自然語言介面來建立和設定行銷歷程。 使用Journey Create Agent，從業人員可以在對話式提示中描述其需求，以快速建立歷程。 此代理程式可簡化歷程建立，讓行銷人員聚焦於策略而非技術設定。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">了解更多</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">連結到DOCAC JIRA工作</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">產品JIRA工作的連結</a></p>
+<p>推出日期： 2026年1月12日</p>
 </td>
 </tr>
 </tbody>
