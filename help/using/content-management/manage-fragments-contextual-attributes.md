@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->只有在您完全瞭解引用片段的歷程和行銷活動受到的影響時，才會繼續。 [了解更多](#limitations)
+>只有在您完全[瞭解對參照片段的歷程和行銷活動的影響](#limitations)時，才能繼續。
 
 1. 瀏覽至&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**。
 
@@ -56,11 +56,7 @@ ht-degree: 4%
 
 1. 切換至個人化編輯器中的&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;或&#x200B;**[!UICONTROL 進階模式]**。
 
-1. 使用下列語法手動輸入或複製貼上內容屬性：
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. 使用`{{context.attribute_name}}`語法手動輸入或複製貼上內容屬性：
 
    `promotionCode`屬性的範例：
 
