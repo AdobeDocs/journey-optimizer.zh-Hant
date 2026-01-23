@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 27%
+source-wordcount: '2027'
+ht-degree: 28%
 
 ---
 
@@ -284,10 +284,6 @@ ht-degree: 27%
 
   **注意**：這項改善僅適用於一組組織（可用性限制）。
 
-
-#### 電子郵件 Designer
-
-* **在電子郵件設計工具中就地更正** — 使用您的品牌指引管理內容時，在內容驗證期間偵測到違規時，現在可以使用<strong>AI支援的自動內容建議</strong>。 如果內容標示為不符合品牌指導方針或品質標準，系統會主動產生修正的替代方案，以供線上檢閱和套用，進而改善法規遵循並加快生產速度。
 
 #### 體驗決策
 
