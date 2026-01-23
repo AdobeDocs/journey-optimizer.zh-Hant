@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 發行說明
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 27%
 
 ---
@@ -363,6 +364,7 @@ ht-degree: 27%
 <tr>
 <td>
 <p>您現在可以透過歷程畫布中的專屬內容決定活動，在歷程中加入<strong>個人化優惠</strong>，並在歷程活動（包括條件和自訂動作）中使用這些優惠。</p>
+<p>此功能將適用於所有環境（一般可用性）。</p>
 <p>推出日期： 2026年2月3日</p>
 </td>
 </tr>
