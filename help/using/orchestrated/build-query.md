@@ -5,25 +5,15 @@ title: 建立首次規則
 description: 瞭解如何建立協調行銷活動的規則
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 97%
+source-wordcount: '1818'
+ht-degree: 96%
 
 ---
 
 
 # 建立首次規則 {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="選取客群"
->abstract="透過使用「**選取客群**」選項，您可以選擇要用來篩選查詢的客群。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="預先定義的篩選器"
->abstract="透過使用「**預先定義的篩選器**」選項，您可以從自訂篩選器清單或常用篩選器中選取預先定義的篩選器。"
 
 為「已協調」行銷活動建立規則的主要步驟如下：
 
@@ -174,11 +164,6 @@ ht-degree: 97%
    ![彙總資料選項的熒幕擷圖](assets/rule-builder-aggregate.png)
 
 ## 使用運算子合併條件 {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="群組"
->abstract="在此窗格中，您可以變更用來將篩選條件連結在一起的運算子。"
 
 每次在規則中新增條件時，就會使用「**與**」運算子自動連結至現有條件。這表示兩個條件產生的結果會合併在一起。
 
