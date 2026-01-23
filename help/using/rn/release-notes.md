@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
+source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 28%
+source-wordcount: '1984'
+ht-degree: 27%
 
 ---
 
@@ -151,21 +151,6 @@ ht-degree: 28%
 <tr>
 <td>
 <p>現在，直接郵件頻道可用於協調的行銷活動。 <strong>直接郵件活動</strong>可促進直接郵件在協調的行銷活動內傳送，一次性和循環性的郵件。 它用於自動化產生直接郵件提供者所需的<strong>擷取檔案</strong>的程式。 您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>忠誠度應用程式的新來源連接器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platform現在提供新的<strong>來源聯結器</strong>，適用於Talon.One、Chariceline和Kobie忠誠度應用程式。 這些連接器可讓您將忠誠度資料順暢地串流至 Adobe Experience Platform，並在 Journey Optimizer 中利用這些資料。</p>
 </td>
 </tr>
 </tbody>
