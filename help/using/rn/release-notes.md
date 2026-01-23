@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
+source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2087'
 ht-degree: 27%
 
 ---
@@ -284,9 +284,6 @@ ht-degree: 27%
 
   **注意**：這項改善僅適用於一組組織（可用性限制）。
 
-#### 管道
-
-* **SMS Webhooks：階段II** — 將提供的說明。
 
 #### 電子郵件 Designer
 
