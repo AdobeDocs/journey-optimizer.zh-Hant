@@ -5,15 +5,25 @@ title: 建立首次規則
 description: 瞭解如何建立協調行銷活動的規則
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 96%
+source-wordcount: '1878'
+ht-degree: 97%
 
 ---
 
 
 # 建立首次規則 {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="選取客群"
+>abstract="透過使用「**選取客群**」選項，您可以選擇要用來篩選查詢的客群。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="預先定義的篩選器"
+>abstract="透過使用「**預先定義的篩選器**」選項，您可以從自訂篩選器清單或常用篩選器中選取預先定義的篩選器。"
 
 為「已協調」行銷活動建立規則的主要步驟如下：
 
@@ -22,6 +32,11 @@ ht-degree: 96%
 1. **檢查並驗證規則** - 在儲存規則之前，先檢查規則的結果資料。
 
 ## 新增條件。 {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="自訂條件"
+>abstract="自訂條件是篩選元件，允許您使用資料庫中的屬性和進階運算式來建立自己的條件，藉此篩選查詢。"
 
 若要在查詢中新增條件，請遵循下列步驟：
 
@@ -160,6 +175,11 @@ ht-degree: 96%
 
 ## 使用運算子合併條件 {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="群組"
+>abstract="在此窗格中，您可以變更用來將篩選條件連結在一起的運算子。"
+
 每次在規則中新增條件時，就會使用「**與**」運算子自動連結至現有條件。這表示兩個條件產生的結果會合併在一起。
 
 若想變更條件之間的運算子，請按一下該運算子，然後選取指定運算子。
@@ -199,6 +219,11 @@ ht-degree: 96%
 ![](assets/rule-builder-groups.png)
 
 ## 檢查並驗證您的查詢
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="規則屬性"
+>abstract="在畫布中建立查詢後，您可以使用右側的&#x200B;**規則屬性**&#x200B;窗格進行檢查。<br/>此窗格可讓您顯示結果資料、擷取查詢的 SQL 程式碼版本，以及檢查目標記錄的數量。<br/>使用「**選取或儲存篩選器**」按鈕，將您的查詢儲存為預先定義篩選器，或將畫布內容更換為現有的篩選器。"
 
 等到在畫布中建立查詢以後，您就可以使用右側的&#x200B;**規則屬性**&#x200B;窗格，方便進行檢查。可用選項如下：
 
