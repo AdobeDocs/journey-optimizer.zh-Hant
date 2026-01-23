@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 26%
 
 ---
@@ -100,7 +100,6 @@ ht-degree: 26%
 <td>
 <p>以前僅限行銷活動使用<strong>直接郵件頻道</strong>，現在可在<strong>歷程畫布</strong>上使用，讓您將直接郵件合併到歷程中。 直接郵件現在可用於批次和1:1歷程情境，並支援檔案擷取設定和時間型頻率設定。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ ht-degree: 26%
 <tr>
 <td>
 <p>現在，直接郵件頻道可用於協調的行銷活動。 <strong>直接郵件活動</strong>可促進直接郵件在協調的行銷活動內傳送，一次性和循環性的郵件。 它用於自動化產生直接郵件提供者所需的<strong>擷取檔案</strong>的程式。 您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -288,7 +286,7 @@ ht-degree: 26%
 
 #### 電子郵件 Designer
 
-* **電子郵件設計工具中的就地更正** - <strong>AI支援的自動內容建議</strong>現在可在電子郵件Designer中在內容驗證期間偵測到違規時取得。 如果內容標示為不符合品牌指導方針或品質標準，系統會主動產生修正的替代方案，以供線上檢閱和套用，進而改善法規遵循並加快生產速度。
+* **在電子郵件設計工具中就地更正** — 使用您的品牌指引管理內容時，在內容驗證期間偵測到違規時，現在可以使用<strong>AI支援的自動內容建議</strong>。 如果內容標示為不符合品牌指導方針或品質標準，系統會主動產生修正的替代方案，以供線上檢閱和套用，進而改善法規遵循並加快生產速度。
 
 #### 體驗決策
 
