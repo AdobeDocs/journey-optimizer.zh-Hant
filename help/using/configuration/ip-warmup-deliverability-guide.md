@@ -19,7 +19,7 @@ ht-degree: 5%
 
 在Adobe Journey Optimizer中以新IP位址或網域啟動電子郵件行銷活動時，瞭解傳遞能力基礎對於建立強大的寄件者信譽至關重要。 本指南涵蓋重要概念、準備步驟和最佳實務，協助您從零信譽轉變為成功的收件匣放置。
 
-➡️在此[Adobe部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}的影片中瞭解傳遞能力基礎、建立聲譽和IP熱身的最佳實務。
+➡️在此[Adobe部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hant){target="_blank"}的影片中瞭解傳遞能力基礎、建立聲譽和IP熱身的最佳實務。
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Adobe Journey Optimizer提供內建的報告功能，可追蹤您的IP熱身效�
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hant).-->
 
 ## 相關主題 {#related-topics}
 

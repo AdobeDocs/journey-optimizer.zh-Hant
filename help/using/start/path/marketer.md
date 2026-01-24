@@ -202,5 +202,5 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 1. **從小事做起**：建立簡單的歡迎歷程或單一訊息行銷活動，以了解平台
 2. **利用 AI**：使用 AI 助理提出問題並加快內容建立
-3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中的其他 Journey Optimizer 使用者交流
+3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片

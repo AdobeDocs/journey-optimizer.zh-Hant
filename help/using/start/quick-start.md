@@ -230,7 +230,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 >[!TAB 社群與支援]
 
-* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：和其他使用者和專家保持聯繫
-* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：提問、共享知識
+* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：和其他使用者和專家保持聯繫
+* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]

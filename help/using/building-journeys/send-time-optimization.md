@@ -101,7 +101,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 

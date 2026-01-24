@@ -201,7 +201,7 @@ Adobe Journey Optimizer的&#x200B;**讀取對象**&#x200B;功能中已處理的�
 
 請參閱[此疑難排解文章](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}，瞭解解決此問題的步驟。
 
-深入瞭解[此Journey Optimizer社群貼文](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}。
+深入瞭解[此Journey Optimizer社群貼文](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=zh-Hant){target="_blank"}。
 
 另請參閱[Adobe Experience Platform排程API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/api/schedules){target="_blank"}，以檢查您的每日工作排程時間。
 

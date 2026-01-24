@@ -208,7 +208,7 @@ ht-degree: 0%
 
 **教學課程與範例**
 
-[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hant)
 
 **相關功能**
 

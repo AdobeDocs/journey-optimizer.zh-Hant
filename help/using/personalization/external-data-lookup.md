@@ -210,7 +210,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
 
 +++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 
