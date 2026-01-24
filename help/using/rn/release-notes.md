@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
+source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 27%
+source-wordcount: '1962'
+ht-degree: 25%
 
 ---
 
@@ -120,22 +120,6 @@ ht-degree: 27%
 <p>Adobe Journey Optimizer現在支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您可以順暢地將通知傳送至行動瀏覽器和案頭瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。 此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><strong>附註</strong>：尚未支援Web推播通知的靜音通知。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>推播和簡訊通道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將<strong>決定原則</strong>新增至推播和SMS歷程與行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，傳送給每個對象成員。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +311,22 @@ ht-degree: 27%
 <td>
 <p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理管道專用內容，為電子郵件和推播等管道建立內容，套用和預覽範本，透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內嵌編輯。</p>
 <p>推出日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>推播和簡訊通道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用<strong>決策</strong>個人化並最佳化推播和SMS訊息的內容。 使用<strong>優先順序分數</strong>、公式或AI模型來向客戶顯示最佳內容。</p>
+<p>推出日期： 2026年2月3日</p>
 </td>
 </tr>
 </tbody>
