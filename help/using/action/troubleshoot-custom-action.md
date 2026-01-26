@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,11 @@ ht-degree: 2%
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 此功能可簡化測試和驗證程式，確保自訂動作在即時歷程中正常運作。
+
+>[!NOTE]
+>
+>如果您的組織已啟用IP （輸出） Proxy，**[!UICONTROL 傳送測試要求]**&#x200B;呼叫會略過該要求。 若要確認Proxy路由，請執行測試或即時歷程。 深入瞭解[與外部系統整合](../configuration/external-systems.md#faq)中的IP （輸出） Proxy和啟用。
+
 
 ## 先決條件 {#troubleshoot-custom-action-prereq}
 
@@ -43,7 +48,7 @@ ht-degree: 2%
 若要測試自訂動作，請遵循下列步驟：
 
 1. 導覽至&#x200B;**動作**&#x200B;設定畫面，然後選取自訂動作。
-1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**按鈕。
    ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
 1. 在快顯視窗中，允許您指定請求引數：
 
