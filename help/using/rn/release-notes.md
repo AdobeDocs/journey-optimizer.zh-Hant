@@ -184,7 +184,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>Journey Create Agent可讓Journey Optimizer使用者使用自然語言介面來建立和設定行銷歷程。 使用Journey Create Agent，從業人員可以在對話式提示中描述其需求，以快速建立歷程。 此代理程式可簡化歷程建立，讓行銷人員聚焦於策略而非技術設定。</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">了解更多</a></p>
+<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">了解更多</a></p>
 <p>推出日期： 2026年1月12日</p>
 </td>
 </tr>
