@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 16%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 16%
 <tbody>
 <tr>
 <td>
-<p>Journey Create Agent可讓Journey Optimizer使用者使用<strong>自然語言介面</strong>建置及設定行銷歷程。 從業人員可以在對話式提示中描述其需求，簡化歷程建立，並允許行銷人員專注於策略而非技術設定，藉此快速建立歷程。</p>
+<p>Journey Agent現在提供建立功能，可讓Journey Optimizer使用者透過<strong>自然語言介面</strong>建置及設定行銷歷程。 從業人員可以在對話式提示中描述其需求，以快速建立歷程。 這會簡化歷程建立流程，讓行銷人員聚焦於策略而非技術設定。</p>
 </td>
 </tr>
 </tbody>
