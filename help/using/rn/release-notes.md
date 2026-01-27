@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
+source-git-commit: 868debfda4791dde687a8db5edd04af79e8f4081
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1734'
 ht-degree: 15%
 
 ---
@@ -145,11 +145,6 @@ ht-degree: 15%
 
 #### 行銷活動
 
-* **使用設定檔時區排程行銷活動** — 行銷活動排程現在可以使用每個設定檔的<strong>時區</strong>，在預期的當地時間傳送訊息。
-
-  **注意**：這項改善僅適用於一組組織（可用性限制）。
-
-
 #### 體驗決策
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至決定專案的功能，這可在透過決定原則的程式碼型體驗行銷活動中使用。
@@ -190,6 +185,14 @@ ht-degree: 15%
 
 下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
+### 改進
+
+* 所有SMS提供者將支援&#x200B;**SMS Webhooks** - <strong>Webhooks</strong>。 您將能夠根據預期目的設定每個Webhook：擷取傳入訊息的傳入Webhook和回饋Webhook，以接收傳遞回條、狀態更新和其他訊息相關事件。 推出日期：2026年1月28日。
+
+* **使用設定檔時區排程行銷活動** — 行銷活動排程將能夠使用每個設定檔的<strong>時區</strong>，在預期的當地時間傳送訊息。 **注意**：此改善功能僅適用於一組組織（可用性限制）。 推出日期：2026年1月28日。
+
+### 功能
+
 <table>
 <thead>
 <tr>
@@ -207,22 +210,6 @@ ht-degree: 15%
 </ul>
 <p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
 <p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
-<p>推出日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS Webhook</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>所有SMS提供者將支援<strong>Webhook</strong>。 您將能夠根據預期目的設定每個Webhook：擷取傳入訊息的傳入Webhook和回饋Webhook，以接收傳遞回條、狀態更新和其他訊息相關事件。</p>
 <p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
