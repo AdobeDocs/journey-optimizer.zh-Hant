@@ -5,10 +5,10 @@ title: 使用儲存客群活動
 description: 瞭解如何在協調的行銷活動中使用「儲存對象」活動
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 23%
+source-wordcount: '555'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 **[!UICONTROL 儲存對象]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，用來根據先前在協調的行銷活動中產生的母體來建立新對象或更新現有對象。 儲存後，對象會新增至應用程式對象清單，並可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取。
 
 它常用於擷取在相同行銷活動工作流程中建立的對象區段，以便在未來的行銷活動中重複使用。 通常會連線到其他目標定位活動，例如&#x200B;**[!UICONTROL 建立對象]**&#x200B;或&#x200B;**[!UICONTROL 合併]**，以儲存最終目標定位母體。
-請注意，使用&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動時，您無法更新現有的對象。 您只能建立新對象，或使用新定義覆寫現有對象。
+請注意，使用**[!UICONTROL 儲存對象]**&#x200B;活動時，您無法更新現有的對象。 您只能建立新對象，或使用新定義覆寫現有對象。
 
 ## 設定儲存客群活動 {#save-audience-configuration}
 
@@ -59,6 +59,9 @@ ht-degree: 23%
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>如果您的對象定義使用以資料使用方式(DULE)標示的Experience Platform結構描述屬性，則儲存的對象會自動繼承這些標籤。 您不需要重新套用這些引數。 [進一步瞭解資料控管](../../action/action-privacy.md)
 
 ## 範例 {#save-audience-example}
 

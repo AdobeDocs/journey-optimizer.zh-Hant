@@ -5,10 +5,10 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 13%
+source-wordcount: '1819'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -28,7 +28,7 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 **了解更多**
 
-* [開始使用協調式行銷活動](gs-orchestrated-campaigns.md)
+* [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)
 * [建立您的第一個協調行銷活動](gs-campaign-creation.md)
 
 +++
@@ -63,7 +63,7 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 **了解更多**
 
-* [開始使用協調式行銷活動](gs-orchestrated-campaigns.md)
+* [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)
 * [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
@@ -77,7 +77,7 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 **了解更多**
 
-* [開始使用協調式行銷活動](gs-orchestrated-campaigns.md)
+* [開始使用協調的行銷活動](gs-orchestrated-campaigns.md)
 * [建立您的第一個歷程](../building-journeys/journey-gs.md)
 * [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
@@ -357,7 +357,7 @@ Yes, follow the best practices below:
 
 +++ 所有篩選器皆必須透過對象定義，還是可以設定某種型別的篩選器？
 
-協調的行銷活動支援預先定義的篩選器：您可以定義並儲存查詢作為篩選器，並將其新增至您的最愛，以便用於進一步的細分任務。
+協調的行銷活動支援預先定義的篩選器：您可以定義查詢並將其儲存為篩選器，將其新增至您的最愛，以及在進一步的細分任務中重複使用。 預先定義的篩選器可包含引數，以便您在使用時輸入值。 [瞭解如何使用預先定義的篩選器](predefined-filters.md)。
 
 **了解更多**
 

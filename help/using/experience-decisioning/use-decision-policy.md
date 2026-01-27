@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 2%
+source-wordcount: '946'
+ht-degree: 1%
 
 ---
 
@@ -83,9 +83,11 @@ ht-degree: 2%
 
 如果您的決定原則包含決定專案（包括片段），您可以在決定原則程式碼中利用這些片段。 [進一步瞭解片段](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->此功能目前僅適用於程式碼型體驗管道和一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>此功能目前僅適用於程式碼型體驗管道。
+>
+>目前只能使用[運算式片段](../personalization/use-expression-fragments.md)。 不支援巢狀片段（參照其他片段的片段）。
 
 例如，假設您想針對多種行動裝置型號顯示不同的內容。 請務必將與這些裝置對應的片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
 

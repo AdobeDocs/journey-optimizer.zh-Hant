@@ -5,10 +5,10 @@ title: 使用規則產生器
 description: 瞭解如何建立協調行銷活動的規則
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 76%
+source-wordcount: '340'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 它也支援條件內預先定義的篩選器，使您可輕鬆調整查詢，同時利用進階運算式和運算子實現全面的客群目標定位和細分策略。
 
-## 存取規則產生器
+## 存取規則產生器 {#access}
 
 您必須在每個需要定義規則以篩選資料的內容中，都能使用規則產生器。
 
@@ -40,3 +40,7 @@ ht-degree: 76%
 * **[!UICONTROL 規則屬性]**&#x200B;窗格會提供有關您規則的資訊。它可讓您執行各種作業來檢查規則，並確保它符合您的需求。
 
   建立查詢以建立客群時，會顯示此窗格。[了解如何檢查及驗證您的查詢](build-query.md#check-and-validate-your-query)
+
+## 使用預先定義的篩選器
+
+預先定義的篩選器可讓您重複使用規則產生器中儲存的查詢，包括含有引數的版本。 如需儲存、套用及管理預先定義篩選器的完整逐步解說，請參閱[使用預先定義篩選器](predefined-filters.md)。

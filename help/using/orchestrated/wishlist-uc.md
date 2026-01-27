@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 傳送願望清單專案更新
-description: 傳送願望清單專案更新
+title: 傳送願望清單項目更新
+description: 傳送願望清單項目更新
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# 傳送願望清單專案更新 {#wishist-uc}
+# 傳送願望清單項目更新 {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * **產品**：包含欄位： `description`、`priceref`、`imageurl`
 * **放棄的購物車** （選擇性）：包含欄位： `lastmodified`
 
-➡️ [瞭解如何設定以模型為基礎的結構描述](gs-schemas.md)
+➡️ [瞭解如何設定關聯式結構描述](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
    ![](assets/uc-reengagement-2.png){zoomable="yes"}
 
-1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]&#x200B;**&#x200B;**&#x200B;來設定對象。
+1. 設定此對象的描述性&#x200B;**[!UICONTROL 標籤]**，並選擇&#x200B;**[!UICONTROL 收件者]**&#x200B;作為&#x200B;**[!UICONTROL 目標維度]**。 然後按一下[繼續]****&#x200B;來設定對象。
 
 1. 按一下&#x200B;**[!UICONTROL 新增條件]**，建立下列條件以精簡您的對象：
 

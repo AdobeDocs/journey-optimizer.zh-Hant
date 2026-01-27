@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 57%
+source-wordcount: '1431'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-[!DNL Adobe Journey Optimizer]可讓您跨頻道，透過電子郵件、簡訊和推播通知，自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
+[!DNL Adobe Journey Optimizer]可讓您跨頻道自動執行行銷活動：電子郵件、簡訊和推播通知。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
 例如：
 
@@ -92,17 +92,7 @@ UNUSED IDs in BJ
 
 1. **套用上限規則**
 
-   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [學習如何使用規則集](../../conflict-prioritization/rule-sets.md)
-
-1. **追蹤參與** （電子郵件和簡訊）
-
-   使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
-
-1. **啟用快速傳遞模式** （推播）
-
-   快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[啟用推播通知](../../push/create-push.md#rapid-delivery)的快速傳遞模式。
-
-   如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [瞭解如何使用規則集](../../conflict-prioritization/rule-sets.md)。
 
 1. **建立內容實驗**
 
@@ -114,9 +104,28 @@ UNUSED IDs in BJ
 
    ![影像會顯示內容實驗區段](../assets/channel-experiment.png)
 
+根據所選的通訊通道，有其他設定可供使用。 請展開下列各節以取得詳細資訊。
+
++++**追蹤參與** （電子郵件和簡訊）。
+
+使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**啟用快速傳遞模式** （推播）。
+
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[啟用推播通知](../../push/create-push.md#rapid-delivery)的快速傳遞模式。
+
+如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+
++++
+
 當設定好頻道活動後，請選取 **[!UICONTROL [內容]]** 索引標籤，即可定義內容。
 
 ## 定義內容 {#content}
+
+
+### 建立訊息內容
 
 切換至 **[!UICONTROL [內容]]** 索引標籤，以便建立訊息。 流程步驟因所選管道而異。 若要瞭解建立訊息內容之詳細步驟，請前往以下頁面：
 
@@ -126,9 +135,9 @@ UNUSED IDs in BJ
 <td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td>
 </tr></table>
 
-## 新增個人化
+### 新增個人化
 
-協調行銷活動中的Personalization的運作方式與其他&#x200B;**[!UICONTROL Journey Optimizer]**&#x200B;行銷活動或歷程類似。 不過，還是有一些協調畫布特有的關鍵差異。
+協調行銷活動中的Personalization的運作方式與其他[!DNL Journey Optimizer]行銷活動或歷程類似，但有幾個主要差異是特定於協調畫布。
 
 當您從協調的行銷活動存取個人化編輯器時，有兩個主要資料夾包含可用於個人化的屬性，如下所述。
 
@@ -146,15 +155,50 @@ UNUSED IDs in BJ
 
 如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)。
 
-## 檢查並測試您的內容
+### 檢查並測試您的內容
 
 一旦建立內容完畢，就請使用 **[!UICONTROL [模擬內容]]** 按鈕，以從 CSV / JSON 檔案上傳，或可透過手動新增的測試設定檔，或是範例輸入資料，預覽並測試內容。 [了解更多](../../content-management/preview-test.md)
 
 ![顯示 [模擬內容] 按鈕的影像](../assets/channel-simulate.png)
 
+## 確認訊息傳送
+
+根據預設，對於非週期性協調的行銷活動，訊息傳送會暫停，直到您明確核准傳送為止。 發佈行銷活動後，從管道活動的屬性窗格確認傳送請求。
+
+顯示[確認]按鈕的![影像](../assets/confirm-sending.png)
+
+您可以在發佈協調的行銷活動之前停用傳送確認。 若要這麼做，請在畫布中選取頻道活動以顯示其屬性，然後開啟&#x200B;**[!UICONTROL 傳送而不確認]**。
+
+![影像顯示傳送但不含確認按鈕](../assets/send-without-confirmation.png)
+
+## 設定速率控制 {#rate-control}
+
+[!DNL Journey Optimizer]可讓您在協調的行銷活動中啟用傳出動作的速率控制。
+
+此功能對於防止下游系統（例如登陸頁面或客戶服務平台）上的超載特別有用。 例如，您可以將速率限制設為每秒165則訊息，以確保穩定傳送，而不會對下游系統造成衝擊。
+
+若要設定費率控制，請執行下列步驟：
+
+1. 在畫布中選取傳出頻道活動，然後依據選取的頻道，按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**&#x200B;或&#x200B;**[!UICONTROL 編輯推播]**。
+
+   ![影像顯示擁有電子郵件活動的畫布](../assets/channel-edit.png)
+
+1. 導覽至&#x200B;**[!UICONTROL 排程]**&#x200B;標籤，並在&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;區段中啟用&#x200B;**[!UICONTROL 節流傳遞]**&#x200B;選項。
+
+   ![速率控制設定包含每秒節流傳遞選項和傳遞速率](../assets/rate-control.png)
+
+1. 指定所需的&#x200B;**[!UICONTROL 傳送速率]**/秒。
+
+   * 支援的最低傳送率：每秒1個。
+   * 支援的最大傳遞率：啟用「節流傳遞」選項時為每秒2000。
+
+>[!IMPORTANT]
+>
+>設定傳送率時，行銷活動對象可執行的時間範圍上限為12小時。 如果傳送率設為不允許在12小時時間範圍內傳送訊息給所有對象的值，則剩餘的設定檔會從行銷活動中排除。 您可以在行銷活動報告中檢視這些排除的設定檔計數。
+
 ## 後續步驟 {#next}
 
-當訊息內容準備就緒時，請使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭號導覽回到您的協調行銷活動。 然後，您就可以在畫布中完成活動協調流程，然後發佈行銷活動，以便開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
+當訊息內容準備就緒時，請使用&#x200B;**[!UICONTROL 上一步]**&#x200B;箭號導覽回到您的協調行銷活動。 然後，您可以在畫布中完成活動協調，並發佈行銷活動以開始傳送訊息。 [瞭解如何開始及監視協調的行銷活動](../start-monitor-campaigns.md)
 
 ![顯示返回按鈕的影像](../assets/channel-back.png)
 

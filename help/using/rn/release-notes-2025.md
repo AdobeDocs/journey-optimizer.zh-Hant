@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 2025 年 10 月發行說明 {#25-10-rn}
 
-### 全新功能 {#oct-25-10-features}
+### 新功能 {#oct-25-10-features}
 
 <table>
 <thead>
@@ -92,7 +92,6 @@ ht-degree: 100%
 <p>勿打擾時間可讓您定義不接收電子郵件、簡訊、推播和 WhatsApp 管道訊息的時間。此功能可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。</p>
 <p>您可以透過規則集套用勿打擾時間，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。</p>
 <p>目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。未來版本將逐步開放所有客戶使用。</p>
-<img src="assets/do-not-localize/quiet-hour.gif">
 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/quiet-hours.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 22 日</p>
 </td>
@@ -329,7 +328,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 改善 {#oct-25-10-improvements}
+### 改進 {#oct-25-10-improvements}
 
 **WhatsApp 管道的執行欄位**
 

@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 11%
+source-wordcount: '677'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)
+>若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些原則在複雜性上可能有所不同。 它們只需要要求所有行銷活動由特定使用者或團隊檢閱，或根據行銷活動的建立者建立條件。
 
@@ -51,11 +51,9 @@ ht-degree: 11%
 
 1. 選取原則將套用至&#x200B;**[!UICONTROL 歷程]**&#x200B;或&#x200B;**[!UICONTROL 行銷活動]**。
 
-<!--
-1. Enable the **[!UICONTROL Block self-approval]** to prevent Journey/Campaign creators from approving their own objects.
+1. 啟用&#x200B;**[!UICONTROL 區塊自行核准]**，以防止歷程/行銷活動建立者核准自己的物件。
 
-    ![](assets/policy_create_2.png)
--->
+   ![](assets/policy_create_2.png)
 
 您現在可以調整條件，以指定誰可以起始核准要求，以及誰可以驗證核准要求。
 
@@ -154,7 +152,7 @@ ht-degree: 11%
 
 1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[]** And **或[]** Or **以指定連線條件的方式。]**
 
-1. 完成原則設定後，請按一下[儲存]。**&#x200B;**
+1. 完成原則設定後，請按一下[儲存]。****
 
 您現在可以啟用核准原則以套用它。
 
@@ -164,7 +162,7 @@ ht-degree: 11%
 
 1. 存取您的&#x200B;**[!UICONTROL 核准原則]**。
 
-1. 然後，按一下[啟動]&#x200B;**&#x200B;**，將設定的條件套用至您的環境。
+1. 然後，按一下[啟動]****，將設定的條件套用至您的環境。
 
    >[!NOTE]
    >

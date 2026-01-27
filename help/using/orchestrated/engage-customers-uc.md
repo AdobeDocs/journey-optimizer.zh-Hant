@@ -5,10 +5,10 @@ title: 透過瀏覽活動與客戶互動
 description: 透過瀏覽活動與客戶互動
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **此使用案例所需的結構描述：**
 
 * **收件者**：用作目標維度，欄位為： `email`，`churnprop`
 * **願望清單**：包含欄位： `description`、`priceref`、`imageurl`
 
-➡️ [瞭解如何設定以模型為基礎的結構描述](gs-schemas.md)
+➡️ [瞭解如何設定關聯式結構描述](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
