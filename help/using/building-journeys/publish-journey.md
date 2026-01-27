@@ -10,16 +10,20 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 36%
+source-wordcount: '725'
+ht-degree: 34%
 
 ---
 
 # 發佈您的歷程 {#publishing-the-journey}
 
 您必須發佈歷程以將其啟動，並讓新設定檔可以進入歷程。 發佈歷程之前，請確認其有效且沒有錯誤。 您無法發佈含有錯誤的歷程。
+
+>[!NOTE]
+>
+>當您儲存或發佈歷程時，Journey Optimizer會驗證歷程裝載總大小，如果您接近或超過限制，可能會警告或封鎖發佈。 深入瞭解[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -90,4 +94,4 @@ ht-degree: 36%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
