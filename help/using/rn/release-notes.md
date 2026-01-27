@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1707'
 ht-degree: 16%
 
 ---
@@ -111,28 +111,6 @@ ht-degree: 16%
 <td>
 <p>您現在可以將<strong>決定原則</strong>新增至SMS歷程與行銷活動。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，傳送給每個對象成員。</p>
 <p>此功能適用於一組組織的「有限可用性」中。 請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>訊息匯出</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
-<ul>
-<li>符合法規合規性要求（例如HIPAA）</li>
-<li>封存法律索償和客戶服務查詢的訊息</li>
-<li>保留傳送給個人的個人化內容復本</li>
-</ul>
-<p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
-<p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ ht-degree: 16%
 <td>
 <p>您現在可以使用<strong>決策</strong>個人化並最佳化推送訊息的內容。 使用<strong>優先順序分數</strong>、公式或AI模型來向客戶顯示最佳內容。</p>
 <p>推出日期： 2026年2月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>訊息匯出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
+<ul>
+<li>符合法規合規性要求（例如HIPAA）</li>
+<li>封存法律索償和客戶服務查詢的訊息</li>
+<li>保留傳送給個人的個人化內容復本</li>
+</ul>
+<p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
+<p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
