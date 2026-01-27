@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
+source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 16%
+source-wordcount: '1726'
+ht-degree: 15%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 ## 2026年1月發行前注意事項 {#latest-rn}
 
-**發行日期**： 2026年1月27日
+**發行日期**： 2026年1月27至28日
 
 **至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
 
@@ -48,22 +48,6 @@ ht-degree: 16%
 <td>
 <p>無訊息小時可讓您定義電子郵件、簡訊、推播和WhatsApp頻道的<strong>時間型排除</strong>。 它們可確保在特定期間不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。 您可以透過<strong>規則集</strong>套用無訊息時數，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。</p>
 <p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。 透過此「一般可用性」版本，功能現在包括讓客戶將行銷活動動作排入佇列直至完成「無訊息時數」的能力，以及預覽啟用「無訊息時數」規則的能力。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>網頁推播通知頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer現在支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您可以將通知傳送至行動版和案頭版瀏覽器，讓您無需應用程式即可直接透過裝置聯絡客戶。 此增強功能可協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
-<p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
 </td>
 </tr>
 </tbody>
@@ -119,27 +103,6 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>自助移轉工具API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>移轉工具API</strong>現在可用於以程式設計方式將決定管理實體移轉到Decisioning，功能：</p>
-<ul>
-<li>彈性的移轉範圍（沙箱、選件或決定層級）</li>
-<li>自動化相依性分析和驗證</li>
-<li>已完成移轉的復原支援</li>
-<li>包含物件對應的詳細移轉報表</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>自訂動作監視</strong><br/></th>
 </tr>
 </thead>
@@ -176,11 +139,9 @@ ht-degree: 16%
 
 * **AI Assistant內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體<strong>內容品質</strong>，以找出可讀性、連貫性和有效性的潛在問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。
 
-* **使用新的顏色標籤更新品牌** — 品牌指引可協助確保在所有接觸點上以一致的方式呈現您的品牌。 新的<strong>色彩區段</strong>定義了您品牌色彩系統的標準，概述如何跨體驗選擇、組織和套用色彩。 它可確保主色、次色、輔色和中性色的一致使用，以支援有凝聚力、可存取且可辨識的品牌識別。
+* **使用新的顏色標籤更新品牌** — 品牌指引有助於確保您的品牌在所有接觸點上呈現一致。 新的<strong>色彩區段</strong>定義了您品牌色彩系統的標準，概述如何跨體驗選擇、組織和套用色彩。 它可確保主色、次色、輔色和中性色的一致使用，以支援有凝聚力、可存取且可辨識的品牌識別。
 
 #### 管道
-
-* 所有SMS提供者現在都支援&#x200B;**SMS網頁鉤點** - <strong>網頁鉤點</strong>。 您可以根據每個預期目的來設定每個Web鉤點：擷取傳入訊息的傳入Web鉤點，以及接收傳遞回條、狀態更新和其他訊息相關事件的回饋Web鉤點。
 
 #### 行銷活動
 
@@ -232,45 +193,13 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
-<th><strong>在Journey Agent中產生內容</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在可以在Journey Agent中直接產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整音調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-<p>推出日期：2026年2月2日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>推播頻道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>決策</strong>個人化並最佳化推送訊息的內容。 使用<strong>優先順序分數</strong>、公式或AI模型來向客戶顯示最佳內容。</p>
-<p>推出日期： 2026年2月3日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>訊息匯出</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
+<p>電子郵件和簡訊通道將可使用新的<strong>訊息匯出</strong>功能。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
 <ul>
 <li>符合法規合規性要求（例如HIPAA）</li>
 <li>封存法律索償和客戶服務查詢的訊息</li>
@@ -287,13 +216,100 @@ ht-degree: 16%
 <table>
 <thead>
 <tr>
+<th><strong>SMS Webhook</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>所有SMS提供者將支援<strong>Webhook</strong>。 您將能夠根據預期目的設定每個Webhook：擷取傳入訊息的傳入Webhook和回饋Webhook，以接收傳遞回條、狀態更新和其他訊息相關事件。</p>
+<p>推出日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>網頁推播通知頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer將支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您將能夠傳送通知給行動版和案頭版瀏覽器，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能將協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
+<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
+<p>推出日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自助移轉工具API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>移轉工具API</strong>將可用於以程式設計方式將決定管理實體移轉到Decisioning，其功能：</p>
+<ul>
+<li>彈性的移轉範圍（沙箱、選件或決定層級）</li>
+<li>自動化相依性分析和驗證</li>
+<li>已完成移轉的復原支援</li>
+<li>包含物件對應的詳細移轉報表</li>
+</ul>
+<p>推出日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在Journey Agent中產生內容</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>將在Journey Optimizer中提供，並可讓您透過自然語言介面分析歷程。 您將能夠直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整音調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
+<p>推出日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>推播頻道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您可以使用<strong>決策</strong>個人化並最佳化推送訊息的內容。 使用<strong>優先順序分數</strong>、公式或AI模型來向客戶顯示最佳內容。</p>
+<p>推出日期： 2026年2月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>內容決活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程畫布現在提供新的<strong>內容決定活動</strong>，可將個人化優惠直接整合至您的客戶歷程。 此活動可讓您在整個歷程中、在建立資格型分支的條件、在用於將優惠資料傳遞至外部系統的自訂動作中，以及在建立完全個人化客戶體驗的其他活動中，提供決策型內容並參考這些優惠方案。</p>
+<p>歷程畫布中將提供新的<strong>內容決定活動</strong>，用於將個人化優惠直接整合到您的客戶歷程中。 此活動可讓您在整個歷程中、在建立資格型分支的條件、在用於將優惠資料傳遞至外部系統的自訂動作中，以及在建立完全個人化客戶體驗的其他活動中，提供決策型內容並參考這些優惠方案。</p>
 <p>此功能將適用於所有環境（一般可用性）。</p>
 <p>推出日期： 2026年2月3日</p>
 </td>
