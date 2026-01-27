@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 5%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 建立自訂動作。 請參見[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 在&#x200B;**回應**&#x200B;欄位內按一下。
+1. 在&#x200B;**回應** （成功回應）欄位內按一下。
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。
 
+1. （選用）啟用錯誤回應裝載，以擷取呼叫失敗時傳回的格式，然後貼上範例裝載。 若要這麼做，請在自訂動作設定中選取&#x200B;**定義失敗回應承載**。 深入瞭解[設定自訂動作](../action/about-custom-action-configuration.md)中的設定裝載欄位。
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   錯誤回應裝載只有在您於自訂動作設定中啟用時才能使用。
+
 1. 我們也將customerID新增為查詢引數。
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## 在歷程中善用回應 {#response-in-journey}
 
 只需將自訂動作新增至歷程即可。 然後，您可以在條件、其他動作和訊息個人化中運用回應裝載欄位。
+
+如果您已定義錯誤回應承載，則會在&#x200B;**內容屬性** > **Journey Orchestration** > **動作** > `<action name>` > **errorResponse**&#x200B;底下公開它。 您可以在逾時和錯誤分支中使用它來驅動遞補邏輯和錯誤處理。
 
 例如，您可以新增條件以檢查熟客點數。 當人員進入餐廳時，您的本機端點會傳送包含設定檔忠誠度資訊的呼叫。 如果設定檔為黃金客戶，則可傳送推播。 如果在呼叫中偵測到錯誤，請傳送自訂動作以通知您的系統管理員。
 
@@ -143,11 +155,17 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   如果已定義錯誤回應裝載，您也可定位其欄位，例如：
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
    ```
 
    ![](assets/action-response7.png)
@@ -158,7 +176,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## 測試模式記錄 {#test-mode-logs}
 
-您可以透過測試模式存取與自訂動作回應相關的狀態記錄。 如果您已在歷程中定義具有回應的自訂動作，您將會在這些記錄上看到&#x200B;**actionsHistory**&#x200B;區段，其中顯示外部端點傳回的裝載（作為該自訂動作的回應）。 這在偵錯方面可能非常有用。
+您可以透過測試模式存取與自訂動作回應相關的狀態記錄。 如果您已在歷程中定義具有回應的自訂動作，您將會在這些記錄上看到&#x200B;**actionsHistory**&#x200B;區段，其中顯示外部端點傳回的裝載（作為該自訂動作的回應）。 定義錯誤回應裝載時，系統會將其納入失敗的呼叫。 這在偵錯方面可能非常有用。
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 * 內部錯誤： **內部錯誤**
 
 當傳回的http程式碼大於2xx或發生錯誤時，會將動作呼叫視為錯誤。 在這種情況下，歷程會流向專用逾時或錯誤分支。
+
+如果已為自訂動作設定錯誤回應裝載，則失敗呼叫的&#x200B;**errorResponse**&#x200B;節點會公開其欄位。 如果未設定錯誤回應裝載，則無法使用該節點。
 
 >[!WARNING]
 >

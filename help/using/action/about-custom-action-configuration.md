@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 13%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->每分鐘300,000次呼叫的上限被強製為每個沙箱的&#x200B;**滑動視窗**，以及回應時間少於0.75秒的端點的每個端點。 滑動視窗可在任何毫秒開始，這表示即使速率在對齊時鐘分鐘時低於300k/分鐘，也可能發生上限錯誤。 對於回應時間超過0.75秒的端點，每30秒150,000次呼叫的個別限制（也是滑動視窗）適用。 在[此頁面](../configuration/external-systems.md#response-time)上進一步瞭解慢速端點。
+>每分鐘300,000次呼叫的上限被強製為每個沙箱的&#x200B;**滑動視窗**，以及回應時間少於0.75秒的端點的每個端點。 滑動視窗可在任何毫秒開始，這表示即使速率在對齊時鐘分鐘時低於300k/分鐘，也可能發生上限錯誤。 對於回應時間超過 0.75 秒的端點，適用另外的每 30 秒 150,000 次呼叫的限制 (也是滑動視窗)。在[此頁面](../configuration/external-systems.md#response-time)上進一步瞭解慢速端點。
 
 預設每分鐘300,000次呼叫限制會套用至網域層級(即example.com)。 如果您需要更高的限制，請向Adobe支援查詢使用證據，並確認您端點的輸送量。 若要請求提高上限，請提供您預期呼叫數量和端點容量的詳細資料。 如果容量測試顯示端點可以處理更高的輸送量，Adobe可能會自訂上限。 如需最佳實務，請考慮重新調整歷程或實作等待活動，以錯開傳出呼叫並避免錯誤上限。
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
+1. 在&#x200B;**[!UICONTROL 回應]**&#x200B;區段中，貼上呼叫成功時傳回之裝載的範例。 此欄位是選用欄位，可用於所有呼叫方法。 如需如何在自訂動作中運用API呼叫回應的詳細資訊，請參閱[此頁面](../action/action-response.md)。
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. （選擇性）選取&#x200B;**[!UICONTROL 定義失敗回應承載]**&#x200B;以啟用錯誤回應承載欄位。 啟用後，請使用&#x200B;**[!UICONTROL 錯誤回應]**&#x200B;區段貼上呼叫失敗時傳回之裝載的範例。 與回應裝載（欄位型別和格式）的需求相同。 在[此處](../action/action-response.md)瞭解如何在歷程中運用失敗回應裝載。
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 ![](assets/customactionpayloadmessage2.png)
 
-在欄位設定中，您必須：
+在這些欄位設定中，您必須：
 
 * 選取引數型別，例如：字串、整數等。
 
