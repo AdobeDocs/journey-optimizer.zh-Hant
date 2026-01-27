@@ -155,7 +155,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
