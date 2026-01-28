@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 7%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -206,7 +206,11 @@ ht-degree: 7%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
+
+>[!IMPORTANT]
+>
+>建立決定原則後，對其所做的任何變更最多可能需要15分鐘才能傳播到所有資料區域，而加拿大最多可能需要30分鐘。 這包括變更，例如將新的決定專案新增至集合、變更專案中的規則、變更專案內容或更新公式。
 
 您可以隨時使用個人化編輯器中的省略符號按鈕，或元件屬性窗格中的&#x200B;**[!UICONTROL 決策]**&#x200B;選單來編輯或刪除決定原則。
 
