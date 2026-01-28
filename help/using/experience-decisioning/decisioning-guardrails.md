@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '272'
 ht-degree: 16%
 
 ---
@@ -26,6 +26,15 @@ ht-degree: 16%
 | 使用Edge細分的具有決策原則的程式碼型體驗API請求 | 1500 |
 | 具有不使用Edge細分之決策原則的程式碼型體驗API請求 | 5000 |
 | 每個Edge決策請求的最大表面URI數量 | 30 |
+
+## 決定項目 {#decision-items}
+
+| 護欄 | 限制 |
+| ------- | ------- |
+| 決定專案總數 | 10K |
+| 包含屬性的專案大小上限(1KB)，最多30個屬性 | 1KB |
+| 專案表示大小上限（所有版位的總計） | 1KB |
+| 頻率規則 — 每個選件的上限規則數量上限 | 10 |
 
 ## 專案集合 {#item-collections}
 
@@ -65,10 +74,8 @@ ht-degree: 16%
 | 護欄 | 限制 |
 | ------- | ------- |
 | 每個優惠方案目錄結構描述的自訂屬性數量 | 100 |
-| 選件專案總數 | 10K |
 | 總版位 | 1K |
 | AI排名模型 | 5 |
-| 頻率規則 — 每個選件的上限規則數量上限 | 10 |
 
 ## 設定 {#configurations}
 
