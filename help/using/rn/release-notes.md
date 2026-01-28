@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: d819b559e335ed743e1835edb170bca6e6653a4d
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 13%
+source-wordcount: '1863'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -110,24 +110,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>網頁推播通知頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer將支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您將能夠傳送通知給行動版和案頭版瀏覽器，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能將協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
-<p>如需詳細資訊，請參閱<a href="../push/push-configuration-web.md">詳細文件</a>。</p>
-<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
-<p>推出日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 改進 {#jan-26-01-improv}
 
 #### 體驗決策
@@ -166,10 +148,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **防止自我核准歷程和行銷活動** — 新增在建立或設定核准原則時防止歷程或行銷活動建立者核准其自己的物件的選項。 [閱讀全文](../test-approve/approval-policies.md)
 
-#### AI 助理
-
-* **AI Assistant內容品質檢查** — 除了品牌一致性之外，您還能評估整體<strong>內容品質</strong>，以找出可讀性、連貫性和有效性的潛在問題，不受品牌准則影響。 這些自動檢查將有助於識別不清楚的訊息、不一致的語調或結構性缺口。 推出日期：2026年1月28日。
-
 ## 即將推出 {#jan-26-01-coming-soon}
 
 下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
@@ -193,6 +171,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
 <p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>網頁推播通知頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer將支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您將能夠傳送通知給行動版和案頭版瀏覽器，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能將協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
+<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
 <p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
@@ -338,6 +333,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 改進
+
+* **AI Assistant內容品質檢查** — 除了品牌一致性之外，您還能評估整體<strong>內容品質</strong>，以找出可讀性、連貫性和有效性的潛在問題，不受品牌准則影響。 這些自動檢查將有助於識別不清楚的訊息、不一致的語調或結構性缺口。 推出日期：2026年1月28日。
+
+* **使用新的顏色標籤更新品牌** — 品牌指引可協助確保您的品牌在所有接觸點上呈現一致。 新的<strong>色彩區段</strong>將定義您品牌色彩系統的標準，概述如何在體驗間選擇、組織和套用色彩。 它將確保一致地使用主要、次要、輔色和中性顏色，以支援有凝聚力、可存取和可辨識的品牌識別。 推出日期：2026年1月28日。
 
 * 所有SMS提供者將支援&#x200B;**SMS Webhooks** - <strong>Webhooks</strong>。 您將能夠根據預期目的設定每個Webhook：擷取傳入訊息的傳入Webhook和回饋Webhook，以接收傳遞回條、狀態更新和其他訊息相關事件。 推出日期：2026年1月28日。
 
