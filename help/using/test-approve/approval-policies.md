@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)
+>若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些原則在複雜性上可能有所不同。 它們只需要要求所有行銷活動由特定使用者或團隊檢閱，或根據行銷活動的建立者建立條件。
 
@@ -38,6 +38,11 @@ ht-degree: 10%
 >id="ajo_permissions_approval_policy"
 >title="全新核准原則"
 >abstract="在此畫面中，輸入名稱並選取核准原則的情境，接著建置條件以確定誰可以發起核准要求、誰可以進行驗證。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="封鎖自行核准"
+>abstract="啟用此選項可防止使用者核准自己的核准請求，即使這些請求屬於已指定為檢閱者的使用者群組或角色亦然。"
 
 若要建立核准政策，請遵循下列步驟：
 
@@ -152,7 +157,7 @@ ht-degree: 10%
 
 1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[]** And **或[]** Or **以指定連線條件的方式。]**
 
-1. 完成原則設定後，請按一下[儲存]。**&#x200B;**
+1. 完成原則設定後，請按一下[儲存]。****
 
 您現在可以啟用核准原則以套用它。
 
@@ -162,7 +167,7 @@ ht-degree: 10%
 
 1. 存取您的&#x200B;**[!UICONTROL 核准原則]**。
 
-1. 然後，按一下[啟動]&#x200B;**&#x200B;**，將設定的條件套用至您的環境。
+1. 然後，按一下[啟動]****，將設定的條件套用至您的環境。
 
    >[!NOTE]
    >
