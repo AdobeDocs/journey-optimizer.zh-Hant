@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 ### AI和機器學習功能
 
-* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
+* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
 
 * **提升度測量**：能夠在AI模型中視覺化探索與利用流量。 這讓行銷人員和資料科學家可以量化AI探索如何改善長期模型效能和發現新的成功選件。 流量分配的透明度可建立對AI決策的信任，並讓團隊能夠隨著時間推移最佳化學習和效能。 [了解更多](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道（[程式碼型體驗](../code-based/get-started-code-based.md)及[電子郵件](../email/get-started-email.md)目前可用，其他通道將於2026年下半年推出）。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 
@@ -74,16 +74,16 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 | 使用案例 | 決策管理 | 決策 |
 |----------|---------------------|-------------|
-| **多重放置策略** | 單一策略可同時支援首頁和行動應用程式 | 繫結至特定位置的決定邏輯（例如網頁或電子郵件位置） |
-| **一致的優惠方案屬性** | 行銷人員只會定義一次「discountType」和「offerValue」；每個優惠方案都會自動繼承這些欄位 | 每個選件都會手動管理自己的屬性；沒有結構描述層級的一致性 |
-| **動態AI排名** | 行銷人員可以調整加權（例如60% AI轉換分數+ 40%利潤率），以平衡收入和參與目標 | 排名僅依賴模型輸出或靜態規則 |
-| **A/B測試策略** | 團隊可以A/B測試「AI +商業規則」是否優於「優先順序排名」 | 無內建實驗支援 |
-| **自訂AI量度** | retailer會訓練「購買可能性」模型，並監控新產品與已知產品的提升度 | 僅針對點按傾向進行最佳化；無法顯示模型探索或提升 |
-| **內容可重複使用** | 更新標題或CTA會自動傳播到數百個選件 | 每個選件會獨立儲存完整內容 |
-| **整合式製作** | 行銷人員無需離開訊息編輯器，即可將個人化優惠插入電子郵件 | 決策和傳訊功能在個別的架構中運作，整合有限 |
-| **隱私權規範** | 行銷人員建立優惠規則，知道同意偏好設定會自動排除特定設定檔 | 需要與工程和資料團隊手動協調，才能強制執行 |
-| **即時詳細目錄** | 使用產品詳細目錄資料集來即時隱藏無存貨專案的選件 | 靜態資料；使用外部或內容資料集的靈活性有限 |
-| **縮放效能** | 在100毫秒回應時間下，即時個人化數百萬傳入的請求 | 在具有較高延遲的中心區中進行的決策 |
+| **多重放置策略** | 繫結至特定位置的決定邏輯（例如網頁或電子郵件位置） | 單一策略可同時支援首頁和行動應用程式 |
+| **一致的優惠方案屬性** | 每個選件都會手動管理自己的屬性；沒有結構描述層級的一致性 | 行銷人員只會定義一次「discountType」和「offerValue」；每個優惠方案都會自動繼承這些欄位 |
+| **動態AI排名** | 排名僅依賴模型輸出或靜態規則 | 行銷人員可以調整加權（例如60% AI轉換分數+ 40%利潤率），以平衡收入和參與目標 |
+| **A/B測試策略** | 無內建實驗支援 | 團隊可以A/B測試「AI +商業規則」是否優於「優先順序排名」 |
+| **自訂AI量度** | 僅針對點按傾向進行最佳化；無法顯示模型探索或提升 | retailer會訓練「購買可能性」模型，並監控新產品與已知產品的提升度 |
+| **內容可重複使用** | 每個選件會獨立儲存完整內容 | 更新標題或CTA會自動傳播到數百個選件 |
+| **整合式製作** | 決策和傳訊功能在個別的架構中運作，整合有限 | 行銷人員無需離開訊息編輯器，即可將個人化優惠插入電子郵件 |
+| **隱私權規範** | 需要與工程和資料團隊手動協調，才能強制執行 | 行銷人員建立優惠規則，知道同意偏好設定會自動排除特定設定檔 |
+| **即時詳細目錄** | 靜態資料；使用外部或內容資料集的靈活性有限 | 使用產品詳細目錄資料集來即時隱藏無存貨專案的選件 |
+| **縮放效能** | 在具有較高延遲的中心區中進行的決策 | 在100毫秒回應時間下，即時個人化數百萬傳入的請求 |
 
 ## 移轉工具 {#migration-tooling}
 
