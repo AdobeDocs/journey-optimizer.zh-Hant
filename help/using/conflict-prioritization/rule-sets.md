@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1070'
 ht-degree: 25%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 25%
 
 ### 什麼是規則集？ {#what}
 
-規則集讓您可以&#x200B;**先將許多規則設為群組改成規則集**，再將這些群組套用至選擇的歷程、行銷活動。這提供更明確的精細度，以便限制客戶在特定時段內可以進入的頻率、歷程次數，或可根據通訊類型，控制使用者接收到訊息的頻率。
+規則集讓您可以&#x200B;**先將許多規則設為群組改成規則集**，再將這些群組套用至選擇的歷程、行銷活動。這提供更明確的顆粒度，以便限制客戶在特定時段內可以進入的頻率、歷程次數，或可根據通訊類型，控制使用者接收到訊息的頻率。
 
 您可以建立兩種型別的規則集：
 
@@ -47,7 +47,7 @@ ht-degree: 25%
 * **[!UICONTROL 檢影片率規則]**：存取和檢視商業規則。
 * **[!UICONTROL 管理頻率規則]**：建立、編輯或刪除商業規則。
 
-若要了解更多關於權限的資訊，請參閱[此區段](../administration/high-low-permissions.md)。
+若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
 ### 全域和自訂規則集 {#global-custom}
 
@@ -101,7 +101,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->您可以為每個管道網域和歷程網域建立最多10個作用中本機規則集。
+>您最多可以為管道網域建立10個規則集，並為歷程網域建立10個規則集，總共有20個規則集。
 
 1. 存取&#x200B;**[!UICONTROL 規則集]**&#x200B;清單，然後按一下&#x200B;**[!UICONTROL 建立規則集]**。
 
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
