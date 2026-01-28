@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
+source-git-commit: aa1df60e810cac63af52caaebd8d521c9ad91fb5
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
@@ -183,29 +183,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 下列功能和增強功能已排定在未來幾天發行。**資訊可能會有變更**。這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
 ### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>訊息匯出</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
-<ul>
-<li>符合法規合規性要求（例如HIPAA）</li>
-<li>封存法律索償和客戶服務查詢的訊息</li>
-<li>保留傳送給個人的個人化內容復本</li>
-</ul>
-<p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能已在通道設定層級啟用，可讓您對要匯出的訊息進行<strong>精細控制</strong>。</p>
-<p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
-<p>推出日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -283,6 +260,45 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
+<th><strong>訊息匯出</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>訊息匯出</strong>功能現在可用於電子郵件和簡訊頻道。 此功能可讓您將傳送的訊息內容自動匯出至專用的Experience Platform資料集，讓您能夠：</p>
+<ul>
+<li>符合法規合規性要求（例如HIPAA）</li>
+<li>封存法律索償和客戶服務查詢的訊息</li>
+<li>保留傳送給個人的個人化內容復本</li>
+</ul>
+<p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能已在通道設定層級啟用，可讓您對要匯出的訊息進行<strong>精細控制</strong>。</p>
+<p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
+<p>推出日期：2026年1月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在Journey Agent中產生內容</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中<strong>產生和管理內容</strong>、建立電子郵件和推播之類的管道內容、套用和預覽範本、透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內編輯。</p>
+<p>推出日期：2026年2月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>推播和簡訊通道中的決策支援</strong><br/></th>
 </tr>
 </thead>
@@ -308,22 +324,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>歷程畫布現在提供新的<strong>內容決定活動</strong>，以便將<strong>個人化優惠</strong>直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
 <p>此功能將適用於所有環境（一般可用性）。</p>
 <p>推出日期： 2026年2月3日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>在Journey Agent中產生內容</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中<strong>產生和管理內容</strong>、建立電子郵件和推播之類的管道內容、套用和預覽範本、透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內編輯。</p>
-<p>推出日期：2026年2月2日</p>
 </td>
 </tr>
 </tbody>
