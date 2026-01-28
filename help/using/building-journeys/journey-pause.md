@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 6%
+source-wordcount: '2515'
+ht-degree: 5%
 
 ---
 
@@ -154,6 +154,7 @@ ht-degree: 6%
 ## 護欄與限制 {#journey-pause-guardrails}
 
 * 歷程版本最多可暫停&#x200B;**14天**，整個組織的暫停歷程中最多允許&#x200B;**100萬個設定檔**。
+此限制會計算所有暫停歷程中保留的設定檔總數，而非不同的設定檔。 例如，如果在兩個暫停的歷程中保留相同的5M設定檔，則會達到10M的限制。
 每30分鐘檢查一次此限制。 這表示您可能會暫時超過1000萬的臨界值，但一旦系統偵測到，則會自動捨棄任何其他設定檔。
 
   如果您繼續歷程以將保留的個人檔案數恢復到限制以下，歷程將立即繼續 — 但更新個人檔案計數最多可能需要30分鐘。 在這段期間，系統仍可能將這些設定檔視為已暫停。
@@ -201,7 +202,7 @@ ht-degree: 6%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
