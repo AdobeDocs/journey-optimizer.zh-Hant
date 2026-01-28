@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->直接郵件訊息只能在已排程行銷活動的內容中建立。 其無法在協調式和 API 觸發的行銷活動或歷程中使用。
+>直接郵件訊息只能在已排程和協調行銷活動的內容中建立。 其無法在 API 觸發的行銷活動或歷程中使用。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

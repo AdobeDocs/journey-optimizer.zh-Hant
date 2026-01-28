@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1821'
 ht-degree: 14%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 支援哪些管道？
 
-您可以建立協調的行銷活動，以傳送&#x200B;**電子郵件**、**簡訊**&#x200B;及&#x200B;**推播通知**。
+您可以建立協調的行銷活動，以傳送&#x200B;**電子郵件**、**簡訊**、**推播通知**&#x200B;及&#x200B;**直接郵件**。
 
 **了解更多**
 

@@ -6,9 +6,9 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="協調的行銷活動概觀"
->abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>利用多實體資料</b><br/>了解協調行銷活動如何利用關聯式資料集來擴充資料，以進行細分和個人化<br/><br/><b>臨時細分和精準計數</b><br/>利用精準計數逐步建置您的區段<br/><br/><b>可用頻道</b><br/>電子郵件、簡訊、推播通知"
+>abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>利用多實體資料</b><br/>了解協調式行銷活動如何利用關聯式資料集來擴充資料，以執行 Segmentation &amp; personalization<br/><br/><b>臨時分段和精準計數</b><br/>利用精準計數逐步建置您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
 
 [!DNL Adobe Journey Optimizer] 中的行銷活動協調可跨頻道支援品牌啟動的複雜行銷活動，協助您大規模提高參與度、收入和客戶忠誠度。
 

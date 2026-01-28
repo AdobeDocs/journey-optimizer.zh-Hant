@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 40%
+source-wordcount: '1448'
+ht-degree: 38%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-[!DNL Adobe Journey Optimizer]可讓您跨頻道自動執行行銷活動：電子郵件、簡訊和推播通知。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
+[!DNL Adobe Journey Optimizer]可讓您跨管道（電子郵件、簡訊、推播通知和直接郵件）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
 例如：
 
-* 透過電子郵件、簡訊和推播等方式，傳送迎賓系列。
+* 透過電子郵件、簡訊、推播和直接郵件傳送歡迎系列。
 * 請在購買後提供後續電子郵件。
 * 透過簡訊，傳送個人化生日問候。
 
@@ -62,7 +62,7 @@ UNUSED IDs in BJ
 
 >[!CAUTION]
 >
->協調的行銷活動僅支援SMS、推播和電子郵件頻道。
+>協調的行銷活動僅支援SMS、推播、電子郵件和直接郵件頻道。
 
 ## 新增頻道活動，定義屬性 {#add}
 
@@ -70,11 +70,11 @@ UNUSED IDs in BJ
 >
 >在新增管道活動之前，請使用[建立對象](build-audience.md)或[讀取對象](read-audience.md)活動來定義目標對象。
 
-1. 請將頻道活動新增至畫布。 可用的頻道活動包括&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**&#x200B;和&#x200B;**[!UICONTROL 推播]**。
+1. 請將頻道活動新增至畫布。 可用的頻道活動包括&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播]**&#x200B;和&#x200B;**[!UICONTROL 直接郵件]**。
 
    ![影像會顯示擁有可用活動的畫布](../assets/channel-add.png)
 
-1. 選取活動，然後按一下 **[!UICONTROL [編輯電子郵件]]**、**[!UICONTROL [編輯簡訊]]** 或 **[!UICONTROL [編輯推播]]**，會視選取的頻道而定。
+1. 選取活動並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**、**[!UICONTROL 編輯推播]**&#x200B;或&#x200B;**[!UICONTROL 編輯直接郵件]** （視選取的頻道而定）。
 
    ![影像顯示擁有電子郵件活動的畫布](../assets/channel-edit.png)
 
@@ -132,7 +132,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>建立簡訊</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td>
 </tr></table>
 
 ### 新增個人化
