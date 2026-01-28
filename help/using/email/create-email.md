@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1075'
 ht-degree: 9%
 
 ---
@@ -163,6 +163,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ## 檢查並傳送您的電子郵件
 
 定義訊息內容後，您就可以使用測試設定檔來預覽、傳送校樣並控制它在熱門案頭、行動裝置和網頁型使用者端中的轉譯。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+
+您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [進一步瞭解內容品質驗證](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

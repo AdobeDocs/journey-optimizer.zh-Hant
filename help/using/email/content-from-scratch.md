@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 50%
+source-wordcount: '743'
+ht-degree: 49%
 
 ---
 
@@ -127,4 +127,6 @@ ht-degree: 50%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [進一步瞭解內容品質驗證](../content-management/brands-score.md#validate-quality)
+
+1. 當您的內容準備就緒時，請按一下[儲存]。****

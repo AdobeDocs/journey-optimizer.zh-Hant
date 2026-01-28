@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 100%
 
    ![](assets/email_designer_export.png)
 
+1. 您也可以驗證內容品質，找出可讀性、內容一致性和有效性方面的潛在問題。 [進一步瞭解內容品質驗證](../content-management/brands-score.md#validate-quality)
+
 ## 電子郵件設計最佳實務 {#best-practices}
 
 傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
@@ -86,4 +88,4 @@ ht-degree: 100%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

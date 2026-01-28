@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -131,6 +131,8 @@ ht-degree: 1%
 * 使用[電子郵件呈現](../content-management/rendering.md)選項，利用Litmus模擬您跨主要電子郵件使用者端(Apple Mail、Gmail、Outlook)的設計，並檢視文字、色彩和影像是否可讓您存取內容。<!--Litmus includes accessibility testing-->
 
 * 傳送校樣以測試內容的轉譯，然後再傳送給真正的對象。 [了解作法](../content-management/proofs.md)
+
+* 驗證您的內容品質，以評估可讀性、內容一致性和整體有效性。 [了解作法](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 

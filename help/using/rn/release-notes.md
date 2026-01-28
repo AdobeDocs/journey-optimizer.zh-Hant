@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 12%
+source-wordcount: '1799'
+ht-degree: 13%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 12%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 權限
 
 * **防止自我核准歷程和行銷活動** — 新增在建立或設定核准原則時防止歷程或行銷活動建立者核准其自己的物件的選項。 [閱讀全文](../test-approve/approval-policies.md)
+
+#### AI 助理
+
+* **AI Assistant內容品質檢查** — 除了品牌一致性之外，您還能評估整體<strong>內容品質</strong>，以找出可讀性、連貫性和有效性的潛在問題，不受品牌准則影響。 這些自動檢查將有助於識別不清楚的訊息、不一致的語調或結構性缺口。 推出日期：2026年1月28日。
 
 ## 即將推出 {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 改進
-
-* **AI Assistant內容品質檢查** — 除了品牌一致性之外，您還能評估整體<strong>內容品質</strong>，以找出可讀性、連貫性和有效性的潛在問題，不受品牌准則影響。 這些自動檢查將有助於識別不清楚的訊息、不一致的語調或結構性缺口。 推出日期：2026年1月28日。
-
-* **使用新的顏色標籤更新品牌** — 品牌指引可協助確保您的品牌在所有接觸點上呈現一致。 新的<strong>色彩區段</strong>將定義您品牌色彩系統的標準，概述如何在體驗間選擇、組織和套用色彩。 它將確保一致地使用主要、次要、輔色和中性顏色，以支援有凝聚力、可存取和可辨識的品牌識別。 推出日期：2026年1月28日。
 
 * 所有SMS提供者將支援&#x200B;**SMS Webhooks** - <strong>Webhooks</strong>。 您將能夠根據預期目的設定每個Webhook：擷取傳入訊息的傳入Webhook和回饋Webhook，以接收傳遞回條、狀態更新和其他訊息相關事件。 推出日期：2026年1月28日。
 
