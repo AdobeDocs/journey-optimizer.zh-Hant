@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3073'
 ht-degree: 98%
 
 ---
@@ -850,6 +850,7 @@ ht-degree: 98%
    + [管道設定](/help/rp_landing_pages/configuration-landing-page.md)
    + [開始使用頻道設定](using/configuration/get-started-configuration.md)
    + [設定管道設定](using/configuration/channel-surfaces.md)
+   + [匯出訊息內容](using/configuration/message-export.md)
    + 引導式管道設定 {#guided-setup}
       + [引導式管道設定](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)

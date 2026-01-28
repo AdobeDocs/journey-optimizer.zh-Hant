@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 匯出，訊息， HIPAA，電子郵件，簡訊，設定
-badge: label="有限可用性" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 8%
+source-wordcount: '695'
+ht-degree: 3%
 
 ---
 
@@ -24,28 +21,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="保留並匯出您已傳送的內容"
->abstract="選取此選項可讓您使用此設定，將已傳送的電子郵件或簡訊訊息內容寫入 [!DNL Experience Platform] 資料集。記錄會自內嵌後保留7個日曆日，在此期間，您可以將記錄匯出至您自己的儲存空間。"
+>abstract="選取此選項可讓您使用此設定將已傳送電子郵件或SMS訊息的內容寫入[!DNL Experience Platform]資料集。 記錄會自內嵌後保留7個日曆日，在此期間，您可以將記錄匯出至您自己的儲存空間。"
 
 >[!AVAILABILITY]
 >
->此功能目前僅適用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-**訊息匯出**&#x200B;可讓您透過[!DNL Journey Optimizer]目的地，將已傳送的電子郵件和簡訊內容從[!DNL Adobe Experience Platform]傳輸到您自己的儲存空間，這些目的地可讓您將資料從[!DNL Experience Platform]傳送到外部端點。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}
+**訊息匯出**&#x200B;可讓您透過[!DNL Journey Optimizer]目的地，將傳送的電子郵件和簡訊內容從[!DNL Adobe Experience Platform]傳輸到您自己的儲存空間，讓您從[!DNL Experience Platform]將資料傳送到外部端點。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}
 
-透過此功能，透過[!DNL Journey Optimizer]傳送且標示為要匯出的電子郵件和簡訊內容會寫入[!DNL Experience Platform] **AJO訊息匯出資料集**。
+透過此功能，透過[!DNL Journey Optimizer]傳送且標示為要匯出的電子郵件和簡訊內容會寫入[!DNL Experience Platform] **AJO訊息匯出資料集**。 [進一步瞭解資料集](../data/get-started-datasets.md)
 
-然後，記錄會保留在&#x200B;**AJO訊息匯出資料集**&#x200B;中，從內嵌到七天之後，您就可以將它們匯出到您選擇的外部系統。
-<!--
-## Terminology
-
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}
-* **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
-* **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
+然後，記錄會保留在資料集中的七天日曆天內，期間您可以將記錄匯出至您選擇的外部系統。
 
 ## 護欄
 
-* 此功能僅支援電子郵件和簡訊頻道。
-* AJO訊息匯出資料集中的記錄會在擷取後保留七天。
+* 此功能僅支援&#x200B;**電子郵件**&#x200B;和&#x200B;**簡訊**&#x200B;頻道。
+* AJO訊息匯出資料集中的記錄從內嵌&#x200B;**起保留**&#x200B;七天之久。
 * 在啟用訊息匯出之前，不支援對已傳送的訊息使用回填，如下所述。
 
 ## 啟用訊息匯出 {#enable-message-export}
@@ -67,9 +58,9 @@ ht-degree: 8%
 >
 >必須針對每個沙箱設定此設定。
 
-1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
+1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
 
-1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用下列資料建立資料集匯出流程：
 
@@ -89,6 +80,31 @@ ht-degree: 8%
 
 1. 儲存您的變更並提交您的頻道設定。
 
-使用此頻道設定而透過行銷活動或歷程傳送的電子郵件和簡訊訊息，會寫入&#x200B;**AJO訊息匯出資料集**。 接著，系統會根據您定義的匯出資料流，將記錄匯出至選取的儲存體目的地。
+一旦您使用此通道設定透過行銷活動或歷程傳送訊息，電子郵件和簡訊訊息就會寫入&#x200B;**AJO訊息匯出資料集**。 然後，您可以[存取資料集中的記錄](#access-exported-data)，並根據您定義的匯出資料流將其匯出到您選取的儲存目的地。
 
-停用&#x200B;**[!UICONTROL 啟用訊息匯出]**&#x200B;切換會停止將此頻道組態的新記錄擷取到資料集中。 現有記錄會一直保留，直到保留到期為止。
+>[!NOTE]
+>
+>停用&#x200B;**[!UICONTROL 啟用訊息匯出]**&#x200B;切換會停止將此頻道組態的新記錄擷取到資料集中。 現有記錄會一直保留，直到保留到期為止。
+
+## 存取匯出的訊息資料 {#access-exported-data}
+
+使用啟用「訊息匯出」的管道設定傳送訊息後，您就可以存取及檢閱&#x200B;**AJO訊息匯出資料集**&#x200B;中的匯出資料。
+
+若要檢視匯出的訊息資料，請執行下列動作：
+
+1. 在[!DNL Journey Optimizer]中，在左側導覽中導覽至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]**。 [進一步瞭解資料集](../data/get-started-datasets.md)
+
+1. 請務必顯示系統產生的資料集。
+
+1. 從清單中選取&#x200B;**AJO訊息匯出資料集**。
+
+   ![](assets/datasets-list.png)
+
+1. 在資料集詳細資訊頁面上，按一下&#x200B;**[!UICONTROL 預覽資料集]**&#x200B;以檢視最近的記錄。
+
+   ![](assets/ajo-message-export-dataset.png)
+
+此資料集包含透過啟用「訊息匯出」的通道設定所傳送之每封訊息的完整資訊，包括：主旨列、訊息本文、收件者電子郵件地址或電話號碼、寄件者地址或電話號碼、傳送的日期和時間、個人化資料等。
+
+資料集中的所有記錄會保留&#x200B;**從內嵌**&#x200B;起的7個行事曆日。 在此保留期間，您可以存取資料以進行合規性稽核、法律查詢，或透過已設定的Experience Platform目的地將其匯出至您自己的儲存系統。
+
