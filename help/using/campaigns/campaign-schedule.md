@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: e6aa361229f068c475732c715160b7c644189e51
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 10%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 
@@ -23,15 +23,46 @@ ht-degree: 10%
 
 ## 設定行銷活動開始日期
 
-依預設，動作行銷活動在手動啟動後開始，並在訊息傳送後立即結束。
+依預設，動作行銷活動在手動啟動後開始，並在訊息傳送後立即結束。 如果您不想在行銷活動啟動後立即執行，您可以在&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;區段中指定傳送訊息的日期和時間。
 
-如果您不想在行銷活動啟動後立即執行，您可以在&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;區段中指定傳送訊息的日期和時間。
+在 [!DNL Adobe Journey Optimizer] 中排程行銷活動時，請確定您的開始日期/時間與所要的首次傳遞一致。對於定期行銷活動，如果初始排程時間已過，行銷活動將根據其週期規則滾動至下一個可用時段。
 
 ![](assets/campaign-start.png)
 
->[!NOTE]
+## 在收件者的當地時間傳送 {#profile-timezone}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_profile_timezone"
+>title="使用設定檔時區"
+>abstract="根據每位收件者的設定檔時區傳送訊息。 所有收件者都會於當地時間收到訊息，無論其地理位置為何。 系統會使用Adobe Experience Platform設定檔中的「時區」欄位，將行銷活動建立者的時區設為遞補。"
+
+為特定日期和時間排程行銷活動時，您可以選擇根據每個收件者的設定檔時區傳送訊息。 這可確保所有收件者（不論其地理位置為何）都能在當地時間收到訊息。
+
+例如，如果您排程促銷活動使用設定檔時區在早上9點傳送，紐約州(ET)的收件者會在早上9點收到訊息，洛杉磯州(PT)的收件者則會在早上9點收到訊息。
+
+>[!AVAILABILITY]
 >
->在 [!DNL Adobe Journey Optimizer] 中排程行銷活動時，請確定您的開始日期/時間與所要的首次傳遞一致。對於定期行銷活動，如果初始排程時間已過，行銷活動將根據其週期規則滾動至下一個可用時段。
+>此功能處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。
+>
+>使用設定檔時區排程僅適用於以下傳出頻道：電子郵件、推播、簡訊、WhatsApp和LINE。
+
+若要啟用設定檔時區排程：
+
+1. 在&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;區段中，指定傳送訊息的日期和時間。
+
+1. 啟用&#x200B;**[!UICONTROL 使用設定檔時區]**&#x200B;選項。
+
+   ![](assets/campaign-profile-timezone.png)
+
+**運作方式：**
+
+系統會使用每個收件者Adobe Experience Platform設定檔的`profile.timeZone`欄位來決定其當地時區。 如果設定檔沒有時區值，則系統會使用行銷活動建立時的時區作為遞補。
+
+跨所有時區傳遞訊息時，行銷活動仍維持在&#x200B;**即時**&#x200B;狀態。 處理完所有時區後，行銷活動狀態會變更為&#x200B;**已完成**。
+
+**支援的時區識別碼：**
+
+Journey Optimizer會根據標準IANA時區識別碼驗證`profile.timeZone`值。 識別碼區分大小寫，且必須符合官方IANA命名。 由於日光節約規則和歷史更新，位移可能會隨著時間變更。 如需識別碼的正式清單，請參閱[IANA時區資料庫](https://www.iana.org/time-zones){_blank}。
 
 ## 設定執行頻率
 
