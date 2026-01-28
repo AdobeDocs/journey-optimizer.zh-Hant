@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1807'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 13%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -110,6 +110,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>網頁推播通知頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer將支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您將能夠傳送通知給行動版和案頭版瀏覽器，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能將協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
+<p>如需詳細資訊，請參閱<a href="../push/push-configuration-web.md">詳細文件</a>。</p>
+<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
+<p>推出日期： 2026年1月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改進 {#jan-26-01-improv}
 
 #### 體驗決策
@@ -175,23 +193,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>記錄會保留在AJO訊息匯出資料集中7天之久，從內嵌開始算起。 在此保留期間，您可以透過Experience Platform目的地將資料匯出至您自己的儲存空間。 此功能會在通道設定層級啟用，讓您精確控制要匯出哪些訊息。</p>
 <p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
-<p>推出日期： 2026年1月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>網頁推播通知頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer將支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您將能夠傳送通知給行動版和案頭版瀏覽器，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能將協助您即時吸引使用者使用即時的個人化訊息，運用行動推播的現有相同製作工作流程和目標定位功能。</p>
-<p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
 <p>推出日期： 2026年1月28日</p>
 </td>
 </tr>

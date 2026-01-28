@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 31f0ff2497b5d3c1211c26e8bcd9a12d072f298d
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 14%
+source-wordcount: '1883'
+ht-degree: 13%
 
 ---
 
 # 設計推播通知 {#design-push-notification}
+
+建立推播通知後，您就可以針對iOS、Android和Web平台設計其內容。 此頁面會引導您撰寫訊息、設定按一下行為、新增媒體和按鈕，以及設定進階選項以建立吸引人的推播通知，進而引起觀眾的共鳴。
 
 ## 標題和本文 {#push-title-body}
 
@@ -24,9 +26,11 @@ ht-degree: 14%
 >title="推播個人化。"
 >abstract="若要撰寫您的訊息，請在「**標題**」與「**內文**」欄位輸入內容。若要加入個人化權杖，請開啟個人化對話框。"
 
+![](assets/title-body.png)
+
 若要撰寫訊息，請按一下&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位。 使用個人化編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解個人化編輯器中的[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)。
 
-使用裝置預覽區段來視覺化推播通知在iOS和Android裝置上的顯示方式。
+使用裝置預覽區段來視覺化推播通知在iOS、Android和Web上的顯示方式。
 
 使用AI Assistant加速內容建立，並使用[AI Assistant產生吸引人的推播通知文字，以產生文字](../content-management/generative-text.md)，或使用[AI Assistant建立完整的推播通知，以產生完整內容](../content-management/generative-full-content.md)。
 
@@ -37,13 +41,13 @@ ht-degree: 14%
 >title="關於點按時行為"
 >abstract="選取收件者點擊推播通知內文時的行為。"
 
-您可以選取當使用者點按推播通知內文時的行為。
+設定收件者點選推播通知內文時發生的動作。 從下列選項中選擇:
 
 ![](assets/title-body-push.png)
 
-* 若要開啟應用程式，請選取&#x200B;**[!UICONTROL 開啟應用程式]**&#x200B;選項。 與通知相關聯的應用程式定義於[頻道設定](../configuration/channel-surfaces.md) （即訊息預設集）。
-* 若要將使用者重新導向至應用程式內的特定內容，請選取&#x200B;**[!UICONTROL 深層連結]**&#x200B;選項。  特定內容可以是特定檢視、頁面的特定區段或特定標籤。 選取選項後，在相關欄位中輸入深層連結。
-* 若要將使用者重新導向至外部URL，請使用&#x200B;**[!UICONTROL 網頁URL]**&#x200B;選項。 選取選項後，在相關欄位中輸入URL。
+* **[!UICONTROL 開啟應用程式]**：啟動與通知關聯的應用程式。 已在您的[頻道設定](../configuration/channel-surfaces.md)中指定應用程式（即訊息預設集）。
+* **[!UICONTROL 深層連結]**：將使用者導向應用程式內的特定內容，例如特定檢視、頁面區段或索引標籤。 在提供的欄位中輸入深層連結URL。
+* **[!UICONTROL 網頁URL]**：將使用者導向至外部網頁。 在提供的欄位中輸入目的地URL。
 
 ## 新增媒體 {#add-media-push}
 
@@ -52,26 +56,55 @@ ht-degree: 14%
 >title="在你的推播通知中新增媒體"
 >abstract="你可以新增在通知中顯示的影像、影片或 GIF。"
 
-在推播通知的iOS版本中，您可以新增顯示在通知中的影像、影片或GIF。
+新增視覺媒體以增強推播通知。 可用的媒體型別與實作方法因作業系統而異，如下方標籤所詳述。
 
-在Android版本中，您只能新增影像圖示，以及擴充通知的影像。
+>[!BEGINTABS]
+
+>[!TAB Android]
+
+對於Android，您只能新增影像圖示，以及用來展開通知的影像。
 
 ![](assets/push-config-add-media.png)
 
-有兩個可用選項。 您可以：
+您可以使用下列其中一種方法來新增媒體：
 
-* 使用「**[!UICONTROL 新增媒體]**」按鈕在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。
+* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從[Adobe Experience Manager Assets](../integrations/assets.md)中選取資產，或存取AI小幫手以產生[將影像吸引到推播通知](../content-management/generative-image.md)。
 
-  瞭解如何在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此頁面[上使用](../integrations/assets.md)。
-
-* 或在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 在這種情況下，您可以將個人化新增至URL。
+* **[!UICONTROL 新增媒體]**&#x200B;欄位：直接輸入媒體URL。 您可以在URL中包含個人化權杖。
 
 新增後，媒體會顯示在通知內文的右側。
 
-請注意，在推播通知裝載中包含媒體附件時(例如自訂資料欄位（如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像：
+>[!NOTE]
+>
+>在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[自動顯示和追蹤工作流程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以處理承載中的影像附件。
 
-* **iOS**：您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在&#x200B;**[!UICONTROL 進階選項]**&#x200B;區段中啟用[新增可變內容旗標](#advanced-options-push)選項。
-* **Android**：您的應用程式必須實作[自動顯示和追蹤工作流程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以處理承載中的影像附件。
+>[!TAB iOS]
+
+對於iOS，您可以新增影像、影片或GIF以在通知中顯示。
+
+![](assets/push-config-add-media-ios.png)
+
+您可以使用下列其中一種方法來新增媒體：
+
+* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。 進一步瞭解如何在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此頁面[中使用](../integrations/assets.md)。
+
+* **[!UICONTROL 新增媒體]**&#x200B;欄位：直接輸入媒體URL。 您可以在URL中包含個人化權杖。
+
+新增後，媒體會顯示在通知內文的右側。
+
+>[!NOTE]
+>
+>在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在&#x200B;**[!UICONTROL 進階選項]**&#x200B;區段中啟用[新增可變內容旗標](#advanced-options-push)選項。
+
+>[!TAB 網頁]
+
+在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 您也可以在URL中包含個人化代號，以便自訂每個使用者的內容。
+
+按一下![使用AI助理編輯文字](assets/do-not-localize/Smock_ImageAdd_18_N.svg)，以使用Journey Optimizer AI助理快速產生媒體。
+
+![](assets/web-media.png)
+
+>[!ENDTABS]
 
 ## 新增按鈕 {#add-buttons-push}
 
@@ -80,19 +113,39 @@ ht-degree: 14%
 >title="新增按鈕讓使用者可以與您的推播互動。"
 >abstract="從這個區段開始，在您的訊息中加入召喚行動按鈕。使用 Apple iOS 者請指定通知類別識別碼。使用 Google Android 者可以為每個按鈕加入自訂文字與目標。"
 
-將按鈕新增至推播內容，以建立可操作的通知。
+將按鈕新增至推播內容，以建立可操作的通知。 根據您的作業系統瀏覽下列標籤。
 
 如果裝置熒幕已鎖定，則不會顯示這些按鈕：只會顯示通知的&#x200B;**標題**&#x200B;和&#x200B;**訊息**。 如果解除鎖定其裝置，收件者將會看到按鈕。
 
-在Android版本中，您最多可以新增三個按鈕。
+>[!BEGINTABS]
 
-在iOS版本中，會指定通知類別識別碼。 必須在iOS應用程式中預先設定通知類別，以便定義要顯示的按鈕和要採取的動作。 如需詳細資訊，請參閱[Apple檔案](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
+>[!TAB Android]
+
+若為Android，您最多可以新增三個按鈕。
 
 1. 使用&#x200B;**[!UICONTROL 新增按鈕]**&#x200B;來定義設定：標籤和相關聯的動作。 可能的動作與[點按行為](#on-click-behavior)相同。
 
+   ![](assets/push_buttons.png)
+
 1. 使用中央預覽影像下方的&#x200B;**[!UICONTROL 展開檢視]**&#x200B;圖示來預覽您的個人化按鈕。
 
-   ![](assets/push_buttons.png)
+>[!TAB iOS]
+
+![](assets/push_buttons-ios.png)
+
+對於iOS，會指定通知類別識別碼。 必須在iOS應用程式中預先設定通知類別，以便定義要顯示的按鈕和要採取的動作。 如需詳細資訊，請參閱[Apple檔案](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
+
+>[!TAB 網頁]
+
+![](assets/push_buttons-web.png)
+
+使用&#x200B;**[!UICONTROL 新增按鈕]**&#x200B;選項來定義每個按鈕的標籤和相關動作，如下所述：
+
+* **[!UICONTROL 深層連結]**：將使用者重新導向至您應用程式內的特定檢視、區段或索引標籤。 在相關欄位中輸入深層連結URL。
+
+* **[!UICONTROL 網頁URL]**：將使用者重新導向至外部網頁。 在相關欄位中輸入URL。
+
+>[!ENDTABS]
 
 ## 傳送靜音通知 {#silent-notification}
 
@@ -100,6 +153,10 @@ ht-degree: 14%
 >id="ajo_message_push_silent_notification"
 >title="關於靜音通知"
 >abstract="在不打擾使用者的情況下傳送通知，通知不會顯示在通知中心或通知列中。"
+
+>[!AVAILABILITY]
+>
+>Journey Optimizer中的Web推播通知不支援&#x200B;**無訊息通知**&#x200B;功能。
 
 無訊息推播通知（或背景通知）是傳送至應用程式的隱藏指示。 例如，它可用來通知您的應用程式新內容是否可用，或在背景啟動下載。
 
