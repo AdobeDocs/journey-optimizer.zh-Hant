@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}許可權。
+>* 若要檢視儀表板，您必須擁有[檢視授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=zh-Hant#available-permissions){target="_blank"}許可權。
 >
 >* 如配額欄中的`N/A`所指示，某些量度（例如計算時數、電子郵件）不會顯示給開發沙箱。 控制面板中只會顯示非null的值：當量度為零或接近零時，系統不會填入量度。
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 2. **調查以大型對象為目標的歷程、行銷活動和決策：**
 
-   * 使用[可參與的設定檔查詢](../reports/query-examples.md#engageable-profiles-queries)或[查詢服務](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}，檢閱以大量設定檔為目標的最近歷程和行銷活動。
+   * 使用[可參與的設定檔查詢](../reports/query-examples.md#engageable-profiles-queries)或[查詢服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home){target="_blank"}，檢閱以大量設定檔為目標的最近歷程和行銷活動。
    * 識別造成設定檔計數尖峰的特定歷程版本。
    * 涉及新設定檔的歷程、行銷活動和決策，可能會導致Journeys資料集中的事件計數增加，進而導致「參與設定檔」計數上升。
 
@@ -106,13 +106,13 @@ ht-degree: 1%
 **另請參閱：**
 
 * [可參與設定檔查詢範例](../reports/query-examples.md#engageable-profiles-queries) — 可監視和分析可參與設定檔的範例查詢
-* [Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
+* [Adobe Experience Platform查詢服務總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/home){target="_blank"}
 
 ## 相關檔案 {#related-documentation}
 
 在Adobe Experience Platform檔案中進一步瞭解：
 
-* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [授權使用量儀表板總覽](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant){target="_blank"}
+* [探索授權使用儀表板](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#exploring-the-license-usage-dashboard){target="_blank"}
 * [可用的量度](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=zh-Hant#available-metrics){target="_blank"}
-* [假名設定檔資料有效期](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}
+* [假名設定檔資料有效期](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=zh-Hant){target="_blank"}
