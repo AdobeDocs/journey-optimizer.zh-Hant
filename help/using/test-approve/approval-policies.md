@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)
+>若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些原則在複雜性上可能有所不同。 它們只需要要求所有行銷活動由特定使用者或團隊檢閱，或根據行銷活動的建立者建立條件。
 
@@ -157,7 +157,7 @@ ht-degree: 10%
 
 1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[]** And **或[]** Or **以指定連線條件的方式。]**
 
-1. 完成原則設定後，請按一下[儲存]。**&#x200B;**
+1. 完成原則設定後，請按一下[儲存]。****
 
 您現在可以啟用核准原則以套用它。
 
@@ -167,7 +167,7 @@ ht-degree: 10%
 
 1. 存取您的&#x200B;**[!UICONTROL 核准原則]**。
 
-1. 然後，按一下[啟動]&#x200B;**&#x200B;**，將設定的條件套用至您的環境。
+1. 然後，按一下[啟動]****，將設定的條件套用至您的環境。
 
    >[!NOTE]
    >
