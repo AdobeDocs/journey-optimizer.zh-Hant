@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 22e1f08f434a3ceb4be6c539d4007178062cba9e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 5%
+source-wordcount: '1246'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,11 @@ ht-degree: 5%
 
 * 若要啟用Web Channel的報告，您必須確定您的Web實作資料流中使用的資料集也包含在您的報告設定中。 [了解更多](#experiment-prerequisites)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->以您的網頁定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數及相關成本。 [了解更多](../start/guardrails.md#profile-management-inbound)
+>* [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這會增加您的[可參與設定檔總數](../audience/license-usage.md)，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
+>
+>* 以您的網頁定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數及相關成本。 [了解更多](../start/guardrails.md#profile-management-inbound)
 
 ## 實作必要條件 {#implementation-prerequisites}
 
@@ -37,15 +39,15 @@ ht-degree: 5%
 
   >[!NOTE]
   >
-  >請確定您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/release-notes){target="_blank"}是2.16或更高版本。
+  >請確定您的[Adobe Experience Platform Web SDK版本](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes){target="_blank"}是2.16或更高版本。
 
-* 混合模式 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯修改內容的使用者端。 在Adobe Experience Platform [Edge Network Server API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hant){target="_blank"}中進一步瞭解。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
+* 混合模式 — 您可以使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}來要求個人化伺服器端；回應會提供給Adobe Experience Platform Web SDK，以轉譯修改內容的使用者端。 在Adobe Experience Platform [Edge Network Server API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}中進一步瞭解。 您可以在[此部落格](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}中找到更多有關混合模式的資訊，並檢視一些實作範例。
 
 >[!NOTE]
 >
 >Web Channel目前不支援僅伺服器端實作。 如果您的網頁只有伺服器端實作，您可以改用[程式碼型體驗管道](../code-based/get-started-code-based.md)。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## 視覺化製作先決條件 {#visual-authoring-prerequisites}
 
@@ -74,11 +76,11 @@ ht-degree: 5%
 
 1. 搜尋並導覽至[Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}瀏覽器擴充功能。
 
-1. 按一下&#x200B;**[!UICONTROL 新增至Chrome]** > **[!UICONTROL 新增擴充功能]**。
+1. 按一下「**[!UICONTROL 新增至 Chrome]** > **[!UICONTROL 新增擴充功能]**」。
 
    >[!NOTE]
    >
-   >如果您使用Microsoft Edge，即使按鈕標示為「新增至Edge」**&#x200B;**，此動作仍會將擴充功能新增至Chrome。
+   >如果您使用Microsoft Edge，即使按鈕標示為「新增至Edge」****，此動作仍會將擴充功能新增至Chrome。
 
 1. 請確定已在瀏覽器的工具列中正確啟用Visual Editing Helper瀏覽器擴充功能。
 
@@ -92,9 +94,9 @@ ht-degree: 5%
 >
 >由於下列其中一個原因，某些網站可能無法可靠地在[!DNL Journey Optimizer]網頁設計工具中開啟：
 >
-> * 網站的安全性原則非常嚴格。
-> * 網站位於iframe中。
-> * 外部無法存取客戶的QA或預備網站（網站為內部網站）。
+> * 網站的安全性原則過於嚴格。
+> * 網站架設在 iFrame 中。
+> * 客戶的 QA 或暫存網站無法供外部世界使用 (網站僅供內部使用)。
 
 ### 疑難排解網站未載入 {#troubleshooting}
 
@@ -116,11 +118,11 @@ ht-degree: 5%
 
 * 在[Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}中，確定您已定義資料串流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服務下您已啟用&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。
 
-  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
+  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您有一個啟用&#x200B;**[!UICONTROL Edge上主動式合併原則]**&#x200B;選項的合併原則。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+* 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中，確定您有一個啟用&#x200B;**[!UICONTROL Edge上主動式合併原則]**&#x200B;選項的合併原則。 若要這麼做，請在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表下選取原則。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   此合併原則由[!DNL Journey Optimizer]個傳入頻道使用，以便在邊緣正確啟用和發佈傳入行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}
 
@@ -134,7 +136,7 @@ ht-degree: 5%
 
 ## 報表必要條件 {#experiment-prerequisites}
 
-若要啟用Web Channel的報告，您必須確定在您的Web實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}也包含在您的報告設定中。
+若要啟用Web Channel的報告，您必須確定在您的Web實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}也包含在您的報告設定中。
 
 換言之，在設定報告時，如果您新增的資料集不存在您的網路資料流中，網路資料將不會顯示在您的報告中。
 
@@ -144,7 +146,7 @@ ht-degree: 5%
 >
 >資料集由[!DNL Journey Optimizer]報告系統以唯讀方式使用，不會影響資料收集或資料擷取。
 
-如果您&#x200B;**不是**，使用資料集結構描述的下列預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=zh-Hant#add-field-groups){target="_blank"}上所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
+如果您&#x200B;**不是**，使用資料集結構描述的下列預先定義[欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}： `AEP Web SDK ExperienceEvent`和`Consumer Experience Event` （如[此頁面](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}上所定義），請務必新增下列欄位群組： `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`和`Web Details`。 [!DNL Journey Optimizer]報告需要這些資料，因為它們正在追蹤每個設定檔參與了哪些行銷活動和歷程。
 
 [深入瞭解報告設定](../reports/reporting-configuration.md)
 

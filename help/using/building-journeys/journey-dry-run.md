@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 16%
@@ -114,7 +114,7 @@ Journey Dirun提供：
 也可以手動停止練習歷程。 若要停用「試執行」模式，請執行下列步驟：
 
 1. 開啟您要停止的練習歷程。
-1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以結束測試。
+1. 選取&#x200B;**[!UICONTROL 關閉]**按鈕以結束測試。
 確認畫面中提供過去24小時與所有時間報表的連結。
 
    ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%" align="left"}
@@ -124,12 +124,12 @@ Journey Dirun提供：
 
 ## 護欄與限制 {#journey-dry-run-limitations}
 
-* 處於試執行模式的設定檔計入可參與的設定檔
+* 處於試執行模式的設定檔計入[可參與的設定檔](../audience/license-usage.md)
 * 處於試執行模式的歷程計入即時歷程配額
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。
-當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+* 在練習中未啟用&#x200B;**跳轉**動作。
+當來源歷程觸發到目的地歷程的**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 
@@ -149,4 +149,4 @@ Journey Dirun提供：
 
 透過此影片瞭解如何練習您的歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464693/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

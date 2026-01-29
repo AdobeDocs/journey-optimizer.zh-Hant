@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '3337'
 ht-degree: 1%
 
 ---
@@ -369,27 +369,25 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 此查詢可讓您列出執行訊息/動作時，在歷程中遇到的每個錯誤。
 
-_資料湖查詢_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
+SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) AS ERROR_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<message-name>'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
+ORDER BY ERROR_COUNT DESC;
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
-AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26'
-GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
-```
+| actionExecutionError | 錯誤計數 |
+|---|---|
+| 已逾時 | 145 |
+| 連線時發生錯誤 | 87 |
+| InvalidResponse | 23 |
 
-此查詢會傳回在歷程中執行動作時發生的所有不同錯誤，以及發生次數的計數。
+此查詢會傳回在歷程中執行動作時發生的所有不同錯誤，以及每個錯誤發生次數的計數（依頻率排序）。
 
 +++
 
@@ -399,25 +397,20 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 此查詢會透過計算與該設定檔和歷程組合相關聯的事件，來檢查特定設定檔是否進入歷程。
 
-_資料湖查詢_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS EVENT_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| EVENT_COUNT |
+|---|
+| 3 |
 
-結果應大於0。 此查詢會傳回設定檔已進入歷程的確切次數。
+此查詢會傳回設定檔已進入歷程的確切次數。 結果大於0可確認設定檔已進入歷程。
 
 +++
 
@@ -425,51 +418,41 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 方法1：如果訊息名稱在歷程中不是唯一的（它用於多個位置）。
 
-_資料湖查詢_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeID = '<NodeId in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-結果應大於0。 此查詢只會告訴我們訊息動作是否已成功在歷程端執行。
+結果大於0表示訊息動作已成功執行。 此查詢只會告訴我們訊息動作是否已成功在歷程端執行。
 
 方法2：如果您的訊息名稱在歷程中是唯一的。
 
-_資料湖查詢_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<NodeName in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-查詢會傳回所有訊息的清單，連同針對所選設定檔叫用的訊息計數。
+查詢會傳回為選取的設定檔成功叫用訊息的次數。
 
 +++
 
@@ -477,27 +460,26 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 此查詢會擷取過去30天內特定設定檔所有成功執行的訊息動作（依訊息名稱分組）。
 
-_資料湖查詢_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.nodeName AS MESSAGE_NAME, 
+       count(distinct _id) AS MESSAGE_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'action' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
+ORDER BY MESSAGE_COUNT DESC;
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
-```
+| 訊息名稱 | 訊息計數 |
+|---|---|
+| 歡迎電子郵件 | 1 |
+| 產品推薦 | 3 |
+| 購物車放棄提醒 | 2 |
+| 每週電子報 | 4 |
 
 查詢會傳回所有訊息的清單，連同針對所選設定檔叫用的訊息計數。
 
@@ -507,27 +489,26 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 此查詢會傳回特定設定檔在過去30天內輸入的所有歷程，以及每個歷程的輸入計數。
 
-_資料湖查詢_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME, 
+       count(distinct _id) AS ENTRY_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeType = 'start' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENTRY_COUNT DESC;
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
-```
+| 歷程名稱 | ENTRY_COUNT |
+|---|---|
+| 歡迎歷程v2 | 1 |
+| 產品推薦 | 5 |
+| 重新參與行銷活動 | 2 |
 
-查詢會傳回所有歷程名稱的清單，以及查詢的設定檔進入歷程的次數。
+查詢會傳回所有歷程名稱的清單，以及查詢的設定檔進入每個歷程的次數。
 
 +++
 
@@ -535,25 +516,25 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 此查詢提供在指定時段內進入歷程的相異設定檔數量的每日劃分。
 
-_資料湖查詢_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
+SELECT DATE(timestamp) AS ENTRY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS PROFILES_COUNT 
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ENTRY_DATE | PROFILES_COUNT |
+|---|---|
+| 2024-11-25 | 1,245 |
+| 2024-11-24 | 1,189 |
+| 2024-11-23 | 15,340 |
+| 2024-11-22 | 1,205 |
+| 2024-11-21 | 1,167 |
 
 查詢會在定義的期間內傳回每天進入歷程的設定檔數。 如果透過多個身分輸入設定檔，則會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
 
@@ -568,8 +549,6 @@ ORDER BY DATE(timestamp) desc
 
 此查詢會找出工作排入佇列與完成時間之間的時間差，以計算對象匯出工作的持續時間。
 
-_資料湖查詢_
-
 ```sql
 select DATEDIFF (minute,
               (select timestamp
@@ -579,20 +558,6 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued
               (select timestamp
                 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
-```
-
-_範例_
-
-```sql
-select DATEDIFF (minute,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
@@ -604,21 +569,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 此查詢會計算在讀取對象活動期間由於執行個體重複錯誤而捨棄的不同設定檔數量。
 
-_資料湖查詢_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
-```
-
-_範例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
@@ -630,21 +584,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查詢會傳回由於名稱空間無效或缺少必要名稱空間的身分而被捨棄的設定檔計數。
 
-_資料湖查詢_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
-```
-
-_範例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
@@ -656,21 +599,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查詢會計算由於缺少歷程執行所需的身分對應而被捨棄的設定檔。
 
-_資料湖查詢_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
-```
-
-_範例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
@@ -682,21 +614,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查詢會識別歷程在測試模式下執行時捨棄的設定檔，但設定檔的testProfile屬性未設定為true。
 
-_資料湖查詢_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
-```
-
-_範例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
@@ -708,21 +629,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 此查詢會傳回在歷程執行期間由於內部系統錯誤而捨棄的設定檔計數。
 
-_資料湖查詢_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
-```
-
-_範例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
@@ -1033,8 +943,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 此查詢會計算在指定時間範圍內，由歷程（依日期分組）接收業務事件的次數。
 
-_資料湖查詢_
-
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
 FROM journey_step_events
@@ -1045,42 +953,17 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_範例_
-
-```sql
-SELECT DATE(timestamp), count(distinct _id)
-FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
-_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-WHERE DATE(timestamp) > (now() - interval '6' hour)
-```
-
 +++
 
 +++檢查設定檔的外部事件是否因為找不到相關歷程而被捨棄
 
 此查詢會識別特定設定檔的外部事件何時被捨棄，因為沒有作用中或相符的歷程設定為接收該事件。
 
-_資料湖查詢_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
 _experience.journeyOrchestration.profile.ID = '<profileID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
-```
-
-_範例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
-_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
@@ -1093,26 +976,12 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 此查詢會擷取由於內部服務錯誤而為特定設定檔捨棄的外部事件，以及事件ID和錯誤代碼。
 
-_資料湖查詢_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
 FROM journey_step_events
 where
 _experience.journeyOrchestration.profile.ID='<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
-```
-
-_範例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
-FROM journey_step_events
-where
-_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
@@ -1124,16 +993,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 +++檢查stateMachine依errorCode捨棄的所有事件計數
 
 此查詢會彙總歷程狀態機器捨棄的所有事件（依錯誤代碼分組），以協助識別捨棄的最常見原因。
-
-_資料湖查詢_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-_範例_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -1149,19 +1008,6 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 此查詢會識別在歷程設定中不允許重新進入時，因為設定檔嘗試重新進入歷程而捨棄的所有事件。
 
-_資料湖查詢_
-
-```sql
-SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
-_experience.journeyOrchestration.journey.versionID,
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
-FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
-```
-
-_範例_
-
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
 _experience.journeyOrchestration.journey.versionID,
@@ -1175,29 +1021,175 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
+## 可參與設定檔的查詢 {#engageable-profiles-queries}
+
+這些查詢可協助您監控及分析可參與設定檔計數。 可參與設定檔是過去12個月中透過歷程或行銷活動參與的獨特設定檔。 深入瞭解[可參與的設定檔與授權使用情況](../audience/license-usage.md#what-is-engageable-profile)。
+
+>[!IMPORTANT]
+>
+>**查詢可參與設定檔的最佳實務：**
+>* 請確定每個非彙總欄位都包含在`GROUP BY`子句中
+>* 避免參照沙箱中不存在的資料集 — 在Platform UI中確認資料集名稱
+>* 計算唯一設定檔時使用`distinct`以避免跨身分名稱空間重複
+>* 使用`LIMIT`時，將它放置在查詢的結尾`ORDER BY`子句之後
+
++++計算特定歷程參與的不重複設定檔
+
+此查詢會傳回特定歷程已參與的不同設定檔數量，這會貢獻您的「可參與的設定檔」計數。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND timestamp > (now() - interval '12' month);
+```
+
+此查詢可協助您瞭解在過去12個月中，特定歷程中有多少不重複設定檔對您的[可參與設定檔](../audience/license-usage.md)計數有貢獻。
+
++++
+
++++計算過去12個月內每個歷程參與的個人檔案
+
+此查詢顯示過去12個月組織中每個歷程參與的不重複設定檔數量，可幫助您識別對[可參與設定檔](../audience/license-usage.md)計數貢獻最大的歷程。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month)
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENGAGED_PROFILES DESC;
+```
+
+_範例輸出_
+
+| JOURNEY_VERSION_ID | 歷程名稱 | ENGAGED_PROFILES |
+|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 歡迎行銷活動v2 | 125,450 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 產品上市歷程 | 98,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 重新參與流程 | 45,670 |
+
+此輸出可幫助您識別哪些歷程涉及最多的設定檔，並對您的可參與設定檔計數貢獻最大。
+
+>[!NOTE]
+>
+>此查詢同時依`journeyVersionID`和`journeyVersionName`分組。 這兩個欄位都必須包含在`GROUP BY`子句中，因為它們是在查詢中選取的。 若省略`GROUP BY`子句中的欄位，將會導致查詢失敗。
+
++++
+
++++計算過去30天內每日歷程參與的個人檔案
+
+此查詢提供每日新參與的設定檔劃分，協助您識別[個可參與的設定檔](../audience/license-usage.md)計數中的尖峰。
+
+```sql
+SELECT 
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '30' day)
+GROUP BY DATE(timestamp)
+ORDER BY ENGAGEMENT_DATE DESC;
+```
+
+_範例輸出_
+
+| ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|
+| 2024-11-25 | 8,450 |
+| 2024-11-24 | 7,820 |
+| 2024-11-23 | 125,340 |
+| 2024-11-22 | 9,230 |
+| 2024-11-21 | 8,670 |
+
+此輸出可協助您監控每日趨勢，並識別何時使用大量設定檔。 在此範例中，11月23日與一般每日參與（約8,000個設定檔）相比，顯示顯著的尖峰（125,340個設定檔），這將需要調查以瞭解是什麼歷程或促銷活動導致您的[可參與設定檔](../audience/license-usage.md)計數增加。
+
++++
+
++++識別最近參與大型對象的歷程
+
+此查詢有助於識別哪些歷程在最近時段內參與了大量新設定檔，這可能解釋[個可參與的設定檔](../audience/license-usage.md)計數突然增加。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '7' day)
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'start'
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName,
+    DATE(timestamp)
+HAVING count(distinct _experience.journeyOrchestration.stepEvents.profileID) > 1000
+ORDER BY ENGAGEMENT_DATE DESC, ENGAGED_PROFILES DESC;
+```
+
+_範例輸出_
+
+| JOURNEY_VERSION_ID | 歷程名稱 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | 黑色星期五行銷活動 | 2024-11-23 | 125,340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 產品上市歷程 | 2024-11-22 | 45,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 假日電子報 | 2024-11-21 | 32,150 |
+
+此查詢會篩選過去7天每天參與超過1,000個設定檔的歷程。 輸出會顯示哪些特定歷程和日期負責大型設定檔參與。 根據您的需求調整`HAVING`子句臨界值（例如，將`> 1000`變更為較大的臨界值`> 10000`）。
+
++++
+
++++過去12個月內所有歷程參與的不重複設定檔總數
+
+此查詢提供過去12個月所有歷程中參與的不重複設定檔計數，可讓您概略瞭解歷程型參與。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month);
+```
+
+_範例輸出_
+
+| TOTAL_ENGAGED_PROFILES |
+|---|
+| 2,547,890 |
+
+此單一數字代表過去12個月內至少參與一個歷程的不重複設定檔總數。
+
+>[!NOTE]
+>
+>此查詢會計入歷程步驟事件資料集中的不同設定檔ID。 [授權使用儀表板](../audience/license-usage.md)中顯示的實際可參與設定檔計數可能會稍有不同，因為它也包含透過行銷活動參與的設定檔，以及歷程以外的其他Journey Optimizer功能。
+
++++
+
 ## 常見的歷程型查詢 {#journey-based-queries}
 
 +++每日作用中歷程的數量
 
 此查詢會傳回具有活動的每日不重複歷程版本計數，可幫助您瞭解一段時間內的歷程執行模式。
 
-_資料湖查詢_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
+SELECT DATE(timestamp) AS ACTIVITY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) AS ACTIVE_JOURNEYS
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_範例_
+_範例輸出_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| 活動日期 | ACTIVE_JOURNEY |
+|---|---|
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 查詢會在定義的期間內傳回每天觸發的不重複歷程計數。 在多天觸發的單一歷程每天將計為一次。
 
