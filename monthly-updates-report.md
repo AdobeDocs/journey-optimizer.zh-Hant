@@ -5,7 +5,7 @@ title: 每月檔案更新報告
 description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -169,7 +169,7 @@ ht-degree: 0%
 - [建立動作行銷活動](help/using/campaigns/create-campaign.md) - 10月29日
 - [開始使用行銷活動](help/using/campaigns/get-started-with-campaigns.md) - 10月29日
 - [存取及管理行銷活動](help/using/campaigns/manage-campaigns.md) - 10月23日
-- [無訊息時數](help/using/campaigns/quiet-hours.md) - 10月31日
+- [無訊息時數](help/using/conflict-prioritization/quiet-hours.md) - 10月31日
 - [檢閱並啟動行銷活動](help/using/campaigns/trigger-campaigns.md) - 10月23日
 - [在 [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md)開始使用通訊通道 — 11月3日
 - [將Journey Optimizer與外部系統整合](help/using/configuration/external-systems.md) - 10月28日

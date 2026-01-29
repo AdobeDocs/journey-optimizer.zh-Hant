@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 keywords: 訊息，頻率，規則，壓力
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 4%
 
 ---
 
@@ -32,24 +31,21 @@ ht-degree: 7%
 * **省時** — 透過建立&#x200B;**以時間為基礎的規則**&#x200B;在一個位置管理排除專案，而不是透過自訂運算式新增多個條件節點。\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->目前勿打擾時間規則僅開放給部分組織使用 (有限可用性)。未來版本將逐步開放所有客戶使用。
-
-
 ➡️ [在影片中探索此功能](#video)
 
 ## 護欄與限制
 
 * **支援的管道** — 電子郵件、簡訊、推播和WhatsApp。
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **協調的行銷活動** — 協調的行銷活動不支援無訊息時間。
 * **傳輸延遲** — 無訊息時數規則的更新可能需要最多12小時才能套用至已使用該規則的管道動作。
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **大量延遲** — 若是大量通訊，系統可能需要額外的時間，才能開始成功強制實施無訊息小時抑制。
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## 建立無訊息小時規則
 
-若要設定無訊息時數，請在自訂規則集中建立規則。 請依照下列步驟操作：
+若要設定無訊息時數，請在自訂規則集中建立規則。 [瞭解如何建立規則集](../conflict-prioritization/rule-sets.md#Create)。 請依照下列步驟操作：
 
 1. 導覽至&#x200B;**[!UICONTROL 商業規則]**&#x200B;以存取規則集詳細目錄。
 
@@ -85,22 +81,21 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 日期與時間]**&#x200B;區段中，定義何時套用無訊息時數：
 
-   1. 選擇要使用的&#x200B;**[!UICONTROL 時區]**：
+   1. 在&#x200B;**[!UICONTROL 時區]**&#x200B;下拉式清單中，將標準時區套用至對象中的所有收件者，無論其個別時區為何。
 
-      * **[!UICONTROL UTC/GMT]** — 將標準GMT時間範圍套用至對象中的所有收件者，不論其個別時區為何。
-      * **[!UICONTROL 使用收件者當地時區]** — 使用每個設定檔的時區欄位。 [進一步瞭解歷程中的時區管理](../building-journeys/timezone-management.md#timezone-from-profiles)
+      若要使用每個設定檔的時區欄位，請選取&#x200B;**[!UICONTROL 使用收件者當地時區]** 。 [進一步瞭解歷程中的時區管理](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >如果設定檔沒有時區值，則不會對該設定檔強制執行無訊息時數。
+      >[!IMPORTANT]
+      >
+      >如果設定檔沒有時區值，則不會對該設定檔強制執行無訊息時數。
 
    1. 指定應套用免打擾時間的時段。
 
-      * **[!UICONTROL 每週]** — 選擇一週中的特定日期和時段。 您也可以強制執行規則&#x200B;**[!UICONTROL 全天]** （此選項最多只能連續3天使用）。
+      * **[!UICONTROL 每週]** — 選擇一週中的特定日期和時段。 您也可以強制執行規則&#x200B;**[!UICONTROL 全天]**。
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL 自訂日期]** — 選擇行事曆和時程表中的特定日期。 您也可以強制執行規則&#x200B;**[!UICONTROL 全天]** （此選項最多只能連續3天使用）。
+      * **[!UICONTROL 自訂日期]** — 選擇行事曆和時程表中的特定日期。 您也可以強制執行規則&#x200B;**[!UICONTROL 全天]**。
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ ht-degree: 7%
 
      >[!NOTE]
      >
-     >此選項僅適用於歷程動作。 如果套用至行銷活動動作，其行為將與選取&#x200B;**[!UICONTROL 捨棄訊息]**&#x200B;選項相同。
+     >如果訊息在設定檔中維持佇列狀態超過7天，將會捨棄該訊息。
 
-   * **[!UICONTROL 捨棄訊息]** — 永不傳送訊息。 如果您希望包含訊息的歷程或行銷活動以取消傳送結束，請選取&#x200B;**[!UICONTROL 捨棄並退出歷程或行銷活動]**。
+   * **[!UICONTROL 捨棄訊息]** — 永不傳送訊息。
+
+     >[!NOTE]
+     >
+     >如果您選取「**[!UICONTROL 捨棄]**」並將此規則套用至歷程動作，則會從訊息傳遞中移除設定檔並從歷程中退出。
+
+規則現在會顯示在規則集中。 您可以選取它以在屬性窗格中顯示其詳細資訊。
+
+![](assets/quiet-hours-preview.png)
+
+如果您的規則已就緒，請啟動該規則並完成規則集的設定。 [瞭解如何建立和啟用規則集](../conflict-prioritization/rule-sets.md#Create)
 
 ## 套用無訊息時間至歷程與行銷活動 {#apply}
 
@@ -187,4 +192,4 @@ ht-degree: 7%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

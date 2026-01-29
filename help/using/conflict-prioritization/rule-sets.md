@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1060'
 ht-degree: 25%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 25%
 * **管道**&#x200B;規則集套用規則至通訊管道。 它們可讓您設定：
 
    * **頻率上限規則** - *每天傳送的電子郵件或簡訊通訊請勿超過1個。*
-   * **無訊息時數規則** （可用性限制） - *請勿在早上8點至晚上9點的時段之外傳送電子郵件訊息。*
+   * **安靜時數規則** - *請勿在早上8點至晚上9點的時段以外傳送電子郵件訊息。*
 
 * **歷程**&#x200B;規則集將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="規則類型"
->abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數** （限時提供）以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息。"
+>abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數**&#x200B;以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ ht-degree: 25%
 
    * [歷程上限](../conflict-prioritization/journey-capping.md)
    * [依據頻道、通訊類型，設定頻率上限](../conflict-prioritization/channel-capping.md)
-   * [無訊息時數](../conflict-prioritization/quiet-hours.md) （限量提供）
+   * [無訊息時間](../conflict-prioritization/quiet-hours.md)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認建立規則。 您的訊息已新增至規則集，狀態為&#x200B;**[!UICONTROL 草稿]**。
 
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3071'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,6 @@ ht-degree: 98%
    + [行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
    + [存取和管理行銷活動](using/campaigns/manage-campaigns.md)
-   + [勿打擾時間](using/campaigns/quiet-hours.md)
    + 動作行銷活動 {#action-campaigns}
       + [動作行銷活動](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [使用動作行銷活動](using/campaigns/create-campaign.md)
