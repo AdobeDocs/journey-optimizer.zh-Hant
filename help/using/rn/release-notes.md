@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 19%
+source-wordcount: '1849'
+ht-degree: 20%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 19%
 
 ## 2026年1月發行說明 {#latest-rn}
 
-**發行日期**： 2026年1月27至28日
+<!--**Release date**: January 27-28, 2026-->
 
 [功能](#jan-26-01-features)和[改進](#jan-26-01-improv)區段涵蓋已提供的功能，而[即將推出](#jan-26-01-coming-soon)列出排程在稍後推出日期的專案。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../configuration/message-export.md#message-export">詳細文件</a>。</p>
+<p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../push/push-configuration-web.md">詳細文件</a>。</p>
+<p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>現在，直接郵件頻道可用於協調的行銷活動。 <strong>直接郵件活動</strong>可促進直接郵件在協調的行銷活動內傳送，一次性和循環性的郵件。 它用於自動化產生直接郵件提供者所需的<strong>擷取檔案</strong>的程式。 您可以將管道活動與協調式行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md#channel">詳細文件</a>。</p>
+<p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **結合原生和Adobe Campaign訊息動作** - Journey Optimizer現在可讓您在同一歷程中結合<strong>Adobe Campaign v7/v8</strong>訊息動作和<strong>原生頻道動作</strong>。 [閱讀全文](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  推出日期：2026年1月27日。
+
 * **自訂動作錯誤回應承載** — 您現在可以為自訂動作定義選用的<strong>錯誤回應承載</strong>。 呼叫失敗時，錯誤裝載會公開於歷程內容（在動作的errorResponse節點下），並可與<strong>一併提供於</strong>逾時/錯誤分支`jo_status_code`，以支援更豐富的遞補邏輯和偵錯。 [閱讀全文](../action/action-response.md)
 
+  推出日期：2026年1月27日。
+
 * **歷程中的歷程裝載大小驗證** - Journey Optimizer現在會驗證<strong>裝載大小</strong>，以協助確保最佳效能和系統穩定性。 當建置或發佈歷程時，如果裝載大小接近或超過建議的限制，您會收到明確的<strong>警告和錯誤</strong>，並提供可操作的指引，以最佳化您的歷程設定。 此主動式驗證可幫助您儘早識別潛在問題並維護歷程績效。 [閱讀全文](../start/guardrails.md#journey-payload-size)
+
+  推出日期：2026年1月27日。
+
 
 * **歷程警示** — 有新的<strong>預先設定的警示</strong>可供歷程使用。
    * <strong>超過設定檔捨棄率</strong> — 超過臨界值的最後5分鐘內，捨棄設定檔與輸入設定檔的比率
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **使用者產生的中繼資料支援** - <strong>executionMetadata協助程式函式</strong>現在可在協調行銷活動的個人化編輯器中使用，可讓您將內容相關資訊附加至任何原生動作，並將其儲存在資料集中，以匯出至外部系統。 [閱讀全文](../personalization/functions/helpers.md#execution-metadata)
 
+  推出日期：2026年1月27日。
+
 #### 行銷活動
 
 * **使用設定檔時區排程行銷活動** — 行銷活動排程現在可以使用每個設定檔的<strong>時區</strong>，在預期的當地時間傳送訊息。 [閱讀全文](../campaigns/campaign-schedule.md)
 
-  **注意**：此改善功能僅適用於一組組織（可用性限制）。
+  **注意**：這項改善僅適用於一組組織（可用性限制）。
+
+  推出日期：2026年1月27日。
 
 #### 權限
 
 * **防止自我核准歷程與行銷活動** — 新增建立或設定<strong>核准原則</strong>時的選項，以防止歷程或行銷活動建立者將<strong>核准自己的物件</strong>。 [閱讀全文](../test-approve/approval-policies.md)
+
+  推出日期：2026年1月27日。
 
 ## 即將推出 {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>以前僅限於行銷活動，現在歷程畫布上提供<strong>直接郵件</strong>頻道，可讓您將直接郵件合併到歷程中。 直接郵件現在可同時用於<strong>批次和1:1歷程案例</strong>，並支援檔案擷取設定和時間頻率設定。</p>
-<p>先前以「有限可用性」發行，此功能將適用於所有環境（一般可用性）。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>推出日期： 2026年1月28日</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * 所有SMS提供者現在都支援&#x200B;**SMS Webhook** - <strong>Webhook</strong>。 您可以根據每個Webhook的預期用途、入站Webhook來設定以擷取傳入訊息，以及回饋Webhook來接收傳遞回條、狀態更新和其他訊息相關事件。
 
-  推出日期：2026年1月29日。
+  推出日期：2026年1月30日。
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至<strong>決定專案</strong>的功能，這些功能可在透過決定原則的程式碼式體驗行銷活動中運用。
 
