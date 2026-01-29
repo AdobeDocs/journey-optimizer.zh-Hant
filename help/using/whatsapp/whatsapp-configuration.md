@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 13%
+source-wordcount: '1130'
+ht-degree: 12%
 
 ---
 
@@ -84,7 +84,13 @@ ht-degree: 13%
 >
 >若沒有指定的選擇加入或選擇退出關鍵字，則不會啟用標準同意訊息。
 
-成功建立WhatsApp API認證後，您現在可以設定Webhook擷取傳入回應，以管理選擇加入和選擇退出同意，並接收傳遞報表（包括可用的讀取回條）。
+成功建立WhatsApp API認證後，您現在可以將Webhook設定為：
+
+* **擷取傳入回應**&#x200B;以管理選擇加入和選擇退出同意
+* **接收傳遞報告**，例如已讀回條（可用時）和郵件傳遞狀態
+* 在Adobe Experience Platform資料集中&#x200B;**啟用分析和報告的追蹤事件**
+
+Webhook可作為Meta的WhatsApp商業平台和Adobe Journey Optimizer之間的通訊橋樑，讓您接收有關訊息事件和使用者互動的即時通知。
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL WhatsApp設定]**&#x200B;下的&#x200B;**[!UICONTROL WhatsApp Webhooks]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立Webhook]**&#x200B;按鈕。
 
@@ -101,6 +107,7 @@ ht-degree: 13%
    * **[!UICONTROL 選擇加入關鍵字]**
    * **[!UICONTROL 選擇退出關鍵字]**
    * **[!UICONTROL 說明關鍵字]**
+   * **[!UICONTROL 預設]** — 不符合其他關鍵字之所有傳入郵件的遞補類別。 使用此類別可在Adobe Experience Platform資料集中啟用追蹤事件（開啟、傳遞報告）。
 
 1. 輸入您的&#x200B;**[!UICONTROL 關鍵字]**&#x200B;並按一下![新增](assets/do-not-localize/Smock_AddCircle_18_N.svg)。
 
@@ -203,6 +210,6 @@ ht-degree: 13%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
