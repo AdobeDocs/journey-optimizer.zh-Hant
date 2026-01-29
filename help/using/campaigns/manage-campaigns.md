@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 9%
+source-wordcount: '1682'
+ht-degree: 8%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 9%
 * **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
+**僅供協調的行銷活動使用：**
+
+* **[!UICONTROL 返回草稿]** — 取消發佈並將行銷活動還原為草稿狀態以進行錯誤復原。 當排程的行銷活動尚未開始，或在任何執行完成前即時行銷活動遇到錯誤時，此動作即可使用。 [進一步瞭解還原行銷活動→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## 瞭解行銷活動狀態 {#statuses}
 
 每個行銷活動都會經過生命週期，而生命週期會透過其介面中的狀態來反映。 瞭解這些狀態可協助您瞭解哪些動作可供使用，以及後續要做什麼。
@@ -108,7 +112,7 @@ ht-degree: 9%
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL 草稿]** | ✅ | ✅ | ✅ | 正在編輯，未啟動 | 繼續編輯或[啟動行銷活動](review-activate-campaign.md) |
 | **[!UICONTROL 已排程]** | ✅ | ✅ | ✅ | 針對特定開始日期設定 | 等候啟動，[視需要修改](#modify)，或[在行事曆中檢視](#calendar) |
-| **[!UICONTROL 即時]** | ✅ | ✅ | ✅ | 已啟用且執行中 | [監視效能](../reports/campaign-global-report-cja.md)，[視需要建立新版本](#modify) |
+| **[!UICONTROL 即時]** | ✅ | ✅ | ✅ | 已啟用且執行中 | [監視效能](../reports/campaign-global-report-cja.md)，[視需要建立新版本](#modify)。 對於協調的行銷活動： [對於尚未開始的已排程行銷活動或在傳送任何訊息之前具有執行錯誤的行銷活動，恢復為草稿](../orchestrated/start-monitor-campaigns.md#back-to-draft) |
 | **[!UICONTROL 稽核中]** | ✅ | ✅ | — | 已提交進行核准 | 等待[核准](../test-approve/gs-approval.md)或修改 |
 | **[!UICONTROL 已停止]** | ✅ | ✅ | ✅ | 已手動停止，無法重新啟用 | [重複以重複使用](#duplicate-a-campaign) |
 | **[!UICONTROL 已完成]** | ✅ | ✅ | ✅ | 執行完成（在啟動後3天或循環的結束日期自動指派） | [檢視報告](../reports/campaign-global-report-cja.md)、[封存](#archive-a-campaign)或[重複](#duplicate-a-campaign) |
@@ -249,7 +253,7 @@ ht-degree: 9%
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![按鈕的省略符號](assets/do-not-localize/rule-builder-icon-more.svg)影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

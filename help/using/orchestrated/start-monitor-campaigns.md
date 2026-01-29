@@ -6,10 +6,10 @@ description: 瞭解如何使用Adobe Journey Optimizer開始及監控協調的�
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 36%
+source-wordcount: '1141'
+ht-degree: 29%
 
 ---
 
@@ -65,6 +65,22 @@ ht-degree: 36%
 視覺流量會重新啟動，而真實設定檔會開始即時流過歷程。
 
 如果發佈動作失敗（例如，由於缺少訊息內容），您會收到警報，必須在重試之前修正問題。 成功發佈後，行銷活動就會開始執行（立即或依排程）、從&#x200B;**草稿**&#x200B;移至&#x200B;**即時**&#x200B;狀態，並變成「唯讀」。
+
+## 將行銷活動恢復為草稿 {#back-to-draft}
+
+**[!UICONTROL 返回草稿]**&#x200B;功能可讓您取消發佈，並在特定情況下將協調的行銷活動還原為草稿狀態。 這是為了當作復原機制而設計，可在傳送任何訊息之前修正問題，同時維持促銷活動生命週期的完整性。
+
+此選項適用於兩種情況：
+
+* **排程行銷活動等待執行**：當行銷活動排程在特定時間執行且尚未到達該時間時，您可以使用回到草稿來檢閱和修改行銷活動，然後再開始執行。 但是，如果行銷活動為週期性行銷活動（例如每日排程的行銷活動），且已發生至少一次執行，則此選項不再可用。 在這種情況下，您應該改為[複製行銷活動](../campaigns/manage-campaigns.md#duplicate-a-campaign)。
+
+* **發生執行錯誤的即時行銷活動**：當行銷活動在執行期間遇到錯誤且已暫停，而且尚未完成任何行銷活動執行時，您可以使用回到草稿來修正錯誤並重新發佈行銷活動。
+
+若要將行銷活動切換回草稿狀態，請開啟協調的行銷活動，然後按一下行銷活動畫布工具列中的&#x200B;**[!UICONTROL 返回草稿]**&#x200B;按鈕。
+
+![](assets/back-to-draft.png)
+
+行銷活動會取消發佈，而工作流程會停止。 行銷活動會傳回&#x200B;**草稿**&#x200B;狀態。 您現在可以修正已識別的問題，然後[測試行銷活動](#test)並在準備就緒時再次[發佈](#publish)。
 
 ## 確認訊息傳送 {#confirm-sending}
 
