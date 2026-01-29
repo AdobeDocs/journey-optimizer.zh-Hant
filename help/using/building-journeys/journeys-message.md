@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="內建頻道動作"
->abstract="Journey Optimizer 內建頻道動作功能。您可以直接在自己的歷程中新增一則訊息 (電子郵件、文字簡訊 (SMS/MMS)、推播) 或傳入體驗 (應用程式內、網頁版、程式碼型體驗、內容卡片) 活動，以及定義設定和內容。接著會根據歷程的內容執行和傳送該活動。"
+>abstract="Journey Optimizer 內建頻道動作功能。您只需新增訊息(電子郵件、簡訊(SMS/MMS)、推播、直接郵件)或傳入體驗（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程中，並定義設定和內容即可。 接著會根據歷程的內容執行和傳送該活動。"
 
 [!DNL Journey Optimizer]附帶內建頻道動作功能，可用來傳送訊息：當設定檔進入此活動時，會傳送訊息給設定檔。
 
@@ -75,6 +75,15 @@ ht-degree: 17%
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="驗證" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>建立直接郵件訊息</strong></a>
       </div>
       <p>
       </td>

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '457'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 >
 > 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的直接郵件行銷活動。 [了解更多](../test-approve/gs-approval.md)
 
-在啟用直接郵件行銷活動之前，請確定已正確設定行銷活動和擷取檔案。 若要這麼做，請檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
+在啟用直接郵件行銷活動之前，請確定已正確設定行銷活動或歷程以及擷取檔案。 若要這麼做，請檢查編輯器上半區段的警示。 其中一些是簡單的警告，但其他警告可能會阻止您傳送訊息。 可能會發生兩種型別的警報：警告和錯誤。
 
 * **警告**&#x200B;參考建議和最佳實務。 例如，如果SMS訊息為空，則會顯示警告訊息。
 
@@ -42,18 +42,19 @@ ht-degree: 7%
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-當您的直接郵件行銷活動準備就緒時，請按一下&#x200B;**[!UICONTROL 啟動]**&#x200B;按鈕。 當行銷活動開始時，擷取檔案會自動產生，並匯出至[檔案路由設定](../direct-mail/direct-mail-configuration.md)中指定的伺服器。
+當您的直接郵件行銷活動準備就緒時，請完成您的[歷程](../building-journeys/journey-gs.md)或[行銷活動](../campaigns/create-campaign.md)的設定以進行傳送。
 
 >[!NOTE]
 >
 >匯出的檔案預設以換行結束。 這可確保與標準資料處理工具的相容性。
 
-
-傳送後，您可以在行銷活動報表中測量直接郵件行銷活動的影響。 如需直接郵件報告的詳細資訊，請參閱[本節](../reports/campaign-global-report-cja-direct.md)。
+傳送後，您可以在報告中測量直接郵件行銷活動或歷程的影響。 如需直接郵件報告的詳細資訊，請參閱下列章節：
+* [直接郵件行銷活動報告](../reports/campaign-global-report-cja-direct.md)
+* [直接郵件歷程報告](../reports/journey-global-report-cja-direct.md)
 
 ## 管理直接郵件的同意 {#dm-consent-management}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。依預設，同意欄位的值是空的，並視為同意接收您的通訊。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。依預設，同意欄位的值是空的，並視為同意接收您的通訊。
 
 如果設定檔已選擇不接收直接郵件，則在對應的Experience Platform設定檔屬性中，`consents.marketing.postalMail.val`的值將為`n`，且對應的設定檔將從後續傳遞中排除。
 

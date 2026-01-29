@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 19%
+source-wordcount: '972'
+ht-degree: 15%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直接郵件建立"
->abstract="在排程的行銷活動中建立直接郵件訊息，並設計直接郵件提供者向您的客戶傳送郵件所需的解壓縮檔案。"
+>abstract="在排程的行銷活動和歷程中建立直接郵件訊息，並設計直接郵件供應商傳送郵件給客戶所需的擷取檔案。"
 
-若要建立直接郵件訊息、建立排程的行銷活動，並設定解壓縮檔案。 直接郵件提供者需要此檔案，才能將郵件傳送給您的客戶。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="結束活動"
+>abstract="直接郵件是離線管道，可讓您個人化和產生第三方直接郵件提供者傳送郵件給客戶所需的擷取檔案。"
+
+若要建立直接郵件訊息，請建立排程的行銷活動或歷程，並設定解壓縮檔案。 直接郵件提供者需要此檔案，才能將郵件傳送給您的客戶。
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ ht-degree: 19%
 >1. [檔案路由組態](../direct-mail/direct-mail-configuration.md#file-routing-configuration)，指定應該上傳及儲存解壓縮檔案的伺服器，
 >1. 將參考檔案路由設定的[直接郵件設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
-## 建立直接郵件行銷活動{#create-dm-campaign}
+## 新增直接郵件訊息 {#create-dm-campaign}
 
-若要建立直接郵件行銷活動，您將設定排程的行銷活動、選取目標對象，並設定直接郵件設定，包括訊息設定。 請依照下列步驟操作：
+瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增直接郵件訊息。
+
+>[!BEGINTABS]
+
+>[!TAB 新增直接郵件訊息至歷程]
+
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**直接郵件**&#x200B;活動。
+
+1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息設定。 根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+
+1. 設定要傳送給直接郵件提供者的擷取檔案。 若要這麼做，請按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. 調整解壓縮檔案屬性，例如檔案名稱或要顯示的欄。 如需如何設定解壓縮檔案屬性的詳細資訊，請參閱本節： [建立直接郵件訊息](../direct-mail/create-direct-mail.md#extraction-file)。
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. 定義解壓縮檔案的內容後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
+
+   若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查擷取檔案的呈現方式。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+當您的擷取檔案準備就緒時，請完成[歷程](../building-journeys/journey-gs.md)的設定以傳送它。
+
+>[!TAB 新增直接郵件訊息至行銷活動]
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
-1. 選取您要執行的行銷活動型別
-
-   * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
-
-   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。
+1. 選取&#x200B;**已排程 — 行銷**&#x200B;行銷活動型別。
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
@@ -113,4 +140,3 @@ ht-degree: 19%
       若要變更欄的位置，請將其拖放至&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中的所需位置。 若要刪除欄，請選取該欄，然後按一下&#x200B;**[!UICONTROL 格式]**&#x200B;窗格中的&#x200B;**[!UICONTROL 移除]**&#x200B;按鈕。
 
 您現在可以測試直接郵件訊息，並將其傳送給您的對象。 [瞭解如何測試和傳送直接郵件訊息](test-send-direct-mail.md)
-

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 18%
+source-wordcount: '1708'
+ht-degree: 21%
 
 ---
 
@@ -60,6 +60,11 @@ ht-degree: 18%
 >id="ajo_dm_file_routing_aws_region"
 >title="選擇 AWS 區域"
 >abstract="選取要將直接郵件檔案匯出到哪個 AWS 伺服器的地理區域。一般做法是，最好選擇離您的直接郵件提供者所在位置最近的區域。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="選擇 AWS 區域"
+>abstract="如果您的檔案路由設定將使用歷程進行傳送，您可以指定檔案將傳送到伺服器的頻率。"
 
 >[!NOTE]
 >
@@ -149,11 +154,15 @@ ht-degree: 18%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
 若要加密檔案，請在&#x200B;**[!UICONTROL PGP/GPG加密金鑰]**&#x200B;欄位中複製並貼上您的加密金鑰。
+
+如果您的檔案路由設定將使用歷程進行傳送，您可以指定檔案將傳送到伺服器的頻率。
+
+![](assets/file-routing-journey.png)
 
 填寫伺服器型別的詳細資料後，請選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
 
@@ -185,7 +194,7 @@ ht-degree: 18%
 >
 >Base64編碼之後，金鑰將不再包含`-----BEGIN/END RSA PRIVATE KEY-----`標籤，且不得包含任何分行符號。 必須將對應的公開金鑰新增至SFTP伺服器的授權金鑰檔案。
 
-如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 
