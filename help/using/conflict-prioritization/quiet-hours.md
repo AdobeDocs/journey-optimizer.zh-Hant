@@ -192,4 +192,4 @@ ht-degree: 4%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
