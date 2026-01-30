@@ -7,9 +7,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '880'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 # 透過內容實驗在程式碼型體驗中使用決策 {#experience-decisioning-uc}
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
+
+➡️ [探索視訊中的使用案例](#video)
 
 >[!NOTE]
 >
@@ -95,11 +97,7 @@ ht-degree: 4%
 
 ## 建立程式碼型體驗行銷活動
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-設定兩個選取策略後，請建立程式碼型體驗行銷活動，針對每個策略定義不同的處理方式，以比較哪個策略的效能最佳。
+設定好這兩個選取策略後，請建立程式碼型體驗行銷活動，您可針對每個策略定義不同的處理方式，以比較哪個策略的效能最佳。
 
 1. 建立行銷活動，並選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;動作。 [了解更多](../code-based/create-code-based.md)
 
@@ -131,7 +129,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 儲存您的變更，然後按一下[建立]。**&#x200B;** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
+1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#create-decision)
 
@@ -157,3 +155,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
 * 您可以將績效最佳的排名推送給所有客戶。
 * 或者，您也可以使用選取策略來建立新的行銷活動，並複製表現最佳的排名方法。
+
+## 作法影片 {#video}
+
+探索端對端逐步解說，說明如何在程式碼型體驗中使用決策。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

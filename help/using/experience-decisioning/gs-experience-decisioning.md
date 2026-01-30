@@ -1,5 +1,5 @@
 ---
-title: 開始使用 Decisioning
+title: 開始使用決策
 description: 深入了解決策
 feature: Decisioning
 topic: Integrations
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '631'
 ht-degree: 22%
 
 ---
 
-# 開始使用 Decisioning {#get-started-experience-decisioning}
+# 開始使用決策 {#get-started-experience-decisioning}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
@@ -25,11 +25,13 @@ ht-degree: 22%
 
 決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
 
-這些決定專案會透過[新的程式碼型體驗管道](../code-based/get-started-code-based.md) (可在Journey Optimizer促銷活動中存取)，順暢地整合至廣泛的傳入介面。
+這些決定專案會透過[程式碼型體驗管道](../code-based/get-started-code-based.md) （可在[!DNL Adobe Journey Optimizer]個行銷活動中存取），順暢地整合至廣泛的傳入介面。
 
 >[!IMPORTANT]
 >
 >決策決策政策僅適用於程式碼型體驗和電子郵件行銷活動。
+
+➡️ [在影片中探索此功能](#video)
 
 ➡️在[本節](experience-decisioning-uc.md)中呈現了一個端對端使用案例，說明如何透過程式碼型體驗管道建立決定並用於內容實驗。
 
@@ -98,3 +100,8 @@ ht-degree: 22%
 * **[決策護欄](decisioning-guardrails.md)** — 檢閱決策實施的重要限制和最佳實務。
 * **[決策教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 探索有關決策功能和最佳實務的逐步教學課程影片。
 
+## 作法影片 {#video}
+
+瞭解Adobe Journey Optimizer中的決策功能。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

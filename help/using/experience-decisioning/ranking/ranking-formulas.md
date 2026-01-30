@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 4%
+source-wordcount: '1481'
+ht-degree: 6%
 
 ---
 
 # 使用 AI 公式產生器 {#create-ranking-formulas}
 
-**排名公式**&#x200B;可讓您定義規則，這些規則將決定應首先顯示哪個優惠，而不是考慮優先順序分數。
+**排名公式**&#x200B;可讓您定義規則，決定應先顯示哪個優惠，而不是考慮優先順序分數。
 
 若要建立這些規則，**[!UICONTROL Adobe Journey Optimizer]**&#x200B;中的AI公式產生器可提供更大的彈性，並可控制優惠的排名方式。 您現在可以定義自訂排名公式，這些公式透過引導式介面組合AI模型分數、優惠方案優先順序、設定檔屬性、優惠方案屬性和內容訊號，而不是僅仰賴靜態優惠方案優先順序。
 
 此方法可讓您根據AI驅動的傾向、業務價值和即時內容的任意組合，動態調整優惠方案排名，讓您更輕鬆地根據行銷目標和客戶需求做出決策。 AI公式產生器支援簡單或進階公式，視您要套用多少控制項而定。
 
 建立排名公式後，您可以將其指派給[選取策略](../selection-strategies.md)。 如果使用此選擇策略時多個優惠方案都符合呈現的條件，決策引擎會使用選取的公式來計算要先傳送哪個優惠方案。
+
+➡️ [在影片中探索此功能](#video)
 
 ## 建立排名公式 {#create-ranking-formula}
 
@@ -64,7 +66,7 @@ ht-degree: 4%
    >
    >排名公式中的巢狀深度限製為30個層級。 這是透過計算PQL字串中的`)`個右括弧來測量。 規則字串的大小最多可達8KB （UTF-8編碼字元）。 這相當於8,000個ASCII字元（每個1個位元組），或2,000-4,000個非ASCII字元（每個2-4個位元組）。 [進一步瞭解Decisioning護欄和限制](../decisioning-guardrails.md#ranking-formulas)
 
-1. 您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。
+1. 您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這尤其適合用於經常變更的屬性，例如產品可用性或即時定價。
 
    所有客戶都可在公開測試版中，使用此功能。如果您想要存取許可權，請聯絡您的客戶代表。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
 
@@ -93,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 在&#x200B;**[!UICONTROL 條件1]**&#x200B;區段中，執行下列動作，指定您要套用排名分數的決定專案：
-   * 選取[決定專案屬性](../items.md#attributes)，
-   * 選取邏輯運運算元，
-   * 新增符合條件 — 您可以輸入值、選取設定檔屬性或[內容資料](../context-data.md)。
+   * 選取[決定專案屬性](../items.md#attributes)
+   * 選取邏輯運運算元
+   * 新增符合條件 — 您可以輸入值、選取設定檔屬性或[內容資料](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -119,7 +121,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -274,3 +276,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 作法影片 {#video}
+
+了解如何使用 Adobe Journey Optimizer 中的 AI 公式產生器，建立自訂產品建議排名策略。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
