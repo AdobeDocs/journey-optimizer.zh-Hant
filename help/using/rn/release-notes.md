@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 20%
+source-wordcount: '1816'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -102,24 +102,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>網頁推播通知頻道</strong><br/></th>
+<th><strong>Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在支援<strong>網頁推播通知</strong>，將推播頻道擴展至行動裝置以外。 您可以順暢地傳送通知給<strong>行動與案頭瀏覽器</strong>，讓您直接在他們的裝置上聯絡客戶，而不需要應用程式。 此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
+<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
-<!--p>Previously released in Beta, this capability is now available to all environments (General Availability).</p-->
-<p>如需詳細資訊，請參閱<a href="../push/push-configuration-web.md">詳細文件</a>。</p>
-<p>推出日期： 2026年1月28日</p>
+<p>Previously released in Beta, this capability is now available to all environments (General Availability).</p>
+<p>For more information, refer to the detailed documentation.</p>
+<p>Availability date: January 28, 2026</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -196,7 +196,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
