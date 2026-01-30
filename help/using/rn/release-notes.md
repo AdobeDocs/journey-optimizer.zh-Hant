@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
+source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 19%
+source-wordcount: '1636'
+ht-degree: 20%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
@@ -285,22 +285,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>包含物件對應的詳細移轉報表</li>
 </ul>
 <p>推出日期：2026年1月30日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>在Journey Agent中產生內容</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中<strong>產生和管理內容</strong>、建立電子郵件和推播之類的管道內容、套用和預覽範本、透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內編輯。</p>
-<p>推出日期： 2026年2月9日</p>
 </td>
 </tr>
 </tbody>
