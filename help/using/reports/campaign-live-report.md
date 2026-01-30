@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3543'
 ht-degree: 26%
 
 ---
@@ -108,7 +108,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 執行時間]**：每次執行您週期性電子郵件的開始時間。 若要只鎖定一或多個週期性電子郵件，請從&#x200B;**[!UICONTROL 執行時間]**&#x200B;下拉式清單中選取它。
 
-* **[!UICONTROL 已鎖定目標]**：傳送程式期間處理的訊息總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
 * **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到訊息的使用者設定檔數目。
 
@@ -164,7 +164,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="電子郵件 - 依日期劃分的效能"
->abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的深入分析，進而對電子郵件傳送過程進行詳細分析。"
+>abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的洞察，進而對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -219,7 +219,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
 >title="電子郵件 - 最佳收件者網域"
->abstract="「電子郵件 - 最佳收件者」網域圖表和表格提供收件者開啟電子郵件時最常使用網域的詳細劃分，針對過去 24 小時內的收件者行為提供重要的深入分析。"
+>abstract="「電子郵件 - 最佳收件者」網域圖表和表格提供收件者開啟電子郵件時最常使用網域的詳細劃分，針對過去 24 小時內的收件者行為提供重要的洞察。"
 
 ![](assets/campaign_email_live_recipient.png)
 
@@ -252,7 +252,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="應用程式內績效"
->abstract="應用程式內效能 KPI 提供有關訪客在過去 24 小時內參與應用程式內訊息的互動情況的重要分析。"
+>abstract="應用程式內效能 KPI 提供有關訪客在過去 24 小時內參與應用程式內訊息的互動情況的必要洞察。"
 
 **[!UICONTROL 應用程式內績效]** KPI提供過去24小時內設定檔與應用程式內訊息互動的基本深入分析，提供評估應用程式內行銷活動成效和影響的基本量度。
 
@@ -330,7 +330,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 執行時間]**：每次執行您循環推播通知的開始時間。 若要只鎖定一或多個循環推播通知，請從&#x200B;**[!UICONTROL 執行時間]**&#x200B;下拉式清單中選取該通知。
 
-* **[!UICONTROL 已鎖定目標]**：傳送程式期間處理的訊息總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
 * **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到訊息的使用者設定檔數目。
 
@@ -400,7 +400,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++ 進一步瞭解推播通知 — 依平台量度劃分
 
-* **[!UICONTROL 目標]**：分析期間處理的訊息總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
 * **[!UICONTROL 已傳遞]**：與已傳送訊息總數相關的成功傳送訊息數。
 

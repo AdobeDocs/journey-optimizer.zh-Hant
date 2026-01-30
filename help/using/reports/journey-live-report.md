@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3712'
+source-wordcount: '3731'
 ht-degree: 30%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 30%
 
 +++ 進一步瞭解電子郵件傳送統計量度
 
-* **[!UICONTROL 已鎖定目標]**：傳送程式期間處理的訊息總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。 在啟用重新進入的歷程中，設定檔可能會鎖定多次。
 
 * **[!UICONTROL 已排除]**： Adobe Journey Optimizer已排除的設定檔數目。
 

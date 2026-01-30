@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 已鎖定目標<br/> </td> 
-   <td> 傳遞分析期間處理的訊息總數。<br/> </td> 
+   <td> 在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數。 在啟用重新進入的歷程中，設定檔可能會鎖定多次。<br/> </td> 
   </tr>
   <tr> 
    <td>不重複退回<br/> </td> 
@@ -197,7 +197,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td>唯一目標<br/> </td> 
-   <td>傳送程式期間鎖定的不重複設定檔數目。<br/> </td> 
+   <td>在套用排除、隱藏或同意移除之前，符合對象資格的不重複設定檔數目。<br/> </td> 
   </tr> 
   <tr> 
    <td> 取消訂閱<br/> </td> 

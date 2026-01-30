@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 +++ 進一步瞭解如何傳送統計資料
 
-* **[!UICONTROL 已鎖定目標]**：在即時活動期間已鎖定目標的設定檔總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
 * **[!UICONTROL 傳送]**：嘗試傳送至目標設定檔的推播通知總數。
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由於Apple為原生郵件應用程式引入了新的隱私權保護功能，包括郵件隱私權保護，因此傳送者無法再使用追蹤畫素來收集已啟用Apple郵件隱私權保護的設定檔資料。 因此，Adobe Journey Optimizer使用追蹤畫素來追蹤電子郵件開啟的能力可能會受到影響。
-> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=zh-Hant) Apple iOS隱私權變更對電子郵件行銷的影響。
+> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
 > 
 > 我們建議將重點放在點按次數和轉換量度上，而非開放率，以取得更準確的深入分析。
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 +++ 進一步瞭解按一下funnel量度
 
-* **[!UICONTROL 唯一目標]**：傳送程式期間鎖定的唯一設定檔數目。
+* **[!UICONTROL 唯一目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的不重複設定檔數目。
 
 * **[!UICONTROL 不重複傳送次數]**：至少嘗試傳送一封電子郵件的不重複設定檔數目。
 
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 +++ 深入瞭解不重複傳送統計量度
 
-* **[!UICONTROL 唯一目標]**：傳送程式期間鎖定的唯一設定檔數目。
+* **[!UICONTROL 唯一目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的不重複設定檔數目。
 
 * **[!UICONTROL 不重複傳送次數]**：至少嘗試傳送一封電子郵件的不重複設定檔數目。
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 
 +++ 進一步瞭解如何傳送統計資料
 
-* **[!UICONTROL 已鎖定目標]**：傳送程式期間處理的電子郵件總數。
+* **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。 在啟用重新進入的歷程中，設定檔可能會鎖定多次。
 
 * **[!UICONTROL 傳送]**：您電子郵件的傳送總數。
 
