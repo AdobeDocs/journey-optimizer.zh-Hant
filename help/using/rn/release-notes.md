@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
+source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1709'
 ht-degree: 19%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
@@ -293,23 +293,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>自訂動作監視</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>透過新的監視儀表板和豐富的歷程步驟事件資料，更深入瞭解insight在<strong>自訂動作端點</strong>的健全狀況和效能。 追蹤成功的呼叫、錯誤、輸送量、回應時間和佇列等待時間，以快速瞭解異常發生的時間、地點和原因。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>推出日期： 2026年1月29日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>在Journey Agent中產生內容</strong><br/></th>
 </tr>
 </thead>
@@ -317,7 +300,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>由Adobe Experience Platform Agent Orchestrator提供技術支援，<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中<strong>產生和管理內容</strong>、建立電子郵件和推播之類的管道內容、套用和預覽範本、透過提示調整色調和風格，以及在內容Designer中開啟內容以進行內容內編輯。</p>
-<p>推出日期：2026年2月2日</p>
+<p>推出日期： 2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +316,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>您現在可以使用<strong>決策</strong>個人化並最佳化<strong>推播和SMS</strong>訊息的內容。 使用優先順序分數、公式或AI模型，向客戶顯示最佳內容。</p>
-<p>推出日期： 2026年2月3日</p>
+<p>推出日期： 2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -350,7 +333,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>歷程畫布現在提供新的<strong>內容決定活動</strong>，以便將<strong>個人化優惠</strong>直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
 <p>此功能將適用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年2月3日</p>
+<p>推出日期： 2026年2月9日</p>
 </td>
 </tr>
 </tbody>
@@ -358,10 +341,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改進
 
-* 所有SMS提供者現在都支援&#x200B;**SMS Webhook** - <strong>Webhook</strong>。 您可以根據每個Webhook的預期用途、入站Webhook來設定以擷取傳入訊息，以及回饋Webhook來接收傳遞回條、狀態更新和其他訊息相關事件。
-
-  推出日期：2026年1月30日。
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至<strong>決定專案</strong>的功能，這些功能可在透過決定原則的程式碼式體驗行銷活動中運用。
 
-  推出日期：2026年2月3日。
+  推出日期：2026年2月9日。
