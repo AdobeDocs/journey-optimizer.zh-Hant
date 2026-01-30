@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
+source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 19%
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新功能 {#jan-26-01-features}
 
@@ -196,7 +196,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [瞭解詳情](../content-management/brands-score.md#validate-quality)。 [在視訊中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+* **AI助理內容品質檢查** — 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [閱讀全文](../content-management/brands-score.md#validate-quality)。
+
+  [在視訊中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 體驗決策
 
@@ -206,7 +208,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   推出日期：2026年1月27日。
 
-* **自訂動作錯誤回應承載** — 您現在可以為自訂動作定義選用的<strong>錯誤回應承載</strong>。 呼叫失敗時，錯誤裝載會公開於歷程內容（在動作的errorResponse節點下），並可與<strong>一併提供於</strong>逾時/錯誤分支`jo_status_code`，以支援更豐富的遞補邏輯和偵錯。 [閱讀全文](../action/action-response.md)
+* **自訂動作錯誤回應承載** — 您現在可以為自訂動作定義選用的<strong>錯誤回應承載</strong>。 呼叫失敗時，錯誤裝載會公開於歷程內容（在動作的errorResponse節點下），並可與<strong>一併提供於</strong>逾時/錯誤分支`jo_status_code`，以支援更豐富的遞補邏輯和偵錯。 [閱讀全文](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
   推出日期：2026年1月27日。
 
