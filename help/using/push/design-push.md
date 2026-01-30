@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 13%
+source-wordcount: '1772'
+ht-degree: 14%
 
 ---
 
 # 設計推播通知 {#design-push-notification}
 
-建立推播通知後，您就可以針對iOS、Android和Web平台設計其內容。 此頁面會引導您撰寫訊息、設定按一下行為、新增媒體和按鈕，以及設定進階選項以建立吸引人的推播通知，進而引起觀眾的共鳴。
+建立推播通知後，您就可以針對iOS和Android平台設計其內容。 此頁面會引導您撰寫訊息、設定按一下行為、新增媒體和按鈕，以及設定進階選項以建立吸引人的推播通知，進而引起觀眾的共鳴。
 
 ## 標題和本文 {#push-title-body}
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 若要撰寫訊息，請按一下&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位。 使用個人化編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解個人化編輯器中的[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)。
 
-使用裝置預覽區段來視覺化推播通知在iOS、Android和Web上的顯示方式。
+使用裝置預覽區段來視覺化推播通知在iOS和Android上的顯示方式。
 
 使用AI Assistant加速內容建立，並使用[AI Assistant產生吸引人的推播通知文字，以產生文字](../content-management/generative-text.md)，或使用[AI Assistant建立完整的推播通知，以產生完整內容](../content-management/generative-full-content.md)。
 
@@ -96,13 +96,15 @@ ht-degree: 13%
 >
 >在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在&#x200B;**[!UICONTROL 進階選項]**&#x200B;區段中啟用[新增可變內容旗標](#advanced-options-push)選項。
 
->[!TAB 網頁]
+<!--
+>[!TAB Web]
 
-在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 您也可以在URL中包含個人化代號，以便自訂每個使用者的內容。
+Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
 
-按一下![使用AI助理編輯文字](assets/do-not-localize/Smock_ImageAdd_18_N.svg)，以使用Journey Optimizer AI助理快速產生媒體。
+Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
 
 ![](assets/web-media.png)
+-->
 
 >[!ENDTABS]
 
@@ -135,15 +137,17 @@ ht-degree: 13%
 
 對於iOS，會指定通知類別識別碼。 必須在iOS應用程式中預先設定通知類別，以便定義要顯示的按鈕和要採取的動作。 如需詳細資訊，請參閱[Apple檔案](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)。
 
->[!TAB 網頁]
+<!--
+>[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-使用&#x200B;**[!UICONTROL 新增按鈕]**&#x200B;選項來定義每個按鈕的標籤和相關動作，如下所述：
+Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
 
-* **[!UICONTROL 深層連結]**：將使用者重新導向至您應用程式內的特定檢視、區段或索引標籤。 在相關欄位中輸入深層連結URL。
+* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
 
-* **[!UICONTROL 網頁URL]**：將使用者重新導向至外部網頁。 在相關欄位中輸入URL。
+* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
+-->
 
 >[!ENDTABS]
 
@@ -154,9 +158,11 @@ ht-degree: 13%
 >title="關於靜音通知"
 >abstract="在不打擾使用者的情況下傳送通知，通知不會顯示在通知中心或通知列中。"
 
+<!--
 >[!AVAILABILITY]
 >
->Journey Optimizer中的Web推播通知不支援&#x200B;**無訊息通知**&#x200B;功能。
+>Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
+-->
 
 無訊息推播通知（或背景通知）是傳送至應用程式的隱藏指示。 例如，它可用來通知您的應用程式新內容是否可用，或在背景啟動下載。
 

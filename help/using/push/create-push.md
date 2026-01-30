@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '832'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 11%
 >title="推播訊息建立"
 >abstract="新增您的推播訊息並開始使用個人化編輯器對其進行個人化。"
 
-您可以為行動裝置(iOS和Android)和網頁瀏覽器建立推播通知。 此頁面會引導您完成在歷程或行銷活動中設定推播通知的程式。
+您可以建立行動裝置(iOS和Android)的推播通知。 此頁面會引導您完成在歷程或行銷活動中設定推播通知的程式。
 
 ## 在歷程或行銷活動中建立推播通知 {#create}
 
@@ -72,7 +72,7 @@ ht-degree: 11%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 推播通知]**，然後選取或建立新設定。
 
-   深入瞭解[此頁面](push-configuration.md)上的行動裝置和[此頁面](push-configuration-web.md)上的網頁的推送設定。
+   在[此頁面](push-configuration.md)進一步瞭解行動裝置的推播設定。
 
    ![](assets/push_create_3.png)
 
