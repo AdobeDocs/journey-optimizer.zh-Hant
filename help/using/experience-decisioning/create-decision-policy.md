@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2108'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->決定原則適用於&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**推播通知**&#x200B;管道的所有客戶。
+>決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和SMS頻道的所有客戶。
 >
 >電子郵件通道的決策功能在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
@@ -114,6 +114,27 @@ ht-degree: 6%
    >[!NOTE]
    >
    >**[!UICONTROL 重複使用決定輸出]**&#x200B;可讓您重複使用已在此電子郵件中建立的決定原則。
+
+>[!TAB 簡訊]
+
+對於SMS，您可以使用&#x200B;**個人化編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;選單來新增決定原則。
+
++++從個人化編輯器新增決定原則
+
+1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++從決定功能表新增決定原則
+
+1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+
+1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB 推播通知]
 
@@ -258,7 +279,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -273,7 +294,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >

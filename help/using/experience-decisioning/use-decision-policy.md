@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->決定原則適用於&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**推播通知**&#x200B;管道的所有客戶。
+>決定原則適用於&#x200B;**程式碼型體驗**、**簡訊**&#x200B;及&#x200B;**推播通知**&#x200B;管道的所有客戶。
 >
 >電子郵件通道的決策功能在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
@@ -56,6 +56,14 @@ ht-degree: 3%
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB 簡訊]
+
+1. 開啟&#x200B;**Personalization編輯器**&#x200B;並導覽至&#x200B;**[!UICONTROL 決定原則]**。
+
+2. 選取&#x200B;**[!UICONTROL 插入語法]**&#x200B;以新增決策原則的程式碼。
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB 推播]
 
 1. 開啟&#x200B;**Personalization編輯器**&#x200B;並導覽至&#x200B;**[!UICONTROL 決定原則]**。
@@ -74,7 +82,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->針對程式碼型體驗和電子郵件管道，針對您要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於推播頻道，只能傳回一個決定專案。
+>針對程式碼型體驗和電子郵件管道，針對您要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於簡訊和推播頻道，只能傳回一個決定專案。
 
 ## 使用決策專案屬性個人化 {#attributes}
 
@@ -98,10 +106,16 @@ ht-degree: 3%
 
   +++
 
-* 對於&#x200B;**推播**&#x200B;管道，請務必在決定原則的語法程式碼之後插入屬性。 此語法應一律保留在第1行。
+* 對於&#x200B;**簡訊**&#x200B;和&#x200B;**推播**&#x200B;管道，請務必在決定原則的語法程式碼之後插入屬性。 此語法應一律保留在第1行。
+
+  +++檢視範例
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >如果您在推送內容中插入影像資產屬性（例如在標題或內文中），屬性值會顯示為URL。 影像本身不會在這些欄位中轉譯。
+  >如果您在SMS或推播內容（例如在標題或內文中）中插入影像資產屬性，屬性值會顯示為URL。 影像本身不會在這些欄位中轉譯。
 
 * 若要啟用決定專案追蹤，請新增`trackingToken`屬性： `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 

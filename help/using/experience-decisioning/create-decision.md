@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 6cfea1a34cb004d4028f190be92d8365f90de6b2
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 27%
+source-wordcount: '674'
+ht-degree: 26%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 27%
 
 ## 護欄與限制
 
-* **支援的管道** — 這些管道有決策原則可供使用：程式碼型體驗、電子郵件和推播通知。
+* **支援的管道** — 這些管道有決策原則可供使用：程式碼型體驗、電子郵件、簡訊和推播通知。
 * **推送通知SDK需求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
 * **電子郵件映象頁面** — 目前，決定專案不會在電子郵件映象頁面中呈現。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
@@ -85,8 +85,12 @@ ht-degree: 27%
 
 瞭解如何使用Decisioning為受眾個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 瞭解如何使用Decisioning為受眾個人化推播通知。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+瞭解如何使用Decisioning為受眾個人化SMS訊息。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1178'
 ht-degree: 8%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解更多關於權限的資訊，請參閱[此區段](../administration/high-low-permissions.md)。
+   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
    ![](assets/sms_tracking_1.png)
 
@@ -136,6 +136,12 @@ ht-degree: 8%
    > 短URL的生命週期設為30天。 在此期間之後，將無法再存取這些短URL，且會顯示訊息： `404 short-code not found`。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](#sms-mms-test)所詳述。
+
+## 使用Experience Decisioning個人化 {#decisioning-sms}
+
+您可以使用&#x200B;**Experience Decisioning**&#x200B;個人化和最佳化SMS訊息的內容。 此功能可讓您使用優先順序分數、公式或AI模型，以動態方式選取並向客戶顯示最佳內容。
+
+如需如何在SMS訊息中建立和使用決定原則的詳細資訊，請參閱[本節](../experience-decisioning/create-decision.md)。
 
 ## 定義多媒體簡訊內容{#mms-content}
 
