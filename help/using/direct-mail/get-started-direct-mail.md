@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 >[!AVAILABILITY]
 >
->直接郵件訊息只能在歷程及已排程行銷活動的內容中建立。 它們無法用於協調和API觸發的行銷活動。
+>可以在歷程和行銷活動的內容中建立直接郵件訊息。 它們無法用於API觸發的行銷活動。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ ht-degree: 76%
 
 瞭解如何善用Adobe Journey Optimizer中的直接郵件頻道，在您的歷程中自動執行並排程直接郵件傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
