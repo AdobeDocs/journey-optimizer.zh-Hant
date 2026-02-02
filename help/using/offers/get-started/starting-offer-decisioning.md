@@ -120,6 +120,6 @@ ht-degree: 100%
 
 以下影片說明如何使用決定管理來定義和管理您的產品建議，並運用即時客戶資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470052?captions=chi_hant&quality=12&learn=on)
 
 
