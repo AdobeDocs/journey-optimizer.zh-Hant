@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 7%
+source-wordcount: '2029'
+ht-degree: 6%
 
 ---
 
@@ -34,64 +34,131 @@ ht-degree: 7%
 
 若要向客戶呈現最佳的動態優惠和體驗，請將決定原則新增至行銷活動或歷程中的內容，然後設定要傳回的專案及要使用的選擇策略。 要執行此操作，請遵循下列步驟：
 
-1. [新增決定原則](#add) — 來自Personalization編輯器或電子郵件Designer。
-1. [設定決定原則](#configurre) — 新增名稱並指定要傳回的專案數。
+1. [新增決定原則](#add)
+1. [設定決定原則](#configure) — 新增名稱並指定電子郵件通道要傳回的專案數。
 1. [設定策略順序](#strategy) — 選取要連同決定原則一起傳回的專案。
 1. [選取遞補優惠](#fallback) （選擇性） — 選取若無合格專案或選取策略，要顯示的專案。
 1. [檢閱並儲存](#review)選取策略
+1. [指派位置](#placement) （電子郵件頻道）
 
 >[!AVAILABILITY]
 >
->目前，決定原則適用於&#x200B;**程式碼型體驗**&#x200B;管道的所有客戶。 它們僅適用於&#x200B;**電子郵件**&#x200B;頻道。 請聯絡您的 Adobe 代表以取得存取權。
+>決定原則適用於&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**推播通知**&#x200B;管道的所有客戶。
+>
+>電子郵件通道的決策功能在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
 ## 新增決定原則 {#add}
 
-1. 開啟歷程或行銷活動、選取[頻道動作](../building-journeys/journeys-message.md)並編輯訊息的內容。
+若要在您的訊息中新增決定原則，請開啟歷程或行銷活動，然後選取[頻道動作](../building-journeys/journeys-message.md)。
 
-1. 針對電子郵件，請切換&#x200B;**[!UICONTROL 啟用決策]**&#x200B;選項。
+編輯訊息內容並瀏覽以下標籤，瞭解如何根據所選頻道新增決定原則的更多資訊。
+
+>[!BEGINTABS]
+
+>[!TAB 程式碼型體驗]
+
+針對程式碼型體驗，您可以使用&#x200B;**程式碼編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;功能表來新增決定原則。
+
++++從程式碼編輯器新增決定原則
+
+1. 使用&#x200B;**[!UICONTROL 編輯程式碼]**&#x200B;按鈕開啟程式碼編輯器。
+
+1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+   ![](assets/decision-policy-add-code-editor.png)
+
++++
+
++++從決定功能表新增決定原則
+
+1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+
+1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+   ![](assets/decision-policy-add-code.png)
+
++++
+
+>[!TAB 電子郵件]
+
+1. 切換&#x200B;**[!UICONTROL 啟用決策]**&#x200B;選項。
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
    >啟用決策功能會清除現有的電子郵件內容。 如果您已設計電子郵件，請務必預先將內容儲存為範本。
+
+1. 使用電子郵件設計工具中可用的&#x200B;**個人化編輯器**&#x200B;或&#x200B;**決策**&#x200B;功能表，新增新的決定原則。
+
+   +++從Personalization編輯器新增決定原則
+
+   1. 使用主旨行欄位或電子郵件內文中可新增個人化的任何欄位中可用的![](assets/do-no-localize/editor-icon.svg)圖示，開啟個人化編輯器。
+
+   1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+      ![](assets/decision-policy-add-email-editor.png)
+
+   +++
+
+   +++從決定功能表新增決定原則
+
+   1. 開啟電子郵件Designer並選取電子郵件結構中的任何元件。
+
+   1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+
+   1. 按一下&#x200B;**[!UICONTROL 新增原則]**&#x200B;按鈕。
+
+      ![](assets/decision-policy-add-email-add.png)
+
+   >[!NOTE]
    >
-   >請注意，在電子郵件中設定的任何決定原則將不會儲存在範本中。 如果您將範本套用至其他電子郵件，則需要重新設定原則。
+   >**[!UICONTROL 重複使用決定輸出]**&#x200B;可讓您重複使用已在此電子郵件中建立的決定原則。
 
-1. 開啟&#x200B;**個人化編輯器**&#x200B;以建立決定原則。 對於電子郵件，您也可以在&#x200B;**電子郵件設計工具**&#x200B;中使用專用功能表來建立決定原則。 展開下列各節以探索這兩種方法。
+>[!TAB 推播通知]
 
-   +++從Personalization編輯器建立決定原則
+對於推播通知，您可以使用&#x200B;**個人化編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;選單來新增決定原則。
 
-   1. 開啟個人化編輯器並選取&#x200B;**[!UICONTROL 決定原則]**。
-   1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕以建立新原則。
++++從個人化編輯器新增決定原則
 
-      ![](assets/decision-code-based-create.png)
+1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
-   +++
+   ![](assets/decision-policy-add-push.png)
 
-   +++從電子郵件Designer建立決定原則
++++
 
-   在電子郵件內容中選取元件，按一下工具列或屬性窗格中的&#x200B;**[!UICONTROL 決策]**&#x200B;圖示，然後選取&#x200B;**[!UICONTROL 新增原則]**。
++++從決定功能表新增決定原則
 
-   **[!UICONTROL 重複使用決定輸出]**&#x200B;可讓您重複使用已在此電子郵件中建立的決定原則。
+1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
-   ![](assets/decision-policy-email-designer.png)
+1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
-   +++
+   ![](assets/decision-policy-add-push-menu.png)
+
+>[!IMPORTANT]
+>
+>具有推播通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
+
+>[!ENDTABS]
 
 ## 設定決定原則 {#configure}
 
-將新的決定原則新增至內容後，決定原則設定畫面會隨即開啟。
+將新的決定原則新增至內容後，決定原則設定畫面會隨即開啟。 請依照以下步驟設定決定原則：
 
 1. 提供決定原則的名稱，並選取目錄（目前僅限於預設的&#x200B;**[!UICONTROL 優惠]**&#x200B;目錄）。
 
-1. 選取要傳回的專案數。 例如，如果您選取 2，則目前設定將顯示最佳的 2 個符合資格的產品建議。
-
    ![](assets/decision-code-based-details.png)
 
-   對於電子郵件通道，**[!UICONTROL 專案數]**&#x200B;欄位預設設為1，除非從&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則，否則無法修改。 展開下列區段以取得詳細資訊：
+1. **[!UICONTROL 專案數]**&#x200B;欄位可讓您定義要連同決定原則一起傳回的決定專案數。 例如，如果您選取 2，則目前設定將顯示最佳的 2 個符合資格的產品建議。
 
-   +++使用&#x200B;**[!UICONTROL 重複格線]**&#x200B;元件，在電子郵件中傳回多個決定專案
+   >[!NOTE]
+   >
+   >此選項僅適用於電子郵件和程式碼型體驗管道。 對於所有其他管道，每個動作只能傳回1個決定專案。
+
+   若要傳回電子郵件通道的多個專案，您必須在&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則。 展開下列區段以取得詳細資訊：
+
+   +++在電子郵件中傳回多個決定專案
 
    1. 拖曳電子郵件中的&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;窗格視需要加以設定。
 
@@ -191,7 +258,7 @@ ht-degree: 7%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -206,7 +273,7 @@ ht-degree: 7%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >
@@ -220,7 +287,7 @@ ht-degree: 7%
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB 編輯或刪除元件屬性中的原則]
+>[!TAB 從決策功能表編輯或刪除原則]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -237,4 +304,3 @@ ht-degree: 7%
 現在您已瞭解如何建立決定原則，您已準備好將其用於[!DNL Journey Optimizer]管道以傳遞優惠方案。
 
 ➡️ [瞭解如何在訊息中使用決定原則](../experience-decisioning/use-decision-policy.md)
-

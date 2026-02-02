@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '663'
+ht-degree: 27%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 29%
 
 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。 其目標是為每個設定檔選取最佳優惠方案，而行銷活動/歷程製作可讓您指示應如何顯示選取的決策專案，包括要包含在訊息中的專案屬性。
 
->[!AVAILABILITY]
->
->目前，計畫碼型體驗管道的所有客戶都可使用決策政策。 這些變數僅供電子郵件通道使用。 請聯絡您的 Adobe 代表以取得存取權。
-
-## 主要步驟 {#key}
-
-在訊息中運用決定原則的主要步驟如下：
-
-1. [建立決定原則](../experience-decisioning/create-decision-policy.md)
-
-   選擇要傳回的專案數、設定選擇策略、遞補選項和評估順序，在您的訊息中設定決定原則。
-
-1. [在您的內容中使用決定原則](../experience-decisioning/use-decision-policy.md)
-
-   使用決定原則輸出和您要在訊息中顯示的決定專案屬性，個人化您的內容。
-
-1. [建立報告儀表板](cja-reporting.md)
-
-   建立自訂Customer Journey Analytics儀表板，以測量效能並深入瞭解您的決定政策和優惠的提供及參與方式。
+➡️ [在影片中探索此功能](#video)
 
 ## 護欄與限制
 
+* **支援的管道** — 這些管道有決策原則可供使用：程式碼型體驗、直接郵件、電子郵件和推播通知。
+* **推送通知SDK需求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
 * **電子郵件映象頁面** — 目前，決定專案不會在電子郵件映象頁面中呈現。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
 * **在電子郵件中巢狀內嵌決定原則** — 您無法在已經有關聯決定原則的父級電子郵件元件中巢狀內嵌多個決定原則。
@@ -79,14 +63,30 @@ ht-degree: 29%
 
 * **AI排名** — 目前，使用決策的歷程中的電子郵件管道不支援AI排名。
 
-## 後續步驟 {#next-steps}
+* **內容範本** — 內容中設定的任何決定原則將不會儲存在範本中。 如果您將範本套用至其他動作，則需要重新設定原則。
 
-現在您已了解決定原則如何運作，以及它們如何協助提供個人化優惠，您已準備好建立您的第一個決定原則。
+## 主要步驟 {#key}
 
-➡️ [瞭解如何建立決定原則](../experience-decisioning/create-decision-policy.md)
+在訊息中運用決定原則的主要步驟如下：
+
+1. **建立決定原則**
+
+   在訊息中新增決定原則，並設定要傳回的專案數、選擇策略和遞補選項。
+
+   ➡️ [瞭解如何建立決定原則](../experience-decisioning/create-decision-policy.md)
+
+1. **在您的內容中使用決定原則**
+
+   透過插入您要在訊息中顯示的決定專案屬性，使用決定原則輸出個人化您的內容
+
+   ➡️ [瞭解如何在訊息中使用決定原則](../experience-decisioning/create-decision-policy.md)
 
 ## 作法影片 {#video}
 
 瞭解如何使用Decisioning為受眾個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+瞭解如何使用Decisioning為受眾個人化推播通知。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)

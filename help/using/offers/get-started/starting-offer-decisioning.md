@@ -10,18 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '913'
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+workflow-type: tm+mt
+source-wordcount: '896'
 ht-degree: 100%
 
 ---
 
 # 開始使用決策管理 {#about-decision-management}
-
->[!TIP]
->
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 使用 [!DNL Journey Optimizer] 可在適當的時間為所有接觸點的客戶提供最佳產品建議和體驗。設計完成後，透過個人化產品建議目標定位客群。
 
@@ -82,7 +78,7 @@ ht-degree: 100%
 
 [本節](../../administration/high-low-permissions.md#decisions-permissions)列出了決策管理的特定權限。
 
-## 字彙 {#glossary}
+## 字彙表 {#glossary}
 
 您可以在下方找到使用決定管理時，將使用的主要概念清單。
 
@@ -124,6 +120,6 @@ ht-degree: 100%
 
 以下影片說明如何使用決定管理來定義和管理您的產品建議，並運用即時客戶資料。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470052?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

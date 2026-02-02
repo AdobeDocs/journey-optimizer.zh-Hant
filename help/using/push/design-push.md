@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 14%
+source-wordcount: '1831'
+ht-degree: 13%
 
 ---
 
@@ -178,6 +178,12 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 >abstract="根據你的行動應用程式設定，在承載中新增自訂變數。"
 
 在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
+
+## 使用Experience Decisioning個人化 {#decisioning-push}
+
+您可以使用&#x200B;**Experience Decisioning**&#x200B;個人化和最佳化推播通知的內容。 此功能可讓您使用優先順序分數、公式或AI模型，以動態方式選取並向客戶顯示最佳內容。
+
+如需如何在推播通知中建立和使用決定原則的詳細資訊，請參閱[本節](../experience-decisioning/create-decision.md)。
 
 ## 進階選項 {#advanced-options-push}
 
