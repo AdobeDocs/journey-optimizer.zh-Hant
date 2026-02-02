@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '625'
 ht-degree: 29%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 29%
 
    建立自訂Customer Journey Analytics儀表板，以測量效能並深入瞭解您的決定政策和優惠的提供及參與方式。
 
-## 護欄和限制
+## 護欄與限制
 
 * **電子郵件映象頁面** — 目前，決定專案不會在電子郵件映象頁面中呈現。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
@@ -85,3 +85,8 @@ ht-degree: 29%
 
 ➡️ [瞭解如何建立決定原則](../experience-decisioning/create-decision-policy.md)
 
+## 作法影片 {#video}
+
+瞭解如何使用Decisioning為受眾個人化電子郵件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
