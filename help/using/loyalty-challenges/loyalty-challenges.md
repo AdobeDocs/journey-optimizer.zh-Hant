@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 1%
 >**在此指南中：**
 >
 >* [總覽](#overview) — 瞭解忠誠度挑戰提供的內容
+>* [運作方式](#how-it-works) — 從設定到監視的逐步工作流程
 >* [必要條件](#prerequisites) — 設定資料擷取和許可權
 >* [存取忠誠度挑戰](#access) — 開啟功能表並檢視挑戰
 >* [建立挑戰](#create-challenges) — 建立新的忠誠度挑戰
@@ -43,6 +44,32 @@ ht-degree: 1%
 ## 概觀 {#overview}
 
 忠誠度挑戰可讓您設計和部署個人化參與優惠方案，以激勵客戶完成特定行動並獲得獎勵。 此功能為大規模建立忠誠度計畫提供完整解決方案，從定義任務和里程碑，到跨管道提供內容和追蹤效能。 您可以建立三種型別的挑戰體驗、設定獎勵、在關鍵生命週期階段傳送多管道通知，並透過自動產生的歷程來監控效能，同時保持與外部忠誠度管理系統的整合。
+
+## 運作方式 {#how-it-works}
+
+建立和啟動忠誠度挑戰會遵循此工作流程：
+
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（如Chariceline）以擷取忠誠度事件資料，並追蹤客戶動作和進度。
+
+2. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、連續或循序）、對象和日期範圍。
+
+3. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出、造訪等）、數量、產品篩選器和獎勵。
+
+4. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。
+
+5. **設定訊息** （選擇性） — 設定主要階段的多通道訊息（應用程式內、電子郵件、推播）：啟動、進行中及完成。
+
+6. **檢閱並發佈** — 使用測試設定檔測試您的挑戰，然後發佈它以供您的目標對象使用。
+
+7. **自動產生的歷程** — 當您發佈時，Journey Optimizer會自動建立協調內容卡傳遞和傳訊的歷程。
+
+8. **啟用歷程** — 自動產生的歷程會在您的挑戰開始日期啟用，並管理所有客戶互動。
+
+9. **監視效能** — 透過內建報告和歷程畫布，追蹤參與率、完成率、獎勵發佈和訊息參與。
+
+>[!NOTE]
+>
+>自動產生的歷程會顯示在您的歷程詳細資料中，並可視需要自訂。 不過，直接對歷程進行的變更不會同步回挑戰設定。
 
 ## 主要功能
 
@@ -90,7 +117,7 @@ ht-degree: 1%
 
   如需詳細指示，請參閱：
 
-   * [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+   * [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 * 必要權限 {#required-permissions}
@@ -147,6 +174,59 @@ ht-degree: 1%
 
 顯示使用&#x200B;**[!UICONTROL 依標籤篩選]**&#x200B;套用特定標籤的挑戰。
 
+
+**[!UICONTROL 折扣]**：提供折扣代碼或值。
+
+* 輸入折扣型態（百分比或固定金額）
+* 輸入折扣值
+* 選擇性地指定折扣代碼，或讓系統產生折扣代碼
+
+**[!UICONTROL 免費專案]**：授予免費的產品或服務。
+
+* 指定料號SKU或說明
+* 指定免費專案應如何申請
+
+**[!UICONTROL 自訂獎勵]**：定義自訂獎勵型別。
+
+* 輸入獎勵說明
+* 提供任何相關的程式碼或識別碼
+* 設定如何傳遞或申請獎勵
+
+#### 獎勵設定範例 {#reward-example}
+
+**挑戰**：「咖啡愛好者挑戰」
+
+**工作1**：購買3杯咖啡
+
+* 獎勵：30分（每杯咖啡10分）
+* 時間：任務完成後
+
+**工作2**：嘗試2種新的季節性飲品
+
+* 獎勵： 50分
+* 時間：任務完成後
+
+**挑戰完成獎勵**：
+
+* 獎勵：免費咖啡+ 100個額外點數
+* 時間：在所有工作完成之後
+
+**可能的獎勵總計**： 180分+ 1杯免費咖啡
+
+### 進階工作屬性 {#advanced-attributes}
+
+對於進階使用案例，您可以設定其他工作屬性：
+
+**[!UICONTROL 自訂條件]**：使用Experience Platform區段或規則新增自訂邏輯或標準工作型別以外的條件。
+
+**[!UICONTROL 地理圍欄]**： （針對造訪工作）需要造訪由地理座標和半徑定義的特定位置。
+
+**[!UICONTROL 以時間為基礎的需求]**：要求工作必須在特定小時、天或日期範圍內完成。
+
+**[!UICONTROL 冷卻期間]**：設定任務完成之間的最短時間，以防止快速重複動作。
+
+**[!UICONTROL 工作相依性]**： （針對循序挑戰）定義此工作可用之前必須完成的先決條件。
+
 ## 創造挑戰 {#create-challenges}
 
 建立忠誠度挑戰以定義參與優惠方案、設定傳送的內容卡、新增任務、設定獎勵，以及選擇設定跨管道的訊息。
@@ -198,7 +278,7 @@ ht-degree: 1%
 
 若要建立或調整對象，請參閱[在Journey Optimizer中建立對象](../audience/about-audiences.md)。
 
-&#x200B;4. 選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以繼續設定您的挑戰。
+1. 選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以繼續設定您的挑戰。
 
 ## 建立任務 {#create-tasks}
 
@@ -372,59 +452,6 @@ ht-degree: 1%
 
 * 輸入點數（例如100）
 * 點數會透過API傳達給您的外部忠誠度管理系統
-
-**[!UICONTROL 折扣]**：提供折扣代碼或值。
-
-* 輸入折扣型態（百分比或固定金額）
-* 輸入折扣值
-* 選擇性地指定折扣代碼，或讓系統產生折扣代碼
-
-**[!UICONTROL 免費專案]**：授予免費的產品或服務。
-
-* 指定料號SKU或說明
-* 指定免費專案應如何申請
-
-**[!UICONTROL 自訂獎勵]**：定義自訂獎勵型別。
-
-* 輸入獎勵說明
-* 提供任何相關的程式碼或識別碼
-* 設定如何傳遞或申請獎勵
-
-#### 獎勵設定範例 {#reward-example}
-
-**挑戰**：「咖啡愛好者挑戰」
-
-**工作1**：購買3杯咖啡
-
-* 獎勵：30分（每杯咖啡10分）
-* 時間：任務完成後
-
-**工作2**：嘗試2種新的季節性飲品
-
-* 獎勵： 50分
-* 時間：任務完成後
-
-**挑戰完成獎勵**：
-
-* 獎勵：免費咖啡+ 100個額外點數
-* 時間：在所有工作完成之後
-
-**可能的獎勵總計**： 180分+ 1杯免費咖啡
-
-### 進階工作屬性 {#advanced-attributes}
-
-對於進階使用案例，您可以設定其他工作屬性：
-
-**[!UICONTROL 自訂條件]**：使用Experience Platform區段或規則新增自訂邏輯或標準工作型別以外的條件。
-
-**[!UICONTROL 地理圍欄]**： （針對造訪工作）需要造訪由地理座標和半徑定義的特定位置。
-
-**[!UICONTROL 以時間為基礎的需求]**：要求工作必須在特定小時、天或日期範圍內完成。
-
-**[!UICONTROL 冷卻期間]**：設定任務完成之間的最短時間，以防止快速重複動作。
-
-**[!UICONTROL 工作相依性]**： （針對循序挑戰）定義此工作可用之前必須完成的先決條件。
-
 ## 設定內容卡片 {#configure-content-cards}
 
 內容卡是向使用裝置之客戶顯示挑戰的主要方式。 您必須針對挑戰設定內容卡。
@@ -1040,5 +1067,5 @@ ht-degree: 1%
 * [建立推播通知](../push/create-push.md)
 * [建立歷程](../building-journeys/journey-gs.md)
 * [監視您的歷程](../building-journeys/report-journey.md)
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
