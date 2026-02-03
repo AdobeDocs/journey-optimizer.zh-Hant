@@ -198,7 +198,7 @@ ht-degree: 1%
 
 若要建立或調整對象，請參閱[在Journey Optimizer中建立對象](../audience/about-audiences.md)。
 
-4. 選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以繼續設定您的挑戰。
+&#x200B;4. 選取&#x200B;**[!UICONTROL 另存為草稿]**&#x200B;以繼續設定您的挑戰。
 
 ## 建立任務 {#create-tasks}
 
