@@ -1,30 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程報告
+title: 監視自訂動作
 description: 瞭解如何使用歷程報告中的資料
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="有限可用性" type="Informative"
-source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '622'
+ht-degree: 2%
 
 ---
 
-# 監視您的自訂動作 {#reporting}
+# 監視自訂動作 {#reporting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
->title="監視您的自訂動作"
+>title="監視自訂動作"
 >abstract="**[!UICONTROL 自訂動作]**&#x200B;報告頁面可讓您追蹤歷程對協力廠商系統發出的API呼叫效能和可靠性。"
-
->[!AVAILABILITY]
->
->自訂動作報告目前僅適用於一組組織（可用性限制）。
 
 **[!UICONTROL 自訂動作]**&#x200B;報告頁面可讓您監視從歷程對第三方系統發出的API呼叫的可靠性和效能。 這些報告可協助您快速識別可能影響傳送的整合問題、延遲瓶頸或節流/上限限制。
 
@@ -34,7 +30,7 @@ ht-degree: 1%
 
 ![](assets/monitor-1.png)
 
-➡️ [進一步瞭解如何設定自訂動作](../action/about-custom-action-configuration.md)
+➡️ [進一步瞭解自訂動作組態](../action/about-custom-action-configuration.md)
 
 除了&#x200B;**[!UICONTROL 自訂動作]**&#x200B;報告頁面之外，您也可以使用&#x200B;**[!DNL Adobe Experience Platform Query Service]**&#x200B;來建置查詢，以報告自訂動作效能測量結果。 [此區段](../reports/query-examples.md)中有查詢範例。
 
@@ -56,19 +52,34 @@ ht-degree: 1%
 
 * **[!UICONTROL 平均RPS]**：在選取的時間範圍內，自訂動作每秒處理的要求數目。
 
+* **[!UICONTROL 平均延遲]**：所有HTTP呼叫的平均端對端回應時間（以毫秒為單位），包括成功的呼叫、錯誤和逾時。
+
+* **[!UICONTROL 平均成功延遲]**：僅成功呼叫的平均端對端回應時間（毫秒），不包括失敗的要求與逾時。
+
+* **[!UICONTROL 平均佇列時間]**：呼叫在傳送之前在執行佇列中等待的平均時間（毫秒）。 這僅適用於節流端點，當達到輸送量限制時，Journey Optimizer會將呼叫排入佇列。
+
 +++
 
-## 通話超時 {#calls}
+## 一段時間內的通話 {#calls}
 
 ![](assets/monitor-3.png)
 
-**[!UICONTROL 加班通話]**&#x200B;圖表顯示報告所選時段內的HTTP通話KPI趨勢。 時間序列的詳細程度取決於所選的時間範圍。 例如：
+**[!UICONTROL 一段時間內的呼叫]**&#x200B;圖表顯示報告所選時段內的HTTP呼叫KPI趨勢。 時間序列的詳細程度取決於所選的時間範圍。 例如：
 
 * 對於7天報表，每個資料點都會顯示一天的KPI。
 * 如果您選取1天時間範圍，圖表會顯示每小時的KPI。
 * 如果您選取1小時時間範圍，圖表將顯示每分鐘的KPI。
 
 ➡️[如需HTTP呼叫量度的說明，請參閱KPI區段](#kpis)
+
+## 一段時間的延遲 {#latency-overtime}
+
+![](assets/monitor-6.png)
+
+**[!UICONTROL 一段時間內的延遲]**&#x200B;圖表可顯示所選時段內的延遲量度趨勢。 此時間序列檢視可讓您追蹤效能模式、識別尖峰延遲期間，以及監視最佳化或系統變更隨時間流逝的影響。
+
+➡️[如需延遲量度的說明，請參閱KPI區段](#kpis)
+
 
 ## 呼叫劃分 {#breakdown}
 
@@ -78,4 +89,11 @@ ht-degree: 1%
 
 ➡️[如需HTTP呼叫量度的說明，請參閱KPI區段](#kpis)
 
+## 延遲劃分 {#latency-breakdown}
+
+![](assets/monitor-5.png)
+
+**[!UICONTROL 延遲劃分]**&#x200B;表格提供自訂動作延遲量度的詳細劃分。 此檢視可協助您識別哪些特定端點或動作發生效能問題，讓您有效找出並解決延遲瓶頸。
+
+➡️[如需延遲量度的說明，請參閱KPI區段](#kpis)
 
