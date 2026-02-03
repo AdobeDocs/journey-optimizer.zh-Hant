@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 1%
 * **已停止**：完成前已手動停止
 * **已封存**：已封存以供組織使用
 
-如需每個狀態及管理挑戰的詳細資訊，請參閱[主要檔案](loyalty-challenges.md#manage-challenges)。
-
 ## 編輯挑戰 {#edit-challenges}
 
 您可以根據挑戰的目前狀態來編輯挑戰：
@@ -60,8 +58,6 @@ ht-degree: 1%
 
 若是需要重大修改的變更，請複製挑戰並建立新版本。
 
-如需詳細的編輯准則，請參閱[主要檔案](loyalty-challenges.md#edit-challenges)。
-
 ## 重複的挑戰 {#duplicate-challenges}
 
 重複挑戰：
@@ -69,8 +65,6 @@ ht-degree: 1%
 * 建立不同對象的變數
 * 更新任務需求或獎勵
 * 重新啟用已停止或完成的挑戰
-
-如需詳細步驟，請參閱[主要檔案](loyalty-challenges.md#duplicate-challenge)。
 
 ## 監視效能 {#monitor-performance}
 
@@ -82,8 +76,6 @@ ht-degree: 1%
 * **參與量度**：內容卡片曝光數、訊息傳送
 
 存取挑戰效能索引標籤中的效能資料和自動產生的歷程報告。
-
-請參閱[主要檔案](loyalty-challenges.md#monitor-performance)，以取得詳細的量度和報告。
 
 ## 最佳做法 {#best-practices}
 
@@ -101,8 +93,6 @@ ht-degree: 1%
 * 為組織套用一致的標籤
 * 封存完成的挑戰，讓庫存保持在可管理狀態
 
-如需完整的最佳實務，請參閱[主要檔案](loyalty-challenges.md#best-practices)。
-
 ## 疑難排解 {#troubleshooting}
 
 常見問題和解決方案：
@@ -111,8 +101,6 @@ ht-degree: 1%
 * **低參與率**：評論內容可見度、訊息清晰度、任務可實現性
 * **未觸發的任務**：檢查資料擷取、事件屬性、對象資格
 * **未配置獎勵**：確認設定與外部系統連線
-
-如需詳細的疑難排解指南，請參閱[主要檔案](loyalty-challenges.md#troubleshooting)。
 
 ## 後續步驟 {#next-steps}
 

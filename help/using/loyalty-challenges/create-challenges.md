@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -54,8 +54,6 @@ ht-degree: 0%
 * 挑戰型別（標準、條紋、循序）
 * 客群選擇
 * 日期設定
-
-請參閱[主要檔案](loyalty-challenges.md#create-challenges)中的完整指南。
 
 ## 新增任務 {#add-tasks}
 
@@ -248,16 +246,12 @@ ht-degree: 0%
 * 設計與個人化
 * 預覽和測試
 
-請參閱[主要檔案](loyalty-challenges.md#configure-content-cards)中的完整指南。
-
 ## 設定傳訊 {#configure-messaging}
 
 如需設定多頻道傳訊的詳細步驟，包括：
 * 訊息頻道（應用程式內、電子郵件、推播）
 * 訊息階段（啟動、進行中、完成）
 * 訊息時間與觸發器
-
-請參閱[主要檔案](loyalty-challenges.md#configure-messaging)中的完整指南。
 
 ## 檢閱和發佈 {#review-and-publish}
 
