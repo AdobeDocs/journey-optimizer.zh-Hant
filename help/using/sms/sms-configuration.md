@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '414'
 ht-degree: 41%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 41%
    * [Sinch](sms-configuration-sinch.md)
    * [Twilio](sms-configuration-twilio.md)
    * [自訂提供者](sms-configuration-custom.md)
+1. [建立 Webhook](sms-webhook.md)
 1. [建立簡訊設定](sms-configuration-surface.md)
 
 這些步驟必須由Adobe Journey Optimizer [系統管理員](../start/path/administrator.md)執行。

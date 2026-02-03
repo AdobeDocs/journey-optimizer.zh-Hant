@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1130'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,16 @@ ht-degree: 2%
 
 >[!ENDSHADEBOX]
 
-## 設定簡訊的API認證
+透過將Infobip與Adobe Journey Optimizer整合，您可以將文字訊息傳送至您的設定檔，作為歷程和行銷活動的一部分。
+
+若要將Infobip設定為簡訊提供者，請遵循下列步驟：
+
+1. [建立API認證](#api-credential)
+1. [建立 Webhook](sms-webhook.md)
+1. [建立頻道設定](sms-configuration-surface.md)
+1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
+
+## 設定簡訊的API認證 {#api-credential}
 
 若要使用Journey Optimizer設定Infobip，請遵循下列步驟：
 
@@ -43,14 +52,14 @@ ht-degree: 2%
    | 簡訊供應商 | Infobip |
    | 名稱 | 選擇您的API認證名稱。 |
    | API基本URL和API金鑰 | 存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 對於區域或替代網域端點（例如`api-ny2.infobip.com`），請指定完整的基底URL，並使用Infobip支援來驗證您的授權權杖。 </br>在[Infobip檔案](https://www.infobip.com/docs/api){target="_blank"}中進一步瞭解 |
-   | 選擇加入關鍵字 | 輸入將會自動觸發選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇加入訊息 | 輸入自訂回應，此回應會自動作為您的選擇加入訊息傳送。 |
-   | 選擇退出關鍵字 | 輸入將會自動觸發選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
-   | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)。 |
-   | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
+   | 選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動以您的選擇加入訊息的形式傳送。 |
+   | 選擇退出關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 選擇退出訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
+   | 說明關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 說明訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動傳送為您的&#x200B;**說明訊息**。 |
+   | 雙重選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
+   | 雙重選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自動傳送以回應雙重加入確認的自訂回應。 |
    | 主體實體ID | 輸入指派的DLT主要實體識別碼。 |
    | 內容範本ID | 輸入註冊的DLT內容範本ID。 |
    | 有效期 | 輸入以小時為單位的訊息有效期。 如果在此時間範圍內無法傳遞訊息，系統會再次嘗試重新傳送訊息。 預設有效期設定為48小時。 |
@@ -105,4 +114,4 @@ Adobe Journey Optimizer使用[自訂SMS提供者](sms-configuration-custom.md)�
 
    [在Journey Optimizer中建立新的API認證](sms-configuration-custom.md#api-credential)，選取[自訂]作為SMS提供者。 使用適當的RCS端點驗證方法、基本URL和標頭。
 
-建立和設定API認證後，您現在需要為RCS訊息建立通道設定。 [了解更多](sms-configuration-surface.md)
+在建立及設定您的API認證後，您現在需要建立[您的Webhook](sms-webhook.md)以及RCS訊息的通道設定。 [了解更多](sms-configuration-surface.md)

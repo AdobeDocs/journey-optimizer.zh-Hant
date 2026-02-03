@@ -7,16 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
 
 # 設定 Twilio 提供者 {#sms-configuration-twilio}
 
-## 設定SMS/MMS的API認證
+將Twilio與Adobe Journey Optimizer整合後，您就可以在歷程及行銷活動中傳送文字訊息給設定檔。
+
+若要將Twilio設定為您的簡訊提供者，請遵循下列步驟：
+
+1. [建立API認證](#api-credential)
+1. [建立 Webhook](sms-webhook.md)
+1. [建立頻道設定](sms-configuration-surface.md)
+1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
+
+## 設定SMS/MMS的API認證 {#api-credential}
 
 若要使用Journey Optimizer設定Twilio，您需要為Twilio建立新的API認證：
 

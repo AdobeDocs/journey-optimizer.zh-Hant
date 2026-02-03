@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 5b719ccfb38ea51d6f6c6a9204e235c022b01b4f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 2%
+source-wordcount: '1358'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 2%
 * **MMS設定**：對於多媒體訊息(MMS)，請設定您的Sinch MMS API認證。 請注意，追蹤和回應傳入訊息由SMS設定處理。 MMS設定僅適用於MMS訊息的傳出傳遞。
 
 * **RCS設定**：設定您的Sinch API認證，以順暢地傳送RCS訊息。
+
+若要設定Sinch提供者，請遵循下列步驟：
+
+1. [建立API認證](#create-api)
+1. [建立 Webhook](sms-webhook.md)
+1. [建立頻道設定](sms-configuration-surface.md)
+1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
 
 ## 設定簡訊的API認證{#create-api}
 
@@ -51,14 +58,14 @@ ht-degree: 2%
    | 簡訊供應商 | Sinch |
    | 名稱 | 選擇您的API認證名稱。 |
    | 服務ID和API權杖 | 存取API頁面，您可以在SMS標籤下找到您的認證。 在[Sinch檔案](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}中進一步瞭解。 |
-   | 選擇加入關鍵字 | 輸入將會自動觸發選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇加入訊息 | 輸入自訂回應，此回應會自動作為您的選擇加入訊息傳送。 |
-   | 選擇退出關鍵字 | 輸入將會自動觸發選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇退出訊息 | 輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
-   | 說明關鍵字 | 輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 說明訊息 | 輸入自動傳送為&#x200B;**說明訊息**&#x200B;的自訂回應。 |
-   | 雙重選擇加入關鍵字 | 輸入觸發雙重加入流程的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)。 |
-   | 雙重選擇加入訊息 | 輸入自動傳送以回應雙重選擇加入確認的自訂回應。 |
+   | 選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動以您的選擇加入訊息的形式傳送。 |
+   | 選擇退出關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 選擇退出訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
+   | 說明關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
+   | 說明訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動傳送為您的&#x200B;**說明訊息**。 |
+   | 雙重選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
+   | 雙重選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自動傳送以回應雙重加入確認的自訂回應。 |
    | 傳入號碼 | 新增您的唯一傳入號碼或短代碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼或短程式碼。 |
    | 自訂傳入關鍵字 | 為批次型動作定義不重複、不具同意性的相關關鍵字，例如DISCOUNT、OFFERS、ENROLL。 這些關鍵字會擷取並儲存為設定檔中的屬性，可讓您在歷程中觸發批次區段資格，並提供自訂回應或動作。 |
    | 預設傳入回複訊息 | 輸入當一般使用者傳送的傳入SMS不符合任何已定義的關鍵字時傳送的預設回覆。 |
@@ -86,7 +93,7 @@ ht-degree: 2%
 
    ![](assets/verify-connection.png)
 
-建立和設定API認證後，您現在需要建立SMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
+在建立及設定您的API認證後，您現在需要建立[您的Webhook](sms-webhook.md)以及RCS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
 
 ## 設定MMS的API認證{#sinch-mms}
 
@@ -115,8 +122,7 @@ ht-degree: 2%
 
 1. 若要修改現有認證，請找到所需的API認證，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;選項以進行必要的變更。
 
-建立和設定API認證後，您現在需要建立MMS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
-
+在建立及設定您的API認證後，您現在需要建立[您的Webhook](sms-webhook.md)以及RCS訊息的通道設定。 [了解更多](sms-configuration-surface.md)
 
 ## 設定RCS的API認證
 
