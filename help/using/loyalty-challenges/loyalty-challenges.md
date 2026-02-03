@@ -115,7 +115,7 @@ ht-degree: 1%
 
   如需詳細指示，請參閱：
 
-   * [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
    * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 * 必要權限 {#required-permissions}
@@ -1066,5 +1066,5 @@ ht-degree: 1%
 * [建立推播通知](../push/create-push.md)
 * [建立歷程](../building-journeys/journey-gs.md)
 * [監視您的歷程](../building-journeys/report-journey.md)
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
