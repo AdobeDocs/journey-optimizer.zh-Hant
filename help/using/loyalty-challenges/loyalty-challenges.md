@@ -3,15 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 忠誠度挑戰
 description: 瞭解如何在Adobe Journey Optimizer中建立和管理忠誠度挑戰，以建立吸引人的忠誠度計畫。
-feature: Loyalty challenges
-topic: Journeys
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 version: Journey Orchestration
-source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
+source-git-commit: ef8f7754b689491bb052023ffbef0c8400dd79fe
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +115,7 @@ ht-degree: 1%
 
   如需詳細指示，請參閱：
 
-   * [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+   * [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 * 必要權限 {#required-permissions}
@@ -1068,5 +1066,5 @@ ht-degree: 1%
 * [建立推播通知](../push/create-push.md)
 * [建立歷程](../building-journeys/journey-gs.md)
 * [監視您的歷程](../building-journeys/report-journey.md)
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
