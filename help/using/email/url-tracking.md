@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 75%
+source-wordcount: '433'
+ht-degree: 68%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 75%
 設定新的[電子郵件通道設定](email-settings.md)時，您可以定義&#x200B;**[!UICONTROL URL追蹤引數]**，以評估您跨通道行銷工作的有效性。 啟用此功能為選填。
 
 對應區段中定義的引數將會附加至電子郵件內容中所包含的URL結尾。 接著，您就可以在 Adobe Analytics 或 Google Analytics 等網站分析工具中擷取這些參數，並建立各種效能報告。
+
+>[!NOTE]
+>
+>URL追蹤引數附加至URL的順序是隨機的，無法控制。 如果您的系統需要特定順序的引數，您將需要從側邊剖析引數並重新排序。
 
 您可使用&#x200B;**[!UICONTROL 新增參數]**&#x200B;按鈕，新增最多 10 個追蹤參數。
 
