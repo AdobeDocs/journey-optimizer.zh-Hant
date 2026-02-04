@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如Chariceline聯結器），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
 
 1. **選取目標對象** — 從Adobe Experience Platform選取對象，以定義哪些客戶可以參與您的挑戰。
 
@@ -75,14 +75,11 @@ ht-degree: 1%
 
 忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
 
-1. **設定支援的來源聯結器**：目前，毛細管聯結器一般可用。 未來版本計畫推出其他聯結器。
+1. **設定支援的來源聯結器**：目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 1. **驗證資料擷取**：確保忠誠度事件和客戶資料流入Experience Platform並在Journey Optimizer中使用。 確認資料結構包含追蹤客戶動作和進度的必要欄位。
 
-如需詳細指示，請參閱：
-
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
-* [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
+如需詳細指示，請參閱[Experience Platform來源概觀](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -143,14 +140,14 @@ ht-degree: 1%
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong>管理挑戰</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>管理挑戰與工作</strong></a>
     </div>
     <p>
-    <em>編輯、監視和最佳化挑戰</em>
+    <em>編輯、複製和刪除挑戰與工作</em>
     </p>
   </td>
 </tr>
