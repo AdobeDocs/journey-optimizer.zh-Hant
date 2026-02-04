@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 一旦定義內容，您就可以在傳送訊息之前，先預覽內容。 這個重要步驟能確保內容屬實，但內容與個人化設定中的資料也不得有誤。
 
-您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以進行測試和驗證，並檢查它們在熱門的案頭、行動裝置和網頁型使用者端中的轉譯。 此外，您也可以評估一般內容品質方面，例如可讀性和有效性。 [進一步瞭解內容品質驗證](brands-score.md#validate-quality)
+您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。此外，您也可以評估一般內容品質方面，例如可讀性和有效性。[了解更多關於內容品質驗證的資訊](brands-score.md#validate-quality)
 
 所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可以從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
 
@@ -68,4 +68,4 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 了解如何使用測試輪廓來測試各個收件匣裡的電子郵件轉譯，根據測試輪廓預覽您的個人化電子郵件，同時傳送校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430345?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
