@@ -45,4 +45,4 @@ ht-degree: 77%
 
 瞭解如何善用Adobe Journey Optimizer中的直接郵件頻道，在您的歷程中自動執行並排程直接郵件傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

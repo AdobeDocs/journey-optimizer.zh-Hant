@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
 source-wordcount: '1736'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 >
 >有時，由於下游資料處理的緣故，取消訂閱事件可能需要更長的時間才能反映在設定檔層級。 留出一些時間讓系統更新。
 
-## 啟用清單取消訂閱 {#enable-list-unsubscribe}
+## 啟用取消清單訂閱 {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
@@ -69,7 +69,7 @@ ht-degree: 96%
 
 * **[!UICONTROL Mailto (取消訂閱)]** 位址，這是將取消訂閱要求路由至進行自動處理的目標位址。在 [!DNL Journey Optimizer]，取消訂閱電子郵件地址是根據[選取的子網域](email-settings.md#subdomains)，顯示在管道設定的預設 **[!UICONTROL Mailto (取消訂閱)]** 位址。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
-* **[!UICONTROL 一鍵取消訂閱 URL]**，預設為根據[選取的子網域](email-settings.md#subdomains)產生的一鍵選擇退出 URL 清單取消訂閱標頭。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
+*  **[!UICONTROL 一鍵取消訂閱 URL]**，預設為根據[選取的子網域](email-settings.md#subdomains)產生的一鍵選擇退出 URL 清單取消訂閱標頭。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
 您可以從下拉式清單中，選取&#x200B;**[!UICONTROL 同意層級]**。它可特定於管道或輪廓身分。依據設定，當使用者使用電子郵件標題的「取消清單訂閱」URL 時，同意內容就會在 [!DNL Adobe Journey Optimizer] 中，按管道層級或 ID 層級更新。
 
@@ -94,7 +94,7 @@ ht-degree: 96%
   >
   >在 [本章節](../email/email-opt-out.md#unsubscribe-header)之中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
 
 目前，[!DNL Journey Optimizer]未將特定標籤附加至清單取消訂閱功能所觸發的取消訂閱事件。 如果您需要區分清單取消訂閱點擊與其他取消訂閱操作，則必須在外部實施自訂標記，或利用外部登陸頁面進行追蹤。
 
@@ -128,9 +128,9 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 >
->針對&#x200B;**[!UICONTROL Mailto （取消訂閱）]**&#x200B;選項，您需要使用下方&#x200B;**的**&#x200B;區段[自訂屬性（可用性限制）](#configure-decrypt-api)Mailto （取消訂閱）中說明的新查詢引數。
+>對於 **[!UICONTROL Mailto (取消訂閱)]** 選項，您需要使用[下方](#configure-decrypt-api)的 **Mailto (取消訂閱) 與自訂屬性 (有限可用性)** 區段中描述的新查詢參數。
 
 若要定義您端點的自訂屬性，請使用 **[!UICONTROL URL 追蹤參數]**&#x200B;區段。除了預設參數外，您在對應區段中定義的所有 URL 追蹤參數，還將附加至自訂端點的結尾。[了解如何設定自訂 URL 追蹤](url-tracking.md)
 
@@ -252,7 +252,7 @@ GET 呼叫分述如下。
 
 >[!AVAILABILITY]
 >
->此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
 GET 呼叫分述如下。
 
@@ -270,7 +270,7 @@ GET 呼叫分述如下。
 
    * 剖析值：*v1.xyz*
 
-API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

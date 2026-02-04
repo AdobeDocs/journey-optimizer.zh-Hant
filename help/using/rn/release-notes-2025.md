@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## 2025 年 10 月發行說明 {#25-10-rn}
 
-### 新功能 {#oct-25-10-features}
+### 全新功能 {#oct-25-10-features}
 
 <table>
 <thead>
@@ -34,7 +34,7 @@ ht-degree: 99%
 <td>
 <p>影像至 HTML 轉換工具是 AI 支援的功能，可將靜態影像設計轉換為完全可自訂、模組化的 HTML 電子郵件內容範本。此無程式碼工具可讓行銷人員將視覺設計轉換為回應式、可編輯的電子郵件範本，而不需要技術專業知識，非常適合平台移轉、快速建立範本及建立可重複使用的範本資料庫。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p>如需詳細資訊，請參閱<a href="../email/image-to-html.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 30 日</p>
 </td>
@@ -261,7 +261,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>個人化編輯器中提供了新的「executionMetadata」協助程式函式。它可讓您將內容相關資訊附加至任何原生動作，並將其擷取至資料集，以匯出至外部系統。</p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>如需詳細資訊，請參閱<a href="../personalization/functions/helpers.md#execution-metadata">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 13 日</p>
@@ -328,7 +328,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改進 {#oct-25-10-improvements}
+### 改善 {#oct-25-10-improvements}
 
 **WhatsApp 管道的執行欄位**
 
@@ -516,7 +516,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>使用新的「最佳化」節點，鎖定特定客群或執行 A/B 測試，以判斷達到以業務為中心的 KPI 所需的最佳途徑。</p>
 <p>此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。</p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/optimize.md">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 4 日</p>
@@ -535,7 +535,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>除了完全委派和 CNAME 方法之外，目前還有提供一種新的子網域設定方法：自訂委派方法可讓您能完全掌控並維護傳遞、呈現，還有追蹤訊息所需的 DNS 各大層面。</p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../configuration/delegate-custom-subdomain.md">詳細文件</a></p>
 <p>推出日期：2025 年 9 月 4 日</p>
@@ -727,7 +727,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>能夠將最佳化新增至任何內建管道動作。</li>
 <li>能夠將實驗與多語言選項新增至任何動作。</li>
 </ul>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a></p>
 </td>
@@ -750,7 +750,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>每個附件允許的大小上限為 5 MB。</li>
 <li>如需其他大小或流量，您可以購買附件套組附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。</li>
 </ul>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../email/pdf-attachments.md">詳細文件</a></p>
 </td>
@@ -857,7 +857,7 @@ You can now use AI models to optimize the best content in your email through the
 
    * **一鍵取消訂閱 URL 的自訂屬性支援** - 使用 Journey Optimizer，如果您在 Adobe 外部管理同意，則可以在電子郵件設定中定義您自己的一鍵取消訂閱連結，以設定外部自訂端點。當您的收件者按一下取消訂閱連結時，Journey Optimizer 會將一些預設的輪廓特定參數附加至同意更新事件。
 
-     若要進一步個人化一鍵取消訂閱連結，您現在可以定義將要同時附加至同意事件的自訂屬性。此功能為「有限可用性」的狀態。[閱讀全文](../email/list-unsubscribe.md#custom-attributes)
+     若要進一步個人化一鍵取消訂閱連結，您現在可以定義將要同時附加至同意事件的自訂屬性。此功能為有限可用性。[閱讀全文](../email/list-unsubscribe.md#custom-attributes)
 
 * **資料集**
 
@@ -977,8 +977,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <tbody>
 <tr>
 <td>
-<p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，傳送給每個對象成員。</p>
-<p>此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>您現在可以將決定原則新增至電子郵件歷程與行銷活動。決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
+<p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
 如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision.md">詳細文件</a></p>
 </td>
 </tr>

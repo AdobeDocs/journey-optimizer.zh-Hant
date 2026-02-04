@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 **行銷活動**&#x200B;是協調的行銷動作，可跨一或多個管道將內容傳送給特定客群。與動作依序執行的歷程不同，行銷活動會同時執行動作——立即執行或依定義的排程執行。
 
-使用[!DNL Journey Optimizer]行銷活動：
+使用 [!DNL Journey Optimizer] 行銷活動來：
 
 * 將&#x200B;**單次或定期內容**&#x200B;傳遞至目標客群區段
 * 在電子郵件、推播、簡訊、應用程式內、網頁等之間執行&#x200B;**協調式多管道通訊**
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 ![](assets/gs-campaigns.png)
 
-➡️**準備好開始建立了嗎？**&#x200B;[在幾分鐘內建立您的第一個行銷活動](create-campaign.md)。
+➡️**準備好開始建立了嗎？**[在幾分鐘內建立您的第一個行銷活動](create-campaign.md)。
 
 ## 選擇行銷活動類型 {#campaign-types}
 
@@ -167,16 +167,16 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 * **權限** - 您需要根據行銷活動類型擁有適當權限。如果您無法存取行銷活動功能，請聯絡管理員。[瞭解內建角色 →](../administration/ootb-product-profiles.md)
 
-  +++行銷活動許可權清單
+  +++行銷活動權限清單
 
   | 行銷活動類型 | 權限 |
   |-------------|---------------|
-  | **動作行銷活動**&#x200B;和&#x200B;**API觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
+  | **動作行銷活動**&#x200B;和 **API 觸發的行銷活動** | 行銷活動管理員<br>行銷活動核准者<br>行銷活動經理<br>行銷活動檢視者 |
   | **協調的行銷活動** | 協調的行銷活動管理員<br>協調的行銷活動核准者<br>協調的行銷活動經理<br>協調的行銷活動檢視者 |
 
   +++
 
-  +++如何指派行銷活動許可權
+  +++如何指派行銷活動權限
 
    1. 導覽至 [!DNL Permissions] 產品中的&#x200B;**[!UICONTROL 角色]**&#x200B;索引標籤，並選取其中一個內建行銷活動相關&#x200B;**[!UICONTROL 角色]**。
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 4. 如果使用衝突管理，**設定優先順序**
 5. **設定排程** (針對動作行銷活動) 或 API 詳細資料 (針對 API 觸發)
 
-**特定類型的指南：**&#x200B;[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -230,7 +230,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
 * 使用輪廓屬性和內容資料新增&#x200B;**個人化**
 
-**特定類型的指南：**&#x200B;[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 如果使用核准工作流程，則&#x200B;**請求核准**
 * 使用種子清單&#x200B;**測試傳遞能力**
 
-**特定類型的指南：**&#x200B;[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -258,7 +258,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 注意：無法編輯作用中的行銷活動 (您必須複製才能進行變更)
 
-**特定類型的指南：**&#x200B;[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -272,7 +272,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 分析轉換率和 ROI
 * 使用洞察進行最佳化
 
-**特定類型的指南：**&#x200B;[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -301,17 +301,17 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
-限制訊息輸送量，以防止登入頁面或客戶服務平台等下游系統過載。
+限制訊息輸送量，以防止登陸頁面或客戶服務平台等下游系統過載。
 
 [控制速率限制](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **客群目標定位**
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -331,7 +331,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **勿打擾時間**
 
@@ -341,7 +341,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 

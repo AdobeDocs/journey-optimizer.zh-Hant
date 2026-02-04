@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 # Adobe Journey Optimizer 說明 {#using}
 
 + [Journey Optimizer 文件](ajo-home.md)
-+ 有哪幾種新增功能？ {#whats-new}
++ 最新資訊 {#whats-new}
    + [發行週期](using/rn/releases.md)
    + [早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
@@ -51,7 +51,7 @@ ht-degree: 97%
       + [歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
-   + [Journey快速入門手冊](using/building-journeys/journey-get-started.md)
+   + [歷程快速入門指南](using/building-journeys/journey-get-started.md)
    + [歷程類型和選取指南](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
@@ -298,7 +298,7 @@ ht-degree: 97%
          + [設定電子郵件管道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
          + [定義電子郵件組態設定](using/email/email-settings.md)
-         + [啟用清單取消訂閱](using/email/list-unsubscribe.md)
+         + [啟用取消清單訂閱](using/email/list-unsubscribe.md)
          + [標頭參數](using/email/header-parameters.md)
          + [URL 追蹤](using/email/url-tracking.md)
          + [個人化電子郵件組態](using/email/surface-personalization.md)
@@ -507,7 +507,7 @@ ht-degree: 97%
       + [使用手動翻譯建立多語言內容](using/content-management/multilingual-manual.md)
       + [使用自動化翻譯建立多語言內容](using/content-management/multilingual-automated.md)
    + 內容最佳化 {#message-optimization}
-      + [開始使用最佳化](using/content-management/gs-message-optimization.md)
+      + [最佳化快速入門](using/content-management/gs-message-optimization.md)
       + [使用目標定位](using/content-management/optimization-targeting.md)
       + [使用實驗](using/content-management/optimization-experimentation.md)
       + [結合目標定位與實驗](using/content-management/optimization-combination.md)
