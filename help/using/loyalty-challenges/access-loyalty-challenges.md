@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 存取忠誠度挑戰
-description: 瞭解如何存取、搜尋和篩選Adobe Journey Optimizer中的忠誠度挑戰。
+title: 存取及管理忠誠度挑戰
+description: 瞭解如何存取、管理和組織Adobe Journey Optimizer中的忠誠度挑戰和任務。
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,35 +10,33 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 
-# 存取忠誠度挑戰 {#access-loyalty-challenges}
+# 存取及管理忠誠度挑戰 {#access-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 
 **忠誠度挑戰檔案：**
 
 * [開始解決忠誠度挑戰](get-started.md) — 概述、工作流程、必要條件
-* **存取忠誠度挑戰** ◀︎ **您在這裡** — 詳細目錄和篩選
+* **存取忠誠度挑戰** ◀︎ **您在這裡** — 詳細目錄、挑戰和任務管理
 * [建立挑戰](create-challenges.md) — 建置並設定挑戰
 * [建立任務](create-tasks.md) — 定義挑戰任務
-* [管理挑戰](manage-challenges.md) — 編輯、監視、最佳化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
->
 >此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
-若要存取忠誠度挑戰，請導覽至Journey Optimizer，並在「**[!UICONTROL 歷程管理]**」區段下選取「**[!UICONTROL 忠誠度挑戰(Beta)]**」。
+## 存取忠誠的挑戰
 
-## 概觀 {#overview}
+若要存取忠誠度挑戰，請導覽至Journey Optimizer，並在「**[!UICONTROL 歷程管理]**」區段下選取「**[!UICONTROL 忠誠度挑戰(Beta)]**」。
 
 「忠誠度挑戰」介面提供一個集中位置，讓您檢視、管理及組織所有挑戰和任務。 您可以存取兩種主要存貨：
 
@@ -54,23 +52,33 @@ ht-degree: 0%
 顯示的關鍵資訊：
 
 * **[!UICONTROL 挑戰]**：挑戰名稱
-* **[!UICONTROL 狀態]**：挑戰目前的狀態（草稿或已發佈）。 [進一步瞭解狀態轉換](manage-challenges.md#challenge-lifecycle)
+* **[!UICONTROL 狀態]**：挑戰目前的狀態（草稿或已發佈）
 * **[!UICONTROL 任務]**：挑戰中設定的任務數
 * **[!UICONTROL 歷程]**：連結到與挑戰關聯的自動產生歷程
 * **[!UICONTROL 狀態]**：相關歷程的目前狀態（草稿、即時、已停止等）
 * **[!UICONTROL 開始/結束日期(UTC)]**：挑戰變成使用中且到期的時間
 
-在「挑戰」標籤中，您可以對挑戰執行快速動作：
+在「挑戰」標籤中，您可以對挑戰執行動作：
 
-* **檢視挑戰詳細資料**：選取挑戰名稱以開啟其詳細資料頁面和/或編輯挑戰
-* **複製挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 複製]**
-* **刪除草稿挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**
+* **檢視挑戰**：選取挑戰名稱以開啟其詳細資訊頁面
+* **複製挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 複製]**。 系統隨即建立副本，且所有工作、內容和訊息都會完整無缺。
+* **刪除挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**
+* **編輯挑戰**：選取挑戰名稱以開啟其詳細資訊頁面並加以編輯。
 
-[瞭解如何在建立後管理挑戰](manage-challenges.md)。
+  當您開啟已發佈的挑戰以進行編輯時，您首先需要將其恢復為草稿狀態：
+
+   * 直接對自動產生的歷程進行的任何自訂都將遺失
+   * 挑戰回到草稿狀態
+   * 進行變更後，您必須儲存並再次發佈挑戰
+   * 您必須重新發佈關聯的歷程，才能讓客戶使用更新的挑戰
+
+  >[!IMPORTANT]
+  >
+  >將已發佈的質詢還原為草稿無法復原。 在繼續之前，請先考慮對您作用中歷程的影響。
 
 ## 任務詳細目錄 {#tasks-tab}
 
-「任務」標籤會顯示可用於多個挑戰的所有可重複使用任務。 建立或編輯任何挑戰時，可選取此處建立的任務。
+**[!UICONTROL 任務]**&#x200B;索引標籤會顯示可用於多個挑戰的所有可重複使用任務。 建立或編輯任何挑戰時，可選取此處建立的任務。
 
 ![](assets/tasks-inventory.png)
 
@@ -80,19 +88,10 @@ ht-degree: 0%
 * **[!UICONTROL 描述]**：工作所需內容的簡短描述
 * **[!UICONTROL 任務活動]**：活動型別（購買、支出）
 * **[!UICONTROL SKU]**：符合資格及/或排除的專案
+* **[!UICONTROL 用於挑戰]**：目前使用此任務的挑戰數
 
-在「工作」標籤中，您可以對工作執行快速動作：
+在「工作」標籤中，您可以對工作執行動作：
 
-* **檢視任務詳細資料**：選取任務名稱以檢視完整設定和/或編輯任務
+* **檢視/編輯工作**：選取工作名稱以檢視完整設定並編輯工作
 * **複製任務**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 複製]**
 * **刪除工作**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**
-
-[瞭解如何在建立後管理工作](manage-challenges.md)。
-
-## 後續步驟 {#next-steps}
-
-現在您知道如何存取和瀏覽忠誠度挑戰詳細目錄：
-
-* [建立挑戰](create-challenges.md) — 瞭解如何建立您的第一個挑戰並設定任務
-* [建立任務](create-tasks.md) — 瞭解如何針對挑戰定義可重複使用的任務
-* [管理挑戰](manage-challenges.md) — 瞭解如何編輯、監控和最佳化挑戰
