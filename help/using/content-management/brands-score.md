@@ -5,9 +5,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->內容品質評估與品牌無關。 即使在下拉式選單中選取了品牌，其准則也不會套用至品質檢查。 品牌選擇僅與品牌一致性評分相關。
+>內容品質評估不受品牌指引影響。 即使在下拉式選單中選取了品牌，其准則也不會套用至品質檢查。 品牌選擇僅與品牌一致性評分相關。
 
 除了品牌一致性之外，您還可以評估一般內容品質，以找出可讀性、內容一致性和有效性方面的潛在問題，而不受品牌指南影響。
 
@@ -134,6 +134,6 @@ ht-degree: 8%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
