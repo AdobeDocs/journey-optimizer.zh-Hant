@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 31%
+source-wordcount: '303'
+ht-degree: 29%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 31%
 目前程式碼型體驗管道支援Decisioning。
 
 ➡️ [開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
+
+>[!NOTE]
+>
+>若要從決定管理移轉至決策，請參閱[移轉檔案](../experience-decisioning/migrate-to-decisioning.md)與[移轉API指南](../experience-decisioning/decisioning-migration-api.md)。
 
 ## 決策管理 {#decision-management}
 

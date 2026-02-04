@@ -1,18 +1,18 @@
 ---
-title: 從決定管理移轉至決定
+title: 移轉至Decisioning的好處
 description: 瞭解從決定管理移轉至決定的好處
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 4%
+source-wordcount: '1249'
+ht-degree: 2%
 
 ---
 
-# 從決定管理移轉至決定 {#migrate-to-decisioning}
+# 移轉至Decisioning的好處 {#migrate-to-decisioning}
 
 ## 什麼是決策？ {#what-is-decisioning}
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 ### AI和機器學習功能
 
-* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
+* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
 
 * **提升度測量**：能夠在AI模型中視覺化探索與利用流量。 這讓行銷人員和資料科學家可以量化AI探索如何改善長期模型效能和發現新的成功選件。 流量分配的透明度可建立對AI決策的信任，並讓團隊能夠隨著時間推移最佳化學習和效能。 [了解更多](ranking/auto-optimization-model.md#lift)
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道（[程式碼型體驗](../code-based/get-started-code-based.md)及[電子郵件](../email/get-started-email.md)目前可用，其他通道將於2026年下半年推出）。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 
@@ -87,11 +87,20 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 ## 移轉工具 {#migration-tooling}
 
-Journey Optimizer團隊目前正在研究移轉工具API，以將決定管理實體移轉至決定。 此工具可讓您在沙箱之間無縫移轉，並具備相依性解析和復原功能。如有興趣，請聯絡您的 Adobe 代表。
+有一組完整的&#x200B;**移轉工具API**，可將決定管理實體移轉至決定。 這些API透過自動化相依性解析和復原功能，實現了沙箱之間的無縫遷移。
+
+移轉工具API允許您：
+
+* **分析來源和目標沙箱之間的相依性**
+* **在不同範圍移轉** — 沙箱、優惠或決定層級
+* 如果發現問題，**復原移轉**
+
+如需完整的API檔案，包括驗證、端點、請求/回應範例，以及逐步工作流程，請參閱[決策移轉API檔案](decisioning-migration-api.md)。
 
 ## 相關主題 {#related-topics}
 
 * [開始使用決策](gs-experience-decisioning.md)
 * [決策護欄和限制](decisioning-guardrails.md)
 * [決策常見問題集](decisioning-faq.md)
+* [Decisioning移轉API](decisioning-migration-api.md)
 

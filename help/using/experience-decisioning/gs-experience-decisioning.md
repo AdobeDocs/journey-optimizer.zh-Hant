@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '647'
 ht-degree: 22%
 
 ---
@@ -97,6 +97,7 @@ ht-degree: 22%
 * **[定義選擇策略](selection-strategies.md)** — 瞭解如何使用適用性規則和排名方法建立選擇策略。
 * **[建立決定原則](create-decision-policy.md)** — 瞭解如何建立結合策略和限制的決定原則。
 * **[排名和AI模型](ranking/ranking.md)** — 個人化決策的主排名公式和AI模型。
+* **[從決定管理移轉](migrate-to-decisioning.md)** — 瞭解移轉至決定的好處，並使用移轉工具API。
 * **[決策護欄](decisioning-guardrails.md)** — 檢閱決策實施的重要限制和最佳實務。
 * **[決策教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** — 探索有關決策功能和最佳實務的逐步教學課程影片。
 
@@ -104,4 +105,4 @@ ht-degree: 22%
 
 瞭解Adobe Journey Optimizer中的決策功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475874?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
