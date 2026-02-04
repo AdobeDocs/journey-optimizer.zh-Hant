@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出、造訪、參與、自訂事件）、數量、產品篩選器和獎勵。 如需詳細指示，請參閱[建立工作](create-tasks.md)。
 
-1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer [內容卡](../content-card/get-started-content-card.md)，建立您挑戰的視覺化呈現。 內容卡會顯示挑戰資訊、進度和獎勵。
+1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer [內容卡](../content-card/create-content-card.md)，建立您挑戰的視覺化呈現。 內容卡會顯示挑戰資訊、進度和獎勵。
 
 1. **設定訊息** （選擇性） — 設定關鍵生命週期階段的多通道訊息（[應用程式內](../in-app/get-started-in-app.md)、[電子郵件](../email/get-started-email.md)、[推播](../push/get-started-push.md)）：啟動、進行中及完成。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 如需詳細指示，請參閱：
 
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 +++
