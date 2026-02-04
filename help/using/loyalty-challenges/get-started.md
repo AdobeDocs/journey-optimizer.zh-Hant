@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 如需詳細指示，請參閱：
 
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++目標客群
 
-定義目標受眾，指定哪些客戶有資格參與您的忠誠度挑戰。 您可以選取現有對象，或直接從挑戰建立介面建立新對象。 有關如何使用對象的詳細資訊，請參閱[開始使用對象](../audience/about-audiences.md)。
+定義目標受眾，指定哪些客戶有資格參與您的忠誠度挑戰。 您可以選取現有對象，或直接從挑戰建立介面建立新對象。 [瞭解如何使用對象](../audience/about-audiences.md)。
 
 +++
 

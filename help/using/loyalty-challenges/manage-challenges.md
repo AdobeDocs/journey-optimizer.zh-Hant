@@ -10,15 +10,15 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 
-# 管理挑戰 {#manage-challenges}
+# 管理挑戰與工作 {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
@@ -38,9 +38,7 @@ ht-degree: 0%
 
 ## 管理挑戰 {#manage-challenges-section}
 
-### 挑戰生命週期 {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### 挑戰狀態 {#challenge-lifecycle}
 
 挑戰在生命週期中會經歷不同的狀態：
 
