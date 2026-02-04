@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -66,9 +66,9 @@ ht-degree: 1%
 
 1. **設定訊息** （選擇性） — 設定關鍵生命週期階段的多通道訊息（[應用程式內](../in-app/get-started-in-app.md)、[電子郵件](../email/get-started-email.md)、[推播](../push/get-started-push.md)）：啟動、進行中及完成。
 
-1. **檢閱並發佈** — 使用[測試設定檔](../test-approve/test-profiles.md)測試您的挑戰，然後發佈它以供您的目標對象使用。
+1. **檢閱並發佈** — 使用[測試設定檔](../content-management/test-profiles.md)測試您的挑戰，然後發佈它以供您的目標對象使用。
 
-1. **啟動歷程** — 當您發佈挑戰時，Journey Optimizer會自動建立[歷程](../building-journeys/journey-gs.md) （草稿）狀態，以協調內容卡傳遞和傳訊。 導覽至歷程詳細目錄，找到自動產生的歷程（名為「挑戰： [挑戰名稱]」），並[啟用它](../building-journeys/publishing-the-journey.md)，讓您的客戶可以使用挑戰。
+1. **啟動歷程** — 當您發佈挑戰時，Journey Optimizer會自動建立[歷程](../building-journeys/journey-gs.md) （草稿）狀態，以協調內容卡傳遞和傳訊。 導覽至歷程詳細目錄，找到自動產生的歷程（名為「挑戰： [挑戰名稱]」），並[啟用它](../building-journeys/publish-journey.md)，讓您的客戶可以使用挑戰。
 
 1. **監視效能** — 透過內建報告和歷程畫布，追蹤參與率、完成率、獎勵發佈和訊息參與。 如需監控詳細資訊，請參閱[管理挑戰](manage-challenges.md)。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 如需詳細指示，請參閱：
 
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 +++

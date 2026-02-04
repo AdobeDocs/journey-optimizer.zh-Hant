@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -91,7 +91,7 @@ ht-degree: 0%
 * **連續挑戰**：連續多次完成相同工作
 * **循序挑戰**：以定義的順序完成任務
 
-若要新增任務至您的挑戰，請選取[任務]區段中的[新增任務] **&#x200B;**，並設定任務屬性。
+若要新增任務至您的挑戰，請選取[任務]區段中的[新增任務] ****，並設定任務屬性。
 
 如需建立和設定工作的詳細指示，請參閱[建立工作](create-tasks.md)。
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 1. **檢閱所有元件**：驗證挑戰內容、工作、獎勵、內容卡和傳訊設定。
 
-1. **測試體驗**：使用[測試設定檔](../test-approve/test-profiles.md)來驗證內容卡顯示和工作觸發程式行為。
+1. **測試體驗**：使用[測試設定檔](../content-management/test-profiles.md)來驗證內容卡顯示和工作觸發程式行為。
 
 1. **發佈**：選取&#x200B;**[!UICONTROL 發佈]**，讓您的目標對象可以使用挑戰。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 1. 找到自動產生的歷程（其名稱會以「Challenge：」作為前置詞）。
 
-1. [啟動歷程](../building-journeys/publishing-the-journey.md)。
+1. [啟動歷程](../building-journeys/publish-journey.md)。
 
 歷程會在您指定的挑戰開始日期自動開始。
 
