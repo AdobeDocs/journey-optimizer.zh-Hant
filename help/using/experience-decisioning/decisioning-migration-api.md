@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 此API可讓您在環境之間（例如，從開發到測試，或從測試到生產）順暢地轉換決策內容，同時維護資料完整性和關係。
 
-若要瞭解與決策管理相比之決策的優點和功能，請參閱[移轉至Decisioning的優勢](migrate-to-decisioning.md)。
+若要瞭解與決策管理相較之決策的優點和功能，請參閱[此頁面](migrate-to-decisioning.md)。
 
 ## 功能 {#capabilities}
 
