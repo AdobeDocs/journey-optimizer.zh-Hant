@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -91,7 +91,7 @@ ht-degree: 0%
 * **連續挑戰**：連續多次完成相同工作
 * **循序挑戰**：以定義的順序完成任務
 
-若要新增任務至您的挑戰，請選取[任務]區段中的[新增任務] **&#x200B;**，並設定任務屬性。
+若要新增任務至您的挑戰，請選取[任務]區段中的[新增任務] ****，並設定任務屬性。
 
 如需建立和設定工作的詳細指示，請參閱[建立工作](create-tasks.md)。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-內容卡可在客戶裝置上以視覺化方式呈現您的挑戰，顯示挑戰資訊、進度和獎勵。 深入瞭解[內容卡](../content-card/get-started-content-card.md)。
+內容卡可在客戶裝置上以視覺化方式呈現您的挑戰，顯示挑戰資訊、進度和獎勵。 深入瞭解[內容卡](../content-card/create-content-card.md)。
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
