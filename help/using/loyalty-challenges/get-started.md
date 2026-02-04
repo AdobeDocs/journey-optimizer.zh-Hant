@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 如需詳細指示，請參閱：
 
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 若要使用忠誠度挑戰，您需要Journey Optimizer中的適當許可權。 必要的許可權包括：
 
-* 存取&#x200B;**[!UICONTROL 忠誠度挑戰]**&#x200B;功能
+* 存取&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**&#x200B;功能
 * 建立和管理歷程的許可權
 * 建立和管理內容卡的許可權
 * 建立和管理對象的許可權
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 +++目標客群
 
-先在Experience Platform中建立目標對象，然後再建立挑戰。 這些受眾會定義哪些客戶符合參與您的忠誠度挑戰的資格。 有關如何建立對象的詳細資訊，請參閱[開始使用對象](../audience/about-audiences.md)。
+定義目標受眾，指定哪些客戶有資格參與您的忠誠度挑戰。 您可以選取現有對象，或直接從挑戰建立介面建立新對象。 有關如何使用對象的詳細資訊，請參閱[開始使用對象](../audience/about-audiences.md)。
 
 +++
 
