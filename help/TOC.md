@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -133,8 +133,8 @@ ht-degree: 98%
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 忠誠度挑戰 {#loyalty-challenges}
-   + [開始應對忠誠度挑戰](using/loyalty-challenges/gs-loyalty-challenges.md)
-   + [瞭解忠誠度挑戰](using/loyalty-challenges/get-started.md)
+   + [開始應對忠誠度挑戰](using/loyalty-challenges/get-started.md)
+   + [存取忠誠度挑戰](using/loyalty-challenges/access-loyalty-challenges.md)
    + [創造挑戰](using/loyalty-challenges/create-challenges.md)
    + [管理挑戰](using/loyalty-challenges/manage-challenges.md)
 + 行銷活動 {#campaigns}

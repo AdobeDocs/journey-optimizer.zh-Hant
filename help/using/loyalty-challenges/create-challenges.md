@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 創造挑戰 {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="建立忠誠度挑戰"
->abstract="建立忠誠度挑戰以定義參與優惠方案、設定傳送的內容卡、新增任務、設定獎勵，以及選擇設定跨管道的訊息。"
-
-建立忠誠度挑戰，以定義參與優惠方案、設定內容卡、新增任務、設定獎勵，並設定跨管道的訊息。
-
 >[!BEGINSHADEBOX]
 
 **忠誠度挑戰檔案：**
 
-* [開始進行忠誠度挑戰](gs-loyalty-challenges.md) — 快速概覽和後續步驟
-* [瞭解忠誠度挑戰](get-started.md) — 功能、工作流程、必要條件
+* [開始解決忠誠度挑戰](get-started.md) — 概述、工作流程、必要條件
+* [存取忠誠度挑戰](access-loyalty-challenges.md) — 詳細目錄和篩選
 * **建立挑戰** ◀︎**您在這裡** — 建置並設定挑戰
 * [管理挑戰](manage-challenges.md) — 編輯、監視、最佳化
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="建立忠誠度挑戰"
+>abstract="建立忠誠度挑戰以定義參與優惠方案、設定傳送的內容卡、新增任務、設定獎勵，以及選擇設定跨管道的訊息。"
 
 ## 開始之前 {#before-you-start}
 
