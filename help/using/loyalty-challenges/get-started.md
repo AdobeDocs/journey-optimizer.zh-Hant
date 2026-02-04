@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 2%
+source-wordcount: '652'
+ht-degree: 1%
 
 ---
 
@@ -27,105 +27,88 @@ ht-degree: 2%
 * **開始解決忠誠度挑戰** ◀︎ **您在這裡** — 總覽、工作流程、必要條件
 * [存取忠誠度挑戰](access-loyalty-challenges.md) — 詳細目錄和篩選
 * [建立挑戰](create-challenges.md) — 建置並設定挑戰
+* [建立任務](create-tasks.md) — 定義挑戰任務
 * [管理挑戰](manage-challenges.md) — 編輯、監視、最佳化
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenges_overview"
->title="關於忠誠度挑戰"
->abstract="忠誠度挑戰可讓您建立個人化的參與優惠，以激勵客戶完成特定動作並獲得獎勵。"
-
 >[!AVAILABILITY]
 >
->此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 請聯絡您的 Adobe 代表以取得存取權。
+>此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
 ## 概觀 {#overview}
 
-「忠誠度挑戰」提供完整解決方案，可大規模建立忠誠度計畫，從定義任務和里程碑，到跨管道提供內容和追蹤效能。 您可以建立三種型別的挑戰體驗、設定獎勵、在關鍵生命週期階段傳送多管道通知，並透過自動產生的歷程來監控效能，同時保持與外部忠誠度管理系統的整合。
+忠誠度挑戰提供完整解決方案，可大規模建立忠誠度計畫，從定義任務和里程碑，到跨管道提供內容和追蹤效能。
 
-## 主要功能 {#key-capabilities}
+您可以建立三種型別的挑戰體驗：
 
-使用忠誠度挑戰來：
+* **標準挑戰**：客戶以任何順序完成任何指定數量的工作
+* **連續挑戰**：客戶連續多次完成相同工作
+* **循序挑戰**：客戶以定義的順序完成任務
 
-* **建立三種型別的挑戰**：
-   * **Standard**：客戶以任何順序完成任何數量的工作以取得獎勵
-   * **連續執行**：客戶連續多次完成相同的工作
-   * **循序**：客戶以特定順序完成工作
+透過忠誠度挑戰，您可以設定獎勵、在關鍵生命週期階段傳送多管道通知，並透過自動產生的歷程監控效能，同時保持與外部忠誠度管理系統的整合。
 
-* **設計挑戰內容**：使用Journey Optimizer內容卡在客戶裝置上建立您挑戰的視覺化呈現。 內容卡會顯示挑戰資訊、進度和獎勵。
-
-* **設定任務需求**：定義客戶必須做什麼才能獲得獎勵，包括：
-   * 任務型別（購買、支出金額、造訪、參與、自訂事件）
-   * 數量需求
-   * 使用SKU、類別或屬性的產品包含/排除
-   * 自訂屬性和條件
-
-* **設定獎勵**：定義客戶在完成任務時（漸進式獎勵）或完成整個挑戰後（最終獎勵）獲得的獎勵。
-
-* **傳送多頻道通知**：在關鍵階段跨多個頻道（應用程式內、電子郵件、推播）傳遞訊息：
-   * **啟動**：挑戰開始時
-   * **進行中**：客戶在中途進出
-   * **完成**：客戶完成挑戰時
-
-* **追蹤效能**：監視自動產生的歷程，並透過內建報告檢閱挑戰效能。
+<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
 
 ## 運作方式 {#how-it-works}
 
+<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
+
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（如Chariceline）以擷取忠誠度事件資料，並追蹤客戶動作和進度。
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如Chariceline聯結器），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
 
-2. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、連續或循序）、對象和日期範圍。
+1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、連續或循序）、對象和日期範圍。 如需詳細步驟，請參閱[建立挑戰](create-challenges.md)。
 
-3. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出、造訪等）、數量、產品篩選器和獎勵。
+1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出、造訪、參與、自訂事件）、數量、產品篩選器和獎勵。 如需詳細指示，請參閱[建立工作](create-tasks.md)。
 
-4. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。
+1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer [內容卡](../content-card/get-started-content-card.md)，建立您挑戰的視覺化呈現。 內容卡會顯示挑戰資訊、進度和獎勵。
 
-5. **設定訊息** （選擇性） — 設定主要階段的多通道訊息（應用程式內、電子郵件、推播）：啟動、進行中及完成。
+1. **設定訊息** （選擇性） — 設定關鍵生命週期階段的多通道訊息（[應用程式內](../in-app/get-started-in-app.md)、[電子郵件](../email/get-started-email.md)、[推播](../push/get-started-push.md)）：啟動、進行中及完成。
 
-6. **檢閱並發佈** — 使用測試設定檔測試您的挑戰，然後發佈它以供您的目標對象使用。
+1. **檢閱並發佈** — 使用[測試設定檔](../test-approve/test-profiles.md)測試您的挑戰，然後發佈它以供您的目標對象使用。
 
-7. **自動產生的歷程** — 當您發佈時，Journey Optimizer會自動建立協調內容卡傳遞和傳訊的歷程。
+1. **啟動歷程** — 當您發佈挑戰時，Journey Optimizer會自動建立[歷程](../building-journeys/journey-gs.md) （草稿）狀態，以協調內容卡傳遞和傳訊。 導覽至歷程詳細目錄，找到自動產生的歷程（名為「挑戰： [挑戰名稱]」），並[啟用它](../building-journeys/publishing-the-journey.md)，讓您的客戶可以使用挑戰。
 
-8. **啟用歷程** — 自動產生的歷程會在您的挑戰開始日期啟用，並管理所有客戶互動。
-
-9. **監視效能** — 透過內建報告和歷程畫布，追蹤參與率、完成率、獎勵發佈和訊息參與。
-
->[!NOTE]
->
->自動產生的歷程會顯示在您的歷程詳細資料中，並可視需要自訂。 不過，直接對歷程進行的變更不會同步回挑戰設定。
+1. **監視效能** — 透過內建報告和歷程畫布，追蹤參與率、完成率、獎勵發佈和訊息參與。 如需監控詳細資訊，請參閱[管理挑戰](manage-challenges.md)。
 
 ## 先決條件 {#prerequisites}
 
 使用忠誠度挑戰之前，請確定您擁有：
 
-### 資料擷取設定 {#data-ingestion}
++++資料擷取設定
 
 忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
 
-1. **設定支援的來源聯結器**：目前，毛細管聯結器一般可用。 已規劃其他聯結器。
+1. **設定支援的來源聯結器**：目前，毛細管聯結器一般可用。 未來版本計畫推出其他聯結器。
 
-2. **驗證資料擷取**：確保忠誠度事件和客戶資料流入Experience Platform並在Journey Optimizer中使用。
+1. **驗證資料擷取**：確保忠誠度事件和客戶資料流入Experience Platform並在Journey Optimizer中使用。 確認資料結構包含追蹤客戶動作和進度的必要欄位。
 
 如需詳細指示，請參閱：
 
-* [Experience Platform來原始檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+* [Experience Platform來原始檔](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [在Journey Optimizer中設定來源聯結器](../start/get-started-sources.md)
 
-### 必要權限 {#required-permissions}
++++
 
-若要使用忠誠度挑戰，您需要Journey Optimizer中的適當許可權。 如果您無法存取此功能，請聯絡管理員。
++++必要權限
 
-### 目標客群 {#target-audiences}
+若要使用忠誠度挑戰，您需要Journey Optimizer中的適當許可權。 必要的許可權包括：
 
-先在Experience Platform中建立目標對象，然後再建立挑戰。 您可以選取現有對象，但無法從忠誠度挑戰UI建立新對象。
+* 存取&#x200B;**[!UICONTROL 忠誠度挑戰]**&#x200B;功能
+* 建立和管理歷程的許可權
+* 建立和管理內容卡的許可權
+* 建立和管理對象的許可權
 
-## 重要限制 {#limitations}
+如果您無法存取功能或需要其他許可權，請聯絡管理員。
 
-* **沒有分類帳系統**：忠誠度挑戰不會追蹤貨幣值或點數餘額。 當客戶完成挑戰並獲得獎勵時，Journey Optimizer會呼叫您的外部忠誠度管理系統以處理點數分配。
++++
 
-* **僅限對象選擇**：您可以選取現有對象，但無法從「忠誠度挑戰」UI建立新對象。
++++目標客群
+
+先在Experience Platform中建立目標對象，然後再建立挑戰。 這些受眾會定義哪些客戶符合參與您的忠誠度挑戰的資格。 有關如何建立對象的詳細資訊，請參閱[開始使用對象](../audience/about-audiences.md)。
+
++++
 
 ## 後續步驟 {#next-steps}
 
@@ -140,7 +123,7 @@ ht-degree: 2%
     </div>
     <p>
     <em>瞭解如何存取詳細目錄並篩選挑戰</em>
-    <p>
+    </p>
   </td>
   <td>
     <a href="create-challenges.md">
@@ -151,7 +134,18 @@ ht-degree: 2%
     </div>
     <p>
     <em>建置並設定您的第一個忠誠度挑戰</em>
+    </p>
+  </td>
+  <td>
+    <a href="create-tasks.md">
+    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+    </a>
+    <div>
+    <a href="create-tasks.md"><strong>建立任務</strong></a>
+    </div>
     <p>
+    <em>定義挑戰的行動和獎勵</em>
+    </p>
   </td>
   <td>
     <a href="manage-challenges.md">
@@ -162,7 +156,7 @@ ht-degree: 2%
     </div>
     <p>
     <em>編輯、監視和最佳化挑戰</em>
-    <p>
+    </p>
   </td>
 </tr>
 </table>

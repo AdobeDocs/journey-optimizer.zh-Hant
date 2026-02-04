@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '888'
+ht-degree: 0%
 
 ---
 
@@ -27,241 +27,174 @@ ht-degree: 1%
 * [開始解決忠誠度挑戰](get-started.md) — 概述、工作流程、必要條件
 * [存取忠誠度挑戰](access-loyalty-challenges.md) — 詳細目錄和篩選
 * **建立挑戰** ◀︎**您在這裡** — 建置並設定挑戰
+* [建立任務](create-tasks.md) — 定義挑戰任務
 * [管理挑戰](manage-challenges.md) — 編輯、監視、最佳化
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="建立忠誠度挑戰"
->abstract="建立忠誠度挑戰以定義參與優惠方案、設定傳送的內容卡、新增任務、設定獎勵，以及選擇設定跨管道的訊息。"
-
-## 開始之前 {#before-you-start}
-
-建立挑戰前，請確定您已：
-
-* 透過來源聯結器設定及驗證資料擷取
-* 在Experience Platform中建立任何必要的對象
-* 準備好內容資產（影像、文字等）以應付您的挑戰
-* 已定義您要提供的任務和獎勵
-
-## 建立挑戰 {#create-a-challenge}
-
-有關建立挑戰的詳細步驟，包括：
-* 挑戰屬性設定
-* 挑戰型別（標準、條紋、循序）
-* 客群選擇
-* 日期設定
-
-## 新增任務 {#add-tasks}
-
-任務會定義客戶在忠誠度挑戰中必須完成的特定動作或里程碑，才能獲得獎勵。 您可以設定任務型別、數量、產品需求和獎勵值，以建立吸引人且個人化的忠誠度體驗。
-
-### 任務總覽 {#task-overview}
-
-每項任務都代表可測量的動作，有助於完成挑戰。 根據您的挑戰型別（標準、連續或順序），客戶完成任務的方式有所不同：
-
-* **標準挑戰**：客戶以任何順序完成任何指定數量的工作
-* **連續挑戰**：客戶連續多次完成相同工作
-* **循序挑戰**：客戶以定義的順序完成任務
-
-### 新增任務 {#add-task}
-
-若要新增任務至您的挑戰：
-
-1. 開啟您的挑戰或建立新的挑戰。
-
-2. 導覽至&#x200B;**[!UICONTROL 工作]**&#x200B;區段。
-
-3. 選取&#x200B;**[!UICONTROL 新增工作]**&#x200B;或&#x200B;**[!UICONTROL 建立新工作]**。
-
-4. 在工作建立畫面中，設定下列屬性。
-
-### 任務屬性 {#task-properties}
-
-#### 基本任務資訊 {#basic-info}
-
-**[!UICONTROL 工作名稱]**：輸入工作的描述性名稱。 您和您的團隊可以看見此名稱，但根據您的內容卡設計，客戶可能不會看到此名稱。
-
-**[!UICONTROL 工作說明]**： （選擇性）新增有關工作目的或需求的詳細資料。
-
-**[!UICONTROL 工作型別]**：選取客戶必須執行的動作型別。 可用的工作型別包括：
-
-* **[!UICONTROL 購買]**：客戶進行購買交易
-* **[!UICONTROL 花費金額]**：客戶花費指定的金額
-* **[!UICONTROL 造訪]**：客戶造訪實體地點或數位財產
-* **[!UICONTROL 參與]**：客戶參與內容，例如檢視視訊或閱讀文章
-* **[!UICONTROL 自訂事件]**：客戶觸發透過您的資料擷取追蹤的自訂事件
-
-#### 數量需求 {#quantity-requirements}
-
-**[!UICONTROL 必要的數量]**：指定客戶必須執行工作幾次才能完成它。
-
-例如：
-
-* 針對採購作業：「購買2個料號」（數量= 2）
-* 針對支出金額作業：「支出$50」（數量= 50）
-* 若為造訪任務：「造訪5次」（數量= 5）
-
-**[!UICONTROL 追蹤期間]**： （選擇性）定義完成此工作的時間範圍：
-
-* 每個挑戰持續時間（預設）
-* 每天
-* 每週
-* 每月
-* 自訂日期範圍
-
-### 產品和SKU篩選 {#product-filtering}
-
-對於「購買」和「支出」金額任務，您可以指定哪些產品符合完成任務的資格。
-
-#### 產品包含 {#product-inclusions}
-
-定義哪些產品或類別計入任務：
-
-1. 選取&#x200B;**[!UICONTROL 新增產品條件]**。
-
-2. 選擇如何定義合格產品：
-   * **[!UICONTROL 透過SKU]**：輸入特定的產品SKU代碼
-   * **[!UICONTROL 依類別]**：從目錄選取產品類別
-   * **[!UICONTROL 依屬性]**：依產品屬性（例如品牌、大小、顏色或自訂屬性）篩選
-
-3. 輸入或選取產品識別碼：
-
-   **範例 — 依SKU**：
-
-   ```text
-   SKU001, SKU002, SKU003
-   ```
-
-   **範例 — 依類別**：
-
-   * 飲料>咖啡
-   * 麵包店>糕點
-
-   **範例 — By屬性**：
-
-   * 品牌= &quot;Premium品牌&quot;
-   * 類別=「季節性專案」
-   * 價格> $20
-
-4. 選取「**[!UICONTROL 新增]**」以儲存產品條件。
-
-#### 產品排除 {#product-exclusions}
-
-可選擇性地將特定產品排除在任務計算之外：
-
-1. 選取&#x200B;**[!UICONTROL 新增排除專案]**。
-
-2. 使用與產品包含專案相同的篩選方法來指定應排除哪些產品。
-
-3. 常見的排除情況：
-
-   * 銷售或結算專案
-   * 禮品卡
-   * 促銷或免費專案
-   * 特定品牌或類別
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->**包含和排除邏輯**：同時定義包含和排除時：
->
->* 產品必須符合包含條件
->* 即使產品符合包含專案，符合排除條件的產品也會被移除
->* 如果未定義包含專案，則除了明確排除的產品之外，所有產品都符合資格
+>此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
-#### 產品篩選範例 {#product-filtering-examples}
+## 運作方式 {#how-it-works}
 
-##### 範例1：咖啡挑戰 {#example-1}
+<!-- SCHEMA: Visual workflow showing the 5 main steps with icons: Create challenge → Add tasks → Design content cards → Configure messaging → Review and publish -->
 
-* 任務型別：購買
-* 需求數量：3
-* 包含專案：類別= 「飲料>咖啡」
-* 結果：客戶必須購買3種咖啡飲料
+建立和啟動忠誠度挑戰會遵循此工作流程：
 
-##### 範例2：進階支出 {#example-2}
+1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、連續或循序）、對象和日期範圍。
 
-* 任務型別：支出金額
-* 需求數量：$100
-* 包含：品牌= &quot;Premium品牌&quot;
-* 排除專案：類別= &quot;Clearance&quot;
-* 結果：客戶必須在優質品牌專案上花費$100，不含結算專案
+1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出、造訪等）、數量、產品篩選器和獎勵。
 
-##### 範例3：特定產品購買 {#example-3}
+1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。
 
-* 任務型別：購買
-* 需求數量：1
-* 包含： SKU = &quot;NEWPRODUCT2024&quot;
-* 結果：客戶必須以SKU「NEWPRODUCT2024」購買特定產品
+1. **設定訊息** （選用） — 設定關鍵階段的多通道訊息（應用程式內、電子郵件、推播、簡訊）：啟動、進行中及完成。
 
-### 設定獎勵 {#configure-rewards}
+1. **檢閱並發佈** — 使用測試設定檔測試您的挑戰，然後發佈它以供您的目標對象使用。
 
-定義客戶完成工作可獲得的報酬。 完成所有任務後，可以在任務層級或挑戰層級授予獎勵。
+## 建立挑戰 {#create-challenge}
 
-#### 獎勵時機 {#reward-timing}
+<!-- SCREENSHOT: Challenge creation screen showing challenge properties form with fields for name, type, audience, dates -->
 
-選擇客戶何時收到獎勵：
+若要建立新的忠誠度挑戰：
 
-**[!UICONTROL 工作完成之後]**：客戶在完成此特定工作後會立即收到獎勵（也稱為「漸進式獎勵」或「里程碑獎勵」）。
+1. 導覽至Journey Optimizer中的&#x200B;**[!UICONTROL 忠誠度挑戰]**。
 
-**[!UICONTROL 完成挑戰後]**：客戶只有在完成挑戰中的所有必要工作後，才會收到獎勵（也稱為「最終獎勵」或「大獎」）。
+1. 選取&#x200B;**[!UICONTROL 挑戰]**&#x200B;標籤。
 
->[!TIP]
->
->您可以將兩種獎勵型別合併為單一挑戰，以維持整個客戶歷程的參與度。 例如：
->
->* 每項工作完成後給予10分（漸進式獎勵）
->* 完成整個挑戰後，再給予100分（最終獎勵）
+1. 選取&#x200B;**[!UICONTROL 建立挑戰]**。
 
-#### 獎勵型別和值 {#reward-types}
+1. 設定挑戰屬性：
 
-**[!UICONTROL 點數]**：向客戶帳戶授予忠誠度點數。
+   **挑戰名稱**：輸入挑戰的描述性名稱。 此名稱會出現在挑戰清單中，並協助您識別挑戰。
 
-* 輸入點數（例如100）
-* 點數會透過API傳達給您的外部忠誠度管理系統
+   **挑戰型別**：選取下列其中一種型別：
+   * **[!UICONTROL 標準]**：客戶以任何順序完成任何指定數量的工作
+   * **[!UICONTROL 連續執行]**：客戶連續多次完成相同的工作
+   * **[!UICONTROL 循序]**：客戶以定義的順序完成工作
 
-**[!UICONTROL 折扣]**：提供折扣代碼或值。
+   **目標對象**：選取定義誰可以參與此挑戰的對象區段。 您必須先在Experience Platform中建立受眾，才能建立挑戰。 如需詳細資訊，請參閱[開始使用對象](../audience/about-audiences.md)。
 
-* 輸入折扣型態（百分比或固定金額）
-* 輸入折扣值
-* 選擇性地指定折扣代碼，或讓系統產生折扣代碼
+   **開始日期**：設定客戶何時可提出挑戰。
 
-**[!UICONTROL 免費專案]**：授予免費的產品或服務。
+   **結束日期**：設定質詢過期且不再接受新完成的時間。
 
-* 指定料號SKU或說明
-* 指定免費專案應如何申請
+<!-- VISUAL: Comparison table or diagram showing the three challenge types (Standard, Streak, Sequential) with examples of each -->
 
-**[!UICONTROL 自訂獎勵]**：定義自訂獎勵型別。
+### 新增任務 {#add-tasks}
 
-* 輸入獎勵說明
-* 提供任何相關的程式碼或識別碼
-* 設定如何傳遞或申請獎勵
+任務會定義客戶為獲得獎勵必須完成的特定動作或里程碑。 您可以設定任務型別（購買、支出、造訪、參與、自訂事件）、數量、產品篩選器和獎勵。
 
-## 設定內容卡片 {#configure-content-cards}
+根據您的挑戰型別，客戶完成工作的方式會有所不同：
 
-如需設定內容卡的詳細步驟，包括：
-* 內容卡設定
-* 設計與個人化
-* 預覽和測試
+* **標準挑戰**：以任意順序完成任何指定數量的工作
+* **連續挑戰**：連續多次完成相同工作
+* **循序挑戰**：以定義的順序完成任務
 
-## 設定傳訊 {#configure-messaging}
+若要新增任務至您的挑戰，請選取[任務]區段中的[新增任務] ****，並設定任務屬性。
 
-如需設定多頻道傳訊的詳細步驟，包括：
-* 訊息頻道（應用程式內、電子郵件、推播）
-* 訊息階段（啟動、進行中、完成）
-* 訊息時間與觸發器
+如需建立和設定工作的詳細指示，請參閱[建立工作](create-tasks.md)。
 
-## 檢閱和發佈 {#review-and-publish}
+### 設定內容卡片 {#configure-content-cards}
+
+<!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
+
+內容卡可在客戶裝置上以視覺化方式呈現您的挑戰，顯示挑戰資訊、進度和獎勵。 深入瞭解[內容卡](../content-card/get-started-content-card.md)。
+
+<!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
+
+若要設定挑戰的內容卡：
+
+1. 在挑戰編輯器中，導覽至&#x200B;**[!UICONTROL 內容卡]**&#x200B;區段。
+
+1. 選取&#x200B;**[!UICONTROL 建立內容卡]**&#x200B;或選擇現有的範本。
+
+1. 設計您的內容卡：
+   * 新增影像、文字和品牌元素
+   * 包含[個人化權杖](../personalization/personalization-syntax.md)以顯示客戶特定資訊
+   * 顯示挑戰進度指示器
+   * 顯示獎勵和獎勵
+
+1. 設定內容卡片顯示的時間：
+   * **挑戰開始**：顯示挑戰何時可用
+   * **進行中**：當客戶主動參與時顯示
+   * **完成**：在客戶完成所有任務後顯示
+
+1. 預覽不同裝置上的內容卡以確保正確顯示。
+
+1. 儲存內容卡設定。
+
+如需有關設計和個人化內容卡的詳細資訊，請參閱[設計內容卡](../content-card/design-content-card.md)。
+
+### 設定傳訊 {#configure-messaging}
+
+<!-- SCREENSHOT: Messaging configuration section showing the three lifecycle stages: Launch, In-progress, Completion -->
+
+設定多管道訊息，在挑戰生命週期的關鍵階段與客戶互動。
+
+<!-- VISUAL: Timeline diagram showing when each message type is sent during the challenge lifecycle -->
+
+設定訊息以因應挑戰：
+
+1. 在挑戰編輯程式中，導覽至&#x200B;**[!UICONTROL 傳訊]**&#x200B;區段。
+
+1. 為每個生命週期階段設定訊息：
+
+   **啟動訊息** — 當挑戰開始時通知客戶：
+   * 選取頻道： [應用程式內](../in-app/get-started-in-app.md)、[電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)或[簡訊](../sms/get-started-sms.md)
+   * 設計包含挑戰詳細資訊和call-to-action的訊息
+   * 設定時間：當挑戰上線或排程特定時間時立即傳送
+
+   **進行中訊息** — 在挑戰期間保持客戶參與：
+   * 定義觸發條件（例如50%完成、特定任務完成）
+   * 建立提醒訊息以鼓勵持續參與
+   * 包含進度更新和後續步驟
+
+   **完成訊息** — 慶祝成功並傳送獎勵：
+   * 恭喜客戶完成挑戰
+   * 確認獎勵分配
+   * 提供申請獎勵的說明
+   * 建議下一個挑戰或行動
+
+有關為特定通道建立訊息的詳細資訊，請參閱：
+
+* [應用程式內訊息檔案](../in-app/get-started-in-app.md)
+* [電子郵件訊息檔案](../email/get-started-email.md)
+* [推播通知檔案](../push/get-started-push.md)
+* [SMS訊息檔案](../sms/get-started-sms.md)
+
+## 檢閱並發佈挑戰 {#review-and-publish}
+
+<!-- SCREENSHOT: Review screen showing summary of challenge configuration with all components listed -->
 
 發佈挑戰前：
 
-1. **檢閱所有元件**：挑戰內容、工作、獎勵、內容、訊息
-2. **測試體驗**：使用測試設定檔來驗證內容和工作觸發程式
-3. **發佈**：讓挑戰對您的目標對象有效
+1. **檢閱所有元件**：驗證挑戰內容、工作、獎勵、內容卡和傳訊設定。
 
-自動產生的歷程會在您指定的開始日期啟動。
+1. **測試體驗**：使用[測試設定檔](../test-approve/test-profiles.md)來驗證內容卡顯示和工作觸發程式行為。
+
+1. **發佈**：選取&#x200B;**[!UICONTROL 發佈]**，讓您的目標對象可以使用挑戰。
+
+<!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
+
+當您發佈挑戰時，Journey Optimizer會自動建立草稿狀態的[歷程](../building-journeys/journey-gs.md)。 自動產生的歷程會以名稱格式「挑戰： [挑戰名稱]」出現在您的歷程詳細目錄中。
+
+若要讓客戶瞭解此挑戰：
+
+1. 導覽至Journey Optimizer中的&#x200B;**[!UICONTROL 歷程]**&#x200B;詳細目錄。
+
+1. 找到自動產生的歷程（其名稱會以「Challenge：」作為前置詞）。
+
+1. [啟動歷程](../building-journeys/publishing-the-journey.md)。
+
+歷程會在您指定的挑戰開始日期自動開始。
+
+>[!NOTE]
+>
+>自動產生的歷程會顯示在您的歷程詳細資料中，並可視需要自訂。 不過，直接對歷程進行的變更不會同步回挑戰設定。
 
 ## 後續步驟 {#next-steps}
 
 * [管理挑戰](manage-challenges.md) — 瞭解如何編輯、監控和最佳化挑戰
 * [瞭解忠誠度挑戰](get-started.md) — 檢閱功能
+
