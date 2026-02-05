@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 89ce77c686e7faec2b7baba5f2c498515ddcfe0f
+source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
 
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、條紋或循序）和日期範圍。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
 
-開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)。
+開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
@@ -111,13 +111,15 @@ ht-degree: 2%
 
 +++
 
-## 後續步驟 {#next-steps}
+## 讓我們深入探討 {#lets-dive-deeper}
+
+現在您已經知道什麼是忠誠度挑戰及其運作方式，您可以開始深入瞭解詳細資訊。 探索以下主題以存取介面、建立您的第一個挑戰，並定義您的客戶將完成的任務。
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-      <img alt="存取權" src="assets/do-not-localize/icon-access.png" width="48"/>
+      <img alt="存取權" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>存取及管理挑戰與工作</strong></a>
@@ -128,7 +130,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="建立" src="assets/do-not-localize/icon-challenge.png" width="48"/>
+      <img alt="建立" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
     <a href="create-challenges.md"><strong>建立挑戰</strong></a>
@@ -139,7 +141,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-tasks.md">
-      <img alt="任務" src="assets/do-not-localize/icon-task.png" width="48"/>
+      <img alt="任務" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
     <a href="create-tasks.md"><strong>建立任務</strong></a>
