@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ### 運作方式 — 網頁SDK {#client-side-how}
 
-1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}已包含在此頁面上。
+1. [網頁版SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}已包含在此頁面上。
 
 1. 您必須使用`sendEvent`命令並指定[表面URI](code-based-surface.md)<!--( or location/path)-->來擷取個人化內容。
 
@@ -105,7 +105,9 @@ ht-degree: 3%
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ ht-degree: 3%
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >`tokens`中的`propositionAction`欄位對於Adobe Journey Optimizer Decisioning (AJO-D)中的準確追蹤和歸因至關重要。 這些權杖會啟用：
+   >- 決策活動的正確點按歸因
+   >- 準確報告使用者與已決策內容的互動
+   >- 根據使用者參與最佳化優惠方案效能
+   >
+   >Token通常可在`proposition.items[0].characteristics.tokens`中找到，且一律應在追蹤使用者與已決策內容的互動時納入。
 
 ### 重要觀察
 
@@ -308,7 +319,7 @@ Cookie可用來儲存使用者身分和叢集資訊。 使用伺服器端實作�
 如果您採用混合式實作，請參閱下列連結。
 
 * Adobe技術部落格： [Adobe Experience Platform Web SDK中的Hybrid Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=zh-Hant){target="_blank"}
+* SDK檔案： [使用網頁SDK和Edge Network伺服器API的混合個人化](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## 使用Adobe Experience Platform Assurance偵錯Edge網路API呼叫 {#debugging-edge-api-assurance}
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->

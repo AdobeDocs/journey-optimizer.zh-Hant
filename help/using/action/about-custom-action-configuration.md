@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 14%
+source-wordcount: '2437'
+ht-degree: 12%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 
@@ -207,6 +207,205 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 >如果您在允許Null值時設定選用引數，則歷程從業人員未填入的引數會傳送為Null。
 >
 
+## 完整的JSON範例 {#json-examples}
+
+本節提供完整的JSON範例，說明自訂動作所有支援的引數型別和設定。
+
+### 範例1：基本引數型別
+
+此範例說明如何在自訂動作裝載中使用不同的資料型別：
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+在動作設定中：
+* `userId` — 變數引數（字串） — 對應到設定檔firstName
+* `accountId` — 常數引數（字串） — 一律傳送「ABC123」
+* `age` — 變數引數（整數） — 對應到設定檔年齡
+* `isActive` — 常數引數（布林值） — 一律傳送true
+* `loyaltyScore` — 變數引數（十進位） — 對應到自訂設定檔欄位
+
+### 範例2：使用系統常數和歷程內容
+
+您可以參考歷程特定資訊和系統值：
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**可用的歷程內容變數：**
+
+>[!NOTE]
+>
+>產品團隊正在驗證歷程內容變數語法。 實際的欄位名稱可能是： journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName （根據歷程屬性檔案）。
+
+* `@{journey.id}` — 歷程的唯一識別碼
+* `@{journey.name}` — 歷程的名稱
+* `@{journey.version}` — 歷程的版本號碼
+* `@{journey.startTime}` — 此設定檔的歷程開始時間戳記（需要驗證）
+* `@{journey.stepId}` — 目前的步驟識別碼
+* `@{journey.stepName}` — 目前步驟的名稱
+
+### 範例3：選用和必要引數
+
+設定歷程從業人員可選擇填入的引數：
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+在動作設定UI中：
+* 將`email`設為&#x200B;**必要** （不要勾選「是選用的」）
+* 將`mobilePhone`設為&#x200B;**選用** （勾選「是選用的」）
+* 將`preferredLanguage`設定為具有預設值的&#x200B;**選用**
+
+>[!TIP]
+>
+>當引數標示為選用且未由歷程從業人員填寫時，其將從承載中省略或傳送為null （如果已啟用「允許NULL值」）。
+
+### 範例4：使用陣列和集合
+
+將資料集合傳遞至您的自訂動作：
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>深入瞭解如何在[此頁面](../building-journeys/collections.md)的自訂動作中傳遞集合。
+
+### 範例5：巢狀物件和複雜結構
+
+建立階層資料結構：
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### 範例6：完成真實世界的自訂動作
+
+整合多個概念的完整範例：
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**此範例的設定提示：**
+* 混合常數值(`eventSource`、`specialPromotion`、`sandbox`)和變數引數
+* 使用歷程內容進行追蹤和偵錯
+* 包含第三方系統中用於個人化的設定檔資料
+* 使用選件時新增決策內容
+* 路由和組織層級追蹤的系統中繼資料
+
+### 設定常數的秘訣
+
+**沙箱名稱：**&#x200B;使用設定為您的環境名稱的常數引數（例如：&quot;prod&quot;、&quot;dev&quot;、&quot;stage&quot;）
+
+**執行時間戳記：**&#x200B;使用`@{journey.startTime}`或建立歷程執行者可對應至`#{nowWithDelta()}`函式的變數引數
+
+**API版本：**&#x200B;請對API版本號碼使用常數，以確保歷程的一致性
+
+**驗證權杖：**&#x200B;絕對不要將驗證權杖放在承載中 — 請改用自訂動作設定的[驗證]區段
+
+>[!CAUTION]
+>
+>承載中的欄位名稱不能包含點`.`字元，也不能以`$`字元開頭。 請確定您的JSON結構遵循這些命名慣例。
 
 * [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
 
