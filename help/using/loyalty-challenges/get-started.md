@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -20,45 +21,51 @@ ht-degree: 1%
 
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+
 >[!BEGINSHADEBOX]
 
 **忠誠度挑戰檔案：**
 
 * **開始解決忠誠度挑戰** ◀︎ **您在這裡** — 總覽、工作流程、必要條件
-* [存取及管理忠誠度挑戰](access-loyalty-challenges.md) — 詳細目錄、挑戰及工作管理
+* [存取及管理挑戰與工作](access-loyalty-challenges.md) — 清查、挑戰與工作管理
 * [建立挑戰](create-challenges.md) — 建置並設定挑戰
 * [建立任務](create-tasks.md) — 定義挑戰任務
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中，可能無法在您的環境中使用。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
-
 ## 概觀 {#overview}
 
-忠誠度挑戰提供完整解決方案，可大規模建立忠誠度計畫，從定義任務和里程碑，到跨管道提供內容和追蹤效能。
+忠誠度挑戰可讓您建立吸引人、遊戲化的忠誠度計畫，以推動客戶行為並深化品牌關係。 建立挑戰以獎勵客戶的特定行動，從購買和撰寫評論，到參與社群媒體和反向連結朋友。
+
+透過忠誠度挑戰，您可以：
+
+* **設計彈性的挑戰型別**：建立符合您業務目標的標準、連續或循序挑戰
+* **策略性地設定獎勵**：在任務里程碑或完全完成時傳遞點數以維持參與
+* **個人化體驗**：使用內容卡和多通道傳訊功能，建立沈浸式品牌體驗
+* **緊密整合**：與您現有的忠誠度提供者連絡並運用Experience Platform資料
+* **自動追蹤**：透過自動產生的歷程（無需自訂開發）監視客戶進度
 
 ![](assets/challenges-gs.png)
 
 您可以建立三種型別的挑戰體驗：
 
-* **標準挑戰**：客戶以任何順序完成任何指定數量的工作\
-  *範例：完成5個可用工作中的3個*
+* **標準挑戰**：客戶以任何順序完成任何指定數量的工作。 當您想要彈性及多個完成路徑時，請使用此型別。\
+  *範例：「夏季健康挑戰」 — 完成5項任務中的3項：購買健康產品、在社群媒體上分享、介紹朋友、撰寫評論或參加虛擬活動*
 
-* **連續挑戰**：客戶連續多次完成相同工作\
-  *範例：連續7天購買*
+* **連續挑戰**：客戶連續多次完成相同的工作。 使用此型別鼓勵隨著時間推移一致的重複行為。\
+  *範例：「咖啡愛好者週」 — 連續7天購買咖啡產品以取得免費飲品獎勵*
 
-* **循序挑戰**：客戶以定義的順序完成任務\
-  *範例： Purchase → Review → Share （必須依此順序完成）*
-
-面對忠誠度挑戰，使用自動產生的歷程，設定獎勵並在關鍵生命週期階段傳送多管道通知，同時保持與外部忠誠度管理系統的整合。
+* **循序挑戰**：客戶以定義的順序完成任務。 使用此型別引導客戶完成特定歷程或上線流程。\
+  *範例：「新成員歷程」 — 註冊電子郵件→進行第一次購買→撰寫產品評論→推薦朋友（以此確切順序完成）*
 
 ## 運作方式 {#how-it-works}
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
 
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、條紋或循序）和日期範圍。
 
@@ -82,30 +89,23 @@ ht-degree: 1%
 
 忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
 
-1. **設定支援的來源聯結器**：目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)。
-
-1. **驗證資料擷取**：確保忠誠度事件和客戶資料流入Experience Platform並在Journey Optimizer中使用。 確認資料結構包含追蹤客戶動作和進度的必要欄位。
-
-如需詳細指示，請參閱[Experience Platform來源概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home)
+開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
-+++必要權限
+<!--+++Required permissions
 
-若要使用忠誠度挑戰，您需要Journey Optimizer中的適當許可權。 必要的許可權包括：
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* 存取&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**&#x200B;功能
-* 建立和管理歷程的許可權
-* 建立和管理內容卡的許可權
-* 建立和管理對象的許可權
+TBD
 
-如果您無法存取功能或需要其他許可權，請聯絡管理員。
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++目標客群
 
-定義目標對象，指定哪些客戶有資格參與您的忠誠度挑戰。 您可以選取現有對象，或直接從挑戰建立介面建立新對象。 [瞭解如何使用對象](../audience/about-audiences.md)。
+在建立挑戰之前，請先確定Adobe Experience Platform中已有您需要的目標對象。 在挑戰設定期間，您將選取定義哪些客戶有資格參與的受眾。 [瞭解如何使用對象](../audience/about-audiences.md)。
 
 +++
 
@@ -118,7 +118,7 @@ ht-degree: 1%
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>存取忠誠度挑戰</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>存取及管理挑戰與工作</strong></a>
     </div>
     <p>
     <em>瞭解如何存取詳細目錄並篩選挑戰</em>
@@ -132,7 +132,7 @@ ht-degree: 1%
     <a href="create-challenges.md"><strong>建立挑戰</strong></a>
     </div>
     <p>
-    <em>建置並設定您的第一個忠誠度挑戰</em>
+    <em>瞭解如何建立及設定您的第一個忠誠度挑戰</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ ht-degree: 1%
     <a href="create-tasks.md"><strong>建立任務</strong></a>
     </div>
     <p>
-    <em>定義挑戰要完成的動作</em>
+    <em>瞭解如何設定客戶為挑戰而完成的動作</em>
     </p>
   </td>
 </tr>
