@@ -119,9 +119,9 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >`tokens`中的`propositionAction`欄位對於Adobe Journey Optimizer Decisioning (AJO-D)中的準確追蹤和歸因至關重要。 這些權杖會啟用：
-   >- 決策活動的正確點按歸因
-   >- 準確報告使用者與已決策內容的互動
-   >- 根據使用者參與最佳化優惠方案效能
+   >&#x200B;- 決策活動的正確點按歸因
+   >&#x200B;- 準確報告使用者與已決策內容的互動
+   >&#x200B;- 根據使用者參與最佳化優惠方案效能
    >
    >Token通常可在`proposition.items[0].characteristics.tokens`中找到，且一律應在追蹤使用者與已決策內容的互動時納入。
 
