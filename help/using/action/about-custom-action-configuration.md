@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 12%
+source-wordcount: '2032'
+ht-degree: 14%
 
 ---
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 您可以使用相互傳輸層安全性(mTLS)來確保對Adobe Journey Optimizer自訂動作的輸出連線具有增強的安全性。 mTLS是一種用於相互驗證的端對端安全性方法，可確保共用資訊的雙方在共用資料之前，都是聲稱的身分。 mTLS包括相較於TLS的額外步驟，其中伺服器也會要求使用者端的憑證並在其末端驗證它。
 
-自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+自訂動作支援雙向TLS (mTLS)驗證。 自訂動作或歷程中不需要額外設定即可啟用 mTLS；當偵測到啟用 mTLS 的端點時，它會自動發生。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## 定義裝載引數 {#define-the-message-parameters}
 
@@ -207,13 +207,14 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 >如果您在允許Null值時設定選用引數，則歷程從業人員未填入的引數會傳送為Null。
 >
 
-## 完整的JSON範例 {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-本節提供完整的JSON範例，說明自訂動作所有支援的引數型別和設定。
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### 範例1：基本引數型別
+### Example 1: Basic parameter types
 
-此範例說明如何在自訂動作裝載中使用不同的資料型別：
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 }
 ```
 
-在動作設定中：
-* `userId` — 變數引數（字串） — 對應到設定檔firstName
-* `accountId` — 常數引數（字串） — 一律傳送「ABC123」
-* `age` — 變數引數（整數） — 對應到設定檔年齡
-* `isActive` — 常數引數（布林值） — 一律傳送true
-* `loyaltyScore` — 變數引數（十進位） — 對應到自訂設定檔欄位
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### 範例2：使用系統常數和歷程內容
+### Example 2: Using system constants and journey context
 
-您可以參考歷程特定資訊和系統值：
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 }
 ```
 
-**可用的歷程內容變數：**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->產品團隊正在驗證歷程內容變數語法。 實際的欄位名稱可能是： journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName （根據歷程屬性檔案）。
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` — 歷程的唯一識別碼
-* `@{journey.name}` — 歷程的名稱
-* `@{journey.version}` — 歷程的版本號碼
-* `@{journey.startTime}` — 此設定檔的歷程開始時間戳記（需要驗證）
-* `@{journey.stepId}` — 目前的步驟識別碼
-* `@{journey.stepName}` — 目前步驟的名稱
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### 範例3：選用和必要引數
+### Example 3: Optional and required parameters
 
-設定歷程從業人員可選擇填入的引數：
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 }
 ```
 
-在動作設定UI中：
-* 將`email`設為&#x200B;**必要** （不要勾選「是選用的」）
-* 將`mobilePhone`設為&#x200B;**選用** （勾選「是選用的」）
-* 將`preferredLanguage`設定為具有預設值的&#x200B;**選用**
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->當引數標示為選用且未由歷程從業人員填寫時，其將從承載中省略或傳送為null （如果已啟用「允許NULL值」）。
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### 範例4：使用陣列和集合
+### Example 4: Working with arrays and collections
 
-將資料集合傳遞至您的自訂動作：
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 
 >[!NOTE]
 >
->深入瞭解如何在[此頁面](../building-journeys/collections.md)的自訂動作中傳遞集合。
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### 範例5：巢狀物件和複雜結構
+### Example 5: Nested objects and complex structures
 
-建立階層資料結構：
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 }
 ```
 
-### 範例6：完成真實世界的自訂動作
+### Example 6: Complete real-world custom action
 
-整合多個概念的完整範例：
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Adobe Journey Optimizer預設對自訂動作支援TLS 1.3。 如果使用者端�
 }
 ```
 
-**此範例的設定提示：**
-* 混合常數值(`eventSource`、`specialPromotion`、`sandbox`)和變數引數
-* 使用歷程內容進行追蹤和偵錯
-* 包含第三方系統中用於個人化的設定檔資料
-* 使用選件時新增決策內容
-* 路由和組織層級追蹤的系統中繼資料
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### 設定常數的秘訣
+### Tips for configuring constants
 
-**沙箱名稱：**&#x200B;使用設定為您的環境名稱的常數引數（例如：&quot;prod&quot;、&quot;dev&quot;、&quot;stage&quot;）
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**執行時間戳記：**&#x200B;使用`@{journey.startTime}`或建立歷程執行者可對應至`#{nowWithDelta()}`函式的變數引數
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**API版本：**&#x200B;請對API版本號碼使用常數，以確保歷程的一致性
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**驗證權杖：**&#x200B;絕對不要將驗證權杖放在承載中 — 請改用自訂動作設定的[驗證]區段
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->承載中的欄位名稱不能包含點`.`字元，也不能以`$`字元開頭。 請確定您的JSON結構遵循這些命名慣例。
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [自訂動作疑難排解](../action/troubleshoot-custom-action.md) — 瞭解如何疑難排解自訂動作
 
