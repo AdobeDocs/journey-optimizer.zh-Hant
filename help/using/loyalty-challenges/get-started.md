@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 6c6a1b31c81000877cea2af8bca0377264ec4833
+source-git-commit: 8816b20de66c7374525731d7aaee19106aa47582
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
+1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
 
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、條紋或循序）和日期範圍。
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
 
-開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)。
+開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
@@ -117,18 +117,18 @@ ht-degree: 2%
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-    <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
+      <img alt="存取權" src="assets/do-not-localize/icon-access.png">
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>存取及管理挑戰與工作</strong></a>
     </div>
     <p>
-    <em>瞭解如何存取詳細目錄並篩選挑戰</em>
+    <em>瞭解如何存取詳細目錄及管理挑戰與工作</em>
     </p>
   </td>
   <td>
     <a href="create-challenges.md">
-      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="建立" src="assets/do-not-localize/icon-challenge.png">
     </a>
     <div>
     <a href="create-challenges.md"><strong>建立挑戰</strong></a>
@@ -139,13 +139,13 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-tasks.md">
-    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+      <img alt="任務" src="assets/do-not-localize/icon-task.png">
     </a>
     <div>
     <a href="create-tasks.md"><strong>建立任務</strong></a>
     </div>
     <p>
-    <em>瞭解如何設定客戶為挑戰而完成的動作</em>
+    <em>瞭解如何定義客戶為挑戰完成的工作</em>
     </p>
   </td>
 </tr>
