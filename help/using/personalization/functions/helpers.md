@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -220,7 +220,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
 `executionMetadata`協助程式允許動態擷取自訂索引鍵值配對，並將其儲存到訊息執行內容中。
 
@@ -271,9 +271,9 @@ Some edu specific content
 
 **限制**
 
-每個動作的機碼值組有2kb的上限。
+每個動作的機碼值組有2kb的上限。 如果超過2Kb限制，訊息仍會傳送，但任何索引鍵值配對都可能遭截斷。
 
-如果超過2Kb限制，訊息仍會傳送，但任何索引鍵值配對都可能遭截斷。
+系統不會為動作中排除的設定檔擷取中繼資料。 當設定檔被排除而無法接收訊息時，資料集中不會為該設定檔建立中繼資料專案。
 
 **範例**
 
