@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 **忠誠度挑戰檔案：**
 
-* [開始解決忠誠度挑戰](get-started.md) — 概述、工作流程、必要條件
-* **存取及管理挑戰與工作** ◀︎ **您在這裡** — 詳細目錄、挑戰與工作管理
-* [建立挑戰](create-challenges.md) — 建置並設定挑戰
-* [建立任務](create-tasks.md) — 定義挑戰任務
+* [開始應對忠誠度挑戰](get-started.md)
+* **存取及管理挑戰與工作** ◀︎ **您在這裡**
+* [創造挑戰](create-challenges.md)
+* [建立任務](create-tasks.md)
 
 >[!ENDSHADEBOX]
 
