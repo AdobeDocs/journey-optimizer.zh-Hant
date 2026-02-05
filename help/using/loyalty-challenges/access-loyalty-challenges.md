@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 0%
 * **挑戰**：檢視及管理所有忠誠度挑戰、監控其狀態，並執行快速動作，例如檢視、編輯、複製或刪除挑戰
 * **任務**：瀏覽可用於多個挑戰的可重複使用任務，並獨立管理任務定義
 
-
 ## 挑戰詳細目錄 {#challenges-tab}
 
 **[!UICONTROL 挑戰]**&#x200B;索引標籤會依上次修改日期顯示所有挑戰，最近修改的挑戰會先出現。
@@ -57,17 +56,22 @@ ht-degree: 0%
 * **[!UICONTROL 狀態]**：挑戰目前的狀態（草稿或已發佈）
 * **[!UICONTROL 任務]**：挑戰中設定的任務數
 * **[!UICONTROL 歷程]**：連結到與挑戰關聯的自動產生歷程
-* **[!UICONTROL 狀態]**：相關歷程的目前狀態（草稿、即時、已停止等）
+* **[!UICONTROL 狀態]**：傳送質詢的自動產生歷程的目前狀態。
 * **[!UICONTROL 開始/結束日期(UTC)]**：挑戰變成使用中且到期的時間
 
 在「挑戰」標籤中，您可以對挑戰執行動作：
 
 * **檢視挑戰**：選取挑戰名稱以開啟其詳細資訊頁面
 * **複製挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 複製]**。 系統隨即建立副本，且所有工作、內容和訊息都會完整無缺。
-* **刪除挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**
-* **編輯挑戰**：選取挑戰名稱以開啟其詳細資訊頁面並加以編輯。
+* **刪除挑戰**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**。
 
-  當您開啟已發佈的挑戰以進行編輯時，您首先需要將其恢復為「草稿」狀態。 直接對自動產生的歷程進行的任何自訂都將遺失。 進行變更後，再次儲存並發佈挑戰，並重新發佈關聯的歷程。
+  >[!IMPORTANT]
+  >
+  >即使挑戰已發佈，您也可以將其刪除。 在刪除前先考量影響。
+
+* **編輯挑戰**：選取挑戰名稱以開啟其詳細資訊頁面，並進行想要的變更。
+
+  當您開啟已發佈的挑戰以進行編輯時，您首先需要將其恢復為草稿狀態。 直接對自動產生的歷程進行的任何自訂都將遺失。 進行變更後，再次儲存並發佈挑戰，然後發佈關聯的歷程。 [瞭解如何發起挑戰](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
@@ -90,4 +94,8 @@ ht-degree: 0%
 
 * **檢視/編輯任務**：選取任務名稱以檢視完整設定並編輯任務
 * **複製任務**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 複製]**
-* **刪除工作**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**
+* **刪除工作**：選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 刪除]**。
+
+  >[!IMPORTANT]
+  >
+  >即使任務用於一個或多個挑戰，您也可以將其刪除。 在刪除前，請考慮對參考任務的挑戰的影響。

@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ ht-degree: 0%
 
 1. 在對象選取對話方塊中，從可用的Adobe Experience Platform對象清單中選取您的目標對象，然後選取&#x200B;**[!UICONTROL 新增對象]**。 [瞭解如何使用對象](../audience/about-audiences.md)。
 
-您的挑戰現在已完整設定結構、內容、訊息和目標對象。 最後一個步驟是產生並發佈歷程。
+您的挑戰現在已完整設定結構、內容、訊息和目標對象。 若要啟動它，您必須發佈挑戰及其相關歷程。
 
-## 產生並發佈歷程 {#review-and-publish}
+## 發起挑戰 {#launch}
 
-設定所有挑戰元件後，產生將協調挑戰傳送的歷程：
+啟動挑戰需要&#x200B;**三個步驟**： (1)發佈挑戰、(2)產生歷程、(3)發佈歷程。 必須完成全部三個步驟，才能將挑戰傳遞給客戶。
 
 1. 請檢閱您的挑戰設定，以確保所有必填欄位都已完成。
 
-1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的挑戰組態，並選取&#x200B;**[!UICONTROL 產生歷程]**。
+1. 按一下![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選取&#x200B;**[!UICONTROL 發佈]**。
+
+   ![](assets/challenge-create-publish.png)
+
+1. 選取&#x200B;**[!UICONTROL 產生歷程]**&#x200B;以建立將協調您的挑戰傳遞的歷程。
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer會自動建立狀態為「草稿」的歷程。 自動產生的歷程會以名稱格式&#x200B;*「歷程： [挑戰名稱]」*&#x200B;出現在您的歷程詳細目錄中。 [進一步瞭解歷程詳細目錄](../building-journeys/journey-ui.md)。
+1. Journey Optimizer會自動建立狀態為「草稿」的歷程。 歷程會以名稱格式&#x200B;*「歷程： [挑戰名稱]」*&#x200B;出現在您的歷程詳細目錄中。 [進一步瞭解歷程詳細目錄](../building-journeys/journey-ui.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. 準備就緒後，發佈歷程，讓客戶瞭解挑戰。 歷程將在您指定的挑戰開始日期自動開始，並根據您的設定傳送內容和訊息。 [瞭解如何發佈歷程](../building-journeys/publish-journey.md)。
+1. 開啟歷程並發佈。 歷程將在您指定的挑戰開始日期自動開始，並根據您的設定傳送內容和訊息。 [瞭解如何發佈歷程](../building-journeys/publish-journey.md)。
+
+1. 一旦您的挑戰上線，請在[歷程報告](../reports/journey-global-report-cja.md)中監視效能和訊息傳送。
 
 >[!NOTE]
 >
