@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 * [建立任務](create-tasks.md) — 定義挑戰任務
 
 >[!ENDSHADEBOX]
+
+本頁涵蓋建立忠誠度挑戰的完整流程，從選取挑戰型別和設定其屬性，到產生和發佈將為客戶提供挑戰的歷程。
 
 ## 建立挑戰 {#create-the-challenge}
 
@@ -68,9 +70,9 @@ ht-degree: 0%
    * **[!UICONTROL 名稱]**：輸入質詢的描述性名稱。 此名稱會出現在挑戰清單中。
    * **[!UICONTROL 說明]**：輸入說明挑戰目的和目標的說明。
 
-   ![](assets/challenge-create-properties.png)
-
 1. 使用&#x200B;**[!UICONTROL 自訂中繼資料]**&#x200B;區段，以使用索引鍵/值配對來新增自訂中繼資料。 此中繼資料可用於追蹤或與外部系統整合。
+
+   ![](assets/challenge-create-properties.png)
 
 ### 排程挑戰 {#schedule}
 
@@ -117,13 +119,13 @@ ht-degree: 0%
 
    +++Streak挑戰
 
-   * **[!UICONTROL Streak型別]**：
+   在&#x200B;**[!UICONTROL Streak型別]**&#x200B;下拉式清單中，選擇下列專案：
 
-      * **連續**：客戶必須在連續幾天不間斷地完成工作。 *範例：星期一、星期二、星期三的購買 — 錯過一天就中斷連線。*
+   * **連續**：客戶必須在連續幾天不間斷地完成工作。 *範例：星期一、星期二、星期三的購買 — 錯過一天就中斷連線。*
 
-      * **非連續**：客戶可以在完成之間有間隔的情況下完成工作。 *範例：在30天內完成7次購買，允許中斷。*
+   * **非連續**：客戶可以在完成之間有間隔的情況下完成工作。 *範例：在30天內完成7次購買，允許中斷。*
 
-   * **[!UICONTROL 連續長度]**：指定必須完成工作的次數。 *範例：針對「7天購買連結」設定為7。*
+   在&#x200B;**[!UICONTROL 條紋長度]**&#x200B;欄位中，指定任務必須完成的次數。 *範例：針對「7天購買連結」設定為7。*
 
    +++
 
@@ -157,6 +159,8 @@ ht-degree: 0%
      *範例：在任務1後獎勵10分，在任務2後獎勵20分，在任務3後獎勵50分*
 
 1. 選取您的獎勵提供者。 這是管理客戶點數和獎勵的忠誠度解決方案。
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. 根據您選取的傳送方式設定獎勵金額：
 
@@ -210,7 +214,7 @@ ht-degree: 0%
    * **進行中**&#x200B;訊息：讓客戶持續參與提醒和進度更新
    * **完成**&#x200B;訊息：慶祝成功並確認獎勵配置
 
-1. 對於每個階段，新增訊息按鈕以建立該階段的訊息。
+1. 對於每個階段，按一下新增訊息按鈕，以建立該階段的訊息。
 
 1. 選擇您想要的頻道： **[!UICONTROL 應用程式內]**、**[!UICONTROL 電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 推播通知]**，並選取相關的頻道設定。
 
@@ -245,8 +249,6 @@ ht-degree: 0%
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer會自動建立狀態為「草稿」的歷程。 自動產生的歷程會以名稱格式&#x200B;*「歷程： [挑戰名稱]」*&#x200B;出現在您的歷程詳細目錄中。 [進一步瞭解歷程詳細目錄](../building-journeys/journey-ui.md)。
-
-   視需要導覽至&#x200B;**[!UICONTROL 歷程]**&#x200B;詳細目錄以檢閱自動產生的歷程設定。
 
    ![](assets/challenge-create-journey.png)
 
