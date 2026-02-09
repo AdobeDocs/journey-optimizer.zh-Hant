@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
 
@@ -65,8 +65,6 @@ ht-degree: 2%
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **設定資料擷取** — 設定Experience Platform來源聯結器（例如[毛細聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)），以擷取追蹤客戶動作和進度的忠誠度事件資料。 此資料可支援挑戰追蹤和任務完成。
-
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、條紋或循序）和日期範圍。
 
 1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出）、數量、產品篩選和獎勵。
@@ -85,21 +83,28 @@ ht-degree: 2%
 
 使用忠誠度挑戰之前，請確定您擁有：
 
-+++資料擷取設定
-
-忠誠度挑戰需要透過Experience Platform來源聯結器擷取的資料來追蹤客戶進度和任務完成。
-
-開始之前，請設定支援的來源聯結器。 目前，毛細管聯結器可供使用。 未來版本計畫推出其他聯結器。 [瞭解忠誠度來源聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home#loyalty)。
-
-+++
-
 +++必要權限
 
-若要使用忠誠度挑戰，您需要Journey Optimizer中的適當許可權。 必要的許可權包括：
+若要使用忠誠度挑戰，您需要在Journey Optimizer和Adobe Experience Platform中擁有適當許可權。
 
-* 未定
-* 未定
-* 未定
+**Journey Optimizer：**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform：**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 如果您無法存取功能或需要其他許可權，請聯絡管理員。
 
