@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 22%
+source-wordcount: '674'
+ht-degree: 21%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 22%
 
 決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
 
-這些決定專案會透過[程式碼型體驗管道](../code-based/get-started-code-based.md) （可在[!DNL Adobe Journey Optimizer]個行銷活動中存取），順暢地整合至廣泛的傳入介面。
+這些決定專案已順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗： [程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊和推播通知。
 
 >[!IMPORTANT]
 >
->決策決策政策僅適用於程式碼型體驗和電子郵件行銷活動。
+>決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -85,7 +85,7 @@ ht-degree: 22%
 
    ➡️ [瞭解如何在使用者介面的使用者介面中建立選擇策略](selection-strategies.md) （以及在[API檔案](api-reference/selection-strategies/create.md)中）
 
-1. **建立決定原則並將其內嵌至您的程式碼型或電子郵件歷程/行銷活動**：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
+1. **建立決定原則並將其內嵌至您的歷程或行銷活動** （程式碼型體驗、電子郵件、簡訊或推播）：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
 
    ➡️ [瞭解如何使用決定原則](create-decision.md)
 ➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。
@@ -105,4 +105,4 @@ ht-degree: 22%
 
 瞭解Adobe Journey Optimizer中的決策功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475874?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
