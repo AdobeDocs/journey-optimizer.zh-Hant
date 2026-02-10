@@ -8,7 +8,7 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->針對程式碼型體驗，如果您的決定原則包含決定專案（包括片段），您可以在決定原則程式碼中利用這些片段。 [瞭解如何利用片段](../experience-decisioning/fragments-decision-policies.md)
+>針對程式碼型體驗，如果您的決定原則包含決定專案（包括片段），您可以在決定原則程式碼中利用這些片段。 [瞭解如何利用片段](fragments-decision-policies.md)
 
 >[!TAB 電子郵件]
 
