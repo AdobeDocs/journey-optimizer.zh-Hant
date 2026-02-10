@@ -100,7 +100,7 @@ ht-degree: 0%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 ](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 &#x200B;](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
 
 * **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。
 

@@ -411,4 +411,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[疑難排解執行問題](troubleshooting-execution.md)** - 偵錯歷程執行問題
 * **[疑難排解傳入活動](troubleshooting-inbound.md)** - 修正進入及資格問題
 
-**準備好建立您的第一個歷程了嗎？**[立即開始 →](journey-gs.md)
+**準備好建立您的第一個歷程了嗎？**&#x200B;[立即開始 →](journey-gs.md)

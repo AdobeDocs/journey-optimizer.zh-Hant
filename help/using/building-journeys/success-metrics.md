@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 先決條件 {#prerequisites}
 
-在使用歷程量度之前，您必須在`Commerce Details`中的設定>報告下新增包含`Web`、`Mobile`和[ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}欄位群組[!DNL Adobe Experience Platform]的資料集。
+在使用歷程量度之前，您必須在`Commerce Details`中的設定>報告下新增包含`Web`、`Mobile`和[&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}欄位群組[!DNL Adobe Experience Platform]的資料集。
 
 這些欄位群組必須從內建選項中選取，而不是從自訂群組中選取。 請參閱[新增資料集](../reports/reporting-configuration.md#add-datasets)區段。
 
