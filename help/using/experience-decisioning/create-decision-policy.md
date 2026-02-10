@@ -6,13 +6,13 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
+source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 6%
 
 ---
-
 
 # 建立決定原則 {#create-decision}
 
@@ -279,7 +279,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -294,7 +294,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >
