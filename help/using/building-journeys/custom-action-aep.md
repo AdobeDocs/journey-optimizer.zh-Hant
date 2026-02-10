@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
 
 # 使用自訂動作在 Experience Platform 中編寫歷程事件 {#custom-action-aep}
 
-此使用案例說明如何使用自訂動作和已驗證的呼叫，將自訂事件從歷程寫入Adobe Experience Platform。
+此使用案例說明如何使用自訂動作和已驗證的呼叫，將自訂事件從歷程寫入[!DNL Adobe Experience Platform]。
 
 ## 設定開發人員專案 {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**檢視cURL命令**。
 
-   ![Adobe Experience Platform動作型別選擇](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform]動作型別選擇](assets/custom-action-aep-2.png)
 
 1. 複製cURL命令並儲存client_id、client_secret、grant_type和scope。
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
+>在Adobe Developer Console上建立專案後，請務必授予具有正確許可權的開發人員和API存取控制。 在[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}中進一步瞭解
 
 ## 使用HTTP API入口設定來源
 
-1. 在Adobe Experience Platform中建立端點，從歷程寫入資料。
+1. 在[!DNL Adobe Experience Platform]中建立端點以寫入歷程中的資料。
 
-1. 在Adobe Experience Platform中，按一下左側功能表中&#x200B;**連線**&#x200B;底下的&#x200B;**來源**。 在&#x200B;**HTTP API**&#x200B;下，按一下&#x200B;**新增資料**。
+1. 在[!DNL Adobe Experience Platform]中，按一下左側功能表中&#x200B;**連線**&#x200B;下的&#x200B;**來源**。 在&#x200B;**HTTP API**&#x200B;下，按一下&#x200B;**新增資料**。
 
-   ![Adobe Experience Platform的沙箱選取下拉式清單](assets/custom-action-aep-3.png)
+   ![的[!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png)沙箱選取下拉式清單
 
 1. 選取&#x200B;**新帳戶**&#x200B;並啟用驗證。 選取&#x200B;**連線至Source**。
 
@@ -101,7 +101,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 在此範例中，請遵循下列步驟：
 
-1. 開啟Adobe Journey Optimizer，然後按一下左側功能表中&#x200B;**管理**&#x200B;下的&#x200B;**組態**。 在&#x200B;**動作**&#x200B;下，按一下&#x200B;**管理**，然後按一下&#x200B;**建立動作**。
+1. 開啟[!DNL Adobe Journey Optimizer]，然後按一下左側功能表中&#x200B;**管理**&#x200B;下的&#x200B;**組態**。 在&#x200B;**動作**&#x200B;下，按一下&#x200B;**管理**，然後按一下&#x200B;**建立動作**。
 
 1. 設定URL並選取Post方法。
 

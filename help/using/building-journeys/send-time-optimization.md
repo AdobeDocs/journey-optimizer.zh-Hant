@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="關於傳送時間最佳化"
->abstract="Adobe Journey Optimizer 的傳送時間最佳化功能由 Adobe 的 AI 服務提供支援，可以預測傳送電子郵件或推播訊息的最佳時間，以根據歷史開啟率和點擊率將參與度提高至最大限度。"
+>abstract="[!DNL Adobe Journey Optimizer]的傳送時間最佳化功能(由Adobe的AI服務提供支援)可依據歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="啟動傳送時間最佳化"
 >abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。您還可以在「傳送時間在未來」輸入值，來涵蓋系統使用的時間區段。"
 
-Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服務，可根據客戶的歷史開啟和點按行為，選擇最佳的電子郵件和推播訊息傳送時間，以最大化客戶參與度。
+[!DNL Adobe Journey Optimizer]的傳送時間最佳化功能採用Adobe的Journey AI服務，可根據客戶的歷史開啟和點按行為，選擇最佳的電子郵件和推播訊息傳送時間，以最大化客戶參與度。
 
 傳送時間最佳化僅適用於Journey Optimizer的內建電子郵件和推播動作型別，目前不適用於透過自訂動作傳送的訊息或其他動作型別。 傳送時間最佳化僅適用於歷程中的電子郵件和推播動作，目前不適用於透過行銷活動傳送的訊息。
 
 >[!AVAILABILITY]
 >
->* Adobe Journey Optimizer客戶提出要求時，便會啟用傳送時間最佳化功能。 請聯絡 Adobe 客戶服務，或是您的 Adobe 代表，為貴組織啟用這項功能。
+>* 已依要求為[!DNL Adobe Journey Optimizer]客戶啟用傳送時間最佳化功能。 請聯絡 Adobe 客戶服務，或是您的 Adobe 代表，為貴組織啟用這項功能。
 >
 >* 傳送時間最佳化僅適用於&#x200B;**電子郵件**&#x200B;和&#x200B;**推播通知**&#x200B;頻道。
 >
@@ -70,7 +70,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 ## 傳送時間最佳化的運作方式 {#how-send-time}
 
-傳送時間最佳化模型會擷取您組織的Adobe Journey Optimizer客戶行為資料，並檢視使用者層級的開啟和點按事件，以判斷客戶何時最有可能參與您的傳訊。
+傳送時間最佳化模型會擷取您組織的[!DNL Adobe Journey Optimizer]客戶行為資料，並檢視使用者層級的開啟和點按事件，以判斷客戶何時最有可能與您的訊息互動。
 
 傳送時間最佳化會根據三種行為資料，針對每位使用者預測一週中的每一小時：
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer的傳送時間最佳化功能採用Adobe的Journey AI服
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 

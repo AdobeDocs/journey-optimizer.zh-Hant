@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 7%
@@ -34,10 +34,12 @@ ht-degree: 7%
 
 ## 重要備註 {#important_notes}
 
+在歷程中執行測試之前，請先檢閱這些附註。
+
 ### 一般限制
 
 * **僅測試設定檔** — 只有即時客戶設定檔服務中標示為「測試設定檔」的個人才能進入測試模式下的歷程。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
-* **名稱空間需求** — 測試模式僅適用於使用名稱空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否為測試設定檔，因此必須能夠存取Adobe Experience Platform。
+* **名稱空間需求** — 測試模式僅適用於使用名稱空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否為測試設定檔，因此必須能夠到達[!DNL Adobe Experience Platform]。
 * **設定檔限制** — 在單一測試工作階段中，最多可以有100個測試設定檔進入歷程。
 * **事件觸發** — 事件只能從介面觸發。 無法使用API從外部系統引發事件。
 * **自訂上傳對象** — 歷程測試模式不支援[自訂上傳對象](../audience/custom-upload.md)屬性擴充。
@@ -104,7 +106,7 @@ ht-degree: 7%
 
 ### 先決條件 {#trigger-events-prerequisites}
 
-您必須先瞭解哪些設定檔在Adobe Experience Platform中標示為測試設定檔。 事實上，測試模式僅允許在歷程中這些設定檔。
+作為先決條件，您必須知道哪些設定檔在[!DNL Adobe Experience Platform]中被標籤為測試設定檔。 事實上，測試模式僅允許在歷程中這些設定檔。
 
 事件必須包含ID。 預期的ID取決於事件設定。 例如，可以是ECID或電子郵件地址。 需要將此金鑰的值新增到&#x200B;**設定檔識別碼**&#x200B;欄位中。
 
@@ -190,5 +192,5 @@ ht-degree: 7%
 
 使用測試模式觸發事件時，會自動以來源名稱產生資料集。
 
-測試模式會自動建立體驗事件並將其傳送至Adobe Experience Platform。 此體驗事件的來源名稱為「Journey Orchestration測試事件」。
+測試模式會自動建立體驗事件，並將其傳送至[!DNL Adobe Experience Platform]。 此體驗事件的來源名稱為「Journey Orchestration測試事件」。
 

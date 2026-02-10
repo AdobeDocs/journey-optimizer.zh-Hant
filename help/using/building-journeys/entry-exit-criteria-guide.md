@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
-
 
 # 使用歷程進入和退出條件 {#entry-exit-criteria-guide}
 
 在客戶體驗協調中，若要在適當的時間提供適當的訊息，就必須精確控制客戶何時進入及退出您的歷程。 瞭解並正確設定登入和退出標準，可區分成功、吸引人的行銷活動與錯過的機會或訊息疲勞。
 
-本指南提供在Adobe Journey Optimizer中管理歷程進入與退出標準的實用指引、真實世界的範例和最佳作法。
+本指南提供在[!DNL Adobe Journey Optimizer]中管理歷程進入與退出條件的實用指引、真實世界的範例和最佳實務。
 
 ## 什麼是登入與退出條件？ {#what-are-criteria}
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 [在](../event/about-creating.md)管理&#x200B;**[!UICONTROL >]**&#x200B;事件&#x200B;**[!UICONTROL 中設定事件]**，定義[事件結構描述和欄位](../event/experience-event-schema.md)，然後在&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;中從[事件](using-the-journey-designer.md)調色盤新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 ](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
 
 * **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->瀏覽[歷程使用案例資料庫](jo-use-cases.md)中的所有可用使用案例，以取得更多模式和實作，包括[加速傳送](ramp-up-deliveries-uc.md)、[體驗事件模式](exp-event-lookup.md)和[從即時歷程中移除設定檔](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)。
+>瀏覽[歷程使用案例資料庫](jo-use-cases.md)中的所有可用使用案例，以取得更多模式與實作。 範例包括[加速傳遞](ramp-up-deliveries-uc.md)、[體驗事件模式](exp-event-lookup.md)和[從即時歷程中移除設定檔](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)。
 
 ## 管理登入和退出的最佳實務 {#best-practices}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 ## 結論 {#conclusion}
 
-歷程登入和退出條件是Adobe Journey Optimizer提供個人化、及時且有效客戶體驗的基礎。 透過謹慎地設計這些條件，行銷人員可以提升參與度、減少摩擦，並建立更強大的客戶關係。
+歷程進入與退出條件是[!DNL Adobe Journey Optimizer]提供個人化、及時且有效客戶體驗的基礎。 透過謹慎地設計這些條件，行銷人員可以提升參與度、減少摩擦，並建立更強大的客戶關係。
 
 從明確對應客戶觸發器和退出點開始、徹底測試並監控結果，以持續改進您的歷程協調。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 **教學課程與範例**
 
-[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hant)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相關功能**
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ## 先決條件 {#prerequisites}
 
-在使用歷程量度之前，您必須在Adobe Experience Platform中的設定>報告下新增包含`Commerce Details`、`Web`和`Mobile` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}的資料集。
+在使用歷程量度之前，您必須在`Commerce Details`中的設定>報告下新增包含`Web`、`Mobile`和[ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}欄位群組[!DNL Adobe Experience Platform]的資料集。
 
 這些欄位群組必須從內建選項中選取，而不是從自訂群組中選取。 請參閱[新增資料集](../reports/reporting-configuration.md#add-datasets)區段。
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 如果您的資料集未設定，則只有下列量度可供使用： **[!UICONTROL 點按]**、**[!UICONTROL 不重複點按]**、**[!UICONTROL 點進率]**&#x200B;和&#x200B;**[!UICONTROL 開啟率]**。
 
-請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相關欄位群組 |
@@ -70,7 +70,7 @@ ht-degree: 3%
 
   透過Journey Optimizer和Customer Journey Analytics授權，您可以建立具有特定歸因設定的自訂量度，或變更內建量度的歸因。
 
-  深入瞭解[歸因模型](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  深入瞭解[歸因模型](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## 指派您的歷程量度 {#assign}
 

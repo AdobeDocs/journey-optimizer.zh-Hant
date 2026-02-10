@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '574'
 ht-degree: 12%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 12%
 
 * 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../action/action.md)
 
-* 如果您使用Adobe Campaign，請參閱下列章節：
+* 如果您正在使用[!DNL Adobe Campaign]，請參閱下列章節：
 
    * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)

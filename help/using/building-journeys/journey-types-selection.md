@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程型別和選取指南
+title: 歷程類型和選取指南
 description: 透過決策指南和功能相容性矩陣，比較歷程型別並選擇適合您使用案例的型別
 feature: Journeys, Get Started, Overview
 role: User
@@ -10,17 +10,17 @@ keywords: 歷程型別，單一，讀取對象，對象資格，業務事件，�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '977'
+ht-degree: 4%
 
 ---
 
+# 歷程類型和選取指南 {#journey-types-selection}
 
-# 歷程型別和選取指南 {#journey-types-selection}
-
-Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機制和業務案例而設計。 本指南可協助您瞭解差異，並為使用案例選擇正確的型別。
+[!DNL Adobe Journey Optimizer]支援四種歷程型別，每種都針對不同的進入機制和業務案例而設計。 本指南可協助您瞭解差異，並為使用案例選擇正確的型別。
 
 ## 歷程型別概觀 {#journey-types}
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 
 **何時使用：**&#x200B;已排程行銷活動給對象區段
 
-**讀取對象歷程**&#x200B;從Adobe Experience Platform對象開始，並同時以批次傳送訊息給所有設定檔。 此歷程型別適用於已排程的大型通訊。
+**讀取對象歷程**&#x200B;從[!DNL Adobe Experience Platform]個對象開始，並同時以批次傳送訊息給所有設定檔。 此歷程型別適用於已排程的大型通訊。
 
 **最適合：**&#x200B;每月電子報、目標區段的促銷活動、產品公告和季節性行銷活動。
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 
 >[!NOTE]
 >
->不確定要選擇哪種型別？ 從事件型體驗的&#x200B;**單一歷程**&#x200B;或排程行銷活動的&#x200B;**讀取對象歷程**&#x200B;開始 — 這些涵蓋最常見的使用案例。
+>不確定要選擇哪種類型？從事件型體驗的&#x200B;**單一歷程**&#x200B;或排程行銷活動的&#x200B;**讀取對象歷程**&#x200B;開始 — 這些涵蓋最常見的使用案例。
 
 ## 歷程型別詳細比較 {#journey-types-comparison}
 
@@ -122,7 +122,7 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 | **使用時機** | 對所需的個別動作立即回應 | 依排程觸及大型受眾區段 | 回應客戶狀態變更 | 業務事件會影響多個客戶 |
 | **範例** | 訂單確認、密碼重設 | 每月電子報、季節性行銷活動 | VIP升級，非使用狀態警報 | 低庫存警報，閃購，價格下跌 |
 | **重新進入** | 可設定（每個設定檔允許多個專案） | 每個設定檔在每次執行時輸入一次 | 可依資格事件設定 | 相同事件可影響多個設定檔 |
-| **資料需求** | 具有觸發程式資料的事件結構描述 | Adobe Experience Platform對象 | 串流或批次對象 | 業務事件結構描述 |
+| **資料需求** | 具有觸發程式資料的事件結構描述 | [!DNL Adobe Experience Platform]個對象 | 串流或批次對象 | 業務事件結構描述 |
 
 ## 依歷程型別區分的功能相容性 {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Adobe Journey Optimizer支援四種歷程型別，分別針對不同的進入機
 **需要與行銷活動進行比較？**
 
 * [歷程與行銷活動的比較指南](../start/journeys-vs-campaigns.md) — 在歷程、動作/API行銷活動與協調的行銷活動之間選擇
-

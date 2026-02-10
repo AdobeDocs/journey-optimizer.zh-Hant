@@ -9,18 +9,20 @@ level: Experienced
 keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # 使用案例：透過外部資料來源和自訂動作限制輸送量{#limit-throughput}
 
+當外部系統必須處理限定數量的每秒請求時，使用此使用案例可限制歷程處理。
+
 ## 使用案例的說明
 
-Adobe Journey Optimizer可讓從業人員透過使用自訂動作和資料來源，將API呼叫傳送至外部系統。
+[!DNL Adobe Journey Optimizer]可讓從業人員透過使用自訂動作和資料來源，將API呼叫傳送至外部系統。
 
 您可以透過完成以下操作：
 

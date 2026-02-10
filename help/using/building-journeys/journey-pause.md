@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2512'
 ht-degree: 5%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這些步驟事件可以根據設定檔放棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

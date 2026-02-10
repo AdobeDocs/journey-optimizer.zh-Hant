@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 內容決定活動
+title: 內容決策活動
 description: 瞭解內容決定活動
 feature: Journeys, Activities
 topic: Content Management
@@ -11,14 +11,14 @@ badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 3%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
-# 內容決定活動 {#content-decision}
+# 內容決策活動 {#content-decision}
 
 >[!AVAILABILITY]
 >
@@ -74,13 +74,13 @@ ht-degree: 3%
 
 您現在已準備好在歷程中運用此內容決定活動的輸出。
 
-## 護欄和限制 {#guardrails}
+## 護欄與限制 {#guardrails}
 
 **同意原則**
 
 同意政策的更新最多需要48小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
 
-同樣地，如果受同意原則約束的新設定檔屬性新增到決定原則中，這些設定檔屬性將可供使用，但關聯的同意原則在延遲過去後才會執行。
+同樣地，受同意原則約束的新設定檔屬性可以新增到決定原則並使用。 延遲過後，才會執行相關的同意原則。
 
 同意原則僅適用於具有Adobe Healthcare Shield或Privacy and Security Shield附加元件的組織。
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在決定規則（作為內容資料）中使用的歷程體驗事件中，或在[選件結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)中，在屬性上定義的任何受限制標籤都會導致DULE或同意的原則違規。 在[本節](../action/action-privacy.md)中進一步瞭解資料治理原則
+   >在屬性上定義的任何受限標籤都可能導致DULE或同意的原則違規。 這適用於決定規則中使用的歷程體驗事件以及[優惠方案結構描述](../experience-decisioning/catalogs.md#access-catalog-schema)。 在[本節](../action/action-privacy.md)中進一步瞭解資料治理原則。
 
 1. 若要檢查是否已針對進入歷程的設定檔傳回任何選件，請使用具有以下語法的[listSize](functions/list-functions.md#listSize)函式： `listSize(@decision{ContentdecisionName.items})>0`
 

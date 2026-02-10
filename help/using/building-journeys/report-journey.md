@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 如果您的歷程報告中沒有看到預期的資料，請考慮下列事項：
 
-* **歷程名稱同步**：確認Adobe Journey Optimizer中的歷程名稱符合儲存在報表資料集中的名稱。 這些名稱不符可能會妨礙報表資料正確顯示。
+* **歷程名稱同步**：確認[!DNL Adobe Journey Optimizer]中的歷程名稱符合儲存在報告資料集中的名稱。 這些名稱不符可能會妨礙報表資料正確顯示。
 
 * **資料重新整理時間**：更新歷程名稱或設定後，請讓資料有足夠的時間重新整理。 報表資料通常會在幾分鐘內顯示，但在某些情況下可能需要更長的時間。
 

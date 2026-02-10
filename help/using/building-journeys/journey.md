@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用歷程
-description: 開始使用歷程 — 瞭解在 Adobe Journey Optimizer 中，建立個人化客戶體驗的歷程類型、工作流程、功能和最佳做法
+description: 開始使用歷程 — 瞭解歷程型別、工作流程、功能，以及在 [!DNL Adobe Journey Optimizer]中建立個人化客戶體驗的最佳實務
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: 歷程、探索、開始、單一、讀取對象、對象資格、商業事件、即時、已排程、批次、事件觸發、工作流程、協調流程、個人化、多管道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
-workflow-type: ht
-source-wordcount: '1448'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
 
 # 開始使用歷程{#jo-general-principle}
 
-Adobe Journey Optimizer 中的歷程，可讓您建立個人化多步驟客戶歷程，即時因應客群行為、需求。使用直覺式拖放版面，您就可以跨多管道，協調訊息和動作，運用內容資料和客群目標定位，發揮最大效果。
+[!DNL Adobe Journey Optimizer]可讓您建立個人化的多步驟客戶歷程，並即時因應您對象的行為和需求。 使用直覺式拖放版面，您就可以跨多管道，協調訊息和動作，運用內容資料和客群目標定位，發揮最大效果。
 
 本指南提供清晰路徑圖，可協助您瞭解歷程基礎知識，為使用案例選擇正確的歷程類別，還可自信地設計歷程，提供有意義、即時客戶體驗。
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer 中的歷程，可讓您建立個人化多步驟客戶�
 
 ### 歷程與行銷活動：使用時機 {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer 提供三種觸及客戶的方法：**歷程** (1:1即時協調流程)、**行銷活動** (簡單批次或 API 觸發的傳遞) 及&#x200B;**協調的行銷活動** (具有多實體資料的批次版面工作流程)。
+[!DNL Adobe Journey Optimizer]提供三種觸及客戶的方法： **歷程** （1:1即時協調）、**行銷活動** （簡單批次或API觸發的傳遞）和&#x200B;**協調的行銷活動** （具有多實體資料的批次畫布工作流程）。
 
 **快速決策：**
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 提供三種觸及客戶的方法：**歷程** (1:1即�
 
 ## 選擇歷程類別 {#journey-types}
 
-Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、業務情境而設計：
+[!DNL Adobe Journey Optimizer]支援四種歷程型別，每種都針對不同的進入機制和業務案例而設計：
 
 * **單一歷程**：即時、事件觸發體驗（訂單確認、歡迎電子郵件）
 * **閱讀對象歷程**：已排程批次通訊至對象區段 (電子報、促銷行銷活動)
@@ -73,7 +73,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -103,17 +103,17 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **善用資料**
 
-使用來自事件、Adobe Experience Platform，或第三方 API 服務的內容資料。
+使用來自事件、[!DNL Adobe Experience Platform]或協力廠商API服務的內容資料。
 
 [使用資料來源](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調流程活動**
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -224,7 +224,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -234,7 +234,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -254,7 +254,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多管道行銷活動**
 
@@ -264,13 +264,13 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
 探索包含逐步實施的完整歷程使用案例庫。
 
-[瀏覽所有→](jo-use-cases.md) | [使用案例庫→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[瀏覽所有→](jo-use-cases.md) | [使用案例庫→](../../rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -282,17 +282,17 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
 使用運算式編輯器針對資料操控和複雜邏輯建立動態條件和個人化。
 
-[了解運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[了解運算式](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -302,7 +302,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試運行**
 
@@ -312,7 +312,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -322,7 +322,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和整理**
 
@@ -332,7 +332,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -343,13 +343,13 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 
 ::::
 
-[檢視所有歷程功能 →](/help/rp_landing_pages/manage-journey-landing-page.md)
+[檢視所有歷程功能 →](../../rp_landing_pages/manage-journey-landing-page.md)
 
 ## 觀看以學習 {#video}
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -357,7 +357,7 @@ Adobe Journey Optimizer 支援四種歷程，分別針對不同進入機制、�
 
 +++ 歷程與行銷活動之間有何差異？
 
-Adobe Journey Optimizer 提供三種方法：
+[!DNL Adobe Journey Optimizer]提供三種方法：
 
 * **歷程**：1:1 即時協調流程，每個輪廓都以自己的步調在步驟中行進。最適合具有條件邏輯 (例如上線、購物車放棄) 的行為導向多步驟體驗。
 
@@ -390,11 +390,13 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ## 需要協助嗎？ {#help}
 
+使用這些連結來尋找指引、疑難排解和資源。
+
 ### 常見工作的快速連結
 
 * **[建立您的第一個歷程](journey-gs.md)** - 初學者逐步指南
 * **[歷程常見問題集](journey-faq.md)** - 已回答的常見問題
-* **[疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** - 診斷並修正問題
+* **[疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)** - 診斷並修正問題
 * **[錯誤碼參考](error-codes-reference.md)** - 瞭解錯誤訊息
 * **[護欄和限制](../start/guardrails.md)** - 技術界限和最佳做法
 
@@ -404,8 +406,8 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ### 其他資源
 
-* **[歷程管理中心](/help/rp_landing_pages/manage-journey-landing-page.md)** - 用於篩選、最佳化和輪廓管理的工具
-* **[歷程活動參考](/help/rp_landing_pages/about-journey-building-landing-page.md)** - 所有活動類型的完整指南
+* **[歷程管理中心](../../rp_landing_pages/manage-journey-landing-page.md)** - 用於篩選、最佳化和輪廓管理的工具
+* **[歷程活動參考](../../rp_landing_pages/about-journey-building-landing-page.md)** - 所有活動類型的完整指南
 * **[疑難排解執行問題](troubleshooting-execution.md)** - 偵錯歷程執行問題
 * **[疑難排解傳入活動](troubleshooting-inbound.md)** - 修正進入及資格問題
 

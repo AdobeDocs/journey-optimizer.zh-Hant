@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 瀏覽及篩選您的歷程
-description: 在Adobe Journey Optimizer中瀏覽及篩選您的歷程
+description: 在 [!DNL Adobe Journey Optimizer]中瀏覽並篩選您的歷程
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1477'
 ht-degree: 10%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 10%
 
 * **[!UICONTROL 單一事件]** — 單一事件歷程已連結至特定設定檔。 事件與人的行為或與人相關的事情有關（例如，某人達到10,000點忠誠點數）。 [了解更多](../event/about-events.md)。
 * **[!UICONTROL 商務活動]**。 業務事件歷程以非設定檔相關事件開始。 事件設定由技術使用者執行，且無法編輯。 [了解更多](../event/about-events.md)。
-* **[!UICONTROL 對象資格]** — 對象資格歷程會聆聽Adobe Experience Platform對象中設定檔的入口和出口，以便讓個人進入歷程或是在歷程中前進。 [了解更多](audience-qualification-events.md)。
+* **[!UICONTROL 對象資格]** — 對象資格歷程會聆聽[!DNL Adobe Experience Platform]對象中設定檔的入口和出口，讓個人進入歷程或是在歷程中前進。 [了解更多](audience-qualification-events.md)。
 * **[!UICONTROL 讀取對象]** — 在讀取對象歷程中，對象中的所有個人都會進入歷程並接收歷程中包含的訊息。  [了解更多](read-audience.md)。
 
 

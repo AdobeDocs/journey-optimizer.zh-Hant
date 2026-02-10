@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1662'
 ht-degree: 16%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 16%
 
 請注意，歷程的設計具有功能影響。 在條件之後定義數個路徑時，只會執行第一個符合資格的路徑。 這表示您可以透過將路徑置於彼此上方或下方來改變路徑的優先順序。
 
-讓我們以第一個路徑的條件「個人是VIP」以及第二個路徑的條件「個人是男性」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
+我們來看看兩個路徑條件：「這個人是VIP」和「這個人是男性」。 如果人員符合兩個條件，系統會選擇第一個路徑，因為該路徑高於第二個路徑。 若要變更此優先順序，請將您的活動移至不同的垂直順序。
 
 ![路徑優先順序範例，顯示VIP條件高於男性條件](assets/journey48.png)
 
@@ -87,7 +87,7 @@ ht-degree: 16%
 
 ![具有拖放欄位和邏輯運運算元的簡單運算式編輯器](assets/journey64.png){width=80%}
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
+如果您使用[[!DNL Adobe Experience Platform] 分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}來建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
 
 >[!NOTE]
 >
@@ -188,8 +188,8 @@ ht-degree: 16%
 
 1. 在左側，展開&#x200B;**[!UICONTROL 對象]**&#x200B;節點。 拖放您要用於條件的對象。 依預設，對象的條件為true。
 
-   在運算式編輯器中用於選取Adobe Experience Platform對象的![對象節點](assets/segment4.png){width=80%}
+   運算式編輯器中的![對象節點，用於選取[!DNL Adobe Experience Platform]對象](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

@@ -3,9 +3,9 @@ title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1434'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ➡️ [在影片中探索此功能](#video)
 
-## 護欄和限制 {#guardrails}
+## 護欄與限制 {#guardrails}
 
 * **支援的歷程**： **事件觸發**&#x200B;和&#x200B;**讀取對象**&#x200B;歷程支援補充識別碼。 對象資格歷程（亦即以對象資格活動開始的歷程）中&#x200B;**不支援**。
 
@@ -218,6 +218,8 @@ ht-degree: 4%
 
 ## 範例使用案例
 
+這些範例顯示補充識別碼如何支援多個相關記錄。
+
 ### **原則更新通知**
 
 * **案例**：保險公司針對客戶持有的每個有效保單傳送續約提醒。
@@ -246,4 +248,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

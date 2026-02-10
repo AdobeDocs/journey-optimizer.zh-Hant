@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
 # 開始使用歷程活動 {#about-journey-activities}
 
-結合不同的事件、協調和動作活動，以建置您的多步驟跨管道情境。
+結合事件、協調和動作活動，以建立多步驟、跨管道的情境。
 
 ## 事件活動 {#event-activities}
 
-個人化歷程由事件觸發，例如線上購買。 設定檔進入歷程後，就會以個人身分移過，而且不會有兩個人以相同速度或沿著相同路徑移動。 當您以事件開始您的歷程時，歷程會在收到事件時觸發。 接著，歷程中的每個人都個別遵循歷程中定義的後續步驟。
+個人化歷程以線上購買等事件開始。 設定檔進入歷程後，就會自行移動。 每個設定檔可以採用不同的路徑和步調。 當您開始事件時，歷程會在事件到達時觸發。 然後，每個設定檔都會遵循歷程中定義的步驟。
 
-技術使用者設定的事件（請參閱[此頁面](../event/about-events.md)）都會顯示在畫面左側的浮動視窗的第一個類別中。 可使用下列事件活動：
+技術使用者設定的事件（請參閱[此頁面](../event/about-events.md)）會出現在浮動視窗的第一個類別中。 此類別位於畫面左側。 可使用下列事件活動：
 
 * [一般事件](../building-journeys/general-events.md)
 * [反應](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ ht-degree: 15%
 
 ## 協調活動 {#orchestration-activities}
 
-協調活動是不同的條件，可協助判斷歷程的下一步。 這些條件包括此人是否有未解決的支援案例、目前所在位置的天氣預報、他們是否完成購買，或他們是否達到10,000點忠誠點數。
+協調活動是有助於決定歷程中下一個步驟的條件。 這些條件包括此人是否有未解決的支援案例或完成購買。 此外也可以包含當地天氣預報，或該人士是否達到10,000點忠誠點數。
 
 從浮動視窗的畫面左側，有下列協調活動：
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 動作是您因某種觸發因素而想要發生的動作，例如傳送訊息。 這是客戶體驗的歷程片段。
 
-從浮動視窗的畫面左側，**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
+從畫面左側的浮動視窗，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，您可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
 * [內建管道動作](../building-journeys/journeys-message.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ ht-degree: 15%
 
 * 如果您使用協力廠商系統來傳送訊息，則可建立特定的自訂動作。 [了解更多](../action/action.md)
 
-* 如果您正在使用Campaign和Journey Optimizer，請參閱下列區段：
+* 如果您正在使用[!DNL Adobe Campaign]和[!DNL Adobe Journey Optimizer]，請參閱下列章節：
 
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer]與Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Campaign] 標準](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer]和 [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## 最佳做法 {#best-practices}
+
+使用這些建議讓歷程可讀取、一致且易於疑難排解。
 
 ### 新增標籤
 
@@ -119,4 +121,4 @@ ht-degree: 15%
 
 在此頁面[上瞭解如何疑難排解活動及歷程](troubleshooting.md)中的錯誤。
 
-另請參閱&#x200B;**[監視與疑難排解](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**。
+另請參閱&#x200B;**[監視與疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**。

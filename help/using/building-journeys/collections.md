@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 3%
 
 * **支援自訂動作中的巢狀陣列**
 
-  Adobe Journey Optimizer支援自訂動作&#x200B;**回應承載**&#x200B;中的巢狀物件陣列，但此支援限於&#x200B;**請求承載**。
+  [!DNL Adobe Journey Optimizer]支援自訂動作&#x200B;**回應承載**&#x200B;中的巢狀物件陣列，但此支援限於&#x200B;**請求承載**。
 
   在請求裝載中，只有當巢狀陣列包含固定數量的專案時（如自訂動作設定中所定義），才支援巢狀陣列。 例如，如果巢狀陣列一律包含剛好三個專案，則可將其設定為常數。 當專案數量需要為動態時，只能將非巢狀陣列（位於底層的陣列）定義為變數。
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 46%
+source-wordcount: '555'
+ht-degree: 39%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 46%
 
 ## 自訂動作限制 {#custom-actions-limitations}
 
-* 自訂動作 URL 不支援動態參數。 
-* 僅支援POST和PUT呼叫方法。 
-* 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
-* 不允許IP位址。 
+* 自訂動作 URL 不支援動態參數。  
+* 僅支援POST和PUT呼叫方法。  
+* 查詢參數或標題的名稱不得以「.」開頭 或「$」。  
+* 不允許IP位址。  
 * 不允許內部Adobe位址(.adobe.)。
 
 ## 事件限制 {#events-limitations}
 
-* 對於系統產生的事件，必須先在Journey Optimizer中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在Journey Optimizer中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入[!DNL Adobe Experience Platform]的串流裝載。 此限制不適用於規則型事件。
 
 ## 反應事件限制 {#reaction-limitations}
 
@@ -59,13 +59,13 @@ ht-degree: 46%
 
 ## 與設定檔建立同時開始的歷程 {#journeys-limitation-profile-creation}
 
-在 Adobe Experience Platform 中建立/更新以 API 為基礎的輪廓會有延遲。對於第 95 個百分位數的請求，服務層級目標 (SLT) 從接收到統一輪廓的延遲時間小於 1 分鐘，每秒請求量為 20K (RPS)。
+在[!DNL Adobe Experience Platform]中建立/更新以API為基礎的設定檔會有延遲。 對於第 95 個百分位數的請求，服務層級目標 (SLT) 從接收到統一輪廓的延遲時間小於 1 分鐘，每秒請求量為 20K (RPS)。
 
 如果在建立設定檔的同時觸發歷程，並立即從設定檔服務檢查/擷取資訊，則可能無法正常運作。
 
 您可以從以下兩種解決方案中選擇一種：
 
-* 在第一個事件後新增等待活動，為 Adobe Experience Platform 提供執行擷取至輪廓服務所需的時間。
+* 在第一個事件後新增等待活動，以提供[!DNL Adobe Experience Platform]執行擷取至設定檔服務所需的時間。
 
 * 設定不會立即運用輪廓的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息（名字、姓氏、電子郵件地址等）所需的資訊。
 

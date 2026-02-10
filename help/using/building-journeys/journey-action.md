@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 15%
+source-wordcount: '1045'
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->此功能為「有限可用性」的狀態。請聯絡您的 Adobe 代表以取得存取權。
+>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
 [!DNL Journey Optimizer]隨附新的通用&#x200B;**Action**&#x200B;活動，可設定單一內建頻道動作以及多個傳入活動。
 
@@ -104,7 +104,7 @@ ht-degree: 15%
 
 瞭解如何在此頁面[啟用推播通知](../push/create-push.md#rapid-delivery)的快速傳遞模式。
 
-如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
+如需使用快速傳遞模式時效能的詳細資訊，請參閱[[!DNL Adobe Journey Optimizer] 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
 +++
 

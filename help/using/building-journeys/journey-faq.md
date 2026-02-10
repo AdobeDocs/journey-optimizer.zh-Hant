@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration — 常見問題
-description: 關於Adobe Journey Optimizer中Journey Orchestration的常見問題
+description: 有關 [!DNL Adobe Journey Optimizer]中Journey Orchestration的常見問題
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration — 常見問題 {#faq-journeys}
 
-在Adobe Journey Optimizer中尋找Journey Orchestration相關常見問題的解答。
+在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
-+++ Adobe Journey Optimizer的歷程為何？
++++ 什麼是[!DNL Adobe Journey Optimizer]中的歷程？
 
 歷程是多步驟協調，可讓您跨多個管道設計和執行即時客戶體驗。 歷程結合事件、協調活動、動作和訊息，以根據客戶行為和業務事件建立個人化的情境式體驗。
 
@@ -35,10 +35,10 @@ ht-degree: 1%
 
 +++ 不同型別的歷程為何？
 
-Adobe Journey Optimizer支援四種型別的歷程：
+[!DNL Adobe Journey Optimizer]支援四種型別的歷程：
 
 * **單一歷程**：由事件個別觸發（例如購買、應用程式登入）。 設定檔在事件發生時一次進入一個歷程。
-* **讀取對象歷程**：從Adobe Experience Platform的對象開始，並批次傳送訊息給該對象中的所有設定檔。
+* **讀取對象歷程**：從來自[!DNL Adobe Experience Platform]的對象開始，並批次傳送訊息給該對象中的所有設定檔。
 * **對象資格歷程**：設定檔符合（或退出）特定對象區段時觸發。 設定檔符合對象條件時會進入歷程。
 * **業務事件歷程**：由同時影響多個設定檔的業務事件（例如庫存更新、天氣警報）觸發。
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer支援四種型別的歷程：
 * **[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)**：透過API呼叫觸發的行銷活動，可啟用與外部系統的整合，以根據即時事件或商業邏輯傳送訊息。
 * **[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)**：在畫布上建置的多步驟、以對象為基礎的行銷活動，可以包含條件、等待時間和多個動作，以建立排程、協調的體驗。
 
-**最佳實務**：使用[歷程](journey.md)進行複雜、事件觸發的參與與進階協調；[動作行銷活動](../campaigns/create-campaign.md)進行排程的對象型通訊；[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)從外部系統以程式設計方式觸發；以及[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)進行具有行銷活動特定需求的多步驟通訊。
+**最佳實務**：使用[歷程](journey.md)進行複雜、事件觸發的進階協調參與。 使用[動作行銷活動](../campaigns/create-campaign.md)進行排程的對象型通訊。 使用[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)從外部系統以程式設計方式觸發。 使用[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)進行具有行銷活動特定需求的多步驟通訊。
 
 +++
 
@@ -76,9 +76,9 @@ Adobe Journey Optimizer支援四種型別的歷程：
 
 +++ 歷程支援哪些型別的對象，其限制有哪些？
 
-Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護欄：
+[!DNL Adobe Journey Optimizer]支援四種型別的對象，每種都有不同的特徵和護欄：
 
-**1。 串流對象**
+**1. 串流對象**
 
 * **描述**：在設定檔資料變更時即時評估的對象
 * **評估**：設定檔屬性或事件符合區段條件時進行連續評估
@@ -110,11 +110,11 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
    * CSV檔案大小限制適用（請檢視產品檔案以瞭解目前限制）
    * 對象成員是靜態的，直到以新的上傳內容重新整理為止
    * 身分名稱空間必須符合歷程名稱空間
-   * 設定檔必須存在於Adobe Experience Platform中
+   * 設定檔必須存在於[!DNL Adobe Experience Platform]中
 
 **4.同盟對象構成(FAC)對象**
 
-* **說明**：使用同盟資料建立的對象，可讓您從外部資料倉儲查詢及撰寫對象，而不需將資料複製到Adobe Experience Platform
+* **說明**：使用同盟資料建立的對象，可讓您從外部資料倉儲查詢及撰寫對象，而不需將資料複製到[!DNL Adobe Experience Platform]
 * **評估**：執行同盟對象構成時已更新靜態構成
 * **歷程使用情形**：在讀取對象和條件活動中支援；**在對象資格歷程中不支援** （類似於從後端角度上傳對象）
 * **最適合**：企業資料倉儲整合、使用外部資料來源的對象構成、需要資料保留在外部系統中的情境
@@ -187,7 +187,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 先決條件取決於您的歷程型別：
 
 * **事件觸發的歷程**：設定事件以定義設定檔應何時進入歷程
-* **受眾型歷程**：在Adobe Experience Platform中建立受眾
+* **以對象為基礎的歷程**：在[!DNL Adobe Experience Platform]中建立對象
 * **資料擴充**：設定資料來源以擷取其他資訊
 * **協力廠商整合**：若使用外部系統，請設定自訂動作
 
@@ -202,7 +202,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 **最佳實務**：
 
 * **自訂動作**：透過自訂動作呼叫外部API，以擷取或傳送資料給協力廠商系統。 這是與外部系統即時互動的建議方法。
-* **資料集查詢**：如果您可以從外部系統載入資料到Adobe Experience Platform，請使用資料集查詢功能來擷取儲存在Experience Platform資料集中的資訊。
+* **資料集查詢**：如果您可以從外部系統載入資料到[!DNL Adobe Experience Platform]，請使用資料集查詢功能來擷取儲存在Experience Platform資料集中的資訊。
 * **外部資料來源**：設定外部資料來源以擷取協力廠商API服務的資訊（比上述方法建議少）。
 
 這些選項可讓您利用CRM、忠誠度系統、天氣服務或其他外部平台的資料，豐富客戶體驗。
@@ -247,7 +247,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 +++ 我可以在歷程中更新設定檔資訊嗎？
 
-可以。使用&#x200B;**更新設定檔**&#x200B;活動，根據歷程事件或條件在Adobe Experience Platform中修改設定檔屬性。 這對於更新忠誠度點數、記錄歷程里程碑、變更偏好設定或追蹤客戶參與分數非常有用。
+可以。使用&#x200B;**更新設定檔**&#x200B;活動，根據歷程事件或條件修改[!DNL Adobe Experience Platform]中的設定檔屬性。 這對於更新忠誠度點數、記錄歷程里程碑、變更偏好設定或追蹤客戶參與分數非常有用。
 
 深入瞭解[設定檔更新](update-profiles.md)。
 
@@ -273,7 +273,7 @@ Adobe Journey Optimizer支援四種型別的對象，各有不同的特徵和護
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -468,7 +468,7 @@ Journey Optimizer提供兩種測試方法：
 * **歷程未發佈**：歷程處於草稿狀態
 * **無效的名稱空間**：歷程名稱空間不符合設定檔身分
 * **歷程已關閉**：歷程不再接受新入口
-* **串流對象資格計時**：針對使用串流對象對象對象對象對象資格之歷程，如果設定檔在歷程發佈前便已在對象中，或歷程尚未完成啟用期間（發佈後最多10分鐘），則可能無法進入
+* **串流對象資格計時**：對於使用串流對象對象對象對象資格之歷程而言，如果設定檔在發佈歷程之前便已在對象中，則可能無法進入。 如果歷程尚未完成啟用期（發佈後最長10分鐘），也可能會延遲進行。
 
 深入瞭解[專案管理](entry-management.md)和[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
@@ -699,12 +699,12 @@ Learn more about [action responses](../action/action-response.md).
 
 +++
 
-+++ 如何將Adobe Campaign搭配歷程使用？
++++ 如何搭配歷程使用[!DNL Adobe Campaign]？
 
-Journey Optimizer與Adobe Campaign原生整合，以運用其進階功能：
+Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能：
 
-* **Adobe Campaign Standard**：使用Campaign Standard動作來傳送異動訊息
-* **Adobe Campaign v7/v8**：觸發行銷活動工作流程並使用行銷活動的傳遞基礎結構
+* **[!DNL Adobe Campaign]Standard**：使用Campaign Standard動作來傳送異動訊息
+* **[!DNL Adobe Campaign]v7/v8**：觸發行銷活動工作流程並使用行銷活動的傳遞基礎結構
 
 **最佳實務**：如果您有現有的行銷活動範本、資料模型，或需要行銷活動的特定功能，請使用此整合。
 
@@ -802,7 +802,7 @@ Journey Optimizer與Adobe Campaign原生整合，以運用其進階功能：
 
 +++ 什麼是合併原則？這些原則對歷程有何影響？
 
-**合併原則**&#x200B;決定Adobe Experience Platform如何合併來自多個來源的資料以建立統一的設定檔檢視。 當設定檔片段存在於不同資料集時，它們會定義資料優先順序和身分拼接的規則。
+**合併原則**&#x200B;決定[!DNL Adobe Experience Platform]如何合併來自多個來源的資料以建立統一的設定檔檢視。 當設定檔片段存在於不同資料集時，它們會定義資料優先順序和身分拼接的規則。
 
 **對歷程的影響**：
 
@@ -931,7 +931,7 @@ Journey Optimizer與Adobe Campaign原生整合，以運用其進階功能：
 
 * 使用[測試模式](testing-the-journey.md)和[試執行](journey-dry-run.md)在發佈之前驗證效能
 * 透過[自訂動作](using-custom-actions.md)將外部API呼叫減至最少，以避免延遲和對協力廠商系統的相依性
-* 儘可能使用[資料集查詢](dataset-lookup.md)，而非執行外部呼叫，將常用的資料儲存在Adobe Experience Platform中
+* 儘可能使用[!DNL Adobe Experience Platform]資料集查詢[將常用的資料儲存在](dataset-lookup.md)中，而非進行外部呼叫
 * 檢閱並最佳化[訊息傳遞](journeys-message.md)效能
 
 深入瞭解[護欄和限制](../start/guardrails.md)。

@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 歷程，使用案例
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# 使用案例：建立自訂動作以將資料傳送至Adobe Experience Platform{#send-data-to-aep}
+# 使用案例：建立自訂動作以將資料傳送至[!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}中瞭解如何利用IP暖身提高您的電子郵件信譽。
+如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，請建立您的寄件者信譽。 否則，可能會封鎖傳遞或將其移至收件者的垃圾郵件資料夾。 如需指引，請參閱[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}。
 
 若要熱身IP，您可以逐步增加傳遞數量。 深入瞭解[在Journey Optimizer](../reports/deliverability.md)中最佳化傳遞能力。
 

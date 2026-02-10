@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="設計您的歷程"
 >abstract="歷程介面可讓您輕鬆地將活動從調色盤拖放到畫布中。您還可以按兩下活動以在下一步可用時將其新增到畫布中。"
 
-Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員協調行銷外聯活動與一對一客戶參與。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 請注意，您也可以在下一個可用步驟中，連按兩下活動以將其新增至畫布中。
+[!DNL Adobe Journey Optimizer]包含全通路協調畫布，可讓行銷人員透過一對一客戶參與來協調行銷拓展。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 請注意，您也可以在下一個可用步驟中，連按兩下活動以將其新增至畫布中。
 
 事件、協調流程和動作活動在此過程中具有特定角色和位置。 活動會排序：活動完成後，流程會繼續處理下一個活動，以此類推。
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 開始新歷程時，無法在第一步驟放入畫布的元素會隱藏。 這關係到所有動作、狀況活動、等待和反應。
 
-![具有調色盤、畫布和屬性窗格的Journey Designer介面](assets/journey38.png)
+![具有調色盤、畫布和屬性面板的歷程設計工具介面](assets/journey38.png)
 
 左上角的&#x200B;**[!UICONTROL 篩選專案]**&#x200B;圖示可讓您顯示下列篩選器：
 
@@ -70,9 +70,9 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 有兩種可能性：
 
-1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
+1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
-1. **從讀取對象開始**：您可以設定您的歷程以聆聽Adobe Experience Platform對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
+1. **從讀取對象開始**：您可以設定您的歷程以聆聽[!DNL Adobe Experience Platform]個對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
 ## 定義後續步驟{#define-next-steps}
 
@@ -88,13 +88,13 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 
 您也可以在訊息之後新增&#x200B;**回應**&#x200B;事件，以回應與訊息相關的追蹤資料。 舉例來說，這可讓您在個人開啟先前的訊息或按一下訊息內部時，傳送其他訊息。 [進一步瞭解反應事件](reaction-events.md)。
 
-使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據Adobe Experience Platform對象進出而在歷程中進入或前進。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 在此[節](audience-qualification-events.md)中瞭解更多。
+使用&#x200B;**對象資格**&#x200B;事件活動，讓個人根據[!DNL Adobe Experience Platform]個對象進出而在歷程中進入或前進。 您可以讓所有新的銀級客戶進入歷程並傳送個人化訊息。 在此[節](audience-qualification-events.md)中瞭解更多。
 
 ### 協調流程{#jo-orch}
 
 協調活動是不同的條件，可協助判斷歷程的下一步。
 
-在協調活動中，使用&#x200B;**讀取對象**&#x200B;活動來設定您聆聽Adobe Experience Platform對象的歷程。 [進一步了解讀取對象活動](read-audience.md)。
+在協調活動中，使用&#x200B;**讀取對象**&#x200B;活動來設定您的歷程以聆聽[!DNL Adobe Experience Platform]對象。 [進一步了解讀取對象活動](read-audience.md)。
 
 其他活動可讓您新增條件至歷程以定義數個路徑、在執行下一個活動之前設定等待時間，或結束歷程。 [進一步瞭解協調活動](about-journey-activities.md#orchestration-activities)。
 
@@ -145,7 +145,7 @@ Adobe Journey Optimizer 包含全頻道協調流程畫布，可讓行銷人員�
 1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
    ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
 1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動將連結至節點。
    ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)

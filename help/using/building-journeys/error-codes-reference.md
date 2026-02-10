@@ -2,29 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 錯誤代碼參考
-description: 瞭解Adobe Journey Optimizer中的常見錯誤代碼以及如何疑難排解
+description: 瞭解 [!DNL Adobe Journey Optimizer] 中的常見錯誤碼以及如何疑難排解
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+exl-id: 84924153-1bb5-465a-b91c-797628fc816c
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2381'
 ht-degree: 1%
 
 ---
 
-
 # 錯誤代碼參考 {#error-codes}
 
-Adobe Journey Optimizer使用標準化的錯誤代碼，協助您快速識別並解決歷程、行銷活動和訊息設定中的問題。 瞭解這些錯誤代碼可以大幅減少疑難排解時間，並幫助您維持最佳行銷活動效能。
+[!DNL Adobe Journey Optimizer]使用標準化的錯誤代碼，協助您快速識別並解決歷程、行銷活動和訊息設定間的問題。 瞭解這些錯誤代碼可以大幅減少疑難排解時間，並幫助您維持最佳行銷活動效能。
 
 ## 瞭解錯誤代碼結構 {#error-code-structure}
 
-Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識別元件和問題型別：
+[!DNL Adobe Journey Optimizer]錯誤碼遵循一致的命名模式，這有助於識別元件和問題型別：
 
-* **服務前置詞**：指出產生錯誤的Adobe Journey Optimizer服務（例如，推播/傳輸服務的CJMPTS、歷程執行階段的CJMRT、訊息編寫服務的CJMMAS、促銷活動的CJMCMP、傳輸層的CJMTL、報告/布建服務的CJMRPS）
+* **服務首碼**：指出哪個[!DNL Adobe Journey Optimizer]服務產生錯誤。
+範例： CJMPTS （推播/傳輸服務）、CJMRT （歷程執行階段）、CJMMAS （訊息製作服務）、CJMCMP （行銷活動）、CJMTL （傳輸層）、CJMRPS （報告/布建服務）
 * **錯誤號碼**：特定錯誤條件的唯一識別碼
 * **HTTP狀態碼**：標準HTTP狀態碼（例如400、403、422、500）
 
@@ -32,7 +33,7 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 
 ## 錯誤碼的尋找位置 {#find-error-codes}
 
-錯誤代碼會顯示在Adobe Journey Optimizer內的數個位置：
+錯誤碼出現在[!DNL Adobe Journey Optimizer]內的數個位置：
 
 * 歷程執行報告和記錄
 * Campaign啟用畫面
@@ -43,6 +44,8 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 發生錯誤時，請注意完整的錯誤代碼以及隨附的任何請求ID，因為這些對於疑難排解和支援升級是必要的。
 
 ## 依服務的常見錯誤代碼 {#error-codes-by-service}
+
+使用此區段來尋找依服務分組的錯誤代碼。
 
 ### CJMPTS：推送和傳輸服務錯誤 {#cjmpts-errors}
 
@@ -139,10 +142,12 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 7. **必要時上報**：如果在執行解決步驟後錯誤仍然存在，請聯絡Adobe支援：
    * 完成錯誤代碼
    * 請求ID （若有）
-   * 要再現的步驟
+   * 重現問題的步驟
    * 相關設定詳細資料
 
 ## 避免常見錯誤的最佳實務 {#best-practices}
+
+使用這些實務來減少可避免的錯誤並提高可靠性。
 
 ### 在歷程啟用之前 {#journey-best-practices}
 
@@ -182,15 +187,14 @@ Adobe Journey Optimizer錯誤代碼遵循一致的命名模式，這有助於識
 1. **收集資訊**：收集錯誤碼、請求ID、時間戳記和要再現的步驟
 2. **檢查系統狀態**：造訪[Adobe狀態](https://status.adobe.com/){target="_blank"}瞭解已知的服務問題
 3. **搜尋檔案**：檢閱[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant){target="_blank"}以瞭解解決方案
-4. **參與社群**：在[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中發佈問題
+4. **參與社群**：在[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中張貼問題
 5. **聯絡Adobe支援**：提交支援票證並附上所有相關詳細資料
 
 >[!NOTE]
 >
->當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[Adobe Journey Optimizer社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hant){target="_blank"}。
+>當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[[!DNL Adobe Journey Optimizer] 社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相關主題**
 
-* [揭露Adobe Journey Optimizer錯誤碼：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant){target="_blank"}
-* [揭露Adobe Journey Optimizer錯誤碼：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hant){target="_blank"}
-
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}部分
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

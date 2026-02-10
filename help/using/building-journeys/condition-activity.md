@@ -10,14 +10,16 @@ level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1788'
 ht-degree: 16%
 
 ---
 
 # 條件活動 {#condition-activity}
+
+使用條件活動，根據規則和資料將設定檔路由至不同的路徑。
 
 ## 新增條件活動 {#add-condition-activity}
 
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 新增和管理條件路徑 {#about_condition}
 
@@ -59,7 +61,7 @@ ht-degree: 16%
 
 請注意，歷程的設計具有功能影響。 在條件之後定義數個路徑時，只會執行第一個符合資格的路徑。 這表示您可以透過將路徑置於彼此上方或下方來改變路徑的優先順序。
 
-讓我們以第一個路徑的條件「個人是VIP」以及第二個路徑的條件「個人是男性」為例。 如果同時符合兩個條件的人(身為VIP的男性)通過此步驟，即使此人也有資格進入第二個路徑，仍會選擇第一個路徑，因為第一個路徑為「以上」。 若要變更此優先順序，請以另一個垂直順序移動您的活動。
+我們來看看兩個路徑條件：「這個人是VIP」和「這個人是男性」。 如果人員符合兩個條件，系統會選擇第一個路徑，因為該路徑高於第二個路徑。 若要變更此優先順序，請將您的活動移至不同的垂直順序。
 
 ![顯示VIP和男性條件的路徑優先順序](assets/journey48.png)
 
@@ -72,7 +74,7 @@ ht-degree: 16%
 
 ![運算式編輯器，顯示欄位選取和邏輯運運算元AND OR](assets/journey64.png)
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
+如果您使用[[!DNL Adobe Experience Platform] 分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}來建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
 
 >[!NOTE]
@@ -188,4 +190,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

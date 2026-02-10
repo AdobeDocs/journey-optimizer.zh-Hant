@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在歷程中使用Adobe Experience Platform資料
-description: 瞭解如何使用Adobe Journey Optimizer中的資料集查詢活動，透過Adobe Experience Platform的外部資料豐富客戶歷程。
+title: 在歷程中使用 [!DNL Adobe Experience Platform] 資料
+description: 瞭解如何使用 [!DNL Adobe Journey Optimizer] 中的資料集查詢活動，以來自 [!DNL Adobe Experience Platform]的外部資料擴充客戶歷程。
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="資料集查詢活動"
->abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
+>abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
 
-**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段從 Adobe Experience Platform 記錄資料集中動態擷取資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。
+**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。
 
 主要優點：
 
@@ -38,9 +38,11 @@ ht-degree: 15%
 
 ## 必讀 {#must-read}
 
+在設定資料集查詢之前，請先檢閱這些需求。
+
 ### 資料集啟用
 
-必須在Adobe Experience Platform中啟用資料集以進行查詢。 本節提供詳細資訊： [使用Adobe Experience Platform資料](../data/lookup-aep-data.md)。
+必須在[!DNL Adobe Experience Platform]中啟用資料集以進行查詢。 本節中有詳細資訊： [使用 [!DNL Adobe Experience Platform] 資料](../data/lookup-aep-data.md)。
 
 ### 限制和限制
 
@@ -64,7 +66,7 @@ ht-degree: 15%
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;活動拖放到畫布中。
 
-   ![歷程中的Adobe Experience Platform資料集查詢活動](assets/aep-data-activity.png)
+   歷程![[!DNL Adobe Experience Platform]中的](assets/aep-data-activity.png)資料集查詢活動
 
 1. 新增標籤和說明。
 

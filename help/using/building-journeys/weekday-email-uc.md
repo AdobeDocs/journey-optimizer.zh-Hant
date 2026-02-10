@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 只在工作日傳送電子郵件
-description: 瞭解如何設定歷程，以僅在Adobe Journey Optimizer中的工作日傳送電子郵件
+description: 瞭解如何在 [!DNL Adobe Journey Optimizer]中設定只在工作日傳送電子郵件的歷程
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
 # 只在工作日傳送電子郵件 {#send-emails-only-on-weekdays}
 
-此使用案例會示範如何在Adobe Journey Optimizer中設定只在工作日（星期一到星期五）傳送電子郵件的歷程。 對於在週末（星期六或星期日）進入歷程的設定檔，電子郵件會自動排入佇列，並在星期一的指定時間傳送。 這可透過在工作週期間傳遞訊息來確保最佳參與。
+此使用案例示範如何在[!DNL Adobe Journey Optimizer]中設定只在工作日（星期一到星期五）傳送電子郵件的歷程。 對於在週末（星期六或星期日）進入歷程的設定檔，電子郵件會自動排入佇列，並在星期一的指定時間傳送。 這可透過在工作週期間傳遞訊息來確保最佳參與。
 
 ## 使用案例概觀
 
@@ -32,14 +33,16 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要實作此使用案例，您需要具備已設定的[電子郵件頻道介面](../configuration/channel-surfaces.md)、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)的活動Adobe Journey Optimizer執行個體以觸發歷程，以及對[歷程條件](condition-activity.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
+>若要實作此使用案例，您需要使用設定的[!DNL Adobe Journey Optimizer]電子郵件頻道介面[作用中](../configuration/channel-surfaces.md)執行個體、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)來觸發歷程，以及對[歷程條件](condition-activity.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
 
 
 ## 實施步驟
 
+使用這些步驟來建立僅限工作日的電子郵件流程。
+
 ### 步驟1：建立您的歷程
 
-1. 導覽至Adobe Journey Optimizer中的&#x200B;**[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]**。
+1. 在&#x200B;**[!UICONTROL 中導覽至]**&#x200B;歷程管理&#x200B;**[!UICONTROL >]**&#x200B;歷程[!DNL Adobe Journey Optimizer]。
 
 1. 按一下&#x200B;**[!UICONTROL 建立歷程]**&#x200B;以[建立新歷程](journey-gs.md)。
 
@@ -53,7 +56,7 @@ ht-degree: 1%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將[**[!UICONTROL 條件&#x200B;]**&#x200B;活動](condition-activity.md)拖放到進入點之後的畫布上。
+1. 將[**[!UICONTROL 條件&#x200B;]**活動](condition-activity.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 
@@ -86,7 +89,7 @@ ht-degree: 1%
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
 ```
 
-其中：
+其中:
 
 * **X**&#x200B;是等待的天數：
    * 星期六使用&#x200B;**2** （等到星期一）
@@ -149,7 +152,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ### 步驟6：測試您的歷程
 
-發佈之前，請在Adobe Journey Optimizer的測試模式下徹底測試您的歷程邏輯，以確認一切都如預期般運作：
+發佈之前，請在[!DNL Adobe Journey Optimizer]的測試模式下徹底測試您的歷程邏輯，以確認一切都如預期般運作：
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 測試]**&#x200B;按鈕。
 

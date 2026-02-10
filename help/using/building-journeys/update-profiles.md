@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="更新設定檔活動"
->abstract="更新設定檔的動作活動可讓您利用來自事件的資訊、資料源或使用特定值來更新現有的 Adobe Experience Platform 設定檔。"
+>abstract="「更新設定檔」動作活動可讓您使用來自事件、資料來源或使用特定值的資訊，更新現有的[!DNL Adobe Experience Platform]設定檔。"
 
-使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作活動，使用來自事件、資料來源的資訊或特定值來更新現有的Adobe Experience Platform設定檔。
+使用「**[!UICONTROL 更新設定檔]**」動作活動，使用來自事件、資料來源的資訊或特定值來更新現有[!DNL Adobe Experience Platform]設定檔。
 
 ## 重要概念 {#key-concepts}
 
@@ -32,9 +32,9 @@ ht-degree: 5%
 * 該動作只會更新現有欄位，不會建立新的設定檔欄位。
 * 您無法使用&#x200B;**更新設定檔**&#x200B;動作來產生體驗事件，例如購買。
 * 如同任何其他動作，您可以定義發生錯誤或逾時時的替代路徑，而且您無法同時放置兩個動作。
-* 傳送至Adobe Experience Platform的更新要求為立即/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用「欄位1」，而此欄位是由之前放置的&#x200B;**更新設定檔**&#x200B;動作所更新，您就不應該預期動作中會更新「欄位1」。
+* 傳送至[!DNL Adobe Experience Platform]的更新要求是立即的/在一秒內。 這通常需要幾秒鐘的時間，但有時更長，無法保證。 因此，舉例來說，如果動作使用「欄位1」，而此欄位是由之前放置的&#x200B;**更新設定檔**&#x200B;動作所更新，您就不應該預期動作中會更新「欄位1」。
 * **更新設定檔**&#x200B;活動不支援定義為列舉或建議值的XDM欄位。
-* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}，不會更新Data Lake。
+* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不會更新Data Lake。
 
 ## 資料集選取範圍 {#dataset-selection}
 
@@ -81,6 +81,6 @@ ht-degree: 5%
 
 在測試模式中，將不會模擬設定檔更新。 更新將在測試設定檔上執行。
 
-只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在Adobe Experience Platform中，您可以透過csv檔案匯入或API呼叫來更新設定檔屬性。 更簡單的方法是使用&#x200B;**更新設定檔**&#x200B;動作活動，並將測試設定檔布林欄位從false變更為true。
+只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在[!DNL Adobe Experience Platform]中，您可以透過csv檔案匯入或API呼叫來更新設定檔屬性。 更簡單的方法是使用&#x200B;**更新設定檔**&#x200B;動作活動，並將測試設定檔布林欄位從false變更為true。
 
 有關如何將現有設定檔轉換為測試設定檔的詳細資訊，請參閱此[區段](../audience/creating-test-profiles.md#create-test-profiles-csv)。

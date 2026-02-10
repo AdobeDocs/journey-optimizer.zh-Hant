@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 定義歷程的屬性
-description: 瞭解如何使用Adobe Journey Optimizer設定您歷程的屬性
+description: 瞭解如何使用 [!DNL Adobe Journey Optimizer]設定您歷程的屬性
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 15%
 
 您可以：
 
-* 將Adobe Experience Platform統一標籤指派給您的歷程，以輕鬆分類並改善行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
+* 指派[!DNL Adobe Experience Platform]個統一標籤至您的歷程，以輕鬆分類並改善行銷活動清單中的搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 * 選取您的歷程量度。 [瞭解如何設定及追蹤您的歷程量度](success-metrics.md)
 * 管理[進入和重新進入](#entrance)。 設定檔入口管理取決於歷程型別。 詳細資料可在[此頁面](entry-management.md)上取得
 * 管理[資料存取權](#manage-access)
@@ -87,7 +87,7 @@ ht-degree: 15%
 
 ## 歷程和設定檔時區 {#timezone}
 
-時區是在歷程層級定義。 您可以輸入固定時區，或使用Adobe Experience Platform設定檔來定義歷程時區。 如果在Adobe Experience Platform設定檔中定義了時區，則可在歷程中擷取該時區。
+時區是在歷程層級定義。 您可以輸入固定時區或使用[!DNL Adobe Experience Platform]設定檔來定義歷程時區。 如果在[!DNL Adobe Experience Platform]設定檔中定義了時區，則可在歷程中擷取該時區。
 
 [進一步瞭解時區管理](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ ht-degree: 15%
 如有需要，您可以定義自訂&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。 這可讓設定檔在特定日期進入您的歷程，並在達到結束日期時自動退出。
 
 ## 逾時 {#timeout}
+
+逾時設定控制歷程等待活動執行的時間以及設定檔可在歷程中保留的時間長度。
 
 ### 歷程活動逾時 {#timeout_and_error}
 
@@ -140,9 +142,9 @@ ht-degree: 15%
 
 #### 存留時間(TTL)與資料保留常見問題集 {#timeout-faq}
 
-自2024年6月Adobe Journey Optimizer發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
+自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -187,7 +189,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -250,15 +252,15 @@ ht-degree: 15%
 
 ## 合併原則 {#merge-policies}
 
-從Adobe Experience Platform擷取設定檔資料時，Adobe Journey Optimizer會使用合併原則。 根據歷程型別，會使用不同的合併原則：
+從[!DNL Adobe Journey Optimizer]擷取設定檔資料時，[!DNL Adobe Experience Platform]使用合併原則。 根據歷程型別，會使用不同的合併原則：
 
 * 在讀取對象或對象資格歷程中：使用來自對象的合併原則
 * 在單一事件歷程中：使用預設合併原則
 * 在業務事件歷程中：使用以下讀取對象活動中來自目標對象的合併原則
 
-Adobe Journey Optimizer會套用在整個歷程中使用的合併原則。 因此，如果在歷程中使用多個對象（例如使用[`inAudience`函式](functions/functioninaudience.md)中的），這會造成與歷程使用的合併原則不一致、引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
+[!DNL Adobe Journey Optimizer]套用整個歷程使用的合併原則。 因此，如果在歷程中使用多個對象（例如使用[`inAudience`函式](functions/functioninaudience.md)中的），這會造成與歷程使用的合併原則不一致、引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 
-若要深入瞭解合併原則，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
+若要深入瞭解合併原則，請參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview){target="_blank"}。
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 12%
 
 ## 建議 {#wait-recommendations}
 
+使用這些建議來確保等待可預測且安全。
+
 ### 多個等待活動 {#multiple-wait-activities}
 
 在歷程中使用多個&#x200B;**等待**&#x200B;活動時，請注意，歷程的[全域逾時](journey-properties.md#global_timeout)為91天，這表示設定檔在進入歷程後，一律會退出歷程的最長91天。 請在[此頁面](journey-properties.md#global_timeout)了解更多。
@@ -57,6 +59,8 @@ ht-degree: 12%
 如果您想要在傳送[推播通知](../in-app/create-in-app.md)後立即顯示[應用程式內訊息](../../rp_landing_pages/push-landing-page.md)，請使用&#x200B;**等待**&#x200B;活動來允許應用程式內訊息裝載時間傳播。 通常建議等候5至15分鐘，但確切時間會因裝載複雜性和個人化需求而有所不同。
 
 ## 設定 {#wait-configuration}
+
+在此設定等待期間和時間。
 
 ### 持續時間等待 {#duration}
 
