@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Campaign v7/v8 動作
-description: 瞭解Adobe Campaign v7/v8動作
+title: '[!DNL Adobe Campaign] v7/v8動作'
+description: 瞭解 [!DNL Adobe Campaign] v7/v8動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,21 +10,21 @@ level: Intermediate
 keywords: 歷程，整合，行銷活動， v7， v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 25%
+source-wordcount: '292'
+ht-degree: 4%
 
 ---
 
-# Adobe Campaign v7/v8 動作 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] v7/v8動作 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自訂動作"
->abstract="如果您有 Adobe Campaign v7 或 v8，則可整合。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。"
+>abstract="如果您有[!DNL Adobe Campaign] v7或v8，則可整合。 它可讓您使用[!DNL Adobe Campaign]異動訊息功能來傳送電子郵件、推播通知及簡訊。"
 
-如果您有 Adobe Campaign v7 或 v8，則可整合。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
+如果您有[!DNL Adobe Campaign] v7或v8，則可整合。 它可讓您使用[!DNL Adobe Campaign]異動訊息功能來傳送電子郵件、推播通知及簡訊。
 
 Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設定。 聯絡Adobe。
 
@@ -32,7 +32,7 @@ Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設�
 
 **先決條件**
 
-* 已布建您的Adobe Campaign v7/v8執行個體，並透過Adobe連線至Journey Optimizer。
+* 已布建您的[!DNL Adobe Campaign] v7/v8執行個體，並透過Adobe連線至Journey Optimizer。
 * 您有權存取Campaign異動訊息及必要的許可權。
 
 為了讓此功能發揮作用，您需要設定專用動作。 請參閱本[章節](../action/acc-action.md)。
@@ -48,4 +48,4 @@ Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設�
 >* Campaign v7/v8動作可與相同歷程中的原生頻道動作搭配使用。 這不適用於Campaign Standard動作。 請參閱[促銷活動護欄](../start/guardrails.md#ac-g)。
 >* Campaign v7/v8動作無法用於「讀取對象」或「對象資格」活動。 請參閱護欄頁面中的讀取對象和對象資格護欄。
 
-![Adobe Campaign v7/v8動作組態與整合設定](assets/accintegration2.png)
+![[!DNL Adobe Campaign] v7/v8動作組態與整合設定](assets/accintegration2.png)

@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 開始使用核准原則 {#gs}
 
-Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核並簽核。
+[!DNL Journey Optimizer]可讓您設定核准程式，讓行銷團隊確保在行銷活動和歷程上線之前，由適當的利害關係人稽核和簽署。
 
 核准原則直接在使用者介面中導入結構化工作流程，而不再需要如電子郵件或任務管理工具等的外部媒介，並確保會集中管理和追蹤所有核准。
 
@@ -26,9 +26,9 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 開始之前，請確定已設定下列權限。
 
-若要存取核准和發佈歷程與行銷活動，需要將&#x200B;**核准和發佈行銷活動**&#x200B;與&#x200B;**核准和發佈歷程**&#x200B;權限授予使用者。[了解更多](../administration/permissions.md)
+若要核准和發佈歷程與行銷活動，使用者需要被授予&#x200B;**核准和發佈行銷活動**&#x200B;和&#x200B;**核准和發佈歷程**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
-+++  了解如何指派核准相關權限
++++  瞭解如何指派核准相關許可權
 
 1. 在&#x200B;**權限**&#x200B;產品中，前往&#x200B;**角色**&#x200B;標籤，然後選取所需的&#x200B;**角色**。
 
@@ -36,11 +36,11 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 1. 新增&#x200B;**行銷活動**&#x200B;資源，然後從下拉式選單中，選取&#x200B;**核准和發佈行銷活動**。
 
-   ![](assets/permissions_approval.png){zoomable="yes"}
+   ![指派核准並發佈行銷活動許可權](assets/permissions_approval.png){zoomable="yes"}
 
 1. 新增&#x200B;**歷程**&#x200B;資源，然後從下拉式選單中，選取&#x200B;**核准和發佈歷程**。
 
-   ![](assets/permissions_approval_2.png){zoomable="yes"}
+   ![指派核准與發佈歷程許可權](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. 按一下&#x200B;**儲存**，以套用所做的變更。
 
@@ -50,7 +50,7 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**儲存**。
 
-1. 如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+1. 如果使用者先前未建立，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 使用者將會收到一封電子郵件，提供存取執行個體的指示。
 
@@ -60,15 +60,15 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 全域核准程序如下：
 
-![](assets/approval-process.png){zoomable="yes"}
+![核准程式流程](assets/approval-process.png){zoomable="yes"}
 
 1. **核准原則設定**
 
-   管理員使用者會建立核准原則，定義原則應套用至歷程或行銷活動的條件。例如，您可以建立核准原則，要求指定使用者建立的所有排程行銷活動在啟用前，皆需經過核准。[了解如何建立核准原則](approval-policies.md)
+   管理員使用者會建立核准原則，定義該原則應用於歷程或行銷活動的條件。 例如，您可以建立核准原則，要求指定使用者建立的所有排程行銷活動在啟用前皆須核准。 [了解如何建立核准原則](approval-policies.md)
 
 1. **提交行銷活動/歷程以進行核准**
 
-   行銷活動/歷程建立者建置歷程或行銷活動，並提交以進行核准。行銷活動/歷程進入「審核中」狀態，在此期間除非請求遭到取消，否則無法進行任何編輯。[了解如何請求核准](request-approval.md)
+   行銷活動/歷程建立者會建立歷程或行銷活動，並提交以進行核准。 行銷活動/歷程進入「審核中」狀態，在此期間除非請求遭到取消，否則無法進行任何編輯。[了解如何請求核准](request-approval.md)
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Journey Optimizer 可讓您設定核准程序，允許行銷團隊用以確保�
 
 您可以監視對指定歷程或行銷活動提交的所有核准和變更請求。若要執行此操作，請按一下位於歷程版面或行銷活動審核畫面右上角的&#x200B;**[!UICONTROL 顯示稽核軌跡]**&#x200B;圖示。
 
-![](assets/monitor-requests.png)
+![核准要求稽核軌跡](assets/monitor-requests.png)
 
 ## 其他資源
 

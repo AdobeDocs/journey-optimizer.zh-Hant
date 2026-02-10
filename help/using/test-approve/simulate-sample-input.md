@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '989'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >title="使用範例輸入進行模擬"
 >abstract="在這個畫面中，您可以透過 CSV 或 JSON 範本為個人化欄位提供值，或手動輸入值來測試內容的不同變體。"
 
-Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範例輸入資料，預覽內容的不同變體。
+[!DNL Journey Optimizer]可讓您使用從CSV或JSON檔案上傳或手動新增的範例輸入資料，預覽您內容的不同變體。
 
 系統會自動偵測您在內容中用於個人化的所有屬性，這些屬性可用於測試以建立多個變體。 變體是指具有不同屬性值的內容版本。
 
@@ -30,7 +30,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 >
 >變體僅會作為您目前內容的測試用途。 它們不會儲存在Adobe Experience Platform中，而是儲存在您的使用者瀏覽器工作階段中，這表示在登出或從其他裝置工作時，不會顯示它們。
 
-## 護欄和限制 {#limitations}
+## 護欄與限制 {#limitations}
 
 開始使用範例輸入資料來測試內容之前，請考量下列護欄和先決條件。
 
@@ -55,9 +55,9 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 ## 新增和預覽內容變數
 
-若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]**&#x200B;**[!UICONTROL 。]**
+若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]****[!UICONTROL 。]**
 
-![](assets/simulate-sample.png)
+![模擬內容變化選項](assets/simulate-sample.png)
 
 測試內容的主要步驟如下：
 
@@ -71,7 +71,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 例如，如果您的電子郵件包含兩個個人化欄位「城市」和「方案積分餘額」，它們將會顯示在清單中。 一開始不會輸入任何值，且預覽窗格中不會顯示任何個人化內容。
 
-![](assets/simulate-custom-variants-list.png)
+![範例輸入變體清單](assets/simulate-custom-variants-list.png)
 
 若要編輯變體的值：
 
@@ -85,7 +85,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 1. 出現新的空白變體，包含所有偵測到的個人化欄位。
 1. 視需要編輯新變體。
 
-![](assets/simulate-custom-add.png)
+![建立範例輸入按鈕](assets/simulate-custom-add.png)
 
 您也可以上傳包含預先定義變體和值的檔案，以加速處理作業。
 
@@ -113,7 +113,7 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 1. 檔案準備就緒後，請按一下&#x200B;**[!UICONTROL 上傳輸入資料]**&#x200B;以載入該檔案。
 1. 上傳後，新變體會新增到檔案中每個專案的清單中。
 
-   ![](assets/simulate-custom-variants.png)
+   ![已上傳範例輸入變體](assets/simulate-custom-variants.png)
 
 新增變體後，您就可以使用這些變體在右窗格中預覽您的內容，並傳送電子郵件校樣。
 
@@ -125,13 +125,13 @@ Journey Optimizer可讓您使用從CSV或JSON檔案上傳或手動新增的範�
 
 | 變體1選擇 | 變體2選擇 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![變體1選擇](assets/simulate-custom-boxes.png) | ![變體2選擇](assets/simulate-custom-boxes2.png) |
 
 對於多語言內容和實驗，下拉式清單可用於在不同的語言變體或處理之間切換。
 
-![](assets/simulate-custom-experiment.png)
+![語言或處理方式選擇器](assets/simulate-custom-experiment.png)
 
-您可以使用右上角的省略符號按鈕並選取&#x200B;**[!UICONTROL 移除]**，隨時移除變體。 若要編輯變體的資訊，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 編輯]**。
+您可以隨時使用右上角的省略符號按鈕並選取&#x200B;**[!UICONTROL 移除]**&#x200B;來移除變體。 若要編輯變體的資訊，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
 ### 發送校訂 {#proofs}
 
@@ -145,10 +145,10 @@ Journey Optimizer可讓您傳送校樣到電子郵件地址，同時模擬您在
 
    如需變體的詳細資訊，請選取&#x200B;**[!UICONTROL 檢視設定檔詳細資料]**&#x200B;連結。 這可讓您顯示在先前畫面中針對不同變體輸入的資訊。
 
-   ![](assets/simulate-custom-proofs.png)
+   ![校訂收件者和變體選擇](assets/simulate-custom-proofs.png)
 
 1. 按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕以開始傳送校樣。
 
 1. 若要追蹤校訂傳送，請按一下模擬內容畫面中的&#x200B;**[!UICONTROL 檢視校訂]**&#x200B;按鈕。
 
-![](assets/simulate-custom-sent-proofs.png)
+![已傳送校樣清單](assets/simulate-custom-sent-proofs.png)

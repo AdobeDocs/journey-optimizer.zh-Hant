@@ -11,9 +11,9 @@ badge: label="私人測試版" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 2%
 
 1. 開啟您的內容並選取&#x200B;**[!UICONTROL 模擬內容]** / **[!UICONTROL 模擬內容變化]**。
 
-   ![](assets/simulate-sample.png)
+   ![模擬內容變化選項](assets/simulate-sample.png)
 
 2. 按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
 
-   ![](assets/simulate-generate-variant.png)
+   ![產生變體按鈕](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer]會根據偵測到的屬性自動產生變體。
 
