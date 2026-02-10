@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器
 mini-toc-levels: 1
+badge: label="有限可用性" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '917'
+ht-degree: 6%
 
 ---
 
@@ -25,6 +26,10 @@ ht-degree: 5%
 >abstract="啟用資料集進行查詢，可讓您在Journey Optimizer個人化、決策和Journey Orchestration功能中運用其資料。"
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]個資料的個人化、決策和歷程協調功能。 若要這麼做，必須先為查詢服務啟用查詢個人化所需的記錄型資料集，如下所述。
+
+>[!NOTE]
+>
+>資料查詢功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡 Adobe 代表。深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
 
 在本節中進一步瞭解如何存取和使用資料集：[開始使用資料集](../data/get-started-datasets.md)
 
@@ -124,7 +129,7 @@ ht-degree: 5%
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
 ```
 
-其中：
+其中:
 
 * URL為`https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
 * 資料集ID是您要啟用的資料集。
