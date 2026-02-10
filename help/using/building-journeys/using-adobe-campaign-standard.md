@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign]個標準動作'
-description: 瞭解 [!DNL Adobe Campaign] 標準動作
+title: Adobe Campaign Standard 動作
+description: 瞭解Adobe Campaign Standard動作
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 >
 >為此，您需要設定內建動作。 請參見[此頁面](../action/acs-action.md)。
 
-針對這些管道中的每一個，您選取[!DNL Adobe Campaign]標準異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須以[!DNL Adobe Campaign] Standard發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)以瞭解如何使用此功能。
+針對這些管道中的每一個，您選取[!DNL Adobe Campaign]標準異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須以[!DNL Adobe Campaign] Standard發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以瞭解如何使用此功能。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >針對電子郵件使用設定檔的交易式範本時，[!DNL Adobe Campaign] Standard會自動處理取消訂閱機制。
->在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中包含[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)內容區塊。
+>在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中包含[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)內容區塊。
 >如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向至取消訂閱的登陸頁面。
 >建立登入頁面，並確保將收件者的取消訂閱決定傳輸至Adobe。
 
