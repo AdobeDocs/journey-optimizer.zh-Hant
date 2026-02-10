@@ -52,9 +52,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ ht-degree: 6%
 
 使用對象深入瞭解：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ ht-degree: 6%
 
 若要根據最新的購物車進行個人化通訊，或跨多種購物車型別或產品檢視瀏覽事件：
 
-* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將資料寫回已啟用設定檔的資料集以啟動。
-* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將資料寫回已啟用設定檔的資料集以啟動。
+* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行為型歷程退出
@@ -123,7 +123,7 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ ht-degree: 6%
 
 您可以在下方找到有關歷程中體驗事件查詢的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
 
 +++哪些特定功能會受到影響？ 
 

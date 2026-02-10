@@ -202,7 +202,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

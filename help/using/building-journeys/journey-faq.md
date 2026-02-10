@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
+需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
 
 ## 一般概念
 
