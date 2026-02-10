@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 8%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 ## 排除原因清單
 
-| 排除原因 | 錯誤代碼 | Channel | 說明 |
+| 排除原因 | 錯誤代碼 | 頻道 | 說明 |
 |-|-|-|-|
 | RuntimeDispatchError | 050301 | 所有管道 | 任何執行階段傳送錯誤的一般排除事件。 |
 | RuntimeRenderingError | 050302 | 所有管道 | 任何執行階段轉譯錯誤的一般排除事件。 |
@@ -60,6 +60,7 @@ ht-degree: 8%
 | EmailNoVariantDefined | 050026 | 電子郵件 | 未在電子郵件訊息中定義變體時，會產生排除事件。 |
 | EmailNoMessageFoundForTreatment | 050027 | 電子郵件 | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |
 | EmailFormatAddress | 050024 | 電子郵件 | 當電子郵件包含格式錯誤的地址時，會產生排除事件。 |
+| UnsubscribeLinkNotValid | 050081 | 電子郵件 | 當List-Unsubscribe mailTo主旨長度大於RFC的998個字元限制時，會產生排除事件。 |
 | InAppNoVariantDefined | 050041 | 應用程式內 | 若未定義應用程式內訊息的變體，則會產生排除事件。 |
 | InAppNoMessageFoundForTreatment | 050042 | 應用程式內 | 當為訊息啟用實驗且找不到符合條件的處理時，會產生排除事件。 |
 | PushNoTokenFoundInProfile | 050030 | 推播 | 設定檔沒有推播權杖時，會產生排除事件。 |
