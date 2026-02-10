@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 6%
+source-wordcount: '1269'
+ht-degree: 5%
 
 ---
 
@@ -408,9 +408,11 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-其中第一個字串是日期屬性，第二個值是您想要轉換和顯示日期的方式。
+其中第一個引數是日期時間屬性，第二個值是您要如何轉換和顯示日期。
 
 >[!NOTE]
+>
+> `formatDate`函式需要&#x200B;**日期時間欄位型別**&#x200B;做為輸入，而非字串。 如果您的欄位儲存為XDM結構描述中的字串型別，您必須先使用轉換函式（如`stringToDate()`或`toDateTime()`）將其轉換為日期時間。 請參閱下列範例。
 >
 > 如果日期模式無效，該日期將回覆為ISO標準格式。
 >
@@ -418,11 +420,69 @@ The following operation gets all the values for the map `identityMap`.
 
 **範例**
 
-下列作業將傳回下列格式的日期：MM/DD/YY。
++++格式化日期時間欄位
+
+下列作業會將日期 — 時間欄位格式化為MM/DD/YY格式。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++先將字串轉換為日期
+
+如果您的欄位儲存為字串，您必須先使用`stringToDate()`將其轉換為日期時間，然後再格式化。
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++具有日期名稱的完整日期格式
+
+下列作業會傳回包含日名稱、月名稱、日和年的完整日期格式。
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+輸出： `Wednesday January 01 2020`
+
++++
+
++++基於系統時間的動態日期
+
+您可以將目前系統時間格式化，以產生動態日期。 下列作業會傳回YYYY/MM/dd格式的目前日期。
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+輸出（2026年1月30日）： `01/30/2026`
+
++++
+
++++星期格式
+
+您可以用簡短格式擷取一週中的某天。
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+輸出： `Sun` （週日）、`Mon` （週一）、`Tue` （週二）等。
+
+若為小寫輸出，請結合`lowerCase`函式：
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+輸出： `sun`、`mon`、`tue`等
+
++++
 
 ### 圖樣字元 {#pattern-characters}
 
