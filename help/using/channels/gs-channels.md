@@ -6,8 +6,8 @@ description: 了解如何使用  [!DNL Adobe Journey Optimizer]  通訊管道
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
-workflow-type: ht
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 電子郵件管道
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推播通知管道
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 簡訊 / MMS / RCS 訊息
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直接郵件行銷活動
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 網頁
 
@@ -95,7 +95,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 程式碼型體驗
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 內容卡片
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 | 簡訊 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 推播通知 | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 應用程式內 | ✅ | ✅ | — | — | — |
-| 直接郵件 | ✅ | ✅ | — | — | — |
+| 直接郵件 | ✅ | ✅ | — | — | ✅ |
 | 網頁 | ✅ | ✅ | — | — | — |
 | 程式碼型體驗 | ✅ | ✅ | — | — | — |
 | 內容卡 | ✅ | ✅ | — | — | — |

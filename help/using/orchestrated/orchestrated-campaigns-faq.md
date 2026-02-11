@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1887'
 ht-degree: 14%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -39,7 +39,7 @@ Campaign Orchestration是Journey Optimizer的一項功能，可支援單步驟�
 
 * **隨選受眾**：使用關聯式查詢立即建立並調整目標群組。
 * **多實體分段**：透過連線客戶資料與相關實體（例如，帳戶、購買、預訂）來建立精確受眾。
-* **預先傳送可見度**：在啟動以最佳化鎖定目標之前，請檢視正確的對象計數。
+* **預先傳送可見度**：在啟動前檢視正確的受眾規模以最佳化目標。
 * **多步驟工作流程**：執行循序行銷活動，例如季節性促銷活動、產品上市或忠誠度優惠。
 
 **最佳作法**
@@ -162,7 +162,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 可以在同一個協調的行銷活動中啟動多個通訊和不同的管道嗎？
 
-是，協調的行銷活動支援跨頻道協調。 您可以將電子郵件、簡訊和推播通知活動結合到多步驟行銷活動畫布中，以建立全面的客戶體驗。
+是，協調的行銷活動支援跨頻道協調。 您可以將電子郵件、簡訊、推播通知和直接郵件活動結合到多步驟行銷活動畫布中，以建立全面的客戶體驗。
 
 **了解更多**
 
@@ -195,7 +195,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 在協調的行銷活動中，不同的管道如何連線？
 
-頻道元件和執行階段是所有Journey Optimizer行銷活動的共同點，但支援的頻道不同。 協調的行銷活動支援電子郵件、簡訊和推播通知。
+頻道元件和執行階段是所有Journey Optimizer行銷活動的共同點，但支援的頻道不同。 協調的行銷活動支援電子郵件、簡訊、推播通知和直接郵件。
 
 **了解更多**
 
@@ -207,7 +207,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 協調的行銷活動可以與傳出頻道（網頁、inApp）連線嗎？
 
-否，協調的行銷活動不支援Web和應用程式內傳入頻道。 僅支援傳出頻道（電子郵件、簡訊和推播通知）。
+否，協調的行銷活動不支援Web和應用程式內傳入頻道。 僅支援傳出頻道（電子郵件、簡訊、推播通知和直接郵件）。
 
 **了解更多**
 
@@ -242,7 +242,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 * 針對&#x200B;**時效性需求** （例如Flash促銷活動）使用臨機區段。
 * 儲存並記錄有用的查詢，以便在未來的行銷活動中重複使用。
-* 在啟用之前驗證對象人數，以防止傳送量少或傳送量多。
+* 在啟用之前驗證受眾規模，以防止傳送量過低或傳送量過多。
 
 **了解更多**
 

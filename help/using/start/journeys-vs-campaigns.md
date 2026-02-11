@@ -9,13 +9,13 @@ level: Beginner
 keywords: 歷程，行銷活動，已協調，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # 歷程與行銷活動：選擇正確的方法 {#journeys-vs-campaigns}
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer提供三種強大的方式觸及及吸引客戶。 瞭�
 
 ## 快速比較概述 {#quick-overview}
 
-| 方針 | 最適合 | 執行樣式 |
+| 方法 | 最適合 | 執行樣式 |
 |----------|----------|-----------------|
 | **歷程** | 具有條件式邏輯的多步驟、即時客戶體驗 | 1:1協調流程 — 每個設定檔都有各自的步調 |
 | **動作行銷活動** | 排程或循環播放至對象 | 批次執行 — 在傳送時一起處理的對象 |
@@ -207,7 +207,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 網頁 | ✅ | ✅ | ❌ | ❌ |
 | 程式碼型 | ✅ | ✅ | ❌ | ❌ |
 | 內容卡 | ✅ | ✅ | ❌ | ❌ |
-| 直接郵件 | ✅ | ✅ | ❌ | ❌ |
+| 直接郵件 | ✅ | ✅ | ❌ | ✅ |
 
 ### 進階功能
 
@@ -280,4 +280,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 * [行銷活動型別比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [歷程常見問題集](../building-journeys/journey-faq.md)
 * [協調的行銷活動常見問題集](../orchestrated/orchestrated-campaigns-faq.md)
-
