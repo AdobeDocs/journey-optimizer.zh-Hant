@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >為此，您需要設定內建動作。 請參見[此頁面](../action/acs-action.md)。
 
-針對這些管道中的每一個，您選取[!DNL Adobe Campaign]標準異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須以[!DNL Adobe Campaign] Standard發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以瞭解如何使用此功能。
+針對這些管道中的每一個，您選取[!DNL Adobe Campaign]標準異動訊息&#x200B;**範本**。 對於內建電子郵件、簡訊和推播頻道，我們仰賴「交易式傳訊」來執行訊息傳送。 這表示如果您想在歷程中使用特定訊息範本，則必須以[!DNL Adobe Campaign] Standard發佈。 請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)以瞭解如何使用此功能。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >針對電子郵件使用設定檔的交易式範本時，[!DNL Adobe Campaign] Standard會自動處理取消訂閱機制。
->在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中包含[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)內容區塊。
+>在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中包含[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)內容區塊。
 >如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向至取消訂閱的登陸頁面。
 >建立登入頁面，並確保將收件者的取消訂閱決定傳輸至Adobe。
 
