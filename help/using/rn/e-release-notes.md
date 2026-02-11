@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3362242c13b404639d2a9b91742a5658cc1fb593
+source-git-commit: 22765397e7ec7a14e27a6998a28eb4dddca80f3c
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 33%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent內容產生</strong><br/></th>
+<th><strong>Journey Agent：建立管道內容</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -151,6 +151,22 @@ ht-degree: 33%
 <table>
 <thead>
 <tr>
+<th><strong>行動已上線活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>已上線的活動</strong>可在行動應用程式中提供即時更新和互動式體驗，讓使用者直接在裝置熒幕上掌握進行中事件或工作的最新資訊。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。</p>
+<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>網頁推播通知管道</strong><br/></th>
 </tr>
 </thead>
@@ -159,7 +175,7 @@ ht-degree: 33%
 <td>
 <p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
 <p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
-<p>推出日期： 2026年2月11日</p>
+<p>推出日期： 2026年2月12日</p>
 </td>
 </tr>
 </tbody>
@@ -178,12 +194,6 @@ ht-degree: 33%
 #### 行銷活動
 
 * **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到<strong>資料夾</strong>，以改善介面中的導覽和管理。
-
-#### 管道
-
-* **行動即時活動** - <strong>即時活動</strong>可在行動應用程式中提供即時更新和互動式體驗，讓使用者直接在裝置熒幕上掌握進行中事件或工作的最新資訊。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。
-
-  **注意**：此功能先前以Beta版發佈，現在可供所有環境使用（全面發佈）。
 
 #### 設定
 
@@ -222,7 +232,7 @@ ht-degree: 33%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -400,7 +410,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
