@@ -7,22 +7,17 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 1%
 
 ---
 
 # 內容決策活動 {#content-decision}
-
->[!AVAILABILITY]
->
->此功能僅適用於一組組織 (有限可用性)，將透過未來版本在全球推出。
 
 [!DNL Journey Optimizer]可讓您透過歷程畫布中的專用&#x200B;**內容決定**&#x200B;活動，將優惠方案納入您的歷程。 然後，您可以新增其他活動（例如[自訂動作](../action/about-custom-action-configuration.md)）至您的歷程，以使用這些個人化優惠鎖定您的對象。
 
@@ -78,11 +73,11 @@ ht-degree: 4%
 
 **同意原則**
 
-同意政策的更新最多需要48小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
+* 同意政策的更新最多需要48小時才會生效。 如果決定原則參考與最近更新的同意原則關聯的屬性，變更將不會立即套用。
 
-同樣地，受同意原則約束的新設定檔屬性可以新增到決定原則並使用。 延遲過後，才會執行相關的同意原則。
+* 同樣地，如果受同意原則約束的新設定檔屬性新增到決定原則中，這些設定檔屬性將可供使用，但關聯的同意原則在延遲過去後才會執行。
 
-同意原則僅適用於具有Adobe Healthcare Shield或Privacy and Security Shield附加元件的組織。
+* 同意原則僅適用於具有Adobe Healthcare Shield或Privacy and Security Shield附加元件的組織。
 
 ## 使用內容決定活動的輸出 {#use-content-decision-output}
 
@@ -181,3 +176,60 @@ ht-degree: 4%
 1. 只有已擷取至少一個選件的設定檔才能繼續歷程（透過「合格的設定檔」路徑）。
 
 1. 如果符合條件，則會透過自訂動作將對應的選件傳送至外部系統。
+
+## 在步驟事件中決定資料 {#decisioning-step-events}
+
+在歷程中執行內容決定活動時，決定資料可在歷程步驟事件中使用。 此資料提供關於擷取的專案以及如何做出決定的詳細資訊。
+
+對於每個內容決定活動，步驟事件包括最上層的決定資料（例如&#x200B;**exdRequestID**&#x200B;和&#x200B;**propositionEventType**），以及&#x200B;**建議**&#x200B;的陣列。 每個主張都有&#x200B;**id**、**scopeDetails** （包括決定提供者、相互關聯識別碼和決定原則）以及&#x200B;**專案**&#x200B;陣列。 每個專案都包含：
+
+* **id**：專案的唯一識別碼
+* **name**：專案的名稱
+* **分數**：指派給專案的分數
+* **itemSelection**：與如何做出決定以及如何擷取專案相關的資料，包括：
+   * **selectionDetail**：使用的選擇策略相關資訊
+   * **rankingDetail**：排名程式（策略、演演算法、步驟、流量型別）的相關資訊
+
+**步驟事件中的決策資料範例：**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
