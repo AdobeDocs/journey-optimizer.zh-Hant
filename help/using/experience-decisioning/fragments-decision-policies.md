@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
-
 
 # 在決策政策中善用片段 {#fragments}
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能目前僅適用於&#x200B;**程式碼型體驗**&#x200B;管道和一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>此功能目前僅適用於&#x200B;**程式碼型體驗**&#x200B;管道。
 
 例如，假設您想針對多種行動裝置型號顯示不同的內容。 請務必將與這些裝置對應的片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
 
@@ -93,6 +93,6 @@ ht-degree: 1%
 
 * 片段內容的驗證僅在片段建立和發佈期間進行。
 
-* 至於JSON片段，無法確保JSON物件是否有效。 請確定運算式片段內容是有效的JSON，以便用於決定專案。
+* 對於JSON型別運算式片段，在儲存片段時會語法驗證內容。 驗證錯誤會顯示為警示。
 
 在執行階段，會驗證行銷活動內容（包括決策專案中的片段內容）。 萬一驗證失敗，行銷活動將不會呈現。

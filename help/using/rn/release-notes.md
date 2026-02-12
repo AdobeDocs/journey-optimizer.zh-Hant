@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9281adb50d13142ccf323ff5edb3f480b801d986
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 85%
+source-wordcount: '1884'
+ht-degree: 84%
 
 ---
 
@@ -110,10 +110,13 @@ ht-degree: 85%
 
 ### 改進 {#feb-26-01-updates-improv}
 
-<!--
-* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
+* **將片段附加至決策項目** - Journey Optimizer 現在提供將<strong>片段</strong>附加至<strong>決策項目</strong>的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。先前以「有限可用性」發佈，該改進現在可供所有環境使用（一般可用性）。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
 
-  Availability date: February 11, 2026.-->
+  推出日期：2026年2月12日。
+
+* **JSON型別運算式片段驗證** - JSON型別運算式片段現在會在儲存時進行語法驗證。 驗證錯誤會被視為警告，並在儲存後顯示為警示。 [閱讀全文](../content-management/create-fragments.md#content)
+
+  推出日期：2026年2月12日。
 
 * **SMS Webhook** — 所有SMS提供者現在都支援Webhook。 您可以根據每個Webhook的預期用途、入站Webhook來設定以擷取傳入訊息，以及回饋Webhook來接收傳遞回條、狀態更新和其他訊息相關事件。 [閱讀全文](../sms/sms-webhook.md)
 
@@ -127,7 +130,7 @@ ht-degree: 85%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 全新功能 {#jan-26-01-features}
 
@@ -290,7 +293,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI 助理內容品質檢查** - 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。[閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在影片中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在影片中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 歷程
 

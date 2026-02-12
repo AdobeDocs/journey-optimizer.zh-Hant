@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 21%
 
 ---
@@ -84,6 +84,10 @@ ht-degree: 21%
 * 針對運算式片段，利用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能，建置您的片段內容。 [了解更多](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >JSON型別運算式片段會在儲存時進行語法驗證，且任何錯誤都會顯示為警告警報。
 
 當您的內容準備就緒時，請按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕。
 
