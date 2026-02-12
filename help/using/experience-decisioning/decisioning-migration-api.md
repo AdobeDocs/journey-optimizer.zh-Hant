@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 3%
 
 ---
-
 
 # Decisioning移轉API {#decisioning-migration-api}
 
@@ -70,8 +70,8 @@ Decisioning移轉服務API提供下列功能：
 
 根據您的環境使用下列基底URL：
 
-* **生產**： `https://platform.adobe.io`
-* **暫存**： `https://platform-stage.adobe.io`
+* **生產**： `https://decisioning-migration.adobe.io`
+* **暫存**： `https://decisioning-migration-stage.adobe.io`
 
 ### Authentication {#authentication}
 
@@ -79,7 +79,6 @@ Decisioning移轉服務API提供下列功能：
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
 如需設定驗證的詳細指示，請參閱[Journey Optimizer驗證指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
@@ -91,7 +90,7 @@ Decisioning移轉服務API提供下列功能：
 工作流程有下列屬性：
 
 * `id` — 唯一的工作流程識別碼(UUID)
-* `status` — 目前的工作流程狀態： `New`、`Running`、`Completed`、`Failed`或`Cancelled`
+* `status` — 目前的工作流程狀態： `New`、`Running`、`Completed`或`Failed`
 * `result` — 完成時的工作流程輸出（包含移轉結果和警告）
 * `errors` — 失敗時的結構化錯誤詳細資料
 * `_etag` — 用於刪除作業的版本識別碼（僅限服務使用者）
@@ -112,7 +111,7 @@ Decisioning移轉服務API提供下列功能：
 **API格式**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **沙箱層級相依性（建議優先）**
@@ -121,10 +120,9 @@ POST /migration/service/dependency
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ curl --request POST \
 **API格式**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **要求**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 當`status`欄位顯示`Completed`時，相依性分析已準備就緒。 使用工作流程輸出建置您的移轉相依性對應：
 
-* **profileAttributeDependency** — 將來源設定檔屬性對應到目標設定檔屬性
-* **contextAttributeDependency** — 將來源內容屬性對應至目標內容屬性
-* **segmentsDependency** — 將來源區段索引鍵對應到目標區段識別碼(`{segmentNamespace, segmentId}`)
+* **profileAttributes** — 將來源設定檔屬性對應到目標設定檔屬性
+* **contextAttributes** — 將來源內容屬性對應至目標內容屬性
+* **區段** — 將來源區段索引鍵對應到目標區段識別碼(`{namespace, id}`)
 * **datasetName** — 指定移轉的目標資料集名稱
 
 ### 步驟2：執行移轉 {#execute-migration}
@@ -180,7 +177,7 @@ curl --request GET \
 **API格式**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **沙箱層級移轉**
@@ -189,10 +186,9 @@ POST /migration/service/migrations
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ curl --request POST \
 **API格式**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **要求**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **移轉結果**
@@ -301,20 +296,21 @@ curl --request POST \
 **API格式**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-將`{migrationWorkflowId}`取代為您要復原的移轉工作流程識別碼。
 
 **要求**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+將`<MIGRATION_WORKFLOW_ID>`取代為您要復原的移轉工作流程識別碼。
 
 ### 監視復原狀態 {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ curl --request POST \
 **API格式**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **要求**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## 處理並行工作流程 {#handle-concurrency}
@@ -353,7 +348,7 @@ curl --request GET \
 | 適用性規則 | 適用性規則 |
 | 排名公式 | 排名公式 |
 | 決定 | 選擇策略+決定策略 |
-| Campaign | 行銷活動&#x200B;*（僅限基本內容）* |
+| 促銷活動 | 行銷活動&#x200B;*（僅限基本內容）* |
 | 刊登 | 表面+頻道設定 |
 | 標記 | 統一標籤 |
 
@@ -363,9 +358,9 @@ curl --request GET \
 
 **可用的刪除作業：**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
