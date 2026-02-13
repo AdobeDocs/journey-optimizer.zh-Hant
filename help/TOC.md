@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '3091'
+source-wordcount: '3086'
 ht-degree: 98%
 
 ---
@@ -315,13 +315,12 @@ ht-degree: 98%
       + [開始使用推播通知](using/push/get-started-push.md)
       + [建立推播通知](using/push/create-push.md)
       + [設計推播通知](using/push/design-push.md)
-      + [設計網頁推播通知](using/push/design-push-web.md)
       + [檢查並傳送推播通知](using/push/send-push.md)
       + 設定推播通知 {#push-config}
          + [設定推播通知](/help/rp_landing_pages/push-config-landing-page.md)
          + [推播通知流量](using/push/push-gs.md)
          + [設定推播通知頻道](using/push/push-configuration.md)
-         + [設定網頁推播通知頻道](using/push/push-configuration-web.md)
+         + [設定網頁推播通知管道](using/push/push-configuration-web.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
    + 簡訊 / MMS / RCS 管道 {#sms}
       + [簡訊 / MMS / RCS 管道](/help/rp_landing_pages/sms-landing-page.md)

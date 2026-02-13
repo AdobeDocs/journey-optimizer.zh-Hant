@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '390'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 如果您已插入個人化內容，您可以檢查此內容在訊息中的顯示方式。
 
-若要這麼做，請按一下[模擬內容]。**&#x200B;** 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]**&#x200B;或&#x200B;**[!UICONTROL Android]**。
+若要這麼做，請按一下[模擬內容]。**** 然後，您可以選取要預覽內容的裝置型別： **[!UICONTROL iOS]**、**[!UICONTROL Android]**&#x200B;或&#x200B;**[!UICONTROL 網頁]**。
 
 ![](assets/push_preview_3.png)
 
@@ -59,6 +59,7 @@ ht-degree: 6%
 **相關主題**
 
 * [設定行動裝置的推播頻道](push-configuration.md)
+* [設定網頁的推播通道](push-configuration-web.md)
 * [推播通知報告](../reports/journey-global-report-cja-push.md)
 * [建立推播通知](create-push.md)
 * [在歷程中新增訊息](../building-journeys/journeys-message.md)
