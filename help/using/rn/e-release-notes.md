@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9c30e6ce9c2d1074834c98e428755734b6bb585c
+source-git-commit: b3f29a83912afe2f7f5810150837c8389fadcb73
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 26%
+source-wordcount: '1448'
+ht-degree: 24%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 26%
 <li><strong>載入控制項</strong> — 藉由限制一次傳出的訊息數目，避免造成下游系統（例如客服中心、登陸頁面）負擔過重。</li>
 <li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
 </ul>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +60,6 @@ ht-degree: 26%
 <td>
 <p>您現在可以使用<strong>公式</strong>和<strong>AI模型</strong>，根據客戶設定檔屬性和內容因素，自動提升<strong>歷程優先順序分數</strong>，確保客戶進入最相關的歷程。</p>
 <p>此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13976">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -77,7 +75,6 @@ ht-degree: 26%
 <tr>
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過<strong>自然語言介面</strong>分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -94,7 +91,6 @@ ht-degree: 26%
 <td>
 <p><strong>即時活動</strong>提供<strong>行動應用程式中的即時更新</strong>和互動式體驗，讓使用者直接在裝置熒幕上即時瞭解進行中的事件或工作。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。</p>
 <p>先前以Beta版發行，此功能現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13588">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -116,8 +112,7 @@ ht-degree: 26%
 <li>將<strong>最佳化</strong>新增至任何內建頻道動作的功能。</li>
 <li>能夠將<strong>experimentation</strong>和<strong>多語言</strong>選項新增至任何動作。</li>
 </ul>
-<p>此功能現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">DOCAC JIRA 任務連結</a></p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 </td>
 </tr>
 </tbody>
@@ -134,8 +129,7 @@ ht-degree: 26%
 <td>
 <p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您利用行動推播可用的相同<strong>編寫工作流程</strong>和<strong>目標定位功能</strong>，即時與使用者互動並即時提供個人化訊息。</p>
 <p>先前以Beta版發行，此功能現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
-<p>推出日期： 2026年2月12日</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">DOCAC JIRA 任務連結</a></p>
+<p>推出日期： 2026年2月13日</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +149,6 @@ ht-degree: 26%
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年2月11日</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -179,7 +172,6 @@ ht-degree: 26%
 </ul>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/decisioning-migration-api.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 2 月 3 日</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13837">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -198,7 +190,6 @@ ht-degree: 26%
 <p>此功能先前以「有限可用性」發行，現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
 <p>如需詳細資訊，請參閱<a href="../action/reporting.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 2 月 3 日</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -216,7 +207,6 @@ ht-degree: 26%
 <p>您現在可以使用<strong>決策</strong>個人化和最佳化<strong>簡訊訊息</strong>的內容。 使用<strong>優先順序分數</strong>、<strong>公式</strong>或<strong>AI模型</strong>向客戶顯示最佳內容。</p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 2 月 2 日</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -230,72 +220,63 @@ ht-degree: 26%
 
 * **歷程運算式中的體驗事件使用方式** — 自2026年4月1日起，過去90天內未使用此功能的組織將不再支援在歷程運算式中使用體驗事件屬性。 自2025年7月8日起，新客戶組織已無法使用此功能。 如需其他選擇，請參閱歷程中的[體驗事件查閱](../building-journeys/exp-event-lookup.md)。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">連結到DOCAC JIRA工作</a>
 
 * **子網域委派方法切換** — 您現在可以從一個<strong>子網域委派</strong>方法切換到另一個方法。 這可讓您使用<strong>CNAME委派</strong>模式將網域移轉至<strong>自訂委派</strong>方法，以遵守您公司的安全性原則。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13610">連結到DOCAC JIRA工作</a>
+  **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
+
 
 #### 電子郵件設計工具
 
 * **使用品牌主題將影像轉換為電子郵件範本** — 在Journey Optimizer中將影像轉換為電子郵件範本時，您現在可以使用<strong>主題</strong>作為輸入，讓產生的HTML遵循您的<strong>品牌引數</strong>。 系統會自動套用背景顏色、按鈕顏色、字型、行距、邊界及邊框間距等樣式，減少手動設計工作，並提供可立即使用且只需少量編輯的範本。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14105">連結到DOCAC JIRA工作</a>
 
 * **使用新的顏色標籤更新品牌** - <strong>品牌准則</strong>可協助確保您的品牌在所有接觸點上呈現一致。 新的<strong>顏色區段</strong>定義了您品牌顏色系統的標準，概述如何跨體驗選擇、整理和套用顏色。它可確保主色、次色、輔色和中性色的一致使用，以支援一致、可存取且可辨識的品牌識別。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">連結到DOCAC JIRA工作</a>
 
 #### AI
 
 * **整合自訂Firefly模型與協力廠商影像產生模型** — 可緊密整合標準與自訂<strong>Firefly模型</strong>，以及核准的<strong>協力廠商影像模型</strong> （例如NanoBanana），以便在產生影像時提供更大的彈性、控制力與品牌一致性。 這可讓您為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">連結到DOCAC JIRA工作</a>
-
-#### 行銷活動
-
-* **歷程與行銷活動的資料夾** — 您現在可以將您的<strong>歷程</strong>與<strong>行銷活動</strong>組織到<strong>資料夾</strong>中，以改善介面中的導覽與管理。
-
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">連結到DOCAC JIRA工作</a>
 
 #### 體驗決策
 
+* **在決策中使用Adobe Experience Platform資料的Edge傳入支援** - <strong>Experience Platform資料查詢</strong>的決策支援現在包含<strong>邊緣傳入</strong>管道使用案例。 此功能仍維持有限可用性；尚未公告基礎資料查詢功能的一般可用性(AEP/產品相依性)。
+
+  **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+
 * **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用<strong>程式碼型體驗</strong>管道設定<strong>Experience Decisioning</strong>時預覽<strong>決定專案</strong>。 上線之前，可以直接在編寫介面中使用預覽。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14082">連結到DOCAC JIRA工作</a>
 
 * **優惠排名AI模型可觀察性** — 現在Journey Optimizer可讓您在Decisioning中監視<strong>AI模型</strong>的<strong>健康情況</strong>、<strong>訓練狀態</strong>和<strong>效能</strong>，以便您驗證訓練成功、疑難排解失敗，並瞭解對您結果的影響。 此功能僅適用於個人化最佳化模型（而非自動最佳化）。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14040">連結到DOCAC JIRA工作</a>
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至<strong>決定專案</strong>的功能，這些可在程式碼型體驗行銷活動中透過<strong>決定原則</strong>運用。
 
-  **注意**：此改善功能現在可供所有環境使用（<strong>一般可用性</strong>）。
+  **注意**：此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。
 
   推出日期：2026年2月12日。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13418">連結到DOCAC JIRA工作</a>
 
 #### 歷程
 
 * **歷程中的多個輸入動作** — 為簡化歷程協調，您現在可以在單一歷程中定義數個<strong>輸入動作</strong>。 這項功能先前可在行銷活動中使用，可讓您將多個<strong>程式碼型體驗</strong>、<strong>應用程式內訊息</strong>、<strong>內容卡</strong>或<strong>網頁動作</strong>同時傳送至不同位置，每個動作都包含特定內容。
 
-  **注意**：此改善功能現在可供所有環境使用（<strong>一般可用性</strong>）。
+  **注意**：此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">連結到DOCAC JIRA工作</a>
 
 * **簡訊 Webhook** - 所有簡訊提供者現在都支援 <strong>Webhook</strong>。您可以根據每個webhook的預定用途來設定每個webhook： <strong>傳入webhook</strong>以擷取傳入訊息，以及<strong>回饋webhook</strong>以接收傳遞回條、狀態更新和其他訊息相關事件。 [閱讀全文](../sms/sms-webhook.md)
 
   推出日期：2026年2月2日。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">連結到DOCAC JIRA工作</a>
 
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -318,7 +299,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>The ability to add both experimentation and multi-lingual options to any action.</li>
 </ul>
 <p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111916">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-111916">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -335,7 +316,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Gain deeper insight into the health and performance of your custom action endpoints with a new <strong>monitoring dashboard</strong> and enriched journey step event data. Track successful calls, errors, throughput, response times, and queue wait times to quickly understand when, where, and why anomalies occur.</p>
 <p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-126869">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-126869">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -352,7 +333,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Quiet hours let you define <strong>time-based exclusions</strong> for Email, SMS, Push, and WhatsApp channels. They ensure that no messages are sent during specific periods of time, helping you respect customer preferences and compliance requirements. You can apply quiet hours through <strong>rule sets</strong>, which can be assigned to individual actions in campaigns or journeys for precise control.</p>
 <p>Previously released in Limited Availability, this feature is now available to all environments. With this General Availability release, the feature now includes the ability for customer to queue a campaign action until the completion of Quiet Hours, and the ability to preview the activated Quiet Hours rule.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13986">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-63912">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-63912">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -369,7 +350,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Previously limited to Campaigns, the <strong>Direct Mail channel</strong> is now available on the <strong>journey canvas</strong>, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
 <p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13543">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-38399">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-38399">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -386,7 +367,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
 <p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-37866">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-37866">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -403,7 +384,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>You can now add <strong>Decision policies</strong> into push and SMS journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/DOCAC-13425">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-55817">Link to PRODUCT JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-55818">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-55817">Link to PRODUCT JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-55818">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +400,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Direct mail channel is now available in orchestrated campaigns. The <strong>Direct mail activity</strong> facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the <strong>extraction file</strong> required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13379">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-82584">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-82584">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -435,7 +416,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>New <strong>source connectors</strong> are now available in Adobe Experience Platform for the Talon.One, Capillary and Kobie loyalty Apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13372">Link to DOCAC JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -457,7 +437,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>Retain copies of personalized content sent to individuals</li>
 </ul>
 <p>Records are retained in the AJO Message Export Dataset for <strong>7 calendar days from ingestion</strong>. During this retention period, you can export the data to your own storage via Experience Platform destinations. The feature is enabled at the channel configuration level, giving you granular control over which messages are exported.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-105313">Link to PRODUCT JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -473,8 +453,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
 </tr>
@@ -492,7 +472,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>A new <strong>Journey Optimizer API</strong> is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
 <p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13506">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-96195">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-96195">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: November 24, 2025</p>
 </td>
 </tr>
@@ -516,7 +496,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>These alerts can be subscribed to at the organization level or for specific journeys.</p>
 <p>For more information, refer to the <a href="../reports/alerts.md#journey-alerts">detailed documentation</a>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13465">Link to DOCAC JIRA task</a></p>
 <p>Availability date: November 5, 2025</p>
 </td>
 </tr>
@@ -536,7 +515,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Previously released in beta version, this capability is now available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12941">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/NEO-88838">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/NEO-88838">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: November 5, 2025</p>
 </td>
 </tr>
@@ -550,83 +529,83 @@ Improvements coming with this release are listed below.
 #### AI
 
 * **AI Assistant Content Quality Checks** - In addition to brand alignment, you can now evaluate overall <strong>content quality</strong> to uncover potential issues with readability, cohesiveness, and effectiveness, independent of your brand guidelines. These automated checks help identify unclear messaging, inconsistent tone, or structural gaps.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13917">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-103238">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-103238">Link to PRODUCT JIRA task</a>
 * **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors section</strong> defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-121183">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-121183">Link to PRODUCT JIRA task</a>
 
 #### Campaigns
 
 * **Schedule Campaign using Profile Time Zone** - Campaign scheduling can now use each profile's <strong>time zone</strong> to deliver messages at the intended local time.
 
   **Note**: This improvement is only available for a set of organizations (Limited Availability).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-11534">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-43782">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-43782">Link to PRODUCT JIRA task</a>
 
 #### Channels
 
 * **SMS Webhooks: Phase II** - Description to be provided.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-93914">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-93914">Link to PRODUCT JIRA task</a>
 
 #### Email Designer
 
 * **In-place corrections in the Email designer** - <strong>AI-powered automatic content suggestions</strong> are now available in the Email Designer when violations are detected during content validation. If content is flagged as misaligned with brand guidelines or fails quality criteria, the system proactively generates corrected alternatives that can be reviewed and applied inline, improving compliance and accelerating production.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-95365">Link to PRODUCT JIRA task</a>
 
 #### Experience Decisioning
 
 * **Self-service migration tooling APIs** - A new set of <strong>migration tooling APIs</strong> is available to migrate Offer management entities to Experience Decisioning. The tooling enables seamless migration between sandboxes with dependency resolution and rollback capabilities.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-109695">Link to PRODUCT JIRA task</a>
 
 * **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to decision items which can be leveraged in code-based experience campaigns through decision policies.
 
   **Note**: Previously released in Limited Availability, this improvement is now available to all environments (General Availability).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13418">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-110282">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-110282">Link to PRODUCT JIRA task</a>
 
 #### Journeys
 
 * **Leverage a failure response payload in journey Custom Actions** - You can now define an optional <strong>error response payload</strong> for custom actions. When a call fails, the error payload is exposed in the journey context and is available in the timeout/error branch to support richer fallback logic and debugging.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13977">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113125">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-113125">Link to PRODUCT JIRA task</a>
 
 * **Combine native and Adobe Campaign message actions** - Journey Optimizer now lets you combine Adobe Campaign v7/v8 message actions with native channel actions in the same journey.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13974">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113103">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-113103">Link to PRODUCT JIRA task</a>
 
 * **Journey payload size validation in journeys** - Journey Optimizer now provides <strong>payload size validation</strong> to help ensure optimal performance and system stability. When building or publishing journeys, you receive clear warnings and errors if payload sizes approach or exceed recommended limits, along with actionable guidance to optimize your journey configuration. This proactive validation helps you identify potential issues early and maintain journey performance.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13840">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-122236">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-122236">Link to PRODUCT JIRA task</a>
 
 * **Multiple inbound actions in journeys** - To simplify your journey orchestration, you can now define <strong>multiple inbound actions</strong> in a single journey. Previously available in campaigns, this capability enables you to deliver multiple code-based experiences, In-app messages, Content Cards or web actions to different locations at the same time, each action containing a specific content.
 
   **Note**: Previously released in Limited Availability, this improvement is now available to all environments (General Availability).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111916">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-111916">Link to PRODUCT JIRA task</a>
 
 #### Orchestrated campaigns
 
 * **Select attributes and copy distribution values** - You can now select or copy values directly from the distribution of values view in orchestrated campaigns.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13973">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105244">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-105244">Link to PRODUCT JIRA task</a>
 
 * **Data usage label inheritance for audiences** - <strong>Data usage labels</strong> applied in Adobe Experience Platform now automatically carry over when saving audiences in orchestrated campaigns, reducing manual DULE tagging.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13972">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-120769">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-120769">Link to PRODUCT JIRA task</a>
 
 * **Predefined retargeting filters** - To support easier retargeting for orchestrated campaign use cases, this release introduces new <strong>retargeting filters</strong>. These filters let you directly target audiences based on message engagement, such as sent, opened only, opened or clicked, or opened and clicked, and select the specific campaign or in-transition campaign you want to retarget.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13971">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-116701">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-116701">Link to PRODUCT JIRA task</a>
 
 * **Predefined filters with parameters** - You can now create <strong>filters with parameters</strong> in orchestrated campaigns for reusable, editable rules.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13970">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-115431">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-115431">Link to PRODUCT JIRA task</a>
 
 * **Message confirmation before send** - A <strong>confirmation step</strong> is now enabled by default before sending orchestrated campaigns to reduce accidental sends.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13927">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-87219">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-87219">Link to PRODUCT JIRA task</a>
 
 * **User-generated metadata support** - The <strong>executionMetadata helper function</strong> is now available in the personalization editor for Orchestrated Campaigns, enabling you to attach contextual information to any native action and store it in a dataset for export to external systems.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13923">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-112697">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-112697">Link to PRODUCT JIRA task</a>
 
 * **Restart button** - Orchestrated campaigns now include a <strong>restart button</strong> so you can quickly re-launch runs when needed before publishing the campaign.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13920">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-106020">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-106020">Link to PRODUCT JIRA task</a>
 
 * **Rate control support** - Orchestrated campaigns now support <strong>rate control</strong> to help you pace deliveries and align with volume constraints.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13764">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113254">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-113254">Link to PRODUCT JIRA task</a>
 
 #### Permissions
 
 * **Prevent self-approval for journeys and campaigns** - You can now require that creators cannot approve their own journeys or campaigns, improving <strong>separation of duties</strong> in approval workflows.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13472">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99957">Link to PRODUCT JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95676">Link to PRODUCT JIRA task</a>
+  <a href="https://jira.corp.adobe.com/browse/CJM-99957">Link to PRODUCT JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95676">Link to PRODUCT JIRA task</a>
 
 ## Coming soon {#jan-26-01-coming-soon}
 
@@ -642,7 +621,7 @@ In the next few days, the following capabilities and enhancements are scheduled 
 <tr>
 <td>
 <p>Powered by Adobe Experience Platform Agent Orchestrator, <strong>Journey Agent</strong> is available in Journey Optimizer and enables you to analyze journeys through a natural language interface. You can now also generate and manage channel-specific content directly in Journey Agent, creating content for channels such as email and push, applying and previewing templates, refining tone and style through prompts, and opening content in Content Designer for in-context editing.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111882">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-111882">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: February 2, 2026</p>
 </td>
 </tr>
@@ -659,7 +638,7 @@ In the next few days, the following capabilities and enhancements are scheduled 
 <tr>
 <td>
 <p>You can now include <strong>personalized offers</strong> in your journeys through a dedicated Content decision activity in the journey canvas, and use them in journey activities, including conditions and custom actions.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Link to PRODUCT JIRA task</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/CJM-99223">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: February 3, 2026</p>
 </td>
 </tr>
