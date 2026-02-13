@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
+source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 31%
+source-wordcount: '1524'
+ht-degree: 36%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 31%
 <p>您可以排程來自<strong>行銷活動</strong>或<strong>歷程</strong>的傳出訊息，以控管的<strong>批次</strong>隨時間傳遞。</p>
 <p>波次傳送提供下列優點：</p>
 <ul>
-<li>更好的<strong>傳遞能力</strong> — 隨著時間推移散佈傳送，以協助維持強大的<strong>寄件者信譽</strong>，並降低被標示為垃圾郵件的風險。</li>
+<li>更好的<strong>傳遞能力</strong> — 隨著時間推移散佈傳送，以協助維持強大的寄件者信譽，並降低被標示為垃圾郵件的風險。</li>
 <li><strong>載入控制項</strong> — 藉由限制一次傳出的訊息數目，避免造成下游系統（例如客服中心、登陸頁面）負擔過重。</li>
 <li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
 </ul>
@@ -67,7 +67,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用<strong>公式</strong>和<strong>AI模型</strong>，根據客戶設定檔屬性和內容因素，自動提升<strong>歷程優先順序分數</strong>，確保客戶進入最相關的歷程。</p>
+<p>您現在可以使用<strong>公式</strong>和<strong>AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
@@ -83,7 +83,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過<strong>自然語言介面</strong>分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p><strong>即時活動</strong>提供<strong>行動應用程式中的即時更新</strong>和互動式體驗，讓使用者直接在裝置熒幕上即時瞭解進行中的事件或工作。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。</p>
+<p><strong>已上線的活動</strong>可在行動應用程式中提供即時更新和互動式體驗，讓使用者直接在裝置熒幕上掌握進行中事件或工作的最新資訊。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。</p>
 <p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
 </td>
 </tr>
@@ -114,7 +114,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和<strong>多重動作輸入動作群組</strong>，以簡化<strong>歷程畫布</strong>中的動作設定。 尤其是這項新功能允許：</p>
+<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和多動作傳入動作群組，以簡化歷程畫布中的動作設定。 尤其是這項新功能允許：</p>
 <ul>
 <li>簡化歷程畫布中的原生動作設定。</li>
 <li>容量用來建立多動作傳入動作群組。</li>
@@ -136,7 +136,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您利用行動推播可用的相同<strong>編寫工作流程</strong>和<strong>目標定位功能</strong>，即時與使用者互動並即時提供個人化訊息。</p>
+<p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
 <p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
 <p>推出日期： 2026年2月13日</p>
 </td>
@@ -153,7 +153,7 @@ ht-degree: 31%
 <tbody>
 <tr>
 <td>
-<p>新的<strong>內容決定活動</strong>現在可在<strong>歷程畫布</strong>中使用，以將<strong>個人化優惠</strong>直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
+<p>歷程畫布現在提供新的<strong>內容決定活動</strong>，可將個人化優惠直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
@@ -230,38 +230,38 @@ ht-degree: 31%
 * **歷程運算式中的體驗事件使用方式** — 自2026年4月1日起，過去90天內未使用此功能的組織將不再支援在歷程運算式中使用體驗事件屬性。 自2025年7月8日起，新客戶組織已無法使用此功能。 如需其他選擇，請參閱歷程中的[體驗事件查閱](../building-journeys/exp-event-lookup.md)。
 
 
-* **子網域委派方法切換** — 您現在可以從一個<strong>子網域委派</strong>方法切換到另一個方法。 這可讓您使用<strong>CNAME委派</strong>模式將網域移轉至<strong>自訂委派</strong>方法，以遵守您公司的安全性原則。
+* **子網域委派方法切換** — 您現在可以從一個子網域委派方法切換到另一個子網域委派方法。 這可讓您使用CNAME委派模式將網域移轉至自訂委派方法，以遵守您公司的安全性原則。
 
   **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 
 #### 電子郵件設計工具
 
-* **使用品牌主題將影像轉換為電子郵件範本** — 在Journey Optimizer中將影像轉換為電子郵件範本時，您現在可以使用<strong>主題</strong>作為輸入，讓產生的HTML遵循您的<strong>品牌引數</strong>。 系統會自動套用背景顏色、按鈕顏色、字型、行距、邊界及邊框間距等樣式，減少手動設計工作，並提供可立即使用且只需少量編輯的範本。
+* **使用品牌主題將影像轉換為電子郵件範本** — 在Journey Optimizer中將影像轉換為電子郵件範本時，您現在可以使用主題作為輸入，讓產生的HTML遵循您的品牌引數。 系統會自動套用背景顏色、按鈕顏色、字型、行距、邊界及邊框間距等樣式，減少手動設計工作，並提供可立即使用且只需少量編輯的範本。
 
 
-* **使用新的顏色標籤更新品牌** - <strong>品牌准則</strong>可協助確保您的品牌在所有接觸點上呈現一致。 新的<strong>顏色區段</strong>定義了您品牌顏色系統的標準，概述如何跨體驗選擇、整理和套用顏色。它可確保主色、次色、輔色和中性色的一致使用，以支援一致、可存取且可辨識的品牌識別。
+* **使用新的顏色索引標籤更新品牌** - 品牌指引有助於確保您的品牌在所有接觸點上保持一致的呈現。新的色彩區段會定義您品牌色彩系統的標準，概述如何在體驗間選擇、組織及套用色彩。 它可確保主色、次色、輔色和中性色的一致使用，以支援一致、可存取且可辨識的品牌識別。
 
 
 #### AI
 
-* **整合自訂Firefly模型與協力廠商影像產生模型** — 可緊密整合標準與自訂<strong>Firefly模型</strong>，以及核准的<strong>協力廠商影像模型</strong> （例如NanoBanana），以便在產生影像時提供更大的彈性、控制力與品牌一致性。 這可讓您為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。
+* **整合自訂Firefly模型與協力廠商影像產生模型** — 可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型（例如NanoBanana），以便在產生影像時提供更大的彈性、控制力及品牌一致性。 這可讓您為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。
 
 
 #### 體驗決策
 
-* **在決策中使用Adobe Experience Platform資料的Edge傳入支援** - <strong>Experience Platform資料查詢</strong>的決策支援現在包含<strong>邊緣傳入</strong>管道使用案例。 此功能仍維持有限可用性；尚未公告基礎資料查詢功能的一般可用性(AEP/產品相依性)。
+* **在決定中使用Adobe Experience Platform資料的Edge傳入支援** — 在決定中使用Adobe Experience Platform資料時，除了歷程中的電子郵件和自訂動作之外，現在還能支援邊緣傳入使用案例。
 
   **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 
-* **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用<strong>程式碼型體驗</strong>管道設定<strong>Experience Decisioning</strong>時預覽<strong>決定專案</strong>。 上線之前，可以直接在編寫介面中使用預覽。
+* **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用程式碼型體驗管道設定Experience Decisioning時預覽決定專案。 上線之前，可以直接在編寫介面中使用預覽。
 
 
-* **優惠排名AI模型可觀察性** — 現在Journey Optimizer可讓您在Decisioning中監視<strong>AI模型</strong>的<strong>健康情況</strong>、<strong>訓練狀態</strong>和<strong>效能</strong>，以便您驗證訓練成功、疑難排解失敗，並瞭解對您結果的影響。 此功能僅適用於個人化最佳化模型（而非自動最佳化）。
+* **優惠排名AI模型可觀察性** — 現在Journey Optimizer可讓您在Decisioning中監視AI模型的健康情況、訓練狀態和效能，以便您驗證訓練成功、疑難排解失敗，並瞭解對您結果的影響。 此功能僅適用於個人化最佳化模型（而非自動最佳化）。
 
 
-* **將片段附加至決定專案** - Journey Optimizer現在提供將<strong>片段</strong>附加至<strong>決定專案</strong>的功能，這些可在程式碼型體驗行銷活動中透過<strong>決定原則</strong>運用。
+* **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過策定原則用於程式碼型體驗行銷活動。
 
   **注意**：此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。
 
@@ -270,7 +270,7 @@ ht-degree: 31%
 
 #### 歷程
 
-* **歷程中的多個輸入動作** — 為簡化歷程協調，您現在可以在單一歷程中定義數個<strong>輸入動作</strong>。 這項功能先前可在行銷活動中使用，可讓您將多個<strong>程式碼型體驗</strong>、<strong>應用程式內訊息</strong>、<strong>內容卡</strong>或<strong>網頁動作</strong>同時傳送至不同位置，每個動作都包含特定內容。
+* **歷程中有多個傳入動作** - 為簡化歷程協調，您現在可以在單一歷程中定義數個傳入動作。此功能先前在行銷活動中提供，可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，每個動作都包含特定內容。
 
   **注意**：此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。
 
