@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36152f1b57731c1ee9a5a121056746e8013b2043
+source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
 workflow-type: tm+mt
 source-wordcount: '1537'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p><strong>即時活動</strong>提供<strong>行動應用程式中的即時更新</strong>和互動式體驗，讓使用者直接在裝置熒幕上即時瞭解進行中的事件或工作。 此功能可透過提供即時資訊 (例如進度追蹤、事件更新或互動式內容) 來提高參與度，而不需要使用者開啟應用程式。</p>
-<p>先前以Beta版發行，此功能現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
+<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
 </td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您利用行動推播可用的相同<strong>編寫工作流程</strong>和<strong>目標定位功能</strong>，即時與使用者互動並即時提供個人化訊息。</p>
-<p>先前以Beta版發行，此功能現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
+<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
 <p>推出日期： 2026年2月13日</p>
 </td>
 </tr>
@@ -154,9 +154,9 @@ ht-degree: 29%
 <tr>
 <td>
 <p>新的<strong>內容決定活動</strong>現在可在<strong>歷程畫布</strong>中使用，以將<strong>個人化優惠</strong>直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
-<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 <p>推出日期： 2026年2月11日</p>
 </td>
 </tr>
@@ -196,7 +196,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>insight透過新的<strong>監視儀表板</strong>和豐富的<strong>歷程步驟事件資料</strong>，更深入瞭解<strong>自訂動作端點</strong>的健全狀況和效能。 追蹤成功的呼叫、錯誤、輸送量、回應時間和佇列等待時間，以快速瞭解異常情況發生的時間、地點和原因。</p>
-<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（<strong>一般可用性</strong>）。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>如需詳細資訊，請參閱<a href="../action/reporting.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 2 月 3 日</p>
 </td>
