@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 36152f1b57731c1ee9a5a121056746e8013b2043
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 29%
@@ -27,7 +27,7 @@ ht-degree: 29%
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2026年2月發行說明 {#feb-26-01-rn}
+## 2026年2月發行前注意事項 {#feb-26-01-rn}
 
 **至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
 
