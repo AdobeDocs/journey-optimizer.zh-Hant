@@ -59,7 +59,7 @@ ht-degree: 14%
 
 * **事件條件和結構描述資料型別** — 請確定事件條件（規則）中使用的資料型別符合事件結構描述。 不相符的型別（例如，字串與整數）會導致規則評估失敗並捨棄事件。 請參閱[驗證事件身分](#verify-event-identity-and-rule-data-types)。
 
->>
+&#x200B;>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
