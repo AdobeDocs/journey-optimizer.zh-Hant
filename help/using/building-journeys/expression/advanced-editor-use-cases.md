@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: 運算式、條件、使用案例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 2%
   ```
 
 從該位置，您可以在歷程中針對產品不在商店時新增另一個路徑，並傳送包含參與選件的通知。 相應地設定訊息，並使用個人化資料來增強訊息目標。
+
+## 運算式中的時間戳記篩選
+
+參考多個購物車活動事件時，請指定開始和結束時間戳記視窗，以避免擷取歷史資料。 例如：
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## 使用進階運算式編輯器的字串處理範例
 
