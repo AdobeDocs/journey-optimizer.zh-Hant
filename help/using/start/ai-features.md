@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1755'
 ht-degree: 3%
 
 ---
@@ -105,7 +106,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程建立技能 {#journey-create-skill}
 
-[歷程建立代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
 
 +++**主要功能**
 
@@ -125,7 +126,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 +++
 
-### 實驗代理程式 {#experimentation-agent}
+### Experimentation Agent {#experimentation-agent}
 
 [Experimentation Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}可讓您跨網站、電子郵件、推播訊息和應用程式執行和管理數位實驗的方式，以現代化方式呈現：
 
@@ -170,6 +171,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 ### 主要功能
 
+* **產生完整內容** — 以單一流程產生電子郵件、網頁、登入頁面和推播的完整內容體驗（文字和影像）。 [使用AI助理產生完整內容](../content-management/generative-full-content.md)
 * **文字產生** — 根據您的品牌語調和目標建立吸引人的復本。 [使用AI產生文字](../content-management/generative-text.md)
 * **影像產生** — 使用Adobe Firefly產生自訂影像。 [使用AI產生影像](../content-management/generative-image.md)
 * **內容變數** — 產生A/B測試的多個變數。 [使用AI的內容實驗](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 ### 最佳做法
 
-* **明確** — 提供清晰、詳細的提示，以獲得更好的結果
+* **明確** — 提供清晰、詳細的提示，以獲得更好的結果。 [瞭解提示最佳實務](../content-management/ai-assistant-prompting-guide.md)
 * **上傳品牌資產** — 使用PDF、影像或ZIP檔案（最多50MB）來維持品牌一致性
 * **使用自訂範本** — 使用最多8至10個影像的品牌特定範本
 * **提供意見回饋** — 速率輸出以協助改善AI模型
@@ -269,7 +271,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 使用AI支援的轉換技術，將靜態影像設計(JPEG、PNG)轉換為可編輯的HTML電子郵件範本。
 
 [進一步瞭解影像至HTML](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+與Adobe GenStudio for Performance Marketing整合以建立AI支援的電子郵件內容，並將範本匯入Journey Optimizer以進行協調。 將Journey Optimizer範本匯出至GenStudio、使用AI產生變數，並帶回以進行部署。 （可用性限制，僅限電子郵件通道。）
+
+[進一步瞭解GenStudio](../integrations/genstudio.md)
 
 ### 品牌一致性分數
 
