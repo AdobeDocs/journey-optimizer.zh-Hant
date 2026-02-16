@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: dd8fd1099344257a72e9f7f18ef433d35def6689
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 14%
+source-wordcount: '1938'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -59,12 +59,14 @@ ht-degree: 14%
 
 * **事件條件和結構描述資料型別** — 請確定事件條件（規則）中使用的資料型別符合事件結構描述。 不相符的型別（例如，字串與整數）會導致規則評估失敗並捨棄事件。 請參閱[驗證事件身分](#verify-event-identity-and-rule-data-types)。
 
-&#x200B;>>
+* **已捨棄事件 — 不符合資格條件** — 對於規則型事件，如果事件裝載不符合&#x200B;**資格條件** （例如，必要欄位空白或遺失，或欄位上的條件`isNotEmpty`失敗），則事件為&#x200B;**已接收但已捨棄**，且未觸發歷程。 記錄檔和Splunk追蹤可顯示已接收事件但已捨棄該事件，因為它不符合資格條件，並含有捨棄程式碼，例如`notSuitableInitialEvent`。 這是預期行為：若不符合資格條件，將會捨棄事件，且不會為該設定檔觸發歷程。 確認事件裝載包含預期的欄位和值，並確認事件設定中的規則符合您傳送的資料。 如果事件是由另一個歷程的&#x200B;**自訂動作**&#x200B;所觸發，請參閱自訂動作疑難排解中的[處理捨棄事件和閒置逾時](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
+
+>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
 
-設定事件型歷程時，請確認裝載的身分欄位符合在事件[中選取的](../event/about-creating.md#select-the-namespace)名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。
+設定事件型歷程時，請確認裝載的身分欄位符合在事件[中選取的](../event/about-creating.md#select-the-namespace)名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。 同樣地，如果事件具有&#x200B;**資格條件** （例如，欄位必須是非空白的），則不符合該條件的事件為&#x200B;**捨棄**，且不會觸發歷程；記錄檔可能會顯示捨棄的程式碼，例如`notSuitableInitialEvent`。
 
 若要在[!DNL Journey Optimizer]中驗證您的事件條件，請在事件設定中使用裝載預覽，並確保規則中的型別和值符合裝載結構。 瞭解如何[預覽承載](../event/about-creating.md#preview-the-payload)和[設定規則型事件](../event/about-creating.md)。
 
