@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 38%
+source-wordcount: '503'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 在本節中，瞭解如何在測試或發佈之前疑難排解歷程。 下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。在[此頁面](../building-journeys/testing-the-journey.md)上進一步瞭解測試模式。
 
-瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何瀏覽歷程，以及是否在此頁面[傳送](troubleshooting-execution.md)訊息。
+瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何瀏覽歷程，以及是否在此頁面[傳送](troubleshooting-execution.md)訊息。 如果儘管已擷取事件，但沒有設定檔進入您的事件型歷程，請確定[事件條件資料型別符合事件結構描述](troubleshooting-execution.md#verify-event-identity-and-rule-data-types)。
 
 如果您使用輸入動作，請在此頁面[瞭解如何疑難排解](troubleshooting-inbound.md)。
 
