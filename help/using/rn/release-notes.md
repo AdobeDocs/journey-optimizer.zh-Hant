@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
+source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 40%
+source-wordcount: '1463'
+ht-degree: 38%
 
 ---
 
@@ -154,28 +154,11 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至行動瀏覽器和桌面瀏覽器，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
-<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
-<p>推出日期： 2026年2月13日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>網頁推播通知管道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
 <p>Adobe Journey Optimizer 現在支援<strong>網頁推播通知</strong>，將推播管道擴展至行動裝置以外。您可以順暢地將通知傳送至<strong>行動瀏覽器和桌面瀏覽器</strong>，讓您無需應用程式即可直接在其裝置上聯絡客戶。此增強功能可讓您運用行動推播中現有的相同製作工作流程和目標定位功能，透過即時的個人化訊息與使用者互動。</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>此功能先前在Beta中發行，現在可供所有環境使用（全面發佈）。</p>
 <p>如需詳細資訊，請參閱<a href="../push/push-configuration-web.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年2月11日</p>
+<p>推出日期： 2026年2月13日</p>
 </td>
 </tr>
 </tbody>
