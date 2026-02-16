@@ -11,7 +11,7 @@ keywords: 歷程，行銷活動，已協調，比較，選擇，決定，工作�
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
+source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 3%
@@ -235,7 +235,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 我可以在行銷策略中結合歷程和行銷活動嗎？
 
-可以。大多陣列織會針對不同情境使用所有四種方法：
+可以。許多組織針對不同情境使用所有四種方法：
 
 * **行為即時參與歷程**
 * 針對排程的廣播通訊&#x200B;**動作行銷活動**
