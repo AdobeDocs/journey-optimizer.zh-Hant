@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -114,7 +114,7 @@ Journey Dirun提供：
 也可以手動停止練習歷程。 若要停用「試執行」模式，請執行下列步驟：
 
 1. 開啟您要停止的練習歷程。
-1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以結束測試。
+1. 選取&#x200B;**[!UICONTROL 關閉]**按鈕以結束測試。
 確認畫面中提供過去24小時與所有時間報表的連結。
 
    ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%" align="left"}
@@ -128,8 +128,8 @@ Journey Dirun提供：
 * 處於試執行模式的歷程計入即時歷程配額
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。
-當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+* 在練習中未啟用&#x200B;**跳轉**動作。
+當來源歷程觸發到目的地歷程的**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 
@@ -137,16 +137,16 @@ Journey Dirun提供：
 
 ![歷程試執行結構描述屬性](assets/dry-run-attributes.png)
 
-* 如果已啟動試運行，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，否則會傳回`false`
-* `_experience.journeyOrchestration.stepEvents.dryRunID`傳回試執行個體的識別碼
+* 當歷程處於試執行模式時，`_experience.journeyOrchestration.stepEvents.inDryRun`會傳回`true`，而測試或即時歷程（非試執行）會傳回`null`。
+* 在試執行模式時，`_experience.journeyOrchestration.stepEvents.dryRunID`會傳回試執行個體的識別碼；對於測試或即時歷程，則是`null`。
 
 
 如果您將stepEvent資料匯出至&#x200B;**外部系統**，則可以使用`inDryRun`標幟來篩選試執行專案。
 
-使用&#x200B;**查詢服務分析**&#x200B;歷程報告量度[!DNL Adobe Experience Platform]時，必須排除練習產生的步驟事件。 若要執行此動作，請將`inDryRun`標幟設定為`false`。
+使用&#x200B;**查詢服務分析**&#x200B;歷程報告量度[!DNL Adobe Experience Platform]時，必須排除練習產生的步驟事件。 若要這麼做，請排除`inDryRun`為`true`的步驟事件（亦即僅包含`inDryRun`為`null`或`false`的事件）。
 
 ## 作法影片 {#dry-run-video}
 
 透過此影片瞭解如何練習您的歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464693/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
