@@ -11,9 +11,9 @@ keywords: 歷程，行銷活動，已協調，比較，選擇，決定，工作�
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 3%
 
 ---
@@ -288,4 +288,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 >* [促銷活動型別比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [歷程常見問題集](../building-journeys/journey-faq.md)
 >* [協調的行銷活動常見問題集](../orchestrated/orchestrated-campaigns-faq.md)
->* [最佳實務](best-practices.md) — 即時使用案例和透過護欄縮放
