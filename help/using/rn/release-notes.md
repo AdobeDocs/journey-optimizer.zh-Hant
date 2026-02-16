@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1552'
 ht-degree: 38%
 
 ---
@@ -251,7 +251,7 @@ ht-degree: 38%
 * **歷程運算式中的體驗事件使用方式** — 自2026年4月1日起，過去90天內未使用此功能的組織將不再支援在歷程運算式中使用體驗事件屬性。 自2025年7月8日起，新客戶組織已無法使用此功能。 如需其他選擇，請參閱歷程中的[體驗事件查閱](../building-journeys/exp-event-lookup.md)。
 
 
-* **子網域委派方法切換** — 您現在可以從一個子網域委派方法切換到另一個子網域委派方法。 這可讓您使用CNAME委派模式將網域移轉至自訂委派方法，以遵守您公司的安全性原則。
+* **將子網域移轉至自訂委派** — 您現在可以使用CNAME委派模式，直接從介面將子網域移轉至自訂委派，這樣您就可以符合公司指引的更嚴格安全性原則，而不需要重新建立管道設定。
 
   **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
 
