@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 10b0c74cec659242e088ae1a50d4db99d40e30fb
+source-git-commit: 21d35a2e9039655a5715effe3fbecda49beee42d
 workflow-type: tm+mt
-source-wordcount: '5312'
-ht-degree: 90%
+source-wordcount: '3330'
+ht-degree: 84%
 
 ---
 
@@ -250,174 +250,177 @@ ht-degree: 90%
 
 * 已更新「指派優先順序分數」頁面，其中包含在&#x200B;**動作**&#x200B;活動中定義傳入頻道動作的優先順序分數的特定步驟。[閱讀全文](../conflict-prioritization/priority-scores.md#priority-action)
 
-## 2025 年 8 月 {#august-2025}
+<!--
+## August 2025 {#august-2025}
 
-* 新增了一個頁面，其中列出使用 [!DNL Journey Optimizer] 設計無障礙電子郵件和登陸頁面內容的最佳做法。[閱讀全文](../email/accessible-content.md)
+* A new page listing the best practices for designing accessible email and landing page content with [!DNL Journey Optimizer] was added. [Read more](../email/accessible-content.md)
 
-* 已更新歷程中的補充識別碼文件，其說明如下：
+* The documentation for supplemental identifiers in journeys has been updated with the following clarifications:
 
-   * 將補充識別碼新增到結構描述後，必須建立新事件 (適用於事件觸發的歷程) 或新欄位群組 (適用於讀取客群歷程)。現有實體不會自動重新整理，且將無法識別新識別碼。
+    * After adding a supplemental identifier to a schema, a new event (for event-triggered journeys) or a new field group (for Read audience journeys) must be created. Existing entities do not refresh automatically and will not recognize the new identifier.
 
-   * 補充識別碼不會根據資料使用標籤和實作 (DULE) 原則驗證，並且在歷程中的資料治理檢查期間不予考慮。
+    * Supplemental identifiers are not validated against Data Usage Labeling & Enforcement (DULE) policies and are not considered during data governance checks in journeys.
 
-[閱讀全文](../building-journeys/supplemental-identifier.md)
+        [Read more](../building-journeys/supplemental-identifier.md)
 
-* 行銷活動中的最佳化頁面已更新，以反映最佳化，現在也可用於歷程的事實。[閱讀全文](../content-management/gs-message-optimization.md)
+* The Optimization in campaigns page was updated to reflect the fact that optimization is now also available in journeys. [Read more](../content-management/gs-message-optimization.md)
 
-* 已新增教學課程影片的連結，說明如何在行銷活動中運用訊息最佳化。[閱讀全文](../content-management/gs-message-optimization.md)
+* A link to the tutorial video describing how to leverage message optimization in a campaign was added. [Read more](../content-management/gs-message-optimization.md)
 
-## 2025 年 7 月 {#july-2025}
+## July 2025 {#july-2025}
 
-* 行銷活動介面目前提供兩種個別分頁： **動作**&#x200B;和&#x200B;**觸發的 API**。 據此已更新說明文件，已將每種行銷活動類型的資訊整理到專屬章節，以便改善清晰度和易用性。 [閱讀全文](../campaigns/get-started-with-campaigns.md)
+* The campaigns interface now features two separate tabs: **Action** and **API Triggered**. The documentation has been updated accordingly, with information for each campaign type organized into dedicated sections to improve clarity and usability. [Read more](../campaigns/get-started-with-campaigns.md)
 
-* [開始使用子網域委派](../configuration/about-subdomain-delegation.md)和[委派子網域](../configuration/delegate-subdomain.md)頁面已更新，以便更清楚地呈現不同的委派方法以及設定它們的步驟。
+* The [Get started with subdomain delegation](../configuration/about-subdomain-delegation.md) and [Delegate a subdomain](../configuration/delegate-subdomain.md) pages have been updated to better present the different delegation methods and the steps to set them up.
 
-* 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[了解更多](../content-management/create-fragments.md#content)
+* A note has been added to the Fragments section, specifying that when tracking is enabled in a journey or a campaign, if links are present in a fragment and if this fragment is used in a message, these links are tracked such as all other links included in the message. [Learn more](../content-management/create-fragments.md#content)
 
-* 在 Journey Optimizer 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。[閱讀全文](../configuration/delegate-subdomain.md#guardrails)
+* The guardrails and limitations applying to subdomain delegation in Journey Optimizer have been enriched and consolidated into one dedicated section. [Read more](../configuration/delegate-subdomain.md#guardrails)
 
-* 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。[閱讀全文](../offers/offer-library/creating-fallback-offers.md)
+* A note has been added to the Create fallback offers and Create decision pages to mention that fallback offers should contain all representations used within a decision. [Read more](../offers/offer-library/creating-fallback-offers.md)
 
-* 已擴充套用至片段的護欄。[閱讀全文](../start/guardrails.md#fragments-guardrails)。
+* The guardrails applying to fragments have been enriched. [Read more](../start/guardrails.md#fragments-guardrails).
 
-* 已新增附註，以指定新增至訊息的連結在 25 個月後到期，而鏡像頁面的連結在 90 天後到期。[閱讀全文](../email/message-tracking.md)
+* A note has been added to specify that links added to messages expire after 25 months and links to mirror pages after 90 days. [Read more](../email/message-tracking.md)
 
 <!--* The possible email error types that could happen upon sending email deliveries with are now listed in a dedicated section. [Read more](../configuration/email-error-types.md)-->
 
-## 2025 年 6 月 {#june-2025}
+<!--
+## June 2025 {#june-2025}
 
-* 新增章節，說明如何使用 HTML 元件，在可自訂的片段中新增及使用富文字 (例如分行符號、粗體、斜體等)。[閱讀全文](../content-management/customizable-fragments.md#rich-text)
+* Added a new section on how to add and use rich text such as line breaks, bold, italics etc., to customizable fragments by using HTML components. [Read more](../content-management/customizable-fragments.md#rich-text)
 
-* 決策部分已更新，其中包含專用於建立 AI 模型的特定區段。[閱讀全文](../experience-decisioning/ranking/ai-models.md)
+* The Decisioning part has been updated with a specific section dedicated to building AI models. [Read more](../experience-decisioning/ranking/ai-models.md)
 
-* 新增在 journeyStep 事件動作中使用 `actionExecutionTime` 欄位的建議。[閱讀全文](../reports/sharing-execution-fields.md#actionexecutiontime-field)
+* Added a recommendation about the usage of the `actionExecutionTime` field in the journeyStep events action. [Read more](../reports/sharing-execution-fields.md#actionexecutiontime-field)
 
-* 已新增關於 `messageID` 的備註，該備註可能不會對於每個個別傳遞都是唯一的。[閱讀全文](../data/datasets-query-examples.md)
+* Added a note about the `messageID` which may not be unique for each individual delivery. [Read more](../data/datasets-query-examples.md)
 
-* 新增有關資料衛生操作中歷史事件管理的建議。[閱讀全文](../privacy/data-hygiene.md#data-hygiene-recommendations)
+* Added a recommendation about historical events management in data hygiene operations. [Read more](../privacy/data-hygiene.md#data-hygiene-recommendations)
 
-* 新增不支援在沙箱之間移轉之登陸頁面的護欄。[閱讀全文](../configuration/copy-objects-to-sandbox.md#global)
+* Added a guardrail about landing pages not being supported for migration between sandboxes. [Read more](../configuration/copy-objects-to-sandbox.md#global)
 
-* 針對自訂動作的自訂驗證不支援巢狀 JSON 物件，新增警示說明。[閱讀全文](../datasource/external-data-sources.md)
+* Added a caution note about nested JSON objects not supported in custom authentication for custom actions. [Read more](../datasource/external-data-sources.md)
 
-* 在電子郵件設計工具中新增條件式內容變體命名的警告說明。[閱讀全文](../personalization/create-conditions.md)
+* Added a caution note about conditional content variant naming in the Email designer. [Read more](../personalization/create-conditions.md)
 
-* 更新「取消委派登陸頁面子網域」區段。[閱讀全文](../landing-pages/lp-subdomains.md#undelegate-subdomain)
+* Updated the "Undelegate a landing page subdomain" section. [Read more](../landing-pages/lp-subdomains.md#undelegate-subdomain)
 
-* 釐清使用補充性識別碼時的歷程重新進入規則。[閱讀全文](../building-journeys/supplemental-identifier.md#guardrails)
+* Clarified journey reentrance rules when using supplemental identifiers. [Read more](../building-journeys/supplemental-identifier.md#guardrails)
 
-* 新增附註，說明在事件設定期間選取補充性識別碼屬性時，必須在進階模式中使用運算式編輯器。[了解更多](../building-journeys/supplemental-identifier.md#add)
+* Added a new note to clarify that you must use the expression editor in Advanced mode when selecting the supplemental identifier attribute during event configuration. [Learn more](../building-journeys/supplemental-identifier.md#add)
 
-* 已新增歷程重新進入如何處理補充性識別碼的說明。[了解更多](../building-journeys/supplemental-identifier.md#guardrails)
+* Added clarification on how journey reentrance works with supplemental identifiers. [Learn more](../building-journeys/supplemental-identifier.md#guardrails)
 
-## 2025 年 5 月 {#may-2025}
+## May 2025 {#may-2025}
 
-* 目前已經可以到「連線系統和環境」區段那邊，使用 Journey Optimizer 提供的 Adobe 整合功能。[閱讀全文](../integrations/ajo-integrations.md)
+* Adobe integrations available with Journey Optimizer are now listed in the "Connect your systems and environments" section. [Read more](../integrations/ajo-integrations.md)
 
-* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。[閱讀全文](../integrations/content-integrations.md)
+* The content integrations are now grouped in the Content Management section. [Read more](../integrations/content-integrations.md)
 
-* 已更新 Adobe Experience Platform 和 Journey Optimizer 的架構圖。 [閱讀全文](../start/get-started.md#architecture)
+* Architecture diagrams for Adobe Experience Platform and Journey Optimizer have been updated. [Read more](../start/get-started.md#architecture)
 
-* 新增有關個人化編輯器遊樂場的影片，以便幫助您瞭解如何使用樣本資料，編寫並測試個人化程式碼。 [閱讀全文](../personalization/personalize.md#video-perso)
+* Added a video about the personalization editor playground to help you learn how to write and test personalization code using sample data. [Read more](../personalization/personalize.md#video-perso)
 
-* 種子清單上允許的頁數上限已從 50 頁提高至 300 頁。[閱讀全文](../configuration/seed-lists.md#create-seed-list)
+* The maximum number of addresses in a seed list has been increased from 50 to 300. [Read more](../configuration/seed-lists.md#create-seed-list)
 
-* [建立決定原則] 頁面已加入新步驟，會詳細說明當使用程式碼型體驗編輯器中的決定原則時，該如何繞排程式碼。 [閱讀全文](../experience-decisioning/create-decision.md#create-decision)
+* A new step detailing how to wrap code when using decision policies in the code-based experience editor has been added to the Create decision policies page. [Read more](../experience-decisioning/create-decision.md#create-decision)
 
-* 已在程式碼型體驗檔案中新增備註，如此一來，當您在同一個表面上執行多個程式碼型體驗動作時，如果使用者符合多重動作的資格，行銷活動或歷程的優先順序分數就會決定要傳遞哪些內容給他們參考。[閱讀全文](../code-based/code-based-surface.md#surface-definition)
+* A note has been added to the Code-based experiences documentation to specify that when you have multiple code-based experience actions running on the same surface, the campaign or journey's priority score determines what is delivered to the end-user if they qualify for more than one action. [Read more](../code-based/code-based-surface.md#surface-definition)
 
-* 有關在歷程中的疑難排解傳入動作新頁面上，提供逐步指南這件事，讓您可以在聯絡支援之前，先獨立找出問題所在，及時解決問題。[閱讀全文](../building-journeys/troubleshooting-inbound.md)
+* A new page on troubleshooting inbound actions in journeys provides a step-by-step guide to identify and resolve issues independently before reaching out to support. [Read more](../building-journeys/troubleshooting-inbound.md)
 
-* 已新增[頁面](../code-based/code-based-decisioning-implementations.md)，以便說明如何在程式碼型體驗中使用決策功能時，將下列標幟新增至用戶端實作：
+* A new [page](../code-based/code-based-decisioning-implementations.md) has been added to describe how to add the following flags to your client implementation when using decisioning in code-based experiences:
 
-   * 正在新增 `dryRun` 標幟，以便測試程式碼型體驗中的決策。[閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+    * Adding the `dryRun` flag to test decisioning in code-based experiences. [Read more](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * 請將重複資料刪除套用至程式碼型體驗中的決策請求。[閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+    * Apply deduplication to decisioning requests in code-based experiences. [Read more](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
-## 2025 年 4 月 {#apr-2025}
+## April 2025 {#apr-2025}
 
-* 設定章節現在分成三個章節： [頻道設定](../configuration/get-started-configuration.md)、[歷程設定](../configuration/about-data-sources-events-actions.md)以及[連線您的系統](../configuration/ajo-apis.md)。
-* 新增在歷程運算式和條件中使用體驗事件的警告備註。 [閱讀全文](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
-* 在直接郵件設定頁面新增了關於輸出檔案暫時儲存的備註。 [閱讀全文](../direct-mail/direct-mail-configuration.md)
-* 在歷程進階運算式編輯器章節新增條件格式指南的相關提示。 [閱讀全文](../building-journeys/expression/expressionadvanced.md)
-* 在 `inAudience` 函式區段新增重新命名對象時影響和最佳實務的警告注意事項。 [閱讀全文](../building-journeys/functions/functioninaudience.md)
-* 新增了使用雙向 SMS 時原生關鍵字用法的建議。 [閱讀全文](../sms/sms-opt-out.md)
-* 已更新歷程測試頁面，其中備註說明必須在使用的事件中包含身分命名空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
-* 目前您無法透過 [!UICONTROL Journey Optimizer] 使用者介面取消委派子網域，請洽詢您的 Adobe 代表。 已詳細說明立即取消委託子網域的步驟，包括[電子郵件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[簡訊](../sms/sms-subdomains.md#undelegate-subdomain)、[網頁體驗](../web/web-delegated-subdomains.md#undelegate-subdomain)和[登陸頁面](../landing-pages/lp-subdomains.md#undelegate-subdomain)。 <!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-* 已新增有關歷程上限 API 選用的 `maxHttpConnections` 參數說明，包括如何將其與相同端點的節流設定一起使用的指引。 [閱讀全文](../configuration/throttling.md)
-* 在「決策」區段新增指引，說明如果已核准的產品建議項目用於集合或決策，則無法刪除。包含使用&#x200B;**[!UICONTROL 復原核准]**&#x200B;選項將其狀態變更為「草稿」的步驟。 [閱讀全文](../experience-decisioning/items.md#manage)
-* 有關沙箱的資訊已歸類至新的「沙箱管理」區段。 這個新的區段提供如何使用和指派沙箱的相關資訊，以及如何使用套件匯出與匯入功能，在多個沙箱中複製物件，例如歷程、內容範本或片段。 [閱讀全文](../administration/sandboxes.md)
+* The Configuration chapter is now split into three chapters: [Channel configuration](../configuration/get-started-configuration.md), [Journey configuration](../configuration/about-data-sources-events-actions.md), and [Connect your systems](../configuration/ajo-apis.md).
+* Added a caution note about using experience events in journey expressions and conditions. [Read more](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* Added a note on the Direct mail configuration page about temporary storage of the output file. [Read more](../direct-mail/direct-mail-configuration.md)
+* Added a tip in the journey advanced expression editor section about the condition format guidelines. [Read more](../building-journeys/expression/expressionadvanced.md)
+* Added a caution note in the `inAudience` function section about impacts and best practices when renaming an audience. [Read more](../building-journeys/functions/functioninaudience.md)
+* Added a recommendation about the native keywords usage when using two-way SMS. [Read more](../sms/sms-opt-out.md)
+* Updated the journey test page with a note about the need for including an identity namespace in the event used. [Read more](../building-journeys/testing-the-journey.md)
+* Currently, you cannot undelegate subdomains through the [!UICONTROL Journey Optimizer] user interface - you must reach out to your Adobe representative. Steps to undelegate a subdomain are now detailed for [Emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [Web experiences](../web/web-delegated-subdomains.md#undelegate-subdomain), and [Landing pages](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+<!--
+* Added clarification about the optional `maxHttpConnections` parameter in the journeys Capping API, including guidance on how to use it alongside throttling configurations for the same endpoint. [Read more](../configuration/throttling.md)
+* In the Decisioning section, added guidance explaining that approved offer items cannot be deleted if they are used in a collection or a decision. Included steps to change their status to "Draft" using the **[!UICONTROL Undo approve]** option. [Read more](../experience-decisioning/items.md#manage)
+* Information on sandboxes have been grouped together into a new "Sandboxes management" section. This new section provides information on how to use and assign sandboxes, and how to use package export and import capabilitie to copy objects such as journeys, content templates, or fragments, across multiple sandboxes. [Read more](../administration/sandboxes.md)
 
-## 2025 年 3 月 {#mar-2025}
+## March 2025 {#mar-2025}
 
-* 已更新「客群資格篩選」事件的相關頁面，並新增建議。[閱讀全文](../building-journeys/audience-qualification-events.md)
-* 所有客戶現在都能使用自訂動作疑難排解功能 (GA)。[閱讀全文](../action/troubleshoot-custom-action.md)
-* 資料衛生現在是產品使用者介面的資料生命週期。 說明文件已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
-* 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
-* 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
-* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
-* Adobe Journey Optimizer 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
-* 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。[閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
-* 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
+* The page about Audience Qualification events has been updated with new recommendations. [Read more](../building-journeys/audience-qualification-events.md)
+* Custom action troubleshooting capability is now available to all customers (GA). [Read more](../action/troubleshoot-custom-action.md)
+* Data Hygiene is now Data Lifecycle in the product user interface. The documentation has been updated to reflect this change. [Read more](../privacy/data-hygiene.md)
+* The missing Landing Page built-in permissions have been added to the documentation. [Read more](../administration/ootb-permissions.md)
+* A note has been added about scheduling recurring campaigns. [Read more](../campaigns/create-campaign.md)
+* The section about inserting links and enabling tracking in an email message has been updated and reorganized. [Read more](../email/message-tracking.md)
+* The section about personalization capabilities into Adobe Journey Optimizer has been reorganized and improved. [Read more](../personalization/personalize.md)
+* Decision management API to list personalized offers has been updated with a sample to perform pagination if multiple personalized offers are missing from the response. [Read more](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* A new page gathering all information regarding the List unsubscribe feature has been created for improved clarity. [Read more](../email/list-unsubscribe.md)
+* The Frequency capping section has been updated with information on how the frequency capping counter is updated for the Decisioning and Batch Decisioning APIs, in addition to the Edge Decisioning API. [Read more](../offers/offer-library/add-constraints.md#frequency-capping)
 
-## 2025 年 2 月 {#feb-2025}
+## February 2025 {#feb-2025}
 
-* 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。[閱讀全文](../building-journeys/read-audience.md)
-* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
-* 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
-* 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
-* **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
-* 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
-* 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journeys-message.md)
-* 決策和決策管理區段新增了護欄與限制。
-   * [決策護欄與限制](../experience-decisioning/decisioning-guardrails.md)
-   * [決策管理護欄與限制](../offers/decision-management-guardrails.md)
-* 已在決策管理檔案中新增內容資料的新區段。 它提供如何在決策引擎中運用內容資料的資訊，例如，設計決策規則，要求作出決策請求時當下天氣為 ≥ 80 度。 [閱讀全文](../offers/context-data.md)
+* The Read Audience activity guardrails have been updated to specify that only one activity can be used in a journey and that it can target only one audience. [Read more](../building-journeys/read-audience.md)
+* Journey guardrails when using Adobe Campaign activities have been updated. [Read more](../start/guardrails.md#ac-g)
+* Steps to create your first journeys have been detailed, and links to documentation section have been added. [Read more](../building-journeys/journey-gs.md)
+* A new page is now available to detail the journey dashboard and filtering user interface. [Read more](../building-journeys/journey-ui.md)
+* Documentation for **[!UICONTROL Send-Time optimization]** and its related FAQ have been updated, improved and moved to a new dedicated page. [Read more](../building-journeys/send-time-optimization.md)
+* New guardrails have been added for journey events. [Read more](../start/guardrails.md#events-g)
+* The built-in channel actions page has been reorganized. [Read more](../building-journeys/journeys-message.md)
+* Guardrails & limitations have been added in the Decisioning and Decision management sections.
+    * [Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md)
+    * [Decision management guardrails & limitations](../offers/decision-management-guardrails.md)
+* A new section on context data has been added in the Decision management documentation. It provides information on how to leverage context data in the decisioning engine, for example to design a decision rule that requires the current weather to be ≥80 degrees at the time the decision request is made. [Read more](../offers/context-data.md)
 
-## 2025 年 1 月 {#jan-2025}
+## January 2025 {#jan-2025}
 
-* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。[閱讀全文](../email/email-settings.md#execution-address)
+* A new section on the **[!UICONTROL Execution address]** option in the email configuration has been added. The primary address is defined at the sandbox level, but the default setting can be overidden for a specific email configuration. [Read more](../email/email-settings.md#execution-address)
 
-* **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。[閱讀全文](../reports/deliverability.md#reputation)
+* The **Get started with deliverability** page has been updated with the possibility to create IP warmup workflows directly from the user interface. [Read more](../reports/deliverability.md#reputation)
 
-* **標頭參數**&#x200B;區段已更新，以反映使用者介面的新標籤和變更。[閱讀全文](../email/email-settings.md#email-header)
+* The **Header parameters** section has been updated to reflect the new labels and changes in the user interface. [Read more](../email/email-settings.md#email-header)
 
-* **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至這個轉寄電子郵件地址。如果未指定轉寄電子郵件，這些電子郵件將被捨棄。[閱讀全文](../email/email-settings.md#email-settings)
+* The **Forward email** section has been updated to specify that all emails sent to the **From email** address are forwarded to the forward email address. If no forward email is specified, these emails are discarded. [Read more](../email/email-settings.md#email-settings)
 
-* 傳遞至 API 觸發之行銷活動要求中的內容屬性大小上限已更新為 200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
+* The maximum size of contextual attributes passed into an API-triggered campaign request has been updated to 200kb. [Read more](../campaigns/api-triggered-campaigns.md#contextual)
 
-* 已對&#x200B;**管理章節**&#x200B;頁面新增一個區段，以說明如何將新屬性新增至即時片段中。 整個頁面也得到了改善。 [閱讀全文](../content-management/manage-fragments.md#adding-new-attributes)
+* A new section has been added to the **Manage fragments** page to describe how to add new attributes to a live fragment. The whole page has also been improved. [Read more](../content-management/manage-fragments.md#adding-new-attributes)
 
-* 「護欄和限制」區段已新增至衝突管理與優先順序工具文件之中。 [閱讀全文](../conflict-prioritization/gs-conflict-prioritization.md)
+* A "Guardrails & limitations" section has been added to the conflict management & prioritizations tools documentation. [Read more](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* 已新增端對端使用案例，以呈現 [!DNL Journey Optimizer] 程式碼型體驗管道的內容實驗中使用決策所需的所有步驟。 [閱讀全文](../experience-decisioning/experience-decisioning-uc.md)
+* A new end-to-end use case has been added to present all the steps needed to use Decisioning in content experiments with the [!DNL Journey Optimizer] code-based experience channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)
 
-* **設定電子郵件設定** 頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭參數](../email/header-parameters.md) 以及 [URL 追蹤](../email/url-tracking.md)的新獨立頁面。
+* The **Configure email settings** page has been divided into several sub-pages for improved readability, including new standalone pages dedicated to [List unsubscribe](../email/list-unsubscribe.md), [Header parameters](../email/header-parameters.md) and [URL tracking](../email/url-tracking.md).
 
-## 2024 年 12 月  {#nov-2024}
+## December 2024 {#nov-2024}
 
-* 已新增備註，以便協助處理疑難排解，當使用 Adobe Experience Platform 資料來啟用個人化資料集的 API 呼叫時，很可能傳出錯誤訊息。 [閱讀全文](../personalization/aep-data-perso.md)
+* A note has been added to help troubleshoot a potential error message when making an API call to enable datasets for personalization using Adobe Experience Platform data. [Read more](../personalization/aep-data-perso.md)
 
-## 2024 年 10 月 {#oct-2024}
+## October 2024 {#oct-2024}
 
-* 有關 [!DNL Journey Optimizer]2024 年 10 月發布內容所有新功能，還有改良功能之詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* [!DNL Journey Optimizer] 中可用的所有通訊頻道，目前都已完成分組，會列入文件的專用區段中。 [閱讀全文](../channels/gs-channels.md)
-* 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。[閱讀全文](../code-based/code-based-configuration.md)
-* 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。[閱讀全文](../web/web-configuration.md#web-page-matching-rule)
-* 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)
-* 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。[閱讀全文](../code-based/test-code-based.md#preview-on-device)
-* 已新增頁面，說明如何善用自訂上傳對象做決策。[閱讀全文](../offers/custom-upload-decisioning.md)
-* 已新增新頁面，以便介紹 Journey Optimizer 中可用的決定功能。[閱讀全文](../experience-decisioning/gs-decision.md)
-* Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* All new features and improvements coming with [!DNL Journey Optimizer] October '24 release have been detailed in the documentation. [Read more](release-notes.md)
+* All communication channels available in [!DNL Journey Optimizer] are now grouped in a dedicated section of the documentation. [Read more](../channels/gs-channels.md)
+* The **Configure your code-based experience** page has been improved to make the process clearer, including the section explaining what a surface URI is. [Read more](../code-based/code-based-configuration.md)
+* The **Create web channel configuration** page has been updated to clarify the steps when creating a pages matching rule, which also apply to Code-based experience configuration. [Read more](../web/web-configuration.md#web-page-matching-rule)
+* A note about the upcoming time-to-live (TTL) guardrail for system-generated datasets has been added. [Read more](../data/get-started-datasets.md)
+* A new section has been added to describe how to preview your code-based personalized experiences right on your browser or on your mobile devices, using the **Preview on device** option when simulating content in a journey or a campaign. [Read more](../code-based/test-code-based.md#preview-on-device)
+* A new page has been added on how to leverage Custom upload audiences for decisioning. [Read more](../offers/custom-upload-decisioning.md)
+* A new page has been added to introduce the decision capabilities available in Journey Optimizer. [Read more](../experience-decisioning/gs-decision.md)
+* Guardrails and limitations have been added to the Decisioning documentation. [Read more](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
-## 2024 年 9 月 {#sept-2024}
+## September 2024 {#sept-2024}
 
-* 有關 [!DNL Journey Optimizer] 2024 年 9 月發行版本的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
-* 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
-* 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。[閱讀全文](../content-management/generative-full-content.md#video)
+* All new features and improvements coming with [!DNL Journey Optimizer] Sept '24 release have been detailed in the documentation. [Read more](release-notes.md)
+* Added a section about journey retry management. [Read more](../building-journeys/read-audience.md#read-audience-retry)
+* The FAQ about Capping/throttling rule for custom actions has been updated to mention the default capping rule. [Read more](../configuration/external-systems.md#faq)
+* The Control access section has been updated with permissions related to AI Assistant Content Generator. [Read more](../administration/high-low-permissions.md#ai-orchestrated-campaign)
+* A video about AI Assistant Content Generator for email generation has been added. [Read more](../content-management/generative-full-content.md#video)
 
 <!--
 
@@ -503,7 +506,7 @@ ht-degree: 90%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -533,7 +536,7 @@ ht-degree: 90%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -608,7 +611,7 @@ ht-degree: 90%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -736,7 +739,7 @@ ht-degree: 90%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
