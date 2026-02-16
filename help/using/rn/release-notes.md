@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 38%
+source-wordcount: '1549'
+ht-degree: 40%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您可以排程來自<strong>行銷活動</strong>或<strong>歷程</strong>的傳出訊息，以控管的<strong>批次</strong>隨時間傳遞。</p>
+<p>您可以排程行銷活動或歷程的傳出訊息，以控管批次方式隨時間傳遞。</p>
 <p>波次傳送提供下列優點：</p>
 <ul>
-<li>更好的<strong>傳遞能力</strong> — 隨著時間推移散佈傳送，以協助維持強大的寄件者信譽，並降低被標示為垃圾郵件的風險。</li>
-<li><strong>載入控制項</strong> — 藉由限制一次傳出的訊息數目，避免造成下游系統（例如客服中心、登陸頁面）負擔過重。</li>
+<li>更好的可遞送性 — 隨著時間推移分散式傳送，以協助維持強大的傳送者信譽，並降低被標籤為垃圾訊息的風險。</li>
+<li>載入控制 — 透過限制同時傳出的訊息數量，避免讓下游系統（例如呼叫中心、登陸頁面）不堪重負。</li>
 <li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用<strong>公式</strong>和<strong>AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<p>您現在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ ht-degree: 38%
 <table>
 <thead>
 <tr>
+<th><strong>AI模型監視</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您在Decisioning中監視AI模型的健康情況、訓練狀態和效能，以便您驗證訓練成功、疑難排解失敗，並瞭解對您結果的影響。</p>
+<p>此功能目前僅適用於<strong>個人化最佳化</strong>模型（非自動最佳化）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>歷程中的動作活動</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ ht-degree: 38%
 <ul>
 <li>簡化歷程畫布中的原生動作設定。</li>
 <li>容量用來建立多動作傳入動作群組。</li>
-<li>將<strong>最佳化</strong>新增至任何內建頻道動作的功能。</li>
-<li>能夠將<strong>experimentation</strong>和<strong>多語言</strong>選項新增至任何動作。</li>
+<li>能夠將最佳化新增至任何內建管道動作。</li>
+<li>能夠將experimentation和multilingual&gt;選項新增至任何動作。</li>
 </ul>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 </td>
@@ -193,11 +209,11 @@ ht-degree: 38%
 <tbody>
 <tr>
 <td>
-<p><strong>移轉工具API</strong>現在可用於以程式設計方式將<strong>決定管理</strong>實體移轉到<strong>決定</strong>，其功能：</p>
+<p>移轉工具API現在可用於以程式設計方式將<strong>決定管理</strong>實體移轉到<strong>決定</strong>，其功能：</p>
 <ul>
-<li>彈性移轉範圍（<strong>沙箱</strong>、<strong>選件</strong>或<strong>決定</strong>層級）</li>
-<li>自動化<strong>相依性分析</strong>和驗證</li>
-<li>已完成移轉的<strong>復原支援</strong></li>
+<li>彈性的移轉範圍 (沙箱、產品建議或決策層級)</li>
+<li>自動化相依性分析和驗證</li>
+<li>已完成移轉的復原支援</li>
 <li>包含物件對應的詳細移轉報表</li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/decisioning-migration-api.md">詳細文件</a>。</p>
@@ -277,9 +293,6 @@ ht-degree: 38%
 
 
 * **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用程式碼型體驗管道設定Experience Decisioning時預覽決定專案。 上線之前，可以直接在編寫介面中使用預覽。
-
-
-* **優惠排名AI模型可觀察性** — 現在Journey Optimizer可讓您在Decisioning中監視AI模型的健康情況、訓練狀態和效能，以便您驗證訓練成功、疑難排解失敗，並瞭解對您結果的影響。 此功能僅適用於個人化最佳化模型（而非自動最佳化）。
 
 
 * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過策定原則用於程式碼型體驗行銷活動。
