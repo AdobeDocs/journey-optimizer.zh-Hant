@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 21%
+source-wordcount: '1807'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 本頁介紹Journey Optimizer在整合外部系統時提供的各種護欄，以及最佳實務：如何使用上限API最佳化外部系統的保護、如何設定歷程逾時，以及重試如何運作。
 
-Journey Optimizer 可讓您透過自訂資料來源與自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，豐富您的歷程，或是使用Epsilon或Facebook等協力廠商系統傳送訊息。
+Journey Optimizer可讓您透過[自訂資料來源](../datasource/about-data-sources.md)和[自訂動作](../action/action.md)設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，豐富您的歷程，或是使用Epsilon或Facebook等協力廠商系統傳送訊息。
 
 整合外部系統時，您可能會遇到幾個問題：系統可能緩慢、停止回應，或是可能無法處理較大的磁碟區。 Journey Optimizer提供數個護欄，可保護您的系統避免過載。
 
@@ -110,7 +110,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 您將找到有關整合Journey Optimizer與外部系統的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何設定上限或節流規則？ 有預設規則嗎？
 
@@ -132,7 +132,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 +++ 什麼是輸出Proxy？我應該在何時使用？
 
-輸出Proxy為從Journey Optimizer到外部系統的輸出呼叫提供&#x200B;**靜態IP位址**。 當您的協力廠商端點需要IP允許清單時使用它。
+輸出Proxy為來自Journey Optimizer **自訂動作**&#x200B;對外部系統的輸出呼叫提供&#x200B;**靜態IP位址**。 當您的協力廠商端點需要IP允許清單時使用它。
 
 **重要：**&#x200B;輸出Proxy無法控制輸送量、速率限制或同時連線的數目。 若要管理通話量和連線限制，請使用[上限API](capping.md)或[節流API](throttling.md)。
 
