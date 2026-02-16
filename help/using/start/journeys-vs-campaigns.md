@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 歷程與行銷活動 — 選擇正確的方法
-description: 比較歷程、行銷活動和協調的行銷活動，以在Adobe Journey Optimizer中選擇符合行銷需求的正確方法
+description: 比較歷程、動作行銷活動、API觸發的行銷活動和協調的行銷活動，以選擇適合您在Adobe Journey Optimizer行銷需求的方法。
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: 歷程，行銷活動，已協調，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 3%
 
 ---
 
 # 歷程與行銷活動：選擇正確的方法 {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer提供三種強大的方式觸及及吸引客戶。 瞭解何時使用每個報表套裝，是建立有效行銷體驗的關鍵。
+[!DNL Adobe Journey Optimizer]提供四種主要方式來觸及及吸引您的客戶： **歷程**、**動作行銷活動**、**API觸發的行銷活動**&#x200B;以及&#x200B;**協調的行銷活動**。 是否選擇正確的播放方式取決於您是否需要即時1:1協調流程、排程廣播、事件導向訊息，或複雜的批次工作流程。
 
-本指南可協助您根據特定行銷需求，在&#x200B;**歷程**、**動作行銷活動**、**API觸發的行銷活動**&#x200B;和&#x200B;**協調的行銷活動**&#x200B;之間選擇。
+本指南可協助您根據執行樣式、資料需求和使用案例進行選擇 — 提供快速比較、決策樹和具體範例。
 
 ## 快速比較概述 {#quick-overview}
 
@@ -31,6 +32,10 @@ Adobe Journey Optimizer提供三種強大的方式觸及及吸引客戶。 瞭�
 | **動作行銷活動** | 排程或循環播放至對象 | 批次執行 — 在傳送時一起處理的對象 |
 | **API觸發的行銷活動** | 來自外部系統的事件導向或交易式訊息 | 隨選執行 — 由具有裝載的API呼叫觸發 |
 | **協調的行銷活動** | 具有多實體分段的複雜批次工作流程 | 批次畫布 — 所有設定檔一起處理 |
+
+>[!TIP]
+>
+>**快速經驗法則：**&#x200B;需要每個客戶以自己的速度使用即時邏輯嗎？ 使用&#x200B;**歷程**。 要依排程傳送訊息給對象嗎？ 使用&#x200B;**動作行銷活動**。 透過API從外部系統觸發？ 使用&#x200B;**API觸發的行銷活動**。 需要多實體資料、確切計數或批次畫布？ 使用&#x200B;**協調的行銷活動**。
 
 ## 詳細比較 {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Adobe Journey Optimizer提供三種強大的方式觸及及吸引客戶。 瞭�
 
 ## 決定指南 {#decision-guide}
 
-請依照此決策樹來選擇正確的方法：
+請依照此決策樹來選擇正確的方法。 許多品牌使用多種型別；請針對每個使用案例挑選最適合的型別。
 
 ### 步驟1：您的執行需求為何？
 
@@ -230,12 +235,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 我可以在行銷策略中結合歷程和行銷活動嗎？
 
-當然可以！ 大多陣列織會針對不同情境使用所有三種方法：
+可以。大多陣列織會針對不同情境使用所有四種方法：
 
-* 行為、即時參與的歷程
-* 排程廣播通訊的行動行銷活動
-* 異動訊息的API觸發行銷活動
-* 針對複雜、資料密集的批次行銷活動，協調行銷活動
+* **行為即時參與歷程**
+* 針對排程的廣播通訊&#x200B;**動作行銷活動**
+* 異動訊息的&#x200B;**API觸發的行銷活動**
+* 針對複雜、資料密集的批次行銷活動，**協調的行銷活動**
+
+針對每個使用案例使用正確的工具，而不是針對所有內容強制使用一種方法。
 
 +++
 
@@ -253,17 +260,17 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 +++ 哪些縮放比例適合大型受眾？
 
-這三者都可以很好的擴展，但是：
+這四種模式都可以很好的擴展；正確的選擇取決於您的模式：
 
-* **讀取對象歷程**&#x200B;和&#x200B;**動作行銷活動**&#x200B;已針對大型批次對象最佳化
-* **協調的行銷活動**&#x200B;在包含大型資料集的複雜細分方面表現卓越
-* **單一歷程**&#x200B;會個別處理設定檔，因此規模取決於事件數量
+* **讀取對象歷程**&#x200B;和&#x200B;**動作行銷活動**&#x200B;已針對大型批次對象進行最佳化（一條訊息或一次流向多個設定檔）。
+* **協調的行銷活動**&#x200B;在包含大型資料集和多實體資料的複雜細分方面表現卓越。
+* **單一（事件型）歷程**&#x200B;會在事件發生時個別處理設定檔，因此規模取決於事件數量和輸送量。
 
 +++
 
 +++ 我可以在歷程和行銷活動中使用相同的對象嗎？
 
-可以，在Adobe Experience Platform中建立的對象可用於所有三種方法。
+可以。在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動（其中也可以在畫布中隨選建立對象邏輯）。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
 
 +++
 
@@ -271,12 +278,14 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 準備好開始建立了嗎？探索所選方法的詳細檔案：
 
-* **[開始使用歷程](../building-journeys/journey.md)** — 瞭解歷程型別、設計工具和工作流程
-* **[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)** — 探索動作和API觸發的行銷活動
-* **[開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)** — 探索批次畫布工作流程
+* **[開始使用歷程](../building-journeys/journey.md)** — 歷程型別、設計工具和工作流程
+* **[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)** — 動作和API觸發的行銷活動
+* **[開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)** — 批次畫布工作流程
 
-**需要更多協助決定嗎？**
-* [歷程型別比較](../building-journeys/journey.md#journey-types-comparison)
-* [行銷活動型別比較](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [歷程常見問題集](../building-journeys/journey-faq.md)
-* [協調的行銷活動常見問題集](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [歷程型別比較](../building-journeys/journey.md#journey-types-comparison)
+>* [促銷活動型別比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [歷程常見問題集](../building-journeys/journey-faq.md)
+>* [協調的行銷活動常見問題集](../orchestrated/orchestrated-campaigns-faq.md)
+>* [最佳實務](best-practices.md) — 即時使用案例和透過護欄縮放
