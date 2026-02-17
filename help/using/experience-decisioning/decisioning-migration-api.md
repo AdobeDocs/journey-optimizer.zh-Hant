@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 決策移轉服務API可讓您將決策管理物件從一個沙箱移轉至另一個沙箱。 移轉程式會以非同步工作流程執行，其中包含相依性分析、執行和選用的復原功能。
 
-此API可讓您在環境之間（例如，從開發到測試，或從測試到生產）順暢地轉換決策內容，同時維護資料完整性和關係。
+此API可讓您在環境<!--(e.g., from development to staging, or staging to production) -->之間順暢地轉換決策內容，同時維持資料完整性和關聯性。
 
 若要瞭解與決策管理相較之決策的優點和功能，請參閱[此頁面](migrate-to-decisioning.md)。
 
@@ -66,12 +66,12 @@ Decisioning移轉服務API提供下列功能：
 
 ## API 基本概念 {#api-basics}
 
-### 基本URL {#base-urls}
+### 基礎 URL {#base-url}
 
-根據您的環境使用下列基底URL：
+使用以下基底URL：
 
 * **生產**： `https://decisioning-migration.adobe.io`
-* **暫存**： `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Authentication {#authentication}
 
@@ -93,8 +93,8 @@ Decisioning移轉服務API提供下列功能：
 * `status` — 目前的工作流程狀態： `New`、`Running`、`Completed`或`Failed`
 * `result` — 完成時的工作流程輸出（包含移轉結果和警告）
 * `errors` — 失敗時的結構化錯誤詳細資料
-* `_etag` — 用於刪除作業的版本識別碼（僅限服務使用者）
 * `_links.self` — 擷取狀態的工作流程URL
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## 移轉工作流程 {#migration-workflow}
 
@@ -354,17 +354,15 @@ curl --request GET \
 
 ## 工作流程清理 {#cleanup}
 
-工作流程資源只能由服務使用者刪除。 刪除作業需要具有工作流程`If-Match`值的`_etag`標頭。
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**可用的刪除作業：**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->只有具有適當許可權的服務帳戶才能刪除工作流程。 如果您需要刪除工作流程資源，請聯絡您的系統管理員。
+工作流程刪除功能無法公開使用。 如果您需要刪除工作流程資源，請聯絡您的系統管理員。
 
 ## 相關主題 {#related-topics}
 
