@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 39%
+source-wordcount: '1525'
+ht-degree: 38%
 
 ---
 
@@ -46,12 +46,13 @@ ht-degree: 39%
 <tbody>
 <tr>
 <td>
-<p>您可以排程行銷活動或歷程的傳出訊息，以控管批次方式隨時間傳遞。</p>
+<p>您現在可以排程來自Journey Optimizer行銷活動或歷程的出站訊息，以控管批次方式隨時間傳遞。</p>
 <p>波次傳送提供下列優點：</p>
 <ul>
 <li>更好的可遞送性 — 隨著時間推移分散式傳送，以協助維持強大的傳送者信譽，並降低被標籤為垃圾訊息的風險。</li>
 <li>載入控制 — 透過限制同時傳出的訊息數量，避免讓下游系統（例如呼叫中心、登陸頁面）不堪重負。</li>
 <li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
+<p>在行銷活動中，此功能適用於所有環境（一般可用性）。 在歷程中，此功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </ul>
 </td>
 </tr>
