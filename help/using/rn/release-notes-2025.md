@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 <p>影像至 HTML 轉換工具是 AI 支援的功能，可將靜態影像設計轉換為完全可自訂、模組化的 HTML 電子郵件內容範本。此無程式碼工具可讓行銷人員將視覺設計轉換為回應式、可編輯的電子郵件範本，而不需要技術專業知識，非常適合平台移轉、快速建立範本及建立可重複使用的範本資料庫。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。</p>
-<p>如需詳細資訊，請參閱<a href="../email/image-to-html.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/image-to-html.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 30 日</p>
 </td>
 </tr>

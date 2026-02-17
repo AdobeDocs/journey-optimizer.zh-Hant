@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 3%
@@ -106,7 +106,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程建立技能 {#journey-create-skill}
 
-[歷程建立代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
 
 +++**主要功能**
 
@@ -271,7 +271,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 其他AI功能 {#additional-capabilities}
 
@@ -279,7 +279,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 使用AI支援的轉換技術，將靜態影像設計(JPEG、PNG)轉換為可編輯的HTML電子郵件範本。
 
-[進一步瞭解影像至HTML](../email/image-to-html.md)
+[進一步瞭解影像至HTML](../content-management/image-to-html.md)
 
 ### GenStudio for Performance Marketing
 

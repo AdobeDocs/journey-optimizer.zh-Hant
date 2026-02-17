@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [匯入內容](using/email/existing-content.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
-            + [將影像轉換為 HTML 範本](using/email/image-to-html.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
          + 設計內容 {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [開始使用內容範本](using/content-management/content-templates.md)
       + [存取並管理範本](using/content-management/access-content-templates.md)
       + [建立內容範本](using/content-management/create-content-templates.md)
+      + [將影像轉換為 HTML 範本](using/content-management/image-to-html.md)
       + [鎖定電子郵件範本中的內容](using/content-management/content-locking.md)
       + [建立內容範本](using/content-management/test-content-templates.md)
       + [使用內容範本](using/content-management/use-content-templates.md)

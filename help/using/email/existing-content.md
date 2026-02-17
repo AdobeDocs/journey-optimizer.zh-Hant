@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 電子郵件，匯入，內容， html， zip， css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 30%
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 >[!TIP]
 >
->如果您有影像設計(JPEG或PNG)，而不是HTML檔案，您可以使用[影像到HTML轉換器](image-to-html.md)，透過AI自動將它們轉換為可編輯的HTML電子郵件範本。
+>如果您有影像設計(JPEG或PNG)，而不是HTML檔案，您可以使用[影像到HTML轉換器](../content-management/image-to-html.md)，透過AI自動將它們轉換為可編輯的HTML電子郵件範本。
 
 若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
 
@@ -56,7 +56,7 @@ ht-degree: 30%
 
 1. 您現在可以根據需要，使用電子郵件Designer功能個人化匯入的檔案。 [了解更多](content-from-scratch.md)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何匯入現有的 HTML 內容、調整設計、新增鏡像頁面和取消訂閱連結，以及如何編寫內容的程式碼。
 
