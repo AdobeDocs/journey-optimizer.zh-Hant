@@ -5,10 +5,10 @@ title: 歷程中的體驗事件查閱
 description: 瞭解如何在歷程中使用體驗事件查閱
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '960'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->自2025年7月8日起，在新的客戶組織中，歷程條件中使用的運算式編輯器不再支援使用體驗事件建立運算式。 因此，[Experience Platform 資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。使用體驗事件建立運算式/邏輯的替代方法和最佳實務參考如下。
+>自2025年7月8日起，在新的客戶組織中，歷程條件中使用的運算式編輯器不再支援使用體驗事件建立運算式。 因此，[Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)中的體驗事件無法用於建立運算式。
+>
+>自2026年4月1日起，過去90天內未使用此功能的組織將不再支援在歷程運算式中使用體驗事件屬性。 使用體驗事件建立運算式/邏輯的替代方法和最佳實務參考如下。
 >
 >需要更多詳細資料？[閱讀常見問答集](#faq-ee)。
 
@@ -52,9 +54,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +73,9 @@ ht-degree: 6%
 
 使用對象深入瞭解：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +95,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +107,8 @@ ht-degree: 6%
 
 若要根據最新的購物車進行個人化通訊，或跨多種購物車型別或產品檢視瀏覽事件：
 
-* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將資料寫回已啟用設定檔的資料集以啟動。
-* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以從事件擷取所需資料、處理資料以符合使用案例，並將資料寫回已啟用設定檔的資料集以啟動。
+* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行為型歷程退出
@@ -123,15 +125,15 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
 ## 常見問題 {#faq-ee}
 
-您可以在下方找到有關歷程中體驗事件查詢的常見問題。
+此常見問題集主要針對在歷程運算式中淘汰體驗事件使用方式的時間表以及受影響者。 如需替代方法的指引，請參閱上述使用案例和最佳實務。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連結。
 
 +++哪些特定功能會受到影響？ 
 
@@ -153,9 +155,9 @@ ht-degree: 6%
 
 +++
 
-+++我現有的Adobe組織是否會受到此更新的影響？ 
++++我現有的Adobe組織是否會受到此更新的影響？
 
-只有當您尚未使用體驗事件查詢時，才會影響您的Adobe組織。 如果您已在[Experience Platform資料來源](../datasource/adobe-experience-platform-data-source.md)中使用體驗事件，您的Adobe組織會繼續支援體驗事件查閱。
+從2025年7月8日開始，新客戶組織無法使用體驗事件屬性建立運算式。 自2026年4月1日起，過去90天內未透過歷程運算式存取體驗事件的組織，將無法再存取此功能。
 
 +++
 

@@ -5,22 +5,22 @@ title: 使用案例
 description: 使用案例
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 95%
 
 ---
 
 # 使用案例{#section-overview}
 
-Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工作流程和即時觸發程序，建立有意義、個人化的客戶體驗。無論您是要管理選擇退出、設計多管道行銷活動，還是要整合外部系統，這些使用案例都能提供可操作的範例，幫助您獲得成功。您會找到各式各樣的主題，從將體驗事件用於動態個人化，到建立與 Adobe Campaign 整合的歷程或向訂閱者清單傳送訊息。每個使用案例都提供實用的步驟和深入分析，讓您輕鬆探索創新方法，吸引客群並有效最佳化您的客戶歷程。
+Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工作流程和即時觸發程序，建立有意義、個人化的客戶體驗。無論您是要管理選擇退出、設計多管道行銷活動，還是要整合外部系統，這些使用案例都能提供可操作的範例，幫助您獲得成功。您會找到各式各樣的主題，從將體驗事件用於動態個人化，到建立與 Adobe Campaign 整合的歷程或向訂閱者清單傳送訊息。每個使用案例都提供實用的步驟和洞察，讓您輕鬆探索創新方法，吸引客群並有效最佳化您的客戶歷程。
 
 ## 使用案例
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 透過使用案例深入了解
 
@@ -30,19 +30,19 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 體驗事件查閱
 
-使用體驗事件來管理選擇退出、個人化內容，並解決歷程協調中的常見挑戰。
+使用體驗事件的替代方案來管理選擇退出、個人化內容，並解決Journey Orchestration中的常見挑戰。
 
 [了解更多](../using/building-journeys/exp-event-lookup.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-傳送多頻道訊息
+傳送多管道訊息
 
 建立歷程，運用客群細分和事件觸發程序，跨多個管道傳送個人化訊息。
 
@@ -50,17 +50,17 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用 Campaign v7/v8 傳送訊息
 
 將 Adobe Campaign 與 Journey Optimizer 整合，以使用交易型範本和事件觸發程序傳送電子郵件訊息。
 
-[快速入門](../using/building-journeys/ajo-ac.md)
+[開始使用](../using/building-journeys/ajo-ac.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 傳送訊息給訂閱者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用自訂動作動態傳遞集合
 
