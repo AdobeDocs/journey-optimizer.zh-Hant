@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 9%
@@ -120,7 +120,7 @@ ht-degree: 9%
    >
    >當規則引數包含未儲存在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。
 
-1. 一旦您的規則準備就緒，請按一下[建立]。**&#x200B;** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
+1. 一旦您的規則準備就緒，請按一下[建立]。**** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
 
    * 在&#x200B;**個決定專案**&#x200B;和&#x200B;**選取策略**&#x200B;中，用來控管將決定專案呈現給設定檔；
    * 或在內容最佳化或路徑最佳化中建置&#x200B;**目標**&#x200B;時。
@@ -137,4 +137,4 @@ ht-degree: 9%
 
 瞭解如何在Adobe Journey Optimizer中建立、複製和套用可重複使用的&#x200B;**目標定位規則**，以根據客戶屬性（例如地區、語言和行為）有效率地個人化行銷活動 — 在提高對象精確度的同時節省時間。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476138/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
