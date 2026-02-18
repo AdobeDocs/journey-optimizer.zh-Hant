@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
+source-git-commit: 4f28c1e5c84e303470653803f5d2c9f5051d4ab8
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 39%
+source-wordcount: '1241'
+ht-degree: 31%
 
 ---
 
@@ -27,85 +27,18 @@ ht-degree: 39%
 
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
-## 2026年2月發行前注意事項 {#feb-26-01-rn}
+## 2026年2月發行說明 {#feb-26-01-rn}
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
+[新功能](#feb-26-01-features)和[改進](#feb-26-01-improv)區段已涵蓋可用的功能。 [即將推出](#coming-soon)區段列出排定於2月稍後發行的功能和改善。
 
-另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+<!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-**發行日期**：2026 年 2 月 17-18 日
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+<!--**Release date**: February 17-18, 2026-->
 
 ### 新功能 {#feb-26-01-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>傳出訊息的波動傳送</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以排程來自Journey Optimizer行銷活動或歷程的出站訊息，以控管批次方式隨時間傳遞。</p>
-<p>波次傳送提供下列優點：</p>
-<ul>
-<li>更好的可遞送性 — 隨著時間推移分散式傳送，以協助維持強大的傳送者信譽，並降低被標籤為垃圾訊息的風險。</li>
-<li>載入控制 — 透過限制同時傳出的訊息數量，避免讓下游系統（例如呼叫中心、登陸頁面）不堪重負。</li>
-<li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
-</ul>
-<p>在行銷活動中，此功能適用於所有環境（一般可用性）。</p>
-<p>在歷程中，此功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>將子網域移轉至自訂委派</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以從介面使用CNAME委派模式將子網域移轉至自訂委派，這樣您就可以符合公司指引的更嚴格安全性原則，而無需重新建立通道設定。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：建立管道內容</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -136,28 +69,7 @@ ht-degree: 39%
 <td>
 <p>Journey Optimizer現在可讓您監視決策AI模型的健全狀態、培訓狀態和效能。 這可讓您驗證培訓成功、疑難排解失敗，並瞭解對您結果的影響，以便使用AI為每個客戶選取最佳選件。 請注意，此功能僅適用於<strong>決策</strong> （不適用於舊版決策管理模型）。</p>
 <p>此功能目前僅適用於<strong>個人化最佳化</strong>模型（非自動最佳化）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程中的動作活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和多動作傳入動作群組，以簡化歷程畫布中的動作設定。 尤其是這項新功能允許：</p>
-<ul>
-<li>簡化歷程畫布中的原生動作設定。</li>
-<li>容量用來建立多動作傳入動作群組。</li>
-<li>能夠將最佳化新增至任何內建管道動作。</li>
-<li>能夠將experimentation和multilingual&gt;選項新增至任何動作。</li>
-</ul>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>推出日期： 2026年2月17日</p>
 </td>
 </tr>
 </tbody>
@@ -195,65 +107,7 @@ ht-degree: 39%
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
-<p>推出日期： 2026年2月11日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>自助移轉工具 API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>移轉工具API現在可用於以程式設計方式將<strong>決定管理</strong>實體移轉到<strong>決定</strong>，其功能：</p>
-<ul>
-<li>彈性的移轉範圍 (沙箱、產品建議或決策層級)</li>
-<li>自動化相依性分析和驗證</li>
-<li>已完成移轉的復原支援</li>
-<li>包含物件對應的詳細移轉報表</li>
-</ul>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/decisioning-migration-api.md">詳細文件</a>。</p>
-<p>推出日期：2026 年 2 月 3 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>自訂動作監視</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>insight透過新的<strong>監視儀表板</strong>和豐富的<strong>歷程步驟事件資料</strong>，更深入瞭解<strong>自訂動作端點</strong>的健全狀況和效能。 追蹤成功的呼叫、錯誤、輸送量、回應時間和佇列等待時間，以快速瞭解異常情況發生的時間、地點和原因。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../action/reporting.md">詳細文件</a>。</p>
-<p>推出日期：2026 年 2 月 3 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>簡訊頻道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>決策</strong>個人化和最佳化<strong>簡訊訊息</strong>的內容。 使用<strong>優先順序分數</strong>、<strong>公式</strong>或<strong>AI模型</strong>向客戶顯示最佳內容。</p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision.md">詳細文件</a>。</p>
-<p>推出日期：2026 年 2 月 2 日</p>
+<p>推出日期：2026年2月10日</p>
 </td>
 </tr>
 </tbody>
@@ -267,31 +121,18 @@ ht-degree: 39%
 
 * **歷程運算式中的體驗事件使用方式** — 自2026年4月1日起，過去90天內未使用此功能的組織將不再支援在歷程運算式中使用體驗事件屬性。 自2025年7月8日起，新客戶組織已無法使用此功能。 如需其他選擇，請參閱歷程中的[體驗事件查閱](../building-journeys/exp-event-lookup.md)。
 
-
 #### 內容範本
 
 * **使用主題將影像轉換為電子郵件範本** — 在Journey Optimizer中將影像轉換為電子郵件範本時，您現在可以使用主題作為輸入，讓產生的HTML遵循您的品牌引數。 系統會自動套用背景顏色、按鈕顏色、字型、行距、邊界及邊框間距等樣式，減少手動設計工作，並提供可立即使用且只需少量編輯的範本。 [閱讀全文](../content-management/image-to-html.md)
 
-  推出日期：2026年2月13日。
-
-
-#### 電子郵件設計工具
-
-* **使用新的顏色索引標籤更新品牌** - 品牌指引有助於確保您的品牌在所有接觸點上保持一致的呈現。新的色彩區段會定義您品牌色彩系統的標準，概述如何在體驗間選擇、組織及套用色彩。 它可確保主色、次色、輔色和中性色的一致使用，以支援一致、可存取且可辨識的品牌識別。
-
-
-#### AI
-
-* **整合自訂Firefly模型與協力廠商影像產生模型** — 可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型（例如NanoBanana），以便在產生影像時提供更大的彈性、控制力及品牌一致性。 這可讓您為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。
+  推出日期：2026年2月17日。
 
 
 #### 體驗決策
 
-* **在決定中使用Adobe Experience Platform資料的Edge傳入支援** — 在決定中使用Adobe Experience Platform資料時，除了歷程中的電子郵件和自訂動作之外，現在還能支援邊緣傳入使用案例。
+* **在決定中使用Adobe Experience Platform資料的Edge傳入支援** — 在決定中使用Adobe Experience Platform資料時，除了歷程中的電子郵件和自訂動作之外，現在還能支援邊緣傳入使用案例。 [閱讀全文](../experience-decisioning/aep-data-exd.md)
 
   **注意**：此功能僅適用於一組組織（<strong>有限可用性</strong>）。 若想取得存取權，請聯絡您的 Adobe 代表。
-
-* **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用程式碼型體驗管道設定Experience Decisioning時預覽決定專案。 上線之前，可以直接在編寫介面中使用預覽。
 
 
 * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。[閱讀全文](../experience-decisioning/fragments-decision-policies.md)
@@ -300,9 +141,117 @@ ht-degree: 39%
 
   推出日期：2026年2月12日。
 
+## 即將推出 {#coming-soon}
 
-#### 簡訊
+以下功能和改進專案計畫於2月下旬發行。 發行日期和範圍可能會變更，恕不另行通知。
 
-* **簡訊 Webhook** - 所有簡訊提供者現在都支援 <strong>Webhook</strong>。您可以根據每個webhook的預定用途來設定每個webhook： <strong>傳入webhook</strong>以擷取傳入訊息，以及<strong>回饋webhook</strong>以接收傳遞回條、狀態更新和其他訊息相關事件。 [閱讀全文](../sms/sms-webhook.md)
+<table>
+<thead>
+<tr>
+<th><strong>將子網域移轉至自訂委派</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以從介面使用CNAME委派模式將子網域移轉至自訂委派，這樣您就可以符合公司指引的更嚴格安全性原則，而無需重新建立通道設定。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期：2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-  推出日期：2026年2月2日。
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：建立管道內容</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
+<p>推出日期：2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>傳出訊息的波動傳送</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以排程來自Journey Optimizer行銷活動或歷程的出站訊息，以控管批次方式隨時間傳遞。</p>
+<p>波次傳送提供下列優點：</p>
+<ul>
+<li>更好的可遞送性 — 隨著時間推移分散式傳送，以協助維持強大的傳送者信譽，並降低被標籤為垃圾訊息的風險。</li>
+<li>載入控制 — 透過限制同時傳出的訊息數量，避免讓下游系統（例如呼叫中心、登陸頁面）不堪重負。</li>
+<li>大量且有時效性的使用案例 — 適合大型對象，或您需要控制時機時（例如客服中心容量、加電或有時限的選件）。</li>
+</ul>
+<p>在行銷活動中，此功能適用於所有環境（一般可用性）。</p>
+<p>在歷程中，此功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期：2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用<strong>排名公式</strong>和<strong>AI模型</strong>，根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，以確保客戶進入最相關的歷程。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2026年2月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的動作活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和多動作傳入動作群組，以簡化歷程畫布中的動作設定。 尤其是這項新功能允許：</p>
+<ul>
+<li>簡化歷程畫布中的原生動作設定。</li>
+<li>容量用來建立多動作傳入動作群組。</li>
+<li>能夠將最佳化新增至任何內建管道動作。</li>
+<li>能夠新增實驗和多語言選項至任何動作。</li>
+</ul>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>推出日期：2026年2月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改進 {#coming-soon-improv}
+
+* **程式碼型體驗管道中的Experience Decisioning預覽** — 您現在可以在使用程式碼型體驗管道設定Experience Decisioning時預覽決定專案。 上線之前，可以直接在編寫介面中使用預覽。
+
+  推出日期：2026年2月20日。
+
+* **歷程(GA)中的多個輸入動作** - Journey Optimizer現在支援歷程中的多個輸入動作（一般可用性），啟用更彈性的歷程設計和事件處理。
+
+  推出日期：2026年2月20日。
+
+* **整合自訂Firefly模型與協力廠商影像產生模型** — 可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型（例如NanoBanana），以便在產生影像時提供更大的彈性、控制力及品牌一致性。 這可讓您為每個使用案例選取最佳模型：適用於一般需求的標準Firefly、適用於品牌內產生的自訂Firefly，或適用於特殊或實驗場景的已核准第三方模型。
+
+  推出日期：2026年2月20日。
