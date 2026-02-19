@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c6b92d11b60e28c7dc918f7c4d7d7ced07a2ab5
+source-git-commit: d42bfe84aa7b380be2d8903ea6b046c43a5d04c1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 30%
+source-wordcount: '1314'
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -110,6 +110,29 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 <p>推出日期：2026年2月10日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>自助移轉工具 API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>移轉工具API現在可用於以程式設計方式將<strong>決定管理</strong>實體移轉到<strong>決定</strong>，其功能：</p>
+<ul>
+<li>彈性的移轉範圍 (沙箱、產品建議或決策層級)</li>
+<li>自動化相依性分析和驗證</li>
+<li>已完成移轉的復原支援</li>
+<li>包含物件對應的詳細移轉報表</li>
+</ul>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/decisioning-migration-api.md">詳細文件</a>。</p>
+<p>推出日期：2026 年 2 月 3 日</p>
 </td>
 </tr>
 </tbody>
