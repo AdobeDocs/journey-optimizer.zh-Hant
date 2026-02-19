@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域，最佳化工具，委派
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 25%
 
 ---
@@ -92,7 +92,7 @@ CNAME子網域設定可讓您建立子網域，並使用CNAME指向Adobe特定�
 
 在此情況下，您將完全擁有和管理我們自己的子網域，並對此程式產生之憑證擁有完全控制權。
 
-瞭解如何在[本節](delegate-custom-subdomain.md)中設定自訂網域。
+瞭解如何[設定自訂子網域](delegate-custom-subdomain.md) 如果您的子網域目前使用CNAME，您也可以[從CNAME移轉至自訂委派](custom-subdomain-migration.md)。
 
 ## 比較設定方法
 
