@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 15%
+source-wordcount: '2214'
+ht-degree: 14%
 
 ---
 
@@ -78,8 +78,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
    * **[!UICONTROL 決定事件]** （預設值）：可顯示優惠的最大次數。
    * **[!UICONTROL 曝光次數]** （僅限傳入管道）：可向使用者顯示選件的次數上限。
    * **[!UICONTROL 點按]**：使用者可點按決策專案的次數上限。
-   * **[!UICONTROL 自訂事件]**：您可以定義自訂事件，用來限制傳送專案的次數。 例如，您可以限制贖回次數，直到它們等於10,000，或直到指定的設定檔已贖回1次。 若要這麼做，請使用[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}結構描述來建置自訂事件規則。
+   * **[!UICONTROL 自訂事件]**：上限是根據您在Adobe Experience Platform中追蹤的商業或行為體驗事件，例如，贖回、購買或購物車結帳。 自訂事件上限使用您擷取的[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}體驗事件。 在下拉式清單中，您對應應該驅動上限的特定體驗事件，這樣上限計數器會在每次收到該事件時遞增。 不支援透過管道傳送事件（例如電子郵件傳送）設定上限：自訂事件僅適用於您擷取的體驗事件，不適用於傳送或傳送事件。
 
-   >[!NOTE]
-   >
-   >對於決策事件以外的所有上限事件，決策管理意見可能不會自動收集，這可能會導致上限計數器未正確增加。 若要確保在上限計數器中已追蹤和說明每個上限事件，請確定用於收集體驗事件的結構描述包含該事件的正確欄位群組。 有關資料收集的詳細資訊，請參閱Journey Optimizer決策管理檔案：
-   >* [決定管理資料集合](data-collection/data-collection.md)
-   >* [設定資料彙集](data-collection/schema-requirement.md)
+   +++推播通道的上限
+
+   推播通道不支援標準&#x200B;**[!UICONTROL 點按次數]**&#x200B;和&#x200B;**[!UICONTROL 曝光次數]**&#x200B;上限。 若要對透過推播傳遞的優惠進行上限，請使用&#x200B;**[!UICONTROL 自訂事件]**&#x200B;上限，並將事件型別設定為&#x200B;**已開啟的推播追蹤應用程式**&#x200B;或&#x200B;**推播追蹤自訂動作**。
+
+   對於推播通知，來自行動頻道的追蹤事件包含Experience Cloud ID (ECID)。 建議在Campaign或歷程設定中使用ECID來維持身分一致性，並確保上限按預期運作。
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++追蹤上限事件（結構和資料收集）
+
+   對於決策事件以外的所有上限事件，決策管理意見可能不會自動收集，這可能會導致上限計數器未正確增加。 若要確保在上限計數器中已追蹤和說明每個上限事件，請確定用於收集體驗事件的結構描述包含該事件的正確欄位群組。 有關資料收集的詳細資訊，請參閱Journey Optimizer決策管理檔案：
+   * [決策管理資料收集](data-collection/data-collection.md)
+   * [設定資料彙集](data-collection/schema-requirement.md)
+
+   +++
 
 1. 選擇上限型別：
 
