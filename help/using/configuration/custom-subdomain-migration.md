@@ -148,6 +148,7 @@ ht-degree: 5%
    MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
    -----END CERTIFICATE-----
    ```
+
 1. 勾選「我確認我已上傳SSL憑證」方塊。
 
 ## 完整的回饋迴路 {#feedback-loop}
