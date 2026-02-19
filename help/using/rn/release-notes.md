@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3b89f86c563699cea69ae757980783e6d99216f
+source-git-commit: 0c6b92d11b60e28c7dc918f7c4d7d7ced07a2ab5
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 29%
+source-wordcount: '1260'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -70,6 +70,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>您現在可以從介面使用CNAME委派模式將子網域移轉至自訂委派，這樣您就可以符合公司指引的更嚴格安全性原則，而無需重新建立通道設定。</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/custom-subdomain-migration.md">詳細文件</a>。</p>
 <p>推出日期： 2026年2月19日</p>
 </td>
 </tr>
