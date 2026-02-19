@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '780'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 3%
 3. 如果尚未指派位置給元件，請從清單中選取一個位置，然後按一下&#x200B;**[!UICONTROL 指派]**。
 
    ![](assets/decision-policy-placement.png)
+
+   >[!NOTE]
+   >
+   >如果您在相同的電子郵件中使用多個決定原則（例如，一個用於頁首，一個用於頁尾），相同的選件會在各個版位中重複刪除：每個區域會收到不同的選件。 若要在多個區域顯示相同優惠，請在新增決定原則時使用&#x200B;**[!UICONTROL 重複使用決定輸出]**。 [瞭解如何建立決定原則](create-decision-policy.md)。
 
 >[!TAB 簡訊]
 
