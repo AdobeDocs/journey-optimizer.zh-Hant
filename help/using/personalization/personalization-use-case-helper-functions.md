@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -52,31 +52,31 @@ ht-degree: 2%
 1. 建立其結構描述包含`productListItems`陣列的事件。
 1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}中進一步瞭解產品清單專案資料型別。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中進一步瞭解產品清單專案資料型別。
 
 1. 建立從此事件開始的歷程。
 1. 將&#x200B;**電子郵件**&#x200B;活動新增至歷程。
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![歷程畫布，其中包含事件和流程中的電子郵件活動](assets/personalization-uc-helpers-8.png)
 
-## 步驟2：建立電子郵件{#configure-email}
+## 步驟2：建立電子郵件 {#configure-email}
 
 1. 在&#x200B;**電子郵件**&#x200B;活動中，按一下&#x200B;**[!UICONTROL 編輯內容]**，然後按一下&#x200B;**[!UICONTROL 電子郵件Designer]**。
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![電子郵件活動包含編輯內容及電子郵件Designer選項](assets/personalization-uc-helpers-1.png)
 
 1. 從電子郵件Designer首頁的左側浮動視窗，將三個結構元件拖放至訊息內文上。
 
 1. 將HTML內容元件拖放至每個新結構元件上。
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![傳送電子郵件給Designer，內文中有三個結構元件和HTML內容元件](assets/personalization-uc-helpers-2.png)
 
 ## 步驟3：以大寫字母插入客戶的名字 {#uppercase-function}
 
 1. 在電子郵件Designer首頁上，按一下您想要新增客戶名字的HTML元件。
 1. 在內容工具列上，按一下&#x200B;**[!UICONTROL 顯示原始程式碼]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![包含「顯示原始程式碼」選項的內容工具列](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 編輯HTML]**&#x200B;視窗中，新增`upperCase`字串函式：
    1. 在左側功能表中，選取&#x200B;**[!UICONTROL 協助程式函式]**。
@@ -89,7 +89,7 @@ ht-degree: 2%
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      在Helper函式中選取upperCase函式的![運算式編輯器](assets/personalization-uc-helpers-4.png)
 
 1. 從運算式中移除「字串」預留位置。
 1. 新增名字代號：
@@ -103,13 +103,13 @@ ht-degree: 2%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![運算式編輯器顯示具有設定檔名字語彙基元的大寫](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hant){target="_blank"}中進一步瞭解人員名稱資料型別。
+      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中進一步瞭解人員名稱資料型別。
 
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![使用[驗證]和[儲存]按鈕編輯HTML視窗](assets/personalization-uc-helpers-6.png)
 
 1. 儲存訊息。
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 1. 在電子郵件Designer首頁上，按一下您要列出購物車內容的HTML元件。
 1. 在內容工具列上，按一下&#x200B;**[!UICONTROL 顯示原始程式碼]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![包含「顯示原始程式碼」選項的內容工具列](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 編輯HTML]**&#x200B;視窗中，新增`each`協助程式：
    1. 在左側功能表中，選取&#x200B;**[!UICONTROL 協助程式函式]**。
@@ -135,7 +135,7 @@ ht-degree: 2%
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      每個協助程式範本的![運算式編輯器](assets/personalization-uc-helpers-9.png)
 
 1. 將`productListItems`陣列新增至運算式：
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
       在此範例中，*event_ID*&#x200B;代表您事件的識別碼。
 
-      ![](assets/personalization-uc-helpers-10.png)
+      在內容屬性中有productListItems的![運算式編輯器](assets/personalization-uc-helpers-10.png)
 
    1. 修改運算式：
       1. 移除「.product」字串。
@@ -170,7 +170,7 @@ ht-degree: 2%
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. 在開頭`{{#each}}`標籤和結尾`{/each}}`標籤之間貼上此程式碼：
+1. 在開頭`{{#each}}`標籤和結尾`{{/each}}`標籤之間貼上此程式碼：
 
    ```html
    <table>
@@ -212,14 +212,14 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/personalization-uc-helpers-11.png)
+   設定每個區塊之後，使用[驗證並儲存]的![運算式編輯器](assets/personalization-uc-helpers-11.png)
 
 ## 步驟5：插入產品專屬附註 {#if-helper}
 
 1. 在電子郵件Designer首頁上，按一下您要插入附註的HTML元件。
 1. 在內容工具列上，按一下&#x200B;**[!UICONTROL 顯示原始程式碼]**。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![包含「顯示原始程式碼」選項的內容工具列](assets/personalization-uc-helpers-3.png)
 
 1. 在&#x200B;**[!UICONTROL 編輯HTML]**&#x200B;視窗中，新增`if`協助程式：
    1. 在左側功能表中，選取&#x200B;**[!UICONTROL 協助程式函式]**。
@@ -235,7 +235,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      具有if協助程式範本![的](assets/personalization-uc-helpers-12.png)運算式編輯器
 
 1. 從運算式移除此條件：
 
@@ -269,7 +269,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      在if條件中有productListItems名稱權杖的![運算式編輯器](assets/personalization-uc-helpers-13.png)
 
 1. 修改運算式：
    1. 在運算式編輯器中，在`name` Token後面指定產品名稱。
@@ -303,7 +303,7 @@ ht-degree: 2%
    1. 從運算式中移除「default_render」預留位置。
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   ![](assets/personalization-uc-helpers-14.png)
+   設定if區塊後![使用「驗證並儲存」編輯HTML視窗](assets/personalization-uc-helpers-14.png)
 
 1. 儲存訊息。
 
@@ -311,19 +311,19 @@ ht-degree: 2%
 
 1. 開啟&#x200B;**[!UICONTROL 測試]**&#x200B;切換，然後按一下&#x200B;**[!UICONTROL 觸發事件]**。
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![開啟測試切換並觸發事件按鈕](assets/personalization-uc-helpers-15.png)
 
 1. 在&#x200B;**[!UICONTROL 事件組態]**&#x200B;視窗中輸入輸入值，然後按一下&#x200B;**[!UICONTROL 傳送]**。
 
    測試模式僅適用於測試設定檔。
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![具有輸入值和傳送按鈕的事件設定視窗](assets/personalization-uc-helpers-16.png)
 
    電子郵件會傳送至測試設定檔的地址。
 
    在此範例中，電子郵件會包含有關Juno Jacket的備註，因為此產品已在購物車中：
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![在郵件內文中顯示Juno Jacket送貨備註的電子郵件範例](assets/personalization-uc-helpers-17.png)
 
 1. 確認沒有錯誤，然後發佈歷程。
 
@@ -342,7 +342,7 @@ ht-degree: 2%
 
 * [Personalization搭配決策型優惠](../offers/offers-e2e.md)
 
-## 作法影片{#video}
+## 作法影片 {#video}
 
 瞭解如何使用協助程式函式。
 
