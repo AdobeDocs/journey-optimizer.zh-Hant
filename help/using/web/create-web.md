@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)

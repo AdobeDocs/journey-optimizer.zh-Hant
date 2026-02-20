@@ -122,7 +122,7 @@ Adobe Journey Optimizer支援所有沙箱中，組織層級每秒5,000個歷程�
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3431513?captions=chi_hant&quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

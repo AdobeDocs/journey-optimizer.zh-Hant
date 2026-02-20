@@ -148,7 +148,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 編輯您的資產。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455534/?captions=chi_hant&quality=12)
 
 
 
