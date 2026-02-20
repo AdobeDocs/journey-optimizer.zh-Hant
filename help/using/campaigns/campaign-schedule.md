@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->此功能處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。
->
 >使用設定檔時區排程僅適用於以下傳出頻道：電子郵件、推播、簡訊、WhatsApp和LINE。
 
 若要啟用設定檔時區排程：
@@ -62,7 +60,9 @@ ht-degree: 7%
 
 **支援的時區識別碼：**
 
-Journey Optimizer會根據標準IANA時區識別碼驗證`profile.timeZone`值。 識別碼區分大小寫，且必須符合官方IANA命名。 由於日光節約規則和歷史更新，位移可能會隨著時間變更。 如需識別碼的正式清單，請參閱[IANA時區資料庫](https://www.iana.org/time-zones){_blank}。
+`profile.timeZone`格式可以是IANA命名或定義為UTC位移。 IANA命名是慣用的格式，因為它會自動針對日光節約規則進行調整。
+
+對於IANA命名，識別碼區分大小寫，且必須符合官方IANA命名。 由於日光節約規則和歷史更新，位移可能會隨著時間變更。 如需識別碼的正式清單，請參閱[IANA時區資料庫](https://www.iana.org/time-zones){_blank}。
 
 ## 設定執行頻率
 
