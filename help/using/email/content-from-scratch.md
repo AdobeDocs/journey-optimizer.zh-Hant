@@ -127,6 +127,6 @@ ht-degree: 49%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [進一步瞭解內容品質驗證](../content-management/brands-score.md#validate-quality)
+1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

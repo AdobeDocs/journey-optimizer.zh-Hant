@@ -242,8 +242,8 @@ ht-degree: 8%
 
 1. 若要編輯其餘的程式碼，請按一下&#x200B;**[!UICONTROL 編輯程式碼]**&#x200B;按鈕，並更新完整的程式碼型體驗內容，包括可編輯的表單欄位。 [了解更多](create-code-based.md#edit-code)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

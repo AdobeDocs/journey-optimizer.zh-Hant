@@ -172,7 +172,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -180,7 +180,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>資料流</p>
+  <p>資料串流</p>
   </td>
   <td>
   <p>使用服務的資料流</p>
@@ -267,7 +267,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -275,7 +275,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>資料流</p>
+  <p>資料串流</p>
   </td>
   <td>
   <p>使用服務的資料流</p>
@@ -362,7 +362,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -370,7 +370,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>資料流</p>
+  <p>資料串流</p>
   </td>
   <td>
   <p>使用服務的資料流</p>

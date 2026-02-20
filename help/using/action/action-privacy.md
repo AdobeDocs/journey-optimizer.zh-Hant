@@ -10,7 +10,7 @@ level: Experienced
 keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
    * 您可以定義&#x200B;**其他行銷動作**&#x200B;來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作 (通常是頻道專用的) 之外，您還可以定義其他行銷動作，這些動作為此特定歷程中的自訂動作專用。 例如：運動訓練通訊、電子報、健身通訊等。 所需的行銷動作與其他行銷動作皆適用。在我們的範例中，我們不使用其他行銷動作。
 
-如果在動作參數中偵測到其中一個標記為 _ePHI1_ (範例中的血液類型欄位) 的欄位，就會顯示錯誤，讓您無法發佈歷程。[了解如何偵測治理原則違規](#violation)
+如果在動作參數中偵測到其中一個標籤為 _ePHI1_ (範例中的血液類型欄位) 的欄位，就會顯示錯誤，讓您無法發佈歷程。[了解如何偵測治理原則違規](#violation)
 
 ![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 

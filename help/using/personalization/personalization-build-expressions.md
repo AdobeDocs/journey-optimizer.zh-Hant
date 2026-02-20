@@ -44,7 +44,7 @@ ht-degree: 10%
 
 +++
 
-+++電子郵件 Designer
++++電子郵件設計工具
 
 在[電子郵件Designer](../email/get-started-email-design.md)中編輯電子郵件內容時，您可以使用內容相關工具列中的圖示，在文字區塊和URL中新增個人化。
 
@@ -154,7 +154,7 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 
 1. **[!UICONTROL 驗證]**：檢查運算式的語法。 請參閱[此章節](../personalization/personalization-build-expressions.md)深入瞭解。
 1. **[!UICONTROL 另存為片段]**：將運算式另存為運算式片段。 請參閱[本節](../content-management/save-fragments.md#save-as-expression-fragment)以進一步瞭解
 1. **[!UICONTROL 字型大小]**：調整編輯器內內容的字型大小，以提高可讀性。
-1. **[!UICONTROL 自動換行]**：啟用或停用自動換行，允許長運算式顯示在單行或包含在編輯器中。 選項包括：
+1. **[!UICONTROL 自動換行]**：啟用或停用自動換行，允許長運算式顯示在單行或包含在編輯器中。 選項包括:
    * **關閉** （預設） — 無自動換行。 長線超出編輯器檢視範圍，需要水準捲動。
    * **On** — 以編輯器的寬度換行。
    * **自動換行** — 當行字元達到80個字元時換行。

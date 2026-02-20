@@ -210,6 +210,6 @@ Webhook可作為Meta的WhatsApp商業平台和Adobe Journey Optimizer之間的�
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470279/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

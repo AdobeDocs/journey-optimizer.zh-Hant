@@ -33,7 +33,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的先決條件。
+>如果這是您第一次建立網頁體驗，請務必遵循[本章節](web-prerequisites.md)所說明的必要條件。
 
 >[!BEGINTABS]
 
@@ -266,4 +266,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 ![](assets/primary-address-execution-fields.png){width=90%}
@@ -98,7 +98,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆寫要使用的預設執行地址"
->abstract="當資料庫中有數個電子郵件地址或電話號碼（個人、專業人員等）時，您可以選擇優先傳送哪一個。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定通道設定的預設設定。"
+>abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定通道設定的預設設定。"
 
 您可以變更特定電子郵件、簡訊或WhatsApp [頻道設定](channel-surfaces.md)的預設執行位址。
 

@@ -13,7 +13,7 @@ ht-degree: 11%
 ---
 
 
-# 讀取對象 {#read-audience}
+# 讀取客群 {#read-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"

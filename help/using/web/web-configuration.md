@@ -99,10 +99,10 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
   | 運運算元  | 說明  | 範例  |
   |---|---|---|
-  | 等於  | 網域的完全相符專案。  | |
-  | 開頭為  | 符合以輸入字串開頭的所有網域（包括子網域）。  | 例如：「開頭為：dev」 ->符合開頭為「dev」的所有網域和子網域，例如：dev.example.com、dev.products.example.com、developer.example.com  |
-  | 結尾為  | 比對以輸入字串結尾的所有網域（包括子網域）。  | 例如：「結尾為：example.com」 ->會比對所有結尾為「example.com」的網域和子網域，例如：stage.example.com、prod.example.com、myexample.com  |
-  | 萬用字元比對  | 「萬用字元符合」運運算元可讓使用者在字串中間定義萬用字元符合，例如「dev」。*.example.com」。 驗證規則是當運運算元為「萬用字元比對」時，值必須包含且僅包含一個萬用字元（星號）。  | 例如：「萬用字元符合： dev.*.example.com&quot; ->會比對下列網域：dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
+  | 等於  | 網域的完全相符專案。   | |
+  | 開頭為  | 符合以輸入字串開頭的所有網域（包括子網域）。   | 例如：「開頭為：dev」 ->符合開頭為「dev」的所有網域和子網域，例如：dev.example.com、dev.products.example.com、developer.example.com  |
+  | 結尾為  | 比對以輸入字串結尾的所有網域（包括子網域）。   | 例如：「結尾為：example.com」 ->會比對所有結尾為「example.com」的網域和子網域，例如：stage.example.com、prod.example.com、myexample.com  |
+  | 萬用字元比對  | 「萬用字元符合」運運算元可讓使用者在字串中間定義萬用字元符合，例如「dev」。*.example.com」。 驗證規則是當運運算元為「萬用字元比對」時，值必須包含且僅包含一個萬用字元（星號）。   | 例如：「萬用字元符合： dev.*.example.com&quot; ->會比對下列網域：dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
   | 任何  | 符合所有網域 — 在跨網域測試特定路徑時很有用  |  |
 
 
@@ -119,7 +119,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
     <tbody>
     <tr>
         <td>等於</td>
-        <td>路徑的確切相符專案。 </td>
+        <td>路徑的確切相符專案。  </td>
         <td></td>
     </tr>
     <tr>

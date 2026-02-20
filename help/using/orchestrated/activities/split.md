@@ -37,7 +37,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
 >title="分割活動限制"
->abstract="若要限制子集選取設定檔的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的族群數量或百分比。"
+>abstract="若要限制子集選取輪廓的數量，請開啟「**[!UICONTROL 啟用限制]**」選項，並指定要包含的族群數量或百分比。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_sorting"

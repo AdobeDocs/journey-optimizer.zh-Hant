@@ -33,12 +33,12 @@ ht-degree: 9%
 
 >[!BEGINTABS]
 
->[!TAB 適用於Adobe Journey Optimizer 的]
+>適用於Adobe Journey Optimizer[!TAB 的]
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign 的]
+>適用於Adobe Campaign[!TAB 的]
 
 * 行銷活動伺服器URL
 * 即時伺服器URL
@@ -61,7 +61,7 @@ ht-degree: 9%
 
 ## 先決條件 {#prerequisites}
 
-在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/zh-hant/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
+在Adobe Campaign中，您必須建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Optimizer中設定動作時，就會貼上此裝載（請參閱下文）。
 

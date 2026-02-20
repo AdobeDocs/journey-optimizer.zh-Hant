@@ -7,7 +7,7 @@ feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
-keywords: 內容，實驗，多個，對象，處理
+keywords: 內容，實驗，多個，客群，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt

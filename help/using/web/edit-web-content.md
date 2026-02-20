@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -172,7 +172,7 @@ ht-degree: 16%
 
 ![](assets/web-designer-device.png)
 
-變更裝置大小的功能是專為可適當呈現在各種裝置、視窗和熒幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何熒幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
+變更裝置大小的功能是專為可適當呈現在各種裝置、視窗和熒幕大小的回應式網站所設計。 回應式網站會自動調整並適應任何螢幕大小，包括桌上型電腦、筆記型電腦、平板電腦或行動電話。
 
 >[!CAUTION]
 >

@@ -24,12 +24,12 @@ ht-degree: 74%
 
 若想這麼做，請使用&#x200B;**[!UICONTROL 建置客群]**&#x200B;目標定位活動。 此活動會定義進入協調行銷活動的對象。 當傳送訊息做為協調行銷活動的一部分時，對象定義在&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動中，而不是在協調行銷活動中。
 
-## 設定建置客群活動 {#build-audience-configuration}
+## 設定建置對象活動 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience_audienceselector"
 >title="客群"
->abstract="選取您的客群，與您設計新傳遞時使用客群的方式相同。"
+>abstract="選取您的對象，與您設計新傳遞時使用對象的方式相同。"
 
 請按照以下步驟設定「**[!UICONTROL 建置客群]**」活動：
 

@@ -28,7 +28,7 @@ ht-degree: 26%
 
 行銷活動&#x200B;**[!UICONTROL 即時報告]**&#x200B;頁面將會顯示以下索引標籤：
 
-* [Campaign](#campaign-live)
+* [促銷活動](#campaign-live)
 * [電子郵件](#email-live)
 * [應用程式內](#inapp-live)
 * [推播](#push-live)
@@ -374,7 +374,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
 >title="推播通知 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 **[!UICONTROL 排除的原因]**&#x200B;圖表和表格會顯示阻止使用者設定檔從目標設定檔排除的原因，導致其在過去24小時內無法接收推播通知。
 
@@ -484,7 +484,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
 >title="簡訊 - 排除原因"
->abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_sms_excluded.png)
 
