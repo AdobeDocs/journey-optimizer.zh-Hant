@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 3%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -217,10 +217,6 @@ Some edu specific content
 ```
 
 ## 執行中繼資料 {#execution-metadata}
-
->[!AVAILABILITY]
->
->此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
 `executionMetadata`協助程式允許動態擷取自訂索引鍵值配對，並將其儲存到訊息執行內容中。
 
