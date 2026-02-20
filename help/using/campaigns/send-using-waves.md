@@ -4,11 +4,11 @@ product: journey optimizer
 title: 使用波段傳送
 description: 排程輸出行銷活動訊息，以控制的批次隨時間傳遞。 波次傳送支援傳遞能力，並有助於維持傳送者信譽。
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: 波段，批次，排程，行銷活動，歷程，傳遞能力
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
