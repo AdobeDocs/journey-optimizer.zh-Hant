@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '815'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,12 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >設定傳送率時，行銷活動對象可執行的時間範圍上限為12小時。 如果傳送率設為不允許在12小時時間範圍內傳送訊息的所有對象的值，則剩餘的設定檔將會從行銷活動中排除。 您可以在行銷活動報告中檢視這些排除的設定檔計數。
+
+## 使用波段傳送
+
+若要隨著時間分批傳送行銷活動訊息，而非一次傳送所有訊息，您可以使用波動傳送。 這有助於平衡負載、支援傳遞能力，並避免壓倒性的下游系統（例如呼叫中心或登陸頁面）。 您可以定義波次的數目、其大小（以百分比或絕對數表示），以及每個波次的排程。
+
+[瞭解如何使用波段傳送](send-using-waves.md)。
 
 ## 後續步驟 {#next}
 

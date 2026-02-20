@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 15%
+source-wordcount: '2885'
+ht-degree: 14%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 15%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -189,7 +189,7 @@ ht-degree: 15%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -351,7 +351,12 @@ ht-degree: 15%
 
 ## 歷程排程 {#schedule}
 
-**[!UICONTROL 排程]**&#x200B;區段僅在畫布中捨棄&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動時可用。 它可讓您定義歷程應執行的特定日期/時間和頻率。 [瞭解如何排程讀取對象歷程](../building-journeys/read-audience.md)
+**[!UICONTROL 排程]**&#x200B;區段僅在畫布中捨棄&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動時可用。 它可讓您定義歷程應執行的特定日期/時間和頻率。 [瞭解如何排程讀取對象歷程](read-audience.md#schedule)
+
+>[!TIP]
+>
+>排程歷程時，您也可以設定波形傳送，以隨著時間分批傳送歷程動作。 [瞭解如何在歷程中使用波段傳送](send-using-waves.md)
+
 
 ## 衝突管理 {#conflict}
 

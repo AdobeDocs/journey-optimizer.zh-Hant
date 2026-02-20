@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
       + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
       + [設定您的歷程屬性](using/building-journeys/journey-properties.md)
+      + [在歷程中使用波段傳送](using/building-journeys/send-using-waves.md)
       + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
       + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
       + [安排行銷活動](using/campaigns/campaign-schedule.md)
+      + [使用波段傳送](using/campaigns/send-using-waves.md)
       + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
    + 由 API 觸發的行銷活動 {#api-triggered-campaigns}
       + [由 API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
