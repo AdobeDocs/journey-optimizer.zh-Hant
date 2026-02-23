@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86717d6a218fcbaf59321412b74db4941c859333
+source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1585'
 ht-degree: 34%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 34%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -209,7 +209,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 內容管理
 
-* **使用新的顏色索引標籤更新品牌** - 品牌指引有助於確保您的品牌在所有接觸點上保持一致的呈現。新的<strong>色彩</strong>區段定義您品牌色彩系統的標準，概述如何跨體驗選擇、組織及套用色彩。 它可確保主色、次色、輔色和中性色的一致使用，以支援有凝聚力、可存取且可辨識的品牌識別。 [閱讀全文](../content-management/brands.md)
+<!--
+* **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
+-->
 
 * **使用主題將影像轉換為電子郵件範本** — 在Journey Optimizer中將影像轉換為電子郵件範本時，您現在可以使用主題作為輸入，讓產生的HTML遵循您的品牌引數。 系統會自動套用背景顏色、按鈕顏色、字型、行距、邊界及邊框間距等樣式，減少手動設計工作，並提供可立即使用且只需少量編輯的範本。 [閱讀全文](../content-management/image-to-html.md)
 
