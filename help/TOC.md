@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [透過瀏覽活動與客戶互動](using/orchestrated/engage-customers-uc.md)
          + [通知使用者產品可用性](using/orchestrated/product-availability-uc.md)
 + 衝突與優先順序 {#conflict-prioritization}
-   + [衝突管理與優先順序](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [開始使用衝突管理和優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [衝突管理與優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
    + [指派優先順序分數](using/conflict-prioritization/priority-scores.md)
    + 設定訊息和歷程上限規則 {#capping-rules}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [設定管道設定](using/configuration/channel-surfaces.md)
    + [匯出訊息內容](using/configuration/message-export.md)
    + 引導式管道設定 {#guided-setup}
-      + [引導式管道設定](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)
       + [建立管道設定](using/configuration/create-channel-set-up.md)
    + 委派電子郵件子網域 {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [歷程中的行銷活動 v7/v8 動作](using/action/acc-action.md)
       + [歷程中的 Marketo Engage 動作](using/action/marketo-engage.md)
    + 沙箱管理 {#sandbox}
-      + [沙箱管理](/help/rp_landing_pages/sandbox-landing-page.md)
       + [使用並指派沙箱](using/administration/sandboxes.md)
       + [將物件匯出至另一個沙箱](using/configuration/copy-objects-to-sandbox.md)
    + [設定來源連接器](using/start/get-started-sources.md)
