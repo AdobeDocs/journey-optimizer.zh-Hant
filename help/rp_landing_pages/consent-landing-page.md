@@ -5,22 +5,24 @@ title: 管理同意
 description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 531e6f77af1d2a0f4ddf4f208e13feaa57326dee
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 29%
 
 ---
 
 # 管理同意{#section-overview}
 
-管理同意是建立與客群之間的信任關係，同時確保遵循隱私權法規的關鍵。在 Adobe Journey Optimizer 中，您可以順暢地處理選擇退出偏好設定和個人化同意，確保客戶只會收到他們想要和期望的通訊。本節將細分如何管理電子郵件、簡訊和推播通知的取消訂閱、在行銷活動中實作個人化同意，以及使用如細分和決策範圍等工具負責任地量身打造體驗。無論您是保障合規性還是增強使用者體驗，都能找到實用步驟，打造有意義、關注隱私權的客戶歷程。
+管理同意是建立與受眾之間信任關係的關鍵，同時可確保遵守GDPR等隱私權法規。 Adobe Journey Optimizer中的同意可與[隱私權管理](../using/privacy/get-started-privacy.md) （包括[資料要求](../using/privacy/requests.md)和[稽核記錄](../using/privacy/audit-logs.md)）以及[資料治理](../using/action/action-privacy.md)原則搭配使用，這些原則可保護敏感欄位不匯出至協力廠商系統。
+
+您可以透過三種方式處理同意： **電子郵件、簡訊和推播取消訂閱的選擇退出偏好設定**；**同意原則**&#x200B;套用至您的行銷活動和歷程，以控制資料使用和行銷動作；以及&#x200B;**偏好設定管理**，根據客戶選擇的訂閱主題和管道來鎖定客戶。 以下主題將引導您完成每個步驟。
 
 ## 管理同意
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理選擇退出和個人化同意
 
@@ -30,7 +32,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用同意原則
 
@@ -39,4 +41,21 @@ ht-degree: 100%
 [探索同意原則](../using/action/consent.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+管理客戶的偏好設定
+
+瞭解如何使用同意政策管理訂閱主題和管道偏好設定，以便根據客戶的選擇鎖定客戶，同時尊重其同意。
+
+[管理客戶的偏好設定](../using/action/preference-center.md)
+:::
+
 ::::
+
+## 其他資源
+
+- **[開始使用隱私權](../using/privacy/get-started-privacy.md)** - Journey Optimizer中的隱私權管理概觀，包括資料請求和稽核記錄。
+- **[資料控管](../using/action/action-privacy.md)** — 保護敏感欄位，避免透過自訂動作匯出至協力廠商系統。
+- **[管理電子郵件選擇退出](../using/email/email-opt-out.md)** — 設定電子郵件特定的選擇退出和取消訂閱處理。
+- **[管理文字訊息選擇退出](../using/sms/sms-opt-out.md)** — 設定SMS/MMS/RCS選擇退出和取消訂閱處理。
