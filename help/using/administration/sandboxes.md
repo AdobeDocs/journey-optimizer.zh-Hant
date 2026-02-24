@@ -9,14 +9,16 @@ role: Admin, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 28%
+source-wordcount: '406'
+ht-degree: 22%
 
 ---
 
 # 使用並指派沙箱 {#sandboxes}
+
+**沙箱**&#x200B;是將您的Adobe Journey Optimizer執行個體分割成個別、獨立的工作區的虛擬環境，以用於開發、測試或生產。 您會在&#x200B;**管理** > **管道** > **連線您的系統和環境** （或透過介面右上角的沙箱切換器）下找到沙箱管理。 沙箱可協助您安全地實驗、為每個角色指派不同的存取權，並讓內容保持井然有序。 本頁涵蓋如何使用及指派沙箱、設定內容存取權，以及在[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)文章中，如何複製沙箱之間的歷程及範本。
 
 ## 使用沙箱 {#using-sandbox}
 
