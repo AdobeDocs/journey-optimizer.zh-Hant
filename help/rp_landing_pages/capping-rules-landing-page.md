@@ -5,22 +5,24 @@ title: 設定訊息和歷程上限規則
 description: 設定訊息和歷程上限規則
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 38%
 
 ---
 
 # 設定訊息和歷程上限規則{#section-overview}
 
-在 Adobe Journey Optimizer 中管理訊息和歷程上限規則有助於確保您的客戶獲得正確的通訊量，而不會感到不知所措。透過設定傳送訊息的頻率或輪廓可輸入歷程數量的限制，您可以維持客戶參與度，同時避免過度通訊。本節介紹強大的工具，例如依管道的頻率限定、歷程進入限制和優先順序策略，提供有關如何有效建立和套用這些規則的明確指引。無論您是要微調個別行銷活動還是套用全球規則，您都將了解如何順暢地平衡客戶體驗推廣。
+上限規則是[衝突管理與優先順序](../using/conflict-prioritization/gs-conflict-prioritization.md)的一部分 — 它們有助於確保客戶獲得適當的通訊量，而不會感到不知所措。 在套用規則之前，請使用[衝突偵測工具](../using/conflict-prioritization/conflicts.md)來識別重疊的歷程與行銷活動。 當多個通訊符合約一個設定檔的資格時，[優先順序分數](../using/conflict-prioritization/priority-scores.md)會決定哪個訊息會先傳遞。
+
+您可以設定傳送訊息的頻率（頻率上限）、設定檔可以進入的歷程數（歷程上限）以及訊息封鎖的時間（無訊息時數）限制。 規則會分組到&#x200B;**規則集**&#x200B;並套用至行銷活動或歷程。 如需外部系統的程式化控制，請參閱[上限API](../using/configuration/capping.md)。
 
 ## 設定訊息和歷程上限規則
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用規則集
 
@@ -30,7 +32,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 歷程上限與仲裁
 
@@ -40,7 +42,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 依據管道的頻率限定
 
@@ -49,4 +51,20 @@ ht-degree: 100%
 [設定頻率限定](../using/conflict-prioritization/channel-capping.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+設定無訊息時數
+
+定義以時間為基礎的電子郵件、簡訊、推播和WhatsApp排除專案，以便在特定期間不會傳送任何訊息，考量客戶偏好和法規遵循。
+
+[設定勿打擾時間](../using/conflict-prioritization/quiet-hours.md)
+:::
+
 ::::
+
+## 其他資源
+
+- **[開始衝突管理與優先順序](../using/conflict-prioritization/gs-conflict-prioritization.md)** — 衝突偵測、優先順序分數和規則集概觀。
+- **[識別潛在衝突](../using/conflict-prioritization/conflicts.md)** — 在套用上限規則之前偵測重疊的歷程和行銷活動。
+- **[指派優先順序分數](../using/conflict-prioritization/priority-scores.md)** — 控制當設定檔符合多個通訊的資格時，哪個歷程或行銷活動優先。
