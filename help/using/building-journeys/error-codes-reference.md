@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2383'
 ht-degree: 1%
 
 ---
@@ -139,11 +139,7 @@ ht-degree: 1%
 
 6. **在適當時重試**：對於500系列錯誤，幾分鐘後簡單的重試通常可解決暫時性問題。
 
-7. **必要時上報**：如果在執行解決步驟後錯誤仍然存在，請聯絡Adobe支援：
-   * 完成錯誤代碼
-   * 請求ID （若有）
-   * 重現問題的步驟
-   * 相關設定詳細資料
+7. **必要時上報**：如果在執行解決步驟後錯誤持續存在，[請聯絡Adobe支援](../start/user-interface.md#support-ticket-guidelines)，並提供完整的錯誤代碼、請求ID （如果有的話）、要再現的步驟及相關設定詳細資料。
 
 ## 避免常見錯誤的最佳實務 {#best-practices}
 
@@ -187,14 +183,14 @@ ht-degree: 1%
 1. **收集資訊**：收集錯誤碼、請求ID、時間戳記和要再現的步驟
 2. **檢查系統狀態**：造訪[Adobe狀態](https://status.adobe.com/){target="_blank"}瞭解已知的服務問題
 3. **搜尋檔案**：檢閱[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant){target="_blank"}以瞭解解決方案
-4. **參與社群**：在[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中張貼問題
-5. **聯絡Adobe支援**：提交支援票證並附上所有相關詳細資料
+4. **參與社群**：在[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中張貼問題
+5. **聯絡Adobe支援**： [提交支援票證](../start/user-interface.md#support-ticket-guidelines)並提供所有相關詳細資料
 
 >[!NOTE]
 >
->當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[[!DNL Adobe Journey Optimizer] 社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hant){target="_blank"}。
+>當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[[!DNL Adobe Journey Optimizer] 社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相關主題**
 
-* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant){target="_blank"}部分
-* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hant){target="_blank"}
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}部分
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}

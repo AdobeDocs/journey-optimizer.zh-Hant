@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 9%
@@ -42,7 +42,7 @@ ht-degree: 9%
 | 版本ID | 字串 | 歷程版本的ID。 此ID代表歷程的身分 |
 | 名稱 | 字串 | 歷程的名稱 |
 | 說明 | 字串 | 歷程描述 |
-| 版本 | 字串 | 版本，表示為`major`.`minor` |
+| version | 字串 | 版本，表示為`major`.`minor` |
 
 ## 設定檔 {#profile-field}
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
@@ -99,7 +99,7 @@ ht-degree: 9%
 
   **常見原因**：重複的事件、大量事件、系統資源限制。
 
-  **疑難排解**：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、若持續發生，請聯絡支援人員。
+  **疑難排解**：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、[連絡支援人員](../start/user-interface.md#support-ticket-guidelines) （若持續進行）。
 
 * **EVENT_WITH_NO_JOURNEY**：已收到事件，但未設定使用中歷程來回應
 

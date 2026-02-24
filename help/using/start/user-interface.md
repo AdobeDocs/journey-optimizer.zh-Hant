@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,19 @@ Journey Optimizer 介面包含四個主要區域：
 * 聯絡 Adobe 支援
 * 分享意見回饋
 
+內容說明會顯示與您檢視的畫面相關的指引，並直接連結至對應的檔案，因此您不需要離開工作流程即可取得正確的資訊。
+
 ![內容說明範例](assets/do-not-localize/Context-help.gif)
+
+### 支援票證准則 {#support-ticket-guidelines}
+
+聯絡Adobe支援時，請包含下列專案以加速根本原因分析和解決：
+
+* **環境詳細資料** — 沙箱名稱、組織ID和產品區域（例如歷程、行銷活動、決策）
+* **影響層級** — 問題的嚴重性（例如，生產遭到封鎖、功能有限、裝飾）
+* **復寫步驟** — 清除、逐步指示以重現問題
+* **記錄檔或熒幕擷取畫面** — 說明問題的相關錯誤訊息、請求ID或熒幕擷取畫面
+* **相關ID** — 歷程ID、行銷活動ID、對象ID或與問題相關的其他物件識別碼
 
 ### 通知 {#notifications}
 

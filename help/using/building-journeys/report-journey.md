@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 * **歷程狀態**：報告資料僅適用於在[試執行模式](journey-dry-run.md)中執行的已發佈歷程或歷程。 歷程草稿不會產生報告資料。
 
-如果在驗證這些專案後問題仍然存在，請聯絡您的Adobe管理員或Adobe支援以尋求協助。
+如果在驗證這些專案後問題仍然存在，請聯絡您的Adobe管理員或[Adobe支援](../start/user-interface.md#support-ticket-guidelines)以尋求協助。
 
 >[!MORELIKETHIS]
 >
