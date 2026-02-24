@@ -118,12 +118,12 @@ ht-degree: 85%
 
 >[!BEGINTABS]
 
->適用於iOS[!TAB 的]
+>[!TAB 適用於iOS 的]
 
 * Mobile Core v5.2.0 或更新版本
 * Adobe Journey Optimizer v5.1.1 或更新版本
 
->適用於Android[!TAB 的]
+>[!TAB 適用於Android 的]
 
 * Mobile Core v3.1.0 或更新版本
 * Adobe Journey Optimizer v3.1.0 或更新版本
