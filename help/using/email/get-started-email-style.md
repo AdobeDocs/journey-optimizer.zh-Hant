@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、樣式、css、內文、結構
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ ht-degree: 100%
 
 您可將變更套用至電子郵件內文、結構元件或內容元件。
 
-![](assets/email_designer_content_components_styles.png)
+選取電子郵件中的任何專案，然後按一下&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤。 所選元素的所有樣式選項都會顯示在右窗格中。
 
-請依照下列連結，了解如何調整電子郵件的某些樣式設定。
+![](assets/email_designer_styles.png)
+
+例如，如果您選取文字元件：
+
+* 您可以調整該段落的&#x200B;**[!UICONTROL 背景顏色]**&#x200B;和&#x200B;**[!UICONTROL 字型顏色]**；
+* 您可以更新&#x200B;**[!UICONTROL Text]**&#x200B;引數，例如字型系列、大小、高度、對齊方式等，並使用&#x200B;**[!UICONTROL 縮排]**&#x200B;設定來管理行上第一個字元前的間距；
+* 您也可以調整文字元件的&#x200B;**[!UICONTROL Border]**、**[!UICONTROL Margin]**&#x200B;和&#x200B;**[!UICONTROL Padding]**&#x200B;等選項。
+
+如果您使用預設的[內容範本](use-email-templates.md)，或是將主題套用至電子郵件，您只能調整一些樣式設定以符合選取的主題。 [進一步了解主題](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+請依照下列連結探索如何調整電子郵件中的某些特定樣式設定。
 
 * 了解如何[個人化您的電子郵件背景](backgrounds.md)
 * 了解如何[管理垂直對齊方式及邊框間距](alignment-and-padding.md)
