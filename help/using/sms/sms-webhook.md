@@ -7,14 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
+source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
 # 建立 Webhook {#webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_sms_webhook_settings_create"
+>title="建立SMS Webhook"
+>abstract="您可以設定Webhook擷取傳入回應，以管理選擇加入和選擇退出同意，並接收傳遞報表，包括可用的讀取回條。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_flow_type"
+>title="選擇您的Webhook型別"
+>abstract="設定webhook時，請選擇&#x200B;**傳入**&#x200B;以擷取同意回應和使用者偏好設定，或選擇&#x200B;**[!UICONTROL 回饋]**&#x200B;以追蹤傳遞和參與事件以進行報告和分析。"
 
 >[!BEGINSHADEBOX]
 
