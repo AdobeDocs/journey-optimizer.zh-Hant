@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
+source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -34,25 +34,25 @@ ht-degree: 85%
 「引導式管道設定」支援下列平台和管道。
 
 >[!BEGINTABS]
->
+
 >[!TAB iOS]
->
->**SDK：** Swift by Apple
->
->**頻道：**&#x200B;行動應用程式內、行動推播訊息
->
+
+**SDK：** Swift by Apple
+
+**頻道：**&#x200B;行動應用程式內、行動推播訊息
+
 >[!TAB Android]
->
->**SDK：** Kotlin
->
->**頻道：**&#x200B;行動應用程式內、行動推播訊息
->
+
+**SDK：** Kotlin
+
+**頻道：**&#x200B;行動應用程式內、行動推播訊息
+
 >[!TAB 網頁]
->
->**SDK：** Javascript
->
->**管道：** Web基本
->
+
+**SDK：** Javascript
+
+**管道：** Web基本
+
 >[!ENDTABS]
 
 請注意，您想要設定的每個平台都需要建立個別的設定。這是因為每個應用程式都需要獨特的管道設定，這樣就能靈活地決定您想要用於每個平台的管道。
