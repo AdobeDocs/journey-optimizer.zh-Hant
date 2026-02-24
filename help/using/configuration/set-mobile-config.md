@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -118,15 +118,17 @@ ht-degree: 85%
 
 >[!BEGINTABS]
 
->[!TAB 適用於iOS 的]
+>適用於iOS[!TAB 的]
 
 * Mobile Core v5.2.0 或更新版本
 * Adobe Journey Optimizer v5.1.1 或更新版本
 
->[!TAB 適用於Android 的]
+
+>適用於Android[!TAB 的]
 
 * Mobile Core v3.1.0 或更新版本
 * Adobe Journey Optimizer v3.1.0 或更新版本
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ ht-degree: 85%
 
 此設定簡化行銷管道的快速設定，使所有基本資源都能隨時在 Experience Platform、Journey Optimizer 和資料彙集應用程式中使用。這可讓行銷團隊快速開始建立行銷活動與歷程。以下是進行引導式管道設定時自動產生和設定的資源清單。
 
-瀏覽下列標籤，存取所有自動產生資源的完整清單：
+瀏覽下列標籤以存取自動產生之所有資源的完整清單：
 
 >[!BEGINTABS]
 
