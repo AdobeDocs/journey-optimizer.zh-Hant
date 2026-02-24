@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="將 Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實作，以及模擬和驗證應用程式事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
 
-此設定有助快速設定行銷頻道，確保隨時在都能在 Experience Platform、Journey Optimizer 資料收集取得所有必要資源。這可讓您的行銷團隊開始建立行銷活動和歷程。
+**引導式管道設定**&#x200B;是Adobe Journey Optimizer中簡化的工作流程，可協助您快速設定行動裝置和網頁行銷管道。 它位於&#x200B;**管理** > **管道** > **管道設定**&#x200B;之下，並會在Adobe Experience Platform、Journey Optimizer和資料收集中自動建立基本資源，例如標籤屬性、資料串流和管道設定。 您不必手動設定每個元件，而是依照引導式流程為您設定所有內容，讓行銷團隊可以開始建立應用程式內訊息、推播通知和Web體驗，而不需延遲。
 
-「引導式管道」設定支援下列平台與管道。
+「引導式管道設定」支援下列平台和管道。
 
 * 平台與 SDK：
 
