@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1068'
 ht-degree: 12%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
+>所有原生管道現在都可透過動作歷程活動存取。 舊版原生管道活動將在3月版本中停用。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
 
 ## 將動作新增至歷程  {#add-action}
 

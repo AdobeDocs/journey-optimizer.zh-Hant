@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 9%
@@ -32,6 +32,8 @@ ht-degree: 9%
 >[!TAB 新增電子郵件至歷程]
 
 1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動。
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. 提供訊息的基本資訊（標籤、說明、類別）。
 

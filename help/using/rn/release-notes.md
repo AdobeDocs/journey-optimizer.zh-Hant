@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1594'
 ht-degree: 35%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 35%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
-### 新功能 {#feb-26-01-features}
+### 全新功能 {#feb-26-01-features}
 
 
 <!--
@@ -57,6 +57,33 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 -->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的動作活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和多動作傳入動作群組，以簡化歷程畫布中的動作設定。 尤其是這項新功能允許：</p>
+<ul>
+<li>簡化歷程畫布中的原生動作設定。</li>
+<li>容量用來建立多動作傳入動作群組。</li>
+<li>能夠將最佳化新增至任何內建管道動作。</li>
+<li>能夠新增實驗和多語言選項至任何動作。</li>
+</ul>
+<p><img src="assets/do-not-localize/action-activity.gif"/></p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a>。</p>
+<p>推出日期：2026年2月20日</p>
+<p><strong>注意：</strong>所有原生頻道現在都可透過動作歷程活動存取。 舊版原生管道活動將在3月版本中停用。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -259,6 +286,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
+<th><strong>歷程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用<strong>排名公式</strong>，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2026年2月25日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey Agent：建立管道內容</strong><br/></th>
 </tr>
 </thead>
@@ -266,47 +311,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-<p>推出日期：2026年3月初</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>排名公式</strong> <!--and <strong>AI models</strong> -->，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>推出日期：2026年3月初</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程中的動作活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer支援新的通用<strong>動作活動</strong>，可讓您設定單一動作和多動作傳入動作群組，以簡化歷程畫布中的動作設定。 尤其是這項新功能允許：</p>
-<ul>
-<li>簡化歷程畫布中的原生動作設定。</li>
-<li>容量用來建立多動作傳入動作群組。</li>
-<li>能夠將最佳化新增至任何內建管道動作。</li>
-<li>能夠新增實驗和多語言選項至任何動作。</li>
-</ul>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>推出日期：2026年3月初</p>
 </td>
 </tr>
