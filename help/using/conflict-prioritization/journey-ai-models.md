@@ -60,7 +60,7 @@ ht-degree: 4%
    * **曝光事件** （顯示的專案）
    * **轉換事件** （導致點按或轉換的專案）
 
-   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概觀。
+   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
 
 1. 選取轉換和曝光事件收集所在的資料集。 在[本節](../experience-decisioning/data-collection/create-dataset.md)中瞭解如何建立這類資料集。
 
