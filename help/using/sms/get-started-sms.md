@@ -212,7 +212,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
 
 +++
 
