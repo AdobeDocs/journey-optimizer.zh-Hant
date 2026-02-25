@@ -6,7 +6,7 @@ description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [使用動作歷程活動](help/using/building-journeys/journey-action.md) - 10月14日
 - [暫停歷程](help/using/building-journeys/journey-pause.md) - 10月13日
 - [開始使用歷程](help/using/building-journeys/journey.md) - 10月27日
-- [將內建頻道動作新增至歷程](help/using/building-journeys/journeys-message.md) - 10月29日
+- [將內建頻道動作新增至歷程](help/using/building-journeys/journey-action.md) - 10月29日
 - [最佳化活動](help/using/building-journeys/optimize.md) - 10月22日
 - [在歷程中使用對象](help/using/building-journeys/read-audience.md) - 10月17日
 - [傳送時間最佳化](help/using/building-journeys/send-time-optimization.md) - 10月28日

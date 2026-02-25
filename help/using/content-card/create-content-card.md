@@ -1,19 +1,19 @@
 ---
-title: 建立內容卡片
+title: 建立內容卡
 description: 瞭解如何在Journey Optimizer中製作內容卡片及編輯其內容
 topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1467'
 ht-degree: 12%
 
 ---
 
-# 建立內容卡片 {#create-content-card}
+# 建立內容卡 {#create-content-card}
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,25 @@ ht-degree: 12%
 
 若要將內容卡新增至歷程，請遵循下列步驟：
 
-1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 卡片]**&#x200B;活動。
+1. 開啟您的[歷程](../building-journeys/journey-gs.md)，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
+
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL 卡片]**&#x200B;作為動作型別。
 
    ![](assets/content-card-jo-1.png)
 
-1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+   >[!NOTE]
+   >
+   >由於&#x200B;**卡片**&#x200B;是傳入體驗活動，因此它附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 選擇要使用的[內容卡組態](content-card-configuration.md)。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
+
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選擇或建立要使用的內容卡片設定。 [了解更多](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ ht-degree: 12%
 
    1. 按一下&#x200B;**[!UICONTROL 建立群組]**，將觸發程式群組在一起。
 
-1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，將一或多個輸入動作新增至內容卡。 [了解更多](../building-journeys/journey-action.md#multi-action)
 
-1. 在內容卡準備好後，完成設定並發佈您的歷程以將其啟用。
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 新增內容卡片至行銷活動]
 
@@ -118,7 +130,7 @@ ht-degree: 12%
 
 1. 選取或建立新的[內容卡組態](content-card-configuration.md)。
 
-1. 若要測試訊息的內容，請按一下[建立實驗]。**&#x200B;** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
+1. 若要測試訊息的內容，請按一下[建立實驗]。**** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
 
 1. 啟用「**[!UICONTROL 啟用其他傳遞規則]**」選項，然後選取「**[!UICONTROL 編輯規則]**」以定義何時應顯示、解除或永久隱藏您的訊息。
 

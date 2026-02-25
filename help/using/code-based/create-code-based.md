@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 8%
+source-wordcount: '864'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 8%
 
 1. 以[事件](../building-journeys/general-events.md)或[讀取對象](../building-journeys/read-audience.md)活動來開始您的歷程。
 
-1. 從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段，拖放&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;活動。
+1. 從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
+
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;作為動作型別。
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,9 +45,11 @@ ht-degree: 8%
    >
    >由於&#x200B;**程式碼型體驗**&#x200B;是傳入體驗活動，因此會附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
 
-1. 選取或建立要使用的程式碼型體驗設定。 [了解更多](code-based-configuration.md)
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的程式碼型體驗設定。 [了解更多](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
@@ -53,11 +61,11 @@ ht-degree: 8%
 
    您也可以使用現有的內容範本作為程式碼內容的基礎。 請注意，可供選擇的範本會根據預先選擇的管道設定，限定為HTML或JSON的範圍。 [瞭解如何使用內容範本](../content-management/use-content-templates.md)
 
-1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，將一或多個輸入動作新增至程式碼型體驗。 [了解更多](../building-journeys/journey-action.md#multi-action)
 
-1. 一旦您的程式碼型體驗準備就緒，請完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publish-journey.md)
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 建立以程式碼為主的體驗活動]
 
@@ -85,7 +93,7 @@ ht-degree: 8%
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
+如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 ➡️ [在此影片中瞭解如何建立程式碼型體驗行銷活動](#video)
 
@@ -145,4 +153,4 @@ ht-degree: 8%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

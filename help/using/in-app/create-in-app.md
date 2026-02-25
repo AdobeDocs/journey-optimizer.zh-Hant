@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 12%
+source-wordcount: '2178'
+ht-degree: 11%
 
 ---
 
@@ -31,23 +31,31 @@ ht-degree: 12%
 
 若要在歷程中新增應用程式內訊息，請遵循下列步驟：
 
-1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 應用程式內]**&#x200B;活動。
+1. 開啟您的[歷程](../building-journeys/journey-gs.md)，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
 
-   當設定檔到達其歷程結尾時，顯示給設定檔的任何應用程式內訊息都會自動過期。 因此，會在應用程式內活動後自動新增等待活動，以確保適當的時機。
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL 應用程式內]**&#x200B;作為動作型別。
 
    ![](assets/in_app_journey_1.png)
 
-1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+   >[!NOTE]
+   >
+   >當設定檔到達其歷程結尾時，顯示給設定檔的任何應用程式內訊息都會自動過期。 因此，會在您的應用程式內動作後自動新增3天&#x200B;**等待**&#x200B;活動，以確保適當的時機。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 選擇要使用的[應用程式內設定](inapp-configuration.md#channel-prerequisites)。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
+
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的應用程式內設定。 [了解更多](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. 您現在可以使用&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計您的內容。 [了解更多](design-in-app.md)
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-in-app.md)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯觸發程式]**，選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。
-
-   ![](assets/in_app_journey_4.png)
+1. 按一下&#x200B;**[!UICONTROL 編輯觸發程式]**，選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。 [了解更多](design-in-app.md)
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
@@ -69,7 +77,7 @@ ht-degree: 12%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -113,11 +121,11 @@ ht-degree: 12%
       * **[!UICONTROL 顯示一次]**：此訊息只會為每個使用者工作階段顯示一次，並在所有視窗或活動中保持可見，直到關閉為止。 若要將其限制在特定熒幕或使其自動解除，請使用自訂邏輯搭配傳訊委派。
       * **[!UICONTROL 顯示至點進為止]**：當&#x200B;**[!UICONTROL 行動應用程式觸發程式]**&#x200B;下拉式清單中選取的事件發生時，顯示此訊息，直到SDK傳送互動事件並執行「已點按」動作為止。
 
-1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，將一或多個輸入動作新增至應用程式內訊息。 [了解更多](../building-journeys/journey-action.md#multi-action)
 
-1. 應用程式內訊息準備就緒後，請完成設定並發佈您的歷程以將其啟用。
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
-如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!NOTE]
 >
@@ -175,7 +183,7 @@ ht-degree: 12%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -228,6 +236,8 @@ ht-degree: 12%
 
    ![](assets/in_app_create_4.png)
 
+如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
+
 >[!ENDTABS]
 
 ## 作法影片{#video}
@@ -236,7 +246,7 @@ ht-degree: 12%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451893?captions=chi_hant&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ ht-degree: 12%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?captions=chi_hant&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

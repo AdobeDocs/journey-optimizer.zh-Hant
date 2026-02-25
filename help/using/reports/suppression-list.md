@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 11%
@@ -57,9 +57,9 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 已隱藏]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journeys-message.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
+>訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 已隱藏]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journey-action.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
 >
->深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}。
+>深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。 若要找出所有排除案例的原因，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}。
 
 ### 傳遞失敗 {#delivery-failures}
 

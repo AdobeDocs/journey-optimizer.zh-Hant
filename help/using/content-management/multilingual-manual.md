@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -85,7 +85,7 @@ ht-degree: 2%
    >
    >這些先決條件僅是應用程式內和內容卡管道的必要條件。
 
-   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 設定好多語言內容後，您就可以著手製作行銷活動或歷程，並針對每個選取的地區設定自訂內容。
 
-1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journeys-message.md)。
+1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-action.md)。
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-6.png)
 
-1. 若要停用您的多語言組態，請按一下[新增語言] **&#x200B;**，然後選取要保留為當地語言的語言。
+1. 若要停用您的多語言組態，請按一下[新增語言] ****，然後選取要保留為當地語言的語言。
 
    ![](assets/multilingual-campaign-7.png)
 

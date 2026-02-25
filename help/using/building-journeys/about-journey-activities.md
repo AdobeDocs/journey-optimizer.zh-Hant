@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '717'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 15%
 
 從浮動視窗的畫面左側，有下列協調活動：
 
-<!--* [Optimize](optimize.md)-->
+* [最佳化](optimize.md)
 * [讀取對象](read-audience.md)
 * [等待](wait-activity.md)
 * [內容決策](content-decision.md)
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 從畫面左側的浮動視窗，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，您可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
-* [內建管道動作](../building-journeys/journeys-message.md)
+* [可從](../building-journeys/journey-action.md)動作&#x200B;**活動中取得的內建頻道動作**
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ ht-degree: 15%
 
 ### 新增替代路徑
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[此節](../building-journeys/using-the-journey-designer.md#paths)
 
 ![在條件活動屬性中新增替代路徑選項](assets/journey42.png)
 
@@ -121,4 +121,4 @@ ht-degree: 15%
 
 在此頁面[上瞭解如何疑難排解活動及歷程](troubleshooting.md)中的錯誤。
 
-另請參閱&#x200B;**[監視與疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**。
+另請參閱[監視與疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

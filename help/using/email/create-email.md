@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -31,23 +31,35 @@ ht-degree: 9%
 
 >[!TAB 新增電子郵件至歷程]
 
-1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動。
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
 
-1. 提供訊息的基本資訊（標籤、說明、類別）。
-
-1. 選擇或建立[電子郵件組態](email-settings.md)。
+1. 選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作型別。
 
    ![](assets/email_journey.png)
 
-   依預設，此欄位會預先填入使用者用於該管道的最後一個設定。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
 
->[!NOTE]
->
->您可以使用傳送時間最佳化選項，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，以最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/send-time-optimization.md)
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
 
-如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的電子郵件設定。 [了解更多](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. 此外：
+
+   * 您可以在&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中選取規則集，將上限規則套用至您的電子郵件動作。 [了解更多](../conflict-prioritization/channel-capping.md)
+
+   * 您可以使用&#x200B;**[!DNL Send time optimization]**&#x200B;選項，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，以最大化參與度。 [了解作法](../building-journeys/send-time-optimization.md)
+
+1. 選取「**[!UICONTROL 編輯內容]**」按鈕，並視需要使用「電子郵件Designer」建立您的內容。 [了解更多](#define-email-content)
+
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 新增電子郵件至行銷活動]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
+如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->若要透過電子郵件開啟和/或互動追蹤收件者的行為，請確定&#x200B;**[!UICONTROL 追蹤]**&#x200B;區段中的專用選項已在歷程的[電子郵件活動](../building-journeys/journeys-message.md)或電子郵件[行銷活動](../campaigns/create-campaign.md).<!--to move?-->中啟用
+>若要透過電子郵件開啟和/或互動追蹤收件者的行為，請確定&#x200B;**[!UICONTROL 追蹤]**&#x200B;區段中的專用選項已在歷程的[電子郵件活動](../building-journeys/journey-action.md)或電子郵件[行銷活動](../campaigns/create-campaign.md).<!--to move?-->中啟用
 
 <!--
 

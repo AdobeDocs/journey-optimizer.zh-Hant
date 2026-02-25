@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="內建頻道動作"
 >abstract="Journey Optimizer 內建頻道動作功能。您只需新增訊息(電子郵件、簡訊(SMS/MMS)、推播、直接郵件)或傳入體驗（應用程式內、網路、程式碼型體驗、內容卡片）活動至您的歷程中，並定義設定和內容即可。 接著會根據歷程的內容執行和傳送該活動。"
 
-[!DNL Journey Optimizer]附帶內建頻道動作功能，可用來傳送訊息：當設定檔進入此活動時，會傳送訊息給設定檔。
+[!DNL Journey Optimizer]附有用來傳送訊息的內建頻道動作功能。 若要將內建頻道動作新增至您的歷程，請拖放頻道活動，並定義其設定和內容。 接著會根據歷程的內容執行和傳送該活動。
 
-若要將內建頻道動作新增至您的歷程，請拖放頻道活動，並定義其設定和內容。 接著會根據歷程的內容執行和傳送該活動。
+所有原生頻道現在也可透過&#x200B;**動作**&#x200B;活動存取，這是將內建頻道動作新增至歷程的建議方式。 [了解更多](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
+>舊版原生管道活動將在3月版本中停用。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
 
 ## 在歷程中新增訊息  {#add-msg-in-journey}
 

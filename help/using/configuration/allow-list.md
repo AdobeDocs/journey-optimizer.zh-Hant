@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 允許清單，清單，安全，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 15%
@@ -152,7 +152,7 @@ ht-degree: 15%
 
 您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -199,7 +199,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 不允許]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journeys-message.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
+>訊息傳送程式會排除狀態為&#x200B;**[!UICONTROL 不允許]**&#x200B;的設定檔。 因此，雖然&#x200B;**歷程報告**&#x200B;會顯示這些設定檔已移動歷程（[讀取對象](../building-journeys/read-audience.md)和[訊息活動](../building-journeys/journey-action.md)），但&#x200B;**電子郵件報告**&#x200B;不會將它們納入&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中，因為這些設定檔在電子郵件傳送前已篩選掉。
 >
 >深入瞭解[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)。
 
@@ -207,7 +207,7 @@ ht-degree: 15%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

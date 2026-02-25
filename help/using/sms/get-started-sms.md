@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -189,7 +189,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 瞭解如何將簡訊整合至您的客戶歷程與行銷活動中：
 
-* [將簡訊新增至歷程](../building-journeys/journeys-message.md)
+* [將簡訊新增至歷程](../building-journeys/journey-action.md)
 * [建立簡訊行銷活動](../campaigns/create-campaign.md)
 
 +++
@@ -212,7 +212,7 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,13 +222,13 @@ Adobe Journey Optimizer 與領先的簡訊服務提供者整合：
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
 **相關主題**
 
-* [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在歷程中新增訊息](../building-journeys/journey-action.md)
 * [建立行銷活動](../campaigns/create-campaign.md)
 * [護欄與限制](../start/guardrails.md#sms-guardrails)
 * [簡訊與行動傳訊教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

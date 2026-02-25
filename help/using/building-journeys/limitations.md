@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 歷程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 39%
@@ -51,7 +51,7 @@ ht-degree: 39%
 
 ## 反應事件限制 {#reaction-limitations}
 
-* **[!UICONTROL 回應]**&#x200B;活動必須緊接在歷程畫布中的[頻道動作活動](../building-journeys/journeys-message.md)之後。 不支援在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動或任何其他活動，並可能導致回應無法如預期運作。 請參閱[此章節](../building-journeys/reaction-events.md)深入瞭解。
+* **[!UICONTROL 回應]**&#x200B;活動必須緊接在歷程畫布中的[頻道動作活動](../building-journeys/journey-action.md)之後。 不支援在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動或任何其他活動，並可能導致回應無法如預期運作。 請參閱[此章節](../building-journeys/reaction-events.md)深入瞭解。
 
 ## 資料來源限制 {#data-sources-limitations}
 

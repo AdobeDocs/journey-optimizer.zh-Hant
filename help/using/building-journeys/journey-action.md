@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用動作歷程活動
-description: 瞭解如何新增通用動作活動，以在歷程畫布中設定單一動作和多動作傳入動作群組。
+title: 使用動作活動
+description: 瞭解如何新增通用動作活動，以設定歷程畫布中的單一動作和多動作傳入動作群組，以及如何新增內建頻道動作。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="動作活動"
->abstract="您可以透過通用的&#x200B;**動作**&#x200B;活動設定單一原生通道動作和多項入站活動，且可以在任何內建的通道動作中加入最佳化功能。"
+>abstract="**動作**&#x200B;活動可讓您設定單一原生頻道動作和多個輸入活動，並能夠將最佳化新增至任何內建頻道動作。"
 
 [!DNL Journey Optimizer]隨附新的通用&#x200B;**Action**&#x200B;活動，可設定單一內建頻道動作以及多個傳入活動。
 
-它允許：
+動作活動提供：
 
 * 簡化歷程畫布中的原生動作設定。
 * 容量用來建立多動作傳入動作群組。
 * 能夠將最佳化新增至任何內建管道動作。
 
->[!NOTE]
+若要將內建頻道動作新增至您的歷程，請使用&#x200B;**動作**&#x200B;活動。 此統一活動將所有管道動作（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）整合為單一活動型別，取代先前的個別管道活動。
+
+>[!IMPORTANT]
 >
->所有原生管道現在都可透過動作歷程活動存取。 舊版原生管道活動將在3月版本中停用。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+>現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
 
 您也可以設定自訂動作，以便在[!DNL Journey Optimizer]中傳送訊息。 [了解更多](#recommendation)
 
-## 將動作新增至歷程  {#add-action}
+## 將內建頻道動作新增至歷程  {#add-action}
 
-若要將內建頻道動作新增至歷程，請遵循下列步驟。
+若要使用&#x200B;**[!UICONTROL 動作]**&#x200B;活動將內建頻道動作新增至您的歷程，請遵循下列步驟。
+
+如需歷程中可用頻道的詳細資訊，請參閱本節中的表格： [歷程與行銷活動中的頻道](../channels/gs-channels.md#channels)。
 
 1. 以[事件](general-events.md)或[讀取對象](read-audience.md)活動來開始您的歷程。
 
@@ -62,7 +66,92 @@ ht-degree: 12%
 
 1. 如果您選取入站頻道，則可新增多個動作。 [了解更多](#multi-action)
 
-1. 根據所選管道設定您的活動。 瞭解如何在[本節](journeys-message.md)中設定內建頻道動作。
+1. 根據所選管道設定您的活動。 以下連結提供詳細的設定指南。
+
+   * 瞭解建立傳出動作的詳細步驟，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>建立電子郵件</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>建立推播<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * 瞭解建立傳入動作的詳細步驟，如下所示：
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>建立應用程式內訊息</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>建立網站體驗</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="銷售機會" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>建立內容卡片</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* 每個傳入體驗動作都隨附3天&#x200B;**等待**&#x200B;活動。 [了解更多](wait-activity.md#auto-wait-node)
+   >
+   >* 針對電子郵件與推播通知，您可以啟用傳送時間最佳化。 [了解更多](send-time-optimization.md)
+
+1. 視活動而定，您可以顯示所選管道的特定進階引數，並覆寫某些預設值，例如執行地址。 [了解更多](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >如果進階引數已隱藏，請按一下右窗格頂端的&#x200B;**[!UICONTROL 顯示唯讀欄位]**&#x200B;按鈕。
 
 1. 使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段來執行內容實驗、運用鎖定目標規則，或使用實驗和鎖定目標的進階組合。
 
@@ -178,7 +267,32 @@ ht-degree: 12%
 1. 以類似方式繼續以新增更多動作。 您最多可以在歷程動作群組中新增10個傳入動作。
 
 一旦歷程為[即時](publish-journey.md)，所有動作就會同時啟動。
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## 更新即時內容 {#update-live-content}
+
+您可以在即時歷程中更新內建頻道動作的內容。
+
+在您儲存動作的屬性之前，對內容所做的任何變更都不會反映在歷程中。 [了解更多](about-journey-activities.md#advanced-parameters)
+
+若要這麼做，請開啟您的即時歷程、選取頻道活動並按一下&#x200B;**編輯內容**。
+
+![在即時歷程中編輯頻道活動按鈕](assets/email-action-edit-content.png)
+
+但是，您無法變更個人化中使用的屬性，無論是設定檔屬性或內容資料（來自事件或歷程屬性）。
+
+* 如果您修改內容資料，將會顯示下列錯誤訊息： `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* 如果您修改設定檔屬性，將會顯示下列錯誤訊息： `ERR_AUTHORING_JOURNEYVERSION_202`
+
+請注意，針對應用程式內活動，可以在歷程上線時對內容進行任何變更，但無法修改應用程式內觸發器。
+
+## 隨自訂動作傳送 {#recommendation}
+
+您可以使用自訂動作來設定協力廠商系統的連線，以傳送訊息或API呼叫，而不使用內建訊息功能。
+
+* 如果您使用協力廠商系統來傳送訊息，則可建立自訂動作。 [了解更多](../action/action.md)
+
+* 如果您使用Adobe Campaign，請參閱下列章節：
+
+   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)

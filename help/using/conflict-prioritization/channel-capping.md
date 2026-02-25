@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 5%
@@ -49,7 +49,7 @@ ht-degree: 5%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。****
 
      ![](assets/rule-sets-create.png)
 
@@ -155,7 +155,7 @@ You can combine several message frequency rules, such as described in the exampl
 
 1. Save and [activate](#activate-rule) the rule.
 
-1. [Create a message](../building-journeys/journeys-message.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
+1. [Create a message](../building-journeys/journey-action.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -165,4 +165,4 @@ In this scenario, an individual profile:
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

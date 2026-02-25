@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '952'
 ht-degree: 11%
 
 ---
@@ -32,27 +32,43 @@ ht-degree: 11%
 
 >[!TAB 新增推播至歷程]
 
-1. 開啟您的歷程，然後從浮動視窗的「動作」區段拖放推播活動。
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
+
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL 推播]**&#x200B;作為動作型別。
 
    ![](assets/push_create_1.png)
 
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息設定。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
+
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的推播設定。 [了解更多](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. 此外：
+
+   * 您可以在&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中選取規則集，將上限規則套用至推播動作。 [了解更多](../conflict-prioritization/channel-capping.md)
+
+   * 您可以使用&#x200B;**[!DNL Send time optimization]**&#x200B;選項，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，以最大化參與度。 [了解作法](../building-journeys/send-time-optimization.md)
+
+1. 使用&#x200B;**[!UICONTROL 快速傳遞模式]**&#x200B;以大量傳送推播通知。 [了解作法](#rapid-delivery)
+
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-push.md)
+
+1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 [了解作法](send-push.md)
+
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >如果您從歷程傳送推播通知，您可以運用Adobe Journey Optimizer的傳送時間最佳化功能，根據歷史開啟率和點按率，預測傳送訊息的最佳時機，最大化參與程度。 [瞭解如何使用傳送時間最佳化](../building-journeys/send-time-optimization.md)
+   >若要透過推播開啟和/或互動來追蹤收件者的行為，請確定已在[電子郵件活動](../building-journeys/journey-action.md)中啟用追蹤區段中的專用選項。
 
-   如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
-
-1. 在歷程設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定推播內容。 [設計推播通知](design-push.md)
-
-1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。
-
-1. 當您的推播就緒時，請完成[歷程](../building-journeys/journey-gs.md)的設定以傳送。
-
-   若要透過推播開啟和/或互動來追蹤收件者的行為，請確定已在[電子郵件活動](../building-journeys/journeys-message.md)中啟用追蹤區段中的專用選項。
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 新增推播至行銷活動]
 
@@ -89,18 +105,20 @@ ht-degree: 11%
 
 1. 在行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定推播內容。 [設計推播通知](design-push.md)
 
-1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。
+1. 定義訊息內容後，您可以使用測試設定檔，或從CSV / JSON檔案上傳的範例輸入資料，或手動新增以預覽其內容。 [了解作法](send-push.md)
 
 1. 當您的推播準備就緒時，請完成[行銷活動](../campaigns/create-campaign.md)的設定以傳送。
 
    若要透過推播開放專案和/或互動追蹤收件者的行為，請確定已在[行銷活動](../campaigns/create-campaign.md)中啟用追蹤區段中的專用選項。
+
+如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
 **相關主題**
 
 * [設定推播頻道](push-gs.md)
-* [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在歷程中新增訊息](../building-journeys/journey-action.md)
 
 ## 快速傳遞模式 {#rapid-delivery}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1285'
 ht-degree: 8%
 
 ---
@@ -38,19 +38,31 @@ ht-degree: 8%
 
 >[!TAB 新增簡訊至歷程]
 
-1. 開啟您的歷程，然後從浮動視窗的&#x200B;**動作**&#x200B;區段拖放簡訊活動。
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
+
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL 簡訊]**&#x200B;作為動作型別。
 
    ![](assets/sms_create_1.png)
 
-1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息設定。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
+
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的SMS設定。 [了解更多](sms-configuration.md)
 
    ![](assets/sms_create_2.png)
 
-   如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
+1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至簡訊動作。 [了解更多](../conflict-prioritization/channel-capping.md)
 
-   根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](#sms-content)
 
-您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計SMS訊息的內容，如下所述。
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 新增簡訊至行銷活動]
 
@@ -88,6 +100,8 @@ ht-degree: 8%
    * Month
 
 您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計文字訊息的內容，如下所述。
+
+如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
 >[!ENDTABS]
 
@@ -184,5 +198,5 @@ ht-degree: 8%
 * [預覽、測試並傳送您的文字訊息](send-sms.md)
 * [設定簡訊頻道](sms-configuration.md)
 * [簡訊/多媒體簡訊報告](../reports/journey-global-report-cja-sms.md)
-* [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在歷程中新增訊息](../building-journeys/journey-action.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)

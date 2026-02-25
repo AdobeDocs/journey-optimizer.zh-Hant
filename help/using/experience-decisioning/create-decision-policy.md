@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2188'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 ## 新增決定原則 {#add}
 
-若要在您的訊息中新增決定原則，請開啟歷程或行銷活動，然後選取[頻道動作](../building-journeys/journeys-message.md)。
+開啟歷程或行銷活動、選取[頻道動作](../building-journeys/journey-action.md)並編輯訊息的內容。
 
 編輯訊息內容並瀏覽以下標籤，瞭解如何根據所選頻道新增決定原則的更多資訊。
 
@@ -281,7 +281,7 @@ ht-degree: 5%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -296,7 +296,7 @@ ht-degree: 5%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >

@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 * **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK還提供多種其他擴充功能，以啟用其他Adobe Experience Cloud以及第三方合作夥伴功能。
 
-  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant){target="_blank"}服務，例如：
+  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"}服務，例如：
 
    * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。
@@ -82,5 +82,5 @@ ht-degree: 1%
 * [設定推播頻道](push-configuration.md)
 * [推播通知報告](../reports/journey-global-report-cja-push.md)
 * [建立推播通知](create-push.md)
-* [在歷程中新增訊息](../building-journeys/journeys-message.md)
+* [在歷程中新增訊息](../building-journeys/journey-action.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)

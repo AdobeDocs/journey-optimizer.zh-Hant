@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 20%
@@ -224,7 +224,7 @@ ht-degree: 20%
 
 設定好翻譯專案和語言設定後，您就可以著手建立行銷活動或歷程，並針對不同的地區設定自訂內容。
 
-1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journeys-message.md)。
+1. 首先，根據您的需求，建立並設定您的電子郵件、簡訊或推播通知[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-action.md)。
 
 1. 建立主要內容後，按一下&#x200B;**[!UICONTROL 儲存]**，然後返回行銷活動設定畫面。
 
@@ -280,7 +280,7 @@ ht-degree: 20%
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
    >[!IMPORTANT]
    >

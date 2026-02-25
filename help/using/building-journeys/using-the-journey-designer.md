@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 有兩種可能性：
 
-1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
+1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
 1. **從讀取對象開始**：您可以設定您的歷程以聆聽[!DNL Adobe Experience Platform]個對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 動作是您因某種觸發而想要發生的動作，例如傳送訊息。 這是客戶體驗的歷程。 這可以是電子郵件、簡訊或推播訊息，或第三方動作，例如Slack訊息。
 
-頻道動作活動可讓您包含在[!DNL Journey Optimizer]中設計的訊息。 [進一步瞭解頻道動作活動](journeys-message.md)
+頻道動作活動可讓您包含在[!DNL Journey Optimizer]中設計的訊息。 [進一步瞭解頻道動作活動](journey-action.md)
 
 在動作活動中，使用自訂動作透過協力廠商系統傳送訊息。 [進一步瞭解自訂動作](about-journey-activities.md#action-activities)。
 
@@ -145,7 +145,7 @@ ht-degree: 4%
 1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
    ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
 1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動將連結至節點。
    ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)

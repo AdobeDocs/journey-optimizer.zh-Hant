@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，客群，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1927'
 ht-degree: 6%
@@ -46,7 +46,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 ## 建立您的內容 {#campaign-experiment}
 
-1. 首先，根據您的需求建立和設定您的[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journeys-message.md)。
+1. 首先，根據您的需求建立和設定您的[行銷活動](../campaigns/create-campaign.md)或[歷程](../building-journeys/journey-action.md)。
 
 1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗，開始個人化處理A。
 

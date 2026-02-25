@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
+需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 對於原生不支援的管道，您可以使用&#x200B;**自訂動作**&#x200B;與外部傳訊平台整合，並透過任何協力廠商管道傳送訊息。
 
-深入瞭解歷程中的[訊息](journeys-message.md)和[自訂動作](using-custom-actions.md)。
+深入瞭解歷程中的[訊息](journey-action.md)和[自訂動作](using-custom-actions.md)。
 
 +++
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 每當收到購買事件時，歷程就會自動觸發，即時傳送確認電子郵件。
 
-深入瞭解[事件設定](../event/about-events.md)和[電子郵件動作](journeys-message.md)。
+深入瞭解[事件設定](../event/about-events.md)和[電子郵件動作](journey-action.md)。
 
 +++
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -300,7 +300,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 回應]**&#x200B;事件必須緊接在[頻道動作](journeys-message.md)之後。 請勿在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動。
+>**[!UICONTROL 回應]**&#x200B;事件必須緊接在[頻道動作](journey-action.md)之後。 請勿在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動。
 
 深入瞭解[歷程使用案例](jo-use-cases.md)和[反應事件](reaction-events.md)。
 
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 使用[頻道介面](../configuration/channel-surfaces.md)管理頻道設定
 * 測試所有路徑，以確保正確傳送訊息
 
-深入瞭解[條件](condition-activity.md)、[訊息動作](journeys-message.md)和[頻道選擇](../channels/gs-channels.md)。
+深入瞭解[條件](condition-activity.md)、[訊息動作](journey-action.md)和[頻道選擇](../channels/gs-channels.md)。
 
 +++
 
@@ -932,7 +932,7 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 * 使用[測試模式](testing-the-journey.md)和[試執行](journey-dry-run.md)在發佈之前驗證效能
 * 透過[自訂動作](using-custom-actions.md)將外部API呼叫減至最少，以避免延遲和對協力廠商系統的相依性
 * 儘可能使用[!DNL Adobe Experience Platform]資料集查詢[將常用的資料儲存在](dataset-lookup.md)中，而非進行外部呼叫
-* 檢閱並最佳化[訊息傳遞](journeys-message.md)效能
+* 檢閱並最佳化[訊息傳遞](journey-action.md)效能
 
 深入瞭解[護欄和限制](../start/guardrails.md)。
 

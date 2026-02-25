@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
-
 
 # 設定勿打擾時間 {#quiet-hours}
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 **無訊息時數**&#x200B;可讓您定義&#x200B;**電子郵件**、**簡訊**、**推播**&#x200B;及&#x200B;**WhatsApp**&#x200B;管道的時間排除專案。 此功能可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。
 
-您可以透過&#x200B;**規則集**&#x200B;套用無訊息時數，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。
+您可以透過&#x200B;**規則集**&#x200B;套用勿打擾時間，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。
 
 透過簡化這些程式，您可以改善客戶體驗、節省時間，並確保遵守通訊規則：
 
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 >[!TAB 在歷程中套用無訊息時數管道動作]
 
-1. 開啟您的歷程，選取[頻道動作](../building-journeys/journeys-message.md)，並編輯訊息的內容。
+1. 開啟您的歷程，選取[頻道動作](../building-journeys/journey-action.md)，並編輯訊息的內容。
 1. 按一下&#x200B;**[!UICONTROL 新增商業規則]**&#x200B;按鈕，然後選取包含「無訊息時數」規則的規則集。
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ ht-degree: 4%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

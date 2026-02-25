@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1619'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,13 @@ ht-degree: 17%
 
 1. 以[事件](../building-journeys/general-events.md)或[讀取對象](../building-journeys/read-audience.md)活動來開始您的歷程。
 
-1. 從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 網頁]**&#x200B;活動。
+1. 從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
+
+   >[!IMPORTANT]
+   >
+   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+
+1. 選取&#x200B;**[!UICONTROL Web]**&#x200B;作為動作型別。
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ ht-degree: 17%
    >
    >由於&#x200B;**Web**&#x200B;是傳入體驗活動，因此它附帶3天&#x200B;**等待**&#x200B;活動。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 為您的訊息輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
+1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
 
-1. 選取或建立要使用的[網頁組態](web-configuration.md)。
+1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
+
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的[網頁組態](web-configuration.md)。
 
    ![](assets/web-activity-configuration.png)
 
+1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，新增一或多個傳入動作至您的網頁體驗。 [了解更多](../building-journeys/journey-action.md#multi-action)
+
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
+
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要編輯您的內容。 [了解更多](#edit-web-content)
 
-1. 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
-
-1. 在您的Web體驗準備就緒後，完成設定並發佈您的歷程以將其啟用。 [了解更多](../building-journeys/publish-journey.md)
-
-如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
+有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
 >[!TAB 建立網路行銷活動]
 
@@ -266,4 +274,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

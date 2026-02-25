@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 98%
@@ -92,8 +92,8 @@ ht-degree: 98%
       + [等待](using/building-journeys/wait-activity.md)
       + [內容決策](using/building-journeys/content-decision.md)
       + [資料集查詢](using/building-journeys/dataset-lookup.md)
-      + [動作](using/building-journeys/journey-action.md)
       + [內建管道動作](using/building-journeys/journeys-message.md)
+      + [動作](using/building-journeys/journey-action.md)
       + [跳轉](using/building-journeys/jump.md)
       + [更新輪廓](using/building-journeys/update-profiles.md)
       + [自訂動作](using/building-journeys/using-custom-actions.md)

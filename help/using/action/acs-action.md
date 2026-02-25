@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate
 keywords: 行銷活動，標準，整合，上限，動作
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 * Campaign Standard動作無法與對象資格或讀取對象活動搭配使用。
 
-* 歷程不能同時使用[內建頻道動作](../building-journeys/journeys-message.md)和[Campaign Standard動作](../building-journeys/using-adobe-campaign-standard.md)。
+* 歷程不能同時使用[內建頻道動作](../building-journeys/journey-action.md)和[Campaign Standard動作](../building-journeys/using-adobe-campaign-standard.md)。
 
 ## 設定動作 {#configure-action}
 
