@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -119,7 +119,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -129,7 +129,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以完成您的排名公式。 您現在可以從清單中選取它以檢視其詳細資訊，並編輯或刪除它。 已準備好在[選取策略](../selection-strategies.md)中使用它來排名合格的決定專案。
 
-### 排名公式範例
+### 排名公式範例 {#ranking-formula-example}
 
 考量下列範例：
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 1%
 * [歷程](#journey)
 * [行銷活動](#campaign)
 * [管道](#channel)
+* [規則集](#rule-sets)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -132,3 +133,27 @@ ht-degree: 1%
 ![](assets/cja-channels-outbound-excluded.png)
 
 **[!UICONTROL 傳出排除專案]**&#x200B;表格提供不同因素的完整檢視，這些因素導致從目標對象中排除使用者設定檔，導致未收到訊息。
+
+## 歷程上限和衝突 {#rule-sets}
+
+**[!UICONTROL 歷程上限和衝突]**&#x200B;表格提供歷程仲裁規則集如何執行的深入分析，根據套用至您歷程的上限規則和優先順序分數顯示歷程進入和排除。
+
++++ 進一步瞭解規則集量度
+
+**[!UICONTROL 依規則集的歷程專案]**&#x200B;欄會顯示進入歷程的設定檔數目。 有三種入口型別：
+
+* ****[!UICONTROL 沒有衝突]****：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
+
+* **較高優先順序**：設定檔進入歷程是因為其優先順序高於其他競爭歷程。 即使發生衝突（設定檔符合多個歷程的資格），但由於此歷程的優先順序分數較高，所以被選取。
+
+* **未強制執行**：設定檔已進入歷程，但規則集在進入時未作用中或未套用至此歷程專案。
+
+**[!UICONTROL 排除專案]**&#x200B;欄顯示從進入歷程排除的設定檔數目。 可以排除設定檔有兩個原因：
+
+* **已達到上限**：設定檔已達到上限規則允許的歷程專案或同時歷程數目上限。
+
+* **較低的優先順序**：尚未達到上限，但其他較高優先順序的歷程符合限制。 設定檔已從此歷程中排除，並改為進入較高優先順序的歷程。
+
++++
+
+➡️ [進一步瞭解歷程上限與仲裁](../conflict-prioritization/journey-capping.md)

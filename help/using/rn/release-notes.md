@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9922f8cfeed40e826142d8201e0a1071a1099d75
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1598'
 ht-degree: 34%
@@ -33,11 +33,11 @@ ht-degree: 34%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
-### 全新功能 {#feb-26-01-features}
+### 新功能 {#feb-26-01-features}
 
 
 <!--
@@ -58,6 +58,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 -->
 
+<table>
+<thead>
+<tr>
+<th><strong>歷程仲裁</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用<strong>排名公式</strong>，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>推出日期： 2026年2月24日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -282,24 +299,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 ## 即將推出 {#coming-soon}
 
 以下功能和改進專案計畫於2月下旬發行。 發行日期和範圍可能會變更，恕不另行通知。
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>排名公式</strong>，根據客戶設定檔屬性和內容因素，自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
-<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>推出日期： 2026年2月25日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
