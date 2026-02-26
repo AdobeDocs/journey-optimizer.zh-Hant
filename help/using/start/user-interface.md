@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用者介面
-description: 了解如何瀏覽 Adobe Journey Optimizer 介面
+title: 瀏覽介面
+description: 瞭解如何導覽Adobe Journey Optimizer介面及存取主要功能，包括頂端列、首頁和左側導覽。
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 91%
+source-wordcount: '1345'
+ht-degree: 81%
 
 ---
 
@@ -28,66 +28,14 @@ ht-degree: 91%
 
 Journey Optimizer 介面包含四個主要區域：
 
-![](assets/ajo-home.png)
+![Journey Optimizer首頁顯示左側導覽、頂端列、主工作區和首頁區域](assets/ajo-home.png)
 
 1. **左側導覽** - 存取按功能整理的所有功能和特性
 2. **頂端列** - 通用搜尋、說明、通知和設定
 3. **首頁** - 快速存取最近的項目和有用的資源
 4. **主要工作區** - 您在這裡建立和管理內容
 
-## 左側導覽 {#left-nav}
-
-左側導覽會將 Journey Optimizer 功能按功能類別整理。可用的選單項目取決於您的權限和授權。
-
-### 主要區段 {#main-sections}
-
-**首頁** - 快速存取最近建立的項目和有用資源的起點
-
-**歷程管理** - 建立和管理客戶體驗
-* **行銷活動** - 建立針對特定客群的一次性或排程訊息。[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
-* **歷程** - 建立多步驟、跨管道的客戶體驗。[建立您的第一個歷程](../building-journeys/journey-gs.md)
-* **報告** - 使用整合的 Customer Journey Analytics 報告分析績效。[檢視報告文件](../reports/campaign-global-report-cja.md)
-
-**決策管理** - 管理個人化產品建議。[了解決策管理](../offers/get-started/starting-offer-decisioning.md)
-* **產品建議** - 建立和管理個人化產品建議
-* **元件** - 為產品建議設定位置、規則和標籤
-
-**內容管理** - 建立和整理內容
-* **資產** - 影像和媒體的集中式存放庫。[管理資產](../integrations/assets.md)
-* **內容範本** - 行銷活動和歷程的可重複使用訊息範本。[建立範本](../content-management/content-templates.md)
-* **片段** - 可用於多個訊息的內容區塊。[使用片段](../content-management/fragments.md)
-* **登陸頁面** - 訂閱和偏好設定的網頁表單。[設計登陸頁面](../landing-pages/get-started-lp.md)
-* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。[探索教戰手冊](ai-features.md#playbooks)
-
-**資料管理** - 管理您的資料基礎。[了解結構描述和資料集](../data/get-started-schemas.md)
-* **結構描述** - 定義資料結構
-* **資料集** - 儲存和管理資料集合
-* **查詢** - 寫入並執行查詢
-* **監視** - 追蹤資料擷取
-
-**連線** - 與其他系統整合
-* **來源** - 從外部系統擷取資料。[設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。[設定目的地](../data/export-datasets.md)
-
-**客戶** - 管理客群和輪廓
-* **客群** - 建立和管理客戶區段。[使用客群](../audience/about-audiences.md)
-* **訂閱清單** - 管理選擇加入清單。[管理訂閱](../landing-pages/subscription-list.md)
-* **輪廓** - 檢視統一客戶輪廓。[探索輪廓](../audience/get-started-profiles.md)
-* **身分** - 管理身分解析。[了解身分](../audience/get-started-identity.md)
-
-**隱私權** - 控制隱私權與合規性。[隱私權概觀](../privacy/get-started-privacy.md)
-* **原則** - 定義資料治理原則
-* **請求** - 處理隱私權請求 (GDPR、CCPA)
-* **稽核** — 檢閱活動記錄。[檢視稽核記錄](../privacy/audit-logs.md)
-* **資料生命週期** - 設定資料保留
-
-**管理** - 設定系統設定。[存取控制概觀](../administration/permissions-overview.md)
-* **設定** - 設定事件、資料來源和動作。[設定管道](../configuration/get-started-configuration.md)
-* **業務規則** - 控制訊息頻率和歷程項目。[設定業務規則](../conflict-prioritization/rule-sets.md)
-* **警示** - 檢視和管理系統警示。[監視警示](../reports/alerts.md)
-* **沙箱** - 管理環境並在沙箱之間複製物件。[使用沙箱](../administration/sandboxes.md)
-* **管道** - 設定管道設定和傳遞能力。[設定管道設定](../configuration/channel-surfaces.md) | [開始使用設定](../configuration/get-started-configuration.md)
-* **標籤** - 整理內容並將其分類。[使用統一標籤](search-filter-categorize.md#tags)
+**秘訣：**&#x200B;新使用者可以從&#x200B;**首頁**&#x200B;頁面開始，存取最近的專案和使用案例，或使用頂端列中的&#x200B;**說明**&#x200B;圖示取得內容指引。
 
 ## 頂端列功能 {#top-bar}
 
@@ -98,6 +46,7 @@ Journey Optimizer 介面包含四個主要區域：
 ### 說明與支援 {#help}
 
 按一下&#x200B;**說明**&#x200B;圖示以：
+
 * 搜尋說明文章和影片
 * 存取目前頁面的內容說明
 * 聯絡 Adobe 支援
@@ -107,7 +56,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ![內容說明範例](assets/do-not-localize/Context-help.gif)
 
-### 支援票證准則 {#support-ticket-guidelines}
+#### 支援票證准則 {#support-ticket-guidelines}
 
 聯絡Adobe支援時，請包含下列專案以加速根本原因分析和解決：
 
@@ -117,9 +66,10 @@ Journey Optimizer 介面包含四個主要區域：
 * **記錄檔或熒幕擷取畫面** — 說明問題的相關錯誤訊息、請求ID或熒幕擷取畫面
 * **相關ID** — 歷程ID、行銷活動ID、對象ID或與問題相關的其他物件識別碼
 
-### 通知 {#notifications}
+### 通知 {#in-product-uc}
 
 啟用產品內通知和電子郵件通知，以隨時掌握以下資訊：
+
 * **警示** - 系統故障和效能問題
 * **核准** - 需要您檢閱的請求
 * **新版本** - 產品更新與新功能
@@ -138,10 +88,12 @@ Journey Optimizer 介面包含四個主要區域：
 
 若要變更您的語言：
 
-1. 按一下設定檔選單中的&#x200B;**偏好設定**
+1. 按一下設定檔選單中的&#x200B;**[!UICONTROL 偏好設定]**
 2. 選取您偏好的語言
 3. 可選擇第二種語言作為備用語言
 4. 按一下&#x200B;**儲存**
+
+提供鍵盤快速鍵和協助工具功能。 [了解更多](accessibility.md)
 
 ## 首頁 {#home-page}
 
@@ -151,7 +103,7 @@ Journey Optimizer 介面包含四個主要區域：
 * **使用案例**：預設場景可協助您開始使用 (建立測試輪廓、傳送生日賀詞簡訊等)。
 * **資源**：文件、教學課程和已支援的連結
 
-### 產品內使用案例 {#use-cases}
+### 使用案例和快速入門工作流程 {#use-cases}
 
 快速入門工作流程可協助您完成日常工作：
 
@@ -162,9 +114,83 @@ Journey Optimizer 介面包含四個主要區域：
 
 按一下&#x200B;**[!UICONTROL 檢視詳細資料]**，以便深入瞭解所有使用案例，或可按一下&#x200B;**[!UICONTROL 開始]**，就能開始。
 
+## 左側導覽 {#left-nav}
+
+左側導覽會將 Journey Optimizer 功能按功能類別整理。可用的選單項目取決於您的權限和授權。
+
+| 區域 | 目的 |
+|---------|---------|
+| 歷程管理 | 行銷活動、歷程、報告 |
+| 決策管理 | 選件與個人化 |
+| 內容管理 | Assets、範本、片段、登陸頁面 |
+| 資料管理 | 結構描述、資料集、查詢 |
+| 連線 | 來源和目的地 |
+| 客戶 | 對象、設定檔、身分 |
+| 隱私權 | 原則、請求、稽核 |
+| 管理 | 設定、頻道、沙箱 |
+
+### 主要區段 {#main-sections}
+
+**首頁** - 快速存取最近建立的項目和有用資源的起點
+
+**歷程管理** - 建立和管理客戶體驗
+
+* **行銷活動** - 建立針對特定客群的一次性或排程訊息。[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
+* **歷程** - 建立多步驟、跨管道的客戶體驗。[建立您的第一個歷程](../building-journeys/journey-gs.md)
+* **報告** - 使用整合的 Customer Journey Analytics 報告分析績效。[檢視報告文件](../reports/campaign-global-report-cja.md)
+
+**決策管理** - 管理個人化產品建議。[了解決策管理](../offers/get-started/starting-offer-decisioning.md)
+
+* **產品建議** - 建立和管理個人化產品建議
+* **元件** - 為產品建議設定位置、規則和標籤
+
+**內容管理** - 建立和整理內容
+
+* **資產** - 影像和媒體的集中式存放庫。[管理資產](../integrations/assets.md)
+* **內容範本** - 行銷活動和歷程的可重複使用訊息範本。[建立範本](../content-management/content-templates.md)
+* **片段** - 可用於多個訊息的內容區塊。[使用片段](../content-management/fragments.md)
+* **登陸頁面** - 訂閱和偏好設定的網頁表單。[設計登陸頁面](../landing-pages/get-started-lp.md)
+* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。[探索教戰手冊](ai-features.md#playbooks)
+
+**資料管理** - 管理您的資料基礎。[了解結構描述和資料集](../data/get-started-schemas.md)
+
+* **結構描述** - 定義資料結構
+* **資料集** - 儲存和管理資料集合
+* **查詢** - 寫入並執行查詢
+* **監視** - 追蹤資料擷取
+
+**連線** - 與其他系統整合
+
+* **來源** - 從外部系統擷取資料。[設定來源](get-started-sources.md)
+* **目的地** - 將資料匯出至雲端儲存空間。[設定目的地](../data/export-datasets.md)
+
+**客戶** - 管理客群和輪廓
+
+* **客群** - 建立和管理客戶區段。[使用客群](../audience/about-audiences.md)
+* **訂閱清單** - 管理選擇加入清單。[管理訂閱](../landing-pages/subscription-list.md)
+* **輪廓** - 檢視統一客戶輪廓。[探索輪廓](../audience/get-started-profiles.md)
+* **身分** - 管理身分解析。[了解身分](../audience/get-started-identity.md)
+
+**隱私權** - 控制隱私權與合規性。[隱私權概觀](../privacy/get-started-privacy.md)
+
+* **原則** - 定義資料治理原則
+* **請求** - 處理隱私權請求 (GDPR、CCPA)
+* **稽核** — 檢閱活動記錄。[檢視稽核記錄](../privacy/audit-logs.md)
+* **資料生命週期** - 設定資料保留
+
+**管理** - 設定系統設定。[存取控制概觀](../administration/permissions-overview.md)
+
+* **設定** - 設定事件、資料來源和動作。[設定管道](../configuration/get-started-configuration.md)
+* **業務規則** - 控制訊息頻率和歷程項目。[設定業務規則](../conflict-prioritization/rule-sets.md)
+* **警示** - 檢視和管理系統警示。[監視警示](../reports/alerts.md)
+* **沙箱** - 管理環境並在沙箱之間複製物件。[使用沙箱](../administration/sandboxes.md)
+* **管道** - 設定管道設定和傳遞能力。[設定管道設定](../configuration/channel-surfaces.md) | [開始使用設定](../configuration/get-started-configuration.md)
+* **標籤** - 整理內容並將其分類。[使用統一標籤](search-filter-categorize.md#tags)
+
 ## AI 助理 {#ai-assistant}
 
 AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助理圖示，以便：
+
 * 取得產品功能相關解答
 * 收到有關歷程的運作洞察
 * 導覽概念和典範實務
@@ -219,13 +245,13 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_1"
+>id="ajo_oc_jo_campaign_ovv_1"
 >title="建立並傳送行銷活動的引導式 UI"
->abstract="設定一個管道的單一或多個動作，選擇客群，設定內容，定義排程，最後一切就緒，進行傳送"
+>abstract="透過頻道設定一或多個動作、選擇對象、設定內容、定義排程，您就可以傳送了"
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_camppaign_ovv_2"
+>id="ajo_oc_jo_campaign_ovv_2"
 >title="可用頻道"
 >abstract="電子郵件、簡訊、推播通知、應用程式內、網頁、程式碼型體驗"
 
@@ -234,22 +260,22 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_1"
+>id="ajo_oc_api_campaign_ovv_1"
 >title="交易型 API 觸發的行銷活動"
 >abstract="透過 API 呼叫觸發即時訊息"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_2"
+>id="ajo_oc_api_campaign_ovv_2"
 >title="行銷訊息"
 >abstract="促銷內容（需選擇加入，遵守商業規則）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_3"
+>id="ajo_oc_api_campaign_ovv_3"
 >title="交易型訊息"
 >abstract="服務相關內容（確認、警示則不受到行銷同意約束）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_camppaign_ovv_4"
+>id="ajo_oc_api_campaign_ovv_4"
 >title="可用頻道"
 >abstract="電子郵件、簡訊、推播通知"
 
