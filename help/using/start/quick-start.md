@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
-workflow-type: ht
-source-wordcount: '1724'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1831'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
    管理員可以設定沙箱、設定存取控制及準備管道設定，進而奠定基礎。必須先執行此動作，才能讓其他團隊開始工作。
    * 設定開發、中繼和生產沙箱
    * 設定角色、權限和物件層級存取控制 (OLAC)
-   * 設定管道設定 (電子郵件、簡訊、推播、應用程式內、網頁、內容卡)
+   * 設定頻道設定（電子郵件、簡訊、推播、網頁推播、應用程式內、網頁、直接郵件、內容卡）
    * 委派子網域並設定 IP 集區
    * 設定禁止名單和同意原則
 
@@ -70,9 +70,10 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 3. **開發人員**：實作技術整合\
    開發人員透過整合 SDK、傳送事件及建立 API 端點，將應用程式連線至 Journey Optimizer。這些實作可讓歷程觸發和執行。
    * 整合 Mobile SDK (iOS/Android) 與推播通知設定
-   * 為網頁體驗實作 Web SDK
+   * 實施適用於網頁體驗和網頁推播通知的 Web SDK
    * 從應用程式傳送事件以觸發歷程
    * 建立外部系統整合的自訂動作端點
+   * 監視自訂動作健康狀況和效能
    * 使用 Adobe Experience Platform Assurance 測試實作
 
 4. **行銷人員**：設計和執行客戶體驗\
@@ -95,15 +96,16 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 **您將使用的關鍵功能：**
 
-* **歷程協調**：建立即時、一對一的客戶參與，每個人以自己的步調前進，由行為或跨管道事件觸發
-* **行銷活動協調**：使用視覺畫布設計和自動化大規模的複雜多步驟批次行銷活動。非常適合品牌啟動的行銷活動，例如季節性促銷活動、產品推出和帳戶型通訊。運用多實體細分，將客戶資料與相關實體 (帳戶、購買、預訂) 連線，以建立精確的客群
+* **Journey Orchestration**：建立即時、一對一的客戶參與度，讓每個人都能透過跨管道的行為或事件，按照自己的步調前進。 使用統一動作活動執行所有管道動作、使用內容決定活動將優惠整合到歷程中，並使用Journey Agent從自然語言提示建立歷程
+* **行銷活動協調**：使用視覺畫布設計和自動化大規模的複雜多步驟批次行銷活動。非常適合品牌啟動的行銷活動，例如季節性促銷活動、產品推出和帳戶型通訊。運用多實體細分，將客戶資料與相關實體（帳戶、購買、預訂）連結，以建立精確的受眾。 使用波段傳送以受控批次傳送訊息
 * **現代訊息設計工具**：使用拖放介面設計並個人化電子郵件和行動訊息。編輯現成的範本，以縮短上市時間
-* **決策管理**：在可嵌入電子郵件和客戶接觸點的集中式資料庫中，建立和管理產品建議、適用性規則和其他元件。
+* **決定管理**：在集中式程式庫中建立和管理優惠、適用性規則和其他元件，這些元件可內嵌在電子郵件和客戶接觸點中。 使用決策進行推播和簡訊個人化
 * **資產管理**：存取完整嵌入 Journey Optimizer 中的 Adobe Experience Manager Assets Essentials，以簡化資產存取和傳送
 * **客群定義**：使用關聯式查詢建立隨選客群並即時調整，在傳送前了解準確的客群計數
 * **AI/ML 服務**：運用傳送時間最佳化和預測性參與分數，鎖定高價值客戶並將流失風險降至最低
+* **傳遞控制**：使用無訊息時數（以時間為準的排除）和衝突管理，以尊重客戶喜好設定並防止過度通訊
 
-**入門：**&#x200B;使用案例範本和精靈，以輕鬆建立及部署新的客戶歷程。
+**開始於：**&#x200B;使用案例範本和精靈，以輕鬆建立及部署新的客戶歷程。 使用Journey Agent從自然語言提示建立歷程。
 
 [行銷人員快速入門 →](path/marketer.md)
 
@@ -135,8 +137,9 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 * **使用者管理**：設定使用者群組和權限，以控制不同功能的存取
 * **管道設定**：設定傳遞管道和訊息預設集，以確保透過 Journey Optimizer 傳遞的訊息和資產之間保持一致的品牌形象
 * **安全性與治理**：套用物件層級存取控制 (OLAC)、設定同意原則，以及實作資料治理原則
-* **傳遞能力**：委派子網域、建立 IP 集區，以及管理禁止名單和允許清單
+* **傳遞能力**：委派子網域、視需要移轉子網域至自訂委派、建立IP集區，以及管理隱藏清單和允許清單
 * **歷程設定**：為您的團隊設定歷程元素和設定
+* **頻道設定**：視需要設定網頁推播通知、直接郵件和訊息匯出（電子郵件/簡訊）
 
 **入門：**&#x200B;設定沙箱和使用者權限，然後設定您的第一個管道設定和訊息預設集。
 
@@ -207,7 +210,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他資源
 
@@ -230,7 +233,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 >[!TAB 社群與支援]
 
-* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：和其他使用者和專家保持聯繫
-* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
+* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：和其他使用者和專家保持聯繫
+* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]

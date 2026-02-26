@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 100%
 1. **建立測試輪廓**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../content-management/preview-test.md)。 建立測試輪廓的步驟已[在此頁面](../../audience/creating-test-profiles.md)詳細說明。
 
 1. **設定計算屬性**（選填）。 從設定檔資料建立衍生屬性，以便簡化細分、個人化。 計算屬性會自動計算複雜量度，例如「過去 90 天內的總購買次數」或是「平均訂購值」。 深入了解[計算屬性](../../audience/computed-attributes.md)。
+
+1. **訊息匯出資料集** （選擇性）。 在通道設定層級啟用訊息匯出時，傳送的電子郵件和簡訊內容會自動匯出至專用的Experience Platform資料集，以進行合規性、封存或下游分析。 瞭解[訊息匯出](../../configuration/message-export.md)。
 
 此外，若想在歷程中傳送訊息，就必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。請參閱[本節](../../configuration/about-data-sources-events-actions.md)以了解更多資訊。
 

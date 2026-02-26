@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: ht
-source-wordcount: '1476'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 要點快速入門
 
-Journey Optimizer 可在單一應用程式中，整合即時客戶洞察、現代全管道協調流程和智慧決策。跨電子郵件、簡訊、推播、應用程式內、網頁、內容卡等建立個人化、連線的客戶體驗。
+Journey Optimizer 可在單一應用程式中，整合即時客戶洞察、現代全管道協調流程和智慧決策。跨電子郵件、簡訊、推播、網頁推播、應用程式內、網頁、直接郵件、內容卡等建立個人化、連線的客戶體驗。
 
 Journey Optimizer 提供兩種強大的協調方法：
 
@@ -33,7 +33,7 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 1. **建立客群**。透過區段定義、上傳 CSV 檔案或使用客群構成來建立客群。Journey Optimizer 提供多種方法來鎖定合適的客戶。深入了解[客群](../../audience/about-audiences.md)和[建立區段定義](../../audience/creating-a-segment-definition.md)。
 
-1. **設計內容**。跨所有管道建立吸引人的訊息，包括電子郵件、簡訊、推播、應用程式內、網頁和內容卡：
+1. **設計內容**。跨所有通道建立吸引人的訊息，包括電子郵件、簡訊、推播、網頁推播、應用程式內、網頁、直接郵件和內容卡：
    * 根據您的品牌方針，使用 **AI 助理**&#x200B;產生電子郵件內容、主旨行以及影像。[了解 AI 內容產生](../../content-management/gs-generative.md)
    * 使用客戶資料、動態內容和條件式邏輯&#x200B;**個人化訊息**。[了解個人化](../../personalization/personalize.md)
    * **反覆處理內容資料**&#x200B;以顯示事件、自訂動作和資料集查詢的動態清單。[了解如何反覆處理內容資料](../../personalization/iterate-contextual-data.md)
@@ -43,7 +43,7 @@ Journey Optimizer 提供兩種強大的協調方法：
 
    ![](../assets/perso_ee2.png)
 
-1. **新增產品建議與決策**。使用 AI 驅動的決策，在適當的時間為每位客戶提供最佳產品建議。了解[決策管理](../../offers/get-started/starting-offer-decisioning.md)和[體驗決策](../../experience-decisioning/gs-experience-decisioning.md)。
+1. **新增產品建議與決策**。使用 AI 驅動的決策，在適當的時間為每位客戶提供最佳產品建議。使用Decisioning個人化推播、簡訊和其他管道。 了解[決策管理](../../offers/get-started/starting-offer-decisioning.md)和[體驗決策](../../experience-decisioning/gs-experience-decisioning.md)。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -56,12 +56,15 @@ Journey Optimizer 提供兩種強大的協調方法：
 
    了解如何[測試及驗證訊息](../../content-management/preview-test.md)。
 
-1. **建立客戶歷程**。使用歷程畫布建立即時、個人化的體驗：
+1. **建立客戶歷程**。使用歷程畫布建立即時、個人化的體驗。 在AI助理中使用&#x200B;**Journey Agent**，從自然語言提示建立歷程。 [瞭解Journey Agent](../ai-features.md#journey-agent)
 
    * 觸發包含&#x200B;**事件** (客戶動作) 或&#x200B;**客群** (批次傳送) 的歷程
    * 新增&#x200B;**條件**，以根據客戶資料建立個人化路徑
+   * 針對所有管道動作（電子郵件、推播、簡訊等）使用統一的&#x200B;**動作活動**。 [瞭解動作活動](../../building-journeys/journey-action.md)
+   * 新增&#x200B;**內容決定活動**，將個人化優惠直接整合至您的歷程流程。 [瞭解內容決定活動](../../building-journeys/content-decision.md)
    * 使用&#x200B;**等待活動**&#x200B;來建立訊息間的完美時機
    * 在一個歷程中跨&#x200B;**多個管道**&#x200B;傳送訊息
+   * 使用&#x200B;**波次傳送**&#x200B;以受控批次傳遞訊息（歷程的可用性有限）
    * 套用 **A/B 測試**&#x200B;並最佳化傳送時間，以最大化參與度
    * 使用&#x200B;**資料集查詢**，透過 Adobe Experience Platform 的即時資料擴充歷程。[了解資料集查詢](../../building-journeys/dataset-lookup.md)
    * 運用&#x200B;**補充識別碼**，允許同一輪廓輸入多個歷程執行個體 (例如，不同的訂單或預訂)。[了解補充識別碼](../../building-journeys/supplemental-identifier.md)
@@ -78,6 +81,7 @@ Journey Optimizer 提供兩種強大的協調方法：
    * 針對季節性促銷活動、產品推出、忠誠度產品建議或客戶型行銷，設計&#x200B;**多步驟工作流程**
    * 排程行銷活動，以立即、在特定時間或定期 (每日、每週、每月) 執行排程
    * 在&#x200B;**批次模式**&#x200B;中處理客群，透過工作流程讓所有輪廓保持同一進度
+   * 使用&#x200B;**波次傳送**&#x200B;以受控制的批次傳送訊息，以獲得更好的傳遞能力與載入控制
 
    了解如何[開始使用協調的行銷活動](../../orchestrated/gs-orchestrated-campaigns.md)，以及何時[使用行銷活動與歷程](../../orchestrated/orchestrated-campaigns-faq.md)。
 
@@ -86,7 +90,8 @@ Journey Optimizer 提供兩種強大的協調方法：
    * 分析&#x200B;**訊息傳遞**&#x200B;率和參與量度
    * 使用&#x200B;**報告儀表板**&#x200B;與 Customer Journey Analytics 整合
    * 追蹤&#x200B;**轉換**&#x200B;和業務影響
-   * 使用衝突管理規則管理&#x200B;**訊息頻率和優先順序**，以防止過度通訊。[了解衝突管理](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * 使用衝突管理規則管理&#x200B;**訊息頻率和優先順序**&#x200B;以防止過度通訊
+   * 使用&#x200B;**無訊息時數** （基於時間的排除）來避免在特定期間傳送。 [瞭解衝突管理](../../conflict-prioritization/gs-conflict-prioritization.md)和[無訊息時間](../../conflict-prioritization/quiet-hours.md)
 
    了解如何[監視績效](../../reports/report-gs-cja.md)。
 
@@ -202,5 +207,5 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 1. **從小事做起**：建立簡單的歡迎歷程或單一訊息行銷活動，以了解平台
 2. **利用 AI**：使用 AI 助理提出問題並加快內容建立
-3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
+3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片

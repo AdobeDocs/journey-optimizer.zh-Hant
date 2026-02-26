@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 100%
 
 請依照下列步驟操作：
 
-1. **設定頻道設定。**&#x200B;定義電子郵件、簡訊、推播通知和其他通道所需的所有技術參數：
+1. **設定頻道設定。**&#x200B;定義電子郵件、簡訊、推播通知、網頁推播、直接郵件和其他通道所需的所有技術引數：
 
    * 可在 [!DNL Adobe Experience Platform] 和 Adobe Experience Platform 資料彙集中，定義&#x200B;**推播通知設定**。 [了解更多](../../push/push-gs.md)
+
+   * 設定&#x200B;**網頁推播通知**，將通知傳送至行動與案頭瀏覽器。 [了解更多](../../push/push-configuration-web.md)
 
    * 建立&#x200B;**頻道設定**，以便設定電子郵件、簡訊、推播、應用程式內、網頁和其他頻道所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ ht-degree: 100%
 
    * 管理將電子郵件地址傳送至禁止名單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../../configuration/manage-suppression-list.md)
 
-1. **委派子網域**：若要在 Journey Optimizer 中使用任何新子網域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)
+   * 在頻道設定層級啟用&#x200B;**訊息匯出**，以視需要封存已傳送的電子郵件和簡訊內容（附加產品）。 [了解更多](../../configuration/message-export.md)
+
+1. **委派子網域**：若要在 Journey Optimizer 中使用任何新子網域，第一步是將其委派。 [進一步瞭解](../../configuration/about-subdomain-delegation.md)。您可以視需要將子網域從CNAME移轉至自訂委派。 [了解更多](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ ht-degree: 100%
 * **資料治理原則**：套用資料使用標籤和原則來控制如何在行銷動作中使用資料。[了解更多](../../action/action-privacy.md)
 
 * **IP 暖身計劃**：逐步增加電子郵件傳送量，以建立電子郵件提供者的寄件者信譽。[了解更多](../../configuration/ip-warmup-gs.md)
+
+* **無訊息時數**：設定在特定期間不應傳送訊息時以時間為基礎的排除規則集。 [了解更多](../../conflict-prioritization/quiet-hours.md)
 
 ## 跨角色共同作業
 
