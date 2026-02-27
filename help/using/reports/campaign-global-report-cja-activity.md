@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 行銷活動報告
+title: 行銷活動即時活動報告
 description: 瞭解如何使用行銷活動報告中的即時活動資料
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 * **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
-* **[!UICONTROL 傳送]**：嘗試傳送至目標設定檔的已上線活動總數。
+* **[!UICONTROL 傳送]**：嘗試傳送至目標設定檔的已上線活動事件總數。
 
-* **[!UICONTROL 已傳遞]**：成功傳遞至裝置的即時活動數目（與嘗試的傳送總數相關）。
+* **[!UICONTROL 已傳遞]**：成功傳遞到裝置的即時活動事件數，與嘗試的傳送總數相關。
 
-* **[!UICONTROL 傳送錯誤]**：因錯誤（例如無效的權杖或連線問題）而無法傳送的已上線活動總數。
+* **[!UICONTROL 傳送錯誤]**：因錯誤（例如無效的權杖或連線問題）而無法傳送的已上線活動事件總數。
 
 * **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer排除的設定檔數目（例如，由於選擇退出狀態或適用性規則）。
 
