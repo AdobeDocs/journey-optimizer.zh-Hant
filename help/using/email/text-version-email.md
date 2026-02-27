@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立電子郵件的文字版本
+title: 管理電子郵件的文字版本
 description: 了解如何建立電子郵件的文字版本
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# 建立電子郵件的文字版本 {#text-version-email}
+# 管理電子郵件的文字版本 {#text-version-email}
 
 建議建立電子郵件內文的文字版本，當 HTML 內容無法顯示時可使用。
 
+從安全性角度來看，提供純文字版本相當重要，因為HTML電子郵件可能會帶來風險，例如惡意指令碼、追蹤畫素或依賴豐富格式和連結的網路釣魚嘗試。 純文字可減少攻擊面，通常為安全意識高的收件者或限制或移除HTML的公司電子郵件系統所偏好。 提供兩個版本可讓收件者選擇符合其安全性和隱私權要求的格式。
+
+## 存取預設文字版本 {#plain-text-default}
+
 依預設，電子郵件設計工具會建立電子郵件的&#x200B;**[!UICONTROL 純文字]**&#x200B;版本，包括個人化欄位。此版本是自動產生，並與內容的 HTML 版本同步。
+
+若要存取預設文字版本，請從您的電子郵件內容中選取&#x200B;**[!UICONTROL 純文字]**&#x200B;圖示。
+
+![](assets/text_version_3.png)
+
+## 使用自訂文字版本 {#plain-text-default-custom}
 
 如果您偏好為純文字版本使用不同的內容，請依照以下步驟操作：
 
 1. 從您的電子郵件中選取&#x200B;**[!UICONTROL 純文字]**&#x200B;圖示。
 
-   ![](assets/text_version_3.png)
-
 1. 使用&#x200B;**[!UICONTROL 與HTML同步]**&#x200B;切換以停用同步。 按一下勾選記號以確認您的選擇。
 
    ![](assets/text_version_2.png)
 
-1. 然後，您可以視需要編輯純文字版本。
+1. 之後，您可以視需要編輯自訂純文字版本。
 
 >[!CAUTION]
 >
 > * 停用同步時，在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視中所做的變更不會反映在HTML檢視中。
 >
->* 如果您在更新純文字內容後重新啟用「**[!UICONTROL 與HTML同步]**」選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
+> * 如果您在更新純文字內容後重新啟用「**[!UICONTROL 與HTML同步]**」選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
 
 ## 何時使用自訂純文字版本 {#when-to-use}
 
