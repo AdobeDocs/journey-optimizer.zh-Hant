@@ -10,10 +10,10 @@ level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
 badge: label="有限可用性" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 2%
+source-wordcount: '1642'
+ht-degree: 9%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 2%
 >id="ajo_lp_form_connection"
 >title="選取要使用的端點"
 >abstract="定義在提交表單時傳送資料的串流端點。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立HTTP API串流連線"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="建立 HTTP API 串流連線"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="選取資料集"
->abstract="定義要儲存並反映表單回應的資料集。 您可以輸入以搜尋特定資料集，或從清單中選取它。"
+>abstract="定義要儲存並反映表單回應的資料集。您可以輸入內容搜尋特定資料集，或從清單中選取。"
 
 建立表單前，您需要先建立專屬的預設集，您可在其中選取傳送表單提交資料的連線端點，以及儲存透過表單擷取之資料的資料集。
 
@@ -78,13 +78,13 @@ ht-degree: 2%
    >* **資料型別**&#x200B;必須設定為&#x200B;**XDM** （不是原始資料）
    >* **驗證**&#x200B;必須為&#x200B;**已停用** （未驗證的連線）
    >
-   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
-1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入以搜尋特定資料集，或從清單中選取它。
+1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入內容搜尋特定資料集，或從清單中選取。
 
    >[!NOTE]
    >
-   >目前只有[!DNL Adobe Experience Platform]個資料集可供選取。 一次可以選取一個資料集。 [進一步瞭解資料集](../data/get-started-datasets.md)
+   >目前只有&#x200B;**已啟用設定檔**&#x200B;和&#x200B;**未啟用設定檔** [!DNL Adobe Experience Platform]資料集可供選取。 一次可以選取一個資料集。 系統資料集無法用來儲存表單資料。 [進一步瞭解資料集](../data/get-started-datasets.md)
 
 1. 按一下&#x200B;**[!UICONTROL 發佈]**。 您的預設集現已準備就緒，可用於表單中。
 
@@ -199,7 +199,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="感謝頁面"
->abstract="設定某人填寫或轉寄表單時所發生的情況。"
+>abstract="設定當有人填寫或轉寄表單時所發生的情況。"
 
 返回表單詳細資料，從&#x200B;**[!UICONTROL 感謝頁面]**&#x200B;區段，設定使用者填寫表單時會發生什麼情況。
 
