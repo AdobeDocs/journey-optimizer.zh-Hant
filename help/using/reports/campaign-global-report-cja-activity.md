@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 2%
+source-wordcount: '651'
+ht-degree: 1%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 2%
 
 ![](assets/sending-statistics-mobile-live.png)
 
-**[!UICONTROL 傳送統計資料]**&#x200B;表格提供與您的即時活動行銷活動相關之關鍵量度的詳細概觀。 它會顯示重要資訊，例如目標對象的大小和成功傳送的推播通知數目，協助您評估即時推播通知的整體觸及範圍和效能。
+**[!UICONTROL 傳送統計資料]**&#x200B;表格提供與您的即時活動行銷活動相關之關鍵量度的詳細概觀。 它會顯示重要資訊，例如目標對象人數和成功傳送的即時活動數量，協助您評估即時活動的整體觸及範圍和效能。
 
 +++ 進一步瞭解如何傳送統計資料
 
 * **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。
 
-* **[!UICONTROL 傳送]**：嘗試傳送至目標設定檔的推播通知總數。
+* **[!UICONTROL 傳送]**：嘗試傳送至目標設定檔的已上線活動總數。
 
-* **[!UICONTROL 已傳遞]**：已成功傳遞至裝置的推播通知數目（與嘗試的傳送總數相關）。
+* **[!UICONTROL 已傳遞]**：成功傳遞至裝置的即時活動數目（與嘗試的傳送總數相關）。
 
-* **[!UICONTROL 傳送錯誤]**：因錯誤而無法傳送的推播通知總數（例如，無效的權杖或連線問題）。
+* **[!UICONTROL 傳送錯誤]**：因錯誤（例如無效的權杖或連線問題）而無法傳送的已上線活動總數。
 
 * **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer排除的設定檔數目（例如，由於選擇退出狀態或適用性規則）。
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ## 即時活動生命週期 {#lifecycle}
 
-**[!UICONTROL 已上線活動生命週期]**&#x200B;表格提供已上線活動如何隨著時間進展的完整檢視。 它提供關鍵事件（例如活動開始、更新或結束的時間）的可見度，可幫助您更好地瞭解使用者參與和您的即時活動行銷活動的整體生命週期。
+**[!UICONTROL 已上線活動生命週期]**&#x200B;表格提供已上線活動如何隨時間進展的完整檢視。 它提供關鍵事件（例如活動開始、更新或結束的時間）的可見度，可幫助您更好地瞭解使用者參與和您的即時活動行銷活動的整體生命週期。
 
 報表會因您使用「異動」或「行銷」行銷活動而有所不同。
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 遠端啟動]**：從遠端啟動的即時活動啟動事件總數，通常由伺服器或後端系統觸發。
 
-* **[!UICONTROL 本機啟動]**：在使用者裝置上由本機啟動的已上線活動啟動事件總數，通常是由使用者互動或使用者端觸發器所造成。
+* **[!UICONTROL 本機啟動]**：在使用者裝置上從本機啟動的即時活動啟動事件總數，通常是由使用者互動或使用者端觸發器所造成。
 
 * **[!UICONTROL 更新]**：傳送至裝置的已上線活動更新總數。 更新可以包括狀態變更、新內容或進度通知。
 
@@ -73,11 +73,11 @@ ht-degree: 2%
 
 +++
 
-### 行銷直播活動
+### 行銷現場活動
 
 ![](assets/activity-lifecycle-broadcast.png)
 
-行銷活動會將即時活動用於廣播使用案例，同時傳送更新至多個裝置。
+行銷宣傳活動會針對廣播使用案例使用即時活動，同時傳送更新至多部裝置。
 
 對於行銷活動中的iOS Live活動，報告只顯示&#x200B;**[!UICONTROL 遠端開始]**&#x200B;個事件和&#x200B;**[!UICONTROL 遠端開始錯誤]**&#x200B;個開始事件。 未追蹤&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;事件，因為APN會散發更新給所有裝置而不提供回饋。 若要檢視&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;事件，請使用[Apple的推播通知主控台](https://developer.apple.com/notifications/push-notifications-console/)。
 
@@ -88,6 +88,39 @@ ht-degree: 2%
 * **[!UICONTROL 遠端啟動錯誤]**：嘗試從遠端啟動即時活動時發生的總錯誤數（例如，無效的權杖或連線問題）。
 
 +++
+
+#### 透過API擷取更新和結束計數 {#retrieving-updates-end-api}
+
+除了使用Apple的推播通知主控台，也可以透過Headless API呼叫取得更新及結束計數。
+
+針對廣播使用案例執行更新或結束API呼叫時，回應會包含`controlBreakdown`區段，此區段提供計數器，指出已針對即時活動執行執行多少更新和結束呼叫。 沒有生命週期資料的舊版執行不存在此區塊。 如有需要，也可使用GET端點明確擷取執行狀態。
+
+**更新/結束回應(200 OK)**
+
+```json
+{
+  "executionId": "HA-exec-abc",
+  "campaignId": "campaign-abc-123",
+  "campaignVersionId": "v1",
+  "audienceId": "audience-segment-id",
+  "status": "processing",
+  "targetedProfileCount": 150000,
+  "createdAt": "2026-02-27T10:00:00Z",
+  "executionLifecycle": {
+    "lastControlAt": "2026-02-27T10:45:00Z",
+    "controlBreakdown": {
+      "update": 5,
+      "end": 1
+    }
+  }
+}
+```
+
+**執行狀態(GET)**
+
+```
+GET /im/executions/audience/{executionId}
+```
 
 ## 錯誤原因 {#error-reasons}
 

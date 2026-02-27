@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定即時活動頻道
-description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送已上線的活動
+description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送即時活動
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 2%
 
    ![](assets/config-1.png)
 
-1. 輸入設定的名稱和說明（選用），然後選取WhatsApp通道。
+1. 輸入設定的名稱和說明（選用），然後選取「即時」活動頻道。
 
    >[!NOTE]
    >

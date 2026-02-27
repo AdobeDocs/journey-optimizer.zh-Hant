@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -157,6 +157,6 @@ ht-degree: 3%
 
 ## 作法影片
 
-瞭解如何使用Adobe Journey Optimizer設定iOS Live活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
+瞭解如何使用Adobe Journey Optimizer設定iOS即時活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
