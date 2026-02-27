@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
 
 # 開始使用即時活動設定 {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [開始使用即時活動](get-started-mobile-live.md)
-* **[已上線活動設定](mobile-live-configuration.md)**
-* [與Adobe Experience Platform Mobile SDK的即時活動整合](mobile-live-configuration-sdk.md)
-* [建立已上線活動](create-mobile-live.md)
-* [常見問題](mobile-live-faq.md)
-* [即時活動行銷活動報告](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 在傳送「即時」活動之前，您必須先設定Adobe Journey Optimizer環境。 若要執行此動作：
 

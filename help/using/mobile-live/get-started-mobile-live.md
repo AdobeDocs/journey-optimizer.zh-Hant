@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '278'
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
-
 # 開始使用即時動態 {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[開始使用即時動態](get-started-mobile-live.md)**
-* [即時動態設定](mobile-live-configuration.md)
-* [即時動態與 Adobe Experience Platform Mobile SDK 整合](mobile-live-configuration-sdk.md)
-* [建立即時動態](create-mobile-live.md)
-* [常見問題](mobile-live-faq.md)
-* [即時活動行銷活動報告](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ ht-degree: 100%
 1. **[監視您的行銷活動](../reports/campaign-global-report-cja-activity.md)**
 
    開始使用內建報告來衡量您的即時動態的影響。
-
-
-
-

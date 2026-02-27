@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
+# 即時動態與 Adobe Experience Platform Mobile SDK 整合 {#mobile-live-config-sdk}
 
-# 與Adobe Experience Platform Mobile SDK的即時活動整合 {#mobile-live-config-sdk}
-
->[!BEGINSHADEBOX]
-
-* [開始使用即時活動](get-started-mobile-live.md)
-* [已上線活動設定](mobile-live-configuration.md)
-* **[與Adobe Experience Platform Mobile SDK的即時活動整合](mobile-live-configuration-sdk.md)**
-* [建立已上線活動](create-mobile-live.md)
-* [常見問題](mobile-live-faq.md)
-* [即時活動行銷活動報告](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK為Apple的Live活動提供內建支援。 這可讓您的應用程式直接在鎖定畫面和動態島上顯示即時動態更新，而不需開啟應用程式。
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

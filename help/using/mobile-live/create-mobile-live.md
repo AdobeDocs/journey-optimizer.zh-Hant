@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
-# 建立已上線活動 {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [開始使用即時活動](get-started-mobile-live.md)
-* [已上線活動設定](mobile-live-configuration.md)
-* [與Adobe Experience Platform Mobile SDK的即時活動整合](mobile-live-configuration-sdk.md)
-* **[建立已上線的活動](create-mobile-live.md)**
-* [常見問題](mobile-live-faq.md)
-* [即時活動行銷活動報告](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
+# 建立即時動態 {#create-mobile-live}
 
 設定行動設定並實作Adobe Experience Platform mobile SDK後，您就可以在Journey Optimizer中開始建立「即時」活動：
 
@@ -34,7 +24,7 @@ ht-degree: 1%
 
 1. 選取&#x200B;**API觸發**&#x200B;行銷活動型別。
 
-   * 針對對象型行銷活動選取&#x200B;**API觸發的行銷**
+   * 針對客群型行銷活動選取 **API 觸發的行銷**
 
    * 為個別行銷活動選取&#x200B;**API觸發的交易式**。
 
@@ -56,6 +46,10 @@ ht-degree: 1%
 
 1. 從&#x200B;**[!UICONTROL 對象]**&#x200B;索引標籤，選擇您的&#x200B;**[!UICONTROL 身分型別]** [深入瞭解](../audience/about-audiences.md)。
 
+   >[!NOTE]
+   >
+   >針對&#x200B;**API觸發的行銷**&#x200B;行銷活動，您可以從API裝載中檢查APNs channelID訂閱之前，選取做為第一個區段的現有對象。
+
 1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
 
 1. 設定之後，按一下&#x200B;**[!UICONTROL 檢閱以啟動]**，然後按一下&#x200B;**[!UICONTROL 啟動]**。
@@ -68,9 +62,9 @@ ht-degree: 1%
 
    ![](assets/create-live-3.png)
 
-   +++ 個別裝載的範例
+   +++ 單一使用案例（API觸發的交易式行銷活動）的裝載範例
 
-   請注意，下列裝載範例中的大部分欄位是必填欄位，只有`requestId`、`dismissal-date`和`alert`是選用欄位。
+   此裝載範例適用於使用&#x200B;**API觸發的交易式**&#x200B;行銷活動型別的個別行銷活動。 請注意，下列裝載範例中的大部分欄位是必填欄位，只有`requestId`、`dismissal-date`和`alert`是選用欄位。
 
    ```json
    {
@@ -116,4 +110,53 @@ ht-degree: 1%
 
    +++
 
+   +++ 廣播使用案例（API觸發的行銷活動）的裝載範例
+
+   此裝載範例適用於使用&#x200B;**API觸發的行銷**&#x200B;行銷活動型別的對象型行銷活動。
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 設計您的即時活動後，您可以使用[內建報告](../reports/campaign-global-report-cja-activity.md)來追蹤測量即時活動的影響。
+
+## 作法影片
+
+瞭解如何使用Adobe Journey Optimizer設定iOS Live活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
