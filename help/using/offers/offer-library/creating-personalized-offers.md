@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 18%
@@ -83,7 +83,9 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。[深入瞭解](add-representations.md)個人化表示內容時，僅支援某些函式 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
+1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。[了解更多](add-representations.md)
+
+   個人化表示內容時，僅支援某些函式 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
 
    ![](../assets/channel-placement.png)
 
@@ -135,7 +137,7 @@ ht-degree: 18%
 
 選取「**[!UICONTROL 編輯]**」按鈕以返回優惠方案版本模式，您可以在其中修改優惠方案的[詳細資料](#create-offer)、[代表](add-representations.md#representations)，以及編輯[適用性規則和限制](add-constraints.md#eligibility)。
 
-選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。**&#x200B;**&#x200B;**&#x200B;**
+選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。********
 
 若要再次將狀態設定為&#x200B;**[!UICONTROL 已核准]**，請選取現在顯示的對應按鈕。
 
