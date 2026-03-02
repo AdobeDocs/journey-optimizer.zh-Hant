@@ -11,9 +11,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '636'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 6%
 **排名公式**&#x200B;可讓您定義規則，這些規則將決定應先針對指定位置顯示哪個優惠，而不是考慮優惠的優先順序分數。
 
 排名公式以&#x200B;**PQL語法**&#x200B;表示，而且可以利用設定檔屬性、內容資料和優惠屬性。 如需如何使用PQL語法的詳細資訊，請參閱[專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant)。
+
+在決定管理中，排名公式僅支援函式的子集。 如需清單，請參閱運算式編輯器[中的](../personalization-editor-supported-functions.md)支援的函式。
 
 建立排名公式後，您就可以將其指派給決定中的位置。 如需深入了解，請參閱[在決策設定產品建議選取項目](../offer-activities/configure-offer-selection.md)。
 

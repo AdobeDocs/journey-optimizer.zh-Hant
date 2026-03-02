@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3123'
 ht-degree: 97%
 
 ---
@@ -695,6 +695,7 @@ ht-degree: 97%
          + [開始使用決策管理](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [關於決策管理](using/offers/get-started/starting-offer-decisioning.md)
          + [決策管理護欄與限制](using/offers/decision-management-guardrails.md)
+         + [運算式編輯器中支援的函式](using/offers/personalization-editor-supported-functions.md)
          + [使用者介面](using/offers/get-started/user-interface.md)
          + [建立和管理優惠的重要步驟](using/offers/offer-library/key-steps.md)
          + [善用自訂上傳對象，以便做決策](using/offers/custom-upload-decisioning.md)

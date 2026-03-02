@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 12%
+source-wordcount: '361'
+ht-degree: 11%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 12%
 
 ## 建立和管理優惠方案 {#create-and-manage-offers}
 
-1. [建立優惠方案](creating-personalized-offers.md)，並設定其內容和屬性。
+1. [建立優惠方案](creating-personalized-offers.md)，並設定其內容和屬性。 當您個人化優惠內容（表示法）時，僅支援某些運算式函式 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
 
 1. [建立遞補優惠方案](creating-fallback-offers.md)，如果客戶不符合任何選取優惠方案的資格，則這些方案是最後要顯示的優惠方案。
 

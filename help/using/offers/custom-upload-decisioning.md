@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 5%
+source-wordcount: '631'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 5%
 如需自訂上傳對象的詳細資訊，請參閱區段：
 
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
@@ -76,5 +76,7 @@ ht-degree: 5%
 ![自訂上傳對象限制選項](assets/csv-offer.png)
 
 對象新增為限制後，您可使用其屬性來個人化表示內容。 若要這麼做，請存取&#x200B;**設定檔屬性**&#x200B;索引標籤，並搜尋自訂上傳對象。 從對象中選取相關屬性，以個人化選件內容。
+
+在決定管理中，個人化內容時僅支援某些函式 — 請參閱運算式編輯器中的[支援函式](personalization-editor-supported-functions.md)。
 
 ![設定檔屬性個人化介面](assets/csv-perso.png)
