@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3117'
 ht-degree: 97%
 
 ---
@@ -486,6 +486,7 @@ ht-degree: 97%
       + [使用 Adobe Express 工作](using/integrations/express.md)
       + [使用 Experience Manager 範本工作](using/integrations/aem-templates.md)
       + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
+      + [使用Experience Manager內容顧問](using/content-management/aem-content-advisor.md)
       + [插入倒數計時器](using/integrations/countdown.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
