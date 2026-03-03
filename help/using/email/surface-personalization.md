@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1192'
 ht-degree: 6%
 
 ---
@@ -89,6 +89,10 @@ ht-degree: 6%
 ## 個人化您的頁首 {#personalize-header}
 
 您也可以針對設定中定義的所有標頭引數使用個人化。
+
+>[!NOTE]
+>
+>當[編輯電子郵件組態](../configuration/channel-surfaces.md#edit-channel-surface)時，您無法新增新的[設定檔屬性](../personalization/personalization-build-expressions.md#sources)至標頭引數。 您必須建立新的管道設定。
 
 例如，如果您有多個品牌，您可以建立單一設定，並對電子郵件標題使用個人化值。 這可讓您確保從不同品牌傳送的所有電子郵件都會以正確的&#x200B;**寄件者**&#x200B;名稱和電子郵件傳送給每個客戶。 同樣地，當您的收件者按一下電子郵件使用者端軟體中的&#x200B;**回覆**&#x200B;按鈕時，您希望&#x200B;**回覆**&#x200B;名稱和電子郵件對應至正確使用者的正確品牌。
 

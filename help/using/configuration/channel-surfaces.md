@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1875'
 ht-degree: 12%
 
 ---
@@ -166,6 +166,8 @@ ht-degree: 12%
 >[!NOTE]
 >
 >您無法編輯&#x200B;**[!UICONTROL 推播通知設定]**。 如果僅為推播通知頻道設定頻道設定，則無法編輯。
+>
+>編輯電子郵件組態時，您無法新增新的[設定檔屬性](../personalization/personalization-build-expressions.md#sources)至標頭引數。 您必須建立[新頻道設定](#create-channel-surface)。
 
 1. 從清單中，按一下頻道設定名稱以開啟。
 

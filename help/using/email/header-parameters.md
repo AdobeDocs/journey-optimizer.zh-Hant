@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 90%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 90%
 >[!NOTE]
 >
 >為了增強對電子郵件設定的控制，您可以個人化標頭參數。[了解更多](../email/surface-personalization.md#personalize-header)
+>
+>當[編輯電子郵件組態](../configuration/channel-surfaces.md#edit-channel-surface)時，您無法新增新的[設定檔屬性](../personalization/personalization-build-expressions.md#sources)至標頭引數。 您必須建立新的管道設定。
 
 * **[!UICONTROL 寄件者姓名]**：寄件者姓名，例如您的品牌名稱。
 * **[!UICONTROL 寄件者電子郵件前置詞]**：您想要用於通訊的電子郵件地址。
