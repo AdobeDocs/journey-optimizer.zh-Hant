@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 9%
@@ -74,7 +74,7 @@ ht-degree: 9%
 >
 >只有與版位內容型別對應的內容才可供使用。
 >
->當您在決策管理中使用個人化編輯器時，僅支援函式的子集 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
+>當您在決策管理中使用個人化編輯器時，僅支援函式的子集 — 請參閱個人化編輯器中的[支援函式](personalization-editor-supported-functions.md)。
 
 ### 新增影像 {#images}
 
@@ -82,7 +82,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}，您必須為貴組織部署[!DNL Assets Essentials]，並確定使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hant){target="_blank"}。
+> 若要使用[Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}，您必須為貴組織部署[!DNL Assets Essentials]，並確定使用者是&#x200B;**Assets Essentials消費者使用者**&#x200B;或/和&#x200B;**Assets Essentials使用者**&#x200B;產品設定檔的一部分。 深入瞭解[此頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}。
 
 1. 選擇&#x200B;**[!UICONTROL 資產庫]**&#x200B;選項。
 
@@ -98,9 +98,9 @@ ht-degree: 9%
 
 ### 新增HTML或JSON檔案 {#html-json}
 
-如果選取的位置為HTML型別，您也可以新增來自[HTML資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}的Adobe Experience Cloud或JSON內容。
+如果選取的位置為HTML型別，您也可以新增來自[HTML資產庫](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}的Adobe Experience Cloud或JSON內容。
 
-例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hant){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
+例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
 
 若要在呈現中重複使用您的內容，請依照&#x200B;**本節**&#x200B;所述瀏覽[資產庫](#images)，並選取您選擇的HTML或JSON檔案。
 
@@ -110,13 +110,13 @@ ht-degree: 9%
 
 若要從外部公用位置新增內容，請選取&#x200B;**[!UICONTROL URL]**，然後輸入要新增內容的URL位址。
 
-您可以使用個人化編輯器個人化URL。 深入瞭解[個人化](../../personalization/personalize.md#use-expression-editor)。 在決定管理中，僅支援某些函式 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
+您可以使用個人化編輯器個人化URL。 深入瞭解[個人化](../../personalization/personalize.md#use-expression-editor)。 在決定管理中，僅支援某些功能 — 請參閱個人化編輯器中的[支援的功能](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url.png)
 
 例如，您想要個人化顯示為選件的影像。 你想讓喜歡城市度假的使用者看紐約的天際線，也想讓喜歡海灘度假的使用者看夏威夷的北岸。
 
-使用個人化編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=zh-Hant){target="_blank"}有關決定管理中支援的函式，請參閱運算式編輯器中的[支援的函式](../personalization-editor-supported-functions.md)。
+使用個人化編輯器，使用聯合結構描述擷取儲存在Adobe Experience Platform中的設定檔屬性。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}有關決定管理中支援的功能，請參閱個人化編輯器中的[支援的功能](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ ht-degree: 9%
 
    ![](../assets/offer-text-content.png)
 
-   您可以使用個人化編輯器個人化您的內容。 深入瞭解[個人化](../../personalization/personalize.md#use-expression-editor)。 在決定管理中，僅支援某些函式 — 請參閱運算式編輯器中的[支援函式](../personalization-editor-supported-functions.md)。
+   您可以使用個人化編輯器個人化您的內容。 深入瞭解[個人化](../../personalization/personalize.md#use-expression-editor)。 在決定管理中，僅支援某些功能 — 請參閱個人化編輯器中的[支援的功能](personalization-editor-supported-functions.md)。
 
    ![](../assets/offer-personalization.png)
 
