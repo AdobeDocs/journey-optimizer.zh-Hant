@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 35%
+source-wordcount: '1713'
+ht-degree: 33%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 35%
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2026年3月更新 {#march-26-rn}
+
+### 新功能 {#march-26-features}
 
 <!--
 <table>
@@ -68,13 +70,22 @@ ht-degree: 35%
 </tbody>
 </table>
 
+### 改進 {#march-26-improv}
+
+#### 設定
+
+* **在AJO次要收件者回饋事件資料集變更** - AJO電子郵件密件副本回饋事件資料集正在重新命名為AJO次要收件者回饋事件資料集。
+   * **現有使用者**：只會變更顯示名稱。 基礎資料表名稱保持不變。
+   * **新使用者和新沙箱**：顯示名稱和表格名稱都會使用新名稱。
+   * **具有新沙箱的現有使用者/組織**：顯示名稱和表格名稱都會變更為新名稱。
+
 ## 2026年2月發行說明 {#feb-26-01-rn}
 
 [新功能](#feb-26-01-features)和[改進](#feb-26-01-improv)區段已涵蓋可用的功能。 [即將推出](#coming-soon)區段列出排定於2月稍後發行的功能和改善。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
