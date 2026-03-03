@@ -6,10 +6,8 @@ description: 瞭解如何在Journey Optimizer中建立即時活動
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -159,4 +157,4 @@ ht-degree: 3%
 
 瞭解如何使用Adobe Journey Optimizer設定iOS即時活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
