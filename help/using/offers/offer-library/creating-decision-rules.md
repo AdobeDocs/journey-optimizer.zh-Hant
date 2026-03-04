@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
 # 建立決策規則 {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>此頁面涵蓋舊版&#x200B;**決定管理**&#x200B;功能的決定規則。 如果您正在使用&#x200B;**決策** — [!DNL Adobe Journey Optimizer]的目前決策功能可透過程式碼式體驗和電子郵件通道取得 — 請改為參閱[組建規則](../../experience-decisioning/rules.md)。
+>
+>不確定您使用哪種功能？ [瞭解Decisioning](../../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 關於決定規則 {#about}
 
@@ -59,7 +61,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >提供用來建立決定規則的區段產生器，與&#x200B;**[!UICONTROL Segmentation]**&#x200B;服務所使用的區段產生器相比，有一些特異性。 但是，[區段產生器](../../audience/creating-a-segment-definition.md)檔案中說明的全域程式對於建立優惠決定規則仍然有效。 在 [Adobe Experience Platform 細分服務文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant)中了解更多。
+   >提供用來建立決定規則的區段產生器，與&#x200B;**[!UICONTROL Segmentation]**&#x200B;服務所使用的區段產生器相比，有一些特異性。 但是，[區段產生器](../../audience/creating-a-segment-definition.md)檔案中說明的全域程式對於建立優惠決定規則仍然有效。 在 [Adobe Experience Platform 細分服務文件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)中了解更多。
 
 1. 當您在工作區中新增及設定新欄位時，**[!UICONTROL 對象屬性]**&#x200B;窗格會顯示屬於該對象的預估設定檔資訊。 按一下&#x200B;**[!UICONTROL 重新整理預估值]**&#x200B;以更新資料。
 
@@ -77,7 +79,7 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+>[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 ## 教學課程影片 {#video}
 

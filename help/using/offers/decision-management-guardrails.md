@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 18%
+source-wordcount: '400'
+ht-degree: 13%
 
 ---
 
 # 決策管理護欄與限制 {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
+>本頁涵蓋舊版&#x200B;**決定管理**&#x200B;功能的護欄。 如果您正在使用&#x200B;**決策** — [!DNL Adobe Journey Optimizer]的目前決策功能可透過程式碼式體驗和電子郵件通道取得 — 請改為參閱[決策護欄和限制](../experience-decisioning/decisioning-guardrails.md)。
+>
+>不確定您使用哪種功能？ [瞭解Decisioning](../experience-decisioning/gs-experience-decisioning.md)。
 
-為確保最佳使用決定管理，請謹記以下護欄和限制。
+此頁面適用於仍在使用舊版決策管理系統的使用者。 為確保最佳使用，請記住以下護欄和限制。
 
 [!DNL Journey Optimizer]護欄與限制的完整清單可在[此區段](../start/guardrails.md)中取得。
 
@@ -93,7 +95,7 @@ ht-degree: 18%
 
 | 護欄 | 限制 |
 | ------- | ------- |
-| 位置 | 1000 |
+| 刊登版位 | 1000 |
 | AI排名模型 | 5 |
 | 頻率限定 — 每個選件的上限規則數量上限 | 10 |
 
