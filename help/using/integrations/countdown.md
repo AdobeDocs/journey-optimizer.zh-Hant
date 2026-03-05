@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
+exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 1%
 * 24小時後開啟的收件者會看到「剩餘23小時」
 * 在銷售結束後開啟的收件者會看到「銷售已結束」
 
-如需有關如何在Adobe Experience Manager中建立動態媒體的詳細資訊，請參閱[此檔案](assets/do-not-localize/countdown.pdf)。
+如需如何在Adobe Experience Manager中新增倒數計時器至Dynamic Media範本的詳細資訊，請參閱[此檔案](assets/do-not-localize/countdown.pdf)。
 
 
 1. 在&#x200B;**[!DNL Adobe Experience Manager]**&#x200B;中建立Dynamic Media範本，並新增倒數計時器元件。
@@ -34,9 +35,9 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!DNL Journey Optimizer]**&#x200B;中，建立新行銷活動或開啟現有行銷活動，然後存取電子郵件Designer。
 
-1. 將&#x200B;**[!UICONTROL HTML元件]**&#x200B;拖放到您的電子郵件內容中。
+1. 將&#x200B;**HTML**&#x200B;或&#x200B;**Asset**&#x200B;元件拖放到您的電子郵件內容中。
 
-1. 選取&#x200B;**[!UICONTROL 顯示原始程式碼]**&#x200B;以直接編輯HTML。
+1. 將游標暫留在元件上，然後按一下&#x200B;**[!UICONTROL 顯示原始程式碼]** (適用於HTML元件)或&#x200B;**[!UICONTROL 瀏覽]** （適用於Asset元件）。
 
    ![](assets/timer-2.png)
 
@@ -50,9 +51,10 @@ ht-degree: 1%
 
    ![](assets/timer-4.png)
 
-1. 在電子郵件Designer中選取資產，然後存取&#x200B;**[!UICONTROL 樣式]**&#x200B;功能表。
+1. 在電子郵件Designer中選取資產，然後存取&#x200B;**[!UICONTROL 設定]**&#x200B;功能表。
 
-   完成下列設定:
+   設定下列專案：
+
    * **橫幅文字**：計時器顯示的文字
    * **結束時間**：倒數計時到期的日期和時間。 僅以GMT （格林威治標準時間）輸入時間。 系統不接受其他時區。
    * **遞補文字**：計時器結束之後顯示的訊息
@@ -62,4 +64,3 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視具有即時倒數計時器更新的計時器，並驗證您的設定。
 
 當收件者開啟電子郵件時，他們會看到您快閃銷售的確切剩餘時間。 如果他們稍後重新開啟電子郵件，倒數計時會自動更新以反映目前的剩餘時間。 結束日期後，預設訊息會自動顯示。
-
