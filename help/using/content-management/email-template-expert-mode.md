@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -54,13 +55,13 @@ ht-degree: 5%
 
    ![](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
 
    >[!NOTE]
    >
    >此警告只會在您首次開啟進階HTML編輯器時顯示，並在每月重設。
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. 進階HTML編輯器隨即顯示。
 
@@ -74,7 +75,7 @@ ht-degree: 5%
 
 1. 進階HTML檢視中不提供儲存功能。 切換回[案頭]檢視以儲存變更。
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
