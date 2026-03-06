@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="關於傳送時間最佳化"
->abstract="[!DNL Adobe Journey Optimizer]的傳送時間最佳化功能(由Adobe的AI服務提供支援)可依據歷史開啟率和點按率，預測傳送電子郵件或推送訊息的最佳時機，最大化參與程度。"
+>abstract="[!DNL Adobe Journey Optimizer] 的傳送時間最佳化功能由 Adobe 的 AI 服務提供支援，可以預測傳送電子郵件或推播訊息的最佳時間，根據歷史開啟率和點擊率將參與度提高至最大限度。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -101,7 +101,7 @@ ht-degree: 7%
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 

@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
 >title="監視自訂動作"
->abstract="**[!UICONTROL 自訂動作]**&#x200B;報告頁面可讓您追蹤歷程對協力廠商系統發出的API呼叫效能和可靠性。"
+>abstract="**[!UICONTROL 自訂動作]**&#x200B;報告頁面可讓您追蹤歷程對第三方系統發出之 API 呼叫的效能和可靠性。"
 
 **[!UICONTROL 自訂動作]**&#x200B;報告頁面可讓您監視從歷程對第三方系統發出的API呼叫的可靠性和效能。 這些報告可協助您快速識別可能影響傳送的整合問題、延遲瓶頸或節流/上限限制。
 
@@ -102,6 +103,6 @@ ht-degree: 2%
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3479552?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

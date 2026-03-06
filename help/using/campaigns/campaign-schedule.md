@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
->title="使用設定檔時區"
->abstract="根據每位收件者的設定檔時區傳送訊息。 所有收件者都會於當地時間收到訊息，無論其地理位置為何。 系統會使用Adobe Experience Platform設定檔中的「時區」欄位，將行銷活動建立者的時區設為遞補。"
+>title="使用輪廓時區"
+>abstract="根據每位收件者的輪廓時區傳送訊息。所有收件者都會於當地時間收到訊息，無論其地理位置為何。系統會使用 Adobe Experience Platform 輪廓中的「時區」欄位，並將行銷活動建立者的時區設為後備。"
 
 為特定日期和時間排程行銷活動時，您可以選擇根據每個收件者的設定檔時區傳送訊息。 這可確保所有收件者（不論其地理位置為何）都能在當地時間收到訊息。
 

@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直接郵件建立"
->abstract="在排程的行銷活動和歷程中建立直接郵件訊息，並設計直接郵件供應商傳送郵件給客戶所需的擷取檔案。"
+>abstract="在排程的行銷活動和歷程中建立直接郵件訊息，並設計直接郵件提供者向您客戶傳送郵件所需的摘取檔案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

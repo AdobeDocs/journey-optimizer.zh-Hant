@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 18%
+ht-degree: 30%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 18%
 
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
-若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
+若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**選單。
 
 
 ![](assets/primary-address-execution-fields.png){width=90%}
@@ -69,12 +69,12 @@ ht-degree: 18%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## 覆寫歷程引數中的預設執行欄位 {#override-execution-address-journey}
+## 覆寫歷程參數中的預設執行欄位 {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定義自訂值"
->abstract="在某些特定情況下，您可以覆寫預設的執行欄位值。 使用此欄位右側的&#x200B;**啟用引數覆寫**&#x200B;圖示，定義自訂電子郵件地址或電話號碼以排定傳送的優先順序。"
+>abstract="在某些特定情況下，您可以覆寫預設執行欄位值。使用此欄位右側的&#x200B;**啟用參數覆寫**&#x200B;圖示，定義自訂電子郵件地址或電話號碼，排定傳送的優先順序。"
 
 對於特定使用案例，您可以全域覆寫執行欄位設定並在歷程層級定義不同的值。
 
@@ -93,12 +93,12 @@ ht-degree: 18%
 >
 >電子郵件地址或電話號碼覆寫僅應用於特定使用案例。 在大多數情況下，您不需要變更它，因為在沙箱層級的&#x200B;**[!UICONTROL 執行欄位]**&#x200B;中定義為主要欄位的值才是應該使用的值。 [了解更多](#change-primary-email)
 
-## 覆寫通道設定中的預設執行欄位 {#override-execution-address-channel-config}
+## 覆寫管道設定中的預設執行欄位 {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="覆寫要使用的預設執行地址"
->abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。 主要地址是在沙箱層級定義，但您可以在此處覆寫此特定通道設定的預設設定。"
+>abstract="當資料庫 (個人、專業等) 中有多個電子郵件地址或電話號碼時，您可以選擇優先傳送哪一個。 此主要地址是在沙箱層級定義，但您可以在此處覆寫此特定管道設定的預設設定。"
 
 您可以變更特定電子郵件、簡訊或WhatsApp [頻道設定](channel-surfaces.md)的預設執行位址。
 

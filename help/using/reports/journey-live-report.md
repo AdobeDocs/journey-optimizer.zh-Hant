@@ -53,7 +53,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_performance.png)
 
-**[!UICONTROL 歷程績效]**&#x200B;可讓您逐步檢視目標設定檔的路徑。
+**[!UICONTROL Journey Performance]** allows you to see the path of your targeted profiles step-by-step through your journey.
 
 請注意，節點的設定檔計數只會在設定檔完成節點之後更新，而不會在進入節點時更新。 例如，**等待**&#x200B;節點上的設定檔只有在到達指定的日期且設定檔已退出節點時才會計算。
 
@@ -66,13 +66,13 @@ ht-degree: 30%
 
 ![](assets/journey_live_statistics.png)
 
-**[!UICONTROL 歷程統計資料]**&#x200B;關鍵績效指標(KPI)可作為全方位儀表板，提供與過去24小時內您的歷程相關聯的基本量度分析。 這包含諸如輸入的設定檔計數和失敗的個人歷程例項等詳細資訊，提供全面的insight來瞭解歷程的有效性和參與程度。
+The **[!UICONTROL Journey Statistics]** Key Performance Indicators (KPIs) function as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your journey over the last 24 hours. This encompasses details such as the count of entered profiles and instances of failed individual journeys, offering a comprehensive insight into your journey&#39;s effectiveness and level of engagement.
 
-+++ 深入瞭解歷程的統計量度
++++ Learn more about Journey&#39;s statistics metrics
 
-* **[!UICONTROL 已進入的設定檔]**：到達歷程進入事件的個人總數。
+* **[!UICONTROL Entered profiles]**: Total number of individuals who reached the entry event of the journey.
 
-* **[!UICONTROL 已退出設定檔]**：已退出歷程的個人總數。
+* **[!UICONTROL Exited profiles]**: Total number of individuals who exited the journey.
 
 * **[!UICONTROL 失敗的個別歷程]**：未成功執行的個別歷程總數。
 +++
@@ -212,15 +212,15 @@ ht-degree: 30%
 
 * **[!UICONTROL 已鎖定目標]**：在套用排除、隱藏或同意移除之前，符合對象資格的設定檔數目。 在啟用重新進入的歷程中，設定檔可能會鎖定多次。
 
-* **[!UICONTROL 已排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+* **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
-* **[!UICONTROL 已傳送]**：已傳送的電子郵件總數。
+* **[!UICONTROL Sent]**: Total number of emails sent.
 
-* **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目，與已傳送的訊息總數相關。
+* **[!UICONTROL Delivered]**: Number of emails successfully sent, in relation to the total number of sent messages.
 
-* **[!UICONTROL 跳出數]**：在傳送程式期間累積的錯誤總數，以及相對於已傳送訊息總數的自動傳回處理次數。
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing in relation to the total number of sent messages.
 
-* **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
 * **[!UICONTROL 開啟次數]**：您的電子郵件開啟次數。
 
@@ -251,15 +251,15 @@ ht-degree: 30%
 
 * **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目。
 
-* **[!UICONTROL 退回]**：傳送程式與自動傳回處理期間累積的錯誤總數。
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing.
 
-* **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
-* **[!UICONTROL 開啟次數]**：您的電子郵件開啟次數。
+* **[!UICONTROL Opens]**: Number of times your emails were opened.
 
-* **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
+* **[!UICONTROL Clicks]**: Number of times a content was clicked on in your emails.
 
-* **[!UICONTROL 取消訂閱]**：取消訂閱連結的點按次數。
+* **[!UICONTROL Unsubscribe]**: Number of clicks on the unsubscription link.
 
 * **[!UICONTROL 垃圾訊息申訴]**：訊息被宣告為垃圾郵件或垃圾訊息的次數。
 
@@ -342,7 +342,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 優惠閱聽]**：在您的電子郵件中開啟優惠的次數。
 
-* **[!UICONTROL 優惠點按次數]**：您的電子郵件中某個優惠的點按次數。
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in your emails.
 
 +++
 
@@ -359,7 +359,7 @@ ht-degree: 30%
 >
 >**[!UICONTROL 傳送時間最佳化]**&#x200B;和&#x200B;**[!UICONTROL 已最佳化與未最佳化]** Widget只有在傳送的「傳送時間最佳化」選項已啟用時才可用。 如需傳送時間最佳化的詳細資訊，請參閱[此頁面](../building-journeys/send-time-optimization.md)。
 
-**[!UICONTROL 傳送時間最佳化]**&#x200B;和&#x200B;**[!UICONTROL 已最佳化與未最佳化]** Widget會根據傳送方法（已最佳化或正常）詳細列出您的電子郵件是否成功。
+The **[!UICONTROL Send time optimization]** and **[!UICONTROL Optimized vs non optimized]** widgets detail the success of your emails depending on the sending method: optimized or normal.
 
 +++ 深入瞭解傳送時間最佳化及最佳化與非最佳化量度的比較
 
@@ -387,7 +387,7 @@ ht-degree: 30%
 
 ![](assets/campain_push_live_sending_performance.png)
 
-**[!UICONTROL 推播通知傳送績效]**&#x200B;圖表提供過去24小時內傳送之推播通知相關資料的完整概觀。 它提供基本量度的深入分析，例如傳送和跳出，以便詳細檢查推播通知傳送流程。
+The **[!UICONTROL Push notification sending performance]** graph offers a thorough overview of data related to push notifications sent within the past 24 hours. 它提供基本量度的深入分析，例如傳送和跳出，以便詳細檢查推播通知傳送流程。
 
 +++ 深入瞭解推播通知 — 傳送效能量度
 
@@ -395,7 +395,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 退回]**：傳送程式與自動傳回處理期間累積的錯誤總數。
 
-* **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
+* **[!UICONTROL Errors]**: Total number of errors that occurred during the sending process preventing it from being sent to profiles.
 
 +++
 
@@ -408,7 +408,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_push_statistics.png)
 
-**[!UICONTROL 推播通知 — 統計資料]**&#x200B;表格提供與推播通知相關之基本資料的簡要摘要，包括關鍵量度，例如目標訊息數目以及過去24小時內成功傳送的訊息數目。
+**[!UICONTROL Push notification - Statistics]** table provides a concise summary of essential data related to your push notifications, including key metrics such as the number of targeted messages and number of successfully delivered messages within the last 24 hours.
 
 +++ 進一步瞭解推播通知 — 統計量度
 
@@ -531,9 +531,9 @@ ht-degree: 30%
 
 +++ 深入瞭解簡訊 — 依據日期量度的效能
 
-* **[!UICONTROL 已傳送]**：已傳送的SMS訊息總數。
+* **[!UICONTROL Sent]**: Total number of SMS messages sent.
 
-* **[!UICONTROL 退回]**：傳送程式與自動傳回處理期間累積的錯誤總數。
+* **[!UICONTROL Bounces]**: Total of errors cumulated during the sending process and automatic return processing.
 
 * **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
 
@@ -548,7 +548,7 @@ ht-degree: 30%
 
 ![](assets/journey_sms_bounce_reasons.png)
 
-**[!UICONTROL SMS — 退回原因]**&#x200B;圖表和表格提供與退回SMS訊息相關的資料全面總覽，提供對過去24小時內SMS訊息退回執行個體背後特定原因的寶貴見解。
+The **[!UICONTROL SMS - Bounces reasons]** graphs and table provide a comprehensive overview of data related to bounced SMS messages, delivering valuable insights into the specific reasons behind instances of SMS message bounces in the last 24 hours.
 
 ### 簡訊 - 錯誤原因 {#sms-error}
 
@@ -559,7 +559,7 @@ ht-degree: 30%
 
 ![](assets/journey_sms_error.png)
 
-**[!UICONTROL SMS — 錯誤原因]**&#x200B;圖表和表格可讓您識別在SMS訊息傳送過程中發生的特定錯誤，協助您徹底分析過去24小時內遇到的任何問題。
+The **[!UICONTROL SMS - Error Reasons]** graphs and table allow you to identify the specific errors that occurred during the sending process of your SMS messages, facilitating a thorough analysis of any issues encountered in the last 24 hours.
 
 ### 簡訊 - 排除原因 {#sms-excluded}
 

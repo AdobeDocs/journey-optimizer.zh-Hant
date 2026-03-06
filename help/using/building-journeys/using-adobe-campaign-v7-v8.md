@@ -13,18 +13,18 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
-# [!DNL Adobe Campaign] v7/v8動作 {#using_campaign_v7-v8}
+# [!DNL Adobe Campaign] v7/v8 動作 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自訂動作"
->abstract="如果您有[!DNL Adobe Campaign] v7或v8，則可整合。 它可讓您使用[!DNL Adobe Campaign]異動訊息功能來傳送電子郵件、推播通知及簡訊。"
+>abstract="如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。"
 
-如果您有[!DNL Adobe Campaign] v7或v8，則可整合。 它可讓您使用[!DNL Adobe Campaign]異動訊息功能來傳送電子郵件、推播通知及簡訊。
+如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。
 
 Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設定。 聯絡Adobe。
 

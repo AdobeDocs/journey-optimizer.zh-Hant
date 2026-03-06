@@ -13,16 +13,16 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
-# 在歷程中使用[!DNL Adobe Experience Platform]資料 {#datalookup}
+# 在歷程中使用 [!DNL Adobe Experience Platform] 資料 {#datalookup}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="資料集查詢活動"
->abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
+>abstract="透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
 
 **[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。
 

@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="記錄和任務"
->abstract="**記錄檔與工作**&#x200B;畫面提供協調行銷活動執行的歷史記錄，記錄所有使用者動作與遇到的錯誤。"
+>abstract="**記錄和任務**&#x200B;畫面提供執行協調的行銷活動的歷史記錄，其中記錄所有使用者動作和發生的錯誤。"
 
 監視記錄檔和任務是分析協調行銷活動並確保其正常執行的關鍵步驟。 可從畫布工具列的&#x200B;**[!UICONTROL 記錄檔]**&#x200B;按鈕存取記錄檔和工作，該按鈕在測試和即時模式下均可用。
 

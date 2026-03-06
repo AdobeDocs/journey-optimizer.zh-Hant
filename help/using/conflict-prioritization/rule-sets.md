@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="規則集"
->abstract="使用規則集將頻率上限或無訊息時數規則套用至不同型別的行銷通訊。 您也可以建立規則集，依照頻率上限規則，將部分對象排除在歷程以外。"
+>abstract="使用規則集將頻率上限或暫停更新規則套用至不同類型的行銷傳播。您也可以建立規則集，依照頻率上限規則，將部分對象排除在歷程以外。"
 
 ## 開始使用規則集 {#gs}
 
@@ -80,7 +80,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="規則類型"
->abstract="為您的管道規則集選取所需的規則型別：使用&#x200B;**頻率上限**&#x200B;型別將上限規則套用至通訊管道。 例如，每天傳送的電子郵件或簡訊請勿超過1個。 選取&#x200B;**無訊息時數**&#x200B;以定義以時間為基礎的排除，以確保在特定時段內不會傳送任何訊息。"
+>abstract="為您的管道規則集選取所需的規則類型：使用&#x200B;**頻率上限**&#x200B;類型，將上限規則套用至通訊管道。例如，每天傳送的電子郵件或 SMS 請勿超過 1 則。選取「**暫停更新**」，定義以時間為基礎的排除方式，確保在特定時段內不會傳送任何訊息。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ ht-degree: 25%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

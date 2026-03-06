@@ -12,7 +12,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="保留並匯出您已傳送的內容"
->abstract="選取此選項可讓您使用此設定將已傳送電子郵件或SMS訊息的內容寫入[!DNL Experience Platform]資料集。 記錄會自內嵌後保留7個日曆日，在此期間，您可以將記錄匯出至您自己的儲存空間。"
+>abstract="您可以透過選取此選項而使用此設定，將已傳送的電子郵件或簡訊訊息內容寫入 [!DNL Experience Platform] 資料集。記錄會自攝取時起保留 7 個日曆日，在此期間您可以將其匯出至您自己的儲存空間。"
 
 >[!AVAILABILITY]
 >
->此功能僅適用於電子郵件和簡訊頻道，以及已購買訊息匯出附加元件的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>此功能僅適用於電子郵件和簡訊管道，以及已購買訊息匯出附加產品的組織。如需詳細資訊，請聯絡您的 Adobe 代表。
 
 **訊息匯出**&#x200B;可讓您透過[!DNL Journey Optimizer]目的地，將傳送的電子郵件和簡訊內容從[!DNL Adobe Experience Platform]傳輸到您自己的儲存空間，讓您從[!DNL Experience Platform]將資料傳送到外部端點。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -58,9 +58,9 @@ ht-degree: 3%
 >
 >必須針對每個沙箱設定此設定。
 
-1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
+1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
 
-1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用下列資料建立資料集匯出流程：
 

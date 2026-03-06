@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
@@ -110,7 +110,7 @@ ht-degree: 4%
 
 建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 連結結構描述 {#link-schema}
 
@@ -148,15 +148,15 @@ ht-degree: 4%
 
 您現在需要啟用協調行銷活動的資料集。
 
-## 為協調的行銷活動啟用資料集 {#enable}
+## 針對協調的行銷活動啟用資料集 {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="協調的行銷活動"
->abstract="建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。"
+>abstract="建立資料集後，您需要明確地針對協調的行銷活動將其啟用。此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。"
 
 
-建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟會確保您的資料集可用於Adobe Journey Optimizer中的即時協調與個人化。
+建立資料集後，您需要明確地針對協調的行銷活動將其啟用。此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
 
 請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
 

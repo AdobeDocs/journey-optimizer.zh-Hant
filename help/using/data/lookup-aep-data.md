@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="啟用供查詢使用"
->abstract="啟用資料集進行查詢，可讓您在Journey Optimizer個人化、決策和Journey Orchestration功能中運用其資料。"
+>abstract="啟用資料集供查詢使用，您便可以搭配 Journey Optimizer 個人化、Decisioning 和歷程協調流程功能善用其資料。"
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]個資料的個人化、決策和歷程協調功能。 若要這麼做，必須先為查詢服務啟用查詢個人化所需的記錄型資料集，如下所述。
 

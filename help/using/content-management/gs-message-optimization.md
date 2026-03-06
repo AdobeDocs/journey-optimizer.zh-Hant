@@ -12,7 +12,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="內容最佳化"
->abstract="Journey Optimizer中的內容最佳化可讓您測試內容的不同版本，並判斷哪些版本效果最佳。 您可以使用目標定位為特定區段提供個人化內容、實驗測試多種變數，或結合兩種方法以制定複雜的最佳化策略。"
+>abstract="Journey Optimizer 中的內容最佳化讓您可以測試內容的不同版本，並判斷哪些版本績效最佳。您可以使用目標選擇提供特定細分群體的個人化內容、用於測試多種變化版本的實驗，或結合兩種方法，制定複雜的最佳化策略。"
 
 內容最佳化可讓您在適當的時間將適當的訊息傳遞給適當的對象。 結合資料導向式深入分析和強大的個人化功能，您就能在行銷活動和歷程中實現最大化的參與度和轉換。
 
@@ -111,7 +111,7 @@ ht-degree: 8%
 
 瞭解如何在行動中或API觸發的行銷活動中運用內容最佳化。 您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470379?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **相關主題**
 
