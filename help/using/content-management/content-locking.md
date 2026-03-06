@@ -196,4 +196,4 @@ Journey Optimizer允許您通過鎖定整個模板或特定結構和元件來鎖
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451618?captions=chi_hant&quality=12)
