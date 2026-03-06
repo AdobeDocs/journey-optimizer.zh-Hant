@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 立即開啟的收件者會看到「剩餘47小時」
 * 24小時後開啟的收件者會看到「剩餘23小時」
-* 在銷售結束後開啟的收件者會看到「銷售已結束」
+* 在銷售結束後開啟的收件者會看到「時間已到！」
 
 如需如何在Adobe Experience Manager中新增倒數計時器至Dynamic Media範本的詳細資訊，請參閱[此檔案](assets/do-not-localize/countdown.pdf)。
 
@@ -45,13 +45,17 @@ ht-degree: 0%
 
    ![](assets/timer-3.png)
 
+1. 透過切換藥丸到開啟來啟用藥丸體驗。 隱藏較長的屬性路徑可改善可讀性。
+
+   ![](assets/timer-6.png)
+
 1. 在&#x200B;**[!UICONTROL 自訂屬性]**&#x200B;功能表中，視需要設定範本的任何可自訂URL引數。
 
    完成時，按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/timer-4.png)
 
-1. 在電子郵件Designer中選取資產，然後存取&#x200B;**[!UICONTROL 設定]**&#x200B;功能表。
+1. 或者，您也可以存取Dynamic Media範本的引數，方法是在Email Designer中選取資產，然後存取&#x200B;**[!UICONTROL 設定]**&#x200B;功能表。
 
    設定下列專案：
 
