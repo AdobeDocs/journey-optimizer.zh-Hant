@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 5%
 
    ![](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
 
    >[!NOTE]
    >
@@ -80,3 +80,8 @@ ht-degree: 5%
    >[!NOTE]
    >
    >基於內容相容性的理由，內容只能儲存在案頭檢視中。 當您切換檢視時，您的編輯會保留。
+
+1. 進階HTML檢視中不提供內容模擬。 若要模擬您的內容，請切換至案頭檢視。
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
