@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # 查詢範例{#query-examples}
 
 本節提供在資料湖中查詢歷程步驟事件的常用範例。 在深入研究特定使用案例之前，請務必瞭解歷程事件資料中使用的關鍵識別碼。
+
+## 先決條件 {#prerequisites}
+
+在此頁面上執行任何查詢之前，請先確定下列事項：
+
+* **存取Adobe Experience Platform查詢服務** — 您必須擁有Adobe Experience Platform沙箱中[查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}的存取權。
+* **可用的資料集** — 查詢以`journey_step_events`資料集為目標。 透過&#x200B;**Experience Platform >資料集**&#x200B;驗證資料集是否存在，以及資料是否包含沙箱中的資料。
+* **正確的歷程版本ID** — 大多數查詢需要`journeyVersionID`。 在Journey Optimizer的&#x200B;**歷程> [您的歷程] >屬性**&#x200B;下找到它，或使用`journeyVersionName`先在資料集中找到它。
+* **結構描述欄位值** — 請確定查詢中使用的欄位在對應結構描述中有相關的值。 空白欄位不會傳回沒有錯誤的結果。
+
+>[!TIP]
+>
+>**新查詢服務？**&#x200B;開啟[Adobe Experience Platform](https://experience.adobe.com/)，瀏覽至&#x200B;**查詢服務>查詢**，貼上以下任何範例，取代預留位置值（例如`<journeyVersionID>`、`<last x hours>`），然後選取&#x200B;**執行**。
+
+## 尋找正確的查詢 {#find-query}
+
+| 我想…… | 前往 |
+|---|---|
+| 計算進入歷程的設定檔數 | [基本使用案例](#common-queries) |
+| 偵錯特定設定檔的歷程路徑 | [設定檔查詢](#profile-based-queries) |
+| 調查讀取對象執行或錯誤 | [讀取對象查詢](#read-segment-queries) |
+| 疑難排解訊息或動作錯誤 | [訊息與動作錯誤](#message-action-errors) |
+| 分析對象資格捨棄 | [對象資格查詢](#segment-qualification-queries) |
+| 偵錯外部或業務事件 | [事件型查詢](#event-based-queries) |
+| 監視自訂動作端點效能 | [自訂動作查詢](#query-custom-action) |
+| 追蹤參與設定檔和授權使用情況 | [可參與的設定檔查詢](#engageable-profiles-queries) |
 
 請確定查詢中使用的欄位在對應結構描述中有關聯的值。
 
