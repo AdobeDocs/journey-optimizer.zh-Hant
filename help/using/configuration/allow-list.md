@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 允許清單
-description: 瞭解如何使用允許清單
+title: 設定允許清單
+description: 瞭解如何在Journey Optimizer中設定和管理允許清單，以限制在沙箱層級將電子郵件傳送至受信任的地址和網域。
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: 允許清單，清單，安全，設定
+level: Intermediate
+keywords: 允許清單，安全清單，電子郵件，傳遞能力，沙箱，網域，隱藏，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 15%
+source-wordcount: '1312'
+ht-degree: 12%
 
 ---
 
 # 設定允許清單 {#allow-list}
 
-可以在[沙箱](../administration/sandboxes.md)層級定義特定的安全傳送清單。
-
-此允許清單可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。
+允許清單是可在[沙箱](../administration/sandboxes.md)層級定義的傳送安全清單。 它會限制傳送至特定地址或網域的電子郵件，以確保只有明確列出的收件者才能接收來自指定沙箱的訊息。
 
 >[!CAUTION]
 >
 >此功能僅適用於電子郵件頻道。 它可用於生產和非生產沙箱。
 
-例如，在可能發生錯誤的非生產執行個體上，允許清單可確保避免您將不需要的訊息傳送至真實客戶地址的風險，因此會提供安全的環境用於測試。
+在非生產沙箱上，如果可能會發生意外傳送，允許清單會防止不需要的訊息送達真實的客戶地址，提供用於測試用途的安全環境。
 
-此外，當允許清單為作用中但空白時，將不會傳出任何郵件。 因此，如果您遇到一些重大問題，可以使用此功能停止來自[!DNL Journey Optimizer]的所有傳出通訊，直到您修正問題為止。 深入瞭解[允許清單邏輯](#logic)。
+當允許清單為作用中但空白時，不會傳送電子郵件。 這使其成為有用的緊急制動：如果發生嚴重問題，您可以啟動空白的允許清單以停止來自[!DNL Journey Optimizer]的所有傳出通訊，直到問題解決為止。 深入瞭解[允許清單邏輯](#logic)。
 
-此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+您也可以使用Journey Optimizer **隱藏REST API**，透過隱藏和允許清單以程式設計方式管理外寄訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 存取允許清單 {#access-allowed-list}
 
 若要存取允許的電子郵件地址和網域的詳細清單，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]**，然後選取&#x200B;**[!UICONTROL 允許清單]**。
 
-![](assets/allow-list-access.png)
+![允許清單頁面顯示允許的電子郵件地址和網域清單](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,7 +46,7 @@ ht-degree: 15%
 
 您可以搜尋電子郵件地址或網域，並篩選&#x200B;**[!UICONTROL 位址型別]**。 選取後，您可以清除顯示在清單頂端的篩選器。
 
-![](assets/allowed-list-filtering-example.png)
+![依位址型別篩選的允許清單](assets/allowed-list-filtering-example.png)
 
 ## 啟用允許清單 {#enable-allow-list}
 
@@ -58,11 +56,11 @@ ht-degree: 15%
 
 1. 選取切換按鈕。
 
-   ![](assets/allow-list-edit.png)
+   ![切換按鈕以啟動允許清單](assets/allow-list-edit.png)
 
 1. 選取&#x200B;**[!UICONTROL 啟用允許清單]**。 允許清單現在已啟用。
 
-   ![](assets/allow-list-enable.png)
+   ![確認允許清單現在已啟用](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -82,11 +80,11 @@ ht-degree: 15%
 
 1. 選取切換按鈕。
 
-   ![](assets/allow-list-edit-active.png)
+   ![切換按鈕以停用允許清單](assets/allow-list-edit-active.png)
 
 1. 選取&#x200B;**[!UICONTROL 停用允許清單]**。 允許清單不再有效。
 
-   ![](assets/allow-list-deactivate.png)
+   ![確認允許清單現在為非使用中](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!UICONTROL 新增電子郵件或網域]**&#x200B;按鈕。
 
-   ![](assets/allowed-list-add-email.png)
+   ![在允許清單頁面上新增電子郵件或網域按鈕](assets/allowed-list-add-email.png)
 
 1. 選擇地址類型：**[!UICONTROL 電子郵件地址]**&#x200B;或&#x200B;**[!UICONTROL 網域地址]**。
 
@@ -136,11 +134,11 @@ ht-degree: 15%
 
 1. 如果需要，請指定原因。
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![新增電子郵件地址或網域至允許清單的表單，帶有選擇性的原因欄位](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許包含32到126之間的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
+   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許32到126範圍內的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -148,11 +146,11 @@ ht-degree: 15%
 
 若要填入允許清單，您也可以使用`ALLOWED`屬性的`listType`值呼叫隱藏API。 例如：
 
-![](assets/allow-list-api.png)
+![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
 
 您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -160,11 +158,11 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
 
-   ![](assets/allowed-list-download-csv.png)
+   ![下載允許清單頁面上的CSV按鈕](assets/allowed-list-download-csv.png)
 
 1. 等候檔案產生。
 
-   ![](assets/allowed-list-download-generate.png)
+   ![表示正在產生CSV檔案的通知](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ ht-degree: 15%
 
 1. 按一下通知本身以下載檔案。
 
-   ![](assets/allowed-list-download-notification.png)
+   ![已產生CSV檔案的下載連結通知](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
@@ -207,7 +205,7 @@ ht-degree: 15%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 
