@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -176,7 +176,7 @@ ht-degree: 5%
 
 1. 如果所有驗證都成功，則會顯示&#x200B;**[!UICONTROL 要建立的記錄]**&#x200B;區段。
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. 在您的託管平台中建立所有必要的記錄。
 
