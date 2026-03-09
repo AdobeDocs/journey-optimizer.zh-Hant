@@ -9,9 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1251'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 5%
 * [從您的代管解決方案刪除現有的DNS記錄](#delete-dns)
 * [上傳從憑證授權單位取得的SSL憑證](#upload-ssl-certificate)
 * 驗證網域擁有權並報告電子郵件地址，以完成[回饋回圈步驟](#feedback-loop)
-* [將Adobe產生的SSL CDN URL驗證記錄](#copy-ssl-cdn-url-record)複製到您的代管平台
+* [建立由Adobe產生的新DNS記錄集](#create-dns-records)至您的代管平台
 
 若要移轉子網域，請遵循下列步驟。
 
@@ -43,6 +44,11 @@ ht-degree: 5%
 
 * 請確定貴組織已啟用&#x200B;**自訂委派方法** (此功能目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權)。 [了解更多](delegate-custom-subdomain.md)
 * 請確認沒有任何使用中的管道設定使用此子網域。 移轉程式將會中斷其功能。
+
+  >[!NOTE]
+  >
+  >如果您在開始移轉前停用管道設定，可以在移轉工作流程完成後將其變回使用中狀態。
+
 * 請確認沒有任何作用中的行銷活動或歷程使用連結至此子網域的管道設定，因為這可能會造成傳送中斷。
 * 請注意，當您進入移轉流程時，停機時間就會開始。 子網域在程式進行期間會移至&#x200B;**[!UICONTROL 草稿]**，並在安裝完成前無法使用。
 * 因此，建議在開始移轉程式之前&#x200B;**執行移轉前步驟**，以準備好SSL憑證並減少停機時間。 [了解更多](#start-migration)
@@ -99,7 +105,7 @@ ht-degree: 5%
 
    * 不過，憑證應同時涵蓋data.subdomain.com和cdn.subdomain.com ，做為單一憑證中的主體替代名稱(SAN)專案。 例如，如果您委派example.adobe.com，則data.subdomain.com會對應至data.example.adobe.com，而cdn.subdomain.com會對應至cdn.example.adobe.com。
 
-   * 資料(data.example.adobe.com)和CDN (cdn.example.adobe.com)子網域都需要新增為相同憑證中的對等專案。
+   * 資料(data.example.adobe.com)和CDN (cdn.example.adobe.com)子網域都需要新增為相同憑證中的對等專案。 不應將其他子網域新增至此憑證。
 
    * 大部分的CA都允許您在簽署過程中新增其他SAN （例如CDN子網域）
 
@@ -137,7 +143,7 @@ ht-degree: 5%
 
     * Send the CSR to the Certificate Authority to get your SSL certificate.-->
 
-1. 當您擷取SSL憑證時，請按一下&#x200B;**[!UICONTROL 上傳憑證]**。
+1. 擷取SSL憑證後，請按一下&#x200B;**[!UICONTROL 上傳憑證]**。
 
    ![](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
 
@@ -159,13 +165,39 @@ ht-degree: 5%
 
 此程式與設定新的自訂子網域時的程式相同。 請依照[設定自訂子網域](delegate-custom-subdomain.md#feedback-loop-steps)頁面上詳述的步驟操作。
 
-## 複製SSL CDN URL驗證記錄 {#copy-ssl-cdn-url-record}
 
-若要完成移轉程式，請將Adobe產生的SSL CDN URL驗證記錄複製到您的代管平台。 此程式與設定新的自訂子網域時的程式相同。 請依照[設定自訂子網域](delegate-custom-subdomain.md#copy-ssl-cdn-url-record)頁面上詳述的步驟操作。
+## 建立一組新的DNS記錄 {#create-dns-records}
+
+若要完成移轉程式，請在您的代管平台中建立Adobe產生的新DNS記錄集。
+
+1. 完成回饋回圈步驟後，按一下畫面右上方的&#x200B;**[!UICONTROL 繼續]**&#x200B;按鈕。
+
+   此步驟會驗證先前的記錄是否已刪除，以及SSL憑證是否已正確上傳。 如果發生任何錯誤，請參閱[疑難排解檢查清單](#troubleshooting)。
+
+1. 如果所有驗證都成功，則會顯示&#x200B;**[!UICONTROL 要建立的記錄]**&#x200B;區段。
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. 在您的託管平台中建立所有必要的記錄。
+
+1. 建立所有記錄後，按一下&#x200B;**[!UICONTROL 提交]**。
+
+   >[!NOTE]
+   >
+   >如果未建立列出的所有記錄，則會顯示錯誤。 請確定建立所有必要的記錄。
 
 提交後，您必須等待Adobe執行所需檢查，最多可能需要3小時。 [了解更多](delegate-subdomain.md#submit-subdomain)
 
 一旦子網域再次啟用，使用它的現有管道設定就不需要變更，而是能繼續如前運作。
+
+## 疑難排解檢查清單 {#troubleshooting}
+
+如果在嘗試提交自訂子網域時發生錯誤，請執行以下疑難排解動作。
+
+* 無法驗證&#x200B;_資源。 DNS仍然存在，需要刪除。_ — 請確定刪除您的託管解決方案中的所有記錄。 [了解作法](#delete-dns)
+* 無法驗證&#x200B;_資源。 請上傳您的SSL憑證，然後再試一次。_ — SSL憑證未上傳。 請務必上傳。 [了解作法](#upload-ssl-certificate)
+* _憑證的主體替代名稱(SAN)中包含未預期的網域。_ — 請確定上傳正確的SSL憑證。 [了解作法](#upload-ssl-certificate)
+* _憑證的主體替代名稱(SAN)中遺漏下列必要的網域。_ — 請確定上傳正確的SSL憑證。 [了解作法](#upload-ssl-certificate)
 
 **另請參閱**
 
