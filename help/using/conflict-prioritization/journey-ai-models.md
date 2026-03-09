@@ -8,10 +8,11 @@ version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 4%
+source-wordcount: '743'
+ht-degree: 3%
 
 ---
 
@@ -23,15 +24,14 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer]可協助您控制當設定檔符合超出系統允許範圍的資格時，可輸入哪些歷程。 若要這麼做，您可以使用[規則集](rule-sets.md)來定義歷程專案或並行的最大值。 當設定檔符合的歷程數量超過上限允許時，指派給每個歷程的優先順序將決定選取的歷程。
 
-您可以使用&#x200B;**AI模型**，根據訓練好的模型分數來動態排名歷程，而不使用優先順序或排名公式。 您可以從UI中的&#x200B;**[!UICONTROL 協調流程排名]**&#x200B;區段建立AI模型，並在規則集中使用這些模型，以將模型套用至歷程。
-
-如需[!DNL Journey Optimizer]中可用AI模型型別的概觀，請參閱「決策」一節中的[開始使用AI模型](../experience-decisioning/ranking/ai-models.md#ai-model-types)。
+除了使用優先順序之外，您也可以在排名公式中使用&#x200B;**AI模型**，以根據經過訓練的模型分數來動態排名歷程。
 
 ## 建立 AI 模型 {#create-ai-model}
 
+<!--Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->若要建立、編輯或刪除AI模型，您必須擁有&#x200B;**管理排名策略**&#x200B;許可權。 [了解更多](../administration/high-low-permissions.md#manage-ranking-strategies)
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
 
 若要建立歷程排名的AI模型，請遵循下列步驟。
 
@@ -55,12 +55,16 @@ ht-degree: 4%
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. **[!UICONTROL 最佳化量度]**&#x200B;區段提供有關AI模型所使用的轉換事件的資訊。 根據[!DNL Journey Optimizer]轉換率&#x200B;**排名** （轉換率=轉換事件總數/曝光事件總數）。 轉換率的計算方式為：
+1. 在&#x200B;**[!UICONTROL 最佳化量度]**&#x200B;中，來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
+
+   ![AI模型詳細資料窗格，包含名稱和說明欄位](assets/journey-model-metrics.png){width="80%"}
+
+   根據[!DNL Journey Optimizer]轉換率&#x200B;**排名** （轉換率=轉換事件總數/曝光事件總數）。 轉換率的計算方式為：
 
    * **曝光事件** （顯示的專案）
    * **轉換事件** （導致點按或轉換的專案）
 
-   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
+   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概觀。
 
 1. 選取轉換和曝光事件收集所在的資料集。 在[本節](../experience-decisioning/data-collection/create-dataset.md)中瞭解如何建立這類資料集。
 
@@ -70,21 +74,35 @@ ht-degree: 4%
    >
    >下拉式清單中只會顯示從與&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組（先前稱為mixin）相關聯的結構描述建立的資料集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
 
    >[!NOTE]
    >
-   >您最多可以選取5個對象。
+   >您最多可以選取50個對象。
 
 1. 儲存並啟動AI模型。
 
-現在當您設定規則集時，可使用AI模型。
+現在當您建立排名公式時，可以選擇AI模型。
+
+## 選取排名公式的AI模型 {#select-ai-model-for-ranking-formula}
+
+您現在可以將AI模型設定為參考，以建立排名公式。 請遵循下列步驟。
+
+1. 建立排名公式。 [了解作法](journey-ranking-formulas.md#create-journey-ranking-formula)
+
+1. 使用&#x200B;**[!UICONTROL 選取AI模型]**&#x200B;按鈕來選取您要使用的AI模型。
+
+   ![包含AI模型選擇的歷程排名公式詳細資料窗格](assets/journey-formula-ai-model.png){width="80%"}
+
+1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;區段中的至少一個區段中，定義條件並選取&#x200B;**[!UICONTROL AI模型分數]**&#x200B;作為排名方法。 例如，如果歷程有「促銷」標籤，則排名分數是AI模型分數。
+
+   ![排名公式：促銷標籤使用AI模型分數](assets/journey-formula-ex-2.png){width="60%"}
+
+1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以完成您的排名公式。
 
 ## 將AI模型指派給規則集 {#assign-ai-model-to-ruleset}
 
-若要使用AI模型來排名您的歷程，您必須在公式中使用它，並將此公式指派給規則集。
-
-1. 使用您建立的AI模型建立排名公式。 [了解作法](journey-ranking-formulas.md#create-journey-ranking-formula)
+若要使用AI模型來排名您的歷程，您必須將參考此AI模型的公式指派給規則集。
 
 1. 從&#x200B;**[!UICONTROL 商業規則]**&#x200B;功能表，建立您要用於歷程仲裁的規則集。 [了解作法](rule-sets.md#Create)
 
@@ -92,7 +110,7 @@ ht-degree: 4%
 
 1. 在規則集屬性中，將&#x200B;**[!UICONTROL 排名方法]**&#x200B;設定為&#x200B;**[!UICONTROL 公式]** （而非&#x200B;**[!UICONTROL 優先順序]**）。
 
-1. 從下拉式清單中選取使用您建立的AI模型的公式。
+1. 選取使用您從下拉式清單建立的AI模型的公式。
 
 1. 建立您要新增至規則集的歷程上限規則。 [了解作法](journey-capping.md#create-rule)
 

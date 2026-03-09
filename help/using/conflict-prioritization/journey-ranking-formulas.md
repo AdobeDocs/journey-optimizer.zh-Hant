@@ -6,9 +6,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 2%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 2%
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
 
-1. 或者，按一下&#x200B;**[!UICONTROL 選取AI模型]**&#x200B;以設定模型，此模型將作為建立排名公式的參考。
+1. 或者，按一下&#x200B;**[!UICONTROL 選取AI模型]**&#x200B;以設定模型，此模型將作為建立排名公式的參考。 [了解更多](journey-ai-models.md)
 
 <!--
     >[!NOTE]
@@ -85,7 +86,7 @@ ht-degree: 2%
 
    ![使用變數、屬性或靜態值指派排名分數的運算式產生器](assets/journey-formula-expression.png){width="70%"}
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -194,4 +195,3 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
 Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
-
