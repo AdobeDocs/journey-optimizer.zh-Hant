@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Journey Optimizer 提供兩種強大的協調方法：
 
    ![](../assets/perso_ee2.png)
 
-1. **新增產品建議與決策**。使用 AI 驅動的決策，在適當的時間為每位客戶提供最佳產品建議。使用Decisioning個人化推播、簡訊和其他管道。 了解[決策管理](../../offers/get-started/starting-offer-decisioning.md)和[體驗決策](../../experience-decisioning/gs-experience-decisioning.md)。
+1. **新增產品建議與決策**。使用 AI 驅動的決策，在適當的時間為每位客戶提供最佳產品建議。使用Decisioning個人化推播、簡訊和其他管道。 瞭解[決定管理](../../offers/get-started/starting-offer-decisioning.md)和[決定](../../experience-decisioning/gs-experience-decisioning.md)。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -207,5 +207,5 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 1. **從小事做起**：建立簡單的歡迎歷程或單一訊息行銷活動，以了解平台
 2. **利用 AI**：使用 AI 助理提出問題並加快內容建立
-3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
+3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片

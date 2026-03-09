@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '626'
 ht-degree: 4%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 4%
 如需自訂上傳對象的詳細資訊，請參閱區段：
 
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
-* **僅決策管理** — 此功能僅受決策管理支援，不支援決策（先前稱為「體驗決策」）。
+* **僅決策管理** — 僅決策管理支援此功能，決策管理不支援。
 * **僅限Decisioning API (Hub)** — 只能透過Decisioning API (Hub)請求使用，Edge Decisioning API或批次決定不支援。
 * **擴充資料所需的API旗標** — 使用自訂上傳(CSV)對象時，而您想要擷取優惠決定回應中的擴充資料，必須在API要求裝載中包含`"xdm:enrichedAudience": true`。 若沒有此標幟，將不會傳回CSV上傳對象中的擴充屬性。 [進一步瞭解Decisioning API](api-reference/offer-delivery-api/decisioning-api.md)
 

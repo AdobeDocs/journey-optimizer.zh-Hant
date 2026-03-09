@@ -6,9 +6,9 @@ description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 - [建立和管理決定專案集合](help/using/experience-decisioning/collections.md) - 11月7日
 - [內容資料](help/using/experience-decisioning/context-data.md) - 11月7日
 - [開始使用決定原則](help/using/experience-decisioning/create-decision.md) - 11月7日
-- [開始使用體驗決策](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
+- [開始使用決策](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
 - [決定專案](help/using/experience-decisioning/items.md) - 11月7日
 - [決策排名方法](help/using/experience-decisioning/ranking/ranking.md) - 11月7日
 - [建置規則](help/using/experience-decisioning/rules.md) - 11月7日

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1940'
 ht-degree: 13%
 
 ---
@@ -173,9 +173,9 @@ ht-degree: 13%
 
 在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，您可以根據行動應用程式設定，將自訂變數新增至裝載。 如需如何在Adobe Experience Platform中設定推播通知的詳細資訊，請參閱[本節](push-gs.md)
 
-## 使用Experience Decisioning個人化 {#decisioning-push}
+## 使用Decisioning個人化 {#decisioning-push}
 
-您可以使用&#x200B;**Experience Decisioning**&#x200B;個人化和最佳化推播通知的內容。 此功能可讓您使用優先順序分數、公式或AI模型，以動態方式選取並向客戶顯示最佳內容。
+您可以使用&#x200B;**決策**&#x200B;個人化並最佳化推播通知的內容。 此功能可讓您使用優先順序分數、公式或AI模型，以動態方式選取並向客戶顯示最佳內容。
 
 如需如何在推播通知中建立和使用決定原則的詳細資訊，請參閱[本節](../experience-decisioning/create-decision.md)。
 
