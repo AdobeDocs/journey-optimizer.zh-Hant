@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: a78beb79376b9963034954f8e424f2d23a041666
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 26%
+source-wordcount: '383'
+ht-degree: 22%
 
 ---
 
@@ -23,37 +23,6 @@ ht-degree: 26%
 [!DNL Journey Optimizer]可讓您建立並設計登入頁面，將您的使用者導向線上表單，以便他們可以選擇加入或選擇退出接收您的通訊或特定服務（例如電子報）。
 
 ➡️ [透過此影片深入了解設定訂閱和建立登陸頁面](#video)
-
-## 何時使用登入頁面 {#when-to-use}
-
-當您想要執行以下動作時使用登入頁面：
-
-* 讓客戶&#x200B;**透過電子郵件或行銷活動中的連結，選擇加入或選擇退出**&#x200B;行銷通訊或特定服務或電子報
-* 在傳送通訊前&#x200B;**收集同意**，並使用自動電子郵件確認動作
-* 將使用者重新導向至&#x200B;**專用網頁表單**，而不需在[!DNL Journey Optimizer]外部建立外部頁面
-
-## 開始之前 {#prerequisites}
-
-在建立登入頁面之前，請先完成下列設定步驟：
-
-1. [**設定子網域**](lp-subdomains.md) — 設定專用於託管登陸頁面的子網域。
-1. [**建立登陸頁面預設集**](lp-presets.md#lp-create-preset) — 預設集會定義套用至登陸頁面的子網域和其他設定。
-1. [**建立訂閱清單**](subscription-list.md) （針對訂閱使用案例） — 如果您希望客戶訂閱或取消訂閱特定服務，則此為必要專案。
-
-## 運作方式 {#how-it-works}
-
-建立及部署登入頁面的順序如下：
-
-1. [**建立並設定您的登陸頁面**](create-lp.md) — 選取預設集、設定主要頁面，然後新增任何必要的子頁面。
-1. [**設計頁面**](design-lp.md) — 使用[!DNL Journey Optimizer]的拖放編輯器建置頁面內容和表單。
-1. [**測試並發佈**](manage-lp.md) — 預覽頁面、測試表單行為，然後發佈使其上線。
-1. [**訊息或歷程中的連結**](../email/message-tracking.md#insert-links) — 將登入頁面URL新增至電子郵件、行銷活動或歷程動作，讓客戶可以存取。
-
-## 主要功能 {#capabilities}
-
-* 利用[!DNL Journey Optimizer]內容設計功能輕鬆建立&#x200B;**回應式登陸頁面**。
-* 快速且順暢地設定&#x200B;**選擇加入和選擇退出流程**，包括讓使用者選擇加入或選擇退出特定服務的訂閱清單。 [閱讀全文](lp-use-cases.md#subscription-to-a-service)
-* 選擇加入或選擇退出時，傳送&#x200B;**確認電子郵件**。[閱讀全文](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -91,6 +60,32 @@ ht-degree: 26%
 <p>
 </td>
 </tr></table>
+
+## 何時使用登入頁面 {#when-to-use}
+
+當您想要執行以下動作時使用登入頁面：
+
+* 讓客戶&#x200B;**透過電子郵件或行銷活動中的連結，選擇加入或選擇退出**&#x200B;行銷通訊或特定服務或電子報，包括目標服務的訂閱清單。 [閱讀全文](lp-use-cases.md#subscription-to-a-service)
+* 在傳送通訊前&#x200B;**收集同意**，並在選擇加入或選擇退出時傳送&#x200B;**確認電子郵件**。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
+* 將使用者重新導向至&#x200B;**專用網頁表單**，而不需在[!DNL Journey Optimizer]外部建立外部頁面
+* 使用&#x200B;**的內容設計功能建置**&#x200B;回應式登陸頁面[!DNL Journey Optimizer]
+
+## 開始之前 {#prerequisites}
+
+在建立登入頁面之前，請先完成下列設定步驟：
+
+1. [**設定子網域**](lp-subdomains.md) — 設定專用於託管登陸頁面的子網域。
+1. [**建立登陸頁面預設集**](lp-presets.md#lp-create-preset) — 預設集會定義套用至登陸頁面的子網域和其他設定。
+1. [**建立訂閱清單**](subscription-list.md) （針對訂閱使用案例） — 如果您希望客戶訂閱或取消訂閱特定服務，則此為必要專案。
+
+## 運作方式 {#how-it-works}
+
+建立及部署登入頁面的順序如下：
+
+1. [**建立並設定您的登陸頁面**](create-lp.md) — 選取預設集、設定主要頁面，然後新增任何必要的子頁面。
+1. [**設計頁面**](design-lp.md) — 使用[!DNL Journey Optimizer]的拖放編輯器建置頁面內容和表單。
+1. [**測試**](create-lp.md#test-landing-page)&#x200B;和&#x200B;[**發佈**](create-lp.md#publish-landing-page)&#x200B;您的登陸頁面 — 預覽頁面、測試表單行為，然後發佈使其上線。
+1. [**訊息或歷程中的連結**](../email/message-tracking.md#insert-links) — 將登入頁面URL新增至電子郵件、行銷活動或歷程動作，讓客戶可以存取。
 
 ## 作法影片{#video}
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 24%
@@ -59,7 +59,7 @@ ht-degree: 24%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -67,7 +67,7 @@ ht-degree: 24%
 
    * 選取&#x200B;**[!UICONTROL 外部連結]**&#x200B;以插入外部URL的連結。
 
-   * 選取&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;以插入登陸頁面的連結。 [了解更多](../landing-pages/get-started-lp.md)
+   * 選取&#x200B;**[!UICONTROL 登陸頁面]**&#x200B;以插入登陸頁面的連結。 [了解更多](../landing-pages/create-lp.md)
 
    * 選取&#x200B;**[!UICONTROL 按一下[選擇退出]]**&#x200B;插入連結，讓使用者能夠快速取消訂閱您的通訊，而不需要確認選擇退出。 [了解更多](email-opt-out.md#one-click-opt-out)。
 
