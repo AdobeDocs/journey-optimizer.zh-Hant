@@ -165,7 +165,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 瞭解如何監視您的AI排名模型，並解譯[!DNL Journey Optimizer]中的訓練狀態和績效。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479860?captions=chi_hant&quality=12)
 
 ## 相關檔案 {#related}
 
