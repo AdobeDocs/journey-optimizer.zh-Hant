@@ -6,11 +6,9 @@ description: 使用專家模式在WYSIWYG編輯器中檢視和編輯電子郵件
 feature: Templates
 topic: Content Management
 role: User
-hidefromtoc: true
-hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: 145944952ad9aca752085588526f71e8034b8611
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 7%
@@ -59,7 +57,7 @@ ht-degree: 7%
 
    ![電子郵件Designer工具列中HTML按鈕的位置](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
 
    ![第一次開啟進階HTML編輯器時出現警告對話方塊](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
