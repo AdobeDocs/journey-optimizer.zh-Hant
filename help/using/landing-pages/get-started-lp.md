@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ ht-degree: 22%
 [!DNL Journey Optimizer]可讓您建立並設計登入頁面，將您的使用者導向線上表單，以便他們可以選擇加入或選擇退出接收您的通訊或特定服務（例如電子報）。
 
 ➡️ [透過此影片深入了解設定訂閱和建立登陸頁面](#video)
+
+## 何時使用登入頁面 {#when-to-use}
+
+當您想要執行以下動作時使用登入頁面：
+
+* 讓客戶&#x200B;**透過電子郵件或行銷活動中的連結，選擇加入或選擇退出**&#x200B;行銷通訊或特定服務或電子報，包括目標服務的訂閱清單。 [閱讀全文](lp-use-cases.md#subscription-to-a-service)
+* 在傳送通訊前&#x200B;**收集同意**，並在選擇加入或選擇退出時傳送&#x200B;**確認電子郵件**。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
+* 將使用者重新導向至&#x200B;**專用網頁表單**，而不需在[!DNL Journey Optimizer]外部建立外部頁面
+* 使用&#x200B;**的內容設計功能建置**&#x200B;回應式登陸頁面[!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -60,15 +69,6 @@ ht-degree: 22%
 <p>
 </td>
 </tr></table>
-
-## 何時使用登入頁面 {#when-to-use}
-
-當您想要執行以下動作時使用登入頁面：
-
-* 讓客戶&#x200B;**透過電子郵件或行銷活動中的連結，選擇加入或選擇退出**&#x200B;行銷通訊或特定服務或電子報，包括目標服務的訂閱清單。 [閱讀全文](lp-use-cases.md#subscription-to-a-service)
-* 在傳送通訊前&#x200B;**收集同意**，並在選擇加入或選擇退出時傳送&#x200B;**確認電子郵件**。 [閱讀全文](lp-use-cases.md#send-confirmation-email)
-* 將使用者重新導向至&#x200B;**專用網頁表單**，而不需在[!DNL Journey Optimizer]外部建立外部頁面
-* 使用&#x200B;**的內容設計功能建置**&#x200B;回應式登陸頁面[!DNL Journey Optimizer]
 
 ## 開始之前 {#prerequisites}
 

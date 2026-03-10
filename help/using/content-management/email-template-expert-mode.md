@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ ht-degree: 5%
 
 ## 護欄 {#guardrails}
 
-當您使用進階HTML編輯器時，系統會設定以下護欄來保護內容相容性並設定預期。
+使用進階HTML編輯器時，以下護欄可保護內容相容性並設定預期。
 
-* 目前，進階HTML編輯器中有&#x200B;**沒有驗證程式**。 不會檢查語法錯誤和中斷的配置。 儲存前，請務必仔細檢閱您的內容。
+* 進階HTML編輯器&#x200B;**無法驗證**&#x200B;您的程式碼。 它不會檢查語法錯誤或中斷的版面。 儲存前請仔細檢閱您的內容。
 
-* 未來的系統更新可能會還原對預設標籤所做的變更。 請注意&#x200B;**您的變更可能被覆寫**。
+* 未來的系統更新可能會覆寫您對預設標籤所做的變更。 **您的變更可能不會持續存在**。
 
-* 自訂程式碼和手動變更所造成的問題&#x200B;**無法疑難排解**&#x200B;或由[!DNL Adobe]支援團隊解決。 確保您有內容備份，以備您需要回覆至先前的版本時使用。
+* [!DNL Adobe]支援團隊&#x200B;**無法疑難排解或解決自訂程式碼和手動變更所造成的**&#x200B;問題。 保留內容的備份，以備您需要回覆時使用。
 
-* 為確保內容相容性，進階HTML檢視中無法使用&#x200B;**儲存**。 當您準備好儲存變更時，您必須切換回[案頭]檢視。
+* 您無法在進階HTML檢視中模擬內容。 切換到案頭檢視以預覽您的內容。
+
+* 為確保內容相容性，**您無法在進階HTML檢視中儲存**。 準備儲存變更時，切換回案頭檢視。
 
 >[!WARNING]
 >
 >內容範本中的進階HTML編輯器與電子郵件Designer中的&#x200B;**[!UICONTROL 為您自己的]**&#x200B;模式編碼不同。 在[!UICONTROL 以您自己的]模式編碼，您無法切換回視覺化編輯器 — 一旦您選擇該路徑，您就會停留在僅編碼編輯中。 相較之下，進階HTML編輯器可讓您隨時在HTML檢視和案頭（視覺）檢視之間切換。 [進一步了解程式碼編輯器](../email/code-content.md)
 
-## 切換到進階HTML檢視 {#switch-to-desktop-view}
+## 切換到進階HTML檢視 {#switch-to-html-view}
+
+若要開啟進階HTML編輯器並編輯您的範本來源，請依照下列步驟操作。
 
 1. 開啟或建立[電子郵件範本](../content-management/create-content-templates.md)，然後開啟[電子郵件Designer](../email/get-started-email-design.md)以編輯內容。
 
 1. 按一下畫面右上角的&#x200B;**[!UICONTROL HTML]**&#x200B;按鈕。
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![電子郵件Designer工具列中HTML按鈕的位置](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
+
+   ![第一次開啟進階HTML編輯器時出現警告對話方塊](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >此警告只會在您首次開啟進階HTML編輯器時顯示，並在每月重設。
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. 進階HTML編輯器隨即顯示。
 
-   ![](assets/email-template-expert-mode.png)
+   ![進階HTML編輯器介面顯示電子郵件範本原始碼](assets/email-template-expert-mode.png)
 
 1. 將所需的變更新增至您的電子郵件內容。
 
@@ -75,12 +79,18 @@ ht-degree: 5%
 
 1. 基於相容性原因，進階HTML檢視中無法使用內容模擬和儲存。 切換回案頭檢視以預覽您的內容並儲存變更。
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![切換回案頭檢視以儲存您的變更](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->當您切換檢視時，您的編輯會保留。
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >當您切換檢視時，您的編輯會保留。
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## 相關主題
+
+* [撰寫您自己電子郵件內容的程式碼](../email/code-content.md)
+* [建立內容範本](create-content-templates.md)
+* [開始使用電子郵件設計工具](../email/get-started-email-design.md)
+

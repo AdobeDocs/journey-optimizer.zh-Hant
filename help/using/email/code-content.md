@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: 程式碼，HTML，編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 34%
+source-wordcount: '491'
+ht-degree: 23%
 
 ---
 
 # 為您自己的內容撰寫程式碼 {#code-content}
 
-使用&#x200B;**[!UICONTROL 自己撰寫程式碼]**&#x200B;模式匯入原始 HTML 和/或撰寫您電子郵件內容的程式碼。此方法需要 HTML 技能。
+**[!UICONTROL 自行編碼]**&#x200B;可讓您撰寫或貼上原始HTML，以直接在[!DNL Journey Optimizer]電子郵件Designer中建置電子郵件內容。 當您需要完全控制標籤或匯入現有HTML時，請使用此模式。
+
+您必須具備HTML技能，而且一旦選擇此模式，您就會停留在程式碼編輯器中 — 無法切換到視覺化編輯器。
 
 ➡️ [在影片中探索此功能](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> 使用此方法時，無法參考[Adobe Experience Manager Assets](../integrations/assets.md)中的影像。 您的HTML程式碼中參照的影像必須儲存到公共位置。
+>**[!UICONTROL 您自己的程式碼]**&#x200B;與內容範本中的進階HTML編輯器不同。 進階HTML編輯器可讓您隨時在HTML檢視和視覺（案頭）檢視之間切換，而不是程式碼編輯器。 [進一步瞭解進階HTML編輯器](../content-management/email-template-expert-mode.md)。
 
-1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 自行編碼]**。
+## 使用程式碼編輯器 {#use-code-editor}
+
+若要使用程式碼編輯器建立或編輯電子郵件內容，請執行下列步驟。
+
+1. 從[電子郵件Designer](get-started-email-design.md)首頁，選取&#x200B;**[!UICONTROL 自行編碼]**。
 
    ![](assets/code-your-own.png)
 
@@ -55,6 +61,10 @@ ht-degree: 34%
 1. 程式碼準備就緒後，按一下「**[!UICONTROL 儲存]**」，然後回到訊息建立畫面以完成您的訊息。
 
    ![](assets/code-editor-save.png)
+
+>[!CAUTION]
+>
+>使用您自己的程式碼方法時，無法參考[Adobe Experience Manager Assets](../integrations/assets.md)中的影像。 將HTML程式碼中參照的影像儲存至公共位置。
 
 ## 日期和時間函式限制 {#date-time-limitations}
 
@@ -90,4 +100,4 @@ ht-degree: 34%
 
 * **使用計算屬性** — 建立執行複雜日期計算的[計算屬性](../audience/computed-attributes.md)，使結果可做為設定檔屬性。
 
-深入瞭解個人化[中的](../personalization/functions/dates.md)日期時間函式。
+如需支援函式的完整清單，請參閱[日期與時間函式](../personalization/functions/dates.md)。
