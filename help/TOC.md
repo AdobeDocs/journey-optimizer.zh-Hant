@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [建立即時動態](using/mobile-live/create-mobile-live.md)
       + [疑難排解即時活動](using/mobile-live/troubleshoot-mobile-live.md)
       + [常見問題集](using/mobile-live/mobile-live-faq.md)
-      + 設定內容卡管道 {#configure}
+      + 設定即時活動頻道 {#configure}
          + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
-         + [設定即時活動 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [設定即時活動SDK整合](using/mobile-live/mobile-live-configuration-sdk.md)
 + 內容管理 {#content-management}
    + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 個人化 {#personalization}
