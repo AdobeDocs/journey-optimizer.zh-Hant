@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '313'
 ht-degree: 18%
 
 ---
@@ -57,3 +57,5 @@ ht-degree: 18%
    >排名模型需要意見事件以體驗事件的形式傳送才能收集。 [進一步瞭解Decisioning資料集合](../data-collection/data-collection.md)
 
 1. 將AI模型指派給選取策略，以便為符合資格的優惠進行排名。 [了解更多](../selection-strategies.md#select-ranking-method)
+
+1. 監視您的AI模型的訓練狀態和效能。 [了解更多](ai-model-observability.md)
