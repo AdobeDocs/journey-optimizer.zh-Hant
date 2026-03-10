@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ ht-degree: 68%
 * **優惠方案 ID**：電子郵件中使用的優惠方案 ID。
 
 * **來源動作 ID**：新增至歷程或行銷活動電子郵件動作的 ID。
+
+  >[!NOTE]
+  >
+  >產品變更後關閉或未重新發佈的歷程可能無法填入追蹤URL中的`context.system.source.actionId`，導致預留位置空白（例如`cid=em-acou-adob{}`）。 為確保追蹤引數正確填入，[重新發佈受影響的歷程](../building-journeys/publish-journey.md#journey-create-new-version)或移除已關閉歷程對此內容欄位的參考。 深入瞭解[疑難排解您的即時歷程執行](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)。
 
 * **來源動作名稱**：新增至歷程或行銷活動電子郵件動作的名稱。
 

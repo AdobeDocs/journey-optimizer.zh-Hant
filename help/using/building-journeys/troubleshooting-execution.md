@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 13%
+source-wordcount: '2034'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 13%
 
 * **已捨棄事件 — 不符合資格條件** — 對於規則型事件，如果事件裝載不符合&#x200B;**資格條件** （例如，必要欄位空白或遺失，或欄位上的條件`isNotEmpty`失敗），則事件為&#x200B;**已接收但已捨棄**，且未觸發歷程。 記錄檔和Splunk追蹤可顯示已接收事件但已捨棄該事件，因為它不符合資格條件，並含有捨棄程式碼，例如`notSuitableInitialEvent`。 這是預期行為：若不符合資格條件，將會捨棄事件，且不會為該設定檔觸發歷程。 確認事件裝載包含預期的欄位和值，並確認事件設定中的規則符合您傳送的資料。 如果事件是由另一個歷程的&#x200B;**自訂動作**&#x200B;所觸發，請參閱自訂動作疑難排解中的[處理捨棄事件和閒置逾時](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
@@ -210,3 +210,9 @@ ht-degree: 13%
 * 在您的歷程進行變更後，最多可等待30分鐘讓量度重新整理。
 
 如果差異持續存在，請[聯絡Adobe支援](../start/user-interface.md#support-ticket-guidelines)，取得「概述」和「瀏覽」索引標籤的熒幕擷取畫面以進行調查。
+
+## 追蹤引數在已關閉歷程中顯示空白的預留位置 {#tracking-parameters-closed-journeys}
+
+如果已傳送電子郵件中的追蹤URL包含空白的預留位置，例如`cid=em-acou-adob{}`，這可能表示無法解析內容欄位，例如`context.system.source.actionId`。 這通常發生在歷程關閉且相關產品變更後尚未重新發佈時 — 重新發佈的歷程只會正確填入追蹤URL中的這些內容欄位。
+
+若要解決此問題，請重新發佈歷程（[建立新版本並發佈](publish-journey.md#journey-create-new-version)），或從頻道設定或電子郵件內容中的[URL追蹤引數](../email/url-tracking.md)移除受影響內容欄位的參考。
