@@ -55,7 +55,7 @@ ht-degree: 5%
 
    ![](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
 
    >[!NOTE]
    >
