@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -153,8 +153,12 @@ ht-degree: 3%
 
 設計您的即時活動後，您可以使用[內建報告](../reports/campaign-global-report-cja-activity.md)來追蹤測量即時活動的影響。
 
+>[!TIP]
+>
+>如果您的即時活動未如預期出現或更新，請參閱[疑難排解即時活動](troubleshoot-mobile-live.md)以取得逐步偵錯指南。
+
 ## 作法影片
 
 瞭解如何使用Adobe Journey Optimizer設定iOS即時活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

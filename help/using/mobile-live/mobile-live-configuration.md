@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -85,3 +85,7 @@ ht-degree: 2%
 您現在可以開始與Adobe Experience Platform Mobile SDK整合，以在鎖定畫面和動態島上啟用即時動態更新。
 
 ➡️ [進一步瞭解Adobe Experience Platform Mobile SDK整合](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>如果您遇到上線活動設定或傳送的問題，請參閱[疑難排解上線活動](troubleshoot-mobile-live.md)以取得偵錯步驟。

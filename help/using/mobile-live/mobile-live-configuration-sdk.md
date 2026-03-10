@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -239,4 +239,7 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 * [API 參考](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
 * [已上線的活動教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [公用類別](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
-s
+
+>[!TIP]
+>
+>如果您遇到權杖註冊、裝載對齊或即時活動傳送的問題，請參閱[疑難排解即時活動](troubleshoot-mobile-live.md)以取得詳細的偵錯指引。
