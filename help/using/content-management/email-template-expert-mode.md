@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 5%
 
    ![](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
 
    >[!NOTE]
    >
@@ -73,15 +73,14 @@ ht-degree: 5%
    >
    >請務必輸入正確的HTML和CSS程式碼，因為沒有語法驗證程式，且[!DNL Adobe]也不提供支援。 [了解更多](#guardrails)
 
-1. 進階HTML檢視中不提供儲存功能。 切換回[案頭]檢視以儲存變更。
+1. 基於相容性原因，進階HTML檢視中無法使用內容模擬和儲存。 切換回案頭檢視以預覽您的內容並儲存變更。
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >基於內容相容性的理由，內容只能儲存在案頭檢視中。 當您切換檢視時，您的編輯會保留。
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->當您切換檢視時，您的編輯會保留。
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. 進階HTML檢視中不提供內容模擬。 若要模擬您的內容，請切換至案頭檢視。
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
