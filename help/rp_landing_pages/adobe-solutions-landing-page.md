@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 使用 Adobe 解決方案傳送
-description: 使用 Adobe 解決方案傳送
+description: 瞭解如何使用自訂動作，透過Adobe Campaign Standard、Campaign v7/v8和Marketo Engage，從Journey Optimizer歷程傳送訊息。
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 86%
 
 ---
 
@@ -20,33 +20,33 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign Standard 整合
 
 了解如何將 Adobe Journey Optimizer 與 Adobe Campaign Standard 整合，以啟用交易型訊息傳送功能，例如電子郵件、推播和簡訊。
 
-[閱讀教學課程](../using/action/acs-action.md)
+[整合Campaign Standard](../using/action/acs-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign v7/v8 整合
 
 了解如何透過電子郵件、簡訊和推播通知連結 Adobe Journey Optimizer 與 Adobe Campaign v7/v8，以傳送交易型訊息。
 
-[閱讀教學課程](../using/action/acc-action.md)
+[與Campaign v7/v8整合](../using/action/acc-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 將 Adobe Journey Optimizer 與 Marketo Engage 整合
 
 設定自訂 Marketo Engage 動作，以在 Adobe Journey Optimizer 中同步資料並個人化行銷。
 
-[閱讀教學課程](../using/action/marketo-engage.md)
+[與 Marketo Engage 整合](../using/action/marketo-engage.md)
 :::
 
 ::::
