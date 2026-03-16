@@ -20,7 +20,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign Standard 整合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將 Adobe Journey Optimizer 與 Adobe Campaign v7/v8 整合
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 也可以透過其他 Adobe 解決方案 (例如 **Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將 Adobe Journey Optimizer 與 Marketo Engage 整合
 

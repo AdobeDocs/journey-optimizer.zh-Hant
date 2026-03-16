@@ -20,7 +20,7 @@ ht-degree: 70%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立和管理您的品牌方針
 
@@ -30,7 +30,7 @@ ht-degree: 70%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 評估您的品牌一致性分數
 
@@ -40,7 +40,7 @@ ht-degree: 70%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 個人化您的品牌
 
@@ -50,7 +50,7 @@ ht-degree: 70%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立和管理產生模型
 

@@ -20,7 +20,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用 inAudience 函式
 
@@ -30,7 +30,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 針對Personalization使用Adobe Experience Platform資料
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 在歷程中使用Adobe Experience Platform資料
 
