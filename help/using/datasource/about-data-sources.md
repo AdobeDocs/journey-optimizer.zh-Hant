@@ -51,7 +51,7 @@ ht-degree: 37%
 
 ## 選擇您的資料存取策略 {#data-access-strategy}
 
-在設定資料來源之前，請先考慮哪個方法最適合您的使用案例。 有三種選項可供使用，每種選項在持續性、設定檔擴充及重複使用性方面都有不同的權衡。 如需這些選項的詳細討論，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+在設定資料來源之前，請先考慮哪個方法最適合您的使用案例。 有三種選項可供使用，每種選項在持續性、設定檔擴充及重複使用性方面都有不同的權衡。 如需這些選項的詳細討論，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/zh-hant/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 **選項1 — 透過自訂動作（無資料湖）存取外部資料**
 
@@ -82,7 +82,7 @@ ht-degree: 37%
 | **選項2** — 未針對設定檔啟用資料集 | 是 | 無 |
 | **選項3** — 啟用設定檔的資料集 | 是 | 是 |
 
-如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
+如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hant){target="_blank"}。
 
 ## 作法影片 {#video}
 
