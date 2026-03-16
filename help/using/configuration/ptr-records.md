@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 子網域, PTR, 記錄, DNS, 網域, 郵件
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 84%
+source-wordcount: '844'
+ht-degree: 82%
 
 ---
 
@@ -102,11 +102,7 @@ ht-degree: 84%
    >   * 如果成功建立轉寄 DNS 記錄，請檢查 DNS 提供者。
    >   * 跨 DNS 的記錄可能不會立即同步。 請等待幾分鐘，然後再試一次。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**，以確認您所做的變更。
-
->[!NOTE]
->
->您無法修改 **[!UICONTROL IP]** 和 **[!UICONTROL PTR 記錄]**&#x200B;欄位。
+1. 按一下[儲存]確認您的變更。 ****&#x200B;請注意，**[!UICONTROL IP]**&#x200B;與&#x200B;**[!UICONTROL PTR記錄]**&#x200B;欄位無法修改。
 
 ## 檢查 PTR 記錄更新詳細資料 {#check-ptr-record-update}
 

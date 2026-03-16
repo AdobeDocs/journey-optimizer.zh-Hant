@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >如果頻道設定具有&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態，**[!UICONTROL 名稱]**、**[!UICONTROL 選取頻道]**&#x200B;和&#x200B;**[!UICONTROL 子網域]**&#x200B;欄位會變灰且無法編輯。
+   >* 當組態具有&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態時，**[!UICONTROL 名稱]**、**[!UICONTROL 選取管道]**&#x200B;和&#x200B;**[!UICONTROL 子網域]**&#x200B;欄位為唯讀，無法修改。
+   >* 您可以隨時將變更儲存為草稿，並稍後繼續更新。
+   >* 編輯限製為&#x200B;**[!UICONTROL 描述]**、**[!UICONTROL 電子郵件型別]**&#x200B;和/或&#x200B;**[!UICONTROL 電子郵件重試引數]**&#x200B;欄位立即生效，沒有處理延遲。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以確認您的變更。
 
-   >[!NOTE]
-   >
-   >您也可以將頻道設定儲存為草稿，並稍後繼續更新。
-
 一旦提交變更，通道設定將經歷驗證週期，類似於[建立通道設定](#create-channel-surface)時所處的週期。 編輯處理時間最多可能需要&#x200B;**3小時**。
-
->[!NOTE]
->
->如果您只編輯&#x200B;**[!UICONTROL 描述]**、**[!UICONTROL 電子郵件型別]**&#x200B;和/或&#x200B;**[!UICONTROL 電子郵件重試引數]**&#x200B;欄位，則更新是即時的。
 
 ### 更新詳細資料 {#update-details}
 
@@ -298,4 +292,4 @@ ht-degree: 12%
 
 了解什麼是管道設定，以及如何在 Adobe Journey Optimizer 加以使用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480462/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

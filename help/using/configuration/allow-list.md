@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: 允許清單，安全清單，電子郵件，傳遞能力，沙箱，網域，隱藏，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1308'
 ht-degree: 12%
 
 ---
@@ -63,13 +63,10 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >啟用允許清單後，有10分鐘的延遲，才會在您的歷程和行銷活動中生效。 同樣地，允許清單和隱藏清單的更新最多可能需要10分鐘的時間才會反映。
+   >* 啟用後，允許清單在歷程和行銷活動中生效之前會延遲10分鐘。 允許清單和隱藏清單的更新最多可能需要10分鐘的時間才會反映。
+   >* 啟用時，允許清單不僅會在即時歷程中強制執行，也會在測試訊息時強制執行，其中包含[校樣](../content-management/proofs.md)以及在[測試模式](../building-journeys/testing-the-journey.md)中的歷程。
 
 當功能作用中時，會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
-
->[!NOTE]
->
->啟用時，允許清單功能在執行歷程時執行，但也會在測試包含[校訂](../content-management/proofs.md)的訊息以及使用[測試模式](../building-journeys/testing-the-journey.md)測試歷程時執行。
 
 ## 停用允許清單 {#deactivate-allow-list}
 
@@ -149,7 +146,7 @@ ht-degree: 12%
 
 您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -204,7 +201,7 @@ ht-degree: 12%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

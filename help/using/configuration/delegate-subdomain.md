@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1925'
 ht-degree: 18%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 18%
 
 * 擷取委派過程中設定的子網域名稱（唯讀），以及產生的URL （資源、映象頁面、追蹤URL），
 
-* 將Google網站驗證TXT記錄新增至您的子網域，以確保其已驗證(請參閱[將Google TXT記錄新增至子網域](google-txt.md))。
+* 將Google網站驗證TXT記錄新增至您的子網域，以確保其已驗證（請參閱[將Google TXT記錄新增至子網域](google-txt.md)）。
 
 >[!CAUTION]
 >
@@ -168,7 +168,7 @@ ht-degree: 18%
 
 1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]&#x200B;**&#x200B;**。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
@@ -200,11 +200,7 @@ ht-degree: 18%
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. 您必須等待Adobe執行所需檢查（最多可能需要3小時），才能使用該子網域傳送訊息。 [了解更多](#subdomain-validation)。
-
-   >[!NOTE]
-   >
-   >在繼續之前，請確定所有記錄都已正確建立。
+1. 在能夠使用該子網域來傳送訊息之前，請確定所有DNS記錄都已正確建立，然後等待Adobe執行所需的檢查，這可能需要3個小時。 [了解更多](#subdomain-validation)。
 
 ### 子網域驗證 {#subdomain-validation}
 
