@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，讀取對象，傳送能力
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ ht-degree: 1%
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->所有波段的總和必須等於100%。 如果不是這種情況，則會顯示警告訊息。<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 選取&#x200B;**[!UICONTROL 數字]**&#x200B;將每個波段的大小定義為設定檔的絕對數（例如10,000； 50,000）。
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->使用數字時，系統不會驗證總和是否涵蓋整個對象，您必須確保您的波段大小涵蓋您打算傳送的對象。 進一步瞭解[常見問題](#faq)。
+>* 使用百分比時，所有波段總計必須為100%。 如果不是這種情況，則會顯示警告。
+>* 使用數字時，系統不會驗證涵蓋範圍 — 確保您的波段大小涵蓋預期的對象。 [了解更多](#faq)
 
 ### 自訂排程 {#custom-schedule}
 
