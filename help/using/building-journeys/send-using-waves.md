@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，讀取對象，傳送能力
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # 在歷程中使用波段傳送 {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->此功能處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。
 
 您可以在一段時間內以批次（波段）傳送歷程中的傳出訊息，而非一次傳送所有訊息。 Wave傳送有助於平衡負載、避免壓倒性的下游系統（例如呼叫中心或登陸頁面），並支援傳遞能力與傳送者信譽，尤其是對於高流量讀取對象歷程。
 
