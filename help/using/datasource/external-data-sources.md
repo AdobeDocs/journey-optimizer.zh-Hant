@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 33%
+source-wordcount: '1761'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 33%
 >
 >* 使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)上。
 >
->* 現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱[自訂動作回應](../action/action-response.md)
+>* 現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱[自訂動作回應](../action/action-response.md)。 當資料僅在歷程內有用，並且可透過API端點存取外部系統時，沒有資料湖持續性的自訂動作是正確的選擇。 如需所有資料存取選項的比較，請參閱[選擇您的資料存取策略](../datasource/about-data-sources.md#data-access-strategy)。
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 

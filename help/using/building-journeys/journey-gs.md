@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 19%
+source-wordcount: '949'
+ht-degree: 18%
 
 ---
 
@@ -85,6 +85,10 @@ ht-degree: 19%
 ## 設計歷程 {#jo-design}
 
 全頻道歷程設計器可協助您使用直覺式的拖放介面，透過目標客群建立多步驟歷程、根據即時客戶或業務互動進行更新以及全頻道訊息。
+
+>[!TIP]
+>
+>對於具有多個階段或多個接觸點的歷程，請考慮將端對端流程破壞為與&#x200B;**[!UICONTROL 跳轉]**&#x200B;活動連線的較小且集中的子歷程。 此方法可減少複雜性，並讓每個子歷程更易於獨立測試和維護。 深入瞭解[設計策略：小型子歷程](jump.md#jump-strategy)。
 
 ![歷程設計器介麵包含活動調色盤和畫布](assets/journey38.png)
 
