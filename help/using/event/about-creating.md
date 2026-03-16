@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1684'
 ht-degree: 13%
 
 ---
@@ -94,15 +94,13 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >對於系統產生的事件，請確定您已將「協調流程」欄位群組新增至XDM結構描述。 這將確保您的結構描述包含使用[!DNL Journey Optimizer]所需的所有資訊。
+   >對於系統產生的事件：
+   >* 確定您已將`orchestration`欄位群組新增至XDM結構描述 — 這可以確保您的結構描述包含使用[!DNL Journey Optimizer]所需的所有資訊。
+   >* **[!UICONTROL eventID]**&#x200B;欄位會自動新增至選取的欄位清單，以便[!DNL Journey Optimizer]可以識別事件。 推播事件的系統不應產生ID，請改用有效負載預覽中可用的ID。 [了解更多](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. 選取您預期會從事件接收的欄位。 這些是業務使用者將在歷程中善用的欄位。 它們也必須包含用來識別與事件相關聯之人員的金鑰（請參閱[本區段](../event/about-creating.md#define-the-event-key)）。
-
-   >[!NOTE]
-   >
-   >對於系統產生的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動新增到選取的欄位清單中，以便[!DNL Journey Optimizer]可以識別事件。 推播事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[本節](../event/about-creating.md#preview-the-payload)。
 
 1. 選取完所需的欄位後，按一下&#x200B;**[!UICONTROL 確定]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 

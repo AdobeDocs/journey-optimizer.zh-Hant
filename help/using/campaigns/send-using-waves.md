@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 波段，批次，排程，行銷活動，歷程，傳遞能力
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Journey Optimizer可讓您定義波段數、波段大小（以對象百分比或
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->所有波段的總和必須等於100%。 如果不是這種情況，則會顯示警告訊息。<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 選取&#x200B;**[!UICONTROL 數字]**&#x200B;將每個波段的大小定義為設定檔的絕對數（例如10,000； 50,000）。
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->使用數字時，系統不會驗證總和是否涵蓋整個對象，您必須確保您的波段大小涵蓋您打算傳送的對象。 進一步瞭解[常見問題](#faq)。
+>* 使用百分比時，所有波段總計必須為100%。 如果不是這種情況，則會顯示警告。
+>* 使用數字時，系統不會驗證涵蓋範圍 — 確保您的波段大小涵蓋預期的對象。 [了解更多](#faq)
 
 ### 自訂排程 {#custom-schedule}
 

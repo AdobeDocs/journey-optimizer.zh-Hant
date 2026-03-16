@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 3%
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -234,17 +234,14 @@ Some edu specific content
 
 >[!NOTE]
 >
->[自訂動作](../../action/action.md)不支援執行中繼資料函式。
+>* [自訂動作](../../action/action.md)不支援執行中繼資料函式。
+>* 顯示內容本身時，不會顯示執行中繼資料函式。
 
 例如，您可以使用執行中繼資料協助程式，將特定ID附加至每個傳送至設定檔的每個傳送。 此資訊會在執行階段產生，然後可匯出擴充的執行中繼資料，以供與外部報告平台進行下游調解。
 
 **運作方式**
 
 從行銷活動或歷程內的管道內容中選取任何元素，並使用個人化編輯器將`executionMetadata`協助程式新增至此元素。
-
->[!NOTE]
->
->顯示內容本身時，不會顯示執行中繼資料函式。
 
 
 在執行階段中，中繼資料值新增至現有的&#x200B;**[!UICONTROL 訊息回饋事件資料集]**，並加入下列結構描述：
