@@ -102,7 +102,7 @@ ht-degree: 82%
    >   * 如果成功建立轉寄 DNS 記錄，請檢查 DNS 提供者。
    >   * 跨 DNS 的記錄可能不會立即同步。 請等待幾分鐘，然後再試一次。
 
-1. 按一下[儲存]確認您的變更。 ****&#x200B;請注意，**[!UICONTROL IP]**&#x200B;與&#x200B;**[!UICONTROL PTR記錄]**&#x200B;欄位無法修改。
+1. 按一下[儲存]確認您的變更。 **&#x200B;**&#x200B;請注意，**[!UICONTROL IP]**&#x200B;與&#x200B;**[!UICONTROL PTR記錄]**&#x200B;欄位無法修改。
 
 ## 檢查 PTR 記錄更新詳細資料 {#check-ptr-record-update}
 
