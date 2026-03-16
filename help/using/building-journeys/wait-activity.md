@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '890'
 ht-degree: 12%
 
 ---
@@ -88,21 +88,15 @@ Select the date for the execution of the next activity.
 最佳實務是使用您的設定檔專屬的自訂日期，並避免對所有人使用相同的日期。 例如，不要定義`toDateTimeOnly('2024-01-01T01:11:00Z')`，而是要定義每個設定檔專屬的`toDateTimeOnly(@event{Event.productDeliveryDate})`。 請注意，使用固定日期可能會導致歷程執行問題。 在[本節](entry-management.md#wait-activities-impact)中進一步瞭解等待活動對歷程處理率的影響。
 
 
->[!NOTE]
->
->您可以運用`dateTimeOnly`運算式或使用函式來轉換成`dateTimeOnly`。 例如： `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`，事件中的欄位格式為2023-08-12T09:46:06Z。
->
->您歷程的屬性中應該有&#x200B;**時區**。 因此，從使用者介面，無法直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2023-08-12T09:46:06.982-05。 [了解更多](../building-journeys/timezone-management.md)。
-
 >[!CAUTION]
 >
->使用`toDateTimeOnly()`建立自訂等待運算式時，請避免在運算式結果中附加&#39;Z&#39;或任何時區位移（例如&#39;-05:00&#39;）。 運算式必須使用有效的ISO日期/時間語法，該語法會參照歷程設定的時區，而不會使用明確的時區指示器。
+>您可以運用`dateTimeOnly`運算式或使用函式來轉換成`dateTimeOnly`。 例如： `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`，事件中的欄位格式為2023-08-12T09:46:06Z。 **時區**&#x200B;應該位於歷程的屬性中，因此不可能從UI直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2023-08-12T09:46:06.982-05。 [了解更多](../building-journeys/timezone-management.md)。
+>
+>使用`toDateTimeOnly()`建立自訂等待運算式時，請避免在結果中附加&#39;Z&#39;或任何時區位移（例如&#39;-05:00&#39;）。 運算式必須使用參照歷程已設定時區的有效ISO日期/時間語法，而沒有明確的時區指示器 — 否則，設定檔可能會卡在等待活動中。
 >
 >**正確範例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
 >**不正確的範例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （包含&#39;Z&#39;）
->
->使用不支援的時區指示器可能會導致設定檔停滯在等待活動中，而不是按預期前進。
 
 若要驗證等待活動是否如預期運作，您可以使用步驟事件。 [了解更多](../reports/query-examples.md#common-queries)。
 
