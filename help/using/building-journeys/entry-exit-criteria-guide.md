@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -100,9 +100,9 @@ ht-degree: 0%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 &#x200B;](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 ](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
 
-* **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。
+* **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。 進入之後，使用條件來[分段、排除或合併分支](read-audience.md#audience-targeting-in-journeys)。
 
 * **[對象資格專案](audience-qualification-events.md)**：設定檔符合或退出特定對象時，即時觸發歷程。 定義[串流對象](../audience/about-audiences.md)，從&#x200B;**[!UICONTROL 事件]**&#x200B;調色盤新增&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，並選擇觸發程式型別。
 
@@ -204,12 +204,12 @@ ht-degree: 0%
 
 **技術檔案**
 
-[設定檔入口管理](entry-management.md) | [歷程屬性和退出條件](journey-properties.md) | [歷程結束的方式](end-journey.md) | [補充識別碼](supplemental-identifier.md) | [歷程設計器](using-the-journey-designer.md)
+[設定檔入口管理](entry-management.md) | [歷程屬性和退出條件](journey-properties.md) | [歷程如何結束](end-journey.md) | [補充識別碼](supplemental-identifier.md) | [歷程設計器](using-the-journey-designer.md)
 
 **教學課程與範例**
 
-[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車視訊](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hant)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相關功能**
 
-[對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率限定](../conflict-prioritization/rule-sets.md) | [正在測試歷程](testing-the-journey.md) | [條件活動](condition-activity.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)
+[對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率上限](../conflict-prioritization/rule-sets.md) | [測試歷程](testing-the-journey.md) | [條件活動](condition-activity.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)
