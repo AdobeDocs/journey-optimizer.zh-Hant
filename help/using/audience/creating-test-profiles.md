@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e6395120223a0e87ef3557c9f5d7e2af84462968
+source-git-commit: fed12f5aa6149314fcaca90c1d5b72de4a4a7616
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1313'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 您可以透過[上傳CSV檔案](#create-test-profiles-csv)或使用[API呼叫](#create-test-profiles-api)來建立測試設定檔。 [!DNL Adobe Journey Optimizer]也提供特定的[產品內使用案例](#use-case-1)，以方便建立測試設定檔。
 
-您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant#add-data-to-dataset){target="_blank"}。
+您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
 
 請注意，建立測試設定檔類似於在[!DNL Adobe Experience Platform]中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶個人檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 
@@ -48,9 +48,9 @@ ht-degree: 2%
    ![顯示個別設定檔選項的結構描述型別選擇](assets/test-profiles-1.png)
 1. 輸入結構描述的名稱，然後按一下&#x200B;**完成**。
    ![命名並儲存結構描述對話方塊](assets/test-profiles-1-bis.png)
-1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**&#x200B;欄位群組。
+1. 在&#x200B;**欄位群組**&#x200B;區段中，按一下左側的&#x200B;**新增**&#x200B;並選取適當的欄位群組。 請確定您已新增&#x200B;**設定檔測試詳細資料**欄位群組。
    ![具有[新增]按鈕的欄位群組區段](assets/test-profiles-1-ter.png)
-完成後，按一下&#x200B;**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
+完成後，按一下**[!UICONTROL 新增欄位群組]**：欄位群組清單會顯示在結構描述概觀畫面上。
    ![包含欄位群組清單的結構描述總覽](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -61,13 +61,23 @@ ht-degree: 2%
    用於選取主要身分的![結構描述欄位清單](assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL 欄位屬性]**&#x200B;右側窗格中，檢查&#x200B;**[!UICONTROL 身分]**&#x200B;和&#x200B;**[!UICONTROL 主要身分]**&#x200B;選項，並選取名稱空間。 如果您希望主要身分識別是電子郵件地址，請選擇&#x200B;**[!UICONTROL 電子郵件]**&#x200B;名稱空間。 按一下&#x200B;**[!UICONTROL 套用]**。
    ![具有身分和主要身分選項的欄位屬性面板](assets/test-profiles-4bis.png)
-1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
+1. 選取結構描述並啟用&#x200B;**[!UICONTROL 結構描述屬性]**&#x200B;窗格中的&#x200B;**[!UICONTROL 設定檔]**選項。
    ![已啟用設定檔選項的結構描述屬性窗格](assets/test-profiles-5.png)
 1. 按一下&#x200B;**儲存**。
 
 >[!NOTE]
 >
->如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant#prerequisites){target="_blank"}。
+>如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
+
+>[!IMPORTANT]
+>
+>建立或取代測試設定檔擷取的資料集時，請確保結構描述具有套用至目標名稱空間之主要身分欄位（例如`/personID`）的正確身分描述項。 如果身分描述項遺失或設定不正確，即使擷取程式成功完成，擷取至此資料集的設定檔可能不會標示為測試設定檔(`testProfile = true`)。
+>
+>如果您的測試設定檔在擷取後未正確標幟：
+>
+>1. 檢閱與資料集相關聯的結構描述。
+>1. 確認主要身分欄位具有適用於您名稱空間的正確身分描述項（請參閱上述步驟6至7）。
+>1. 如果缺少描述項，請更新結構描述以新增身分描述項並重新內嵌資料。
 
 ### 建立資料集
 
@@ -81,12 +91,12 @@ ht-degree: 2%
    用於建立資料集的![結構描述選取畫面](assets/test-profiles-8.png)
 1. 選擇名稱，然後按一下&#x200B;**[!UICONTROL 完成]**。
    ![命名並完成資料集對話方塊](assets/test-profiles-9.png)
-1. 啟用&#x200B;**[!UICONTROL 設定檔]**&#x200B;選項。
+1. 啟用&#x200B;**[!UICONTROL 設定檔]**選項。
    ![已啟用設定檔選項的資料集設定](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}。
+> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
 
 ## 產品內使用案例{#use-case-1}
 
@@ -183,7 +193,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
->如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant#tutorials){target="_blank"}。
+>如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
