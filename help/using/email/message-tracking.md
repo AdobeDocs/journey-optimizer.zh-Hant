@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
+source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1513'
 ht-degree: 22%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 22%
 * **[!UICONTROL 電子郵件開啟]**&#x200B;量度會檢查已開啟的郵件數。
 * **[!UICONTROL 點按電子郵件]**&#x200B;量度會計算電子郵件中連結的點按次數。
 
-## 插入連結 {#insert-links}
+### 追蹤多封電子郵件 {#track-across-multiple-emails}
 
-啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
+只有當&#x200B;**URL**&#x200B;和&#x200B;**標籤**&#x200B;都是唯一時，才會產生唯一的追蹤識別碼(urlID)。 共用相同URL且具有相同有效標籤（包括標籤為空白時）的連結會重複使用相同的urlID，這表示您無法分辨已點按了哪個連結。
 
-只有當&#x200B;**URL**&#x200B;和&#x200B;**標籤**&#x200B;都是唯一時，才會產生唯一的追蹤識別碼(urlID)。 共用相同URL且具有相同有效標籤（包括標籤為空白時）的連結會重複使用相同的urlID，這表示您無法分辨已點按了哪個連結。 若要追蹤多個電子郵件中的相同URL （或一個電子郵件中的多次），請為每個類似的URL使用唯一標籤；否則，[!DNL Journey Optimizer]將無法追蹤點選的連結。 您可以在電子郵件Designer中設定不同的標籤，或針對HTML，透過`data-label`屬性來設定。
+若要追蹤多個電子郵件中的相同URL （或一個電子郵件中的多次），請為每個類似的URL使用唯一標籤；否則，[!DNL Journey Optimizer]將無法追蹤點選的連結。 您可以在電子郵件Designer中設定不同的標籤，或針對HTML，透過`data-label`屬性來設定。
 
 | URL | 標記 | 標籤 | urlID行為 |
 |-----|-----|-------|----------------|
@@ -62,13 +62,17 @@ ht-degree: 22%
 | www.example.com | 第三 | 第一個標籤 | 取得urlID （例如B） |
 | www.example.com | 第四 | 第二個標籤 | 取得urlID （例如C） |
 
+## 插入連結 {#insert-links}
+
+啟用[追蹤](#enable-tracking)時，會追蹤訊息內容中包含的所有連結。
+
 >[!NOTE]
 >
 >也會追蹤電子郵件中所用片段的連結。 [進一步瞭解片段](../content-management/fragments.md)
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
