@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="關於自訂驗證"
->abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。動作執行是兩個步驟的流程。首先，系統會執行端點呼叫以產生存取權杖。接著，存取權杖會插入動作的HTTP要求中。"
+>abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。動作執行是兩個步驟的流程。首先，系統會執行端點呼叫以產生存取權杖。接著，存取權杖會插入至動作的 HTTP 要求中。"
 
 自訂驗證模式會用於複雜驗證，常用來呼叫OAuth2等API封裝通訊協定，以擷取要插入到動作之實際HTTP要求中的存取權杖。
 

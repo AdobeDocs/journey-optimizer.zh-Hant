@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1455'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="動作活動"
->abstract="**動作**&#x200B;活動可讓您設定單一原生頻道動作和多個輸入活動，並能夠將最佳化新增至任何內建頻道動作。"
+>abstract="您可以透過&#x200B;**動作**&#x200B;活動設定單一原生管道動作和多項傳入活動，且可以在任何內建的管道動作中加入最佳化功能。"
 
 [!DNL Journey Optimizer]隨附新的通用&#x200B;**Action**&#x200B;活動，可設定單一內建頻道動作以及多個傳入活動。
 

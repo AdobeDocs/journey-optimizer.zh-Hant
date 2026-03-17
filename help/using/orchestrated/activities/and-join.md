@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="合併連結活動"
->abstract="**合併連結**&#x200B;活動讓您可以同步處理協調式行銷活動的多個執行分支。所有前面的活動完成後即會觸發此活動。這讓您可以確保特定活動完成後才繼續執行協調式行銷活動。"
+>abstract="**合併連結**&#x200B;活動讓您可以同步處理協調式行銷活動的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。 這讓您可以確保特定活動完成後才繼續執行協調式行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
->title="加入活動"
->abstract="加入活動的預留位置。"
+>title="連接活動"
+>abstract="連接活動的預留位置。"
 
 「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。它可讓您同步處理協調行銷活動的多個執行分支。
 

@@ -10,7 +10,7 @@ exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
->title="建立SMS Webhook"
->abstract="您可以設定Webhook擷取傳入回應，以管理選擇加入和選擇退出同意，並接收傳遞報表，包括可用的讀取回條。"
+>title="建立簡訊 Webhook"
+>abstract="您可以設定 Webhook 擷取傳入回應，以便管理同意選擇加入和同意選擇退出，並接收傳遞報告，包括讀取回條，若有的話。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
->title="選擇您的Webhook型別"
->abstract="設定webhook時，請選擇&#x200B;**傳入**&#x200B;以擷取同意回應和使用者偏好設定，或選擇&#x200B;**[!UICONTROL 回饋]**&#x200B;以追蹤傳遞和參與事件以進行報告和分析。"
+>title="選擇您的 Webhook 類型"
+>abstract="設定 Webhook 時，請選擇&#x200B;**傳入**&#x200B;以擷取同意回應和使用者偏好，或選擇&#x200B;**[!UICONTROL 意見回饋]**&#x200B;以追蹤傳遞和參與事件來進行報告和分析。"
 
 >[!BEGINSHADEBOX]
 

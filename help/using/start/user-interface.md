@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -247,7 +247,7 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="建立並傳送行銷活動的引導式 UI"
->abstract="透過頻道設定一或多個動作、選擇對象、設定內容、定義排程，您就可以傳送了"
+>abstract="設定一個管道的單一或多個動作，選擇客群，設定內容，決定排程，然後即可準備傳送"
 
 
 >[!CONTEXTUALHELP]

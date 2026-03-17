@@ -15,16 +15,16 @@ exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 將「副本」欄位新增至電子郵件 {#cc-email-field}
+# 將副本欄位新增至電子郵件 {#cc-email-field}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
->title="定義「副本抄送」電子郵件地址"
->abstract="您可以透過此頻道設定，將可見CC （副本）欄位新增至傳送的電子郵件。 輸入固定電子郵件地址或使用個人化（設定檔屬性或內容變數）。 請注意，CC使用量會計入您的授權訊息量。"
+>title="定義副本電子郵件地址"
+>abstract="您可以對使用此管道設定傳送的電子郵件新增可見的副本 (CC) 欄位。輸入固定的電子郵件地址或使用個人化設定 (輪廓屬性或內容變數)。請注意，副本的使用量會計入您的授權訊息用量中。"
 
 >[!AVAILABILITY]
 >

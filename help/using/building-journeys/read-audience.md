@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '3620'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="讀取客群活動"
->abstract="將所選[!DNL Adobe Experience Platform]對象的所有合格設定檔新增至此歷程。 執行一次或依排程執行。"
+>abstract="將所選 [!DNL Adobe Experience Platform] 客群的所有合格輪廓新增至此歷程。單次執行或依排程執行。"
 
 **讀取對象**&#x200B;活動是歷程進入點活動，會將選定[!DNL Adobe Experience Platform]對象的所有設定檔新增至歷程。 您可以執行一次入口，或依週期性排程執行。 在API和技術參考中，此活動也稱為區段觸發或受眾型歷程專案。
 
@@ -55,22 +55,22 @@ ht-degree: 5%
 
 您將設定： **對象** （必要）、**名稱空間** （必要）、**讀取率** （必要，預設5,000/s）和&#x200B;**排程** （當歷程執行時）。 選擇性地新增&#x200B;**標籤**&#x200B;和&#x200B;**補充識別碼**。 下列步驟會逐步引導您完成每個設定。
 
-### 新增活動並選取對象 {#add-activity-and-select-audience}
+### 新增活動並選取客群 {#add-activity-and-select-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="標籤"
->abstract="在報告和測試模式記錄中識別此活動的可選標籤。"
+>abstract="在報告和測試模式記錄中用來識別此活動的選用標籤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="客群"
->abstract="選取其設定檔將進入此歷程的[!DNL Adobe Experience Platform]對象。"
+>abstract="選取其輪廓將進入此歷程的 [!DNL Adobe Experience Platform] 客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="命名空間"
->abstract="選擇用於識別進入歷程之個人的身分（例如電子郵件、ECID）。 選擇清單中的最上層選項，以獲得與商業規則和上限的最佳相容性。"
+>abstract="選擇身分識別 (例如電子郵件、ECID) 以識別進入歷程的個體。選擇清單中最上層的選項，以便與業務規則和上限達到最佳相容性。"
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動拖放到您的畫布中。
 
@@ -83,7 +83,7 @@ ht-degree: 5%
    >[!NOTE]
    >
    >此外，您可以鎖定使用[!DNL Adobe Experience Platform]對象組合[建立的](../audience/get-started-audience-orchestration.md)對象。
-   >您也可以鎖定從CSV檔案[上傳的對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}。
+   >您也可以鎖定從CSV檔案[上傳的對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}。
    >[進一步瞭解如何在Journey Optimizer中產生及鎖定對象](../audience/about-audiences.md)。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
@@ -98,7 +98,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -124,7 +124,7 @@ ht-degree: 5%
 
 * 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
 
-* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
 
 * 每個組織的同時讀取對象限制：每個組織最多可同時執行五個讀取對象例項。 這包括已排程的回合和業務事件觸發的回合。 此限制適用於所有沙箱和歷程。 此限制會強制執行，以確保所有組織的資源配置公平且平衡。
 
@@ -142,12 +142,12 @@ ht-degree: 5%
 
 **下一步：**&#x200B;設定[讀取率](#profile-entry-and-reading-rate)和[排程](#schedule)，然後[測試並發佈](#testing-publishing)。
 
-### 設定檔輸入與讀取率 {#profile-entry-and-reading-rate}
+### 輪廓輸入與讀取率 {#profile-entry-and-reading-rate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
 >title="讀取率"
->abstract="每秒進入歷程的設定檔數上限(500-20,000)。 預設值為5,000。"
+>abstract="每秒進入歷程的輪廓數量上限 (500 至 20,000)。預設為 5,000。"
 
 設定&#x200B;**[!UICONTROL 讀取率]** （必要）。 這是每秒可以進入歷程的設定檔數目上限。 此費率僅適用於此活動，不適用於歷程中的其他活動。 例如，如果您想定義自訂動作的節流率，則需使用節流應用程式開發介面。 請參見此[頁面](../configuration/throttling.md)。
 
@@ -162,7 +162,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="開始日期/時間"
->abstract="定義何時開始此歷程。"
+>abstract="定義開始此歷程的時間點。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
@@ -172,27 +172,27 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="重複間隔"
->abstract="歷程執行頻率（例如每日、每週）。"
+>abstract="歷程執行頻率 (例如每日、每週)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
 >title="增量讀取"
->abstract="首次執行後，只有新增到對象的新設定檔會進入歷程。"
+>abstract="首次執行後，只有新增到客群的新輪廓會進入歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="強制重新進入"
->abstract="在讀取每個新受眾之前，清除歷程中的所有參與者。"
+>abstract="在讀取各個新客群前，清除歷程中的所有參與者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="在進行批次客群評估後觸發"
->abstract="僅在最新評估批次對象後執行歷程。"
+>abstract="對批次客群進行全新評估後，方可執行歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="新客群評估的等待時間"
->abstract="歷程等待新受眾資料的時間長度（1-6小時、幾分鐘或幾小時）。"
+>abstract="歷程等待新客群資料的時長 (1 至 6 小時，以分鐘或小時為單位)。"
 
 歷程預設會設定為執行一次。 若要定義執行歷程的特定日期/時間和頻率，請遵循下列步驟。
 
@@ -361,9 +361,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 時間與資料傳播 {#timing-and-data-propagation}
 
-* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#evaluate-segments){target="_blank"}。
+* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}。
 
-* **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解[&#x200B; [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}資料擷取。
+* **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解[ [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}資料擷取。
 
 * **使用「批次對象評估後觸發」選項**：對於使用批次對象的每日排程歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項。 這可確保歷程在執行之前會等待新的受眾資料（最多6小時）。 [進一步瞭解排程](#schedule)
 
@@ -371,9 +371,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 資料驗證 {#data-validation-and-monitoring}
 
-* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hant){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
+* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
 
-* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解[&#x200B; [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant){target="_blank"}合併原則。
+* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解[ [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合併原則。
 
 * **檢閱區段定義**：確認區段定義已正確設定，並包含所有預期的資格條件。 深入瞭解[建立對象](../audience/creating-a-segment-definition.md)。 請特別注意：
    * 可能根據事件時間戳記排除設定檔的時間型條件
@@ -416,4 +416,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解透過讀取客群活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430361?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
