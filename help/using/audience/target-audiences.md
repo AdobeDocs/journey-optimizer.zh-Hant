@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 * 選擇&#x200B;**行銷活動**&#x200B;的客群，將訊息傳送給屬於所選客群的所有個人。 [了解如何定義行銷活動的客群](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* 在歷程中使用&#x200B;**讀取對象**&#x200B;協調活動，讓對象中的所有個人進入歷程並接收歷程中包含的訊息。 假設您有「銀級客戶」客群。 利用此活動，您可以讓所有銀級客戶進入歷程。 接著，您就可以傳送一系列個人化訊息給他們。 [了解如何設定讀取客群活動](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
+* 在歷程中使用&#x200B;**讀取對象**&#x200B;協調活動，讓對象中的所有個人進入歷程並接收歷程中包含的訊息。 假設您有「銀級客戶」客群。 利用此活動，您可以讓所有銀級客戶進入歷程。 接著，您就可以傳送一系列個人化訊息給他們。 [瞭解如何設定讀取對象活動](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 若要在分支進入後加以分段、排除或合併，請參閱[歷程中的對象鎖定目標](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   進入之後，使用&#x200B;**條件**&#x200B;活動依屬性或行為進行[分段、排除部分母體或合併分支](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 

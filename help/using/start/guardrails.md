@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 97%
+source-wordcount: '4046'
+ht-degree: 93%
 
 ---
 
@@ -240,7 +240,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。[閱讀全文](../building-journeys/end-journey.md)
 
 ### 歷程版本 {#journey-versions-g}
 
@@ -365,15 +365,17 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 
 * 串流客群一律為最新狀態，但擷取時不會計算批次客群。 它們僅在每日批次評估時間每天進行評估。
 * 在歷程項目中，輪廓會使用批次客群快照中的屬性值。但是，當輪廓達到&#x200B;**等待**&#x200B;活動時，歷程會透過從統一輪廓服務 (UPS) 擷取最新資料來自動重新整理輪廓屬性。這表示在歷程執行期間，輪廓屬性可能會變更。
-* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試，但請避免同時開始超過五個歷程 (使用&#x200B;**讀取客群**、已排程或「盡快」開始)，方法是將其分散在一段時間內開始，例如相隔 5 到 10 分鐘。在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
 * **讀取客群**&#x200B;活動無法搭配 Adobe Campaign 活動使用。
-* **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。
+* **讀取對象**&#x200B;活動只能作為歷程中的第一個活動，或在商務事件活動之後使用。
 * 歷程只能有一個&#x200B;**讀取客群**&#x200B;活動。
-* 另請參閱[此頁面](../building-journeys/read-audience.md)關於如何使用&#x200B;**讀取客群**&#x200B;活動的建議。
+* **讀取對象**&#x200B;活動在每個歷程中只能鎖定一個對象。 如果需要多個對象，請先將它們合併為單一對象。 [瞭解如何使用組合工作流程結合對象](../audience/get-started-audience-orchestration.md)。
+* 每個組織在所有沙箱和歷程中最多可同時執行五個&#x200B;**讀取對象**&#x200B;執行個體（已排程或已觸發業務事件）。 避免同時開始超過五個具有&#x200B;**讀取對象**&#x200B;的歷程；將它們分散開5到10分鐘。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
+* 沙箱輸送量：系統管理每個沙箱的處理，在所有&#x200B;**讀取對象**&#x200B;活動中每秒最多共用20,000個設定檔。 個別活動可設定為每秒500至20,000個設定檔。 如果達到沙箱限制，工作可能會排入佇列。
+* 工作處理逾時： **無法於12小時內處理的讀取對象**&#x200B;工作會自動清除，且不會執行。
 * 擷取匯出工作時，預設會對對象觸發的歷程 (從&#x200B;**讀取客群**&#x200B;或&#x200B;**商業事件**&#x200B;開始) 套用重試。如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 1 小時。在這之後，我們會將其視為失敗。因此，這些類型的歷程可在排程時間後最多 1 小時執行。
 * 對於使用補充識別碼的歷程，每個歷程執行個體的讀取客群活動讀取率限制為每秒最多 500 個輪廓。
 
-另請參閱[此頁面](../building-journeys/read-audience.md#must-read)。
+另請參閱讀取對象活動的[建議與設定](../building-journeys/read-audience.md#must-read)。
 
 #### 更新輪廓活動 {#update-profile-g}
 

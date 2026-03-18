@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活動，條件，畫布，歷程
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 16%
@@ -40,15 +40,15 @@ ht-degree: 16%
 * [日期條件](#date_condition)
 * [設定檔上限](#profile_cap)
 
-您也可以直接在歷程條件中使用對象。 請參閱：
+您也可以根據對象成員資格設定條件。 請參閱下列章節：
 
-* [在條件中使用對象](#using-a-segment) — 根據對象成員資格篩選哪些設定檔採用指定的路徑
-* [建立和管理對象](../audience/about-audiences.md) — 瞭解如何在[!DNL Adobe Experience Platform]中建立、評估和鎖定對象
-* [歷程中的對象鎖定目標模式](read-audience.md#audience-targeting-in-journeys) — 在讀取對象專案後分段、排除或合併對象分支
+* [在條件中使用對象](#using-a-segment) — 根據設定檔是否屬於對象新增路徑。
+* [建立及鎖定對象](../audience/about-audiences.md) — 在[對象]功能表中建立及管理對象。
+* [歷程中的對象鎖定目標](read-audience.md#audience-targeting-in-journeys) — 讀取對象活動後，使用條件來分段、排除或合併分支。
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 新增和管理條件路徑 {#about_condition}
 
@@ -194,4 +194,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

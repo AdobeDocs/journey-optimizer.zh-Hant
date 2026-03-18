@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '3069'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,33 @@ ht-degree: 14%
 >
 >若為即時歷程，此畫面只會顯示發佈日期和發佈歷程的使用者名稱。
 
-**複製技術詳細資料**&#x200B;選項可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 已複製下列資訊： `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt`。
+**複製技術詳細資料**&#x200B;選項可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 下列資訊已複製：
+
+**一般**
+
+* `JourneyVersion UID` — 此歷程版本的唯一識別碼
+* `OrgID` — 您組織的(IMS)識別碼
+* `orgName` — 您的組織名稱
+* `sandboxName` — 執行歷程的沙箱名稱
+* `lastDeployedBy` — 上次發佈歷程的使用者
+* `lastDeployedAt` — 上次發佈的日期和時間
+
+
+**暫停並繼續** （當歷程至少暫停一次時包含）
+
+* `lastPausedAt` — 上次暫停歷程的日期和時間
+* `lastPausedBy` — 顯示執行上次暫停的使用者名稱
+* `lastPausedById` — 執行上次暫停之使用者的內部識別碼
+* `lastResumedAt` — 上次恢復歷程的日期和時間
+* `lastResumedBy` — 顯示執行上次恢復的使用者名稱
+* `lastResumedById` — 執行上次恢復之使用者的內部識別碼
+
+**暫停的歷程設定** （在`pausedJourneySettings`中，當歷程暫停或已經暫停）
+
+* `pauseBehavior` — 當歷程暫停時，歷程中的設定檔會發生什麼事（例如，捨棄設定檔或將其保留在適當位置）
+* `maxPauseDurationInMinutes` — 暫停持續時間上限（以分鐘為單位），之後歷程會自動繼續（例如20160 = 14天）
+* `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
+* `pauseId` — 目前暫停執行個體的唯一識別碼
 
 在本頁[進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們](expression/journey-properties.md)。
 
@@ -144,7 +170,7 @@ ht-degree: 14%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -189,7 +215,7 @@ ht-degree: 14%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

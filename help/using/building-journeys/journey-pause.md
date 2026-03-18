@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2626'
 ht-degree: 5%
 
 ---
@@ -116,6 +116,15 @@ ht-degree: 5%
 
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
+## 檢視歷程何時暫停或繼續 {#view-pause-resume-info}
+
+若要檢視歷程上次暫停或恢復的時間以及由誰執行，請開啟歷程並前往其&#x200B;**屬性** （按一下歷程名稱旁的鉛筆圖示）。 使用&#x200B;**複製技術詳細資料**&#x200B;按鈕複製技術資訊，包括：
+
+* 上次暫停和繼續的日期和時間
+* 執行上次暫停和上次恢復之使用者的顯示名稱和識別碼
+* 暫停的歷程設定（暫停行為、暫停持續時間上限、自動恢復狀態、暫停ID）
+
+此資訊對於疑難排解、稽核或與支援人員共用相當實用。 如需所複製欄位的完整清單，請參閱[存取歷程的屬性](journey-properties.md#access-properties)。
 
 ## 在暫停的歷程中套用退出條件 {#journey-exit-criteria}
 
@@ -202,7 +211,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

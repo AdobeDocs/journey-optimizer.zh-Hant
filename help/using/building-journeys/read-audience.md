@@ -10,16 +10,16 @@ level: Intermediate
 keywords: 活動，歷程，讀取對象，對象，區段，批次，登入點，觸發器，排程，對象資格
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 7d4dcd9ed4edb5985d19acae197e7710b3b75938
 workflow-type: tm+mt
-source-wordcount: '3677'
-ht-degree: 9%
+source-wordcount: '3312'
+ht-degree: 10%
 
 ---
 
 # 在歷程中使用對象 {#segment-trigger-activity}
 
-使用「讀取對象」活動，以定義對象開始歷程。 您選擇對象及其執行時間；然後使用[條件來分段、排除或合併分支](#audience-targeting-in-journeys)、計時器和動作，以個人化每個設定檔的路徑。
+使用「讀取對象」活動，以定義對象開始歷程。 您選擇對象及其執行時間；然後使用[條件](#audience-targeting-in-journeys)、計時器和動作來個人化每個設定檔的路徑。
 
 ## 關於讀取客群活動 {#about-segment-trigger-activity}
 
@@ -38,9 +38,9 @@ ht-degree: 9%
 | 您的對象已進行批次評估（例如每日快照）。 | 您的對象為串流或事件型。 |
 | 您不會介意對象評估與歷程輸入之間的延遲。 | 設定檔符合資格時，您需要立即輸入。 |
 
-**金鑰限制：**&#x200B;每個歷程一個讀取對象（必須是第一個活動，或業務事件後的第二個活動）；每個活動一個對象；每個組織最多可同時執行五個讀取對象；每個沙箱每秒有20,000個設定檔；12小時工作逾時。 [護欄和建議](#must-read)中的完整詳細資料。
+**金鑰限制：**&#x200B;每個歷程一個讀取對象（必須是第一個活動）；每個活動一個對象；每個組織最多可同時執行5個讀取對象；每個沙箱每秒有20,000個設定檔；12小時工作逾時。 在[護欄和限制](../start/guardrails.md#read-segment-g)中的完整詳細資料。
 
-**先決條件：**&#x200B;已建置並評估的[!DNL Adobe Experience Platform]對象（已實現狀態）、為歷程選取的以人物為基礎的身分名稱空間，以及（對於週期性執行）瞭解[排程和輸送量限制](#must-read)。
+**先決條件：**&#x200B;已建置並評估的[!DNL Adobe Experience Platform]對象（已實現狀態）、為歷程選取的以人物為基礎的身分名稱空間，以及（對於週期性執行）瞭解[排程和輸送量限制](../start/guardrails.md#read-segment-g)。
 
 例如，在`Luma app opening and checkout`組建對象[使用案例中建立的](../audience/about-audiences.md)對象可以當做進入點。 所有合格的設定檔都會使用條件、計時器、事件和動作，透過個人化路徑進入歷程和進度。
 
@@ -83,7 +83,7 @@ ht-degree: 9%
    >[!NOTE]
    >
    >此外，您可以鎖定使用[!DNL Adobe Experience Platform]對象組合[建立的](../audience/get-started-audience-orchestration.md)對象。
-   >您也可以鎖定從CSV檔案[上傳的對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}。
+   >您也可以鎖定從CSV檔案[上傳的對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}。
    >[進一步瞭解如何在Journey Optimizer中產生及鎖定對象](../audience/about-audiences.md)。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
@@ -98,7 +98,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 依預設，此欄位會預先填入最後使用的名稱空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -114,27 +114,13 @@ ht-degree: 9%
 
 ### 護欄和推薦 {#must-read}
 
-* 歷程中只能使用一個&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動。 它必須是畫布中的第一個活動，但以&#x200B;**業務事件**&#x200B;活動開始的歷程除外，在此情況下，它是第二個活動。
+**讀取對象**&#x200B;活動的所有護欄和限制（並行性、輸送量、每個活動一個對象、工作逾時、重試等等）都列在[護欄和限制](../start/guardrails.md#read-segment-g)中。
 
-* **[!UICONTROL 讀取對象]**&#x200B;活動只能鎖定一個對象。 如果需要多個對象，請考慮在使用前將這些對象合併為單一對象。 [瞭解如何使用組合工作流程結合對象](../audience/get-started-audience-orchestration.md)
+**推薦**
 
-* 對於使用&#x200B;**讀取客群**&#x200B;活動的歷程，則可同時開始的歷程次數有其上限。 系統將執行重試。 但是，請避免同時開始超過五個歷程（具有&#x200B;**讀取對象**、排程或「儘快」）。 最佳實務建議將其分散一段時間，例如相隔5到10分鐘。
-
-* 體驗事件欄位群組不能用於以&#x200B;**讀取對象**&#x200B;活動、**[對象資格](audience-qualification-events.md)**&#x200B;活動或業務事件活動開始的歷程。
-
-* 根據最佳實務，建議您僅在&#x200B;**讀取對象**&#x200B;活動中使用批次對象。 這將為歷程中使用的對象提供可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請使用&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;活動。
-
-* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
-
-* 每個組織的同時讀取對象限制：每個組織最多可同時執行五個讀取對象例項。 這包括已排程的回合和業務事件觸發的回合。 此限制適用於所有沙箱和歷程。 此限制會強制執行，以確保所有組織的資源配置公平且平衡。
-
-* 沙箱輸送量管理：系統以每秒最多20,000個設定檔為上限，動態管理每個沙箱的處理輸送量，並在所有讀取對象活動中共用。 個別讀取對象活動可設定為每秒500個設定檔的最低速率。 如果達到沙箱層級的輸送量限制，工作可能會排入佇列以確保公平的資源配置。
-
-* 作業處理逾時：讀取由於護欄限制而無法在12小時內處理的對象作業，將自動清理且永不執行。 這可以防止工作累積並確保系統穩定性。
-
-* 使用批次區段時，請確保您的內嵌和每日快照更新在歷程開始之前完成。 如果區段必須反映當天擷取的資料，請考慮額外的等候期間。 如果即時設定檔新鮮度至關重要，請使用事件型或串流方法，而非每日批次方法。 或者，插入等候機制，讓更新的資料在歷程評估之前傳播。
-
-與&#x200B;**讀取對象**&#x200B;活動相關的護欄列於[此頁面](../start/guardrails.md#read-segment-g)。
+* 最佳做法是在&#x200B;**讀取對象**&#x200B;活動中使用批次對象，以獲得可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請改用[對象資格](audience-qualification-events.md)活動。
+* 可在[讀取對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)活動中選取從CSV檔案[匯入或從](../audience/get-started-audience-orchestration.md)組合工作流程&#x200B;**產生的對象**。 **對象資格**&#x200B;活動中沒有這些對象。
+* 使用批次區段時，請確保在歷程開始之前完成擷取和每日快照更新。 如果區段必須反映當天擷取的資料，請考慮額外的等候期間。 如果立即設定檔的時效性很關鍵，請使用事件型或串流方法，或新增&#x200B;**等待**&#x200B;活動，以允許更新的資料在評估前傳播。
 
 >[!CAUTION]
 >
@@ -207,10 +193,6 @@ ht-degree: 9%
 1. 歷程的屬性隨即顯示。 在&#x200B;**[!UICONTROL 排程器型別]**&#x200B;下拉式清單中，選取您要執行歷程的頻率。
 
    ![包含頻率選項的排程器型別下拉式清單：一次、每日、每週、每月](assets/read-segment-schedule-list.png)
-
->[!TIP]
->
->若要隨著時間分批傳送傳出訊息，而不是一次傳送所有訊息，您可以在歷程排程中設定波動傳送。 [瞭解如何在歷程中使用波段傳送](send-using-waves.md)
 
 對於週期性歷程，特定選項可協助您管理設定檔對歷程的進入。 展開下列各節，瞭解各個選項的詳細資訊。
 
@@ -298,10 +280,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 當他們進入歷程後，您可使用&#x200B;**條件**&#x200B;活動加以協調：依屬性或行為分段、排除部分母體，或將分支合併在一起（聯合）。 以下各節將說明每個模式。
 
->[!NOTE]
->
->[**最佳化**&#x200B;活動](optimize.md)提供進階路徑路由的替代方式，包括實驗與目標定位規則。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以瞭解更多資訊。
-
 **區段**
 
 您可以使用&#x200B;**條件**&#x200B;活動來使用條件來執行分段。 例如，您可以讓VIP人員採用特定路徑，而非VIP人員則採用其他路徑。
@@ -365,9 +343,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 時間與資料傳播 {#timing-and-data-propagation}
 
-* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#evaluate-segments){target="_blank"}。
+* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}。
 
-* **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解[&#x200B; [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}資料擷取。
+* **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解[ [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}資料擷取。
 
 * **使用「批次對象評估後觸發」選項**：對於使用批次對象的每日排程歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項。 這可確保歷程在執行之前會等待新的受眾資料（最多6小時）。 [進一步瞭解排程](#schedule)
 
@@ -375,9 +353,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 資料驗證 {#data-validation-and-monitoring}
 
-* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hant){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
+* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
 
-* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解[&#x200B; [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant){target="_blank"}合併原則。
+* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解[ [!DNL Adobe Experience Platform]中的](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}合併原則。
 
 * **檢閱區段定義**：確認區段定義已正確設定，並包含所有預期的資格條件。 深入瞭解[建立對象](../audience/creating-a-segment-definition.md)。 請特別注意：
    * 可能根據事件時間戳記排除設定檔的時間型條件
@@ -398,7 +376,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 何時聯絡支援
 
-如果計數不相符或零設定檔執行在遵循上述步驟後持續存在，[請聯絡Adobe支援](../start/user-interface.md#support-ticket-guidelines)。 準備就緒：對象名稱/ID、歷程名稱/ID、排程的執行時間、沙箱，以及差異的簡短說明（例如「對象顯示已實現10,000個，只有2,000個在[日期]進入歷程」）。
+如果計數不相符或在執行上述步驟後持續零設定檔執行，請聯絡Adobe支援。 準備就緒：對象名稱/ID、歷程名稱/ID、排程的執行時間、沙箱，以及差異的簡短說明（例如「對象顯示已實現10,000個，只有2,000個在[日期]進入歷程」）。
 
 ## 重試次數 {#read-audience-retry}
 
@@ -406,12 +384,14 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 已擷取失敗的&#x200B;**讀取對象**&#x200B;觸發器，並顯示在&#x200B;**警示**&#x200B;中。 如果&#x200B;**讀取對象**&#x200B;活動在排定的執行時間後10分鐘未處理任何設定檔，**讀取對象警報**&#x200B;會警告您。 此失敗可能是由技術問題或空受眾所導致。 如果失敗是技術問題所造成，根據問題型別仍可能發生重試。 例如，如果匯出作業建立失敗，我們每10分鐘會重試一次，重試時間最長為1小時。 [了解更多](../reports/alerts.md#alert-read-audiences)
 
+如需讀取對象護欄的完整清單（包括重試和輸送量限制），請參閱[護欄和限制](../start/guardrails.md#read-segment-g)。
+
 ## 相關主題
 
 * [建立客群](../audience/about-audiences.md)
 * [客群資格鑑定活動](audience-qualification-events.md)
 * [在歷程中使用補充識別碼](supplemental-identifier.md)
-* [歷程屬性和護欄](../start/guardrails.md#read-segment-g)
+* [護欄與限制](../start/guardrails.md#read-segment-g)
 * [歷程處理率和登入管理](entry-management.md)
 * [測試歷程](testing-the-journey.md)
 * [發佈歷程](../building-journeys/publish-journey.md)
@@ -420,4 +400,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 了解透過讀取客群活動所觸發歷程的適用使用案例。瞭解如何建立批次式歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430361?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
