@@ -7,23 +7,276 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
+source-git-commit: 20026d029c980a256968be6ef016e1b2d21876cb
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1242'
+ht-degree: 20%
 
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能增強並修正錯誤。所有變更都會在每月底整合於[發行說明](release-notes.md)。
+[!DNL Adobe Journey Optimizer]持續提供新功能、現有功能增強並修正錯誤。 所有變更都會在每月底整合於[發行說明](release-notes.md)。
+
+## 2026年3月發行前注意事項 {#march-26-rn}
+
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
+
+另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**發行日期**： 2026年3月26日
+
+### 新功能 {#march-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>LLM電子郵件最佳化工具</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用大型語言模型(LLM)技術最佳化電子郵件內容以提供傳遞能力。 LLM電子郵件最佳化工具會分析您的電子郵件內容，並提供可操作的建議以改善寄件者信譽、避免垃圾郵件篩選以及增強整體傳遞效能。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>增量查詢</strong>活動現在可在協調的行銷活動中使用。 此活動僅查詢自上次工作流程執行以來的新記錄或更新記錄，大幅減少處理時間並改善以大型資料集為目標的重複行銷活動的效率。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動中的交易式訊息</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>協調的行銷活動現在支援<strong>交易式訊息</strong>，讓您能夠直接在行銷活動工作流程中觸發即時、事件導向的訊息，例如訂單確認、預訂通知和帳戶更新。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在協調的行銷活動中測試活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>測試</strong>活動現在可在協調的行銷活動中使用。 此活動會根據定義的條件，將工作流程執行路由至不同的分支，讓您在啟用即時傳遞之前，先驗證行銷活動邏輯和設定。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面中的自訂表單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在登入頁面中建立<strong>自訂表單</strong>，以收集標準選擇加入欄位以外的特定訂閱者資料。 定義您自己的表單欄位、驗證規則和提交行為，以支援更廣泛的訂閱和設定檔擴充使用案例。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：建立協調的行銷活動使用案例</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由Adobe Experience Platform Agent Orchestrator支援的<strong>Journey Agent</strong>現在可以透過自然語言介面建立完整的<strong>協調行銷活動</strong>使用案例。 以簡單的語言說明您的行銷活動目標和需求，而Journey Agent會為您設定行銷活動結構、活動和目標定位。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>登陸頁面中的新設定檔贏取</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>登陸頁面現在支援<strong>新設定檔贏取</strong>工作流程，可讓您直接從登陸頁面體驗擷取及載入新對象成員。 設定贏取表單，以收集設定檔資料，並在Adobe Experience Platform中自動布建新設定檔。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程路徑最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>歷程路徑最佳化</strong>使用人工智慧來分析歷史歷程績效，並自動為每個客戶選取最佳路徑，以最大化轉換和參與結果。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件頻道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>訊息收件匣</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件的副本(CC)支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將<strong>副本收件者</strong>新增至透過Journey Optimizer傳送的傳出電子郵件訊息。 此功能可將客戶通訊的復本傳送至內部團隊或法規遵循地址，以用於封存和監督目的。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>原生管道動作活動已棄用</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>繼2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道動作活動（電子郵件、簡訊、推播、應用程式內等）現已棄用。 使用舊版管道活動的現有歷程仍可繼續運作，無需任何變更或移轉。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善 {#march-26-improv}
+
+以下列舉部分發布內容附上的改良功能。
+
+#### 歷程
+
+* **歷程中的資料集查詢支援** — 您現在可以直接在歷程條件、運算式和動作中從Adobe Experience Platform資料集中查詢資料，以目錄資料、參考表格和其他結構化資料集豐富個人化內容。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
+
+* **歷程仲裁 — AI模型** — 除了排名公式外，AI模型現在還可以與歷程仲裁搭配使用，以自動為客戶排名歷程專案並排定其優先順序，使用機器學習根據歷史行為和情境訊號決定每個設定檔的最相關歷程。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+
+#### 報告
+
+* **排除電子郵件和簡訊報告的機器人點按** — 電子郵件和簡訊報告現在會自動從點按量度中篩選出機器人點按，提供更精確的參與資料，並防止自動流量誇大您的效能數字。
+
+* **傳送時間最佳化：更新的控制項位置和新的提升度報告** — 傳送時間最佳化(STO)控制項已從[動作]左側邊欄重新定位到[動作]組態。 此外，歷程報表現在提供新的提升度報表，以測量STO對行銷活動效能量度的影響。
+
+#### 電子郵件設計工具
+
+* **使用Dynamic Media (Beta)的開啟時間個人化** — 您現在可以使用Adobe Dynamic Media資產，在開啟時間個人化電子郵件內容，啟用即時、收件者特定的影像和視覺效果，這些影像和視覺效果會根據每個收件者在開啟電子郵件時的屬性動態產生。 此功能目前在Beta中。
+
+* **電子郵件Designer顯示在Unified Shell中** — 電子郵件Designer現在顯示在Unified Shell體驗中，提供與其他Adobe應用程式一致的一致導覽和標題體驗。
+
+* **片段中的文字模式支援** — 片段現在支援文字模式編輯，可讓您建立和管理內容片段的純文字版本，以用於文字型電子郵件工作流程和多通道案例。
+
+#### 決策
+
+* **Edge Decisioning中的運算式片段參考變更摘要支援** - Edge Decisioning中使用的運算式片段現在支援變更摘要機制，確保運算式片段的更新會近乎即時傳播到邊緣節點。
+
+* **決定專案中的選用片段** — 附加至決定專案的片段現在可設定為選用，當並非所有決定專案呈現都需要特定片段時，可在內容構成中提供更大的彈性。
+
+#### 設定
+
+* **URL引數加密** — 追蹤連結和登入頁面中的URL引數現在可以加密，為敏感引數資料提供額外的安全層。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+* **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到資料夾中，讓團隊處理大量內容時可以進行結構化導覽及更輕鬆的管理。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+#### 協調的行銷活動
+
+* **協調行銷活動中的全域變數** — 協調行銷活動現在支援全域變數，這些變數只需定義一次，便可在工作流程內的所有活動中重複使用，可簡化設定，並確保動態值、運算式和內容個人化的一致性。
+
+* **協調行銷活動中的目標維度簡化** — 協調行銷活動中的目標維度設定已簡化，減少定義行銷活動工作流程的對象目標定位時所需的步驟和複雜性。
 
 <!--
 ## February '26 pre-release notes {#feb-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -277,7 +530,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -454,7 +707,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
