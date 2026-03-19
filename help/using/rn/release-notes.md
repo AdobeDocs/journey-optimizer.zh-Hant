@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
+source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
 workflow-type: tm+mt
-source-wordcount: '3136'
-ht-degree: 25%
+source-wordcount: '3046'
+ht-degree: 26%
 
 ---
 
@@ -37,55 +37,7 @@ ht-degree: 25%
 
 ### 新功能 {#march-26-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>LLM email optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：建立協調的行銷活動使用案例</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由Adobe Experience Platform Agent Orchestrator支援的<strong>Journey Agent</strong>現在可以透過自然語言介面建立完整的<strong>協調行銷活動</strong>使用案例。 以簡單的語言說明您的行銷活動目標和需求，而Journey Agent會為您設定行銷活動結構、活動和目標定位。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：頻道內容建立</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
-<p>推出日期： 2026年3月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -112,21 +64,6 @@ ht-degree: 25%
 <tr>
 <td>
 <p>您現在可以透過API觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新的<strong>增量查詢</strong>活動現在可在協調的行銷活動中使用。 此活動僅查詢自上次工作流程執行以來的新記錄或更新記錄，大幅減少處理時間並改善以大型資料集為目標的重複行銷活動的效率。</p>
 </td>
 </tr>
 </tbody>
@@ -235,24 +172,7 @@ ht-degree: 25%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>AI模型監視</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在可讓您監視決策AI模型的健全狀態、培訓狀態和效能。 這可讓您驗證培訓成功、疑難排解失敗，並瞭解對您結果的影響，以便使用AI為每個客戶選取最佳選件。 請注意，此功能僅適用於<strong>決策</strong> （不適用於舊版決策管理模型）。</p>
-<p>此功能目前僅適用於<strong>個人化最佳化</strong>模型（非自動最佳化）。</p>
-<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年3月9日</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <table>
 <thead>
@@ -273,21 +193,6 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>訊息收件匣</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
 </tr>
 </thead>
@@ -296,6 +201,22 @@ ht-degree: 25%
 <td>
 <p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
 <p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../content-management/image-to-html.md">了解更多</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>訊息收件匣</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
+<p>推出日期： 2026年3月31日</p>
 </td>
 </tr>
 </tbody>
@@ -357,21 +278,48 @@ ht-degree: 25%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent：頻道內容建立</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
+<p>推出日期： 2026年3月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI模型監視</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在可讓您監視決策AI模型的健全狀態、培訓狀態和效能。 這可讓您驗證培訓成功、疑難排解失敗，並瞭解對您結果的影響，以便使用AI為每個客戶選取最佳選件。 請注意，此功能僅適用於<strong>決策</strong> （不適用於舊版決策管理模型）。</p>
+<p>此功能目前僅適用於<strong>個人化最佳化</strong>模型（非自動最佳化）。</p>
+<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年3月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### 改善 {#march-26-improv}
 
 以下列舉部分發布內容附上的改良功能。
 
-#### 歷程
-
-* **在歷程中傳送傳出訊息的波次** — 您現在可以排程來自Journey Optimizer歷程的訊息，以控管批次方式傳送一段期間。 [了解更多](../building-journeys/send-using-waves.md)
-
-  此功能先前以「有限可用性」發佈，以供歷程使用，現在則可用於所有環境（一般可用性）。
-
-  推出日期： 2026年3月16日
-
-* **歷程技術詳細資料中的暫停和繼續詳細資訊** — 歷程&#x200B;**技術詳細資訊**&#x200B;現在包含額外的暫停和繼續資訊：上次暫停和繼續的日期和時間、執行每個動作之使用者的顯示名稱和內部識別碼，以及整套暫停的歷程設定，例如暫停行為、最長暫停期間和自動繼續狀態。 [了解更多](../building-journeys/journey-properties.md)
-
-  推出日期： 2026年3月2日
 
 #### 報告
 
@@ -411,13 +359,26 @@ ht-degree: 25%
 
 * **協調行銷活動中的目標維度簡化** — 您現在可以輕鬆選取或自動推斷協調行銷活動中的正確目標定位和次要維度，以實現準確、有效的受眾啟用。
 
+#### 歷程
+
+* **在歷程中傳送傳出訊息的波次** — 您現在可以排程來自Journey Optimizer歷程的訊息，以控管批次方式傳送一段期間。 [了解更多](../building-journeys/send-using-waves.md)
+
+  此功能先前以「有限可用性」發佈，以供歷程使用，現在則可用於所有環境（一般可用性）。
+
+  推出日期： 2026年3月16日
+
+* **歷程技術詳細資料中的暫停和繼續詳細資訊** — 歷程&#x200B;**技術詳細資訊**&#x200B;現在包含額外的暫停和繼續資訊：上次暫停和繼續的日期和時間、執行每個動作之使用者的顯示名稱和內部識別碼，以及整套暫停的歷程設定，例如暫停行為、最長暫停期間和自動繼續狀態。 [了解更多](../building-journeys/journey-properties.md)
+
+  推出日期： 2026年3月2日
+
+
 ## 2026年2月發行說明 {#feb-26-01-rn}
 
 [新功能](#feb-26-01-features)和[改進](#feb-26-01-improv)區段已涵蓋可用的功能。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
