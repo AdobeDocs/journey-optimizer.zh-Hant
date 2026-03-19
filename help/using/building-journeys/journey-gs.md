@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 9%
+source-wordcount: '1213'
+ht-degree: 10%
 
 ---
 
@@ -48,10 +48,11 @@ ht-degree: 9%
 
 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解設定檔如何流經歷程及歷程處理率。
 
-<!-->[!TIP]
-&#x200B;>>
-不確定要使用歷程或行銷活動？ [瞭解如何選擇正確的方法](../start/journeys-vs-campaigns.md)。
->—>
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
 ## 開始之前 {#prerequisites}
 
