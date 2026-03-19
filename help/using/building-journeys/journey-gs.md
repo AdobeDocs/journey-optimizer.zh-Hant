@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
+source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1215'
 ht-degree: 10%
 
 ---
@@ -40,13 +40,11 @@ ht-degree: 10%
 在本指南中，您將瞭解：
 
 * 定義歷程進入點 — 對象區段或即時事件
-* 跨頻道新增訊息動作（電子郵件、推播或簡訊）
+* 跨頻道新增訊息動作 — 電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗、內容卡等。 [檢視支援的管道](journey-action.md)
 * 在啟用之前使用測試設定檔測試您的歷程
 * 發佈您的歷程並監控其效能
 
-建立多步驟客戶歷程，以即時啟動跨管道的互動、優惠方案和訊息順序。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。 Target對象是根據行為、內容資料和業務事件來定義。 先決條件取決於您的使用案例和您正在建置的[歷程型別](entry-management.md#types-of-journeys)。
-
-在[本節](entry-management.md#journey-processing-rate)中進一步瞭解設定檔如何流經歷程及歷程處理率。
+建立多步驟客戶歷程，以即時啟動跨管道的互動、優惠方案和訊息順序。 此方法可確保根據客戶的動作和相關業務訊號，在最佳時刻與客戶互動。
 
 <!--
 >[!TIP]
@@ -70,11 +68,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->如果您是負責技術設定（事件、資料來源和動作）的資料工程師，請參閱[本節](../configuration/about-data-sources-events-actions.md)。
-
->[!NOTE]
+>* 如果您是負責技術設定（事件、資料來源和動作）的資料工程師，請參閱[本節](../configuration/about-data-sources-events-actions.md)。
 >
->在[此頁面](../start/guardrails.md)上詳細說明歷程護欄和限制。
+>* 在[此頁面](../start/guardrails.md)上詳細說明歷程護欄和限制。
 
 ## 建立歷程 {#jo-build}
 
@@ -88,7 +84,7 @@ ht-degree: 10%
 
    >[!TIP]
    >
-   >**我應該選擇哪個歷程型別？**&#x200B;如果您是Journey Optimizer的新手，請使用&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動，從對象歷程開始 — 不需要先前的事件設定，這是熟悉畫布的最簡單方法。 對於事件觸發的即時體驗（例如對購買或表單提交做出反應），請先設定事件並使用事件型專案。 深入瞭解[歷程型別](entry-management.md#types-of-journeys)。
+   >**我應該選擇哪個歷程型別？**&#x200B;如果您是Journey Optimizer的新手，請使用&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動，從對象歷程開始 — 不需要先前的事件設定，這是熟悉畫布的最簡單方法。 對於事件觸發的即時體驗（例如對購買或表單提交做出反應），請先設定事件並使用事件型專案。 準備好更深入了嗎？ [探索所有歷程型別及其進入規則](entry-management.md#types-of-journeys)。
 
    ![歷程屬性面板，包含設定和組態選項](assets/jo-properties.png)
 
@@ -140,19 +136,19 @@ ht-degree: 10%
   <tr style="border: 0;">
     <td>
       <a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
-        <img src="../assets/do-not-localize/icon-quick-start.svg">
+        <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
       </a>
       <div><strong>歡迎系列</strong><br/>註冊後，使用一系列訊息自動引導新使用者，引導他們瀏覽您的產品或服務。</div>
     </td>
     <td>
       <a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
-        <img src="../assets/do-not-localize/icon-campaign.svg">
+        <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
       </a>
       <div><strong>放棄購買</strong><br/>傳送包含個人化內容的即時提醒，重新與未完成購買的客戶互動。</div>
     </td>
     <td>
       <a href="jo-use-cases.md">
-        <img src="../assets/do-not-localize/icon-content.svg">
+        <img src="../assets/do-not-localize/icon-content.svg" width="35px">
       </a>
       <div><strong>重新參與</strong><br/>根據使用者最後已知的行為，以目標優惠或更新重新贏回非作用中的使用者。</div>
     </td>
@@ -166,6 +162,7 @@ ht-degree: 10%
 
 ## 其他資源
 
+* **[歷程型別和設定檔專案](entry-management.md)** — 瞭解所有歷程型別（單一事件、業務事件、讀取對象、對象資格），以及設定檔如何進入、重新進入及流經歷程。
 * **[歷程設計工具總覽](using-the-journey-designer.md)** — 掌握歷程畫布介面以設計和協調客戶歷程。
 * **[歷程活動](about-journey-activities.md)** — 探索所有可用的活動，包括事件、動作和協調流程元件。
 * **[測試歷程](testing-the-journey.md)** — 瞭解如何在發佈至生產環境之前，使用測試模式測試您的歷程。
