@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 6%
@@ -90,7 +90,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 1. 移至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 結構描述]** > **[!UICONTROL 瀏覽]**&#x200B;並選取&#x200B;**[!UICONTROL AJO次要收件者意見反應事件結構描述]**。
 
-   <!--<![](assets/preset-bcc-schema.png)-->
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. 按一下以展開&#x200B;**[!UICONTROL _experience]**、**[!UICONTROL customerJourneyManagment]**&#x200B;然後&#x200B;**[!UICONTROL secondaryRecipientDetail]**。
 
@@ -102,7 +102,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 1. 從下拉式清單中選取名稱空間。
 
-   <!--<![](assets/preset-bcc-schema-identity.png)-->
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**。
 
@@ -116,11 +116,11 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 若要透過使用者介面存取此資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
-若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 根據您要尋找的資訊，您可以執行下列查詢。
 
@@ -145,7 +145,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
    >
    >若要取得`<journey version id>`引數，請從&#x200B;**[!UICONTROL 歷程管理]** > **[!UICONTROL 歷程]**&#x200B;功能表選取對應的歷程版本。 歷程版本ID會顯示在網頁瀏覽器中顯示的URL結尾。 [進一步瞭解歷程版本](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. 執行此查詢以擷取針對特定使用者在過去2天內產生的所有訊息回饋事件（尤其是回饋狀態）：
 
@@ -229,7 +229,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 * 若要透過使用者介面存取這些資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
-* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 以下是一些您可執行的範例查詢，以擷取和密件副本相對應的資訊。
 
