@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
+source-git-commit: 6197ca7a3b2dc3d86df8262346198ca4d3a9fee2
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 18%
+source-wordcount: '1421'
+ht-degree: 16%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 在此「一般可用性」版本中，現在支援映象頁面。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
 </td>
 </tr>
@@ -224,15 +224,43 @@ ht-degree: 18%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>歷程中的資料集查詢支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程中的新活動，資料集查詢，可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用API觸發協調的行銷活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過API觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 改善 {#march-26-improv}
 
 以下列舉部分發布內容附上的改良功能。
 
 #### 歷程
-
-* **歷程中的資料集查詢支援** — 歷程中的新活動，資料集查詢，可讓您在執行階段從Adobe Experience Platform記錄資料集中動態擷取資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-  檔案JIRA工作： [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **歷程仲裁 — AI模型** — 除了排名公式外，AI模型現在還可以與歷程仲裁搭配使用，以自動為客戶排名歷程專案並排定其優先順序，使用機器學習根據歷史行為和情境訊號決定每個設定檔的最相關歷程。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
@@ -279,7 +307,7 @@ ht-degree: 18%
 * **協調行銷活動中的全域變數** — 協調行銷活動現在支援全域變數，這些變數只需定義一次，便可在工作流程內的所有活動中重複使用，可簡化設定，並確保動態值、運算式和內容個人化的一致性。
 檔案JIRA工作： [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
-* **協調行銷活動中的目標維度簡化** — 協調行銷活動中的目標維度設定已簡化，減少定義行銷活動工作流程的對象目標定位時所需的步驟和複雜性。
+* **協調行銷活動中的目標維度簡化** — 您現在可以輕鬆選取或自動推斷協調行銷活動中的正確目標定位和次要維度，以實現準確、有效的受眾啟用。
 檔案JIRA工作： [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
@@ -287,7 +315,7 @@ ht-degree: 18%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -541,7 +569,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -718,7 +746,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
