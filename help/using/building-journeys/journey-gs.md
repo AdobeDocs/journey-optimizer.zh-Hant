@@ -49,7 +49,7 @@ ht-degree: 9%
 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解設定檔如何流經歷程及歷程處理率。
 
 <!-->[!TIP]
->>
+&#x200B;>>
 不確定要使用歷程或行銷活動？ [瞭解如何選擇正確的方法](../start/journeys-vs-campaigns.md)。
 >—>
 
