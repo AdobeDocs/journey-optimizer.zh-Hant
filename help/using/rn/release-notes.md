@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0ad37aeba1bf577074382fc89c873af4c57b560
+source-git-commit: fb267a12601f728e9c70ec0fd9dbcc7d6190f878
 workflow-type: tm+mt
-source-wordcount: '3241'
-ht-degree: 26%
+source-wordcount: '3237'
+ht-degree: 25%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 26%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -195,7 +195,7 @@ ht-degree: 26%
 <p>使用新的「最佳化」節點來鎖定特定對象，或執行A/B測試，以決定符合以業務為中心的KPI的最佳途徑。
 此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。
 </p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../building-journeys/optimize.md">了解更多</a></p>
 </td>
 </tr>
 </tbody>
@@ -280,7 +280,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您現在可以在登入頁面中建立<strong>自訂表單</strong>，以收集標準選擇加入欄位以外的特定訂閱者資料。 定義您自己的表單欄位、驗證規則和提交行為，以支援更廣泛的訂閱和設定檔擴充使用案例。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../landing-pages/lp-forms.md">了解更多</a></p>
 </td>
 </tr>
 </tbody>
@@ -311,7 +311,7 @@ ht-degree: 26%
 <tr>
 <td>
 <p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../content-management/image-to-html.md">了解更多</a></p>
 </td>
 </tr>
 </tbody>
@@ -415,7 +415,7 @@ ht-degree: 26%
 
 * **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到資料夾中，讓團隊處理大量內容時可以進行結構化導覽及更輕鬆的管理。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
-* **AJO次要收件者意見事件資料集重新命名** - AJO電子郵件密件副本意見事件資料集已重新命名為AJO次要收件者意見事件資料集。 其影響會依您的情況而有所不同：
+* **AJO次要收件者意見反應事件資料集重新命名** - `AJO Email BCC Feedback Event`資料集已重新命名為`AJO Secondary Recipient Feedback Event`資料集。 其影響會依您的情況而有所不同：
 
    * **現有使用者**：只更新顯示名稱。 基礎資料表名稱保持不變。
    * **新使用者和沙箱**：顯示名稱和表格名稱都會反映新名稱。
@@ -435,7 +435,7 @@ ht-degree: 26%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
