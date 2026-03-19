@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
+source-git-commit: e0ad37aeba1bf577074382fc89c873af4c57b560
 workflow-type: tm+mt
-source-wordcount: '3247'
+source-wordcount: '3241'
 ht-degree: 26%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 26%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -415,10 +415,11 @@ ht-degree: 26%
 
 * **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到資料夾中，讓團隊處理大量內容時可以進行結構化導覽及更輕鬆的管理。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
-* **在AJO次要收件者回饋事件資料集變更** - AJO電子郵件密件副本回饋事件資料集正在重新命名為AJO次要收件者回饋事件資料集。
-   * **現有使用者**：只會變更顯示名稱。 基礎資料表名稱保持不變。
-   * **新使用者和新沙箱**：顯示名稱和表格名稱都會使用新名稱。
-   * **具有新沙箱的現有使用者/組織**：顯示名稱和表格名稱都會變更為新名稱。
+* **AJO次要收件者意見事件資料集重新命名** - AJO電子郵件密件副本意見事件資料集已重新命名為AJO次要收件者意見事件資料集。 其影響會依您的情況而有所不同：
+
+   * **現有使用者**：只更新顯示名稱。 基礎資料表名稱保持不變。
+   * **新使用者和沙箱**：顯示名稱和表格名稱都會反映新名稱。
+   * **具有新沙箱的現有使用者**：顯示名稱和表格名稱都會更新為新名稱。
 
   推出日期： 2026年3月2日
 
@@ -430,11 +431,11 @@ ht-degree: 26%
 
 ## 2026年2月發行說明 {#feb-26-01-rn}
 
-[新功能](#feb-26-01-features)和[改進](#feb-26-01-improv)區段已涵蓋可用的功能。 [即將推出](#coming-soon)區段列出排定於2月稍後發行的功能和改善。
+[新功能](#feb-26-01-features)和[改進](#feb-26-01-improv)區段已涵蓋可用的功能。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
