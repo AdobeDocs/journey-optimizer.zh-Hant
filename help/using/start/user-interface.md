@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
+source-git-commit: 0088b81d0d8a45626611dfdcf063766e2bcf50c4
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1501'
 ht-degree: 74%
 
 ---
@@ -353,3 +353,18 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_orchestration_incrementalquery_history"
 >title="歷史記錄（天）"
 >abstract="此設定控制該清單的保留時間。 0值表示無限期保留；不會移除任何記錄。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="頁面上的位置"
+>abstract="。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_app_id"
+>title="應用程式 ID"
+>abstract="。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="應用程式內的位置或路徑"
+>abstract="。"
