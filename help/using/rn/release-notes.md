@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ea7faa183f7b0a28efc81ec5132e539a960e7e05
+source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
 workflow-type: tm+mt
 source-wordcount: '3121'
 ht-degree: 27%
@@ -57,14 +57,13 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
+<th><strong>Journey Agent：建立協調的行銷活動使用案例</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>由Adobe Experience Platform Agent Orchestrator支援的<strong>Journey Agent</strong>現在可以透過自然語言介面建立完整的<strong>協調行銷活動</strong>使用案例。 以簡單的語言說明您的行銷活動目標和需求，而Journey Agent會為您設定行銷活動結構、活動和目標定位。</p>
 </td>
 </tr>
 </tbody>
@@ -73,13 +72,16 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+<th><strong>Journey Agent：頻道內容建立</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新的<strong>增量查詢</strong>活動現在可在協調的行銷活動中使用。 此活動僅查詢自上次工作流程執行以來的新記錄或更新記錄，大幅減少處理時間並改善以大型資料集為目標的重複行銷活動的效率。</p>
+<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
+<p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
 </tbody>
@@ -103,6 +105,36 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
+<th><strong>使用API觸發協調的行銷活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過API觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新的<strong>增量查詢</strong>活動現在可在協調的行銷活動中使用。 此活動僅查詢自上次工作流程執行以來的新記錄或更新記錄，大幅減少處理時間並改善以大型資料集為目標的重複行銷活動的效率。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>在協調的行銷活動中測試活動</strong><br/></th>
 </tr>
 </thead>
@@ -110,37 +142,6 @@ ht-degree: 27%
 <tr>
 <td>
 <p>新的<strong>測試</strong>活動現在可在協調的行銷活動中使用。 此活動會根據定義的條件，將工作流程執行路由至不同的分支，讓您在啟用即時傳遞之前，先驗證行銷活動邏輯和設定。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>登陸頁面中的自訂表單</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在登入頁面中建立<strong>自訂表單</strong>，以收集標準選擇加入欄位以外的特定訂閱者資料。 定義您自己的表單欄位、驗證規則和提交行為，以支援更廣泛的訂閱和設定檔擴充使用案例。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent：建立協調的行銷活動使用案例</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>由Adobe Experience Platform Agent Orchestrator支援的<strong>Journey Agent</strong>現在可以透過自然語言介面建立完整的<strong>協調行銷活動</strong>使用案例。 以簡單的語言說明您的行銷活動目標和需求，而Journey Agent會為您設定行銷活動結構、活動和目標定位。</p>
 </td>
 </tr>
 </tbody>
@@ -165,30 +166,13 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件頻道中的決策支援</strong><br/></th>
+<th><strong>歷程中的資料集查詢支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 在此「一般可用性」版本中，現在支援映象頁面。</p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>訊息收件匣</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
+<p>歷程中的新活動，資料集查詢，可讓您在執行階段動態擷取Adobe Experience Platform記錄資料集中的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -212,47 +196,15 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>歷程中的資料集查詢支援</strong><br/></th>
+<th><strong>電子郵件頻道中的決策支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程中的新活動，資料集查詢，可讓您在執行階段動態擷取Adobe Experience Platform記錄資料集中的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>使用API觸發協調的行銷活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以透過API觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件範本的高階HTML編輯器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>電子郵件內容範本的進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。</p>
-<p>此功能僅適用於電子郵件通道的內容範本。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。</p>
-<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/email-template-expert-mode.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年3月10日</p>
+<p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
+<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 在此「一般可用性」版本中，現在支援映象頁面。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -280,16 +232,14 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent：頻道內容建立</strong><br/></th>
+<th><strong>登陸頁面中的自訂表單</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
-<p>推出日期： 2026年3月4日</p>
+<p>您現在可以在登入頁面中建立<strong>自訂表單</strong>，以收集標準選擇加入欄位以外的特定訂閱者資料。 定義您自己的表單欄位、驗證規則和提交行為，以支援更廣泛的訂閱和設定檔擴充使用案例。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 </td>
 </tr>
 </tbody>
@@ -298,16 +248,48 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
-<th><strong>iOS的已上線活動</strong><br/></th>
+<th><strong>訊息收件匣</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過Adobe Journey Optimizer中的iOS即時活動，直接將即時體驗帶入客戶的「鎖定Screens」和「動態島嶼」 。 提供即時更新，從訂單追蹤和航班狀態到事件倒計時、即時分數和傳送進度，而不需要使用者開啟您的應用程式。 讓您的對象保持知情並在正確的時間參與，就在他們所在的位置。</p>
-<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
-<p>如需詳細資訊，請參閱<a href="../mobile-live/get-started-mobile-live.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年3月3日</p>
+<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件範本的高階HTML編輯器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件內容範本的進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。</p>
+<p>此功能僅適用於電子郵件通道的內容範本。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。</p>
+<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/email-template-expert-mode.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年3月10日</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +309,24 @@ ht-degree: 27%
 <ul><li> <strong>Adobe模型</strong> （由Firefly Image Model 4提供技術支援）可立即產生影像，無需額外設定</li><li> <strong>合作夥伴機型</strong> （由Gemini 2.5 Flash提供），提供專門的功能</li><li><strong>自訂模型</strong> （在您自己的資產上訓練的品牌特定模型），用於品牌上產生，完全符合您的品牌識別、風格和視覺准則。</li></ul>
 <p>如需詳細資訊，請參閱<a href="../content-management/generative-models.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月2日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>iOS的已上線活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過Adobe Journey Optimizer中的iOS即時活動，直接將即時體驗帶入客戶的「鎖定Screens」和「動態島嶼」 。 提供即時更新，從訂單追蹤和航班狀態到事件倒計時、即時分數和傳送進度，而不需要使用者開啟您的應用程式。 讓您的對象保持知情並在正確的時間參與，就在他們所在的位置。</p>
+<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile-live/get-started-mobile-live.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年3月3日</p>
 </td>
 </tr>
 </tbody>
@@ -395,7 +395,7 @@ ht-degree: 27%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
