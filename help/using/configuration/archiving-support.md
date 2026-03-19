@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 
 ### GDPR法規遵循 {#gdpr-compliance}
 
-GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透過Journey Optimizer傳送的密件副本電子郵件包含安全識別的個人資訊(PII)，因此您必須編輯&#x200B;**[!UICONTROL CJM電子郵件BCC回饋事件結構]**，才能管理這些PII，以符合GDPR和類似法規。
+GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透過Journey Optimizer傳送的密件副本電子郵件包含安全識別的個人資訊(PII)，因此您必須編輯&#x200B;**[!UICONTROL AJO次要收件者回饋事件結構]**，才能管理這些PII，以符合GDPR和類似法規。
 
 請依照下列步驟以執行此操作。
 
-1. 移至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 結構描述]** > **[!UICONTROL 瀏覽]**&#x200B;並選取&#x200B;**[!UICONTROL CJM電子郵件BCC回饋事件結構描述]**。
+1. 移至&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 結構描述]** > **[!UICONTROL 瀏覽]**&#x200B;並選取&#x200B;**[!UICONTROL AJO次要收件者意見反應事件結構描述]**。
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,13 +112,13 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 ### 密件副本報表資料 {#bcc-reporting}
 
-歷程和訊息報表中沒有密件副本的相關報表。 不過，資訊會儲存在名為&#x200B;**[!UICONTROL AJO密件副本意見事件資料集]**&#x200B;的系統資料集上。 您可以針對此資料集執行查詢，以尋找有用的偵錯資訊。
+歷程和訊息報表中沒有密件副本的相關報表。 不過，資訊會儲存在名為&#x200B;**[!UICONTROL AJO次要收件者意見反應事件資料集]**&#x200B;的系統資料集上。 您可以針對此資料集執行查詢，以尋找有用的偵錯資訊。
 
 若要透過使用者介面存取此資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -225,11 +225,11 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 每封電子郵件現在都包含一個名為`x-message-profile-id`的標題。 每個設定檔的此標題值不同：對於每個已傳送的電子郵件及其對應的密件副本而言，都是唯一值。
 
-`x-message-profile-id`標頭也儲存在下列系統資料集中： [AJO訊息回饋事件資料集](../data/datasets-query-examples.md#message-feedback-event-dataset) （已傳送電子郵件）和[AJO密件副本回饋事件資料集](#bcc-reporting) （密件副本副本）。 您可以查詢這些資料集，以協調密件副本和對應的實際電子郵件。
+`x-message-profile-id`標頭也儲存在下列系統資料集中： [AJO訊息回饋事件資料集](../data/datasets-query-examples.md#message-feedback-event-dataset) （已傳送電子郵件）和[AJO次要收件者回饋事件資料集](#bcc-reporting) （密件副本）。 您可以查詢這些資料集，以協調密件副本和對應的實際電子郵件。
 
 * 若要透過使用者介面存取這些資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
-* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 以下是一些您可執行的範例查詢，以擷取和密件副本相對應的資訊。
 
