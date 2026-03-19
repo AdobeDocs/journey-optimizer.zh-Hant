@@ -5,9 +5,9 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
+source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1458'
 ht-degree: 43%
 
 ---
@@ -70,6 +70,11 @@ UNUSED IDs in BJ
 >協調的行銷活動僅支援SMS、推播、電子郵件和直接郵件頻道。
 
 ## 新增頻道活動，定義屬性 {#add}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_category"
+>title="Target"
+>abstract="類別欄位的預留位置"
 
 >[!PREREQUISITES]
 >
