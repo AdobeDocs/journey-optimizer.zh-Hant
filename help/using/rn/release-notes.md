@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 27%
+source-wordcount: '3247'
+ht-degree: 26%
 
 ---
 
@@ -80,8 +80,24 @@ ht-degree: 27%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程仲裁 — AI模型</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在排名公式中使用AI模型，以根據客戶設定檔屬性和情境因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ ht-degree: 27%
 <table>
 <thead>
 <tr>
+<th><strong>URL引數加密</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>追蹤連結和登入頁面中的URL引數現在可以加密，為敏感引數資料提供額外的安全層。</p>
+<ul>
+<li>在專用的<strong>管理</strong>登入中登入及管理加密金鑰。</li>
+<li>使用運算式中新的加密協助程式，針對您要在轉譯時保護的查詢引數，加密追蹤連結和登陸頁面URL中的敏感資料。</li>
+</ul>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>歷程路徑最佳化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>歷程路徑最佳化</strong>使用人工智慧來分析歷史歷程績效，並自動為每個客戶選取最佳路徑，以最大化轉換和參與結果。</p>
+<p>使用新的「最佳化」節點來鎖定特定對象，或執行A/B測試，以決定符合以業務為中心的KPI的最佳途徑。
+此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。
+</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ ht-degree: 27%
 <tbody>
 <tr>
 <td>
-<p>繼2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道動作活動（電子郵件、簡訊、推播、應用程式內等）現已棄用。 使用舊版管道活動的現有歷程仍可繼續運作，無需任何變更或移轉。 如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
+<p>在2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）現已棄用。</p>
+<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。</p>
+使用舊版管道活動的現有歷程將繼續正常運作，不會進行任何變更或需要進行移轉。
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ ht-degree: 27%
 
 #### 歷程
 
-* **歷程仲裁 — AI模型** — 除了排名公式外，AI模型現在還可以與歷程仲裁搭配使用，以自動為客戶排名歷程專案並排定其優先順序，使用機器學習根據歷史行為和情境訊號決定每個設定檔的最相關歷程。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
-
 * **在歷程中傳送傳出訊息的波次** — 您現在可以排程來自Journey Optimizer歷程的訊息，以控管批次方式傳送一段期間。 [了解更多](../building-journeys/send-using-waves.md)
 
   此功能先前以「有限可用性」發佈，以供歷程使用，現在則可用於所有環境（一般可用性）。
@@ -362,17 +401,17 @@ ht-degree: 27%
 
 * **電子郵件Designer顯示在Unified Shell中** — 電子郵件Designer現在顯示在Unified Shell體驗中，提供與其他Adobe應用程式一致的一致導覽和標題體驗。
 
-* **片段中的文字模式支援** — 片段現在支援文字模式編輯，可讓您建立和管理內容片段的純文字版本，以用於文字型電子郵件工作流程和多通道案例。
+* **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。
+
+  **警告：**&#x200B;使用目前版本之前建立的片段時，片段文字版本可能會錯誤轉譯，包括在Designer電子郵件和傳送給收件者的最終電子郵件中。 為了對較舊的片段產生最佳結果，請編輯、儲存並重新發佈每個片段。
 
 #### 決策
 
-* **Edge Decisioning中的運算式片段參考變更摘要支援** — 此增強功能可讓片段參考的變更自動反映在參考片段的所有專案中，而不需要手動重新整理任何專案（重新發佈行銷活動或決定原則）。
+* **Edge Decisioning中的運算式片段參考變更摘要** — 此增強功能可讓片段參考的變更自動反映在參考片段的所有專案中，而不需要手動重新整理任何專案（重新發佈行銷活動或決定原則）。
 
-* **決定專案中的選用片段** — 附加至決定專案的片段現在可設定為選用，當並非所有決定專案呈現都需要特定片段時，可在內容構成中提供更大的彈性。
+* **決策專案中的選用片段** — 在決策專案中使用片段時，您現在可以將片段設為選用，如此一來，如果Edge上暫時無法使用該片段，則會略過該片段，而歷程或行銷活動會繼續呈現，而非失敗。
 
 #### 設定
-
-* **URL引數加密** — 追蹤連結和登入頁面中的URL引數現在可以加密，為敏感引數資料提供額外的安全層。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 * **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到資料夾中，讓團隊處理大量內容時可以進行結構化導覽及更輕鬆的管理。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
@@ -395,7 +434,7 @@ ht-degree: 27%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
