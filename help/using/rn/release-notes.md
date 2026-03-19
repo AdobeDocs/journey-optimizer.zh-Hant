@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fce84d7b9ee636cec68c8fcbde8eeb88d19cacab
+source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
 workflow-type: tm+mt
-source-wordcount: '3183'
+source-wordcount: '3136'
 ht-degree: 25%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 25%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -381,8 +381,6 @@ ht-degree: 25%
 
 #### 電子郵件設計工具
 
-* **使用Dynamic Media (Beta)的開啟時間個人化** — 您現在可以使用Adobe Dynamic Media資產，在開啟時間個人化電子郵件內容，啟用即時、收件者特定的影像和視覺效果，這些影像和視覺效果會根據每個收件者在開啟電子郵件時的屬性動態產生。 此功能目前在Beta中。
-
 * **電子郵件Designer顯示在Unified Shell中** — 電子郵件Designer現在顯示在Unified Shell體驗中，提供與其他Adobe應用程式一致的一致導覽和標題體驗。
 
 * **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。
@@ -419,7 +417,7 @@ ht-degree: 25%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
