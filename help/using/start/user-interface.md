@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
+source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 82%
+source-wordcount: '1490'
+ht-degree: 74%
 
 ---
 
@@ -338,3 +338,18 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="標頭參數"
 >abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery"
+>title="增量查詢"
+>abstract="增量查詢是一種目標定位活動，每當協調的行銷活動執行時，就會執行資料庫查詢。 它只會傳回新記錄，並排除先前執行中已包含的任何人，因此您可以避免重新鎖定相同人員或重新匯出相同列。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_processeddata"
+>title="已處理的資料"
+>abstract="在處理資料底下，選擇如何排除先前執行中的記錄。 透過排除先前執行的結果，活動會保留先前執行中傳回的記錄清單；每次執行都會排除這些記錄，並只傳回新記錄。 透過使用日期欄位選項，活動使用所選的日期欄位而不是追蹤個別ID，並且每次執行只傳回日期在最後一次執行之後的列。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_history"
+>title="歷史記錄（天）"
+>abstract="此設定控制該清單的保留時間。 0值表示無限期保留；不會移除任何記錄。"
