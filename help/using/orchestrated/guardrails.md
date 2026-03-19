@@ -5,9 +5,9 @@ title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 1%
 
 * 每個結構描述&#x200B;**的平均屬性數目不應超過50個資料行**，以維持管理性和效能。
 
-* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以啟用用於協調的行銷活動或動作行銷活動。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以啟用用於協調的行銷活動或動作行銷活動。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### 資料攝取
+### 資料擷取 {#data-ingestion}
 
 * 需要設定檔+關聯式資料擷取。
 
 * 所有內嵌必須透過&#x200B;**變更資料擷取**&#x200B;來源進行：
 
-   * **以檔案為基礎的**： `_change_request_type`欄位為必填。 支援的值是`U` （更新插入）或`D` （刪除）。
+   * **以檔案為基礎的**： `_change_request_type`欄位為必填。 支援的值是`u` （更新插入）或`d` （刪除）。 這些值必須為小寫`u`和`d`，而非大寫`U`和`D`。
 
    * 對於&#x200B;**雲端型**：必須啟用資料表記錄。
 
