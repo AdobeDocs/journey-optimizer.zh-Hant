@@ -5,9 +5,9 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 39e442d69296298cf6edb386fb5775a47b69f8cc
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1453'
 ht-degree: 43%
 
 ---
@@ -29,6 +29,11 @@ ht-degree: 43%
 >id="ajo_orchestration_push"
 >title="推播活動"
 >abstract="推播活動讓您能在協調的行銷活動當中傳送推播。推播活動可以傳送單次和定期之協調的行銷活動訊息，自動傳送推播至相同協調的行銷活動內預先定義的目標。您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_target"
+>title="Target"
+>abstract="Target區段的預留位置"
 
 <!--
 UNUSED IDs in BJ
