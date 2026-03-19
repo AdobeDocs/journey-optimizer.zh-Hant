@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 匯出，訊息， HIPAA，電子郵件，簡訊，設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 12%
+source-wordcount: '701'
+ht-degree: 11%
 
 ---
 
@@ -52,15 +52,17 @@ ht-degree: 12%
 
 ### 設定匯出資料流 {#set-up-export-dataflow}
 
-您必須先定義[!DNL Experience Platform]目的地和將要使用的資料集，以設定匯出程式，才能匯出您的資料。 請遵循下列步驟。
+在能夠匯出資料之前，請先定義[!DNL Experience Platform]目的地和資料集匯出流程，以設定匯出程式。
+
+如需詳細步驟、支援的雲端目的地、必要許可權和詳細資訊，請參閱[本節](../data/export-datasets.md#export-datasets)。
 
 >[!NOTE]
 >
 >必須針對每個沙箱設定此設定。
 
-1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
+1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
 
-1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用下列資料建立資料集匯出流程：
 

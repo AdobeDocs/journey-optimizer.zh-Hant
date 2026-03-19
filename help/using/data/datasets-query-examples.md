@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [推播追蹤體驗事件資料集](#push-tracking-experience-event-dataset)
 * [歷程步驟事件](#journey-step-event)
 * [決策事件資料集](#ode-decisionevents)
-* [密件副本意見事件資料集](#bcc-feedback-event-dataset)
+* [次要收件者回饋事件資料集（密件副本）](#bcc-feedback-event-dataset)
 * [實體資料集](#entity-dataset)
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## 密件副本意見事件資料集{#bcc-feedback-event-dataset}
+## 次要收件者回饋事件資料集（密件副本）{#bcc-feedback-event-dataset}
 
-_介面中的名稱： AJO密件副本意見事件資料集（系統資料集）_
+_介面中的名稱： AJO次要收件者意見反應事件資料集（系統資料集）。 在查詢服務中，資料集資料表可能仍命名為`ajo_bcc_feedback_event_dataset`._
 
-儲存密件副本訊息資訊的資料集。
+已啟用密件副本封存時電子郵件密件副本（次要收件者）訊息的資料集。
 
 查詢2天內所有密件副本訊息（針對特定行銷活動）：
 
