@@ -1,21 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 反複運算內容資料
+title: 反覆處理內容資料
 description: 瞭解如何使用Handlebars語法，從各種內容來源反複處理陣列
 feature: Personalization
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
 
-# 反複運算內容資料 {#personalization-contexts}
+# 反覆處理內容資料 {#personalization-contexts}
 
 瞭解如何使用Handlebars反複運算語法來顯示訊息中各種來源的動態資料清單，包括事件、自訂動作回應和其他內容資料。
 
@@ -68,9 +69,19 @@ context.journey.events.<event_ID>.<fieldPath>
 * `<event_ID>`：您在歷程中設定的事件唯一ID
 * `<fieldPath>`：事件結構描述中欄位或陣列的路徑
 
+>[!NOTE]
+>
+>**數值事件ID需要反引號。**&#x200B;如果您的事件識別碼是數字（例如`1697323153`），請在運算式路徑中以反引號(`` ` ``)將其換行。 若沒有反引號，PQL剖析器會引發語法錯誤。
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>如需詳細資訊和完整的範例，包括事件時間戳記的日期格式，請參閱[從內容事件格式化時間戳記](../personalization/functions/dates.md#format-date)。
+
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -607,7 +618,7 @@ serializeList(
 
 #### 傳遞物件陣列至自訂動作
 
-**使用案例**：傳送要求內文中的完整物件陣列(針對POST或具有內文的GET)。
+**使用案例**：傳送要求內文中的完整物件陣列（針對POST或具有內文的GET）。
 
 +++ 檢視範常式式碼
 
@@ -1033,13 +1044,12 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 ## 相關主題 {#related-topics}
 
-**Personalization基本知識：** [開始使用個人化](personalize.md) | [新增個人化](personalization-build-expressions.md) | [Personalization語法](personalization-syntax.md) | [輔助函式](functions/helpers.md) | [建立條件式規則](create-conditions.md)
+**Personalization基本知識：** [開始使用個人化](personalize.md) | [新增個人化](personalization-build-expressions.md) | [Personalization語法](personalization-syntax.md) | [協助程式函式](functions/helpers.md) | [建立條件式規則](create-conditions.md)
 
-**歷程組態：** [關於事件](../event/about-events.md) | [設定自訂動作](../action/about-custom-action-configuration.md) | [將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection) | [在自訂動作中使用API呼叫回應](../action/action-response.md) | [疑難排解您的自訂動作](../action/troubleshoot-custom-action.md) | [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md) | [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md) | [護欄和限制](../start/guardrails.md) | [測試您的歷程](../building-journeys/testing-the-journey.md)
+**歷程設定：** [關於事件](../event/about-events.md) | [設定自訂動作](../action/about-custom-action-configuration.md) | [將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection) | [在自訂動作中使用API呼叫回應](../action/action-response.md) | [疑難排解您的自訂動作](../action/troubleshoot-custom-action.md) | [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md) | [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md) | [護欄和限制](../start/guardrails.md) | [測試您的歷程](../building-journeys/testing-the-journey.md)
 
-**歷程運算式函式：** [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md) | [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個） | [列出函式](../building-journeys/functions/list-functions.md) （serializeList、篩選、排序） | [陣列函式](../personalization/functions/arrays-list.md) （頭、尾）
+**歷程運算式函式：** [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md) | [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個） | [清單函式](../building-journeys/functions/list-functions.md) （serializeList、篩選器、排序） | [陣列函式](../personalization/functions/arrays-list.md) （標題、尾部）
 
 **Personalization使用案例：** [購物車放棄電子郵件](personalization-use-case-helper-functions.md) | [訂單狀態通知](personalization-use-case.md)
 
-**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽和測試您的內容](../content-management/preview-test.md)
-
+**訊息設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽及測試您的內容](../content-management/preview-test.md)

@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 13%
    * 金鑰可以是衍生自歷程內容的運算式，例如SKU、電子郵件ID或其他識別碼。 範例： `@profile.email`或`list(@event{purchase_event.products.sku})`。
 
    * 只支援&#x200B;**字串**&#x200B;或&#x200B;**字串清單**。
+
+   >[!IMPORTANT]
+   >
+   >您必須使用&#x200B;**進階模式**&#x200B;來定義查詢索引鍵。 如果您使用簡單模式設定索引鍵，資料集查詢活動輸出將無法作為下游活動中的內容屬性，且`@datasetLookup{}`語法會失敗，並在條件活動中出現「找不到資料集查詢」錯誤。
 
    +++範例
 
@@ -191,3 +195,15 @@ ht-degree: 13%
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## 疑難排解 {#troubleshooting}
+
+### 條件活動中的「找不到資料集查詢」錯誤 {#troubleshooting-not-found}
+
+**症狀：**&#x200B;條件活動的進階運算式編輯器中的`@datasetLookup{}`語法傳回「找不到資料集查詢」錯誤，即使已在歷程中正確設定資料集查詢活動。
+
+**原因：**&#x200B;資料集查詢活動中的查詢索引鍵是使用簡單模式設定的。 如果未在進階模式中定義索引鍵，則下游活動中不會將活動輸出公開為內容屬性。
+
+**修正：**&#x200B;開啟資料集查閱活動，找到&#x200B;**[!UICONTROL 查閱索引鍵]**&#x200B;欄位，然後切換至&#x200B;**進階模式**&#x200B;以重新定義索引鍵運算式。 儲存活動並重新發佈歷程。

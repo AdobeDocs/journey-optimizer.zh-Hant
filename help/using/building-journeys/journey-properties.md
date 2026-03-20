@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -170,7 +170,7 @@ ht-degree: 14%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -215,7 +215,7 @@ ht-degree: 14%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -272,6 +272,22 @@ ht-degree: 14%
     </td>
     <td>
       <p>設定檔的TTL為91天，符合新重新發佈的歷程版本的TTL。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91天後，我永不中斷的週期性讀取對象歷程會停止嗎？</p>
+    </td>
+    <td>
+      <p>不可以。 只要循環讀取對象歷程已發佈，沒有結束日期，就會維持<strong>即時</strong>。 它只會在執行<strong>最後一次發生</strong>後的91天內，移至<strong>已完成</strong>狀態。 91天全域逾時適用於流經歷程的個別設定檔（每個設定檔的最大作用期間），而不是歷程的即時狀態。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91天歷程逾時和91天報告期間之間有何差異？</p>
+    </td>
+    <td>
+      <p>以下是兩個不同的概念。 <strong>歷程全域逾時</strong> （91天）是個別設定檔在歷程中保持作用中狀態的最長時間–91天後，設定檔會退出並刪除其資料。 <strong>報告期間</strong> （大約91天）是UI中的顯示限制：超過~91天的效能資料不會再顯示在報告中，但歷程本身會繼續執行，而新設定檔會繼續進入。</p>
     </td>
   </tr>
 </table>

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -483,6 +483,29 @@ The following operation gets all the values for the map `identityMap`.
 輸出： `sun`、`mon`、`tue`等
 
 +++
+
++++從內容事件格式化時間戳記
+
+使用歷程事件內容屬性的時間戳記時，需符合兩個要求：
+
+* **以`toDateTime()`**&#x200B;包裝時間戳記 — 內容事件時間戳記不會被`formatDate()`自動識別為日期時間值。
+* **以反引號括住數值事件ID** — 如果您的事件ID是數字（例如`1697323153`），必須在運算式路徑中以反引號逸出，否則編輯器會引發PQL語法錯誤。
+* **使用`{% let %}`指派語法** — 內嵌`{%= %}`語法不支援此模式。 先將結果指派給變數，然後使用`{{varName}}`轉譯它。
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+輸出（範例）： `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**常見錯誤：「不相符的輸入&#39;(&#39;必須是\&lt;EOF\>&quot;**」
+>
+>使用內嵌內容事件時間戳記(`formatDate()`)的`{%= formatDate(...) %}`時，會發生此PQL語法錯誤。 最常見的原因是未以反引號(`` ` ``)包裝的數值事件ID，或直接傳遞給`formatDate()`的時間戳記欄位（未先以`toDateTime()`包裝）。 若要修正這兩個問題，請使用上述範例中顯示的`{% let %}`指派模式。
 
 ### 圖樣字元 {#pattern-characters}
 
