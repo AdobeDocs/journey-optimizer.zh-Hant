@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: 字串，函式，運算式，歷程，文字，操控
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 15%
 
 ---
@@ -320,6 +321,10 @@ ht-degree: 15%
 
 傳回false。
 
+`isEmpty(<null>)`
+
+傳回false。
+
 +++
 
 ## isNotEmpty {#isNotEmpty}
@@ -543,7 +548,7 @@ ht-degree: 15%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基底 | 字串 |
-| 目標 | 字串(RegExp) |
+| Target | 字串(RegExp) |
 | 取代 | 字串 |
 
 +++
@@ -601,7 +606,7 @@ ht-degree: 15%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基底 | 字串 |
-| 目標 | 字串(RegExp) |
+| Target | 字串(RegExp) |
 | 取代 | 字串 |
 
 +++
@@ -872,4 +877,3 @@ ht-degree: 15%
 傳回「79e70b7f-8a85-400b-97a1-9f9826121553」。
 
 +++
-
