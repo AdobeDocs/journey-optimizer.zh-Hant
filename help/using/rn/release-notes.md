@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0563bf02ecdd0229cc24e9d463af9c496faaa0a2
+source-git-commit: 65d9eddd6ca99046cb711be80fe3eaa4791b14ad
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '2991'
 ht-degree: 26%
 
 ---
@@ -191,13 +191,13 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>訊息收件匣</strong><br/></th>
+<th><strong>收件匣</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在提供新的<strong>訊息收件匣</strong>，以集中檢視收到的應用程式內訊息、推播訊息和簡訊。 收件者可以在一個位置存取及互動所有訊息，實現更豐富的參與及重新參與情境。</p>
+<p>新的<strong>收件匣</strong>是隨附於「內容卡」的行動功能，可讓客戶在應用程式或網站中建立集中位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
 <p>推出日期： 2026年3月31日</p>
 </td>
 </tr>
@@ -271,7 +271,7 @@ ht-degree: 26%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -360,7 +360,7 @@ ht-degree: 26%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
