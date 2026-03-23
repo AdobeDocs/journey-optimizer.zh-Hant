@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 31%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 31%
 
 ➡️ [在影片中探索此功能](#video)
 
-**即時客戶設定檔{&#x200B;1} — 將來自線上、離線和假名的客戶屬性和事件整合到單一整合的設定檔中。&#x200B;URL**&#x200B;使用設定檔以跨多個接觸點提供個人化即時體驗來吸引客戶。&#x200B;URL
+**即時客戶設定檔{&#x200B;1} — 將來自線上、離線和假名的客戶屬性和事件整合到單一、統一的設定檔中。&#x200B;**&#x200B;使用設定檔以跨多個接觸點的個人化即時體驗吸引客戶&#x200B;。
 
-**資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。
+**資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。 設定檔不會直接在[!DNL Journey Optimizer]介面中建立 — 系統會在擷取資料時，在Adobe Experience Platform中自動建立或更新設定檔。
 
 >[!NOTE]
 >
 >擷取資料時，電子郵件區分大小寫。這意味著可能會建立重複的輪廓 (例如，John.Greene@luma.com 是一個輪廓、john.greene@luma.com 是另一個輪廓)，並在您的 [!DNL Journey Optimizer] 歷程和行銷活動中定位對應的收件者時使用。
 
-**身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID。&#x200B;URL透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視。&#x200B;URL
+**身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID&#x200B;。透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視&#x200B;。
 
-**客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。&#x200B;URL跨各種管道與客戶互動，包括行銷活動、客戶支援和交易更新。&#x200B;URL
+**客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息&#x200B;。跨多種管道與客戶互動，包括行銷活動、客戶支援和交易更新&#x200B;。
 
 **資料共用** — 與Amazon Web Services、Microsoft Azure和Google Cloud等頂級雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
 
@@ -40,7 +40,7 @@ ht-degree: 31%
 >
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 
