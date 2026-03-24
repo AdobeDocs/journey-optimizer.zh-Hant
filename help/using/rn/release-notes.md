@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0f8d08a14de84671706aed4f496dda3a5ba2ec8
+source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 27%
+source-wordcount: '2839'
+ht-degree: 28%
 
 ---
 
@@ -271,7 +271,7 @@ ht-degree: 27%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -319,8 +319,6 @@ ht-degree: 27%
 
 #### 決策
 
-* **Edge Decisioning中的運算式片段參考變更摘要** — 此增強功能可讓片段參考的變更自動反映在參考片段的所有專案中，而不需要手動重新整理任何專案（重新發佈行銷活動或決定原則）。
-
 * **決策專案中的選用片段** — 在決策專案中使用片段時，您現在可以將片段設為選用，如此一來，如果Edge上暫時無法使用該片段，則會略過該片段，而歷程或行銷活動會繼續呈現，而非失敗。
 
 #### 設定
@@ -360,7 +358,7 @@ ht-degree: 27%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
