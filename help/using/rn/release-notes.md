@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
+source-git-commit: c532c259538a3ce007621ae7e9f17a73623ea70d
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 28%
+source-wordcount: '2974'
+ht-degree: 27%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 28%
 <table>
 <thead>
 <tr>
-<th><strong>協調行銷活動中的交易式訊息</strong><br/></th>
+<th><strong>異動協調的行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>協調的行銷活動現在支援<strong>交易式訊息</strong>，讓您能夠直接在行銷活動工作流程中觸發即時、事件導向的訊息，例如訂單確認、預訂通知和帳戶更新。</p>
+<p>現在可以將協調的行銷活動指定為<strong>異動</strong>。 這允許傳遞由個人執行的特定動作觸發的交易式訊息，例如密碼重設請求或購物車購買。 透過指派此類別，會套用異動管道設定，並略過商業規則。</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +116,9 @@ ht-degree: 28%
 <p>使用新的「最佳化」節點來鎖定特定對象，或執行A/B測試，以決定符合以業務為中心的KPI的最佳途徑。
 此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。
 </p>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../building-journeys/optimize.md">了解更多</a></p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>此版本透過一般可用性，引入<strong>實驗型別</strong>選擇（A/B或多臂吃角子老虎機）和<strong>縮放單一歷程的獲勝者</strong>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/optimize.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -147,8 +149,8 @@ ht-degree: 28%
 <tr>
 <td>
 <p>在2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）現已棄用。</p>
-<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。</p>
-使用舊版管道活動的現有歷程將繼續正常運作，不會進行任何變更或需要進行移轉。
+<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。
+使用舊版管道活動的現有歷程將繼續正常運作，不會進行任何變更或需要進行移轉。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
 </td>
 </tr>
@@ -271,7 +273,7 @@ ht-degree: 28%
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -305,10 +307,11 @@ ht-degree: 28%
 
 #### 報告
 
-* **排除電子郵件和簡訊報告的機器人點按** — 電子郵件和簡訊報告現在會自動從點按量度中篩選出機器人點按，提供更精確的參與資料，並防止自動流量誇大您的效能數字。
-
 * **傳送時間最佳化：更新的控制項位置和新的提升度報告** — 傳送時間最佳化(STO)控制項已重新放置到[動作]設定功能表。 此外，歷程報表現在提供新的提升度報表，以測量STO對行銷活動效能量度的影響。
+
 <!--
+* **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
+
 #### Email Designer
 
 * **Email Designer displayed in Unified Shell** - The Email Designer is now displayed within the Unified Shell experience, providing a consistent navigation and header experience that aligns with other Adobe applications.
@@ -341,6 +344,12 @@ ht-degree: 28%
 
 #### 歷程
 
+* **實驗型別** — 您現在可以在設定路徑實驗時選擇A/B實驗（開始時固定分割）或多臂吃角子老虎機（每週更新權重的自動分割）。
+
+* **路徑實驗：縮放成功者** — 您現在可以自動或手動將實驗的成功路徑轉出給完整受眾。 一旦確定獲勝者，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
+
+  此功能僅適用於單一歷程（事件觸發和受眾資格）。 它不適用於讀取對象歷程。
+
 * **在歷程中傳送傳出訊息的波次** — 您現在可以排程來自Journey Optimizer歷程的訊息，以控管批次方式傳送一段期間。 [了解更多](../building-journeys/send-using-waves.md)
 
   此功能先前以「有限可用性」發佈，以供歷程使用，現在則可用於所有環境（一般可用性）。
@@ -358,7 +367,7 @@ ht-degree: 28%
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -583,6 +592,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
+* **程式碼型體驗管道中的決策預覽** — 您現在可以在使用程式碼型體驗管道設定決策時預覽決策專案。 上線之前，可以直接在編寫介面中使用預覽。 [閱讀全文](../code-based/test-code-based.md#preview-code-based)
+
+  推出日期： 2026年2月18日
 
 * **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。[閱讀全文](../experience-decisioning/fragments-decision-policies.md)
 
@@ -607,11 +619,5 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <!--## Coming soon {#coming-soon}
 
 The features and improvements below are planned for release later in February. Release dates and scope may change without prior notice.
-
-### Improvements {#coming-soon-improv}
-
-* **Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
-
-  Availability date: February 18, 2026
 -->
 
