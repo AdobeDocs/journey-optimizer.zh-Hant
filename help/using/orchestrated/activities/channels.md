@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 44df78b89def6c4bd9a0070a627bfbd79ae66587
+source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 43%
+source-wordcount: '1517'
+ht-degree: 41%
 
 ---
 
@@ -73,8 +73,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
->title="Target"
->abstract="類別欄位的預留位置"
+>title="類別"
+>abstract="選擇此管道活動的行銷或異動。 行銷訊息使用行銷管道設定，並遵循您的標準商業規則。 異動訊息是用於營運通訊 — 通常由個人的動作觸發（例如密碼重設或購買確認），或用於時效性高的通知，例如中斷或取消。 這類使用者使用異動通道設定，會略過商業規則，而且不需要選擇加入。"
 
 >[!PREREQUISITES]
 >
