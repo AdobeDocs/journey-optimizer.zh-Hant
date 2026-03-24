@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 21%
+source-wordcount: '684'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -105,4 +105,4 @@ ht-degree: 21%
 
 瞭解Adobe Journey Optimizer中的決策功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475874?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

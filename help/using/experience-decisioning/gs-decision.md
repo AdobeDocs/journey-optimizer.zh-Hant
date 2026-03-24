@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 26%
+source-wordcount: '344'
+ht-degree: 30%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 26%
 * 更新決定原則和選擇策略設定：允許決定元件重複使用
 * 實驗功能：針對其他內容元件測試決策邏輯以測量效能
 
-**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;管道的所有客戶都可以使用決策。 **電子郵件**&#x200B;管道的決策功能在「有限可用性」中提供。 若要請求存取電子郵件決策，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;管道的所有客戶都可以使用決策。 **電子郵件**&#x200B;管道的決策功能在「有限可用性」中提供。 若要請求存取電子郵件決策，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ➡️ [開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
 

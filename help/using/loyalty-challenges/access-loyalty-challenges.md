@@ -12,10 +12,10 @@ hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+>此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ## 存取及管理挑戰與工作
 

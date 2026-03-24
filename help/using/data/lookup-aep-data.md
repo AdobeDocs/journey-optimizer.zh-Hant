@@ -11,10 +11,10 @@ keywords: 運算式，編輯器
 mini-toc-levels: 1
 badge: label="有限可用性" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 8%
+source-wordcount: '927'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->資料查詢功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡 Adobe 代表。深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+>資料查詢功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡 Adobe 代表。如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 在本節中進一步瞭解如何存取和使用資料集：[開始使用資料集](../data/get-started-datasets.md)
 

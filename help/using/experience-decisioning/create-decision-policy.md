@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 5%
+source-wordcount: '2198'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 >
 >決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和SMS頻道的所有客戶。
 >
->電子郵件通道的決策功能在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 深入瞭解[可用性標籤](../rn/releases.md#availability-labels)。
+>電子郵件通道的決策功能在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ## 新增決定原則 {#add}
 
@@ -281,7 +281,7 @@ ht-degree: 5%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -296,7 +296,7 @@ ht-degree: 5%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >
