@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,11 @@ ht-degree: 0%
 
 ### 定義挑戰屬性並使用自訂中繼資料 {#properties}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_properties"
+>title="挑戰屬性"
+>abstract="在「挑戰屬性」窗格中，設定挑戰名稱和說明，並新增自訂索引鍵/值中繼資料以追蹤或外部整合。"
+
 1. 在&#x200B;**[!UICONTROL 挑戰內容]**&#x200B;窗格中，定義挑戰的全域設定：
 
    * **[!UICONTROL 名稱]**：輸入質詢的描述性名稱。 此名稱會出現在挑戰清單中。
@@ -76,6 +81,11 @@ ht-degree: 0%
    ![](assets/challenge-create-properties.png)
 
 ### 排程挑戰 {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_schedule"
+>title="挑戰排程"
+>abstract="使用排程來定義挑戰何時上線：設定客戶可以使用挑戰的開始日期和時間，以及停止接受完工的結束日期和時間。 請挑選時區，並選擇客戶何時可以在&#x200B;**[!UICONTROL 任務完成視窗區段]**&#x200B;中完成任務。"
 
 設定您的挑戰執行時間：
 
@@ -96,6 +106,11 @@ ht-degree: 0%
 挑戰排程現在已設定。 接下來，新增客戶需要完成的工作。
 
 ### 新增任務 {#add-tasks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_tasks"
+>title="任務"
+>abstract="選取要執行的工作以完成挑戰。 接下來，設定完成挑戰的方式 — 可用選項取決於您的挑戰型別（標準、連續或循序）。"
 
 任務定義客戶要獲得獎勵必須完成的特定操作。 您可以設定任務型別（購買、支出）、數量、產品篩選器和其他屬性。
 
@@ -147,6 +162,11 @@ ht-degree: 0%
 
 ### 設定獎勵 {#rewards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_rewards"
+>title="獎勵"
+>abstract="選擇客戶獲得點數的時間：完成整個挑戰的時間，或是在任務里程碑進行時。 選取您的獎勵提供者（管理點數和獎勵的忠誠度解決方案），然後設定金額：完整完成的單一總計，或里程碑的每一項任務值，僅針對您要支付的任務啟用獎勵。"
+
 獎勵是客戶在完成挑戰時獲得的忠誠度點數或權益。
 
 若要設定何時及如何提供獎勵：
@@ -191,6 +211,11 @@ ht-degree: 0%
 
 ## 設定內容卡片 {#configure-content-cards}
 
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_content"
+>title="內容"
+>abstract="設定內容卡，代表您在客戶裝置上的挑戰，並顯示挑戰資訊、進度和獎勵。 輸入卡片名稱，選取通道設定，讓傳送使用正確的技術設定（例如標題、子網域或行動應用程式），然後選取「編輯內容」以設計和個人化卡片體驗。"
+
 內容卡以視覺化方式呈現您在客戶裝置上的挑戰，顯示挑戰資訊、進度和獎勵。 [進一步瞭解內容卡](../content-card/create-content-card.md)。
 
 若要設定挑戰的內容卡：
@@ -206,6 +231,11 @@ ht-degree: 0%
 設定內容卡後，設定訊息以在挑戰生命週期中吸引客戶。
 
 ### 設定傳訊 {#configure-messaging}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_messaging"
+>title="傳訊"
+>abstract="傳送訊息有助於在挑戰生命週期中進行參與。 在「訊息」標籤上，為每個階段新增訊息：啟動（挑戰開始時）、進行中（提醒和進度更新）以及完成（慶祝成功並確認獎勵）。 對於每個階段，新增訊息、選擇頻道、選取頻道設定，然後選取「編輯」以設計訊息內容。"
 
 設定多管道訊息，在挑戰生命週期的關鍵階段與客戶互動。 傳訊功能為選用，但建議儘量擴大客戶參與度。
 
@@ -228,6 +258,11 @@ ht-degree: 0%
 完成訊息設定後，請定義哪些客戶有資格參與挑戰。
 
 ## 選取挑戰對象 {#audience}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="客群"
+>abstract="在「對象」標籤上，選擇可以參與挑戰的對象。 選取「選取對象」，從對話方塊中可用的Adobe Experience Platform對象中選取您的目標對象，然後選取「新增對象」。 只有該對象的成員才符合資格。 對象是在Experience Platform中定義 — 請先使用現有的對象或建立對象，然後再完成此步驟。"
 
 定義哪些客戶可參與您的忠誠度挑戰。
 

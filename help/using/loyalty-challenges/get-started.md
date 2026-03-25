@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ## 概觀 {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="忠誠度挑戰"
+>abstract="忠誠度挑戰是遊戲化的方案，可獎勵完成任務的客戶。 瞭解挑戰是什麼、標準、連續和循序挑戰的不同之處，以及可在建立挑戰之前進行哪些設定。"
 
 忠誠度挑戰可讓您建立吸引人、遊戲化的忠誠度計畫，以推動客戶行為並深化品牌關係。 建立挑戰以獎勵客戶的特定行動，從購買和撰寫評論，到參與社群媒體和反向連結朋友。
 

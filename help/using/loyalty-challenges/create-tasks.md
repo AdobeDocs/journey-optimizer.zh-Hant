@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 * [開始應對忠誠度挑戰](get-started.md)
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
+* **建立任務** ◀}︎**您在這裡**
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -42,6 +42,11 @@ ht-degree: 2%
 每項任務都代表可測量的動作，有助於完成挑戰。 任務是可重複使用的元件，可以獨立建立，然後新增到一個或多個挑戰，或直接在挑戰中建立。
 
 ## 建立任務 {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="建立任務"
+>abstract="選取客戶作業（採購或支出），然後設定作業特定屬性：數量或金額、適用料號與排除，以及選擇性限制，例如最小支出或最大異動。 在「屬性」窗格中，設定工作名稱和描述。"
 
 您可以從兩個進入點建立任務。 無論您從何處開始，設定程式都相同。
 
@@ -68,7 +73,7 @@ ht-degree: 2%
 * **[!UICONTROL 購買]**：客戶必須購買一或多個專案才能完成此工作
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
@@ -101,6 +106,11 @@ ht-degree: 2%
 >[!ENDTABS]
 
 ## 定義適用料號與排除專案 {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="符合資格的專案和排除專案"
+>abstract="控制哪些購買會計為購買和支出任務。 在第一個欄位中，輸入逗號分隔的專案ID、類別或目的地ID，以僅允許這些專案ID。 將其保留為空白，以便計算所有購買，或鍵入星號以表示所有購買。 在第二個欄位中，列出不應計入的專案或類別，例如禮品卡或清倉。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
