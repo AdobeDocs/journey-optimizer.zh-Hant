@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 8%
@@ -42,7 +42,7 @@ ht-degree: 8%
 
    >[!IMPORTANT]
    >
-   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+   >舊版原生管道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）自2026年3月版本起即已淘汰。 使用這些活動的現有歷程仍可繼續運作，不會有任何變更，無需移轉。
 
 1. 選取&#x200B;**[!UICONTROL 簡訊]**&#x200B;作為動作型別。
 

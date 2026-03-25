@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -255,10 +255,6 @@ context.journey.actions.<actionName>.<fieldPath>
 ## 反複處理資料集查詢結果 {#dataset-lookup}
 
 [資料集查詢活動](../building-journeys/dataset-lookup.md)可讓您在歷程執行階段期間，從[Adobe Experience Platform資料集](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}擷取資料。 擴充的資料會以陣列形式儲存，並可在訊息中反複顯示。
-
->[!AVAILABILITY]
->
->「資料集查詢」活動僅適用於一組有限的組織。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 在[本節](../building-journeys/dataset-lookup.md)中進一步瞭解設定資料集查詢活動。 結合事件資料時，資料集查詢特別強大 — 如需實際使用案例，請參閱[範例：使用資料集查詢](#combine-sources)擴充的事件資料。
 

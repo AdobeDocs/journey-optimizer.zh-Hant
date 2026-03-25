@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-badge: label="有限可用性" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 11%
+source-wordcount: '891'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="資料集查詢活動"
->abstract="透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
+>abstract="**[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
 
 **[!UICONTROL 資料集查詢]**&#x200B;活動可讓您在執行階段動態擷取[!DNL Adobe Experience Platform]記錄資料集的資料。 透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。
 
@@ -31,10 +30,6 @@ ht-degree: 11%
 * **即時個人化**：使用擴充資料量身打造客戶體驗。
 * **動態決策**：使用外部資料來驅動歷程邏輯和動作。
 * **增強型資料存取**：擷取產品中繼資料、訂價表格或與特定金鑰繫結的關聯式資料。
-
->[!AVAILABILITY]
->
->此活動僅適用於一組組織 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。
 
 ## 必讀 {#must-read}
 

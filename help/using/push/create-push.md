@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 11%
@@ -22,7 +22,7 @@ ht-degree: 11%
 >title="推播訊息建立"
 >abstract="新增您的推播訊息並開始使用個人化編輯器對其進行個人化。"
 
-您可以為行動裝置(iOS和Android)和網頁瀏覽器建立推播通知。 此頁面會引導您完成在歷程或行銷活動中設定推播通知的程式。
+您可以為行動裝置（iOS和Android）和網頁瀏覽器建立推播通知。 此頁面會引導您完成在歷程或行銷活動中設定推播通知的程式。
 
 ## 在歷程或行銷活動中建立推播通知 {#create}
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+   >舊版原生管道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）自2026年3月版本起即已淘汰。 使用這些活動的現有歷程仍可繼續運作，不會有任何變更，無需移轉。
 
 1. 選取&#x200B;**[!UICONTROL 推播]**&#x200B;作為動作型別。
 

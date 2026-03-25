@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 7%
@@ -35,7 +35,7 @@ ht-degree: 7%
 
    >[!IMPORTANT]
    >
-   >現在，所有原生管道均可透過「動作」活動、舊版原生管道活動進行存取，並將於3月發行版本中淘汰。 包含舊版動作的現有歷程仍可繼續正常運作，無需移轉。
+   >舊版原生管道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）自2026年3月版本起即已淘汰。 使用這些活動的現有歷程仍可繼續運作，不會有任何變更，無需移轉。
 
 1. 選取&#x200B;**[!UICONTROL 程式碼型體驗]**&#x200B;作為動作型別。
 
@@ -153,4 +153,4 @@ ht-degree: 7%
 
 以下影片說明如何建立程式碼型體驗行銷活動、設定其屬性、測試並發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449464/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
