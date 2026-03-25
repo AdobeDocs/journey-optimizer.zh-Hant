@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 83da64e7985b9fb5b723c60473db6ea743e3fe6e
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 19%
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**：2026 年 3 月 24-25 日
 
@@ -83,6 +83,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>在2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）現已棄用。</p>
 <p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。
 使用舊版管道活動的現有歷程將繼續正常運作，不會進行任何變更或需要進行移轉。</p>
+<p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
 </td>
 </tr>
@@ -176,7 +177,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -240,7 +241,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   推出日期： 2026年3月2日
 
-<!--#### Orchestrated campaigns-->
 
 #### 歷程
 
@@ -270,7 +270,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過透過API傳送的訊號觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。 注意：由訊號開始的協調行銷活動仍為&#x200B;**批次**&#x200B;行銷活動，與API觸發的行銷活動不同。</p>
+<p>您現在可以透過透過API傳送的訊號觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。 注意：由訊號開始的協調行銷活動仍為**批次**行銷活動，與API觸發的行銷活動不同。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>推出日期：2026年4月1日</p>
 </td>
