@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 24%
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[本節](../content-management/preview.md)。
 
+當您的程式碼型體驗使用[體驗決策](../experience-decisioning/gs-experience-decisioning.md)時，您可以預覽將傳送的決策專案：在&#x200B;**[!UICONTROL 模擬內容]**&#x200B;中選取一或多個測試設定檔，且預覽會顯示符合每個設定檔資格的決策專案。
+
 >[!NOTE]
 >
->目前無法使用[決策](../experience-decisioning/gs-experience-decisioning.md)，從程式碼式體驗行銷活動或歷程的使用者介面模擬內容。 [此區段](../experience-decisioning/create-decision.md#test-and-publish)中有因應措施。
-
+>此預覽僅限&#x200B;**內容預覽**：它會顯示哪些決定專案符合選取的測試設定檔，以及編寫的內容呈現方式。 在&#x200B;**模擬內容**&#x200B;預覽中，不會模擬即時Edge要求中傳送的內容資料&#x200B;**[!UICONTROL （例如，用於決定條件或參考於使用者端實作的資料）。]**
 
 ## 在裝置上預覽 {#preview-on-device}
 
@@ -95,7 +96,7 @@ ht-degree: 24%
 
    * 選取&#x200B;**[!UICONTROL 複製連結]**&#x200B;按鈕，並與您的團隊和利害關係人共用連結，他們可以在變更上線之前，在任何行動瀏覽器中預覽新體驗。
 
-   * 使用行動裝置掃描二維碼，以直接在行動應用程式中開啟預覽連結。 您必須在裝置上輸入PIN，才能建立[Assurance](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}工作階段。
+   * 使用行動裝置掃描二維碼，以直接在行動應用程式中開啟預覽連結。 您必須在裝置上輸入PIN，才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}工作階段。
 
      >[!NOTE]
      >

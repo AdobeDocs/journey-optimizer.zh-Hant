@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 5%
 
 ---
@@ -136,10 +136,6 @@ ht-degree: 5%
 * [檢閱及啟動行銷活動](../campaigns/review-activate-campaign.md)
 
 針對程式碼型體驗，當您的開發人員發出API或SDK呼叫，擷取您頻道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
-
->[!NOTE]
->
->您目前無法針對[程式碼型體驗](../code-based/create-code-based.md)行銷活動或歷程模擬決策型內容。 [這裡](../code-based/code-based-decisioning-implementations.md)有因應措施。
 
 ## 使用報告儀表板
 
