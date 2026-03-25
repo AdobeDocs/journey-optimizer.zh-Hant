@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="客群"
->abstract="在「對象」標籤上，選擇可以參與挑戰的對象。 選取「選取對象」，從對話方塊中可用的Adobe Experience Platform對象中選取您的目標對象，然後選取「新增對象」。 只有該對象的成員才符合資格。 對象是在Experience Platform中定義 — 請先使用現有的對象或建立對象，然後再完成此步驟。"
+>abstract="在「對象」標籤上，從可用的Adobe Experience Platform對象中選擇可以參與挑戰的對象。"
 
 定義哪些客戶可參與您的忠誠度挑戰。
 
