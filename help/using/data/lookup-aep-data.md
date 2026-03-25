@@ -11,10 +11,10 @@ keywords: 運算式，編輯器
 mini-toc-levels: 1
 badge: label="有限可用性" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 9%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 9%
   **批次3**： Sku7、Sku8、Sku9、Sku10
 
   如果您刪除&#x200B;**批次1**，Sku1、Sku2和Sku3會從查詢存放區中移除。 然後產生的查詢資料將包含：Sku4、Sku5、Sku6、Sku7、Sku8、Sku9、Sku10。
-
-* **沒有鏈結的查詢** — 資料集查詢無法鏈結在一起。 換言之，您不能使用一次查詢的結果做為變數，然後成為執行第二次查詢的索引鍵。
 
 ### 查閱服務的權益
 
