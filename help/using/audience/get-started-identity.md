@@ -7,9 +7,9 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '215'
 ht-degree: 10%
 
 ---
@@ -30,3 +30,9 @@ ht-degree: 10%
 它提供&#x200B;**身分圖表**，這是特定客戶不同身分之間關係的對應。 此圖表提供客戶如何跨不同管道與品牌互動的視覺化表示。 所有客戶身分圖表會由Adobe Experience Platform Identity Service集體管理及更新，以回應客戶活動。
 
 有關使用身分的詳細資訊，請參閱[身分識別服務檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}。
+
+>[!MORELIKETHIS]
+>
+>* [開始使用Journey Optimizer中的資料管理](../data/gs-data.md)
+>* [開始使用設定檔](get-started-profiles.md)
+>* [Identity Service檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}

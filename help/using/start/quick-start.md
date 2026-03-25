@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 88%
+source-wordcount: '1867'
+ht-degree: 86%
 
 ---
 
@@ -123,7 +123,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 * **輪廓管理**：啟用即時客戶輪廓的資料集，以支援個人化體驗
 * **資料品質**：監視資料擷取，以確保所有資料順利流入 Journey Optimizer
 
-**入門：**&#x200B;模型化您的第一個客戶輪廓結構描述，並設定來源連接器以開始擷取資料。
+**開始於：**&#x200B;檢閱[開始使用資料管理](../data/gs-data.md)概覽以瞭解結構描述、資料集、身分和完整的資料設定檢查清單。 然後，為您的第一個客戶設定檔結構描述建模，並設定來源聯結器以開始擷取資料。
 
 [資料工程師快速入門 →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他資源
 
@@ -221,6 +221,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 >[!TAB 學習與文件]
 
 * [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}：所有角色的逐步教學課程影片
+* [開始使用資料管理](../data/gs-data.md) - Journey Optimizer的結構描述、資料集、身分和資料準備檢查清單
 * [歷程使用案例資料庫](../building-journeys/jo-use-cases.md)：實際範例和實施模式
 * [AI 與智慧型功能](ai-features.md)：瞭解 AI 助理、傳送時間最佳化和內容產生
 * [使用者介面指南](user-interface.md)：有效瀏覽Journey Optimizer
@@ -233,7 +234,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 >[!TAB 社群與支援]
 
-* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：和其他使用者和專家保持聯繫
-* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
+* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：和其他使用者和專家保持聯繫
+* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]

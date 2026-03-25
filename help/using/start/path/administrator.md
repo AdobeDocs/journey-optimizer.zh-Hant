@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 92%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
 >[!TAB 支援資料工程師]
 
-與[資料工程師](data-engineer.md)共同處理資料管理和存取權：
+與[資料工程師](data-engineer.md)共同作業資料管理和存取。 檢閱[開始使用資料管理](../../data/gs-data.md)概觀，瞭解資料工程師需要設定的結構描述、資料集和資料來源。
 
 * 授予資料管理和結構描述建立的權限
 * 核准沙箱存取權以進行開發和測試

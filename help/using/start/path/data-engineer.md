@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 95%
 >[!NOTE]
 >
 >若要深入瞭解&#x200B;**資料攝取**&#x200B;相關資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
+
+>[!TIP]
+>
+>第一次使用Journey Optimizer中的資料？ 開始使用[開始使用資料管理](../../data/gs-data.md)總覽，以瞭解結構描述、資料集、身分、設定檔片段模型，以及完整的資料整備檢查清單，然後再開始進行設定。
 
 ## 基本資料設定步驟
 

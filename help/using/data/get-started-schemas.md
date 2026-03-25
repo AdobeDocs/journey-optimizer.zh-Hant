@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 結構描述、平台、資料、結構
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ Adobe Experience Platform 中有兩種結構描述：
 
 >[!MORELIKETHIS]
 >
+>* [開始使用Journey Optimizer中的資料管理](gs-data.md)
 >* [建立結構描述、資料集及擷取資料，即可在 Journey Optimizer 新增測試輪廓](../audience/creating-test-profiles.md)
 >* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
 >* [資料模式的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hant){target="_blank"}

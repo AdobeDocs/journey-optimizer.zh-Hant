@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 30%
+source-wordcount: '494'
+ht-degree: 29%
 
 ---
 
@@ -38,9 +38,10 @@ ht-degree: 30%
 
 >[!MORELIKETHIS]
 >
+>* [開始使用Journey Optimizer中的資料管理](../data/gs-data.md)
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 

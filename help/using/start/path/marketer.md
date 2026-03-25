@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1612'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer 提供兩種強大的協調方法：
 * **歷程**：即時、一對一的互動，每個客戶以自己的步調前進，由行為或事件觸發
 * **協調的行銷活動**：大規模複雜的多步驟批次行銷活動，透過工作流程讓多個客群保持同一進度，非常適合品牌啟動的行銷活動，例如季節性促銷活動、產品推出或帳戶型通訊
 
-請與您的[管理員](administrator.md)合作以取得存取權，並與[資料工程師](data-engineer.md)合作以設定客群、資料和關聯式結構描述以進行進階細分。
+請與您的[管理員](administrator.md)合作以取得存取權，並與[資料工程師](data-engineer.md)合作以設定對象、資料和關聯式結構描述以進行進階分段。 檢視[開始使用資料管理](../../data/gs-data.md)總覽以瞭解需要哪些資料設定，然後才能建立歷程和行銷活動。
 
 請依照下列核心步驟開始建立體驗：
 
@@ -207,5 +207,5 @@ Journey Optimizer 提供兩種強大的協調方法：
 
 1. **從小事做起**：建立簡單的歡迎歷程或單一訊息行銷活動，以了解平台
 2. **利用 AI**：使用 AI 助理提出問題並加快內容建立
-3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
+3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片

@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 ## 護欄與限制
 
-* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
+* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
 
 * 自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。[了解更多](datasets-ttl.md)
 
@@ -103,6 +103,7 @@ ht-degree: 95%
 
 >[!MORELIKETHIS]
 >
+>* [開始使用Journey Optimizer中的資料管理](gs-data.md)
 >* [資料集文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 >* [資料管理授權權益最佳做法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
