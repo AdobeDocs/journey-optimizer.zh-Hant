@@ -277,7 +277,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過透過API傳送的訊號觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。 注意：由訊號開始的協調行銷活動仍為**批次**行銷活動，與API觸發的行銷活動不同。</p>
+<p>您現在可以透過透過API傳送的訊號觸發協調的行銷活動。 將目標行銷活動設定為「由訊號觸發」並發佈。 然後使用API呼叫來引發行銷活動。 API呼叫可包含引數，這些引數將在觸發的行銷活動中作為變數使用。 注意：由訊號開始的協調行銷活動仍為&#x200B;**批次**&#x200B;行銷活動，與API觸發的行銷活動不同。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>推出日期：2026年4月1日</p>
 </td>
