@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 10%
+source-wordcount: '1571'
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 10%
 
 若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
 
-若要設計特定內容，讓使用者能夠選取並提交其選擇，[請使用表單元件](#use-form-component)並定義其[登陸頁面特定樣式](#lp-form-styles)。
+若要設計可讓使用者選取並提交其選擇的特定內容，請使用&#x200B;**表單元件**：
+
+* 若為選擇加入、選擇退出和訂閱案例，請使用[內建的表單元件](#use-form-component)，並定義其[登陸頁面特定樣式](#lp-form-styles)。
+
+* 若要讓使用者透過特定表單提交資料（例如擴充[!DNL Experience Platform]資料集），[在](#embed-form)資料擷取&#x200B;**[!UICONTROL 登陸頁面上內嵌已發佈的表單]**。 [進一步瞭解建立表格](lp-forms.md)
 
 >[!NOTE]
 >
@@ -167,6 +171,40 @@ ht-degree: 10%
 1. 展開&#x200B;**[!UICONTROL 表單錯誤]**&#x200B;區段以調整發生問題時顯示的錯誤訊息顯示。 核取對應的選項，以在表單上預覽錯誤文字。
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## 內嵌表單（資料擷取） {#embed-form}
+
+對於以[資料擷取](get-started-lp.md#data-capture-lp)型別建立的登入頁面，您可以內嵌您建立的[已發佈表單](lp-forms.md)。 提交內容會傳送至串流連線，以及在表單預設集中設定的資料集。
+
+在登入頁面內容設計器中，遵循下列步驟。
+
+1. 將&#x200B;**[!UICONTROL Structure]**&#x200B;元件拖放至您的內容中，然後將&#x200B;**[!UICONTROL Form]**&#x200B;元件拖放至該結構中。
+
+   >[!NOTE]
+   >
+   >在登入頁面上只能選取&#x200B;**已發佈**&#x200B;表單。
+
+1. 在&#x200B;**[!UICONTROL 內嵌表單]**&#x200B;區段中，選取要顯示的表單。
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >如果您需要變更表單內容或感謝頁面行為，請使用&#x200B;**[!UICONTROL 編輯表單]**；表單會在新索引標籤中開啟。 [進一步瞭解編輯表格](lp-forms.md#edit-form)
+
+1. 在&#x200B;**[!UICONTROL 後續追蹤型別]**&#x200B;區段中，定義提交後會發生什麼事情：
+
+   * **[!UICONTROL 已定義的表單]** — 使用內嵌表單中設定的「感謝您」頁面動作。 [了解更多](lp-forms.md#thank-you-page)
+   * **已發佈的登陸頁面** — 重新導向至另一個已發佈的[登陸頁面](create-lp.md)。
+   * **外部URL** — 重新導向至完整URL。
+
+1. 完成時儲存登入頁面內容。
+
+如需完整的工作流程（建立、測試和發佈登入頁面），請參閱[在登入頁面中運用表單](lp-forms.md#leverage-form-in-lp)。
+
+>[!NOTE]
+>
+>此內嵌表單體驗僅適用於&#x200B;**[!UICONTROL 資料擷取]**&#x200B;登陸頁面。
 
 ## 使用主要頁面內容 {#use-primary-page-context}
 

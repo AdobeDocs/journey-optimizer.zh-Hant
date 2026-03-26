@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，設計， HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 18%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 18%
 * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在本節[中瞭解如何匯入內容](../email/existing-content.md)。
 
 * **使用在**&#x200B;中建立的已儲存登入頁面範本[!DNL Journey Optimizer]。 [了解更多](lp-templates.md)
+
+在登入頁面內容設計工具中，您可以使用與電子郵件相同的元件，並使用表單元件來定義登入頁面特定內容。 [了解作法](lp-content.md)
 
 >[!NOTE]
 >

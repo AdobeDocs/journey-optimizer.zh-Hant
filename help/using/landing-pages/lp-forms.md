@@ -1,29 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立並使用適用於您的登陸頁面的表單
-description: 瞭解如何在Journey Optimizer中建立和使用表單以供登陸頁面
+title: 為您的登入頁面建立並使用表單
+description: 瞭解如何在Journey Optimizer中建立和使用登入頁面的表單
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
-badge: label="有限可用性" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 9%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # 在您的登入頁面中使用表單 {#lp-forms}
 
->[!AVAILABILITY]
->
->此功能目前以「限量」形式向美國和澳洲的客戶發行。請聯絡您的 Adobe 代表以取得存取權。
-
-若要使用您的[!DNL Journey Optimizer]登陸頁面擷取設定檔資料並擴充[!DNL Experience Platform]資料集，您可以在登陸頁面中運用表單。
+若要使用您的[!DNL Journey Optimizer]登陸頁面擷取設定檔資料並擴充[!DNL Experience Platform]資料集，您可以在登陸頁面中運用表單。 如需資料擷取案例和需求的概觀，請參閱[使用登入頁面擷取資料](get-started-lp.md#data-capture-lp)。
 
 ## 建立表單預設集 {#create-form-preset}
 
@@ -78,7 +73,7 @@ ht-degree: 9%
    >* **資料型別**&#x200B;必須設定為&#x200B;**XDM** （不是原始資料）
    >* **驗證**&#x200B;必須為&#x200B;**已停用** （未驗證的連線）
    >
-   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入內容搜尋特定資料集，或從清單中選取。
 
@@ -270,7 +265,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >您可以使用&#x200B;**[!UICONTROL 編輯表單]**&#x200B;按鈕更新選取的表單。 表單會在新標籤中開啟。 編輯表單內容的步驟在[本節](#create-form)中有詳細說明。
+   >您可以使用&#x200B;**[!UICONTROL 編輯表單]**&#x200B;按鈕更新選取的表單。 表單會在新標籤中開啟。 編輯表單內容的步驟在[本節](#edit-form)中有詳細說明。
 
 1. 在&#x200B;**[!UICONTROL 後續追蹤型別]**&#x200B;區段中，設定使用者填寫表單時會發生什麼情況：
 
@@ -282,8 +277,65 @@ ht-degree: 9%
 
 1. 儲存並測試您的登入頁面。 [了解作法](create-lp.md#test-landing-page)
 
-一旦您的登入頁面已[發佈](create-lp.md#publish-landing-page)並用於歷程中，當使用者填寫表單時，輸入的資訊會擷取到選取的資料集中。
+一旦您的登入頁面已[發佈](create-lp.md#publish-landing-page)並用於歷程中，當使用者填寫表單時，輸入的資訊會擷取到選取的資料集中。 資料最多只需15分鐘處理即可供使用。
 
 >[!NOTE]
 >
 >如果您取消發佈用於登入頁面的表單，編輯此表單並再次發佈，則登入頁面一律使用最新發佈的表單版本。
+
+## 常見問題 {#lp-forms-faq}
+
++++需要使用何種登陸頁面型別？
+
+建立登入頁面時，請選取&#x200B;**[!UICONTROL 資料擷取]**&#x200B;做為登入頁面型別。 這是唯一支援內嵌資料彙集表單的登陸頁面型別。
+
++++
+
++++我可以搭配表單預設集使用任何資料集嗎？
+
+只有&#x200B;**已啟用設定檔**&#x200B;和&#x200B;**未啟用設定檔** [!DNL Adobe Experience Platform]資料集可供選取。 系統資料集無法用來儲存表單資料，而且每個預設集只能選取一個資料集。
+
++++
+
++++我可以跨多個表單預設集重複使用相同的資料集或串流連線嗎？
+
+可以。 相同的資料集或串流連線可在多個預設集中重複使用。 您也可以使用不同的資料集和串流連線組合，設定多個預設集，以支援不同的資料擷取案例。
+
++++
+
++++我可以在登入頁面中使用草稿表單嗎？
+
+不可以。 只能選取已發佈的&#x200B;**表單**&#x200B;並將其內嵌在登入頁面中。
+
++++
+
++++如果我編輯並重新發佈已內嵌於即時登陸頁面中的表單，該登陸頁面使用哪個版本？
+
+登入頁面一律使用表單的&#x200B;**最新發佈版本**。 草稿變更要等到更新後的表單發佈之後才會生效。
+
++++
+
++++我可以根據使用者填寫表單的方式，將使用者重新導向至不同的頁面嗎？
+
+可以。 您可以在「感謝您」頁面上設定&#x200B;**[!UICONTROL 條件式重新導向]**，並定義規則以根據表單回應顯示不同的後續動作，例如，將某個國家/地區的訪客重新導向至某個頁面，將另一個國家/地區的訪客重新導向至另一個頁面，並為其他所有人設定預設遞補。 [了解更多](#thank-you-page)
+
++++
+
++++表單欄位可以預先填入現有的設定檔資料嗎？
+
+可以。 設定欄位時，您可以啟用&#x200B;**[!UICONTROL 預先填入的啟用]**&#x200B;選項，以便在已知設定檔的資訊可用時，自動填入欄位。
+
++++
+
++++我可以讓欄位成為必填欄位以便使用者無法略過它嗎？
+
+可以。 在欄位設定的&#x200B;**[!UICONTROL 欄位行為]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 必要]**。 必須先完成所有必填欄位，使用者才能提交表單。
+
++++
+
++++使用者提交表單後，表單提交資料移至何處？
+
+提交表單時，會將資料傳送至表單預設集中定義的&#x200B;**串流連線**。 接著會透過自動產生的處理對應、轉換和驗證的來源流程，將其推送至連結的&#x200B;**[!DNL Experience Platform]資料集**。
+
++++
+
