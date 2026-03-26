@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -31,6 +31,19 @@ ht-degree: 95%
 >
 >此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### 檢查推播選擇退出狀態 {#push-opt-out-status}
+
+行動應用程式的推播選擇退出會在裝置層級處理：當使用者在其裝置上停用通知時，推播權杖會從他們的設定檔中移除。 因此，設定檔上推播權杖&#x200B;**的**&#x200B;存在即為隱含推播同意的指標。
+
+若要在Adobe Experience Platform中驗證設定檔的推播同意狀態：
+
+1. 在Adobe Experience Platform的&#x200B;**[!UICONTROL 設定檔]**&#x200B;區段中開啟設定檔。
+1. 移至&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤，並尋找&#x200B;**[!UICONTROL 推播通知詳細資料]**&#x200B;欄位群組。
+1. 如果存在推播權杖，設定檔已隱含同意接收推播通知。 如果找不到Token，則表示使用者已在裝置層級選擇退出。
+
+>[!NOTE]
+>
+>對於需要明確推送同意追蹤的規範使用案例，請使用&#x200B;**`consents.marketing.push.val`**&#x200B;同意和偏好設定欄位群組[中的](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}屬性。 值`y`表示明確的選擇加入；`n`表示明確的選擇退出。
 
 在以下章節中了解如何管理 Journey Optimizer 電子郵件和簡訊訊息中的選擇退出：
 
@@ -55,7 +68,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
+>請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
 
 ## 實施個人化同意 {#opt-out-personalization}
 
