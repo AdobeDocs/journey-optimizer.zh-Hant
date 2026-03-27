@@ -5,10 +5,10 @@ title: 在協調的行銷活動中使用等待活動
 description: 瞭解如何在協調的行銷活動中使用等待活動
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 77%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 77%
 
 ## 設定{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>暫存資料表中的資料不會持續超過&#x200B;**5天**。 當您使用&#x200B;**[!UICONTROL 持續時間]**&#x200B;或&#x200B;**[!UICONTROL 固定時間]**&#x200B;等候，請確定下一個活動完成之前的經過時間，直到該限制內為止，讓中繼資料仍然可用。
+
 請按照以下步驟設定&#x200B;**[!UICONTROL 等待]**&#x200B;活動：
 
 1. 將&#x200B;**[!UICONTROL 等待]**&#x200B;活動新增至您的協調行銷活動。
@@ -40,6 +44,6 @@ ht-degree: 77%
 
 ## 範例{#wait-example}
 
-以下範例會說明典型使用案例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。內含促銷代碼的電子郵件會傳送給慶祝生日的輪廓。29 天後，系統會傳送簡訊給相同群組，提醒他們生日促銷代碼即將到期。
+以下範例會說明典型使用案例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。內含促銷代碼的電子郵件會傳送給慶祝生日的輪廓。2 天後，系統會傳送簡訊給相同群組，提醒他們生日促銷代碼即將到期。
 
 ![](../assets/wait-example.png)
