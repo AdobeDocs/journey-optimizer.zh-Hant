@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 26%
@@ -85,12 +85,12 @@ ht-degree: 26%
 
 瞭解如何使用Decisioning為受眾個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476175?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 瞭解如何使用Decisioning為受眾個人化推播通知。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 瞭解如何使用Decisioning為受眾個人化SMS訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479540?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
