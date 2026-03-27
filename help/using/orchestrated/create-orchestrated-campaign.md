@@ -5,10 +5,10 @@ title: 使用Journey Optimizer建立及排程協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的行銷活動
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 66%
+source-wordcount: '1140'
+ht-degree: 65%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 66%
 
 1. 瀏覽至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 協調流程]**&#x200B;標籤。
 
-1. 按一下「**[!UICONTROL 建立行銷活動]**」按鈕，然後選取「**[!UICONTROL 協調流程 — 行銷]**」行銷活動型別。
+1. 按一下&#x200B;**[!UICONTROL 建立行銷活動]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 協調流程 — 行銷和異動]**&#x200B;行銷活動型別。
+
+   新增[頻道活動](../orchestrated/activities/channels.md)時，您將選擇每個訊息是行銷訊息還是交易訊息。
 
    ![](assets/create-modal.png)
 
@@ -59,12 +61,12 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="排程器有效性"
->abstract="您可以定義排程器的有效期限。它可以是永久的 (預設)，也可以在特定日期之前有效。"
+>abstract="您可以定義排程器的有效期限。 它可以是永久的 (預設)，也可以在特定日期之前有效。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="排程器選項"
->abstract="定義排程器的頻率。它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
+>abstract="定義排程器的頻率。 它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
 
 根據預設，協調的行銷活動在手動啟動時開始，並在執行相關活動後結束。 如果您偏好延遲執行或循環執行行銷活動，可以定義行銷活動的排程。
 

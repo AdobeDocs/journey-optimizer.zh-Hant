@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 6c318f0a11a59a80721f14d830be10ba4f29318f
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 41%
+source-wordcount: '1554'
+ht-degree: 40%
 
 ---
 
@@ -55,7 +55,7 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。您可以將管道活動與協調行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-[!DNL Adobe Journey Optimizer]可讓您跨管道（電子郵件、簡訊、推播通知和直接郵件）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
+[!DNL Adobe Journey Optimizer]可讓您針對行銷和異動訊息，跨管道（電子郵件、簡訊、推播通知和直接郵件）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
 例如：
 
@@ -83,6 +83,8 @@ UNUSED IDs in BJ
 1. 請將頻道活動新增至畫布。 可用的頻道活動包括&#x200B;**[!UICONTROL 電子郵件]**、**[!UICONTROL 簡訊]**、**[!UICONTROL 推播]**&#x200B;和&#x200B;**[!UICONTROL 直接郵件]**。
 
    ![影像會顯示擁有可用活動的畫布](../assets/channel-add.png)
+
+1. 在右邊欄中，使用&#x200B;**[!UICONTROL 類別]**&#x200B;欄位為此訊息選擇&#x200B;**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。 異動訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
 
 1. 選取活動並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**、**[!UICONTROL 編輯推播]**&#x200B;或&#x200B;**[!UICONTROL 編輯直接郵件]** （視選取的頻道而定）。
 
