@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 子網域、委派、網域、DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1931'
 ht-degree: 18%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 18%
 
 * 完全委派子網域 — [瞭解如何進行](#set-up-subdomain)
 * 使用CNAME建立子網域以指向Adobe特定記錄 — [瞭解如何進行](#set-up-subdomain)
+* 委派自訂子網域 — [瞭解如何進行](delegate-custom-subdomain.md)
 
 建議使用&#x200B;**完整子網域委派**&#x200B;方法。 在[本節](about-subdomain-delegation.md#subdomain-delegation-methods)中進一步瞭解不同子網域設定方法之間的差異。
 
@@ -168,7 +169,7 @@ ht-degree: 18%
 
 1. 執行[本節](#set-up-subdomain)中說明的所有步驟。
 
-1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]&#x200B;**&#x200B;**。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
+1. 在提交您的子網域設定前，您還需要完成一個步驟 — 按一下[繼續]****。 等候Adobe驗證在您的託管解決方案上產生記錄時沒有發生錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

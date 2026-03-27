@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: b4749b3b9a97dd295e0d46274bfe2d63ed2187b3
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 19%
+source-wordcount: '1722'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**：2026 年 3 月 24-25 日
 
@@ -98,15 +98,15 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>原生管道動作活動已棄用</strong><br/></th>
+<th><strong>動作活動會取代頻道特定的歷程活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>在2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）現已棄用。</p>
-<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。
-使用舊版管道活動的現有歷程將繼續正常運作，不會進行任何變更或需要進行移轉。</p>
+<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。</p>
+<p>使用舊版管道活動的現有歷程仍可繼續運作，無需任何變更或移轉。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
 </td>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -254,6 +254,10 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 <!--* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders, enabling structured navigation and easier management for teams working with large volumes of content. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.-->
 
+* **AJO網域憑證更新失敗** — 您現在可以透過電子郵件或在Journey Optimizer通知中心訂閱接收系統警示，當用於電子郵件傳遞的網域憑證接近到期或已過期時。 [閱讀全文](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
+
+  推出日期： 2026年3月26日
+
 * **AJO次要收件者意見反應事件資料集重新命名** - `AJO Email BCC Feedback Event`資料集已重新命名為`AJO Secondary Recipient Feedback Event`資料集。 其影響會依您的情況而有所不同：
 
    * **現有使用者**：只更新顯示名稱。 基礎資料表名稱保持不變。
@@ -282,9 +286,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 以下的功能和改進計畫於3月下旬/4月初發行。 發行日期和範圍有&#x200B;**可能會變更，恕不另行通知**。
 
-
 ### 功能
-
 
 <table>
 <thead>
@@ -297,6 +299,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
 <p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../content-management/image-to-html.md">了解更多</a></p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>推出日期： 2026年3月30日</p>
 </td>
 </tr>
@@ -370,6 +373,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。
 </p>
 <p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../building-journeys/optimize.md">了解更多</a></p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>作為「一般可用性」的一部分，此版本引入<strong>實驗型別</strong>選擇（A/B或多臂吃角子老虎機）和<strong>縮放單一歷程的獲勝者</strong>。</p>
 <p>推出日期： 2026年4月3日</p>
 </td>
 </tr>
@@ -395,4 +400,16 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<!--WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.-->
+<!--
+WAITING RELEASE DATE CONFIRMATION
+* **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+
+<--
+TO ADD when Path optimization is GA:
+
+* **Experiment type** - You can now choose between A/B experiment (fixed split at the start) or Multi-armed bandit (automatic split with weekly weight updates) when configuring a path experiment.
+
+* **Path experimentation: Scale the Winner** - You can now automatically or manually roll out the winning path of an experiment to your full audience. Once a winner is determined, you can amplify its reach and effectiveness without constantly monitoring the experiment.
+This capability is available only in unitary journeys (event-triggered and Audience qualifications). It is not available for Read audience journeys.
+
+-->
