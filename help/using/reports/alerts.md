@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant#permissions){target="_blank"}必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -58,7 +58,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程和管道設
 
 導覽至左側功能表中的&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警示]**。 **瀏覽**&#x200B;索引標籤會顯示Journey Optimizer可用的所有預先設定警報。
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### 警示類別
 
@@ -83,14 +83,14 @@ Journey Optimizer提供兩種系統警報類別：
 偵測電子郵件傳遞能力設定的問題：
 
 * [AJO網域DNS記錄遺失](#alert-dns-record-missing) — 識別遺失或設定錯誤的DNS記錄
-* [AJO通道設定失敗](#alert-channel-config-failure) — 偵測到電子郵件設定問題(SPF、DKIM、MX記錄)
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [AJO通道設定失敗](#alert-channel-config-failure) — 偵測到電子郵件設定問題（SPF、DKIM、MX記錄）
+* [AJO網域憑證更新失敗](#alert-certificates-renewal) — 當自訂委派子網域上的資源或追蹤憑證即將到期或到期時發出警告
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"}。
+>如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 訂閱警報 {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 **替代訂閱方法：**
 
-若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}。
+若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 
 ### 全域訂閱 {#global-subscription}
@@ -149,7 +149,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 **替代訂閱方法：**
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱，此通知可與外部系統整合。 Journey Optimizer警示的事件訂閱名稱會列在底下的每個[警示說明中](#journey-alerts)。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱，此通知可與外部系統整合。 Journey Optimizer警示的事件訂閱名稱會列在底下的每個[警示說明中](#journey-alerts)。
 
 ### 歷程特定訂閱 {#unitary-subscription}
 
@@ -177,13 +177,13 @@ Journey Optimizer提供兩種系統警報類別：
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
 
 >[!NOTE]
 >
 >[讀取對象觸發失敗](#alert-read-audiences)警示只能透過全域訂閱取得，不能透過每個歷程訂閱取得。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -204,7 +204,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 與&#x200B;**讀取對象觸發失敗**&#x200B;警示對應的I/O事件訂閱名稱為&#x200B;**歷程讀取對象延遲、失敗和錯誤**。
 
-若要針對&#x200B;**讀取對象**&#x200B;警示進行疑難排解，請在Experience Platform介面中檢查您的對象計數。
+若要疑難排解&#x200B;**讀取對象**&#x200B;警示，請檢視Experience Platform介面中的受眾規模。
 
 ### 超出輪廓捨棄率 {#alert-discard-rate}
 
@@ -316,7 +316,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 如果系統稽核偵測到電子郵件通道設定問題，則會觸發此警報。 這些問題可能包括設定錯誤的通道設定、無效的DNS設定、隱藏清單問題、IP不一致或任何其他可能影響電子郵件傳送的錯誤。
 
-如果您收到這類警示，解析步驟如下所示：
+如果您收到這類警示，以下列出解決步驟。
 
 1. 按一下警示以導向至[介面中受影響的](../email/get-started-email-config.md)電子郵件通道設定[!DNL Journey Optimizer]。
 
@@ -349,16 +349,36 @@ Journey Optimizer提供兩種系統警報類別：
 * 立即行動 — 一偵測到設定失敗就立即處理它們，以避免電子郵件傳送中斷。
 * 檢查所有設定 — 如果警報指出多個受影響的電子郵件設定，請檢視並修正每個設定。
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### AJO網域憑證更新失敗 {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>此警報僅適用於使用[自訂子網域](../configuration/delegate-custom-subdomain.md)委派型別的管道設定。
+
+此警報會在自訂委派子網域上的資源或追蹤網域憑證在30天內到期或已經到期時通知您。 如果沒有有效的憑證，電子郵件傳遞能力及連結追蹤可能會中斷。
+
+>[!NOTE]
+>
+>檢查每週&#x200B;**執行**。
+
+如果觸發此警報，請遵循下列步驟以調查並解決問題。
+
+1. 按一下警示以在[中開啟受影響的](../configuration/delegate-subdomain.md)子網域[!DNL Journey Optimizer]。
+
+1. 檢閱詳細資訊，以檢視是否需要憑證續約。
+
+   * 如果到期日為未來，則計畫修正 — 警示可提供最多30天的警告。
+   * 如果憑證已過期，請立即採取動作。
+   * 如果問題未解決，下週會再次觸發相同的警報。
+
+1. 在您的DNS託管解決方案中，確認子網域委派所需的所有記錄仍符合[!DNL Journey Optimizer]中顯示的值，包括用於SSL驗證的記錄。
 
 ## 管理警報 {#manage-alerts}
 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -416,6 +436,6 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 **警示架構：**
 
 * [Adobe Experience Platform警示概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"} — 瞭解警示架構
-* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant){target="_blank"} — 檢視、訂閱和管理警報
-* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"} — 進階整合選項
-* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"} — 完整的可用平台警示清單
+* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 檢視、訂閱和管理警報
+* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 進階整合選項
+* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 完整的可用平台警示清單
