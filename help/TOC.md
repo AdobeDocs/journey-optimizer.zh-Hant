@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 96%
@@ -403,7 +403,7 @@ ht-degree: 96%
       + [可到 Journey Optimizer 設定 LINE 頻道](using/line/line-configuration.md)
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
-   + 即時活動 {#live-activity}
+   + 已上線活動 {#live-activity}
       + [開始使用即時動態](using/mobile-live/get-started-mobile-live.md)
       + [建立即時動態](using/mobile-live/create-mobile-live.md)
       + [疑難排解即時活動](using/mobile-live/troubleshoot-mobile-live.md)
