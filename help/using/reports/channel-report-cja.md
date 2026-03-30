@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 1%
 * [行銷活動](#campaign)
 * [管道](#channel)
 * [規則集](#rule-sets)
+* [最佳化模型](#optimization-models)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -142,7 +143,7 @@ ht-degree: 1%
 
 **[!UICONTROL 依規則集的歷程專案]**&#x200B;欄會顯示進入歷程的設定檔數目。 有三種入口型別：
 
-* **&#x200B;**&#x200B;[!UICONTROL 沒有衝突]&#x200B;**&#x200B;**：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
+* ****[!UICONTROL 沒有衝突]****：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
 
 * **較高優先順序**：設定檔進入歷程是因為其優先順序高於其他競爭歷程。 即使發生衝突（設定檔符合多個歷程的資格），但由於此歷程的優先順序分數較高，所以被選取。
 
@@ -157,3 +158,25 @@ ht-degree: 1%
 +++
 
 ➡️ [進一步瞭解歷程上限與仲裁](../conflict-prioritization/journey-capping.md)
+
+## 最佳化模型 {#optimization-models}
+
+![](assets/sto-report.png)
+
+**[!UICONTROL 傳送時間最佳化]**&#x200B;表格提供您最佳化及控制電子郵件或推播訊息執行方式的深入分析。 使用它來比較關鍵量度，例如傳送、開啟、點按和跳出，以便您可以檢視每個變體的表現，並通知您最佳化決策。
+
+請注意，此報表中的量度（包括&#x200B;**[!UICONTROL 提升度]**&#x200B;和&#x200B;**[!UICONTROL 信賴度]**）是從&#x200B;**60天**&#x200B;的傳送和參與計算。
+
++++ 深入瞭解傳送時間最佳化量度
+
+* **[!UICONTROL 傳送]**：傳送每個訊息變體的總次數。
+
+* **[!UICONTROL 開啟]**：針對郵件記錄的開啟事件總數。
+
+* **[!UICONTROL 開啟率]**：設定檔開啟訊息至少一次的已傳送訊息百分比。
+
+* **[!UICONTROL 提升度]**：指定處理的轉換率相對於基線變體的改善百分比。 提升度可量化差異的大小；將其與&#x200B;**[!UICONTROL 信賴度]**&#x200B;一起解讀。
+
+* **[!UICONTROL 信賴度]**：證明傳送時間最佳化變體的開啟或點按率與控制變體（隨機指派的傳送時間）不同之證據的統計強度。 其計算方式為雙比例Z檢定。
+
++++
