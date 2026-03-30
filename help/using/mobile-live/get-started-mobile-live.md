@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 1a5a69b9c2907e18a4649543ac0ddf6fdd486491
+source-git-commit: c6b36f31af29d21053cc455fd5dbba68ed5af63b
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
@@ -31,24 +31,34 @@ ht-degree: 20%
 <img alt="在鎖定畫面和動態島上進行iOS Live活動" src="assets/do-not-localize/live-activity.jpeg">
 </td>
 <td>
-<p>透過Adobe Journey Optimizer，您可以透過API觸發的行銷活動，以程式設計方式從遠端<strong>開始</strong>、<strong>更新</strong>和<strong>結束</strong>上線活動，以大規模支援個別和受眾型使用案例。</p>
-<p>即時活動只能<strong>透過</strong>API觸發<strong>行銷活動啟動</strong>，允許您提供自訂裝載，並透過您自己的裝載執行所有個人化。 必須根據預期的已上線活動使用案例來選取適當的行銷活動型別：</p>
+<p><strong>主要優點</strong></p>
+<p>即時活動將行動參與從通知型轉變為狀態型，讓品牌能夠：</p>
 <ul>
-<li><strong>API觸發的行銷</strong> — 廣播使用案例、大規模傳送的對象型更新：運動分數和即時活動倒數、航班狀態更新、跨使用者區段的共用體驗。</li>
-<li><strong>API觸發異動</strong> — 個別使用案例，每位使用者的1:1即時更新：訂單追蹤和傳遞進度、騎士或服務狀態更新、即時預約和約會確認。</li>
+<li>在整個高值事件中保持<strong>持續存在</strong></li>
+<li><strong>以動態方式更新資訊</strong>，避免使用者因重複通知而不知所措</li>
+<li>提供與真實世界活動相連結的<strong>更豐富、更情境式</strong>行動時刻</li>
+<li>在作用中交易或即時體驗期間<strong>增加參與度和保留率</strong></li>
 </ul>
 </td>
 </tr>
 </table>
 
-## 主要優點
+透過Adobe Journey Optimizer，您可以透過API觸發的行銷活動，以程式設計方式從遠端&#x200B;**開始**、**更新**&#x200B;和&#x200B;**結束**&#x200B;上線活動，以大規模支援個別和受眾型使用案例。
 
-即時活動將行動參與從通知型轉變為狀態型，讓品牌能夠：
+即時活動只能&#x200B;**透過** API觸發&#x200B;**行銷活動啟動**，允許您提供自訂裝載，並透過您自己的裝載執行所有個人化。
+必須根據預期的「上線」活動使用案例選取適當的**API觸發**&#x200B;行銷活動型別：
 
-* 在整個高值事件中保持&#x200B;**持續存在**
-* **以動態方式更新資訊**，避免使用者因重複通知而不知所措
-* 提供與真實世界活動相連結的&#x200B;**更豐富、更情境式**&#x200B;行動時刻
-* 在作用中交易或即時體驗期間&#x200B;**增加參與度和保留率**
+* 針對廣播使用案例選取&#x200B;**API觸發的行銷** — 大規模傳送的對象型更新：
+
+   * 運動會分數和即時活動倒計時
+   * 航線上所有乘客的航班狀態更新
+   * 跨使用者區段的共用體驗
+
+* 針對個別使用案例選取&#x200B;**API觸發異動** — 每位使用者有1:1個即時更新：
+
+   * 訂單追蹤與傳遞進度
+   * 騎乘或服務狀態更新
+   * 即時預約和約會確認
 
 ## 快速入門手冊
 
@@ -74,4 +84,4 @@ ht-degree: 20%
 
 瞭解如何使用Adobe Journey Optimizer設定iOS Live活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
