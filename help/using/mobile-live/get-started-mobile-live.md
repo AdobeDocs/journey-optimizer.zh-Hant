@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,12 +26,12 @@ ht-degree: 21%
 與傳統的推播通知不同，已上線的活動代表&#x200B;**以狀態為基礎的參與**：它們不會傳送一次性警報，而是會維持持續的、情境式的存在，並隨著事件的發展而動態更新。
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 透過Adobe Journey Optimizer，您可以透過API觸發的行銷活動，以程式設計方式從遠端&#x200B;**開始**、**更新**&#x200B;和&#x200B;**結束**&#x200B;上線活動，以大規模支援個別和受眾型使用案例。
 
 即時活動只能&#x200B;**透過** API觸發&#x200B;**行銷活動起始**，可讓您提供自訂裝載，並透過自己的裝載執行所有個人化。
-必須根據預期的「上線」活動使用案例選取適當的&#x200B;**API觸發**&#x200B;行銷活動型別：
+必須根據預期的「上線」活動使用案例選取適當的**API觸發**&#x200B;行銷活動型別：
 
 * 針對廣播使用案例選取&#x200B;**API觸發的行銷** — 大規模傳送的對象型更新：
 
@@ -78,4 +78,4 @@ ht-degree: 21%
 
 瞭解如何使用Adobe Journey Optimizer設定iOS Live活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
