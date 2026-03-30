@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 29%
@@ -52,7 +52,7 @@ ht-degree: 29%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>內容卡</strong></a></div></td>
     </tr></table>
 
-   如需其他管道，請參閱： [iOS即時活動](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)和[LINE](../line/line-configuration.md)。
+   如需其他管道，請參閱： [iOS Live活動](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)和[LINE](../line/line-configuration.md)。
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 29%
 * **[IP熱身](ip-warmup-gs.md)** — 探索IP位址熱身的最佳實務，以改善電子郵件傳遞能力及寄件者信譽。
 * **[管理隱藏清單](manage-suppression-list.md)** — 瞭解如何管理隱藏清單以處理退信及維護清單衛生。
 * **[設定行動應用程式](set-mobile-config.md)** — 設定推播通知和應用程式內訊息的行動應用程式設定。
-* **[設定iOS已上線活動](../mobile-live/mobile-live-configuration.md)** — 設定您的環境以將已上線活動傳送至iPhone鎖定畫面和Dynamic Island。
+* **[設定iOS Live活動](../mobile-live/mobile-live-configuration.md)** — 設定您的環境以將已上線活動傳送至iPhone鎖定畫面和Dynamic Island。
 * **[設定WhatsApp](../whatsapp/whatsapp-configuration.md)** — 透過Meta的Cloud API為行銷活動和歷程設定WhatsApp傳訊。
 * **[設定LINE](../line/line-configuration.md)** — 為行銷活動和歷程設定LINE訊息。
 * **[設定教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** — 探索有關頻道設定和最佳實務的逐步教學課程影片。

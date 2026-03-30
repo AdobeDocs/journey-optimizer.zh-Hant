@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -159,6 +159,6 @@ ht-degree: 3%
 
 ## 作法影片
 
-瞭解如何使用Adobe Journey Optimizer設定iOS即時活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
+瞭解如何使用Adobe Journey Optimizer設定iOS Live活動，以在iPhone鎖定畫面和Dynamic Island上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

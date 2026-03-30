@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定即時活動頻道
-description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送即時活動
+title: 設定「已上線」活動頻道
+description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送已上線的活動
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
 
 # 開始使用即時活動設定 {#mobile-live-config}
 
-在傳送「即時」活動之前，您必須先設定Adobe Journey Optimizer環境。 若要執行此動作：
+在傳送即時活動之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 
 ## 步驟1：在Journey Optimizer中新增應用程式推送認證（選用）{#push-credentials-launch}
 

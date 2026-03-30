@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定即時活動頻道
+title: 設定「已上線」活動頻道
 description: 瞭解如何設定Adobe Experience Platform Mobile SDK整合
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 # 與Adobe Experience Platform Mobile SDK的即時活動整合 {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK為Apple的即時活動提供內建支援。 這可讓您的應用程式直接在鎖定畫面和動態島上顯示即時動態更新，而不需開啟應用程式。
+Adobe Experience Platform Mobile SDK為Apple的Live活動提供內建支援。 這可讓您的應用程式直接在鎖定畫面和動態島上顯示即時動態更新，而不需開啟應用程式。
 
 1. [匯入必要的模組](#import)
 
@@ -84,7 +84,7 @@ import ActivityKit
 
 * **`ContentState`**&#x200B;定義可在上線活動生命週期期間更新的動態資料。 它必須符合`Codable`和`Hashable`。
 
-* `LiveActivityOrigin`列舉會指定活動是在應用程式內本機起始，還是透過推播開始通知從遠端起始(iOS 17.2和更新版本支援)。 此值可讓SDK在資料收集期間區分本機啟動與遠端觸發的即時活動。
+* `LiveActivityOrigin`列舉會指定活動是在應用程式內本機起始，還是透過推播開始通知從遠端起始（iOS 17.2和更新版本支援）。 此值可讓SDK在資料收集期間區分本機啟動與遠端觸發的即時活動。
 
 **範例**
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## 步驟4：建立即時活動Widget {#widgets}
 
-即時活動會透過Widget顯示，您需要建立Widget套件組合和設定：
+即時活動會透過Widget顯示。 您需要建立Widget套件組合和設定：
 
 **食品配送即時活動的範例：**
 
@@ -189,7 +189,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## 步驟5：在本機啟動上線活動（選用） {#local}
 
-雖然Journey Optimizer可從遠端啟動即時活動，但您也可以從本機啟動：
+雖然Journey Optimizer可以從遠端啟動即時活動，但您也可以從本機啟動活動：
 
 **食品配送即時活動的範例：**
 
@@ -242,4 +242,4 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 >[!TIP]
 >
->如果您遇到權杖註冊、裝載對齊或即時活動傳送的問題，請參閱[疑難排解即時活動](troubleshoot-mobile-live.md)以取得詳細的偵錯指引。
+>如果您遇到權杖註冊、裝載對齊或即時活動傳遞的問題，請參閱[疑難排解即時活動](troubleshoot-mobile-live.md)以取得詳細的偵錯指南。
