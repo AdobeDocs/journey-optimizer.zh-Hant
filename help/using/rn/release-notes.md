@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4749b3b9a97dd295e0d46274bfe2d63ed2187b3
+source-git-commit: 8af179b0eddc13dca3786ee5c6216a955ab9e704
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1746'
 ht-degree: 18%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 18%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**：2026 年 3 月 24-25 日
 
@@ -87,9 +87,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>歷程中的新<strong>資料集查詢</strong>活動可讓您在執行階段動態擷取Adobe Experience Platform記錄資料集的資料，讓您存取不屬於設定檔或事件裝載的資訊，讓客戶互動保持相關且即時。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 </p>
+<p>先前以「有限可用性」發行給一組有限組織，現在所有有權使用[資料集查詢](../data/lookup-aep-data.md)的客戶都可以使用歷程中的資料集查詢活動，同時仍以「有限可用性」發行。</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -202,6 +202,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用訊號觸發協調的行銷活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在可以透過<strong>API訊號</strong>觸發協調的行銷活動。 若要進行此設定，請將目標行銷活動設定為<strong>由訊號</strong>觸發，發佈，然後使用API呼叫引發它。 API呼叫中包含的任何引數都可在執行的行銷活動中作為變數使用。 請注意，訊號觸發的協調行銷活動仍為<strong>批次</strong>行銷活動，與API觸發的行銷活動不同。</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -338,23 +355,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>收件匣</strong>是一項行動功能，可搭配內容卡使用，讓客戶在應用程式或網站中建立集中式位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
 <p>推出日期： 2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>使用訊號觸發協調的行銷活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>現在可以透過<strong>API訊號</strong>觸發協調的行銷活動。 若要進行此設定，請將目標行銷活動設定為<strong>由訊號</strong>觸發，發佈，然後使用API呼叫引發它。 API呼叫中包含的任何引數都可在執行的行銷活動中作為變數使用。 請注意，訊號觸發的協調行銷活動仍為<strong>批次</strong>行銷活動，與API觸發的行銷活動不同。</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>推出日期： 2026年4月1日</p>
 </td>
 </tr>
 </tbody>
