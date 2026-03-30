@@ -5,10 +5,10 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 14%
+source-wordcount: '1958'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -141,6 +141,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
++++ 如何在發佈前測試訊號觸發的協調行銷活動？
+
+當行銷活動在&#x200B;**草稿**&#x200B;中時，您可以在排程中定義&#x200B;**引數**，並為每個引數提供&#x200B;**測試值**&#x200B;以進行測試。 啟動工作流程，然後使用排程設定的範例請求或您自己的具有相同端點的請求呼叫觸發程式API，以使用這些測試值執行行銷活動。 [瞭解如何完成並測試訊號觸發的行銷活動](trigger-orchestrated-campaign.md#complete-and-test)。
+
++++
+
 +++ 我可以將即時協調的行銷活動還原為草稿嗎？
 
 是，在特定情況下。 **[!UICONTROL 返回草稿]**&#x200B;選項的設計目的是要作為取消發佈並將行銷活動還原為草稿狀態的復原機制。
@@ -184,7 +190,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 訊息的內容設計工具是否專屬於協調的行銷活動？
 
-否，內容設計工具(包括電子郵件Designer)在所有Journey Optimizer功能中都很常見。
+否，內容設計工具（包括電子郵件Designer）在所有Journey Optimizer功能中都很常見。
 
 **了解更多**
 

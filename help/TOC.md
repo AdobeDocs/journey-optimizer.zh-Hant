@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3150'
 ht-degree: 96%
 
 ---
@@ -214,6 +214,8 @@ ht-degree: 96%
          + [傳送願望清單項目更新](using/orchestrated/wishlist-uc.md)
          + [透過瀏覽活動與客戶互動](using/orchestrated/engage-customers-uc.md)
          + [通知使用者產品可用性](using/orchestrated/product-availability-uc.md)
+      + 進階作業 {#orchestrated-advanced}
+         + [使用訊號觸發協調的行銷活動](using/orchestrated/trigger-orchestrated-campaign.md)
 + 衝突與優先順序 {#conflict-prioritization}
    + [衝突管理與優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [識別潛在衝突](using/conflict-prioritization/conflicts.md)
@@ -897,7 +899,7 @@ ht-degree: 96%
       + [允許清單](using/configuration/allow-list.md)
    + [使用種子清單](using/configuration/seed-lists.md)
    + [支援電子郵件封存](using/configuration/archiving-support.md)
-   + [將「副本」欄位新增至電子郵件](using/configuration/cc-email-field.md)
+   + [將副本欄位新增至電子郵件](using/configuration/cc-email-field.md)
    + [管理執行欄位](using/configuration/primary-email-addresses.md)
    + [建立意見回饋 Webhook](using/configuration/feedback-webhooks.md)
 + 歷程設定 {#configure-journeys}
