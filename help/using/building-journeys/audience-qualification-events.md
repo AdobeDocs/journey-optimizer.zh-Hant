@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 4%
+source-wordcount: '1758'
+ht-degree: 3%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 4%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]對象參與狀態。
-   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -114,17 +114,21 @@ ht-degree: 4%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 如需頻率或隱藏邏輯，請使用商業規則，而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
->若為串流區段，新擷取的資料可能需要最多&#x200B;**2小時**&#x200B;才能在[!DNL Adobe Experience Platform]內完全傳播以供即時使用。 依賴日型或時間型條件（例如「今天發生的事件」）的受眾可能會在資格計時中遇到額外的複雜性。 如果您的歷程取決於立即的對象資格，請考慮在開頭新增短的[等待活動](wait-activity.md)。 您也可以允許緩衝時間，以確保符合資格。
+>串流區段會籍的傳播時間取決於會籍的評估方式及其在歷程中的使用位置：
+>
+>* **對象資格節點+串流區段：**&#x200B;當設定檔符合Edge的串流區段資格時，該成員資格會先從Edge投影到集線器，歷程才能對其採取行動。 此Edge對集線器傳輸通常需要&#x200B;**15到30分鐘** （根據UPS SLT）。 除非系統負載過重，否則額外的歷程處理時間通常少於5分鐘。 如果設定檔未如預期進入對象資格歷程，在進一步調查之前請允許此傳播視窗。 對於需要真正即時輸入的使用案例，請考慮改為單一事件觸發器。
+>* 條件節點中的&#x200B;**`inAudience()`— 在等待活動（或讀取對象歷程中）之前：**&#x200B;在此內容的條件運算式中評估區段會籍時，AJO會從設定檔的批次投影中讀取。 此投影中的資料新鮮度會在內嵌後攜帶最多&#x200B;**2小時**&#x200B;的SLT。 依賴日型或時間型條件的對象可能會遇到額外的延遲。 在歷程開始時新增短的[等待活動](wait-activity.md)，或允許緩衝時間，以確保反映最新的區段會籍。
+>* 條件節點中的&#x200B;**`inAudience()`— 在等待活動（或單一事件歷程中）之後：**&#x200B;在此內容中，會從串流（單一）投影讀取區段會籍。 如需預期的延遲，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。 此路徑通常更能回應最近的設定檔變更。
 
 #### 為何不是所有合格的設定檔都可以進入歷程 {#streaming-entry-caveats}
 
 將串流對象與&#x200B;**對象資格**&#x200B;活動搭配使用時，並非所有符合對象資格的設定檔都會進入歷程。 發生此行為的原因如下：
 
-* **已在對象中的設定檔**：只有歷程發佈後新符合對象資格的設定檔才會觸發登入。 發佈前已在對象中的設定檔將不會進入。
+* **已在對象中的設定檔**：只有歷程發佈後新符合對象資格的設定檔才會觸發登入。 發佈前已在對象中的設定檔將不會進入。 同樣地，當串流區段使用&#x200B;**以時間為基礎的條件** （例如「接下來8小時內的事件」）時，建立區段前已符合該條件的設定檔&#x200B;**不會回溯評估** — 只有區段啟用後資料變更的設定檔才會根據該條件進行評估。
 
 * **歷程啟用時間**：當您發佈歷程時，**對象資格**&#x200B;活動最多需要&#x200B;**10分鐘**&#x200B;才能變成作用中並開始聆聽設定檔專案及結束。 [進一步瞭解歷程啟用](#configure-segment-qualification)。
 
@@ -150,7 +154,7 @@ ht-degree: 4%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中找不到對象時的錯誤訊息
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -194,4 +198,4 @@ ht-degree: 4%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
