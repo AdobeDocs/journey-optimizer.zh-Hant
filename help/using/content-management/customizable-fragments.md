@@ -199,5 +199,5 @@ RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新�
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464379/?captions=chi_hant&learn=on&#x26;enablevpops)
 -->
