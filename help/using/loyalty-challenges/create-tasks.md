@@ -15,7 +15,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 * [開始應對忠誠度挑戰](get-started.md)
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
+* **建立任務** ◀}︎**您在這裡**
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -46,7 +46,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="建立任務"
->abstract="選取客戶作業（採購或支出），然後設定作業特定屬性：數量或金額、適用料號與排除，以及選擇性限制，例如最小支出或最大異動。 在「屬性」窗格中，設定工作名稱和描述。"
+>abstract="選取一項客戶活動 (購買或支出)，然後設定活動特定的屬性：數量或金額、適用項目與排除項目，以及選擇性限制，例如最低支出額或最高交易額。在「屬性」窗格中，設定任務名稱和說明。"
 
 您可以從兩個進入點建立任務。 無論您從何處開始，設定程式都相同。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 * **[!UICONTROL 購買]**：客戶必須購買一或多個專案才能完成此工作
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
@@ -105,18 +105,18 @@ ht-degree: 2%
 
 >[!ENDTABS]
 
-## 定義適用料號與排除專案 {#eligible-items-exclusions}
+## 定義適用項目與排除項目 {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="符合資格的專案和排除專案"
->abstract="對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來定義哪些專案和群組符合資格以及哪些專案與群組被排除。 這可讓您鎖定特定產品、類別或位置，以符合您的挑戰目標。 例如，您可以將支出任務限制在特定產品類別，或排除禮品卡或促銷專案以計入任務完成。"
+>title="適用項目與排除項目"
+>abstract="對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來定義哪些專案和群組符合資格以及哪些專案與群組被排除。 這可讓您鎖定特定產品、類別或位置，以符合您的挑戰目標。
+對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。這可讓您鎖定特定產品、類別或位置，以符合您的挑戰目標。
 
-例如，您可以將支出任務限制在特定產品類別，或排除禮品卡或促銷專案以計入任務完成。
+例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。
 
 ![](assets/tasks-create-eligible.png)
 

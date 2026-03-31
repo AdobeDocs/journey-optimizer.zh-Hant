@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
 source-wordcount: '1554'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -74,7 +74,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="類別"
->abstract="選擇此管道活動的行銷或異動。 行銷訊息使用行銷管道設定，並遵循您的標準商業規則。 異動訊息是用於營運通訊 — 通常由個人的動作觸發（例如密碼重設或購買確認），或用於時效性高的通知，例如中斷或取消。 這類使用者使用異動通道設定，會略過商業規則，而且不需要選擇加入。"
+>abstract="選擇此管道活動為「行銷」或「交易型」。行銷訊息會使用行銷管道設定，並遵循您的標準商業規則。交易型訊息適用於營運通訊，通常由個體的動作觸發 (例如，密碼重設或購買確認)，或者用於時效性高的通知，例如中斷或取消。這類訊息會使用交易型管道設定，略過商業規則，而且選擇加入非必要條件。"
 
 >[!PREREQUISITES]
 >
