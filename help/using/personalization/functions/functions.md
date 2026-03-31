@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 2%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 2%
         <td><a href="helpers.md#unless">Unless</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回false，則會轉譯區塊</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">URL引數加密</a></td><td>使用沙箱登入中的作用中機碼，在轉譯時加密URL查詢引數的運算式值 </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>使用沙箱登入中的作用中機碼，在轉譯時加密URL查詢引數的運算式值 </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">替換為</a></td><td>此函式用於變更範本部分的評估權杖</td>
