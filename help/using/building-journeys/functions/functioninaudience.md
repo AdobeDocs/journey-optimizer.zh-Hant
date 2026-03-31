@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: inAudience函式
+title: inAudience 函式
 description: 瞭解Adobe Experience Platform inAudience函式
 feature: Journeys
 role: Developer
@@ -8,14 +8,14 @@ level: Experienced
 keywords: inAudience，函式，運算式，歷程，對象，細分
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
+source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
 
-# inAudience函式 {#inAudience}
+# inAudience 函式 {#inAudience}
 
 `inAudience`函式是Adobe Experience Platform函式，可讓您檢查歷程中的個人是否屬於特定對象。 這項強大的功能可讓您根據對象成員資格建立個人化的歷程路徑，在您的客戶體驗中啟用複雜的細分和目標定位。
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 * 評估歷程條件中的即時受眾參與率
 * 結合多個對象檢查以建立複雜的目標規則
 
-函式會即時評估對象成員資格並傳回布林值，使其非常適合用於決策節點和條件運算式。 對象是在[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"}中定義和管理的(深入瞭解[在Journey Optimizer中使用對象](../../audience/about-audiences.md))，運算式編輯器會提供自動完成建議，協助您正確參考對象。
+函式會即時評估對象成員資格並傳回布林值，使其非常適合用於決策節點和條件運算式。 對象是在[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"}中定義和管理的（深入瞭解[在Journey Optimizer中使用對象](../../audience/about-audiences.md)），運算式編輯器會提供自動完成建議，協助您正確參考對象。
 
 **對象狀態：**
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 * **已實現**：該個人符合對象定義的資格且是作用中成員
 * **已退出**：個人已離開對象，不再符合資格
 
-只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++語法
 
@@ -110,6 +110,13 @@ inAudience("Unsubscribed") == false
 **合併原則考量事項：**
 * 透過`inAudience`函式使用多個對象時，合併原則不一致會導致錯誤或警示
 * 如需合併原則行為的詳細資訊，請參閱[歷程屬性](../journey-properties.md)
+
+**傳播時間：** {#propagation-timing}
+
+在條件節點中使用`inAudience()`時，區段會籍評估時間會依條件在歷程中出現的位置而有所不同：
+
+* **在等待活動（或讀取對象歷程）之前：** AJO會從設定檔的批次投影中讀取。 此投影中的資料新鮮度會在內嵌後攜帶最多&#x200B;**2小時**&#x200B;的SLT。 依賴日型或時間型條件的對象可能會遇到額外的延遲。 在歷程開始時新增短的[等待活動](wait-activity.md)，或允許緩衝時間，以確保反映最新的區段會籍。
+* **在等待活動（或單一事件歷程）之後：**&#x200B;從串流（單一）投影讀取區段會籍。 如需預期的延遲，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。 此路徑通常更能回應最近的設定檔變更。
 
 ## 相關主題
 
