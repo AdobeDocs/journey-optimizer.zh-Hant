@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '1011'
+ht-degree: 3%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -283,7 +283,7 @@ Some edu specific content
 }
 ```
 
-## URL引數加密 {#url-parameter-encryption-helper}
+## 加密 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ Some edu specific content
 >
 >此功能目前僅適用於電子郵件頻道。
 
-`EncryptParam` Helper可讓您在轉譯時加密任何運算式值（通常是設定檔屬性、權杖，或甚至是您在運算式中建置的字串JSON結構），然後再將其寫入追蹤連結或登陸頁面上的查詢引數中。
+`Encrypt`函式可讓您在轉譯時加密任何運算式值（通常是設定檔屬性、權杖，或甚至是您在運算式中建立的stricated JSON結構），然後再將其寫入追蹤連結或登陸頁面上的查詢引數中。
 
 檢查或轉送連結時，無法在URL中顯示為純文字的值（包括PII或其他敏感資料）可供讀取。 只有您使用此協助程式包裝的值會加密，URL的其餘部分不會變更。
 
-您可以根據URL設計和長度限制，將協助程式套用至連結中的一個引數、數個或所有引數。
+**使用案例**
+
+此協助程式可讓您在將敏感設定檔資料(PII)納入轉譯的輸出之前，先加以保護。
 
 **先決條件**
 
-* 貴組織必須啟用URL引數加密（可用性限制）。 請聯絡您的 Adobe 代表以取得存取權。
-* 管理員必須在沙箱層級機碼登入中建立至少一個使用中機碼。 [瞭解如何建立和管理金鑰](../url-parameter-encryption.md)
-
-**運作方式**
-
-1. 從協助程式清單中，選取`EncryptParam`協助程式。
-
-1. 傳遞`data`：要加密的值或運算式（例如`profile`欄位、變數或構成字串語彙基元）。
-
-1. 傳遞`key`：沙箱機碼登入中的使用中機碼識別碼。
+管理員必須在沙箱層級機碼登入中建立至少一個使用中機碼。 [瞭解如何建立和管理金鑰](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >使用已撤銷或其他非作用中的金鑰應該會導致個人化在轉譯時失敗，因此訊息不會以無效金鑰傳送。
 
-**範例**
-
-假設您定義或計算了一個值（例如包含JSON裝載或串連識別碼的變數`stringToken`），該值不能在`token`查詢引數中顯示為純文字。 最終URL可以遵循此模式 — 將`stringToken`取代為您的運算式，並將`encrypt-key`取代為機碼登入中的作用中機碼ID：
+**語法**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**使用狀況**
+
+此協助程式會加密敏感資料，並將結果儲存在範本變數中。<!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+您可以根據URL設計和長度限制，將協助程式套用至連結中的一個引數、數個或所有引數。
+
+* **輸入**： `dataPath` （必須解析為字串的資料參考）、`keyName` （加密金鑰識別碼）、`version` （選擇性金鑰版本）、`result` （加密輸出的變數名稱）
+* **輸出**：讓加密值在指定的`result`變數中可用。
+* **結果格式**：結果變數包含以點分隔的字串： `keyName.version.nonce.authTag.cipherText` （除`keyName`和`version`以外的所有區段皆為URL安全Base64編碼，不含內距）。
+* **靜態金鑰需求**： `keyName`和`version`必須是靜態字串常值（不支援動態參考）。
+* **預設版本**： `version`引數是選用的；如果省略，加密金鑰服務會解析預設版本
+
+**範例**
+
+| 範例運算式 | 結果 |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **護欄**
 
-在您的登陸頁面、應用程式或API上，解密處理於[!DNL Journey Optimizer]之外。 與您的安全性團隊一起規劃金鑰生命週期和輪換，以便仍然可以在需要時解密歷史裝載。
+* 在您的登陸頁面、應用程式或API上，解密處理於[!DNL Journey Optimizer]之外。 與您的安全性團隊一起規劃金鑰生命週期和輪換，以便仍然可以在需要時解密歷史裝載。
 
-撤銷的金鑰不得用於新加密。 遵循您的安全性原則進行輪換和解除委任。
-
+* 撤銷的金鑰不得用於新加密。 遵循您的安全性原則進行輪換和解除委任。
