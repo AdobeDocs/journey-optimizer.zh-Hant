@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # 使用訊號觸發協調的行銷活動 {#trigger-signal}
 
@@ -26,6 +26,10 @@ ht-degree: 0%
 1. [新增訊號承載的引數](#add-parameters-for-the-signal-payload-optional-parameters) （選擇性）
 1. [建置及測試行銷活動](#build-and-test-the-campaign-build-and-test)
 1. [發佈並觸發行銷活動](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>若要使用訊號觸發協調的行銷活動，您需要&#x200B;**[!DNL Publish orchestrated campaigns]**&#x200B;許可權(`orchestrated-campaign.publish`)。 請參閱[內建許可權](../administration/ootb-permissions.md)。
 
 ## 排程要由訊號觸發的行銷活動 {#configure-signal}
 
