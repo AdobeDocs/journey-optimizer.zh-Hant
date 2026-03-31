@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -282,4 +282,49 @@ Some edu specific content
   "value": "Alex"
 }
 ```
+
+## URL引數加密 {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>此功能在「有限可用性」中提供。 請聯絡您的 Adobe 代表以取得存取權。
+>
+>此功能目前僅適用於電子郵件頻道。
+
+`EncryptParam` Helper可讓您在轉譯時加密任何運算式值（通常是設定檔屬性、權杖，或甚至是您在運算式中建置的字串JSON結構），然後再將其寫入追蹤連結或登陸頁面上的查詢引數中。
+
+檢查或轉送連結時，無法在URL中顯示為純文字的值（包括PII或其他敏感資料）可供讀取。 只有您使用此協助程式包裝的值會加密，URL的其餘部分不會變更。
+
+您可以根據URL設計和長度限制，將協助程式套用至連結中的一個引數、數個或所有引數。
+
+**先決條件**
+
+* 貴組織必須啟用URL引數加密（可用性限制）。 請聯絡您的 Adobe 代表以取得存取權。
+* 管理員必須在沙箱層級機碼登入中建立至少一個使用中機碼。 [瞭解如何建立和管理金鑰](../url-parameter-encryption.md)
+
+**運作方式**
+
+1. 從協助程式清單中，選取`EncryptParam`協助程式。
+
+1. 傳遞`data`：要加密的值或運算式（例如`profile`欄位、變數或構成字串語彙基元）。
+
+1. 傳遞`key`：沙箱機碼登入中的使用中機碼識別碼。
+
+>[!NOTE]
+>
+>使用已撤銷或其他非作用中的金鑰應該會導致個人化在轉譯時失敗，因此訊息不會以無效金鑰傳送。
+
+**範例**
+
+假設您定義或計算了一個值（例如包含JSON裝載或串連識別碼的變數`stringToken`），該值不能在`token`查詢引數中顯示為純文字。 最終URL可以遵循此模式 — 將`stringToken`取代為您的運算式，並將`encrypt-key`取代為機碼登入中的作用中機碼ID：
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**護欄**
+
+在您的登陸頁面、應用程式或API上，解密處理於[!DNL Journey Optimizer]之外。 與您的安全性團隊一起規劃金鑰生命週期和輪換，以便仍然可以在需要時解密歷史裝載。
+
+撤銷的金鑰不得用於新加密。 遵循您的安全性原則進行輪換和解除委任。
 

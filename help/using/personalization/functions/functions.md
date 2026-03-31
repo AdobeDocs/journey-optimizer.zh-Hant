@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2479'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 >
 >個人化編輯器中可用的功能和功能，與[歷程進階運算式編輯器](../../building-journeys/expression/expressionadvanced.md)中可用的功能和功能不同。 例如，`now()`函式僅可用於歷程運算式。 [了解更多](../../email/code-content.md#date-time-limitations)
 
-## 函式{#functions-helper}
+## 函數{#functions-helper}
 
 ### 彙總與陣列函式
 
@@ -454,8 +454,11 @@ ht-degree: 2%
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>此函式允許將運算式儲存為變數，以便稍後在查詢中使用</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回false，則會轉譯區塊</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">URL引數加密</a></td><td>使用沙箱登入中的作用中機碼，在轉譯時加密URL查詢引數的運算式值 </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">替換為</a></td><td>此函式用於變更範本部分的評估權杖</td>
