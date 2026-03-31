@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 加密追蹤中的URL引數
+title: 加密URL引數
 description: 瞭解如何加密敏感的URL查詢引數，以免PII在Journey Optimizer追蹤連結和登入頁面上以純文字顯示。
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 加密， URL，追蹤，登陸頁面，金鑰登入，個人化，安全性，隱私權，沙箱
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# 加密追蹤中的URL引數 {#url-parameter-encryption}
+# 加密URL引數 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ ht-degree: 3%
 ### 運作方式 {#how-it-works}
 
 * **Administrators**&#x200B;使用金鑰登入，根據貴組織的安全性原則[建立金鑰](#create-keys)和[管理金鑰](#manage-keys)。
-* **行銷人員**&#x200B;在個人化編輯器中插入加密協助程式，並傳遞要保護的值以及登入中的作用中金鑰識別碼。 如需語法和選項，請參閱[URL引數加密](functions/helpers.md#url-parameter-encryption-helper)。
+* **行銷人員**&#x200B;在個人化編輯器中插入`Encrypt`協助程式，並傳遞要保護的值加上登入中的作用中金鑰識別碼。 如需語法和選項，請參閱[本節](functions/helpers.md#url-parameter-encryption-helper)。
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ ht-degree: 3%
    >[!NOTE]
    >
    >僅應選取作用中金鑰，以在個人化編輯器中加密新值。 請勿將撤銷的金鑰用於新內容。
-
-
-

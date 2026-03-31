@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1a23350852e46736b0a7842bde85c40e9419a506
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1804'
 ht-degree: 19%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**：2026 年 3 月 24-25 日
 
@@ -47,12 +47,13 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>追蹤連結和登入頁面中的URL引數現在可以加密，為敏感引數資料提供額外的安全層。</p>
+<p>追蹤和登陸頁面連結中的URL引數（已新增至您的電子郵件訊息）現在可以加密，為敏感引數資料提供額外的安全層。</p>
 <ul>
 <li>在專用的<strong>管理</strong>登入中登入及管理加密金鑰。</li>
-<li>使用運算式中新的加密協助程式，針對您要在轉譯時保護的查詢引數，加密追蹤連結和登陸頁面URL中的敏感資料。</li>
+<li>在運算式中使用新的「Encrypt」協助程式函式，針對您要在轉譯時保護的查詢引數，加密URL中的敏感資料。</li>
 </ul>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細文件</a>。</p>
 <p>推出日期： 2026年3月31日</p>
 </td>
@@ -203,7 +204,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
