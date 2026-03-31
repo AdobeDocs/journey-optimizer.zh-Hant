@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 19%
+source-wordcount: '1811'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **發行日期**：2026 年 3 月 24-25 日
 
@@ -55,6 +55,25 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細文件</a>。</p>
+<p>推出日期： 2026年3月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/image-to-html.md">詳細文件</a>。</p>
 <p>推出日期： 2026年3月31日</p>
 </td>
 </tr>
@@ -128,7 +147,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>在2026年2月<strong>動作活動</strong>正式發行後，歷程畫布中的舊版原生頻道活動（電子郵件、推播、簡訊、應用程式內、網頁、程式碼型體驗和內容卡）現已棄用。</p>
-<p>您現在使用單一<strong>動作活動</strong>來設定所有通道動作，取代個別通道特定節點的需求。</p>
+<p>您現在必須使用單一「動作」活動來設定所有管道動作，取代需要個別的管道專用節點。</p>
 <p>使用舊版管道活動的現有歷程仍可繼續運作，無需任何變更或移轉。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
@@ -204,7 +223,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細說明文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
@@ -331,24 +350,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 以下的功能和改進計畫於3月下旬/4月初發行。 發行日期和範圍有&#x200B;**可能會變更，恕不另行通知**。
 
 ### 功能
-
-<table>
-<thead>
-<tr>
-<th><strong>將影像轉換為電子郵件內容範本</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以直接在Journey Optimizer中將影像轉換為電子郵件內容範本。 使用AI支援的分析，從視覺參考自動產生結構化HTML範本，大幅縮短電子郵件設計時間。</p>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 <a href="../content-management/image-to-html.md">了解更多</a></p>
-<p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>推出日期： 2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
