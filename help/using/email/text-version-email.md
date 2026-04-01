@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
+source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 8%
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 ![](assets/text_version_3.png)
 
-## 使用自訂文字版本 {#plain-text-default-custom}
+## 使用自訂文字版本 {#plain-text-custom}
 
 如果您偏好為純文字版本使用不同的內容，請依照以下步驟操作：
 
@@ -120,7 +120,7 @@ Unsubscribe: https://example.com/unsubscribe
 
 **建議：**&#x200B;使用自動同步。
 
-**為什麼自動同步可以運作：**&#x200B;訂單確認具有簡單線性結構，可自然從HTML轉譯為純文字。 資訊會邏輯地流動(訂單明細→料號→送貨總→)，而個人化欄位（如訂單編號與客戶名稱）在兩個格式中的運作方式相同。 結構化、表格式資料可完全轉換，無需手動調整，既節省時間，又保持清晰度。
+**為什麼自動同步可以運作：**&#x200B;訂單確認具有簡單線性結構，可自然從HTML轉譯為純文字。 資訊會邏輯地流動（訂單明細→料號→送貨總→），而個人化欄位（如訂單編號與客戶名稱）在兩個格式中的運作方式相同。 結構化、表格式資料可完全轉換，無需手動調整，既節省時間，又保持清晰度。
 
 +++
 
@@ -239,7 +239,7 @@ Your input helps us improve our service.
 每當您對HTML內容進行重大變更時，請更新它。 如果核心訊息維持不變，微幅調整HTML可能不需要更新純文字。
 
 **我可以在純文字電子郵件中包含連結嗎？**\
-是！包含完整URL (例如https://example.com/page)，且大多數電子郵件使用者端會自動使其可點選。
+是！包含完整URL （例如https://example.com/page），且大多數電子郵件使用者端會自動使其可點選。
 
 **我是否應該包含純文字的影像？**\
 否，純文字不支援影像。 請改為說明影像所顯示的內容，或提供線上檢視影像的連結。
