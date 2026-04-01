@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可以從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
 
 ![](../email/assets/email-preview-button.png)
+
+>[!IMPORTANT]
+>
+>如果您使用&#x200B;**[!UICONTROL 協調的行銷活動]**&#x200B;頻道活動的&#x200B;**模擬內容**，請參閱[檢查並測試您的內容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以取得更多資訊和重要備註。
 
 ## 使用測試設定檔資料，或是範例輸入資料進行測試 {#methods}
 
@@ -68,4 +72,4 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 了解如何使用測試輪廓來測試各個收件匣裡的電子郵件轉譯，根據測試輪廓預覽您的個人化電子郵件，同時傳送校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430345?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

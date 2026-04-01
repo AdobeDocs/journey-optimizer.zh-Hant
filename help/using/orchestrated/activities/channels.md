@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 44%
+source-wordcount: '1682'
+ht-degree: 41%
 
 ---
 
@@ -167,11 +167,17 @@ UNUSED IDs in BJ
 
 如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)。
 
-### 檢查並測試您的內容
+### 檢查並測試您的內容 {#simulate-content-test-profiles}
 
 一旦建立內容完畢，就請使用 **[!UICONTROL [模擬內容]]** 按鈕，以從 CSV / JSON 檔案上傳，或可透過手動新增的測試設定檔，或是範例輸入資料，預覽並測試內容。 [了解更多](../../content-management/preview-test.md)
 
 ![顯示 [模擬內容] 按鈕的影像](../assets/channel-simulate.png)
+
+當您在協調的行銷活動中使用&#x200B;**測試設定檔**&#x200B;模擬內容時，套用兩個重要限制：
+
+* **執行必須到達測試中的管道活動** — 使用&#x200B;**[!UICONTROL 開始]**&#x200B;按鈕執行測試中的行銷活動，讓工作流程到達您要模擬的管道活動。 在測試模式中，工作流程會在管道活動時暫停，因此永遠不會到達另一個管道活動之後的管道活動。 您無法對這些下游管道活動使用&#x200B;**[!UICONTROL 模擬內容]**。 請參閱[在發佈前測試您的行銷活動](../start-monitor-campaigns.md#test)。
+
+* **測試設定檔必須符合頻道活動目標** — 使用屬於該頻道活動目標對象的測試設定檔。 如果設定檔不在該對象中，則選取它不會呈現內容的預覽。 請參閱[選取測試設定檔](../../content-management/test-profiles.md)。
 
 ## 確認訊息傳送
 
