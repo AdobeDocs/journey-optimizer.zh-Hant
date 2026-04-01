@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -337,3 +337,5 @@ Some edu specific content
 * 在您的登陸頁面、應用程式或API上，解密處理於[!DNL Journey Optimizer]之外。 與您的安全性團隊一起規劃金鑰生命週期和輪換，以便仍然可以在需要時解密歷史裝載。
 
 * 撤銷的金鑰不得用於新加密。 遵循您的安全性原則進行輪換和解除委任。
+
+* 加密程式需要大量資源，使用`Encrypt`函式可能會影響轉譯器時的輸送量。
