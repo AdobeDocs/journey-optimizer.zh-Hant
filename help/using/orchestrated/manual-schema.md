@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何直接透過使用者介面建立關聯式結構描述。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
@@ -110,7 +110,7 @@ ht-degree: 11%
 
 建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 連結結構描述 {#link-schema}
 
@@ -146,23 +146,23 @@ ht-degree: 11%
 
 1. 輸入您&#x200B;**[!UICONTROL 資料集]**&#x200B;的&#x200B;**[!UICONTROL 名稱]**，然後按一下&#x200B;**[!UICONTROL 完成]**。
 
-您現在需要啟用協調行銷活動的資料集。
+您現在必須為協調的行銷活動啟用資料集。
 
-## 針對協調的行銷活動啟用資料集 {#enable}
+## 為協調的行銷活動啟用資料集 {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="協調的行銷活動"
->abstract="建立資料集後，您需要明確地針對協調的行銷活動將其啟用。此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。"
+>abstract="建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。"
 
 
-建立資料集後，您需要明確地針對協調的行銷活動將其啟用。此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
+建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
 
 請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
 
 1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;清單中找出您的資料集。
 
-1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;設定中，啟用&#x200B;**協調行銷活動**&#x200B;選項，以標籤資料集可在您的協調行銷活動中使用。
+1. 從&#x200B;**[!UICONTROL 資料集]**&#x200B;設定中，啟用&#x200B;**協調的行銷活動**&#x200B;選項，將資料集標示為可用於協調的行銷活動。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

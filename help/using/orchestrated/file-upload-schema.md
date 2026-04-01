@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 48%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -154,7 +154,7 @@ ht-degree: 48%
 
    * **下載**：以.png檔案格式下載ER圖表。
 
-1. 完成後，請按一下&#x200B;**儲存**。 此動作會建立結構描述、相關資料集，同時啟用資料集，即可用於協調行銷活動。
+1. 完成後，請按一下&#x200B;**儲存**。 此動作會建立結構描述和相關聯的資料集，並啟用資料集以用於協調的行銷活動。
 
 1. 請按一下&#x200B;**[!UICONTROL 開啟工作]**，以便監視建立工作的進度。 此流程可能需要幾分鐘的時間，全視 DDL 檔案中定義的表格數目而定。
 
@@ -182,7 +182,7 @@ ht-degree: 48%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

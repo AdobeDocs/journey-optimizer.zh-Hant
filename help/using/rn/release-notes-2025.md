@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>API 觸發的電子郵件行銷活動的高輸送量傳訊</strong><br/></th>
+<th><strong>API觸發電子郵件行銷活動的高輸送量傳訊</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API 觸發的行銷活動提供新的高輸送量交易型傳訊。此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。此模式也支援交易訊息，而不需參考或建立客戶輪廓，例如訪客結帳、訂單確認、密碼重設、安全性通知和其他服務/營運通知。</p>
+<p>API觸發的行銷活動提供新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。此模式也支援交易訊息，而不需參考或建立客戶輪廓，例如訪客結帳、訂單確認、密碼重設、安全性通知和其他服務/營運通知。</p>
 <p>此功能僅適用於電子郵件管道，以及已購買 Adobe 高輸送量交易訊息附加產品的組織。請聯絡您的 Adobe 代表以取得更多資訊。</p>
 <p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-high-throughput.md">詳細文件</a>。</p>
 <p>推出日期：2025 年 10 月 22 日</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### 改善 {#sept-25-9-improvements}
 
-* **API 觸發的行銷活動的 Webhook 支援**\
-  API 觸發的行銷活動現在支援 Webhook。設定 Webhook URL 以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監視和自動化。[閱讀全文](../configuration/feedback-webhooks.md)
+* **API觸發的行銷活動的Webhook支援**\
+  API觸發的行銷活動現在支援Webhook。 設定 Webhook URL 以接收每則訊息的即時狀態更新，進而改善可觀察性，並實現順暢的監視和自動化。[閱讀全文](../configuration/feedback-webhooks.md)
 
   推出日期：2025 年 9 月 29 日
 

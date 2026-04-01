@@ -5,7 +5,7 @@ title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 每個結構描述&#x200B;**的平均屬性數目不應超過50個資料行**，以維持管理性和效能。
 
-* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以啟用用於協調的行銷活動或動作行銷活動。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料擷取 {#data-ingestion}
 

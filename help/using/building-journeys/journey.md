@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 歷程、探索、開始、單一、讀取對象、對象資格、商業事件、即時、已排程、批次、事件觸發、工作流程、協調流程、個人化、多管道
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 93%
 **快速決策：**
 
 * 使用&#x200B;**歷程**，打造多步驟、行為導向體驗，讓每位客戶都可按照自己的步調前進
-* 使用&#x200B;**動作/API 行銷活動**，可將簡單、排程或觸發的訊息傳遞給客群
-* 針對需要多實體細分、精確預先傳送計數的複雜批次工作流程，使用&#x200B;**協調的行銷活動**
+* 使用&#x200B;**動作和API觸發的行銷活動**，將簡單、排程或觸發的訊息傳遞給對象
+* 針對需要多實體細分和精確預先傳送計數的複雜批次工作流程，使用&#x200B;**協調的行銷活動**
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -83,7 +83,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -93,7 +93,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -103,7 +103,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **善用資料**
 
@@ -113,7 +113,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -123,7 +123,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調流程活動**
 
@@ -214,7 +214,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -224,7 +224,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -234,7 +234,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
@@ -244,7 +244,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -254,7 +254,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多管道行銷活動**
 
@@ -264,7 +264,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -282,7 +282,7 @@ ht-degree: 93%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -292,7 +292,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -302,7 +302,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試運行**
 
@@ -312,7 +312,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -322,7 +322,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和整理**
 
@@ -332,7 +332,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -349,7 +349,7 @@ ht-degree: 93%
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ ht-degree: 93%
 
 * **行銷活動 (動作和 API 觸發)**：將簡單的訊息傳送給客群，依排程或透過 API 觸發程序同時執行所有輪廓。最適合促銷活動、電子報、交易型訊息。
 
-* **協調的行銷活動**：使用關聯式資料 (輪廓+產品/商店/預訂) 進行具有複雜細分的多步驟批次工作流程。所有輪廓連同確切的預先傳送計數一起處理。最適合季節性促銷、產品推出，以及需要多實體資料的行銷活動。
+* **協調的行銷活動**：使用關聯式資料（設定檔+產品/商店/預訂）進行複雜分段的多步驟批次工作流程。 所有輪廓連同確切的預先傳送計數一起處理。最適合季節性促銷、產品推出，以及需要多實體資料的行銷活動。
 
-**主要差異**：歷程維護即時動作的個別客戶狀態；動作/API 行銷活動會批次傳送簡單訊息；協調的行銷活動會提供具有多實體細分功能的批次工作流程畫布。
+**主要差異**：歷程會維護即時動作的個別客戶狀態；動作和API觸發的行銷活動會批次傳送簡單訊息；協調的行銷活動會提供具有多實體分段功能的批次工作流程畫布。
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [了解協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)
@@ -388,7 +388,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 ➡️ **更多問題？** [請檢視完整的歷程常見問題集](journey-faq.md)，包含 40 個以上的詳細答案
 
-## 需要協助嗎？ {#help}
+## 需要協助嗎? {#help}
 
 使用這些連結來尋找指引、疑難排解和資源。
 
@@ -411,4 +411,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[疑難排解執行問題](troubleshooting-execution.md)** - 偵錯歷程執行問題
 * **[疑難排解傳入活動](troubleshooting-inbound.md)** - 修正進入及資格問題
 
-**準備好建立您的第一個歷程了嗎？**&#x200B;[立即開始 →](journey-gs.md)
+**準備好建立您的第一個歷程了嗎？**[立即開始 →](journey-gs.md)

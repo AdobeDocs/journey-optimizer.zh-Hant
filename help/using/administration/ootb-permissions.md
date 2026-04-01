@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 2%
@@ -41,7 +41,7 @@ ht-degree: 2%
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
 | 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯、停止（即時、測試模式和試執行）並刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Publish journeys]**：發佈、開始測試模式、開始試執行、暫停並繼續歷程。</br>**[!DNL View journeys]**：歷程的唯讀存取權。</br>**[!DNL View journeys events, data sources and actions]**：歷程事件、歷程自訂動作和歷程資料來源的唯讀存取權。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
 | 訊息 | **[!DNL Manage messages]**：讀取、建立、編輯和刪除訊息。 </br>**[!DNL Manage messages preview and test]**：套用原則時，核准和發佈訊息的權利。</br>**[!DNL Publish messages]**：發佈訊息的權利。</br>**[!DNL View messages]**：訊息的唯讀存取權。</br>**[!DNL View messages report]**：讀取和編輯訊息報告。 |
-| 協調的行銷活動 | **[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯和刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`)：發佈協調的行銷活動。 使用訊號觸發協調行銷活動也需要此許可權。 </br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL View orchestrated campaigns]**：讀取及編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。 |
+| 協調的行銷活動 | **[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯和刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL Publish orchestrated campaigns]**：發佈協調的行銷活動。 使用訊號觸發協調行銷活動也需要此許可權。 </br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL View orchestrated campaigns]**：讀取及編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。 |
 | 輪廓管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義，產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估過的對象區段匯出至資料集。</br>**[!DNL Import audience segments]**：將外部對象區段匯入至Adobe Experience Platform，以用於細分和啟動。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL Manage segments]**：讀取、建立、編輯和刪除對象區段定義。</br>**[!DNL View merge policies]**：可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯和刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新和刪除查詢服務存取權不會到期的認證。 |
 | 報告 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |

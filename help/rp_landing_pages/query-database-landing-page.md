@@ -5,22 +5,22 @@ title: 查詢資料庫
 description: 查詢資料庫
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 查詢資料庫{#section-overview}
 
-探索如何使用 Adobe Journey Optimizer 強大的資料庫查詢工具充分釋放客群資料的潛力。不論您是要定義精確的客群區段、自訂動態行銷活動的規則，還是根據即時回饋建立重定向策略，本節將引導您完成所有工作。您將了解如何使用規則產生器來進行直覺式的篩選、使用運算式編輯器進行更深入的進階查詢，以及根據使用者互動來製作重定向規則。每個工具都旨在協助您將資料轉換為可操作的深入分析，確保您的行銷活動在適當的時間觸及適當的人員。我們開始吧！
+探索如何使用 Adobe Journey Optimizer 強大的資料庫查詢工具充分釋放客群資料的潛力。不論您是要定義精確的客群區段、自訂動態行銷活動的規則，還是根據即時回饋建立重定向策略，本節將引導您完成所有工作。您將了解如何使用規則產生器來進行直覺式的篩選、使用運算式編輯器進行更深入的進階查詢，以及根據使用者互動來製作重定向規則。每個工具都旨在協助您將資料轉換為可操作的洞察，確保您的行銷活動在適當的時間觸及適當的人員。我們開始吧！
 
 ## 查詢資料庫
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 將規則產生器用於協調的行銷活動
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何在 Adobe Journey Optimizer 中建立您的第一個規則
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何在 Adobe Journey Optimizer 中編輯運算式
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 在 Adobe Journey Optimizer 中建立重定向查詢
 

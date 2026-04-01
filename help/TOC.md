@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -152,9 +152,9 @@ ht-degree: 95%
       + [安排行銷活動](using/campaigns/campaign-schedule.md)
       + [使用波段傳送](using/campaigns/send-using-waves.md)
       + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
-   + 由 API 觸發的行銷活動 {#api-triggered-campaigns}
-      + [由 API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
+   + API 觸發的行銷活動 {#api-triggered-campaigns}
+      + [API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
+      + [使用API觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/api-triggered-campaign-action.md)
       + [編輯行銷活動的內容](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [安排行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
       + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
-      + [為 API 觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [為API觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [協調的行銷活動](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
