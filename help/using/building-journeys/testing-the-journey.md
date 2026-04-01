@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1947'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 >id="ajo_journey_test"
 >title="測試您的歷程"
 >abstract="在發佈您的歷程之前使用測試設定檔進行測試。這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="歷程試運行"
+
 
 一旦您建立了您的歷程，您就可以在發佈之前先測試它。 Journey Optimizer提供「測試模式」，以便在測試設定檔歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
 
