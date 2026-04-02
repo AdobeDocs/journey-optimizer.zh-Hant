@@ -5,9 +5,9 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1969'
 ht-degree: 13%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ 如何在發佈前測試訊號觸發的協調行銷活動？
 
-當行銷活動在&#x200B;**草稿**&#x200B;中時，您可以在排程中定義&#x200B;**引數**，並為每個引數提供&#x200B;**測試值**&#x200B;以進行測試。 啟動工作流程，然後使用排程設定的範例請求或您自己的具有相同端點的請求呼叫觸發程式API，以使用這些測試值執行行銷活動。 [瞭解如何完成並測試訊號觸發的行銷活動](trigger-orchestrated-campaign.md#complete-and-test)。
+當行銷活動在&#x200B;**草稿**&#x200B;中時，您可以在排程中定義&#x200B;**引數**，並為每個引數提供&#x200B;**測試值**&#x200B;以進行測試。 啟動工作流程，然後使用排程設定的範例請求或您自己的具有相同端點的請求呼叫觸發程式API，以使用這些測試值執行行銷活動。 [瞭解如何完成並測試訊號觸發的行銷活動](trigger-orchestrated-campaign.md#build-and-test)。 如需觸發API參考，請參閱[觸發協調的行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 +++
 

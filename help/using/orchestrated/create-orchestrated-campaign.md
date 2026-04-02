@@ -5,7 +5,7 @@ title: 使用Journey Optimizer建立及排程協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的行銷活動
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 63%
@@ -70,13 +70,15 @@ ht-degree: 63%
 
 根據預設，協調的行銷活動在手動啟動時開始，並在執行相關活動後結束。 如果您偏好延遲執行或循環執行行銷活動，可以定義行銷活動的排程。
 
-您也可以在Campaign收到來自外部系統或應用程式的訊號時啟動它，而不是依排程執行。 [瞭解如何使用訊號](trigger-orchestrated-campaign.md)觸發協調的行銷活動。
-
 排程協調行銷活動時，請考量下列最佳實務，以確保最佳效能和預期行為：
 
 * 請勿將協調的行銷活動排程為超過每15分鐘執行一次，因為它可能會阻礙整體系統效能並在資料庫中建立區塊。
 * 如果您想在協調的行銷活動中傳送單次訊息，可將其設定為執行&#x200B;**一次**。
 * 如果您想要在協調的行銷活動中傳送循環訊息，您必須使用&#x200B;**排程**&#x200B;選項並設定執行頻率。 循環傳遞活動不允許您自己定義排程。
+
+>[!NOTE]
+>
+>您也可以在Campaign收到來自外部系統或應用程式的訊號時啟動它，而不是依排程執行。 [瞭解如何使用訊號](trigger-orchestrated-campaign.md)觸發協調的行銷活動。
 
 若想設定行銷活動排程，請遵循下列步驟：
 

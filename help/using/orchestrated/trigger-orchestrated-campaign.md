@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # 使用訊號觸發協調的行銷活動 {#trigger-signal}
 
 您可以傳送訊號來觸發協調的行銷活動，而非依排程執行。 訊號會透過來自外部系統或應用程式的API呼叫傳送。 使用訊號時，您可以傳遞引數。 接著，這些變數便可在協調的行銷活動中作為執行內容中的事件變數使用，以用於目標定位、條件或運算式。
+
+如需觸發器端點的完整REST規格（路徑、標頭、內文、回應和錯誤），請參閱Adobe Journey Optimizer API檔案中的[觸發器協調的行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 使用訊號觸發協調行銷活動的端對端程式：
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 開始]**&#x200B;以開始行銷活動。
 
-1. 使用您從排程器複製的範例要求傳送觸發API呼叫。<!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. 使用您從排程器複製的範例要求傳送觸發API呼叫。 如需要求與回應的詳細資訊，請參閱[觸發協調的行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 對測試結果感到滿意時，[發佈行銷活動](#publish)。
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 
    ![在排程設定中複製API請求](assets/triggered-oc-copy.png)
 
-1. 從您的系統呼叫觸發程式API。
+1. 從您的系統呼叫觸發程式API。 如需即時端點規格，請參閱[Trigger Orchestrated行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
    >[!IMPORTANT]
    >
