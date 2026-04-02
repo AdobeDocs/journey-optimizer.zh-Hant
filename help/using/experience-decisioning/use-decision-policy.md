@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果您在相同的電子郵件中使用多個決定原則（例如，一個用於頁首，一個用於頁尾），相同的選件會在各個版位中重複刪除：每個區域會收到不同的選件。 若要在多個區域顯示相同優惠，請在新增決定原則時使用&#x200B;**[!UICONTROL 重複使用決定輸出]**。 [瞭解如何建立決定原則](create-decision-policy.md)。
+   >如果您在相同的電子郵件中使用多個決定原則（例如，一個用於頁首，一個用於頁尾），相同的選件會在各個版位中重複刪除：不會轉譯兩次。 第二個決定原則不會傳回任何內容，且會顯示空白字元，除非您已設定遞補優惠，在此情況下，將會改為顯示遞補優惠。
 
 >[!TAB 簡訊]
 
