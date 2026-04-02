@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
+source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 4%
+source-wordcount: '1702'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="對象資格鑑定事件"
->abstract="此活動會監聽 [!DNL Adobe Experience Platform] 客群中輪廓的入口和出口，讓個體可於歷程中前進。"
+>title="客群資格篩選"
+>abstract="當設定檔符合或退出[!DNL Adobe Experience Platform]對象時觸發歷程進入或繼續。 串流對象建議使用；批次案例使用讀取對象活動。"
 
 ## 關於對象資格鑑定事件{#about-segment-qualification}
 
@@ -43,6 +43,33 @@ ht-degree: 4%
 ## 設定活動 {#configure-segment-qualification}
 
 若要設定&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動，請遵循下列步驟：
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_label"
+>title="標籤"
+>abstract="新增選用標籤，以在報告和測試模式記錄中識別此活動。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_audience"
+>title="客群"
+>abstract="選取要利用的[!DNL Adobe Experience Platform]對象。 歷程會監聽此對象的設定檔入口和出口。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_behavior"
+>title="行為"
+>abstract="選擇是否聆聽對象入口、出口或兩者。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_identity"
+>title="身分識別類型"
+>abstract="選取用來識別個人的身分型別。 只有以人物為基礎的身分名稱空間才可使用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_merge_policy"
+>title="合併原則"
+>abstract="系統會自動從您選取的對象中擷取合併原則，並在整個歷程中套用。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="深入瞭解合併原則"
+
 
 1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。
 
@@ -69,7 +96,7 @@ ht-degree: 4%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]對象參與狀態。
-   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -114,7 +141,7 @@ ht-degree: 4%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 如需頻率或隱藏邏輯，請使用商業規則，而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -152,7 +179,7 @@ ht-degree: 4%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中找不到對象時的錯誤訊息
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -196,4 +223,4 @@ ht-degree: 4%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
