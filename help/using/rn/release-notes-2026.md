@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 63%
+source-wordcount: '2525'
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 ## 2026年2月發行說明 {#feb-26-01-rn}
 
-### 新功能 {#feb-26-01-features}
+### 全新功能 {#feb-26-01-features}
 
 
 <table>
@@ -248,11 +248,13 @@ ht-degree: 63%
 
   推出日期： 2026年2月18日
 
-* **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗行銷活動。[閱讀全文](../experience-decisioning/fragments-decision-policies.md)
+<!--THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
-  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies. [Read more](../experience-decisioning/fragments-decision-policies.md)
 
-  推出日期：2026年2月12日。
+  Previously released in Limited Availability, this capability is now available to all environments (General Availability).
+
+  Availability date: February 12, 2026.-->
 
 #### 個人化
 
@@ -274,7 +276,7 @@ ht-degree: 63%
 
 <!--**Release date**: January 27-28, 2026-->
 
-### 新功能 {#jan-26-01-features}
+### 全新功能 {#jan-26-01-features}
 
 
 <table>
@@ -435,7 +437,7 @@ ht-degree: 63%
 
 * **AI 助理內容品質檢查** - 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。[閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在影片中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在影片中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 歷程
 
