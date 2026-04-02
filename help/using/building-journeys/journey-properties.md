@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 13%
+source-wordcount: '3257'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="歷程屬性"
->abstract="本區段會顯示歷程屬性。預設情況下，會隱藏唯讀參數。可用設定會依據歷程的狀態、您的權限及產品設定而定。"
+>abstract="設定此歷程的全域設定，包括名稱、標籤、進入規則、時區、日期、逾時和衝突管理。 唯讀引數預設為隱藏。 可用選項會因歷程狀態、您的許可權和產品設定而異。"
 
 ## 存取歷程的屬性 {#access-properties}
 
@@ -170,7 +170,7 @@ ht-degree: 13%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -215,7 +215,7 @@ ht-degree: 13%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -294,11 +294,16 @@ ht-degree: 13%
 
 ## 合併原則 {#merge-policies}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="合併原則"
+>abstract="系統會根據您選取的事件或對象，自動擷取合併原則。 此合併原則會在整個歷程中使用。"
+
 從[!DNL Adobe Journey Optimizer]擷取設定檔資料時，[!DNL Adobe Experience Platform]使用合併原則。 根據歷程型別，會使用不同的合併原則：
 
-* 在讀取對象或對象資格歷程中：使用來自對象的合併原則
-* 在單一事件歷程中：使用預設合併原則
-* 在業務事件歷程中：使用以下讀取對象活動中來自目標對象的合併原則
+* 在&#x200B;**[讀取對象](read-audience.md)**&#x200B;或&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;歷程中：使用對象中的合併原則
+* 在&#x200B;**[單一事件](../event/about-events.md)**&#x200B;歷程中：使用預設的合併原則
+* 在&#x200B;**[商業事件](../event/about-creating-business.md)**&#x200B;歷程中：使用以下讀取對象活動中目標對象的合併原則
 
 [!DNL Adobe Journey Optimizer]套用整個歷程使用的合併原則。 因此，如果在歷程中使用多個對象（例如使用[`inAudience`函式](functions/functioninaudience.md)中的），這會造成與歷程使用的合併原則不一致、引發錯誤並封鎖發佈。 不過，如果在訊息個人化中使用不一致的對象，則儘管不一致，仍不會引發警報。 因此，強烈建議您在訊息個人化使用此對象時，檢查與對象相關聯的合併原則。
 

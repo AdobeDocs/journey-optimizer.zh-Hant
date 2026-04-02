@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="時區"
+>title="歷程時區"
 >abstract="選取歷程的時區。當使用固定時區時，對於所有進入歷程的個人來說都是相同的。"
 
 
@@ -54,13 +54,13 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="使用輪廓時區"
->abstract="勾選方塊以在等待和條件活動中使用即時輪廓時區。如果已為輪廓定義了時區，則歷程將擷取並使用該時區。若未設定，將使用上面時區欄位中定義的時區。"
+>abstract="核取此選項以在&#x200B;**等待**&#x200B;和&#x200B;**條件**&#x200B;活動中使用即時設定檔時區。 如果為設定檔定義了時區，則會擷取該時區並在歷程中使用。 如果沒有，時區就是上方時區欄位中定義的時區。"
 
 如果歷程的進入事件具有名稱空間，這表示歷程可以存取[!DNL Adobe Experience Platform]的即時客戶設定檔服務，您可能會想要使用設定檔層級定義的時區。 若要這麼做，請在&#x200B;**屬性**&#x200B;中勾選&#x200B;**在等待和條件中使用設定檔時區**。 預設不會勾選此選項。
 
-如果已為輪廓定義了時區，則歷程將擷取並使用該時區。如果沒有，則使用的時區將是時區欄位中定義的時區。
+如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，則使用的時區是時區欄位中定義的時區。
 
-![個人化計時資料來源中的設定檔時區設定](assets/journey73.png)
+![資料來源中的個人化計時設定檔時區設定](assets/journey73.png)
 
 >[!NOTE]
 >
