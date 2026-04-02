@@ -133,7 +133,7 @@ ht-degree: 89%
 
    ![品牌表格的熒幕擷圖](assets/rule-builder-1-1-attribute-value.png)
 
-以下是已直接選取表格連結的查詢範例。必須從專用選擇器選取此表格的可用值。
+以下是已直接選取表格連結的查詢範例。 必須從專用選擇器選取此表格的可用值。
 
 ![品牌表格的熒幕擷圖](assets/rule-builder-1-1-attribute-table.png)
 

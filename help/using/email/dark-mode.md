@@ -75,7 +75,7 @@ ht-degree: 10%
 
 例如，這些使用者端為：
 
-* Gmail (案頭網頁郵件、iOS、Android、行動網頁郵件)
+* Gmail （案頭網頁郵件、iOS、Android、行動網頁郵件）
 * Outlook Windows
 * Outlook Windows Mail
 
