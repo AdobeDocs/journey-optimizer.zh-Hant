@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+source-git-commit: 9325cbff37665a1c46d8c0239755314b6cb876be
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 99%
+source-wordcount: '881'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 >[!IMPORTANT]
 >
->* 開始使用此功能之前，請先閱讀相關的[護欄與限制](#generative-guardrails)。
+>* 開始使用此功能之前，請先閱讀相關的[護欄和限制](#generative-guardrails)。
 >
 >
 >* 您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}後，才能使用 Adobe Journey Optimizer 的 AI 助理。如需詳細資訊，請聯絡您的 Adobe 代表。
@@ -114,19 +114,30 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 以下列出使用 Adobe Journey Optimizer 的 AI 助手產生電子郵件的一般準則：
 
-* 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。使用定義明確的提示讓 GenAI 模型準確解釋。  
-* 上傳品牌資產以獲得準確的品牌內容。 另外，內容以公開資訊為依據。上傳的內容可以採用以下格式：PDF、JPEG、PNG 或 ZIP 檔案 (支援的檔案格式)。
-* 上傳的品牌資產最大為 50MB。較大的檔案或大量影像可以處理，但處理時間會增加。
-* 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
-* 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
-* 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
-
-以下限制適用於 Adobe Journey Optimizer 的 AI 助理：
+### 支援的管道
 
 * 僅適用於電子郵件、推播、網頁及簡訊管道。
+
+### 內容品質、提示和意見
+
+* 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。使用定義明確的提示讓 GenAI 模型準確解釋。  
 * GenAI 內容可能不完全準確：請分享您的回饋，以便我們的工程師可以改進模型。
+* 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
+
+### 品牌資產
+
+* 上傳品牌資產以獲得準確的品牌內容。 另外，內容以公開資訊為依據。上傳的內容可以採用以下格式：PDF、JPEG、PNG 或 ZIP 檔案 (支援的檔案格式)。
+* 上傳的品牌資產最大為 50MB。較大的檔案或大量影像可以處理，但處理時間會增加。
 * 您可以上傳多個品牌資產，但對於特定產生內容只能利用一個。
+
+### 電子郵件範本和影像
+
+* 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。建議電子郵件範本最多包含 8-10 張影像。
+
+### 合法使用與透明度
+
+* 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 
 ## AI 助理內容產生功能 {#generative-features}
