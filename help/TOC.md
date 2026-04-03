@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3159'
 ht-degree: 95%
 
 ---
@@ -240,6 +240,7 @@ ht-degree: 95%
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
       + [自動產生內容變化版本](using/test-approve/simulate-sample-input-generated.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
+      + [LLM電子郵件最佳化工具](using/content-management/llm-email-optimizer.md)
    + 核准歷程與行銷活動 {#approve}
       + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
       + [開始使用核准](using/test-approve/gs-approval.md)

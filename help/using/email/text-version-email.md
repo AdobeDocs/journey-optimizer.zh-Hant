@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 8%
+source-wordcount: '1232'
+ht-degree: 7%
 
 ---
 
@@ -47,6 +47,18 @@ ht-degree: 8%
 > * 停用同步時，在&#x200B;**[!UICONTROL 純文字]**&#x200B;檢視中所做的變更不會反映在HTML檢視中。
 >
 > * 如果您在更新純文字內容後重新啟用「**[!UICONTROL 與HTML同步]**」選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
+
+## 最佳化AI收件匣的文字版本 {#optimize-plain-text-ai}
+
+您可以使用[!DNL Gmail]針對AI收件匣最佳化[!DNL Outlook]按鈕，協助以AI支援的收件匣功能（例如[!DNL Apple Mail]、**[!UICONTROL 或]**&#x200B;中的摘要）呈現您的重要選件和詳細資訊。 該動作會產生改良的純文字版本，著重於助理可能從訊息的文字部分讀取的資訊。
+
+![文字版本檢視中的[針對AI收件匣最佳化]按鈕](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+
+>[!IMPORTANT]
+>
+>使用此功能時，**[!UICONTROL 與HTML同步]**&#x200B;選項會自動停用。
+
+如需完整逐步解說和建議的案例，請參閱[最佳化AI收件匣的電子郵件文字](../content-management/llm-email-optimizer.md)。
 
 ## 何時使用自訂純文字版本 {#when-to-use}
 
