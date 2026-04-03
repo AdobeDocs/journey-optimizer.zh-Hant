@@ -41,7 +41,7 @@ ht-degree: 0%
 * **更新與版本設定**
    * 更新需要從[!DNL Adobe Experience Manager]手動重新發佈。 沒有自動版本調解。
    * 在[!DNL Adobe Experience Manager]中發佈或重新發佈內容片段時，[!DNL Journey Optimizer]會更新該片段，並重新整理&#x200B;**在作用中行銷活動或歷程中參考之該片段的所有變數**。
-   * [!DNL Adobe Experience Manager] [發佈動作](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延遲。 完成時，[!DNL Journey Optimizer]會收到事件並重新整理內容。
+   * [!DNL Adobe Experience Manager] [發佈動作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延遲。 完成時，[!DNL Journey Optimizer]會收到事件並重新整理內容。
    * 成功更新後，單一歷程的變更通常會在約&#x200B;**5分鐘**&#x200B;內提供，批次使用案例的變更通常會在約&#x200B;**下一個批次**&#x200B;內提供。
 
 * **快取和校樣**
@@ -62,6 +62,6 @@ ht-degree: 0%
 | **拒絕存取(CPES)錯誤** | 使用者角色無權存取某些屬性 | 請聯絡您的系統管理員，以確認您的角色具有個人化中所使用之設定檔或內容屬性的適當許可權。 |
 | **片段顯示空白或遺漏內容** | 缺少必要的個人化引數或遞補值 | 請確定已提供所有必要引數，並考慮為選用屬性新增遞補值。 |
 | **影像未演算或似乎已損毀** | 內容片段中的影像URL為相對路徑，或無法從頻道存取 | 影像欄位使用&#x200B;**絕對** URL (`https://...`)。 不支援來自Adobe Experience Manager的相對路徑。 在瀏覽器或訊息預覽中確認URL。 |
-| **Experience League AEM連結傳回404** | 過時的書籤、預覽建置或未發佈的AEM說明頁面 | 從即時Experience Manager檔案中開啟[具有Adobe Journey Optimizer的內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}主題，並從頁面上的目錄導覽，或搜尋區段名稱（例如&#x200B;**Dispatcher設定**）。 |
+| **Experience League AEM連結傳回404** | 過時的書籤、預覽建置或未發佈的AEM說明頁面 | 從即時Experience Manager檔案中開啟[具有Adobe Journey Optimizer的內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}主題，並從頁面上的目錄導覽，或搜尋區段名稱（例如&#x200B;**Dispatcher設定**）。 |
 
 如果問題仍然存在，請聯絡您的Adobe代表，提供有關您的內容片段ID、行銷活動或歷程ID的詳細資訊，以及任何顯示的錯誤訊息。
