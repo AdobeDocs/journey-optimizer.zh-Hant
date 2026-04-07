@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活動，條件，畫布，歷程，最佳化
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -34,13 +34,13 @@ ht-degree: 3%
 
 ![歷程活動浮動視窗中的「最佳化」按鈕](assets/journey-optimize.png)
 
-## 什麼是歷程路徑？
+## 什麼是歷程路徑？ {#journey-path}
 
 歷程&#x200B;**路徑**&#x200B;可由下列任一專案組成：通訊順序、通訊時間、通訊次數或這三個變數的任意組合。
 
 例如，一個路徑可能包含一封電子郵件，另一個路徑可能包含兩則簡訊，而第三個路徑可能包含一封電子郵件、兩個小時的「等待」節點，然後是一則簡訊。
 
-## 最佳化歷程的三種方法
+## 最佳化歷程的三種方法 {#optimization-methods}
 
 透過&#x200B;**最佳化**&#x200B;活動，您可以對歷程路徑執行下列動作：
 
@@ -54,11 +54,11 @@ ht-degree: 3%
 
 * [套用條件](conditions.md) — 根據特定條件建立條件路徑，例如資料來源、時間、日期、百分比分割或設定檔上限。 這等同於前一個「條件」活動。
 
-## 運作方式
+## 運作方式 {#how-it-works}
 
 歷程上線後，會根據定義的條件評估設定檔，並根據比對條件，將設定檔從歷程傳送至適當的路徑。
 
-## 後續步驟
+## 後續步驟 {#next-steps}
 
 選取最適合您使用案例的最佳化方法：
 
