@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 選擇符合您需求的正確模式：
 
 - **[!UICONTROL Adobe模型]**&#x200B;由Firefly Image Model 4提供技術支援，現成可用立即產生影像，無需額外設定。
-- 由Gemini 2.5 Flash支援的&#x200B;**[!UICONTROL 合作夥伴機型]**&#x200B;針對特定使用案例提供特殊功能。
+- 由Gemini 2.5 Flash支援的&#x200B;**[!UICONTROL 合作夥伴機型]**&#x200B;針對特定使用案例提供特殊功能。 如需在AI Assistant中的影像上使用&#x200B;**Gemini**&#x200B;搭配&#x200B;**文字重疊**&#x200B;的逐步工作流程，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
 - **[!UICONTROL 自訂模型]**&#x200B;是在您自己的資產上訓練並由您的組織新增的品牌特定模型。
 
-  在&#x200B;**[!UICONTROL Adobe Firefly檔案]**&#x200B;中進一步瞭解[自訂模型](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  在&#x200B;**[!UICONTROL Adobe Firefly檔案]**&#x200B;中進一步瞭解[自訂模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 在設定之後，當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    ![](assets/gen-model-manage-6.png){zoomable="yes"}
 
-1. 按一下[新增模型]&#x200B;**&#x200B;**，從頭開始建立新的產生模型。
+1. 按一下[新增模型]****，從頭開始建立新的產生模型。
 
 現在當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 透過建立自訂Firefly模型提供者，您可以將AI功能擴展至預設模型之外，並確保產生的內容一致地反映您品牌獨特的審美觀和要求。
 
-➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. 從&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 產生式模型]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增模型]**。
 
@@ -75,10 +75,10 @@ ht-degree: 0%
    +++ 尋找您的Firefly模型ID
 
    1. 存取Firefly網站，並導覽至您訓練的模型。
-   1. 存取[預覽和測試](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)功能表。
+   1. 存取[預覽和測試](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)功能表。
    1. 在URL中，找出`customModelId=`之後的值。 複製此值以用作模型ID。
 
-   如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
+   如需詳細資訊，請參閱[Firefly自訂模型檔案](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)。
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
