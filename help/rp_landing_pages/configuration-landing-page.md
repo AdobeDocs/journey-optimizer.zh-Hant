@@ -5,22 +5,28 @@ title: 管道設定
 description: 管道設定
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 77%
 
 ---
 
 # 管道設定{#section-overview}
 
-Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如電子郵件、簡訊、推播通知和網頁) 傳送訊息的方式，確保實現量身打造且有效的通訊。無論您是要設定技術參數、設定子網域，還是要透過 IP 暖身計劃最佳化電子郵件傳遞能力，每個步驟都旨在增強訊息績效及合規性。您也會找到用來監視電子郵件信譽、管理禁止名單，甚至封存訊息以供稽核的工具。深入了解接下來的主題，以探索這些設定如何共同運作，幫助您建立順暢、具影響力的客戶體驗。
+Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如電子郵件、簡訊、推播通知和網頁）傳送訊息的方式，確保量身打造且有效的通訊。
+
+無論您是要設定技術引數、設定子網域，還是要透過IP熱身計畫最佳化電子郵件傳遞能力，每個步驟都旨在增強訊息效能及法規遵循。
+
+您也會找到用來監視電子郵件信譽、管理隱藏清單，甚至封存訊息以供稽核的工具。
+
+深入了解接下來的主題，以探索這些設定如何共同運作，幫助您建立順暢、具影響力的客戶體驗。
 
 ## 管道設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 管道設定快速入門
 
@@ -30,7 +36,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定及管理管道設定
 
@@ -40,7 +46,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 引導式管道設定
 
@@ -50,7 +56,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 委派及管理電子郵件子網域
 
@@ -59,18 +65,18 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 [委派電子郵件子網域](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+實施 IP 暖身計劃
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+建立並執行 IP 暖身計劃，以建立寄件者信譽並增強電子郵件傳遞能力。
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[了解 IP 暖身計劃](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 監視電子郵件傳遞能力和信譽
 
