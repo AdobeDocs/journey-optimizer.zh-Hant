@@ -9,7 +9,7 @@ level: Experienced
 keywords: 運算式編輯器，資料，歷程
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ ht-degree: 55%
 
 進階運算式編輯器可用於：
 
-* 建立[資料來源](../condition-activity.md#about_condition)及事件資訊的進階條件
+* 建立[資料來源](../conditions.md#data_source_condition)及事件資訊的進階條件
 * 定義自訂[等待活動](../wait-activity.md#custom)
 * 定義動作參數對應
 
-可能的話，您可以使用&#x200B;**[!UICONTROL 進階模式]** / **[!UICONTROL 簡單模式]**&#x200B;按鈕，在兩個模式之間切換。 [此處](../condition-activity.md#about_condition)會說明簡單模式。
+可能的話，您可以使用&#x200B;**[!UICONTROL 進階模式]** / **[!UICONTROL 簡單模式]**&#x200B;按鈕，在兩個模式之間切換。 [此處](../conditions.md#about_condition)會說明簡單模式。
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ ht-degree: 55%
   >
   >不支援使用體驗事件建立運算式。 使用體驗事件建立運算式/邏輯的替代方法和最佳實務已參考[這裡](../../building-journeys/exp-event-lookup.md)
 
-* **[!UICONTROL 對象]**：如果您已卸除&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，請選擇您要在運算式中使用的對象。 [閱讀全文](../condition-activity.md#using-a-segment)
+* **[!UICONTROL 對象]**：如果您已卸除&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，請選擇您要在運算式中使用的對象。 [閱讀全文](../conditions.md#using-a-segment)
 * **[!UICONTROL 資料來源]**：從資料來源欄位群組中的可用欄位清單中選擇。 [閱讀全文](../../datasource/about-data-sources.md)
 * **[!UICONTROL 歷程屬性]**：此區段會將與特定設定檔之歷程相關的技術欄位重新分組。 [閱讀全文](journey-properties.md)
 * **[!UICONTROL 函式]**：從允許執行複雜篩選的內建函式清單中選擇。 函式會依類別組織。 [閱讀全文](functions.md)

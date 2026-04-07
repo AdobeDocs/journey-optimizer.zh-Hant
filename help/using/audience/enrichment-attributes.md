@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 您可以使用對象的擴充屬性來執行下列動作：
 
-* **根據運用目標對象擴充屬性的規則，在歷程**&#x200B;中建立多個路徑。 若要這麼做，請使用[讀取對象](../building-journeys/read-audience.md)活動來鎖定對象，然後根據對象的擴充屬性，在[條件](../building-journeys/condition-activity.md)活動中建立規則。
+* **根據運用目標對象擴充屬性的規則，在歷程**&#x200B;中建立多個路徑。 若要這麼做，請使用[讀取對象](../building-journeys/read-audience.md)活動來鎖定對象，然後根據對象的擴充屬性，在[最佳化](../building-journeys/optimize.md)活動中建立規則。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 您可以在下方找到擴充屬性的常見問題集。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是擴充屬性？
 

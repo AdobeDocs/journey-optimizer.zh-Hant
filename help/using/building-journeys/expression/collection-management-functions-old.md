@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有應用程式使用者中，您可以透過IOS 13 (布林運算式「IOS 13==使用的應用程式」)取得使用者。 此函式的結果是篩選的清單，其中包含符合布林值運算式的專案（例如：應用程式使用者1、應用程式使用者34、應用程式使用者432）。
+例如，在所有應用程式使用者中，您可以透過IOS 13 （布林運算式「IOS 13==使用的應用程式」）取得使用者。 此函式的結果是篩選的清單，其中包含符合布林值運算式的專案（例如：應用程式使用者1、應用程式使用者34、應用程式使用者432）。
 
-在資料Source條件活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL 所有]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料Source條件活動](../condition-activity.md#data_source_condition)。
+在資料Source條件活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL 所有]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料Source條件活動](../conditions.md#data_source_condition)。
 
 
 ## 範例
@@ -82,7 +82,7 @@ ht-degree: 1%
 >
 >支援在歷程運算式/條件中使用體驗事件，但不建議使用。 如果您的使用案例需要使用體驗事件，請考慮替代方法，例如[計算屬性](../../audience/computed-attributes.md)，或使用事件建立區段並將該區段合併到[`inAudience`運算式](../../building-journeys/functions/functioninaudience.md)中。
 
-**範例1：**
+**範例 1:**
 
 我們要檢查使用者是否已安裝特定版本的應用程式。 對此，我們會取得與行動應用程式（1.0版）相關的所有推播通知權杖。接著，我們會使用&#x200B;**[!UICONTROL count]**&#x200B;函式執行條件，以檢查傳回的權杖清單是否至少包含一個元素。
 
@@ -92,7 +92,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 結果為true。
 
-**範例2：**
+**範例 2:**
 
 在此處，我們使用&#x200B;**[!UICONTROL count]**&#x200B;函式來檢查集合中是否有推播通知權杖。
 
@@ -136,7 +136,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 運算式的結果是&#x200B;**3**。
 
-**範例3：**
+**範例 3:**
 
 在此處，我們會檢查個人在過去24小時內是否未收到任何通訊。 我們會根據集合的兩個元素，使用兩個運算式，來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 特別是，會比較事件的時間戳記與&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函式傳回的dateTime。
 
@@ -148,7 +148,7 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 如果沒有體驗事件符合兩個條件，則結果為true。
 
-**範例4：**
+**範例 4:**
 
 在此處，我們想檢查個人在過去7天內是否至少啟動過一次應用程式，以便觸發推播通知，邀請他們啟動教學課程。
 
@@ -190,7 +190,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**範例1：**
+**範例 1:**
 
 此運算式會傳回與版本為1.0的行動應用程式關聯的第一個推播通知權杖。
 
@@ -200,7 +200,7 @@ _`<listExpression>.last(<condition>)`_
 
 結果為「token_1」。
 
-**範例2：**
+**範例 2:**
 
 此運算式會傳回與版本為1.0的行動應用程式相關聯的最後一個推播通知權杖。
 
@@ -217,7 +217,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL first]**&#x200B;函式將傳回最近的事件
 >* **[!UICONTROL last]**&#x200B;函式將傳回最舊的函式。
 
-**範例3：**
+**範例 3:**
 
 我們會檢查第一個（最新）DMA ID為非零值的Adobe Analytics事件是否具有等於602的值。
 
@@ -228,7 +228,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_

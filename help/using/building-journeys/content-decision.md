@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 然後，您就可以在以下中使用內容決定活動的輸出：
 
-* [條件活動](#add-condition-activity)，可根據擷取的優惠方案將設定檔移至特定路徑；
+* [使用條件](#add-condition-activity)最佳化活動，以根據擷取的優惠方案將設定檔移至特定路徑；
 
 * [自訂動作](#add-custom-action)，您可以在此傳送這些選件給外部系統。
 
@@ -81,15 +81,15 @@ ht-degree: 1%
 
 ## 使用內容決定活動的輸出 {#use-content-decision-output}
 
-內容決定的輸出可用於多個歷程活動。 例如，您可以使用[條件活動](#add-condition-activity)，根據為設定檔擷取的選件數目，將設定檔移至歷程的特定分支。
+內容決定的輸出可用於多個歷程活動。 例如，您可以使用具有條件[的](#add-condition-activity)最佳化活動，根據為設定檔擷取的選件數目，將設定檔移至歷程的特定分支。
 
 您也可以新增[自訂動作](#add-custom-action)至您的歷程，以便從內容決定活動將優惠方案共用至外部系統。
 
-### 在條件活動中 {#add-condition-activity}
+### 在最佳化活動中（條件方法） {#add-condition-activity}
 
-若要利用內容決定活動的輸出，您可以新增條件至您的歷程，其中您可使用這些選件的資料，定義運算式以將設定檔移至特定路徑。 請遵循下列步驟。
+若要運用內容決定活動的輸出，請新增&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動、選擇&#x200B;**[!UICONTROL 條件]**&#x200B;方法，並定義運算式，以使用這些選件的資料將設定檔移動到特定路徑。 請遵循下列步驟。 如需更多條件型別和選項，請參閱[條件](conditions.md)。
 
-1. 從&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，將&#x200B;**[!UICONTROL 條件]**&#x200B;活動拖放到您的畫布中。 [了解更多](condition-activity.md#add-condition-activity)
+1. 從&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，將&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動拖放到您的畫布中。 [了解更多](optimize.md)
 
 1. （選擇性）將對應您定義之第一個運算式的&#x200B;**[!UICONTROL Path1]**&#x200B;重新命名為更相關的標籤。
 

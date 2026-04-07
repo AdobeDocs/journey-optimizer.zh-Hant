@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 發行說明 2024 年 {#release-notes-2024}
 
-此頁面列出了於 2024 年發行的[!DNL Journey Optimizer]所有功能和改善。
+此頁面列出了於 2024 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
 
 ## 2024 年 10 月發行版本 {#24-10-rn}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>在 Journey Optimizer 中，管理行銷活動和歷程的數量與時機，正是避免客戶因互動次數過於頻繁而感到不知所措的重要關鍵。 Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
+<p>請在 Journey Optimizer 中，管理行銷活動和歷程流量和時間非常重要，才能避免過多的互動，給客戶帶來負擔。Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
 <li><b>優先順序分數</b>：您目前可以將優先順序分數指派給行銷活動，或是歷程，分數由 0 到100 分起跳。 分數越高則表示優先順序越高。 當有兩種行銷活動同時使用到相同的管道設定時，Journey Optimizer 就會選取優先順序分數最高的行銷活動。如果行銷活動的分數一樣，就會選擇最近才修改過的行銷活動。</li>
 <li><b>檢視潛在衝突</b>：歷程和行銷活動中的最新「檢視潛在衝突」按鈕目前可以讓您識別與其他歷程，或是行銷活動之間的重疊程度，例如開始日期、目標對象，或是選取的管道設定。</li>
 <li><b>歷程仲裁</b>：這項新功能讓您可以找出最重要的歷程優先順序，再提供給客戶使用。 您可以建立規則，以便在客戶符合即將進入的優先順序較高的歷程資格時，阻止對方進入優先順序較低的歷程。</li>
@@ -271,7 +271,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#24-10-improvements}
+### 改善 {#24-10-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -340,7 +340,7 @@ ht-degree: 100%
 
 * 目前有提供內容範本。 您可以從開發人員建立的內容範本開始使用，加速完成程式碼型體驗的製作。 使用內容範本，讓行銷人員只要修改某些數值或欄位，不用撰寫整個 HTML 或 JSON 內容承載。[了解更多](../content-management/content-templates.md)
 
-**Decisioning**
+**決策**
 
 * [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 使用者目前可以選擇在決定中設定 AI 模型時，將 AI 模型最佳化 (之前又稱為體驗決策)。 舉例來說，這讓您可以將自訂「購買」表格最佳化，不必受到轉換率等定義限制。[了解更多](../experience-decisioning/ranking/ranking.md)
 
@@ -357,7 +357,7 @@ ht-degree: 100%
 >
 -->
 
-**發行版本日期**：2024 年 9 月 24-26 日
+**發行日期**：2024 年 9 月 24-26 日
 
 ### 全新功能 {#24-9-features}
 
@@ -391,7 +391,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
-<p>目前核准原則僅開放給部分組織使用 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>目前核准原則僅開放給部分組織使用 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -471,7 +471,7 @@ ht-degree: 100%
 </table>
 
 
-### 功能改進 {#24-9-improvements}
+### 改善 {#24-9-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -624,13 +624,13 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#8-improvements}
+### 改善 {#8-improvements}
 
 此發行版本隨附下列改進項目。
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。[閱讀全文](../building-journeys/condition-activity.md#time_condition)
+* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。[閱讀全文](../building-journeys/conditions.md#time_condition)
 * 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。[閱讀全文](../building-journeys/troubleshooting.md#activity-errors)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
@@ -693,7 +693,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#27-4-improvements}
+### 改善 {#27-4-improvements}
 
 此發行版本隨附下列改進項目。
 
@@ -772,7 +772,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
-<p>多種語言內容目前僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>多種語言內容目前僅適用於一組組織 (可用性限制)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -789,7 +789,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Journey Optimizer 現在支援歷程的實驗，行銷活動已提供此功能。實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
-<p>歷程的實驗目前僅適用於一組組織 (可用性限制)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>歷程的實驗目前僅適用於一組組織 (可用性限制)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
 </td>
 </tr>
 </tbody>
@@ -811,7 +811,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-### 功能改進 {#june24-improvements}
+### 改善 {#june24-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -898,7 +898,7 @@ ht-degree: 100%
 <td>
 <p>體驗決策透過提供稱為「決策項目」的集中行銷產品建議目錄與複雜的決策引擎來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決定項目給每個人。</p>
 <p>這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入設定，現在可在 Journey Optimizer 行銷活動中存取。Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
-<p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
 </td>
@@ -916,8 +916,8 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您可以在建立電子郵件管道設定時，馬上定義動態子網域和個人化標題參數，就能提高電子郵件設定彈性，更能夠掌握得當。</p>
-<p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若要取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細說明文件</a>。</p>
+<p>電子郵件設定個人化目前僅開放給某些組織使用 (有限可用性)。若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -973,7 +973,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-### 功能改進 {#e-improvements}
+### 改善 {#e-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -1103,7 +1103,7 @@ ht-degree: 100%
 </tbody>
 </table-->
 
-### 功能改進 {#apr-improvements}
+### 改善 {#apr-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -1165,7 +1165,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#mar-improvements}
+### 改善 {#mar-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -1230,7 +1230,7 @@ ht-degree: 100%
 </table>
 
 
-### 功能改進 {#feb-improvements}
+### 改善 {#feb-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -1314,7 +1314,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#jan24-improvements}
+### 改善 {#jan24-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -1348,6 +1348,6 @@ ht-degree: 100%
   >
   >每日頻率上限也可隨選提供。 請聯絡您的 Adobe 代表。
 
-**決策管理**
+**決定管理**
 
 * **Edge 的頻率上限** - 頻率上限計數器現已更新，並可在不到 3 秒內做出 Edge Decisioning API 決定。[了解更多](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)

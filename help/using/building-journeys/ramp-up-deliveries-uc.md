@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: 可遞送性，歷程，使用案例，電子郵件，聲譽
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 1. 建立歷程。 [閱讀全文](journey-gs.md)。
 
-1. 將&#x200B;**[!UICONTROL 條件]**&#x200B;活動新增至歷程。 [閱讀全文](condition-activity.md)。
+1. 將&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動新增至歷程。 [閱讀全文](optimize.md)。
 
 1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，設定傳遞的收件者數目上限：
 
-   1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，將&#x200B;**[!UICONTROL 型別]**&#x200B;欄位設定為&#x200B;**[!UICONTROL 設定檔上限]**。 [閱讀全文](condition-activity.md#profile_cap)。
+   1. 在&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動設定中，選取&#x200B;**[!UICONTROL 條件]**&#x200B;方法，並將&#x200B;**[!UICONTROL 型別]**&#x200B;欄位設定為&#x200B;**[!UICONTROL 設定檔上限]**。 [閱讀全文](conditions.md#profile_cap)。
 
    1. 將&#x200B;**[!UICONTROL 限制]**&#x200B;欄位設定為此傳遞的收件者數目上限。
 

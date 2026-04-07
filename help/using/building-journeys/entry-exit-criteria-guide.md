@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **成功量度成就** — 設定檔完成[歷程目標](success-metrics.md)時結束，例如進行購買或下載應用程式，消除不必要的後續通訊。
 
-* **以條件為基礎** — 當符合[特定條件](condition-activity.md)時（例如在一段設定的期間內不活動或設定檔屬性變更），設定檔會結束。
+* **以條件為基礎** — 當符合[特定條件](conditions.md)時（例如在一段設定的期間內不活動或設定檔屬性變更），設定檔會結束。
 
 * **以事件為基礎** — 設定檔會在[發生特定事件時結束](../event/about-events.md)，例如訂閱取消或產品退貨。
 
@@ -100,13 +100,13 @@ ht-degree: 0%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 &#x200B;](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 ](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
 
 * **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。 進入之後，使用條件來[分段、排除或合併分支](read-audience.md#audience-targeting-in-journeys)。
 
 * **[對象資格專案](audience-qualification-events.md)**：設定檔符合或退出特定對象時，即時觸發歷程。 定義[串流對象](../audience/about-audiences.md)，從&#x200B;**[!UICONTROL 事件]**&#x200B;調色盤新增&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，並選擇觸發程式型別。
 
-* **[屬性篩選器](condition-activity.md)**：使用AND/OR邏輯，結合事件或對象與設定檔屬性和內容，以調整專案條件。 使用[條件](conditions.md)參照[設定檔屬性](../audience/get-started-profiles.md)、事件或[外部資料](../datasource/about-data-sources.md)。
+* **[屬性篩選器](conditions.md)**：使用AND/OR邏輯，結合事件或對象與設定檔屬性和內容，以調整專案條件。 使用[條件](conditions.md)參照[設定檔屬性](../audience/get-started-profiles.md)、事件或[外部資料](../datasource/about-data-sources.md)。
 
 * **[時間視窗與排程](journey-properties.md#schedule)**：設定暫時性限制，讓歷程保持及時且相關。 在讀取對象活動[上設定](read-audience.md)排程，使用[等待活動](wait-activity.md)，並新增[以時間為基礎的條件](conditions.md)來控制時間。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 * **[成功量度成就](journey-properties.md#exit-criteria)**：定義成功量度（例如購買或訂閱）並在完成時退出設定檔。 按一下「**[!UICONTROL 顯示退出條件]**」圖示，選取「**[!UICONTROL 新增退出條件]**」，然後選擇「[事件](../event/about-events.md)」或「[對象](../audience/about-audiences.md)」作為退出觸發器。
 
-* **[非使用狀態逾時](wait-activity.md)**：如果未在設定的時間範圍內發生任何參與，則結束設定檔。 使用[退出條件](journey-properties.md#exit-criteria)搭配檢查上次參與日期的對象、設定[等待活動](wait-activity.md)並定義持續時間，以及使用[條件](condition-activity.md)來檢查活動。
+* **[非使用狀態逾時](wait-activity.md)**：如果未在設定的時間範圍內發生任何參與，則結束設定檔。 使用[退出條件](journey-properties.md#exit-criteria)搭配檢查上次參與日期的對象、設定[等待活動](wait-activity.md)並定義持續時間，以及使用[條件](conditions.md)來檢查活動。
 
 * **[重新進入規則](entry-management.md)**：根據您的行銷活動策略，決定設定檔是否可以多次或僅一次重新進入歷程。 設定歷程&#x200B;**[!UICONTROL 內容]**&#x200B;中的&#x200B;**[!UICONTROL 重新進入]**&#x200B;設定以設定等待期間、啟用強制重新進入，或使用[補充識別碼](supplemental-identifier.md)進行內容特定重新進入。
 
@@ -208,8 +208,8 @@ ht-degree: 0%
 
 **教學課程與範例**
 
-[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hant)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相關功能**
 
-[對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率上限](../conflict-prioritization/rule-sets.md) | [測試歷程](testing-the-journey.md) | [條件活動](condition-activity.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)
+[對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率上限](../conflict-prioritization/rule-sets.md) | [測試歷程](testing-the-journey.md) | [最佳化活動](optimize.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)

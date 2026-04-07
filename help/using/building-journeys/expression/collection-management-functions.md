@@ -9,7 +9,7 @@ level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 3%
@@ -77,9 +77,9 @@ ht-degree: 3%
 <listExpression>.all(<condition>)
 ```
 
-**概念範例：**&#x200B;在所有應用程式使用者中，您可以使用IOS 13 (布林運算式「用於IOS 13」==應用程式)來取得這些使用者。 此函式的結果是篩選的清單，其中包含符合布林值運算式的專案（例如：應用程式使用者1、應用程式使用者34、應用程式使用者432）。
+**概念範例：**&#x200B;在所有應用程式使用者中，您可以使用IOS 13 （布林運算式「用於IOS 13」==應用程式）來取得這些使用者。 此函式的結果是篩選的清單，其中包含符合布林值運算式的專案（例如：應用程式使用者1、應用程式使用者34、應用程式使用者432）。
 
-在資料Source條件活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL 所有]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料Source條件活動](../condition-activity.md#data_source_condition)。
+在資料Source條件活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL 所有]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料Source條件活動](../conditions.md#data_source_condition)。
 
 **使用LobbyBeacon裝載的程式碼範例：**
 
@@ -160,7 +160,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函式
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_

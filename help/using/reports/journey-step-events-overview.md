@@ -8,7 +8,7 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: 歷程，步驟事件，分析，報告，監控， XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 - **進入事件**：設定檔[進入歷程](../building-journeys/entry-management.md)時
 - **動作執行**：傳送[訊息時](../building-journeys/journey-action.md)或執行[自訂動作](../building-journeys/using-custom-actions.md)
-- **條件評估**：設定檔通過[條件](../building-journeys/condition-activity.md)和決定點時
+- **條件評估**：設定檔通過[條件](../building-journeys/conditions.md)和決定點時
 - **等待活動**：設定檔進入並結束時[等待節點](../building-journeys/wait-activity.md)
 - **退出事件**：設定檔完成或[退出歷程](../building-journeys/end-journey.md)時
 - **錯誤處理**：在歷程執行期間發生錯誤時

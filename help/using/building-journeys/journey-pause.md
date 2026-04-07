@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 5%
@@ -84,7 +84,7 @@ ht-degree: 5%
 | [讀取對象](read-audience.md) | 與即時歷程的行為相同，但有幾項特性： <ol> <li> 如果在<strong>讀取對象</strong>活動開始後按下<strong>暫停</strong>，則已進入歷程的設定檔將會繼續（直到下一個<strong>動作</strong>活動）。 當歷程以特定速度讀取對象時，如果完整對象尚未進入，則會捨棄佇列中的剩餘設定檔。</li><li> 針對單一執行：如果排程日期在繼續日期之前，則恢復時不會顯示錯誤。 將會忽略該排程。</li><li>對於增量歷程： <ul><li>如果暫停發生在第一次發生之前，則在繼續時，將會播放完整的對象。 </li><li>例如，如果暫停發生，在每日週期的第4天，並且歷程保持暫停直到第9天，則在恢復時，將包含從第4天到第9天輸入的所有設定檔  </li></ul></ol> |
 | [回應](reaction-events.md) | 與即時歷程中的行為相同，但如果回應是在<strong>動作</strong>活動之後，且使用者在該動作上暫停，則會捨棄回應事件。 |
 | [等待](wait-activity.md) | 與即時歷程中的行為相同 |
-| [條件](condition-activity.md) | 與即時歷程中的行為相同 |
+| [最佳化](optimize.md) | 與即時歷程中的行為相同 |
 | [內容決定](content-decision.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [頻道動作](journey-action.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
 | [自訂動作](../action/action.md) | 當歷程暫停時，會根據使用者選擇的內容暫留或捨棄設定檔 |
@@ -211,7 +211,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

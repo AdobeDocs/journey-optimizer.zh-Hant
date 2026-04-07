@@ -9,7 +9,7 @@ level: Experienced
 keywords: 歷程，運算式，編輯器，屬性
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 歷程屬性 {#journey-properties}
 
-在[簡單運算式編輯器](../condition-activity.md#about_condition)和[進階運算式編輯器](../expression/expressionadvanced.md)中，**事件**&#x200B;和&#x200B;**資料來源**&#x200B;類別下方，您可以存取&#x200B;**歷程屬性**&#x200B;類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
+在[簡單運算式編輯器](../conditions.md#about_condition)和[進階運算式編輯器](../expression/expressionadvanced.md)中，**事件**&#x200B;和&#x200B;**資料來源**&#x200B;類別下方，您可以存取&#x200B;**歷程屬性**&#x200B;類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
 
 ![](../assets/journey-properties.png)
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | | organizationId | 組織識別碼 | 品牌組織 |
 | | sandboxName | 沙箱名稱 | 沙箱的名稱 |
 | 身分識別 | profileId | 設定檔識別碼 | 歷程中設定檔的識別碼 |
-| | 名稱空間 | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
+| | namespace | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
 | 目前節點 | currentNodeId | 目前節點識別碼 | 目前活動（節點）的識別碼 |
 | | currentNodeName | 目前節點名稱 | 目前活動的名稱（節點） |
 | 上一個節點 | previousNodeId | 上一個節點識別碼 | 上一個活動（節點）的識別碼 |

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1701'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="合併原則"
 >abstract="系統會自動從您選取的對象中擷取合併原則，並在整個歷程中套用。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="深入瞭解合併原則"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="深入瞭解合併原則"
 
 
 1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。
@@ -96,7 +96,7 @@ ht-degree: 3%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]對象參與狀態。
-   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 在&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動之後的條件或動作中使用運算式編輯器時，您有權存取&#x200B;**[!UICONTROL AudienceQualification]**&#x200B;節點。 您可以選擇&#x200B;**[!UICONTROL 上次資格取得時間]**&#x200B;與&#x200B;**[!UICONTROL 狀態]** （進入或退出）。
 
-檢視[條件活動](../building-journeys/condition-activity.md#about_condition)。
+請參閱[條件](../building-journeys/conditions.md#about_condition)。
 
 包含&#x200B;**對象資格**&#x200B;事件的新歷程在您發佈10分鐘後即可開始運作。 此間隔與專用服務的快取重新整理間隔相符。 在使用此歷程之前請等待十分鐘。
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 如需頻率或隱藏邏輯，請使用商業規則，而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ ht-degree: 3%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中找不到對象時的錯誤訊息
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -223,4 +223,4 @@ ht-degree: 3%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: 歷程，使用案例
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 2%
 
 1. 建立歷程。 [閱讀全文](journey-gs.md)。
 
-1. 將&#x200B;**[!UICONTROL 條件]**&#x200B;活動新增至歷程。 [閱讀全文](condition-activity.md)。
+1. 將&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動新增至歷程。 [閱讀全文](optimize.md)。
 
 1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，設定傳遞的收件者數目上限：
 
-   1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;活動設定中，將&#x200B;**[!UICONTROL 型別]**&#x200B;欄位設定為&#x200B;**[!UICONTROL 設定檔上限]**。 [閱讀全文](condition-activity.md#profile_cap)。
+   1. 在&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動設定中，選取&#x200B;**[!UICONTROL 條件]**&#x200B;方法，並將&#x200B;**[!UICONTROL 型別]**&#x200B;欄位設定為&#x200B;**[!UICONTROL 設定檔上限]**。 [閱讀全文](conditions.md#profile_cap)。
 
    1. 將&#x200B;**[!UICONTROL 限制]**&#x200B;欄位設定為此傳遞的收件者數目上限。
 

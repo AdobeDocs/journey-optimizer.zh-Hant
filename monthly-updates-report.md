@@ -6,9 +6,9 @@ description: 新檔案頁面和更新檔案頁面的清單
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [為API觸發的行銷活動啟用高輸送量模式](help/using/campaigns/api-triggered-high-throughput.md) - 10月27日
 - [設定無訊息時間](help/using/conflict-prioritization/quiet-hours.md) - 10月22日
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 10月24日
-- [使用影像轉換為HTMLHTML範本](help/using/content-management/image-to-html.md) - 10月30日
+- [使用影像轉換為HTML範本](help/using/content-management/image-to-html.md) - 10月30日
 - [建立決定原則](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
 - [在訊息中使用決定原則](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
 - [設定您的頻道設定](help/using/orchestrated/channel-config.md) - 10月14日
@@ -148,7 +148,7 @@ ht-degree: 0%
 - [在Journey Optimizer中開始使用設定檔](help/using/audience/get-started-profiles.md) - 10月22日
 - [開始使用歷程活動](help/using/building-journeys/about-journey-activities.md) - 10月27日
 - [將集合傳遞至自訂動作引數](help/using/building-journeys/collections.md) - 10月13日
-- [條件活動](help/using/building-journeys/condition-activity.md) - 10月24日
+- [條件/最佳化（條件方法）](help/using/building-journeys/conditions.md) - 10月24日
 - [在歷程中使用Adobe Experience Platform資料](help/using/building-journeys/dataset-lookup.md) - 10月28日
 - [歷程中的體驗事件查閱](help/using/building-journeys/exp-event-lookup.md) - 10月28日
 - [使用動作歷程活動](help/using/building-journeys/journey-action.md) - 10月14日

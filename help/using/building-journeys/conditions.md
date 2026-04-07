@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 條件活動
-description: 瞭解條件活動
+title: 條件
+description: 在最佳化歷程路徑活動中設定條件
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 活動，條件，畫布，歷程
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="條件"
->abstract="您可以使用「條件」，根據特定準則建立多條路徑，藉此定義每個個體在您歷程中的進展方式。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。"
+>abstract="您可以使用「條件」，根據特定準則建立多條路徑，藉此定義每個個體在您歷程中的進展方式。您也可以設定替代路徑來處理逾時或錯誤，確保順暢的體驗。 請注意，條件現在已於最佳化活動中設定，以取代先前的條件活動。"
 
 透過&#x200B;**條件**，您可以根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->這些條件可透過&#x200B;**最佳化**&#x200B;活動取得，可在「有限可用性」中依需求存取。 請聯絡您的 Adobe 代表以取得存取權。
+>在歷程中建立條件路徑的新工具是[最佳化](optimize.md)活動。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從UI中移除。 現在，所有條件式邏輯都可透過此頁面上顯示的「最佳化活動」條件來處理。
 >
->如果您沒有此容量的存取權，您仍可使用舊版[條件活動](condition-activity.md)。
+>如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用]**&#x200B;條件&#x200B;**[!UICONTROL 方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
 
 ## 新增條件。 {#add-condition-activity}
 
@@ -54,6 +52,10 @@ ht-degree: 16%
    * [日期條件](#date_condition)
    * [設定檔上限](#profile_cap)
    * 您也可以在歷程條件中使用對象。 [了解更多](#using-a-segment)
+
+>[!NOTE]
+>
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 管理條件路徑 {#condition_paths}
 
@@ -87,7 +89,7 @@ ht-degree: 16%
 
 ![具有拖放欄位和邏輯運運算元的簡單運算式編輯器](assets/journey64.png){width=80%}
 
-如果您使用[[!DNL Adobe Experience Platform] 分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}來建立您的對象，您可以在歷程條件中運用這些對象。 請參閱[在條件](../building-journeys/condition-activity.md#using-a-segment)中使用對象。
+如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}建立您的對象，您可以在歷程條件中運用這些對象。 請參考[在條件中使用對象](#using-a-segment)。
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ ht-degree: 16%
 使用&#x200B;**[!UICONTROL 資料來源條件]**，根據資料來源或先前位於歷程中之事件的欄位來定義條件。 此型別的條件是使用運算式編輯器定義。 [瞭解如何使用運算式編輯器](expression/expressionadvanced.md)
 
 例如，如果您使用使用構成工作流程或自訂上傳（CSV檔案）產生的擴充屬性來鎖定對象，則可運用這些擴充屬性來建置條件。
+
+>[!IMPORTANT]
+>
+>**正在處理遺失或未內嵌的屬性**
+>
+>如果您的設定檔結構描述中定義了結構描述欄位，但並未擷取該欄位的資料，Journey Optimizer和基礎即時客戶設定檔會將該欄位解譯為`null`。 因此，檢查`isEmpty()`、`isNull()`或類似函式的條件將評估為`true`，即使從未擷取該屬性。 如果您不知道欄位沒有資料，這可能會導致非預期的歷程行為。
+>
+>為避免混淆，請確保在設定檔進入歷程之前，您用在條件運算式中的屬性已搭配實際資料內嵌。 您可以驗證[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中的屬性值，以確認條件中使用的欄位是否存在資料。
 
 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 [了解更多](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

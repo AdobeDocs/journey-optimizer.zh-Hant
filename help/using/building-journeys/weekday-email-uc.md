@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，使用案例，工作日，條件，電子郵件，排程
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->若要實作此使用案例，您需要使用設定的[!DNL Adobe Journey Optimizer]電子郵件頻道介面[作用中](../configuration/channel-surfaces.md)執行個體、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)來觸發歷程，以及對[歷程條件](condition-activity.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
-
+>若要實作此使用案例，您需要具備已設定的[電子郵件頻道介面](../configuration/channel-surfaces.md)、[對象](../audience/about-audiences.md)或[事件](../event/about-events.md)的活動Adobe Journey Optimizer執行個體以觸發歷程，以及對[歷程條件](conditions.md)和[運算式](expression/expressionadvanced.md)的基本瞭解。
 
 ## 實施步驟
 
@@ -56,7 +55,7 @@ ht-degree: 1%
 
 在歷程開始之後，新增&#x200B;**[!UICONTROL 條件]**&#x200B;活動以檢查當天是星期六還是星期日。 這會相應地分支工作流程。
 
-1. 將[**[!UICONTROL 條件&#x200B;]**&#x200B;活動](condition-activity.md)拖放到進入點之後的畫布上。
+1. 將[**[!UICONTROL 最佳化&#x200B;]**活動](optimize.md)拖放到進入點之後的畫布上。
 
 1. 按一下&#x200B;**[!UICONTROL 條件]**&#x200B;活動以開啟其設定面板。
 
@@ -186,7 +185,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ## 相關主題
 
-* [條件活動](condition-activity.md) — 瞭解如何在歷程中建立不同的路徑
+* [最佳化活動](optimize.md) — 瞭解如何在歷程中建立不同的路徑
 * [在歷程中使用條件](conditions.md) — 歷程條件的詳細指南
 * [等待活動](wait-activity.md) — 設定等待期間和公式
 * [日期函式](functions/date-functions.md) — 完成日期與時間函式的參考

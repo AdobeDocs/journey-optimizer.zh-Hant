@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 
   對於使用受眾構成或自訂上傳的受眾的歷程，設定檔屬性與在歷程輸入時的最後一次批次評估一樣新。 不過，在&#x200B;**等待**&#x200B;活動後，歷程會重新整理來自整合設定檔服務(UPS)的設定檔屬性，擷取最新可用的資料，這表示歷程執行期間可能會變更設定檔屬性。 [進一步瞭解等待活動後重新整理設定檔](../building-journeys/wait-activity.md#profile-refresh)
 
-* 在歷程中使用&#x200B;**條件**&#x200B;活動，以根據客群成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/condition-activity.md#using-a-segment)。
+* 在歷程中使用&#x200B;**最佳化**&#x200B;活動，以根據對象成員資格建置條件。 [了解如何在條件中使用客群](../building-journeys/conditions.md#using-a-segment)。
 
 * 在歷程中使用&#x200B;**對象資格**&#x200B;事件活動，以根據Adobe Experience Platform對象進入和退出，讓個人進入歷程或是在歷程中前進。 例如，您可以讓所有新的銀級客戶進入歷程，並向其傳送訊息。 [瞭解如何設定對象資格活動](../building-journeys/audience-qualification-events.md)。
 
