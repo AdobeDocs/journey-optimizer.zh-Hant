@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 26%
+source-wordcount: '658'
+ht-degree: 27%
 
 ---
 
@@ -49,9 +49,8 @@ ht-degree: 26%
 
 ## 護欄與限制
 
-* **支援的管道** — 所有客戶都可以使用程式碼型體驗、簡訊和推播通知的決定原則。 電子郵件管道的決策功能僅在有限可用性中提供。
+* **支援的管道** — 決策原則適用於程式碼型體驗、簡訊、推播通知及電子郵件。
 * **推送通知SDK需求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
-* **電子郵件映象頁面** — 目前，決定專案不會在電子郵件映象頁面中呈現。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
 * **在電子郵件中巢狀內嵌決定原則** — 您無法在已經有關聯決定原則的父級電子郵件元件中巢狀內嵌多個決定原則。
 * **含決策的重複歷程/行銷活動** — 如果您重複包含決策原則的歷程或行銷活動，重複版本會參考原始電子郵件或程式碼型體驗，而造成錯誤。 複製後請一律重新設定決定原則。
@@ -85,12 +84,12 @@ ht-degree: 26%
 
 瞭解如何使用Decisioning為受眾個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476175?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 瞭解如何使用Decisioning為受眾個人化推播通知。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 瞭解如何使用Decisioning為受眾個人化SMS訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479540?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

@@ -8,10 +8,10 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**簡訊**&#x200B;及&#x200B;**推播通知**&#x200B;管道的所有客戶。
->
->**電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**簡訊**、**推播通知**&#x200B;和&#x200B;**電子郵件**&#x200B;頻道的所有客戶。
 
 ## 插入決定原則代碼 {#insert}
 
