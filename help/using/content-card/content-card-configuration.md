@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '596'
+ht-degree: 48%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 49%
 
 | 類型 | URI | 說明 |
 | --------- | ----------- | ------- | 
-| Web | `web://domain.com/path/page.html#element` | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer 等。 |
+| 網頁 | `web://domain.com/path/page.html#element` | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer 等。 |
 | iOS 應用程式 | `mobileapp://com.vendor.bundle/activity#element` | 代表原生應用程式活動中的特定元素，例如按鈕或其他檢視元素。 |
 | Android 應用程式 | `mobileapp://com.vendor.bundle/#element` | 代表原生應用程式中的特定元素。 |
 
@@ -62,7 +62,7 @@ ht-degree: 49%
 
 ## 建立內容卡設定 {#create-config}
 
-1. 存取&#x200B;**[!UICONTROL 管道]** > **[!UICONTROL 品牌]** > **[!UICONTROL 管道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立管道設定]**。
+1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 
    ![](assets/content_card_config_1.png)
 

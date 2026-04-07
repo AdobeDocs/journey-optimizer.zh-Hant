@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [在 Web SDK 中設定內容卡支援](using/content-card/content-card-configuration-sdk.md)
       + [建立內容卡](using/content-card/create-content-card.md)
       + [設計內容卡](using/content-card/design-content-card.md)
+   + 收件匣 {#inbox}
+      + [開始使用收件匣](using/inbox/inbox-gs.md)
+      + [在Journey Optimizer中設定收件匣頻道](using/inbox/inbox-configuration.md)
+      + [建立您的收件匣](using/inbox/inbox-create.md)
+      + [設計您的收件匣](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [開始使用 WhatsApp 訊息](using/whatsapp/get-started-whatsapp.md)
