@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
+需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -606,7 +606,7 @@ Learn more about [action responses](../action/action-response.md).
 * 使用[頻道介面](../configuration/channel-surfaces.md)管理頻道設定
 * 測試所有路徑，以確保正確傳送訊息
 
-深入瞭解[條件](conditions.md)、[訊息動作](journeys-message.md)和[頻道選擇](../channels/gs-channels.md)。
+深入瞭解[條件](conditions.md)、[訊息動作](journey-action.md)和[頻道選擇](../channels/gs-channels.md)。
 
 +++
 
