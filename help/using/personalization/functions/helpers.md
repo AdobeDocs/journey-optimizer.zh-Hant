@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 3%
+source-wordcount: '1124'
+ht-degree: 4%
 
 ---
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -215,6 +215,26 @@ Some edu specific content
     {{/each}}
 {{sum}}
 ```
+
+## 資料集查詢 {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>此功能目前以有限可用性版本的形式提供給所有客戶。
+>
+>目前，`datasetLookup`協助程式函式可用於有限客戶集的運算式片段中。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+`datasetLookup`協助程式會在個人化期間從Adobe Experience Platform記錄資料集中擷取資料，因此您可以使用未儲存在設定檔或事件裝載中的欄位值。
+
+**語法**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+參考擷取的欄位具有`{{result.fieldId}}`，其中`result`是您傳遞至`result`引數的值。
+
+如需資料集啟用、引數詳細資料、範例和測試，請參閱[使用Adobe Experience Platform資料進行個人化](../aep-data-perso.md)。
 
 ## 執行中繼資料 {#execution-metadata}
 

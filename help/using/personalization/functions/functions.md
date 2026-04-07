@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -444,6 +444,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="helpers.md#each">每個</a></td><td>此函式用於反複處理陣列</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#dataset-lookup">資料集查詢</a></td><td>此協助程式會在轉譯時使用查詢索引鍵從Adobe Experience Platform記錄資料集中擷取欄位</td>
     </tr>
     <tr>
         <td><a href="helpers.md#execution-metadata">執行中繼資料</a></td><td>此協助程式會在訊息呈現期間擷取自訂索引鍵值中繼資料，以便將其儲存在執行階段執行中繼資料物件中</td>
