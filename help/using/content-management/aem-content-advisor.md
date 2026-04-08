@@ -75,7 +75,7 @@ Dynamic Media的可用性取決於您的存放庫設定：
 
 * **Scene7**：可用於已發佈的資產（視訊和PDF除外）。 [進一步瞭解Dynamic Media Scene7修飾元](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
+* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hant){target="_blank"}
 
 * **Scene7和OpenAPI**：當兩個設定都存在且資產符合條件時，即可使用。
 
