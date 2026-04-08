@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 58%
+source-wordcount: '966'
+ht-degree: 51%
 
 ---
 
@@ -107,6 +107,20 @@ ht-degree: 58%
 +++我在下拉式清單中看不到「核准並發佈」許可權 — 我該檢查什麼？
 
 請先確認您新增了正確的資源。 **核准與發佈行銷活動**&#x200B;許可權需要將&#x200B;**行銷活動**&#x200B;資源新增到角色，而&#x200B;**核准與發佈歷程**&#x200B;需要&#x200B;**歷程**&#x200B;資源。 兩者必須個別新增。 [瞭解如何指派核准相關許可權](#prerequisites)
+
++++
+
++++如果有多個原則可以相符，[!DNL Journey Optimizer]如何決定套用的核准原則？
+
+當多個作用中核准原則可套用至相同歷程或行銷活動時，最近&#x200B;**啟用的原則**&#x200B;會取得優先權。 該原則中定義的核准者使用者群組是收到通知並控制請求的群組。
+
+[了解更多](approval-policies.md#multiple-policies)
+
++++
+
++++如果要求者屬於多個使用者群組，他們是否可選擇將核准要求傳送至哪個群組？
+
+不可以。 請求者無法手動選取要接收或路由核准請求的使用者群組。 依據[原則優先順序](approval-policies.md#multiple-policies)，在套用的核准原則中指定的使用者群組會自動收到通知。
 
 +++
 
