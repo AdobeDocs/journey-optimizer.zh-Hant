@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="活動最佳化"
->abstract="**最佳化**&#x200B;活動可讓您根據特定條件（包括實驗、目標定位和特定條件）建立多個路徑，以定義個人在您的歷程中如何前進。 請注意，**最佳化**&#x200B;活動是在歷程中建立條件式路徑的新工具。 它取代之前的&#x200B;**條件**&#x200B;活動。"
+>abstract="藉由將活動&#x200B;**最佳化**，您可以根據特定準則 (包括實驗、目標選擇和特定條件) 建立多條路徑，定義每個個體在您歷程中的進展方式。 請注意，**最佳化**&#x200B;活動是在歷程中建立條件式路徑的新工具。 它取代之前的&#x200B;**條件**&#x200B;活動。"
 
 >[!IMPORTANT]
 >

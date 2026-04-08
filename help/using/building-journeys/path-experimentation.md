@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃角子老虎機，縮放成功者
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 4%
