@@ -7,8 +7,9 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
+mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9325cbff37665a1c46d8c0239755314b6cb876be
+source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 96%
@@ -137,7 +138,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 ### 合法使用與透明度
 
 * 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。[了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 
 ## AI 助理內容產生功能 {#generative-features}
