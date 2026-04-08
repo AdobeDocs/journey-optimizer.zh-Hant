@@ -158,7 +158,7 @@ ht-degree: 2%
 
    ![電子郵件內容範本，顯示影像轉換產生的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**區段，與Adobe分享您的想法與建議，以協助我們改善功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**&#x200B;區段，與Adobe分享您的想法與建議，以協助我們改善功能。
    ![Journey Optimizer中的意見回饋區段，其中包含分享您的想法與建議的文字區域](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**。 轉換後的範本會在[電子郵件Designer](../email/get-started-email-design.md)中開啟，並具備完整的編輯功能。 您現在可以：
@@ -173,7 +173,7 @@ ht-degree: 2%
 
    進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，請按一下[儲存]。****
+1. 在滿意您的範本後，請按一下[儲存]。**&#x200B;**
 
 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](../email/use-email-templates.md)
 
