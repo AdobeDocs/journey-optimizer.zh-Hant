@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 12%
+source-wordcount: '2196'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 12%
 
 * **已捨棄事件 — 不符合資格條件** — 對於規則型事件，如果事件裝載不符合&#x200B;**資格條件** （例如，必要欄位空白或遺失，或欄位上的條件`isNotEmpty`失敗），則事件為&#x200B;**已接收但已捨棄**，且未觸發歷程。 記錄檔和Splunk追蹤可顯示已接收事件但已捨棄該事件，因為它不符合資格條件，並含有捨棄程式碼，例如`notSuitableInitialEvent`。 這是預期行為：若不符合資格條件，將會捨棄事件，且不會為該設定檔觸發歷程。 確認事件裝載包含預期的欄位和值，並確認事件設定中的規則符合您傳送的資料。 如果事件是由另一個歷程的&#x200B;**自訂動作**&#x200B;所觸發，請參閱自訂動作疑難排解中的[處理捨棄事件和閒置逾時](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
@@ -113,6 +113,20 @@ ht-degree: 12%
 
 * 是否是因為某個條件排除此人？例如，條件是 &quot;gender = male&quot;，但人員是女性。如果條件並非太複雜，則可由業務使用者執行此檢查。
 * 是否是因為呼叫資料來源未回應？當歷程處於測試模式時，可在測試模式日誌中看到此資訊。當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。管理員也可以複製歷程並進行測試。
+
+## 已捨棄具有maxInstanceStackEventsReach的事件 {#max-instance-stack-events-reached}
+
+此捨棄原因表示歷程執行階段達到其特定歷程版本的每個設定檔事件棧疊限制（10個事件）。 這是一種安全護欄，可防止在同一個設定檔的另一個事件仍在處理中時，棧疊過多待處理事件。
+
+這是&#x200B;**不是**&#x200B;時間範圍或輸送量限制。 當設定檔的歷程執行個體在長時間執行的步驟（例如，長時間等待、擴充或自訂動作重試）上遭到封鎖，以及相同設定檔（也用於該歷程）的事件累積超過10個事件的限制時，就會發生這種情況。
+
+若要識別，查詢捨棄原因等於`maxInstanceStackEventsReached`的歷程步驟事件（例如，`serviceEvents.stateMachine.eventType`或類似欄位中）。 在[步驟事件欄位清單](../reports/sharing-field-list.md#discarded-events)中進一步瞭解捨棄的事件型別。
+
+**您可以做什麼**
+
+* 減少可能頻繁重新觸發的路徑上的長時間等待或緩慢步驟。
+* 儘可能刪除重複或取消退回上游事件。
+* 將長期執行的情境分割為多個歷程，以避免棧疊。
 
 ## 檢查訊息是否成功傳送 {#checking-that-messages-are-sent-successfully}
 

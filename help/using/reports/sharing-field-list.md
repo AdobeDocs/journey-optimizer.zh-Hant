@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 9%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[中進一步瞭解eventTypes ](#discarded-events)。
 
 ## stepEvents {#stepevents-field}
 
@@ -100,6 +100,12 @@ ht-degree: 9%
   **常見原因**：重複的事件、大量事件、系統資源限制。
 
   **疑難排解**：實作重複資料刪除、避免流量尖峰、最佳化歷程設計、[連絡支援人員](../start/user-interface.md#support-ticket-guidelines) （若持續進行）。
+
+* **maxInstanceStackEventsHadped**：歷程執行階段已達到指定歷程版本每個設定檔事件棧疊的內部10個事件限制。
+
+  **常見原因**：設定檔的歷程執行個體在長時間執行的步驟上遭到封鎖（例如，長時間等待、緩慢擴充或自訂動作重試）以及相同設定檔的事件（也用於該歷程），累積超過10個事件的限制。
+
+  **疑難排解**：減少可能經常重新觸發的路徑上長期執行的步驟、中斷或重複上游事件，並將長期案例分割成多個歷程。 這是安全護欄，且無法設定限制；會捨棄其他事件，直到棧疊排清為止。 如需詳細指引，請參閱[Discarded events with maxInstanceStackEventsHadded](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)。
 
 * **EVENT_WITH_NO_JOURNEY**：已收到事件，但未設定使用中歷程來回應
 
