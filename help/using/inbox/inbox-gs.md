@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 0%
 
 ## 其他資源
 
+* [收件匣UI (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/)：透過Adobe Experience Platform Mobile SDK （iOS 15或更新版本、Xcode 15或更新版本、Swift 5.1或更新版本）在iOS應用程式中實作Journey Optimizer收件匣的需求、公用API介面、收件匣設定，以及教學課程的連結。
+
 * [擷取及顯示收件匣](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/)：載入Journey Optimizer收件匣訊息，並在Android上轉譯收件匣UI （Adobe Developer檔案）。
+
 * [自訂收件匣](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/)：調整Android應用程式的收件匣配置、樣式和互動行為（Adobe Developer檔案）。
+
 * [聆聽收件匣事件](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/)：訂閱Android上的使用者動作和生命週期更新的收件匣回呼（Adobe Developer檔案）。
