@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
+1. 按一下![邊欄圖示](assets/do-not-localize/Smock_Rail_18_N.svg)以開啟預覽面板，並檢閱空白收件匣的顯示方式。
+
+   ![](assets/inbox-design-3.png)
+
 1. 在&#x200B;**[!UICONTROL 資料]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增中繼資料]**&#x200B;以將自訂索引鍵/值配對新增至承載。
 
 1. 按一下![](assets/do-not-localize/Smock_StarOutline_18_N.svg)圖示以開啟收件匣的深色模式預覽，並確認您的深色佈景主題顏色和影像。
 
    ![](assets/inbox-design-4.png)
+
+準備就緒後，請檢閱您的設定並啟用收件匣。 啟用後，您可以將其用於[內容卡](../content-card/create-content-card.md)。
+

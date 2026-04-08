@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 * **持續性訊息**：內容會保留在收件匣中，直到您移除它或它過期為止，因此使用者可以在關閉通知或離開應用程式後返回收件匣。
 * **集中位置**：應用程式或網站中用於相關行銷訊息的單一信箱。
 * **彈性的實作**：使用現成的收件匣容器，或在您自己的UI中量身打造體驗。
-* **跨裝置同步**：讀取狀態和參與在使用者裝置間保持對齊。
+* **Read-Status**：可在開啟郵件的裝置上將郵件標示為已讀取或未讀取。
 
 ## 快速入門手冊
 
