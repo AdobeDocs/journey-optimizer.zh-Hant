@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 10%
@@ -223,7 +223,8 @@ body {
 * 如果匯入使用電子郵件Designer建立的內容，包括透過&#x200B;**[!UICONTROL 新增自訂CSS]**&#x200B;選項套用的CSS，則先前套用的CSS將可透過相同選項顯示和編輯。
 
 <!--
-* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
+* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.
+-->
 
 ## 疑難排解 {#troubleshooting}
 

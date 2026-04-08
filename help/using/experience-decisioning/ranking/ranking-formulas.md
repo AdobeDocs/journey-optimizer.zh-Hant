@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -68,7 +68,8 @@ ht-degree: 5%
 
 1. 您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這尤其適合用於經常變更的屬性，例如產品可用性或即時定價。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
 
-<!--## Select an ELS dataset {#els-dataset}
+<!--
+## Select an ELS dataset {#els-dataset}
 
 Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
 
@@ -82,7 +83,8 @@ To leverage data from an AEP dataset, follow the steps below.
     >
     >This action is mandatory.
 
-![](../assets/formula-els-settings.png){width="80%"-->
+![](../assets/formula-els-settings.png){width="80%"}
+-->
 
 ## 使用公式產生器定義條件 {#ranking-select-criteria}
 
@@ -119,7 +121,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

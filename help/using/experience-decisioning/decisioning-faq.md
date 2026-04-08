@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
+exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -90,9 +91,11 @@ Adobe建議遵循以下最低臨界值，以確保有效模型效能：
 * 每週每個選件/專案1,000次曝光數
 * 每週每個選件/專案100個轉換事件
 
-<!--**Absolute minimums (per 30 days):**
+<!--
+**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
-* At least **25 conversion events** per offer/item-->
+* At least **25 conversion events** per offer/item
+-->
 
 依預設，系統不會嘗試為曝光次數少於1,000次或轉換事件少於50次的優惠/專案建立個人化模型。
 

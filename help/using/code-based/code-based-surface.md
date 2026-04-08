@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 50%
@@ -50,7 +50,7 @@ ht-degree: 50%
 **網頁與行動裝置**
 
 | 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | 網頁 | `web://domain.com/path/page.html#element` | 代表特定網域之特定頁面中的個別元素，其中元素可以是標籤，如下列範例中的標籤：hero_banner、top_nav、menu、footer 等。 |
 | iOS 應用程式 | `mobileapp://com.vendor.bundle/activity#element` | 代表原生應用程式活動中的特定元素，例如按鈕或其他檢視元素。 |
 | Android 應用程式 | `mobileapp://com.vendor.bundle/#element` | 代表原生應用程式中的特定元素。 |
@@ -58,7 +58,7 @@ ht-degree: 50%
 **其他裝置型別**
 
 | 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | 桌面 | `desktop://com.vendor.bundle/#element` | 代表應用程式中的特定元素，例如按鈕、功能表、主圖橫幅等。 |
 | 電視應用程式 | `tvcd://com.vendor.bundle/#element` | 代表智慧型電視或電視連結裝置應用程式的特定元素 - 套裝 ID。 |
 | 服務 | `service://servicename/#element` | 代表伺服器端程序或其他手動實體。 |
@@ -68,7 +68,7 @@ ht-degree: 50%
 **萬用字元表面**
 
 | 類型 | URI | 說明 |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | 萬用字元網頁 | `wildcard:web://domain.com/*#element` | 萬用字元表面 - 代表特定網域下每個頁面中的個別元素。 |
 | 萬用字元網頁 | `wildcard:web://*domain.com/*#element` | 萬用字元表面 - 代表所有以「domain.com」結尾的網域下每個頁面中的個別元素。 |
 

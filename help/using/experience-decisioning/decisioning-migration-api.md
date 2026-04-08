@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 4%
@@ -356,13 +356,15 @@ curl --request GET \
 
 ## 工作流程清理 {#cleanup}
 
-<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
+<!--
+Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
 **Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`-->
+* `DELETE /workflows/rollback/{id}`
+-->
 
 工作流程刪除功能無法公開使用。 如果您需要刪除工作流程資源，請聯絡您的系統管理員。
 

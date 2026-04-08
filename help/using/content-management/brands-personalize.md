@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 9%
@@ -168,7 +168,7 @@ ht-degree: 9%
 
      ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
@@ -240,7 +240,7 @@ ht-degree: 9%
 
      ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 
@@ -351,5 +351,4 @@ To personalize your **[!UICONTROL Colors]**:
 1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
 You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
-
 -->

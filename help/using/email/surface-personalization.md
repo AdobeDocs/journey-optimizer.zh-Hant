@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 6%
+source-wordcount: '1310'
+ht-degree: 5%
 
 ---
 
@@ -115,9 +115,11 @@ ht-degree: 6%
 
    例如，您想要動態處理代表關係經理傳送的電子郵件，其詳細資料儲存在客戶設定檔中，以便每個客戶都與關係經理連結。 在[歷程](../building-journeys/journey-gs.md)中，電子郵件標題（寄件者名稱、寄件者電子郵件、回覆地址）可以個人化關係管理員的引數，這些引數取自設定檔屬性。
 
-   <!--The examples below use event parameters, which are currently not available.
-    
-    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.-->
+   <!--
+下列範例使用目前無法使用的事件引數。
+
+    假設您想要處理代表銷售助理傳送的動態電子郵件，其中銷售助理是從事件或行銷活動內容引數擷取。 例如：在[journey](../building-journeys/journey-gs.md)中，當購買事件連結至特定商店的銷售助理時，電子郵件標題（寄件者姓名、寄件者電子郵件、回覆地址）可以使用銷售助理引數（從事件屬性中取得）進行個人化。 在由銷售助理從外部啟動的[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)中，可以代表銷售助理傳送觸發的電子郵件，以及從行銷活動內容引數取得的標題個人化值。
+-->
 
 1. 針對您想要新增個人化的每個引數，重複上述步驟。
 

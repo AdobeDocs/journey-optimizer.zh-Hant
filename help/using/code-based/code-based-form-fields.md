@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 8%
@@ -78,7 +78,7 @@ ht-degree: 8%
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-    -->
+-->
 
 1. 按一下&#x200B;**[!UICONTROL 預覽表單欄位]**&#x200B;以檢查可編輯的表單欄位在套用此範本的程式碼式體驗中會如何顯示。
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

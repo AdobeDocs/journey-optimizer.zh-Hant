@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 12%
@@ -134,7 +134,7 @@ ht-degree: 12%
 
    ![](assets/content-card-create-2.png)
 
-1. 若要測試訊息的內容，請按一下[建立實驗]。**&#x200B;** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
+1. 若要測試訊息的內容，請按一下[建立實驗]。**** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
 
 1. 啟用「**[!UICONTROL 啟用其他傳遞規則]**」選項，然後選取「**[!UICONTROL 編輯規則]**」以定義何時應顯示、解除或永久隱藏您的訊息。
 

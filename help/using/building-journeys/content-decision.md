@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 1%
@@ -165,9 +165,11 @@ ht-degree: 1%
 
 一旦歷程[啟動](publish-journey.md)：
 
-<!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
+<!--
+* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
-* If no offer is returned for a profile, they are excluded from the custom action.-->
+* If no offer is returned for a profile, they are excluded from the custom action.
+-->
 
 1. 每次設定檔符合該對象資格時，就會進入歷程。
 

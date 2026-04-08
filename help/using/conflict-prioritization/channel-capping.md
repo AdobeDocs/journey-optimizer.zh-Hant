@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 5%
@@ -49,7 +49,7 @@ ht-degree: 5%
 
      ![](assets/journey-capping-list.png)
 
-   * 若要在新規則集內建立上限規則，請按一下[建立規則集] **&#x200B;**，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。**&#x200B;**
+   * 若要在新規則集內建立上限規則，請按一下[建立規則集] ****，指定規則集的唯一名稱，並從[規則集網域] **[!UICONTROL 下拉式清單中選取[管道]，然後按一下[儲存]]**。****
 
      ![](assets/rule-sets-create.png)
 
@@ -161,8 +161,9 @@ You can combine several message frequency rules, such as described in the exampl
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
-* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+* but will be excluded from marketing push notifications after they have received 4 push notifications.
+-->
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

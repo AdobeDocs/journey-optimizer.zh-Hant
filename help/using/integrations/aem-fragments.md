@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 76446d6e27b01eda188fdb241c4d11df1774eddb
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料流程：
 
-1. **[設定Dispatcher](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**：若要讓Journey Optimizer能透過內容片段管理API存取Adobe Experience Manager內容片段，您必須先設定Dispatcher。 這是整合的必備條件。
+1. **[設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**：若要讓Journey Optimizer能透過內容片段管理API存取Adobe Experience Manager內容片段，您必須先設定Dispatcher。 這是整合的必備條件。
 
-1. **[建立和作者](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：內容是在Adobe Experience Manager中建立並設定為內容片段。
+1. **[建立和作者](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：內容是在Adobe Experience Manager中建立並設定為內容片段。
 
-1. **[標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：內容片段必須使用Journey Optimizer特定標籤(`ajo-enabled:{OrgId}/{SandboxName}`)標籤。
+1. **[標籤](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：內容片段必須使用Journey Optimizer特定標籤(`ajo-enabled:{OrgId}/{SandboxName}`)標籤。
 
-1. **[發佈](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：內容片段已發佈至Adobe Experience Manager，可供Journey Optimizer使用。
+1. **[發佈](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：內容片段已發佈至Adobe Experience Manager，可供Journey Optimizer使用。
 
 1. **[存取](#aem-add)**： Journey Optimizer會即時從Adobe Experience Manager發佈執行個體擷取並顯示可用的內容片段。
 
@@ -44,7 +44,7 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
 >[!IMPORTANT]
 >
->若要讓Journey Optimizer能夠透過內容片段管理API存取Adobe Experience Manager內容片段，您必須先[設定Dispatcher](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
+>若要讓Journey Optimizer能夠透過內容片段管理API存取Adobe Experience Manager內容片段，您必須先[設定Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
 
 在Journey Optimizer中使用內容片段之前，您需要建立專門用於Journey Optimizer的標籤：
 
@@ -60,11 +60,11 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
 1. 按一下&#x200B;**建立**。
 
-1. 定義您的內容片段模式（如[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中所詳述），並指派您新建立的Journey Optimizer標籤。
+1. 定義您的內容片段模式（如[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中所詳述），並指派您新建立的Journey Optimizer標籤。
 
 此即時連線可確保您的內容永遠保持最新，但也意味著對已發佈片段的任何變更都會立即影響作用中的行銷活動和歷程。
 
-您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}。
+您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}。
 
 ## 新增Experience Manager內容片段 {#aem-add}
 
@@ -113,9 +113,10 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 1. 從您的&#x200B;**[!UICONTROL 片段]**&#x200B;中選擇所需的欄位以新增至您的內容。
 
    <!--
-    Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.-->
+    Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.
+-->
 
-   ![](assets/aem_campaign_6.png)
+    ![](assets/aem_campaign_6.png)
 
 1. 若要呈現儲存在內容片段屬性中的影像URL （例如片段模型的路徑或URL欄位），請將其插入您的HTML中，並以`<img>`標籤和片段屬性作為來源，例如：
 
@@ -142,7 +143,7 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
    1. **靜態字串對應**：將固定字串值放在雙引號中，例如名稱= &quot;John&quot;，以指派固定字串值。
 
    1. **變數對應**：參照同一HTML中先前宣告的變數，例如name = &#39;variableName&#39;。
-在此情況下，請確保在新增片段ID之前使用以下語法宣告&#x200B;**_variableName_**：
+在此情況下，請確保在新增片段ID之前使用以下語法宣告**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
@@ -158,7 +159,7 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
 執行測試並驗證內容後，您可以[傳送行銷活動](../campaigns/review-activate-campaign.md)或[發佈您的歷程](../building-journeys/publish-journey.md)給您的對象。
 
-Adobe Experience Manager可讓您識別使用內容片段的Journey Optimizer行銷活動或歷程。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}。
+Adobe Experience Manager可讓您識別使用內容片段的Journey Optimizer行銷活動或歷程。 進一步瞭解[Adobe Experience Manager檔案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}。
 
 ## 使用內容片段變數 {#aem-variations}
 
@@ -173,7 +174,7 @@ Adobe Experience Manager可讓您識別使用內容片段的Journey Optimizer行
 * 區域色調調整，而不建立單獨的片段。
 * 通道特定訊息（例如網頁與行動裝置的比較）。
 
-➡️ [在Adobe Experience Manager檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [在Adobe Experience Manager檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 Journey Optimizer可讓您選擇在插入片段時使用的變數，如此一來，在Adobe Experience Manager中，不同的促銷活動或歷程可依賴相同來源內容的不同轉譯，而不會復製片段。
 

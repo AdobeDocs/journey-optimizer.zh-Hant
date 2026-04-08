@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 2%
@@ -48,7 +48,7 @@ ht-degree: 2%
    +++ 設定的SMS認證清單
 
    | 設定欄位 | 說明 |
-   |---|---|    
+   |---|---|
    | 簡訊供應商 | Infobip |
    | 名稱 | 選擇您的API認證名稱。 |
    | API基本URL和API金鑰 | 存取您的網頁介面首頁或API金鑰管理頁面以尋找您的認證。 對於區域或替代網域端點（例如`api-ny2.infobip.com`），請指定完整的基底URL，並使用Infobip支援來驗證您的授權權杖。 </br>在[Infobip檔案](https://www.infobip.com/docs/api){target="_blank"}中進一步瞭解 |
@@ -58,7 +58,7 @@ ht-degree: 2%
    | 選擇退出訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
    | 說明關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
    | 說明訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動傳送為您的&#x200B;**說明訊息**。 |
-   | 雙重選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)。 |
+   | 雙重選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | 雙重選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自動傳送以回應雙重加入確認的自訂回應。 |
    | 主體實體ID | 輸入指派的DLT主要實體識別碼。 |
    | 內容範本ID | 輸入註冊的DLT內容範本ID。 |

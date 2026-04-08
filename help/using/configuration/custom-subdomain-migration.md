@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -42,7 +42,7 @@ ht-degree: 5%
 >
 >您只能移轉使用[CNAME方法](delegate-subdomain.md#cname-subdomain-setup)設定的子網域。
 
-* 請確定貴組織已啟用&#x200B;**自訂委派方法** (此功能目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權)。 [了解更多](delegate-custom-subdomain.md)
+* 請確定貴組織已啟用&#x200B;**自訂委派方法** （此功能目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權）。 [了解更多](delegate-custom-subdomain.md)
 * 請確認沒有任何使用中的管道設定使用此子網域。 移轉程式將會中斷其功能。
 
   >[!NOTE]
@@ -141,7 +141,8 @@ ht-degree: 5%
 
     * Click **[!UICONTROL Download CSR]** to save the form to your local computer.
 
-    * Send the CSR to the Certificate Authority to get your SSL certificate.-->
+    * Send the CSR to the Certificate Authority to get your SSL certificate.
+-->
 
 1. 擷取SSL憑證後，請按一下&#x200B;**[!UICONTROL 上傳憑證]**。
 

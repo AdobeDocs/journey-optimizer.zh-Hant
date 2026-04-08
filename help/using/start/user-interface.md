@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 50b32702daeb90fea097f384797dcb5f82c65796
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -39,7 +39,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ## 頂端列功能 {#top-bar}
 
-### 通用搜尋 {#search}
+### 通用搜尋 {#universal-search}
 
 使用搜尋圖示快速尋找 Journey Optimizer 中的歷程、行銷活動、資產和其他物件。輸入關鍵字以檢視來自平台所有區域的相關結果。 [進一步瞭解通用搜尋](search-filter-categorize.md#unified-search)。
 

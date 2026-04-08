@@ -5,10 +5,11 @@ title: 管理客戶的偏好設定
 description: 瞭解如何透過使用同意原則來管理使用者的偏好設定
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: 原則，治理，平台，同意， healthcare shield
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -23,7 +24,8 @@ ht-degree: 6%
 
 在現代行銷自動化生態系統中，品牌與各個接觸點的客戶互動，面對不相關或過度通訊、導致脫離、垃圾郵件投訴和合規風險的風險。 這就是為什麼他們需要管理客戶的偏好設定，以便獲得對受眾的即時見解，並提供個人化、尊重的溝通。
 
-透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。 這可確保[!DNL Journey Optimizer]僅根據客戶的選擇<!-- their preferred channels and on the subscription topics-->鎖定客戶，同時尊重他們的同意。
+透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。 這可確保[!DNL Journey Optimizer]僅根據客戶的選擇來鎖定客戶，同時尊重他們的同意。
+<!-- their preferred channels and on the subscription topics-->
 
 若要使用[!DNL Journey Optimizer]管理您的使用者偏好設定，您可以：
 
@@ -37,7 +39,8 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->同意優先於偏好設定。 例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們<!-- on yoga-->。
+>同意優先於偏好設定。 例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們。
+<!-- on yoga-->
 
 ## 記錄與執行喜好設定 {#manage-preferences}
 
@@ -57,13 +60,13 @@ ht-degree: 6%
    >
    >客戶同意和聯絡人偏好設定是複雜的主題。 若要瞭解如何在[!DNL Experience Platform]中收集、處理和篩選同意與內容偏好設定，建議您閱讀下列檔案：
    >
-   >* 若要瞭解收集同意資料所需的結構描述欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 其中會詳細說明如何處理您從客戶收集的同意資料，並將其整合至您儲存的客戶設定檔中。
-   >* 若要進一步瞭解[同意與偏好設定]欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
-   >* 若要將自訂偏好設定欄位新增到結構描述，請依照[此區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步驟操作。
+   >* 若要瞭解收集同意資料所需的結構描述欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 其中會詳細說明如何處理您從客戶收集的同意資料，並將其整合至您儲存的客戶設定檔中。
+   >* 若要進一步瞭解[同意與偏好設定]欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
+   >* 若要將自訂偏好設定欄位新增到結構描述，請依照[此區段](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步驟操作。
 
 1. 建立頁面以擷取您客戶的偏好設定。 請使用下列其中一種方法：
 
-   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home){target="_blank"}建立網頁以記錄客戶的偏好設定。
+   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}建立網頁以記錄客戶的偏好設定。
 
    * 使用包含表單的[!DNL Journey Optimizer] [登陸頁面](../landing-pages/create-lp.md)，透過設定檔資料擷取客戶的偏好設定。  [進一步瞭解表單](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -81,11 +84,13 @@ ht-degree: 6%
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
     >[！NOTE]
     >
@@ -101,23 +106,25 @@ ht-degree: 6%
 
 1. 選擇&#x200B;**[!UICONTROL 同意原則]**&#x200B;按如下所示輸入並設定條件。 [瞭解如何設定同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     例如，若要只傳送通訊給未選擇不接收電子郵件電子報的客戶，請建立自訂原則並定義下列條件： 
     
-    *如果&#x200B;**[!UICONTROL 行銷動作]**&#x200B;等於&#x200B;**[!UICONTROL 電子郵件]**
+    *如果**[!UICONTROL 行銷動作]**等於**[!UICONTROL 電子郵件]**
     
-    *則&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等於&#x200B;**[!UICONTROL false]**
+    *則**[!UICONTROL Newsletter_Email]**不存在**[!UICONTROL false]**或**[!UICONTROL Newsletter_Email]**不等於**[!UICONTROL false]**
     
-    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
+    ！[](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >
-    >啟用設定檔的資料集必須包含設定檔屬性&#x200B;**[!UICONTROL Newsletter_Email]**，且值設定為&#39;true&#39; （如步驟1中所述）
+    >啟用設定檔的資料集必須包含設定檔屬性**[!UICONTROL Newsletter_Email]**，且值設定為&#39;true&#39; （如步驟1中所述）
 
 1. 建立同意原則後，請使用[!DNL Journey Optimizer]通道設定[或](consent.md#surface-marketing-actions)歷程自訂動作[，在](consent.md#journey-custom-actions)中運用它。
 

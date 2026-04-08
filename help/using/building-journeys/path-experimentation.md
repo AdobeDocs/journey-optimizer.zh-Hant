@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃角子老虎機，縮放成功者
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 4%
@@ -66,7 +66,8 @@ ht-degree: 4%
 
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
+    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
+-->
 
 1. 您可以為每個&#x200B;**[!UICONTROL 處理]**&#x200B;分配精確百分比，或直接開啟&#x200B;**[!UICONTROL 平均分配]**&#x200B;切換列。
 
@@ -91,7 +92,6 @@ ht-degree: 4%
 1. [發佈](publish-journey.md)您的歷程。
 
 <!--
-
     Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
 
     ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
@@ -99,14 +99,14 @@ ht-degree: 4%
     From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
 
     ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
-
 -->
 
 歷程上線後，會隨機指派使用者沿著不同路徑前進。 [!DNL Journey Optimizer]追蹤哪個路徑執行效果最佳並提供可操作的深入分析。
 
 使用歷程路徑實驗報告追蹤您的歷程是否成功。 [了解更多](../reports/journey-global-report-cja-experimentation.md)
 
-<!--REMOVED WITH GA
+<!--
+REMOVED WITH GA
 
 >[!CAUTION]
 >

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -47,7 +47,8 @@ ht-degree: 100%
 
   但是，CNAME 設定還需於裝載解決方案新增部分額外項目。因此，請務必與 IT 部門進行協調，以便他們能夠執行[本節](dmarc-record.md#implement-dmarc)中詳細說明的更新。
 
-<!--The most recent timelines shared by Google and Yahoo! are as follows:
+<!--
+The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 

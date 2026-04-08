@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 下表顯示請求標頭中包含Content-Type欄位的有效值：
 
-| 標題名稱 | 價值 |
+| 標題名稱 | 值 |
 | --------- | ----------- |
 | Content-Type | `application/json` |
 

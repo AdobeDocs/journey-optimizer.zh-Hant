@@ -7,7 +7,7 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 5%
@@ -146,6 +146,8 @@ ht-degree: 5%
 
    ![](assets/decision-policy-add-sms.png)
 
++++
+
 >[!TAB 推播通知]
 
 對於推播通知，您可以使用&#x200B;**個人化編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;選單來新增決定原則。
@@ -170,6 +172,8 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >具有推播通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
+
++++
 
 >[!ENDTABS]
 
@@ -289,7 +293,7 @@ ht-degree: 5%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -304,7 +308,7 @@ ht-degree: 5%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。**&#x200B;**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]]**&#x200B;以確認建立原則。****
 
 >[!IMPORTANT]
 >

@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Intermediate
 keywords: 許可權，許可權，限制，存取，沙箱
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 8%
@@ -22,16 +22,18 @@ ht-degree: 8%
 
 透過Adobe Experience Cloud中的[!DNL Journey Optimizer]許可權&#x200B;**提供**&#x200B;的存取控制。 此功能利用角色和原則，將使用者與許可權和沙箱連結。
 
-若要設定Journey Optimizer的存取控制，您必須擁有組織的系統或產品管理員許可權。 可授予或撤銷許可權的最低角色為產品管理員。 可以管理許可權的其他管理員角色是系統管理員（無限制）。 如需詳細資訊，請參閱有關管理角色的[Adobe說明中心文章](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html){target="_blank"}。
+若要設定Journey Optimizer的存取控制，您必須擁有組織的系統或產品管理員許可權。 可授予或撤銷許可權的最低角色為產品管理員。 可以管理許可權的其他管理員角色是系統管理員（無限制）。 如需詳細資訊，請參閱有關管理角色的[Adobe說明中心文章](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}。
 
-<!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
+<!--
+ A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
 * After licensing [!DNL Journey Optimizer], an email is sent to the administrator specified during licensing.
 * The administrator logs in to Adobe Admin Console and selects [!DNL Journey Optimizer] from the list of products on the overview page.
 * To grant access to [!DNL Journey Optimizer], it is recommended that the administrator add users to the default product profile
 * In Experience Platform Permissions, the administrator can create new roles or edit the permissions and users for any existing roles.
 * When creating or editing a role, the administrator adds users to the role using the users tab, and grants permissions to these users (such as "Read Datasets" or "Manage Schemas") by editing the role's permissions. Similarly, the administrator can assign access to sandboxes using the same editing option.
-* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
+* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.
+-->
 
 
 [!DNL Journey Optimizer]中的使用者管理是以這些重要概念為基礎：
@@ -50,7 +52,7 @@ ht-degree: 8%
 * **以屬性為基礎的存取控制**：管理特定團隊或使用者群組資料存取的授權。 以屬性為基礎的存取控制可讓管理員根據屬性控制對特定物件和/或權能的存取。 屬性可以是新增至物件的中繼資料，例如新增至結構欄位或區段的標籤。 管理員定義存取原則，其中包含管理使用者存取許可權的屬性。 深入瞭解[以屬性為基礎的存取管理](attribute-based-access.md)。
 
 
-## 一起來深入探討
+## 讓我們深入探討
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的存取控制概念，您可以更深入探討這些檔案區段，以開始設定許可權。
 

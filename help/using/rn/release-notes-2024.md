@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -399,7 +399,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Email Content Locking</strong><br/></th>
@@ -414,7 +415,8 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -520,7 +522,8 @@ ht-degree: 100%
 * **IP 暖身計劃** - 此功能現在可供所有客戶使用，包括已購買 Adobe **Healthcare Shield** 或 **Privacy and Security Shield** 附加產品的組織。[了解更多](../configuration/ip-warmup-gs.md)
 
 <!--
-![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
+-->
 
 
 
@@ -549,7 +552,7 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -795,7 +798,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Extended personalization data - Beta</strong><br/></th>
@@ -809,7 +813,7 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### 改善 {#june24-improvements}
 
@@ -923,7 +927,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>IP Warmup Workflow</strong><br/></th>
@@ -937,9 +942,10 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Business rules - Beta</strong><br/></th>
@@ -954,10 +960,11 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Extended personalization data - Beta</strong><br/></th>
@@ -971,7 +978,7 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### 改善 {#e-improvements}
 
@@ -988,10 +995,12 @@ ht-degree: 100%
 * **報告** - 現在您可以使用[!DNL Customer Journey Analytics]建立體驗決策活動的自訂報告儀表板。 [閱讀全文](../experience-decisioning/cja-reporting.md)
 
 
-<!--**Decision Management**
+<!--
+**Decision Management**
 
 * **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
-* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. 
+-->
 
 
 **電子郵件頻道**
@@ -1009,11 +1018,14 @@ ht-degree: 100%
 <!--
 **Audiences**
 
-* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.
+-->
 
-<!--**Personalization**
+<!--
+**Personalization**
 
-* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)
+-->
 
 **歷程**
 
@@ -1072,7 +1084,8 @@ ht-degree: 100%
 </tbody>
 </table>
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
@@ -1085,10 +1098,11 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Email Surface Personalization - Private beta </strong><br/></th>
@@ -1101,7 +1115,7 @@ ht-degree: 100%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### 改善 {#apr-improvements}
 
@@ -1268,9 +1282,11 @@ ht-degree: 100%
 
 * 除了電子郵件及推播之外，您現在還可以為簡訊和直接郵件管道建立頻率規則。 當達到頻率上限時，頻率規則會自動從訊息和動作中排除過度請求的輪廓。[閱讀全文](../conflict-prioritization/rule-sets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
+* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.
+-->
 
 
 ## 2024 年 1 月發行版本 {#jan-2024}

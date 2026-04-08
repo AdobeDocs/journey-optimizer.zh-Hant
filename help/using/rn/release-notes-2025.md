@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '9005'
 ht-degree: 99%
@@ -99,7 +99,8 @@ ht-degree: 99%
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>RCS Basic Messaging</strong><br/></th>
@@ -116,14 +117,17 @@ ht-degree: 99%
 <li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
 <li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
@@ -133,14 +137,17 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Direct Mail channel in journeys</strong><br/></th>
@@ -151,14 +158,17 @@ ht-degree: 99%
 <td>
 <p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
 <p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<!--/td>
+<!--img src="assets/do-not-localize/FILE.gif"
+-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.-->
+<!--
+/td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>New source connectors for loyalty apps</strong><br/></th>
@@ -173,9 +183,11 @@ ht-degree: 99%
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Decisioning support in email channel</strong><br/></th>
@@ -192,7 +204,7 @@ ht-degree: 99%
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -432,7 +444,6 @@ You can now use AI models to optimize the best content in your email through the
 </tr>
 </tbody>
 </table>
-
 -->
 
 
@@ -670,7 +681,8 @@ You can now use AI models to optimize the best content in your email through the
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Use Adobe Experience Platform data for personalization</strong><br/></th>
@@ -691,9 +703,10 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Use Decisioning in email channel</strong><br/></th>
@@ -709,7 +722,7 @@ You can now use AI models to optimize the best content in your email through the
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1356,8 +1369,10 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <p>透過整合 Adobe Experience Manager 與 Adobe Journey Optimizer，您就可以立即在 Journey Optimizer 內容中，輕鬆使用 Adobe Experience Manager 內容片段。 這種順暢連線讓您能更輕鬆地直接在 Journey Optimizer 中存取，同時使用 AEM 內容。</p>
 <p>此功能之前可用於一系列有限公司組織 (LA)，目前改為 GA，同時具備以下增強功能：您目前可以使用編輯器模式，定義片段簽名中的預留位置、對應個人化值。</p>
 <ul>
-<!--li>Create offers by directly selecting an AEM Content Fragment.</li>
-<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
+<!--
+li>Create offers by directly selecting an AEM Content Fragment.</li>
+<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li
+-->
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
@@ -1545,19 +1560,24 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
   
-  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
+  Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.
+-->
 
 * **行銷活動清單中的右側邊欄** — 推出日期：2025 年 5 月 20 日
 
   現在，在行銷活動清單中，選取行銷活動會開啟窗格並顯示其詳細資訊。
 
-<!--* **Form fields in code-based experience content**
+<!--
+* **Form fields in code-based experience content**
 
-  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.-->
+  In content templates, you can now define specific JSON or HTML fields which enable non-technical users to easily edit content in code-based experiences without the need to manipulate code.
+-->
 
-<!--* **Subdomains - 'Custom delegation' method**  
+<!--
+* **Subdomains - 'Custom delegation' method**  
   In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering, and tracking messages.
-  -->
+  
+-->
 
 
 
@@ -1587,7 +1607,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Adobe Experience Manager as a Cloud Service integration</strong><br/></th>
@@ -1601,9 +1622,10 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Simulate content variations (General Availability)</strong><br/></th>
@@ -1618,7 +1640,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -1637,7 +1660,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Custom SMS provider (General Availability)</strong><br/></th>
@@ -1650,7 +1674,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 <p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 <table>
@@ -1674,7 +1698,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Calendar view for campaign and journey inventory (Limited Availability)</strong><br/></th>
@@ -1688,7 +1713,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -1725,7 +1751,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th>
@@ -1742,7 +1769,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1831,21 +1858,25 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
   >
   >此改善功能僅適用於一組組織 (有限可用性)。
 
-<!--- **Folders for content templates and fragments** - Availability date: May 5, 2025
+<!--
+**Folders for content templates and fragments** - Availability date: May 5, 2025
 
   Previously available for a set of organizations (LA), folders are now available to all users (GA) to manage their content templates and fragments. Folders let you organize your content templates and fragments more easily and effectively into a structured hierarchy.
 
 
 
-<!--- **Right rail in campaigns list**  
+**Right rail in campaigns list**  
 
-  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.-->
+  A right rail has been added to the campaigns list, providing detailed information when a campaign is selected.
+-->
 
-<!--**Playbooks**
+<!--
+**Playbooks**
 
 - **Create your own playbooks (Beta)**
   
-  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.-->
+  You can now create your own playbooks in Adobe Journey Optimizer, enabling greater customization and flexibility in journey planning.
+-->
 
 
 
@@ -1855,7 +1886,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 此版本隨附的新功能詳述如下。
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Integration with Adobe Express (Limited Availability)</strong><br/></th>
@@ -1872,10 +1904,11 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Journey metrics</strong><br/></th>
@@ -1890,9 +1923,10 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>Calendar view for journeys (Limited Availability)</strong><br/></th>
@@ -1907,7 +1941,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -1969,7 +2003,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </table>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>LINE channel (Limited Availability)</strong><br/></th>
@@ -1984,7 +2019,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 ### 改善 {#25-03-improv}
@@ -2033,9 +2068,11 @@ HTML 類型內容範本現已棄用。請注意，您仍可使用之前在 [!DNL
 
 您可以立即透過交易型電子郵件管道設定中的行銷動作，善用自訂同意原則。[了解更多](../action/consent.md#surface-marketing-actions)
 
-<!--**Deliverability**
+<!--
+**Deliverability**
 
-You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
+You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.
+-->
 
 
 
@@ -2162,7 +2199,8 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
 
 <!--
-* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
+* The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.
+-->
 
 
 * **電子郵件組態** — 如果您在 Adobe 外部管理同意聲明，現在可以在電子郵件管道設定中設定自訂的取消訂閱電子郵件地址和自訂的一鍵取消訂閱 URL。[閱讀全文](../email/list-unsubscribe.md#custom-managed)

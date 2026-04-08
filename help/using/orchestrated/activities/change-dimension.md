@@ -5,7 +5,7 @@ title: 使用變更維度活動
 description: 了解如何使用變更維度活動
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 74%
@@ -18,7 +18,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"
 >title="產生補集"
->abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。若要這樣做，請開啟「**產生補集**」選項"
+>abstract="您可以使用剩餘群體 (其已因重複而排除) 產生額外的傳出轉變。 若要這樣做，請開啟「**產生補集**」選項"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_change_dimension"
@@ -32,7 +32,8 @@ ht-degree: 74%
 <!--
 >[!IMPORTANT]
 >
->Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.-->
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+-->
 
 ## 設定變更維度活動 {#configure}
 

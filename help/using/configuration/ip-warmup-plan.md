@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1765'
 ht-degree: 6%
 
 ---
@@ -262,7 +262,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
 >abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及設定檔的目標數量，然後在此處上傳。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hant#prepare-file" text="準備 IP 暖身計畫檔案"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
@@ -290,13 +290,14 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 1. 上傳包含IP熱身計畫的Excel檔案。 [了解更多](#prepare-file)
 
    <!--
-    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
+    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
+-->
 
-   ![](assets/ip-warmup-upload-success.png)
-
-   >[!NOTE]
-   >
-   >如果上傳失敗，請確定您使用正確的格式和檔案格式(.xls或.xlsx)。 使用Adobe提供的[範本](assets/IPWarmupPlan-Template.xlsx)。
+    ![](assets/ip-warmup-upload-success.png)
+    
+    >[！NOTE]
+    >
+    >如果上傳失敗，請確定您使用正確的格式設定和檔案格式(.xls或.xlsx)。 使用Adobe提供的[範本](assets/IPWarmupPlan-Template.xlsx)。
 
 1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在[!DNL Journey Optimizer]介面中。
 

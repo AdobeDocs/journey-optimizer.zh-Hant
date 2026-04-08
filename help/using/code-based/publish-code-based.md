@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->按一下[啟動&#x200B;**&#x200B;**]後，最多可能需要15分鐘才能讓您的變更上線。
+>按一下[啟動&#x200B;****]後，最多可能需要15分鐘才能讓您的變更上線。
 >
 >如果您為程式碼型行銷活動定義排程，在到達開始日期和時間之前，其狀態為&#x200B;**[!UICONTROL 已排程]** [狀態](../campaigns/manage-campaigns.md#statuses)。
 
@@ -99,13 +99,16 @@ ht-degree: 1%
 >
 >一旦程式碼型歷程或行銷活動停止，您就無法再次編輯或啟動它。 您只能複製它並啟動複製的歷程/行銷活動。
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 登陸、登陸頁面、使用案例
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 10%
@@ -169,7 +169,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#dataset-precedence-profile){target="_blank"}
+>如果您的預設[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"} **[!UICONTROL 設定檔]**&#x200B;合併原則的合併方法是&#x200B;**[!UICONTROL 資料集優先順序]**，請務必啟用&#x200B;**[!UICONTROL AJO同意服務資料集]**，並在合併原則中將其優先順序化。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >即使未將任何批次新增至此資料集，它仍會包含選擇加入/選擇退出資訊。
 
@@ -179,7 +179,6 @@ ht-degree: 10%
 * [電子郵件標題中的選擇退出連結](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,7 +190,6 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
 ## 善用登陸頁面提交事件 {#leverage-lp-event}
@@ -204,7 +202,8 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 >
 >使用登入頁面提交事件時，請注意，事件`interactionType`欄位可能不會一律準確地反映特定使用者動作。 若要準確判斷使用者是否已選擇退出、訂閱或執行其他動作，請一律驗證實際的設定檔屬性（例如同意偏好設定）或表單欄位值，而非僅依賴事件`interactionType`。
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

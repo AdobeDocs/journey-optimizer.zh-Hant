@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 | 動作 | 快速鍵 |
 | --- | --- |
-| 在使用者介面元素、區段和功能表群組之間移動 | Tab 鍵 |
+| 在使用者介面元素、區段和功能表群組之間移動 | 標記 |
 | 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
 | 在區段內移動並將焦點設定為個別元素 | 箭頭 |
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
@@ -75,7 +75,7 @@ ht-degree: 100%
   </tr>   
   <tr>
     <td>移動焦點至畫布的下個可操作元素，從工具列開始</td>
-    <td>Tab 鍵</td>
+    <td>標記</td>
   </tr>  
   <tr>
     <td>開啟右側設定窗格 (聚焦在活動)</td>
@@ -90,13 +90,13 @@ ht-degree: 100%
   這些元素的設定窗格：
 <ul>
   <li>歷程中的活動</li>
-  <li>事件</li>
+  <li>活動</li>
   <li>資料來源</li>
   <li>動作</li>
 </ul>
   </td>
     <td>移至下一個要設定的欄位</td>
-    <td>Tab 鍵</td>
+    <td>標記</td>
   </tr>
   <tr>
     <td>儲存變更並關閉設定窗格</td>
@@ -106,7 +106,8 @@ ht-degree: 100%
     <td>放棄變更並關閉設定窗格</td>
     <td>Esc 鍵</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

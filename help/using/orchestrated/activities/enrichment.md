@@ -5,7 +5,7 @@ title: 使用擴充活動
 description: 了解如何使用擴充活動
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="擴充活動"
->abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。這通常會用於分段活動之後的行銷活動。"
+>abstract="「**擴充活動**」可讓您使用資料庫中的其他資訊來增強目標資料。 這通常會用於分段活動之後的行銷活動。"
 
 **[!UICONTROL 擴充]**&#x200B;活動是&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，可讓您使用其他屬性增強您的客群資料。
 
@@ -270,5 +270,4 @@ If you want to to view only offers from the enrichment activity, set the number 
 >[!NOTE]
 >
 >If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
-
 -->

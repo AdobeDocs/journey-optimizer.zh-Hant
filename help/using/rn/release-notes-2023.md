@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # 發行說明 2023 年 {#release-notes-2023}
 
-此頁面列出了於 2023 年發行的[!DNL Journey Optimizer]所有功能和改善。
+此頁面列出了於 2023 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
 
 
 ## 2022 年 10 月發行版本 {#oct-rn-2023}
@@ -61,7 +61,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#oct-2023-improvements}
+### 改善 {#oct-2023-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -77,7 +77,8 @@ ht-degree: 100%
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **行銷活動**
 
@@ -95,9 +96,10 @@ ht-degree: 100%
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
-**決策管理**
+**決定管理**
 
 * 已更新與決策管理介面中的產品建議上限相關的幾個標籤。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
@@ -176,7 +178,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進 {#sept-2023-improvements}
+### 改善 {#sept-2023-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -231,9 +233,11 @@ ht-degree: 100%
 
 * Assets 的新選項可讓您在 Journey Optimizer 中選擇 Assets 的存放庫。 如果您擁有此解決方案，您可以選擇使用 Assets Essentials 存放庫或 Assets as a Cloud Service 存放庫。 [了解更多](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## 2023 年 8 月發行版本 {#aug-rn-2023}
 
@@ -276,7 +280,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,22 +296,25 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
-### 功能改進 {#aug-2023-improvements}
+### 改善 {#aug-2023-improvements}
 
 此發行版本隨附下列改進項目。
 
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **歷程**
 
@@ -325,7 +333,7 @@ A new option is available in the email surface settings to include email address
 
 ## 2023 年 7 月發行版本 {#july-rn-2023}
 
-### 新功能{#july-2023-features}
+### 全新功能{#july-2023-features}
 
 <table>
 <thead>
@@ -339,7 +347,7 @@ A new option is available in the email surface settings to include email address
 <p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 客群與視覺畫布結合，並利用各種活動 (分割、擴充...) 來建立新客群。 新建立的客群會與現有客群一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
-<p>客群構成已與新的 Adobe Experience Platform「客群」選單完全整合，該選單可作為客群的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的深入分析，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化客群標籤的治理控制項，以及管理啟用工作流程的客群生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理客群。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
+<p>客群構成已與新的 Adobe Experience Platform「客群」選單完全整合，該選單可作為客群的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的洞察，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化客群標籤的治理控制項，以及管理啟用工作流程的客群生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理客群。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
 </td>
 </tr>
 </tbody>
@@ -415,7 +423,7 @@ A new option is available in the email surface settings to include email address
 </tbody>
 </table>
 
-### 功能改進 {#july-2023-improvements}
+### 改善 {#july-2023-improvements}
 
 此發行版本隨附下列改善項目。
 
@@ -499,7 +507,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## 2023 年 5 月發行版本 {#may-rn-2023}
 
-### 新功能{#may-2023-features}
+### 全新功能{#may-2023-features}
 
 
 
@@ -652,11 +660,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## 2023 年 4 月發行版本 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
-### 新功能{#apr-2023-features}
+### 全新功能{#apr-2023-features}
 
 <table>
 <thead>
@@ -717,7 +727,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 歷程畫布現在會在訊息活動和結束標籤上顯示活動 ID。這可改善報告和重新目標定位。
 * 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
-* 對畫布上的節點數提供新分析，搭配保障措施協助成長：利用每個歷程最多可有 50 個的節點，讓歷程易於閱讀、進行 QA 及疑難排解。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
+* 對畫布上的節點數提供新洞察，搭配保障措施協助成長：利用每個歷程最多可有 50 個的節點，讓歷程易於閱讀、進行 QA 及疑難排解。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
 * 在歷程中新增[電子郵件](../email/create-email.md)、[簡訊](../sms/create-sms.md)或[推播](../push/create-push.md)動作時，現在依預設會以目前歷程中，最後一個為該管道使用的表面來預先填入表面。
 * 您現在可以在自訂動作中定義靜態或動態查詢參數。[了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -733,7 +743,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## 2023 年 3 月發行版本 {#mar-2023}
 
-### 新功能{#mar-2023-features}
+### 全新功能{#mar-2023-features}
 
 <table>
 <thead>
@@ -793,10 +803,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。[了解更多](../configuration/external-systems.md#timeout)
 * 讀取客群活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。[進一步了解](../building-journeys/testing-the-journey.md)
+* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。[了解更多](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -815,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。[了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 已在版位建立畫面中新增其他參數。它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [了解更多](../offers/offer-library/creating-placements.md)
+* 已在版位建立畫面中新增其他參數。它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
 
 **個人化**
 
@@ -829,7 +840,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## 2023 年 2 月發行版本 {#feb-2023}
 
-### 新功能{#feb-2023-features}
+### 全新功能{#feb-2023-features}
 
 <table>
 <thead>
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,7 +926,6 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### 功能改進 {#feb-2023-improvements}
@@ -928,7 +937,6 @@ Note that each widget can be resized and deleted as needed.
 * 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -947,7 +955,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **電子郵件介面** - 電子郵件介面設定已新增額外檢查：如果&#x200B;**回覆 (電子郵件) 地址**&#x200B;或 **密件副本電子郵件地址**&#x200B;未正確設定，則無法再建立電子郵件介面。您必須已設定或使用其他設定。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
+* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [了解更多](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -957,7 +965,7 @@ Note that each widget can be resized and deleted as needed.
 
 ## 2023 年 1 月發行版本 {#jan-2023-release}
 
-### 新功能{#jan-2023-features}
+### 全新功能{#jan-2023-features}
 
 <table>
 <thead>

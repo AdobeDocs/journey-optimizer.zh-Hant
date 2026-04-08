@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，讀取對象，傳送能力
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,7 +24,8 @@ ht-degree: 1%
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 當您定義對象如何進入以及如何排程動作時，可在歷程層級進行設定。 您可以定義波段數量、波段大小（以對象百分比或絕對數字表示），以及每個波段執行的時機。
 
