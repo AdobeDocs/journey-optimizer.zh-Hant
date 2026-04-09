@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
       + [自動產生內容變化版本](using/test-approve/simulate-sample-input-generated.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
-      + [LLM電子郵件最佳化工具](using/content-management/llm-email-optimizer.md)
    + 核准歷程與行銷活動 {#approve}
       + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
       + [開始使用核准](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
             + [插入個人化優惠方案](using/email/add-offers-email.md)
             + [管理文字版本](using/email/text-version-email.md)
+            + [最佳化AI收件匣的電子郵件文字](using/email/llm-email-optimizer.md)
             + [新增中繼資料](using/email/email-metadata.md)
          + 編輯樣式 {#edit-style}
             + [編輯樣式](/help/rp_landing_pages/edit-style-landing-page.md)

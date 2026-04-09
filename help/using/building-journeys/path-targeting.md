@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 keywords: 鎖定目標，規則，歷程，路徑，最佳化，個人化
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+badge: label="有限可用性" type="Informative"
+source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---
@@ -61,7 +62,7 @@ With targeting, specific rules can be defined based on:
 
    金級與非金級會員的![忠誠度狀態目標規則](assets/journey-targeting-rule.png)
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**[了解更多](../experience-decisioning/rules.md)
 
    ![從[規則]功能表選取現有的鎖定目標規則](assets/journey-targeting-select-rule.png){width=70%}
 
