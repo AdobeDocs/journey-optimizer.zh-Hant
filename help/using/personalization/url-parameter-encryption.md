@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 加密， URL，追蹤，登陸頁面，金鑰登入，個人化，安全性，隱私權，沙箱
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 3%
 ## 建立金鑰 {#create-keys}
 
 您必須先建立金鑰，才能使用URL引數加密協助程式。 若要執行此操作，請遵循下列步驟。
+
+>[!NOTE]
+>
+>目前沒有存取和管理金鑰的特定許可權。 授與&#x200B;**[!UICONTROL 管理]**&#x200B;下&#x200B;**[!UICONTROL 組態]**&#x200B;區段存取權的角色也會授與金鑰登入的存取權。 不過，預計會在未來版本中推出特定許可權。
 
 <!--
 >[!IMPORTANT]
