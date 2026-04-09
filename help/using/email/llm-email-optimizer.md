@@ -2,11 +2,11 @@
 title: 最佳化AI收件匣的電子郵件文字
 description: 調整Journey Optimizer中電子郵件的純文字層，以便在使用AI最佳化的電子郵件Designer中，AI輔助收件匣使用者端可在摘要郵件或擷取意圖時，使用您的優惠方案和CTA。
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
