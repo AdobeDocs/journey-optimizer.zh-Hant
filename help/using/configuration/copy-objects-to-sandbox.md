@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 3%
+source-wordcount: '1757'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
-本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects){target="_blank"}。
+本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Journey Optimizer可將歷程、自訂動作、內容範本、片段和其他物
 
 +++ 歷程
 
-* **複製的相依性** — 在匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects){target="_blank"}。
+* **複製的相依性** — 在匯出歷程時，除了歷程本身，Journey Optimizer也會複製歷程所依賴的大部分物件：受眾、自訂動作、結構描述、事件和動作。 如需所複製物件的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}。
 
 * **建議手動驗證** — 我們不保證所有連結的元素都會複製到目的地沙箱。 我們強烈建議您執行徹底檢查，例如在發佈歷程之前。 這可讓您識別任何可能遺失的物件。
 
@@ -72,7 +72,11 @@ Journey Optimizer可將歷程、自訂動作、內容範本、片段和其他物
 
 +++ 行銷活動
 
-行銷活動會連同與輪廓、對象、結構描述、內嵌訊息以及從屬物件相關的所有項目一起複製。 但是，下列專案&#x200B;**不是**&#x200B;已複製：
+>[!NOTE]
+>
+>此子區段中的行銷活動沙箱複製資訊適用於&#x200B;**動作**&#x200B;行銷活動和&#x200B;**API觸發的**&#x200B;行銷活動。 **協調的**&#x200B;行銷活動不支援在沙箱之間複製。
+
+針對&#x200B;**動作**&#x200B;和&#x200B;**API觸發**&#x200B;行銷活動，會複製行銷活動以及與設定檔、對象、結構描述、內嵌訊息和相依物件相關的所有專案。 但是，下列專案&#x200B;**不是**&#x200B;已複製：
 
 * 多語言變體和語言設定，
 * 商業規則，
