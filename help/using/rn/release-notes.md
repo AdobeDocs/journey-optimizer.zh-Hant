@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3076a7ffeeed8224044f1c09b6788c6826638cac
+source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2210'
 ht-degree: 19%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **發行日期**：2026 年 3 月 24-25 日
@@ -191,23 +191,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/image-to-html.md">詳細文件</a>。</p>
-<p>推出日期： 2026年3月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><strong>收件匣</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>收件匣</strong>是一項行動功能，可搭配內容卡使用，讓客戶在應用程式或網站中建立集中式位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
-<p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細文件</a>。</p>
 <p>推出日期： 2026年3月31日</p>
 </td>
 </tr>
@@ -355,7 +338,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
