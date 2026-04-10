@@ -6,8 +6,7 @@ description: 行銷活動
 redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
-hidefromtoc: true
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 88%
@@ -22,7 +21,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用行銷活動
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 存取和管理行銷活動
 
@@ -42,7 +41,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 動作行銷活動
 
@@ -52,7 +51,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 由 API 觸發的行銷活動
 
@@ -62,7 +61,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 協調的行銷活動
 

@@ -9,9 +9,8 @@ level: Beginner
 keywords: 歷程型別，單一，讀取對象，對象資格，業務事件，比較，決定指南，選擇，選擇，即時，已排程，批次，事件觸發
 version: Journey Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%

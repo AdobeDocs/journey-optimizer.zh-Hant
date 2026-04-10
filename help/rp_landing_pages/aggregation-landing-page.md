@@ -6,9 +6,8 @@ description: 彙總
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 hide: true
-hidefromtoc: true
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -16,13 +15,13 @@ ht-degree: 100%
 
 # 彙總{#section-overview}
 
-Adobe Journey Optimizer 中的彙總函式可讓您從複雜的資料集中彙總、分析和擷取有意義的深入分析，協助您在客戶歷程策略中做出明智的決策。
+Adobe Journey Optimizer 中的彙總函式可讓您從複雜的資料集中彙總、分析和擷取有意義的洞察，協助您在客戶歷程策略中做出明智的決策。
 
 ## 彙總函式
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的 avg 函式
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer 的 avg 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Count 函式文件
 
@@ -42,7 +41,7 @@ Count 函式文件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull 函式 — 計算清單中的 Null 值
 
@@ -52,7 +51,7 @@ countOnlyNull 函式 — 計算清單中的 Null 值
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull 函式概觀
 
@@ -62,7 +61,7 @@ countWithNull 函式概觀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的 distinctCount 函式
 
@@ -72,7 +71,7 @@ Adobe Journey Optimizer 的 distinctCount 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctCountWithNull 函式：計算唯一值 (包括 Null)
 

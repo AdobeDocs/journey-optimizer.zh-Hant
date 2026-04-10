@@ -5,10 +5,9 @@ title: 字串
 description: 字串
 redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
-hidefromtoc: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 concat 函式參考
 
@@ -32,7 +31,7 @@ concat 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用「contain」函式
 
@@ -42,7 +41,7 @@ concat 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 containIgnoreCase 函式
 
@@ -52,7 +51,7 @@ containIgnoreCase 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWith 函式參考
 
@@ -62,7 +61,7 @@ endWith 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWithIgnoreCase 函式
 
@@ -72,7 +71,7 @@ endWithIgnoreCase 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 equalIgnoreCase 函式參考
 

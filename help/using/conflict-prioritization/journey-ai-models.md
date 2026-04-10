@@ -7,9 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 hide: true
-hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -58,7 +57,7 @@ Do you need specific permissions to create AI models?
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. 在&#x200B;**[!UICONTROL 最佳化量度]**&#x200B;區段中，來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
+1. 在&#x200B;**[!UICONTROL 最佳化量度]**&#x200B;區段中，來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
 
    ![最佳化量度下拉式清單，列出AI模型的Customer Journey Analytics量度](assets/journey-model-metrics.png){width="70%"}
 
@@ -67,7 +66,7 @@ Do you need specific permissions to create AI models?
    * **曝光事件** （顯示的專案）
    * **轉換事件** （導致點按或轉換的專案）
 
-   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
+   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概觀。
 
 1. 選取轉換和曝光事件收集所在的資料集。 在[本節](../experience-decisioning/data-collection/create-dataset.md)中瞭解如何建立這類資料集。
 
@@ -77,7 +76,7 @@ Do you need specific permissions to create AI models?
    >
    >下拉式清單中只會顯示從與&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組相關聯的結構描述建立的資料集。 您最多可以選取5個資料集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
 
    >[!NOTE]
    >

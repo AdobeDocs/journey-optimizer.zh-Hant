@@ -7,11 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 # 2021 年發行說明 {#release-notes-2021}
 
-此頁面列出了於 2021 年發行的[!DNL Journey Optimizer]所有功能和改善。
+此頁面列出了於 2021 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
 
 ## 2021 年 11 月發行版本 {#november-2021-release}
 
@@ -43,7 +42,7 @@ ht-degree: 100%
 
 ## 2021 年 10 月發行版本 {#oct-2021-release}
 
-### 新功能
+### 全新功能
 
 <table>
 <thead>
@@ -80,11 +79,11 @@ ht-degree: 100%
 
 另請參閱 [Adobe Experience Platform 10 月發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=zh-Hant){target="_blank"}，以便瞭解更多變更。
 
-### 功能改進
+### 改進
 
 **歷程**
 
-* **運算式編輯器** - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
+* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
 * **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#servicevents-field) 已新增與輪廓匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具** - 歷程已導入協助工具增強功能。
@@ -98,17 +97,17 @@ ht-degree: 100%
 
 **管理**
 
-* **編輯訊息預設集** - 您現在可以編輯訊息預設集並監視其更新狀態。 [進一步了解](../configuration/channel-surfaces.md#edit-channel-surface)
+* **編輯訊息預設集** - 您現在可以編輯訊息預設集並監視其更新狀態。 [了解更多](../configuration/channel-surfaces.md#edit-channel-surface)
 * **編輯 PTR 記錄** - 您現在可以編輯 PTR 記錄並監視其更新狀態。 [進一步了解](../configuration/ptr-records.md#edit-ptr-record)
 
 **個人化**
 
-* **新的日期格式協助工具功能** - 您現在可以指定日期字串的呈現方式。 [進一步了解](../personalization/functions/dates.md#format-date)
+* **新的日期格式協助工具功能** - 您現在可以指定日期字串的呈現方式。 [了解更多](../personalization/functions/dates.md#format-date)
 
 
 **決定管理**
 
-* **評估排序** - 全新改進的決定建立流程不僅可讓您更順暢瀏覽於決定物件之間，而且讓您能夠完全控制決定引擎如何評估產品建議集合。 其中包括哪些集合會一起進行評估或分別評估，以及應以何種順序評估集合。 [進一步了解](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **評估排序** - 全新改進的決定建立流程不僅可讓您更順暢瀏覽於決定物件之間，而且讓您能夠完全控制決定引擎如何評估產品建議集合。 其中包括哪些集合會一起進行評估或分別評估，以及應以何種順序評估集合。 [了解更多](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### 修正
 
@@ -120,13 +119,13 @@ ht-degree: 100%
 
 ## 2021 年 9 月發行版本 {#september-2021-release}
 
-### 新功能
+### 全新功能
 
 <table>
 <thead>
 <tr>
 
-<th><strong>報告－以更好的方式深入解析目標客群</strong><br/></th>
+<th><strong>報告－以更好的方式洞察目標客群</strong><br/></th>
 </thead>
 <tbody>
 <tr>
@@ -158,23 +157,23 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進
+### 改進
 
 **歷程**
 
-* 在佈建步驟事件期間建立並由系統產生的結構描述和資料集現在改為唯讀模式，可避免重要結構描述發生任何意外修改。 [進一步了解](../reports/sharing-overview.md)
-* 簡潔標示&#x200B;**等待**&#x200B;活動，並在畫布中顯示標籤。 標籤也會用於報告和測試模式記錄，以清楚識別您正在執行的動作。 [進一步了解](../building-journeys/about-journey-activities.md#best-practices)
-* 使用搜尋，透過篩選&#x200B;**事件**&#x200B;和&#x200B;**動作**&#x200B;類別中的元素，更快找到您的事件和動作。 不再篩選協調活動。 [進一步了解](../building-journeys/using-the-journey-designer.md)
-* 在規則型或商業活動中定義事件 ID 條件時，「包含」運算子現在可用於字串類型欄位。 [進一步了解](../event/about-creating.md)
+* 在佈建步驟事件期間建立並由系統產生的結構描述和資料集現在改為唯讀模式，可避免重要結構描述發生任何意外修改。 [了解更多](../reports/sharing-overview.md)
+* 簡潔標示&#x200B;**等待**&#x200B;活動，並在畫布中顯示標籤。 標籤也會用於報告和測試模式記錄，以清楚識別您正在執行的動作。 [了解更多](../building-journeys/about-journey-activities.md#best-practices)
+* 使用搜尋，透過篩選&#x200B;**事件**&#x200B;和&#x200B;**動作**&#x200B;類別中的元素，更快找到您的事件和動作。 不再篩選協調活動。 [了解更多](../building-journeys/using-the-journey-designer.md)
+* 在規則型或商業活動中定義事件 ID 條件時，「包含」運算子現在可用於字串類型欄位。 [了解更多](../event/about-creating.md)
 
 **電子郵件設定**
 
-* 當 IP 集區連結訊息預設集時，您現在可以加以編輯，進行非同步更新。 您也可以檢查每個 IP 集區的更新狀態。 [進一步了解](../configuration/ip-pools.md#edit-ip-pool)
+* 當 IP 集區連結訊息預設集時，您現在可以加以編輯，進行非同步更新。 您也可以檢查每個 IP 集區的更新狀態。 [了解更多](../configuration/ip-pools.md#edit-ip-pool)
 
 
 ## 2021 年 8 月發行版本 {#august-2021-release}
 
-### 新功能
+### 全新功能
 
 <table>
 <thead>
@@ -253,8 +252,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在可從使用者介面在禁止名單新增電子郵件地址和網域，可逐一新增或透過 CSV 檔案上傳大量新增。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">詳細文件</a>。</p>
+<p>現在可從用戶介面新增電子郵件地址和網域到禁止名單中，逐一新增或透過 CSV 檔案上傳大量新增皆可。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -265,14 +264,14 @@ ht-degree: 100%
 
 **歷程**
 
-* **動態標頭** - 您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫的整合系統可使用這些參數 (例如時間戳記或追蹤 ID)。 [進一步了解](../action/about-custom-action-configuration.md#url-configuration)
-* **Dynamic URL 路徑** - 您現在可以為自訂動作設定動態 URL 路徑。 [進一步了解](../action/about-custom-action-configuration.md#url-configuration)
-* 讀取客群的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。[進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **動態標頭** - 您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫的整合系統可使用這些參數 (例如時間戳記或追蹤 ID)。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
+* **Dynamic URL 路徑** - 您現在可以為自訂動作設定動態 URL 路徑。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
+* 讀取客群的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。[了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **使用者介面**
 
-* **搜尋** - 在每個頁面上，您現在可以直接從「統一的 Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [進一步了解](../start/user-interface.md#unified-search)
-* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。[進一步了解](../action/about-custom-action-configuration.md#passing-collection)
+* **搜尋** - 在每個頁面上，您現在可以直接從「統一的 Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [了解更多](../start/user-interface.md#unified-search)
+* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。[了解更多](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
 
@@ -281,16 +280,16 @@ ht-degree: 100%
 
 **個人化**
 
-* **運算式編輯器** - 您現在可在定義個人化時輕鬆新增回傳值：當輪廓的個人化欄位空白時，將顯示回傳值。 [進一步了解](../personalization/functions/helpers.md)
+* **運算式編輯器** - 您現在可在定義個人化時輕鬆新增回傳值：當輪廓的個人化欄位空白時，將顯示回傳值。 [了解更多](../personalization/functions/helpers.md)
 
 **電子郵件設定**
 
-* **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
-* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。[進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
+* **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [了解更多](../configuration/allow-list.md#enable-allow-list)
+* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。[了解更多](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
-* 建立產品建議時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[進一步了解](../offers/offer-library/creating-personalized-offers.md#representations)
+* 建立產品建議時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[了解更多](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正
 
@@ -303,7 +302,7 @@ ht-degree: 100%
 
 ## 2021 年 7 月發行版本 {#july-2021-release}
 
-### 新功能
+### 全新功能
 
 <table>
 <thead>
@@ -332,7 +331,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>您現在可以在沙箱層級定義特定的傳送安全清單，以便擁有可用於測試目的的安全環境。 在可能發生錯誤的非生產執行個體上，允許清單可確保避免您將不需要的訊息傳送給客戶的風險。 此功能需透過隱藏 API 來啟用。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/allow-list.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/allow-list.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>

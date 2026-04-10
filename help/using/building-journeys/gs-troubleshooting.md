@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 29%
@@ -59,9 +58,9 @@ ht-degree: 29%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="瞭解常見錯誤代碼" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>此外，請檢視<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant" target="_blank">此Adobe社群部落格</a>，其中詳述<strong>常見錯誤碼</strong>以及如何有效解決它們。
+    <br>此外，請檢視<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">此Adobe社群部落格</a>，其中詳述<strong>常見錯誤碼</strong>以及如何有效解決它們。
     </div>
   </td>
 </tr>

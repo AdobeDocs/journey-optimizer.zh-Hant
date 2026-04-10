@@ -7,9 +7,8 @@ topic: Content Management
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -37,7 +36,7 @@ ht-degree: 0%
 
 1. 將&#x200B;**HTML**&#x200B;或&#x200B;**Asset**&#x200B;元件拖放到您的電子郵件內容中。
 
-1. 將游標暫留在元件上，然後按一下&#x200B;**[!UICONTROL 顯示原始程式碼]** (適用於HTML元件)或&#x200B;**[!UICONTROL 瀏覽]** （適用於Asset元件）。
+1. 將游標暫留在元件上，然後按一下&#x200B;**[!UICONTROL 顯示原始程式碼]** （適用於HTML元件）或&#x200B;**[!UICONTROL 瀏覽]** （適用於Asset元件）。
 
    ![](assets/timer-2.png)
 

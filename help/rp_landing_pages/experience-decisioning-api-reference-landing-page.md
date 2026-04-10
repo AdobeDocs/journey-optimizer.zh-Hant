@@ -5,10 +5,9 @@ title: API 參考
 description: API 參考
 redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
-hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer 的程式碼型體驗管道可讓您在數位接觸點�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用程式碼型體驗管道提供產品建議
 
