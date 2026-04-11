@@ -5,10 +5,10 @@ title: 設定調和活動
 description: 瞭解如何在協調的行銷活動中使用調解活動
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -51,18 +51,18 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="調和規則"
->abstract="選取用於重複資料刪除的調和規則。若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。若要使用規則產生器建立您自己的調和條件，請選取「**進階調和條件**」選項。"
+>abstract="選取用於重複資料刪除的調和規則。 若要使用屬性，請選取&#x200B;**簡單屬性**&#x200B;選項，然後選擇來源欄位和目的地欄位。 若要使用規則產生器建立您自己的調和條件，請選取「**進階調和條件**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
 >title="選取目標市場選擇維度"
 >abstract="選取要調和之輸入資料的目標市場選擇維度。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=zh-Hant&#targeting-dimensions" text="目標市場選擇維度"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="目標市場選擇維度"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
 >title="保留未調和的資料"
->abstract="依預設，未調和的資料保留在傳出轉變中，並可在工作表中供未來使用。若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
+>abstract="依預設，未調和的資料保留在傳出轉變中，並可在工作表中供未來使用。 若要移除未調和的資料，請停用「**保留未調和的資料**」選項。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_attribute"
@@ -99,6 +99,6 @@ ht-degree: 87%
 
 ## 範例 {#example-reconciliation}
 
-此範例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 調和]**&#x200B;活動，以確保電子郵件只傳送給可識別的客戶。資料會透過&#x200B;**[!UICONTROL 讀取客群]**&#x200B;活動傳入，該活動的目標為有先前訂單的使用者。然後&#x200B;**[!UICONTROL 調和]**&#x200B;活動會使用電子郵件欄位，將此傳入資料與資料庫中的現有設定檔比對。
+此範例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 調和]**&#x200B;活動，以確保電子郵件只傳送給可識別的客戶。資料會透過&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動傳入，該活動會鎖定具有先前訂單的使用者。 然後&#x200B;**[!UICONTROL 調和]**&#x200B;活動會使用電子郵件欄位，將此傳入資料與資料庫中的現有設定檔比對。
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
