@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 透過MCP與AI助理合作
-description: 瞭解如何使用模型上下文通訊協定(MCP)伺服器將Adobe Journey Optimizer連線至AI助理
+description: 瞭解如何使用MCP伺服器將Adobe Journey Optimizer連線至AI助理
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="有限可用性" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 019a4d601ecd5f6d6127ab8616de0b3ee0f77a9c
+source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -91,3 +91,4 @@ Step-by-step connection instructions to be added here, including:
 
 當您提交提示時，AI助理可能會將相關內容（包括MCP伺服器傳回的[!DNL Adobe Journey Optimizer]資料）傳送至其模型以進行處理。 在連線到生產資料之前，請檢閱AI助理提供者的隱私權和資料處理原則。
 +++
+
