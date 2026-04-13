@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 42bd2e0e3f203784d831582416a8e92083388450
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 19%
+source-wordcount: '2482'
+ht-degree: 18%
 
 ---
 
@@ -131,6 +131,14 @@ ht-degree: 19%
 
 #### 歷程路徑最佳化
 
+#### 電子郵件設計
+
+* **電子郵件內容的進階HTML編輯器** — 進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。
+
+  此功能先前僅可用於電子郵件內容範本，現在已部署至電子郵件Designer中的&#x200B;**電子郵件**&#x200B;內容（例如，在歷程及行銷活動中撰寫的電子郵件）以及電子郵件內容範本。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。 [閱讀全文](../email/email-expert-mode.md)
+
+  推出日期： 2026年4月9日
+
 * **實驗型別** — 您現在可以在設定路徑實驗時選擇A/B實驗（開始時固定分割）或多臂吃角子老虎機（每週更新權重的自動分割）。 [閱讀全文](../building-journeys/path-experimentation.md)
 
   推出日期： 2026年4月7日
@@ -169,7 +177,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **發行日期**：2026 年 3 月 24-25 日
@@ -304,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>電子郵件內容範本的進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。</p>
 <p>此功能僅適用於電子郵件通道的內容範本。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/email-template-expert-mode.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/email-expert-mode.md">詳細文件</a>。</p>
 <p>推出日期： 2026年3月10日</p>
 </td>
 </tr>
@@ -359,7 +367,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
