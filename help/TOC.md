@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
+source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3213'
 ht-degree: 91%
 
 ---
@@ -279,7 +279,6 @@ ht-degree: 91%
             + [從頭開始設計內容](using/email/content-from-scratch.md)
             + [匯入內容](using/email/existing-content.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
-            + [使用進階HTML編輯器編輯](using/email/email-expert-mode.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
@@ -292,6 +291,7 @@ ht-degree: 91%
             + [管理文字版本](using/email/text-version-email.md)
             + [最佳化AI收件匣的電子郵件文字](using/email/llm-email-optimizer.md)
             + [新增中繼資料](using/email/email-metadata.md)
+            + [使用進階HTML編輯器編輯](using/email/email-expert-mode.md)
          + 編輯樣式 {#edit-style}
             + [編輯樣式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
@@ -505,6 +505,9 @@ ht-degree: 91%
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[使用整合](using/integrations/external-sources.md)
+      + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
+      + {hide-from-toc}[可用的廠商](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[透過MCP與AI助理合作](using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
