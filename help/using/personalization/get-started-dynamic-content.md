@@ -32,7 +32,7 @@ ht-degree: 60%
 * [了解如何使用條件式規則](create-conditions.md)
 * [了解如何建立動態內容](dynamic-content.md)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 了解如何使用條件規則產生器建立動態內容。
 

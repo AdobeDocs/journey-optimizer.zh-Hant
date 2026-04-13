@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 使用內容元件在[中設計電子郵件時（例如使用無障礙字型、可讀取的格式及提供影像的替代文字），請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]所列的特定准則。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。使用內容元件在[中設計電子郵件時（例如使用無障礙字型、可讀取的格式及提供影像的替代文字），請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]所列的特定准則。
 
 ## 新增內容元件 {#add-content-components}
 
-若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟操作。
+若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟進行。
 
 1. 在電子郵件設計工具中，使用現有內容或將&#x200B;**[!UICONTROL 結構元件]**&#x200B;拖放到您的空白內容以定義電子郵件的版面。[了解作法](content-from-scratch.md)
 
@@ -155,7 +155,7 @@ ht-degree: 48%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。**&#x200B;**
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
 
    ![](assets/email_designer_html_content.png)
 
@@ -173,7 +173,7 @@ ht-degree: 48%
 
 1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以從您的資產選擇影像檔案，或按一下&#x200B;**[!UICONTROL 匯入媒體]**&#x200B;以將資產上傳到Adobe Experience Manager Assets。
 
-   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >

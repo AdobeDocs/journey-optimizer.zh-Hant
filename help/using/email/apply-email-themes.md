@@ -54,7 +54,7 @@ ht-degree: 3%
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* 在主題中使用自訂網頁字型(包括Google字型)時，請注意，許多電子郵件使用者端並不支援這些字型。 請一律在您的主題中定義適當的遞補字型，以確保所有電子郵件使用者端的可讀性。
+* 在主題中使用自訂網頁字型（包括Google字型）時，請注意，許多電子郵件使用者端並不支援這些字型。 請一律在您的主題中定義適當的遞補字型，以確保所有電子郵件使用者端的可讀性。
 
    * Gmail和Yahoo！ 不載入外部網頁字型，且會回覆成系統字型，無論HTML/CSS中指定的字型系列為何。
    * Gmail唯一支援的Google字型是Roboto和Google Sans。
@@ -118,7 +118,7 @@ ht-degree: 3%
 
    ![](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -260,4 +260,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)
+1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)

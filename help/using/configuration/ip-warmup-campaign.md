@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
    >
    >IP熱身行銷活動不支援CSV上傳對象，且會在行銷活動啟用時導致錯誤。
 

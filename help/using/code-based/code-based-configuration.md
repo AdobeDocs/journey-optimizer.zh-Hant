@@ -108,7 +108,7 @@ ht-degree: 22%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則[的](../web/web-configuration.md#web-page-matching-rule)頁面，您必須輸入預設的撰寫和預覽URL **[!UICONTROL ，以便在瀏覽器中預覽體驗。]**&#x200B;[了解更多](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則[的](../web/web-configuration.md#web-page-matching-rule)頁面，您必須輸入預設的撰寫和預覽URL **[!UICONTROL ，以便在瀏覽器中預覽體驗。]**[了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -160,7 +160,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

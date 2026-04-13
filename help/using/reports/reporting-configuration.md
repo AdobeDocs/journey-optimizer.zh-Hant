@@ -40,7 +40,7 @@ ht-degree: 28%
 
 ## 先決條件
 
-必須先建立該資料集，才能將資料集新增到報表設定。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#create){target="_blank"}中進一步瞭解。
+必須先建立該資料集，才能將資料集新增到報表設定。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}中進一步瞭解。
 
 * 您只能新增事件型別資料集。
 

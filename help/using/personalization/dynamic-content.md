@@ -79,7 +79,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-select.png)
 
-   您也可以按一下[新建] **&#x200B;**&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
+   您也可以按一下[新建] ****&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
 
 1. 條件式規則會與變體相關聯。 若要提高可讀性，請從[更多動作]圖示中選取&#x200B;**[!UICONTROL 重新命名]**&#x200B;動作，以重新命名變體。
 

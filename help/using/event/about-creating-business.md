@@ -31,7 +31,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 請注意，該結構描述不需要為設定檔啟用。
+>您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 請注意，該結構描述不需要為設定檔啟用。
 
 ## 重要備註 {#important-notes}
 
