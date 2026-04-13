@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -66,13 +66,17 @@ ht-degree: 2%
 
 1. 產生運算式後，按一下&#x200B;**[!UICONTROL 顯示範例設定檔的預覽]**，檢視運算式如何以範例資料評估，並以JSON檢視相關的裝載。 針對此檢查，助理會產生一組有限的合成範例設定檔；這些設定檔不會儲存或儲存在您的組織中。
 
-   如果您需要更多範例設定檔，請使用該助理在討論中輸入&#x200B;**預覽**，以便產生額外的預覽設定檔。
+   如果您需要自訂或其他範例設定檔，請向助理描述您在討論中需要的內容，並在您的提示中加入關鍵字&#x200B;**preview**，以便為您的支票產生正確的預覽設定檔。
 
    ![](assets/ai-perso-preview-button.png)
 
    +++預覽範例
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >其他預覽則用於特別檢查。 助理將調整為產生約一到五個設定檔，要求非常大的數字可能會導致要求失敗。
 
    +++
 
