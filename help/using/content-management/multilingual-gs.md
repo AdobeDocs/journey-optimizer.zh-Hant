@@ -100,4 +100,4 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 瞭解如何在單一行銷活動或歷程中以多種語言建立內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452125?captions=chi_hant)

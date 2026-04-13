@@ -69,4 +69,4 @@ ht-degree: 19%
 
 瞭解如何為Offer Decisioning建立AI模型，以及如何將其套用至決策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445655?captions=chi_hant&quality=12)

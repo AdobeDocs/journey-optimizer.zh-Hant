@@ -149,4 +149,4 @@ Journey Dirun提供：
 
 透過此影片瞭解如何練習您的歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464693/?captions=chi_hant&learn=on&enablevpops)

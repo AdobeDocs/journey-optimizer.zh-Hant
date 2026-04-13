@@ -292,4 +292,4 @@ ht-degree: 12%
 
 了解什麼是管道設定，以及如何在 Adobe Journey Optimizer 加以使用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480462/?captions=chi_hant&learn=on)
