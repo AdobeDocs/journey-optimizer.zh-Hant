@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 84a44eac9171c45098b8ad40d62bcae68a610f84
+source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 98%
 
 ---
 
@@ -54,9 +54,9 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 ## 開始探索 {#section-explore}
 
-:::: landing-cards-container
+::::landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -66,7 +66,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -76,7 +76,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -86,7 +86,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -96,7 +96,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -106,7 +106,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
