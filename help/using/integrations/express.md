@@ -49,7 +49,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 ![](assets/express-licence.png)
 
-有關擁有Adobe Express企業授權的使用者可用使用案例的詳細資訊，請參閱[Adobe Express網頁檔案](https://helpx.adobe.com/express/web.html)。
+有關擁有Adobe Express企業授權的使用者可用使用案例的詳細資訊，請參閱[Adobe Express網頁檔案](https://helpx.adobe.com/tw/express/web.html)。
 
 ## 在沒有企業授權的情況下使用Adobe Express  {#edit}
 
