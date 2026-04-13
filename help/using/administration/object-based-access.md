@@ -73,7 +73,7 @@ ht-degree: 17%
 
    ![標籤設定欄位](assets/olac_3.png)
 
-1. 按一下[建立]**[!UICONTROL 以儲存您的]**&#x200B;標籤&#x200B;**[!UICONTROL 。]**
+1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的]**&#x200B;標籤&#x200B;**[!UICONTROL 。]**
 
 您新建立的&#x200B;**[!UICONTROL 標籤]**&#x200B;現在可在清單中使用。 如有需要，您可以在[!DNL Permissions]產品中修改它。
 

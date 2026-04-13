@@ -280,7 +280,7 @@ ht-degree: 20%
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
 
    >[!IMPORTANT]
    >

@@ -377,14 +377,14 @@ ht-degree: 4%
 
    +++裝載範例
 
-       ``json
-       {
+       &grave;&grave;json
+       &lbrace;
        &quot;inboundMessage&quot;： &quot;{{inboundMessage}}&quot;，
        &quot;profileNumber&quot;： &quot;{{profileNumber}}&quot;，
        &quot;requestId&quot;： &quot;{{requestId}}&quot;，
        &quot;originTimestamp&quot;： &quot;{{originTimestamp}}&quot;，
        &quot;inboundNumber&quot;： &quot;{{inboundNumber}}&quot;
-       }
+       &rbrace;
        「
 」   +++
 
@@ -416,16 +416,16 @@ ht-degree: 4%
 
    +++裝載範例
 
-       ``json
-       {
+       &grave;&grave;json
+       &lbrace;
        &quot;clientReference&quot;： &quot;{{client_reference}}&quot;，
-       「狀態」： [
-       {
+       「狀態」： &lbrack;
+       &lbrace;
        &quot;代碼&quot;： &quot;{{failureCode}}&quot;，
        &quot;狀態&quot;： &quot;{{feedbackStatus}}&quot;
-       }
-       ]
-       }
+       &rbrace;
+       &rbrack;
+       &rbrace;
        「
 」   
    +++
