@@ -65,7 +65,7 @@ ht-degree: 19%
 
 1. 將AI模型指派給決定中的位置，以排名合格的優惠。 [了解更多](../offer-activities/configure-offer-selection.md)
 
-## 操作說明影片 {#video}
+## 作法影片 {#video}
 
 瞭解如何為Offer Decisioning建立AI模型，以及如何將其套用至決策。
 

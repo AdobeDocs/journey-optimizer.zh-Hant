@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: 程式碼，HTML，編輯器
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 23%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->**[!UICONTROL 您自己的程式碼]**&#x200B;與內容範本中的進階HTML編輯器不同。 進階HTML編輯器可讓您隨時在HTML檢視和視覺（案頭）檢視之間切換，而不是程式碼編輯器。 [進一步瞭解進階HTML編輯器](../content-management/email-template-expert-mode.md)。
+>**[!UICONTROL 您自己的程式碼]**&#x200B;與電子郵件Designer中的進階HTML編輯器不同。 進階HTML編輯器可讓您隨時在HTML檢視和視覺（案頭）檢視之間切換，而不是程式碼編輯器。 [進一步瞭解進階HTML編輯器](email-expert-mode.md)。
 
 ## 使用程式碼編輯器 {#use-code-editor}
 

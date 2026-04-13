@@ -54,7 +54,7 @@ ht-degree: 3%
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* 在主題中使用自訂網頁字型(包括Google字型)時，請注意，許多電子郵件使用者端並不支援這些字型。 請一律在您的主題中定義適當的遞補字型，以確保所有電子郵件使用者端的可讀性。
+* 在主題中使用自訂網頁字型（包括Google字型）時，請注意，許多電子郵件使用者端並不支援這些字型。 請一律在您的主題中定義適當的遞補字型，以確保所有電子郵件使用者端的可讀性。
 
    * Gmail和Yahoo！ 不載入外部網頁字型，且會回覆成系統字型，無論HTML/CSS中指定的字型系列為何。
    * Gmail唯一支援的Google字型是Roboto和Google Sans。

@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -196,7 +195,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 {%/if%}
 ```
 
-### 偵錯
+### 除錯
 
 為了協助進行偵錯，外部資料查詢的逾時和錯誤詳細資料包含在Adobe Experience Platform Assurance的Edge Delivery檢視中。 如果您在傳入動作中看不到externalDataLookup協助程式的預期結果，您可以啟動Assurance工作階段、從Web或行動實作起始[!DNL Journey Optimizer]呼叫，並使用Edge Delivery檢視來檢查逾時或錯誤詳細資料。
 
@@ -210,7 +209,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-需要更多詳細資訊嗎？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[Adobe Journey Optimizer社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
 
 +++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 

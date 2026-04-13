@@ -1,6 +1,6 @@
 ---
 title: 專案目錄
-description: Learn how to work with the item catalog
+description: 瞭解如何使用專案目錄
 feature: Decisioning
 topic: Integrations
 role: User
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 * **支援的資料型別**
 
-  For now, Decisioning exclusively supports the following data types: String, Integer, Boolean, Date, DateTime, Decisioning Asset, and Object. 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
+  目前，Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間、Decisioning資產和物件。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
 
-* **Custom attribute limit**
+* **自訂屬性限制**
 
   每個決定專案最多可包含100個自訂屬性。
 
@@ -52,9 +52,9 @@ ht-degree: 9%
 1. 目錄的結構會在新標籤中開啟，遵循以下結構：
 
    * **`_experience`**&#x200B;節點包含標準決定專案屬性，例如名稱、開始和結束日期以及說明。
-   * The **`_<imsOrg>`** node houses custom decision items attributes, where `<imsOrg>` is replaced by your organization&#39;s name (for example, `_luma` for the Luma company). By default, no custom attributes are configured, but you can add as many as needed to suit your requirements. Once done, custom attributes appear in the decision item creation screen alongside the standard attributes.
+   * **`_<imsOrg>`**&#x200B;節點內含自訂決定專案屬性，其中`<imsOrg>`會由您組織的名稱取代（例如Luma公司的`_luma`）。 預設不會設定自訂屬性，但您可以視需要新增更多屬性以符合您的需求。 完成後，自訂屬性會與標準屬性一起出現在決定專案建立畫面中。
 
-   ![Catalog schema structure with experience and organization nodes](assets/catalogs-schema.png)
+   ![具有體驗和組織節點的目錄結構描述結構](assets/catalogs-schema.png)
 
 1. 若要將自訂屬性新增到結構描述中，請展開您組織的節點（例如&#x200B;**`_luma`**），然後按一下結構中所需位置的「+」按鈕。
 
@@ -68,4 +68,4 @@ ht-degree: 9%
 
    下列範例顯示具有自訂屬性（例如結構描述中定義的物件）的專案建立畫面。
 
-   ![Decision item creation screen with custom attributes section](assets/custom-attributes.png)
+   ![具有自訂屬性區段的決定專案建立畫面](assets/custom-attributes.png)

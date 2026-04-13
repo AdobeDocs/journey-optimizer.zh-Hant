@@ -52,7 +52,7 @@ Journey Optimizer訊息功能內建：您只需要將頻道動作活動新增到
 
 ![](assets/xdm-from-descriptors.png)
 
-如果有好記的名稱，欄位便會顯示為`<friendly-name>(<name>)`。如果沒有好記的名稱，則會顯示顯示名稱`<display-name>(<name>)`。如果未定義這些欄位，則只會顯示欄位的技術名稱 `<name>`。
+如果有好記的名稱，欄位便會顯示為`<friendly-name>(<name>)`。 如果沒有好記的名稱，則會顯示顯示名稱`<display-name>(<name>)`。如果未定義這些欄位，則只會顯示欄位的技術名稱 `<name>`。
 
 >[!NOTE]
 >

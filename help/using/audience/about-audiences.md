@@ -32,7 +32,7 @@ ht-degree: 17%
 
 Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受眾，以強化行銷工作。 在與Adobe Real-Time Customer Data Platform結合時，Journey Optimizer可讓您針對更複雜的細分細分細分細分細分細分對象，並與其他Adobe Experience Cloud解決方案雙向共用對象。
 
-發生即時資料串流或批次上傳時，資料集會更新，而Journey Optimizer會即時以動態方式將個人移入和移出對象和歷程。
+As real-time data streams or batch uploads occur, datasets update, and Journey Optimizer dynamically moves individuals in and out of audiences and journeys in real time.
 
 >[!BEGINSHADEBOX]
 
@@ -54,11 +54,11 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 從受眾入口網站，您可以透過標準標籤、治理控制、可搜尋資料夾和標籤輕鬆管理、尋找和探索受眾。
 
-如需如何在Audience Portal中使用對象的詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
+For more information on how to work with audiences in the Audience Portal, refer to the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
 
-## 對象型別 {#types}
+## Audiences types {#types}
 
-您可以使用不同方法來產生對象：
+Audiences can be generated using different methods:
 
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 對象是從區段定義產生，並會根據其評估型別在不同時間重新整理：
 
@@ -68,11 +68,11 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
   [瞭解如何建立區段定義](creating-a-segment-definition.md)
 
-* **自訂上傳**：使用CSV檔案匯入對象。 [瞭解如何建立自訂上傳對象](custom-upload.md)
+* **自訂上傳**：使用CSV檔案匯入對象。 [Learn how to create Custom Upload audiences](custom-upload.md)
 
-* **對象構成**：建立構成工作流程，將現有對象結合到視覺畫布中，並套用動作，例如排名、分割、加入以建立新對象。 [瞭解如何使用對象組合](get-started-audience-orchestration.md)
+* **Audience composition**: Create a composition workflow to combine existing audiences into a visual canvas and apply actions such as rank, split, join to create new audiences. [Learn how to work with audience composition](get-started-audience-orchestration.md)
 
-* **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 [瞭解如何使用同盟對象組合](federated-audience-composition.md)。
+* **Federated Audience Composition**: Federate datasets directly from your existing data warehouse to build and enrich Adobe Experience Platform audiences and attributes all in one system. [Learn how to work with Federated Audience Composition](federated-audience-composition.md).
 
 ## 在歷程和行銷活動中鎖定對象 {#target-audiences}
 

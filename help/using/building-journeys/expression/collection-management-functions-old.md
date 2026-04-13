@@ -5,12 +5,11 @@ title: 集合管理功能
 description: 瞭解集合管理函式中的資料型別
 feature: Journeys
 hide: true
-hidefromtoc: true
 role: Developer
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%

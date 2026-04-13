@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,16 +377,17 @@ ht-degree: 4%
 
    +++裝載範例
 
-       &grave;&grave;json
-       &lbrace;
-       &quot;inboundMessage&quot;： &quot;{{inboundMessage}}&quot;，
-       &quot;profileNumber&quot;： &quot;{{profileNumber}}&quot;，
-       &quot;requestId&quot;： &quot;{{requestId}}&quot;，
-       &quot;originTimestamp&quot;： &quot;{{originTimestamp}}&quot;，
-       &quot;inboundNumber&quot;： &quot;{{inboundNumber}}&quot;
-       &rbrace;
-       「
-」   +++
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
+   +++
 
 1. 建立JSON檔案時，請按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**，然後將JSON裝載複製並貼到編輯器並儲存。
 
@@ -416,18 +417,18 @@ ht-degree: 4%
 
    +++裝載範例
 
-       &grave;&grave;json
-       &lbrace;
-       &quot;clientReference&quot;： &quot;{{client_reference}}&quot;，
-       「狀態」： &lbrack;
-       &lbrace;
-       &quot;代碼&quot;： &quot;{{failureCode}}&quot;，
-       &quot;狀態&quot;： &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       「
-」   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. 按一下「**[!UICONTROL 檢視裝載編輯器]**」，然後將您的JSON裝載複製並貼到編輯器並儲存。

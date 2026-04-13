@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用進階HTML編輯器編輯電子郵件範本
-description: 使用專家模式在WYSIWYG編輯器中檢視和編輯電子郵件內容的HTML來源，包含功能標幟控制、護欄和儲存驗證。
-feature: Templates
+title: 使用進階HTML編輯器編輯電子郵件內容
+description: 使用專家模式，透過功能標幟控制、護欄和儲存驗證，在電子郵件Designer中檢視和編輯電子郵件內容的HTML來源。
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# 使用進階HTML編輯器編輯電子郵件範本 {#email-template-expert-mode}
+# 使用進階HTML編輯器編輯電子郵件內容 {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
-**進階HTML編輯器**&#x200B;是專家模式，可讓您直接從[!DNL Journey Optimizer]電子郵件Designer介面檢視及編輯電子郵件內容範本的原始原始程式碼。
+**進階HTML編輯器**&#x200B;是專家模式，可讓您直接在&#x200B;**&#x200B;**&#x200B;電子郵件Designer[!DNL Journey Optimizer]中檢視及編輯[電子郵件內容](get-started-email-design.md)的原始HTML來源 — 無論您是[為歷程、行銷活動設計電子郵件](content-from-scratch.md)，或是編輯[電子郵件內容範本](../content-management/create-content-templates.md)。
 
 此功能可讓您直接在來源中插入進階運算式（例如條件）。 當您切換回視覺（案頭）檢視時，內容會重新呈現，因此您可以檢查內容外觀，並繼續在任一檢視中進行編輯。
-
->[!NOTE]
->
->此功能僅適用於內容範本和電子郵件頻道。
 
 ## 護欄 {#guardrails}
 
@@ -45,13 +41,13 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->內容範本中的進階HTML編輯器與電子郵件Designer中的&#x200B;**[!UICONTROL 為您自己的]**&#x200B;模式編碼不同。 在[!UICONTROL 以您自己的]模式編碼，您無法切換回視覺化編輯器 — 一旦您選擇該路徑，您就會停留在僅編碼編輯中。 相較之下，進階HTML編輯器可讓您隨時在HTML檢視和案頭（視覺）檢視之間切換。 [進一步了解程式碼編輯器](../email/code-content.md)
+>進階HTML編輯器與電子郵件Designer中&#x200B;**[!UICONTROL 為您自己的]**&#x200B;模式編碼不同。 在[!UICONTROL 以您自己的]模式編碼，您無法切換回視覺化編輯器 — 一旦您選擇該路徑，您就會停留在僅編碼編輯中。 相較之下，進階HTML編輯器可讓您隨時在HTML檢視和案頭（視覺）檢視之間切換。 [進一步了解程式碼編輯器](code-content.md)
 
 ## 切換到進階HTML檢視 {#switch-to-html-view}
 
-若要開啟進階HTML編輯器並編輯您的範本來源，請依照下列步驟操作。
+若要開啟進階HTML編輯器並編輯HTML原始碼，請按照下列步驟操作。
 
-1. 開啟或建立[電子郵件範本](../content-management/create-content-templates.md)，然後開啟[電子郵件Designer](../email/get-started-email-design.md)以編輯內容。
+1. 開啟您要在電子郵件Designer中編輯的電子郵件或範本 — 例如，[從歷程或行銷活動建立或編輯電子郵件](create-email.md)，或開啟[電子郵件內容範本](../content-management/create-content-templates.md)並在[電子郵件Designer](get-started-email-design.md)中編輯其內文。
 
 1. 按一下畫面右上角的&#x200B;**[!UICONTROL HTML]**&#x200B;按鈕。
 
@@ -67,7 +63,7 @@ ht-degree: 7%
 
 1. 進階HTML編輯器隨即顯示。
 
-   ![進階HTML編輯器介面顯示電子郵件範本原始碼](assets/email-template-expert-mode.png)
+   ![進階HTML編輯器介面顯示電子郵件原始碼](assets/email-template-expert-mode.png)
 
 1. 將所需的變更新增至您的電子郵件內容。
 
@@ -89,7 +85,6 @@ ht-degree: 7%
 
 ## 相關主題
 
-* [撰寫您自己電子郵件內容的程式碼](../email/code-content.md)
-* [建立內容範本](create-content-templates.md)
-* [開始使用電子郵件設計工具](../email/get-started-email-design.md)
-
+* [撰寫您自己電子郵件內容的程式碼](code-content.md)
+* [建立內容範本](../content-management/create-content-templates.md)
+* [開始使用電子郵件設計工具](get-started-email-design.md)

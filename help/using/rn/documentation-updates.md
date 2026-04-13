@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 4 月 {#april-2026}
+
+* 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從「內容管理」區段移至檔案的&#x200B;**電子郵件**&#x200B;區段（在電子郵件設計底下），且頁面檔案已重新命名為&#x200B;**email-expert-mode.md**。 此頁面現在會記錄進階HTML編輯器可在電子郵件Designer中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
+
+* 更新&#x200B;**開始和監視協調的行銷活動**&#x200B;檔案，其中包含詳細說明內部發佈時間執行順序的新區段，以及行銷活動生命週期狀態表、發佈前檢查清單，以及非週期性行銷活動的傳送確認警告。 [閱讀全文](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* **儲存對象**&#x200B;活動檔案已更新，其中附註澄清「儲存對象」活動一律在發佈時於訊息活動之前執行。 [閱讀全文](../orchestrated/activities/save-audience.md)
+
+* 已在&#x200B;**協調行銷活動常見問題集**&#x200B;中新增三個新的問答：發佈時內部會發生什麼情況、發佈後可能不會傳送訊息的7點原因檢查清單，以及設定檔快照查詢與即時設定檔解析度的差異。 [閱讀全文](../orchestrated/orchestrated-campaigns-faq.md)
 
 * 已在歷程疑難排解檔案中新增因封鎖歷程執行個體&#x200B;**[而捨棄的新](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**&#x200B;事件，說明`maxInstanceStackEventsReached`捨棄的原因、發生時間以及如何減輕其影響。 護欄和步驟事件欄位清單頁面也已相應更新。
 
@@ -59,7 +67,7 @@ ht-degree: 72%
 
 * Decisioning檔案現在提供新的&#x200B;**監視您的AI模型**&#x200B;頁面。 說明如何直接在[!DNL Journey Optimizer]中追蹤個人化最佳化模型的健康情況、訓練狀態和效能。 [閱讀全文](../experience-decisioning/ranking/ai-model-observability.md)
 
-* 電子郵件範本的&#x200B;**進階HTML編輯器** （專家模式）現在可在「有限可用性」中取得。 檔案頁面現已可公開存取。 此功能可讓您直接從Email Designer檢視及編輯電子郵件內容範本的原始HTML來源。 [閱讀全文](../content-management/email-template-expert-mode.md)
+* 電子郵件範本的&#x200B;**進階HTML編輯器** （專家模式）現在可在「有限可用性」中取得。 檔案頁面現已可公開存取。 此功能可讓您直接從Email Designer檢視及編輯電子郵件內容範本的原始HTML來源。 [閱讀全文](../email/email-expert-mode.md)
 
 * 已更新&#x200B;**URL追蹤**&#x200B;和&#x200B;**歷程疑難排解**&#x200B;檔案，以記錄`context.system.source.actionId`在已關閉歷程中的行為。 已關閉或未重新發佈的歷程可能會在追蹤URL中產生空白的`{}`預留位置。 已新增有關如何透過重新發佈歷程或移除受影響引數來解決問題的指引。 [閱讀全文](../email/url-tracking.md)
 

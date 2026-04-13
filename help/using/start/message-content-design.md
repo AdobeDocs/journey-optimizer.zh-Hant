@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: 內容，設計，電子郵件，推播，簡訊，個人化，範本
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -103,4 +103,3 @@ ht-degree: 4%
 - **[資產管理](../integrations/assets.md)** — 運用Adobe Experience Manager Assets Essentials豐富您的訊息、管理品牌資產，並維護集中式內容庫。
 - **[Adobe Stock整合](../integrations/stock.md)** — 直接在Journey Optimizer中存取數百萬張免版稅的像片、影片和插圖，以強化您的內容設計。
 - **[多語言內容](../content-management/multilingual-gs.md)** — 建立並管理多語言行銷活動和歷程，以當地語系化內容變化觸及多語言對象。
-

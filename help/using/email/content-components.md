@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 使用內容元件在[中設計電子郵件時（例如使用無障礙字型、可讀取的格式及提供影像的替代文字），請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]所列的特定准則。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。使用內容元件在[中設計電子郵件時（例如使用無障礙字型、可讀取的格式及提供影像的替代文字），請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]所列的特定准則。
 
 ## 新增內容元件 {#add-content-components}
 
-若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟操作。
+若要將內容元件新增到電子郵件並根據您的需要進行調整，請依照以下步驟進行。
 
 1. 在電子郵件設計工具中，使用現有內容或將&#x200B;**[!UICONTROL 結構元件]**&#x200B;拖放到您的空白內容以定義電子郵件的版面。[了解作法](content-from-scratch.md)
 

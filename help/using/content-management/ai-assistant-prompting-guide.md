@@ -311,7 +311,7 @@ ht-degree: 2%
 <tbody>
 <tr>
 <td><strong>電子郵件</strong></td>
-<td>「透過詳細ROI指標展示三個客戶成功案例，以培育企業潛在客戶(IBM：成本降低45%、Accenture：銷售機會增加200%、Microsoft：節省時間60%)，鎖定擁有1000多名員工的企業的IT主管」</td>
+<td>「透過詳細ROI指標展示三個客戶成功案例，以培育企業潛在客戶（IBM：成本降低45%、Accenture：銷售機會增加200%、Microsoft：節省時間60%），鎖定擁有1000多名員工的企業的IT主管」</td>
 </tr>
 <tr>
 <td><strong>簡訊</strong></td>

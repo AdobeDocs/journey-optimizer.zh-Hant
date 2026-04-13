@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ ht-degree: 24%
 
 Journey Optimizer採用以Handlebars為基礎的內嵌個人化語法，可讓您建立包含雙大括弧&#x200B;**`{{}}`**&#x200B;之內容的運算式。
 
-處理訊息時，Journey Optimizer會以Experience Platform資料集中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。
-
-使用此語法，您可以跨多個欄位個人化訊息，包括電子郵件主旨列、訊息本文、推播通知或URL。
+處理訊息時，Journey Optimizer會以Experience Platform資料集中包含的資料取代運算式。 例如，`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`會動態變成`Hello John Doe`。 使用此語法，您可以跨多個欄位個人化訊息，包括電子郵件主旨列、訊息本文、推播通知或URL。
 
 ## 用於個人化的資料
 
@@ -52,6 +50,14 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 ![個人化遊樂場](assets/playground.png)
 
 ➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Personalization編輯器中的AI助理 {#ai-personalization-expressions}
+
+在&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;中，**[!UICONTROL AI小幫手]**&#x200B;可協助您從自然語言產生新的運算式、說明現有程式碼的作用，並修正選取範圍中的問題，然後在其符合您的意圖時套用輸出。
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [瞭解如何使用Personalization運算式的AI小幫手](../content-management/generative-personalization-expressions.md)
 
 ## 讓我們深入探討
 

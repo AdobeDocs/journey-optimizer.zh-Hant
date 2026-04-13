@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -265,8 +265,8 @@ ht-degree: 8%
 
 * **行銷活動設定** - [行銷活動屬性](campaign-properties.md) | [行銷活動動作和頻道](campaign-action.md) | [行銷活動內容設計](campaign-content.md) | [行銷活動對象選擇](campaign-audience.md) | [行銷活動排程](campaign-schedule.md)
 
-* **進階功能** - [核准工作流程](../test-approve/gs-approval.md) | [衝突管理與優先順序](../conflict-prioritization/gs-conflict-prioritization.md) | [依據頻道的頻率限定](../conflict-prioritization/channel-capping.md) | [優先順序分數](../conflict-prioritization/priority-scores.md) | [將行銷活動匯出至其他沙箱](../configuration/copy-objects-to-sandbox.md)
+* **進階功能** - [核准工作流程](../test-approve/gs-approval.md) | [衝突管理與優先順序](../conflict-prioritization/gs-conflict-prioritization.md) | [依據管道的頻率上限](../conflict-prioritization/channel-capping.md) | [優先順序分數](../conflict-prioritization/priority-scores.md) | [將行銷活動匯出至其他沙箱](../configuration/copy-objects-to-sandbox.md)
 
-* **監視和最佳化** - [行銷活動報告(CJA)](../reports/campaign-global-report-cja.md) | [設定警示](../reports/alerts.md)
+* **監視和最佳化** - [行銷活動報告(CJA)](../reports/campaign-global-report-cja.md) | [設定警報](../reports/alerts.md)
 
 * **組織** - [使用標籤](../start/search-filter-categorize.md) | [管理許可權](../administration/ootb-product-profiles.md)

@@ -23,7 +23,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_fork_transitions"
 >title="分支活動轉變"
->abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。按一下&#x200B;**新增轉變**&#x200B;按鈕以定義額外的傳出轉變，並輸入其標籤。"
+>abstract="依預設，透過&#x200B;**分支**&#x200B;活動建立二個轉變。 按一下&#x200B;**新增轉變**&#x200B;按鈕以定義額外的傳出轉變，並輸入其標籤。"
 
 **[!UICONTROL 分支]**&#x200B;活動是&#x200B;**[!UICONTROL 控制流量]**&#x200B;元件，讓可以您建立多個輸出轉變，並行執行多個活動。
 
