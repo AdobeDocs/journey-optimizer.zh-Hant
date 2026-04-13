@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3200'
 ht-degree: 91%
 
 ---
@@ -504,6 +504,7 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + {hide-from-toc}[透過MCP與AI助理合作](using/integrations/ajo-mcp.md)
       + {hide-from-toc}[使用整合](using/integrations/external-sources.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
