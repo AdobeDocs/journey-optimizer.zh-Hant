@@ -5,10 +5,10 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 13%
+source-wordcount: '2493'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 
@@ -153,6 +153,66 @@ Yes. Campaign orchestration is natively integrated with:
 是，在特定情況下。 **[!UICONTROL 返回草稿]**&#x200B;選項的設計目的是要作為取消發佈並將行銷活動還原為草稿狀態的復原機制。
 
 此選項適用於等待執行的已排程行銷活動，或適用於具有執行錯誤的即時行銷活動。 [瞭解如何將即時行銷活動還原為草稿](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ 當我發佈協調的行銷活動時，內部會發生什麼事？
+
+當您按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;時，會出現下列順序：
+
+1. **排程器啟動** — 如果排程已設定，排程器會在定義的時間啟動並觸發執行。
+1. **儲存對象活動會先執行** — 任何儲存對象活動都會在訊息活動之前執行。 對象殼層會在Audience Portal中建立，且合格的設定檔會開始內嵌。
+1. **訊息執行開始** — 頻道活動開始處理工作流程中的第一個訊息活動。
+1. **設定檔快照集查詢** — 設定檔資料會針對發佈時拍攝的快照集進行解析，而非即時設定檔，以確保整個執行的一致性。
+1. **同意評估** — 直接從設定檔記錄接受同意，在傳送時不會重新評估。
+1. **設定檔調解** — 在傳送時根據Adobe Experience Platform設定檔調解收件者。
+1. **傳遞記錄建立** — 傳遞事件記錄在`ajo_message_feedback_event`資料集中。
+
+**了解更多**
+
+* [發佈時間執行順序](start-monitor-campaigns.md#publication-sequence)
+* [開始並監控協調式行銷活動](start-monitor-campaigns.md)
+
++++
+
++++ 為什麼我的訊息沒有在我發佈行銷活動後傳送？
+
+在幾種情況下，訊息可能會無法在發佈後傳送。 依序檢查下列專案：
+
+1. **傳送確認擱置中（最常見）** — 對於非週期性行銷活動，訊息傳送依預設會暫停，直到您從管道活動的屬性窗格明確確認傳送為止。 此行銷活動顯示為&#x200B;**即時**，但在確認之前不會傳出任何訊息。 [了解更多](start-monitor-campaigns.md#confirm-sending)
+
+1. **行銷活動已排程在未來某個時間** — 如果已設定排程，行銷活動為即時，但尚未開始執行。 檢查排程設定，並等待設定的開始時間。 [了解更多](create-orchestrated-campaign.md#schedule)
+
+1. **儲存對象活動仍在擷取** — 儲存對象活動在發佈訊息活動之前執行。 如果對象擷取仍在進行中，訊息執行尚未開始。 監視畫布中的活動狀態指示器。 [了解更多](start-monitor-campaigns.md#activities)
+
+1. **對象為空** — 目標查詢傳回零個設定檔。 在重新發佈之前，請檢閱分段規則並驗證受眾規模。
+
+1. **所有設定檔都選擇退出** — 在傳送時針對每個設定檔評估同意。 如果相關頻道上的所有目標設定檔都選擇退出，則不會傳送任何訊息。 [了解更多](../action/consent.md)
+
+1. **處於錯誤狀態的管道活動** — 管道活動上的橘色或紅色狀態指示器代表封鎖問題。 開啟&#x200B;**[!UICONTROL 記錄檔]**&#x200B;以取得有關錯誤的詳細資訊及解決方法。 [了解更多](start-monitor-campaigns.md#logs-tasks)
+
+1. **速率控制節流傳遞** — 如果在頻道活動上啟用速率控制，傳遞可能會比預期慢。 檢查頻道活動屬性窗格中的速率控制設定。 [了解更多](activities/channels.md#rate-control)
+
+**了解更多**
+
+* [開始並監控協調式行銷活動](start-monitor-campaigns.md)
+* [在協調的行銷活動中新增管道活動](activities/channels.md)
+
++++
+
++++ 發行集是否使用即時設定檔或快照？
+
+在發行時，設定檔資料會針對發行時間&#x200B;**拍攝的**&#x200B;快照進行解析，而不是針對即時設定檔。 這可確保整個行銷活動執行的一致性 — 所有活動都會處理相同的設定檔狀態，無論行銷活動執行的時間長短。
+
+不過，同意一律會從目前的設定檔記錄接受，在傳送時不會重新評估。
+
+請注意，在「協調的行銷活動」中的細分是對收件者（關聯式存放區）執行，而訊息傳送和同意檢查是根據Adobe Experience Platform設定檔來解析。
+
+**了解更多**
+
+* [發佈時間執行順序](start-monitor-campaigns.md#publication-sequence)
+* [收件者和設定檔實體之間的關係為何？](#faq-oc)
+* [使用同意原則](../action/consent.md)
 
 +++
 
