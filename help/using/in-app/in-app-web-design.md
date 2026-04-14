@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 7%
@@ -130,7 +130,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
 
 +++更多具有進階格式的選項
 

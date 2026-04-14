@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Dynamic Media的可用性取決於您的存放庫設定：
 
 * **Scene7**：可用於已發佈的資產（視訊和PDF除外）。 [進一步瞭解Dynamic Media Scene7修飾元](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hant){target="_blank"}
+* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：當兩個設定都存在且資產符合條件時，即可使用。
 

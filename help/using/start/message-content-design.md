@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 keywords: 內容，設計，電子郵件，推播，簡訊，個人化，範本
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設計電子郵件內容
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 設計推播通知
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 設計SMS和MMS訊息
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 設計應用程式內訊息
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 個人化您的內容
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用範本和片段
 

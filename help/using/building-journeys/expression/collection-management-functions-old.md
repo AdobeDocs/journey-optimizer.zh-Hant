@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: 查詢，集合，函式，裝載，歷程
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 2%
@@ -231,7 +231,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
