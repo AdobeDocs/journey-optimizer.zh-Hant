@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
+source-git-commit: 5bf30e44d9b13fd6a1ac58e93212a84771ce1f5e
 workflow-type: tm+mt
-source-wordcount: '2482'
-ht-degree: 18%
+source-wordcount: '2520'
+ht-degree: 19%
 
 ---
 
@@ -128,6 +128,12 @@ ht-degree: 18%
 </table>
 
 ### 改進 {#april-26-improv}
+
+#### 決策
+
+* **已略過暫時無法使用的片段** — 在決定專案中使用片段時，如果Edge上暫時無法使用片段，則會略過該片段，而且歷程或行銷活動會繼續轉譯而不是失敗。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+
+  推出日期： 2026年4月14日
 
 #### 電子郵件設計
 
@@ -328,7 +334,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>可緊密整合標準與自訂Firefly模型，以及經核准的協力廠商影像模型，以便在產生影像時提供更大的彈性、控制力及品牌一致性。</p>
+<p>啟用標準與自訂 Firefly 模型，以及經核准的第三方影像模型的緊密整合，以便在生成影像時提供更大的彈性、控制力及品牌一致性。</p>
 <p>選擇符合您需求的正確模式：</p>
 <ul><li> <strong>Adobe模型</strong> （由Firefly Image Model 4提供技術支援）可立即產生影像，無需額外設定</li><li> <strong>合作夥伴機型</strong> （由Gemini 2.5 Flash提供），提供專門的功能</li><li><strong>自訂模型</strong> （在您自己的資產上訓練的品牌特定模型），用於品牌上產生，完全符合您的品牌識別、風格和視覺准則。</li></ul>
 <p>如需詳細資訊，請參閱<a href="../content-management/generative-models.md">詳細文件</a>。</p>
@@ -456,11 +462,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 * **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment.
 
   **Caution:** When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered—both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
-<!--
-#### Decisioning
-
-* **Optional fragments in decision items** - When using fragments in decision items, you can now make a fragment optional so that if it is temporarily unavailable on Edge, it is skipped and the journey or campaign continues rendering instead of failing.
 -->
 
 #### 設定
