@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 整合，廠商，協力廠商
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 5%
@@ -47,6 +47,7 @@ ht-degree: 5%
 
 * 具有傳送API存取權及讀取導向API金鑰的充滿內容的空間。
 * 清除內容型別和欄位ID；使用Journey Optimizer中的管理員存取權來建立整合。
+
 
 下列限制和排除專案適用：
 
