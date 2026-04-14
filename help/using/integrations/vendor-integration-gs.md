@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 整合，廠商，協力廠商
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -29,6 +29,7 @@ ht-degree: 1%
 * [常見問題集](vendor-integration-faq.md)
 
 >[!ENDSHADEBOX]
+
 
 當每個系統公開適合您使用案例的&#x200B;**API端點**，且與整合如何發出要求及使用回應相容時，您可以在Adobe Journey Optimizer中使用&#x200B;**整合**，透過HTTP **呼叫**&#x200B;外部系統。 如需完整的工作流程，請參閱[使用整合](external-sources.md)。
 
