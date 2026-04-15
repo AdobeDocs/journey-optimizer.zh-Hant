@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 7%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
@@ -48,21 +48,24 @@ ht-degree: 7%
 >
 > * 如果您在更新純文字內容後重新啟用「**[!UICONTROL 與HTML同步]**」選項，您的變更將會遺失，並以HTML版本產生的文字內容取代。
 
-## 最佳化AI收件匣的文字版本 {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-您可以使用[!DNL Gmail]針對AI收件匣最佳化[!DNL Outlook]按鈕，協助以AI支援的收件匣功能（例如[!DNL Apple Mail]、**[!UICONTROL 或]**&#x200B;中的摘要）呈現您的重要選件和詳細資訊。 該動作會產生改良的純文字版本，著重於助理可能從訊息的文字部分讀取的資訊。
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![文字版本檢視中的[針對AI收件匣最佳化]按鈕](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->使用此功能時，**[!UICONTROL 與HTML同步]**&#x200B;選項會自動停用。
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-如需完整逐步解說和建議的案例，請參閱[最佳化AI收件匣的電子郵件文字](llm-email-optimizer.md)。
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## 何時使用自訂純文字版本 {#when-to-use}
 
 瞭解何時應建立自訂純文字版本與使用自動同步處理，有助於確保最佳電子郵件傳遞和可讀性。
+
 
 ### 在下列情況下使用自訂純文字（停用同步）：
 
