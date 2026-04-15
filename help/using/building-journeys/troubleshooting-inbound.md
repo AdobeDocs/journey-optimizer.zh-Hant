@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯誤
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 開始疑難排解之前，請先確定下列事項：
 
-1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[[!DNL Adobe Experience Platform] Assurance檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
+1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[[!DNL Adobe Experience Platform] Assurance檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
 
 1. 導覽至包含傳入動作的歷程，以擷取歷程名稱和版本ID。
 
@@ -48,7 +48,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![活動設定面板程式碼檢視中的動作ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
+1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
 
 ## 案例1：使用者尚未收到傳入內容 {#scenario-1}
 
@@ -63,7 +63,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 2. 已在平台身分中定義&#x200B;**&#39;joai&#39;身分**
 
-   傳入動作使用設定檔&#x200B;**中的** joai`segmentMembership`名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home){target="_blank"}
+   傳入動作使用設定檔&#x200B;**中的** joai`segmentMembership`名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
 
 ### 偵錯步驟 {#debugging-steps}
 
@@ -71,7 +71,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ![未顯示傳入訊息的疑難排解工作流程：檢查歷程、邊緣傳遞及設定檔](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### 步驟1：檢查裝置/使用者端是否從Edge Network接收內容 {#step-1}
+### 步驟1：檢查裝置/使用者端是否正從Edge網路接收內容 {#step-1}
 
 首先，檢查裝置/使用者端是否取得預期的內容。
 
@@ -79,7 +79,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 應用程式內頻道]
 
-1. 前往[Assurance](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
+1. 前往[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
 
 1. 在&#x200B;**[!UICONTROL 裝置]**&#x200B;上的訊息，按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;下拉式清單。
 
@@ -91,15 +91,15 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 網路頻道]
 
-造訪頁面並檢查網路標籤，或在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
+造訪頁面並檢查網路標籤，或在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
 
 >[!TAB 程式碼型體驗管道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)執行curl要求，並在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)執行curl要求，並在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
 
 >[!ENDTABS]
 
-### 步驟2：檢查Edge Network是否傳回內容 {#step-2}
+### 步驟2：檢查Edge網路是否傳回內容 {#step-2}
 
 此步驟旨在確保Edge Network傳回預期要在裝置/使用者端上轉譯的輸入內容。
 
@@ -129,9 +129,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    您可以開啟「設定檔」區段的&#x200B;**segmentsMap**&#x200B;元素，並尋找&#x200B;**joai**&#x200B;區段ID是否存在，來仔細檢查&#x200B;**joai**&#x200B;區段是否存在於設定檔的Edge Network傳遞伺服器檢視中。
 
-1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### 步驟3：檢查「joai」對象會籍是否已傳播至Edge Network {#step-3}
+### 步驟3：檢查「joai」對象會籍是否已傳播至Edge網路 {#step-3}
 
 此步驟是驗證當設定檔進入傳入歷程動作，且該設定檔符合對應&#x200B;**joai**&#x200B;區段的資格時，Edge設定檔是否已正確更新。
 
@@ -216,7 +216,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

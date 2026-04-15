@@ -5,10 +5,10 @@ title: 內容卡
 description: 內容卡
 redpen-status: CREATED_||_2025-08-11_20-43-30
 exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。
 
-## 內容卡文件
+## 內容卡片檔案
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定內容卡管道
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及設定內容卡
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計內容卡
 

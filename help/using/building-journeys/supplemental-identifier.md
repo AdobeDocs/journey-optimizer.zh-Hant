@@ -3,7 +3,7 @@ title: 在歷程中使用補充識別碼
 description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -250,4 +250,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

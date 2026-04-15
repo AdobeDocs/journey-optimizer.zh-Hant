@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 結構描述， XDM，平台，串流，擷取，歷程
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# 關於[!DNL Journey Optimizer]事件的ExperienceEvent結構描述 {#about-experienceevent-schemas}
+# 關於[!DNL Journey Optimizer]事件的experienceevent結構 {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer]事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

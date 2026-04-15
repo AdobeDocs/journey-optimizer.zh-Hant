@@ -6,10 +6,10 @@ description: 字串
 redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 字串是文字型資料的建構組塊，Adobe Journey Optimizer 的字串函式為您提供強大的工具，讓您輕鬆管理和轉換這些資料。
 
-## 字串函式概觀
+## 字串函式概述
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 concat 函式參考
 
@@ -31,7 +31,7 @@ concat 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用「contain」函式
 
@@ -41,7 +41,7 @@ concat 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 containIgnoreCase 函式
 
@@ -51,7 +51,7 @@ containIgnoreCase 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWith 函式參考
 
@@ -61,7 +61,7 @@ endWith 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWithIgnoreCase 函式
 
@@ -71,7 +71,7 @@ endWithIgnoreCase 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 equalIgnoreCase 函式參考
 

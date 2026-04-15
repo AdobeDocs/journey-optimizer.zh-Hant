@@ -5,10 +5,10 @@ title: 設定訊息和歷程上限規則
 description: 設定訊息和歷程上限規則
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 38%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用規則集
 
@@ -32,7 +32,7 @@ ht-degree: 38%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 歷程上限與仲裁
 
@@ -42,7 +42,7 @@ ht-degree: 38%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 依據管道的頻率限定
 
@@ -52,7 +52,7 @@ ht-degree: 38%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 設定無訊息時數
 

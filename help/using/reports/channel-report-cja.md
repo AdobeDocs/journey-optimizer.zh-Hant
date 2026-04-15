@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 * [規則集](#rule-sets)
 * [最佳化模型](#optimization-models)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 
 **[!UICONTROL 依規則集的歷程專案]**&#x200B;欄會顯示進入歷程的設定檔數目。 有三種入口型別：
 
-* **&#x200B;**&#x200B;[!UICONTROL 沒有衝突]&#x200B;**&#x200B;**：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
+* ****[!UICONTROL 沒有衝突]****：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
 
 * **較高優先順序**：設定檔進入歷程是因為其優先順序高於其他競爭歷程。 即使發生衝突（設定檔符合多個歷程的資格），但由於此歷程的優先順序分數較高，所以被選取。
 

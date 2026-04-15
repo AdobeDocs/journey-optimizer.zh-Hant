@@ -8,14 +8,14 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
 
 ---
 
-# Personalization運算式的AI助理{#generative-personalization-expressions}
+# 個人化運算式的AI助理{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-access.png)
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。**&#x200B;**
+1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。****
 
    您也可以使用&#x200B;**[!UICONTROL 快速提示]**&#x200B;區段的現成提示，例如個人化問候語、促銷程式碼產生等等。
 

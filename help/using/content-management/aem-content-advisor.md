@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Dynamic Media的可用性取決於您的存放庫設定：
 
 * **Scene7**：可用於已發佈的資產（視訊和PDF除外）。 [進一步瞭解Dynamic Media Scene7修飾元](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hant){target="_blank"}
+* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：當兩個設定都存在且資產符合條件時，即可使用。
 
@@ -123,7 +123,7 @@ Adobe Experience Manager內容警告器提供下列內容片段功能：
 
 +++
 
-## 存取Adobe Experience Manager內容顧問 {#access}
+## 存取Adobe Experience Manager內容建議程式 {#access}
 
 若要在Journey Optimizer中存取Adobe Experience Manager內容建議程式，請遵循下列步驟：
 

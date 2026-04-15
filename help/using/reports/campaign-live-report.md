@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 26%
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 簡訊 - 錯誤原因 {#sms-error-reasons}
+### 簡訊 — 錯誤原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 排除的原因]**&#x200B;圖表和表格可讓您識別過去24小時內傳送簡訊過程中發生的特定錯誤，以便深入分析遇到的任何問題。
 
-### 簡訊 - 排除原因 {#sms-excluded-reasons}
+### 簡訊 — 排除的原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 直接郵件]**&#x200B;索引標籤會詳細說明與直接郵件相關的主要資訊。
 
-### 直接郵件 - 傳送統計資料 {#direct-mail-sending}
+### 直接郵件 — 傳送統計資料 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 直接郵件 - 錯誤原因 {#direct-mail-error-reasons}
+### 直接郵件 — 錯誤原因 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 直接郵件 — 錯誤原因]**&#x200B;圖表和表格提供了識別直接郵件訊息傳送過程中發生的特定錯誤的方法，允許詳細分析過去24小時內遇到的任何問題。
 
-### 直接郵件 - 排除原因 {#direct-mail-excluded-reasons}
+### 直接郵件 — 排除的原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

@@ -5,7 +5,7 @@ title: 協調的行銷活動常見問題
 description: 關於Journey Optimizer協調行銷活動的常見問題
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2493'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 您將找到有關Adobe Journey Optimizer協調行銷活動的常見問題集。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 什麼是Campaign協調流程？
 

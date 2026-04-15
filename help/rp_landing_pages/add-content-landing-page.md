@@ -5,7 +5,7 @@ title: 設計內容
 description: 設計內容
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 87%
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用內容元件
 
@@ -30,7 +30,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 運用視覺片段
 
@@ -40,7 +40,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 新增連結及追蹤訊息
 
@@ -50,7 +50,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 插入個人化產品建議
 
@@ -60,7 +60,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 產生文字版本
 
@@ -70,7 +70,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 最佳化AI收件匣的電子郵件文字
 
@@ -80,7 +80,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 新增中繼資料
 

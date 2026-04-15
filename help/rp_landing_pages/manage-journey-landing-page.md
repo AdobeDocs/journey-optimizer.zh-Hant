@@ -5,7 +5,7 @@ title: 管理您的歷程
 description: 管理您的歷程
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 管理您的歷程{#section-overview}
 
-在 Adobe Journey Optimizer 中管理您的歷程，為您提供工具，讓您整理並調整跨管道的客戶體驗。本節會探索歷程類型、狀態和篩選條件等關鍵概念，協助您了解歷程開始、進展和結束的不同方式。您將了解如何視覺化排程、最佳化傳送時間，甚至於如何在環境之間傳輸歷程。無論您是建置個人化體驗，還是利用 AI 打造更聰明的參與，本指南都會提供實用的步驟和深入分析，協助您滿懷信心地設計和管理歷程。
+在 Adobe Journey Optimizer 中管理您的歷程，為您提供工具，讓您整理並調整跨管道的客戶體驗。本節會探索歷程類型、狀態和篩選條件等關鍵概念，協助您了解歷程開始、進展和結束的不同方式。您將了解如何視覺化排程、最佳化傳送時間，甚至於如何在環境之間傳輸歷程。無論您是建置個人化體驗，還是利用 AI 打造更聰明的參與，本指南都會提供實用的步驟和洞察，協助您滿懷信心地設計和管理歷程。
 
 ## 管理您的歷程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 瀏覽及篩選您的歷程
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 歷程中的輪廓入口
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 在歷程中使用補充識別碼
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 時區管理
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 傳送時間最佳化
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 結束您的歷程
 

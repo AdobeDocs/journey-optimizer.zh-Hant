@@ -8,7 +8,7 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 在第一次訓練個人化最佳化模型之前，會隨機提供使用個人化最佳化模型之選擇策略中的選件。
 
-## 主要模型假設和限制 {#key}
+## 主要模型假設及限制 {#key}
 
 為了最大化使用個人化最佳化的優勢，請注意一些重要假設和限制。
 

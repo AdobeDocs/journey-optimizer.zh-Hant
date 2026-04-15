@@ -5,7 +5,7 @@ title: 客群、輪廓與身分
 description: 客群、輪廓與身分
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 客群、輪廓與身分{#section-overview}
 
-Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶輪廓](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)功能來強化個人化體驗。**客群**&#x200B;可讓您使用豐富資料來細分客戶，**輪廓**&#x200B;提供包含行為和屬性的即時深入分析，以及&#x200B;**身分**&#x200B;使用身分識別圖跨管道連結互動。這些元素搭配使用，以實現目標訊息傳送和一致的客戶歷程。本節說明如何啟用客群、管理輪廓及對應身分，以統一資料及提供相關、即時的體驗。
+Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶輪廓](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/home)功能來強化個人化體驗。**客群**&#x200B;可讓您使用豐富資料來細分客戶，**輪廓**&#x200B;提供包含行為和屬性的即時洞察，以及&#x200B;**身分識別**&#x200B;使用身分識別圖跨管道連結互動。這些元素搭配使用，以實現目標訊息傳送和一致的客戶歷程。本節說明如何啟用客群、管理輪廓及對應身分，以統一資料及提供相關、即時的體驗。
 
 ## 客群、輪廓與身分
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 客群管理和個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 輪廓：管理和最佳化客戶資料
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 身分快速入門
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 授權使用情況儀表板
 

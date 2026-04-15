@@ -5,14 +5,14 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1918'
 ht-degree: 93%
 
 ---
 
-# 開發人員快速入門  {#get-started-developers}
+# 開發人員快速入門 {#get-started-developers}
 
 身為&#x200B;**開發人員**，您負責實作 [!DNL Adobe Journey Optimizer] 並將其整合至您的應用程式與系統。一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用 [!DNL Adobe Journey Optimizer]。
 

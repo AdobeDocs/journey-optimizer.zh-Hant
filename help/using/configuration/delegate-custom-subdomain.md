@@ -10,10 +10,10 @@ level: Experienced
 keywords: 子網域、委派、網域、DNS
 badge: label="有限可用性" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 22%
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## 完成回饋迴路步驟 {#feedback-loop-steps}
+## 完成回饋回圈步驟 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
@@ -154,7 +154,7 @@ ht-degree: 22%
 
 ## 複製SSL CDN URL驗證記錄 {#copy-ssl-cdn-url-record}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

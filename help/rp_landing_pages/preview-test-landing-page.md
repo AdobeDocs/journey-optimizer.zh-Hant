@@ -5,8 +5,8 @@ title: 預覽與測試內容
 description: 啟動前驗證訊息的準確性。使用測試輪廓預覽個人化內容、傳送校樣給利害關係人、檢查跨用戶端的電子郵件轉譯、評估垃圾郵件分數，並有效測試多個內容變化版本。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何預覽並測試您的內容
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何選取測試輪廓
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用測試輪廓來預覽您的內容
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 使用測試輪廓資料，傳送校樣
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 如何使用 Litmus 測試電子郵件轉譯
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 如何模擬和測試內容變化版本
 

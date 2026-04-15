@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 27%
@@ -72,13 +72,13 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 
 深入瞭解[Journey Optimizer + Adobe Express](../integrations/express.md)。
 
-## GenStudio for Performance Marketing
+## GenStudio的效能行銷
 
 Adobe GenStudio for Performance Marketing是創作AI優先的應用程式，可讓行銷團隊建立自己的廣告和電子郵件，以推動符合您的品牌標準並符合您企業政策的、具影響力的個人化行銷活動。 善用Adobe AI技術，提供一套完整的工具，簡化內容建立及管理的複雜性，讓創意人員可專注在創新上。
 

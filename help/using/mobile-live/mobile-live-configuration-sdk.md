@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## 步驟2：定義您的上線活動屬性 {#attributes}
+## 步驟2：定義您的已上線活動屬性 {#attributes}
 
 建立符合`LiveActivityAttributes`通訊協定的結構。 這會定義您的即時活動的靜態資料和動態內容狀態。
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 步驟5：在本機啟動上線活動（選用） {#local}
+## 步驟5：在本機啟動已上線的活動（選用） {#local}
 
 雖然Journey Optimizer可以從遠端啟動即時活動，但您也可以從本機啟動活動：
 

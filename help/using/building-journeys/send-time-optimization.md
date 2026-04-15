@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 9%
@@ -108,7 +108,7 @@ ht-degree: 9%
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 

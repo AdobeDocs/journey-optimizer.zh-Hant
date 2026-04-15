@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -109,7 +109,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 [行銷人員快速入門 →](path/marketer.md)
 
-### 針對資料工程師 {#for-data-engineers}
+### 適用於資料工程師 {#for-data-engineers}
 
 身為資料架構師或工程師，您需要設定和維護客戶輪廓資料，以及其他支援 Journey Optimizer 所協調體驗的資料來源。
 
@@ -210,7 +210,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他資源
 
@@ -234,7 +234,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 >[!TAB 社群與支援]
 
-* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：和其他使用者和專家保持聯繫
-* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
+* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：和其他使用者和專家保持聯繫
+* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]

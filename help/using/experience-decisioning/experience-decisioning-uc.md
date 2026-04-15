@@ -7,14 +7,14 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 4%
 
 ---
 
-# 透過內容實驗在程式碼型體驗中使用決策 {#experience-decisioning-uc}
+# 在包含內容實驗的程式碼式體驗中使用決策 {#experience-decisioning-uc}
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
 
@@ -129,7 +129,7 @@ ht-degree: 4%
 
    ![](assets/exd-uc-experiment-strategy-priority.png){width="90%"}
 
-1. 儲存您的變更，然後按一下[建立]。**&#x200B;** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
+1. 儲存您的變更，然後按一下[建立]。**** 新決定已新增至&#x200B;**[!UICONTROL 決定原則]**&#x200B;下。
 
 1. 按一下&#x200B;**[!UICONTROL 插入原則]**&#x200B;按鈕。 已新增與決定原則對應的程式碼。 然後將您想要的所有屬性新增至程式碼，包括設定檔屬性。 [了解更多](create-decision.md#create-decision)
 
