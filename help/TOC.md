@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac163c2bfd1ec59fbf39547fbefdacd1adec3838
+source-git-commit: bff1526dc5a0553741f688032745861debc17ddd
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -288,6 +288,7 @@ ht-degree: 91%
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
             + [插入個人化優惠方案](using/email/add-offers-email.md)
+            + [針對AI收件匣最佳化電子郵件](using/email/llm-email-optimizer.md)
             + [管理文字版本](using/email/text-version-email.md)
             + [新增中繼資料](using/email/email-metadata.md)
             + [使用進階HTML編輯器編輯](using/email/email-expert-mode.md)
@@ -978,4 +979,3 @@ ht-degree: 91%
       + [管理客戶的偏好設定](using/action/preference-center.md)
    + [資料治理](using/action/action-privacy.md)
    + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
-
