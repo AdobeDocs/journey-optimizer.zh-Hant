@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -123,7 +123,7 @@ Adobe Experience Manager內容警告器提供下列內容片段功能：
 
 +++
 
-## 存取Adobe Experience Manager內容顧問 {#access}
+## 存取Adobe Experience Manager內容建議程式 {#access}
 
 若要在Journey Optimizer中存取Adobe Experience Manager內容建議程式，請遵循下列步驟：
 

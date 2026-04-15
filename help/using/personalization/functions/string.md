@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 6%
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 不等於，忽略大小寫 {#not-equal-with-ignore-case}
+## 不等於忽略大小寫 {#not-equal-with-ignore-case}
 
 `notEqualWithIgnoreCase`函式是用來比較兩個字串，忽略大小寫。
 
@@ -808,7 +808,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## To Date Time Only {#to-date-time-only}
+## 至僅日期時間 {#to-date-time-only}
 
 `toDateTimeOnly`函式用於將引數值轉換為僅日期時間值。 針對無效輸入會傳回epoch日期作為輸出。 此函式接受字串、日期、長欄位和整欄位型別。
 

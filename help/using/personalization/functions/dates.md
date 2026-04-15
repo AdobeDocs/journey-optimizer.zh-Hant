@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 5%
@@ -503,7 +503,7 @@ The following operation gets all the values for the map `identityMap`.
 
 >[!CAUTION]
 >
->**常見錯誤：「不相符的輸入&#39;(&#39;必須是\&lt;EOF\>&quot;**」
+>**常見錯誤：「不相符的輸入&#39;(&#39;必須是\&lt;EOF\>&quot;**
 >
 >使用內嵌內容事件時間戳記(`formatDate()`)的`{%= formatDate(...) %}`時，會發生此PQL語法錯誤。 最常見的原因是未以反引號(`` ` ``)包裝的數值事件ID，或直接傳遞給`formatDate()`的時間戳記欄位（未先以`toDateTime()`包裝）。 若要修正這兩個問題，請使用上述範例中顯示的`{% let %}`指派模式。
 
@@ -693,7 +693,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 截斷至一天開始 {#truncate-day}
+## 截斷為一天開始 {#truncate-day}
 
 `truncateToStartOfDay`函式是用來修改指定的日期時間，方法是將其設定為當天的開始，而時間設定為00:00。
 

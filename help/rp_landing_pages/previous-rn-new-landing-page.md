@@ -6,7 +6,7 @@ description: 舊版發行說明
 hide: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 的發行說明每月都會提供最新功能、更新及增強功能的快照，協助您提升客戶歷程。無論您是要使用決策工具個人化體驗、使用多語言選項簡化訊息建立，還是要透過歷程試運行測試行銷活動，這些更新都是量身打造的，可協助您更有效與客戶互動。每個區段重點介紹特定的增強功能，例如 RCS 訊息、內容管理或 AI 驅動工具，以便您輕鬆找出與您的目標最相關的內容。深入探索最佳化及創新行銷策略的新方法。
 
-## 上一版的發行說明
+## 舊版發行說明
 
 :::: landing-cards-container
 :::

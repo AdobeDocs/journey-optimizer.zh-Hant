@@ -5,10 +5,10 @@ title: 開始使用
 description: 開始使用 Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ AI 與智慧功能
 
 ## 其他資源 {#additional-resources}
 
-### 偏好設定與最佳做法
+### 參考資料與最佳實務
 
 * **[護欄和限制](../using/start/guardrails.md)** - 了解有效使用 Journey Optimizer 功能的限制和建議做法
 * **[協助工具功能](../using/start/accessibility.md)** - 了解協助工具功能及 WCAG 合規性，確保對所有使用者的包容性。

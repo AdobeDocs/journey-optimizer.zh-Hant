@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 匯出，訊息， HIPAA，電子郵件，簡訊，設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 11%

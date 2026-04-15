@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 1%
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 登陸頁面轉換]**：與登陸頁面互動（例如訂閱表單）的人數。
 
-## Channel {#lp-channels}
+## 頻道 {#lp-channels}
 
 **[!UICONTROL 管道]**&#x200B;表格顯示依每個管道分類的登入頁面造訪次數。
 

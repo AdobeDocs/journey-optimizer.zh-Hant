@@ -5,10 +5,10 @@ title: 用於內容產生的 AI 助理
 description: 用於內容產生的 AI 助理
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、簡訊、推播通知、網頁等製作個人化文字和視覺效果，徹底變革內容建立。無論您是產生完整行銷活動還是調整特定資產，此功能都能協助您將內容順暢地與品牌方針保持一致，同時節省時間。您將探索如何存取 AI 助理、了解其護欄，以及跨不同管道利用其功能。每個子主題都提供實用的指引，涵蓋從製作吸引人的電子郵件到實驗內容變化，讓您能夠放心地建立有影響力的符合品牌形象的行銷活動，引起客群的共鳴。
 
-## 用於內容產生的 AI 助理
+## 用於產生內容的AI助理
 
 :::: landing-cards-container
 :::

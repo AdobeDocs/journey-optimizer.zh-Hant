@@ -6,10 +6,11 @@ description: Adobe Journey Optimizer中的基本術語和概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 9%
 | **可參與的對象** | 您可以根據授權合約，透過Adobe Journey Optimizer主動聯絡的客戶設定檔數目。 這通常是指過去12個月內參與的設定檔。 |
 | **測試設定檔** | 在傳送給真實客戶之前用於測試和預覽訊息的虛構設定檔。 測試設定檔有助於驗證個人化、內容和歷程邏輯。 [了解更多](../audience/creating-test-profiles.md) |
 
-## 內容與Personalization術語 {#content-terms}
+## 內容與個人化詞語 {#content-terms}
 
 | 術語 | 定義 |
 |------|------------|
@@ -78,7 +79,6 @@ ht-degree: 9%
 
 ## 相關主題 {#related-topics}
 
-* [瞭解Journey Optimizer的運作方式](understanding-ajo.md)
+* [瞭解 Journey Optimizer 的運作方式](understanding-ajo.md)
 * [開始使用使用者介面](user-interface.md)
 * [選擇您的角色和學習路徑](quick-start.md)
-

@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 若要疑難排解&#x200B;**讀取對象**&#x200B;警示，請檢視Experience Platform介面中的受眾規模。
 
-### 超出輪廓捨棄率 {#alert-discard-rate}
+### 超過設定檔捨棄率 {#alert-discard-rate}
 
 如果過去5分鐘內捨棄的設定檔與輸入的設定檔之比超過臨界值，此警報會發出警告。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 
@@ -240,7 +240,7 @@ Journey Optimizer提供兩種系統警報類別：
 * 檢查端點是否可連線，以及自訂動作是否可透過自訂動作連線檢查器連線。
 * 驗證驗證認證、檢查網際網路連線能力等。
 
-### 超出輪廓錯誤率 {#alert-profile-error-rate}
+### 超過設定檔錯誤率 {#alert-profile-error-rate}
 
 如果過去5分鐘內錯誤設定檔與輸入設定檔的比率超過臨界值，此警報會警告您。 預設臨界值設定為20%，但您可以[定義自訂臨界值](#custom-threshold)。
 

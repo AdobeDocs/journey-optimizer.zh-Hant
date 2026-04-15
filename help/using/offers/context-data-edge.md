@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## 在Edge Decisioning請求中傳遞內容資料的先決條件 {#prerequisites}
+## 在邊緣決策請求中傳遞內容資料的先決條件 {#prerequisites}
 
 與使用決策API以自由格式傳遞內容不同， Edge決策內容需要XDM法規遵循。 內容裝載必須與XDM體驗事件相容。 為此，需要將內容定義為用於資料收集的「XDM體驗事件」的一部分。
 
@@ -132,7 +132,7 @@ ht-degree: 4%
 >
 >若要更進一步，您可以將內容資料運用到排名公式中，並將其指派給您的決定。 新增資訊
 
-## 在Edge Decisioning請求中傳遞內容資料 {#request}
+## 在邊緣決策請求中傳遞內容資料 {#request}
 
 ### 端點
 

@@ -6,10 +6,10 @@ description: 最新資訊
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 >[!ENDTABS]
 
-## 發行說明和文件更新
+## 發行說明和檔案更新
 
 :::: landing-cards-container
 :::

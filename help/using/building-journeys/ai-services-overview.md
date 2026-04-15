@@ -10,14 +10,14 @@ level: Intermediate
 keywords: 人工， AI，智慧，歷程，服務
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
-# 與 Intelligent Services 整合 {#ai-overview}
+# 與智慧型服務整合 {#ai-overview}
 
 與&#x200B;**[!DNL Adobe Intelligent Services]**&#x200B;的整合可讓您針對客戶體驗使用案例運用人工智慧和機器學習。 這可讓行銷分析人員使用商業層級設定，針對公司需求設定量身打造的預測，而不需要資料科學的專業知識。
 

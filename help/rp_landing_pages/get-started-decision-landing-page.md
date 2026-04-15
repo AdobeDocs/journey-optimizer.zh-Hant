@@ -6,10 +6,10 @@ description: 開始使用決策管理
 redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="舊版" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管道，在完美的時刻向客戶提供適當的個人化產品建議。結合集中式產品建議庫與強大的決策引擎，您可以根據唯一的輪廓和業務規則量身打造訊息。無論您是定義適用性條件、管理遞補選項，還是排列產品建議的優先位置，此流程皆已簡化且直觀。本節介紹關鍵元件 (從建立產品建議與集合，到將決定整合至行銷活動)，讓您能夠製作有意義的體驗，與客群產生共鳴並提高參與度。
 
-## 開始使用決策管理
+## 開始使用決定管理
 
 :::: landing-cards-container
 :::

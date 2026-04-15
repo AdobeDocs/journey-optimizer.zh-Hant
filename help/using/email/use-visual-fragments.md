@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 1%
@@ -86,7 +86,7 @@ ht-degree: 1%
 >
 >**建議的方法：**&#x200B;當您在電子郵件中使用多個具有動態內容的片段時，請在電子郵件層級將每個片段直接新增到自己的結構區塊中。 這可確保正常運作並防止上述問題。
 
-## 具有動態內容的片段的最佳實務 {#fragment-best-practices}
+## 具有動態內容之片段的最佳實務 {#fragment-best-practices}
 
 使用視覺片段和動態內容（條件式內容）時，請遵循下列最佳作法：
 

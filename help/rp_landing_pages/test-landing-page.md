@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 測試、驗證、核准、品質保證、QA、測試輪廓、個人化、轉譯、垃圾郵件檢查、內容實驗、a/b 測試、衝突偵測、種子清單、校樣、範例資料、核准工作流程、電子郵件測試、驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2328'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 此登陸頁面可協助您根據正在建立的內容 (行銷活動與歷程) 選擇正確的測試方法，引導您完成建議的測試工作流程，並可讓您快速存取所有測試和核准資源。從[選擇下面的測試方法](#choose-your-testing-approach)開始，以識別哪些工具適用於您的使用案例。如需關鍵測試術語的定義，請參閱[關鍵術語](#key-terminology)。
 
-## 測試並核准內容
+## 測試和核准內容
 
 :::: landing-cards-container
 :::
@@ -56,7 +56,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -451,7 +451,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：啟動行銷活動之前需要進行哪些測試？**
 
-**最基本做法：**使用測試輪廓進行內容預覽 + 垃圾郵件分數檢查 (電子郵件)
+**最基本做法：**&#x200B;使用測試輪廓進行內容預覽 + 垃圾郵件分數檢查 (電子郵件)
 **建議做法：** + 電子郵件轉譯 + 衝突偵測 + 核准工作流程
 **最佳做法：** + 範例輸入資料測試 + 種子清單 + A/B 實驗 (如果最佳化)
 
@@ -467,25 +467,25 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 +++**問：歷程的測試模式與試運行之間有何差異？**
 
-**測試模式：**透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。需要草稿歷程 + 命名空間。
-**試運行：**追蹤執行路徑而不傳送任何內容。適用於任何歷程狀態。不傳送任何訊息，不執行任何動作。
+**測試模式：**&#x200B;透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。需要草稿歷程 + 命名空間。
+**試運行：**&#x200B;追蹤執行路徑而不傳送任何內容。適用於任何歷程狀態。不傳送任何訊息，不執行任何動作。
 **搭配使用：**&#x200B;測試訊息的測試模式 + 驗證邏輯的試運行 - 完整的涵蓋範圍。
 
 +++
 
 +++**問：我可以在生產/即時狀態中測試歷程嗎？**
 
-**測試模式：**否 - 僅限草稿歷程
-**試運行：**是 - 適用於任何歷程狀態
-**內容預覽：**是 - 隨時預覽個別訊息
+**測試模式：**&#x200B;否 - 僅限草稿歷程
+**試運行：**&#x200B;是 - 適用於任何歷程狀態
+**內容預覽：**&#x200B;是 - 隨時預覽個別訊息
 **因應措施：**&#x200B;複製即時歷程並轉換為草稿狀態，進行完整測試模式驗證
 
 +++
 
 +++**問：哪些測試功能需要外部整合？**
 
-**電子郵件轉譯：**需要 Litmus 整合 (單獨授權)
-**其他所有功能：**內建至 Journey Optimizer，不需要其他整合
+**電子郵件轉譯：**&#x200B;需要 Litmus 整合 (單獨授權)
+**其他所有功能：**&#x200B;內建至 Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試輪廓需要即時客戶輪廓服務 (已包含)
 
 +++
@@ -493,8 +493,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 +++**問：如何測試 API 觸發的行銷活動？**
 
 **選項 1：**&#x200B;使用[行銷活動模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target-&quot;_blank&quot;} 進行程式設計測試
-**選項 2：**在 UI 中使用測試輪廓預覽內容
-**選項 3：**傳送校樣以測試電子郵件地址
+**選項 2：**&#x200B;在 UI 中使用測試輪廓預覽內容
+**選項 3：**&#x200B;傳送校樣以測試電子郵件地址
 **最佳做法：**&#x200B;結合所有這三項以進行全面驗證
 
 +++

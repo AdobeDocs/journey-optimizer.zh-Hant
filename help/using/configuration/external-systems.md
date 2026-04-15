@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 20%
@@ -37,7 +37,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 ## 上限和節流API {#capping}
 
-### 關於上限和節流API
+### 關於上限和節流api
 
 當設定資料來源或動作時，您需建立與系統的連線，以擷取要用於歷程的其他資訊，或傳送訊息或 API 呼叫。
 

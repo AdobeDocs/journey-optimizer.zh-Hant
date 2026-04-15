@@ -5,10 +5,10 @@ title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 
 建立 LINE 訊息之前，請先使用 Journey Optimizer，設定好 LINE 頻道。[了解更多](../using/line/line-configuration.md)。
 
-## LINE 管道文件
+## LINE頻道檔案
 
 :::: landing-cards-container
 

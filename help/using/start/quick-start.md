@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -109,7 +109,7 @@ Journey Optimizer 提供兩種協調方法，以符合不同的行銷需求：
 
 [行銷人員快速入門 →](path/marketer.md)
 
-### 針對資料工程師 {#for-data-engineers}
+### 適用於資料工程師 {#for-data-engineers}
 
 身為資料架構師或工程師，您需要設定和維護客戶輪廓資料，以及其他支援 Journey Optimizer 所協調體驗的資料來源。
 

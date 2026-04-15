@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯誤
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -71,7 +71,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ![未顯示傳入訊息的疑難排解工作流程：檢查歷程、邊緣傳遞及設定檔](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### 步驟1：檢查裝置/使用者端是否從Edge Network接收內容 {#step-1}
+### 步驟1：檢查裝置/使用者端是否正從Edge網路接收內容 {#step-1}
 
 首先，檢查裝置/使用者端是否取得預期的內容。
 
@@ -99,7 +99,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!ENDTABS]
 
-### 步驟2：檢查Edge Network是否傳回內容 {#step-2}
+### 步驟2：檢查Edge網路是否傳回內容 {#step-2}
 
 此步驟旨在確保Edge Network傳回預期要在裝置/使用者端上轉譯的輸入內容。
 
@@ -131,7 +131,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### 步驟3：檢查「joai」對象會籍是否已傳播至Edge Network {#step-3}
+### 步驟3：檢查「joai」對象會籍是否已傳播至Edge網路 {#step-3}
 
 此步驟是驗證當設定檔進入傳入歷程動作，且該設定檔符合對應&#x200B;**joai**&#x200B;區段的資格時，Edge設定檔是否已正確更新。
 

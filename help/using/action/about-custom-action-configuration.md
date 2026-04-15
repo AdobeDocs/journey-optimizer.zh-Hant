@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2022'
 ht-degree: 14%
@@ -153,7 +153,7 @@ ht-degree: 14%
    >
    >標頭會根據欄位剖析規則進行驗證。 深入瞭解[此檔案](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}。
 
-## 傳輸安全層 {#tls}
+## 傳輸安全性層 {#tls}
 
 ### TLS通訊協定支援 {#tls-protocol-support}
 

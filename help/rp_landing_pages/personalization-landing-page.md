@@ -5,10 +5,10 @@ title: 個人化
 description: 個人化
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和內容資料，動態自訂內容，以製作量身打造且具影響力的客戶體驗。無論您是建立個人化電子郵件、通知還是產品建議，提供的工具和技巧可讓您輕鬆地在正確的時間將正確的訊息連結到正確的人。了解個人化編輯器、Handlebars 語法和 Adobe Experience Platform 資料如何搭配運作，將您的想法化為現實，探索具有運算式片段的可重複使用內容區塊，並探索進階協助程式函式，以解鎖更深入的可能性。每個主題都會逐步建置您的技能，確保您已準備好充滿信心地設計個人化歷程。
 
-## 個人化功能與指南
+## Personalization功能與指南
 
 :::: landing-cards-container
 :::

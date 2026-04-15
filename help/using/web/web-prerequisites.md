@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 10%
@@ -64,7 +64,7 @@ ht-degree: 10%
 >
 >Google Chrome和Microsoft Edge目前是僅有的支援[!DNL Journey Optimizer]網頁製作功能的瀏覽器。
 
-### 安裝Visual Editing Helper擴充功能 {#install-visual-editing-helper}
+### 安裝視覺化編輯協助程式擴充功能 {#install-visual-editing-helper}
 
 若要下載並安裝Visual Editing Helper瀏覽器擴充功能，請遵循下列步驟。
 

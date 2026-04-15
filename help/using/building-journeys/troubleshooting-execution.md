@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 11%
@@ -141,7 +141,7 @@ ht-degree: 11%
 
 請利用本節瞭解為什麼重複列會出現在歷程步驟事件中。
 
-### 為什麼會看到具有相同歷程例項、設定檔、節點和請求ID的多個專案？
+### 為什麼會看到多個具有相同歷程例項、設定檔、節點和請求ID的專案？
 
 查詢歷程步驟事件資料時，您可能會偶爾觀察同一歷程執行的重複記錄專案。 這些專案會針對以下專案共用相同的值：
 

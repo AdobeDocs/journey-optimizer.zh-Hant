@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 對於[!DNL Adobe Journey Optimizer]，儀表板可讓您檢查&#x200B;**可參與的設定檔**&#x200B;的數量。
 
-## 什麼是可參與設定檔？ {#what-is-engageable-profile}
+## 什麼是可參與的設定檔？ {#what-is-engageable-profile}
 
 **可參與的設定檔**&#x200B;是代表個人資訊的記錄，該資訊儲存在設定檔服務中，且已由歷程或行銷活動參與。
 
