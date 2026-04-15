@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 動態內容快速入門
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動態內容可讓您建立能順暢地因應客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 如何在 Adobe Journey Optimizer 中建立動態內容
 

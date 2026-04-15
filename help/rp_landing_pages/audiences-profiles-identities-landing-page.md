@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=zh-Hant)
 
 身分快速入門
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 授權使用情況儀表板
 
