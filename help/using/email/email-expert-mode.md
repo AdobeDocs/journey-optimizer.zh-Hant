@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
 
-**進階HTML編輯器**&#x200B;是專家模式，可讓您直接在&#x200B;****&#x200B;電子郵件Designer[!DNL Journey Optimizer]中檢視及編輯[電子郵件內容](get-started-email-design.md)的原始HTML來源 — 無論您是[為歷程、行銷活動設計電子郵件](content-from-scratch.md)，或是編輯[電子郵件內容範本](../content-management/create-content-templates.md)。
+**進階HTML編輯器**&#x200B;是專家模式，可讓您直接在&#x200B;**&#x200B;**&#x200B;電子郵件Designer[!DNL Journey Optimizer]中檢視及編輯[電子郵件內容](get-started-email-design.md)的原始HTML來源 — 無論您是[為歷程、行銷活動設計電子郵件](content-from-scratch.md)，或是編輯[電子郵件內容範本](../content-management/create-content-templates.md)。
 
 此功能可讓您直接在來源中插入進階運算式（例如條件）。 當您切換回視覺（案頭）檢視時，內容會重新呈現，因此您可以檢查內容外觀，並繼續在任一檢視中進行編輯。
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
    ![電子郵件Designer工具列中HTML按鈕的位置](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **[!UICONTROL 以繼續。]**&#x200B;[了解更多](#guardrails)
 
    ![第一次開啟進階HTML編輯器時出現警告對話方塊](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
