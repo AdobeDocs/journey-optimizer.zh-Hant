@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 9450ff7b477ef3ef6825eb2c2feec77ffaec389f
+source-git-commit: 541e7c8b9969188fc4a7d51187e3d0703a4303ec
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1330'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 >
 >藉由使用Adobe Journey Optimizer MCP Server (Beta) (「Beta」)，您在此確認Beta係依&#x200B;**「原樣」提供，並無任何保固**。 Adobe沒有義務維護、更正、更新、變更、修改或以其他方式支援Beta。 建議您謹慎使用，切勿依賴這類Beta及/或隨附資料的正確運作或效能。 Beta視為Adobe的機密資訊。 任何「意見回饋」（有關Beta的資訊，包括但不限於您在使用Beta時遇到的問題或缺陷、建議、改進和建議）會在此指派給Adobe，包括所有權利、標題，以及對此等意見回饋的興趣。
 
-[!DNL Adobe Journey Optimizer] MCP整合可讓您使用純語言提示來查詢行銷活動、歷程和優惠方案，而不需要撰寫API呼叫或導覽產品熒幕。 此頁面說明整合的運作方式、您可以執行哪些操作，以及如何開始使用。
+[!DNL Adobe Journey Optimizer] MCP整合可讓您使用純語言提示來查詢行銷活動和優惠方案，而不需撰寫API呼叫或導覽產品熒幕。 此頁面說明整合的運作方式、您可以執行哪些操作，以及如何開始使用。
 
 >[!AVAILABILITY]
 >
@@ -36,17 +36,17 @@ ht-degree: 1%
 
 行銷和客戶體驗團隊越來越仰賴聊天式應用程式和開發人員工具（例如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）來簡化日常工作。 這些應用程式支援&#x200B;**模型內容通訊協定(MCP)**，這是開放標準，可讓應用程式以統一的方式將後端工具公開給大型語言模型(LLM)。
 
-[!DNL Adobe Journey Optimizer]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現行銷活動、歷程、忠誠度和沙箱作業。 透過[!DNL Adobe Journey Optimizer] MCP整合，不同的角色可以圍繞相同的協調流程資料共同作業，而不需要針對[!DNL Adobe Journey Optimizer] REST API撰寫查詢，或導覽多個UI熒幕。 客戶可以用對話方式描述他們的意圖，讓LLM叫用適當的MCP工具。
+[!DNL Adobe Journey Optimizer]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現行銷活動、忠誠度和沙箱作業。 透過[!DNL Adobe Journey Optimizer] MCP整合，不同的角色可以圍繞相同的協調流程資料共同作業，而不需要針對[!DNL Adobe Journey Optimizer] REST API撰寫查詢，或導覽多個UI熒幕。 客戶可以用對話方式描述他們的意圖，讓LLM叫用適當的MCP工具。
 
 ## 主要功能 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP伺服器可讓您直接從AI助理檢查、摘要和疑難排解歷程、行銷活動和選件。 所有作業都是&#x200B;**唯讀** — MCP伺服器介面會擷取API作為純語言回答，因此您可以：
+[!DNL Adobe Journey Optimizer] MCP伺服器可讓您直接從AI助理檢查、摘要和疑難排解行銷活動和選件。 所有作業都是&#x200B;**唯讀** — MCP伺服器介面會擷取API作為純語言回答，因此您可以：
 
 <!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
-* **立即取得行銷活動可見度** — 以簡單語言詢問行銷活動狀態、歷程績效或頻道設定，並立即取得解答，無需導覽功能表或手動提取報告。
+* **立即取得行銷活動可見度** — 以簡單語言詢問行銷活動狀態和管道設定，並立即取得解答，無需瀏覽功能表或手動提取報告。
 * **提早發現問題** — 表面停止行銷活動、孤立草稿，以及您提出要求的頻道設定問題，讓您的團隊可以快速採取行動。
 * **圍繞即時資料共同作業** — 行銷人員、行銷活動經理和利害關係人可以透過其AI助理查詢相同的即時[!DNL Adobe Journey Optimizer]資料，更輕鬆地保持一致、決定和移動。
-* **稽核您的協調流程組合** — 檢閱行銷活動和歷程的完整狀態，而不需要剖析JSON或跨產品畫面跳轉。
+* **稽核您的協調流程產品組合** — 檢閱行銷活動的完整狀態，而不剖析JSON或跨產品畫面跳躍。
 
 ## 可用的工具 {#mcp-tools}
 
@@ -56,7 +56,6 @@ ht-degree: 1%
 |---|---|
 | **列出行銷活動** | 瀏覽您的[!DNL Adobe Journey Optimizer]行銷活動。 支援依狀態篩選（草稿、即時、已停止、已完成）。 |
 | **取得行銷活動** | 依ID擷取特定行銷活動的完整詳細資料和設定，包括對象目標定位、排程、頻道和內容設定。 |
-| **列出歷程** | 檢視您的[!DNL Adobe Journey Optimizer]客戶歷程（自動化工作流程），並可選用依狀態篩選：「草稿」、「即時」、「已關閉」或「已完成」。 |
 | **列出頻道設定** | 檢視電子郵件、簡訊、推播或WhatsApp頻道的表面預設集和品牌設定。 |
 
 >[!NOTE]
@@ -75,7 +74,6 @@ ht-degree: 1%
 | **對象和目標** | 「行銷活動[ID]的目標對象為何？」 / 「促銷活動[ID]上設定了哪些適用性規則？」 |
 | **排程與時間** | 「行銷活動[ID]何時排定執行？」 / 「促銷活動[ID]是單次傳送還是週期性？」 |
 | **疑難排解** | 「為什麼行銷活動[ID]不會傳送？」 /「檢閱行銷活動[ID]的設定是否有任何問題。」 |
-| **歷程詳細目錄** | 「列出所有即時歷程」/「以草稿狀態顯示歷程」。 |
 | **管道設定** | 「我的沙箱中有哪些管道預設集可用？」 / 「顯示我所有的電子郵件通道設定。」 |
 | **管道稽核** | 「哪些管道設定遺漏或不完整？」 / 「我跨所有管道有多少管道設定？」 |
 
@@ -85,7 +83,7 @@ ht-degree: 1%
 
 * 您有使用中的[!DNL Adobe Journey Optimizer]授權。
 * 您可以存取支援的MCP相容應用程式（目前為Claude Web或Claude Desktop）。
-* 您在[!DNL Adobe Journey Optimizer]中擁有檢視行銷活動、歷程和優惠方案的必要許可權。
+* 您在[!DNL Adobe Journey Optimizer]中擁有檢視行銷活動和優惠方案的必要許可權。
 
 ## 連線[!DNL Adobe Journey Optimizer] MCP伺服器 {#mcp-connect}
 
@@ -126,7 +124,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++我可以透過MCP存取哪些[!DNL Adobe Journey Optimizer]物件？
 
-您可以存取行銷活動、歷程、優惠方案、忠誠度資料和沙箱資訊。 操作是唯讀的（擷取API）；目前版本不支援寫入操作。
+您可以存取行銷活動、優惠方案、忠誠度資料和沙箱資訊。 操作是唯讀的（擷取API）；目前版本不支援寫入操作。
 +++
 
 +++我需要開發人員存取權才能使用[!DNL Adobe Journey Optimizer] MCP伺服器嗎？
@@ -141,7 +139,7 @@ Step-by-step connection instructions to be added here, including:
 
 +++我在[!DNL Adobe Journey Optimizer]中需要哪些許可權？
 
-您要查詢的物件（行銷活動、歷程或選件）至少需要&#x200B;**檢視**&#x200B;許可權。 不需要寫入許可權，因為MCP伺服器只會執行讀取作業。 如果您不確定目前的存取層級，請連絡您的[!DNL Adobe Journey Optimizer]系統管理員。
+您要查詢的物件（促銷活動或優惠方案）至少需要&#x200B;**檢視**&#x200B;許可權。 不需要寫入許可權，因為MCP伺服器只會執行讀取作業。 如果您不確定目前的存取層級，請連絡您的[!DNL Adobe Journey Optimizer]系統管理員。
 +++
 
 +++我可以在沙箱環境中使用MCP伺服器嗎？

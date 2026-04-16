@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 434480b9ea30ab456e97c2cf281adb1253b8f73d
+source-git-commit: 541e7c8b9969188fc4a7d51187e3d0703a4303ec
 workflow-type: tm+mt
-source-wordcount: '3206'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -507,7 +507,7 @@ ht-degree: 91%
       + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[可用的廠商](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[透過MCP使用AI工具 — 隱藏](/help/using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
