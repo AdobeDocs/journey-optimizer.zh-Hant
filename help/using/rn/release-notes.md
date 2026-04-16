@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 20%
+source-wordcount: '2510'
+ht-degree: 19%
 
 ---
 
@@ -138,6 +138,10 @@ ht-degree: 20%
   推出日期： 2026年4月14日
 
 #### 電子郵件設計
+
+* 電子郵件Designer **中個人化運算式的** AI助理 — 個人化運算式的AI助理現在也可直接從Email Designer中的內嵌編輯體驗取得。 編輯文字元件時，按一下[使用人工智慧產生]，在內嵌編輯彈出視窗中產生&#x200B;**，以純文字描述您需要的個人化、檢閱產生的運算式，並在不離開Email Designer的情況下插入它。**&#x200B;[了解更多](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  推出日期： 2026年4月15日
 
 * **電子郵件內容的進階HTML編輯器** — 進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。
 
