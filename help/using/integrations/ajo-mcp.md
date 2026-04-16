@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 >
 >藉由使用Adobe Journey Optimizer MCP Server (Beta) (「Beta」)，您在此確認Beta係依&#x200B;**「原樣」提供，並無任何保固**。 Adobe沒有義務維護、更正、更新、變更、修改或以其他方式支援Beta。 建議您謹慎使用，切勿依賴這類Beta及/或隨附資料的正確運作或效能。 Beta視為Adobe的機密資訊。 任何「意見回饋」（有關Beta的資訊，包括但不限於您在使用Beta時遇到的問題或缺陷、建議、改進和建議）會在此指派給Adobe，包括所有權利、標題，以及對此等意見回饋的興趣。
 
+[!DNL Adobe Journey Optimizer] MCP整合可讓您使用純語言提示來查詢行銷活動、歷程和優惠方案，而不需要撰寫API呼叫或導覽產品熒幕。 此頁面說明整合的運作方式、您可以執行哪些操作，以及如何開始使用。
+
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP伺服器目前只能在&#x200B;**Claude Web**&#x200B;和&#x200B;**Claude Desktop**&#x200B;中使用。 未來版本將新增對其他MCP相容應用程式的支援。
-
-[!DNL Adobe Journey Optimizer] MCP整合可讓您使用純語言提示來查詢行銷活動、歷程和優惠方案，而不需要撰寫API呼叫或導覽產品熒幕。 此頁面說明整合的運作方式、您可以執行哪些操作，以及如何開始使用。
 
 ## 什麼是模型內容通訊協定？ {#mcp-overview}
 
