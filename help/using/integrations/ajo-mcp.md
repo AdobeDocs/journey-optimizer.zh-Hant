@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] MCP伺服器可讓您直接從AI助理檢查、摘要和疑難排解歷程、行銷活動和選件。 所有作業都是&#x200B;**唯讀** — MCP伺服器介面會擷取API作為純語言回答，因此您可以：
 
-* **瞭解歷程邏輯** — 取得任何歷程分支、條件和動作的人類可讀摘要。
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
 * **檢查行銷活動整備** — 識別防止行銷活動發佈的封鎖程式。
 * **點狀涵蓋範圍差距** — 檢視哪些頻道涵蓋您的即時歷程和行銷活動，以及哪些頻道存在差距。
 * **稽核您的協調流程組合** — 檢閱行銷活動和歷程的完整狀態，而不需要剖析JSON或跨產品畫面跳轉。
@@ -49,7 +49,7 @@ ht-degree: 1%
 | **清查與狀態稽核** | 「我們有什麼，處於什麼狀態？ 顯示行銷活動的即時與草稿計數，以及已完成/已停止/已封存的計數。」 |
 | **檢查發佈整備** | 「為什麼campaign cmp456尚未準備好發佈？ 給我看看封鎖程式。」 |
 | **比較物件** | 「比較行銷活動abc123與xyz789 — 狀態和排程有什麼改變？」 |
-| **稽核您的投資組合** | 「所有即時歷程與行銷活動，涵蓋哪些管道，以及差距在哪裡？」 |
+| **稽核您的投資組合** | 「所有即時行銷活動中，涵蓋哪些管道？差距在哪裡？」 |
 | **頻道涵蓋範圍與組合** | 「顯示歷程、行銷活動和優惠方案位置的頻道足跡 — 僅限電子郵件與多頻道、推播/簡訊/應用程式內使用，以及歷程頻道之間的不相符專案。」 |
 
 ## 先決條件 {#mcp-prerequisites}
