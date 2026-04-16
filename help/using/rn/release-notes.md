@@ -139,7 +139,7 @@ ht-degree: 19%
 
 #### 電子郵件設計
 
-* 電子郵件Designer **中個人化運算式的** AI助理 — 個人化運算式的AI助理現在也可直接從Email Designer中的內嵌編輯體驗取得。 編輯文字元件時，按一下[使用人工智慧產生]，在內嵌編輯彈出視窗中產生&#x200B;**，以純文字描述您需要的個人化、檢閱產生的運算式，並在不離開Email Designer的情況下插入它。**[了解更多](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* 電子郵件Designer **中個人化運算式的** AI助理 — 個人化運算式的AI助理現在也可直接從Email Designer中的內嵌編輯體驗取得。 編輯文字元件時，按一下[使用人工智慧產生]，在內嵌編輯彈出視窗中產生&#x200B;**，以純文字描述您需要的個人化、檢閱產生的運算式，並在不離開Email Designer的情況下插入它。**&#x200B;[了解更多](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   推出日期： 2026年4月15日
 
