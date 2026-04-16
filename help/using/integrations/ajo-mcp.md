@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用MCP使用者端
+title: 使用MCP使用者端(Beta)
 description: 瞭解如何使用MCP伺服器將Adobe Journey Optimizer連線至MCP使用者端
 feature: Integrations
 topic: Content Management, Artificial Intelligence
@@ -9,14 +9,22 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
+source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
 
-# 使用MCP使用者端 {#ajo-mcp}
+# 使用MCP使用者端(Beta) {#ajo-mcp}
+
+>[!CAUTION]
+>
+>**Beta檔案通知：**&#x200B;此檔案涵蓋Beta功能，不構成最終檔案。 此處描述的內容與Beta版本有關，且在正式發行前可能會有所變更。 Adobe不對本檔案的完整性或準確性發表任何宣告。
+>
+>© Adobe Inc.版權所有。 Adobe、Adobe標誌和Adobe Journey Optimizer是Adobe在美國和/或其他國家/地區的註冊商標或商標。
+>
+>藉由使用Adobe Journey Optimizer MCP Server (Beta) (「Beta」)，您在此確認Beta係依&#x200B;**「原樣」提供，並無任何保固**。 Adobe沒有義務維護、更正、更新、變更、修改或以其他方式支援Beta。 建議您謹慎使用，切勿依賴這類Beta及/或隨附資料的正確運作或效能。 Beta視為Adobe的機密資訊。 任何「意見回饋」（有關Beta的資訊，包括但不限於您在使用Beta時遇到的問題或缺陷、建議、改進和建議）會在此指派給Adobe，包括所有權利、標題，以及對此等意見回饋的興趣。
 
 >[!AVAILABILITY]
 >
@@ -35,9 +43,25 @@ ht-degree: 1%
 [!DNL Adobe Journey Optimizer] MCP伺服器可讓您直接從AI助理檢查、摘要和疑難排解歷程、行銷活動和選件。 所有作業都是&#x200B;**唯讀** — MCP伺服器介面會擷取API作為純語言回答，因此您可以：
 
 <!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
-* **檢查行銷活動整備** — 識別防止行銷活動發佈的封鎖程式。
-* **點狀涵蓋範圍差距** — 檢視哪些頻道涵蓋您的即時歷程和行銷活動，以及哪些頻道存在差距。
+* **立即取得行銷活動可見度** — 以簡單語言詢問行銷活動狀態、歷程績效或頻道設定，並立即取得解答，無需導覽功能表或手動提取報告。
+* **提早發現問題** — 表面停止行銷活動、孤立草稿，以及您提出要求的頻道設定問題，讓您的團隊可以快速採取行動。
+* **圍繞即時資料共同作業** — 行銷人員、行銷活動經理和利害關係人可以透過其AI助理查詢相同的即時[!DNL Adobe Journey Optimizer]資料，更輕鬆地保持一致、決定和移動。
 * **稽核您的協調流程組合** — 檢閱行銷活動和歷程的完整狀態，而不需要剖析JSON或跨產品畫面跳轉。
+
+## 可用的工具 {#mcp-tools}
+
+[!DNL Adobe Journey Optimizer] MCP伺服器公開下列工具：
+
+| 工具 | 說明 |
+|---|---|
+| **列出行銷活動** | 瀏覽您的[!DNL Adobe Journey Optimizer]行銷活動。 支援依狀態篩選（草稿、即時、已停止、已完成）。 |
+| **取得行銷活動** | 依ID擷取特定行銷活動的完整詳細資料和設定，包括對象目標定位、排程、頻道和內容設定。 |
+| **列出歷程** | 檢視您的[!DNL Adobe Journey Optimizer]客戶歷程（自動化工作流程），並可選用依狀態篩選：「草稿」、「即時」、「已關閉」或「已完成」。 |
+| **列出頻道設定** | 檢視電子郵件、簡訊、推播或WhatsApp頻道的表面預設集和品牌設定。 |
+
+>[!NOTE]
+>
+>所有工具均為唯讀。 目前的Beta版本不支援寫入操作（建立、更新或刪除物件）。
 
 ## 使用案例 {#mcp-use-cases}
 
@@ -45,12 +69,15 @@ ht-degree: 1%
 
 | 目標 | 範例提示 |
 |---|---|
-| **摘要行銷活動詳細資料** | 「取得行銷活動cmp456並摘要說明對象、排程、狀態和套件。」 |
-| **清查與狀態稽核** | 「我們有什麼，處於什麼狀態？ 顯示行銷活動的即時與草稿計數，以及已完成/已停止/已封存的計數。」 |
-| **檢查發佈整備** | 「為什麼campaign cmp456尚未準備好發佈？ 給我看看封鎖程式。」 |
-| **比較物件** | 「比較行銷活動abc123與xyz789 — 狀態和排程有什麼改變？」 |
-| **稽核您的投資組合** | 「所有即時行銷活動中，涵蓋哪些管道？差距在哪裡？」 |
-| **頻道涵蓋範圍與組合** | 「顯示歷程、行銷活動和優惠方案位置的頻道足跡 — 僅限電子郵件與多頻道、推播/簡訊/應用程式內使用，以及歷程頻道之間的不相符專案。」 |
+| **行銷活動概覽** | 「顯示所有AJO行銷活動」/「在AJO中設定了多少行銷活動？」 |
+| **狀態稽核** | 「哪些行銷活動目前處於上線狀態？」 / 「列出任何暫停或停止的行銷活動。」 |
+| **行銷活動詳細資料** | 「取得行銷活動[ID]的完整詳細資料」/「逐步說明行銷活動[ID]中設定的所有專案」。 |
+| **對象和目標** | 「行銷活動[ID]的目標對象為何？」 / 「促銷活動[ID]上設定了哪些適用性規則？」 |
+| **排程與時間** | 「行銷活動[ID]何時排定執行？」 / 「促銷活動[ID]是單次傳送還是週期性？」 |
+| **疑難排解** | 「為什麼行銷活動[ID]不會傳送？」 /「檢閱行銷活動[ID]的設定是否有任何問題。」 |
+| **歷程詳細目錄** | 「列出所有即時歷程」/「以草稿狀態顯示歷程」。 |
+| **管道設定** | 「我的沙箱中有哪些管道預設集可用？」 / 「顯示我所有的電子郵件通道設定。」 |
+| **管道稽核** | 「哪些管道設定遺漏或不完整？」 / 「我跨所有管道有多少管道設定？」 |
 
 ## 先決條件 {#mcp-prerequisites}
 
@@ -78,6 +105,17 @@ Step-by-step connection instructions to be added here, including:
 - How to configure the MCP server in Claude Desktop / Claude Web
 - How to authenticate
 -->
+
+## 已知限制(Beta) {#mcp-limitations}
+
+下列限制適用於[!DNL Adobe Journey Optimizer] MCP伺服器的目前Beta版本：
+
+| 限制 | 說明 | 因應措施 |
+|---|---|---|
+| **沒有參與或績效量度** | MCP伺服器不會公開任何報表資料。 工具不會傳回曝光數、點進率、轉換或傳遞統計資料。 | 針對量度使用AJO報表UI、CJA MCP或Adobe Analytics MCP。 AEP Query Service可使用行銷活動執行ID查詢原始事件資料。 |
+| **行銷活動清單分頁受到限制** | `List Campaigns`一律會傳回結果的第一頁（最多50個行銷活動，按字母排序）。 未套用位移和限制值，因此完整列舉對於大型沙箱而言是不切實際的。 | 如果行銷活動ID或名稱已知，請直接使用`Get Campaign`。 使用AJO UI來瀏覽和篩選完整清單。 |
+| **沒有依日期、頻道或排程的伺服器端篩選** | `List Campaigns`僅支援依狀態篩選。 伺服器端無法使用依發佈日期、排程日期、頻道或促銷活動型別篩選。 | 使用AJO UI行銷活動清單，此清單支援原生日期和管道篩選。 |
+| **無法擷取訊息內容** | 訊息內容工具會為所有頻道型別（電子郵件、程式碼型和其他型別）傳回HTTP 502。 訊息HTML、主旨行、個人化權杖和選件內容無法透過MCP擷取。 | 直接在AJO UI中的&#x200B;**行銷活動> [行銷活動] >內容**&#x200B;下檢視訊息內容和個人化權杖。 |
 
 ## 常見問題 {#mcp-faq}
 
@@ -110,5 +148,3 @@ Step-by-step connection instructions to be added here, including:
 
 可以。 MCP伺服器遵循您的[!DNL Adobe Journey Optimizer]沙箱設定。 您可以在提示中指定沙箱，或使用限定於特定沙箱的憑證連線，以查詢沙箱專屬的資料。
 +++
-
-結尾
