@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalization運算式的AI助理
-description: 瞭解如何使用Journey Optimizer中的AI助理從自然語言（從Personalization編輯器或電子郵件Designer工具列）產生個人化運算式。
+description: 瞭解如何在Journey Optimizer中使用AI助理從Personalization編輯器中的自然語言產生個人化運算式，以及新增運算式控制如何在電子郵件Designer中運作。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 2%
 
 [!UICONTROL AI小幫手]可協助您從純文字產生新的個人化、說明現有運算式的功能，並修正選取程式碼中的問題，讓您在語法和手動欄位探索上花費的時間更少。 您也可以重複選取或要求對話中的其他變更。 它有兩種提供方式：
 
-* **[!UICONTROL Personalization編輯器]** — 只要有編輯器可用（主旨行、本文和開啟它的其他欄位）。 如需瞭解在何處以及如何開啟編輯器，請參閱[新增個人化](../personalization/personalization-build-expressions.md#where)。
-* **電子郵件Designer** — 當您選取元件時，請使用內容工具列中的&#x200B;**[!UICONTROL 新增運算式]**&#x200B;在工具箱中開啟小幫手。 請參閱[從電子郵件Designer](#generate-email-designer)產生。
+* **[!UICONTROL Personalization編輯器]** — 只要跨管道（主旨列、內文和開啟此編輯器的其他欄位）有編輯器，即可使用。 這是AI輔助個人化的一般路徑。 如需瞭解在何處以及如何開啟編輯器，請參閱[新增個人化](../personalization/personalization-build-expressions.md#where)。
+* **電子郵件Designer工具列** — 當您在電子郵件Designer中編寫電子郵件時，請選取元件並在內容工具列中使用&#x200B;**[!UICONTROL 新增運算式]**&#x200B;在工具箱中開啟小幫手，而不先開啟完整的編輯器。 此進入點在電子郵件製作外部無法使用。 請參閱[從電子郵件Designer](#generate-email-designer)產生。
 
 如需更廣泛的AI助理設定和語言，請參閱[開始使用AI助理](gs-generative.md)。 如需個人化概念，請參閱[開始使用個人化](../personalization/personalize.md)。 如需提示性的想法，請參閱[AI提示最佳實務](ai-assistant-prompting-guide.md)。
 
@@ -63,9 +63,9 @@ ht-degree: 2%
 
    ![](assets/ai-perso-question.png)
 
-1. 產生運算式後，按一下&#x200B;**[!UICONTROL 顯示範例設定檔的預覽]**，檢視運算式如何以範例資料評估，並以JSON檢視相關的裝載。 針對此檢查，助理會產生一組有限的合成範例設定檔；這些設定檔不會儲存或儲存在您的組織中。
+1. 產生運算式後，按一下&#x200B;**[!UICONTROL 顯示範例設定檔的預覽]**，檢視運算式如何針對&#x200B;**one**&#x200B;綜合範例設定檔進行評估，並以JSON檢視相關的裝載。 預覽是&#x200B;**單一**&#x200B;點檢查，因此您可以確信您的程式碼會如預期般解析 — 它&#x200B;**不會**&#x200B;模擬多個收件者、各種資料或完整涵蓋範圍。 範例資料不會儲存或儲存在您的組織中。
 
-   如果您需要自訂或其他範例設定檔，請向助理描述您在討論中需要的內容，並在您的提示中加入關鍵字&#x200B;**preview**，以便為您的支票產生正確的預覽設定檔。
+   如果您需要調整樣本（例如，強調不同的屬性），請說明您在與助理的討論中需要什麼，並在您的提示中包含關鍵字&#x200B;**preview**。
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >其他預覽則用於特別檢查。 助理將調整為產生約一到五個設定檔，要求非常大的數字可能會導致要求失敗。
+   >請勿在此預期多個預覽列或完整的情況。 控制項刻意限製為&#x200B;**一個**&#x200B;範例評估，以進行快速程式碼檢查，而非多個設定檔中的部分涵蓋範圍。 要求不切實際的大型預覽集可能會導致請求失敗。
 
    +++
 
@@ -109,6 +109,10 @@ ht-degree: 2%
 
 ## 從電子郵件Designer工具列產生 {#generate-email-designer}
 
+>[!NOTE]
+>
+>此節僅適用於您在電子郵件Designer中編輯&#x200B;**電子郵件**&#x200B;內容時。 若是其他管道，請使用&#x200B;**[!UICONTROL Personalization編輯器]**。
+
 在電子郵件Designer中，您可以從內容工具列使用[!UICONTROL AI助理進行個人化運算式]，而不需先開啟完整的[!UICONTROL Personalization編輯器]。
 
 1. 在電子郵件Designer中，選取您要個人化的元件，然後按一下您要插入運算式的位置。
@@ -125,7 +129,7 @@ ht-degree: 2%
 
    您可以：
 
-   * 使用範例值驗證運算式輸出 — 使用&#x200B;**[!UICONTROL 預覽]**&#x200B;標籤。
+   * 用一個範例值驗證運算式輸出 — 使用&#x200B;**[!UICONTROL 預覽]**&#x200B;標籤。
    * 從相同的提示產生另一個建議 — 使用&#x200B;**[!UICONTROL 重新產生]**。
    * 清除討論並重新開始 — 使用&#x200B;**[!UICONTROL 重設]**。
    * 在完整編輯器中調整運算式 — 按一下![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg "編輯")圖示以開啟&#x200B;**[!UICONTROL Personalization編輯器]**。
