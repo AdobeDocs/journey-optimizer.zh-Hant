@@ -1,20 +1,19 @@
 ---
 title: 最佳化AI收件匣的電子郵件文字
-description: 調整Journey Optimizer中電子郵件的純文字層，以便在使用AI最佳化的電子郵件Designer中，AI輔助收件匣使用者端可在摘要郵件或擷取意圖時，使用您的優惠方案和CTA。
+description: 產生並調整您訊息的專屬版本，以便在使用AI最佳化的電子郵件Designer中，AI輔助收件匣使用者端可在摘要郵件或擷取意圖時，使用您的優惠方案和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# 最佳化AI收件匣的電子郵件文字 {#email-text-optimizer}
+# 針對AI收件匣最佳化電子郵件 {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer]隨附電子郵件通道功能，可協助您建構訊息的特定版本，以改善AI輔助收件匣體驗，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，讓他們能更準確地回答問題，並根據您的內容摘要郵件，獲得更好的結果。
 
