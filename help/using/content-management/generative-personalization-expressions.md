@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalization運算式的AI助理
-description: 瞭解如何在Journey Optimizer中使用AI助理，以從自然語言（從Personalization編輯器或內嵌在電子郵件Designer中）產生個人化運算式。
+description: 瞭解如何使用Journey Optimizer中的AI助理從自然語言（從Personalization編輯器或電子郵件Designer工具列）產生個人化運算式。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 1%
+source-wordcount: '979'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 ## 概觀 {#where-available}
 
-[!UICONTROL AI小幫手]可協助您從純文字產生新的個人化、說明現有運算式的功能，並修正選取程式碼中的問題，讓您在語法和手動欄位探索上花費的時間更少。 您也可以重複選取或要求對話中的其他變更。 它可從兩個進入點使用：
+[!UICONTROL AI小幫手]可協助您從純文字產生新的個人化、說明現有運算式的功能，並修正選取程式碼中的問題，讓您在語法和手動欄位探索上花費的時間更少。 您也可以重複選取或要求對話中的其他變更。 它有兩種提供方式：
 
 * **[!UICONTROL Personalization編輯器]** — 只要有編輯器可用（主旨行、本文和開啟它的其他欄位）。 如需瞭解在何處以及如何開啟編輯器，請參閱[新增個人化](../personalization/personalization-build-expressions.md#where)。
-* **電子郵件Designer內嵌文字編輯** — 直接從編輯文字元件時的內嵌編輯彈出視窗。 請參閱[從電子郵件Designer](#generate-email-designer)產生。
+* **電子郵件Designer** — 當您選取元件時，請使用內容工具列中的&#x200B;**[!UICONTROL 新增運算式]**&#x200B;在工具箱中開啟小幫手。 請參閱[從電子郵件Designer](#generate-email-designer)產生。
 
 如需更廣泛的AI助理設定和語言，請參閱[開始使用AI助理](gs-generative.md)。 如需個人化概念，請參閱[開始使用個人化](../personalization/personalize.md)。 如需提示性的想法，請參閱[AI提示最佳實務](ai-assistant-prompting-guide.md)。
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    ![](assets/ai-perso-access.png)
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。**&#x200B;**
+1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。****
 
    您也可以使用&#x200B;**[!UICONTROL 快速提示]**&#x200B;區段的現成提示，例如個人化問候語、促銷程式碼產生等等。
 
@@ -107,29 +107,27 @@ ht-degree: 1%
 
 1. 當您產生個人化運算式時，請按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以實作助理輸出。 它會取代您在個人化編輯器中選取的程式碼。 例如，如果您要求說明程式碼，套用將在描述其功能的運算式中新增註解。
 
-## 從電子郵件Designer產生 {#generate-email-designer}
+## 從電子郵件Designer工具列產生 {#generate-email-designer}
 
-個人化運算式的[!UICONTROL AI助理]也可直接從Email Designer中的內嵌編輯體驗取得，無需開啟完整的[!UICONTROL Personalization編輯器]。 產生的運算式會插入文字元件的游標位置。
+在電子郵件Designer中，您可以從內容工具列使用[!UICONTROL AI助理進行個人化運算式]，而不需先開啟完整的[!UICONTROL Personalization編輯器]。
 
-1. 在電子郵件Designer中，選取文字元件並開始內嵌編輯。
+1. 在電子郵件Designer中，選取您要個人化的元件，然後按一下您要插入運算式的位置。
 
-1. 以下列其中一種方式開啟內嵌個人化彈出視窗：
+1. 在內容工具列中按一下&#x200B;**[!UICONTROL 新增運算式]**。
 
-   * 在您要插入運算式的位置鍵入`{{` — 彈出視窗會自動開啟。
-   * 按一下&#x200B;**[!UICONTROL 使用AI在內嵌編輯彈出視窗中產生]** （如果已經開啟）。
+   ![](assets/ai-perso-add-expression.png)
 
-   ![](assets/ai-perso-email-entry.png)
+1. 會開啟一個工具箱，您可以在其中提示AI助理進行個人化。 輸入您需要的簡單語言，助理會建議設定檔欄位和其他符合提示的屬性，以便您更快建立運算式。
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式，然後按一下[產生]。**&#x200B;**
+1. 助理會產生運算式。
 
-1. 檢閱&#x200B;**[!UICONTROL 運算式]**&#x200B;標籤中的結果以檢視產生的運算式。
+   ![](assets/ai-perso-add-expression-insert.png)
 
-   切換至&#x200B;**[!UICONTROL 預覽]**&#x200B;標籤，檢視運算式如何使用範例設定檔值評估，以便您可以在插入輸出之前先驗證輸出。
+   您可以：
 
-   ![](assets/ai-perso-email-result.png)
+   * 使用範例值驗證運算式輸出 — 使用&#x200B;**[!UICONTROL 預覽]**&#x200B;標籤。
+   * 從相同的提示產生另一個建議 — 使用&#x200B;**[!UICONTROL 重新產生]**。
+   * 清除討論並重新開始 — 使用&#x200B;**[!UICONTROL 重設]**。
+   * 在完整編輯器中調整運算式 — 按一下![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg "編輯")圖示以開啟&#x200B;**[!UICONTROL Personalization編輯器]**。
 
-1. 按一下&#x200B;**[!UICONTROL 插入]**，在文字元件的游標位置套用運算式。 使用&#x200B;**[!UICONTROL 重新產生]**&#x200B;產生新建議，或使用&#x200B;**[!UICONTROL 重設]**&#x200B;重新開始。
-
->[!NOTE]
->
->內嵌電子郵件Designer彈出視窗中個人化運算式[!UICONTROL 工作階段的]AI助理與[!UICONTROL Personalization編輯器]中的工作階段無關。 關閉彈出視窗會清除交談。
+1. 當您對結果感到滿意時，請按一下&#x200B;**[!UICONTROL 插入]**，將運算式新增至您的內容。
