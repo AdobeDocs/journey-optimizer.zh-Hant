@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer]隨附電子郵件通道功能，可協助您建構訊息的特定版本，以改善AI輔助收件匣體驗，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，讓他們能更準確地回答問題，並根據您的內容摘要郵件，獲得更好的結果。
 
-您可以使用此功能來產生和調整訊息的專屬文字版本，這樣AI輔助收件匣體驗就更有可能呈現您想要的選件、行動號召和詳細資訊，而不是精簡的自動產生文字或不相關內容。
+您可以使用此功能來產生和調整訊息的專屬版本，這樣AI輔助收件匣體驗就更有可能呈現您想要的選件、行動號召和詳細資訊，而不是精簡自動產生的文字或不相關內容。
 
+<!--
 >[!NOTE]
 >
->此針對AI收件匣文字版本最佳化的版本，與訊息的預設或自訂純文字版本不同。 [了解更多](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## 運作方式 {#how-it-works}
 
