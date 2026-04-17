@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 4b56f4531d169e224f92fd08e6e2d03f7b1365a7
+source-git-commit: aebdc15b5ca46a2aa623c8c245f00c74a43c9bb2
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >**Beta檔案通知：**&#x200B;此檔案涵蓋Beta功能，不構成最終檔案。 此處描述的內容與Beta版本有關，且在正式發行前可能會有所變更。 Adobe不對本檔案的完整性或準確性發表任何宣告。
->
->© Adobe Inc.版權所有。 Adobe、Adobe標誌和Adobe Journey Optimizer是Adobe在美國和/或其他國家/地區的註冊商標或商標。
 >
 >藉由使用Adobe Journey Optimizer MCP Server (Beta) (「Beta」)，您在此確認Beta係依&#x200B;**「原樣」提供，並無任何保固**。 Adobe沒有義務維護、更正、更新、變更、修改或以其他方式支援Beta。 建議您謹慎使用，切勿依賴這類Beta及/或隨附資料的正確運作或效能。 Beta視為Adobe的機密資訊。 任何「意見回饋」（有關Beta的資訊，包括但不限於您在使用Beta時遇到的問題或缺陷、建議、改進和建議）會在此指派給Adobe，包括所有權利、標題，以及對此等意見回饋的興趣。
 
