@@ -9,9 +9,9 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 22%
 
 ---
@@ -51,9 +51,9 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 個人化編輯器中的AI助理 {#ai-personalization-expressions}
+## 個人化運算式的AI助理 {#ai-personalization-expressions}
 
-在&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;中，**[!UICONTROL AI小幫手]**&#x200B;可協助您從自然語言產生新的運算式、說明現有程式碼的作用，並修正選取範圍中的問題，然後在其符合您的意圖時套用輸出。
+在&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;中或從Email Designer工具列（**[!UICONTROL 新增運算式]**）中，**[!UICONTROL AI Assistant]**&#x200B;可協助您從自然語言產生新的運算式、說明現有程式碼的作用，並修正選取範圍中的問題，然後在其符合您的意圖時套用輸出。
 
 ![](../content-management/assets/ai-perso-generate.png)
 
