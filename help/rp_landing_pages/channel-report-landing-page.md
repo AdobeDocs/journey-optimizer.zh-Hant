@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的「所有期間報告」是了解行銷活動與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 設定報告資料來源
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的「所有期間報告」是了解行銷活動與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 排除原因
 

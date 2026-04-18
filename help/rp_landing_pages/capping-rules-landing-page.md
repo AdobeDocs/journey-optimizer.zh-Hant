@@ -22,7 +22,7 @@ ht-degree: 36%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用規則集
 
@@ -52,7 +52,7 @@ ht-degree: 36%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 設定無訊息時數
 

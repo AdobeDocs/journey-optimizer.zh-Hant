@@ -56,7 +56,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 歷程試運行
 
@@ -106,7 +106,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
 
 衝突偵測
 
