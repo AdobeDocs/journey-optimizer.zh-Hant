@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的函式
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 Journey Optimizer 資料集、相關使用案例的查詢範例
 
@@ -61,7 +61,7 @@ Journey Optimizer 資料集、相關使用案例的查詢範例
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 資料分析的 SQL 查詢範例
 

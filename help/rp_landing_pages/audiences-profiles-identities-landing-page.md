@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 客群管理和個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hant)
 
 輪廓：管理和最佳化客戶資料
 

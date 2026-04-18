@@ -50,7 +50,7 @@ Adobe Experience Platform 資料來源
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 設定外部資料來源
 
