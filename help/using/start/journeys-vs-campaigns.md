@@ -10,9 +10,9 @@ level: Beginner
 keywords: 歷程，行銷活動，已協調，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ ht-degree: 4%
 * 根據行為和事件進行即時決策
 * 等待活動建立個人化時間
 * 條件式分支會為每個設定檔建立唯一路徑
+* 內建的作用中接聽 — 在定義的時段內不動作也會觸發下一個步驟，而不僅僅是明確的事件。 [瞭解等待活動](../building-journeys/wait-activity.md)
+* 頻率限定 — 控制客戶可輸入或接收歷程訊息的頻率。 [瞭解歷程上限](../conflict-prioritization/journey-capping.md)
+* 依百分比分割對象 — 將設定檔劃分為隨機、以百分比為基礎的群組，以便跨歷程路徑執行A/B實驗。 [瞭解百分比分割](../building-journeys/condition-activity.md)
+* 測試模式 — 在發佈即時之前，使用測試設定檔驗證歷程邏輯和訊息傳送。 [瞭解測試模式](../building-journeys/testing-the-journey.md)
 
 **範例流程：**
 
@@ -212,6 +216,8 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 程式碼型 | ✅ | ✅ | ❌ | ❌ |
 | 內容卡 | ✅ | ✅ | ❌ | ❌ |
 | 直接郵件 | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### 進階功能
 
@@ -226,7 +232,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | 多實體資料 | ❌ | ❌ | ❌ | ✅ |
 | 精確的預先傳送計數 | ❌ | ❌ | ❌ | ✅ |
 | 隨選細分 | ❌ | ❌ | ❌ | ✅ |
-| 傳送時間最佳化 | ✅ | ✅ | ✅ | ✅ |
+| 傳送時間最佳化 | ✅ | ❌ | ❌ | ❌ |
 | A/B 測試 | ✅ | ✅ | ❌ | ❌ |
 | 核准工作流程 | ✅ | ✅ | ✅ | ❌ |
 
