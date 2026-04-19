@@ -9,18 +9,18 @@ role: User
 level: Beginner
 keywords: journey optimizer，什麼是ajo， adobe journey optimizer，開始使用，全通道，個人化，客戶歷程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
+source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 14%
 
 ---
 
-# 開始使用 Journey Optimizer {#cjm-gs}
+# 開始使用 Journey Optimizer {#ajo-gs}
 
 本頁會介紹Adobe Journey Optimizer：其功能、用途、主要功能，以及它如何融入Adobe Experience Platform架構。 這是新使用者建議使用的起點。
 
-## 什麼是 [!DNL Adobe Journey Optimizer]？{#about-cjm}
+## 什麼是 [!DNL Adobe Journey Optimizer]？{#about-ajo}
 
 [!DNL Adobe Journey Optimizer]是企業應用程式，可跨所有管道和接觸點建立及提供連線、情境式和個人化的客戶體驗。 它原生建置於[!DNL Adobe Experience Platform]，並運用統一的即時客戶設定檔、API優先的開放架構、集中式優惠決定和AI/ML功能。 Journey Optimizer可讓品牌從單一應用程式大規模協調排程行銷活動和即時事件觸發的通訊。 如此一來，有意義的品牌體驗就能提升客戶忠誠度和終身價值。
 
@@ -34,6 +34,27 @@ ht-degree: 14%
 
 You can also create audience-based campaigns to send messages.
 -->
+
+
+## 主要功能 {#key-capabilities}
+
+[!DNL Adobe Journey Optimizer] 是一款敏捷且可擴充的應用程式，可跨任何應用程式、裝置或頻道，建立及提供個人化、連線且及時的客戶體驗。
+
+![圖表顯示Journey Optimizer的三個核心功能區域：即時客戶分析和參與、現代全通路協調與執行，以及智慧決策和Personalization，全都建立在Adobe Experience Platform上。](assets/ajo-capabilities.png)
+
+主要功能包括：
+
+### Real-time Customer Insights &amp; Engagement
+
+整合式設定檔會融合客戶接觸點上所有來源的即時資料，包括行為、異動、財務和營運資料，以最佳化客戶在其時間內的個人和情境式體驗。 [瞭解設定檔與對象](../audience/get-started-profiles.md)
+
+### 現代全通路協調與執行
+
+在單一畫布上協調並最佳化1:1客戶參與和行銷推廣的客戶歷程，以協助品牌在客戶生命週期中提供更多價值。 在[!DNL Adobe Journey Optimizer]中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具（包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器）可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
+
+### 智慧型決策與Personalization
+
+品牌可套用集中決定，並整合人工智慧和機器學習，以在客戶體驗中設定預測性深入分析，更輕鬆自動化決策並大規模最佳化體驗。 決策可透過[!DNL Adobe Journey Optimizer]大規模提供跨頻道的集中式優惠。 [探索Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [探索AI功能](ai-features.md)
 
 
 ## 使用案例 {#use-cases}
@@ -103,27 +124,6 @@ You can also create audience-based campaigns to send messages.
 非行銷人員（例如營運團隊和客戶支援）可以使用[!DNL Adobe Journey Optimizer]來管理營運通知或監視上線流程。 例如，遊樂園：訪客下載行動應用程式作為其體驗的一部分：維護人員可以使用Journey Optimizer將因維護而關閉的騎行活動通知公園訪客。
 
 [建立您的第一個歷程](../building-journeys/journey-gs.md)
-
-
-## 主要功能 {#key-capabilities}
-
-[!DNL Adobe Journey Optimizer] 是一款敏捷且可擴充的應用程式，可跨任何應用程式、裝置或頻道，建立及提供個人化、連線且及時的客戶體驗。
-
-![圖表顯示Journey Optimizer的三個核心功能區域：即時客戶分析和參與、現代全通路協調與執行，以及智慧決策和Personalization，全都建立在Adobe Experience Platform上。](assets/ajo-capabilities.png)
-
-主要功能包括：
-
-### Real-time Customer Insights &amp; Engagement
-
-整合式設定檔會融合客戶接觸點上所有來源的即時資料，包括行為、異動、財務和營運資料，以最佳化客戶在其時間內的個人和情境式體驗。 [瞭解設定檔與對象](../audience/get-started-profiles.md)
-
-### 現代全通路協調與執行
-
-在單一畫布上協調並最佳化1:1客戶參與和行銷推廣的客戶歷程，以協助品牌在客戶生命週期中提供更多價值。 在[!DNL Adobe Journey Optimizer]中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具（包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器）可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
-
-### 智慧型決策與Personalization
-
-品牌可套用集中決定，並整合人工智慧和機器學習，以在客戶體驗中設定預測性深入分析，更輕鬆自動化決策並大規模最佳化體驗。 決策可透過[!DNL Adobe Journey Optimizer]大規模提供跨頻道的集中式優惠。 [探索Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [探索AI功能](ai-features.md)
 
 
 ## 可用性與授權 {#availability}
