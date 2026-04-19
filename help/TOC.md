@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + 基本要點 {#essentials}
       + [什麼是 Journey Optimizer？](using/start/get-started.md)
       + [了解其運作原理](using/start/understanding-ajo.md)
+      + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
       + [護欄與限制](using/start/guardrails.md)
    + 角色快速入門 {#by-role}
-      + [選擇您的學習路徑](using/start/quick-start.md)
-      + [行銷人員快速入門](using/start/path/marketer.md)
-      + [資料工程師快速入門](using/start/path/data-engineer.md)
+      + [角色與職責](using/start/quick-start.md)
       + [管理員快速入門](using/start/path/administrator.md)
+      + [資料工程師快速入門](using/start/path/data-engineer.md)
       + [開發人員快速入門](using/start/path/developer.md)
+      + [行銷人員快速入門](using/start/path/marketer.md)
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [AI 與智慧功能](using/start/ai-features.md)
+      + [疑難排解常見問題](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
