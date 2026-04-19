@@ -85,7 +85,7 @@ Journey Optimizer包含七個重要功能區域，可順暢地搭配運作：
 
 Journey Optimizer是原生建置在Adobe Experience Platform上的四個應用程式之一，另外還有Real-Time CDP、Customer Journey Analytics和Adobe Mix Modeler。 共用AEP的核心服務 — 即時客戶個人檔案、身分圖表、資料控管和查詢服務 — 因此可存取統一的客戶資料基礎，而不需要個別的整合。 Journey Optimizer可作為獨立應用程式操作，或與其他AEP原生應用程式相互操作。
 
-如需深入瞭解技術架構，包括整合模式、必要條件和系統資料流程，請參閱[Adobe Journey Optimizer藍圖](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。 如需實作考量，[檢閱護欄和限制](guardrails.md)。
+如需深入瞭解技術架構，包括整合模式、必要條件和系統資料流程，請參閱[Adobe Journey Optimizer藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。 如需實作考量，[檢閱護欄和限制](guardrails.md)。
 
 ## 隱私權與安全性 {#privacy-security}
 
