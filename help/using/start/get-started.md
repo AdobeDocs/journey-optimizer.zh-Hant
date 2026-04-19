@@ -162,7 +162,7 @@ Journey Optimizer 的核心功能和服務主要是按照 Adobe Experience Platf
 
 數位體驗藍圖提供系統、資料流程架構圖，以便協助您更加瞭解 Adobe Experience Platform、應用程式的整合和執行方式。藍圖有提供系統之間、元件資料與內容流程、操作順序、相依性等視覺化展現方案，以便協助告知 Adobe Experience Platform、應用程式的使用案例設計、架構。
 
-查看 [Adobe Journey Optimizer 藍圖](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+查看 [Adobe Journey Optimizer 藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]
