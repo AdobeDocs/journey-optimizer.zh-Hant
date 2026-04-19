@@ -5,10 +5,10 @@ title: 開始使用
 description: 開始使用 Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -140,7 +140,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
 
 疑難排解常見問題集
 
@@ -165,7 +165,7 @@ AI 與智慧功能
 * **[使用案例教戰手冊](../using/start/ai-features.md#playbooks)** - 針對捨棄購物車復原和歡迎行銷活動等常見案例，預先建立工作流程
 * **[監視與疑難排解](troubleshoot-journey-landing-page.md)** - 追蹤績效、識別問題和快速解決問題的工具
 * **[最新資訊](../using/rn/release-notes.md)** - 了解最新功能、改進和修正
-* **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
+* **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
 * **[文件更新](../using/rn/documentation-updates.md)** - 隨時了解文件的最新變更和新增內容
 
 ## 準備好開始使用了嗎？
@@ -175,7 +175,7 @@ AI 與智慧功能
 * **剛開始使用 Journey Optimizer？**&#x200B;首先學習[「什麼是 Journey Optimizer？」](../using/start/get-started.md)以了解基本知識
 * **知道您的角色嗎？**&#x200B;跳轉到符合您職責的[角色特定指南](../using/start/quick-start.md)
 * **想要探索嗎？**&#x200B;瀏覽 [AI 功能](../using/start/ai-features.md)或嘗試[使用案例教戰手冊](../using/start/ai-features.md#playbooks)
-* **需要協助嗎？**&#x200B;請檢視[疑難排解指南](../using/start/troubleshooting.md)或造訪[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **需要協助嗎？**&#x200B;請檢視[疑難排解指南](../using/start/troubleshooting.md)或造訪[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}
 
 ## 快速連結 {#quick-links}
 
