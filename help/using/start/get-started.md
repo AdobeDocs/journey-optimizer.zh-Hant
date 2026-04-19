@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: journey optimizer，什麼是ajo， adobe journey optimizer，開始使用，全通道，個人化，客戶歷程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
+source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 23%
+source-wordcount: '1216'
+ht-degree: 14%
 
 ---
 
@@ -40,80 +40,70 @@ You can also create audience-based campaigns to send messages.
 
 這些範例說明Journey Optimizer的功能如何跨不同角色、產業和管道搭配運作。
 
-| 使用案例 | 角色 | 核心功能 |
-|----------|------|----------------|
-| 延遲出貨復原 | 行銷人員 | [整合式設定檔+對象排除](../audience/get-started-profiles.md) |
-| 即時店內參與 | 行銷人員 | [地理圍欄觸發+推播](../push/get-started-push.md) |
-| 購物車放棄復原 | 行銷人員 | [事件觸發的多步驟歷程](../building-journeys/journey-gs.md) |
-| 串流服務歡迎系列 | 行銷人員 | [事件觸發的歡迎歷程](../building-journeys/journey-gs.md) |
-| 含指示的預訂提醒 | 行銷人員 | [已排程+位置感知訊息](../campaigns/get-started-with-campaigns.md) |
-| 主動式服務中斷通知 | 運作 | [大規模自動選取](../audience/about-audiences.md) |
-| AI支援的促銷活動 | 行銷人員 | [AI內容產生+實驗](ai-features.md) |
-| 透過行動應用程式維護警報 | 運作 | [非行銷協調流程](../building-journeys/journey-gs.md) |
+### 延遲出貨復原 {#uc-delayed-shipment}
 
-+++**延遲出貨復原（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [統一設定檔+對象排除](../audience/get-started-profiles.md)
 
 服裝商店通常會向上週購買過產品的所有客戶傳送購買後調查。 由於天氣惡劣，少數貨物出現延誤。 在發現有客戶尚未收到發貨後，服裝店可以將他們排除在定時傳送的客戶滿意度調查之外，而改為向他們傳送一封個人化電子郵件，對延誤表示歉意，並根據客戶過去的購買情況，為其提供產品建議和折扣代碼。
 
 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
-+++
+### 即時店內參與 {#uc-instore}
 
-+++**即時店內參與（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [地理圍欄觸發+推播](../push/get-started-push.md)
 
 同一retailer可以傳送推播通知，告訴對方符合客戶尺寸的毛衣已有庫存，以此吸引即時進入商店停車場的忠實客戶。
 
 [開始使用推播通知](../push/get-started-push.md)
 
-+++
+### 購物車放棄復原 {#uc-cart}
 
-+++**購物車放棄復原（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [事件觸發的多步驟歷程](../building-journeys/journey-gs.md)
 
 當客戶將商品新增到線上購物車但沒有完成購買就離開時，Journey Optimizer會即時偵測事件並自動開始復原歷程。 客戶會收到個人化電子郵件，提醒他們留意的專案。 如果他們沒有在24小時內點進，則會傳送後續推播通知 — 根據瀏覽記錄和忠誠度狀態進行個人化。
 
 [建立您的第一個歷程](../building-journeys/journey-gs.md)
 
-+++
+### 串流服務歡迎系列 {#uc-welcome}
 
-+++**串流服務歡迎系列（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [事件觸發的歡迎歷程](../building-journeys/journey-gs.md)
 
 當客戶訂閱串流服務時，Journey Optimizer會偵測註冊事件並立即開始多步驟歡迎歷程。 客戶會收到一封歡迎電子郵件，鼓勵他們第一次開啟應用程式。 如果48小時內未偵測到登入活動，則會傳送後續推播通知，其中包含根據註冊期間使用者宣告的興趣提供個人化內容建議，從第一天起，將被動訂閱者轉變為主動參與的使用者。
 
 [建立您的第一個歷程](../building-journeys/journey-gs.md)
 
-+++
+### 含指示的預訂提醒 {#uc-reservation}
 
-+++**預約提醒與路線（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [已排程+位置感知訊息](../campaigns/get-started-with-campaigns.md)
 
 旅館業品牌在每位客人預訂前的一小時及時傳送提醒。 通知包括來賓名稱、預訂時間，以及基於地點的地點地點地點導向 — 由客戶設定檔和預訂資料自動組合，行銷團隊無需手動操作。
 
 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
 
-+++
+### 主動式服務中斷通知 {#uc-outage}
 
-+++**主動式服務中斷通知（營運團隊）**
+**角色：**&#x200B;操作| **核心功能：** [大規模自動選取對象](../audience/about-audiences.md)
 
 當服務中斷發生時，Journey Optimizer會根據其帳戶資料和使用模式，自動識別受影響的客戶。 這些客戶會收到主動通知，確認問題並概述後續步驟，將潛在的負面體驗轉變為大規模提供的透明和信任時刻。
 
 [建立您的第一個歷程](../building-journeys/journey-gs.md)
 
-+++
+### AI支援的促銷活動 {#uc-ai-campaign}
 
-+++**AI支援的促銷活動（行銷人員）**
+**角色：**&#x200B;行銷人員| **核心功能：** [AI內容產生+實驗](ai-features.md)
 
 規劃產品推出的零售品牌會使用Journey Optimizer的AI助理，在幾分鐘內產生多個主旨行與正文變化（以自然語言提示及其上傳的品牌指導方針為指引）。 內建內容實驗會自動在初始受眾範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
 
 [探索AI和智慧型功能](ai-features.md) | [瞭解內容實驗](../content-management/experiment-accelerator-gs.md)
 
-+++
+### 透過行動應用程式維護警報 {#uc-maintenance}
 
-+++**透過行動應用程式（營運團隊）的維護警示**
+**角色：**&#x200B;操作| **核心功能：** [非行銷歷程協調](../building-journeys/journey-gs.md)
 
 非行銷人員（例如營運團隊和客戶支援）可以使用[!DNL Adobe Journey Optimizer]來管理營運通知或監視上線流程。 例如，遊樂園：訪客下載行動應用程式作為其體驗的一部分：維護人員可以使用Journey Optimizer將因維護而關閉的騎行活動通知公園訪客。
 
 [建立您的第一個歷程](../building-journeys/journey-gs.md)
 
-+++
 
 ## 主要功能 {#key-capabilities}
 
@@ -145,24 +135,7 @@ Adobe Experience Cloud 的一般隱私權准則和流程適用於 [!DNL Journey 
 
 ## 架構 {#architecture}
 
-在下圖中了解 [!DNL Adobe Journey Optimizer] 的基礎架構、整合點，以及 [!DNL Journey Optimizer] 和 [!DNL Experience Platform] 之間的關係。
-
-Adobe Experience Platform 是一款功能強大、靈活、開放且集中的資料基礎，可用來收集、標準化、管理、應用 AI 洞察力，並統一資料，以便提供服務周到且內容相關的數位客戶體驗。
-
-![圖表顯示Adobe Experience Platform作為基礎資料層，其上方有四個原生建置的應用程式：Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics和Adobe Mix Modeler。 Real-Time Customer Profile、資料控管和身分解析等共用服務是所有四個應用程式的基礎。](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
-
-以下四大應用程式都是透過原生方式，建構於體驗平台：Adobe 即時客戶資料平台、Journey Optimizer、客戶歷程分析和 Adobe Mix Modeler。
-
-Journey Optimizer 的核心功能和服務主要是按照 Adobe Experience Platform 的基礎元件運行，其中還包括即時客戶設定檔。雖然Journey Optimizer可順暢運作，且與Real-Time CDP和Customer Journey Analytics相互操作，但也可以獨立運作。
-
-![圖表顯示Journey Optimizer的內部架構及其與Adobe Experience Platform服務的整合點，包括資料擷取、即時客戶設定檔、決策引擎，以及跨電子郵件、推播、簡訊和網頁的傳出頻道傳遞。](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
-
-
-### Adobe Journey Optimizer 藍圖
-
-數位體驗藍圖提供系統、資料流程架構圖，以便協助您更加瞭解 Adobe Experience Platform、應用程式的整合和執行方式。藍圖有提供系統之間、元件資料與內容流程、操作順序、相依性等視覺化展現方案，以便協助告知 Adobe Experience Platform、應用程式的使用案例設計、架構。
-
-查看 [Adobe Journey Optimizer 藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+Journey Optimizer是以原生方式建置在Adobe Experience Platform上，可共用其資料基礎、身分圖表和治理服務 — 如需這些系統如何搭配運作的詳細逐步解說，請參閱[瞭解Journey Optimizer](understanding-ajo.md)。
 
 
 >[!MORELIKETHIS]
