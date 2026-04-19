@@ -9,7 +9,7 @@ role: Admin, Developer, User
 level: Beginner
 keywords: journey optimizer，運作方式，架構， experience platform，功能領域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Adobe Journey Optimizer和Adobe Experience Platform共同啟用大規模資料導向個人化。 此頁面說明這些系統如何運作，以及其主要功能區域如何結合，以提供卓越的客戶體驗。 [瞭解重要功能](get-started.md) | [探索重要術語](terminology.md)
 
-## Journey Optimizer如何運作 {#how-it-works}
+## Journey Optimizer的運作方式 {#how-it-works}
 
 沒有統一的資料基礎，品牌就不得不依賴多個管道專用工具，因此很難維持每個客戶的一致檢視或即時對其行為採取行動。 Journey Optimizer可透過在Adobe Experience Platform上建立架構，將客戶資料、內容建立和Journey Orchestration連結在單一連續系統中，藉此解決此問題。 其結果是有意義的品牌體驗，可提升客戶忠誠度和終身價值。
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer是以持續流程運作，收集、分析和套用資料
 
 ![圖表顯示Adobe Experience Platform作為基礎資料層，Journey Optimizer搭配Real-Time CDP、Customer Journey Analytics和Adobe Mix Modeler建置在頂端，所有共用核心服務，例如即時客戶個人檔案、資料控管和身分解析。](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform： Foundation {#aep-foundation}
+### Adobe Experience Platform：基礎 {#aep-foundation}
 
 Adobe Experience Platform作為骨幹，讓品牌得以集中客戶資料，並針對個人化體驗加以啟用：
 
@@ -85,7 +85,7 @@ Journey Optimizer包含七個重要功能區域，可順暢地搭配運作：
 
 Journey Optimizer是原生建置在Adobe Experience Platform上的四個應用程式之一，另外還有Real-Time CDP、Customer Journey Analytics和Adobe Mix Modeler。 共用AEP的核心服務 — 即時客戶個人檔案、身分圖表、資料控管和查詢服務 — 因此可存取統一的客戶資料基礎，而不需要個別的整合。 Journey Optimizer可作為獨立應用程式操作，或與其他AEP原生應用程式相互操作。
 
-如需深入瞭解技術架構，包括整合模式、必要條件和系統資料流程，請參閱[Adobe Journey Optimizer藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。 如需實作考量，[檢閱護欄和限制](guardrails.md)。
+如需深入瞭解技術架構，包括整合模式、必要條件和系統資料流程，請參閱[Adobe Journey Optimizer藍圖](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。 如需實作考量，[檢閱護欄和限制](guardrails.md)。
 
 ## 隱私權與安全性 {#privacy-security}
 
