@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: journey optimizer，什麼是ajo， adobe journey optimizer，開始使用，全通道，個人化，客戶歷程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 23%
@@ -162,7 +162,7 @@ Journey Optimizer 的核心功能和服務主要是按照 Adobe Experience Platf
 
 數位體驗藍圖提供系統、資料流程架構圖，以便協助您更加瞭解 Adobe Experience Platform、應用程式的整合和執行方式。藍圖有提供系統之間、元件資料與內容流程、操作順序、相依性等視覺化展現方案，以便協助告知 Adobe Experience Platform、應用程式的使用案例設計、架構。
 
-查看 [Adobe Journey Optimizer 藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
+查看 [Adobe Journey Optimizer 藍圖](https://experienceleague.adobe.com/zh-hant/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}。
 
 
 >[!MORELIKETHIS]
