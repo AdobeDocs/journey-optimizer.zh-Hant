@@ -24,7 +24,7 @@ Adobe Journey Optimizer可讓您透過單一應用程式，大規模地跨每個
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 什麼是 Journey Optimizer？
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizer可讓您透過單一應用程式，大規模地跨每個
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 了解其運作原理
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer可讓您透過單一應用程式，大規模地跨每個
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=zh-Hant)
 
 重要術語
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer可讓您透過單一應用程式，大規模地跨每個
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 AI 與智慧功能
 
@@ -71,7 +71,7 @@ AI 與智慧功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hant)
 
 針對行銷人員
 
@@ -81,7 +81,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 針對資料工程師
 
@@ -91,7 +91,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 針對管理員
 
@@ -101,7 +101,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
 
 針對開發人員
 
@@ -120,7 +120,7 @@ AI 與智慧功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 瀏覽介面
 
@@ -130,7 +130,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 搜尋與整理
 
