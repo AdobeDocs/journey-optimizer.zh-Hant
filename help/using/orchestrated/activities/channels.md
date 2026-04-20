@@ -5,10 +5,10 @@ title: 請在多步驟行銷活動中新增頻道活動
 description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 41%
+source-wordcount: '1769'
+ht-degree: 39%
 
 ---
 
@@ -90,6 +90,22 @@ UNUSED IDs in BJ
    ![影像顯示擁有電子郵件活動的畫布](../assets/channel-edit.png)
 
 1. 請在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入說明，然後切換至&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，以便設定活動。
+
+## 行銷與交易式訊息 {#marketing-vs-transactional}
+
+選擇正確的類別會決定傳遞訊息的方式以及套用哪些規則：
+
+| | 行銷 | 異動 |
+| --- | --- | --- |
+| **需要選擇加入** | 是 | 無 |
+| **業務規則** | 已套用（頻率限定、疲勞規則） | 已略過 |
+| **頻道設定型別** | 行銷管道設定 | 異動頻道設定 |
+| **典型使用案例** | 促銷活動、電子報、季節性行銷活動 | 訂單確認、密碼重設、中斷警報 |
+| **客群** | 僅限選擇加入的訂閱者 | 任何設定檔，不論選擇加入狀態為何 |
+
+>[!NOTE]
+>
+>僅將異動用於作業或時間敏感型通訊。 將促銷訊息錯誤分類為「異動」會略過同意和商業規則，這可能會違反法規要求。
 
 ## 設定頻道組態和設定 {#configuration}
 
