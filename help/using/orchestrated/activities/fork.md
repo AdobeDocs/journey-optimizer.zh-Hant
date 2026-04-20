@@ -5,10 +5,10 @@ title: 使用 [分支] 活動
 description: 瞭解如何在協調的行銷活動中使用分叉活動
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 47%
 
 ---
 
@@ -42,3 +42,16 @@ ht-degree: 86%
 1. 若想移除轉變，請按一下 ![](../assets/do-not-localize/Smock_Delete_18_N.svg) 圖示。
 
 1. 如有需要，請按一下&#x200B;**[!UICONTROL 新增轉變]**，以便新增額外的輸出轉變。
+
+## 範例 {#fork-examples}
+
+以下是&#x200B;**[!UICONTROL 分支]**&#x200B;活動的典型用法：使用兩個不同的電子郵件管道（一個行銷和一個異動）來鎖定相同的對象，以比較傳送行為。
+
+在&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動選取目標母體後，**[!UICONTROL 分支]**&#x200B;會建立兩個平行分支：
+
+* **分支1**&#x200B;連線至行銷電子郵件通道活動。 訊息會遵循標準商業規則，並僅傳送至選擇加入的設定檔。
+* **分支2**&#x200B;連線到異動電子郵件通道活動。 訊息會繞過商業規則，並傳遞至所有設定檔，無論選擇加入狀態為何。
+
+![](../assets/workflow-fork.png)
+
+此模式有助於瞭解管道類別設定如何影響傳送行為，以及在單一行銷活動執行中傳送不同訊息型別給相同對象。

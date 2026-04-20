@@ -6,10 +6,10 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ ht-degree: 94%
 
 * **工作表**：工作表包含轉變攜帶的所有資訊。每個協調的行銷活動會使用多個工作表。在這些表格中傳達的資料可以用於整個協調行銷活動的生命週期。
 
+典型的入門級協調行銷活動會遵循以下模式： **建立對象→分支→管道A +管道B**。
+
+此方法可讓您在單一行銷活動執行中，以兩個平行分支來鎖定相同對象，例如，一個分支使用行銷電子郵件，另一個分支使用交易式電子郵件。 每個分支都是獨立的，可以使用不同的通道設定、訊息內容或類別。
+
+➡️ [瞭解如何使用分叉活動](activities/fork.md)
+
+➡️ [瞭解行銷與交易式訊息](activities/channels.md#marketing-vs-transactional)
 
 ## 簡介影片 {#video-oc}
 

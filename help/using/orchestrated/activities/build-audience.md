@@ -5,10 +5,10 @@ title: 使用建置客群活動
 description: 瞭解如何在協調的行銷活動中使用建立對象活動
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 64%
 
 ---
 
@@ -54,3 +54,7 @@ ht-degree: 74%
 以下是含有兩個&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動的協調行銷活動範例。 首要目標是購物車中有加入專案的設定檔，然後才是電子郵件傳遞。 次要目標鎖定含有願望清單的設定檔，然後才是簡訊傳遞。
 
 ![](../assets/build-audience-2.png)
+
+在下列範例中，**[!UICONTROL 建立對象]**&#x200B;活動會使用規則產生器，依其訂閱計畫篩選設定檔。 在`plan`屬性上設定了條件，以便僅包含`plan = "basic"`的設定檔，在傳遞至下一個活動之前，將對象縮小為基本層級的訂閱者。
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

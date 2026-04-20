@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 71%
 
 ## 2026 年 4 月 {#april-2026}
 
+* **管道活動**&#x200B;檔案已更新，其中包含新的&#x200B;**行銷與異動訊息**&#x200B;區段，說明兩個管道類別之間的行為差異：選擇加入需求、商業規則應用程式、管道設定型別和建議的使用案例。 [閱讀全文](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* 已新增新的&#x200B;**範例**&#x200B;區段，以擴充&#x200B;**復本活動**&#x200B;檔案，說明如何使用復本活動在單一行銷活動執行中將對象分割到兩個平行電子郵件分支（一個行銷活動和一個異動）中。 [閱讀全文](../orchestrated/activities/fork.md#fork-examples)
+
+* **建置對象活動**&#x200B;檔案已新增一個範例，說明如何使用規則產生器依訂閱計畫屬性篩選設定檔，而更加豐富。 [閱讀全文](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* **開始使用協調的行銷活動**&#x200B;頁面會記錄入門層級&#x200B;**建立對象→在**&#x200B;中建立分支→管道A +管道B **模式。協調的行銷活動內含哪些內容？**，交叉參照至分叉活動以及行銷與異動訊息頁面。 [閱讀全文](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從「內容管理」區段移至檔案的&#x200B;**電子郵件**&#x200B;區段（在電子郵件設計底下），且頁面檔案已重新命名為&#x200B;**email-expert-mode.md**。 此頁面現在會記錄進階HTML編輯器可在電子郵件Designer中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
 
 * 更新&#x200B;**開始和監視協調的行銷活動**&#x200B;檔案，其中包含詳細說明內部發佈時間執行順序的新區段，以及行銷活動生命週期狀態表、發佈前檢查清單，以及非週期性行銷活動的傳送確認警告。 [閱讀全文](../orchestrated/start-monitor-campaigns.md#publication-sequence)
