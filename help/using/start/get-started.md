@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: journey optimizer，什麼是ajo， adobe journey optimizer，開始使用，全通道，個人化，客戶歷程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Adobe Experience Cloud 的一般隱私權准則和流程適用於 [!DNL Journey 
 Journey Optimizer是以原生方式建置在Adobe Experience Platform上，可共用其資料基礎、身分圖表和治理服務 — 如需這些系統如何搭配運作的詳細逐步解說，請參閱[瞭解Journey Optimizer](understanding-ajo.md)。
 
 
->[!MORELIKETHIS]
->
->* [開始的關鍵步驟](quick-start.md) — 適用於管理員、行銷人員和資料工程師的角色式快速入門手冊。
->* [開始使用資料管理](../data/gs-data.md) — 瞭解如何在Journey Optimizer中擷取、統一及啟用資料。
->* [設計歷程並傳送訊息](../building-journeys/journey-gs.md) — 建立您的第一個客戶歷程並設定頻道動作。
->* [即時報告](../reports/live-report.md) — 即時監視行銷活動和歷程績效。
->* [Journey Optimizer簡介教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心Journey Optimizer概念的引導式影片逐步解說。
->* [Journey Optimizer安全性概覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) — 安全性架構、資料保護和法規遵循詳細資料。
->* [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 正式授權條款與版本功能細目。
+## 相關資源 {#related-resources}
+
+* [開始的關鍵步驟](quick-start.md) — 適用於管理員、行銷人員和資料工程師的角色式快速入門手冊。
+* [開始使用資料管理](../data/gs-data.md) — 瞭解如何在Journey Optimizer中擷取、統一及啟用資料。
+* [設計歷程並傳送訊息](../building-journeys/journey-gs.md) — 建立您的第一個客戶歷程並設定頻道動作。
+* [即時報告](../reports/live-report.md) — 即時監視行銷活動和歷程績效。
+* [Journey Optimizer簡介教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心Journey Optimizer概念的引導式影片逐步解說。
+* [Journey Optimizer安全性概覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) — 安全性架構、資料保護和法規遵循詳細資料。
+* [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 正式授權條款與版本功能細目。
