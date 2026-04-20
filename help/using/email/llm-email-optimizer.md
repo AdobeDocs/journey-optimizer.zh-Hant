@@ -1,14 +1,14 @@
 ---
-title: 最佳化AI收件匣的電子郵件文字
+title: 針對AI收件匣最佳化電子郵件
 description: 產生並調整您訊息的專屬版本，以便在使用AI最佳化的電子郵件Designer中，AI輔助收件匣使用者端可在摘要郵件或擷取意圖時，使用您的優惠方案和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1069'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 * 此外，助理可能會主動搜尋與品牌相關的折扣或優惠券，並將這些內容摺疊成答案，因此使用者不再只檢視您實際承諾的訊息。 此行為對一般使用者很有用，但若行銷人員需要回答來追蹤傳送中的真實辭彙，此行為會稀釋他們的控制權。
 
-為避免這些問題，[!DNL Journey Optimizer]會建立您訊息的額外特定文字版本，好讓優惠券、折扣範圍、行動號召以及其他優先順序以清晰的線性副本顯示在最前面。 此版本與預設或自訂[純文字版本](text-version-email.md)的訊息不同。
+為防止這些問題，[!DNL Journey Optimizer]會建立您訊息的其他特定版本，好讓優惠券、折扣範圍、行動號召以及其他優先順序都顯示在清晰的線性副本中。<!--This version is different from the HTML view and default or custom plain text version of your messages.-->
 
 目標是讓收件匣AI將您定義的優惠方案和動作中的摘要和問答置於基礎位置，而非依賴較薄的預設文字部分或不相關的網頁結果。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 >
 >確切的AI助理行為取決於收件匣提供者和模型版本。 傳送電子郵件後，外部AI使用者端提供的回答和摘要可能會不正確、不完整或混淆網頁結果。
 >
->「最佳化AI收件匣的電子郵件文字」功能只會在Journey Optimizer中產生專屬版本，無法保證協力廠商小幫手會如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[的](#inbox-ai-risks)限制和風險。
+>針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[的](#inbox-ai-risks)限制和風險。
 
 ## 建議的使用案例 {#use-cases}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **密集或分散的文字** — 當電子郵件內容難以掃描時，最佳化可以透過明確的選件和連結產生更清晰的線性敘述。
+* **密集或片段式內容** — 當電子郵件內容難以掃描時，最佳化可以透過明確的優惠方案與連結，產生更清晰的線性敘述。
 
 * **控制收件匣問答** — 當您預期收件者會詢問助理時&#x200B;*電子郵件內容為何*&#x200B;或&#x200B;*選件為何*，AI版本的強大最佳化功能可減少部分摘要，並避免依賴與您核准的復本無關的網頁補充答案。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 * **品牌與法律曝光度** — 不正確或不完整的AI摘要仍可能會導致客戶對促銷活動、條款或選擇退出語言產生混淆或爭議。 [!DNL Journey Optimizer]無法確保協力廠商的模型能忠實地重現您電子郵件的最佳化版本。
 
-* **[!UICONTROL 針對]**&#x200B;中的AI收件匣最佳化[!DNL Journey Optimizer] — 電子郵件Designer中的製作時間控制項與一般使用者收件匣助理不同。 傳送前，請務必檢閱產生的純文字。
+* **[!UICONTROL 針對]**&#x200B;中的AI收件匣最佳化[!DNL Journey Optimizer] — 電子郵件Designer中的製作時間控制項與一般使用者收件匣助理不同。 一律在傳送前稽核產生的內容。
 
 ## 相關主題 {#related-topics}
 

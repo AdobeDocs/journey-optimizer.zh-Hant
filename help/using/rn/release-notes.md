@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 47a36afb75002557e754bd72eeef0adb01d180e4
+source-git-commit: 4d5808f5485a524c08f8a16a442fce08d4baedb5
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2569'
 ht-degree: 19%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 19%
 <tr>
 <td>
 <p>Adobe Journey Optimizer現在包含新功能，可確保您的電子郵件結構最佳化，以便用於Gmail中的Apple Intelligence和Google Gemini等AI支援收件匣。</p>
-<p>隨著AI助理日益控制收件者讀取和操作電子郵件的方式，此功能可幫助您編寫可在下游AI工作（包括摘要、分類、優先順序設定和意圖擷取）中妥善執行的內容。</p>
+<p>隨著AI助理日益控制收件者讀取和操作電子郵件的方式，此功能可幫助您產生和創作可在下游AI工作（包括摘要、分類、優先順序設定和意圖擷取）中妥善執行的內容。</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/llm-email-optimizer.md">最佳化AI收件匣的電子郵件文字</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/llm-email-optimizer.md">最佳化AI收件匣的電子郵件</a>。</p>
 <p>推出日期： 2026年4月17日</p>
 </td>
 </tr>
