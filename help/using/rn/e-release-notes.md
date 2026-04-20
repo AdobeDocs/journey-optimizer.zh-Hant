@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1729'
 ht-degree: 18%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] 現在提供<strong>MCP （模型內容通訊協定）伺服器</strong>，直接在任何MCP相容應用程式中呈現行銷活動、歷程、忠誠度和沙箱作業。 透過這項整合，不同的角色可以圍繞相同的協調流程資料共同作業。 您可以對話式描述您的意圖，讓LLM叫用適當的MCP工具，而不需針對AJO REST API撰寫查詢或導覽多個UI畫面。 此功能目前在Claude Web和Desktop中提供。</p>
-<p>此功能目前在Beta中。 請聯絡您的 Adobe 代表以取得存取權。</p>
+<p>[!DNL Adobe Journey Optimizer] 現在提供<strong>MCP （模型內容通訊協定）伺服器</strong>，直接在任何MCP相容應用程式中呈現行銷活動、忠誠度和沙箱作業。 透過這項整合，不同的角色可以圍繞相同的協調流程資料共同作業。 您可以對話式描述您的意圖，讓LLM叫用適當的MCP工具，而不需針對AJO REST API撰寫查詢或導覽多個UI畫面。 此功能目前在Claude Web和Desktop中提供。</p>
+<p>此功能適用於公開Beta中的所有客戶。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
