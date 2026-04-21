@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
+source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 18%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>您現在可以將歷程和行銷活動組織到資料夾中，以改善介面中的導覽和管理。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -137,7 +137,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>沙箱工具現在支援透過套件在沙箱之間匯出和匯入協調的行銷活動。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Adobe Journey Optimizer現在包含新功能，可確保您的電子郵件結構最佳化，以便用於Gmail中的Apple Intelligence和Google Gemini等AI支援收件匣。 隨著AI助理日益控制收件者讀取和操作電子郵件的方式，此功能可幫助您編寫可在下游AI工作（包括摘要、分類、優先順序設定和意圖擷取）中妥善執行的內容。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +169,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>現在「已協調的行銷活動」中提供增量查詢活動。 此目標定位活動會在每次行銷活動執行時執行您的查詢，並只傳回上次執行中未傳回的記錄。 您可以只傳送訊息或匯出新註冊、新金會員，或其他「自上次執行以來新增」區段，而不重新鎖定相同的設定檔。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>您現在可以將歷程設定為模擬。 此模式可讓您使用模擬的使用者來驗證邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ ht-degree: 18%
 
 #### AI
 
-* 行銷活動儀表板中的&#x200B;**品牌一致性分數** - &lt;TBC>
+* **行銷活動儀表板中的品牌一致性分數** — 您現在可以直接在行銷活動儀表板中評估您的品牌一致性分數，以確保內容保持在品牌上。 這可讓您快速驗證指引，而不需開啟內容設計工具。
 
   檔案JIRA工作： [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
@@ -345,7 +345,7 @@ ht-degree: 18%
 
   檔案JIRA工作： [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* 使用Dynamic Media **使用倒數計時器的開啟時間個人化** - &lt;TBC>
+* **使用Dynamic Media的計時器開啟時間個人化** - Journey Optimizer與Adobe Experience Manager Dynamic Media整合可為Dynamic Media範本啟用開啟時間個人化，解除鎖定超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。
 
   檔案JIRA工作： [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
@@ -391,7 +391,7 @@ ht-degree: 18%
 
 #### 外部整合
 
-* **外部資料整合** - &lt;TBC>
+* **外部資料整合** — 整合功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 此功能可簡化您提取外部資料和內容的方式，讓您更輕鬆地跨所有管道提供個人化的動態訊息。
 
   檔案JIRA工作： [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
