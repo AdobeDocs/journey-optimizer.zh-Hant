@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
+source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 18%
+source-wordcount: '2041'
+ht-degree: 15%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>您現在可以將歷程和行銷活動組織到資料夾中，以改善介面中的導覽和管理。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -137,7 +137,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>沙箱工具現在支援透過套件在沙箱之間匯出和匯入協調的行銷活動。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Adobe Journey Optimizer現在包含新功能，可確保您的電子郵件結構最佳化，以便用於Gmail中的Apple Intelligence和Google Gemini等AI支援收件匣。 隨著AI助理日益控制收件者讀取和操作電子郵件的方式，此功能可幫助您編寫可在下游AI工作（包括摘要、分類、優先順序設定和意圖擷取）中妥善執行的內容。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +169,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>現在「已協調的行銷活動」中提供增量查詢活動。 此目標定位活動會在每次行銷活動執行時執行您的查詢，並只傳回上次執行中未傳回的記錄。 您可以只傳送訊息或匯出新註冊、新金會員，或其他「自上次執行以來新增」區段，而不重新鎖定相同的設定檔。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>您現在可以將歷程設定為模擬。 此模式可讓您使用模擬的使用者來驗證邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -201,7 +201,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。 片段一旦建立，就會儲存在專用的[!UICONTROL 片段詳細目錄]中，並可使用[!UICONTROL 歷程片段]活動插入任何歷程中。</p>
+<p>歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。 片段一旦建立，就會儲存在專用的[！UICONTROL片段詳細目錄]中，並可使用[！UICONTROL歷程片段]活動插入任何歷程中。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
 <p>推出日期： 2026年5月4日</p>
@@ -301,7 +301,7 @@ ht-degree: 18%
 
 #### AI
 
-* 行銷活動儀表板中的&#x200B;**品牌一致性分數** - &lt;TBC>
+* **行銷活動儀表板中的品牌一致性分數** — 您現在可以直接在行銷活動儀表板中評估您的品牌一致性分數，以確保內容保持在品牌上。 這可讓您快速驗證指引，而不需開啟內容設計工具。
 
   檔案JIRA工作： [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
@@ -345,7 +345,7 @@ ht-degree: 18%
 
   檔案JIRA工作： [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* 使用Dynamic Media **使用倒數計時器的開啟時間個人化** - &lt;TBC>
+* **使用Dynamic Media的計時器開啟時間個人化** - Journey Optimizer與Adobe Experience Manager Dynamic Media整合可為Dynamic Media範本啟用開啟時間個人化，解除鎖定超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。
 
   檔案JIRA工作： [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
@@ -391,7 +391,7 @@ ht-degree: 18%
 
 #### 外部整合
 
-* **外部資料整合** - &lt;TBC>
+* **外部資料整合** — 整合功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 此功能可簡化您提取外部資料和內容的方式，讓您更輕鬆地跨所有管道提供個人化的動態訊息。
 
   檔案JIRA工作： [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
@@ -400,7 +400,7 @@ ht-degree: 18%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -694,7 +694,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -947,7 +947,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1124,7 +1124,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
