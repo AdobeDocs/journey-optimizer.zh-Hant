@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 90bc3ad994e941d0e888cabb327b934719a03a5b
+source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1724'
 ht-degree: 15%
 
 ---
@@ -27,22 +27,23 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 ### 全新功能 {#april-26-features}
 
+
 <table>
 <thead>
 <tr>
-<th><strong>透過MCP整合Journey Optimizer AI Agent</strong><br/></th>
+<th><strong>歷程模擬</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在提供<strong>MCP （模型內容通訊協定）伺服器</strong>，直接在任何MCP相容應用程式中呈現行銷活動、忠誠度和沙箱作業。 透過這項整合，不同的角色可以圍繞相同的協調流程資料共同作業。 您可以對話式描述您的意圖，讓LLM叫用適當的MCP工具，而不需針對AJO REST API撰寫查詢或導覽多個UI畫面。 此功能目前在Claude Web和Desktop中提供。</p>
-<p>此功能適用於公開Beta中的所有客戶。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
@@ -60,6 +61,77 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程與行銷活動的資料夾</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將歷程和行銷活動組織到<strong>資料夾</strong>中，以改善介面中的導覽和管理。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>透過MCP整合Journey Optimizer AI Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在提供<strong>MCP （模型內容通訊協定）伺服器</strong>，直接在任何MCP相容應用程式中呈現行銷活動、忠誠度和沙箱作業。 透過這項整合，不同的角色可以圍繞相同的協調流程資料共同作業。 您可以對話式描述您的意圖，讓LLM叫用適當的MCP工具，而不需針對AJO REST API撰寫查詢或導覽多個UI畫面。 此功能目前在Claude Web和Desktop中提供。</p>
+<p>此功能適用於公開Beta中的所有客戶。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動的沙箱副本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>沙箱工具</strong>現在支援透過套件在沙箱之間匯出和匯入<strong>協調的行銷活動</strong>。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>增量查詢</strong>活動現在可在<strong>協調的行銷活動</strong>中使用。 此目標定位活動會在每次行銷活動執行時執行您的查詢，並只傳回上次執行中未傳回的記錄。 您可以只傳送訊息或匯出新註冊、新金會員，或其他「自上次執行以來新增」區段，而不重新鎖定相同的設定檔。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -81,39 +153,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <table>
 <thead>
 <tr>
-<th><strong>歷程與行銷活動的資料夾</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程和行銷活動組織到<strong>資料夾</strong>中，以改善介面中的導覽和管理。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>協調行銷活動的沙箱副本</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>沙箱工具</strong>現在支援透過套件在沙箱之間匯出和匯入<strong>協調的行銷活動</strong>。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>針對AI收件匣最佳化電子郵件：更新的工作流程</strong><br/></th>
 </tr>
 </thead>
@@ -127,55 +166,25 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+<th><strong>Journey fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>增量查詢</strong>活動現在可在<strong>協調的行銷活動</strong>中使用。 此目標定位活動會在每次行銷活動執行時執行您的查詢，並只傳回上次執行中未傳回的記錄。 您可以只傳送訊息或匯出新註冊、新金會員，或其他「自上次執行以來新增」區段，而不重新鎖定相同的設定檔。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p><strong>Journey fragments</strong> are reusable sets of journey nodes that you can build once and drop into any journey across your sandbox. Whether it's an eligibility check, a preferred channel routing logic, or a welcome sequence, fragments help teams move faster and stay consistent — without rebuilding the same logic from scratch every time. Once created, fragments are stored in a dedicated <strong>Fragment inventory</strong> and can be inserted into any journey using the <strong>Journey fragments</strong> activity.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>Availability date: May 4, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程片段</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>歷程片段</strong>是可重複使用的歷程節點集，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。 建立後，片段會儲存在專用的<strong>片段詳細目錄</strong>中，並可使用<strong>歷程片段</strong>活動插入任何歷程。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
-<p>推出日期： 2026年5月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
+-->
 
 <table>
 <thead>
