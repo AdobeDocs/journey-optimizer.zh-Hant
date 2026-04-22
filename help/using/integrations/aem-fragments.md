@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,10 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
    <!--
     Note that if you choose to copy the value, any future updates to the Content Fragment will not be reflected in your campaign or journey. However, using dynamic placeholders ensures real-time updates.
--->
+    
+    -->
 
-    ![](assets/aem_campaign_6.png)
+   ![](assets/aem_campaign_6.png)
 
 1. 若要呈現儲存在內容片段屬性中的影像URL （例如片段模型的路徑或URL欄位），請將其插入您的HTML中，並以`<img>`標籤和片段屬性作為來源，例如：
 
