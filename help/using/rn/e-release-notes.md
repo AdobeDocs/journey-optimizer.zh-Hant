@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
+source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1715'
 ht-degree: 15%
 
 ---
@@ -195,7 +195,8 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在在<strong>Personalization編輯器</strong>中包含<strong>AI助理</strong>。 請以純文字描述您想要個人化的內容，然後助理會產生<strong>個人化運算式</strong>，您可以依原樣使用，或在簡短後續交談中精簡。 您也可以選取現有的個人化程式碼，並要求助理員加以說明、修正或提出改進建議。</p>
+<p>Adobe Journey Optimizer現在包含用於個人化運算式的AI助理。 您可以在設計電子郵件內容時，從Personalization編輯器和電子郵件Designer工具列開啟它。 以純文字描述您想要個人化的內容，而助理會產生個人化運算式，供您按原樣使用，或在後續的簡短對話中加以改良。
+您也可以選取現有的個人化程式碼，並要求助理員加以說明、修正或提出改進建議。 產生運算式後，「顯示範例設定檔預覽」會針對一組有限的合成範例設定檔執行快速檢查。</p>
 <p>如需詳細資訊，請參閱<a href="../content-management/generative-personalization-expressions.md">Personalization運算式的AI小幫手</a>。</p>
 <p>推出日期： 2026年4月13日</p>
 </td>
@@ -275,10 +276,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
   推出日期： 2026年4月14日
 
 #### 電子郵件設計
-
-* **電子郵件Designer中個人化運算式的AI Assistant** — 在電子郵件Designer中，選取元件並在內容工具列中使用&#x200B;**新增運算式**&#x200B;以純語言描述您需要的個人化、檢閱產生的運算式，並在不離開設計工具的情況下插入它。 [了解更多](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  推出日期： 2026年4月15日
 
 * **電子郵件內容的進階HTML編輯器** — 進階HTML模式可讓您在電子郵件Designer中編輯內容的HTML來源、在來源中新增進階運算式（例如條件），以及在HTML檢視和案頭檢視之間切換，而不會遺失您的變更。 先前僅可用於電子郵件內容範本，此功能現在已部署至Designer電子郵件中的&#x200B;**電子郵件**&#x200B;內容。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。 [閱讀全文](../email/email-expert-mode.md)
 
