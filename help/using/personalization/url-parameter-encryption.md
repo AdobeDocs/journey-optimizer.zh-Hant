@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="有限可用性" type="Informative"
 keywords: 加密， URL，追蹤，登陸頁面，金鑰登入，個人化，安全性，隱私權，沙箱
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -101,3 +101,4 @@ ht-degree: 2%
    >[!NOTE]
    >
    >僅應選取作用中金鑰，以在個人化編輯器中加密新值。 請勿將撤銷的金鑰用於新內容。
+
