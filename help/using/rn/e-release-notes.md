@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 13%
+source-wordcount: '2189'
+ht-degree: 12%
 
 ---
 
@@ -322,6 +322,12 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
   推出日期： 2026年4月9日
 
+#### 推播
+
+* **在通道設定中個人化應用程式ID** — 在推播通道設定中，您現在可以個人化&#x200B;**應用程式ID**&#x200B;欄位，讓每位收件者都能根據其設定檔資訊，從適當的品牌接收推播通知。
+
+  檔案JIRA工作： [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### 簡訊
 
 * **字元計數** — 在Adobe Journey Optimizer中，您現在可以使用字元計數即時監視SMS訊息的長度。 它可協助您檢視訊息何時將分割成多個區段，以更好地管理格式並避免傳送成本意外增加。 [閱讀全文](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 #### 協調的行銷活動
 
-* **資料Modeler增強功能** — 對於協調的關聯式結構描述，資料Modeler現在支援使用多個欄位建立複合金鑰。 當您從DDL或Excel檔案載入綱要時，會建立表格之間的複合關係。 在實體關係檢視中，上傳檔案後，複合連結會顯示表格之間的完整欄位配對集。
+* **資料Modeler增強功能** — 協調的關聯式結構描述現在支援跨多個欄位的複合索引鍵。 從DDL檔案載入綱要也會產生分項清單，而從DDL或Excel檔案載入會自動建立表格之間的複合關係。 在實體關係檢視中，複合連結現在會在檔案上傳後，顯示表格之間的完整欄位配對集。
 
   檔案JIRA工作： [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
