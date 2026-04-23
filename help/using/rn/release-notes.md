@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 20%
@@ -207,12 +207,6 @@ ht-degree: 20%
 
   推出日期： 2026年4月7日
 
-* **製作時Adobe Experience Manager內容片段內容** — 當您在文字欄位和內容區塊之間移動時，您的內容片段選取範圍會保持作用中，因此您可以新增更多片段欄位，而不需每次重新開啟&#x200B;**開啟AEM內容警告器**。 [閱讀全文](../integrations/aem-fragments.md)
-
-  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
-
-  推出日期： 2026年4月1日
-
 #### Adobe Experience Manager整合
 
 * **Adobe Experience Manager內容片段變數支援** — 您可以在插入Adobe Experience Manager內容片段時選取&#x200B;**內容片段變數** （例如語言或頻道變數），以改良地區設定和多語言情境的處理方式。 [閱讀全文](../integrations/aem-fragments.md#aem-variations)
@@ -220,6 +214,12 @@ ht-degree: 20%
   此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
   推出日期： 2026年4月3日
+
+* **製作時Adobe Experience Manager內容片段內容** — 當您在文字欄位和內容區塊之間移動時，您的內容片段選取範圍會保持作用中，因此您可以新增更多片段欄位，而不需每次重新開啟&#x200B;**開啟AEM內容警告器**。 [閱讀全文](../integrations/aem-fragments.md)
+
+  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+  推出日期： 2026年4月1日
 
 
 ## 2026年3月發行說明 {#march-26-rn}
