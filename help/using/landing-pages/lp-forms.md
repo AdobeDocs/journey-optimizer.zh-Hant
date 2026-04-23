@@ -73,7 +73,7 @@ ht-degree: 7%
    >* **資料型別**&#x200B;必須設定為&#x200B;**XDM** （不是原始資料）
    >* **驗證**&#x200B;必須為&#x200B;**已停用** （未驗證的連線）
    >
-   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入內容搜尋特定資料集，或從清單中選取。
 
