@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d5808f5485a524c08f8a16a442fce08d4baedb5
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 19%
+source-wordcount: '2631'
+ht-degree: 20%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 19%
 ## 2026年4月更新 {#april-26-rn}
 
 ### 全新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Express 整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer中的<b>Adobe Express整合</b>可讓您在內容建立期間直接使用Adobe Express的編輯工具，讓您調整大小、移除背景、裁切，以及將資產轉換為JPEG或PNG。
+</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p><img src="assets/do-not-localize/express_resize.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
+<p>推出日期： 2026年4月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

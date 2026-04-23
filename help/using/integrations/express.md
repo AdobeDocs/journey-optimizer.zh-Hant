@@ -5,12 +5,11 @@ title: 在Journey Optimizer中使用Adobe Express編輯您的資產
 description: 開始使用Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="有限可用性" type="Informative"
 role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 18%
@@ -24,14 +23,13 @@ ht-degree: 18%
 >title="Adobe Express 整合"
 >abstract="透過 Adobe Express 整合開始將您的資產個人化。此功能讓您可以調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為 JPEG 或 PNG。"
 
+>[!IMPORTANT]
+>
+>透過使用Adobe Express整合，資料將會離開Journey Optimizer。 請勿將此整合用於PHI或其他健全狀況資料。
+
 Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->Adobe Journey Optimizer中的Adobe Express整合目前不適用於Healthcare Shield或Privacy and Security Shield。
 
 若要進一步瞭解Adobe Express，請參閱[本檔案](https://helpx.adobe.com/tw/express/user-guide.html)。
 
