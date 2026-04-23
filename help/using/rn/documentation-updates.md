@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 4 月 {#april-2026}
+
+* **將CC欄位新增至電子郵件**&#x200B;檔案中的護欄已增強。 它們現在會指定系統不會根據同意或隱藏檢查CC位址，而傳送至CC位址之電子郵件的開啟和點進次數，都會在傳送分析的總開啟和點進次數中列入考慮。 [閱讀全文](../configuration/cc-email-field.md)
 
 * **管道活動**&#x200B;檔案已更新，其中包含新的&#x200B;**行銷與異動訊息**&#x200B;區段，說明兩個管道類別之間的行為差異：選擇加入需求、商業規則應用程式、管道設定型別和建議的使用案例。 [閱讀全文](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
