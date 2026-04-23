@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 7%
@@ -33,6 +33,12 @@ ht-degree: 7%
 >title="選取資料集"
 >abstract="定義要儲存並反映表單回應的資料集。您可以輸入內容搜尋特定資料集，或從清單中選取。"
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 建立表單前，您需要先建立專屬的預設集，您可在其中選取傳送表單提交資料的連線端點，以及儲存透過表單擷取之資料的資料集。
 
 資料一旦登陸串流端點，就會與資料集資訊連結。 然後會使用產生的來源/目標連線和來源流程，將資料推送至資料集。
@@ -45,12 +51,6 @@ ht-degree: 7%
    * **Source連線** — 資料來源。
    * **目標連線** — 資料儲存或使用的位置。
    * **Source流程** — 將資料從來源連線移至[!DNL Experience Platform]、處理對應、轉換和驗證的管道。
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 若要建立表單預設集，請遵循下列步驟。
 
@@ -73,7 +73,7 @@ ht-degree: 7%
    >* **資料型別**&#x200B;必須設定為&#x200B;**XDM** （不是原始資料）
    >* **驗證**&#x200B;必須為&#x200B;**已停用** （未驗證的連線）
    >
-   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >如果您的串流連線未出現在清單中，請確認同時符合這兩個條件。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. 選取&#x200B;**[!UICONTROL 資料集]**&#x200B;以連結表單。 這是將儲存並反映表單回應的位置。 您可以輸入內容搜尋特定資料集，或從清單中選取。
 
@@ -84,6 +84,12 @@ ht-degree: 7%
 1. 按一下&#x200B;**[!UICONTROL 發佈]**。 您的預設集現已準備就緒，可用於表單中。
 
 ## 存取及管理表單 {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 若要存取表單清單，請從左側功能表選取&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL Forms]**。
 
