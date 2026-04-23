@@ -11,9 +11,9 @@ hide: true
 keywords: 副本，副本，電子郵件，頻道設定，電子郵件標題，密件副本
 badge: label="有限可用性" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '919'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 6%
 
 * **設定檔屬性**，例如設定檔中可用的關係管理員電子郵件地址。
 
-* **內容屬性** — 此值&#x200B;**只能用於API觸發的行銷活動**。 它是從API承載擷取的，API承載必須包含具有CC位址值的內容變數`context.channel.email.ccvalues`。
+* **內容屬性** — 此值&#x200B;**只能用於API觸發的行銷活動**。 它是從API承載擷取的，API承載必須包含內容變數`context.channel.email.ccvalues`，且CC位址值以字串形式傳遞。
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ ht-degree: 6%
 
 * **傳遞時間：**&#x200B;訊息可能會先傳遞至[副本]電子郵件地址，再傳遞至目標收件者。 即使原始郵件可能有[退回](../reports/suppression-list.md#delivery-failures)，也可以傳送CC郵件。
 
-* **報告：**&#x200B;電子郵件報告量度中包含來自CC收件者的開啟、點按及其他參與。 因此，來自副本收件者的任何開啟或點按都會導致[報告](../reports/report-gs-cja.md)計算錯誤。
+* **同意與隱藏：**&#x200B;不會檢查副本電子郵件地址是否同意或隱藏。
+
+* **報告：**&#x200B;電子郵件報告量度中包含來自CC收件者的開啟、點按及其他參與。 請勿開啟或點進傳送至「副本抄送地址」的電子郵件，因為傳送分析的總開啟次數與點按次數會將其列入考量，這可能會導致[報表](../reports/report-gs-cja.md)計算錯誤。
 
 * **垃圾訊息：**&#x200B;請勿在[副本抄送收件匣]中將郵件標示為垃圾訊息，因為這會影響傳送至此地址的所有其他電子郵件。
 
