@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 69%
 
 ## 2026 年 4 月 {#april-2026}
 
+* **變更維度**&#x200B;活動檔案已更新，以澄清當活動使用外部聯結並保留維度變更步驟的所有記錄時，新目標維度中無相符設定檔的記錄會在訊息傳送時無訊息地排除。 [閱讀全文](../orchestrated/activities/change-dimension.md)
+
 * **將CC欄位新增至電子郵件**&#x200B;檔案中的護欄已增強。 它們現在會指定系統不會根據同意或隱藏檢查CC位址，而傳送至CC位址之電子郵件的開啟和點進次數，都會在傳送分析的總開啟和點進次數中列入考慮。 [閱讀全文](../configuration/cc-email-field.md)
 
 * **管道活動**&#x200B;檔案已更新，其中包含新的&#x200B;**行銷與異動訊息**&#x200B;區段，說明兩個管道類別之間的行為差異：選擇加入需求、商業規則應用程式、管道設定型別和建議的使用案例。 [閱讀全文](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ ht-degree: 69%
 
 * **建置對象活動**&#x200B;檔案已新增一個範例，說明如何使用規則產生器依訂閱計畫屬性篩選設定檔，而更加豐富。 [閱讀全文](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* **開始使用協調的行銷活動**&#x200B;頁面會記錄入門層級&#x200B;**建立對象→在**&#x200B;中建立分支→管道A +管道B **模式。協調的行銷活動內含哪些內容？**，交叉參照至分叉活動以及行銷與異動訊息頁面。 [閱讀全文](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **開始使用協調的行銷活動**&#x200B;頁面會記錄入門層級&#x200B;**建立對象→分支→管道A +管道B**&#x200B;模式（在&#x200B;**協調的行銷活動內含哪些內容？**），並交叉參考分支活動以及行銷與異動訊息頁面。 [閱讀全文](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從「內容管理」區段移至檔案的&#x200B;**電子郵件**&#x200B;區段（在電子郵件設計底下），且頁面檔案已重新命名為&#x200B;**email-expert-mode.md**。 此頁面現在會記錄進階HTML編輯器可在電子郵件Designer中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
 
 * 更新&#x200B;**開始和監視協調的行銷活動**&#x200B;檔案，其中包含詳細說明內部發佈時間執行順序的新區段，以及行銷活動生命週期狀態表、發佈前檢查清單，以及非週期性行銷活動的傳送確認警告。 [閱讀全文](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -38,7 +40,7 @@ ht-degree: 69%
 
 * 已在&#x200B;**協調行銷活動常見問題集**&#x200B;中新增三個新的問答：發佈時內部會發生什麼情況、發佈後可能不會傳送訊息的7點原因檢查清單，以及設定檔快照查詢與即時設定檔解析度的差異。 [閱讀全文](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 已在歷程疑難排解檔案中新增因封鎖歷程執行個體&#x200B;**[而捨棄的新](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**&#x200B;事件，說明`maxInstanceStackEventsReached`捨棄的原因、發生時間以及如何減輕其影響。 護欄和步驟事件欄位清單頁面也已相應更新。
+* 已在歷程疑難排解檔案中新增因封鎖歷程執行個體&#x200B;[&#128279;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而捨棄的新**&#x200B;事件，說明`maxInstanceStackEventsReached`捨棄的原因、發生時間以及如何減輕其影響。 護欄和步驟事件欄位清單頁面也已相應更新。
 
 * **決策原則**&#x200B;檔案中的「善用片段」現在包含&#x200B;**電子郵件**&#x200B;管道的護欄附註： **[!UICONTROL 模擬內容]**&#x200B;不顯示決策專案的運算式片段，而&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;和已啟用的行銷活動則會顯示。 此頁面也指出&#x200B;**[!UICONTROL 視覺片段]**&#x200B;無法指派給決定專案 — 此內容中只支援&#x200B;**運算式片段**。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
 
@@ -84,7 +86,7 @@ ht-degree: 69%
 
 * **資料集存留時間(TTL)護欄**&#x200B;檔案已增強，並新增常見問題集專案，以清楚識別哪些資料集須遵守TTL。 TTL僅適用於時間序列資料集 — 記錄型別資料集，例如實體資料集、分類資料集和決定物件存放庫，不受TTL約束，也不會受到護欄轉出的影響。 [閱讀全文](../data/datasets-ttl.md)
 
-* 已更新&#x200B;**歷程屬性**&#x200B;和&#x200B;**暫停歷程**&#x200B;檔案，以記錄歷程技術詳細資料中現在可用的新暫停和恢復欄位。 除了現有的&#x200B;**區塊之外，**&#x200B;複製技術詳細資料`lastPausedAt`按鈕現在還包含`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy`、`lastResumedById`和`pausedJourneySettings`。 **暫停歷程**&#x200B;頁面也新增了一個區段，說明如何直接從歷程屬性檢視暫停和繼續時間戳記。 [閱讀全文](../building-journeys/journey-properties.md)
+* 已更新&#x200B;**歷程屬性**&#x200B;和&#x200B;**暫停歷程**&#x200B;檔案，以記錄歷程技術詳細資料中現在可用的新暫停和恢復欄位。 除了現有的`pausedJourneySettings`區塊之外，**複製技術詳細資料**&#x200B;按鈕現在還包含`lastPausedAt`、`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy`和`lastResumedById`。 **暫停歷程**&#x200B;頁面也新增了一個區段，說明如何直接從歷程屬性檢視暫停和繼續時間戳記。 [閱讀全文](../building-journeys/journey-properties.md)
 
 ## 2026 年 2 月 {#february-2026}
 
@@ -144,206 +146,206 @@ ht-degree: 69%
 
 * 已在電子郵件Designer主題檔案中新增附註，以釐清Web字型支援限制。 [閱讀全文](../email/apply-email-themes.md#themes-guardrails)
 
-* 已在文件歷程承載大小驗證中新增護欄區段，包括警告和錯誤臨界值，以及如何最佳化歷程的指引。[閱讀全文](../start/guardrails.md#journey-payload-size)
+* 已在文件歷程承載大小驗證中新增護欄區段，包括警告和錯誤臨界值，以及如何最佳化歷程的指引。 [閱讀全文](../start/guardrails.md#journey-payload-size)
 
-* 已更新決策護欄文件，以新增決策項目大小限制 (對於包含最多 30 個屬性的項目，為 1KB)。[閱讀全文](../experience-decisioning/decisioning-guardrails.md)
+* 已更新決策護欄文件，以新增決策項目大小限制 (對於包含最多 30 個屬性的項目，為 1KB)。 [閱讀全文](../experience-decisioning/decisioning-guardrails.md)
 
-* 已在決策原則建立文件中新增附註，以告知使用者一旦建立決策原則，任何變更最多可能需要 15 分鐘傳播至所有資料區域，而加拿大最多可能需要 30 分鐘。[閱讀全文](../experience-decisioning/create-decision-policy.md#review)
+* 已在決策原則建立文件中新增附註，以告知使用者一旦建立決策原則，任何變更最多可能需要 15 分鐘傳播至所有資料區域，而加拿大最多可能需要 30 分鐘。 [閱讀全文](../experience-decisioning/create-decision-policy.md#review)
 
-* 片段文件中已新增附註，以警告當片段中的按鈕標籤和 URL 都可編輯時，追蹤資料集會記錄 URL 值，而非標籤值。[閱讀全文](../content-management/customizable-fragments.md#visual)
+* 片段文件中已新增附註，以警告當片段中的按鈕標籤和 URL 都可編輯時，追蹤資料集會記錄 URL 值，而非標籤值。 [閱讀全文](../content-management/customizable-fragments.md#visual)
 
-* 推出新的頁面，說明從決策管理移轉至決策的好處，包括即將推出的移轉工具 API 的相關資訊。[閱讀全文](../experience-decisioning/migrate-to-decisioning.md)
+* 推出新的頁面，說明從決策管理移轉至決策的好處，包括即將推出的移轉工具 API 的相關資訊。 [閱讀全文](../experience-decisioning/migrate-to-decisioning.md)
 
-* 新增護欄，說明查詢資料集僅適用於資料集沙箱所在區域的傳入邊緣型啟用。[閱讀全文](../data/lookup-aep-data.md#guidelines)
+* 新增護欄，說明查詢資料集僅適用於資料集沙箱所在區域的傳入邊緣型啟用。 [閱讀全文](../data/lookup-aep-data.md#guidelines)
 
-* 協調的行銷活動管道設定文件已新增區段，說明如何在 URL 追蹤參數中使用內容屬性 (例如行銷活動 ID、名稱和動作詳細資訊)，以用於分析和報告用途。[閱讀全文](../orchestrated/channel-config.md#url-tracking)
+* 協調的行銷活動管道設定文件已新增區段，說明如何在 URL 追蹤參數中使用內容屬性 (例如行銷活動 ID、名稱和動作詳細資訊)，以用於分析和報告用途。 [閱讀全文](../orchestrated/channel-config.md#url-tracking)
 
-* 內容最佳化文件已重新建構，以提高清晰度。主要最佳化頁面已分割成四個重點子頁面：快速入門頁面、目標定位的專屬頁面、實驗頁面，以及結合兩種方法的頁面。[閱讀全文](../content-management/gs-message-optimization.md)
+* 內容最佳化文件已重新建構，以提高清晰度。 主要最佳化頁面已分割成四個重點子頁面：快速入門頁面、目標定位的專屬頁面、實驗頁面，以及結合兩種方法的頁面。 [閱讀全文](../content-management/gs-message-optimization.md)
 
-* 已從三個歷程警示 (已發佈歷程、歷程已完成和已觸發自訂動作上限) 中移除有限可用性附註，因為這些功能現在已普遍可用。[閱讀全文](../reports/alerts.md)
+* 已從三個歷程警示 (已發佈歷程、歷程已完成和已觸發自訂動作上限) 中移除有限可用性附註，因為這些功能現在已普遍可用。 [閱讀全文](../reports/alerts.md)
 
-* 測試、驗證及核准登陸頁面已新增區段，包括測試功能概觀、常見問題集、含導覽連結的決策樹，以及含文件連結的增強術語。[閱讀全文](../../rp_landing_pages/test-landing-page.md)
+* 測試、驗證及核准登陸頁面已新增區段，包括測試功能概觀、常見問題集、含導覽連結的決策樹，以及含文件連結的增強術語。 [閱讀全文](../../rp_landing_pages/test-landing-page.md)
 
-* 個人化語法文件中已新增區段，以釐清如何在個人化運算式中使用保留關鍵字。在 XDM 結構描述中作為欄位名稱使用時，某些 PQL 關鍵字 (例如 `next`、`last` 和 `this`) 必須使用反引號逸出。[閱讀全文](../personalization/personalization-syntax.md#reserved-keywords)
+* 個人化語法文件中已新增區段，以釐清如何在個人化運算式中使用保留關鍵字。 在 XDM 結構描述中作為欄位名稱使用時，某些 PQL 關鍵字 (例如 `next`、`last` 和 `this`) 必須使用反引號逸出。 [閱讀全文](../personalization/personalization-syntax.md#reserved-keywords)
 
 * [行銷活動快速入門](../campaigns/get-started-with-campaigns.md)和[管理行銷活動](../campaigns/manage-campaigns.md)頁面已重新建構，資訊架構已改進，包括包含特定類型指南的全面工作流程、增強型行銷活動類型比較，以及整合狀態表格。
 
-* Journeys 登陸頁面已重新設計，以協助上線新的 6 步驟工作流程、增強歷程類型比較，以及經改進的整個文件導覽。[閱讀全文](../building-journeys/journey.md)
+* Journeys 登陸頁面已重新設計，以協助上線新的 6 步驟工作流程、增強歷程類型比較，以及經改進的整個文件導覽。 [閱讀全文](../building-journeys/journey.md)
 
-* 新增了詳細區段，協助使用者在設定直接郵件的檔案路由時，產生 SFTP 驗證的 Base64 編碼 OpenSSH 私密金鑰，以避免連線錯誤。[閱讀全文](../direct-mail/direct-mail-configuration.md#ssh-key-generation)
+* 新增了詳細區段，協助使用者在設定直接郵件的檔案路由時，產生 SFTP 驗證的 Base64 編碼 OpenSSH 私密金鑰，以避免連線錯誤。 [閱讀全文](../direct-mail/direct-mail-configuration.md#ssh-key-generation)
 
-* 已在子網域委派文件中新增附註，以告知使用者在嘗試委派至 Adobe 之前允許 24 到 48 小時的 DNS 傳播。[閱讀全文](../configuration/delegate-subdomain.md#set-up-subdomain)
+* 已在子網域委派文件中新增附註，以告知使用者在嘗試委派至 Adobe 之前允許 24 到 48 小時的 DNS 傳播。 [閱讀全文](../configuration/delegate-subdomain.md#set-up-subdomain)
 
 ## 2025 年 12 月 {#december-2025}
 
-* 決策文件的自訂上傳客群已更新，以包含擷取擴充資料所需的 API 標幟。在產品建議決策中使用 CSV 上傳的客群時，您必須在 API 請求承載中包含 `"xdm:enrichedAudience": true`，以在產品建議決策回應中擷取擴充屬性。[閱讀全文](../offers/custom-upload-decisioning.md#must-read)
+* 決策文件的自訂上傳客群已更新，以包含擷取擴充資料所需的 API 標幟。 在產品建議決策中使用 CSV 上傳的客群時，您必須在 API 請求承載中包含 `"xdm:enrichedAudience": true`，以在產品建議決策回應中擷取擴充屬性。 [閱讀全文](../offers/custom-upload-decisioning.md#must-read)
 
-* 已在校樣傳送文件中新增附註，以釐清頻率上限規則適用於校樣。頁面現在包含「必須閱讀」區段，其中包含有關頻率上限行為、鏡像頁面限制和資產可存取性規則的重要考量。[閱讀全文](../content-management/proofs.md)
+* 已在校樣傳送文件中新增附註，以釐清頻率上限規則適用於校樣。 頁面現在包含「必須閱讀」區段，其中包含有關頻率上限行為、鏡像頁面限制和資產可存取性規則的重要考量。 [閱讀全文](../content-management/proofs.md)
 
-* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。[閱讀全文](../channels/gs-channels.md#channels)
+* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀全文](../channels/gs-channels.md#channels)
 
-* 已建立新的全面追蹤登陸頁面，以協助使用者探索及存取 Journey Optimizer 中提供的所有追蹤與監視功能。[閱讀全文](../start/get-started-tracking.md)
+* 已建立新的全面追蹤登陸頁面，以協助使用者探索及存取 Journey Optimizer 中提供的所有追蹤與監視功能。 [閱讀全文](../start/get-started-tracking.md)
 
-* 已增強「電子郵件選擇退出管理」頁面，其中包含有關取消訂閱流程的詳細資訊，說明登陸頁面選擇退出的預期事件順序。[閱讀全文](../email/email-opt-out.md#send-message-unsubscribe-link)
+* 已增強「電子郵件選擇退出管理」頁面，其中包含有關取消訂閱流程的詳細資訊，說明登陸頁面選擇退出的預期事件順序。 [閱讀全文](../email/email-opt-out.md#send-message-unsubscribe-link)
 
-* 已更新訂閱清單文件，新增串流區段適用性標準的相關資訊。[閱讀全文](../landing-pages/subscription-list.md#define-subscription-list)
+* 已更新訂閱清單文件，新增串流區段適用性標準的相關資訊。 [閱讀全文](../landing-pages/subscription-list.md#define-subscription-list)
 
-* 推出新的 IP 暖身傳遞能力指南，提供信譽基礎知識、投放前準備、監視量度的全面指引，以及從零信譽過渡至成功收件匣刊登位置的最佳做法。[閱讀全文](../configuration/ip-warmup-deliverability-guide.md)
+* 推出新的 IP 暖身傳遞能力指南，提供信譽基礎知識、投放前準備、監視量度的全面指引，以及從零信譽過渡至成功收件匣刊登位置的最佳做法。 [閱讀全文](../configuration/ip-warmup-deliverability-guide.md)
 
-* 登陸頁面及電子郵件選擇退出區段已新增警告，以澄清按一下取消訂閱連結只會開啟登陸頁面，但使用者必須提交表單才能完成選擇退出流程。[閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
+* 登陸頁面及電子郵件選擇退出區段已新增警告，以澄清按一下取消訂閱連結只會開啟登陸頁面，但使用者必須提交表單才能完成選擇退出流程。 [閱讀全文](../landing-pages/lp-use-cases.md#configure-opt-out)
 
-* 推出新的歷程使用案例資料庫，整理實用使用案例集合，包括戰術模式 (禁止邏輯、個人化技術、歷程退出策略) 和涵蓋行銷和技術工作流程的完整端到端案例。[閱讀全文](../building-journeys/jo-use-cases.md)
+* 推出新的歷程使用案例資料庫，整理實用使用案例集合，包括戰術模式 (禁止邏輯、個人化技術、歷程退出策略) 和涵蓋行銷和技術工作流程的完整端到端案例。 [閱讀全文](../building-journeys/jo-use-cases.md)
 
-* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。[閱讀全文](../building-journeys/weekday-email-uc.md)
+* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀全文](../building-journeys/weekday-email-uc.md)
 
-* 推出新頁面，說明 Journey Optimizer 的決策功能，包括新一代決策框架與現有的決策管理解決方案之間的差異，以及跨管道提供個人化產品建議的主要優點。[閱讀全文](../experience-decisioning/gs-decision.md)
+* 推出新頁面，說明 Journey Optimizer 的決策功能，包括新一代決策框架與現有的決策管理解決方案之間的差異，以及跨管道提供個人化產品建議的主要優點。 [閱讀全文](../experience-decisioning/gs-decision.md)
 
-* 客群啟用文件已新增一個區段，說明如何在 [!DNL Journey Optimizer] 中啟用不支援的客群類型 (例如 Customer Journey Analytics 客群)，方法是在客群入口網站中以新的區段定義來包裝這些客群。[閱讀全文](../audience/target-audiences.md#activation-non-supported)
+* 客群啟用文件已新增一個區段，說明如何在 [!DNL Journey Optimizer] 中啟用不支援的客群類型 (例如 Customer Journey Analytics 客群)，方法是在客群入口網站中以新的區段定義來包裝這些客群。 [閱讀全文](../audience/target-audiences.md#activation-non-supported)
 
-* 等待活動文件中已新增一個區段，說明停留在讀取客群歷程的等待活動中的輪廓如何自動從統一輪廓服務 (UPS) 重新整理其屬性。這說明了輪廓資料可能會在等待節點後的歷程執行期間發生變更，如果您想要在整個歷程中保持一致的快照資料，這可能會產生非預期的結果。[閱讀全文](../building-journeys/wait-activity.md#profile-refresh)
+* 等待活動文件中已新增一個區段，說明停留在讀取客群歷程的等待活動中的輪廓如何自動從統一輪廓服務 (UPS) 重新整理其屬性。 這說明了輪廓資料可能會在等待節點後的歷程執行期間發生變更，如果您想要在整個歷程中保持一致的快照資料，這可能會產生非預期的結果。 [閱讀全文](../building-journeys/wait-activity.md#profile-refresh)
 
-* 「路徑實驗」區段中已新增警告說明，警告使用者不要編輯發佈後的路徑實驗中繼資料，因為這會中斷實驗結果的計算和報告。[閱讀全文](../building-journeys/path-experimentation.md)
+* 「路徑實驗」區段中已新增警告說明，警告使用者不要編輯發佈後的路徑實驗中繼資料，因為這會中斷實驗結果的計算和報告。 [閱讀全文](../building-journeys/path-experimentation.md)
 
-* 「建立表單預設集」區段已新增附註，以指定串流連線在選取範圍下拉式清單中顯示的要求。[閱讀全文](../landing-pages/lp-forms.md#create-form-preset)
+* 「建立表單預設集」區段已新增附註，以指定串流連線在選取範圍下拉式清單中顯示的要求。 [閱讀全文](../landing-pages/lp-forms.md#create-form-preset)
 
-* 「決策」區段已推出新頁面，說明如何設定資料收集以追蹤曝光次數、點按數和自訂事件。[閱讀全文](../experience-decisioning/data-collection/schema-requirement.md)
+* 「決策」區段已推出新頁面，說明如何設定資料收集以追蹤曝光次數、點按數和自訂事件。 [閱讀全文](../experience-decisioning/data-collection/schema-requirement.md)
 
-* 已重新整理使用 AI 助理產生內容的文件，以提高清晰度和可用性。前五個管道特定頁面 (電子郵件、推播、簡訊、網頁和登陸頁面) 已合併為三個產生類型頁面：[產生完整內容](../content-management/generative-full-content.md)、[產生文字](../content-management/generative-text.md)和[產生影像](../content-management/generative-image.md)。
+* 已重新整理使用 AI 助理產生內容的文件，以提高清晰度和可用性。 前五個管道特定頁面 (電子郵件、推播、簡訊、網頁和登陸頁面) 已合併為三個產生類型頁面：[產生完整內容](../content-management/generative-full-content.md)、[產生文字](../content-management/generative-text.md)和[產生影像](../content-management/generative-image.md)。
 
 ## 2025 年 11 月 {#november-2025}
 
-* 推出新的決策常見問題集頁面，涵蓋上限規則、AI 模型設定、流量需求和產品建議最佳化策略等主題。[閱讀全文](../experience-decisioning/decisioning-faq.md)
+* 推出新的決策常見問題集頁面，涵蓋上限規則、AI 模型設定、流量需求和產品建議最佳化策略等主題。 [閱讀全文](../experience-decisioning/decisioning-faq.md)
 
-* 「開始使用電子郵件設計」頁面已更新，以釐清如何存取電子郵件設計工具。[閱讀全文](../email/get-started-email-design.md)
+* 「開始使用電子郵件設計」頁面已更新，以釐清如何存取電子郵件設計工具。 [閱讀全文](../email/get-started-email-design.md)
 
-* 「DMARC 記錄」頁面已新增疑難排解區段，以解決 DNS 傳播延遲的問題。[閱讀全文](../configuration/dmarc-record.md#troubleshooting)
+* 「DMARC 記錄」頁面已新增疑難排解區段，以解決 DNS 傳播延遲的問題。 [閱讀全文](../configuration/dmarc-record.md#troubleshooting)
 
-* 「使用 GenStudio for Performance Marketing」頁面已更新區段，包括主要功能、常見使用案例、先決條件和常見問題。[閱讀全文](../integrations/genstudio.md)
+* 「使用 GenStudio for Performance Marketing」頁面已更新區段，包括主要功能、常見使用案例、先決條件和常見問題。 [閱讀全文](../integrations/genstudio.md)
 
-* 「護欄和限制」頁面已新增針對使用傳入管道定位目標假名輪廓的護欄：鎖定未經驗證的訪客會增加您的可互動輪廓總數，因此 Adobe 建議設定自動刪除輪廓的存留時間 (TTL) 以管理相關成本。[閱讀全文](../start/guardrails.md#profile-management-inbound)
+* 「護欄和限制」頁面已新增針對使用傳入管道定位目標假名輪廓的護欄：鎖定未經驗證的訪客會增加您的可互動輪廓總數，因此 Adobe 建議設定自動刪除輪廓的存留時間 (TTL) 以管理相關成本。 [閱讀全文](../start/guardrails.md#profile-management-inbound)
 
-* 現在，「程式碼型實作方法範例」頁面上有兩個關於為決策和程式碼型體驗設定 Web SDK 的教學課程。[閱讀全文](../code-based/code-based-decisioning-implementations.md#tutorials)
+* 現在，「程式碼型實作方法範例」頁面上有兩個關於為決策和程式碼型體驗設定 Web SDK 的教學課程。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#tutorials)
 
-* 已新增附註，以指定從首次發佈起最多 2 年 (730 天) 仍可存取資產和影像，並在到期後需要重新發佈。[閱讀全文](../content-management/proofs.md)
+* 已新增附註，以指定從首次發佈起最多 2 年 (730 天) 仍可存取資產和影像，並在到期後需要重新發佈。 [閱讀全文](../content-management/proofs.md)
 
-* 全面的 AI 助理內容提示指南現已推出。本指南會教導您如何製作有效的提示，以建立高轉換率、符合品牌的行銷內容。了解撰寫行銷目標、使用品牌資產和針對不同管道最佳化內容的最佳做法。[閱讀全文](../content-management/ai-assistant-prompting-guide.md)
+* 全面的 AI 助理內容提示指南現已推出。 本指南會教導您如何製作有效的提示，以建立高轉換率、符合品牌的行銷內容。 了解撰寫行銷目標、使用品牌資產和針對不同管道最佳化內容的最佳做法。 [閱讀全文](../content-management/ai-assistant-prompting-guide.md)
 
-* 區段定義文件已新增附註，以澄清 `frequencyMap` 屬性不支援用於區段定義，且無法用作客群細分條件的一部分。對於以頻率為基礎的目標定位，請考慮在商業規則下使用頻率上限規則。[閱讀全文](../audience/creating-a-segment-definition.md)
-* API 呼叫回應文件中已新增一個範例，說明如何在原生管道中使用自訂動作回應。此範例示範如何在電子郵件、推播和簡訊中使用 Handlebars 語法，從自訂動作回應中反覆處理巢狀陣列。[閱讀全文](../action/action-response.md#response-in-channels)
+* 區段定義文件已新增附註，以澄清 `frequencyMap` 屬性不支援用於區段定義，且無法用作客群細分條件的一部分。 對於以頻率為基礎的目標定位，請考慮在商業規則下使用頻率上限規則。 [閱讀全文](../audience/creating-a-segment-definition.md)
+* API 呼叫回應文件中已新增一個範例，說明如何在原生管道中使用自訂動作回應。 此範例示範如何在電子郵件、推播和簡訊中使用 Handlebars 語法，從自訂動作回應中反覆處理巢狀陣列。 [閱讀全文](../action/action-response.md#response-in-channels)
 
-* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。[閱讀全文](../action/acc-action.md#update-action)
+* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。 該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀全文](../action/acc-action.md#update-action)
 
-* 已在視覺片段文件中新增限制和最佳做法章節，以警告使用者不支援在包含動態內容的其他已解鎖片段中內嵌包含動態內容的片段。該指南包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。[閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
+* 已在視覺片段文件中新增限制和最佳做法章節，以警告使用者不支援在包含動態內容的其他已解鎖片段中內嵌包含動態內容的片段。 該指南包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。 [閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
 
-* 歷程即時報告文件中已新增疑難排解章節，以協助使用者解決遺漏的報告資料問題。該章節涵蓋與報告資料集的歷程名稱同步、資料重新整理時間、存取權限驗證和歷程狀態需求。[閱讀全文](../building-journeys/report-journey.md#troubleshooting-missing-data)
+* 歷程即時報告文件中已新增疑難排解章節，以協助使用者解決遺漏的報告資料問題。 該章節涵蓋與報告資料集的歷程名稱同步、資料重新整理時間、存取權限驗證和歷程狀態需求。 [閱讀全文](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
-* 資產文件新增了三個新的常見問題，說明資產過期和生命週期管理。涵蓋的主題包括 AEM Assets 的存留時間 (TTL) 原則 (730 天)、如何解決由於資產過期而損壞的影像，以及有關即將改善資產過期邏輯的資訊。[閱讀全文](../integrations/assets.md#faq-assets)
+* 資產文件新增了三個新的常見問題，說明資產過期和生命週期管理。 涵蓋的主題包括 AEM Assets 的存留時間 (TTL) 原則 (730 天)、如何解決由於資產過期而損壞的影像，以及有關即將改善資產過期邏輯的資訊。 [閱讀全文](../integrations/assets.md#faq-assets)
 
-* 讀取對象活動文件新增了全面的疑難排解章節，以解決進入歷程的估計和實際輪廓之間的客群計數不相符問題。該章節涵蓋時間與資料傳播問題、資料驗證與監視技巧，以及最佳做法，包括使用「批次客群評估後觸發」選項。[閱讀全文](../building-journeys/read-audience.md#audience-count-mismatch)
+* 讀取對象活動文件新增了全面的疑難排解章節，以解決進入歷程的估計和實際輪廓之間的客群計數不相符問題。 該章節涵蓋時間與資料傳播問題、資料驗證與監視技巧，以及最佳做法，包括使用「批次客群評估後觸發」選項。 [閱讀全文](../building-journeys/read-audience.md#audience-count-mismatch)
 
-* 已在客群資格事件文件中新增附註，以釐清串流細分延遲 (最長 2 小時)，並建議為時效性歷程新增等待活動或緩衝時間。[閱讀全文](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
+* 已在客群資格事件文件中新增附註，以釐清串流細分延遲 (最長 2 小時)，並建議為時效性歷程新增等待活動或緩衝時間。 [閱讀全文](../building-journeys/audience-qualification-events.md#streamed-speed-segment-qualification)
 
-* 在電子郵件護欄中新增了章節，記錄歷程發佈的 2MB 訊息內容大小限制，包括將編寫內容保持在 1MB 以下的最佳做法，以允許後端處理額外負荷。[閱讀全文](../start/guardrails.md#message-content-size)
+* 在電子郵件護欄中新增了章節，記錄歷程發佈的 2MB 訊息內容大小限制，包括將編寫內容保持在 1MB 以下的最佳做法，以允許後端處理額外負荷。 [閱讀全文](../start/guardrails.md#message-content-size)
 
-* 改善有關讀取客群活動中增量讀取選項的文件，以釐清快照計時相依性和 24 小時回顧限制，包括防止遺失輪廓的建議。[閱讀全文](../building-journeys/read-audience.md)
+* 改善有關讀取客群活動中增量讀取選項的文件，以釐清快照計時相依性和 24 小時回顧限制，包括防止遺失輪廓的建議。 [閱讀全文](../building-journeys/read-audience.md)
 
-* 已在資料集查詢護欄中新增附註，以指定查詢無法鏈結在一起。[閱讀全文](../data/lookup-aep-data.md#guidelines)
+* 已在資料集查詢護欄中新增附註，以指定查詢無法鏈結在一起。 [閱讀全文](../data/lookup-aep-data.md#guidelines)
 
-* WhatsApp 和 LINE 管道現在可用於動作行銷活動。[閱讀全文](../campaigns/campaign-content.md)
+* WhatsApp 和 LINE 管道現在可用於動作行銷活動。 [閱讀全文](../campaigns/campaign-content.md)
 
-* 登入管理文件中已新增有關歷程處理速率的完整新區段，涵蓋輪廓進入率、歷程中的事件和客群資格、等待活動影響以及動作活動影響。[閱讀全文](../building-journeys/entry-management.md#journey-processing-rate)
+* 登入管理文件中已新增有關歷程處理速率的完整新區段，涵蓋輪廓進入率、歷程中的事件和客群資格、等待活動影響以及動作活動影響。 [閱讀全文](../building-journeys/entry-management.md#journey-processing-rate)
 
-* 在設計電子郵件訊息時，系統現在會檢查關鍵設定並顯示警告和錯誤的警示。「護欄」頁面已新增有關電子郵件警示和驗證要求的資訊。[閱讀全文](../email/create-email.md#check-email-alerts)
+* 在設計電子郵件訊息時，系統現在會檢查關鍵設定並顯示警告和錯誤的警示。 「護欄」頁面已新增有關電子郵件警示和驗證要求的資訊。 [閱讀全文](../email/create-email.md#check-email-alerts)
 
-* 表示無法為先前建立之產品建議啟用或停用的頻率上限的警告說明，已從「將限制新增至產品建議」頁面中移除。[閱讀全文](../offers/offer-library/add-constraints.md#capping)
+* 表示無法為先前建立之產品建議啟用或停用的頻率上限的警告說明，已從「將限制新增至產品建議」頁面中移除。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
 
-* 現在提供有關如何使用歷程步驟事件的文件。[閱讀全文](../reports/journey-step-events-overview.md)
+* 現在提供有關如何使用歷程步驟事件的文件。 [閱讀全文](../reports/journey-step-events-overview.md)
 
-* 推出有關歷程進入和退出條件的全新全面指南，其中包含最佳做法、真實範例，以及在 Adobe Journey Optimizer 中管理輪廓進入和退出歷程時機的實用指引。[閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
+* 推出有關歷程進入和退出條件的全新全面指南，其中包含最佳做法、真實範例，以及在 Adobe Journey Optimizer 中管理輪廓進入和退出歷程時機的實用指引。 [閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
 
-* 推出新頁面，說明如何反覆處理訊息中的內容資料。本指南說明如何使用 Handlebars 語法，以顯示個人化中事件、自訂動作回應、資料集查詢和其他內容來源的動態清單。[閱讀全文](../personalization/iterate-contextual-data.md)
+* 推出新頁面，說明如何反覆處理訊息中的內容資料。 本指南說明如何使用 Handlebars 語法，以顯示個人化中事件、自訂動作回應、資料集查詢和其他內容來源的動態清單。 [閱讀全文](../personalization/iterate-contextual-data.md)
 
-* 有關識別歷程中捨棄事件的查詢已更正，以包括區段匯出工作錯誤、Dispatcher 捨棄和狀態機器捨棄的適當篩選器。[閱讀全文](../reports/query-examples.md#common-queries)
+* 有關識別歷程中捨棄事件的查詢已更正，以包括區段匯出工作錯誤、Dispatcher 捨棄和狀態機器捨棄的適當篩選器。 [閱讀全文](../reports/query-examples.md#common-queries)
 
-* 已在查詢範例文件中的所有 37 個查詢範例中新增介紹性句子，以提供更好的背景資訊並解釋每個查詢在呈現 SQL 程式碼之前的用途。這可幫助使用者了解，並提供更清楚的指引，說明何時應使用每個查詢。[閱讀全文](../reports/query-examples.md)
+* 已在查詢範例文件中的所有 37 個查詢範例中新增介紹性句子，以提供更好的背景資訊並解釋每個查詢在呈現 SQL 程式碼之前的用途。 這可幫助使用者了解，並提供更清楚的指引，說明何時應使用每個查詢。 [閱讀全文](../reports/query-examples.md)
 
 ## 2025 年 10 月 {#october-2025}
 
-* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。[閱讀全文](../content-management/image-to-html.md)
+* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀全文](../content-management/image-to-html.md)
 
-* 現在提供 Adobe Journey Optimizer 發行週期的相關資訊。[閱讀全文](releases.md)
+* 現在提供 Adobe Journey Optimizer 發行週期的相關資訊。 [閱讀全文](releases.md)
 
-* 全新歷程常見問題頁面已推出。[閱讀全文](../building-journeys/journey-faq.md)
+* 全新歷程常見問題頁面已推出。 [閱讀全文](../building-journeys/journey-faq.md)
 
-* 監視您的自訂動作功能現已推出。[閱讀全文](../action/reporting.md)
+* 監視您的自訂動作功能現已推出。 [閱讀全文](../action/reporting.md)
 
-* API 觸發的行銷活動現在可使用高輸送量模式。[閱讀全文](../campaigns/api-triggered-high-throughput.md)
+* API 觸發的行銷活動現在可使用高輸送量模式。 [閱讀全文](../campaigns/api-triggered-high-throughput.md)
 
-* 現在提供歷程的錯誤代碼參考。[閱讀全文](../building-journeys/error-codes-reference.md)
+* 現在提供歷程的錯誤代碼參考。 [閱讀全文](../building-journeys/error-codes-reference.md)
 
-* Journey Optimizer Experimentation Accelerator 文件現已推出。[閱讀全文](../content-management/experiment-accelerator-gs.md)
+* Journey Optimizer Experimentation Accelerator 文件現已推出。 [閱讀全文](../content-management/experiment-accelerator-gs.md)
 
-* 已將新區段新增至 **formatDate** 協助程式函式文件。本節說明關鍵模式符號 (例如 y、Y、M、d 和 D) 的含義。[閱讀全文](../personalization/functions/dates.md#pattern-characters)
+* 已將新區段新增至 **formatDate** 協助程式函式文件。 本節說明關鍵模式符號 (例如 y、Y、M、d 和 D) 的含義。[閱讀全文](../personalization/functions/dates.md#pattern-characters)
 
-* 決策排名公式區段已新增 PQL 範例，說明如何根據輪廓的郵遞區號和年收入提升產品建議。[閱讀全文](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
+* 決策排名公式區段已新增 PQL 範例，說明如何根據輪廓的郵遞區號和年收入提升產品建議。 [閱讀全文](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
-* 歷程測試模式區段已新增限制，以提及測試模式不支援自訂上傳客群屬性擴充。[閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
+* 歷程測試模式區段已新增限制，以提及測試模式不支援自訂上傳客群屬性擴充。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
 
 * 已在[決策管理護欄和限制](../offers/decision-management-guardrails.md#configurations)及[決策護欄和限制](../experience-decisioning/decisioning-guardrails.md#configurations)頁面中新增區段，以指定支援的組態數上限 (20,000)，此數目對應於您沙箱中存在的上限規則總數。
 
-* 已在歷程的條件活動區段中新增附註，以記錄包含兩個以上跨裝置身分的輪廓的條件評估將會失敗。[閱讀全文](../building-journeys/conditions.md)
+* 已在歷程的條件活動區段中新增附註，以記錄包含兩個以上跨裝置身分的輪廓的條件評估將會失敗。 [閱讀全文](../building-journeys/conditions.md)
 
-* 已新增一個頁面，說明如何使用同意原則，根據客戶的選擇尊重其偏好，同時尊重其同意。[閱讀全文](../action/preference-center.md)
+* 已新增一個頁面，說明如何使用同意原則，根據客戶的選擇尊重其偏好，同時尊重其同意。 [閱讀全文](../action/preference-center.md)
 
-* 「輪廓快速入門」和「護欄」頁面已新增附註，以指定在擷取資料時，電子郵件會區分大小寫，這意味著在定位對應的收件者時，可能會建立並使用重複的輪廓。[閱讀全文](../audience/get-started-profiles.md)
+* 「輪廓快速入門」和「護欄」頁面已新增附註，以指定在擷取資料時，電子郵件會區分大小寫，這意味著在定位對應的收件者時，可能會建立並使用重複的輪廓。 [閱讀全文](../audience/get-started-profiles.md)
 
-* 已在個人化編輯器中引進新的 `render` 屬性。將其設定為 `false`，以隱藏運算式片段的內容。[閱讀全文](../personalization/use-expression-fragments.md#use-expression-fragment)
+* 已在個人化編輯器中引進新的 `render` 屬性。 將其設定為 `false`，以隱藏運算式片段的內容。 [閱讀全文](../personalization/use-expression-fragments.md#use-expression-fragment)
 
-* 在區段中新增了護欄清單，說明如何在決策原則中善用附加到決策項目的片段。[閱讀全文](../experience-decisioning/use-decision-policy.md#fragments)
+* 在區段中新增了護欄清單，說明如何在決策原則中善用附加到決策項目的片段。 [閱讀全文](../experience-decisioning/use-decision-policy.md#fragments)
 
-* 新增資料集查詢的最佳做法：隨時切換以避免索引問題，並了解批次刪除如何影響查詢資料。[閱讀全文](../data/lookup-aep-data.md#guidelines)
+* 新增資料集查詢的最佳做法：隨時切換以避免索引問題，並了解批次刪除如何影響查詢資料。 [閱讀全文](../data/lookup-aep-data.md#guidelines)
 
-* 新增了限制，以說明搭配補充識別碼使用讀取客群歷程時，僅支援統一輪廓服務客群。[閱讀全文](../building-journeys/supplemental-identifier.md#guardrails)
+* 新增了限制，以說明搭配補充識別碼使用讀取客群歷程時，僅支援統一輪廓服務客群。 [閱讀全文](../building-journeys/supplemental-identifier.md#guardrails)
 
-* Experimentation Accelerator 的文件已重新放置到另一個集合。[閱讀全文](https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/overview)
+* Experimentation Accelerator 的文件已重新放置到另一個集合。 [閱讀全文](https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/overview)
 
 ## 2025 年 9 月 {#september-2025}
 
-* 「護欄和限制」頁面已新增傳入管道區段，以收集套用至網頁、應用程式內、程式碼型體驗和內容卡管道的所有限制。其中包括所有傳入請求的尖峰量限制 (每秒 5,000 個傳入請求)，以及最多 500 個作用中的傳入動作。[閱讀全文](../start/guardrails.md#inbound-guardrails)
+* 「護欄和限制」頁面已新增傳入管道區段，以收集套用至網頁、應用程式內、程式碼型體驗和內容卡管道的所有限制。 其中包括所有傳入請求的尖峰量限制 (每秒 5,000 個傳入請求)，以及最多 500 個作用中的傳入動作。 [閱讀全文](../start/guardrails.md#inbound-guardrails)
 
-* 已針對協調行銷活動發行「常見問題集」頁面。[閱讀全文](../orchestrated/orchestrated-campaigns-faq.md)
+* 已針對協調行銷活動發行「常見問題集」頁面。 [閱讀全文](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 已在歷程步驟事件文件中新增疑難排解章節，其中包含最常捨棄事件類型的定義、常見原因和疑難排解步驟。[閱讀全文](../reports/sharing-field-list.md#discarded-events)
+* 已在歷程步驟事件文件中新增疑難排解章節，其中包含最常捨棄事件類型的定義、常見原因和疑難排解步驟。 [閱讀全文](../reports/sharing-field-list.md#discarded-events)
 
-* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。[閱讀全文](../building-journeys/supplemental-identifier.md#exit-criteria)
+* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀全文](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 疑難排解章節已新增到暫停歷程中了解的輪廓捨棄。[閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 疑難排解章節已新增到暫停歷程中了解的輪廓捨棄。 [閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
 
-* 結構描述概觀文件中已新增資訊，以區分用於協調行銷活動的標準和關聯式結構描述。[閱讀全文](../data/gs-data.md)
+* 結構描述概觀文件中已新增資訊，以區分用於協調行銷活動的標準和關聯式結構描述。 [閱讀全文](../data/gs-data.md)
 
 * 已在決策和決策管理文件中新增有關成功訓練[自動最佳化](../experience-decisioning/ranking/auto-optimization-model.md)和[個人化最佳化](../experience-decisioning/ranking/personalized-optimization-model.md)模型的需求的資訊。
 
-* 已澄清互動式訊息執行 REST API 呼叫具有 60 秒的逾時時間，且內部會重試以確保傳送。[閱讀全文](../campaigns/trigger-campaigns.md)
+* 已澄清互動式訊息執行 REST API 呼叫具有 60 秒的逾時時間，且內部會重試以確保傳送。 [閱讀全文](../campaigns/trigger-campaigns.md)
 
-* 已更新「決策項目集合」頁面，以釐清定義規則時 **CONTAINS** 運算子的行為。[閱讀全文](../experience-decisioning/collections.md)
+* 已更新「決策項目集合」頁面，以釐清定義規則時 **CONTAINS** 運算子的行為。 [閱讀全文](../experience-decisioning/collections.md)
 
-* 已更新「指派優先順序分數」頁面，其中包含在&#x200B;**動作**&#x200B;活動中定義傳入頻道動作的優先順序分數的特定步驟。[閱讀全文](../conflict-prioritization/priority-scores.md#priority-action)
+* 已更新「指派優先順序分數」頁面，其中包含在&#x200B;**動作**&#x200B;活動中定義傳入頻道動作的優先順序分數的特定步驟。 [閱讀全文](../conflict-prioritization/priority-scores.md#priority-action)
 
 ## 2025 年 8 月 {#august-2025}
 
-* 新增了一個頁面，其中列出使用 [!DNL Journey Optimizer] 設計無障礙電子郵件和登陸頁面內容的最佳做法。[閱讀全文](../email/accessible-content.md)
+* 新增了一個頁面，其中列出使用 [!DNL Journey Optimizer] 設計無障礙電子郵件和登陸頁面內容的最佳做法。 [閱讀全文](../email/accessible-content.md)
 
 * 已更新歷程中的補充識別碼文件，其說明如下：
 
-   * 將補充識別碼新增到結構描述後，必須建立新事件 (適用於事件觸發的歷程) 或新欄位群組 (適用於讀取客群歷程)。現有實體不會自動重新整理，且將無法識別新識別碼。
+   * 將補充識別碼新增到結構描述後，必須建立新事件 (適用於事件觸發的歷程) 或新欄位群組 (適用於讀取客群歷程)。 現有實體不會自動重新整理，且將無法識別新識別碼。
 
    * 補充識別碼不會根據資料使用標籤和實作 (DULE) 原則驗證，並且在歷程中的資料治理檢查期間不予考慮。
 
-[閱讀全文](../building-journeys/supplemental-identifier.md)
+     [閱讀全文](../building-journeys/supplemental-identifier.md)
 
-* 行銷活動中的最佳化頁面已更新，以反映最佳化，現在也可用於歷程的事實。[閱讀全文](../content-management/gs-message-optimization.md)
+* 行銷活動中的最佳化頁面已更新，以反映最佳化，現在也可用於歷程的事實。 [閱讀全文](../content-management/gs-message-optimization.md)
 
-* 已新增教學課程影片的連結，說明如何在行銷活動中運用訊息最佳化。[閱讀全文](../content-management/gs-message-optimization.md)
+* 已新增教學課程影片的連結，說明如何在行銷活動中運用訊息最佳化。 [閱讀全文](../content-management/gs-message-optimization.md)
 
 ## 2025 年 7 月 {#july-2025}
 
@@ -351,67 +353,67 @@ ht-degree: 69%
 
 * [開始使用子網域委派](../configuration/about-subdomain-delegation.md)和[委派子網域](../configuration/delegate-subdomain.md)頁面已更新，以便更清楚地呈現不同的委派方法以及設定它們的步驟。
 
-* 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[了解更多](../content-management/create-fragments.md#content)
+* 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [了解更多](../content-management/create-fragments.md#content)
 
-* 在 Journey Optimizer 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。[閱讀全文](../configuration/delegate-subdomain.md#guardrails)
+* 在 Journey Optimizer 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀全文](../configuration/delegate-subdomain.md#guardrails)
 
-* 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。[閱讀全文](../offers/offer-library/creating-fallback-offers.md)
+* 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。 [閱讀全文](../offers/offer-library/creating-fallback-offers.md)
 
-* 已擴充套用至片段的護欄。[閱讀全文](../start/guardrails.md#fragments-guardrails)。
+* 已擴充套用至片段的護欄。 [閱讀全文](../start/guardrails.md#fragments-guardrails)。
 
-* 已新增附註，以指定新增至訊息的連結在 25 個月後到期，而鏡像頁面的連結在 90 天後到期。[閱讀全文](../email/message-tracking.md)
+* 已新增附註，以指定新增至訊息的連結在 25 個月後到期，而鏡像頁面的連結在 90 天後到期。 [閱讀全文](../email/message-tracking.md)
 
 <!--* The possible email error types that could happen upon sending email deliveries with are now listed in a dedicated section. [Read more](../configuration/email-error-types.md)-->
 
 ## 2025 年 6 月 {#june-2025}
 
-* 新增章節，說明如何使用 HTML 元件，在可自訂的片段中新增及使用富文字 (例如分行符號、粗體、斜體等)。[閱讀全文](../content-management/customizable-fragments.md#rich-text)
+* 新增章節，說明如何使用 HTML 元件，在可自訂的片段中新增及使用富文字 (例如分行符號、粗體、斜體等)。 [閱讀全文](../content-management/customizable-fragments.md#rich-text)
 
-* 決策部分已更新，其中包含專用於建立 AI 模型的特定區段。[閱讀全文](../experience-decisioning/ranking/ai-models.md)
+* 決策部分已更新，其中包含專用於建立 AI 模型的特定區段。 [閱讀全文](../experience-decisioning/ranking/ai-models.md)
 
-* 新增在 journeyStep 事件動作中使用 `actionExecutionTime` 欄位的建議。[閱讀全文](../reports/sharing-execution-fields.md#actionexecutiontime-field)
+* 新增在 journeyStep 事件動作中使用 `actionExecutionTime` 欄位的建議。 [閱讀全文](../reports/sharing-execution-fields.md#actionexecutiontime-field)
 
-* 已新增關於 `messageID` 的備註，該備註可能不會對於每個個別傳遞都是唯一的。[閱讀全文](../data/datasets-query-examples.md)
+* 已新增關於 `messageID` 的備註，該備註可能不會對於每個個別傳遞都是唯一的。 [閱讀全文](../data/datasets-query-examples.md)
 
-* 新增有關資料衛生操作中歷史事件管理的建議。[閱讀全文](../privacy/data-hygiene.md#data-hygiene-recommendations)
+* 新增有關資料衛生操作中歷史事件管理的建議。 [閱讀全文](../privacy/data-hygiene.md#data-hygiene-recommendations)
 
-* 新增不支援在沙箱之間移轉之登陸頁面的護欄。[閱讀全文](../configuration/copy-objects-to-sandbox.md#global)
+* 新增不支援在沙箱之間移轉之登陸頁面的護欄。 [閱讀全文](../configuration/copy-objects-to-sandbox.md#global)
 
-* 針對自訂動作的自訂驗證不支援巢狀 JSON 物件，新增警示說明。[閱讀全文](../datasource/external-data-sources.md)
+* 針對自訂動作的自訂驗證不支援巢狀 JSON 物件，新增警示說明。 [閱讀全文](../datasource/external-data-sources.md)
 
-* 在電子郵件設計工具中新增條件式內容變體命名的警告說明。[閱讀全文](../personalization/create-conditions.md)
+* 在電子郵件設計工具中新增條件式內容變體命名的警告說明。 [閱讀全文](../personalization/create-conditions.md)
 
-* 更新「取消委派登陸頁面子網域」區段。[閱讀全文](../landing-pages/lp-subdomains.md#undelegate-subdomain)
+* 更新「取消委派登陸頁面子網域」區段。 [閱讀全文](../landing-pages/lp-subdomains.md#undelegate-subdomain)
 
-* 釐清使用補充性識別碼時的歷程重新進入規則。[閱讀全文](../building-journeys/supplemental-identifier.md#guardrails)
+* 釐清使用補充性識別碼時的歷程重新進入規則。 [閱讀全文](../building-journeys/supplemental-identifier.md#guardrails)
 
-* 新增附註，說明在事件設定期間選取補充性識別碼屬性時，必須在進階模式中使用運算式編輯器。[了解更多](../building-journeys/supplemental-identifier.md#add)
+* 新增附註，說明在事件設定期間選取補充性識別碼屬性時，必須在進階模式中使用運算式編輯器。 [了解更多](../building-journeys/supplemental-identifier.md#add)
 
-* 已新增歷程重新進入如何處理補充性識別碼的說明。[了解更多](../building-journeys/supplemental-identifier.md#guardrails)
+* 已新增歷程重新進入如何處理補充性識別碼的說明。 [了解更多](../building-journeys/supplemental-identifier.md#guardrails)
 
 ## 2025 年 5 月 {#may-2025}
 
-* 目前已經可以到「連線系統和環境」區段那邊，使用 Journey Optimizer 提供的 Adobe 整合功能。[閱讀全文](../integrations/ajo-integrations.md)
+* 目前已經可以到「連線系統和環境」區段那邊，使用 Journey Optimizer 提供的 Adobe 整合功能。 [閱讀全文](../integrations/ajo-integrations.md)
 
-* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。[閱讀全文](../integrations/content-integrations.md)
+* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀全文](../integrations/content-integrations.md)
 
 * 已更新 Adobe Experience Platform 和 Journey Optimizer 的架構圖。 [閱讀全文](../start/get-started.md#architecture)
 
 * 新增有關個人化編輯器遊樂場的影片，以便幫助您瞭解如何使用樣本資料，編寫並測試個人化程式碼。 [閱讀全文](../personalization/personalize.md#video-perso)
 
-* 種子清單上允許的頁數上限已從 50 頁提高至 300 頁。[閱讀全文](../configuration/seed-lists.md#create-seed-list)
+* 種子清單上允許的頁數上限已從 50 頁提高至 300 頁。 [閱讀全文](../configuration/seed-lists.md#create-seed-list)
 
 * [建立決定原則] 頁面已加入新步驟，會詳細說明當使用程式碼型體驗編輯器中的決定原則時，該如何繞排程式碼。 [閱讀全文](../experience-decisioning/create-decision.md#create-decision)
 
-* 已在程式碼型體驗檔案中新增備註，如此一來，當您在同一個表面上執行多個程式碼型體驗動作時，如果使用者符合多重動作的資格，行銷活動或歷程的優先順序分數就會決定要傳遞哪些內容給他們參考。[閱讀全文](../code-based/code-based-surface.md#surface-definition)
+* 已在程式碼型體驗檔案中新增備註，如此一來，當您在同一個表面上執行多個程式碼型體驗動作時，如果使用者符合多重動作的資格，行銷活動或歷程的優先順序分數就會決定要傳遞哪些內容給他們參考。 [閱讀全文](../code-based/code-based-surface.md#surface-definition)
 
-* 有關在歷程中的疑難排解傳入動作新頁面上，提供逐步指南這件事，讓您可以在聯絡支援之前，先獨立找出問題所在，及時解決問題。[閱讀全文](../building-journeys/troubleshooting-inbound.md)
+* 有關在歷程中的疑難排解傳入動作新頁面上，提供逐步指南這件事，讓您可以在聯絡支援之前，先獨立找出問題所在，及時解決問題。 [閱讀全文](../building-journeys/troubleshooting-inbound.md)
 
 * 已新增[頁面](../code-based/code-based-decisioning-implementations.md)，以便說明如何在程式碼型體驗中使用決策功能時，將下列標幟新增至用戶端實作：
 
-   * 正在新增 `dryRun` 標幟，以便測試程式碼型體驗中的決策。[閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+   * 正在新增 `dryRun` 標幟，以便測試程式碼型體驗中的決策。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * 請將重複資料刪除套用至程式碼型體驗中的決策請求。[閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+   * 請將重複資料刪除套用至程式碼型體驗中的決策請求。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## 2025 年 4 月 {#apr-2025}
 
@@ -424,25 +426,25 @@ ht-degree: 69%
 * 已更新歷程測試頁面，其中備註說明必須在使用的事件中包含身分命名空間。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 目前您無法透過 [!UICONTROL Journey Optimizer] 使用者介面取消委派子網域，請洽詢您的 Adobe 代表。 已詳細說明立即取消委託子網域的步驟，包括[電子郵件](../configuration/delegate-subdomain.md#undelegate-subdomain)、[簡訊](../sms/sms-subdomains.md#undelegate-subdomain)、[網頁體驗](../web/web-delegated-subdomains.md#undelegate-subdomain)和[登陸頁面](../landing-pages/lp-subdomains.md#undelegate-subdomain)。 <!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * 已新增有關歷程上限 API 選用的 `maxHttpConnections` 參數說明，包括如何將其與相同端點的節流設定一起使用的指引。 [閱讀全文](../configuration/throttling.md)
-* 在「決策」區段新增指引，說明如果已核准的產品建議項目用於集合或決策，則無法刪除。包含使用&#x200B;**[!UICONTROL 復原核准]**&#x200B;選項將其狀態變更為「草稿」的步驟。 [閱讀全文](../experience-decisioning/items.md#manage)
+* 在「決策」區段新增指引，說明如果已核准的產品建議項目用於集合或決策，則無法刪除。 包含使用&#x200B;**[!UICONTROL 復原核准]**&#x200B;選項將其狀態變更為「草稿」的步驟。 [閱讀全文](../experience-decisioning/items.md#manage)
 * 有關沙箱的資訊已歸類至新的「沙箱管理」區段。 這個新的區段提供如何使用和指派沙箱的相關資訊，以及如何使用套件匯出與匯入功能，在多個沙箱中複製物件，例如歷程、內容範本或片段。 [閱讀全文](../administration/sandboxes.md)
 
 ## 2025 年 3 月 {#mar-2025}
 
-* 已更新「客群資格篩選」事件的相關頁面，並新增建議。[閱讀全文](../building-journeys/audience-qualification-events.md)
-* 所有客戶現在都能使用自訂動作疑難排解功能 (GA)。[閱讀全文](../action/troubleshoot-custom-action.md)
+* 已更新「客群資格篩選」事件的相關頁面，並新增建議。 [閱讀全文](../building-journeys/audience-qualification-events.md)
+* 所有客戶現在都能使用自訂動作疑難排解功能 (GA)。 [閱讀全文](../action/troubleshoot-custom-action.md)
 * 資料衛生現在是產品使用者介面的資料生命週期。 說明文件已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
 * 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
 * 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
 * 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
 * Adobe Journey Optimizer 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
-* 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。[閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 * 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
 
 ## 2025 年 2 月 {#feb-2025}
 
-* 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。[閱讀全文](../building-journeys/read-audience.md)
+* 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。 [閱讀全文](../building-journeys/read-audience.md)
 * 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
 * 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
@@ -456,13 +458,13 @@ ht-degree: 69%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。[閱讀全文](../email/email-settings.md#execution-address)
+* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。 [閱讀全文](../email/email-settings.md#execution-address)
 
-* **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。[閱讀全文](../reports/deliverability.md#reputation)
+* **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。 [閱讀全文](../reports/deliverability.md#reputation)
 
-* **標頭參數**&#x200B;區段已更新，以反映使用者介面的新標籤和變更。[閱讀全文](../email/email-settings.md#email-header)
+* **標頭參數**&#x200B;區段已更新，以反映使用者介面的新標籤和變更。 [閱讀全文](../email/email-settings.md#email-header)
 
-* **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至這個轉寄電子郵件地址。如果未指定轉寄電子郵件，這些電子郵件將被捨棄。[閱讀全文](../email/email-settings.md#email-settings)
+* **轉寄電子郵件**&#x200B;區段已更新，以指定所有傳送至&#x200B;**寄件者電子郵件**&#x200B;地址的電子郵件都會轉寄至這個轉寄電子郵件地址。 如果未指定轉寄電子郵件，這些電子郵件將被捨棄。 [閱讀全文](../email/email-settings.md#email-settings)
 
 * 傳遞至 API 觸發之行銷活動要求中的內容屬性大小上限已更新為 200kb。 [閱讀全文](../campaigns/api-triggered-campaigns.md#contextual)
 
@@ -474,7 +476,7 @@ ht-degree: 69%
 
 * **設定電子郵件設定** 頁面已分割成數個子頁面，以改善可讀性，包括專用於[清單取消訂閱](../email/list-unsubscribe.md)、[標頭參數](../email/header-parameters.md) 以及 [URL 追蹤](../email/url-tracking.md)的新獨立頁面。
 
-+++ 2024 年
++++ 2024
 
 ## 2024 年 12 月 {#nov-2024}
 
@@ -484,21 +486,21 @@ ht-degree: 69%
 
 * 有關 [!DNL Journey Optimizer]2024 年 10 月發布內容所有新功能，還有改良功能之詳情，請參閱本文件。 [閱讀全文](release-notes.md)
 * [!DNL Journey Optimizer] 中可用的所有通訊頻道，目前都已完成分組，會列入文件的專用區段中。 [閱讀全文](../channels/gs-channels.md)
-* 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。[閱讀全文](../code-based/code-based-configuration.md)
-* 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。[閱讀全文](../web/web-configuration.md#web-page-matching-rule)
-* 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。[閱讀全文](../data/get-started-datasets.md)
-* 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。[閱讀全文](../code-based/test-code-based.md#preview-on-device)
-* 已新增頁面，說明如何善用自訂上傳對象做決策。[閱讀全文](../offers/custom-upload-decisioning.md)
-* 已新增新頁面，以便介紹 Journey Optimizer 中可用的決定功能。[閱讀全文](../experience-decisioning/gs-decision.md)
+* 已改善&#x200B;**設定程式碼型體驗**&#x200B;分頁，讓程序更清楚，包括說明什麼是表面 URI 的區段。 [閱讀全文](../code-based/code-based-configuration.md)
+* 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
+* 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。 [閱讀全文](../data/get-started-datasets.md)
+* 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。 [閱讀全文](../code-based/test-code-based.md#preview-on-device)
+* 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
+* 已新增新頁面，以便介紹 Journey Optimizer 中可用的決定功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
 * Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
 
 * 有關 [!DNL Journey Optimizer] 2024 年 9 月發行版本的新功能和改進項目的詳情，請參閱本文件。 [閱讀全文](release-notes.md)
-* 新增歷程重試管理的相關章節。[閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
-* 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。[閱讀全文](../configuration/external-systems.md#faq)
-* 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。[閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。[閱讀全文](../content-management/generative-full-content.md#video)
+* 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
+* 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
+* 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀全文](../content-management/generative-full-content.md#video)
 
 +++
 
