@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3902'
 ht-degree: 17%
 
 ---
@@ -19,25 +19,25 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="最新資訊"
->abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能，並修正錯誤。所有變更都會在每月最後一週整合於發行說明。"
+>abstract="**Adobe Journey Optimizer** 持續提供新功能、現有功能的增強功能，並修正錯誤。 所有變更都會在每月最後一週整合於發行說明。"
 
 [!DNL Adobe Journey Optimizer]遵循持續傳遞模式，允許Adobe持續提供新功能、增強功能和修正。 此方法可讓您分階段推出可擴充的功能，以確保所有環境的效能和穩定性。
 
-基於此模型，發行說明會在每月發行之間更新。如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](releases.md)。
+基於此模型，發行說明會在每月發行之間更新。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](releases.md)。
 
-[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
+[!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2026年4月搶鮮版發行說明 {#april-26-rn}
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。連結、畫面及更新的文件會在發行當日發佈於發行說明。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於發行說明。
 
 另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
 
-**發布內容日期**：2026 年 4 月 28-29 日
+**發行日期**： 2026年4月28至29日
 
-### 全新功能 {#april-26-features}
+### 新功能 {#april-26-features}
 
 <table>
 <thead>
@@ -295,7 +295,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
-<p>先前以「有限可用性」發行，現在此功能可用於所有環境（一般可用性）。 在此「一般可用性」版本中，現在支援映象頁面。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 在此「一般可用性」版本中，現在支援映象頁面。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細文件</a>。</p>
 <p>推出日期： 2026年4月6日</p>
@@ -310,7 +310,7 @@ ht-degree: 17%
 
 * **行銷活動儀表板中的品牌一致性分數** — 您現在可以直接在行銷活動儀表板中評估您的品牌一致性分數，以確保內容保持在品牌上。 這可讓您快速驗證指引，而不需開啟內容設計工具。
 
-* **提示助理增強功能** — 當提示不明確、不完整或混用多個目標時，**提示助理現在可以詢問重點澄清問題，或在產生請求前建議更清楚的重寫請求，協助您在助理回應之前先釘選所需的內容，這樣可改善一致性並減少重試次數。**&#x200B;[了解更多](../content-management/ai-assistant-prompting-guide.md)
+* **提示助理增強功能** — 當提示不明確、不完整或混用多個目標時，**提示助理現在可以詢問重點澄清問題，或在產生請求前建議更清楚的重寫請求，協助您在助理回應之前先釘選所需的內容，這樣可改善一致性並減少重試次數。**[了解更多](../content-management/ai-assistant-prompting-guide.md)
 
 #### 決策
 
@@ -341,10 +341,6 @@ ht-degree: 17%
 * **WhatsApp互動按鈕與追蹤** - Journey Optimizer中的WhatsApp現在支援範本與使用案例所需的互動按鈕，以及內建的互動追蹤，因此您可以測量參與度，並搭配其他管道報表分析效能。
 
 #### Adobe Experience Manager整合
-
-* **內容警告器選取器** -Adobe Experience Manager Assets和內容片段選取器現在已由&#x200B;**內容警告器選取器**&#x200B;取代，此統一模組可讓您瀏覽、搜尋、篩選和存取所有AEM Assets和AEM內容片段。 也包含Dynamic Media轉譯支援，可讓您在選取Dynamic Media資產時，從UI新增影像轉譯。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-* **使用Dynamic Media的計時器開啟時間個人化** - Journey Optimizer與Adobe Experience Manager Dynamic Media整合可為Dynamic Media範本啟用開啟時間個人化，解除鎖定超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。
 
 * **Adobe Experience Manager內容片段變數支援** — 您可以在插入Adobe Experience Manager內容片段時選取&#x200B;**內容片段變數** （例如語言或頻道變數），以改良地區設定和多語言情境的處理方式。 [閱讀全文](../integrations/aem-fragments.md#aem-variations)
 
@@ -406,12 +402,12 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
-**發行日期**：2026 年 3 月 24-25 日
+**發行日期**： 2026年3月24至25日
 
-### 全新功能 {#march-26-features}
+### 新功能 {#march-26-features}
 
 <table>
 <thead>
@@ -596,7 +592,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>由<strong>Adobe Experience Platform Agent Orchestrator</strong>提供技術支援的<strong>Journey Agent</strong>可在Journey Optimizer中使用，並可讓您透過自然語言介面分析歷程。 您現在也可以直接在Journey Agent中產生和管理頻道特定內容、建立電子郵件和推播之類的頻道內容、套用和預覽範本、透過提示調整色調和風格，以及在<strong>內容Designer</strong>中開啟內容以進行內容內編輯。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=zh-Hant" target="_blank">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細文件</a>。</p>
 <p>推出日期： 2026年3月4日</p>
 </td>
 </tr>
