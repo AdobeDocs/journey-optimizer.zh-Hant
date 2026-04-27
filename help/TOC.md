@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[使用整合](using/integrations/external-sources.md)
+      + {hide-from-toc}[使用整合](using/integrations/integrations.md)
       + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[可用的廠商](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [資料集存留時間 (TTL) 護欄](using/data/datasets-ttl.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
-      + [內建結構 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+      + [內建方案>](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [使用 Adobe Experience Platform 資料](using/data/lookup-aep-data.md)
    + [查詢](using/data/get-started-queries.md)
 + 管道設定 {#configuration}
@@ -969,7 +969,7 @@ ht-degree: 91%
    + [屬性型存取控制](using/administration/attribute-based-access.md)
    + [物件等級的存取控制](using/administration/object-based-access.md)
 + 隱私權 {#privacy}
-   + [隱私](/help/rp_landing_pages/privacy-landing-page.md)
+   + [隱私權](/help/rp_landing_pages/privacy-landing-page.md)
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權要求](using/privacy/requests.md)
    + [針對資源的稽核動作](using/privacy/audit-logs.md)

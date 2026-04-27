@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: 整合，廠商，協力廠商
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 目錄：
 
-* [使用整合](external-sources.md)
+* [使用整合](integrations.md)
 * **[開始使用廠商整合](vendor-integration-gs.md)**
 * [可用的廠商](vendor-integration.md)
 * [常見問題集](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 
-當每個系統公開適合您使用案例的&#x200B;**API端點**，且與整合如何發出要求及使用回應相容時，您可以在Adobe Journey Optimizer中使用&#x200B;**整合**，透過HTTP **呼叫**&#x200B;外部系統。 如需完整的工作流程，請參閱[使用整合](external-sources.md)。
+當每個系統公開適合您使用案例的&#x200B;**API端點**，且與整合如何發出要求及使用回應相容時，您可以在Adobe Journey Optimizer中使用&#x200B;**整合**，透過HTTP **呼叫**&#x200B;外部系統。 如需完整的工作流程，請參閱[使用整合](integrations.md)。
 
 所描述的協力廠商解決方案清單是說明性的，並非詳盡無遺。 在滿足產品需求時，也可以使用其他平台。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 * **回應格式：**&#x200B;整合從&#x200B;**JSON**&#x200B;回應對應欄位。 設計呼叫，讓API傳回適合編寫時對映的JSON。
 * **承載與欄位：**&#x200B;僅要求與對應您需要的屬性。 較小的回應可減少延遲，並限制敏感資料的曝光。
-* **端點形狀：**&#x200B;當產品預期目標查閱時，偏好使用穩定、**單一資源**&#x200B;擷取（例如一個專案、產品或成員）而非廣泛清單或分頁端點。 請參閱[限制和排除](#limitations-exclusions)和[使用整合](external-sources.md)。
+* **端點形狀：**&#x200B;當產品預期目標查閱時，偏好使用穩定、**單一資源**&#x200B;擷取（例如一個專案、產品或成員）而非廣泛清單或分頁端點。 請參閱[限制和排除](#limitations-exclusions)和[使用整合](integrations.md)。
 * **磁碟區和可靠性：**&#x200B;遵守廠商的&#x200B;**速率限制**。 為您的管道設定&#x200B;**逾時**、**重試**&#x200B;和&#x200B;**快取**&#x200B;原則（例如批次電子郵件與異動傳送），並在載入下驗證。
 * **安全性：**&#x200B;根據您組織的原則儲存和輪換權杖、API金鑰和OAuth認證。 請勿在訊息內容中內嵌秘密。
 
