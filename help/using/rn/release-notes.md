@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
+source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
 workflow-type: tm+mt
-source-wordcount: '3965'
+source-wordcount: '4017'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,22 @@ ht-degree: 17%
 <table>
 <thead>
 <tr>
+<th><strong>整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>整合</b>功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 透過簡化您提取外部資料和<b>可撰寫內容</b>的方式，此功能可讓您更輕鬆地跨所有管道提供個人化的動態訊息。</p>
+<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>歷程模擬</strong><br/></th>
 </tr>
 </thead>
@@ -49,7 +65,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>此整合目前不適用於 Healthcare Shield 或 Privacy 和 Security Shield。</p>
 </td>
 </tr>
 </tbody>

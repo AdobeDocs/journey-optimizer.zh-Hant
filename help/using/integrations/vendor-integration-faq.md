@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 整合，常見問題集，外部資料，個人化
 hide: true
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '892'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 目錄：
 
-* [使用整合](external-sources.md)
+* [使用整合](integrations.md)
 * [開始使用廠商整合](vendor-integration-gs.md)
 * [可用的廠商](vendor-integration.md)
 * **[常見問題集](vendor-integration-faq.md)**
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 它將外部資料來源連線至Journey Optimizer，因此您可以將來自協力廠商系統的內容和資料提取至您的行銷活動和歷程中，並使用該資料個人化訊息。
 
-➡️ [進一步瞭解整合概述](external-sources.md)
+➡️ [進一步瞭解整合概述](integrations.md)
 
 +++
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 管理員建立並啟用技術設定（**[!UICONTROL 設定]** > **[!UICONTROL 整合]** > **[!UICONTROL 管理]** > **[!UICONTROL 建立整合]**）。 行銷人員在文字或HTML元件中使用&#x200B;**[!UICONTROL 新增個人化]**、開啟&#x200B;**[!UICONTROL 整合]**、選擇使用中的整合，以及對應屬性。
 
-➡️ [進一步瞭解管理員和行銷人員工作流程](external-sources.md)
+➡️ [進一步瞭解管理員和行銷人員工作流程](integrations.md)
 
 +++
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 前往左側功能表中的&#x200B;**[!UICONTROL 組態]**&#x200B;區段，從&#x200B;**[!UICONTROL 整合]**&#x200B;卡片開啟&#x200B;**[!UICONTROL 管理]**，然後選取&#x200B;**[!UICONTROL 建立整合]**。
 
-➡️ [進一步瞭解如何建立整合](external-sources.md#configure)
+➡️ [進一步瞭解如何建立整合](integrations.md#configure)
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 例如，忠誠度系統的獎勵積分、產品價格資訊、推薦引擎的建議以及傳遞狀態等物流更新。
 
-➡️ [進一步瞭解來自協力廠商系統的範例資料](external-sources.md)
+➡️ [進一步瞭解來自協力廠商系統的範例資料](integrations.md)
 
 ➡️ [進一步瞭解廠商整合範例](vendor-integration.md)
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 您提供名稱和說明、API端點URL （可選擇包含路徑變數）、路徑範本值、**[!UICONTROL GET]**&#x200B;或&#x200B;**[!UICONTROL POST]**、選用的標頭和查詢引數、驗證方法、原則設定（例如逾時和選用的快取或重試）、對應欄位的範例JSON回應，然後執行&#x200B;**[!UICONTROL 傳送測試連線]**&#x200B;並在有效時執行&#x200B;**[!UICONTROL 啟用]**。
 
-➡️ [進一步瞭解整合設定](external-sources.md#configure)
+➡️ [進一步瞭解整合設定](integrations.md#configure)
 
 +++
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 這些驗證型別可供使用： **[!UICONTROL 無驗證]**、**[!UICONTROL API金鑰]**、**[!UICONTROL 基本驗證]**&#x200B;和&#x200B;**[!UICONTROL OAuth 2.0]** （在適用情況下，具有OAuth的承載設定）。
 
-➡️ [進一步瞭解驗證型別](external-sources.md#configure)
+➡️ [進一步瞭解驗證型別](integrations.md#configure)
 
 +++
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 貼上JSON回應範例，讓系統可偵測資料型別，且您可以選擇哪些欄位可公開供訊息中的個人化使用。 您可以限制行銷人員在編寫期間可以使用哪些欄位。
 
-➡️ [進一步瞭解回應裝載對應](external-sources.md#configure)
+➡️ [進一步瞭解回應裝載對應](integrations.md#configure)
 
 +++
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 
 在行銷活動或歷程內容中，在文字或HTML元件上使用&#x200B;**[!UICONTROL 新增個人化]**，前往&#x200B;**[!UICONTROL 整合]**，選取整合，然後儲存。 使用個人化編輯器中的Pills模式，您可以將值對應至設定中的變數（例如URL中的標頭或查詢引數或路徑變數）。
 
-➡️ [進一步瞭解整合的個人化](external-sources.md#personalization)
+➡️ [進一步瞭解整合的個人化](integrations.md#personalization)
 
 +++
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 可以。 在目前產品限制內，此功能可用於&#x200B;**傳出**&#x200B;管道（例如電子郵件、簡訊和推播）的歷程和行銷活動。
 
-➡️ [進一步瞭解歷程與行銷活動](external-sources.md#limitations)
+➡️ [進一步瞭解歷程與行銷活動](integrations.md#limitations)
 
 +++
 
@@ -116,7 +116,7 @@ ht-degree: 1%
 
 整合功能在片段中&#x200B;**不支援**。 在產品支援的行銷活動和歷程訊息內容中使用整合。
 
-➡️ [進一步瞭解片段和Beta版限制](external-sources.md#limitations)
+➡️ [進一步瞭解片段和Beta版限制](integrations.md#limitations)
 
 +++
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 支援&#x200B;**傳出**&#x200B;管道（例如電子郵件、簡訊和推播）。
 
-➡️ [進一步瞭解支援的頻道](external-sources.md#limitations)
+➡️ [進一步瞭解支援的頻道](integrations.md#limitations)
 
 +++
 
@@ -134,7 +134,7 @@ ht-degree: 1%
 
 對於API呼叫回應，欄位對應支援&#x200B;**JSON**。 此工作流程無法使用非JSON的原始二進位影像輸出和格式。
 
-➡️ [進一步瞭解JSON和回應格式](external-sources.md#limitations)
+➡️ [進一步瞭解JSON和回應格式](integrations.md#limitations)
 
 +++
 
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 支援目標為特定內容的&#x200B;**擷取** API。 此整合模型不支援&#x200B;**清單** API （廣泛清單或分頁模式）。
 
-➡️ [進一步瞭解擷取與列出API](external-sources.md#limitations)
+➡️ [進一步瞭解擷取與列出API](integrations.md#limitations)
 
 +++
 
@@ -152,15 +152,15 @@ ht-degree: 1%
 
 組態是&#x200B;**[!UICONTROL 組態]** > **[!UICONTROL 整合]**&#x200B;下的管理員工作流程。 確切的許可權名稱取決於貴組織的Admin Console和Journey Optimizer產品設定檔。 請向您的管理員或Adobe代表確認。
 
-➡️ [進一步瞭解整合的設定位置](external-sources.md#configure)
+➡️ [進一步瞭解整合的設定位置](integrations.md#configure)
 
 +++
 
 +++ 整合是否會取代Experience Platform來源的Adobe Journey Optimizer聯結器？
 
-不可以。 **整合**&#x200B;適用於您從API驅動之訊息內容中的個人化欄位。 **來源**&#x200B;和其他資料擷取功能有不同的用途（例如批次資料擷取和設定檔擴充）。 將每項功能用於其預期範圍。
+不會。 **整合**&#x200B;適用於您從API驅動之訊息內容中的個人化欄位。 **來源**&#x200B;和其他資料擷取功能有不同的用途（例如批次資料擷取和設定檔擴充）。 將每項功能用於其預期範圍。
 
-➡️ [深入瞭解整合的功能](external-sources.md)
+➡️ [深入瞭解整合的功能](integrations.md)
 
 ➡️ [進一步瞭解Experience Platform來源](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant){target="_blank"}
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 
 驗證端點URL、HTTP方法、路徑範本、標頭和查詢引數、驗證以及原則逾時。 調整後使用&#x200B;**[!UICONTROL 傳送測試連線]**。 針對裝載問題，請確定範例反映有效的JSON，且所選欄位符合API傳回的內容。
 
-➡️ [進一步瞭解測試連線和裝載驗證](external-sources.md#configure)
+➡️ [進一步瞭解測試連線和裝載驗證](integrations.md#configure)
 
 +++
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 整合必須在成功測試後&#x200B;**啟動**。 當行銷人員開啟&#x200B;**[!UICONTROL 整合]**&#x200B;時，只會顯示作用中的整合。 如果整合仍為草稿或非使用中，請先完成啟用。
 
-➡️ [進一步瞭解測試連線和啟用](external-sources.md#configure)
+➡️ [進一步瞭解測試連線和啟用](integrations.md#configure)
 
 +++
 

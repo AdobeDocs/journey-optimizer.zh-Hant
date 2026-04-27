@@ -10,7 +10,7 @@ level: Beginner
 keywords: 整合
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 目錄：
 
-* **[使用整合](external-sources.md)**
+* **[使用整合](integrations.md)**
 * [開始使用廠商整合](vendor-integration-gs.md)
 * [可用的廠商](vendor-integration.md)
 * [常見問題集](vendor-integration-faq.md)
@@ -95,7 +95,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 無驗證]**：適用於不需要任何認證的開放API。
 
-   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、]** API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。**&#x200B;**
+   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
 
    * **[!UICONTROL 基本驗證]**：使用標準HTTP基本驗證。 輸入&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
 
@@ -121,9 +121,9 @@ ht-degree: 1%
 
 身為行銷人員，您可以使用已設定的整合來個人化您的內容。 請依照下列步驟操作：
 
-1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;**。]**
+1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]&#x200B;**。**
 
-[進一步瞭解元件](../email/content-components.md)
+   [進一步瞭解元件](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 
