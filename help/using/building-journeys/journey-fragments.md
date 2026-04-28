@@ -13,8 +13,8 @@ badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
 source-git-commit: 869c1e32911d873a4a565cd0f81a8ff6b92ff96b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 1%
+source-wordcount: '1286'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="另存為歷程片段"
->abstract="為您的片段輸入唯一名稱，然後按一下「儲存」。 所選的節點將儲存為片段詳細目錄中可用的可重複使用片段。"
+>abstract="為您的片段輸入唯一名稱，然後按一下「儲存」。 所選節點將儲存為可重複使用的片段，並在「片段清單」中提供使用。"
 
 您可以兩種方式建立歷程片段：直接從歷程畫布（建議）或從片段詳細目錄。
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
    從歷程畫布![將節點另存為片段](assets/journey_fragment_create_canvas.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。片段會儲存為草稿。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。 片段會儲存為草稿。
 
 >[!TIP]
 >如果您從歷程建立片段，請在儲存片段之前[測試您的歷程](testing-the-journey.md) **&#x200B;**，以確保選取的節點如預期般運作。
@@ -83,7 +83,7 @@ ht-degree: 1%
 1. 完成時，按一下&#x200B;**[!UICONTROL 儲存]**，將片段儲存為草稿。
 
 >[!CAUTION]
->測試模式在片段編輯器中無法使用。 這表示在啟動片段並將其插入歷程之前，您無法驗證已設定活動的行為。 對於邏輯正確性至關重要的片段，請考慮先在完整歷程[中建置並測試節點](testing-the-journey.md)，然後從上方的畫布索引標籤將其儲存為片段。
+>測試模式在片段編輯器中無法使用。 這表示在啟動片段並將其插入歷程之前，您無法驗證已設定活動的行為。 對於邏輯正確性至關重要的片段，請考慮先在完整歷程[&#128279;](testing-the-journey.md)中建置並測試節點，然後從上方的畫布索引標籤將其儲存為片段。
 
 >[!ENDTABS]
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="歷程片段屬性"
->abstract="從詳細目錄中開啟片段以修改其節點、屬性、標籤或標籤。 必須先停用作用中的片段，才能進行編輯。"
+>abstract="從清單中開啟片段，以便修改其節點、屬性、標記或標籤。 已啟用的片段必須先停用，才能進行編輯。"
 
 若要編輯片段，請按一下其名稱，從&#x200B;**[!UICONTROL 片段詳細目錄]**&#x200B;中開啟該片段。 在片段編寫UI中，您可以：
 
@@ -125,16 +125,16 @@ ht-degree: 1%
 從片段詳細目錄，您可以對片段執行下列動作：
 
 * **[!UICONTROL 開啟]**：按一下片段名稱以編輯片段。
-* **[!UICONTROL 複製]**：從&#x200B;**[!UICONTROL 更多動作]** (...)圖示建立片段的復本。
-* **[!UICONTROL 刪除]**：從&#x200B;**[!UICONTROL 更多動作]** (...)圖示刪除使用中詳細目錄中的片段。
-* **[!UICONTROL 編輯標籤]** — 從&#x200B;**[!UICONTROL 更多動作]** (...)圖示新增或移除片段的標籤。
+* **[!UICONTROL 複製]**：從&#x200B;**[!UICONTROL 更多動作]** (...)建立片段的復本 圖示。
+* **[!UICONTROL 刪除]**：從作用中詳細目錄刪除&#x200B;**[!UICONTROL 更多動作]** (...)的片段 圖示。
+* **[!UICONTROL 編輯標籤]** — 從&#x200B;**[!UICONTROL 更多動作]** (...)新增或移除片段的標籤 圖示。
 
 ## 在歷程中使用片段 {#use-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="新增歷程片段"
->abstract="選擇器中只有&#x200B;**[!UICONTROL 作用中]**&#x200B;片段可用。 插入片段會建立其節點的&#x200B;**靜態副本** — 對原始片段所做的任何後續更新都不會反映在歷程中。"
+>abstract="選擇器中僅提供&#x200B;**[!UICONTROL 「已啟用」]**&#x200B;片段。 插入片段會建立其節點的&#x200B;**靜態副本**：原始片段之後的所有更新，都不會反映在該歷程中。"
 
 若要將片段插入歷程：
 
@@ -144,7 +144,7 @@ ht-degree: 1%
 1. 選取片段。 其節點會複製到拖放點的畫布中。
 
 >[!NOTE]
->選擇器中只有&#x200B;**[!UICONTROL 作用中]**&#x200B;片段可用。 插入片段會建立其節點的&#x200B;**靜態副本** — 對原始片段所做的任何後續更新都不會反映在歷程中。
+>選擇器中僅提供&#x200B;**[!UICONTROL 「已啟用」]**&#x200B;片段。 插入片段會建立其節點的&#x200B;**靜態副本**：原始片段之後的所有更新，都不會反映在該歷程中。
 
 ## 護欄與限制 {#guardrails}
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 **一般**
 
-* 可使用[歷程片段](../start/search-filter-categorize.md)類別下的&#x200B;**[!UICONTROL 整合式搜尋]**&#x200B;列找到片段。
+* 可使用&#x200B;**[!UICONTROL 歷程片段]**&#x200B;類別下的[整合式搜尋](../start/search-filter-categorize.md)列找到片段。
 * 片段支援[標籤](tags.md)和&#x200B;**標籤**。
 * 支援[稽核記錄](../privacy/audit-logs.md)。
 * 在舊棧疊上執行的歷程（使用內嵌行銷活動）不支援歷程片段。 在使用此功能之前，複製此類歷程以移動到新棧疊。

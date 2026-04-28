@@ -12,8 +12,8 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3446'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="歷程屬性"
->abstract="設定此歷程的全域設定，包括名稱、標籤、進入規則、時區、日期、逾時和衝突管理。 唯讀引數預設為隱藏。 可用選項會因歷程狀態、您的許可權和產品設定而異。"
+>abstract="設定此歷程的全域設定，包括名稱、標記、進入規則、時區、日期、逾時和衝突管理。 唯讀參數預設為隱藏。 可用選項將視歷程狀態、您的權限及產品設定而異。"
 
 ## 存取歷程的屬性 {#access-properties}
 
@@ -77,7 +77,7 @@ ht-degree: 10%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁[進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們](expression/journey-properties.md)。
+在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
 
 ## 進入與重新進入 {#entrance}
 
@@ -90,20 +90,20 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="預設情況下，新歷程允許重新進入。例如，如果您想在某人進入商店時提供一次性禮物，您可以取消勾選「**允許重新進入**」選項。"
+>abstract="預設情況下，新歷程允許重新進入。 例如，如果您想在某人進入商店時提供一次性禮物，您可以取消勾選「**允許重新進入**」選項。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
-預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
+預設情況下，新歷程允許重新進入。 您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
 ### 重新進入等待期  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract="設定允許輪廓在單一歷程中再次進入歷程之前的等待時間。這會防止使用者在選定的期間內重新進入歷程。最長持續時間：90 天。"
+>abstract="設定允許輪廓在單一歷程中再次進入歷程之前的等待時間。 這會防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
-啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
+啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
 ## 管理存取權 {#manage-access}
 
@@ -124,12 +124,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選取設定檔可開始進入此歷程的日期。如果沒有設定開始日期，則會預設為歷程的發佈日期。"
+>abstract="選取設定檔可開始進入此歷程的日期。 如果沒有設定開始日期，則會預設為歷程的發佈日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="設定歷程結束的日期。在此日期，主要輪廓將自動退出此歷程，且不允許任何新的進入。"
+>abstract="設定歷程結束的日期。 在此日期，主要輪廓將自動退出此歷程，且不允許任何新的進入。"
 
 依預設，設定檔發佈後即可進入您的歷程，並可一直保留，直到達到[全域歷程逾時](#global_timeout)。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
@@ -144,7 +144,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
 >title="逾時或錯誤"
->abstract="在歷程視為逾時之前，指定應嘗試執行動作或評估條件的所需時間。建議值介於 1 至 30 秒之間。"
+>abstract="在歷程視為逾時之前，指定應嘗試執行動作或評估條件的所需時間。 建議值介於 1 至 30 秒之間。"
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 
@@ -222,26 +222,26 @@ ht-degree: 10%
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
-      <p>TTL擴充功能之後發佈的新一次性歷程有什麼改變？</p>
+      <p>What happens to new one-time journeys published after the TTL extension?</p>
     </td>
     <td>
-      <p>進入新歷程的設定檔會自動擁有91天的TTL。</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>在TTL擴充功能之後發佈的新週期性歷程沒有強制重新進入會怎樣？</p>
-    </td>
-    <td>
-      <p>進入新歷程的設定檔會自動擁有91天的TTL。</p>
+      <p>Profiles entering the new journey will have a TTL of 91 days automatically.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>在TTL擴充功能之後發佈的新循環歷程會如何處理，因為會強制重新進入？</p>
+      <p>What happens to new recurring journeys without forced reentrance published after the TTL extension?</p>
     </td>
     <td>
-      <p>進入新歷程的設定檔的TTL將等於週期期間。 例如，如果歷程每日執行，則TTL將為1天。</p>
+      <p>Profiles entering the new journey will have a TTL of 91 days automatically.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>What happens to new recurring journeys with forced reentrance published after the TTL extension?</p>
+    </td>
+    <td>
+      <p>Profiles entering the new journey will have a TTL equal to the recurrence period. For example, if the journey runs daily, the TTL will be 1 day.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -249,23 +249,23 @@ ht-degree: 10%
       <p>進入TTL擴充功能啟動前所發佈之歷程的個人資料會發生什麼事？</p>
     </td>
     <td>
-      <p>設定檔的TTL為30天（HIPAA為7天），與原始發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>The profile will have a TTL of 30 days (7 days for HIPAA), consistent with the original publication time. For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>啟動TTL擴充功能時，透過歷程執行的設定檔會發生什麼事？</p>
+      <p>What happens to a profile running through a journey when the TTL extension is launched?</p>
     </td>
     <td>
-      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>在TTL擴充功能啟動後重新發佈的先前歷程版本中，執行中的設定檔有何改變？</p>
+      <p>What happens to a running profile in a previous journey version that is republished after the TTL extension launch?</p>
     </td>
     <td>
-      <p>設定檔將維持30天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>設定檔將維持30天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -273,23 +273,23 @@ ht-degree: 10%
       <p>在TTL擴充功能啟動後，新設定檔進入重新發佈的歷程版本會發生什麼事？</p>
     </td>
     <td>
-      <p>設定檔的TTL為91天，符合新重新發佈的歷程版本的TTL。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
+      <p>設定檔的TTL為91天，符合新重新發佈的歷程版本的TTL。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>91天後，我永不中斷的週期性讀取對象歷程會停止嗎？</p>
+      <p>Will my always-on recurring Read Audience journey stop after 91 days?</p>
     </td>
     <td>
-      <p>不可以。 只要循環讀取對象歷程已發佈，沒有結束日期，就會維持<strong>即時</strong>。 它只會在執行<strong>最後一次發生</strong>後的91天內，移至<strong>已完成</strong>狀態。 91天全域逾時適用於流經歷程的個別設定檔（每個設定檔的最大作用期間），而不是歷程的即時狀態。</p>
+      <p>不會。 A recurring Read Audience journey with no end date remains <strong>Live</strong> as long as it is published. It moves to <strong>Finished</strong> status only 91 days after the execution of its <strong>last occurrence</strong>. The 91-day global timeout applies to individual profiles flowing through the journey (maximum active duration per profile), not to the journey's Live status.</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>91天歷程逾時和91天報告期間之間有何差異？</p>
+      <p>What is the difference between the 91-day journey timeout and the 91-day reporting window?</p>
     </td>
     <td>
-      <p>以下是兩個不同的概念。 <strong>歷程全域逾時</strong> （91天）是個別設定檔在歷程中保持作用中狀態的最長時間–91天後，設定檔會退出並刪除其資料。 <strong>報告期間</strong> （大約91天）是UI中的顯示限制：超過~91天的效能資料不會再顯示在報告中，但歷程本身會繼續執行，而新設定檔會繼續進入。</p>
+      <p>These are two separate concepts. <strong>歷程全域逾時</strong> （91天）是個別設定檔在歷程中保持作用中狀態的最長時間–91天後，設定檔會退出並刪除其資料。 <strong>報告期間</strong> （大約91天）是UI中的顯示限制：超過~91天的效能資料不會再顯示在報告中，但歷程本身會繼續執行，而新設定檔會繼續進入。</p>
     </td>
   </tr>
 </table>
@@ -299,9 +299,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="合併原則"
->abstract="系統會根據您選取的事件或對象，自動擷取合併原則。 此合併原則會在整個歷程中使用。"
+>abstract="系統會根據您選取的事件或客群，自動取得合併原則。 此合併原則會在整個歷程中使用。"
 
-從[!DNL Adobe Journey Optimizer]擷取設定檔資料時，[!DNL Adobe Experience Platform]使用合併原則。 根據歷程型別，會使用不同的合併原則：
+從[!DNL Adobe Experience Platform]擷取設定檔資料時，[!DNL Adobe Journey Optimizer]使用合併原則。 根據歷程型別，會使用不同的合併原則：
 
 * 在&#x200B;**[讀取對象](read-audience.md)**&#x200B;或&#x200B;**[對象資格](audience-qualification-events.md)**&#x200B;歷程中：使用對象中的合併原則
 * 在&#x200B;**[單一事件](../event/about-events.md)**&#x200B;歷程中：使用預設的合併原則
@@ -320,7 +320,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出條件"
->abstract="本區段會顯示退出條件選項。您可以為您的歷程建立一個或多個退出條件規則及篩選器。"
+>abstract="本區段會顯示退出條件選項。 您可以為您的歷程建立一個或多個退出條件規則及篩選器。"
 
 ### 歷程退出條件 {#exit-criteria-desc}
 
@@ -413,9 +413,9 @@ ht-degree: 10%
 
 * 套用&#x200B;**規則集**&#x200B;以根據上限規則將此歷程排除給部分對象。 [學習如何使用規則集](../conflict-prioritization/rule-sets.md)
 
-* 將&#x200B;**優先順序分數**&#x200B;指派給歷程，範圍從0到100。 分數越高則表示優先順序越高。 此處插入的優先順序值將由這個歷程所包含的任何傳入動作 (例如應用程式內) 繼承。[瞭解如何使用優先順序分數](../conflict-prioritization/priority-scores.md)
+* 將&#x200B;**優先順序分數**&#x200B;指派給歷程，範圍從0到100。 分數越高則表示優先順序越高。 此處插入的優先順序值將由這個歷程所包含的任何傳入動作 (例如應用程式內) 繼承。 [瞭解如何使用優先順序分數](../conflict-prioritization/priority-scores.md)
 
-  如果遇到其他行銷活動或歷程使用相同傳入管道設定的情況，將為收件者顯示優先順序分數最高的傳入動作。如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。
+  如果遇到其他行銷活動或歷程使用相同傳入管道設定的情況，將為收件者顯示優先順序分數最高的傳入動作。 如果多個歷程或行銷活動具有相同的分數，則會選擇最近修改的元素。
 
 * **檢視與其他歷程、行銷活動或頻道設定衝突**。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 [瞭解如何識別歷程中的潛在衝突](../conflict-prioritization/conflicts.md)
 

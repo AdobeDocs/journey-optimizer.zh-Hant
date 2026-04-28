@@ -12,8 +12,8 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 3%
+source-wordcount: '1767'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="客群資格篩選"
->abstract="當設定檔符合或退出[!DNL Adobe Experience Platform]對象時觸發歷程進入或繼續。 串流對象建議使用；批次案例使用讀取對象活動。"
+>abstract="當輪廓符合或退出 [!DNL Adobe Experience Platform] 客群時，即觸發歷程進入或延續。 建議對串流客群使用；批次情境請使用「讀取客群」活動。"
 
 ## 關於對象資格鑑定事件{#about-segment-qualification}
 
@@ -47,28 +47,28 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="標籤"
->abstract="新增選用標籤，以在報告和測試模式記錄中識別此活動。"
+>abstract="新增選用標籤，以便在報告和測試模式記錄中識別此活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="客群"
->abstract="選取要利用的[!DNL Adobe Experience Platform]對象。 歷程會監聽此對象的設定檔入口和出口。"
+>abstract="選取要利用的 [!DNL Adobe Experience Platform] 客群。 歷程會監聽輪廓進入和退出此客群的情形。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行為"
->abstract="選擇是否聆聽對象入口、出口或兩者。"
+>abstract="選擇要監聽客群進入情形、退出情形或兩者皆監聽。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身分識別類型"
->abstract="選取用來識別個人的身分型別。 只有以人物為基礎的身分名稱空間才可使用。"
+>abstract="選取身分識別類型以識別個體。 僅提供以人為基礎的身分識別命名空間。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="合併原則"
->abstract="系統會自動從您選取的對象中擷取合併原則，並在整個歷程中套用。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="深入瞭解合併原則"
+>abstract="系統會自動從您選取的客群中取得合併原則，並套用至整個歷程。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="了解更多關於合併原則的資訊"
 
 
 1. 展開&#x200B;**[!UICONTROL 事件]**&#x200B;類別，並將&#x200B;**[!UICONTROL 對象資格]**&#x200B;活動放入您的畫布中。
@@ -95,10 +95,10 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至&#x200B;**中的** Realized **和** Exited[!DNL Adobe Experience Platform]對象參與狀態。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。
    >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
 
-1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 依預設，此欄位會預先填入最後使用的名稱空間。
+1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 此欄位預設會自動填入上次使用的命名空間。
 
    >[!NOTE]
    >

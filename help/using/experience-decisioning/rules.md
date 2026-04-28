@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '943'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="建立規則"
->abstract="您可以建立兩種類型的規則：**決定規則**，可用於決定項目或選取策略，藉以控制應該向哪些客群呈現哪些項目，或&#x200B;**目標選擇規則**，決定符合接收個人化內容資格的特定客群細分群體，或輸入特定歷程路徑。<br/><br/>建立決定規則時，您可以選取「**[!UICONTROL 啟用資料集查詢]**」，使用 Adobe Experience Platform 資料。這可讓您根據動態的外部屬性來定義適用性條件，確保決定項目只會在相關時顯示。"
+>abstract="您可以建立兩種類型的規則：**決定規則**，可用於決定項目或選取策略，以控制應該向哪些客群呈現哪些項目，或&#x200B;**目標選擇規則**，決定符合資格接收個人化內容或進入特定歷程路徑的特定客群細分群體。<br/><br/>建立決定規則時，您可以選取&#x200B;**[!UICONTROL 「啟用資料集查詢」]**&#x200B;以使用 Adobe Experience Platform 資料。 這可讓您根據動態的外部屬性來定義適用性條件，確保決定項目只會在相關時顯示。"
 
 ## 關於規則 {#about}
 
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->目標定位規則目前處於「有限可用性」。請聯絡您的 Adobe 代表以取得存取權。
+>目標定位規則目前處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。
 >
 >請注意，此功能僅適用於已購買&#x200B;**決策**&#x200B;附加元件產品的組織。 此功能將逐步向所有客戶推出。
 

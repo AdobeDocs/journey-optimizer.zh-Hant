@@ -2,18 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 時區管理
-description: 瞭解時區管理
+description: Learn about time zone management
 feature: Journeys, Profiles
 topic: Content Management
 role: User
 level: Intermediate
-keywords: 時區，屬性，歷程，條件，時間，日期，自訂
+keywords: time zone, properties, journey, condition, time, date, custom
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 9%
+source-wordcount: '378'
+ht-degree: 23%
 
 ---
 
@@ -22,50 +22,50 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
 >title="歷程時區"
->abstract="選取歷程的時區。當使用固定時區時，對於所有進入歷程的個人來說都是相同的。"
+>abstract="選取歷程的時區。 當使用固定時區時，對於所有進入歷程的個人來說都是相同的。"
 
 
-您可以在歷程的[屬性](../building-journeys/journey-properties.md#timezone)中定義時區。
+You can define a time zone in the [properties](../building-journeys/journey-properties.md#timezone) of your journey.
 
-若要存取歷程屬性，請選取畫面右上角的鉛筆圖示。
+To access journey properties, select the pencil icon in the top-right of the screen.
 
-此時區將用於包含時間元素的歷程的每個活動，例如：
+This time zone will be used for every activity of the journey containing a time element such as:
 
-* [時間條件](../building-journeys/conditions.md#time_condition)
-* [日期條件](../building-journeys/conditions.md#date_condition)
-* [自訂等待](../building-journeys/wait-activity.md#custom)
+* [Time condition](../building-journeys/conditions.md#time_condition)
+* [Date condition](../building-journeys/conditions.md#date_condition)
+* [Custom wait](../building-journeys/wait-activity.md#custom)
 
 <!--
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以選取[固定時區](#fixed-timezone)，或選擇使用使用者設定檔[中定義的時區](#timezone-from-profiles)。
+You can select a [fixed time zone](#fixed-timezone) or choose to use the time zone [defined in the user profile](#timezone-from-profiles).
 
-## 定義固定時區 {#fixed-timezone}
+## Define a fixed time zone {#fixed-timezone}
 
-時區可以固定。 清除預先定義的時區，並從下拉式清單中選取一個時區。 如果您使用固定時區，則所有進入歷程的個人都將使用相同的時區。
+The time zone can be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey.
 
-若要這麼做，請在&#x200B;**[!UICONTROL 歷程屬性]**&#x200B;窗格中選取時區。
+To do so, in the **[!UICONTROL Journey Properties]** pane, select a time zone.
 
-![歷程屬性中的時區選取下拉式清單](assets/journey72.png)
+![Timezone selection dropdown in journey properties](assets/journey72.png)
 
 ## 使用輪廓時區 {#timezone-from-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="使用輪廓時區"
->abstract="核取此選項以在&#x200B;**等待**&#x200B;和&#x200B;**條件**&#x200B;活動中使用即時設定檔時區。 如果為設定檔定義了時區，則會擷取該時區並在歷程中使用。 如果沒有，時區就是上方時區欄位中定義的時區。"
+>abstract="勾選此選項，即可在&#x200B;**「等待」**&#x200B;及&#x200B;**「條件」**&#x200B;活動中使用即時輪廓時區。 如果已經定義輪廓的時區，系統便會取得該時區並在歷程中使用。 若未設定，將使用上面時區欄位中定義的時區。"
 
-如果歷程的進入事件具有名稱空間，這表示歷程可以存取[!DNL Adobe Experience Platform]的即時客戶設定檔服務，您可能會想要使用設定檔層級定義的時區。 若要這麼做，請在&#x200B;**屬性**&#x200B;中勾選&#x200B;**在等待和條件中使用設定檔時區**。 預設不會勾選此選項。
+If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of [!DNL Adobe Experience Platform], you may want to use the time zone defined at the profile level. To do so, in **Properties**, check **Use Profile time zone in waits and conditions**. This option is not checked by default.
 
-如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，則使用的時區是時區欄位中定義的時區。
+If a time zone has been defined for a profile, it is retrieved and used by the journey. If it hasn&#39;t, the time zone used is the one defined in the time zone field.
 
-![資料來源中的個人化計時設定檔時區設定](assets/journey73.png)
+![Profile time zone configuration in data sources for personalized timing](assets/journey73.png)
 
 >[!NOTE]
 >
->設定檔時區與&#x200B;**偏好設定詳細資料**&#x200B;欄位群組中現有的&#x200B;**時區**&#x200B;欄位搭配使用。
+>The profile time zone works with the **timeZone** field existing in the **Preference Details** field group.
 
-## 在運算式中使用時區 {#timezone-in-expressions}
+## Use time zones in expressions {#timezone-in-expressions}
 
-歷程的開始和結束日期無法連結至特定時區。 它們會自動關聯至執行個體的時區。
+The start and end dates of a journey cannot be linked to a specific time zone. They are automatically associated to the instance&#39;s time zone.
