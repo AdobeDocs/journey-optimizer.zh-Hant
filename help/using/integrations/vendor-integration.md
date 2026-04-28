@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: 整合，廠商，協力廠商
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# 可用的廠商
+# 範例廠商組態 {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ ht-degree: 5%
 
 * [使用整合](integrations.md)
 * [開始使用廠商整合](vendor-integration-gs.md)
-* **[可用的廠商](vendor-integration.md)**
+* **[範例廠商組態](vendor-integration.md)**
 * [常見問題集](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+客戶和協力廠商提供者應負責視需要保護API端點，以符合其安全性和法規遵循需求。
 
 >[!ENDSHADEBOX]
 
