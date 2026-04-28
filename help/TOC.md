@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[使用整合](using/integrations/integrations.md)
       + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[可用的廠商](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[範例廠商組態](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
