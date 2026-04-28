@@ -10,10 +10,10 @@ level: Beginner
 keywords: 整合
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 9%
 
 1. 導覽至左側功能表中的&#x200B;**[!UICONTROL 組態]**&#x200B;區段，然後從&#x200B;**[!UICONTROL 整合]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 管理]**。
 
-   然後，按一下[建立整合] **&#x200B;**&#x200B;以開始新的組態。
+   然後，按一下[建立整合] ****&#x200B;以開始新的組態。
 
    ![](assets/external-integration-config-1.png)
 
@@ -113,7 +113,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 無驗證]**：適用於不需要任何認證的開放API。
 
-   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
+   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**[!UICONTROL  API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
 
    * **[!UICONTROL 基本驗證]**：使用標準HTTP基本驗證。 輸入&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
 
@@ -124,7 +124,7 @@ ht-degree: 9%
 1. 設定API要求的&#x200B;**[!UICONTROL 原則組態]** （例如&#x200B;**[!UICONTROL 逾時]**&#x200B;期間），並選擇啟用節流、快取和/或重試。
 
    啟用節流時，支援的速率範圍從&#x200B;**50** TPS （最小）到&#x200B;**5000** TPS （最大）。
-啟用重試時，其他失敗依預設會跟隨&#x200B;**三次**&#x200B;次重試，在連續嘗試之間有&#x200B;**200毫秒**、**400毫秒**&#x200B;和&#x200B;**800毫秒**。
+啟用重試時，其他失敗依預設會跟隨**三次**&#x200B;次重試，在連續嘗試之間有&#x200B;**200毫秒**、**400毫秒**&#x200B;和&#x200B;**800毫秒**。
 
 1. 透過&#x200B;**[!UICONTROL 回應承載]**&#x200B;欄位，您可以決定樣例輸出的哪些欄位需要用於訊息個人化。
 
@@ -133,6 +133,10 @@ ht-degree: 9%
 1. 選擇要公開以進行個人化的欄位，並指定其對應的資料型別。
 
    ![](assets/external-integration-config-5.png)
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL 回應承載]**&#x200B;設定定義了編寫的預期回應，包括該步驟中套用的任何結構描述。 行銷人員只能參考公開的欄位，其他路徑的Token無法在編輯器中驗證。
 
 1. 使用&#x200B;**[!UICONTROL 傳送測試連線]**&#x200B;來驗證整合。
 
@@ -146,11 +150,18 @@ ht-degree: 9%
 
 每個佇列的訊息也包含有效視窗(TTL)。 如果處理延遲，且訊息位於該視窗之後，系統&#x200B;**會捨棄該視窗**&#x200B;並發出&#x200B;**`MessageValidityExclusion`**&#x200B;事件，讓過時的工作從佇列中清除，而資源仍可繼續使用。
 
+
 ## 使用外部整合進行個人化 {#personalization}
+
+在使用外部整合進行個人化之前，請注意，整合呼叫的排程和隔離取決於執行上下文：
+
+* **批次執行** （批次行銷活動、協調的行銷活動以及API觸發的行銷活動）：每次批次執行都會在專用的隔離環境中運作。 因此，呼叫外部系統的同時批次執行不會相互競爭或互相阻礙。
+
+* **單一執行** （單一歷程、批次歷程及API觸發的交易式行銷活動）：每個品牌沙箱會隔離整合流量，因此一個品牌的緩慢外部API不會延遲另一個品牌。 在您的沙箱中，同時整合可能會短暫延遲其他整合支援的訊息；每則訊息最多會在到期前12小時嘗試。
 
 身為行銷人員，您可以使用已設定的整合來個人化您的內容。 請依照下列步驟操作：
 
-1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]&#x200B;**。**
+1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]**]。**[!UICONTROL 
 
    [進一步瞭解元件](../email/content-components.md)
 
@@ -186,6 +197,10 @@ ht-degree: 9%
 1. 定義整合屬性後，您現在可以按一下![新增](assets/do-not-localize/Smock_Add_18_N.svg)圖示，將內容中的整合欄位用於個人化傳訊。
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >範本中的權杖只能使用管理員在整合設定中公開的欄位。 例如，`{{weatherResponse.temperature}}`在`temperature`公開時有效；如果`humidity`未公開，編輯器中會拒絕`{{weatherResponse.humidity}}`。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
