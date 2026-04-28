@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '3543'
+source-wordcount: '3575'
 ht-degree: 26%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="行銷活動即時報告"
->abstract="行銷活動即時報告可即時測量和視覺化行銷活動的影響和效能，範圍僅限於過去 24 小時。您的報告會分為不同的小工具，詳述行銷活動的成功和錯誤。每個報告儀表板都可以透過調整大小或移除小工具來修改。"
+>abstract="行銷活動即時報告可即時測量和視覺化行銷活動的影響和效能，範圍僅限於過去 24 小時。 您的報告會分為不同的小工具，詳述行銷活動的成功和錯誤。 每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
@@ -37,7 +37,7 @@ ht-degree: 26%
 * [直接郵件](#direct-mail-tab)
 
 >[!AVAILABILITY]
->協調的行銷活動僅支援簡訊、電子郵件和推播頻道。 其他管道（應用程式內、Web、直接郵件等）無法用於協調的行銷活動，也不會出現在報表中。
+>協調的行銷活動僅支援簡訊、電子郵件和推播頻道。 其他管道（應用程式內、網頁、直接郵件等） 無法在協調的行銷活動中使用，也不會出現在報表中。
 
 行銷活動&#x200B;**[!UICONTROL 即時報告]**&#x200B;會分成不同的Widget，詳細說明行銷活動的成功與錯誤。 如有需要，可以調整每個Widget的大小並將其刪除。 如需詳細資訊，請參閱此[區段](../reports/live-report.md#modify-dashboard)。
 
@@ -288,7 +288,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="依類型劃分的互動"
 >abstract="「依類型劃分的互動」圖表和表格透過追蹤過去 24 小時內的任何點選、關閉或互動，詳細說明使用者如何與應用程式內訊息進行互動。"
 
-依型別&#x200B;**[!UICONTROL 的]**&#x200B;互動圖表和表格提供過去24小時內設定檔如何與您的應用程式內訊息互動、追蹤動作（例如點選、解除）或任何其他形式的參與之詳細描述。
+依型別&#x200B;]**的**[!UICONTROL &#x200B;互動圖表和表格提供過去24小時內設定檔如何與您的應用程式內訊息互動、追蹤動作（例如點選、解除）或任何其他形式的參與之詳細描述。
 
 ## 推播通知標籤 {#push-live}
 
@@ -412,13 +412,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 錯誤]**：發生無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 已排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+* **[!UICONTROL Excluded]**: Number of profiles which have been excluded by Adobe Journey Optimizer.
 
 +++
 
 ## 簡訊標籤 {#sms-live}
 
-從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 簡訊]**&#x200B;索引標籤會詳細說明與行銷活動中傳送之簡訊相關的主要資訊。
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL SMS]** tab details the main information relative to the SMS message sent in your campaign.
 
 ### 簡訊 - 統計資料 {#sms-statistics}
 
@@ -429,13 +429,13 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_live_sms_statistics.png)
 
-**[!UICONTROL SMS — 統計資料]**&#x200B;表格提供過去24小時內與您的SMS訊息相關之基本資料的簡要摘要，包含關鍵量度，例如目標訊息數目和成功傳遞訊息的計數。
+The **[!UICONTROL SMS - Statistics]** table provides a concise summary of essential data related to your SMS messages within the last 24 hours, encompassing key metrics such as the number of targeted messages and the count of successfully delivered messages.
 
-+++ 進一步瞭解簡訊 — 統計量度
++++ Learn more about SMS - Statistics metrics
 
-* **[!UICONTROL 執行時間]**：每次執行您週期性SMS訊息的開始時間。 若要只鎖定一或多個循環的SMS訊息，請從&#x200B;**[!UICONTROL 執行時間]**&#x200B;下拉式清單中選取它。
+* **[!UICONTROL Execution time]**: Start time of every execution of your recurring SMS message. To target only one or multiple recurring SMS messages, select it from the **[!UICONTROL Execution time]** drop-down.
 
-* **[!UICONTROL 目標]**：符合目標設定檔資格的使用者設定檔數目。
+* **[!UICONTROL Targeted]**: Number of user profiles who qualify as target profiles.
 
 * **[!UICONTROL 已排除]**：從目標設定檔中排除且未收到訊息的使用者設定檔數目。
 
@@ -445,7 +445,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 * **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
 
-* **[!UICONTROL 點按次數]**： URL造訪總數。
+* **[!UICONTROL Clicks]**: Total number of URL visits.
 
 +++
 
@@ -458,9 +458,9 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_live_sms_performance_date.png)
 
-**[!UICONTROL 依日期的SMS效能]** Widget提供與訊息相關之重要資訊的詳細總覽，透過圖表呈現，提供過去24小時內效能趨勢的深入分析。
+The **[!UICONTROL SMS Performance by date]** widget offers a detailed overview of key information related to your messages, presented through a graph, providing insights into the performance trends over the last 24 hours.
 
-+++ 深入瞭解簡訊 — 依據日期量度的效能
++++ Learn more about SMS - Performance by date metrics
 
 * **[!UICONTROL 已傳送]**：傳送總數。
 
@@ -470,16 +470,16 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 簡訊 — 錯誤原因 {#sms-error-reasons}
+### 簡訊 - 錯誤原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
 >title="簡訊 - 錯誤原因"
 >abstract="「簡訊 - 錯誤原因」圖表和表格讓你能夠確認過去 24 小時內傳送過程中發生的特定錯誤。"
 
-**[!UICONTROL 排除的原因]**&#x200B;圖表和表格可讓您識別過去24小時內傳送簡訊過程中發生的特定錯誤，以便深入分析遇到的任何問題。
+The **[!UICONTROL Excluded Reasons]** graphs and table allow you to identify the specific errors that occurred during the sending process of your SMS messages within the last 24 hours, facilitating a thorough analysis of any issues encountered.
 
-### 簡訊 — 排除的原因 {#sms-excluded-reasons}
+### 簡訊 - 排除原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -488,7 +488,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_live_sms_excluded.png)
 
-**[!UICONTROL 排除的原因]**&#x200B;圖表和表格會以視覺化方式呈現導致目標對象中排除使用者設定檔的各種因素，以防止這些設定檔在過去24小時內接收您的SMS訊息。
+The **[!UICONTROL Excluded Reasons]** graphs and table visually depict the diverse factors that led to the exclusion of user profiles from the targeted audience, preventing them from receiving your SMS messages in the last 24 hours.
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
 
@@ -499,11 +499,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >title="簡訊 - 退回原因"
 >abstract="「退回原因」圖表和表格包含過去 24 小時內與退回郵件相關的可用資料。"
 
-**[!UICONTROL 跳出原因]**&#x200B;圖表和表格提供與跳出SMS訊息相關的資料完整總覽，針對過去24小時內SMS訊息跳出例項背後的特定原因，提供有價值的深入分析。
+The **[!UICONTROL Bounces Reasons]** graphs and table provide a comprehensive overview of data related to bounced SMS messages, delivering valuable insights into the specific reasons behind instances of SMS message bounces in the last 24 hours.
 
 ## 網頁標籤 {#web-tab}
 
-從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 網頁]**&#x200B;索引標籤會詳細說明與您的網頁相關的主要資訊。
+From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Web]** tab details the main information relative to your Web pages.
 
 ### 網頁績效 {#web-performance}
 
@@ -514,11 +514,11 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ![](assets/campaign_live_web_performance.png)
 
-**[!UICONTROL 網頁成效]** KPI提供訪客過去24小時內與您的網頁互動情況的全面分析，包含曝光數和互動數等關鍵量度。
+The **[!UICONTROL Web performance]** KPIs offer comprehensive insights into your visitors&#39; engagement with your web pages in the last 24 hours, encompassing key metrics such as Impressions and Interactions.
 
-+++ 進一步瞭解網頁效能測量結果
++++ Learn more about Web performance metrics
 
-* **[!UICONTROL 曝光次數]**：傳送給所有使用者的網頁體驗總數。
+* **[!UICONTROL Impressions]**: total number of web experiences delivered to all users.
 
 * **[!UICONTROL 互動]**：與網頁的互動總數。 這包括使用者所執行的任何動作，例如點按或任何其他互動。
 
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 直接郵件]**&#x200B;索引標籤會詳細說明與直接郵件相關的主要資訊。
 
-### 直接郵件 — 傳送統計資料 {#direct-mail-sending}
+### 直接郵件 - 傳送統計資料 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 直接郵件 — 錯誤原因 {#direct-mail-error-reasons}
+### 直接郵件 - 錯誤原因 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 直接郵件 — 錯誤原因]**&#x200B;圖表和表格提供了識別直接郵件訊息傳送過程中發生的特定錯誤的方法，允許詳細分析過去24小時內遇到的任何問題。
 
-### 直接郵件 — 排除的原因 {#direct-mail-excluded-reasons}
+### 直接郵件 - 排除原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

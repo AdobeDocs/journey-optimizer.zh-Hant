@@ -11,8 +11,8 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="建立歷程"
->abstract="使用拖放畫布跨多個管道協調訊息和動作，運用情境資料和受眾目標定位以發揮最大影響。"
+>abstract="使用拖放式畫布協調多個管道的訊息和動作，並利用內容資料和客群鎖定以達成最佳成效。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="建立您的第一個歷程"
 
 
@@ -36,13 +36,13 @@ ht-degree: 86%
 
 使用 [!DNL Journey Optimizer] 來：
 
-* 使用儲存在事件或資料來源中的情境資料，建立&#x200B;**即時協調**&#x200B;使用案例。 
+* 使用儲存在事件或資料來源中的情境資料，建立&#x200B;**即時協調**&#x200B;使用案例。
 * 設計&#x200B;**多步驟進階情境**，以動態方式，回應客戶行為與企業事件
 * 大規模橫跨電子郵件、推播、簡訊、應用程式內、網頁等內容，提供&#x200B;**1:1個人化體驗**
 
 ![具有調色盤、畫布和屬性面板的歷程設計工具介面](assets/journey38.png)
 
-➡️ **準備好開始建立了嗎？在 5 分鐘** [建立歷程](journey-gs.md)。
+➡️ **準備好開始建置？** [在5分鐘內建立您的第一個歷程](journey-gs.md)。
 
 ### 歷程與行銷活動：何時使用各個 {#journeys-vs-campaigns-intro}
 
@@ -84,7 +84,7 @@ ht-degree: 86%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -94,7 +94,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -104,7 +104,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -114,7 +114,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **善用資料**
 
@@ -124,7 +124,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -134,7 +134,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調流程活動**
 
@@ -153,16 +153,16 @@ ht-degree: 86%
 
 **1. 計劃**→**2。 設計**→**3。 測試**→**4。 發佈**→**5。 監視** → **6。 最佳化**
 
-### &#x200B;1. 計劃歷程 {#plan}
+### &#x200B;1. 規劃您的歷程 {#plan}
 
 開啟設計工具之前，請先釐清目標：
 
-* **目標是什麼？**（例如：加入新客戶，重新和非使用中的使用者互動）
-* **客群有誰？** （特定區段、事件導向個人）
-* **適合哪個歷程類型？**（請參閱上述[歷程類型](#journey-types)）
-* **您將會使用哪些管道？**（電子郵件、推播、簡訊等）
+* **目標是什麼？** （例如，吸納新客戶，與不活躍的使用者重新互動）
+* **對象是誰？** （特定區段、事件導向的個人）
+* **適合哪個歷程型別？** （請參閱上述[歷程型別](#journey-types)）
+* **您將使用哪些管道？** （電子郵件、推播、簡訊等）
 
-### &#x200B;2. 請在版面中完成設計 {#design}
+### &#x200B;2. 在畫布中進行設計 {#design}
 
 使用歷程設計工具，建置流量：
 
@@ -185,7 +185,7 @@ ht-degree: 86%
 
 [測試歷程→](testing-the-journey.md) | [了解試運行→](journey-dry-run.md)
 
-### &#x200B;4. 發佈歷程 {#publish}
+### &#x200B;4. 發佈您的歷程 {#publish}
 
 一旦完成測試後，發佈即可讓歷程上線：
 
@@ -205,7 +205,7 @@ ht-degree: 86%
 
 [監視和報告 →](report-journey.md) | [設定警報→](../reports/alerts.md)
 
-### &#x200B;6. 最佳化並反覆處理 {#optimize}
+### &#x200B;6. 最佳化及反複處理 {#optimize}
 
 使用洞察來改善：
 
@@ -216,7 +216,7 @@ ht-degree: 86%
 
 [最佳化您的歷程→](optimize.md) | [傳送時間最佳化→](send-time-optimization.md)
 
-➡️ **準備好開始了嗎？** [立即建立第一個歷程→](journey-gs.md)
+➡️ **準備好開始了嗎？** [立即建立您的第一個歷程→](journey-gs.md)
 
 ## 現實世界的使用案例 {#use-cases}
 
@@ -225,7 +225,7 @@ ht-degree: 86%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -235,7 +235,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -245,7 +245,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
@@ -255,7 +255,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -265,7 +265,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多管道行銷活動**
 
@@ -275,7 +275,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -293,7 +293,7 @@ ht-degree: 86%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -303,7 +303,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -313,7 +313,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試運行**
 
@@ -323,7 +323,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -333,7 +333,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和整理**
 
@@ -343,7 +343,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -360,7 +360,7 @@ ht-degree: 86%
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -370,11 +370,11 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer]提供三種方法：
 
-* **歷程**：1:1 即時協調流程，每個輪廓都以自己的步調在步驟中行進。最適合具有條件邏輯 (例如上線、購物車放棄) 的行為導向多步驟體驗。
+* **歷程**：1:1 即時協調流程，每個輪廓都以自己的步調在步驟中行進。 最適合具有條件邏輯 (例如上線、購物車放棄) 的行為導向多步驟體驗。
 
-* **行銷活動 (動作和 API 觸發)**：將簡單的訊息傳送給客群，依排程或透過 API 觸發程序同時執行所有輪廓。最適合促銷活動、電子報、交易型訊息。
+* **行銷活動 (動作和 API 觸發)**：將簡單的訊息傳送給客群，依排程或透過 API 觸發程序同時執行所有輪廓。 最適合促銷活動、電子報、交易型訊息。
 
-* **協調的行銷活動**：使用關聯式資料（設定檔+產品/商店/預訂）進行複雜分段的多步驟批次工作流程。 所有輪廓連同確切的預先傳送計數一起處理。最適合季節性促銷、產品推出，以及需要多實體資料的行銷活動。
+* **協調的行銷活動**：使用關聯式資料（設定檔+產品/商店/預訂）進行複雜分段的多步驟批次工作流程。 所有輪廓連同確切的預先傳送計數一起處理。 最適合季節性促銷、產品推出，以及需要多實體資料的行銷活動。
 
 **主要差異**：歷程會維護即時動作的個別客戶狀態；動作和API觸發的行銷活動會批次傳送簡單訊息；協調的行銷活動會提供具有多實體分段功能的批次工作流程畫布。
 
@@ -394,11 +394,11 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++ 我可以編輯即時歷程嗎？
 
-您可以編輯有限的元素 (名稱、訊息內容)，但結構變更需要建立新版本。[了解歷程版本](publish-journey.md#journey-versions)
+您可以編輯有限的元素 (名稱、訊息內容)，但結構變更需要建立新版本。 [了解歷程版本](publish-journey.md#journey-versions)
 
 +++
 
-➡️ **更多問題？** [請檢視完整的歷程常見問題集](journey-faq.md)，包含 40 個以上的詳細答案
+➡️ **更多問題？** [檢視完整的歷程常見問答集](journey-faq.md)，包含40個以上的詳細答案
 
 ## 需要協助嗎? {#help}
 
@@ -423,4 +423,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[疑難排解執行問題](troubleshooting-execution.md)** - 偵錯歷程執行問題
 * **[疑難排解傳入活動](troubleshooting-inbound.md)** - 修正進入及資格問題
 
-**準備好建立您的第一個歷程了嗎？**&#x200B;[立即開始 →](journey-gs.md)
+**準備好建置您的第一個歷程嗎？** [立即開始→](journey-gs.md)

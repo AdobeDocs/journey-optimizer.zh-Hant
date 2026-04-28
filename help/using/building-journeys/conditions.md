@@ -12,8 +12,8 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 14%
+source-wordcount: '1921'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="條件"
->abstract="您可以使用「條件」，根據特定準則建立多條路徑，藉此定義每個個體在您歷程中的進展方式。您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。 請注意，條件現在已於最佳化活動中設定，以取代先前的條件活動。"
+>abstract="您可以使用「條件」，根據特定準則建立多條路徑，藉此定義每個個體在您歷程中的進展方式。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。 請注意，目前已改在「最佳化」活動中設定條件，以取代先前的「條件」活動。"
 
 透過&#x200B;**條件**，您可以根據特定條件建立多個路徑，以定義個人在您的歷程中如何前進。 您也可以設定處理逾時或錯誤的替代路徑，確保提供順暢的體驗。
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >
 >在歷程中建立條件路徑的新工具是[最佳化](optimize.md)活動。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從UI中移除。 現在，所有條件式邏輯都可透過此頁面上顯示的「最佳化活動」條件來處理。
 >
->如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用]**&#x200B;條件&#x200B;**[!UICONTROL 方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
+>如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**[!UICONTROL &#x200B;條件&#x200B;]**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
 
 ## 新增條件。 {#add-condition-activity}
 
@@ -55,14 +55,14 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 管理條件路徑 {#condition_paths}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="關於簡單運算式編輯器"
->abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來合併同一層級的元素。"
+>abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。 將欄位拖放到主要區域中。 若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。 然後，您可以選取邏輯運算子來合併同一層級的元素。"
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以更輕鬆地識別它們。
 
@@ -82,7 +82,7 @@ ht-degree: 14%
 >
 >此選項不適用於分割條件。 [了解更多](#percentage_split)
 
-簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來組合同一層級的元素：
+簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。 將欄位拖放到主要區域中。 若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
 * **AND** — 兩個條件的交集。 只考慮符合所有條件的元素。
 * **OR** — 兩個條件的聯合。 考慮匹配兩個條件中至少一個的元素。
@@ -95,7 +95,7 @@ ht-degree: 14%
 >
 >使用簡單編輯器無法對時間序列執行查詢（例如購買清單、過去對訊息的點按）。 為此，您需要使用進階編輯器。 請參閱[此頁面](expression/expressionadvanced.md)。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 [了解更多](../building-journeys/using-the-journey-designer.md#paths)
+當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 [了解更多](../building-journeys/using-the-journey-designer.md#paths)
 
 在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 [了解更多](expression/journey-properties.md)
 
@@ -131,39 +131,39 @@ ht-degree: 14%
 
 此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式是以[Java隨機機制](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html){target="_blank"}為基礎。
 
-在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 [了解更多](../building-journeys/testing-the-journey.md)
+In test mode, when reaching a split, the top branch is always chosen. You can reorganize the position of the split branches if you want the test to choose a different path. [了解更多](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
->請注意，在百分比分割條件中沒有按鈕可新增路徑。 路徑的數量將取決於分割的次數。 在分割條件中，您無法針對其他情況新增路徑，因為它不會發生。 人們總是會進入其中一個分割路徑。
+>Note that there is no button to add a path in the percentage split condition. The number of paths will depend on the number of splits. In split conditions, you cannot add a path for other cases as it cannot happen. People will always go into one of the split paths.
 
-![百分比分割組態，滑桿顯示流量分佈](assets/journey52.png)
+![Percentage split configuration with slider showing traffic distribution](assets/journey52.png)
 
-## 時間條件 {#time_condition}
+## Time condition {#time_condition}
 
-使用&#x200B;**[!UICONTROL 時間條件]**，根據一天中的小時和/或星期執行不同的動作。 例如，您可以決定在白天傳送推播通知，在工作日於夜間傳送電子郵件。
+Use a **[!UICONTROL Time condition]** to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send push notifications during daytime and emails at night during weekdays.
 
 >[!NOTE]
 >
->* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 [了解更多](../building-journeys/timezone-management.md)
+>* The time zone is not specific to a condition and is defined at the journey level in the journey properties. [了解更多](../building-journeys/timezone-management.md)
 >
->* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是以小時設定，從00:00到12:00。
+>* By default, the **[!UICONTROL Time condition]** is set by hour, from 00:00 to 12:00.
 
-![具有小時範圍和星期幾選擇器的時間條件](assets/journey51.png)
+![Time condition with hour range and day of week selectors](assets/journey51.png)
 
-有三個可用的篩選選項：
+Three time filtering options are available:
 
-* **小時** — 可讓您根據當天的時間設定條件。 然後定義開始和結束時間。 個人僅會在定義的小時範圍內輸入路徑。
-* **星期** — 可讓您根據星期設定條件。 然後，選取您希望個人輸入路徑的日期。
-* **一週的某天和小時** — 此選項會結合前兩個選項。
+* **Hour** - Allows you to set up a condition based on the time of the day. You then define the start and end times. Individuals will enter the path only during the defined hour range.
+* **Day of the week** - Allows you to set up a condition based on the day of the week. You then select which days you want individuals to enter the path.
+* **Day of the week and hour** - This option combines the first two options.
 
 ## 設定檔上限 {#profile_cap}
 
-使用此條件型別可設定歷程路徑的設定檔數目上限。 當達到此限制後，輸入的輪廓將採用替代路徑。 這可確保您的歷程不會超過定義的限制。
+Use this condition type to set a maximum number of profiles for a journey path. 當達到此限制後，輸入的輪廓將採用替代路徑。 This ensures that your journeys will never exceed the limit defined.
 
 >[!NOTE]
 >
->我們建議您定義高值設定檔上限。 母體達到確切上限數字的精確度和可能性只會隨著上限的增加而增加。 對於小數字（例如50的上限），數字將不能始終相符，因為設定檔採取替代路徑之前可能無法達到限制。
+>We recommend that you define a high value profile cap. The precision and likelihood that a population will reach the exact cap number only increases as the cap increases. 對於小數字（例如50的上限），數字將不能始終相符，因為設定檔採取替代路徑之前可能無法達到限制。
 
 <!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
@@ -202,4 +202,4 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。

@@ -7,8 +7,8 @@ exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 8%
+source-wordcount: '929'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 8%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
@@ -73,7 +73,7 @@ ht-degree: 8%
 
 +++
 
-1. 在畫布中，按一下![](assets/do-not-localize/Smock_AddCircle_18_N.svg)結構描述名稱&#x200B;**旁的**&#x200B;以開始新增屬性。
+1. 在畫布中，按一下&#x200B;**結構描述名稱**&#x200B;旁的![](assets/do-not-localize/Smock_AddCircle_18_N.svg)以開始新增屬性。
 
    ![](assets/schema_manual_1.png){zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 8%
 
 建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 連結結構描述 {#link-schema}
 
@@ -148,15 +148,15 @@ ht-degree: 8%
 
 您現在必須為協調的行銷活動啟用資料集。
 
-## 為協調的行銷活動啟用資料集 {#enable}
+## 針對協調的行銷活動啟用資料集 {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="協調的行銷活動"
->abstract="建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。"
+>abstract="建立資料集後，您必須針對協調的行銷活動明確啟用資料集。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。"
 
 
-建立資料集後，您需要明確地為協調的行銷活動啟用它。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
+建立資料集後，您必須針對協調的行銷活動明確啟用資料集。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
 
 請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
 

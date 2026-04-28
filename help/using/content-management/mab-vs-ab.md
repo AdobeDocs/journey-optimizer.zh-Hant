@@ -7,8 +7,8 @@ level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 10%
+source-wordcount: '629'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="實驗類型"
->abstract="實驗類型會決定在測試期間，流量於處理之間分配的方式。選擇最符合您目標的方法：</br><b>A/B 實驗</b>：依照您定義的處理方式與測量績效，分割流量，直到結果具有統計顯著性為止。最適合瞭解在控制下比較中哪個處理方式效果更好。</br><b>多臂吃角子老虎機</b>：在收集資料時，將流量轉移到表現較佳的處理，平衡速度和最佳化。 當您想要在實驗期間將轉換次數最大化時非常有用。</br><b>自備多臂吃角子老虎機</b>：使用您自己的演演算法來決定流量分配，如果您有自訂模型或策略，則可讓您擁有彈性。"
+>abstract="實驗類型會決定在測試期間，流量於處理之間分配的方式。 選擇最符合您目標的方法：</br><b>A/B 實驗</b>：依照您定義的處理方式與測量績效，分割流量，直到結果具有統計顯著性為止。 最適合在控制式比較中了解哪個處理效果更好。</br><b>多臂吃角子老虎機</b>：隨著資料收集，將流量轉移到績效更好的處理，在速度和最佳化間取得平衡。 想要在實驗期間將轉換次數最大化時非常有用。</br><b>自備多臂吃角子老虎機</b>：使用您自己的演算法決定流量分配，在使用自訂模型或策略時即可保有彈性。"
 
 此頁面提供&#x200B;**A/B**&#x200B;與&#x200B;**多臂吃角子老虎機**&#x200B;實驗的詳細比較，說明其各自的優點、限制，以及每種方法最有效的案例。
 
@@ -68,57 +68,57 @@ ht-degree: 10%
 
   測試通常必須在預先指定的範圍內執行，即使外部條件，例如季節性、市場變化、中途改變。
 
-  實驗期間的適應能力有限。
+  Adaptation during the experiment is limited.
 
 ## 多臂吃角子老虎機 {#mab-experiment}
 
-多臂吃角子老虎機演演算法使用適應性配置：隨著證據的積累，會將更多流量導向表現更好的處理。 目的是最大化實驗期間的累計回報，而不是僅專注於最終結果。
+Multi-armed bandit algorithms use adaptive allocation: as evidence accumulates, more traffic is directed toward better-performing treatments. The objective is to maximize cumulative reward during the experiment rather than focus solely on the final result.
 
 ### 優點
 
-多臂吃角子老虎機方法的主要優點包括：
+The key strengths of Multi-armed bandit methods are:
 
-* **更快的最佳化**
+* **Faster Optimization**
 
-  有前途的處理方式會更早排定優先順序，在測試期間提升整體效能。
+  Promising treatments are prioritized earlier, improving overall performance during the test.
 
-* **適應性**
+* **Adaptivity**
 
-  配置會在收集資料時持續更新，使得多臂吃角子老虎機適用於動態環境。
+  Allocations update continuously as data is collected, making Multi-armed bandit suitable for dynamic environments.
 
-* **降低的機會成本**
+* **Reduced Opportunity Cost**
 
-  不良處理方式會快速淘汰，將浪費的流量減至最少。
+  Poor treatments are phased out quickly, minimizing wasted traffic.
 
-* **適合持續測試**
+* **Suitability for Continuous Testing**
 
-  對於持續進行的實驗或流量昂貴的內容而言有效。
+  Effective for ongoing experimentation or contexts where traffic is costly.
 
 ### 限制
 
-多臂吃角子老虎機方法的主要限製為：
+The main limitations of Multi-armed bandit methods are:
 
-* **較弱的統計保證**
+* **Weaker Statistical Guarantees**
 
-  傳統的假設測試較難套用，而停止規則則較不清晰。
+  Traditional hypothesis testing is harder to apply, and stopping rules are less clear.
 
-* **降低透明度**
+* **Reduced Transparency**
 
-  最適化配置可能很難向利害關係人解釋。
+  Adaptive allocation can be difficult to explain to stakeholders.
 
-* **表現缺佳的處理的有限資訊**
+* **Limited Information on Underperforming Treatments**
 
-  弱效治療很少暴露於病灶，因此限制了診斷insight。
+  Weak treatments receive little exposure, limiting diagnostic insight.
 
-* **實作複雜性**
+* **Implementation Complexity**
 
-  需要進階的演演算法和基礎架構，且更容易發生設定錯誤。
+  Requires advanced algorithms and infrastructure, with greater potential for misconfiguration.
 
-## 何時使用A/B和多臂吃角子老虎機
+## When to use A/B vs Multi-armed bandit
 
-| 藍本 | 建議的方法 |
+| 藍本 | Recommended Method |
 |-|-|
-| 您正在執行探索性或研究驅動測試 | A/B |
+| You are running exploratory or research-driven tests | A/B |
 | 您正在執行永遠啟動的行銷活動，例如廣告、建議 | 多臂吃角子老虎 |
 | 您想要在測試期間最大化轉換 | 多臂吃角子老虎 |
 | 您需要清晰、自信的深入分析 | A/B |

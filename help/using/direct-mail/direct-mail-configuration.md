@@ -9,7 +9,7 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1820'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="定義檔案路由設定"
->abstract="建立直接郵件訊息後，會產生包含目標客群資料的檔案並將其匯出到伺服器。您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
+>abstract="建立直接郵件訊息後，會產生包含目標客群資料的檔案並將其匯出到伺服器。 您需要指定伺服器的詳細資訊，以便您的直接郵件提供者可以存取和使用該檔案來傳遞直接郵件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="建立新的直接郵件訊息"
 
 >[!CONTEXTUALHELP]
@@ -59,7 +59,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="選擇 AWS 區域"
->abstract="選取要將直接郵件檔案匯出到哪個 AWS 伺服器的地理區域。一般做法是，最好選擇離您的直接郵件提供者所在位置最近的區域。"
+>abstract="選取要將直接郵件檔案匯出到哪個 AWS 伺服器的地理區域。 一般做法是，最好選擇離您的直接郵件提供者所在位置最近的區域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
@@ -154,7 +154,7 @@ ht-degree: 21%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
@@ -177,7 +177,7 @@ ht-degree: 21%
 1. 在PuTTYgen中，產生您的金鑰組。 建議使用2048位元或更新版本的RSA。
 1. 從功能表選取&#x200B;**轉換** > **匯出OpenSSH金鑰**。
 1. 出現提示時，選擇儲存私密金鑰&#x200B;**而不使用密碼保護**。
-1. 在儲存對話方塊中，選取&#x200B;**所有檔案(*)。*)**&#x200B;做為檔案型別，以確保將金鑰儲存為純文字，而不是儲存為.ppk檔案。
+1. 在儲存對話方塊中，選取&#x200B;**所有檔案(*.*)** 作為檔案型別，以確保將金鑰儲存為純文字而非.ppk檔案。
 1. 使用文字編輯器開啟儲存的檔案，並驗證其格式：
    * 檔案必須以`-----BEGIN RSA PRIVATE KEY-----`開頭（前後有五個破折號）。
    * 應該沒有表示加密的文字。
@@ -194,7 +194,7 @@ ht-degree: 21%
 >
 >Base64編碼之後，金鑰將不再包含`-----BEGIN/END RSA PRIVATE KEY-----`標籤，且不得包含任何分行符號。 必須將對應的公開金鑰新增至SFTP伺服器的授權金鑰檔案。
 
-如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 
@@ -203,7 +203,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="定義直接郵件設定"
->abstract="直接郵件設定包含檔案格式的設定；該檔案包含目標對象資料，且將由郵件提供者使用。您也必須選取檔案路由設定，以定義該檔案匯出的位置。"
+>abstract="直接郵件設定包含檔案格式的設定；該檔案包含目標對象資料，且將由郵件提供者使用。 您也必須選取檔案路由設定，以定義該檔案匯出的位置。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="設定檔案路由"
 
 <!--
@@ -216,7 +216,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="定義檔案分割臨界值"
->abstract="您必須為包含對象資料的每個檔案設定最大記錄數。您可以選取 1 到 200,000 筆記錄之間的任一數字。達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
+>abstract="您必須為包含對象資料的每個檔案設定最大記錄數。 您可以選取 1 到 200,000 筆記錄之間的任一數字。 達到指定的臨界值後，將為剩餘記錄建立另一個檔案。"
 
 若要能夠透過[!DNL Journey Optimizer]傳遞直接郵件，您必須建立通道設定，以定義郵件提供者將使用的檔案格式設定。
 
