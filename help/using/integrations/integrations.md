@@ -10,10 +10,10 @@ level: Beginner
 keywords: 整合
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ ht-degree: 9%
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 回應承載]**&#x200B;設定定義了編寫的預期回應，包括該步驟中套用的任何結構描述。 行銷人員只能參考公開的欄位，其他路徑的Token無法在編輯器中驗證。
+
 1. 使用&#x200B;**[!UICONTROL 傳送測試連線]**&#x200B;來驗證整合。
 
    驗證後，按一下&#x200B;**[!UICONTROL 啟動]**。
@@ -146,7 +150,14 @@ ht-degree: 9%
 
 每個佇列的訊息也包含有效視窗(TTL)。 如果處理延遲，且訊息位於該視窗之後，系統&#x200B;**會捨棄該視窗**&#x200B;並發出&#x200B;**`MessageValidityExclusion`**&#x200B;事件，讓過時的工作從佇列中清除，而資源仍可繼續使用。
 
+
 ## 使用外部整合進行個人化 {#personalization}
+
+在使用外部整合進行個人化之前，請注意，整合呼叫的排程和隔離取決於執行上下文：
+
+* **批次執行** （批次行銷活動、協調的行銷活動以及API觸發的行銷活動）：每次批次執行都會在專用的隔離環境中運作。 因此，呼叫外部系統的同時批次執行不會相互競爭或互相阻礙。
+
+* **單一執行** （單一歷程、批次歷程及API觸發的交易式行銷活動）：每個品牌沙箱會隔離整合流量，因此一個品牌的緩慢外部API不會延遲另一個品牌。 在您的沙箱中，同時整合可能會短暫延遲其他整合支援的訊息；每則訊息最多會在到期前12小時嘗試。
 
 身為行銷人員，您可以使用已設定的整合來個人化您的內容。 請依照下列步驟操作：
 
@@ -186,6 +197,10 @@ ht-degree: 9%
 1. 定義整合屬性後，您現在可以按一下![新增](assets/do-not-localize/Smock_Add_18_N.svg)圖示，將內容中的整合欄位用於個人化傳訊。
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >範本中的權杖只能使用管理員在整合設定中公開的欄位。 例如，`{{weatherResponse.temperature}}`在`temperature`公開時有效；如果`humidity`未公開，編輯器中會拒絕`{{weatherResponse.humidity}}`。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
