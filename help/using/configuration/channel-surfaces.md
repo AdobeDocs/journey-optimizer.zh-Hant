@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 12%
+source-wordcount: '1898'
+ht-degree: 13%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="管道設定"
->abstract="管道設定是由系統管理員定義的設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等。"
+>abstract="管道設定是由系統管理員定義的設定。 它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="行銷動作"
->abstract="選擇行銷動作即可將同意原則連結至使用此設定的訊息。所有與此行銷動作連結的同意原則都將用於遵循您的客戶的偏好設定。"
+>abstract="選擇行銷動作即可將同意原則連結至使用此設定的訊息。 所有與此行銷動作連結的同意原則都將用於遵循您的客戶的偏好設定。"
 
-透過[!DNL Journey Optimizer]，您可以設定頻道設定（即訊息預設集），以定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、行動應用程式、簡訊設定等等。
+透過[!DNL Journey Optimizer]，您可以設定通道設定（即訊息預設集），以定義訊息所需的所有技術引數：電子郵件型別、寄件者電子郵件和名稱、回覆和錯誤路由、行動應用程式、簡訊設定等等。
 
 >[!CAUTION]
 >
@@ -54,7 +54,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="管道設定"
->abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須先建立一個管道設定來定義訊息所需的所有技術設定。您必須具有管理訊息預設集權限，才能建立、編輯和刪除管道設定。"
+>abstract="為了能夠建立來自歷程或行銷活動的電子郵件之類的動作，您必須先建立一個管道設定來定義訊息所需的所有技術設定。 您必須具有管理訊息預設集權限，才能建立、編輯和刪除管道設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
