@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，子網域
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 5%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="個人化不可用"
->abstract="此設定建立時沒有任何個人化屬性。如果需要個人化，請參閱文件以了解解決步驟。"
+>abstract="此設定建立時沒有任何個人化屬性。 如果需要個人化，請參閱文件以了解解決步驟。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="啟用動態子網域"
->abstract="建立電子郵件設定時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。您最多可以新增 50 個動態子網域。"
+>abstract="建立電子郵件設定時，您可以根據使用個人化編輯器定義的條件來設定動態子網域。 您最多可以新增 50 個動態子網域。"
 
 建立電子郵件設定時，您可以根據特定條件設定動態子網域。
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >某些子網域目前無法選取，因為[回饋迴路](../reports/deliverability.md#feedback-loops)註冊擱置中。 此程序可能需要長達 10 個工作天。完成後，您可以從所有可用的子網域中進行選擇。<!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
+   >某些子網域目前無法選取，因為[回饋迴路](../reports/deliverability.md#feedback-loops)註冊擱置中。 此程序可能需要長達 10 個工作天。 完成後，您可以從所有可用的子網域中進行選擇。<!--where FL registration happens? is it when delegating a subdomain and you are awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -92,14 +92,14 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->* 所有&#x200B;**[!UICONTROL 標頭引數]**&#x200B;欄位都可以個人化，但&#x200B;**[!UICONTROL 錯誤電子郵件首碼]**&#x200B;欄位除外。
+>* 所有&#x200B;**[!UICONTROL 標頭引數]**&#x200B;和選用的&#x200B;**[!UICONTROL 寄件者標頭]**&#x200B;欄位都可以個人化，但&#x200B;**[!UICONTROL 錯誤電子郵件首碼]**&#x200B;欄位除外。
 >* 當[編輯電子郵件設定](../configuration/channel-surfaces.md#edit-channel-surface)時，您無法新增新的[設定檔屬性](../personalization/personalization-build-expressions.md#sources)至標頭引數 — 您必須改為建立新的通道設定。
 
 例如，如果您有多個品牌，您可以建立單一設定，並對電子郵件標題使用個人化值。 這可讓您確保從不同品牌傳送的所有電子郵件都會以正確的&#x200B;**寄件者**&#x200B;名稱和電子郵件傳送給每個客戶。 同樣地，當您的收件者按一下電子郵件使用者端軟體中的&#x200B;**回覆**&#x200B;按鈕時，您希望&#x200B;**回覆**&#x200B;名稱和電子郵件對應至正確使用者的正確品牌。
 
 若要針對設定標題引數使用個人化變數，請遵循下列步驟。
 
-1. 依照您通常的作法定義標頭引數。 [了解作法](email-settings.md#email-header)
+1. 依照您通常的作法定義標頭引數。 [了解作法](header-parameters.md)
 
 1. 對於每個欄位，選取編輯圖示。
 
@@ -125,7 +125,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->如果您新增一或多個動態子網域至您的設定，將會根據解析的&#x200B;**動態子網域**&#x200B;填入&#x200B;**寄件者電子郵件**&#x200B;和[錯誤電子郵件](#dynamic-subdomains)尾碼。
+>如果您新增一或多個動態子網域至您的設定，將會根據解析的[動態子網域](#dynamic-subdomains)填入&#x200B;**寄件者電子郵件**&#x200B;和&#x200B;**錯誤電子郵件**&#x200B;尾碼。 **[!UICONTROL 寄件者電子郵件]**&#x200B;設定為完整地址，且不是從該子網域尾碼建置。
 
 ## 使用個人化URL追蹤 {#personalize-url-tracking}
 
