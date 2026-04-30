@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
+source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -154,9 +154,9 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。 您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
 
-   <!--Note that the Content Fragment you selected stays active for this message. When you open the Personalization Editor in another field or content block, you can keep working with the same fragment from the **[!UICONTROL AEM Content Fragment]** section and add more fields without reopening **[!UICONTROL Open AEM CF selector]**.-->
+   請注意，您選取的內容片段在此訊息中會維持作用中。 在另一個欄位或內容區塊中開啟Personalization編輯器時，您可以繼續使用&#x200B;**[!UICONTROL AEM內容片段]**&#x200B;區段中的相同片段，並新增更多欄位，而不需重新開啟&#x200B;**[!UICONTROL 開啟AEM CF選取器]**。
 
 執行測試並驗證內容後，您可以[傳送行銷活動](../campaigns/review-activate-campaign.md)或[發佈您的歷程](../building-journeys/publish-journey.md)給您的對象。
 
