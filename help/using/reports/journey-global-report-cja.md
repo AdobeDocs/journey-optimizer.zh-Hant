@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 **歷程報告**&#x200B;可作為全方位儀表板，提供與您的歷程相關聯的基本量度分析。 這包含諸如輸入的設定檔計數和失敗的個人歷程例項等詳細資訊，提供全面的insight來瞭解歷程的有效性和參與程度。
 
-使用&#x200B;**檢視報告**&#x200B;按鈕，可以直接從您的歷程存取&#x200B;**[!UICONTROL 歷程報告]**。
+使用&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，可以直接從您的歷程存取&#x200B;**歷程報告**。
 
 ![](assets/gs-cja-report-3.png)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 歷程概觀 {#journey-global}
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 ## 歷程排除 {#journey-exclusion}
 
-**[!UICONTROL 歷程排除]**&#x200B;表格提供導致排除使用者設定檔的不同因素的完整檢視。
+**[!UICONTROL 歷程排除]**&#x200B;表格提供導致排除使用者設定檔的不同因素的完整檢視。 若要在Data Lake層級調查商業規則相關的排除，並識別設定檔是否因為達到上限或較低優先順序而遭到排除，請使用[此區段](query-examples.md#business-rules-queries)中可用的查詢。
 
 ## 動作錯誤 {#action-error}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ![](assets/cja-journey-canvas.png)
 
-**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+**[!UICONTROL 歷程畫布]** Widget可讓您在目標設定檔瀏覽您的歷程時，以視覺化方式追蹤其軌跡。 [在Customer Journey Analytics檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 使用下列選項增強畫布自訂功能：
 

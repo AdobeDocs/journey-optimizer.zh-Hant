@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->**新查詢服務？**&#x200B;開啟[Adobe Experience Platform](https://experience.adobe.com/)，瀏覽至&#x200B;**查詢服務>查詢**，貼上以下任何範例，取代預留位置值（例如`<journeyVersionID>`、`<last x hours>`），然後選取&#x200B;**執行**。
+>**新查詢服務？** 開啟[Adobe Experience Platform](https://experience.adobe.com/)，瀏覽至&#x200B;**查詢服務>查詢**，貼上以下任何範例，取代預留位置值（例如`<journeyVersionID>`、`<last x hours>`），然後選取&#x200B;**執行**。
 
 ## 尋找正確的查詢 {#find-query}
 
@@ -41,6 +41,7 @@ ht-degree: 1%
 | 調查讀取對象執行或錯誤 | [讀取對象查詢](#read-segment-queries) |
 | 疑難排解訊息或動作錯誤 | [訊息與動作錯誤](#message-action-errors) |
 | 分析對象資格捨棄 | [對象資格查詢](#segment-qualification-queries) |
+| 調查商業規則捨棄 | [商業規則查詢](#business-rules-queries) |
 | 偵錯外部或業務事件 | [事件型查詢](#event-based-queries) |
 | 監視自訂動作端點效能 | [自訂動作查詢](#query-custom-action) |
 | 追蹤參與設定檔和授權使用情況 | [可參與的設定檔查詢](#engageable-profiles-queries) |
@@ -57,7 +58,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節[中進一步瞭解歷程屬性](../building-journeys/expression/journey-properties.md#journey-properties-fields)。
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節](../building-journeys/expression/journey-properties.md#journey-properties-fields)中進一步瞭解歷程屬性[。
 
 +++
 
@@ -77,7 +78,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 +++
 
@@ -371,7 +372,7 @@ WHERE
 
 +++如何檢查serviceEvent的詳細資訊 
 
-Journey Step事件資料集包含所有stepEvents和serviceEvents。 stepEvents用於報告中，因為它們與歷程中設定檔的活動（事件、動作等）相關。 serviceEvents會儲存在相同的資料集中，並代表其他除錯資訊，例如體驗事件捨棄的原因。
+Journey Step事件資料集包含所有stepEvents和serviceEvents。 stepEvents用於報告中，因為它們與活動（事件、動作等）相關 歷程中的設定檔。 serviceEvents會儲存在相同的資料集中，並代表其他除錯資訊，例如體驗事件捨棄的原因。
 
 以下是查詢serviceEvent詳細資訊的範例：
 
@@ -566,7 +567,7 @@ _範例輸出_
 
 查詢會在定義的期間內傳回每天進入歷程的設定檔數。 如果透過多個身分輸入設定檔，則會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 
 +++
@@ -965,6 +966,60 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
+## 與商業規則相關的查詢 {#business-rules-queries}
+
++++檢查特定日期後由於特定歷程的歷程頻率上限排除而捨棄的所有專案
+
+此查詢會針對從指定日期開始的特定歷程，傳回由於頻率上限規則而捨棄的所有設定檔，傳回拒絕的規則集和規則詳細資料。
+
+_資料湖查詢_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_範例_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+此查詢會傳回規則集符合的所有捨棄（非null `rejectedRuleset.ID`）。 `eventCodeReason`欄位提供捨棄的子原因： `LOWER_PRIORITY` （因為歷程仲裁而捨棄設定檔）或`CAP_REACHED` （因為達到頻率上限而捨棄設定檔）。 結果會顯示哪些特定頻率限定規則集和規則導致設定檔在指定日期後從歷程中排除。
+
++++
+
 ## 事件型查詢 {#event-based-queries}
 
 +++檢查是否已收到歷程的業務事件
@@ -996,7 +1051,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 +++
 
@@ -1014,7 +1069,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 +++
 
@@ -1028,7 +1083,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 +++
 
@@ -1045,7 +1100,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 +++
 
@@ -1053,13 +1108,12 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 這些查詢可協助您監控及分析可參與設定檔計數。 可參與設定檔是過去12個月中透過歷程或行銷活動參與的獨特設定檔。 深入瞭解[可參與的設定檔與授權使用情況](../audience/license-usage.md#what-is-engageable-profile)。
 
->[!IMPORTANT]
->
->**查詢可參與設定檔的最佳實務：**
->* 請確定每個非彙總欄位都包含在`GROUP BY`子句中
->* 避免參照沙箱中不存在的資料集 — 在Platform UI中確認資料集名稱
->* 計算唯一設定檔時使用`distinct`以避免跨身分名稱空間重複
->* 使用`LIMIT`時，將它放置在查詢的結尾`ORDER BY`子句之後
+**查詢可參與設定檔的最佳實務：**
+
+* 請確定每個非彙總欄位都包含在`GROUP BY`子句中
+* 避免參照沙箱中不存在的資料集 — 在Platform UI中確認資料集名稱
+* 計算唯一設定檔時使用`distinct`以避免跨身分名稱空間重複
+* 使用`LIMIT`時，將它放置在查詢的結尾`ORDER BY`子句之後
 
 +++計算特定歷程參與的不重複設定檔
 
