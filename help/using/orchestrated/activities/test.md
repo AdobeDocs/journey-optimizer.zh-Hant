@@ -5,10 +5,10 @@ title: 在您的協調行銷活動中使用測試活動
 description: 了解如何使用測試活動
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 28%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"
 >title="測試活動"
->abstract="「**測試**」活動是一種&#x200B;**流量控制**&#x200B;活動。您可以藉此根據指定條件啟用轉變。"
+>abstract="「**測試**」活動是一種&#x200B;**流量控制**&#x200B;活動。 您可以藉此根據指定條件啟用轉變。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test_conditions"
 >title="條件"
->abstract="「**測試**」活動可以有多個輸出轉換。在協調式行銷活動執行期間，將循序測試每個條件，直到滿足其中一個條件。如果沒有滿足任何條件，協調式行銷活動就會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續進行。如果沒有啟用預設條件，協調式行銷活動就會到此停止。"
+>abstract="「**測試**」活動可以有多個輸出轉換。 在協調式行銷活動執行期間，將循序測試每個條件，直到滿足其中一個條件。 如果沒有滿足任何條件，協調式行銷活動就會沿著&#x200B;**[!UICONTROL 預設條件]**&#x200B;的路徑繼續進行。 如果沒有啟用預設條件，協調式行銷活動就會到此停止。"
 
-「**[!UICONTROL 測試]**」活動是一種&#x200B;**[!UICONTROL 流量控制]**&#x200B;活動。根據您定義的條件，透過啟用不同的轉變，使用它來分支您的行銷活動流程。 每個條件都可以評估入站轉變的資料，而且您可以選擇依評估條件的順序先執行哪個轉變。
+「**[!UICONTROL 測試]**」活動是一種&#x200B;**[!UICONTROL 流量控制]**&#x200B;活動。 根據您定義的條件，透過啟用不同的轉變，使用它來分支您的行銷活動流程。 每個條件都可以評估入站轉變的資料，而且您可以選擇依評估條件的順序先執行哪個轉變。
 
 ## 設定測試活動 {#test-configuration}
 
@@ -41,7 +41,7 @@ ht-degree: 28%
 
    * **標籤**：轉變的名稱，讓您能在畫布上識別它。
 
-   * **條件型別**：預設要評估母體計數的資料。
+   * **條件型別**：預設要評估母體計數的資料。  變數（來自全域變數或觸發訊號）也會在此處列出，並可選取以讓條件以變數值為基礎。 [瞭解如何在協調的行銷活動中使用變數](../variables-orchestrated-campaigns.md)
 
    * **運運算元**：要套用的比較，例如，等於、大於、小於。 運運算元清單取決於條件型別的資料型別。
 
