@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -156,6 +156,8 @@ ht-degree: 1%
 * **較低的優先順序**：尚未達到上限，但其他較高優先順序的歷程符合限制。 設定檔已從此歷程中排除，並改為進入較高優先順序的歷程。
 
 +++
+
+若要使用Adobe Experience Platform查詢服務在資料湖層級調查這些排除專案，請參閱[商業規則查詢](query-examples.md#business-rules-queries)。
 
 ➡️ [進一步瞭解歷程上限與仲裁](../conflict-prioritization/journey-capping.md)
 

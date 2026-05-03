@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 8%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節[中進一步瞭解eventTypes &#x200B;](#discarded-events)。
+在本節[&#128279;](#discarded-events)中進一步瞭解eventTypes 。
 
 ## stepEvents {#stepevents-field}
 
@@ -124,5 +124,6 @@ ht-degree: 8%
 
 * [資料集查詢範例 — 歷程步驟事件](../data/datasets-query-examples.md#journey-step-event)。
 * [查詢範例 — 事件型查詢](query-examples.md#event-based-queries)。
-* [內建結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+* [查詢範例 — 商業規則查詢](query-examples.md#business-rules-queries)。
+* [內建方案字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
 

@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 2%
 
 套用上限時，使用此規則集的所有歷程都會依選取的公式排名。
 
-若要監視規則集和排名公式的執行方式，請參閱概述報告中的[歷程上限和衝突](../reports/channel-report-cja.md#rule-sets)區段。
+若要監視規則集和排名公式的執行方式，請參閱概述報告中的[歷程上限和衝突](../reports/channel-report-cja.md#rule-sets)區段。 若要在資料湖層級調查捨棄，並識別設定檔是否因為達到上限(`CAP_REACHED`)或較低優先順序(`LOWER_PRIORITY`)而遭到排除，請使用[此區段](../reports/query-examples.md#business-rules-queries)中可用的查詢。
 
 <!--
 ## Reporting {#reporting}

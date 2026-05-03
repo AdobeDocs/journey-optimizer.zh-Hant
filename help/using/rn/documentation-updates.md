@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # 文件更新 {#latest-updates}
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
+
+## 2026年5月 {#may-2026}
+
+* 新的&#x200B;**商業規則查詢**&#x200B;區段已新增到查詢範例頁面，提供資料湖查詢以檢查特定日期後特定歷程上由於歷程頻率上限排除所放棄的所有設定檔。 查詢包含`eventCodeReason`欄位，以識別設定檔是否因為達到上限(`CAP_REACHED`)或低優先順序(`LOWER_PRIORITY`)而被排除。 [閱讀全文](../reports/query-examples.md#business-rules-queries)
 
 ## 2026 年 4 月 {#april-2026}
 
