@@ -70,7 +70,7 @@ ht-degree: 8%
 | eventType | 字串 | 事件型別，指出是錯誤事件還是資訊事件：資訊、錯誤 |
 | eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
-在本節](#discarded-events)中進一步瞭解eventTypes [。
+在本節[&#128279;](#discarded-events)中進一步瞭解eventTypes 。
 
 ## stepEvents {#stepevents-field}
 

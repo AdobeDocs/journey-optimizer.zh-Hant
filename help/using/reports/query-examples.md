@@ -58,7 +58,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節](../building-journeys/expression/journey-properties.md#journey-properties-fields)中進一步瞭解歷程屬性[。
+>基於疑難排解目的，我們建議在查詢歷程時使用journeyVersionID，而不是journeyVersionName。 在本節[&#128279;](../building-journeys/expression/journey-properties.md#journey-properties-fields)中進一步瞭解歷程屬性。
 
 +++
 
@@ -78,7 +78,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 +++
 
@@ -567,7 +567,7 @@ _範例輸出_
 
 查詢會在定義的期間內傳回每天進入歷程的設定檔數。 如果透過多個身分輸入設定檔，則會計算兩次。 如果啟用重新進入，如果設定檔計數在不同日期重新進入歷程，則可能會跨不同日期複製。
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 
 +++
@@ -1051,7 +1051,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 +++
 
@@ -1069,7 +1069,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 +++
 
@@ -1083,7 +1083,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 +++
 
@@ -1100,7 +1100,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 +++
 
