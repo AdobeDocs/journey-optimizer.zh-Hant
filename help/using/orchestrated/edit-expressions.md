@@ -5,10 +5,10 @@ title: 編輯運算式
 description: 了解如何編輯運算式。
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->下節提供如何使用運算式編輯器建立規則的資訊。請記住，用來建立規則的語法與用來新增個人化的語法不同。
+>下節提供如何使用運算式編輯器建立規則的資訊。 請記住，用來建立規則的語法與用來新增個人化的語法不同。
 
 ## 使用運算式編輯器 {#edit}
 
-編輯運算式需要手動輸入條件以形成規則。此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
+編輯運算式需要手動輸入條件以形成規則。 此模式可讓您使用進階函式，這些函式可讓您控制用於執行特定查詢的值，例如控制日期、字串、數值欄位和排序。
 
 設定自訂條件時，可按下規則產生器的「**[!UICONTROL 編輯運算式]**」按鈕打開運算式編輯器，適用於「**[!UICONTROL 屬性]**」和「**[!UICONTROL 值]**」欄位。
 
@@ -33,15 +33,17 @@ ht-degree: 100%
 
 * 定義運算式的&#x200B;**輸入欄位 (1)**。
 * 可用&#x200B;**欄位 (2)** 清單，可用於運算式中，並對應至查詢的目標維度。
-* **協助程式函式 (3)**，依類別排序。
+* 可用於運算式中的可用&#x200B;**變數(3)**&#x200B;清單。 此功能表適用於&#x200B;**值**&#x200B;欄位。 [瞭解如何在協調的行銷活動中使用變數](variables-orchestrated-campaigns.md)
 
-直接在輸入欄位中輸入運算式以編輯運算式。若要新增欄位或協助程式函式，請將游標置於要新增的運算式上，然後按一下「+」按鈕。
+* **協助程式函式(4)**，依類別排序。
+
+直接在輸入欄位中輸入運算式以編輯運算式。 若要新增欄位、變數或協助程式函式，請將游標置於要新增的運算式中，然後按一下+按鈕。
 
 ![運算式編輯器介面](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## 協助程式功能
 
-查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的類型執行複雜的篩選。可使用下列函式：
+查詢編輯工具可讓您使用進階功能，根據所需結果和操作資料的類型執行複雜的篩選。 可使用下列函式：
 
 ### 彙總
 
@@ -378,7 +380,7 @@ ht-degree: 100%
    <td> <strong>語法</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Distance</strong><br /> </td> 
+   <td> <strong>距離</strong><br /> </td> 
    <td> 傳回由經度和緯度，通常會以度來表示，定義兩點之間的距離<br /> </td> 
    <td> Distance(&lt;經度 A&gt;, &lt;緯度 A&gt;, &lt;經度 B&gt;, &lt;緯度 B&gt;)<br /> </td>  
   </tr> 
@@ -399,37 +401,37 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
    <td> 返回數字的絕對值<br /> </td> 
-   <td> Abs(&lt;數字&gt;)<br /> </td>  
+   <td> Abs(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
    <td> 傳回大於或等於數字的最小整數<br /> </td> 
-   <td> Ceil(&lt;數字&gt;)<br /> </td>  
+   <td> Ceil(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> 傳回大於或等於數字的最小整數<br /> </td> 
-   <td> Floor(&lt;數字&gt;)<br /> </td>  
+   <td> Floor(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
    <td> 傳回兩個數字中的較大值<br /> </td> 
-   <td> Greatest(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
+   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Least</strong><br /> </td> 
    <td> 傳回兩個數字中的較小者<br /> </td> 
-   <td> Least(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
+   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> 傳回 n1 除以 n2 的整數餘數<br /> </td> 
-   <td> Mod(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
    <td> 傳回兩個數字的比率，以百分比表示<br /> </td> 
-   <td> Percent(&lt;數字 1&gt;, &lt;數字 2&gt;)<br /> </td>  
+   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Random</strong><br /> </td> 
@@ -438,28 +440,28 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> 將數字四捨五入為 n 個小數<br /> </td> 
-   <td> Round(&lt;數字&gt;, &lt;小數位數&gt;)<br /> </td>  
+   <td> 將數字四捨五入為n個小數<br /> </td> 
+   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
    <td> 傳回數字元號<br /> </td> 
-   <td> Sign(&lt;數字&gt;)<br /> </td>  
+   <td> Sign(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDouble</strong><br /> </td> 
    <td> 將整數轉換為浮點數<br /> </td> 
-   <td> ToDouble(&lt;數字&gt;)<br /> </td>  
+   <td> ToDouble(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
    <td> 將浮點數轉換為　64　位整數<br /> </td> 
-   <td> ToInt64(&lt;數字&gt;)<br /> </td>  
+   <td> ToInt64(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToInteger</strong><br /> </td> 
    <td> 將浮點數轉換為整數<br /> </td> 
-   <td> ToInteger(&lt;數字&gt;)<br /> </td>  
+   <td> ToInteger(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
@@ -486,50 +488,50 @@ ht-degree: 100%
    <td> AESEncrypt(&lt;值&gt;)<br /> </td> 
   </tr>
   <tr> 
-   <td> <strong>Case</strong><br /> </td> 
-   <td> 如果條件為真，則傳回值 1。如果為假，則傳回值 2。<br /> </td> 
-   <td> Case(When(&lt;條件&gt;, &lt;值 1&gt;), Else(&lt;值 2&gt;))<br /> </td> 
+   <td> <strong>案例</strong><br /> </td> 
+   <td> 如果條件為真，則傳回值 1。 如果為假，則傳回值 2。<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
    <td> 刪除值中的旗標<br /> </td> 
-   <td> ClearBit(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> <strong>合併</strong><br /> </td> 
    <td> 如果值　1　為　零或　null，則傳回值　2，否則傳回值　1<br /> </td> 
-   <td> Coalesce(&lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 如果值 1 = 值 2，則傳回值 3。如果不等，則傳回值 4。<br /> </td> 
-   <td> Decode(&lt;值 1&gt;, &lt;值 2&gt;, &lt;值 3&gt;, &lt;值 4&gt;)<br /> </td>  
+   <td> 如果值 1 = 值 2，則傳回值 3。 如果不等，則傳回值 4。<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr>
 
 <tr> 
    <td> <strong>Else</strong><br /> </td> 
-   <td> 傳回值　1 (只能用作　case　函式的參數)<br /> </td> 
+   <td> 傳回值　1（只能用作　case　函式的參數）<br /> </td> 
    <td> Else(&lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> 從電子郵件地址中擷取網域<br /> </td> 
-   <td> GetEmailDomain(&lt;值&gt;)<br /> </td>  
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> 檢索鏡像頁面伺服器的URL<br /> </td> 
-   <td> GetMirrorURL(&lt;值&gt;)<br /> </td>  
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 如果運算式為真，則傳回值 1。如果為假，則傳回值 2<br /> </td> 
-   <td> Iif(&lt;條件&gt;, &lt;值 1&gt;, &lt;值 2&gt;)<br /> </td>  
+   <td> 如果運算式為真，則傳回值 1。 如果為假，則傳回值 2<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
    <td> 指出旗標是否在值中<br /> </td> 
-   <td> IsBitSet(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
@@ -544,7 +546,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 如果引數為　NULL，則返回空字串<br /> </td> 
-   <td> NoNull(&lt;值&gt;)<br /> </td>   
+   <td> NoNull(&lt;value&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>RowId</strong><br /> </td> 
@@ -554,16 +556,16 @@ ht-degree: 100%
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
    <td> 強制值中的旗標<br /> </td> 
-   <td> SetBit(&lt;識別碼&gt;, &lt;旗標&gt;)<br /> </td>  
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
    <td> 將數字轉換為布林值<br /> </td> 
-   <td> ToBoolean(&lt;數字&gt;)<br /> </td>   
+   <td> ToBoolean(&lt;number&gt;)<br /> </td>   
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 如果運算式為真，則傳回值 1。否則，傳回值 2 (只能用作 case 函式的參數)<br /> </td> 
+   <td> 如果運算式為真，則傳回值 1。 否則，傳回值 2 (只能用作 case 函式的參數)<br /> </td> 
    <td> When(&lt;條件&gt;, &lt;值 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -617,7 +619,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 如果前兩個參數相等，就會傳回第三個參數。如果不是，就會傳回最後一個參數<br /> </td> 
+   <td> 如果前兩個參數相等，就會傳回第三個參數。 如果不是，就會傳回最後一個參數<br /> </td> 
    <td> IfEquals(&lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -627,12 +629,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 將傳遞的兩個字串當成參數進行加以串連。如有必要，請在字串之間新增空格。<br /> </td> 
+   <td> 將傳遞的兩個字串當成參數進行加以串連。 如有必要，請在字串之間新增空格。<br /> </td> 
    <td> JuxtWords(&lt;字串&gt;, &lt;字串&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 將傳遞的兩個字串當成參數進行加以串連。如有必要，請在字串之間新增空格<br /> </td> 
+   <td> 將傳遞的兩個字串當成參數進行加以串連。 如有必要，請在字串之間新增空格<br /> </td> 
    <td> JuxtWords3(&lt;字串&gt;, &lt;字串&gt;, &lt;字串&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -688,7 +690,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
    <td> 傳回字串的最後　n　個字元<br /> </td> 
-   <td> Right(&lt;字串&gt;)<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
@@ -698,7 +700,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 移除字串右側的空格<br /> </td> 
-   <td> Rtrim(&lt;字串&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
@@ -713,12 +715,12 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
    <td> 傳回字串，每個字詞的首字母以大寫表示<br /> </td> 
-   <td> Smart(&lt;字串&gt;)<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
    <td> 從字串的字元 n1 開始提取長度為 n2 的子字串<br /> </td> 
-   <td> Substring(&lt;字串&gt;, &lt;位移&gt;, &lt;長度&gt;)<br /> </td>  
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
@@ -728,16 +730,16 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
    <td> 以大寫傳回字串<br /> </td> 
-   <td> Upper(&lt;字串&gt;)<br /> </td>  
+   <td> Upper(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLink</strong><br /> </td> 
    <td> 傳回連結的外鍵，如果其他兩個參數相等，則傳遞為參數<br /> </td> 
-   <td> VirtualLink(&lt;數字&gt;、&lt;數字&gt;、&lt;數字&gt;)<br /> </td>  
+   <td> VirtualLink(&lt;number&gt;、&lt;number&gt;、&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
-   <td> 如果其他兩個參數相等，則傳回該連結的外鍵　(text)　<br /> </td> 
+   <td> 傳回連結的外鍵（文字）索引鍵，如果其他兩個參數相等，則傳回該連結的外鍵　(text)　<br /> </td> 
    <td> VirtualLinkStr(&lt;字串&gt;, &lt;數字&gt;, &lt;數字&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -760,17 +762,17 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> 套用遞減排序<br /> </td> 
-   <td> Desc(&lt;值 1&gt;)<br /> </td>  
+   <td> Desc(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>OrderBy</strong><br /> </td> 
    <td> 對分區內的結果進行排序<br /> </td> 
-   <td> OrderBy(&lt;值 1&gt;)<br /> </td>  
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
    <td> 對表上的查詢結果進行分區<br /> </td> 
-   <td> PartitionBy(&lt;值 1&gt;)<br /> </td>  
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 

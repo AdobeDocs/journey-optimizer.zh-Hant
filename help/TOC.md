@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 90%
+source-wordcount: '3289'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 90%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -87,7 +87,7 @@ ht-degree: 90%
       + [反應事件](using/building-journeys/reaction-events.md)
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + 最佳化 {#optimize-activity}
-         + [開始使用最佳化活動](using/building-journeys/optimize.md)
+         + [開始使用「最佳化」活動](using/building-journeys/optimize.md)
          + [路徑實驗](using/building-journeys/path-experimentation.md)
          + [路徑目標定位](using/building-journeys/path-targeting.md)
          + [條件](using/building-journeys/conditions.md)
@@ -206,6 +206,7 @@ ht-degree: 90%
          + [重複資料刪除](using/orchestrated/activities/deduplication.md)
          + [擴充](using/orchestrated/activities/enrichment.md)
          + [分支](using/orchestrated/activities/fork.md)
+         + [增量查詢](using/orchestrated/activities/incremental-query.md)
          + [讀取客群](using/orchestrated/activities/read-audience.md)
          + [調和](using/orchestrated/activities/reconciliation.md)
          + [儲存客群](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 90%
          + [透過瀏覽活動與客戶互動](using/orchestrated/engage-customers-uc.md)
          + [通知使用者產品可用性](using/orchestrated/product-availability-uc.md)
       + 進階作業 {#orchestrated-advanced}
+         + [在協調的行銷活動中使用變數](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [在協調的行銷活動中定義全域變數](using/orchestrated/global-variables.md)
          + [使用訊號觸發協調的行銷活動](using/orchestrated/trigger-orchestrated-campaign.md)
 + 衝突與優先順序 {#conflict-prioritization}
    + [衝突管理與優先順序](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -230,7 +233,7 @@ ht-degree: 90%
       + [設定勿打擾時間](using/conflict-prioritization/quiet-hours.md)
    + 歷程仲裁 {#journey-arbitration}
       + [使用公式來排名歷程](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[使用AI模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
+      + [使用AI模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
 + 測試並核准 {#test}
    + [測試、驗證及核准](/help/rp_landing_pages/test-landing-page.md)
    + 預覽與測試內容 {#preview-test}
@@ -509,7 +512,7 @@ ht-degree: 90%
       + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[範例廠商組態](using/integrations/vendor-integration.md)
       + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
+      + [透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
@@ -915,7 +918,7 @@ ht-degree: 90%
       + [允許清單](using/configuration/allow-list.md)
    + [使用種子清單](using/configuration/seed-lists.md)
    + [支援電子郵件封存](using/configuration/archiving-support.md)
-   + {hide-from-toc}[新增副本欄位至電子郵件](using/configuration/cc-email-field.md)
+   + [將副本欄位新增至電子郵件](using/configuration/cc-email-field.md)
    + [管理執行欄位](using/configuration/primary-email-addresses.md)
    + [建立意見回饋 Webhook](using/configuration/feedback-webhooks.md)
 + 歷程設定 {#configure-journeys}

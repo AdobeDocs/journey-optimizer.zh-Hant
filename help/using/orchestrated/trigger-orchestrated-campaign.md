@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 使用訊號觸發協調的行銷活動
-description: 瞭解如何使用 [!DNL Adobe Journey Optimizer]中的訊號觸發協調的行銷活動。
+description: 瞭解如何使用訊號觸發協調的行銷活動，並傳遞在行銷活動中變為可用的引數。
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # 使用訊號觸發協調的行銷活動 {#trigger-signal}
 
-您可以傳送訊號來觸發協調的行銷活動，而非依排程執行。 訊號會透過來自外部系統或應用程式的API呼叫傳送。 使用訊號時，您可以傳遞引數。 接著，這些變數便可在協調的行銷活動中作為執行內容中的事件變數使用，以用於目標定位、條件或運算式。
+您可以傳送訊號來觸發協調的行銷活動，而非依排程執行。 訊號會透過來自外部系統或應用程式的API呼叫傳送。 使用訊號時，您可以傳遞可用作促銷活動變數的引數，以用於目標定位、條件或運算式。
+
+此頁面說明如何設定和觸發訊號。 變數可用後，如需如何在規則和&#x200B;**[!UICONTROL 測試]**&#x200B;條件中使用變數的詳細資訊，請參閱[在協調的行銷活動中使用變數](variables-orchestrated-campaigns.md)。
 
 如需觸發器端點的完整REST規格（路徑、標頭、內文、回應和錯誤），請參閱Adobe Journey Optimizer API檔案中的[觸發器協調的行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}。
 
 使用訊號觸發協調行銷活動的端對端程式：
 
-1. [排程要由訊號觸發的行銷活動](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [新增訊號承載的引數](#add-parameters-for-the-signal-payload-optional-parameters) （選擇性）
-1. [建置及測試行銷活動](#build-and-test-the-campaign-build-and-test)
-1. [發佈並觸發行銷活動](#publish-and-trigger-the-campaign-publish)
+1. [排程要由訊號觸發的行銷活動](#configure-signal)
+1. [新增訊號承載的引數](#parameters) （選擇性）
+1. [建置及測試行銷活動](#build-and-test)
+1. [發佈並觸發行銷活動](#publish)
 
 >[!NOTE]
 >
