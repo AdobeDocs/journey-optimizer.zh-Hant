@@ -115,4 +115,4 @@ When you **simulate** or send, Journey Optimizer resolves integrations in order:
 
 此影片說明&#x200B;**整合**&#x200B;如何將Adobe Journey Optimizer連線至外部API，以便您可以將即時資料和內容提取至&#x200B;**傳出頻道**&#x200B;電子郵件、簡訊和推播，以進行更相關的個人化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484129/?captions=chi_hant&learn=on)
