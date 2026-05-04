@@ -222,26 +222,26 @@ ht-degree: 13%
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
-      <p>What happens to new one-time journeys published after the TTL extension?</p>
+      <p>TTL擴充功能之後發佈的新一次性歷程有什麼改變？</p>
     </td>
     <td>
-      <p>Profiles entering the new journey will have a TTL of 91 days automatically.</p>
-    </td>
-  </tr>
-  <tr style="border: 1;">
-    <td>
-      <p>What happens to new recurring journeys without forced reentrance published after the TTL extension?</p>
-    </td>
-    <td>
-      <p>Profiles entering the new journey will have a TTL of 91 days automatically.</p>
+      <p>進入新歷程的設定檔會自動擁有91天的TTL。</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>What happens to new recurring journeys with forced reentrance published after the TTL extension?</p>
+      <p>在TTL擴充功能之後發佈的新週期性歷程沒有強制重新進入會怎樣？</p>
     </td>
     <td>
-      <p>Profiles entering the new journey will have a TTL equal to the recurrence period. For example, if the journey runs daily, the TTL will be 1 day.</p>
+      <p>進入新歷程的設定檔會自動擁有91天的TTL。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>在TTL擴充功能之後發佈的新循環歷程會如何處理，因為會強制重新進入？</p>
+    </td>
+    <td>
+      <p>進入新歷程的設定檔的TTL將等於週期期間。 例如，如果歷程每日執行，則TTL將為1天。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -249,23 +249,23 @@ ht-degree: 13%
       <p>進入TTL擴充功能啟動前所發佈之歷程的個人資料會發生什麼事？</p>
     </td>
     <td>
-      <p>The profile will have a TTL of 30 days (7 days for HIPAA), consistent with the original publication time. For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
+      <p>設定檔的TTL為30天（HIPAA為7天），與原始發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>What happens to a profile running through a journey when the TTL extension is launched?</p>
+      <p>啟動TTL擴充功能時，透過歷程執行的設定檔會發生什麼事？</p>
     </td>
     <td>
-      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
+      <p>根據歷程的原始發佈時間，設定檔將保留30天的TTL （HIPAA為7天）。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>What happens to a running profile in a previous journey version that is republished after the TTL extension launch?</p>
+      <p>在TTL擴充功能啟動後重新發佈的先前歷程版本中，執行中的設定檔有何改變？</p>
     </td>
     <td>
-      <p>設定檔將維持30天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
+      <p>設定檔將維持30天（HIPAA為7天）的TTL，與原始歷程版本的發佈時間一致。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -273,23 +273,23 @@ ht-degree: 13%
       <p>在TTL擴充功能啟動後，新設定檔進入重新發佈的歷程版本會發生什麼事？</p>
     </td>
     <td>
-      <p>設定檔的TTL為91天，符合新重新發佈的歷程版本的TTL。 For recurring journeys with forced reentrance, the TTL will match the recurrence period.</p>
+      <p>設定檔的TTL為91天，符合新重新發佈的歷程版本的TTL。 對於具有強制重新進入的週期性歷程，TTL將符合週期性期間。</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>Will my always-on recurring Read Audience journey stop after 91 days?</p>
+      <p>91天後，我永不中斷的週期性讀取對象歷程會停止嗎？</p>
     </td>
     <td>
-      <p>不會。 A recurring Read Audience journey with no end date remains <strong>Live</strong> as long as it is published. It moves to <strong>Finished</strong> status only 91 days after the execution of its <strong>last occurrence</strong>. The 91-day global timeout applies to individual profiles flowing through the journey (maximum active duration per profile), not to the journey's Live status.</p>
+      <p>不會。 只要循環讀取對象歷程已發佈，沒有結束日期，就會維持<strong>即時</strong>。 它只會在執行<strong>最後一次發生</strong>後的91天內，移至<strong>已完成</strong>狀態。 91天全域逾時適用於流經歷程的個別設定檔（每個設定檔的最大作用期間），而不是歷程的即時狀態。</p>
     </td>
   </tr>
   <tr style="border: 1;">
     <td>
-      <p>What is the difference between the 91-day journey timeout and the 91-day reporting window?</p>
+      <p>91天歷程逾時和91天報告期間之間有何差異？</p>
     </td>
     <td>
-      <p>These are two separate concepts. <strong>歷程全域逾時</strong> （91天）是個別設定檔在歷程中保持作用中狀態的最長時間–91天後，設定檔會退出並刪除其資料。 <strong>報告期間</strong> （大約91天）是UI中的顯示限制：超過~91天的效能資料不會再顯示在報告中，但歷程本身會繼續執行，而新設定檔會繼續進入。</p>
+      <p>以下是兩個不同的概念。 <strong>歷程全域逾時</strong> （91天）是個別設定檔在歷程中保持作用中狀態的最長時間–91天後，設定檔會退出並刪除其資料。 <strong>報告期間</strong> （大約91天）是UI中的顯示限制：超過~91天的效能資料不會再顯示在報告中，但歷程本身會繼續執行，而新設定檔會繼續進入。</p>
     </td>
   </tr>
 </table>
