@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2208'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 6%
 >[!AVAILABILITY]
 >
 >全新&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。 [了解更多](mobile-onboarding-wf.md)
->
 
 ## 開始之前 {#start-push}
 
@@ -251,6 +250,10 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 >title="個人化應用程式ID"
 >abstract="當您管理多個行動應用程式時，請將每個應用程式ID儲存在設定檔上，並使用單一推播頻道設定。 開啟「應用程式ID」欄位旁的個人化編輯器，以選取設定檔屬性；在傳送時會評估每個收件者的運算式。 確認運算式可傳回的每個應用程式ID都有推送認證。"
 
+>[!AVAILABILITY]
+>
+>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
 當您有多個品牌或租使用者使用不同的應用程式時，您可以將每個&#x200B;**[!UICONTROL 應用程式ID]**&#x200B;儲存在設定檔上，並使用單一通道設定將推播通知傳送至每個收件者的正確應用程式。
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL 應用程式ID]**&#x200B;欄位旁的Personalization圖示，選取對應至應用程式ID的設定檔屬性，然後儲存。 此欄位使用每個收件者在傳送時評估的對應[Handlebars運算式](../personalization/personalization-syntax.md)。
@@ -428,4 +431,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 按一下&#x200B;**[!UICONTROL 傳送]**。
 
 您的事件將會觸發，而您將會收到傳送至行動應用程式的推播通知。
-
