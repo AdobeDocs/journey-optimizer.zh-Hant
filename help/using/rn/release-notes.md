@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 20%
+source-wordcount: '2047'
+ht-degree: 21%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
@@ -278,9 +278,13 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **在通道設定中個人化應用程式ID** — 在推播通道設定中，您現在可以個人化&#x200B;**應用程式ID**&#x200B;欄位，讓每位收件者都能根據其設定檔資訊，從適當的品牌接收推播通知。 [閱讀全文](../push/push-configuration.md#app-id-personalization)
 
+  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
 #### 決策
 
-* **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則，在程式碼型體驗和電子郵件行銷活動中運用。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
+* **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則，在程式碼型體驗和電子郵件行銷活動中運用。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
+
+  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
 
 * **已略過暫時無法使用的片段** — 在決定專案中使用片段時，如果Edge上暫時無法使用片段，則會略過該片段，而且歷程或行銷活動會繼續轉譯而不是失敗。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
