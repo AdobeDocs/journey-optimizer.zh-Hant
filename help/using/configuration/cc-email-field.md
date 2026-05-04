@@ -7,14 +7,12 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: 副本，副本，電子郵件，頻道設定，電子郵件標題，密件副本
-badge: label="有限可用性" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -23,11 +21,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
 >title="定義副本電子郵件地址"
->abstract="您可以對使用此管道設定傳送的電子郵件新增可見的副本 (CC) 欄位。輸入固定的電子郵件地址或使用個人化設定 (輪廓屬性或內容變數)。請注意，副本的使用量會計入您的授權訊息用量中。"
-
->[!AVAILABILITY]
->
->此功能以有限可用性提供給所有客戶。 請聯絡您的 Adobe 代表以取得存取權。
+>abstract="您可以對使用此管道設定傳送的電子郵件新增可見的副本 (CC) 欄位。 輸入固定的電子郵件地址或使用個人化設定 (輪廓屬性或內容變數)。 請注意，副本的使用量會計入您的授權訊息用量中。"
 
 您可以透過您的歷程與行銷活動，將可見CC （副本）欄位新增至[!DNL Journey Optimizer]傳送的電子郵件。 此選擇性功能是在[通道組態](channel-surfaces.md)層級設定，以及電子郵件標頭引數和密件副本電子郵件選項。
 
