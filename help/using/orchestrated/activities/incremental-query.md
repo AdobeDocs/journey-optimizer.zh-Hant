@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -79,3 +79,4 @@ ht-degree: 20%
 * **[!UICONTROL 電子郵件傳遞]**：透過查詢將歡迎電子郵件傳送至設定檔輸出。
 
 ![在協調的行銷活動畫布中的增量查詢活動設定](../assets/incremental-query-example.png)
+
