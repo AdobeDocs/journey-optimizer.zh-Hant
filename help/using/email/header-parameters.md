@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，寄件者標題， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 54%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -57,10 +57,6 @@ ht-degree: 54%
 >id="ajo_admin_preset_sender_header"
 >title="寄件者標題"
 >abstract="當傳送實體（寄件者）與編寫實體（寄件者）不同時（例如，當公司母公司為子品牌傳送訊息，或代理商為多個客戶傳送訊息時），請使用這些選用欄位。 支援此功能的電子郵件使用者端通常會將其轉譯為「代表寄件者的寄件者」或顯示「透過」指標。"
-
->[!AVAILABILITY]
->
->此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 某些使用案例會要求傳輸郵件的信箱與&#x200B;**來自**&#x200B;的作者不同，例如代表子公司傳送的父級組織、多個品牌的共用行銷團隊，或為多個客戶傳送的代理商。
 
