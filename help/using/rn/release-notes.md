@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 **發行日期**： 2026年4月28至29日
 
 ### 新功能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>整合</b>功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 透過簡化您提取外部資料和<b>可撰寫內容</b>的方式，此功能可讓您更輕鬆地跨所有管道提供個人化的動態訊息。</p>
+<p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/integrations.md">詳細文件</a>。</p>
+<p>推出日期： 2026年5月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -53,7 +71,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><strong>協調的行銷活動</strong>現在支援<strong>增量查詢</strong>活動，其目標僅是自上次執行以來新符合資格的設定檔或事件。
 
 這可讓週期性行銷活動專注於全新受眾（新註冊、新合格的忠誠度會員和類似區段），同時減少查詢工作量，並避免隨著時間推移而出現的重複傳送。</p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/incremental-query.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>透過Journey Optimizer，您現在可以在傳輸實體（寄件者）與編寫實體（寄件者）不同的情況下傳送電子郵件。 支援此功能的電子郵件使用者端通常會將其轉譯為「代表寄件者的寄件者」或顯示「透過」指標。 填寫電子郵件通道設定中的選擇性<strong>寄件者標題</strong>欄位，以設定此功能。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細文件</a>。</p>
 </td>
@@ -278,8 +295,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **在通道設定中個人化應用程式ID** — 在推播通道設定中，您現在可以個人化&#x200B;**應用程式ID**&#x200B;欄位，讓每位收件者都能根據其設定檔資訊，從適當的品牌接收推播通知。 [閱讀全文](../push/push-configuration.md#app-id-personalization)
 
-  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
-
 #### 決策
 
 * **將片段附加至決定專案** - Journey Optimizer現在提供將片段附加至決定專案的功能，而決定專案可透過決定原則，在程式碼型體驗和電子郵件行銷活動中運用。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>整合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>整合</b>功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 透過簡化您提取外部資料和<b>可撰寫內容</b>的方式，此功能可讓您更輕鬆地跨所有管道提供個人化的動態訊息。</p>
-<p>此功能先前以Beta版發佈，現已開放所有環境使用（全面發佈）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>歷程模擬</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>如需詳細資訊，請參閱<a href="../email/message-tracking.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月7日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改善 {#comming-soon-improv}
-
-#### 設定
-
-* **URL引數加密金鑰的特定許可權** — 若要存取和管理URL引數加密金鑰，已建立新許可權。 您現在必須授與&#x200B;**檢視機碼登入**&#x200B;和&#x200B;**管理機碼登入**&#x200B;許可權。<!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
