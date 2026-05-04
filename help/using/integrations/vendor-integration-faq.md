@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 整合，常見問題集，外部資料，個人化
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # 關於整合的常見問題 {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-目錄：
-
-* [使用整合](integrations.md)
-* [開始使用廠商整合](vendor-integration-gs.md)
-* [可用的廠商](vendor-integration.md)
-* **[常見問題集](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 以下是有關Adobe Journey Optimizer中&#x200B;**整合**&#x200B;的常見問題。
 
@@ -114,9 +102,9 @@ ht-degree: 2%
 
 +++ 我可以在可重複使用的片段中使用整合嗎？
 
-整合功能在片段中&#x200B;**不支援**。 在產品支援的行銷活動和歷程訊息內容中使用整合。
+片段支援整合功能。
 
-➡️ [進一步瞭解片段和Beta版限制](integrations.md#limitations)
+➡️ [進一步瞭解片段](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ ht-degree: 2%
 
 +++ 支援哪些API回應格式？
 
-對於API呼叫回應，欄位對應支援&#x200B;**JSON**。 此工作流程無法使用非JSON的原始二進位影像輸出和格式。
+對於API呼叫回應，欄位對應支援&#x200B;**JSON**&#x200B;和&#x200B;**HTML**。 此工作流程無法使用非JSON的原始二進位影像輸出和格式。
 
 ➡️ [進一步瞭解JSON和回應格式](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ ht-degree: 2%
 
 +++ 設定整合需要哪些許可權？
 
-組態是&#x200B;**[!UICONTROL 組態]** > **[!UICONTROL 整合]**&#x200B;下的管理員工作流程。 確切的許可權名稱取決於貴組織的Admin Console和Journey Optimizer產品設定檔。 請向您的管理員或Adobe代表確認。
+若要開始使用整合，使用者必須獲授&#x200B;**[!UICONTROL 管理AJO整合設定]**&#x200B;和&#x200B;**[!UICONTROL 檢視AJO整合設定]**&#x200B;許可權。
 
-➡️ [進一步瞭解整合的設定位置](integrations.md#configure)
+➡️ [進一步瞭解整合許可權](integrations.md#overview)
 
 +++
 
