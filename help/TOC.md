@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -416,7 +416,7 @@ ht-degree: 91%
       + [可到 Journey Optimizer 設定 LINE 頻道](using/line/line-configuration.md)
       + [建立 LINE 訊息](using/line/create-line.md)
       + [檢查並傳送 LINE 訊息](using/line/send-line.md)
-   + 已上線活動 {#live-activity}
+   + 即時動態 {#live-activity}
       + [開始使用即時動態](using/mobile-live/get-started-mobile-live.md)
       + [建立即時動態](using/mobile-live/create-mobile-live.md)
       + [疑難排解即時活動](using/mobile-live/troubleshoot-mobile-live.md)
@@ -508,10 +508,13 @@ ht-degree: 91%
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[使用整合](using/integrations/integrations.md)
-      + {hide-from-toc}[開始使用廠商整合](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[範例廠商組態](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[常見問題集](using/integrations/vendor-integration-faq.md)
+      + 整合 {#integrations}
+         + [使用整合](using/integrations/integrations.md)
+         + [使用外部整合進行個人化](using/integrations/integrations-personalization.md)
+         + [常見問題集](using/integrations/vendor-integration-faq.md)
+         + 範例廠商 {#vendors}
+            + [開始使用廠商整合](using/integrations/vendor-integration-gs.md)
+            + [範例廠商組態](using/integrations/vendor-integration.md)
       + [透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
