@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 83%
 >[!NOTE]
 >
 >* 您的環境可用元件和功能取決於您的[權限](../administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
->* 本文件將經常更新。有些螢幕擷取畫面可能會與您的介面稍有不同。
+>* 本文件將經常更新。 有些螢幕擷取畫面可能會與您的介面稍有不同。
 
 ## 快速導覽 {#quick-tour}
 
@@ -41,7 +41,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ### 通用搜尋 {#universal-search}
 
-使用搜尋圖示快速尋找 Journey Optimizer 中的歷程、行銷活動、資產和其他物件。輸入關鍵字以檢視來自平台所有區域的相關結果。 [進一步瞭解通用搜尋](search-filter-categorize.md#unified-search)。
+使用搜尋圖示快速尋找 Journey Optimizer 中的歷程、行銷活動、資產和其他物件。 輸入關鍵字以檢視來自平台所有區域的相關結果。 [進一步瞭解通用搜尋](search-filter-categorize.md#unified-search)。
 
 ### 說明與支援 {#help}
 
@@ -116,7 +116,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ## 左側導覽 {#left-nav}
 
-左側導覽會將 Journey Optimizer 功能按功能類別整理。可用的選單項目取決於您的權限和授權。
+左側導覽會將 Journey Optimizer 功能按功能類別整理。 可用的選單項目取決於您的權限和授權。
 
 | 區域 | 目的 |
 |---------|---------|
@@ -135,24 +135,24 @@ Journey Optimizer 介面包含四個主要區域：
 
 **歷程管理** - 建立和管理客戶體驗
 
-* **行銷活動** - 建立針對特定客群的一次性或排程訊息。[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
-* **歷程** - 建立多步驟、跨管道的客戶體驗。[建立您的第一個歷程](../building-journeys/journey-gs.md)
-* **報告** - 使用整合的 Customer Journey Analytics 報告分析績效。[檢視報告文件](../reports/campaign-global-report-cja.md)
+* **行銷活動** - 建立針對特定客群的一次性或排程訊息。 [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)
+* **歷程** - 建立多步驟、跨管道的客戶體驗。 [建立您的第一個歷程](../building-journeys/journey-gs.md)
+* **報告** - 使用整合的 Customer Journey Analytics 報告分析績效。 [檢視報告文件](../reports/campaign-global-report-cja.md)
 
-**決策管理** - 管理個人化產品建議。[了解決策管理](../offers/get-started/starting-offer-decisioning.md)
+**決策管理** - 管理個人化產品建議。 [了解決策管理](../offers/get-started/starting-offer-decisioning.md)
 
 * **產品建議** - 建立和管理個人化產品建議
 * **元件** - 為產品建議設定位置、規則和標籤
 
 **內容管理** - 建立和整理內容
 
-* **資產** - 影像和媒體的集中式存放庫。[管理資產](../integrations/assets.md)
-* **內容範本** - 行銷活動和歷程的可重複使用訊息範本。[建立範本](../content-management/content-templates.md)
-* **片段** - 可用於多個訊息的內容區塊。[使用片段](../content-management/fragments.md)
-* **登陸頁面** - 訂閱和偏好設定的網頁表單。[設計登陸頁面](../landing-pages/get-started-lp.md)
-* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。[探索教戰手冊](ai-features.md#playbooks)
+* **資產** - 影像和媒體的集中式存放庫。 [管理資產](../integrations/assets.md)
+* **內容範本** - 行銷活動和歷程的可重複使用訊息範本。 [建立範本](../content-management/content-templates.md)
+* **片段** - 可用於多個訊息的內容區塊。 [使用片段](../content-management/fragments.md)
+* **登陸頁面** - 訂閱和偏好設定的網頁表單。 [設計登陸頁面](../landing-pages/get-started-lp.md)
+* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。 [探索教戰手冊](ai-features.md#playbooks)
 
-**資料管理** - 管理您的資料基礎。[了解結構描述和資料集](../data/get-started-schemas.md)
+**資料管理** - 管理您的資料基礎。 [了解結構描述和資料集](../data/get-started-schemas.md)
 
 * **結構描述** - 定義資料結構
 * **資料集** - 儲存和管理資料集合
@@ -161,31 +161,31 @@ Journey Optimizer 介面包含四個主要區域：
 
 **連線** - 與其他系統整合
 
-* **來源** - 從外部系統擷取資料。[設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。[設定目的地](../data/export-datasets.md)
+* **來源** - 從外部系統擷取資料。 [設定來源](get-started-sources.md)
+* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)
 
 **客戶** - 管理客群和輪廓
 
-* **客群** - 建立和管理客戶區段。[使用客群](../audience/about-audiences.md)
-* **訂閱清單** - 管理選擇加入清單。[管理訂閱](../landing-pages/subscription-list.md)
-* **輪廓** - 檢視統一客戶輪廓。[探索輪廓](../audience/get-started-profiles.md)
-* **身分** - 管理身分解析。[了解身分](../audience/get-started-identity.md)
+* **客群** - 建立和管理客戶區段。 [使用客群](../audience/about-audiences.md)
+* **訂閱清單** - 管理選擇加入清單。 [管理訂閱](../landing-pages/subscription-list.md)
+* **輪廓** - 檢視統一客戶輪廓。 [探索輪廓](../audience/get-started-profiles.md)
+* **身分** - 管理身分解析。 [了解身分](../audience/get-started-identity.md)
 
-**隱私權** - 控制隱私權與合規性。[隱私權概觀](../privacy/get-started-privacy.md)
+**隱私權** - 控制隱私權與合規性。 [隱私權概觀](../privacy/get-started-privacy.md)
 
 * **原則** - 定義資料治理原則
 * **請求** - 處理隱私權請求 (GDPR、CCPA)
-* **稽核** — 檢閱活動記錄。[檢視稽核記錄](../privacy/audit-logs.md)
+* **稽核** — 檢閱活動記錄。 [檢視稽核記錄](../privacy/audit-logs.md)
 * **資料生命週期** - 設定資料保留
 
-**管理** - 設定系統設定。[存取控制概觀](../administration/permissions-overview.md)
+**管理** - 設定系統設定。 [存取控制概觀](../administration/permissions-overview.md)
 
-* **設定** - 設定事件、資料來源和動作。[設定管道](../configuration/get-started-configuration.md)
-* **業務規則** - 控制訊息頻率和歷程項目。[設定業務規則](../conflict-prioritization/rule-sets.md)
-* **警示** - 檢視和管理系統警示。[監視警示](../reports/alerts.md)
-* **沙箱** - 管理環境並在沙箱之間複製物件。[使用沙箱](../administration/sandboxes.md)
-* **管道** - 設定管道設定和傳遞能力。[設定管道設定](../configuration/channel-surfaces.md) | [開始使用設定](../configuration/get-started-configuration.md)
-* **標籤** - 整理內容並將其分類。[使用統一標籤](search-filter-categorize.md#tags)
+* **設定** - 設定事件、資料來源和動作。 [設定管道](../configuration/get-started-configuration.md)
+* **業務規則** - 控制訊息頻率和歷程項目。 [設定業務規則](../conflict-prioritization/rule-sets.md)
+* **警示** - 檢視和管理系統警示。 [監視警示](../reports/alerts.md)
+* **沙箱** - 管理環境並在沙箱之間複製物件。 [使用沙箱](../administration/sandboxes.md)
+* **管道** - 設定管道設定和傳遞能力。 [設定管道設定](../configuration/channel-surfaces.md) | [開始使用設定](../configuration/get-started-configuration.md)
+* **標籤** - 整理內容並將其分類。 [使用統一標籤](search-filter-categorize.md#tags)
 
 ## AI 助理 {#ai-assistant}
 
@@ -310,24 +310,24 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
 >title="模擬您的歷程"
->abstract="歷程模擬可讓您驗證您的歷程，並在啟動歷程之前查看執行績效。此模擬會使用經過訓練的模型資料在整個歷程中提供數據，以便了解該歷程在真實狀況下的表現績效。"
+>abstract="歷程模擬可讓您驗證您的歷程，並在啟動歷程之前查看執行績效。 此模擬會使用經過訓練的模型資料在整個歷程中提供數據，以便了解該歷程在真實狀況下的表現績效。"
 
 <!-- WEBHOOKS -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="啟用 Webhook"
->abstract="啟用 Webhook 以接收有關訊息執行狀態的即時回饋。在啟用此選項之前，請確定您已在&#x200B;**管理**/**頻道**/**回饋 Webhook** 選單中設定 Webhook。"
+>abstract="啟用 Webhook 以接收有關訊息執行狀態的即時回饋。 在啟用此選項之前，請確定您已在&#x200B;**管理**/**頻道**/**回饋 Webhook** 選單中設定 Webhook。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="回饋 Webhook"
->abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。每個組織 + 沙箱組合只允許一個 Webhook 設定。"
+>abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。 每個組織 + 沙箱組合只允許一個 Webhook 設定。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
 >title="基本設定"
->abstract="在此區段中，輸入說明性名稱以識別 Webhook 並選取此 Webhook 應接收意見回饋 (電子郵件和/或簡訊) 的頻道。在 Webhook URL 欄位中，提供必須傳送意見回饋事件的 HTTPS 端點。"
+>abstract="在此區段中，輸入說明性名稱以識別 Webhook 並選取此 Webhook 應接收意見回饋 (電子郵件和/或簡訊) 的頻道。 在 Webhook URL 欄位中，提供必須傳送意見回饋事件的 HTTPS 端點。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -338,28 +338,3 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="標頭參數"
 >abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="增量查詢"
->abstract="增量查詢是一種目標定位活動，每當協調的行銷活動執行時，就會執行資料庫查詢。 它只會傳回新記錄，並排除先前執行中已包含的任何人，因此您可以避免重新鎖定相同人員或重新匯出相同列。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="已處理的資料"
->abstract="在處理資料底下，選擇如何排除先前執行中的記錄。 透過排除先前執行的結果，活動會保留先前執行中傳回的記錄清單；每次執行都會排除這些記錄，並只傳回新記錄。 透過使用日期欄位選項，活動使用所選的日期欄位而不是追蹤個別ID，並且每次執行只傳回日期在最後一次執行之後的列。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="歷史記錄（天）"
->abstract="此設定控制該清單的保留時間。 0值表示無限期保留；不會移除任何記錄。"
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="頁面上的位置"
->abstract="。"
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="應用程式 ID"
->abstract="。"
