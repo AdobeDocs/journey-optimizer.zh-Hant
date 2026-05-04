@@ -63,7 +63,7 @@ ht-degree: 7%
 
 1. 導覽至左側功能表中的&#x200B;**[!UICONTROL 組態]**&#x200B;區段，然後從&#x200B;**[!UICONTROL 整合]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 管理]**。
 
-   然後，按一下[建立整合] ****&#x200B;以開始新的組態。
+   然後，按一下[建立整合] **&#x200B;**&#x200B;以開始新的組態。
 
    ![](assets/external-integration-config-1.png)
 
@@ -105,7 +105,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 無驗證]**：適用於不需要任何認證的開放API。
 
-   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**[!UICONTROL  API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
+   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
 
    * **[!UICONTROL 基本驗證]**：使用標準HTTP基本驗證。 輸入&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
 
@@ -160,7 +160,7 @@ ht-degree: 7%
 
 **[!UICONTROL 傳送測試連線]**&#x200B;會在啟用之前針對目標API驗證端點URL、驗證及要求結構，以降低訊息處理期間執行階段失敗的風險。
 
-1. 定義URL、HTTP方法、標頭和查詢引數時，按一下[傳送測試連線] ]**以執行連線測試並確認組態。**[!UICONTROL 
+1. 定義URL、HTTP方法、標頭和查詢引數時，按一下[傳送測試連線] **以執行連線測試並確認組態。**
 
 1. 在&#x200B;**[!UICONTROL 傳送測試連線]**&#x200B;對話方塊中，為URL路徑、標頭和查詢引數中的任何&#x200B;**[!UICONTROL 變數]**&#x200B;預留位置輸入預設值。
 
