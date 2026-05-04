@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 跳轉，活動，歷程，分割，分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 7%
+source-wordcount: '1418'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
 >title="跳轉活動"
->abstract="此跳轉動作活動可讓您將個人從一個歷程推送到另一個歷程。本功能可讓您簡化非常複雜的歷程的設計，並根據常見且可重複使用的歷程模式建置歷程。"
+>abstract="此跳轉動作活動可讓您將個人從一個歷程推送到另一個歷程。 本功能可讓您簡化非常複雜的歷程的設計，並根據常見且可重複使用的歷程模式建置歷程。"
 
 **[!UICONTROL 跳轉]**&#x200B;動作活動可讓您將個人從一個歷程推送到另一個歷程。 此功能可讓您：
 
@@ -53,6 +53,20 @@ ht-degree: 7%
 >[!NOTE]
 >
 >歷程B也可以透過外部事件觸發。
+
+### 跳轉期間的設定檔行為 {#jump-profile-behavior}
+
+當設定檔達到&#x200B;**[!UICONTROL 跳轉]**&#x200B;步驟時，它會在來源歷程（歷程A）中繼續前進，同時進入目標歷程（歷程B）。 因此，設定檔會在兩個歷程中同時啟用。
+
+這表示:
+
+* 在跳轉活動後，設定檔完成歷程A中的所有剩餘步驟（例如，後續追蹤等待或關閉動作）。
+* 設定檔也會開始從第一個事件流經歷程B，不受歷程A影響。
+* 如果執行跳轉時，設定檔在歷程B中已經是&#x200B;**作用中**，則它將&#x200B;**不會**&#x200B;再次進入歷程B。 歷程A正常繼續；未報告錯誤。
+
+>[!NOTE]
+>
+>上述案例 — 設定檔已在歷程B中作用中 — 導致&#x200B;**無訊息略過**：未引發任何錯誤，且歷程A正常繼續。 在其他情況下，跳轉可能會&#x200B;**失敗**，而歷程A會套用其標準動作錯誤處理。 如需完整案例清單，請參閱[執行階段失敗](#jump-troubleshoot)。
 
 ## 最佳實務和限制 {#jump-limitations}
 
@@ -94,7 +108,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->如需深入瞭解此方法，請參閱[Journey Optimizer進階歷程的最佳實務](https://experienceleague.adobe.com/zh-hant/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>如需深入瞭解此方法，請參閱[Journey Optimizer進階歷程的最佳實務](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 ## 設定跳轉活動 {#jump-configure}
 
@@ -106,8 +120,8 @@ ht-degree: 7%
 
    ![跳轉活動設定中的目標歷程選擇下拉式清單](assets/jump2.png)
 
-1. 在&#x200B;**目標歷程**&#x200B;欄位內按一下。
-清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以&#x200B;**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
+1. 在&#x200B;**目標歷程**欄位內按一下。
+清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
 
    ![顯示目標歷程和動作引數的跳轉活動](assets/jump3.png)
 
@@ -138,10 +152,20 @@ ht-degree: 7%
 
 ## 疑難排解 {#jump-troubleshoot}
 
-發生錯誤的情況：
+### 設定錯誤
 
-* 目標歷程已不存在
-* 目標歷程為草稿、已關閉或已停止
-* 目標歷程的第一個事件已變更，且對應已中斷
+以下問題會導致跳轉無法正常運作，並在歷程畫布上顯示為錯誤：
+
+* 目標歷程已不存在。
+* 目標歷程為草稿、已關閉或已停止。
+* 目標歷程的第一個事件已變更，且對應已中斷。
 
 ![顯示跳轉活動執行量度的歷程分析](assets/jump6.png)
+
+### 執行階段失敗
+
+在下列情況下，跳轉步驟在歷程A中會視為&#x200B;**失敗的動作**。歷程A會套用標準的動作錯誤處理並繼續：
+
+* 現有目標歷程執行個體已終止，且目標歷程不可重新進入。
+* 目標歷程中已設定重新進入時段。 即使原則上允許重新輸入，在期間過去之前，設定檔也無法重新輸入（跳轉失敗並顯示「期間不可重新輸入」狀態）。
+* 找不到目標歷程版本、已刪除、處於完成狀態或已停止。

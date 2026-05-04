@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 7%
+source-wordcount: '2222'
+ht-degree: 8%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="測試您的歷程"
->abstract="在發佈您的歷程之前使用測試設定檔進行測試。這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="歷程試運行"
+>abstract="在發佈您的歷程之前使用測試設定檔進行測試。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="歷程試執行"
 
 
 一旦您建立了您的歷程，您就可以在發佈之前先測試它。 Journey Optimizer提供「測試模式」，以便在測試設定檔歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
 
-只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在[本節](../audience/creating-test-profiles.md)中進一步瞭解測試設定檔。
+只有測試輪廓才能進入旅程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在[本節](../audience/creating-test-profiles.md)中進一步瞭解測試設定檔。
 
 >[!NOTE]
 >
@@ -56,8 +56,8 @@ ht-degree: 7%
 ### 執行
 
 * **分割行為** — 當歷程達到分割時，一律會選取頂端分支。 如果您想要測試不同的路徑，請重新排序分支。
-* **事件計時** — 如果歷程包含*多個事件，則按順序觸發每個事件。過早傳送事件（第一個等待節點完成之前）或太晚傳送事件（在設定的逾時之後）將會捨棄該事件，並將設定檔傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效
-* **作用中的日期視窗** — 確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面[上進一步了解疑難排解此問題](troubleshooting-execution.md#troubleshooting-test-transitions)。
+* **事件計時** — 如果歷程包含*多個事件，則按順序觸發每個事件。太早（第一個等待節點完成之前）或太晚（在設定的逾時後）傳送事件將會捨棄事件，並將設定檔傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效
+* **作用中的日期視窗** — 確定歷程設定的選擇[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面](troubleshooting-execution.md#troubleshooting-test-transitions)上進一步了解疑難排解此問題[。
 * **回應事件** — 對於逾時的回應事件，最小和預設等待時間為40秒。
 * **測試資料集** — 在測試模式中觸發的事件會儲存在專用的資料集中，標示如下： `JOtestmode - <schema of your event>`
 * **共用基礎架構** — 測試模式會在與生產相同的基礎架構上執行。 在高流量期間，您可能會注意到電子郵件傳送或事件處理有所延遲。 在這種情況下，請檢查平台流量儀表板，或在非尖峰時段重試您的測試。
@@ -94,14 +94,37 @@ ht-degree: 7%
 
    ![顯示記錄按鈕以檢視測試結果](assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。完成測試後，您就可以發佈歷程。 請參閱[此頁面](../building-journeys/publish-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。 完成測試後，您就可以發佈歷程。 請參閱[此頁面](../building-journeys/publish-journey.md)。
+
+## 工作範例：驗證簡單歷程 {#test-walkthrough}
+
+以下範例會逐步說明測試歷程，其開頭為單一事件，傳送電子郵件、等待10分鐘，然後傳送推播通知。
+
+若要驗證端對端歷程：
+
+1. 按一下右上角的&#x200B;**[!UICONTROL 測試模式]**&#x200B;以啟動測試模式。 畫布切換到測試模式，並出現&#x200B;**[!UICONTROL 觸發事件]**&#x200B;按鈕。
+1. 將&#x200B;**[!UICONTROL 等待時間]**&#x200B;設為&#x200B;**10秒**，以便在測試期間快速完成等待節點。
+1. 按一下&#x200B;**[!UICONTROL 觸發事件]**、選取您的事件，然後輸入測試設定檔識別碼（例如，在Adobe Experience Platform中標示為測試設定檔的設定檔電子郵件地址）。
+1. 按一下&#x200B;**[!UICONTROL 傳送]**。 視覺流程會出現在畫布上，並隨著設定檔逐步通過每個步驟而變成綠色。
+1. 按一下&#x200B;**[!UICONTROL 顯示記錄檔]**，並在JSON輸出中確認下列專案：
+   * `currentstep`符合您預期設定檔所在的活動。
+   * 設定檔位於等待節點時，`phase`會顯示`running`，當設定檔到達結尾時，則會顯示`finished`。
+   * 不存在`actionExecutionErrors`專案。
+1. 10秒後，重新整理記錄檔。 設定檔應該已進階超過等待節點，並觸發推送動作。
+1. 當所有步驟顯示`finished`且未記錄任何錯誤時，請停用測試模式並發佈歷程。
+
+>[!TIP]
+>
+>如果設定檔完全沒有出現在記錄中，請檢查：
+>* 您輸入的設定檔識別碼在[!DNL Adobe Experience Platform]中被標籤為測試設定檔。
+>* 歷程設定的開始和結束日期包括目前時間。 在此視窗之外觸發的事件會以無訊息方式捨棄。 [了解更多資訊](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## 觸發您的事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="設定測試模式"
->abstract="如果您的歷程包含多個事件，請使用下拉選單選取一個事件。然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。"
+>abstract="如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。"
 
 使用&#x200B;**[!UICONTROL 觸發事件]**&#x200B;按鈕來設定讓人員進入歷程的事件。
 
@@ -125,7 +148,7 @@ ht-degree: 7%
 
 ### 事件設定 {#trigger-events-configuration}
 
-如果您的歷程包含多個事件，請使用下拉選單選取一個事件。然後，針對每個事件，設定所傳遞的欄位以及傳送事件的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存最後用於測試工作階段的引數以供稍後使用。
+如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存最後用於測試工作階段的引數以供稍後使用。
 
 ![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/journeytest4.png)
 
@@ -162,7 +185,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="測試模式記錄"
->abstract="「**顯示記錄**」按鈕以 JSON 格式顯示測試結果。這些結果會顯示歷程中個人的數目及其狀態。"
+>abstract="「**顯示記錄**」按鈕以 JSON 格式顯示測試結果。 這些結果會顯示歷程中個人的數目及其狀態。"
 
 **[!UICONTROL 顯示記錄]**&#x200B;按鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 按鈕可讓您複製整個節點。 您需要手動重新整理頁面以更新歷程的測試結果。
 
