@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 20%
 
 ---
@@ -83,12 +83,60 @@ ht-degree: 20%
 </tbody>
 </table>
 
+
+
+## 即將推出 {#coming-soon}
+
+下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
+
+### 新功能 {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件Designer中的深層連結</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>如需詳細資訊，請參閱<a href="../email/message-tracking.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月7日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在Adobe Journey Optimizer中建立<strong>歷程片段</strong>。 歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。</p>
+<p>建立後，片段會儲存在專用的<strong>片段詳細目錄</strong>中，並可使用<strong>歷程片段</strong>活動插入任何歷程。</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>推出日期： 2026年5月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## 2026年4月發行說明 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
@@ -127,7 +175,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>透過Journey Optimizer，您現在可以在傳輸實體（寄件者）與編寫實體（寄件者）不同的情況下傳送電子郵件。 支援此功能的電子郵件使用者端通常會將其轉譯為「代表寄件者的寄件者」或顯示「透過」指標。 填寫電子郵件通道設定中的選擇性<strong>寄件者標題</strong>欄位，以設定此功能。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -146,7 +194,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>這可讓您自動複製每則訊息上正確的利害關係人，例如關係經理或帳戶擁有者，同時確保客戶知道要聯絡誰以進行後續追蹤。</p>
 <p>CC欄位支援個人化，因此單一設定可根據設定檔資料動態路由副本，使其可在多個使用案例中擴充，而無需其他設定。</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/cc-email-field.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/cc-email-field.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -163,7 +211,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>沙箱工具現在支援將協調的行銷活動從一個沙箱封裝和複製到另一個沙箱。 如此一來，您就不需要在每個環境中手動重建行銷活動。 封裝行銷活動時，會自動包含其核心相依物件，例如合併原則、訊息，以便匯入的行銷活動到達時便能進行設定和驗證。 為了保護生產環境，所有匯入的行銷活動都會以草稿狀態在目標沙箱中著陸，在任何行銷活動上線之前為團隊提供審查和核准步驟。</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -198,7 +246,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>您現在可以在排名公式中使用<strong>AI模型</strong>，以根據客戶設定檔屬性和內容因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/journey-ai-models.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/journey-ai-models.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -217,7 +265,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年4月23日</p>
 </td>
 </tr>
@@ -276,7 +324,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>作為「一般可用性」的一部分，此版本引入<strong>實驗型別</strong>選擇（A/B或多臂吃角子老虎機）和<strong>縮放單一歷程的獲勝者</strong>。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/path-experimentation.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/path-experimentation.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年4月7日</p>
 </td>
 </tr>
@@ -294,7 +342,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p><strong>收件匣</strong>是一項行動功能，可搭配內容卡使用，讓客戶在應用程式或網站中建立集中式位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年4月7日</p>
 </td>
 </tr>
@@ -313,7 +361,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>您現在可以使用<strong>決策</strong>來個人化及最佳化您的電子郵件內容。 利用優先順序分數、公式或AI模型，向每位收件者顯示最相關的優惠和內容。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 在此「一般可用性」版本中，現在支援映象頁面。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年4月6日</p>
 </td>
 </tr>
@@ -404,28 +452,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **協調行銷活動中的全域變數** — 協調行銷活動現在支援全域變數，這些變數只需定義一次，便可在工作流程內的所有活動中重複使用，可簡化設定，並確保動態值、運算式和內容個人化的一致性。 [閱讀全文](../orchestrated/global-variables.md)
 * **資料Modeler增強功能** — 協調的關聯式結構描述現在支援跨多個欄位的複合索引鍵。 從DDL檔案載入綱要也會產生分項清單，而從DDL或Excel檔案載入會自動建立表格之間的複合關係。 在實體關係檢視中，複合連結現在會在檔案上傳後，顯示表格之間的完整欄位配對集。 [閱讀全文](../orchestrated/gs-schemas.md)
-
-## 即將推出 {#coming-soon}
-
-下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
-
-### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件Designer中的深層連結</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>如需詳細資訊，請參閱<a href="../email/message-tracking.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年5月7日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
