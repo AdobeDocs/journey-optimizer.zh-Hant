@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 22%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 22%
 若要追蹤多個電子郵件中的相同URL （或一個電子郵件中的多次），請為每個類似的URL使用唯一標籤；否則，[!DNL Journey Optimizer]將無法追蹤點選的連結。 您可以在電子郵件Designer中設定不同的標籤，或針對HTML，透過`data-label`屬性來設定。
 
 | URL | 標記 | 標籤 | urlID行為 |
-|-----|-----|-------|----------------|
-| www.example.com | 第一 | (空白) | 取得urlID （例如） |
-| www.example.com | Second | (空白) | 重複使用urlID A — 無法辨別點選了哪個連結 |
-| www.example.com | 第三 | 第一個標籤 | 取得urlID （例如B） |
-| www.example.com | 第四 | 第二個標籤 | 取得urlID （例如C） |
+| --- | --- | --- | --- |
+| `https://www.example.com` | 第一 | (空白) | 取得urlID （例如） |
+| `https://www.example.com` | Second | (空白) | 重複使用urlID A — 無法辨別點選了哪個連結 |
+| `https://www.example.com` | 第三 | 第一個標籤 | 取得urlID （例如B） |
+| `https://www.example.com` | 第四 | 第二個標籤 | 取得urlID （例如C） |
 
 ## 插入連結 {#insert-links}
 
@@ -96,7 +96,7 @@ ht-degree: 22%
    >
    >若要解譯URL，[!DNL Journey Optimizer]符合URI語法（[RFC 3986標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），這會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果您傳回的錯誤涉及新增到內容的URL，您可以URL編碼字串作為因應措施。
 
-1. 您可以個人化連結。 [了解更多](../personalization/personalization-build-expressions.md)
+1. 您可以個人化連結。 [了解更多](url-personalization.md)
 
 1. 儲存您的變更。
 
@@ -116,7 +116,7 @@ ht-degree: 22%
 
 ## 連結至映象頁面 {#mirror-page}
 
-映象頁面是電子郵件的線上版本。 將連結新增至映象頁面是電子郵件行銷的良好做法。 使用者可以瀏覽到電子郵件的鏡像頁面，例如他們在嘗試在收件匣中檢視郵件時遇到轉譯問題或影像毀損。我們建議基於存取性原因或鼓勵社交共享，提供線上版本。
+鏡像頁面是您電子郵件的線上版本。 將連結新增至映象頁面是電子郵件行銷的良好做法。 使用者可以瀏覽到電子郵件的鏡像頁面，例如他們在嘗試在收件匣中檢視郵件時遇到轉譯問題或影像毀損。 我們建議基於存取性原因或鼓勵社交共享，提供線上版本。
 
 Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
@@ -124,13 +124,13 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 ![](assets/message-tracking-mirror-page.png)
 
-映象頁面會自動建立。 電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
+鏡像頁面會自動建立。 電子郵件傳送後，當收件者按一下鏡像頁面連結時，電子郵件的內容將顯示在他們的預設網頁瀏覽器中。
 
 映象頁面的保留期為&#x200B;**90天**。 該段時間之後，鏡像頁面無法繼續使用。
 
 >[!CAUTION]
 >
->* 鏡像頁面連結是自動產生的，無法編輯。它們包含轉譯原始電子郵件所需的所有加密的個人化資料。因此，使用具有大值的個人化屬性可能會產生過長的映象頁面URL，使得連結無法在URL長度上限的網頁瀏覽器中運作。
+>* 鏡像頁面連結是自動產生的，無法編輯。 它們包含轉譯原始電子郵件所需的所有加密的個人化資料。 因此，使用具有大值的個人化屬性可能會產生過長的映象頁面URL，使得連結無法在URL長度上限的網頁瀏覽器中運作。
 >
 >* 建立高度依賴執行階段個人化的電子郵件時（例如`#each`回圈、巢狀物件、大型裝載資料），映象頁面URL可能會變得過大，尤其是在API觸發的行銷活動使用來自裝載的廣泛內容資料時。 這可能會導致瀏覽器或郵件使用者端發生HTTP錯誤(404、422、502)。 Adobe建議限制動態欄位的廣度和深度，減少對複雜片段的依賴，並將個人化結構扁平化以防止連結失敗。
 >
@@ -199,26 +199,4 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 ## 個人化URL追蹤 {#url-tracking}
 
-[URL追蹤](email-settings.md#url-tracking)在設定層級管理，並套用至訊息內容中包含的所有URL。
-
-您也可以在電子郵件Designer中個人化個別URL。 若要將個人化URL追蹤引數新增至內容中的單一連結，請遵循下列步驟。
-
-1. 選取連結並按一下內容工具列中的&#x200B;**[!UICONTROL 插入連結]**。
-
-1. 選取個人化圖示。 它僅適用於下列型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. 新增URL追蹤引數，並從[個人化編輯器](../personalization/personalization-build-expressions.md)中選取您選擇的設定檔屬性。
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. 儲存您的變更。
-
-1. 針對您要新增此追蹤引數的每個連結，重複上述步驟。
-
-現在，當電子郵件寄出時，此引數會自動附加至URL的結尾。 接著，您就可以在網站分析工具或效能報表中擷取此引數。
-
->[!NOTE]
->
->若要驗證最終URL，您可以[傳送校樣](../content-management/proofs.md)，並在收到校樣後按一下電子郵件內容中的連結。 URL應顯示追蹤引數。 在上述範例中，最終URL將為： <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+如需URL個人化的詳細指引（包括如何個人化URL追蹤引數，以及如何個人化完整/基本URL），請參閱[URL個人化](url-personalization.md)。
