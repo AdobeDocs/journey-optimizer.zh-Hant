@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 1. 按一下&#x200B;**[!UICONTROL 建立模擬使用者]**&#x200B;以建立新使用者，並選取是要從UI建立使用者，還是從JSON匯入使用者。
 
-   若要改為重複使用模擬使用者，請按一下[選取模擬使用者]&#x200B;**&#x200B;**，然後選擇您先前儲存的專案。
+   若要改為重複使用模擬使用者，請按一下[選取模擬使用者]****，然後選擇您先前儲存的專案。
 
    ![模擬的使用者選擇面板](assets/simulate-2.png)
 
@@ -73,7 +73,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
    * **[!UICONTROL 套用至全部]**：將屬性值或設定從一個模擬使用者傳播到清單中其他每個模擬使用者。
    * **[!UICONTROL 刪除]**：從清單中移除選取的模擬使用者。
 
-1. 按一下[儲存]儲存一或多個模擬使用者，以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存一或多個模擬使用者，以供日後使用。****
 
 1. 儲存後，您建立的模擬使用者會出現在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中。 針對每個專案，開啟選項功能表並選取下列其中一項：
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
    ![模擬的使用者選擇面板](assets/simulate-5.png)
 
-1. 存取&#x200B;**[!UICONTROL 結果]**&#x200B;標籤以開啟執行結果，並檢閱每個步驟的執行方式。 如需詳細資訊，請參閱[檢視結果](#viewing-logs)。
+1. 存取&#x200B;**[!UICONTROL 結果]**&#x200B;標籤以開啟執行記錄檔並檢閱每個步驟的執行方式。 如需詳細資訊，請參閱[檢視結果](#viewing-results)。
 
 在&#x200B;**[!UICONTROL 模擬]**&#x200B;中驗證歷程後，請檢閱&#x200B;**[!UICONTROL 結果]**&#x200B;記錄。 如果發生錯誤，請保留&#x200B;**[!UICONTROL 模擬]**，將必要的變更套用至歷程，然後再次執行&#x200B;**[!UICONTROL 模擬]**，直到執行看起來正確為止。 接著，您就可以發佈歷程。 檢視[發佈您的歷程](../building-journeys/publish-journey.md)。
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
    ![模擬的使用者選擇面板](assets/simulate-5.png)
 
-1. 按一下[顯示記錄檔&#x200B;]&#x200B;**開啟執行記錄檔，並檢閱每個步驟的執行方式。**&#x200B;如需詳細資訊，請參閱[檢視結果](#viewing-logs)。
+1. 存取&#x200B;**[!UICONTROL 結果]**&#x200B;標籤以開啟執行記錄檔並檢閱每個步驟的執行方式。 如需詳細資訊，請參閱[檢視結果](#viewing-results)。
 
 在&#x200B;**[!UICONTROL 模擬]**&#x200B;中驗證歷程後，請檢閱&#x200B;**[!UICONTROL 結果]**&#x200B;記錄。 如果發生錯誤，請保留&#x200B;**[!UICONTROL 模擬]**，將必要的變更套用至歷程，然後再次執行&#x200B;**[!UICONTROL 模擬]**，直到執行看起來正確為止。 接著，您就可以發佈歷程。 檢視[發佈您的歷程](../building-journeys/publish-journey.md)。
 
@@ -143,13 +143,13 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
    當模擬的使用者成功進入歷程時，會出現`Events triggered successfully`確認訊息。
 
-1. 按一下[顯示記錄檔&#x200B;]&#x200B;**開啟執行記錄檔，並檢閱每個步驟的執行方式。**&#x200B;如需詳細資訊，請參閱[檢視結果](#viewing-logs)。
+1. 存取&#x200B;**[!UICONTROL 結果]**&#x200B;標籤以開啟執行記錄檔並檢閱每個步驟的執行方式。 如需詳細資訊，請參閱[檢視結果](#viewing-results)。
 
-## 檢視結果 {#viewing-logs}
+## 檢視結果 {#viewing-results}
 
 **[!UICONTROL 結果]**&#x200B;索引標籤可讓您檢視測試結果。 使用檢視選擇器來選擇瀏覽記錄的方式：
 
-* **所有模擬的使用者**：選取[2&rbrace;全部&#x200B;]&#x200B;**以檢視執行中每個模擬使用者彙總的結果。**&#x200B;此檢視可協助您一目瞭然地掃描完整模擬、活動、結果和錯誤，而不需先挑選單一模擬使用者。
+* **所有模擬的使用者**：選取[2}全部&#x200B;]**]以檢視執行中每個模擬使用者彙總的結果。**[!UICONTROL &#x200B;此檢視可協助您一目瞭然地掃描完整模擬、活動、結果和錯誤，而不需先挑選單一模擬使用者。
 
 * **一個模擬使用者**：在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;下拉式清單中，選取您要檢查其執行的模擬使用者。
 
