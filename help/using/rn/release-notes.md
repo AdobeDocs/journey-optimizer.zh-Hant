@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 20%
 
 ---
@@ -32,6 +32,25 @@ ht-degree: 20%
 <table>
 <thead>
 <tr>
+<th><strong>歷程模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
+<p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>決策規則和排名公式AI最佳化</strong><br/></th>
 </tr>
 </thead>
@@ -45,20 +64,6 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
-
-## 2026年4月發行說明 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-四月初發佈的新功能和改進專案會隨推出日期一併公佈。
-
-**發行日期**： 2026年4月28至29日
-
-### 新功能 {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+## 2026年4月發行說明 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+四月初發佈的新功能和改進專案會隨推出日期一併公佈。
+
+**發行日期**： 2026年4月28至29日
+
+### 新功能 {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 這可讓週期性行銷活動專注於全新受眾（新註冊、新合格的忠誠度會員和類似區段），同時減少查詢工作量，並避免隨著時間推移而出現的重複傳送。</p>
 <p>如需詳細資訊，請參閱<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細文件</a>。</p>
+<p>推出日期： 2026年4月30日</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
 ### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
-<p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
