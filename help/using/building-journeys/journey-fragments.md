@@ -11,7 +11,7 @@ hide: true
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
 badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 9%
@@ -71,6 +71,7 @@ ht-degree: 9%
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。 片段會儲存為草稿。
 
 >[!TIP]
+>
 >如果您從歷程建立片段，[在儲存片段之前&#x200B;**測試或模擬您的歷程](testing-the-journey.md)**，以確保選取的節點如預期般運作。
 
 >[!TAB 來自片段詳細目錄]
@@ -83,6 +84,7 @@ ht-degree: 9%
 1. 完成時，按一下&#x200B;**[!UICONTROL 儲存]**，將片段儲存為草稿。
 
 >[!CAUTION]
+>
 >測試模式和模擬在片段編輯器中不可用。 這表示在啟動片段並將其插入歷程之前，您無法驗證已設定活動的行為。 對於邏輯正確性至關重要的片段，請考慮[先在整個歷程中建置和測試或模擬節點](testing-the-journey.md)，然後從上面的畫布索引標籤將其儲存為片段。
 
 >[!ENDTABS]
