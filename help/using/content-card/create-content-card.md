@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1558'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 12%
 
    1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;以選取您的事件。
 
-      +++請參閱可用的事件。
+      可用事件
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -63,19 +63,17 @@ ht-degree: 12%
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 追蹤狀態 | 呼叫行動程式碼API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
-      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
-
-      +++
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      +++檢視可用的特徵。
+      可用特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -93,8 +91,6 @@ ht-degree: 12%
       | 應用程式生命週期 | 安裝日期 | 當符合指定的安裝日期時觸發。 |
       | 應用程式生命週期 | 啟動 | 當符合指定的啟動次數時觸發。 |
       | 應用程式生命週期 | 時間 | 符合指定的當日時間時觸發。 |
-
-      +++
 
    1. 按一下&#x200B;**[!UICONTROL 建立群組]**，將觸發程式群組在一起。
 
@@ -114,7 +110,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 已排程 — 行銷]**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送&#x200B;**行銷**&#x200B;訊息。 可從使用者介面設定及執行。
 
-   * **[!UICONTROL API觸發 — 行銷/異動]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送&#x200B;**行銷**&#x200B;或&#x200B;**異動**&#x200B;訊息，即在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API觸發 — 行銷/異動]**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送&#x200B;**行銷**&#x200B;或&#x200B;**異動**&#x200B;訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。[瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 
@@ -130,7 +126,7 @@ ht-degree: 12%
 
 1. 選取或建立新的[內容卡組態](content-card-configuration.md)。
 
-1. 選取定義此[內容卡](../inbox/inbox-configuration.md)之收件匣表面的&#x200B;**收件匣組態**。
+1. 選取定義此&#x200B;**內容卡**&#x200B;之收件匣表面的[收件匣組態](../inbox/inbox-configuration.md)。
 
    ![](assets/content-card-create-2.png)
 
@@ -142,7 +138,7 @@ ht-degree: 12%
 
    1. 按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;以選取您的事件。
 
-      +++請參閱可用的事件。
+      可用事件
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -150,19 +146,17 @@ ht-degree: 12%
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 追蹤狀態 | 呼叫行動程式碼API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
-      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
-
-      +++
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      +++檢視可用的特徵。
+      可用特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -180,8 +174,6 @@ ht-degree: 12%
       | 應用程式生命週期 | 安裝日期 | 當符合指定的安裝日期時觸發。 |
       | 應用程式生命週期 | 啟動 | 當符合指定的啟動次數時觸發。 |
       | 應用程式生命週期 | 時間 | 符合指定的當日時間時觸發。 |
-
-      +++
 
    1. 按一下&#x200B;**[!UICONTROL 建立群組]**，將觸發程式群組在一起。
 
