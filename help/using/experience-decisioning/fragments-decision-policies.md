@@ -6,11 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="有限可用性" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能在&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**電子郵件**&#x200B;管道的「有限可用性」中提供。 如欲請求存取權，請和您的 Adobe 代表聯絡。
+>此功能適用於&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**電子郵件**&#x200B;管道。
 
 例如，假設您想針對多種行動裝置型號顯示不同的內容。 將每個屬於不同電話型號的指定片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
 
@@ -65,7 +64,7 @@ ht-degree: 1%
 >
 >如果片段索引鍵不正確或片段內容無效，轉譯可能會失敗並在Edge呼叫中導致錯誤。
 >
->為了避免片段暫時無法使用時失敗，請使用`required=false`標幟，以取代略過片段。 [了解更多](#temporary-unavailable-fragments)
+>為了避免片段暫時無法使用時失敗，請使用`required=false`標幟，以取代略過片段。 [進一步了解](#temporary-unavailable-fragments)
 
 ## 使用情況和護欄 {#fragments-guardrails}
 
