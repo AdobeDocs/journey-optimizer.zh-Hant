@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 20%
 
 ---
@@ -32,6 +32,25 @@ ht-degree: 20%
 <table>
 <thead>
 <tr>
+<th><strong>歷程模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
+<p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>決策規則和排名公式AI最佳化</strong><br/></th>
 </tr>
 </thead>
@@ -41,6 +60,24 @@ ht-degree: 20%
 <p>[!DNL Adobe Journey Optimizer] 現在使用AI來偵測可以簡化的決定規則和排名公式。 在詳細目錄中，紅色指示器會出現在AI已識別最佳化機會的任何規則上。 按一下指示器會顯示原始運算式以及AI建議的版本。 從那裡，您可以下載檔案以檢視每個版本評估模擬設定檔的方式，並確認其行為相同，然後以最佳化的設定檔取代運算式。</p>
 <p>如需詳細資訊，請參閱<a href="../start/ai-features.md#decisioning-optimization">詳細說明文件</a>。</p>
 <p>推出日期： 2026年5月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>整合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>整合</b>功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 透過簡化您提取外部資料和<b>可撰寫內容</b>的方式，此功能可讓您更輕鬆地跨所有管道提供個人化的動態訊息。</p>
+<p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/integrations.md">詳細文件</a>。</p>
+<p>推出日期： 2026年5月4日</p>
 </td>
 </tr>
 </tbody>
@@ -63,24 +100,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>整合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>整合</b>功能可讓您直接將協力廠商資料來源連線至Adobe Journey Optimizer。 透過簡化您提取外部資料和<b>可撰寫內容</b>的方式，此功能可讓您更輕鬆地跨所有管道提供個人化的動態訊息。</p>
-<p>之前以 Beta 版本發行，目前此功能所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../integrations/integrations.md">詳細文件</a>。</p>
-<p>推出日期： 2026年5月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
 </tr>
 </thead>
@@ -91,6 +110,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 這可讓週期性行銷活動專注於全新受眾（新註冊、新合格的忠誠度會員和類似區段），同時減少查詢工作量，並避免隨著時間推移而出現的重複傳送。</p>
 <p>如需詳細資訊，請參閱<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細文件</a>。</p>
+<p>推出日期： 2026年4月30日</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
 ### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時設定檔，可讓您自由測試，而無需在Adobe Experience Platform中管理持續的測試設定檔。</p>
-<p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
