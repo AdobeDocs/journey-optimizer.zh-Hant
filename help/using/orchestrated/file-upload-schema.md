@@ -5,10 +5,10 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 46%
 
 您可以透過介面手動建立結構描述，或使用DDL檔案大量匯入結構描述。
 
-本章節提供如何透過上傳 DDL (資料定義語言) 檔案，可在 Adobe Experience Platform 中建立關聯式結構描述的逐步指南。使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
+本章節提供如何透過上傳 DDL (資料定義語言) 檔案，可在 Adobe Experience Platform 中建立關聯式結構描述的逐步指南。 使用 DDL 檔案，讓您可以預先定義資料模式的結構，包括表格、屬性、索引鍵和關係。
 
 1. [上傳DDL檔案](#ddl-upload)以建立關聯式結構描述並定義其結構。
 
@@ -29,7 +29,7 @@ ht-degree: 46%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -40,8 +40,9 @@ ht-degree: 46%
 +++在Adobe Experience Platform中建立關聯式結構時，支援下列功能
 
 * **列舉**\
-  以DDL為基礎和手動建立結構描述均支援ENUM欄位，可讓您使用一組固定的允許值來定義屬性。
-其範例如下：
+  DDL架構和手動建立架構均支援ENUM欄位。 從DDL檔案載入結構描述時，會自動匯入檔案中定義的列舉，讓您以固定的允許值集定義屬性。
+
+  其範例如下：
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ ht-degree: 46%
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **複合索引鍵**&#x200B;和&#x200B;**複合關係**
+
+  關聯式結構描述定義支援跨多個欄位的複合主索引鍵，以便一起使用多個欄位來唯一識別記錄。
+
+  從DDL或Excel檔案載入綱要時，會自動建立表格之間的複合關係。 在實體關係檢視中，每個複合連結會顯示連結表格之間的完整欄位配對集。
 
 * 資料控管的&#x200B;**結構描述標籤**\
   架構欄位層級支援標籤功能，可強制資料治理原則，例如存取控制和使用限制。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)。
@@ -102,7 +109,7 @@ ht-degree: 46%
 
 1. 完成後，請按一下&#x200B;**[!UICONTROL 完成]**。
 
-目前可以在畫布內，驗證表格和欄位定義。[請參閱下列章節深入了解](#entities)
+目前可以在畫布內，驗證表格和欄位定義。 [請參閱下列章節深入了解](#entities)
 
 ## 定義關係 {#relationships}
 
@@ -114,7 +121,7 @@ ht-degree: 46%
 
    >[!NOTE]
    >
-   >如果在DDL檔案中定義複合金鑰，則支援複合金鑰。
+   >在DDL檔案中定義時，支援跨多個欄位的複合索引鍵。 從DDL或Excel檔案載入時，會自動建立表格之間的複合關係。 在實體關係檢視中，複合連結會顯示連結表格之間的完整欄位配對集。
 
    ![](assets/admin_schema_5.png)
 
@@ -182,7 +189,7 @@ ht-degree: 46%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 
