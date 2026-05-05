@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1731'
 ht-degree: 5%
 
 ---
 
-# 使用 AI 公式產生器 {#create-ranking-formulas}
+# 建立排名公式 {#create-ranking-formulas}
 
 **排名公式**&#x200B;可讓您定義規則，決定應先顯示哪個優惠，而不是考慮優先順序分數。
 
@@ -26,12 +26,23 @@ ht-degree: 5%
 
 ➡️ [在影片中探索此功能](#video)
 
-## 建立排名公式 {#create-ranking-formula}
+## 護欄與限制 {#ranking-guardrails}
+
+建立排名公式之前，請記住下列限制：
+
+* AI公式產生器不支援使用連續量度的[個人化最佳化模型](personalized-optimization-model.md)。
+* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的[轉換率中。
+* 排名公式中的巢狀深度限製為30個層級，測量方式為計算PQL字串中的`)`。
+* UTF-8編碼字元的排名公式字串最多可達8KB （8,000個ASCII字元或2,000-4,000個非ASCII字元）。
+* 排名公式不支援回顧期間（例如，上個月以來的體驗事件）。 嘗試儲存此類公式會觸發錯誤。
+* [AI支援的公式最佳化](#optimize)只適用於程式碼型PQL運算式在UTF-8編碼大小中大於&#x200B;**2 KB**&#x200B;的排名公式；不會分析較小的公式。
+
+## 建立排名公式並設定屬性 {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="建立排名公式"
->abstract="排名公式可讓您定義規則，將決定應先呈現的決定項目，而不是考慮項目的優先順序分數。一旦建立排名公式，您即可將其指派至選取策略。"
+>abstract="排名公式可讓您定義規則，將決定應先呈現的決定項目，而不是考慮項目的優先順序分數。 一旦建立排名公式，您即可將其指派至選取策略。"
 
 若要建立排名公式，請遵循下列步驟。
 
@@ -47,52 +58,36 @@ ht-degree: 5%
 
 1. 或者，按一下&#x200B;**[!UICONTROL 選取AI模型]**&#x200B;以設定模型，此模型將作為建立排名公式的參考。
 
-   >[!NOTE]
-   >
-   >[AI公式產生器不支援使用連續量度的個人化最佳化模型](personalized-optimization-model.md)。
-
    當您在下方定義公式時每次參考模型分數時，將會使用您選取的AI模型。
 
-   >[!CAUTION]
-   >
-   >使用納入排名公式的AI模型時，資料不會反映在保留和模型驅動流量的[轉換率](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表中。
+1. 定義將決定相符決策專案排名分數的條件。 您可以：
 
-1. 定義將決定相符決策專案排名分數的條件。 您可以
+   * 使用[公式產生器](#ranking-select-criteria)填入&#x200B;**[!UICONTROL 條件]**&#x200B;區段，和/或
+   * 按一下&#x200B;**[!UICONTROL 切換到程式碼編輯器]**，以定義或調整程式碼編輯器中[PQL的排名邏輯](#ranking-code-editor)。
 
-   * 從&#x200B;**[!UICONTROL 使用者介面]**&#x200B;填入[條件](#ranking-select-criteria)區段，
-   * 或切換至[程式碼編輯器](#ranking-code-editor)。
+## 使用 Adobe Experience Platform 資料 {#aep-data}
 
-   >[!NOTE]
-   >
-   >排名公式中的巢狀深度限製為30個層級。 這是透過計算PQL字串中的`)`個右括弧來測量。 規則字串的大小最多可達8KB （UTF-8編碼字元）。 這相當於8,000個ASCII字元（每個1個位元組），或2,000-4,000個非ASCII字元（每個2-4個位元組）。 [進一步瞭解Decisioning護欄和限制](../decisioning-guardrails.md#ranking-formulas)
+在&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;區段中，您可以使用Adobe Experience Platform的資料來動態調整排名邏輯，以反映真實世界的狀況。
 
-1. 您也可以使用Adobe Experience Platform中的資料來動態調整排名邏輯，以反映真實世界的條件。 這尤其適合用於經常變更的屬性，例如產品可用性或即時定價。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
+這尤其適合用於經常變更的屬性，例如產品可用性或即時定價。 [瞭解如何將Adobe Experience Platform資料用於決策](../aep-data-exd.md)
 
-<!--
-## Select an ELS dataset {#els-dataset}
-
-Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
-
-To leverage data from an AEP dataset, follow the steps below.
-
-1. From the **[!UICONTROL ELS settings]** section, select an ELS dataset from the list.
-
-1. Select a decision attribute.
-
-    >[!NOTE]
-    >
-    >This action is mandatory.
-
-![](../assets/formula-els-settings.png){width="80%"}
--->
+![](../assets/ranking-formula-dataset.png)
 
 ## 使用公式產生器定義條件 {#ranking-select-criteria}
 
+定義將決定相符決定專案排名分數的&#x200B;**條件**。
+
 透過直覺式介面，您可以透過調整AI分數（傾向）、選件值（優先順序）、情境槓桿和外部設定檔傾向來微調決策，以個別或結合方式最佳化每個互動。<!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
-若要直接從介面定義條件，請遵循下列步驟。
-
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
+
+1. 如有需要，請按一下&#x200B;**[!UICONTROL 切換至程式碼編輯器]**，在公式產生器旁新增使用&#x200B;**PQL語法**&#x200B;的運算式。 此選項補充了下列步驟中的使用者介面欄位，因此您可以在相同的排名公式中結合這兩種方法。 如需如何使用PQL語法的詳細資訊，請參閱[專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant)。 [使用程式碼編輯器](#ranking-code-editor)區段中提供決定專案屬性的語法和複製貼上範例。
+
+   ![](../assets/ranking-formula-code-editor-button.png)
+
+   >[!NOTE]
+   >
+   >切換至程式碼編輯器，會將運算式式式輸入新增至您的條件，而不會移除其他使用者介面欄位。
 
 1. 在&#x200B;**[!UICONTROL 條件1]**&#x200B;區段中，執行下列動作，指定您要套用排名分數的決定專案：
    * 選取[決定專案屬性](../items.md#attributes)
@@ -121,7 +116,7 @@ To leverage data from an AEP dataset, follow the steps below.
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -129,33 +124,33 @@ To leverage data from an AEP dataset, follow the steps below.
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以完成您的排名公式。 您現在可以從清單中選取它以檢視其詳細資訊，並編輯或刪除它。 已準備好在[選取策略](../selection-strategies.md)中使用它來排名合格的決定專案。
+   +++排名公式範例
 
-### 排名公式範例 {#ranking-formula-example}
+   ![](../assets/ranking-formula-example.png){width="80%"}
 
-考量下列範例：
+   如果決策專案的區域（自訂屬性）等於設定檔的地理標籤（設定檔屬性），此處表示的排名分數（決策專案優先順序、AI模型分數和靜態值的組合）將套用至符合該條件的所有決策專案。
 
-![](../assets/ranking-formula-example.png){width="80%"}
+   +++
 
-如果決策專案的區域（自訂屬性）等於設定檔的地理標籤（設定檔屬性），此處表示的排名分數（決策專案優先順序、AI模型分數和靜態值的組合）將套用至符合該條件的所有決策專案。
+1. 當您的公式準備就緒時，按一下&#x200B;**[!UICONTROL 建立]**。
 
-## 使用程式碼編輯器 {#ranking-code-editor}
+您現在可以從清單中存取排名公式，以檢視其詳細資訊，並編輯或刪除它。 已準備好在[選取策略](../selection-strategies.md)中使用它來排名合格的決定專案。
 
-若要以&#x200B;**PQL語法**&#x200B;表示排名公式，請使用熒幕右上角的專用按鈕切換至程式碼編輯器。 如需如何使用PQL語法的詳細資訊，請參閱[專屬檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant)。
+## 使用程式碼編輯器定義條件 {#ranking-code-editor}
 
->[!CAUTION]
+當您想要將排名邏輯寫入或編輯為&#x200B;**PQL**&#x200B;運算式時，請使用&#x200B;**[!UICONTROL 切換至程式碼編輯器]**。
+
+![](../assets/ranking-formula-switch.png)
+
+>[!NOTE]
 >
 >此動作將阻止您返回此公式的預設產生器檢視。
 
-然後，您就可以運用設定檔屬性、[內容資料](../context-data.md)和[決定專案屬性](../items.md#attributes)。
+您可以利用設定檔屬性、[內容資料](../context-data.md)和[決定專案屬性](../items.md#attributes)。
 
-例如，如果實際天氣炎熱，您想要提高所有具有「炎熱」屬性之選件的優先順序。 若要這麼做，已在決策呼叫中傳遞&#x200B;**contextData.weather=hot**。<!--[Learn how to work with context data](context-data.md)-->
+例如，如果實際天氣炎熱，您想要提高所有具有「炎熱」屬性之選件的優先順序。 若要這麼做，已在決策呼叫中傳遞&#x200B;**contextData.weather=hot**。
 
 ![](../assets/ranking-formula-code-editor.png){width="80%"}
-
->[!IMPORTANT]
->
->建立排名公式時，不支援回顧過去時段，例如將上個月發生的體驗事件新增為公式的元件。 在公式建立期間任何包含回顧期間的嘗試將在儲存時觸發錯誤。
 
 若要在公式中運用與決策專案相關的屬性，請務必遵循排名公式程式碼中的正確語法。 展開每個區段以取得詳細資訊：
 
@@ -171,9 +166,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 +++
 
-### 排名公式PQL範例 {#ranking-formula-examples}
-
-您可以視需要建立許多不同的排名公式。 以下是一些範例。
+您可以視需要建立許多不同的程式碼型排名公式。 以下是一些範例。
 
 +++根據設定檔屬性，以特定優惠方案屬性提升優惠方案
 
@@ -276,6 +269,28 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## AI支援的公式最佳化 {#optimize}
+
+[!DNL Journey Optimizer]可以自動分析排名公式，並建議保留原始邏輯的簡化。 只有PQL運算式大於&#x200B;**2 KB** （UTF-8編碼）的公式才合格，不會分析較小的運算式。 找到簡化後，清單中的公式名稱旁邊會出現紅色指示器。
+
+![](../assets/ranking-formula-ai.png)
+
+>[!NOTE]
+>
+>AI支援的公式最佳化依賴與&#x200B;**AI Assistant**&#x200B;相同的產生AI功能，並使用相同的存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取AI小幫手](../../content-management/gs-generative.md#generative-access)。
+
+若要最佳化排名公式：
+
+1. 在排名公式清單中，按一下公式名稱旁的紅色指標圖示。
+
+1. **[!UICONTROL 最佳化]**&#x200B;視窗隨即開啟，顯示原始PQL運算式與AI建議的版本。
+
+   ![](../assets/ranking-formula-ai-details.png)
+
+1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] ]**，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**[!UICONTROL 
+
+1. 一旦滿意，按一下&#x200B;**[!UICONTROL 套用]**，以最佳化的運算式取代原始運算式。
 
 ## 作法影片 {#video}
 

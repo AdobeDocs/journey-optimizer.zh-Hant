@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 13%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 16%
    >
    >當規則引數包含未儲存在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。
 
-1. 一旦您的規則準備就緒，請按一下[建立]。**&#x200B;** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
+1. 一旦您的規則準備就緒，請按一下[建立]。**** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
 
    * 在&#x200B;**個決定專案**&#x200B;和&#x200B;**選取策略**&#x200B;中，用來控管將決定專案呈現給設定檔；
    * 或在內容最佳化或路徑最佳化中建置&#x200B;**目標**&#x200B;時。
@@ -129,8 +129,30 @@ ht-degree: 16%
 >
 >[進一步瞭解適用性規則護欄和限制](decisioning-guardrails.md#eligibility-rules)
 
+## AI支援的規則最佳化 {#optimize}
+
+[!DNL Journey Optimizer]可以自動分析規則並建議簡化以保留原始邏輯。 只有PQL運算式大於&#x200B;**2 KB** （UTF-8編碼）的規則才合格，不會分析較小的運算式。 發現簡化時，詳細目錄中的規則旁邊會出現紅色的&#x200B;**[!UICONTROL 最佳化]**&#x200B;指標。
+
+>[!NOTE]
+>
+>AI支援的規則最佳化依賴與&#x200B;**AI Assistant**&#x200B;相同的產生AI功能，並使用相同的存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取AI小幫手](../content-management/gs-generative.md#generative-access)。
+
+![](assets/decision-rules-ai.png)
+
+若要最佳化規則：
+
+1. 在規則詳細目錄中，按一下規則名稱旁的紅色指標圖示。
+
+1. **[!UICONTROL 最佳化]**&#x200B;視窗隨即開啟，顯示原始PQL運算式與AI建議的版本。
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. 若要驗證這兩個運算式的行為是否相同，請按一下&#x200B;**[!UICONTROL 下載最佳化分析(TSV)]**&#x200B;下載檔案，該檔案顯示如何針對每個版本評估模擬設定檔。
+
+1. 一旦滿意，按一下&#x200B;**[!UICONTROL 套用]**，以最佳化的運算式取代原始運算式。
+
 ## 作法影片 {#video}
 
 瞭解如何在Adobe Journey Optimizer中建立、複製和套用可重複使用的&#x200B;**目標定位規則**，以根據客戶屬性（例如地區、語言和行為）有效率地個人化行銷活動 — 在提高對象精確度的同時節省時間。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476138/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
