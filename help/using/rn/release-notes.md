@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 21%
+source-wordcount: '2067'
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
@@ -283,13 +283,15 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 改善 {#april-26-improv}
 
-<!--
 #### AI
 
+<!--
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **提示助理增強功能** — 提示助理可以即時分析使用者提示，並找出清晰度、完整度和內容之間的差距，藉此增強AI內容的產生能力。 它建議改善重寫，並提供可操作的指引，以利用對象、膚色和意圖等關鍵詳細資訊豐富提示。 功能也會要求目標明確的澄清問題，以協助使用者在產生之前調整其輸入。 如此一來，可減少反複專案數，進而提供更精確、高品質的輸出。 [了解更多](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  推出日期： 2026年5月5日
 
 #### 推播
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理應用程式內觸發器"
->abstract="透過選取將會啟動訊息的特定活動與條件，有效率地管理觸發器。透過規則產生器，使用者可以定義精確的條件與值。符合這些條件時，就會觸發一系列的動作，包括傳遞應用程式內的訊息。"
+>abstract="透過選取將會啟動訊息的特定活動與條件，有效率地管理觸發器。 透過規則產生器，使用者可以定義精確的條件與值。 符合這些條件時，就會觸發一系列的動作，包括傳遞應用程式內的訊息。"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
-      +++請參閱可用的觸發器。
+      可用的觸發器
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -67,17 +67,15 @@ ht-degree: 12%
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 追蹤狀態 | 呼叫行動程式碼API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
-      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
-      +++
-
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -85,7 +83,7 @@ ht-degree: 12%
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      +++檢視可用的特徵。
+      可用特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -106,8 +104,6 @@ ht-degree: 12%
       | 地點 | 目前POI | 當您的客戶進入指定的興趣點(POI)時，由Places SDK觸發。 |
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -147,7 +143,7 @@ ht-degree: 12%
 
 1. 若要指派自訂或核心資料使用標籤給應用程式內訊息，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
@@ -165,7 +161,7 @@ ht-degree: 12%
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
-      +++請參閱可用的觸發器。
+      可用的觸發器
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -173,17 +169,15 @@ ht-degree: 12%
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 追蹤狀態 | 呼叫行動程式碼API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate)中提供的舊版功能時觸發。 |
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
-      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
+      | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
-      +++
-
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -191,7 +185,7 @@ ht-degree: 12%
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      +++檢視可用的特徵。
+      可用特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -213,8 +207,6 @@ ht-degree: 12%
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
 
-      +++
-
       ![](assets/in_app_create_8.png)
 
    1. 按一下&#x200B;**[!UICONTROL 建立群組]**，將觸發程式群組在一起。
@@ -228,7 +220,7 @@ ht-degree: 12%
 
 1. 如有需要，請選擇要顯示應用程式內訊息的&#x200B;**[!UICONTROL 一週中的哪一天]**&#x200B;或&#x200B;**[!UICONTROL 一天中的哪個時間]**。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
+1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
    ![](assets/in-app-schedule.png)
 
@@ -246,7 +238,7 @@ ht-degree: 12%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451893?captions=chi_hant&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +246,7 @@ ht-degree: 12%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?captions=chi_hant&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
