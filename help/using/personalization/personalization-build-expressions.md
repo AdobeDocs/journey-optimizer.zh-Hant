@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 10%
+source-wordcount: '1532'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 
 ## 我可以在哪裡新增個人化 {#where}
 
-您可以使用&#x200B;**[!DNL Journey Optimizer]**&#x200B;新增個人化圖示![圖示，在每一個欄位的](assets/do-not-localize/add-perso-icon.svg)中新增個人化。 請展開下列各節以取得詳細資訊。
+您可以使用![新增個人化圖示](assets/do-not-localize/add-perso-icon.svg)圖示，在每一個欄位的&#x200B;**[!DNL Journey Optimizer]**&#x200B;中新增個人化。 請展開下列各節以取得詳細資訊。
 
 +++訊息
 
@@ -46,48 +46,21 @@ ht-degree: 10%
 
 +++電子郵件設計工具
 
-在[電子郵件Designer](../email/get-started-email-design.md)中編輯電子郵件內容時，您可以使用內容相關工具列中的圖示，在文字區塊和URL中新增個人化。
+在[電子郵件Designer](../email/get-started-email-design.md)中編輯電子郵件內容時，您可以使用內容工具列中的圖示，在大部分文字元素中新增個人化。
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++產品建議
-
-在您的&#x200B;**優惠方案代表**&#x200B;中使用文字型別內容時，您可以新增個人化。 [瞭解如何建立個人化優惠](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URL
 
-Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。  個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 URL個人化可用於這些型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
-
-個人化URL範例：
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。 個人化 URL 會根據輪廓屬性，將收件者帶往網站特定頁面或個人化微網站。 [了解更多](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->在個人化編輯器中編輯個人化URL時，基於安全考量，會停用協助程式功能和對象成員資格。
->
->url內使用的個人化權杖不支援空格。
-
-Journey Optimizer也支援完整/基本URL個人化。 例如：
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->若要啟用完整或基本URL個人化，請聯絡Adobe並提供您接受的網域清單。
+>URL個人化可用於這些型別的連結： **外部連結**、**取消訂閱連結**&#x200B;和&#x200B;**選擇退出**。
 
 +++
 
@@ -97,13 +70,19 @@ Journey Optimizer也支援完整/基本URL個人化。 例如：
 
 +++
 
++++產品建議
+
+在您的&#x200B;**優惠方案代表**&#x200B;中使用文字型別內容時，您可以新增個人化。 [瞭解如何建立個人化優惠](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Personalization來源 {#sources}
 
 導覽窗格可讓您選取個人化的來源。 可用的來源包括：
 
 * **[!UICONTROL 設定檔屬性]** ：列出與[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中說明的設定檔結構描述相關的所有參考。
 * **[!UICONTROL Target屬性]** ：此資料夾專屬於「協調的行銷活動」。 它包含直接在行銷活動畫布中計算的屬性。 [瞭解如何在協調的行銷活動中新增個人化](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL 對象]** ：列出在Adobe Experience Platform細分服務中建立的所有對象。 [此處](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}提供分段的相關詳細資訊。
+* **[!UICONTROL 對象]** ：列出在Adobe Experience Platform細分服務中建立的所有對象。 在[Adobe Experience Platform Segmentation檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 * **[!UICONTROL 優惠決定]** ：列出與特定位置相關聯的所有優惠。 選取版位，然後將優惠方案插入內容中。 如需有關如何管理優惠方案的完整檔案，請參閱[本節](../offers/get-started/starting-offer-decisioning.md)。
 * **[!UICONTROL 內容屬性]** ：當歷程或行銷活動中使用管道動作活動（電子郵件、推播、簡訊）時，與事件和屬性相關的內容屬性可用於個人化。 在[本節](personalization-use-case.md)中顯示了運用內容屬性的個人化範例。 此外，自訂動作回應可用於個人化。 [瞭解如何在原生管道中使用自訂動作回應](../action/action-response.md#response-in-channels)。
 
@@ -116,7 +95,7 @@ Journey Optimizer也支援完整/基本URL個人化。 例如：
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor_autocomplete"
 >title="自動完成"
->abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。此功能僅適用於 HTML 和文字格式，並支援輪廓和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
+>abstract="啟用此選項後，可允許系統在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援輪廓和內容屬性。 如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。"
 
 中央工作區是您建置個人化語法的位置。 若要使用屬性來個人化您的訊息，請在左側導覽窗格中找出該屬性，然後按一下`+`按鈕，將該屬性加入運算式中。
 
@@ -146,7 +125,7 @@ Journey Optimizer也支援完整/基本URL個人化。 例如：
 
 1. **[!UICONTROL 尋找]** / **[!UICONTROL 尋找並取代]**：搜尋您的運算式並自動取代部分程式碼。
 1. **[!UICONTROL 還原]** / **[!UICONTROL 重做]**：還原/重做上一個操作。
-1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援輪廓和內容屬性。如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。
+1. **[!UICONTROL 自動完成]**：在您輸入時自動建議並完成程式碼。 此功能僅適用於 HTML 和文字格式，並支援輪廓和內容屬性。 如果透過切換進行停用，編輯器將提供原生 HTML 程式碼自動完成。
 
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
@@ -250,7 +229,7 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
  </thead> 
  <tbody> 
   <tr> 
-   <td>找不到ID為placementID且型別為OfferPlacement的資源<br/>
+   <td>找不到id placementID和型別OfferPlacement的資源 <br/>
 找不到id activityID和型別OfferActivity的資源<br/></td> 
    <td>檢查ActivityID和/或PlacementID是否可用</td> 
   </tr> 
@@ -273,8 +252,8 @@ Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
   <tr> 
    <td>優惠屬性offer-attribute無效。</td> 
    <td>檢查優惠方案drp中參照的優惠方案屬性是否有效。 以下是有效的屬性： <br/>
-影像： deliveryURL， linkURL<br/>
-文字： content<br/>
+影像：deliveryURL、linkURL<br/>
+文字：內容<br/>
 HTML：內容<br/></td> 
   </tr> 
  </tbody> 

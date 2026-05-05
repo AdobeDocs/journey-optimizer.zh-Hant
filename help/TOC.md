@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3302'
 ht-degree: 91%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -293,6 +293,7 @@ ht-degree: 91%
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
+            + [個人化URL](using/email/url-personalization.md)
             + [插入個人化優惠方案](using/email/add-offers-email.md)
             + [針對AI收件匣最佳化電子郵件](using/email/llm-email-optimizer.md)
             + [管理文字版本](using/email/text-version-email.md)
