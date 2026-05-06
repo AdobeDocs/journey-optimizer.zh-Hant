@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '3302'
-ht-degree: 91%
+source-wordcount: '3306'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -142,6 +142,7 @@ ht-degree: 91%
    + {hide-from-toc}[存取及管理挑戰與工作](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
 + 行銷活動 {#campaigns}
    + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)

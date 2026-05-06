@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 17%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 17%
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * **建立挑戰** ◀︎**您在這裡**
 * [建立任務](create-tasks.md)
+* [監視忠誠度挑戰績效](loyalty-reporting.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ ht-degree: 17%
 
 1. 開啟歷程並發佈。 歷程將在您指定的挑戰開始日期自動開始，並根據您的設定傳送內容和訊息。 [瞭解如何發佈歷程](../building-journeys/publish-journey.md)。
 
-1. 一旦您的挑戰上線，請在[歷程報告](../reports/journey-global-report-cja.md)中監視效能和訊息傳送。
+1. 一旦您的挑戰上線，請在[忠誠度挑戰報告](loyalty-reporting.md)中監視方案KPI、挑戰結果和任務層級量度。 您也可以在[歷程報告](../reports/journey-global-report-cja.md)中監視訊息傳遞。
 
 >[!NOTE]
 >

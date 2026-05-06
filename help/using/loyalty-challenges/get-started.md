@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 15%
+source-wordcount: '791'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 15%
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
+* [監視忠誠度挑戰績效](loyalty-reporting.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,6 +53,7 @@ ht-degree: 15%
 * **個人化體驗**：使用內容卡和多通道傳訊功能，建立沈浸式品牌體驗
 * **緊密整合**：與您現有的忠誠度提供者連絡並運用Experience Platform資料
 * **自動追蹤**：透過自動產生的歷程（無需自訂開發）監視客戶進度
+* **測量效能**：使用內建的報告儀表板來追蹤方案KPI、挑戰結果和任務層級的量度
 
 ![](assets/challenges-gs.png)
 
@@ -158,6 +160,17 @@ ht-degree: 15%
     </div>
     <p>
     <em>瞭解如何定義客戶為挑戰完成的工作</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="報告" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>監控效能</strong></a>
+    </div>
+    <p>
+    <em>使用內建儀表板追蹤計畫KPI、挑戰結果和任務量度</em>
     </p>
   </td>
 </tr>
