@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 22%
+source-wordcount: '989'
+ht-degree: 18%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 22%
 * [開始應對忠誠度挑戰](get-started.md)
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* **建立任務** ◀}︎**您在這裡**
+* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="建立任務"
->abstract="選取一項客戶活動 (購買或支出)，然後設定活動特定的屬性：數量或金額、適用項目與排除項目，以及選擇性限制，例如最低支出額或最高交易額。在「屬性」窗格中，設定任務名稱和說明。"
+>abstract="選取一項客戶活動 (購買或支出)，然後設定活動特定的屬性：數量或金額、適用項目與排除項目，以及選擇性限制，例如最低支出額或最高交易額。 在「屬性」窗格中，設定任務名稱和說明。"
 
 您可以從兩個進入點建立任務。 無論您從何處開始，設定程式都相同。
 
@@ -72,7 +72,7 @@ ht-degree: 22%
 * **[!UICONTROL 購買]**：客戶必須購買一或多個專案才能完成此工作
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
@@ -86,7 +86,7 @@ ht-degree: 22%
 **購買**&#x200B;活動的可用屬性：
 
 * **[!UICONTROL 數量]**：輸入完成此任務必須購買的專案數。
-* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及不計入任務完成的專案或專案群組。[進一步瞭解符合資格的專案和排除專案](#eligible-items-exclusions)
+* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及未計入的專案或專案群組，或選擇&#x200B;**[!UICONTROL 自帶資料]**&#x200B;以從外部資料中推動符合資格。 [進一步了解](#eligible-items-exclusions)
 * **[!UICONTROL 最小支出值金額]**：設定最低購買金額需求。
 * **[!UICONTROL 最大交易數]**：限制可用於完成工作的交易數。
 
@@ -97,7 +97,7 @@ ht-degree: 22%
 **支出**&#x200B;活動的可用屬性：
 
 * **[!UICONTROL 金額]**：輸入完成工作所需的總支出金額。
-* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及不計入任務完成的專案或專案群組。[進一步瞭解符合資格的專案和排除專案](#eligible-items-exclusions)
+* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及不計入任務完成的專案或專案群組。 [進一步瞭解符合資格的專案和排除專案](#eligible-items-exclusions)
 * **[!UICONTROL 交易數上限]**：指定允許符合支出需求的交易數。 您可以從引數圖示啟動此屬性。
 
 ![](assets/task-create-spend.png)
@@ -109,23 +109,45 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="適用項目與排除項目"
->abstract="對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。"
+>abstract="對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。 例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。這可讓您鎖定特定產品、類別或位置，以符合您的挑戰目標。
+對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。
 
-例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。
+例如，您可以將工作限制在特定產品類別中，或排除禮品卡或促銷專案，不計入工作的完成情況。
 
 ![](assets/tasks-create-eligible.png)
 
-* 若要定義合格專案，請在&#x200B;**[!UICONTROL 合格任務購買僅限於下列]**&#x200B;欄位，輸入特定專案ID、類別或目的地ID （以逗號分隔）。 如果您將此欄位留空，依預設所有購買都符合資格。 您也可以輸入`*`，明確讓所有購買都符合條件。
+### 設定任務的合格專案
 
-  範例：`SKU001, SKU002, CategoryA`
+若要定義合格專案，請在&#x200B;**[!UICONTROL 合格任務購買僅限於下列]**&#x200B;欄位，輸入特定專案ID、類別或目的地ID （以逗號分隔）。 如果您將此欄位留空，依預設所有購買都符合資格。 您也可以輸入`*`，明確讓所有購買都符合條件。
 
-* 若要從任務排除專案，請在&#x200B;**[!UICONTROL 輸入特定的專案ID、類別或目的地ID。下列專案會從此任務]**&#x200B;欄位中排除。
+範例：`SKU001, SKU002, CategoryA`
 
-  範例：`CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### 從任務排除專案
+
+若要從任務排除專案，請在&#x200B;**[!UICONTROL 輸入特定的專案ID、類別或目的地ID。下列專案會從此任務]**&#x200B;欄位中排除。
+
+範例：`CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+
+### 自備資料以取得資格和排除專案 {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 自攜資料]**&#x200B;選專案前可供受限制的組織使用，並將在未來版本中更廣泛地提供。
+
+除了輸入專案ID以符合資格或排除之外，您也可以在執行階段使用&#x200B;**[!UICONTROL 自攜資料]**&#x200B;選項，從外部忠誠度挑戰資料中移除資格。
+
+選取&#x200B;**[!UICONTROL 自備資料]**&#x200B;時，會在執行階段從與您的「忠誠度挑戰」環境同步的資料中解析每位參與者的資格，而非專案ID清單。
+
+若要使用此選項，請在&#x200B;**[!UICONTROL 合格專案與排除專案]**&#x200B;中選取個人化圖示，然後選擇&#x200B;**[!UICONTROL 自帶資料]**。
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>指派此任務給挑戰時，請選取&#x200B;**[!UICONTROL 標準]**&#x200B;作為挑戰型別。 請勿在挑戰層級選取&#x200B;**[!UICONTROL 自備資料]**，因為這個選項是保留給完全資料導向的挑戰，而整個結構（包括工作與獎勵）都是由外部提供。
 
 ## 定義任務屬性 {#define-task-properties}
 

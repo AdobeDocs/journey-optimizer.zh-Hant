@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '755'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 15%
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -41,9 +41,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠誠度挑戰"
->abstract="您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。"
+>abstract="您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。"
 
-您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。
+您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。
 
 透過忠誠度挑戰，您可以：
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別（標準、條紋或循序）和日期範圍。
+1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別(標準、條紋、循序或自備資料（可用時）)和日期範圍。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
 
 1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出）、數量、產品篩選和獎勵。
 
@@ -165,4 +165,4 @@ ht-degree: 15%
 
 ## API 參考 {#api-reference}
 
-若要以程式設計方式管理忠誠度挑戰，請使用[忠誠度挑戰API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}。 此API可讓您透過REST端點建立、更新和管理挑戰與工作。
+若要以程式設計方式管理忠誠度挑戰，請使用[忠誠度挑戰API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 此API可讓您透過REST端點建立、更新和管理挑戰與工作。
