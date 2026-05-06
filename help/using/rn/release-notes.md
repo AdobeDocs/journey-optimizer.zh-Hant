@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 19%
@@ -83,7 +83,13 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### 改善 {#may-26-improv}
 
+#### 決策
+
+* **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
+
+  推出日期： 2026年5月6日
 
 ## 即將推出 {#coming-soon}
 
@@ -129,13 +135,7 @@ ht-degree: 19%
 </tbody>
 </table>
 
-### 改善 {#may-26-improv}
 
-#### 決策
-
-* **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
-
-  推出日期： 2026年5月6日
 
 ## 2026年4月發行說明 {#april-26-rn}
 
