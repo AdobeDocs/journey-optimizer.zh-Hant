@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
@@ -131,17 +131,17 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
    ![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/simulate-10.png)
 
-1. 按一下![編輯事件](assets/do-not-localize/Smock_Edit_18_N.svg)以調整此模擬使用者的事件。
+1. 按一下&#x200B;**[!UICONTROL 設定事件]**&#x200B;以開啟編輯器，並視需要調整事件。 若要只變更特定模擬使用者的裝載，請按一下該使用者旁邊的![編輯事件](assets/do-not-localize/Smock_Edit_18_N.svg)。
 
    ![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/simulate-9.png)
 
-1. 從模擬使用者下拉式清單中，選取模擬使用者，並完成設定事件及其產生方式。
+1. 在&#x200B;**[!UICONTROL 觸發事件]**&#x200B;檢視中，指定要包含在執行中的模擬使用者。 事件設定會一次套用至單一事件。 修改選取的事件或包含的使用者集合會重設先前輸入的欄位值。 請先完成目前的設定，再變更任一選取專案。
 
-   ![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/simulate-8.png)
+   ![具有測試使用者清單和事件欄位的事件設定](assets/simulate-8.png)
 
-1. 按一下&#x200B;**[!UICONTROL 觸發選取的事件]**。
+1. 按一下「**[!UICONTROL 完成]**」。
 
-   當模擬的使用者成功進入歷程時，會出現`Events triggered successfully`確認訊息。
+1. 然後，在&#x200B;**[!UICONTROL 測試事件]**&#x200B;中，選取&#x200B;**[!UICONTROL 全部傳送]**，將列在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;下的每個模擬使用者傳送至歷程，或選取![傳送圖示](assets/do-not-localize/Smock_Send_18_N.svg)，讓單一使用者只為該使用者執行模擬。
 
 1. 存取&#x200B;**[!UICONTROL 結果]**&#x200B;標籤以開啟執行記錄檔並檢閱每個步驟的執行方式。 如需詳細資訊，請參閱[檢視結果](#viewing-results)。
 
@@ -224,6 +224,6 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 | 在單一模擬回合中測試的不重複模擬使用者上限 | 100 | 在一個執行區塊中聯絡&#x200B;**100**&#x200B;個不重複使用者&#x200B;**[!UICONTROL 為新的模擬使用者選取模擬使用者]**。 如果您位於&#x200B;**90**，在相同區塊之前最多可以新增&#x200B;**10**。 |
 | 可以在一個沙箱中同時在&#x200B;**[!UICONTROL 模擬]**&#x200B;中執行的最大歷程數 | 20 | Cap一次由該沙箱中的每個&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程共用。 |
 | 一個沙箱中最大活動模擬使用者數 | 2,000 | 一次可存在於沙箱中的最大模擬使用者數。 Adobe可能會根據客戶意見反應調整此限制。 |
-| 事件預填（僅限瀏覽器） | — | 僅瀏覽器支援事件預先填入。 預先填寫的事件資料是瀏覽器專屬的。 |
+| 事件預填（僅限瀏覽器） | — | 您只能在瀏覽器型模擬UI中預先填寫事件裝載欄位。 預先填入的值只會保留在瀏覽器中，不會同步至其他瀏覽器、裝置或工作階段，因此您可能會在每個測試位置看到不同的預先填入資料。 |
 
 +++
