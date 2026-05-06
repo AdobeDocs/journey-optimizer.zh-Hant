@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 67%
 * 已新增新的&#x200B;**個人化電子郵件中的URL**&#x200B;頁面，整合動態URL個人化、完整/基本URL個人化、URL追蹤引數個人化和關鍵護欄的相關指引。 [閱讀全文](../email/url-personalization.md)
 
 * 新的&#x200B;**商業規則查詢**&#x200B;區段已新增到查詢範例頁面，提供資料湖查詢以檢查特定日期後特定歷程上由於歷程頻率上限排除所放棄的所有設定檔。 查詢包含`eventCodeReason`欄位，以識別設定檔是否因為達到上限(`CAP_REACHED`)或低優先順序(`LOWER_PRIORITY`)而被排除。 [閱讀全文](../reports/query-examples.md#business-rules-queries)
+
+* 已更新&#x200B;**歷程屬性**&#x200B;檔案，以記錄歷程屬性面板中的新&#x200B;**目前歷程裝載大小**&#x200B;指標。 此唯讀欄位顯示與設定限制（例如2 MB中的1.5 MB）相比的目前歷程裝載大小，可幫助您在發佈之前監控歷程複雜度並避免與大小相關的發佈錯誤。 [閱讀全文](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026 年 4 月 {#april-2026}
 
