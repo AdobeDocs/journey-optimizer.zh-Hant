@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 18%
+source-wordcount: '2609'
+ht-degree: 17%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 18%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
@@ -437,6 +437,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
   此功能先前僅可用於電子郵件內容範本，現在已部署至電子郵件Designer中的&#x200B;**電子郵件**&#x200B;內容（例如，在歷程及行銷活動中撰寫的電子郵件）以及電子郵件內容範本。 目前處於「有限可用性」 — 請聯絡您的Adobe代表以取得存取權。 [閱讀全文](../email/email-expert-mode.md)
 
   推出日期： 2026年4月9日
+
+#### 歷程
+
+* **在歷程屬性中可見的目前歷程裝載大小** — 歷程屬性面板現在會顯示與設定的限制相較之目前歷程裝載的大小 — 例如，*1.5 MB （共2 MB）*。 此唯讀指標可協助您在發佈前監控歷程複雜性，並避免因超過裝載大小限制而造成的錯誤。 [閱讀全文](../building-journeys/journey-properties.md#journey-payload-size)
+
+  推出日期： 2026年4月30日
 
 #### 歷程路徑最佳化
 

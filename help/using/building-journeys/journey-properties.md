@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 13%
+source-wordcount: '3633'
+ht-degree: 12%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 13%
 * 選取歷程和設定檔[時區](#timezone)
 * 選擇自訂[開始和結束日期](#dates)
 * 在歷程活動中定義[逾時期間](#timeout) （僅適用於管理員使用者）
+* 監視[目前的歷程裝載大小](#journey-payload-size)以避免發佈錯誤
 * 使用[衝突管理工具](#conflict)監視衝突並排定您的歷程優先順序
 
 ![具有一般設定和進階選項的[歷程屬性]設定窗格](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -77,7 +78,7 @@ ht-degree: 13%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
@@ -112,6 +113,23 @@ ht-degree: 13%
 若要指派自訂資料使用標籤給歷程，請按一下&#x200B;**[!UICONTROL 管理存取標籤]**&#x200B;圖示，並選取一或多個標籤。
 
 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
+
+## 歷程裝載大小 {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="目前歷程裝載大小"
+>abstract="顯示與設定限制相較之歷程承載的目前大小。 使用此指標可在發佈前監控歷程複雜性，並避免因超過裝載大小限制而造成的錯誤。"
+
+歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示與設定限制相關的歷程裝載目前大小，例如&#x200B;*1.5 MB （共2 MB）*。 此唯讀指標可在歷程編寫的任何階段顯示。
+
+![歷程屬性面板中目前的歷程裝載大小指標](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+使用這些資訊在發佈之前監視歷程的複雜性。 如果裝載大小接近或超過限制，則歷程發佈失敗。 若要減少大小，請考慮簡化歷程邏輯或減少活動數量。
+
+預設限製為2 MB。 如果您需要申請更高的組織上限，請聯絡Adobe客戶服務。
+
+如需閾值、警告和錯誤訊息以及疑難排解步驟的完整詳細資訊，請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 歷程和設定檔時區 {#timezone}
 
@@ -172,7 +190,7 @@ ht-degree: 13%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -217,7 +235,7 @@ ht-degree: 13%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
