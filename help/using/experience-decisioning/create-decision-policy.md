@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2257'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,13 @@ ht-degree: 6%
 
 編輯訊息內容並瀏覽以下標籤，瞭解如何根據所選頻道新增決定原則的更多資訊。
 
-### 適用於程式碼型體驗
+>[!BEGINTABS]
+
+>[!TAB 程式碼型體驗]
 
 針對程式碼型體驗，您可以使用&#x200B;**程式碼編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;功能表來新增決定原則。
 
-+++ 從程式碼編輯器新增決定原則
++++從程式碼編輯器新增決定原則
 
 1. 使用&#x200B;**[!UICONTROL 編輯程式碼]**&#x200B;按鈕開啟程式碼編輯器。
 
@@ -65,7 +67,7 @@ ht-degree: 6%
 
 +++
 
-+++ 從決定功能表新增決定原則
++++從決定功能表新增決定原則
 
 1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
@@ -75,7 +77,7 @@ ht-degree: 6%
 
 +++
 
-### 針對電子郵件
+>[!TAB 電子郵件]
 
 1. 切換&#x200B;**[!UICONTROL 啟用決策]**&#x200B;選項。
 
@@ -87,7 +89,7 @@ ht-degree: 6%
 
 1. 使用電子郵件設計工具中可用的&#x200B;**個人化編輯器**&#x200B;或&#x200B;**決策**&#x200B;功能表，新增新的決定原則。
 
-   +++ 從Personalization編輯器新增決定原則
+   +++從Personalization編輯器新增決定原則
 
    1. 使用主旨行欄位或電子郵件內文中可新增個人化的任何欄位中可用的![](assets/do-no-localize/editor-icon.svg)圖示，開啟個人化編輯器。
 
@@ -97,7 +99,7 @@ ht-degree: 6%
 
    +++
 
-   +++ 從決定功能表新增決定原則
+   +++從決定功能表新增決定原則
 
    1. 開啟電子郵件Designer並選取電子郵件結構中的任何元件。
 
@@ -123,11 +125,11 @@ ht-degree: 6%
 >
 >在&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式中，每個原則只能傳回一個決定專案，因為&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件無法使用。
 
-### 用於簡訊
+>[!TAB 簡訊]
 
 對於SMS，您可以使用&#x200B;**個人化編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;選單來新增決定原則。
 
-+++ 從個人化編輯器新增決定原則
++++從個人化編輯器新增決定原則
 
 1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
 1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
@@ -136,7 +138,7 @@ ht-degree: 6%
 
 +++
 
-+++ 從決定功能表新增決定原則
++++從決定功能表新增決定原則
 
 1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
@@ -146,11 +148,11 @@ ht-degree: 6%
 
 +++
 
-### 針對推播通知
+>[!TAB 推播通知]
 
 對於推播通知，您可以使用&#x200B;**個人化編輯器**&#x200B;或屬性窗格中可用的&#x200B;**決策**&#x200B;選單來新增決定原則。
 
-+++ 從個人化編輯器新增決定原則
++++從個人化編輯器新增決定原則
 
 1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
 1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
@@ -159,7 +161,7 @@ ht-degree: 6%
 
 +++
 
-+++ 從決定功能表新增決定原則
++++從決定功能表新增決定原則
 
 1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
@@ -172,6 +174,8 @@ ht-degree: 6%
 >具有推播通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中檢視您平台的所有可用SDK版本。
 
 +++
+
+>[!ENDTABS]
 
 ## 設定決定原則 {#configure}
 
@@ -189,7 +193,7 @@ ht-degree: 6%
 
    若要傳回電子郵件通道的多個專案，您必須在&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則。 展開下列區段以取得詳細資訊：
 
-   +++ 在電子郵件中傳回多個決定專案
+   +++在電子郵件中傳回多個決定專案
 
    1. 拖曳電子郵件中的&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件，並使用&#x200B;**[!UICONTROL 設定]**&#x200B;窗格視需要加以設定。
 

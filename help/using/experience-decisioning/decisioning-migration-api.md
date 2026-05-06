@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 4%
+source-wordcount: '1175'
+ht-degree: 3%
 
 ---
 
@@ -66,7 +66,7 @@ Decisioning移轉服務API提供下列功能：
 
 ## API 基本概念 {#api-basics}
 
-### 基礎 URL {#base-url}
+### 基礎URL {#base-url}
 
 使用以下基底URL：
 
@@ -81,7 +81,7 @@ Decisioning移轉服務API提供下列功能：
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-如需設定驗證的詳細指示，請參閱[Journey Optimizer驗證指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}。
+如需設定驗證的詳細指示，請參閱[Journey Optimizer驗證指南](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
 
 ### 工作流程模型 {#workflow-model}
 
@@ -120,25 +120,24 @@ POST /workflows/generate-dependencies
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **選件層級相依性**
 
-若要只分析特定選件的相依性，請設定`requestLevel: "offer"`並提供具有您要分析之選件ID的`offersList`陣列。
+若要僅分析特定選件的相依性，請呼叫在查詢字串中具有`request-level=offer`的相同端點，並在內文中提供包含您要分析之選件ID的`offersList`陣列。
 
 **決定層級相依性**
 
-若要只分析特定決定的相依性，請設定`requestLevel: "decision"`並提供包含您要分析之決定ID的`decisionsList`陣列。
+若要僅分析特定決定的相依性，請在查詢字串中使用`request-level=decision`，並在內文中提供包含您要分析之決定ID的`decisionsList`陣列。
 
 #### 檢查相依性工作流程狀態 {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ POST /workflows/migration
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **選件層級移轉**
 
-若要僅移轉特定優惠方案，請使用`requestLevel: "offer"`並新增`offersList`陣列：
+若要僅移轉特定選件，請在查詢字串中使用`request-level=offer`並將`offersList`陣列新增至內文：
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ curl --request POST \
 
 **決策層級移轉**
 
-若要僅移轉特定決定，請使用`requestLevel: "decision"`並新增`decisionsList`陣列：
+若要僅移轉特定決定，請在查詢字串中使用`request-level=decision`並將`decisionsList`陣列新增至內文：
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]

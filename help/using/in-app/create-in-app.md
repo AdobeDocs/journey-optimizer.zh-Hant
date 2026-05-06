@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 11%
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
-      可用的觸發器
+      +++ 檢視可用的觸發器
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -75,6 +75,8 @@ ht-degree: 11%
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
+      +++
+
    1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
@@ -83,7 +85,7 @@ ht-degree: 11%
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      可用特徵
+      +++ 檢視可用的特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -104,6 +106,8 @@ ht-degree: 11%
       | 地點 | 目前POI | 當您的客戶進入指定的興趣點(POI)時，由Places SDK觸發。 |
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ ht-degree: 11%
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
-      可用的觸發器
+      +++ 檢視可用的觸發器
 
       | 套件 | 觸發 | 定義 |
       |---|---|---|
@@ -177,6 +181,8 @@ ht-degree: 11%
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
+      +++
+
    1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
@@ -185,7 +191,7 @@ ht-degree: 11%
 
    1. 如果您想要新增&#x200B;**[!UICONTROL 特徵]**&#x200B;並更好地微調您的規則，請選擇&#x200B;**[!UICONTROL 和]**&#x200B;條件。
 
-      可用特徵
+      +++ 檢視可用的特徵
 
       | 套件 | 特徵 | 定義 |
       |---|---|---|
@@ -206,6 +212,8 @@ ht-degree: 11%
       | 地點 | 目前POI | 當您的客戶進入指定的興趣點(POI)時，由Places SDK觸發。 |
       | 地點 | 上次輸入的POI | 根據您上次進入興趣點(POI)的客戶，由Places SDK觸發。 |
       | 地點 | 上次退出的POI | 根據您的客戶上次退出興趣點(POI)，由Places SDK觸發。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
