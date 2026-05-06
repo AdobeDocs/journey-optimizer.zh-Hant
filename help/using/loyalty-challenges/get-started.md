@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '826'
 ht-degree: 14%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 14%
 
 ![](assets/challenges-gs.png)
 
-您可以建立三種型別的挑戰體驗：
+您可以建立下列型別的挑戰體驗：
 
 * **標準挑戰**：客戶以任何順序完成任何指定數量的工作。 當您想要彈性及多個完成路徑時，請使用此型別。\
   *範例：「夏季健康挑戰」 — 完成5項任務中的3項：購買健康產品、在社群媒體上分享、介紹朋友、撰寫評論或參加虛擬活動*
@@ -67,6 +67,8 @@ ht-degree: 14%
 
 * **循序挑戰**：客戶以定義的順序完成任務。 使用此型別引導客戶完成特定歷程或上線流程。\
   *範例：「新成員歷程」 — 註冊電子郵件→進行第一次購買→撰寫產品評論→推薦朋友（以此確切順序完成）*
+
+* **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像設定任何其他挑戰型別一樣設定內容、傳訊和對象。
 
 ## 運作方式 {#how-it-works}
 
