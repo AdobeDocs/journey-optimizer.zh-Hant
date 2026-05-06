@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 請注意，Journey Optimizer僅支援傳出訊息元素。
 
-+++ 深入瞭解支援的訊息元素和動作要求
++++ 深入瞭解支援的訊息元素和互動式按鈕
 
 WhatsApp支援下列訊息型別：
 
@@ -41,9 +41,14 @@ WhatsApp支援下列訊息型別：
 
 | 行動號召 | 說明 |
 |-|-|
+| 快速回覆 | 使用者可以點選以回應您的訊息的簡短預設集回覆。 |
 | 造訪網站 | 只允許一個按鈕，包含變數引數。 |
 | 使用WhatsApp撥打電話 | 提供一個按鈕，可直接從訊息開啟與指定電話號碼的WhatsApp聊天。 |
 | 呼叫電話號碼 | 提供當使用者點選時，向指定號碼發起電話通話的按鈕。 |
+| CALL TO ACTION - URL | 開啟URL （**造訪網站**）。 只允許一個URL按鈕，包含變數引數。 |
+| call to action — 電話 | 使用範本的電話號碼，例如&#x200B;**撥打電話號碼** （撥打電話）或&#x200B;**撥打WhatsApp** （在WhatsApp中開啟與該號碼的聊天）。 |
+
+請注意，不支援&#x200B;**複製代碼**&#x200B;互動按鈕。
 
 +++
 
@@ -75,7 +80,7 @@ WhatsApp支援下列訊息型別：
 
 1. 從&#x200B;**[!UICONTROL 屬性]**&#x200B;區段，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
@@ -89,7 +94,7 @@ WhatsApp支援下列訊息型別：
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤WhatsApp訊息中連結的點按次數。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/create-campaign.md#schedule)。
+1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/create-campaign.md#schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
 1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇WhatsApp訊息的&#x200B;**[!UICONTROL 頻率]**：
 
@@ -130,7 +135,7 @@ WhatsApp支援下列訊息型別：
 
 1. 從&#x200B;**WhatsApp範本**&#x200B;下拉式清單中，選取您先前在Meta中設計的範本。
 
-   [進一步瞭解如何建立您的Whatsapp範本](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [進一步瞭解如何建立Whatsapp範本](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
@@ -195,6 +200,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470293/?captions=chi_hant&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
