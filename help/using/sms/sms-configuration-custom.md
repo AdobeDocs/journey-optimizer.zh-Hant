@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 12%
+source-wordcount: '881'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="提供者 URL"
->abstract="指定您計劃連線之外部 API 的 URL。此 URL 會做為存取 API 功能的端點。"
+>abstract="指定您計劃連線之外部 API 的 URL。 此 URL 會做為存取 API 功能的端點。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -84,6 +84,16 @@ ht-degree: 12%
    >
    >設定具有基本或持有者驗證的自訂SMS提供者時，您必須在JSON裝載中包含`authOption`引數。 此外，**提供者承載**&#x200B;必須參考範本變數`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
 
+1. 選取&#x200B;**[!UICONTROL 使用傳入的自訂資料集]**，將此認證的傳入SMS路由至您從下拉式清單中選擇的預先建立資料集。 [進一步瞭解如何建立資料集](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >資料集結構描述必須是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，而且至少包含下列欄位群組：
+   >* Adobe CJM ExperienceEvent — 訊息互動細節
+   >* Adobe CJM ExperienceEvent — 訊息執行詳細資料
+   >* Adobe CJM ExperienceEvent — 訊息設定檔詳細資料
+   >
+   >必須為設定檔啟用結構描述和資料集。
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -105,7 +115,7 @@ ht-degree: 12%
 
    ![](assets/verify-connection.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook[設定](#webhook)簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 

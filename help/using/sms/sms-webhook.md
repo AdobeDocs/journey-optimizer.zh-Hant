@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 4%
+source-wordcount: '2818'
+ht-degree: 3%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 4%
 | 提供者 | 傳入Webhook | Webhook意見反應 | 關鍵字 | 需要建立裝載 | 需要Webhook | 建立裝載 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Infobip | 可設定 | 可設定 | 可設定 | 非必要 | 必要 | 非必要 |
-| Sinch | 可設定 | 可設定 | 可設定 | 非必要 | 不可以。 整合 | 不適用 |
-| Sinch對話 | 可設定 | 可設定 | 可設定 | 非必要 | 不可以。 整合 | 不適用 |
+| Sinch | 可設定 | 可設定 | 可設定 | 非必要 | 不會。 整合 | 不適用 |
+| Sinch對話 | 可設定 | 可設定 | 可設定 | 非必要 | 不會。 整合 | 不適用 |
 | Twilio | 無法使用 | 無法使用 | 無法使用 | 無法使用 | 無法使用 | 不適用 |
 | 自訂 | 可設定 | 可設定 | 可設定 | 必要 | 必要 | 必要 |
 
@@ -375,19 +375,10 @@ ht-degree: 4%
    * **OriginTimestamp**：收到訊息時的時間戳記（UTC格式）。
    * **InboundNumber**：用於此Webhook設定的電話號碼。
 
-   +++裝載範例
+   >[!TIP]
+   >
+   > 開啟&#x200B;**[!UICONTROL 安裝指南]**，以取得範例JSON裝載和逐步指南。
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. 建立JSON檔案時，請按一下&#x200B;**[!UICONTROL 檢視裝載編輯器]**，然後將JSON裝載複製並貼到編輯器並儲存。
 
