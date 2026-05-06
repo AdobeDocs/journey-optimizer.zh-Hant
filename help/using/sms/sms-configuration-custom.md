@@ -115,7 +115,7 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
