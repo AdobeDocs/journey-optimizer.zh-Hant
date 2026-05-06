@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 18%
+source-wordcount: '1918'
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * **建立挑戰** ◀︎**您在這裡**
 * [建立任務](create-tasks.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -57,7 +57,13 @@ ht-degree: 18%
    * **[!UICONTROL 循序]**：客戶以定義的順序完成工作\
      *範例： Purchase → Review → Share （必須依此順序完成）*
 
-   選擇挑戰型別後，挑戰建立介面會開啟，其中包含多個設定標籤。 從設定挑戰結構開始。
+   * **[!UICONTROL 自備資料]**：若您想要從「忠誠度挑戰」資料整合中組合挑戰架構（例如工作與獎勵），請選取&#x200B;**[!UICONTROL 自備資料]**。 選取此型別時，您不需要設定挑戰結構，您只需以與其他挑戰相同的方式設定&#x200B;**[!UICONTROL 內容]**、**[!UICONTROL 訊息]**&#x200B;和&#x200B;**[!UICONTROL 對象]**。
+
+     >[!AVAILABILITY]
+     >
+     >**[!UICONTROL 自備資料]**&#x200B;挑戰型別目前可供一組受限制的組織使用，並將在未來版本中更廣泛地提供。
+
+   選擇挑戰型別後，挑戰建立介面會開啟，其中包含多個設定標籤。 針對&#x200B;**[!UICONTROL 自備資料]**&#x200B;以外的所有型別，從設定挑戰結構開始。
 
 ## 設定挑戰結構 {#structure}
 
@@ -84,7 +90,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑戰排程"
->abstract="透過排程定義挑戰何時上線：設定客戶可以進行挑戰的開始日期和時間，以及停止接受完成報告的結束日期和時間。挑選一個時區，並選擇客戶何時可以在「**[!UICONTROL 任務完成視窗區段]**」中完成任務。"
+>abstract="透過排程定義挑戰何時上線：設定客戶可以進行挑戰的開始日期和時間，以及停止接受完成報告的結束日期和時間。 挑選一個時區，並選擇客戶何時可以在「**[!UICONTROL 任務完成視窗區段]**」中完成任務。"
 
 設定您的挑戰執行時間：
 
@@ -109,7 +115,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="任務"
->abstract="選取完成挑戰所需執行的任務。接下來，設定挑戰完成的方式，可供使用的選項取決於您的挑戰類型 (標準、連續或循序)。"
+>abstract="選取完成挑戰所需執行的任務。 接下來，設定挑戰完成的方式，可供使用的選項取決於您的挑戰類型 (標準、連續或循序)。"
 
 任務定義客戶要獲得獎勵必須完成的特定操作。 您可以設定任務型別（購買、支出）、數量、產品篩選器和其他屬性。
 
@@ -164,7 +170,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="獎勵"
->abstract="選擇客戶獲得點數的時間點：完成整個挑戰時，或者是在挑戰過程中達到任務里程碑時。選取您的獎勵提供者 (管理點數和獎勵的忠誠度解決方案)，然後設定數量：完整完成後的單次總額，或各里程碑的每一項任務值，請僅針對您要支付的任務啟用獎勵。"
+>abstract="選擇客戶獲得點數的時間點：完成整個挑戰時，或者是在挑戰過程中達到任務里程碑時。 選取您的獎勵提供者 (管理點數和獎勵的忠誠度解決方案)，然後設定數量：完整完成後的單次總額，或各里程碑的每一項任務值，請僅針對您要支付的任務啟用獎勵。"
 
 獎勵是客戶在完成挑戰時獲得的忠誠度點數或權益。
 
@@ -213,7 +219,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="內容"
->abstract="設定內容卡片，呈現您在客戶裝置上的挑戰，並顯示挑戰資訊、進度和獎勵。輸入卡片名稱，選取管道設定，讓傳遞能使用正確的技術設定 (例如標頭、子網域或行動應用程式)，然後選取「編輯內容」，設計卡片體驗並將其個人化。"
+>abstract="設定內容卡片，呈現您在客戶裝置上的挑戰，並顯示挑戰資訊、進度和獎勵。 輸入卡片名稱，選取管道設定，讓傳遞能使用正確的技術設定 (例如標頭、子網域或行動應用程式)，然後選取「編輯內容」，設計卡片體驗並將其個人化。"
 
 內容卡以視覺化方式呈現您在客戶裝置上的挑戰，顯示挑戰資訊、進度和獎勵。 [進一步瞭解內容卡](../content-card/create-content-card.md)。
 
@@ -221,7 +227,7 @@ ht-degree: 18%
 
 1. 導覽至&#x200B;**[!UICONTROL Content]**&#x200B;標籤，然後輸入內容卡的&#x200B;**[!UICONTROL 名稱]**。
 
-1. 選取&#x200B;**[!UICONTROL 通道設定]**。 管道設定包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。 [進一步瞭解通道設定](../configuration/channel-surfaces.md)。
+1. 選取&#x200B;**[!UICONTROL 通道設定]**。 頻道設定包含所有傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。[進一步瞭解頻道設定](../configuration/channel-surfaces.md)。
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以設計您的內容卡。 [瞭解如何設計和個人化內容卡](../content-card/design-content-card.md)。
 
@@ -233,8 +239,8 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
->title="傳訊"
->abstract="傳送訊息有助於推動挑戰生命週期內的參與。在「傳送訊息」索引標籤上，針對每個階段新增訊息：啟動 (挑戰開始時)、進行中 (提醒和進度更新) 以及完成 (慶祝成功並確認獎勵)。針對每個階段新增訊息、選擇管道、選取管道設定，然後選取「編輯」，設計訊息內容。"
+>title="傳送訊息"
+>abstract="傳送訊息有助於推動挑戰生命週期內的參與。 在「傳送訊息」索引標籤上，針對每個階段新增訊息：啟動 (挑戰開始時)、進行中 (提醒和進度更新) 以及完成 (慶祝成功並確認獎勵)。 針對每個階段新增訊息、選擇管道、選取管道設定，然後選取「編輯」，設計訊息內容。"
 
 設定多管道訊息，在挑戰生命週期的關鍵階段與客戶互動。 傳訊功能為選用，但建議儘量擴大客戶參與度。
 
@@ -260,7 +266,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
->title="客群"
+>title="對象"
 >abstract="在「客群」索引標籤上，自可供使用的 Adobe Experience Platform 客群中選擇可以參與挑戰的客群。"
 
 定義哪些客戶可參與您的忠誠度挑戰。
