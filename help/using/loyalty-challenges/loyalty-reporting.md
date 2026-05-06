@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 監視忠誠度挑戰績效
-description: 瞭解如何使用忠誠度挑戰報告儀表板來追蹤Adobe Journey Optimizer中的計畫績效、挑戰結果和任務量度。
+description: 瞭解如何使用忠誠度挑戰報告儀表板在Adobe Journey Optimizer中追蹤挑戰績效和任務量度。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '529'
 ht-degree: 3%
 
 ---
