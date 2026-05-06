@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* 已新增新的&#x200B;**個人化電子郵件中的URL**&#x200B;頁面，整合動態URL個人化、完整/基本URL個人化、URL追蹤引數個人化和關鍵護欄的相關指引。 [閱讀全文](../email/url-personalization.md)
 
 * 新的&#x200B;**商業規則查詢**&#x200B;區段已新增到查詢範例頁面，提供資料湖查詢以檢查特定日期後特定歷程上由於歷程頻率上限排除所放棄的所有設定檔。 查詢包含`eventCodeReason`欄位，以識別設定檔是否因為達到上限(`CAP_REACHED`)或低優先順序(`LOWER_PRIORITY`)而被排除。 [閱讀全文](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ ht-degree: 68%
 * **建置對象活動**&#x200B;檔案已新增一個範例，說明如何使用規則產生器依訂閱計畫屬性篩選設定檔，而更加豐富。 [閱讀全文](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * **開始使用協調的行銷活動**&#x200B;頁面會記錄入門層級&#x200B;**建立對象→分支→管道A +管道B**&#x200B;模式（在&#x200B;**協調的行銷活動內含哪些內容？**），並交叉參考分支活動以及行銷與異動訊息頁面。 [閱讀全文](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從「內容管理」區段移至檔案的&#x200B;**電子郵件**&#x200B;區段（在電子郵件設計底下），且頁面檔案已重新命名為&#x200B;**email-expert-mode.md**。 此頁面現在會記錄進階HTML編輯器可在電子郵件Designer中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
+
+* 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從內容管理區段移至檔案的&#x200B;**電子郵件**&#x200B;區段。 此頁面現在會記錄進階HTML編輯器可在電子郵件Designer中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
 
 * 更新&#x200B;**開始和監視協調的行銷活動**&#x200B;檔案，其中包含詳細說明內部發佈時間執行順序的新區段，以及行銷活動生命週期狀態表、發佈前檢查清單，以及非週期性行銷活動的傳送確認警告。 [閱讀全文](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
