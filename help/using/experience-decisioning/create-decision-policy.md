@@ -7,7 +7,7 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 6%
@@ -293,7 +293,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -308,7 +308,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**&#x200B;[!UICONTROL &#x200B;以確認建立原則。]&#x200B;**]**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**[!UICONTROL &#x200B;以確認建立原則。]**]**
 
 >[!IMPORTANT]
 >
