@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 51de1b4f89f4fcad8e5b8acb3988675ed885c13d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 8%
+source-wordcount: '1323'
+ht-degree: 9%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 8%
 
    ![](assets/sms_create_2.png)
 
-1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至簡訊動作。 [了解更多](../conflict-prioritization/channel-capping.md)
+1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至簡訊動作。 [進一步了解](../conflict-prioritization/channel-capping.md)
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](#sms-content)
 
@@ -76,7 +76,7 @@ ht-degree: 8%
 
 1. 從&#x200B;**[!UICONTROL 屬性]**&#x200B;區段，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
@@ -90,7 +90,7 @@ ht-degree: 8%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定您是否想要追蹤簡訊訊息中連結的點按次數。
 
-1. 行銷活動旨在特定日期或循環頻率執行。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/campaign-schedule.md#action-campaign-schedule)。
+1. 行銷活動旨在特定日期或循環頻率執行。 在[本節](../campaigns/campaign-schedule.md#action-campaign-schedule)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
 1. 從&#x200B;**[!UICONTROL 動作觸發程式]**&#x200B;功能表，選擇SMS訊息的&#x200B;**[!UICONTROL 頻率]**：
 
@@ -149,7 +149,11 @@ ht-degree: 8%
    >
    > 短URL的生命週期設為30天。 在此期間之後，將無法再存取這些短URL，且會顯示訊息： `404 short-code not found`。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](#sms-mms-test)所詳述。
+1. 使用&#x200B;**[!UICONTROL 字元計數]**&#x200B;在您撰寫訊息時監視SMS長度。 它會即時更新，並指出內容何時會在多個區段中傳送。
+
+   ![](assets/sms_tracking_3.png)
+
+1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](#sms-mms-test)所詳述。
 
 ## 使用Decisioning個人化 {#decisioning-sms}
 
@@ -181,7 +185,7 @@ ht-degree: 8%
 
    ![](assets/sms_create_7.png)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**，然後在預覽中檢查您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
+1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。 您現在可以測試和檢查您的訊息內容，如下所述。
 
 ## 測試並傳送您的訊息 {#sms-mms-test}
 

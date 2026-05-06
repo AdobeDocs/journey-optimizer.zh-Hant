@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,6 @@ ht-degree: 1%
 
 ## 設定簡訊的API認證{#create-api}
 
->[!BEGINSHADEBOX]
-
-如果未提供選擇加入或選擇退出關鍵字，系統會使用標準同意訊息來尊重使用者隱私權。 新增自訂關鍵字會自動覆寫預設值。
-
-**預設關鍵字：**
-
-* **選擇加入**：訂閱，是，取消停止，開始，繼續，繼續，開始
-* **選擇退出**：停止、結束、取消、結束、取消訂閱、否
-* **說明**：說明
-
->[!ENDSHADEBOX]
-
 若要設定您的Sinch提供者使用Journey Optimizer傳送SMS訊息和MMS，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** `>` **[!UICONTROL SMS設定]**&#x200B;並選取&#x200B;**[!UICONTROL API認證]**&#x200B;功能表。 按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
@@ -58,24 +46,30 @@ ht-degree: 1%
    | 簡訊供應商 | Sinch |
    | 名稱 | 選擇您的API認證名稱。 |
    | 服務ID和API權杖 | 存取API頁面，您可以在SMS標籤下找到您的認證。 在[Sinch檔案](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}中進一步瞭解。 |
-   | 選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇加入訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動以您的選擇加入訊息的形式傳送。 |
-   | 選擇退出關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的選擇退出訊息的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 選擇退出訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動作為您的選擇退出訊息傳送。 |
-   | 說明關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入將會自動觸發您的&#x200B;**說明訊息**&#x200B;的預設或自訂關鍵字。 對於多個關鍵字，請使用逗號分隔值。 |
-   | 說明訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自訂回應，此回應會自動傳送為您的&#x200B;**說明訊息**。 |
-   | 雙重選擇加入關鍵字 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入觸發雙重加入程式的關鍵字。 如果使用者輪廓不存在，則會在成功確認時加以建立。對於多個關鍵字，請使用逗號分隔值。 [進一步瞭解SMS雙重選擇加入](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)。 |
-   | 雙重選擇加入訊息 | **若是新的SMS設定，請使用[Webhooks功能表](sms-webhook.md)來設定同意關鍵字。 現有設定可以繼續使用本節中的同意關鍵字。** </br>輸入自動傳送以回應雙重加入確認的自訂回應。 |
    | 傳入號碼 | 新增您的唯一傳入號碼或短代碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼或短程式碼。 |
-   | 自訂傳入關鍵字 | 為批次型動作定義不重複、不具同意性的相關關鍵字，例如DISCOUNT、OFFERS、ENROLL。 這些關鍵字會擷取並儲存為設定檔中的屬性，可讓您在歷程中觸發批次區段資格，並提供自訂回應或動作。 |
-   | 預設傳入回複訊息 | 輸入當一般使用者傳送的傳入SMS不符合任何已定義的關鍵字時傳送的預設回覆。 |
    | 覆寫URL | 輸入您的自訂URL以取代SMS傳送報告、意見資料、傳入訊息或事件通知的預設端點。 Sinch會將所有相關更新傳送至此URL，而非預先定義的更新。 |
 
    +++
 
-1. 啟用&#x200B;**[!UICONTROL 模糊選擇退出]**&#x200B;選項，以偵測類似選擇退出關鍵字（例如，&#39;CANCIL&#39;）的訊息，並在&#x200B;**[!UICONTROL 模糊自動回覆]**&#x200B;欄位中自訂確認回覆。
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL 模糊選擇退出]**&#x200B;會識別指出使用者想要取消訂閱的SMS訊息，即使該訊息與定義的選擇退出關鍵字不完全相符。 它可以偵測常見的選擇退出片語和某些冒犯性詞語，協助確保您的行銷活動遵守使用者偏好設定並保持合規性。
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. 選取&#x200B;**[!UICONTROL 使用傳入的自訂資料集]**，將此認證的傳入SMS路由至您從下拉式清單中選擇的預先建立資料集。 [進一步瞭解如何建立資料集](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >資料集結構描述必須是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，而且至少包含下列欄位群組：
+   >* Adobe CJM ExperienceEvent — 訊息互動細節
+   >* Adobe CJM ExperienceEvent — 訊息執行詳細資料
+   >* Adobe CJM ExperienceEvent — 訊息設定檔詳細資料
+   >
+   >必須為設定檔啟用結構描述和資料集。
+
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 

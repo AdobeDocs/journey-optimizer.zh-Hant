@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '601'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,17 @@ ht-degree: 2%
    * **[!UICONTROL 訊息SID]**：輸入指派給Twilio API所建立之每封訊息的唯一識別碼。 深入瞭解[Twilio檔案](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}。
 
    * **[!UICONTROL 傳入號碼]**：新增您的不重複傳入號碼。 這可讓您在不同的沙箱中使用相同的API認證，每個沙箱都有自己的傳入號碼。
+
+1. 選取&#x200B;**[!UICONTROL 使用傳入的自訂資料集]**，將此認證的傳入SMS路由至您從下拉式清單中選擇的預先建立資料集。 [進一步瞭解如何建立資料集](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >資料集結構描述必須是&#x200B;**[!UICONTROL XDM ExperienceEvent]**，而且至少包含下列欄位群組：
+   >* Adobe CJM ExperienceEvent — 訊息互動細節
+   >* Adobe CJM ExperienceEvent — 訊息執行詳細資料
+   >* Adobe CJM ExperienceEvent — 訊息設定檔詳細資料
+   >
+   >必須為設定檔啟用結構描述和資料集。
 
 1. 完成API認證的設定時，請按一下&#x200B;**[!UICONTROL 提交]**。
 
