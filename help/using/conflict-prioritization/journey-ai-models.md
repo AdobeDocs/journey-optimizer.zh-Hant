@@ -6,12 +6,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-hide: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '661'
+ht-degree: 5%
 
 ---
 
@@ -61,7 +60,7 @@ Do you need specific permissions to create AI models?
 
    ![最佳化量度下拉式清單，列出AI模型的Customer Journey Analytics量度](assets/journey-model-metrics.png){width="70%"}
 
-   根據[!DNL Journey Optimizer]轉換率&#x200B;**排名** （轉換率=轉換事件總數/曝光事件總數）。 轉換率的計算方式為：
+   根據&#x200B;**轉換率**&#x200B;排名[!DNL Journey Optimizer] （轉換率=轉換事件總數/曝光事件總數）。 轉換率的計算方式為：
 
    * **曝光事件** （顯示的專案）
    * **轉換事件** （導致點按或轉換的專案）

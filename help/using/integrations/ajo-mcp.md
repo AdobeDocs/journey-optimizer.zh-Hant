@@ -8,15 +8,14 @@ topic: Content Management, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: 31fb00bc82b6bbc664c37beba263ce94851bf8bd
+source-git-commit: febf15cfead2f0a236de69bcdf0b2c2136e80f4a
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
 
-# 使用MCP使用者端(Beta) {#ajo-mcp}
+# 使用MCP使用者端 {#ajo-mcp}
 
 [!DNL Adobe Journey Optimizer] MCP整合可讓您使用純語言提示來查詢行銷活動和優惠方案，而不需撰寫API呼叫或導覽產品熒幕。 此頁面說明整合的運作方式、您可以執行哪些操作，以及如何開始使用。
 
@@ -42,7 +41,7 @@ ht-degree: 1%
 
 行銷和客戶體驗團隊越來越仰賴聊天式應用程式和開發人員工具（例如Anthropic Claude、OpenAI ChatGPT、Cursor和Microsoft Copilot Studio）來簡化日常工作。 這些應用程式支援&#x200B;**模型內容通訊協定(MCP)**，這是開放標準，可讓應用程式以統一的方式將後端工具公開給大型語言模型(LLM)。
 
-[!DNL Adobe Journey Optimizer]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現行銷活動、忠誠度和沙箱作業。 透過[!DNL Adobe Journey Optimizer] MCP整合，不同的角色可以圍繞相同的協調流程資料共同作業，而不需要針對[!DNL Adobe Journey Optimizer] REST API撰寫查詢，或導覽多個UI熒幕。 客戶可以用對話方式描述他們的意圖，讓LLM叫用適當的MCP工具。
+[!DNL Adobe Journey Optimizer]現在提供MCP伺服器，直接在任何MCP相容應用程式中呈現行銷活動和沙箱作業。 透過[!DNL Adobe Journey Optimizer] MCP整合，不同的角色可以圍繞相同的協調流程資料共同作業，而不需要針對[!DNL Adobe Journey Optimizer] REST API撰寫查詢，或導覽多個UI熒幕。 客戶可以用對話方式描述他們的意圖，讓LLM叫用適當的MCP工具。
 
 ## 主要功能 {#mcp-capabilities}
 
@@ -74,14 +73,14 @@ ht-degree: 1%
 
 | 目標 | 範例提示 |
 |---|---|
-| **行銷活動概覽** | 「顯示所有AJO行銷活動」/「在AJO中設定了多少行銷活動？」 |
-| **狀態稽核** | 「哪些行銷活動目前處於上線狀態？」 / 「列出任何暫停或停止的行銷活動。」 |
-| **行銷活動詳細資料** | 「取得行銷活動[ID]的完整詳細資料」/「逐步說明行銷活動[ID]中設定的所有專案」。 |
-| **對象和目標** | 「行銷活動[ID]的目標對象為何？」 / 「促銷活動[ID]上設定了哪些適用性規則？」 |
-| **排程與時間** | 「行銷活動[ID]何時排定執行？」 / 「促銷活動[ID]是單次傳送還是週期性？」 |
-| **疑難排解** | 「為什麼行銷活動[ID]不會傳送？」 /「檢閱行銷活動[ID]的設定是否有任何問題。」 |
-| **管道設定** | 「我的沙箱中有哪些管道預設集可用？」 / 「顯示我所有的電子郵件通道設定。」 |
-| **管道稽核** | 「哪些管道設定遺漏或不完整？」 / 「我跨所有管道有多少管道設定？」 |
+| **行銷活動概覽** | 顯示所有Journey Optimizer行銷活動/在Journey Optimizer中設定了多少行銷活動？ |
+| **狀態稽核** | 目前有哪些行銷活動在進行中？ /列出任何暫停或停止的行銷活動。 |
+| **行銷活動詳細資料** | 取得行銷活動[ID]的完整詳細資料/逐步說明行銷活動[ID]中設定的所有專案。 |
+| **對象和目標** | 行銷活動[ID]的目標對象為何？ /促銷活動[ID]上設定了哪些適用性規則？ |
+| **排程與時間** | 行銷活動[ID]何時排定執行？ /行銷活動[ID]是單次傳送還是週期性？ |
+| **疑難排解** | 為什麼行銷活動[ID]可能不會傳送？ /檢閱行銷活動[ID]的設定是否有任何問題。 |
+| **頻道設定** | 我的沙箱中有哪些管道預設集可用？ /顯示我的所有電子郵件通道設定。 |
+| **管道稽核** | 哪些管道設定遺漏或不完整？ /我跨所有管道有多少管道設定？ |
 
 ## 先決條件 {#mcp-prerequisites}
 
@@ -110,16 +109,16 @@ Step-by-step connection instructions to be added here, including:
 - How to authenticate
 -->
 
-## 已知限制(Beta) {#mcp-limitations}
+## 已知限制 {#mcp-limitations}
 
 下列限制適用於[!DNL Adobe Journey Optimizer] MCP伺服器的目前Beta版本：
 
 | 限制 | 說明 | 因應措施 |
 |---|---|---|
-| **沒有參與或績效量度** | MCP伺服器不會公開任何報表資料。 工具不會傳回曝光數、點進率、轉換或傳遞統計資料。 | 針對量度使用AJO報表UI、CJA MCP或Adobe Analytics MCP。 AEP Query Service可使用行銷活動執行ID查詢原始事件資料。 |
-| **行銷活動清單分頁受到限制** | `List Campaigns`一律會傳回結果的第一頁（最多50個行銷活動，按字母排序）。 未套用位移和限制值，因此完整列舉對於大型沙箱而言是不切實際的。 | 如果行銷活動ID或名稱已知，請直接使用`Get Campaign`。 使用AJO UI來瀏覽和篩選完整清單。 |
-| **沒有依日期、頻道或排程的伺服器端篩選** | `List Campaigns`僅支援依狀態篩選。 伺服器端無法使用依發佈日期、排程日期、頻道或促銷活動型別篩選。 | 使用AJO UI行銷活動清單，此清單支援原生日期和管道篩選。 |
-| **無法擷取訊息內容** | 訊息內容工具會為所有頻道型別（電子郵件、程式碼型和其他型別）傳回HTTP 502。 訊息HTML、主旨行、個人化權杖和選件內容無法透過MCP擷取。 | 直接在AJO UI中的&#x200B;**行銷活動> [行銷活動] >內容**&#x200B;下檢視訊息內容和個人化權杖。 |
+| **沒有參與或績效量度** | MCP伺服器不會公開任何報表資料。 工具不會傳回曝光數、點進率、轉換或傳遞統計資料。 | 針對量度使用Journey Optimizer報表UI、CJA MCP或Adobe Analytics MCP。 AEP Query Service可使用行銷活動執行ID查詢原始事件資料。 |
+| **行銷活動清單分頁受到限制** | `List Campaigns`一律會傳回結果的第一頁（最多50個行銷活動，按字母排序）。 未套用位移和限制值，因此完整列舉對於大型沙箱而言是不切實際的。 | 如果行銷活動ID或名稱已知，請直接使用`Get Campaign`。 使用Journey Optimizer UI來瀏覽和篩選完整清單。 |
+| **沒有依日期、頻道或排程的伺服器端篩選** | `List Campaigns`僅支援依狀態篩選。 伺服器端無法使用依發佈日期、排程日期、頻道或促銷活動型別篩選。 | 使用Journey Optimizer UI行銷活動清單，此清單支援原生日期和管道篩選。 |
+| **無法擷取訊息內容** | 訊息內容工具會為所有頻道型別（電子郵件、程式碼型和其他型別）傳回HTTP 502。 訊息HTML、主旨行、個人化權杖和選件內容無法透過MCP擷取。 | 直接在Journey Optimizer UI中的&#x200B;**行銷活動> [行銷活動] >內容**&#x200B;下檢視訊息內容和個人化權杖。 |
 
 ## 常見問題 {#mcp-faq}
 
@@ -130,12 +129,12 @@ Step-by-step connection instructions to be added here, including:
 
 +++我可以透過MCP存取哪些[!DNL Adobe Journey Optimizer]物件？
 
-您可以存取行銷活動、優惠方案、忠誠度資料和沙箱資訊。 操作是唯讀的（擷取API）；目前版本不支援寫入操作。
+您可以存取行銷活動、優惠方案和沙箱資訊。 操作是唯讀的（擷取API）；目前版本不支援寫入操作。
 +++
 
 +++我需要開發人員存取權才能使用[!DNL Adobe Journey Optimizer] MCP伺服器嗎？
 
-不可以。 MCP伺服器是專為行銷和技術人員所設計。 行銷人員可以在任何支援的MCP使用者端中使用自然語言提示與其互動，而開發人員也可以在支援MCP的開發人員工具中使用它。
+不會。 MCP伺服器是專為行銷和技術人員所設計。 行銷人員可以在任何支援的MCP使用者端中使用自然語言提示與其互動，而開發人員也可以在支援MCP的開發人員工具中使用它。
 +++
 
 +++我的資料是否傳送給MCP使用者端提供者？
