@@ -146,7 +146,7 @@ To populate the allowed list, you can also call the suppression API with the `AL
 
 You can perform the **Add**, **Delete** and **Get** operations.
 
-Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} reference documentation.
+Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"} reference documentation.
 
 ## Download the allowed list {#download-allowed-list}
 
@@ -201,7 +201,7 @@ To export the allowed list as a CSV file, follow the steps below:
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

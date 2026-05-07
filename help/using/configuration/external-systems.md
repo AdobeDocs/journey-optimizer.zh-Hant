@@ -110,7 +110,7 @@ Let&#39;s take an example for a timeout of 5 seconds.
 
 You will find below Frequently Asked Questions about integrating Journey Optimizer with external systems.
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
 
 +++ How can I configure a capping or throttling rule? Is there a default rule?
 
