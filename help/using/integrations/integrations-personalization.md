@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 整合
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 身為行銷人員，您可以使用已設定的整合來個人化您的內容。 請依照下列步驟操作：
 
-1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]&#x200B;**。**
+1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]**]。**[!UICONTROL 
 
    [進一步瞭解元件](../email/content-components.md)
 
@@ -131,4 +131,4 @@ ht-degree: 0%
 
 此影片說明&#x200B;**整合**&#x200B;如何將Adobe Journey Optimizer連線至外部API，以便您可以將即時資料和內容提取至&#x200B;**傳出頻道**&#x200B;電子郵件、簡訊和推播，以進行更相關的個人化。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484129/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
