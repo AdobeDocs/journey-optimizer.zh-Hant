@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 35%
+source-wordcount: '917'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
 >title="關於資料來源"
->abstract="資料來源設定一律會由技術使用者執行。資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、動作中的參數和個人化資料、自訂等待定義、自訂時區定義。"
+>abstract="資料來源設定一律會由技術使用者執行。 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、動作中的參數和個人化資料、自訂等待定義、自訂時區定義。"
 
 >[!TIP]
 >Journey Optimizer資料管理的新手嗎？ 從[開始使用資料管理](../data/gs-data.md)概述開始，在設定資料來源之前，先瞭解結構描述、資料集、身分以及資料如何流動。
@@ -35,18 +35,18 @@ ht-degree: 35%
 
 ➡️ [在影片中探索此功能](#video)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程由事件組成，之後僅會使用來自事件資料的管道動作活動，則不需要設定資料來源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。 例如，如果您的歷程由事件組成，之後僅會使用來自事件資料的管道動作活動，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
-* **預先設定的** Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
-* 允許您定義外部系統連線的&#x200B;**外部**&#x200B;資料來源。 這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
+* **預先設定的** Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的連線。 這是內建的資料來源。 請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 允許您定義外部系統連線的&#x200B;**外部**&#x200B;資料來源。 這些是您可以建立的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 >[!NOTE]
 >
->現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
+>現已支援回應，對於外部資料來源使用案例，您應該使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
-對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
+對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。 欄位群組是可從資料來源擷取的欄位集。 請參閱[此頁面](../datasource/configure-data-sources.md#define-field-groups)。
 
 >[!NOTE]
 >
@@ -65,6 +65,12 @@ ht-degree: 35%
 
 深入瞭解[自訂動作](../action/action.md)和[自訂動作回應](../action/action-response.md)。
 
+>[!TIP]
+>
+>如果您對兩個問題都回答&#x200B;**是**，則此選項非常適合：
+>* 資料是否只適用於歷程內容，不需要在其他地方？ 如果對象或其他管道也需資料，請考慮選項2或3。
+>* 是否可透過傳回必要屬性的API端點存取外部系統？ 否則，您必須先將資料擷取到Data Lake。
+
 **選項2 — 資料湖中的資料集，未針對設定檔**&#x200B;啟用
 
 將資料擷取至資料集，以根據情境式事件資料觸發並個人化歷程，而不會對即時客戶個人檔案有所貢獻。 最適合下列情況：
@@ -72,12 +78,26 @@ ht-degree: 35%
 * 記錄中包含可用於存取已儲存在Experience Platform中的設定檔的身分欄位。
 * 在Journey Optimizer外部建立受眾或拼接身分時不需要資料。
 
+>[!TIP]
+>
+>如果您對兩個問題都回答&#x200B;**是**，則此選項非常適合：
+>* 記錄是否包含身分欄位，可用來存取已儲存在Experience Platform中的設定檔？ 否則，歷程將無法存取並傳遞至設定檔。
+>* 在Journey Optimizer外部建立[對象](../audience/about-audiences.md)或拼接身分時，是否不需要資料？ 如果是，請改用選項3。
+
 **選項3 — 在資料湖**&#x200B;中啟用設定檔的資料集
 
 將資料內嵌至啟用[設定檔的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中，以建立對象、豐富身分圖表，並跨多個歷程和RT-CDP目的地運用資料。 最適合下列情況：
 
 * 此資料可用於Journey Optimizer以外的管道中使用的受眾定義。
 * 資料包含多個身分，這些身分有助於提供更豐富的拼接設定檔片段。
+
+>[!CAUTION]
+>
+>**在您啟用設定檔**&#x200B;的資料集之前，請先評估下列領域：
+>* **資料同步處理** — 外部資料庫必須同步處理，並設定警示以識別擷取失敗。
+>* **[設定檔護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}** — 除了Experience Platform的[一般資料擷取護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/guardrails){target="_blank"}之外，還套用設定檔專用護欄。
+>* **身分完整性** — 來源系統中的身分資料必須仔細規劃，以維持健康的身分圖表。
+>* **資料湖使用率** — 整體儲存空間使用量、資料表關係和可定址設定檔必須在擷取之前進行評估。
 
 | | 資料持續存在資料湖中 | 為設定檔啟用的資料集 |
 | --- | --- | --- |
