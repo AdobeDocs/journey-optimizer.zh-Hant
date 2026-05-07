@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -69,6 +69,10 @@ WhatsApp支援下列訊息型別：
    如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)
 
    根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。
+
+1. 在&#x200B;**[!UICONTROL 商業規則]**&#x200B;區段中，您可以套用規則集來控制WhatsApp訊息的通訊壓力。
+
+   深入瞭解[規則集](../conflict-prioritization/rule-sets.md)、[頻道頻率上限](../conflict-prioritization/channel-capping.md)和[無訊息時數](../conflict-prioritization/quiet-hours.md)。
 
 您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計WhatsApp訊息的內容，如下所述。
 
