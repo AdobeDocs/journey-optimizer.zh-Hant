@@ -84,12 +84,12 @@ ht-degree: 33%
 
 Learn how to use Decisioning to personalize emails for your audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476175?captions=chi_hant&quality=12)
 
 Learn how to use Decisioning to personalize push notifications for your audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
 
 Learn how to use Decisioning to personalize SMS messages for your audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479540?captions=chi_hant&quality=12)
