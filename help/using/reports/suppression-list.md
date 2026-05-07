@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '845'
 ht-degree: 11%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 11%
 >
 >Adobe會保留已知不良地址的更新清單（這些地址已被證明會損害參與和郵寄信譽），並確保不會將電子郵件傳遞給他們。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
-此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 為什麼要使用隱藏清單？ {#why-suppression-list}
 
 為了控制收件匣擁有者收到的電子郵件訊息，並確保他們僅收到想要的訊息，網際網路服務提供者(ISP)和商業垃圾郵件篩選器會根據其使用的IP位址和傳送網域，使用其專屬演演算法來追蹤電子郵件寄件者的整體信譽。
 
-如果您未將他們的意見反應（例如垃圾訊息申訴、退回等）納入考量，他們會對您的信譽進行評等。 隱藏清單可協助您接受ISP的意見回饋。
+如果您不接受他們的意見（例如垃圾郵件投訴、退回等） 他們會考量到您的聲譽。 隱藏清單可協助您接受ISP的意見回饋。
 
 抑制其電子郵件地址的收件者會自動從郵件傳遞中排除。 這會加快傳送速度，因為錯誤率對傳送速度有顯著影響。
 
@@ -53,7 +53,7 @@ ht-degree: 11%
 >
 >未訂閱的使用者地址無法傳送到隱藏清單，因為他們沒有接收來自[!DNL Journey Optimizer]的電子郵件。 他們的選擇在Experience Platform層級處理。 深入瞭解[選擇退出](../privacy/opt-out.md)。
 
-對於每一個地址，抑制的基本原因和抑制類別（軟、硬等）都會顯示在抑制清單中。 在[本節](../configuration/manage-suppression-list.md)中進一步瞭解存取及管理隱藏清單。
+針對每個地址，抑制的基本原因和抑制類別（軟、硬等） 會顯示在隱藏清單中。 在[本節](../configuration/manage-suppression-list.md)中進一步瞭解存取及管理隱藏清單。
 
 >[!NOTE]
 >

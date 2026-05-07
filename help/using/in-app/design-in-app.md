@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
 >title="定義應用程式內的內容"
->abstract="自訂應用程式內訊息的內容與樣式。您也可以新增媒體與動作按鈕，讓您的訊息更引人入勝且更有成效。"
+>abstract="自訂應用程式內訊息的內容與樣式。 您也可以新增媒體與動作按鈕，讓您的訊息更引人入勝且更有成效。"
 
 您可以編輯應用程式內內容以設定體驗選項：
 
@@ -40,7 +40,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
 >title="定義應用程式內的內容"
->abstract="此訊息版面提供您常用的範本以設定訊息的框架。自訂版面提供上傳或撰寫自訂 HTML 訊息的選項。"
+>abstract="此訊息版面提供您常用的範本以設定訊息的框架。 自訂版面提供上傳或撰寫自訂 HTML 訊息的選項。"
 
 從&#x200B;**[!UICONTROL 訊息配置]**&#x200B;區段中，選取四個不同的配置選項之一，以便根據您的訊息需求進行選擇。
 
@@ -118,13 +118,13 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
 >title="若要撰寫訊息，請在「標題」與「本文」欄位輸入內容。"
->abstract="此處可以新增標題與內容文字。若要納入個人化語彙基元，請開啟個人化對話框。"
+>abstract="此處可以新增標題與內容文字。 若要納入個人化語彙基元，請開啟個人化對話框。"
 
 若要撰寫訊息，請在&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位中輸入內容。
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[中進一步瞭解Adobe Journey Optimizer個人化編輯器](../personalization/personalize.md)中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -141,7 +141,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="新增按鈕讓使用者可以和您的應用程式內訊息互動。"
->abstract="本部份可讓您在訊息中新增召喚行動按鈕。您也可以針對每個按鈕納入自訂的文字與目標。"
+>abstract="本部份可讓您在訊息中新增召喚行動按鈕。 您也可以針對每個按鈕納入自訂的文字與目標。"
 
 新增按鈕讓使用者可以和您的應用程式內訊息互動。
 
@@ -201,7 +201,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
 >title="定義應用程式內訊息的訊息版面。"
->abstract="本部份可讓您在應用程式內訊息中新增背景。這需要 UI 接管才能啟用。"
+>abstract="本部份可讓您在應用程式內訊息中新增背景。 這需要 UI 接管才能啟用。"
 
 ![](assets/in_app_web_design_6.png)
 
@@ -244,7 +244,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
 您可以從&#x200B;**資料**&#x200B;索引標籤中定義&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
 
-如需詳細資訊，請參閱[開發人員檔案](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)。
+如需詳細資訊，請參閱[開發人員檔案](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
 1. 從&#x200B;**[!UICONTROL 資料]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 新增索引鍵/值組]**。
 

@@ -11,9 +11,9 @@ keywords: 運算式，編輯器
 mini-toc-levels: 1
 badge: label="有限可用性" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->資料查詢功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡 Adobe 代表。如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>資料查詢功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 在本節中進一步瞭解如何存取和使用資料集：[開始使用資料集](../data/get-started-datasets.md)
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 
 ### API方法
 
-依照[本檔案](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)中詳述的指示，設定您的環境以傳送API命令。
+依照[本檔案](https://developer.adobe.com/journey-optimizer-apis/references/authentication)中詳述的指示，設定您的環境以傳送API命令。
 
 #### 先決條件
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform**
 
-  確定預設合併原則已在&#x200B;**客戶** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**[!UICONTROL Edge上作用中合併原則]**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+  確定預設合併原則已在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**Edge上作用中合併原則**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 * **Adobe Experience Platform Mobile或Platform Web SDK**
 
-  若要使用行動與網頁應用程式，將修改新增至您的網頁或行動應用程式，您必須在您的網站上實施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/overview){target="_blank"}，或在行動應用程式上實施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"}。
+  若要使用行動與網頁應用程式，將修改新增至您的網頁或行動應用程式，您必須在您的網站上實施[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/overview){target="_blank"}，或在行動應用程式上實施[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"}。
 
 * **Journey Optimizer**
 

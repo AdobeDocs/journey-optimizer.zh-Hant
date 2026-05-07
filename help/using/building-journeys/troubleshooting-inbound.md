@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯誤
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 2. 已在平台身分中定義&#x200B;**&#39;joai&#39;身分**
 
-   傳入動作使用設定檔&#x200B;**中的** joai`segmentMembership`名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home){target="_blank"}
+   傳入動作使用設定檔`segmentMembership`中的&#x200B;**joai**&#x200B;名稱空間來啟動傳入步驟的設定檔。 確定已在沙箱的Platform身分中定義它。 深入瞭解[Experience Platform Identity服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home){target="_blank"}
 
 ### 偵錯步驟 {#debugging-steps}
 
@@ -91,11 +91,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 網路頻道]
 
-造訪頁面並檢查網路標籤，或在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
+造訪頁面並檢查網路標籤，或在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!TAB 程式碼型體驗管道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api/)執行curl要求，並在&#x200B;**[!UICONTROL Edge]**&#x200B;工作階段的[Edge Delivery](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}區段中檢查Assurance回應裝載。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api)執行curl要求，並在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!ENDTABS]
 
@@ -121,7 +121,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    >[!NOTE]
    >
-   >若要在&#x200B;**Assurance**&#x200B;工作階段中尋找Edge活動，請尋找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;為&#x200B;**joai**&#x200B;且&#x200B;**[!UICONTROL audienceSegmentId]**&#x200B;為&lt;*JourneyVersionID*>_&lt;*JourneyActionID*>的活動（例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*）。
+   >若要在&#x200B;**Assurance**&#x200B;工作階段中尋找Edge活動，請尋找&#x200B;**[!UICONTROL audienceNamespace]**&#x200B;為&#x200B;**joai**，**[!UICONTROL audienceSegmentId]**&#x200B;為&lt;*JourneyVersionID*>_&lt;*JourneyActionID*>的活動（例如： *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*）。
 
    ![Edge傳送錯誤，顯示設定檔不符合訊息資格](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
@@ -141,9 +141,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 >
 >從集線器更新設定檔起，傳輸到Edge最多可能需要15到30分鐘。
 
-若要檢查Edge設定檔的&#x200B;**屬性中是否存在** joai`segmentMembership`區段，請遵循下列步驟。
+若要檢查Edge設定檔的`segmentMembership`屬性中是否存在&#x200B;**joai**&#x200B;區段，請遵循下列步驟。
 
-1. 導覽至&#x200B;**[!UICONTROL 左側導覽窗格中的]**&#x200B;客戶&#x200B;**[!UICONTROL >]**&#x200B;設定檔[!DNL Journey Optimizer]功能表，並使用名稱空間和ID瀏覽至設定檔。 深入瞭解[即時客戶設定檔](../audience/get-started-profiles.md)
+1. 導覽至[!DNL Journey Optimizer]左側導覽窗格中的&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]**&#x200B;功能表，並使用名稱空間和ID瀏覽至設定檔。 深入瞭解[即時客戶設定檔](../audience/get-started-profiles.md)
 
 1. 選取「**[!UICONTROL 屬性]**」標籤，然後選擇「**[!UICONTROL Edge]**」檢視。
 
@@ -173,9 +173,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 >
 >將&#x200B;**joai**&#x200B;區段會籍擷取到中心設定檔中，從設定檔進入傳入歷程動作的那一刻起，最多可能需要15至30分鐘的時間。
 
-若要檢查集線器設定檔的&#x200B;**屬性中是否存在** joai`segmentMembership`區段，請遵循下列步驟。
+若要檢查集線器設定檔的`segmentMembership`屬性中是否存在&#x200B;**joai**&#x200B;區段，請遵循下列步驟。
 
-1. 導覽至&#x200B;**[!UICONTROL 左側導覽窗格中的]**&#x200B;客戶&#x200B;**[!UICONTROL >]**&#x200B;設定檔[!DNL Journey Optimizer]功能表，並使用名稱空間和ID瀏覽至設定檔。 深入瞭解[即時客戶設定檔](../audience/get-started-profiles.md)
+1. 導覽至[!DNL Journey Optimizer]左側導覽窗格中的&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]**&#x200B;功能表，並使用名稱空間和ID瀏覽至設定檔。 深入瞭解[即時客戶設定檔](../audience/get-started-profiles.md)
 
 1. 選取&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤，然後選擇&#x200B;**[!UICONTROL 中心]**&#x200B;檢視。
 

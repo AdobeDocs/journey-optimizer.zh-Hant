@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 6%
+source-wordcount: '761'
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 上限API可幫助您建立、設定和監控您的上限設定。
 
-本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供詳細的API描述。
+本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}中提供詳細的API描述。
 
 ## 設定API說明與Postman集合的上限 {#description}
 
-下表列出適用於上限API的可用命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}提供詳細資訊，包括要求範例、引數和回應格式。
+下表列出適用於上限API的可用命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
@@ -46,8 +46,8 @@ ht-degree: 6%
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
-* `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
+* `{BASE_PATH}`：API 的進入點。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 端點設定
 

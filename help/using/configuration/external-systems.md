@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 20%
+source-wordcount: '1834'
+ht-degree: 23%
 
 ---
 
@@ -41,15 +41,15 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 當設定資料來源或動作時，您需建立與系統的連線，以擷取要用於歷程的其他資訊，或傳送訊息或 API 呼叫。
 
-歷程 API 每秒最多支援 5,000 個事件，但某些外部系統或 API 可能沒有等效的輸送量。若要防止這些系統超載，您可以使用&#x200B;**上限**&#x200B;和&#x200B;**節流** API來限制每秒傳送的事件數目。
+歷程 API 每秒最多支援 5,000 個事件，但某些外部系統或 API 可能沒有等效的輸送量。 若要防止這些系統超載，您可以使用&#x200B;**上限**&#x200B;和&#x200B;**節流** API來限制每秒傳送的事件數目。
 
-歷程每次執行 API 呼叫時，都會透過 API 引擎。如果您使用上限API，在達到API中設定的上限時，將會拒絕呼叫，或是將呼叫排入最多6小時的佇列，並在您使用節流API時，會儘快以收到的順序處理呼叫。
+歷程每次執行 API 呼叫時，都會透過 API 引擎。 如果您使用上限API，在達到API中設定的上限時，將會拒絕呼叫，或是將呼叫排入最多6小時的佇列，並在您使用節流API時，會儘快以收到的順序處理呼叫。
 
-例如，假設您已為外部系統定義每秒200次呼叫的上限或節流規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 300 個呼叫，則將使用 200 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此顆粒度有助於保護外部系統免於過載及損毀。
+例如，假設您已為外部系統定義每秒200次呼叫的上限或節流規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 300 個呼叫，則將使用 200 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。 由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此顆粒度有助於保護外部系統免於過載及損毀。
 
 >[!IMPORTANT]
 >
->**針對特定端點（呼叫的URL），在沙箱層級設定上限規則**，但全域為該沙箱的所有歷程。 資料來源和自訂動作都有上限。
+>**設定上限規則**&#x200B;在沙箱層級針對特定端點 (呼叫的 URL) 進行設定，但會針對該沙箱的所有歷程進行全域設定。 資料來源和自訂動作都有上限。
 >
 >**節流規則**&#x200B;僅在生產沙箱針對特定端點進行設定，但會針對所有沙箱的所有歷程進行全域設定。 每個組織只能有一個節流設定。 節流僅適用於自訂動作。
 >
@@ -60,11 +60,11 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 * [設定 API 上限](capping.md)
 * [節流 API](throttling.md)
 
-[Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)提供API的詳細說明
+[Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)提供API的詳細說明
 
 ### 資料來源和自訂動作容量 {#capacity}
 
-對於&#x200B;**外部資料來源**，每秒的呼叫數上限為 15。 如果超過此限制，系統會根據正在使用的 API 將其他呼叫捨棄或排入佇列。可以透過聯絡 Adobe 將端點加入允許清單，以提高這項針對私人外部資料來源的限制，但此選項不適用於公開外部資料來源。* [了解如何設定資料來源](../datasource/about-data-sources.md)。
+對於&#x200B;**外部資料來源**，每秒的呼叫數上限為 15。 如果超過此限制，系統會根據正在使用的 API 將其他呼叫捨棄或排入佇列。 可以透過聯絡 Adobe 將端點加入允許清單，以提高這項針對私人外部資料來源的限制，但此選項不適用於公開外部資料來源。 * [了解如何設定資料來源](../datasource/about-data-sources.md)。
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 >[!NOTE]
 >
->現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
+>現已支援回應，對於外部資料來源使用案例，您應該使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱此[區段](../action/action-response.md)
 
 ## 回應時間緩慢的端點 {#response-time}
 
@@ -96,37 +96,37 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 每個重試使用一個插槽。 如果您有每秒100次呼叫的上限，且您的每個呼叫需要重試兩次，則速率會降至每秒30次呼叫（每個呼叫使用3個槽：第一次呼叫和兩次重試）。
 
-逾時期間值取決於使用案例。 如果您想要快速傳送訊息（例如，當使用者端進入商店時），則您不想設定漫長的逾時。 此外，逾時時間越長，放入佇列中的專案就越多。 這可能會大幅影響效能。 如果Journey Optimizer每秒執行1000次呼叫，保留5或15秒的資料會迅速讓系統不知所措。
+逾時期間值取決於使用案例。 如果您想要快速傳送訊息（例如，當使用者端進入商店時），則您不想設定漫長的逾時。 此外，逾時時間越長，放入佇列中的專案就越多。 This can greatly impact performance. If Journey Optimizer performs 1000 calls per seconds, keeping 5 or 15 seconds of data can quickly overwhelm the system.
 
-以逾時5秒為例。
+Let&#39;s take an example for a timeout of 5 seconds.
 
-* 第一個呼叫持續少於5秒：呼叫成功，不會執行重試。
-* 第一個呼叫會持續更長的5秒：呼叫已取消，而且不會重試。 在報表中會計為逾時錯誤。
-* 第一次呼叫在2秒後失敗（外部系統傳回錯誤）：如果有上限插槽，重試還剩3秒。
-   * 如果在5秒結束前三次重試其中一次成功，則會執行呼叫，而且不會發生錯誤。
-   * 如果在重試期間到達逾時持續時間的結尾，則會取消呼叫，並在報表中計為逾時錯誤。
+* The first call lasts less than 5 seconds: the call is successful, no retry is performed.
+* The first call lasts longer 5 seconds: the call is canceled and there is no retry. It is counted as a timeout error in reporting.
+* The first call fails after 2 seconds (the external system returns an error): 3 seconds are left for retries, if capping slots are available.
+   * If one of the three retries is successful before the end of the 5 seconds, the call is performed, and there is no error.
+   * If the end of the timeout duration is reached during the retries, the call is canceled and counted as a timeout error in reporting.
 
 ## 常見問題 {#faq}
 
-您將找到有關整合Journey Optimizer與外部系統的常見問題集。
+You will find below Frequently Asked Questions about integrating Journey Optimizer with external systems.
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
 
-+++ 如何設定上限或節流規則？ 有預設規則嗎？
++++ How can I configure a capping or throttling rule? Is there a default rule?
 
-若要建立上限或節流規則，請參閱[本節](../configuration/external-systems.md#capping)。 依預設，沒有節流規則，但針對所有自訂動作、每個主機和每個沙箱，有一分鐘的時間上限為300,000次呼叫。 「每個主機」限制適用於網域層級 (例如 example.com)。此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 如需有關如何要求上限增加的詳細資訊，請參閱[此頁面](../action/about-custom-action-configuration.md)。
-
-+++
-
-+++ 執行多少次重試？ 我可以變更重試次數或定義兩次重試之間的最短等待期間嗎？
-
-對於指定的呼叫，在第一次呼叫之後最多可以執行三次重試，直到逾時持續時間結束為止。 無法變更重試次數和每次重試之間的時間。 請參閱[本節](../configuration/external-systems.md#timeout)。
+To create capping or throttling rules, please refer to [this section](../configuration/external-systems.md#capping). By default, there is no throttling rule but a capping limit of 300,000 calls over one minute defined for all custom actions, per host and per sandbox. 「每個主機」限制適用於網域層級 (例如 example.com)。 此限制是根據客戶使用情況來設定，可保護自訂動作鎖定為目標的外部端點。 如有需要，您可以透過上限/節流 API 定義較高的上限或節流限制來覆寫此設定。 Refer to [this page](../action/about-custom-action-configuration.md) for more details on how to request capping increases.
 
 +++
 
-+++ 我可以在哪裡設定逾時？ 有最大值嗎？
++++ How many retries are performed? Can I change the number of retries or define a minimum wait period between retries?
 
-在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 逾時持續時間必須介於1秒到30秒之間。 請參閱[此章節](../configuration/external-systems.md#timeout)和[此頁面](../building-journeys/journey-properties.md#timeout_and_error)。
+For a given call, a maximum of three retries can be performed after the first call, until the end of timeout duration is reached. The number of retries and the time between each retry cannot be changed. 請參閱[本節](../configuration/external-systems.md#timeout)。
+
++++
+
++++ Where can I configure the timeout? Is there a maximum value?
+
+在每個歷程中，您可以定義逾時持續時間。 逾時期間是在歷程的屬性中設定。 Timeout duration must be between 1 second and 30 seconds. Refer to [this section](../configuration/external-systems.md#timeout) and [this page](../building-journeys/journey-properties.md#timeout_and_error).
 
 +++
 

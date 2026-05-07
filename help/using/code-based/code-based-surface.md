@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 50%
+source-wordcount: '828'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="新增元件的表面 URI"
->abstract="如果您的實作不是針對 Web、iOS 或 Android，或如果您需要以特定 URI 為目標，請輸入表面 URI，它是唯一識別碼，指向您想要提供體驗的實體。確保您輸入的表面 URI 符合您自己的實作中使用的 URI。"
+>abstract="如果您的實作不是針對 Web、iOS 或 Android，或如果您需要以特定 URI 為目標，請輸入表面 URI，它是唯一識別碼，指向您想要提供體驗的實體。 確保您輸入的表面 URI 符合您自己的實作中使用的 URI。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="為其他平台建立基於程式碼的體驗設定"
 
 程式碼型體驗&#x200B;**surface**&#x200B;是任何專為使用者或系統互動而設計的實體，由[URI](#surface-uri)唯一識別。 介面是在[應用程式實作](code-based-prerequisites.md#implementation-prerequisites)中指定，且必須符合您在[程式碼型體驗通道設定](code-based-configuration.md)中參考的介面。
@@ -76,7 +76,7 @@ ht-degree: 50%
 
 在[!DNL Journey Optimizer]中，程式碼型Experience Channel支援兩種客戶實作：
 
-* 根據您網站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}，或行動應用程式的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"}；
+* 根據您網站的[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}，或行動應用程式的[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"}；
 * 使用[AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"}的伺服器端或混合式。
 
 >[!NOTE]

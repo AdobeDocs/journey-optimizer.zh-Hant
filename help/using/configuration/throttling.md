@@ -8,9 +8,9 @@ role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 48%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 48%
 
 節流API可協助您建立、設定和監視節流設定，以限制每秒傳送的事件數。
 
-本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}中提供詳細的API描述。
+本節提供如何使用API的全域資訊。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}中提供詳細的API描述。
 
 ## 必讀
 
@@ -32,7 +32,7 @@ ht-degree: 48%
 
 ## 節流API說明與Postman集合 {#description}
 
-下表列出可用於節流API的命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)提供詳細資訊，包括要求範例、引數和回應格式。
+下表列出可用於節流API的命令。 [Adobe Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)提供詳細資訊，包括要求範例、引數和回應格式。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
@@ -52,10 +52,10 @@ ht-degree: 48%
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
-* `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
+* `{BASE_PATH}`：API 的進入點。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
-## 節流設定{#configuration}
+## 節流設定 {#configuration}
 
 以下是節流設定的結構。 **name**&#x200B;及&#x200B;**description**&#x200B;屬性為選用。
 
@@ -112,8 +112,8 @@ ht-degree: 48%
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**，「無法取消部署節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_GET_ERROR: 1460**，「無法取得節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**，「無法更新節流設定：執行時版本未處於活動狀態」
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**，「無法更新節流設定：發生意外錯誤」 
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**，「禁止對節流設定執行操作：非生產沙箱」 
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**，「無法更新節流設定：發生意外錯誤」
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**，「禁止對節流設定執行操作：非生產沙箱」
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464**，「無法建立節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**，「無法建立節流設定：每個組織僅允許一個設定」
 * **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**，「無法部署節流設定：已部署」
@@ -158,7 +158,7 @@ ht-degree: 48%
 
 取消部署設定後，可以更新和重新部署設定。 這將建立新的執行階段設定，將在即將執行的動作中考慮該設定。
 
-當更新已部署的設定時，會立即考慮新值。自動調整基礎系統資源。 與取消部署然後重新部署設定相比，這是最佳選擇。
+當更新已部署的設定時，會立即考慮新值。 自動調整基礎系統資源。 與取消部署然後重新部署設定相比，這是最佳選擇。
 
 ## 回應範例 {#responses}
 

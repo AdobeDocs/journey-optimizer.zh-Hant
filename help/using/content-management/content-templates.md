@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '232'
 ht-degree: 6%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 6%
 >
 >目前內容範本無法用於Web Channel。
 
-若要建立、編輯和刪除內容範本，請確定您擁有&#x200B;**[!DNL Manage library items]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Content Library Manager]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯和刪除內容範本，請確定您擁有&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 ➡️ [在此影片中瞭解如何建立和使用範本](#video-templates)
 
 >[!NOTE]
 >
->您也可以使用API建立和管理內容範本。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
+>您也可以使用API建立和管理內容範本。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 
 ## 作法影片 {#video-templates}
 
