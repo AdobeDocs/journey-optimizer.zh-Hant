@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1291'
 ht-degree: 84%
 
 ---
 
 # 管理選擇退出 {#consent}
 
-向接收者提供取消訂閱接收來自品牌通訊的功能是一項法律要求，同時確保此選擇獲得遵守。 若未遵守這些法規，品牌將面臨法律風險。它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
+向接收者提供取消訂閱接收來自品牌通訊的功能是一項法律要求，同時確保此選擇獲得遵守。 若未遵守這些法規，品牌將面臨法律風險。 它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 
-進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant#regulations){target="_blank"}中的適用法規。
+進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=zh-Hant){target="_blank"}中的適用法規。
 
 ## 管理歷程和行銷活動中的取消訂閱 {#opt-out-ajo}
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+>此外，您也可以利用 Journey Optimizer **Suppression REST API**，使用禁止名單與允許清單控制外寄郵件。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ### 檢查推播選擇退出狀態 {#push-opt-out-status}
 
@@ -43,7 +43,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->對於需要明確推送同意追蹤的規範使用案例，請使用&#x200B;**`consents.marketing.push.val`**&#x200B;同意和偏好設定欄位群組[中的](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}屬性。 值`y`表示明確的選擇加入；`n`表示明確的選擇退出。
+>對於需要明確推送同意追蹤的規範使用案例，請使用[同意和偏好設定欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}中的&#x200B;**`consents.marketing.push.val`**&#x200B;屬性。 值`y`表示明確的選擇加入；`n`表示明確的選擇退出。
 
 在以下章節中了解如何管理 Journey Optimizer 電子郵件和簡訊訊息中的選擇退出：
 
@@ -58,7 +58,7 @@ ht-degree: 84%
 </td>
 <td>
 <a href="../sms/sms-opt-out.md">
-<img alt="不頻繁" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
+<img alt="不常使用" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
 <a href="../sms/sms-opt-out.md"><strong>簡訊選擇退出管理</strong></a>
@@ -68,7 +68,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
+>請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
 
 ## 實施個人化同意 {#opt-out-personalization}
 
@@ -82,7 +82,7 @@ ht-degree: 84%
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 使用[細分服務](../audience/about-audiences.md)建立[Adobe Experience Platform對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}，並使用個人化內容=是（選擇加入）**[!UICONTROL 之類的設定檔屬性來鎖定同意個人化的使用者。]**
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立[Adobe Experience Platform對象](../audience/about-audiences.md)，並使用個人化內容=是（選擇加入）]**之類的設定檔屬性來鎖定同意個人化的使用者。**[!UICONTROL 
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -120,7 +120,7 @@ ht-degree: 84%
 
 在 [!DNL Journey Optimizer] 行銷活動中，依照下列方式強制執行同意原則：
 
-* 您可以在客群建立過程中加入同意原則定義，以確保為行銷活動選取的客群已&#x200B;**篩選掉不符合同意條件的輪廓**。 
+* 您可以在客群建立過程中加入同意原則定義，以確保為行銷活動選取的客群已&#x200B;**篩選掉不符合同意條件的輪廓**。
 
 * [!DNL Journey Optimizer] 將在頻道層級執行一般同意檢查，**確保輪廓已選擇**&#x200B;接收對應頻道上的行銷通訊。
 
@@ -134,7 +134,7 @@ ht-degree: 84%
 
 您可以使用區段規則產生器，建立包含選擇退出輪廓的客群。
 
-1. 使用[細分服務](../audience/about-audiences.md)建立[Adobe Experience Platform對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}。
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立[Adobe Experience Platform對象](../audience/about-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -156,7 +156,7 @@ ht-degree: 84%
 
 1. 使用右側的專用按鈕新增起始客群。
 
-1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割客群。 
+1. 按一下 **+** 圖示，然後選取&#x200B;**[!UICONTROL 分割]**&#x200B;活動以建立分割客群。
 
    ![](assets/perso-consent-audience-split.png)
 

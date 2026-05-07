@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: 允許清單，安全清單，電子郵件，傳遞能力，沙箱，網域，隱藏，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 12%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 當允許清單為作用中但空白時，不會傳送電子郵件。 這使其成為有用的緊急制動：如果發生嚴重問題，您可以啟動空白的允許清單以停止來自[!DNL Journey Optimizer]的所有傳出通訊，直到問題解決為止。 深入瞭解[允許清單邏輯](#logic)。
 
-您也可以使用Journey Optimizer **隱藏REST API**，透過隱藏和允許清單以程式設計方式管理外寄訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+您也可以使用Journey Optimizer **隱藏REST API**，透過隱藏和允許清單以程式設計方式管理外寄訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 存取允許清單 {#access-allowed-list}
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>檢視、匯出及管理允許清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 若要將允許清單匯出為CSV檔案，請選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
 
@@ -88,13 +88,13 @@ ht-degree: 12%
 
 停用功能時，不會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
-## 將實體新增至允許清單 {#add-entities}
+## Add entities to the allowed list {#add-entities}
 
-若要新增電子郵件地址或網域至特定沙箱的允許清單，您可以[手動填入清單](#manually-populate-list)，或使用[API呼叫](#api-call-allowed-list)。
+To add new email addresses or domains to the allowed list for a specific sandbox, you can either [manually populate the list](#manually-populate-list), or use an [API call](#api-call-allowed-list).
 
 >[!NOTE]
 >
->允許清單最多可包含1,000個專案。
+>The allowed list can contain up to 1,000 entries.
 
 ### 手動填入允許清單 {#manually-populate-list}
 
@@ -108,21 +108,21 @@ ht-degree: 12%
 >title="將地址或網域新增到允許清單"
 >abstract="您可以透過逐一選取來手動將新的電子郵件地址或網域新增到允許清單中。"
 
-您可以透過使用者介面新增電子郵件地址或網域，以手動填入[!DNL Journey Optimizer]允許清單。
+You can manually populate the [!DNL Journey Optimizer] allowed list by adding an email address or a domain through the user interface.
 
 >[!NOTE]
 >
->您一次只能新增一個電子郵件地址或網域。
+>You can only add one email address or domain at a time.
 
 請依照下列步驟以執行此操作。
 
-1. 選取&#x200B;**[!UICONTROL 新增電子郵件或網域]**&#x200B;按鈕。
+1. Select the **[!UICONTROL Add email or domain]** button.
 
-   ![在允許清單頁面上新增電子郵件或網域按鈕](assets/allowed-list-add-email.png)
+   ![Add email or domain button on the allowed list page](assets/allowed-list-add-email.png)
 
 1. 選擇地址類型：**[!UICONTROL 電子郵件地址]**&#x200B;或&#x200B;**[!UICONTROL 網域地址]**。
 
-1. 輸入您要傳送電子郵件的電子郵件地址或網域。
+1. Enter the email address or domain you want to send emails to.
 
    >[!NOTE]
    >
@@ -130,43 +130,43 @@ ht-degree: 12%
 
 1. 如果需要，請指定原因。
 
-   ![新增電子郵件地址或網域至允許清單的表單，帶有選擇性的原因欄位](assets/allowed-list-add-email-address.png)
+   ![Form to add an email address or domain to the allowed list, with an optional reason field](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許32到126範圍內的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
+   >All ASCII characters in the range 32 to 126 are allowed in the **[!UICONTROL Reason]** field. 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-### 使用API呼叫新增實體 {#api-call-allowed-list}
+### Add entities using an API call {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用`ALLOWED`屬性的`listType`值呼叫隱藏API。 例如：
+To populate the allowed list, you can also call the suppression API with the `ALLOWED` value for the `listType` attribute. 例如：
 
-![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
+![Example API call to add an entry to the allowed list using the suppression API](assets/allow-list-api.png)
 
-您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
+You can perform the **Add**, **Delete** and **Get** operations.
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} reference documentation.
 
-## 下載允許清單 {#download-allowed-list}
+## Download the allowed list {#download-allowed-list}
 
-若要將允許清單匯出為CSV檔案，請執行以下步驟：
+To export the allowed list as a CSV file, follow the steps below:
 
-1. 選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
+1. Select the **[!UICONTROL Download CSV]** button.
 
-   ![下載允許清單頁面上的CSV按鈕](assets/allowed-list-download-csv.png)
+   ![Download CSV button on the allowed list page](assets/allowed-list-download-csv.png)
 
-1. 等候檔案產生。
+1. Wait until the file is generated.
 
-   ![表示正在產生CSV檔案的通知](assets/allowed-list-download-generate.png)
+   ![Notification indicating the CSV file is being generated](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
-   >下載時間取決於檔案大小，亦即允許清單中的位址數量。
+   >Download time depends on the file size, meaning the number of addresses that are on the allowed list.
    >
-   >對於指定的沙箱，一次可處理一個下載請求。
+   >One download request can be processed at a time for a given sandbox.
 
-1. 檔案產生後，您會收到通知。 按一下畫面右上方的鈴鐺圖示即可顯示。
+1. Once the file is generated, you receive a notification. Click the bell icon on top right of the screen to display it.
 
 1. 按一下通知本身以下載檔案。
 
@@ -181,7 +181,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="管理允許清單"
->abstract="啟動允許清單後，只有包含在允許清單中的收件者才能接收來自此沙箱的電子郵件訊息。停用時，所有收件者都會收到電子郵件。"
+>abstract="啟動允許清單後，只有包含在允許清單中的收件者才能接收來自此沙箱的電子郵件訊息。 停用時，所有收件者都會收到電子郵件。"
 
 當允許清單為[作用中](#enable-allow-list)時，將套用下列邏輯：
 
@@ -189,7 +189,7 @@ ht-degree: 12%
 
 * 如果實體是允許清單&#x200B;**上的**，而不是隱藏清單上的，則會傳送電子郵件給對應的收件者。 但是，如果實體也在[隱藏清單](../reports/suppression-list.md)上，則對應的收件者將不會收到電子郵件，原因為&#x200B;**[!UICONTROL 隱藏]**。
 
-* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**&#x200B;不允許&#x200B;**[!UICONTROL 。]**
+* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**[!UICONTROL &#x200B;不允許&#x200B;]**。**
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ ht-degree: 12%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 19%
+source-wordcount: '346'
+ht-degree: 21%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 19%
 
 若要充分利用片段：
 
-* **建立您自己的片段**：從草稿開始建立視覺化或運算式片段，或將內容儲存為片段。 [瞭解如何建立片段](create-fragments.md)。 此外，您可以運用Journey Optimizer **內容REST API**&#x200B;來管理內容片段。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}。
+* **建立您自己的片段**：從草稿開始建立視覺化或運算式片段，或將內容儲存為片段。 [瞭解如何建立片段](create-fragments.md)。 此外，您可以運用Journey Optimizer **內容REST API**&#x200B;來管理內容片段。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 * **重複使用您的片段：**&#x200B;視需要在內容中多次使用這些片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)
 
 ## 開始之前 {#fragment-prerequisites}
 
-若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;權限。[了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;權限。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 在此版本中，適用下列限制：
 
@@ -58,10 +58,10 @@ ht-degree: 19%
 
 ## 作法影片 {#video-fragments}
 
-瞭解如何在&#x200B;**中管理、編寫及使用**&#x200B;視覺化片段[!DNL Journey Optimizer]。
+瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**視覺化片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451193/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-瞭解如何在&#x200B;**中管理、編寫及使用**&#x200B;運算式片段[!DNL Journey Optimizer]。
+瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**運算式片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438930/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

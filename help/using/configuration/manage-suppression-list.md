@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 22%
+source-wordcount: '1611'
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
 >
 >Adobe會保留已知不良地址的更新清單（這些地址已被證明會損害參與和郵寄信譽），並確保不會將電子郵件傳遞給他們。 此清單在所有 Adobe 客戶通用的全球禁止名單中進行管理。 全球禁止名單中包含的地址和網域名稱都會隱藏起來。 傳遞報告中僅顯示排除的收件者人數。
 
-此外，您可以運用Journey Optimizer **隱藏REST API**，使用隱藏和允許清單控制您的傳出訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+此外，您可以運用Journey Optimizer **隱藏REST API**，使用隱藏和允許清單控制您的傳出訊息。 [了解如何使用 Suppression REST API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 存取隱藏清單 {#access-suppression-list}
 
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->檢視、匯出及管理隱藏清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>檢視、匯出及管理隱藏清單的許可權限製為[歷程管理員](../administration/ootb-product-profiles.md#journey-administrator)。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 
 篩選器可幫助您瀏覽清單。
@@ -71,13 +71,13 @@ ht-degree: 22%
 
 | 原因 | 說明 | 類別 |
 | --- | --- | --- |
-| **[!UICONTROL 無效的收件者]** | 收件者的地址無效或不存在。 | 強烈 |
-| **[!UICONTROL 軟退信]** | 訊息因本表中列出的軟錯誤以外的其他原因而軟跳出，例如當傳送超過ISP建議的允許速率時。 | 柔光 |
-| **[!UICONTROL DNS失敗]** | 由於DNS失敗，郵件已退回。 | 柔光 |
-| **[!UICONTROL 郵箱已滿]** | 由於收件者的信箱已滿且無法接受更多郵件，郵件已退回。 | 柔光 |
-| **[!UICONTROL 拒絕轉送]** | 因為不允許轉送，接收者已封鎖郵件。 | 柔光 |
-| **[!UICONTROL 挑戰 — 回應]** | 此訊息是挑戰 — 回應探查。 | 柔光 |
-| **[!UICONTROL 垃圾訊息申訴]** | 郵件已封鎖，因為收件者將其標示為垃圾郵件。 | 強烈 |
+| **[!UICONTROL 無效的收件者]** | 收件者的地址無效或不存在。 | 硬退回 |
+| **[!UICONTROL 軟退信]** | 訊息因本表中列出的軟錯誤以外的其他原因而軟跳出，例如當傳送超過ISP建議的允許速率時。 | 軟退回 |
+| **[!UICONTROL DNS失敗]** | 由於DNS失敗，郵件已退回。 | 軟退回 |
+| **[!UICONTROL 郵箱已滿]** | 由於收件者的信箱已滿且無法接受更多郵件，郵件已退回。 | 軟退回 |
+| **[!UICONTROL 拒絕轉送]** | 因為不允許轉送，接收者已封鎖郵件。 | 軟退回 |
+| **[!UICONTROL 挑戰 — 回應]** | 此訊息是挑戰 — 回應探查。 | 軟退回 |
+| **[!UICONTROL 垃圾訊息申訴]** | 郵件已封鎖，因為收件者將其標示為垃圾郵件。 | 硬退回 |
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="將電子郵件或網域新增到禁止名單"
->abstract="若要填入禁止名單，您可以手動新增電子郵件地址或網域：一次一個，或在大量模式中透過 CSV 檔案上傳。這些特定的電子郵件地址和/或網域將被排除在您的傳送之外。"
+>abstract="若要填入禁止名單，您可以手動新增電子郵件地址或網域：一次一個，或在大量模式中透過 CSV 檔案上傳。 這些特定的電子郵件地址和/或網域將被排除在您的傳送之外。"
 
 當訊息無法傳遞至電子郵件地址時，此地址會根據定義的隱藏規則或退信計數自動新增到隱藏清單中。
 
@@ -136,7 +136,7 @@ ht-degree: 22%
    >
    >確定輸入有效的電子郵件地址 (例如 abc@company.com) 或網域 (例如 abc.company.com)。
 
-1. （選擇性）輸入原因。 此欄位允許包含在32到126之間的所有ASCII可列印字元。
+1. （選擇性）輸入原因。 此欄位允許包含 32 到 126 個字元之間組成的所有 ASCII 可列印字元。
 
 1. 使用&#x200B;**[!UICONTROL Submit]**&#x200B;按鈕確認。
 

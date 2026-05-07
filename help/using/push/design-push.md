@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 12%
+source-wordcount: '2122'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="推播個人化。"
->abstract="若要撰寫您的訊息，請在「**標題**」與「**內文**」欄位輸入內容。若要加入個人化權杖，請開啟個人化對話框。"
+>abstract="若要撰寫您的訊息，請在「**標題**」與「**內文**」欄位輸入內容。 若要加入個人化權杖，請開啟個人化對話框。"
 
 ![](assets/title-body.png)
 
@@ -51,8 +51,8 @@ ht-degree: 12%
 
   >[!NOTE]
   >
-  >如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
-  >如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}。
+  >如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
+  >如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 新增媒體 {#add-media-push}
 
@@ -81,7 +81,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[自動顯示和追蹤工作流程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}，以處理承載中的影像附件。
+>在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[自動顯示和追蹤工作流程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking){target="_blank"}，以處理承載中的影像附件。
 
 >[!TAB iOS]
 
@@ -91,7 +91,7 @@ ht-degree: 12%
 
 您可以使用下列其中一種方法來新增媒體：
 
-* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。 進一步瞭解如何在&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;此頁面[中使用](../integrations/assets.md)。
+* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從&#x200B;**[!DNL Adobe Experience Manager Assets]**&#x200B;中選取資產。 進一步瞭解如何在[此頁面](../integrations/assets.md)中使用&#x200B;**[!DNL Adobe Experience Manager Assets]**。
 
 * **[!UICONTROL 新增媒體]**&#x200B;欄位：直接輸入媒體URL。 您可以在URL中包含個人化權杖。
 
@@ -99,7 +99,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在&#x200B;**[!UICONTROL 進階選項]**&#x200B;區段中啟用[新增可變內容旗標](#advanced-options-push)選項。
+>在推播通知裝載中包含媒體附件時(例如自訂資料欄位（例如`adb_media`）中的影像)，您的行動應用程式必須實作特定的使用者端處理方式，才能在裝置上呈現影像。 您的應用程式必須實作[通知服務擴充功能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}，才能從承載下載及處理媒體內容。 此外，必須在[進階選項](#advanced-options-push)區段中啟用&#x200B;**[!UICONTROL 新增可變內容旗標]**&#x200B;選項。
 
 >[!TAB 網頁]
 
@@ -116,7 +116,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="新增按鈕讓使用者可以與您的推播互動。"
->abstract="從這個區段開始，在您的訊息中加入召喚行動按鈕。使用 Apple iOS 者請指定通知類別識別碼。使用 Google Android 者可以為每個按鈕加入自訂文字與目標。"
+>abstract="從這個區段開始，在您的訊息中加入召喚行動按鈕。 使用 Apple iOS 者請指定通知類別識別碼。 使用 Google Android 者可以為每個按鈕加入自訂文字與目標。"
 
 將按鈕新增至推播內容，以建立可操作的通知。 根據您的作業系統瀏覽下列標籤。
 
@@ -197,11 +197,11 @@ ht-degree: 12%
 |---------|---------|
 | **[!UICONTROL 可摺疊]** (iOS / Android) | 可收合的訊息是已過時的訊息，可由新訊息取代。 可摺疊訊息的常見使用案例是用來讓行動應用程式從伺服器同步資料的訊息。 例如，將使用者更新為最新分數的運動應用程式。 只有最近的訊息才相關。 另一方面，若使用不可收合的訊息，每則訊息對於使用者端應用程式都十分重要，必須加以傳送。 |
 | **[!UICONTROL 自訂音效]** (iOS / Android) | 收到通知時，行動終端機要播放的聲音。 聲音需要在應用程式中整合。 |
-| **[!UICONTROL 徽章]** (iOS / Android) | 徽章可用來直接在應用程式圖示上顯示新未讀取資訊的數量。<br/>當使用者開啟或從應用程式讀取新內容時，徽章值就會消失。 在裝置上收到通知時，它可以重新整理或新增相關應用程式的徽章值。<br/>例如，如果您儲存客戶的未讀文章數目，您可以運用個人化，為每位客戶傳送唯一的未讀文章徽章值。 如需更多個人化資訊，請參閱[本節](../personalization/personalize.md)。 |
-| **[!UICONTROL 通知群組]** （僅限iOS） | 將通知群組關聯至推播通知。<br/>從iOS 12開始，通知群組可讓您將訊息執行緒和通知主題整合到執行緒ID中。 例如，品牌可能會以一個群組ID傳送行銷通知，同時以一個或多個不同的ID保留更多營運型別通知。<br/>舉例說明，您可以有groupID： 123 「檢視新的春季毛衣系列」和groupID： 456 「您的包裹已送達」通知群組。 在此範例中，所有傳送通知都會整合在群組ID： 456底下。 |
+| **[!UICONTROL 徽章]** (iOS / Android) | 徽章可用來直接在應用程式圖示上顯示新未讀取資訊的數量。 <br/>當使用者開啟或從應用程式讀取新內容時，徽章值就會消失。 在裝置上收到通知時，它可以重新整理或新增相關應用程式的徽章值。<br/>例如，如果您儲存客戶的未讀文章數目，您可以運用個人化，為每位客戶傳送唯一的未讀文章徽章值。 如需更多個人化資訊，請參閱[本節](../personalization/personalize.md)。 |
+| **[!UICONTROL 通知群組]** （僅限iOS） | 將通知群組關聯至推播通知。<br/>從iOS 12開始，通知群組可讓您將訊息執行緒和通知主題整合到執行緒ID中。 例如，品牌可能會以一個群組ID傳送行銷通知，同時以一或多個不同的ID保留更多作業型別通知。<br/>舉例來說，您可以讓groupID： 123「檢視新春毛衣系列」和groupID： 456「您的包裹已傳遞」通知群組。 在此範例中，所有傳送通知都會整合在群組ID： 456底下。 |
 | **[!UICONTROL 通知頻道]** （僅限Android） | 將通知頻道與推播通知建立關聯。<br/>從Android 8.0 （API層級26）開始，所有通知都必須指派至管道才能顯示。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)。 |
-| **[!UICONTROL 新增content-availability旗標]** （僅限iOS） | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/>即使應用程式在背景執行，而且不需要任何使用者互動（例如點選推播通知），此功能仍可運作。 不過，如果應用程式未執行，則不適用。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
-| **[!UICONTROL 新增可變內容旗標]** （僅限iOS） | 在推播裝載中傳送可變內容旗標，並允許在iOS SDK中提供的通知服務應用程式擴充功能修改推播通知內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您就可以運用行動應用程式延伸模組，進一步修改從[!DNL Journey Optimizer]傳送之推播通知的內容或簡報。 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、新增對話串識別碼至通知等。<br/>**重要**：透過裝載欄位（例如`adb_media`）包含媒體附件（影像、影片）時，必須啟用此旗標，才能在iOS裝置上轉譯。 您的應用程式還必須實作Notification Service擴充功能，才能從裝載下載及處理媒體內容。 |
+| **[!UICONTROL 新增content-availability旗標]** （僅限iOS） | 傳送推播裝載中的可用內容旗標，以確保應用程式在收到推播通知時立即喚醒，這表示應用程式將能夠存取裝載資料。<br/> 即使應用程式在背景執行，而且不需要任何使用者互動（例如點選推播通知），這仍然有效。 不過，如果應用程式未執行，則不適用。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)。 |
+| **[!UICONTROL 新增可變內容旗標]** （僅限iOS） | 在推播裝載中傳送可變內容旗標，並允許在iOS SDK中提供的通知服務應用程式擴充功能修改推播通知內容。 有關詳細資訊，請參閱 [Apple 開發人員文件](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。<br/>然後，您就可以運用行動應用程式延伸模組，進一步修改從[!DNL Journey Optimizer]傳送之推播通知的內容或簡報。 例如，使用者可以善用此選項來解密資料、變更通知的正文或標題文字、新增執行緒識別碼至通知等。<br/>**重要**：透過裝載欄位（例如`adb_media`）包含媒體附件（影像、視訊）時，必須啟用此旗標，才能在iOS裝置上轉譯。 您的應用程式還必須實作Notification Service擴充功能，才能從裝載下載及處理媒體內容。 |
 | **[!UICONTROL 新增推播到期日]** （僅限iOS） | 選擇推播到期的&#x200B;**日期和時間**。 在iOS上，通知過期會強製為硬式停止，這表示在過期時間之後送達Apple推播通知服務(APNS)的任何訊息都不會傳送，以確保客戶不會收到過期或不相關的通知。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)。 |
 | **[!UICONTROL 通知可見度]** （僅限Android） | 定義推播通知的可見度。 <br/><b>私人</b>會在所有鎖定熒幕上顯示通知，但在安全鎖定熒幕隱藏機密或私人資訊。 <br/><b>Public</b>會在所有鎖定熒幕中顯示完整通知。 <br/><b>密碼</b>不會在安全鎖定熒幕上顯示通知的任何部分。 <br/>如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/reference/android/app/Notification)。 |
 | **[!UICONTROL 通知優先順序]** （僅限Android） | 定義推播通知的重要性從低到高。 這會決定推播通知在傳送時會如何「干擾」。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |

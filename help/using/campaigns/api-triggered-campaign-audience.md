@@ -1,47 +1,47 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 定義API觸發的行銷活動對象
-description: 瞭解如何定義API觸發的行銷活動對象。
+title: Define the API triggered campaign audience
+description: Learn how to define the API triggered campaign audience.
 topic: Content Management
 role: Developer
 level: Experienced
-keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
+keywords: campaigns, API-triggered, REST, optimizer, messages
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
-# 定義API觸發的行銷活動對象 {#api-audience}
+# Define the API triggered campaign audience {#api-audience}
 
-使用&#x200B;**[!UICONTROL 對象]**&#x200B;標籤來定義行銷活動對象。
+Use the **[!UICONTROL Audience]** tab to define the campaign audience.
 
 ![](assets/campaign-audience.png)
 
 ## 選取客群
 
-**針對行銷API觸發的行銷活動**，按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕以顯示可用Adobe Experience Platform對象清單。 [進一步瞭解對象](../audience/about-audiences.md)。
+**For Marketing API triggered campaigns**, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Learn more about audiences](../audience/about-audiences.md).
 
 >[!IMPORTANT]
 >
->[對象構成](../audience/get-started-audience-orchestration.md)的對象和屬性目前無法用於Healthcare Shield或Privacy and Security Shield。
+>The use of audiences and attributes from [audience composition](../audience/get-started-audience-orchestration.md) is currently unavailable for use with Healthcare Shield or Privacy and Security Shield.
 
-**對於異動API觸發的行銷活動**，必須在API呼叫中定義目標設定檔。 單一API呼叫支援最多20個不重複收件者。 每個收件者必須具有唯一的使用者ID，不允許重複的使用者ID。 進一步瞭解[互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+**For Transactional API triggered campaigns**, the targeted profiles need to be defined in the API call. A single API call supports up to 20 unique recipients. Each recipient must have a unique user ID, duplicate user IDs are not permitted. Learn more in the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}
 
 ## 選取身分識別類型
 
-在&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位中，選擇用來識別所選對象中個人的金鑰型別。 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 標準身分名稱空間列於[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+In the **[!UICONTROL Identity type]** field, choose the type of key to use to identify the individuals from the selected audience. You can either use an existing identity type or create a new one using the Adobe Experience Platform Identity Service. Standard Identity namespaces are listed on [this page](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
-每個行銷活動只允許一個身分型別。 如果屬於區段的個人在不同身分中沒有選取的身分型別，則無法將該行銷活動設為目標。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解身分型別和名稱空間。
+Only one identity type is allowed per campaign. Individuals belonging to a segment that does not have the selected identity type among their different identities cannot be targeted by the campaign. Learn more about identity types and namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}.
 
-## 在行銷活動執行時啟用設定檔建立
+## Activate profile creation at campaign execution
 
-在某些情況下，您可能需要將交易式訊息傳送至系統中不存在的設定檔。 例如，如果未知的使用者嘗試重設您網站上的密碼。 當資料庫中不存在設定檔時，Journey Optimizer可讓您在執行行銷活動時自動建立該設定檔，以允許傳送訊息至此設定檔。
+In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to reset password on your website. When a profile does not exist in the database, Journey Optimizer allows you to automatically create it when executing the campaign to allow sending the message to this profile.
 
-若要在行銷活動執行時啟用設定檔建立，請將&#x200B;**[!UICONTROL 建立新設定檔]**&#x200B;選項切換為開啟。 如果停用此選項，則會拒絕任何傳送的未知設定檔，且API呼叫將失敗。
+To activate profile creation at campaign execution, toggle the **[!UICONTROL Create new profiles]** option on. 如果停用此選項，則會拒絕任何傳送的未知設定檔，且API呼叫將失敗。
 
 ![](assets/api-triggered-create-profile.png)
 
