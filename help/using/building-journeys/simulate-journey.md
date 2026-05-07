@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 1. 按一下&#x200B;**[!UICONTROL 建立模擬使用者]**&#x200B;以建立新使用者，並選取是要從UI建立使用者，還是從JSON匯入使用者。
 
-   若要改為重複使用模擬使用者，請按一下[選取模擬使用者]&#x200B;**&#x200B;**，然後選擇您先前儲存的專案。
+   若要改為重複使用模擬使用者，請按一下[選取模擬使用者]****，然後選擇您先前儲存的專案。
 
    ![模擬的使用者選擇面板](assets/simulate-2.png)
 
@@ -73,7 +73,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
    * **[!UICONTROL 套用至全部]**：將屬性值或設定從一個模擬使用者傳播到清單中其他每個模擬使用者。
    * **[!UICONTROL 刪除]**：從清單中移除選取的模擬使用者。
 
-1. 按一下[儲存]儲存一或多個模擬使用者，以供日後使用。**&#x200B;**
+1. 按一下[儲存]儲存一或多個模擬使用者，以供日後使用。****
 
 1. 儲存後，您建立的模擬使用者會出現在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中。 針對每個專案，開啟選項功能表並選取下列其中一項：
 
@@ -147,11 +147,11 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 ## 檢視結果 {#viewing-results}
 
-**[!UICONTROL 結果]**&#x200B;索引標籤可讓您檢視測試結果。 使用檢視選擇器來選擇瀏覽記錄的方式：
+**[!UICONTROL 結果]**&#x200B;索引標籤可讓您檢視測試結果。 在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;下拉式清單中，選取您要檢查其執行的模擬使用者。
 
-* **所有模擬的使用者**：選取[2&rbrace;全部&#x200B;]&#x200B;**以檢視執行中每個模擬使用者彙總的結果。**&#x200B;此檢視可協助您一目瞭然地掃描完整模擬、活動、結果和錯誤，而不需先挑選單一模擬使用者。
-
-* **一個模擬使用者**：在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;下拉式清單中，選取您要檢查其執行的模擬使用者。
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 對於每個活動，記錄可以顯示模擬的使用者是否進入或退出步驟，以及在模擬期間發生的錯誤。
 
