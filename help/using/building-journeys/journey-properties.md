@@ -78,7 +78,7 @@ ht-degree: 12%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
@@ -190,7 +190,7 @@ ht-degree: 12%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -235,7 +235,7 @@ ht-degree: 12%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
