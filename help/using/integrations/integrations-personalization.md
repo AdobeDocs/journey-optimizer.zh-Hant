@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 啟用外部整合
+title: 使用外部整合
 description: 將外部整合整合整合至管道製作程式，以個人化和動態資訊豐富內容
 feature: Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: 整合
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 1%
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
@@ -73,43 +73,59 @@ ht-degree: 1%
 
 ![](assets/external-integration-content-7.png)
 
-<!--
+## 將一個API呼叫對應至另一個API呼叫 {#map-integration-chain}
 
-## Map one API call to another {#map-integration-chain}
+您可以連結整合，讓某個呼叫的結果饋送至下一個呼叫，例如路徑區段、標題或查詢引數。 這些呼叫會在相同的訊息中依序執行，支援更豐富的個人化，而不需要自訂程式碼。
 
-You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.
+開始之前，請確定：
 
-Before you start, make sure that:
+* 管理員已設定並啟動您所需的每項整合。 請參閱[設定整合](integrations.md)。
+* 變數路徑預留位置、標題和查詢引數是在具有行銷人員專用標籤的整合設定中設定。
+* 管理員會在每個整合的&#x200B;**[!UICONTROL 回應承載]**&#x200B;中公開您所需的回應欄位，以便在編寫時顯示。
 
-* An administrator has configured and activated every integration you need. See [Configure your Integration](integrations.md).
-* Variable path placeholders, headers, and query parameters are set up in the integration configuration with marketer-facing labels.
-* The administrator exposed the response fields you need in each integration's **[!UICONTROL Response payload]** so they appear when authoring.
+以下範例使用訂位整合，從設定檔的預訂傳回航班號碼，然後使用航班資訊整合，將該號碼用於即時狀態（延遲、目的地）。 將第二個整合的輸入對應到第一個呼叫的回應。
 
-In the below example, a reservation system integration returns a flight booking reference from the profile context. A separate flight-information integration expects that reference as a **path variable**. In the personalization editor, you map the second integration's variable to a field from the first integration's response, instead of a static value or profile attribute alone.
+1. 開啟您的訊息或片段，然後開啟個人化編輯器。
 
-1. Open your message or fragment and place the cursor where you want personalized content (for example, a **[!UICONTROL Text]** field).
+   ![](assets/uc-integrations-1.png)
 
-1. Open the personalization editor and go to **[!UICONTROL Integrations]** → **[!UICONTROL Open integrations]**.
+1. 在&#x200B;**[!UICONTROL 整合]**&#x200B;中，按一下&#x200B;**[!UICONTROL 開啟整合]**。
 
-1. Select the integration whose output will supply the downstream input (in the example, the reservation or profile API that returns the flight identifier).
+   ![](assets/uc-integrations-2.png)
 
-1. Define that integration's inputs as usual—static values, profile attributes, or other allowed mappings—then save so its response is available for chaining.
+1. 新增其回應將饋送下個呼叫的整合，例如，包括航班識別碼的預訂或預訂資料。
 
-    >[!NOTE]
-    >
-    > Fields must appear in the administrator-defined response payload for each integration. You cannot reference response properties that were not exposed in configuration.
+   ![](assets/uc-integrations-3.png)
 
-1. Select the **second** integration (for example, the API that needs the flight number or booking reference on the URL path).
+1. （選用）如果要將具名變數繫結到保留回應，請開啟&#x200B;**[!UICONTROL 協助程式函式]**&#x200B;功能表，並新增協助程式，例如`Let`函式。
 
-1. For each input that must come from the first call—often a **path variable** or **variable** header/query parameter—choose the mapping source that references the **first integration's response** (for example, the flight booking reference field from the reservation payload). Do not use a static test value if you need live, profile-specific data.
+   >[!NOTE]
+   >
+   > 只有管理員定義的&#x200B;**[!UICONTROL 回應承載]**&#x200B;中公開的欄位才可用。 您無法參考設定中未公開的屬性。
 
-1. Insert the response tokens you need in the content (for example, destination name from the flight API, loyalty balance from a loyalty integration) using the ![add](assets/do-not-localize/Smock_Add_18_N.svg) control.
+1. 如果您使用協助程式變數，請將該變數對應至預訂整合傳回以供下游使用的欄位，例如，乘客或預訂裝載中的航班號碼。
 
-1. Save the personalization.
+   ![](assets/uc-integrations-4.png)
 
-When you **simulate** or send, Journey Optimizer resolves integrations in order: the first call runs with the profile context you configured; its output is used to build the second request. Different integrations may run at simulation time and at send time according to your setup and channel behavior.
+1. 從&#x200B;**[!UICONTROL 開啟整合]**&#x200B;功能表，新增第二個整合，例如，航班狀態。
 
--->
+   ![](assets/uc-integrations-5.png)
+
+1. 在第二個整合中，開啟&#x200B;**[!UICONTROL 整合屬性]**。 對於必須重複使用來自第一次呼叫的資料的每個輸入，例如路徑變數、標題或查詢引數，請從第一次整合回應中選取對應來源。
+
+   在&#x200B;**[!UICONTROL Pills]**&#x200B;體驗中，您可以將第一次呼叫輸出直接對應到第二次呼叫輸入，而不需要`Let`陳述式。 如果您使用`Let`，可以改為透過該變數進行對應。
+
+   ![](assets/uc-integrations-6.png)
+
+1. 使用![新增](assets/do-not-localize/Smock_Add_18_N.svg)控制項（例如航班資訊回應的目的地），將第二次整合的Token插入內容。
+
+   ![](assets/uc-integrations-8.png)
+
+1. 儲存您的內容。
+
+在&#x200B;**[!UICONTROL 模擬]**&#x200B;或傳送上，Journey Optimizer會依下列順序執行整合：第一個呼叫使用您設定的設定檔內容，其結果會建置第二個要求。 指定的整合是在模擬或傳送時間執行，取決於您的設定和管道。
+
+![](assets/uc-integrations-7.png)
 
 ## 作法影片 {#video}
 
