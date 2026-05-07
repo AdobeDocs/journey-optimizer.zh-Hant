@@ -10,14 +10,14 @@ level: Intermediate, Experienced
 keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
 
-# 傳送多頻道訊息 {#send-multi-channel-messages}
+# 傳送多管道訊息 {#send-multi-channel-messages}
 
 本節介紹結合讀取對象、事件、反應事件和電子郵件/推播訊息的使用案例。
 
@@ -107,3 +107,38 @@ ht-degree: 1%
 1. 使用位於右上角的&#x200B;**測試**&#x200B;切換以啟動測試模式。 請參閱此[區段](testing-the-journey.md)以瞭解如何使用測試模式。
 
 1. 歷程就緒時，請使用右上角的&#x200B;**發佈**&#x200B;按鈕發佈。
+
+## 多階段忠誠度歷程 {#multi-phase-loyalty}
+
+此範例說明關鍵歷程架構模式：將複雜的多階段歷程分解為與[**[!UICONTROL 跳轉]**](jump.md)活動連線的較小且集中的子歷程。 此情境中即包含熟客方案，但此模式適用於跨越多個里程碑或業務階段的任何歷程。
+
+複雜的多階段歷程會快速產生大量不重複的客戶路徑。 每個階段將其分解為一個子歷程，讓每個歷程都能管理、測試及獨立維護。
+
+### 藍本
+
+考慮使用兩個行銷管道（[電子郵件](../email/create-email.md)和[推播](../push/create-push.md)），引導客戶完成三個里程碑的熟客方案：
+
+1. **階段1 — 下載行動應用程式：**&#x200B;初始通訊鼓勵新忠誠會員下載應用程式。 若客戶在指定期間內未執行作業，系統會傳送後續提醒。
+1. **階段2 — 進行第一筆交易：**&#x200B;下載應用程式後，目標訊息會引導客戶完成其第一筆忠誠度交易。
+1. **階段3 — 進行第二筆交易：**&#x200B;在第一次交易之後，最後的通訊組會推動第二次交易，以深化忠誠度參與。
+
+即使使用此直接的策略，此歷程仍會公開客戶可採取的20多個不重複路徑。 每個額外的接觸點或管道的複雜性都會以指數方式增加。
+
+### 子歷程分解
+
+將端對端歷程分成三個較小的連線子歷程：
+
+| 子歷程 | 輸入條件 | 業務目標 |
+|---|---|---|
+| 階段1 — 應用程式下載 | 客戶加入忠誠計畫 | 推動行動應用程式下載 |
+| 階段2 — 第一個交易 | 客戶下載應用程式 | 推動第一個熟客方案交易 |
+| 階段3 — 第二個交易 | 客戶完成第一筆交易 | 推動第二筆熟客交易 |
+
+使用[**[!UICONTROL 跳轉]**](jump.md)活動連線子歷程，讓設定檔順暢地從一個階段傳遞至下一個階段。 每個子歷程都維持簡單、可讀取和獨立維護的狀態。
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
