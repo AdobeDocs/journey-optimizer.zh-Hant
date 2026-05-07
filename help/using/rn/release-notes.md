@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ ht-degree: 17%
 <p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>如需詳細資訊，請參閱<a href="../email/message-tracking.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年5月7日</p>
+<p>推出日期： 2026年5月11日</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 四月初發佈的新功能和改進專案會隨推出日期一併公佈。
