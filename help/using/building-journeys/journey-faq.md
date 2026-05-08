@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 0%
+source-wordcount: '5290'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
+需要更多詳細資料？ 使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
@@ -100,7 +100,7 @@ ht-degree: 0%
    * 在下次評估之前，設定檔可能不會反映即時變更
    * 讀取對象活動可有效處理大量批次對象
 
-**3.上傳對象（自訂上傳）**
+**3. 上傳對象（自訂上傳）**
 
 * **描述**：透過上傳包含設定檔識別碼的CSV檔案所建立的對象
 * **評估**：只有在上傳新檔案時才會更新靜態清單
@@ -112,7 +112,7 @@ ht-degree: 0%
    * 身分名稱空間必須符合歷程名稱空間
    * 設定檔必須存在於[!DNL Adobe Experience Platform]中
 
-**4.同盟對象構成(FAC)對象**
+**4. 同盟對象構成(FAC)對象**
 
 * **說明**：使用同盟資料建立的對象，可讓您從外部資料倉儲查詢及撰寫對象，而不需將資料複製到[!DNL Adobe Experience Platform]
 * **評估**：執行同盟對象構成時已更新靜態構成
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 +++ 我可以在歷程中傳送訊息給設定檔嗎？
 
-可以。Journey Optimizer包含&#x200B;**內建頻道動作**，可讓您透過電子郵件、推播通知、SMS/MMS/RCS、應用程式內訊息、網頁體驗、程式碼型體驗、內容卡片、WhatsApp和LINE傳送訊息。 您可以直接在Journey Optimizer中設計訊息內容，並將其新增為歷程中的動作活動。
+可以。 Journey Optimizer包含&#x200B;**內建頻道動作**，可讓您透過電子郵件、推播通知、SMS/MMS/RCS、應用程式內訊息、網頁體驗、程式碼型體驗、內容卡片、WhatsApp和LINE傳送訊息。 您可以直接在Journey Optimizer中設計訊息內容，並將其新增為歷程中的動作活動。
 
 對於原生不支援的管道，您可以使用&#x200B;**自訂動作**&#x200B;與外部傳訊平台整合，並透過任何協力廠商管道傳送訊息。
 
@@ -247,7 +247,7 @@ ht-degree: 0%
 
 +++ 我可以在歷程中更新設定檔資訊嗎？
 
-可以。使用&#x200B;**更新設定檔**&#x200B;活動，根據歷程事件或條件修改[!DNL Adobe Experience Platform]中的設定檔屬性。 這對於更新忠誠度點數、記錄歷程里程碑、變更偏好設定或追蹤客戶參與分數非常有用。
+可以。 使用&#x200B;**更新設定檔**&#x200B;活動，根據歷程事件或條件修改[!DNL Adobe Experience Platform]中的設定檔屬性。 這對於更新忠誠度點數、記錄歷程里程碑、變更偏好設定或追蹤客戶參與分數非常有用。
 
 深入瞭解[設定檔更新](update-profiles.md)。
 
@@ -271,9 +271,9 @@ ht-degree: 0%
 
 +++ 如果某人未開啟或按一下郵件，我可以重新傳送郵件嗎？
 
-可以。使用具有&#x200B;**[!UICONTROL 逾時]**&#x200B;的&#x200B;**回應**&#x200B;事件：
+可以。 使用具有&#x200B;**逾時**&#x200B;的&#x200B;**[!UICONTROL 回應]**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -296,7 +296,7 @@ ht-degree: 0%
 5. **建立兩個路徑**：
    * **如果發生購買事件**：結束歷程或繼續購買後的流程
    * **逾時路徑（無購買）**：傳送包含購物車內容的放棄提醒電子郵件
-6. **選擇性**：在&#x200B;**[!UICONTROL 逾時提醒電子郵件（24小時）之後，立即新增另一個]**&#x200B;回應&#x200B;**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
+6. **選擇性**：在&#x200B;**逾時提醒電子郵件（24小時）之後，立即新增另一個**[!UICONTROL &#x200B;回應&#x200B;]**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
 
 >[!IMPORTANT]
 >
@@ -524,7 +524,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我是否能看到目前有誰在我的歷程中？
 
-可以。使用&#x200B;**歷程即時報告**&#x200B;檢視：
+可以。 使用&#x200B;**歷程即時報告**&#x200B;檢視：
 
 * 目前歷程中的設定檔數
 * 每個活動的設定檔數
@@ -553,11 +553,11 @@ Learn more about [action responses](../action/action-response.md).
 * **歷程未發佈**：歷程仍處於草稿模式
 解決方案：發佈歷程以啟用
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
 * **頻道設定問題**：電子郵件/簡訊設定不正確
 解決方案：驗證通道設定和驗證
@@ -590,7 +590,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我可以根據偏好的頻道傳送不同的訊息嗎？
 
-可以。使用&#x200B;**[最佳化活動](conditions.md)**，根據其偏好的管道路由設定檔：
+可以。 使用&#x200B;**[最佳化活動](conditions.md)**，根據其偏好的管道路由設定檔：
 
 1. 在您的歷程中新增[最佳化活動](optimize.md)
 2. 檢查偏好的管道設定檔屬性（例如`profile.preferredChannel`），為每個管道建立路徑
@@ -693,7 +693,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ 我可以將我的歷程與外部系統整合嗎？
 
-可以。使用&#x200B;**自訂動作**&#x200B;來呼叫第三方API （CRM、行銷自動化、忠誠度系統）、傳送資料至外部系統、擷取決策的即時資訊，以及在外部平台中觸發工作流程。
+可以。 使用&#x200B;**自訂動作**&#x200B;來呼叫第三方API （CRM、行銷自動化、忠誠度系統）、傳送資料至外部系統、擷取決策的即時資訊，以及在外部平台中觸發工作流程。
 
 自訂動作支援驗證（API金鑰、自訂驗證）、請求/回應裝載自訂、錯誤處理和逾時，以及來自歷程內容的動態引數。
 
@@ -755,7 +755,7 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 
 +++ 我可以在歷程中測試不同路徑嗎？
 
-可以。使用&#x200B;**最佳化活動** （有限可用性）或手動建立測試分割：
+可以。 使用&#x200B;**最佳化活動** （有限可用性）或手動建立測試分割：
 
 **搭配實驗方法使用最佳化活動**：
 
@@ -933,7 +933,7 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 
 * 使用[測試模式](testing-the-journey.md)和[試執行](journey-dry-run.md)在發佈之前驗證效能
 * 透過[自訂動作](using-custom-actions.md)將外部API呼叫減至最少，以避免延遲和對協力廠商系統的相依性
-* 儘可能使用[!DNL Adobe Experience Platform]資料集查詢[將常用的資料儲存在](dataset-lookup.md)中，而非進行外部呼叫
+* 儘可能使用[資料集查詢](dataset-lookup.md)將常用的資料儲存在[!DNL Adobe Experience Platform]中，而非進行外部呼叫
 * 檢閱並最佳化[訊息傳遞](journey-action.md)效能
 
 深入瞭解[護欄和限制](../start/guardrails.md)。
@@ -948,4 +948,4 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 * [建立您的第一個歷程](journey-gs.md)
 * [疑難排解指南](troubleshooting.md)
 * [歷程使用案例](jo-use-cases.md)
-* [Journey Optimizer 產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
