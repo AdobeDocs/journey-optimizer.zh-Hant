@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '655'
 ht-degree: 14%
 
 ---
@@ -56,7 +56,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="條件式內容"
->abstract="使用條件式規則建立內容元件的多個變體。如果傳送訊息時未符合任何條件，將顯示預設變體的內容。"
+>abstract="使用條件式規則建立內容元件的多個變體。 如果傳送訊息時未符合任何條件，將顯示預設變體的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
@@ -79,7 +79,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-select.png)
 
-   您也可以按一下[新建] **&#x200B;**&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
+   您也可以按一下[新建] ****&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
 
 1. 條件式規則會與變體相關聯。 若要提高可讀性，請從[更多動作]圖示中選取&#x200B;**[!UICONTROL 重新命名]**&#x200B;動作，以重新命名變體。
 

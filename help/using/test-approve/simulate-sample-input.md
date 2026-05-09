@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 4%
 
 ## 新增和預覽內容變數
 
-若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**[!UICONTROL ，然後選擇[模擬內容變化]]**&#x200B;**[!UICONTROL 。]**
+若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;]**，然後選擇[模擬內容變化]****。**[!UICONTROL 
 
 ![模擬內容變化選項](assets/simulate-sample.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >使用具有鎖定內容[的](../content-management/content-locking.md#use)範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+   >使用具有鎖定內容](../content-management/content-locking.md#use)的[範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 1. 儲存自訂CSS並確認自訂CSS已正確套用至您的內容。 如果不是這種情況，請檢視[疑難排解](#troubleshooting)區段。
 
@@ -172,7 +172,7 @@ body {
 
 ## 技術實作 {#implementation}
 
-您的自訂CSS已新增到`<head>`區段的結尾，做為具有`<style>`屬性的`data-name="global-custom"`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
+您的自訂CSS已新增到`<head>`區段的結尾，做為具有`data-name="global-custom"`屬性的`<style>`標籤的一部分，如下面的範例所示。 這可確保自訂樣式可全域套用至內容。
 
 +++ 請參閱範例 
 
@@ -232,7 +232,7 @@ body {
 
 * 請確定您的CSS有效，且沒有語法錯誤（例如缺少大括弧、屬性名稱不正確）。 [了解作法](#use-valid-css)
 
-* 確定您的CSS已新增至具有`<style>`屬性的`data-name="global-custom"`標籤。
+* 確定您的CSS已新增至具有`data-name="global-custom"`屬性的`<style>`標籤。
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 

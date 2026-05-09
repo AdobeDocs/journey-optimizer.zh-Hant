@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 9%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
+>abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。 若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="新增內容元件"
 
 若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 * 若為選擇加入、選擇退出和訂閱案例，請使用[內建的表單元件](#use-form-component)，並定義其[登陸頁面特定樣式](#lp-form-styles)。
 
-* 若要讓使用者透過特定表單提交資料（例如擴充[!DNL Experience Platform]資料集），[在](#embed-form)資料擷取&#x200B;**[!UICONTROL 登陸頁面上內嵌已發佈的表單]**。 [進一步瞭解建立表格](lp-forms.md)
+* 若要讓使用者透過特定表單提交資料（例如擴充[!DNL Experience Platform]資料集），[在&#x200B;**[!UICONTROL 資料擷取]**&#x200B;登陸頁面上內嵌已發佈的表單](#embed-form)。 [進一步瞭解建立表格](lp-forms.md)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。在[中設計內容時，請務必遵循](../email/accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 在[!DNL Journey Optimizer]中設計內容時，請務必遵循[此頁面](../email/accessible-content.md)上列出的特定准則。
 
 ## 使用表單元件 {#use-form-component}
 
@@ -83,7 +83,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 如果勾選則選擇加入]**：使用者需要勾選方塊才能同意（選擇加入）。
    * **[!UICONTROL 如果勾選則選擇退出]**：使用者需要勾選方塊以移除其同意（選擇退出）。
-   * **[!UICONTROL 選取時選擇加入，取消選取時選擇退出]**：此選項可讓您插入選擇加入/選擇退出的單一核取方塊。 使用者需要勾選方塊同意（選擇加入），並取消勾選方塊移除其同意（選擇退出）。
+   * **[!UICONTROL 選取時選擇加入，取消選取時選擇退出]**：此選項可讓您插入選擇加入/選擇退出的單一核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。
 
 1. 選擇要在下列三個選項之間更新的專案：
 
@@ -216,7 +216,7 @@ ht-degree: 9%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [了解更多](#use-form-component)。
+1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [了解更多資訊](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

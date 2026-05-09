@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 10%
+source-wordcount: '1485'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="歷程清單和行事曆視圖"
->abstract="除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
+>abstract="除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。 您可以使用這些按鈕隨時在清單和行事曆視圖之間切換。"
 
 ## 歷程儀表板 {#dashboard-jo}
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ### 歷程概觀
 
-**[!UICONTROL 總覽]**&#x200B;標籤會顯示包含與您的歷程相關之關鍵量度的儀表板。
+**[!UICONTROL 概觀&#x200B;]**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。
 
 ![醒目提示概觀索引標籤的歷程儀表板](assets/journeys-dashboard.png)
 
@@ -49,11 +49,11 @@ ht-degree: 10%
 
 ![歷程儀表板醒目提示「瀏覽」索引標籤](assets/journeys-browse.png)
 
-在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publish-journey.md#journey-versions)。
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。 當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。 然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在畫布上方的歷程版本介面頂端。 深入瞭解[歷程版本管理](publish-journey.md#journey-versions)。
 
 ### 歷程行事曆 {#calendar}
 
-除了歷程清單，[!DNL Journey Optimizer]還提供您歷程的行事曆檢視，提供其排程的清晰視覺化呈現。
+除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。
 
 歷程的顯示方式：
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 ![熒幕顯示已選取兩種歷程型別的歷程篩選範例](assets/filter-journeys.png)
 
-您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publish-journey.md#journey-versions)，以及從[狀態和版本篩選器](../start/search-filter-categorize.md#tags)指派的&#x200B;**[!UICONTROL 標籤]**&#x200B;來篩選歷程。
+您可以根據歷程的[狀態](#journey-statuses)、[型別](#journey-types)、[版本](publish-journey.md#journey-versions)，以及從&#x200B;**[!UICONTROL 狀態和版本篩選器]**&#x200B;指派的[標籤](../start/search-filter-categorize.md#tags)來篩選歷程。
 
 使用&#x200B;**[!UICONTROL 建立篩選器]**，根據歷程的建立日期或建立歷程的使用者來篩選歷程。
 
@@ -127,7 +127,7 @@ ht-degree: 10%
 歷程的型別取決於該歷程中使用的活動。 可以是：
 
 * **[!UICONTROL 單一事件]** — 單一事件歷程已連結至特定設定檔。 事件與人的行為或與人相關的事情有關（例如，某人達到10,000點忠誠點數）。 [了解更多](../event/about-events.md)。
-* **[!UICONTROL 商務活動]**。 業務事件歷程以非設定檔相關事件開始。 事件設定由技術使用者執行，且無法編輯。 [了解更多](../event/about-events.md)。
+* **[!UICONTROL 商務活動]**。 業務事件歷程以非設定檔相關事件開始。 事件設定由技術使用者執行，而且無法編輯。 [了解更多](../event/about-events.md)。
 * **[!UICONTROL 對象資格]** — 對象資格歷程會聆聽[!DNL Adobe Experience Platform]對象中設定檔的入口和出口，讓個人進入歷程或是在歷程中前進。 [了解更多](audience-qualification-events.md)。
 * **[!UICONTROL 讀取對象]** — 在讀取對象歷程中，對象中的所有個人都會進入歷程並接收歷程中包含的訊息。  [了解更多](read-audience.md)。
 

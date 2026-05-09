@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，清單，訂閱，服務
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 7%
+source-wordcount: '748'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 7%
 >id="ajo_subscription_list"
 >title="設定訂閱清單"
 >abstract="建立訂閱清單以收集已選擇接收有關特定主旨或事件的通訊內容的設定檔。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=zh-Hant#define-subscription-list" text="建立訂閱清單"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html#define-subscription-list" text="建立訂閱清單"
 
-訂閱服務是指為已選擇接收特定主旨/事件/興趣/等之通訊的客戶提供的行銷商品和服務。 持續進行。 在[!DNL Journey Optimizer]中，這些選擇加入的客戶會收集到訂閱清單中。
+訂閱服務是指為已選擇持續接收特定主題/事件/興趣/等通訊的客戶提供的行銷商品和服務。 在[!DNL Journey Optimizer]中，這些選擇加入的客戶會收集到訂閱清單中。
 
 訂閱服務可用於：
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->當您建立訂閱清單時，Adobe Experience Platform會自動產生相關聯的串流區段。 若要成功建立串流區段，合併原則必須啟用&#x200B;**Edge上的Active-On**&#x200B;選項。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation)中進一步瞭解串流區段資格條件。
+>當您建立訂閱清單時，Adobe Experience Platform會自動產生相關聯的串流區段。 若要成功建立串流區段，合併原則必須啟用&#x200B;**Edge上的Active-On**&#x200B;選項。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)中進一步瞭解串流區段資格條件。
 
 若要建立訂閱清單，請遵循下列步驟。
 

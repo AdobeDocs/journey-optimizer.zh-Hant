@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 20%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 
-1. [從電子郵件](get-started-email-design.md)編輯內容&#x200B;**[!UICONTROL 畫面存取電子郵件Designer]**。
+1. [從電子郵件&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面存取電子郵件Designer](get-started-email-design.md)。
 
 1. 在&#x200B;**[!UICONTROL 建立您的電子郵件]**&#x200B;畫面上，預設會選取&#x200B;**[!UICONTROL 範例範本]**&#x200B;索引標籤。
 

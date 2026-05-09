@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 封存，訊息， HIPAA，密件副本，電子郵件
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1363'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="定義密件副本電子郵件地址"
->abstract="您可以透過將電子郵件傳送到密件副本收件匣來保留已傳送之電子郵件的副本。輸入您選擇的電子郵件地址，以便每封電子郵件都會以密件方式傳送至此密件副本地址。請注意，密件副本地址網域必須不同於委派給 Adobe 的任何子網域。此功能為選用。"
+>abstract="您可以透過將電子郵件傳送到密件副本收件匣來保留已傳送之電子郵件的副本。 輸入您選擇的電子郵件地址，以便每封電子郵件都會以密件方式傳送至此密件副本地址。 請注意，密件副本地址網域必須不同於委派給 Adobe 的任何子網域。 此功能為選用。"
 
 您可以將[!DNL Journey Optimizer]所傳送之電子郵件的密件副本(BCC)傳送至專用的密件副本地址。 此選擇性功能可讓您保留您傳送給使用者的電子郵件通訊復本，以供合規性和/或封存之用。 訊息的其他收件者看不到密件副本地址。
 
@@ -118,7 +118,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 ![](assets/preset-bcc-dataset.png){width="85%"}
 
-若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+若要針對此資料集執行查詢，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png){width="100%"}
 
@@ -229,7 +229,7 @@ GDPR等法規規定，資料主體應能隨時修改其同意書。 由於您透
 
 * 若要透過使用者介面存取這些資料集，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料集]** > **[!UICONTROL 瀏覽]**。 在[本節](../data/get-started-datasets.md#access-datasets)中進一步瞭解如何存取資料集。
 
-* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
+* 使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}提供的查詢編輯器。 若要存取它，請選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 查詢]**，然後按一下&#x200B;**[!UICONTROL 建立查詢]**。 [了解更多](../data/get-started-queries.md)
 
 以下是一些您可執行的範例查詢，以擷取和密件副本相對應的資訊。
 

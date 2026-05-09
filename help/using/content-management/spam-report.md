@@ -5,9 +5,9 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '369'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"
 >title="垃圾郵件報告"
->abstract="您可以使用垃圾郵件報告來檢查電子郵件內容的垃圾郵件評分。該分數表示 ISP 或信箱提供者是否會將您的郵件視為垃圾郵件。分數越低越好。如果您的電子郵件內容得分高於 2，您應該考慮修正導致測試失敗的問題。"
+>abstract="您可以使用垃圾郵件報告來檢查電子郵件內容的垃圾郵件評分。 該分數表示 ISP 或信箱提供者是否會將您的郵件視為垃圾郵件。 分數越低越好。 如果您的電子郵件內容得分高於 2，您應該考慮修正導致測試失敗的問題。"
 
 您可以在專用的垃圾郵件報告中檢查您的電子郵件內容垃圾郵件評分。 使用[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}，Adobe Journey Optimizer可以測試您的電子郵件內容，並提供分數以指出ISP或信箱提供者是否將其視為垃圾郵件。
 
@@ -43,7 +43,7 @@ ht-degree: 17%
 
 1. 檢查每個專案的分數和說明。
 
-   分數越低越好。如果分數高於5，則會顯示警告：指出某些訊息在收到時可能會遭到封鎖或標籤為垃圾訊息。 最佳實務是讓分數低於2。
+   分數越低越好。 如果分數高於5，則會顯示警告：指出某些訊息在收到時可能會遭到封鎖或標籤為垃圾訊息。 最佳實務是讓分數低於2。
 
    >[!NOTE]
    >

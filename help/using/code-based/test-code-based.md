@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->此預覽僅限&#x200B;**內容預覽**：它會顯示哪些決定專案符合選取的測試設定檔，以及編寫的內容呈現方式。 在&#x200B;**模擬內容**&#x200B;預覽中，不會模擬即時Edge要求中傳送的內容資料&#x200B;**[!UICONTROL （例如，用於決定條件或參考於使用者端實作的資料）。]**
+>此預覽僅限&#x200B;**內容預覽**：它會顯示哪些決定專案符合選取的測試設定檔，以及編寫的內容呈現方式。 在&#x200B;**[!UICONTROL 模擬內容]**&#x200B;預覽中，不會模擬即時Edge要求中傳送的內容資料&#x200B;**（例如，用於決定條件或參考於使用者端實作的資料）。**
 
 ## 在裝置上預覽 {#preview-on-device}
 
@@ -59,12 +59,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_mobile"
 >title="在裝置上預覽基於程式碼的行動體驗"
->abstract="請掃描 QR 碼或複製連結，在裝置上預覽。連接後，在裝置上輸入 PIN 碼。每次更新預覽連結時，您可能需要重新啟動應用程式才能看到變更。"
+>abstract="請掃描 QR 碼或複製連結，在裝置上預覽。 連接後，在裝置上輸入 PIN 碼。 每次更新預覽連結時，您可能需要重新啟動應用程式才能看到變更。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview_device_refresh"
 >title="重新整理預覽連結以反映目前檢視"
->abstract="在裝置上預覽將顯示您建立或重新整理預覽連結時的內容。如果您修改了內容或選取不同的測試設定檔或處理，請重新整理預覽使其反映目前檢視。"
+>abstract="在裝置上預覽將顯示您建立或重新整理預覽連結時的內容。 如果您修改了內容或選取不同的測試設定檔或處理，請重新整理預覽使其反映目前檢視。"
 
 為網頁或行動應用程式建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽您的個人化體驗，以瞭解這些體驗在真實裝置上的外觀。
 
@@ -96,7 +96,7 @@ ht-degree: 22%
 
    * 選取&#x200B;**[!UICONTROL 複製連結]**&#x200B;按鈕，並與您的團隊和利害關係人共用連結，他們可以在變更上線之前，在任何行動瀏覽器中預覽新體驗。
 
-   * 使用行動裝置掃描二維碼，以直接在行動應用程式中開啟預覽連結。 您必須在裝置上輸入PIN，才能建立[Assurance](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}工作階段。
+   * 使用行動裝置掃描二維碼，以直接在行動應用程式中開啟預覽連結。 您必須在裝置上輸入PIN，才能建立[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"}工作階段。
 
      >[!NOTE]
      >

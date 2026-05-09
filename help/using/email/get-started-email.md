@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 電子郵件、開始、建立、預覽
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="設計電子郵件"
->abstract="使用 **Adobe Journey Optimizer** 傳送電子郵件訊息給客戶。您可以在電子郵件設計工具建立、個人化以及預覽訊息。"
+>abstract="使用 **Adobe Journey Optimizer** 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。"
 
 使用 [!DNL Journey Optimizer] 傳送電子郵件訊息給客戶。 您可以在電子郵件設計工具建立、個人化以及預覽訊息。
 
 可建立的電子郵件傳遞：
 
-* 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。[了解如何建立歷程](../building-journeys/journey-gs.md)
+* 在&#x200B;**歷程**&#x200B;中：將&#x200B;**[!UICONTROL 電子郵件]**&#x200B;活動新增至您的歷程，並定義基本設定，使用&#x200B;**[!UICONTROL 動作：電子郵件]**&#x200B;右側窗格建立訊息內容。 [了解如何建立歷程](../building-journeys/journey-gs.md)
 
-* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
+* 在&#x200B;**行銷活動**&#x200B;中：一旦建立行銷活動，請選取&#x200B;**[!UICONTROL 電子郵件]**&#x200B;作為動作並定義基本設定。 了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]

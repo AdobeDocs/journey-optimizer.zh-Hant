@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 13%
+source-wordcount: '459'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="登陸頁面即時報告"
->abstract="登陸頁面即時報告可讓您僅在過去 24 小時內對登陸頁面的影響和效能進行即時測量和視覺化。您的報告會分為不同的小工具，詳細說明您的登陸頁面的成功和錯誤。每個報告儀表板都可以透過調整大小或移除小工具來修改。"
+>abstract="登陸頁面即時報告可讓您僅在過去 24 小時內對登陸頁面的影響和效能進行即時測量和視覺化。 您的報告會分為不同的小工具，詳細說明您的登陸頁面的成功和錯誤。 每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 

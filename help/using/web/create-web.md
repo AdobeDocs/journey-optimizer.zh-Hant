@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1646'
 ht-degree: 17%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 17%
 
    * **已排程 — 行銷**：立即或在指定日期執行行銷活動。 已排程的行銷活動旨在傳送行銷訊息。 可從使用者介面設定及執行。
 
-   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，也就是在個人執行動作後傳送的訊息：密碼重設、購物車購買等。 [瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
+   * **API觸發 — 行銷/異動**：使用API呼叫執行行銷活動。 API觸發的行銷活動旨在傳送行銷或交易式訊息，例如在個人執行動作後傳送的訊息：密碼重設、購物車購買等。[瞭解如何使用API觸發行銷活動](../campaigns/api-triggered-campaigns.md)
 
 1. 完成步驟以建立網路行銷活動，例如行銷活動屬性、[對象](../audience/about-audiences.md)和[排程](../campaigns/create-campaign.md#schedule)。
 
@@ -110,13 +110,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="確認要編輯的 URL"
->abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
+>abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。 必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="輸入要編輯的 URL"
->abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
+>abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。 必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 在您[將網頁動作](#create-web-experience)新增到歷程或行銷活動後，您可以使用以下其中一種方式編輯您的網站內容：
@@ -274,4 +274,4 @@ ht-degree: 17%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

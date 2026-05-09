@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 內容，實驗，多個，客群，處理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1962'
 ht-degree: 6%
 
 ---
@@ -66,7 +66,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="成功量度"
->abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。在使用之前，請務必為某些量度設定資料集。"
+>abstract="成功量度是用於追蹤和評估實驗中表現最佳的處理。 在使用之前，請務必為某些量度設定資料集。"
 
 >[!AVAILABILITY]
 >
@@ -247,7 +247,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 >* 任何歷程或行銷活動中的傳入頻道（例如網頁、應用程式內訊息、程式碼型體驗）。
 >* API觸發的交易式行銷活動中的傳出頻道（例如電子郵件、推播通知、簡訊）。
 
-Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化版本推廣給所有受眾。此功能可確保一旦確定獲勝者後，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
+Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化版本推廣給所有受眾。 此功能可確保一旦確定獲勝者後，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
 
 您可以在兩種模式之間進行選擇：
 

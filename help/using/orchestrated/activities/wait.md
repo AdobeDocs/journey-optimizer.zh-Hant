@@ -5,10 +5,10 @@ title: 在協調的行銷活動中使用等待活動
 description: 瞭解如何在協調的行銷活動中使用等待活動
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 65%
+source-wordcount: '233'
+ht-degree: 55%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 65%
 
 ## 範例{#wait-example}
 
-以下範例會說明典型使用案例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。內含促銷代碼的電子郵件會傳送給慶祝生日的輪廓。2 天後，系統會傳送簡訊給相同群組，提醒他們生日促銷代碼即將到期。
+以下範例會說明典型使用案例中的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。  內含促銷代碼的電子郵件會傳送給慶祝生日的輪廓。 2天後，系統會傳送簡訊給相同群組，提醒他們生日促銷代碼即將到期。
 
 ![](../assets/wait-example.png)

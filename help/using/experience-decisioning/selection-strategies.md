@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 20%
+source-wordcount: '759'
+ht-degree: 24%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 20%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取[公式](#ranking-formula)或[AI模型](#ai-ranking)。
 
-1. 按一下 **[!UICONTROL 建立]**。現在已準備好在[決定原則](create-decision.md)中使用
+1. 按一下 **[!UICONTROL 建立]**。 現在已準備好在[決定原則](create-decision.md)中使用
 
 ## 選取排名方法 {#select-ranking-method}
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 >id="ajo_exd_strategy_ranking"
 >title="定義如何對產品建議進行排名"
 >abstract="如果多個產品建議符合特定的選擇策略，請在建立選擇策略時選擇為每個設定檔選取最佳產品建議的方法：優先順序或排名公式。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=zh-Hant" text="建立決定原則"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="建立決定原則"
 
 如果數個優惠方案符合指定的選取策略資格，您可以選擇在建立選取策略時，用來選取每個設定檔之最佳優惠方案的方法。 您可以依下列方式排名優惠方案：
 

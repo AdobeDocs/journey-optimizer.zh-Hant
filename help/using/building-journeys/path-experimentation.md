@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃角子老虎機，縮放成功者
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 4%
+source-wordcount: '1147'
+ht-degree: 6%
 
 ---
 
@@ -155,7 +155,7 @@ REMOVED WITH GA
 >
 >它不適用於讀取對象歷程。
 
-Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化版本推廣給所有受眾。此功能可確保一旦確定獲勝者後，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
+Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化版本推廣給所有受眾。 此功能可確保一旦確定獲勝者後，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
 
 您可以在兩種模式之間進行選擇：
 

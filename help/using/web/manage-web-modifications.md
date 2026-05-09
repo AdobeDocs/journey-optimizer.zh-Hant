@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 21%
+source-wordcount: '973'
+ht-degree: 24%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="新增自訂程式碼"
->abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。僅新增 SCRIPT 和 STYLE 元素。新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
+>abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。 僅新增 SCRIPT 和 STYLE 元素。 新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
 
 您可以使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別來新增自訂程式碼。
 
@@ -165,24 +165,24 @@ ht-degree: 21%
 
 如果需要任何修改，請在此容器內變更。
 
-如果不再需要自訂程式碼，只要將此容器保持空白即可，不要移除。這可確保其他體驗修改不受影響。
+如果不再需要自訂程式碼，只要將此容器保持空白即可，不要移除。 這可確保其他體驗修改不受影響。
 
 +++
 
 +++ **請勿在自訂程式碼指令碼中執行 document.write 動作。**
 
-指令碼會非同步執行。這通常會導致document.write動作出現在頁面上的錯誤位置。 不建議在自訂程式碼建立的指令碼中使用document.write。
+指令碼會非同步執行。 這通常會導致document.write動作出現在頁面上的錯誤位置。 不建議在自訂程式碼建立的指令碼中使用document.write。
 
 +++
 
 +++ **如果您建立元素然後修改，請勿刪除原始元素。**
 
-每次變更都會在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中建立新元素。 因為第二個動作會修改元素1，如果您刪除元素1，該動作便沒有任何專案需要修改，因此變更不再有作用。
+每次變更都會在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中建立新元素。 因為第二個動作會修改元素 1，如果刪除元素 1，則動作就沒有可修改的項目，變更也就失去作用。
 
 +++
 
-+++ **針對影響相同URL的兩個行銷活動使用**&#x200B;[!UICONTROL &#x200B;頁面&#x200B;`<head>`]&#x200B;**修改型別時，請小心。**
++++ **針對影響相同URL的兩個行銷活動使用**[!UICONTROL &#x200B;頁面&#x200B;`<head>`]**修改型別時，請小心。**
 
-如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 請確定程式碼不依賴位置。您必須確保程式碼中沒有衝突。
+如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 請確定程式碼不依賴位置。 您必須確保程式碼中沒有衝突。
 
 +++

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 9%
@@ -79,7 +79,7 @@ ht-degree: 9%
 
    ![](assets/lp-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL 根]**&#x200B;資料夾內，或目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 

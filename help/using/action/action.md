@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，歷程，訊息，傳送，連線
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 37%
+source-wordcount: '365'
+ht-degree: 38%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 37%
 
 ➡️ [在影片中探索此功能](#video)
 
-[!DNL Journey Optimizer]隨附內建訊息功能。 自訂動作可讓您設定第三方系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可經由 REST API，搭配 JSON 格式的承載進行呼叫。
+[!DNL Journey Optimizer]隨附內建訊息功能。 自訂動作可讓您設定第三方系統的連線，以傳送訊息或 API 呼叫。 您可以使用任何提供者提供的任何服務來設定動作，這些服務可經由 REST API，搭配 JSON 格式的承載進行呼叫。
 
 * 如果您使用Adobe Campaign v7或v8，整合可應要求提供。 請參見[此頁面](../action/acc-action.md)。
 
@@ -39,17 +39,17 @@ ht-degree: 37%
 
 自訂動作是技術使用者定義的其他動作，可供行銷人員使用：設定後，自訂動作會顯示在您歷程的左側浮動視窗，位於&#x200B;**[!UICONTROL 動作]**&#x200B;類別中。 請在[此頁面](../building-journeys/about-journey-activities.md#action-activities)了解更多。
 
-若要檢視動作清單或設定新動作，請在[管理]功能表區段中選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 畫面隨即顯示動作清單。如需介面的詳細資訊，請參閱[此頁面](../start/user-interface.md)。
+若要檢視動作清單或設定新動作，請在[管理]功能表區段中選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 畫面隨即顯示動作清單。 如需介面的詳細資訊，請參閱[此頁面](../start/user-interface.md)。
 
 ![](assets/custom1.png)
 
-瞭解如何在此專屬頁面[上疑難排解自訂動作](../action/troubleshoot-custom-action.md)。
+瞭解如何在此專屬頁面](../action/troubleshoot-custom-action.md)上疑難排解自訂動作[。
 
 ## 作法影片 {#video}
 
 瞭解如何設定自訂動作。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430271?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## 其他資源
 

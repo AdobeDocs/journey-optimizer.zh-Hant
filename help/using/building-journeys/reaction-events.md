@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 歷程，事件，反應，追蹤，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '506'
 ht-degree: 15%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反應事件"
->abstract="本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 [!DNL Adobe Experience Platform] 共用時即時擷取此資訊。"
+>abstract="本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。 我們會在和 [!DNL Adobe Experience Platform] 共用時即時擷取此資訊。"
 
 ## 概觀 {#overview}
 
-在浮動視窗中可用的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL 回應]**&#x200B;事件。 本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。我們會在和 [!DNL Adobe Experience Platform] 共用時即時擷取此資訊。
+在浮動視窗中可用的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL 回應]**&#x200B;事件。 本活動可讓您回應和同一歷程中傳送的訊息相關的追蹤資料。 我們會在和 [!DNL Adobe Experience Platform] 共用時即時擷取此資訊。
 
 您可以對點按或開啟的訊息做出反應。 例如，如果某人開啟了先前的電子郵件或按一下了電子郵件內部，您就可以傳送另一封郵件；如果未與您的通訊互動，則可以傳送不同的後續郵件。
 
@@ -40,7 +40,7 @@ ht-degree: 15%
 
 請依照下列步驟設定反應事件：
 
-1. 在歷程畫布上的&#x200B;**[!UICONTROL 頻道動作活動]**&#x200B;後立即放置&#x200B;**回應**&#x200B;活動[&#128279;](journey-action.md)。
+1. 在歷程畫布上的[頻道動作活動](journey-action.md)後立即放置&#x200B;**[!UICONTROL 回應]**&#x200B;活動&#x200B;****。
 1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;至回應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取位於路徑前幾個步驟中的任何動作活動。
 1. 根據您選取的動作，選擇您要回應的專案。
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 ## 護欄與限制 {#guardrails-limitations}
 
-* 在歷程畫布中的&#x200B;**[!UICONTROL 頻道動作活動]**&#x200B;之後，**回應**&#x200B;活動必須置於[立即](journey-action.md)。
+* 在歷程畫布中的[頻道動作活動](journey-action.md)之後，**[!UICONTROL 回應]**&#x200B;活動必須置於&#x200B;**立即**。
 * 如果之前沒有管道動作活動，則無法使用&#x200B;**[!UICONTROL 回應]**&#x200B;活動。
 * 不支援在頻道動作和&#x200B;**[!UICONTROL 回應]**&#x200B;活動之間放置&#x200B;**[!UICONTROL 等待]**&#x200B;活動或任何其他活動，並可能導致回應無法如預期運作。
 * 反應事件只能追蹤相同歷程中傳送的訊息。 他們無法追蹤發生在不同歷程中的訊息。

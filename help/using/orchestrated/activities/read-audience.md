@@ -5,9 +5,9 @@ title: 使用讀取客群活動
 description: 瞭解如何在協調的行銷活動中使用讀取對象活動
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
 >title="建置客群活動"
->abstract="**讀取客群**&#x200B;活動可讓您選取將會進入協調的行銷活動之客群。此客群可以是現有的 Adobe Experience Platform 客群，或是從 CSV 檔案中提取的客群。在協調的行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**讀取客群**&#x200B;或&#x200B;**建置客群**&#x200B;活動中定義。"
+>abstract="**讀取客群**&#x200B;活動可讓您選取將會進入協調的行銷活動之客群。 此客群可以是現有的 Adobe Experience Platform 客群，或是從 CSV 檔案中提取的客群。 在協調的行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**讀取客群**&#x200B;或&#x200B;**建置客群**&#x200B;活動中定義。"
 
 **[!UICONTROL 讀取對象]**&#x200B;活動可讓您擷取現有的對象（先前儲存或匯入），並在協調的行銷活動中重複使用它。 此活動對於鎖定一組預先定義的設定檔而無須執行新的細分程式特別有用。
 

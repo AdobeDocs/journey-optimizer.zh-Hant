@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 跳轉，活動，歷程，分割，分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1405'
 ht-degree: 6%
@@ -120,8 +120,8 @@ ht-degree: 6%
 
    ![跳轉活動設定中的目標歷程選擇下拉式清單](assets/jump2.png)
 
-1. 在&#x200B;**目標歷程**&#x200B;欄位內按一下。
-清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以&#x200B;**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
+1. 在&#x200B;**目標歷程**欄位內按一下。
+清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以**對象資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
 
    ![顯示目標歷程和動作引數的跳轉活動](assets/jump3.png)
 

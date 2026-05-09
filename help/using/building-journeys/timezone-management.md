@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 時區，屬性，歷程，條件，時間，日期，自訂
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 23%
@@ -39,7 +39,7 @@ ht-degree: 23%
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-您可以選取[固定時區](#fixed-timezone)，或選擇使用使用者設定檔[&#128279;](#timezone-from-profiles)中定義的時區。
+您可以選取[固定時區](#fixed-timezone)，或選擇使用使用者設定檔](#timezone-from-profiles)中定義的時區[。
 
 ## 定義固定時區 {#fixed-timezone}
 

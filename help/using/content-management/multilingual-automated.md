@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 20%
+source-wordcount: '2063'
+ht-degree: 19%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
 >title="新增提供者"
->abstract="根據需要新增翻譯提供者和語系設定。您可以藉此管理專案目前可用的提供者和語系設定，並根據目前的需求和專案範圍彈性調整資源和目標對象。"
+>abstract="根據需要新增翻譯提供者和語系設定。 您可以藉此管理專案目前可用的提供者和語系設定，並根據目前的需求和專案範圍彈性調整資源和目標對象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
 >title="編輯提供者"
->abstract="修改現有翻譯提供者並視需要新增語系設定。您可以利用此功能控制專案目前可用的提供者和語系設定，使您能夠根據目前的需求和專案目標彈性調整資源並鎖定特定對象。"
+>abstract="修改現有翻譯提供者並視需要新增語系設定。 您可以利用此功能控制專案目前可用的提供者和語系設定，使您能夠根據目前的需求和專案目標彈性調整資源並鎖定特定對象。"
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
 >title="建立專案"
->abstract="若要開始建立多語言內容，請確認目標地區設定，為您的對象選取適當的語言或當地方言來啟動翻譯專案。之後，選擇符合您專案需求的翻譯提供者。"
+>abstract="若要開始建立多語言內容，請確認目標地區設定，為您的對象選取適當的語言或當地方言來啟動翻譯專案。 之後，選擇符合您專案需求的翻譯提供者。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
@@ -108,12 +108,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="自訂條件設定"
->abstract="自訂條件式設定是根據特定條件決定您的內容將在哪個區域顯示的規則集。這些設定可讓您根據使用者位置、語言偏好設定或其他情境元素等因素控制內容顯示。"
+>abstract="自訂條件式設定是根據特定條件決定您的內容將在哪個區域顯示的規則集。 這些設定可讓您根據使用者位置、語言偏好設定或其他情境元素等因素控制內容顯示。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="遞補偏好"
->abstract="選擇備援偏好設定對於改善使用者體驗至關重要。如果未選取備援且客戶設定檔不符合必要的需求，將不會傳送內容。透過選取適當的備援，即使客戶設定檔與初始條件不相符，您也可以確保內容傳送一致。"
+>abstract="選擇備援偏好設定對於改善使用者體驗至關重要。 如果未選取備援且客戶設定檔不符合必要的需求，將不會傳送內容。 透過選取適當的備援，即使客戶設定檔與初始條件不相符，您也可以確保內容傳送一致。"
 
 在本節中，您可以設定管理多語言內容的不同地區設定。 您也可以選擇要用來查閱與設定檔語言相關資訊的屬性。
 
@@ -280,7 +280,7 @@ ht-degree: 20%
 
    ![](assets/multilingual-campaign-automated-7.png)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
    >[!IMPORTANT]
    >
@@ -316,12 +316,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
 >title="檢閱您的翻譯專案"
->abstract="您選擇的翻譯提供者完成翻譯後，您可以直接在 Journey Optimizer 中檢閱結果。您可以藉此評估翻譯的準確性和品質，在最終確定之前須確保其符合您的期望和專案需求。"
+>abstract="您選擇的翻譯提供者完成翻譯後，您可以直接在 Journey Optimizer 中檢閱結果。 您可以藉此評估翻譯的準確性和品質，在最終確定之前須確保其符合您的期望和專案需求。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_preview_project"
 >title="預覽您的翻譯專案"
->abstract="您可以利用預覽視窗檢視以每一種語言顯示的翻譯內容。此功能可協助您檢查翻譯結果並確保選取的所有語言均能正確且有效地顯示內容。"
+>abstract="您可以利用預覽視窗檢視以每一種語言顯示的翻譯內容。 此功能可協助您檢查翻譯結果並確保選取的所有語言均能正確且有效地顯示內容。"
 
 如果您在您的&#x200B;**[!UICONTROL 翻譯專案]**&#x200B;中選取&#x200B;**[!UICONTROL 啟用檢閱工作流程]**，則您可在所選翻譯提供者完成之後，直接在Journey Optimizer中檢閱翻譯。
 

@@ -4,9 +4,9 @@ description: 瞭解如何將優先順序分數指派給歷程與行銷活動。
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 35%
 
 ---
@@ -24,12 +24,12 @@ Journey Optimizer可讓您將優先順序分數指派給歷程、行銷活動或
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="優先順序"
->abstract="指派行銷活動的優先順序分數。當行銷活動必須遵守強制施加的限制 (例如頻率上限) 時，必須透過優先順序來確定行銷活動的優先次序。</br>請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。若遇到兩項行銷活動的優先順序分數相同的情況，將會顯示先啟動的行銷活動。"
+>abstract="指派行銷活動的優先順序分數。 當行銷活動必須遵守強制施加的限制 (例如頻率上限) 時，必須透過優先順序來確定行銷活動的優先次序。</br>請輸入數值 (從 0 到 100)。 請注意，數字越大，表示優先順序越高。 若遇到兩項行銷活動的優先順序分數相同的情況，將會顯示先啟動的行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="優先順序"
->abstract="指派歷程的優先順序分數。當歷程必須遵守強制施加的限制 (例如頻率上限) 時，必須透過優先順序來確定歷程的優先次序。</br>請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。若遇到兩項歷程的優先順序分數相同的情況，將會顯示先啟動的歷程。"
+>abstract="指派歷程的優先順序分數。 當歷程必須遵守強制施加的限制 (例如頻率上限) 時，必須透過優先順序來確定歷程的優先次序。</br>請輸入數值 (從 0 到 100)。 請注意，數字越大，表示優先順序越高。 若遇到兩項歷程的優先順序分數相同的情況，將會顯示先啟動的歷程。"
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -54,7 +54,7 @@ Journey Optimizer可讓您將優先順序分數指派給歷程、行銷活動或
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="優先順序"
->abstract="指派歷程動作的優先順序分數。當有多個歷程動作或行銷活動使用相同的通道設定時，必須透過優先順序來確定入站動作的優先次序。</br>請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。預設情況下，動作的優先順序分數會繼承歷程的整體優先順序分數。"
+>abstract="指派歷程動作的優先順序分數。 當有多個歷程動作或行銷活動使用相同的通道設定時，必須透過優先順序來確定入站動作的優先次序。</br>請輸入數值 (從 0 到 100)。 請注意，數字越大，表示優先順序越高。 預設情況下，動作的優先順序分數會繼承歷程的整體優先順序分數。"
 
 Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)活動內的傳入頻道動作指派優先順序分數。
 
@@ -72,4 +72,4 @@ Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

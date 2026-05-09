@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 49%
+source-wordcount: '754'
+ht-degree: 50%
 
 ---
 
@@ -21,22 +21,22 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="新增結構元件"
->abstract="結構元件會定義電子郵件的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
+>abstract="結構元件會定義電子郵件的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的電子郵件內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="新增結構元件"
->abstract="結構元件會定義登陸頁面的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
+>abstract="結構元件會定義登陸頁面的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的登入頁面內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="新增結構元件"
->abstract="結構元件會定義區段的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
+>abstract="結構元件會定義區段的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的片段內容。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="新增結構元件"
->abstract="結構元件會定義範本的版面。將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
+>abstract="結構元件會定義範本的版面。 將&#x200B;**結構**&#x200B;元件拖放到畫布中開始設計您的範本內容。"
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。在[中設計內容時，請務必遵循](accessible-content.md)此頁面[!DNL Journey Optimizer]上列出的特定准則。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 在[!DNL Journey Optimizer]中設計內容時，請務必遵循[此頁面](accessible-content.md)上列出的特定准則。
 
 若要開始建立您的內容，請遵循下列步驟：
 
@@ -79,7 +79,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >堆疊欄與所有電子郵件程式都不相容。當不支援時，欄將不會棧疊。
+   >堆疊欄與所有電子郵件程式都不相容。 當不支援時，欄將不會棧疊。
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
@@ -91,11 +91,11 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >每個欄的大小不能小於結構元件總寬度的 10%。如果欄不是空的，則無法移除。
+   >每個欄的大小不能小於結構元件總寬度的 10%。 如果欄不是空的，則無法移除。
 
 1. 展開&#x200B;**[!UICONTROL 內容]**&#x200B;區段，並新增您所需數量的元素至一或多個結構元件。 [進一步了解內容元件](content-components.md)
 
-1. 每個元件都可以使用右方功能表中的&#x200B;**[!UICONTROL 設定]**&#x200B;或&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤進一步自訂。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。[了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
+1. 每個元件都可以使用右方功能表中的&#x200B;**[!UICONTROL 設定]**&#x200B;或&#x200B;**[!UICONTROL 樣式]**&#x200B;標籤進一步自訂。 例如，您可以變更每個元件的文字樣式、邊框間距或邊界。 [了解對齊方式和邊框間距的詳細資訊](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -117,16 +117,16 @@ ht-degree: 49%
 
    ![](assets/email_designer_links.png)
 
-1. 如果需要，您可以按一下「進階」選單中的「**[!UICONTROL 切換到程式碼編輯器]**」進一步個人化您的電子郵件。這可讓您編輯電子郵件原始碼，例如新增追蹤或自訂 HTML 標記。[進一步了解程式碼編輯器](code-content.md)
+1. 如果需要，您可以按一下「進階」選單中的「**[!UICONTROL 切換到程式碼編輯器]**」進一步個人化您的電子郵件。 這可讓您編輯電子郵件原始碼，例如新增追蹤或自訂 HTML 標記。 [進一步了解程式碼編輯器](code-content.md)
 
    >[!CAUTION]
    >
    >切換到程式碼編輯器後，您無法恢復到此電子郵件的視覺化設計工具。
 
-1. 內容準備就緒後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
+1. 內容準備就緒後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
    ![](assets/email_designer_simulate_content.png)
 
 1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2649'
 ht-degree: 5%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暫停您的歷程"
->abstract="暫停上線的歷程以防止新輪廓進入。選擇是否捨棄目前在歷程當中的輪廓或予以保留。若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
+>abstract="暫停上線的歷程以防止新輪廓進入。 選擇是否捨棄目前在歷程當中的輪廓或予以保留。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. -->在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
 ## 主要優點 {#journey-pause-benefits}
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>* 暫停和恢復歷程的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 >
 >* 開始使用暫停/恢復功能之前，[請先閱讀護欄和限制](#journey-pause-guardrails)。
 
@@ -100,9 +100,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="繼續歷程"
->abstract="繼續暫停的歷程，允許新的輪廓再次進入。如果輪廓在暫停期間是等待狀態，將會繼續其歷程。非常適合在更新或暫停後安全地重新啟動歷程時使用。"
+>abstract="繼續暫停的歷程，允許新的輪廓再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。"
 
-暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。非常適合在更新或暫停後安全地重新啟動歷程時使用。
+暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。
 
 若要繼續暫停的歷程並重新開始聆聽歷程事件，請遵循下列步驟：
 
@@ -158,7 +158,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[中進一步瞭解設定檔屬性型退出條件](journey-properties.md#profile-exit-criteria)。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -211,7 +211,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

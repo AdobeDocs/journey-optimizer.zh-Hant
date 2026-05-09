@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '858'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="行動裝置和網頁設定名稱"
->abstract="輸入您的行動裝置或網頁設定名稱。此名稱將用於使用引導式管道設定自動建立的每個資源。"
+>abstract="輸入您的行動裝置或網頁設定名稱。 此名稱將用於使用引導式管道設定自動建立的每個資源。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
@@ -55,7 +55,7 @@ ht-degree: 83%
 
 >[!ENDTABS]
 
-請注意，您想要設定的每個平台都需要建立個別的設定。這是因為每個應用程式都需要獨特的管道設定，這樣就能靈活地決定您想要用於每個平台的管道。
+請注意，您想要設定的每個平台都需要建立個別的設定。 這是因為每個應用程式都需要獨特的管道設定，這樣就能靈活地決定您想要用於每個平台的管道。
 
 ## 先決條件 {#prereq}
 
@@ -114,17 +114,17 @@ ht-degree: 83%
 
   +++
 
-* 如果您使用現有設定選項，請確定您使用下列Adobe Experience Platform Mobile SDK 擴充功能版本。如需 SDK 設定的詳細資訊，包括必要的相依性與初始化程式碼，請參閱[下列文件](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
+* 如果您使用現有設定選項，請確定您使用下列Adobe Experience Platform Mobile SDK 擴充功能版本。 如需 SDK 設定的詳細資訊，包括必要的相依性與初始化程式碼，請參閱[下列文件](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)。
 
 >[!BEGINTABS]
 
->[!TAB 適用於iOS 的]
+>適用於iOS]的[!TAB 
 
 * Mobile Core v5.2.0 或更新版本
 * Adobe Journey Optimizer v5.1.1 或更新版本
 
 
->[!TAB 適用於Android 的]
+>適用於Android]的[!TAB 
 
 * Mobile Core v3.1.0 或更新版本
 * Adobe Journey Optimizer v3.1.0 或更新版本
@@ -135,7 +135,7 @@ ht-degree: 83%
 
 ## 自動建立的資源 {#auto-create-resources}
 
-此設定簡化行銷管道的快速設定，使所有基本資源都能隨時在 Experience Platform、Journey Optimizer 和資料彙集應用程式中使用。這可讓行銷團隊快速開始建立行銷活動與歷程。以下是進行引導式管道設定時自動產生和設定的資源清單。
+此設定簡化行銷管道的快速設定，使所有基本資源都能隨時在 Experience Platform、Journey Optimizer 和資料彙集應用程式中使用。 這可讓行銷團隊快速開始建立行銷活動與歷程。 以下是進行引導式管道設定時自動產生和設定的資源清單。
 
 瀏覽下列標籤以存取自動產生之所有資源的完整清單：
 
@@ -184,7 +184,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>保證</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -279,7 +279,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>保證</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -374,7 +374,7 @@ ht-degree: 83%
   </tr>
   <tr>
   <td>
-  <p>保證</p>
+  <p>Assurance</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>

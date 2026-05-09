@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
-source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 19%
@@ -68,57 +68,57 @@ ht-degree: 19%
 
   測試通常必須在預先指定的範圍內執行，即使外部條件，例如季節性、市場變化、中途改變。
 
-  Adaptation during the experiment is limited.
+  實驗期間的適應能力有限。
 
 ## 多臂吃角子老虎機 {#mab-experiment}
 
-Multi-armed bandit algorithms use adaptive allocation: as evidence accumulates, more traffic is directed toward better-performing treatments. The objective is to maximize cumulative reward during the experiment rather than focus solely on the final result.
+多臂吃角子老虎機演演算法使用適應性配置：隨著證據的積累，會將更多流量導向表現更好的處理。 目的是最大化實驗期間的累計回報，而不是僅專注於最終結果。
 
 ### 優點
 
-The key strengths of Multi-armed bandit methods are:
+多臂吃角子老虎機方法的主要優點包括：
 
-* **Faster Optimization**
+* **更快的最佳化**
 
-  Promising treatments are prioritized earlier, improving overall performance during the test.
+  有前途的處理方式會更早排定優先順序，在測試期間提升整體效能。
 
-* **Adaptivity**
+* **適應性**
 
-  Allocations update continuously as data is collected, making Multi-armed bandit suitable for dynamic environments.
+  配置會在收集資料時持續更新，使得多臂吃角子老虎機適用於動態環境。
 
-* **Reduced Opportunity Cost**
+* **降低的機會成本**
 
-  Poor treatments are phased out quickly, minimizing wasted traffic.
+  不良處理方式會快速淘汰，將浪費的流量減至最少。
 
-* **Suitability for Continuous Testing**
+* **適合持續測試**
 
-  Effective for ongoing experimentation or contexts where traffic is costly.
+  對於持續進行的實驗或流量昂貴的內容而言有效。
 
 ### 限制
 
-The main limitations of Multi-armed bandit methods are:
+多臂吃角子老虎機方法的主要限製為：
 
-* **Weaker Statistical Guarantees**
+* **較弱的統計保證**
 
-  Traditional hypothesis testing is harder to apply, and stopping rules are less clear.
+  傳統的假設測試較難套用，而停止規則則較不清晰。
 
-* **Reduced Transparency**
+* **降低透明度**
 
-  Adaptive allocation can be difficult to explain to stakeholders.
+  最適化配置可能很難向利害關係人解釋。
 
-* **Limited Information on Underperforming Treatments**
+* **表現缺佳的處理的有限資訊**
 
-  Weak treatments receive little exposure, limiting diagnostic insight.
+  弱效治療很少暴露於病灶，因此限制了診斷insight。
 
-* **Implementation Complexity**
+* **實作複雜性**
 
-  Requires advanced algorithms and infrastructure, with greater potential for misconfiguration.
+  需要進階的演演算法和基礎架構，且更容易發生設定錯誤。
 
-## When to use A/B vs Multi-armed bandit
+## 何時使用A/B和多臂吃角子老虎機
 
-| 藍本 | Recommended Method |
+| 藍本 | 建議的方法 |
 |-|-|
-| You are running exploratory or research-driven tests | A/B |
+| 您正在執行探索性或研究驅動測試 | A/B |
 | 您正在執行永遠啟動的行銷活動，例如廣告、建議 | 多臂吃角子老虎 |
 | 您想要在測試期間最大化轉換 | 多臂吃角子老虎 |
 | 您需要清晰、自信的深入分析 | A/B |

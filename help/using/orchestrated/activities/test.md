@@ -5,7 +5,7 @@ title: 在您的協調行銷活動中使用測試活動
 description: 了解如何使用測試活動
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 26%
@@ -49,7 +49,7 @@ ht-degree: 26%
 
    ![](../assets/test-2.png)
 
-1. 若要在兩個以上的結果上分支，請按一下[新增條件] **&#x200B;**，並為每個額外的轉變定義標籤和條件。
+1. 若要在兩個以上的結果上分支，請按一下[新增條件] ****，並為每個額外的轉變定義標籤和條件。
 
 1. 在執行階段，行銷活動會依序評估條件，並遵循符合的第一個條件。 若沒有符合的條件，執行將遵循&#x200B;**[!UICONTROL 預設條件]** （若已設定）；否則行銷活動會在&#x200B;**[!UICONTROL Test]**&#x200B;活動處停止。
 

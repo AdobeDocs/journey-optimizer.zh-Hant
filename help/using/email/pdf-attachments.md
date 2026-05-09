@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 電子郵件，訊息，附件， pdf，編輯器
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 38%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="新增 PDF 附件"
->abstract="瀏覽並選取要附加至電子郵件的 PDF 檔案。</br>對於每個輪廓，您每年最多可以傳送 6 封含有 PDF 附件的訊息。每個附件允許的大小上限為 5 MB。</br>若需要增加郵件大小或數量，可以購買附件套組附加元件。如需詳細資訊，請聯絡您的 Adobe 代表。"
+>abstract="瀏覽並選取要附加至電子郵件的 PDF 檔案。</br>對於每個輪廓，您每年最多可以傳送 6 封含有 PDF 附件的訊息。 每個附件所允許的檔案大小上限為 5 MB。</br>若需要增加郵件大小或數量，可以購買附件套組附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。"
 
 您可以將靜態PDF檔案附加至您透過[!DNL Journey Optimizer]傳送的電子郵件訊息。
 
@@ -31,7 +31,7 @@ ht-degree: 38%
 >
 >* 每個附件允許的大小上限為 5 MB。
 >
->如需其他大小或流量，您可以購買 PDF 附件附加元件。如需詳細資訊，請聯絡您的 Adobe 代表。
+>如需其他大小或流量，您可以購買 PDF 附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 若要將PDF檔案附加至電子郵件訊息，請遵循下列步驟。
 
@@ -45,7 +45,7 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME型別]**&#x200B;區段中的&#x200B;**[!UICONTROL PDF]**&#x200B;篩選器，將選取範圍限製為正確的檔案格式。
 

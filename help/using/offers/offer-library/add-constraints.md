@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2746'
-ht-degree: 16%
+source-wordcount: '2787'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
@@ -36,12 +36,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="關於產品建議優先順序"
->abstract="在此欄位中，您可以指定產品建議的優先順序設定。優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的產品建議進行排名。"
+>abstract="在此欄位中，您可以指定產品建議的優先順序設定。 優先順序是一個數字，用於對滿足所有限制 (例如資格、日期和上限) 的產品建議進行排名。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="設定優先順序"
->abstract="如果使用者符合資格可獲得多個產品建議，則優先順序有助於定義產品建議相較於其他產品建議的優先順序。產品建議的優先順序越高，相較於其他產品建議的優先順序就越高。"
+>abstract="如果使用者符合資格可獲得多個產品建議，則優先順序有助於定義產品建議相較於其他產品建議的優先順序。 產品建議的優先順序越高，相較於其他產品建議的優先順序就越高。"
 
 限制可讓您定義優惠的顯示條件。
 
@@ -61,7 +61,7 @@ ht-degree: 16%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -94,7 +94,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->在&#x200B;**本節**&#x200B;中進一步瞭解如何使用&#x200B;**對象**&#x200B;與[決定規則](#segments-vs-decision-rules)。
+>在[本節](#segments-vs-decision-rules)中進一步瞭解如何使用&#x200B;**對象**&#x200B;與&#x200B;**決定規則**。
 
 * 依預設，會選取&#x200B;**[!UICONTROL 所有訪客]**&#x200B;選項，這表示任何設定檔都符合呈現優惠方案的資格。
 
@@ -112,9 +112,9 @@ ht-degree: 16%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
-當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
+當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -150,7 +150,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="使用上限"
->abstract="為避免過度招攬客戶，請使用上限定義產品建議的呈現次數上限。您可以為指定產品建議建立最多 10 個上限規則。"
+>abstract="為避免過度招攬客戶，請使用上限定義產品建議的呈現次數上限。 您可以為指定產品建議建立最多 10 個上限規則。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="變更日期會影響上限"
 
 上限會用作限制，以定義可顯示優惠方案的次數上限。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供請求，進而使用最佳優惠方案將每個接觸點最佳化。
@@ -251,7 +251,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="設定上限頻率"
->abstract="您可以選擇每天、每週或每月重設產品建議上限計數器。請注意，啟用頻率上限並發佈產品建議後，您將無法變更已定義的頻率。"
+>abstract="您可以選擇每天、每週或每月重設產品建議上限計數器。 請注意，啟用頻率上限並發佈產品建議後，您將無法變更已定義的頻率。"
 
 **[!UICONTROL 重設上限頻率]**&#x200B;欄位可讓您定義上限計數的重設頻率。 若要這麼做，請定義盤點的期間（每日、每週或每月），並輸入您選擇的天數/周數/月數。 例如，如果您希望每兩週重設一次上限計數，請從對應的下拉式清單中選取&#x200B;**[!UICONTROL 每週]**，然後在另一個欄位中輸入&#x200B;**2**。
 
@@ -311,7 +311,7 @@ ht-degree: 16%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 

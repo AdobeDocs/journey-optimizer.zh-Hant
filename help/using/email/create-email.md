@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 建立，電子郵件，開始，歷程，行銷活動
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 9%
+source-wordcount: '1196'
+ht-degree: 11%
 
 ---
 
@@ -91,7 +91,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="設定電子郵件內容"
->abstract="建立您的電子郵件內容。定義其主旨，然後利用電子郵件設計工具建置和個人化電子郵件內文。"
+>abstract="建立您的電子郵件內容。 定義其主旨，然後利用電子郵件設計工具建置和個人化電子郵件內文。"
 
 將電子郵件動作新增至您的歷程或行銷活動後，您需要使用電子郵件Designer定義電子郵件內容，包括主旨行、寄件者資訊和電子郵件內文。 請依照下列步驟操作：
 
@@ -101,7 +101,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. 若要在電子郵件中新增決定原則，請切換&#x200B;**[!UICONTROL 啟用決定]**。
 
-   決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回最佳內容，供每個受眾成員傳送。 [瞭解如何在電子郵件中新增決定原則](../experience-decisioning/create-decision.md#create-decision)
+   決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。 [瞭解如何在電子郵件中新增決定原則](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1245'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
 >title="檢查表單欄位的轉譯"
->abstract="您可以在 JSON 或 HTML 內容範本中定義特定的可編輯欄位，讓非技術使用者無須操作程式碼，就可以輕鬆地在程式碼型的體驗中編輯內容。請使用專用語法建立那些欄位，並使用此按鈕預覽。"
+>abstract="您可以在 JSON 或 HTML 內容範本中定義特定的可編輯欄位，讓非技術使用者無須操作程式碼，就可以輕鬆地在程式碼型的體驗中編輯內容。 請使用專用語法建立那些欄位，並使用此按鈕預覽。"
 
 若要讓您的一些JSON或HTML程式碼可編輯，請先建立程式碼型體驗[內容範本](../content-management/content-templates.md)，您可以在其中定義特定表單欄位。
 
@@ -94,7 +94,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-form-field-inline.png)
 
-1. 儲存您的範本。
+1. 儲存範本。
 
 ### 在可編輯的欄位表單中使用決定原則 {#decision-policy-in-form-fields}
 
@@ -110,7 +110,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. 在`{{#each}}`標籤之後，使用上述&#x200B;**的**&#x200B;說明[內嵌](#add-editable-fields)語法，插入對應至您要新增之可編輯表單欄位的代碼。 以唯一ID取代`"name"`以識別可編輯的欄位。 在此範例中，請使用「title」。
+1. 在`{{#each}}`標籤之後，使用上述[的](#add-editable-fields)說明&#x200B;**內嵌**&#x200B;語法，插入對應至您要新增之可編輯表單欄位的代碼。 以唯一ID取代`"name"`以識別可編輯的欄位。 在此範例中，請使用「title」。
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
@@ -122,7 +122,7 @@ ht-degree: 8%
 
    ![](assets/cbe-template-policy-variable.png){width="85%"}
 
-1. 儲存您的範本。
+1. 儲存範本。
 
 ### 程式碼範例 {#code-examples}
 
@@ -246,4 +246,4 @@ ht-degree: 8%
 
 瞭解如何將可編輯的欄位新增至程式碼型體驗管道內容範本。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464002/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

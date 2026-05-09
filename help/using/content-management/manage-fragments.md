@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 17%
+source-wordcount: '1456'
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 若要管理您的片段，請從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單。
 
-目前沙箱上建立的所有片段 — 使用[另存為片段&#x200B;**[!UICONTROL 選項從]**&#x200B;片段](create-fragments.md#create-fragments)功能表[中的](save-fragments.md) — 都會顯示。
+目前沙箱上建立的所有片段 — 使用[另存為片段](save-fragments.md)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](create-fragments.md#create-fragments)中的[ — 都會顯示。
 
 左側的窗格可讓您將片段整理到資料夾中。 依預設，會顯示所有片段。 選取資料夾時，只會顯示所選資料夾中包含的片段和資料夾。 [了解更多](#folders)
 
@@ -78,7 +78,7 @@ ht-degree: 17%
 
    ![](assets/fragment-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -97,7 +97,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新的片段狀態"
->abstract="由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。<br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
+>abstract="由於 Journey Optimizer 6 月版本推出「**草稿**」和「**即時**」狀態，因此在此版本之前建立的所有片段均具有「**草稿**」狀態，即使這些片段用於歷程或活動中亦然。 如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。 您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。 <br/>發佈需要<a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">發佈片段</a>使用者權限。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="了解更多關於內容片段權限的資訊"
 
 片段可以有多個狀態：
@@ -113,19 +113,19 @@ ht-degree: 17%
 
 >[!CAUTION]
 >
->由於Journey Optimizer 2024年6月發行版本已引入&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，在此發行版本之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。發佈需要[發佈片段](../administration/ootb-product-profiles.md#content-library-manager)使用者權限。
+>由於Journey Optimizer 2024年6月發行版本已引入&#x200B;**草稿**&#x200B;和&#x200B;**即時**&#x200B;狀態，在此發行版本之前建立的所有片段都會具有&#x200B;**草稿**&#x200B;狀態，即使它們用於歷程或行銷活動亦然。 如果您對這些片段進行任何變更，則需要將其發佈，使其進入「**即時**」狀態，並將變更內容傳遞至相關的行銷活動和歷程。 您還需要建立一個新的歷程/行銷活動版本，然後進行發佈。 發佈需要[發佈片段](../administration/ootb-product-profiles.md#content-library-manager)使用者權限。
 
 ## 編輯片段 {#edit-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
 >title="行銷活動中的片段更新"
->abstract="如果您對片段發佈變更，則將不會更新此行銷活動。需要發佈新版本才能支援片段更新功能。"
+>abstract="如果您對片段發佈變更，則將不會更新此行銷活動。 需要發佈新版本才能支援片段更新功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
 >title="歷程中的片段更新"
->abstract="如果您對片段發佈變更，則將不會更新此歷程。需要發佈新版本才能支援片段更新功能。"
+>abstract="如果您對片段發佈變更，則將不會更新此歷程。 需要發佈新版本才能支援片段更新功能。"
 
 若要編輯片段，請遵循以下步驟。
 

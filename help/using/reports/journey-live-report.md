@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '3731'
+source-wordcount: '3768'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="歷程即時報告"
->abstract="歷程即時報告可讓您僅在過去 24 小時內對歷程的影響和效能進行即時測量和視覺化。您的報告會分為不同的小工具，詳細說明您的歷程的成功和錯誤。每個報告儀表板都可以透過調整大小或移除小工具來修改。"
+>abstract="歷程即時報告可讓您僅在過去 24 小時內對歷程的影響和效能進行即時測量和視覺化。 您的報告會分為不同的小工具，詳細說明您的歷程的成功和錯誤。 每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
@@ -101,7 +101,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="已執行的動作和錯誤"
->abstract="「已執行的動作和錯誤」小工具呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。這個小工具提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的洞察。"
+>abstract="「已執行的動作和錯誤」小工具呈現過去 24 小時內觸發動作期間發生的最成功動作和任何錯誤。 這個小工具提供成功執行和所遇到錯誤的全面概觀，為您最近的動作績效提供珍貴的洞察。"
 
 ![](assets/journey_live_actions_errors.png)
 
@@ -135,7 +135,7 @@ ht-degree: 30%
 
 ![](assets/journey_live_error_type.png)
 
-動作&#x200B;**[!UICONTROL 的]**&#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
+動作&#x200B;]**的**[!UICONTROL &#x200B;錯誤型別表格和圖表提供過去24小時內每次執行動作所發生錯誤的完整概觀。
 
 ### 過去 24 小時內執行的事件 {#event-executed-24hours}
 
@@ -164,7 +164,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="依據來源劃分的事件"
->abstract="「依據來源劃分的事件」表格和圖表提供過去 24 小時內成功接收事件的檢視。這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的洞察。"
+>abstract="「依據來源劃分的事件」表格和圖表提供過去 24 小時內成功接收事件的檢視。 這些視覺表示可讓您準確識別有效接收的事件，進而為您歷程中每個事件的績效和影響提供珍貴的洞察。"
 
 ![](assets/journey_events_origin.png)
 
@@ -647,4 +647,4 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ![](assets/journey_live_inapp_interactions.png)
 
-依型別&#x200B;**[!UICONTROL 的]**&#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。
+依型別&#x200B;]**的**[!UICONTROL &#x200B;互動圖表和表格詳細說明了使用者如何透過追蹤任何點按、解除或互動來與您的應用程式內訊息互動。

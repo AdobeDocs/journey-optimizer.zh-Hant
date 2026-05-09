@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，網頁，內容卡，程式碼型體驗
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 8%
+source-wordcount: '1569'
+ht-degree: 14%
 
 ---
 
@@ -94,10 +94,10 @@ ht-degree: 8%
       </td>
       <td>
       <a href="../push/create-push.md">
-      <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
+      <img alt="不常使用" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>建立推播<strong></a>
+      <a href="../push/create-push.md"><strong>建立推播通知<strong></a>
       </div>
       <p>
       </td>
@@ -143,7 +143,7 @@ ht-degree: 8%
       </td>
       <td>
       <a href="../code-based/create-code-based.md">
-      <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
+      <img alt="不常使用" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
       <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
@@ -169,7 +169,7 @@ ht-degree: 8%
 
    這些不同的選項和要遵循的步驟在[本節](../content-management/gs-message-optimization.md)中有詳細說明。
 
-1. 使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，在您的歷程動作中以多種語言建立內容。 若要這麼做，請按一下&#x200B;**[!UICONTROL 新增語言]**&#x200B;按鈕，然後選取所需的&#x200B;**[!UICONTROL 語言設定]**。
+1. 使用&#x200B;**[!UICONTROL 語言]**&#x200B;區段，在您的歷程動作中以多種語言建立內容。 若想這麼做，就請按一下 **[!UICONTROL [新增語言]]** 按鈕，然後選取指定 **[!UICONTROL [語言設定]]**。
 
    有關如何設定及使用多語言功能的詳細資訊，請參閱[本節](../content-management/multilingual-gs.md)。
 
@@ -187,7 +187,7 @@ ht-degree: 8%
 
 +++**追蹤參與** （電子郵件、簡訊）。
 
-使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段來追蹤收件者對您的電子郵件或簡訊傳遞的反應。
+使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。
 
 執行歷程後，即可從歷程報表存取追蹤結果。
 
@@ -197,11 +197,11 @@ ht-degree: 8%
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動以非常快的速度傳送大量推送訊息。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。
 
-當您想要在行動電話上傳送緊急推播警報（例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者）時，如果訊息傳送延遲對業務至關重要，則會使用快速傳送。
+當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。
 
-瞭解如何在此頁面[啟用推播通知](../push/create-push.md#rapid-delivery)的快速傳遞模式。
+瞭解如何在此頁面](../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時效能的詳細資訊，請參閱[[!DNL Adobe Journey Optimizer] 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -238,7 +238,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="新增多項入站動作"
->abstract="您可以在單一歷程中選取多項入站動作。您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
+>abstract="您可以在單一歷程中選取多項入站動作。 您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
 
 若要簡化歷程協調，您可以在單一歷程動作中定義數個傳入動作。
 
@@ -268,7 +268,7 @@ ht-degree: 8%
 
    ![多重動作組態顯示要執行的動作清單](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. 從&#x200B;**動作**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**[!UICONTROL 網頁]**）。
+1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**網頁**）。
 
 1. 選取管道設定，並定義該動作的特定內容。
 

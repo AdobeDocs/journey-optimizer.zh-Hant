@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP、集區、傳遞能力
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '459'
 ht-degree: 11%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="啟用 IP 暖身計劃選項"
->abstract="當您選取此選項時，可以在 IP 暖身計劃中使用行銷活動。然後，活動排程將由與其關聯的 IP 暖身計劃驅動。"
+>abstract="當您選取此選項時，可以在 IP 暖身計劃中使用行銷活動。 然後，活動排程將由與其關聯的 IP 暖身計劃驅動。"
 
 在[!DNL Journey Optimizer]中建立IP熱身計畫本身之前，您必須先建立一或多個專門設計用於IP熱身計畫<!--through a dedicated option-->的行銷活動。
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
    >
    >IP熱身行銷活動不支援CSV上傳對象，且會在行銷活動啟用時導致錯誤。
 

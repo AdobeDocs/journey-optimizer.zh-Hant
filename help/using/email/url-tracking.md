@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 61%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="定義 URL 追蹤參數"
->abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。此功能為選用。"
+>abstract="使用此區段以將追蹤參數自動附加到電子郵件內容中的 URL。 此功能為選用。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
@@ -42,7 +42,7 @@ ht-degree: 61%
 
 若要設定 URL 追蹤參數，您可以在&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位中直接輸入所需的值。
 
-您也可以使用[個人化編輯器](../personalization/personalization-build-expressions.md)來編輯每個&#x200B;**[!UICONTROL 值]**&#x200B;欄位。按一下版本圖示以開啟編輯器。從那裡，您可以選取可用的內容屬性和/或直接編輯文字。
+您也可以使用[個人化編輯器](../personalization/personalization-build-expressions.md)來編輯每個&#x200B;**[!UICONTROL 值]**&#x200B;欄位。 按一下版本圖示以開啟編輯器。 從那裡，您可以選取可用的內容屬性和/或直接編輯文字。
 
 ![](assets/preset-url-tracking-editor.png)
 
@@ -68,7 +68,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->您可以結合輸入文字值並使用個人化編輯器中的內容屬性。每個&#x200B;**[!UICONTROL 值]**&#x200B;欄位可包含的字元數最多為 5 KB。
+>您可以結合輸入文字值並使用個人化編輯器中的內容屬性。 每個&#x200B;**[!UICONTROL 值]**&#x200B;欄位可包含的字元數最多為 5 KB。
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -78,7 +78,7 @@ ht-degree: 61%
 
 * 與 Google Analytics 相容的 URL：`www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
-您可以動態預覽產生的追蹤 URL。每次新增、編輯或移除參數時，預覽都會自動更新。
+您可以動態預覽產生的追蹤 URL。 每次新增、編輯或移除參數時，預覽都會自動更新。
 
 ![](assets/preset-url-tracking-preview.png)
 

@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Delegate a custom subdomain
-description: Learn how to delegate custom subdomains.
+title: 委派自訂子網域
+description: 瞭解如何委派自訂子網域。
 feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
-keywords: subdomain, delegation, domain, DNS
+keywords: 子網域、委派、網域、DNS
 badge: label="有限可用性" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 22%
@@ -23,29 +23,29 @@ ht-degree: 22%
 >
 >此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
-As an alternative to the [Fully delegated](about-subdomain-delegation.md#full-subdomain-delegation) and [CNAME set up](about-subdomain-delegation.md#subdomain-delegation-methods) methods, the **Custom delegation** method allows you to take the ownership of your subdomains within Journey Optimizer and to have full control over the generated certificates.
+作為[完全委派](about-subdomain-delegation.md#full-subdomain-delegation)和[CNAME設定](about-subdomain-delegation.md#subdomain-delegation-methods)方法的替代方法，**自訂委派**&#x200B;方法可讓您取得Journey Optimizer中子網域的所有權，並完全控制產生的憑證。
 
 >[!NOTE]
 >
->If your subdomain is currently set up with CNAME, you can also migrate it to custom delegation. [了解更多](custom-subdomain-migration.md)
+>如果您的子網域目前是以CNAME設定，您也可以將其移轉至自訂委派。 [了解更多](custom-subdomain-migration.md)
 
-As part of this process, Adobe needs to make sure that your DNS is accordingly configured for delivering, rendering and tracking messages. This is why you will be required to [upload the SSL certificate](#upload-ssl-certificate) obtained from the Certificate Authority and complete the [Feedback Loop steps](#feedback-loop-steps) by verifying domain ownership and reporting email address.
+在此程式中，Adobe需要確定您的DNS已正確設定，可用於傳遞、轉譯和追蹤訊息。 這就是為什麼您將需要[上傳從憑證授權單位取得的SSL憑證](#upload-ssl-certificate)，並透過驗證網域擁有權及報告電子郵件地址來完成[回圈步驟](#feedback-loop-steps)。
 
-To set up a custom subdomain, follow the steps below.
+若要設定自訂子網域，請遵循下列步驟。
 
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** menu.
+1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 子網域]**&#x200B;功能表。
 
-1. Click **[!UICONTROL Set up subdomain]**.
+1. 按一下&#x200B;**[!UICONTROL 設定子網域]**。
 
-1. From the **[!UICONTROL Set up method]** section, select **[!UICONTROL Custom delegation]**.
+1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自訂委派]**。
 
    ![](assets/subdomain-method-custom.png){width=90%}
 
-1. Specify the name of the subdomain to delegate.
+1. 指定要委派的子網域名稱。
 
    >[!CAUTION]
    >
-   >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
+   >您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品（例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]）傳送訊息。
 
 ## 建立 DNS 記錄 {#create-dns-records}
 
@@ -54,13 +54,13 @@ To set up a custom subdomain, follow the steps below.
 >title="產生相符的 DNS 記錄"
 >abstract="若要將自訂子網域委派給 Adobe，您必須將 Journey Optimizer 介面中顯示的名稱伺服器資訊複製並貼上到您的網域託管解決方案中，以產生相符的 DNS 記錄。"
 
-1. 要放置在 DNS 伺服器顯示中的記錄清單。 Copy these records, either one by one, or by downloading a CSV file.
+1. 要放置在 DNS 伺服器顯示中的記錄清單。 逐一複製這些記錄，或下載CSV檔案。
 
-1. Navigate to your domain hosting solution to generate the matching DNS records.
+1. 導覽至您的網域託管解決方案，以產生相符的DNS記錄。
 
-1. Make sure that all the DNS records have been generated into your domain hosting solution.
+1. 請確定所有DNS記錄都已產生至您的網域託管解決方案。
 
-1. If everything is configured properly, check the box &quot;I confirm...&quot;.
+1. 如果所有專案都已正確設定，請勾選「我確認……」方塊。
 
    ![](assets/subdomain-custom-submit.png){width="75%"}
 
@@ -76,15 +76,15 @@ To set up a custom subdomain, follow the steps below.
 >title="選取金鑰長度"
 >abstract="金鑰長度只能是 2048 位元或 4096 位元。 子網域提交後便無法變更金鑰長度。"
 
-1. In the **[!UICONTROL SSL Certificate]** section, click **[!UICONTROL Generate CSR]**.
+1. 在&#x200B;**[!UICONTROL SSL憑證]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 產生CSR]**。
 
    ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
-   >Your SSL certificate expiration date is displayed. Once the date is reached, you need to upload a new certificate.
+   >畫面會顯示您的SSL憑證到期日。 到達日期後，您需要上傳新憑證。
 
-1. Fill the form that displays and generate the Certificate Signing Request (CSR).
+1. 填寫顯示和產生憑證申請檔(CSR)的表單。
 
    ![](assets/subdomain-custom-generate-csr.png){width="70%"}
 
@@ -92,9 +92,9 @@ To set up a custom subdomain, follow the steps below.
    >
    >金鑰長度只能是 2048 位元或 4096 位元。 子網域提交後便無法變更金鑰長度。
 
-1. Click **[!UICONTROL Download CSR]** and save the form to your local computer.
+1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
-1. Send it to the Certificate Authority (CA) to get your SSL certificate. Before submitting this CSR to your CA for signing, there are a few important points to consider:
+1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。 在將此CSR提交給CA進行簽署之前，請注意以下幾個重要事項：
 
    * 從步驟3下載的CSR僅適用於data.subdomain.com。
 
@@ -154,7 +154,7 @@ To set up a custom subdomain, follow the steps below.
 
 ## 複製SSL CDN URL驗證記錄 {#copy-ssl-cdn-url-record}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >

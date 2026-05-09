@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 ![](assets/cja-experimentation-variants.png)
 
-成功量度的&#x200B;**變體**&#x200B;表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
+成功量度的&#x200B;**變體**表格會根據設定實驗時選取的成功量度，顯示每個變體的執行方式。
 如需深入瞭解這些結果以及如何解譯，請參閱[此頁面](../content-management/get-started-experiment.md#interpret-results)。
 
 +++ 進一步瞭解「依成功量度區分的變體」
