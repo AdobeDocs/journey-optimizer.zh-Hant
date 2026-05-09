@@ -66,7 +66,7 @@ ht-degree: 11%
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;活動拖放到畫布中。
 
-   歷程](assets/aep-data-activity.png)中的![[!DNL Adobe Experience Platform]資料集查詢活動
+   歷程![&#128279;](assets/aep-data-activity.png)中的[!DNL Adobe Experience Platform]資料集查詢活動
 
 1. 新增標籤和說明。
 

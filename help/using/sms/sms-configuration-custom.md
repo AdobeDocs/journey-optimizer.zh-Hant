@@ -68,7 +68,7 @@ ht-degree: 11%
 
 1. 啟用&#x200B;**[!UICONTROL mTLS支援]**&#x200B;選項，以確保使用者端和伺服器在建立安全連線之前互相驗證。
 
-   若要僅使用mTLS，請從&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 無驗證]**，然後啟用**的[!UICONTROL mTLS支援]**。
+   若要僅使用mTLS，請從&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 無驗證]**，然後啟用&#x200B;**的[!UICONTROL mTLS支援]**。
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
@@ -115,7 +115,7 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 

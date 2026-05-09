@@ -43,7 +43,7 @@ ht-degree: 38%
 
 ![](assets/custom1.png)
 
-瞭解如何在此專屬頁面](../action/troubleshoot-custom-action.md)上疑難排解自訂動作[。
+瞭解如何在此專屬頁面[&#128279;](../action/troubleshoot-custom-action.md)上疑難排解自訂動作。
 
 ## 作法影片 {#video}
 

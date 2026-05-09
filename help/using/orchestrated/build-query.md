@@ -56,7 +56,7 @@ ht-degree: 91%
 
    若要更快地建置條件，請選取一個值，然後按一下&#x200B;**[!UICONTROL 選取屬性和值]**，以填入目前條件的屬性和值。
 
-   您也可以使用顯示運算式編輯器圖示](assets/do-not-localize/activity-copy.svg)圖示的![影像，複製剪貼簿上的值，例如貼到運算式編輯器中。
+   您也可以使用顯示運算式編輯器圖示![&#128279;](assets/do-not-localize/activity-copy.svg)圖示的影像，複製剪貼簿上的值，例如貼到運算式編輯器中。
 
    ![顯示值分佈介面的影像](assets/rule-builder-distribution-values.png)
 

@@ -201,7 +201,7 @@ ht-degree: 14%
 
 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。
 
-瞭解如何在此頁面](../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
+瞭解如何在此頁面[&#128279;](../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
 
 如需使用快速傳遞模式時效能的詳細資訊，請參閱[[!DNL Adobe Journey Optimizer] 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

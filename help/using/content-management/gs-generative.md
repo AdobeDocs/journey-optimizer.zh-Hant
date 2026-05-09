@@ -142,7 +142,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ### 個人化運算式的AI助理 {#ai-assistant-personalization-editor-guardrails}
 
-下列護欄適用於[!UICONTROL Personalization編輯器]和電子郵件Designer中個人化運算式](generative-personalization-expressions.md)的[AI助理。
+下列護欄適用於[!UICONTROL Personalization編輯器]和電子郵件Designer中個人化運算式[&#128279;](generative-personalization-expressions.md)的AI助理。
 
 * **Offer與Experience Decisioning** — 不支援。
 * **我的最愛** — 不支援。

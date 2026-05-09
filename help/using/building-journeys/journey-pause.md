@@ -158,7 +158,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
+>* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 

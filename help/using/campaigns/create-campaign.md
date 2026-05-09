@@ -40,7 +40,7 @@ ht-degree: 54%
 
 ## Action行銷活動建立的關鍵步驟 {#steps}
 
-開始行銷活動之前，請檢查本節](get-started-with-campaigns.md#prerequisites)中列出的下列必要條件[。 在滿足這些先決條件後，您就可以開始建立行銷活動：
+開始行銷活動之前，請檢查本節[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的下列必要條件。 在滿足這些先決條件後，您就可以開始建立行銷活動：
 
 1. [定義「動作」行銷活動屬性](campaign-properties.md)
 1. [設定行銷活動動作](campaign-action.md)

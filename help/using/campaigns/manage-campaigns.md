@@ -243,7 +243,7 @@ ht-degree: 10%
 
 ## 刪除行銷活動 {#delete-a-campaign}
 
-若要刪除行銷活動，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除行銷活動，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取&#x200B;**[!UICONTROL 刪除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -253,7 +253,7 @@ ht-degree: 10%
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取[複製]****。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取[複製]&#x200B;**&#x200B;**。
 
 輸入行銷活動的名稱並進行確認。
 

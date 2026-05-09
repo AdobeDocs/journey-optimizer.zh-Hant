@@ -67,11 +67,11 @@ ht-degree: 26%
 
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
 
-   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案](items.md)
+   ➡️ [&#128279;](items.md)瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
-   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合](collections.md)
+   ➡️ [&#128279;](collections.md)瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合
 
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
 
