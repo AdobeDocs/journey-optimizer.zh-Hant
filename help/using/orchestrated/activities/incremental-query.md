@@ -8,10 +8,10 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="歷史記錄（天）"
->abstract="此設定控制該清單的保留時間。 0值表示無限期保留，不會移除任何記錄。"
+>abstract="此設定控制該清單的保留時間。 0 值表示無限期保留；不會移除任何記錄。"
 
 **[!UICONTROL 增量查詢]**&#x200B;活動是&#x200B;**[!UICONTROL 目標定位]**&#x200B;活動，每次執行協調的行銷活動時都會執行資料庫查詢。 重要部分是它只輸出&#x200B;**新**&#x200B;記錄。 會排除先前執行中擷取的任何人，以避免重新鎖定相同人員或重新匯出相同列。
 
