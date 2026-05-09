@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: 登陸、登陸頁面、子網域、設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 19%
+source-wordcount: '1013'
+ht-degree: 22%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="委派登陸頁面子網域"
->abstract="您將設定您的子網域以供登陸頁面使用。您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
+>abstract="您將設定您的子網域以供登陸頁面使用。 您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
@@ -97,7 +97,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的登陸頁面子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。一旦檢查成功，子網域就準備好可用於建立登陸頁面預設集了。"
+>abstract="若要設定新的登陸頁面子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。 一旦檢查成功，子網域就準備好可用於建立登陸頁面預設集了。"
 
 若要設定新的子網域，請遵循下列步驟。
 
@@ -147,7 +147,7 @@ ht-degree: 19%
 
    >[!NOTE]
    >
-   >登陸頁面子網域可以指向CNAME記錄，因為它是使用[CNAME方法](#lp-use-existing-subdomain)委派給Adobe的[現有子網域](../configuration/delegate-subdomain.md#cname-subdomain-setup)，或是您設定的[新登陸頁面子網域](#lp-configure-new-subdomain)。
+   >登陸頁面子網域可以指向CNAME記錄，因為它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-setup)委派給Adobe的[現有子網域](#lp-use-existing-subdomain)，或是您設定的[新登陸頁面子網域](#lp-configure-new-subdomain)。
 
 1. 請聯絡您的Adobe代表，提供您要取消委派的子網域。
 

@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 10%
+source-wordcount: '908'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="資料集查詢活動"
->abstract="透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。"
+>abstract="透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。"
 
-透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。透過運用此功能，您可以存取輪廓或事件裝載內容中可能未駐留的資料，確保客戶互動相關且及時。
+透過「**[!UICONTROL 資料集查詢]**」活動，您可以在執行階段期間從 [!DNL Adobe Experience Platform] 記錄資料集動態檢索資料。 善用此功能，您便能夠存取可能不是存放在輪廓或事件承載中的資料，確保及時與您的客戶進行相關的互動。
 
 >[!AVAILABILITY]
 >
@@ -66,7 +66,7 @@ ht-degree: 10%
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 資料集查詢]**&#x200B;活動拖放到畫布中。
 
-   歷程![[!DNL Adobe Experience Platform]中的](assets/aep-data-activity.png)資料集查詢活動
+   歷程![&#128279;](assets/aep-data-activity.png)中的[!DNL Adobe Experience Platform]資料集查詢活動
 
 1. 新增標籤和說明。
 

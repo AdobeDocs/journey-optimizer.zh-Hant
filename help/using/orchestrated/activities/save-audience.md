@@ -5,9 +5,9 @@ title: 使用儲存客群活動
 description: 瞭解如何在協調的行銷活動中使用「儲存對象」活動
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '597'
 ht-degree: 20%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="儲存客群活動"
->abstract="**儲存客群**&#x200B;活動是一種&#x200B;**目標選擇**&#x200B;活動，讓您可以更新現有的客群，或是從之前在協調式行銷活動中產生的群體中，建立新的客群。一旦建立完畢，就會將這些客群新增至應用程式客群清單，再從&#x200B;**客群**&#x200B;選單那邊存取。"
+>abstract="**儲存客群**&#x200B;活動是一種&#x200B;**目標選擇**&#x200B;活動，讓您可以更新現有的客群，或是從之前在協調式行銷活動中產生的群體中，建立新的客群。 一旦建立完畢，就會將這些客群新增至應用程式客群清單，再從&#x200B;**客群**&#x200B;選單那邊存取。"
 
 **[!UICONTROL 儲存對象]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，用來根據先前在協調的行銷活動中產生的母體來建立新對象或更新現有對象。 儲存後，對象會新增至應用程式對象清單，並可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取。
 

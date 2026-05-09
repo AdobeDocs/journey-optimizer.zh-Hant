@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 26%
+source-wordcount: '523'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]可讓您建立&#x200B;**AI模型**，以根據您的業務目標來排名優惠。
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="最佳化量度"
->abstract="[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。轉換率使用兩種類型的量度來計算：**曝光事件** (所顯示的產品建議) 和&#x200B;**轉換事件** (讓使用者透過電子郵件或網頁進行點選的產品建議)。我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。"
+>abstract="[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。 轉換率使用兩種類型的量度來計算：**曝光事件** (所顯示的產品建議) 和&#x200B;**轉換事件** (讓使用者透過電子郵件或網頁進行點選的產品建議)。 我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。"
 
 若要建立AI模型，請遵循下列步驟：
 
@@ -59,11 +59,11 @@ ht-degree: 26%
    >
    >**[!UICONTROL 最佳化量度]**&#x200B;區段提供有關AI模型用來計算優惠排名之轉換事件的資訊。
    >
-   >[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。轉換率是使用兩種量度型別來計算：
+   >[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。 轉換率是使用兩種量度型別來計算：
    >* **曝光事件** （顯示的選件）
    >* **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
    >
-   >系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 請在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)中進一步瞭解此專案。
+   >我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。 請在[Adobe Experience Platform Web SDK總覽](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)中進一步瞭解此專案。
 
 1. 選取轉換和曝光事件收集所在的資料集。 瞭解如何在[此區段](../data-collection/create-dataset.md)中建立這類資料集。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 

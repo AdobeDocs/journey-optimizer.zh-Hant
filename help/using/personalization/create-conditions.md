@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 8%
    屬性會組織為三個索引標籤：
 
    * **[!UICONTROL 設定檔]**：
-      * **[!UICONTROL 對象]**&#x200B;列出[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}的所有對象屬性（即狀態、版本等）。
+      * **[!UICONTROL 對象]**&#x200B;列出所有對象屬性（即狀態、版本等） 針對[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}，
       * **[!UICONTROL XDM個人設定檔]**&#x200B;列出與Adobe Experience Platform中定義的[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}相關聯的所有設定檔屬性。
    * **[!UICONTROL 內容]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
    * **[!UICONTROL 對象]**：列出從[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}中建立的區段定義產生的所有對象。
@@ -91,7 +91,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->為條件式內容變體命名時，僅使用英數字元(A-Z、a-z、0-9)。 在變體名稱中使用特殊字元（例如`<`、`>`、`=`、`{`、`}`等）可能會導致範本編輯器中斷或隱藏元件。
+>為條件式內容變體命名時，僅使用英數字元(A-Z、a-z、0-9)。 使用特殊字元（例如`<`、`>`、`=`、`{`、`}`等） 在變體名稱中，可能會導致範本編輯器破壞或隱藏元件。
 
 ## 編輯和刪除儲存的條件規則 {#edit-delete}
 

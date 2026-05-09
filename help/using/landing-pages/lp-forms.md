@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: '2080'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="選取資料集"
->abstract="定義要儲存並反映表單回應的資料集。您可以輸入內容搜尋特定資料集，或從清單中選取。"
+>abstract="定義要儲存並反映表單回應的資料集。 您可以輸入內容搜尋特定資料集，或從清單中選取。"
 
 <!--
 >[!NOTE]
@@ -115,7 +115,7 @@ ht-degree: 7%
 
 1. 選取&#x200B;**[!UICONTROL 預設集]**，其中包含要使用的連線以及表單的預先定義資料集。 [瞭解如何建立表單預設集](#create-form-preset)
 
-1. 按一下 **[!UICONTROL 建立]**。表單設計工具開啟，可讓您新增結構和內容[元件](../email/content-components.md#add-content-components)以建置您的內容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;元件。
+1. 按一下 **[!UICONTROL 建立]**。 表單設計工具開啟，可讓您新增結構和內容[元件](../email/content-components.md#add-content-components)以建置您的內容。 您可以使用[Text](../email/content-components.md#text)和&#x200B;**[!UICONTROL Field]**&#x200B;元件。
 
 1. 若要擷取設定檔資料和屬性，請新增特定欄位至您的表單。 [了解更多](#define-fields)
 
@@ -311,7 +311,7 @@ ht-degree: 7%
 
 +++我可以在登入頁面中使用草稿表單嗎？
 
-不可以。 只能選取已發佈的&#x200B;**表單**&#x200B;並將其內嵌在登入頁面中。
+不會。 只能選取已發佈的&#x200B;**表單**&#x200B;並將其內嵌在登入頁面中。
 
 +++
 

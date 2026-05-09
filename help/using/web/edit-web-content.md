@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 18%
+source-wordcount: '1096'
+ht-degree: 20%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="確認要編輯的 URL"
->abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
+>abstract="確認特定網頁的 URL，以用於編輯套用到上方定義之網頁設定的內容。 必須使用此 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="輸入要編輯的 URL"
->abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
+>abstract="輸入特定網頁的 URL，以用於編輯將套用到符合規則的所有網頁的內容。 必須使用 Adobe Experience Platform Web SDK 實作此網頁。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 若要開始編寫您的Web體驗，請遵循下列步驟。
@@ -71,7 +71,7 @@ ht-degree: 18%
    >
    >如果您嘗試載入無法載入的網站，則會顯示一則訊息，建議您安裝[Visual Editing Helper瀏覽器擴充功能](#install-visual-editing-helper)。 請參閱[本節](web-prerequisites.md#troubleshooting)中疑難排解的一些提示。
 
-1. 從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。 [了解更多](#content-components)
+1. 從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。[深入瞭解](#content-components)
 
 1. 使用：
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 調整從右邊內容窗格顯示的樣式，例如背景、文字顏色、邊框、大小、位置等。  — 視選取的元件而定。
+1. 根據所選的元件，調整從右側內容窗格顯示的樣式，例如背景、文字顏色、邊框、大小、位置等。
 
    ![](assets/web-designer-header-style.png)
 

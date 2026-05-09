@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '975'
 ht-degree: 18%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 18%
 
 >[!TAB 新增直接郵件訊息至歷程]
 
-1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**直接郵件**&#x200B;活動。
+1. 開啟您的歷程，然後從浮動視窗的&#x200B;**動作**&#x200B;區段拖放&#x200B;**[!UICONTROL 直接郵件]**&#x200B;活動。
 
 1. 提供訊息的基本資訊（標籤、說明、類別），然後選擇要使用的訊息設定。 根據預設，**[!UICONTROL 組態]**&#x200B;欄位會預先填入使用者用於該頻道的最後一個組態。 如需如何設定歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -71,7 +71,7 @@ ht-degree: 18%
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [了解更多](../audience/about-audiences.md)。
+1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [了解更多資訊](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >
@@ -89,7 +89,7 @@ ht-degree: 18%
    >
    >直接郵件支援&#x200B;**保留**&#x200B;功能，但目前不支援&#x200B;**處理**。 [瞭解如何使用實驗](../content-management/get-started-experiment.md)
 
-1. 行銷活動可以排程為特定日期，或設定為定期重複。 在&#x200B;**[!UICONTROL 本節]**&#x200B;中瞭解如何設定行銷活動的[排程](../campaigns/campaign-schedule.md)。
+1. 行銷活動可以排程為特定日期，或設定為定期重複。 在[本節](../campaigns/campaign-schedule.md)中瞭解如何設定行銷活動的&#x200B;**[!UICONTROL 排程]**。
 
 您現在可以開始設定擷取檔案，以傳送給直接郵件提供者。
 
@@ -100,12 +100,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="資料欄位"
->abstract="依直接郵件提供者之要求，新增並設定在摘取檔案中要顯示的欄位和資訊，才能把郵件寄送給你的客戶。你可以新增最多 50 欄。"
+>abstract="依直接郵件提供者之要求，新增並設定在摘取檔案中要顯示的欄位和資訊，才能把郵件寄送給你的客戶。 你可以新增最多 50 欄。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="摘取檔案格式"
->abstract="使用個人化編輯器指定每個欄位的標籤以及要顯示的資訊。<br/><br/>您可以透過「<b>排序方式</b>」選項，使用選定的欄位作為摘取檔案的欄排序依據。"
+>abstract="使用個人化編輯器指定每個欄位的標籤以及要顯示的資訊。<br/><br/> 您可以透過「<b>排序方式</b>」選項，使用選定的欄位做為摘取檔案的欄排序依據。"
 
 直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 
@@ -121,7 +121,7 @@ ht-degree: 18%
 
    1. 如果要將自動時間戳記新增到指定的檔案名稱，請選擇性地啟用&#x200B;**[!UICONTROL 附加時間戳記以匯出檔案名稱]**&#x200B;選項。
 
-   1. 有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。若要這麼做，請使用&#x200B;**[!UICONTROL 附註]**&#x200B;欄位，然後指定是否要以頁首或頁尾形式包含附註。
+   1. 有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。 若要這麼做，請使用&#x200B;**[!UICONTROL 附註]**&#x200B;欄位，然後指定是否要以頁首或頁尾形式包含附註。
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 

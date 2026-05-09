@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
 
 # 搜尋、篩選、整理 {#search-filter-organize}
 
-隨著您的 Adobe Journey Optimizer 專案發展，尋找和整理內容對於提高工作效率至關重要。此頁面說明如何使用通用搜尋快速找到歷程、行銷活動和資產；篩選清單以聚焦於特定項目；以及使用標籤和類別來整理您的工作。這些工具可協助您導覽大量內容、維護跨團隊的一致性，並簡化您的日常工作流程。
+隨著您的 Adobe Journey Optimizer 專案發展，尋找和整理內容對於提高工作效率至關重要。 此頁面說明如何使用通用搜尋快速找到歷程、行銷活動和資產；篩選清單以聚焦於特定項目；以及使用標籤和類別來整理您的工作。 這些工具可協助您導覽大量內容、維護跨團隊的一致性，並簡化您的日常工作流程。
 
 ## 搜尋 {#unified-search}
 
-在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙箱尋找資產、歷程、資料集等等。 
+在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙箱尋找資產、歷程、資料集等等。
 
-開始輸入內容以顯示排名最前的結果。有關輸入關鍵字的說明文章也會顯示在結果中。
+開始輸入內容以顯示排名最前的結果。 有關輸入關鍵字的說明文章也會顯示在結果中。
 
 ![](assets/unified-search.png)
 
@@ -35,15 +35,15 @@ ht-degree: 100%
 
 在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。
 
-按一下清單左上方的篩選圖示，即可存取篩選器。篩選選單可讓您根據不同條件篩選顯示的元素：您可選擇僅顯示特定類型或狀態的元素、您建立的元素，或最近 30 天修改的元素。 選項會因內容而異。
+按一下清單左上方的篩選圖示，即可存取篩選器。 篩選選單可讓您根據不同條件篩選顯示的元素：您可選擇僅顯示特定類型或狀態的元素、您建立的元素，或最近 30 天修改的元素。 選項會因內容而異。
 
 此外，您也可利用統一標籤來篩選清單，視指派至物件的標籤而定。 目前，標籤可供歷程與行銷活動使用。 [了解如何使用標籤](#tags)
 
 >[!NOTE]
 >
->請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。系統會為每位使用者儲存個人化設定。
+>請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。 系統會為每位使用者儲存個人化設定。
 
-您可以對清單的每一元素執行基本動作。例如，您可以複製或刪除項目。
+您可以對清單的每一元素執行基本動作。 例如，您可以複製或刪除項目。
 
 ![](assets/journey4.png)
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="標記"
->abstract="您可以利用此欄位為您的行銷活動指派 Adobe Experience Platform 統一標籤。這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 "
+>abstract="您可以利用此欄位為您的行銷活動指派 Adobe Experience Platform 統一標籤。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。"
 
 利用 Adobe Experience Platform [統一標籤](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=zh-Hant)，您可以輕鬆將 Journey Optimizer 物件分類，進而改善清單的搜尋。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 ### 新增標籤至物件 {#add-tags}
 
-**[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。標籤可用於下列物件：
+**[!UICONTROL 標籤]**&#x200B;欄位可讓您定義物件的標籤。 標籤可用於下列物件：
 
 * [行銷活動](../campaigns/create-campaign.md)
 * [決定項目](../experience-decisioning/items.md)
@@ -73,9 +73,9 @@ ht-degree: 100%
 * [範本](../content-management/content-templates.md)
 * [頻道設定](../configuration/channel-surfaces.md#channel-config-tags)
 
-您可選取現有標籤或建立新標籤。若要執行此操作，請遵循下列步驟。
+您可選取現有標籤或建立新標籤。 若要執行此操作，請遵循下列步驟。
 
-1. 開始輸入所需標籤的名稱，然後從清單選取該名稱。 
+1. 開始輸入所需標籤的名稱，然後從清單選取該名稱。
 
    ![](assets/tags1.png)
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
    ![](assets/tags4.png)
 
-1. 所選或建立的標籤清單會顯示在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下方。您可視需要定義任意數量的標籤。
+1. 所選或建立的標籤清單會顯示在&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位下方。 您可視需要定義任意數量的標籤。
 
 >[!NOTE]
 > 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 ### 管理標籤 {#manage-tags}
 
-管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
+管理員可利用&#x200B;**[!UICONTROL 管理]**&#x200B;下方的&#x200B;**[!UICONTROL 標籤]**&#x200B;選單來刪除標籤，並依類別進行管理。 請參閱[統一標籤文件](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=zh-Hant)，深入了解標籤管理。
 
 >[!NOTE]
 >

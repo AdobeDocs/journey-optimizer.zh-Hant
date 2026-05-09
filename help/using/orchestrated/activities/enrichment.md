@@ -5,9 +5,9 @@ title: 使用擴充活動
 description: 了解如何使用擴充活動
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_targetdata_personalization_enrichmentdata"
 >title="擴充資料"
->abstract="選取要用於擴充協調的行銷活動的資料。您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
+>abstract="選取要用於擴充協調的行銷活動的資料。 您可以選取兩種類型的擴充資料：目標維度中的單一擴充屬性，或集合連結 (即表格之間具有 1-N 基數的連結)。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment_data"
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 1. 按一下「**新增擴充資料**」，並選取要用來擴充資料的屬性。
 
-   您可以選取兩種類型的擴充資料：來自目標維度的單一擴充屬性，或是集合連結。以下範例詳細說明了每種類型：
+   您可以選取兩種類型的擴充資料：來自目標維度的單一擴充屬性，或是集合連結。 以下範例詳細說明了每種類型：
 
    * [單一擴充屬性](#single-attribute)
    * [集合連結](#collection-link)
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ### 集合連結 {#collection-link}
 
-此使用案例利用連結表格的資料來擴充您的客群。例如，您想要擷取最近三次金額低於美金 100 元的購買。
+此使用案例利用連結表格的資料來擴充您的客群。 例如，您想要擷取最近三次金額低於美金 100 元的購買。
 
 若要達成此目的，請依照以下方式設定擴充：
 

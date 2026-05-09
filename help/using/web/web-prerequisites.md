@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 10%
+source-wordcount: '1410'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。這會增加您的[可參與設定檔總數](../audience/license-usage.md)，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
+>* [!DNL Journey Optimizer] 網路行銷活動會選擇以其他管道上不曾有過互動的新輪廓為目標。 這會增加您的[可參與設定檔總數](../audience/license-usage.md)，如果您購買的可參與設定檔數量超過合約數量，可能會影響成本。 各個套件的授權量度都列在 [Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}頁面上。 您可以在[授權使用儀表板](../audience/license-usage.md)中檢查可參與的設定檔數目。
 >
 >* 以您的網頁定位假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與的設定檔計數及相關成本。 [了解更多](../start/guardrails.md#profile-management-inbound)
 
@@ -136,7 +136,7 @@ ht-degree: 10%
 
 ## 報表必要條件 {#experiment-prerequisites}
 
-若要啟用Web Channel的報告，您必須確定在您的Web實作[資料流](../data/get-started-datasets.md)中使用的[資料集](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}也包含在您的報告設定中。
+若要啟用Web Channel的報告，您必須確定在您的Web實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在您的報告設定中。
 
 換言之，在設定報告時，如果您新增的資料集不存在您的網路資料流中，網路資料將不會顯示在您的報告中。
 

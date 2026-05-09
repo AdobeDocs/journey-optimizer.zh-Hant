@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1066'
 ht-degree: 50%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="建立構成"
->abstract="建立構成工作流程，以將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並利用各種活動 (分割、排除…) 建立新的對象。"
+>abstract="建立構成工作流程，將現有的 Adobe Experience Platform 對象合併到視覺化畫布中，並善用各種活動 (分割、排除…) ，建立新客群。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
@@ -40,7 +40,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="排除類型"
->abstract="使用排除客群類型以排除屬於現有客群的設定檔。使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
+>abstract="使用排除客群類型以排除屬於現有客群的設定檔。 使用屬性類型的排除可讓您根據特定屬性排除設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
@@ -50,7 +50,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="擴充活動"
->abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的客群。例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給客群的內容。"
+>abstract="使用擴充活動透過來自 Adobe Experience Platform 資料集的其他屬性來擴充您的客群。 例如，您可以新增與所購買產品相關的資訊 (例如名稱、價格或製造商 ID)，並利用這些資訊來個人化傳遞給客群的內容。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -65,12 +65,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="擴充屬性"
->abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。一旦發佈構成，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
+>abstract="從擴充資料集中選取要和客群相關聯的一或多個屬性。 一旦發佈構成，這些屬性就會和客群相關聯，並且可以在 Journey Optimizer 行銷活動中加以利用以將傳遞個人化。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="排名活動"
->abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的構成中。例如，包含忠誠度點數最多的 50 個設定檔。"
+>abstract="排名可讓您根據特定屬性對輪廓進行排名，並將它們包含在您的構成中。 例如，包含忠誠度點數最多的 50 個設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
@@ -87,12 +87,12 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="分割活動"
->abstract="分割活動可讓您將構成分成多個路徑。發佈構成時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
+>abstract="分割活動可讓您將構成分成多個路徑。 發佈構成時，會針對每個路徑儲存一個客群到 Adobe Experience Platform 中。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="分割類型"
->abstract="使用百分比分割類型將設定檔隨機分割為多個路徑。屬性分割類型可讓您根據特定屬性分割設定檔。"
+>abstract="使用百分比分割類型將設定檔隨機分割為多個路徑。 屬性分割類型可讓您根據特定屬性分割設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
@@ -105,7 +105,7 @@ ht-degree: 50%
 
 >[!ENDSHADEBOX]
 
-對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……）來建立新對象。
+對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……） ，建立新客群。
 
 完成後，**產生的對象**&#x200B;會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
 ![](assets/audiences-process.png)

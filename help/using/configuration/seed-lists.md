@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 16%
+source-wordcount: '997'
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 >
 >目前該功能僅適用於電子郵件管道。
 
-種子地址用於鎖定不符合所定義的目標準則的收件者。如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
+種子地址用於鎖定不符合所定義的目標準則的收件者。 如此一來，不在傳遞範圍的收件者可以像任何其他目標收件者一樣接收傳遞。
 
 種子地址不是真正的設定檔，也不會測試設定檔，因為它們不包含任何設定檔詳細資料。 他們只是儲存在系統中的內部利害關係人的收件者。 在特定行銷活動或歷程中選取它們時，它們會包含在傳送執行時間，這表示出於保證目的會收到傳送的復本。
 
@@ -83,13 +83,13 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="定義種子清單"
->abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。目前該功能僅適用於電子郵件管道。"
+>abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。 種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。 目前該功能僅適用於電子郵件管道。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
 >title="填寫種子名單"
->abstract="選取要在傳遞執行時包含在內並將收到您訊息的準確副本地址。您可以匯入 CSV 檔案或手動輸入電子郵件地址。"
+>abstract="選取要在傳遞執行時包含在內並將收到您訊息的準確副本地址。 您可以匯入 CSV 檔案或手動輸入電子郵件地址。"
 
 若要建立種子清單，請遵循下列步驟。
 

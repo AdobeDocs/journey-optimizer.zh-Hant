@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1748'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 3%
 
 1. 提供主題的名稱。
 
-1. 視需要自行調整，就像從頭開始建立主題時一樣，例如新增顏色變體、編輯字型等。 [了解作法](#create-and-edit-themes)
+1. 視需要自行調整，就像從頭開始建立主題時一樣，例如新增顏色變體、編輯字型等。[瞭解如何進行](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

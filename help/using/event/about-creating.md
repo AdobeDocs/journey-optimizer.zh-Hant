@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 13%
+source-wordcount: '1729'
+ht-degree: 15%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
 >title="單一事件"
->abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。單一事件會連結到特定的設定檔。它們可能是以規則為基礎或由系統產生。"
+>abstract="事件設定可讓您定義 Journey Optimizer 會接收為事件的資訊。 您可以使用多個事件 (在歷程的不同步驟中)，而好幾個歷程可以使用同一個事件。 單一事件會連結到特定的設定檔。 它們可能是以規則為基礎或由系統產生。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_parameters"
 >title="參數"
->abstract="定義事件的參數，例如結構描述和承載欄位。對於規則型事件，請使用「**[!UICONTROL 事件 ID 條件]**」欄位來定義系統要用哪些條件來確認將會觸發您的歷程的事件。新增用於事件的身份識別類型和輪廓識別碼。"
+>abstract="定義事件的參數，例如結構描述和承載欄位。 對於規則型事件，請使用「**[!UICONTROL 事件 ID 條件]**」欄位來定義系統要用哪些條件來確認將會觸發您的歷程的事件。 新增用於事件的身份識別類型和輪廓識別碼。"
 
-單一事件會連結到特定的設定檔。可以是規則型或系統產生。  閱讀有關單一事件[本節](../event/about-events.md)的詳細資訊。
+單一事件會連結到特定的設定檔。 它們可能是以規則為基礎或由系統產生。  閱讀有關單一事件[本節](../event/about-events.md)的詳細資訊。
 
 以下是設定新事件的第一個步驟：
 
@@ -56,7 +56,7 @@ ht-degree: 13%
 
 1. 使用此事件的歷程次數會顯示在&#x200B;**[!UICONTROL 用於]**&#x200B;欄位中。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;圖示，以顯示使用此事件的歷程清單。
 
-1. 定義結構和裝載欄位：您可以在此處選取歷程預期會收到的事件資訊（通常稱為裝載）。 接著，您就可以在歷程中使用這項資訊。請參閱[本節](../event/about-creating.md#define-the-payload-fields)。
+1. 定義結構和裝載欄位：您可以在此處選取歷程預期會收到的事件資訊（通常稱為裝載）。 接著，您就可以在歷程中使用這項資訊。 請參閱[本節](../event/about-creating.md#define-the-payload-fields)。
 
    ![](assets/jo-event5.png)
 
@@ -74,13 +74,13 @@ ht-degree: 13%
    >
    >如果您在建立事件後，使用新的列舉值修改綱要，則需要按照以下步驟將變更套用至現有事件：從事件欄位中取消選取列舉欄位，確認選擇，然後再次選取列舉欄位。 現在會顯示新的分項清單。
 
-1. 新增身分型別。 此步驟為選填，但建議您新增身分型別，以便運用儲存在「即時客戶個人檔案服務」的資訊。 它會定義事件具備的金鑰類型。請參閱[此章節](../event/about-creating.md#select-the-namespace)深入瞭解。
+1. 新增身分型別。 此步驟為選填，但建議您新增身分型別，以便運用儲存在「即時客戶個人檔案服務」的資訊。 它會定義事件具備的金鑰類型。 請參閱[此章節](../event/about-creating.md#select-the-namespace)深入瞭解。
 
 1. 定義設定檔識別碼：從您的裝載欄位選擇一個欄位，或定義一個公式以識別與事件相關聯的人員。 如果您選取身分型別，此金鑰會自動設定（但仍可編輯）。 事實上，歷程會挑選應該與身分型別對應的金鑰（例如，如果您選取電子郵件身分型別，則會選取電子郵件金鑰）。 請參閱[此章節](../event/about-creating.md#define-the-event-key)深入瞭解。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
+   條件現在已設定完畢，且準備好放入歷程中。 若要接收事件，則需要完成其他設定步驟。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey.md)。
 
 ## 定義裝載欄位 {#define-the-payload-fields}
 
@@ -119,7 +119,7 @@ ht-degree: 13%
 
 您可以使用現有的身分型別，或使用Adobe Experience Platform Identity Service建立新的身分型別。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant){target="_blank"}中進一步瞭解。
 
-如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 然後您必須選取身分型別，而且會使用&#x200B;**[!UICONTROL identityMap > id]**&#x200B;預先填入金鑰（_身分型別_&#x200B;欄位下方）。
+如果您選取具有主要身分的結構描述，則會預先填入&#x200B;**[!UICONTROL 效能評測器識別碼]**&#x200B;和&#x200B;**[!UICONTROL 身分型別]**&#x200B;欄位。 如果未定義任何身分，我們選取&#x200B;_identityMap > id_&#x200B;作為主索引鍵。 然後您必須選取身分型別，而且會使用&#x200B;_identityMap > id_&#x200B;預先填入金鑰（**[!UICONTROL 身分型別]**&#x200B;欄位下方）。
 
 選取欄位時，會標籤主要身分欄位。
 

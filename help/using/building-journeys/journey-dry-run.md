@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1158'
 ht-degree: 15%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="試執行模式"
->abstract="本次歷程處於試執行階段。歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。  此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。"
+>abstract="本次歷程處於試執行階段。 歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。  此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="在試執行模式中發佈歷程"
->abstract="歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
+>abstract="歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。 設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
 歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。  此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。
 
@@ -58,7 +58,7 @@ Journey Dirun提供：
 
   ![在試執行歷程中灰色的動作活動](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[時，您可以變更此行為](#journey-dry-run-start)。
+* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[&#128279;](#journey-dry-run-start)時，您可以變更此行為。
 
 * **回應**&#x200B;節點未執行：進入它的所有設定檔都將成功結束。 但是，下列優先順序規則適用：
    * 如果&#x200B;**回應**&#x200B;節點同時搭配一或多個&#x200B;**單一事件**&#x200B;節點使用，則設定檔將一律透過回應事件。
@@ -66,7 +66,7 @@ Journey Dirun提供：
 
 >[!CAUTION]
 >
->* 啟動試回合的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止練習的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>* 啟動試回合的許可權僅限於具有&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權的使用者。 停止練習的許可權僅限於具有&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權的使用者。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 >
 >* 開始使用試執行功能之前，[請先閱讀護欄和限制](#journey-dry-run-limitations)。
 
@@ -143,7 +143,7 @@ Journey Dirun提供：
 
 如果您將stepEvent資料匯出至&#x200B;**外部系統**，則可以使用`inDryRun`標幟來篩選試執行專案。
 
-使用&#x200B;**查詢服務分析**&#x200B;歷程報告量度[!DNL Adobe Experience Platform]時，必須排除練習產生的步驟事件。 若要這麼做，請排除`inDryRun`為`true`的步驟事件（亦即僅包含`inDryRun`為`null`或`false`的事件）。
+使用[!DNL Adobe Experience Platform]查詢服務分析&#x200B;**歷程報告量度**&#x200B;時，必須排除練習產生的步驟事件。 若要這麼做，請排除`inDryRun`為`true`的步驟事件（亦即僅包含`inDryRun`為`null`或`false`的事件）。
 
 ## 作法影片 {#dry-run-video}
 

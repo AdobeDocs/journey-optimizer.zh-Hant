@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 18%
+source-wordcount: '842'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 建立優惠方案之前，請確定您已建立：
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
 >title="產品建議詳細資料"
->abstract="填寫產品建議的名稱及其開始及結束日期。在這些日期之外，決策引擎將不會選取該產品建議。"
+>abstract="填寫產品建議的名稱及其開始及結束日期。 在這些日期之外，決策引擎將不會選取該產品建議。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
@@ -83,7 +83,7 @@ ht-degree: 18%
 
    ![](../assets/offer_manage-access.png)
 
-1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。[了解更多](add-representations.md)
+1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。 [了解更多](add-representations.md)
 
    個人化表示內容時，僅支援某些函式 — 請參閱個人化編輯器中的[支援函式](personalization-editor-supported-functions.md)。
 
@@ -97,7 +97,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
+   >當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
    >
    >請注意，當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。 例如，適用性規則要求目前天氣為≥80度。
 

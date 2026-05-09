@@ -7,9 +7,9 @@ mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1604'
 ht-degree: 22%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
 >title="發佈協調式行銷活動"
->abstract="若要開始您的行銷活動，您必須發佈該活動。在發佈前，請確定所有錯誤都已清除。"
+>abstract="若要開始您的行銷活動，您必須發佈該活動。 在發佈前，請確定所有錯誤都已清除。"
 
 一旦您建立了協調的行銷活動並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。 您也可以在測試模式下執行行銷活動，以檢查其執行和不同活動的結果。
 
@@ -64,7 +64,7 @@ ht-degree: 22%
 
 行銷活動畫布工具列中的![警告圖示](assets/campaign-warning.png){zoomable="yes"}
 
-您也可以使用直接顯示在每個活動上的[視覺狀態指標](#activities)，快速識別失敗的活動。如需詳細的疑難排解，請開啟[行銷活動的記錄](#logs-tasks)，其中提供有關錯誤及其內容的深入資訊。
+您也可以使用直接顯示在每個活動上的[視覺狀態指標](#activities)，快速識別失敗的活動。 如需詳細的疑難排解，請開啟[行銷活動的記錄](#logs-tasks)，其中提供有關錯誤及其內容的深入資訊。
 
 如果您已在畫布中新增頻道活動，您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽和測試訊息的內容。 [瞭解如何使用頻道活動並模擬內容](activities/channels.md#simulate-content-test-profiles)。
 
@@ -92,7 +92,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->對於非循環行銷活動，訊息傳送會在發佈後暫停，直到您從管道活動的屬性窗格明確確認傳送為止。 此行銷活動將顯示為&#x200B;**即時**，但在確認之前不會傳送任何訊息。 [了解更多](#confirm-sending)
+>對於非循環行銷活動，訊息傳送會在發佈後暫停，直到您從管道活動的屬性窗格明確確認傳送為止。 此行銷活動將顯示為&#x200B;**即時**，但在確認之前不會傳送任何訊息。 [進一步了解](#confirm-sending)
 
 ### 發佈時間執行順序 {#publication-sequence}
 
@@ -140,10 +140,10 @@ ht-degree: 22%
 
 ![顯示設定檔流程的行銷活動工作流程執行](assets/workflow-execution.png){zoomable="yes"}
 
-透過轉變從一個活動傳輸到另一個活動的資料會儲存在暫時工作表中。此資料可針對每個轉變顯示。若要檢查在活動之間傳遞的資料：
+透過轉變從一個活動傳輸到另一個活動的資料會儲存在暫時工作表中。 此資料可針對每個轉變顯示。 若要檢查在活動之間傳遞的資料：
 
 1. 選取轉變。
-1. 在屬性窗格中，按一下「**[!UICONTROL 預覽結構描述]**」以檢視工作表結構描述。選取「**[!UICONTROL 預覽結果]**」以檢視傳輸的資料。
+1. 在屬性窗格中，按一下「**[!UICONTROL 預覽結構描述]**」以檢視工作表結構描述。 選取「**[!UICONTROL 預覽結果]**」以檢視傳輸的資料。
 
    ![顯示工作表結構描述和結果的轉換預覽](assets/transition.png){zoomable="yes"}
 

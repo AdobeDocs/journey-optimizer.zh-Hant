@@ -6,10 +6,10 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 86%
+source-wordcount: '909'
+ht-degree: 85%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
+>若要存取行銷活動協調，您的授權必須包含 **Journey Optimizer - 行銷活動和歷程**&#x200B;或 **Journey Optimizer - 行銷活動**&#x200B;套件。 請聯絡您的 Adobe 代表以確認您的授權並在需要時進行更新。
 
-雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。
+雖然跨頻道行銷至關重要，但協調的行銷活動可使其順暢無礙。 透過視覺化的拖放介面，您可以跨多個頻道設計和自動化複雜的行銷工作流程，從細分到訊息傳遞。 所有事情都在單個直觀環境中進行，專為速度、控制能力和效率而打造。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 86%
 <td><img alt="隨選客群" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>隨選客群</b><br/>立即跨資料集查詢，以使用任何資料類型與維度的組合來建立客群細分群體。</td></tr>
 <tr style="border: 0;">
 <td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體細分和傳送</b><br/>超越以人員為基礎的行銷活動，可精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
-支援多層級傳送，其中每個輪廓和每個關聯的次要實體會傳送一封訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
+支援多級傳送，其中每個設定檔和每個關聯的次要實體會傳送一條訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
 <tr style="border: 0;">
 <td><img alt="預先傳送可見度與精確度" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>預先傳送可見度與精確度</b><br/>在行銷活動推出前，取得精確的細分計數與完整的行銷活動範圍可確保精確度與可信度。</td></tr>
 <tr style="border: 0;">
@@ -67,19 +67,19 @@ ht-degree: 86%
 
 ## 協調的行銷活動內含哪些內容？ {#gs-ms-campaign-inside}
 
-協調的行銷活動畫布代表應該發生的情況。其會說明要執行的各種任務以及任務如何連結在一起。
+協調的行銷活動畫布代表應該發生的情況。 其會說明要執行的各種任務以及任務如何連結在一起。
 
 ![顯示協調的行銷活動畫布的影像](assets/canvas-example.png)
 
 每個協調的行銷活動包含：
 
-* **活動**：活動指要執行的任務。[各種活動](activities/about-activities.md)在畫布中會以圖示表示。每種活動都有特定屬性和所有活動共有的其他屬性。
+* **活動**：活動指要執行的任務。 [各種活動](activities/about-activities.md)在畫布中會以圖示表示。 每種活動都有特定屬性和所有活動共有的其他屬性。
 
   在協調的行銷活動畫布中，一個特定活動可以產生多個任務，特別是存在循環或週期性動作時。
 
 * **轉變**：轉變會將來源活動連結到目標活動並定義其序列。
 
-* **工作表**：工作表包含轉變攜帶的所有資訊。每個協調的行銷活動會使用多個工作表。在這些表格中傳達的資料可以用於整個協調行銷活動的生命週期。
+* **工作表**：工作表包含轉變攜帶的所有資訊。 每個協調的行銷活動會使用多個工作表。 在這些表格中傳達的資料可以用於整個協調行銷活動的生命週期。
 
 典型的入門級協調行銷活動會遵循以下模式： **建立對象→分支→管道A +管道B**。
 
@@ -121,7 +121,7 @@ ht-degree: 86%
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="不頻繁" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="不常使用" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>使用活動</strong></a>

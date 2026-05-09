@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 14%
+source-wordcount: '731'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 若要建立核准政策，請遵循下列步驟：
 
-1. 從&#x200B;**[!UICONTROL 中的]**&#x200B;管理[!DNL Journey Optimizer]功能表，存取&#x200B;**[!UICONTROL 許可權]**&#x200B;然後&#x200B;**[!UICONTROL 原則]**。
+1. 從[!DNL Journey Optimizer]中的&#x200B;**[!UICONTROL 管理]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 許可權]**&#x200B;然後&#x200B;**[!UICONTROL 原則]**。
 
    ![在許可權功能表中建立核准原則按鈕](assets/policy_create_1.png)
 
@@ -145,7 +145,7 @@ ht-degree: 14%
 
    +++
 
-1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[]** And **或[]** Or **以指定連線條件的方式。]**
+1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**&#x200B;[!UICONTROL &#x200B; And &#x200B;]&#x200B;**]或[**&#x200B;[!UICONTROL &#x200B; Or &#x200B;]&#x200B;**]以指定連線條件的方式。]**
 
 1. 在&#x200B;**[!UICONTROL Then，傳送核准要求至]**&#x200B;功能表下，按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;以定義哪些使用者可以接受核准要求。
 
@@ -157,7 +157,7 @@ ht-degree: 14%
 
    ![核准要求收件者選擇介面](assets/policy_condition_2.png)
 
-1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[]** And **或[]** Or **以指定連線條件的方式。]**
+1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**&#x200B;[!UICONTROL &#x200B; And &#x200B;]&#x200B;**]或[**&#x200B;[!UICONTROL &#x200B; Or &#x200B;]&#x200B;**]以指定連線條件的方式。]**
 
 1. 完成原則設定後，請按一下[儲存]。**&#x200B;**
 

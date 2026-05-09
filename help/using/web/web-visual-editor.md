@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 10%
    >
    >您也可以在不載入視覺化編輯器的情況下編輯網頁內容。 若要這麼做，請取消選取&#x200B;**[!UICONTROL 視覺化編輯器]**&#x200B;選項，改用非視覺化版本模式。 [了解更多](web-non-visual-editor.md)
 
-1. 在網頁設計工具中選取畫布中的任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。 [了解更多](#content-components)
+1. 在網頁設計工具中，從畫布中選取任何元素，例如影像、按鈕、段落、文字、容器、標題、連結等。[深入瞭解](#content-components)
 
 1. 若要編輯元素，您可以使用：
 
@@ -107,7 +107,7 @@ ht-degree: 10%
 
    ![](assets/web-designer-edit-header.png)
 
-1. 調整從右邊內容窗格顯示的樣式，例如背景、文字顏色、邊框、大小、位置等。  — 視選取的元件而定。
+1. 根據所選的元件，調整從右側內容窗格顯示的樣式，例如背景、文字顏色、邊框、大小、位置等。
 
    ![](assets/web-designer-header-style.png)
 

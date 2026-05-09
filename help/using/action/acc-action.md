@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign， acc，整合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '716'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Adobe Campaign v7/v8 動作"
->abstract="此整合適用於 Adobe Campaign v7 和 v8。這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
+>abstract="此整合適用於 Adobe Campaign v7 和 v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。 Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。"
 
 如果您有Adobe Campaign Classic v7或Campaign v8，則可在您的歷程中使用特定的自訂動作，以整合Adobe Journey Optimizer和Adobe Campaign。 此整合可讓您使用Adobe Campaign異動訊息功能來傳送電子郵件、推播通知和SMS。 在此[端對端使用案例](../building-journeys/ajo-ac.md)中瞭解更多。
 
@@ -33,12 +33,12 @@ ht-degree: 9%
 
 >[!BEGINTABS]
 
->[!TAB 適用於Adobe Journey Optimizer 的]
+>[!TAB 適用於Adobe Journey Optimizer的] 
 
 * 組織ID (Adobe OrgID)
 * 沙箱名稱
 
->[!TAB 適用於Adobe Campaign 的]
+>[!TAB 適用於Adobe Campaign的] 
 
 * 行銷活動伺服器URL
 * 即時伺服器URL

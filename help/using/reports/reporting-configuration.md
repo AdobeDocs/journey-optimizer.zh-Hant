@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 設定，實驗，報告，最佳化工具
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 28%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="設定資料集以進行報告"
->abstract="報告設定可讓您擷取將在行銷活動報表中使用的其他量度。必須由技術使用者執行。"
+>abstract="報告設定可讓您擷取將在行銷活動報表中使用的其他量度。 必須由技術使用者執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"

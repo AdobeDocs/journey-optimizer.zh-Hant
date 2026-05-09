@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1182'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
 >title="表示頁面或應用程式內的特定位置"
->abstract="此欄位會指定您希望使用者存取之頁面或應用程式內的確切目標。它可以是網頁內的特定區段，也可以是應用程式導覽結構深處的頁面。"
+>abstract="此欄位會指定您希望使用者存取之頁面或應用程式內的確切目標。 它可以是網頁內的特定區段，也可以是應用程式導覽結構深處的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ ht-degree: 22%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則[的](../web/web-configuration.md#web-page-matching-rule)頁面，您必須輸入預設的撰寫和預覽URL **[!UICONTROL ，以便在瀏覽器中預覽體驗。]**&#x200B;[了解更多](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -136,7 +136,7 @@ ht-degree: 22%
 
 1. 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。 這可在應用程式的作業環境中進行準確的識別和設定，並確保順暢的整合和功能。
 
-1. 提供應用程式&#x200B;**[!UICONTROL 內的]**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
+1. 提供應用程式&#x200B;**內的**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_3.png)
 
@@ -148,13 +148,13 @@ ht-degree: 22%
 
    * 若為Android：
 
-      * [建立應用程式內容的深度連結](https://developer.android.com/training/app-links/deep-linking)
+      * [建立應用程式內容的深層連結](https://developer.android.com/training/app-links/deep-linking)
 
    * 若為iOS：
 
-      * [定義您的應用程式的自訂 URL 綱要](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+      * [為您的應用程式定義自訂URL配置](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
 
-      * [支援您的應用程式中的通用連結](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+      * [在您的應用程式中支援通用連結](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
 
    +++
 
@@ -174,7 +174,7 @@ ht-degree: 22%
 
    >[!CAUTION]
    >
-   >請務必輸入與您自己的實施中所使用之URI相符的表面URI。 否則，將無法傳送變更。 [了解更多](code-based-surface.md#uri-composition)
+   >確保您輸入的表面 URI 符合您自己的實作中使用的 URI。 否則，將無法傳送變更。 [了解更多](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL 視需要新增另一個表面URI]**。 您可以新增最多10個URI。
 

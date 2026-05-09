@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 自訂，一般，事件，歷程
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 20%
+source-wordcount: '645'
+ht-degree: 23%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="單一事件"
->abstract="事件可讓您一致性地觸發歷程，以即時傳送訊息給流入歷程的個人。對於這類事件，您只能新增標籤和說明。事件設定由資料工程師執行，並且無法編輯。"
+>abstract="事件可讓您一致性地觸發歷程，以即時傳送訊息給流入歷程的個人。 對於這類事件，您只能新增標籤和說明。 事件設定由資料工程師執行，並且無法編輯。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business_canvas"
 >title="商業事件"
->abstract="這些事件讓您可以使用非設定檔相關的事件開始一個歷程。該事件觸發時，您就能夠向設定檔的對象傳送訊息。對於這類事件，您只能新增標籤和說明。事件設定由技術使用者執行，而且無法編輯。"
+>abstract="這些事件讓您可以使用非設定檔相關的事件開始一個歷程。 該事件觸發時，您就能夠向設定檔的對象傳送訊息。 對於這類事件，您只能新增標籤和說明。 事件設定由技術使用者執行，而且無法編輯。"
 
-事件可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。
+事件可讓您一致性地觸發歷程，以即時傳送訊息給流入歷程的個人。
 
-對於這類事件，您只能新增標籤和說明。無法編輯其餘的組態。 它由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
+對於這類事件，您只能新增標籤和說明。 無法編輯其餘的組態。 它由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
 
 在[本節](entry-management.md#journey-processing-rate)中進一步瞭解事件輸送量和歷程處理率。
 

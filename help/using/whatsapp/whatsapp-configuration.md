@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 12%
+source-wordcount: '1196'
+ht-degree: 13%
 
 ---
 
@@ -63,12 +63,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="傳入關鍵字類別"
->abstract="<b>選擇加入</b>：當使用者訂閱時，傳送您定義的自動回覆。<br/><b>選擇退出</b>：當使用者取消訂閱時，傳送您定義的自動回覆。<br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回覆。<br/><b>預設</b>：找不到關鍵字相符項目時，傳送您的備用自動回覆。"
+>abstract="<b>選擇加入</b>：當使用者訂閱時，傳送您定義的自動回覆。 <br/><b>選擇退出</b>：當使用者取消訂閱時，傳送您定義的自動回覆。 <br/><b>說明</b>：當使用者要求說明或支援時，傳送您定義的自動回覆。 <br/><b>預設</b>：找不到關鍵字相符項目時，傳送您的備用自動回覆。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="輸入您的關鍵字"
->abstract="您可以定義關鍵字，根據使用者輸入的文字來觸發特定的自動回應。關鍵字不區分大小寫，例如 stop 與 STOP 將被視為相同字詞。"
+>abstract="您可以定義關鍵字，根據使用者輸入的文字來觸發特定的自動回應。 關鍵字不區分大小寫，例如 stop 與 STOP 將被視為相同字詞。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"

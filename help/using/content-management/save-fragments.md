@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 13%
+source-wordcount: '510'
+ht-degree: 14%
 
 ---
 
 # 將內容另存為片段 {#save-as-fragment}
 
-在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[儲存內容為片段](#save-as-visual-fragment)，或從運算式編輯器[儲存內容](#save-as-expression-fragment)。
+在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[&#128279;](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >視覺化片段不能超過100KB。
+   >視覺化片段不能超過 100KB。
 
 1. **[!UICONTROL 另存為片段]**&#x200B;畫面隨即顯示。 在該處選取您要納入片段中的元素，包括個人化欄位和動態內容。
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >您只能選取彼此相鄰的區段。您無法選取空的結構或其他片段。
+   >您只能選取彼此相鄰的區段。 您無法選取空的結構或其他片段。
 
 1. 按一下「**[!UICONTROL 建立]**」並填入片段名稱和說明（如有需要）。
 
@@ -53,7 +53,7 @@ ht-degree: 13%
 
 1. 從&#x200B;**標籤**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將範本分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
 
-1. 按一下 **[!UICONTROL 建立]**。片段已新增至[片段清單](#access-manage-fragments)，且狀態為&#x200B;**草稿**。 它會變成獨立的片段，可當作該清單中的任何其他視覺片段使用。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。 片段已新增至[片段清單](#access-manage-fragments)，且狀態為&#x200B;**草稿**。 它會變成獨立的片段，可當作該清單中的任何其他視覺片段使用。
 
    >[!NOTE]
    >
@@ -66,9 +66,9 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="另存為運算式片段"
->abstract="[!DNL Journey Optimizer] 個人化編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。"
+>abstract="[!DNL Journey Optimizer] 個人化編輯器可讓您將內容另存為運算式片段。 然後這些運算式可用於建置個人化內容。"
 
-[!DNL Journey Optimizer] 個人化編輯器可讓您將內容另存為運算式片段。然後這些運算式可用於建置個人化內容。
+[!DNL Journey Optimizer] 個人化編輯器可讓您將內容另存為運算式片段。 然後這些運算式可用於建置個人化內容。
 
 若要將內容另存為運算式片段，請遵循下列步驟。
 

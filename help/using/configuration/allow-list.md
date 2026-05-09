@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 keywords: 允許清單，安全清單，電子郵件，傳遞能力，沙箱，網域，隱藏，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 12%
@@ -88,13 +88,13 @@ ht-degree: 12%
 
 停用功能時，不會套用允許清單邏輯。 請參閱[此章節](#logic)深入瞭解。
 
-## Add entities to the allowed list {#add-entities}
+## 將實體新增至允許清單 {#add-entities}
 
-To add new email addresses or domains to the allowed list for a specific sandbox, you can either [manually populate the list](#manually-populate-list), or use an [API call](#api-call-allowed-list).
+若要新增電子郵件地址或網域至特定沙箱的允許清單，您可以[手動填入清單](#manually-populate-list)，或使用[API呼叫](#api-call-allowed-list)。
 
 >[!NOTE]
 >
->The allowed list can contain up to 1,000 entries.
+>允許清單最多可包含1,000個專案。
 
 ### 手動填入允許清單 {#manually-populate-list}
 
@@ -108,21 +108,21 @@ To add new email addresses or domains to the allowed list for a specific sandbox
 >title="將地址或網域新增到允許清單"
 >abstract="您可以透過逐一選取來手動將新的電子郵件地址或網域新增到允許清單中。"
 
-You can manually populate the [!DNL Journey Optimizer] allowed list by adding an email address or a domain through the user interface.
+您可以透過使用者介面新增電子郵件地址或網域，以手動填入[!DNL Journey Optimizer]允許清單。
 
 >[!NOTE]
 >
->You can only add one email address or domain at a time.
+>您一次只能新增一個電子郵件地址或網域。
 
 請依照下列步驟以執行此操作。
 
-1. Select the **[!UICONTROL Add email or domain]** button.
+1. 選取&#x200B;**[!UICONTROL 新增電子郵件或網域]**&#x200B;按鈕。
 
-   ![Add email or domain button on the allowed list page](assets/allowed-list-add-email.png)
+   ![在允許清單頁面上新增電子郵件或網域按鈕](assets/allowed-list-add-email.png)
 
 1. 選擇地址類型：**[!UICONTROL 電子郵件地址]**&#x200B;或&#x200B;**[!UICONTROL 網域地址]**。
 
-1. Enter the email address or domain you want to send emails to.
+1. 輸入您要傳送電子郵件的電子郵件地址或網域。
 
    >[!NOTE]
    >
@@ -130,43 +130,43 @@ You can manually populate the [!DNL Journey Optimizer] allowed list by adding an
 
 1. 如果需要，請指定原因。
 
-   ![Form to add an email address or domain to the allowed list, with an optional reason field](assets/allowed-list-add-email-address.png)
+   ![新增電子郵件地址或網域至允許清單的表單，帶有選擇性的原因欄位](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >All ASCII characters in the range 32 to 126 are allowed in the **[!UICONTROL Reason]** field. 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
+   >在&#x200B;**[!UICONTROL 原因]**&#x200B;欄位中允許32到126範圍內的所有ASCII字元。 例如，完整清單可在[此頁面](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}中找到。
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**。
 
-### Add entities using an API call {#api-call-allowed-list}
+### 使用API呼叫新增實體 {#api-call-allowed-list}
 
-To populate the allowed list, you can also call the suppression API with the `ALLOWED` value for the `listType` attribute. 例如：
+若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如：
 
-![Example API call to add an entry to the allowed list using the suppression API](assets/allow-list-api.png)
+![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
 
-You can perform the **Add**, **Delete** and **Get** operations.
+您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-Learn more about making API calls in the [Adobe Experience Platform APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"} reference documentation.
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
-## Download the allowed list {#download-allowed-list}
+## 下載允許清單 {#download-allowed-list}
 
-To export the allowed list as a CSV file, follow the steps below:
+若要將允許清單匯出為CSV檔案，請執行以下步驟：
 
-1. Select the **[!UICONTROL Download CSV]** button.
+1. 選取&#x200B;**[!UICONTROL 下載CSV]**&#x200B;按鈕。
 
-   ![Download CSV button on the allowed list page](assets/allowed-list-download-csv.png)
+   ![下載允許清單頁面上的CSV按鈕](assets/allowed-list-download-csv.png)
 
-1. Wait until the file is generated.
+1. 等候檔案產生。
 
-   ![Notification indicating the CSV file is being generated](assets/allowed-list-download-generate.png)
+   ![表示正在產生CSV檔案的通知](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
-   >Download time depends on the file size, meaning the number of addresses that are on the allowed list.
+   >下載時間取決於檔案大小，亦即允許清單中的位址數量。
    >
-   >One download request can be processed at a time for a given sandbox.
+   >對於指定的沙箱，一次可處理一個下載請求。
 
-1. Once the file is generated, you receive a notification. Click the bell icon on top right of the screen to display it.
+1. 檔案產生後，您會收到通知。 按一下畫面右上方的鈴鐺圖示即可顯示。
 
 1. 按一下通知本身以下載檔案。
 

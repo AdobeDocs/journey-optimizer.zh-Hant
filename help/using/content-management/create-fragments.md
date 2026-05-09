@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 449e8c9c1df7942346bcc94195aee89f2ecbc8f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 21%
+source-wordcount: '832'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="選取運算式類型"
->abstract="建立獨立的運算式片段，以便在多個歷程和行銷活動中可重複使用你的內容。使用個人化編輯器時，您可以利用在目前沙箱上建立的所有運算式片段。"
+>abstract="建立獨立的運算式片段，以便在多個歷程和行銷活動中可重複使用你的內容。 使用個人化編輯器時，您可以利用在目前沙箱上建立的所有運算式片段。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="使用個人化編輯器"
 
 片段可從左側&#x200B;**[!UICONTROL 片段]**&#x200B;功能表從頭建立。 此外，您也可以在設計內容時，將現有內容的一部分儲存為片段。 [了解作法](save-fragments.md#)
@@ -67,7 +67,7 @@ ht-degree: 21%
 >
 >片段中不支援[內容屬性](../personalization/personalization-build-expressions.md)。
 >
->在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。[進一步了解連結和追蹤](../email/message-tracking.md)
+>在歷程或行銷活動中啟用追蹤時，如果您將連結新增至片段，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [進一步了解連結和追蹤](../email/message-tracking.md)
 
 * 針對視覺片段，視需要編輯您的內容，就像處理歷程或行銷活動中的任何電子郵件一樣。 [了解更多](../email/get-started-email-design.md)
 
@@ -93,7 +93,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->視覺化片段不能超過 100KB。運算式片段不能超過 200KB。
+>視覺化片段不能超過 100KB。 運算式片段不能超過 200KB。
 
 已建立片段並新增至具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的片段清單。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
 

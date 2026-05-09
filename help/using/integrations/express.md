@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '584'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Adobe Express 整合"
->abstract="透過 Adobe Express 整合開始將您的資產個人化。此功能讓您可以調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為 JPEG 或 PNG。"
+>abstract="透過 Adobe Express 整合開始將您的資產個人化。 此功能讓您可以調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為 JPEG 或 PNG。"
 
 >[!IMPORTANT]
 >

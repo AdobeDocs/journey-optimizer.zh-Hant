@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 23%
+source-wordcount: '717'
+ht-degree: 26%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
 >title="什麼是決策?"
->abstract="決策是決策管理以外的新工具，從決定引擎中挑選出最好的項目並傳送給每個個體。要使用決策必須額外進行設定。"
+>abstract="決策是決策管理以外的新工具，從決定引擎中挑選出最好的項目並傳送給每個個體。 要使用決策必須額外進行設定。"
 
 ## 什麼是決策 {#about}
 
-決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
+決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
 
 這些決定專案已順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗： [程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊和推播通知。
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 若要要求存取權，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 如欲請求存取權，請和您的 Adobe 代表聯絡。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -67,11 +67,11 @@ ht-degree: 23%
 
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
 
-   ➡️ [瞭解如何在使用者介面（以及](items.md)API檔案[）中建立決定專案](api-reference/decisions-items/create.md)
+   ➡️ [&#128279;](items.md)瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
-   ➡️ [瞭解如何在使用者介面（以及](collections.md)API檔案[）中管理專案集合](api-reference/items-collections/create.md)
+   ➡️ [&#128279;](collections.md)瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合
 
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
 

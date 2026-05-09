@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 34%
+source-wordcount: '856'
+ht-degree: 33%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 34%
 
 1. **選取通道設定**
 
-   會由[系統管理員](../start/path/administrator.md)定義設定。它包含所有用於傳送訊息的技術參數，如標頭參數、子網域、行動應用程式等等。[瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
+   會由[系統管理員](../start/path/administrator.md)定義設定。 它包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。[瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 
@@ -70,7 +70,7 @@ ht-degree: 34%
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面[啟用推播通知](../push/create-push.md#rapid-delivery)的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面[&#128279;](../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -78,7 +78,7 @@ ht-degree: 34%
 
 +++**指派優先順序分數** （網頁、應用程式內、程式碼型）
 
-為行銷活動指派優先順序分數，可讓您在有強加的限制（例如頻率上限）時，為傳入行銷活動設定優先順序。 請輸入數值 (從 0 到 100)。請注意，數字越大，表示優先順序越高。[瞭解如何將優先順序分數指派給歷程與行銷活動](../conflict-prioritization/priority-scores.md)
+為行銷活動指派優先順序分數，可讓您在有強加的限制（例如頻率上限）時，為傳入行銷活動設定優先順序。 請輸入數值 (從 0 到 100)。 請注意，數字越大，表示優先順序越高。 [瞭解如何將優先順序分數指派給歷程與行銷活動](../conflict-prioritization/priority-scores.md)
 
 +++
 
@@ -99,7 +99,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action"
 >title="新增多項入站動作"
->abstract="您可以在單一行銷活動中選取多項入站動作。此功能可讓您同時對不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，且每個動作都包含特定內容。"
+>abstract="您可以在單一行銷活動中選取多項入站動作。 此功能可讓您同時對不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或網頁動作，且每個動作都包含特定內容。"
 
 為簡化行銷活動策劃，您可以在單一行銷活動內定義數個傳入動作，每個動作會包含特定內容。
 
@@ -113,7 +113,7 @@ ht-degree: 34%
 
 若要定義行銷活動中的數個傳入動作，請遵循下列步驟。
 
-1. 從&#x200B;**動作**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**[!UICONTROL 網頁]**）。
+1. 從&#x200B;**[!UICONTROL 動作]**&#x200B;區段選取輸入動作（**程式碼型體驗**、**應用程式內訊息**、**內容卡**&#x200B;或&#x200B;**網頁**）。
 
 1. 選取管道設定，並定義該動作的特定內容。
 

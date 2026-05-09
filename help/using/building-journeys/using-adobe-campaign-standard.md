@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，整合， standard，行銷活動， ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '981'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="自訂動作"
->abstract="如果您有 [!DNL Adobe Campaign] Standard，則可整合。這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。"
+>abstract="如果您有 [!DNL Adobe Campaign] Standard，則可整合。 這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。"
 
 如果您有[!DNL Adobe Campaign] Standard，則可使用下列內建動作活動： **[!UICONTROL 電子郵件]**、**[!UICONTROL 推播]**&#x200B;和&#x200B;**[!UICONTROL 簡訊]**。
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >針對電子郵件使用設定檔的交易式範本時，[!DNL Adobe Campaign] Standard會自動處理取消訂閱機制。
->在&#x200B;**[!UICONTROL 交易式電子郵件範本]**&#x200B;中包含[取消訂閱連結](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)內容區塊。
+>在[交易式電子郵件範本](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)中包含&#x200B;**[!UICONTROL 取消訂閱連結]**&#x200B;內容區塊。
 >如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向至取消訂閱的登陸頁面。
 >建立登入頁面，並確保將收件者的取消訂閱決定傳輸至Adobe。
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此類別只有在您選取「事件」交易式訊息時才會顯示。 對於「設定檔」訊息，系統會自動從&#x200B;**[!UICONTROL Standard擷取]**&#x200B;位址[!DNL Adobe Campaign]欄位。
+>此類別只有在您選取「事件」交易式訊息時才會顯示。 對於「設定檔」訊息，系統會自動從[!DNL Adobe Campaign] Standard擷取&#x200B;**[!UICONTROL 位址]**&#x200B;欄位。
 
 這些是系統需要知道將訊息傳送到何處的欄位。 如果是電子郵件範本，則為電子郵件地址。 如果是簡訊，則為行動電話號碼。
 
@@ -99,7 +99,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->只有在選取事件訊息時，才會顯示此類別。 對於設定檔訊息，系統使用&#x200B;**[!UICONTROL Standard所執行的調解，自動擷取]**&#x200B;目標[!DNL Adobe Campaign]欄位。
+>只有在選取事件訊息時，才會顯示此類別。 對於設定檔訊息，系統使用[!DNL Adobe Campaign] Standard所執行的調解，自動擷取&#x200B;**[!UICONTROL 目標]**&#x200B;欄位。
 
 在此區段中，您必須定義&#x200B;**[!UICONTROL 推播平台]**。 下拉式清單可讓您選取&#x200B;**[!UICONTROL Apple推播通知伺服器]** (iOS)或&#x200B;**[!UICONTROL Firebase雲端訊息]** (Android)。 或者，您可以從事件或資料來源選取特定欄位，或定義進階運算式。
 

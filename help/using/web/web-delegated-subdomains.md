@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、子網域、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '991'
 ht-degree: 22%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="委派網頁子網域"
->abstract="您將設定您的子網域以供網頁管道使用。您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
+>abstract="您將設定您的子網域以供網頁管道使用。 您可以使用已委派給 Adobe 的子網域，或設定另一個子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="委派網頁子網域"
->abstract="如果您將來自 Adobe Experience Manager Assets 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。選取已委派給 Adobe 的子網域，或設定新的子網域。"
+>abstract="如果您將來自 Adobe Experience Manager Assets 的內容新增到您的網頁體驗中，則必須設定將用來發佈此內容的子網域。 選取已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="設定網頁子網域"
->abstract="從已委派給 Adobe 的子網域清單中選取一個子網域。您可以將此網頁子網域設定為預設子網域，但一次只能使用一個預設子網域。"
+>abstract="從已委派給 Adobe 的子網域清單中選取一個子網域。 您可以將此網頁子網域設定為預設子網域，但一次只能使用一個預設子網域。"
 
 ## 開始使用Web子網域 {#gs-web-subdomains}
 
@@ -97,7 +97,7 @@ Web子網域設定是&#x200B;**所有環境通用的設定**。 因此：
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的 Web 子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。檢查成功後，子網域即可用於發佈來自 Adobe Experience Manager Assets 資料庫的內容。"
+>abstract="若要設定新的 Web 子網域，您需要將 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊複製後貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。 檢查成功後，子網域即可用於發佈來自 Adobe Experience Manager Assets 資料庫的內容。"
 
 依預設，[!DNL Journey Optimizer]可讓您委派總計&#x200B;**最多10個子網域** （涵蓋電子郵件和網路頻道）。 然而，根據您的授權合約，您最多可委派 100 個子網域。 請聯絡您的 Adobe 聯絡人，了解更多您有權使用的子網域數量。
 

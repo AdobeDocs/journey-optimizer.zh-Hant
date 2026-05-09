@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 22%
+source-wordcount: '605'
+ht-degree: 24%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="個人化體驗"
->abstract="使用 **Adobe Journey Optimizer**，利用手邊關於他們的資料與資訊，調整給各個特定接收者的訊息。可以是他們的姓氏、興趣、居住的地方、購買的產品等等。"
+>abstract="使用 **Adobe Journey Optimizer**，利用手邊關於他們的資料與資訊，調整給各個特定接收者的訊息。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。"
 
 [!DNL Adobe Journey Optimizer]個人化功能可讓您運用您擁有的訊息相關資料與資訊，將訊息調整至每個特定收件者。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。
 
@@ -83,7 +83,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="不頻繁" src="assets/do-not-localize/functions.png">
+<img alt="不常使用" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>協助程式函式清單</strong></a>
@@ -91,7 +91,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="不頻繁" src="assets/do-not-localize/uc.png">
+<img alt="不常使用" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization使用案例</strong></a>

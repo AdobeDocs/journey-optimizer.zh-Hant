@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 33%
@@ -74,22 +74,22 @@ ht-degree: 33%
 
    ➡️ [瞭解如何建立決定原則](../experience-decisioning/create-decision-policy.md)
 
-1. **Use the decision policy in your content**
+1. **在您的內容中使用決定原則**
 
-   Personalize your content with the decision policy output by inserting the attributes from the decision items you want to display in the message
+   透過插入您要在訊息中顯示的決定專案屬性，使用決定原則輸出個人化您的內容
 
    ➡️ [瞭解如何在訊息中使用決定原則](../experience-decisioning/create-decision-policy.md)
 
 ## 作法影片 {#video}
 
-Learn how to use Decisioning to personalize emails for your audience.
+瞭解如何使用Decisioning為受眾個人化電子郵件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476175?captions=chi_hant&quality=12)
 
-Learn how to use Decisioning to personalize push notifications for your audience.
+瞭解如何使用Decisioning為受眾個人化推播通知。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479221?captions=chi_hant&quality=12)
 
-Learn how to use Decisioning to personalize SMS messages for your audience.
+瞭解如何使用Decisioning為受眾個人化SMS訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479540?captions=chi_hant&quality=12)

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer]可讓您使用經過訓練的模型系統，為特定設定檔顯示的優惠方案排名。
 
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 [!DNL Journey Optimizer]中有兩種可用的AI模型型別：
 
-* **自動最佳化模型**&#x200B;旨在提供可最大化業務使用者端所設定回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。 此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能進行最佳化。 [了解更多](auto-optimization-model.md)
+* **自動最佳化模型**&#x200B;旨在提供可最大化業務使用者端所設定回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能進行最佳化。 [了解更多](auto-optimization-model.md)
 
 * **個人化最佳化模型**&#x200B;可讓您定義業務目標，並利用客戶資料來訓練業務導向模型，以提供個人化優惠並最大化KPI。 [了解更多](personalized-optimization-model.md)
 
@@ -67,6 +67,6 @@ ht-degree: 19%
 
 ## 作法影片 {#video}
 
-瞭解如何為Offer Decisioning建立AI模型，以及如何將其套用至決策。
+了解如何建立 Offer Decisioning 的 AI 模式，以及如何將其套用至決策。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3445655?captions=chi_hant&quality=12)

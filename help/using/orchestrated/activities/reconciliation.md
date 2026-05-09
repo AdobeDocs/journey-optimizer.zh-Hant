@@ -5,9 +5,9 @@ title: 設定調和活動
 description: 瞭解如何在協調的行銷活動中使用調解活動
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 84%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 84%
 
 **[!UICONTROL 擴充]**&#x200B;活動可讓您新增其他資料至您的「已協調」行銷活動，例如，合併來自多個來源的資料或連結至暫時資源。 相對地，**[!UICONTROL 調和]**&#x200B;活動用來比對未識別或外部資料與資料庫中現有的資源。
 
-**[!UICONTROL 調和]**&#x200B;要求系統中已存在相關記錄。例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
+**[!UICONTROL 調和]**&#x200B;要求系統中已存在相關記錄。 例如，如果您匯入列有產品、時間戳記和客戶資訊的購買檔案，產品和客戶必須已存在於資料庫中才能建立連結。
 
 ## 設定調和活動 {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
 >title="目標市場選擇維度"
->abstract="選取新的目標市場選擇維度。維度可讓您定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設會選取目前的目標市場選擇維度。"
+>abstract="選取新的目標市場選擇維度。 您可以透過維度定義目標群體：收件者、應用程式訂閱者、操作者、訂閱者等。預設情況下，已選取目前的目標選擇維度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
@@ -89,16 +89,16 @@ ht-degree: 84%
 
    ![](../assets/workflow-reconciliation-criteria.png)
 
-1. 若要新增更多匹配規則，請按一下「**[!UICONTROL 新增規則]**」。必須符合所有條件，才能匹配。
+1. 若要新增更多匹配規則，請按一下「**[!UICONTROL 新增規則]**」。 必須符合所有條件，才能匹配。
 
-1. 如需更複雜的條件，請選擇「**[!UICONTROL 進階調和條件]**」。使用[規則產生器](../orchestrated-rule-builder.md)來定義自訂邏輯。
+1. 如需更複雜的條件，請選擇「**[!UICONTROL 進階調和條件]**」。 使用[規則產生器](../orchestrated-rule-builder.md)來定義自訂邏輯。
 
 1. 若要篩選要調解的資料，請按一下&#x200B;**[!UICONTROL 建立篩選器]**，然後在規則產生器中定義條件。
 
-1. 預設情況下，不匹配的資料會保留在傳出轉變中，並儲存在工作表中。若要移除不匹配的資料，請啟用「**[!UICONTROL 保留未調和的資料]**」選項。
+1. 預設情況下，不匹配的資料會保留在傳出轉變中，並儲存在工作表中。 若要移除不匹配的資料，請啟用「**[!UICONTROL 保留未調和的資料]**」選項。
 
 ## 範例 {#example-reconciliation}
 
-此範例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 調和]**&#x200B;活動，以確保電子郵件只傳送給可識別的客戶。資料會透過&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動傳入，該活動會鎖定具有先前訂單的使用者。 然後&#x200B;**[!UICONTROL 調和]**&#x200B;活動會使用電子郵件欄位，將此傳入資料與資料庫中的現有設定檔比對。
+此範例使用 Adobe Journey Optimizer 中的&#x200B;**[!UICONTROL 調和]**&#x200B;活動，以確保電子郵件只傳送給可識別的客戶。 資料會透過&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動傳入，該活動會鎖定具有先前訂單的使用者。 然後&#x200B;**[!UICONTROL 調和]**&#x200B;活動會使用電子郵件欄位，將此傳入資料與資料庫中的現有設定檔比對。
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)

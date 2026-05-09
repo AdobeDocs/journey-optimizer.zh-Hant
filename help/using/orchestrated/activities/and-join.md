@@ -5,9 +5,9 @@ title: 使用合併連結活動
 description: 瞭解如何在協調的行銷活動中使用AND — 加入活動
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '276'
 ht-degree: 84%
 
 ---
@@ -18,23 +18,23 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
 >title="合併連結活動"
->abstract="**合併連結**&#x200B;活動讓您可以同步處理協調式行銷活動的多個執行分支。一旦所有前面的活動完成，就會觸發此活動。 這讓您可以確保特定活動完成後才繼續執行協調式行銷活動。"
+>abstract="**合併連結**&#x200B;活動讓您可以同步處理協調式行銷活動的多個執行分支。 所有前面的活動完成後即會觸發此活動。 這讓您可以確保特定活動完成後才繼續執行協調式行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_join"
 >title="連接活動"
 >abstract="連接活動的預留位置。"
 
-「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。它可讓您同步處理協調行銷活動的多個執行分支。
+「**[!UICONTROL 合併連結]**」活動是一種&#x200B;**[!UICONTROL 流程控制]**&#x200B;活動。 它可讓您同步處理協調行銷活動的多個執行分支。
 
-此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。這可讓您在繼續執行「協調流程」行銷活動之前，確定特定活動已完成。
+此活動只會在所有傳入轉變啟動後，才會觸發其傳出轉變，換句話說，會在所有之前的活動完成後觸發。 這可讓您在繼續執行「協調流程」行銷活動之前，確定特定活動已完成。
 
 ## 設定合併連結活動{#and-join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="合併選項"
->abstract="選取您要參加的活動。在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
+>abstract="選取您要參加的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
 請按照以下步驟設定&#x200B;**[!UICONTROL 合併連結]**&#x200B;活動：
 

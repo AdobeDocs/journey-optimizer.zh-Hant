@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 17%
+source-wordcount: '629'
+ht-degree: 19%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="選取行銷活動的對象"
->abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。為你的行銷活動選取目標對象。在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。[了解更多關於客群](../audience/about-audiences.md)"
+>abstract="此清單顯示所有可用的 Adobe Experience Platform 對象。 為你的行銷活動選取目標對象。 在行銷活動中設定的訊息將傳送給屬於所選對象的所有個人。 [了解更多關於客群](../audience/about-audiences.md)"
 
 對象是具有相同類似行為和/或特徵的人集合。 透過Adobe Experience Platform Segmentation Service，這些功能可在Adobe Experience Platform上集中設定和維護，並可在Journey Optimizer中輕鬆存取，以便在您的歷程和行銷活動中啟用。
 
 Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受眾，以強化行銷工作。 在與Adobe Real-Time Customer Data Platform結合時，Journey Optimizer可讓您針對更複雜的細分細分細分細分細分細分對象，並與其他Adobe Experience Cloud解決方案雙向共用對象。
 
-As real-time data streams or batch uploads occur, datasets update, and Journey Optimizer dynamically moves individuals in and out of audiences and journeys in real time.
+發生即時資料串流或批次上傳時，資料集會更新，而Journey Optimizer會即時以動態方式將個人移入和移出對象和歷程。
 
 >[!BEGINSHADEBOX]
 
@@ -54,11 +54,11 @@ As real-time data streams or batch uploads occur, datasets update, and Journey O
 
 從受眾入口網站，您可以透過標準標籤、治理控制、可搜尋資料夾和標籤輕鬆管理、尋找和探索受眾。
 
-For more information on how to work with audiences in the Audience Portal, refer to the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}.
+如需如何在Audience Portal中使用對象的詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
 
-## Audiences types {#types}
+## 對象型別 {#types}
 
-Audiences can be generated using different methods:
+您可以使用不同方法來產生對象：
 
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 對象是從區段定義產生，並會根據其評估型別在不同時間重新整理：
 
@@ -68,11 +68,11 @@ Audiences can be generated using different methods:
 
   [瞭解如何建立區段定義](creating-a-segment-definition.md)
 
-* **自訂上傳**：使用CSV檔案匯入對象。 [Learn how to create Custom Upload audiences](custom-upload.md)
+* **自訂上傳**：使用CSV檔案匯入對象。 [瞭解如何建立自訂上傳對象](custom-upload.md)
 
-* **Audience composition**: Create a composition workflow to combine existing audiences into a visual canvas and apply actions such as rank, split, join to create new audiences. [Learn how to work with audience composition](get-started-audience-orchestration.md)
+* **對象構成**：建立構成工作流程，將現有對象結合到視覺畫布中，並套用動作，例如排名、分割、加入以建立新對象。 [瞭解如何使用對象組合](get-started-audience-orchestration.md)
 
-* **Federated Audience Composition**: Federate datasets directly from your existing data warehouse to build and enrich Adobe Experience Platform audiences and attributes all in one system. [Learn how to work with Federated Audience Composition](federated-audience-composition.md).
+* **同盟對象構成**：直接從您現有的資料倉儲同盟資料集，以在一個系統中建立並擴充Adobe Experience Platform對象和屬性。 [瞭解如何使用同盟對象組合](federated-audience-composition.md)。
 
 ## 在歷程和行銷活動中鎖定對象 {#target-audiences}
 

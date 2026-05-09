@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 9%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 9%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示方式"
->abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。"
+>abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。 產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。"
 
-選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、在段落中作為文字、在HTML區塊中等。 產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。
+選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、在段落中作為文字、在HTML區塊中等。優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。
 
 ## 設定優惠的宣告 {#representations}
 
@@ -102,7 +102,7 @@ ht-degree: 9%
 
 例如，您已於[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=zh-Hant){target="_blank"}建立HTML電子郵件範本，且想要將該檔案用於您的優惠方案內容。 您不必建立新檔案，只要將範本上傳到&#x200B;**資產庫**，就能在優惠方案代表中重複使用它。
 
-若要在呈現中重複使用您的內容，請依照&#x200B;**本節**&#x200B;所述瀏覽[資產庫](#images)，並選取您選擇的HTML或JSON檔案。
+若要在呈現中重複使用您的內容，請依照[本節](#images)所述瀏覽&#x200B;**資產庫**，並選取您選擇的HTML或JSON檔案。
 
 ![](../assets/offer-browse-asset-library-json.png)
 

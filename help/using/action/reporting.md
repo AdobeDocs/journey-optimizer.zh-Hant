@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 「自訂動作」報表頁面的功能與Journey Optimizer中的其他所有時間報表相同。 如需儀表板功能的詳細資訊，請參閱[本檔案](../reports/report-cja-manage.md)。
 
-若要存取&#x200B;**[!UICONTROL 自訂動作]**&#x200B;報告頁面，請從您的![](assets/do-not-localize/Smock_Monitoring_18_N.svg)動作&#x200B;**[!UICONTROL 首頁中按一下]**。
+若要存取&#x200B;**[!UICONTROL 自訂動作]**&#x200B;報告頁面，請從您的&#x200B;**[!UICONTROL 動作]**&#x200B;首頁中按一下![](assets/do-not-localize/Smock_Monitoring_18_N.svg)。
 
 ![](assets/monitor-1.png)
 

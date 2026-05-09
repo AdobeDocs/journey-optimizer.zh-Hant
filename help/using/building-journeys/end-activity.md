@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，活動，結束
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 57%
+ht-degree: 78%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"
 >title="結束活動"
->abstract="結束活動可讓您標記歷程的每條路徑的終點。這並非強制性，但為了視覺清晰度建議使用。確實如此，如果歷程有多個結束活動，我們建議您為每個結束加上標籤，以使報表更易於閱讀。"
+>abstract="結束活動可讓您標記歷程的每條路徑的終點。 這並非強制性，但為了視覺清晰度建議使用。 確實如此，如果歷程有多個結束活動，我們建議您為每個結束加上標籤，以使報表更易於閱讀。"
 
-**[!UICONTROL End]**&#x200B;活動可讓您標籤歷程每個路徑的結尾。 這並非強制性，但為了視覺清晰度建議使用。事實上，如果歷程具有數個結束活動，我們建議您為各結尾新增標籤，讓報告更易於閱讀。 請參閱[此頁面](../reports/live-report.md)。
+**[!UICONTROL End]**&#x200B;活動可讓您標籤歷程每個路徑的結尾。 這並非強制性，但為了視覺清晰度建議使用。 確實如此，如果歷程有多個結束活動，我們建議您為每個結束加上標籤，以使報表更易於閱讀。 請參閱[此頁面](../reports/live-report.md)。
 
 <!--
 ![](assets/journey54.png)

@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 一旦定義內容，您就可以在傳送訊息之前，先預覽內容。 這個重要步驟能確保內容屬實，但內容與個人化設定中的資料也不得有誤。
 
-您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。此外，您也可以評估一般內容品質方面，例如可讀性和有效性。[了解更多關於內容品質驗證的資訊](brands-score.md#validate-quality)
+您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。 此外，您也可以評估一般內容品質方面，例如可讀性和有效性。 [了解更多關於內容品質驗證的資訊](brands-score.md#validate-quality)
 
 所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可以從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->如果您使用&#x200B;**[!UICONTROL 協調的行銷活動]**&#x200B;頻道活動的&#x200B;**模擬內容**，請參閱[檢查並測試您的內容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以取得更多資訊和重要備註。
+>如果您使用&#x200B;**協調的行銷活動**&#x200B;頻道活動的&#x200B;**[!UICONTROL 模擬內容]**，請參閱[檢查並測試您的內容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以取得更多資訊和重要備註。
 
 ## 使用測試設定檔資料，或是範例輸入資料進行測試 {#methods}
 
@@ -42,17 +42,17 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 * **使用測試設定檔資料測試內容**
 
-  使用測試設定檔，預覽內容，傳送電子郵件校樣，同時檢查電子郵件轉譯。 如果您已新增個人化欄位，就可以使用測試設定檔資料，檢查資料的顯示方式。如需詳細資訊，請參閱以下區段：
+  使用測試設定檔，預覽內容，傳送電子郵件校樣，同時檢查電子郵件轉譯。 如果您已新增個人化欄位，就可以使用測試設定檔資料，檢查資料的顯示方式。 如需詳細資訊，請參閱以下區段：
 
   ➡️ [選取測試設定檔](test-profiles.md)
-➡️ [使用測試設定檔來預覽](preview.md)
+➡️ [使用測試設定檔預覽](preview.md)
 ➡️ [傳送電子郵件校樣](proofs.md)
 ➡️ [檢查電子郵件轉譯](rendering.md)
-➡️ [預覽並校訂電子郵件（影片）](#video-preview)
+➡️ [預覽並校訂您的電子郵件（影片）](#video-preview)
 
 * **使用範例輸入資料來測試內容變化版本**
 
-  [!DNL Journey optimizer]可讓您使用從 CSV / JSON 檔案上傳的範例輸入資料，或是手動新增來預覽內容的不同變化版本。 
+  [!DNL Journey optimizer]可讓您使用從 CSV / JSON 檔案上傳的範例輸入資料，或是手動新增來預覽內容的不同變化版本。
 
   系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。
 
@@ -60,7 +60,7 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 ## 必讀
 
-* **必要使用權限** - 您必須將&#x200B;**[!DNL Manage Simulate Content]**&#x200B;產品設定檔&#x200B;**[!DNL Content Library Manager]**&#x200B;加入權限才行。[了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
+* **必要使用權限** - 您必須將&#x200B;**[!DNL Manage Simulate Content]**&#x200B;產品設定檔&#x200B;**[!DNL Content Library Manager]**&#x200B;加入權限才行。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)。
 
   若想傳送校樣，您必須擁有&#x200B;**核准和發佈**&#x200B;權限，可應用於電子郵件相關的特定資源（行銷活動或歷程）。 此外，若想在歷程中傳送校樣，還需要&#x200B;**發佈歷程**&#x200B;權限才行。 [深入了解權限](../administration/ootb-permissions.md)。
 

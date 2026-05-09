@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 9%
+source-wordcount: '2569'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 決定是優惠的容器，可運用優惠決定引擎，根據傳遞的目標來挑選最佳優惠。
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
 >title="產品建議決策詳細資料"
->abstract="指定決策的名稱並定義開始和結束的日期與時間 (如有需要)。若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。"
+>abstract="指定決策的名稱並定義開始和結束的日期與時間 (如有需要)。 若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。"
 
 1. 存取決定清單，然後按一下&#x200B;**[!UICONTROL 建立決定]**。
 
@@ -53,14 +53,14 @@ ht-degree: 9%
 
    ![](../assets/activities-name.png)
 
-1. 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+1. 若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
 ## 定義決策範圍 {#add-decision-scopes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
 >title="決策範圍"
->abstract="為產品建議決策設定一個或多個範圍，以決定要顯示的產品建議。設定範圍需要選取一個產品建議放置環境，以及這個產品建議放置環境的相關評估條件。"
+>abstract="為產品建議決策設定一個或多個範圍，以決定要顯示的產品建議。 設定範圍需要選取一個產品建議放置環境，以及這個產品建議放置環境的相關評估條件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
@@ -70,7 +70,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="評估條件"
->abstract="評估條件包括與適用性限制相關的產品建議集合，以及決定要在產品建議放置環境中顯示哪些產品建議的排名方法。評估條件的順序會決定要先評估哪個集合。需要至少一項評估條件。"
+>abstract="評估條件包括與適用性限制相關的產品建議集合，以及決定要在產品建議放置環境中顯示哪些產品建議的排名方法。 評估條件的順序會決定要先評估哪個集合。 需要至少一項評估條件。"
 
 1. 從下拉式清單中選取位置。 它會新增到您決定中的第一個決定範圍。
 
@@ -118,7 +118,7 @@ ht-degree: 9%
 
      瞭解如何在[本節](../offer-library/creating-decision-rules.md)中建立決定規則。
 
-1. 當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
+1. 當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ ht-degree: 9%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解更多](../offer-activities/configure-offer-selection.md)。
+1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解更多資訊](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 

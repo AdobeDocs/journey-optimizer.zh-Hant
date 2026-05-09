@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 主要，執行，電子郵件，目標，設定檔，最佳化工具
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,6 @@ ht-degree: 30%
 在這種情況下，[!DNL Journey Optimizer]會使用&#x200B;**[!UICONTROL 執行欄位]**&#x200B;來決定要優先使用設定檔服務中的電子郵件地址或電話號碼。
 
 若要檢查目前預設使用的欄位，請存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 執行欄位]**&#x200B;選單。
-
 
 ![](assets/primary-address-execution-fields.png){width=90%}
 
@@ -74,7 +73,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="定義自訂值"
->abstract="在某些特定情況下，您可以覆寫預設執行欄位值。使用此欄位右側的&#x200B;**啟用參數覆寫**&#x200B;圖示，定義自訂電子郵件地址或電話號碼，排定傳送的優先順序。"
+>abstract="在某些特定情況下，您可以覆寫預設執行欄位值。 使用此欄位右側的&#x200B;**啟用參數覆寫**&#x200B;圖示，定義自訂電子郵件地址或電話號碼，排定傳送的優先順序。"
 
 對於特定使用案例，您可以全域覆寫執行欄位設定並在歷程層級定義不同的值。
 

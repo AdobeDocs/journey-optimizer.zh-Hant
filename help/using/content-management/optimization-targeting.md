@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: 鎖定目標，最佳化，對象，個人化，規則
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '563'
 ht-degree: 8%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 8%
 
    ![](../campaigns/assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 您也可以按一下「建立規則&#x200B;**[!UICONTROL >]**&#x200B;選取規則&#x200B;**[!UICONTROL 」，選取從]**&#x200B;規則&#x200B;**[!UICONTROL 功能表建立的現有目標規則。]**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;**>**&#x200B;[!UICONTROL &#x200B;選取規則&#x200B;]&#x200B;**」，選取從**&#x200B;[!UICONTROL &#x200B;規則&#x200B;]&#x200B;**功能表建立的現有目標規則。**&#x200B;[了解更多](../experience-decisioning/rules.md)
 
    ![](../campaigns/assets/msg-optimization-select-rule.png){width=70%}
 
@@ -63,7 +63,7 @@ ht-degree: 8%
 
    >[!AVAILABILITY]
    >
-   >[使用專用的](../experience-decisioning/rules.md#create)功能表建立鎖定目標規則[!DNL Journey Optimizer]，目前可供已購買決策附加元件產品的組織使用，其他組織也可依需求使用（可用性限制）。
+   >[使用專用的[!DNL Journey Optimizer]功能表建立鎖定目標規則](../experience-decisioning/rules.md#create)，目前可供已購買決策附加元件產品的組織使用，其他組織也可依需求使用（可用性限制）。
    >
    >此容量將逐步向所有客戶推出。 與此同時，請聯絡您的Adobe代表以取得存取權。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 22%
+source-wordcount: '1716'
+ht-degree: 26%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="建立登陸頁面預設集"
 
@@ -160,17 +160,17 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="定義子頁面設定"
->abstract="您最多可新增 2 個子頁面。例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。"
+>abstract="您最多可新增 2 個子頁面。 例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="設計登陸頁面內容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
+>abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hant" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
-您最多可新增 2 個子頁面。例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
+您最多可新增 2 個子頁面。 例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
 
 若要定義子頁面設定，請遵循下列步驟。
 
@@ -279,10 +279,10 @@ The settings and elements checked by the system are listed below. You will also 
 
 您的登入頁面發佈後，會以&#x200B;**[!UICONTROL 已發佈]**&#x200B;狀態新增至登入頁面清單。
 
-它現在已上線並準備好用於將透過[!DNL Journey Optimizer]歷程[傳送的](../building-journeys/journey.md)訊息中。
+它現在已上線並準備好用於將透過[歷程](../building-journeys/journey.md)傳送的[!DNL Journey Optimizer]訊息中。
 
 >[!NOTE]
 >
->您無法將建立頁面[時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 &#x200B;](#create-landing-page)您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
+>您無法將建立頁面[&#128279;](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
 
 您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)

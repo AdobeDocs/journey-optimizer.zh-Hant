@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 12%
+source-wordcount: '821'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 12%
 
 依預設，動作行銷活動在手動啟動後開始，並在訊息傳送後立即結束。 如果您不想在行銷活動啟動後立即執行，您可以在&#x200B;**[!UICONTROL 行銷活動開始]**&#x200B;區段中指定傳送訊息的日期和時間。
 
-在 [!DNL Adobe Journey Optimizer] 中排程行銷活動時，請確定您的開始日期/時間與所要的首次傳遞一致。對於定期行銷活動，如果初始排程時間已過，行銷活動將根據其週期規則滾動至下一個可用時段。
+在 [!DNL Adobe Journey Optimizer] 中排程行銷活動時，請確定您的開始日期/時間與所要的首次傳遞一致。 對於定期行銷活動，如果初始排程時間已過，行銷活動將根據其週期規則滾動至下一個可用時段。
 
 ![](assets/campaign-start.png)
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="使用輪廓時區"
->abstract="根據每位收件者的輪廓時區傳送訊息。所有收件者都會於當地時間收到訊息，無論其地理位置為何。系統會使用 Adobe Experience Platform 輪廓中的「時區」欄位，並將行銷活動建立者的時區設為後備。"
+>abstract="根據每位收件者的輪廓時區傳送訊息。 所有收件者都會於當地時間收到訊息，無論其地理位置為何。 系統會使用 Adobe Experience Platform 輪廓中的「時區」欄位，並將行銷活動建立者的時區設為後備。"
 
 為特定日期和時間排程行銷活動時，您可以選擇根據每個收件者的設定檔時區傳送訊息。 這可確保所有收件者（不論其地理位置為何）都能在當地時間收到訊息。
 
@@ -84,7 +84,7 @@ ht-degree: 12%
 
 [!DNL Journey Optimizer]可讓您啟用傳出動作（電子郵件、簡訊、推播通知）的速率控制。
 
-此功能對於防止下游系統（例如登陸頁面或客戶服務平台）上的超載特別有用。 例如，您可以將速率限制設為每秒165則訊息，以確保穩定傳送，而不會對下游系統造成衝擊。
+此功能對於防止下游系統 (例如登陸頁面或客戶服務平台) 上的超載特別有用。 例如，您可以將速率限制設為每秒165則訊息，以確保穩定傳送，而不會對下游系統造成衝擊。
 
 若要設定速率控制，請在&#x200B;**[!UICONTROL 傳遞設定]**&#x200B;區段中啟用&#x200B;**[!UICONTROL 節流傳遞]**&#x200B;選項，並指定所要的每秒&#x200B;**[!UICONTROL 傳遞速率]**。
 

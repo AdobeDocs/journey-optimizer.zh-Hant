@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 16%
+source-wordcount: '500'
+ht-degree: 27%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
 >title="將變更套用到選取的視圖"
->abstract="變更將僅套用到選取的視圖。可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。找不到您要尋找的視圖？"
+>abstract="變更將僅套用到選取的視圖。 可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。 找不到您要尋找的視圖？"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 **單頁應用程式** (SPA)現在可以在網頁設計工具視覺化編輯器中撰寫。 這可讓您選取要套用網頁修改的特定的&#x200B;**檢視**。
 
 [透過此影片瞭解如何編寫單頁應用程式](#video)
 
-檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
+檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
 
 需要一次性開發人員設定，才能在Adobe Experience Platform Web SDK實作中定義檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
 

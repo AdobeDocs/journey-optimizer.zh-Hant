@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 15%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 14%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="模擬報價決策"
->abstract="模擬功能可讓您模擬出特定產品建議放置環境有哪些產品建議會傳送至測試設定檔。這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
+>abstract="模擬功能可讓您模擬出特定產品建議放置環境有哪些產品建議會傳送至測試設定檔。 這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
 
 ## 關於模擬 {#about-simulation}
 
@@ -57,7 +57,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
->abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
+>abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。 您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
 
 首先，您需要選取要用於模擬的測試設定檔。
 
@@ -73,7 +73,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節[中進一步瞭解Adobe Experience Platform識別名稱空間](../../audience/get-started-identity.md){target="_blank"}。
+   >身分名稱空間會定義識別碼的內容，例如電子郵件地址或CRM ID。 在本節[&#128279;](../../audience/get-started-identity.md){target="_blank"}中進一步瞭解Adobe Experience Platform識別名稱空間。
 
 1. 輸入身分值並按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;列出可用的設定檔。
 
@@ -146,7 +146,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以跨多個決定/位置提出相同的主張。 在[!DNL Decisioning]本節[中進一步瞭解](../api-reference/offer-delivery-api/decisioning-api.md) API要求屬性。
+   >依預設，會啟用所有重複資料刪除旗標以進行模擬，這表示決定引擎允許重複專案，因此可以跨多個決定/位置提出相同的主張。 在[本節](../api-reference/offer-delivery-api/decisioning-api.md)中進一步瞭解[!DNL Decisioning] API要求屬性。
 
 1. 在&#x200B;**[!UICONTROL 回應格式]**&#x200B;區段中，您可以選擇在程式碼檢視中包含中繼資料。 核取對應的選項，然後選取您選擇的中繼資料。 選取&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;時，它們會顯示在請求和回應裝載中。 在[檢視模擬結果](#simulation-results)區段中瞭解更多。
 

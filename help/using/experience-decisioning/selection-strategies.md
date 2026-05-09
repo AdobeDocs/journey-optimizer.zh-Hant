@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 20%
+source-wordcount: '759'
+ht-degree: 24%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 20%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取[公式](#ranking-formula)或[AI模型](#ai-ranking)。
 
-1. 按一下 **[!UICONTROL 建立]**。現在已準備好在[決定原則](create-decision.md)中使用
+1. 按一下 **[!UICONTROL 建立]**。 現在已準備好在[決定原則](create-decision.md)中使用
 
 ## 選取排名方法 {#select-ranking-method}
 

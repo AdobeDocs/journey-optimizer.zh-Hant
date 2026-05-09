@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP、集區、群組、子網域、傳遞能力
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '699'
 ht-degree: 13%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="設定 IP 池"
->abstract="使用 Journey Optimizer，您可以建立 IP 池以將子網域的 IP 位址聚集在一起。這可能會大幅提高您的電子郵件可遞送性，因為這樣做可以防止某個子網域的聲譽影響您的其他子網域。"
+>abstract="使用 Journey Optimizer，您可以建立 IP 池以將子網域的 IP 位址聚集在一起。 這可能會大幅提高您的電子郵件可遞送性，因為這樣做可以防止某個子網域的聲譽影響您的其他子網域。"
 
 ## 關於IP集區 {#about-ip-pools}
 

@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 24%
+source-wordcount: '1218'
+ht-degree: 27%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="資料集查詢"
->abstract="選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
+>abstract="選取具有所需屬性的 Adobe Experience Platform 資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="資料集查詢"
->abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，動態地調整排名邏輯以反映現實世界的情況。按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，動態地調整排名邏輯以反映現實世界的情況。 按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="新增資料集"
->abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。 按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
-[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。例如，可用性、等待時間等。
+[!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。
 
 >[!AVAILABILITY]
 >
@@ -65,7 +65,7 @@ ht-degree: 24%
 
 ### 建立對應
 
-為了使用Adobe Experience Platform的屬性來做出決策，您需要建立對應來定義Adobe Experience Platform資料集如何與[!DNL Journey Optimizer]中的資料結合。 若要這麼做，請依照以下步驟進行：
+為了使用 Adobe Experience Platform 中的屬性進行決定，您需要建立對應來定義 Adobe Experience Platform 資料集如何與 [!DNL Journey Optimizer] 中的資料聯結。 若要這麼做，請依照以下步驟進行：
 
 1. 導覽至&#x200B;**[!UICONTROL 目錄]** / **[!UICONTROL 資料集查詢]**，然後按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -115,7 +115,7 @@ ht-degree: 24%
 
 ### 排名公式 {#ranking-formulas}
 
-排名公式定義了決策項目的優先等級。使用[!DNL Adobe Experience Platform]資料集屬性，您可以動態調整排名邏輯，以反映真實世界的狀況。
+排名公式定義了決策項目的優先等級。 使用[!DNL Adobe Experience Platform]資料集屬性，您可以動態調整排名邏輯，以反映真實世界的狀況。
 
 例如，假設一家航空公司使用排名公式來排定升級優惠方案的優先順序。 如果客戶具有較高的忠誠度等級，且目前座位可用性低（根據每小時更新的資料集），則會給予他們較高的優先順序。 資料集包含`flight_number`、`available_seats`和`loyalty_score`等欄位。
 

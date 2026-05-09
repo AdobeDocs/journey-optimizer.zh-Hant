@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 17%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="存取權管理標籤"
->abstract="您可以根據存取權標籤限制對物件的存取。這個方法能保護敏感的數位資產，避免未經授權的使用者存取，並確保進一步保護個人資料。**請確認僅選取您有權限使用的標籤。**"
+>abstract="您可以根據存取權標籤限制對物件的存取。 這個方法能保護敏感的數位資產，避免未經授權的使用者存取，並確保進一步保護個人資料。 **請確認僅選取您有權限使用的標籤。**"
 
-您可以根據存取權標籤限制對物件的存取。此方法可保護敏感數位資產免受未經授權使用者的侵害，並確保進一步保護個人資料。
+您可以根據存取權標籤限制對物件的存取。 這個方法能保護敏感的數位資產，避免未經授權的使用者存取，並確保進一步保護個人資料。
 
 物件層級存取控制(OLAC)功能可讓您定義授權，以管理所選物件的資料存取：
 
@@ -73,7 +73,7 @@ ht-degree: 17%
 
    ![標籤設定欄位](assets/olac_3.png)
 
-1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的]**&#x200B;標籤&#x200B;**[!UICONTROL 。]**
+1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的**&#x200B;[!UICONTROL &#x200B;標籤&#x200B;]&#x200B;**。]**
 
 您新建立的&#x200B;**[!UICONTROL 標籤]**&#x200B;現在可在清單中使用。 如有需要，您可以在[!DNL Permissions]產品中修改它。
 

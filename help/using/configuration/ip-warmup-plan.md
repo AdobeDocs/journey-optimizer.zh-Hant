@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 6%
+source-wordcount: '1833'
+ht-degree: 8%
 
 ---
 
@@ -224,7 +224,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從&#x200B;**IP熱身計畫範本**&#x200B;的[OOTB網域群組](assets/IPWarmupPlan-Template.xlsx)索引標籤，或從[上方提供的](#ip-warmup-plan-tab)清單複製並貼上網域。
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從[&#128279;](#ip-warmup-plan-tab)上方提供的清單複製並貼上網域。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
@@ -244,7 +244,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
    * **未啟動**：尚未啟動任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
    * **即時**：在第一階段中的第一次執行成功啟動後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [更多詳情](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取計畫名稱旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示並確認刪除。
@@ -293,13 +293,13 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
 -->
 
-    ![](assets/ip-warmup-upload-success.png)
+    ！[&#128279;](assets/ip-warmup-upload-success.png)
     
     >[！NOTE]
     >
-    >如果上傳失敗，請確定您使用正確的格式設定和檔案格式(.xls或.xlsx)。 使用Adobe提供的[範本](assets/IPWarmupPlan-Template.xlsx)。
+    >如果上傳失敗，請務必使用正確的格式設定和檔案格式(.xls或.xlsx)。 使用Adobe提供的[範本](assets/IPWarmupPlan-Template.xlsx)。
 
-1. 按一下 **[!UICONTROL 建立]**。在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在[!DNL Journey Optimizer]介面中。
+1. 按一下 **[!UICONTROL 建立]**。 在您上傳的檔案中定義的所有階段、執行、欄及其內容會自動顯示在[!DNL Journey Optimizer]介面中。
 
    ![](assets/ip-warmup-plan-uploaded.png)
 

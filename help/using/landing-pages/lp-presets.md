@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: 登陸，登陸頁面，設定，環境，子網域，預設集
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '414'
 ht-degree: 13%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 13%
 
 1. 建立登入頁面預設集後，預設集會顯示在狀態為&#x200B;**[!UICONTROL 作用中]**&#x200B;的清單中。 已準備好用於您的登入頁面。
 
-您現在已準備好在[中](../landing-pages/create-lp.md)建立登入頁面[!DNL Journey Optimizer]。
+您現在已準備好在[!DNL Journey Optimizer]中[建立登入頁面](../landing-pages/create-lp.md)。
 <!--
 >[!NOTE]
 >

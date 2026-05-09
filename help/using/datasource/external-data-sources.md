@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 33%
+source-wordcount: '1803'
+ht-degree: 35%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部資料來源"
->abstract="外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同的是，您可以視需要建立任意數量的外部資料來源。"
+>abstract="外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。 與內建的 Adobe Experience Platform 資料來源不同的是，您可以視需要建立任意數量的外部資料來源。"
 
 ## 使用外部資料來源 {#gs-ext-data-sources}
 
-外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。與內建的[!DNL Adobe Experience Platform]資料來源不同，您可以視需要建立儘可能多的外部資料來源。
+外部資料來源可讓您定義與第三方系統的連線，例如使用飯店訂房系統檢查該人員是否已登記客房。 與內建的[!DNL Adobe Experience Platform]資料來源不同，您可以視需要建立儘可能多的外部資料來源。
 
 >[!NOTE]
 >
 >* 使用外部系統時的護欄列在[此頁面](../configuration/external-systems.md)上。
 >
->* 現在支援回應，因此您應該針對外部資料來源使用案例使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱[自訂動作回應](../action/action-response.md)。 當資料僅在歷程內有用，並且可透過API端點存取外部系統時，沒有資料湖持續性的自訂動作是正確的選擇。 如需所有資料存取選項的比較，請參閱[選擇您的資料存取策略](../datasource/about-data-sources.md#data-access-strategy)。
+>* 現已支援回應，對於外部資料來源使用案例，您應該使用自訂動作，而非資料來源。 如需回應的詳細資訊，請參閱[自訂動作回應](../action/action-response.md)。 當資料僅在歷程內有用，並且可透過API端點存取外部系統時，沒有資料湖持續性的自訂動作是正確的選擇。 如需所有資料存取選項的比較，請參閱[選擇您的資料存取策略](../datasource/about-data-sources.md#data-access-strategy)。
 
-支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
+支援使用 POST 或 GET 以及傳回 JSON 的 REST API。 支援 API 金鑰、基本和自訂驗證模式。
 
 我們以一個氣象 API 服務為例，我想利用它根據即時氣象資料來自訂歷程的行為。
 
@@ -64,12 +64,12 @@ ht-degree: 33%
 
 只允許使用英數字元和底線。 長度上限為30個字元。
 
-1. 新增說明至您的資料來源。此步驟為選填。
-1. 新增外部服務的 URL。在我們的範例中：_https://api.adobeweather.org/weather_。
+1. 新增說明至您的資料來源。 此步驟為選填。
+1. 新增外部服務的 URL。 在我們的範例中：_https://api.adobeweather.org/weather_。
 
    >[!CAUTION]
    >
-   >基於安全考量，我們強烈建議您使用 HTTPS。另請注意，我們不允許使用非公開的Adobe位址和IP位址。
+   >基於安全考量，我們強烈建議您使用 HTTPS。 另請注意，我們不允許使用非公開的Adobe位址和IP位址。
 
    ![外部資料來源URL欄位，已輸入氣象API端點範例](assets/journey27.png)
 
@@ -99,14 +99,14 @@ ht-degree: 33%
 
 * **[!UICONTROL 用於]**：顯示使用欄位群組的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;圖示，以顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL 方法]**：選取POST或GET方法。 在本例中，我們選取 GET 方法。
-* **[!UICONTROL 動態值]**：在本例中，輸入以逗號「long，lat」分隔的不同引數。 由於參數值視執行內容而定，因此它們會在歷程中定義。[進一步瞭解運算式](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL 回應承載]**：在&#x200B;**[!UICONTROL 承載]**&#x200B;欄位內按一下，並貼上呼叫傳回之承載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，如果要變更目前傳遞的裝載，可以按一下&#x200B;**[!UICONTROL 貼上新的裝載]**。
-* **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。貼上會傳送至第三方系統的有效負載。
+* **[!UICONTROL 動態值]**：在本例中，輸入以逗號「long，lat」分隔的不同引數。 由於參數值視執行內容而定，因此它們會在歷程中定義。 [進一步瞭解運算式](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL 回應承載]**：在&#x200B;**[!UICONTROL 承載]**&#x200B;欄位內按一下，並貼上呼叫傳回之承載的範例。 例如，我們使用了氣象 API 網站上找到的有效負載。 確認欄位類型是否正確。 每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。 請注意，如果要變更目前傳遞的裝載，可以按一下&#x200B;**[!UICONTROL 貼上新的裝載]**。
+* **[!UICONTROL 已傳送裝載]**：此欄位未出現在我們的範例中。 只有選取 POST 方法時才能使用。 貼上會傳送至第三方系統的有效負載。
 
 若是GET呼叫所需的引數，您會在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中輸入引數，系統就會在呼叫結束時自動新增這些引數。 若是 POST 呼叫，您需要：
 
 * 在&#x200B;**[!UICONTROL 動態值]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「識別碼」）。
-* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
+* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。 若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
 
 ```json
 {"id":{"param":"identifier"}}
@@ -122,7 +122,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="關於自訂驗證"
->abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。動作執行是兩個步驟的流程。首先，系統會執行端點呼叫以產生存取權杖。接著，存取權杖會插入至動作的 HTTP 要求中。"
+>abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。 動作執行是兩個步驟的流程。 首先，系統會執行端點呼叫以產生存取權杖。 接著，存取權杖會插入至動作的 HTTP 要求中。"
 
 自訂驗證模式會用於複雜驗證，常用來呼叫OAuth2等API封裝通訊協定，以擷取要插入到動作之實際HTTP要求中的存取權杖。
 
@@ -163,7 +163,7 @@ ht-degree: 33%
 
 * **tokenInResponse**：指示如何從驗證呼叫擷取存取權杖。 此屬性可以是：
    * `response`：指出HTTP回應是存取權杖
-   * JSON的選擇器（假設回應為JSON，我們不支援XML等其他格式）。 此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
+   * JSON的選擇器（假設回應為JSON，我們不支援XML等其他格式）。 此選擇器的格式為 _json://&lt;path to the access token property>_。 舉例來說，若呼叫的回應是：_{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_ json: //access_token_
 
 此驗證的格式為：
 
@@ -198,7 +198,7 @@ ht-degree: 33%
 >
 >Encode64是驗證裝載中唯一可用的函式。
 
-您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。快取期間在`cacheDuration`引數中定義。 其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
+您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。 以下是自訂驗證有效負載的範例。 快取期間在`cacheDuration`引數中定義。 其會指定快取中產生權杖的保留期間。 單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
 以下是持有人驗證型別的範例：
 

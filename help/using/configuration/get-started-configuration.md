@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定、配置、訊息、通道、沙箱、最佳化程式
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 29%
+source-wordcount: '471'
+ht-degree: 32%
 
 ---
 
@@ -68,13 +68,13 @@ ht-degree: 29%
 
    * 定義電子郵件傳送的允許清單。 [了解更多](allow-list.md)
 
-   * 管理將電子郵件地址傳送至禁止名單前執行重試的天數。[了解更多](manage-suppression-list.md)
+   * 管理將電子郵件地址傳送至禁止名單前執行重試的天數。 [了解更多](manage-suppression-list.md)
 
    * 啟用&#x200B;**密件副本電子郵件選項**，以保留傳送給個人的郵件復本。 [了解更多](archiving-support.md#enable-bcc)
 
    * 設定&#x200B;**商業規則**&#x200B;以避免過度向收件者請求。 [了解更多](../conflict-prioritization/rule-sets.md)
 
-   * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。[了解更多](primary-email-addresses.md)
+   * 當 Adobe Experience Platform 有多個位址/號碼可用時，請確定收件者優先使用哪個電子郵件位址和/或電話號碼。 [了解更多](primary-email-addresses.md)
 
 ## 其他資源
 

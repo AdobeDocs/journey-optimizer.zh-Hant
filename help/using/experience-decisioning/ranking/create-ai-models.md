@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 14%
+source-wordcount: '771'
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_ai_model_metric"
 >title="最佳化量度"
->abstract="[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。轉換率使用兩種類型的量度來計算：**曝光事件** (所顯示的產品建議) 和&#x200B;**轉換事件** (讓使用者透過電子郵件或網頁進行點選的產品建議)。我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。"
+>abstract="[!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。 轉換率使用兩種類型的量度來計算：**曝光事件** (所顯示的產品建議) 和&#x200B;**轉換事件** (讓使用者透過電子郵件或網頁進行點選的產品建議)。 我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。"
 
 若要建立AI模型，請遵循下列步驟：
 
@@ -58,11 +58,11 @@ ht-degree: 14%
 
 1. **[!UICONTROL 最佳化量度]**&#x200B;區段提供有關AI模型用來計算優惠排名之轉換事件的資訊。
 
-   [!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。轉換率是使用兩種量度型別來計算：
+   [!DNL Journey Optimizer] 根據&#x200B;**轉換率**&#x200B;對產品建議進行排名 (轉換率 = 轉換事件總數/曝光事件總數)。 轉換率是使用兩種量度型別來計算：
    * **曝光事件** （顯示的選件）
    * **轉換事件** （透過電子郵件或網頁產生點按的優惠方案）。
 
-   系統會使用所提供的網頁SDK或行動SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
+   我們會透過所提供的 Web SDK 或 Mobile SDK 來自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
 
    +++ 正在自訂[!DNL Customer Journey Analytics]量度上最佳化模型
 
@@ -70,7 +70,7 @@ ht-degree: 14%
    >
    >此功能僅供具有管理員許可權的[!DNL Customer Journey Analytics]客戶使用。
    >
-   >開始之前，請確定您已將Journey Optimizer與Customer Journey Analytics整合，以便將Journey Optimizer資料集匯出至您的預設資料檢視。 [瞭解如何在 [!DNL Journey Optmizer] 中運用 [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)資料
+   >開始之前，請確定您已將Journey Optimizer與Customer Journey Analytics整合，以便將Journey Optimizer資料集匯出至您的預設資料檢視。 [瞭解如何在 [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md)中運用 [!DNL Journey Optmizer] 資料
 
    **[!UICONTROL 個人化最佳化]**&#x200B;模型是一種AI模型，可讓您定義業務目標，並利用客戶資料來訓練業務導向模型，以提供個人化優惠並最大化KPI。
 

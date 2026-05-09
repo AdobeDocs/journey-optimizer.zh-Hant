@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 41%
+source-wordcount: '433'
+ht-degree: 43%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過簡訊服務提供者傳送文字訊息。選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer 會透過簡訊服務提供者傳送文字訊息。 選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
 >title="使用 Journey Optimizer 設定您的 MMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過 MMS 服務提供者發送媒體內容。選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer 會透過 MMS 服務提供者發送媒體內容。 選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="使用 Journey Optimizer 設定您的簡訊/多媒體簡訊提供者"
->abstract="在傳送文字訊息 (簡訊/多媒體簡訊) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後，您需要建立一個簡訊/多媒體簡訊設定這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>abstract="在傳送文字訊息 (簡訊/多媒體簡訊) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後， 您需要建立一個簡訊/多媒體簡訊設定 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道設定"
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="模糊選擇退出"
->abstract="啟用時，模糊選擇退出會偵測與定義的選擇退出關鍵字 (例如：CANCIL) 非常相似的傳入訊息，並自動傳送確認回覆，以驗證使用者的取消訂閱意願。如果使用者透過定義的提示確認，則可以取消訂閱。"
+>abstract="啟用時，模糊選擇退出會偵測與定義的選擇退出關鍵字 (例如：CANCIL) 非常相似的傳入訊息，並自動傳送確認回覆，以驗證使用者的取消訂閱意願。 如果使用者透過定義的提示確認，則可以取消訂閱。"
 
 在傳送SMS、MMS或RCS之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 

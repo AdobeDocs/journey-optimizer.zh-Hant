@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 隱藏，清單，退信，電子郵件，最佳化工具，隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 23%

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 鎖定目標，規則，歷程，路徑，最佳化，個人化
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限可用性" type="Informative"
-source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 7%
@@ -76,61 +76,61 @@ With targeting, specific rules can be defined based on:
 
 1. 新增規則後，您仍可加以修改。 選擇&#x200B;**[!UICONTROL 編輯內嵌]**，以使用規則產生器即時更新它，或選擇&#x200B;**[!UICONTROL 選取規則]**&#x200B;以挑選另一個現有的規則。
 
-   ![Edit inline or Select rule options for modifying targeting rules](assets/journey-targeting-modify-rule.png){width=100%}
+   ![編輯內嵌或選取用於修改定位規則的規則選項](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
-   >Editing a rule inline does not affect the existing rule it originates from.
+   >編輯規則內嵌不會影響其源自的現有規則。
 
-1. Select the **[!UICONTROL Enable fallback path]** option as needed. This action creates a fallback path for the audience that does not meet any of the targeting rules defined above.
+1. 視需要選取&#x200B;**[!UICONTROL 啟用遞補路徑]**&#x200B;選項。 此動作會針對不符合上述任何鎖定目標規則的對象建立遞補路徑。
 
    >[!NOTE]
    >
-   >If you do not select this option, any audience that does not qualify for a targeting rule does not enter the fallback path and exits the journey.
+   >如果您未選取此選項，則任何不符合鎖定目標規則的對象都不會進入後援路徑並退出歷程。
 
-1. Click **[!UICONTROL Create]** to save your targeting rule settings.
+1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存您的目標規則設定。
 
-1. Back in the journey, drop specific actions to customize each path. For example, create an email with personalized offers for Gold Loyalty members, and an SMS reminder for all other members.
+1. 回到歷程中，拖放特定動作以自訂每個路徑。 例如，建立包含金級忠誠度會員個人化優惠方案的電子郵件，以及所有其他會員的簡訊提醒。
 
-   ![Journey paths with email for Gold members and SMS for others](assets/journey-targeting-paths.png)
+   ![含金級會員電子郵件和其他人簡訊的歷程路徑](assets/journey-targeting-paths.png)
 
-1. If you selected the **[!UICONTROL Enable fallback content]** option when defining the rule settings, define one or more actions for the fallback path that was automatically added.
+1. 如果您在定義規則設定時選取了&#x200B;**[!UICONTROL 啟用遞補內容]**&#x200B;選項，請為自動新增的遞補路徑定義一或多個動作。
 
-   ![Fallback path configuration for unqualified profiles](assets/journey-targeting-fallback.png){width=70%}
+   不合格設定檔的![遞補路徑設定](assets/journey-targeting-fallback.png){width=70%}
 
-1. Optionally, use the **[!UICONTROL Add an alternative path in case of a timeout or an error]** to define an alternate action if issues occur. [了解更多](using-the-journey-designer.md#paths)
+1. 或者，在逾時或錯誤的情況下使用&#x200B;**[!UICONTROL 新增替代路徑]**&#x200B;以定義發生問題時的替代動作。 [了解更多](using-the-journey-designer.md#paths)
 
-1. Design appropriate content for each action corresponding to each group defined by your targeting rule settings.
+1. 針對目標規則設定所定義的每個群組，為每個動作設計適當的內容。
 
-   In this example, design an email with special offers for Gold members, and an SMS reminder for the other members.<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
+   在此範例中，設計包含金會員特殊優惠方案的電子郵件，以及其他會員的SMS提醒。<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
 
-1. [Publish](publish-journey.md) your journey.
+1. [發佈](publish-journey.md)您的歷程。
 
-Once the journey is live, the path that is specified for each segment is processed so that Gold members enter the path with the email offers, while the other members enter the path with the SMS reminder.
+一旦歷程上線，系統就會處理為每個區段指定的路徑，以便Gold成員輸入有電子郵件選件的路徑，而其他成員輸入有簡訊提醒的路徑。
 
-Follow the success of your journey with the Journey report. [了解更多](../reports/journey-global-report-cja.md#targeting)
+使用歷程報告追蹤您的歷程成功。 [了解更多](../reports/journey-global-report-cja.md#targeting)
 
-## Targeting rule use cases {#uc-targeting}
+## 鎖定目標規則使用案例 {#uc-targeting}
 
-The following examples show how to use the **[!UICONTROL Optimize]** activity with the **[!UICONTROL Targeting rule]** method to personalize paths for different sub-audiences.
+下列範例顯示如何搭配使用&#x200B;**[!UICONTROL 最佳化]**&#x200B;活動與&#x200B;**[!UICONTROL 鎖定目標規則]**&#x200B;方法來個人化不同子對象的路徑。
 
-+++Segment-specific channels
++++區段專用管道
 
-Gold status loyalty members can receive personalized offers via email, while all other members are directed to SMS reminders.
+金級狀態忠誠會員可以透過電子郵件接收個人化優惠，而所有其他會員則會導向簡訊提醒。
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![Segment-specific channels targeting Gold members with email and others with SMS](assets/journey-optimize-targeting-uc-segment.png)
+![以電子郵件和其他簡訊的Gold會員為目標的區段特定管道](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
-+++Behavior-based targeting
++++行為型目標定位
 
-Customers who opened an email but didn&#39;t click can be sent a push notification, while those who didn&#39;t open at all receive an SMS.
+已開啟電子郵件但未點按的客戶會收到推播通知，而完全未開啟的客戶則會收到簡訊。
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![Behavior-based targeting for email engagement with push or SMS fallback](assets/journey-optimize-targeting-uc-behavior.png)
+![使用推播或簡訊遞補進行電子郵件參與的行為型目標定位](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 

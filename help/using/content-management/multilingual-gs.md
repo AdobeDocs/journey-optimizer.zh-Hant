@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 32%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
 >title="翻譯"
->abstract="多語言功能讓您可以透過單一行銷活動或歷程輕鬆建立多語言內容。透過「翻譯」頁面，您可以設定專案、選擇翻譯提供者或管理特定語系設定字典"
+>abstract="多語言功能讓您可以透過單一行銷活動或歷程輕鬆建立多語言內容。 透過「翻譯」頁面，您可以設定專案、選擇翻譯提供者或管理特定語系設定字典"
 
 多語言功能可讓您在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過此功能，您可以在編輯行銷活動時切換語言、簡化整個編輯流程，並提高有效管理多語言內容的能力。
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
 >title="翻譯錯誤"
->abstract="如果您無法存取翻譯頁面，這可能是由於未啟用翻譯功能。若要解決此問題，您需確保組織和沙箱管理員已啟用翻譯功能。"
+>abstract="如果您無法存取翻譯頁面，這可能是由於未啟用翻譯功能。 若要解決此問題，您需確保組織和沙箱管理員已啟用翻譯功能。"
 
 Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨立於Adobe Journey Optimizer，提供協力廠商翻譯服務（機器翻譯或人力翻譯）。
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 歷程，整合，行銷活動， v7， v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 23%
+source-wordcount: '299'
+ht-degree: 28%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="自訂動作"
->abstract="如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。"
+>abstract="如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。 這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。"
 
-如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。
+如果您有 [!DNL Adobe Campaign] v7 或 v8，則可整合。 這可讓您使用 [!DNL Adobe Campaign] 交易型訊息功能傳送電子郵件、推播通知及簡訊。
 
-Journey Optimizer與Campaign執行個體之間的連線在布建時由Adobe設定。 聯絡Adobe。
+Journey Optimizer 和 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。 聯絡Adobe。
 
 **何時使用**：當您的傳訊依賴Campaign交易範本、Campaign特定資料模型或現有的Campaign傳遞工作流程時，請使用Campaign v7/v8動作。
 

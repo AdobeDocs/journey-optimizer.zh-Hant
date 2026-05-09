@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="寫作風格一致性分數"
->abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
+>abstract="寫作風格區段會定義語言、格式及結構的標準，以確保內容清晰且一致。 一致性分數從高至低評分，會顯示您的內容對這些準則的遵循程度，並醒目提示需要改善的區域。"
 
 **[!UICONTROL 撰寫樣式]**&#x200B;區段概述撰寫內容的標準，詳述如何使用語言、格式和結構來維持所有資料的清晰度、一致性和一致性。
 
@@ -183,7 +183,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
 >title="視覺內容一致性分數"
->abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。從高至低的評分可協助您總覽評估一致性。探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
+>abstract="視覺內容一致性分數表示您的內容與設定之品牌準則的符合程度。 從高至低的評分可協助您總覽評估一致性。 探索不同的類別可找出需要改善的區域，並找出可能不符合品牌的元素。"
 
 **[!UICONTROL 視覺內容]**&#x200B;區段定義影像和設計的標準，詳細說明維持統一一致的品牌外觀所需的規格。
 

@@ -5,10 +5,10 @@ title: 使用建置客群活動
 description: 瞭解如何在協調的行銷活動中使用建立對象活動
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 64%
+source-wordcount: '338'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
 >title="建置客群活動"
->abstract="**建置客群**&#x200B;活動讓您可以定義會進入協調式行銷活動的客群。在協調式行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**建置客群**&#x200B;活動中定義。"
+>abstract="**建置客群**&#x200B;活動讓您可以定義會進入協調式行銷活動的客群。 在協調式行銷活動中傳送訊息時，不會在管道活動中定義訊息客群，而是在&#x200B;**建置客群**&#x200B;活動中定義。"
 
 身為行銷人員，您可以透過直覺式介面，建立複雜的客群細分，讓您可以根據廣泛條件和行為，鎖定使用者，以便更有效地量身打造行銷活動。
 
@@ -41,7 +41,7 @@ ht-degree: 64%
 
 1. 請依照下列標籤中詳述的步驟，設定您的客群。
 
-1. 選擇「**[!UICONTROL 目標定位維度]**」。目標市場選擇維度可讓您定義作業的目標群體：收件者、合約受益人、操作者、訂閱者等。預設情況下，會從收件者中選取目標。
+1. 選擇「**[!UICONTROL 目標定位維度]**」。 目標維度可讓您定義作業的目標母體：收件者、合約受益者、操作員、訂閱者等。依預設，會從收件者中選取目標。
 
 1. 按一下&#x200B;**[!UICONTROL 繼續]**。
 
