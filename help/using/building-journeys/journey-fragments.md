@@ -11,10 +11,10 @@ hide: true
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
 badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="新增歷程片段"
->abstract="選擇器中僅提供&#x200B;**[!UICONTROL 「已啟用」]**&#x200B;片段。 插入片段會建立其節點的&#x200B;**靜態復本** — 原始片段的更新不會反映在歷程中。"
+>abstract="選擇器中僅提供&#x200B;**[!UICONTROL 「已啟用」]**&#x200B;片段。 插入片段會建立其節點的&#x200B;**靜態副本**，對原始片段的更新不會反映在歷程中。"
 
 若要將片段插入歷程：
 

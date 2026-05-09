@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -243,12 +243,12 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 您現在可以在建立推播通知時選取設定。
 
-### 個人化應用程式ID （選用） {#app-id-personalization}
+### 將應用程式 ID 個人化 (選擇性) {#app-id-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="個人化應用程式ID"
->abstract="當您管理多個行動應用程式時，請將每個應用程式ID儲存在設定檔上，並使用單一推播頻道設定。 開啟「應用程式ID」欄位旁的個人化編輯器，以選取設定檔屬性；在傳送時會評估每個收件者的運算式。 確認運算式可傳回的每個應用程式ID都有推送認證。"
+>title="將應用程式 ID 個人化"
+>abstract="當您管理多個行動應用程式時，請將每個應用程式 ID 儲存在輪廓上，並使用單一推播管道設定。 開啟「應用程式 ID」欄位旁邊的個人化編輯器以選取輪廓屬性；傳送時會為每個收件者評估運算式。 請確認運算式可傳回的每個應用程式 ID 都有推播認證。"
 
 當您有多個品牌或租使用者使用不同的應用程式時，您可以將每個&#x200B;**[!UICONTROL 應用程式ID]**&#x200B;儲存在設定檔上，並使用單一通道設定將推播通知傳送至每個收件者的正確應用程式。
 

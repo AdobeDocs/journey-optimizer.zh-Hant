@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定，電子郵件，設定，寄件者標題， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 53%
 >
 >對於&#x200B;**[!UICONTROL 來自電子郵件前置詞]**&#x200B;和&#x200B;**[!UICONTROL 錯誤電子郵件前置詞]**，值必須以字母(A-Z)開頭，並且只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
 
-## 寄件者標題 {#sender-header}
+## 寄件者標頭 {#sender-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
->title="寄件者標題"
->abstract="當傳送實體（寄件者）與編寫實體（寄件者）不同時（例如，當公司母公司為子品牌傳送訊息，或代理商為多個客戶傳送訊息時），請使用這些選用欄位。 支援此功能的電子郵件使用者端通常會將其轉譯為「代表寄件者的寄件者」或顯示「透過」指標。"
+>title="寄件者標頭"
+>abstract="當傳送實體 (寄件者) 與製作實體 (來源) 不同時，請使用這些選擇性欄位；例如：當上層公司為下層品牌發送訊息時，或代理商為多個客戶傳送訊息時。 支援此功能的電子郵件用戶端通常會將其轉譯為「代表來源的寄件者」或顯示「透過」指標。"
 
 某些使用案例會要求傳輸郵件的信箱與&#x200B;**來自**&#x200B;的作者不同，例如代表子公司傳送的父級組織、多個品牌的共用行銷團隊，或為多個客戶傳送的代理商。
 
