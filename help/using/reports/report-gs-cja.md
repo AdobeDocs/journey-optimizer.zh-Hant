@@ -64,4 +64,4 @@ Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互�
 
 以下影片說明如何搭配Customer Journey Analytics使用增強的Journey Optimizer報表。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443162?captions=chi_hant)

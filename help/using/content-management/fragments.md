@@ -60,8 +60,8 @@ ht-degree: 21%
 
 瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**視覺化片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451193/?captions=chi_hant&quality=12)
 
 瞭解如何在[!DNL Journey Optimizer]中管理、編寫及使用&#x200B;**運算式片段**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438930/?captions=chi_hant&quality=12)

@@ -246,7 +246,7 @@ ht-degree: 11%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451893?captions=chi_hant&quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ ht-degree: 11%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?captions=chi_hant&learn=on&autoplay=true)
 
   +++
 
