@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: 751514af18e4d8e36ac7d9bc4c64e95a0514446d
 workflow-type: tm+mt
-source-wordcount: '7327'
-ht-degree: 67%
+source-wordcount: '7393'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 67%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **匯出訊息內容**&#x200B;檔案已擴充，包含&#x200B;**訊息匯出常見問題集** （個人化內容、影像和媒體、追蹤連結、PII、保留、使用案例等），以及&#x200B;**簡訊和電子郵件的JSON**&#x200B;匯出範例範例。 [閱讀全文](../configuration/message-export.md)
+
+* 新的&#x200B;**AJO訊息匯出結構描述**&#x200B;頁面會記錄AJO訊息匯出資料集中的每個欄位，其中包含匯出的電子郵件和簡訊裝載的資料型別和階層。 [閱讀全文](../configuration/message-export-schema.md)
 
 * 已新增新的&#x200B;**個人化電子郵件中的URL**&#x200B;頁面，整合動態URL個人化、完整/基本URL個人化、URL追蹤引數個人化和關鍵護欄的相關指引。 [閱讀全文](../email/url-personalization.md)
 
