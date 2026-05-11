@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM，內容片段，管理，存放庫，驗證，作者，發佈
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
 1. 選擇您的設定：
 
-   >[!BEGINTABS]
-
-   >[!TAB 僅作者設定]
+   +++ 僅作者設定
 
    當Journey Optimizer應僅從Adobe Experience Manager **作者**&#x200B;環境中讀取內容片段時，選取&#x200B;**[!UICONTROL 僅作者設定]**。 不支援從作者復寫到發佈和即時發佈更新。
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB 發佈執行個體安裝程式]
+   +++
+
+   +++ 發佈執行個體設定
 
    1. 選取&#x200B;**[!UICONTROL 發佈執行個體設定]**&#x200B;以開啟發佈執行個體設定。
 
@@ -74,7 +74,7 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
