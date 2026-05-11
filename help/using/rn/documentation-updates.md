@@ -53,7 +53,7 @@ ht-degree: 66%
 
 * 已在&#x200B;**協調行銷活動常見問題集**&#x200B;中新增三個新的問答：發佈時內部會發生什麼情況、發佈後可能不會傳送訊息的7點原因檢查清單，以及設定檔快照查詢與即時設定檔解析度的差異。 [閱讀全文](../orchestrated/orchestrated-campaigns-faq.md)
 
-* 已在歷程疑難排解檔案中新增因封鎖歷程執行個體&#x200B;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而捨棄的新**[&#x200B;事件，說明`maxInstanceStackEventsReached`捨棄的原因、發生時間以及如何減輕其影響。 護欄和步驟事件欄位清單頁面也已相應更新。
+* 已在歷程疑難排解檔案中新增因封鎖歷程執行個體&#x200B;[&#128279;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**而捨棄的新**&#x200B;事件，說明`maxInstanceStackEventsReached`捨棄的原因、發生時間以及如何減輕其影響。 護欄和步驟事件欄位清單頁面也已相應更新。
 
 * **決策原則**&#x200B;檔案中的「善用片段」現在包含&#x200B;**電子郵件**&#x200B;管道的護欄附註： **[!UICONTROL 模擬內容]**&#x200B;不顯示決策專案的運算式片段，而&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;和已啟用的行銷活動則會顯示。 此頁面也指出&#x200B;**[!UICONTROL 視覺片段]**&#x200B;無法指派給決定專案 — 此內容中只支援&#x200B;**運算式片段**。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
 
