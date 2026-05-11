@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
+source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
 workflow-type: tm+mt
-source-wordcount: '3312'
+source-wordcount: '3307'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + 高效工作 {#work-efficiently}
       + [瀏覽介面](using/start/user-interface.md)
       + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-      + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [疑難排解常見問題集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
@@ -246,7 +246,6 @@ ht-degree: 90%
       + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
-      + {hide-from-toc}[自動產生內容變體](using/test-approve/simulate-sample-input-generated.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
    + 核准歷程與行銷活動 {#approve}
       + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
