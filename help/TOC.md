@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[使用Experience Manager範本](using/integrations/aem-templates.md)
       + Experience Manager內容片段 {#aem}
          + [開始使用Experience Manager內容片段](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[設定您的內容片段存放庫](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
          + [考量事項和疑難排解](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[使用Experience Manager內容顧問](using/content-management/aem-content-advisor.md)

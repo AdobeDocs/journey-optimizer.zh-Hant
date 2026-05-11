@@ -7,18 +7,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
+source-git-commit: 62ad835119b42be20152e85817eddf13e3793af7
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager內容片段 {#aem-fragments}
-
->[!AVAILABILITY]
->
->此整合僅適用於&#x200B;**內容片段**，適用於&#x200B;**Adobe Experience Manager as a Cloud Service網站**。 Journey Optimizer會從&#x200B;**發佈**&#x200B;層（非Author）讀取片段。
 
 Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料流程：
 
