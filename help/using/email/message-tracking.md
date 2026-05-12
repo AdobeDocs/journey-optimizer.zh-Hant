@@ -32,7 +32,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2248fe8ed733afa359477cc3f4d80a3cf7732800
+source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 24%
@@ -231,3 +231,4 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 ## 個人化URL追蹤 {#url-tracking}
 
 如需URL個人化的詳細指引（包括如何個人化URL追蹤引數，以及如何個人化完整/基本URL），請參閱[URL個人化](url-personalization.md)。
+
