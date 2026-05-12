@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 3%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 3%
 * **傳入**：如果您想要擷取同意回應（例如加入或退出），並收集使用者偏好設定，請使用此選項。
 
 * **回饋**：選擇此選項可追蹤傳遞和參與事件，包括傳遞、傳出錯誤、讀取回條（如果適用），以支援報告和分析。
+
+>[!NOTE]
+>
+>除非已設定自訂資料集，否則傳入關鍵字資料會儲存在&#x200B;_AJO傳入活動事件資料集_&#x200B;系統資料集中。 在擷取傳入的訊息之前，設定檔必須至少有一個從[!DNL Journey Optimizer]傳送的訊息。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 根據您的提供者，對於需要設定才能成功實作SMS的內容，會有不同的期望：
 

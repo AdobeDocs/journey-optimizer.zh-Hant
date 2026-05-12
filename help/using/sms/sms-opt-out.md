@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
+TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -49,7 +56,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您打算使用雙向SMS （以STOP、QUIT等回覆），請確定您先傳送至少一次單向SMS以建立電話號碼與設定檔對應。 提供者認證過期或設定錯誤會導致傳入關鍵字無法更新使用者設定檔，導致遺失或延遲選擇退出記錄。
+>如果您打算使用雙向SMS （以STOP、QUIT等回覆），請確定您先傳送至少一次單向SMS以建立電話號碼與設定檔對應。 提供者認證過期或設定錯誤會導致傳入關鍵字無法更新使用者設定檔，導致遺失或延遲選擇退出記錄。 傳入回應儲存在&#x200B;_AJO傳入活動事件資料集_&#x200B;系統資料集中。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 
 ## 封鎖清單 {#sms-blocklists}
@@ -73,6 +80,6 @@ ht-degree: 14%
 
   +++ 收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440291/?captions=chi_hant&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
