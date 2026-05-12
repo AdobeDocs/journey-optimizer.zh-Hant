@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件
-source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
+source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 1. 在您的子網域上託管iOS的AASA檔案和Android的assetLinks.json檔案。 請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，並提供下列詳細資料：
 
-   * 針對iOS (AASA)**&#x200B;**：
+   * 針對iOS (AASA)****：
       * 委派的子網域
       * 應用程式套件組合ID
    * **若為Android (assetLinks.json)**：
@@ -307,4 +307,3 @@ ht-degree: 1%
 連結會在裝置的預設網頁瀏覽器中開啟（標準點選追蹤行為），而非透過本頁面所述的`mclick`流程以應用程式深層連結處理。
 
 +++
-
