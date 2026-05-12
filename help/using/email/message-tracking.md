@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: 連結，追蹤，監視，電子郵件
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2248fe8ed733afa359477cc3f4d80a3cf7732800
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 26%
+source-wordcount: 1461
+ht-degree: 24%
 
 ---
 
@@ -72,7 +79,7 @@ ht-degree: 26%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -89,6 +96,14 @@ ht-degree: 26%
    * 選取&#x200B;**[!UICONTROL 外部選擇退出/取消訂閱]**&#x200B;以插入取消訂閱的連結，以停止接收來自您品牌的通訊。 在[本節](email-opt-out.md#email-opt-out)中進一步瞭解選擇退出管理。
 
    * 選取&#x200B;**[!UICONTROL 映象頁面]**&#x200B;以新增電子郵件映象頁面的連結。 [了解更多](#mirror-page)
+
+   * 選取&#x200B;**[!UICONTROL 深層連結]**&#x200B;以插入行動應用程式的連結。 這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。 [了解更多](deeplinks.md)
+
+     >[!IMPORTANT]
+     >
+     >在使用深層連結之前，請確定您已在Journey Optimizer中完成對應的[設定步驟](deeplinks.md#configuration)，並在您的行動應用程式中實作[深層連結處理](deeplinks.md#mobile-implementation)。 如果您尚未這麼做，深層連結不會將使用者導向至預期的應用程式內內容。
+     >
+     >此外，請確定您的郵件已啟用[連結追蹤](#enable-tracking)，以便透過Adobe系統重新寫入URL。
 
 1. 在對應欄位中輸入所需的URL，或選取登入頁面，並定義連結設定和樣式。 [了解更多](#adjust-links)
 
