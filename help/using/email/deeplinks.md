@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 電子郵件中的深層連結，可協助您將收件者從電子郵件帶至行動應用程式中的特定畫面或內容片段。 它有助於引導人們直接使用預期的應用程式內體驗，而不需透過網頁瀏覽器或應用程式商店路由，讓歷程保持在相關性和品牌上。
 
-若要新增深層連結至電子郵件，請確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 在電子郵件Designer中選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的「插入連結」**&#x200B;**，然後選擇「深層連結」**[!UICONTROL 以輸入深層連結URL。]**&#x200B;[進一步瞭解插入連結](message-tracking.md#insert-links)
+若要新增深層連結至電子郵件，請確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 在電子郵件Designer中選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的&#x200B;**[!UICONTROL 插入連結]**，然後選擇&#x200B;**[!UICONTROL 深層連結]**&#x200B;以輸入深層連結URL。 [進一步瞭解插入連結](message-tracking.md#insert-links)
 
 當您的收件者按一下深層連結時，就會直接導向至預期的應用程式內內容 — **前提是您已完成此頁面上詳述的設定步驟**，其中涵蓋：
 
@@ -43,64 +43,13 @@ ht-degree: 1%
 
 1. 在您的子網域上託管iOS的AASA檔案和Android的assetLinks.json檔案。 請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，並提供下列詳細資料：
 
-   * 針對iOS (AASA)**&#x200B;**：
+   * 針對iOS (AASA)****：
       * 委派的子網域
       * 應用程式套件組合ID
    * **若為Android (assetLinks.json)**：
       * 委派的子網域
       * 應用程式套件組合ID
       * SHA-256憑證指紋
-
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
 
 >[!IMPORTANT]
 >
@@ -293,7 +242,7 @@ Adobe is hosting these files internally so not on customer's side.
 * **測試您的深層連結**：傳送校樣，然後按一下已安裝應用程式之裝置上的深層連結。
 * **在真實裝置上進行驗證**：在實體裝置上進行驗證時，通用連結和追蹤連結解析行為會比在模擬器上更可靠。
 * **驗證應用程式端路由**：如果深層連結未開啟預期的畫面，請驗證應用程式端路由和URL格式（主機/路徑/查詢和URL編碼）。
-* 應用程式安裝並開啟至少一次後，應用程式連結/通用連結行為才最可靠。
+* **請記得應用程式初始化**：應用程式連結/通用連結行為在安裝及開啟應用程式至少一次後最為可靠。
 
 ## 疑難排解和常見問答( FAQ) {#troubleshooting-faq}
 
