@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [標頭參數](using/email/header-parameters.md)
          + [URL 追蹤](using/email/url-tracking.md)
          + [個人化電子郵件組態](using/email/surface-personalization.md)
+         + [在電子郵件中設定深層連結](using/email/deeplinks.md)
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
       + [開始使用應用程式內的內容](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [設定自訂提供者](using/sms/sms-configuration-custom.md)
          + [建立 Webhook](using/sms/sms-webhook.md)
          + [建立簡訊 / MMS / RCS 設定](using/sms/sms-configuration-surface.md)
+         + [對傳入關鍵字使用自訂資料集](using/sms/custom-dataset-inbound-keywords.md)
    + 直接郵件 {#direct-mail}
       + [直接郵件](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
