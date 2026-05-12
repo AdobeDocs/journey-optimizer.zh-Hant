@@ -6,16 +6,20 @@ description: 瞭解如何使用Experience Platform結構描述、資料集和SMS
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '518'
+ht-degree: 8%
 
 ---
 
 # 對傳入關鍵字使用自訂資料集 {#custom-dataset-inbound-keywords}
 
 傳入簡訊關鍵字可以儲存在啟用設定檔的自訂資料集中。 此設定包含Adobe Experience Platform結構描述、從該結構描述建立的資料集，以及參照傳入訊息資料集的Journey Optimizer SMS API認證。
+
+>[!NOTE]
+>
+>如果未設定自訂資料集，則依預設會將傳入關鍵字儲存在系統&#x200B;_AJO傳入活動事件資料集_&#x200B;中。 設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)
 
 如需結構描述、欄位群組和資料集的背景，請參閱下列Adobe Experience Platform檔案：
 

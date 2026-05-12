@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **開始使用資料集**&#x200B;頁面已在系統資料集區段中更新為新的&#x200B;**輸入**&#x200B;專案，記錄&#x200B;_AJO輸入活動事件資料集_。 已新增附註，以釐清設定檔必須至少有一個訊息從[!DNL Journey Optimizer]傳送，才能在此資料集中擷取傳入訊息。 [閱讀全文](../data/get-started-datasets.md#system-datasets)
 
 * **匯出訊息內容**&#x200B;檔案已擴充，包含&#x200B;**訊息匯出常見問題集** （個人化內容、影像和媒體、追蹤連結、PII、保留、使用案例等），以及&#x200B;**簡訊和電子郵件的JSON**&#x200B;匯出範例範例。 [閱讀全文](../configuration/message-export.md)
 
