@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 匯出，訊息，資料集，結構描述，電子郵件，簡訊
-source-git-commit: 9c3baf2558f81eb105c5bfbd98be6ede4ba49c65
+source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 4%
@@ -454,3 +454,4 @@ ht-degree: 4%
 **型別：**&#x200B;日期時間
 
 +++
+
