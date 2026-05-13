@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 個人化使用案例
-description: 個人化使用案例
+description: 在Adobe Journey Optimizer中建立個人化訊息的逐步使用案例，涵蓋訂單狀態通知、購物車放棄電子郵件，以及健康計畫處方警示。
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
 # 個人化使用案例{#section-overview}
 
-想像一下，建立專為您的客群量身打造的通訊內容，讓客群每次都能感受到客製化的感覺。Adobe Journey Optimizer 的個人化使用案例可讓您做到這點，混合客戶輪廓、即時上下文和以決策為基礎的產品建議，以製作真正引起共鳴的訊息。無論您是要傳送訂單狀態更新、使用購物車放棄電子郵件重新吸引購物者，還是要個人化健康相關通知，本節都可為您提供逐步引導。每個使用案例都會展示如何結合資料和工具 (例如協助程式函式或動態範本)，以傳遞客群認為相關且吸引人的訊息。深入了解這些技術如何改變您的行銷活動。
+本節提供在Adobe Journey Optimizer中建立個人化訊息的逐步使用案例。 每個範例都以真實世界情境為基礎，並展示如何結合設定檔屬性、內容相關資料、協助程式功能和優惠方案決策，以將目標相關的內容提供給您的對象。
 
 ## 個人化使用案例
 
@@ -22,31 +22,41 @@ ht-degree: 100%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
-訂單狀態通知個人化教學課程
+訂單狀態通知
 
-了解如何使用輪廓、內容和產品建議決策資料，針對訂單狀態更新建立個人化推播通知。
+逐步說明結合設定檔屬性、即時情境資料和Offer Decisioning的完整案例，傳送個人化推播通知給客戶以確認或更新其訂單狀態。
 
-[開始教學課程](../using/personalization/personalization-use-case.md)
+[閱讀教學課程](../using/personalization/personalization-use-case.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
-購物車放棄電子郵件個人化指南
+放棄購物車電子郵件
 
-了解如何使用協助程式函式來新增客戶特定和產品特定的詳細資訊，藉此個人化購物車放棄電子郵件。
+瞭解如何使用協助程式功能，以動態方式將客戶特定詳細資料和產品資訊填入購物車放棄電子郵件，協助您透過及時傳送相關訊息來復原銷售額損失。
 
-[探索指南](../using/personalization/personalization-use-case-helper-functions.md)
+[閱讀指南](../using/personalization/personalization-use-case-helper-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
-健康計劃處方電子郵件個人化範例
+健康計畫處方警示
 
-為健康計劃訂閱者建立個人化電子郵件，以強調處方狀態，例如準備好取貨或召回。
+使用條件式邏輯和範本運算式，建立單一個人化電子郵件，列出目前處於「準備接聽」或「已召回」狀態的訂閱者處方。
 
-[檢視範例](../using/personalization/perso-uc-plan-prescriptions.md)
+[閱讀範例](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+
+Personalization訣竅
+
+瀏覽現成個人化模式的資料庫，涵蓋日期、設定檔屬性、條件邏輯等。 每個配方都包含可直接複製到電子郵件、簡訊或推播內容中的工作語法片段。
+
+[瀏覽配方](../using/personalization/personalization-recipes.md)
 :::
 
 ::::
