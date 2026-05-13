@@ -275,5 +275,5 @@ Enable conditional content in your dynamic media to better target your audience 
 
 本教學課程涵蓋如何直接在AJO中修改影像、使用HTML模式新增文字覆蓋、在AEM中建立用於超個人化的動態媒體範本，以及透過為不同受眾區段量身打造內容來個人化行銷活動。 此整合可讓行銷人員有效率地建立吸引人和個人化的行銷活動，而不需在應用程式之間切換。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3463793/?captions=chi_hant&learn=on&enablevpops=&autoplay=true)
 
