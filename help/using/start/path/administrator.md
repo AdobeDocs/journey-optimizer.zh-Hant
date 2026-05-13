@@ -7,10 +7,17 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d712382d-29ef-487a-93a7-cbebdd2ef24aid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
@@ -18,22 +25,22 @@ ht-degree: 89%
 
 您身為&#x200B;**系統管理員**，可以設定 Journey Optimizer 環境、管理存取權，讓團隊更能有效、安全地工作。 您執行必要設定步驟，讓[資料工程師](data-engineer.md)、[開發商](developer.md)和[行銷人員](marketer.md)可以開始使用[!DNL Adobe Journey Optimizer]。
 
-您的主要職責包括設定使用者群組和權限，建立並管理沙箱，以便劃分不同使用者群組的資料和歷程，同時設定傳遞管道、訊息預設集，才能確保有透過 Journey Optimizer 傳遞各種訊息和資產，具備前後一致的品牌形象。您會確保合適的人員擁有合適的能力，同時維護資安和治理。
+您的主要職責包括設定使用者群組和權限，建立並管理沙箱，以便劃分不同使用者群組的資料和歷程，同時設定傳遞管道、訊息預設集，才能確保有透過 Journey Optimizer 傳遞各種訊息和資產，具備前後一致的品牌形象。 您會確保合適的人員擁有合適的能力，同時維護資安和治理。
 
-這些功能可由具有存取權限產品的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。[進一步了解權限](../../administration/permissions.md){target="_blank"}。
+這些功能可由具有存取權限產品的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。 [進一步了解權限](../../administration/permissions.md){target="_blank"}。
 
 ## 設定存取權和權限
 
 請依照下列步驟，設定存取權管理：
 
-1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 在[!DNL Journey Optimizer]中建立的&#x200B;**沙箱**。在[沙箱](../../administration/sandboxes.md)一節中了解更多資訊。
+1. **建立沙箱**&#x200B;以將執行個體分區到獨立的虛擬環境中。 在[!DNL Journey Optimizer]中建立的&#x200B;**沙箱**。 在[沙箱](../../administration/sandboxes.md)一節中了解更多資訊。
 
    >[!NOTE]
    >作為&#x200B;**系統管理員**，如果您無法在[!DNL Journey Optimizer]中找到&#x200B;**[!UICONTROL 沙箱]**&#x200B;選單，就必須更新您的權限。 請到[本頁面](../../administration/permissions.md#edit-product-profile)了解如何更新您的角色。
 
 1. **了解角色**。 角色是一組統一權限，可讓使用者存取介面中的特定功能或物件。 請到[立即可用的角色](../../administration/ootb-product-profiles.md)區段中了解更多 。
 
-1. 針對角色&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的角色，以授予其存取權。 權限是統一權限，允許您定義分配給&#x200B;**[!UICONTROL 角色]**&#x200B;的授權。每個權限都是透過功能 (例如歷程或產品建議) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
+1. 針對角色&#x200B;**設定權限**，包括&#x200B;**沙箱**，並將團隊成員指派至不同的角色，以授予其存取權。 權限是統一權限，允許您定義分配給&#x200B;**[!UICONTROL 角色]**&#x200B;的授權。 每個權限都是透過功能 (例如歷程或產品建議) 收集而得，這些功能代表 [!DNL Journey Optimizer] 中的不同功能或物件。 在[權限層級](../../administration/high-low-permissions.md)一節中了解更多 。
 
 1. **使用物件層級存取控制** (選填)。 可將存取標籤套用至歷程、行銷活動和頻道設定等物件，以便控制有哪些使用者可以存取特定資源。 深入瞭解[物件層級存取控制(OLAC)](../../administration/object-based-access.md)。
 
@@ -50,21 +57,21 @@ ht-degree: 89%
 
 請依照下列步驟操作：
 
-1. **設定頻道設定。**&#x200B;定義電子郵件、簡訊、推播通知、網頁推播、直接郵件和其他通道所需的所有技術引數：
+1. **設定頻道設定。** 定義電子郵件、簡訊、推播通知、網頁推播、直接郵件和其他管道所需的所有技術參數：
 
    * 可在 [!DNL Adobe Experience Platform] 和 Adobe Experience Platform 資料彙集中，定義&#x200B;**推播通知設定**。 [了解更多](../../push/push-gs.md)
 
-   * 設定&#x200B;**網頁推播通知**，將通知傳送至行動與案頭瀏覽器。 [了解更多](../../push/push-configuration-web.md)
+   * 設定&#x200B;**網頁推播通知**，將通知傳送至行動版與桌面版瀏覽器。 [了解更多](../../push/push-configuration-web.md)
 
    * 建立&#x200B;**頻道設定**，以便設定電子郵件、簡訊、推播、應用程式內、網頁和其他頻道所需的所有技術參數。 [了解更多](../../configuration/channel-surfaces.md)
 
    * 設定 **SMS 頻道**，即可設定簡訊所需的所有技術參數。 [了解更多](../../sms/sms-configuration.md)
 
-   * 管理將電子郵件地址傳送至禁止名單前執行&#x200B;**重試**&#x200B;的天數。[了解更多](../../configuration/manage-suppression-list.md)
+   * 管理將電子郵件地址傳送至禁止名單前執行&#x200B;**重試**&#x200B;的天數。 [了解更多](../../configuration/manage-suppression-list.md)
 
-   * 在頻道設定層級啟用&#x200B;**訊息匯出**，以視需要封存已傳送的電子郵件和簡訊內容（附加產品）。 [了解更多](../../configuration/message-export.md)
+   * 在管道設定層級啟用&#x200B;**訊息匯出**，以視需要封存已傳送的電子郵件和簡訊內容 (附加產品)。 [了解更多](../../configuration/message-export.md)
 
-1. **委派子網域**：若要在 Journey Optimizer 中使用任何新子網域，第一步是將其委派。 [進一步瞭解](../../configuration/about-subdomain-delegation.md)。您可以視需要將子網域從CNAME移轉至自訂委派。 [了解更多](../../configuration/custom-subdomain-migration.md)
+1. **委派子網域**：若要在 Journey Optimizer 中使用任何新子網域，第一步是將其委派。 [了解更多](../../configuration/about-subdomain-delegation.md)。 您可以視需要將子網域從 CNAME 移轉至自訂委派。 [了解更多](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -80,19 +87,19 @@ ht-degree: 89%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
 隨著貴組織的需求增加，請考慮下列進階功能：
 
-* **同意原則**：如果您的組織已購買 Healthcare Shield 或 Privacy and Security Shield，請建立同意原則以尊重各管道的客戶偏好。[了解更多](../../action/consent.md)
+* **同意原則**：如果您的組織已購買 Healthcare Shield 或 Privacy and Security Shield，請建立同意原則以尊重各管道的客戶偏好。 [了解更多](../../action/consent.md)
 
-* **資料治理原則**：套用資料使用標籤和原則來控制如何在行銷動作中使用資料。[了解更多](../../action/action-privacy.md)
+* **資料治理原則**：套用資料使用標籤和原則來控制如何在行銷動作中使用資料。 [了解更多](../../action/action-privacy.md)
 
-* **IP 暖身計劃**：逐步增加電子郵件傳送量，以建立電子郵件提供者的寄件者信譽。[了解更多](../../configuration/ip-warmup-gs.md)
+* **IP 暖身計劃**：逐步增加電子郵件傳送量，以建立電子郵件提供者的寄件者信譽。 [了解更多](../../configuration/ip-warmup-gs.md)
 
-* **無訊息時數**：設定在特定期間不應傳送訊息時以時間為基礎的排除規則集。 [了解更多](../../conflict-prioritization/quiet-hours.md)
+* **勿打擾時間**：設定在特定期間不應傳送訊息時基於時間的排除規則集。 [了解更多](../../conflict-prioritization/quiet-hours.md)
 
 ## 跨角色共同作業
 
@@ -102,7 +109,7 @@ ht-degree: 89%
 
 >[!TAB 支援資料工程師]
 
-與[資料工程師](data-engineer.md)共同作業資料管理和存取。 檢閱[開始使用資料管理](../../data/gs-data.md)概觀，瞭解資料工程師需要設定的結構描述、資料集和資料來源。
+與[資料工程師](data-engineer.md)共同處理資料管理和存取權： 檢閱[開始使用資料管理](../../data/gs-data.md)概觀，瞭解資料工程師需要設定的結構描述、資料集和資料來源。
 
 * 授予資料管理和結構描述建立的權限
 * 核准沙箱存取權以進行開發和測試

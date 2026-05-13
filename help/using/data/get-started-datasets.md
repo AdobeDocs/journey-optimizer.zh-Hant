@@ -9,30 +9,15 @@ level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +27,7 @@ ht-degree: 90%
 
 ## 護欄與限制
 
-* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
+* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
 
 * 自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
@@ -86,7 +71,7 @@ ht-degree: 90%
 
 * 訊息匯出
 
-  _AJO訊息匯出資料集_：儲存已傳送電子郵件和簡訊的內容，以供匯出。 記錄會自內嵌後保留7個日曆日。 僅適用於已購買訊息匯出附加元件的組織。 [了解更多](../configuration/message-export.md)
+  _AJO 訊息匯出資料集_：儲存已傳送電子郵件和簡訊的內容，以供匯出。 從擷取之日起，記錄會保留 7 天。 僅適用於已購買訊息匯出附加元件的組織。 [了解更多](../configuration/message-export.md)
 
 * Intelligent Services
 
@@ -107,7 +92,7 @@ ht-degree: 90%
 您可以從結構描述或 CSV 檔案建立資料集。 有關如何建立資料集的詳細資訊，請參閱 [!DNL Adobe Experience Platform] 文件：
 
 * [使用現有結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [將CSV檔案對應至現有的XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [將 CSV 檔案對應到現有的 XDM 結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構描述、新增資料，以及確認資料已擷取。
 
@@ -125,13 +110,13 @@ ht-degree: 90%
 
 ## 範例與使用案例 {#samples}
 
-* [教學課程 — 將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
+* [教學課程 - 將資料擷取至 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
 * [端到端使用案例](../audience/creating-test-profiles.md) - 建立結構描述、資料集和擷取資料以在 [!DNL Adobe Journey Optimizer] 中新增測試輪廓
 * [查詢範例](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer]資料集和相關使用案例。
 
 >[!MORELIKETHIS]
 >
->* [開始使用Journey Optimizer中的資料管理](gs-data.md)
+>* [開始使用 Journey Optimizer 的資料管理](gs-data.md)
 >* [資料集文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 >* [資料管理授權權益最佳做法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

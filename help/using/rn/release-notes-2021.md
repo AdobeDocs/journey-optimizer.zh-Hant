@@ -9,9 +9,16 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZIeVw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: 2060
 ht-degree: 100%
 
 ---
@@ -83,7 +90,7 @@ ht-degree: 100%
 
 **歷程**
 
-* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。[在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
+* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 此功能可與訂閱清單搭配運用。 例如，您現在可以從客群的訂閱清單取得電子郵件地址。 [在本範例進一步了解](../building-journeys/message-to-subscribers-uc.md)
 
 * **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../reports/sharing-field-list.md#servicevents-field) 已新增與輪廓匯出作業有關的內容。 為了提供更佳的使用者體驗，步驟事件欄位現在會整理成不同類別。 所有先前的步驟事件欄位仍可在 [stepEvents](../reports/sharing-legacy-fields.md) 類別中使用。
 * **協助工具** - 歷程已導入協助工具增強功能。
@@ -92,7 +99,7 @@ ht-degree: 100%
 
 **報告**
 
-* **全域檢視中的資料格式** - 您現在可以在&#x200B;**執行**&#x200B;標籤中的&#x200B;**全域檢視**&#x200B;切換數字與百分比 。 
+* **全域檢視中的資料格式** - 您現在可以在&#x200B;**執行**&#x200B;標籤中的&#x200B;**全域檢視**&#x200B;切換數字與百分比 。
 
 
 **管理**
@@ -130,7 +137,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>在報告中提供新指標：即時和全域報告都會顯示已鎖定和已排除對象的電子郵件和推送訊息。 </br> 若要存取最新指標，請注意，您必須為每個頻道和報告類型重新設定不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱<a href="../reports/live-report.md">詳細文件。</a></p>
+<p>在報告中提供新指標：即時和全域報告都會顯示已鎖定和已排除的電子郵件和推播訊息。</br> 若要存取最新指標，請注意，您必須為每個管道和報告類型重新設定不同的報告儀表板。 如需儀表板客製化的詳細資訊，請參閱<a href="../reports/live-report.md">詳細文件。</a></p>
 <p>訊息執行清單中包含新欄顯示每個訊息執行的目標輪廓數量。 </p>
 <p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
@@ -184,7 +191,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。「傳送時間最佳化」採用 Adobe 的 AI 服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推播訊息的最佳時機，以實現最大化參與程度。</p>
+<p>使用 Adobe Journey Optimizer 在最適當的時間自動向您接洽的每個客戶傳送推播通知或電子郵件。 「傳送時間最佳化」採用 Adobe 的 AI 服務，可根據立即可用的歷史開啟率和點按率，預測傳送電子郵件或推播訊息的最佳時機，以實現最大化參與程度。</p>
 <p>此功能目前為測試版本，僅供測試版客戶使用。 若要加入測試版計畫，請連絡 Adobe 客戶服務。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/send-time-optimization.md">詳細文件</a>。</p>
 </td>
@@ -202,7 +209,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在當您設定商業活動時，可以利用結構描述之間的關係。除了可在當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時運用連結表格的欄位，同時還包含此功能。</p>
+<p>現在當您設定商業活動時，可以利用結構描述之間的關係。 除了可在當設定單一事件時、當在歷程中、在個人化訊息和在個人化自訂動作中使用條件時運用連結表格的欄位，同時還包含此功能。</p>
 <p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
 </td>
 </tr>
@@ -236,7 +243,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以根據預設來定義重試期間，以確保當不再需要重試時，就不再進行重試。例如，對於密碼重設異動訊息包含僅一天有效的連結，您可以將重試期間設為 24 小時。請注意，重試設定只會套用至電子郵件頻道。</p>
+<p>您現在可以根據預設來定義重試期間，以確保當不再需要重試時，就不再進行重試。 例如，對於密碼重設異動訊息包含僅一天有效的連結，您可以將重試期間設為 24 小時。 請注意，重試設定只會套用至電子郵件頻道。</p>
 <p>如需詳細資訊，請參閱<a href="../configuration/retries.md#retry-duration">詳細文件</a>。</p>
 </td>
 </tr>
@@ -260,22 +267,22 @@ ht-degree: 100%
 </table>
 
 
-### 功能改進
+### 改善
 
 **歷程**
 
 * **動態標頭** - 您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫的整合系統可使用這些參數 (例如時間戳記或追蹤 ID)。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamic URL 路徑** - 您現在可以為自訂動作設定動態 URL 路徑。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
-* 讀取客群的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。[了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 讀取客群的總節流率已從每秒 17,000 則訊息變更為每秒 20,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **使用者介面**
 
 * **搜尋** - 在每個頁面上，您現在可以直接從「統一的 Experience Cloud」搜尋欄位搜尋業務物件和說明文章。 [了解更多](../start/user-interface.md#unified-search)
-* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。[了解更多](../action/about-custom-action-configuration.md#passing-collection)
+* **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。 [了解更多](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
 
-* **背景** - 即時預覽現在支援背景影像。 [進一步了解](../content-management/preview-test.md)
+* **背景** - 即時預覽現在支援背景影像。 [瞭解更多](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **個人化**
@@ -285,11 +292,11 @@ ht-degree: 100%
 **電子郵件設定**
 
 * **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。[了解更多](../configuration/manage-suppression-list.md#access-suppression-list)
+* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 
-* 建立產品建議時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。[了解更多](../offers/offer-library/creating-personalized-offers.md#representations)
+* 建立產品建議時新增和設定代表的方式已更新，以改善使用者體驗。 特別是，現在只有當您定義代表的影像類型內容時，才會顯示資料庫。 [了解更多](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### 修正
 
@@ -337,20 +344,20 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 功能改進
+### 改善
 
 **歷程**
 
-* 對於在同一沙箱同時執行的所有讀取客群，其總節流率限制為每秒 17,000 則訊息。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 對於在同一沙箱同時執行的所有讀取客群，其總節流率限制為每秒 17,000 則訊息。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](../datasource/about-data-sources.md)
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../configuration/external-systems.md#capping)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 [閱讀全文](../building-journeys/journey-gs.md#change-properties)
 * 在歷程清單畫面中，已新增歷程類型篩選器。 [閱讀全文](../start/user-interface.md#filter-lists)
-* **[!UICONTROL 節流率]**&#x200B;參數已新增至讀取客群活動中。[閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* **[!UICONTROL 節流率]**&#x200B;參數已新增至讀取客群活動中。 [閱讀全文](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **預覽和測試**
 
-* 身分識別和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。[閱讀全文](../content-management/preview-test.md#preview-test)
+* 身分識別和命名空間現在會顯示在&#x200B;**[!UICONTROL 預覽]**&#x200B;畫面中。 [閱讀全文](../content-management/preview-test.md#preview-test)
 * 校樣的測試電子郵件數目現在限制為 10 則。
 * 已在校樣中限制&#x200B;**主旨行首碼** 允許的字元。 [閱讀全文](../content-management/preview-test.md#send-proofs)
 

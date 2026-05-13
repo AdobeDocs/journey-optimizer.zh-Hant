@@ -7,10 +7,17 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
@@ -24,13 +31,13 @@ ht-degree: 92%
 
 >[!TIP]
 >
->第一次使用Journey Optimizer中的資料？ 開始使用[開始使用資料管理](../../data/gs-data.md)總覽，以瞭解結構描述、資料集、身分、設定檔片段模型，以及完整的資料整備檢查清單，然後再開始進行設定。
+>剛開始使用 Journey Optimizer 的資料？ 首先檢閱[開始使用資料管理](../../data/gs-data.md)概觀，以瞭解結構描述、資料集、身分識別、輪廓片段模型，以及完整的資料整備檢查清單，然後再開始進行設定。
 
 ## 基本資料設定步驟
 
 請依照下列步驟，為 Journey Optimizer 設定資料奠定良好基礎：
 
-1. **建立身分識別的命名空間**。在 Adobe [!DNL Journey Optimizer]，**身分識別**&#x200B;連結跨裝置和管道的消費者，結果會是身分識別圖表。 連結的身分識別圖，可依據所有企業接觸點的互動，打造個人化體驗。請[在此頁面](../../audience/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
+1. **建立身分識別的命名空間**。 在 Adobe [!DNL Journey Optimizer]，**身分識別**&#x200B;連結跨裝置和管道的消費者，結果會是身分識別圖表。 連結的身分識別圖，可依據所有企業接觸點的互動，打造個人化體驗。 請[在此頁面](../../audience/get-started-identity.md)進一步了解身分識別與身分識別命名空間。
 
    此外，請設定&#x200B;**補充識別碼**，即可啟用相同設定檔，再根據次要識別碼，例如訂購 ID，或是預訂 ID，輸入多重歷程執行個體。 深入瞭解[補充識別碼](../../building-journeys/supplemental-identifier.md)。
 
@@ -43,27 +50,27 @@ ht-degree: 92%
 
    對於進階案例，請準備&#x200B;**個資料集，以便執行階段查詢**，才能使用記錄資料集中的即時資料，擴充歷程執行。 深入瞭解[資料集查詢](../../building-journeys/dataset-lookup.md)。
 
-1. **設定來源連接器**。Adobe Journey Optimizer 讓您可以從外部來源擷取資料，同時可以使用 Platform 服務來建立、加標籤，同時強化傳入資料。您可以從多種來源 (如 Adobe 應用程式、雲端型的儲存空間、資料庫和其他許多來源) 擷取資料。 請[在此頁面](../get-started-sources.md)深入了解來源連接器。
+1. **設定來源連接器**。 Adobe Journey Optimizer 讓您可以從外部來源擷取資料，同時可以使用 Platform 服務來建立、加標籤，同時強化傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型的儲存空間、資料庫和其他許多來源) 擷取資料。 請[在此頁面](../get-started-sources.md)深入了解來源連接器。
 
-1. **建立測試輪廓**。使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../content-management/preview-test.md)。 建立測試輪廓的步驟已[在此頁面](../../audience/creating-test-profiles.md)詳細說明。
+1. **建立測試輪廓**。 使用[測試模式](../../building-journeys/testing-the-journey.md)在傳送前於歷程中[預覽和測試訊息](../../content-management/preview-test.md)。 建立測試輪廓的步驟已[在此頁面](../../audience/creating-test-profiles.md)詳細說明。
 
 1. **設定計算屬性**（選填）。 從設定檔資料建立衍生屬性，以便簡化細分、個人化。 計算屬性會自動計算複雜量度，例如「過去 90 天內的總購買次數」或是「平均訂購值」。 深入了解[計算屬性](../../audience/computed-attributes.md)。
 
-1. **訊息匯出資料集** （選擇性）。 在通道設定層級啟用訊息匯出時，傳送的電子郵件和簡訊內容會自動匯出至專用的Experience Platform資料集，以進行合規性、封存或下游分析。 瞭解[訊息匯出](../../configuration/message-export.md)。
+1. **訊息匯出資料集** (選用)。 在管道設定層級啟用訊息匯出時，傳送的電子郵件和簡訊內容會自動匯出至專用的 Experience Platform 資料集，以進行合規性、封存或下游分析。 瞭解[訊息匯出](../../configuration/message-export.md)。
 
-此外，若想在歷程中傳送訊息，就必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。請參閱[本節](../../configuration/about-data-sources-events-actions.md)以了解更多資訊。
+此外，若想在歷程中傳送訊息，就必須設定&#x200B;**[!UICONTROL 資料來源]**、**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。 請參閱[本節](../../configuration/about-data-sources-events-actions.md)以了解更多資訊。
 
 ![](../assets/admin-menu.png)
 
-* **資料來源**&#x200B;設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。[在此章節](../../datasource/about-data-sources.md)深入瞭解資料來源相關內容。
+* **資料來源**&#x200B;設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。 [在此章節](../../datasource/about-data-sources.md)深入瞭解資料來源相關內容。
 
-* **事件**&#x200B;可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 在事件設定中，您會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。[在此章節](../../event/about-events.md)深入瞭解事件相關內容。
+* **事件**&#x200B;可讓您一直觸發歷程，以即時傳送訊息給流入歷程的個人。 在事件設定中，您會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。 [在此章節](../../event/about-events.md)深入瞭解事件相關內容。
 
-* [!DNL Journey Optimizer] 隨附內建訊息功能：您可以在歷程中建立訊息，並設計內容。 如果您使用第三方系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。若要了解更多關於動作的資訊，請參閱[此區段](../../action/action.md)。
+* [!DNL Journey Optimizer] 隨附內建訊息功能：您可以在歷程中建立訊息，並設計內容。 如果您使用第三方系統來傳送訊息，例如 Adobe Campaign，請建立&#x200B;**自訂動作**。 若要了解更多關於動作的資訊，請參閱[此區段](../../action/action.md)。
 
 ## 監視和分析歷程資料
 
-歷程執行後，您可以在資料湖中查詢歷程步驟事件，以監視績效、疑難排解問題並分析客戶行為。使用 SQL 查詢來分析：
+歷程執行後，您可以在資料湖中查詢歷程步驟事件，以監視績效、疑難排解問題並分析客戶行為。 使用 SQL 查詢來分析：
 
 * 輪廓進入與退出模式
 * 錯誤率和捨棄原因

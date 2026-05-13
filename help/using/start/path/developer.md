@@ -5,10 +5,16 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 90%
+source-wordcount: 2079
+ht-degree: 97%
 
 ---
 
@@ -85,7 +91,7 @@ ht-degree: 90%
 
 1. **設定資料流**：啟用 Journey Optimizer 後，在 [!DNL Adobe Experience Platform Data Collection] 中建立並設定資料串流。 在[資料流文件](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}中了解更多相關資訊。
 
-1. **啟用Web推播通知** （選擇性）： Web推播通知現在一般可用。 在您的Web SDK設定中設定[pushNotifications屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}，並使用[sendPushSubscription命令](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}註冊推送訂閱。 [瞭解網頁推播設定](../../push/push-configuration-web.md)。
+1. **啟用網頁推播通知** (選用)：網頁推播通知現在一般可用。 在您的 Web SDK 設定中設定 [pushNotifications 屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}，並使用 [sendPushSubscription 命令](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}來註冊推播訂閱。 [瞭解網頁推播設定](../../push/push-configuration-web.md)。
 
 ### 實作程式碼型體驗 (Web SDK)
 
@@ -163,11 +169,11 @@ Content-Type: application/json
 
 1. **了解自訂動作功能**：自訂動作可以連線至第三方系統，例如 Epsilon、Slack、Firebase 或您自己的服務。 深入了解[自訂動作](../../action/action.md)。
 
-1. **使用動作設定**：您的[管理員](administrator.md)或[資料工程師](data-engineer.md)將在 Journey Optimizer 中設定自訂動作，定義 API 端點 URL、驗證方法和參數。 您將為他們提供您的 API 規格。 了解[自訂動作設定](../../action/about-custom-action-configuration.md)。 您可以為逾時/錯誤分支中更豐富的遞補邏輯定義選用的&#x200B;**錯誤回應承載**。
+1. **使用動作設定**：您的[管理員](administrator.md)或[資料工程師](data-engineer.md)將在 Journey Optimizer 中設定自訂動作，定義 API 端點 URL、驗證方法和參數。 您將為他們提供您的 API 規格。 了解[自訂動作設定](../../action/about-custom-action-configuration.md)。 您可以為逾時/錯誤分支中更豐富的邏輯定義選用的&#x200B;**錯誤回應承載**。
 
 1. **傳回可操作資料**：設計您的 API 以傳回可用於後續歷程步驟的資料。 了解[動作回應](../../action/action-response.md)。
 
-1. **監視自訂動作狀況**：使用自訂動作監視儀表板來追蹤成功的呼叫、錯誤、輸送量、回應時間和佇列等待時間。 瞭解[自訂動作報告](../../action/reporting.md)。
+1. **監視自訂動作健康情況**：使用自訂動作監視儀表板來追蹤成功的呼叫、錯誤、輸送量、回應時間和佇列等待時間。 瞭解[自訂動作報告](../../action/reporting.md)。
 
 1. **實作速率限制**：確保您的端點可以處理預期的流量。 Journey Optimizer 套用每秒 5000 次呼叫的限制，但您的系統應可復原。 了解[上限與節流](../../configuration/external-systems.md)。
 
@@ -187,9 +193,9 @@ Journey Optimizer 提供完整的 REST API 以便進行程式化存取：
 
 1. **決策管理 API**：使用專門的 API 進行產品建議管理和決策。 若要了解更多資訊，請參閱[決策管理 API 指南](../../offers/api-reference/getting-started.md)。
 
-1. **決定移轉API**：以程式設計方式將決定管理實體移轉至具有彈性範圍、自動化驗證和復原支援的決定。 進一步瞭解[Decisioning移轉API指南](../../experience-decisioning/decisioning-migration-api.md)。
+1. **決策移轉 API**：以程式設計方式將決策管理實體移轉至具有彈性範圍、自動化驗證和復原支援的決策。 若要瞭解更多資訊，請參閱[決策移轉 API 指南](../../experience-decisioning/decisioning-migration-api.md)。
 
-1. **SMS Webhooks**：設定傳入Webhook以擷取傳入訊息和回饋Webhook，以接收傳遞回條和狀態更新。 [了解更多資訊](../../sms/sms-webhook.md)。
+1. **簡訊 Webhook**：設定傳入 Webhook 以擷取傳入訊息和意見回饋 Webhook，以便接收傳遞回條和狀態更新。 [了解更多](../../sms/sms-webhook.md)。
 
 ## 測試和偵錯 {#testing}
 
@@ -279,9 +285,9 @@ Journey Optimizer 提供完整的 REST API 以便進行程式化存取：
 
 準備好開始建立了嗎？ 從以上區段選擇您的第一個實作區域：
 
-1. **行動應用程式？** 開始使用[行動SDK整合](#mobile-integration)
-2. **網站？** 從[Web SDK安裝程式開始](#web-implementation)
-3. **API整合？** 跳至[使用API](#apis)
-4. **自訂系統？** 簽出[自訂動作](#custom-actions)
+1. **行動應用程式？** 開始進行 [Mobile SDK 整合](#mobile-integration)
+2. **網站？** 開始[設定 Web SDK](#web-implementation)
+3. **API 整合？** 跳轉至[使用 API](#apis)
+4. **自訂系統？** 查看[自訂動作](#custom-actions)
 
 每個區段都包含詳細技術文件、程式碼範例和教學課程的連結，以指導您的實作。

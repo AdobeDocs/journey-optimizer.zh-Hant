@@ -7,10 +7,16 @@ role: User
 level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
+TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 77%
+source-wordcount: 343
+ht-degree: 100%
 
 ---
 
@@ -18,7 +24,7 @@ ht-degree: 77%
 
 直接郵件是離線管道，可讓您個人化和產生第三方直接郵件提供者傳送郵件給客戶所需的擷取檔案。
 
-建立直接郵件行銷活動或歷程時，Journey Optimizer會自動產生一個檔案，其中包含所有目標設定檔和選取的資料，例如郵寄地址和設定檔屬性。 此檔案會傳送至您選擇的伺服器，供您選擇的第三方直接郵件提供者存取，來為您處理實際的郵寄流程。
+建立直接郵件行銷活動或歷程時，Journey Optimizer 會自動產生檔案，其中包含所有目標輪廓和選取的資料，例如郵寄地址和輪廓屬性。 此檔案會傳送至您選擇的伺服器，供您選擇的第三方直接郵件提供者存取，來為您處理實際的郵寄流程。
 
 您必須與您選擇的第三方直接郵件提供者合作，以取得客戶的任何必要同意 (若適用)，以便您的客戶可以收到您的郵件。
 
@@ -30,7 +36,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->可以在歷程和行銷活動的內容中建立直接郵件訊息。 它們無法用於API觸發的行銷活動。
+>直接郵件訊息可以在歷程和行銷活動的內容中建立。 其無法在 API 觸發的行銷活動中使用。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -43,6 +49,6 @@ ht-degree: 77%
 
 ## 作法影片
 
-瞭解如何善用Adobe Journey Optimizer中的直接郵件頻道，在您的歷程中自動執行並排程直接郵件傳遞。
+深入瞭解如何在 Adobe Journey Optimizer 中善用直接郵件管道，以便進行自動化，同時在歷程中安排直接郵件傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)

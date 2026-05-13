@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->如果您使用&#x200B;**協調的行銷活動**&#x200B;頻道活動的&#x200B;**[!UICONTROL 模擬內容]**，請參閱[檢查並測試您的內容](../orchestrated/activities/channels.md#simulate-content-test-profiles)以取得更多資訊和重要備註。
+>如果您使用&#x200B;**協調的行銷活動**&#x200B;管道活動的&#x200B;**[!UICONTROL 模擬內容]**，請參閱[檢查並測試您的內容](../orchestrated/activities/channels.md#simulate-content-test-profiles)，以取得更多資訊和重要備註。
 
 ## 使用測試設定檔資料，或是範例輸入資料進行測試 {#methods}
 
@@ -44,11 +44,11 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
   使用測試設定檔，預覽內容，傳送電子郵件校樣，同時檢查電子郵件轉譯。 如果您已新增個人化欄位，就可以使用測試設定檔資料，檢查資料的顯示方式。 如需詳細資訊，請參閱以下區段：
 
-  ➡️ [選取測試設定檔](test-profiles.md)
-➡️ [使用測試設定檔預覽](preview.md)
-➡️ [傳送電子郵件校樣](proofs.md)
-➡️ [檢查電子郵件轉譯](rendering.md)
-➡️ [預覽並校訂您的電子郵件（影片）](#video-preview)
+  ➡️[選取測試輪廓](test-profiles.md)
+➡️[使用測試輪廓進行預覽](preview.md)
+➡️[傳送電子郵件校樣](proofs.md)
+➡️[檢查電子郵件轉譯](rendering.md)
+➡️[預覽與校訂您的電子郵件 (影片)](#video-preview)
 
 * **使用範例輸入資料來測試內容變化版本**
 
@@ -72,4 +72,4 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 了解如何使用測試輪廓來測試各個收件匣裡的電子郵件轉譯，根據測試輪廓預覽您的個人化電子郵件，同時傳送校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430345?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
