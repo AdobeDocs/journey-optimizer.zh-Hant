@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 2f18acd2f3164432260e1a45bc6a9ff567b1ebe9
 workflow-type: tm+mt
-source-wordcount: 2609
-ht-degree: 81%
+source-wordcount: 2579
+ht-degree: 82%
 
 ---
 
@@ -51,6 +51,28 @@ ht-degree: 81%
 [!DNL Adobe Journey Optimizer] 是原生建置在 [!DNL Adobe Experience Platform] 的並繼承其最新創新和改善項目。 若要了解更多有關這些變更的資訊，請參閱 [Adobe Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant){target="_blank"}。
 
 ## 2026年5月更新 {#may-26-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在Adobe Journey Optimizer中建立<strong>歷程片段</strong>。 歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。</p>
+<p>建立後，片段會儲存在專用的<strong>片段詳細目錄</strong>中，並可使用<strong>歷程片段</strong>活動插入任何歷程。</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>此功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-fragments.md">詳細文件</a>。</p>
+<p>推出日期： 2026年5月13日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -150,31 +172,13 @@ ht-degree: 81%
 
 * **WhatsApp按鈕支援和追蹤** - WhatsApp範本現在支援&#x200B;**快速回覆**、**Call to action - URL**&#x200B;和&#x200B;**Call to action -**，不支援&#x200B;**複製代碼**。 Journey Optimizer會傳送支援的按鈕並追蹤與其他管道報表的互動。
 
-## 即將推出 {#coming-soon}
+<!-- 
+## Coming soon {#coming-soon}
 
-下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
+The following capabilities and enhancements are scheduled for release in the next few days. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-### 新功能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程片段</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在Adobe Journey Optimizer中建立<strong>歷程片段</strong>。 歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。</p>
-<p>建立後，片段會儲存在專用的<strong>片段詳細目錄</strong>中，並可使用<strong>歷程片段</strong>活動插入任何歷程。</p>
-<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>此功能僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
-<p>推出日期： 2026年5月12日</p>
-</td>
-</tr>
-</tbody>
-</table>
+### New capabilities {#comming-soon-features}
+-->
 
 ## 2026年4月發行說明 {#april-26-rn}
 
