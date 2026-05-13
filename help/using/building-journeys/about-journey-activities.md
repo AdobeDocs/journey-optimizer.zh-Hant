@@ -10,9 +10,16 @@ level: Beginner, Intermediate
 keywords: 歷程，活動，開始，事件，動作
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 728
 ht-degree: 15%
 
 ---
@@ -46,6 +53,7 @@ ht-degree: 15%
 * [最佳化](optimize.md)
 * [讀取對象](read-audience.md)
 * [等待](wait-activity.md)
+* [歷程片段](journey-fragments.md)
 * [內容決策](content-decision.md)
 * [資料集查詢](dataset-lookup.md)
 
@@ -57,13 +65,13 @@ ht-degree: 15%
 
 從畫面左側的浮動視窗，在&#x200B;**[!UICONTROL 事件]**&#x200B;和&#x200B;**[!UICONTROL 協調流程]**&#x200B;下方，您可以找到&#x200B;**[!UICONTROL 動作]**&#x200B;類別。 可使用下列動作活動：
 
-* [可從](../building-journeys/journey-action.md)動作&#x200B;**活動中取得的內建頻道動作**
+* [可從&#x200B;**動作**&#x200B;活動中取得的內建頻道動作](../building-journeys/journey-action.md)
 * [自訂動作](../building-journeys/using-custom-actions.md)
 * [跳轉](../building-journeys/jump.md)
 
 歷程設計程式中的![動作活動浮動視窗](assets/journey58.png)
 
-這些活動代表不同的可用通訊通道。您可以將其合併，以建立跨管道情境。
+這些活動代表不同的可用通訊通道。 您可以將其合併，以建立跨管道情境。
 
 您也可以設定傳送訊息的特定動作：
 
@@ -99,7 +107,7 @@ ht-degree: 15%
 
 ![隱藏歷程活動屬性中的唯讀欄點陣圖示](assets/journey-hide-read-only-fields.png)
 
-在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。[了解更多](../configuration/primary-email-addresses.md#override-execution-address-journey)
+在某些特定內容中，您可以覆寫這些引數的值以供特定用途。 若要強制執行值，請按一下欄位右側的&#x200B;**[!UICONTROL 啟用參數覆寫]**&#x200B;圖示。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![在電子郵件活動屬性中啟用引數覆寫選項](assets/journey-enable-parameter-override.png)
 
@@ -111,14 +119,14 @@ ht-degree: 15%
 
 ### 新增替代路徑
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[此節](../building-journeys/using-the-journey-designer.md#paths)
+當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法是核取方塊&#x200B;**[!UICONTROL 在逾時或錯誤的情況下新增替代路徑]**。 請參閱[此節](../building-journeys/using-the-journey-designer.md#paths)
 
 ![在條件活動屬性中新增替代路徑選項](assets/journey42.png)
 
 ## 疑難排解 {#troubleshooting}
 
-在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。如果系統仍偵測到錯誤，則無法進行測試或發佈。
+在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。 如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
-在此頁面[上瞭解如何疑難排解活動及歷程](troubleshooting.md)中的錯誤。
+在此頁面](troubleshooting.md)上瞭解如何疑難排解活動及歷程[中的錯誤。
 
 另請參閱[監視與疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
