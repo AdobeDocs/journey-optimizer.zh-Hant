@@ -45,7 +45,7 @@ ht-degree: 0%
 | 條件區塊 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在陣列上回圈 | `{{#each profile.orders}}...{{/each}}` |
 
-屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
+屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
 >[!TIP]
 >
@@ -146,7 +146,7 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
 * **設定檔**
 
-  此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
+  此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
 
   屬性必須先在結構描述中定義，才能在[!DNL Journey Optimizer]個人化區塊中參考。
 
@@ -166,7 +166,7 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
 * **對象**
 
-  若要深入瞭解細分服務，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}。
+  若要深入瞭解細分服務，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
 
 * **選件**
 
