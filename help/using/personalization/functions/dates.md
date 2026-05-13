@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: 1762
 ht-degree: 5%
 
 ---
@@ -245,15 +250,32 @@ The following operation gets all the keys for the map `identityMap`.
 {%= dateDiff(datetime,datetime) %}
 ```
 
-<!--
-**Example**
++++範例 — 事件前的剩餘天數
 
-The following operation gets all the values for the map `identityMap`.
+下列作業會傳回設定檔中儲存的今天與未來日期（例如訂閱結束日期或事件日期）之間的天數：
 
 ```sql
-{%= values(identityMap) %}
+{%= dateDiff(getCurrentZonedDateTime(), stringToDate(profile.events.subscriptionEndDate)) %}
 ```
--->
+
++++
+
++++真實世界的範例 — 主旨列中的倒數計時
+
+使用`dateDiff`為電子郵件主旨行或內容建立動態倒計時：
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+{%#if daysLeft > 0%}
+Your points expire in {{daysLeft}} day{%#if daysLeft > 1%}s{%/if%} — use them before they're gone!
+{%else%}
+Your points have expired.
+{%/if%}
+```
+
+輸出（範例）： `Your points expire in 7 days — use them before they're gone!`
+
++++
 
 ## 當月的第幾天 {#day-month}
 
@@ -275,7 +297,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 星期 {#day-week}
 
-`dayOfWeek`函式用於擷取星期幾。
+`dayOfWeek`函式用於擷取星期幾。 它會依照ISO-8601標準傳回1 （星期一）到7 （星期日）的整數。
 
 **語法**
 
@@ -283,15 +305,33 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfWeek(datetime) %}
 ```
 
-<!--
-**Example**
++++範例 — 偵測個人化內容中的週末
 
-The following operation gets all the values for the map `identityMap`.
+在電子郵件或內容中使用此函式，根據當天調整訊息。 PQL中的比較運運算元是`=` （單一等於，而不是`==`）：
 
-```sql
-{%= values(identityMap) %}
+```handlebars
+{%#if dayOfWeek(getCurrentZonedDateTime()) = 6 or dayOfWeek(getCurrentZonedDateTime()) = 7%}
+We're closed on weekends — your request will be processed on the next business day.
+{%else%}
+Our team will get back to you within 24 hours.
+{%/if%}
 ```
--->
+
+| Day | 傳回的值 |
+|-----|----------------|
+| 星期一 | 1 |
+| 星期二 | 2 |
+| 星期三 | 3 |
+| 星期四 | 4 |
+| 星期五 | 5 |
+| 星期六 | 6 |
+| 星期日 | 7 |
+
++++
+
+>[!NOTE]
+>
+>`dayOfWeek()`是專為&#x200B;**內容個人化**&#x200B;所設計（例如，根據日期調整電子郵件內文）。 如果您需要在歷程&#x200B;**中根據一週中的某天以不同方式**&#x200B;路由設定檔（例如，略過等待活動的週末），請使用內建的&#x200B;**時間條件→一週中的某天**&#x200B;選項，該選項可直接在歷程條件活動中使用。 [了解更多](../../building-journeys/condition-activity.md#date_condition)
 
 ## 一年當中的日{#day-year}
 
@@ -303,15 +343,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++範例
 
-The following operation gets all the values for the map `identityMap`.
+* 輸入： `{%= dayOfYear(stringToDate("2024-03-15T00:00:00Z")) %}`
+* 輸出： `75`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 以秒為單位的差異 {#diff-seconds}
 
@@ -361,6 +398,22 @@ The following operation gets all the values for the map `identityMap`.
 
 * 輸入： `{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 輸出： `19`
+
++++
+
++++真實世界的範例 — 只將目前時間顯示為HH:MM
+
+結合`extractHours`和`extractMinutes`以只呈現時間部分，而不含任何日期、日期或年份：
+
+```handlebars
+{% let h = extractHours(getCurrentZonedDateTime()) %}
+{% let m = extractMinutes(getCurrentZonedDateTime()) %}
+Your appointment is confirmed for {{h}}:{%#if m < 10%}0{%/if%}{{m}}.
+```
+
+輸出（範例）： `Your appointment is confirmed for 14:05.`
+
+前導零警衛(`{%#if m < 10%}0{%/if%}`)會確保10以下的分鐘顯示為兩位數（例如`09`而非`9`）。
 
 +++
 
@@ -490,7 +543,7 @@ The following operation gets all the values for the map `identityMap`.
 
 * **以`toDateTime()`**&#x200B;包裝時間戳記 — 內容事件時間戳記不會被`formatDate()`自動識別為日期時間值。
 * **以反引號括住數值事件ID** — 如果您的事件ID是數字（例如`1697323153`），必須在運算式路徑中以反引號逸出，否則編輯器會引發PQL語法錯誤。
-* **使用`{% let %}`指派語法** — 內嵌`{%= %}`語法不支援此模式。 先將結果指派給變數，然後使用`{{varName}}`轉譯它。
+* **使用`{% let %}`或`{%= %}`語法** — 您可以將結果指派給具有`{% let %}`的變數，並使用`{{varName}}`呈現它，或直接使用內嵌`{%= %}`語法。
 
 ```handlebars
 {% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
@@ -503,9 +556,9 @@ The following operation gets all the values for the map `identityMap`.
 
 >[!CAUTION]
 >
->**常見錯誤：「不相符的輸入&#39;(&#39;必須是\&lt;EOF\>&quot;**
+>**常見錯誤：「不相符的輸入&#39;(&#39;必須是\&lt;EOF\>&quot;**」
 >
->使用內嵌內容事件時間戳記(`formatDate()`)的`{%= formatDate(...) %}`時，會發生此PQL語法錯誤。 最常見的原因是未以反引號(`` ` ``)包裝的數值事件ID，或直接傳遞給`formatDate()`的時間戳記欄位（未先以`toDateTime()`包裝）。 若要修正這兩個問題，請使用上述範例中顯示的`{% let %}`指派模式。
+>使用內嵌內容事件時間戳記(`{%= formatDate(...) %}`)的`formatDate()`時，會發生此PQL語法錯誤。 最常見的原因是未以反引號(`` ` ``)包裝的數值事件ID，或直接傳遞給`formatDate()`的時間戳記欄位（未先以`toDateTime()`包裝）。 若要修正這兩個問題，請使用上述範例中顯示的`{% let %}`指派模式。
 
 ### 圖樣字元 {#pattern-characters}
 
@@ -626,15 +679,14 @@ The following operation gets all the values for the map `identityMap`.
 {%= setDays(datetime, day) %}
 ```
 
-<!--
-**Example**
++++範例
 
-The following operation gets all the values for the map `identityMap`.
+將月份的日期設為1：
 
-```sql
-{%= values(identityMap) %}
-```
--->
+* 輸入： `{%= setDays(stringToDate("2024-11-15T17:19:51Z"), 1) %}`
+* 輸出： `2024-11-01T17:19:51Z`
+
++++
 
 ## 設定時數{#set-hours}
 
@@ -646,15 +698,28 @@ The following operation gets all the values for the map `identityMap`.
 {%= setHours(datetime, hour) %}
 ```
 
-<!--
-**Example**
++++範例 — 將日期時間設定為特定小時
 
-The following operation gets all the values for the map `identityMap`.
+* 輸入： `{%= setHours(stringToDate("2024-11-01T17:19:51Z"), 0) %}`
+* 輸出： `2024-11-01T00:19:51Z`
+
++++
+
++++真實世界的範例 — 動態結束日期之前的X天
+
+若要在設定檔中儲存的日期（例如訂閱到期日）之前，將設定檔設為X天目標，請使用具有負值的`addDays`：
 
 ```sql
-{%= values(identityMap) %}
+{%= addDays(stringToDate(profile.subscription.endDate), -7) %}
 ```
--->
+
+若要將時間也標準化為固定時間（例如上午9點），請結合`setHours`：
+
+```sql
+{%= setHours(addDays(stringToDate(profile.subscription.endDate), -7), 9) %}
+```
+
++++
 
 ## 至日期時間 {#to-date-time}
 
@@ -771,15 +836,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= weekOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++範例
 
-The following operation gets all the values for the map `identityMap`.
+* 輸入： `{%= weekOfYear(stringToDate("2024-11-01T17:19:51Z")) %}`
+* 輸出： `44`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 年差異 {#diff-years}
 

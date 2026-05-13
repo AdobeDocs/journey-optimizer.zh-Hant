@@ -6,10 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -101,7 +105,7 @@ ht-degree: 5%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列[區段的`n`第一個](#first-n)中找到。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -289,3 +293,77 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## 反複處理陣列 {#each-loop}
+
+使用Handlebars `{{#each}}`區塊協助程式來循環陣列並轉譯&#x200B;**個人化內容** （電子郵件、簡訊、推播）中每個專案的內容。
+
+>[!NOTE]
+>
+>`{{#each}}`僅可在&#x200B;**個人化編輯器**&#x200B;中使用（電子郵件內文、簡訊、推播內容）。 歷程條件活動中不支援&#x200B;**1}。**&#x200B;若要篩選或比對歷程條件中陣列的專案，請改用[集合管理函式](../../building-journeys/expression/collection-management-functions.md)。
+
+**語法**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++範例 — 列出陣列中的所有專案
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+輸出（範例）：
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++範例 — 存取回圈索引
+
+使用`@index`存取目前的回圈位置（以0為基礎）：
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+輸出（範例）：
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++範例 — 回圈內的條件式彩現
+
+只有在符合條件時，才使用`{{#each}}`內的`{%#if%}`區塊來轉譯內容：
+
+>[!NOTE]
+>
+>不支援`{% if %}` / `{% endif %}`。 請改用`{%#if%}` / `{%/if%}`。 此外，`this.<field>`在PQL條件運算式中無法運作 — 請使用屬性名稱（例如`order.status`）直接參照欄位。
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+這是模擬「條件中斷」的建議模式 — 只有符合條件的專案才會產生輸出。
+
++++
