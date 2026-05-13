@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 定義特定於著陸頁面的內容
+title: 定義登入頁面特定內容
 description: 瞭解如何在Journey Optimizer中設計登入頁面特定內容
 feature: Landing Pages
 topic: Content Management
@@ -9,22 +9,29 @@ role: User
 level: Beginner
 keywords: 登入，登陸頁面，建立，頁面，表單，元件
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 12%
+source-wordcount: 1633
+ht-degree: 0%
 
 ---
 
-# 定義特定於著陸頁面的內容 {#lp-content}
+# 定義登入頁面特定內容 {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="使用內容元件"
->abstract="內容元件是可以用來建立登陸頁面版面的空白內容預留位置。 若要定義讓使用者能夠選取並提交他們的選擇的特定內容，請使用表單元件。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="新增內容元件"
+>abstract="內容元件是空的內容預留位置，可用於建立登入頁面的版面。 若要定義可讓使用者選取並提交其選擇的特定內容，請使用表單元件。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="新增內容元件"
 
-若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [了解更多](../email/content-components.md#add-content-components)
+若要設計登入頁面內容，您可以使用與電子郵件的相同元件。 [進一步瞭解](../email/content-components.md#add-content-components)
 
 若要設計可讓使用者選取並提交其選擇的特定內容，請使用&#x200B;**表單元件**：
 
@@ -36,26 +43,26 @@ ht-degree: 12%
 >
 >您也可以建立不含&#x200B;**[!UICONTROL Form]**&#x200B;元件的點進登入頁面。 在此情況下，登入頁面會顯示給使用者，但使用者不需要提交任何表單。 如果您只想顯示登入頁面，不需要收件者採取任何動作（例如選擇加入或選擇退出），或想提供不需要使用者輸入的資訊，就可以使用此功能。
 
-使用登入頁面內容設計工具，您也可以運用來自子頁面中主要頁面的內容資料。 [了解更多](#use-primary-page-context)
+使用登入頁面內容設計工具，您也可以運用來自子頁面中主要頁面的內容資料。 [進一步瞭解](#use-primary-page-context)
 
 >[!NOTE]
 >
->[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 在[!DNL Journey Optimizer]中設計內容時，請務必遵循[此頁面](../email/accessible-content.md)上列出的特定准則。
+>[歐洲協助工具法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該可供存取。 在[!DNL Journey Optimizer]中設計內容時，請務必遵循[此頁面](../email/accessible-content.md)上列出的特定准則。
 
 ## 使用表單元件 {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="設定表單元件欄位"
->abstract="定義您的收件者將如何從您的登陸頁面查看和提交他們的選擇。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="定義登陸頁面表單樣式"
+>abstract="定義收件者從登陸頁面看到及提交選擇的方式。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="定義登入頁面表單樣式"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
 >title="按一下按鈕時會發生什麼事"
->abstract="定義使用者提交登陸頁面表單後會發生什麼事。"
+>abstract="定義提交登入頁面表單的使用者之後會發生什麼事。"
 
-若要定義可讓使用者從您的登入頁面選取並提交其選擇的特定內容，請使用&#x200B;**[!UICONTROL Form]**&#x200B;元件。 若要執行此操作，請遵循下列步驟。
+若要定義可讓使用者從您的登入頁面選取並提交其選擇的特定內容，請使用&#x200B;**[!UICONTROL Form]**&#x200B;元件。 請依照下列步驟以執行此操作。
 
 1. 將登入頁面特定的&#x200B;**[!UICONTROL Form]**&#x200B;元件從左側浮動視窗拖放至主要工作區。
 
@@ -71,7 +78,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >隨時切換至&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤，以編輯表單元件內容的樣式。 [了解更多](#define-lp-styles)
+   >隨時切換至&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤，以編輯表單元件內容的樣式。 [進一步瞭解](#define-lp-styles)
 
 1. 從&#x200B;**[!UICONTROL 核取方塊1]**&#x200B;區段，您可以編輯對應至此核取方塊的標籤。
 
@@ -83,7 +90,7 @@ ht-degree: 12%
 
    * **[!UICONTROL 如果勾選則選擇加入]**：使用者需要勾選方塊才能同意（選擇加入）。
    * **[!UICONTROL 如果勾選則選擇退出]**：使用者需要勾選方塊以移除其同意（選擇退出）。
-   * **[!UICONTROL 選取時選擇加入，取消選取時選擇退出]**：此選項可讓您插入選擇加入/選擇退出的單一核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。
+   * **[!UICONTROL 選取時選擇加入，取消選取時選擇退出]**：此選項可讓您插入選擇加入/選擇退出的單一核取方塊。 使用者需要勾選方塊同意（選擇加入），並取消勾選方塊移除其同意（選擇退出）。
 
 1. 選擇要在下列三個選項之間更新的專案：
 
@@ -142,7 +149,7 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-save.png)
 
-## 定義登陸頁面表單樣式 {#lp-form-styles}
+## 定義登入頁面表單樣式 {#lp-form-styles}
 
 1. 若要修改表單元件內容的樣式，請隨時切換至&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤。
 
@@ -194,7 +201,7 @@ ht-degree: 12%
 
 1. 在&#x200B;**[!UICONTROL 後續追蹤型別]**&#x200B;區段中，定義提交後會發生什麼事情：
 
-   * **[!UICONTROL 已定義的表單]** — 使用內嵌表單中設定的「感謝您」頁面動作。 [了解更多](lp-forms.md#thank-you-page)
+   * **[!UICONTROL 已定義的表單]** — 使用內嵌表單中設定的「感謝您」頁面動作。 [進一步瞭解](lp-forms.md#thank-you-page)
    * **已發佈的登陸頁面** — 重新導向至另一個已發佈的[登陸頁面](create-lp.md)。
    * **外部URL** — 重新導向至完整URL。
 
@@ -214,9 +221,9 @@ ht-degree: 12%
 
 假設您將主要頁面上的兩個核取方塊連結至兩個不同的訂閱清單。 如果使用者訂閱其中一個，您想要根據他們選取的核取方塊，在提交表單時顯示特定訊息。
 
-要執行此操作，請遵循下列步驟：
+請依照下列步驟以執行此操作：
 
-1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [了解更多資訊](#use-form-component)。
+1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [深入瞭解](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
@@ -230,7 +237,7 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. 使用個人化編輯器協助程式功能新增相關條件。 [了解更多](../personalization/functions/functions.md)
+1. 使用個人化編輯器協助程式功能新增相關條件。 [進一步瞭解](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 

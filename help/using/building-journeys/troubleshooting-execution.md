@@ -10,9 +10,16 @@ level: Intermediate
 keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: 2232
 ht-degree: 11%
 
 ---
@@ -21,17 +28,17 @@ ht-degree: 11%
 
 在本節中，瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何導覽歷程，以及是否傳送訊息。
 
-您也可以在測試或發佈歷程之前疑難排解錯誤。 在此頁面[上瞭解如何](troubleshooting.md)。
+您也可以在測試或發佈歷程之前疑難排解錯誤。 在此頁面](troubleshooting.md)上瞭解如何[。
 
-如果您使用輸入動作，請在此頁面[瞭解如何疑難排解](troubleshooting-inbound.md)。
+如果您使用輸入動作，請在此頁面](troubleshooting-inbound.md)瞭解如何疑難排解[。
 
 ## 檢查是否已正確傳送事件 {#checking-that-events-are-properly-sent}
 
-歷程的起點永遠是一個事件。您可以使用 Postman 等工具執行測試。
+歷程的起點永遠是一個事件。 您可以使用 Postman 等工具執行測試。
 
-您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
+您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -49,7 +56,7 @@ ht-degree: 11%
 * 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
-* 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
+* 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？ 請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
 * 您在事件標題中是否使用正確的機碼值組？
 
   ```
@@ -61,12 +68,12 @@ ht-degree: 11%
 
 * **已捨棄事件 — 不符合資格條件** — 對於規則型事件，如果事件裝載不符合&#x200B;**資格條件** （例如，必要欄位空白或遺失，或欄位上的條件`isNotEmpty`失敗），則事件為&#x200B;**已接收但已捨棄**，且未觸發歷程。 記錄檔和Splunk追蹤可顯示已接收事件但已捨棄該事件，因為它不符合資格條件，並含有捨棄程式碼，例如`notSuitableInitialEvent`。 這是預期行為：若不符合資格條件，將會捨棄事件，且不會為該設定檔觸發歷程。 確認事件裝載包含預期的欄位和值，並確認事件設定中的規則符合您傳送的資料。 如果事件是由另一個歷程的&#x200B;**自訂動作**&#x200B;所觸發，請參閱自訂動作疑難排解中的[處理捨棄事件和閒置逾時](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
 
-設定事件型歷程時，請確認裝載的身分欄位符合在事件[中選取的](../event/about-creating.md#select-the-namespace)名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。 同樣地，如果事件具有&#x200B;**資格條件** （例如，欄位必須是非空白的），則不符合該條件的事件為&#x200B;**捨棄**，且不會觸發歷程；記錄檔可能會顯示捨棄的程式碼，例如`notSuitableInitialEvent`。
+設定事件型歷程時，請確認裝載的身分欄位符合在事件](../event/about-creating.md#select-the-namespace)中選取的[名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。 同樣地，如果事件具有&#x200B;**資格條件** （例如，欄位必須是非空白的），則不符合該條件的事件為&#x200B;**捨棄**，且不會觸發歷程；記錄檔可能會顯示捨棄的程式碼，例如`notSuitableInitialEvent`。
 
 若要在[!DNL Journey Optimizer]中驗證您的事件條件，請在事件設定中使用裝載預覽，並確保規則中的型別和值符合裝載結構。 瞭解如何[預覽承載](../event/about-creating.md#preview-the-payload)和[設定規則型事件](../event/about-creating.md)。
 
@@ -111,8 +118,8 @@ ht-degree: 11%
 
 以下是一些要檢查的事項：
 
-* 是否是因為某個條件排除此人？例如，條件是 &quot;gender = male&quot;，但人員是女性。如果條件並非太複雜，則可由業務使用者執行此檢查。
-* 是否是因為呼叫資料來源未回應？當歷程處於測試模式時，可在測試模式日誌中看到此資訊。當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。管理員也可以複製歷程並進行測試。
+* 是否是因為某個條件排除此人？ 例如，條件是 &quot;gender = male&quot;，但人員是女性。 如果條件並非太複雜，則可由業務使用者執行此檢查。
+* 是否是因為呼叫資料來源未回應？ 當歷程處於測試模式時，可在測試模式日誌中看到此資訊。 當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。 管理員也可以複製歷程並進行測試。
 
 ## 由於封鎖歷程執行個體，已捨棄事件 {#max-instance-stack-events-reached}
 
@@ -164,9 +171,9 @@ ht-degree: 11%
 
 ### 對歷程執行或訊息傳送是否有任何影響？
 
-**否**&#x200B;影響僅限於記錄。 [!DNL Adobe Journey Optimizer]在訊息執行層具有內建的重複資料刪除機制，可確保：
+**編號** 影響僅限於記錄。 [!DNL Adobe Journey Optimizer]在訊息執行層具有內建的重複資料刪除機制，可確保：
 
-* 每個設定檔僅會傳送一則訊息（電子郵件、簡訊、推播通知等）
+* 只有一個訊息（電子郵件、簡訊、推播通知等） 會傳送至每個設定檔
 * 動作只會執行一次
 * 歷程執行正確進行
 

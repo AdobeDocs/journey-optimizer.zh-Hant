@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 清單位置
+title: 清單版位
 description: 版位是用來展示優惠方案的容器。
 feature: Decision Management, API
 badge: label="舊版" type="Informative"
@@ -10,21 +10,25 @@ role: Developer
 level: Experienced
 exl-id: 52fbf683-d86f-43c6-be1a-c06141b64b16
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/HAyG8qlQQeYp-IiNs1QQNN-a-Kk0nlAga-j6UutL6Lw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 16%
+source-wordcount: 308
+ht-degree: 0%
 
 ---
 
-# 清單位置 {#list-placements}
+# 清單版位 {#list-placements}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至產品建議時，系統會要求您選取可顯示該內容的版位。
+版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
 
 您可以透過對[!DNL Offer Library] API執行單一GET請求，來檢視容器內所有位置的清單。
 
@@ -34,7 +38,7 @@ ht-degree: 16%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
-| 參數 | 說明 | 範例 |
+| 引數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
@@ -49,12 +53,12 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 分頁最常見的查詢引數包括：
 
-| 參數 | 說明 | 範例 |
+| 引數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
 | `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[，field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 在標題(`-`)前新增`orderby=-title`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的版位數。 | `limit=5` |
 
 **要求**

@@ -5,9 +5,15 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/rl133NfnmN5hl31E3SaOB-xCpUlbDFdH6-ictYNrI1Q
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 731
 ht-degree: 15%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)
+>若要建立核准原則，您必須在Adobe Experience Platform中擁有系統或產品管理員許可權。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 核准政策可讓管理員建立歷程與行銷活動的驗證流程。 此系統概述特定條件，決定是否需要核准歷程或行銷活動。 這些原則在複雜性上可能有所不同。 它們只需要要求所有行銷活動由特定使用者或團隊檢閱，或根據行銷活動的建立者建立條件。
 
@@ -145,7 +151,7 @@ ht-degree: 15%
 
    +++
 
-1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**&#x200B;[!UICONTROL &#x200B; And &#x200B;]&#x200B;**]或[**&#x200B;[!UICONTROL &#x200B; Or &#x200B;]&#x200B;**]以指定連線條件的方式。]**
+1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**[!UICONTROL  And ]**]或[**[!UICONTROL  Or ]**]以指定連線條件的方式。]**
 
 1. 在&#x200B;**[!UICONTROL Then，傳送核准要求至]**&#x200B;功能表下，按一下&#x200B;**[!UICONTROL 新增條件]**&#x200B;以定義哪些使用者可以接受核准要求。
 
@@ -157,9 +163,9 @@ ht-degree: 15%
 
    ![核准要求收件者選擇介面](assets/policy_condition_2.png)
 
-1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**&#x200B;[!UICONTROL &#x200B; And &#x200B;]&#x200B;**]或[**&#x200B;[!UICONTROL &#x200B; Or &#x200B;]&#x200B;**]以指定連線條件的方式。]**
+1. 若要新增更多條件，請按一下[新增條件] **[!UICONTROL 以定義其他規則，並選取[**[!UICONTROL  And ]**]或[**[!UICONTROL  Or ]**]以指定連線條件的方式。]**
 
-1. 完成原則設定後，請按一下[儲存]。**&#x200B;**
+1. 完成原則設定後，請按一下[儲存]。****
 
 您現在可以啟用核准原則以套用它。
 
@@ -169,7 +175,7 @@ ht-degree: 15%
 
 1. 存取您的&#x200B;**[!UICONTROL 核准原則]**。
 
-1. 然後，按一下[啟動]&#x200B;**&#x200B;**，將設定的條件套用至您的環境。
+1. 然後，按一下[啟動]****，將設定的條件套用至您的環境。
 
    >[!NOTE]
    >

@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/q1T-efX3vK77d1PfKA8mWU73w6Cj4-H95RynkHHg16U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 61%
+source-wordcount: 489
+ht-degree: 65%
 
 ---
 
@@ -34,7 +40,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->URL追蹤引數附加至URL的順序是隨機的，無法控制。 如果您的系統需要特定順序的引數，您將需要從側邊剖析引數並重新排序。
+>URL追蹤引數附加至URL的順序是隨機的，無法控制。 如果您的系統需要特定順序的參數，您將需要自行剖析參數並重新排序。
 
 您可使用&#x200B;**[!UICONTROL 新增參數]**&#x200B;按鈕，新增最多 10 個追蹤參數。
 

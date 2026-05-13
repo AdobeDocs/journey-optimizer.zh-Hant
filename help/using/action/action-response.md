@@ -9,10 +9,16 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+TQID: https://experienceleague.adobe.com/ZW0jTjRYGrbvv1rXP2mx5I2XpuehdGzM7se-6UAUB9I
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 4%
+source-wordcount: 849
+ht-degree: 6%
 
 ---
 
@@ -109,7 +115,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。
+   每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。
 
 1. （選用）啟用錯誤回應裝載，以擷取呼叫失敗時傳回的格式，然後貼上範例裝載。 若要這麼做，請在自訂動作設定中選取&#x200B;**定義失敗回應承載**。 深入瞭解[設定自訂動作](../action/about-custom-action-configuration.md)中的設定裝載欄位。
 
@@ -155,7 +161,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**欄位。 在我們的範例中，我們使用
    **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```

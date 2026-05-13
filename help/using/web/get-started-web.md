@@ -6,9 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
-source-wordcount: '275'
+TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 293
 ht-degree: 100%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 100%
 
 如果您已在使用傳出頻道傳遞訊息，例如電子郵件、簡訊或推播通知，您就可以利用傳入網路管道，提供所有管道真正的個人化體驗。
 
-一旦建立歷程或行銷活動，請選取&#x200B;**網頁**&#x200B;作為動作，然後定義基本設定。如需深入了解如何設定歷程/行銷活動，請參閱此[頁面](create-web.md#create-web-experience)。
+一旦建立歷程或行銷活動，請選取&#x200B;**網頁**&#x200B;作為動作，然後定義基本設定。 如需深入了解如何設定歷程/行銷活動，請參閱此[頁面](create-web.md#create-web-experience)。
 
 >[!NOTE]
 >
@@ -42,7 +49,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-web.md">
-<img alt="不頻繁" src="../assets/do-not-localize/web-create.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>建立 Web 體驗</strong></a>。

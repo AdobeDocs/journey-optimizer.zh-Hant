@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/-QsG7rzICxULvvVarkve6ZfwjxJP6fpdocdnmlEynso
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 245
 ht-degree: 12%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 決定包含通知優惠選擇的邏輯。
@@ -58,7 +62,7 @@ curl -X GET \
 | `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | `default` |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |
 | `field` | 要限制搜尋的選用欄位清單。 此引數可重複使用，如下所示： field=field1[，field=field2，...]和（路徑運算式採用點分隔路徑的形式，例如_instance.xdm:name） | `_instance.xdm:name` |
-| `orderBy` | 依特定屬性排序結果。 在標題(`-`)前新增`orderby=-title`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
+| `orderBy` | 依特定屬性排序結果。 在標題(`orderby=-title`)前新增`-`將會依標題以遞減順序(Z-A)排序專案。 | `-repo:createdDate` |
 | `limit` | 限制傳回的決策數。 | `limit=5` |
 
 **回應**

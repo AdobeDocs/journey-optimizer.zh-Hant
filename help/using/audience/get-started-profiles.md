@@ -7,10 +7,17 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 29%
+source-wordcount: 537
+ht-degree: 35%
 
 ---
 
@@ -18,30 +25,30 @@ ht-degree: 29%
 
 ## 關於輪廓
 
-善用 [!DNL Adobe Journey Optimizer] 的即時客戶輪廓，透過合併來自多個管道 (包括線上、離線、CRM 和協力廠商) 的資料，全面瞭解每個客戶。**輪廓**&#x200B;可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。
+善用 [!DNL Adobe Journey Optimizer] 的即時客戶輪廓，透過合併來自多個管道 (包括線上、離線、CRM 和協力廠商) 的資料，全面瞭解每個客戶。 **輪廓**&#x200B;可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。
 
 ➡️ [在影片中探索此功能](#video)
 
-**即時客戶設定檔{&#x200B;1} — 將來自線上、離線和假名的客戶屬性和事件整合到單一、統一的設定檔中。&#x200B;**&#x200B;使用設定檔以跨多個接觸點的個人化即時體驗吸引客戶&#x200B;。
+**即時客戶設定檔{&#x200B;1} — 將來自線上、離線和假名的客戶屬性和事件整合到單一整合的設定檔中。**&#x200B;使&#x200B;用設定檔在多個接觸點之間提供個人化的即時體驗，藉此吸引客戶。 &#x200B;
 
 **資料擷取** — 連線至各種資料來源，以擷取行為、異動、財務和營運資料。 即時或透過批次上傳擷取資料，以持續更新設定檔。 設定檔不會直接在[!DNL Journey Optimizer]介面中建立 — 系統會在擷取資料時，在Adobe Experience Platform中自動建立或更新設定檔。
 
 >[!NOTE]
 >
->擷取資料時，電子郵件區分大小寫。這意味著可能會建立重複的輪廓 (例如，John.Greene@luma.com 是一個輪廓、john.greene@luma.com 是另一個輪廓)，並在您的 [!DNL Journey Optimizer] 歷程和行銷活動中定位對應的收件者時使用。
+>擷取資料時，電子郵件區分大小寫。 這意味著可能會建立重複的輪廓 (例如，John.Greene@luma.com 是一個輪廓、john.greene@luma.com 是另一個輪廓)，並在您的 [!DNL Journey Optimizer] 歷程和行銷活動中定位對應的收件者時使用。
 
-**身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID&#x200B;。透過對應品牌資料集中不同身分之間的關係來建立客戶的完整檢視&#x200B;。
+**身分圖表** — 使用客戶身分結合來自不同來源的資料，例如忠誠度識別碼或CRM系統ID。 透過&#x200B;對應品牌資料集中不同身分之間的關聯性，建立客戶的完整檢視。 &#x200B;
 
-**客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息&#x200B;。跨多種管道與客戶互動，包括行銷活動、客戶支援和交易更新&#x200B;。
+**客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。 透過各種管道與客&#x200B;戶互動，包括行銷活動、客戶支援和交易更新。 &#x200B;
 
 **資料共用** — 與Amazon Web Services、Microsoft Azure和Google Cloud等頂級雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
 
 >[!MORELIKETHIS]
 >
->* [開始使用Journey Optimizer中的資料管理](../data/gs-data.md)
+>* [開始使用 Journey Optimizer 的資料管理](../data/gs-data.md)
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}[
 
 ## 設定檔儀表板
 
@@ -49,9 +56,9 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->如果貴組織是初次使用 [!DNL Adobe Journey Optimizer]，且尚未建立作用中的輪廓資料集或合併原則，則&#x200B;**輪廓**&#x200B;儀表板不可見。**總覽**&#x200B;標籤會顯示Adobe Experience Platform檔案的連結，以協助您開始使用即時客戶個人檔案。 若要瞭解如何使用&#x200B;**設定檔儀表板**，以及有關儀表板中顯示之量度的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
+>如果貴組織是初次使用 [!DNL Adobe Journey Optimizer]，且尚未建立作用中的輪廓資料集或合併原則，則&#x200B;**輪廓**&#x200B;儀表板不可見。 **總覽**&#x200B;標籤會顯示Adobe Experience Platform檔案的連結，以協助您開始使用即時客戶個人檔案。 若要瞭解如何使用&#x200B;**設定檔儀表板**，以及有關儀表板中顯示之量度的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
-您可以將多個來源的資料片段放在一起，然後組合這些片段，即可檢視每個個別客戶的完整檢視。 彙總此資料時，合併原則是用來判斷資料優先順序的方式以及合併哪些資料以建立統一檢視的規則。 在此&#x200B;**檔案**&#x200B;中進一步瞭解[合併原則](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}。
+您可以將多個來源的資料片段放在一起，然後組合這些片段，即可檢視每個個別客戶的完整檢視。 彙總此資料時，合併原則是用來判斷資料優先順序的方式以及合併哪些資料以建立統一檢視的規則。 在此[檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**合併原則**。
 
 ![](assets/profiles-home.png)
 

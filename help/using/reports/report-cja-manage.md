@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1441
 ht-degree: 2%
 
 ---
@@ -21,15 +28,15 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
-> 擁有&#x200B;**授權的使用者可獨佔使用CJA中的**&#x200B;分析[!DNL Customer Journey Analytics]功能。
+> 擁有[!DNL Customer Journey Analytics]授權的使用者可獨佔使用CJA中的&#x200B;**分析**&#x200B;功能。
 
 ![](assets/cja-analyze.png)
 
-運用所有報表中提供的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;在CJA中分析&#x200B;**[!UICONTROL 功能，使用您的]**&#x200B;授權增強您的資料分析體驗。
+運用所有報表中提供的&#x200B;**[!UICONTROL 在CJA中分析]**&#x200B;功能，使用您的&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;授權增強您的資料分析體驗。
 
 這個功能強大的選項可順暢地將您重新導向至&#x200B;**[!DNL Customer Journey Analytics]**&#x200B;環境，讓您能夠廣泛個人化您的報告。 您可以使用專門的Customer Journey Analytics量度擴充您的Widget，將您的見解提升到全新的境界。
 
-[進一步瞭解Customer Journey Analytics介面。](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[進一步瞭解Customer Journey Analytics介面。](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## 定義報告期間 {#report-period}
 
@@ -51,7 +58,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表中，按一下「共用&#x200B;**[!UICONTROL 」]**&#x200B;並選取「下載CSV」**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表中，按一下「共用&#x200B;**[!UICONTROL 」]**&#x200B;並選取「下載CSV」****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_cja_csv.png)
 
@@ -61,7 +68,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 從您的報表中，按一下[共用]&#x200B;**&#x200B;**&#x200B;並選取[下載PDF]&#x200B;**&#x200B;**。
+1. 從您的報表中，按一下[共用]****&#x200B;並選取[下載PDF]****。
 
    ![](assets/export_cja_pdf.png)
 
@@ -80,7 +87,7 @@ ht-degree: 2%
 
 **排程匯出**&#x200B;可讓您每週、每月或每年自動傳送最多10個報告。 您也可以透過更新、編輯、取消或刪除任何排程匯出的選項，輕鬆管理排程報告。
 
-1. 在報表中，按一下[共用]，然後選取[排程匯出]。**&#x200B;**&#x200B;**&#x200B;**。
+1. 在報表中，按一下[共用]，然後選取[排程匯出]。********。
 
    ![](assets/export-schedule-1.png)
 
@@ -110,7 +117,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 依排程傳送]**。
 
-1. 若要編輯先前建立的排程匯出，請按一下[共用] **[!UICONTROL ，然後選取[管理排程]]** **[!UICONTROL 。]**
+1. 若要編輯先前建立的排程匯出，請按一下[共用] ]**，然後選取[管理排程]****。**[!UICONTROL 
 
    ![](assets/export-schedule-3.png)
 
@@ -137,7 +144,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >如果您擁有Customer Journey Analytics，則可使用其他選項進一步個人化您的量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >如果您擁有Customer Journey Analytics，則可使用其他選項進一步個人化您的量度。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. 選擇適當的&#x200B;**[!UICONTROL 小數位數]**，並根據您希望量度的顯示方式，選取&#x200B;**[!UICONTROL 格式]** （小數、時間、百分比或貨幣）。
 
@@ -147,7 +154,7 @@ ht-degree: 2%
 
 1. 您可以視需要重新排序元件。
 
-1. 當您對設定感到滿意時，請按一下[套用] **[!UICONTROL 完成新量度。]**
+1. 當您對設定感到滿意時，請按一下[套用] ]**完成新量度。**[!UICONTROL 
 
 1. 您的新量度會出現在報表中的原始量度旁。
 
@@ -157,7 +164,7 @@ ht-degree: 2%
 
 ## 使用Insight產生器探索資料 {#exploratory}
 
-使用Insight產生器工具，從您選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;輕鬆建立表格和視覺效果。 此工具可簡化資料探索，讓您輕鬆自動自訂和分析資訊。 深入瞭解[此檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。
+使用Insight產生器工具，從您選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**&#x200B;輕鬆建立表格和視覺效果。 此工具可簡化資料探索，讓您輕鬆自動自訂和分析資訊。 深入瞭解[此檔案](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。
 
 1. 首先，存取您要使用Insight產生器的報表。
 
@@ -208,7 +215,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!NOTE]
    >
-   >如果您擁有Customer Journey Analytics，則可使用其他選項進一步個人化您的量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/audiences/publish)
+   >如果您擁有Customer Journey Analytics，則可使用其他選項進一步個人化您的量度。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -218,7 +225,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 ## 管理範本 {#cja-template}
 
-您現可選擇運用客戶歷程分析範本來增強 Journey Optimizer 報告。[進一步瞭解Customer Journey Analytics範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+您現可選擇運用客戶歷程分析範本來增強 Journey Optimizer 報告。 [進一步瞭解Customer Journey Analytics範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 存取報告時，您可以從&#x200B;**[!UICONTROL 選取範本]**&#x200B;下拉式清單中選擇兩種範本型別：
 
@@ -231,23 +238,23 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 若要建立範本，請遵循下列步驟：
 
-1. 在[!DNL Customer Journey Analytics]中，導覽至&#x200B;**[!UICONTROL Workspace]**&#x200B;功能表並選取&#x200B;**[!UICONTROL Adobe範本]**。 [進一步瞭解可用的範本](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. 在[!DNL Customer Journey Analytics]中，導覽至&#x200B;**[!UICONTROL Workspace]**&#x200B;功能表並選取&#x200B;**[!UICONTROL Adobe範本]**。 [進一步瞭解可用的範本](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. 瀏覽可用的預先建立範本，然後按一下&#x200B;**[!UICONTROL 使用範本]**&#x200B;以選取一個範本。
 
    ![](assets/cja_template_1.png)
 
-1. 調整您的報告以符合您的需求。 請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+1. 調整您的報告以符合您的需求。 請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 1. 完成自訂範本後，請存取&#x200B;**[!UICONTROL 專案]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 另存為範本]**。
 
    ![](assets/cja_template_2.png)
 
-1. 提供範本的必要詳細資料。 如需詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
+1. 提供範本的必要詳細資料。 如需詳細資訊，請參閱[Customer Journey Analytics檔案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)。
 
    >[!IMPORTANT]
    >
-   > 請務必在&#x200B;**使用案例**&#x200B;下選擇&#x200B;**[!UICONTROL Journey Optimizer]**，並指定對應的&#x200B;**Journey Optimizer活動型別**&#x200B;和&#x200B;**活動**。 這可讓您的報表顯示在Journey Optimizer中。
+   > 請務必在&#x200B;**[!UICONTROL 使用案例]**&#x200B;下選擇&#x200B;**Journey Optimizer**，並指定對應的&#x200B;**Journey Optimizer活動型別**&#x200B;和&#x200B;**活動**。 這可讓您的報表顯示在Journey Optimizer中。
 
    ![](assets/cja_template_3.png)
 

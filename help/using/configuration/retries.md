@@ -9,9 +9,14 @@ role: Admin
 level: Experienced
 keywords: 重試，退回，軟退回，最佳化工具，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 569
 ht-degree: 8%
 
 ---
@@ -47,7 +52,7 @@ ht-degree: 8%
 >title="更新重試臨界值"
 >abstract="如果預設值不適合您的需求，您可以修改連續軟退信的允許次數。 當重試計數器達到特定電子郵件地址的錯誤臨界值時，會將該地址加入禁止名單中。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hant" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 如果預設值5不符合您的需求，您可以按照以下步驟修改錯誤臨界值。

@@ -5,13 +5,16 @@ title: 設定步驟
 description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關聯式結構描述
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 485
 ht-degree: 1%
 
 ---
-
 
 # 開始使用關聯式結構描述和資料集{#gs-schemas}
 
@@ -23,7 +26,7 @@ ht-degree: 1%
 
 在協調行銷活動的內容中，**資料集**&#x200B;是資料集合的儲存和管理結構，通常是包含結構描述（列）和欄位（欄）的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
 
-**結構描述**&#x200B;代表並驗證資料的結構和格式。它提供真實世界物件（例如人）的抽象定義，並概述物件的每個例項中應包含哪些資料（例如名稱、生日等）。
+**結構描述**&#x200B;代表並驗證資料的結構和格式。 它提供真實世界物件（例如人）的抽象定義，並概述物件的每個例項中應包含哪些資料（例如名稱、生日等）。
 
 **資料模型**&#x200B;是標準化資料的概念藍圖
 
@@ -52,13 +55,13 @@ ht-degree: 1%
 
 在關聯式資料模型中組織結構描述或表格，就是將資料結構化成多個表格。 確保每個表格儲存一種實體/結構描述型別
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 實施步驟 {#implementation}
 
 若要內嵌資料並建立關聯式綱要，請遵循下列步驟：
 
-1. 使用DDL檔案[手動建立](manual-schema.md)關聯式結構描述[或](file-upload-schema.md)
+1. 使用DDL檔案](file-upload-schema.md)手動建立[關聯式結構描述](manual-schema.md)或[
 
    定義資料模型的結構，包括表格、屬性和關係。 選擇在使用者介面中手動建置綱要，或上傳DDL檔案以加快設定。
 

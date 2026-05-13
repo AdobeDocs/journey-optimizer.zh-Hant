@@ -8,9 +8,13 @@ level: Experienced
 keywords: 轉換，函式，運算式，歷程，型別，轉型
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
-source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
+TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1271
 ht-degree: 6%
 
 ---
@@ -52,7 +56,7 @@ ht-degree: 6%
 * **時區必須是字串常數** — `toDateTime`中的時區引數不能是欄位參考或動態運算式。 一律傳遞常值字串，例如`"UTC"`或`"Europe/Paris"`。
 * **字串輸入所需的ISO-8601格式** — 將字串傳遞至`toDateTime`或`toDateTimeOnly`時，請確定它遵循ISO-8601格式（例如`"2023-08-18T23:17:59.123Z"`）。 格式錯誤的字串傳回null且沒有錯誤。
 * **Epoch值以毫秒為單位** — `toDateTime(1560762190189)`需要毫秒。 如果您的來源以秒為單位提供Unix時間戳記，請先乘以1000 （例如`toDateTime(myField * 1000)`）。
-* 具有未預期字串的&#x200B;**toBool** — `toBool`只有在字串值剛好`true`時才傳回`"true"`。 任何其他字串（包括`"1"`、`"yes"`、`"TRUE"`）會傳回`false`。
+* 具有未預期字串的&#x200B;**toBool** — `toBool`只有在字串值剛好`"true"`時才傳回`true`。 任何其他字串（包括`"1"`、`"yes"`、`"TRUE"`）會傳回`false`。
 
 ## toBool {#toBool}
 
@@ -279,7 +283,7 @@ ISO-8601字串已包含時區資訊。
 | 字串 | 將字串值轉換為小數 |
 | dateTime | 將日期轉換為毫秒數（紀元毫秒） |
 | 布林值 | 如果為true，則將布林值轉換為1，如果為false，則轉換為0 |
-| 整數 | 轉換為小數（範例）。：1變為1.0) |
+| 整數 | 轉換為小數（範例： 1變成1.0） |
 
 +++
 

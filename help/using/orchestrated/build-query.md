@@ -5,13 +5,16 @@ title: 建立首次規則
 description: 瞭解如何建立協調行銷活動的規則
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: 1912
 ht-degree: 91%
 
 ---
-
 
 # 建立首次規則 {#build-query}
 
@@ -56,7 +59,7 @@ ht-degree: 91%
 
    若要更快地建置條件，請選取一個值，然後按一下&#x200B;**[!UICONTROL 選取屬性和值]**，以填入目前條件的屬性和值。
 
-   您也可以使用顯示運算式編輯器圖示![&#128279;](assets/do-not-localize/activity-copy.svg)圖示的影像，複製剪貼簿上的值，例如貼到運算式編輯器中。
+   您也可以使用顯示運算式編輯器圖示](assets/do-not-localize/activity-copy.svg)圖示的![影像，複製剪貼簿上的值，例如貼到運算式編輯器中。
 
    ![顯示值分佈介面的影像](assets/rule-builder-distribution-values.png)
 

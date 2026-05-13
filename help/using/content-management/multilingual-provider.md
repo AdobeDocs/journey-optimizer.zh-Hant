@@ -1,53 +1,59 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create and configure language providers
-description: Learn how to create and configure language providers in Journey Optimizer
+title: 建立及設定語言提供者
+description: 瞭解如何在Journey Optimizer中建立及設定語言提供者
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/1-qEMD1SqNffo5LnFWxgRbQ-JommYJ5vm8Ti8gsJ0YU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: 201
 ht-degree: 2%
 
 ---
 
-# Add language providers {#multilingual-provider}
+# 新增語言提供者 {#multilingual-provider}
 
 >[!IMPORTANT]
 >
-> Your use of a Translation Provider&#39;s translation services is subject to additional terms and conditions from that applicable provider. As third-party solutions, translation services are available to Adobe Journey Optimizer users via an integration. Adobe does not control and is not responsible for third-party products.
+> 您使用翻譯提供者的翻譯服務，須受該適用提供者的其他條款與條件所限制。 身為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用翻譯服務。 Adobe無法控制且對協力廠商產品不負任何責任。
 
-Adobe Journey Optimizer integrates with third-party Translation Providers that offer both machine and human translation services, independent of Adobe Journey Optimizer.
+Adobe Journey Optimizer與提供機器及人力翻譯服務的第三方翻譯提供者整合，獨立於Adobe Journey Optimizer。
 
-Before adding your chosen Translation Provider, ensure you have created an account with the respective provider.
+在新增您選擇的翻譯提供者之前，請確定您已與各自的提供者建立帳戶。
 
-1. In the **[!UICONTROL Content Management]** menu, navigate to **[!UICONTROL Translation]**.
+1. 在&#x200B;**[!UICONTROL 內容管理]**&#x200B;功能表中，導覽至&#x200B;**[!UICONTROL 翻譯]**。
 
-1. Access the **[!UICONTROL Providers]** tab and click **[!UICONTROL Add Provider]**.
+1. 存取&#x200B;**[!UICONTROL 提供者]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增提供者]**。
 
    ![](assets/provider_1.png)
 
-1. From the **[!UICONTROL Providers]** drop-down list, choose the desired provider.
+1. 從&#x200B;**[!UICONTROL 提供者]**&#x200B;下拉式清單中，選擇所需的提供者。
 
    >[!NOTE]
    >
-   >To add a new **Provider** to the list, you can ask your **Provider** to follow the instructions detailed in [this document](https://developer.adobe.com/gcs/partner) to complete the onboarding process.
+   >若要新增新的&#x200B;**提供者**&#x200B;至清單，您可以要求您的&#x200B;**提供者**&#x200B;遵循[此檔案](https://developer.adobe.com/gcs/partner)中詳述的指示，以完成上線程式。
 
    ![](assets/provider_2.png)
 
-1. If using Microsoft Translator as the provider, input your **[!UICONTROL Subscription Key]** and **[!UICONTROL Endpoint URL]**.
+1. 如果使用Microsoft Translator做為提供者，請輸入您的&#x200B;**[!UICONTROL 訂閱金鑰]**&#x200B;和&#x200B;**[!UICONTROL 端點URL]**。
 
-   Click **[!UICONTROL Validate Credentials]** to test your connection.
+   按一下&#x200B;**[!UICONTROL 驗證認證]**&#x200B;以測試您的連線。
 
    ![](assets/provider_3.png)
 
-1. Select the applicable **Supported Locales**.
+1. 選取適用的&#x200B;**支援地區**。
 
    ![](assets/provider_4.png)
 
-1. After completing the configuration, click **[!UICONTROL Save]** to finalize the setup.
+1. 完成設定後，按一下[儲存]，完成設定。****

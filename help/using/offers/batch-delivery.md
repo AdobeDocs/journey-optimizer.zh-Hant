@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
+TQID: https://experienceleague.adobe.com/N679HgdAi1Y-T2B7EYQtZoutJ-UeigNFza9fycFKCdA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b784da9a-7978-4766-bf1f-5ab2b23d894a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 5%
+source-wordcount: 884
+ht-degree: 6%
 
 ---
 
@@ -36,7 +42,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 * Adobe Experience Platform中的&#x200B;**資料集**。 此資料集將用於儲存使用「ODE DecisionEvents」結構描述的決策結果。 進一步瞭解[資料集檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant)。
 
-* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en_tw)中瞭解如何更新對象成員資格評估
+* Adobe Experience Platform中的&#x200B;**對象**。 應評估對象並加以更新。 在[Segmentation Service檔案](https://www.adobe.com/go/segmentation-overview-en)中瞭解如何更新對象成員資格評估
 
   >[!NOTE]
   >
@@ -60,7 +66,7 @@ Journey Optimizer可讓您將優惠決定傳送給特定Adobe Experience Platfor
 
 1. 選取您要用來將優惠傳送給對象的一或多個優惠決定範圍：
    1. 從清單中選取位置。
-   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。**&#x200B;**
+   1. 所選位置可用的決定會顯示出來。 選取您選擇的決定並按一下[新增]。****
    1. 重複此作業，視需要新增儘可能多的決定範圍。
 
    ![](assets/batch-decision.png)

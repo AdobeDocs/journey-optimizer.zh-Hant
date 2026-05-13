@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 1%
+source-wordcount: 796
+ht-degree: 2%
 
 ---
 
@@ -23,7 +30,7 @@ ht-degree: 1%
 
 ![](assets/cja-lp.png)
 
-若要進一步瞭解Customer Journey Analytics工作區以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics工作區以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 登陸頁面轉換率 {#lp-conversion}
 
@@ -57,7 +64,7 @@ ht-degree: 1%
 
 * **[!UICONTROL 不重複登陸頁面檢視]**：造訪您登陸頁面的人員數量，未考慮一個設定檔的多次造訪。
 
-## 一段時間的登陸頁面效能 {#lp-performance-overtime}
+## 一段時間內的登陸頁面績效 {#lp-performance-overtime}
 
 ![](assets/cja-lp-performance-overtime.png)
 

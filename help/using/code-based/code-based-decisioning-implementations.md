@@ -6,9 +6,15 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: 549
 ht-degree: 6%
 
 ---
@@ -83,7 +89,7 @@ ht-degree: 6%
 }
 ```
 
-+++Decisioning sample request
++++決策範例請求
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -126,23 +132,23 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-### Deduplication response {#deduplication-response}
+### 重複資料刪除回應 {#deduplication-response}
 
-Let&#39;s say you have the same decision policy with header and footer placement in a single request.
+假設您的決定原則與單一請求中頁首和頁尾的位置相同。
 
-* Decisioning returns two propositions.
+* 決策會傳回兩個主張。
 
-* If `itemId-X` is the single decision item that qualifies for both decision policy and placement combination:
+* 如果`itemId-X`是同時符合決定原則與位置組合的單一決定專案：
 
-   * If `allowDuplicateDecisionItems` is `true`(default): `itemId-X` is returned back for both propositions in a single response.
+   * 如果`allowDuplicateDecisionItems`是`true`（預設）：在單一回應中傳回兩個主張的`itemId-X`。
 
-   * If `allowDuplicateDecisionItems` is `false`:
+   * 如果`allowDuplicateDecisionItems`是`false`：
 
-      * `itemId-X` is returned back for the first proposition.
+      * 第一個主張會傳回`itemId-X`。
 
-      * The fallback decision item (also unique) or an empty decision item is passed for the second proposition.
+      * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
 
-+++Decisioning sample response (`allowDuplicateDecisionItems` = `true`)
++++決定範例回應(`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -218,7 +224,7 @@ Let&#39;s say you have the same decision policy with header and footer placement
 
 +++
 
-+++Decisioning sample response (`allowDuplicateDecisionItems` = `false`)
++++決定範例回應(`allowDuplicateDecisionItems` = `false`)
 
 ```
 {
@@ -296,10 +302,10 @@ Let&#39;s say you have the same decision policy with header and footer placement
 
 ## 教學課程 {#tutorials}
 
-Learn how to fetch, display and track code-based experiences using the [Adobe Journey Optimizer extension](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} for Adobe Experience Platform Mobile SDKs in [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
+在[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}中，瞭解如何使用Adobe Experience Platform Mobile SDK的[Adobe Journey Optimizer擴充功能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}擷取、顯示及追蹤程式碼型體驗。
 
-Learn how to use decisioning in Journey Optimizer to personalize content offers on your website, with a focus on Web SDK configuration, in [this tutorial](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+在[本教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}中瞭解如何使用Journey Optimizer中的決定來個人化您網站上的內容選件，並著重於網頁SDK設定。
 
-Learn how to configure the Web SDK and use decisioning with code-based experiences to personalize offers using real-time weather data and contextual information in [this tutorial](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+在[本教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}中瞭解如何設定Web SDK並使用決策功能搭配程式碼式體驗，以使用即時天氣資料和內容相關資訊來個人化選件。
 
 

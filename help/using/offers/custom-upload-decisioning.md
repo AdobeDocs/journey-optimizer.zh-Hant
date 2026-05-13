@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 4%
+source-wordcount: 641
+ht-degree: 5%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 透過[!DNL Journey Optimizer]，您可以將使用自訂上傳（CSV檔案）建立的對象資料運用到[!DNL Adobe Experience Platform]中。 此資料可支援您的決策管理工作流程。 當設定檔上不需要資料，但在決策用途中仍然是必要資料時，這會特別有用。
 
@@ -32,7 +38,7 @@ ht-degree: 4%
 如需自訂上傳對象的詳細資訊，請參閱區段：
 
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 

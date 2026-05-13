@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/F-VfY9-rc6cxyIz077xD6oRzXUUThUpokPjDEn3wNnE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 178
 ht-degree: 15%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 15%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 有時可能必須移除(DELETE)集合限定詞（先前稱為「標籤」）。 您只能在租使用者容器中建立的集合限定詞才會被刪除。 這是透過使用您要刪除之集合限定詞的$id對[!DNL Offer Library] API執行DELETE要求來完成。

@@ -11,10 +11,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+TQID: https://experienceleague.adobe.com/-brGlrDOgI1E9-L4Mflz2AAPfa2eV2aRyk3LrJGs6pg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 11%
+source-wordcount: 621
+ht-degree: 12%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 11%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## 關於排名公式 {#about-ranking-formulas}
 
@@ -52,7 +57,7 @@ ht-degree: 11%
    >
    >建立排名公式時，不支援回顧過去時段。 例如，如果您將上個月之內發生的體驗事件指定為公式的元件。 在公式建立期間任何包含回顧期間的嘗試將在儲存時觸發錯誤。
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。您的排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 您的排名公式已建立，您可以從清單中選取它以取得詳細資訊，並加以編輯或刪除。
 
    它現在已可隨時用於決定排名合適的優惠以進行位置（請參閱[在決定中設定優惠選擇](../offer-activities/configure-offer-selection.md)）。
 

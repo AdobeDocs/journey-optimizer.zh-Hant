@@ -10,19 +10,23 @@ role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 5%
+source-wordcount: 749
+ht-degree: 6%
 
 ---
-
 
 # 使用[!DNL Batch Decisioning] API傳遞優惠方案 {#deliver-offers-batch}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API可讓組織在一次呼叫中對特定對象中的所有設定檔使用決策功能。 對象中每個設定檔的選件內容都會放在Adobe Experience Platform資料集中，可用於自訂批次工作流程。
 
@@ -38,7 +42,7 @@ ht-degree: 5%
 
 * 將資料集匯出至訊息傳送供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ ht-degree: 5%
 
 ### API需求 {#api-requirements}
 
-除了[!DNL Batch Decisioning]決定管理API開發人員指南[中參考的標頭外，所有](../getting-started.md)要求都需要下列標頭：
+除了[決定管理API開發人員指南](../getting-started.md)中參考的標頭外，所有[!DNL Batch Decisioning]要求都需要下列標頭：
 
 * `Content-Type`：`application/json`
 * `x-request-id`：識別要求的唯一字串。
@@ -187,4 +191,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[的](../../get-started/starting-offer-decisioning.md)概觀。
+依照此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理](../../get-started/starting-offer-decisioning.md)的[概觀。

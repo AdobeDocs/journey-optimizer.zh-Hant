@@ -8,10 +8,17 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 0%
+source-wordcount: 2971
+ht-degree: 1%
 
 ---
 
@@ -40,7 +47,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[中的](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant#permissions){target="_blank"}必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -90,7 +97,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 >[!NOTE]
 >
->如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"}。
+>如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 訂閱警報 {#subscribe-alerts}
 
@@ -122,7 +129,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 **替代訂閱方法：**
 
-若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}。
+若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 
 ### 全域訂閱 {#global-subscription}
@@ -149,7 +156,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 **替代訂閱方法：**
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱，此通知可與外部系統整合。 Journey Optimizer警示的事件訂閱名稱會列在底下的每個[警示說明中](#journey-alerts)。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱，此通知可與外部系統整合。 Journey Optimizer警示的事件訂閱名稱會列在底下的每個[警示說明中](#journey-alerts)。
 
 ### 歷程特定訂閱 {#unitary-subscription}
 
@@ -177,13 +184,13 @@ Journey Optimizer提供兩種系統警報類別：
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
 
 >[!NOTE]
 >
 >[讀取對象觸發失敗](#alert-read-audiences)警示只能透過全域訂閱取得，不能透過每個歷程訂閱取得。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 歷程警報 {#journey-alerts}
 
@@ -292,7 +299,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 當系統偵測到所需的NS或CNAME記錄不存在或不符合設定標準時，就會觸發&#x200B;**AJO網域DNS記錄遺失**&#x200B;警報。
 
-1. 按一下警示以導向介面[中受影響的](../configuration/delegate-subdomain.md)子網域[!DNL Journey Optimizer]。
+1. 按一下警示以導向介面[!DNL Journey Optimizer]中受影響的[子網域](../configuration/delegate-subdomain.md)。
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
@@ -312,13 +319,13 @@ Journey Optimizer提供兩種系統警報類別：
 
 >[!IMPORTANT]
 >
->此警示僅適用於使用&#x200B;**自訂子網域**&#x200B;委派型別的[電子郵件](../configuration/delegate-custom-subdomain.md)通道設定。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
+>此警示僅適用於使用[自訂子網域](../configuration/delegate-custom-subdomain.md)委派型別的&#x200B;**電子郵件**&#x200B;通道設定。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
 如果系統稽核偵測到電子郵件通道設定問題，則會觸發此警報。 這些問題可能包括設定錯誤的通道設定、無效的DNS設定、隱藏清單問題、IP不一致或任何其他可能影響電子郵件傳送的錯誤。
 
 如果您收到這類警示，以下列出解決步驟。
 
-1. 按一下警示以導向至[介面中受影響的](../email/get-started-email-config.md)電子郵件通道設定[!DNL Journey Optimizer]。
+1. 按一下警示以導向至[!DNL Journey Optimizer]介面中受影響的[電子郵件通道設定](../email/get-started-email-config.md)。
 
    如需編輯頻道設定的指南，請參閱[本節](../configuration/channel-surfaces.md#edit-channel-surface)。
 
@@ -363,7 +370,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 如果觸發此警報，請遵循下列步驟以調查並解決問題。
 
-1. 按一下警示以在[中開啟受影響的](../configuration/delegate-subdomain.md)子網域[!DNL Journey Optimizer]。
+1. 按一下警示以在[!DNL Journey Optimizer]中開啟受影響的[子網域](../configuration/delegate-subdomain.md)。
 
 1. 檢閱詳細資訊，以檢視是否需要憑證續約。
 
@@ -378,7 +385,7 @@ Journey Optimizer提供兩種系統警報類別：
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -436,6 +443,6 @@ Journey Optimizer提供兩種系統警報類別：
 **警示架構：**
 
 * [Adobe Experience Platform警示概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"} — 瞭解警示架構
-* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant){target="_blank"} — 檢視、訂閱和管理警報
-* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"} — 進階整合選項
-* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"} — 完整的可用平台警示清單
+* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 檢視、訂閱和管理警報
+* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 進階整合選項
+* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 完整的可用平台警示清單

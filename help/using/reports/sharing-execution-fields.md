@@ -8,9 +8,15 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+TQID: https://experienceleague.adobe.com/wX-aqOHlSWGU0gTqyv0nEuSVFL8sstvCMxgiqeFDWIo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 665
 ht-degree: 2%
 
 ---
@@ -53,7 +59,7 @@ ht-degree: 2%
 
 `actionExecutionTime`欄位代表執行動作所花費的總時間（以毫秒為單位），包括請求在佇列中等待的時間（如果已設定節流且達到速率限制）以及實際執行時間（包括連線至外部端點的網路延遲）。
 
-`Timestamp`欄位指出動作執行的結束時間。 若要判斷設定檔何時進入自訂動作節點，請從`actionExecutionTime`中減去`Timestamp`。
+`Timestamp`欄位指出動作執行的結束時間。 若要判斷設定檔何時進入自訂動作節點，請從`Timestamp`中減去`actionExecutionTime`。
 
 例如，如果`Timestamp`是&quot;2025-02-04 09:39:03 UTC&quot;，而`actionExecutionTime`是1,813,227毫秒（~31分鐘），則設定檔在大約&quot;2025-02-04 09:08:32 UTC&quot;進入節點。
 
@@ -68,8 +74,8 @@ ht-degree: 2%
 
 * http
 * 上限
-* 逾時
-* 錯誤
+* timeout
+* error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
@@ -113,7 +119,7 @@ actionExecOrigError的錯誤碼。
 
 ## actionOriginMethod {#actionoriginmethod}
 
-這會說明HTTP請求(GET或POST)中使用的方法。
+這會說明HTTP請求（GET或POST）中使用的方法。
 
 型別：字串
 

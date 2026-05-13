@@ -5,13 +5,16 @@ title: 協調的行銷活動護欄和限制
 description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: 534
+ht-degree: 3%
 
 ---
-
 
 # 護欄與限制 {#guardrails}
 
@@ -33,7 +36,7 @@ ht-degree: 1%
 
 * 每個結構描述&#x200B;**的平均屬性數目不應超過50個資料行**，以維持管理性和效能。
 
-* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* 無法為Adobe Experience Platform **設定檔**&#x200B;啟用關聯式結構描述。 Adobe Experience Platform **設定檔**&#x200B;僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料擷取 {#data-ingestion}
 
@@ -41,7 +44,7 @@ ht-degree: 1%
 
 * 所有內嵌必須透過&#x200B;**變更資料擷取**&#x200B;來源進行：
 
-   * **以檔案為基礎的**： `_change_request_type`欄位為必填。 支援的值是`u` （更新插入）或`d` （刪除）。 這些值必須為小寫`u`和`d`，而非大寫`U`和`D`。
+   * **以檔案為基礎的**： `_change_request_type`欄位為必填。 支援的值是`u` （更新插入）或`d` （刪除）。 這些值必須為小寫 `u` 和 `d`，而非大寫 `U` 和 `D`。
 
    * 對於&#x200B;**雲端型**：必須啟用資料表記錄。
 

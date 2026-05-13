@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: 7c02041c-b022-4027-b932-294b207add80
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/2wENqKr6NPiduDQYRD8VdJtbzjgSGubC0rlpHy-wLW8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 180
 ht-degree: 15%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 15%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 有時可能必須移除(DELETE)決定規則。 只能刪除您在租使用者容器中建立的決定規則。 若要這麼做，請使用您要刪除的決定規則的執行個體識別碼，對[!DNL Offer Library] API執行DELETE要求。

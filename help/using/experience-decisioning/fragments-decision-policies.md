@@ -1,19 +1,24 @@
 ---
-title: 在決策政策中善用片段
+title: 在決策原則中善用片段
 description: 瞭解如何在決策原則中運用片段
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
+TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: 752
+ht-degree: 1%
 
 ---
 
-# 在決策政策中善用片段 {#fragments}
+# 在決策原則中善用片段 {#fragments}
 
 如果您的決定原則包含決定專案（包括片段），您可以在決定原則內編寫訊息時利用這些片段。 [進一步瞭解片段](../content-management/fragments.md)
 
@@ -122,4 +127,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您仍然可以將`required`標幟設定為`true`，將片段標示為必要。 但是，如果片段暫時遺失，可能會導致歷程或行銷活動轉譯失敗。
-

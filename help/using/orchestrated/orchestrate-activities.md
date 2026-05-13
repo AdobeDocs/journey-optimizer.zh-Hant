@@ -5,13 +5,15 @@ title: 使用Adobe Journey Optimizer建立協調的行銷活動
 description: 瞭解如何使用Adobe Journey Optimizer建立協調的行銷活動
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 886
 ht-degree: 50%
 
 ---
-
 
 # 協調行銷活動 {#orchestrate}
 
@@ -29,7 +31,7 @@ ht-degree: 50%
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
-重複此程式，根據您希望「協調流程」行銷活動執行的工作，視需要新增儘可能多的活動。 請注意，您也可以在兩個活動之間插入新活動。若要這麼做，請按一下活動之間轉變上的「**+**」按鈕，選取所需的活動，並在右側窗格中進行設定。
+重複此程式，根據您希望「協調流程」行銷活動執行的工作，視需要新增儘可能多的活動。 請注意，您也可以在兩個活動之間插入新活動。 若要這麼做，請按一下活動之間轉變上的「**+**」按鈕，選取所需的活動，並在右側窗格中進行設定。
 
 您可以選擇自訂每個活動之間的轉變名稱。 要執行此操作，請選取轉變並在右側窗格中變更其標籤。
 
@@ -41,7 +43,7 @@ ht-degree: 50%
 
 ![](assets/orchestrated-toolbar.png)
 
-![多重選擇模式圖示](assets/do-not-localize/canvas-multiple.svg)：選取多個活動，一次性刪除所有活動或複製並貼上它們。[瞭解如何複製並貼上活動](#copy)
+![多重選擇模式圖示](assets/do-not-localize/canvas-multiple.svg)：選取多個活動，一次性刪除所有活動或複製並貼上它們。 [瞭解如何複製並貼上活動](#copy)
 
 ![旋轉圖示](assets/do-not-localize/canvas-rotate.svg)：垂直切換畫布。
 
@@ -59,17 +61,17 @@ ht-degree: 50%
 
 ![刪除圖示](assets/do-not-localize/activity-delete.svg)：從畫布中刪除活動。
 
-![停用圖示](assets/do-not-localize/activity-disable.svg) ![啟用圖示](assets/do-not-localize/activity-enable.svg)：停用/啟用活動。執行「已協調流程」行銷活動時，不會執行相同路徑上的停用活動和下列活動，且「已協調流程」行銷活動會停止。
+![停用圖示](assets/do-not-localize/activity-disable.svg) ![啟用圖示](assets/do-not-localize/activity-enable.svg)：停用/啟用活動。 執行「已協調流程」行銷活動時，不會執行相同路徑上的停用活動和下列活動，且「已協調流程」行銷活動會停止。
 
-![暫停圖示](assets/do-not-localize/activity-pause.svg) ![繼續圖示](assets/do-not-localize/activity-resume.svg)：暫停/繼續活動。執行「已協調」行銷活動時，會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
+![暫停圖示](assets/do-not-localize/activity-pause.svg) ![繼續圖示](assets/do-not-localize/activity-resume.svg)：暫停/繼續活動。 執行「已協調」行銷活動時，會在暫停的活動中暫停。 系統不會執行對應的任務，以及在相同路徑中跟隨著該任務的所有任務。
 
 您可以使用畫布中的任何活動作為中斷點，以暫停行銷活動執行。 這表示此活動只會執行促銷活動，直到此活動為止，然後暫停執行。 暫停執行時，分段引擎會保留暫時資料供您預覽。 您可以在暫停的活動之前選取入站轉變，以檢視傳輸的資料。 深入瞭解此章節： [視覺流量監視](../orchestrated/start-monitor-campaigns.md#flow)
 
-![複製圖示](assets/do-not-localize/activity-copy.svg)：複製活動。[瞭解如何複製並貼上活動](#copy)
+![複製圖示](assets/do-not-localize/activity-copy.svg)：複製活動。 [瞭解如何複製並貼上活動](#copy)
 
 ![記錄與任務圖示](assets/do-not-localize/activity-logs.svg)：存取活動的記錄與任務。
 
-若干&#x200B;**目標定位**&#x200B;活動 (例如&#x200B;**合併**&#x200B;或&#x200B;**重複資料刪除**)，可讓您處理剩餘群體，並將其納入其他傳出轉變中。例如，如果您使用&#x200B;**分割**&#x200B;活動，則補集包含不符合任何先前定義之子集的群體。若要使用此功能，請啟動「**[!UICONTROL 產生補集]**」選項。
+若干&#x200B;**目標定位**&#x200B;活動 (例如&#x200B;**合併**&#x200B;或&#x200B;**重複資料刪除**)，可讓您處理剩餘群體，並將其納入其他傳出轉變中。 例如，如果您使用&#x200B;**分割**&#x200B;活動，則補集包含不符合任何先前定義之子集的群體。 若要使用此功能，請啟動「**[!UICONTROL 產生補集]**」選項。
 
 ### 複製並貼上活動 {#copy}
 

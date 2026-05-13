@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/uuDrdPXrxxC7tu1IfpHmkONpsY9y1-yMQlP8Bk9h6No
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 13%
+source-wordcount: 165
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 13%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 您可以向[!DNL Offer Library] API發出GET要求，包括位置`@id`或要求路徑中的位置名稱，以查詢特定位置。
@@ -32,7 +36,7 @@ ht-degree: 13%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
-| 參數 | 說明 | 範例 |
+| 引數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |

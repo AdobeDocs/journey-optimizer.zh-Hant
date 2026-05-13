@@ -9,10 +9,15 @@ role: Admin, Developer
 level: Experienced
 keywords: 沙箱，虛擬，環境，組織，平台
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 22%
+source-wordcount: 434
+ht-degree: 25%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 22%
 
 [!DNL Journey Optimizer]可讓您將執行個體分割到稱為沙箱的個別虛擬環境中。 沙箱是透過許可權中的角色指派。 [瞭解如何指派 sandbox](permissions.md#create-product-profile)。
 
-[!DNL Journey Optimizer]反映針對指定組織建立的Adobe Experience Platform沙箱。 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。[進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
+[!DNL Journey Optimizer]反映針對指定組織建立的Adobe Experience Platform沙箱。 可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。 [進一步瞭解 sandbox 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant){target="_blank"}。
 
 您可以在熒幕右上角、組織名稱旁找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
 
@@ -60,7 +65,7 @@ ht-degree: 22%
 
 ## 存取內容 {#content-access}
 
-若要設定內容協助工具，請將內容共用資料夾指派給每個沙箱。 您可以在&#x200B;**[!UICONTROL 中顯示的]**&#x200B;儲存體[!DNL Admin Console]索引標籤中為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
+若要設定內容協助工具，請將內容共用資料夾指派給每個沙箱。 您可以在[!DNL Admin Console]中顯示的&#x200B;**[!UICONTROL 儲存體]**&#x200B;索引標籤中為管理員建立和設定共用資料夾。 如果您以系統管理員的身份可以存取[!DNL Admin Console]，則可以建立共用資料夾，並將具有不同存取等級的指派新增到共用資料夾。
 
 ![](assets/do-not-localize/content_access.png)
 

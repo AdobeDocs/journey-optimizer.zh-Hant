@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+TQID: https://experienceleague.adobe.com/4gzLvShm8zKHTfFLYU7FR8LxaC3F1uUs9HXcln6NL5w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: 2213
 ht-degree: 0%
 
 ---
@@ -156,7 +163,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 不重複點按<br/> </td> 
-   <td> 在電子郵件中點按內容的設定檔數。<br>請注意，在計算不重複點按時，會將過去10天列入考量。 如果設定檔在10天內註冊了多次點按，則會計為不重複點按。 但是，如果設定檔相隔10天以上，有2次點按，則不會視為不重複點按。<br/> </td> 
+   <td> 按一下電子郵件中內容的設定檔數目。<br> 請注意，計算不重複點按次數時，會計及最近10天。 如果設定檔在10天內註冊了多次點按，則會計為不重複點按。 但是，如果設定檔相隔10天以上，有2次點按，則不會視為不重複點按。<br/> </td> 
   </tr>
   <tr> 
    <td>不重複點進開啟率<br/> </td> 
@@ -180,7 +187,7 @@ ht-degree: 0%
   </tr>
   <tr> 
    <td> 不重複開啟<br/> </td> 
-   <td> 開啟傳送的設定檔數。 <br>請注意，計算唯一開啟次數時，會將過去10天列入考量。 如果設定檔在10天內註冊了多次開啟，則會計為不重複開啟。 但是，如果設定檔有2個開啟間隔超過10天，則不會視為唯一開啟。<br/> </td> 
+   <td> 開啟傳送的設定檔數。<br> 請注意，計算唯一開啟次數時，會考慮最近10天的開啟次數。 如果設定檔在10天內註冊了多次開啟，則會計為不重複開啟。 但是，如果設定檔有2個開啟間隔超過10天，則不會視為唯一開啟。<br/> </td> 
   </tr> 
   <tr>
   <tr> 

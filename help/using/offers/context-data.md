@@ -9,9 +9,13 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/aVm2FFqkJWN-k1qngYsp94FgKIZWaLCMUneFd0rVNpA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 229
 ht-degree: 12%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 12%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 作為決策請求的一部分傳送的資料被視為內容資料。 例如，您可以在決定引擎中運用內容資料，以設計決定規則，要求作出決定請求時目前的天氣為≥80度。
 

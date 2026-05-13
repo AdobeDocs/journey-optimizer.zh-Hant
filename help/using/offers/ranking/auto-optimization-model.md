@@ -9,9 +9,14 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: 1561
 ht-degree: 1%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 1%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
-自動最佳化模型旨在提供可大幅提升業務客戶所設定回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。 此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能進行最佳化。
+自動最佳化模型旨在提供可大幅提升業務客戶所設定回報(KPI)的優惠方案。 這些KPI可以是轉換率、收入等形式。此時，自動最佳化的重點是最佳化優惠點按，並將優惠轉換作為我們的目標。 自動最佳化是非個人化的，並根據選件的「全域」效能進行最佳化。
 
 ## 資料集需求
 
@@ -49,17 +54,17 @@ ht-degree: 1%
 
 * **Thomson抽樣**： Thompson抽樣是一種用於線上決策問題的演演算法，其動作是循序執行的，必須在開發已知能最大化即時效能與投資累積可能改善未來效能的新資訊之間取得平衡。 [了解更多](#thompson-sampling)
 
-* [**Beta分佈**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在間隔[0、1](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} [引數化]上定義的一組連續[機率分佈](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}，由兩個正的[形狀引數](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}所定義。
+* [**Beta分佈**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}：在間隔[0、1] [引數化](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}上定義的一組連續[機率分佈](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"}，由兩個正的[形狀引數](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}所定義。
 
-## Thompson取樣 {#thompson-sampling}
+## Thompson 取樣 {#thompson-sampling}
 
 自動最佳化基礎的演演算法是&#x200B;**Thompson取樣**。 在本節中，我們將討論Thompson取樣背後的直覺。
 
-[Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}或是Bayesian強盜，是多臂強盜問題的貝葉斯方法。  基本想法是將每個優惠的平均獎勵𝛍視為&#x200B;**隨機變數**，並使用我們目前所收集的資料來更新我們關於平均獎勵的「信念」。 此「信念」以數學方式表示為&#x200B;**後驗機率分佈** — 基本上是平均獎勵值的範圍，以及每個優惠的獎勵具有該值的可能性（或機率）。 然後，對於每個決定，我們將&#x200B;**從這些後驗獎勵分佈中的每個分佈**&#x200B;取樣一個點，並選取取樣獎勵具有最高值的優惠。
+[Thompson取樣](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}或是Bayesian強盜，是多臂強盜問題的貝葉斯方法。  基本想法是將每個優惠的平均獎勵𝛍視為&#x200B;**隨機變數**，並使用我們目前所收集的資料來更新我們關於平均獎勵的「信念」。 此「信念」以數學方式以&#x200B;**後驗機率分佈**&#x200B;表示 — 基本上是平均獎勵值的範圍，以及每個優惠的獎勵具有該值的可能性（或機率）。然後，對於每個決定，我們將&#x200B;**從每個這些後驗獎勵分佈中取樣一個點**，並選取取樣獎勵值最高的優惠。
 
 此程式如下圖所示，我們有3個不同的選件。 起初，我們無法從資料中取得任何證據，而且我們假設所有優惠方案都有一個統一的後驗獎勵分佈。 我們會從每個優惠方案的前端回報分佈中抽取樣本。 從選件2的分佈中選取的範例具有最高值。 這是&#x200B;**探索**&#x200B;的範例。 顯示優惠方案2後，我們會收集任何潛在獎勵（例如轉換/不轉換），並使用貝葉斯定理更新優惠方案2的後驗分佈，如下所述。  我們將繼續此程式，並在每次顯示優惠方案並收集獎勵時更新後續分配。 在第二個數字中，已選取「選件3」 — 儘管選件1的平均報酬最高（其後方的報酬分佈最靠右），從每個分佈取樣的程式已導致我們選擇明顯次優的選件3。 我們藉此機會進一步瞭解Offer 3的真正獎勵分配。
 
-當收集到更多的範例時，可信度會提高，並取得可能獎勵的更準確預估（對應於較窄的獎勵分佈）。 這個在更多證據出現時更新我們信念的過程稱為&#x200B;**貝葉斯推斷**。
+隨著收集到更多的樣本，信賴度會增加，而可能的獎勵會獲得更準確的預估（對應較窄的獎勵分佈）。當有更多的證據時，這個更新信念的過程稱為&#x200B;**貝葉斯推斷**。
 
 最終，如果一個選件（例如選件1）是明確的獲勝者，其後驗獎勵分配將與其他選件分開。 此時，對於每個決定，從選件1取得的抽樣獎勵可能是最高的，而我們將以較高的機率選擇它。 這是&#x200B;**利用** — 我們堅信選件1是最好的，因此選擇它是為了最大化回報。
 
@@ -75,7 +80,7 @@ ht-degree: 1%
 
 +++**技術詳細資料**
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) | 資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍i**&#x200B;的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) |資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值**𝛍 i**的可能性有多大。
 
 從貝葉斯定理：
 
@@ -83,11 +88,11 @@ ht-degree: 1%
 
 **先前機率**&#x200B;是產生輸出機率的初始猜測。 在收集了一些證據之後，此機率稱為&#x200B;**後驗機率**。 
 
-自動最佳化的設計會考量二進位獎勵（按一下/不按一下）。 在此案例中，可能性代表N個試用中的成功次數，並以&#x200B;**二項式分佈**&#x200B;建模。 對於某些似然函式，如果您選擇特定的前一個，則後一個分佈會與前一個分佈相同。 如此的前置位址稱為&#x200B;**共軛前置**。 這種先驗使後驗分佈的計算非常簡單。 **Beta分佈**&#x200B;在二項式似然之前（二進位獎勵）是共軛的，因此對於前後概率分佈來說，這是一個方便而合理的選擇。Beta分佈有兩個引數，***α***&#x200B;和&#x200B;***β***。 這些引數可視為成功和失敗的計數，以及下列引數提供的平均值：
+自動最佳化的設計會考量二進位獎勵（按一下/不按一下）。 在此案例中，可能性代表N個試用中的成功次數，並以&#x200B;**二項式分佈**&#x200B;建模。 對於某些似然函式，如果您選擇特定的前一個，則後一個分佈會與前一個分佈相同。 如此的前置位址稱為&#x200B;**共軛前置**。 這種先驗使後驗分佈的計算非常簡單。 **Beta分佈**&#x200B;在二項式可能性（二進位獎勵）之前是共軛的，因此對於前後概率分佈來說，這是一個方便而合理的選擇。Beta分佈會採用兩個引數，***α***&#x200B;和&#x200B;***β***。這些引數可視為成功和失敗的計數，以及下列引數提供的平均值：
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-如上所述的Likelihood函式是由二項式分佈模型化，其中s成功（轉換）和f失敗（無轉換），而q是具有[beta分佈](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}的[隨機變數](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}。
+如上所述的Likelihood函式是由二項式分佈模型化，其中s成功（轉換）和f失敗（無轉換），而q是具有[beta分佈](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}的[隨機變數](https://en.wikipedia.org/wiki/Random_variable){target="_blank"}。
 
 前置式分佈是以Beta分佈為模型，而後置式分佈則採用下列形式：
 

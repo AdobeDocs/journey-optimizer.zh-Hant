@@ -8,10 +8,17 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 1%
+source-wordcount: 829
+ht-degree: 4%
 
 ---
 
@@ -22,7 +29,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->全新&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 此功能可作為公開測試版透過Data Collection首頁存取。 [了解更多](mobile-onboarding-wf.md)
+>全新&#x200B;**行動入門快速入門工作流程**&#x200B;現已推出。 使用這項新產品功能，快速設定行動SDK，以開始收集和驗證行動事件資料，並傳送行動推播通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。 [了解更多](mobile-onboarding-wf.md)
 >
 
 瞭解如何在[此頁面](create-push.md)上建立推播通知。
@@ -33,7 +40,7 @@ ht-degree: 1%
 
 ![](assets/push-flow.png)
 
-1. 透過Apple的APN和Google FCM推送訊息服務註冊品牌行動應用程式(Android或iOS)
+1. 透過Apple的APN和Google FCM推送訊息服務註冊品牌行動應用程式（Android或iOS）
 1. 訊息服務會產生推播權杖，這是[!DNL Adobe Journey Optimizer]將用來以推播通知鎖定特定裝置的識別碼。
 1. 先前產生的推播權杖會傳遞至Adobe Experience Platform並與即時客戶個人檔案同步；這是透過易於整合的使用者端SDK在OOTB中完成
 
@@ -61,7 +68,7 @@ ht-degree: 1%
 
 * **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK還提供多種其他擴充功能，以啟用其他Adobe Experience Cloud以及第三方合作夥伴功能。
 
-  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant){target="_blank"}服務，例如：
+  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"}服務，例如：
 
    * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。

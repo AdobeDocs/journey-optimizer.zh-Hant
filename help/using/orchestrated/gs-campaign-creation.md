@@ -5,13 +5,16 @@ title: 建立協調行銷活動的重要步驟
 description: 瞭解使用Adobe Journey Optimizer建立協調行銷活動的主要原則
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 306
 ht-degree: 67%
 
 ---
-
 
 # 建立協調行銷活動的重要步驟 {#orchestrated-campaign-creation}
 
@@ -36,7 +39,7 @@ ht-degree: 67%
 
 ➡️[了解如何建立及排程行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
-## 步驟 2：協調行銷活動{#orchestrate}
+## 步驟 2：協調行銷活動 {#orchestrate}
 
 行銷活動一旦建立，就應該設計其背後的邏輯。 使用視覺畫布，您可以結合目標定位、傳送和流量控制活動，以塑造客戶體驗。
 
@@ -44,18 +47,18 @@ ht-degree: 67%
 
 ## 步驟 3：開始並監視您的行銷活動 {#start}
 
-您即將完成！ 先以測試模式執行行銷活動以找出任何問題。然後發佈並即時監視即時執行。追蹤進度、檢查錯誤，並檢視每個步驟中的輪廓。
+您即將完成！ 先以測試模式執行行銷活動以找出任何問題。 然後發佈並即時監視即時執行。追蹤進度、檢查錯誤，並檢視每個步驟中的輪廓。
 
 ➡️[了解如何開始及監視行銷活動](../orchestrated/start-monitor-campaigns.md)
 
 ## 步驟 4：分析和報告結果 {#report}
 
-啟動後，請使用內建報告來了解運作成果，以及可改進之處。即時儀表板和深入分析可協助您最佳化未來的行銷活動，並調整策略。
+啟動後，請使用內建報告來了解運作成果，以及可改進之處。 即時儀表板和深入分析可協助您最佳化未來的行銷活動，並調整策略。
 
 ➡️[了解報告](../orchestrated/reporting-campaigns.md)
 
 ## 若要更進一步：根據參與度重新定位 {#retarget}
 
-行銷活動執行後，您可以進一步根據輪廓與您的訊息的互動方式 (不論是開啟還是按一下連結) 重定向輪廓。這可讓您追蹤量身打造的訊息、重新與不活躍的使用者互動，或進一步關注興趣。
+行銷活動執行後，您可以進一步根據輪廓與您的訊息的互動方式 (不論是開啟還是按一下連結) 重定向輪廓。 這可讓您追蹤量身打造的訊息、重新與不活躍的使用者互動，或進一步關注興趣。
 
 ➡️[了解如何根據意見回饋事件重定向](../orchestrated/retarget.md)

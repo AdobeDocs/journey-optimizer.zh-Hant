@@ -10,9 +10,14 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrwifXQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: 2787
 ht-degree: 17%
 
 ---
@@ -61,7 +66,7 @@ ht-degree: 17%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -112,7 +117,7 @@ ht-degree: 17%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -311,7 +316,7 @@ ht-degree: 17%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 

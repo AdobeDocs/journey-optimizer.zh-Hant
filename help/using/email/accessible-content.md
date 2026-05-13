@@ -9,9 +9,16 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: 1696
 ht-degree: 1%
 
 ---
@@ -96,7 +103,7 @@ ht-degree: 1%
 若要在數位產品中使用有效的替代文字，請遵循以下准則：
 
 * 簡潔且情境化地描述影像用途。
-* 請避免「影像……」等多餘的片語，並使用裝飾性影像的空白替代文字。
+* 避免多餘的詞句，例如「影像……」 並將空的替代文字用於裝飾性影像。
 * 對於具有意義的圖示，提供有意義的標籤；對於複雜的影像，請使用簡短替代文字，並在其他位置使用較長的說明。
 
 ## 使用可讀格式 {#readable-format}

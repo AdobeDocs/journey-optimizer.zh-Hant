@@ -5,9 +5,14 @@ title: 透過瀏覽活動與客戶互動
 description: 透過瀏覽活動與客戶互動
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
+TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 590
 ht-degree: 4%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **此使用案例所需的結構描述：**
 

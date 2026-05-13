@@ -10,9 +10,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/FVJLylzuMC26anLVrWdBeU2RFrM6EFquGJN6e2ZAuP8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: d556b755-390a-43f0-be32-a08cf6236126id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: 658
 ht-degree: 35%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 35%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 左側邊欄中的&#x200B;**[!UICONTROL 決定管理]**&#x200B;區段提供兩個功能表，可讓您存取決定管理功能：
 
@@ -70,7 +76,7 @@ ht-degree: 35%
 
 使用&#x200B;**搜尋列**&#x200B;來尋找特定項目。
 
-按一下清單左上方的篩選圖示，即可存取 **篩選器**。可讓您根據不同的標準篩選顯示的元素。例如，您可以篩選為電子郵件通訊頻道和影像類型內容所建立的位置。
+按一下清單左上方的篩選圖示，即可存取 **篩選器**。 可讓您根據不同的標準篩選顯示的元素。 例如，您可以篩選為電子郵件通訊頻道和影像類型內容所建立的位置。
 
 ![](../assets/filters.png)
 
@@ -90,7 +96,7 @@ ht-degree: 35%
 
 ![](../assets/information-pane.png)
 
-產品建議與決定清單還可讓您對多個元素執行批量動作。若要這麼做，請選取所要的產品建議或決定，然後從資訊窗格中選取您要執行的動作。
+產品建議與決定清單還可讓您對多個元素執行批量動作。 若要這麼做，請選取所要的產品建議或決定，然後從資訊窗格中選取您要執行的動作。
 
 請注意，您也可以複製現有優惠或決定，以建立具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的復本。 您可以從資訊窗格或產品建議或決定的詳細檢視來執行此動作。
 

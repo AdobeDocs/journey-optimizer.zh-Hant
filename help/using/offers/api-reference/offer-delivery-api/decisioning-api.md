@@ -10,10 +10,15 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 4%
+source-wordcount: 1153
+ht-degree: 5%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../experience-decisioning/gs-experience-decisioning.md)
 
 使用決定管理，您可以使用商業邏輯和決定規則，跨頻道和應用程式建立並提供使用者個人化的優惠體驗。 優惠方案是行銷訊息，其中可能包含與其關聯的規則，以指定誰有資格檢視優惠方案。
 
@@ -137,7 +142,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | 布林值，如果設為`true`，會包含回應的內容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用來指定傳回其他中繼資料的物件。 如果未包含此屬性，則預設會傳回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此旗標會識別`xdm:activity`傳回的特定中繼資料資訊。 | `name` |
-| `xdm:responseFormat.xdm:option` | 此旗標會識別`xdm:option`傳回的特定中繼資料資訊。 | `name`、`characteristics` |
+| `xdm:responseFormat.xdm:option` | 此旗標會識別`xdm:option`傳回的特定中繼資料資訊。 | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此旗標會識別`xdm:placement`傳回的特定中繼資料資訊。 | `name`、`channel`、`componentType` |
 
 ### 回應
@@ -240,4 +245,4 @@ The following video is intended to support your understanding of the components 
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理[的](../../../offers/get-started/starting-offer-decisioning.md)概觀。
+依照此API指南，您已使用[!DNL Decisions] API建立和傳遞優惠方案。 如需詳細資訊，請參閱決策管理](../../../offers/get-started/starting-offer-decisioning.md)的[概觀。

@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: 1102
 ht-degree: 0%
 
 ---
@@ -29,7 +36,7 @@ ht-degree: 0%
 * [規則集](#rule-sets)
 * [最佳化模型](#optimization-models)
 
-若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/home)。
+若要進一步瞭解Customer Journey Analytics Workspace以及如何篩選及分析資料，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)。
 
 ## 反白顯示 {#highlights}
 
@@ -143,7 +150,7 @@ ht-degree: 0%
 
 **[!UICONTROL 依規則集的歷程專案]**&#x200B;欄會顯示進入歷程的設定檔數目。 有三種入口型別：
 
-* **&#x200B;**&#x200B;[!UICONTROL 沒有衝突]&#x200B;**&#x200B;**：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
+* ****[!UICONTROL 沒有衝突]****：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
 
 * **較高優先順序**：設定檔進入歷程是因為其優先順序高於其他競爭歷程。 即使發生衝突（設定檔符合多個歷程的資格），但由於此歷程的優先順序分數較高，所以被選取。
 

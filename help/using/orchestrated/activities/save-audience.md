@@ -5,13 +5,16 @@ title: 使用儲存客群活動
 description: 瞭解如何在協調的行銷活動中使用「儲存對象」活動
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/YBp0ehescfw8tVa1pJD2YQuQqRXJ9iG8nDDq9FKzHPs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 597
 ht-degree: 20%
 
 ---
-
 
 # 儲存客群 {#save-audience}
 
@@ -23,7 +26,7 @@ ht-degree: 20%
 **[!UICONTROL 儲存對象]**&#x200B;活動是&#x200B;**[!UICONTROL 鎖定目標]**&#x200B;活動，用來根據先前在協調的行銷活動中產生的母體來建立新對象或更新現有對象。 儲存後，對象會新增至應用程式對象清單，並可從&#x200B;**[!UICONTROL 對象]**&#x200B;功能表存取。
 
 它常用於擷取在相同行銷活動工作流程中建立的對象區段，以便在未來的行銷活動中重複使用。 通常會連線到其他目標定位活動，例如&#x200B;**[!UICONTROL 建立對象]**&#x200B;或&#x200B;**[!UICONTROL 合併]**，以儲存最終目標定位母體。
-請注意，使用&#x200B;**[!UICONTROL 儲存對象]**&#x200B;活動時，您無法更新現有的對象。 您只能建立新對象，或使用新定義覆寫現有對象。
+請注意，使用**[!UICONTROL 儲存對象]**&#x200B;活動時，您無法更新現有的對象。 您只能建立新對象，或使用新定義覆寫現有對象。
 
 ## 設定儲存客群活動 {#save-audience-configuration}
 
