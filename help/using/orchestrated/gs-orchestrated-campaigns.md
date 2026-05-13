@@ -6,13 +6,26 @@ description: 了解如何開始使用協調式行銷活動
 short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 85%
+source-wordcount: 909
+ht-degree: 100%
 
 ---
-
 
 # 開始使用協調的行銷活動 {#orchestrated-camp}
 
@@ -21,7 +34,7 @@ ht-degree: 85%
 >title="協調的行銷活動概觀"
 >abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>利用多實體資料</b><br/>了解協調式行銷活動如何利用關聯式資料集來擴充資料，以執行 Segmentation &amp; personalization<br/><br/><b>臨時分段和精準計數</b><br/>利用精準計數逐步建置您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
 
-[!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動，包括&#x200B;**行銷**&#x200B;和&#x200B;**異動**。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 異動訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
+[!DNL Adobe Journey Optimizer] 中的行銷活動協調可跨管道支援複雜且品牌啟動的行銷活動，包括&#x200B;**行銷**&#x200B;和&#x200B;**交易型**。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
 
 >[!IMPORTANT]
 >
@@ -42,7 +55,7 @@ ht-degree: 85%
 <td><img alt="隨選客群" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>隨選客群</b><br/>立即跨資料集查詢，以使用任何資料類型與維度的組合來建立客群細分群體。</td></tr>
 <tr style="border: 0;">
 <td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體細分和傳送</b><br/>超越以人員為基礎的行銷活動，可精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
-支援多級傳送，其中每個設定檔和每個關聯的次要實體會傳送一條訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
+支援多層級傳送，其中每個輪廓和每個關聯的次要實體會傳送一封訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
 <tr style="border: 0;">
 <td><img alt="預先傳送可見度與精確度" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>預先傳送可見度與精確度</b><br/>在行銷活動推出前，取得精確的細分計數與完整的行銷活動範圍可確保精確度與可信度。</td></tr>
 <tr style="border: 0;">
@@ -81,13 +94,13 @@ ht-degree: 85%
 
 * **工作表**：工作表包含轉變攜帶的所有資訊。 每個協調的行銷活動會使用多個工作表。 在這些表格中傳達的資料可以用於整個協調行銷活動的生命週期。
 
-典型的入門級協調行銷活動會遵循以下模式： **建立對象→分支→管道A +管道B**。
+典型的入門級協調行銷活動會遵循以下模式：**建立客群 → 分支 → 管道 A + 管道 B**。
 
-此方法可讓您在單一行銷活動執行中，以兩個平行分支來鎖定相同對象，例如，一個分支使用行銷電子郵件，另一個分支使用交易式電子郵件。 每個分支都是獨立的，可以使用不同的通道設定、訊息內容或類別。
+此方法可讓您在單一行銷活動執行中，以兩個平行分支來鎖定相同客群，例如，一個分支使用行銷電子郵件，另一個分支使用交易型電子郵件。 每個分支都是獨立的，可以使用不同的管道設定、訊息內容或類別。
 
-➡️ [瞭解如何使用分叉活動](activities/fork.md)
+➡️ [瞭解如何使用分支活動](activities/fork.md)
 
-➡️ [瞭解行銷與交易式訊息](activities/channels.md#marketing-vs-transactional)
+➡️ [瞭解行銷與交易型訊息](activities/channels.md#marketing-vs-transactional)
 
 ## 簡介影片 {#video-oc}
 

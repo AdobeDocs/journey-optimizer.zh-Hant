@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -33,17 +53,17 @@ ht-degree: 84%
 
 ### 檢查推播選擇退出狀態 {#push-opt-out-status}
 
-行動應用程式的推播選擇退出會在裝置層級處理：當使用者在其裝置上停用通知時，推播權杖會從他們的設定檔中移除。 因此，設定檔上推播權杖&#x200B;**的**&#x200B;存在即為隱含推播同意的指標。
+行動應用程式的推播選擇退出會在裝置層級處理：當使用者在其裝置上停用通知時，推播權杖會從他們的輪廓中移除。 因此，輪廓上的&#x200B;**推播權杖存在**&#x200B;即為隱含推播同意的指標。
 
-若要在Adobe Experience Platform中驗證設定檔的推播同意狀態：
+若要在 Adobe Experience Platform 中驗證輪廓的推播同意狀態：
 
-1. 在Adobe Experience Platform的&#x200B;**[!UICONTROL 設定檔]**&#x200B;區段中開啟設定檔。
+1. 在 Adobe Experience Platform 的&#x200B;**[!UICONTROL 輪廓]**&#x200B;區段中開啟輪廓。
 1. 移至&#x200B;**[!UICONTROL 屬性]**&#x200B;標籤，並尋找&#x200B;**[!UICONTROL 推播通知詳細資料]**&#x200B;欄位群組。
-1. 如果存在推播權杖，設定檔已隱含同意接收推播通知。 如果找不到Token，則表示使用者已在裝置層級選擇退出。
+1. 如果存在推播權杖，輪廓已隱含同意接收推播通知。 如果找不到權杖，則表示使用者已在裝置層級選擇退出。
 
 >[!NOTE]
 >
->對於需要明確推送同意追蹤的規範使用案例，請使用[同意和偏好設定欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}中的&#x200B;**`consents.marketing.push.val`**&#x200B;屬性。 值`y`表示明確的選擇加入；`n`表示明確的選擇退出。
+>對於需要明確推播同意追蹤的合規使用案例，請使用[同意和偏好設定欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"}中的 **`consents.marketing.push.val`** 屬性。 `y` 值表示明確的選擇加入；`n` 表示明確的選擇退出。
 
 在以下章節中了解如何管理 Journey Optimizer 電子郵件和簡訊訊息中的選擇退出：
 
@@ -82,7 +102,7 @@ ht-degree: 84%
 >
 >[!DNL Journey Optimizer]發起管道中使用的決定範圍符合其所屬歷程或行銷活動的這項要求。
 
-1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立[Adobe Experience Platform對象](../audience/about-audiences.md)，並使用個人化內容=是（選擇加入）**之類的設定檔屬性來鎖定同意個人化的使用者。**
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)，並使用個人化內容 = 是 (選擇加入)**之類的輪廓屬性來鎖定同意個人化的使用者。**
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ ht-degree: 84%
 
 您可以使用區段規則產生器，建立包含選擇退出輪廓的客群。
 
-1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立[Adobe Experience Platform對象](../audience/about-audiences.md)。
+1. 使用[細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant){target="_blank"}建立 [Adobe Experience Platform 客群](../audience/about-audiences.md)。
 
    ![](assets/perso-consent-audience-build-rule.png)
 

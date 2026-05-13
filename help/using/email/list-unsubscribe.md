@@ -9,10 +9,28 @@ role: Admin
 level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 98%
+source-wordcount: 1884
+ht-degree: 100%
 
 ---
 
@@ -93,7 +111,7 @@ ht-degree: 98%
   >
   >在 [本章節](../email/email-opt-out.md#unsubscribe-header)之中，進一步了解訊息中的管理取消訂閱功能等更多資訊。
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一，或使用[同意策略](../action/consent.md)來覆寫預設邏輯。
 
 目前，[!DNL Journey Optimizer]未將特定標籤附加至清單取消訂閱功能所觸發的取消訂閱事件。 如果您需要區分清單取消訂閱點擊與其他取消訂閱操作，則必須在外部實施自訂標記，或利用外部登陸頁面進行追蹤。
 
@@ -135,7 +153,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->附加至URL的UTM引數順序是隨機的，無法控制。 如果您的系統需要特定順序的引數，您將需要從側邊剖析引數並重新排序。
+>附加至 URL 的 UTM 參數順序是隨機的，無法控制。 如果您的系統需要特定順序的參數，您將需要自行剖析參數並重新排序。
 
 ### 設定解密 API {#configure-decrypt-api}
 
@@ -265,7 +283,7 @@ GET 呼叫分述如下。
 
    * 剖析值：*v1.xyz*
 
-API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

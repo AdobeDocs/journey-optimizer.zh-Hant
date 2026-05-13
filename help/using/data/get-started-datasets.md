@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 90%
 
 * 訊息匯出
 
-  _AJO訊息匯出資料集_：儲存已傳送電子郵件和簡訊的內容，以供匯出。 記錄會自內嵌後保留7個日曆日。 僅適用於已購買訊息匯出附加元件的組織。 [了解更多](../configuration/message-export.md)
+  _AJO 訊息匯出資料集_：儲存已傳送電子郵件和簡訊的內容，以供匯出。 從擷取之日起，記錄會保留 7 天。 僅適用於已購買訊息匯出附加元件的組織。 [了解更多](../configuration/message-export.md)
 
 * Intelligent Services
 
@@ -107,7 +107,7 @@ ht-degree: 90%
 您可以從結構描述或 CSV 檔案建立資料集。 有關如何建立資料集的詳細資訊，請參閱 [!DNL Adobe Experience Platform] 文件：
 
 * [使用現有結構描述建立資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [將CSV檔案對應至現有的XDM結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [將 CSV 檔案對應到現有的 XDM 結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 觀看此影片，了解如何建立資料集、將資料對應至結構描述、新增資料，以及確認資料已擷取。
 
@@ -125,13 +125,13 @@ ht-degree: 90%
 
 ## 範例與使用案例 {#samples}
 
-* [教學課程 — 將資料內嵌至Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
+* [教學課程 - 將資料擷取至 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant){target="_blank"}
 * [端到端使用案例](../audience/creating-test-profiles.md) - 建立結構描述、資料集和擷取資料以在 [!DNL Adobe Journey Optimizer] 中新增測試輪廓
 * [查詢範例](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer]資料集和相關使用案例。
 
 >[!MORELIKETHIS]
 >
->* [開始使用Journey Optimizer中的資料管理](gs-data.md)
+>* [開始使用 Journey Optimizer 的資料管理](gs-data.md)
 >* [資料集文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 >* [資料管理授權權益最佳做法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

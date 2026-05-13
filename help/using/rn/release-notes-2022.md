@@ -9,10 +9,47 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/C8d6L0NrvfiqCKnEFxitLC-X-6mrG3oWvNTV2LwyWyI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3645'
-ht-degree: 97%
+source-wordcount: 3645
+ht-degree: 100%
 
 ---
 
@@ -139,7 +176,7 @@ ht-degree: 97%
 <table>
 <thead>
 <tr>
-<th><strong>自動同意實作（同意政策）</strong><br/></th>
+<th><strong>自動同意實行 (同意政策)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +259,7 @@ table>
 
 **稽核控制**
 
-* 透過Journey Optimizer，您可以識別系統中的使用者對各種服務和功能（如行銷活動、歷程、訊息、登入頁面）執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 請在[此頁面](../privacy/audit-logs.md)深入了解。
+* 使用 Journey Optimizer，您可以識別系統中的使用者對各種服務和功能 (如行銷活動、歷程、訊息、登陸頁面) 執行的動作。稽核記錄資源現在包含對各種其他動作的變更，並會在活動發生時自動記錄。 請在[此頁面](../privacy/audit-logs.md)深入了解。
 
 **封存支援**
 
@@ -260,7 +297,7 @@ table>
 <td>
 <p>使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定客群。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
+<p>在<a href="../campaigns/get-started-with-campaigns.md">詳細文件</a>及<a href="https://video.tv.adobe.com/v/346680">功能影片</a>中了解如何建立行銷活動。
 </td>
 </tr>
 </tbody>
@@ -382,7 +419,7 @@ table>
 <p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -409,7 +446,7 @@ table>
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [進一步了解](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -448,7 +485,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Adobe Stock和Adobe Journey Optimizer Email Designer整合外掛程式為客戶提供用於訊息製作的導覽、授權和儲存影像的簡單方式。</br> 新的<b>尋找類似的Stock像片</b>選項也可讓您找出與影像內容、顏色和組成相符的影像庫。 </p>
+<p>Adobe Stock 和 Adobe Journey Optimizer 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。</br> 您還可以藉由新的<b>找到類似的 Stock 相片</b>選項找出與影像內容、顏色和構圖相符的 Stock 相片。 </p>
 <p>如需詳細資訊，請參閱<a href="../integrations/stock.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -821,7 +858,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [進一步了解](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 

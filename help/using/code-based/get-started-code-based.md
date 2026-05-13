@@ -6,9 +6,28 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '855'
+TQID: https://experienceleague.adobe.com/ZOCKgdEGK0G3GOhNbwxSXVOQo0We6-QdjzItFtZ5T3E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 954
 ht-degree: 100%
 
 ---
@@ -63,8 +82,8 @@ ht-degree: 100%
 
 * 使用[個人化編輯器](create-code-based.md#edit-code)，編輯您的內容。
 * 您必須已先安裝 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"} - 用戶端實作，或是 [AEP Edge Network 伺服器 API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant){target="_blank"} - 伺服器端實作。
-* 程式碼型體驗需要先在實施中的進行開發工作，以確保您的應用程式可以通過 [!DNL Journey Optimizer] 來解譯和傳遞為這些位置在邊緣上發佈的內容。[了解更多](code-based-surface.md)
-* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，您必須識別應用程式上有哪些元件 (首頁橫幅、網頁橫幅、功能表列等) 需要修改，以便進行個人化或測試，同時與開發團隊合作，即可建立用來處理這類變更所需的實作。
+* 程式碼型體驗需要先在實施中的進行開發工作，以確保您的應用程式可以通過 [!DNL Journey Optimizer] 來解譯和傳遞為這些位置在邊緣上發佈的內容。 [了解更多](code-based-surface.md)
+* 它需要更多規劃，而且只能變更開發人員指定的內容。 因此，必須識別應用程式上有哪些元件 (首頁橫幅、網頁橫幅、選單列等) 需要修改，以便進行個人化或測試，同時與開發團隊合作，建立用來處理這類變更所需的實作。
 * 它可讓您使用 JSON 程式碼內容。
 * 專注於開發人員人物誌。
 
@@ -74,7 +93,7 @@ ht-degree: 100%
 >
 >此功能適合開發人員人物誌和/或經驗豐富的使用者。 只要是由開發團隊處理通道設定和初始設定，具備一些程式碼撰寫技能的行銷人員就可以使用此功能。
 
-若要使用 [!DNL Journey Optimizer] 程式碼型體驗功能編輯內容，頁面或應用程式需要檢測。若要這樣做，您必須預先宣告特定的個別位置 (又稱為「[表面](code-based-surface.md)」)，也就是您想要插入或取代內容的位置。
+若要使用 [!DNL Journey Optimizer] 程式碼型體驗功能編輯內容，頁面或應用程式需要檢測。 若要這樣做，您必須預先宣告特定的個別位置 (又稱為「[表面](code-based-surface.md)」)，也就是您想要插入或取代內容的位置。
 
 >[!NOTE]
 >
@@ -88,13 +107,13 @@ ht-degree: 100%
 
 1. 建立參考位置的程式碼型管道設定。 [了解作法](code-based-configuration.md#create-code-based-configuration)
 
-1. 使用此設定在 [!DNL Journey Optimizer] 中建立歷程或行銷活動。[了解作法](create-code-based.md#create-code-based-experience)
+1. 使用此設定在 [!DNL Journey Optimizer] 中建立歷程或行銷活動。 [了解作法](create-code-based.md#create-code-based-experience)
 
 1. 使用 [!DNL Journey Optimizer] 個人化編輯器，為所選設定指定內容來編寫體驗。 [了解作法](create-code-based.md#edit-code)
 
 1. 測試程式碼型體驗。 [了解作法](test-code-based.md)
 
-1. 發佈內容。[了解作法](publish-code-based.md)
+1. 發佈內容。 [了解作法](publish-code-based.md)
 
 1. 程式碼型體驗歷程或行銷活動正式上線後，要求必須先準備好表面內容的應用程式，或頁面實作，才能擷取並顯示內容。
 

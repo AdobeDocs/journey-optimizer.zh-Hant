@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
 source-wordcount: '3322'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
    + {hide-from-toc}[早期發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}
-      + {hide-from-toc}[舊版發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025 版](using/rn/release-notes-2025.md)
       + [2024 年](using/rn/release-notes-2024.md)
@@ -29,7 +29,7 @@ ht-degree: 90%
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [文件更新](using/rn/documentation-updates.md)
-   + {hide-from-toc}[已改善歷程畫布](using/rn/new-canvas.md)
+   + {hide-from-toc}[改善的歷程畫布](using/rn/new-canvas.md)
 + 開始使用 {#get-started}
    + [開始使用](/help/rp_landing_pages/get-started-landing-page.md)
    + 基本要點 {#essentials}
@@ -52,8 +52,8 @@ ht-degree: 90%
       + {hide-from-toc}[歷程與行銷活動](using/start/journeys-vs-campaigns.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
-   + {hide-from-toc}[歷程入門手冊](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[歷程型別與選擇指南](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[歷程快速入門指南](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[歷程類型和選取指南](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -138,8 +138,8 @@ ht-degree: 90%
       + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
       + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 忠誠度挑戰 {#loyalty-challenges}
-   + {hide-from-toc}[開始進行忠誠度挑戰](using/loyalty-challenges/get-started.md)
-   + {hide-from-toc}[存取及管理挑戰與工作](using/loyalty-challenges/access-loyalty-challenges.md)
+   + {hide-from-toc}[開始使用忠誠度挑戰](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[存取及管理挑戰與任務](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
@@ -159,7 +159,7 @@ ht-degree: 90%
       + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
    + API 觸發的行銷活動 {#api-triggered-campaigns}
       + [API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [使用API觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
+      + [使用 API 觸發的行銷活動](using/campaigns/api-triggered-campaigns.md)
       + [定義行銷活動屬性](using/campaigns/api-triggered-campaign-properties.md)
       + [設定行銷活動動作](using/campaigns/api-triggered-campaign-action.md)
       + [編輯行銷活動的內容](using/campaigns/api-triggered-campaign-content.md)
@@ -167,7 +167,7 @@ ht-degree: 90%
       + [安排行銷活動](using/campaigns/api-triggered-campaign-schedule.md)
       + [審閱並啟動行銷活動](using/campaigns/review-activate-api-triggered-campaign.md)
       + [觸發行銷活動執行](using/campaigns/trigger-campaigns.md)
-      + [為API觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
+      + [為 API 觸發的行銷活動啟用高輸送量模式](using/campaigns/api-triggered-high-throughput.md)
    + 協調的行銷活動 {#orchestrated-campaigns}
       + [協調的行銷活動](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [開始使用協調的行銷活動](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -288,17 +288,17 @@ ht-degree: 90%
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
-         + 設計內容 {#add-content}
-            + [設計內容](/help/rp_landing_pages/add-content-landing-page.md)
+         + 設計您的內容 {#add-content}
+            + [設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
             + [個人化URL](using/email/url-personalization.md)
             + [插入個人化優惠方案](using/email/add-offers-email.md)
-            + [針對AI收件匣最佳化電子郵件](using/email/llm-email-optimizer.md)
+            + [針對 AI 收件匣最佳化電子郵件](using/email/llm-email-optimizer.md)
             + [管理文字版本](using/email/text-version-email.md)
             + [新增中繼資料](using/email/email-metadata.md)
-            + [使用進階HTML編輯器編輯](using/email/email-expert-mode.md)
+            + [使用進階 HTML 編輯器編輯](using/email/email-expert-mode.md)
          + 編輯樣式 {#edit-style}
             + [編輯樣式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
@@ -405,7 +405,7 @@ ht-degree: 90%
       + [設計內容卡](using/content-card/design-content-card.md)
    + 收件匣 {#inbox}
       + [開始使用收件匣](using/inbox/inbox-gs.md)
-      + [在Journey Optimizer中設定收件匣頻道](using/inbox/inbox-configuration.md)
+      + [在 Journey Optimizer 中設定收件匣管道](using/inbox/inbox-configuration.md)
       + [建立您的收件匣](using/inbox/inbox-create.md)
       + [設計您的收件匣](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
@@ -423,11 +423,11 @@ ht-degree: 90%
    + 即時動態 {#live-activity}
       + [開始使用即時動態](using/mobile-live/get-started-mobile-live.md)
       + [建立即時動態](using/mobile-live/create-mobile-live.md)
-      + [疑難排解即時活動](using/mobile-live/troubleshoot-mobile-live.md)
+      + [疑難排解即時動態](using/mobile-live/troubleshoot-mobile-live.md)
       + [常見問題集](using/mobile-live/mobile-live-faq.md)
-      + 設定即時活動頻道 {#configure}
+      + 設定即時動態管道 {#configure}
          + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
-         + [設定即時活動SDK整合](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [設定即時動態 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
 + 內容管理 {#content-management}
    + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
    + 個人化 {#personalization}
@@ -438,7 +438,7 @@ ht-degree: 90%
       + [反覆處理內容資料](using/personalization/iterate-contextual-data.md)
       + [重複使用運算式片段](using/personalization/use-expression-fragments.md)
       + [使用 Adobe Experience Platform 資料進行個人化](using/personalization/aep-data-perso.md)
-      + [加密追蹤連結中的URL引數](using/personalization/url-parameter-encryption.md)
+      + [加密追蹤連結中的 URL 參數](using/personalization/url-parameter-encryption.md)
       + 協助程式函式清單 {#functions}
          + [協助程式函式清單](/help/rp_landing_pages/functions-landing-page.md)
          + [開始使用輔助函式](using/personalization/functions/functions.md)
@@ -491,7 +491,7 @@ ht-degree: 90%
       + [將現有內容另存為片段](using/content-management/save-fragments.md)
       + [可自訂的片段](using/content-management/customizable-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
-      + {hide-from-toc}[新增內容屬性至已發佈的片段](using/content-management/manage-fragments-contextual-attributes.md)
+      + {hide-from-toc}[將內容屬性新增到已發佈的片段](using/content-management/manage-fragments-contextual-attributes.md)
    + 動態內容 {#dynamic}
       + [動態內容](/help/rp_landing_pages/dynamic-landing-page.md)
       + [開始使用動態內容](using/personalization/get-started-dynamic-content.md)
@@ -503,13 +503,13 @@ ht-degree: 90%
       + [使用 Experience Manager Assets](using/integrations/assets.md)
       + [使用 Adobe Stock](using/integrations/stock.md)
       + [使用 Adobe Express 工作](using/integrations/express.md)
-      + {hide-from-toc}[使用Experience Manager範本](using/integrations/aem-templates.md)
-      + Experience Manager內容片段 {#aem}
-         + [開始使用Experience Manager內容片段](using/integrations/aem-fragments-gs.md)
+      + {hide-from-toc}[使用 Experience Manager 範本](using/integrations/aem-templates.md)
+      + Experience Manager 內容片段 {#aem}
+         + [開始使用 Experience Manager 內容片段](using/integrations/aem-fragments-gs.md)
          + {hide-from-toc}[設定您的內容片段存放庫](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
          + [考量事項和疑難排解](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[使用Experience Manager內容顧問](using/content-management/aem-content-advisor.md)
+      + {hide-from-toc}[使用 Experience Manager 內容顧問](using/content-management/aem-content-advisor.md)
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -529,13 +529,13 @@ ht-degree: 90%
       + [使用 AI 產生文字](using/content-management/generative-text.md)
       + [使用 AI 產生影像](using/content-management/generative-image.md)
       + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
-      + [Personalization運算式的AI助理](using/content-management/generative-personalization-expressions.md)
+      + [個人化運算式的 AI 助理](using/content-management/generative-personalization-expressions.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
       + 品牌 {#brands}
          + [品牌](/help/rp_landing_pages/brands-landing-page.md)
          + [建立並管理品牌](using/content-management/brands.md)
          + [個人化您的品牌](using/content-management/brands-personalize.md)
-         + [建立及管理產生模型](using/content-management/generative-models.md)
+         + [建立和管理生成式模型](using/content-management/generative-models.md)
          + [評估您的內容](using/content-management/brands-score.md)
    + 多語言內容 {#content-multilingual}
       + [多語言內容](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -606,7 +606,7 @@ ht-degree: 90%
          + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
          + [實驗行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
          + [應用程式內行銷活動報告](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[即時活動行銷活動報告](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[即時動態行銷活動報告](using/reports/campaign-global-report-cja-activity.md)
          + [推播通知行銷活動報告](using/reports/campaign-global-report-cja-push.md)
          + [簡訊行銷活動報告](using/reports/campaign-global-report-cja-sms.md)
          + [網頁行銷活動報告](using/reports/campaign-global-report-cja-web.md)
@@ -646,9 +646,9 @@ ht-degree: 90%
       + [開始使用決策](using/experience-decisioning/gs-experience-decisioning.md)
       + [決策護欄與限制](using/experience-decisioning/decisioning-guardrails.md)
       + [決策常見問題集](using/experience-decisioning/decisioning-faq.md)
-      + 移轉至Decisioning {#migrate-to-decisioning}
-         + [移轉至Decisioning的好處](using/experience-decisioning/migrate-to-decisioning.md)
-         + [Decisioning移轉API](using/experience-decisioning/decisioning-migration-api.md)
+      + 移轉至 Decisioning {#migrate-to-decisioning}
+         + [移轉至 Decisioning 的優點](using/experience-decisioning/migrate-to-decisioning.md)
+         + [決策移轉 API](using/experience-decisioning/decisioning-migration-api.md)
       + API 參考 {#experience-decisioning-api-reference}
          + {hide-from-toc}[API 參考資料](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [開始使用決策 API](using/experience-decisioning/api-reference/getting-started.md)
@@ -703,7 +703,7 @@ ht-degree: 90%
             + [自動最佳化模型](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [個人化最佳化模型](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [建立 AI 模型](using/experience-decisioning/ranking/create-ai-models.md)
-            + [監視您的AI模型效能](using/experience-decisioning/ranking/ai-model-observability.md)
+            + [監視您的 AI 模型效能](using/experience-decisioning/ranking/ai-model-observability.md)
       + [使用位置](using/experience-decisioning/placements.md)
       + 使用 Adobe Experience Platform 資料 {#aep-data}
          + [使用 Adobe Experience Platform 資料](/help/rp_landing_pages/aep-data-landing-page.md)
@@ -714,11 +714,11 @@ ht-degree: 90%
          + [開始使用決定原則](using/experience-decisioning/create-decision.md)
          + [建立決定原則](using/experience-decisioning/create-decision-policy.md)
          + [在訊息中使用決定原則](using/experience-decisioning/use-decision-policy.md)
-         + [在決策政策中善用片段](using/experience-decisioning/fragments-decision-policies.md)
+         + [在決策原則中善用片段](using/experience-decisioning/fragments-decision-policies.md)
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
       + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件資料 {#experience-decisioning-collect-event-data}
-         + {hide-from-toc}[開始使用資料彙集](using/experience-decisioning/data-collection/data-collection.md)
+         + {hide-from-toc}[開始使用資料收集](using/experience-decisioning/data-collection/data-collection.md)
          + {hide-from-toc}[建立資料集以收集事件](using/experience-decisioning/data-collection/create-dataset.md)
          + [設定事件擷取](using/experience-decisioning/data-collection/schema-requirement.md)
    + 決策管理 {#offer-decisioning}
@@ -890,7 +890,7 @@ ht-degree: 90%
       + [資料集存留時間 (TTL) 護欄](using/data/datasets-ttl.md)
       + [匯出 Journey Optimizer 資料集](using/data/export-datasets.md)
       + [查詢範例](using/data/datasets-query-examples.md)
-      + [內建方案>](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
+      + [內建結構描述 >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant)
    + [使用 Adobe Experience Platform 資料](using/data/lookup-aep-data.md)
    + [查詢](using/data/get-started-queries.md)
 + 管道設定 {#configuration}
@@ -907,7 +907,7 @@ ht-degree: 90%
       + [開始使用子網域委派](using/configuration/about-subdomain-delegation.md)
       + [委派子網域](using/configuration/delegate-subdomain.md)
       + [設定自訂子網域](using/configuration/delegate-custom-subdomain.md)
-      + [從CNAME移轉至自訂委派](using/configuration/custom-subdomain-migration.md)
+      + [從 CNAME 移轉至自訂委派](using/configuration/custom-subdomain-migration.md)
       + [設定 DMARC 記錄](using/configuration/dmarc-record.md)
       + [新增 Google TXT 記錄](using/configuration/google-txt.md)
       + [存取和編輯 PTR 記錄](using/configuration/ptr-records.md)
@@ -918,10 +918,10 @@ ht-degree: 90%
       + [建立 IP 暖身行銷活動](using/configuration/ip-warmup-campaign.md)
       + [建立 IP 暖身計劃](using/configuration/ip-warmup-plan.md)
       + [執行 IP 暖身計劃](using/configuration/ip-warmup-execution.md)
-      + {hide-from-toc}[IP熱身計畫檔案](using/configuration/ip-warmup-plan-files.md)
+      + {hide-from-toc}[IP 暖身計劃檔案](using/configuration/ip-warmup-plan-files.md)
    + 監視電子郵件地址 {#monitor-reputation}
       + [監視電子郵件地址](/help/rp_landing_pages/monitor-reputation-landing-page.md)
-      + {hide-from-toc}[電子郵件錯誤型別](using/configuration/email-error-types.md)
+      + {hide-from-toc}[電子郵件錯誤類型](using/configuration/email-error-types.md)
       + [禁止名單](using/configuration/manage-suppression-list.md)
       + [重試次數](using/configuration/retries.md)
       + [允許清單](using/configuration/allow-list.md)
@@ -980,7 +980,7 @@ ht-degree: 90%
    + [權限層級](using/administration/high-low-permissions.md)
    + [屬性型存取控制](using/administration/attribute-based-access.md)
    + [物件等級的存取控制](using/administration/object-based-access.md)
-+ 隱私權 {#privacy}
++ 隱私 {#privacy}
    + [隱私權](/help/rp_landing_pages/privacy-landing-page.md)
    + [開始使用隱私權](using/privacy/get-started-privacy.md)
    + [隱私權要求](using/privacy/requests.md)

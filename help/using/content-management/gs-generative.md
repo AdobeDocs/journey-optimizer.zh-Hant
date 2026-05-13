@@ -9,10 +9,27 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -48,9 +65,9 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>中文（香港）</li>
+          <li>中文 (香港)</li>
           <li>中文 (簡體)</li>
-          <li>中文（台灣）</li>
+          <li>中文 (台灣)</li>
           <li>荷蘭文</li>
         </ul>
       </td>
@@ -78,7 +95,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 >[!IMPORTANT]
 >
->* 開始使用此功能之前，請先閱讀相關的[護欄和限制](#generative-guardrails)。
+>* 開始使用此功能之前，請先閱讀相關的[護欄與限制](#generative-guardrails)。
 >
 >
 >* 您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}後，才能使用 Adobe Journey Optimizer 的 AI 助理。 如需詳細資訊，請聯絡您的 Adobe 代表。
@@ -119,7 +136,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 * 僅適用於電子郵件、推播、網頁及簡訊管道。
 
-### 內容品質、提示和意見
+### 內容品質、提示和意見回饋
 
 * 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。 使用定義明確的提示讓 GenAI 模型準確解釋。 
 * GenAI 內容可能不完全準確：請分享您的回饋，以便我們的工程師可以改進模型。
@@ -140,14 +157,14 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 * 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
 
-### 個人化運算式的AI助理 {#ai-assistant-personalization-editor-guardrails}
+### 個人化運算式的 AI 助理 {#ai-assistant-personalization-editor-guardrails}
 
-下列護欄適用於[!UICONTROL Personalization編輯器]和電子郵件Designer中個人化運算式[&#128279;](generative-personalization-expressions.md)的AI助理。
+下列護欄適用於[!UICONTROL 個人化編輯器]和電子郵件設計工具中[個人化運算式的 AI 助理](generative-personalization-expressions.md)。
 
-* **Offer與Experience Decisioning** — 不支援。
-* **我的最愛** — 不支援。
-* **儲存的條件** — 不支援。
-* **Adobe Experience Manager內容片段** — 不支援。
+* 不支援&#x200B;**產品建議與體驗決策**。
+* 不支援&#x200B;**最愛項目**。
+* 不支援&#x200B;**儲存的條件**。
+* 不支援 **Adobe Experience Manager 內容片段**。
 
 ## AI 助理內容產生功能 {#generative-features}
 

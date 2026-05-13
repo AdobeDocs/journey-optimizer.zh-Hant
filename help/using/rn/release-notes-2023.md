@@ -12,7 +12,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 <td>
 <p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -272,7 +272,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際客群) 並在傳送執行時收到與目標輪廓完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>您現在可以建立組合工作流程，將現有Adobe Experience Platform對象合併到視覺畫布中，並利用各種活動（分割、擴充……） ，建立新客群。 新建立的客群會與現有客群一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
+<p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 客群與視覺畫布結合起來，並利用各種活動 (分割、擴充……) 建立新客群。 新建立的客群會與現有客群一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
 <p>客群構成已與新的 Adobe Experience Platform「客群」選單完全整合，該選單可作為客群的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的洞察，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化客群標籤的治理控制項，以及管理啟用工作流程的客群生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理客群。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>使用<strong>瀏覽</strong>標籤來存取所有歷程的清單。</li></ul>
 <p>此功能可在公開測試版的所有歷程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3 雲端儲存空間、 Azure Blob、Azure Data Lake Gen 2、資料登陸區、Google 雲端儲存空間、SFTP。</p>
 <p><strong>注意</strong> - 此功能目前為測試版，所有 Adobe Journey Optimizer 使用者都能使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -975,7 +975,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 提供一套資料整理功能，可讓您以程式化方式刪除消費者記錄與資料集，管理儲存的資料。 此功能現已可供 Adobe Journey Optimizer 使用。 </p>
+<p>Adobe Experience Platform 提供一套資料保健功能，可讓您以程式化方式刪除消費者記錄與資料集，管理儲存的資料。 此功能現已可供 Adobe Journey Optimizer 使用。 </p>
 <p>您可管理資料存放區，確保資訊以預期方式使用、在需要修正錯誤資料時更新，以及在組織原則認為有需要時刪除。</p>
 <p><strong>注意</strong> - 資料整理功能目前僅適用已購買 <strong>Healthcare Shield</strong> 與<strong>隱私權與安全性防護</strong>附加產品的組織。</p><p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細文件</a>。
 </td>

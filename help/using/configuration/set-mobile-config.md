@@ -9,10 +9,25 @@ role: Admin
 level: Experienced
 keywords: 管道, 表面, 技術, 參數, 最佳化工具
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,29 +44,29 @@ ht-degree: 83%
 >abstract="將 Adobe Experience Platform Assurance 嵌入此工作流程中，可協助您檢查 SDK 實作，以及模擬和驗證應用程式事件。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance 概觀"
 
-**引導式管道設定**&#x200B;是Adobe Journey Optimizer中簡化的工作流程，可協助您快速設定行動裝置和網頁行銷管道。 它位於&#x200B;**管理** > **管道** > **管道設定**&#x200B;之下，並會在Adobe Experience Platform、Journey Optimizer和資料收集中自動建立基本資源，例如標籤屬性、資料串流和管道設定。 您不必手動設定每個元件，而是依照引導式流程為您設定所有內容，讓行銷團隊可以開始建立應用程式內訊息、推播通知和Web體驗，而不需延遲。
+**引導式管道設定**&#x200B;是 Adobe Journey Optimizer 中簡化的工作流程，可協助您快速設定行動裝置和網頁行銷管道。 它位於&#x200B;**管理** > **管道** > **管道設定**&#x200B;之下，並會在 Adobe Experience Platform、Journey Optimizer 和資料彙集中自動建立基本資源，例如標記屬性、資料串流和管道設定。 您不必手動設定每個元件，而是依照引導式流程為您設定所有內容，讓行銷團隊可以開始建立無延遲的應用程式內訊息、推播通知和網頁體驗。
 
-「引導式管道設定」支援下列平台和管道。
+引導式管道設定支援下列平台與管道。
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**SDK：** Swift by Apple
+**SDK：** Apple 的 Swift
 
-**頻道：**&#x200B;行動應用程式內、行動推播訊息
+**管道：**&#x200B;行動應用程式內、行動推播訊息
 
 >[!TAB Android]
 
 **SDK：** Kotlin
 
-**頻道：**&#x200B;行動應用程式內、行動推播訊息
+**管道：**&#x200B;行動應用程式內、行動推播訊息
 
 >[!TAB 網頁]
 
 **SDK：** Javascript
 
-**管道：** Web基本
+**管道：** Web Basic
 
 >[!ENDTABS]
 
@@ -118,13 +133,13 @@ ht-degree: 83%
 
 >[!BEGINTABS]
 
->[!TAB 適用於iOS的] 
+>[!TAB 對於 iOS]
 
 * Mobile Core v5.2.0 或更新版本
 * Adobe Journey Optimizer v5.1.1 或更新版本
 
 
->[!TAB 適用於Android的] 
+>[!TAB 對於 Android]
 
 * Mobile Core v3.1.0 或更新版本
 * Adobe Journey Optimizer v3.1.0 或更新版本
@@ -137,7 +152,7 @@ ht-degree: 83%
 
 此設定簡化行銷管道的快速設定，使所有基本資源都能隨時在 Experience Platform、Journey Optimizer 和資料彙集應用程式中使用。 這可讓行銷團隊快速開始建立行銷活動與歷程。 以下是進行引導式管道設定時自動產生和設定的資源清單。
 
-瀏覽下列標籤以存取自動產生之所有資源的完整清單：
+瀏覽下列標籤，存取所有自動產生資源的完整清單：
 
 >[!BEGINTABS]
 
@@ -195,7 +210,7 @@ ht-degree: 83%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料流</p>
+  <p>使用服務的資料串流</p>
   </td>
   </tr>
   <tr>
@@ -290,7 +305,7 @@ ht-degree: 83%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料流</p>
+  <p>使用服務的資料串流</p>
   </td>
   </tr>
   <tr>
@@ -385,7 +400,7 @@ ht-degree: 83%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料流</p>
+  <p>使用服務的資料串流</p>
   </td>
   </tr>
   <tr>

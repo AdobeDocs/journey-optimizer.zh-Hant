@@ -9,18 +9,41 @@ role: Developer, Admin
 level: Experienced
 keywords: 原則、治理、平台、Healthcare Shield、同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '1244'
+TQID: https://experienceleague.adobe.com/jEYKbk8AUhJooMOr0x-0TbLfmvGdnDD6mosJpTXU6i8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 1367
 ht-degree: 100%
 
 ---
 
 # 使用同意原則 {#consent-management}
 
-您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。這些原則是 Adobe Experience Platform 規則，定義您可以對資料執行哪些行銷動作。
+您的資料可能受貴組織或法律法規所定義的使用限制所約束。 因此，請務必確保您在 Journey Optimizer 的資料操作符合[資料使用原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant){target="_blank"}。 這些原則是 Adobe Experience Platform 規則，定義您可以對資料執行哪些行銷動作。
 
-預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可在 Experience Platform 建立同意原則，以排除尚未同意接收指定管道通訊的客戶。如果沒有自訂原則，則套用預設原則。
+預設情況下，如果輪廓選擇不接收您的通訊，則相應的輪廓將被排除在後續傳送之外。 您可以建立覆寫此預設邏輯的&#x200B;**同意原則**。 例如，您可在 Experience Platform 建立同意原則，以排除尚未同意接收指定管道通訊的客戶。 如果沒有自訂原則，則套用預設原則。
 
 >[!IMPORTANT]
 >
@@ -28,26 +51,26 @@ ht-degree: 100%
 
 套用同意原則的主要步驟如下：
 
-1. 在 Adobe Experience Platform 中，建立同意原則與相關聯的行銷動作。[了解如何建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
+1. 在 Adobe Experience Platform 中，建立同意原則與相關聯的行銷動作。 [了解如何建立同意原則](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#consent-policy){target="_blank"}
 
 2. 使用管道設定或歷程自訂動作，在 Adobe Journey Optimizer 中套用同意原則。
 
-   * 建立管道設定與相關聯的行銷動作。使用管道設定建立通訊時，它會繼承已建立關聯的行銷動作，並套用 Adobe Experience Platform 中定義的對應同意原則。[了解如何透過管道設定運用同意原則](#surface-marketing-actions)
+   * 建立管道設定與相關聯的行銷動作。 使用管道設定建立通訊時，它會繼承已建立關聯的行銷動作，並套用 Adobe Experience Platform 中定義的對應同意原則。 [了解如何透過管道設定運用同意原則](#surface-marketing-actions)
 
    * 在歷程層級，您可以：
 
-      * 在設定自訂動作時，將管道與行銷動作與自訂動作建立關聯。[了解如何在設定自訂動作時運用同意原則](#consent-custom-action)
-      * 在歷程中新增自訂動作時，定義其他行銷動作。[了解如何在歷程中新增自訂動作時運用同意原則](#consent-journey)
+      * 在設定自訂動作時，將管道與行銷動作與自訂動作建立關聯。 [了解如何在設定自訂動作時運用同意原則](#consent-custom-action)
+      * 在歷程中新增自訂動作時，定義其他行銷動作。 [了解如何在歷程中新增自訂動作時運用同意原則](#consent-journey)
 
 ## 透過管道設定運用同意原則 {#surface-marketing-actions}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。 您可以在上線時將此預設值修改為[此處](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=zh-Hant#choice-values){target="_blank"}列出的可能數值之一。
 
-若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。[了解有關行銷活動的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
+若要修改同意欄位值，您可以建立自訂同意原則，在其中定義行銷動作以及執行該動作的條件。 [了解有關行銷活動的更多資訊](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=zh-Hant#marketing-actions){target="_blank"}
 
 例如，如果您想要建立同意原則以僅針對同意接收電子郵件通訊的輪廓，請依照下列步驟操作。
 
-1. 確保您的組織已購買 Adobe **Healthcare Shield** 或者 **Privacy and Security Shield** 附加產品。[了解更多](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hant){target="_blank"}
+1. 確保您的組織已購買 Adobe **Healthcare Shield** 或者 **Privacy and Security Shield** 附加產品。 [了解更多](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=zh-Hant){target="_blank"}
 
 1. 在 Adobe Experience Platform 中，建立自訂原則 (從&#x200B;**[!UICONTROL 隱私]**>**[!UICONTROL 政策]**&#x200B;選單)。 [了解作法](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-policy){target="_blank"}
 
@@ -61,7 +84,7 @@ ht-degree: 100%
 
       >[!NOTE]
       >
-      >Adobe 提供的開箱即用的核心行銷活動列於[此表格](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/policies/overview#core-actions){target="_blank"}。[本節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}列出建立自訂行銷動作的步驟。
+      >Adobe 提供的開箱即用的核心行銷活動列於[此表格](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/policies/overview#core-actions){target="_blank"}。 [本節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#create-marketing-action){target="_blank"}列出建立自訂行銷動作的步驟。
 
    1. 選擇套用的行銷動作時會發生的情況。 在此範例中，選擇&#x200B;**[!UICONTROL 電子郵件行銷同意書]**。
 
@@ -69,7 +92,7 @@ ht-degree: 100%
 
 1. 儲存並[啟用](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=zh-Hant#enable){target="_blank"}這項原則。
 
-1. 在 Journey Optimizer 建立電子郵件管道設定。[了解作法](../configuration/channel-surfaces.md#create-channel-surface)
+1. 在 Journey Optimizer 建立電子郵件管道設定。 [了解作法](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. 在電子郵件設定詳細資料中，選擇&#x200B;**[!UICONTROL 電子郵件目標定位]**&#x200B;行銷動作。
 
@@ -77,7 +100,7 @@ ht-degree: 100%
 
 該行銷動作相關的所有同意原則都會自動利用，以尊重客戶的偏好設定。
 
-因此，在此範例中，任何[電子郵件](../email/create-email.md)在活動或歷程中使用該設定，只會傳送給同意接收您電子郵件的輪廓。不同意接收電子郵件通訊的輪廓被排除在外。
+因此，在此範例中，任何[電子郵件](../email/create-email.md)在活動或歷程中使用該設定，只會傳送給同意接收您電子郵件的輪廓。 不同意接收電子郵件通訊的輪廓被排除在外。
 
 ## 透過自訂動作運用同意政策 {#journey-custom-actions}
 
@@ -109,11 +132,11 @@ There are two types of latency regarding the use of consent policies:
 
 在設定自訂動作時，可利用兩個欄位進行同意管理。
 
-**管道**&#x200B;欄位可讓您選取與此自訂動作相關的管道。它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。 
+**管道**&#x200B;欄位可讓您選取與此自訂動作相關的管道。 它會以所選頻道的預設行銷動作，預先填入&#x200B;**必要的行銷動作**&#x200B;欄位。 如果您選取&#x200B;**其他**，預設情況下不會定義任何行銷動作。
 
 ![](assets/consent1.png)
 
-此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您利用該自訂動作傳送電子郵件，則可選取&#x200B;**電子郵件目標定位**。當使用於歷程時，會擷取並運用與該行銷動作相關聯的所有同意原則。已選取預設行銷動作，但您可按一下向下箭頭，從清單選取任何可用的行銷動作。
+此&#x200B;**必要的行銷動作**&#x200B;可讓您定義與自訂動作相關的行銷動作。 例如，如果您利用該自訂動作傳送電子郵件，則可選取&#x200B;**電子郵件目標定位**。 當使用於歷程時，會擷取並運用與該行銷動作相關聯的所有同意原則。 已選取預設行銷動作，但您可按一下向下箭頭，從清單選取任何可用的行銷動作。
 
 ![](assets/consent2.png)
 
@@ -123,13 +146,13 @@ There are two types of latency regarding the use of consent policies:
 
 ### 在歷程中新增自訂動作時運用同意原則 {#consent-journey}
 
-當新增自訂動作至歷程時，您可利用數個選項管理同意。按一下&#x200B;**顯示唯讀欄位**&#x200B;以顯示所有參數。
+當新增自訂動作至歷程時，您可利用數個選項管理同意。 按一下&#x200B;**顯示唯讀欄位**&#x200B;以顯示所有參數。
 
 此&#x200B;**頻道**&#x200B;與在設定自訂動作時定義的&#x200B;**必要的行銷動作**，會顯示在畫面頂端。 您無法修改這些欄位。
 
 ![](assets/consent4.png)
 
-您可以定義&#x200B;**其他行銷動作**&#x200B;來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作 (通常是頻道專用的) 之外，您還可以定義其他行銷動作，這些動作為此特定歷程中的自訂動作專用。 例如：運動訓練通訊、電子報、健身通訊等。 所需的行銷動作和其他行銷動作皆適用。
+您可以定義&#x200B;**其他行銷動作**&#x200B;來設定自訂動作類型。 這可讓您定義此歷程中自訂動作的用途。 除了必要的行銷動作 (通常是頻道專用的) 之外，您還可以定義其他行銷動作，這些動作為此特定歷程中的自訂動作專用。 例如：運動訓練通訊、電子報、健身通訊等。必要的行銷動作和其他行銷動作均適用。
 
 ![](assets/consent3.png)
 
