@@ -9,12 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1441
@@ -58,7 +68,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表中，按一下「共用&#x200B;**[!UICONTROL 」]**&#x200B;並選取「下載CSV」****&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表中，按一下「共用&#x200B;**[!UICONTROL 」]**&#x200B;並選取「下載CSV」**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_cja_csv.png)
 
@@ -68,7 +78,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 從您的報表中，按一下[共用]****&#x200B;並選取[下載PDF]****。
+1. 從您的報表中，按一下[共用]&#x200B;**&#x200B;**&#x200B;並選取[下載PDF]&#x200B;**&#x200B;**。
 
    ![](assets/export_cja_pdf.png)
 
@@ -87,7 +97,7 @@ ht-degree: 2%
 
 **排程匯出**&#x200B;可讓您每週、每月或每年自動傳送最多10個報告。 您也可以透過更新、編輯、取消或刪除任何排程匯出的選項，輕鬆管理排程報告。
 
-1. 在報表中，按一下[共用]，然後選取[排程匯出]。********。
+1. 在報表中，按一下[共用]，然後選取[排程匯出]。**&#x200B;**&#x200B;**&#x200B;**。
 
    ![](assets/export-schedule-1.png)
 
@@ -117,7 +127,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 依排程傳送]**。
 
-1. 若要編輯先前建立的排程匯出，請按一下[共用] ]**，然後選取[管理排程]****。**[!UICONTROL 
+1. 若要編輯先前建立的排程匯出，請按一下[共用] **，然後選取[管理排程]**&#x200B;**。**
 
    ![](assets/export-schedule-3.png)
 
@@ -154,7 +164,7 @@ ht-degree: 2%
 
 1. 您可以視需要重新排序元件。
 
-1. 當您對設定感到滿意時，請按一下[套用] ]**完成新量度。**[!UICONTROL 
+1. 當您對設定感到滿意時，請按一下[套用] **完成新量度。**
 
 1. 您的新量度會出現在報表中的原始量度旁。
 

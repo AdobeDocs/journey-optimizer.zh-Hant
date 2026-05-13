@@ -6,10 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 477
@@ -29,11 +34,11 @@ ht-degree: 0%
 
 * **存在使用中的核准原則**
 
-   * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
-如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
+   * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。
+如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
-   * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
-如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
+   * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。
+如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
 ## 傳送核准請求
 
@@ -43,7 +48,7 @@ ht-degree: 0%
 
 * 如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕後，沒有任何核准原則適用於行銷活動或歷程，則行銷活動或歷程將會自動核准並啟動或發佈。
 
-**[!UICONTROL 要求核准]**&#x200B;窗格開啟。 視需要提供訊息給核准者，然後按一下[傳送]**[!UICONTROL 以提交您的要求。]**
+**[!UICONTROL 要求核准]**&#x200B;窗格開啟。 視需要提供訊息給核准者，然後按一下[傳送]&#x200B;**[!UICONTROL 以提交您的要求。]**
 
 ![核准要求對話方塊](assets/approval-request.png)
 

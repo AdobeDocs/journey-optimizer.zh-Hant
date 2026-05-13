@@ -9,12 +9,32 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2971
@@ -47,7 +67,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -184,7 +204,7 @@ Journey Optimizer提供兩種系統警報類別：
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
 
 >[!NOTE]
 >
@@ -385,7 +405,7 @@ Journey Optimizer提供兩種系統警報類別：
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

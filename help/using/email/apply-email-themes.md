@@ -11,12 +11,23 @@ level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1748
@@ -125,7 +136,7 @@ ht-degree: 3%
 
    ![](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -267,4 +278,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)

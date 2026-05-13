@@ -9,9 +9,14 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1763
@@ -96,7 +101,7 @@ ht-degree: 0%
 
 +++ 計算詳細資料
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) |資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值**𝛍 i**的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) |資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍 i**&#x200B;的可能性有多大。
 
 從貝葉斯定理：
 
