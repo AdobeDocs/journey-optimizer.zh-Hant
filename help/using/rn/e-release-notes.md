@@ -9,12 +9,321 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e5f5922ae2c7afaeab2ebdccae564471579faa75
 workflow-type: tm+mt
-source-wordcount: 12
-ht-degree: 100%
+source-wordcount: 1730
+ht-degree: 12%
 
 ---
+
+
+## 2026年5月發行前注意事項 {#may-26-rn}
+
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於發行說明。
+
+另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
+
+**發行日期**： 2026年5月19至20日
+
+### 新功能 {#may-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journeys運算式代理程式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在直接在Journey進階運算式編輯器中加入運算式助理。 它由AI提供技術支援，可幫助您從純語言說明產生新的運算式。</p>
+<p>此功能以公開 Beta 版的形式提供給所有客戶。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>直接郵件通道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>單次歷程的自動完成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>一旦最後一個作用中的設定檔結束，非循環讀取對象歷程現在會自動關閉。 以前，這些歷程保持上線狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 經過這項改善後，單次歷程在執行完成時就會轉換為已關閉狀態，讓您的歷程清查保持準確，無需手動干預。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>從結束活動觸發協調的行銷活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接從另一個已協調行銷活動的「結束」活動觸發已協調行銷活動。 您可以選擇將引數傳遞至目標促銷活動。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程路徑最佳化 — 目標定位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>使用新的「最佳化」節點來鎖定特定對象，以決定符合以業務為中心的KPI的最佳途徑。</p>
+<p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
+<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程仲裁 — 排名公式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用公式，根據客戶設定檔屬性和情境式因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>使用Adobe Experience Manager的內容片段</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以像管理原生Adobe Experience Manager和運算式片段一樣輕鬆管理HTML內容片段。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager存放庫設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>現在，Adobe Journey Optimizer存取Adobe Experience Manager內容的方式有了彈性。 此版本引進了切換來源存放庫的功能，以存放您的歷程和行銷活動中使用的內容片段。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS傳訊</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>為了支援新增RCS，已更新行動訊息工作流程。 SMS、MMS和RCS現在可在Adobe Journey Optimizer中方便地分組到單一行動訊息頻道下。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>從協調行銷活動中的檔案鎖定目標</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以使用平面檔案作為協調行銷活動的對象來源，而無需先將檔案擷取至Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
+<p>推出日期： 2026年5月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善 {#may-26-improv}
+
+以下列舉部分發布內容附上的改良功能。
+
+#### AI
+
+* **Journey Agent — 分析** - Journey Agent現在包含新的分析技能。 導覽至Journey首頁畫面時，右側會出現新的AI建議面板，其中顯示具有可操作深入分析的卡片。 按一下卡片會直接將您導向到相關歷程，並開啟右側面板，其中包含協助最佳化歷程效能的詳細建議。
+
+  檔案JIRA工作： [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+
+  推出日期： 2026年5月19日
+
+#### 行銷活動
+
+* **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
+
+  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+  檔案JIRA工作： [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
+
+  推出日期： 2026年5月19日
+
+* **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱，或直接從行銷活動詳細目錄訂閱特定行銷活動。
+
+  檔案JIRA工作： [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
+
+  推出日期： 2026年5月19日
+
+* **覆寫行銷活動中的預設執行欄位** — 先前可在歷程層級使用，您現在可以覆寫行銷活動引數中電子郵件、簡訊和WhatsApp傳送的預設執行欄位全域設定。
+
+  檔案JIRA工作： [DOCAC-14718](https://jira.corp.adobe.com/browse/DOCAC-14718)
+
+  推出日期： 2026年5月19日
+
+#### 設定
+
+* **高輸送量推播的效能附加元件** - API觸發的行銷活動中有新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 請聯絡您的 Adobe 代表以取得更多資訊。
+
+  檔案JIRA工作： [DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)
+
+  推出日期： 2026年5月19日
+
+#### 決策
+
+* **決策中的Adobe Experience Manager內容片段** — 您現在可以將Adobe Experience Manager內容片段對應至決策中的決策專案，並在決策政策內運用這些片段，以便在適當的時間將適當的片段提供給適當的客戶。
+
+  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+  檔案JIRA工作： [DOCAC-14529](https://jira.corp.adobe.com/browse/DOCAC-14529)
+
+  推出日期： 2026年5月19日
+
+#### 電子郵件設計工具
+
+* **可編輯片段欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
+
+  檔案JIRA工作： [DOCAC-14715](https://jira.corp.adobe.com/browse/DOCAC-14715)
+
+  推出日期： 2026年5月19日
+
+* **限製片段中的繼承中斷** — 現在當您建立或編輯片段時，可以選擇是否可中斷繼承，讓您可以建立永遠無法在電子郵件中使用時解除鎖定的片段。 這有助於針對集中管理或規範的內容區塊執行治理、維持品牌一致性，以及支援法規遵循需求。
+
+  檔案JIRA工作： [DOCAC-14716](https://jira.corp.adobe.com/browse/DOCAC-14716)
+
+  推出日期： 2026年5月19日
+
+* **登入頁面中的內容鎖定** — 您現在可以鎖定登入頁面範本的部分，類似於電子郵件範本的鎖定控制項。 您可以定義哪些結構、元件和屬性可編輯 — 包括透過限制允許的元件數量和/或型別來鎖定設計、內容、位置和限制內容的選項。
+
+  檔案JIRA工作： [DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
+
+  推出日期： 2026年5月19日
+
+* **在Unified Shell中傳送Designer電子郵件** — 電子郵件Designer現在已整合至Journey Optimizer Unified Shell介面，而非以全熒幕直接啟動。
+
+  檔案JIRA工作： [DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
+
+  推出日期： 2026年5月19日
+
+#### 歷程
+
+* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將subType： &quot;certificateCredential&quot;新增到自訂授權設定中，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Azure Entra ID）而設計。
+
+  檔案JIRA工作： [DOCAC-14543](https://jira.corp.adobe.com/browse/DOCAC-14543)
+
+  推出日期： 2026年5月19日
+
+* **外部對象的補充識別碼支援** — 歷程中的補充識別碼現在支援外部對象，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。 您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
+
+  檔案JIRA工作： [DOCAC-14541](https://jira.corp.adobe.com/browse/DOCAC-14541)
+
+  推出日期： 2026年5月19日
+
+#### 協調的行銷活動
+
+* **在擴充活動中新增連結** — 在協調行銷活動的擴充活動中現在可以使用新增連結功能。 這可讓您在工作表格資料與現有的資料庫表格之間建立直接關係。
+
+  檔案JIRA工作： [DOCAC-14762](https://jira.corp.adobe.com/browse/DOCAC-14762)
+
+  推出日期： 2026年5月26日
+
+* **在個人化中重複套用擴充集合** — 已協調行銷活動中的個人化編輯器現在支援重複套用結構，以便從擴充活動重複套用集合。
+
+  檔案JIRA工作： [DOCAC-14703](https://jira.corp.adobe.com/browse/DOCAC-14703)
+
+  推出日期： 2026年5月28日
+
+#### 電子郵件
+
+* **收件者的電子郵件標頭個人化** — 您現在可以使用個人化引數覆寫全域管道設定，以自訂協調行銷活動層級的電子郵件標頭。
+
+  檔案JIRA工作： [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+  推出日期： 2026年5月29日
+
+#### 報告
+
+* **排除電子郵件和簡訊報告的機器人點按** — 現在提供新的預估量度，以協助篩選出電子郵件和簡訊報告中的非人類（機器人）互動。 這些包括預估點按率、點進率(CTR)和點進開啟率(CTOR)，提供更準確真實客戶參與情況的檢視。 現有量度維持不變，這些新量度可與目前報表搭配使用，以改善分析。
+
+  檔案JIRA工作： [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
+
+  推出日期： 2026年5月19日
 
 <!--
 # Pre-release notes {#e-release-notes}
