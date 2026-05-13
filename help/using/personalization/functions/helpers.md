@@ -1,19 +1,19 @@
 ---
-title: 輔助程式
-description: 輔助程式
+title: 協助程式
+description: 協助程式
 feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 4%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
-# 輔助程式 {#gs-helpers}
+# 協助程式 {#gs-helpers}
 
 ## 預設遞補值{#default-value}
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-在此範例中，如果此設定檔的`there`屬性為空白或Null，則會顯示值`firstName`。
+在此範例中，如果此設定檔的`firstName`屬性為空白或Null，則會顯示值`there`。
 
 ## 條件{#if-function}
 
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為```{{#each ArrayName}}``` YourContent `{{/each}}`
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -216,13 +216,37 @@ Some edu specific content
 {{sum}}
 ```
 
+## Url {#url}
+
+`url`協助程式可用來追蹤連結、縮短URL並在您的SMS訊息內容中插入[深層連結](../../email/deeplinks.md)。
+
+**語法**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**引數**
+
+| 引數 | 說明 |
+|---|---|
+| `originalUrl` | 要縮短的URL。 |
+| `type` | 連結型別。 使用`DEEPLINK`在行動應用程式中開啟特定熒幕。 |
+| `action` | 追蹤動作。 使用`CLICK`追蹤連結上的點按。 |
+
+**範例**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
+```
+
 ## 資料集查詢 {#dataset-lookup}
 
 >[!AVAILABILITY]
 >
 >此功能目前以有限可用性版本的形式提供給所有客戶。
 >
->目前，`datasetLookup`協助程式函式可用於有限客戶集的運算式片段中。 若想取得存取權，請聯絡您的 Adobe 代表。
+>目前，`datasetLookup`協助程式函式可用於有限客戶集的運算式片段中。 若要取得存取權，請聯絡您的Adobe代表。
 
 `datasetLookup`協助程式會在個人化期間從Adobe Experience Platform記錄資料集中擷取資料，因此您可以使用未儲存在設定檔或事件裝載中的欄位值。
 
@@ -307,7 +331,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能在「有限可用性」中提供。 請聯絡您的 Adobe 代表以取得存取權。
+>此功能在「有限可用性」中提供。 請聯絡您的Adobe代表以取得存取權。
 >
 >此功能目前僅適用於電子郵件頻道。
 
