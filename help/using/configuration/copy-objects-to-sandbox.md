@@ -9,22 +9,49 @@ role: User, Developer
 level: Experienced
 keywords: 沙箱，歷程，複製，環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
+TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 2%
+source-wordcount: 2371
+ht-degree: 0%
 
 ---
 
 # 將物件匯出至另一個沙箱 {#copy-to-sandbox}
 
-您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、行銷活動、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
+您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、行銷活動、自訂動作、內容範本或片段。 封裝可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 
 本頁說明Journey Optimizer內容中的沙箱工具使用案例。 如需功能本身的詳細資訊，請參閱Adobe Experience Platform [沙箱工具指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=zh-Hant#abobe-journey-optimizer-objects){target="_blank"}。
 
 >[!NOTE]
 >
->此功能需要&#x200B;**沙箱管理**&#x200B;功能的下列許可權：管理沙箱（或檢視沙箱）和管理套件。 [了解更多](../administration/ootb-permissions.md)
+>此功能需要&#x200B;**沙箱管理**&#x200B;功能的下列許可權：管理沙箱（或檢視沙箱）和管理套件。 [進一步瞭解](../administration/ootb-permissions.md)
 
 復製程式會透過來源沙箱和目標沙箱之間的套件匯出和匯入進行。 以下是從一個沙箱複製歷程到另一個沙箱的一般步驟：
 
@@ -173,7 +200,7 @@ Journey Optimizer允許將歷程、行銷活動（動作、API觸發和組織式
 
 ## 將物件新增為封裝 {#export}
 
-若要將物件複製到另一個沙箱，您首先需要將其新增為來源沙箱中的套件。 請依照下列步驟操作：
+若要將物件複製到另一個沙箱，您首先需要將其新增為來源沙箱中的套件。 請依照下列步驟執行：
 
 1. 導覽至儲存第一個要複製之物件的詳細目錄，例如歷程清單。 按一下&#x200B;**更多動作**&#x200B;圖示（物件名稱旁邊的三個點），然後按一下&#x200B;**新增到封裝**。
 
@@ -206,7 +233,7 @@ Journey Optimizer允許將歷程、行銷活動（動作、API觸發和組織式
 
 ## 將套件匯入目標沙箱中 {#import}
 
-發佈套件後，您需要將它匯入目標沙箱。 請依照下列步驟操作：
+發佈套件後，您需要將它匯入目標沙箱。 請依照下列步驟執行：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 沙箱]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤。
 
@@ -216,7 +243,7 @@ Journey Optimizer允許將歷程、行銷活動（動作、API觸發和組織式
 
    >[!NOTE]
    >
-   >只能使用您的組織內的沙箱。
+   >只有組織內的沙箱可用。
 
 1. 在&#x200B;**目標沙箱**&#x200B;欄位中，檢查是否已選取正確的目標沙箱，並從&#x200B;**[!UICONTROL 封裝名稱]**&#x200B;下拉式清單中選取要匯入的封裝。 按一下&#x200B;**下一步**。
 

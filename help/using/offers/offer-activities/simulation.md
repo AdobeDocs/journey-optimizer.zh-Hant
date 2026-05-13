@@ -10,10 +10,27 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/8ukemQq3fMq5LCEGdkLlHYj0iZXatFD32-BIeAPYTGA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 15%
+source-wordcount: 912
+ht-degree: 0%
 
 ---
 
@@ -21,12 +38,12 @@ ht-degree: 15%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
->title="模擬報價決策"
->abstract="模擬功能可讓您模擬出特定產品建議放置環境有哪些產品建議會傳送至測試設定檔。 這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。"
+>title="模擬優惠決定"
+>abstract="模擬可讓您模擬將哪些優惠傳遞至指定位置的測試設定檔。 這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。"
 
 ## 關於模擬 {#about-simulation}
 
@@ -34,7 +51,7 @@ ht-degree: 15%
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-這讓您能夠在不影響目標收件者的情況下，測試和改善各種版本的報價。
+這可讓您測試和調整各種版本的優惠方案，而不會對目標收件者造成影響。
 
 >[!NOTE]
 >
@@ -52,12 +69,12 @@ ht-degree: 15%
 ➡️ [Discover this feature in video](#video)
 -->
 
-## 選取測試輪廓 {#select-test-profiles}
+## 選取測試設定檔 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="新增測試設定檔"
->abstract="您可以透過選取身分識別命名空間和相對應的身分識別值來新增測試設定檔。 您必須擁有已可供使用的測試設定檔才能將它們用於模擬。"
+>abstract="您可以透過選取身分名稱空間和對應的身分值來新增測試設定檔。 您必須有可用的測試設定檔，才能將其用於模擬。"
 
 首先，您需要選取要用於模擬的測試設定檔。
 
@@ -190,7 +207,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 按一下&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;以顯示請求和回應裝載。 [了解更多](#view-code)
+1. 按一下&#x200B;**[!UICONTROL 檢視代碼]**&#x200B;以顯示請求和回應裝載。 [進一步瞭解](#view-code)
 
 1. 從清單中選取另一個設定檔，以顯示不同測試設定檔的優惠決定結果。
 

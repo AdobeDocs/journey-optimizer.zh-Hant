@@ -9,9 +9,23 @@ role: User
 level: Beginner
 keywords: stock，圖片，整合，像片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 597
 ht-degree: 13%
 
 ---
@@ -24,7 +38,7 @@ ht-degree: 13%
 
 [Adobe Stock](https://helpx.adobe.com/tw/stock/get-started.html){target="_blank"}可讓您存取數百萬張高品質、精選且免版稅的像片、影片、插圖及向量圖形。 您可以選擇購買信用套件以授權資產，或僅購買一個標準或延長授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
 
-使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
+使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。 此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
 
 ## 權限{#stock-permissions}
 

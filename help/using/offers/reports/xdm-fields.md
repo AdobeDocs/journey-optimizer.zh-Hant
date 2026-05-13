@@ -9,10 +9,21 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/TLkfs8ADogMCSIC3CS24Hzao-BhoxxIBp0GGw0ufg-o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 69%
+source-wordcount: 127
+ht-degree: 68%
 
 ---
 
@@ -20,7 +31,7 @@ ht-degree: 69%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 您可以直接從包含決定管理事件的資料集存取DecisioningEvents XDM架構。
 
@@ -34,5 +45,5 @@ ht-degree: 69%
 
 有關如何使用 XDM 結構描述和欄位的詳細資訊，請參閱體驗資料模型文件：
 
-* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
-* [探索 XDM 資源](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=zh-Hant)
+* [XDM系統概覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
+* [探索XDM資源](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=zh-Hant)

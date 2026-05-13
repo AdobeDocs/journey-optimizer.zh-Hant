@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 在產品建議中新增聲明
+title: 將代表新增至優惠方案
 description: 瞭解如何將代表新增至您的優惠
 badge: label="舊版" type="Informative"
 feature: Decision Management
@@ -10,23 +10,38 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lu90DQdZQ6ECl4WCWqJ8aIbVmR63xScb3K0dLNh-hNc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 6%
+source-wordcount: 900
+ht-degree: 0%
 
 ---
 
-# 在產品建議中新增聲明 {#add-representations}
+# 將代表新增至優惠方案 {#add-representations}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示方式"
->abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。 產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。"
+>abstract="新增代表以定義訊息中顯示優惠的位置。 優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。"
 
 選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、在段落中作為文字、在HTML區塊中等。優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。
 

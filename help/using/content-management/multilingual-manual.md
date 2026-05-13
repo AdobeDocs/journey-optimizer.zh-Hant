@@ -7,12 +7,33 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: 開始使用、開始、內容、實驗
+keywords: 開始使用，開始，內容，實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 2%
+source-wordcount: 965
+ht-degree: 0%
 
 ---
 
@@ -155,7 +176,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [了解更多](#language-settings)
+1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [進一步瞭解](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
@@ -189,7 +210,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的多語言行銷活動或歷程。 [了解更多](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的多語言行銷活動或歷程。 [進一步瞭解](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

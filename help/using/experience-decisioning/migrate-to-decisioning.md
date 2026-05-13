@@ -1,19 +1,45 @@
 ---
-title: 移轉至Decisioning的好處
+title: 移轉至 Decisioning 的優點
 description: 瞭解從決定管理移轉至決定的好處
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 2%
+source-wordcount: 1296
+ht-degree: 4%
 
 ---
 
-# 移轉至Decisioning的好處 {#migrate-to-decisioning}
+# 移轉至 Decisioning 的優點 {#migrate-to-decisioning}
 
 ## 什麼是決策？ {#what-is-decisioning}
 
@@ -67,7 +93,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道： [程式碼型體驗](../code-based/get-started-code-based.md)、[電子郵件](../email/get-started-email.md) （可用性限制）、[簡訊](../sms/get-started-sms.md)及[推播通知](../push/get-started-push.md)。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 

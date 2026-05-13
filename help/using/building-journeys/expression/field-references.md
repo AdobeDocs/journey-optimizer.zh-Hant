@@ -9,9 +9,20 @@ level: Experienced
 keywords: 歷程，欄位，運算式，事件
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 557
 ht-degree: 2%
 
 ---
@@ -24,7 +35,7 @@ ht-degree: 2%
 
 * 欄位以數字字元開頭
 * 欄位以「 — 」字元開頭
-* 欄位包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_&#x200B;以外的任何專案
+* 欄位包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_以外的任何專案
 
 例如，如果您的欄位是&#x200B;_3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -59,7 +70,7 @@ ht-degree: 2%
 >
 >欄位型別和預設值必須相同。 例如，`@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}`無效，因為預設值是整數，而預期值應為字串。
 
-範例：
+範例:
 
 ```json
 // for an event 'OrderEvent' having the following payload:

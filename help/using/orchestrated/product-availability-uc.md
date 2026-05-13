@@ -5,10 +5,23 @@ title: 通知使用者產品可用性
 description: 通知使用者產品可用性
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: a3b5ff92-fe26-41ad-ad12-b346025e9e0f
+TQID: https://experienceleague.adobe.com/OOuzKAv-SCDhIxYSdrrQhtBI8jM4VevcpNj2z0pLUuQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 3%
+source-wordcount: 391
+ht-degree: 7%
 
 ---
 
@@ -63,4 +76,3 @@ ht-degree: 3%
 1. 在您的行銷活動經過測試且準備就緒後，按一下「**[!UICONTROL 發佈]**」，讓行銷活動上線。
 
 透過這項精心安排的行銷活動，客戶會收到其每個願望清單專案的個別電子郵件。 每則訊息都會傳送至與該願望清單相關聯的特定電子郵件地址，且會從該特定願望清單專案的詳細資訊中擷取個人化內容。
-

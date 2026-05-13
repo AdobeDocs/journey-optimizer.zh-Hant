@@ -9,10 +9,24 @@ role: User
 level: Intermediate
 hide: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/NBJkyh9TCAPxD0u3EpwaZth7-ePjEWdg2roQ7J2-RuY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: 663
+ht-degree: 0%
 
 ---
 
@@ -20,7 +34,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報告]**，以存取您的即時活動行銷活動報告。 [了解更多](report-gs-cja.md)
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報告]**，以存取您的即時活動行銷活動報告。 [進一步瞭解](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -127,7 +141,7 @@ GET /im/executions/audience/{executionId}
 
 **[!UICONTROL 錯誤原因]**&#x200B;表格可讓您識別在Live活動傳送程式期間發生的特定錯誤，協助徹底分析遇到的任何問題。
 
-## 排除原因 {#excluded-reasons}
+## 排除的原因 {#excluded-reasons}
 
 ![](assets/excluded-activity.png)
 

@@ -9,9 +9,27 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: 917
 ht-degree: 29%
 
 ---
@@ -24,7 +42,7 @@ ht-degree: 29%
 >abstract="資料來源設定一律會由技術使用者執行。 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、動作中的參數和個人化資料、自訂等待定義、自訂時區定義。"
 
 >[!TIP]
->Journey Optimizer資料管理的新手嗎？ 從[開始使用資料管理](../data/gs-data.md)概述開始，在設定資料來源之前，先瞭解結構描述、資料集、身分以及資料如何流動。
+>剛開始使用 Journey Optimizer 的資料管理？ 從[開始使用資料管理](../data/gs-data.md)概述開始，在設定資料來源之前，先瞭解結構描述、資料集、身分以及資料如何流動。
 
 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：
 

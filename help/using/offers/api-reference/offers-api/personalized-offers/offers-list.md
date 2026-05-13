@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 列出個人化產品建議
+title: 列出個人化優惠方案
 description: 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 feature: Decision Management, API
 badge: label="舊版" type="Informative"
@@ -10,19 +10,29 @@ role: Developer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/C-mqINvpBXkibO7Tl8VNg0iuufoXlpqEdij4kPkpQmo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 12%
+source-wordcount: 299
+ht-degree: 0%
 
 ---
 
-
-# 列出個人化產品建議 {#list-personalized-offers}
+# 列出個人化優惠方案 {#list-personalized-offers}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
@@ -35,7 +45,7 @@ ht-degree: 12%
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
 
-| 參數 | 說明 | 範例 |
+| 引數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 持續性API的端點路徑。 | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | 篩選結果的選用查詢引數。 | `limit=2` |
@@ -59,9 +69,9 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 
 分頁最常見的查詢引數包括：
 
-| 參數 | 說明 | 範例 |
+| 引數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
-| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`op`中有`[==,!=,<=,>=,<,>,~]`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | 選用的屬性篩選器： <ul><li>屬性會依AND作業分組。</li><li>引數可以重複如下：屬性={PROPERTY_EXPR}[&amp;屬性={PROPERTY_EXPR2}...]或屬性={PROPERTY_EXPR1}[，{PROPERTY_EXPR2}...]</li><li>屬性運算式的格式為`[ !]field[op]value`，在`[==,!=,<=,>=,<,>,~]`中有`op`，支援規則運算式。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | 依特定屬性排序結果。 在名稱前新增 — (orderby=-name)將會以降序順序(Z-A)依名稱排序專案。 路徑運算式採用點分隔路徑的形式。 此引數可以重複執行，如下所示： `orderby=field1[,-fields2,field3,...]` | `orderby=id`，`-name` |
 | `limit` | 限制傳回的版位數。 | `limit=5` |
 
@@ -187,7 +197,7 @@ GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-ty
 }
 ```
 
-同樣地，如果您不在第一頁，而且需要擷取個人化優惠方案的前一頁，請使用`href`中的`_links.prev`值。 向URL提出要求，以擷取前一組結果，如以下範例所示。
+同樣地，如果您不在第一頁，而且需要擷取個人化優惠方案的前一頁，請使用`_links.prev`中的`href`值。 向URL提出要求，以擷取前一組結果，如以下範例所示。
 
 **回應**
 

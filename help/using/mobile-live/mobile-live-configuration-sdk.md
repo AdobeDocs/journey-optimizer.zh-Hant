@@ -7,9 +7,22 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/3qQXyrzDwhvaMQt4gpg5g5Xty7uLXFkkSt9UNvHZYfU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -150,7 +163,7 @@ if #available(iOS 16.1, *) {
 
 ## 步驟4：建立即時活動Widget {#widgets}
 
-即時活動會透過Widget顯示。 You need to create a widget bundle and configuration:
+即時活動會透過Widget顯示。 您需要建立Widget套件組合和設定：
 
 **食品配送即時活動的範例：**
 
@@ -187,9 +200,9 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Step 5: start a live activity locally (optional) {#local}
+## 步驟5：在本機啟動已上線的活動（選用） {#local}
 
-While Journey Optimizer can remotely start Live activities, you can also start them locally:
+雖然Journey Optimizer可以從遠端啟動即時活動，但您也可以從本機啟動活動：
 
 **食品配送即時活動的範例：**
 
@@ -210,9 +223,9 @@ let activity = try Activity<FoodDeliveryLiveActivityAttributes>.request(
 )
 ```
 
-## Step 6: Add debug support (optional) {#debug}
+## 步驟6：新增偵錯支援（選用） {#debug}
 
-If needed, you can debug Live activity schemas in Adobe Assurance:
+如有需要，您可以在Adobe Assurance中偵錯即時活動結構描述：
 
 **食品配送即時活動的範例：**
 
@@ -233,13 +246,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 ## 其他資源
 
-For comprehensive SDK documentation and implementation details:
+如需全面的SDK檔案與實作詳細資料：
 
-* [Live activities Developer Guide](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [Live activities開發人員指南](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [API 參考](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference)
-* [Live activity Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
-* [Public Classes](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
+* [即時活動教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
+* [公用類別](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
 
 >[!TIP]
 >
->If you are experiencing issues with token registration, payload alignment, or Live activity delivery, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for detailed debugging guidance.
+>如果您遇到權杖註冊、裝載對齊或即時活動傳遞的問題，請參閱[疑難排解即時活動](troubleshoot-mobile-live.md)以取得詳細的偵錯指南。

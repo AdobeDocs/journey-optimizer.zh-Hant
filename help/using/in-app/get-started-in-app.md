@@ -7,18 +7,33 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '196'
+TQID: https://experienceleague.adobe.com/b139LQsPe3HwKe1O5cyBx4Nj4jpW3GXCFIVIWTAIlbg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 234
 ht-degree: 100%
 
 ---
 
 # 開始使用應用程式內頻道 {#gs-in-app}
 
-應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定興趣點。這些通知可用於不同的用途，例如推廣新功能、呈現優惠或協助使用者上線。 藉由善用應用程式內訊息，您可有效與客群進行互動，並引導他們關注應用程式的重要環節。
+應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定興趣點。 這些通知可用於不同的用途，例如推廣新功能、呈現優惠或協助使用者上線。 藉由善用應用程式內訊息，您可有效與客群進行互動，並引導他們關注應用程式的重要環節。
 
-使用 Journey Optimizer 建立應用程式內通知，並設定體驗選項，包括訊息版面及顯示、文字與按鈕選項。 
+使用 Journey Optimizer 建立應用程式內通知，並設定體驗選項，包括訊息版面及顯示、文字與按鈕選項。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -40,7 +55,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="不頻繁" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>設計您的應用程式內內容</strong></a>

@@ -1,17 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定 API 上限
+title: 設定API上限
 description: 瞭解如何使用上限API
 feature: Journeys, API
 role: Developer
 level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/004R6qxDnmHDaqIT7IJ1mm2yp-s6RvsJFeElaXwRg9A
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 8%
+source-wordcount: 761
+ht-degree: 0%
 
 ---
 
@@ -43,11 +57,11 @@ ht-degree: 8%
 
 此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
 
-一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
+下載並上傳至Postman後，您需要新增三個變數： `{JO_HOST}`、`{BASE_PATH}`和`{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
-* `{BASE_PATH}`：API 的進入點。
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
+* `{BASE_PATH}` ： API的進入點。
+* `{SANDBOX_NAME}` ：與將執行API作業的沙箱名稱對應的標頭&#x200B;**x-sandbox-name** （例如，「prod」）。 如需詳細資訊，請參閱[沙箱總覽](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 端點設定
 

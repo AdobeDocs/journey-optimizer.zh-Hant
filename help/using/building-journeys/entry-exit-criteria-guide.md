@@ -9,10 +9,35 @@ level: Intermediate
 keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳實務
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 0%
+source-wordcount: 1670
+ht-degree: 4%
 
 ---
 
@@ -100,15 +125,15 @@ ht-degree: 0%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在[管理](../event/about-creating.md) > **[!UICONTROL 事件]**&#x200B;中設定事件&#x200B;**[!UICONTROL ，並定義]**&#x200B;事件結構描述和欄位[。 &#x200B;](../event/experience-event-schema.md)然後從&#x200B;**[!UICONTROL 歷程設計器]**&#x200B;的[事件](using-the-journey-designer.md)浮動視窗新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 事件]**&#x200B;中設定事件[&#128279;](../event/about-creating.md)，並定義[事件結構描述和欄位](../event/experience-event-schema.md)。 然後從[歷程設計器](using-the-journey-designer.md)的&#x200B;**[!UICONTROL 事件]**&#x200B;浮動視窗新增事件。
 
-* **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在[對象](../audience/creating-a-segment-definition.md)功能表中建立&#x200B;**[!UICONTROL 對象]**，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。 進入之後，使用條件來[分段、排除或合併分支](read-audience.md#audience-targeting-in-journeys)。
+* **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在&#x200B;**[!UICONTROL 對象]**&#x200B;功能表中建立[對象](../audience/creating-a-segment-definition.md)，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。 進入之後，使用條件來[分段、排除或合併分支](read-audience.md#audience-targeting-in-journeys)。
 
 * **[對象資格專案](audience-qualification-events.md)**：設定檔符合或退出特定對象時，即時觸發歷程。 定義[串流對象](../audience/about-audiences.md)，從&#x200B;**[!UICONTROL 事件]**&#x200B;調色盤新增&#x200B;**[!UICONTROL 對象資格]**&#x200B;事件，並選擇觸發程式型別。
 
 * **[屬性篩選器](conditions.md)**：使用AND/OR邏輯，結合事件或對象與設定檔屬性和內容，以調整專案條件。 使用[條件](conditions.md)參照[設定檔屬性](../audience/get-started-profiles.md)、事件或[外部資料](../datasource/about-data-sources.md)。
 
-* **[時間視窗與排程](journey-properties.md#schedule)**：設定暫時性限制，讓歷程保持及時且相關。 在讀取對象活動[上設定](read-audience.md)排程，使用[等待活動](wait-activity.md)，並新增[以時間為基礎的條件](conditions.md)來控制時間。
+* **[時間視窗與排程](journey-properties.md#schedule)**：設定暫時性限制，讓歷程保持及時且相關。 在讀取對象活動[&#128279;](read-audience.md)上設定排程，使用[等待活動](wait-activity.md)，並新增[以時間為基礎的條件](conditions.md)來控制時間。
 
 >[!ENDSHADEBOX]
 
@@ -204,7 +229,7 @@ ht-degree: 0%
 
 **技術檔案**
 
-[設定檔入口管理](entry-management.md) | [歷程屬性和退出條件](journey-properties.md) | [歷程如何結束](end-journey.md) | [補充識別碼](supplemental-identifier.md) | [歷程設計器](using-the-journey-designer.md)
+[設定檔入口管理](entry-management.md) | [歷程屬性和退出條件](journey-properties.md) | [歷程結束的方式](end-journey.md) | [補充識別碼](supplemental-identifier.md) | [歷程設計器](using-the-journey-designer.md)
 
 **教學課程與範例**
 

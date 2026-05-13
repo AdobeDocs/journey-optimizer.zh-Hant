@@ -7,9 +7,23 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 833
 ht-degree: 3%
 
 ---
@@ -107,7 +121,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能以可用性限制 (LA) 形式向一小部分客戶發行。
+>此功能以有限可用性 (LA) 形式向一小部分客戶發布。
 
 ![](assets/content-template-grid-view.png)
 
@@ -121,13 +135,13 @@ ht-degree: 3%
 
 +++我在左側導覽中看不到「內容範本」功能表
 
-您的角色缺少&#x200B;**管理內容範本**&#x200B;許可權。 請要求您的系統管理員將具有&#x200B;**管理內容範本**&#x200B;許可權的&#x200B;**內容管理**&#x200B;資源新增到您的角色。 [了解更多](../administration/permissions.md)
+您的角色缺少&#x200B;**管理內容範本**&#x200B;許可權。 請要求您的系統管理員將具有&#x200B;**管理內容範本**&#x200B;許可權的&#x200B;**內容管理**&#x200B;資源新增到您的角色。 [進一步了解](../administration/permissions.md)
 
 +++
 
 +++我建立的範本未顯示在清單中
 
-檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;**[!UICONTROL 」，以顯示所有範本（無論資料夾為何）。]**
+檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;**」，以顯示所有範本（無論資料夾為何）。**
 
 +++
 

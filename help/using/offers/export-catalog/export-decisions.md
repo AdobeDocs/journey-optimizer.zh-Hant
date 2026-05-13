@@ -10,9 +10,26 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: 1574
 ht-degree: 1%
 
 ---
@@ -21,7 +38,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 每次修改優惠時，都會更新自動產生的決定資料集。
 
@@ -122,7 +139,7 @@ ht-degree: 1%
 
 **欄位：**&#x200B;位置
 **標題：**&#x200B;位置限制
-**說明：**&#x200B;位置限制指出此條件僅適用於列出的位置。 只有當目標位置在`xdm:placements`清單中時，才會考慮選項選擇。 否則，將跳過整個決定條件。 當&#39;xdm:placements&#39;清單被省略或為空白時，任何目標位置都會考量此條件。 此處列出的版位會強制套用選項選取的隱含條件。 要考慮的選項必須有目標位置的表示。
+**描述：**&#x200B;位置限制指出此條件僅適用於列出的位置。 只有當目標位置在`xdm:placements`清單中時，才會考慮選項選擇。 否則，將跳過整個決定條件。 當&#39;xdm:placements&#39;清單被省略或為空白時，任何目標位置都會考量此條件。 此處列出的版位會強制套用選項選取的隱含條件。 要考慮的選項必須有目標位置的表示。
 **型別：**&#x200B;陣列
 
 * 位置識別碼
@@ -164,7 +181,7 @@ ht-degree: 1%
 
 **欄位：** profileConstraintType
 **標題：**&#x200B;設定檔限制型別
-**描述：**&#x200B;決定目前是否設定任何限制，以及限制如何表示。 可透過規則或一或多個對象會籍進行。
+**描述：**&#x200B;決定目前是否設定任何條件約束，以及條件約束的表示方式。 可透過規則或一或多個對象會籍進行。
 **型別：**&#x200B;字串
 **可能的值：**
 
@@ -278,7 +295,7 @@ ht-degree: 1%
 
 **欄位：**&#x200B;遞補
 **標題：**&#x200B;遞補選項
-**說明：**&#x200B;在此決定的內容中決策時使用的遞補選項參考不符合任何一般選項的資格（這通常發生在套用硬式限制時）。 此值是參考的遞補選項的URI (@id)。
+**描述：**&#x200B;在此決定的內容中決策時使用的遞補選項參考不符合任何一般選項的資格（這通常發生在套用硬式限制時）。 此值是參考的遞補選項的URI (@id)。
 **型別：**&#x200B;字串
 
 +++
@@ -311,7 +328,7 @@ ht-degree: 1%
 +++ _repo >活動ETag
 
 **欄位：** etag
-**標題：**&#x200B;活動ETAG
+**標題：**&#x200B;活動ETag
 **描述：**&#x200B;建立快照時決定（先前稱為活動）物件的修訂。
 **型別：**&#x200B;字串
 

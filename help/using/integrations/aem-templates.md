@@ -10,10 +10,30 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 2%
+source-wordcount: 774
+ht-degree: 3%
 
 ---
 
@@ -41,7 +61,7 @@ ht-degree: 2%
 
 * **權限**
 
-  若要在Adobe Journey Optimizer中建立、編輯和刪除內容範本，您必須在&#x200B;**[!DNL Manage Library Items]**&#x200B;產品設定檔中包含&#x200B;**[!DNL Content Library Manager]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
+  若要在Adobe Journey Optimizer中建立、編輯和刪除內容範本，您必須在&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含&#x200B;**[!DNL Manage Library Items]**&#x200B;許可權。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 
 ### 護欄與限制{#aem-templates-limitations}
 
@@ -111,7 +131,7 @@ ht-degree: 2%
 
 1. 如果您已將個人化內容新增至Experience Manager範本，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以使用測試設定檔預覽其顯示在訊息中的方式。
 
-[進一步瞭解預覽和測試設定檔](../content-management/preview-test.md)
+   [進一步瞭解預覽和測試設定檔](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

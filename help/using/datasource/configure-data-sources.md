@@ -9,9 +9,28 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 資料，來源，設定，欄位
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+TQID: https://experienceleague.adobe.com/08xTqpZZAtzgbnCOlRs-o6txtyn4c5gfs08fsojI-yM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: 616
 ht-degree: 7%
 
 ---
@@ -24,7 +43,7 @@ ht-degree: 7%
 
 若要設定資料來源，請遵循下列步驟：
 
-1. 在「管理」功能表區段中，選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 資料來源]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 畫面隨即顯示資料來源。如需介面的詳細資訊，請參閱[此頁面](../start/user-interface.md)。
+1. 在「管理」功能表區段中，選取&#x200B;**[!UICONTROL 組態]**。 在&#x200B;**[!UICONTROL 資料來源]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 管理]**。 畫面隨即顯示資料來源。 如需介面的詳細資訊，請參閱[此頁面](../start/user-interface.md)。
 
    ![](assets/journey18.png)
 

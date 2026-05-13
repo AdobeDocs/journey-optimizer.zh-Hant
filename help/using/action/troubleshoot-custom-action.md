@@ -9,9 +9,28 @@ role: Developer, Admin
 level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
+TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1051
 ht-degree: 1%
 
 ---
@@ -74,11 +93,11 @@ ht-degree: 1%
 
 ## 主要優點 {#troubleshoot-custom-action-benefits}
 
-身為Journey Optimizer管理員，您也可以使用外部工具(例如Postman)來測試自訂動作。 以下列出產品內故障診斷功能與外部測試相比的主要優點：
+身為Journey Optimizer管理員，您也可以使用外部工具（例如Postman）來測試自訂動作。 以下列出產品內故障診斷功能與外部測試相比的主要優點：
 
 * 測試要求是由&#x200B;**AJO歷程**&#x200B;執行，表示：
 
-   * 系統會使用確切的請求結構(包括Adobe Journey Optimizer專屬標頭)。
+   * 系統會使用確切的請求結構（包括Adobe Journey Optimizer專屬標頭）。
    * 來源IP和標題與即時歷程中使用的相符。
 
 * **[!UICONTROL 傳送測試要求]**&#x200B;功能可用於疑難排解&#x200B;**即時歷程**，因為已部署自訂動作。
@@ -90,7 +109,7 @@ ht-degree: 1%
 如果請求失敗，您可以檢查：
 
 * 在測試中輸入的驗證認證。
-* 要求方法(GET與POST的比較)和對應的裝載。
+* 要求方法（GET與POST的比較）和對應的裝載。
 * 自訂動作中定義的API端點和標題。
 * 使用回應資料來識別可能的設定錯誤。
 

@@ -9,10 +9,31 @@ role: Developer, Admin
 level: Experienced
 keywords: 原則，治理，平台，同意， healthcare shield
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -76,7 +97,7 @@ ht-degree: 6%
 
 1. 在此頁面上，客戶可以選取或取消選取核取方塊來更新其偏好設定，例如依主題訂閱。
 
-   每個動作會透過將資料擷取至啟用設定檔的資料集結構描述`true`，觸發針對對應設定檔屬性（`false`針對選擇加入，<!-- that contains the corresponding preference fields-->針對選擇退出）儲存的同意事件。
+   每個動作會透過將資料擷取至啟用設定檔的資料集結構描述<!-- that contains the corresponding preference fields-->，觸發針對對應設定檔屬性（`true`針對選擇加入，`false`針對選擇退出）儲存的同意事件。
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
@@ -100,7 +121,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >同意原則目前僅適用於已購買Adobe **Healthcare Shield**&#x200B;或&#x200B;**Privacy and Security Shield**&#x200B;附加產品的組織。 [進一步瞭解同意原則](consent.md)
+   >同意原則目前僅適用已購買 Adobe **Healthcare Shield** 與&#x200B;**隱私權與安全性防護**&#x200B;附加產品的組織。 [進一步瞭解同意原則](consent.md)
 
    若要使用同意原則，設定檔資料中必須存在偏好設定屬性。 這就是您必須在設定檔層次定義這些屬性的原因（如步驟1所述）。
 
@@ -120,12 +141,12 @@ Consent policies are comprised of two logical components:
     
     *則&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等於&#x200B;**[!UICONTROL false]**
     
-    ！[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
+    ！[]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >
-    >啟用設定檔的資料集必須包含設定檔屬性&#x200B;**[!UICONTROL Newsletter_Email]**，且值設定為&#39;true&#39; （如步驟1中所述）
+    >啟用配置檔案的資料集必須包含配置檔案屬性&#x200B;**[!UICONTROL Newsletter_Email]**，其值設定為「true」（如步驟1中所述）
 
-1. 建立同意原則後，請使用[!DNL Journey Optimizer]通道設定[或](consent.md#surface-marketing-actions)歷程自訂動作[，在](consent.md#journey-custom-actions)中運用它。
+1. 建立同意原則後，請使用[通道設定](consent.md#surface-marketing-actions)或[歷程自訂動作](consent.md#journey-custom-actions)，在[!DNL Journey Optimizer]中運用它。
 
 1. 現在，您可以在歷程及行銷活動中使用這些管道設定或自訂動作，以確保您的<!--targeted-->客戶偏好設定獲得尊重。

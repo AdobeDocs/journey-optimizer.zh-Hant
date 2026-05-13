@@ -1,30 +1,47 @@
 ---
-title: 建立新的直接郵件訊息
-description: 瞭解如何在 Journey Optimizer 建立直接郵件訊息
+title: 建立直接郵件訊息
+description: 瞭解如何在Journey Optimizer中建立直接郵件訊息
 feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
-keywords: 直接郵件, 訊息, 行銷活動
+keywords: 直接郵件、訊息、行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 18%
+source-wordcount: 975
+ht-degree: 0%
 
 ---
 
-# 建立新的直接郵件訊息 {#create-direct}
+# 建立直接郵件訊息 {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="直接郵件建立"
->abstract="在排程的行銷活動和歷程中建立直接郵件訊息，並設計直接郵件提供者向您客戶傳送郵件所需的摘取檔案。"
+>abstract="在排程的行銷活動和歷程中建立直接郵件訊息，並設計直接郵件供應商傳送郵件給客戶所需的擷取檔案。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
 >title="結束活動"
->abstract="直接郵件是離線管道，可讓您個人化和產生第三方直接郵件提供者傳送郵件給客戶所需的擷取檔案。"
+>abstract="直接郵件是一種離線頻道，可讓您個人化並產生第三方直接郵件供應商所需的擷取檔案，以將郵件傳送給您的客戶。"
 
 若要建立直接郵件訊息，請建立排程的行銷活動或歷程，並設定解壓縮檔案。 直接郵件提供者需要此檔案，才能將郵件傳送給您的客戶。
 
@@ -71,13 +88,13 @@ ht-degree: 18%
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [了解更多資訊](../audience/about-audiences.md)。
+1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [深入瞭解](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >
    >目前，受眾選擇限製為3百萬個設定檔。 如有要求，您可向Adobe代表解除此限制。
 
-1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選取適當的名稱空間以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選取適當的名稱空間以識別所選對象中的個人。 [深入瞭解](../event/about-creating.md#select-the-namespace)。
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 直接郵件]**。
 
@@ -95,17 +112,17 @@ ht-degree: 18%
 
 >[!ENDTABS]
 
-## 設定摘取檔案 {#extraction-file}
+## 設定擷取檔案 {#extraction-file}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="資料欄位"
->abstract="依直接郵件提供者之要求，新增並設定在摘取檔案中要顯示的欄位和資訊，才能把郵件寄送給你的客戶。 你可以新增最多 50 欄。"
+>abstract="新增並設定要在擷取檔案中顯示的欄和資訊，直接郵件提供商需要這些欄和資訊來傳送郵件給您的客戶。 您最多可以新增50欄。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="摘取檔案格式"
->abstract="使用個人化編輯器指定每個欄位的標籤以及要顯示的資訊。<br/><br/> 您可以透過「<b>排序方式</b>」選項，使用選定的欄位做為摘取檔案的欄排序依據。"
+>title="擷取檔案格式"
+>abstract="針對每個欄位，指定標籤和使用個人化編輯器顯示的資訊。<br/><br/> <b>排序依據</b>選項可讓您使用選取的欄位來排序解壓縮檔案的欄。"
 
 直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 

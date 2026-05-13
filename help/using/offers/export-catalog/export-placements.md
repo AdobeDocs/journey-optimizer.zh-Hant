@@ -10,10 +10,25 @@ role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 5%
+source-wordcount: 388
+ht-degree: 6%
 
 ---
 
@@ -21,7 +36,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 每次修改選件時，都會更新自動產生的刊登版位資料集。
 
@@ -96,7 +111,7 @@ ht-degree: 5%
 +++ _experience >決策>位置說明
 
 **欄位：**&#x200B;描述
-**標題：**&#x200B;位置說明
+**標題：**&#x200B;位置描述
 **描述：**&#x200B;它用來傳達整體訊息傳遞中如何使用動態內容的可讀取意圖。 特定空間是網頁中的\「橫幅\」通常透過說明傳遞，而非透過正式方法傳遞。
 **型別：**&#x200B;字串
 
@@ -106,7 +121,7 @@ ht-degree: 5%
 
 **欄位：**&#x200B;名稱
 **標題：**&#x200B;位置名稱
-**描述：**&#x200B;指派給位置的名稱，可在人類互動中參照。
+**描述：**&#x200B;指派給此位置的名稱，可在人類互動中參照。
 **型別：**&#x200B;字串
 
 +++

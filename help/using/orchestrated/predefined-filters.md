@@ -4,13 +4,16 @@ product: journey optimizer
 title: 使用預先定義的篩選器
 description: 瞭解如何在協調的行銷活動中儲存、套用及管理預先定義的篩選器
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # 使用預先定義的篩選器 {#predefined-filters}
 
@@ -22,7 +25,7 @@ ht-degree: 11%
 
 儲存規則產生器中的自訂篩選器，以供日後使用。 請依照下列步驟操作：
 
-1. 開啟規則產生器並定義您的篩選條件。[了解如何建立規則](../orchestrated/build-query.md)
+1. 開啟規則產生器並定義您的篩選條件。 [了解如何建立規則](../orchestrated/build-query.md)
 
 1. 可選：若要在使用篩選時讓某些欄位可編輯，請選取該欄位並開啟&#x200B;**[!UICONTROL 設定為引數]**。 當您套用篩選器時，只能編輯這些欄位。
 
@@ -34,12 +37,12 @@ ht-degree: 11%
 
 1. 輸入篩選的標籤和說明，然後按一下[儲存]。**&#x200B;**
 
-   * 若要將篩選器另存為最愛，請切換開啟「**[!UICONTROL 最愛篩選器]**」選項。請參閱[此章節](#fav-filter)深入瞭解。
+   * 若要將篩選器另存為最愛，請切換開啟「**[!UICONTROL 最愛篩選器]**」選項。 請參閱[此章節](#fav-filter)深入瞭解。
    * 若要讓其他使用者可以存取篩選器，請啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項。 請參閱[此章節](#share-filter)深入瞭解。
 
    ![](assets/predefined-filter-save-name.png)
 
-您的自訂篩選器現在可在&#x200B;**預先定義的篩選器**&#x200B;清單中使用。
+自訂篩選器將出現在 **預先定義的篩選器** 清單中。
 
 ## 在規則中使用預先定義的篩選器 {#apply}
 
@@ -77,7 +80,7 @@ ht-degree: 11%
 
 ## 共用預先定義的篩選器 {#share-filter}
 
-依預設，您建立的預先定義篩選器是私人的且僅供您檢視。 若要讓組織中的其他操作者可存取篩選器，請啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項。
+依預設，您所建立的預先定義的篩選器是私人且只有您能檢視。 若要讓組織中的其他操作者可存取篩選器，請啟用&#x200B;**[!UICONTROL 共用篩選器]**&#x200B;選項。
 
 ![共用篩選器選項](assets/predefined-filter-shared.png)
 

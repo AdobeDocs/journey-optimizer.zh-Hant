@@ -9,9 +9,29 @@ role: User
 level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: 738
 ht-degree: 100%
 
 ---
@@ -20,15 +40,15 @@ ht-degree: 100%
 
 若要存取電子郵件設計工具並開始設計您的電子郵件內容，您必須先在歷程或行銷活動中[建立電子郵件](create-email.md)。
 
-然後您可以使用 [!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來匯入現有內容或從頭開始建立回應式電子郵件。[了解更多](content-from-scratch.md)
+然後您可以使用 [!DNL Journey Optimizer] **電子郵件設計功能**&#x200B;來匯入現有內容或從頭開始建立回應式電子郵件。 [了解更多](content-from-scratch.md)
 
 電子郵件設計工具也可讓您：
 
-* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。[了解更多](../integrations/assets.md)
+* 利用 **Adobe Experience Manager Assets Essentials** 豐富您的電子郵件，建立並管理您自己的資產資料庫。 [了解更多](../integrations/assets.md)
 
-* 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。[了解更多](../integrations/stock.md)
+* 查找 **Adobe Stock 相片**&#x200B;建立內容並改進電子郵件設計。 [了解更多](../integrations/stock.md)
 
-* 根據客戶的輪廓屬性建立個人化和動態訊息，以增強客戶體驗。深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
+* 根據客戶的輪廓屬性建立個人化和動態訊息，以增強客戶體驗。 深入瞭解[個人化](../personalization/personalize.md)及[動態內容](../personalization/get-started-dynamic-content.md)。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -36,37 +56,37 @@ ht-degree: 100%
 
 建立電子郵件後，您就可以開始設計電子郵件內容。
 
-1. 在歷程或行銷活動設定畫面，透過&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面存取電子郵件設計工具。[了解更多](create-email.md#define-email-content)
+1. 在歷程或行銷活動設定畫面，透過&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面存取電子郵件設計工具。 [了解更多](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
 1. 在電子郵件設計工具首頁，從下列選項選取您希望如何設計電子郵件：
 
-   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../integrations/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
+   * 透過電子郵件設計工具介面並善用 [Adobe Experience Manager Assets](../integrations/assets.md) 的影像&#x200B;**從頭開始設計電子郵件**。 在[本節](content-from-scratch.md)了解如何設計您的電子郵件內容。
 
-   * 請直接在電子郵件設計工具中，**編寫程式碼或貼上原始 HTML**。在[本節](code-content.md)了解如何撰寫您自己的內容。
+   * 請直接在電子郵件設計工具中，**編寫程式碼或貼上原始 HTML**。 在[本節](code-content.md)了解如何撰寫您自己的內容。
 
      >[!NOTE]
      >
-     >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。[了解更多](create-email.md#define-email-content)
+     >在行銷活動中，您還可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;畫面選取&#x200B;**[!UICONTROL 程式碼編輯器]**&#x200B;按鈕。 [了解更多](create-email.md#define-email-content)
 
-   * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。在[本節](existing-content.md)了解如何匯入電子郵件內容。
+   * 從檔案或 .zip 資料夾&#x200B;**匯入現有 HTML 內容**。 在[本節](existing-content.md)了解如何匯入電子郵件內容。
 
-   * 使用 AI 支援的影像至 HTML 轉換工具，**將影像設計轉換為 HTML 範本**。在[本節](../content-management/image-to-html.md)中了解如何將靜態影像轉換為可編輯的電子郵件範本。
+   * 使用 AI 支援的影像至 HTML 轉換工具，**將影像設計轉換為 HTML 範本**。 在[本節](../content-management/image-to-html.md)中了解如何將靜態影像轉換為可編輯的電子郵件範本。
 
-   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。若要了解如何使用電子郵件範本，請參閱[此區段](../email/use-email-templates.md)。
+   * 從內建或自訂範本的清單&#x200B;**選取現有內容**。 若要了解如何使用電子郵件範本，請參閱[此區段](../email/use-email-templates.md)。
 
    ![](assets/email_designer_create_options.png)
 
-1. 一旦定義並個人化您的電子郵件內容，您就可以匯出內容以供驗證或稍後使用。按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
+1. 一旦定義並個人化您的電子郵件內容，您就可以匯出內容以供驗證或稍後使用。 按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
 
    ![](assets/email_designer_export.png)
 
-1. 您也可以驗證內容品質，找出可讀性、內容一致性和有效性方面的潛在問題。[了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
+1. 您也可以驗證內容品質，找出可讀性、內容一致性和有效性方面的潛在問題。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
 
 ## 電子郵件設計最佳實務 {#best-practices}
 
-傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
+傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。 使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
 若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
 
@@ -78,7 +98,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。除了本節中列出的電子郵件設計最佳做法之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用電子郵件設計工具建立無障礙內容。
+>[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 除了本節中列出的電子郵件設計最佳做法之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用電子郵件設計工具建立無障礙內容。
 
 ## 作法影片 {#video}
 

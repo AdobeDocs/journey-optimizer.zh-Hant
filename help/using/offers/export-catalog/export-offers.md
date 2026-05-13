@@ -10,9 +10,25 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: 2006
 ht-degree: 1%
 
 ---
@@ -21,7 +37,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 每次修改優惠方案時，都會更新自動產生的個人化內容優惠方案資料集。
 
@@ -87,7 +103,7 @@ ht-degree: 1%
 
 **欄位：**&#x200B;特性
 **標題：**&#x200B;決定選項特性
-**說明：**&#x200B;特性是屬於特定決定選項之優惠方案的額外屬性或特性。 這些屬性是索引鍵值配對，這表示它們包含具有相關值的屬性名稱（有時稱為索引鍵），並用於區分一個決定選項和其他選件。 例如，屬性名稱「color」的值可能為特定選件的「green」。<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**說明：**&#x200B;特性是屬於特定決定選項之優惠的額外屬性或特性。 這些屬性是索引鍵值配對，這表示它們包含具有相關值的屬性名稱（有時稱為索引鍵），並用於區分一個決定選項和其他選件。 例如，屬性名稱「color」的值可能為特定選件的「green」。<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **型別：**&#x200B;物件
 
 +++
@@ -222,7 +238,7 @@ ht-degree: 1%
 
 **欄位：**&#x200B;設定檔限制
 **標題：**&#x200B;設定檔限制詳細資料
-**描述：**&#x200B;設定檔限制決定目前在此內容中，某個選項是否符合此設定檔身分識別的資格。 如果設定檔限制不需要考慮每個選項的值（亦即，它不會改變選項選取範圍中的選項），則評估為「false」的設定檔限制會取消整個選項選取範圍。 另一方面，會針對選項選取的每個合格選項，評估將選項作為引數的設定檔限制規則。
+**描述：**&#x200B;設定檔條件約束決定目前在此內容中，某個選項是否符合此設定檔身分識別的資格。 如果設定檔限制不需要考慮每個選項的值（亦即，它不會改變選項選取範圍中的選項），則評估為「false」的設定檔限制會取消整個選項選取範圍。 另一方面，會針對選項選取的每個合格選項，評估將選項作為引數的設定檔限制規則。
 **型別：**&#x200B;物件
 
 +++
@@ -249,7 +265,7 @@ ht-degree: 1%
 
 **欄位：** profileConstraintType
 **標題：**&#x200B;設定檔限制型別
-**描述：**&#x200B;決定目前是否設定任何限制，以及限制如何表示。 可透過規則或一或多個對象會籍進行。
+**描述：**&#x200B;決定目前是否設定任何條件約束，以及條件約束的表示方式。 可透過規則或一或多個對象會籍進行。
 **型別：**&#x200B;字串
 **可能的值：**
 

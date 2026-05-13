@@ -9,9 +9,27 @@ level: Intermediate
 keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
+TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: 1008
 ht-degree: 2%
 
 ---
@@ -120,7 +138,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->停止歷程需要&#x200B;**[!DNL Manage journeys]**&#x200B;許可權。 如果歷程包含內嵌行銷活動或訊息節點，使用者還需要&#x200B;**行銷活動>發佈行銷活動**&#x200B;許可權。 如果歷程使用資產（例如在電子郵件中），使用者必須擁有這些資產資料夾的存取權。 在[!DNL Journey Optimizer]本節[中進一步瞭解如何管理](../administration/permissions-overview.md)使用者的存取權。
+>停止歷程需要&#x200B;**[!DNL Manage journeys]**&#x200B;許可權。 如果歷程包含內嵌行銷活動或訊息節點，使用者還需要&#x200B;**行銷活動>發佈行銷活動**&#x200B;許可權。 如果歷程使用資產（例如在電子郵件中），使用者必須擁有這些資產資料夾的存取權。 在[本節](../administration/permissions-overview.md)中進一步瞭解如何管理[!DNL Journey Optimizer]使用者的存取權。
 
 ## 相關主題
 

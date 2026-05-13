@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 屬性型存取控制
+title: 以屬性為基礎的存取控制
 description: 以屬性為基礎的存取控制可讓您定義授權，以管理特定團隊或使用者群組的資料存取。
 feature: Access Management
 topic: Administration
@@ -9,14 +9,33 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 2%
+source-wordcount: 1074
+ht-degree: 0%
 
 ---
 
-# 屬性型存取控制 {#attribute-based-access}
+# 以屬性為基礎的存取控制 {#attribute-based-access}
 
 以屬性為基礎的存取控制功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的在於保護敏感數位資產免受未經授權使用者的攻擊，進一步保護個人資料。
 
@@ -38,11 +57,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->&#x200B;>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant){target="_blank"}。
+>&#x200B;>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant){target="_blank"}。
 
 **[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL 角色]**&#x200B;的每個使用者都有權使用產品中包含的Adobe應用程式和服務。 您也可以建立自己的&#x200B;**[!UICONTROL 角色]**，以微調使用者對介面中特定功能或物件的存取權。
 
-若要授與選取的使用者對標示為C2的&#x200B;**國籍**&#x200B;欄位的存取權，請建立具有特定使用者集的新&#x200B;**[!UICONTROL 角色]**，並授與他們標籤C2，以允許他們在&#x200B;**歷程**&#x200B;中使用&#x200B;**[!UICONTROL 國籍]**&#x200B;詳細資料。
+若要授與選取的使用者對標示為C2的&#x200B;**國籍**&#x200B;欄位的存取權，請建立具有特定使用者集的新&#x200B;**[!UICONTROL 角色]**，並授與他們標籤C2，以允許他們在&#x200B;**[!UICONTROL 歷程]**&#x200B;中使用&#x200B;**國籍**&#x200B;詳細資料。
 
 1. 從[!DNL Permissions]產品中，從左窗格功能表選取&#x200B;**[!UICONTROL 角色]**，然後按一下&#x200B;**[!UICONTROL 建立角色]**。 請注意，您也可以將&#x200B;**[!UICONTROL 標籤]**&#x200B;新增至內建角色。
 
@@ -94,7 +113,7 @@ ht-degree: 2%
 
    ![](assets/label_1.png)
 
-1. 在新建立的&#x200B;**[!UICONTROL 結構描述]**&#x200B;中，我們先新增包含&#x200B;**[!UICONTROL 國籍]**&#x200B;欄位的&#x200B;**人口統計詳細資料**&#x200B;欄位群組。
+1. 在新建立的&#x200B;**[!UICONTROL 結構描述]**&#x200B;中，我們先新增包含&#x200B;**國籍**&#x200B;欄位的&#x200B;**[!UICONTROL 人口統計詳細資料]**&#x200B;欄位群組。
 
    ![](assets/label_2.png)
 

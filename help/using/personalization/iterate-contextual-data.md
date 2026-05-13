@@ -9,10 +9,34 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3040'
-ht-degree: 0%
+source-wordcount: 3075
+ht-degree: 1%
 
 ---
 
@@ -71,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->**數值事件ID需要反引號。**&#x200B;如果您的事件識別碼是數字（例如`1697323153`），請在運算式路徑中以反引號(`` ` ``)將其換行。 若沒有反引號，PQL剖析器會引發語法錯誤。
+>**數值事件ID需要反引號。** 如果您的事件ID是數字（例如`1697323153`），請在運算式路徑中以反引號(`` ` ``)將其換行。 若沒有反引號，PQL剖析器會引發語法錯誤。
 >
 >```handlebars
 >context.journey.events.`1697323153`.fieldName
@@ -124,7 +148,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->自訂動作必須設定回應裝載，才能使用此功能。 在[本節](../action/action-response.md#config-response)中瞭解更多資訊。 您也可以結合自訂動作回應與事件資料或資料集查詢 — 請參閱[結合多個內容來源](#combine-sources)以取得範例。
+>自訂動作必須設定回應裝載，才能使用此功能。 請參閱[此章節](../action/action-response.md#config-response)深入瞭解。 您也可以結合自訂動作回應與事件資料或資料集查詢 — 請參閱[結合多個內容來源](#combine-sources)以取得範例。
 
 ### 自訂動作的內容路徑
 
@@ -306,7 +330,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### 範例：使用資料集資料篩選反複專案
 
-若要在反複專案期間篩選資料集查詢結果，並僅顯示符合特定條件的專案（例如，來自特定類別的產品），請在`{{#if}}`回圈中使用條件`{{#each}}`陳述式。 請參閱下列範例。
+若要在反複專案期間篩選資料集查詢結果，並僅顯示符合特定條件的專案（例如，來自特定類別的產品），請在`{{#each}}`回圈中使用條件`{{#if}}`陳述式。 請參閱下列範例。
 
 +++ 檢視範常式式碼
 
@@ -551,7 +575,7 @@ context.journey.technicalProperties.supplementalId
 
 **自訂動作組態**：
 
-1. 在您的自訂動作中，使用型別`sku`設定查詢引數（例如`string`）
+1. 在您的自訂動作中，使用型別`string`設定查詢引數（例如`sku`）
 2. 將其標籤為`Variable`以允許動態值
 
 **動作引數中的歷程運算式**：
@@ -568,7 +592,7 @@ context.journey.technicalProperties.supplementalId
 * `.SKU`：從相符的專案中擷取SKU欄位
 * 結果： `"SKU-1"` （適用於動作引數的字串）
 
-深入瞭解`first`集合管理函式[中的](../building-journeys/expression/collection-management-functions.md)函式。
+深入瞭解[集合管理函式](../building-journeys/expression/collection-management-functions.md)中的`first`函式。
 
 +++
 
@@ -580,7 +604,7 @@ context.journey.technicalProperties.supplementalId
 
 **自訂動作組態**：
 
-1. 使用型別`ids`設定查詢引數（例如`string`）
+1. 使用型別`string`設定查詢引數（例如`ids`）
 2. 將其標籤為`Variable`
 
 **歷程運算式**：
@@ -605,8 +629,8 @@ serializeList(
 
 進一步瞭解：
 
-* [&#39;所有&#39;](../building-journeys/expression/collection-management-functions.md)
-* [&#39;serializeList&#39;](../building-journeys/functions/list-functions.md#serializeList)
+* [`all`函式](../building-journeys/expression/collection-management-functions.md)
+* [`serializeList`函式](../building-journeys/functions/list-functions.md#serializeList)
 
 自訂動作的集合處理包含在[將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection)中。
 
@@ -845,7 +869,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 ### 回圈中的運算式片段
 
-在[回圈中使用](use-expression-fragments.md)運算式片段`{{#each}}`時，請注意，您無法傳遞回圈範圍的變數做為片段引數。 不過，片段可以存取在片段以外的訊息內容中定義的全域變數。
+在`{{#each}}`回圈中使用[運算式片段](use-expression-fragments.md)時，請注意，您無法傳遞回圈範圍的變數做為片段引數。 不過，片段可以存取在片段以外的訊息內容中定義的全域變數。
 
 +++ 檢視範常式式碼
 
@@ -877,7 +901,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-深入瞭解如何在回圈[中使用運算式片段](use-expression-fragments.md#fragments-in-loops)，包括詳細範例和其他因應措施。
+深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細範例和其他因應措施。
 
 
 
@@ -1021,7 +1045,7 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
    **解決方案**：定義片段在訊息層級（回圈外）需要的任何變數，讓這些變數可全域存取。
 
-深入瞭解如何在回圈[中使用運算式片段](use-expression-fragments.md#fragments-in-loops)，包括詳細的說明、範例和建議的模式。
+深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細的說明、範例和建議的模式。
 
 +++
 
@@ -1042,10 +1066,10 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 **Personalization基本知識：** [開始使用個人化](personalize.md) | [新增個人化](personalization-build-expressions.md) | [Personalization語法](personalization-syntax.md) | [協助程式函式](functions/helpers.md) | [建立條件式規則](create-conditions.md)
 
-**歷程設定：** [關於事件](../event/about-events.md) | [設定自訂動作](../action/about-custom-action-configuration.md) | [將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection) | [在自訂動作中使用API呼叫回應](../action/action-response.md) | [疑難排解您的自訂動作](../action/troubleshoot-custom-action.md) | [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md) | [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md) | [護欄和限制](../start/guardrails.md) | [測試您的歷程](../building-journeys/testing-the-journey.md)
+**歷程組態：** [關於事件](../event/about-events.md) | [設定自訂動作](../action/about-custom-action-configuration.md) | [將集合傳遞至自訂動作引數](../building-journeys/collections.md#passing-collection) | [在自訂動作中使用API呼叫回應](../action/action-response.md) | [疑難排解您的自訂動作](../action/troubleshoot-custom-action.md) | [在歷程中使用Adobe Experience Platform資料](../building-journeys/dataset-lookup.md) | [在歷程中使用補充識別碼](../building-journeys/supplemental-identifier.md) | [護欄和限制](../start/guardrails.md) | [測試您的歷程](../building-journeys/testing-the-journey.md)
 
-**歷程運算式函式：** [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md) | [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個） | [清單函式](../building-journeys/functions/list-functions.md) （serializeList、篩選器、排序） | [陣列函式](../personalization/functions/arrays-list.md) （標題、尾部）
+**歷程運算式函式：** [進階運算式編輯器](../building-journeys/expression/expressionadvanced.md) | [集合管理函式](../building-journeys/expression/collection-management-functions.md) （第一個、全部、最後一個） | [列出函式](../building-journeys/functions/list-functions.md) （serializeList、篩選、排序） | [陣列函式](../personalization/functions/arrays-list.md) （頭、尾）
 
 **Personalization使用案例：** [購物車放棄電子郵件](personalization-use-case-helper-functions.md) | [訂單狀態通知](personalization-use-case.md)
 
-**訊息設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽及測試您的內容](../content-management/preview-test.md)
+**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽和測試您的內容](../content-management/preview-test.md)

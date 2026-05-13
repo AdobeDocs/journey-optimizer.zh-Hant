@@ -9,9 +9,29 @@ role: Developer, Admin
 level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: 1094
 ht-degree: 2%
 
 ---
@@ -30,7 +50,7 @@ ht-degree: 2%
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
-另請參閱幾個查詢歷程步驟事件[的常用](../reports/query-examples.md)範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
@@ -174,7 +194,7 @@ ORDER BY timestamp DESC;
 
 其中日期的格式為： `YYYY-MM-DD HH:MM:SS`。
 
-在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+在識別之後，從Journey Optimizer隱藏清單中移除這些地址。 [了解更多資訊](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 >[!NOTE]
 >
@@ -270,9 +290,9 @@ group by
 ```
 
 
-另請參閱幾個查詢歷程步驟事件[的常用](../reports/query-examples.md)範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
-瞭解如何在journey_step_events[中](../reports/sharing-field-list.md#discarded-events)疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 ## 決策事件資料集{#ode-decisionevents}
 
@@ -381,7 +401,7 @@ WHERE
 
 ## 實體資料集{#entity-dataset}
 
-_介面中的名稱： ajo_entity_dataset （系統資料集）_
+_介面中的名稱： ajo_ entity_dataset （系統資料集）_
 
 用於儲存傳送給一般使用者之訊息的實體中繼資料的資料集。
 

@@ -9,10 +9,30 @@ role: User
 level: Beginner
 keywords: 資產，整合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Kzrp9ksDq5kU4yPs8-3r-zipBqogMN3PqXucfhqtPeo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 27%
+source-wordcount: 704
+ht-degree: 26%
 
 ---
 
@@ -26,7 +46,7 @@ ht-degree: 27%
 
 ### 資產
 
-利用 **[!DNL Adobe Experience Manager Assets]** 將行銷與創意內容工作流程結合在一起。與&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;原生整合，存取&#x200B;**[!DNL Assets Essentials]**&#x200B;或&#x200B;**[!DNL Assets as a Cloud Service]**&#x200B;以儲存、管理、探索及散發數位資產。 提供了可用於填入訊息的單一、集中式資產存放庫。
+利用 **[!DNL Adobe Experience Manager Assets]** 將行銷與創意內容工作流程結合在一起。 與&#x200B;**[!DNL Adobe Journey Optimizer]**&#x200B;原生整合，存取&#x200B;**[!DNL Assets Essentials]**&#x200B;或&#x200B;**[!DNL Assets as a Cloud Service]**&#x200B;以儲存、管理、探索及散發數位資產。 提供了可用於填入訊息的單一、集中式資產存放庫。
 
 Assets Essentials可連線到Adobe Creative Cloud中的Adobe Express和Adobe Photoshop Express，將行銷和創意工作流程整合在一起。 行銷人員可與創意人員合作，利用內建的編輯工具量身打造現有內容，以調整影像大小、移除背景、轉換檔案型別等。
 
@@ -64,7 +84,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。
 
-使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
+使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。 此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
 
 深入了解 [Journey Optimizer + Stock](../integrations/stock.md)。
 

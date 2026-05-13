@@ -9,10 +9,32 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 26%
+source-wordcount: 2152
+ht-degree: 27%
 
 ---
 
@@ -86,7 +108,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件、透過&#x200B;**查詢服務**&#x200B;插入的事件，或來自內部Journey Optimizer資料集的事件（訊息回饋、電子郵件追蹤等） 無法用來觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置客群，然後改為使用&#x200B;**讀取客群**&#x200B;活動。 技術上可使用對象資格，但可能根據使用動作而造成下游挑戰。 此資料不一定需要前往即時輪廓。 如果您想要使用事件進行分段，建議您為設定檔啟用資料集。
+>Journey Optimizer 需將事件串流至資料收集核心服務 (DCCS)，才能觸發歷程。 批次擷取的事件、透過&#x200B;**查詢服務**&#x200B;插入的事件，或來自內部 Journey Optimizer 資料集的事件 (訊息意見回饋、電子郵件追蹤等等) 不能用於觸發歷程。 對於無法取得串流事件的使用案例，請根據這些事件建置客群，然後改為使用&#x200B;**讀取客群**&#x200B;活動。 技術上可使用對象資格，但可能根據使用動作而造成下游挑戰。 此資料不一定需要前往即時輪廓。 如果您想要使用事件進行分段，建議您為設定檔啟用資料集。
 
 ## 如何選擇 {#choose-event-type}
 

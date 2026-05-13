@@ -10,9 +10,23 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: 1128
 ht-degree: 6%
 
 ---
@@ -21,7 +35,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../experience-decisioning/gs-experience-decisioning.md)
 
 本節提供端對端範例，說明如何根據您先前建立的決定，設定優惠方案並在電子郵件中使用。
 
@@ -31,7 +45,7 @@ ht-degree: 6%
 
 1. 在建立優惠方案之前，[定義您的元件](#define-components)
 
-   * 建立位置
+   * 建立刊登版位
    * 建立決策規則
    * 建立集合限定詞（先前稱為「標籤」）
    * 建立排名（選擇性）

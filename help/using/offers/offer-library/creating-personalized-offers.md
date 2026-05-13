@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 建立個人化產品建議
+title: 建立個人化優惠方案
 description: 瞭解如何建立、設定和管理您的優惠方案
 badge: label="舊版" type="Informative"
 feature: Decision Management
@@ -10,18 +10,34 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/mCe101lMG7wraD7IN-dge7-hSlJ6AAob6QmL-ThjdsY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 20%
+source-wordcount: 842
+ht-degree: 0%
 
 ---
 
-# 建立個人化產品建議 {#create-personalized-offers}
+# 建立個人化優惠方案 {#create-personalized-offers}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../experience-decisioning/gs-experience-decisioning.md)
 
 建立優惠方案之前，請確定您已建立：
 
@@ -35,27 +51,27 @@ ht-degree: 20%
 
 ![](../assets/offers_list.png)
 
-## 建立產品建議 {#create-offer}
+## 建立優惠方案 {#create-offer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
->title="產品建議詳細資料"
->abstract="填寫產品建議的名稱及其開始及結束日期。 在這些日期之外，決策引擎將不會選取該產品建議。"
+>title="優惠詳細資料"
+>abstract="填寫優惠方案名稱及其開始和結束日期。 在這些日期之外，決策引擎將不會選取選件。"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="關於產品建議屬性"
->abstract="有了產品建議屬性，您可以將索引鍵值組與產品建議相關聯以用於報告和分析。"
+>title="關於優惠屬性"
+>abstract="使用選件屬性，您可以將索引鍵值配對與選件建立關聯，以用於報表和分析。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="產品建議屬性"
->abstract="有了產品建議屬性，您可以將索引鍵值組與產品建議相關聯以用於報告和分析。"
+>title="優惠屬性"
+>abstract="使用選件屬性，您可以將索引鍵值配對與選件建立關聯，以用於報表和分析。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
->title="個人化產品建議"
->abstract="個人化產品建議是根據適用性規則與限制建立的自訂訊息。"
+>title="個人化優惠"
+>abstract="個人化優惠是根據適用性規則和限制的可自訂訊息。"
 
 若要建立&#x200B;**選件**，請遵循下列步驟：
 
@@ -63,7 +79,7 @@ ht-degree: 20%
 
    ![](../assets/create_offer.png)
 
-1. 指定優惠方案名稱及其開始和結束日期和時間。 在這些日期之外，決策引擎將不會選取該產品建議。
+1. 指定優惠方案名稱及其開始和結束日期和時間。 在這些日期之外，決策引擎將不會選取選件。
 
    >[!NOTE]
    >
@@ -73,9 +89,9 @@ ht-degree: 20%
 
    >[!CAUTION]
    >
-   >更新開始/結束日期可能會對上限產生影響。 [了解更多](add-constraints.md#capping-change-date)
+   >更新開始/結束日期可能會對上限產生影響。 [進一步瞭解](add-constraints.md#capping-change-date)
 
-1. 您也可以將一或多個現有的&#x200B;**[!UICONTROL 集合限定詞]**&#x200B;關聯至優惠方案，讓您更輕鬆地搜尋及組織優惠方案庫。 [了解更多](creating-tags.md)。
+1. 您也可以將一或多個現有的&#x200B;**[!UICONTROL 集合限定詞]**&#x200B;關聯至優惠方案，讓您更輕鬆地搜尋及組織優惠方案庫。 [深入瞭解](creating-tags.md)。
 
 1. **[!UICONTROL 選件屬性]**&#x200B;區段可讓您將索引鍵/值組與選件建立關聯，以用於報告和分析目的。
 
@@ -83,7 +99,7 @@ ht-degree: 20%
 
    ![](../assets/offer_manage-access.png)
 
-1. 新增表示方式以定義您的產品建議在訊息中顯示的位置。 [了解更多](add-representations.md)
+1. 新增代表以定義訊息中顯示優惠的位置。 [進一步瞭解](add-representations.md)
 
    個人化表示內容時，僅支援某些函式 — 請參閱個人化編輯器中的[支援函式](personalization-editor-supported-functions.md)。
 
@@ -93,17 +109,17 @@ ht-degree: 20%
    >
    >優惠方案（包括其所有表示）的大小不得超過300KB。
 
-1. 新增限制以設定要顯示優惠的條件。 [了解更多](add-constraints.md)
+1. 新增限制以設定要顯示優惠的條件。 [進一步瞭解](add-constraints.md)
 
    >[!NOTE]
    >
-   >當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
+   >當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
    >
    >請注意，當規則引數包含不在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。 例如，適用性規則要求目前天氣為≥80度。
 
    ![](../assets/offer-constraints-example.png)
 
-1. 檢閱並儲存選件。 [了解更多](#review)
+1. 檢閱並儲存選件。 [進一步瞭解](#review)
 
 ## 檢閱選件 {#review}
 
@@ -152,7 +168,7 @@ ht-degree: 20%
 
   >[!CAUTION]
   >
-  >將無法再存取選件及其內容。 此動作無法還原。
+  >將無法再存取選件及其內容。 此動作無法復原。
   >
   >如果優惠用於集合或決定中，則無法刪除該優惠。 您必須先從任何物件中移除選件。
 

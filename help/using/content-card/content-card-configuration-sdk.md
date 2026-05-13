@@ -6,10 +6,23 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 4%
+source-wordcount: 509
+ht-degree: 3%
 
 ---
 
@@ -46,7 +59,7 @@ ht-degree: 4%
 
 ## 運作方式 {#setup}
 
-1. 使用範例資料夾中[檔案的設定，在頁面上包含並設定](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)網頁SDK`.env`。
+1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>
@@ -87,7 +100,7 @@ ht-degree: 4%
    });
    ```
 
-1. 使用`interact`中找到的`display`物件管理內容卡片的轉譯，並傳送`contentCardsManager`和`script.js`個事件。 從收到的主張中擷取、排序及處理內容卡片。
+1. 使用`script.js`中找到的`contentCardsManager`物件管理內容卡片的轉譯，並傳送`interact`和`display`個事件。 從收到的主張中擷取、排序及處理內容卡片。
 
    ```
    const createContentCard = (proposition, item) => {
@@ -198,7 +211,7 @@ ht-degree: 4%
 
 ### personalizationStorageEnabled
 
-`personalizationStorageEnabled`命令中的`true`選項設定為`configure`。 這可確保儲存先前限定的內容卡片，並在使用者工作階段間繼續顯示。
+`configure`命令中的`personalizationStorageEnabled`選項設定為`true`。 這可確保儲存先前限定的內容卡片，並在使用者工作階段間繼續顯示。
 
 ### 觸發程序
 

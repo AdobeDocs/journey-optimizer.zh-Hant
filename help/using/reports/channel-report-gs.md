@@ -1,25 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 頻道報告
-description: 開始使用頻道報告
+title: 管道報表
+description: 開始使用管道報告
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+TQID: https://experienceleague.adobe.com/kinrsOdqHviDBSmjv1waCA-XUQmHd4jFTCXAMRH3R1Y
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 7%
+source-wordcount: 648
+ht-degree: 0%
 
 ---
 
-# 開始使用頻道報告 {#channel-report-gs}
+# 開始使用管道報告 {#channel-report-gs}
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於2025年1月淘汰。 過了上述日期，新的報告體驗就會成為標準版。建議您先自己熟悉一下新的功能，以確保能順利轉換服務。[開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 管道報表是一個功能強大的工具，可針對每個管道將流量和參與量度的全面概觀納入統一報表中，包括所有行銷活動和歷程的所有動作。 它分為不同的Widget，每個都提供行銷活動或歷程績效的特定檢視。
 
@@ -67,7 +82,7 @@ ht-degree: 7%
 
 1. 從您的儀表板，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以鎖定特定資料。
 
-1. 從&#x200B;**[!UICONTROL 的]**&#x200B;動作下拉式清單中，選取您要鎖定促銷活動、歷程或兩者。
+1. 從&#x200B;**的**&#x200B;動作下拉式清單中，選取您要鎖定促銷活動、歷程或兩者。
 
    ![](assets/channel_report_2.png)
 

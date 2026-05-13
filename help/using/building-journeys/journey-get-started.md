@@ -9,10 +9,42 @@ level: Beginner, Intermediate
 hide: true
 keywords: 歷程，協調，快速入門，入門，功能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: da923278-9c80-47b0-bebd-b68c341e76fb
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 49%
+source-wordcount: 941
+ht-degree: 53%
 
 ---
 
@@ -24,13 +56,13 @@ ht-degree: 49%
 
 ## 什麼是歷程？
 
-使用 [!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的內容相關資料，建立即時協調流程使用案例。設計多步驟進階情境，即時回應客戶行為和業務事件。
+使用 [!DNL Journey Optimizer] 可讓您善用儲存在事件或資料來源中的內容相關資料，建立即時協調流程使用案例。 設計多步驟進階情境，即時回應客戶行為和業務事件。
 
 Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需的一切，能夠跨頻道協調多步驟 1:1歷程。 這包括直覺式的拖放畫布，用以協調歷程的每個步驟、定義目標對象，並包含目標對象成員將根據行為、情境資料和業務事件看到的跨頻道訊息、優惠和內容。
 
 ![具有調色盤、畫布和屬性面板的歷程設計工具介面](assets/journey38.png)
 
-**準備好開始建置嗎？**&#x200B;在[此頁面](journey-gs.md)瞭解如何建立及設計您的第一個歷程。
+**準備好開始建置嗎？** 在[此頁面](journey-gs.md)瞭解如何建立及設計您的第一個歷程。
 
 
 ## 主要功能 {#capabilities}
@@ -42,13 +74,13 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 
 **即時和批次傳遞**
 
-傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用&#x200B;**對象批次**&#x200B;中的[!DNL Adobe Experience Platform]。
+傳送在收到事件時觸發的即時&#x200B;**單一傳遞**，或使用[!DNL Adobe Experience Platform]對象批次&#x200B;**中的**。
 
 [瞭解歷程登入](entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **內容資料**
 
@@ -58,7 +90,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **內建動作**
 
@@ -88,7 +120,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試與最佳化**
 
@@ -119,7 +151,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -129,27 +161,27 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **最佳化電子郵件傳送時間**
 
 使用AI支援的傳送時間最佳化，在每個客戶最有可能參與時傳送電子郵件。
 
-[了解更多](send-time-optimization.md)
+[瞭解更多](send-time-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
 逐步增加訊息量，以便改善寄件者的信譽，避開傳遞能力問題。
 
-[了解更多](ramp-up-deliveries-uc.md)
+[瞭解更多](ramp-up-deliveries-uc.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -159,7 +191,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **歷程常見問題集**
 
@@ -227,7 +259,7 @@ Journey Optimizer 歷程設計工具提供行銷人員和歷程實踐者所需�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試與發佈**
 

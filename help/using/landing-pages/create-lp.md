@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立登陸頁面
+title: 建立登入頁面
 description: 瞭解如何在Journey Optimizer中設定和發佈登入頁面
 feature: Landing Pages
 topic: Content Management
@@ -9,14 +9,40 @@ role: User
 level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/EZ4dKkk6sFemC9-KqH4zYoMGVQU7nxtGnaUJ-mPJkQU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: da923278-9c80-47b0-bebd-b68c341e76fb
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 26%
+source-wordcount: 1716
+ht-degree: 0%
 
 ---
 
-# 建立和發佈登陸頁面 {#create-lp}
+# 建立及發佈登陸頁面 {#create-lp}
 
 若要將您的客戶導向至您要在他們按一下特定連結時顯示的已定義網頁，請在[!DNL Journey Optimizer]中建立登陸頁面、設定主要頁面及任何子頁面、測試並發佈。
 
@@ -28,18 +54,18 @@ ht-degree: 26%
 >
 >在建立您的第一個登陸頁面之前，請完成[設定登陸頁面](../../rp_landing_pages/lp-configuration-landing-page.md)設定。 這包括設定子網域以託管登陸頁面，以及定義至少一個指定子網域和其他管道設定的預設集。 建立登入頁面時，您將需要選取預設集。
 
-## 建立登陸頁面 {#create-landing-page}
+## 建立登入頁面 {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
->title="定義和設定您的登陸頁面"
->abstract="若要建立登陸頁面，您需要選取一個預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前進行測試。"
+>title="定義並設定您的登入頁面"
+>abstract="若要建立登入頁面，您必須選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前先測試頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
->title="為您的登陸頁面指派標籤"
->abstract="為了保護敏感的數位資產，您可以定義授權，以使用標籤來管理對登陸頁面的資料存取。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hant" text="物件等級存取控制"
+>title="指派標籤至您的登陸頁面"
+>abstract="若要保護敏感數位資產，您可以定義使用標籤管理登入頁面資料存取的授權。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hant" text="物件層級存取控制"
 
 
 若要建立登入頁面，您必須選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前先測試頁面。 這些步驟詳述如下：
@@ -57,7 +83,7 @@ ht-degree: 26%
 
 1. 若要指派自訂或核心資料使用標籤給登入頁面，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將您的登入頁面分類以改善搜尋。 [了解更多](../start/search-filter-categorize.md#tags)
+1. 從&#x200B;**[!UICONTROL 標籤]**&#x200B;欄位選取或建立Adobe Experience Platform標籤，將您的登入頁面分類以改善搜尋。 [進一步瞭解](../start/search-filter-categorize.md#tags)
 
 1. 選取預設集。 瞭解如何在[本節](../landing-pages/lp-presets.md#lp-create-preset)中建立登陸頁面預設集。
 
@@ -65,8 +91,8 @@ ht-degree: 26%
 
    ![](assets/lp_create-lp-data-capture.png){width=60%}
 
-   * **[!UICONTROL 訂閱/取消訂閱]**：使用此型別建立訂閱或取消訂閱使用案例的登陸頁面。 [了解更多](lp-use-cases.md#subscription-to-a-service)
-   * **[!UICONTROL 資料擷取]**：使用此型別建立資料擷取使用案例的登陸頁面。 [了解更多](get-started-lp.md#data-capture-lp)
+   * **[!UICONTROL 訂閱/取消訂閱]**：使用此型別建立訂閱或取消訂閱使用案例的登陸頁面。 [進一步瞭解](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL 資料擷取]**：使用此型別建立資料擷取使用案例的登陸頁面。 [進一步瞭解](get-started-lp.md#data-capture-lp)
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
 
@@ -89,15 +115,15 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_primary_page"
 >title="定義您的主要頁面設定"
->abstract="使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 後，主要頁面會隨即向使用者顯示。"
+>abstract="使用者按一下登入頁面的連結後（例如從電子郵件或網站），主要頁面會立即顯示給使用者。"
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hant" text="Design the landing page content"
 -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
->title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
+>title="定義您的登陸頁面URL"
+>abstract="在此區段中，定義唯一的登陸頁面URL。 URL的第一個部分會要求您先前設定登陸頁面子網域，作為您選取的預設集的一部分。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="建立登陸頁面預設集"
 
@@ -111,7 +137,7 @@ ht-degree: 26%
 
    ![](assets/lp_open-designer.png)
 
-1. 定義您的登陸頁面URL。 URL的第一個部分要求您先前設定登陸頁面子網域，作為您選取的[預設集](../landing-pages/lp-presets.md#lp-create-preset)的一部分。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面URL。 URL的第一個部分要求您先前設定登陸頁面子網域，作為您選取的[預設集](../landing-pages/lp-presets.md#lp-create-preset)的一部分。 [進一步瞭解](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -160,17 +186,17 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
 >title="定義子頁面設定"
->abstract="您最多可新增 2 個子頁面。 例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="設計登陸頁面內容"
+>abstract="您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後即顯示，您可以定義錯誤頁面，登入頁面發生問題時會呼叫此頁面。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/landing-pages/landing-pages-design/design-lp" text="設計登入頁面內容"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
->title="定義您的登陸頁面 URL"
->abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hant" text="設定登陸頁面子網域"
+>title="定義您的登陸頁面URL"
+>abstract="在此區段中，定義唯一的登陸頁面URL。 URL的第一個部分會要求您先前設定登陸頁面子網域，作為您選取的預設集的一部分。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
 
-您最多可新增 2 個子頁面。 例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
+您最多可以新增2個子頁面。 例如，您可以建立「感謝」頁面，在使用者提交表單後即顯示，您可以定義錯誤頁面，登入頁面發生問題時會呼叫此頁面。
 
 若要定義子頁面設定，請遵循下列步驟。
 
@@ -182,7 +208,7 @@ ht-degree: 26%
    >
    >您可以從相同登入頁面的任何子頁面插入主要頁面的連結。 例如，若要重新導向發生錯誤而想要再次訂閱的使用者，您可以從確認子頁面新增連結至訂閱主要頁面。 瞭解如何在[本節](../email/message-tracking.md#insert-links)中插入連結。
 
-1. 定義您的登陸頁面URL。 URL的第一部分要求您先前設定登陸頁面子網域。 [了解更多](../landing-pages/lp-subdomains.md)
+1. 定義您的登陸頁面URL。 URL的第一部分要求您先前設定登陸頁面子網域。 [進一步瞭解](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -192,13 +218,13 @@ ht-degree: 26%
 
 ![](assets/lp_subpage-settings.png)
 
-## 測試登陸頁面 {#test-landing-page}
+## 測試登入頁面 {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
->abstract="定義登陸頁面設定和內容後，您就可以使用測試設定檔進行預覽。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hant" text="選取測試輪廓"
+>abstract="定義登入頁面設定和內容後，您就可以使用測試設定檔來預覽。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hant" text="選取測試設定檔"
 
 定義登入頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入[個人化內容](../personalization/personalize.md)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
@@ -266,12 +292,12 @@ The settings and elements checked by the system are listed below. You will also 
 **Errors**:
 -->
 
-## 發佈登陸頁面 {#publish-landing-page}
+## 發佈登入頁面 {#publish-landing-page}
 
 >[!CAUTION]
 >
 >* 若要發佈登入頁面，您必須擁有&#x200B;**[!UICONTROL 發佈訊息]**&#x200B;許可權。
->* 發佈之前，請檢查並解決所有警報。 [了解更多](#check-alerts)
+>* 發佈之前，請檢查並解決所有警報。 [進一步瞭解](#check-alerts)
 
 一旦登入頁面準備就緒後，您就可以發佈該頁面，以供訊息使用。
 
@@ -285,4 +311,4 @@ The settings and elements checked by the system are listed below. You will also 
 >
 >您無法將建立頁面[&#128279;](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
 
-您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)
+您可以透過特定報告監控您的登入頁面影響。 [進一步瞭解](../reports/lp-report-live.md)

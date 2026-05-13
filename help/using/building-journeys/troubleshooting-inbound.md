@@ -10,9 +10,28 @@ level: Intermediate
 keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯誤
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
@@ -151,7 +170,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![JSON格式的設定檔屬性檢視，顯示對象成員資格狀態](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. 移至`segmentMembership`屬性並檢查區段識別碼&lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否存在於&#x200B;**joai**&#x200B;名稱空間中，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->狀態中。
+1. 移至`segmentMembership`屬性並檢查區段識別碼&lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否出現在&#x200B;**joai**&#x200B;名稱空間中，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->狀態中。
 
    ![設定檔JSON顯示已實現的對象成員資格，時間戳記為](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
@@ -181,7 +200,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 1. 按一下&#x200B;**[!UICONTROL 檢視JSON]**&#x200B;以開啟設定檔的JSON檢視。
 
-1. 移至&#x200B;**[!UICONTROL segmentMembership]**&#x200B;屬性，並檢查區段ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否存在&#x200B;**joai**&#x200B;名稱空間中，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->狀態中。
+1. 移至&#x200B;**[!UICONTROL segmentMembership]**&#x200B;屬性，並檢查區段識別碼&lt;*JourneyVersionID>*_&lt;*JourneyActionID*>是否在&#x200B;**joai**&#x200B;名稱空間中，以及是否在&#x200B;**[!UICONTROL realized]** <!--or existing?-->狀態中。
 
    * 如果存在，則與傳入歷程動作相對應的&#x200B;**joai**&#x200B;區段已正確擷取到集線器設定檔中。
 
