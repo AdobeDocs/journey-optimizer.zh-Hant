@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7709'
-ht-degree: 93%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 93%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀全文](../email/deeplinks.md)
+
+* **Url**&#x200B;協助程式參考已在Personalization檔案中以專屬區段更新。 [閱讀全文](../personalization/functions/helpers.md#url)
 
 * 已新增新的&#x200B;**Personalization配方**&#x200B;頁面，為Journey Optimizer中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間配方（目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測）、字串配方（搭配變數指派使用`replaceAll`）以及條件式備援配方（使用`isEmpty`的空白欄位備援）。 [閱讀全文](../personalization/personalization-recipes.md)
 

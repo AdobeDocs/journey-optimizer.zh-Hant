@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
 source-wordcount: 1039
 ht-degree: 20%
@@ -63,7 +63,9 @@ ht-degree: 20%
 
 SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS子網域所做的任何修改也會影響其他生產沙箱。
 
-若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
+>[!NOTE]
+>
+>若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
 
 ## 使用現有的子網域 {#sms-use-existing-subdomain}
 

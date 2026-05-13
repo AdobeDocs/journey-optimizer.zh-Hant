@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 2b865f11ee97d976b6bb1ad8232d8227d86fe093
 workflow-type: tm+mt
-source-wordcount: 1323
-ht-degree: 9%
+source-wordcount: 1379
+ht-degree: 8%
 
 ---
 
@@ -148,25 +148,31 @@ ht-degree: 9%
 
 1. 定義內容後，您可以將追蹤的URL新增至訊息。 若要這麼做，請存取&#x200B;**[!UICONTROL 協助程式功能]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 協助程式]**。
 
-   若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
-
-   >[!NOTE]
-   >
-   > 若要存取及編輯SMS子網域，您必須對生產沙箱具有&#x200B;**[!UICONTROL 管理SMS子網域]**&#x200B;許可權。 若要了解權限的詳細資訊，請參閱[本章節](../administration/high-low-permissions.md)。
-
    ![](assets/sms_tracking_1.png)
 
-1. 在&#x200B;**[!UICONTROL 協助程式函式]**&#x200B;功能表中，按一下&#x200B;**[!UICONTROL URL函式]**，然後選取&#x200B;**[!UICONTROL 新增URL]**。
+1. 選取&#x200B;**[!UICONTROL URL]**&#x200B;並按一下&#x200B;**[!UICONTROL 新增URL]**。
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. 在`originalUrl`欄位中，貼上您要縮短的URL，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 若要縮短URL，請將它貼到`originalUrl`欄位中，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
    >[!CAUTION]
    >
+   >若要使用URL縮短功能，您必須先設定子網域，然後再將其連結至您的設定。 [了解更多](sms-subdomains.md)
+   >
    > 短URL的生命週期設為30天。 在此期間之後，將無法再存取這些短URL，且會顯示訊息： `404 short-code not found`。
+
+1. 若要新增在行動應用程式中開啟特定熒幕的深層連結，請使用`DEEPLINK`型別的URL helper。 [深入瞭解深層連結](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >在使用深層連結之前，請確定您已在Journey Optimizer中完成對應的[設定步驟](../email/deeplinks.md#configuration)，並在您的行動應用程式中實作[深層連結處理](../email/deeplinks.md#mobile-implementation)。 如果您尚未這麼做，深層連結不會將使用者導向至預期的應用程式內內容。
+   >
+   >此外，請確定已在您歷程或行銷活動的&#x200B;**[!UICONTROL 動作]**&#x200B;區段中啟用連結追蹤，以便透過Adobe系統重新寫入URL。
 
 1. 使用&#x200B;**[!UICONTROL 字元計數]**&#x200B;在您撰寫訊息時監視SMS長度。 它會即時更新，並指出內容何時會在多個區段中傳送。
 
