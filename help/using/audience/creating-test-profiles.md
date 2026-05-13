@@ -40,9 +40,9 @@ ht-degree: 0%
 
 您可以透過[上傳CSV檔案](#create-test-profiles-csv)或使用[API呼叫](#create-test-profiles-api)來建立測試設定檔。 [!DNL Adobe Journey Optimizer]也提供特定的[產品內使用案例](#use-case-1)，以方便建立測試設定檔。
 
-您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}。
+您可以將JSON檔案上傳至現有資料集。 如需詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant#add-data-to-dataset){target="_blank"}。
 
-建立測試設定檔類似於在[!DNL Adobe Experience Platform]中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶個人檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}。
+建立測試設定檔類似於在[!DNL Adobe Experience Platform]中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶個人檔案檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 
 ➡️ [在此影片中瞭解如何建立測試設定檔](#video)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
    ![已啟用設定檔選項的結構描述屬性窗格](assets/test-profiles-5.png)
 1. 按一下&#x200B;**儲存**。
 
-如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}。
+如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant#prerequisites){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}。
+> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}。
 
 ## 產品內使用案例 {#use-case-1}
 
@@ -208,11 +208,11 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 >[!NOTE]
 >
->如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}。
+>如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant#tutorials){target="_blank"}。
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
-您也可以透過API呼叫建立測試設定檔。 在[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}中瞭解更多。
+您也可以透過API呼叫建立測試設定檔。 在[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}中瞭解更多。
 
 您必須使用包含&#x200B;**[!UICONTROL 設定檔測試詳細資料]**&#x200B;欄位群組的設定檔結構描述。 `testProfile`旗標是此欄位群組的一部分。
 建立設定檔時，請務必傳遞值： `testProfile = true`。

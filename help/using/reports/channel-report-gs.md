@@ -46,7 +46,7 @@ ht-degree: 0%
 
 開始之前，請檢查您是否有許可權存取&#x200B;**[!UICONTROL 報表]**&#x200B;功能表。
 
-如果您看不到&#x200B;**[!UICONTROL 報表]**&#x200B;功能表，必須擴充您的存取許可權以包含&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權。 如果您擁有貴組織的Adobe Experience Platform [許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"}存取權，您可以擴充自己的許可權。 如果沒有，請連絡您的Adobe Journey Optimizer管理員。
+如果您看不到&#x200B;**[!UICONTROL 報表]**&#x200B;功能表，必須擴充您的存取許可權以包含&#x200B;**[!UICONTROL 檢視管道報表]**&#x200B;許可權。 如果您擁有貴組織的Adobe Experience Platform [許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant){target="_blank"}存取權，您可以擴充自己的許可權。 如果沒有，請連絡您的Adobe Journey Optimizer管理員。
 
 +++瞭解如何指派報告許可權
 

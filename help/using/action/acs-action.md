@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 護欄和限制 {#important-notes}
 
-* 系統會自動為Adobe Campaign Standard動作定義每5分鐘4,000次呼叫的上限規則。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html){target="_blank"}中進一步瞭解異動訊息SLA。
+* 系統會自動為Adobe Campaign Standard動作定義每5分鐘4,000次呼叫的上限規則。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html){target="_blank"}中進一步瞭解異動訊息SLA。
 
 * Adobe Campaign Standard整合是透過動作清單中的專屬內建動作來設定。 必須針對每個沙箱進行此設定。
 

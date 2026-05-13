@@ -37,7 +37,7 @@ ht-degree: 0%
 >id="ajo_web_designer_modifications_views"
 >title="套用變更至選取的檢視"
 >abstract="變更只會套用至選取的檢視。 可使用&#x200B;**瀏覽**&#x200B;模式探索檢視，並導覽至檢視。 找不到您要尋找的檢視？"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="瞭解更多"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="瞭解更多"
 
 **單頁應用程式** (SPA)現在可以在網頁設計工具視覺化編輯器中撰寫。 這可讓您選取要套用網頁修改的特定的&#x200B;**檢視**。
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
 ## 在網頁SDK實作中定義檢視 {#define-views}
 
-在Adobe [!DNL Journey Optimizer]中可運用XDM檢視，讓行銷人員能夠透過Web視覺編輯器在SPA上執行Web個人化和實驗行銷活動。 [進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+在Adobe [!DNL Journey Optimizer]中可運用XDM檢視，讓行銷人員能夠透過Web視覺編輯器在SPA上執行Web個人化和實驗行銷活動。 [進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
-若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步驟。
+若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant#implement-xdm-views){target="_blank"}中列出的步驟。
 
 ## 在網頁設計工具中探索檢視 {#discover-views}
 

@@ -239,5 +239,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >將請求或回應裝載複製到您自己的程式碼時，請確定您將{USER_TOKEN}和{API_KEY}取代為有效值。 在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}檔案中瞭解如何擷取這些值。
+   >將請求或回應裝載複製到您自己的程式碼時，請確定您將{USER_TOKEN}和{API_KEY}取代為有效值。 在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant){target="_blank"}檔案中瞭解如何擷取這些值。
 
