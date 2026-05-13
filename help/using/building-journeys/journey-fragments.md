@@ -11,7 +11,7 @@ hide: true
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
 badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 10%
