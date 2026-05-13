@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
 badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 10%
 
 ---
@@ -77,8 +77,8 @@ ht-degree: 10%
 
 若要直接從詳細目錄建立片段：
 
-1. 導覽至&#x200B;**[!UICONTROL 歷程]** > **[!UICONTROL 片段]**&#x200B;索引標籤。
-1. 按一下&#x200B;**[!UICONTROL 建立片段]**。
+1. 導覽至&#x200B;**[!UICONTROL 歷程]** > **[!UICONTROL 歷程片段]**&#x200B;索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 建立歷程片段]**。
 1. 在片段製作畫布中，新增並設定歷程活動。
 1. 完成時，按一下&#x200B;**[!UICONTROL 儲存]**，將片段儲存為草稿。
 

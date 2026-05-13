@@ -39,7 +39,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edc6e8ac53eac365a86ac97e6ce7f3d37754e33
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 12%
@@ -156,7 +156,7 @@ ht-degree: 12%
 
 使用這些資訊在發佈之前監視歷程的複雜性。 如果裝載大小接近或超過限制，則歷程發佈失敗。 若要減少大小，請考慮簡化歷程邏輯或減少活動數量。
 
-預設限製為2 MB。 如果您需要申請更高的組織上限，請聯絡Adobe客戶服務。
+預設限製為4 MB。 如果您需要申請更高的組織上限，請聯絡Adobe客戶服務。
 
 如需閾值、警告和錯誤訊息以及疑難排解步驟的完整詳細資訊，請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。
 
