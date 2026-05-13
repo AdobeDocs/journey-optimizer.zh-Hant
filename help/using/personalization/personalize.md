@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在 Journey Optimizer 中個人化內容
+title: 在Journey Optimizer中個人化內容
 description: 開始使用個人化。
 feature: Personalization
 topic: Personalization
@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 24%
+source-wordcount: '608'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="個人化體驗"
->abstract="使用 **Adobe Journey Optimizer**，利用手邊關於他們的資料與資訊，調整給各個特定接收者的訊息。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。"
+>abstract="使用&#x200B;**Adobe Journey Optimizer**，利用您擁有的訊息相關資料與資訊，將訊息調整至每個特定收件者。 這可以是他們的名字、興趣、居住地、購買內容等。"
 
-[!DNL Adobe Journey Optimizer]個人化功能可讓您運用您擁有的訊息相關資料與資訊，將訊息調整至每個特定收件者。 可以是他們的姓氏、興趣、居住的地方、購買的產品等等。
+[!DNL Adobe Journey Optimizer]個人化功能可讓您運用您擁有的訊息相關資料與資訊，將訊息調整至每個特定收件者。 這可以是他們的名字、興趣、居住地、購買內容等。
 
 ## 個人化的運作方式
 
@@ -39,7 +39,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 您也可以運用&#x200B;**計算屬性**&#x200B;來個人化您的內容。 計算屬性可讓您將個別行為事件摘要為Adobe Experience Platform上可用的計算設定檔屬性。 [瞭解如何使用計算屬性](../audience/computed-attributes.md)
 
-此外，[!DNL Journey Optimizer]可讓您在個人化編輯器中運用Adobe Experience Platform的資料，來個人化您的內容。 若想這樣做，就必須先透過 API 呼叫，啟用查詢個人化所需的資料集。 完成後，您可以使用他們的資料在Journey Optimizer中個人化您的內容。 此功能目前在Beta版中提供。 [了解更多](../personalization/aep-data-perso.md)
+此外，[!DNL Journey Optimizer]可讓您在個人化編輯器中運用Adobe Experience Platform的資料，來個人化您的內容。 若要這麼做，必須首先透過API呼叫啟用查詢個人化所需的資料集。 完成後，您可以使用他們的資料在Journey Optimizer中個人化您的內容。 此功能目前在Beta版中提供。 [進一步瞭解](../personalization/aep-data-perso.md)
 
 ## 學習並實驗個人化 {#playground}
 
@@ -59,7 +59,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ➡️ [瞭解如何使用Personalization運算式的AI小幫手](../content-management/generative-personalization-expressions.md)
 
-## 讓我們深入探討
+## 讓我們更深入地探討
 
 現在您已瞭解&#x200B;**[!DNL Journey Optimizer]**&#x200B;中的個人化，是時候深入探討這些檔案區段以開始使用此功能了。
 
@@ -83,15 +83,23 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="不常使用" src="assets/do-not-localize/functions.png">
+<img alt="不頻繁" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>協助程式函式清單</strong></a>
 </div>
 <p></td>
 <td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="不頻繁" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Personalization配方</strong></a>
+</div>
+<p></td>
+<td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="不常使用" src="assets/do-not-localize/uc.png">
+<img alt="不頻繁" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization使用案例</strong></a>
@@ -99,13 +107,13 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 <p></td>
 </tr></table>
 
-## 作法影片{#video-perso}
+## 操作說明影片{#video-perso}
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448153?captions=chi_hant&quality=12)
 
-了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
+瞭解如何將設定檔的個人化新增至訊息，以及如何使用對象成員資格作為個人化區塊的先決條件。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 96%
+source-wordcount: '7709'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 96%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* 已新增新的&#x200B;**Personalization配方**&#x200B;頁面，為Journey Optimizer中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間配方（目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測）、字串配方（搭配變數指派使用`replaceAll`）以及條件式備援配方（使用`isEmpty`的空白欄位備援）。 [閱讀全文](../personalization/personalization-recipes.md)
+
+* 已更新&#x200B;**Personalization語法**&#x200B;檔案，其中擴充了簡介，澄清Handlebars (`{{...}}`)與PQL (`{%= ... %}`)語法之間的差異，包括使用表格、逸出常值雙引號的指引，以及適用於特殊屬性索引鍵&#x200B;**區段的新** PQL語法規則，涵蓋保留關鍵字、連字屬性索引鍵及數值事件ID。 還更正了反勾字元逸出的備註：連字欄位名稱可以直接在`{{...}}`區塊中參照；只有反勾語法會失敗。 [閱讀全文](../personalization/personalization-syntax.md)
+
+* **日期時間函式**&#x200B;檔案已新增真實世界的範例：針對`dateDiff`的倒數計時模式、針對`dayOfWeek`的週末與條件式工作日（附註說明如何使用歷程條件活動來路由使用案例），以及結合了`extractHours`與`extractMinutes`與前導零防護的純時間顯示模式。 [閱讀全文](../personalization/functions/dates.md)
+
+* **字串函式**&#x200B;檔案已更新`replaceAll`的新範例，說明如何將結果指派給`{% let %}`變數，以便在同一範本中重複使用多個運算式。 [閱讀全文](../personalization/functions/string.md#replace-all)
+
+* 已更新&#x200B;**陣列函式**&#x200B;檔案，其中包含新的&#x200B;**在陣列上進行反複運算**&#x200B;區段，以記錄Handlebars `{{#each}}`區塊協助程式，包含澄清的備註，說明僅個人化編輯器支援`{{#each}}`，且無法在歷程條件活動內使用。 [閱讀全文](../personalization/functions/arrays-list.md#each-loop)
 
 * **開始使用資料集**&#x200B;頁面已在系統資料集區段中更新為新的&#x200B;**輸入**&#x200B;專案，記錄&#x200B;_AJO輸入活動事件資料集_。 已新增附註，以釐清設定檔必須至少有一個訊息從[!DNL Journey Optimizer]傳送，才能在此資料集中擷取傳入訊息。 [閱讀全文](../data/get-started-datasets.md#system-datasets)
 

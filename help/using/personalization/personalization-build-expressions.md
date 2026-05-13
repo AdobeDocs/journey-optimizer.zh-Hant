@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 運算式，編輯器，關於，開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1563'
 ht-degree: 11%
 
 ---
@@ -155,6 +155,10 @@ Journey Optimizer也可讓您個人化訊息中的&#x200B;**URL**。 個人化 U
 * **[!UICONTROL 條件]** — 運用在程式庫中建立的條件式規則，將動態內容新增至您的訊息。 這可讓您根據條件建立訊息的多個變體。 [瞭解如何建立動態內容](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL 片段]** — 運用已建立或儲存至目前沙箱的運算式片段。 片段是可重複使用的元件，可跨[!DNL Journey Optimizer]個行銷活動和歷程參照。 此功能允許預先建置多個自訂內容區塊，可供行銷使用者在改良的設計流程中快速組合內容。 [瞭解如何使用運算式片段進行個人化](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>在尋找現成的運算式嗎？ **[Personalization訣竅](personalization-recipes.md)**&#x200B;頁面針對最常見的使用案例提供複製貼上模式：日期格式、倒數計時器、條件式遞補、僅限時間顯示等。
 
 一旦您的個人化運算式準備就緒，就需要由個人化編輯器驗證。 請參閱[此章節](../personalization/personalization-build-expressions.md)深入瞭解。
 

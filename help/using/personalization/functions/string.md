@@ -6,9 +6,19 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: 1955
 ht-degree: 6%
 
 ---
@@ -662,6 +672,30 @@ doesNotEndWith(person.emailAddress,".com")
 > 
 > 進一步瞭解[Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 >
+
++++範例 — 基本取代
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+傳回`Hello AJO`。
+
++++
+
++++真實世界的範例 — replaceAll之後的變數重新指派
+
+`replaceAll`會傳回新字串，但不會修改原始值。 若要多次重複使用清除的字串，請使用`{% let %}`將結果指派給變數：
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+`{% let %}`指派會儲存`replaceAll`的結果，因此可將其參照為`{{cleanName}}`，而無需再次呼叫函式。 這是正確的模式 — 不支援在其內部鏈結`replaceAll`或嘗試重新指派給相同的設定檔變數。
+
++++
 
 ## 右側修剪 {#rightTrim}
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3324'
 ht-degree: 97%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 97%
       + [結束您的歷程](using/building-journeys/end-journey.md)
       + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
       + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
-      + [歷程片段](using/building-journeys/journey-fragments.md)
    + 活動 {#about-journey-building}
       + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 97%
          + [條件](using/building-journeys/conditions.md)
       + [讀取客群](using/building-journeys/read-audience.md)
       + [等待](using/building-journeys/wait-activity.md)
+      + [歷程片段](using/building-journeys/journey-fragments.md)
       + [內容決策](using/building-journeys/content-decision.md)
       + [資料集查詢](using/building-journeys/dataset-lookup.md)
       + [動作](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 97%
          + [字串函式](using/personalization/functions/string.md)
       + 個人化使用案例 {#personalization-use-cases}
          + [個人化使用案例](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalization訣竅](using/personalization/personalization-recipes.md)
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康計劃處方電子郵件](using/personalization/perso-uc-plan-prescriptions.md)
