@@ -10,9 +10,35 @@ level: Intermediate
 keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
+TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1770
 ht-degree: 2%
 
 ---
@@ -34,9 +60,9 @@ ht-degree: 2%
 
 左上角的&#x200B;**[!UICONTROL 篩選專案]**&#x200B;圖示可讓您顯示下列篩選器：
 
-* **僅顯示可用的專案**：隱藏或顯示浮動視窗中無法使用的元素，例如使用與歷程所用名稱空間不同的名稱空間的事件。 依預設，會隱藏無法使用的專案。 如果您選擇顯示，這些區段將會顯示為灰色。
+* **僅顯示可用的專案**：隱藏或顯示浮動視窗中無法使用的元素，例如使用與歷程所用名稱空間不同的名稱空間的事件。 依預設，系統會隱藏無法使用的項目。 如果您選擇顯示，這些區段將會顯示為灰色。
 
-* **僅顯示最近使用的專案**：此篩選器除了現成可用的專案之外，還允許您僅顯示最近使用的五個事件和動作。 這特定於每位使用者。 依預設，會顯示所有專案。
+* **僅顯示最近使用的專案**：此篩選器除了現成可用的專案之外，還允許您僅顯示最近使用的五個事件和動作。 這特定於每位使用者。 預設情況下，所有項目都會顯示。
 
 您也可以使用&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位。 系統只會篩選事件和動作。
 
@@ -92,6 +118,8 @@ ht-degree: 2%
 
 在協調活動中，使用&#x200B;**讀取對象**&#x200B;活動來設定您的歷程以聆聽[!DNL Adobe Experience Platform]對象。 [進一步了解讀取對象活動](read-audience.md)。
 
+使用&#x200B;**歷程片段**，將預先建立的歷程節點的可重複使用集合直接插入畫布。 片段可協助團隊從頭開始重新建置相同的邏輯（例如資格檢查、管道路由或歡迎序列），以維持一致並加快行動速度。 [進一步瞭解歷程片段](journey-fragments.md)。
+
 其他活動可讓您新增條件至歷程以定義數個路徑、在執行下一個活動之前設定等待時間，或結束歷程。 [進一步瞭解協調活動](about-journey-activities.md#orchestration-activities)。
 
 ### 動作{#jo-actions}
@@ -143,5 +171,5 @@ ht-degree: 2%
 1. 按&#x200B;**Ctrl/Command + C**。
 如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
    ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
-1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動將連結至節點。
+1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
    ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)

@@ -10,9 +10,51 @@ level: Beginner, Intermediate
 keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: 5499
 ht-degree: 1%
 
 ---
@@ -65,7 +107,7 @@ ht-degree: 1%
 歷程包含：
 
 * **事件**：觸發歷程的進入點（例如，設定檔資格、業務事件）
-* **協調活動**：條件、等待、讀取對象和結束等邏輯元件
+* **協調活動**：邏輯元件，例如條件、等待、讀取對象、歷程片段和結束
 * **動作**：執行工作的活動，例如傳送訊息、更新設定檔或呼叫外部API
 * **內建頻道動作**：電子郵件、簡訊、推播和其他頻道的原生訊息功能
 * **自訂動作**：與協力廠商系統整合
@@ -352,6 +394,29 @@ Journey Optimizer提供幾個時區管理選項：
 **提示**：使用歷程上限規則來限制客戶在所有歷程中接收的訊息總數。
 
 深入瞭解[等待活動](wait-activity.md)和[歷程上限](../conflict-prioritization/journey-capping.md)。
+
++++
+
++++ 什麼是歷程片段？我應該在何時使用它們？
+
+**歷程片段**&#x200B;是可重複使用的歷程節點集，您只需建立一次，並插入至您沙箱內的任何歷程中。 它們可作為歷程畫布中的協調活動。
+
+**何時使用歷程片段**：
+
+* 您的邏輯會在多個歷程中重複（例如，資格檢查、偏好的管道路由、歡迎序列）
+* 您想要跨團隊強制實施一致性 — 只須定義模式一次，便可在任何地方重複使用
+* 您想要避免從頭開始重建通用節點序列，以加速歷程的建立
+
+**要注意的關鍵行為**：
+
+* 插入片段會建立其節點的&#x200B;**靜態復本** — 原始片段的更新&#x200B;**不會**&#x200B;傳播到已使用該片段的歷程
+* 只能將&#x200B;**作用中**&#x200B;片段插入歷程中
+* 片段屬於沙箱範圍，每個沙箱最多支援20個節點和200個作用中片段
+* 片段內不允許[跳轉](jump.md)活動
+
+**與跳轉活動的差異**： [跳轉活動](jump.md)在執行階段將設定檔重新導向另一個即時歷程。 歷程片段在設計時將節點複製到目前的歷程 — 它們是建置時間重複使用機制，而不是執行階段路由機制。
+
+深入瞭解[歷程片段](journey-fragments.md)。
 
 +++
 
@@ -904,8 +969,8 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 
 **最佳實務**：讓您的歷程重點突出，易於管理。 如果您的歷程變得複雜，請考慮：
 
-* 使用跳轉活動將其分為多個歷程
-* 在較簡單的歷程中建立可重複使用的模式
+* 使用[跳轉活動](jump.md)將其分成多個歷程
+* 將重複的邏輯擷取到[歷程片段](journey-fragments.md)，以跨歷程重複使用，而不需從頭重新建置
 * 使用更有效率的條件簡化邏輯
 * 檢視是否所有活動都需要
 
