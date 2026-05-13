@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 06eb9ee92c7241a070352a0bb7bb5b22c902516b
+source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
 workflow-type: tm+mt
-source-wordcount: 1893
+source-wordcount: 1986
 ht-degree: 13%
 
 ---
@@ -30,14 +30,14 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>Journeys運算式代理程式</strong><br/></th>
+<th><strong>歷程運算式的AI助理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在直接在Journey進階運算式編輯器中加入運算式助理。 它由AI提供技術支援，可幫助您從純語言說明產生新的運算式。</p>
-<p>此功能以公開 Beta 版的形式提供給所有客戶。</p>
+<p>Adobe Journey Optimizer現在直接在歷程進階運算式編輯器中納入歷程運算式</strong>的<strong>AI助理。 它由AI提供技術支援，可幫助您從純語言說明產生新的運算式。</p>
+<p>此功能以公用Beta的形式提供給所有客戶。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -54,7 +54,7 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
+<p>您現在可以將<strong>決定原則</strong>新增至直接郵件歷程與行銷活動。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -65,13 +65,13 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>單次歷程的自動完成</strong><br/></th>
+<th><strong>非循環對象的自動歷程關閉</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>一旦最後一個作用中的設定檔結束，非循環讀取對象歷程現在會自動關閉。 以前，這些歷程保持上線狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 經過這項改善後，單次歷程在執行完成時就會轉換為已關閉狀態，讓您的歷程清查保持準確，無需手動干預。</p>
+<p>一旦最後一個使用中的設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動關閉。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，這些歷程會在執行完成後立即轉換為<strong>已完成</strong>狀態，讓您的歷程清查保持準確，無需手動干預。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -105,7 +105,7 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>使用新的「最佳化」節點來鎖定特定對象，以決定符合以業務為中心的KPI的最佳途徑。</p>
+<p>使用新的<strong>最佳化</strong>節點來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
 <p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
@@ -136,13 +136,14 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Manager的內容片段</strong><br/></th>
+<th><strong>增強的Adobe Experience Manager內容片段支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以像管理原生Adobe Experience Manager和運算式片段一樣輕鬆管理HTML內容片段。</p>
+<p>此版本包含數個增強功能，可讓Adobe Experience Manager內容片段在Journey Optimizer編寫工作流程中更實用、更易於控管，且更易於投入生產。</p>
+<p>Journey Optimizer現在可以直接從Adobe Experience Manager製作層級提取內容片段，而無需先發佈它們。 在整個訊息中維護片段內容，讓作者可在後續內容區塊中重複使用片段的欄位，而無需重新選取片段。 此版本也改善無效或過期內容片段的生命週期處理，並新增地區設定和變數支援，讓行銷人員可以更刻意使用相同內容片段的替代版本。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -176,7 +177,7 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>為了支援新增RCS，已更新行動訊息工作流程。 SMS、MMS和RCS現在可在Adobe Journey Optimizer中方便地分組到單一行動訊息頻道下。</p>
+<p>為了支援新增RCS，已更新<strong>行動訊息工作流程</strong>。 SMS、MMS和RCS現在可方便地分組到Adobe Journey Optimizer中的單一<strong>行動訊息</strong>頻道下。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -211,9 +212,8 @@ ht-degree: 13%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將歷程設定為模擬。 此模式可讓您使用模擬的使用者來驗證邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。
-透過「一般可用性」版本，您現在可以直接在「模擬」選單中使用AI產生模擬使用者。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
+<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。透過「一般可用性」發行，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
 <p>推出日期： 2026年5月28日</p>
 </td>
