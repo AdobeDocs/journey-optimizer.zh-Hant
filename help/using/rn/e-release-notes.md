@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 88a58f65d19f2bd1d10c4d8cc6a3d63d50a6df8c
 workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 10%
+source-wordcount: 1954
+ht-degree: 11%
 
 ---
 
@@ -32,49 +31,14 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>歷程運算式的AI助理</strong><br/></th>
+<th><strong>RCS傳訊</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer現在直接在歷程進階運算式編輯器中納入歷程運算式</strong>的<strong>AI助理。 它由AI提供技術支援，可幫助您從純語言說明產生新的運算式。</p>
-<p>此功能以公用Beta的形式提供給所有客戶。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>直接郵件通道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將<strong>決定原則</strong>新增至直接郵件歷程與行銷活動。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>非循環讀取對象歷程的自動完成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>一旦最後一個使用中的設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動關閉。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
+<p>為了支援新增RCS，已更新<strong>行動訊息工作流程</strong>。 SMS、MMS和RCS現在可方便地分組到Adobe Journey Optimizer中的單一<strong>行動訊息</strong>頻道下。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -94,6 +58,25 @@ ht-degree: 10%
 <p>這可讓您將複雜的協調流程邏輯分解成更小且可重複使用的流程，以便從多個上層行銷活動呼叫，而非每次都重新建置。 在執行階段傳遞的裝載可用於下遊行銷活動中的細分和個人化，因此每個連結的行銷活動都可以根據其收到的內容採取行動。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
+<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。透過「一般可用性」發行，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
+<p>推出日期： 2026年5月28日</p>
 </td>
 </tr>
 </tbody>
@@ -136,18 +119,18 @@ ht-degree: 10%
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>增強的Adobe Experience Manager內容片段支援</strong><br/></th>
+<th><strong>直接郵件通道中的決策支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此版本包含數個增強功能，可讓Adobe Experience Manager內容片段在Journey Optimizer編寫工作流程中更實用、更易於控管，且更易於投入生產。</p>
-<p>Journey Optimizer現在可以直接從Adobe Experience Manager製作層級提取內容片段，而無需先發佈它們。 在整個訊息中維護片段內容，讓作者可在後續內容區塊中重複使用片段的欄位，而無需重新選取片段。 此版本也改善無效或過期內容片段的生命週期處理，並新增地區設定和變數支援，讓行銷人員可以更刻意使用相同內容片段的替代版本。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+<p>您現在可以將<strong>決定原則</strong>新增至直接郵件歷程與行銷活動。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -157,14 +140,14 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager存放庫設定</strong><br/></th>
+<th><strong>內容警告器選擇器</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，Adobe Journey Optimizer存取Adobe Experience Manager內容的方式有了彈性。 此版本引進了切換來源存放庫的功能，以存放您的歷程和行銷活動中使用的內容片段。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器支援所有資產的瀏覽、搜尋和篩選，包括Dynamic Media轉譯，並整合增強的使用者介面功能，讓您在使用動態資產時輕鬆新增影像轉譯。</p>
+<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -174,19 +157,57 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>RCS傳訊</strong><br/></th>
+<th><strong>非循環讀取對象歷程的自動完成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了支援新增RCS，已更新<strong>行動訊息工作流程</strong>。 SMS、MMS和RCS現在可方便地分組到Adobe Journey Optimizer中的單一<strong>行動訊息</strong>頻道下。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
+<p>一旦最後一個使用中的設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動關閉。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Enhanced Adobe Experience Manager Content Fragments support</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This release brings several enhancements to make Adobe Experience Manager Content Fragments more usable, more governable, and more production-ready within Journey Optimizer authoring workflows.</p>
+<p>Journey Optimizer can now pull Content Fragments directly from the Adobe Experience Manager authoring tier, without requiring them to be published first. Fragment context is maintained across the full message, allowing authors to reuse a fragment's fields in later content blocks without reselecting it. This release also improves lifecycle handling for invalid or expired Content Fragments, and adds locale and variation support so marketers can work with alternate versions of the same Content Fragment more intentionally.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager repository configuration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have flexibility in how Adobe Journey Optimizer accesses your Adobe Experience Manager content. This release introduces the ability to switch the source repository for Content Fragments used in your journeys and campaigns.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>Availability date: May 19, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 <table>
 <thead>
@@ -209,16 +230,16 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>歷程模擬</strong><br/></th>
+<th><strong>歷程運算式的AI助理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
-<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。透過「一般可用性」發行，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
-<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
-<p>推出日期： 2026年5月28日</p>
+<p>Adobe Journey Optimizer現在直接在歷程進階運算式編輯器中納入歷程運算式</strong>的<strong>AI助理。 它由AI提供技術支援，可幫助您從純語言說明產生新的運算式。</p>
+<p>此功能以公用Beta的形式提供給所有客戶。</p>
+<p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
+<p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
 </tbody>
@@ -373,7 +394,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -765,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1056,7 +1077,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1309,7 +1330,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1486,7 +1507,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
