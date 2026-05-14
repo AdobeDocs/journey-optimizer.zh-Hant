@@ -9,23 +9,25 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
+source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
 workflow-type: tm+mt
-source-wordcount: 1986
-ht-degree: 13%
+source-wordcount: 2054
+ht-degree: 10%
 
 ---
 
 
 ## 2026年5月發行前注意事項 {#may-26-rn}
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面及更新的文件會在發行當日發佈於發行說明。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的檔案會在變更上線生產時發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出 — 如需詳細資訊，請參閱每個專案所列的「推出日期」。
 
 另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 **發行日期**： 2026年5月19至20日
 
 ### 新功能 {#may-26-features}
+
+此版本鎖定了下列功能。
 
 <table>
 <thead>
@@ -65,13 +67,13 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>非循環對象的自動歷程關閉</strong><br/></th>
+<th><strong>非循環讀取對象歷程的自動完成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>一旦最後一個使用中的設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動關閉。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，這些歷程會在執行完成後立即轉換為<strong>已完成</strong>狀態，讓您的歷程清查保持準確，無需手動干預。</p>
+<p>一旦最後一個使用中的設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動關閉。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -82,13 +84,14 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>從結束活動觸發協調的行銷活動</strong><br/></th>
+<th><strong>連結的協調行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以直接從另一個已協調行銷活動的「結束」活動觸發已協調行銷活動。 您可以選擇將引數傳遞至目標促銷活動。</p>
+<p>現在，只要直接從其他協調行銷活動的<strong>結束活動</strong>觸發協調的行銷活動，即可將協調的行銷活動連結在一起。</p>
+<p>這可讓您將複雜的協調流程邏輯分解成更小且可重複使用的流程，以便從多個上層行銷活動呼叫，而非每次都重新建置。 在執行階段傳遞的裝載可用於下遊行銷活動中的細分和個人化，因此每個連結的行銷活動都可以根據其收到的內容採取行動。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -188,13 +191,13 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>從協調行銷活動中的檔案鎖定目標</strong><br/></th>
+<th><strong>針對協調行銷活動的檔案式目標定位</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用平面檔案作為協調行銷活動的對象來源，而無需先將檔案擷取至Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。</p>
+<p>協調的行銷活動現在支援直接將CSV或TXT檔案載入行銷活動畫布作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 這支援無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。 </p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>檔案JIRA工作： <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
 <p>推出日期： 2026年5月28日</p>
@@ -223,17 +226,20 @@ ht-degree: 13%
 
 ### 改善 {#may-26-improv}
 
-以下列舉部分發布內容附上的改良功能。
+此版本鎖定了下列改善專案。
 
+<!--
 #### AI
 
-* **Journey Agent — 分析** - Journey Agent現在包含新的分析技能。 導覽至Journey首頁畫面時，右側會出現新的AI建議面板，其中顯示具有可操作深入分析的卡片。 按一下卡片會直接將您導向到相關歷程，並開啟右側面板，其中包含協助最佳化歷程效能的詳細建議。
+* **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
 
-  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+  This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 
-  檔案JIRA工作： [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+  Documentation JIRA task: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
-  推出日期： 2026年5月19日
+  Availability date: May 19, 2026
+
+-->
 
 #### 行銷活動
 
@@ -245,7 +251,7 @@ ht-degree: 13%
 
   推出日期： 2026年5月19日
 
-* **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱，或直接從行銷活動詳細目錄訂閱特定行銷活動。
+* **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
 
   檔案JIRA工作： [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -331,11 +337,13 @@ ht-degree: 13%
 
 #### 電子郵件
 
-* **收件者的電子郵件標頭個人化** — 您現在可以使用個人化引數覆寫全域管道設定，以自訂協調行銷活動層級的電子郵件標頭。
+**個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
 
-  檔案JIRA工作： [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
 
-  推出日期： 2026年5月29日
+檔案JIRA工作： [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+推出日期： 2026年5月29日
 
 #### 報告
 
