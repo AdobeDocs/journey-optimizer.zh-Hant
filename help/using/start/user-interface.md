@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1524
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -384,33 +384,33 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="「AEM設定說明"
->abstract="進一步瞭解如何建立和管理設定"
+>title="AEM 設定說明"
+>abstract="深入了解建立和管理設定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="執行個體設定"
->abstract="為您的設定選取適當的執行個體組態型別。 </br>僅供作者使用的設定：使用AEM作者執行個體的內容片段。 不支援發佈執行個體設定和即時更新。</br>發佈執行個體設定：設定發佈執行個體設定。 可選擇啟用「將Token傳送至發佈執行個體」以提供驗證的服務認證。"
+>abstract="為您的設定選取適當的執行個體設定類型。 </br>僅限作者設定：使用來自 AEM 作者執行個體的內容片段。 不支援發佈執行個體設定和即時更新。</br>發佈執行個體設定：設定發佈執行個體設定。 可選擇啟用「將權杖傳送至發佈執行個體」以提供用於驗證的服務認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
->title="傳送Token至發佈執行個體"
->abstract="啟用後，會傳送服務認證，以驗證發佈執行個體的請求。 在下方提供有效的服務認證JSON。"
+>title="將權杖傳送至發佈執行個體"
+>abstract="啟用後，將會傳送服務認證，以驗證發佈執行個體的請求。 請在下方提供有效的服務認證 JSON。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="貼上服務認證JSON"
->abstract="瀏覽公開的技術帳戶檔案，在建立您的AEM服務認證JSON後貼上。 它將會自動格式化及驗證。"
+>title="貼上服務認證 JSON"
+>abstract="透過瀏覽公開的技術帳戶文件，在建立您的 AEM 服務認證 JSON 後將其貼上。 它將自動進行格式設定並驗證。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="自訂網域"
->abstract="選填。 提供自訂網域ifpublish-p16552-e147195.adobeaemcloud.comis，以防止為您的組織擷取內容"
+>abstract="選填。 提供自訂網域 ifpublish-p16552-e147195.adobeaemcloud.comis，以防止為您的組織擷取內容"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="運算式助理"
->abstract="使用Expression Assistant在Journey Optimizer中產生並調整運算式。"
+>abstract="使用運算式助理，在 Journey Optimizer 中產生並調整運算式。"

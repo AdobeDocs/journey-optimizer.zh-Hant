@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -143,12 +143,12 @@ ht-degree: 12%
 
 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-## 歷程裝載大小 {#journey-payload-size}
+## 歷程承載大小 {#journey-payload-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
->title="目前歷程裝載大小"
->abstract="顯示與設定限制相較之歷程承載的目前大小。 使用此指標可在發佈前監控歷程複雜性，並避免因超過裝載大小限制而造成的錯誤。"
+>title="目前歷程承載大小"
+>abstract="顯示歷程承載相較於設定之限制的目前大小。 使用此指標以在發佈前監視歷程複雜性，並避免因超過承載大小限制而造成的錯誤。"
 
 歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示與設定限制相關的歷程裝載目前大小，例如&#x200B;*1.5 MB （共2 MB）*。 此唯讀指標可在歷程編寫的任何階段顯示。
 
