@@ -11,38 +11,16 @@ keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d23fcf83-6e65-4279-a3fc-9ed74b042ff2
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d23fcf83-6e65-4279-a3fc-9ed74b042ff2id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1did: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -107,7 +85,7 @@ ht-degree: 12%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
@@ -143,12 +121,12 @@ ht-degree: 12%
 
 [深入瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-## 歷程裝載大小 {#journey-payload-size}
+## 歷程承載大小 {#journey-payload-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
->title="目前歷程裝載大小"
->abstract="顯示與設定限制相較之歷程承載的目前大小。 使用此指標可在發佈前監控歷程複雜性，並避免因超過裝載大小限制而造成的錯誤。"
+>title="目前歷程承載大小"
+>abstract="顯示歷程承載相較於設定之限制的目前大小。 使用此指標以在發佈前監視歷程複雜性，並避免因超過承載大小限制而造成的錯誤。"
 
 歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示與設定限制相關的歷程裝載目前大小，例如&#x200B;*1.5 MB （共2 MB）*。 此唯讀指標可在歷程編寫的任何階段顯示。
 
@@ -219,7 +197,7 @@ ht-degree: 12%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -264,7 +242,7 @@ ht-degree: 12%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
