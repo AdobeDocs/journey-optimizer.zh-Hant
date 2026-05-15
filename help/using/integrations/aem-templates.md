@@ -11,25 +11,12 @@ level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 774
@@ -81,7 +68,7 @@ ht-degree: 3%
 
    ![](assets/aem-outbound-menu.png)
 
-1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=zh-Hant#creating-a-new-page)
+1. 您可以從內容資料庫使用先前設定的範本或從頭開始建立範本。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. 將Journey Optimizer個人化語法合併至範本中，即可增強其自訂功能。 [了解更多](../personalization/personalization-syntax.md)
 
@@ -113,7 +100,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 範本屬性]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕，將自訂或核心資料使用標籤指派給範本。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**&#x200B;** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
+1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
 
    >[!WARNING]
    >

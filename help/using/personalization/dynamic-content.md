@@ -10,19 +10,12 @@ level: Intermediate
 keywords: 運算式，編輯器，動態，內容
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 TQID: https://experienceleague.adobe.com/j9jmVxc9Pn53hghR-2sUGXjcczfQibs5XTGuD7gwiI4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 655
@@ -93,7 +86,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-select.png)
 
-   您也可以按一下[新建] **&#x200B;**&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
+   您也可以按一下[新建] ****&#x200B;來建立新規則。 [瞭解如何建立條件](create-conditions.md)
 
 1. 條件式規則會與變體相關聯。 若要提高可讀性，請從[更多動作]圖示中選取&#x200B;**[!UICONTROL 重新命名]**&#x200B;動作，以重新命名變體。
 
