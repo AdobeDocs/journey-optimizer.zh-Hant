@@ -4,15 +4,14 @@ product: journey optimizer
 title: Journey Optimizer 搶鮮版發行說明
 description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
-hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 916ac37acb0101d02e7c0da87b36a23e362b359a
+source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 13%
+source-wordcount: 1605
+ht-degree: 11%
 
 ---
 
@@ -32,13 +31,13 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
-<th><strong>RCS傳訊</strong><br/></th>
+<th><strong>新的行動訊息頻道和增強的RCS訊息</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>為了支援新增RCS，已更新<strong>行動訊息工作流程</strong>。 SMS、MMS和RCS現在可方便地分組到Adobe Journey Optimizer中的單一<strong>行動訊息</strong>頻道下。</p>
+<p>SMS、MMS和RCS現在整合在Adobe Journey Optimizer中的單一<strong>行動訊息</strong>動作下，因此更易從單一位置管理所有行動訊息型別。 在此更新中，您現在可以透過新的原生撰寫體驗，直接在Journey Optimizer中撰寫豐富媒體RCS訊息（包括影像、輪播和建議的動作）。</p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -62,23 +61,6 @@ ht-degree: 13%
 </tbody>
 </table>
 
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
-<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。透過「一般可用性」發行，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
-<p>推出日期： 2026年5月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -204,6 +186,40 @@ ht-degree: 13%
 <table>
 <thead>
 <tr>
+<th><strong>歷程運算式的AI助理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
+<p>此功能以公用Beta的形式提供給所有客戶。</p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
+<p>此功能先前以「有限可用性」發行，現在可供所有環境使用（一般可用性）。透過「一般可用性」發行，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
+<p>推出日期： 2026年5月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>針對協調行銷活動的檔案式目標定位</strong><br/></th>
 </tr>
 </thead>
@@ -218,22 +234,7 @@ ht-degree: 13%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程運算式的AI助理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
-<p>此功能以公用Beta的形式提供給所有客戶。</p>
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 ### 改善 {#may-26-improv}
 
@@ -270,12 +271,14 @@ ht-degree: 13%
 
   推出日期： 2026年5月19日
 
-#### 設定
+<!--
+#### Configuration
 
-* **高輸送量推播的效能附加元件** - API觸發的行銷活動中有新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 請聯絡您的 Adobe 代表以取得更多資訊。
+* **Performance Add-on for high-throughput Push** - A new high throughput transactional messaging mode is available in API-triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. Previously only available for the email channel, this capability is now also available for the push channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.
 
 
-  推出日期： 2026年5月19日
+  Availability date: May 19, 2026
+-->
 
 #### 決策
 
@@ -355,12 +358,12 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
 #### 電子郵件
 
-**個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
+* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
 
-可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
+  可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
 
 
-推出日期： 2026年5月29日
+  推出日期： 2026年5月29日
 
 <!--
 # Pre-release notes {#e-release-notes}
