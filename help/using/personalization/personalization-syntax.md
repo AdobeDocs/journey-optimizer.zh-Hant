@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalization語法
+title: 個人化語法
 description: 瞭解如何使用個人化語法。
 feature: Personalization
 topic: Personalization
@@ -23,11 +23,11 @@ topic_v2:
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1299
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Personalization語法 {#personalization-syntax}
+# 個人化語法 {#personalization-syntax}
 
 [!DNL Journey Optimizer]中的Personalization使用兩種互補語法，在相同的運算式中一起運作：
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 瞭解您所在的環境是避免執行階段錯誤的關鍵。 例如，置於`{{...}}`內的PQL函式呼叫將失敗，因為Handlebars會嘗試將其解析為協助程式，而不是將其評估為PQL運算式。
 
-**範例：**
+**範例:**
 
 | 使用案例 | 語法 |
 |----------|--------|
@@ -45,7 +45,7 @@ ht-degree: 0%
 | 條件區塊 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在陣列上回圈 | `{{#each profile.orders}}...{{/each}}` |
 
-屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [深入瞭解](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
+屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
 >[!TIP]
 >
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見案例：
 
-| 情境 | 解決方案 |
+| 藍本 | 解決方案 |
 |----------|----------|
 | 儲存為字串的數值 | 在算術或比較前使用`stringToNumber()`： `{%= stringToNumber(profile.loyalty.pointsBalance) > 500 %}` |
 | 儲存為字串的整數 | 在算術前使用`string_to_integer()`或`stringToNumber()` |
@@ -144,7 +144,7 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
 ## 可用的名稱空間 {#namespaces}
 
-* **設定檔**
+* **輪廓**
 
   此名稱空間可讓您參考[Adobe Experience Platform資料模型(XDM)檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}中所述的設定檔結構描述中定義的所有屬性。
 
@@ -164,11 +164,11 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++
 
-* **對象**
+* **客群**
 
   若要深入瞭解細分服務，請參閱[此檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}。
 
-* **選件**
+* **產品建議**
 
   此名稱空間可讓您參考現有的優惠決定。
 
@@ -207,7 +207,7 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++
 
-## 協助程式 {#helpers-all}
+## 輔助程式 {#helpers-all}
 
 Handlebars協助程式是簡單識別碼，後面可能會接著引數。 每個引數都是Handlebars運算式。 這些協助程式可從範本中的任何內容存取。
 
@@ -232,7 +232,7 @@ Handlebars協助程式是簡單識別碼，後面可能會接著引數。 每個
 >
 >個人化運算式無法使用&#x200B;**xEvent**&#x200B;變數。 對xEvent的任何參考都會導致驗證失敗。
 
-## 最佳實務 {#best-practices}
+## 最佳做法 {#best-practices}
 
 在建立個人化運算式之前，請先檢閱這些語法規則。 大多數執行階段錯誤來自混合Handlebars和PQL內容。
 

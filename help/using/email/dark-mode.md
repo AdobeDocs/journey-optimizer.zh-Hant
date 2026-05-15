@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 切換到深色模式
+title: 切換至深色模式
 description: 瞭解如何在電子郵件Designer中使用深色模式
 feature: Email Design
 topic: Content Management
@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1517
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
->title="切換到深色模式"
->abstract="切換到深色模式，您可以在其中預覽其呈現方式，並定義特定的自訂設定。 <br>最終呈現取決於收件者的電子郵件使用者端。 請注意，所有電子郵件使用者端都不支援自訂深色模式。"
+>title="切換至深色模式"
+>abstract="切換至深色模式，而您可以預覽其轉譯方式並定義特定的自訂設定。 <br>最終的轉譯結果取決於收件者的電子郵件用戶端。 請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
->title="切換到深色模式"
->abstract="切換到深色模式以預覽其在支援的電子郵件使用者端上可能呈現的方式。 <br>最終呈現取決於收件者的電子郵件使用者端。 請注意，所有電子郵件使用者端都不支援深色模式。"
+>title="切換至深色模式"
+>abstract="切換至深色模式，以預覽它在支援的電子郵件用戶端上的呈現方式。 <br>最終的轉譯結果取決於收件者的電子郵件用戶端。 請注意，所有電子郵件用戶端都不支援深色模式。"
 
 設計電子郵件時，[!DNL Journey Optimizer] [電子郵件Designer](get-started-email-design.md)可讓您切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;檢視。
 
@@ -127,11 +127,11 @@ ht-degree: 0%
 
 為獲得最佳結果，請使用您定位的電子郵件使用者端測試您的內容。 若要檢視儘可能接近每個使用者端最終結果的模擬，請使用電子郵件Designer中的[電子郵件呈現](../content-management/rendering.md)選項。
 
-## 電子郵件Designer中的深色模式 {#dark-mode-email-designer}
+## 電子郵件設計工具中的深色模式 {#dark-mode-email-designer}
 
 在電子郵件Designer中，若要使用深色模式，必須考量兩個方面：
 
-* 您可以預覽預設深色模式在大多數支援的電子郵件使用者端中的呈現方式。 [進一步瞭解](#preview-dark-mode)
+* 您可以預覽預設深色模式在大多數支援的電子郵件使用者端中的呈現方式。 [了解更多](#preview-dark-mode)
 
 <!--
     >[!CAUTION]
@@ -139,7 +139,7 @@ ht-degree: 0%
     >The final rendering may vary according to the recipient's email client. To see the exact rendering for each email client, use the [Email rendering](../content-management/rendering.md) option.
 -->
 
-* 如果您想要覆寫支援電子郵件使用者端的預設設定，可以定義套用至正在編輯之電子郵件的自訂深色模式設定。 [進一步瞭解](#define-custom-dark-mode)
+* 如果您想要覆寫支援電子郵件使用者端的預設設定，可以定義套用至正在編輯之電子郵件的自訂深色模式設定。 [了解更多](#define-custom-dark-mode)
 
 <!--
     >[!WARNING]
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 若要存取電子郵件Designer中的深色模式，並取得預設深色模式設定的預覽，請遵循下列步驟。
 
-1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。 [進一步瞭解](content-from-scratch.md)
+1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 從草稿開始設計]**&#x200B;選項。 [了解更多](content-from-scratch.md)
 
 <!--
 Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
@@ -191,13 +191,13 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="將特定影像用於深色模式"
->abstract="您可以選取在深色模式開啟時顯示的另一個影像。 <br>新增深色模式的特定影像，無法保證在所有電子郵件使用者端中都能正確轉譯。 請注意，所有電子郵件使用者端都不支援自訂深色模式。"
+>abstract="您可以選取另一張影像，以在深色模式開啟時顯示。 <br>新增用於深色模式的特定影像，並不能保證其會在所有電子郵件用戶端中正確轉譯。 請注意，所有電子郵件用戶端都不支援自訂深色模式。"
 
 切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;後，您可以選擇編輯內容的特定樣式元素，這些樣式元素只有在收件者的電子郵件使用者端中啟用深色模式時才會顯示，前提是它支援該功能。
 
 >[!WARNING]
 >
->深色模式的最終呈現取決於每個電子郵件使用者端，因此結果可能因人而異。 [進一步瞭解](#guardrails)
+>深色模式的最終呈現取決於每個電子郵件使用者端，因此結果可能因人而異。 [了解更多](#guardrails)
 
 <!--
 >[!WARNING]
@@ -209,7 +209,7 @@ Here you can see that we have applied a different background, defined another im
 
 若要定義自訂深色模式設定，請遵循下列步驟。
 
-1. 請務必在電子郵件Designer中切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;預覽。 [瞭解如何進行](#preview-dark-mode)
+1. 請務必在電子郵件Designer中切換至&#x200B;**[!UICONTROL 深色模式]**&#x200B;預覽。 [了解作法](#preview-dark-mode)
 
 1. 編輯任何樣式色彩屬性，例如文字、背景、按鈕等。
 
@@ -237,7 +237,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >雖然模擬非常接近電子郵件在深色模式下的顯示方式，但由於電子郵件服務提供者或裝置層級設定的差異，實際呈現可能會有所不同。
 
-## 最佳實務 {#best-practices}
+## 最佳做法 {#best-practices}
 
 隨著主要電子郵件使用者端採用深色模式的人數增加，您必須考量您的電子郵件在明暗環境中呈現的方式，不論您是否使用[自訂深色模式](#define-custom-dark-mode)。
 

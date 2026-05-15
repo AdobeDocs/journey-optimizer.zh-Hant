@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 以屬性為基礎的存取控制
+title: 屬性型存取控制
 description: 以屬性為基礎的存取控制可讓您定義授權，以管理特定團隊或使用者群組的資料存取。
 feature: Access Management
 topic: Administration
@@ -31,11 +31,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1074
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 以屬性為基礎的存取控制 {#attribute-based-access}
+# 屬性型存取控制 {#attribute-based-access}
 
 以屬性為基礎的存取控制功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的在於保護敏感數位資產免受未經授權使用者的攻擊，進一步保護個人資料。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->&#x200B;>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant){target="_blank"}。
+>&#x200B;>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant){target="_blank"}。
 
 **[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL 角色]**&#x200B;的每個使用者都有權使用產品中包含的Adobe應用程式和服務。 您也可以建立自己的&#x200B;**[!UICONTROL 角色]**，以微調使用者對介面中特定功能或物件的存取權。
 

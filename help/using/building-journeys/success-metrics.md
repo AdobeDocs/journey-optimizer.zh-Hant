@@ -34,15 +34,15 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 595
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 設定及追蹤您的歷程量度 {#success-metrics}
+# 設定並追蹤歷程量度 {#success-metrics}
 
 透過歷程量度清楚掌握客戶歷程的成效。 此功能可讓您根據定義的KPI追蹤效能、發掘有效方法的深入分析，以及識別最佳化區域。 透過即時衡量影響，您可以推動持續改善，並以資料為基礎做出提升客戶參與度的決策。
 
-## 必要條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 
 在使用歷程量度之前，您必須在[!DNL Adobe Experience Platform]中的設定>報告下新增包含`Commerce Details`、`Web`和`Mobile` [欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=zh-Hant#field-group){target="_blank"}的資料集。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 如果您的資料集未設定，則只有下列量度可供使用： **[!UICONTROL 點按]**、**[!UICONTROL 不重複點按]**、**[!UICONTROL 點進率]**&#x200B;和&#x200B;**[!UICONTROL 開啟率]**。
 
-請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+請注意，使用Customer Journey Analytics授權可讓您建立自訂成功量度。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 量度 | 相關欄位群組 |

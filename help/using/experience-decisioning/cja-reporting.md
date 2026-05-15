@@ -54,4 +54,4 @@ This encompasses details related to the decision items performances and how user
 
 1. 建立&#x200B;**資料檢視**，並將其與先前建立的連線建立關聯。 在&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤中，選擇您要顯示在報告中的相關結構描述欄位。 針對決策，請確定您包含&#x200B;**propositioninteract**&#x200B;和&#x200B;**propositiondisplay**&#x200B;欄位。 [瞭解如何建立和設定資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
 
-1. 在&#x200B;**工作區專案**&#x200B;中結合資料元件、表格和視覺效果，以建立和共用程式碼型行銷活動的報告。 [瞭解如何建立工作區專案](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. 在&#x200B;**工作區專案**&#x200B;中結合資料元件、表格和視覺效果，以建立和共用程式碼型行銷活動的報告。 [瞭解如何建立工作區專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}

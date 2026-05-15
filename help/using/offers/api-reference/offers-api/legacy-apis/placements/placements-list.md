@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 清單版位
+title: 清單位置
 description: 版位是用來展示優惠方案的容器。
 feature: Decision Management, API
 badge: label="舊版" type="Informative"
@@ -23,18 +23,18 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 308
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# 清單版位 {#list-placements}
+# 清單位置 {#list-placements}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至優惠方案時，系統會要求您選取可顯示該內容的版位。
+版位是用來展示優惠方案的容器。 版位有助於確保正確的選件內容顯示在訊息的正確位置。 將內容新增至產品建議時，系統會要求您選取可顯示該內容的版位。
 
 您可以透過對[!DNL Offer Library] API執行單一GET請求，來檢視容器內所有位置的清單。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT}&{QUERY_PARAMS}
 ```
 
-| 引數 | 說明 | 範例 |
+| 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 存放庫API的端點路徑。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 位置所在的容器。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
@@ -59,7 +59,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 分頁最常見的查詢引數包括：
 
-| 引數 | 說明 | 範例 |
+| 參數 | 說明 | 範例 |
 | --------- | ----------- | ------- |
 | `q` | 在選取的欄位中搜尋的可選查詢字串。 查詢字串應為小寫，並可由雙引號包圍，以防止加以代碼化及逸出特殊字元。 字元`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`具有特殊意義，在查詢字串中出現時應該以反斜線逸出。 | 網站JSON |
 | `qop` | 將AND或OR運運算元套用至q查詢字串引數中的值。 | `AND` / `OR` |

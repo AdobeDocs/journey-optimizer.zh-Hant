@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3575
-ht-degree: 0%
+ht-degree: 26%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="行銷活動即時報告"
->abstract="行銷活動即時報表可讓您即時測量並視覺化行銷活動在過去24小時內的影響和效能。 您的報告會分成不同的Widget，詳細說明行銷活動的成功和錯誤。 每個報表控制面板都可藉由調整大小或移除Widget加以修改。"
+>abstract="行銷活動即時報告可即時測量和視覺化行銷活動的影響和效能，範圍僅限於過去 24 小時。 您的報告會分為不同的小工具，詳述行銷活動的成功和錯誤。 每個報告儀表板都可以透過調整大小或移除小工具來修改。"
 
 從「最近24小時」索引標籤存取的即時報告，會顯示過去24小時內發生的事件，從事件發生起的最短時間間隔為兩分鐘。 相較之下，Customer Journey Analytics報表著重於至少兩小時前發生的事件，並涵蓋選定時段內的事件。
 
@@ -44,12 +44,12 @@ ht-degree: 0%
 
 行銷活動&#x200B;**[!UICONTROL 即時報告]**&#x200B;頁面將會顯示以下索引標籤：
 
-* [Campaign](#campaign-live)
+* [促銷活動](#campaign-live)
 * [電子郵件](#email-live)
 * [應用程式內](#inapp-live)
 * [推播](#push-live)
 * [簡訊](#sms-live)
-* [Web](#web-tab)
+* [網頁](#web-tab)
 * [直接郵件](#direct-mail-tab)
 
 >[!AVAILABILITY]
@@ -83,16 +83,16 @@ ht-degree: 0%
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## 電子郵件索引標籤 {#email-live}
+## 電子郵件標籤 {#email-live}
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 電子郵件]**&#x200B;索引標籤會詳細說明與行銷活動中傳送之電子郵件相關的主要資訊。
 
-### 電子郵件 — 傳送績效 {#email-sending-performance}
+### 電子郵件 - 傳送效能 {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
->title="電子郵件 — 傳送統計資料"
->abstract="電子郵件 — 傳送統計資料圖表會摘要有關電子郵件的基本資料，例如過去24小時已鎖定或傳送。"
+>title="電子郵件 - 傳送統計資料"
+>abstract="「電子郵件 - 傳送統計資料」圖表總結有關你的電子郵件的基本資料，例如過去 24 小時內的指定對象或已送達的郵件。"
 
 ![](assets/campaign_email_live_sending.png)
 
@@ -109,12 +109,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 錯誤]**：在傳送過程中發生的錯誤總數，導致無法將其傳送至設定檔。
 +++
 
-### 電子郵件 — 統計資料
+### 電子郵件 - 統計資料
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
->title="電子郵件 — 統計資料"
->abstract="「電子郵件 — 統計資料」表格提供過去24小時您電子郵件的設定檔活動資料。"
+>title="電子郵件 - 統計資料"
+>abstract="「電子郵件 - 統計資料」表格提供過去 24 小時內你的電子郵件的設定檔活動資料。"
 
 ![](assets/campaign_email_live_statistics.png)
 
@@ -147,17 +147,17 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 重試]**：重試佇列中的電子郵件數目。
 +++
 
-### 電子郵件 — 退回類別和原因 {#bounce-categories}
+### 電子郵件 - 退回郵件的類別和原因 {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
->title="電子郵件 — 退回類別"
->abstract="電子郵件 — 退回類別圖表和表格提供過去24小時內的暫時和永久錯誤資料。"
+>title="電子郵件 - 退回類別"
+>abstract="「電子郵件 - 退回類別」圖表和表格提供有關過去 24 小時內暫時性和永久錯誤的資料。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"
->title="電子郵件 — 退回原因"
->abstract="「電子郵件 — 退信原因」圖表和表格包含與過去24小時內退信相關的可用資料。"
+>title="電子郵件 - 退回原因"
+>abstract="「電子郵件 - 退回原因」圖表和表格包含與過去 24 小時內退回郵件相關的可用資料。"
 
 ![](assets/campaign_live_email_bounce_categories.png)
 
@@ -175,12 +175,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 電子郵件 — 依據日期的績效 {#email-performance-date}
+### 電子郵件 - 依日期劃分的效能 {#email-performance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
->title="電子郵件 — 依據日期的績效"
->abstract="電子郵件 — 依日期效能圖表顯示過去24小時已傳送電子郵件的全面資料，提供關鍵量度（例如送達和跳出）的深入分析，允許電子郵件傳送過程的詳細分析。"
+>title="電子郵件 - 依日期劃分的效能"
+>abstract="「電子郵件 - 依日期劃分的效能」圖表顯示過去 24 小時內有關已傳送電子郵件的綜合資料，提供關鍵量度例如送出和退回郵件的洞察，進而對電子郵件傳送過程進行詳細分析。"
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -210,19 +210,19 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
->title="電子郵件 — 錯誤原因"
->abstract="電子郵件 — 錯誤原因圖表和表格可讓您識別過去24小時內傳送程式期間發生的特定錯誤。"
+>title="電子郵件 - 錯誤原因"
+>abstract="「電子郵件 - 錯誤原因」圖表和表格讓你能夠確認過去 24 小時內發送過程中發生的特定錯誤。"
 
 ![](assets/campaign_email_live_error.png)
 
 **[!UICONTROL 錯誤原因]**&#x200B;圖表和表格會針對過去24小時內傳送程式期間發生的特定錯誤，提供insight。 此資訊對於瞭解錯誤的性質和頻率非常有用。
 
-### 排除的原因 {#email-exclude-reasons}
+### 排除原因 {#email-exclude-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
->title="電子郵件 — 排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除，以及在過去24小時內未收到訊息的各種因素。"
+>title="電子郵件 - 排除原因"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_email_live_excluded.png)
 
@@ -230,18 +230,18 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
 
-### 電子郵件 — 最佳收件者網域 {#email-best-recipient}
+### 電子郵件 - 最佳收件者網域 {#email-best-recipient}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
->title="電子郵件 — 最佳收件者網域"
->abstract="電子郵件 — 最佳收件者網域圖表和表格提供收件者最常用來開啟電子郵件的網域詳細劃分，提供過去24小時內收件者行為的寶貴見解。"
+>title="電子郵件 - 最佳收件者網域"
+>abstract="「電子郵件 - 最佳收件者」網域圖表和表格提供收件者開啟電子郵件時最常使用網域的詳細劃分，針對過去 24 小時內的收件者行為提供重要的洞察。"
 
 ![](assets/campaign_email_live_recipient.png)
 
 **[!UICONTROL 電子郵件 — 最佳收件者網域]**&#x200B;圖表和表格提供過去24小時內設定檔最常用來開啟電子郵件之網域的完整劃分。 這可提供描述檔行為的寶貴見解，可幫助您瞭解偏好的平台。
 
-### 電子郵件 — 優惠方案 {#email-offers}
+### 電子郵件 - 產品建議 {#email-offers}
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
 >title="應用程式內績效"
->abstract="應用程式內績效KPI可針對訪客過去24小時內與應用程式內訊息的互動程度，提供重要的深入分析。"
+>abstract="應用程式內效能 KPI 提供有關訪客在過去 24 小時內參與應用程式內訊息的互動情況的必要洞察。"
 
 **[!UICONTROL 應用程式內績效]** KPI提供過去24小時內設定檔與應用程式內訊息互動的基本深入分析，提供評估應用程式內行銷活動成效和影響的基本量度。
 
@@ -285,7 +285,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_summary"
 >title="應用程式內摘要"
->abstract="應用程式內摘要圖表會說明應用程式內曝光次數和互動在過去24小時內的進展情況。"
+>abstract="應用程式內摘要圖表顯示過去 24 小時內應用程式內曝光與互動的進展。"
 
 **[!UICONTROL 應用程式內摘要]**&#x200B;圖表說明過去24小時內您應用程式內印象和互動的進度，提供您應用程式內訊息效能的完整概觀。
 
@@ -297,12 +297,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 依型別的互動 {#inapp-interactions}
+### 依類型劃分的互動 {#inapp-interactions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_interactions"
->title="依型別的互動"
->abstract="「依型別的互動」圖表和表格會追蹤過去24小時內的任何點按、解除或互動，以詳細說明使用者如何與您的應用程式內訊息互動。"
+>title="依類型劃分的互動"
+>abstract="「依類型劃分的互動」圖表和表格透過追蹤過去 24 小時內的任何點選、關閉或互動，詳細說明使用者如何與應用程式內訊息進行互動。"
 
 依型別&#x200B;**的**&#x200B;互動圖表和表格提供過去24小時內設定檔如何與您的應用程式內訊息互動、追蹤動作（例如點選、解除）或任何其他形式的參與之詳細描述。
 
@@ -310,12 +310,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 推播通知]**&#x200B;索引標籤會詳細說明與行銷活動中傳送之推播通知相關的主要資訊。
 
-### 推播通知 — 傳送績效 {#push-sending-performance}
+### 推播通知 - 傳送效能 {#push-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
->title="推播通知 — 傳送績效"
->abstract="「推播通知傳送績效」圖表會摘要推播通知的相關基本資料，例如「錯誤」或過去24小時的已傳送訊息。"
+>title="推播通知 - 傳送效能"
+>abstract="「推播通知傳送效能」圖表總結有關推播通知的基本資料，例如過去 24 小時內的錯誤或已送達的訊息。"
 
 ![](assets/campain_push_live_sending_performance.png)
 
@@ -331,12 +331,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 推播通知 — 統計資料 {#push-statistics}
+### 推播通知 - 統計資料 {#push-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
->title="推播通知 — 統計資料"
->abstract="「推播統計資料」表格提供過去24小時內推播通知的收件者活動資料。"
+>title="推播通知 - 統計資料"
+>abstract="「推播統計資料」表格提供過去 24 小時內推播通知的收件者活動相關資料。"
 
 ![](assets/campaign_push_live_statistics.png)
 
@@ -362,12 +362,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 推播通知 — 傳送摘要 {#push-sending-summary}
+### 推播通知 - 傳送摘要 {#push-sending-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
->title="推播通知 — 傳送摘要"
->abstract="「推播通知傳送摘要」圖表顯示過去24小時內已傳送推播通知的可用資料。"
+>title="推播通知 - 傳送摘要"
+>abstract="「推播通知發送摘要」圖表顯示過去 24 小時內已發送的推播通知的可用資料。"
 
 **[!UICONTROL 推播通知 — 統計資料]**&#x200B;圖表提供動態表示，顯示您過去24小時推播通知活動的分析。 此圖形表示提供已傳送推播通知的完整劃分。
 
@@ -385,32 +385,32 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 推播通知 — 排除的原因 {#push-excluded}
+### 推播通知 - 排除原因 {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
->title="推播通知 — 排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除，以及在過去24小時內未收到訊息的各種因素。"
+>title="推播通知 - 排除原因"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 **[!UICONTROL 排除的原因]**&#x200B;圖表和表格會顯示阻止使用者設定檔從目標設定檔排除的原因，導致其在過去24小時內無法接收推播通知。
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
 
-### 推播通知 — 錯誤原因 {#push-error}
+### 推播通知 - 錯誤原因 {#push-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
->title="推播通知 — 錯誤原因"
->abstract="「錯誤原因」圖表和表格可讓您識別在傳送過程中最近24小時發生的特定錯誤。"
+>title="推播通知 - 錯誤原因"
+>abstract="「錯誤原因」圖表和表格讓你能夠確認過去 24 小時內傳送過程中發生的特定錯誤。"
 
 **[!UICONTROL 錯誤原因]**&#x200B;表格和圖表可讓您識別過去24小時內推播通知傳送程式期間發生的特定錯誤，提供過程中所遇到任何問題的詳細深入分析。
 
-### 推播通知 — 依據平台的劃分 {#push-breakdown-platform}
+### 推播通知 - 依平台劃分 {#push-breakdown-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
->title="推播通知 — 依據平台的劃分"
->abstract="「依平台劃分」圖表和表格會根據收件者的作業系統，提供過去24小時內推播通知成功的劃分。"
+>title="推播通知 - 依平台劃分"
+>abstract="「依平台劃分」圖表和表格根據收件人的作業系統提供過去 24 小時內成功傳送的推播通知的劃分資料。"
 
 **[!UICONTROL 推播通知 — 依平台]**&#x200B;劃分圖表和表格提供過去24小時推播通知成功的詳細分析，根據您設定檔的作業系統提供深入分析。 此劃分可讓您更瞭解推播通知在不同平台上的執行情形。
 
@@ -432,16 +432,16 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-## 簡訊索引標籤 {#sms-live}
+## 簡訊標籤 {#sms-live}
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 簡訊]**&#x200B;索引標籤會詳細說明與行銷活動中傳送之簡訊相關的主要資訊。
 
-### 簡訊 — 統計資料 {#sms-statistics}
+### 簡訊 - 統計資料 {#sms-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_statistics"
->title="簡訊 — 統計資料"
->abstract="SMS傳送統計資料表格會摘要有關SMS訊息的基本資料，例如過去24小時內的已鎖定目標或已傳送訊息。"
+>title="簡訊 - 統計資料"
+>abstract="「簡訊傳送統計資料」表格總結有關簡訊的基本資料，例如過去 24 小時內指定對象或已送達的郵件。"
 
 ![](assets/campaign_live_sms_statistics.png)
 
@@ -465,12 +465,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 簡訊 — 依據日期的績效 {#sms-perfomance-date}
+### 簡訊 - 依日期劃分的效能 {#sms-perfomance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
->title="簡訊 — 依據日期的績效"
->abstract="依日期的SMS效能Widget透過圖形化呈現方式，提供過去24小時有關您訊息的重要資訊。"
+>title="簡訊 - 依日期劃分的績效"
+>abstract="「依日期劃分的簡訊效能」小工具透過圖形呈現方式提供過去 24 小時內有關你的簡訊的重要資訊。"
 
 ![](assets/campaign_live_sms_performance_date.png)
 
@@ -486,21 +486,21 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 簡訊 — 錯誤原因 {#sms-error-reasons}
+### 簡訊 - 錯誤原因 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
->title="簡訊 — 錯誤原因"
->abstract="SMS — 錯誤原因圖表和表格可讓您識別在傳送過程中過去24小時內發生的特定錯誤。"
+>title="簡訊 - 錯誤原因"
+>abstract="「簡訊 - 錯誤原因」圖表和表格讓你能夠確認過去 24 小時內傳送過程中發生的特定錯誤。"
 
 **[!UICONTROL 排除的原因]**&#x200B;圖表和表格可讓您識別過去24小時內傳送簡訊過程中發生的特定錯誤，以便深入分析遇到的任何問題。
 
-### 簡訊 — 排除的原因 {#sms-excluded-reasons}
+### 簡訊 - 排除原因 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
->title="簡訊 — 排除的原因"
->abstract="「排除的原因」圖表和表格說明導致使用者設定檔從目標對象中排除，以及在過去24小時內未收到訊息的各種因素。"
+>title="簡訊 - 排除原因"
+>abstract="「排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外，而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_sms_excluded.png)
 
@@ -508,12 +508,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 如需排除原因的完整清單，請參閱[此頁面](exclusion-list.md)。
 
-### 簡訊 — 退回原因 {#sms-bounces-reasons}
+### 簡訊 - 退回原因 {#sms-bounces-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_bounces_reasons"
->title="簡訊 — 退回原因"
->abstract="「退信原因」圖表和表格包含與退信相關的過去24小時可用資料。"
+>title="簡訊 - 退回原因"
+>abstract="「退回原因」圖表和表格包含過去 24 小時內與退回郵件相關的可用資料。"
 
 **[!UICONTROL 跳出原因]**&#x200B;圖表和表格提供與跳出SMS訊息相關的資料完整總覽，針對過去24小時內SMS訊息跳出例項背後的特定原因，提供有價值的深入分析。
 
@@ -521,12 +521,12 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 網頁]**&#x200B;索引標籤會詳細說明與您的網頁相關的主要資訊。
 
-### 網頁效能 {#web-performance}
+### 網頁績效 {#web-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
 >title="網頁效能"
->abstract="網站績效KPI提供關於訪客與過去24小時您網站體驗互動情況的完整資訊。"
+>abstract="Web 效能 KPI 提供有關過去 24 小時內訪客參與 Web 體驗相關情形的綜合資訊。"
 
 ![](assets/campaign_live_web_performance.png)
 
@@ -547,7 +547,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_summary"
 >title="網頁摘要"
->abstract="「網站摘要」圖表會說明網站體驗從過去24小時的進展情況，包括曝光數、不重複曝光數和互動數。"
+>abstract="「網頁摘要」圖表說明過去 24 小時內你的 Web 體驗的進展情況，包括曝光、唯一曝光和互動次數。"
 
 **[!UICONTROL 網頁摘要]**&#x200B;圖表顯示您網頁體驗在過去24小時中的演變（曝光數、不重複曝光數和互動數）。
 
@@ -559,25 +559,25 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++ 
 
-### 依元素的互動 {#web-interactions}
+### 依元素劃分的互動 {#web-interactions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_interactions"
->title="依元素的互動"
->abstract="「依元素的互動」表格提供關於訪客在過去24小時內與您的網頁上不同元素的互動的關鍵資訊。"
+>title="依元素劃分的互動"
+>abstract="「依元素劃分的互動」表格提供過去 24 小時內訪客參與網頁上不同元素之互動的重要資訊。"
 
 **[!UICONTROL 依元素的互動]**&#x200B;表格提供訪客在過去24小時內與網頁上各種元素互動的完整資訊，提供使用者互動和偏好設定的寶貴見解。
 
-## 直接郵件索引標籤 {#direct-mail-tab}
+## 直接郵件標籤 {#direct-mail-tab}
 
 從您的行銷活動&#x200B;**[!UICONTROL 即時報告]**，**[!UICONTROL 直接郵件]**&#x200B;索引標籤會詳細說明與直接郵件相關的主要資訊。
 
-### 直接郵件 — 傳送統計資料 {#direct-mail-sending}
+### 直接郵件 - 傳送統計資料 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
->title="直接郵件 — 傳送統計資料"
->abstract="「直接郵件傳送統計資料」表格會摘要過去24小時有關直接郵件訊息的基本資料，例如「已鎖定目標」或「已傳遞」訊息。"
+>title="直接郵件 - 傳送統計資料"
+>abstract="「直接郵件傳送統計資料」表格總結過去 24 小時內有關直接郵件的基本資料，例如指定對象或已送達的郵件。"
 
 ![](assets/campaign_live_directmail_statistics.png)
 
@@ -595,23 +595,23 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### 直接郵件 — 錯誤原因 {#direct-mail-error-reasons}
+### 直接郵件 - 錯誤原因 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
->title="直接郵件 — 錯誤原因"
->abstract="「直接郵件 — 錯誤原因」圖表和表格可讓您識別過去24小時內發生的特定錯誤。"
+>title="直接郵件 - 錯誤原因"
+>abstract="「直接郵件 - 錯誤原因」圖表和表格讓你確認過去 24 小時內發生的特定錯誤。"
 
 ![](assets/campaign_live_error_reasons.png)
 
 **[!UICONTROL 直接郵件 — 錯誤原因]**&#x200B;圖表和表格提供了識別直接郵件訊息傳送過程中發生的特定錯誤的方法，允許詳細分析過去24小時內遇到的任何問題。
 
-### 直接郵件 — 排除的原因 {#direct-mail-excluded-reasons}
+### 直接郵件 - 排除原因 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
->title="直接郵件 — 排除的原因"
->abstract="「直接郵件排除的原因」圖表和表格說明了導致使用者設定檔從目標對象排除，以及在過去24小時內未收到訊息的各種因素。"
+>title="直接郵件 - 排除原因"
+>abstract="「直接郵件排除原因」圖表和表格說明在過去 24 小時內導致使用者設定檔被排除在目標對象之外而未能收到訊息的各項因素。"
 
 ![](assets/campaign_live_directmail_excluded.png)
 

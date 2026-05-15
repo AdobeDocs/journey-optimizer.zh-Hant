@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立測試設定檔
+title: 建立測試輪廓
 description: 瞭解如何建立測試設定檔
 feature: Profiles, Test Profiles
 topic: Content Management
@@ -26,11 +26,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1360
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# 建立測試設定檔 {#create-test-profiles}
+# 建立測試輪廓 {#create-test-profiles}
 
 在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)時需要測試設定檔，以及[預覽和測試您的內容](../content-management/preview-test.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ➡️ [在此影片中瞭解如何建立測試設定檔](#video)
 
-## 必要條件 {#test-profile-prerequisites}
+## 先決條件 {#test-profile-prerequisites}
 
 若要建立設定檔，您必須先在Adobe [!DNL Journey Optimizer]中建立結構描述和資料集。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 建立資料集 {#create-dataset}
 
-然後，您需要&#x200B;**建立將匯入設定檔的資料集**。 請依照下列步驟執行：
+然後，您需要&#x200B;**建立將匯入設定檔的資料集**。 請依照下列步驟操作：
 
 1. 瀏覽至&#x200B;**[!UICONTROL 資料集]**，然後按一下&#x200B;**[!UICONTROL 建立資料集]**。
    ![資料集功能表包含[建立資料集]按鈕](assets/test-profiles-6.png)

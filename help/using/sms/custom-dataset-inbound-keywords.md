@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 如需結構描述、欄位群組和資料集的背景，請參閱下列Adobe Experience Platform檔案：
 
 * [XDM系統概覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
-* [結構描述構成的基礎知識](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}
+* [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}
 * [資料集總覽](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 
 若要針對傳入關鍵字使用自訂資料集，您需要：

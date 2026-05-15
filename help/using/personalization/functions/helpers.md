@@ -1,6 +1,6 @@
 ---
-title: 協助程式
-description: 協助程式
+title: 輔助程式
+description: 輔助程式
 feature: Personalization
 topic: Personalization
 role: Developer
@@ -9,11 +9,11 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# 協助程式 {#gs-helpers}
+# 輔助程式 {#gs-helpers}
 
 ## 預設遞補值{#default-value}
 
@@ -226,9 +226,9 @@ Some edu specific content
 {{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
 ```
 
-**引數**
+**參數**
 
-| 引數 | 說明 |
+| 參數 | 說明 |
 |---|---|
 | `originalUrl` | 要縮短的URL。 |
 | `type` | 連結型別。 使用`DEEPLINK`在行動應用程式中開啟特定熒幕。 |
@@ -246,7 +246,7 @@ Some edu specific content
 >
 >此功能目前以有限可用性版本的形式提供給所有客戶。
 >
->目前，`datasetLookup`協助程式函式可用於有限客戶集的運算式片段中。 若要取得存取權，請聯絡您的Adobe代表。
+>目前，`datasetLookup`協助程式函式可用於有限客戶集的運算式片段中。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 `datasetLookup`協助程式會在個人化期間從Adobe Experience Platform記錄資料集中擷取資料，因此您可以使用未儲存在設定檔或事件裝載中的欄位值。
 
@@ -331,7 +331,7 @@ Some edu specific content
 
 >[!AVAILABILITY]
 >
->此功能在「有限可用性」中提供。 請聯絡您的Adobe代表以取得存取權。
+>此功能在「有限可用性」中提供。 請聯絡您的 Adobe 代表以取得存取權。
 >
 >此功能目前僅適用於電子郵件頻道。
 
