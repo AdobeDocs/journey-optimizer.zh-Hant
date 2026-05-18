@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
 source-wordcount: '3324'
 ht-degree: 97%
@@ -277,19 +277,19 @@ ht-degree: 97%
       + [開始使用電子郵件](using/email/get-started-email.md)
       + [建立電子郵件](using/email/create-email.md)
       + 設計您的電子郵件內容 {#design-email}
-         + [設計您的電子郵件內容](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[設計您的電子郵件內容](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[設計訊息內容](using/start/message-content-design.md)
          + [開始使用電子郵件設計](using/email/get-started-email-design.md)
          + 開始建立內容 {#start-creating-content}
-            + [開始建立內容](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[開始建立內容](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [從頭開始設計內容](using/email/content-from-scratch.md)
             + [匯入內容](using/email/existing-content.md)
             + [為您自己的內容撰寫程式碼](using/email/code-content.md)
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
-         + 設計您的內容 {#add-content}
-            + [設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
+         + 編寫您的內容 {#add-content}
+            + {hide-from-toc}[設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
@@ -300,7 +300,7 @@ ht-degree: 97%
             + [新增中繼資料](using/email/email-metadata.md)
             + [使用進階 HTML 編輯器編輯](using/email/email-expert-mode.md)
          + 編輯樣式 {#edit-style}
-            + [編輯樣式](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[編輯樣式](/help/rp_landing_pages/edit-style-landing-page.md)
             + [開始使用電子郵件樣式](using/email/get-started-email-style.md)
             + [編輯背景設定](using/email/backgrounds.md)
             + [調整垂直對齊與邊框間距](using/email/alignment-and-padding.md)
@@ -308,16 +308,16 @@ ht-degree: 97%
             + [新增自訂 CSS](using/email/custom-css.md)
             + [管理深色模式內容](using/email/dark-mode.md)
          + [建立可存取的內容](using/email/accessible-content.md)
-      + [管理電子郵件選擇退出](using/email/email-opt-out.md)
       + 設定電子郵件管道 {#configure-email}
-         + [設定電子郵件管道](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[設定電子郵件頻道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
          + [定義電子郵件組態設定](using/email/email-settings.md)
          + [啟用取消清單訂閱](using/email/list-unsubscribe.md)
          + [標頭參數](using/email/header-parameters.md)
          + [URL 追蹤](using/email/url-tracking.md)
          + [個人化電子郵件組態](using/email/surface-personalization.md)
-         + [在電子郵件中設定深層連結](using/email/deeplinks.md)
+      + [使用和設定深層連結](using/email/deeplinks.md)
+      + [管理電子郵件選擇退出](using/email/email-opt-out.md)
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
       + [開始使用應用程式內的內容](using/in-app/get-started-in-app.md)
