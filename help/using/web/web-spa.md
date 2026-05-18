@@ -7,51 +7,42 @@ role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 TQID: https://experienceleague.adobe.com/clX0VeCEzwDOgxyFrzVaBIx-eH90KEYaHGTMzf2xvQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 500
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
 # 編寫單頁應用程式 {#web-author-spas}
 
-## 關於檢視 {#about-views}
+## 關於視圖 {#about-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="套用變更至選取的檢視"
->abstract="變更只會套用至選取的檢視。 可使用&#x200B;**瀏覽**&#x200B;模式探索檢視，並導覽至檢視。 找不到您要尋找的檢視？"
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="瞭解更多"
+>title="將變更套用到選取的視圖"
+>abstract="變更將僅套用到選取的視圖。 可以使用&#x200B;**瀏覽**&#x200B;模式找到並瀏覽到視圖。 找不到您要尋找的視圖？"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant" text="了解更多"
 
 **單頁應用程式** (SPA)現在可以在網頁設計工具視覺化編輯器中撰寫。 這可讓您選取要套用網頁修改的特定的&#x200B;**檢視**。
 
 [透過此影片瞭解如何編寫單頁應用程式](#video)
 
-檢視可定義為整個網站或網站上一組視覺元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
+檢視可定義為整個網站或網站上一組視覺化元素，例如首頁、整個產品網站或所有結帳頁面上的傳遞偏好設定框架。
 
 需要一次性開發人員設定，才能在Adobe Experience Platform Web SDK實作中定義檢視。 這可讓您在SPA上建立並執行Adobe Journey Optimizer網路行銷活動。
 
 ## 在網頁SDK實作中定義檢視 {#define-views}
 
-在Adobe [!DNL Journey Optimizer]中可運用XDM檢視，讓行銷人員能夠透過Web視覺編輯器在SPA上執行Web個人化和實驗行銷活動。 [進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+在Adobe [!DNL Journey Optimizer]中可運用XDM檢視，讓行銷人員能夠透過Web視覺編輯器在SPA上執行Web個人化和實驗行銷活動。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 
-若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant#implement-xdm-views){target="_blank"}中列出的步驟。
+若要能夠在[!DNL Journey Optimizer]使用者介面中存取及編寫檢視，請務必遵循[本節](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}中列出的步驟。
 
 ## 在網頁設計工具中探索檢視 {#discover-views}
 
@@ -63,7 +54,7 @@ ht-degree: 0%
 
    ![](assets/web-designer-view-home.png)
 
-1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。 [進一步瞭解](web-visual-editor.md#browse-mode)
+1. 切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。 [了解更多](web-visual-editor.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -77,7 +68,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->如果您尚未使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式探索到檢視，您將無法選取它們以套用您的修改。 [進一步瞭解](#discover-views)
+>如果您尚未使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式探索到檢視，您將無法選取它們以套用您的修改。 [了解更多](#discover-views)
 
 1. 選取&#x200B;**[!UICONTROL 修改]**&#x200B;圖示以在左側顯示對應的窗格。
 
@@ -102,8 +93,8 @@ ht-degree: 0%
 此影片說明如何：
 
 * 使用&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式探索SPA檢視
-* 在目前檢視上執行製作
-* 將網站修改套用至多個檢視或探索到的所有檢視
+* 在目前的檢視上進行製作
+* 將網站修改套用至多個檢視或所有探索到的檢視
 * 對修改執行大量動作
 
->[!VIDEO](https://video.tv.adobe.com/v/3446896/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

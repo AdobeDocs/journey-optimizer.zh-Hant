@@ -9,18 +9,14 @@ keywords: 清單，函式，運算式，歷程，陣列，集合
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -50,9 +46,9 @@ ht-degree: 0%
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 |
 | keyAttributeName | 字串 | 此引數是選用專案，且僅適用於listObject。 如果未提供引數，如果所有屬性的值都相同，則會將物件視為重複。 否則，如果給定的屬性具有相同的值，則會將物件視為重複。 |
@@ -119,9 +115,9 @@ ht-degree: 0%
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString， listBoolean， listInteger， listDecimal， listDuration， listDateTime， listDateTimeOnly， listDateOnly | 要處理的清單。 |
 
@@ -183,13 +179,13 @@ ht-degree: 0%
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToFilter | listObject | 要篩選的物件清單。 它必須是欄位參考。 |
 | keyAttributeName | 字串 | 指定清單物件中的屬性名稱，用來作為篩選的索引鍵 |
-| keyValueList | 清單 | 用於篩選的索引鍵值陣列 |
+| keyValueList | list | 用於篩選的索引鍵值陣列 |
 
 +++
 
@@ -259,18 +255,18 @@ filter(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 |
+| 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
-| 清單 | listBoolean |
-| 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
-| 清單 | listDateTimeOnly |
-| 清單 | listDateOnly |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | 索引 | 整數 |
 
 +++
@@ -345,9 +341,9 @@ filter(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 |
+| 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
 | 布林值 | 布林值 |
@@ -413,12 +409,12 @@ filter(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 |
+| 參數 | 類型 |
 |-----------|------------------|
-| 清單1 | 清單 |
-| 清單2 | 清單 |
+| 清單1 | list |
+| 清單2 | list |
 
 +++
 
@@ -485,9 +481,9 @@ intersect(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要考量的清單。 對於listObject，它必須是欄位參考。 |
 | numberofItems | 整數 | 要從指定清單傳回的專案數。 |
@@ -575,9 +571,9 @@ intersect(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 listObject不能包含null物件。 |
 
@@ -629,9 +625,9 @@ intersect(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString， listBoolean， listInteger， listDecimal， listDuration， listDateTime， listDateTimeOnly， listDateOnly | 要轉換為字串的清單。 |
 | 分隔符號 | 字串 | 輸出字串中每個清單元素之間的分隔符號。 |
@@ -683,9 +679,9 @@ intersect(
 
 +++
 
-+++引數
++++參數
 
-| 引數 | 型別 | 說明 |
+| 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的清單。 對於listObject，它必須是欄位參考。 |
 | keyAttributeName | 字串 | 此引數僅適用於listObject。 指定清單物件中的屬性名稱會作為排序的索引鍵。 |

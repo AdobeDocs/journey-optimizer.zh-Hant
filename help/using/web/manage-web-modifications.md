@@ -7,25 +7,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 TQID: https://experienceleague.adobe.com/8T04E9mgfsmZxHAv0lSgWd9owrKjxW9xWRE76iYMvz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 973
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -34,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="輕鬆管理所有變更"
->abstract="使用此窗格，您可以瀏覽並管理新增至網頁的所有調整與樣式。"
+>abstract="使用此窗格，您可以瀏覽和管理您新增到網頁的所有調整和樣式。"
 
 您可以輕鬆管理新增至網頁的所有元件、調整和樣式。 您也可以直接從專用窗格新增修改。
 
@@ -54,7 +45,7 @@ ht-degree: 0%
    >
    >刪除動作時請務必謹慎，因為動作可能會影響後續動作。
 
-1. 如果您正在編寫[單頁應用程式](web-spa.md)，您可以將任何修改套用至其他檢視。 [進一步瞭解](web-spa.md#apply-modifications-views)
+1. 如果您正在編寫[單頁應用程式](web-spa.md)，您可以將任何修改套用至其他檢視。 [了解更多](web-spa.md#apply-modifications-views)
 
 1. 若要同時刪除多個修改，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;窗格上方的&#x200B;**[!UICONTROL 選取]**&#x200B;按鈕，檢查您選擇的修改，然後按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
 
@@ -111,18 +102,18 @@ ht-degree: 0%
 
      ![](assets/web-designer-add-modification-css-attribute.png)
 
-### 頁面`<head>` {#page-head}
+### 頁面 `<head>` {#page-head}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="新增自訂程式碼"
->abstract="HEAD元素是中繼資料的容器，並置於HTML標籤和BODY標籤之間。 僅新增SCRIPT和STYLE元素。 新增DIV標籤和其他元素可能會造成其餘的HEAD元素跳入BODY。"
+>abstract="HEAD 元素是中繼資料的容器，位於 HTML 標記和 BODY 標記之間。 僅新增 SCRIPT 和 STYLE 元素。 新增 DIV 標記和其他元素可能會造成其餘的 HEAD 元素出現在 BODY 中。"
 
 您可以使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別來新增自訂程式碼。
 
 `<head>`元素是中繼資料（資料的相關資料）的容器，並置於`<html>`標籤和`<body>`標籤之間。 在此情況下，程式碼不會等待內文或頁面載入事件，而是在頁面載入開始時執行。
 
-`<head>`元素通常用於將JavaScript或CSS程式碼新增至頁面頂端。 後續視覺化動作的選取器取決於此標籤中新增的HTML元素。
+`<head>`元素通常用於將JavaScript或CSS程式碼新增至頁面頂端。 後續視覺化動作的選取器，會根據此標籤中新增的 HTML 元素而定。
 
 若要新增&#x200B;**頁面`<head>`**&#x200B;型別修改，請遵循下列步驟。
 
@@ -140,7 +131,7 @@ ht-degree: 0%
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   您可以善用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能。 [進一步瞭解](../personalization/personalization-build-expressions.md)
+   您可以善用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
 #### 自訂程式碼範例 {#custom-code-examples}
 
@@ -148,7 +139,7 @@ ht-degree: 0%
 
 * 使用JavaScript內嵌或連結至外部JavaScript檔案。
 
-  例如，若要變更元素的顏色：
+  例如，若要變更元素的顏色:
 
   ```
   <script type="text/javascript">
@@ -158,7 +149,7 @@ ht-degree: 0%
 
 * 設定樣式內嵌或連結至外部樣式表。
 
-  例如，若要定義覆蓋元素的類別：
+  例如，若要定義覆蓋元素的類別:
 
   ```
   <style>
@@ -169,7 +160,7 @@ ht-degree: 0%
 
 #### 自訂程式碼最佳作法 {#custom-code-best-practices}
 
-+++ **永遠將自訂程式碼包裝在一個元素中。**
++++ **請一律將自訂程式碼包裝在一個元素中。**
 
 例如：
 
@@ -179,26 +170,26 @@ ht-degree: 0%
 </script>
 ```
 
-如需進行任何修改，請在此容器內進行變更。
+如果需要任何修改，請在此容器內變更。
 
-如果您不再需要自訂程式碼，只需將此容器留空，但不要將其移除。 這可確保其他體驗修改不受影響。
+如果不再需要自訂程式碼，只要將此容器保持空白即可，不要移除。 這可確保其他體驗修改不受影響。
 
 +++
 
-+++ **請勿在自訂程式碼指令碼中執行document.write動作。**
++++ **請勿在自訂程式碼指令碼中執行 document.write 動作。**
 
 指令碼會非同步執行。 這通常會導致document.write動作出現在頁面上的錯誤位置。 不建議在自訂程式碼建立的指令碼中使用document.write。
 
 +++
 
-+++ **如果您建立元素並加以修改，請勿刪除原始元素。**
++++ **如果您建立元素然後修改，請勿刪除原始元素。**
 
-每次變更都會在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中建立新元素。 因為第二個動作會修改元素1，如果您刪除元素1，該動作便沒有任何專案需要修改，因此變更不再有作用。
+每次變更都會在&#x200B;**[!UICONTROL 修改]**&#x200B;面板中建立新元素。 因為第二個動作會修改元素 1，如果刪除元素 1，則動作就沒有可修改的項目，變更也就失去作用。
 
 +++
 
-+++ **針對影響相同URL的兩個行銷活動使用**&#x200B;[!UICONTROL &#x200B;頁面&#x200B;`<head>`]&#x200B;**修改型別時，請小心。**
++++ **針對影響相同URL的兩個行銷活動使用**[!UICONTROL &#x200B;頁面&#x200B;`<head>`]**修改型別時，請小心。**
 
-如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 確定程式碼不取決於放置位置。 您可以自行確定程式碼中是否有衝突。
+如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 請確定程式碼不依賴位置。 您必須確保程式碼中沒有衝突。
 
 +++

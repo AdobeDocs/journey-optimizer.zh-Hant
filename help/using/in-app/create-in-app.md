@@ -5,31 +5,19 @@ feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: 應用程式內，訊息，建立，開始
+keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2305
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
 >title="管理應用程式內觸發器"
->abstract="選取將啟動訊息的特定事件和條件，以有效控制您的觸發器。 使用規則產生器，使用者可以定義精確條件和值。 當這些條件符合時，就會起始一系列動作，包括應用程式內訊息的傳送。"
+>abstract="透過選取將會啟動訊息的特定活動與條件，有效率地管理觸發器。 透過規則產生器，使用者可以定義精確的條件與值。 符合這些條件時，就會觸發一系列的動作，包括傳遞應用程式內的訊息。"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 
@@ -62,25 +50,25 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當設定檔到達其歷程結尾時，顯示給設定檔的任何應用程式內訊息都會自動過期。 因此，會在您的應用程式內動作後自動新增3天&#x200B;**等待**&#x200B;活動，以確保適當的時機。 [進一步瞭解](../building-journeys/wait-activity.md#auto-wait-node)
+   >當設定檔到達其歷程結尾時，顯示給設定檔的任何應用程式內訊息都會自動過期。 因此，會在您的應用程式內動作後自動新增3天&#x200B;**等待**&#x200B;活動，以確保適當的時機。 [了解更多](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. 輸入&#x200B;**[!UICONTROL 標籤]**&#x200B;以識別您在歷程畫布中的動作。
 
 1. 按一下&#x200B;**[!UICONTROL 設定動作]**&#x200B;按鈕。
 
-1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的應用程式內設定。 [進一步瞭解](inapp-configuration.md#channel-prerequisites)
+1. 您被導向到&#x200B;**[!UICONTROL 動作]**&#x200B;標籤。 從那裡，選取或建立要使用的應用程式內設定。 [了解更多](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [進一步瞭解](design-in-app.md)
+1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-in-app.md)
 
-1. 按一下&#x200B;**[!UICONTROL 編輯觸發程式]**，選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。 [進一步瞭解](design-in-app.md)
+1. 按一下&#x200B;**[!UICONTROL 編輯觸發程式]**，選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。 [了解更多](design-in-app.md)
 
    1. 視需要按一下事件下拉式清單，以變更您的觸發器。
 
       +++ 檢視可用的觸發器
 
-      | 封裝 | 觸發 | 定義 |
+      | 套件 | 觸發 | 定義 |
       |---|---|---|
       | 傳送資料至Platform | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 API通常會從AEP Edge擴充功能呼叫[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
@@ -88,15 +76,15 @@ ht-degree: 0%
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
       | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
-      | 應用程式生命週期 | 應用程式更新 | 升級或版本編號變更後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -106,7 +94,7 @@ ht-degree: 0%
 
       +++ 檢視可用的特徵
 
-      | 封裝 | 特徵 | 定義 |
+      | 套件 | 特徵 | 定義 |
       |---|---|---|
       | 裝置資訊 | 電信業者名稱 | 當符合清單中的其中一個電信業者名稱時觸發。 |
       | 裝置資訊 | 裝置名稱 | 符合其中一個裝置名稱時觸發。 |
@@ -114,7 +102,7 @@ ht-degree: 0%
       | 裝置資訊 | 作業系統版本 | 當符合其中一個指定的作業系統版本時觸發。 |
       | 裝置資訊 | 舊版作業系統 | 符合其中一個指定的先前作業系統版本時觸發。 |
       | 裝置資訊 | 執行模式 | 如果「執行」模式為應用程式或擴充功能，則會觸發。 |
-      | 應用程式生命週期 | 應用程式ID | 符合指定的應用程式ID時觸發。 |
+      | 應用程式生命週期 | 應用程式 ID | 符合指定的應用程式ID時觸發。 |
       | 應用程式生命週期 | 星期 | 當符合指定的星期幾時觸發。 |
       | 應用程式生命週期 | 首次使用後間隔天數 | 當符合自首次使用以來的指定天數時觸發。 |
       | 應用程式生命週期 | 上次使用後間隔天數 | 當符合自上次使用以來的指定天數時觸發。 |
@@ -140,9 +128,9 @@ ht-degree: 0%
       * **[!UICONTROL 顯示一次]**：此訊息只會為每個使用者工作階段顯示一次，並在所有視窗或活動中保持可見，直到關閉為止。 若要將其限制在特定熒幕或使其自動解除，請使用自訂邏輯搭配傳訊委派。
       * **[!UICONTROL 顯示至點進為止]**：當&#x200B;**[!UICONTROL 行動應用程式觸發程式]**&#x200B;下拉式清單中選取的事件發生時，顯示此訊息，直到SDK傳送互動事件並執行「已點按」動作為止。
 
-1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，將一或多個輸入動作新增至應用程式內訊息。 [進一步瞭解](../building-journeys/journey-action.md#multi-action)
+1. 您可以按一下&#x200B;**[!UICONTROL 新增動作]**&#x200B;按鈕，將一或多個輸入動作新增至應用程式內訊息。 [了解更多](../building-journeys/journey-action.md#multi-action)
 
-1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [進一步瞭解](../building-journeys/about-journey-activities.md)
+1. 返回歷程畫布。 如有必要，請拖放其他動作或事件以完成您的歷程流程。 [了解更多](../building-journeys/about-journey-activities.md)
 
 有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
@@ -164,13 +152,13 @@ ht-degree: 0%
 
 1. 從&#x200B;**[!UICONTROL Properties]**&#x200B;區段中，輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;描述。
 
-1. 若要指派自訂或核心資料使用標籤給應用程式內訊息，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [深入瞭解](../administration/object-based-access.md)。
+1. 若要指派自訂或核心資料使用標籤給應用程式內訊息，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [深入瞭解](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
-1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [深入瞭解](../event/about-creating.md#select-the-namespace)。
+1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，選擇&#x200B;**[!UICONTROL 應用程式內訊息]**，然後選取或建立新的設定。
 
@@ -178,7 +166,7 @@ ht-degree: 0%
 
    ![](assets/in_app_create_1.png)
 
-1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [進一步瞭解](../content-management/content-experiment.md)
+1. 按一下&#x200B;**[!UICONTROL 建立實驗]**&#x200B;以開始設定您的內容實驗，並建立處理以測量其效能，並為您的目標對象識別最佳選項。 [了解更多](../content-management/content-experiment.md)
 
 1. 按一下&#x200B;**[!UICONTROL 編輯觸發程式]**，選擇將觸發訊息的事件和條件。 規則產生器可讓使用者指定條件和值，在符合條件時會觸發一組動作，例如傳送應用程式內訊息。
 
@@ -186,7 +174,7 @@ ht-degree: 0%
 
       +++ 檢視可用的觸發器
 
-      | 封裝 | 觸發 | 定義 |
+      | 套件 | 觸發 | 定義 |
       |---|---|---|
       | 傳送資料至Platform | 已將資料傳送至Platform | 在行動應用程式發出邊緣體驗事件以將資料傳送至Adobe Experience Platform時觸發。 API通常會從AEP Edge擴充功能呼叫[sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent)。 |
       | 核心追蹤 | 追蹤動作 | 呼叫行動程式碼API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)中提供的舊版功能時觸發。 |
@@ -194,15 +182,15 @@ ht-degree: 0%
       | 核心追蹤 | 收集PII | 呼叫行動程式碼API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)中提供的舊版功能時觸發。 |
       | 應用程式生命週期 | 應用程式啟動 | 在每次執行時觸發，包括當機和安裝。 在超過生命週期工作階段逾時的情況下，也會在從背景恢復時觸發。 |
       | 應用程式生命週期 | 應用程式安裝 | 在安裝或重新安裝後首次執行時觸發。 |
-      | 應用程式生命週期 | 應用程式更新 | 升級或版本編號變更後首次執行時觸發。 |
+      | 應用程式生命週期 | 應用程式更新 | 在升級或版本編號變更後首次執行時觸發。 |
       | 應用程式生命週期 | 應用程式關閉 | 應用程式關閉時觸發。 |
-      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile當機報告不會實施未攔截之例外狀況的全域處理常式。 |
+      | 應用程式生命週期 | 應用程式當機 | 於關閉前，應用程式不在背景執行時觸發。 事件會在當機後啟動應用程式時傳送。 Adobe Mobile 當機報告不會實施未攔截之例外狀況的全域處理常式。 |
       | 地點 | 輸入POI | 當您的客戶進入您設定的Point of Interest (POI)時，由Places SDK觸發。 |
       | 地點 | 退出POI | 在您的客戶離開您設定的興趣點(POI)時，由Places SDK觸發。 |
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -212,7 +200,7 @@ ht-degree: 0%
 
       +++ 檢視可用的特徵
 
-      | 封裝 | 特徵 | 定義 |
+      | 套件 | 特徵 | 定義 |
       |---|---|---|
       | 裝置資訊 | 電信業者名稱 | 當符合清單中的其中一個電信業者名稱時觸發。 |
       | 裝置資訊 | 裝置名稱 | 符合其中一個裝置名稱時觸發。 |
@@ -220,7 +208,7 @@ ht-degree: 0%
       | 裝置資訊 | 作業系統版本 | 當符合其中一個指定的作業系統版本時觸發。 |
       | 裝置資訊 | 舊版作業系統 | 符合其中一個指定的先前作業系統版本時觸發。 |
       | 裝置資訊 | 執行模式 | 如果「執行」模式為應用程式或擴充功能，則會觸發。 |
-      | 應用程式生命週期 | 應用程式ID | 符合指定的應用程式ID時觸發。 |
+      | 應用程式生命週期 | 應用程式 ID | 符合指定的應用程式ID時觸發。 |
       | 應用程式生命週期 | 星期 | 當符合指定的星期幾時觸發。 |
       | 應用程式生命週期 | 首次使用後間隔天數 | 當符合自首次使用以來的指定天數時觸發。 |
       | 應用程式生命週期 | 上次使用後間隔天數 | 當符合自上次使用以來的指定天數時觸發。 |
@@ -238,7 +226,7 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**[!UICONTROL 建立群組]**，將觸發程式群組在一起。
 
-1. 選擇應用程式內訊息生效時的觸發頻率。 下列選項可供使用：
+1. 選擇應用程式內訊息生效時的觸發頻率。 提供下列選項：
 
    * **[!UICONTROL Everytime]**：當在&#x200B;**[!UICONTROL 行動應用程式觸發程式]**&#x200B;下拉式清單中選取的事件發生時，一律顯示訊息。
    * **[!UICONTROL 一次]**：只有在第一次在&#x200B;**[!UICONTROL 行動應用程式觸發程式]**&#x200B;下拉式清單中選取的事件發生時，才會顯示此訊息。
@@ -251,7 +239,7 @@ ht-degree: 0%
 
    ![](assets/in-app-schedule.png)
 
-1. 您現在可以使用&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計您的內容。 [進一步瞭解](design-in-app.md)
+1. 您現在可以使用&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計您的內容。 [了解更多](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 
@@ -259,27 +247,27 @@ ht-degree: 0%
 
 >[!ENDTABS]
 
-## 操作說明影片{#video}
+## 作法影片{#video}
 
 * 以下影片說明如何在行銷活動中建立、設定和發佈應用程式內訊息。
 
-  +++觀看影片
+  +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451893?captions=chi_hant&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
 * 以下影片說明如何設定和分析A/B測試應用程式內訊息的內容實驗。
 
-  +++觀看影片
+  +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?captions=chi_hant&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
 * 以下影片說明如何在歷程中建立應用程式內訊息，以及如何測試和發佈您的歷程。
 
-  +++觀看影片
+  +++收看影片
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 

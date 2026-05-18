@@ -392,7 +392,7 @@ ht-degree: 99%
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
 <p>目前核准原則僅開放給部分組織使用 (有限可用性)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
@@ -674,7 +674,7 @@ ht-degree: 99%
 <td>
 <p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -725,7 +725,7 @@ ht-degree: 99%
 <td>
 <p>您現在可以在片段中定義特定欄位，當片段新增到行銷活動或歷程時可以編輯這些欄位。 這允許在使用時調整內容部分，提供以內容特定的詳細資訊覆寫預設值的彈性。</p>
 <img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
-<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -743,7 +743,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
-<p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -904,7 +904,7 @@ table>
 <p>這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入設定，現在可在 Journey Optimizer 行銷活動中存取。 Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
 <p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>

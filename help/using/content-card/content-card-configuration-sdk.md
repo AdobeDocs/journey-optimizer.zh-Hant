@@ -7,18 +7,11 @@ role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
 TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 509
@@ -28,7 +21,7 @@ ht-degree: 3%
 
 # 在 Web SDK 中設定內容卡支援 {#content-card-configuration-sdk}
 
-此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
+此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
 
 初次載入頁面時，頁面會顯示其預設狀態。 但是，如果您與&#x200B;**存款基金**&#x200B;或&#x200B;**在社群媒體上分享**&#x200B;按鈕互動，將會顯示其他內容卡。 這些卡片是由使用者端條件觸發，以確保僅在採取特定動作時才會顯示。
 
@@ -59,7 +52,7 @@ ht-degree: 3%
 
 ## 運作方式 {#setup}
 
-1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)。
+1. 使用範例資料夾中`.env`檔案的設定，在頁面上包含並設定[網頁SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)。
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

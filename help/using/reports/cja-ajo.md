@@ -9,20 +9,12 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 488
@@ -40,7 +32,7 @@ ht-degree: 5%
 
 在[!DNL Journey Optimizer]中建立您的歷程後，您可以將客戶資料匯入至[!DNL Customer Journey Analytics]以開始報告，並瞭解客戶與您歷程每次互動的影響。
 
-➡️ [探索Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [探索Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -49,20 +41,20 @@ ht-degree: 5%
 
 將[!DNL Customer Journey Analytics]用於您的歷程之前，您必須先設定此整合：
 
-1. [使用您要傳送至Adobe Experience Platform的&#x200B;**[!UICONTROL 資料集]**，在[!DNL Customer Journey Analytics]中建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=zh-Hant){target="_blank"}。
+1. [使用您要傳送至Adobe Experience Platform的&#x200B;**[!UICONTROL 資料集]**，在[!DNL Customer Journey Analytics]中建立連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html){target="_blank"}。
 
    可以設定下列[!DNL Journey Optimizer]：
    * [歷程步驟事件](../data/datasets-query-examples.md#journey-step-event)：可讓您檢視哪些人進入您的歷程，以及他們到達的距離。
    * [訊息回饋/追蹤資料集](../data/datasets-query-examples.md#message-feedback-event-dataset)：可讓您檢視透過[!DNL Journey Optimizer]傳送之訊息的傳遞資訊。
    * [實體和歷程資料集](../data/datasets-query-examples.md#entity-dataset)：可讓您搜尋好記的名稱，並在您的報告中使用它們。
 
-1. [建立資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant){target="_blank"}以設定您要用於報告的維度和量度。
+1. [建立資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}以設定您要用於報告的維度和量度。
 
-   您可以建立Journey Optimizer特定量度，以便更妥善地反映您歷程的資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=zh-Hant#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
+   您可以建立Journey Optimizer特定量度，以便更妥善地反映您歷程的資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
 
 >[!NOTE]
 >
->如果您的沙箱有多個連線，請確認[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant){target="_blank"}參考了CJA **中標示為**&#x200B;使用的[連線](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否則，[!DNL Journey Optimizer]中可能會停用CJA中的&#x200B;[**分析**&#x200B;按鈕](report-cja-manage.md#analyze)。
+>如果您的沙箱有多個連線，請確認[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}參考了CJA ]**中標示為**[!UICONTROL &#x200B;使用的[連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否則，[!DNL Journey Optimizer]中可能會停用CJA中的&#x200B;[**分析**&#x200B;按鈕](report-cja-manage.md#analyze)。
 
 搭配[!DNL Customer Journey Analytics]使用[!DNL Journey Optimizer]可能會導致報告資料的某些差異，原因如下：
 
@@ -72,7 +64,7 @@ ht-degree: 5%
 
 * **在[!DNL Journey Optimizer]個報表中，傳送的量度也包含重試量度。**
 
-  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。 這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。 但是，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**&#x200B;量度。
+  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。 這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。 但是，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**量度。
 為了減少差異，請使用一週前或之後的日期範圍。
 
 * **報告是由不同的資料來源提供。**
