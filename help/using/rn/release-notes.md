@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
 workflow-type: tm+mt
-source-wordcount: 2625
-ht-degree: 80%
+source-wordcount: 2624
+ht-degree: 78%
 
 ---
 
@@ -369,7 +369,7 @@ The following capabilities and enhancements are scheduled for release in the nex
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試並變更內容，以及自訂通訊、排序和時機，以便最有效地觸及客戶。
+<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>作為「一般可用性」的一部分，此版本針對單一歷程引入了<strong>實驗類型</strong>選擇 (A/B 或多臂老虎機) 和<strong>擴充獲勝者</strong>。</p>
@@ -452,7 +452,7 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 #### Adobe Experience Manager 整合
 
-* **Adobe Experience Manager 內容片段變化版本支援** - 您可以在插入 Adobe Experience Manager 內容片段時選取&#x200B;**內容片段變化版本** (例如語言或管道變化版本)，以改良地區設定和多語言情境的處理方式。 [閱讀全文](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager內容片段變數支援** — 您可以在插入Adobe Experience Manager內容片段時選取&#x200B;**內容片段變數** （例如語言或頻道變數），以改善地區設定和多語言情境的處理方式。 [閱讀全文](../integrations/aem-fragments.md#aem-variations)
 
   此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
 
