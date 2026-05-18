@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2624
-ht-degree: 78%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -177,6 +161,27 @@ ht-degree: 78%
 #### WhatsApp
 
 * **WhatsApp按鈕支援和追蹤** - WhatsApp範本現在支援&#x200B;**快速回覆**、**Call to action - URL**&#x200B;和&#x200B;**Call to action -**，不支援&#x200B;**複製代碼**。 Journey Optimizer會傳送支援的按鈕並追蹤與其他管道報表的互動。
+
+* **WhatsApp頻道內容資料** - Journey Optimizer現在會擷取從WhatsApp頻道傳回的其他互動資料，並將其儲存在`whatsAppChannelContext`欄位群組下的&#x200B;**AJO EmailTrackingExperienceEvent資料集**。
+
+  +++ 系統會擷取下列欄位，用於建立對象和分析WhatsApp參與度
+
+   * **`messageType`** - WhatsApp訊息型別（例如`templateBased`、`response`）
+   * **`inboundMessage`** — 傳入回覆內容（例如`stop`、`start`、`subscribe`）
+   * **`inboundNumber`** — 收到傳入訊息的寄件者識別碼
+   * **`channelType`** — 頻道類別（`Utility`、`Marketing`或`Promotional`）
+   * **`profileNumber`** — 接收傳入訊息的電話號碼
+   * **`origTimestamp`** - Meta / WhatsApp的原始時間戳記
+   * **`status`** — 傳遞狀態包含標準化的提供者意見回應（`sent`、`delivered`、`bounce`、`error`、`delay`、`duplicate`、`denylist`、`exclude`或`unknown`）以及原始提供者狀態訊息
+   * **`reactionEvent`** — 使用者回應的內容：回應的表情符號，或特定訊息的回覆文字
+   * **`reactionMessageID`** — 正在回應的原始郵件識別碼
+   * **`reactionActionName`** — 回應動作的型別（`react`、`unreact`或`reply`）
+   * **`interactiveSelectedTitle`** — 使用者從WhatsApp互動式訊息中選取的標題
+   * **`interactiveType`** — 互動式訊息型別（`list reply`、`button reply`或`button`）
+   * **`interactiveSelectedDescription`** — 所選WhatsApp互動式選項的說明
+   * **`interactiveSelectedID`** — 從WhatsApp選取選項的ID
+
+  +++
 
 <!-- 
 ## Coming soon {#coming-soon}
