@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
+source-git-commit: 0d520eefc0a88fc9d71fa33df2f67787d4ee974a
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 11%
+source-wordcount: 1693
+ht-degree: 9%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 11%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將<strong>決定原則</strong>新增至直接郵件歷程與行銷活動。 決策原則是產品建議的容器，可運用決策引擎以動態方式傳回最佳內容，以傳送給每個客群成員。</p>
+<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -279,6 +279,12 @@ ht-degree: 11%
 
   Availability date: May 19, 2026
 -->
+
+#### 設定
+
+* **訊息回饋事件資料集正移至批次擷取** - `AJO Message Feedback Event Dataset`正在從串流模式轉換為批次擷取模式。 這項變更可確保資料擷取不超過串流擷取限制。 如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
+
+  推出日期： 2026年5月19日
 
 #### 決策
 
