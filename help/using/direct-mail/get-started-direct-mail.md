@@ -59,4 +59,4 @@ ht-degree: 100%
 
 深入瞭解如何在 Adobe Journey Optimizer 中善用直接郵件管道，以便進行自動化，同時在歷程中安排直接郵件傳遞。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
