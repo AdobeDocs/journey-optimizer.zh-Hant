@@ -11,11 +11,21 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/mCe101lMG7wraD7IN-dge7-hSlJ6AAob6QmL-ThjdsY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: c20d46e7-1c7d-476c-a50e-3961d4dce35fid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 842
@@ -143,7 +153,7 @@ ht-degree: 20%
 
 選取「**[!UICONTROL 編輯]**」按鈕以返回優惠方案版本模式，您可以在其中修改優惠方案的[詳細資料](#create-offer)、[代表](add-representations.md#representations)，以及編輯[適用性規則和限制](add-constraints.md#eligibility)。
 
-選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。********
+選取核准的優惠方案，然後按一下[復原核准]，將優惠方案狀態設定回[草稿]。**&#x200B;**&#x200B;**&#x200B;**
 
 若要再次將狀態設定為&#x200B;**[!UICONTROL 已核准]**，請選取現在顯示的對應按鈕。
 

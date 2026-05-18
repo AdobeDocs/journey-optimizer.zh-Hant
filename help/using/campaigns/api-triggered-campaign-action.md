@@ -10,11 +10,23 @@ level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 TQID: https://experienceleague.adobe.com/xqm-guUFMQvrDU3LSuedvImdkhIkRvFXa0B-g13OJIs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 461
@@ -73,7 +85,7 @@ ht-degree: 51%
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面](../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，允許透過行銷活動，迅速傳送大量推播訊息。 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。 瞭解如何在此頁面[&#128279;](../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，就請參閱 [Adobe Journey Optimizer 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

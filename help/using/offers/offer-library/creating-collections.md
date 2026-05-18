@@ -11,10 +11,18 @@ level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7IXZss-Qpg5D67uPfkFbo3Gmp1n2gdSD24Y4rbL3-Fk
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 485
@@ -75,7 +83,7 @@ ht-degree: 34%
 
    ![](../assets/collection_create.png)
 
-1. 若要建立動態集合，請使用左窗格選取要新增至集合之優惠方案的集合限定詞，然後按一下[儲存]。**** 所有具有所選集合限定詞的優惠方案都會儲存在集合中。
+1. 若要建立動態集合，請使用左窗格選取要新增至集合之優惠方案的集合限定詞，然後按一下[儲存]。**&#x200B;** 所有具有所選集合限定詞的優惠方案都會儲存在集合中。
 
    如需集合限定詞建立的詳細資訊，請參閱[建立集合限定詞](../offer-library/creating-tags.md)。
 

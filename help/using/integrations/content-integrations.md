@@ -10,12 +10,25 @@ level: Beginner
 keywords: 資產，整合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 TQID: https://experienceleague.adobe.com/Kzrp9ksDq5kU4yPs8-3r-zipBqogMN3PqXucfhqtPeo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 704
@@ -79,7 +92,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容時，輕鬆存取 Adobe Express 強大的編輯工具。 此整合功能讓您可以調整影像大小、移除背景、裁切視覺效果，並將資產轉換成 JPEG 或 PNG 格式，就不必在不同解決方案之間切換。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
 
 請注意，使用Enterprise授權時，使用者可完整存取Adobe Express編輯器，並可調整色彩、亮度、銳利度、對比、尺寸和其他設定來修改影像。
 
