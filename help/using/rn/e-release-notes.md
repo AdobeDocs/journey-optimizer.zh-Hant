@@ -8,9 +8,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 0d520eefc0a88fc9d71fa33df2f67787d4ee974a
+source-git-commit: cc87e73fe1746e88a5baeefc0090c88ee9425389
 workflow-type: tm+mt
-source-wordcount: 1693
+source-wordcount: 1633
 ht-degree: 9%
 
 ---
@@ -342,13 +342,14 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
   推出日期： 2026年5月19日
 
-#### 整合
+<!--
+#### Integrations
 
-* **使用Dynamic Media的計時器開啟時間個人化**- Journey Optimizer與Adobe Experience Manager Dynamic Media整合可為Dynamic Media範本開啟時間個人化，解鎖超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。
+* **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
-  推出日期： 2026年5月19日
-
+  Availability date: May 19, 2026
+-->
 
 #### 協調的行銷活動
 
