@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 深層連結可協助您將電子郵件或簡訊訊息的收件者帶至行動應用程式中的特定畫面或內容片段。 它有助於引導人們直接使用預期的應用程式內體驗，而不需透過網頁瀏覽器或應用程式商店路由，讓歷程保持在相關性和品牌上。
 
-當您的收件者按一下深層連結時，就會直接導向至預期的應用程式內內容 — **前提是您已完成此頁面上詳述的設定步驟**，其中涵蓋：
+收件者按一下深層連結時，會直接導向至預期的應用程式內內容 — **前提是您已完成**：
 
-* 如何在Journey Optimizer中設定電子郵件的深層連結
-* 如何在行動應用程式中為iOS和Android實作深層連結處理
+* Journey Optimizer中的[設定步驟](#configuration)；
+
+* 行動應用程式中iOS和Android的[行動應用程式實作](#mobile-implementation)步驟。
 
 >[!NOTE]
 >
