@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3326'
 ht-degree: 97%
 
 ---
@@ -105,6 +105,7 @@ ht-degree: 97%
    + 建立運算式 {#building-advanced-conditions-journeys}
       + [建立運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [使用進階運算式編輯器](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[運算式小幫手](using/building-journeys/expression/expression-agent.md)
       + 語法 {#syntax}
          + [語法](/help/rp_landing_pages/syntax-landing-page.md)
          + [進階運算式編輯器語法](using/building-journeys/expression/generalities.md)
