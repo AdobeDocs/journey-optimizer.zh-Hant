@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: 將代表新增至優惠方案
+title: 在產品建議中新增聲明
 description: 瞭解如何將代表新增至您的優惠
 badge: label="舊版" type="Informative"
 feature: Decision Management
@@ -28,20 +28,20 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 900
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 將代表新增至優惠方案 {#add-representations}
+# 在產品建議中新增聲明 {#add-representations}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示方式"
->abstract="新增代表以定義訊息中顯示優惠的位置。 優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。"
+>abstract="新增表示方式以定義您的產品建議在訊息中顯示的位置。 產品建議具有的表示方式越多，在不同的產品建議放置環境內容中使用產品建議的機會就越多。"
 
 選件可顯示在訊息中的不同位置：在含有影像的頂端橫幅中、在段落中作為文字、在HTML區塊中等。優惠方案的代表性愈多，在不同的版位內容中使用優惠方案的機會就愈多。
 

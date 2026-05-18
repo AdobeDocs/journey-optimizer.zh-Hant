@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 匯入您的電子郵件內容
-description: 瞭解如何匯入電子郵件內容
+title: 匯入電子郵件內容
+description: 了解如何匯入電子郵件內容
 feature: Email Design
 topic: Content Management
 role: User
@@ -25,11 +25,11 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 260
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 
-# 匯入您的電子郵件內容 {#existing-content}
+# 匯入電子郵件內容 {#existing-content}
 
 [!DNL Journey Optimizer]可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
 
@@ -38,20 +38,20 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >.zip檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
+  >.zip 檔案結構沒有限制。 不過，參照必須是相對參照，而且符合.zip資料夾的樹狀結構。
 
 
 >[!TIP]
 >
 >如果您有影像設計（JPEG或PNG），而不是HTML檔案，您可以使用[影像到HTML轉換器](../content-management/image-to-html.md)，透過AI自動將它們轉換為可編輯的HTML電子郵件範本。
 
-若要匯入包含HTML內容的檔案，請遵循下列步驟：
+若要匯入包含 HTML 內容的檔案，請依照以下步驟操作：
 
 1. 從電子郵件Designer首頁，選取&#x200B;**[!UICONTROL 匯入HTML]**。
 
    ![](assets/import-html_2.png)
 
-1. 拖放包含HTML內容的HTML或.zip檔案，然後按一下&#x200B;**[!UICONTROL 匯入]**。
+1. 拖放包含 HTML 內容的 HTML 或 .zip 檔案，然後按一下「**[!UICONTROL 匯入]**」。
 
    ![](assets/html-imported_2.png)
 
@@ -67,10 +67,10 @@ ht-degree: 0%
    >
    > 在HTML檔案中使用`<table>`標籤做為第一個圖層可能會造成樣式遺失，包括上層圖層標籤中的背景和寬度設定。
 
-1. 您現在可以根據需要，使用電子郵件Designer功能個人化匯入的檔案。 [進一步瞭解](content-from-scratch.md)
+1. 您現在可以根據需要，使用電子郵件Designer功能個人化匯入的檔案。 [了解更多](content-from-scratch.md)
 
 ## 作法影片 {#video}
 
-瞭解如何匯入現有的HTML內容、調整設計、新增映象頁面和取消訂閱連結，以及如何編寫內容的程式碼。
+瞭解如何匯入現有的 HTML 內容、調整設計、新增鏡像頁面和取消訂閱連結，以及如何編寫內容的程式碼。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -334,4 +334,3 @@ ht-degree: 1%
 連結會在裝置的預設網頁瀏覽器中開啟（標準點選追蹤行為），而非透過本頁面所述的`mclick`流程以應用程式深層連結處理。
 
 +++
-

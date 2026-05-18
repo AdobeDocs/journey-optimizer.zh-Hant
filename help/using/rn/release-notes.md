@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2624
-ht-degree: 78%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -177,6 +177,27 @@ ht-degree: 78%
 #### WhatsApp
 
 * **WhatsApp按鈕支援和追蹤** - WhatsApp範本現在支援&#x200B;**快速回覆**、**Call to action - URL**&#x200B;和&#x200B;**Call to action -**，不支援&#x200B;**複製代碼**。 Journey Optimizer會傳送支援的按鈕並追蹤與其他管道報表的互動。
+
+* **WhatsApp頻道內容資料** - Journey Optimizer現在會擷取從WhatsApp頻道傳回的其他互動資料，並將其儲存在`whatsAppChannelContext`欄位群組下的&#x200B;**AJO EmailTrackingExperienceEvent資料集**。
+
+  +++ 系統會擷取下列欄位，用於建立對象和分析WhatsApp參與度
+
+   * **`messageType`** - WhatsApp訊息型別（例如`templateBased`、`response`）
+   * **`inboundMessage`** — 傳入回覆內容（例如`stop`、`start`、`subscribe`）
+   * **`inboundNumber`** — 收到傳入訊息的寄件者識別碼
+   * **`channelType`** — 頻道類別（`Utility`、`Marketing`或`Promotional`）
+   * **`profileNumber`** — 接收傳入訊息的電話號碼
+   * **`origTimestamp`** - Meta / WhatsApp的原始時間戳記
+   * **`status`** — 傳遞狀態包含標準化的提供者意見回應（`sent`、`delivered`、`bounce`、`error`、`delay`、`duplicate`、`denylist`、`exclude`或`unknown`）以及原始提供者狀態訊息
+   * **`reactionEvent`** — 使用者回應的內容：回應的表情符號，或特定訊息的回覆文字
+   * **`reactionMessageID`** — 正在回應的原始郵件識別碼
+   * **`reactionActionName`** — 回應動作的型別（`react`、`unreact`或`reply`）
+   * **`interactiveSelectedTitle`** — 使用者從WhatsApp互動式訊息中選取的標題
+   * **`interactiveType`** — 互動式訊息型別（`list reply`、`button reply`或`button`）
+   * **`interactiveSelectedDescription`** — 所選WhatsApp互動式選項的說明
+   * **`interactiveSelectedID`** — 從WhatsApp選取選項的ID
+
+  +++
 
 <!-- 
 ## Coming soon {#coming-soon}
@@ -496,4 +517,3 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 * **協調行銷活動中的全域變數** - 協調行銷活動現在支援全域變數，這些變數只需定義一次，便可在工作流程內的所有活動中重複使用，進而簡化設定，並確保動態值、運算式和內容個人化的一致性。 [閱讀全文](../orchestrated/global-variables.md)
 * **資料建模工具增強功能** - 協調的關聯式結構描述現在支援跨多個欄位的複合金鑰。 從 DDL 檔案載入結構描述也會產生分項清單，而從 DDL 或 Excel 檔案載入會自動建立表格之間的複合關係。 在實體關係檢視中，複合連結現在會在檔案上傳後，顯示表格之間的完整欄位配對集。 [閱讀全文](../orchestrated/gs-schemas.md)
-

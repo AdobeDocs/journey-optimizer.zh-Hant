@@ -104,7 +104,7 @@ ht-degree: 29%
 
 **選項3 — 在資料湖**&#x200B;中啟用設定檔的資料集
 
-將資料內嵌至啟用[設定檔的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中，以建立對象、豐富身分圖表，並跨多個歷程和RT-CDP目的地運用資料。 最適合下列情況：
+將資料內嵌至啟用[設定檔的資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中，以建立對象、豐富身分圖表，並跨多個歷程和RT-CDP目的地運用資料。 最適合下列情況：
 
 * 此資料可用於Journey Optimizer以外的管道中使用的受眾定義。
 * 資料包含多個身分，這些身分有助於提供更豐富的拼接設定檔片段。

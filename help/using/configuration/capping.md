@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定API上限
+title: 設定 API 上限
 description: 瞭解如何使用上限API
 feature: Journeys, API
 role: Developer
@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 761
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 此集合已設定為共用透過&#x200B;__[Postman Console的整合功能產生的Adobe I/O變數集合](https://console.adobe.io/integrations) >嘗試使用>下載Postman__，這會產生具有所選整合值的Postman環境檔案。
 
-下載並上傳至Postman後，您需要新增三個變數： `{JO_HOST}`、`{BASE_PATH}`和`{SANDBOX_NAME}`。
+一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 
 * `{JO_HOST}` ： [!DNL Journey Optimizer]閘道URL。
-* `{BASE_PATH}` ： API的進入點。
-* `{SANDBOX_NAME}` ：與將執行API作業的沙箱名稱對應的標頭&#x200B;**x-sandbox-name** （例如，「prod」）。 如需詳細資訊，請參閱[沙箱總覽](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
+* `{BASE_PATH}`：API 的進入點。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant){target="_blank"}。
 
 ## 端點設定
 

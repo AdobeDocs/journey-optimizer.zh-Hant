@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 整合Adobe Campaign Standard
+title: 與 Adobe Campaign Standard 整合
 description: 瞭解如何將Journey Optimizer與Adobe Campaign Standard整合
 feature: Journeys, Actions, Custom Actions
 topic: Administration
@@ -31,17 +31,17 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 450
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 整合Adobe Campaign Standard {#using_adobe_campaign_standard}
+# 與 Adobe Campaign Standard 整合 {#using_adobe_campaign_standard}
 
 如果您有Adobe Campaign Standard，則可使用內建動作來允許連線至Adobe Campaign Standard。 您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
 
 必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Optimizer中使用。 如果事件已發佈，但訊息尚未發佈，將無法在Journey Optimizer介面中看見。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Optimizer介面中，但將無法使用。
 
-## 護欄和限制 {#important-notes}
+## 護欄與限制 {#important-notes}
 
 * 系統會自動為Adobe Campaign Standard動作定義每5分鐘4,000次呼叫的上限規則。 在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html){target="_blank"}中進一步瞭解異動訊息SLA。
 

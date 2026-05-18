@@ -25,36 +25,36 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1182
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# 設定您的程式碼型體驗 {#code-based-configuration}
+# 設定您基於程式碼的體驗 {#code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="定義程式碼型體驗設定"
->abstract="程式碼型設定會定義應用程式內的路徑和位置，並以應用程式實作中的URI唯一識別，以便傳遞和使用內容。"
+>title="定義基於程式碼的體驗設定"
+>abstract="基於程式碼的設定會定義您應用程式中的路徑和位置，由應用程式實作中的 URI 唯一識別，且內容將在其中傳遞和使用。"
 
 在[建置您的體驗](create-code-based.md)之前，您需要建立程式碼型體驗設定，在其中定義內容將在您的應用程式內傳遞和使用的位置。
 
-程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [進一步瞭解](code-based-surface.md)
+程式碼型體驗設定必須參考曲面，這基本上是您要呈現變更的位置。 根據所選的平台，您需要輸入位置/路徑，或完整表面URI。 [了解更多](code-based-surface.md)
 
 >[!NOTE]
 >
 >當您有多個使用相同管道設定的程式碼型體驗動作（因此在相同表面上執行）時，如果使用者符合多個動作的資格，促銷活動或歷程的&#x200B;**[!UICONTROL 優先順序分數]**&#x200B;會決定要傳遞給他們的專案。 [進一步瞭解優先順序分數](../conflict-prioritization/priority-scores.md)
 
-## 建立程式碼型體驗設定 {#create-code-based-configuration}
+## 建立基於程式碼的體驗設定 {#create-code-based-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="指出您的頁面或應用程式內的特定位置"
->abstract="此欄位會指定頁面內或您要使用者存取之應用程式內的確切目的地。 它可以是網頁內的特定區段，或應用程式導覽結構內的深入頁面。"
+>title="表示頁面或應用程式內的特定位置"
+>abstract="此欄位會指定您希望使用者存取之頁面或應用程式內的確切目標。 它可以是網頁內的特定區段，也可以是應用程式導覽結構深處的頁面。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="定義內容建立和預覽的URL"
->abstract="此欄位可確保規則產生或相符的頁面具有指定的URL，這點對於有效建立和預覽內容而言至關重要。"
+>title="定義內容建立和預覽 URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 若要建立程式碼型體驗通道設定，請遵循下列步驟：
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線`_`、點`.`和連字型大小`-`字元。
+   > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
 1. 若要將自訂或核心資料使用標籤指派給組態，您可以選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [進一步瞭解](../action/consent.md#surface-marketing-actions)
+1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
 1. 選取&#x200B;**程式碼型體驗**&#x200B;管道。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 選取將套用程式碼庫體驗的平台：
 
-   * [Web](#web)
+   * [網頁](#web)
    * [iOS和/或Android](#mobile)
    * [其他](#other)
 
@@ -98,12 +98,12 @@ ht-degree: 0%
 >
 >您的應用程式實作團隊負責發出明確API或SDK呼叫，以便為選取的程式碼型體驗設定中定義的表面擷取內容。 在[本節](code-based-implementation-samples.md)中進一步瞭解不同的客戶實作。
 
-### Web平台 {#web}
+### Web 平台 {#web}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_web_url"
->title="定義內容製作和預覽的URL"
->abstract="此欄位可確保規則產生或相符的頁面具有指定的URL，這點對於有效建立和預覽內容而言至關重要。"
+>title="定義內容製作和預覽 URL"
+>abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
 若要定義Web平台的程式碼型體驗組態設定，請遵循下列步驟。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
      ![](assets/code_config_single_page.png)
 
-   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置一或多個規則。 [進一步瞭解](../web/web-configuration.md#web-page-matching-rule)
+   * **[!UICONTROL 頁面符合規則]** — 若要鎖定多個符合相同規則的URL，請建置一或多個規則。 [了解更多](../web/web-configuration.md#web-page-matching-rule)
 
      <!--This could be used to apply changes universally across a website, such as updating a hero banner across all pages or adding a top image to display on every product page.-->
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[進一步瞭解](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,21 +132,21 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >在此欄位中輸入的字串或路徑必須符合應用程式或頁面實作中宣告的字串或路徑。 這可確保內容會傳送至指定應用程式或頁面內的所需位置。 [進一步瞭解](code-based-surface.md#uri-composition)
+   >在此欄位中輸入的字串或路徑必須符合應用程式或頁面實作中宣告的字串或路徑。 這可確保內容會傳送至指定應用程式或頁面內的所需位置。 [了解更多](code-based-surface.md#uri-composition)
 
    ![](assets/code_config_location_on_page.png)
 
-### 行動平台（iOS和Android） {#mobile}
+### 行動平台 (iOS 和 Android) {#mobile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="提供您的應用程式ID"
->abstract="輸入應用程式ID，即可在應用程式的作業環境中準確識別及設定，確保整齊整合及功能。"
+>title="提供您的應用程式 ID"
+>abstract="輸入應用程式 ID，以便在應用程式的操作環境中進行準確的識別和設定，確保緊密整合和功能。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="輸入預覽內容的URL"
->abstract="若要直接在應用程式的裝置上啟用內容的模擬和預覽，此欄位至關重要。"
+>title="輸入內容預覽 URL"
+>abstract="此欄位對於直接在裝置的應用程式中模擬和預覽內容至關重要。"
 
 若要定義行動平台的程式碼型體驗組態設定，請遵循下列步驟。
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
    ![](assets/code_config_3.png)
 
-1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在裝置上觸發預覽時要使用的特定URL。 [進一步瞭解](test-code-based.md#preview-on-device)
+1. 填寫&#x200B;**[!UICONTROL 預覽URL]**&#x200B;欄位以啟用裝置上預覽。 此URL會通知預覽服務在裝置上觸發預覽時要使用的特定URL。 [了解更多](test-code-based.md#preview-on-device)
 
    預覽URL是應用程式開發人員在您應用程式內設定的深層連結。 這可確保任何符合深層連結配置的URL都會在應用程式中開啟，而不是在行動網站瀏覽器中開啟。 請聯絡您的應用程式開發人員，取得為您的應用程式設定的深層連結配置。
 
@@ -184,13 +184,13 @@ ht-degree: 0%
 
 1. 如果您的實作不適用於Web、iOS或Android，或需要鎖定特定的URI，請選取&#x200B;**[!UICONTROL 其他]**&#x200B;作為平台。
 
-1. 輸入&#x200B;**[!UICONTROL 表面URI]**。 表面URI是與您要傳送體驗的實體對應的唯一識別碼。 [進一步瞭解](code-based-surface.md#surface-uri)
+1. 輸入&#x200B;**[!UICONTROL 表面URI]**。 表面URI是與您要傳送體驗的實體對應的唯一識別碼。 [了解更多](code-based-surface.md#surface-uri)
 
    ![](assets/code_config_5.png)
 
    >[!CAUTION]
    >
-   >請務必輸入與您自己的實施中所使用之URI相符的表面URI。 否則，將無法傳送變更。 [進一步瞭解](code-based-surface.md#uri-composition)
+   >確保您輸入的表面 URI 符合您自己的實作中使用的 URI。 否則，將無法傳送變更。 [了解更多](code-based-surface.md#uri-composition)
 
 1. **[!UICONTROL 視需要新增另一個表面URI]**。 您可以新增最多10個URI。
 

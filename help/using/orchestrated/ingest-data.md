@@ -14,7 +14,7 @@ feature_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 815
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >Adobe Experience Platform在資料流和資料集之間實施嚴格的一對一關係。 這可讓您維持來源與資料集之間的同步，以取得精確的增量擷取。
 
-Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Experience Platform服務來建構、加標籤及增強傳入資料。 您可以從多種來源（例如Adobe應用程式、雲端儲存、資料庫和許多其他來源）內嵌資料。
+Adobe Experience Platform 讓您可以從外部來源擷取資料，同時可以使用 Experience Platform 服務來建立、加標籤，同時強化傳入資料。 您可以從多種來源 (如 Adobe 應用程式、雲端型儲存空間、資料庫和其他許多來源) 擷取資料。
 
-資料集是資料集合的儲存和管理結構，通常是包含方案（欄）和欄位（列）的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
+資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。 成功擷取至Experience Platform的資料會以資料集的形式儲存在資料湖中。
 
 ## 協調行銷活動的支援來源 {#supported}
 
@@ -37,8 +37,8 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 <table>
   <thead>
     <tr>
-      <th>型別</th>
-      <th>Source</th>
+      <th>類型</th>
+      <th>來源</th>
     </tr>
   </thead>
   <tbody>
@@ -47,7 +47,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
       <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google雲端儲存空間</a></td>
+      <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
       <td><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
@@ -96,7 +96,7 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
 此範例示範如何設定將結構化資料擷取至Adobe Experience Platform的資料流程。 設定的資料流程支援自動化、排程擷取，並可啟用即時更新。
 
-1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 來源]**&#x200B;功能表。
+1. 請從&#x200B;**[!UICONTROL 連線]**&#x200B;選單那邊，存取&#x200B;**[!UICONTROL 來源]**&#x200B;選單。
 
 1. 根據[協調行銷活動的支援來源](#supported)選擇您的來源。
 
@@ -130,15 +130,15 @@ Adobe Experience Platform可讓您從外部來源擷取資料，同時使用Expe
 
 1. 在&#x200B;**[!UICONTROL 對應]**&#x200B;視窗中，確認每個來源檔案屬性與目標結構描述中的對應欄位正確對應。 [進一步瞭解目標維度](target-dimension.md)。
 
-   完成後，按一下&#x200B;**[!UICONTROL 下一步]**。
+   完成後，請按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/S3_config_4.png)
 
-1. 根據您想要的頻率設定資料流程&#x200B;**[!UICONTROL 排程]**。
+1. 請根據想要的頻率，設定資料流量的&#x200B;**[!UICONTROL 排程]**。
 
-1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以建立資料流程。 它會根據定義的排程自動執行。
+1. 按一下&#x200B;**[!UICONTROL 完成]**，以便建立資料流 一般會根據定義的排程自動執行。
 
-1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;功能表中，選取&#x200B;**[!UICONTROL 來源]**&#x200B;並存取&#x200B;**[!UICONTROL 資料流程]**&#x200B;索引標籤，以追蹤流程執行、檢閱擷取的記錄，以及疑難排解任何錯誤。
+1. 從&#x200B;**[!UICONTROL 連線]**&#x200B;選單中，選取&#x200B;**[!UICONTROL 來源]**&#x200B;並存取&#x200B;**[!UICONTROL 資料流]**&#x200B;索引標籤，以追蹤流量執行、檢閱擷取的記錄，以及疑難排解任何錯誤。
 
    ![](assets/S3_config_5.png)
 

@@ -139,7 +139,7 @@ ht-degree: 99%
 <p>頻道報告功能為分析師和行銷人員提供頻道層級流量和參與量度的全面概觀。</p>
 <p>若要存取<b>報告</b>功能表，您必須擁有<b>檢視頻道報告</b>權限。</p>
 <img src="assets/channel-reports.png"/>
-<p>如需詳細資訊，請參閱<a href="../reports/channel-report-cja.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/channel-report-cja.md">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -156,7 +156,7 @@ ht-degree: 99%
 <td>
 <p>現已正式推出將 Journey Optimizer 資料集匯出至雲端儲存空間目的地的功能。 此功能可讓您與雲端儲存空間位置建立即時連線，以匯出資料集的內容。</p>
 <img src="../data/assets/dataset-export-setup.png">
-<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -255,7 +255,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您現在可以在歷程中將個人化的應用程式內訊息傳送給應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <img src="assets/do-not-localize/in-app-jo.gif"/>
-<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app.md">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -345,7 +345,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>您現在可以建立構成工作流程，將現有 Adobe Experience Platform 客群與視覺畫布結合起來，並利用各種活動 (分割、擴充……) 建立新客群。 新建立的客群會與現有客群一起儲存回 Adobe Experience Platform，並可在 Journey Optimizer 行銷活動中運用，來鎖定目標客戶。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
-<p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../audience/get-started-audience-orchestration.md">詳細說明文件</a>。</p>
 <p>客群構成已與新的 Adobe Experience Platform「客群」選單完全整合，該選單可作為客群的集中式入口網站。 您現在可以使用瀏覽頁面，利用其中具有區段趨勢和重疊的新儀表板 ，來發掘新的洞察，以及探索以資料夾與標記整理歸類的組織工具。 此體驗包含標準化客群標籤的治理控制項，以及管理啟用工作流程的客群生命週期管理功能。 有了這項新的管理體驗，您現在可以輕鬆安全地從單一位置管理客群。 如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant" target="_blank">Adobe Experience Platform 文件</a>。</p></p>
 </td>
 </tr>
@@ -365,7 +365,7 @@ A new option is available in the email surface settings to include email address
 <p>當您準備傳送直接郵件時，Journey Optimizer 會產生一個檔案，其中包含所有目標輪廓和選擇的聯絡資訊 (例如，郵遞區號)。 然後，您就可以將此檔案傳送給直接郵件提供者，由他們負責實際傳送。</p>
 <p>目前，直接郵件頻道不適用於已購買 Adobe Healthcare Shield 附加產品的組織。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -381,7 +381,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>您現在可以在 Journey Optimizer 的電子郵件編輯器中匯入和轉換任何 HTML 內容。 在電子郵件設計工具中，可自動識別和提供內容區塊：使用該工具的強大設計功能來更新和個人化！</p>
 <img src="assets/html-convert.png">
-<p>如需詳細資訊，請參閱<a href="../email/existing-content.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/existing-content.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -399,7 +399,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>除了行銷活動和歷程之外，您現在還可以將 Adobe Experience Platform 整合標籤指派給登陸頁面、內容範本、片段及訂閱清單。 這可讓您輕鬆分類，以及改善所有清單的搜尋和導覽。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -468,7 +468,7 @@ A new option is available in the email surface settings to include email address
 <p>您現在可以從外部系統使用 API，在 Adobe Journey Optimizer 中觸發行銷活動。</p>
 <p>在此發行版本之前，API 觸發的行銷活動功能涵蓋各種操作和異動訊息傳送需求，例如密碼重設或 OTP 權杖，但無法用於建立行銷活動。 API 觸發的行銷活動可用管道包括：電子郵件、簡訊及推播訊息。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -521,7 +521,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Adobe Journey Optimizer 現在支援行銷活動實驗。 實驗是在線上測試的情境下進行的隨機試驗，意即某些隨機選取的使用者會接觸到訊息的指定變化，而另一組隨機選取的使用者則會接觸到一些其他處理方式。 接觸到後，您就可以測量感興趣的結果量度，例如電子郵件開啟、訂閱或購買數。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>如需詳細資訊，請參閱<a href="../content-management/content-experiment.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-experiment.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -558,7 +558,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您現在可以製作、使用和管理片段，以快速組合電子郵件與內容範本。 片段是預先建立的可重複使用元件，可在跨 Journey Optimizer 行銷活動和歷程的多封電子郵件中參考，以改進和加快設計流程。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>如需詳細資訊，請參閱<a href="../content-management/fragments.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/fragments.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -576,7 +576,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>您現可指派 Adobe Experience Platform 統一標籤至行銷活動。 這可讓您輕鬆分類，並改進行銷活動清單的搜尋。 請注意，統一標籤功能目前仍在測試中。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/search-filter-categorize.md#tags">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -678,7 +678,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Adobe Journey Optimizer 透過新增網路頻道支援，來擴充其跨頻道功能。 您現在可以和其他任何頻道一樣，透過直覺式的智慧型視覺介面編寫、變更和預覽網路體驗，打造自己的個人化使用者體驗。 請注意，目前您只能在 Journey Optimizer 中建立行銷活動中的網路體驗。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<p>如需詳細資訊，請參閱<a href="../web/get-started-web.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../web/get-started-web.md">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -694,7 +694,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>全新 Mobile 上線快速入門工作流程現已推出。 使用此新產品功能來快速設定 Mobile SDK，以開始收集和驗證行動事件資料，並透過 Adobe Journey Optimizer 傳送行動推播通知。 這項功能可透過「資料彙集」首頁以公開 Beta 版的形式存取。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>如需詳細資訊，請參閱<a href="../push/mobile-onboarding-wf.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../push/mobile-onboarding-wf.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -755,7 +755,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/in-app-landing-page.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/in-app-landing-page.md">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>透過簡訊點擊追蹤，您可以監控縮短 URL 的效果、識別誰點擊了 URL，並利用此資料透過後續行銷活動重新鎖定這些客戶。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -853,7 +853,7 @@ Information below is subject to change without prior notice until the release av
 <p>您現在可以在行銷活動中將個人化的應用程式內訊息傳送給您的應用程式使用者。 使用 Journey Optimizer 來設計通知並自訂訊息版面、顯示、文字及按鈕，以建立順暢的體驗。</p>
 <p><strong>注意</strong> - 此功能目前為測試版，僅供測試版客戶使用。 若要加入 Beta 版計畫，請連絡 Adobe 客戶服務。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/in-app-landing-page.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/in-app-landing-page.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>

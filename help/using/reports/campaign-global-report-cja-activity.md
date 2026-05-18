@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 663
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報告]**，以存取您的即時活動行銷活動報告。 [進一步瞭解](report-gs-cja.md)
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報告]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報告]**，以存取您的即時活動行銷活動報告。 [了解更多](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -141,7 +141,7 @@ GET /im/executions/audience/{executionId}
 
 **[!UICONTROL 錯誤原因]**&#x200B;表格可讓您識別在Live活動傳送程式期間發生的特定錯誤，協助徹底分析遇到的任何問題。
 
-## 排除的原因 {#excluded-reasons}
+## 排除原因 {#excluded-reasons}
 
 ![](assets/excluded-activity.png)
 

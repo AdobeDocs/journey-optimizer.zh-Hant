@@ -7,7 +7,7 @@ feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: 開始使用，開始，內容，實驗
+keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
 product_v2:
@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 965
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [進一步瞭解](#language-settings)
+1. 按一下&#x200B;**[!UICONTROL 新增語言]**，然後選取您先前建立的&#x200B;**[!UICONTROL 語言設定]**。 [了解更多](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的多語言行銷活動或歷程。 [進一步瞭解](../test-approve/gs-approval.md)
+> 如果您的行銷活動受核准政策的約束，您將需要請求核准才能傳送您的多語言行銷活動或歷程。 [了解更多](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

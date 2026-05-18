@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 管道報表
-description: 開始使用管道報告
+title: 頻道報告
+description: 開始使用頻道報告
 feature: Reporting
 topic: Content Management
 role: User
@@ -26,15 +26,15 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 648
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 開始使用管道報告 {#channel-report-gs}
+# 開始使用頻道報告 {#channel-report-gs}
 
 >[!AVAILABILITY]
 >
->目前的報告體驗將於2025年1月淘汰。 在此日期之後，新的報告體驗將成為標準。 建議您熟悉新功能，以確保順利轉換。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
+>目前的報告體驗將於2025年1月淘汰。 過了上述日期，新的報告體驗就會成為標準版。 建議您先自己熟悉一下新的功能，以確保能順利轉換服務。 [開始使用Journey Optimizer的新報告介面。](report-gs-cja.md)
 
 管道報表是一個功能強大的工具，可針對每個管道將流量和參與量度的全面概觀納入統一報表中，包括所有行銷活動和歷程的所有動作。 它分為不同的Widget，每個都提供行銷活動或歷程績效的特定檢視。
 

@@ -113,7 +113,7 @@ ht-degree: 100%
 <p>您現在可以建立動態內容，以根據條件規則調整訊息的內容。</p> 
 <p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ ht-degree: 100%
 <p>除了現有的已排程行銷活動，您現在可以在 Journey Optimizer 中建立 API 觸發的行銷活動，並使用 API 從外部系統叫用它們。</p>
 <p>這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ ht-degree: 100%
 <p>通過基於屬性的存取控制，管理員可以根據特定屬性控制對特定物件的存取。 這些屬性可以是新增至物件的中繼資料，例如標籤。 從此版本開始，管理員還可以定義只能存取特定欄位和/或物件，以及與這些欄位和/或物件對應資料的使用者角色。</p>
 <p> 以屬性為基礎的存取控制目前僅限於選定客戶，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>如需詳細資訊，請參閱<a href="../administration/object-based-access.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../administration/object-based-access.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>

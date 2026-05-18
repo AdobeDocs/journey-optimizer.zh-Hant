@@ -93,7 +93,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道： [程式碼型體驗](../code-based/get-started-code-based.md)、[電子郵件](../email/get-started-email.md) （可用性限制）、[簡訊](../sms/get-started-sms.md)及[推播通知](../push/get-started-push.md)。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 

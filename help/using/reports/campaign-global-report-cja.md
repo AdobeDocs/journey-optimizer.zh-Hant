@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 612
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報表]**，以存取行銷活動報表。 [進一步瞭解](report-gs-cja.md)
+您可以按一下行銷活動中的&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 檢視所有時間報表]**，以存取行銷活動報表。 [了解更多](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -64,7 +64,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 >[!AVAILABILITY]
 >協調的行銷活動僅支援簡訊、電子郵件和推播頻道。 其他管道（應用程式內、網頁、直接郵件等） 無法在協調的行銷活動中使用，也不會出現在報表中。
 
-### Campaign概覽 {#delivery-global}
+### Campaign 概觀 {#delivery-global}
 
 ![](assets/cja-campaign-overview.png)
 
@@ -96,7 +96,7 @@ KPI會因行銷活動中使用的管道而有所不同。
 
 +++
 
-### Campaign funnel結果 {#campaign-funnel}
+### Campaign 漏斗結果 {#campaign-funnel}
 
 ![](assets/cja-campaign-funnel.png)
 

@@ -45,7 +45,7 @@ ht-degree: 12%
 
 ## 受影響的資料集 {#datasets}
 
-下表列出資料湖和[個人資料存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中所有受影響的資料集及其各自的存留時間。
+下表列出資料湖和[個人資料存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中所有受影響的資料集及其各自的存留時間。
 
 | 資料集 | 資料湖TTL | 設定檔存放區TTL |
 |------|-----|-----|
