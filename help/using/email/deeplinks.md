@@ -36,7 +36,7 @@ ht-degree: 1%
 
 對於電子郵件訊息，有兩個選項可插入深層連結：
 
-* **電子郵件Designer**：確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的[插入連結] ]**，然後選擇[深層連結]**[!UICONTROL &#x200B;以輸入深層連結URL。 ****[進一步瞭解插入連結](message-tracking.md#insert-links)
+* **電子郵件Designer**：確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的[插入連結] **，然後選擇[深層連結]**&#x200B;以輸入深層連結URL。 **&#x200B;**&#x200B;[進一步瞭解插入連結](message-tracking.md#insert-links)
 
 * **Personalization編輯器（程式碼）**：使用下列程式碼片段，將深層連結直接插入HTML：
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 1. 在您的子網域上託管iOS的AASA檔案和Android的assetLinks.json檔案。 請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，並提供下列詳細資料：
 
-   * 針對iOS (AASA)****：
+   * 針對iOS (AASA)**&#x200B;**：
       * 委派的子網域
       * 應用程式套件組合ID
    * **若為Android (assetLinks.json)**：
