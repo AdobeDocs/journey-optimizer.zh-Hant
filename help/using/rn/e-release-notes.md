@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: 1131
 ht-degree: 6%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 6%
 <tr>
 <td>
 <p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -178,6 +179,7 @@ ht-degree: 6%
 <td>
 <p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
 <p>此功能以公用Beta的形式提供給所有客戶。</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -223,11 +225,7 @@ ht-degree: 6%
   Availability date: May 19, 2026
 -->
 
-#### 設定
 
-* **訊息回饋事件資料集正移至批次擷取** - `AJO Message Feedback Event Dataset`正在從串流模式轉換為批次擷取模式。 這項變更可確保資料擷取不超過串流擷取限制。 如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
-
-  推出日期： 2026年5月19日
 
 #### 決策
 
