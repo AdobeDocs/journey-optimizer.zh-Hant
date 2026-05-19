@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
+source-git-commit: 24e3ab995d8dfc77c4441ce68e51b437f5827228
 workflow-type: tm+mt
-source-wordcount: 1566
-ht-degree: 38%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
@@ -145,6 +145,7 @@ ht-degree: 38%
 <tr>
 <td>
 <p>[!DNL Adobe Journey Optimizer] 現在使用AI來偵測可以簡化的決定規則和排名公式。 在詳細目錄中，紅色指示器會出現在AI已識別最佳化機會的任何規則上。 按一下指示器會顯示原始運算式以及AI建議的版本。 從那裡，您可以下載檔案以檢視每個版本評估模擬設定檔的方式，並確認其行為相同，然後以最佳化的設定檔取代運算式。</p>
+<p><img src="assets/do-not-localize/rule-ai.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../start/ai-features.md#decisioning-optimization">詳細說明文件</a>。</p>
 <p>推出日期： 2026年5月5日</p>
 </td>
@@ -225,6 +226,22 @@ ht-degree: 38%
 下列功能和增強功能預計於5月下旬發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
 ### 新功能 {#coming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>新的行動訊息頻道和增強的RCS訊息</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>SMS、MMS和RCS現在整合在Adobe Journey Optimizer中的單一<strong>行動訊息</strong>動作下，因此更易從單一位置管理所有行動訊息型別。 在此更新中，您現在可以透過新的原生撰寫體驗，直接在Journey Optimizer中撰寫豐富媒體RCS訊息，包括影像、輪播和建議的動作。</p>
+<p>推出日期： 2026年5月20日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

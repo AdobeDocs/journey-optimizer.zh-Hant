@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ ht-degree: 6%
 <table>
 <thead>
 <tr>
-<th><strong>連結的協調行銷活動</strong><br/></th>
+<th><strong>鏈結協調的行銷活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ ht-degree: 6%
 <td>
 <p>現在，只要直接從其他協調行銷活動的<strong>結束活動</strong>觸發協調的行銷活動，即可將協調的行銷活動連結在一起。</p>
 <p>這可讓您將複雜的協調流程邏輯分解成更小且可重複使用的流程，以便從多個上層行銷活動呼叫，而非每次都重新建置。 在執行階段傳遞的裝載可用於下遊行銷活動中的細分和個人化，因此每個連結的行銷活動都可以根據其收到的內容採取行動。</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
