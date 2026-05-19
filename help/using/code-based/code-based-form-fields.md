@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a1d8b80ef06ab981d509c0f914bd37b588e684a7
 workflow-type: tm+mt
 source-wordcount: 1245
 ht-degree: 8%
@@ -93,7 +93,7 @@ ht-degree: 8%
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
--->
+    -->
 
 1. 按一下&#x200B;**[!UICONTROL 預覽表單欄位]**&#x200B;以檢查可編輯的表單欄位在套用此範本的程式碼式體驗中會如何顯示。
 
