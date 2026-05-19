@@ -4,14 +4,14 @@ product: journey optimizer
 title: Journey Optimizer 搶鮮版發行說明
 description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
+hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7eb22e0b12c01be0478ed15fa63a9818dc960626
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 10%
+source-wordcount: 1194
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>SMS、MMS和RCS現在整合在Adobe Journey Optimizer中的單一<strong>行動訊息</strong>動作下，因此更易從單一位置管理所有行動訊息型別。 在此更新中，您現在可以透過新的原生撰寫體驗，直接在Journey Optimizer中撰寫豐富媒體RCS訊息（包括影像、輪播和建議的動作）。</p>
+<p>SMS、MMS和RCS現在整合在Adobe Journey Optimizer中的單一<strong>行動訊息</strong>動作下，因此更易從單一位置管理所有行動訊息型別。 在此更新中，您現在可以透過新的原生撰寫體驗，直接在Journey Optimizer中撰寫豐富媒體RCS訊息，包括影像、輪播和建議的動作。</p>
 <p>推出日期： 2026年5月19日</p>
 </td>
 </tr>
@@ -117,32 +117,15 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>內容警告器選擇器</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器支援所有資產的瀏覽、搜尋和篩選，包括Dynamic Media轉譯，並整合增強的使用者介面功能，讓您在使用動態資產時輕鬆新增影像轉譯。</p>
-<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>非循環讀取對象歷程的自動完成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動停止。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
+<p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動轉換為<strong>已停止</strong>狀態。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
+<p>請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。</p>
 <p>推出日期： 2026年5月19日</p>
-</td>
 </tr>
 </tbody>
 </table>
@@ -200,40 +183,6 @@ ht-degree: 10%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 透過「一般可用性」版本，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
-<p>推出日期： 2026年5月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>針對協調行銷活動的檔案式目標定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>協調的行銷活動現在支援直接將CSV或TXT檔案載入行銷活動畫布作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 這支援無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。 </p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>推出日期： 2026年5月28日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 ### 改善 {#may-26-improv}
@@ -253,13 +202,6 @@ ht-degree: 10%
 -->
 
 #### 行銷活動
-
-* **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
-
-  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
-
-
-  推出日期： 2026年5月19日
 
 * **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
 
@@ -342,35 +284,16 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
   推出日期： 2026年5月19日
 
-<!--
-#### Integrations
+#### 整合
 
+* **Assets選擇器中的跨組織存放庫存取** — 您現在可以直接在Adobe Experience Manager資產選擇器中，順暢地從多個組織的存放庫中選擇資產。
+<!--
 * **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
   Availability date: May 19, 2026
 -->
 
-#### 協調的行銷活動
-
-* **在擴充活動中新增連結** — 在協調行銷活動的擴充活動中現在可以使用新增連結功能。 這可讓您在工作表格資料與現有的資料庫表格之間建立直接關係。
-
-
-  推出日期： 2026年5月26日
-
-* **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定，不需要撰寫運算式。
-
-
-  推出日期： 2026年5月28日
-
-#### 電子郵件
-
-* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
-
-  可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
-
-
-  推出日期： 2026年5月29日
 
 <!--
 # Pre-release notes {#e-release-notes}
@@ -384,7 +307,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -751,7 +674,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1017,7 +940,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1270,7 +1193,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1447,7 +1370,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
