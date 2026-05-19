@@ -67,7 +67,7 @@ ht-degree: 83%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
 
 +++
 
