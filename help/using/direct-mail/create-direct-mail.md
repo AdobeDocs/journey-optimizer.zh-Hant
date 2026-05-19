@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 建立新的直接郵件訊息
 description: 瞭解如何在 Journey Optimizer 建立直接郵件訊息
 feature: Direct Mail
@@ -8,26 +10,16 @@ level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 18%
+source-wordcount: 1069
+ht-degree: 17%
 
 ---
 
@@ -66,17 +58,17 @@ ht-degree: 18%
 
 1. 設定要傳送給直接郵件提供者的擷取檔案。 若要這麼做，請按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 
-   ![](assets/direct-mail-add-journey.png)
+   ![從動作調色盤新增至歷程的直接郵件活動](assets/direct-mail-add-journey.png)
 
 1. 調整解壓縮檔案屬性，例如檔案名稱或要顯示的欄。 如需如何設定解壓縮檔案屬性的詳細資訊，請參閱本節： [建立直接郵件訊息](../direct-mail/create-direct-mail.md#extraction-file)。
 
-   ![](assets/direct-mail-journey-content.png)
+   ![直接郵件歷程活動的擷取檔案內容編輯器](assets/direct-mail-journey-content.png)
 
 1. 定義解壓縮檔案的內容後，您就可以使用測試設定檔來預覽。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容在訊息中的顯示方式。
 
    若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查擷取檔案的呈現方式。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![模擬直接郵件擷取檔案的內容預覽](assets/direct-mail-simulate.png){width="800" align="center"}
 
 當您的擷取檔案準備就緒時，請完成[歷程](../building-journeys/journey-gs.md)的設定以傳送它。
 
@@ -100,7 +92,7 @@ ht-degree: 18%
 
 1. 選取或建立要使用的&#x200B;**[!UICONTROL 直接郵件組態]**。 [瞭解如何建立直接郵件設定](direct-mail-configuration.md#direct-mail-surface)。
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![在排程行銷活動中設定的直接郵件動作](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +132,7 @@ ht-degree: 18%
 
    1. 有時候，您可能需要在解壓縮檔案的開頭或結尾新增資訊。 若要這麼做，請使用&#x200B;**[!UICONTROL 附註]**&#x200B;欄位，然後指定是否要以頁首或頁尾形式包含附註。
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![擷取檔案內容，包括檔案名稱、時間戳記、頁首或頁尾備註](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. 設定要在擷取檔案中顯示的欄和資訊：
 
@@ -152,10 +144,19 @@ ht-degree: 18%
 
    1. 若要使用欄來排序擷取檔案，請選取該欄並開啟&#x200B;**[!UICONTROL 排序依據]**&#x200B;選項。 **[!UICONTROL 排序依據]**&#x200B;圖示會顯示在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中資料行的標籤旁。
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![直接郵件擷取檔案編輯器中的資料欄位和欄格式](assets/direct-mail-content.png){width="800" align="center"}
 
    1. 重複這些步驟，視需要為解壓縮檔案新增任意數目的欄。 請注意，您最多可以新增50欄。
 
       若要變更欄的位置，請將其拖放至&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中的所需位置。 若要刪除欄，請選取該欄，然後按一下&#x200B;**[!UICONTROL 格式]**&#x200B;窗格中的&#x200B;**[!UICONTROL 移除]**&#x200B;按鈕。
 
 您現在可以測試直接郵件訊息，並將其傳送給您的對象。 [瞭解如何測試和傳送直接郵件訊息](test-send-direct-mail.md)
+
+## 相關主題 {#related-topics}
+
+* [開始使用直接郵件](get-started-direct-mail.md)
+* [設定直接郵件頻道](direct-mail-configuration.md)
+* [測試並傳送直接郵件](test-send-direct-mail.md)
+* [預覽和測試內容](../content-management/preview-test.md)
+
+如需直接郵件的常見問題，請參閱[開始使用直接郵件](get-started-direct-mail.md)。
