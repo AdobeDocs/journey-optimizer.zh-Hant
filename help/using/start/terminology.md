@@ -111,7 +111,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如需Adobe Experience Platform術語的完整辭彙表，請參閱[Adobe Experience Platform辭彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
+>如需Adobe Experience Platform術語的完整辭彙表，請參閱[Adobe Experience Platform辭彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
 
 ## 辭彙相似時：消除歧義指南 {#disambiguation}
 
