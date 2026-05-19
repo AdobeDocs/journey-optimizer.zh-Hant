@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 8%
+source-wordcount: 1576
+ht-degree: 7%
 
 ---
 
@@ -42,20 +42,11 @@ ht-degree: 8%
 
 對於聽起來類似但經常令人困惑的辭彙組 — 例如&#x200B;**決策與決策管理**&#x200B;或&#x200B;**內容卡與應用程式內訊息** — 請參閱本頁底部的[當辭彙看起來類似時](#disambiguation)。
 
->[!TIP]
+>[!NOTE]
 >
->如需功能和工作流程的詳細說明，請參閱本指南中連結的特定檔案區段。
+>Adobe Journey Optimizer建置在&#x200B;**Adobe Experience Platform**&#x200B;上。 您會遇到的許多基本概念（例如即時客戶個人檔案、沙箱、結構描述和資料集）都是Adobe Experience Platform概念，而非Journey Optimizer專屬的概念。 如需這些字詞的定義，請參閱[Adobe Experience Platform字彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
 
-## 核心平台術語 {#core-terms}
-
-| 術語 | 定義 |
-|------|------------|
-| **Adobe Journey Optimizer** | 跨管道（電子郵件、簡訊、推播通知、網頁）建立及傳遞個人化訊息給客戶的應用程式。 它可讓您設計回應即時客戶動作的客戶歷程。 |
-| **Adobe Experience Platform** | Adobe Journey Optimizer的基礎，可在一個地方收集並整理所有客戶資料。 它會建立Journey Optimizer用於個人化的統一客戶設定檔。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant){target="_blank"} |
-| **即時客戶輪廓** | 每個客戶的統一即時檢視，結合來自多個管道的資料，包括線上、離線、CRM和第三方資料。 每個設定檔會隨著客戶與您的品牌互動而動態更新。 [了解更多](../audience/get-started-profiles.md) |
-| **沙箱** | 提供獨立的工作區以供測試和實驗，而不會影響即時客戶通訊。 Adobe Journey Optimizer為開發、測試和生產環境提供多個沙箱。 [了解更多](../administration/sandboxes.md) |
-
-## 歷程與行銷活動條款 {#journey-campaign-terms}
+## 歷程與行銷活動辭彙 {#journey-campaign-terms}
 
 | 術語 | 定義 |
 |------|------------|
@@ -97,8 +88,6 @@ ht-degree: 8%
 
 | 術語 | 定義 |
 |------|------------|
-| **結構描述** | 定義資料在Adobe Experience Platform中如何組織的結構，包括欄位名稱、資料型別和關係。 結構描述可確保跨系統的資料一致性。 [了解更多](../data/get-started-schemas.md) |
-| **資料集** | 遵循特定結構的資料集合（通常是表格）。 資料集能儲存客戶資料、互動事件，以及用於個人化的其他資訊。 [了解更多](../data/get-started-datasets.md) |
 | **頻道設定** | 定義在特定通道傳遞訊息的方式的設定，包括寄件者詳細資訊、子網域、IP集區和訊息型別（行銷或異動）。 在舊版檔案中，以前稱為「表面」或「預設集」。 [了解更多](../configuration/channel-surfaces.md) |
 | **禁止名單** | 由於硬退信、垃圾郵件投訴或手動新增，電子郵件地址和網域自動排除在郵件傳送之外的清單。 封鎖傳送至隱藏位址的作業，以保護傳遞能力及寄件者信譽。 [了解更多](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ ht-degree: 8%
 |------|------------|
 | **規則集** | 套用至歷程和行銷活動的已命名商業規則群組，以控管訊息行為。 規則集可以將頻率限定、歷程進入限制和無訊息時間結合為單一可重複使用的原則。 [了解更多](../conflict-prioritization/rule-sets.md) |
 | **頻率限定** | 規則集中的規則，可限制設定檔在指定時段內，針對每個頻道或通訊型別（銷售、促銷等）可接收多少訊息。 超出上限的設定檔會自動從傳送中排除。 [了解更多](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->如需Adobe Experience Platform術語的完整辭彙表，請參閱[Adobe Experience Platform辭彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
 
 ## 辭彙相似時：消除歧義指南 {#disambiguation}
 
