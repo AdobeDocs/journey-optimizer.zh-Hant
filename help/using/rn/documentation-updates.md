@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **重要術語**&#x200B;頁面已新增新的&#x200B;**當術語看起來類似時**&#x200B;消除歧義指南，涵蓋四個經常混淆的術語組：決定與決定管理（包括決定管理的舊版狀態）、三種行銷活動型別（動作、API觸發和協調）、頻率上限與歷程仲裁，以及內容卡與應用程式內訊息。 **行銷活動**&#x200B;定義及&#x200B;**決定與優惠條款**&#x200B;表格也已更新 — 決定功能現在會與決定管理一併列出，並明確標示為舊版。 [閱讀全文](../start/terminology.md#disambiguation)
 
 * **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀全文](../email/deeplinks.md)
 

@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ ht-degree: 100%
 * **[護欄和限制](guardrails.md)** - 檢視重要護欄、限制和最佳做法，以確保最佳行銷活動績效。
 * **[常見問題集](orchestrated-campaigns-faq.md)** - 尋找有關協調行銷活動特色、功能和使用案例的常見問題解答。
 * **[協調的行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 探索涵蓋功能和最佳做法的逐步教學課程影片。
+* **[透過瀏覽活動與客戶互動](engage-customers-uc.md)** — 使用多步驟協調的行銷活動，重新與已瀏覽但未購買的設定檔互動。
+* **[通知使用者產品可用性](product-availability-uc.md)** — 當客戶感興趣的產品有庫存時，通知客戶。
+* **[傳送願望清單專案更新](wishlist-uc.md)** — 當願望清單專案開始銷售或變為可用時，觸發個人化訊息。

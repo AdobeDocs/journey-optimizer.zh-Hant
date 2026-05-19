@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ ht-degree: 100%
 以下影片說明如何建立訂閱清單、設定登陸頁面以選擇加入或選擇退出服務、將選擇加入/選擇退出選項整合至訊息以及設定相關歷程。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+
+➡️ **在實務中檢視：**&#x200B;探索[登入頁面使用案例](lp-use-cases.md)，以取得涵蓋訂閱管理、確認電子郵件及資料擷取案例的逐步範例。

@@ -28,9 +28,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1941
 ht-degree: 16%
 
 ---
@@ -221,3 +221,5 @@ ht-degree: 16%
    >[!NOTE]
    >
    >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+
+➡️ **實際檢視：**&#x200B;瞭解如何使用時間和一週中的某天條件，[只在工作日傳送電子郵件](weekday-email-uc.md)。

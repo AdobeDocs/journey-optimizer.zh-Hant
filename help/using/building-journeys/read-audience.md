@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 相關主題
 
-* [建立客群](../audience/about-audiences.md)
-* [客群資格鑑定活動](audience-qualification-events.md)
-* [在歷程中使用補充識別碼](supplemental-identifier.md)
-* [護欄與限制](../start/guardrails.md#read-segment-g)
-* [歷程處理率和登入管理](entry-management.md)
-* [測試歷程](testing-the-journey.md)
-* [發佈歷程](../building-journeys/publish-journey.md)
+* [建立對象](../audience/about-audiences.md) — 建立並管理您要在讀取對象歷程中鎖定的對象區段。
+* [對象資格活動](audience-qualification-events.md) — 在設定檔進入或退出對象時即時觸發歷程，而不是以批次處理。
+* [在歷程中使用補充識別碼](supplemental-identifier.md) — 將讀取對象歷程擴充至目標次要實體，例如與設定檔連結的預訂、合約或訂閱。
+* [護欄和限制](../start/guardrails.md#read-segment-g) — 大規模啟動前，請先檢閱輸送量限制、重試行為以及對象大小臨界值。
+* [歷程處理率和專案管理](entry-management.md) — 瞭解設定檔如何插入歷程中，以及哪些專案控制專案及重新專案。
+* [測試歷程](testing-the-journey.md) — 在上線之前，使用測試設定檔驗證您的歷程邏輯。
+* [發佈歷程](../building-journeys/publish-journey.md) — 啟動您的歷程並監視其初始執行。
+* [傳送訊息給訂閱者](message-to-subscribers-uc.md) — 端對端使用案例：從設定到傳遞，使用讀取對象歷程鎖定訂閱清單。
+* [讀取對象歷程的最佳實務](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hant){target="_blank"} — 社群部落格涵蓋常見陷阱、計數差異和公認的最佳實務。
 
 ## 作法影片 {#video}
 
