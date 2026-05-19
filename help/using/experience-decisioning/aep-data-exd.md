@@ -12,21 +12,15 @@ keywords: 運算式，編輯器
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAmgqg8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 27%
+source-wordcount: 1215
+ht-degree: 26%
 
 ---
 
@@ -55,7 +49,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="新增資料集"
->abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。 按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的 Adobe Experience Platform 資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以選取含有您所需屬性的資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。
 
