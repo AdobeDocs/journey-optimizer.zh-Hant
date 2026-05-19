@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
+source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 74%
+source-wordcount: 1505
+ht-degree: 39%
 
 ---
 
@@ -52,11 +52,31 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->想要一窺即將到來的功能嗎？ 檢視[搶鮮版發行說明](e-release-notes.md)，在正式發行之前先瞭解即將推出的功能。
+>這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更可在您的環境中存取的時間。 此頁面底部的&#x200B;**即將推出**&#x200B;區段列出排定在未來幾天發行的功能和增強功能。 資訊可能會有所變更。
 
-## 2026年5月更新 {#may-26-rn}
+## 2026年5月發行說明 {#may-26-rn}
 
-下列功能和改進已於2026年5月發行。
+### 全新功能 {#may-26-features}
+
+下列功能已於2026年5月發行。
+
+<table>
+<thead>
+<tr>
+<th><strong>內容警告器選擇器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器支援所有資產的瀏覽、搜尋和篩選，包括Dynamic Media轉譯，並整合增強的使用者介面功能，讓您在使用動態資產時輕鬆新增影像轉譯。</p>
+<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-content-advisor.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月19日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -199,37 +219,25 @@ ht-degree: 74%
 
   +++
 
-<!-- 
-## Coming soon {#coming-soon}
 
-The following capabilities and enhancements are scheduled for release in the next few days. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
+## 即將推出 {#coming-soon}
 
-### New capabilities {#comming-soon-features}
--->
+下列功能和增強功能預計於未來幾天發行。 **資訊可能會有變更**。 這些更新在生產環境上線後，更新的連結、畫面和文件將會共用。
 
-## 2026年4月發行說明 {#april-26-rn}
-
-
-**發行日期**：2026 年 4 月 28 日至 29 日
-
-### 新功能 {#april-26-features}
-
-下列功能已於2026年4月發行。
+### 新功能 {#coming-soon-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>協調行銷活動中的增量查詢活動</strong><br/></th>
+<th><strong>歷程模擬</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>協調的行銷活動</strong>現在支援<strong>增量查詢</strong>活動，其目標僅是自上次執行以來新獲資格的輪廓或事件。
-
-這可讓週期性行銷活動專注於全新客群 (新註冊、新獲資格的忠誠度會員和類似客群)，同時減少查詢工作量，並避免隨著時間推移而出現的重複傳送。</p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細文件</a>。</p>
-<p>推出日期： 2026年4月30日</p>
+<p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 透過「一般可用性」版本，您現在可以使用Journey Agent直接在「模擬」功能表中產生模擬使用者和事件。</p>
+<p>推出日期： 2026年5月28日</p>
 </td>
 </tr>
 </tbody>
@@ -238,282 +246,46 @@ The following capabilities and enhancements are scheduled for release in the nex
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件標頭中的寄件者參數</strong><br/></th>
+<th><strong>針對協調行銷活動的檔案式目標定位</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過 Journey Optimizer，您現在可以在傳輸實體 (寄件者) 與編寫實體 (編寫者) 不同的情況下傳送電子郵件。 支援此功能的電子郵件用戶端通常會將其轉譯為「代表編寫者的寄件者」或顯示「透過」指標。 填寫電子郵件管道設定中選填的<strong>寄件者標題</strong>欄位，以設定此功能。</p>
-<p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件管道設定中的 CC 欄位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在電子郵件管道設定中設定選用的 CC (副本) 欄位。 不同於 BCC，CC 收件者對主要收件者可見，可實現透明通訊和更清晰的擁有權。</p>
-<p>這可讓您自動複製每則訊息上正確的利害關係人，例如關係經理或帳戶擁有者，同時確保客戶知道要聯絡誰以進行後續追蹤。</p>
-<p>CC 欄位支援個人化，因此單一設定可根據輪廓資料動態路由副本，使其可在多個使用案例中擴充，而無需其他設定。</p>
-<p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/cc-email-field.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>跨沙箱複製協調的行銷活動</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>沙箱工具現在支援將協調的行銷活動從一個沙箱封裝和複製到另一個沙箱。 如此一來，您就不需要在每個環境中手動重新建立行銷活動。 封裝行銷活動時，會自動包含其核心相依物件，例如合併原則、訊息，以便匯入的行銷活動到達時便能進行設定和驗證。 為了保護生產環境，所有匯入的行銷活動都會以草稿狀態傳送至目標沙箱中，在任何行銷活動上線之前為團隊提供審查和核准步驟。</p>
-<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細說明文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>透過 MCP 整合 Journey Optimizer AI 代理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer現在提供<strong>MCP （模型內容通訊協定）伺服器</strong>，直接在任何MCP相容應用程式中呈現行銷活動、管道設定和沙箱作業。 透過這項整合，不同的角色可以圍繞相同的協調資料共同作業。 您可以對話形式描述您的意圖，讓 LLM 叫用適當的 MCP 工具，而無需針對 Adobe Journey Optimizer REST API 撰寫查詢或導覽多個 UI 畫面。 此功能目前在網頁版和桌面版 Claude 中提供。</p>
-<p>此功能以公開 Beta 版的形式提供給所有客戶。</p>
-<p>如需詳細資訊，請參閱<a href="../integrations/ajo-mcp.md">詳細文件</a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁 – AI 模型</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在排名公式中使用 <strong>AI 模型</strong>，根據客戶輪廓屬性和內容因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
+<p>協調的行銷活動現在支援直接將CSV或TXT檔案載入行銷活動畫布作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 這支援無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。 </p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/journey-ai-models.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年5月28日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Express 整合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer 中的 <b>Adobe Express 整合</b>可讓您在內容建立期間直接使用 Adobe Express 的編輯工具，以便調整大小、移除背景、裁切，以及將資產轉換為 JPEG 或 PNG。
-</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細說明文件</a>。</p>
-<p>推出日期：2026 年 4 月 23 日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>針對 AI 收件匣最佳化電子郵件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer 現在包含新功能，可確保您的電子郵件結構最佳化，以便用於 Apple Intelligence 和 Gmail 中的 Google Gemini 等 AI 支援收件匣。</p>
-<p>隨著 AI 助理日益控制收件者讀取和操作電子郵件的方式，此功能可幫助您產生和製作可在下游 AI 工作 (包括摘要、分級、優先順序設定和意圖擷取) 中妥善執行的內容。</p>
-<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/llm-email-optimizer.md">為 AI 收件匣最佳化電子郵件</a>。</p>
-<p>推出日期：2026 年 4 月 17 日</p>
-</td>
-</tr>
-</tbody>
-</table>
+### 改善  {#coming-soon-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>個人化運算式的 AI 助理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] 現在在個人化編輯器中直接包含<strong>AI助理</strong>，以及可將自然語言提示轉換為有效個人化運算式和條件邏輯的電子郵件Designer，不需要語法專業知識。 描述您想要實現的個人化，而 AI 會產生現成的程式碼，您可以立即套用或透過後續提示進行調整。</p>
-<p>助理也會反向運作。 選取任何現有的運算式，並要求其說明邏輯、識別問題或提出改進建議。 這可讓此工具不僅適合用於撰寫新運算式，也適合用於檢閱及偵錯團隊中的現有運算式。</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/generative-personalization-expressions.md">適用於個人化運算式的 AI 助理</a>。</p>
-<p>推出日期：2026 年 4 月 13 日</p>
-</td>
-</tr>
-</tbody>
-</table>
+#### 導覽
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程路徑實驗</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。
-</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>作為「一般可用性」的一部分，此版本針對單一歷程引入了<strong>實驗類型</strong>選擇 (A/B 或多臂老虎機) 和<strong>擴充獲勝者</strong>。</p>
-<p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/path-experimentation.md">詳細說明文件</a>。</p>
-<p>推出日期：2026 年 4 月 7 日</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
 
-<table>
-<thead>
-<tr>
-<th><strong>收件匣</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>收件匣</strong>是一項行動功能，可搭配內容卡使用，允許客戶在應用程式或網站中建立集中式位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
-<p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細說明文件</a>。</p>
-<p>推出日期：2026 年 4 月 7 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件管道的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用 <strong>Decisioning</strong> 來個人化並最佳化電子郵件訊息的內容。 利用優先順序分數、公式或 AI 模型，向每位收件者顯示最相關的產品建議和內容。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 在此「一般可用性」版本中，現在支援鏡像頁面。</p>
-<p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細說明文件</a>。</p>
-<p>推出日期：2026 年 4 月 6 日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### 改善 {#april-26-improv}
-
-以下改良功能也於2026年4月發行。
-
-#### AI
-
-<!--
-* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
--->
-
-* **提示助理增強功能** - 提示助理可以即時分析使用者提示，並找出清晰度、完整性和內容之間的差距，藉此增強 AI 內容的產生能力。 它建議改善重寫，並提供可操作的指引，以利用客群、語調和意圖等關鍵詳細資訊擴充提示。 此功能也會提出針對性的澄清問題，以協助使用者在產生之前調整其輸入。 如此一來，可減少反覆操作，並提供更精確、高品質的輸出。 [了解更多](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
-
-  推出日期： 2026年5月5日
-
-#### 推播
-
-* **在管道設定中個人化應用程式 ID** - 在推播管道設定中，您現在可以個人化&#x200B;**應用程式 ID** 欄位，讓每位收件者都能根據其輪廓資訊，從適當的品牌接收推播通知。 [閱讀全文](../push/push-configuration.md#app-id-personalization)
-
-#### 決策
-
-* **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
-
-  推出日期： 2026年5月6日
-
-* **將片段附加至決策項目** - Journey Optimizer 現在提供將片段附加至決策項目的功能，而決策項目可透過決策原則用於程式碼型體驗和電子郵件行銷活動。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md)
-
-  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-* **已略過暫時無法使用的片段** - 在決策項目中使用片段時，如果 Edge 上暫時無法使用片段，則會略過該片段，而且歷程或行銷活動會繼續轉譯而不是失敗。 [閱讀全文](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
-
-  推出日期：2026 年 4 月 14 日
-
-#### Adobe Experience Manager 整合
-
-* **Adobe Experience Manager內容片段變數支援** — 您可以在插入Adobe Experience Manager內容片段時選取&#x200B;**內容片段變數** （例如語言或頻道變數），以改善地區設定和多語言情境的處理方式。 [閱讀全文](../integrations/aem-fragments.md#aem-variations)
-
-  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-* **製作時 Adobe Experience Manager 內容片段內容** - 當您在文字欄位和內容區塊之間移動時，您的內容片段選取範圍會保持作用中，因此您可以新增更多片段欄位，而無需每次重新開啟&#x200B;**開啟 AEM 內容顧問**。 [閱讀全文](../integrations/aem-fragments.md)
-
-  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-#### 電子郵件設計
-
-* **適用於電子郵件內容的進階 HTML 編輯器** - 進階 HTML 模式可讓您在電子郵件設計工具中編輯內容的 HTML 來源，在來源中新增進階運算式 (例如條件)，以及在 HTML 檢視和桌面檢視之間切換，而不會遺失您的變更。
-
-  此功能先前僅可用於電子郵件內容範本；現在，除電子郵件內容範本外，此功能已部署至電子郵件設計工具中的&#x200B;**電子郵件**&#x200B;內容 (例如，在歷程及行銷活動中撰寫的電子郵件)。 目前僅以「有限可用性」提供，請聯絡您的 Adobe 代表以取得存取權。 [閱讀全文](../email/email-expert-mode.md)
-
-  推出日期：2026 年 4 月 9 日
-
-#### 歷程
-
-* **在歷程屬性中可見的目前歷程裝載大小** — 歷程屬性面板現在會顯示與設定的限制相較之目前歷程裝載的大小 — 例如，*1.5 MB （共4 MB）*。 此唯讀指標可協助您在發佈前監控歷程複雜性，並避免因超過裝載大小限制而造成的錯誤。 [閱讀全文](../building-journeys/journey-properties.md#journey-payload-size)
-
-  推出日期： 2026年4月30日
-
-#### 歷程路徑最佳化
-
-* **實驗類型** - 您現在可以在設定路徑實驗時，選擇 A/B 實驗 (開始時固定分割) 或多臂老虎機 (每週更新權重的自動分割)。 [閱讀全文](../building-journeys/path-experimentation.md)
-
-  推出日期：2026 年 4 月 7 日
-
-* **路徑實驗：擴充獲勝者** - 您現在可以透過自動或手動方式，將實驗的獲勝路徑推廣給所有客群。 一旦確定獲勝路徑，您就可以擴大其觸及範圍和有效性，而無需持續監視實驗。 [閱讀全文](../building-journeys/path-experimentation.md#scale-winner)
-
-  此功能僅適用於單一歷程 (事件觸發和客群資格)。 它不適用於讀取客群歷程。
-
-  推出日期：2026 年 4 月 7 日
-
-* **條件** - [最佳化](../building-journeys/optimize.md)活動是在歷程中建立條件路徑的新工具。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從 UI 中移除。 所有條件式邏輯都會保留，現在會透過&#x200B;**最佳化**&#x200B;活動的條件來處理。 [閱讀全文](../building-journeys/conditions.md)
-
-  此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
-
-  推出日期：2026 年 4 月 7 日
+  推出日期： 2026年5月21日
 
 #### 協調的行銷活動
 
-* **協調行銷活動中的全域變數** - 協調行銷活動現在支援全域變數，這些變數只需定義一次，便可在工作流程內的所有活動中重複使用，進而簡化設定，並確保動態值、運算式和內容個人化的一致性。 [閱讀全文](../orchestrated/global-variables.md)
-* **資料建模工具增強功能** - 協調的關聯式結構描述現在支援跨多個欄位的複合金鑰。 從 DDL 檔案載入結構描述也會產生分項清單，而從 DDL 或 Excel 檔案載入會自動建立表格之間的複合關係。 在實體關係檢視中，複合連結現在會在檔案上傳後，顯示表格之間的完整欄位配對集。 [閱讀全文](../orchestrated/gs-schemas.md)
+* **在擴充活動中新增連結** — 在協調行銷活動的擴充活動中現在可以使用新增連結功能。 這可讓您在工作表格資料與現有的資料庫表格之間建立直接關係。
+
+
+  推出日期： 2026年5月26日
+
+* **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定，不需要撰寫運算式。
+
+
+  推出日期： 2026年5月28日
+
+#### 電子郵件
+
+* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
+
+  可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
+
+
+  推出日期： 2026年5月29日
