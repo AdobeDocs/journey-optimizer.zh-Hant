@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 24e3ab995d8dfc77c4441ce68e51b437f5827228
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 36%
+source-wordcount: 1814
+ht-degree: 33%
 
 ---
 
@@ -246,6 +246,23 @@ ht-degree: 36%
 <table>
 <thead>
 <tr>
+<th><strong>非循環讀取對象歷程的自動完成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動轉換為<strong>已停止</strong>狀態。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
+<p>請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。</p>
+<p>推出日期： 2026年5月21日</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>歷程模擬</strong><br/></th>
 </tr>
 </thead>
@@ -283,6 +300,13 @@ ht-degree: 36%
 #### 導覽
 
 * **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
+
+  推出日期： 2026年5月21日
+
+#### 歷程
+
+* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將subType： &quot;certificateCredential&quot;新增到自訂授權設定中，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Azure Entra ID）而設計。
+
 
   推出日期： 2026年5月21日
 
