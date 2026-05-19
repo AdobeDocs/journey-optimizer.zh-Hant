@@ -5,32 +5,29 @@ title: 存取Adobe Experience Manager內容顧問
 description: 瞭解如何在Adobe Journey Optimizer中使用AI支援的語意搜尋來存取及使用Adobe Experience Manager內容警告器以探索資產和內容片段。
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager內容顧問 {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager內容警告器僅適用於通道編寫工作流程。
+Adobe Experience Manager Content Advisor以標準化意圖驅動的統一介面探索取代確定性探索。 它可直接在Journey Optimizer製作工作流程中，使用AI支援的統一探索Assets、動態媒體和內容片段，改善行銷人員生產力和行銷活動效率。
 
-Adobe Experience Manager Content Advisor以標準化意圖驅動的統一介面探索取代確定性探索。 它可直接在Journey Optimizer製作工作流程中，使用AI支援的統一探索Assets和內容片段，改善行銷人員生產力和行銷活動效率。
+➡️ [在Adobe Experience Manager檔案中進一步瞭解Adobe Experience Manager內容顧問](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
-## 可用的功能
+## 可用功能
 
 ### 適用於Assets {#asset-features}
 
-Adobe Experience Manager內容警告器提供下列資產功能：
+Adobe Experience Manager Content Advisor提供下列資產功能：
 
 +++ AI語意搜尋
 
-使用自然語言（而非精確的關鍵字或檔案名稱）搜尋資產。 以純文字描述您需要的內容，例如「山中的咖啡」，AI會根據含義和內容尋找內容相關的資產，而不只是文字相符。
+使用自然語言（而非精確的關鍵字或檔案名稱）搜尋資產。 以淺白語言說明您需要的內容，例如「山中的咖啡」，而AI會根據含義和內容呈現內容相關的資產，而不只是文字相符。 也支援多語言搜尋，因此您可以使用偏好的語言進行查詢，仍然可以找到正確的資產，無論資產是以何種語言標籤或命名的。
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
