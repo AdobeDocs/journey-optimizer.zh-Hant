@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 直接郵件設定
 description: 瞭解如何在Journey Optimizer中設定直接郵件頻道
 feature: Direct Mail, Surface
@@ -25,10 +27,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
-ht-degree: 21%
+source-wordcount: 1964
+ht-degree: 20%
 
 ---
 
@@ -96,15 +98,17 @@ ht-degree: 21%
 
 1. 存取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 直接郵件設定]** > **[!UICONTROL 檔案路由]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立檔案路由設定]**。
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![在直接郵件設定中建立檔案路由設定按鈕](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 設定組態的名稱。
 
 1. 選取您要用於匯出直接郵件檔案的伺服器型別：Amazon S3、SFTP、Azure或資料登陸區域。
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![直接郵件檔案路由設定的伺服器型別選擇](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. 請填入每種伺服器型別的特定欄位，如以下標籤所詳述。
+
+### 選擇您的伺服器型別 {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +124,7 @@ ht-degree: 21%
 
 * **AWS區域**：選擇伺服器基礎結構將位於的&#x200B;**[!UICONTROL AWS區域]**。 AWS區域是AWS用來託管其雲端基礎結構的地理區域。 一般而言，建議您選擇距離直接郵件提供者位置最近的區域。
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+針對AWS S3檔案路由設定![Amazon區域選擇](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +140,7 @@ ht-degree: 21%
 
 * **[!UICONTROL 密碼]** / **[!UICONTROL SSH金鑰]**： &#x200B;用來連線至SFTP伺服器的密碼或SSH金鑰。
 
-![](assets/file-routing-config-sftp-detail.png)
+檔案路由設定的![SFTP伺服器連線詳細資料](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,13 +168,13 @@ ht-degree: 21%
   >
   >若要指定容器內的路徑以儲存檔案，請更新直接郵件促銷活動的&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄位，以包含所要的路徑。 [了解更多](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![檔案路由設定的Azure儲存體連線詳細資料](assets/file-routing-config-azure-detail.png)
 
 >[!TAB 資料登陸區域]
 
 如果您選取&#x200B;**[!UICONTROL 資料登陸區域]**&#x200B;做為&#x200B;**[!UICONTROL 伺服器型別]**，則不需要特定的詳細資料。
 
-![](assets/file-routing-config-dlz-detail.png)
+![沒有額外伺服器欄位的Data Landing Zone檔案路由設定](assets/file-routing-config-dlz-detail.png)
 
 [!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
@@ -180,7 +184,7 @@ ht-degree: 21%
 
 如果您的檔案路由設定將使用歷程進行傳送，您可以指定檔案將傳送到伺服器的頻率。
 
-![](assets/file-routing-journey.png)
+![檔案路由設定的歷程匯出頻率設定](assets/file-routing-journey.png)
 
 填寫伺服器型別的詳細資料後，請選取&#x200B;**[!UICONTROL 提交]**。 檔案路由設定是以&#x200B;**[!UICONTROL 作用中]**&#x200B;狀態建立的。 現在已準備好用於[直接郵件組態](#direct-mail-surface)。
 
@@ -242,7 +246,7 @@ ht-degree: 21%
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;並選取&#x200B;**[!UICONTROL 一般設定]** > **[!UICONTROL 管道設定]**。 按一下&#x200B;**[!UICONTROL 建立通道組態]**&#x200B;按鈕。 [了解更多](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![在Administration中建立管道設定畫面](assets/direct-mail-config-1.png)
 
 1. 輸入設定的名稱和說明（選擇性），然後選取要設定的通道。
 
@@ -254,13 +258,13 @@ ht-degree: 21%
 
 1. 選取&#x200B;**[!UICONTROL 直接郵件]**&#x200B;頻道。
 
-   ![](assets/direct-mail-config-2.png)
+   建立頻道設定時已選取![直接郵件頻道](assets/direct-mail-config-2.png)
 
 1. 選取&#x200B;**[!UICONTROL 行銷動作]**，以使用此設定將同意原則與訊息相關聯。 系統會運用與行銷動作相關的所有同意政策，以尊重客戶的偏好設定。 [了解更多](../action/consent.md#surface-marketing-actions)
 
 1. 在通道設定的專用區段中定義直接郵件設定。
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![包括檔案格式和路由的直接郵件表面設定](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +272,7 @@ ht-degree: 21%
 
 1. 如果您選取&#x200B;**[!UICONTROL 文字分隔]**，請定義您選擇的欄分隔符號：製表、分號、垂直號或&amp;符號。
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![直接郵件匯出檔案的文字分隔欄分隔符號選項](assets/surface-direct-mail-column-separator.png)
 
 1. 選取您建立的&#x200B;**[!UICONTROL 檔案路由設定]**。 這會定義檔案將匯出至何處以供直接郵件提供者使用。
 
@@ -276,7 +280,7 @@ ht-degree: 21%
    >
    >如果您尚未設定任何檔案路由選項，您將無法建立直接郵件設定。 [了解更多](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![直接郵件通道組態中選取的檔案路由組態](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +305,12 @@ ht-degree: 21%
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## 相關主題 {#related-topics}
+
+* [開始使用直接郵件](get-started-direct-mail.md)
+* [建立新的直接郵件訊息](create-direct-mail.md)
+* [測試並傳送直接郵件](test-send-direct-mail.md)
+* [頻道設定](../configuration/channel-surfaces.md)
+
+如需直接郵件的常見問題，請參閱[開始使用直接郵件](get-started-direct-mail.md)。

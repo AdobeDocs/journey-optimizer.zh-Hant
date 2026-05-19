@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: 檢查並傳送直接郵件訊息
 description: 瞭解如何在Journey Optimizer中檢查並傳送直接郵件訊息
 feature: Direct Mail, Test Profiles, Preview
@@ -25,14 +27,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 16%
+source-wordcount: 582
+ht-degree: 15%
 
 ---
 
 # 檢查並傳送直接郵件訊息 {#direct-mail-test-send}
+
+瞭解如何在Journey Optimizer中預覽解壓縮檔案、驗證及啟用直接郵件行銷活動或歷程，以及管理郵遞區段同意。
+
+## 開始之前 {#before-you-start}
+
+在您測試並傳送直接郵件訊息之前，[請先建立訊息並設定解壓縮檔案](create-direct-mail.md)。 請確定您也已完成[直接郵件通道設定](direct-mail-configuration.md)。
 
 ## 預覽解壓縮檔案 {#preview-dm}
 
@@ -40,7 +48,7 @@ ht-degree: 16%
 
 若要這麼做，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查擷取檔案的呈現方式。
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![模擬直接郵件擷取檔案的內容預覽](assets/direct-mail-simulate.png){width="800" align="center"}
 
 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
 
@@ -58,7 +66,7 @@ ht-degree: 16%
 
 * **錯誤**&#x200B;只要尚未解決，您就無法發佈行銷活動。 例如，當主旨行遺失時，錯誤訊息會警告您。
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![檢閱並啟動顯示直接郵件行銷活動驗證警示的畫面](assets/direct-mail-review.png){width="800" align="center"}
 
 當您的直接郵件行銷活動準備就緒時，請完成您的[歷程](../building-journeys/journey-gs.md)或[行銷活動](../campaigns/create-campaign.md)的設定以進行傳送。
 
@@ -81,3 +89,12 @@ ht-degree: 16%
 若要管理設定檔的屬性，請前往Experience Platform ，並透過選取身分名稱空間和對應的身分值來存取設定檔。 進一步瞭解 [Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=zh-Hant#getting-started){target="_blank"}。
 
 在[本節](../privacy/opt-out.md)中進一步瞭解如何在Journey Optimizer中管理選擇退出。
+
+## 相關主題 {#related-topics}
+
+* [開始使用直接郵件](get-started-direct-mail.md)
+* [建立新的直接郵件訊息](create-direct-mail.md)
+* [設定直接郵件頻道](direct-mail-configuration.md)
+* [預覽和測試內容](../content-management/preview-test.md)
+
+如需直接郵件的常見問題，請參閱[開始使用直接郵件](get-started-direct-mail.md)。
