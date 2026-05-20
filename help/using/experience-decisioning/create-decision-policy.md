@@ -8,22 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +123,13 @@ ht-degree: 6%
 
    +++
 
-當您在電子郵件Designer中使用&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式時，您還可以新增決定原則。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;以插入決定原則代碼。 [瞭解如何編碼您自己的電子郵件內容](../email/code-content.md)。
+當您在電子郵件Designer中使用&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式時，您還可以新增決定原則。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;以插入決定原則代碼 — 位置選擇UI將會顯示，可讓您選擇決定原則的位置。 [瞭解如何編碼您自己的電子郵件內容](../email/code-content.md)。
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>以&#x200B;**[!UICONTROL 編碼方式插入決定原則]**&#x200B;模式為受限可用性。
 
 >[!NOTE]
 >
@@ -307,7 +303,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -322,7 +318,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**&#x200B;[!UICONTROL &#x200B;以確認建立原則。]&#x200B;**]**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**[!UICONTROL &#x200B;以確認建立原則。]**]**
 
 >[!IMPORTANT]
 >
