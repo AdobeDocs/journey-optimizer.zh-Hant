@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#mms-content">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile/create-mobile-message.md#mms-content">詳細說明文件</a>。</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ ht-degree: 99%
 
 **簡訊頻道**
 
-* **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../sms/sms-configuration.md)
+* **選擇加入訊息**&#x200B;和&#x200B;**說明訊息**&#x200B;這兩個新欄位已新增至 API 設定畫面，可讓使用者自訂傳入關鍵字的回應。 請注意，這僅適用於 Sinch 簡訊提供者。 [了解更多](../mobile/mobile-configuration.md)
 
-* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分輪廓選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給輪廓。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../sms/sms-configuration.md)
+* 簡訊選擇退出不再於頻道層級管理。 現在這是號碼特定功能，亦即如果部分輪廓選擇退出指定號碼或短代碼，您仍可使用其他正用來傳送簡訊的號碼，將訊息傳送給輪廓。 新選項可讓您選取要用於指定表面的&#x200B;**選擇退出號碼**。 [了解更多](../mobile/mobile-configuration.md)
 
 **直接郵件頻道**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **簡訊頻道**
 
-* 在設定您的簡訊管道設定時，Infobip 已新增為供應商提供者。 [閱讀全文](../sms/sms-configuration.md)
-* Twillio - API 認證設定現在包含新增傳送訊息服務 SID 的功能，以便與您的 Twillio 帳戶緊密整合。 [閱讀全文](../sms/sms-configuration.md)
+* 在設定您的簡訊管道設定時，Infobip 已新增為供應商提供者。 [閱讀全文](../mobile/mobile-configuration.md)
+* Twillio - API 認證設定現在包含新增傳送訊息服務 SID 的功能，以便與您的 Twillio 帳戶緊密整合。 [閱讀全文](../mobile/mobile-configuration.md)
 
 **應用程式內頻道**
 
@@ -720,14 +720,14 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-### 改善 {#april-2023-improvements}
+### 改進 {#april-2023-improvements}
 
 **歷程**
 
 * 歷程畫布現在會在訊息活動和結束標籤上顯示活動 ID。 這可改善報告和重新目標定位。
 * 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
 * 對畫布上的節點數提供新洞察，搭配保障措施協助成長：利用每個歷程最多可有 50 個的節點，讓歷程易於閱讀、進行 QA 及疑難排解。 [閱讀全文](../start/guardrails.md#journeys-guardrails-journeys)
-* 在歷程中新增[電子郵件](../email/create-email.md)、[簡訊](../sms/create-sms.md)或[推播](../push/create-push.md)動作時，現在依預設會以目前歷程中，最後一個為該管道使用的表面來預先填入表面。
+* 在歷程中新增[電子郵件](../email/create-email.md)、[簡訊](../mobile/create-mobile-message.md)或[推播](../push/create-push.md)動作時，現在依預設會以目前歷程中，最後一個為該管道使用的表面來預先填入表面。
 * 您現在可以在自訂動作中定義靜態或動態查詢參數。 [了解更多](../action/about-custom-action-configuration.md#url-configuration)
 
 **報告**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>透過簡訊點擊追蹤，您可以監控縮短 URL 的效果、識別誰點擊了 URL，並利用此資料透過後續行銷活動重新鎖定這些客戶。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/create-sms.md#sms-content">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile/create-mobile-message.md#sms-content">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -793,7 +793,7 @@ Information below is subject to change without prior notice until the release av
 </tbody>
 </table>
 
-### 改善 {#mar-2023-improvements}
+### 改進 {#mar-2023-improvements}
 
 **歷程**
 
@@ -927,7 +927,7 @@ Note that each widget can be resized and deleted as needed.
 </table>
 -->
 
-### 改善 {#feb-2023-improvements}
+### 改進 {#feb-2023-improvements}
 
 **歷程**
 
@@ -977,7 +977,7 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>Adobe Experience Platform 提供一套資料保健功能，可讓您以程式化方式刪除消費者記錄與資料集，管理儲存的資料。 此功能現已可供 Adobe Journey Optimizer 使用。 </p>
 <p>您可管理資料存放區，確保資訊以預期方式使用、在需要修正錯誤資料時更新，以及在組織原則認為有需要時刪除。</p>
-<p><strong>注意</strong> - 資料整理功能目前僅適用已購買 <strong>Healthcare Shield</strong> 與<strong>隱私權與安全性防護</strong>附加產品的組織。</p><p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細文件</a>。
+<p><strong>注意</strong> - 資料整理功能目前僅適用已購買 <strong>Healthcare Shield</strong> 與<strong>隱私權與安全性防護</strong>附加產品的組織。</p><p>如需詳細資訊，請參閱<a href="../privacy/data-hygiene.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -995,7 +995,7 @@ Note that each widget can be resized and deleted as needed.
 <p>您現在可以建立獨立內容範本，這些範本可用於歷程及行銷活動，以快速重複使用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。 如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。 如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細說明文件</a>。
 </p>
 </td>
 </tr>

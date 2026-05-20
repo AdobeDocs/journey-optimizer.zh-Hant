@@ -10,30 +10,13 @@ level: Intermediate
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +29,7 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-在[訊息個人化](personalize.md)期間，Journey Optimizer可讓您存取來自多個來源的內容資料。 您可以使用原生管道（[電子郵件](../email/get-started-email-design.md)、[推播](../push/create-push.md)、[簡訊](../sms/create-sms.md)）中的Handlebars語法，從這些來源重複處理陣列，以顯示動態內容，例如產品清單、建議或其他重複元素。
+在[訊息個人化](personalize.md)期間，Journey Optimizer可讓您存取來自多個來源的內容資料。 您可以使用原生管道（[電子郵件](../email/get-started-email-design.md)、[推播](../push/create-push.md)、[簡訊](../mobile/create-mobile-message.md)）中的Handlebars語法，從這些來源重複處理陣列，以顯示動態內容，例如產品清單、建議或其他重複元素。
 
 **可用的內容來源：**
 
@@ -105,7 +88,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -638,7 +621,7 @@ serializeList(
 
 #### 傳遞物件陣列至自訂動作
 
-**使用案例**：傳送要求內文中的完整物件陣列（針對POST或具有內文的GET）。
+**使用案例**：傳送要求內文中的完整物件陣列（針對POST或GET含內文）。
 
 +++ 檢視範常式式碼
 
@@ -901,7 +884,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細範例和其他因應措施。
+深入瞭解如何在回圈](use-expression-fragments.md#fragments-in-loops)中使用運算式片段[，包括詳細範例和其他因應措施。
 
 
 
@@ -1045,7 +1028,7 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
    **解決方案**：定義片段在訊息層級（回圈外）需要的任何變數，讓這些變數可全域存取。
 
-深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細的說明、範例和建議的模式。
+深入瞭解如何在回圈](use-expression-fragments.md#fragments-in-loops)中使用運算式片段[，包括詳細的說明、範例和建議的模式。
 
 +++
 
@@ -1072,4 +1055,4 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 **Personalization使用案例：** [購物車放棄電子郵件](personalization-use-case-helper-functions.md) | [訂單狀態通知](personalization-use-case.md)
 
-**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽和測試您的內容](../content-management/preview-test.md)
+**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../mobile/create-mobile-message.md) | [預覽和測試您的內容](../content-management/preview-test.md)

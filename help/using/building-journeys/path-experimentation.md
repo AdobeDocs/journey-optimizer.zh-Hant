@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃角子老虎機，縮放成功者
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 
    * 拖放兩天的[等待](wait-activity.md)活動到第一個分支，接著拖放[電子郵件](../email/create-email.md)活動（**處理B**）。
 
-   * 將[電子郵件](../email/create-email.md)活動拖放至第三個分支，接著拖放[簡訊](../sms/create-sms.md)活動（**處理C**）。
+   * 將[電子郵件](../email/create-email.md)活動拖放至第三個分支，接著拖放[簡訊](../mobile/create-mobile-message.md)活動（**處理C**）。
 
    ![具有三個處理路徑的路徑實驗範例](assets/journey-optimize-experiment-ex.png){width=100%}
 
@@ -153,7 +153,7 @@ REMOVED WITH GA
 >
 >對於路徑實驗，「縮放成功者」功能僅在單一歷程（事件觸發和受眾資格）中可用。
 >
->它不適用於讀取對象歷程。
+>它不適用於讀取客群歷程。
 
 Scale the Winner 讓您能透過自動或手動方式，將實驗的獲勝變化版本推廣給所有受眾。 此功能可確保一旦確定獲勝者後，您就可以擴大其觸及範圍和有效性，而無需持續監控實驗。
 

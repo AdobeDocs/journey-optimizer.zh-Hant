@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -37,7 +37,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Journey Optimizer 現在允許您透過鎖定整個範本，或是特定結構和元件，鎖定電子郵件範本中的內容。 這樣做讓您可以防止無意間不小心編輯內容，或將內容刪除，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
-<p>如需詳細資訊，請參閱<a href="../content-management/content-locking.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-locking.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
 <p>自 2024 年 10 月 24 日起開放使用</p>
 </td>
@@ -55,7 +55,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>透過程式碼型體驗管道，Adobe Journey Optimizer 可讓您針對任何傳入屬性進行進階個人化及測試，跨不同接觸點 (例如網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結的裝置、智慧型電視、資訊站、ATM、IoT 裝置等) 達成量身打造的無縫傳遞體驗。 程式碼型體驗管道現可在歷程版面中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細說明文件</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
 <p>自 2024 年 10 月 1 日起開放使用</p>
 </tr>
@@ -72,7 +72,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>有了網頁管道，Adobe Journey Optimizer 可讓您將透過傳入網頁歷程向客戶提供的網站體驗個人化。 網頁管道現可在歷程版面中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細說明文件</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
 <p>自 2024 年 10 月 1 日起開放使用</p>
 </tr>
@@ -136,7 +136,7 @@ ht-degree: 99%
 <td>
 <p>為提高彈性，掌控電子郵件設定，您可以在建立電子郵件頻道設定時，定義動態子網域和個人化的標題參數。
 </p>
-<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
 <p>自 2024 年 10 月 23 日起開放使用</p>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 <p>自 2024 年 10 月 22 日起開放使用</p>
 </td>
@@ -206,7 +206,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
-<p>如需詳細資訊，請參閱<a href="../content-management/multilingual-gs.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/multilingual-gs.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/multilingual.gif">
 </td>
 </tr>
@@ -225,7 +225,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 報告功能目前開放給一般人使用 (GA)，改良後的版本擁有互通性，能使用 Customer Journey Analytics 功能，可將兩邊平台之間的報告標準化，改善資料一致性與可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。</p>
 <p>推廣一般可用性之後，會引進四種新功能：可以建立簡易量度，建立並發佈對象，使用 Insight Builder 臨時提出問題，將排程報告流程自動化，寫封電子郵件寄給主要收件者。</p>
-<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
 <p>重要提醒：目前的報告體驗將於推出 2025 年 1 月份版本後，正式終止服務。 過了上述日期，新的報告體驗就會成為標準版。 建議您先自己熟悉一下新的功能，以確保能順利轉換服務。 <a href="../reports/report-gs-cja.md">了解如何開始使用 Journey Optimizer 的新報告介面</a></p>
 <p>自 2024 年 10 月 16 日起開放使用</p>
@@ -246,7 +246,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 目前讓您可以預覽內容，還能使用從檔案上傳或是手動新增的範例輸入資料，傳送電子郵件校樣，以便測試電子郵件內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。</p>
 <p>此功能目前會透過公開測試版的形式，開放給所有客戶使用，可用於電子郵件、簡訊和推播通知頻道。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
@@ -277,7 +277,7 @@ ht-degree: 99%
 
 **簡訊頻道**
 
-* 目前可以編輯或刪除簡訊 API 管道設定。 [了解更多](../sms/sms-configuration.md)
+* 目前可以編輯或刪除簡訊 API 管道設定。 [了解更多](../mobile/mobile-configuration.md)
 
 * 我們引進下列增強功能，即可改善使用 Infobip 和 Sinch 的簡訊傳送訊息功能：
 
@@ -285,7 +285,7 @@ ht-degree: 99%
 
    * 當無法辨識關鍵字時，您可以先建立並傳遞預設簡訊。
 
-  在 [Infobip](../sms/sms-configuration-infobip.md) 和 [Sinch](../sms/sms-configuration-sinch.md) 的簡訊設定文件中，進一步瞭解改進項目。
+  在 [Infobip](../mobile/mobile-configuration-infobip.md) 和 [Sinch](../mobile/mobile-configuration-sinch.md) 的簡訊設定文件中，進一步瞭解改進項目。
 
 
 <!--**Journeys**-->
@@ -374,7 +374,7 @@ ht-degree: 99%
 <td>
 <p>內容卡是 Adobe Journey Optimizer 新的數位傳訊功能，可直接在行動應用程式和網站提供個人化且吸引人的內容。 與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。</p>
 <p>此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/content-card-landing-page.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/content-card-landing-page.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -445,7 +445,7 @@ ht-degree: 99%
 <td>
 <p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理，把內容提升到新的境界。 您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>推出日期：2024 年 9 月 12 日</p>
 </td>
@@ -463,7 +463,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。 這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細說明文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 <p>推出日期：2024 年 9 月 3 日</p>
 </br>
@@ -674,7 +674,7 @@ ht-degree: 99%
 <td>
 <p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../sms/sms-configuration-custom.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile/mobile-configuration-custom.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ table>
 
 #### 簡訊頻道
 
-* 您現在可以使用單一 API 設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。 [了解更多](../sms/sms-configuration.md)
+* 您現在可以使用單一 API 設定，為每個沙箱新增唯一的短程式碼，讓流程更有效率且簡化。 [了解更多](../mobile/mobile-configuration.md)
 
 * 在建立之後，位於 **API 認證詳細資料**&#x200B;頁面的 **API 權杖**&#x200B;欄現已遮罩。
 
@@ -1220,7 +1220,7 @@ table>
 <tr>
 <td>
 <p>現在您可以使用新的網頁應用程式內訊息功能，透過模態疊加訊息直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，從而增強使用者互動、保留率和轉換率。<br/><br/></p>
-<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-web.md">詳細文件</a>。<br></br></p>
+<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-web.md">詳細說明文件</a>。<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
@@ -1272,7 +1272,7 @@ table>
 
 **簡訊頻道**
 
-* **選擇加入/選擇退出關鍵字** - 當設定簡訊管道時，您現在可根據您的偏好自訂&#x200B;**選擇加入及選擇退出關鍵字**。 Journey Optimizer 會根據這些指定關鍵字來觸發回應。 [了解更多](../sms/sms-configuration.md)
+* **選擇加入/選擇退出關鍵字** - 當設定簡訊管道時，您現在可根據您的偏好自訂&#x200B;**選擇加入及選擇退出關鍵字**。 Journey Optimizer 會根據這些指定關鍵字來觸發回應。 [了解更多](../mobile/mobile-configuration.md)
 
 **行銷活動**
 
@@ -1308,7 +1308,7 @@ table>
 <td>
 <p>Journey Optimizer 現在支援 DMARC 驗證技術。</p>
 <p>2024 年 2 月 1 日起，Google 和 Yahoo! 都要求您對傳送電子郵件所使用的任何網域留有 DMARC 記錄。 請確定您已在 Journey Optimizer 中，為要委派給或即將委派給 Adobe 的所有子網域設定 DMARC 記錄。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細說明文件</a>。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>
@@ -1324,7 +1324,7 @@ table>
 <tr>
 <td>
 <p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#playbooks">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#playbooks">詳細說明文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
@@ -1340,7 +1340,7 @@ table>
 
 **簡訊頻道**
 
-* **雙重確認選擇加入** - 簡訊的雙重確認選擇加入工作流程可確保使用者從其裝置發出請求時，明確選擇加入要接收訊息。 使用者開始進行同意流程的方式為，傳送傳入簡訊。 確認同意後，隨即會傳送後續追蹤訊息，要求進行最終驗證。 如果使用者輪廓不存在，則會在成功確認時加以建立。 [了解更多](../sms/sms-configuration.md)
+* **雙重確認選擇加入** - 簡訊的雙重確認選擇加入工作流程可確保使用者從其裝置發出請求時，明確選擇加入要接收訊息。 使用者開始進行同意流程的方式為，傳送傳入簡訊。 確認同意後，隨即會傳送後續追蹤訊息，要求進行最終驗證。 如果使用者輪廓不存在，則會在成功確認時加以建立。 [了解更多](../mobile/mobile-configuration.md)
 
   請注意，此功能適用於 Sinch 和 Infobip 簡訊提供者。
 
