@@ -6,9 +6,9 @@ description: 瞭解如何在Adobe Journey Optimizer中使用AI支援的語意搜
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Adobe Experience Manager Content Advisor提供下列資產功能：
 
 +++
 
++++ 跨組織存放庫存取
+
+在您可以存取的組織中，從存放庫探索及選取資產。 此功能可讓您瀏覽及使用儲存在屬於不同組織的存放庫中的資產，讓您在不離開Journey Optimizer編寫工作流程的情況下，更廣泛地存取可用的資產庫。
+
++++
+
 +++ Dynamic Media面板
 
 根據存放庫設定，存取動態轉譯、智慧型裁切和即時修改。
@@ -71,7 +77,7 @@ Dynamic Media的可用性取決於您的存放庫設定：
 
 * **Scene7**：可用於已發佈的資產（視訊和PDF除外）。 [進一步瞭解Dynamic Media Scene7修飾元](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hant){target="_blank"}
+* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：當兩個設定都存在且資產符合條件時，即可使用。
 
