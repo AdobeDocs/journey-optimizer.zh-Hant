@@ -97,7 +97,7 @@ ht-degree: 2%
 1. 選擇性地設定&#x200B;**[!UICONTROL 獎勵Proxy]**：
 
    * **[!UICONTROL 主機]**、**[!UICONTROL 連線埠]**&#x200B;和認證
-   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;****
+   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;**&#x200B;**
 
 1. 若您的API在每次呼叫前都需要權杖，請設定&#x200B;**[!UICONTROL 驗證權杖產生器]**：
 
