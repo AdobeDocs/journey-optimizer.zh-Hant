@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立簡訊/多媒體簡訊訊息
-description: 瞭解如何在Journey Optimizer中建立簡訊/多媒體簡訊
+title: 建立SMS/RCS/MMS訊息
+description: 瞭解如何在Journey Optimizer中建立SMS/RCS/MMS訊息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1380'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)、豐富通訊(RCS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增行動訊息動作，然後定義行動訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送前測試行動訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
-根據行業標準和法規，所有SMS/MMS行銷訊息都必須包含讓設定檔輕鬆取消訂閱的方式。 為此，簡訊設定檔可使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#opt-out-decision-management)
+根據業界標準及法規，所有SMS/RCS/MMS行銷訊息都必須包含讓設定檔輕鬆取消訂閱的方式。 為此，簡訊設定檔可使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#opt-out-decision-management)
 
 ## 定義您的RCS內容{#rcs-content}
 

@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -120,7 +120,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 
@@ -221,7 +221,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 
@@ -329,7 +329,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 

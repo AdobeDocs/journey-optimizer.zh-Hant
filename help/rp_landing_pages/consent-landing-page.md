@@ -5,7 +5,7 @@ title: 管理同意
 description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -22,7 +22,7 @@ ht-degree: 31%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理選擇退出和個人化同意
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用同意原則
 
@@ -42,7 +42,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 管理客戶的偏好設定
 
@@ -58,4 +58,4 @@ ht-degree: 31%
 - **[開始使用隱私權](../using/privacy/get-started-privacy.md)** - Journey Optimizer中的隱私權管理概觀，包括資料請求和稽核記錄。
 - **[資料控管](../using/action/action-privacy.md)** — 保護敏感欄位，避免透過自訂動作匯出至協力廠商系統。
 - **[管理電子郵件選擇退出](../using/email/email-opt-out.md)** — 設定電子郵件特定的選擇退出和取消訂閱處理。
-- **[管理文字訊息選擇退出](../using/mobile/mobile-opt-out.md)** — 設定SMS/MMS/RCS選擇退出和取消訂閱處理。
+- **[管理行動訊息選擇退出](../using/mobile/mobile-opt-out.md)** — 設定SMS/MMS/RCS選擇退出和取消訂閱處理。

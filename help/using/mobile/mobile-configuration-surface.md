@@ -2,32 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定簡訊設定
-description: 瞭解如何設定簡訊/多媒體簡訊設定，以使用Journey Optimizer傳送文字訊息
+description: 瞭解如何設定您的SMS/RCS/MMS設定，以使用Journey Optimizer傳送行動訊息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
 TQID: https://experienceleague.adobe.com/J5h64ccVVJUTCIk7FMMolKfEZy6rjEn-jwj1dEntnRM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 12%
+source-wordcount: 522
+ht-degree: 5%
 
 ---
 
@@ -36,8 +26,8 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定義訊息類別"
->abstract="選取使用此設定的文字簡訊類型：需要使用者同意之促銷簡訊的行銷型訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
+>abstract="使用此設定選取行動裝置訊息型別：行銷適用於促銷訊息（需要使用者同意），或交易適用於非商業訊息（例如重設密碼）。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="行銷行動裝置訊息中的選擇退出"
 
 設定行動訊息通道後，您必須建立通道設定，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送SMS、RCS和MMS訊息。
 
@@ -76,7 +66,7 @@ ht-degree: 12%
 
    >[!NOTE]
    >
-   >若要能夠選取子網域，請確定您先前已設定至少一個SMS/MMS子網域。 [了解作法](mobile-subdomains.md)
+   >若要能夠選取子網域，請確定您先前已設定至少一個SMS/RCS/MMS子網域。 [了解作法](mobile-subdomains.md)
 
 1. 在&#x200B;**[!UICONTROL 執行維度]**&#x200B;區段中，使用&#x200B;**[!UICONTROL 簡訊執行欄位]**&#x200B;在設定檔屬性中選取您想要優先使用的電話號碼（如果資料庫中有數個號碼可用）。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -109,4 +99,4 @@ ht-degree: 12%
 
    ![](assets/preset-active.png)
 
-您現在可以使用Journey Optimizer傳送簡訊。
+您現在可以使用Journey Optimizer傳送行動裝置訊息。

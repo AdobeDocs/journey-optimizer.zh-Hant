@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 3%
+source-wordcount: 748
+ht-degree: 2%
 
 ---
 
@@ -38,24 +26,24 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="建立文字訊息。"
+>title="建立行動裝置訊息"
 >abstract="若要建立行動訊息，請在歷程或行銷活動中新增SMS動作，並開始使用個人化編輯器進行個人化。"
 
 >[!AVAILABILITY]
 >
 >RCS不是HIPAA就緒服務，且不得用於收集、儲存或處理貴組織可能獲准在Journey Optimizer中處理的任何敏感個人資料，包括允許的健康資料，例如個人健康資訊。
 
-您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)、豐富通訊(RCS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增行動訊息動作，然後定義文字訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送文字訊息前先測試訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
+您可以使用Adobe Journey Optimizer設計和傳送文字(SMS)、豐富通訊(RCS)和多媒體(MMS)訊息。 您首先需要在歷程或行銷活動中新增行動訊息動作，然後定義行動訊息的內容，如下所述。 Adobe Journey Optimizer也提供在傳送前測試行動訊息的功能，讓您可檢查轉譯、個人化屬性和所有其他設定。
 
-根據業界標準及法規，所有簡訊/多媒體簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#opt-out-decision-management)
+根據業界標準及法規，所有SMS/RCS/MMS行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#opt-out-decision-management)
 
-## 新增文字訊息 {#create-sms-journey-campaign}
+## 新增行動裝置訊息 {#create-sms-journey-campaign}
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增行動訊息。
 
 >[!BEGINTABS]
 
->[!TAB 新增簡訊至歷程]
+>[!TAB 新增行動訊息至歷程]
 
 1. 開啟您的歷程，然後從浮動視窗的&#x200B;**[!UICONTROL 動作]**&#x200B;區段拖放&#x200B;**[!UICONTROL 動作]**&#x200B;活動。 深入瞭解[動作活動](../building-journeys/journey-action.md)。
 
@@ -83,7 +71,7 @@ ht-degree: 3%
 
 有關如何建立、設定和發佈歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey-gs.md)。
 
->[!TAB 新增簡訊至行銷活動]
+>[!TAB 新增行動裝置訊息至行銷活動]
 
 1. 存取&#x200B;**[!UICONTROL 促銷活動]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立促銷活動]**。
 
@@ -118,7 +106,7 @@ ht-degree: 3%
    * 每週
    * Month
 
-您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計文字訊息的內容，如下所述。 [了解更多](design-mobile.md)
+您現在可以從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕開始設計行動訊息的內容，如下所述。 [了解更多](design-mobile.md)
 
 如需如何建立、設定和啟動行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
@@ -128,7 +116,7 @@ ht-degree: 3%
 
 * [設計行動裝置訊息](design-mobile.md)
 * [在行銷活動中新增訊息](../campaigns/create-campaign.md)
-* [預覽、測試並傳送您的文字訊息](send-mobile-message.md)
+* [預覽、測試及傳送您的行動裝置訊息](send-mobile-message.md)
 * [設定行動訊息頻道](mobile-configuration.md)
 * [行動訊息報表](../reports/journey-global-report-cja-sms.md)
 

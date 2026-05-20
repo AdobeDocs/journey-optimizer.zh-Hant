@@ -2,38 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 開始使用行動訊息
-description: 了解如何在 Journey Optimizer 建立及傳送文字訊息
+description: 瞭解如何在Journey Optimizer中建立和傳送行動訊息
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +54,7 @@ ht-degree: 30%
 
 ## 設定要求 {#configuration-requirements}
 
-在傳送文字訊息之前，您必須：
+在傳送行動裝置訊息之前，您必須：
 
 1. **選擇簡訊提供者**：從Sinch、Twilio、Infobip中選取，或設定自訂提供者
 2. **設定API認證**：將您提供者的API權杖和服務ID與Journey Optimizer整合
@@ -90,7 +75,7 @@ ht-degree: 30%
 
 ## 其他資源 {#additional-resources}
 
-瀏覽下列主題，深入瞭解 Journey Optimizer 中的文字訊息。
+瀏覽下列主題，進一步瞭解Journey Optimizer中的行動裝置傳訊。
 
 +++設定指南
 
@@ -115,11 +100,11 @@ ht-degree: 30%
 
 +++內容建立與管理
 
-建立、個人化及管理您的文字訊息內容：
+建立、個人化及管理您的行動訊息內容：
 
-* [建立簡訊/MMS 訊息](create-mobile-message.md)
+* [建立SMS/RCS/MMS訊息](create-mobile-message.md)
 * [預覽、測試和傳送訊息](send-mobile-message.md)
-* [文字訊息中的個人化](../personalization/personalize.md)
+* [行動訊息中的Personalization](../personalization/personalize.md)
 * [動態內容](../personalization/get-started-dynamic-content.md)
 * [使用 AI 助理產生簡訊內容](../content-management/generative-text.md)
 
@@ -127,7 +112,7 @@ ht-degree: 30%
 
 +++合規性與隱私權
 
-確保您的文字訊息符合法規與隱私權標準：
+確保您的行動通訊符合法規與隱私權標準：
 
 * [選擇退出管理](mobile-opt-out.md)
 * [隱私權與同意](../privacy/opt-out.md#opt-out-decision-management)
@@ -198,7 +183,7 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -208,6 +193,6 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
