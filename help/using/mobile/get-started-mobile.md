@@ -198,7 +198,7 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
 
 +++
 
@@ -208,6 +208,6 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
 
 +++
