@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4e836dc988654ef5d529e4583e06592fb2e168a6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 1814
-ht-degree: 33%
+source-wordcount: 1922
+ht-degree: 31%
 
 ---
 
@@ -67,8 +51,13 @@ ht-degree: 33%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器支援所有資產的瀏覽、搜尋和篩選，包括Dynamic Media轉譯，並整合增強的使用者介面功能，讓您在使用動態資產時輕鬆新增影像轉譯。</p>
-<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
+<p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器包括：</p>
+<ul>
+<li><strong>瀏覽、搜尋和篩選所有資產和片段</strong>。</li>
+<li><strong>AI語意搜尋</strong>：以簡單的語言描述您需要的內容，例如「山中的咖啡」，以根據含義和內容呈現內容相關的資產，而不只是文字相符。 也支援多語言查詢。</li>
+<li><strong>簡短上傳</strong>：上傳行銷簡報，以根據其內容和需求自動呈現符合行銷活動內容的資產。</li>
+<li><strong>Dynamic Media轉譯</strong>：挑選並套用動態資產的影像轉譯，而不需離開選取器。</li>
+</ul>
 <p>如需詳細資訊，請參閱<a href="../integrations/aem-content-advisor.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年5月19日</p>
 </td>
@@ -253,6 +242,24 @@ ht-degree: 33%
 <p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動轉換為<strong>已停止</strong>狀態。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
 <p>請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。</p>
 <p>推出日期： 2026年5月21日</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>直接郵件通道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
+<p>推出日期： 2026年5月21日</p>
+</td>
 </tr>
 </tbody>
 </table>

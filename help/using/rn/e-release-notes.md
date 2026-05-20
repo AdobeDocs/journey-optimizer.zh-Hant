@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7198657c414313e614aab539c827038ae53820c3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 883
 ht-degree: 8%
 
 ---
@@ -100,23 +99,6 @@ ht-degree: 8%
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>直接郵件通道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <!--
 <table>
@@ -200,7 +182,7 @@ ht-degree: 8%
 * **覆寫行銷活動中的預設執行欄位** — 先前可在歷程層級使用，您現在可以覆寫行銷活動引數中電子郵件、簡訊和WhatsApp傳送的預設執行欄位全域設定。
 
 
-  推出日期： 2026年5月19日
+  推出日期： 2026年5月29日
 
 <!--
 #### Configuration
@@ -227,12 +209,12 @@ ht-degree: 8%
 * **可編輯片段欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
 
 
-  推出日期： 2026年5月19日
+  推出日期： 2026年5月28日
 
 * **限製片段中的繼承中斷** — 現在當您建立或編輯片段時，可以選擇在電子郵件中使用時是否可修改片段。 鎖定片段可確保片段在出現的所有地方都保持同步，避免進行可能違反品牌標準或法規遵循要求的本機編輯。 此設定稍後可更新，並套用至未來的用途。
 
 
-  推出日期： 2026年5月19日
+  推出日期： 2026年5月20日
 
 <!--
 FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
@@ -287,7 +269,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -654,7 +636,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -920,7 +902,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1173,7 +1155,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1350,7 +1332,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
