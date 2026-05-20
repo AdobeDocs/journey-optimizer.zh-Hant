@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: 1114
 ht-degree: 1%
 
 ---
 
 # 在決策原則中善用片段 {#fragments}
 
-如果您的決定原則包含決定專案（包括片段），您可以在決定原則內編寫訊息時利用這些片段。 [進一步瞭解片段](../content-management/fragments.md)
+決策專案支援兩種型別的片段內容，在決策原則內編寫訊息時可運用這些內容：
 
->[!AVAILABILITY]
->
->此功能適用於&#x200B;**程式碼型體驗**&#x200B;和&#x200B;**電子郵件**&#x200B;管道。
+* **Journey Optimizer內容片段** — 在Journey Optimizer中建立且可重複使用的運算式片段，並新增至決定專案的&#x200B;**[!UICONTROL 片段]**&#x200B;區段。 [進一步瞭解AJO內容片段](../content-management/fragments.md)
+* **AEM內容片段** — 在Adobe Experience Manager中撰寫的內容、對應至決定專案的屬性，以及透過索引鍵名稱在個人化編輯器中選取的內容。 [瞭解如何將AEM內容片段連結至決定專案](items.md#aem-fragments)
 
-例如，假設您想針對多種行動裝置型號顯示不同的內容。 將每個屬於不同電話型號的指定片段新增至您在決定原則中使用的決定專案。 [瞭解如何進行](items.md#attributes)。
+## Journey Optimizer內容片段 {#ajo-fragments}
+
+如果您的決策原則包含決策專案，包括AJO內容片段，您可以在決策原則內的所有可用決策管道（程式碼型體驗、電子郵件、推播、簡訊和歷程）中製作訊息時，利用這些片段。
+
+例如，假設您想針對多種行動裝置型號顯示不同的內容。 將每個屬於不同電話型號的指定片段新增至您在決定原則中使用的決定專案。 [瞭解如何新增片段至決定專案](items.md#attributes)。
 
 ![決策專案的片段區段，顯示片段參考和位置索引鍵。](assets/item-fragments.png){width=70%}
 
@@ -73,19 +72,25 @@ ht-degree: 1%
 >
 >如果片段索引鍵不正確或片段內容無效，轉譯可能會失敗並在Edge呼叫中導致錯誤。
 >
->為了避免片段暫時無法使用時失敗，請使用`required=false`標幟，以取代略過片段。 [進一步了解](#temporary-unavailable-fragments)
+>為了避免片段暫時無法使用時失敗，請使用`required=false`標幟，以取代略過片段。 [進一步瞭解暫時無法使用的片段](#temporary-unavailable-fragments)
 
-## 使用情況和護欄 {#fragments-guardrails}
+### 使用情況和護欄 {#fragments-guardrails}
 
-### 類比電子郵件中的內容和運算式片段 {#simulate-content-expression-fragments}
+以下護欄特別適用於決策專案中使用的&#x200B;**AJO內容片段**。
+
++++類比電子郵件中的內容和運算式片段
 
 對於&#x200B;**電子郵件**&#x200B;頻道，當您&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;或促銷活動啟動時，與決定專案相關聯的運算式片段會正確顯示。 但是，**[!UICONTROL 模擬內容]**&#x200B;不會顯示決定專案中的運算式片段。
 
-### 電子郵件中的視覺片段和決定專案 {#visual-fragments-decision-items}
++++
+
++++電子郵件中的視覺片段和決定專案
 
 您無法將&#x200B;**[!UICONTROL 視覺化片段]**&#x200B;指派給決定專案，此內容中僅支援&#x200B;**運算式片段**。
 
-### 決定專案與內容屬性 {#decision-item-context-attributes}
++++
+
++++決定專案與內容屬性
 
 [!DNL Journey Optimizer]片段預設不支援決定專案屬性和內容屬性。 不過，您可以改用全域變數，如下所述。
 
@@ -106,7 +111,9 @@ ht-degree: 1%
    {{/each}}
    ```
 
-### 決定專案片段內容驗證 {#fragment-content-validation}
++++
+
++++決定專案片段內容驗證
 
 * 由於這些片段的動態性質，當用於行銷活動時，會針對決策專案中所參考的片段略過行銷活動內容建立期間的訊息驗證。
 
@@ -116,7 +123,9 @@ ht-degree: 1%
 
 在執行階段，會驗證行銷活動內容（包括決策專案中的片段內容）。 萬一驗證失敗，行銷活動將不會呈現。
 
-### 暫時無法使用的片段已略過 {#temporary-unavailable-fragments}
++++
+
++++暫時無法使用的片段已略過{#temporary-unavailable-fragments}
 
 當歷程或行銷活動參考附加到決策專案的片段時，可能會有短暫的同步延遲，更新的片段才能在Edge上使用。
 
@@ -128,6 +137,35 @@ ht-degree: 1%
 
 如果您的決策原則符合兩個優惠方案的資格，且每個方案都有片段 — 例如「20%優惠」和「30%優惠」 — 而第二個片段暫時無法使用，因為`required=false`系統會呈現可用的優惠方案（20%優惠）並略過另一個片段（30%優惠），而不是讓歷程或行銷活動失敗。 如此可改善內容仍在同步處理時的可靠性。
 
++++
+
 >[!NOTE]
 >
 >您仍然可以將`required`標幟設定為`true`，將片段標示為必要。 但是，如果片段暫時遺失，可能會導致歷程或行銷活動轉譯失敗。
+
+## AEM內容片段 {#aem-fragments-decisioning}
+
+>[!AVAILABILITY]
+>
+>此功能在具有Decisioning支援的輸出管道的「有限可用性」中可用。 如欲請求存取權，請和您的 Adobe 代表聯絡。
+
+在決定原則中運用AEM內容片段之前，請確定您具備：
+
+* 已在Adobe Experience Manager中建立您的內容片段，並以`ajo-enabled:{OrgId}/{SandboxName}`標籤，以便可供Journey Optimizer探索。 [瞭解如何建立和指派標籤](../integrations/aem-fragments.md#create-tag)
+* 透過指派唯一的參考名稱，將片段繫結至選件專案的&#x200B;**[!UICONTROL AEM片段]**&#x200B;區段。 [瞭解如何將AEM內容片段連結至決定專案](items.md#attributes)
+
+在個人化編輯器中，與原則選取的決策專案相關聯的所有AEM內容片段都可供使用。 每個片段索引鍵名稱都會顯示一個資料夾。
+
+在此範例中，決定原則包含兩個決定專案，這些決定專案有AEM片段透過其參考名稱繫結至它們。
+
+![](assets/aem-fragment-select.png)
+
+1. 按一下+按鈕，將所需的片段新增至運算式中。
+
+   由於單一參考名稱可能具有多個跨不同優惠方案專案繫結至它的片段，Decisioning會根據決定原則的排名條件決定要提供給每個客戶的最佳片段。
+
+1. 選取片段後，您可以利用其屬性（例如影像URL、文字欄位或其他內容），並使用「決策」在適當的時間將適當的內容呈現給適當的客戶。
+
+   ![](assets/aem-fragment-attribute.png)
+
+1. 在啟用行銷活動或歷程之前，您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;來預覽AEM內容片段欄位值將如何針對特定測試設定檔呈現。 [進一步瞭解模擬內容](../content-management/preview-test.md)
