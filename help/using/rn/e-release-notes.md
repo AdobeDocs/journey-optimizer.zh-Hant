@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: d8fca628ab6f521f868ce26345126cc4245588a5
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 7%
+source-wordcount: 578
+ht-degree: 9%
 
 ---
 
@@ -119,23 +119,7 @@ ht-degree: 7%
 </table>
 -->
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程運算式的AI助理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
-<p>此功能以公用Beta的形式提供給所有客戶。</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>推出日期： 2026年5月19日</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 
 
@@ -154,13 +138,6 @@ ht-degree: 7%
   Availability date: May 19, 2026
 
 -->
-
-#### 行銷活動
-
-* **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
-
-
-  推出日期： 2026年5月19日
 
 * **覆寫行銷活動中的預設執行欄位** — 先前可在歷程層級使用，您現在可以覆寫行銷活動引數中電子郵件、簡訊和WhatsApp傳送的預設執行欄位全域設定。
 
@@ -205,12 +182,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-#### 歷程
-
-* **外部對象的補充識別碼支援** — 歷程中的補充識別碼現在支援外部對象，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。 您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
-
-
-  推出日期： 2026年5月19日
 
 
 #### 報告
