@@ -6,7 +6,7 @@ description: 瞭解如何使用Experience Platform結構描述、資料集和SMS
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 結構描述會定義適用於已擷取資料的結構和驗證規則。 新增下列現有欄位群組，為傳入關鍵字集合撰寫體驗事件結構描述。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，從&#x200B;**[!UICONTROL 資料管理]**，存取&#x200B;**[!UICONTROL 結構描述]**&#x200B;並選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
@@ -75,7 +75,7 @@ ht-degree: 8%
 
 1. 選擇&#x200B;**[!UICONTROL 從結構描述建立資料集]**。
 
-1. 選取在上一節中建立的結構描述，然後按一下[下一步] **&#x200B;**。
+1. 選取在上一節中建立的結構描述，然後按一下[下一步] ****。
 
    ![](assets/schema-sms-5.png)
 
@@ -103,7 +103,7 @@ ht-degree: 8%
 
    ![](assets/schema-sms-7.png)
 
-1. 完成任何剩餘的必要欄位，然後按一下[儲存]。**&#x200B;**
+1. 完成任何剩餘的必要欄位，然後按一下[儲存]。****
 
    >[!NOTE]
    >
