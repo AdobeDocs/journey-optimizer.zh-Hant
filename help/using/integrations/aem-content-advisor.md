@@ -6,9 +6,9 @@ description: 瞭解如何在Adobe Journey Optimizer中使用AI支援的語意搜
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Adobe Experience Manager Content Advisor提供下列資產功能：
 使用&#x200B;**資訊**&#x200B;圖示檢視任何資產的詳細中繼資料和屬性。 這包括資產維度、檔案大小、建立日期、標籤，以及其他相關資訊，以協助您做出明智的決策。
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ 跨組織存放庫存取
+
+在您可以存取的組織中，從存放庫探索及選取資產。 此功能可讓您瀏覽及使用儲存在屬於不同組織的存放庫中的資產，讓您在不離開Journey Optimizer編寫工作流程的情況下，更廣泛地存取可用的資產庫。
 
 +++
 

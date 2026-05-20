@@ -25,7 +25,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您建立包含多個分行符號的運算式片段，並將其用於[簡訊](../sms/create-sms.md#sms-content)或[推播](../push/design-push.md)內容，則會保留分行符號。 因此，在傳送您的[簡訊](../sms/send-sms.md)或[推播](../push/send-push.md)訊息之前，請務必先測試該訊息。
+>如果您建立包含多個分行符號的運算式片段，並將其用於[簡訊](../mobile/create-mobile-message.md#sms-content)或[推播](../push/design-push.md)內容，則會保留分行符號。 因此，在傳送您的[簡訊](../mobile/send-mobile-message.md)或[推播](../push/send-push.md)訊息之前，請務必先測試該訊息。
 
 ## 使用隱含變數 {#implicit-variables}
 

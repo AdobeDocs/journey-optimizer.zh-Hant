@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Learn more about [action responses](../action/action-response.md).
 2. 檢查偏好的管道設定檔屬性（例如`profile.preferredChannel`），為每個管道建立路徑
 3. 設定通道特定路徑：
    * **電子郵件路徑**：新增包含電子郵件最佳化內容的[電子郵件動作](../email/create-email.md)
-   * **簡訊路徑**：新增包含簡訊的[簡訊動作](../sms/create-sms.md)
+   * **簡訊路徑**：新增包含簡訊的[簡訊動作](../mobile/create-mobile-message.md)
    * **推播路徑**：新增具有簡短可操作內容的[推播通知動作](../push/create-push.md)
    * **應用程式內路徑**：為參與的應用程式使用者新增[應用程式內訊息動作](../in-app/create-in-app.md)
 4. 為沒有偏好設定的設定檔新增預設路徑，將其路由到您的主要頻道

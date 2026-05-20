@@ -13,10 +13,10 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 63%
+source-wordcount: 1227
+ht-degree: 55%
 
 ---
 
@@ -63,17 +63,17 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="排程器"
->abstract="身為行銷活動管理員，您可以將行銷活動安排在特定時間自動啟動，從而為行銷通訊提供精確的時間表及準確的目標選擇資料。"
+>abstract="身為行銷活動經理，您可以排程行銷活動在特定時間自動啟動，或將其設為&#x200B;**由訊號**&#x200B;觸發，以便在從REST API或其他協調行銷活動的&#x200B;**End**&#x200B;活動呼叫時開始。 [了解更多](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="排程器有效性"
->abstract="您可以定義排程器的有效期限。 它可以是永久的 (預設)，也可以在特定日期之前有效。"
+>abstract="針對已排程的行銷活動，定義排程器的有效期間。 可為永久性（預設），或直到特定日期前有效。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="排程器選項"
->abstract="定義排程器的頻率。 它可以在特定時刻執行，可每天、每週或每月執行一次或多次。"
+>abstract="選擇行銷活動的開始方式：以一次性或週期性排程（一次、每日、每週、每月等）進行，或&#x200B;**由訊號**&#x200B;觸發，因此會等待API呼叫或上遊行銷活動的&#x200B;**結束**&#x200B;活動。 對於訊號觸發的行銷活動，您可以定義要在裝載中傳遞的引數。 [了解更多](trigger-orchestrated-campaign.md)"
 
 根據預設，協調的行銷活動在手動啟動時開始，並在執行相關活動後結束。 如果您偏好延遲執行或循環執行行銷活動，可以定義行銷活動的排程。
 

@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +131,13 @@ ht-degree: 6%
 
    +++
 
-當您在電子郵件Designer中使用&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式時，您還可以新增決定原則。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;以插入決定原則代碼。 [瞭解如何編碼您自己的電子郵件內容](../email/code-content.md)。
+當您在電子郵件Designer中使用&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式時，您還可以新增決定原則。 若要這麼做，請導覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;以插入決定原則代碼 — 位置選擇UI將會顯示，可讓您選擇決定原則的位置。 [瞭解如何編碼您自己的電子郵件內容](../email/code-content.md)。
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>以&#x200B;**[!UICONTROL 編碼方式插入決定原則]**&#x200B;模式為受限可用性。
 
 >[!NOTE]
 >

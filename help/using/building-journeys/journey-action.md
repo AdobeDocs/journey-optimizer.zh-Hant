@@ -36,9 +36,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1569
+source-wordcount: 1570
 ht-degree: 14%
 
 ---
@@ -128,11 +128,11 @@ ht-degree: 14%
       <p>
       </td>
       <td>
-      <a href="../sms/create-sms.md">
+      <a href="../mobile/create-mobile-message.md">
       <img alt="驗證" src="../assets/do-not-localize/sms.jpg">
       </a>
       <div>
-      <a href="../sms/create-sms.md"><strong>建立文字訊息（簡訊/多媒體簡訊）</strong></a>
+      <a href="../mobile/create-mobile-message.md"><strong>建立行動訊息(SMS/RCS/MMS)</strong></a>
       </div>
       <p>
       </td>

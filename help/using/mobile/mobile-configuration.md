@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定簡訊頻道
-description: 瞭解如何設定您的環境，以使用Journey Optimizer傳送文字訊息
+description: 瞭解如何使用Journey Optimizer設定您的環境以傳送行動訊息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,19 +22,19 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 43%
+source-wordcount: 432
+ht-degree: 30%
 
 ---
 
-# 開始使用簡訊 / MMS / RCS 設定 {#sms-configuration}
+# 開始使用行動設定 {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="Adobe Journey Optimizer 會透過簡訊服務提供者傳送文字訊息。 選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer會透過簡訊服務提供者傳送行動裝置訊息。 選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用 Journey Optimizer 設定您的簡訊/多媒體簡訊提供者"
->abstract="在傳送文字訊息 (簡訊/多媒體簡訊) 之前，您必須將提供者設定和 Journey Optimizer 整合。完成後， 您需要建立一個簡訊/多媒體簡訊設定 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>title="使用Journey Optimizer設定您的SMS/RCS/MMS提供者"
+>abstract="在傳送行動裝置訊息(SMS/RCS/MMS)之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS/RCS/MMS設定。 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道設定"
 
 >[!CONTEXTUALHELP]
@@ -61,22 +61,22 @@ ht-degree: 43%
 
 1. 整合提供者設定與Journey Optimizer。
 步驟取決於您的簡訊提供者。 瀏覽以下連結以存取詳細檔案：
-   * [Infobip](sms-configuration-infobip.md)
-   * [Sinch](sms-configuration-sinch.md)
-   * [Twilio](sms-configuration-twilio.md)
-   * [自訂提供者](sms-configuration-custom.md)
-1. [建立 Webhook](sms-webhook.md)
-1. [建立簡訊設定](sms-configuration-surface.md)
+   * [Infobip](mobile-configuration-infobip.md)
+   * [Sinch](mobile-configuration-sinch.md)
+   * [Twilio](mobile-configuration-twilio.md)
+   * [自訂提供者](mobile-configuration-custom.md)
+1. [建立 Webhook](mobile-webhook.md)
+1. [建立行動設定](mobile-configuration-surface.md)
 
 這些步驟必須由Adobe Journey Optimizer [系統管理員](../start/path/administrator.md)執行。
 
 ## 先決條件{#sms-prerequisites}
 
-Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供文字訊息服務的第三方提供者整合。 支援的文字訊息及MMS提供者為： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 請注意，您可以使用[自訂提供者組態](sms-configuration-custom.md)來設定其他傳訊提供者。
+Adobe Journey Optimizer目前與獨立於Adobe Journey Optimizer提供行動訊息服務的協力廠商提供者整合。 支援的行動訊息及MMS提供者為： **Sinch**、**Twilio**&#x200B;和&#x200B;**Infobip**。 請注意，您可以使用[自訂提供者組態](mobile-configuration-custom.md)來設定其他傳訊提供者。
 
-在設定SMS通道之前，您必須與其中一個提供者建立帳戶，以取得您的&#x200B;**API Token**&#x200B;和&#x200B;**服務ID**，您需要這些帳戶來設定Adobe Journey Optimizer與適用提供者之間的連線。
+在設定行動裝置頻道之前，您必須與其中一個提供者建立帳戶，以取得您的&#x200B;**API Token**&#x200B;和&#x200B;**服務ID**，您需要這些帳戶設定Adobe Journey Optimizer與適用提供者之間的連線。
 
-您對簡訊和MMS服務的使用受適用提供者的其他條款與條件的約束。 作為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用Sinch、Twilio和Infobip。 Adobe無法控制，且對協力廠商產品不負任何責任。 如有任何與簡訊服務(SMS/MMS)相關的問題或尋求協助的請求，請聯絡您的提供者。
+您對行動訊息與MMS服務的使用受適用提供者的其他條款與條件的約束。 作為協力廠商解決方案，Adobe Journey Optimizer使用者可透過整合使用Sinch、Twilio和Infobip。 Adobe無法控制，且對協力廠商產品不負任何責任。 如有任何與行動訊息服務相關的問題或尋求協助的請求，請聯絡您的提供者。
 
 >[!CAUTION]
 >

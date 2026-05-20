@@ -46,7 +46,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3645
 ht-degree: 100%
@@ -167,7 +167,7 @@ ht-degree: 100%
 <td>
 <p>透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至第三方系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
 <p>資料使用標籤和實作 (DULE) 的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。</p>
-<p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 <p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
-<p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -201,7 +201,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 支援定義使用者角色和存取原則，以管理功能和物件的權限。 透過 <strong>Adobe Experience Cloud 權限</strong>，您可以建立和管理角色，並為這些角色指派所需的資源權限。 權限也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。</p>
 <p> 以權限使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -314,7 +314,7 @@ table>
 <td>
 <p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
+<p>在<a href="../mobile/create-mobile-message.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -469,7 +469,7 @@ table>
 <p>您現在可以透過與 <b>Sinch</b> 或 <b>Twilio</b> 的整合在 Journey Optimizer 裡建立、個人化和傳送簡訊。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>簡訊管道目前僅可用於一組組織（可用性限制）。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
-<p>在<a href="../sms/create-sms.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
+<p>在<a href="../mobile/create-mobile-message.md">詳細文件</a>中了解如何建立和傳送簡訊。</p>
 </td>
 </tr>
 </tbody>
@@ -538,7 +538,7 @@ table>
 <tr>
 <td>
 <p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了歷程之外，您還可以複製其他元件，如產品建議、消息、結構描述、資料集、資料來源、事件和動作。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -848,7 +848,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p><strong>增量讀取</strong>選項已新增至定期<strong>讀取客群</strong>活動。 此選項允許您僅將目標定位在自上次執行歷程以來進入客群的個人。 第一次執行總是會將目標定位在所有客群成員。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細文件</a>。
+<p>如需詳細資訊，請參閱<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>

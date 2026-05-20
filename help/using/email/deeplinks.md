@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ### 簡訊 {#authoring-sms}
 
-對於SMS，深層連結是使用個人化編輯器中的&#x200B;**Url**&#x200B;協助程式功能來撰寫。 在[本節](../sms/create-sms.md#sms-content)中進一步瞭解新增簡訊內容的連結。
+對於SMS，深層連結是使用個人化編輯器中的&#x200B;**Url**&#x200B;協助程式功能來撰寫。 在[本節](../mobile/create-mobile-message.md#sms-content)中進一步瞭解新增簡訊內容的連結。
 
 若要在SMS內容中插入深層連結，請使用下列語法：
 

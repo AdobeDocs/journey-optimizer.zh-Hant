@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定您的自訂提供者
-description: 瞭解如何設定環境，以透過自訂提供者使用Journey Optimizer傳送文字訊息
+description: 瞭解如何設定環境，以透過自訂提供者使用Journey Optimizer傳送行動訊息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 881
 ht-degree: 11%
 
 ---
@@ -46,20 +46,20 @@ ht-degree: 11%
 >title="提供者承載"
 >abstract="提供要求承載，確保能發送用於進行處理和產生回應的正確資料。"
 
-此功能可讓您整合及設定自己的傳訊提供者，除了預設選項（Sinch、Twilio和Infobip）以外，還提供了彈性。 這可為SMS和RCS訊息實現順暢的撰寫、傳遞、報告和同意管理。
+此功能可讓您整合及設定自己的傳訊提供者，除了預設選項（Sinch、Twilio和Infobip）以外，還提供了彈性。 如此一來，行動訊息就能順暢地撰寫、傳送、報告和同意管理。
 
 透過自訂提供者設定，您可以直接在Journey Optimizer中連線協力廠商傳訊服務、自訂動態內容的訊息裝載，以及管理選擇加入/選擇退出偏好設定，以確保在SMS和RCS通道間保持一致。
 
 若要設定自訂提供者，請遵循下列步驟：
 
 1. [建立API認證](#api-credential)
-1. [建立 Webhook](sms-webhook.md)
-1. [建立頻道設定](sms-configuration-surface.md)
-1. [透過簡訊頻道動作建立歷程或行銷活動](create-sms.md)
+1. [建立 Webhook](mobile-webhook.md)
+1. [建立頻道設定](mobile-configuration-surface.md)
+1. [透過簡訊頻道動作建立歷程或行銷活動](create-mobile-message.md)
 
 ## 建立您的API認證 {#api-credential}
 
-若要使用Adobe現成未提供的自訂提供者（例如Sinch、Infobip、Twilio）在Journey Optimizer中傳送SMS和RCS訊息，請執行以下步驟：
+若要在Journey Optimizer中使用Adobe未提供的現成自訂提供者（例如Sinch、Infobip、Twilio）傳送行動訊息，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL API認證]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
 
@@ -83,7 +83,7 @@ ht-degree: 11%
 
 1. 啟用&#x200B;**[!UICONTROL mTLS支援]**&#x200B;選項，以確保使用者端和伺服器在建立安全連線之前互相驗證。
 
-   若要僅使用mTLS，請從&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 無驗證]**，然後啟用&#x200B;**的[!UICONTROL mTLS支援]**。
+   若要僅使用mTLS，請從&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 無驗證]**，然後啟用&#x200B;**[!UICONTROL mTLS支援]**。
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
@@ -93,7 +93,7 @@ ht-degree: 11%
 
 1. 新增您的&#x200B;**[!UICONTROL 提供者裝載]**，以驗證及自訂您的要求裝載。
 
-   對於RCS訊息，此承載稍後會在[內容設計](create-sms.md#sms-content)期間使用。
+   對於RCS訊息，此承載稍後會在[內容設計](create-mobile-message.md#sms-content)期間使用。
 
    >[!NOTE]
    >

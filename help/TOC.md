@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3330'
+ht-degree: 95%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 97%
    + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[設定熟客方案](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 行銷活動 {#campaigns}
    + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -339,23 +341,23 @@ ht-degree: 97%
          + [設定推播通知頻道](using/push/push-configuration.md)
          + [設定網頁推播通知管道](using/push/push-configuration-web.md)
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
-   + 簡訊 / MMS / RCS 管道 {#sms}
-      + [簡訊 / MMS / RCS 管道](/help/rp_landing_pages/sms-landing-page.md)
-      + [開始使用文字訊息](using/sms/get-started-sms.md)
-      + [建立簡訊 / MMS / RCS 訊息](using/sms/create-sms.md)
-      + [檢查並傳送文字訊息](using/sms/send-sms.md)
-      + [管理文字訊息的選擇退出](using/sms/sms-opt-out.md)
-      + [設定簡訊子網域](using/sms/sms-subdomains.md)
-      + [簡訊成本最佳化的最佳做法](using/sms/sms-cost-optimization.md)
-      + 設定簡訊 / MMS / RCS 管道 {#configure-sms}
-         + [開始使用簡訊 / MMS / RCS 設定](using/sms/sms-configuration.md)
-         + [設定 Sinch 提供者](using/sms/sms-configuration-sinch.md)
-         + [設定 Infobip 提供者](using/sms/sms-configuration-infobip.md)
-         + [設定 Twilio 提供者](using/sms/sms-configuration-twilio.md)
-         + [設定自訂提供者](using/sms/sms-configuration-custom.md)
-         + [建立 Webhook](using/sms/sms-webhook.md)
-         + [建立簡訊 / MMS / RCS 設定](using/sms/sms-configuration-surface.md)
-         + [對傳入關鍵字使用自訂資料集](using/sms/custom-dataset-inbound-keywords.md)
+   + 簡訊 / MMS / RCS 管道 {#mobile}
+      + [開始使用行動傳訊](using/mobile/get-started-mobile.md)
+      + [建立行動裝置訊息](using/mobile/create-mobile-message.md)
+      + [設計行動裝置訊息](using/mobile/design-mobile.md)
+      + [檢查並傳送您的行動裝置訊息](using/mobile/send-mobile-message.md)
+      + [管理行動訊息選擇退出](using/mobile/mobile-opt-out.md)
+      + [設定SMS子網域](using/mobile/mobile-subdomains.md)
+      + [簡訊成本最佳化的最佳做法](using/mobile/mobile-cost-optimization.md)
+      + 設定行動裝置頻道 {#configure-mobile}
+         + [開始使用行動設定](using/mobile/mobile-configuration.md)
+         + [設定 Sinch 提供者](using/mobile/mobile-configuration-sinch.md)
+         + [設定 Infobip 提供者](using/mobile/mobile-configuration-infobip.md)
+         + [設定 Twilio 提供者](using/mobile/mobile-configuration-twilio.md)
+         + [設定自訂提供者](using/mobile/mobile-configuration-custom.md)
+         + [建立 Webhook](using/mobile/mobile-webhook.md)
+         + [建立行動設定](using/mobile/mobile-configuration-surface.md)
+         + [對傳入關鍵字使用自訂資料集](using/mobile/custom-dataset-inbound-keywords.md)
    + 直接郵件 {#direct-mail}
       + [直接郵件](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [開始使用直接郵件](using/direct-mail/get-started-direct-mail.md)
@@ -530,7 +532,6 @@ ht-degree: 97%
       + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
       + [使用 AI 產生文字](using/content-management/generative-text.md)
       + [使用 AI 產生影像](using/content-management/generative-image.md)
-      + [使用 AI 的內容實驗](using/content-management/generative-experimentation.md)
       + [個人化運算式的 AI 助理](using/content-management/generative-personalization-expressions.md)
       + [AI 助理使用案例](using/content-management/generative-uc.md)
       + 品牌 {#brands}

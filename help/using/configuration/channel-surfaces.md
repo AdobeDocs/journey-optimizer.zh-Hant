@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 13%
@@ -55,7 +55,7 @@ ht-degree: 13%
 >
 > * 若要建立、編輯和刪除通道設定，您必須擁有[管理訊息預設集](../administration/high-low-permissions.md#administration-permissions)許可權。
 >
-> * 在建立頻道設定之前，您必須執行[電子郵件設定](../email/get-started-email-config.md)、[推播設定](../push/push-configuration.md)、[簡訊設定](../sms/sms-configuration.md)、[應用程式內設定](../in-app/inapp-configuration.md)、[程式碼型設定](../code-based/code-based-configuration.md)、[網頁設定](../web/web-configuration.md)和[直接郵件設定](../direct-mail/direct-mail-configuration.md)步驟。
+> * 在建立頻道設定之前，您必須執行[電子郵件設定](../email/get-started-email-config.md)、[推播設定](../push/push-configuration.md)、[簡訊設定](../mobile/mobile-configuration.md)、[應用程式內設定](../in-app/inapp-configuration.md)、[程式碼型設定](../code-based/code-based-configuration.md)、[網頁設定](../web/web-configuration.md)和[直接郵件設定](../direct-mail/direct-mail-configuration.md)步驟。
 
 設定好管道設定後，您就可以在從歷程或行銷活動建立訊息時選取它們。
 

@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 8%
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 設計電子郵件內容
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hant)
 
 設計推播通知
 
@@ -68,17 +68,17 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
 
 設計SMS和MMS訊息
 
-使用SMS撰寫個人化文字訊息、使用MMS增強與多媒體內容的通訊，並將動態內容用於目標訊息。
+使用SMS撰寫個人化行動訊息、使用MMS增強與多媒體內容的通訊，並將動態內容用於目標訊息。
 
-[建立文字訊息](../sms/create-sms.md)
+[建立文字訊息](../mobile/create-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
 設計應用程式內訊息
 
@@ -88,7 +88,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 個人化您的內容
 
@@ -98,7 +98,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 使用範本和片段
 

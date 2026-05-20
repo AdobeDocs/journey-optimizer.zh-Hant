@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: 544
 ht-degree: 1%
@@ -52,7 +52,7 @@ Journey Optimizer允許在SMS訊息本文中最多使用1,500個字元。 超過
 
 ## 避免使用會增加長度的特殊字元 {#avoid-special-characters}
 
-某些字元（例如`| ^ € { } [ ] ~ \`）在GSM編碼中會計為兩個字元。 包含這些字元可能會讓您的訊息更快地超過&#x200B;**160個字元的上限**。
+某些字元（例如`| ^ &euro; { } [ ] ~ \`）在GSM編碼中會計為兩個字元。 包含這些字元可能會讓您的訊息更快地超過&#x200B;**160個字元的上限**。
 
 ## 防止UCS-2編碼 {#prevent-ucs2-encoding}
 

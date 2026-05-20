@@ -6,10 +6,10 @@ description: 瞭解如何使用Experience Platform結構描述、資料集和SMS
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 如需結構描述、欄位群組和資料集的背景，請參閱下列Adobe Experience Platform檔案：
 
 * [XDM系統概覽](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
-* [結構描述組合基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}
+* [結構描述構成的基礎知識](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}
 * [資料集總覽](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 
 若要針對傳入關鍵字使用自訂資料集，您需要：
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## 設定API認證 {#configure-api-credentials}
 
-根據您的SMS提供者設定認證，使用[開始使用SMS / MMS / RCS設定](sms-configuration.md)。 然後完成下列步驟，以選取自訂的傳入資料集。
+根據您的SMS提供者設定認證，使用[開始使用SMS / MMS / RCS設定](mobile-configuration.md)。 然後完成下列步驟，以選取自訂的傳入資料集。
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** `>` **[!UICONTROL SMS設定]**&#x200B;並選取&#x200B;**[!UICONTROL API認證]**&#x200B;功能表。 按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
 

@@ -33,7 +33,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 32%
@@ -56,8 +56,8 @@ ht-degree: 32%
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>電子郵件</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>簡訊</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>簡訊</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>推播通知</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +85,7 @@ ht-degree: 32%
 
 1. 根據您使用的頻道、您的環境和您的需求，您還必須執行以下步驟：
 
-   * 您管道的子網域設定和委派，例如[電子郵件](about-subdomain-delegation.md)、[簡訊](../sms/sms-subdomains.md)、[登陸頁面](../landing-pages/lp-subdomains.md)和[網頁體驗](../web/web-delegated-subdomains.md)。
+   * 您管道的子網域設定和委派，例如[電子郵件](about-subdomain-delegation.md)、[簡訊](../mobile/mobile-subdomains.md)、[登陸頁面](../landing-pages/lp-subdomains.md)和[網頁體驗](../web/web-delegated-subdomains.md)。
 
    * 設定IP熱身計畫以獲得最佳傳遞能力。 [了解更多](ip-warmup-gs.md)
 

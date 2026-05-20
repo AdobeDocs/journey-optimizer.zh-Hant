@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ## 概觀 {#overview}
 
-在[訊息個人化](personalize.md)期間，Journey Optimizer可讓您存取來自多個來源的內容資料。 您可以使用原生管道（[電子郵件](../email/get-started-email-design.md)、[推播](../push/create-push.md)、[簡訊](../sms/create-sms.md)）中的Handlebars語法，從這些來源重複處理陣列，以顯示動態內容，例如產品清單、建議或其他重複元素。
+在[訊息個人化](personalize.md)期間，Journey Optimizer可讓您存取來自多個來源的內容資料。 您可以使用原生管道（[電子郵件](../email/get-started-email-design.md)、[推播](../push/create-push.md)、[簡訊](../mobile/create-mobile-message.md)）中的Handlebars語法，從這些來源重複處理陣列，以顯示動態內容，例如產品清單、建議或其他重複元素。
 
 **可用的內容來源：**
 
@@ -638,7 +638,7 @@ serializeList(
 
 #### 傳遞物件陣列至自訂動作
 
-**使用案例**：傳送要求內文中的完整物件陣列（針對POST或具有內文的GET）。
+**使用案例**：傳送要求內文中的完整物件陣列（針對POST或GET含內文）。
 
 +++ 檢視範常式式碼
 
@@ -1072,4 +1072,4 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
 **Personalization使用案例：** [購物車放棄電子郵件](personalization-use-case-helper-functions.md) | [訂單狀態通知](personalization-use-case.md)
 
-**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../sms/create-sms.md) | [預覽和測試您的內容](../content-management/preview-test.md)
+**郵件設計：** [開始使用電子郵件設計](../email/get-started-email-design.md) | [建立推播通知](../push/create-push.md) | [建立SMS訊息](../mobile/create-mobile-message.md) | [預覽和測試您的內容](../content-management/preview-test.md)

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定簡訊設定
-description: 瞭解如何設定簡訊/多媒體簡訊設定，以使用Journey Optimizer傳送文字訊息
+description: 瞭解如何設定您的SMS/RCS/MMS設定，以使用Journey Optimizer傳送行動訊息
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -24,22 +24,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 13%
+source-wordcount: 522
+ht-degree: 5%
 
 ---
 
-# 建立簡訊/MMS/RCS 設定 {#message-preset-sms}
+# 建立行動訊息設定 {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="定義訊息類別"
->abstract="選取使用此設定的文字簡訊類型：需要使用者同意之促銷簡訊的行銷型訊息，或非商業簡訊的交易型訊息，例如密碼重設。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="選擇不接收行銷文字簡訊"
+>abstract="使用此設定選取行動裝置訊息型別：行銷適用於促銷訊息（需要使用者同意），或交易適用於非商業訊息（例如重設密碼）。"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=zh-Hant#sms-opt-out-management" text="行銷行動裝置訊息中的選擇退出"
 
-設定好SMS/MMS/RCS通道後，您必須建立通道設定，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送SMS、RCS和MMS訊息。
+設定行動訊息通道後，您必須建立通道設定，才能從&#x200B;**[!DNL Journey Optimizer]**&#x200B;傳送SMS、RCS和MMS訊息。
 
 若要建立通道設定，請遵循下列步驟：
 
@@ -47,7 +47,7 @@ ht-degree: 13%
 
    ![](assets/preset-create.png)
 
-1. 輸入設定的名稱和說明（選用），然後選取SMS通道。
+1. 輸入設定的名稱和說明（選用），然後選取行動裝置頻道。
 
    ![](assets/sms-create-surface.png)
 
@@ -55,32 +55,28 @@ ht-degree: 13%
    >
    > 名稱必須以字母(A-Z)開頭。 它只能包含英數字元。 您也可以使用底線 `_`、點 `.` 和連字號 `-` 字元。
 
-1. 定義&#x200B;**簡訊設定**。
+1. 選取此設定的&#x200B;**[!UICONTROL 簡訊型別]**：
 
-   ![](assets/sms-surface-settings.png){width=80%}
-
-   首先，選取將隨設定傳送的&#x200B;**[!UICONTROL 簡訊型別]**： **[!UICONTROL 異動]**&#x200B;或&#x200B;**[!UICONTROL 行銷]**。
-
-   * 選擇促銷文字訊息的&#x200B;**行銷**：這些訊息需要使用者同意。
-   * 針對非商業性訊息，例如訂單確認、密碼重設通知或傳遞資訊，請選擇&#x200B;**異動**。
-
-   建立SMS/MMS時，您必須選擇與您為訊息選取的類別相符的有效通道設定。
+   * **[!UICONTROL 行銷]**：針對需要使用者同意的促銷訊息。
+   * **[!UICONTROL 異動]**：針對非商業訊息，例如訂單確認、密碼重設或傳遞更新。
 
    >[!CAUTION]
    >
-   >**異動**&#x200B;訊息可傳送給取消訂閱行銷通訊的設定檔。 這些訊息只能在特定情境中傳送。
+   >**異動**&#x200B;訊息可傳送給已取消訂閱行銷通訊的設定檔，但僅限於特定內容。
 
-1. 選取&#x200B;**[!UICONTROL SMS設定]**&#x200B;以與設定關聯。
+   ![](assets/sms-surface-settings.png){width=80%}
 
-   有關如何設定環境以傳送SMS訊息的詳細資訊，請參閱[本節](#create-api)。
+1. 選取&#x200B;**[!UICONTROL 行動組態]**&#x200B;以與組態關聯。
+
+   有關如何設定環境以傳送行動訊息的詳細資訊，請參閱[本節](#create-api)。
 
 1. 輸入&#x200B;您要用於通訊的&#x200B;**[!UICONTROL 寄件者號碼]**。
 
-1. 如果您想要在SMS訊息中使用URL縮短功能，請從&#x200B;**[!UICONTROL 子網域]**&#x200B;清單中選取專案。
+1. 若要在行動裝置訊息中使用URL縮短功能，請從&#x200B;**[!UICONTROL 子網域]**&#x200B;清單中選取專案。
 
    >[!NOTE]
    >
-   >若要能夠選取子網域，請確定您先前已設定至少一個SMS/MMS子網域。 [了解作法](sms-subdomains.md)
+   >若要能夠選取子網域，請確定您先前已設定至少一個SMS/RCS/MMS子網域。 [了解作法](mobile-subdomains.md)
 
 1. 在&#x200B;**[!UICONTROL 執行維度]**&#x200B;區段中，使用&#x200B;**[!UICONTROL 簡訊執行欄位]**&#x200B;在設定檔屬性中選取您想要優先使用的電話號碼（如果資料庫中有數個號碼可用）。 [了解更多](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
@@ -113,4 +109,4 @@ ht-degree: 13%
 
    ![](assets/preset-active.png)
 
-您現在可以使用Journey Optimizer傳送簡訊。
+您現在可以使用Journey Optimizer傳送行動裝置訊息。

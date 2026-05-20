@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 4%
@@ -91,7 +91,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原則執行**：商業使用者賦權，以使用決策中的[資料使用標籤和執行(DULE)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/labels/overview){target="_blank"}和[同意](../action/consent.md)等功能，在整個決策工作流程中啟用隱私權盾牌保護。 這可確保決策會自動遵守資料使用原則和客戶同意偏好設定。
 
-* **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道： [程式碼型體驗](../code-based/get-started-code-based.md)、[電子郵件](../email/get-started-email.md) （可用性限制）、[簡訊](../sms/get-started-sms.md)及[推播通知](../push/get-started-push.md)。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
+* **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道： [程式碼型體驗](../code-based/get-started-code-based.md)、[電子郵件](../email/get-started-email.md) （可用性限制）、[簡訊](../mobile/get-started-mobile.md)及[推播通知](../push/get-started-push.md)。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
 * **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 

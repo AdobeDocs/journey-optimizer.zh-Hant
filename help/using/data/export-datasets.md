@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1114
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | AJO實體資料集 | 用於儲存傳送給一般使用者之訊息的實體中繼資料的資料集。  |
 | AJO傳入活動事件資料集 | Journey Optimizer網路和應用程式內頻道傳遞與互動事件的資料集。 |
 | AJO互動式訊息設定檔資料集 | 儲存為支援API觸發的行銷活動而建立的設定檔 |
-| AJO訊息回饋事件資料集 | 訊息傳遞記錄。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 此資料集包含所有管道的事件：電子郵件、簡訊/多媒體簡訊、直接郵件等。 |
+| AJO訊息回饋事件資料集 | 訊息傳遞記錄。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 此資料集包含所有管道的事件：電子郵件、SMS/RCS/MMS、直接郵件等。 |
 | AJO訊息匯出資料集 | 儲存已標示為要匯出的已傳送電子郵件和簡訊內容。 資料會自內嵌後保留七天。 |
 | AJO設定檔計數器擴充功能 | 儲存包含counter_value和expiryDate的物件地圖，並以counter_id作為索引鍵 |
 | AJO推播設定檔資料集 | 儲存設定檔的推播權杖。 |

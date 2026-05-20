@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +73,16 @@ ht-degree: 3%
    >[!NOTE]
    >
    >如果您在相同的電子郵件中使用多個決定原則（例如，一個用於頁首，一個用於頁尾），相同的選件會在各個版位中重複刪除：不會轉譯兩次。 第二個決定原則不會傳回任何內容，且會顯示空白字元，除非您已設定遞補優惠，在此情況下，將會改為顯示遞補優惠。
+
+當您在電子郵件Designer中使用&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式時，也可以插入決定原則代碼。 導覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;並選取&#x200B;**[!UICONTROL 插入語法]** — 會出現位置選擇UI，讓您直接指派位置。 [瞭解如何編碼您自己的電子郵件內容](../email/code-content.md)。
+
+>[!AVAILABILITY]
+>
+>以&#x200B;**[!UICONTROL 編碼方式插入決定原則]**&#x200B;模式為受限可用性。
+
+>[!NOTE]
+>
+>在&#x200B;**[!UICONTROL 編碼您自己的]**&#x200B;模式中，每個原則只能傳回一個決定專案，因為&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件無法使用。
 
 >[!TAB 簡訊]
 

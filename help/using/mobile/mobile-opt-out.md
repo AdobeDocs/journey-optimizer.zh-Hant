@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 文字訊息的選擇退出管理
-description: 瞭解如何透過簡訊/多媒體簡訊管理選擇退出
+title: 行動訊息的選擇退出管理
+description: 瞭解如何使用SMS/RCS/MMS訊息管理選擇退出
 feature: SMS
 topic: Content Management
 role: User
@@ -24,20 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: 674
 ht-degree: 14%
 
 ---
 
-# 文字訊息的選擇退出管理 {#sms-opt-out}
+# 行動訊息的選擇退出管理 {#sms-opt-out}
 
 根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->文字訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送文字訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理短代碼、長代碼和免付費號碼的訊息，如以下所述，請洽詢您的法律顧問，以確保您的文字訊息通訊符合所有適用的法律規範要求。
+>行動訊息通訊可能會受到各種法律規範要求的約束，具體取決於其性質、您傳送行動訊息的位置以及收件者的位置。 雖然Adobe Journey Optimizer會處理短代碼、長代碼和免付費號碼的訊息，如以下所述，請洽詢您的法律顧問，以確保您的行動訊息通訊符合所有適用的法律規範要求。
 >
 
 ## 原生傳入關鍵字 {#sms-native-keywords}
@@ -60,7 +60,7 @@ ht-degree: 14%
 
 如果您在SMS API認證中定義自訂選擇退出關鍵字，這些關鍵字會覆寫以上列出的預設傳入關鍵字。 若要保留預設關鍵字（例如STOP、QUIT、CANCEL、END和UNSUBSCRIBE），請在簡訊設定的Opt-Out Keywords欄位中將其與自訂關鍵字一起明確納入。 否則，只會辨識您的自訂關鍵字，且預設關鍵字不再觸發選擇退出動作。
 
-請注意，如果客戶對文字訊息回應STOP，提供者會封鎖該特定傳送者ID （短代碼或長數字）的所有後續SMS，包括交易式訊息。 為確保異動SMS的傳送不會中斷，請使用先前未選取退出的個別傳送者ID。
+請注意，如果客戶對行動訊息回應STOP，提供者會封鎖該特定傳送者ID （短代碼或長數字）的所有後續SMS，包括交易式訊息。 為確保異動SMS的傳送不會中斷，請使用先前未選取退出的個別傳送者ID。
 
 
 >[!NOTE]

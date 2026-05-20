@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -198,6 +198,5 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ## 其他資源
 
-* **[生成式實驗](generative-experimentation.md)** - 了解如何結合 AI 產生的內容與實驗。
 * **[AI 助理使用案例](generative-uc.md)** - 透過使用案例了解如何使用 AI 助理
 * **[AI 助理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - 探索有關 AI 助理功能和最佳做法的逐步教學課程影片。

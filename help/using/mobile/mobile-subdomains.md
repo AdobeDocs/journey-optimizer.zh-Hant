@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定文字訊息（簡訊/多媒體簡訊）的子網域
+title: 設定行動訊息的子網域
 description: 瞭解如何使用Journey Optimizer設定簡訊子網域
 role: Admin
 feature: SMS, Channel Configuration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 20%
+source-wordcount: 1036
+ht-degree: 16%
 
 ---
 
@@ -40,24 +40,24 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="委派 SMS/MMS 子網域"
->abstract="設定文字簡訊 (SMS/MMS) 子網域。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
+>title="委派行動訊息子網域"
+>abstract="設定行動訊息的子網域。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="委派 SMS/MMS 子網域"
->abstract="您必須設定要用於文字簡訊的子網域，因為您需要此子網域才能建立簡訊設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
+>title="委派行動訊息子網域"
+>abstract="您必須設定用於行動訊息的子網域，因為您需要此子網域來建立SMS設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="選取 SMS/MMS 子網域"
+>title="選取行動訊息子網域"
 >abstract="為了能夠建立簡訊設定，請確保您之前已至少設定一個簡訊子網域，才能從子網域名稱清單中挑選。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
 ## 開始使用簡訊子網域 {#gs-sms-mms-subdomains}
 
-若要能夠縮短新增至SMS/MMS訊息的URL，您必須設定在[建立SMS設定](sms-configuration.md#sms-prerequisites)時將選取的子網域。
+若要能夠縮短新增至SMS/RCS/MMS訊息的URL，您必須設定在[建立SMS設定](mobile-configuration.md#sms-prerequisites)時將選取的子網域。
 
 您可以使用已委派給Adobe的子網域，或設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 

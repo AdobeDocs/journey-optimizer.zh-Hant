@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -96,7 +96,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 選取SMS供應商]**： Sinch或Sinch Conversational。
 
-   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](sms-configuration-sinch.md)。
+   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](mobile-configuration-sinch.md)。
 
    * **[!UICONTROL 寄件者電話號碼]**：輸入您要用於通訊的寄件者電話號碼。
 
@@ -120,7 +120,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 
@@ -179,7 +179,7 @@ ht-degree: 3%
 
 如果您的webhook使用附加到現有頻道設定的API認證，webhook將立即生效。 否則，請建立新的頻道設定。
 
-➡️[進一步瞭解通道設定](sms-configuration-surface.md)
+➡️[進一步瞭解通道設定](mobile-configuration-surface.md)
 
 ### 針對Infobip {#create-webhook-infobip}
 
@@ -197,7 +197,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 型別]**：選擇意見反應或傳入。 您需要分別建立這兩個專案，我們從傳入開始。
 
-   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](sms-configuration-infobip.md#api-credential)。
+   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](mobile-configuration-infobip.md#api-credential)。
 
    * **[!UICONTROL 寄件者電話號碼]**：輸入您要用於通訊的寄件者電話號碼。
 
@@ -221,7 +221,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 
@@ -287,7 +287,7 @@ ht-degree: 3%
 
 如果您的webhook使用附加到現有頻道設定的API認證，webhook將立即生效。 否則，請建立新的頻道設定。
 
-➡️[進一步瞭解通道設定](sms-configuration-surface.md)
+➡️[進一步瞭解通道設定](mobile-configuration-surface.md)
 
 ### 自訂提供者 {#create-webhook-custom}
 
@@ -305,7 +305,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 型別]**：選擇意見反應或傳入。 您需要分別建立這兩個專案，我們從傳入開始。
 
-   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](sms-configuration-custom.md)。
+   * **[!UICONTROL API認證]**：從下拉式清單中選擇您[先前設定的API認證](mobile-configuration-custom.md)。
 
    * **[!UICONTROL 寄件者電話號碼]**：輸入您要用於通訊的寄件者電話號碼。
 
@@ -329,7 +329,7 @@ ht-degree: 3%
 
    +++ 選擇退出
 
-   * 啟用選擇退出使用者並移除同意傳送文字訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
+   * 啟用選擇退出使用者並移除同意傳送行動訊息的關鍵字。 當使用者的訊息符合設定的關鍵字時，其電話號碼會選擇退出接收簡訊。
 
    * 預設會啟用下列關鍵字： Stop、Quit、Cancel、End、Unsubscribe、No。 按一下![](assets/do-not-localize/Smock_Close_18_N.svg)以移除任何預設關鍵字。
 
@@ -442,4 +442,4 @@ ht-degree: 3%
 
 如果您的webhook使用附加到現有頻道設定的API認證，webhook將立即生效。 否則，請建立新的頻道設定。
 
-➡️[進一步瞭解通道設定](sms-configuration-surface.md)
+➡️[進一步瞭解通道設定](mobile-configuration-surface.md)

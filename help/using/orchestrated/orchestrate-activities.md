@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 50%
 * **[!UICONTROL 合併]**&#x200B;活動群組將擁有電子郵件的客戶與已購買至少美金 100 元的客戶合併，
 * **[!UICONTROL 合併]**&#x200B;活動會排除忠誠度低於 50 點的客戶，
 * **[!UICONTROL 電子郵件傳遞]**&#x200B;活動會傳送電子郵件給產生的客戶。
+
+當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多資訊](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 後續步驟 {#next}
 

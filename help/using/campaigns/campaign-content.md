@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 20faceb1de8523426b288864d400f023c7dfdc6d
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 18%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 16%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="電子郵件" src="../channels/assets/do-not-localize/email.png"></a>
 <div align="center"><a href="../email/create-email.md"><strong>電子郵件</strong></a></div></td>
-<td><a href="../sms/create-sms.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../sms/create-sms.md"><strong>簡訊</strong></a></div></td>
+<td><a href="../mobile/create-mobile-message.md"><img alt="簡訊" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><a href="../mobile/create-mobile-message.md"><strong>簡訊</strong></a></div></td>
 <td><a href="../push/create-push.md"><img alt="推播" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>推播通知</strong></a></div></td>
 <td><a href="../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
