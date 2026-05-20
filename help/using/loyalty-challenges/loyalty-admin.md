@@ -11,7 +11,7 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
-**[!UICONTROL 忠誠度管理員]**&#x200B;區段是管理員設定Journey Optimizer如何連線至忠誠度計畫後端的地方。 行銷人員使用&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**&#x200B;來設計挑戰、工作、內容和訊息；忠誠度管理員是獎勵履行和事件對應的獨立一次性設定。
+**[!UICONTROL 熟客方案管理員]**&#x200B;區段是您設定Journey Optimizer如何連線至熟客方案後端的位置。 行銷人員使用&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**&#x200B;來設計挑戰、工作、內容和訊息；忠誠度管理員是獎勵履行和事件對應的獨立一次性設定。
 
 當客戶完成挑戰（或達到獎勵里程碑）時，Journey Optimizer會呼叫您在此處設定的獎勵提供者，以提供點數或其他獎勵。 挑戰&#x200B;**[!UICONTROL 內容]**、**[!UICONTROL 訊息]**&#x200B;和&#x200B;**[!UICONTROL 對象]**&#x200B;設定不受忠誠度管理員組態的影響。
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 1. 選擇性地設定&#x200B;**[!UICONTROL 獎勵Proxy]**：
 
    * **[!UICONTROL 主機]**、**[!UICONTROL 連線埠]**&#x200B;和認證
-   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;**&#x200B;**
+   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;****
 
 1. 若您的API在每次呼叫前都需要權杖，請設定&#x200B;**[!UICONTROL 驗證權杖產生器]**：
 
