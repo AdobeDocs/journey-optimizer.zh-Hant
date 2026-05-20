@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 14%
+source-wordcount: '843'
+ht-degree: 15%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 14%
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -73,6 +74,8 @@ ht-degree: 14%
 ## 運作方式 {#how-it-works}
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
+
+<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別(標準、條紋、循序或自備資料（可用時）)和日期範圍。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
 
@@ -119,6 +122,18 @@ ht-degree: 14%
 
 +++
 
+<!--
+
++++Configure the loyalty program (administrators)
+
+To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
+
+Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+
++++
+
+-->
+
 +++目標客群
 
 在建立挑戰之前，請先確定Adobe Experience Platform中已有您需要的目標對象。 在挑戰設定期間，您將選取定義哪些客戶有資格參與的受眾。 [瞭解如何使用對象](../audience/about-audiences.md)。
@@ -136,7 +151,7 @@ ht-degree: 14%
       <img alt="存取權" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>存取及管理挑戰與工作</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>存取及管理挑戰與任務</strong></a>
     </div>
     <p>
     <em>瞭解如何存取詳細目錄及管理挑戰與工作</em>
@@ -175,6 +190,21 @@ ht-degree: 14%
     <em>使用內建儀表板追蹤計畫KPI、挑戰結果和任務量度</em>
     </p>
   </td>
+  &lt;!--
+
+<td>
+    <a href="loyalty-admin.md">
+      <img alt="設定" src="assets/do-not-localize/icon-access.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-admin.md"><strong>設定熟客方案</strong></a>
+    </div>
+    <p>
+    <em>設定獎勵提供者、事件定義及履行組織設定</em>
+    </p>
+  </td>
+
+-->
 </tr>
 </table>
 
