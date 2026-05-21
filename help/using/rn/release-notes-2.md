@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 21%
 ## 2026年5月發行說明 {#may-26-rn}
 
 ### 歷程 {#may-26-journeys}
+
+下列功能和改進專案已新增到此版本的歷程。 本月也會鎖定其他變更 — 請參閱下方的[即將推出](#may-26-journeys-coming-soon)區段。
 
 <table>
 <thead>
@@ -110,7 +112,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**即將推出**
+#### 即將推出 {#may-26-journeys-coming-soon}
+
+下列歷程功能已排程於本月稍後發行。 資訊可能會有所變更。
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ ht-degree: 21%
 
 ### 協調的行銷活動 {#may-26-oc}
 
+下列功能和改善專案已新增至此版本中的協調行銷活動。 本月也會鎖定其他變更 — 請參閱下方的[即將推出](#may-26-oc-coming-soon)區段。
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ ht-degree: 21%
 
   推出日期： 2026年5月20日
 
-**即將推出**
+#### 即將推出 {#may-26-oc-coming-soon}
+
+下列精心安排的行銷活動功能預計於本月稍後推出。 資訊可能會有所變更。
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ ht-degree: 21%
 
 ### 行銷活動 {#may-26-campaigns}
 
-**即將推出**
+下列行銷活動改進專案將於本月稍後發行 — 請參閱下方的[即將推出](#may-26-campaigns-coming-soon)區段。
+
+#### 即將推出 {#may-26-campaigns-coming-soon}
+
+下列行銷活動改良功能已排定本月稍後發行。 資訊可能會有所變更。
 
 * **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
 
@@ -221,6 +233,8 @@ ht-degree: 21%
   推出日期： 2026年6月1日
 
 ### 決策 {#may-26-decisioning}
+
+下列功能和改進專案已新增至此版本中的Decisioning。 本月也會鎖定其他變更 — 請參閱下方的[即將推出](#may-26-decisioning-coming-soon)區段。
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ ht-degree: 21%
 
   推出日期： 2026年5月20日
 
-**即將推出**
+#### 即將推出 {#may-26-decisioning-coming-soon}
+
+下列決策功能預計於本月稍後發行。 資訊可能會有所變更。
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ ht-degree: 21%
 
 ### 電子郵件頻道 {#may-26-email}
 
+下列功能和改進專案已新增到此版本的電子郵件通道。 本月也會鎖定其他變更 — 請參閱下方的[即將推出](#may-26-email-coming-soon)區段。
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**即將推出**
+#### 即將推出 {#may-26-email-coming-soon}
 
-可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
+下列電子郵件通道改善專案已排定本月稍後發行。 資訊可能會有所變更。
 
-推出日期： 2026年6月1日
+* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
+
+  可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
+
+  推出日期： 2026年6月1日
 
 * **可編輯片段欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
 
@@ -304,6 +326,8 @@ ht-degree: 21%
   推出日期： 2026年6月1日
 
 ### 行動裝置訊息（簡訊、多媒體簡訊服務與RCS） {#may-26-mobile}
+
+下列功能和改進專案已新增至此版本的行動傳訊。
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ ht-degree: 21%
 
 ### WhatsApp 頻道 {#may-26-whatsapp}
 
+下列改良功能已新增至此版本的WhatsApp管道。
+
 * **WhatsApp按鈕支援和追蹤** - WhatsApp範本現在支援&#x200B;**快速回覆**、**Call to action - URL**&#x200B;和&#x200B;**Call to action -**，不支援&#x200B;**複製代碼**。 Journey Optimizer會傳送支援的按鈕並追蹤與其他管道報表的互動。
 
 * **WhatsApp頻道內容資料** - Journey Optimizer現在會擷取從WhatsApp頻道傳回的其他互動資料，並將其儲存在`whatsAppChannelContext`欄位群組下的&#x200B;**AJO EmailTrackingExperienceEvent資料集**。
@@ -354,6 +380,8 @@ ht-degree: 21%
   +++
 
 ### 內容與整合 {#may-26-content}
+
+下列功能和改善專案已新增至此版本的內容管理和整合。
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ ht-degree: 21%
 
 ### 管理 {#may-26-admin}
 
-**即將推出**
+下列管理改善專案將於本月稍後發行 — 請參閱下方的[即將推出](#may-26-admin-coming-soon)區段。
+
+#### 即將推出 {#may-26-admin-coming-soon}
+
+下列管理改善功能已排定在本月下旬發行。 資訊可能會有所變更。
 
 * **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
 

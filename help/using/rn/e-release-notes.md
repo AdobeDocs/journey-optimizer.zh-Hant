@@ -9,44 +9,49 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 27%
+source-wordcount: 81
+ht-degree: 35%
 
 ---
+
 
 
 ## 2026年5月發行前注意事項 {#may-26-rn}
 
 **至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的檔案會在變更上線生產時發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出 — 如需詳細資訊，請參閱每個專案所列的「推出日期」。
 
-另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
-**發行日期**： 2026年5月19至20日
+5月發行說明已上線。 在[這裡](release-notes.md)檢視
 
-### 新功能 {#may-26-features}
+<!--
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-此版本鎖定了下列功能。
+**Release date**: May 19–20, 2026
+
+### New capabilities {#may-26-features}
+
+The following capabilities are targeted for this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>新的行動訊息頻道和增強的RCS訊息</strong><br/></th>
+<th><strong>New Mobile Message channel and Enhanced RCS messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS、MMS和RCS現在整合在Adobe Journey Optimizer中的單一<strong>行動訊息</strong>動作下，因此更易從單一位置管理所有行動訊息型別。 在此更新中，您現在可以透過新的原生撰寫體驗，直接在Journey Optimizer中撰寫豐富媒體RCS訊息，包括影像、輪播和建議的動作。</p>
-<p>推出日期： 2026年5月19日</p>
+<p>SMS, MMS, and RCS are now unified under a single <strong>Mobile Message</strong> action in Adobe Journey Optimizer, making it easier to manage all mobile message types from one place. As part of this update, you can now author rich media RCS messages, including images, carousels, and suggested actions, directly in Journey Optimizer through a new native authoring experience.</p>
+<p>Availability date: May 19, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -84,13 +89,13 @@ ht-degree: 27%
 
 
 
-
-
-### 改善 {#may-26-improv}
-
-此版本鎖定了下列改善專案。
-
 <!--
+
+### Improvements {#may-26-improv}
+
+The following improvements are targeted for this release.
+
+
 #### AI
 
 * **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
