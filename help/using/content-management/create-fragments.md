@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
+source-git-commit: 61b717453958b560813733c8f45fc7ed1e3c5313
 workflow-type: tm+mt
 source-wordcount: 980
 ht-degree: 20%
@@ -171,3 +171,4 @@ ht-degree: 20%
 >[!CAUTION]
 >
 >發佈後，您無法將新的個人化屬性新增到即時片段。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](manage-fragments.md#adding-new-attributes)
+
