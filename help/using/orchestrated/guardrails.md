@@ -44,7 +44,7 @@ ht-degree: 2%
 
 * **每個結構描述的屬性** — 每個結構描述的屬性平均數目不應超過50個資料行，以維持管理性和效能。
 
-* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料擷取 {#data-ingestion}
 
