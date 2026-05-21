@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
+source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2835'
 ht-degree: 18%
 
 ---
@@ -217,8 +217,6 @@ ht-degree: 18%
 </table>
 
 ### 行銷活動 {#may-26-campaigns}
-
-預計未來幾天或幾週會有以下行銷活動改善 — 請參閱下方的[即將推出](#may-26-campaigns-coming-soon)區段。
 
 #### 即將推出 {#may-26-campaigns-coming-soon}
 
