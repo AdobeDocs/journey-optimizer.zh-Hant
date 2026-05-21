@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
+source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2853'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>歷程片段</strong><br/></th>
+<th><strong>歷程片段（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>歷程模擬</strong><br/></th>
+<th><strong>歷程模擬（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ ht-degree: 18%
 
 #### 即將推出 {#may-26-journeys-coming-soon}
 
-未來幾天或幾週預計會有以下歷程功能。 資訊可能會有所變更。
+未來幾天或幾週預計會有以下歷程功能。 **下列資訊可能會變更。**
 
 <table>
 <thead>
 <tr>
-<th><strong>歷程運算式的AI助理</strong><br/></th>
+<th><strong>歷程運算式的AI助理（公開Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -197,12 +197,12 @@ ht-degree: 18%
 
 #### 即將推出 {#may-26-oc-coming-soon}
 
-預計未來幾天或幾週內，將推出下列精心安排的行銷活動功能。 資訊可能會有所變更。
+預計未來幾天或幾週內，將推出下列精心安排的行銷活動功能。 **下列資訊可能會變更。**
 
 <table>
 <thead>
 <tr>
-<th><strong>針對協調行銷活動的檔案式目標定位</strong><br/></th>
+<th><strong>針對協調行銷活動的檔案式目標定位（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ ht-degree: 18%
 
 #### 即將推出 {#may-26-campaigns-coming-soon}
 
-預計未來幾天或幾週會有以下行銷活動改良專案。 資訊可能會有所變更。
+預計未來幾天或幾週會有以下行銷活動改良專案。 **下列資訊可能會變更。**
 
 * **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
 
@@ -266,7 +266,7 @@ ht-degree: 18%
 
 #### 即將推出 {#may-26-decisioning-coming-soon}
 
-預計未來幾天或幾週內，將會有以下決策功能。 資訊可能會有所變更。
+預計未來幾天或幾週內，將會有以下決策功能。 **下列資訊可能會變更。**
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ ht-degree: 18%
 
 #### 即將推出 {#may-26-email-coming-soon}
 
-未來幾天或幾週內，預計將會有以下電子郵件管道的改善。 資訊可能會有所變更。
+未來幾天或幾週內，預計將會有以下電子郵件管道的改善。 **下列資訊可能會變更。**
 
 * **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。
 
@@ -428,11 +428,9 @@ ht-degree: 18%
 
 ### 管理 {#may-26-admin}
 
-預計未來幾天或幾週將有以下管理改善 — 請參閱下方的[即將推出](#may-26-admin-coming-soon)區段。
-
 #### 即將推出 {#may-26-admin-coming-soon}
 
-未來幾天或幾週預計會有以下管理改善專案。 資訊可能會有所變更。
+未來幾天或幾週預計會有以下管理改善專案。 **下列資訊可能會變更。**
 
 * **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
 
@@ -444,11 +442,9 @@ ht-degree: 18%
 
 ### 報告 {#may-26-reporting}
 
-預計未來幾天或幾週將有以下報告改進 — 請參閱下方的[即將推出](#may-26-reporting-coming-soon)區段。
-
 #### 即將推出 {#may-26-reporting-coming-soon}
 
-預計未來幾天或幾週將有以下報告改進。 資訊可能會有所變更。
+預計未來幾天或幾週將有以下報告改進。 **下列資訊可能會變更。**
 
 * **排除電子郵件和簡訊報告的機器人點按** — 現在提供新的預估量度，以協助篩選出電子郵件和簡訊報告中的非人類（機器人）互動。 這些包括預估點按率、點進率(CTR)和點進開啟率(CTOR)，提供更準確真實客戶參與情況的檢視。 現有量度維持不變，這些新量度可與目前報表搭配使用，以改善分析。
 
