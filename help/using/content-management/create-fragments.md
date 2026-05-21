@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 23%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -116,6 +103,30 @@ ht-degree: 23%
 >視覺化片段不能超過 100KB。 運算式片段不能超過 200KB。
 
 已建立片段並新增至具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態的片段清單。 您可以預覽並發佈它，使其可在歷程和行銷活動中使用。
+
+### 鎖定視覺片段 {#lock-visual-fragment}
+
+如果您正在建立或編輯視覺化片段，可以鎖定該片段，以防止編輯器在電子郵件中使用它時對其進行修改或將其分離。
+
+選取此選項可確保片段在任何地方使用時都保持同步，有助於強制執行品牌、維持一致性並符合法律規定。
+
+若要鎖定視覺片段，請遵循下列步驟。
+
+1. 在片段內容版本畫面中，移至&#x200B;**[!UICONTROL 設定]**&#x200B;標籤。
+
+1. 依預設，片段會解除鎖定。 選取&#x200B;**[!UICONTROL 防止繼承中斷]**&#x200B;以鎖定片段。
+
+1. 按一下「**[!UICONTROL 確認]**」。
+
+   >[!NOTE]
+   >
+   >此設定可隨時更新。 不過，變更僅適用於未來的使用情形。 使用此片段的現有電子郵件不會被修改。
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+現在，在電子郵件中使用此片段時，它會鎖住，且無法從原始片段中分離。 [了解更多](../email/use-visual-fragments.md#locked-fragments)
+
+對原始鎖定片段的新更新會自動傳播到使用該片段的所有電子郵件。
 
 ## 預覽和發佈片段 {#publish}
 
