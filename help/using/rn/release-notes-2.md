@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: 44d4da2b621b108fa5828e70a77568ae59662d0e
+source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 20%
+source-wordcount: '2397'
+ht-degree: 21%
 
 ---
 
@@ -291,9 +291,9 @@ ht-degree: 20%
 
 **即將推出**
 
-* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。 您可以在管道層級設定標題值，並使用內容資料覆寫每個行銷活動的標題值。
+可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
 
-  推出日期： 2026年6月1日
+推出日期： 2026年6月1日
 
 * **可編輯片段欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
 
