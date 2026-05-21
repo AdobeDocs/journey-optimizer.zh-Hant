@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +169,17 @@ ht-degree: 1%
    ![](assets/fragment-break-inheritance.png)
 
 1. 該片段會成為不再連結至原始片段的獨立元素。 編輯它，就像內容中的任何其他內容元件一樣。 [了解更多](content-components.md)
+
+### 鎖定的片段 {#locked-fragments}
+
+如果片段已由作者鎖定，解鎖圖示會呈現灰色，且無法用來中斷繼承。
+
+![](assets/fragment-locked.png)
+
+鎖定的片段會在其出現處保持同步，以防止可能違反品牌標準或合規要求的本機編輯。
+
+瞭解如何在[本節](../content-management/create-fragments.md#lock-visual-fragment)中鎖定片段。
+
+>[!NOTE]
+>
+>片段作者稍後可以變更設定，以供日後使用，方法是在片段設定中將其行為重設為&#x200B;**[!UICONTROL 允許中斷繼承]**。
