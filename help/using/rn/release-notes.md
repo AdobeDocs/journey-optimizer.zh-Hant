@@ -8,29 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -318,7 +302,7 @@ ht-degree: 23%
 <td>
 <p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動轉換為<strong>已停止</strong>狀態。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
 <p>請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。</p>
-<p>推出日期： 2026年5月21日</p>
+<p>推出日期： 2026年5月22日</p>
 </tr>
 </tbody>
 </table>
@@ -353,7 +337,7 @@ ht-degree: 23%
 <p>使用新的<strong>最佳化</strong>節點來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
 <p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月21日</p>
+<p>推出日期： 2026年5月22日</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +354,7 @@ ht-degree: 23%
 <td>
 <p>您現在可以使用公式，根據客戶設定檔屬性和情境式因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月21日</p>
+<p>推出日期： 2026年5月22日</p>
 </td>
 </tr>
 </tbody>
@@ -404,7 +388,7 @@ ht-degree: 23%
 <td>
 <p>協調的行銷活動現在支援直接將CSV或TXT檔案載入行銷活動畫布作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 這支援無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。 </p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>推出日期：2026年6月1日</p>
+<p>推出日期： 2026年6月1日</p>
 </td>
 </tr>
 </tbody>
@@ -422,7 +406,7 @@ ht-degree: 23%
 <p>使用新的<strong>最佳化</strong>節點來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
 <p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月21日</p>
+<p>推出日期： 2026年5月22日</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +423,7 @@ ht-degree: 23%
 <td>
 <p>您現在可以使用公式，根據客戶設定檔屬性和情境式因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月21日</p>
+<p>推出日期： 2026年5月22日</p>
 </td>
 </tr>
 </tbody>
@@ -458,7 +442,7 @@ ht-degree: 23%
 
 * **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將subType： &quot;certificateCredential&quot;新增到自訂授權設定中，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Azure Entra ID）而設計。
 
-  推出日期： 2026年5月21日
+  推出日期： 2026年5月22日
 
 * **外部對象的補充識別碼支援** — 歷程中的補充識別碼現在支援外部對象，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。 您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
 
