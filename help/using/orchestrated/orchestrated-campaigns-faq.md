@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ Yes, follow the best practices below:
 
 +++ 每個協調的行銷活動的最大活動數是多少？
 
-已協調的行銷活動中的活動數限製為500。
+有兩個不同的限制：
+
+* **頻道活動** — 每個協調的行銷活動最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 目標定位和流量控制活動不計算。 儲存或發佈時若超過此限制，會導致作業失敗。
+
+* **畫布大小** — 在畫布上最多&#x200B;**500個活動**。 如需維護性，請將工作流程保留在&#x200B;**100個活動**&#x200B;之下。
 
 **了解更多**
 

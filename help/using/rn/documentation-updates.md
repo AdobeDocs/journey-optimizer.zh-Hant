@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: '7833'
+source-wordcount: '7851'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 91%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**頻道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
 
 * **重要術語**&#x200B;頁面已改寫：新增6個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;去除混淆指南，用於四個常混淆術語配對。 已移除Adobe Experience Platform特定辭彙，並取代為連結至Adobe Experience Platform字彙表的附註。 [閱讀全文](../start/terminology.md)
 

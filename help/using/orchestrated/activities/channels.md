@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 41%
+source-wordcount: 1883
+ht-degree: 39%
 
 ---
 
@@ -77,9 +77,15 @@ UNUSED IDs in BJ
 
 使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
 
->[!CAUTION]
->
->協調的行銷活動僅支援SMS、推播、電子郵件和直接郵件頻道。
+## 護欄與限制 {#channel-guardrails}
+
+* **支援的頻道** — 協調的行銷活動僅支援SMS、推播、電子郵件和直接郵件頻道。
+
+* **頻道活動限制** — 協調的行銷活動支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 只有管道活動會計入此限制；目標定位和流量控制活動則不會。
+
+  如果您在儲存或發佈時超過限制，作業將會失敗。 若要保持在限制內，請減少頻道活動的數量，或將訊息傳送分割到多個協調的行銷活動中。
+
+如需所有協調的行銷活動護欄和限制，請參閱[護欄和限制](../guardrails.md)。
 
 ## 新增頻道活動，定義屬性 {#add}
 

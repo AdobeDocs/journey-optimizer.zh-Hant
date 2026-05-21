@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 47%
+source-wordcount: 530
+ht-degree: 43%
 
 ---
 
@@ -31,13 +31,17 @@ ht-degree: 47%
 
 ![畫布中的可用活動清單](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* 根據您的授權模式、許可權和實施，可用活動可能會有所不同。
->
->* 已協調的行銷活動中的活動數限製為500。
+>根據您的授權模式、許可權和實施，可用活動可能會有所不同。
 
+## 護欄與限制 {#activity-guardrails}
+
+* **頻道活動限制** — 協調的行銷活動在發佈時支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 鎖定目標和流量控制活動不會計入此限制。
+
+* **畫布活動限制** — 畫布上的活動數限製為500。 針對可維護性和效能，請將工作流程保持在實踐中的100個活動以下。
+
+如需所有協調的行銷活動護欄和限制，請參閱[護欄和限制](../guardrails.md)。
 
 ## 目標定位活動 {#targeting}
 
