@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 * **全域設定** — 選取您程式的Experience Platform身分名稱空間。 [瞭解如何設定全域設定](#global-settings)
 * **獎勵提供者** — 連線完成客戶進度或完成挑戰時獎勵的API。 [瞭解如何設定獎勵提供者](#reward-providers)
-* **事件定義** — 將傳入體驗事件對應至&#x200B;**[!UICONTROL 自訂事件]**&#x200B;工作中所使用的活動。 [瞭解如何設定事件定義](#event-definitions)
+* **事件定義** — 將傳入體驗事件對應至&#x200B;**[!UICONTROL 自訂AEP事件]**&#x200B;工作中所使用的活動。 [瞭解如何設定事件定義](#event-definitions)
 * **產品詳細目錄** — 上傳專案對群組的對應，以用於工作適用性規則。 [瞭解如何設定產品詳細目錄](#product-inventory)
 * **排除專案** — 上傳整個組織的專案和群組排除專案以進行任務設定。 [瞭解如何設定排除專案](#exclusions)
 
@@ -100,12 +100,16 @@ ht-degree: 1%
 
    +++獎勵Proxy
 
-   透過中繼伺服器路由履行呼叫，而非直接傳送至您的端點。
+   透過中繼伺服器路由履行呼叫，而非直接傳送至您的端點。 在獎勵提供者和&#x200B;**[!UICONTROL 建立Proxy]**&#x200B;畫面上，使用&#x200B;**[!UICONTROL 認證]**&#x200B;欄位進行Proxy驗證。
 
    * 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
    * 輸入&#x200B;**[!UICONTROL 主機]**&#x200B;和&#x200B;**[!UICONTROL 連線埠]**。
    * 指定代理伺服器是否為&#x200B;**[!UICONTROL 已啟用]**。
-   * 新增Proxy **[!UICONTROL 認證]**。
+   * 在&#x200B;**[!UICONTROL 認證]**&#x200B;中，以JSON格式輸入Proxy使用者名稱和密碼。 認證值通常看起來像：
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ ht-degree: 1%
 
 ## 事件定義 {#event-definitions}
 
-**[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入體驗事件。 例如，購買或飯店簽到。 行銷人員在&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務中參考這些定義。 不符合任何定義的事件會被忽略。
+**[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在建立&#x200B;**[!UICONTROL 自訂AEP事件]**&#x200B;任務時參考這些定義。 不符合任何定義的事件會被忽略。
 
 當您的組織以自己的JSON格式傳送事件時，**[!UICONTROL 結構描述]**&#x200B;和&#x200B;**[!UICONTROL 轉換器]**&#x200B;會協助[!DNL Journey Optimizer]驗證承載、剖析該承載，並決定是否追蹤活動。
 
@@ -150,7 +154,7 @@ ht-degree: 1%
 
    ![](assets/admin-event-definition.png)
 
-1. 輸入事件的&#x200B;**[!UICONTROL 名稱]** （例如，`Coffee purchase`）。 行銷人員在設定&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時看到此名稱。
+1. 輸入事件的&#x200B;**[!UICONTROL 名稱]** （例如，`Coffee purchase`）。 行銷人員在設定&#x200B;**[!UICONTROL 自訂AEP事件]**&#x200B;任務時看到此名稱。
 
 1. 指定[!DNL Journey Optimizer]如何辨識傳入裝載中的事件。 提供&#x200B;**[!UICONTROL 識別碼路徑]**、**[!UICONTROL XDM結構描述識別碼]**，或兩者皆提供：
 
@@ -163,7 +167,7 @@ ht-degree: 1%
    * **[!UICONTROL 結構描述]** — 傳入承載的驗證字串。
    * **[!UICONTROL Transformer]** — 轉換運算式（例如JSONata），可將您的裝載對應至「忠誠度挑戰」所預期的格式。
 
-1. 儲存事件定義。 它出現在&#x200B;**[!UICONTROL 事件定義]**&#x200B;清單中，可在行銷人員建立挑戰時取得。 [瞭解如何建立挑戰](create-challenges.md)
+1. 儲存事件定義。 它會顯示在&#x200B;**[!UICONTROL 事件定義]**&#x200B;清單中，可在行銷人員建立&#x200B;**[!UICONTROL 自訂AEP事件]**&#x200B;任務時取得。 [瞭解如何建立任務](create-tasks.md#choose-activity)
 
 ## 產品詳細目錄 {#product-inventory}
 
