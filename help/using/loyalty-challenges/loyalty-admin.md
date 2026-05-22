@@ -110,7 +110,7 @@ ht-degree: 2%
 
 1. 選擇性地設定&#x200B;**[!UICONTROL 獎勵Proxy]**，以透過中繼伺服器路由履行呼叫：
 
-   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;****
+   * **[!UICONTROL 名稱]**、**[!UICONTROL 描述]**，以及Proxy是否已啟用&#x200B;**&#x200B;**
    * **[!UICONTROL 主機]**、**[!UICONTROL 連線埠]**&#x200B;和認證
 
 1. 如果您的API需要持有人權杖來進行驗證，請設定&#x200B;**[!UICONTROL 驗證權杖產生器]**：
