@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +337,7 @@ ht-degree: 23%
 <p>使用新的<strong>最佳化</strong>節點來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
 <p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月22日</p>
+<p>推出日期： 2026年6月1日</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +354,7 @@ ht-degree: 23%
 <td>
 <p>您現在可以使用公式，根據客戶設定檔屬性和情境式因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月22日</p>
+<p>推出日期： 2026年6月1日</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +394,6 @@ ht-degree: 23%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>歷程路徑最佳化 — 目標定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>使用新的<strong>最佳化</strong>節點來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
-<p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
-<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁 — 排名公式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用公式，根據客戶設定檔屬性和情境式因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
-<p>先前在「有限可用性」中提供，現在此功能可用於所有環境（一般可用性）。</p>
-<p>推出日期： 2026年5月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 改善 {#coming-soon-improvements}
 
@@ -470,11 +419,15 @@ ht-degree: 23%
 
   推出日期：2026年6月1日
 
-#### 電子郵件設計工具
+<!--
 
-* **可編輯片段欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
+#### Email Designer
 
-  推出日期： 2026年6月1日
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### 行銷活動
 
