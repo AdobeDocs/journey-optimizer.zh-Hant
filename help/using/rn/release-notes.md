@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
 source-wordcount: 2581
 ht-degree: 25%
@@ -87,7 +87,7 @@ ht-degree: 25%
 <p>現在，只要直接從其他協調行銷活動的<strong>結束活動</strong>觸發協調的行銷活動，即可將協調的行銷活動連結在一起。</p>
 <p>這可讓您將複雜的協調流程邏輯分解成更小且可重複使用的流程，以便從多個上層行銷活動呼叫，而非每次都重新建置。 在執行階段傳遞的裝載可用於下遊行銷活動中的細分和個人化，因此每個連結的行銷活動都可以根據其收到的內容採取行動。</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月20日</p>
 </td>
 </tr>
@@ -148,7 +148,7 @@ ht-degree: 25%
 <td>
 <p>您現在可以透過電子郵件設計工具中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月12日</p>
 </td>
 </tr>
@@ -167,7 +167,7 @@ ht-degree: 25%
 <p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
 <p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月5日</p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ ht-degree: 25%
 <td>
 <p>[!DNL Adobe Journey Optimizer] 現在使用AI來偵測可以簡化的決定規則和排名公式。 在詳細目錄中，紅色指示器會出現在AI已識別最佳化機會的任何規則上。 按一下指示器會顯示原始運算式以及AI建議的版本。 從那裡，您可以下載檔案以檢視每個版本評估模擬設定檔的方式，並確認其行為相同，然後以最佳化的設定檔取代運算式。</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#decisioning-optimization">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#decisioning-optimization">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月5日</p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ ht-degree: 25%
 <p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
 <p>此功能以公用Beta的形式提供給所有客戶。</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>推出日期： 2026年5月22日</p>
+<p>推出日期： 2026年6月2日</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ ht-degree: 25%
 <td>
 <p>一旦最後一個作用中設定檔結束，非週期性<strong>讀取對象</strong>歷程現在會自動轉換為<strong>已停止</strong>狀態。 以往，這些歷程會維持<strong>即時</strong>狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。</p>
 <p>請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。</p>
-<p>推出日期： 2026年5月22日</p>
+<p>推出日期： 2026年6月2日</p>
 </tr>
 </tbody>
 </table>
@@ -423,7 +423,7 @@ ht-degree: 25%
 
 * **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將subType： &quot;certificateCredential&quot;新增到自訂授權設定中，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Azure Entra ID）而設計。
 
-  推出日期： 2026年5月22日
+  推出日期： 2026年6月2日
 
 * **外部對象的補充識別碼支援** — 歷程中的補充識別碼現在支援外部對象，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。 您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
 
