@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
+source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
 workflow-type: tm+mt
-source-wordcount: '7851'
-ht-degree: 91%
+source-wordcount: '7894'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 91%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* **發行說明**&#x200B;頁面已重新建構為主題式配置。 變更現在會依產品區域而非變更型別分組，並新增專屬的&#x200B;**可用性改善**&#x200B;區段。 即將推出的專案在各個主題中顯示為可展開的摺疊式功能表。 [閱讀更多](release-notes.md)
 
 * **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**頻道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
 
@@ -533,7 +535,7 @@ ht-degree: 91%
 * 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀全文](../content-management/generative-full-content.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀更多](../content-management/generative-full-content.md#video)
 
 +++
 
