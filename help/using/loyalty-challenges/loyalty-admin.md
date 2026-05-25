@@ -11,7 +11,7 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**忠誠度挑戰檔案**
+**目錄**
 
 [開始應對忠誠度挑戰](get-started.md)
 
@@ -37,13 +37,11 @@ ht-degree: 1%
 
 +++
 
-+++設定和整合
+**設定並整合**
 
 * **設定忠誠度挑戰** ◀︎ **您在這裡**
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-+++
 
 >[!ENDSHADEBOX]
 
@@ -242,11 +240,11 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
    ![](assets/admin-inventory-group.png)
 
@@ -279,11 +277,11 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
