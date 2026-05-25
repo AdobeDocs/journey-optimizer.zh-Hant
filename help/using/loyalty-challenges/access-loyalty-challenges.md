@@ -11,7 +11,7 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 2%
@@ -22,18 +22,16 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**忠誠度挑戰檔案**
+**目錄**
 
 [開始應對忠誠度挑戰](get-started.md)
 
-+++建立和管理挑戰
+**建立和管理挑戰**
 
 * **存取及管理挑戰與工作** ◀︎ **您在這裡**
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-+++
 
 +++設定和整合
 

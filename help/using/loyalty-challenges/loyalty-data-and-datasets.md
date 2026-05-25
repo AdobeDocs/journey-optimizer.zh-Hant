@@ -11,7 +11,7 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**忠誠度挑戰檔案**
+**目錄**
 
 [開始應對忠誠度挑戰](get-started.md)
 
@@ -35,13 +35,11 @@ ht-degree: 5%
 
 +++
 
-+++設定和整合
+**設定並整合**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * **忠誠度資料和資料集** ◀︎ **您在這裡**
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-+++
 
 >[!ENDSHADEBOX]
 
