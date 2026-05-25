@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ ht-degree: 20%
 </table>
 
 * **Assets選擇器中的跨組織存放庫存取** — 您現在可以直接在Adobe Experience Manager資產選擇器中，順暢地從多個組織的存放庫中選擇資產。
+
+### 可用性 {#may-26-usability}
+
+此版本已新增下列可用性改善。
+
+#### 清單
+
+* **大量動作** — 您現在可以在&#x200B;**行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單中一次選取多個專案，並從單一動作列執行大量作業，包括新增專案至封裝、將其移至資料夾、編輯標籤、管理存取權，以及封存或刪除專案。 [了解更多](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **排序和調整欄大小** - **行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單現在支援按一下任何欄標題來排序。 在「行銷活動」資料夾檢視中，也可依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 頻道設定]**&#x200B;進行排序和篩選。 **片段**&#x200B;和&#x200B;**範本**&#x200B;清單中的資料行寬度也是可調整大小的 — 拖曳資料行邊界以符合您最關心的資料。 [了解更多](../start/search-filter-categorize.md#filter-lists)
+
+#### 內容製作
+
+* **內嵌設定檔屬性編輯** — 您現在可以直接在電子郵件Designer中插入設定檔屬性運算式，而無需開啟完整的個人化編輯器。 在任何文字欄位中輸入`{{`以開啟內嵌自動完成下拉式清單，然後瀏覽並選取您需要的屬性 — 它會立即插入游標位置。 推播通道編輯器中也提供此功能。 [了解更多](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **推播通道編輯器中的連結URL工具提示** — 當任何連結或媒體欄位中的URL太長而無法顯示時，該欄位旁邊永遠會顯示工具提示圖示 — 將滑鼠游標停留在該欄位上可檢視完整的URL。 [了解更多](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### 管理 {#may-26-admin}
 
