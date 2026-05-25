@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2805
-ht-degree: 23%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 23%
 <td>
 <p>Journey Optimizer現在使用<strong>內容警告器選取器</strong>，此統一強制回應視窗可同時選取Experience Manager Assets和內容片段。 新的選取器包括：</p>
 <ul>
-<li><strong>瀏覽、搜尋和篩選所有資產和片段</strong>。</li>
+<li><strong>瀏覽、搜尋和篩選所有資產和片段的</strong>。</li>
 <li><strong>AI語意搜尋</strong>：以簡單的語言描述您需要的內容，例如「山中的咖啡」，以根據含義和內容呈現內容相關的資產，而不只是文字相符。 也支援多語言查詢。</li>
 <li><strong>簡短上傳</strong>：上傳行銷簡報，以根據其內容和需求自動呈現符合行銷活動內容的資產。</li>
 <li><strong>Dynamic Media轉譯</strong>：挑選並套用動態資產的影像轉譯，而不需離開選取器。</li>
@@ -140,13 +140,14 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的深層連結</strong><br/></th>
+<th><strong>電子郵件Designer中的深層連結</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過電子郵件設計工具中的專用選項，將深層連結新增至您的電子郵件內容。</p><p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
+<p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p>
+<p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月12日</p>
