@@ -11,25 +11,15 @@ level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: 1760
 ht-degree: 10%
 
 ---
@@ -96,6 +86,8 @@ ht-degree: 10%
 
 此外，還可使用搜尋列和篩選器，以便在清單中輕鬆搜尋。 例如，您可以篩選行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
+您也可以按一下大部分的欄標題來排序清單。 在資料夾檢視中，也支援依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 頻道組態]**&#x200B;欄進行排序和篩選。
+
 ## Campaign作業 {#operations}
 
 行銷活動詳細目錄中的![影像顯示「更多動作」按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕，可讓您執行各種作業。
@@ -120,6 +112,10 @@ ht-degree: 10%
 **僅供協調的行銷活動使用：**
 
 * **[!UICONTROL 返回草稿]** — 取消發佈並將行銷活動還原為草稿狀態以進行錯誤復原。 當排程的行銷活動尚未開始，或在任何執行完成前即時行銷活動遇到錯誤時，此動作即可使用。 [進一步瞭解還原行銷活動→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### 大量動作 {#bulk-actions-campaigns}
+
+您可以一次選取多個行銷活動，並將大量作業套用至所有行銷活動。 可用的操作包括新增專案到封裝、將其移動到資料夾、編輯標籤、管理存取和刪除。 [深入瞭解大量動作→](../start/search-filter-categorize.md#bulk-actions)
 
 ## 瞭解行銷活動狀態 {#statuses}
 
@@ -260,7 +256,7 @@ ht-degree: 10%
 
 ## 刪除行銷活動 {#delete-a-campaign}
 
-若要刪除行銷活動，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除行銷活動，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取&#x200B;**[!UICONTROL 刪除]**。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -270,7 +266,7 @@ ht-degree: 10%
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 
