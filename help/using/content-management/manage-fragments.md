@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 19%
+source-wordcount: 1523
+ht-degree: 18%
 
 ---
 
@@ -72,6 +72,12 @@ ht-degree: 19%
 * 將片段移至資料夾。 [了解更多](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 大量動作 {#bulk-actions-fragments}
+
+您可以一次選取多個片段，並將大量作業套用至所有片段。 可用的操作包括新增專案到封裝、將其移動到資料夾、編輯標籤、管理存取和封存。 [深入瞭解大量動作→](../start/search-filter-categorize.md#bulk-actions)
+
+您也可以按一下任何欄標題來排序片段清單，以及拖曳欄邊框以符合您需要的資料來調整欄大小。
 
 ## 使用資料夾管理片段 {#folders}
 

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: 1760
 ht-degree: 10%
 
 ---
@@ -96,6 +96,8 @@ ht-degree: 10%
 
 此外，還可使用搜尋列和篩選器，以便在清單中輕鬆搜尋。 例如，您可以篩選行銷活動，以僅顯示與指定頻道或標籤相關聯的行銷活動，或顯示在特定日期範圍內建立的行銷活動。
 
+您也可以按一下大部分的欄標題來排序清單。 在資料夾檢視中，也支援依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 頻道組態]**&#x200B;欄進行排序和篩選。
+
 ## Campaign作業 {#operations}
 
 行銷活動詳細目錄中的![影像顯示「更多動作」按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕，可讓您執行各種作業。
@@ -120,6 +122,10 @@ ht-degree: 10%
 **僅供協調的行銷活動使用：**
 
 * **[!UICONTROL 返回草稿]** — 取消發佈並將行銷活動還原為草稿狀態以進行錯誤復原。 當排程的行銷活動尚未開始，或在任何執行完成前即時行銷活動遇到錯誤時，此動作即可使用。 [進一步瞭解還原行銷活動→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### 大量動作 {#bulk-actions-campaigns}
+
+您可以一次選取多個行銷活動，並將大量作業套用至所有行銷活動。 可用的操作包括新增專案到封裝、將其移動到資料夾、編輯標籤、管理存取和刪除。 [深入瞭解大量動作→](../start/search-filter-categorize.md#bulk-actions)
 
 ## 瞭解行銷活動狀態 {#statuses}
 

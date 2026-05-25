@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
-ht-degree: 14%
+source-wordcount: 2197
+ht-degree: 13%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 14%
 ![](assets/title-body.png)
 
 若要撰寫訊息，請按一下&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 內文]**&#x200B;欄位。 使用個人化編輯器來定義內容、個人化資料及新增動態內容。 進一步瞭解個人化編輯器中的[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)。
+
+您也可以輸入`{{`，直接在&#x200B;**[!UICONTROL Title]**&#x200B;與&#x200B;**[!UICONTROL Body]**&#x200B;欄位中插入內嵌設定檔屬性。 自動完成下拉式清單會在游標處開啟 — 選取任何屬性以將其插入為個人化權杖，而不開啟完整編輯器。 [深入瞭解內嵌編輯→](../personalization/personalize.md#inline-personalization)
 
 使用裝置預覽區段來視覺化推播通知在iOS、Android和Web上的顯示方式。
 
@@ -65,10 +67,14 @@ ht-degree: 14%
 * **[!UICONTROL 深層連結]**：將使用者導向應用程式內的特定內容，例如特定檢視、頁面區段或索引標籤。 在提供的欄位中輸入深層連結URL。
 * **[!UICONTROL 網頁URL]**：將使用者導向至外部網頁。 在提供的欄位中輸入目的地URL。
 
-  >[!NOTE]
-  >
-  >如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
-  >如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
+當任何連結或媒體欄位中的URL太長而無法顯示時，工具提示圖示將始終顯示在欄位旁 — 將滑鼠懸停在該欄位上可檢視完整的URL。
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
+>如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 新增媒體 {#add-media-push}
 

@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ ht-degree: 25%
 
   +++
 
+### 可用性改善 {#may-26-usability}
+
+以下可用性改良功能也於2026年5月發行。
+
+#### 清單
+
+* **大量動作** — 您現在可以在&#x200B;**行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單中一次選取多個專案，並從單一動作列執行大量作業，包括新增專案至封裝、將其移至資料夾、編輯標籤、管理存取權，以及封存或刪除專案。 [了解更多](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **排序和調整欄大小** - **行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單現在支援按一下任何欄標題來排序。 在「行銷活動」資料夾檢視中，也可依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 頻道設定]**&#x200B;進行排序和篩選。 **片段**&#x200B;和&#x200B;**範本**&#x200B;清單中的資料行寬度也是可調整大小的 — 拖曳資料行邊界以符合您最關心的資料。 [了解更多](../start/search-filter-categorize.md#filter-lists)
+
+#### 內容製作
+
+* **內嵌設定檔屬性編輯** — 您現在可以直接在電子郵件Designer中插入設定檔屬性運算式，而無需開啟完整的個人化編輯器。 在任何文字欄位中輸入`{{`以開啟內嵌自動完成下拉式清單，然後瀏覽並選取您需要的屬性 — 它會立即插入游標位置。 推播通道編輯器中也提供此功能。 [了解更多](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **推播通道編輯器中的連結URL工具提示** — 當任何連結或媒體欄位中的URL太長而無法顯示時，該欄位旁邊永遠會顯示工具提示圖示 — 將滑鼠游標停留在該欄位上可檢視完整的URL。 [了解更多](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## 即將推出 {#coming-soon}
 

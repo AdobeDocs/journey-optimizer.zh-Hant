@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: 900
 ht-degree: 3%
 
 ---
@@ -115,6 +115,12 @@ ht-degree: 3%
 >
 >編輯或刪除範本時，使用此範本建立的行銷活動或歷程（包括內容）不受影響。
 
+## 大量動作 {#bulk-actions-templates}
+
+您可以一次選取多個範本，並將大量作業套用至所有範本。 可用的操作包括新增專案到封裝、將其移動到資料夾、編輯標籤、管理存取和封存。 [深入瞭解大量動作→](../start/search-filter-categorize.md#bulk-actions)
+
+您也可以按一下大部分的欄標題來排序範本清單，以及拖曳欄框線以符合您需要的資料來調整欄大小。
+
 ## [!BADGE 有限可用性]{type=Informative}將範本顯示為縮圖 {#template-thumbnails}
 
 選取&#x200B;**[!UICONTROL 格線檢視]**&#x200B;模式，將每個範本顯示為縮圖。
@@ -135,7 +141,7 @@ ht-degree: 3%
 
 +++我在左側導覽中看不到「內容範本」功能表
 
-您的角色缺少&#x200B;**管理內容範本**&#x200B;許可權。 請要求您的系統管理員將具有&#x200B;**管理內容範本**&#x200B;許可權的&#x200B;**內容管理**&#x200B;資源新增到您的角色。 [進一步了解](../administration/permissions.md)
+您的角色缺少&#x200B;**管理內容範本**&#x200B;許可權。 請要求您的系統管理員將具有&#x200B;**管理內容範本**&#x200B;許可權的&#x200B;**內容管理**&#x200B;資源新增到您的角色。 [了解更多](../administration/permissions.md)
 
 +++
 

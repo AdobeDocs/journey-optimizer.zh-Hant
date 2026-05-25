@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 25%
+source-wordcount: '681'
+ht-degree: 23%
 
 ---
 
@@ -58,6 +58,18 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [瞭解如何使用Personalization運算式的AI小幫手](../content-management/generative-personalization-expressions.md)
+
+## 內嵌編輯設定檔屬性 {#inline-personalization}
+
+在&#x200B;**電子郵件Designer**&#x200B;或&#x200B;**推播通道**&#x200B;編輯器中編輯內容時，您可以直接插入設定檔屬性運算式，而不需開啟完整的個人化編輯器。
+
+若要這麼做，請依照以下步驟進行：
+
+1. 在任何文字欄位中輸入`{{`。 在游標位置會開啟內嵌自動完成下拉式清單。
+1. 開始輸入以篩選可用的設定檔屬性。
+1. 選取您需要的屬性 — 會以個人化權杖的形式插入游標位置。
+
+![](assets/inline-profile-attributes.png)
 
 ## 讓我們深入探討
 
