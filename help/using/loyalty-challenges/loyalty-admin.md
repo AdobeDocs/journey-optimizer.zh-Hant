@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 設定熟客方案
-description: 瞭解如何在Adobe [!DNL Journey Optimizer]中為您的忠誠計畫設定獎勵提供者、事件定義、產品詳細目錄、排除專案和組織層級設定。
+title: 設定忠誠度挑戰
+description: 瞭解如何在Adobe [!DNL Journey Optimizer]中設定忠誠度挑戰的獎勵提供者、事件定義、產品詳細目錄、排除和組織層級設定。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# 設定熟客方案 {#loyalty-admin}
+# 設定忠誠度挑戰 {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**忠誠度挑戰檔案：**
+**忠誠度挑戰檔案**
 
-* [開始應對忠誠度挑戰](get-started.md)
+[開始應對忠誠度挑戰](get-started.md)
+
++++建立和管理挑戰
+
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
-* **設定熟客方案** ◀︎ **您在這裡**
+
++++
+
++++設定和整合
+
+* **設定忠誠度挑戰** ◀︎ **您在這裡**
+* [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## 概觀 {#access-loyalty-admin}
 
-熟客方案設定會透過在行銷人員提出挑戰之前設定獎勵履行、事件對應、產品詳細目錄和排除，來將[!DNL Journey Optimizer]連線到您的外部熟客系統。
+「忠誠度挑戰」設定會透過在行銷人員撰寫挑戰之前設定獎勵履行、事件對應、產品詳細目錄和排除，將[!DNL Journey Optimizer]連線到您的外部忠誠度系統。
 
 >[!NOTE]
 >
->除了忠誠度挑戰所需的許可權之外，忠誠度計畫設定需要管理員存取您的[!DNL Journey Optimizer]執行個體。 請聯絡您的Adobe管理員以取得存取權。
+>除了忠誠度挑戰所需的許可權之外，忠誠度挑戰設定需要管理員存取您的[!DNL Journey Optimizer]執行個體。 請聯絡您的Adobe管理員以取得存取權。
 
 若要開啟設定介面，請瀏覽至&#x200B;**[!UICONTROL 忠誠度]**&#x200B;並選取&#x200B;**[!UICONTROL 忠誠管理員]**。 介面會整理為標籤：
 
@@ -59,9 +72,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="全域設定"
->abstract="全域設定可定義忠誠計畫的組織層級設定，包括用於識別事件和挑戰中成員的身分名稱空間。"
+>abstract="全域設定可定義忠誠度挑戰的組織層級設定，包括用於識別事件和挑戰中成員的身分名稱空間。"
 
-開啟&#x200B;**[!UICONTROL 全域設定]**&#x200B;標籤，並在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式清單中選取忠誠計畫的Adobe Experience Platform [身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。 此名稱空間必須符合在您的資料中識別成員設定檔的方式。
+開啟&#x200B;**[!UICONTROL 全域設定]**&#x200B;標籤，並在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式清單中選取Adobe Experience Platform [身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)以利忠誠度挑戰。 此名稱空間必須符合在您的資料中識別成員設定檔的方式。
 
 ![](assets/admin-global-settings.png)
 

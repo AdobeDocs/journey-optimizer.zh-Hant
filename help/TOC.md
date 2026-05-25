@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
 source-wordcount: '3330'
 ht-degree: 95%
@@ -144,7 +144,7 @@ ht-degree: 95%
    + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[設定熟客方案](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[忠誠度資料和資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
    + {hide-from-toc}[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 行銷活動 {#campaigns}
    + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)

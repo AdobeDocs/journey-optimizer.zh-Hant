@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 15%
+source-wordcount: '854'
+ht-degree: 14%
 
 ---
 
@@ -22,15 +22,26 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-**忠誠度挑戰檔案：**
+**忠誠度挑戰檔案**
 
-* **開始解決忠誠度挑戰** ◀︎ **您在這裡**
+**[開始解決忠誠度挑戰](get-started.md)** ◀︎ **您在這裡**
+
++++建立和管理挑戰
+
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++設定和整合
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +85,6 @@ ht-degree: 15%
 ## 運作方式 {#how-it-works}
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
-
-<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別(標準、條紋、循序或自備資料（可用時）)和日期範圍。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
 
