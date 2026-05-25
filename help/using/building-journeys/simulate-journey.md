@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 >[!IMPORTANT]
 >
->您需要&#x200B;**模擬歷程**&#x200B;許可權才能存取&#x200B;**[!UICONTROL 模擬]**&#x200B;功能。 [了解更多](../administration/permissions.md)
+>您至少需要下列其中一個許可權才能存取&#x200B;**[!UICONTROL 模擬]**&#x200B;功能： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 [了解更多](../administration/permissions.md)
 
 模擬使用者是您在&#x200B;**[!UICONTROL 模擬設定]**&#x200B;中定義的臨時設定檔實體。 本節涵蓋如何從UI或JSON檔案建立檔案、儲存檔案以供重複使用、從清單中調整或移除檔案，以及將其傳送至歷程中。
 
