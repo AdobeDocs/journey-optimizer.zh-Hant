@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ ht-degree: 18%
 
 #### 內容製作
 
-* **內嵌設定檔屬性編輯** — 您現在可以直接在電子郵件Designer中插入設定檔屬性運算式，而無需開啟完整的個人化編輯器。 在任何文字欄位中輸入`{{`以開啟內嵌自動完成下拉式清單，然後瀏覽並選取您需要的屬性 — 它會立即插入游標位置。 推播通道編輯器中也提供此功能。 [了解更多](../personalization/personalize.md#inline-personalization)
+* **內嵌設定檔屬性編輯** — 電子郵件Designer中的內嵌設定檔屬性編輯最初於4月發行。 在5月發行版本中，此功能已從AI助理分離出來，並延伸至推播通道編輯器。 [了解更多](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
