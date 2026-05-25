@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ ht-degree: 19%
 
 ### 行銷活動 {#may-26-campaigns}
 
-預計未來幾天或幾週會有以下行銷活動改良專案。
-
 +++ 即將推出 — **下列資訊可能會變更。**
 
 * **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。
@@ -432,8 +430,6 @@ ht-degree: 19%
 
 ### 管理 {#may-26-admin}
 
-未來幾天或幾週預計會有以下管理改善專案。
-
 +++ 即將推出 — **下列資訊可能會變更。**
 
 * **歷程和行銷活動的資料夾** — 您現在可以將歷程和行銷活動整理到資料夾中，以改善介面中的導覽和管理。
@@ -447,8 +443,6 @@ ht-degree: 19%
 +++
 
 ### 報告 {#may-26-reporting}
-
-預計未來幾天或幾週將有以下報告改進。
 
 +++ 即將推出 — **下列資訊可能會變更。**
 
