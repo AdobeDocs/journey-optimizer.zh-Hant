@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 hide: true
-source-git-commit: 11affd8bc53f614941f0dd79e970ae8d1117ee44
+source-git-commit: 779f87fbf56ea69f1128dc9507fefa9abba65b79
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 0%
