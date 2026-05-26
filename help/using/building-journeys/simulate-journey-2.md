@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您需要&#x200B;**模擬歷程**&#x200B;許可權才能存取&#x200B;**[!UICONTROL 模擬]**&#x200B;功能。 [了解更多](../administration/permissions.md)
+>您至少需要下列其中一個許可權才能存取&#x200B;**[!UICONTROL 模擬]**&#x200B;功能： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 [了解更多](../administration/permissions.md)
 
 模擬使用者是您在&#x200B;**[!UICONTROL 模擬設定]**&#x200B;中定義的臨時設定檔實體。 本節說明如何建立範本、儲存範本以供重複使用、從清單中調整或移除範本，以及將範本傳送至歷程。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    +++
 
-1. 您建立的模擬使用者會顯示在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中。 針對每個專案，開啟選項功能表並選取下列其中一項：
+1. 您建立的模擬使用者會顯示在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中。 針對每個專案，選取下列其中一項：
 
    * ![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg)：更新模擬使用者的詳細資料。
    * ![傳送圖示](assets/do-not-localize/Smock_Send_18_N.svg)：僅針對這個模擬的使用者執行模擬。
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 如果您的歷程包含&#x200B;**[!UICONTROL 等待]**&#x200B;活動，請開啟&#x200B;**[!UICONTROL 測試設定]**&#x200B;索引標籤以微調模擬期間等待的時間長度。 例如，如果即時&#x200B;**[!UICONTROL 等待]**&#x200B;活動設定了數天，您可以將其覆寫為10秒，以便模擬使用者在移至下一個活動之前只在節點上花費那段時間。
 
-1. 按一下&#x200B;**[!UICONTROL 全部傳送]**&#x200B;以將清單中的每個模擬使用者傳送至歷程，或按一下資料列上的![傳送圖示](assets/do-not-localize/Smock_Send_18_N.svg)以僅傳送該使用者。 當模擬的使用者成功進入歷程時，會出現`Simulated users have been sent successfully.`確認訊息。
+1. 按一下&#x200B;**[!UICONTROL 全部傳送]**&#x200B;以將清單中的每個模擬使用者傳送至歷程，或按一下資料列上的![傳送圖示](assets/do-not-localize/Smock_Send_18_N.svg)以僅傳送該使用者。 當模擬的使用者成功進入歷程時，會出現`Simulated users have entered the journey successfully.`確認訊息。
 
    ![模擬的使用者選擇面板](assets/simulate-5-2.png)
 
