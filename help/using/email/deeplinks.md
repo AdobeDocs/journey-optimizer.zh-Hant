@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # 在電子郵件和簡訊中使用及設定深層連結 {#deeplinks}
 
-深層連結可協助您將電子郵件或簡訊訊息的收件者帶至行動應用程式中的特定畫面或內容片段。 它有助於引導人們直接使用預期的應用程式內體驗，而不需透過網頁瀏覽器或應用程式商店路由，讓歷程保持在相關性和品牌上。
+深層連結可協助您將收件者從電子郵件或簡訊訊息帶至行動應用程式中的特定畫面或內容片段。 它有助於引導人們直接使用預期的應用程式內體驗，而不需透過網頁瀏覽器或應用程式商店路由，讓歷程保持在相關性和品牌上。
 
-收件者按一下深層連結時，會直接導向至預期的應用程式內內容 — **前提是您已完成**：
+收件者按一下深層連結時，就會直接導向至預期的應用程式內內容 — **假設您已完成**：
 
 * Journey Optimizer中的[設定步驟](#configuration)；
 
@@ -28,15 +28,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer]支援使用追蹤的URL (`/ee/v1/mclick/*`)對iOS和Android進行深層連結，以確保相容性和點選追蹤。
+>[!DNL Adobe Journey Optimizer]支援使用追蹤的URL (`/ee/v1/mclick/*`)深層連結iOS和Android，以確保相容性和點選追蹤。
 
-## 製作深層連結 {#authoring}
+## 編寫深層連結 {#authoring}
 
 ### 電子郵件 {#authoring-email}
 
-對於電子郵件訊息，有兩個選項可插入深層連結：
+對於電子郵件訊息，您有兩個選項可插入深層連結：
 
-* **電子郵件Designer**：確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的[插入連結] **，然後選擇[深層連結]**&#x200B;以輸入深層連結URL。 **&#x200B;**&#x200B;[進一步瞭解插入連結](message-tracking.md#insert-links)
+* **電子郵件Designer**：確定[連結追蹤已啟用](message-tracking.md#enable-tracking)。 選取您要連結的元素（文字、按鈕或影像），按一下內容工具列中的&#x200B;**[!UICONTROL 插入連結]**，然後選擇&#x200B;**[!UICONTROL 深層連結]**&#x200B;以輸入深層連結URL。 [進一步瞭解插入連結](message-tracking.md#insert-links)
 
 * **Personalization編輯器（程式碼）**：使用下列程式碼片段，將深層連結直接插入HTML：
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ### 簡訊 {#authoring-sms}
 
-對於SMS，深層連結是使用個人化編輯器中的&#x200B;**Url**&#x200B;協助程式功能來撰寫。 在[本節](../mobile/create-mobile-message.md#sms-content)中進一步瞭解新增簡訊內容的連結。
+對於SMS，深層連結是使用個人化編輯器中的&#x200B;**Url**&#x200B;協助程式功能來撰寫。 在[本節](../mobile/design-mobile.md#sms-content)中進一步瞭解新增簡訊內容的連結。
 
 若要在SMS內容中插入深層連結，請使用下列語法：
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-將`<<url>>`取代為您的實際深層連結URL。
+將`<<url>>`取代為您實際的深層連結URL。
 
 ## Journey Optimizer中的設定 {#configuration}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->當您的訊息在[電子郵件追蹤設定](message-tracking.md#enable-tracking)或SMS促銷活動的&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中啟用連結追蹤時，透過Adobe基礎結構的深層連結適用。 追蹤的深層連結點選使用`/ee/v1/mclick/*`下的URL，Adobe會託管並解析。
+>透過Adobe基礎結構的深層連結適用於為訊息啟用連結追蹤時 — 在[電子郵件追蹤設定](message-tracking.md#enable-tracking)中或在SMS促銷活動的&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中。 追蹤的深層連結點選使用`/ee/v1/mclick/*`下的URL，由Adobe代管並解析。
 >
 >對於&#x200B;**個未追蹤的**&#x200B;連結，不會透過Adobe系統重新寫入URL。 您必須在自己的網域和託管上設定通用連結或應用程式連結，讓這些連結可依預期開啟您的應用程式。
 
@@ -265,8 +265,8 @@ ht-degree: 1%
 * **使用穩定路徑**：偏好可復原應用程式UI變更的路由（例如`/account/orders`而非`/tab/3/view/2`）。
 * **將追蹤的路徑列入帳戶**：啟用連結追蹤時，點按的連結可能會使用追蹤的路徑模式（例如`/ee/v1/mclick/`）。 請確定您的路由器可在解析追蹤的連結後剖析最終URL。
 * **讓引數維持可預測**：定義一致的引數配置（例如`?orderId=12345`）。
-* **避免URL中的敏感資料**：請勿將機密或個人資料直接放入深層連結URL。
-* **測試您的深層連結**：傳送校樣，然後按一下已安裝應用程式之裝置上的深層連結。
+* **避免URL中的敏感資料**：請勿將機密或個人資料直接放入深層連結URL中。
+* **測試您的深層連結**：傳送證明，然後按一下已安裝應用程式之裝置上的深層連結。
 * **在真實裝置上進行驗證**：在實體裝置上進行驗證時，通用連結和追蹤連結解析行為會比在模擬器上更可靠。
 * **驗證應用程式端路由**：如果深層連結未開啟預期的畫面，請驗證應用程式端路由和URL格式（主機/路徑/查詢和URL編碼）。
 * **請記得應用程式初始化**：應用程式連結/通用連結行為在安裝及開啟應用程式至少一次後最為可靠。
@@ -313,11 +313,11 @@ ht-degree: 1%
 
 +++ 我有一個應用程式，但組織的子網域不同。 我是否應該要求為每個子網域建立AASA和assetLinks.json？
 
-是。 如果您想要在每個委派的子網域上進行深層連結，請要求支援此功能的每個子網域的AASA和`assetlinks.json`設定。
+有。 如果您想要在每個委派的子網域上建立深層連結，請為應該支援此功能的每個子網域要求AASA和`assetlinks.json`設定。
 
 +++
 
-+++ 我設定的URL是否應該使用深層連結格式（例如`appname://path`）？
++++ 我設定的URL是否應使用深層連結格式（例如`appname://path`）？
 
 您可以使用自訂URL配置（例如`appname://path`），但建議的方法是通用連結或應用程式連結(`https://`)，符合此頁面設定與實作區段中的HTTPS設定。
 

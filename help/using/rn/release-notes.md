@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -366,7 +366,9 @@ ht-degree: 18%
 
 * **簡訊傳入至自訂資料集** - 在&#x200B;**簡訊 API 認證**&#x200B;中，將&#x200B;**傳入簡訊**&#x200B;路由至您選取的&#x200B;**自訂、已啟用輪廓的體驗事件資料集**，而非僅預設追蹤資料集。 [閱讀全文](../mobile/mobile-webhook.md)
 
-* **Webhook 介面增強功能** - 在設定簡訊 Webhook 時，使用者介面現在包含內建的設定指南，其中包含實用的範例，可讓您更輕鬆地調整提供者裝載並疑難排解問題，而無需離開設定流程。 [閱讀全文](../mobile/mobile-webhook.md)
+* **Webhook 介面增強功能** - 在設定簡訊 Webhook 時，使用者介面現在包含內建的設定指南，其中包含實用的範例，可讓您更輕鬆地調整提供者裝載並疑難排解問題，而無需離開設定流程。 [閱讀更多](../mobile/mobile-webhook.md)
+
+* **SMS內容中的深層連結** — 現在可以使用Url協助程式函式將深層連結新增到您的SMS內容。 這可確保直接將收件者帶入預期的應用程式內內容，無需透過網頁瀏覽器或應用程式商店路由。 [閱讀更多](../email/deeplinks.md)
 
 ### WhatsApp 頻道 {#may-26-whatsapp}
 

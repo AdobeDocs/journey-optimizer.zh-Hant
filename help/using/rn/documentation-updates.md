@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 90%
 
 * **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**頻道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
 
-* **重要術語**&#x200B;頁面已改寫：新增6個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;去除混淆指南，用於四個常混淆術語配對。 已移除Adobe Experience Platform特定辭彙，並取代為連結至Adobe Experience Platform字彙表的附註。 [閱讀全文](../start/terminology.md)
+* **重要術語**&#x200B;頁面已改寫：新增6個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;去除混淆指南，用於四個常混淆術語配對。 已移除Adobe Experience Platform特定辭彙，並取代為連結至Adobe Experience Platform字彙表的附註。 [閱讀更多](../start/terminology.md)
 
-* **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀全文](../email/deeplinks.md)
+* **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀更多](../email/deeplinks.md)
 
 * **Url**&#x200B;協助程式參考已在Personalization檔案中以專屬區段更新。 [閱讀全文](../personalization/functions/helpers.md#url)
 

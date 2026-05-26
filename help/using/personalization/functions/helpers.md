@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 4%
 
 ---
@@ -218,7 +218,7 @@ Some edu specific content
 
 ## Url {#url}
 
-`url`協助程式可用來追蹤連結、縮短URL並在您的SMS訊息內容中插入[深層連結](../../email/deeplinks.md)。
+`url`協助程式可用來追蹤連結、縮短URL，以及在您的SMS訊息內容中插入[深層連結](../../email/deeplinks.md)。
 
 **語法**
 

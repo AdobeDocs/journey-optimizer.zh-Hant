@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[中進一步瞭解Adobe Journey Optimizer個人化編輯器](../personalization/personalize.md)中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
 
 +++更多具有進階格式的選項
 

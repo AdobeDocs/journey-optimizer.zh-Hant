@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2537'
 ht-degree: 2%
 
 ---
@@ -464,7 +464,7 @@ ht-degree: 2%
         <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>使用沙箱登入中的作用中機碼，在轉譯時加密URL查詢引數的運算式值 </td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-function">Url</a></td><td>此函式處理SMS訊息內容中的URL；將它與<code>originalUrl</code>搭配使用以縮短URL，並與<code>type='DEEPLINK'</code>一起插入深層連結</td>
+        <td><a href="helpers.md#url-function">Url</a></td><td>此函式處理SMS訊息內容中的URL；將其與<code>originalUrl</code>搭配使用以縮短URL，並將<code>type='DEEPLINK'</code>插入深層連結</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">替換為</a></td><td>此函式用於變更範本部分的評估權杖</td>
