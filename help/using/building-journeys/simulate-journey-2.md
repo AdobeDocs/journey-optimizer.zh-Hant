@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 hide: true
-source-git-commit: 779f87fbf56ea69f1128dc9507fefa9abba65b79
+source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 0%
@@ -103,7 +103,7 @@ ht-degree: 0%
 
       ![模擬的使用者選擇面板](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    ![模擬的使用者選擇面板](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![模擬的使用者選擇面板](assets/simulate-manage.png)
 
