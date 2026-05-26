@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 >[!DNL Adobe Journey Optimizer]支援使用追蹤的URL (`/ee/v1/mclick/*`)深層連結iOS和Android，以確保相容性和點選追蹤。
 
 ## 編寫深層連結 {#authoring}
+
+>[!CAUTION]
+>
+>除非您已完成此頁面上的[設定](#configuration)和[行動應用程式實作](#mobile-implementation)步驟，否則深層連結無法運作。
 
 ### 電子郵件 {#authoring-email}
 

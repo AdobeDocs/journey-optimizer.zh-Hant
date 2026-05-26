@@ -29,10 +29,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: 2973
-ht-degree: 18%
+source-wordcount: 3012
+ht-degree: 17%
 
 ---
 
@@ -327,8 +327,8 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。</p>
-<p>這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
+<p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。 這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
+<p>請注意，雖然「深層連結」選項可供所有客戶使用，但深層連結只有在您已完成必要設定和行動應用程式實施步驟時才有效。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年5月12日</p>
@@ -368,7 +368,7 @@ ht-degree: 18%
 
 * **Webhook 介面增強功能** - 在設定簡訊 Webhook 時，使用者介面現在包含內建的設定指南，其中包含實用的範例，可讓您更輕鬆地調整提供者裝載並疑難排解問題，而無需離開設定流程。 [閱讀更多](../mobile/mobile-webhook.md)
 
-* **SMS內容中的深層連結** — 現在可以使用Url協助程式函式將深層連結新增到您的SMS內容。 這可確保直接將收件者帶入預期的應用程式內內容，無需透過網頁瀏覽器或應用程式商店路由。 [閱讀更多](../email/deeplinks.md)
+* **SMS內容中的深層連結** — 現在可以使用Url協助程式函式將深層連結新增到您的SMS內容。 這可確保直接將收件者導向至預期的應用程式內內容，無需透過網頁瀏覽器或應用程式商店路由，前提是您已完成必要的設定和行動應用程式實施步驟。 [閱讀更多](../email/deeplinks.md)
 
 ### WhatsApp 頻道 {#may-26-whatsapp}
 
