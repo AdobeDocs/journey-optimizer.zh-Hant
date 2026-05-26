@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 100%
+source-wordcount: 1587
+ht-degree: 96%
 
 ---
 
@@ -414,3 +414,11 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="journeyExpAI"
 >title="運算式助理"
 >abstract="使用運算式助理，在 Journey Optimizer 中產生並調整運算式。"
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="載入檔案活動"
+>abstract="**載入檔案**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 使用它在「協調的行銷活動」畫布上傳CSV或TXT檔案，並將其當作行銷活動對象。 檔案資料在執行時消耗，且不會儲存為Adobe Experience Platform資料集。 使用身分欄和目標維度，將列調解至現有的收件者。"
