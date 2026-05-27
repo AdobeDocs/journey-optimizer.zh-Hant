@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ ht-degree: 1%
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  將`<<deeplink_url>>`取代為您實際的深層連結URL，並為每個區塊使用唯一的`id`以避免衝突。
+  >[!TIP]
+  >
+  >將`<<deeplink_url>>`取代為您實際的深層連結URL，並為每個區塊使用唯一的`id`以避免衝突。
+
 
 ### 簡訊 {#authoring-sms}
 
-對於SMS，深層連結是使用個人化編輯器中的&#x200B;**Url**&#x200B;協助程式功能來撰寫。 在[本節](../mobile/design-mobile.md#sms-content)中進一步瞭解新增簡訊內容的連結。
+對於SMS，深層連結是使用個人化編輯器中的[Url](../personalization/functions/helpers.md#url)協助程式功能來撰寫。 在[本節](../mobile/design-mobile.md#sms-content)中瞭解如何新增簡訊內容的連結。
 
 若要在SMS內容中插入深層連結，請使用下列語法：
 
@@ -60,7 +63,9 @@ ht-degree: 1%
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-將`<<url>>`取代為您實際的深層連結URL。
+>[!TIP]
+>
+>將`<<url>>`取代為您實際的深層連結URL。
 
 ## Journey Optimizer中的設定 {#configuration}
 
@@ -74,7 +79,7 @@ ht-degree: 1%
 
 1. 在您的子網域上託管iOS的AASA檔案和Android的assetLinks.json檔案。 請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，並提供下列詳細資料：
 
-   * 針對iOS (AASA)**&#x200B;**：
+   * 針對iOS (AASA)****：
       * 委派的子網域
       * 應用程式套件組合ID
    * **若為Android (assetLinks.json)**：
@@ -338,3 +343,4 @@ ht-degree: 1%
 連結會在裝置的預設網頁瀏覽器中開啟（標準點選追蹤行為），而非透過本頁面所述的`mclick`流程以應用程式深層連結處理。
 
 +++
+
