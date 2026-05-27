@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>透過簡訊管道，您現在可以傳送多媒體訊息服務 (MMS) 訊息，來與客戶分享影像、GIF 或影片，藉此增強通訊交流。 請注意，目前只有 Sinch 提供此功能。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../mobile/create-mobile-message.md#mms-content">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile/create-mobile-message.md#mms-content">詳細文件</a>以瞭解詳情。</p>
 </tr>
 </tbody>
 </table>
@@ -183,7 +183,7 @@ ht-degree: 99%
 
 **決策管理**
 
-* 現已推出用於建立和管理決策管理物件的新 API。 這些 API 可以提升效能並增強使用者體驗。 舊版 API 支援將持續至 2024 年 3 月 27 日為止。 [進一步了解](../offers/api-reference/getting-started.md)
+* 現已推出用於建立和管理決策管理物件的新 API。 這些 API 可以提升效能並增強使用者體驗。 舊版 API 支援將持續至 2024 年 3 月 27 日為止。 [了解更多](../offers/api-reference/getting-started.md)
 
 **個人化**
 
@@ -272,7 +272,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>現在您可在 Journey Optimizer 中建立和管理種子清單。 種子清單包含內部地址 (可以新增到實際客群) 並在傳送執行時收到與目標輪廓完全相同的訊息。 使用此功能可監視所傳送的通訊，並確保所有顯示格式、URL、影像和連結均正確無誤。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/seed-lists.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -306,7 +306,7 @@ table>
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content#tag/Content-fragment-API){target="_blank"}.
 -->
 
 <!--
@@ -318,7 +318,7 @@ A new option is available in the email surface settings to include email address
 **歷程**
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。 此功能目前以 Beta 的形式提供。 [了解更多](../action/action-response.md)。
-* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。 [了解更多](../reports/alerts.md)。
+* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。 [了解更多資訊](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Personalized Optimization AI 排名模型現在通常可在決策管理中使用。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>使用<strong>瀏覽</strong>標籤來存取所有歷程的清單。</li></ul>
 <p>此功能可在公開測試版的所有歷程中使用。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-gs.md#journey-access">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -802,7 +802,7 @@ Information below is subject to change without prior notice until the release av
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。 使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。 [了解更多](../configuration/external-systems.md#timeout)
 * 讀取客群活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。 透過外部工具傳送的事件不會納入考量。 [進一步了解](../building-journeys/testing-the-journey.md)
+* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。 透過外部工具傳送的事件不會納入考量。 [了解更多](../building-journeys/testing-the-journey.md)
 
 
 <!--
@@ -825,7 +825,7 @@ Information below is subject to change without prior notice until the release av
 
 * 您也可以選擇應查看哪個 Adobe Experience Platform 事件以設定 Offer Decisioning 上限。 [了解更多](../offers/offer-library/add-constraints.md#capping)
 
-* 已在版位建立畫面中新增其他參數。 它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [進一步了解](../offers/offer-library/creating-placements.md)
+* 已在版位建立畫面中新增其他參數。 它們可讓您控制某個活動內容是否可在多個版位之間複製，以及指定是否應將該活動內容的內容與中繼資料包含在 API 回應中。 [了解更多](../offers/offer-library/creating-placements.md)
 
 **個人化**
 
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>您現在可以與雲端儲存空間位置建立即時連線，以匯出資料集的內容。 可用目的地包括：Amazon S3 雲端儲存空間、 Azure Blob、Azure Data Lake Gen 2、資料登陸區、Google 雲端儲存空間、SFTP。</p>
 <p><strong>注意</strong> - 此功能目前為測試版，所有 Adobe Journey Optimizer 使用者都能使用。 如果您尚未擁有存取權，請與 Adobe 代表合作，取得目的地的存取權。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../data/export-datasets.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -933,7 +933,7 @@ Note that each widget can be resized and deleted as needed.
 
 * 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 [了解更多](../building-journeys/journey-properties.md#entrance)
 
-* 改進了&#x200B;**歷程開始與結束日期**。 如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。 針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [進一步了解](../building-journeys/journey-gs.md#dates)
+* 改進了&#x200B;**歷程開始與結束日期**。 如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。 針對&#x200B;**讀取客群**&#x200B;歷程，您現在可以新增結束日期。 這可讓輪廓在達到日期時自動退出。 [了解更多](../building-journeys/journey-gs.md#dates)
 
 <!--
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **電子郵件介面** - 電子郵件介面設定已新增額外檢查：如果&#x200B;**回覆 (電子郵件) 地址**&#x200B;或 **密件副本電子郵件地址**&#x200B;未正確設定，則無法再建立電子郵件介面。 您必須已設定或使用其他設定。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
+* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [了解更多](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -1030,7 +1030,7 @@ Note that each widget can be resized and deleted as needed.
 
 **行銷活動**
 
-* 現可自動產生允許執行 API 觸發行銷活動的 cURL 請求範例，並可在行銷活動畫面使用。 [進一步了解](../campaigns/api-triggered-campaigns.md)
+* 現可自動產生允許執行 API 觸發行銷活動的 cURL 請求範例，並可在行銷活動畫面使用。 [了解更多](../campaigns/api-triggered-campaigns.md)
 
 
 **個人化**
