@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM，內容片段，管理，存放庫，驗證，作者，發佈
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 1. 按一下&#x200B;**[!UICONTROL 建立整合]**。
 
    ![](assets/aem-admin-settings-1.png)
+
+1. 如果您使用&#x200B;**[!DNL Adobe Experience Manager Managed Services]**，請在&#x200B;**[!UICONTROL 自訂AMS存放庫ID]**&#x200B;欄位中輸入以`adobecqms.net`結尾的存放庫主機名稱。
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. 選擇要設定的存放庫，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
@@ -76,9 +80,19 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
    +++
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 完成執行個體設定後，請挑選內容片段以確認整合可正常運作。
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. 在&#x200B;**內容警告器**&#x200B;視窗中，選取您要測試的片段，然後按一下&#x200B;**[!UICONTROL 選取]**。
+
+1. 按一下「**[!UICONTROL 儲存]**」。
+
+1. 當您儲存並選取測試內容片段時，驗證會自動執行。 如果驗證失敗，會顯示錯誤清單，以便您修正設定。
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. 若要編輯或停用此存放庫整合，請從&#x200B;**[!UICONTROL AEM整合]**&#x200B;功能表存取您先前建立的設定。
 
-儲存時，該沙箱會使用存放庫作為內容片段選擇器和&#x200B;**Adobe Experience Manager內容顧問**。
+儲存此設定時，Journey Optimizer會將該存放庫的設定儲存在目前的沙箱中。 然後，在&#x200B;**內容建議程式**&#x200B;選取器中瀏覽及選取內容時，您可以使用該存放庫及其設定。
 
