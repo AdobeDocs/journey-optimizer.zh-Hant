@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1627
 ht-degree: 1%
 
 ---
@@ -163,6 +163,17 @@ ht-degree: 1%
    ![](assets/fragment-expression-use.png)
 
 ## 將RTF文字新增至可自訂的片段 {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="舊版片段"
+>abstract="此片段中的可編輯欄位處於純文字模式。 在您轉換之前，使用者只能在電子郵件中編輯此片段時輸入純文字，不支援粗體、斜體、超連結和分行符號等RTF文字。 按一下元件上的<b>轉換</b>，將其升級為HTML相容模式。"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="舊版片段"
+>abstract="此可自訂片段中的可編輯欄位僅供文字使用。 RTF格式（粗體、斜體、超連結、分行符號等） 在片段作者使用片段編輯器中的<b>轉換</b>按鈕將片段升級為與HTML相容的模式之前，電子郵件Designer中無法使用。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="自訂片段中的可編輯欄位"
 
 RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新增到可自訂的片段中。 若要執行此操作，請遵循下列步驟。
 <!--
