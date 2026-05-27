@@ -14,7 +14,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 11%
@@ -167,7 +167,7 @@ ht-degree: 11%
 
 建立資料集後，您必須針對協調的行銷活動明確啟用資料集。 此步驟將確保您的資料集可用於 Adobe Journey Optimizer 中的即時協調流程與個人化。
 
-請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
+請參閱[Adobe Developer檔案](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset#tag/DatasetEnablement)，驗證或啟用資料集上的「協調的行銷活動延伸」。
 
 1. 在&#x200B;**[!UICONTROL 資料集]**&#x200B;清單中找出您的資料集。
 

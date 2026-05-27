@@ -21,10 +21,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 293
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 41%
 
 API觸發的行銷活動可讓行銷通訊在適當的時間聯絡對象，或讓交易/營運訊息聯絡個人，例如重設密碼，其中需求可能涉及使用設定檔屬性以及觸發程式中的即時內容資料（即REST API裝載）的個人化。
 
-若要這麼做，您必須先在Journey Optimizer中建立API觸發的行銷活動，然後使用[互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution)，透過API呼叫來啟動其執行。
+若要這麼做，您必須先在Journey Optimizer中建立API觸發的行銷活動，然後使用[互動式訊息執行REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution)，透過API呼叫來啟動其執行。
 
 ➡️ [在影片中探索此功能](#video)
 
