@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 90%
 
 * **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀更多](../email/deeplinks.md)
 
-* **Url**&#x200B;協助程式參考已在Personalization檔案中以專屬區段更新。 [閱讀全文](../personalization/functions/helpers.md#url)
+* **Url**&#x200B;協助程式參考已在Personalization檔案中以專屬區段更新。 [閱讀更多](../personalization/functions/helpers.md#url)
+
+* **執行中繼資料**&#x200B;協助程式檔案已新增限制：傳入頻道（網頁、程式碼型體驗、應用程式內訊息、內容卡）不支援該函式。 [閱讀更多](../personalization/functions/helpers.md#execution-metadata)
 
 * 已新增新的&#x200B;**Personalization配方**&#x200B;頁面，為Journey Optimizer中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間配方（目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測）、字串配方（搭配變數指派使用`replaceAll`）以及條件式備援配方（使用`isEmpty`的空白欄位備援）。 [閱讀全文](../personalization/personalization-recipes.md)
 
