@@ -5,16 +5,12 @@ title: 使用載入檔案活動
 description: 瞭解如何使用載入檔案活動，在CSV或TXT檔案中鎖定協調行銷活動對象，而不將檔案擷取至Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +37,6 @@ ht-degree: 2%
 * 每個檔案最多可上傳50 MB。
 * 僅支援平面結構的CSV和TXT檔案。
 * 行銷活動執行時會使用上傳的資料，而不會儲存為Adobe Experience Platform資料集。
-* 每一列都必須與您選取之目標維度的現有收件者相符。 載入檔案活動不會從檔案建立新的設定檔。
 
 如需頻道和畫布活動的限制，請參閱[護欄和限制](../guardrails.md#activities-limitations)。
 
