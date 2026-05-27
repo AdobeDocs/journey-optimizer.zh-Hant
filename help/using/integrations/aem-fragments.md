@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 0%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 0%
 Adobe Journey Optimizer工作流程中的現有&#x200B;**資產選擇器**&#x200B;和&#x200B;**內容片段選擇器**&#x200B;體驗正在由&#x200B;**內容顧問**&#x200B;取代。 內容警告器提供AI支援的統一介面，以便直接在AJO編寫工作流程中探索和選取Assets、內容片段和Dynamic Media。 在轉換期間，現有的整合功能可繼續運作。
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此整合僅適用於&#x200B;**內容片段**，適用於&#x200B;**Adobe Experience Manager as a Cloud Service網站**。 Journey Optimizer會從&#x200B;**發佈**&#x200B;層（非Author）讀取片段。
 
 Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料流程：
 

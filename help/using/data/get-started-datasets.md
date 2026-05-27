@@ -29,10 +29,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 96%
+source-wordcount: 1041
+ht-degree: 92%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 96%
 * 報告
 
    * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。
-   * _報告 - 電子郵件追蹤體驗事件資料集_：用於報告與客群建立目的使用之電子郵件頻道的互動記錄。 儲存的資訊會通知終端使用者在電子郵件執行的動作 (開啟、按一下等)。
+   * _報告 — 電子郵件追蹤體驗事件資料集_： `whatsAppChannelContext`欄位群組下電子郵件管道和WhatsApp管道內容資料的互動記錄。 用於報告和建立對象。 儲存的資訊包括一般使用者在電子郵件上執行的動作（開啟、點按等） 和WhatsApp互動。
    * _報告 - 推播追蹤體驗事件資料集_：用於報告與客群建立目的使用之推播通知頻道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
    * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。
    * _報告 - 歷程_：包含歷程每個步驟資訊的中繼資料資料集。
