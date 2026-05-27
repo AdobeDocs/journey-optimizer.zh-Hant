@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -135,7 +135,7 @@ Some edu specific content
 
 `each`協助程式是用來反複處理陣列。
 協助程式的語法為`{{#each ArrayName}}` YourContent `{{/each}}`。
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -264,6 +264,11 @@ Some edu specific content
 
 `executionMetadata`協助程式允許動態擷取自訂索引鍵值配對，並將其儲存到訊息執行內容中。
 
+>[!NOTE]
+>
+>* [自訂動作](../../action/action.md)和傳入頻道（網頁、程式碼型體驗、應用程式內訊息、內容卡）不支援執行中繼資料函式。
+>* 顯示內容本身時，不會顯示執行中繼資料函式。
+
 **語法**
 
 ```
@@ -275,11 +280,6 @@ Some edu specific content
 **使用案例**
 
 透過此功能，您可以將內容相關資訊附加至行銷活動或歷程中的任何原生動作。 這可讓您將即時傳遞內容資料匯出至外部系統，用於各種用途，例如追蹤、分析、個人化和下游處理。
-
->[!NOTE]
->
->* [自訂動作](../../action/action.md)不支援執行中繼資料函式。
->* 顯示內容本身時，不會顯示執行中繼資料函式。
 
 例如，您可以使用執行中繼資料協助程式，將特定ID附加至每個傳送至設定檔的每個傳送。 此資訊會在執行階段產生，然後可匯出擴充的執行中繼資料，以供與外部報告平台進行下游調解。
 
