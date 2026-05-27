@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 建立行動裝置訊息
+title: 建立行動訊息
 description: 瞭解如何在Journey Optimizer中建立行動訊息
 feature: SMS
 topic: Content Management
@@ -30,16 +30,16 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# 建立行動裝置訊息 {#create-sms}
+# 建立行動訊息 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="建立行動裝置訊息"
->abstract="若要建立行動訊息，請在歷程或行銷活動中新增SMS動作，並開始使用個人化編輯器進行個人化。"
+>title="建立行動訊息"
+>abstract="若要建立行動訊息，請在歷程或行銷活動中新增簡訊動作，然後使用個人化編輯器開始對其進行個人化。"
 
 >[!AVAILABILITY]
 >

@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="委派行動訊息子網域"
->abstract="設定行動訊息的子網域。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
+>abstract="設定您的行動訊息子網域。 您可以使用已委派給 Adobe 的子網域，或設定新的子網域。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="委派行動訊息子網域"
->abstract="您必須設定用於行動訊息的子網域，因為您需要此子網域來建立SMS設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
+>abstract="您必須設定要用於行動訊息的子網域，因為您需要此子網域來建立簡訊設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊設定"
 
 >[!CONTEXTUALHELP]

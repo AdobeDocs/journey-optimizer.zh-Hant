@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="新增資料集"
->abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。 按一下&#x200B;**[!UICONTROL 新增資料集]**，以選取含有您所需屬性的資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
+>abstract="使用 [!DNL Adobe Experience Platform] 資料集屬性，根據動態的外部屬性來定義上限條件。 按一下「**[!UICONTROL 新增資料集]**」以選取具有所需屬性的資料集。 如果資料集未顯示在清單中，請確保您已啟用資料集以供查詢，且已建立資料集查詢對應。"
 
 [!DNL Journey Optimizer]可讓您利用來自[!DNL Adobe Experience Platform]的資料進行決策。 這可讓您將決策屬性的定義擴充至資料集中的其他資料，以便進行定期變更的大量更新，而無需一次手動更新一個屬性。 例如，可用性、等待時間等。
 

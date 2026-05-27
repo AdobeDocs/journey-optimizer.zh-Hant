@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 432
-ht-degree: 30%
+ht-degree: 42%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="使用 Journey Optimizer 設定您的 SMS 服務提供者"
->abstract="Adobe Journey Optimizer會透過簡訊服務提供者傳送行動裝置訊息。 選取您的服務提供者並填寫您的 API 認證。"
+>abstract="Adobe Journey Optimizer 會透過簡訊服務提供者傳送行動訊息。 選取您的服務提供者並填寫您的 API 認證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="使用Journey Optimizer設定您的SMS/RCS/MMS提供者"
->abstract="在傳送行動裝置訊息(SMS/RCS/MMS)之前，您必須整合提供者設定與Journey Optimizer。 完成後，您需要建立SMS/RCS/MMS設定。 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
+>title="使用 Journey Optimizer 設定您的簡訊/豐富通訊服務/多媒體訊息提供者"
+>abstract="在傳送行動訊息 (簡訊/豐富通訊服務/多媒體訊息) 之前，您必須將提供者設定與 Journey Optimizer 整合。 完成後，您需要建立一個簡訊/豐富通訊服務/多媒體訊息設定。 這些步驟必須由 Adobe Journey Optimizer 系統管理員執行。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="建立簡訊管道設定"
 
 >[!CONTEXTUALHELP]

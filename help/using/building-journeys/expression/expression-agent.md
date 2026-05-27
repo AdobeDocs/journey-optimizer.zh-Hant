@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用運算式助理產生運算式
+title: 使用運算式助理來產生運算式
 description: 瞭解如何使用Adobe Journey Optimizer中的運算式輔助程式，透過自然語言提示直接在Journey進階運算式編輯器中產生運算式。
 feature: Journeys
 topic: Content Management, Artificial Intelligence
@@ -13,17 +13,17 @@ hide: true
 source-git-commit: 21019d3981891b2ea17857dfc15278641bbcb740
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
 
-# 使用運算式助理產生運算式 {#expression-agent}
+# 使用運算式助理來產生運算式 {#expression-agent}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用運算式助理產生運算式"
->abstract="Expression Assistant使用產生式AI來協助您直接在Journey進階運算式編輯器中建立和產生運算式。 例如在條件中，**最佳化**&#x200B;活動，或使用自訂日期的&#x200B;**等待**&#x200B;活動。 以純文字描述您需要的內容，然後助理會為您產生對應的運算式。"
+>title="使用運算式助理來產生運算式"
+>abstract="運算式助理會使用生成式 AI，協助您直接在歷程進階運算式編輯器中建立和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 請以簡單明瞭的語言描述您所需的內容，然後助理就會為您產生對應的運算式。"
 
 >[!AVAILABILITY]
 >
