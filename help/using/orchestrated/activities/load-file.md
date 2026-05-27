@@ -12,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 2%
 * 每個檔案最多可上傳50 MB。
 * 僅支援平面結構的CSV和TXT檔案。
 * 行銷活動執行時會使用上傳的資料，而不會儲存為Adobe Experience Platform資料集。
-* 每一列都必須與您選取之目標維度的現有收件者相符。 載入檔案活動不會從檔案建立新的設定檔。
 
 如需頻道和畫布活動的限制，請參閱[護欄和限制](../guardrails.md#activities-limitations)。
 
