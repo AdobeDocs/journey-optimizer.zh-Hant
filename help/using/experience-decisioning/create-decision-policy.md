@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: 2263
 ht-degree: 6%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 6%
 +++
 
 >[!TAB 電子郵件]
+
+>[!IMPORTANT]
+>
+>單一電子郵件支援最多10個決定原則。
 
 1. 切換&#x200B;**[!UICONTROL 啟用決策]**&#x200B;選項。
 
@@ -292,7 +296,7 @@ ht-degree: 6%
 
      選件1 - 10
 選件2 - 20
-策略1的優惠3 - 30，策略2的優惠45。 兩者中的最高會納入考量，因此會考慮45。
+策略1的優惠3 - 30，策略2的優惠45。兩者中的最高會納入考量，因此會考慮45。
 選件4 - 40
 選件5 - 50
 

@@ -19,9 +19,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 281
 ht-degree: 16%
 
 ---
@@ -62,6 +62,7 @@ ht-degree: 16%
 | ------- | ------- |
 | 每個決定原則的選擇策略和手動專案數量 | 10 |
 | 每個決定原則傳回的最大決定專案數 | 30 |
+| 每封電子郵件的最大決定原則 | 10 |
 
 ## 適用性規則 {#eligibility-rules}
 
