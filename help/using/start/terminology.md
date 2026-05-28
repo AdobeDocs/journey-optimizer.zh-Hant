@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -40,7 +29,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer建置在&#x200B;**Adobe Experience Platform**&#x200B;上。 您會遇到的許多基本概念（例如即時客戶個人檔案、沙箱、結構描述和資料集）都是Adobe Experience Platform概念，而非Journey Optimizer專屬的概念。 如需這些字詞的定義，請參閱[Adobe Experience Platform字彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
+>Adobe Journey Optimizer建置在&#x200B;**Adobe Experience Platform**&#x200B;上。 您會遇到的許多基本概念（例如即時客戶個人檔案、沙箱、結構描述和資料集）都是Adobe Experience Platform概念，而非Journey Optimizer專屬的概念。 如需這些字詞的定義，請參閱[Adobe Experience Platform字彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
 
 ## 歷程與行銷活動辭彙 {#journey-campaign-terms}
 
@@ -75,7 +64,7 @@ ht-degree: 7%
 
 | 術語 | 定義 |
 |------|------------|
-| **決策** | Journey Optimizer中最新一代的決策架構，建議用於新實作。 提供結構描述型專案目錄管理、彈性的收集規則、可重複使用的決定元件和實驗功能。 可用於程式碼型體驗、推播、簡訊和電子郵件（可用性限制）。 [了解更多](../experience-decisioning/gs-experience-decisioning.md) |
+| **決策** | Journey Optimizer中最新一代的決策架構，建議用於新實作。 提供結構描述型專案目錄管理、彈性的收集規則、可重複使用的決定元件和實驗功能。 可用於程式碼型體驗、推播、簡訊和電子郵件。 [了解更多](../experience-decisioning/gs-experience-decisioning.md) |
 | **決定管理** | Journey Optimizer中的舊版Offer Decisioning功能。 使用中央行銷優惠資料庫和規則型決定引擎，將限制套用至即時客戶設定檔。 現有實施仍支援，但新實施應改用Decisioning。 支援電子郵件、應用程式內、推播、簡訊和直接郵件。 [了解更多](../offers/get-started/starting-offer-decisioning.md) |
 | **選件** | 可呈現給客戶的行銷訊息、折扣或促銷活動。 優惠方案包含適用性規則，可決定哪些客戶可接收優惠方案。 [了解更多](../offers/offer-library/creating-personalized-offers.md) |
 | **決定原則** | 一組規則和策略，用來根據適用性、優先順序和上限規則等限制，決定要在何時向哪個客戶顯示哪個優惠方案。 [了解更多](../experience-decisioning/create-decision.md) |
@@ -106,7 +95,7 @@ Adobe Journey Optimizer經過數年成長發展，這表示有些功能區域有
 |---|---|---|
 | **狀態** | 最新 — 建議用於所有新實作 | **舊版** — 仍受支援，但不再建議用於新實作 |
 | **專案目錄** | 以結構為基礎、靈活的中繼資料 | 集中式優惠資料庫 |
-| **支援的管道** | 程式碼型體驗、推播、簡訊、電子郵件（可用性限制） | 電子郵件、應用程式內、推播、簡訊、直接郵件 |
+| **支援的管道** | 程式碼型體驗、推播、簡訊、電子郵件 | 電子郵件、應用程式內、推播、簡訊、直接郵件 |
 | **金鑰區分符號** | 可重複使用的決策元件、實驗、更廣泛的管道藍圖 | 經驗證的限制引擎；移轉至新專案的決策 |
 | **開始使用** | [決策](../experience-decisioning/gs-experience-decisioning.md) | [決定管理](../offers/get-started/starting-offer-decisioning.md) |
 
