@@ -10,10 +10,12 @@ level: Intermediate
 keywords: 歷程，限制
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 39%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -24,14 +26,14 @@ ht-degree: 39%
 ## 一般動作限制 {#action-limitations}
 
 * 沒有傳送限制。
-* 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。
+* 如果出現錯誤，將系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。
 * 內建&#x200B;**回應**&#x200B;事件可讓您對開箱即用的動作做出回應（請參閱此[頁面](../building-journeys/reaction-events.md)）。 如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
 
 
 ## 歷程版本限制 {#journey-versions-limitations}
 
-* 從 v1 中的事件活動開始的歷程無法從其他版本中的事件開始。您無法以&#x200B;**對象資格**&#x200B;事件開始歷程。
+* 從 v1 中的事件活動開始的歷程無法從其他版本中的事件開始。 您無法以&#x200B;**對象資格**&#x200B;事件開始歷程。
 * 在v1中，以&#x200B;**對象資格**&#x200B;活動開始的歷程在後續版本中必須一律以&#x200B;**對象資格**&#x200B;開始。
 * 在&#x200B;**對象資格** （第一個節點）中選擇的對象和名稱空間在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
@@ -39,15 +41,15 @@ ht-degree: 39%
 
 ## 自訂動作限制 {#custom-actions-limitations}
 
-* 自訂動作 URL 不支援動態參數。  
-* 僅支援POST和PUT呼叫方法。  
-* 查詢參數或標題的名稱不得以「.」開頭 或「$」。  
-* 不允許IP位址。  
-* 不允許內部Adobe位址(.adobe.)。
+* 自訂動作 URL 不支援動態參數。 
+* 僅支援POST和PUT呼叫方法。 
+* 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
+* 不允許IP位址。 
+* 內部Adobe位址(.adobe.) 是不允許的。
 
 ## 事件限制 {#events-limitations}
 
-* 對於系統產生的事件，必須先在Journey Optimizer中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入[!DNL Adobe Experience Platform]的串流裝載。 此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在 Journey Optimizer 中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程 ID。 此協調流程ID必須附加至傳入[!DNL Adobe Experience Platform]的串流裝載。 此限制不適用於規則型事件。
 
 ## 反應事件限制 {#reaction-limitations}
 
@@ -55,7 +57,7 @@ ht-degree: 39%
 
 ## 資料來源限制 {#data-sources-limitations}
 
-* 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過REST API使用、支援JSON並且能夠處理大量請求。
+* 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過 REST API 使用、支援 JSON 並且能夠處理大量請求。
 
 ## 與設定檔建立同時開始的歷程 {#journeys-limitation-profile-creation}
 

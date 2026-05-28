@@ -8,20 +8,22 @@ level: Experienced
 hide: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 3%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
 # 外部資料查詢協助程式
 
-`externalDataLookup`個人化編輯器中的[!DNL Journey Optimizer]協助程式可用來從外部端點動態擷取資料，以用於產生傳入通道（例如程式碼式體驗、網頁和應用程式內訊息通道）的內容。
+[!DNL Journey Optimizer]個人化編輯器中的`externalDataLookup`協助程式可用來從外部端點動態擷取資料，以用於產生傳入通道（例如程式碼式體驗、網頁和應用程式內訊息通道）的內容。
 
 >[!AVAILABILITY]
 >
->此功能僅適用於一組組織（可用性限制）。
+>此功能僅適用於一組組織 (可用性限制)。
 
 若要使用協助程式，您必須先在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**&#x200B;功能表中定義動作。 「動作」可讓您設定有關外部端點的詳細資訊，例如URL、GET與POST方法、標頭引數、查詢引數、POST內文JSON結構描述和回應JSON結構描述。
 
@@ -209,7 +211,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-需要更多詳細資料？使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 

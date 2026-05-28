@@ -9,10 +9,12 @@ role: User
 level: Beginner
 keywords: 整合
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 7%
+source-wordcount: 1125
+ht-degree: 8%
 
 ---
 
@@ -49,7 +51,7 @@ ht-degree: 7%
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-如果使用者先前未建立，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 +++
 
@@ -63,7 +65,7 @@ ht-degree: 7%
 
 1. 導覽至左側功能表中的&#x200B;**[!UICONTROL 組態]**&#x200B;區段，然後從&#x200B;**[!UICONTROL 整合]**&#x200B;卡片按一下&#x200B;**[!UICONTROL 管理]**。
 
-   然後，按一下[建立整合] **&#x200B;**&#x200B;以開始新的組態。
+   然後，按一下[建立整合] ****&#x200B;以開始新的組態。
 
    ![](assets/external-integration-config-1.png)
 
@@ -105,7 +107,7 @@ ht-degree: 7%
 
    * **[!UICONTROL 無驗證]**：適用於不需要任何認證的開放API。
 
-   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**&#x200B;[!UICONTROL &#x200B; API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]&#x200B;**]**
+   * **[!UICONTROL API金鑰]**：使用靜態API金鑰驗證請求。 輸入您的&#x200B;**[!UICONTROL API金鑰名稱{1&#x200B;}、**[!UICONTROL  API金鑰值{3&#x200B;}並指定您的&#x200B;**[!UICONTROL 位置]**。]**]**
 
    * **[!UICONTROL 基本驗證]**：使用標準HTTP基本驗證。 輸入&#x200B;**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
 
@@ -160,7 +162,7 @@ ht-degree: 7%
 
 **[!UICONTROL 傳送測試連線]**&#x200B;會在啟用之前針對目標API驗證端點URL、驗證及要求結構，以降低訊息處理期間執行階段失敗的風險。
 
-1. 定義URL、HTTP方法、標頭和查詢引數時，按一下[傳送測試連線] **以執行連線測試並確認組態。**
+1. 定義URL、HTTP方法、標頭和查詢引數時，按一下[傳送測試連線] ]**以執行連線測試並確認組態。**[!UICONTROL 
 
 1. 在&#x200B;**[!UICONTROL 傳送測試連線]**&#x200B;對話方塊中，為URL路徑、標頭和查詢引數中的任何&#x200B;**[!UICONTROL 變數]**&#x200B;預留位置輸入預設值。
 

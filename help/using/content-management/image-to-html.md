@@ -9,10 +9,12 @@ role: User
 level: Beginner
 keywords: 電子郵件，範本，影像， HTML， AI，設計，轉換器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 2%
+source-wordcount: 2097
+ht-degree: 4%
 
 ---
 
@@ -158,7 +160,7 @@ ht-degree: 2%
 
    ![電子郵件內容範本，顯示影像轉換產生的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**&#x200B;區段，與Adobe分享您的想法與建議，以協助我們改善功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**區段，與Adobe分享您的想法與建議，以協助我們改善功能。
    ![Journey Optimizer中的意見回饋區段，其中包含分享您的想法與建議的文字區域](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**。 轉換後的範本會在[電子郵件Designer](../email/get-started-email-design.md)中開啟，並具備完整的編輯功能。 您現在可以：
@@ -173,11 +175,11 @@ ht-degree: 2%
 
    進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，請按一下[儲存]。**&#x200B;**
+1. 在滿意您的範本後，請按一下[儲存]。****
 
 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](../email/use-email-templates.md)
 
-## 最佳做法 {#best-practices}
+## 最佳實務 {#best-practices}
 
 若要在將影像轉換為電子郵件內容範本時取得最佳結果，請遵循這些建議。
 
@@ -253,7 +255,7 @@ ht-degree: 2%
 
 +++是否可以編輯產生的範本？
 
-是！產生的內容範本會在具有完整編輯功能的電子郵件Designer中開啟。 您可以修改範本的所有方面，包括文字、影像、樣式、版面配置及結構。
+是！ 產生的內容範本會在具有完整編輯功能的電子郵件Designer中開啟。 您可以修改範本的所有方面，包括文字、影像、樣式、版面配置及結構。
 
 +++
 
@@ -277,13 +279,13 @@ AI會盡最大努力準確地詮釋您的設計，但可能需要一些手動細
 
 +++我可以在多個行銷活動中重複使用轉換的範本嗎？
 
-是！使用影像轉換為HTML轉換器建立的範本會自動儲存至內容範本程式庫。 您可以在歷程及行銷活動中的任何電子郵件中存取及重複使用它們。 [了解更多](content-templates.md)
+是！ 使用影像轉換為HTML轉換器建立的範本會自動儲存至內容範本程式庫。 您可以在歷程及行銷活動中的任何電子郵件中存取及重複使用它們。 [了解更多](content-templates.md)
 
 +++
 
 +++我可以將此用於平台移轉嗎？
 
-是！影像到HTML轉換器非常適合從其他電子郵件行銷平台移轉。 您只需從先前的平台匯出或擷取您現有的電子郵件設計，然後將其轉換為可在AJO中使用的HTML範本，而不需要從頭開始重新建置。
+是！ 影像到HTML轉換器非常適合從其他電子郵件行銷平台移轉。 您只需從先前的平台匯出或擷取您現有的電子郵件設計，然後將其轉換為可在AJO中使用的HTML範本，而不需要從頭開始重新建置。
 
 +++
 

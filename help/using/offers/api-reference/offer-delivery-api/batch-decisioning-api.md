@@ -11,19 +11,12 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 6%
@@ -46,11 +39,11 @@ ht-degree: 6%
 
    1. **批次POST要求**，用以啟動工作負載，以批次處理選件選擇。
 
-   2. **批次GET請求**&#x200B;以取得批次工作負載狀態。
+   2. **批次GET要求**&#x200B;以取得批次工作負載狀態。
 
 * 將資料集匯出至訊息傳送供應商API。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=zh-Hant) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -152,7 +145,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 
 ## 擷取批次決定的資訊 {#retrieve-information-on-a-batch-decision}
 
-若要擷取特定決定的資訊，請對`/workloads/decisions`端點提出GET要求，同時為您的決定提供對應的工作負載ID值。
+若要擷取特定決定的資訊，請對`/workloads/decisions`端點提出GET要求，同時為您決定提供對應的工作負載ID值。
 
 **API格式**
 
@@ -199,4 +192,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## 後續步驟 {#next-steps}
 
-依照此API指南，您已使用[!DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理[&#128279;](../../get-started/starting-offer-decisioning.md)的概觀。
+依照此API指南，您已使用[！DNL [!DNL Batch Decisioning]] API檢查工作負荷狀態和傳遞的選件。 如需詳細資訊，請參閱決策管理](../../get-started/starting-offer-decisioning.md)的[概觀。

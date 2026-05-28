@@ -7,18 +7,20 @@ role: Developer
 level: Experienced
 exl-id: 4ef1bfc2-e74f-4b44-b3b5-8a4f2fbd6438
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: 157
 ht-degree: 8%
 
 ---
 
 # 更新排名公式 {#update-ranking-formula}
 
-您可以透過向優惠資料庫API發出PUT請求來修改或更新排名公式。
+您可以對優惠資料庫API發出PUT要求，以修改或更新排名公式。
 
-如需JSON PUT的詳細資訊，包括可用的作業，請參閱[JSON PUT檔案](http://jsonpatch.com/)。
+如需JSON PUT的詳細資訊，包括可用的作業，請參閱官方[JSON PUT檔案](http://jsonpatch.com/)。
 
 **Accept和Content-Type標頭**
 

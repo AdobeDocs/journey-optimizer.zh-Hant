@@ -1,21 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalization運算式的AI助理
+title: 個人化運算式的 AI 助理
 description: 瞭解如何在Journey Optimizer中使用AI助理從Personalization編輯器中的自然語言產生個人化運算式，以及新增運算式控制如何在電子郵件Designer中運作。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
+feature_v2: []
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 2%
+source-wordcount: 1082
+ht-degree: 3%
 
 ---
 
-# 個人化運算式的AI助理{#generative-personalization-expressions}
+# 個人化運算式的 AI 助理{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >
@@ -49,7 +51,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-access.png)
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。**&#x200B;**
+1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。****
 
    您也可以使用&#x200B;**[!UICONTROL 快速提示]**&#x200B;區段的現成提示，例如個人化問候語、促銷程式碼產生等等。
 

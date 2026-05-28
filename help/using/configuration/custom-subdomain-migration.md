@@ -10,9 +10,11 @@ level: Intermediate
 keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -21,7 +23,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->此功能為有限可用性。請聯絡您的 Adobe 代表以取得存取權。
+>此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
 如果您的子網域目前設定了[CNAME](about-subdomain-delegation.md#cname-subdomain-setup)，您可以將其移轉至&#x200B;**[!UICONTROL 自訂委派]**&#x200B;方法，以符合貴公司的安全性原則。 這可讓您完全擁有並控制[!DNL Journey Optimizer]中的子網域和憑證。 [進一步瞭解自訂子網域](delegate-custom-subdomain.md)
 
@@ -61,7 +63,7 @@ ht-degree: 5%
 
 1. 選取使用CNAME設定的子網域並開啟它。
 
-1. 您可以使用&#x200B;**[!UICONTROL 移轉前CSR產生]**&#x200B;區段來產生CSR，以將其傳送給憑證授權單位，並在移轉程式開始時備妥SSL憑證。 [了解作法](#send-csr-to-ca)
+1. 您可以使用&#x200B;**[!UICONTROL 移轉前CSR產生]**&#x200B;區段來產生CSR，以將其傳送給憑證授權單位，並在移轉程式開始時備妥SSL憑證。 [了解做法](#send-csr-to-ca)
 
    >[!IMPORTANT]
    >
@@ -95,7 +97,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >金鑰長度只能是 2048 位元或 4096 位元。子網域提交後便無法變更金鑰長度。
+   >金鑰長度只能是 2048 位元或 4096 位元。 子網域提交後便無法變更金鑰長度。
 
 1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
@@ -195,10 +197,10 @@ ht-degree: 5%
 
 如果在嘗試提交自訂子網域時發生錯誤，請執行以下疑難排解動作。
 
-* 無法驗證&#x200B;_資源。 DNS仍然存在，需要刪除。_ — 請確定刪除您的託管解決方案中的所有記錄。 [了解作法](#delete-dns)
-* 無法驗證&#x200B;_資源。 請上傳您的SSL憑證，然後再試一次。_ — SSL憑證未上傳。 請務必上傳。 [了解作法](#upload-ssl-certificate)
-* _憑證的主體替代名稱(SAN)中包含未預期的網域。_ — 請確定上傳正確的SSL憑證。 [了解作法](#upload-ssl-certificate)
-* _憑證的主體替代名稱(SAN)中遺漏下列必要的網域。_ — 請確定上傳正確的SSL憑證。 [了解作法](#upload-ssl-certificate)
+* 無法驗證&#x200B;_資源。 DNS仍然存在，需要刪除。_  — 請務必刪除託管解決方案中的所有記錄。 [了解做法](#delete-dns)
+* 無法驗證&#x200B;_資源。 請上傳您的SSL憑證，然後再試一次。_  — 未上傳SSL憑證。 請務必上傳。 [了解做法](#upload-ssl-certificate)
+* _憑證的主體替代名稱(SAN)中包含未預期的網域。_  — 請務必上傳正確的SSL憑證。 [了解做法](#upload-ssl-certificate)
+* _憑證的主體替代名稱(SAN)中遺漏下列必要的網域。_  — 請務必上傳正確的SSL憑證。 [了解做法](#upload-ssl-certificate)
 
 **另請參閱**
 

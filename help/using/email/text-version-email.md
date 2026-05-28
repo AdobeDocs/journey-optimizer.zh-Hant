@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1171
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ## 存取預設文字版本 {#plain-text-default}
 
-依預設，電子郵件設計工具會建立電子郵件的&#x200B;**[!UICONTROL 純文字]**&#x200B;版本，包括個人化欄位。此版本是自動產生，並與內容的 HTML 版本同步。
+依預設，電子郵件設計工具會建立電子郵件的&#x200B;**[!UICONTROL 純文字]**&#x200B;版本，包括個人化欄位。 此版本是自動產生，並與內容的 HTML 版本同步。
 
 若要存取預設文字版本，請從您的電子郵件內容中選取&#x200B;**[!UICONTROL 純文字]**&#x200B;圖示。
 
@@ -36,7 +38,7 @@ ht-degree: 8%
 
 1. 從您的電子郵件中選取&#x200B;**[!UICONTROL 純文字]**&#x200B;圖示。
 
-1. 使用&#x200B;**[!UICONTROL 與HTML同步]**&#x200B;切換以停用同步。 按一下勾選記號以確認您的選擇。
+1. 使用&#x200B;**[!UICONTROL 與 HTML 同步]**&#x200B;切換以停用同步。 按一下勾選記號以確認您的選擇。
 
    ![](assets/text_version_2.png)
 
@@ -222,7 +224,8 @@ FEATURED PRODUCTS
 
 ```
 We'd love your feedback!
-------------------------
+---------------------
+---
 
 Please take 2 minutes to complete our survey:
 https://example.com/survey/customer-feedback
@@ -254,7 +257,7 @@ Your input helps us improve our service.
 每當您對HTML內容進行重大變更時，請更新它。 如果核心訊息維持不變，微幅調整HTML可能不需要更新純文字。
 
 **我可以在純文字電子郵件中包含連結嗎？**\
-是！包含完整URL （例如https://example.com/page），且大多數電子郵件使用者端會自動使其可點選。
+是！ 包含完整URL （例如https://example.com/page），且大多數電子郵件使用者端會自動使其可點選。
 
 **我是否應該包含純文字的影像？**\
 否，純文字不支援影像。 請改為說明影像所顯示的內容，或提供線上檢視影像的連結。

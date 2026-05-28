@@ -5,16 +5,18 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+feature_v2: []
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: 464
 ht-degree: 10%
 
 ---
 
 # 使用測試設定檔資料傳送校樣 {#send-proofs}
 
-校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 
 >[!NOTE]
 >
@@ -50,7 +52,7 @@ ht-degree: 10%
 
    每個校樣收件者收到的訊息數量與所選測試設定檔數量相同。 例如，如果您新增了五封收件者電子郵件並選取了十個測試設定檔，您將傳送五十封校樣訊息。 每位收件者將收到其中十個。
 
-1. 如有需要，您可以在校樣的主旨行新增前置詞。 僅限英數字元和特殊字元，例如。- _ ( ) [ 允許]做為主旨行的前置詞。
+1. 如有需要，您可以在校樣的主旨行新增前置詞。 僅限英數字元和特殊字元，例如。 - _ ( ) [ 允許]做為主旨行的前置詞。
 
 1. 按一下&#x200B;**[!UICONTROL 傳送證明]**。
 

@@ -6,22 +6,11 @@ description: 瞭解如何在歷程中使用體驗事件查閱
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/kVO36LmCfr9cYVq3EHRy8OpqPCZDq20mXTEA49TIRTI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1095
 ht-degree: 6%
@@ -70,9 +59,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/conditions.md#using-a-segment)
 
@@ -89,9 +78,9 @@ ht-degree: 6%
 
 使用對象深入瞭解：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/conditions.md#using-a-segment)
 
@@ -111,9 +100,9 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 事件](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [區段產生器 — 時間限制](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [在條件中使用對象](../building-journeys/conditions.md#using-a-segment)
 
@@ -123,8 +112,8 @@ ht-degree: 6%
 
 若要根據最新的購物車進行個人化通訊，或跨多種購物車型別或產品檢視瀏覽事件：
 
-* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以擷取事件中所需的資料、操作它以符合使用案例，並將它寫回已啟用[設定檔的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}以進行啟用。
-* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* 如果您可以存取[[!DNL Adobe Experience Platform] 資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}，請設定自動查詢以擷取事件中所需的資料、操作它以符合使用案例，並將它寫回已啟用[設定檔的資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}以進行啟用。
+* 如果可以在具有純量屬性的設定檔上建立放棄資料的模型，請考慮使用計算屬性來擷取最新資訊，然後在歷程中參照這些屬性來建構通訊。 [深入瞭解 [!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行為型歷程退出
@@ -141,7 +130,7 @@ ht-degree: 6%
 
 了解更多：
 
-* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [計算屬性總覽](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -149,7 +138,7 @@ ht-degree: 6%
 
 此常見問題集主要針對在歷程運算式中淘汰體驗事件使用方式的時間表以及受影響者。 如需替代方法的指引，請參閱上述使用案例和最佳實務。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連結。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連結。
 
 +++哪些特定功能會受到影響？ 
 

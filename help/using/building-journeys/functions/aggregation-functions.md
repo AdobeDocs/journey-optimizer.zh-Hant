@@ -1,20 +1,23 @@
 ---
 product: journey optimizer
-title: 聚合函式
+title: 彙總函式
 description: 瞭解彙總函式
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: 彙總，函式，運算式，歷程，平均，計數，最大值，最小值，總和
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 719
 ht-degree: 7%
 
 ---
 
-# 聚合函式 {#aggregation-functions}
+# 彙總函式 {#aggregation-functions}
 
 彙總函式會針對一組值執行計算，並傳回單一摘要結果。 這些函式可讓您透過計算平均值、尋找最小值和最大值、計數元素以及加總數值，來分析歷程運算式中的資料。
 

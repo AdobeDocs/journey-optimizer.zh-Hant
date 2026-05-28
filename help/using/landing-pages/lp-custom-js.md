@@ -10,19 +10,11 @@ level: Experienced
 keywords: 登陸，登陸頁面， javascript，程式碼
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 568
 ht-degree: 2%
@@ -37,13 +29,13 @@ ht-degree: 2%
 
 若要將自訂JavaScript插入登入頁面內容，您可以執行下列作業：
 
-* 開始建立您的內容時匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 在本節[&#128279;](../email/existing-content.md)中瞭解如何匯入內容。
+* 開始建立您的內容時匯入現有的HTML內容，並選取包含自訂JavaScript程式碼的檔案。 在本節](../email/existing-content.md)中瞭解如何匯入內容[。
 
 * 從頭開始設計您的登入頁面，或是從儲存的範本進行設計。 將&#x200B;**[!UICONTROL HTML]**&#x200B;內容元件拖放至畫布中，並顯示原始程式碼，以將您的JavaScript新增至元件中。 在[本節](../email/content-components.md#HTML)中瞭解如何使用HTML元件。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 在本節[&#128279;](../email/code-content.md)中瞭解如何編碼您自己的內容。
+* 直接在內容設計工具中輸入或貼上JavaScript程式碼。 在本節](../email/code-content.md)中瞭解如何編碼您自己的內容[。
 
 >[!NOTE]
 >

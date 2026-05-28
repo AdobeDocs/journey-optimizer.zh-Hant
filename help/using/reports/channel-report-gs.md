@@ -9,21 +9,13 @@ role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 TQID: https://experienceleague.adobe.com/kinrsOdqHviDBSmjv1waCA-XUQmHd4jFTCXAMRH3R1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 648
 ht-degree: 8%
@@ -82,7 +74,7 @@ ht-degree: 8%
 
 1. 從您的儀表板，選擇&#x200B;**開始**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**&#x200B;以鎖定特定資料。
 
-1. 從&#x200B;**的**&#x200B;動作下拉式清單中，選取您要鎖定促銷活動、歷程或兩者。
+1. 從&#x200B;]**的**[!UICONTROL &#x200B;動作下拉式清單中，選取您要鎖定促銷活動、歷程或兩者。
 
    ![](assets/channel_report_2.png)
 
@@ -106,7 +98,7 @@ ht-degree: 8%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。**&#x200B;**&#x200B;**&#x200B;**
+1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。********
 
 1. 在「列印」視窗中，視需要設定檔案。 請注意，選項可能會依您的瀏覽器而有所不同。
 
@@ -118,7 +110,7 @@ ht-degree: 8%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表按一下[匯出]&#x200B;**&#x200B;**，然後選取[CSV檔案]&#x200B;**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
 1. 您也可以選擇從特定Widget匯出資料。 按一下所選Widget旁的&#x200B;**[!UICONTROL 將Widget資料匯出至CSV]**。
 

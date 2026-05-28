@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '6076'
+source-wordcount: 6076
 ht-degree: 79%
 
 ---
@@ -58,7 +60,7 @@ ht-degree: 79%
 <td>
 <p>透過 Journey Optimizer，您現在可以在傳輸實體 (寄件者) 與編寫實體 (編寫者) 不同的情況下傳送電子郵件。 支援此功能的電子郵件用戶端通常會將其轉譯為「代表編寫者的寄件者」或顯示「透過」指標。 填寫電子郵件管道設定中選填的<strong>寄件者標題</strong>欄位，以設定此功能。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +150,7 @@ ht-degree: 79%
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期：2026 年 4 月 23 日</p>
 </td>
 </tr>
@@ -244,7 +246,7 @@ ht-degree: 79%
 <p>您現在可以使用 <strong>Decisioning</strong> 來個人化並最佳化電子郵件訊息的內容。 利用優先順序分數、公式或 AI 模型，向每位收件者顯示最相關的產品建議和內容。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 在此「一般可用性」版本中，現在支援鏡像頁面。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期：2026 年 4 月 6 日</p>
 </td>
 </tr>
@@ -338,7 +340,7 @@ ht-degree: 79%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **發行日期**：2026 年 3 月 24 日至 25 日
@@ -361,7 +363,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </ul>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期：2026 年 3 月 31 日</p>
 </td>
 </tr>
@@ -436,7 +438,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>歷程中的新<strong>資料集查詢</strong>活動可讓您在執行階段動態擷取 Adobe Experience Platform 記錄資料集的資料，允許您存取不屬於輪廓或事件承載的資訊，以便客戶互動保持相關且即時。</p>
 <p>歷程中的資料集查詢活動先前以「有限可用性」的名義向一組有限組織發行，現在提供給所有有權使用 [資料集查詢](../data/lookup-aep-data.md) 的客戶，但同時仍為「有限可用性」。</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -455,7 +457,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>您現在必須使用單一動作活動來設定所有管道動作，不再需要個別的管道專用節點。</p>
 <p>使用舊版管道活動的現有歷程仍可繼續運作，無需進行任何變更或移轉。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -964,7 +966,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>以前僅限於行銷活動，現在歷程畫布上也提供<strong>直接郵件</strong>管道，可讓您將直接郵件整合到歷程中。 直接郵件現在可同時用於<strong>批次和 1:1 歷程案例</strong>，並支援檔案擷取設定和時間頻率設定。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年1月29日</p>
 </td>
 </tr>
@@ -1092,7 +1094,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助理內容品質檢查** - 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在影片中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在影片中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 歷程
 

@@ -9,19 +9,12 @@ keywords: inAudience，函式，運算式，歷程，對象，細分
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 2%
@@ -49,7 +42,7 @@ ht-degree: 2%
 * **已實現**：該個人符合對象定義的資格且是作用中成員
 * **已退出**：個人已離開對象，不再符合資格
 
-只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++語法
 
@@ -129,7 +122,7 @@ inAudience("Unsubscribed") == false
 在條件節點中使用`inAudience()`時，區段會籍評估時間會依條件在歷程中出現的位置而有所不同：
 
 * **在讀取對象歷程中，在等待活動之前：** Journey Optimizer會從設定檔的批次投影中讀取。 此投影中的資料在內嵌後&#x200B;**2小時**&#x200B;內已重新整理。 依賴日型或時間型條件的對象可能會遇到額外的延遲。 在歷程開始時新增短的[等待活動](../wait-activity.md)，或允許緩衝時間，以確保反映最新的區段會籍。
-* **在單一事件歷程中或等待活動後：**&#x200B;從串流（單一）投影讀取區段會籍。 資料通常可在&#x200B;**15分鐘**&#x200B;內取得。 如需詳細資訊，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
+* **在單一事件歷程中或等待活動後：**&#x200B;從串流（單一）投影讀取區段會籍。 資料通常可在&#x200B;**15分鐘**&#x200B;內取得。 如需詳細資訊，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
 
 ## 相關主題
 

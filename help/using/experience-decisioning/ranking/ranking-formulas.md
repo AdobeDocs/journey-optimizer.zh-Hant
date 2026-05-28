@@ -8,18 +8,13 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1731
 ht-degree: 5%
@@ -43,7 +38,7 @@ ht-degree: 5%
 建立排名公式之前，請記住下列限制：
 
 * AI公式產生器不支援使用連續量度的[個人化最佳化模型](personalized-optimization-model.md)。
-* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量[&#128279;](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的轉換率中。
+* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的[轉換率中。
 * 排名公式中的巢狀深度限製為30個層級，測量方式為計算PQL字串中的`)`。
 * UTF-8編碼字元的排名公式字串最多可達8KB （8,000個ASCII字元或2,000-4,000個非ASCII字元）。
 * 排名公式不支援回顧期間（例如，上個月以來的體驗事件）。 嘗試儲存此類公式會觸發錯誤。
@@ -128,7 +123,7 @@ ht-degree: 5%
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -300,7 +295,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
    ![](../assets/ranking-formula-ai-details.png)
 
-1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] **，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**
+1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] ]**，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**[!UICONTROL 
 
 1. 一旦滿意，按一下&#x200B;**[!UICONTROL 套用]**，以最佳化的運算式取代原始運算式。
 

@@ -7,13 +7,12 @@ role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 4%
@@ -108,7 +107,7 @@ ht-degree: 4%
 
 **範例**
 
-下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列[&#128279;](#first-n)區段的第一個`n`中找到。
+下列作業會傳回價格最高的前五個訂單中的第一個。 有關`topN`函式的詳細資訊可在陣列](#first-n)區段的[第一個`n`中找到。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -303,7 +302,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 >[!NOTE]
 >
->`{{#each}}`僅可在&#x200B;**個人化編輯器**&#x200B;中使用（電子郵件內文、簡訊、推播內容）。 歷程條件活動中不支援&#x200B;**1&rbrace;。**&#x200B;若要篩選或比對歷程條件中陣列的專案，請改用[集合管理函式](../../building-journeys/expression/collection-management-functions.md)。
+>`{{#each}}`僅可在&#x200B;**個人化編輯器**&#x200B;中使用（電子郵件內文、簡訊、推播內容）。 歷程條件活動中不支援&#x200B;**1}。**&#x200B;若要篩選或比對歷程條件中陣列的專案，請改用[集合管理函式](../../building-journeys/expression/collection-management-functions.md)。
 
 **語法**
 

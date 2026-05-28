@@ -6,9 +6,11 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 9%
 
 ---
@@ -19,12 +21,12 @@ ht-degree: 9%
 
 * **Adobe Experience Platform資料彙集**
 
-  [建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。 這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
-將&#x200B;**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}
+  [建立資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**選項。 這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
+將**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  確定預設合併原則已在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**Edge上作用中合併原則**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=zh-Hant#configure){target="_blank"}
+  確定預設合併原則已在&#x200B;**[!UICONTROL 客戶]** > **[!UICONTROL 設定檔]** > **[!UICONTROL 合併原則]** Experience Platform功能表底下啟用&#x200B;**Edge上作用中合併原則**。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -44,7 +46,7 @@ ht-degree: 9%
 
 * **內容實驗**
 
-  確認應用程式的[資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
+  確認應用程式的[資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
 
   瞭解如何在[本節](../reports/reporting-configuration.md)中為內容實驗報告新增資料集。
 

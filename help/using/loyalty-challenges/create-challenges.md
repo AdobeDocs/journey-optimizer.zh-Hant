@@ -11,9 +11,11 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: 1973
 ht-degree: 16%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 **設定並整合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [設定忠誠度挑戰](loyalty-admin.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ ht-degree: 16%
 >title="任務"
 >abstract="選取完成挑戰所需執行的任務。 接下來，設定挑戰完成的方式，可供使用的選項取決於您的挑戰類型 (標準、連續或循序)。"
 
-任務定義客戶要獲得獎勵必須完成的特定操作。 您可以設定任務型別（購買、支出）、數量、產品篩選器和其他屬性。
+任務定義客戶要獲得獎勵必須完成的特定操作。 您可以設定任務型別（購買、支出或自訂事件）、數量、產品篩選器和其他屬性。
 
 若要新增任務至您的挑戰，請遵循下列步驟：
 
@@ -204,9 +206,7 @@ ht-degree: 16%
    * **[!UICONTROL 當挑戰進度完成時，在任務完成里程碑提供獎勵]**：當客戶完成個別任務時，獎勵會遞增（僅適用於需要多個任務的挑戰）\
      *範例：在任務1後獎勵10分，在任務2後獎勵20分，在任務3後獎勵50分*
 
-1. 選取您的獎勵提供者。 這是管理客戶點數和獎勵的忠誠度解決方案。
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. 選取您的獎勵提供者。 這是管理客戶點數和獎勵的忠誠度解決方案。 在您編寫挑戰之前，會在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中建立獎勵提供者。 [瞭解如何設定獎勵提供者](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

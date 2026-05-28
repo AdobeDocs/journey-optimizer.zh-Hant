@@ -9,9 +9,11 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '4441'
+source-wordcount: 4441
 ht-degree: 99%
 
 ---
@@ -802,7 +804,7 @@ Information below is subject to change without prior notice until the release av
 * 在歷程畫布，**結束**&#x200B;標籤的標籤不再自動設定為先前活動的名稱。 使用者可視需要手動新增自訂標籤。
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。 [了解更多](../configuration/external-systems.md#timeout)
 * 讀取客群活動的預設節流率已從每秒 20,000 則訊息變更為每秒 5,000 則訊息。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。 透過外部工具傳送的事件不會納入考量。 [了解更多](../building-journeys/testing-the-journey.md)
+* 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。 透過外部工具傳送的事件不會納入考量。 [進一步了解](../building-journeys/testing-the-journey.md)
 
 
 <!--
@@ -954,7 +956,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **電子郵件介面** - 電子郵件介面設定已新增額外檢查：如果&#x200B;**回覆 (電子郵件) 地址**&#x200B;或 **密件副本電子郵件地址**&#x200B;未正確設定，則無法再建立電子郵件介面。 您必須已設定或使用其他設定。 [了解更多](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [了解更多](../email/email-settings.md#url-tracking)
+* **電子郵件介面** - 在 **URL 追蹤參數**&#x200B;電子郵件介面設定的區段，每個&#x200B;**值**&#x200B;欄位已從 255 個字元更新為 5 KB，以與 Adobe Analytics 追蹤相容。 [進一步了解](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
