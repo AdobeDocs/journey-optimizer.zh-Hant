@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 100%
+source-wordcount: 977
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ### 內容品質、提示和意見回饋
 
-* 產生內容的品質很大程度上受到您定義的行銷目標/提示的影響。 使用定義明確的提示讓 GenAI 模型準確解釋。 
+* 產生的內容品質強烈受到您定義的行銷目標/提示所影響。使用定義明確的提示讓GenAI模型正確解譯。 
 * GenAI 內容可能不完全準確：請分享您的回饋，以便我們的工程師可以改進模型。
 * 選擇變體時，請確保使用向上、向下或標記圖示報告任何有問題的輸出。
 

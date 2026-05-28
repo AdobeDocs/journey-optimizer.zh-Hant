@@ -17,7 +17,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 85
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 # 查詢專案集合 {#lookup-item-collection}
 
-您可以透過向選件程式庫API發出GET要求（要求路徑中包含ID），以查詢特定專案集合。
+您可以向優惠資料庫API發出GET請求，在請求路徑中包含ID，藉此查詢特定專案集合。
 
 **API格式**
 

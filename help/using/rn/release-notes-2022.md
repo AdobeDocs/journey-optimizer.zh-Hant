@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 3645
-ht-degree: 100%
+source-wordcount: 3603
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 <p>您現在可以建立動態內容，以根據條件規則調整訊息的內容。</p> 
 <p>條件式規則是使用運算式編輯器中的視覺化規則產生器來建立，您可以在其中儲存這些規則，以便在歷程及行銷活動中重複使用。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../personalization/get-started-dynamic-content.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -117,7 +117,7 @@ ht-degree: 100%
 <p>除了現有的已排程行銷活動，您現在可以在 Journey Optimizer 中建立 API 觸發的行銷活動，並使用 API 從外部系統叫用它們。</p>
 <p>這允許您涵蓋各種操作和異動訊息需求，例如密碼重設、OTP 權杖等。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../campaigns/api-triggered-campaigns.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -135,7 +135,7 @@ ht-degree: 100%
 <p>通過基於屬性的存取控制，管理員可以根據特定屬性控制對特定物件的存取。 這些屬性可以是新增至物件的中繼資料，例如標籤。 從此版本開始，管理員還可以定義只能存取特定欄位和/或物件，以及與這些欄位和/或物件對應資料的使用者角色。</p>
 <p> 以屬性為基礎的存取控制目前僅限於選定客戶，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>如需詳細資訊，請參閱<a href="../administration/object-based-access.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../administration/object-based-access.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -145,7 +145,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>資料治理與隱私權</strong><br/></th>
+<th><strong>資料控管與隱私權</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -153,7 +153,7 @@ ht-degree: 100%
 <td>
 <p>透過其資料使用標籤與實作 (DULE) 控管架構，Journey Optimizer 現在可以運用 Adobe Experience Platform 控管政策，防止敏感欄位透過自訂動作匯出至第三方系統。 如果系統在自訂動作參數中識別限制欄位，系統會顯示錯誤，使您無法發佈歷程。</p>
 <p>資料使用標籤和實作 (DULE) 的使用目前僅限選定客戶使用，並將在未來版本中部署至所有環境。</p>
-<p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../action/action-privacy.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -168,9 +168,9 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+<p>Adobe Experience Platform可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。同意原則是在Adobe Experience Platform中定義。在Journey Optimizer中，您可以將這些同意政策套用至自訂動作。例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 <p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
-<p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -187,7 +187,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer 支援定義使用者角色和存取原則，以管理功能和物件的權限。 透過 <strong>Adobe Experience Cloud 權限</strong>，您可以建立和管理角色，並為這些角色指派所需的資源權限。 權限也可讓您管理與特定角色相關聯的標籤、沙箱和使用者。</p>
 <p> 以權限使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
-<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../administration/attribute-based-access.md">詳細文件</a>。
 </td>
 </tr>
 </tbody>
@@ -283,7 +283,7 @@ table>
 <td>
 <p>使用 Journey Optimizer 行銷活動，透過各種頻道將一次性內容傳遞至特定客群。 使用歷程時，會設計為依照序列執行動作。 透過行銷活動，可同時執行動作 (立即執行或根據指定的排程執行)。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>在<a href="../campaigns/get-started-with-campaigns.md">詳細文件</a>及<a href="https://video.tv.adobe.com/v/346680">功能影片</a>中了解如何建立行銷活動。
+<p>在 <a href="../campaigns/get-started-with-campaigns.md">詳細文件</a> 及 <a href="https://video.tv.adobe.com/v/346680">功能影片</a> 中了解如何建立行銷活動。
 </td>
 </tr>
 </tbody>
@@ -405,7 +405,7 @@ table>
 <p>現在，您可以在決策管理中使用個人化最佳化模型系統。 這種新類型的模型可讓您根據客群與產品建議績效來將產品建議最佳化和個人化。</p>
 <p>個人化最佳化 AI 模型的使用目前僅限於選定使用者，將在未來的版本中同步到所有環境。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../offers/ranking/personalized-optimization-model.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -533,7 +533,7 @@ table>
 
 
 
-### 改進
+### 功能改進
 
 **決策管理**
 
@@ -840,7 +840,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 改進
+### 功能改進
 
 **歷程**
 

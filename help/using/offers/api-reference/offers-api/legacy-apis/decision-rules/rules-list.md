@@ -21,7 +21,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 11%
@@ -35,7 +35,7 @@ ht-degree: 11%
 >[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。 您可以透過對[!DNL Offer Library] API執行單一GET要求，來檢視容器內現有的決定規則清單。
+決定規則是新增至個人化優惠的限制，並套用至設定檔以判斷適用性。 您可以透過對[!DNL Offer Library] API執行單一GET請求，來檢視容器內現有的決定規則清單。
 
 **API格式**
 

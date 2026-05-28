@@ -21,7 +21,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 19%
@@ -37,7 +37,7 @@ ht-degree: 19%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
+您可以透過向[!DNL Offer Library] API發出GET請求，在請求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
 
 **API格式**
 

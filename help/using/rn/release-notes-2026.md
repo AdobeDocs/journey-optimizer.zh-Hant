@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 6076
+source-wordcount: 6058
 ht-degree: 79%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 79%
 <td>
 <p>透過 Journey Optimizer，您現在可以在傳輸實體 (寄件者) 與編寫實體 (編寫者) 不同的情況下傳送電子郵件。 支援此功能的電子郵件用戶端通常會將其轉譯為「代表編寫者的寄件者」或顯示「透過」指標。 填寫電子郵件管道設定中選填的<strong>寄件者標題</strong>欄位，以設定此功能。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../email/header-parameters.md#sender-header">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ ht-degree: 79%
 <p>這可讓您自動複製每則訊息上正確的利害關係人，例如關係經理或帳戶擁有者，同時確保客戶知道要聯絡誰以進行後續追蹤。</p>
 <p>CC 欄位支援個人化，因此單一設定可根據輪廓資料動態路由副本，使其可在多個使用案例中擴充，而無需其他設定。</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/cc-email-field.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/cc-email-field.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ ht-degree: 79%
 <td>
 <p>沙箱工具現在支援將協調的行銷活動從一個沙箱封裝和複製到另一個沙箱。 如此一來，您就不需要在每個環境中手動重新建立行銷活動。 封裝行銷活動時，會自動包含其核心相依物件，例如合併原則、訊息，以便匯入的行銷活動到達時便能進行設定和驗證。 為了保護生產環境，所有匯入的行銷活動都會以草稿狀態傳送至目標沙箱中，在任何行銷活動上線之前為團隊提供審查和核准步驟。</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -135,7 +135,7 @@ ht-degree: 79%
 <p>您現在可以在排名公式中使用 <strong>AI 模型</strong>，根據客戶輪廓屬性和內容因素自動提升歷程優先順序分數，確保客戶進入最相關的歷程。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/journey-ai-models.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/journey-ai-models.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 79%
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/express.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 4 月 23 日</p>
 </td>
 </tr>
@@ -208,12 +208,12 @@ ht-degree: 79%
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。
+<p>使用新的<strong>最佳化</strong>節點來執行A/B測試或多臂吃角子老虎機實驗，以決定符合您以企業為中心的KPI的最佳途徑。此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>作為「一般可用性」的一部分，此版本針對單一歷程引入了<strong>實驗類型</strong>選擇 (A/B 或多臂老虎機) 和<strong>擴充獲勝者</strong>。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/path-experimentation.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/path-experimentation.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 4 月 7 日</p>
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 79%
 <td>
 <p><strong>收件匣</strong>是一項行動功能，可搭配內容卡使用，允許客戶在應用程式或網站中建立集中式位置，以顯示傳送給使用者的訊息。 這可延長行銷通訊的存留期，確保即使在訊息關閉後，仍可存取訊息。</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../inbox/inbox-gs.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 4 月 7 日</p>
 </td>
 </tr>
@@ -250,7 +250,7 @@ ht-degree: 79%
 <p>您現在可以使用 <strong>Decisioning</strong> 來個人化並最佳化電子郵件訊息的內容。 利用優先順序分數、公式或 AI 模型，向每位收件者顯示最相關的產品建議和內容。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 在此「一般可用性」版本中，現在支援鏡像頁面。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/create-decision-policy.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 4 月 6 日</p>
 </td>
 </tr>
@@ -367,7 +367,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </ul>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../personalization/url-parameter-encryption.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 3 月 31 日</p>
 </td>
 </tr>
@@ -386,7 +386,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>您現在可以直接在 Journey Optimizer 中將影像轉換為電子郵件內容範本。 使用 AI 支援的分析，從視覺參考自動產生結構化 HTML 範本，大幅縮短電子郵件設計時間。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/image-to-html.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/image-to-html.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 3 月 31 日</p>
 </td>
 </tr>
@@ -406,7 +406,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>根據特定資料集，建立、設計和管理為您的需求量身打造的自訂表單。 然後，您可以在登陸頁面中善用自訂表單，將選擇的設定檔屬性新增至為每個表單定義的資料集。</p>
 <p>此功能之前以「有限可用性」的名義向美國和澳洲的客戶發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../landing-pages/lp-forms.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../landing-pages/lp-forms.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 3 月 26 日。</p>
 </td>
 </tr>
@@ -424,7 +424,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>新的<strong>測試</strong>活動現在可用於協調的行銷活動。 此活動會根據定義的條件，將工作流程執行路由至不同的分支，讓您在啟用即時傳遞之前，先驗證行銷活動邏輯和設定。</p>
 <p><img src="../orchestrated/assets/test-1.png"></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/test.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/test.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -442,7 +442,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>歷程中的新<strong>資料集查詢</strong>活動可讓您在執行階段動態擷取 Adobe Experience Platform 記錄資料集的資料，允許您存取不屬於輪廓或事件承載的資訊，以便客戶互動保持相關且即時。</p>
 <p>歷程中的資料集查詢活動先前以「有限可用性」的名義向一組有限組織發行，現在提供給所有有權使用 [資料集查詢](../data/lookup-aep-data.md) 的客戶，但同時仍為「有限可用性」。</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/dataset-lookup.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -461,7 +461,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>您現在必須使用單一動作活動來設定所有管道動作，不再需要個別的管道專用節點。</p>
 <p>使用舊版管道活動的現有歷程仍可繼續運作，無需進行任何變更或移轉。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-action.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -479,7 +479,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>適用於電子郵件內容範本的進階 HTML 模式可讓您在電子郵件設計工具中編輯內容的 HTML 來源，在來源中新增進階運算式 (例如條件)，以及在 HTML 檢視和桌面檢視之間切換，而不會遺失您的變更。</p>
 <p>此功能僅適用於電子郵件管道的內容範本。 目前僅以「有限可用性」提供，請聯絡您的 Adobe 代表以取得存取權。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../email/email-expert-mode.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/email-expert-mode.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 3 月 10 日</p>
 </td>
 </tr>
@@ -553,7 +553,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Journey Optimizer 現在可讓您監視 Decisioning AI 模型的健康情況、訓練狀態和效能。 這可讓您驗證訓練是否成功、疑難排解失敗，並瞭解對您結果的影響，以便使用 AI 為每位客戶選取最佳產品建議。 請注意，此功能僅適用於 <strong>Decisioning</strong> (不適用於舊版決策管理模型)。</p>
 <p>此功能目前僅適用於<strong>個人化最佳化</strong>模型 (非自動最佳化)。</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 3 月 9 日</p>
 </td>
 </tr>
@@ -571,7 +571,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>現在可以透過 <strong>API 訊號</strong>觸發協調的行銷活動。 若要進行此設定，請將目標行銷活動設定為<strong>由訊號觸發</strong>，發佈行銷活動，然後使用 API 呼叫引發。 API 呼叫中包含的任何參數都可在執行的行銷活動中作為變數使用。 請注意，訊號觸發的協調行銷活動仍為<strong>批次</strong>行銷活動，與 API 觸發的行銷活動不同。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -588,7 +588,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>在協調的行銷活動中，您現在可以將管道活動設定為<strong>交易型</strong>類別。 這會將交易型管道設定套用至該活動，在業務規則不應套用或客戶不需要選擇加入時很有用。</p>
 <p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md#add">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md#add">詳細文件</a>。</p>
 <p>在接下來幾天內，此功能會逐步推廣到所有地區。</p>
 </td>
 </tr>
@@ -806,7 +806,7 @@ WAITING RELEASE DATE CONFIRMATION
 <p>歷程畫布現在提供新的<strong>內容決定活動</strong>，可將個人化優惠直接整合至您的客戶歷程。 此活動可讓您提供決策型內容，並在整個歷程中參考這些優惠方案 — 在建立資格型分支的條件、在自訂動作中將優惠方案資料傳遞至外部系統，以及在其他活動中建立完全個人化的客戶體驗。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/content-decision.md">詳細文件</a>。</p>
 <p>推出日期：2026年2月10日</p>
 </td>
 </tr>
@@ -970,7 +970,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>以前僅限於行銷活動，現在歷程畫布上也提供<strong>直接郵件</strong>管道，可讓您將直接郵件整合到歷程中。 直接郵件現在可同時用於<strong>批次和 1:1 歷程案例</strong>，並支援檔案擷取設定和時間頻率設定。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../direct-mail/get-started-direct-mail.md">詳細文件</a>。</p>
 <p>推出日期： 2026年1月29日</p>
 </td>
 </tr>
@@ -989,7 +989,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p><strong>勿打擾時間</strong>可讓您定義不接收電子郵件、簡訊、推播和 WhatsApp 管道訊息的時間。 此功能可確保在特定時段內不會傳送任何訊息，協助您遵守客戶偏好設定和合規性要求。 您可以透過<strong>規則集</strong>套用勿打擾時間，這些規則集可指派給行銷活動或歷程中的個別動作，以進行精確控制。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都可以使用。 在此「一般可用性」版本中，功能現在包括讓客戶將行銷活動動作排入佇列直到完成勿打擾時間，以及預覽啟用的勿打擾時間規則。</p>
 <p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/quiet-hours.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../conflict-prioritization/quiet-hours.md">詳細文件</a>。</p>
 <p>推出日期： 2026年1月29日</p>
 </td>
 </tr>
@@ -1014,7 +1014,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>從擷取之日起，記錄會在 AJO 訊息匯出資料集中保留 7 天。 在此保留期間，您可以透過Experience Platform目標將其匯出至您自己的儲存空間。 此功能已在管道設定層級啟用，可讓您對要匯出的訊息進行<strong>精細控制</strong>。</p>
 <p>此功能僅適用於電子郵件和簡訊管道，以及已購買訊息匯出附加產品的組織。 如需詳細資訊，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/message-export.md#message-export">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/message-export.md#message-export">詳細文件</a>。</p>
 <p>推出日期：2026 年 1 月 28 日</p>
 </td>
 </tr>
@@ -1032,7 +1032,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>協調行銷活動現在提供直接郵件管道。 <strong>直接郵件活動</strong>讓您在協調的行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。 此類活動可用於將直接郵件提供者所需之<strong>摘取檔案</strong>產生流程自動化。 您可以將管道活動與協調行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md#channel">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md#channel">詳細文件</a>。</p>
 <p>推出日期：2026 年 1 月 28 日</p>
 </td>
 </tr>

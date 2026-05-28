@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 94%
+source-wordcount: 910
+ht-degree: 91%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 94%
 <tr style="border: 0;">
 <td><img alt="隨選客群" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>隨選客群</b><br/>立即跨資料集查詢，以使用任何資料類型與維度的組合來建立客群細分群體。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體細分和傳送</b><br/>超越以人員為基礎的行銷活動，可精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
-支援多層級傳送，其中每個輪廓和每個關聯的次要實體會傳送一封訊息。 這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。 例如，這可讓行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
+<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
+支援多級傳送，其中每個設定檔和每個關聯的次要實體會傳送一條訊息。這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。例如，這可讓行銷活動傳送至設定檔的所有已知地址，或為該設定檔相關聯的每個預訂傳送。</td></tr>
 <tr style="border: 0;">
 <td><img alt="預先傳送可見度與精確度" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>預先傳送可見度與精確度</b><br/>在行銷活動推出前，取得精確的細分計數與完整的行銷活動範圍可確保精確度與可信度。</td></tr>
 <tr style="border: 0;">

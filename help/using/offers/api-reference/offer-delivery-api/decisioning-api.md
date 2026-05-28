@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1153
 ht-degree: 5%
@@ -150,7 +150,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | 布林值，如果設為`true`，會包含回應的內容。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 用來指定傳回其他中繼資料的物件。 如果未包含此屬性，則預設會傳回`xdm:id`和`repo:etag`。 | `name` |
 | `xdm:responseFormat.xdm:activity` | 此旗標會識別`xdm:activity`傳回的特定中繼資料資訊。 | `name` |
-| `xdm:responseFormat.xdm:option` | 此旗標會識別`xdm:option`傳回的特定中繼資料資訊。 | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:option` | 此旗標會識別`xdm:option`傳回的特定中繼資料資訊。 | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | 此旗標會識別`xdm:placement`傳回的特定中繼資料資訊。 | `name`、`channel`、`componentType` |
 
 ### 回應

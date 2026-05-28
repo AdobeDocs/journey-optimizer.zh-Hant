@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 259
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。

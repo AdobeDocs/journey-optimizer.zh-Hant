@@ -23,9 +23,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2569
+source-wordcount: 2537
 ht-degree: 10%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 10%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解更多資訊](../offer-activities/configure-offer-selection.md)。
+1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 
@@ -220,7 +220,7 @@ ht-degree: 10%
 
 選件1 - 10
 選件2 - 20
-條件1的優惠3 - 30，條件2的優惠45。 兩者中的最高會納入考量，因此會考慮45。
+條件1的優惠3 - 30，條件2的優惠45。兩者中的最高會納入考量，因此會考慮45。
 選件4 - 40
 選件5 - 50
 

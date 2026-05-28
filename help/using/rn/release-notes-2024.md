@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 6916
 ht-degree: 99%
@@ -43,7 +43,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Journey Optimizer 現在允許您透過鎖定整個範本，或是特定結構和元件，鎖定電子郵件範本中的內容。 這樣做讓您可以防止無意間不小心編輯內容，或將內容刪除，讓您更能掌控範本自訂，進而提高電子郵件行銷活動的效率和可靠性。</p>
-<p>如需詳細資訊，請參閱<a href="../content-management/content-locking.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-locking.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
 <p>自 2024 年 10 月 24 日起開放使用</p>
 </td>
@@ -61,7 +61,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>透過程式碼型體驗管道，Adobe Journey Optimizer 可讓您針對任何傳入屬性進行進階個人化及測試，跨不同接觸點 (例如網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結的裝置、智慧型電視、資訊站、ATM、IoT 裝置等) 達成量身打造的無縫傳遞體驗。 程式碼型體驗管道現可在歷程版面中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../code-based/create-code-based.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
 <p>自 2024 年 10 月 1 日起開放使用</p>
 </tr>
@@ -78,7 +78,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>有了網頁管道，Adobe Journey Optimizer 可讓您將透過傳入網頁歷程向客戶提供的網站體驗個人化。 網頁管道現可在歷程版面中使用。</p>
-<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../web/create-web.md">詳細文件</a>。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
 <p>自 2024 年 10 月 1 日起開放使用</p>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>在 Journey Optimizer 中，務必要管理行銷活動和歷程的流量和時間，才能避免過多的互動給客戶帶來負擔。 Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>以瞭解詳情。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
+<p>在 Journey Optimizer 中，務必要管理行銷活動和歷程的流量和時間，才能避免過多的互動給客戶帶來負擔。 Journey Optimizer 目前有提供多種衝突管理和排定優先順序工具。 <p>如需詳細資訊，請參閱<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細文件</a>。</p></p><p><ul><li><b>歷程頻率上限</b>：您目前可以建立規則集，以便套用至歷程中，讓您可以為設定檔限制每日、每週或每月的歷程次數，還能控制同時執行的並行歷程次數。</li>
 <li><b>優先順序分數</b>：您目前可以將優先順序分數指派給行銷活動，或是歷程，分數由 0 到100 分起跳。 分數越高則表示優先順序越高。 當有兩種行銷活動同時使用到相同的管道設定時，Journey Optimizer 就會選取優先順序分數最高的行銷活動。 如果行銷活動的分數一樣，就會選擇最近才修改過的行銷活動。</li>
 <li><b>檢視潛在衝突</b>：歷程和行銷活動中的最新「檢視潛在衝突」按鈕目前可以讓您識別與其他歷程，或是行銷活動之間的重疊程度，例如開始日期、目標對象，或是選取的管道設定。</li>
 <li><b>歷程仲裁</b>：這項新功能讓您可以找出最重要的歷程優先順序，再提供給客戶使用。 您可以建立規則，以便在客戶符合即將進入的優先順序較高的歷程資格時，阻止對方進入優先順序較低的歷程。</li>
@@ -142,7 +142,7 @@ ht-degree: 99%
 <td>
 <p>為提高彈性，掌控電子郵件設定，您可以在建立電子郵件頻道設定時，定義動態子網域和個人化的標題參數。
 </p>
-<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/surface-personalization.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
 <p>自 2024 年 10 月 23 日起開放使用</p>
 </tr>
@@ -160,7 +160,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 <p>自 2024 年 10 月 22 日起開放使用</p>
 </td>
@@ -212,7 +212,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>您現在可以在單一行銷活動或歷程中，輕鬆建立多種語言的內容。 透過此功能，您可以在編輯行銷活動或歷程時切換語言、簡化整個編輯流程，並提高有效管理多種語言內容的能力。</p>
-<p>如需詳細資訊，請參閱<a href="../content-management/multilingual-gs.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/multilingual-gs.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/multilingual.gif">
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 報告功能目前開放給一般人使用 (GA)，改良後的版本擁有互通性，能使用 Customer Journey Analytics 功能，可將兩邊平台之間的報告標準化，改善資料一致性與可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。</p>
 <p>推廣一般可用性之後，會引進四種新功能：可以建立簡易量度，建立並發佈對象，使用 Insight Builder 臨時提出問題，將排程報告流程自動化，寫封電子郵件寄給主要收件者。</p>
-<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-cja-manage.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
 <p>重要提醒：目前的報告體驗將於推出 2025 年 1 月份版本後，正式終止服務。 過了上述日期，新的報告體驗就會成為標準版。 建議您先自己熟悉一下新的功能，以確保能順利轉換服務。 <a href="../reports/report-gs-cja.md">了解如何開始使用 Journey Optimizer 的新報告介面</a></p>
 <p>自 2024 年 10 月 16 日起開放使用</p>
@@ -252,7 +252,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer 目前讓您可以預覽內容，還能使用從檔案上傳或是手動新增的範例輸入資料，傳送電子郵件校樣，以便測試電子郵件內容的不同變體。 系統會自動偵測您在內容中使用到的所有設定檔屬性，以便進行個人化，以上屬性可應用到測試上，即可建立多個變體。</p>
 <p>此功能目前會透過公開測試版的形式，開放給所有客戶使用，可用於電子郵件、簡訊和推播通知頻道。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
@@ -380,7 +380,7 @@ ht-degree: 99%
 <td>
 <p>內容卡是 Adobe Journey Optimizer 新的數位傳訊功能，可直接在行動應用程式和網站提供個人化且吸引人的內容。 與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。</p>
 <p>此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/content-card-landing-page.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../../rp_landing_pages/content-card-landing-page.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -398,7 +398,7 @@ ht-degree: 99%
 <td>
 <p>待政策通過核准，您就可以立即在 Journey Optimizer 中設定核准程序，允許行銷團隊使用，以確保行銷活動和歷程在正式上線之前，會先由合適的利害關係人負責審核，並完成簽核。</p>
 <p>目前核准原則僅開放給部分組織使用 (有限可用性)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../test-approve/gs-approval.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
@@ -451,7 +451,7 @@ ht-degree: 99%
 <td>
 <p>建立訊息並進行個人化後，請在 Journey Optimizer 使用 AI 助理，把內容提升到新的境界。 您目前可以使用 AI 助理，使用不同的主要標題和影像進行實驗，讓訊息的影響力發揮最佳成效。 每個變體都會視為獨特的處理來管理，以測量並比較哪個標題能有效產生更多點按次數。</p>
 <p>透過<a href="https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator">我們的即時功能預覽</a>，沉浸在親身體驗中，讓您親身體驗實際功能並充分瞭解其功能。</a></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/gs-generative.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>推出日期：2024 年 9 月 12 日</p>
 </td>
@@ -469,7 +469,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>引導式頻道設定讓您可以透過統一體驗，將頻道設定自動化，並加以驗證，便可使用 Journey Optimizer，加速快速入門的流程。 這項全新引導式設定能簡化快速頻道設定，確保能在 Experience Platform、Journey Optimizer 和資料彙集中，輕鬆安裝所有必要資源，確保一切運作都能順暢。 這讓行銷、產品和資料工程團隊可以快速展開行銷活動，同時建立歷程。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/set-mobile-config.md">詳細文件</a>。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 <p>推出日期：2024 年 9 月 3 日</p>
 </br>
@@ -517,7 +517,7 @@ ht-degree: 99%
 
   所有 API 參考頁面目前都有推出&#x200B;**試用版**&#x200B;功能，您就可以使用此功能，直接在文件網站頁面上測試 API 呼叫。 [取得必要的驗證憑證](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}並開始使用該功能，即可探索 API 端點。
 
-  使用這個新功能可探索 API 端點收到的請求和發出的回應，以立即獲得意見回饋並加快技術實作。
+  使用這項新功能，即可探索從 API 端點收到的請求，還有送出的回應，立即取得回饋意見，加快技術實作速度。
 
   >[!CAUTION]
   >
@@ -680,7 +680,7 @@ ht-degree: 99%
 <td>
 <p>除了預設提供者 Sinch、Infobip 和 Twilio 之外，您現在可以在 Journey Optimizer 設定其他 SMS 提供者。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>如需詳細資訊，請參閱<a href="../mobile/mobile-configuration-custom.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../mobile/mobile-configuration-custom.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -731,7 +731,7 @@ ht-degree: 99%
 <td>
 <p>您現在可以在片段中定義特定欄位，當片段新增到行銷活動或歷程時可以編輯這些欄位。 這允許在使用時調整內容部分，提供以內容特定的詳細資訊覆寫預設值的彈性。</p>
 <img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
-<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -747,9 +747,9 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更睿智的決策。</p>
+<p>Journey Optimizer 報告功能改善與 Customer Journey Analytics 功能的互通性，可將兩個平台間的報告標準化，並改善資料一致性與可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間的緊密整合可讓您更清楚檢視績效量度，讓使用者能做出更明智的決策。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
-<p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../reports/report-gs-cja.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -852,7 +852,7 @@ table>
   任何建立的新歷程都會反映此新逾時。 請參考此[常見問題集章節](../building-journeys/journey-properties.md#timeout-faq)以進一步了解。 請注意，這些變更將於 6 月期間逐步推出。
 
 
-* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀更多](../privacy/requests.md)
 * 您現在可以調整歷程庫存中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)
@@ -910,7 +910,7 @@ table>
 <p>這些決策項目透過新的程式碼型體驗管道無縫整合到廣泛的傳入設定，現在可在 Journey Optimizer 行銷活動中存取。 Experience Decisioning 決策原則僅可用於程式碼型的體驗活動。</p>
 <p>體驗決策目前僅可適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
-<p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/gs-experience-decisioning.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1226,7 +1226,7 @@ table>
 <tr>
 <td>
 <p>現在您可以使用新的網頁應用程式內訊息功能，透過模態疊加訊息直接在網站上顯示個人化內容。 此功能可讓您有效地與網路訪客互動，從而增強使用者互動、保留率和轉換率。<br/><br/></p>
-<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-web.md">詳細說明文件</a>。<br></br></p>
+<p>如需詳細資訊，請參閱<a href="../in-app/create-in-app-web.md">詳細文件</a>。<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
@@ -1314,7 +1314,7 @@ table>
 <td>
 <p>Journey Optimizer 現在支援 DMARC 驗證技術。</p>
 <p>2024 年 2 月 1 日起，Google 和 Yahoo! 都要求您對傳送電子郵件所使用的任何網域留有 DMARC 記錄。 請確定您已在 Journey Optimizer 中，為要委派給或即將委派給 Adobe 的所有子網域設定 DMARC 記錄。</p>
-<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/dmarc-record-update.md">詳細文件</a>。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>

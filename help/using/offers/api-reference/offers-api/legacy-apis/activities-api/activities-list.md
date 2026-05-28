@@ -21,7 +21,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 245
 ht-degree: 12%
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 決定包含通知優惠選擇的邏輯。
 
-您可以透過對[!DNL Offer Library] API執行單一GET請求，來檢視容器中所有決定的清單。
+您可以透過對[!DNL Offer Library] API執行單一GET要求，來檢視容器中所有決定的清單。
 
 **API格式**
 

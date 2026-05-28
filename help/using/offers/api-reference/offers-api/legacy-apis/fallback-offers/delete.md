@@ -21,7 +21,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 174
 ht-degree: 18%
@@ -65,4 +65,4 @@ curl -X DELETE \
 
 成功的回應會傳回HTTP狀態202 （無內容）和空白內文。
 
-您可以嘗試對遞補優惠進行查詢(GET)請求以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已經從容器中移除遞補優惠。
+您可以嘗試對遞補優惠進行查閱(GET)要求以確認刪除。 您需要在請求中包含Accept標頭，但應該會收到HTTP狀態404 （找不到），因為已經從容器中移除遞補優惠。
