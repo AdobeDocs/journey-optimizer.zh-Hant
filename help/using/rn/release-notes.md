@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 83d84795cd444615143554bb54d803c6afe7ca33
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3073
 ht-degree: 17%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 17%
 <p>您現在可以將歷程設定為<strong>模擬</strong>。 此模式可讓您使用<strong>模擬的使用者</strong>來驗證您的邏輯。 這些是專為模擬建立的臨時輪廓，可讓您自由測試，而無需在 Adobe Experience Platform 中管理持續的測試輪廓。</p>
 <p>此功能以有限可用性的形式提供給所有客戶，並具備基本功能。</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey.md">詳細文件</a>。</p>
 <p>推出日期： 2026年5月5日</p>
 </td>
 </tr>
@@ -198,7 +198,7 @@ ht-degree: 17%
 <p>現在，只要直接從其他協調行銷活動的<strong>結束活動</strong>觸發協調的行銷活動，即可將協調的行銷活動連結在一起。</p>
 <p>這可讓您將複雜的協調流程邏輯分解成更小且可重複使用的流程，以便從多個上層行銷活動呼叫，而非每次都重新建置。 在執行階段傳遞的裝載可用於下遊行銷活動中的細分和個人化，因此每個連結的行銷活動都可以根據其收到的內容採取行動。</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細文件</a>。</p>
 <p>推出日期： 2026年5月20日</p>
 </td>
 </tr>
@@ -278,15 +278,19 @@ ht-degree: 17%
 </tbody>
 </table>
 
-* **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
-
-  推出日期： 2026年5月6日
-
 * **決策中的Adobe Experience Manager內容片段** — 您現在可以將Adobe Experience Manager內容片段對應至決策中的決策專案，並在決策政策內運用這些片段，以便在適當的時間將適當的片段提供給適當的客戶。 [閱讀全文](../integrations/aem-fragments.md#aem-decisioning)
 
   此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
   推出日期： 2026年5月20日
+
+* **來自行銷活動摘要的決策原則詳細資訊** — 您現在可以從行銷活動摘要頁面檢閱每個決策原則的完整結構，包括選擇策略、決策專案和遞補優惠，而不需要複製或編輯行銷活動。 您也可以將JSON摘要複製到剪貼簿，以便透過Adobe支援或您的工程團隊進行疑難排解。 [閱讀更多](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+  推出日期： 2026年5月20日
+
+* **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
+
+  推出日期： 2026年5月6日
 
 +++ 即將推出 — **下列資訊可能會變更。**
 
@@ -327,7 +331,7 @@ ht-degree: 17%
 <p>您現在可以透過電子郵件Designer中的專用選項，將深層連結新增至您的電子郵件內容。 這可確保使用者直接導向至正確的應用程式內內容，而非重新導向至瀏覽器或應用程式商店，以保留內容與參與度。</p>
 <p>請注意，雖然「深層連結」選項可供所有客戶使用，但深層連結只有在您已完成必要設定和行動應用程式實施步驟時才有效。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/deeplinks.md">詳細文件</a>。</p>
 <p>推出日期： 2026年5月12日</p>
 </td>
 </tr>

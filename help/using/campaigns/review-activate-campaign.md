@@ -24,16 +24,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 4%
 
 ---
 
 # 檢閱並啟動動作行銷活動 {#action-campaign-review}
 
-設定您的Action行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
+設定您的Action行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 請依照下列步驟以執行此操作。
 
 >[!IMPORTANT]
 >
@@ -48,6 +48,8 @@ ht-degree: 3%
    如果發生錯誤，便無法啟用行銷活動。 請先解決錯誤，然後再繼續。
 
    ![](assets/create-campaign-alerts.png)
+
+1. 當行銷活動在其內容中使用[決定原則](../experience-decisioning/create-decision.md)時，您可以檢閱每個原則的結構，並直接從行銷活動摘要複製技術詳細資訊。 [了解做法](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
 
