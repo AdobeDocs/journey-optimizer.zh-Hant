@@ -9,22 +9,14 @@ level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ytq-DaCojPLwO0ReHyA6oYnAzepr02rthWrZwU-lehY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 893
 ht-degree: 5%
 
 ---
@@ -51,7 +43,7 @@ ht-degree: 5%
 
 為了最大化使用個人化最佳化的優勢，請注意一些重要假設和限制。
 
-* **優惠方案差異足夠大，使用者在所考慮的優惠方案之間會有不同的偏好設定**。 如果選件太類似，則產生的模型影響會較小，因為回應似乎是隨機的。
+* **優惠方案差異足夠大，使用者在所考慮的優惠方案之間會有不同的偏好設定**。如果選件太類似，則產生的模型影響會較小，因為回應似乎是隨機的。
 例如，如果銀行有兩個信用卡優惠方案，唯一差異是顏色，那麼建議使用哪張卡可能無關緊要，但如果每張卡片的條款不同，這就能解釋為什麼某些客戶會選擇一張卡片，並提供足夠的優惠方案差異，以建立更有影響力的模型。
 * **使用者流量構成穩定**。 如果使用者流量構成在模型訓練和預測期間發生大幅變更，模型效能可能會降低。 例如，假設在模型訓練階段中，只有對象A中使用者的資料可用，但已訓練的模型用於產生對象B中使用者的預測，則模型效能可能會受到影響。
 * **此模型每週更新，且模型更新時傳遞效能的變更，因此短時間內的優惠效能不會大幅變更**。 例如，某產品之前非常受歡迎，但公開報告指出該產品對我們的健康有害，並且此產品很快變得不受歡迎。 在此案例中，模型可以繼續預測此產品，直到模型更新為使用者行為的變化。

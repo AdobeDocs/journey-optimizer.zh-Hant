@@ -11,17 +11,11 @@ level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fo34tWzFmKLEChraPGv6MppJq0hp6u2HhrUUXpXjpZA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 19%
@@ -37,7 +31,7 @@ ht-degree: 19%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
+您可以透過向[!DNL Offer Library] API發出GET請求，在請求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
 
 **API格式**
 
