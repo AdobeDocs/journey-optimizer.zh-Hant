@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 89%
 ## 2026年5月 {#may-2026}
 
 * 訊息&#x200B;**中的**&#x200B;使用決定原則檔案現在說明如何從行銷活動摘要檢視決定原則的完整結構，並複製JSON技術摘要至剪貼簿以進行疑難排解。 [閱讀更多](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* 舊版&#x200B;**決定管理** [自動最佳化模型](../offers/ranking/auto-optimization-model.md)頁面已重新寫入，以符合更新的Decisioning檔案，包括增強學習概述、需求和限制、平衡最佳化與學習，以及湯普森取樣詳細資訊。 [閱讀更多](../offers/ranking/auto-optimization-model.md)
 
 * **發行說明**&#x200B;頁面已重新建構為主題式配置。 變更現在會依產品區域而非變更型別分組，並新增專屬的&#x200B;**可用性改善**&#x200B;區段。 即將推出的專案在各個主題中顯示為可展開的摺疊式功能表。 [閱讀更多](release-notes.md)
 
