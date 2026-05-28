@@ -9,24 +9,15 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 3%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -159,6 +150,47 @@ ht-degree: 3%
 * [檢閱及啟動行銷活動](../campaigns/review-activate-campaign.md)
 
 針對程式碼型體驗，當您的開發人員發出API或SDK呼叫，擷取您頻道設定中定義之表面的內容時，變更就會套用至您的網頁或應用程式。
+
+## 從行銷活動摘要檢視決定原則詳細資訊 {#decision-policy-summary}
+
+當動作或API觸發的[行銷活動](../campaigns/get-started-with-campaigns.md)在其內容中使用決策原則時，行銷活動摘要頁面會顯示&#x200B;**[!UICONTROL 決策原則]**&#x200B;區段，其中列出行銷活動中使用的所有原則。
+
+您也可以存取每個決定原則的技術詳細資訊，並將其複製到剪貼簿，這對於疑難排解Adobe支援或您的工程團隊的問題很有用。
+
+若要存取決定原則詳細資訊和技術資訊，請遵循下列步驟。
+
+1. 在[設定](../campaigns/review-activate-campaign.md#action-campaign-review)期間按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，或從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中開啟行銷活動以開啟行銷活動摘要。
+
+1. 在&#x200B;**[!UICONTROL 決定原則]**&#x200B;區段中，會列出行銷活動中使用的所有原則。
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. 選取決定原則或按一下&#x200B;**[!UICONTROL 全部檢視]**。 您可以檢閱每個原則的詳細資訊，包括：
+
+   * 決策原則中使用的策略
+   * 要傳回的專案數
+   * 用於每個選擇策略的集合、排名方法和適用性規則
+   * 如果沒有符合資格的決策專案，則會使用遞補優惠
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. 按一下集合以顯示其包含的所有決定專案。
+
+1. 按一下決定專案以存取其詳細資訊，並視需要加以編輯，它會在新的瀏覽器標籤中開啟。 或者，按一下&#x200B;**[!UICONTROL 檢視專案]**&#x200B;以顯示不在集合中的決定專案。
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. 您也可以檢視用於每個選取策略的排名方法和適用性規則的相關資訊。
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. 回到行銷活動摘要，您也可以從&#x200B;**[!UICONTROL 動作]**&#x200B;區段選取決定原則，然後按一下&#x200B;**資訊**&#x200B;圖示以存取決定原則的技術詳細資訊。
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. 按一下&#x200B;**複製到剪貼簿**&#x200B;圖示，將決定原則的JSON表示形式複製到剪貼簿。
+
+   複製的JSON包含您的組織名稱和ID、沙箱名稱、決定原則ID和完整的決定原則結構。 您可以與Adobe支援或您的工程團隊共用這些資訊，以更快疑難排解決策原則問題。
 
 ## 使用報告儀表板
 
