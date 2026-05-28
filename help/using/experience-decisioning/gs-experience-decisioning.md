@@ -8,12 +8,21 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
 source-wordcount: 700
@@ -74,11 +83,11 @@ ht-degree: 26%
 
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
 
-   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案](items.md)
+   ➡️ [&#128279;](items.md)瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
-   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合](collections.md)
+   ➡️ [&#128279;](collections.md)瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合
 
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
 

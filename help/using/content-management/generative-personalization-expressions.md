@@ -9,7 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1082
@@ -51,7 +53,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-access.png)
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。****
+1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。**&#x200B;**
 
    您也可以使用&#x200B;**[!UICONTROL 快速提示]**&#x200B;區段的現成提示，例如個人化問候語、促銷程式碼產生等等。
 
