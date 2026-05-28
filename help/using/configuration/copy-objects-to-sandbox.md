@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ Journey Optimizer允許將歷程、行銷活動（動作、API觸發和組織式
 您可以使用封裝匯出和匯入，在沙箱之間複製協調的行銷活動。 協調的行銷活動會遵循與其他物件相同的整體模式，但套件中包含的內容以及您必須在目標沙箱中準備的內容，與動作或API觸發的行銷活動不同。
 
 若要匯出協調的行銷活動，請[將其新增到來源沙箱的沙箱套件](#add-objects-as-a-package-export) （無論其狀態為何）、[發佈套件](#publish)，然後[將套件](#import)匯入目標沙箱。
+
+>[!IMPORTANT]
+>
+>匯入之後，就要[在目標沙箱中複製協調的行銷活動](../campaigns/manage-campaigns.md#duplicate-a-campaign)，然後使用該複製進行設定、測試及執行。 如果您改為執行或發佈匯入的復本，行銷活動報告可能不會顯示意見回饋和追蹤資料。 此限制將在未來版本中移除。
 
 在匯入到生產環境之前，請記住以下行為和限制：
 

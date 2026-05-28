@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 7927
+source-wordcount: 7969
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 90%
 * **發行說明**&#x200B;頁面已重新建構為主題式配置。 變更現在會依產品區域而非變更型別分組，並新增專屬的&#x200B;**可用性改善**&#x200B;區段。 即將推出的專案在各個主題中顯示為可展開的摺疊式功能表。 [閱讀更多](release-notes.md)
 
 * **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**頻道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
+
+* **在沙箱之間複製Journey Optimizer物件**&#x200B;檔案現在包含&#x200B;**協調行銷活動**&#x200B;的重要注意事項：匯入後，請在目標沙箱中複製行銷活動，並使用重複資料來執行，以確保報告可正確擷取意見回饋和追蹤資料。 [閱讀更多](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
 * **重要術語**&#x200B;頁面已改寫：新增6個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;去除混淆指南，用於四個常混淆術語配對。 已移除Adobe Experience Platform特定辭彙，並取代為連結至Adobe Experience Platform字彙表的附註。 [閱讀更多](../start/terminology.md)
 
