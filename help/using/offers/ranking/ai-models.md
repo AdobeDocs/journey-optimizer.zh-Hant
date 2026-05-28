@@ -87,4 +87,4 @@ ht-degree: 27%
 
 了解如何建立 Offer Decisioning 的 AI 模式，以及如何將其套用至決策。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445655?captions=chi_hant&quality=12)
