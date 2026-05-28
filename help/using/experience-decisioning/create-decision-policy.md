@@ -8,20 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: 2263
 ht-degree: 6%
 
 ---
@@ -90,6 +84,10 @@ ht-degree: 6%
 +++
 
 >[!TAB 電子郵件]
+
+>[!IMPORTANT]
+>
+>單一電子郵件支援最多10個決定原則。
 
 1. 切換&#x200B;**[!UICONTROL 啟用決策]**&#x200B;選項。
 
@@ -292,7 +290,7 @@ ht-degree: 6%
 
      選件1 - 10
 選件2 - 20
-策略1的優惠3 - 30，策略2的優惠45。 兩者中的最高會納入考量，因此會考慮45。
+策略1的優惠3 - 30，策略2的優惠45。兩者中的最高會納入考量，因此會考慮45。
 選件4 - 40
 選件5 - 50
 
@@ -309,7 +307,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -324,7 +322,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**&#x200B;[!UICONTROL &#x200B;以確認建立原則。]&#x200B;**]**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**[!UICONTROL &#x200B;以確認建立原則。]**]**
 
 >[!IMPORTANT]
 >
