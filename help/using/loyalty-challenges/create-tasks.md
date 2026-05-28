@@ -11,10 +11,12 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 17%
+source-wordcount: 1145
+ht-degree: 10%
 
 ---
 
@@ -34,7 +36,7 @@ ht-degree: 17%
 
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
+* **建立任務** ◀}︎**您在這裡**
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
 
 </td>
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **設定並整合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [設定忠誠度挑戰](loyalty-admin.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 17%
 >
 >此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
-任務會定義客戶在忠誠度挑戰中必須完成的特定動作或里程碑，才能獲得獎勵。 您可以設定任務型別、數量和產品需求，以建立吸引人且個人化的忠誠度體驗。
+任務會定義客戶在忠誠度挑戰中必須完成的特定動作或里程碑，才能獲得獎勵。 您可以設定購買和支出任務，或是&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，用於追蹤貴組織已擷取的Adobe Experience Platform體驗事件。
 
 每項任務都代表可測量的動作，有助於完成挑戰。 任務是可重複使用的元件，可以獨立建立，然後新增到一個或多個挑戰，或直接在挑戰中建立。
 
@@ -65,7 +67,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="建立任務"
->abstract="選取一項客戶活動 (購買或支出)，然後設定活動特定的屬性：數量或金額、適用項目與排除項目，以及選擇性限制，例如最低支出額或最高交易額。 在「屬性」窗格中，設定任務名稱和說明。"
+>abstract="選取客戶活動（購買、支出或自訂事件），然後設定活動特定屬性。 在「屬性」窗格中，設定任務名稱和說明。"
 
 您可以從兩個進入點建立任務。 無論您從何處開始，設定程式都相同。
 
@@ -91,9 +93,9 @@ ht-degree: 17%
 
 * **[!UICONTROL 購買]**：客戶必須購買一或多個專案才能完成此工作
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
@@ -107,7 +109,7 @@ ht-degree: 17%
 **購買**&#x200B;活動的可用屬性：
 
 * **[!UICONTROL 數量]**：輸入完成此任務必須購買的專案數。
-* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及未計入的專案或專案群組，或選擇&#x200B;**[!UICONTROL 自帶資料]**&#x200B;以從外部資料中推動符合資格。 [進一步了解](#eligible-items-exclusions)
+* **[!UICONTROL 符合資格的專案和排除]**：定義計入任務完成的專案或專案群組，以及未計入的專案或專案群組，或選擇&#x200B;**[!UICONTROL 自帶資料]**&#x200B;以從外部資料中推動符合資格。 [了解更多](#eligible-items-exclusions)
 * **[!UICONTROL 最小支出值金額]**：設定最低購買金額需求。
 * **[!UICONTROL 最大交易數]**：限制可用於完成工作的交易數。
 
@@ -123,6 +125,14 @@ ht-degree: 17%
 
 ![](assets/task-create-spend.png)
 
+>[!TAB 自訂事件活動]
+
+**[!UICONTROL 自訂事件]**&#x200B;活動的可用屬性：
+
+* **[!UICONTROL 自訂事件值]**：輸入客戶必須完成的自訂事件值。 請使用逗號來分隔每個值。 這些值必須符合&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定的事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## 定義適用項目與排除項目 {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ ht-degree: 17%
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。
+針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來定義哪些專案和群組符合資格以及哪些專案與群組被排除。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。 當您設定此屬性時，可在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中取得已上傳的產品群組和排除群組。 [瞭解如何設定產品詳細目錄和排除專案](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL 自訂事件]**&#x200B;工作未使用符合資格的專案和排除專案；完成是由您設定的&#x200B;**[!UICONTROL 自訂事件值]**&#x200B;所驅動。
 
 例如，您可以將工作限制在特定產品類別中，或排除禮品卡或促銷專案，不計入工作的完成情況。
 
@@ -144,13 +156,13 @@ ht-degree: 17%
 
 若要定義合格專案，請在&#x200B;**[!UICONTROL 合格任務購買僅限於下列]**&#x200B;欄位，輸入特定專案ID、類別或目的地ID （以逗號分隔）。 如果您將此欄位留空，依預設所有購買都符合資格。 您也可以輸入`*`，明確讓所有購買都符合條件。
 
-範例：`SKU001, SKU002, CategoryA`
+範例: `SKU001, SKU002, CategoryA`
 
 ### 從任務排除專案
 
 若要從任務排除專案，請在&#x200B;**[!UICONTROL 輸入特定的專案ID、類別或目的地ID。下列專案會從此任務]**&#x200B;欄位中排除。
 
-範例：`CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+範例: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 
 ### 自備資料以取得資格和排除專案 {#byod-personalization}
 
