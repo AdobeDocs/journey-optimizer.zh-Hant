@@ -10,9 +10,11 @@ level: Intermediate
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
 badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: 1484
 ht-degree: 10%
 
 ---

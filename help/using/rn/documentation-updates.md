@@ -8,9 +8,15 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '7927'
+source-wordcount: 7927
 ht-degree: 90%
 
 ---
@@ -537,7 +543,7 @@ ht-degree: 90%
 * 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀更多](../content-management/generative-full-content.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [深入了解](../content-management/generative-full-content.md#video)
 
 +++
 

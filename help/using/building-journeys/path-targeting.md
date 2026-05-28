@@ -10,10 +10,12 @@ level: Intermediate
 keywords: 鎖定目標，規則，歷程，路徑，最佳化，個人化
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限可用性" type="Informative"
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 7%
+source-wordcount: 812
+ht-degree: 8%
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 函式
+title: 函數
 description: 瞭解歷程運算式中的函式
 feature: Journeys
 role: Developer
@@ -9,14 +9,16 @@ level: Experienced
 keywords: 函式，運算式，編輯器，歷程，資料，操作
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 9%
+source-wordcount: 874
+ht-degree: 10%
 
 ---
 
-# 函式 {#functions}
+# 函數 {#functions}
 
 函式是Adobe Journey Optimizer中動態歷程運算式的建置組塊。 它們可讓您即時轉換、計算、驗證和操控資料，以建立個人化的客戶體驗。 有了60多種以直覺式類別組織的功能，您就能在客戶歷程的每個步驟中建立複雜的條件、執行複雜的計算，以及做出資料導向式決策。
 
@@ -24,7 +26,7 @@ ht-degree: 9%
 
 歷程運算式中的函式遵循一致的語法模式：
 
-`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 **主要特性：**
 
@@ -59,7 +61,7 @@ ht-degree: 9%
 
 [檢視Adobe Experience Platform函式詳細資料→](../functions/functioninaudience.md)
 
-### 聚合函式 {#aggregation-functions}
+### 彙總函式 {#aggregation-functions}
 
 **統計計算和資料摘要**
 

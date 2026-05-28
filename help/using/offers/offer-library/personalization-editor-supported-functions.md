@@ -10,16 +10,23 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 15%
+source-wordcount: 635
+ht-degree: 17%
 
 ---
 
 # 個人化編輯器中支援的功能 {#personalization-editor-supported-functions}
 
-在決定管理中，當您&#x200B;**新增代表**&#x200B;並個人化[優惠內容](add-representations.md) （優惠中的影像、文字、連結）時，請使用&#x200B;**個人化編輯器**。
+在決定管理中，當您[新增代表](add-representations.md)並個人化&#x200B;**優惠內容** （優惠中的影像、文字、連結）時，請使用&#x200B;**個人化編輯器**。
 
 當個人化該內容時，Offer Decisioning後端僅支援個人化編輯器中可用的&#x200B;**子集**&#x200B;功能。 此頁面列出可在選件內容編輯器中安全使用的每個功能。 展開每個區段以檢視支援的運運算元、協助程式和函式。
 
@@ -77,7 +84,7 @@ ht-degree: 15%
 | 長度 | 長度 |
 | MD5 | md5 |
 | SHA256 | sha256 |
-| 類似 | 類似 |
+| 類似 | 按讚 |
 | 開始於 | startsWith |
 | 開頭不是 | doesNotStartWith |
 | 結束於 | endsWith |
@@ -86,7 +93,7 @@ ht-degree: 15%
 | 不包含 | doesNotContain |
 | 等於 | 等於 |
 | 不等於 | notEqualto |
-| 符合 | matches |
+| 符合 | 符合 |
 | 規則運算式群組 | regexgroup |
 | 字串至數字 | stringToNumber |
 | 字串至日期 | stringToDate |
@@ -112,7 +119,7 @@ ht-degree: 15%
 | 顯示名稱 | 內部名稱 |
 |--------------|---------------|
 | Distinct | distinct |
-| 在 | 在  |
+| 在 | 在 |
 | 不在 | notIn |
 | 相交 | 相交 |
 | 子集： | subsetOf |

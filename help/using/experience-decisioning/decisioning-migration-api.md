@@ -1,19 +1,24 @@
 ---
-title: Decisioning移轉API
+title: 決策移轉 API
 description: 瞭解如何使用決策移轉服務API，透過自動化相依性解析和復原支援，在沙箱之間移轉決策管理物件。
 feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 3%
+source-wordcount: 1175
+ht-degree: 4%
 
 ---
 
-# Decisioning移轉API {#decisioning-migration-api}
+# 決策移轉 API {#decisioning-migration-api}
 
 決策移轉服務API可讓您將決策管理物件從一個沙箱移轉至另一個沙箱。 移轉程式會以非同步工作流程執行，其中包含相依性分析、執行和選用的復原功能。
 

@@ -11,10 +11,13 @@ TQID: https://experienceleague.adobe.com/6RpNeMQUn2qEfAzQ-Q7f7PgBRJCLqp7WnsoKx0x
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 151
 ht-degree: 5%
@@ -25,7 +28,7 @@ ht-degree: 5%
 
 您可以透過向優惠資料庫API發出PUT請求來修改或更新位置。
 
-如需JSON PUT的詳細資訊，包括可用的作業，請參閱JSON PUT官方檔案。
+如需JSON PUT的詳細資訊，包括可用的作業，請參閱官方JSON PUT檔案。
 
 **Accept和Content-Type標頭**
 

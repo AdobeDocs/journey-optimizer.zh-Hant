@@ -16,17 +16,15 @@ product_v2:
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
 ht-degree: 35%
@@ -71,4 +69,4 @@ ht-degree: 35%
 
 您可以為下列歷程活動定義發生錯誤時的遞補動作： **[!UICONTROL 最佳化]**&#x200B;和&#x200B;**[!UICONTROL 動作]**。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法是解決這個問題。 為避免中斷歷程，您還可以核取選項&#x200B;**[!UICONTROL 在逾時或活動屬性中的錯誤]**&#x200B;的情況下新增替代路徑。 請參閱[此章節](../building-journeys/using-the-journey-designer.md#paths)深入瞭解。
+當動作或條件發生錯誤時，個人的歷程就會停止。 唯一能讓它繼續的方法是解決這個問題。 為避免中斷歷程，您還可以核取選項&#x200B;**[!UICONTROL 在逾時或活動屬性中的錯誤]**&#x200B;的情況下新增替代路徑。 若要了解更多資訊，請參閱[此區段](../building-journeys/using-the-journey-designer.md#paths)。

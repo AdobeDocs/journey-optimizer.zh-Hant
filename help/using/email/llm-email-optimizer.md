@@ -1,21 +1,23 @@
 ---
-title: 針對AI收件匣最佳化電子郵件
+title: 針對 AI 收件匣最佳化電子郵件
 description: 產生並調整您訊息的專屬版本，以便在使用AI最佳化的電子郵件Designer中，AI輔助收件匣使用者端可在摘要郵件或擷取意圖時，使用您的優惠方案和CTA。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: 1115
+ht-degree: 3%
 
 ---
 
-# 針對AI收件匣最佳化電子郵件 {#email-text-optimizer}
+# 針對 AI 收件匣最佳化電子郵件 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]隨附電子郵件通道功能，可協助您建構訊息的特定版本，以改善AI輔助收件匣體驗，例如[!DNL Apple Intelligence]中的[!DNL Google Gemini]和[!DNL Gmail]，讓他們能更準確地回答問題，並根據您的內容摘要郵件，獲得更好的結果。
+[!DNL Adobe Journey Optimizer]隨附電子郵件通道功能，可協助您建構訊息的特定版本，以改善AI輔助收件匣體驗，例如[!DNL Gmail]中的[!DNL Apple Intelligence]和[!DNL Google Gemini]，讓他們能更準確地回答問題，並根據您的內容摘要郵件，獲得更好的結果。
 
 您可以使用此功能來產生和調整訊息的專屬版本，這樣AI輔助收件匣體驗就更有可能呈現您想要的選件、行動號召和詳細資訊，而不是精簡自動產生的文字或不相關內容。
 
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 ## 運作方式 {#how-it-works}
 
-收件者在AI輔助收件匣體驗中可能會詢問的常見問題是&#x200B;*此電子郵件是關於什麼的？*&#x200B;或&#x200B;*這些選件是什麼？*。
+收件者在AI輔助收件匣體驗中可能會詢問的常見問題是&#x200B;*此電子郵件是關於什麼的？* 或&#x200B;*這些選件是什麼？*。
 
 * 這些AI助理提供的答案可能是簡短摘要（例如，訊息為促銷、提及VIP搶先使用權和促銷，並包含產品類別的連結）。 不過，他們仍會忽略行銷人員關心的目標，因為助理從他們有效看到的任何文字中推斷出來，不一定是您打算的完整故事。
 
@@ -41,7 +43,7 @@ ht-degree: 1%
 >
 >確切的AI助理行為取決於收件匣提供者和模型版本。 傳送電子郵件後，外部AI使用者端提供的回答和摘要可能會不正確、不完整或混淆網頁結果。
 >
->針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[的](#inbox-ai-risks)限制和風險。
+>針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[&#128279;](#inbox-ai-risks)的限制和風險。
 
 ## 建議的使用案例 {#use-cases}
 
@@ -111,7 +113,7 @@ ht-degree: 1%
 
 * **品牌與法律曝光度** — 不正確或不完整的AI摘要仍可能會導致客戶對促銷活動、條款或選擇退出語言產生混淆或爭議。 [!DNL Journey Optimizer]無法確保協力廠商的模型能忠實地重現您電子郵件的最佳化版本。
 
-* **[!UICONTROL 針對]**&#x200B;中的AI收件匣最佳化[!DNL Journey Optimizer] — 電子郵件Designer中的製作時間控制項與一般使用者收件匣助理不同。 一律在傳送前稽核產生的內容。
+* **[!UICONTROL 針對[!DNL Journey Optimizer]中的AI收件匣最佳化]** — 電子郵件Designer中的製作時間控制項與一般使用者收件匣助理不同。 一律在傳送前稽核產生的內容。
 
 ## 相關主題 {#related-topics}
 

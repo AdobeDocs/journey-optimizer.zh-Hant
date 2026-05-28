@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: 整合
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
+  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
+  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 7%
+source-wordcount: 1125
+ht-degree: 8%
 
 ---
 
@@ -49,7 +56,7 @@ ht-degree: 7%
 
 1. 輸入使用者的名稱、電子郵件地址，或從清單當中選擇，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
-如果使用者先前未建立，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
+如果之前未建立使用者，請參閱[此文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/abac/permissions-ui/users)。
 
 +++
 

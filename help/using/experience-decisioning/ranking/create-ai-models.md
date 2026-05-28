@@ -13,7 +13,7 @@ TQID: https://experienceleague.adobe.com/Mmplq31zfIn3ieSWbe4Kc3EeJoMJ45vjI51t8Gs
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -22,7 +22,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 771
 ht-degree: 16%
@@ -131,7 +134,7 @@ At this point, you must have:
 
 現在，每次顯示和/或按一下優惠時，您都希望&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=zh-Hant#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}或Mobile SDK自動擷取對應的事件。
 
-若要能夠在事件型別（顯示優惠或按一下優惠）中傳送，您必須在傳送至Adobe Experience Platform的體驗事件中，為每個事件型別設定正確的值。 [了解作法](../data-collection/schema-requirement.md)
+若要能夠在事件型別（顯示優惠或按一下優惠）中傳送，您必須在傳送至Adobe Experience Platform的體驗事件中，為每個事件型別設定正確的值。 [了解做法](../data-collection/schema-requirement.md)
 
 <!--
 ## How-to video {#video}

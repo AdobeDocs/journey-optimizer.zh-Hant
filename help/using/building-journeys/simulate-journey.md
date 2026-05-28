@@ -10,9 +10,11 @@ level: Intermediate
 keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
-source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: 1912
 ht-degree: 2%
 
 ---

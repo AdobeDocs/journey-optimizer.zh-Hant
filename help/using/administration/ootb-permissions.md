@@ -13,21 +13,9 @@ TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcND
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -44,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 2%
@@ -61,7 +49,7 @@ ht-degree: 2%
 | 行銷活動 | **[!DNL Approve & publish Campaigns]**：套用原則時核准和發佈行銷活動的權利。 </br>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</br>**[!DNL Publish campaigns]**：發佈行銷活動的許可權。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
 | 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案的許可權。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警示。</br> **[!DNL Manage file routing]**：讀取、建立、編輯和刪除檔案路由設定。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除通道設定、API認證和Webhook。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯及刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯及刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除Seedlist。</br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br> **[!DNL Manage web subdomain]**：讀取、建立、編輯及刪除Web子網域。 </br>**[!DNL View file routing]**：檔案路由設定的唯讀存取權。</br>**[!DNL View messages general settings]**：訊息一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL Export dashboard data]**：匯出儀表板視覺效果和離線分析的基礎資料。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有的儀表板。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構描述。</br>**[!DNL View custom dashboards]**：使用者定義儀表板的唯讀存取權。</br>**[!DNL View license usage dashboards]**： [授權使用量儀表板](../audience/license-usage.md)的唯讀存取權。 </br>**[!DNL View standard dashboards]**：「設定檔」、「目的地」和「對象」儀表板的唯讀存取權。 |
-| 資料彙集 | **[!DNL Manage datastream]**：讀取、建立及編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
+| 資料收集 | **[!DNL Manage datastream]**：讀取、建立及編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料控管 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織的資料使用原則的唯讀存取權。</br>**[!DNL View privacy console]**：對貴組織的隱私權請求和與隱私權相關的作業的唯讀存取權。</br>**[!DNL View user activity log]**：檢視Platform活動之已記錄稽核記錄的唯讀存取權。 |
 | 資料生命週期 | **[!DNL Manage data lifecycle]**：讀取、建立、編輯和刪除資料生命週期。</br>**[!DNL View data lifecycle]**：資料生命週期的唯讀存取。 |
 | 資料攝取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**：對[目錄]索引標籤中的可用來源以及[瀏覽]索引標籤中的已驗證來源進行唯讀存取。 |

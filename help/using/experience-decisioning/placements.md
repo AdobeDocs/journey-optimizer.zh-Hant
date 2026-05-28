@@ -7,10 +7,15 @@ role: User
 level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: 302
+ht-degree: 12%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 6%
 
 ## 關於版位 {#about}
 
-位置是用於展示決定專案的容器。 它有助於確保正確的選件內容顯示在您訊息的正確位置。
+位置是用於展示決定專案的容器。 它有助於確保正確的產品建議內容顯示在訊息中的正確位置。
 
 當您將決定原則新增到電子郵件時，您需要將版位與將顯示傳回決定專案的元件相關聯。 例如，這可讓您在報告中追蹤不同位置中的決定專案效能。
 

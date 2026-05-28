@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 建立決定
-description: 瞭解如何建立決定
+description: 了解如何建立決策
 badge: label="舊版" type="Informative"
 feature: Decision Management
 topic: Integrations
@@ -13,21 +13,20 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2569
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]的全新決策功能「決策」現在可透過程式碼型體驗和電子郵件通道使用！ [進一步瞭解](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../../experience-decisioning/gs-experience-decisioning.md)
 
 決定是優惠的容器，可運用優惠決定引擎，根據傳遞的目標來挑選最佳優惠。
 
@@ -47,17 +46,17 @@ ht-degree: 0%
 
 建立決定之前，請確定已在優惠資料庫中建立下列元件：
 
-* [版位](../offer-library/creating-placements.md)
+* [刊登版位](../offer-library/creating-placements.md)
 * [集合](../offer-library/creating-collections.md)
-* [個人化優惠](../offer-library/creating-personalized-offers.md)
-* [遞補優惠](../offer-library/creating-fallback-offers.md)
+* [個人化產品建議](../offer-library/creating-personalized-offers.md)
+* [遞補產品建議](../offer-library/creating-fallback-offers.md)
 
-## 建立決定 {#create-activity}
+## 建立決策 {#create-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_details"
->title="優惠決定詳細資料"
->abstract="指定決定的名稱，並視需要定義開始和結束日期和時間。 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。"
+>title="產品建議決策詳細資料"
+>abstract="指定決策的名稱並定義開始和結束的日期與時間 (如有需要)。 若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。"
 
 1. 存取決定清單，然後按一下&#x200B;**[!UICONTROL 建立決定]**。
 
@@ -67,24 +66,24 @@ ht-degree: 0%
 
    ![](../assets/activities-name.png)
 
-1. 若要指派自訂或核心資料使用標籤給決定，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
+1. 若要對決策指派自訂或核心資料使用標籤，請選取「**[!UICONTROL 管理存取權]**」。 [進一步瞭解物件層級存取控制(OLAC)](../../administration/object-based-access.md)
 
-## 定義決定範圍 {#add-decision-scopes}
+## 定義決策範圍 {#add-decision-scopes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_scopes"
->title="決定範圍"
->abstract="設定優惠決定的一或多個範圍，以決定要顯示的優惠。 您可以選取此位置的版位和相關聯的評估准則來完成此操作。"
+>title="決策範圍"
+>abstract="為產品建議決策設定一個或多個範圍，以決定要顯示的產品建議。 設定範圍需要選取一個產品建議放置環境，以及這個產品建議放置環境的相關評估條件。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
 >title="刊登"
->abstract="選取將傳送優惠的位置。"
+>abstract="選取用於傳遞產品建議的放置環境。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
->title="評估准則"
->abstract="評估准則包含與資格限制相關聯的優惠方案集合，以及決定要顯示在位置中的優惠方案的排名方法。 評估條件的順序會決定哪個集合會先評估。 至少需要一個評估標準。"
+>title="評估條件"
+>abstract="評估條件包括與適用性限制相關的產品建議集合，以及決定要在產品建議放置環境中顯示哪些產品建議的排名方法。 評估條件的順序會決定要先評估哪個集合。 需要至少一項評估條件。"
 
 1. 從下拉式清單中選取位置。 它會新增到您決定中的第一個決定範圍。
 
@@ -132,7 +131,7 @@ ht-degree: 0%
 
      瞭解如何在[本節](../offer-library/creating-decision-rules.md)中建立決定規則。
 
-1. 當您選取對象或決定規則時，您可以檢視有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
+1. 當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
    >[!NOTE]
    >
@@ -140,19 +139,19 @@ ht-degree: 0%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [深入瞭解](../offer-activities/configure-offer-selection.md)。
+1. 定義您要用來為每個設定檔選取最佳優惠方案的排名方法。 [了解更多資訊](../offer-activities/configure-offer-selection.md)。
 
    ![](../assets/activity_ranking-method.png)
 
    * 根據預設，如果有多個優惠方案符合此位置的資格，**[!UICONTROL 優惠方案優先順序]**&#x200B;方法會使用優惠方案中定義的值：會將具有最高優先順序分數的優惠方案傳遞給使用者。
 
-   * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [深入瞭解](../offer-activities/configure-offer-selection.md)。
+   * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
 1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
-1. 當您新增多個條件時，將會以特定順序評估這些條件。 將先評估新增至序列的第一個集合，依此類推。 [進一步瞭解](#evaluation-criteria-order)
+1. 當您新增多個條件時，將會以特定順序評估這些條件。 將先評估新增至序列的第一個集合，依此類推。 [了解更多](#evaluation-criteria-order)
 
    若要變更預設順序，您可以拖放收藏集，以視需要重新排序。
 
@@ -162,7 +161,7 @@ ht-degree: 0%
 
    ![](../assets/activity_move-collection.png)
 
-   它們現在有相同的排名，因此將同時進行評估。 [進一步瞭解](#evaluation-criteria-order)
+   它們現在有相同的排名，因此將同時進行評估。 [了解更多](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
@@ -178,7 +177,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >新增多個決定範圍時，評估條件順序將受到影響。 [進一步瞭解](#multiple-scopes)
+   >新增多個決定範圍時，評估條件順序將受到影響。 [了解更多](#multiple-scopes)
 
 ### 評估准則順序 {#evaluation-criteria-order}
 
@@ -253,7 +252,7 @@ ht-degree: 0%
 * 範圍1：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 * 範圍2：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 
-+++ **範例1**
++++ **範例 1**
 
 選取範圍如下：
 
@@ -262,7 +261,7 @@ ht-degree: 0%
 
 +++
 
-+++ **範例2**
++++ **範例 2**
 
 在此範例中，選件1已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -273,7 +272,7 @@ ht-degree: 0%
 
 +++
 
-+++ **範例3**
++++ **範例 3**
 
 在此範例中，選件1和選件3已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -293,7 +292,7 @@ ht-degree: 0%
 * 範圍1：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 * 範圍2：有四個合格優惠方案（優惠方案1、優惠方案2、優惠方案3、優惠方案4），請求傳回兩個優惠方案。
 
-+++ **範例1**
++++ **範例 1**
 
 選取範圍如下：
 
@@ -302,7 +301,7 @@ ht-degree: 0%
 
 +++
 
-+++ **範例2**
++++ **範例 2**
 
 在此範例中，選件1已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -314,7 +313,7 @@ ht-degree: 0%
 
 +++
 
-+++ **範例3**
++++ **範例 3**
 
 在此範例中，選件1和選件3已達到其頻率上限。 [進一步瞭解頻率限定](../offer-library/add-constraints.md#capping)
 
@@ -326,12 +325,12 @@ ht-degree: 0%
 
 +++
 
-## 新增遞補優惠 {#add-fallback}
+## 新增後備產品建議 {#add-fallback}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_fallback"
->title="新增遞補優惠"
->abstract="定義決定範圍後，定義遞補優惠方案，此優惠方案將作為不符合優惠方案適用性規則和限制之客戶的最後手段。"
+>title="新增後備產品建議"
+>abstract="定義決策範圍後，請定義後備產品建議，這是為不符合產品建議適用性規則與限制之客戶顯示產品建議的最後手段。"
 
 在您定義決定範圍後，請定義[遞補優惠方案](../offer-library/creating-fallback-offers.md)，此優惠方案將作為最後手段，提供給不符合優惠方案適用性規則和限制條件的客戶。
 
@@ -400,7 +399,7 @@ ht-degree: 0%
 
   >[!CAUTION]
   >
-  >系統將無法再存取決定及其內容。 此動作無法復原。
+  >系統將無法再存取決定及其內容。 此動作無法還原。
   >
   >如果決定用於其他物件，則無法刪除該決定。
 

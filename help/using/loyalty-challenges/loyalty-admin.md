@@ -11,9 +11,11 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: 1642
 ht-degree: 1%
 
 ---
@@ -66,7 +68,7 @@ ht-degree: 1%
 >
 >除了忠誠度挑戰所需的許可權之外，忠誠度挑戰設定需要管理員存取您的[!DNL Journey Optimizer]執行個體。 請聯絡您的Adobe管理員以取得存取權。
 
-若要開啟設定介面，請瀏覽至&#x200B;**[!UICONTROL 忠誠度]**&#x200B;並選取&#x200B;**[!UICONTROL 忠誠管理員]**。 介面會整理為標籤：
+若要開啟設定介面，請從左側導覽選取&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表。 介面會整理為標籤：
 
 * **全域設定** — 選取您程式的Experience Platform身分名稱空間。 [瞭解如何設定全域設定](#global-settings)
 * **獎勵提供者** — 連線完成客戶進度或完成挑戰時獎勵的API。 [瞭解如何設定獎勵提供者](#reward-providers)
@@ -199,7 +201,7 @@ ht-degree: 1%
 >title="事件識別"
 >abstract="指定[!DNL Journey Optimizer]如何使用識別碼路徑、識別碼值、XDM結構描述ID或這些欄位的組合，來辨識傳入裝載中的事件。"
 
-**[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時參考這些定義。 不符合任何定義的事件會被忽略。
+**[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在任務產生器中建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時，會參考這些定義。 不符合任何定義的事件會被忽略。
 
 當您的組織以自己的JSON格式傳送事件時，**[!UICONTROL 結構描述]**&#x200B;和&#x200B;**[!UICONTROL 轉換器]**&#x200B;會協助[!DNL Journey Optimizer]驗證承載、剖析該承載，並決定是否追蹤活動。
 
