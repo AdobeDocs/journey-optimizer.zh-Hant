@@ -7,8 +7,11 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 801
@@ -106,7 +109,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器[中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -132,7 +135,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
 
 +++更多具有進階格式的選項
 

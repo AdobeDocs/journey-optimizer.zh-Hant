@@ -8,8 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 整合
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 809
@@ -28,7 +30,7 @@ ht-degree: 0%
 
 身為行銷人員，您可以使用已設定的整合來個人化您的內容。 請依照下列步驟操作：
 
-1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]**]。**[!UICONTROL 
+1. 存取您的行銷活動內容，然後按一下[文字]或[HTML **[!UICONTROL 元件]**]中的[新增個人化&#x200B;]&#x200B;**。**
 
    [進一步瞭解元件](../email/content-components.md)
 

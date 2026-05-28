@@ -9,12 +9,21 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 TQID: https://experienceleague.adobe.com/ngycFQdp8CtLTngxpPBlAW9xXtCDzo807YdH1xJ8T8A
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 488
@@ -54,7 +63,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->如果您的沙箱有多個連線，請確認[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}參考了CJA ]**中標示為**[!UICONTROL &#x200B;使用的[連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否則，[!DNL Journey Optimizer]中可能會停用CJA中的&#x200B;[**分析**&#x200B;按鈕](report-cja-manage.md#analyze)。
+>如果您的沙箱有多個連線，請確認[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html){target="_blank"}參考了CJA **中標示為**&#x200B;使用的[連線](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"}。 否則，[!DNL Journey Optimizer]中可能會停用CJA中的&#x200B;[**分析**&#x200B;按鈕](report-cja-manage.md#analyze)。
 
 搭配[!DNL Customer Journey Analytics]使用[!DNL Journey Optimizer]可能會導致報告資料的某些差異，原因如下：
 
@@ -64,7 +73,7 @@ ht-degree: 5%
 
 * **在[!DNL Journey Optimizer]個報表中，傳送的量度也包含重試量度。**
 
-  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。 這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。 但是，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**量度。
+  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。 這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。 但是，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**&#x200B;量度。
 為了減少差異，請使用一週前或之後的日期範圍。
 
 * **報告是由不同的資料來源提供。**

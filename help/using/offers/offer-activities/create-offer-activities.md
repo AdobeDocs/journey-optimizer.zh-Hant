@@ -11,11 +11,18 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2569
@@ -55,7 +62,7 @@ ht-degree: 10%
 
 1. 指定決定的名稱。
 
-1. 視需要定義開始和結束日期及時間，然後按一下[下一步] ****。
+1. 視需要定義開始和結束日期及時間，然後按一下[下一步] **&#x200B;**。
 
    ![](../assets/activities-name.png)
 
@@ -92,7 +99,7 @@ ht-degree: 10%
    >
    >至少需要一個評估准則。
 
-1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。****
+1. 選取包含要考量之優惠方案的優惠方案集合，然後按一下[新增]。**&#x200B;**
 
    ![](../assets/activities-collection.png)
 
@@ -140,7 +147,7 @@ ht-degree: 10%
 
    * 如果您想要使用特定的計算分數來選擇要傳遞的合格優惠方案，請選取&#x200B;**[!UICONTROL 公式]**&#x200B;或&#x200B;**[!UICONTROL AI模型]**。 [了解更多](../offer-activities/configure-offer-selection.md)。
 
-1. 按一下[新增]****&#x200B;為相同位置定義更多條件。
+1. 按一下[新增]&#x200B;**&#x200B;**&#x200B;為相同位置定義更多條件。
 
    ![](../assets/activity_add-collection.png)
 
