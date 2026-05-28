@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 2%
@@ -166,7 +166,7 @@ ht-degree: 2%
 
 您也可以存取每個決定原則的技術詳細資訊，並將其複製到剪貼簿，這對於疑難排解Adobe支援或您的工程團隊的問題很有用。
 
-若要存取決定原則詳細資訊和技術資訊，請遵循下列步驟。
++++ 若要存取決定原則詳細資訊和技術資訊，請遵循下列步驟。
 
 1. 在[設定](../campaigns/review-activate-campaign.md#action-campaign-review)期間按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，或從&#x200B;**[!UICONTROL 行銷活動]**&#x200B;清單中開啟行銷活動以開啟行銷活動摘要。
 
@@ -200,6 +200,8 @@ ht-degree: 2%
 1. 按一下&#x200B;**複製到剪貼簿**&#x200B;圖示，將決定原則的JSON表示形式複製到剪貼簿。
 
    複製的JSON包含您的組織名稱和ID、沙箱名稱、決定原則ID和完整的決定原則結構。 您可以與Adobe支援或您的工程團隊共用這些資訊，以更快疑難排解決策原則問題。
+
++++
 
 ## 使用報告儀表板
 
