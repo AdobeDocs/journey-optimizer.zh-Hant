@@ -23,9 +23,9 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: 700
 ht-degree: 26%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 **電子郵件**&#x200B;管道的決策功能僅在「有限可用性」中提供。 如欲請求存取權，請和您的 Adobe 代表聯絡。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ➡️ [在影片中探索此功能](#video)
 

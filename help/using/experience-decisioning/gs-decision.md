@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 29%
+source-wordcount: 328
+ht-degree: 31%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 29%
 * 更新決定原則和選擇策略設定：允許決定元件重複使用
 * 實驗功能：針對其他內容元件測試決策邏輯以測量效能
 
-**程式碼型體驗**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;管道的所有客戶都可以使用決策。 **電子郵件**&#x200B;管道的決策功能在「有限可用性」中提供。 若要請求存取電子郵件決策，請聯絡您的Adobe代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+**程式碼型體驗**、**電子郵件**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶皆可使用決策。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ➡️ [開始使用決策](../experience-decisioning/gs-experience-decisioning.md)
 

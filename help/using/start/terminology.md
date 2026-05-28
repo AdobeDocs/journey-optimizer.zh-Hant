@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 | 術語 | 定義 |
 |------|------------|
-| **決策** | Journey Optimizer中最新一代的決策架構，建議用於新實作。 提供結構描述型專案目錄管理、彈性的收集規則、可重複使用的決定元件和實驗功能。 可用於程式碼型體驗、推播、簡訊和電子郵件（可用性限制）。 [了解更多](../experience-decisioning/gs-experience-decisioning.md) |
+| **決策** | Journey Optimizer中最新一代的決策架構，建議用於新實作。 提供結構描述型專案目錄管理、彈性的收集規則、可重複使用的決定元件和實驗功能。 可用於程式碼型體驗、推播、簡訊和電子郵件。 [了解更多](../experience-decisioning/gs-experience-decisioning.md) |
 | **決定管理** | Journey Optimizer中的舊版Offer Decisioning功能。 使用中央行銷優惠資料庫和規則型決定引擎，將限制套用至即時客戶設定檔。 現有實施仍支援，但新實施應改用Decisioning。 支援電子郵件、應用程式內、推播、簡訊和直接郵件。 [了解更多](../offers/get-started/starting-offer-decisioning.md) |
 | **選件** | 可呈現給客戶的行銷訊息、折扣或促銷活動。 優惠方案包含適用性規則，可決定哪些客戶可接收優惠方案。 [了解更多](../offers/offer-library/creating-personalized-offers.md) |
 | **決定原則** | 一組規則和策略，用來根據適用性、優先順序和上限規則等限制，決定要在何時向哪個客戶顯示哪個優惠方案。 [了解更多](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Adobe Journey Optimizer經過數年成長發展，這表示有些功能區域有
 |---|---|---|
 | **狀態** | 最新 — 建議用於所有新實作 | **舊版** — 仍受支援，但不再建議用於新實作 |
 | **專案目錄** | 以結構為基礎、靈活的中繼資料 | 集中式優惠資料庫 |
-| **支援的管道** | 程式碼型體驗、推播、簡訊、電子郵件（可用性限制） | 電子郵件、應用程式內、推播、簡訊、直接郵件 |
+| **支援的管道** | 程式碼型體驗、推播、簡訊、電子郵件 | 電子郵件、應用程式內、推播、簡訊、直接郵件 |
 | **金鑰區分符號** | 可重複使用的決策元件、實驗、更廣泛的管道藍圖 | 經驗證的限制引擎；移轉至新專案的決策 |
 | **開始使用** | [決策](../experience-decisioning/gs-experience-decisioning.md) | [決定管理](../offers/get-started/starting-offer-decisioning.md) |
 
