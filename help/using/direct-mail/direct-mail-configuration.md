@@ -171,7 +171,7 @@ ht-degree: 20%
 
 ![沒有額外伺服器欄位的Data Landing Zone檔案路由設定](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
+[!DNL Adobe Experience Platform]的所有客戶都已為每個沙箱布建一個資料登陸區域容器。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}中進一步瞭解資料登陸區域。
 
 >[!ENDTABS]
 
@@ -211,7 +211,7 @@ ht-degree: 20%
 >
 >Base64編碼之後，金鑰將不再包含`-----BEGIN/END RSA PRIVATE KEY-----`標籤，且不得包含任何分行符號。 必須將對應的公開金鑰新增至SFTP伺服器的授權金鑰檔案。
 
-如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
+如需有關將SFTP帳戶連線至Experience Platform的詳細資訊，請參閱[此檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/sftp)。
 
 +++
 

@@ -70,9 +70,9 @@ ht-degree: 5%
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;類別中挑戰對象、個人化和報告使用設定檔。 將您用於忠誠度挑戰的身分識別[名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}與設定檔資料中的成員識別方式以及在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表的&#x200B;**[!UICONTROL 全域設定]**&#x200B;中選取的名稱空間對齊。
 
-對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
+對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 體驗事件 {#experience-events}
 

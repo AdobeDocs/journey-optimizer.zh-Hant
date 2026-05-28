@@ -40,7 +40,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Journey Optimizer建置在&#x200B;**Adobe Experience Platform**&#x200B;上。 您會遇到的許多基本概念（例如即時客戶個人檔案、沙箱、結構描述和資料集）都是Adobe Experience Platform概念，而非Journey Optimizer專屬的概念。 如需這些字詞的定義，請參閱[Adobe Experience Platform字彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}。
+>Adobe Journey Optimizer建置在&#x200B;**Adobe Experience Platform**&#x200B;上。 您會遇到的許多基本概念（例如即時客戶個人檔案、沙箱、結構描述和資料集）都是Adobe Experience Platform概念，而非Journey Optimizer專屬的概念。 如需這些字詞的定義，請參閱[Adobe Experience Platform字彙表](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=zh-Hant){target="_blank"}。
 
 ## 歷程與行銷活動辭彙 {#journey-campaign-terms}
 

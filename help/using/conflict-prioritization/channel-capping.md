@@ -184,4 +184,4 @@ In this scenario, an individual profile:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **在實務中檢視：**&#x200B;瞭解如何在此社群使用案例中在Adobe Journey Optimizer中實作[每日頻率上限](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}。
+➡️ **在實務中檢視：**&#x200B;瞭解如何在此社群使用案例中在Adobe Journey Optimizer中實作[每日頻率上限](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}。
