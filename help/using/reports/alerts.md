@@ -9,12 +9,24 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 3128
@@ -47,7 +59,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -477,7 +489,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
 
 >[!NOTE]
 >
@@ -514,7 +526,7 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
