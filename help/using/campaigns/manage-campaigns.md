@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 10%
@@ -115,6 +115,10 @@ ht-degree: 10%
 
 **僅適用於Action和API觸發的行銷活動：**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
@@ -147,7 +151,7 @@ ht-degree: 10%
 >
 >對於動作和API觸發的行銷活動，**[!UICONTROL 即時]**&#x200B;或&#x200B;**[!UICONTROL 已排程]**&#x200B;狀態旁的「開啟草稿版本」圖示表示新版本已建立且尚未啟用。
 
-### 錯誤指標
+### 錯誤指標 {#error-indicators}
 
 當您的其中一個行銷活動發生錯誤時，警告圖示會出現在行銷活動的狀態旁。 按一下該按鈕，以顯示有關警示的資訊。 這些警報可能會發生在各種情況下，例如行銷活動訊息尚未發佈或如果選擇的設定不正確。
 
