@@ -59,7 +59,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant#permissions){target="_blank"}中的必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -400,7 +400,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 >[!NOTE]
 >
->如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
+>如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"}。
 
 ## 訂閱警報 {#subscribe-alerts}
 
@@ -425,7 +425,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
+若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}。
 
 ### 訂閱方法
 
@@ -461,7 +461,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
 
 >[!TAB 歷程特定訂閱]
 
@@ -519,7 +519,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
 
 ## 管理警報 {#manage-alerts}
 
@@ -581,6 +581,6 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 **警示架構：**
 
 * [Adobe Experience Platform警示概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"} — 瞭解警示架構
-* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 檢視、訂閱和管理警報
-* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 進階整合選項
-* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 完整的可用平台警示清單
+* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant){target="_blank"} — 檢視、訂閱和管理警報
+* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"} — 進階整合選項
+* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"} — 完整的可用平台警示清單
