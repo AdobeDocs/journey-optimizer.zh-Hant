@@ -94,7 +94,7 @@ ht-degree: 78%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 啟用並設定取消清單訂閱
 
@@ -114,7 +114,7 @@ ht-degree: 78%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 設定電子郵件管道的 URL 追蹤
 
