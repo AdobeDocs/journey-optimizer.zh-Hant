@@ -76,7 +76,7 @@ iOS 即時動態
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
 
 簡訊 / MMS / RCS 訊息
 
@@ -134,7 +134,7 @@ LINE 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 網頁
 
@@ -154,7 +154,7 @@ LINE 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hant)
 
 內容卡片
 
