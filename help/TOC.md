@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + [模擬您的歷程](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[開始使用歷程模擬](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[模擬您的歷程](using/building-journeys/simulate-journey-2.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [歷程試運行](using/building-journeys/journey-dry-run.md)
       + [發佈您的歷程](using/building-journeys/publish-journey.md)
@@ -345,7 +347,7 @@ ht-degree: 95%
          + [Mobile 上線快速入門工作流程](using/push/mobile-onboarding-wf.md)
    + 簡訊 / MMS / RCS 管道 {#mobile}
       + [開始使用行動傳訊](using/mobile/get-started-mobile.md)
-      + [建立行動裝置訊息](using/mobile/create-mobile-message.md)
+      + [建立行動訊息](using/mobile/create-mobile-message.md)
       + [設計行動裝置訊息](using/mobile/design-mobile.md)
       + [檢查並傳送您的行動裝置訊息](using/mobile/send-mobile-message.md)
       + [管理行動訊息選擇退出](using/mobile/mobile-opt-out.md)
