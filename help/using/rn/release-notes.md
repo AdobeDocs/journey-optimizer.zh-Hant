@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: de8def41d4f0860456923adc959e76acb790158a
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3164
 ht-degree: 17%
 
 ---
@@ -446,6 +446,14 @@ ht-degree: 17%
 * **Assets選擇器中的跨組織存放庫存取** — 您現在可以直接在Adobe Experience Manager資產選擇器中，順暢地從多個組織的存放庫中選擇資產。
 
 ### 管理 {#may-26-admin}
+
+* **URL引數加密** — 您現在可以加密追蹤中的URL引數，以及新增至您電子郵件訊息的登陸頁面連結。 這為敏感引數資料提供額外的安全層。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 [閱讀更多](../personalization/url-parameter-encryption.md)
+
+  推出日期： 2026年6月1日
+
+* **金鑰登入的新許可權** — 現在需要兩個新許可權，才能存取和管理URL引數加密所需的金鑰： **管理金鑰登入**&#x200B;和&#x200B;**檢視金鑰登入**。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
+
+  推出日期： 2026年6月1日
 
 +++ 即將推出 — **下列資訊可能會變更。**
 

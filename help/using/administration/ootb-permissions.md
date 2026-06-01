@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1210
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 2%
 |-|-|
 | AI 助理 | **[!DNL Enable AI Assistant]**：啟用或存取AI支援的行銷活動和受眾功能。 </br>**[!DNL Generate content]**：存取Journey Optimizer中的AI助理。</br>**[!DNL Manage brand kit]**：讀取、建立、編輯和刪除品牌。 </br>**[!DNL View operational insights]**：系統層級深入分析和監視儀表板的唯讀存取權。 |
 | 行銷活動 | **[!DNL Approve & publish Campaigns]**：套用原則時核准和發佈行銷活動的權利。 </br>**[!DNL Manage campaigns]**：讀取、建立、編輯和刪除行銷活動。</br>**[!DNL Publish campaigns]**：發佈行銷活動的許可權。</br>**[!DNL View campaigns]**：行銷活動的唯讀存取權。</br>**[!DNL View campaigns report]**：讀取和編輯行銷活動報告。 |
-| 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案的許可權。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警示。</br> **[!DNL Manage file routing]**：讀取、建立、編輯和刪除檔案路由設定。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除通道設定、API認證和Webhook。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯及刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯及刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除Seedlist。</br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br> **[!DNL Manage web subdomain]**：讀取、建立、編輯及刪除Web子網域。 </br>**[!DNL View file routing]**：檔案路由設定的唯讀存取權。</br>**[!DNL View messages general settings]**：訊息一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
+| 頻道設定 | **[!DNL Export suppression list]**：存取將隱藏清單匯出為CSV檔案的許可權。</br>**[!DNL Manage alerts]**：啟用/停用行銷活動、訊息和權益的警示。</br> **[!DNL Manage file routing]**：讀取、建立、編輯和刪除檔案路由設定。</br> **[!DNL Manage IP pools]**：讀取、建立、編輯和刪除ip集區。 </br>**[!DNL Manage Key Registry]**：檢視、建立、旋轉和撤銷機碼登入中的機碼。</br>**[!DNL Manage landing page settings]**：讀取、建立、編輯和刪除登入頁面設定。</br> **[!DNL Manage messages general settings]**：讀取、建立、編輯和刪除訊息一般設定。</br>**[!DNL Manage messages presets]**：讀取、建立、編輯和刪除通道設定、API認證和Webhook。</br>**[!DNL Manage PTR records]**：讀取和編輯PTR記錄。 </br>**[!DNL Manage SMS settings]**：讀取、建立、編輯及刪除SMS設定。</br>**[!DNL Manage SMS subdomains]**：讀取、建立、編輯及刪除SMS子網域。</br> **[!DNL Manage Seedlist]**：讀取、建立、編輯和刪除Seedlist。</br> **[!DNL Manage subdomains delegation]**：讀取、建立、編輯和刪除子網域委派。 </br>**[!DNL Manage suppression rules]**：存取讀取、建立、編輯和刪除隱藏規則。</br> **[!DNL Manage web subdomain]**：讀取、建立、編輯及刪除Web子網域。 </br>**[!DNL View file routing]**：檔案路由設定的唯讀存取權。</br>**[!DNL View Key Registry]**：對機碼登入清單和機碼詳細資料的唯讀存取權。</br>**[!DNL View messages general settings]**：對郵件一般設定的唯讀存取權。</br> **[!DNL View messages presets]**：訊息預設集的唯讀存取權。</br> **[!DNL View PTR records]**：對PTR記錄的唯讀存取權。</br>**[!DNL View suppression list]**：讀取和匯出本機隱藏清單。 |
 | 儀表板 | **[!DNL Export dashboard data]**：匯出儀表板視覺效果和離線分析的基礎資料。 </br>**[!DNL Manage custom dashboards]**：可讓您建立新儀表板或編輯現有的儀表板。</br>**[!DNL Manage standard dashboards]**：可讓您建立自訂Widget，並透過Widget資料庫編輯Widget結構描述。</br>**[!DNL View custom dashboards]**：使用者定義儀表板的唯讀存取權。</br>**[!DNL View license usage dashboards]**： [授權使用量儀表板](../audience/license-usage.md)的唯讀存取權。 </br>**[!DNL View standard dashboards]**：「設定檔」、「目的地」和「對象」儀表板的唯讀存取權。 |
 | 資料收集 | **[!DNL Manage datastream]**：讀取、建立及編輯資料串流。</br>**[!DNL View datastream]**：資料串流的唯讀存取權。 |
 | 資料控管 | **[!DNL Manage usage labels]**：讀取、建立、編輯和刪除標籤。</br>**[!DNL Manage data usage policies]**：讀取、建立、編輯和刪除資料使用原則。</br>**[!DNL View data usage policies]**：屬於您組織的資料使用原則的唯讀存取權。</br>**[!DNL View privacy console]**：對貴組織的隱私權請求和與隱私權相關的作業的唯讀存取權。</br>**[!DNL View user activity log]**：檢視Platform活動之已記錄稽核記錄的唯讀存取權。 |

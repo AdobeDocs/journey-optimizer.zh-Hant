@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年5月 {#may-2026}
+
+* 新增了兩個新的高階許可權：**管理機碼登入** （可讓使用者檢視、建立、旋轉和撤銷機碼登入中的機碼）和&#x200B;**檢視機碼登入** （可讓使用者檢視機碼登入清單和機碼詳細資訊）。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
 
 * 訊息&#x200B;**中的**&#x200B;使用決定原則檔案現在說明如何從行銷活動摘要檢視決定原則的完整結構，並複製JSON技術摘要至剪貼簿以進行疑難排解。 [閱讀更多](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
@@ -549,7 +551,7 @@ ht-degree: 89%
 * 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀更多](../content-management/generative-full-content.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [深入了解](../content-management/generative-full-content.md#video)
 
 +++
 

@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: 1516
 ht-degree: 0%
 
 ---
@@ -207,10 +207,10 @@ ht-degree: 0%
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
-     -->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * **[!DNL View campaigns report]**&#x200B;高階許可權可讓使用者閱讀及編輯行銷活動報告。
 
@@ -222,9 +222,9 @@ ht-degree: 0%
      <!--
       * experiments.read
       * experiments_report.read
-     -->
+      -->
 
-+++
+  +++
 
 ## 決定管理資源 {#decisions-permissions}
 
@@ -352,6 +352,16 @@ ht-degree: 0%
 
   +++
 
+* **[!DNL Manage key registry]**&#x200B;高階許可權可讓使用者檢視、建立、旋轉和撤銷機碼登入中的機碼。
+
+  +++ 此許可權包括下列低階許可權：  
+
+   * Journey Optimizer專用：
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * **[!DNL Manage landing page settings]**&#x200B;高階許可權可讓使用者讀取、建立及編輯登陸頁面子網域和預設集設定。
 
   +++ 此許可權包括下列低階許可權： 
@@ -408,7 +418,7 @@ ht-degree: 0%
 
   +++
 
-* **[!DNL Manage Seedlist]**&#x200B;高階許可權可讓使用者讀取、建立、編輯及刪除Seedlist。
+* **[!DNL Manage seed lists]**&#x200B;高階許可權可讓使用者讀取、建立、編輯和刪除種子清單。
 
   +++ 此許可權包括下列低階許可權： 
 
@@ -459,6 +469,15 @@ ht-degree: 0%
    * Journey Optimizer專用：
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]**&#x200B;高階許可權可讓使用者檢視機碼登入清單和機碼詳細資料。
+
+  +++ 此許可權包括下列低階許可權：  
+
+   * Journey Optimizer專用：
+      * key-registry.read
 
   +++
 

@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="有限可用性" type="Informative"
 keywords: 加密， URL，追蹤，登陸頁面，金鑰登入，個人化，安全性，隱私權，沙箱
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # 加密URL引數 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->此功能在「有限可用性」中提供。 請聯絡您的 Adobe 代表以取得存取權。
 >
 >此功能目前僅適用於電子郵件頻道。
 
@@ -54,15 +51,9 @@ ht-degree: 2%
 
 您必須先建立金鑰，才能使用URL引數加密協助程式。 若要執行此操作，請遵循下列步驟。
 
->[!NOTE]
->
->目前沒有存取和管理金鑰的特定許可權。 授與&#x200B;**[!UICONTROL 管理]**&#x200B;下&#x200B;**[!UICONTROL 組態]**&#x200B;區段存取權的角色也會授與金鑰登入的存取權。 不過，預計會在未來版本中推出特定許可權。
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>若要存取和管理機碼，您必須授予&#x200B;**檢視機碼登入**&#x200B;和&#x200B;**管理機碼登入**&#x200B;許可權。 [了解更多](../administration/high-low-permissions.md#administration-permissions)
 
 1. 移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 組態]**。
 
