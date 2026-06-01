@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 2%
@@ -67,10 +67,9 @@ ht-degree: 2%
 | 協調的行銷活動 | **[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯及刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調解。</br>**[!DNL Publish orchestrated campaigns]**：發佈協調的行銷活動。 使用訊號觸發協調行銷活動也需要此許可權。 </br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL View orchestrated campaigns]**：讀取並編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。 |
 | 輪廓管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義來產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估的對象區段匯出至資料集。</br>**[!DNL Import audience segments]**：將外部對象區段匯入Adobe Experience Platform，以用於區段和啟動。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL Manage segments]**：讀取、建立、編輯和刪除對象區段定義。</br>**[!DNL View merge policies]**：對可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：對可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：對可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯及刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新及刪除Query Service存取權不會到期的認證。 |
-| 報告 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
+| 報表 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL Reset sandboxes]**：可重設沙箱。</br>**[!DNL Share sandboxes]**：可共用沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：可重設沙箱。 |
 | 翻譯服務 | **[!DNL Manage translation in house]**：讀取、建立、編輯和刪除內部翻譯。</br>**[!DNL Manage translation projects]**：讀取、建立、編輯和刪除翻譯專案。</br> **[!DNL Manage translation reviews]**：讀取、建立、編輯和刪除翻譯評論。</br>**[!DNL Manage translation settings]**：讀取、建立、編輯和刪除翻譯設定。</br>**[!DNL Manage translation tasks]**：讀取、建立、編輯和刪除翻譯工作。</br>**[!DNL View translation in house]**：內部翻譯的唯讀存取權。</br>**[!DNL View translation projects]**：翻譯專案的唯讀存取權。</br>**[!DNL View translation reviews]**：翻譯評論的唯讀存取權。</br>**[!DNL View translation tasks]**：翻譯工作的唯讀存取權。 |
 
 {style="table-layout:fixed"}
-

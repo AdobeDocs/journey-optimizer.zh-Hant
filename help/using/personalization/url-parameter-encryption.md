@@ -13,7 +13,7 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 1%
@@ -96,4 +96,3 @@ ht-degree: 1%
    >[!NOTE]
    >
    >僅應選取作用中金鑰，以在個人化編輯器中加密新值。 請勿將撤銷的金鑰用於新內容。
-

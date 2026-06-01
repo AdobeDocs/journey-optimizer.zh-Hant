@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1121
 ht-degree: 4%
@@ -384,3 +384,4 @@ Some edu specific content
 * 撤銷的金鑰不得用於新加密。 遵循您的安全性原則進行輪換和解除委任。
 
 * 加密程式需要大量資源，使用`Encrypt`函式可能會影響轉譯器時的輸送量。
+
