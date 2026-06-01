@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +84,7 @@ Journey Dirun提供：
 * **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[&#128279;](#journey-dry-run-start)時，您可以變更此行為。
 
 * **回應**&#x200B;節點未執行：進入它的所有設定檔都將成功結束。 但是，下列優先順序規則適用：
+
    * 如果&#x200B;**回應**&#x200B;節點同時搭配一或多個&#x200B;**單一事件**&#x200B;節點使用，則設定檔將一律透過回應事件。
    * 如果&#x200B;**反應**&#x200B;節點同時與一或多個&#x200B;**反應事件**&#x200B;節點一起使用，則設定檔將一律通過畫布中的第一個節點（頂端的節點）。
 
@@ -152,7 +153,7 @@ Journey Dirun提供：
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。
-當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。舉例來說，如果歷程的最新版本為模擬執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略模擬執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 
