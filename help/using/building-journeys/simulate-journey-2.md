@@ -12,7 +12,7 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
 workflow-type: tm+mt
 source-wordcount: 1319
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
       ![模擬的使用者選擇面板](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    ![模擬的使用者選擇面板](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![模擬的使用者選擇面板](assets/simulate-manage.png)
 
