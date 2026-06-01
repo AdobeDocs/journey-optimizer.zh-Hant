@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 1. 針對每個欄位，定義將顯示在歷程畫布中的標籤。
 
-   ![篩選集合函式與條件產生器介面](assets/uc-collection-2.png){width="70%" align="left"}
+   ![篩選集合函式與條件產生器介面](assets/uc-collection-2.png){width="70%"}
 
 1. 建立您的歷程並新增您建立的自訂動作。 請在[此頁面](../building-journeys/using-custom-actions.md)了解更多。
 
@@ -142,7 +142,7 @@ ht-degree: 3%
 
 1. 對於以下每個物件欄位，輸入來源XDM結構描述中的對應欄位名稱。 如果名稱相同，則不需要這樣做。 在我們的範例中，我們只需要定義`product id`和&quot;color&quot;。
 
-   ![具有排序組態的集合排序函式](assets/uc-collection-4.png){width="50%" align="left"}
+   ![具有排序組態的集合排序函式](assets/uc-collection-4.png){width="50%"}
 
 針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](functions/list-functions.md#filter)和[交集](functions/list-functions.md#intersect)函式：
 
@@ -206,7 +206,7 @@ ht-degree: 3%
 
 針對異質型別和陣列陣列，陣列是以listAny型別定義。 您只能對應個別專案，但無法將陣列變更為變數。
 
-![具有混合資料型別和欄位選擇的異質集合](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![具有混合資料型別和欄位選擇的異質集合](assets/uc-collection-heterogeneous.png){width="70%"}
 
 異質型別範例：
 

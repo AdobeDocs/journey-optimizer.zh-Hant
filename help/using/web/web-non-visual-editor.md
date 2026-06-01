@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    按一下您修改旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 資訊]**&#x200B;以顯示其詳細資料。 如果需要，您也可以&#x200B;**[!UICONTROL 刪除修改]**。
 
-   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%"}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 此外，您可以選取網站的任何元素並追蹤該元素上的點按次數。 若要啟用點選追蹤並定義要追蹤的動作，請按一下左側邊欄上的第二個圖示，如下所示：
 
-   ![](assets/web-campaign-click.png){width="50%" align="left"}
+   ![](assets/web-campaign-click.png){width="50%"}
 
    使用&#x200B;**新增元件**&#x200B;按鈕來選取要追蹤的新動作。 在[本節](monitor-web-experiences.md#use-click-tracking)中進一步瞭解點選追蹤使用量。
 

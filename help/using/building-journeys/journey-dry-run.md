@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ Journey Dirun提供：
 
   為了增強可讀性，自訂動作和管道活動在執行「練習」時會顯示為灰色。
 
-  ![在試執行歷程中灰色的動作活動](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![在試執行歷程中灰色的動作活動](assets/dry-run-greyed-activities.png){width="80%"}
 
 * **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[&#128279;](#journey-dry-run-start)時，您可以變更此行為。
 
@@ -107,7 +107,7 @@ Journey Dirun提供：
 
 1. 如果您要啟用或停用&#x200B;**等待**&#x200B;活動和&#x200B;**外部資料來源**&#x200B;呼叫，請選取，並確認試執行出版物。
 
-   ![確認歷程試執行出版物](assets/dry-run-publish.png){width="50%" align="left"}
+   ![確認歷程試執行出版物](assets/dry-run-publish.png){width="50%"}
 
    轉換發生時，會出現狀態訊息&#x200B;**[!UICONTROL 啟動試用]**。
 
@@ -141,7 +141,7 @@ Journey Dirun提供：
 1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以結束測試。
 確認畫面中提供過去24小時與所有時間報表的連結。
 
-   ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%" align="left"}
+   ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%"}
 
 1. 按一下&#x200B;**[!UICONTROL 返回草稿]**&#x200B;以進行確認。
 

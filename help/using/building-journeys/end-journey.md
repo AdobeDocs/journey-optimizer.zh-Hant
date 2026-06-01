@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1008
 ht-degree: 2%
@@ -92,7 +92,7 @@ ht-degree: 2%
 | 讀取客群 | 是 | 無 | 執行開始後91天 |
 | 讀取客群 | 是 | 是 | 達到結束日期時 |
 | 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
-| 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
+| 事件觸發的歷程 | 不適用 | 否 | 在UI中或透過API關閉時 |
 
 ### 關閉新入口 {#close-to-new-entrances}
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 1. 在&#x200B;**[!UICONTROL 歷程]**&#x200B;清單中，按一下您要關閉的歷程。
 1. 在右上方，按一下向下箭頭。
 
-   ![顯示結束歷程和替代動作的完成選項功能表](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![顯示結束歷程和替代動作的完成選項功能表](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 關閉新入口]**，然後在對話方塊中確認。
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 1. 在&#x200B;**[!UICONTROL 歷程]**&#x200B;清單中，按一下您要停止的歷程。
 1. 在右上方，按一下向下箭頭。
 
-   ![其他完成選項，包括關閉歷程和清理](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![其他完成選項，包括關閉歷程和清理](assets/finish_drop_down_list2.png){width="50%" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL 停止]**，然後在對話方塊中確認。
 

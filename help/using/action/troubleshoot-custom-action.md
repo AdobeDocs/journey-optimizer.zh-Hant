@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 作為管理員，使用&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;功能，直接從Adobe Journey Optimizer發出真正的API呼叫，以驗證您的自訂動作設定。 此功能可確保請求結構、標頭、驗證和裝載的格式正確，然後才會用於歷程中。
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 此功能可簡化測試和驗證程式，確保自訂動作在即時歷程中正常運作。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 導覽至&#x200B;**動作**&#x200B;設定畫面，然後選取自訂動作。
 1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
-   ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
+   ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%"}
 1. 在快顯視窗中，允許您指定請求引數：
 
    * 如果&#x200B;**自訂動作方法是GET**，則不需要裝載。

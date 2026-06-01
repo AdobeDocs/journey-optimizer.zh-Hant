@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 10%
@@ -271,7 +271,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 若要刪除行銷活動，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取&#x200B;**[!UICONTROL 刪除]**。
 
-![](assets/delete-a-campaign.png){width="70%" align="left"}
+![](assets/delete-a-campaign.png){width="70%"}
 
 >[!IMPORTANT]
 >

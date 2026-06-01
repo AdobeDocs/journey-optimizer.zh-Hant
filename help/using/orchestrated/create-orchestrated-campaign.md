@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 64%
@@ -163,7 +163,7 @@ ht-degree: 64%
 
 在下列範例中，活動已設定為讓「協調的行銷活動」在2025年10月1日至2026年1月1日這週內的每一天，於上午9點和12點每日執行兩次。
 
-![排程器設定為每天執行兩次行銷活動，時間為 9 點與 12 點](assets/scheduler-sample.png){width="50%" align="left"}
+![排程器設定為每天執行兩次行銷活動，時間為 9 點與 12 點](assets/scheduler-sample.png){width="50%"}
 
 ## 後續步驟 {#next}
 

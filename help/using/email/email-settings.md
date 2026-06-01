@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 在管道設定的專用區段中定義電子郵件設定，如下所述。
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 電子郵件設定依照下列邏輯傳送通訊：
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 選取要與設定關聯的 IP 集區。 [了解更多](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 當選取的 IP 集區處於[編輯](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 處理中]**&#x200B;狀態）且從未與所選子網域關聯時，您無法繼續建立設定。 否則，仍會使用 IP 集區/子網域關聯的最舊版本。 如果是這種情況，請將設定儲存為草稿，並在 IP 集區具有&#x200B;**[!UICONTROL 成功]**&#x200B;狀態時重試。
 
@@ -107,7 +107,7 @@ ht-degree: 96%
 
 ## 標頭參數 {#email-header}
 
-在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入使用該組態傳送之電子郵件型別的&#x200B;**寄件者**、**回覆**&#x200B;及&#x200B;**錯誤**&#x200B;值。 [進一步了解](header-parameters.md)
+在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入使用該組態傳送之電子郵件型別的&#x200B;**寄件者**、**回覆**&#x200B;及&#x200B;**錯誤**&#x200B;值。 [了解更多](header-parameters.md)
 
 
 或者，當傳送方與&#x200B;**來自**&#x200B;作者不同時，設定要新增至電子郵件標題的其他&#x200B;**寄件者**&#x200B;名稱和電子郵件。 [了解更多](header-parameters.md#sender-header)

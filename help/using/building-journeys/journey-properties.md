@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 13%
@@ -391,7 +391,7 @@ ht-degree: 13%
 
 您可以新增多個退出條件。 退出條件現在已啟用，並將在歷程的每個步驟進行評估。
 
-![顯示歷程終止對象條件的退出條件面板](assets/exitcriteria-sample.png){width="40%" align="left"}
+![顯示歷程終止對象條件的退出條件面板](assets/exitcriteria-sample.png){width="40%"}
 
 
 ### 以設定檔屬性為基礎的退出條件 {#profile-exit-criteria}
