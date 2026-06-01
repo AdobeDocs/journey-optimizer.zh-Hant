@@ -6,16 +6,11 @@ description: 了解如何使用測試活動
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OzqcBFe2GTNsnrphPL-osBkMUsjQZBJ5DO1GHO13oBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 26%
@@ -58,7 +53,7 @@ ht-degree: 26%
 
    ![](../assets/test-2.png)
 
-1. 若要在兩個以上的結果上分支，請按一下[新增條件] **&#x200B;**，並為每個額外的轉變定義標籤和條件。
+1. 若要在兩個以上的結果上分支，請按一下[新增條件] ****，並為每個額外的轉變定義標籤和條件。
 
 1. 在執行階段，行銷活動會依序評估條件，並遵循符合的第一個條件。 若沒有符合的條件，執行將遵循&#x200B;**[!UICONTROL 預設條件]** （若已設定）；否則行銷活動會在&#x200B;**[!UICONTROL Test]**&#x200B;活動處停止。
 
