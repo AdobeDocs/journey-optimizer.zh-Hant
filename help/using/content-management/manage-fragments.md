@@ -9,24 +9,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 18%
@@ -39,7 +28,7 @@ ht-degree: 18%
 
 若要管理您的片段，請從&#x200B;**[!UICONTROL 內容管理]** > **[!UICONTROL 片段]**&#x200B;左側功能表存取片段清單。
 
-目前沙箱上建立的所有片段 — 使用[另存為片段](save-fragments.md)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表[&#128279;](create-fragments.md#create-fragments)中的 — 都會顯示。
+目前沙箱上建立的所有片段 — 使用[另存為片段](save-fragments.md)選項從&#x200B;**[!UICONTROL 片段]**&#x200B;功能表](create-fragments.md#create-fragments)中的[ — 都會顯示。
 
 左側的窗格可讓您將片段整理到資料夾中。 依預設，會顯示所有片段。 選取資料夾時，只會顯示所選資料夾中包含的片段和資料夾。 [了解更多](#folders)
 
@@ -55,7 +44,7 @@ ht-degree: 18%
 * 狀態（是否封存）
 * 標記
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 您也可以選擇顯示所有片段，或僅顯示目前使用者建立或修改的專案。
 
@@ -102,7 +91,7 @@ ht-degree: 18%
 
    ![](assets/fragment-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內的片段清單上方，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -159,7 +148,7 @@ ht-degree: 18%
 
 1. 如果正在編輯的片段具有&#x200B;**[!UICONTROL 即時]**&#x200B;狀態，請按一下&#x200B;**[!UICONTROL 修改]**&#x200B;按鈕以建立片段的草稿版本。 按一下「**[!UICONTROL 確認]**」。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +158,7 @@ ht-degree: 18%
 
 1. 若要修改片段的內容，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕，然後更新您的內容，就像從頭開始建立片段時所做的一樣。 [瞭解如何建立片段](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +184,13 @@ ht-degree: 18%
 
 1. 使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕複製現有片段。
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. 選取要開啟的重複片段，然後按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;按鈕。
 
 1. [將想要的新屬性](../personalization/personalization-build-expressions.md#add)新增到重複的片段，例如個人化欄位。
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. 儲存變更並發佈新片段。 [了解作法](create-fragments.md#publish)
 
@@ -214,11 +203,11 @@ ht-degree: 18%
 
 您可以顯示目前使用片段的歷程、行銷活動和內容範本清單。 若要這麼做，請在片段清單或片段屬性畫面中，從&#x200B;**[!UICONTROL 更多動作]**&#x200B;選單中選取&#x200B;**[!UICONTROL 探索參考]**。
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 選取索引標籤以在歷程、行銷活動、範本和片段之間切換。 您可以檢視其狀態，然後按一下名稱，重新導向至已引用片段的對應專案。
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +219,7 @@ ht-degree: 18%
 
 若要這麼做，請按一下所需片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 封存]**。 它會從片段清單中消失，從而防止使用者在未來的電子郵件或範本中使用它。
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +227,7 @@ ht-degree: 18%
 
 若要取消封存片段，請篩選&#x200B;**[!UICONTROL 已封存]**&#x200B;專案，然後從&#x200B;**[!UICONTROL 更多動作]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 取消封存]**。 現在仍可從片段清單存取，並可用於任何電子郵件或範本。
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## 將片段匯出至另一個沙箱 {#export}
 

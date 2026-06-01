@@ -10,28 +10,15 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +58,7 @@ ht-degree: 5%
 
 1. 選取如何管理目前位於歷程中的設定檔。
 
-   ![暫停歷程選項](assets/pause-confirm.png){width="50%" align="left"}
+   ![暫停歷程選項](assets/pause-confirm.png){width="50%"}
 
    您可以：
 
@@ -84,7 +71,7 @@ ht-degree: 5%
 
 可在您組織的暫停歷程中保留的設定檔最大數量會顯示在歷程詳細目錄中。 只有在至少一個歷程暫停時，它才會顯示。 此指標也會顯示暫停的歷程總數。 每30分鐘重新整理一次。 進一步瞭解[護欄和限制](#guardrails-and-limitations)。
 
-![目前暫停的歷程和設定檔數目](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![目前暫停的歷程和設定檔數目](assets/profiles-in-paused-journeys.png){width="50%"}
 
 從您的歷程清單中，您可以暫停一或多個&#x200B;**即時**&#x200B;歷程。 若要暫停歷程群組（_大量暫停_），請在清單中選取它們，然後按一下畫面底部藍色列中的&#x200B;**暫停**&#x200B;按鈕。 **暫停**&#x200B;按鈕僅在選取&#x200B;**即時**&#x200B;歷程時可用。
 
@@ -178,13 +165,13 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
 * 歷程版本最多可暫停&#x200B;**14天**，整個組織的暫停歷程中最多允許&#x200B;**100萬個設定檔**。
-此限制會計算所有暫停歷程中保留的設定檔總數，而非不同的設定檔。 例如，如果在兩個暫停的歷程中保留相同的5M設定檔，則會達到10M的限制。
-每30分鐘檢查一次此限制。 這表示您可能會暫時超過1000萬的臨界值，但一旦系統偵測到，則會自動捨棄任何其他設定檔。
+此限制會計算所有暫停歷程中保留的設定檔總數，而非不同的設定檔。例如，如果在兩個暫停的歷程中保留相同的5M設定檔，則會達到10M的限制。
+每30分鐘檢查一次此限制。這表示您可能會暫時超過1000萬的臨界值，但一旦系統偵測到，則會自動捨棄任何其他設定檔。
 
   如果您繼續歷程以將保留的個人檔案數恢復到限制以下，歷程將立即繼續 — 但更新個人檔案計數最多可能需要30分鐘。 在這段期間，系統仍可能將這些設定檔視為已暫停。
 
@@ -231,7 +218,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

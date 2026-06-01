@@ -10,24 +10,12 @@ level: Experienced
 keywords: 動作，協力廠商，自訂，歷程， API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +28,7 @@ ht-degree: 1%
 
 作為管理員，使用&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;功能，直接從Adobe Journey Optimizer發出真正的API呼叫，以驗證您的自訂動作設定。 此功能可確保請求結構、標頭、驗證和裝載的格式正確，然後才會用於歷程中。
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 此功能可簡化測試和驗證程式，確保自訂動作在即時歷程中正常運作。
 
@@ -66,8 +54,8 @@ ht-degree: 1%
 若要測試自訂動作，請遵循下列步驟：
 
 1. 導覽至&#x200B;**動作**&#x200B;設定畫面，然後選取自訂動作。
-1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**&#x200B;按鈕。
-   ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%" align="left"}
+1. 按一下動作設定畫面底部的&#x200B;**[!UICONTROL 傳送測試要求]**按鈕。
+   ![在動作設定面板中傳送測試要求按鈕](assets/test-request.png){width="70%"}
 1. 在快顯視窗中，允許您指定請求引數：
 
    * 如果&#x200B;**自訂動作方法是GET**，則不需要裝載。
