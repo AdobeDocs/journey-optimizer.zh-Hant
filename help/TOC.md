@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3346'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
       + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025 版](using/rn/release-notes-2025.md)
-      + [2024 年](using/rn/release-notes-2024.md)
+      + {hide-from-toc}[2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
@@ -38,6 +38,7 @@ ht-degree: 95%
       + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
       + [護欄與限制](using/start/guardrails.md)
+      + {hide-from-toc}[依據封裝的功能](using/start/ajo-packages.md)
    + 角色快速入門 {#by-role}
       + [角色與職責](using/start/quick-start.md)
       + [管理員快速入門](using/start/path/administrator.md)
@@ -586,7 +587,7 @@ ht-degree: 95%
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 報告 {#reporting}
-   + [報告](/help/rp_landing_pages/reporting-landing-page.md)
+   + [報表](/help/rp_landing_pages/reporting-landing-page.md)
    + [開始使用報告](using/reports/gs-reports.md)
    + 即時報告 {#live-report}
       + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)
