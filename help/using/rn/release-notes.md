@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
+source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -313,7 +313,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>推出日期：2026年6月初</p>
+<p>推出日期： 2026年6月3日</p>
 </td>
 </tr>
 </tbody>
