@@ -5,18 +5,14 @@ title: 使用載入檔案活動
 description: 瞭解如何使用載入檔案活動，在CSV或TXT檔案中鎖定協調行銷活動對象，而不將檔案擷取至Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +21,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用它來處理「協調的行銷活動」畫布上儲存在外部檔案中的設定檔和資料，並定義行銷活動對象。 檔案資料在執行時消耗，且不會儲存為Adobe Experience Platform資料集。"
+>abstract="**載入檔案**&#x200B;活動是一項&#x200B;**資料管理**&#x200B;活動。 請用它來處理「協調的行銷活動」畫布上儲存在外部檔案中的輪廓和資料，並定義行銷活動客群。 檔案資料會在執行時耗用，不會作為 Adobe Experience Platform 資料集保留。"
 
-**[!UICONTROL 載入檔案]**&#x200B;活動是&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
+**[!UICONTROL 載入檔案]**&#x200B;活動是一項&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
 
 >[!AVAILABILITY]
 >

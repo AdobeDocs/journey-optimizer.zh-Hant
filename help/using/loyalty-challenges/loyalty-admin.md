@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="全域設定"
->abstract="全域設定可定義忠誠度挑戰的組織層級設定，包括用於識別事件和挑戰中成員的身分名稱空間。"
+>abstract="全域設定定義了忠誠度挑戰的組織層級設定，包括用於識別事件和挑戰中成員的身分識別命名空間。"
 
 開啟&#x200B;**[!UICONTROL 全域設定]**&#x200B;標籤，並在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式清單中選取Adobe Experience Platform [身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)以利忠誠度挑戰。 此名稱空間必須符合在您的資料中識別成員設定檔的方式。
 
@@ -94,22 +94,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
 >title="獎勵提供者"
->abstract="獎勵提供者定義外部系統，當客戶完成挑戰時，[!DNL Journey Optimizer]會呼叫此外部系統以履行獎勵。 設定每個整合的提供者端點、獎勵定義、Proxy設定和驗證。"
+>abstract="獎勵提供者定義了外部系統，當客戶完成挑戰時，[!DNL Journey Optimizer] 便會呼叫此外部系統來履行獎勵。 請設定每個整合的提供者端點、獎勵定義、Proxy 設定和驗證。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
 >title="獎勵提供者連線"
->abstract="設定[!DNL Journey Optimizer]如何連線至您的獎勵API：提供者名稱、說明、端點URL，以及履行呼叫所需的HTTP標頭。"
+>abstract="請設定 [!DNL Journey Optimizer] 如何連接至您的獎勵 API：提供者名稱、說明、端點 URL，以及履行呼叫所需的 HTTP 標頭。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
 >title="獎勵定義"
->abstract="獎勵定義會指定此提供者可以發行的每個獎勵型別（例如，點數或星號），以及完成獎勵時傳送的裝載[!DNL Journey Optimizer]。"
+>abstract="獎勵定義指定了此提供者可以核發的每個獎勵類型 (例如，點數或星級)，以及履行獎勵時 [!DNL Journey Optimizer] 所傳送的承載。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
->title="獎勵Proxy"
->abstract="可選擇透過Proxy伺服器路由履行呼叫，而非直接傳送至您的獎勵API端點。 設定主機、連線埠、證明資料，以及是否已啟用Proxy。 認證值通常看起來像： `{ "userName": "test", "password": "xxxx" }`"
+>title="獎勵 Proxy"
+>abstract="您也可以選擇透過 Proxy 伺服器來路由履行呼叫，而非直接將其傳送至您的獎勵 API 端點。 請設定主機、連接埠、認證，以及 Proxy 是否已啟用。 認證值通常看起來如下：`{ "userName": "test", "password": "xxxx" }`"
 
 **獎勵提供者**&#x200B;會通知[!DNL Journey Optimizer]當記錄挑戰進度或完成挑戰時，要將履行呼叫傳送到何處。 例如，將忠誠度點數或起點數歸於成員帳戶的API。
 
@@ -140,7 +140,7 @@ ht-degree: 1%
 
    +++
 
-   +++獎勵Proxy
+   +++獎勵 Proxy
 
    透過中繼伺服器路由履行呼叫，而非直接傳送至您的端點。 在獎勵提供者和&#x200B;**[!UICONTROL 建立Proxy]**&#x200B;畫面上，使用&#x200B;**[!UICONTROL 認證]**&#x200B;欄位進行Proxy驗證。
 
@@ -189,17 +189,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="事件定義"
->abstract="事件定義會告知[!DNL Journey Optimizer]如何識別和解譯來自您外部來源的傳入事件資料。 每個定義都會對應特定事件型別（例如購買或簽到），以便系統可追蹤客戶完成挑戰任務的進度。"
+>abstract="事件定義會告知 [!DNL Journey Optimizer] 如何識別和解譯來自您外部來源的傳入事件資料。 每個定義都會對應特定事件類型 (例如購買或簽到)，以便系統可以追蹤客戶完成挑戰任務的進度。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="事件結構描述和轉換器"
->abstract="當您的組織以自訂JSON格式傳送事件時，請使用&#x200B;**[!UICONTROL 結構描述]**&#x200B;來驗證裝載，並使用&#x200B;**[!UICONTROL 轉換器]** （例如JSONata運算式）將欄位對應到忠誠度挑戰期望的格式。"
+>abstract="當您的組織以自訂 JSON 格式傳送事件時，請使用&#x200B;**[!UICONTROL 結構描述]**&#x200B;來驗證承載，並使用&#x200B;**[!UICONTROL 轉換器]** (例如 JSONata 運算式) 將欄位對應到忠誠度挑戰期望的格式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="事件識別"
->abstract="指定[!DNL Journey Optimizer]如何使用識別碼路徑、識別碼值、XDM結構描述ID或這些欄位的組合，來辨識傳入裝載中的事件。"
+>abstract="指定 [!DNL Journey Optimizer] 如何使用識別碼路徑、識別碼值、XDM 結構描述 ID 或這些欄位的組合，來辨識傳入承載中的事件。"
 
 **[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在任務產生器中建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時，會參考這些定義。 不符合任何定義的事件會被忽略。
 
@@ -226,12 +226,12 @@ ht-degree: 1%
 
 1. 儲存事件定義。 它出現在&#x200B;**[!UICONTROL 事件定義]**&#x200B;清單中，可在行銷人員建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時取得。 [瞭解如何建立任務](create-tasks.md#choose-activity)
 
-## 產品詳細目錄 {#product-inventory}
+## 產品庫存 {#product-inventory}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
->title="產品詳細目錄"
->abstract="上傳將專案識別碼對應至產品群組的CSV檔案。 行銷人員在設定購買和支出任務的合格專案時，無需輸入每個專案ID，即可參考這些群組。"
+>title="產品庫存"
+>abstract="上傳將項目識別碼對應至產品群組的 CSV 檔案。 行銷人員在設定購買和支出任務的合格項目時，無需輸入每個項目 ID，即可參考這些群組。"
 
 **[!UICONTROL 產品詳細目錄]**&#x200B;索引標籤會將目錄專案分組，讓行銷人員不必輸入每個專案ID，就能在工作中鎖定這些專案。 上傳將每個專案識別碼對應至一或多個&#x200B;**產品群組**&#x200B;的&#x200B;**CSV檔案** （相同的專案可屬於數個群組）。 設定任務適用性時，可使用匯入的群組。 [瞭解如何建立任務](create-tasks.md)
 
@@ -251,11 +251,11 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
    ![](assets/admin-inventory-group.png)
 
@@ -266,7 +266,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="排除"
->abstract="上傳CSV檔案，該檔案定義整個方案已排除的目錄專案和群組。 行銷人員在任務上設定符合資格的專案和排除專案時，匯入的排除群組就會顯示。"
+>abstract="上傳 CSV 檔案，其中定義了整個方案已排除的目錄項目和群組。 行銷人員在設定任務的合格項目和排除項目時，匯入的排除群組就會顯示。"
 
 **[!UICONTROL 排除專案]**&#x200B;索引標籤會定義整個方案中排除的目錄專案和群組，因此行銷人員不必在每個任務上列出相同的排除專案。 上傳將每個專案識別碼對應至一或多個&#x200B;**排除群組**&#x200B;的&#x200B;**CSV檔案** （相同的專案可以屬於數個群組）。
 
@@ -288,11 +288,11 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
