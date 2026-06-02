@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 11%
+source-wordcount: 947
+ht-degree: 10%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 11%
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="提供者承載"
 >abstract="提供要求承載，確保能發送用於進行處理和產生回應的正確資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_response_msg_id_extractor"
+>title="提供者承載"
+>abstract="指定Journey Optimizer如何從提供者的傳送回應中擷取唯一訊息ID。 </br>欄位相符：輸入欄位名稱（例如messageId）。 AJO會掃描回應並傳回第一個相符的值。 </br>點標籤法：輸入欄位的路徑（例如messages.0.id）。 對陣列使用數值區段。 沒有$前置詞。</br> 如果您的提供者支援傳遞回呼資料欄位，請留空。"
 
 此功能可讓您整合及設定自己的傳訊提供者，除了預設選項（Sinch、Twilio和Infobip）以外，還提供了彈性。 如此一來，行動訊息就能順暢地撰寫、傳送、報告和同意管理。
 
