@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
+source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -146,7 +146,7 @@ ht-degree: 21%
 <p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
 <p>此功能以公用Beta的形式提供給所有客戶。</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>推出日期： 2026年6月2日</p>
+<p>推出日期：2026年6月初</p>
 </td>
 </tr>
 </tbody>
