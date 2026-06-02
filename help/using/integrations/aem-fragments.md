@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1712
 ht-degree: 0%
 
 ---
@@ -62,25 +62,33 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 >
 >若要讓Journey Optimizer能夠透過內容片段管理API存取Adobe Experience Manager內容片段，您必須先[設定Dispatcher](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}。
 
-在Journey Optimizer中使用內容片段之前，您需要建立專門用於Journey Optimizer的標籤：
+Journey Optimizer只有在包含您&#x200B;**組織**&#x200B;和&#x200B;**沙箱**&#x200B;的標籤時，才會在「內容片段」選擇器中顯示「內容片段」。 此要求是刻意為之：會將不相關或未經核准的Experience Manager內容擋在Journey Optimizer之外。
 
-1. 存取您的&#x200B;**Experience Manager**&#x200B;環境。
+使用您的Journey Optimizer組織ID和沙箱名稱來指派識別碼接在`ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`之後的標籤，以取代預留位置，例如`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`。
 
-1. 從&#x200B;**工具**&#x200B;功能表，選取&#x200B;**標籤**。
+若要在Experience Manager中建立標籤：
+
+1. 移至&#x200B;**工具** > **標籤**。
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. 按一下&#x200B;**建立標籤**。
+1. 建立巢狀標籤結構，讓完整標籤ID符合上述格式：
 
-1. 確定ID遵循下列語法： `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`。
+   1. 在根層級，建立名為`ajo-enabled`的資料夾。
 
-1. 按一下&#x200B;**建立**。
+   1. 在`ajo-enabled`底下，為您的組織識別碼建立標籤，例如`123A12A123A123A12A@AdobeOrg`。
 
-1. 定義您的內容片段模式（如[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}中所詳述），並指派您新建立的Journey Optimizer標籤。
+   1. 在該組織標籤下，為您的沙箱建立標籤，例如，`prod`。
 
-此即時連線可確保您的內容永遠保持最新，但也意味著對已發佈片段的任何變更都會立即影響作用中的行銷活動和歷程。
+   合併的路徑會產生標籤ID，例如`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`。
 
-您現在可以開始建立和設定內容片段，以便稍後在Journey Optimizer中使用。 進一步瞭解[Experience Manager檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}。
+1. 若要將其套用至內容片段，請在編輯器中開啟內容片段。
+
+1. 在&#x200B;**屬性**&#x200B;中，新增您建立的標籤。
+
+1. 儲存片段。
+
+➡️ [在Adobe Experience Manager檔案中進一步瞭解標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## 新增Experience Manager內容片段 {#aem-add}
 
@@ -170,7 +178,7 @@ Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。 您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 您現在可以測試並檢查您的訊息內容，如[本節](../content-management/preview.md)所詳述。
 
    請注意，您選取的內容片段在此訊息中會維持作用中。 當您在其他欄位或內容區塊中開啟Personalization編輯器時，您可以繼續使用&#x200B;**[!UICONTROL AEM內容片段]**&#x200B;區段的相同片段，並新增更多欄位，而不需要重新開啟&#x200B;**[!UICONTROL 開啟AEM內容警告器]**。
 
