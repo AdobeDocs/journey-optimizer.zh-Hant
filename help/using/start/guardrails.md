@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 ## 內容與資產 {#content-assets}
 
 本節涵蓋內容建立與管理的護欄，包括登陸頁面、子網域和片段。
+
+### AI助理護欄 {#ai-assistant-g}
+
+**AI助理內容產生**&#x200B;的護欄和限制 — 包括支援的管道（電子郵件、推播、網頁、簡訊）和個人化編輯器限制 — 列於[此頁面](../content-management/gs-generative.md#generative-guardrails)。
 
 ### 登陸頁面護欄 {#lp-guardrails}
 
@@ -336,7 +340,7 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 下列護欄適用於[歷程運算式編輯器](../building-journeys/expression/expressionadvanced.md)：
 
 * 從讀取客群、客群資格篩選或業務事件活動開始的歷程中，無法使用體驗事件欄位群組。 您必須建立新的客群，才能在歷程中使用`inaudience`條件。
-* 無法在運算式編輯器中使用`timeSeriesEvents`屬性。 若想在設定檔等級存取體驗事件，請根據`XDM ExperienceEvent`結構描述建立新的欄位群組。
+* 無法在運算式編輯器中使用`timeSeriesEvents`屬性。若要在設定檔層級存取體驗事件，請根據`XDM ExperienceEvent`結構描述建立新的欄位群組。
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### 歷程活動 {#activities}
@@ -350,6 +354,8 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 
 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率和輸送量限制。
 
+其他護欄 — 包括串流與批次對象的建議以及構成對象限制 — 列於[此頁面](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)。
+
 #### 行銷活動 {#ac-g}
 
 下列護欄適用於 **[!UICONTROL Campaign v7/v8]** 和 **[!UICONTROL Campaign Standard]** 活動：
@@ -357,6 +363,10 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * Adobe Campaign 活動不能與讀取客群或客群資格篩選活動搭配使用。
 * **[!UICONTROL Campaign Standard]** 活動不能與其他管道活動搭配使用：卡片、程式碼型體驗、電子郵件、推播、簡訊、應用程式內訊息、網頁。
 * **[!UICONTROL Campaign v7/v8]** 活動可與同一歷程中的原生管道活動搭配使用。
+
+#### 反應事件 {#reaction-events-g}
+
+特定護欄適用於&#x200B;**[!UICONTROL 反應]**&#x200B;事件，包括必須在頻道動作後立即放置活動，以及無法追蹤不同歷程中傳送的訊息。 它們會列出於[此頁面](../building-journeys/reaction-events.md#guardrails-limitations)。
 
 #### 應用程式內活動 {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 * 啟動延遲可能發生在使用者輪廓到達畫布中的應用程式內活動的時刻和他們開始看到該應用程式內訊息的時刻之間。
 
 * 應用程式內訊息內容大小限制為 2Mb。 包含大型影像可能會阻礙發佈過程。
+
+#### 內容決活動 {#content-decision-g}
+
+特定護欄適用於&#x200B;**[!UICONTROL 內容決定]**&#x200B;活動，包括更新的同意政策在決定政策中生效之前的48小時延遲。 它們會列出於[此頁面](../building-journeys/content-decision.md#guardrails)。
 
 #### 跳轉活動 {#jump-g}
 
@@ -403,6 +417,26 @@ Journey Optimizer 在行銷活動中支援每秒 500 則交易型訊息的尖峰
 #### 更新輪廓活動 {#update-profile-g}
 
 特定護欄套用於&#x200B;**[!UICONTROL 更新輪廓]**&#x200B;活動。 它們會列出於[此頁面](../building-journeys/update-profiles.md)。
+
+#### 歷程暫停 {#pause-g}
+
+特定護欄適用於&#x200B;**暫停歷程**，包括最長14天的暫停期間，以及組織中所有暫停歷程的1000萬個設定檔上限。 它們會列出於[此頁面](../building-journeys/journey-pause.md#journey-pause-guardrails)。
+
+#### 歷程試運行 {#dry-run-g}
+
+特定護欄適用於&#x200B;**歷程練習**，包括計算可參與的設定檔和即時歷程配額。 它們會列出於[此頁面](../building-journeys/journey-dry-run.md#journey-dry-run-limitations)。
+
+#### 歷程片段 {#fragments-journey-g}
+
+特定護欄適用於&#x200B;**歷程片段**，包括每個片段最多20個節點以及每個沙箱最多200個作用中片段。 它們會列出於[此頁面](../building-journeys/journey-fragments.md#guardrails)。
+
+#### 使用波段傳送 {#waves-g}
+
+特定護欄適用於歷程中&#x200B;**的**&#x200B;波次傳送，包括2-10波次範圍以及波次之間的最小間隔30分鐘。 它們會列出於[此頁面](../building-journeys/send-using-waves.md#limitations-guardrails)。
+
+#### 歷程模擬 {#simulation-g}
+
+特定護欄適用於&#x200B;**歷程模擬**。 它們會列出於[此頁面](../building-journeys/simulate-journey.md#limitations)。
 
 ## 行銷活動協調 {#campaign-orchestration}
 
