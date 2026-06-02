@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動是&#x200B;**鎖定目標**&#x200B;活動。 使用它在「協調的行銷活動」畫布上傳CSV或TXT檔案，並將其當作行銷活動對象。 檔案資料在執行時消耗，且不會儲存為Adobe Experience Platform資料集。 使用身分欄和目標維度，將列調解至現有的收件者。"
+>abstract="**載入檔案**&#x200B;活動是一項&#x200B;**目標選擇**&#x200B;活動。 請用它在「協調的行銷活動」畫布上上傳 CSV 或 TXT 檔案，並將其當作行銷活動客群。 檔案資料會在執行時耗用，不會作為 Adobe Experience Platform 資料集保留。 列會使用身分識別欄和目標維度，與現有的收件者進行調和。"

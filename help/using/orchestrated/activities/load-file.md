@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動是&#x200B;**資料管理**&#x200B;活動。 使用它來處理「協調的行銷活動」畫布上儲存在外部檔案中的設定檔和資料，並定義行銷活動對象。 檔案資料在執行時消耗，且不會儲存為Adobe Experience Platform資料集。"
+>abstract="**載入檔案**&#x200B;活動是一項&#x200B;**資料管理**&#x200B;活動。 請用它來處理「協調的行銷活動」畫布上儲存在外部檔案中的輪廓和資料，並定義行銷活動客群。 檔案資料會在執行時耗用，不會作為 Adobe Experience Platform 資料集保留。"
 
-**[!UICONTROL 載入檔案]**&#x200B;活動是&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
+**[!UICONTROL 載入檔案]**&#x200B;活動是一項&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
 
 >[!AVAILABILITY]
 >
