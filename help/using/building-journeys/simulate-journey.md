@@ -12,9 +12,9 @@ version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1910
 ht-degree: 2%
 
 ---
@@ -182,8 +182,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 | 補充ID （多次重新進入） | 同時重新進入（同一個模擬使用者的幾個作用中執行個體）會導致&#x200B;**[!UICONTROL 模擬]**&#x200B;無法啟動。 |
 | 內容決定節點 | 必須先移除或變更此活動，然後才能模擬歷程。 |
 | 資料集查詢 | 不支援依索引鍵查詢客戶資料集；包含此活動的歷程無法在&#x200B;**[!UICONTROL 模擬]**&#x200B;中執行。 |
-| 路徑實驗（最佳化 — 實驗變體） | **[!UICONTROL 模擬]**&#x200B;中不支援。 您仍然可以將&#x200B;**[!UICONTROL 最佳化]**&#x200B;用於過去在&#x200B;**[!UICONTROL 條件]** （例如，資料來源條件）下存在的流程。 |
-| 路徑鎖定目標（最佳化、鎖定目標規則變體） | **[!UICONTROL 模擬]**&#x200B;中不支援。 |
+| **[!UICONTROL 最佳化]**&#x200B;活動 | **[!UICONTROL 模擬]**&#x200B;不支援下列&#x200B;**[!UICONTROL 最佳化]**&#x200B;方法： **[!UICONTROL 實驗]**、**[!UICONTROL 目標規則]**、**[!UICONTROL 百分比分割]**、**[!UICONTROL 時間條件]**、**[!UICONTROL 條件]**、**[!UICONTROL 日期條件]**、**[!UICONTROL 設定檔上限]**&#x200B;以及&#x200B;**[!UICONTROL 外部資料Source]**。 在您模擬之前移除或變更節點。 |
 | 外部對象屬性擴充 | 當此驗證作用中時，使用來自外部對象來源的個人化屬性的歷程將不會在&#x200B;**[!UICONTROL 模擬]**&#x200B;中開始。 |
 
 +++

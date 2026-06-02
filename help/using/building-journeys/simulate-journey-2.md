@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    +++ 從表單建立
 
-   1. 輸入&#x200B;**[!UICONTROL 顯示名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;以識別此模擬使用者。
+   1. 輸入&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 身分識別名稱空間]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;來識別這個模擬的使用者。
 
       ![模擬的使用者選擇面板](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ ht-degree: 0%
 
    1. 按一下&#x200B;**[!UICONTROL 新增對象成員資格]**&#x200B;以模擬區段成員資格。
 
-   1. 按一下&#x200B;**[!UICONTROL 新增設定檔]**，在單一工作階段中建立多個模擬使用者。
+   1. 在&#x200B;**[!UICONTROL 建立模擬使用者]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 新增模擬使用者]**&#x200B;以在一個工作階段中定義多個模擬使用者。
 
-   1. 從功能表，使用&#x200B;**[!UICONTROL 複製]**&#x200B;來複製使用者，**[!UICONTROL 套用至全部]**&#x200B;以將一個使用者的屬性複製到工作階段中的每個其他使用者，或使用&#x200B;**[!UICONTROL 刪除]**&#x200B;來移除使用者。
+      您可以變更使用者在清單中的顯示方式、摺疊棧疊檢視中的每個卡片，或開啟使用者的屬性中繼資料。
+
+      ![模擬的使用者選擇面板](assets/simulate-form-3.png)
+
+   1. 從您的[模擬使用者]功能表，使用&#x200B;**[!UICONTROL 複製]**&#x200B;來複製使用者，**[!UICONTROL 套用所有屬性至其他使用者]**&#x200B;來複製工作階段中其他所有使用者的屬性，或&#x200B;**[!UICONTROL 刪除]**&#x200B;來移除使用者。
 
       ![模擬的使用者選擇面板](assets/simulate-form-2.png)
 
