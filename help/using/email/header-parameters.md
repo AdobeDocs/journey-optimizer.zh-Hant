@@ -10,24 +10,15 @@ level: Experienced
 keywords: 設定，電子郵件，設定，寄件者標題， SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +82,16 @@ ht-degree: 58%
 
 設定&#x200B;**[!UICONTROL 寄件者名稱]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;時，[!DNL Journey Optimizer]會將&#x200B;**寄件者** SMTP標頭新增至電子郵件<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->。 支援此功能的電子郵件使用者端可能會顯示例如&#x200B;**代表From**&#x200B;的寄件者或&#x200B;**透過**&#x200B;的指標。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->如果您將&#x200B;**[!UICONTROL 寄件者名稱]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;保留為空白，或是解析的&#x200B;**寄件者**&#x200B;與&#x200B;**寄件者**&#x200B;相同，則不會新增&#x200B;**寄件者**&#x200B;標頭。
+>**[!UICONTROL 寄件者名稱]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;必須一起設定 — 這兩個欄位要麼都填入，要麼都留空。 僅填入其中一個，即可防止歷程和行銷活動使用此管道設定發佈。
 
-附註:
+設定&#x200B;**Sender**&#x200B;標頭時，請考量下列事項：
 
+* 如果您將&#x200B;**[!UICONTROL 寄件者名稱]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;欄位都保留空白，或是解析的&#x200B;**寄件者**&#x200B;與&#x200B;**寄件者**&#x200B;相同，則不會新增&#x200B;**寄件者**&#x200B;標頭。
 * **寄件者**&#x200B;地址未用於SPF、DKIM或DMARC對齊；僅執行&#x200B;**格式**&#x200B;驗證。 SPF、DKIM和DMARC繼續依賴&#x200B;**From**&#x200B;欄位。 為組態選取的[委派子網域](../configuration/about-subdomain-delegation.md)仍舊是這些檢查所使用的傳送網域。
 
-* 如果已設定&#x200B;**寄件者**，且個人化未解析為收件者的值，則郵件不會傳遞給該收件者。
+* 如果已設定&#x200B;**Sender**&#x200B;標頭，且個人化未解析為收件者的值，則郵件不會傳遞給該收件者。
 
 ## 回覆電子郵件 {#reply-to-email}
 
