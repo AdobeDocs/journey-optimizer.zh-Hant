@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
+source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -255,6 +255,7 @@ ht-degree: 95%
       + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
       + [測試電子郵件轉譯](using/content-management/rendering.md)
       + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
+      + {hide-from-toc}[模擬內容變化（GA檢閱）](using/test-approve/simulate-sample-input-ga.md)
       + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
    + 核准歷程與行銷活動 {#approve}
       + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
@@ -588,7 +589,7 @@ ht-degree: 95%
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 報表 {#reporting}
-   + [報告](/help/rp_landing_pages/reporting-landing-page.md)
+   + [報表](/help/rp_landing_pages/reporting-landing-page.md)
    + [開始使用報告](using/reports/gs-reports.md)
    + 即時報告 {#live-report}
       + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)
