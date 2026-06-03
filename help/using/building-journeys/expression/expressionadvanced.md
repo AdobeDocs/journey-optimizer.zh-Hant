@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ ht-degree: 55%
 
 * 建立自訂計時器時，會直接顯示進階編輯器。
 * 當您對應動作引數時，請按一下&#x200B;**[!UICONTROL 進階模式]**。
+
+>[!NOTE]
+>
+>若要使用自然語言提示來產生Journey運算式，請透過進階編輯器內的AI控制項，使用&#x200B;**[Expression Assistant](expression-agent.md)** (**public beta**)。
 
 ## 探索介面 {#discovering-the-interface}
 
