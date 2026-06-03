@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -144,19 +144,15 @@ ht-degree: 1%
 
 ### 自動生成內容變體 {#auto-generate-variants}
 
-[!DNL Journey Optimizer]可以使用AI型模擬來自動產生內容變體，這樣您就可以驗證個人化邏輯，而不需要手動建立變體。
+[!DNL Journey Optimizer]可以使用AI型模擬來自動產生內容變體，這樣您就可以驗證個人化邏輯，而不需要手動建立變體。 在呈現內容以進行模擬或校訂時，系統會分析您的內容、識別個人化欄位，並以有意義的值取代它們，以獲得逼真的預覽。
 
-在呈現內容以進行模擬或校訂時，系統會分析您的內容、識別個人化欄位，並以有意義的值取代它們，以獲得逼真的預覽。
+若要自動產生變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕，然後等待系統產生變體。 檢閱變體清單中產生的變體及其轉譯。
 
-若要自動產生變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕，然後等待系統產生變體。
-
-![產生變體按鈕](assets/simulate-generate-variant.png)
+![產生變體按鈕](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >產生會產生單一變體。 按一下「產生」**&#x200B;**&#x200B;會將清單中的所有現有內容變體（包括您手動新增或從檔案新增的任何內容）取代為一個產生的變體。
-
-檢閱變體清單中產生的變體及其轉譯。
 
 ### 從模擬的使用者中選取變體 {#simulated-users}
 
