@@ -10,24 +10,15 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 1%
 
 ---
@@ -43,7 +34,7 @@ ht-degree: 1%
 
 [!DNL Journey Optimizer]中的&#x200B;**[!UICONTROL 模擬內容變化]**&#x200B;體驗可讓您從單一熒幕測試您內容的多個變化、透過AI自動產生、手動輸入、從檔案匯入，或根據可重複使用的模擬使用者，以解決此問題。 您可以預覽每個變體轉譯和傳送校樣的方式，完全無須預先在Adobe Experience Platform中建立持續性設定檔。
 
-從您的內容中，選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;然後&#x200B;**[!UICONTROL 模擬內容變化]**&#x200B;以開啟單一體驗，您可以：
+從您的內容中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以開啟單一體驗，您可以：
 
 * **使用AI自動產生變體**，以涵蓋個人化和條件式分支
 * **手動新增變體**，或從CSV或JSON檔案新增
@@ -63,7 +54,8 @@ ht-degree: 1%
 * **管道** — 模擬內容變化可用於：
 
    * 電子郵件、簡訊和推播通知頻道；
-   * 所有傳入頻道（網頁、程式碼型體驗、應用程式內、內容卡）。
+   * 所有傳入頻道（網頁、程式碼型體驗、應用程式內、內容卡）；
+   * 協調的行銷活動。
 
 * **支援的功能** — 內容變化可搭配[!DNL Journey Optimizer]多語言內容與內容實驗功能使用。 這可讓您以多種語言測試訊息，並透過實驗最佳化內容。
 
@@ -71,19 +63,19 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >目前，目前的體驗無法使用收件匣轉譯和垃圾郵件報告。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
+  >目前，目前的體驗無法使用收件匣轉譯和垃圾郵件報告。 若要使用這些功能，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以存取先前的使用者介面。
 
 * **屬性** — 同時支援設定檔和內容屬性。
 
 * **資料型別** — 為您的變體輸入資料時，僅支援下列資料型別：數字（整數與小數）、字串、布林值和日期型別。 任何其他資料型別都會顯示錯誤。
 
-* **變體數目** — 您最多可以新增30個變體，以使用檔案、手動或透過自動產生來測試您的內容。
+* **變體數目** — 您最多可以新增30個變體，以使用檔案、手動或透過自動產生來測試您的內容。 使用AI自動產生時，最多會產生20個變體。
 
 ## 建立內容變體
 
-若要建立內容的變化，請按一下[模擬內容]按鈕&#x200B;**，然後選擇[模擬內容變化]**。**&#x200B;**
+若要建立內容的變化，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
-![模擬內容變化選項](assets/simulate-sample.png)
+![模擬內容按鈕](assets/simulate-sample.png)
 
 您可以透過下列方式建立變體：
 
@@ -152,7 +144,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->產生會產生單一變體。 按一下「產生」**&#x200B;**&#x200B;會將清單中的所有現有內容變體（包括您手動新增或從檔案新增的任何內容）取代為一個產生的變體。
+>產生會產生單一變體。 按一下「產生」****&#x200B;會將清單中的所有現有內容變體（包括您手動新增或從檔案新增的任何內容）取代為一個產生的變體。
 
 ### 從模擬的使用者中選取變體 {#simulated-users}
 
@@ -163,7 +155,7 @@ ht-degree: 1%
 建立模擬的使用者後，您就可以使用這些使用者來預覽您的內容。 若要這麼做，請依照以下步驟進行：
 
 1. 按一下&#x200B;**[!UICONTROL 選取變體]**&#x200B;按鈕。
-1. 在現有模擬使用者清單中，選取您要使用的使用者，然後按一下[選取]。**&#x200B;**
+1. 在現有模擬使用者清單中，選取您要使用的使用者，然後按一下[選取]。****
 
    ![選取要做為內容變體使用的模擬使用者](assets/simulate-custom-simulated.png)
 

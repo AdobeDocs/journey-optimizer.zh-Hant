@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 279
 ht-degree: 18%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 18%
 
 使用測試設定檔測試內容之前，您必須先選取設定檔。 要執行此操作，請依照下列步驟執行：
 
-1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 模擬內容]**。
+1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**。
 
 1. 按一下&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;選取圖示，選取要用來識別測試設定檔的名稱空間。 [進一步瞭解Adobe Experience Platform身分識別名稱空間](../audience/get-started-identity.md)。
 

@@ -6,11 +6,10 @@ role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 166
 ht-degree: 3%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 3%
 
 若要檢查電子郵件呈現，請遵循下列步驟：
 
-1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
+1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**。
 
 1. 選取&#x200B;**[!UICONTROL 轉譯電子郵件]**&#x200B;按鈕。
 

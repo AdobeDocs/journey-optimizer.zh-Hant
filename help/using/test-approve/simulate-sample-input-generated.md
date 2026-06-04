@@ -11,11 +11,10 @@ badge: label="私人測試版" type="Informative"
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
 feature_v2: []
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 278
 ht-degree: 2%
 
 ---
@@ -36,9 +35,7 @@ ht-degree: 2%
 
 若要產生內容的變體並加以預覽，請遵循下列步驟：
 
-1. 開啟您的內容並選取&#x200B;**[!UICONTROL 模擬內容]** / **[!UICONTROL 模擬內容變化]**。
-
-   ![模擬內容變化選項](assets/simulate-sample.png)
+1. 開啟您的內容並按一下&#x200B;**[!UICONTROL 模擬內容]**。
 
 2. 按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
 
