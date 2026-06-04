@@ -112,7 +112,7 @@ ht-degree: 9%
    >[!NOTE]
    >
    >此外，您可以鎖定使用[對象組合](../audience/get-started-audience-orchestration.md)建立的[!DNL Adobe Experience Platform]對象。
-   >您也可以鎖定從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的對象。
+   >您也可以鎖定從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}上傳的對象。
    >[進一步瞭解如何在Journey Optimizer中產生及鎖定對象](../audience/about-audiences.md)。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
@@ -127,7 +127,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 此欄位預設會自動填入上次使用的命名空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -148,7 +148,7 @@ ht-degree: 9%
 **推薦**
 
 * 最佳做法是在&#x200B;**讀取對象**&#x200B;活動中使用批次對象，以獲得可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請改用[對象資格](audience-qualification-events.md)活動。
-* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
 * 如需有關對象快照計時、批次分段完成視窗以及如何確保您的歷程一律以最新資料執行的資訊，請參閱[計時和資料傳播](#timing-and-data-propagation)。 對於週期性歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項，以自動延遲執行，直到最新的對象快照準備就緒為止。 [了解更多](#schedule)。
 
 >[!CAUTION]
@@ -375,7 +375,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 時間與資料傳播 {#timing-and-data-propagation}
 
-* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}。
+* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#evaluate-segments){target="_blank"}。
 
 * **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}中的資料擷取。
 
@@ -387,9 +387,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 資料驗證 {#data-validation-and-monitoring}
 
-* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
+* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hant){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
 
-* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}中的合併原則。
+* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant){target="_blank"}中的合併原則。
 
 * **檢閱區段定義**：確認區段定義已正確設定，並包含所有預期的資格條件。 深入瞭解[建立對象](../audience/creating-a-segment-definition.md)。 請特別注意：
    * 可能根據事件時間戳記排除設定檔的時間型條件
@@ -430,7 +430,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * [測試歷程](testing-the-journey.md) — 在上線之前，使用測試設定檔驗證您的歷程邏輯。
 * [發佈歷程](../building-journeys/publish-journey.md) — 啟動您的歷程並監視其初始執行。
 * [傳送訊息給訂閱者](message-to-subscribers-uc.md) — 端對端使用案例：從設定到傳遞，使用讀取對象歷程鎖定訂閱清單。
-* [讀取對象歷程的最佳實務](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} — 社群部落格涵蓋常見陷阱、計數差異和公認的最佳實務。
+* [讀取對象歷程的最佳實務](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hant){target="_blank"} — 社群部落格涵蓋常見陷阱、計數差異和公認的最佳實務。
 
 ## 作法影片 {#video}
 
