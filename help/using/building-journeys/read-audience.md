@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
 workflow-type: tm+mt
-source-wordcount: 3767
+source-wordcount: 3793
 ht-degree: 9%
 
 ---
@@ -149,7 +149,7 @@ ht-degree: 9%
 
 * 最佳做法是在&#x200B;**讀取對象**&#x200B;活動中使用批次對象，以獲得可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請改用[對象資格](audience-qualification-events.md)活動。
 * 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
-* 如需有關對象快照計時、批次分段完成視窗以及如何確保您的歷程一律以最新資料執行的資訊，請參閱[計時和資料傳播](#timing-and-data-propagation)。 對於週期性歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項，以自動延遲執行，直到最新的對象快照準備就緒為止。 [了解更多資訊](#schedule)。
+* 如需有關對象快照計時、批次分段完成視窗以及如何確保您的歷程一律以最新資料執行的資訊，請參閱[計時和資料傳播](#timing-and-data-propagation)。 對於週期性歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項，以自動延遲執行，直到最新的對象快照準備就緒為止。 [了解更多](#schedule)。
 
 >[!CAUTION]
 >
@@ -215,7 +215,7 @@ ht-degree: 9%
 >
 >**歷程狀態和91天全域逾時：**
 >
->* **單次**&#x200B;讀取對象歷程在歷程執行91天後移至&#x200B;**已完成**&#x200B;狀態（[歷程全域逾時](journey-properties.md#global_timeout)）。
+>* **非循環**&#x200B;讀取對象歷程會在最後一個作用中設定檔結束後自動轉換成&#x200B;**已停止**&#x200B;狀態，除非歷程包含會導致等待時間的節點（等待節點、反應節點或事件觸發的轉換），在此情況下，會套用標準的91天全域逾時。 [了解更多](end-journey.md#auto-stop-non-recurring)
 >* 只要歷程已發佈，**循環**&#x200B;沒有結束日期&#x200B;**的讀取對象歷程就會保持即時**。 他們在執行&#x200B;**最後一次發生**&#x200B;後91天移至&#x200B;**已完成**&#x200B;狀態。
 >* 91天逾時適用於流經歷程的個別&#x200B;**設定檔** （設定檔保持作用中狀態的最長時間），而非歷程的即時狀態。
 >* 91天&#x200B;**報告期間**&#x200B;是個個別的概念： UI會顯示大約過去91天的效能資料。 無法在UI中存取較舊的資料，但歷程會繼續執行。 [了解更多](journey-properties.md#global_timeout)
