@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
+source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1327
 ht-degree: 12%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->已在&#x200B;_AJO傳入活動事件資料集_&#x200B;系統資料集中擷取傳入WhatsApp訊息。 設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [了解更多](../data/get-started-datasets.md#system-datasets)
+>已在&#x200B;_AJO電子郵件追蹤資料集_&#x200B;系統資料集中擷取傳入的WhatsApp訊息。 設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 Webhook可作為Meta的WhatsApp商業平台和Adobe Journey Optimizer之間的通訊橋樑，讓您接收有關訊息事件和使用者互動的即時通知。
 
