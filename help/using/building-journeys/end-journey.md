@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 ### 非循環對象的自動歷程停止 {#auto-stop-non-recurring}
 
-**非循環讀取對象歷程**&#x200B;現在會在最後一個設定檔退出歷程時，自動轉換成&#x200B;**[!UICONTROL 已停止]**&#x200B;狀態。 如此可免除先前非循環讀取對象歷程一直保持&#x200B;**即時**&#x200B;狀態直到91天全域逾時過期的行為，即使沒有設定檔在積極地流過。
+一旦最後一個設定檔退出歷程，**非循環讀取對象歷程**&#x200B;會自動轉換成&#x200B;**[!UICONTROL 已停止]**&#x200B;狀態。 如此可免除先前非循環讀取對象歷程一直保持&#x200B;**即時**&#x200B;狀態直到91天全域逾時過期的行為，即使沒有設定檔在積極地流過。
 
 **運作方式：**
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 | 讀取客群 | 是 | 無 | 上次發生開始後91天 |
 | 讀取客群 | 是 | 是 | 達到結束日期時 |
 | 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
-| 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
+| 事件觸發的歷程 | 不適用 | 否 | 在UI中或透過API關閉時 |
 
 ### 關閉新入口 {#close-to-new-entrances}
 
