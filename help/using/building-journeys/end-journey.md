@@ -10,23 +10,15 @@ keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +73,7 @@ ht-degree: 2%
 
 ### 非循環對象的自動歷程停止 {#auto-stop-non-recurring}
 
-**非循環讀取對象歷程**&#x200B;現在會在最後一個設定檔退出歷程時，自動轉換成&#x200B;**[!UICONTROL 已停止]**&#x200B;狀態。 如此可免除先前非循環讀取對象歷程一直保持&#x200B;**即時**&#x200B;狀態直到91天全域逾時過期的行為，即使沒有設定檔在積極地流過。
+一旦最後一個設定檔退出歷程，**非循環讀取對象歷程**&#x200B;會自動轉換成&#x200B;**[!UICONTROL 已停止]**&#x200B;狀態。 如此可免除先前非循環讀取對象歷程一直保持&#x200B;**即時**&#x200B;狀態直到91天全域逾時過期的行為，即使沒有設定檔在積極地流過。
 
 **運作方式：**
 
@@ -109,7 +101,7 @@ ht-degree: 2%
 | 讀取客群 | 是 | 無 | 上次發生開始後91天 |
 | 讀取客群 | 是 | 是 | 達到結束日期時 |
 | 事件觸發的歷程 | 不適用 | 是 | 達到結束日期時 |
-| 事件觸發的歷程 | 不適用 | 無 | 在UI中或透過API關閉時 |
+| 事件觸發的歷程 | 不適用 | 否 | 在UI中或透過API關閉時 |
 
 ### 關閉新入口 {#close-to-new-entrances}
 
