@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -106,7 +106,13 @@ ht-degree: 26%
    ➡️ [瞭解如何使用決定原則](create-decision.md)
 ➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。
 
-## 其他資源
+## 決策程式 {#process}
+
+下表總結了端對端決策程式 — 從管理決策專案和設定選擇策略，到將決策政策嵌入程式碼型體驗歷程或行銷活動。
+
+![](assets/decisioning-process.png)
+
+## 其他資源 {#additional-resources}
 
 * **[建立決定專案](items.md)** — 瞭解如何建立和管理決定專案，包括選件、內容變數和體驗。
 * **[設定決定目錄](catalogs.md)** — 瞭解如何將決定專案組織到目錄中以便更好地管理。
