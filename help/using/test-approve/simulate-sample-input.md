@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: 990
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 4%
 
   >[!NOTE]
   >
-  >目前，目前的體驗無法使用收件匣轉譯和垃圾郵件報告。 若要使用這些功能，請從您的內容中選取&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以存取先前的使用者介面。
+  >目前，目前的體驗無法使用收件匣轉譯和垃圾郵件報告。 若要使用這些功能，請按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以存取先前的使用者介面。
 
 * **屬性** — 同時支援設定檔和內容屬性。
 
@@ -71,9 +71,9 @@ ht-degree: 4%
 
 ## 新增和預覽內容變數
 
-若要建立內容變化並預覽，請按一下[模擬內容]按鈕&#x200B;**，然後選擇[模擬內容變化]**&#x200B;**。**
+若要建立內容的變數並預覽，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕。
 
-![模擬內容變化選項](assets/simulate-sample.png)
+![模擬內容按鈕](assets/simulate-sample.png)
 
 測試內容的主要步驟如下：
 

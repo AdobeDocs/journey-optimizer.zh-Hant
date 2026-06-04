@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 100%
+source-wordcount: 575
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。 此外，您也可以評估一般內容品質方面，例如可讀性和有效性。 [了解更多關於內容品質驗證的資訊](brands-score.md#validate-quality)
 
-所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可以從訊息的編輯內容畫面，或透過電子郵件、網頁頻道的電子郵件和網頁設計工具，存取此按鈕。
+所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，您可從訊息的編輯內容畫面或電子郵件與網頁通道的電子郵件與網頁設計工具存取該按鈕。 按一下&#x200B;**[!UICONTROL 模擬內容]**，使用範例輸入資料測試內容變化。 若要使用測試設定檔預覽、傳送校樣或檢查電子郵件呈現，請從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**。
 
 ![](../email/assets/email-preview-button.png)
 
