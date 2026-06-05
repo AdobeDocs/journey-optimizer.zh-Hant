@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 24%
 
 決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
 
-這些決定專案已順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗： [程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊和推播通知。
+這些決定專案會順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗：[程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊、推播通知，以及[直接郵件](batch-decisioning-direct-mail.md)，用於批次決定和個人化的直接郵件匯出。 直接郵件的Experience Decisioning支援是一項新功能；之前，直接郵件擷取檔案不提供該Decisioning引擎。
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**、**簡訊**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
 
 ➡️ [在影片中探索此功能](#video)
 

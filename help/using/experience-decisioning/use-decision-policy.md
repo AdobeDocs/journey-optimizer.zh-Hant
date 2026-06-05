@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**簡訊**、**推播通知**&#x200B;和&#x200B;**電子郵件**&#x200B;頻道的所有客戶。
+>決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**簡訊**、**推播通知**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
 
 ## 插入決定原則代碼 {#insert}
 
@@ -104,13 +104,23 @@ ht-degree: 2%
 >
 >具有推播通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中檢視您平台的所有可用SDK版本。
 
+>[!TAB 直接郵件]
+
+1. 從擷取檔案設定中，開啟&#x200B;**Personalization編輯器** （例如，在欄的&#x200B;**[!UICONTROL Data]**&#x200B;欄位中）。
+
+2. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;並選取&#x200B;**[!UICONTROL 插入原則]**，為您的決定原則新增代碼。
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. 使用傳回的決策專案屬性作為欄資料，以便所選的優惠資訊包含在每個設定檔的擷取檔案中。
+
 >[!ENDTABS]
 
 已新增決定原則代碼。 您現在可以使用傳回決定專案的屬性來個人化您的內容。
 
 >[!NOTE]
 >
->針對程式碼型體驗和電子郵件管道，針對您要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於簡訊和推播頻道，只能傳回一個決定專案。
+>針對程式碼型體驗、電子郵件和直接郵件頻道，針對您想要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於簡訊和推播頻道，只能傳回一個決定專案。
 
 ## 使用決策專案屬性個人化 {#attributes}
 
@@ -126,7 +136,7 @@ ht-degree: 2%
 
 若要新增屬性，請按一下屬性旁的&#x200B;**`+`**&#x200B;圖示。 您可以視需要新增任意數量的屬性。 您也可以包含其他個人化屬性，例如設定檔資料。
 
-* 對於&#x200B;**電子郵件**&#x200B;和&#x200B;**程式碼型**&#x200B;管道，請使用方括弧`[ ]`將屬性包裝在`#each`回圈中，並在結尾的`/each`標籤前加上逗號。
+* 針對&#x200B;**電子郵件**、**程式碼型**&#x200B;和&#x200B;**直接郵件**&#x200B;管道，請使用方括弧`[ ]`將`#each`回圈中的屬性換行，並在結尾的`/each`標籤前加上逗號。
 
   +++檢視範例
 

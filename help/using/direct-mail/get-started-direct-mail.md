@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 83%
+source-wordcount: 458
+ht-degree: 79%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 83%
 
 * **[建立直接郵件](create-direct-mail.md)** - 了解如何建立直接郵件傳遞，以及設定離線管道的擷取檔案。
 * **[設定直接郵件管道](direct-mail-configuration.md)** - 設定直接郵件介面和檔案路由設定。
+* **[直接郵件中的批次決策](../experience-decisioning/batch-decisioning-direct-mail.md)** — 使用決策功能來個人化直接郵件的擷取檔案，或匯出下游系統的決策資料。
 * **[測試並傳送直接郵件](test-send-direct-mail.md)** - 了解如何測試、驗證及發佈您的直接郵件傳遞。
 * **[直接郵件教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 探索直接郵件功能和最佳做法的逐步教學課程影片。
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f4f018aa51fb36181fdb5b568dcef457004c8ef3
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2755
+source-wordcount: 2743
 ht-degree: 20%
 
 ---
@@ -49,6 +49,24 @@ ht-degree: 20%
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更可在您的環境中存取的時間。 **即將推出**&#x200B;摺疊式功能表中的專案預計將在未來幾天或幾週內推出。 這些區段中的資訊可能會有所變更。
 
 ## 2026年6月更新 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>直接郵件通道中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
+<p><img src="assets/do-not-localize/exd-dm.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/use-decision-policy.md">詳細文件</a>。</p>
+<p>推出日期： 2026年6月3日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -323,29 +341,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **決定移轉工作流程API** — 建立相依性分析和移轉工作流程的API合約已更新：在要求URL （`sandbox`、`offer`或`decision`）上傳遞&#x200B;**`request-level`**&#x200B;作為&#x200B;**查詢引數**。 JSON內文中不得再傳送請求層級。 [閱讀全文](../experience-decisioning/decisioning-migration-api.md)
 
   推出日期： 2026年5月6日
-
-+++ 即將推出 — **下列資訊可能會變更。**
-
-預計未來幾天或幾週內，將會有以下決策功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>直接郵件通道中的決策支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將決定政策新增到直接郵件歷程和行銷活動中。 決策原則是優惠方案的容器，可運用決策引擎以動態方式傳回每個對象成員的最佳內容。 直接郵件決定也支援批次決定使用案例，讓您為特定Adobe Experience Platform對象中的每個設定檔匯出對應的優惠專案。</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>推出日期： 2026年6月4日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### 電子郵件頻道 {#may-26-email}
 
