@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 30%
@@ -261,6 +261,10 @@ ht-degree: 30%
 * **`aud`**： JWT使用者端宣告中包含的對象值。 對於Microsoft Entra ID，這與`endpoint` URL相同，但必須一律明確設定。
 
 `client_assertion`和`client_assertion_type`欄位從未由使用者編寫。 它們會在執行階段由平台自動插入，緊接在權杖端點呼叫之前。
+
+<!--
+rebuild
+-->
 
 以下是憑證認證驗證型別的範例：
 

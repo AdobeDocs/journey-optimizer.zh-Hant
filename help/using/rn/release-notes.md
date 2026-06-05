@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
+source-git-commit: 0afb0fd87308caf96159ab3293b16941512e9c70
 workflow-type: tm+mt
-source-wordcount: 2743
-ht-degree: 20%
+source-wordcount: 2637
+ht-degree: 21%
 
 ---
 
@@ -47,9 +47,7 @@ ht-degree: 20%
 >[!NOTE]
 >
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更可在您的環境中存取的時間。 **即將推出**&#x200B;摺疊式功能表中的專案預計將在未來幾天或幾週內推出。 這些區段中的資訊可能會有所變更。
-<!--
-Rebuild
--->
+
 
 ## 2026年6月更新 {#june-26-updates}
 
@@ -90,9 +88,6 @@ Rebuild
 </tbody>
 </table>
 
-* **非循環讀取對象歷程的自動完成** — 非循環&#x200B;**讀取對象**&#x200B;歷程現在會在最後一個作用中設定檔退出後，自動轉換成&#x200B;**已停止**&#x200B;狀態。 以往，這些歷程會維持&#x200B;**即時**&#x200B;狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。
-
-  請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。 [了解更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Microsoft Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
 
