@@ -8,20 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: 2372
 ht-degree: 6%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 6%
 若要向客戶呈現最佳的動態優惠和體驗，請將決定原則新增至行銷活動或歷程中的內容，然後設定要傳回的專案及要使用的選擇策略。 要執行此操作，請遵循下列步驟：
 
 1. [新增決定原則](#add)
-1. [設定決定原則](#configure) — 新增名稱並指定電子郵件通道要傳回的專案數。
+1. [設定決定原則](#configure) — 新增名稱，並針對電子郵件和直接郵件通道，指定要傳回的專案數。
 1. [設定策略順序](#strategy) — 選取要連同決定原則一起傳回的專案。
 1. [選取遞補優惠](#fallback) （選擇性） — 選取若無合格專案或選取策略，要顯示的專案。
 1. [檢閱並儲存](#review)選取策略
@@ -55,13 +49,11 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**推播通知**、**簡訊**&#x200B;及&#x200B;**電子郵件**&#x200B;管道。
+>決定原則適用於&#x200B;**程式碼式體驗**、**電子郵件**、**推播通知**、**簡訊**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
 
 ## 新增決定原則 {#add}
 
-開啟歷程或行銷活動、選取[頻道動作](../building-journeys/journey-action.md)並編輯訊息的內容。
-
-編輯訊息內容並瀏覽以下標籤，瞭解如何根據所選頻道新增決定原則的更多資訊。
+存取歷程或行銷活動中的已設定頻道動作，並編輯訊息的內容。 瀏覽以下索引標籤，以取得有關如何根據所選管道新增決定原則的更多資訊。
 
 >[!BEGINTABS]
 
@@ -195,6 +187,22 @@ ht-degree: 6%
 
 +++
 
+>[!TAB 直接郵件]
+
+對於直接郵件，請從&#x200B;**擷取檔案**&#x200B;設定中新增決定原則。 [瞭解如何建立直接郵件訊息](../direct-mail/create-direct-mail.md)。
+
+1. 在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中，選取欄或按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立欄。
+
+1. 在格式窗格中，使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. 在決定原則設定畫面中，使用&#x200B;**[!UICONTROL 專案數]**&#x200B;欄位來定義每個設定檔要傳回多少決定專案（例如，匯出前2個合格優惠的2）。 在擷取檔案欄中繼續進行[策略設定](#strategy)和[個人化](use-decision-policy.md)。
+
 >[!ENDTABS]
 
 ## 設定決定原則 {#configure}
@@ -209,7 +217,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >此選項僅適用於電子郵件和程式碼型體驗管道。 對於所有其他管道，每個動作只能傳回1個決定專案。
+   >**[!UICONTROL 專案數]**&#x200B;欄位可用於&#x200B;**電子郵件**、**程式碼型體驗**&#x200B;和&#x200B;**直接郵件**&#x200B;頻道。 對於&#x200B;**簡訊**&#x200B;和&#x200B;**推播**&#x200B;頻道，每個動作只能傳回1個決定專案。
 
    若要傳回電子郵件通道的多個專案，您必須在&#x200B;**[!UICONTROL 重複網格]**&#x200B;元件中新增決定原則。 展開下列區段以取得詳細資訊：
 
@@ -313,7 +321,7 @@ ht-degree: 6%
 
    +++
 
-1. 當您的選取策略準備就緒時，請按一下[下一步] **&#x200B;**。
+1. 當您的選取策略準備就緒時，請按一下[下一步] ****。
 
 ## 新增遞補優惠 {#fallback}
 
@@ -328,7 +336,7 @@ ht-degree: 6%
 
 ## 檢閱並儲存決定原則 {#review}
 
-設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**&#x200B;[!UICONTROL &#x200B;以確認建立原則。]&#x200B;**]**
+設定選擇策略並新增遞補優惠後，按一下[下一步] **[!UICONTROL 以檢閱並儲存您的決定原則，然後按一下[建立]**[!UICONTROL &#x200B;以確認建立原則。]**]**
 
 >[!IMPORTANT]
 >

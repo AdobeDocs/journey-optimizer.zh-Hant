@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +32,11 @@ ht-degree: 24%
 
 決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
 
-這些決定專案已順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗： [程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊和推播通知。
+這些決定專案會順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗：[程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊、推播通知，以及[直接郵件](batch-decisioning-direct-mail.md)，用於批次決定和個人化的直接郵件匯出。 直接郵件的Experience Decisioning支援是一項新功能；之前，直接郵件擷取檔案不提供該Decisioning引擎。
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**&#x200B;和&#x200B;**簡訊**&#x200B;頻道的所有客戶。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
+>決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**、**簡訊**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
 
 ➡️ [在影片中探索此功能](#video)
 
@@ -83,11 +74,11 @@ ht-degree: 24%
 
 1. **建立決策專案**&#x200B;以向您的目標對象顯示。
 
-   ➡️ [&#128279;](items.md)瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案
+   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/decisions-items/create.md)）中建立決定專案](items.md)
 
 1. **使用集合組織**：使用集合根據屬性型規則將決定專案分類。 將集合併入您的選擇策略，以決定應考慮的決定專案集合。
 
-   ➡️ [&#128279;](collections.md)瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合
+   ➡️ [瞭解如何在使用者介面（以及[API檔案](api-reference/items-collections/create.md)）中管理專案集合](collections.md)
 
 1. **建立決定規則**：決定專案和/或選擇策略中會使用決定規則來決定決定可以向誰顯示決定專案。
 
@@ -127,4 +118,4 @@ ht-degree: 24%
 
 瞭解Adobe Journey Optimizer中的決策功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475874?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

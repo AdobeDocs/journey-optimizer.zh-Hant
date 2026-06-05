@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: '3363'
-ht-degree: 95%
+source-wordcount: '3368'
+ht-degree: 94%
 
 ---
 
@@ -589,8 +589,8 @@ ht-degree: 95%
       + [使用計算屬性](using/audience/computed-attributes.md)
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
-+ 報告 {#reporting}
-   + [報告](/help/rp_landing_pages/reporting-landing-page.md)
++ 報表 {#reporting}
+   + [報表](/help/rp_landing_pages/reporting-landing-page.md)
    + [開始使用報告](using/reports/gs-reports.md)
    + 即時報告 {#live-report}
       + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)
@@ -726,6 +726,7 @@ ht-degree: 95%
          + [建立決定原則](using/experience-decisioning/create-decision-policy.md)
          + [在訊息中使用決定原則](using/experience-decisioning/use-decision-policy.md)
          + [在決策原則中善用片段](using/experience-decisioning/fragments-decision-policies.md)
+         + [直接郵件中的批次決策](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Decisioning 上的報告](using/experience-decisioning/cja-reporting.md)
       + [Decisioning 使用案例](using/experience-decisioning/experience-decisioning-uc.md)
       + 收集事件資料 {#experience-decisioning-collect-event-data}

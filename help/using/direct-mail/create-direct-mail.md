@@ -10,23 +10,16 @@ level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 17%
+source-wordcount: 1190
+ht-degree: 15%
 
 ---
 
@@ -87,7 +80,7 @@ ht-degree: 17%
 
 1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，編輯行銷活動的&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [了解更多資訊](../audience/about-audiences.md)。
+1. 若要定義您的目標對象，請按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，然後從可用的Adobe Experience Platform對象中選擇。 [了解更多](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >
@@ -125,7 +118,15 @@ ht-degree: 17%
 
 直接郵件供應商需要擷取檔案，才能傳送郵件給您的客戶。 若要定義解壓縮檔案組態，請執行下列步驟：
 
-1. 在行銷活動設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定擷取檔案內容。
+1. 在行銷活動或歷程設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定擷取檔案內容。
+
+1. 若要新增決定原則至您的直接郵件訊息，請在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中選取欄，並使用![](../experience-decisioning/assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表以建立和插入決定原則。 然後，您就可以在擷取檔案中，將決策專案屬性當做欄資料使用。
+
+   >[!AVAILABILITY]
+   >
+   >直接郵件中的Experience決策是一項新功能。 以前，直接郵件擷取檔案無法使用決策引擎；您現在可以新增決策原則，並在匯出中包含決策專案屬性作為欄資料。
+
+   [瞭解如何在直接郵件中新增決定原則](../experience-decisioning/create-decision-policy.md#add)。 如需批次決定工作流程和範例（個人化的直接郵件或匯出到下游系統），請參閱直接郵件中的[批次決定](../experience-decisioning/batch-decisioning-direct-mail.md)。
 
 1. 調整解壓縮檔案屬性：
 
