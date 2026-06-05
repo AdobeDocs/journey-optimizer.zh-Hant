@@ -10,25 +10,15 @@ level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -253,12 +243,12 @@ ht-degree: 30%
 
 ### 憑證式自訂驗證 {#certificate-credential}
 
-對於強制憑證式身分驗證的企業API （例如Azure Entra ID），您可以將`"subType": "certificateCredential"`新增至自訂授權裝載，以設定憑證式自訂驗證。 Journey Optimizer使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖。 不需要使用者端密碼。
+對於強制憑證式身分驗證的企業API （例如Microsoft Entra ID），您可以將`"subType": "certificateCredential"`新增至自訂授權裝載，以設定憑證式自訂驗證。 Journey Optimizer使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖。 不需要使用者端密碼。
 
-此選項將兩個選用欄位新增至標準`customAuthorization`結構描述： `subType`和`aud`。 所有其他欄位（`endpoint`、`method`、本文引數、`tokenInResponse`）保持不變。 當`subType`不存在時，行為與標準自訂驗證相同 — 不影響現有設定。
+此選項將兩個必要欄位新增至標準`customAuthorization`結構描述： `subType`和`aud`。 所有其他欄位（`endpoint`、`method`、本文引數、`tokenInResponse`）保持不變。 當`subType`不存在時，行為與標準自訂驗證相同 — 不影響現有設定。
 
 * **`subType`**：設定為`"certificateCredential"`以啟用憑證式驗證。
-* **`aud`**： JWT使用者端宣告中包含的對象值。 若未設定，則預設為`endpoint` URL — 只有在您的身分提供者預期不同的對象值時，才指定此欄位。
+* **`aud`**： JWT使用者端宣告中包含的對象值。 對於Microsoft Entra ID，這與`endpoint` URL相同，但必須一律明確設定。
 
 `client_assertion`和`client_assertion_type`欄位從未由使用者編寫。 它們會在執行階段由平台自動插入，緊接在權杖端點呼叫之前。
 
@@ -269,7 +259,7 @@ ht-degree: 30%
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +279,7 @@ ht-degree: 30%
 >設定憑證式自訂驗證時，請記住下列護欄：
 >
 >* **權杖端點URL**：必須是HTTPS。 避免包含`?`的URL — 這是貼上授權端點的符號，而不是權杖端點的符號。
+>* **`method`**：必須是`POST`。 OAuth權杖端點僅接受POST請求。
 >* **`client_id`**：不得為空白，且開頭或結尾不能是空白字元。 空白值會產生看起來有效的JWT，身分提供者會以不透明錯誤拒絕該JWT。
 >* **`scope`**：在`bodyParams`中以單一空格分隔的字串表示。 最多總共1000個字元。
 >* **憑證**： Adobe會管理憑證和私密金鑰 — 您絕對不會上傳或輸入憑證。 在即時歷程中使用自訂動作之前，您必須在身分提供者中註冊&#x200B;**Adobe的葉憑證** （不是根CA）。
