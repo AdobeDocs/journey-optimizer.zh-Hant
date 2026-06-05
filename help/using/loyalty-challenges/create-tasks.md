@@ -15,8 +15,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 10%
+source-wordcount: 1130
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 10%
 
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
+* **建立任務** ◀}︎**您在這裡**
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
 
 </td>
@@ -67,7 +67,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="建立任務"
->abstract="選取客戶活動（購買、支出或自訂事件），然後設定活動特定屬性。 在「屬性」窗格中，設定任務名稱和說明。"
+>abstract="選取客戶活動 (購買、支出或自訂事件)，然後設定活動特定的屬性。 在「屬性」窗格中，設定任務名稱和說明。"
 
 您可以從兩個進入點建立任務。 無論您從何處開始，設定程式都相同。
 
@@ -95,7 +95,7 @@ ht-degree: 10%
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 * **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
