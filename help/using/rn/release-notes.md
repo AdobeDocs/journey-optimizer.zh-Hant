@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ ht-degree: 21%
 ### 協調的行銷活動 {#may-26-oc}
 
 下列功能和改善專案已新增至此版本中的協調行銷活動。 預計未來幾天或幾週也會有其他變更。
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程運算式的AI助理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI Assistant現在會在歷程進階運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您要建置的運算式，AI Assistant會產生可立即套用的程式碼，或透過後續提示進行調整。</p>
-<p>此功能以公用Beta的形式提供給所有客戶。</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/expression-agent.md">詳細文件</a>。</p>
-<p>推出日期： 2026年5月20日</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
