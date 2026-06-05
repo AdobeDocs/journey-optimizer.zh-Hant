@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: fb22b573041e33cf7a831e193ad87ded473ca247
 workflow-type: tm+mt
 source-wordcount: 2743
 ht-degree: 20%
@@ -91,7 +91,7 @@ ht-degree: 20%
 
   請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。 [了解更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
-* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Azure Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
+* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Microsoft Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
 
   推出日期： 2026年6月4日
 
