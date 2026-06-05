@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 94%
@@ -198,7 +198,7 @@ ht-degree: 94%
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
          + [協調活動](using/orchestrated/orchestrate-activities.md)
          + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
-         + [報告](using/orchestrated/reporting-campaigns.md)
+         + [報表](using/orchestrated/reporting-campaigns.md)
       + 查詢資料庫 {#query-database}
          + [查詢資料庫](/help/rp_landing_pages/query-database-landing-page.md)
          + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
@@ -590,7 +590,7 @@ ht-degree: 94%
    + [身分識別](using/audience/get-started-identity.md)
    + [授權使用情況](using/audience/license-usage.md)
 + 報表 {#reporting}
-   + [報表](/help/rp_landing_pages/reporting-landing-page.md)
+   + [報告](/help/rp_landing_pages/reporting-landing-page.md)
    + [開始使用報告](using/reports/gs-reports.md)
    + 即時報告 {#live-report}
       + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)
@@ -1005,4 +1005,5 @@ ht-degree: 94%
       + [管理客戶的偏好設定](using/action/preference-center.md)
    + [資料治理](using/action/action-privacy.md)
    + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
+
 
