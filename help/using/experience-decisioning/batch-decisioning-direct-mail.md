@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 批次決策、直接郵件、決策
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ ht-degree: 0%
 * [建立決定原則](create-decision-policy.md#add) — 在[直接郵件]索引標籤中新增決定原則
 * [直接郵件設定](../direct-mail/direct-mail-configuration.md) — 檔案路由和通道設定
 * [開始使用決策](gs-experience-decisioning.md) — 概念和護欄
+
