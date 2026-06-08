@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 ![僅讀取對象之批次歷程的模擬面板](assets/simulate-batch.png)
 
-對於具有&#x200B;**[!UICONTROL 讀取對象]**&#x200B;的歷程，您可以存取&#x200B;**[!UICONTROL 快速模擬]**&#x200B;或&#x200B;**[!UICONTROL 手動模擬]**。
-
-![僅讀取對象之批次歷程的模擬面板](assets/simulate-14.png)
-
 +++
 
 +++ 具有讀取對象和單一事件的批次歷程
@@ -60,10 +56,6 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 ![僅讀取對象之批次歷程的模擬面板](assets/simulate-batch-2.png)
 
-透過&#x200B;**具有讀取對象和單一事件的Batch Journey**，您可以存取&#x200B;**[!UICONTROL 快速模擬]**&#x200B;或&#x200B;**[!UICONTROL 手動模擬]**。
-
-歷程介面中的![測試模式按鈕](assets/simulate-12.png)
-
 +++
 
 +++ 單一歷程
@@ -72,10 +64,6 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 為模擬選取的模擬使用者與設定的事件將分別顯示在&#x200B;**測試使用者**&#x200B;與&#x200B;**測試事件**&#x200B;區段中。**測試使用者**&#x200B;區段不包含將模擬使用者觸發歷程的動作。您從&#x200B;**測試事件**&#x200B;觸發專案。
 
 ![僅讀取對象之批次歷程的模擬面板](assets/simulate-batch-3.png)
-
-透過&#x200B;**單一歷程**，您可以直接存取[手動]模擬功能表。
-
-單一歷程的![模擬面板](assets/simulate-13.png)
 
 +++
 
