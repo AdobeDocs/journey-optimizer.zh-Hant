@@ -14,9 +14,9 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: 920
 ht-degree: 13%
 
 ---
@@ -90,21 +90,23 @@ ht-degree: 13%
 * **循序挑戰**：客戶以定義的順序完成任務。 使用此型別引導客戶完成特定歷程或上線流程。\
   *範例：「新成員歷程」 — 註冊電子郵件→進行第一次購買→撰寫產品評論→推薦朋友（以此確切順序完成）*
 
-* **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像設定任何其他挑戰型別一樣設定內容、傳訊和對象。
+* **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像處理任何其他挑戰型別一樣設定「設定」、「內容」和「傳訊」。
+
+* **可重複的挑戰**：設定成員可以完成相同挑戰並再次獲得獎勵的次數。 [瞭解重複限制](create-challenges.md#repeat-limits)
 
 ## 運作方式 {#how-it-works}
 
 建立和啟動忠誠度挑戰會遵循此工作流程：
 
-1. **建立挑戰** — 定義基本挑戰屬性，包括名稱、型別(標準、條紋、循序或自備資料（可用時）)和日期範圍。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
+1. **建立挑戰** — 選擇挑戰型別(標準、條紋、循序或自備資料（可用時）。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
 
-1. **新增任務** — 定義客戶必須完成的特定動作，包括任務型別（購買、支出或自訂事件）、數量、產品篩選和獎勵。
+1. **設定設定** — 在[設定]索引標籤中，定義挑戰詳細資料、對象、排程、規則（選擇加入、進度追蹤、重複限制）和選用的中繼資料。 [瞭解挑戰設定](create-challenges.md#settings)。
 
-1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。 內容卡會顯示挑戰資訊、進度和獎勵。
+1. **新增任務和獎勵** — 在[結構]索引標籤中，定義任務和獎勵（自帶資料挑戰不需要）。
+
+1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。
 
 1. **設定訊息** （選擇性） — 設定關鍵生命週期階段的多通道訊息（應用程式內、電子郵件、推播）：啟動、進行中及完成。
-
-1. **選取目標對象** — 從Adobe Experience Platform選取對象，以定義哪些客戶可以參與您的挑戰。
 
 1. **啟動挑戰** — 發佈挑戰，然後產生歷程。 Journey Optimizer會自動建立挑戰歷程。 發佈自動產生的歷程，讓客戶瞭解挑戰。
 
@@ -196,7 +198,7 @@ ht-degree: 13%
   </td>
   <td>
     <a href="loyalty-reporting.md">
-      <img alt="報告" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+      <img alt="報表" src="assets/do-not-localize/icon-reporting.png" width="200"/>
     </a>
     <div>
     <a href="loyalty-reporting.md"><strong>監控效能</strong></a>
