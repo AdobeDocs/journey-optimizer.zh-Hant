@@ -11,12 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
-本頁涵蓋建立忠誠度挑戰的完整流程，從選取挑戰型別和設定其屬性，到產生和發佈將為客戶提供挑戰的歷程。
+本頁涵蓋建立忠誠度挑戰的完整流程，從選擇挑戰型別和設定設定、結構、內容和訊息，到產生和發佈將挑戰傳遞給客戶的歷程。
 
 ## 建立挑戰 {#create-the-challenge}
 
@@ -79,58 +77,104 @@ ht-degree: 16%
    * **[!UICONTROL 循序]**：客戶以定義的順序完成工作\
      *範例： Purchase → Review → Share （必須依此順序完成）*
 
-   * **[!UICONTROL 自備資料]**：若您想要從「忠誠度挑戰」資料整合中組合挑戰架構（例如工作與獎勵），請選取&#x200B;**[!UICONTROL 自備資料]**。 選取此型別時，您不需要設定挑戰結構，您只需以與其他挑戰相同的方式設定&#x200B;**[!UICONTROL 內容]**、**[!UICONTROL 訊息]**&#x200B;和&#x200B;**[!UICONTROL 對象]**。
+   * **[!UICONTROL 自備資料]**：若您想要從「忠誠度挑戰」資料整合中組合挑戰架構（例如工作與獎勵），請選取&#x200B;**[!UICONTROL 自備資料]**。 選取此型別時，**[!UICONTROL 結構]**&#x200B;索引標籤是唯讀的。 以與其他挑戰型別相同的方式設定&#x200B;**[!UICONTROL 設定]**、**[!UICONTROL 內容]**&#x200B;和&#x200B;**[!UICONTROL 傳訊]**。
 
      >[!AVAILABILITY]
      >
      >**[!UICONTROL 自備資料]**&#x200B;挑戰型別目前可供一組受限制的組織使用，並將在未來版本中更廣泛地提供。
 
-   選擇挑戰型別後，挑戰建立介面會開啟，其中包含多個設定標籤。 針對&#x200B;**[!UICONTROL 自備資料]**&#x200B;以外的所有型別，從設定挑戰結構開始。
+   選取挑戰型別後，挑戰編輯器會開啟以下索引標籤： **[!UICONTROL 設定]**、**[!UICONTROL 結構]**、**[!UICONTROL 內容]**&#x200B;以及&#x200B;**[!UICONTROL 傳訊]**。 從&#x200B;**[!UICONTROL 設定]**&#x200B;開始，以定義挑戰詳細資料、對象、排程和規則。 然後針對除&#x200B;**[!UICONTROL 自備資料]**&#x200B;以外的所有型別設定&#x200B;**[!UICONTROL 結構]** （工作與獎勵）。
 
-## 設定挑戰結構 {#structure}
+## 設定挑戰設定 {#settings}
 
-在&#x200B;**[!UICONTROL 結構]**&#x200B;索引標籤中，定義挑戰的組織方式：其屬性、排程、要完成的任務以及要傳送的獎勵。
+在&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中，設定挑戰層級屬性：誰可以參與、挑戰執行時、成員如何選擇加入並獲得進度，以及選擇性的中繼資料。
 
-### 定義挑戰屬性及使用自訂中繼資料 {#properties}
+### 挑戰詳細資料 {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="挑戰屬性"
->abstract="在「挑戰屬性」窗格中，設定挑戰名稱和說明，並新增自訂索引鍵/值中繼資料，用於追蹤或外部整合。"
+>title="挑戰詳細資料"
+>abstract="設定挑戰名稱和說明。 挑戰ID會在建立挑戰時自動指派，並可複製以供API或整合使用。"
 
-1. 在&#x200B;**[!UICONTROL 挑戰內容]**&#x200B;窗格中，定義挑戰的全域設定：
+1. 在&#x200B;**[!UICONTROL 挑戰詳細資料]**&#x200B;區段中，定義下列專案：
 
    * **[!UICONTROL 名稱]**：輸入質詢的描述性名稱。 此名稱會出現在挑戰清單中。
+   * **[!UICONTROL 挑戰識別碼]**：建立挑戰時指派的唯一識別碼。 使用複製控制在API或外部系統中參照此ID。
    * **[!UICONTROL 說明]**：輸入說明挑戰目的和目標的說明。
 
-1. 使用&#x200B;**[!UICONTROL 自訂中繼資料]**&#x200B;區段，以使用索引鍵/值配對來新增自訂中繼資料。 此中繼資料可用於追蹤或與外部系統整合。
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### 對象 {#audience}
 
-### 安排挑戰 {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="客群"
+>abstract="選擇可以參與挑戰的人。 新增Adobe Experience Platform對象，或讓對象保持空白，讓所有忠誠會員皆符合資格。 選擇性地要求完成其他挑戰作為先決條件。"
+
+定義誰可以參與您的忠誠度挑戰。
+
+1. 在「**[!UICONTROL 對象]**」區段中，選取「**[!UICONTROL 新增對象]**」以將挑戰限制在特定Adobe Experience Platform對象。 [瞭解如何使用對象](../audience/about-audiences.md)。
+
+   ![](assets/challenge-create-audience.png)
+
+1. 在&#x200B;**[!UICONTROL 挑戰必要條件]**&#x200B;下，選取&#x200B;**[!UICONTROL 要求完成挑戰]**，將資格限製為已完成一或多個選取挑戰的成員。
+
+### 排程 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑戰排程"
->abstract="透過排程定義挑戰何時上線：設定客戶可以進行挑戰的開始日期和時間，以及停止接受完成報告的結束日期和時間。 挑選一個時區，並選擇客戶何時可以在「**[!UICONTROL 任務完成視窗區段]**」中完成任務。"
+>abstract="使用開始和結束日期與時間以及時區設定挑戰現場的時間。 在作業完成視窗中，選擇客戶可在挑戰期間完成作業的時間。"
 
 設定您的挑戰執行時間：
 
-1. 選取&#x200B;**[!UICONTROL 開啟排程]**&#x200B;圖示：
+1. 在&#x200B;**[!UICONTROL 排程]**&#x200B;區段中，設定：
+
+   * **[!UICONTROL 開始日期和時間]**：客戶可以提出質詢的時間。
+   * **[!UICONTROL 結束日期和時間]**：挑戰到期且不再接受新完成時。
+   * **[!UICONTROL 時區]**：用於挑戰排程的時區。
 
    ![](assets/challenge-create-schedule.png)
 
-1. 設定下列排程選項：
+1. 在&#x200B;**[!UICONTROL 任務完成視窗]**&#x200B;下，選擇客戶何時可以完成任務：
 
-   * **[!UICONTROL 開始日期和時間]**：設定客戶何時可提出挑戰。
-   * **[!UICONTROL 結束日期和時間]**：設定質詢過期且不再接受新完成的時間。
-   * **[!UICONTROL 時區]**：挑戰預設使用收件者的當地時區。
-   * **[!UICONTROL 任務必須完成]**：選擇客戶何時可以完成任務：
+   * **[!UICONTROL 在挑戰期間的任何時間]**：客戶可以在挑戰開始與結束日期之間的任何時間完成任務。
+   * **[!UICONTROL 在一天中的特定小時內]**：設定&#x200B;**[!UICONTROL 開始時間]**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**，將工作完成限制在特定每日小時內。
 
-      * **[!UICONTROL 在挑戰期間的任何時間]**：客戶可以在挑戰開始與結束日期之間的任何時間完成任務。
-      * **[!UICONTROL 在一天中的特定小時內]**：設定&#x200B;**[!UICONTROL 開始時間]**&#x200B;和&#x200B;**[!UICONTROL 結束時間]**，將工作完成限制在特定每日小時內。
+### 規則 {#rules}
 
-挑戰排程現在已設定。 接下來，新增客戶需要完成的工作。
+設定成員選擇加入的方式、任務進度計入挑戰的時間，以及完成挑戰的次數。
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL 選擇加入觸發程式]**：
+
+   * **[!UICONTROL 選擇加入方法]**：選擇客戶是手動加入挑戰，還是透過事件觸發器加入。
+   * **[!UICONTROL 事件]**：對於事件型選擇加入，請選取觸發選擇加入的事件。 管理員可以按一下![齒輪](assets/do-not-localize/settings-icon.svg)按鈕來建立事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL 開始追蹤進度]**：
+
+   * **[!UICONTROL 任務進度追蹤開始]**：選擇任務完成何時計入挑戰進度。 例如，選取&#x200B;**[!UICONTROL 當挑戰開始（在選擇加入之後）]**，所以進度會在成員選擇加入且挑戰為作用中之後開始。
+
+     當成員看到挑戰時，您可以在追蹤進度時將其與分離。 例如，可能會出現挑戰卡片，並在任務完成前接受選擇加入，以開始計入稍後日期的進度。
+
+   * **[!UICONTROL 開始]**：當您選擇自訂開始選項時，請設定進度追蹤開始的日期和時間。
+
+* **[!UICONTROL 重複限制]**：
+
+   * **[!UICONTROL 可以完成挑戰]**：選擇挑戰可以完成一次還是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定義的完成數。
+
+   * **[!UICONTROL 可以完成的次數]**：啟用重複時，請指定成員可以完成挑戰的次數。
+
+### 自訂中繼資料 {#custom-metadata}
+
+在&#x200B;**[!UICONTROL 自訂中繼資料]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 新增索引鍵/值組]**&#x200B;以新增自訂中繼資料。 使用中繼資料來追蹤或與外部系統整合。
+
+![](assets/challenge-create-metadata.png)
+
+## 設定挑戰結構 {#structure}
+
+在&#x200B;**[!UICONTROL 結構]**&#x200B;索引標籤中，定義客戶必須完成的工作以及他們獲得的獎勵。 此標籤不適用於&#x200B;**[!UICONTROL 自備資料]**&#x200B;挑戰。
 
 ### 新增任務 {#add-tasks}
 
@@ -181,7 +225,7 @@ ht-degree: 16%
 
    +++
 
-1. 依預設，標準和循序挑戰可讓客戶跨多個交易完成任務。 若要在單一交易中要求完成所有工作，請選取&#x200B;**[!UICONTROL 設定]**&#x200B;圖示並開啟下方的選項。
+1. 依預設，標準和循序挑戰可讓客戶跨多個交易完成任務。 若要要求所有工作均在單一異動中完成，請開啟[工作選項]功能表，然後開啟[單一異動]選項。
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ ht-degree: 16%
 
 在以下章節中瞭解如何建立特定頻道的訊息： [應用程式內訊息](../in-app/get-started-in-app.md) - [電子郵件訊息](../email/get-started-email.md) - [推播通知](../push/get-started-push.md)
 
-完成訊息設定後，請定義哪些客戶有資格參與挑戰。
-
-## 選取挑戰客群 {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="對象"
->abstract="在「客群」索引標籤上，自可供使用的 Adobe Experience Platform 客群中選擇可以參與挑戰的客群。"
-
-定義哪些客戶可參與您的忠誠度挑戰。
-
-1. 導覽至&#x200B;**[!UICONTROL 對象]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕。
-
-   ![](assets/challenge-create-audience.png)
-
-1. 在對象選取對話方塊中，從可用的Adobe Experience Platform對象清單中選取您的目標對象，然後選取&#x200B;**[!UICONTROL 新增對象]**。 [瞭解如何使用對象](../audience/about-audiences.md)。
-
-您的挑戰現在已完整設定結構、內容、訊息和目標對象。 若要啟動它，您必須發佈挑戰及其相關歷程。
+您的挑戰現在已完整設定其設定、結構、內容和訊息。 若要啟動它，您必須發佈挑戰及其相關歷程。
 
 ## 發起挑戰 {#launch}
 
