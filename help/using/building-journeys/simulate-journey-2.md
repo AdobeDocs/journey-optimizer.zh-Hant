@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 97a1387dbac4443f3c9bb0fb21334a8071505961
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 1841
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    Adobe Journey Optimizer會從歷程定義產生一組模擬使用者。
 
-   對於具有電子郵件或簡訊節點的歷程，AI會提示您確認要使用的電子郵件地址或電話號碼。 系統會使用這些定義的值產生模擬使用者。 完成後，按一下&#x200B;**[!UICONTROL 產生]**。
+   對於具有電子郵件、推播或簡訊節點的歷程，AI會提示您確認要使用的電子郵件地址或電話號碼。 系統會使用這些定義的值產生模擬使用者。 完成後，按一下&#x200B;**[!UICONTROL 產生]**。
 
    ![使用執行電子郵件和電話欄位以及[產生]按鈕來產生模擬使用者對話方塊](assets/simulate-generate.png)
 
