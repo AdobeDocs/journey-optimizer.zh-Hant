@@ -10,12 +10,22 @@ level: Beginner, Intermediate
 keywords: 深色模式，電子郵件，顏色，編輯器
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1553
@@ -217,7 +227,7 @@ Here you can see that we have applied a different background, defined another im
    >
    >即時檢視是通用的預覽，用來比較各種裝置大小下的轉譯效果。 最終呈現內容可能會因收件者的電子郵件使用者端而異。
 
-1. 在您滿意深色模式的變更後，請按一下[模擬內容] ****，然後從下拉式清單中選取[模擬內容（AEP設定檔）] ]**，以檢查電子郵件轉譯。**[!UICONTROL 
+1. 在您滿意深色模式的變更後，請按一下[模擬內容] **&#x200B;**，然後從下拉式清單中選取[模擬內容（AEP設定檔）] **，以檢查電子郵件轉譯。**
 
    ![](assets/dark-mode-simulate.png)
 
