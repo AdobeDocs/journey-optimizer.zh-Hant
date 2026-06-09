@@ -10,15 +10,12 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 18%
+source-wordcount: 192
+ht-degree: 16%
 
 ---
 
@@ -65,7 +62,12 @@ ht-degree: 18%
 
 ## 測試並檢查您的內容
 
-定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [瞭解如何預覽和測試內容](../content-management/preview-test.md)
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽和測試您的內容。 您可以使用下列任一種模擬方法：
+
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+
+[瞭解如何預覽和測試內容](../content-management/preview-test.md)
 
 若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
 

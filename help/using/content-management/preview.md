@@ -6,18 +6,17 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 4%
+source-wordcount: 231
+ht-degree: 3%
 
 ---
 
 # 使用測試設定檔預覽您的內容 {#preview}
 
-選取[測試設定檔](test-profiles.md)後，您可以使用其資料預覽您的內容。 請依照下列步驟操作：
+選取[測試設定檔](test-profiles.md)後，您可以使用其資料預覽您的內容。 您可以使用下列任一種模擬方法：
 
 1. 從訊息的編輯內容畫面或電子郵件Designer中，按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**。
 
@@ -46,7 +45,3 @@ ht-degree: 4%
    >若在組態詳細資料中發現錯誤，請按一下&#x200B;**[!UICONTROL 檢視組態詳細資料]**&#x200B;按鈕。 [了解更多](../email/surface-personalization.md#check-configuration)
 
 建立程式碼型體驗時，您可以直接在瀏覽器或行動裝置上預覽個人化內容，以進行真實生活的模擬。 [了解更多](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，預覽和傳送校樣，以測試內容的不同變體。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)

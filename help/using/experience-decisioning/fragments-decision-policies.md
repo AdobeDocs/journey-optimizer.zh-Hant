@@ -7,20 +7,14 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1143
 ht-degree: 1%
 
 ---
@@ -175,4 +169,4 @@ ht-degree: 1%
 
    ![](assets/aem-fragment-attribute.png)
 
-1. 在啟用行銷活動或歷程之前，您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;來預覽AEM內容片段欄位值將如何針對特定測試設定檔呈現。 [進一步瞭解模擬內容](../content-management/preview-test.md)
+1. 在啟用行銷活動或歷程之前，請使用模擬方法來預覽AEM內容片段欄位值將如何呈現：按一下「模擬內容」**[!UICONTROL 以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」]**，以使用特定測試設定檔預覽。]****[!UICONTROL **[!UICONTROL [進一步瞭解模擬內容](../content-management/preview-test.md)
