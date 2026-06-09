@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 ## 讀取對象歷程 {#entry-read-audience}
 
-**讀取對象**&#x200B;歷程可以是週期性或「一次性」：
+**讀取對象**&#x200B;歷程可以是週期性或非週期性：
 
-* 對於非循環/「單次」歷程：設定檔在歷程中只進入一次。
+* 對於非循環歷程：設定檔在歷程中只輸入一次。
 
 * 對於循環歷程：依預設，屬於對象的所有設定檔都會在每次循環時進入歷程。 使用者必須先完成歷程，才能在另一個發生次數中重新進入。
 

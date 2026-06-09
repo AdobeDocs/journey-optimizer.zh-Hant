@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 3891
+source-wordcount: 3917
 ht-degree: 6%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 6%
 >
 >**歷程狀態和91天全域逾時：**
 >
->* **單次**&#x200B;讀取對象歷程在歷程執行91天後移至&#x200B;**已完成**&#x200B;狀態（[歷程全域逾時](journey-properties.md#global_timeout)）。
+>* **非循環**&#x200B;讀取對象歷程會在最後一個作用中設定檔結束後自動轉換成&#x200B;**已停止**&#x200B;狀態，除非歷程包含會導致等待時間的節點（等待節點、反應節點或事件觸發的轉換），在此情況下，會套用標準的91天全域逾時。 [了解更多](end-journey.md#auto-stop-non-recurring)
 >* 只要歷程已發佈，**循環**&#x200B;沒有結束日期&#x200B;**的讀取對象歷程就會保持即時**。 他們在執行&#x200B;**最後一次發生**&#x200B;後91天移至&#x200B;**已完成**&#x200B;狀態。
 >* 91天逾時適用於流經歷程的個別&#x200B;**設定檔** （設定檔保持作用中狀態的最長時間），而非歷程的即時狀態。
 >* 91天&#x200B;**報告期間**&#x200B;是個個別的概念： UI會顯示大約過去91天的效能資料。 無法在UI中存取較舊的資料，但歷程會繼續執行。 [了解更多](journey-properties.md#global_timeout)
