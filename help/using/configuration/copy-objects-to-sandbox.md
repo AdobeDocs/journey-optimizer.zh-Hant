@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 2418
+source-wordcount: 2447
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Journey Optimizer允許將歷程、行銷活動（動作、API觸發和組織式
 * 片段可以有多個狀態，例如即時、草稿和即時草稿。 匯出片段時，其最新的草稿狀態會複製到目標沙箱。
 
 * 匯出片段時，也會一併複製所有巢狀片段。
+
++++
+
++++ 歷程片段
+
+* 沙箱工具支援[歷程片段](../building-journeys/journey-fragments.md) （可重複使用的歷程節點集合）。 匯出歷程片段時，其最新的草稿狀態會複製到目標沙箱。
 
 +++
 
