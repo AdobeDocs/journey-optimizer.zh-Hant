@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
+source-git-commit: f9fbf21341466e71c0e6b3580659b6261a828bd6
 workflow-type: tm+mt
 source-wordcount: 2842
 ht-degree: 21%
@@ -89,6 +89,29 @@ ht-degree: 21%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>模擬內容變體 — 更新體驗和AI變體產生</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>模擬內容</strong>工作流程現在有兩個更新：</p>
+<ul>
+<li><strong>新的預設路徑</strong> — 按一下<strong>模擬內容</strong>現在會依預設開啟<strong>模擬內容變化</strong>體驗。 您可以從單一畫面手動或CSV/JSON檔案新增範例輸入、重複使用模擬使用者、預覽演算及傳送校樣。 若要使用Adobe Experience Platform測試設定檔預覽、傳送包含測試設定檔資料的校樣，或檢查電子郵件收件匣轉譯和垃圾郵件報告，請按一下[模擬內容] </strong>，然後從下拉式清單中選取[模擬內容（AEP設定檔）] </strong>。<strong><strong></li>
+<li><strong>AI產生的內容變體</strong> — 在<strong>模擬內容變體</strong>體驗中，按一下<strong>產生</strong>以使用AI自動建立內容變體。 系統會分析您的訊息、偵測個人化欄位和條件分支，並填入實際值，以便您驗證轉譯時無需手動建立每個變體。</li>
+</ul>
+<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
+<p>推出日期： 2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -126,36 +149,16 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>模擬內容變體 — 更新體驗和AI變體產生</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>模擬內容</strong>工作流程現在有兩個更新：</p>
-<ul>
-<li><strong>新的預設路徑</strong> — 按一下<strong>模擬內容</strong>現在會依預設開啟<strong>模擬內容變化</strong>體驗。 您可以從單一畫面手動或CSV/JSON檔案新增範例輸入、重複使用模擬使用者、預覽演算及傳送校樣。 若要使用Adobe Experience Platform測試設定檔預覽、傳送包含測試設定檔資料的校樣，或檢查電子郵件收件匣轉譯和垃圾郵件報告，請按一下[模擬內容] </strong>，然後從下拉式清單中選取[模擬內容（AEP設定檔）] </strong>。<strong><strong></li>
-<li><strong>AI產生的內容變體</strong> — 在<strong>模擬內容變體</strong>體驗中，按一下<strong>產生</strong>以使用AI自動建立內容變體。 系統會分析您的訊息、偵測個人化欄位和條件分支，並填入實際值，以便您驗證轉譯時無需手動建立每個變體。</li>
-</ul>
-<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
-<p>推出日期： 2026年6月9日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Microsoft Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
-
-  推出日期： 2026年6月4日
-
 * **非循環讀取對象歷程的自動停止** — 非循環&#x200B;**讀取對象**&#x200B;歷程現在會在最後一個作用中設定檔退出後，自動轉換成&#x200B;**已停止**&#x200B;狀態。 以往，這些歷程會維持&#x200B;**即時**&#x200B;狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。
 
   請注意，此行為不適用於包含導致等待期的節點的歷程，例如等待節點、反應節點或事件觸發的轉變。 這些歷程仍受標準91天全域逾時的約束。 [了解更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   推出日期： 2026年6月9日
+
+* **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Microsoft Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
+
+  推出日期： 2026年6月4日
+
 
 * **促銷活動生命週期事件的客戶警示** — 新的系統警示現在會通知您動作和API觸發之促銷活動的重要生命週期事件。 在沙箱層級訂閱。 [閱讀更多](../reports/alerts.md)
 
