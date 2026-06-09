@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
+source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
 workflow-type: tm+mt
-source-wordcount: 947
-ht-degree: 10%
+source-wordcount: 1046
+ht-degree: 9%
 
 ---
 
@@ -91,6 +91,12 @@ ht-degree: 10%
 1. 啟用&#x200B;**[!UICONTROL mTLS支援]**&#x200B;選項，以確保使用者端和伺服器在建立安全連線之前互相驗證。
 
    若要僅使用mTLS，請從&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 無驗證]**，然後啟用&#x200B;**[!UICONTROL mTLS支援]**。
+
+   請注意，mTLS僅適用於SMS提供者（訊息傳送）端點。 OAuth權杖端點不得使用mTLS。 在測試之前，請確定已在權杖端點上停用mTLS。
+
+   >[!IMPORTANT]
+   >
+   >透過從[MTLS公用憑證API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)下載公用憑證，並將它新增至您的伺服器信任存放區（預期的使用者端CN： `ajo-sms.aep-mtls.adobe.com`），將您的SMS傳送端點設定為信任Adobe Experience Platform憑證授權鏈結，否則Journey Optimizer會省略使用者端憑證，SMS傳送會失敗。
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
@@ -179,6 +185,8 @@ ht-degree: 10%
 * **[!UICONTROL OAuth URL]**&#x200B;：輸入用於取得OAuth權杖的URL。
 
 * **[!UICONTROL OAuth內文]**&#x200B;：提供JSON格式的OAuth要求內文，包括`grant_type`、`client_id`和`client_secret`等引數。
+
+Journey Optimizer會在自訂SMS聯結器到期時動態重新整理OAuth權杖。
 
 ![](assets/sms-byop-oauth.png)
 
