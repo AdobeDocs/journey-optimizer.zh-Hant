@@ -8,23 +8,15 @@ level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 TQID: https://experienceleague.adobe.com/rCvifXOYsVI8eaUhNs-tjF-N50BakY-58rqGgTrYzpw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
+source-wordcount: 2405
 ht-degree: 11%
 
 ---
@@ -35,6 +27,12 @@ ht-degree: 11%
 >id="ajo_campaigns_inapp_triggers"
 >title="管理應用程式內觸發器"
 >abstract="透過選取將會啟動訊息的特定活動與條件，有效率地管理觸發器。 透過規則產生器，使用者可以定義精確的條件與值。 符合這些條件時，就會觸發一系列的動作，包括傳遞應用程式內的訊息。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="應用程式內訊息動作"
+>abstract="應用程式內訊息傳入動作會在設定檔到達歷程的此步驟時，向設定檔顯示應用程式內訊息。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的應用程式內設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視應用程式內訊息。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 
@@ -92,7 +90,7 @@ ht-degree: 11%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -162,7 +160,7 @@ ht-degree: 11%
 
 1. 若要指派自訂或核心資料使用標籤給應用程式內訊息，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 
@@ -198,7 +196,7 @@ ht-degree: 11%
 
       +++
 
-   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。**&#x200B;**
+   1. 如果要讓觸發程式考慮多個事件或條件，請按一下[新增條件]。****
 
    1. 若要新增更多&#x200B;**[!UICONTROL 觸發器]**，請選擇&#x200B;**[!UICONTROL 或]**&#x200B;條件，以進一步展開規則。
 
@@ -261,7 +259,7 @@ ht-degree: 11%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451893?captions=chi_hant&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -269,7 +267,7 @@ ht-degree: 11%
 
   +++收看影片
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445299/?captions=chi_hant&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

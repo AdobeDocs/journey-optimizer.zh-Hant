@@ -11,26 +11,15 @@ keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -96,7 +85,7 @@ ht-degree: 13%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
+在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
 
 ## 進入與重新進入 {#entrance}
 
@@ -178,9 +167,9 @@ ht-degree: 13%
 ### 歷程活動逾時 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="逾時或錯誤"
->abstract="在歷程視為逾時之前，指定應嘗試執行動作或評估條件的所需時間。 建議值介於 1 至 30 秒之間。"
+>abstract="**逾時或錯誤**&#x200B;選項會在動作逾時或傳回錯誤時，定義歷程中的替代路徑，因此設定檔會繼續通過遞補路徑，而非在此步驟停止。 建議值介於 1 至 30 秒之間。"
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 
@@ -208,7 +197,7 @@ ht-degree: 13%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;**&#x200B;**
+單一歷程的&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -253,7 +242,7 @@ ht-degree: 13%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;**&#x200B;**
+針對區段觸發器歷程&#x200B;****
 
 <table style="table-layout:auto">
   <tr style="border: 1;">

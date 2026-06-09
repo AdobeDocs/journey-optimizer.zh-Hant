@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 7%
+source-wordcount: 854
+ht-degree: 6%
 
 ---
 
@@ -46,6 +38,12 @@ ht-degree: 7%
 根據業界標準及法規，所有SMS/RCS/MMS行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 要執行此操作，簡訊收件者可以使用選擇加入和選擇退出關鍵字進行回覆。 [瞭解如何管理選擇退出](../privacy/opt-out.md#opt-out-decision-management)
 
 ## 新增行動裝置訊息 {#create-sms-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_sms"
+>title="行動訊息動作"
+>abstract="行動訊息頻道動作會在設定檔到達歷程的這個步驟時，傳送文字(SMS)、多媒體(MMS)或豐富通訊(RCS)訊息給設定檔。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的行動訊息設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增行動訊息。
 
@@ -71,7 +69,7 @@ ht-degree: 7%
 
    ![](assets/sms_create_2.png)
 
-1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [進一步了解](../conflict-prioritization/channel-capping.md)
+1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [了解更多](../conflict-prioritization/channel-capping.md)
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-mobile.md)
 
@@ -101,7 +99,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤行動訊息中連結的點按次數。
 
-1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
+1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
