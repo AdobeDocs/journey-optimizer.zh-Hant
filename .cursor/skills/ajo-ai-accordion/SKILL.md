@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - 僅`+++`線上上關閉摺疊式功能表
 - 開頭`+++`之前和結尾`+++`之後的空白行
 
----
+&#x200B;---
 
 ## 工作流程
 
@@ -79,19 +79,19 @@ Content here — any standard markdown is valid.
 - 已修改的檔案清單✓
 - 略過的清單檔案和原因（已有摺疊式功能表、空白檔案、不相關等）
 
----
+&#x200B;---
 
 ## 內容產生規則
 
 分析Markdown頁面以產生摺疊式功能表內容。 以&#x200B;**的順序產生下列區段**，格式為Markdown專案符號清單。 略過無法從頁面擷取任何有意義內容的區段。
 
----
+&#x200B;---
 
 ### 摺疊面板標題
 
 使用： `+++AI Assistant — Page context`
 
----
+&#x200B;---
 
 ### 要產生的區段（依序）
 
@@ -103,7 +103,7 @@ Content here — any standard markdown is valid.
 - **TL;DR:** [one sentence summary]
 ```
 
----
+&#x200B;---
 
 **2. 意圖**
 
@@ -115,7 +115,7 @@ Content here — any standard markdown is valid.
 - [action the user can perform]
 ```
 
----
+&#x200B;---
 
 **3. 字彙表**
 
@@ -129,7 +129,7 @@ Content here — any standard markdown is valid.
 
 僅包含與本頁主題相關的詞語。 請勿使用一般行銷詞語填入。
 
----
+&#x200B;---
 
 **4. 護欄**
 
@@ -141,7 +141,7 @@ Content here — any standard markdown is valid.
 - [guardrail or prerequisite]
 ```
 
----
+&#x200B;---
 
 **5. 術語**
 
@@ -157,7 +157,7 @@ Content here — any standard markdown is valid.
 
 僅包含頁面上出現或隱含的專案。
 
----
+&#x200B;---
 
 **6. 常見問題集**
 
@@ -169,7 +169,7 @@ Content here — any standard markdown is valid.
 - **Q: [question]** — [short answer]
 ```
 
----
+&#x200B;---
 
 ### 不要包含的內容
 
@@ -177,7 +177,7 @@ Content here — any standard markdown is valid.
 - 請&#x200B;**不**&#x200B;包含逐步指示（在頁面中）。
 - 請&#x200B;**不**&#x200B;建立頁面不支援的內容。
 
----
+&#x200B;---
 
 ### 完整摺疊式功能表範本
 
@@ -205,7 +205,7 @@ Content here — any standard markdown is valid.
 +++
 ```
 
----
+&#x200B;---
 
 ## 附註
 
