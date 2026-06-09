@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 Adobe Journey Optimizer工作流程中的現有&#x200B;**資產選擇器**&#x200B;和&#x200B;**內容片段選擇器**&#x200B;體驗正在由&#x200B;**內容顧問**&#x200B;取代。 內容警告器提供AI支援的統一介面，以便直接在AJO編寫工作流程中探索和選取Assets、內容片段和Dynamic Media。 在轉換期間，現有的整合功能可繼續運作。
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**AEM內容片段**&#x200B;是在Adobe Experience Manager中編寫並在[!DNL Journey Optimizer]中使用。 它們與以下不同：
+>
+>* **[片段](../content-management/fragments.md)** — 在[!DNL Journey Optimizer]中建立並用於跨行銷活動和歷程之電子郵件中的可重複使用內容元件。
+>* **[歷程片段](../building-journeys/journey-fragments.md)** — 可重複使用的歷程節點集合已插入歷程中。
 
 Adobe Experience Manager與Journey Optimizer之間的整合會遵循以下資料流程：
 
