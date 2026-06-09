@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: 450
 ht-degree: 2%
 
 ---
@@ -73,7 +73,12 @@ ht-degree: 2%
 
 ## 測試並檢查您的內容
 
-定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕，以測試設定檔或從CSV / JSON檔案上傳的範例輸入資料來預覽和測試您的內容，或手動新增。 [瞭解如何預覽和測試內容](../content-management/preview-test.md)。 若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
+定義內容後，請使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽和測試您的內容。 您可以使用下列任一種模擬方法：
+
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+
+[瞭解如何預覽和測試內容](../content-management/preview-test.md)。 若要瀏覽回到行銷活動建立畫面，請按一下向左箭頭。
 
 ![](assets/create-campaign-design.png)
 

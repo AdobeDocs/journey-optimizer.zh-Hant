@@ -18,9 +18,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
+source-wordcount: 1599
 ht-degree: 22%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 22%
 
 您也可以使用直接顯示在每個活動上的[視覺狀態指標](#activities)，快速識別失敗的活動。 如需詳細的疑難排解，請開啟[行銷活動的記錄](#logs-tasks)，其中提供有關錯誤及其內容的深入資訊。
 
-如果您已在畫布中新增頻道活動，您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽和測試訊息的內容。 [瞭解如何使用頻道活動並模擬內容](activities/channels.md#simulate-content-test-profiles)。
+如果您已在畫布中新增頻道活動，則可預覽和測試訊息內容。 [瞭解如何使用頻道活動並模擬內容](activities/channels.md#simulate-content-test-profiles)。
 
 >[!TIP]
 >
@@ -102,7 +102,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->對於非循環行銷活動，訊息傳送會在發佈後暫停，直到您從管道活動的屬性窗格明確確認傳送為止。 此行銷活動將顯示為&#x200B;**即時**，但在確認之前不會傳送任何訊息。 [進一步了解](#confirm-sending)
+>對於非循環行銷活動，訊息傳送會在發佈後暫停，直到您從管道活動的屬性窗格明確確認傳送為止。 此行銷活動將顯示為&#x200B;**即時**，但在確認之前不會傳送任何訊息。 [了解更多](#confirm-sending)
 
 ### 發佈時間執行順序 {#publication-sequence}
 

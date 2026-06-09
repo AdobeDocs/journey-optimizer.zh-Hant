@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 1. 選取要用於預覽優惠方案的測試設定檔：
 
-   1. 按一下「**[!UICONTROL 模擬內容」按鈕]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中選擇要用來識別測試設定檔的名稱空間。
+   1. 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，並從&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中選擇要用來識別測試設定檔的名稱空間。 若要使用範例輸入資料或AI自動產生來測試內容變異，請直接按一下&#x200B;**[!UICONTROL 模擬內容]**。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

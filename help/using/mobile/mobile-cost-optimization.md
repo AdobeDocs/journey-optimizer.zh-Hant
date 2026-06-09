@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 545
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Journey Optimizer允許在SMS訊息本文中最多使用1,500個字元。 超過
 
 ## 傳送前檢查字元計數 {#check-character-count}
 
-使用純文字應用程式或Journey Optimizer **[!UICONTROL 模擬內容]**&#x200B;功能表以驗證字元計數。
+在&#x200B;**[!UICONTROL 模擬內容]**&#x200B;中使用純文字應用程式或任一模擬方法來驗證字元計數。
 
 雖然Journey Optimizer在內容模擬期間會顯示字元計數，包括空格，但請注意：
 

@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 39%
+source-wordcount: 1908
+ht-degree: 37%
 
 ---
 
@@ -65,7 +65,7 @@ UNUSED IDs in BJ
 
 [!DNL Adobe Journey Optimizer]可讓您針對行銷和異動訊息，跨管道（電子郵件、簡訊、推播通知和直接郵件）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
-例如：
+例如:
 
 * 透過電子郵件、簡訊、推播和直接郵件傳送歡迎系列。
 * 請在購買後提供後續電子郵件。
@@ -199,7 +199,10 @@ UNUSED IDs in BJ
 
 ### 檢查並測試您的內容 {#simulate-content-test-profiles}
 
-一旦建立內容完畢，就請使用 **[!UICONTROL [模擬內容]]** 按鈕，以從 CSV / JSON 檔案上傳，或可透過手動新增的測試設定檔，或是範例輸入資料，預覽並測試內容。 [了解更多](../../content-management/preview-test.md)
+內容建立後，您可以使用任一模擬方法進行預覽和測試：
+
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。 [瞭解如何模擬內容變化](../../test-approve/simulate-sample-input.md)
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽及測試您的內容。 [了解更多](../../content-management/preview-test.md)
 
 ![顯示 [模擬內容] 按鈕的影像](../assets/channel-simulate.png)
 

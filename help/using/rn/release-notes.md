@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 2688
-ht-degree: 22%
+source-wordcount: 2840
+ht-degree: 21%
 
 ---
 
@@ -125,7 +125,26 @@ ht-degree: 22%
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>模擬內容變體 — 更新體驗和AI變體產生</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>模擬內容</strong>工作流程現在有兩個更新：</p>
+<ul>
+<li><strong>新的預設路徑</strong> — 按一下<strong>模擬內容</strong>現在會依預設開啟<strong>模擬內容變化</strong>體驗。 您可以從單一畫面手動或CSV/JSON檔案新增範例輸入、重複使用模擬使用者、預覽演算及傳送校樣。 若要使用Adobe Experience Platform測試設定檔預覽、傳送包含測試設定檔資料的校樣，或檢查電子郵件收件匣轉譯和垃圾郵件報告，請按一下[模擬內容] </strong>，然後從下拉式清單中選取[模擬內容（AEP設定檔）] </strong>。<strong><strong></li>
+<li><strong>AI產生的內容變體</strong> — 在<strong>模擬內容變體</strong>體驗中，按一下<strong>產生</strong>以使用AI自動建立內容變體。 系統會分析您的訊息、偵測個人化欄位和條件分支，並填入實際值，以便您驗證轉譯時無需手動建立每個變體。</li>
+</ul>
+<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
+<p>推出日期： 2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **自訂動作中的憑證式自訂驗證** — 自訂動作現在支援憑證式自訂驗證。 將`subType: "certificateCredential"`新增至自訂授權設定後，Journey Optimizer會使用Adobe的Managed憑證來簽署JWT使用者端宣告，並將其交換為存取權杖 — 不需要使用者端密碼。 專為執行憑證式身分驗證的企業API （例如Microsoft Entra ID）而設計。 [了解更多](../datasource/external-data-sources.md#certificate-credential)
 

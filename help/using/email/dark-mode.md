@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: 1553
 ht-degree: 10%
 
 ---
@@ -227,11 +227,11 @@ Here you can see that we have applied a different background, defined another im
    >
    >即時檢視是通用的預覽，用來比較各種裝置大小下的轉譯效果。 最終呈現內容可能會因收件者的電子郵件使用者端而異。
 
-1. 在您滿意深色模式的變更後，請按一下&#x200B;**[!UICONTROL 模擬內容]**。
+1. 在您滿意深色模式的變更後，請按一下[模擬內容] **&#x200B;**，然後從下拉式清單中選取[模擬內容（AEP設定檔）] **，以檢查電子郵件轉譯。**
 
    ![](assets/dark-mode-simulate.png)
 
-1. 選取&#x200B;**[!UICONTROL 轉譯電子郵件]**&#x200B;並連線至您的Litmus帳戶。 您可以看到各種電子郵件使用者端的最終深色模式演算。 深入瞭解[電子郵件呈現](../content-management/rendering.md)。
+1. 選取&#x200B;**[!UICONTROL 轉譯電子郵件]**&#x200B;並連線至您的Litmus帳戶。 您可以看到各種電子郵件使用者端的最終深色模式演算。 深入瞭解[電子郵件呈現](../content-management/rendering.md)。 若要使用範例輸入資料或AI自動產生來測試內容變異，請直接按一下&#x200B;**[!UICONTROL 模擬內容]**。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

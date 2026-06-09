@@ -25,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1647
 ht-degree: 17%
 
 ---
@@ -166,9 +166,10 @@ ht-degree: 17%
 >title="預覽您的網頁體驗"
 >abstract="取得您的網頁體驗的模擬。"
 
-使用網頁設計工具[編寫您的網頁體驗](web-visual-editor.md)後，您可以使用測試設定檔來預覽您修改的網頁。 如果您已插入個人化內容，您可以使用測試設定檔資料檢查此內容的顯示方式。
+使用網頁設計工具[編寫您的網頁體驗](web-visual-editor.md)後，您可以使用任一模擬方法來預覽您修改的網頁：
 
-若要這麼做，請從歷程或行銷活動編輯內容畫面按一下&#x200B;**[!UICONTROL 模擬內容]**，然後新增測試設定檔，以使用測試設定檔資料檢查您的網頁。
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽，並新增測試設定檔以檢查您的網頁。
 
 ![](assets/web-designer-preview.png)
 

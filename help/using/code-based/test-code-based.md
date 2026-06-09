@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 23%
+source-wordcount: 877
+ht-degree: 21%
 
 ---
 
@@ -40,9 +40,14 @@ ht-degree: 23%
 >
 >您必須有可用的測試設定檔，以模擬將傳送給他們的優惠。 瞭解如何[建立測試設定檔](../audience/creating-test-profiles.md)。
 
-1. 在歷程或行銷活動中，從個人化編輯器或編輯內容畫面選取&#x200B;**[!UICONTROL 模擬內容]**。
+在歷程或行銷活動編輯內容畫面或個人化編輯器中，使用任一模擬方法：
 
-   ![](assets/code-based-campaign-simulate.png)
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+
+![](assets/code-based-campaign-simulate.png)
+
+**若要使用測試設定檔預覽**，請遵循下列步驟：
 
 1. 按一下&#x200B;**[!UICONTROL 管理測試設定檔]**&#x200B;以選取一或多個測試設定檔。
 

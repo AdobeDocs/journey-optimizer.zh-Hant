@@ -24,9 +24,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 3%
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果您已將個人化內容新增至Experience Manager範本，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以使用測試設定檔預覽其顯示在訊息中的方式。
+1. 如果您將個人化內容新增至Experience Manager範本，請使用模擬方法來預覽該內容在訊息中的顯示方式：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。**&#x200B;**
 
    [進一步瞭解預覽和測試設定檔](../content-management/preview-test.md)
 

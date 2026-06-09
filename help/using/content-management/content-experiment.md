@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1991
 ht-degree: 6%
 
 ---
@@ -252,7 +252,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
    ![](assets/content_experiment_19.png)
 
-1. 定義訊息內容後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制傳遞的呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../content-management/preview-test.md)
+1. 定義訊息內容後，請使用模擬方法來控制傳遞的呈現，並檢查個人化設定：按一下[模擬內容] **，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下[模擬內容]**，然後從下拉式清單中選取[模擬內容（AEP設定檔）] **，以使用測試設定檔預覽。**&#x200B;**&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
 
 設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report-cja-experimentation.md)
 

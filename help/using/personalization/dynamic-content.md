@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 655
-ht-degree: 14%
+source-wordcount: 686
+ht-degree: 13%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer可讓您善用程式庫中建立的條件規則，將動
 
    ![](assets/conditions-language-sample.png)
 
-1. 一旦您的內容準備就緒，您就可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕預覽不同的變體。 [瞭解如何測試和預覽訊息](../content-management/preview-test.md)
+1. 內容準備就緒後，您可以使用任一模擬方法來預覽不同的變體：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變體，或按一下「模擬內容」**，然後從下拉式清單中選取「**&#x200B;[!UICONTROL &#x200B;模擬內容（AEP設定檔）」]&#x200B;**，以使用測試設定檔預覽。**&#x200B;[瞭解如何測試和預覽訊息](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

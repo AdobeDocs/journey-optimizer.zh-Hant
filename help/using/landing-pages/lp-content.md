@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: 1630
 ht-degree: 12%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 12%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來預覽某些設定，例如暫留時的按鈕標籤顏色。 在[此處](create-lp.md#test-landing-page)進一步瞭解測試登入頁面。
+   您可以使用任一模擬方法預覽某些設定，例如暫留時的按鈕標籤顏色。 [進一步瞭解測試登入頁面](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -233,7 +233,7 @@ ht-degree: 12%
 
 要執行此操作，請遵循下列步驟：
 
-1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [了解更多資訊](#use-form-component)。
+1. 在首頁面上，將&#x200B;**[!UICONTROL 表單]**&#x200B;元件的每個核取方塊連結至相關的訂閱清單。 [了解更多](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

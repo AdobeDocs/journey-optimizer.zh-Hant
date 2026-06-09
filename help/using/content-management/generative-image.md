@@ -11,9 +11,9 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1511
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ AI助理可以為您的電子郵件行銷活動、網頁體驗和登入頁面產
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
-1. 定義訊息內容後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以控制呈現，並使用測試設定檔檢查個人化設定。 [了解更多](../personalization/personalize.md)
+1. 定義訊息內容後，請使用模擬方法來控制呈現並檢查個人化設定：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「**&#x200B;[!UICONTROL &#x200B;模擬內容（AEP設定檔）」]&#x200B;**，以使用測試設定檔預覽。**&#x200B;[了解更多](../content-management/preview-test.md)
 
 1. 檢閱並啟用您的內容：
    * **電子郵件**：當您定義內容、對象和排程時，就可以準備電子郵件行銷活動了。 [了解更多](../campaigns/review-activate-campaign.md)

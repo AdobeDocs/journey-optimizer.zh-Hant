@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 50%
+source-wordcount: 743
+ht-degree: 51%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 50%
    >
    >切換到程式碼編輯器後，您無法恢復到此電子郵件的視覺化設計工具。
 
-1. 內容準備就緒後，按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕以檢查轉譯。 您可以選擇桌面或行動檢視。 有關如何選取測試設定檔及預覽內容的詳細資訊，請參閱[內容管理](../content-management/preview-test.md)區段。
+1. 內容準備就緒後，請使用任一模擬方法來檢查轉譯。 您可以選擇桌面或行動檢視。 詳細資訊可在[內容管理](../content-management/preview-test.md)區段中取得。
 
    ![](assets/email_designer_simulate_content.png)
 

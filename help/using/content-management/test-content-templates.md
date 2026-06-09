@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: 218
 ht-degree: 4%
 
 ---
@@ -38,13 +38,9 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 範本屬性]**&#x200B;中的&#x200B;**[!UICONTROL 編輯內容]**。
 
-1. 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;並選取測試設定檔以檢查您的演算。 [了解更多](../content-management/preview-test.md)
+1. 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以預覽和測試您的內容。 [瞭解如何預覽和測試內容](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
-
-   >[!NOTE]
-   >
-   >[!DNL Journey optimizer]也可讓您使用從CSV / JSON檔案上傳或手動新增的範例輸入資料，透過預覽和傳送校樣來測試內容範本的不同變體。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
 
 1. 您可以傳送校樣以測試您的內容，並在將其用於歷程或行銷活動之前，先由內部使用者核准。
 
