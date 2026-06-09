@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
 ht-degree: 99%
@@ -71,7 +71,7 @@ ht-degree: 99%
 
 **歷程**
 
-* 已在定期讀取客群排程參數中新增&#x200B;**在重複時強制重新進入**&#x200B;選項。 此選項可讓您讓歷程中仍存在的所有輪廓在下次執行時自動退出。 停用選項時，輪廓必須先完成歷程，才能在另一個發生次數中重新輸入。 [進一步了解](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 已在定期讀取客群排程參數中新增&#x200B;**在重複時強制重新進入**&#x200B;選項。 此選項可讓您讓歷程中仍存在的所有輪廓在下次執行時自動退出。 停用選項時，輪廓必須先完成歷程，才能在另一個發生次數中重新輸入。 [了解更多](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **管理**
 
@@ -234,7 +234,7 @@ table>
 **歷程**
 
 * 此 **實體資料集** 現在可作為 Adobe Journey Optimizer 中的現成可用資料集。 此查詢資料集包含中繼資料，讓追蹤和意見回饋資料集資訊更為豐富。 這可協助您使用更易理解的資料，改善報告和查詢。 [了解更多](../data/datasets-query-examples.md#entity-dataset)
-* 已將新護欄新增至單一歷程 (從事件或客群資格篩選開始)，以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。 [進一步了解](../start/guardrails.md#events-g)
+* 已將新護欄新增至單一歷程 (從事件或客群資格篩選開始)，以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。 [了解更多](../start/guardrails.md#events-g)
 
 **管理**
 
@@ -422,7 +422,7 @@ table>
 
 **訊息**
 
-* 訊息預設集現在是&#x200B;**管道設定**。 [進一步了解](../configuration/channel-surfaces.md)
+* 訊息預設集現在是&#x200B;**管道設定**。 [了解更多](../configuration/channel-surfaces.md)
 
 **管理**
 
@@ -432,7 +432,7 @@ table>
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [進一步了解](../email/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -524,7 +524,7 @@ table>
 <tr>
 <td>
 <p>現在，您可以從 Journey Optimizer 沙箱將體驗重新建立到另一個沙箱，例如從非生產沙箱重新建立到生產沙箱。 這個新功能可將整個 Journey 從一個環境複製到另一個環境，包括 Journey 賴以正確運作的任何物件。 除了歷程之外，您還可以複製其他元件，如產品建議、消息、結構描述、資料集、資料來源、事件和動作。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/copy-to-sandbox.md">詳細說明文件</a>。
+<p>如需詳細資訊，請參閱<a href="../configuration/copy-objects-to-sandbox.md">詳細說明文件</a>。
 </td>
 </tr>
 </tbody>
@@ -542,7 +542,7 @@ table>
 
 **電子郵件**
 
-* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [進一步了解](../content-management/content-templates.md#video-templates)
+* **另存為範本** — 您現在可以將電子郵件內容另存為範本，並在建立其他郵件時重複使用它。 [了解更多](../content-management/content-templates.md#video-templates)
 
 
 **管理**
@@ -657,11 +657,11 @@ table>
 
 * **核取方塊的新選項「選擇加入/選擇退出」** - 現在，您可以在訂閱項目登錄頁面中插入選擇加入/選擇退出的核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。 [了解更多](../landing-pages/design-lp.md#design-lp)
 
-* **預先填寫登陸頁面欄位** - 現在，使用者可以使用輪廓預先填寫登陸頁面欄位。 [進一步了解](../landing-pages/create-lp.md#configure-primary-page)
+* **預先填寫登陸頁面欄位** - 現在，使用者可以使用輪廓預先填寫登陸頁面欄位。 [了解更多](../landing-pages/create-lp.md#configure-primary-page)
 
 **決定管理**
 
-* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的產品建議與其他相關物件。 [進一步了解](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **邊緣決策 API** - 邊緣決策 API 可以提供並轉譯受決策管理管理的個人化服務。 您可以使用決策管理使用者介面 (UI) 或 API 建立您的產品建議與其他相關物件。 [了解更多](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **管理**
 
@@ -694,21 +694,21 @@ table>
 **歷程**
 
 * 為避免統一輪廓結構描述存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」結構描述。 如有需要，可以啟用。 [了解更多](../reports/sharing-overview.md)
-* 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../reports/query-examples.md)
+* 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [了解更多](../reports/query-examples.md)
 
 **決定管理**
 
 * 現在您可以指定在所有使用者或單個特定輪廓中套用產品建議上限設定，以及指定在個別或所有投放位置上套用。 [了解更多](../offers/offer-library/add-constraints.md#capping)
-* 批次決策 API 允許組織在一次呼叫中，對指定客群中的所有輪廓使用決策管理功能。 客群中每個輪廓的產品建議內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [進一步了解](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* 批次決策 API 允許組織在一次呼叫中，對指定客群中的所有輪廓使用決策管理功能。 客群中每個輪廓的產品建議內容都放在 AEP 資料集，其可用於自訂批次處理工作流程。 [了解更多](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
 
 * 您現在可以在訊息預設層及在/從電子郵件標題啟用/停用取消訂閱連結，並在訊息層級設定自訂取消訂閱 URL。 [了解更多](../configuration/channel-surfaces.md#list-unsubscribe)
-* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [進一步了解](../configuration/allow-list.md#enable-allow-list)
+* 現在，可以透過生產或非生產沙箱的 [!DNL Journey Optimizer] 介面啟用或停用允許清單。 [了解更多](../configuration/allow-list.md#enable-allow-list)
 
 **個人化**
 
-* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [進一步了解](../personalization/use-expression-fragments.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/use-expression-fragments.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 
@@ -844,17 +844,17 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [進一步了解](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 
 * 對於在已發佈訊息中直接或間接引用的產品建議、後備產品建議、產品建議集合或產品建議決策，現在將在對應訊息中自動反映您的更新，無需重新發佈。 [了解更多](../offers/offers-e2e.md#insert-decision-in-email)
 
-* 在模擬給定測試輪廓將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [進一步了解](../offers/offer-activities/simulation.md#define-simulation-settings)
+* 在模擬給定測試輪廓將提供哪些服務時，您現在可以修改預設模擬設定，並針對用於疑難排解的模擬查看對應的代碼。 [了解更多](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **管理**
 
-* 管理員現在可以使用 CNAME 設定子網域來編輯 PTR 記錄。 [進一步了解](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+* 管理員現在可以使用 CNAME 設定子網域來編輯 PTR 記錄。 [了解更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
 **個人化**
 

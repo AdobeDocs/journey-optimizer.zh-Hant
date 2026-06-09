@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [時區管理](using/building-journeys/timezone-management.md)
       + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
       + [結束您的歷程](using/building-journeys/end-journey.md)
-      + [將歷程複製到另一個沙箱](using/building-journeys/copy-to-sandbox.md)
-      + [與 Intelligent Services 整合](using/building-journeys/ai-services-overview.md)
    + 活動 {#about-journey-building}
       + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + [與 Intelligent Services 整合](using/integrations/intelligent-services.md)
       + 整合 {#integrations}
          + [使用整合](using/integrations/integrations.md)
          + [使用外部整合進行個人化](using/integrations/integrations-personalization.md)
