@@ -11,29 +11,16 @@ keywords: 歷程，第一，開始，快速入門，對象，事件，動作
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 13%
+source-wordcount: 1451
+ht-degree: 12%
 
 ---
 
@@ -42,12 +29,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="建立歷程"
->abstract="使用 **[!DNL Adobe Journey Optimizer]** 可讓您善用儲存在事件或資料來源中的內容相關資料，建立即時協調流程使用案例。"
+>abstract="**[!DNL Adobe Journey Optimizer]**&#x200B;會使用儲存在事件或資料來源中的情境資料，建置即時協調使用案例。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="歷程"
->abstract="設計客戶歷程提供個人化的內容關聯式體驗。 Journey Optimizer 可讓您利用儲存在事件或資料來源中內容相關的資料，建置即時協調流程使用案例。 **概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。 **瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
+>abstract="客戶歷程提供個人化的情境式體驗。 Journey Optimizer 可讓您利用儲存在事件或資料來源中內容相關的資料，建置即時協調流程使用案例。 **概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。 **瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
 
 [!DNL Adobe Journey Optimizer]包含全通路協調畫布，可讓行銷人員透過一對一客戶參與來協調行銷拓展。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 歷程使用者介面在[此頁面](journey-ui.md)上詳細說明。
 
@@ -141,9 +128,9 @@ ht-degree: 13%
 
 ## 測試歷程 {#jo-test}
 
-建立歷程後，請先測試歷程，然後再發佈。 Journey Optimizer提供&#x200B;**測試模式**，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可確保歷程正確運作，因此您可以放心地發佈它們。 在本節[&#128279;](testing-the-journey.md)中瞭解如何測試您的歷程
+建立歷程後，請先測試歷程，然後再發佈。 Journey Optimizer提供&#x200B;**測試模式**，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可確保歷程正確運作，因此您可以放心地發佈它們。 在本節](testing-the-journey.md)中瞭解如何測試您的歷程[
 
-您也可以在&#x200B;**試用**&#x200B;中執行您的歷程。 歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。 此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。 在本節[&#128279;](journey-dry-run.md)中瞭解如何以試執行模式發佈歷程。
+您也可以在&#x200B;**試用**&#x200B;中執行您的歷程。 歷程試執行是 Adobe Journey Optimizer 中的特殊歷程發佈模式，允許歷程從業人員使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。 此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。 在本節](journey-dry-run.md)中瞭解如何以試執行模式[發佈歷程。
 
 ## 發佈歷程 {#jo-pub}
 

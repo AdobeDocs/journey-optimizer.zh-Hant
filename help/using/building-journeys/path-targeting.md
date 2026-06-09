@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限可用性" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 8%
+source-wordcount: 811
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什麼是後備路徑？"
->abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。 </br>如果您未選取此選項，則任何不符合目標選擇規則的客群都不會進入後備路徑，並退出歷程。"
+>abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。 </br>如果未選取此選項，則不符合鎖定目標規則的任何對象都不會進入後援路徑並退出歷程。"
 
 >[!AVAILABILITY]
 >
@@ -64,7 +64,7 @@ With targeting, specific rules can be defined based on:
 
    金級與非金級會員的![忠誠度狀態目標規則](assets/journey-targeting-rule.png)
 
-1. 您也可以按一下「建立規則&#x200B;**>**&#x200B;[!UICONTROL &#x200B;選取規則&#x200B;]&#x200B;**」，選取從**&#x200B;[!UICONTROL &#x200B;規則&#x200B;]&#x200B;**功能表建立的現有目標規則。**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;]**>**[!UICONTROL &#x200B;選取規則&#x200B;]**」，選取從**[!UICONTROL &#x200B;規則&#x200B;]**功能表建立的現有目標規則。**[!UICONTROL [了解更多](../experience-decisioning/rules.md)
 
    ![從[規則]功能表選取現有的鎖定目標規則](assets/journey-targeting-select-rule.png){width=70%}
 

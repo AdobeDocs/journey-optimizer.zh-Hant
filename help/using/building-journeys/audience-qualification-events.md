@@ -11,26 +11,16 @@ keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +29,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="客群資格篩選"
->abstract="當輪廓符合或退出 [!DNL Adobe Experience Platform] 客群時，即觸發歷程進入或延續。 建議對串流客群使用；批次情境請使用「讀取客群」活動。"
+>abstract="當設定檔符合或退出[!DNL Adobe Experience Platform]對象時，觸發歷程進入或繼續。 建議用於串流對象；「讀取對象」活動用於批次情境。"
 
 ## 關於對象資格鑑定事件{#about-segment-qualification}
 
@@ -64,22 +54,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="標籤"
->abstract="新增選用標籤，以便在報告和測試模式記錄中識別此活動。"
+>abstract="在報告和測試模式記錄中識別此活動的選用標籤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
->title="客群"
->abstract="選取要利用的 [!DNL Adobe Experience Platform] 客群。 歷程會監聽輪廓進入和退出此客群的情形。"
+>title="對象"
+>abstract="歷程監控的[!DNL Adobe Experience Platform]對象。 當設定檔符合此對象的資格或退出此對象時，即會進入或前進。 建議使用串流對象，以即時評估資格。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行為"
->abstract="選擇要監聽客群進入情形、退出情形或兩者皆監聽。"
+>abstract="定義歷程回應的對象會籍變更：設定檔符合（進入）對象資格時、對象離開（退出）對象時，或兩者皆符合。 同時收聽會涵蓋完整的會員生命週期，而單一選項會將歷程限製為一個方向。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身分識別類型"
->abstract="選取身分識別類型以識別個體。 僅提供以人為基礎的身分識別命名空間。"
+>abstract="用來在個人符合對象資格時識別個人的身分名稱空間。 只有以人物為基礎的身分名稱空間才可使用，沒有此身分的設定檔無法進入歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -112,8 +102,8 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。
-   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**對象參與狀態。
+   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 此欄位預設會自動填入上次使用的命名空間。
 
@@ -158,7 +148,7 @@ ht-degree: 11%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 如需頻率或隱藏邏輯，請使用商業規則，而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -196,7 +186,7 @@ ht-degree: 11%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中找不到對象時的錯誤訊息
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -240,4 +230,4 @@ ht-degree: 11%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

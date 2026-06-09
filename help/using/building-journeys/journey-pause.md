@@ -10,29 +10,16 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2585
-ht-degree: 5%
+source-wordcount: 2581
+ht-degree: 4%
 
 ---
 
@@ -41,7 +28,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暫停您的歷程"
->abstract="暫停上線的歷程以防止新輪廓進入。 選擇是否捨棄目前在歷程當中的輪廓或予以保留。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
+>abstract="暫停即時歷程會防止新設定檔進入。 可以捨棄目前歷程中的設定檔或將其保留在適當位置。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
 您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
@@ -120,7 +107,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="繼續歷程"
->abstract="繼續暫停的歷程，允許新的輪廓再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。"
+>abstract="繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。"
 
 暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。
 
@@ -178,7 +165,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -201,7 +188,7 @@ ht-degree: 5%
 * 如果設定檔保留在歷程中，而且此歷程在幾天後自動繼續，則設定檔會繼續歷程且不會捨棄。 如果您想要卸除這些物件，您必須停止歷程
 * 在暫停的歷程中，不會為[批次區段警示觸發警示](../reports/alerts.md#alert-read-audiences)
 * 歷程的14天暫停狀態終止後，系統中沒有稽核記錄
-* 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如：
+* 某些已捨棄的設定檔會顯示在歷程步驟事件中，但不會顯示在報表中。 例如:
    * 捨棄&#x200B;**讀取對象**&#x200B;的商業事件
    * **讀取對象**&#x200B;工作因暫停歷程而捨棄
    * 在&#x200B;**Event**&#x200B;活動在設定檔等待的動作之後時，捨棄事件
@@ -231,7 +218,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 

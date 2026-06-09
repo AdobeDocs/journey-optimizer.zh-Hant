@@ -11,25 +11,16 @@ keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +29,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活動"
->abstract="如果您要在執行路徑中的下一個活動之前等待，您可以使用等待活動。 這項功能可讓您定義執行下一個活動的時刻。 有兩個選項可用：期間和自訂。"
+>abstract="「等待」活動可讓您在執行路徑中的下一個活動之前等待。 這項功能可讓您定義執行下一個活動的時刻。 有兩個選項可用：期間和自訂。"
 
 您可以使用&#x200B;**[!UICONTROL 等待]**&#x200B;活動，在執行下一個活動之前定義持續時間。  等待持續時間上限為&#x200B;**90天**。
 
@@ -68,7 +59,7 @@ ht-degree: 9%
 
 ### 等待和測試模式 {#wait-test-mode}
 
-在測試模式中，測試&#x200B;**中的**&#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。 這將確保您能快速獲得測試結果。 請在[此頁面](../building-journeys/testing-the-journey.md)了解更多。
+在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。 這將確保您能快速獲得測試結果。 請在[此頁面](../building-journeys/testing-the-journey.md)了解更多。
 
 ### 等待和行動裝置頻道 {#wait-mobile-channels}
 
@@ -134,6 +125,6 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="關於自動等待節點"
->abstract="**Wait**&#x200B;節點會自動插入此輸入動作之後。 預設為3天，以確保設定檔保留在歷程中夠長的時間，以檢視訊息或體驗。 您可以更新等待持續時間，如果用例需要此節點，則可以將其移除。"
+>abstract="**Wait**&#x200B;節點會自動插入此輸入動作之後。 預設為3天，以確保設定檔保留在歷程中夠長的時間，以檢視訊息或體驗。 如果用例需要，可以更新等待持續時間或移除節點。"
 
 每個傳入體驗活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天&#x200B;**等待**&#x200B;活動。 由於當設定檔到達歷程終點時，傳入訊息會自動結束，因此我們假設您想要使用者至少在3天內看到它。 您可以移除此&#x200B;**等待**&#x200B;活動，或視需要變更其設定。

@@ -4,21 +4,14 @@ description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1450
-ht-degree: 4%
+source-wordcount: 1395
+ht-degree: 3%
 
 ---
 
@@ -27,12 +20,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用補充識別碼"
->abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。 要定義補充識別碼，請選擇要用作補充識別碼的欄位並選擇與其建立關聯的命名空間。"
+>abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。 它包含當作補充識別碼使用的欄位和與其關聯的名稱空間。"
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，除了設定檔識別碼之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
+      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。為避免此問題，除了設定檔ID之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
       <p>在此範例中，我們已新增<b>預訂ID</b>作為補充識別碼。</p>
       <p>如此一來，歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。</p>
       <p>此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。</p>
@@ -262,4 +255,4 @@ ht-degree: 4%
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

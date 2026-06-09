@@ -11,27 +11,16 @@ keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 9%
+source-wordcount: 1624
+ht-degree: 6%
 
 ---
 
@@ -45,12 +34,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="啟動傳送時間最佳化"
->abstract="透過選取適當的選項按鈕來選擇要將電子郵件開啟還是電子郵件點進最佳化。 您還可以在「傳送時間在未來」輸入值，來涵蓋系統使用的時間區段。"
+>abstract="選項按鈕決定是否要最佳化電子郵件開啟或電子郵件點進次數。 系統使用的傳送時間也可以包含在下一個選項中「傳送」的值中。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="啟動傳送時間最佳化"
->abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。 您還可以在「傳送時間在未來」輸入值，來涵蓋系統使用的時間區段。"
+>abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。 系統使用的傳送時間也可以包含在下一個選項中「傳送」的值中。"
 
 [!DNL Adobe Journey Optimizer]的傳送時間最佳化功能採用Adobe的Journey AI服務，可根據客戶的歷史開啟和點按行為，選擇最佳的電子郵件和推播訊息傳送時間，以最大化客戶參與度。
 
@@ -126,7 +115,7 @@ ht-degree: 9%
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 
