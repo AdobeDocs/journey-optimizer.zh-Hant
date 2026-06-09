@@ -12,9 +12,9 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->如果未設定自訂資料集，則依預設會將傳入關鍵字儲存在系統&#x200B;_AJO傳入活動事件資料集_&#x200B;中。 設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)
+>如果未設定自訂資料集，則依預設會將傳入關鍵字儲存在系統&#x200B;_AJO電子郵件追蹤資料集_&#x200B;中。 設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)
 
 如需結構描述、欄位群組和資料集的背景，請參閱下列Adobe Experience Platform檔案：
 

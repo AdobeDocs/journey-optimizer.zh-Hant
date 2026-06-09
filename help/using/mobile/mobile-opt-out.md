@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->如果您打算使用雙向SMS （以STOP、QUIT等回覆），請確定您先傳送至少一次單向SMS以建立電話號碼與設定檔對應。 提供者認證過期或設定錯誤會導致傳入關鍵字無法更新使用者設定檔，導致遺失或延遲選擇退出記錄。 傳入回應儲存在&#x200B;_AJO傳入活動事件資料集_&#x200B;系統資料集中。 [了解更多](../data/get-started-datasets.md#system-datasets)
+>如果您打算使用雙向SMS （以STOP、QUIT等回覆），請確定您先傳送至少一次單向SMS以建立電話號碼與設定檔對應。 提供者認證過期或設定錯誤會導致傳入關鍵字無法更新使用者設定檔，導致遺失或延遲選擇退出記錄。 傳入回應會儲存在&#x200B;_AJO電子郵件追蹤資料集_&#x200B;系統資料集中。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 
 ## 封鎖清單 {#sms-blocklists}

@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 2%
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## 分析WhatsApp互動 {#whatsapp-channel-context}
 
-Journey Optimizer會擷取從WhatsApp頻道傳回的其他互動資料，並將其儲存在`whatsAppChannelContext`欄位群組下的&#x200B;**報告 — 電子郵件追蹤體驗事件資料集**&#x200B;中。 使用這些欄位來建置[對象](../audience/about-audiences.md)、執行[查詢](../data/get-started-queries.md)，以及分析WhatsApp參與。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)。
+Journey Optimizer會擷取從WhatsApp頻道傳回的其他互動資料，並將其儲存在`whatsAppChannelContext`欄位群組下的&#x200B;**AJO — 電子郵件追蹤體驗事件資料集**。 使用這些欄位來建置[對象](../audience/about-audiences.md)、執行[查詢](../data/get-started-queries.md)，以及分析WhatsApp參與。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)。
 
 擷取下列欄位：
 
