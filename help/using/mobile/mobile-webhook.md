@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 3%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中建立新API認證時，SMS webhook現在可讓您擷取傳入關鍵字和意見回饋事件，例如傳送和錯誤。 由於每個提供者都有不同的功能，因此有不同的指示可啟用Webhook。
+在Journey Optimizer中建立新API認證時，SMS webhook現在可讓您擷取傳入關鍵字和意見回饋事件，例如傳送和錯誤。由於每個提供者都有不同的功能，因此有不同的指示可啟用Webhook。
 有了webhook現在支援自訂提供者，現在可以從任何提供者收集意見回饋和傳入關鍵字集合，以在Journey Optimizer中報告和採取行動。
 
 * **新客戶：**&#x200B;您可以依照這裡的指示正確設定SMS webhook。
@@ -55,7 +52,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->除非已設定自訂資料集，否則傳入關鍵字資料會儲存在&#x200B;_AJO傳入活動事件資料集_&#x200B;系統資料集中。 在擷取傳入的訊息之前，設定檔必須至少有一個從[!DNL Journey Optimizer]傳送的訊息。 [了解更多](../data/get-started-datasets.md#system-datasets)
+>傳入關鍵字資料會儲存在&#x200B;_AJO電子郵件追蹤資料集_&#x200B;系統資料集中，除非已設定自訂資料集。 在擷取傳入的訊息之前，設定檔必須至少有一個從[!DNL Journey Optimizer]傳送的訊息。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 根據您的提供者，對於需要設定才能成功實作SMS的內容，會有不同的期望：
 
@@ -179,7 +176,7 @@ ht-degree: 3%
 
    * 針對MMS頻道，[在Sinch檔案中進一步瞭解](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
-   * 對於透過Journey Optimizer直接購買簡訊的客戶，請向Adobe支援提交支援票證。 Adobe帳戶團隊將為您設定webhook URL。
+   * 對於透過Journey Optimizer直接購買簡訊的客戶，請向Adobe支援提交支援票證。Adobe帳戶團隊將為您設定webhook URL。
      ![](assets/webhook-4.png)
 
 如果您的webhook使用附加到現有頻道設定的API認證，webhook將立即生效。 否則，請建立新的頻道設定。
