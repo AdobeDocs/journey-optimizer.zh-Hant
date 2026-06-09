@@ -11,14 +11,25 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 12%
+source-wordcount: 1755
+ht-degree: 10%
 
 ---
 
 # 建立內容卡 {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="內容卡動作"
+>abstract="內容卡片入站動作會在設定檔達到歷程的此步驟時，向設定檔顯示內容卡片。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的內容卡設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），提供設定檔時間來檢視內容卡。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+
+
+內容卡片是傳入的應用程式內體驗，會直接在行動應用程式的專屬介面中顯示個人化內容（例如促銷活動、公告或推薦）。 和插入式訊息不同，這些訊息在應用程式中仍可供使用，直到使用者將其解除或您的傳送規則隱藏為止。
+
+此頁面說明如何在[歷程](../building-journeys/journey-gs.md)或[行銷活動](../campaigns/create-campaign.md)中編寫內容卡片及定義其內容。 新增後，您可以設計卡片、設定其他傳送規則來控制卡片顯示、關閉或永久隱藏的時間，並執行內容實驗以最佳化其效能。
 
 >[!IMPORTANT]
 >

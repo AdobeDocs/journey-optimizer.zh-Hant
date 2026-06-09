@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -178,9 +178,9 @@ ht-degree: 13%
 ### 歷程活動逾時 {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="逾時或錯誤"
->abstract="在歷程視為逾時之前，指定應嘗試執行動作或評估條件的所需時間。 建議值介於 1 至 30 秒之間。"
+>abstract="**逾時或錯誤**&#x200B;選項會在動作逾時或傳回錯誤時，定義歷程中的替代路徑，因此設定檔會繼續通過遞補路徑，而非在此步驟停止。 建議值介於 1 至 30 秒之間。"
 
 編輯動作或條件活動時，您可以定義替代路徑，以防錯誤或逾時。 如果處理詢問協力廠商系統的活動超過歷程屬性的&#x200B;**[!UICONTROL 逾時或錯誤]**&#x200B;欄位中定義的逾時期間，將會選擇第二個路徑來執行可能的遞補動作。
 

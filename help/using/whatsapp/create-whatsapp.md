@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1130
 ht-degree: 3%
 
 ---
@@ -67,6 +67,12 @@ WhatsApp支援下列訊息型別：
 +++
 
 ## 新增WhatsApp訊息 {#create-whatsapp-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_whatsapp"
+>title="WhatsApp動作"
+>abstract="當設定檔達到歷程的這個步驟時，WhatsApp頻道動作會傳送WhatsApp訊息給設定檔。 標籤會識別歷程畫布中的活動，而動作會參照定義所傳送內容的WhatsApp設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增WhatsApp訊息。
 

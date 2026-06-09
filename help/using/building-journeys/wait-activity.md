@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 12%
+source-wordcount: 908
+ht-degree: 9%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 12%
 * [Fixed date](#fixed_date) 
 -->
 
-## 建議 {#wait-recommendations}
+## 推薦 {#wait-recommendations}
 
 使用這些建議來確保等待可預測且安全。
 
@@ -132,8 +132,8 @@ Select the date for the execution of the next activity.
 ## 自動等待節點  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_auto_wait_node "
+>id="ajo_journey_auto_wait_node"
 >title="關於自動等待節點"
->abstract="系統會在此活動之後自動新增&#x200B;**等待**&#x200B;活動。 等待活動的時間設為 3 天。 您可以視需求移除或設定等待活動。"
+>abstract="**Wait**&#x200B;節點會自動插入此輸入動作之後。 預設為3天，以確保設定檔保留在歷程中夠長的時間，以檢視訊息或體驗。 您可以更新等待持續時間，如果用例需要此節點，則可以將其移除。"
 
 每個傳入體驗活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天&#x200B;**等待**&#x200B;活動。 由於當設定檔到達歷程終點時，傳入訊息會自動結束，因此我們假設您想要使用者至少在3天內看到它。 您可以移除此&#x200B;**等待**&#x200B;活動，或視需要變更其設定。

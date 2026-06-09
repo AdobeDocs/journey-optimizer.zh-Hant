@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 16%
+source-wordcount: 1232
+ht-degree: 15%
 
 ---
 
@@ -52,6 +52,12 @@ ht-degree: 16%
 >1. 將參考檔案路由設定的[直接郵件設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)。
 
 ## 新增直接郵件訊息 {#create-dm-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_direct_mail"
+>title="直接郵件動作"
+>abstract="當設定檔到達歷程的這個步驟時，直接郵件頻道動作會產生設定檔的直接郵件內容。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的直接郵件設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增直接郵件訊息。
 
