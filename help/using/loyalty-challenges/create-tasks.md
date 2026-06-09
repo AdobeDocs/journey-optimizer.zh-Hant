@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 12%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
+* **建立任務** ◀}︎**您在這裡**
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
 
 </td>
@@ -95,7 +95,7 @@ ht-degree: 12%
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 * **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}
@@ -140,29 +140,39 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="適用項目與排除項目"
->abstract="對於&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用「**[!UICONTROL 適用項目與排除項目]**」屬性，定義哪些項目和群組符合資格而哪些排除在外。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。 例如，您可以將支出任務限制在特定產品類別，或者排除禮品卡或促銷項目，不將其計入完成任務所需的活動內。"
+>abstract="針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，請使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來選取哪些專案和群組計入任務完成，以及哪些專案與群組已排除。 從管理員設定的產品詳細目錄中搜尋料號或群組，然後視需要將其納入或排除。"
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來定義哪些專案和群組符合資格以及哪些專案與群組被排除。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。 當您設定此屬性時，可在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中取得已上傳的產品群組和排除群組。 [瞭解如何設定產品詳細目錄和排除專案](loyalty-admin.md#product-inventory)
+針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案及排除專案]**&#x200B;區段來定義哪些專案和群組符合資格，哪些專案及群組被排除。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。
+
+選取器中可用的專案和群組是由管理員使用者在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中定義。 管理員會上傳用於合格專案的產品詳細目錄，並設定全組織範圍的排除專案，這些排除專案會在行銷人員建立任務時自動套用。 [瞭解如何設定產品詳細目錄](loyalty-admin.md#product-inventory)和[排除專案](loyalty-admin.md#exclusions)
 
 **[!UICONTROL 自訂事件]**&#x200B;工作未使用符合資格的專案和排除專案；完成是由您設定的&#x200B;**[!UICONTROL 自訂事件值]**&#x200B;所驅動。
 
 例如，您可以將工作限制在特定產品類別中，或排除禮品卡或促銷專案，不計入工作的完成情況。
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### 設定任務的合格專案
 
-若要定義合格專案，請在&#x200B;**[!UICONTROL 合格任務購買僅限於下列]**&#x200B;欄位，輸入特定專案ID、類別或目的地ID （以逗號分隔）。 如果您將此欄位留空，依預設所有購買都符合資格。 您也可以輸入`*`，明確讓所有購買都符合條件。
+若要定義符合資格的專案，請從&#x200B;**[!UICONTROL 符合資格的專案和排除專案]**&#x200B;區段中選取&#x200B;**[!UICONTROL 新增]**。
 
-範例: `SKU001, SKU002, CategoryA`
+在選取器中，選取應計入任務完成的專案或群組，然後選取&#x200B;**[!UICONTROL 包含]**。 內含的專案和群組會新增至合格清單。
+
+![](assets/task-create-eligible-add.png)
+
+如果未選取合格料號或群組，除非已設定排除專案，否則購買不會限於特定存貨集。
 
 ### 從任務排除專案
 
-若要從任務排除專案，請在&#x200B;**[!UICONTROL 輸入特定的專案ID、類別或目的地ID。下列專案會從此任務]**&#x200B;欄位中排除。
+若要從任務中排除專案，請從&#x200B;**[!UICONTROL 合格的專案和排除專案]**&#x200B;區段中選取&#x200B;**[!UICONTROL 新增]**。
 
-範例: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+選取不應計入任務完成的專案或群組，然後選取&#x200B;**[!UICONTROL 排除]**。
+
+![](assets/task-create-exclusion-add.png)
+
+系統會自動將全域排除清單中的專案新增為排除專案。 排除專案優先於包含專案：列為排除的專案不計算，即使它們也是包含群組的一部分。
 
 ### 自備資料以取得資格和排除專案 {#byod-personalization}
 
@@ -170,7 +180,7 @@ ht-degree: 12%
 >
 >**[!UICONTROL 自攜資料]**&#x200B;選專案前可供受限制的組織使用，並將在未來版本中更廣泛地提供。
 
-除了輸入專案ID以符合資格或排除之外，您也可以在執行階段使用&#x200B;**[!UICONTROL 自攜資料]**&#x200B;選項，從外部忠誠度挑戰資料中移除資格。
+除了在Journey Optimizer中選取專案和群組之外，您也可以在執行階段使用&#x200B;**[!UICONTROL 自備資料]**&#x200B;選項，從外部忠誠度挑戰資料中提升資格。
 
 選取&#x200B;**[!UICONTROL 自備資料]**&#x200B;時，會在執行階段從與您的「忠誠度挑戰」環境同步的資料中解析每位參與者的資格，而非專案ID清單。
 
