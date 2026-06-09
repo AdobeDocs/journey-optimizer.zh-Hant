@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年6月 {#june-2026}
+
+* **Experience Decisioning現在可用於直接郵件頻道。** 直接郵件&#x200B;**中的新**&#x200B;批次決策頁面說明如何使用決策引擎來個人化直接郵件擷取檔案，或匯出設定檔及其決策結果以用於下游系統。 **直接郵件**&#x200B;已在決策檔案中新增為支援的管道（開始使用、建立決策原則、在訊息中使用決策原則、開始使用決策原則），包括透過&#x200B;**[!UICONTROL 專案數]**&#x200B;欄位為每個設定檔傳回多個決策專案的功能。 [閱讀更多](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* **歷程片段**&#x200B;檔案不再標籤為有限可用性。 此頁面現在包含去除內容&#x200B;**[!UICONTROL 片段]**&#x200B;和&#x200B;**AEM內容片段**&#x200B;中混淆的歷程片段的附註（從所有三個頁面交叉連結），以及檔案支援&#x200B;**沙箱工具**、**稽核記錄**&#x200B;和&#x200B;**標籤**。 歷程片段也已新增至&#x200B;**開始使用歷程**&#x200B;頁面。 [閱讀更多](../building-journeys/journey-fragments.md)
+
+* 已針對自訂驗證更新&#x200B;**外部資料來源**&#x200B;和&#x200B;**自訂動作**&#x200B;檔案。 `tokenInResponse`欄位現在可讓您指定當端點傳回兩者時，`access_token`或`id_token`是否作為驗證認證使用。 對於憑證式自訂驗證，`subType`與`aud`欄位現在為必要欄位，權杖端點`method`必須為`POST`，而且對「Azure Entra ID」的參考已更正為「Microsoft Entra ID」。 [閱讀更多](../datasource/external-data-sources.md#certificate-credential)
 
 * **開始使用決策**&#x200B;頁面已更新，其中包含程式圖，其摘要列出端對端決策工作流程，從管理決策專案及設定選擇策略，到將決策原則內嵌至歷程或行銷活動。 [閱讀更多](../experience-decisioning/gs-experience-decisioning.md#process)
 

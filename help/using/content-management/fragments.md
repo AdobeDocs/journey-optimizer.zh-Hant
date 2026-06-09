@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -52,6 +52,15 @@ ht-degree: 21%
 
 * **建立您自己的片段**：從草稿開始建立視覺化或運算式片段，或將內容儲存為片段。 [瞭解如何建立片段](create-fragments.md)。 此外，您可以運用Journey Optimizer **內容REST API**&#x200B;來管理內容片段。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 * **重複使用您的片段：**&#x200B;視需要在內容中多次使用這些片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)
+
+
+>[!NOTE]
+>
+>此頁面上說明的&#x200B;**[!UICONTROL 片段]**&#x200B;是可重複使用的&#x200B;**內容**&#x200B;元件。 它們與以下不同：
+>
+>* **[歷程片段](../building-journeys/journey-fragments.md)** — 可重複使用的歷程節點集合已插入歷程中。
+>* **[AEM內容片段](../integrations/aem-fragments.md)** — 在Adobe Experience Manager中編寫且用於[!DNL Journey Optimizer]的內容。
+
 
 ## 開始之前 {#fragment-prerequisites}
 
