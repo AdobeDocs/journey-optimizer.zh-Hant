@@ -57,7 +57,7 @@ ht-degree: 15%
 >id="ajo_journey_action_direct_mail"
 >title="直接郵件動作"
 >abstract="當設定檔到達歷程的這個步驟時，直接郵件頻道動作會產生設定檔的直接郵件內容。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的直接郵件設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增直接郵件訊息。
 

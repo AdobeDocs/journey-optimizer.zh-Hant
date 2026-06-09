@@ -77,21 +77,21 @@ ht-degree: 14%
 >id="ajo_journey_action_auto_wait"
 >title="自動等待節點"
 >abstract="對於傳入頻道動作（應用程式內訊息、網頁、內容卡和程式碼型體驗），會在動作之後自動插入&#x200B;**等待**&#x200B;節點（預設為3天）。 在歷程繼續進行下一個步驟之前，這可為設定檔提供檢視傳入體驗的時間。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="最佳化"
 >abstract="**最佳化**&#x200B;區段會將內容實驗、目標規則或兩者新增至頻道動作。 它可讓您測試變體，並為每個受眾成員傳遞最有效的內容。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用最佳化活動"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用最佳化活動"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多語言"
 >abstract="**多語言**&#x200B;區段會在單一歷程中以多種語言提供頻道動作內容。 語言設定組態會定義此動作支援的區域設定和預設語言。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="開始使用多語言內容"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="開始使用多語言內容"
 
 
 若要使用&#x200B;**[!UICONTROL 動作]**&#x200B;活動將內建頻道動作新增至您的歷程，請遵循下列步驟。
