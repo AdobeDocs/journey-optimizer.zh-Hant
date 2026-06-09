@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >您至少需要下列其中一個許可權才能存取&#x200B;**[!UICONTROL 模擬]**&#x200B;功能： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 [了解更多](../administration/permissions.md)
+>
+>若要在&#x200B;**[!UICONTROL 模擬]** （**[!UICONTROL 快速模擬]**，使用AI產生模擬使用者，**[!UICONTROL 產生事件值]**）中使用AI，使用者需要來自&#x200B;**[!UICONTROL AI小幫手]**&#x200B;功能的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。
 
 除了&#x200B;**草稿**、**測試模式**&#x200B;和&#x200B;**即時**&#x200B;之外，您還可以將歷程設定為&#x200B;**[!UICONTROL 模擬]**。 在模擬中，您使用&#x200B;**個模擬的使用者進行測試**：您新增的臨時設定檔樣實體，而不使用Adobe Experience Platform中的持續測試設定檔。
 
