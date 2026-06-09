@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 片段，歷程，重複使用，節點，畫布，詳細目錄，可重複使用
-badge: label="有限可用性" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 10%
+source-wordcount: 1411
+ht-degree: 13%
 
 ---
 
 
 # 歷程片段 {#journey-fragments}
-
->[!AVAILABILITY]
->此功能目前處於「有限可用性」。 如欲請求存取權，請和您的 Adobe 代表聯絡。
 
 歷程片段是可重複使用的歷程節點集合，您可以只建置一次，然後放入您的沙箱的任何歷程中。 無論是資格檢查、偏好的管道路由邏輯或歡迎順序，片段都有助於團隊更快移動並保持一致，而不會每次從頭開始重建相同的邏輯。 [檢視使用案例範例。](#examples)
 
@@ -187,6 +183,7 @@ ht-degree: 10%
 * 片段支援[標籤](tags.md)和&#x200B;**標籤**。
 * 支援[稽核記錄](../privacy/audit-logs.md)。
 * 在舊棧疊上執行的歷程（使用內嵌行銷活動）不支援歷程片段。 在使用此功能之前，複製此類歷程以移動到新棧疊。
+* 歷程片段支援[沙箱工具](../configuration/copy-objects-to-sandbox.md)。 片段可以封裝並匯出到另一個沙箱。
 
 ## 使用案例範例 {#examples}
 
