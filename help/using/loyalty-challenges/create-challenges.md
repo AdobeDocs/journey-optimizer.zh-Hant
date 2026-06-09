@@ -104,11 +104,11 @@ ht-degree: 10%
 
    ![](assets/challenge-create-details.png)
 
-### 對象 {#audience}
+### 客群 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
->title="客群"
+>title="對象"
 >abstract="選擇可以參與挑戰的人。 新增Adobe Experience Platform對象，或讓對象保持空白，讓所有忠誠會員皆符合資格。 選擇性地要求完成其他挑戰作為先決條件。"
 
 定義誰可以參與您的忠誠度挑戰。
