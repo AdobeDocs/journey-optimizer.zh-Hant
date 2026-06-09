@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 8%
+source-wordcount: 2308
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="測試您的歷程"
->abstract="在發佈您的歷程之前使用測試設定檔進行測試。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
+>abstract="測試設定檔可讓您在發佈歷程之前先測試歷程。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="歷程試執行"
 
 一旦您建立了您的歷程，您就可以在發佈之前先測試它。 [!DNL Adobe Journey Optimizer]提供「測試模式」，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
@@ -141,14 +141,14 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 >
 >如果設定檔完全沒有出現在記錄中，請檢查：
 >* 您輸入的設定檔識別碼在[!DNL Adobe Experience Platform]中被標籤為測試設定檔。
->* 歷程設定的開始和結束日期包括目前時間。 在此視窗之外觸發的事件會以無訊息方式捨棄。 [了解更多資訊](troubleshooting-execution.md#troubleshooting-test-transitions)。
+>* 歷程設定的開始和結束日期包括目前時間。 在此視窗之外觸發的事件會以無訊息方式捨棄。 [了解更多](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## 觸發您的事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="設定測試模式"
->abstract="如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。"
+>abstract="如果歷程包含數個事件，系統會使用下拉式清單來選取事件。 對於每個事件，都會設定所傳遞的欄位以及事件傳送的執行。"
 
 使用&#x200B;**[!UICONTROL 觸發事件]**&#x200B;按鈕來設定讓人員進入歷程的事件。
 

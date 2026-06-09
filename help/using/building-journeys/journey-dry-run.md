@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 16%
+source-wordcount: 1080
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="在試執行模式中發佈歷程"
->abstract="歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。 設計歷程後，請進行模擬演練執行來確認其運作正常，確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
+>abstract="歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程。 設計歷程後，練習會確認其運作正常，並確保步驟正確。 此發布模式可讓您煙霧測試歷程，無需傳送通訊給任何輪廓。"
 
 歷程試運行是 [!DNL Adobe Journey Optimizer] 中的特殊歷程發佈模式，允許歷程實踐者使用真實的生產資料測試歷程，而無需聯絡真實客戶或更新輪廓資訊。  此功能可協助歷程從業人員，針對歷程設計、客群目標市場選擇，累積信心，然後再將歷程發佈上線。
 

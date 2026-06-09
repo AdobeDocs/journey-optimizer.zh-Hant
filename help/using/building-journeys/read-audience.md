@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="讀取客群活動"
->abstract="將所選 [!DNL Adobe Experience Platform] 客群的所有合格輪廓新增至此歷程。 單次執行或依排程執行。"
+>abstract="將所選[!DNL Adobe Experience Platform]對象的所有合格設定檔新增至此歷程。 執行一次或依排程執行。"
 
 **讀取對象**&#x200B;活動是歷程進入點活動，會將選定[!DNL Adobe Experience Platform]對象的所有設定檔新增至歷程。 您可以執行一次入口，或依週期性排程執行。 在API和技術參考中，此活動也稱為區段觸發或受眾型歷程專案。
 
@@ -94,12 +94,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="客群"
->abstract="選取其輪廓將進入此歷程的 [!DNL Adobe Experience Platform] 客群。"
+>abstract="設定檔進入此歷程的[!DNL Adobe Experience Platform]對象。 所有合格的設定檔都會讀入。 建議批次對象以獲得可靠、一致的計數，且每個活動只能讀取一個對象。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="命名空間"
->abstract="選擇身分識別 (例如電子郵件、ECID) 以識別進入歷程的個體。 此欄位預設會自動填入上次使用的命名空間。"
+>abstract="用於識別進入歷程之個人的身分（例如電子郵件、ECID）。 只有以人物為基礎的名稱空間才可使用，沒有此身分的設定檔無法進入。 此欄位預設會自動填入上次使用的命名空間。"
 
 1. 展開&#x200B;**[!UICONTROL 協調流程]**&#x200B;類別，並將&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動拖放到您的畫布中。
 
@@ -177,17 +177,17 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="開始日期/時間"
->abstract="定義開始此歷程的時間點。"
+>abstract="歷程開始讀取對象和設定檔開始輸入的日期和時間。 將其與下列週期選項結合，以排程週期性執行。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="重複直到"
->abstract="定義定期執行的結束日期。"
+>abstract="重複執行停止的日期。 在此日期之後，歷程不再讀取對象或承認新設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="重複間隔"
->abstract="歷程執行頻率 (例如每日、每週)。"
+>abstract="歷程重新讀取對象並再次執行的頻率，例如每日或每週。 決定執行之間的遞回間隔，直到達到重複結束日期為止。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="強制重新進入"
->abstract="在讀取各個新客群前，清除歷程中的所有參與者。"
+>abstract="在每次讀取新對象之前清除歷程中的所有參與者，因此每次執行都會重新開始，並在每次發生時重新輸入設定檔。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="在進行批次客群評估後觸發"
->abstract="對批次客群進行全新評估後，方可執行歷程。"
+>abstract="延遲每次執行，直到最新評估批次對象為止，因此歷程會讀取最新的對象快照，而非陳舊資料。 建議依賴最新細分結果的週期性歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ ht-degree: 9%
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

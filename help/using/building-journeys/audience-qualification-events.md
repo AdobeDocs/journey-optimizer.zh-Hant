@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="客群資格篩選"
->abstract="當輪廓符合或退出 [!DNL Adobe Experience Platform] 客群時，即觸發歷程進入或延續。 建議對串流客群使用；批次情境請使用「讀取客群」活動。"
+>abstract="當設定檔符合或退出[!DNL Adobe Experience Platform]對象時，觸發歷程進入或繼續。 建議用於串流對象；「讀取對象」活動用於批次情境。"
 
 ## 關於對象資格鑑定事件{#about-segment-qualification}
 
@@ -64,22 +64,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="標籤"
->abstract="新增選用標籤，以便在報告和測試模式記錄中識別此活動。"
+>abstract="在報告和測試模式記錄中識別此活動的選用標籤。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
->title="客群"
->abstract="選取要利用的 [!DNL Adobe Experience Platform] 客群。 歷程會監聽輪廓進入和退出此客群的情形。"
+>title="對象"
+>abstract="歷程監控的[!DNL Adobe Experience Platform]對象。 當設定檔符合此對象的資格或退出此對象時，即會進入或前進。 建議使用串流對象，以即時評估資格。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="行為"
->abstract="選擇要監聽客群進入情形、退出情形或兩者皆監聽。"
+>abstract="定義歷程回應的對象會籍變更：設定檔符合（進入）對象資格時、對象離開（退出）對象時，或兩者皆符合。 同時收聽會涵蓋完整的會員生命週期，而單一選項會將歷程限製為一個方向。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="身分識別類型"
->abstract="選取身分識別類型以識別個體。 僅提供以人為基礎的身分識別命名空間。"
+>abstract="用來在個人符合對象資格時識別個人的身分名稱空間。 只有以人物為基礎的身分名稱空間才可使用，沒有此身分的設定檔無法進入歷程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

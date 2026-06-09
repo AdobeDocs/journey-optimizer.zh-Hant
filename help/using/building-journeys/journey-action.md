@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1736
-ht-degree: 14%
+source-wordcount: 1734
+ht-degree: 13%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="新增多項入站動作"
->abstract="您可以在單一歷程中選取多項入站動作。 您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
+>abstract="單一歷程可包含數個入站動作。 您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
 
 若要簡化歷程協調，您可以在單一歷程動作中定義數個傳入動作。
 

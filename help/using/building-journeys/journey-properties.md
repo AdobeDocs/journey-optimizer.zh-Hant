@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 13%
+source-wordcount: 3657
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="歷程屬性"
->abstract="設定此歷程的全域設定，包括名稱、標記、進入規則、時區、日期、逾時和衝突管理。 唯讀參數預設為隱藏。 可用選項將視歷程狀態、您的權限及產品設定而異。"
+>abstract="歷程屬性儲存此歷程的全域設定，包括名稱、標籤、進入規則、時區、日期、逾時和衝突管理。 唯讀參數預設為隱藏。 可用選項將視歷程狀態、您的權限及產品設定而異。"
 
 ## 存取歷程的屬性 {#access-properties}
 
@@ -109,7 +109,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
->abstract="預設情況下，新歷程允許重新進入。 例如，如果您想在某人進入商店時提供一次性禮物，您可以取消勾選「**允許重新進入**」選項。"
+>abstract="預設情況下，新歷程允許重新進入。 取消勾選&#x200B;**允許重新進入**&#x200B;選項可防止人員再次進入歷程，例如當人員進入商店時提供一次性禮物。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 預設情況下，新歷程允許重新進入。 您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
@@ -119,7 +119,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
->abstract="設定允許輪廓在單一歷程中再次進入歷程之前的等待時間。 這會防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
+>abstract="重新進入等待期間是設定檔在單一歷程中再次進入歷程之前的等待時間。 它會防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
@@ -137,7 +137,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="目前歷程承載大小"
->abstract="顯示歷程承載相較於設定之限制的目前大小。 使用此指標以在發佈前監視歷程複雜性，並避免因超過承載大小限制而造成的錯誤。"
+>abstract="顯示歷程承載相較於設定之限制的目前大小。 此指標有助於在發佈前監控歷程複雜性，並避免因超過裝載大小限制而導致的錯誤。"
 
 歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示與設定限制相關的歷程裝載目前大小，例如&#x200B;*1.5 MB （共2 MB）*。 此唯讀指標可在歷程編寫的任何階段顯示。
 
@@ -160,12 +160,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="開始日期"
->abstract="選取設定檔可開始進入此歷程的日期。 如果沒有設定開始日期，則會預設為歷程的發佈日期。"
+>abstract="開始日期是設定檔可以開始進入歷程的日期。 如果沒有設定開始日期，則會預設為歷程的發佈日期。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="結束日期"
->abstract="設定歷程結束的日期。 在此日期，主要輪廓將自動退出此歷程，且不允許任何新的進入。"
+>abstract="結束日期是歷程結束的日期。 在此日期，主要輪廓將自動退出此歷程，且不允許任何新的進入。"
 
 依預設，設定檔發佈後即可進入您的歷程，並可一直保留，直到達到[全域歷程逾時](#global_timeout)。 唯一的例外是循環讀取對象歷程，其中&#x200B;**在循環**&#x200B;上強制重新進入，結束於下一個事件的開始日期。
 
@@ -356,7 +356,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出條件"
->abstract="本區段會顯示退出條件選項。 您可以為您的歷程建立一個或多個退出條件規則及篩選器。"
+>abstract="此區段顯示退出條件選項，其中可為歷程定義一或多個退出條件規則和篩選器。"
 
 ### 歷程退出條件 {#exit-criteria-desc}
 

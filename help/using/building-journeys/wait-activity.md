@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="等待活動"
->abstract="如果您要在執行路徑中的下一個活動之前等待，您可以使用等待活動。 這項功能可讓您定義執行下一個活動的時刻。 有兩個選項可用：期間和自訂。"
+>abstract="「等待」活動可讓您在執行路徑中的下一個活動之前等待。 這項功能可讓您定義執行下一個活動的時刻。 有兩個選項可用：期間和自訂。"
 
 您可以使用&#x200B;**[!UICONTROL 等待]**&#x200B;活動，在執行下一個活動之前定義持續時間。  等待持續時間上限為&#x200B;**90天**。
 
@@ -134,6 +134,6 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="關於自動等待節點"
->abstract="**Wait**&#x200B;節點會自動插入此輸入動作之後。 預設為3天，以確保設定檔保留在歷程中夠長的時間，以檢視訊息或體驗。 您可以更新等待持續時間，如果用例需要此節點，則可以將其移除。"
+>abstract="**Wait**&#x200B;節點會自動插入此輸入動作之後。 預設為3天，以確保設定檔保留在歷程中夠長的時間，以檢視訊息或體驗。 如果用例需要，可以更新等待持續時間或移除節點。"
 
 每個傳入體驗活動（應用程式內訊息、程式碼型體驗或卡片）都隨附3天&#x200B;**等待**&#x200B;活動。 由於當設定檔到達歷程終點時，傳入訊息會自動結束，因此我們假設您想要使用者至少在3天內看到它。 您可以移除此&#x200B;**等待**&#x200B;活動，或視需要變更其設定。

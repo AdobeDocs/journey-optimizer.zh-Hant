@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1941
-ht-degree: 16%
+source-wordcount: 1939
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="關於簡單運算式編輯器"
->abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。 將欄位拖放到主要區域中。 若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。 然後，您可以選取邏輯運算子來合併同一層級的元素。"
+>abstract="簡單運算式編輯器模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。 欄位被拖放至主區域。 要組合不同的元素，它們會相互聯鎖以建立不同的群組和/或群組層級。 然後，邏輯運運算元會結合相同層級上的元素。"
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以更輕鬆地識別它們。
 
