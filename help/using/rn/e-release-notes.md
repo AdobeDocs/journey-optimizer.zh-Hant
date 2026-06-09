@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d88ec9074feb94a55502b5904b4f8958a286576b
+source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 1960
 ht-degree: 10%
 
 ---
@@ -83,9 +83,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **直接停止或關閉暫停的歷程** — 您現在可以&#x200B;**直接從**&#x200B;暫停&#x200B;**狀態停止歷程或將其關閉到新入口**。之前，暫停的歷程必須恢復為上線，然後才能停止或關閉。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">連結到DOCAC JIRA工作</a>
-
-* **外部對象歷程中的補充ID支援** - **歷程中的補充識別碼**&#x200B;現在支援&#x200B;**外部對象**，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">連結到DOCAC JIRA工作</a>
 
 ### 協調的行銷活動 {#june-26-oc}
 
