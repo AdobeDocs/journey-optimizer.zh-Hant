@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
+source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 9%
+source-wordcount: 1050
+ht-degree: 11%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 
    >[!IMPORTANT]
    >
-   >透過從[MTLS公用憑證API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)下載公用憑證，並將它新增至您的伺服器信任存放區（預期的使用者端CN： `ajo-sms.aep-mtls.adobe.com`），將您的SMS傳送端點設定為信任Adobe Experience Platform憑證授權鏈結，否則Journey Optimizer會省略使用者端憑證，SMS傳送會失敗。
+   >透過從[MTLS公用憑證API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)下載公用憑證，並將它新增至您的伺服器信任存放區（預期的使用者端CN： `ajo-sms.aep-mtls.adobe.com`），將您的SMS傳送端點設定為信任Adobe Experience Platform憑證授權鏈結，否則Journey Optimizer會省略使用者端憑證，SMS傳送會失敗。
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
