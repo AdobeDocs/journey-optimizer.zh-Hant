@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
+source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-[!BADGE 重要]{type=Informative} **&#x200B;**&#x200B;AJO訊息回饋事件資料集正移至批次擷取&#x200B;**-** AJO訊息回饋事件資料集**正從串流擷取移至批次擷取。 因此，此資料集的資料延遲時間預計會長達2小時。 如果您在Customer Journey Analytics中建立報表，或使用此資料集執行查詢，請解決未來延遲增加的問題。 [閱讀更多](../data/get-started-datasets.md)
+* [!BADGE 重要]{type=Informative} **AJO訊息回饋事件資料集正移至批次擷取** - **AJO訊息回饋事件資料集**&#x200B;正從串流擷取移至批次擷取。 因此，此資料集的資料延遲時間預計會長達2小時。 如果您在Customer Journey Analytics中建立報表，或使用此資料集執行查詢，請解決未來延遲增加的問題。 [閱讀更多](../data/get-started-datasets.md)
 
-推出日期： 2026年6月10日
+  推出日期： 2026年6月10日
 
 * **非循環讀取對象歷程的自動停止** — 非循環&#x200B;**讀取對象**&#x200B;歷程現在會在最後一個作用中設定檔退出後，自動轉換成&#x200B;**已停止**&#x200B;狀態。 以往，這些歷程會維持&#x200B;**即時**&#x200B;狀態，直到91天全域逾時到期 — 即使不再有設定檔流過。 透過這項改善，歷程狀態會在完成時反映實際執行狀態，讓您無需手動介入即可保持歷程詳細目錄準確。
 
