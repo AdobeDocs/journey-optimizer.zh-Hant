@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
+source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
 workflow-type: tm+mt
-source-wordcount: 1838
+source-wordcount: 1791
 ht-degree: 10%
 
 ---
@@ -200,8 +200,10 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **片段可編輯欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">連結到DOCAC JIRA工作</a>
 
-* **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。使用目前版本之前建立的片段時，片段文字版本可能會錯誤轉譯 — 在電子郵件Designer和傳遞給收件者的最終電子郵件中皆然。為了對較舊的片段產生最佳結果，請編輯、儲存並重新發佈每個片段。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">連結到DOCAC JIRA工作</a>
+<!--
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link to DOCAC JIRA task</a>
+-->
 
 ### 行動裝置訊息（SMS、MMS、RCS和LINE） {#june-26-mobile}
 
