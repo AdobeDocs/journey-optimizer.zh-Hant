@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 ### 歷程 {#june-26-journeys}
 
 以下功能和改進即將在此版本中推出。
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程仲裁 — 公式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以使用<strong>公式</strong>，根據客戶設定檔屬性和內容因素自動<strong>排定歷程的優先順序及仲裁順序</strong>，確保客戶進入最相關的歷程。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC JIRA 任務連結</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **提高即時歷程限制與新護欄** — 您現在最多可以有&#x200B;**200個使用中歷程**，比先前的100個限制有所增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">連結到DOCAC JIRA工作</a>
