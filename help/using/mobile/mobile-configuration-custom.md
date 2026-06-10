@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 9%
+source-wordcount: 1050
+ht-degree: 11%
 
 ---
 
@@ -96,7 +86,7 @@ ht-degree: 9%
 
    >[!IMPORTANT]
    >
-   >透過從[MTLS公用憑證API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)下載公用憑證，並將它新增至您的伺服器信任存放區（預期的使用者端CN： `ajo-sms.aep-mtls.adobe.com`），將您的SMS傳送端點設定為信任Adobe Experience Platform憑證授權鏈結，否則Journey Optimizer會省略使用者端憑證，SMS傳送會失敗。
+   >透過從[MTLS公用憑證API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)下載公用憑證，並將它新增至您的伺服器信任存放區（預期的使用者端CN： `ajo-sms.aep-mtls.adobe.com`），將您的SMS傳送端點設定為信任Adobe Experience Platform憑證授權鏈結，否則Journey Optimizer會省略使用者端憑證，SMS傳送會失敗。
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
@@ -143,7 +133,7 @@ ht-degree: 9%
 
    ![](assets/verify-connection.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
