@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ limit 100;
 用於從Journey Optimizer擷取電子郵件和推播應用程式意見回饋事件的資料集。
 
 相關結構描述是AJO訊息回饋事件結構描述。
+
+>[!NOTE]
+>
+>此資料集使用批次擷取。 查詢此資料集或將其用於報告用途時，預計資料延遲最長可達2小時。
 
 此查詢顯示特定訊息的不同電子郵件回饋狀態（已傳送、退回等）的計數：
 
