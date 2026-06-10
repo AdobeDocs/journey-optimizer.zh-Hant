@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +174,9 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tr>
 </tbody>
 </table>
+
+* **片段可編輯欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">連結到DOCAC JIRA工作</a>
 
 * **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。使用目前版本之前建立的片段時，片段文字版本可能會錯誤轉譯 — 在電子郵件Designer和傳遞給收件者的最終電子郵件中皆然。為了對較舊的片段產生最佳結果，請編輯、儲存並重新發佈每個片段。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">連結到DOCAC JIRA工作</a>
