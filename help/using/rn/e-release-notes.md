@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
+source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1838
 ht-degree: 10%
 
 ---
@@ -120,7 +120,29 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-### 電子郵件管道 {#june-26-email}
+### 管道 {#june-26-channels}
+
+此發行版本引進了以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>自訂傳出頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在推出<strong>自訂頻道</strong>，這項新功能可讓管理員透過無程式碼頻道產生器，將任何外寄HTTP式訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p>
+<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。 這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專屬的內容製作。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA 任務連結</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 電子郵件 {#june-26-email}
 
 此版本的電子郵件頻道即將提供下列功能和改善。
 
@@ -181,12 +203,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。使用目前版本之前建立的片段時，片段文字版本可能會錯誤轉譯 — 在電子郵件Designer和傳遞給收件者的最終電子郵件中皆然。為了對較舊的片段產生最佳結果，請編輯、儲存並重新發佈每個片段。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">連結到DOCAC JIRA工作</a>
 
-* **已更新針對客戶情境的批次結束輸送量基準** - Adobe Journey Optimizer的批次傳送輸送量基準已更新，以反映多個個人化情境的生產等級效能 — 從基本傳送到具有條件式邏輯的複雜動態內容。更新後的量度現在可於產品檔案中取得，以協助客戶準確規劃其傳訊量。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">連結到DOCAC JIRA工作</a>
-
-* **自訂子網域的Feedback Loop OTP程式** - Feedback Loop (FBL)自訂子網域設定程式已改善，直接在產品UI中顯示Yahoo寄件者中心&#x200B;**一次性密碼(OTP)**。使用者現在可以自動擷取及顯示Yahoo寄件者中心網域擁有權驗證期間產生的OTP。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">連結到DOCAC JIRA工作</a>
-
 ### 行動裝置訊息（SMS、MMS、RCS和LINE） {#june-26-mobile}
 
 此版本即將對行動裝置傳訊功能進行下列改進。
@@ -246,28 +262,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-### 自訂通道 {#june-26-channels}
-
-以下功能即將陸續發行至此版本中。
-
-<table>
-<thead>
-<tr>
-<th><strong>自訂傳出頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在推出<strong>自訂頻道</strong>，這項新功能可讓管理員透過無程式碼頻道產生器，將任何外寄HTTP式訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p>
-<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。 這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專屬的內容製作。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA 任務連結</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 行銷活動 {#june-26-campaigns}
 
 此版本中的行銷活動即將進行下列改進。
@@ -292,6 +286,12 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **Web應用程式防火牆(WAF) IP白名單** - Adobe Journey Optimizer現在支援登陸頁面的WAF IP白名單，讓組織能夠強制所有傳入要求都透過其設定的WAF基礎架構專門路由。透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過WAF層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">連結到DOCAC JIRA工作</a>
+
+* **自訂子網域的Feedback Loop OTP程式** - Feedback Loop (FBL)自訂子網域設定程式已改善，直接在產品UI中顯示Yahoo寄件者中心&#x200B;**一次性密碼(OTP)**。使用者現在可以自動擷取及顯示Yahoo寄件者中心網域擁有權驗證期間產生的OTP。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">連結到DOCAC JIRA工作</a>
+
+* **已更新針對客戶情境的批次結束輸送量基準** - Adobe Journey Optimizer的批次傳送輸送量基準已更新，以反映多個個人化情境的生產等級效能 — 從基本傳送到具有條件式邏輯的複雜動態內容。更新後的量度現在可於產品說明中取得，以協助客戶準確規劃其傳訊量。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">連結到DOCAC JIRA工作</a>
 
 * **從串流模式移至批次模式的資料集** - AJO訊息回饋事件資料集正在從串流模式轉換為&#x200B;**批次擷取模式**。這項變更可確保資料擷取不超過串流擷取限制。如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14771">連結到DOCAC JIRA工作</a>
