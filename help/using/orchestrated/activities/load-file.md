@@ -5,18 +5,14 @@ title: 使用載入檔案活動
 description: 瞭解如何使用載入檔案活動，在CSV或TXT檔案中鎖定協調行銷活動對象，而不將檔案擷取至Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +31,15 @@ ht-degree: 6%
 >
 >此活動目前無法與&#x200B;**Healthcare Shield**&#x200B;搭配使用。
 
+## 權限 {#permissions}
+
+若要在協調的行銷活動中使用&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，必須指派正確的許可權給使用者。 這兩個許可權都可在許可權UI中的&#x200B;**[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 協調的行銷活動]**&#x200B;下使用。
+
+* **[!UICONTROL 在協調的行銷活動中檢視檔案]** — 授予唯讀存取權。 具有此許可權的使用者可以在包含&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動的協調行銷活動上預覽結果，但無法新增活動或上傳檔案。
+* **[!UICONTROL 在協調的行銷活動中管理檔案]** — 需要將&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動新增至行銷活動畫布並上傳檔案。 將此許可權指派給需要建立或設定&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動的使用者。
+
+如需指派許可權的指示，請參閱[管理使用者和角色](../../administration/permissions.md)。
+
 ## 護欄與限制 {#limitations}
 
 下列限制適用於載入檔案活動：
@@ -44,6 +49,42 @@ ht-degree: 6%
 * 行銷活動執行時會使用上傳的資料，而不會儲存為Adobe Experience Platform資料集。
 
 如需頻道和畫布活動的限制，請參閱[護欄和限制](../guardrails.md#activities-limitations)。
+
+## 先決條件 {#prerequisites}
+
+管理員必須先完成下列一次性設定，您才能將&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動新增至已協調的行銷活動並連線至訊息活動。
+
+### 建立檔案型別目標維度 {#file-target-dimension}
+
+型別&#x200B;**[!UICONTROL 檔案]**&#x200B;的&#x200B;**[!UICONTROL 設定檔目標Dimension]**&#x200B;可讓協調的行銷活動從上傳的檔案而不是Adobe Experience Platform結構描述中解析收件者。 它會定義在行銷活動執行時處理檔案對象時使用的身分名稱空間和識別碼欄位。
+
+從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 促銷活動目標Dimension]**&#x200B;建立目標維度。 [深入瞭解目標維度](../target-dimension.md)
+
+為檔案型鎖定目標建立目標維度時，請確定：
+
+* 將&#x200B;**[!UICONTROL Dimension來源]**&#x200B;設定為&#x200B;**[!UICONTROL 檔案]**。
+* 選取與檔案中識別項資料行相符的&#x200B;**[!UICONTROL 身分識別名稱空間]**，例如&#x200B;**[!UICONTROL 電子郵件]**。
+* 輸入&#x200B;**[!UICONTROL 識別欄位路徑]**。 使用包含識別碼的檔案欄位，例如，如果上傳的檔案包含`email`欄，則為`email`。
+
+>[!CAUTION]
+>
+>儲存目標維度後，便無法變更結構描述和身分值。 在儲存之前，請驗證身分名稱空間和身分欄位路徑。
+
+### 建立檔案式傳送的通道設定 {#file-channel-configuration}
+
+建立使用檔案型別目標維度的專用通道設定。 此設定是在您的行銷活動畫布中的&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動之後的訊息活動中選取。
+
+1. 瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 管道設定]**，然後建立新的設定。
+
+1. 在&#x200B;**[!UICONTROL 執行詳細資料]**&#x200B;下，選取&#x200B;**[!UICONTROL 協調的行銷活動]**&#x200B;索引標籤，並啟用協調行銷活動的設定。
+
+1. 在&#x200B;**[!UICONTROL 設定檔目標Dimension]**&#x200B;欄位中，選取在上一步中建立的檔案型別目標維度。
+
+1. 完成其餘通道設定欄位並儲存。 [進一步瞭解協調行銷活動的管道設定](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>標準設定檔型頻道設定不適用於檔案型對象。 針對任何跟隨&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動的訊息活動，使用以檔案型別維度為目標的通道設定。
 
 ## 設定載入檔案活動 {#load-file-configuration}
 
@@ -168,7 +209,7 @@ ht-degree: 6%
 
 指定要在行銷活動執行時載入的檔案，以及每一列如何與現有收件者比對。
 
-1. 在&#x200B;**[!UICONTROL 目標檔案]**&#x200B;區段中，選取包含目標的CSV或TXT檔案。
+1. 在&#x200B;**[!UICONTROL 目標檔案]**&#x200B;區段中，選取包含目標對象的CSV或TXT檔案。
 
    ![](../assets/load-file-target.png)
 
@@ -183,4 +224,4 @@ ht-degree: 6%
 
 1. 選擇性地啟用&#x200B;**[!UICONTROL 匯入後刪除檔案]**，以在行銷活動執行後從伺服器移除上傳的檔案。
 
-在&#x200B;**[!UICONTROL 載入檔案]**&#x200B;解析對象之後，n將輸出轉變連線到下游活動。 [了解如何協調行銷活動](../orchestrate-activities.md)
+在&#x200B;**[!UICONTROL 載入檔案]**&#x200B;解析對象之後，將輸出轉變連線到下游活動。 [了解如何協調行銷活動](../orchestrate-activities.md)
