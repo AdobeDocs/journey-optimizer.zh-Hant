@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
 workflow-type: tm+mt
-source-wordcount: 1842
+source-wordcount: 1838
 ht-degree: 10%
 
 ---
@@ -60,7 +55,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **提高即時歷程限制與新護欄** — 您現在最多可以有&#x200B;**200個使用中歷程**，比先前的100個限制有所增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">連結到DOCAC JIRA工作</a>
 
-* **歷程標題中的開始和結束日期** — 當即時歷程設定開始和/或結束日期時，它們現在會出現在即時狀態徽章旁邊的&#x200B;**歷程標題**&#x200B;中。顯示的標籤會根據每個日期是近期到來或已過去而調整。
+* **歷程標題中的開始和結束日期** — 當即時歷程設定開始和/或結束日期時，它們現在會出現在即時狀態徽章旁邊的&#x200B;**歷程標題**中。顯示的標籤會根據每個日期是近期到來或已過去而調整。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">連結到DOCAC JIRA工作</a>
 
 * **直接停止或關閉暫停的歷程** — 您現在可以&#x200B;**直接從**&#x200B;暫停&#x200B;**狀態停止歷程或將其關閉到新入口**。之前，暫停的歷程必須恢復為上線，然後才能停止或關閉。
@@ -96,7 +91,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化&#x200B;**電子郵件標題欄位**，包括寄件者名稱、寄件者地址和回覆對象。如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">連結到DOCAC JIRA工作</a>
 
-* **協調行銷活動中的目標維度簡化** — 作用中的&#x200B;**目標維度**&#x200B;現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。
+* **協調行銷活動中的目標維度簡化** — 作用中的&#x200B;**目標維度**現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">連結到DOCAC JIRA工作</a>
 
 ### 決策 {#june-26-decisioning}
@@ -120,7 +115,29 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-### 電子郵件管道 {#june-26-email}
+### 管道 {#june-26-channels}
+
+此發行版本引進了以下功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>自訂傳出頻道</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在推出<strong>自訂頻道</strong>，這項新功能可讓管理員透過無程式碼頻道產生器，將任何外寄HTTP式訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p>
+<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。 這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專屬的內容製作。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA 任務連結</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 電子郵件 {#june-26-email}
 
 此版本的電子郵件頻道即將提供下列功能和改善。
 
@@ -181,20 +198,14 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **片段中的文字模式支援** — 若要支援文字型電子郵件工作流程，您現在可以建立和管理視覺化片段的文字版本，以便在包含該片段的純文字版電子郵件中最佳使用。使用目前版本之前建立的片段時，片段文字版本可能會錯誤轉譯 — 在電子郵件Designer和傳遞給收件者的最終電子郵件中皆然。為了對較舊的片段產生最佳結果，請編輯、儲存並重新發佈每個片段。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">連結到DOCAC JIRA工作</a>
 
-* **已更新針對客戶情境的批次結束輸送量基準** - Adobe Journey Optimizer的批次傳送輸送量基準已更新，以反映多個個人化情境的生產等級效能 — 從基本傳送到具有條件式邏輯的複雜動態內容。更新後的量度現在可於產品檔案中取得，以協助客戶準確規劃其傳訊量。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">連結到DOCAC JIRA工作</a>
-
-* **自訂子網域的Feedback Loop OTP程式** - Feedback Loop (FBL)自訂子網域設定程式已改善，直接在產品UI中顯示Yahoo寄件者中心&#x200B;**一次性密碼(OTP)**。使用者現在可以自動擷取及顯示Yahoo寄件者中心網域擁有權驗證期間產生的OTP。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">連結到DOCAC JIRA工作</a>
-
 ### 行動裝置訊息（SMS、MMS、RCS和LINE） {#june-26-mobile}
 
 此版本即將對行動裝置傳訊功能進行下列改進。
 
-* **SMS報告的不重複點按** — 新的&#x200B;**不重複點按**&#x200B;模組已引入SMS報告，對目前可用於電子郵件報告的SMS提供相同層級的精細效能追蹤。
+* **SMS報告的不重複點按** — 新的&#x200B;**不重複點按**模組已引入SMS報告，對目前可用於電子郵件報告的SMS提供相同層級的精細效能追蹤。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14895">連結到DOCAC JIRA工作</a>
 
-* **LINE Channel — 編寫變更** - LINE Channel UI已升級為進階訊息編寫功能。此發行版本引入對&#x200B;**多種訊息格式**&#x200B;的支援，包括文字、影像、影像地圖、轉盤和Flex （JSON編輯器），以及即時裝置預覽。使用者現在可以管理最多五個已排序訊息的群組訊息（包含新增、移除和重新排序控制項），並利用整合的個人化編輯器進行驗證的動態傳訊。
+* **LINE Channel — 編寫變更** - LINE Channel UI已升級為進階訊息編寫功能。此發行版本引入對&#x200B;**多種訊息格式**的支援，包括文字、影像、影像地圖、轉盤和Flex （JSON編輯器），以及即時裝置預覽。使用者現在可以管理最多五個已排序訊息的群組訊息（包含新增、移除和重新排序控制項），並利用整合的個人化編輯器進行驗證的動態傳訊。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">連結到DOCAC JIRA工作</a>
 
 * **簡訊 — 顯示使用量度** — 針對直接透過Adobe Journey Optimizer購買簡訊的客戶，已引入新的&#x200B;**簡訊使用儀表板**。您現在可以檢視及追蹤最近90天的訊息傳送量度，並依「行動原始」(MO)和「行動已終止」(MT)訊息進行分類。此資料也可透過CSV下載，讓您更清楚掌握和控制簡訊支出。
@@ -246,28 +257,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-### 自訂通道 {#june-26-channels}
-
-以下功能即將陸續發行至此版本中。
-
-<table>
-<thead>
-<tr>
-<th><strong>自訂傳出頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在推出<strong>自訂頻道</strong>，這項新功能可讓管理員透過無程式碼頻道產生器，將任何外寄HTTP式訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p>
-<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。 這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專屬的內容製作。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA 任務連結</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 行銷活動 {#june-26-campaigns}
 
 此版本中的行銷活動即將進行下列改進。
@@ -292,6 +281,12 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **Web應用程式防火牆(WAF) IP白名單** - Adobe Journey Optimizer現在支援登陸頁面的WAF IP白名單，讓組織能夠強制所有傳入要求都透過其設定的WAF基礎架構專門路由。透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過WAF層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">連結到DOCAC JIRA工作</a>
+
+* **自訂子網域的Feedback Loop OTP程式** - Feedback Loop (FBL)自訂子網域設定程式已改善，直接在產品UI中顯示Yahoo寄件者中心&#x200B;**一次性密碼(OTP)**。使用者現在可以自動擷取及顯示Yahoo寄件者中心網域擁有權驗證期間產生的OTP。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">連結到DOCAC JIRA工作</a>
+
+* **已更新針對客戶情境的批次結束輸送量基準** - Adobe Journey Optimizer的批次傳送輸送量基準已更新，以反映多個個人化情境的生產等級效能 — 從基本傳送到具有條件式邏輯的複雜動態內容。更新後的量度現在可於產品說明中取得，以協助客戶準確規劃其傳訊量。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">連結到DOCAC JIRA工作</a>
 
 * **從串流模式移至批次模式的資料集** - AJO訊息回饋事件資料集正在從串流模式轉換為&#x200B;**批次擷取模式**。這項變更可確保資料擷取不超過串流擷取限制。如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14771">連結到DOCAC JIRA工作</a>
