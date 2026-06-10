@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +90,11 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>針對協調的行銷活動提供無訊息工作時間支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以將<strong>無訊息時數</strong>套用至協調的行銷活動。 無訊息小時可讓您定義<strong>以時間為基礎的排除</strong>，以防止在特定期間傳送訊息，協助您在行銷活動協調使用案例中遵守客戶偏好設定和合規性要求。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC JIRA 任務連結</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **在協調的行銷活動中關聯資料以回圈為基礎的個人化** — 個人化編輯器現在支援&#x200B;**回圈區塊**，可在關聯式集合（例如訂單、帳戶或預訂）上反複運算，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。集合是使用個人化權杖透過資料選擇器設定，不需要撰寫運算式。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">連結到DOCAC JIRA工作</a>
 
 * **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化&#x200B;**電子郵件標題欄位**，包括寄件者名稱、寄件者地址和回覆對象。如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">連結到DOCAC JIRA工作</a>
-
-* **協調行銷活動中的目標維度簡化** — 作用中的&#x200B;**目標維度**&#x200B;現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">連結到DOCAC JIRA工作</a>
 
 * **覆寫行銷活動中的預設執行欄位** — 您現在可以覆寫行銷活動引數中電子郵件、簡訊和WhatsApp傳遞設定的全域預設&#x200B;**執行欄位**。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">連結到DOCAC JIRA工作</a>
