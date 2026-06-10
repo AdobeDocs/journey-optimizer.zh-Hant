@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="提供者承載"
->abstract="指定Journey Optimizer如何從提供者的傳送回應中擷取唯一訊息ID。 </br>欄位相符：輸入欄位名稱（例如messageId）。 AJO會掃描回應並傳回第一個相符的值。 </br>點標籤法：輸入欄位的路徑（例如messages.0.id）。 對陣列使用數值區段。 沒有$前置詞。</br> 如果您的提供者支援傳遞回呼資料欄位，請留空。"
+>abstract="指定 Journey Optimizer 如何從提供者的傳送回應中擷取唯一訊息 ID。 </br>欄位符合：輸入欄位名稱 (例如 messageId)。 AJO 會掃描回應並傳回第一個符合的值。 </br>點標記法：輸入欄位的路徑 (例如 messages.0.id)。 陣列請使用數值細分。 無 $ 前置詞。</br> 如果您的提供者支援傳遞回呼資料欄位，請留空。"
 
 此功能可讓您整合及設定自己的傳訊提供者，除了預設選項（Sinch、Twilio和Infobip）以外，還提供了彈性。 如此一來，行動訊息就能順暢地撰寫、傳送、報告和同意管理。
 
@@ -143,7 +133,7 @@ ht-degree: 11%
 
    ![](assets/verify-connection.png)
 
-在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
+在建立及設定您的API認證後，您現在需要為Webhook](#webhook)設定[簡訊的傳入設定。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 
