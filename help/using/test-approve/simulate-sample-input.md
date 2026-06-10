@@ -10,12 +10,21 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
@@ -142,7 +151,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->建立的變體數量取決於您的內容。 具有簡單個人化的訊息可能會產生單一變體，而具有多個條件分支的內容可能會產生數個變體。 按一下「產生&#x200B;****」會以AI產生的變體取代清單中的所有現有內容變體，包括手動新增或從檔案新增的任何變體。
+>建立的變體數量取決於您的內容。 具有簡單個人化的訊息可能會產生單一變體，而具有多個條件分支的內容可能會產生數個變體。 按一下「產生&#x200B;**&#x200B;**」會以AI產生的變體取代清單中的所有現有內容變體，包括手動新增或從檔案新增的任何變體。
 
 ### 從模擬的使用者中選取變體 {#simulated-users}
 
@@ -153,7 +162,7 @@ ht-degree: 3%
 建立模擬的使用者後，您就可以使用這些使用者來預覽您的內容。 若要這麼做，請依照以下步驟進行：
 
 1. 按一下&#x200B;**[!UICONTROL 選取變體]**&#x200B;按鈕。
-1. 在現有模擬使用者清單中，選取您要使用的使用者，然後按一下[選取]。****
+1. 在現有模擬使用者清單中，選取您要使用的使用者，然後按一下[選取]。**&#x200B;**
 
    ![選取要做為內容變體使用的模擬使用者](assets/simulate-custom-simulated.png)
 
