@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -43,22 +43,22 @@ ht-degree: 12%
 
 這些步驟必須由Adobe Journey Optimizer [系統管理員](../start/path/administrator.md)執行。
 
-## 建立WhatsApp API認證 {#whatsapp-credentials}
+## 建立 WhatsApp API 認證 {#whatsapp-credentials}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="名稱"
->abstract="輸入此API認證集的唯一名稱。 您會在設定WhatsApp Webhook和管道設定時選取它。"
+>abstract="輸入此 API 認證集的唯一名稱。 您會在設定 WhatsApp Webhook 和管道設定時選取該名稱。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
->title="API Token"
->abstract="使用來自系統使用者的Meta存取Token （在相同的Business Manager中），作為WhatsApp資產。 這類使用者需要whatsapp_business_management、whatsapp_business_messaging、business_management許可權，以及您的WhatsApp企業帳戶的資產層級存取權。 Meta Token會在約60天後過期，請在到期前續約。"
+>title="API 權杖"
+>abstract="使用來自相同業務管理員之系統使用者的 Meta 存取權杖，做為 WhatsApp 資產。 此一使用者需要 whatsapp_business_management、whatsapp_business_messaging、business_management 權限，以及您 WhatsApp 業務帳戶的資產層級存取權。 Meta 權杖大約在 60 天後過期，請於權仗過期前進行更新。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
->title="商業帳戶ID"
->abstract="輸入您的Meta Business投資組合ID，也稱為Business Manager ID。 請勿在此欄位輸入您的WhatsApp商業帳戶ID。"
+>title="業務帳戶 ID"
+>abstract="輸入您的 Meta 業務專案組合 ID，也稱為業務管理員 ID。 請勿在此欄位輸入您的 WhatsApp 業務帳戶 ID。"
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**&#x200B;並選取&#x200B;**[!UICONTROL API認證]**&#x200B;功能表。 按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
 

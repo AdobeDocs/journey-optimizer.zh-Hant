@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="使用範例輸入進行模擬"
->abstract="在此畫面中，您可以使用AI自動產生內容變體、透過CSV或JSON範本新增值、手動輸入內容變體或使用測試設定檔，以測試內容變體。"
+>abstract="您可以在此畫面中測試內容變體，測試方法包括使用 AI 自動產生內容變體、透過 CSV 或 JSON 範本新增值、手動輸入內容變體或使用測試輪廓。"
 
 當您的內容包含個人化或條件式邏輯時，您必須先驗證其是否正確呈現每個型別的收件者，才能進行傳送。
 

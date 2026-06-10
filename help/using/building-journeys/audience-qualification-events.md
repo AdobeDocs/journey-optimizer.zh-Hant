@@ -68,7 +68,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
->title="對象"
+>title="客群"
 >abstract="歷程監控的[!DNL Adobe Experience Platform]對象。 當設定檔符合此對象的資格或退出此對象時，即會進入或前進。 建議使用串流對象，以即時評估資格。"
 
 >[!CONTEXTUALHELP]

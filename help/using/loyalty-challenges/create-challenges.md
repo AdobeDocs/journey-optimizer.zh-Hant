@@ -104,7 +104,7 @@ ht-degree: 10%
 
    ![](assets/challenge-create-details.png)
 
-### 對象 {#audience}
+### 客群 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
