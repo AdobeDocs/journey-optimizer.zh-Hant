@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +49,8 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>最佳化節點</strong>來鎖定特定對象，以決定符合您以業務為中心的KPI的最佳途徑。</p>
-<p>此工具可讓您開發更有效率的行銷活動，更可能在1:1層級引起共鳴、改善客戶的行銷個人化工作，並增強轉換和收入等重要的客戶參與KPI。</p>
+<p><strong>最佳化活動</strong>現在支援<strong>目標規則</strong>。 目標規則可讓您根據受眾區段或設定檔屬性，定義客戶必須符合以符合特定歷程路徑資格的特定條件。</p>
+<p>和實驗不同，在實驗中，客戶會隨機指派到路徑，目標定位會使用確定性邏輯，以確保將適當的對象或客戶設定檔路由到預期的路徑。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC JIRA 任務連結</a></p>
 </td>
@@ -67,7 +67,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tbody>
 <tr>
 <td>
-<p>您現在可以使用<strong>公式</strong>，根據客戶設定檔屬性和內容因素，自動提升<strong>歷程優先順序分數</strong>，確保客戶進入最相關的歷程。</p>
+<p>您現在可以使用<strong>公式</strong>，根據客戶設定檔屬性和內容因素自動<strong>排定歷程的優先順序及仲裁順序</strong>，確保客戶進入最相關的歷程。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC JIRA 任務連結</a></p>
 </td>
@@ -229,7 +229,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **LINE Channel — 編寫變更** - LINE Channel UI已升級為進階訊息編寫功能。此發行版本引入對&#x200B;**多種訊息格式**&#x200B;的支援，包括文字、影像、影像地圖、轉盤和Flex （JSON編輯器），以及即時裝置預覽。使用者現在可以管理最多五個已排序訊息的群組訊息（包含新增、移除和重新排序控制項），並利用整合的個人化編輯器進行驗證的動態傳訊。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">連結到DOCAC JIRA工作</a>
 
-* **Journey Optimizer轉售 — 顯示使用量度** — 針對直接透過Adobe Journey Optimizer購買簡訊的客戶，我們推出了新的&#x200B;**簡訊使用儀表板**。您現在可以檢視及追蹤最近90天的訊息傳送量度，並依「行動原始」(MO)和「行動已終止」(MT)訊息進行分類。此資料也可透過CSV下載，讓您更清楚掌握和控制簡訊支出。
+* **簡訊 — 顯示使用量度** — 針對直接透過Adobe Journey Optimizer購買簡訊的客戶，已引入新的&#x200B;**簡訊使用儀表板**。您現在可以檢視及追蹤最近90天的訊息傳送量度，並依「行動原始」(MO)和「行動已終止」(MT)訊息進行分類。此資料也可透過CSV下載，讓您更清楚掌握和控制簡訊支出。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">連結到DOCAC JIRA工作</a>
 
 ### 內容與整合 {#june-26-content}
@@ -305,7 +305,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 此版本的報告功能即將提供下列改善專案。
 
-* **排除電子郵件和簡訊報告的機器人點按次數** — 為了更準確地檢視實際客戶參與度，歷程、行銷活動和頻道報告現在提供新的預估量度。 這些量度有助於從報表資料中篩選掉非人類互動(NHI)和機器人點按：
+* **新的電子郵件和簡訊報告的預估點按量度** — 為了更準確地檢視實際客戶參與度，現在可以在歷程、行銷活動和頻道報告中使用新的預估量度。 這些量度有助於從報表資料中篩選掉非人類互動(NHI)和機器人點按：
    * 預估點按次數：移除已識別的機器人和非人類流量後計算的總點按次數。
    * 預估的CTR：相對於傳遞總數的預估點按次數。
    * 預估僅電子郵件的CTOR：與預估開啟次數相關的預估點按次數。
