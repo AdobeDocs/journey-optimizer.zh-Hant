@@ -37,7 +37,7 @@ ht-degree: 4%
 >id="ajo_journey_action_line"
 >title="LINE動作"
 >abstract="LINE頻道動作會在設定檔達到歷程的此步驟時，傳送LINE訊息給設定檔。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的LINE設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增LINE訊息。
 
