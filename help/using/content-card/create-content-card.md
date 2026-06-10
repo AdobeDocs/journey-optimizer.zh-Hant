@@ -6,11 +6,8 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
 source-wordcount: 1755
@@ -24,7 +21,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="內容卡動作"
 >abstract="內容卡片入站動作會在設定檔達到歷程的此步驟時，向設定檔顯示內容卡片。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的內容卡設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），提供設定檔時間來檢視內容卡。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 
 內容卡片是傳入的應用程式內體驗，會直接在行動應用程式的專屬介面中顯示個人化內容（例如促銷活動、公告或推薦）。 和插入式訊息不同，這些訊息在應用程式中仍可供使用，直到使用者將其解除或您的傳送規則隱藏為止。
@@ -150,7 +147,7 @@ ht-degree: 10%
 
    ![](assets/content-card-create-2.png)
 
-1. 若要測試訊息的內容，請按一下[建立實驗]。**&#x200B;** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
+1. 若要測試訊息的內容，請按一下[建立實驗]。**** 這可讓您在範例母體上測試傳送的多個變數，以判斷哪一種處理對目標對象的影響最大。 [進一步瞭解內容實驗](../content-management/content-experiment.md)。
 
 1. 啟用「**[!UICONTROL 啟用其他傳遞規則]**」選項，然後選取「**[!UICONTROL 編輯規則]**」以定義何時應顯示、解除或永久隱藏您的訊息。
 
