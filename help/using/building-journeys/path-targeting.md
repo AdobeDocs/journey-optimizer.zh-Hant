@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="有限可用性" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 4%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 4%
 >id="ajo_path_targeting_fallback"
 >title="什麼是後備路徑？"
 >abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。 </br>如果未選取此選項，則不符合鎖定目標規則的任何對象都不會進入後援路徑並退出歷程。"
-
->[!AVAILABILITY]
->
->此功能目前處於「有限可用性」。 如欲請求存取權，請和您的 Adobe 代表聯絡。
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。
 

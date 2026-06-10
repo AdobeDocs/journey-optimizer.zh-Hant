@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 ### 歷程 {#june-26-journeys}
 
 以下功能和改進即將在此版本中推出。
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程路徑最佳化 — 目標定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>最佳化活動</strong>現在支援<strong>目標規則</strong>。 目標規則可讓您根據受眾區段或設定檔屬性，定義客戶必須符合以符合特定歷程路徑資格的特定條件。</p>
-<p>和實驗不同，在實驗中，客戶會隨機指派到路徑，目標定位會使用確定性邏輯，以確保將適當的對象或客戶設定檔路由到預期的路徑。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC JIRA 任務連結</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

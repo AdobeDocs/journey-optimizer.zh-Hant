@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2942
 ht-degree: 21%
 
 ---
@@ -65,6 +65,26 @@ ht-degree: 21%
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/simulate-journey-gs.md">詳細文件</a>。</p>
 <p>推出日期： 2026年6月9日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程路徑最佳化 — 目標定位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>最佳化活動</strong>現在支援<strong>目標規則</strong>，可讓您根據對象區段或設定檔屬性，定義客戶必須符合的特定條件，以符合特定歷程路徑的資格。</p>
+<p>和實驗不同，在實驗中，客戶會隨機指派到路徑，目標定位會使用確定性邏輯，以確保將適當的對象或客戶設定檔路由到預期的路徑。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/path-targeting.md">詳細文件</a>。</p>
+<p>推出日期： 2026年6月8日</p>
 </td>
 </tr>
 </tbody>
