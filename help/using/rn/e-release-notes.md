@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 2035
 ht-degree: 10%
 
 ---
@@ -239,7 +239,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <table>
 <thead>
 <tr>
-<th><strong>使用Adobe Experience Manager的內容片段</strong><br/></th>
+<th><strong>Journey Optimizer中Adobe Experience Manager內容片段的改進</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +251,12 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <li>選取片段後，其內容會保留在訊息中，讓作者可以跨內容區塊重複使用片段欄位，而不需要重新選取。</li>
 <li>Journey Optimizer已引入新的專用內容片段清單頁面，以改進生命週期管理；使用者可以識別不同步的片段，並觸發手動同步以保持最新狀態。</li>
 <li>地區設定和變數支援現在可讓行銷人員更刻意使用相同內容片段的替代版本。</li>
+<li>現在，Adobe Journey Optimizer存取Adobe Experience Manager內容的方式有了彈性。 此發行版本引進了針對您的歷程與行銷活動中使用的內容片段<strong>切換來源存放庫</strong>的功能。</li>
+<li>現在與<b>Managed Services</b>相容，您可以直接在Journey Optimizer中檢視、存取及使用Adobe Experience Manager內容片段，以進行個人化。 只需在組態設定中新增Adobe Experience Manager Managed Services存放庫URL，作為一次性設定即可。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC JIRA 任務連結</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA 任務連結</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +265,18 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager存放庫設定</strong><br/></th>
+<th><strong>AI助理與Adobe Experience Manager Asset Essentials整合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，Adobe Journey Optimizer存取Adobe Experience Manager內容的方式有了彈性。 此發行版本引進了針對您的歷程與行銷活動中使用的內容片段<strong>切換來源存放庫</strong>的功能。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA 任務連結</a></p>
+<p>AI助理現在會在產生電子郵件、網頁和推播通知時，直接從您的Adobe Experience Manager Assets自動擷取<b>品牌核准的影像</b>。 如此一來，您就不需要手動搜尋Assets或仰賴一般AI遞補功能，確保每個視覺效果都完全正確且符合品牌規範。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA 任務連結</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* **原生Adobe Experience Manager內容片段(Managed Services)整合** — 現在與&#x200B;**Managed Services**&#x200B;相容，您可以直接在Journey Optimizer中檢視、存取及使用Adobe Experience Manager內容片段，以進行個人化。只需在組態設定中新增Adobe Experience Manager Managed Services存放庫URL，作為一次性設定即可。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">連結到DOCAC JIRA工作</a>
-
-* **AI助理與Adobe Experience Manager Asset Essentials整合** - AI助理現在會在產生電子郵件、網頁和推播通知時，直接從您的Adobe Experience Manager Assets自動擷取&#x200B;**品牌核准的影像**。如此一來，您就不需要手動搜尋Assets或仰賴一般AI遞補功能，確保每個視覺效果都完全正確且符合品牌規範。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">連結到DOCAC JIRA工作</a>
 
 ### 自訂通道 {#june-26-channels}
 
