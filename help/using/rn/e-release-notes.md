@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
+source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
 workflow-type: tm+mt
 source-wordcount: 1706
 ht-degree: 7%
@@ -269,4 +269,3 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 此版本即將推出下列可用性改善。
 
 * **歷程與行銷活動的資料夾** — 您現在可以將歷程與行銷活動整理到&#x200B;**資料夾**，以改善介面中的導覽和管理。
-
