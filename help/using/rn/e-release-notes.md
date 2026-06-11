@@ -6,15 +6,10 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +149,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會變更**
 
 <table>
 <thead>
@@ -239,7 +234,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **電子郵件和簡訊報告的預估點按次數** — 歷程、行銷活動和頻道報告中現在提供新的&#x200B;**預估點按次數**&#x200B;量度，以用於電子郵件和簡訊。 此量度不包括已識別的機器人和非人類互動(NHI)流量，以提供更清楚的真實客戶參與檢視。 現有的點按次數量度仍可使用，並繼續報告總點按次數。
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會變更**
 
 * **新的電子郵件和簡訊報告的預估點按量度** — 為了更準確地檢視實際客戶參與度，現在可以在歷程、行銷活動和頻道報告中使用新的預估量度。 這些量度有助於從報表資料中篩選掉非人類互動(NHI)和機器人點按：
 
@@ -256,7 +251,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 * **從串流模式移至批次模式的資料集** - AJO訊息回饋事件資料集正在從串流模式轉換為&#x200B;**批次擷取模式**。 這項變更可確保資料擷取不超過串流擷取限制。 如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會變更**
 
 * **Web應用程式防火牆(WAF) IP白名單** - Adobe Journey Optimizer現在支援登陸頁面的Web應用程式防火牆(WAF) IP白名單，可讓組織強制所有傳入要求都透過其設定的WAF基礎架構專門路由。 透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過WAF層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。 此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其AJO託管登陸頁面的流量。
 
