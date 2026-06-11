@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
 workflow-type: tm+mt
-source-wordcount: 1660
-ht-degree: 6%
+source-wordcount: 1815
+ht-degree: 5%
 
 ---
 
@@ -96,6 +91,13 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
+* **動態優惠屬性** - Decisioning中的優惠屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。
+
+* **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 提供兩種模式：
+
+   * 位置專用上限：定義上限值，此上限值僅在優惠方案顯示在所選位置時適用。
+   * 每次刊登的上限：將上限獨立套用至選件出現的每個刊登版位，讓每個刊登版位維持其專屬的上限計數器。
+
 ### 電子郵件 {#june-26-email}
 
 此版本的電子郵件頻道即將提供下列功能和改善。
@@ -145,6 +147,8 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
+* **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
+
 +++ 即將推出 — **下列資訊可能會變更。**
 
 <table>
@@ -156,7 +160,8 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tbody>
 <tr>
 <td>
-<p>電子郵件Designer現在包含現成可用的版面元件庫 — 例如頁首、產品卡（1、2或3欄）、資訊區塊和頁尾 — 您可以將這些元件直接拖放到電子郵件畫布中。 每個元件都預先設定了可編輯的屬性（影像、標題、文字、按鈕、連結），並可透過WYSIWYG介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
+<p>電子郵件Designer現在包含現成可用的版面模組（例如頁首、產品卡、資訊區塊和頁尾）資料庫，您可以將這些模組直接拖放到電子郵件畫布中。</p>
+<p>每個模組都預先設定了可編輯的屬性（影像、標題、文字、按鈕、連結），並可透過WYSIWYG介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
 <p>推出日期： 2026年6月22日</p>
 </td>
 </tr>
