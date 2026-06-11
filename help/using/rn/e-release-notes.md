@@ -7,9 +7,14 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
 source-wordcount: 1658
@@ -38,7 +43,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **提高即時歷程限制與新護欄** — 您現在最多可以有&#x200B;**200個使用中歷程**，比先前的100個限制有所增加。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">連結到DOCAC JIRA工作</a>
 
-* **歷程標題中的開始和結束日期** — 當即時歷程設定開始和/或結束日期時，它們現在會出現在即時狀態徽章旁邊的&#x200B;**歷程標題**中。顯示的標籤會根據每個日期是近期到來或已過去而調整。
+* **歷程標題中的開始和結束日期** — 當即時歷程設定開始和/或結束日期時，它們現在會出現在即時狀態徽章旁邊的&#x200B;**歷程標題**&#x200B;中。顯示的標籤會根據每個日期是近期到來或已過去而調整。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">連結到DOCAC JIRA工作</a>
 
 * **直接停止或關閉暫停的歷程** — 您現在可以&#x200B;**直接從**&#x200B;暫停&#x200B;**狀態停止歷程或將其關閉到新入口**。之前，暫停的歷程必須恢復為上線，然後才能停止或關閉。
@@ -191,10 +196,10 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 此版本即將對行動裝置傳訊功能進行下列改進。
 
-* **SMS報告的不重複點按** — 新的&#x200B;**不重複點按**模組已引入SMS報告，對目前可用於電子郵件報告的SMS提供相同層級的精細效能追蹤。
+* **SMS報告的不重複點按** — 新的&#x200B;**不重複點按**&#x200B;模組已引入SMS報告，對目前可用於電子郵件報告的SMS提供相同層級的精細效能追蹤。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14895">連結到DOCAC JIRA工作</a>
 
-* **LINE Channel — 編寫變更** - LINE Channel UI已升級為進階訊息編寫功能。此發行版本引入對&#x200B;**多種訊息格式**的支援，包括文字、影像、影像地圖、轉盤和Flex （JSON編輯器），以及即時裝置預覽。使用者現在可以管理最多五個已排序訊息的群組訊息（包含新增、移除和重新排序控制項），並利用整合的個人化編輯器進行驗證的動態傳訊。
+* **LINE Channel — 編寫變更** - LINE Channel UI已升級為進階訊息編寫功能。此發行版本引入對&#x200B;**多種訊息格式**&#x200B;的支援，包括文字、影像、影像地圖、轉盤和Flex （JSON編輯器），以及即時裝置預覽。使用者現在可以管理最多五個已排序訊息的群組訊息（包含新增、移除和重新排序控制項），並利用整合的個人化編輯器進行驗證的動態傳訊。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">連結到DOCAC JIRA工作</a>
 
 * **簡訊 — 顯示使用量度** — 針對直接透過Adobe Journey Optimizer購買簡訊的客戶，已引入新的&#x200B;**簡訊使用儀表板**。您現在可以檢視及追蹤最近90天的訊息傳送量度，並依「行動原始」(MO)和「行動已終止」(MT)訊息進行分類。此資料也可透過CSV下載，讓您更清楚掌握和控制簡訊支出。
