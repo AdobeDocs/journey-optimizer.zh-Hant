@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +91,9 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-### 管道 {#june-26-channels}
-
-此發行版本引進了以下功能。
-
-<table>
-<thead>
-<tr>
-<th><strong>自訂傳出頻道</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer現在推出<strong>自訂頻道</strong>，這項新功能可讓管理員透過無程式碼頻道產生器，將任何外寄HTTP式訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p>
-<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。 這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專屬的內容製作。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 電子郵件 {#june-26-email}
 
 此版本的電子郵件頻道即將提供下列功能和改善。
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +120,45 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tr>
 <td>
 <p>這個新選項可讓您<strong>減少電子郵件中HTML</strong>的大小（移除不必要的空白字元、註解及多餘的程式碼），而不變更電子郵件的外觀。 這有助於改善傳遞能力（有些電子郵件提供者會拒絕或標幟超大電子郵件），並可加快收件者的載入時間。</p>
-<p>推出日期： 2026年6月10日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **片段可編輯欄位中的RTF文字** — 您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。
+<table>
+<thead>
+<tr>
+<th><strong>片段可編輯欄位中的RTF文字</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。 例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ 即將推出 — **下列資訊可能會變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件Designer中的模組</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件Designer現在包含現成可用的版面元件庫 — 例如頁首、產品卡（1、2或3欄）、資訊區塊和頁尾 — 您可以將這些元件直接拖放到電子郵件畫布中。 每個元件都預先設定了可編輯的屬性（影像、標題、文字、按鈕、連結），並可透過WYSIWYG介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
+<p>推出日期： 2026年6月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### 行動裝置訊息（SMS、MMS、RCS和LINE） {#june-26-mobile}
 
