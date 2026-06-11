@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
+source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 9%
+source-wordcount: 1658
+ht-degree: 10%
 
 ---
 
@@ -49,8 +49,10 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **直接停止或關閉暫停的歷程** — 您現在可以&#x200B;**直接從**&#x200B;暫停&#x200B;**狀態停止歷程或將其關閉到新入口**。之前，暫停的歷程必須恢復為上線，然後才能停止或關閉。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">連結到DOCAC JIRA工作</a>
 
-* **外部對象的補充識別碼支援** — 歷程中的補充識別碼現在支援外部對象，包括從CSV檔案匯入的對象和使用Federated Audience Composition建立的對象。您可以從對象中指定任何非身分屬性或非個人身分屬性作為補充ID，不需要架構標籤。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">連結到DOCAC JIRA工作</a>
+<!--
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
+-->
 
 ### 協調的行銷活動 {#june-26-oc}
 
@@ -79,8 +81,10 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 * **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化&#x200B;**電子郵件標題欄位**，包括寄件者名稱、寄件者地址和回覆對象。如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">連結到DOCAC JIRA工作</a>
 
-* **協調行銷活動中的目標維度簡化** — 作用中的&#x200B;**目標維度**&#x200B;現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">連結到DOCAC JIRA工作</a>
+<!--
+* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
+-->
 
 ### 決策 {#june-26-decisioning}
 
