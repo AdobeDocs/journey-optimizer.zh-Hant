@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
+source-git-commit: b7554a029037a3e5d31b824b6b36343daa6728e9
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,7 +169,7 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* [!BADGE 重要]{type=Informative} **AJO訊息回饋事件資料集正移至批次擷取** - **AJO訊息回饋事件資料集**&#x200B;正從串流擷取移至批次擷取。 因此，此資料集的資料延遲時間預計會長達2小時。 如果您在Customer Journey Analytics中建立報表，或使用此資料集執行查詢，請解決未來延遲增加的問題。 [閱讀更多](../data/get-started-datasets.md)
+* [!BADGE 重要]{type=Informative} **AJO訊息回饋事件資料集正移至批次擷取** - **AJO訊息回饋事件資料集**&#x200B;正從串流擷取移至批次擷取。 因此，此資料集的資料延遲時間預計會長達2小時。 如果您在Customer Journey Analytics中建立報表，或使用此資料集執行查詢，請解決未來延遲增加的問題。 [閱讀更多](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   推出日期： 2026年6月10日
 
