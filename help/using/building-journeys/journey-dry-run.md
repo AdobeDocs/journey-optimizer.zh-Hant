@@ -10,12 +10,28 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
 source-wordcount: 1377
@@ -65,7 +81,7 @@ Journey Dirun提供：
 
   ![在試執行歷程中灰色的動作活動](assets/dry-run-greyed-activities.png){width="80%"}
 
-* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式](#journey-dry-run-start)時，您可以變更此行為[。
+* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[&#128279;](#journey-dry-run-start)時，您可以變更此行為。
 
 * **回應**&#x200B;節點未執行：進入它的所有設定檔都將成功結束。 但是，下列優先順序規則適用：
 
@@ -122,7 +138,7 @@ Journey Dirun提供：
 也可以手動停止練習歷程。 若要停用「試執行」模式，請執行下列步驟：
 
 1. 開啟您要停止的練習歷程。
-1. 選取&#x200B;**[!UICONTROL 關閉]**按鈕以結束測試。
+1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以結束測試。
 確認畫面中提供過去24小時與所有時間報表的連結。
 
    ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%"}
@@ -136,8 +152,8 @@ Journey Dirun提供：
 * 處於試執行模式的歷程計入即時歷程配額
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在練習中未啟用&#x200B;**跳轉**動作。
-當來源歷程觸發到目的地歷程的**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。舉例來說，如果歷程的最新版本為模擬執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略模擬執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+* 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。
+當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。舉例來說，如果歷程的最新版本為模擬執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略模擬執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 
