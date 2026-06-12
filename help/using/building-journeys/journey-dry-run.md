@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -168,6 +168,40 @@ Journey Dirun提供：
 如果您將stepEvent資料匯出至&#x200B;**外部系統**，則可以使用`inDryRun`標幟來篩選試執行專案。
 
 使用[!DNL Adobe Experience Platform]查詢服務分析&#x200B;**歷程報告量度**&#x200B;時，必須排除練習產生的步驟事件。 若要這麼做，請排除`inDryRun`為`true`的步驟事件（亦即僅包含`inDryRun`為`null`或`false`的事件）。
+
+## 常見問題 {#faq}
+
+**試執行是否傳送訊息給真實客戶？**
+
+沒有。 練習使用真實的生產資料，但不聯絡設定檔或更新設定檔資訊。 管道動作（電子郵件、簡訊、推播）未執行，自訂動作已停用，其回應設為`null`。
+
+**我需要什麼許可權才能開始或停止試用？**
+
+開始試執行需要&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權。 停止試執行需要&#x200B;**[!DNL Manage journeys]**&#x200B;高階許可權。 在[許可權區段](../administration/permissions-overview.md)中瞭解更多。
+
+**我可以在哪些歷程上執行「試用」？**
+
+您可以在任何沒有錯誤的&#x200B;**[!UICONTROL 草稿]**&#x200B;歷程上使用試執行。
+
+**練習會持續多久？**
+
+14天後，練習歷程會自動轉換回&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態。 您也可以隨時手動停止試執行。
+
+**在試用期間是否執行等待活動和外部資料來源？**
+
+根據預設，**等待**&#x200B;活動和&#x200B;**資料來源** （包括外部資料來源）在試執行期間已停用。 您可以在[啟用試執行模式](#journey-dry-run-start)時變更此行為。
+
+**試執行設定檔和歷程是否計入我的配額？**
+
+有。 處於試執行模式的設定檔會計入[可參與的設定檔](../audience/license-usage.md)，而處於試執行模式的歷程會計入即時歷程配額。 不過，練習歷程不會影響商業規則。
+
+**我是否仍可在停止測試後存取試執行報告？**
+
+沒有。 報告資料僅在試執行為&#x200B;**作用中**&#x200B;時可用。 停止後，將無法再存取資料 — 如有需要，請使用報表上方的&#x200B;**匯出**&#x200B;按鈕預先下載。
+
+**如何從我的報告中排除試執行資料？**
+
+試執行產生標示有`inDryRun`和`dryRunID`的&#x200B;**stepEvents**。 使用[!DNL Adobe Experience Platform]查詢服務分析歷程報告量度時，排除`inDryRun`為`true`的步驟事件（僅包括`inDryRun`為`null`或`false`的事件）。
 
 ## 作法影片 {#dry-run-video}
 
