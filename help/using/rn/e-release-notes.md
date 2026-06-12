@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +218,27 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <tr>
 <td>
 <p>AI助理現在會在產生電子郵件、網頁和推播通知時，直接從您的Adobe Experience Manager Assets自動擷取<b>品牌核准的影像</b>。 如此一來，您就不需要手動搜尋Assets或仰賴一般AI遞補功能，確保每個視覺效果都完全正確且符合品牌規範。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>用於內容產生增強功能的AI助理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此版本透過更強大的影像編輯、更可靠的品牌擷取以及影像流程中的內容真實性支援，改善了<strong>AI助理</strong>內容產生體驗：</p>
+<ul>
+<li><strong>AI影像編輯</strong>現在可用於影像產生流程，包括Firefly第三方模型支援，因此您無需離開助理即可調整來源影像。</li>
+<li><strong>品牌訊號擷取</strong>可提供更高品質的結果。 選取的頁面訊號不足時，改良的遞補功能現在會填入顏色、印刷樣式、撰寫准則和其他品牌屬性。</li>
+<li><strong>網頁式品牌擷取</strong>比較可靠。 改善逾時處理功能，有助於防止緩慢頁面、快顯視窗和Cookie橫幅封鎖擷取。</li>
+<li>影像流程現在支援<strong>內容真實性(CAI)</strong>。 此版本也修正了參考影像上傳問題，並改善對沒有現有C2PA資訊清單之影像的處理。</li>
+</ul>
 </td>
 </tr>
 </tbody>
