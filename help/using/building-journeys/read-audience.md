@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 6%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 6%
 
 除了設定檔識別碼之外，您可以選擇啟用&#x200B;**使用補充識別碼**，在次要識別碼（例如訂單ID或預訂ID）的內容中執行歷程。 當補充識別碼不同時，這允許同一設定檔的多個入口。
 
-[瞭解如何在歷程中使用補充識別碼](supplemental-identifier.md)。 對於讀取對象歷程，補充識別碼必須是設定檔屬性；使用補充識別碼時，讀取率限製為每秒500個設定檔。
+[瞭解如何在歷程中使用補充識別碼](supplemental-identifier.md)。 對於讀取對象歷程，補充識別碼是從&#x200B;**整合設定檔服務**&#x200B;對象的&#x200B;**聯合/設定檔結構描述**&#x200B;準備的，或是從&#x200B;**外部對象**&#x200B;的合格屬性中選取的（例如，從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}匯入的對象或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象）。 使用補充ID時，每個歷程執行個體的讀取率限製為每秒500個設定檔。
 
 ### 護欄和推薦 {#must-read}
 
