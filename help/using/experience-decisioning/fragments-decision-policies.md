@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1177
 ht-degree: 1%
 
 ---
@@ -163,6 +163,8 @@ ht-degree: 1%
 
 在個人化編輯器中，與原則選取的決策專案相關聯的所有AEM內容片段都可供使用。 每個片段索引鍵名稱都會顯示一個資料夾。
 
+➡️ [探索如何在影片中搭配Journey Optimizer Decisioning使用AEM內容片段](#video)
+
 在此範例中，決定原則包含兩個決定專案，這些決定專案有AEM片段透過其參考名稱繫結至它們。
 
 ![](assets/aem-fragment-select.png)
@@ -176,3 +178,9 @@ ht-degree: 1%
    ![](assets/aem-fragment-attribute.png)
 
 1. 在啟用行銷活動或歷程之前，請使用模擬方法來預覽AEM內容片段欄位值將如何呈現：按一下「模擬內容」**[!UICONTROL 以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用特定測試設定檔預覽。**&#x200B;**&#x200B;**&#x200B;[進一步瞭解模擬內容](../content-management/preview-test.md)
+
+## 作法影片 {#video}
+
+瞭解如何使用Adobe Experience Manager內容片段搭配Journey Optimizer Decisioning來個人化和最佳化內容。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492224/?captions=chi_hant&learn=on&enablevpops)
