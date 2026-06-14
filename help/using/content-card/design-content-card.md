@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # 設計內容卡內容 {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設計並個人化您的內容卡片版面、文字、媒體、按鈕和解除行為，以便您可以向對象傳遞吸引人的品牌訊息。
+
+>[!ENDSHADEBOX]
 
 卡片的製作結構提供表單式製作體驗，為行銷人員提供開發人員可轉譯的基本輸入。
 

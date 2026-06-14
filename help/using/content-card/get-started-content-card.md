@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # 開始使用內容卡 {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;內容卡會直接在您的行動應用程式和網站中傳送個人化、非侵入式訊息，在內容中吸引使用者，而不會中斷他們的工作。
+
+>[!ENDSHADEBOX]
 
 內容卡是 Adobe Journey Optimizer 新的數位傳訊功能，可直接在行動應用程式和網站提供個人化且吸引人的內容。 與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。
 
@@ -46,7 +52,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-content-card.md">
-<img alt="不常使用" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="不頻繁" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
 <a href="create-content-card.md"><strong>建立內容卡</strong></a>

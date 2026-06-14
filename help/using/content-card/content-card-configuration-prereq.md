@@ -12,21 +12,27 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: 338
 ht-degree: 9%
 
 ---
 
 # 內容卡的先決條件 {#content-card-configuration-prereq}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定必要的Adobe Experience Platform設定，讓Adobe Journey Optimizer能夠正確傳送內容卡片並製作報告。
+
+>[!ENDSHADEBOX]
+
 若要讓Adobe Journey Optimizer正確顯示內容卡，您必須設定下列Adobe Experience Platform設定：
 
 * **Adobe Experience Platform資料彙集**
 
-  [建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#aep){target="_blank"}。 啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。 這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
-將&#x200B;**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，以將此資料納入您的報表。 [進一步瞭解資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}
+  [建立資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}並[新增Experience Platform服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#aep){target="_blank"}。啟用&#x200B;**[!UICONTROL Edge分段]**&#x200B;和&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。這可確保Journey Optimizer事件由Adobe Experience Platform Edge Network處理。
+將&#x200B;**體驗事件 — 主張互動**&#x200B;欄位群組新增至您的資料集，將此資料納入您的報表。[進一步瞭解資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

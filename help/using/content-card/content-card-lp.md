@@ -12,14 +12,20 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: 285
 ht-degree: 4%
 
 ---
 
 # 在 Mobile SDK 中設定內容卡支援 {#content-card-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用Adobe Experience Platform Mobile SDK將內容卡片整合至您的行動應用程式，以便擷取、演算及追蹤內容卡，獲得準確的報告。
+
+>[!ENDSHADEBOX]
 
 內容卡可從Adobe Journey Optimizer擷取，並在您的行動應用程式中使用Adobe Experience Platform Mobile SDK呈現，以支援行動應用程式中的端對端參與。 傳訊SDK提供簡單易用的API來擷取在Adobe Journey Optimizer上建立的內容卡片，並為這些卡片建置原生行動檢視，可供您的應用程式輕鬆使用或自訂以符合您的應用程式主題。 它也會自動追蹤所有應用程式使用者與所顯示內容卡片的互動，以確保在Journey Optimizer上正確報告行銷活動。
 

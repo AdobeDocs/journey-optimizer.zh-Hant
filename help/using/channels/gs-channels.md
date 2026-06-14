@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # 開始使用[!DNL Adobe Journey Optimizer]管道 {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：** Adobe Journey Optimizer的原生頻道可讓您在對外傳遞和傳入體驗中觸及客戶 — 比較電子郵件、SMS、推播、即時活動、直接郵件、WhatsApp、LINE、應用程式內、Web、程式碼型和內容卡，以檢視每個在歷程和行銷活動中受支援的位置。
+
+>[!ENDSHADEBOX]
 
 在現今多變的行銷格局中，建立持久人際關係及促進參與度的關鍵在於透過各種平台有效觸及客群。 本節提供 [!DNL Adobe Journey Optimizer] 中可用通訊管道的完整概觀，協助您了解如何在行銷策略中有效利用每個管道。
 

@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1785
 ht-degree: 10%
 
 ---
 
 # 建立內容卡 {#create-content-card}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;撰寫內容卡片，並在歷程或行銷活動中定義其內容，以便您可以使用您選擇的傳遞規則提供個人化的應用程式內體驗。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"

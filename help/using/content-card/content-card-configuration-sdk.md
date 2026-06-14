@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # 在 Web SDK 中設定內容卡支援 {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定並執行使用Adobe Experience Platform Web SDK擷取及轉譯內容卡的範例，以便在您的網頁上提供使用者端個人化內容。
+
+>[!ENDSHADEBOX]
 
 此範例示範如何使用Adobe Experience Platform從Adobe Journey Optimizer (AJO)擷取內容卡片。 藉由運用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home)，個人化內容完全在使用者端擷取及呈現。
 
