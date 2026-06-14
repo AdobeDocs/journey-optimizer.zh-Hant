@@ -9,26 +9,26 @@ role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
 TQID: https://experienceleague.adobe.com/LhxU-3DQ-FDIENfVtadz5nURxZideeUFE9K5MciA93w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 6%
+source-wordcount: 689
+ht-degree: 5%
 
 ---
 
 # 監視自訂動作 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;監視您歷程對協力廠商系統發出之API呼叫的可靠性和效能，以便快速找出整合問題、延遲和節流限制。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
@@ -77,7 +77,7 @@ ht-degree: 6%
 
 ![](assets/monitor-3.png)
 
-**[!UICONTROL 一段時間內的呼叫]**&#x200B;圖表顯示報告所選時段內的HTTP呼叫KPI趨勢。 時間序列的詳細程度取決於所選的時間範圍。 例如：
+**[!UICONTROL 一段時間內的呼叫]**&#x200B;圖表顯示報告所選時段內的HTTP呼叫KPI趨勢。 時間序列的詳細程度取決於所選的時間範圍。 例如:
 
 * 對於7天報表，每個資料點都會顯示一天的KPI。
 * 如果您選取1天時間範圍，圖表會顯示每小時的KPI。
@@ -116,6 +116,6 @@ ht-degree: 6%
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3479552?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

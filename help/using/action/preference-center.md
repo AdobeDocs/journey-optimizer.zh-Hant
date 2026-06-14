@@ -10,32 +10,25 @@ level: Experienced
 keywords: 原則，治理，平台，同意， healthcare shield
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 911
 ht-degree: 10%
 
 ---
 
 # 管理客戶的偏好設定 {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;透過同意原則來記錄並尊重客戶的頻道和主題偏好設定，以便只將目標鎖定在想要收到您訊息的人。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +36,7 @@ ht-degree: 10%
 
 在現代行銷自動化生態系統中，品牌與各個接觸點的客戶互動，面對不相關或過度通訊、導致脫離、垃圾郵件投訴和合規風險的風險。 這就是為什麼他們需要管理客戶的偏好設定，以便獲得對受眾的即時見解，並提供個人化、尊重的溝通。
 
-透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。 這可確保[!DNL Journey Optimizer]僅根據客戶的選擇來鎖定客戶，同時尊重他們的同意。
+透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。這可確保[!DNL Journey Optimizer]僅根據客戶的選擇來鎖定客戶，同時尊重他們的同意。
 <!-- their preferred channels and on the subscription topics-->
 
 若要使用[!DNL Journey Optimizer]管理您的使用者偏好設定，您可以：
@@ -58,7 +51,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->同意優先於偏好設定。 例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們。
+>同意優先於偏好設定。例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們。
 <!-- on yoga-->
 
 ## 記錄與執行喜好設定 {#manage-preferences}
@@ -79,13 +72,13 @@ ht-degree: 10%
    >
    >客戶同意和聯絡人偏好設定是複雜的主題。 若要瞭解如何在[!DNL Experience Platform]中收集、處理和篩選同意與內容偏好設定，建議您閱讀下列檔案：
    >
-   >* 若要瞭解收集同意資料所需的結構描述欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 其中會詳細說明如何處理您從客戶收集的同意資料，並將其整合至您儲存的客戶設定檔中。
-   >* 若要進一步瞭解[同意與偏好設定]欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
-   >* 若要將自訂偏好設定欄位新增到結構描述，請依照[此區段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步驟操作。
+   >* 若要瞭解收集同意資料所需的結構描述欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}。 其中會詳細說明如何處理您從客戶收集的同意資料，並將其整合至您儲存的客戶設定檔中。
+   >* 若要進一步瞭解[同意與偏好設定]欄位群組，請參閱[此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}。
+   >* 若要將自訂偏好設定欄位新增到結構描述，請依照[此區段](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}中的步驟操作。
 
 1. 建立頁面以擷取您客戶的偏好設定。 請使用下列其中一種方法：
 
-   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/home){target="_blank"}建立網頁以記錄客戶的偏好設定。
+   * 使用[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}建立網頁以記錄客戶的偏好設定。
 
    * 使用包含表單的[!DNL Journey Optimizer] [登陸頁面](../landing-pages/create-lp.md)，透過設定檔資料擷取客戶的偏好設定。  [進一步瞭解表單](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -135,15 +128,15 @@ Consent policies are comprised of two logical components:
 
     例如，若要只傳送通訊給未選擇不接收電子郵件電子報的客戶，請建立自訂原則並定義下列條件： 
     
-    *如果&#x200B;**[!UICONTROL 行銷動作]**&#x200B;等於&#x200B;**[!UICONTROL 電子郵件]**
+    *如果**[!UICONTROL 行銷動作]**等於**[!UICONTROL 電子郵件]**
     
-    *則&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不存在&#x200B;**[!UICONTROL false]**&#x200B;或&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;不等於&#x200B;**[!UICONTROL false]**
+    *則**[!UICONTROL Newsletter_Email]**不存在**[!UICONTROL false]**或**[!UICONTROL Newsletter_Email]**不等於**[!UICONTROL false]**
     
     ！[]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[！TIP]
     >
-    >啟用配置檔案的資料集必須包含配置檔案屬性&#x200B;**[!UICONTROL Newsletter_Email]**，其值設定為「true」（如步驟1中所述）
+    >啟用配置檔案的資料集必須包含配置檔案屬性**[!UICONTROL Newsletter_Email]**，其值設定為「true」（如步驟1中所述）
 
 1. 建立同意原則後，請使用[通道設定](consent.md#surface-marketing-actions)或[歷程自訂動作](consent.md#journey-custom-actions)，在[!DNL Journey Optimizer]中運用它。
 

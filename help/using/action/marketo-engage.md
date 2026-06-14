@@ -10,31 +10,26 @@ level: Intermediate
 keywords: marketo， marketo engage整合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: 352
 ht-degree: 3%
 
 ---
 
 # 與 Marketo Engage 整合 {#integrating-with-marketo-engage}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定並使用Marketo Engage自訂動作，以便您將歷程中的人員和自訂物件資料同步到Marketo Engage中。
+
+>[!ENDSHADEBOX]
 
 開始與Marketo Engage無縫資料整合的歷程。 您可在整合Adobe Journey Optimizer和Marketo Engage的歷程中使用特定的自訂動作。 此自訂動作支援擷取兩種關鍵資料型別：
 
@@ -67,7 +62,7 @@ ht-degree: 3%
 
    ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
-1. 在[欄位]設定畫面中按一下[儲存]。**&#x200B;**，然後按一下[儲存]。**&#x200B;**&#x200B;您的自訂動作。
+1. 在[欄位]設定畫面中按一下[儲存]。****，然後按一下[儲存]。****&#x200B;您的自訂動作。
 
 您現在可以在歷程畫布上使用自訂動作。
 
