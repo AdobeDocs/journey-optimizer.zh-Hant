@@ -5,30 +5,26 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 TQID: https://experienceleague.adobe.com/vx-CmsYwj7QyN2sVMrpJ9VUNDgnXq8qt1nT9lHOFV3s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # 衝突管理與優先順序 {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解衝突偵測、優先順序分數和規則集如何共同運作，以避免重疊的通訊，並控制傳送訊息給客戶的頻率。
+
+>[!ENDSHADEBOX]
 
 在 Journey Optimizer 中，務必要管理行銷活動和歷程的流量和時間，才能避免過多的互動給客戶帶來負擔。 衝突管理和優先順序工具可防止客戶疲勞並確保將正確的訊息傳達給您的客群，協助您提供周到且適時進行的通訊。 透過使用衝突偵測、優先順序分數和規則集，您可以簡化行銷活動和歷程，以避免跨管道重疊和平衡頻率。
 

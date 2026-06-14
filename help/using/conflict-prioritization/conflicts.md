@@ -5,27 +5,26 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 TQID: https://experienceleague.adobe.com/aHKVhTvmIDcKAshlobAfBBOt8XtpA-cFWdHJxLfovQo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 781
 ht-degree: 16%
 
 ---
 
 # 偵測歷程與行銷活動中的潛在衝突 {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在歷程和行銷活動上線之前發現重疊之處，這樣您就可以避免一次用太多通訊轟炸客戶。
+
+>[!ENDSHADEBOX]
 
 隨著行銷人員在Journey Optimizer中增加行銷活動和歷程的數量，行銷人員越來越難以知道他們是否透過過多的行銷互動轟炸其客戶。 因此，必須輕鬆識別何時有重疊的行銷活動和歷程，以確保在行銷通訊之間取得正確的平衡，同時降低客戶疲勞的風險。
 

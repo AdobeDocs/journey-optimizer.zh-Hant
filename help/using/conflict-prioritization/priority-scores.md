@@ -5,25 +5,25 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 TQID: https://experienceleague.adobe.com/An8xmTbO8yWDFizK1B8uvSFkr0t6e9a59ntUoLqhosw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 35%
+source-wordcount: 643
+ht-degree: 34%
 
 ---
 
 # 指派優先順序分數 {#priority}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將優先順序分數指派給歷程、行銷活動和輸入動作，以便您能夠在設定檔符合多個設定檔的資格時，控制哪個通訊優先。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer可讓您將優先順序分數指派給歷程、行銷活動或歷程&#x200B;**[!UICONTROL 動作]**&#x200B;活動中的傳入頻道動作。
 
@@ -84,4 +84,4 @@ Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445012?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

@@ -5,28 +5,26 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 TQID: https://experienceleague.adobe.com/8QpErWykIh4UPZIZpe43QS2RDkjgWdvrOMK52At3tWM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 993
 ht-degree: 18%
 
 ---
 
 # 歷程上限與仲裁 {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;限制設定檔可以一次輸入或註冊多少歷程，以便防止通訊超載，並排定最重要的歷程的優先順序。
+
+>[!ENDSHADEBOX]
 
 歷程上限可幫助您限制設定檔可註冊的歷程次數，防止通訊過載。 在Journey Optimizer中，您可以設定兩種型別的上限規則：
 
@@ -130,8 +128,8 @@ ht-degree: 18%
 
 ![](assets/journey-report.png)
 
-此外，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 查詢範例，包括捨棄子原因（`CAP_REACHED`或`LOWER_PRIORITY`），可在[此區段](../reports/query-examples.md#business-rules-queries)中使用。
+此外，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來建立查詢，以識別導致設定檔無法進入指定歷程的規則。 查詢範例，包括捨棄子原因（`CAP_REACHED`或`LOWER_PRIORITY`），可在[此區段](../reports/query-examples.md#business-rules-queries)中使用。
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447626?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

@@ -7,18 +7,22 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: 686
 ht-degree: 5%
 
 ---
 
 # 使用AI模型來排名歷程 {#journey-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立動態排名歷程的AI模型，以便在套用歷程專案上限時，為每個設定檔選取表現最佳的歷程。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -60,7 +64,7 @@ Do you need specific permissions to create AI models?
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. 在&#x200B;**[!UICONTROL 最佳化量度]**&#x200B;區段中，來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
+1. 在&#x200B;**[!UICONTROL 最佳化量度]**&#x200B;區段中，來自您的預設[!DNL Customer Journey Analytics] [資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}的所有量度都會顯示在清單中。 選取您想要最佳化模型的量度。
 
    ![最佳化量度下拉式清單，列出AI模型的Customer Journey Analytics量度](assets/journey-model-metrics.png){width="70%"}
 
@@ -69,7 +73,7 @@ Do you need specific permissions to create AI models?
    * **曝光事件** （顯示的專案）
    * **轉換事件** （導致點按或轉換的專案）
 
-   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)概觀。
+   系統會使用Web SDK或Mobile SDK自動擷取這些事件。 進一步瞭解[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)概觀。
 
 1. 選取轉換和曝光事件收集所在的資料集。 在[本節](../experience-decisioning/data-collection/create-dataset.md)中瞭解如何建立這類資料集。
 
@@ -79,7 +83,7 @@ Do you need specific permissions to create AI models?
    >
    >下拉式清單中只會顯示從與&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組相關聯的結構描述建立的資料集。 您最多可以選取5個資料集。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
 
    >[!NOTE]
    >

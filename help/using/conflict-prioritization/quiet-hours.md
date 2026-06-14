@@ -10,29 +10,26 @@ level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
 TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5ZZ5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # 設定勿打擾時間 {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義電子郵件、簡訊、推播和WhatsApp的時間型排除專案，以避免在錯誤的時間傳送訊息給客戶，並尊重其偏好設定和合規性要求。
+
+>[!ENDSHADEBOX]
 
 ## 什麼是無訊息時數
 
@@ -206,4 +203,4 @@ ht-degree: 6%
 
 瞭解如何使用Adobe Journey Optimizer的安靜時間功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475863?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
