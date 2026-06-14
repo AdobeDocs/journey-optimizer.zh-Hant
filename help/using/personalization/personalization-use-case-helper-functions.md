@@ -10,27 +10,26 @@ level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Personalization使用案例：購物車放棄電子郵件 {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循購物車放棄使用案例，此案例使用upperCase、each及Adobe Journey Optimizer中的協助程式功能個人化電子郵件內文。
+
+>[!ENDSHADEBOX]
 
 在此範例中，您將個人化電子郵件內文。 此訊息會鎖定在購物車中保留商品，但尚未完成購買的客戶。
 
@@ -66,7 +65,7 @@ ht-degree: 2%
 1. 建立其結構描述包含`productListItems`陣列的事件。
 1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}中進一步瞭解產品清單專案資料型別。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中進一步瞭解產品清單專案資料型別。
 
 1. 建立從此事件開始的歷程。
 1. 將&#x200B;**電子郵件**&#x200B;活動新增至歷程。
@@ -119,7 +118,7 @@ ht-degree: 2%
 
       ![運算式編輯器顯示具有設定檔名字語彙基元的大寫](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hant){target="_blank"}中進一步瞭解人員名稱資料型別。
+      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中進一步瞭解人員名稱資料型別。
 
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -249,7 +248,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      具有if協助程式範本![&#128279;](assets/personalization-uc-helpers-12.png)的運算式編輯器
+      具有if協助程式範本](assets/personalization-uc-helpers-12.png)的![運算式編輯器
 
 1. 從運算式移除此條件：
 

@@ -9,18 +9,22 @@ role: Admin
 level: Intermediate
 keywords: 加密， URL，追蹤，登陸頁面，金鑰登入，個人化，安全性，隱私權，沙箱
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 701
 ht-degree: 1%
 
 ---
 
 # 加密URL引數 {#url-parameter-encryption}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何加密敏感的URL查詢引數，使個人識別資訊不會以純文字顯示，包括管理員如何在Adobe Journey Optimizer的沙箱機碼登入中建立、旋轉和撤銷機碼。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

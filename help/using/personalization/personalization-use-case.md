@@ -10,28 +10,26 @@ level: Intermediate
 keywords: 運算式、編輯器、使用案例、個人化
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 TQID: https://experienceleague.adobe.com/TzGxWPRUHz4Hf-Acni4-LjNTpAYTjZBBt-GMxlNXQHM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization使用案例：訂單狀態通知 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循結合設定檔、優惠決定和內容歷程資料的訂單狀態使用案例，以在Adobe Journey Optimizer中個人化推播通知。
+
+>[!ENDSHADEBOX]
 
 在此使用案例中，您將會瞭解如何在單一推播通知訊息中使用多種型別的個人化。 將使用三種型別的個人化：
 
@@ -101,7 +99,7 @@ ht-degree: 2%
 
    ![](assets/perso-uc14.png)
 
-1. 按一下驗證以確定沒有錯誤，然後按一下[儲存]。**&#x200B;**
+1. 按一下驗證以確定沒有錯誤，然後按一下[儲存]。****
 
    ![](assets/perso-uc15.png)
 
@@ -125,4 +123,4 @@ ht-degree: 2%
 
 以下影片顯示了一個類似的使用案例，運用歷程中的內容資料來個人化電子郵件。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428536?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

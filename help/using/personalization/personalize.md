@@ -9,19 +9,22 @@ role: Developer
 level: Beginner
 keywords: 運算式，編輯器，開始，個人化
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 23%
+source-wordcount: 710
+ht-degree: 22%
 
 ---
 
 # 開始使用個人化{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的個人化功能，包括個人化編輯器的運作方式、您可以使用的設定檔資料、學習遊樂場以及內嵌編輯。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
@@ -54,7 +57,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ![個人化遊樂場](assets/playground.png)
 
-➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## 個人化運算式的 AI 助理 {#ai-personalization-expressions}
 
@@ -100,7 +103,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 </td>
 <td>
 <a href="../personalization/functions/functions.md">
-<img alt="不常使用" src="assets/do-not-localize/functions.png">
+<img alt="不頻繁" src="assets/do-not-localize/functions.png">
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>協助程式函式清單</strong></a>
@@ -108,7 +111,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 <p></td>
 <td>
 <a href="../personalization/personalization-recipes.md">
-<img alt="不常使用" src="assets/do-not-localize/uc.png">
+<img alt="不頻繁" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-recipes.md"><strong>Personalization配方</strong></a>
@@ -116,7 +119,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 <p></td>
 <td>
 <a href="../personalization/personalization-use-case.md">
-<img alt="不常使用" src="assets/do-not-localize/uc.png">
+<img alt="不頻繁" src="assets/do-not-localize/uc.png">
 </a>
 <div>
 <a href="../personalization/personalization-use-case.md"><strong>Personalization使用案例</strong></a>
@@ -128,7 +131,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何使用歷程中的內容事件資訊來個人化訊息。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448153?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 了解如何將以輪廓為基礎的個人化新增至訊息，以及如何使用客群成員資格作為個人化區塊的先決條件。
 
@@ -136,6 +139,6 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 瞭解如何善用個人化編輯器遊樂場，使用範例資料來撰寫及測試個人化程式碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 在[Personalization教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中探索更多有關個人化功能和最佳實務的教學課程影片
