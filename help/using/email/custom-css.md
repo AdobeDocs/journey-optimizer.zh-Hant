@@ -10,31 +10,26 @@ level: Intermediate
 keywords: css，編輯器，摘要，電子郵件
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
 TQID: https://experienceleague.adobe.com/SaaK852gDVM0Me8lvrXmFJEgcs3cNJ97rBwByq7tKtk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 10%
+source-wordcount: 769
+ht-degree: 9%
 
 ---
 
 # 將自訂 CSS 新增至您的電子郵件內容 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中為您的電子郵件內容新增自訂CSS以取得進階樣式、如何保持CSS有效以及如何疑難排解未套用的樣式。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
@@ -69,7 +64,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >使用具有鎖定內容[&#128279;](../content-management/content-locking.md#use)的範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
+   >使用具有鎖定內容](../content-management/content-locking.md#use)的[範本時，您無法新增自訂CSS至您的內容。 按鈕標籤變更為&#x200B;**[!UICONTROL 檢視自訂CSS]**，而且內容中已存在的任何自訂CSS都是唯讀的。
 
 1. 儲存自訂CSS並確認自訂CSS已正確套用至您的內容。 如果不是這種情況，請檢視[疑難排解](#troubleshooting)區段。
 
@@ -254,7 +249,7 @@ body {
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 
-  +++ 例如：
+  +++ 例如:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
@@ -268,7 +263,7 @@ body {
 
    * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-     +++ 例如：
+     +++ 例如:
 
      ```css
      .acr-Form {

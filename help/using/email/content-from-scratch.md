@@ -10,32 +10,26 @@ level: Beginner, Intermediate
 keywords: 內容，編輯器，電子郵件，開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 TQID: https://experienceleague.adobe.com/mDgavy5F5CYnLmKBh84OSXFl-BHE82t-diUX6UXU27k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acfid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 51%
+source-wordcount: 773
+ht-degree: 49%
 
 ---
 
 # 使用電子郵件設計工具從頭開始設計內容 {#content-from-scratch}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer Email Designer中從頭開始設計電子郵件內容，方法是新增結構和內容元件，然後個人化和預覽您的電子郵件。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -148,4 +142,4 @@ ht-degree: 51%
 
 1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
 
-1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+1. 當您的內容準備就緒時，請按一下[儲存]。****

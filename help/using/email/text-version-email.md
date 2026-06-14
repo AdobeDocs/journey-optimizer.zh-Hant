@@ -11,14 +11,20 @@ keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 8%
 
 ---
 
 # 管理電子郵件的文字版本 {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用自動同步的電子郵件預設純文字版本或建立自訂版本，以及何時使用最有效的方式。
+
+>[!ENDSHADEBOX]
 
 建議建立電子郵件內文的文字版本，當 HTML 內容無法顯示時可使用。
 

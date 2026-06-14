@@ -10,15 +10,21 @@ level: Intermediate
 keywords: 深層連結，深層連結，通用連結，應用程式連結，電子郵件，簡訊
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # 在電子郵件和簡訊中使用及設定深層連結 {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件和簡訊內容中編寫深層連結、在Adobe Journey Optimizer中設定這些連結，以及處理iOS和Android應用程式中的追蹤連結，讓收件者進入正確的應用程式內畫面。
+
+>[!ENDSHADEBOX]
 
 深層連結可協助您將收件者從電子郵件或簡訊訊息帶至行動應用程式中的特定畫面或內容片段。 它有助於引導人們直接使用預期的應用程式內體驗，而不需透過網頁瀏覽器或應用程式商店路由，讓歷程保持在相關性和品牌上。
 
@@ -81,7 +87,7 @@ ht-degree: 1%
 
 1. 在您的子網域上託管iOS的AASA檔案和Android的assetLinks.json檔案。 請聯絡[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}或您的Adobe代表，並提供下列詳細資料：
 
-   * 針對iOS (AASA)**&#x200B;**：
+   * 針對iOS (AASA)****：
       * 委派的子網域
       * 應用程式套件組合ID
    * **若為Android (assetLinks.json)**：

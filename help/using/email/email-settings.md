@@ -10,29 +10,25 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 TQID: https://experienceleague.adobe.com/09Be2OEwtY2-wAMaWDUZtwZCVBqzXPsPgvNZuc1UO2M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在通道設定中定義電子郵件設定，包括電子郵件型別、子網域、IP集區、清單取消訂閱、標頭引數、密件副本、種子清單、重試、URL追蹤及執行位址。
+
+>[!ENDSHADEBOX]
 
 若要開始建立電子郵件，您必須設定電子郵件管道設定，定義郵件訊息所需的所有技術參數。 [了解如何建立設定](../configuration/channel-surfaces.md)
 
@@ -168,7 +164,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。 這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
@@ -191,7 +187,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。 您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試參數**。
 

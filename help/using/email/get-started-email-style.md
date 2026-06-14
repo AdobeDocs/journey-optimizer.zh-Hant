@@ -10,30 +10,26 @@ level: Beginner, Intermediate
 keywords: 電子郵件、樣式、css、內文、結構
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # 開始使用電子郵件樣式 {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何從[電子郵件Designer樣式]窗格調整電子郵件內容的樣式，將顏色、字型、框線、邊界等設定套用到內文、結構或內容元件上。
+
+>[!ENDSHADEBOX]
 
 在 [!DNL Journey Optimizer] 中開始建立電子郵件內容後，您可從電子郵件設計工具&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格調整許多樣式參數與屬性。
 

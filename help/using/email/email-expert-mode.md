@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # 使用進階HTML編輯器編輯電子郵件內容 {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中使用進階HTML編輯器來檢視和編輯電子郵件內容的原始HTML來源，包括要牢記的護欄，以及如何切換回視覺檢視以預覽和儲存。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -55,7 +61,7 @@ ht-degree: 7%
 
    ![電子郵件Designer工具列中HTML按鈕的位置](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **以繼續。**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] ]**以繼續。**[!UICONTROL [了解更多](#guardrails)
 
    ![第一次開啟進階HTML編輯器時出現警告對話方塊](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 

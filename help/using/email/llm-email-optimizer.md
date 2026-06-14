@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # 針對 AI 收件匣最佳化電子郵件 {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中產生並調整電子郵件的專屬版本，以便AI輔助收件匣使用者端將其摘要和回答納入您的優惠方案及行動號召中。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]隨附電子郵件通道功能，可協助您建構訊息的特定版本，以改善AI輔助收件匣體驗，例如[!DNL Gmail]中的[!DNL Apple Intelligence]和[!DNL Google Gemini]，讓他們能更準確地回答問題，並根據您的內容摘要郵件，獲得更好的結果。
 
@@ -43,7 +49,7 @@ ht-degree: 3%
 >
 >確切的AI助理行為取決於收件匣提供者和模型版本。 傳送電子郵件後，外部AI使用者端提供的回答和摘要可能會不正確、不完整或混淆網頁結果。
 >
->針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[&#128279;](#inbox-ai-risks)的限制和風險。
+>針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI](#inbox-ai-risks)的[限制和風險。
 
 ## 建議的使用案例 {#use-cases}
 
