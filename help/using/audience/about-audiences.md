@@ -9,34 +9,30 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 19%
+source-wordcount: 654
+ht-degree: 18%
 
 ---
 
 # 開始使用 Audiences {#about-segments}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何瀏覽、建立和管理Adobe Experience Platform對象，以及在Adobe Journey Optimizer歷程和行銷活動中鎖定這些對象。
+
+>[!ENDSHADEBOX]
+
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="客群"
+>title="對象"
 >abstract="透過使用即時客戶輪廓資料，Adobe Experience Platform 能讓您輕鬆建置區段定義，以建立能夠擷取客戶獨特行為與偏好的目標的客群。"
 
 >[!CONTEXTUALHELP]
@@ -54,7 +50,7 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 本檔案提供如何在[!DNL Adobe Journey Optimizer]內使用對象的資訊。 有關對象入口網站和對象的詳細資訊，請參閱Adobe Experience Platform細分服務檔案。 如需詳細資訊，請參閱以下章節：
 
-* [Segmentation Service UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Segmentation Service UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [分段服務 — 常見問題](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/faq){target="_blank"}
 
