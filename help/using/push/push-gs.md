@@ -9,29 +9,26 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 856
 ht-degree: 4%
 
 ---
 
 # 推播通知資料流程和元件 {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解推播通知資料流程、相關的重要服務和元件，以及如何透過Adobe Journey Optimizer端對端傳送通知。
+
+>[!ENDSHADEBOX]
 
 此頁面可協助您設定並瞭解[!DNL Journey Optimizer]中推播通知的相關重要服務與工作流程。
 
@@ -75,9 +72,9 @@ ht-degree: 4%
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 傳送通知給Android行動應用程式
    * [Apple推播通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 傳送通知給iOS行動應用程式
 
-* **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK還提供多種其他擴充功能，以啟用其他Adobe Experience Cloud以及第三方合作夥伴功能。
+* **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，以啟用其他Adobe Experience Cloud以及第三方合作夥伴功能。
 
-  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant){target="_blank"}服務，例如：
+  SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target="_blank"}服務，例如：
 
    * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
    * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。

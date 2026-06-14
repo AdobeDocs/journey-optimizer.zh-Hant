@@ -8,30 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1164
 ht-degree: 8%
 
 ---
 
 # 設定網頁推播通知管道 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中設定網頁推播通知通道，包括許可權、資料集、推播認證、通道設定，以及測試您的設定。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 在開始使用[!DNL Journey Optimizer]傳送Web推播通知之前，您需要確保Adobe Experience Platform中已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
 
@@ -44,11 +40,11 @@ ht-degree: 8%
 
 ### 設定許可權 {#setup-permissions}
 
-建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}。
+建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
+>推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
 
 <!--
 ou need to your have access to perform following roles :
@@ -66,7 +62,7 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hant#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
+1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
 
 1. 從&#x200B;**[!UICONTROL 許可權]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 屬性權利]**。
 
@@ -112,7 +108,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
+   >如果使用者先前不是在Admin Console中建立的，請參閱[新增使用者檔案](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)。
 
    ![](assets/push_product_7.png)
 
@@ -135,7 +131,7 @@ ou need to your have access to perform following roles :
 
 ### 設定pushNotification屬性 {#push-property}
 
-若要啟用&#x200B;**Web推播通知**，您必須先確定已在Web SDK中正確設定[pushNotifications屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/pushnotifications)。 此屬性可控制網頁應用程式如何處理推播通知。
+若要啟用&#x200B;**Web推播通知**，您必須先確定已在Web SDK中正確設定[pushNotifications屬性](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications)。 此屬性可控制網頁應用程式如何處理推播通知。
 
 此外，您必須產生VAPID金鑰，才能在Journey Optimizer中設定[您的應用程式推送認證](#push-credentials-launch)。
 
@@ -192,7 +188,7 @@ ou need to your have access to perform following roles :
 
 ## 步驟3：設定sendPushSubscription屬性 {#sendPushSubscription-property}
 
-設定好推播認證和通道設定後，您必須在網頁應用程式中實作[sendPushSubscription命令](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendpushsubscription)。 此命令會向Adobe Experience Platform註冊使用者推播訂閱，使系統可追蹤哪些使用者已選擇接收推播通知並保持其訂閱狀態。 此註冊對於Journey Optimizer傳送目標式推播通知給使用者至關重要。
+設定好推播認證和通道設定後，您必須在網頁應用程式中實作[sendPushSubscription命令](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription)。 此命令會向Adobe Experience Platform註冊使用者推播訂閱，使系統可追蹤哪些使用者已選擇接收推播通知並保持其訂閱狀態。 此註冊對於Journey Optimizer傳送目標式推播通知給使用者至關重要。
 
 ## 步驟4：使用事件測試您的行動應用程式 {#mobile-app-test}
 
