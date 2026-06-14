@@ -10,34 +10,26 @@ level: Beginner
 keywords: 登陸，登陸頁面，建立，發佈
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 TQID: https://experienceleague.adobe.com/EZ4dKkk6sFemC9-KqH4zYoMGVQU7nxtGnaUJ-mPJkQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b19d9237-76be-466d-a869-aacf2d72205fid: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 26%
+source-wordcount: 1750
+ht-degree: 25%
 
 ---
 
 # 建立和發佈登陸頁面 {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何設定、測試及發佈登入頁面，讓從訊息點進的客戶可存取專屬頁面，以便訂閱、共用資料或選擇退出。
+
+>[!ENDSHADEBOX]
 
 若要將您的客戶導向至您要在他們按一下特定連結時顯示的已定義網頁，請在[!DNL Journey Optimizer]中建立登陸頁面、設定主要頁面及任何子頁面、測試並發佈。
 
@@ -60,7 +52,7 @@ ht-degree: 26%
 >id="ajo_lp_access_management_labels"
 >title="為您的登陸頁面指派標籤"
 >abstract="為了保護敏感的數位資產，您可以定義授權，以使用標籤來管理對登陸頁面的資料存取。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=zh-Hant" text="物件等級存取控制"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="物件等級存取控制"
 
 
 若要建立登入頁面，您必須選取預設集，然後設定主要頁面和子頁面，最後在發佈頁面之前先測試頁面。 這些步驟詳述如下：
@@ -112,7 +104,7 @@ ht-degree: 26%
 >title="定義您的主要頁面設定"
 >abstract="使用者點選您的登陸頁面連結 (例如從電子郵件或網站) 後，主要頁面會隨即向使用者顯示。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=zh-Hant" text="Design the landing page content"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
 -->
 
 >[!CONTEXTUALHELP]
@@ -188,8 +180,8 @@ ht-degree: 26%
 >id="ajo_lp_access_settings-subpage"
 >title="定義您的登陸頁面 URL"
 >abstract="在本區段中，定義一個唯一的登陸頁面 URL。 URL 的第一部分需要您預先設定一個登陸頁面子網域作為您選取的預設集的一部分。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html?lang=zh-Hant" text="設定登陸頁面子網域"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=zh-Hant#lp-create-preset" text="建立登陸頁面預設集"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-subdomains.html" text="設定登陸頁面子網域"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="建立登陸頁面預設集"
 
 您最多可新增 2 個子頁面。 例如，您可以建立一個「感謝」頁面，該頁面將在使用者提交表單後顯示，而且您可以定義一個錯誤頁面，如果登陸頁面出現問題，將呼叫該頁面。
 
@@ -219,7 +211,7 @@ ht-degree: 26%
 >id="ac_preview_lp_profiles"
 >title="預覽和測試您的登陸頁面"
 >abstract="定義登陸頁面設定和內容後，您就可以使用測試設定檔進行預覽。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=zh-Hant" text="選取測試輪廓"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="選取測試輪廓"
 
 定義登入頁面設定和內容後，您就可以使用測試設定檔來預覽。 如果您已插入[個人化內容](../personalization/personalize.md)，您可以使用測試設定檔資料檢查此內容在登入頁面中的顯示方式。
 
@@ -304,6 +296,6 @@ The settings and elements checked by the system are listed below. You will also 
 
 >[!NOTE]
 >
->您無法將建立頁面[&#128279;](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
+>您無法將建立頁面](#create-landing-page)時所定義的URL複製貼入網頁瀏覽器，即使已發佈，也無法存取您的登入頁面。 [您可以改用預覽函式來測試，如[此區段](#test-landing-page)中所述。
 
 您可以透過特定報告監控您的登入頁面影響。 [了解更多](../reports/lp-report-live.md)
