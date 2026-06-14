@@ -6,20 +6,22 @@ description: 瞭解如何使用Experience Platform結構描述、資料集和SMS
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # 對傳入關鍵字使用自訂資料集 {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立Adobe Experience Platform結構描述和資料集，然後在Adobe Journey Optimizer SMS API認證中參照這些結構描述和資料集，將傳入的SMS關鍵字儲存在啟用設定檔的自訂資料集中。
+
+>[!ENDSHADEBOX]
 
 傳入簡訊關鍵字可以儲存在啟用設定檔的自訂資料集中。 此設定包含Adobe Experience Platform結構描述、從該結構描述建立的資料集，以及參照傳入訊息資料集的Journey Optimizer SMS API認證。
 
@@ -43,7 +45,7 @@ ht-degree: 8%
 
 結構描述會定義適用於已擷取資料的結構和驗證規則。 新增下列現有欄位群組，為傳入關鍵字集合撰寫體驗事件結構描述。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，從&#x200B;**[!UICONTROL 資料管理]**，存取&#x200B;**[!UICONTROL 結構描述]**&#x200B;並選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
@@ -81,7 +83,7 @@ ht-degree: 8%
 
 1. 選擇&#x200B;**[!UICONTROL 從結構描述建立資料集]**。
 
-1. 選取在上一節中建立的結構描述，然後按一下[下一步] **&#x200B;**。
+1. 選取在上一節中建立的結構描述，然後按一下[下一步] ****。
 
    ![](assets/schema-sms-5.png)
 
@@ -109,7 +111,7 @@ ht-degree: 8%
 
    ![](assets/schema-sms-7.png)
 
-1. 完成任何剩餘的必要欄位，然後按一下[儲存]。**&#x200B;**
+1. 完成任何剩餘的必要欄位，然後按一下[儲存]。****
 
    >[!NOTE]
    >
