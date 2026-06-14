@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # 請求核准 {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將您的歷程或行銷活動傳送給正確的檢閱者，充滿信心地上線，並在檢閱期間保持控制 — 視需要取消、編輯和重新提交，因此只有經過核准的品牌內內容才能觸及您的客戶。
+
+>[!ENDSHADEBOX]
 
 存取核准工作流程取決於您的特定使用案例：
 

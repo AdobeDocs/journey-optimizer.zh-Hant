@@ -16,14 +16,20 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # 開始使用歷程及行銷活動核准 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;內嵌核准程式會在檢閱期間鎖定歷程和行銷活動，讓適當的利害關係人在任何專案上線前登出，並集中管理和追蹤每個請求。
+
+>[!ENDSHADEBOX]
 
 ## 開始使用核准原則 {#gs}
 

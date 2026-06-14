@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # 檢閱及核准請求 {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;作為指定的核准者，檢閱提交的歷程或行銷活動，並在其上線之前核准並發佈，或將變更請求傳回建立者。
+
+>[!ENDSHADEBOX]
 
 如果核准原則適用於歷程或行銷活動，則需要提交核准才能發佈。 為此，歷程/行銷活動建立者傳送請求給核准原則中定義的核准者，且歷程/行銷活動獲得&#x200B;**[!UICONTROL 稽核中]**&#x200B;狀態。
 

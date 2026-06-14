@@ -18,14 +18,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 15%
+source-wordcount: 760
+ht-degree: 14%
 
 ---
 
 # 建立和管理核准原則 {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;核准原則會決定哪些歷程和行銷活動需要登出才能上線，讓管理員設定條件、目標定位條件，以及控管每個請求的稽核者。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
