@@ -10,31 +10,26 @@ level: Intermediate, Experienced
 keywords: 資料，來源，歷程，平台
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # 開始使用資料來源 {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解什麼是資料來源，以及如何選擇正確的資料存取策略，以便您將其他資料帶入您的歷程，瞭解條件、個人化和時間安排。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
@@ -72,7 +67,7 @@ ht-degree: 29%
 
 ## 選擇您的資料存取策略 {#data-access-strategy}
 
-在設定資料來源之前，請先考慮哪個方法最適合您的使用案例。 有三種選項可供使用，每種選項在持續性、設定檔擴充及重複使用性方面都有不同的權衡。 如需這些選項的詳細討論，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/zh-hant/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+在設定資料來源之前，請先考慮哪個方法最適合您的使用案例。 有三種選項可供使用，每種選項在持續性、設定檔擴充及重複使用性方面都有不同的權衡。 如需這些選項的詳細討論，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 **選項1 — 透過自訂動作（無資料湖）存取外部資料**
 
@@ -104,7 +99,7 @@ ht-degree: 29%
 
 **選項3 — 在資料湖**&#x200B;中啟用設定檔的資料集
 
-將資料內嵌至啟用[設定檔的資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中，以建立對象、豐富身分圖表，並跨多個歷程和RT-CDP目的地運用資料。 最適合下列情況：
+將資料內嵌至啟用[設定檔的資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中，以建立對象、豐富身分圖表，並跨多個歷程和RT-CDP目的地運用資料。 最適合下列情況：
 
 * 此資料可用於Journey Optimizer以外的管道中使用的受眾定義。
 * 資料包含多個身分，這些身分有助於提供更豐富的拼接設定檔片段。
@@ -123,7 +118,7 @@ ht-degree: 29%
 | **選項2** — 未針對設定檔啟用資料集 | 是 | 無 |
 | **選項3** — 啟用設定檔的資料集 | 是 | 是 |
 
-如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=zh-Hant){target="_blank"}。
+如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}。
 
 ## 作法影片 {#video}
 
