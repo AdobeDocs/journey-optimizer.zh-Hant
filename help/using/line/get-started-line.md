@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # 開始使用 LINE {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解LINE傳訊在Journey Optimizer中的運作方式，讓您能夠透過歷程和行銷活動，透過其LINE應用程式觸及客戶。
+
+>[!ENDSHADEBOX]
 
 請在客戶的 LINE 應用程式上，使用 [!DNL Journey Optimizer] 傳送 LINE 簡訊給客戶。 您可以在 LINE 編輯器建立、個人化以及預覽訊息。
 

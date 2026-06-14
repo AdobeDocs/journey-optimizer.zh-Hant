@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 236
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
 # 檢查並傳送您的LINE訊息 {#send-line}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;預覽、模擬及驗證您的LINE訊息，以便解決任何警告或錯誤，並自信地透過您的歷程或行銷活動傳送訊息。
+
+>[!ENDSHADEBOX]
 
 ## 預覽您的文字訊息 {#preview-line}
 

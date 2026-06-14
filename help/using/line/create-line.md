@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 782
 ht-degree: 4%
 
 ---
 
 # 建立 LINE 訊息 {#create-line}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將LINE動作新增至歷程或行銷活動，並建立個人化內容，從文字和貼紙到影像、影片、位置和Flex訊息，讓您能夠線上上與客戶互動。
+
+>[!ENDSHADEBOX]
 
 ## 新增LINE訊息 {#create-line-journey-campaign}
 

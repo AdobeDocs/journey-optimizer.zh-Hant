@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: 397
 ht-degree: 8%
 
 ---
 
 # 可到 Journey Optimizer 設定 LINE 頻道 {#line-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;從介面或API設定LINE通道設定，讓Adobe Journey Optimizer可以使用LINE傳訊API進行驗證，並傳送訊息給您的客戶。
+
+>[!ENDSHADEBOX]
 
 1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 
