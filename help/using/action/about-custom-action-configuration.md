@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 2324
+source-wordcount: 2354
 ht-degree: 12%
 
 ---
 
 # 設定自訂動作 {#configure-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定自訂動作的端點、驗證、安全性及裝載引數，讓歷程可以呼叫該服務，以便將協力廠商REST API連線至您的歷程。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"

@@ -26,14 +26,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 38%
+source-wordcount: 397
+ht-degree: 35%
 
 ---
 
 # 開始使用自訂動作 {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解動作和自訂動作如何讓您透過REST API呼叫提供個人化體驗並連線協力廠商系統，讓您可以延伸歷程至內建訊息以外的範圍。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
@@ -68,7 +74,7 @@ ht-degree: 38%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430271?captions=chi_hant&quality=12)
 
-## 額外資源
+## 其他資源
 
 瀏覽以下章節，進一步瞭解設定及使用自訂動作：
 

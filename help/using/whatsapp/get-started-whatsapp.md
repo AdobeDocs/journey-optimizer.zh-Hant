@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # 開始使用 WhatsApp 訊息 {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解WhatsApp頻道在Journey Optimizer中的運作方式，以及其先決條件和限制，以便您可以決定如何將WhatsApp新增至您的歷程與行銷活動。
+
+>[!ENDSHADEBOX]
 
 您目前可以透過 Meta 的[雲端 API](https://developers.facebook.com/docs/whatsapp/cloud-api/)，直接透過 Journey Optimizer 傳送 WhatsApp 訊息。 此功能可將 WhatsApp 緊密整合至歷程和行銷活動，強化和收件者之間的通訊和參與度。
 

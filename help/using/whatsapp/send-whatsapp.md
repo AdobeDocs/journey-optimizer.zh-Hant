@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 448
 ht-degree: 2%
 
 ---
 
 # 檢查並傳送 WhatsApp 訊息 {#send-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;預覽、驗證及傳送您的WhatsApp訊息，然後分析它傳回的互動資料，這樣您就可以在傳遞之前確認您的訊息是否正確，並測量收件者與訊息互動的方式。
+
+>[!ENDSHADEBOX]
 
 ## 預覽您的WhatsApp訊息 {#preview-whatsapp}
 

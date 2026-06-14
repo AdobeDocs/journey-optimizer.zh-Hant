@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 742
 ht-degree: 9%
 
 ---
 
 # 與 Adobe Campaign v7/v8 整合 {#integrating-with-adobe-campaign-v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將Journey Optimizer連線至Adobe Campaign v7或v8，以便您的歷程可以透過Campaign交易訊息傳送電子郵件、推播通知和SMS。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"

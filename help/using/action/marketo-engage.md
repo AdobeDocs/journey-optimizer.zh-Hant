@@ -27,14 +27,20 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: 352
 ht-degree: 3%
 
 ---
 
 # 與 Marketo Engage 整合 {#integrating-with-marketo-engage}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定並使用Marketo Engage自訂動作，以便您將歷程中的人員和自訂物件資料同步到Marketo Engage中。
+
+>[!ENDSHADEBOX]
 
 開始與Marketo Engage無縫資料整合的歷程。 您可在整合Adobe Journey Optimizer和Marketo Engage的歷程中使用特定的自訂動作。 此自訂動作支援擷取兩種關鍵資料型別：
 

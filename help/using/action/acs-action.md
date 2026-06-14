@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 475
 ht-degree: 5%
 
 ---
 
 # 與 Adobe Campaign Standard 整合 {#using_adobe_campaign_standard}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將Journey Optimizer連線至Adobe Campaign Standard，讓您的歷程可以透過其異動訊息功能傳送電子郵件、推播通知及簡訊。
+
+>[!ENDSHADEBOX]
 
 如果您有Adobe Campaign Standard，則可使用內建動作來允許連線至Adobe Campaign Standard。 您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
 

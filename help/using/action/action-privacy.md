@@ -11,14 +11,20 @@ keywords: 資料、治理、DULE、標籤、標籤、平台、原則
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 100%
+source-wordcount: 1337
+ht-degree: 96%
 
 ---
 
 # 資料治理 {#restrict-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立將標籤連結至行銷動作的治理原則，然後將它們套用至歷程、行銷活動和自訂動作，以便受限制的欄位無法外部共用，藉此保護敏感資料。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
@@ -31,8 +37,8 @@ ht-degree: 100%
 
 定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。 例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。 [了解如何建立資料治理原則](#policy)
 
-建立治理原則後，您可以將行銷動作套用至歷程/行銷活動以及歷程自訂動作。
-[了解如何在 Journey Optimizer 套用行銷動作](#apply-marketing-actions)
+建立治理政策後，您可以將行銷動作套用至歷程/行銷活動以及歷程自訂動作。
+[瞭解如何在Journey Optimizer中套用行銷動作](#apply-marketing-actions)
 
 建置歷程或行銷活動時，在選取管道設定或新增自訂動作後，系統會驗證訊息管道設定中的行銷動作或自訂動作，是否屬於資料治理原則的一部分。 若是如此，系統會檢查目標對象或訊息個人化中的任何欄位，是否加上標籤且受原則限制。 如果偵測到這類標籤，則會封鎖發佈歷程或行銷活動作業。 [了解如何偵測資料治理原則違規](#violation)
 

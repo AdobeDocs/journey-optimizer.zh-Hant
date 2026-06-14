@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 20%
+source-wordcount: 1358
+ht-degree: 19%
 
 ---
 
 # 開始使用 WhatsApp 設定 {#whatsapp-config}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;設定WhatsApp API認證、Webhook和通道設定，以連線您的WhatsApp Business帳戶，因此您的環境已準備好透過Journey Optimizer傳送WhatsApp訊息。
+
+>[!ENDSHADEBOX]
 
 在傳送WhatsApp訊息之前，您必須先設定Adobe Journey Optimizer環境，並與您的WhatsApp帳戶建立關聯。 若要執行此動作：
 
