@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 13%
 
 ---
 
 # 設計推播通知 {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何為iOS、Android和網頁設計推播通知內容，包括標題和內文、點按行為、媒體、按鈕和進階選項。
+
+>[!ENDSHADEBOX]
 
 建立推播通知後，您就可以針對iOS、Android和Web平台設計其內容。 此頁面會引導您撰寫訊息、設定按一下行為、新增媒體和按鈕，以及設定進階選項以建立吸引人的推播通知，進而引起觀眾的共鳴。
 
@@ -71,7 +77,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
+>如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
 >如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 新增媒體 {#add-media-push}

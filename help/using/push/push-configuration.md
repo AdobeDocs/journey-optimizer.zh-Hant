@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
+source-wordcount: 2210
 ht-degree: 9%
 
 ---
 
 # 設定行動應用程式推播通知頻道 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中設定行動應用程式推播通知頻道，包括許可權、推播認證、頻道設定，以及將您的應用程式與Adobe Experience Platform Mobile SDK整合。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 開始使用[!DNL Journey Optimizer]傳送推播通知之前，您必須確保行動應用程式上以及Adobe Experience Platform中的標籤已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
 
@@ -182,7 +188,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
          >[!NOTE]
          >
-         > 僅支援.p8 Apple推播通知金鑰。 如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
+         > 僅支援.p8 Apple推播通知金鑰。如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
          >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 
@@ -257,7 +263,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 選擇您的&#x200B;**[!UICONTROL 平台]**： Android和/或iOS <!--and/or Web-->。
 
-1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [進一步了解](#app-id-personalization)
+1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [了解更多](#app-id-personalization)
 
 1. **儲存**&#x200B;您的變更。
 

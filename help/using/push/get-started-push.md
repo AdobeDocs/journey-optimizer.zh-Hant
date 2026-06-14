@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 100%
+source-wordcount: 392
+ht-degree: 93%
 
 ---
 
 # 開始使用推播通知 {#gs-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的推播通知，透過歷程和行銷活動觸及您的行動應用程式使用者和Web訪客。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -63,7 +69,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="design-push.md">
-<img alt="不常使用" src="../assets/do-not-localize/push-design.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>設計推播通知</strong></a>

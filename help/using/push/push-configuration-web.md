@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1164
 ht-degree: 8%
 
 ---
 
 # 設定網頁推播通知管道 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中設定網頁推播通知通道，包括許可權、資料集、推播認證、通道設定，以及測試您的設定。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您建立歷程並傳送訊息給目標客群。 在開始使用[!DNL Journey Optimizer]傳送Web推播通知之前，您需要確保Adobe Experience Platform中已具備設定和整合。 若要瞭解 [!DNL Adobe Journey Optimizer] 中的推播通知資料流程，請參閱[此頁面](push-gs.md)。
 

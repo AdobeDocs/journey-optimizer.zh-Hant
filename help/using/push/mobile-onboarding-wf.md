@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 10%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
 # Mobile 上線快速入門工作流程 {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用行動入門快速入門工作流程來快速設定Adobe Experience Platform Mobile SDK、收集和驗證行動事件資料，以及傳送推播通知。
+
+>[!ENDSHADEBOX]
 
 新的&#x200B;**行動入門快速入門工作流程**&#x200B;是新的產品功能，可快速設定Adobe Experience Platform Mobile SDK、開始收集和驗證行動事件資料，以及透過[!DNL Journey Optimizer]傳送推播通知。
 
