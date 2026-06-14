@@ -8,27 +8,26 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 TQID: https://experienceleague.adobe.com/ONswG5tDxJQKJ7xm-7zlXk1HE0G7Y927Qbsdiahzf5E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer 的協助工具{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Journey Optimizer如何透過WCAG對齊協助工具功能和鍵盤快速鍵支援所有功能的使用者，讓您在介面中有效率地瀏覽和工作。
+
+>[!ENDSHADEBOX]
 
 協助工具是指一系列功能，這些功能使具有視覺、聽覺、認知、運動或其他類型的殘疾使用者能盡可能輕鬆使用軟體產品。 Adobe 是協助工具領域的領先者，鼓勵開發人員製作可供所有使用者存取的豐富且吸引人的內容，進而支援建立出色的網頁體驗。 深入瞭解 Adobe 對協助工具的承諾，請參閱 [Adobe 協助工具頁面](https://www.adobe.com/accessibility.html){target="_blank"}。
 

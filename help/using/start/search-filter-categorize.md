@@ -9,27 +9,26 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 82%
+source-wordcount: 829
+ht-degree: 79%
 
 ---
 
 # 搜尋、篩選、整理 {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用通用搜尋、清單篩選器和標籤，快速找到並組織歷程、行銷活動和資產，讓您能夠在Journey Optimizer專案成長的同時保持生產力。
+
+>[!ENDSHADEBOX]
 
 隨著您的 Adobe Journey Optimizer 專案發展，尋找和整理內容對於提高工作效率至關重要。 此頁面說明如何使用通用搜尋快速找到歷程、行銷活動和資產；篩選清單以聚焦於特定項目；以及使用標籤和類別來整理您的工作。 這些工具可協助您導覽大量內容、維護跨團隊的一致性，並簡化您的日常工作流程。
 

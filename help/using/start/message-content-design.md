@@ -11,31 +11,26 @@ hide: true
 keywords: 內容，設計，電子郵件，推播，簡訊，個人化，範本
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
 TQID: https://experienceleague.adobe.com/bpZArBcEF0xy-M10Ds1CIou3hr4lcK-9wWTD-eROkbA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # 設計訊息內容{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索設計個人化電子郵件、推播、簡訊和應用程式內內容的工具和最佳實務，以便您傳送可促進參與度的品牌內訊息。
+
+>[!ENDSHADEBOX]
 
 在Adobe Journey Optimizer中設計訊息內容可讓您跨所有管道建立吸引人的個人化通訊。 無論您是使用豐富的視覺版面設計電子郵件、建立行動裝置最佳化推播通知、設計互動式應用程式內體驗，還是傳送SMS訊息，本節都能提供內容建立最佳實務的完整指引。 瞭解如何將範本和片段用於可重複使用的內容、套用個人化和動態內容以量身打造每個收件者的訊息，並確保協助工具合規性。 從瞭解設計原則到實作進階格式選項，您都能掌握所需的工具，以交付吸引人的品牌體驗，進而促進參與度和轉化率。
 
@@ -43,7 +38,7 @@ ht-degree: 8%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設計電子郵件內容
 
@@ -53,7 +48,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 設計推播通知
 
@@ -63,7 +58,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 設計SMS和MMS訊息
 
@@ -73,7 +68,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 設計應用程式內訊息
 
@@ -83,7 +78,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 個人化您的內容
 
@@ -93,7 +88,7 @@ ht-degree: 8%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用範本和片段
 

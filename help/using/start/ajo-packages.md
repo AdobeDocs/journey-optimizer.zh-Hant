@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，套件，授權，選擇， prime， ultimate，功能，功能，模組化，頻道
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # 我的[!DNL Adobe Journey Optimizer]封裝中有哪些可用專案？ {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解您的套件解鎖的Adobe Journey Optimizer功能，無論您是使用目前的行銷活動和歷程模式，還是舊版的Select、Prime和Ultimate授權，以便您確認可用的專案，並跳至每個功能。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]功能會因您的授權合約、啟用的頻道和使用者許可權而有所不同。 使用本指南瞭解套件中通常提供哪些功能，並直接導覽至每項功能的產品檔案。
 
