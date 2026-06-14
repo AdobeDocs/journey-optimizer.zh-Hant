@@ -25,14 +25,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1127
+source-wordcount: 1158
 ht-degree: 11%
 
 ---
 
 # 建置區段定義 {#build-segments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何從屬性和事件建立區段定義，以建立對象，並選擇串流、批次或邊緣評估方法，以便在Adobe Journey Optimizer中鎖定目標。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"

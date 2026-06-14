@@ -14,15 +14,21 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 8%
+source-wordcount: 187
+ht-degree: 7%
 
 ---
 
 
 # 開始使用輪廓和客群 {#gs-profiles-audiences}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;概略瞭解如何在Adobe Journey Optimizer中使用即時客戶設定檔和對象，以提供個人化的客戶體驗。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer可讓品牌建立和管理即時客戶設定檔和對象，以提供個人化的客戶體驗。 此概&#x200B;覽可讓您大致瞭解如何在Journey Optimizer中使用設定檔和受眾。 如需詳細資訊，請參閱設定檔與對象的特定區段。
 

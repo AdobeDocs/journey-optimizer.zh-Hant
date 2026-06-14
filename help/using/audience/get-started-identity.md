@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 20%
+source-wordcount: 256
+ht-degree: 17%
 
 ---
 
 # 開始使用身分識別 {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中瀏覽客戶識別碼和探索身分圖表，包括身分名稱空間和值如何結合以識別每個客戶。
+
+>[!ENDSHADEBOX]
 
 身分是實體所獨有的資料，通常是真實世界的物件，例如個人、硬體裝置或網頁瀏覽器。 完全合格的身分包含兩個元素：
 

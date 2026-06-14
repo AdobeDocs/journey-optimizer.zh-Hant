@@ -14,14 +14,20 @@ subfeature_v2:
   - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 10%
+source-wordcount: 267
+ht-degree: 9%
 
 ---
 
 # 聯合客群構成 {#fac}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中使用同盟對象構成，以查詢您的企業資料倉儲並擴充Adobe Experience Platform對象，而不需要複製敏感資料。
+
+>[!ENDSHADEBOX]
 
 雖然您可以使用對象構成功能來建立有價值、高度精細的對象以用於目標定位，但您可以進一步豐富對象，以使用來自企業資料倉儲和信任合作夥伴的資料進行更深入的個人化。
 

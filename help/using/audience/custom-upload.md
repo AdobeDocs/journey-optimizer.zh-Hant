@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 10%
+source-wordcount: 177
+ht-degree: 9%
 
 ---
 
 # 自訂上傳 {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Experience Platform對象入口網站，從CSV檔案匯入對象，並將其識別屬性對應至客戶設定檔。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform對象入口網站可讓您使用CSV檔案匯入對象。
 

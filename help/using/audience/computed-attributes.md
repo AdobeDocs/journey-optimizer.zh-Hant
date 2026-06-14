@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: 956
 ht-degree: 1%
 
 ---
 
 # 使用計算屬性 {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立計算屬性，將行為事件彙總至設定檔屬性，並在Adobe Journey Optimizer中將其用於分段、個人化和歷程邏輯。
+
+>[!ENDSHADEBOX]
 
 計算屬性將個別行為事件彙總到Adobe Experience Platform上可用的計算設定檔屬性中。 這些屬性以擷取至Adobe Experience Platform的已啟用設定檔體驗事件資料集為基礎，並當做儲存在客戶設定檔中的彙總資料點。
 

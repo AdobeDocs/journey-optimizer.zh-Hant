@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1288
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # 建立測試輪廓 {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何上傳CSV檔案或使用API呼叫來建立測試設定檔，以便在Adobe Journey Optimizer中預覽內容和測試歷程。
+
+>[!ENDSHADEBOX]
 
 在歷程中使用[測試模式](../building-journeys/testing-the-journey.md)時需要測試設定檔，以及[預覽和測試您的內容](../content-management/preview-test.md)。
 

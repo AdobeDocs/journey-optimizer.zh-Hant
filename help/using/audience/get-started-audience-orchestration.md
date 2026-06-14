@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 50%
+source-wordcount: 1092
+ht-degree: 49%
 
 ---
 
 # 開始使用客群構成 {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用對象構成將現有的Adobe Experience Platform對象合併到視覺畫布中，並套用分割、排除、擴充和排名等活動來建立新對象。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -124,7 +130,7 @@ ht-degree: 50%
 
 對象構成可讓您建立&#x200B;**構成工作流程**，您可以在其中將現有Adobe Experience Platform對象結合到視覺畫布中，並利用各種活動（分割、排除……） ，建立新客群。
 
-完成後，**產生的對象**&#x200B;會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。 瞭解如何在Journey Optimizer中鎖定對象
+完成後，**產生的對象**&#x200B;會與現有對象一起儲存回Adobe Experience Platform，並可在Journey Optimizer行銷活動和歷程中運用於鎖定客戶。瞭解如何在Journey Optimizer中鎖定對象
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

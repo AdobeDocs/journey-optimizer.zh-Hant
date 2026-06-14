@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 11%
+source-wordcount: 841
+ht-degree: 10%
 
 ---
 
 # [!DNL Journey Optimizer]中的對象啟用 {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer行銷活動和歷程中鎖定Adobe Experience Platform對象，包括啟用延遲以及適用於不同對象型別的護欄。
+
+>[!ENDSHADEBOX]
 
 您可以在行銷活動和歷程中選取使用區段定義、自訂上傳、組合工作流程或同盟對象組合產生的任何對象。
 

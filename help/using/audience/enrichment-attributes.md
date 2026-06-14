@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 595
 ht-degree: 9%
 
 ---
 
 # 使用對象擴充屬性 {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用構成工作流程、自訂上傳和Federated Audience Composition中的對象擴充屬性，來建立歷程路徑並在Adobe Journey Optimizer中個人化訊息。
+
+>[!ENDSHADEBOX]
 
 使用構成工作流程、自訂（CSV檔案）對象或同盟對象構成產生的對象為目標時，您可以使用來自這些對象的擴充屬性來建立您的歷程並個人化您的訊息。
 

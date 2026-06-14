@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 894
 ht-degree: 3%
 
 ---
 
 # 授權使用量儀表板 {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Journey Optimizer授權使用儀表板來監視可參與的設定檔，以及疑難排解設定檔計數中意外的增加。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] [使用者介面](../start/user-interface.md)提供儀表板，顯示貴組織授權使用狀況的重要資訊，如每日快照期間所擷取。
 
