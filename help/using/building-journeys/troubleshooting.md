@@ -11,39 +11,38 @@ keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DorhpVm3trSxHG-l77-DpwbLTNQQxET1SIMYX-8ClQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 35%
+source-wordcount: 548
+ht-degree: 33%
 
 ---
 
 # 在測試您的歷程之前疑難排解錯誤 {#troubleshooting}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在測試或發佈之前找到並修正活動和歷程設定錯誤，讓您的歷程順利執行。
+
+>[!ENDSHADEBOX]
+
 在本節中，瞭解如何在測試或發佈之前疑難排解歷程。 下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。 建議您在測試模式中進行下列所有檢查，然後繼續發佈。 在[此頁面](../building-journeys/testing-the-journey.md)上進一步瞭解測試模式。
 
-瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何瀏覽歷程，以及是否在此頁面[&#128279;](troubleshooting-execution.md)傳送訊息。 如果儘管已擷取事件，但沒有設定檔進入您的事件型歷程，請確定[事件條件資料型別符合事件結構描述](troubleshooting-execution.md#verify-event-identity-and-rule-data-types)。
+瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何瀏覽歷程，以及是否在此頁面](troubleshooting-execution.md)傳送[訊息。 如果儘管已擷取事件，但沒有設定檔進入您的事件型歷程，請確定[事件條件資料型別符合事件結構描述](troubleshooting-execution.md#verify-event-identity-and-rule-data-types)。
 
-如果您使用輸入動作，請在此頁面[&#128279;](troubleshooting-inbound.md)瞭解如何疑難排解。
+如果您使用輸入動作，請在此頁面](troubleshooting-inbound.md)瞭解如何疑難排解[。
 
 ## 活動中的錯誤 {#activity-errors}
 
 在測試和發佈您的歷程之前，請先確認所有活動皆已正確設定。 如果系統仍偵測到錯誤，則無法進行測試或發佈。
 
-發生錯誤，而且畫布上的活動本身會顯示警告符號。 將游標放在驚嘆號上，即可顯示錯誤訊息。 如果您選取活動，應該會看到錯誤的行並會顯示警告。 例如：
+發生錯誤，而且畫布上的活動本身會顯示警告符號。 將游標放在驚嘆號上，即可顯示錯誤訊息。 如果您選取活動，應該會看到錯誤的行並會顯示警告。 例如:
 
 * 如果必填欄位為空，則會顯示錯誤
 

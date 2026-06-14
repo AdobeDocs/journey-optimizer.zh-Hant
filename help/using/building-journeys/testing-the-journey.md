@@ -11,32 +11,27 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2308
+source-wordcount: 2335
 ht-degree: 6%
 
 ---
 
 
 # 測試您的歷程{#testing_the_journey}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何透過使用模擬使用者或測試模式與測試設定檔的模擬來及早攔截錯誤，以在發佈之前驗證您的歷程。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -81,7 +76,7 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 
 * **分割行為** — 當歷程達到分割時，一律會選取頂端分支。 如果您想要測試不同的路徑，請重新排序分支。
 * **事件計時** — 如果歷程包含多個事件，請依序觸發每個事件。 太早（第一個等待節點完成之前）或太晚（在設定的逾時之後）傳送事件將會捨棄事件。 然後，設定檔將傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效。
-* **作用中的日期視窗** — 確定歷程設定的[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上進一步了解疑難排解此問題。
+* **作用中的日期視窗** — 確定歷程設定的[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面](troubleshooting-execution.md#troubleshooting-test-transitions)上進一步了解疑難排解此問題[。
 * **回應事件** — 對於逾時的回應事件，最小和預設等待時間為40秒。
 * **測試資料集** — 在測試模式中觸發的事件會儲存在專用的資料集中，標示如下： `JOtestmode - <schema of your event>`
 * **共用基礎架構** — 測試模式會在與生產相同的基礎架構上執行。 在高流量期間，您可能會注意到電子郵件傳送或事件處理有所延遲。 在這種情況下，請檢查平台流量儀表板，或在非尖峰時段重試您的測試。

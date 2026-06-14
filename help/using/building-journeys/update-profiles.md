@@ -11,26 +11,25 @@ keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 7%
+source-wordcount: 938
+ht-degree: 6%
 
 ---
 
 # 更新設定檔 {#update-profile}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用更新設定檔動作活動，當客戶進行歷程時，擴充或修正現有的Adobe Experience Platform設定檔。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
@@ -41,7 +40,7 @@ ht-degree: 7%
 
 ## 資料集選取範圍 {#dataset-selection}
 
-**[!UICONTROL 更新設定檔]**&#x200B;活動需要專用的資料集來儲存更新。 由於此活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"} （而非Datalake），所有更新應該儲存在專為&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作指定的[設定檔啟用資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
+**[!UICONTROL 更新設定檔]**&#x200B;活動需要專用的資料集來儲存更新。 由於此活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} （而非Datalake），所有更新應該儲存在專為&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作指定的[設定檔啟用資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
 
 >[!CAUTION]
 >
@@ -108,6 +107,6 @@ ht-degree: 7%
 * 您無法使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作來產生[體驗事件](../event/about-events.md)，例如購買。
 * 如同任何其他動作，您可以定義[替代路徑，以防發生錯誤或逾時](using-the-journey-designer.md#paths)。 兩個動作無法並行放置。
 * 不保證個人資料更新可立即用於相同歷程的下游。 請避免在寫入欄位的&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作之後直接放置讀取欄位的動作，因為更新值可能尚未反映出來。
-* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}，不會更新Data Lake。
+* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不會更新Data Lake。
 * 單一&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作中最多可更新五個欄位/值組。 使用&#x200B;**[!UICONTROL 更新其他欄位]**&#x200B;按鈕以新增更多配對。
 * 為獲得更好的效能，請將多個屬性更新群組為單一&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作，而不是為每個屬性使用一個動作。

@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # 限制 {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱適用於歷程的限制和護欄，包括動作、版本、自訂動作、事件和資料來源。
+
+>[!ENDSHADEBOX]
 
 以下是使用歷程的相關限制。
 
@@ -43,7 +49,7 @@ ht-degree: 47%
 
 * 自訂動作 URL 不支援動態參數。 
 * 僅支援POST和PUT呼叫方法。 
-* 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
+* 查詢引數或標題的名稱不得以「。」或「$」開頭。 
 * 不允許IP位址。 
 * 內部Adobe位址(.adobe.) 是不允許的。
 
