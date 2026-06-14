@@ -11,12 +11,27 @@ keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1705
@@ -78,7 +93,7 @@ ht-degree: 3%
 
 有兩種可能性：
 
-1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
+1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 
 1. **從讀取對象開始**：您可以設定您的歷程以聆聽[!DNL Adobe Experience Platform]個對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
@@ -155,7 +170,7 @@ ht-degree: 3%
 1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
    ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
 1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。貼上的活動會以相同順序放置。貼上活動後，活動會維持選取狀態，以便您輕鬆移動。您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
    ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)

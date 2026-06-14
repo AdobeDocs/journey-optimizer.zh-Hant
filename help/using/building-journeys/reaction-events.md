@@ -11,11 +11,22 @@ keywords: 歷程，事件，反應，追蹤，平台
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/6myO49j2-TgkX0-diC8JDePxvMBPjZGnMYdxO466cP4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 541
@@ -52,7 +63,7 @@ ht-degree: 14%
 
 請依照下列步驟設定反應事件：
 
-1. 在歷程畫布上的[頻道動作活動](journey-action.md)後立即放置&#x200B;**[!UICONTROL 回應]**&#x200B;活動&#x200B;****。
+1. 在歷程畫布上的[頻道動作活動](journey-action.md)後立即放置&#x200B;**[!UICONTROL 回應]**&#x200B;活動&#x200B;**&#x200B;**。
 1. 新增&#x200B;**[!UICONTROL 標籤]**&#x200B;至回應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取位於路徑前幾個步驟中的任何動作活動。
 1. 根據您選取的動作，選擇您要回應的專案。

@@ -4,10 +4,17 @@ description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2041
@@ -128,11 +135,11 @@ ht-degree: 2%
 
    1. 在&#x200B;**[!UICONTROL Supplemental identifier]**&#x200B;欄位中，使用運算式編輯器來選取補充識別碼屬性。
 
-   針對從CSV檔案匯入的對象[](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
+   針對從CSV檔案匯入的對象[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
 
        >[！NOTE]
-     >
-     >請確定您在**[!UICONTROL 進階模式]**中使用運算式編輯器來選取屬性。
+       >
+       >請確定您在&#x200B;**[!UICONTROL 進階模式]**&#x200B;中使用運算式編輯器來選取屬性。
    
 >[!ENDTABS]
 
@@ -199,7 +206,7 @@ ht-degree: 2%
 
 ## 外部對象的補充識別碼 {#external-audiences}
 
-外部對象支援補充ID，包括從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}匯入的對象[以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
+外部對象支援補充ID，包括從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}匯入的對象以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
 
 * 使用案例1：每個唯一設定檔一列+補充ID組
 
