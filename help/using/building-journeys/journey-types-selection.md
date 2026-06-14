@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # 歷程類型和選取指南 {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何比較四種歷程型別 — 單一、讀取對象、對象資格和業務事件 — 並使用決策指南和功能相容性矩陣，為您的使用案例選擇正確的型別。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]支援四種歷程型別，每種都針對不同的進入機制和業務案例而設計。 本指南可協助您瞭解差異，並為使用案例選擇正確的型別。
 

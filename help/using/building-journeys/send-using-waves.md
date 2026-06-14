@@ -12,14 +12,20 @@ keywords: 波段，批次，排程，歷程，讀取對象，傳送能力
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # 在歷程中使用波段傳送 {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何以排程批次（稱為波段）從讀取對象歷程傳送傳出訊息，以平衡負載、保護下游系統以及支援傳遞能力。
+
+>[!ENDSHADEBOX]
 
 您可以在一段時間內以批次（波段）傳送歷程中的傳出訊息，而非一次傳送所有訊息。 Wave傳送有助於平衡負載、避免壓倒性的下游系統（例如呼叫中心或登陸頁面），並支援傳遞能力與傳送者信譽，尤其是對於高流量讀取對象歷程。
 

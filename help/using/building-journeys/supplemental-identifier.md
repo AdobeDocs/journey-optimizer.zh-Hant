@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # 在歷程中使用補充識別碼 {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用補充識別碼（例如訂單或預訂ID之類的次要識別碼）來針對每個識別碼執行個別的歷程執行個體，並使用其屬性個人化訊息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

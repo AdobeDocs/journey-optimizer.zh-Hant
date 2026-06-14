@@ -18,14 +18,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: 1124
 ht-degree: 6%
 
 ---
 
 # 歷程中的體驗事件查閱 {#ee-journeys}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解在歷程中使用體驗事件的可擴充模式及最佳實務，以根據其行為和事件屬性隱藏、限定或個人化設定檔。
+
+>[!ENDSHADEBOX]
 
 >[!CAUTION]
 >

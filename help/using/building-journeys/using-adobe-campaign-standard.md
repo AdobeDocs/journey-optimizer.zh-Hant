@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: 953
 ht-degree: 8%
 
 ---
 
 # [!DNL Adobe Campaign] Standard 動作 {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何仰賴Adobe Campaign Standard異動訊息範本，在歷程中使用內建的Campaign Standard電子郵件、推播和簡訊動作活動。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -74,8 +80,8 @@ ht-degree: 8%
 >
 >針對電子郵件使用設定檔的交易式範本時，[!DNL Adobe Campaign] Standard會自動處理取消訂閱機制。
 >在[交易式電子郵件範本](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)中包含&#x200B;**[!UICONTROL 取消訂閱連結]**&#x200B;內容區塊。
->如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向至取消訂閱的登陸頁面。
->建立登入頁面，並確保將收件者的取消訂閱決定傳輸至Adobe。
+>如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向取消訂閱登入頁面。
+>建立登入頁面，並確保收件者的取消訂閱決定已傳輸至Adobe。
 
 首先，您需要選擇異動訊息範本。
 

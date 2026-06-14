@@ -25,14 +25,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 8%
+source-wordcount: 337
+ht-degree: 7%
 
 ---
 
 # 使用案例：加快傳遞速度{#use-case-ramp-up-your-deliveries}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用「最佳化」活動與設定檔上限，建立逐步加快電子郵件傳送的歷程，協助您熱身新的IP位址並建立您的寄件者信譽。
+
+>[!ENDSHADEBOX]
 
 如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，您必須建立您作為寄件者的信譽。 否則，您的傳遞可能會遭到封鎖或移至收件者信箱的垃圾郵件資料夾。 在[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}中瞭解如何利用IP暖身提高您的電子郵件信譽。
 

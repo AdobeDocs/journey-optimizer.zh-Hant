@@ -11,14 +11,20 @@ keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 3%
 
 ---
 
 # 錯誤代碼參考 {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer錯誤碼的結構、尋找位置，以及如何疑難排解歷程、行銷活動和訊息設定中的常見錯誤。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]使用標準化的錯誤代碼，協助您快速識別並解決歷程、行銷活動和訊息設定間的問題。 瞭解這些錯誤代碼可以大幅減少疑難排解時間，並幫助您維持最佳行銷活動效能。
 

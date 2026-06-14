@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1203
 ht-degree: 2%
 
 ---
 
 # 結束歷程 {#journey-ending}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解個別設定檔和整體歷程的結束方式，以及在需要暫停新進入或所有處理時如何關閉或停止即時歷程。
+
+>[!ENDSHADEBOX]
 
 >[!TIP]
 >

@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: 1700
 ht-degree: 4%
 
 ---
 
 # 使用歷程進入和退出條件 {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何定義及設定歷程登入與退出條件，其中包含控制設定檔何時進入與離開您歷程的真實範例與最佳實務。
+
+>[!ENDSHADEBOX]
 
 在客戶體驗協調中，若要在適當的時間提供適當的訊息，就必須精確控制客戶何時進入及退出您的歷程。 瞭解並正確設定登入和退出標準，可區分成功、吸引人的行銷活動與錯過的機會或訊息疲勞。
 

@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 47%
+source-wordcount: 1009
+ht-degree: 46%
 
 ---
 
 # Journey Orchestration — 完整指南{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;取得Adobe Journey Optimizer中歷程協調的完整指南，內容包括如何設計、管理和調整即時適應的多步驟、多頻道客戶歷程。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]中的歷程可讓您建立個人化、多步驟的客戶歷程，這些歷程會即時因應您對象的行為和需求。 使用直覺式拖放版面，您就可以跨多管道，協調訊息和動作，運用內容資料和客群目標定位，發揮最大效果。
 

@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 20%
 
 ---
 
 # 發佈您的歷程 {#publishing-the-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何發佈歷程以將其設定為上線，包括先決條件、發佈程式、版本管理和重新發佈需求。
+
+>[!ENDSHADEBOX]
 
 發佈歷程會將其啟用：它會移至&#x200B;**[!UICONTROL 即時]**&#x200B;狀態、可供新設定檔進入，並切換至唯讀模式。 您無法發佈包含錯誤的歷程。
 

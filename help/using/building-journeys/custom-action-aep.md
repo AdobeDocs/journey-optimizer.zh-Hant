@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 442
 ht-degree: 3%
 
 ---
 
 # 使用自訂動作在 Experience Platform 中編寫歷程事件 {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用自訂動作和已驗證的API呼叫，將自訂歷程事件從歷程寫入Adobe Experience Platform。
+
+>[!ENDSHADEBOX]
 
 此使用案例說明如何使用自訂動作和已驗證的呼叫，將自訂事件從歷程寫入[!DNL Adobe Experience Platform]。
 

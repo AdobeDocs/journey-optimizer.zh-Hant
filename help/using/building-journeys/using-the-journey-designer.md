@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
 
 # 設計您的歷程 {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用歷程設計器畫布和調色盤，將事件、協調流程和動作活動拖放至建立您歷程的循序流程中。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]包含全通路協調畫布，可讓行銷人員透過一對一客戶參與來協調行銷拓展。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 請注意，您也可以在下一個可用步驟中，連按兩下活動以將其新增至畫布中。
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: 1286
 ht-degree: 1%
 
 ---
 
 # 內容決策活動 {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用內容決定活動，在您的歷程中包含個人化優惠，並將這些優惠傳送給合格的設定檔。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]可讓您透過歷程畫布中的專用&#x200B;**內容決定**&#x200B;活動，將優惠方案納入您的歷程。 然後，您可以新增其他活動（例如[自訂動作](../action/about-custom-action-configuration.md)）至您的歷程，以使用這些個人化優惠鎖定您的對象。
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # 設定您的歷程屬性 {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在編寫期間從右側邊欄設定歷程的全域屬性，包括其名稱、進入規則、時區、開始和結束日期、逾時、退出條件以及衝突管理。
+
+>[!ENDSHADEBOX]
 
 使用歷程屬性來設定歷程的全域設定，包括其名稱、進入規則、時區、開始和結束日期、逾時持續時間、退出條件以及衝突管理。 在歷程編寫的任何階段，都可從右側邊欄存取屬性。
 

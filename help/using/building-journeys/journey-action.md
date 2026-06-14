@@ -31,14 +31,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1777
-ht-degree: 13%
+source-wordcount: 1813
+ht-degree: 12%
 
 ---
 
 # 使用動作活動 {#add-a-message-in-a-journey}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用「動作」活動，透過單一整合活動從歷程畫布傳送內容，包括電子郵件、推播、簡訊、應用程式內、網路、程式碼型體驗和內容卡。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"

@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # 管理歷程中的標籤 {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用標籤和標籤類別來組織歷程，以便比命名慣例更輕鬆地分類、篩選和尋找您的歷程。
+
+>[!ENDSHADEBOX]
 
 作為Journey Optimizer的從業人員，您可以使用標籤來組織您的歷程。 標籤是一種快速、簡便的物件分類方法，用於改進搜尋。
 

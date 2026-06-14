@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # 將歷程中的傳入動作進行疑難排解 {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在聯絡支援人員之前，對歷程中的傳入動作（例如應用程式內、網頁和程式碼型體驗）進行偵錯和解決常見問題。
+
+>[!ENDSHADEBOX]
 
 傳入動作（例如應用程式內、Web和程式碼型體驗）是[!DNL Journey Optimizer]的重要元件，因為這些動作會在使用者歷程期間與其啟用個人化參與。 但可能會發生非預期的行為，例如遺失傳入內容，或設定檔退出歷程後繼續傳送。
 

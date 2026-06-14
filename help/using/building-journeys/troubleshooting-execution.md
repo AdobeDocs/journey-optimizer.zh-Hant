@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2232
+source-wordcount: 2263
 ht-degree: 11%
 
 ---
 
 # 疑難排解您的即時歷程執行 {#troubleshooting-execution}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何疑難排解即時歷程的執行，包括驗證是否已傳送事件、確認設定檔已進入並透過歷程進行，以及檢查是否已傳送訊息。
+
+>[!ENDSHADEBOX]
 
 在本節中，瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何導覽歷程，以及是否傳送訊息。
 

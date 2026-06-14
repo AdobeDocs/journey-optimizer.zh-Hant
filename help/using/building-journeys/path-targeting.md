@@ -11,14 +11,20 @@ keywords: 鎖定目標，規則，歷程，路徑，最佳化，個人化
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 823
 ht-degree: 3%
 
 ---
 
 # 利用路徑目標鎖定 {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在「最佳化」活動中使用目標定位規則，以使用選用的遞補路徑，決定性地將特定對象路由到正確的歷程路徑。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

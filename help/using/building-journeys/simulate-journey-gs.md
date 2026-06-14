@@ -11,14 +11,20 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 2%
 
 ---
 
 # 開始使用歷程模擬 {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解歷程模擬如何讓您與模擬的使用者進行測試，以及在發佈之前，模擬體驗如何根據您的歷程型別而有所不同。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

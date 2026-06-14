@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
 
 # 輪廓入口管理 {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解設定檔入口和重新入口如何針對每種歷程型別運作，以便您可以控制設定檔何時及多久進入您的歷程。
+
+>[!ENDSHADEBOX]
 
 設定檔入口管理取決於歷程型別。
 

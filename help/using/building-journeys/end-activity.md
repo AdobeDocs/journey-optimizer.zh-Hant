@@ -12,14 +12,20 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 115
-ht-degree: 78%
+source-wordcount: 144
+ht-degree: 62%
 
 ---
 
 # 結束活動{#end-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用結束活動來標籤每個歷程路徑的結尾，並新增標籤，讓您的歷程報告更容易閱讀。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"

@@ -11,14 +11,20 @@ keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: 1186
 ht-degree: 6%
 
 ---
 
 # 使用路徑實驗 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用「最佳化」活動設定路徑實驗，以使用A/B或多臂吃角子老虎機實驗來測試不同的歷程路徑、依成功量度識別績效最佳的處理，以及評估獲勝者。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"

@@ -22,14 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: 816
 ht-degree: 3%
 
 ---
 
 # 將集合傳遞至自訂動作參數 {#passing-collection}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將簡單和物件集合傳遞至自訂動作引數，以便在執行階段動態填入。
+
+>[!ENDSHADEBOX]
 
 您可以在自訂動作引數中傳遞集合，這些引數會在執行階段以動態方式填入。
 
@@ -54,7 +60,7 @@ ht-degree: 3%
 
   當每個專案包含多個欄位或屬性時，使用物件集合。 這些通常用於傳遞結構化資料，例如產品詳細資訊、事件記錄或專案屬性。
 
-  例如：
+  例如:
 
   ```json
   {

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1861
+source-wordcount: 1885
 ht-degree: 14%
 
 ---
 
 # 條件活動 {#condition-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用條件活動，根據規則、資料和對象成員資格，將設定檔路由到不同的歷程路徑。
+
+>[!ENDSHADEBOX]
 
 使用條件活動，根據規則和資料將設定檔路由至不同的路徑。
 

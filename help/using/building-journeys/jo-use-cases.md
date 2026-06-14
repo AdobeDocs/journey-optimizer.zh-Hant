@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # 透過使用案例深入了解 {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索實用Adobe Journey Optimizer使用案例和端對端案例庫，以幫助您設計歷程、模型資料及建置啟用邏輯。
+
+>[!ENDSHADEBOX]
 
 本節彙集實用使用案例，協助您充份運用[!DNL Adobe Journey Optimizer]。 無論您是要尋找戰術模式（例如隱藏邏輯、個人化技術或歷程退出策略），還是要尋找涵蓋行銷和技術工作流程的完整端對端案例，您都可以找到以下相關範例的連結。
 
@@ -56,7 +62,7 @@ ht-degree: 16%
     <div>
     <a href="exp-event-lookup.md">
     <img alt="體驗事件查詢最佳實務" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>瞭解常見的模式和可擴充的方法，以協助您在[!DNL Adobe Journey Optimizer]中善用體驗事件。 這些使用案例旨在協助您解決經常遇到的挑戰，例如管理選擇退出、控制訊息頻率、根據使用者行為個人化內容以及對即時訊號做出反應。
+    <br>瞭解常見的模式和可擴充的方法，以協助您在[!DNL Adobe Journey Optimizer]中善用體驗事件。這些使用案例旨在協助您解決經常遇到的挑戰，例如管理選擇退出、控制訊息頻率、根據使用者行為個人化內容以及對即時訊號做出反應。
     </div>
       <div>
      <a href="exp-event-lookup.md">了解更多</a></div>

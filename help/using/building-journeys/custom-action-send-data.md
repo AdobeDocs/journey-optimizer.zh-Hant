@@ -11,14 +11,20 @@ keywords: 歷程，使用案例
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 8%
+source-wordcount: 324
+ht-degree: 7%
 
 ---
 
 # 使用案例：建立自訂動作以將資料傳送至[!DNL Adobe Experience Platform]{#send-data-to-aep}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用設定檔上限條件的最佳化活動，建立逐漸增加電子郵件數量的歷程，以熱身IP並保護您的寄件者信譽。
+
+>[!ENDSHADEBOX]
 
 如果您最近移至其他電子郵件服務提供者、IP位址或電子郵件網域或子網域，請建立您的寄件者信譽。 否則，可能會封鎖傳遞或將其移至收件者的垃圾郵件資料夾。 如需指引，請參閱[傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=zh-Hant){target="_blank"}。
 

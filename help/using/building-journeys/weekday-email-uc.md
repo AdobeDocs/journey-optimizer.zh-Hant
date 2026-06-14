@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # 只在工作日傳送電子郵件 {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何設定只在工作日傳送電子郵件的歷程，使用條件活動將週末專案排入佇列，並使用自訂公式將活動等待。
+
+>[!ENDSHADEBOX]
 
 此使用案例示範如何在[!DNL Adobe Journey Optimizer]中設定只在工作日（星期一到星期五）傳送電子郵件的歷程。 對於在週末（星期六或星期日）進入歷程的設定檔，電子郵件會自動排入佇列，並在星期一的指定時間傳送。 這可透過在工作週期間傳遞訊息來確保最佳參與。
 

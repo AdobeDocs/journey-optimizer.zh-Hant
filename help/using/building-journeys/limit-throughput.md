@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 6%
+source-wordcount: 829
+ht-degree: 5%
 
 ---
 
 # 使用案例：透過外部資料來源和自訂動作限制輸送量{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用自訂動作和外部資料來源來限制歷程處理，以便外部系統不會超出其支援的每秒要求數目。
+
+>[!ENDSHADEBOX]
 
 當外部系統必須處理限定數量的每秒請求時，使用此使用案例可限制歷程處理。
 

@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # 疑難排解歷程 {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找依常見問題區域組織的疑難排解資源，協助您診斷並解決歷程錯誤、執行不一致、傳入動作問題和自訂動作問題。
+
+>[!ENDSHADEBOX]
 
 當客戶歷程的行為與預期不符時，要找出根本原因可能相當困難。 為協助您有效解決問題，您可以在下方找到最常見問題區域的疑難排解資源。 無論您是看到歷程失敗、執行不一致還是動作層級問題，每個區段都會提供目標性的指引，讓您得以調查並解決這些問題。
 

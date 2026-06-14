@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
+source-wordcount: 501
 ht-degree: 1%
 
 ---
 
 # 使用Campaign v7/v8傳送訊息 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用與Adobe Campaign v7和v8的整合，從歷程傳送電子郵件，包括建立異動範本、事件和動作。
+
+>[!ENDSHADEBOX]
 
 此使用案例說明使用與[!DNL Adobe Campaign] v7和[!DNL Adobe Campaign] v8的整合來傳送電子郵件所需的所有步驟。
 
