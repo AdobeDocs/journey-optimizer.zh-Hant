@@ -7,35 +7,30 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # 開始使用報告功能 {#get-started-report}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer的報告功能，包括最近24小時的即時報告，以及Customer Journey Analytics為您的行銷活動、歷程、登陸頁面和訂閱清單提供支援的所有時間報告。
+
+>[!ENDSHADEBOX]
+
 Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深入分析。 報告適用於行銷活動、歷程、登陸頁面、訂閱清單等。 可用的報告如下所列。
 
-此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段[&#128279;](deliverability.md)中列出的最佳實務。
+此外，為了最佳化您[!DNL Journey Optimizer]體驗的傳遞能力，我們建議使用本區段](deliverability.md)中列出的[最佳實務。
 
 
 ## 報告類型 {#reporting-types}
@@ -45,7 +40,7 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
   ![](assets/report_journey.png)
 
 
-* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間能緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更明智的決策。 在本節[&#128279;](report-gs-cja.md)中進一步瞭解所有時間報表。
+* **使用Customer Journey Analytics的全時報告** - Journey Optimizer報告與Customer Journey Analytics功能完全整合，可跨兩個平台標準化報告，並改善資料一致性和可靠性。 Journey Optimizer 與 Customer Journey Analytics 之間能緊密整合，讓您可以更清楚地檢視效能量度，讓使用者能做出更明智的決策。 在本節](report-gs-cja.md)中進一步瞭解所有時間報表[。
 
   ![](assets/gs-cja-report-1.png)
 
@@ -162,4 +157,4 @@ Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深
 
 +++
 
-在[報告教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片
+在[報告教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}中探索更多有關報告和分析的教學課程影片
