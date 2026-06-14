@@ -129,7 +129,7 @@ ht-degree: 2%
 
    1. 在&#x200B;**[!UICONTROL Supplemental identifier]**&#x200B;欄位中，使用運算式編輯器來選取補充識別碼屬性。
 
-   針對從CSV檔案匯入的對象[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
+   針對從CSV檔案匯入的對象[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
 
        >[！NOTE]
        >
@@ -200,7 +200,7 @@ ht-degree: 2%
 
 ## 外部對象的補充識別碼 {#external-audiences}
 
-外部對象支援補充ID，包括從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}匯入的對象以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
+外部對象支援補充ID，包括從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}匯入的對象以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
 
 * 使用案例1：每個唯一設定檔一列+補充ID組
 
@@ -272,7 +272,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`預設為`false`。 它必須在建立對象時設定，並且無法在建立後變更。 所有同盟對象構成對象預設都會啟用「快速啟動」，不需要此標幟。
 
-如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
 
 +++
 
