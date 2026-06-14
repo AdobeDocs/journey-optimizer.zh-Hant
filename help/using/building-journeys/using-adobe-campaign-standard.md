@@ -79,7 +79,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >針對電子郵件使用設定檔的交易式範本時，[!DNL Adobe Campaign] Standard會自動處理取消訂閱機制。
->在[交易式電子郵件範本](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)中包含&#x200B;**[!UICONTROL 取消訂閱連結]**&#x200B;內容區塊。
+>在[交易式電子郵件範本](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)中包含&#x200B;**[!UICONTROL 取消訂閱連結]**&#x200B;內容區塊。
 >如果您使用以事件為基礎的範本(rtEvent)，請在訊息中納入連結，將收件者的電子郵件當作URL引數傳遞，並將它們導向取消訂閱登入頁面。
 >建立登入頁面，並確保收件者的取消訂閱決定已傳輸至Adobe。
 
