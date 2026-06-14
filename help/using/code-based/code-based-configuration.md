@@ -7,28 +7,25 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 TQID: https://experienceleague.adobe.com/4thcFqK433YndbrbAgrzNWdP-LY00k5FSyWCqEvbg54
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 22%
+source-wordcount: 1215
+ht-degree: 21%
 
 ---
 
 # 設定您基於程式碼的體驗 {#code-based-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立程式碼式體驗管道設定，以定義內容在應用程式或網頁內傳送及使用的介面、平台和位置。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
@@ -123,7 +120,7 @@ ht-degree: 22%
 1. 下列專案適用於預覽URL：
 
    * 如果輸入單一頁面URL，該URL將用於預覽 — 不需要輸入其他URL。
-   * 如果選取了符合規則(../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]&#x200B;**，以便在瀏覽器中預覽體驗。**&#x200B;[了解更多](test-code-based.md#preview-on-device)
+   * 如果選取了符合規則](../web/web-configuration.md#web-page-matching-rule)的[頁面，您必須輸入預設的撰寫和預覽URL ]**，以便在瀏覽器中預覽體驗。**[!UICONTROL [了解更多](test-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -151,7 +148,7 @@ ht-degree: 22%
 
 1. 輸入您的&#x200B;**[!UICONTROL 應用程式識別碼]**。 這可在應用程式的作業環境中進行準確的識別和設定，並確保順暢的整合和功能。
 
-1. 提供應用程式&#x200B;**內的**&#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
+1. 提供應用程式&#x200B;]**內的**[!UICONTROL &#x200B;位置或路徑。 此欄位會指定您想讓使用者存取的應用程式內的確切目的地。 它可以是應用程式導覽結構中的特定區段或頁面，例如「hero-banner」或「product-rail」。
 
    ![](assets/code_config_3.png)
 
@@ -175,7 +172,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
+   >如果您在預覽體驗時遇到問題，請參閱[本檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link)。
 
 ### 其他平台 {#other}
 

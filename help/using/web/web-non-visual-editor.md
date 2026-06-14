@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
 TQID: https://experienceleague.adobe.com/AVN9LN-KzTpcMx-dexxN7i1i2nB4496dzSZ473a3NJE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: 462
 ht-degree: 0%
 
 ---
 
 # 使用網頁非視覺化編輯器 {#web-non-visual-editor}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Journey Optimizer非視覺化編輯器將CSS選擇器和頁面標題修改新增到您的網頁，而不需要安裝瀏覽器擴充功能或載入網頁設計工具。
+
+>[!ENDSHADEBOX]
+
 除了[!DNL Journey Optimizer]視覺化[網頁設計工具](web-visual-editor.md)之外，您也可以使用&#x200B;**非視覺化編輯器**&#x200B;來新增網頁的修改。
 
-如果您無法或不允許安裝瀏覽器延伸模組，例如[Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites)，這是在Web設計工具中載入網頁所需。
+如果您無法或不允許安裝瀏覽器擴充功能，例如[Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites) （在網頁設計工具中載入您的網頁所需），則此功能會很有用。
 
 在某些情況下，您可能會發現使用非視覺化編輯器對特定CSS選取器套用修改內容更容易，而不會冒修改網頁上其他元素或變更頁面結構的風險。
 
