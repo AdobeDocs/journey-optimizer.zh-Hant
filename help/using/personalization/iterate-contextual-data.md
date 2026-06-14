@@ -24,14 +24,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3109
 ht-degree: 1%
 
 ---
 
 # 反覆處理內容資料 {#personalization-contexts}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Handlebars反複運算語法，從內容資料來源（例如事件、自訂動作回應和資料集查詢）重複執行陣列，以在訊息中顯示動態清單。
+
+>[!ENDSHADEBOX]
 
 瞭解如何使用Handlebars反複運算語法來顯示訊息中各種來源的動態資料清單，包括事件、自訂動作回應和其他內容資料。
 
@@ -544,7 +550,7 @@ context.journey.technicalProperties.supplementalId
 
 #### 從陣列擷取單一值
 
-**使用案例**：從事件陣列取得特定欄位，以作為查詢引數傳遞至GET要求。
+**使用案例**：從事件陣列取得特定欄位，以作為查詢引數傳遞到GET要求中。
 
 +++ 檢視範常式式碼
 

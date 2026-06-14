@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Personalization使用案例：購物車放棄電子郵件 {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循購物車放棄使用案例，此案例使用upperCase、each及Adobe Journey Optimizer中的協助程式功能個人化電子郵件內文。
+
+>[!ENDSHADEBOX]
 
 在此範例中，您將個人化電子郵件內文。 此訊息會鎖定在購物車中保留商品，但尚未完成購買的客戶。
 

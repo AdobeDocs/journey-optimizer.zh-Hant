@@ -12,14 +12,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1292
 ht-degree: 5%
 
 ---
 
 # 外部資料查詢協助程式
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用externalDataLookup協助程式，以動態方式從外部端點擷取資料，並個人化Adobe Journey Optimizer中傳入管道的內容。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]個人化編輯器中的`externalDataLookup`協助程式可用來從外部端點動態擷取資料，以用於產生傳入通道（例如程式碼式體驗、網頁和應用程式內訊息通道）的內容。
 
@@ -103,7 +109,7 @@ ht-degree: 5%
 * 承載引數： `payload.<parameter-name>`
 * 路徑引數： `dynamic_path.<parameter-name>`
 
-例如：
+例如:
 
 ```
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
@@ -203,7 +209,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 為了協助進行偵錯，外部資料查詢的逾時和錯誤詳細資料包含在Adobe Experience Platform Assurance的Edge Delivery檢視中。 如果您在傳入動作中看不到externalDataLookup協助程式的預期結果，您可以啟動Assurance工作階段、從Web或行動實作起始[!DNL Journey Optimizer]呼叫，並使用Edge Delivery檢視來檢查逾時或錯誤詳細資料。
 
-例如：
+例如:
 
 在執行詳細資訊中的保證追蹤的Edge Delivery區段底下，已新增新的customActions區塊，其請求和回應詳細資訊類似於以下內容。 如果在執行自訂動作時發生任何問題，錯誤區段應該有助於進行偵錯
 

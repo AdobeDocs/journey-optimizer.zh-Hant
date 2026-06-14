@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 3%
+source-wordcount: 148
+ht-degree: 2%
 
 ---
 
 # 健康計劃處方電子郵件 {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循使用條件規則反複巢狀設定檔陣列的個人化使用案例，以建置健康計畫電子郵件，其中會列出準備收取或回收的處方。
+
+>[!ENDSHADEBOX]
 
 設定檔包含健康計畫，而每個計畫都包含處方。 處方有各種狀態，例如「就緒」、「召回」或「已接受」。
 

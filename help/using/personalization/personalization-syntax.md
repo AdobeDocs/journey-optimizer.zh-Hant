@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1299
+source-wordcount: 1325
 ht-degree: 3%
 
 ---
 
 # 個人化語法 {#personalization-syntax}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的Handlebars和PQL個人化語法，包括一般規則、保留關鍵字、型別強制執行、可用名稱空間和最佳實務。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的Personalization使用兩種互補語法，在相同的運算式中一起運作：
 
@@ -48,7 +54,7 @@ ht-degree: 3%
 | 條件區塊 | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 在陣列上回圈 | `{{#each profile.orders}}...{{/each}}` |
 
-屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
+屬性結構是在Adobe Experience Platform XDM結構描述中定義。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}。
 
 >[!TIP]
 >

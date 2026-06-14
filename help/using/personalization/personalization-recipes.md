@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Personalization訣竅 {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找可直接複製到Adobe Journey Optimizer內容中的現成個人化配方，適用於日期、陣列、字串、條件邏輯和PQL邊緣案例。
+
+>[!ENDSHADEBOX]
 
 本頁針對Adobe Journey Optimizer中最常見的使用案例提供現成的個人化模式。 所有範例都使用個人化編輯器語法，並可直接複製到電子郵件、簡訊或推播內容中。
 

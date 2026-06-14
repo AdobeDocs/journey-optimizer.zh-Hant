@@ -24,14 +24,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 756
-ht-degree: 3%
+source-wordcount: 784
+ht-degree: 2%
 
 ---
 
 # 使用 Adobe Experience Platform 資料進行個人化 {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在個人化編輯器中使用datasetLookup協助程式函式，以擷取Adobe Experience Platform記錄資料集中的欄位，並個人化您的內容。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

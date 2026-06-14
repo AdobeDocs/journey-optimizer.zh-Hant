@@ -22,14 +22,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: 123
 ht-degree: 0%
 
 ---
 
 # 將屬性新增至我的最愛 {#fav}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在您的最愛功能表中新增、存取及移除屬性，以便在Adobe Journey Optimizer中建立個人化運算式時快速重複使用。
+
+>[!ENDSHADEBOX]
 
 將不同屬性加入收藏夾功能表可讓您快速存取最常使用的專案。 若要新增屬性至您的最愛，請按一下橢圓選單，然後選擇&#x200B;**[!UICONTROL 新增至我的最愛]**。
 

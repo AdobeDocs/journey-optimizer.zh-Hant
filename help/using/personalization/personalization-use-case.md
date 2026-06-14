@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: 559
 ht-degree: 2%
 
 ---
 
 # Personalization使用案例：訂單狀態通知 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循結合設定檔、優惠決定和內容歷程資料的訂單狀態使用案例，以在Adobe Journey Optimizer中個人化推播通知。
+
+>[!ENDSHADEBOX]
 
 在此使用案例中，您將會瞭解如何在單一推播通知訊息中使用多種型別的個人化。 將使用三種型別的個人化：
 
