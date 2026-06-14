@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ AJO檔案頁面。檢視`.cursor/rules/on-this-page-box.mdc`中的規格。
    先使用`--dry-run`預覽。
 
 2. **調整措辭。** 種子是起點 — 編輯每個句子
-讀為目的陳述（一句話、純文字、美式英文）。 如果您
+讀為目的陳述（一句話、純文字、美式英文）。 **銷售機會
+使用why**：說明讀者的結果/優點(&quot;。..所以您可以 &lt;outcome>&quot;)，而非
+只是頁面涵蓋內容的清單。 符合房屋樣式特徵名稱(例如
+「協調的行銷活動」、「應用程式內」)。 請參閱`.cursor/rules/on-this-page-box.mdc`。 如果您
 略過`--seed-from-description`，已插入`{{TODO...}}`預留位置，並且
 驗證器會標籤任何剩餘的專案。
 
