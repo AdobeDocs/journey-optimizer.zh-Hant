@@ -10,30 +10,26 @@ level: Intermediate, Experienced
 keywords: 事件，單一，建立，歷程
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 TQID: https://experienceleague.adobe.com/kADXordq0QBDchciYaOzFb-3plU0JruiGQJXwq-1sB8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1688
 ht-degree: 15%
 
 ---
 
 # 設定單一事件 {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定單一事件，讓您可以根據特定人員的行為即時觸發歷程，例如購買或忠誠度里程碑。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -172,8 +168,8 @@ ht-degree: 15%
 
 1. 選取在裝載欄位清單中選為索引鍵的欄位。
 
-收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 金鑰與[身分型別](../event/about-creating.md#select-the-namespace)相關聯，可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
-金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，機碼的值可讓系統識別與事件相關聯的人員。金鑰與[身分型別](../event/about-creating.md#select-the-namespace)相關聯，可用來在Adobe Experience Platform上執行查詢。請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
+金鑰也可用來檢查個人是否在歷程中。事實上，一個人在同一歷程中不能位於兩個不同的位置。因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 ## 進階運算式編輯器 {#adv-exp-editor}
 

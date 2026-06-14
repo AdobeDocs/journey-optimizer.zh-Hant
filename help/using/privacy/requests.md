@@ -8,29 +8,26 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 TQID: https://experienceleague.adobe.com/eZC9hzg7Yf9sZ17idMlFYOX-Rn7lwGL6J2AyFaj0CV4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-  - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
-  - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: bb359667-ec7d-4d4b-8663-5850fc219d32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56id: f365ec33-2b99-4b7f-b4ee-c743dd7f615fid: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 99%
+source-wordcount: 576
+ht-degree: 92%
 
 ---
 
 # 隱私權要求 {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用Adobe Experience Platform Privacy Service來提交和管理Adobe Journey Optimizer的資料存取和刪除請求，以便您履行資料主體權利並自動遵守隱私權法規。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介面，幫助您管理客戶資料請求。 藉由 Privacy Service，您可以提交存取和刪除 Adobe Experience Cloud 應用程式中的個人客戶資料請求，協助促進法律資訊和組織隱私法規的自動合規性。
 
@@ -41,8 +38,8 @@ Adobe Experience Platform **Privacy Service** 提供 RESTful API 和使用者介
 如需隱私服務以及如何建立和管理隱私請求的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant){target="_blank"}。
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=zh-Hant)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## 管理您可傳送至 Adobe Journey Optimizer 的個別資料隱私請求 {#data-privacy-requests}
