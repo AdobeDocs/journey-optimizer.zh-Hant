@@ -9,7 +9,8 @@ role: Admin, Developer
 level: Experienced
 keywords: 物件，層級，存取，控制，標籤， olac，授權
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-feature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+feature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
 source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
@@ -81,7 +82,7 @@ ht-degree: 19%
 
    ![標籤設定欄位](assets/olac_3.png)
 
-1. 按一下[建立]**[!UICONTROL 以儲存您的**[!UICONTROL &#x200B;標籤&#x200B;]**。]**
+1. 按一下[建立]&#x200B;**[!UICONTROL 以儲存您的**&#x200B;[!UICONTROL &#x200B;標籤&#x200B;]&#x200B;**。]**
 
 您新建立的&#x200B;**[!UICONTROL 標籤]**&#x200B;現在可在清單中使用。 如有需要，您可以在[!DNL Permissions]產品中修改它。
 
