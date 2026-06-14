@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 235
-ht-degree: 100%
+source-wordcount: 262
+ht-degree: 89%
 
 ---
 
 # 執行資料生命週期作業 {#data-hygiene}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定並排程資料生命週期作業，讓您的記錄保持準確、如預期使用，並根據您的組織原則刪除。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -45,13 +51,13 @@ ht-degree: 100%
 ![](assets/data-hygiene.png)
 
 
-## 建議 {#data-hygiene-recommendations}
+## 推薦 {#data-hygiene-recommendations}
 
 當執行資料衛生操作（例如刪除身分或資料集）時，請注意，已刪除身分相關的歷史傳遞事件將不會再出現在標準報表，或是資料湖查詢中。 這可能會導致回報為&#x200B;**已傳遞**&#x200B;的電子郵件數量，也許會和收件者收件匣中&#x200B;**已接收**&#x200B;電子郵件數量之間存在些許差異，尤其對較舊的歷程來說更是如此。
 
 在執行大規模刪除之前，請先驗證並匯出任何必要的傳遞資料，或是報告資料。 如果資料檢疫後仍需要協調，請與 Adobe 支援協調，以便存取已封存記錄，或者使用訊息意見回饋事件資料集查詢，即可取得近期資料。
 
-## 瞭解更多 {#data-hygiene-learn-more}
+## 了解更多 {#data-hygiene-learn-more}
 
 有關隱私權服務以及如何執行資料生命週期操作的詳細資訊，請參閱 Adobe Experience Platform 文件：
 

@@ -25,14 +25,20 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 100%
+source-wordcount: 278
+ht-degree: 86%
 
 ---
 
 # 開始使用隱私權 {#privacy}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索用於管理資料要求、稽核記錄、同意和治理原則的Adobe Journey Optimizer和Adobe Experience Platform工具，讓您能夠負責任地處理個人資料並遵守GDPR等法規。
+
+>[!ENDSHADEBOX]
 
 Adobe Campaign 是一款強大的工具，用於收集和處理包括個人資訊及敏感資料在內的超大資料。 這就是需要謹慎管理隱私權的原因。
 

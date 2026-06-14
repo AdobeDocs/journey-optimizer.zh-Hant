@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1688
 ht-degree: 15%
 
 ---
 
 # 設定單一事件 {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定單一事件，讓您可以根據特定人員的行為即時觸發歷程，例如購買或忠誠度里程碑。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -172,8 +178,8 @@ ht-degree: 15%
 
 1. 選取在裝載欄位清單中選為索引鍵的欄位。
 
-收到事件時，機碼的值可讓系統識別與事件相關聯的人員。 金鑰與[身分型別](../event/about-creating.md#select-the-namespace)相關聯，可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
-金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，機碼的值可讓系統識別與事件相關聯的人員。金鑰與[身分型別](../event/about-creating.md#select-the-namespace)相關聯，可用來在Adobe Experience Platform上執行查詢。請參閱[此頁面](../building-journeys/about-journey-activities.md#orchestration-activities)。
+金鑰也可用來檢查個人是否在歷程中。事實上，一個人在同一歷程中不能位於兩個不同的位置。因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 ## 進階運算式編輯器 {#adv-exp-editor}
 

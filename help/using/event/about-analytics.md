@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # 可與 Adobe Analytics 資料搭配使用 {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;連線您已使用Adobe Analytics或Web SDK擷取的網頁行為資料，以便觸發歷程並自動化客戶即時活動中的即時體驗。
+
+>[!ENDSHADEBOX]
 
 您可以善用已透過Adobe Analytics或Web SDK擷取並串流至Adobe Experience Platform的所有網頁行為事件資料，以觸發歷程並自動化客戶體驗。
 

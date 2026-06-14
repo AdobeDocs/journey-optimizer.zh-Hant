@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 347
 ht-degree: 5%
 
 ---
 
 # 傳送事件的其他步驟 {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定您的資料系統以將事件推播至串流擷取API，讓您設定的事件實際可傳送至Journey Optimizer並觸發您的歷程。
+
+>[!ENDSHADEBOX]
 
 若要設定要傳送至&#x200B;**[!UICONTROL 串流擷取API]**&#x200B;並用於[!DNL Journey Optimizer]的事件，您必須遵循下列步驟：
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 1291
-ht-degree: 99%
+source-wordcount: 1320
+ht-degree: 97%
 
 ---
 
 # 管理選擇退出 {#consent}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;管理收件者如何取消訂閱通訊和選擇退出個人化，以便您可以尊重他們的同意選擇，並履行您的法律和品牌信譽義務。
+
+>[!ENDSHADEBOX]
 
 向接收者提供取消訂閱接收來自品牌通訊的功能是一項法律要求，同時確保此選擇獲得遵守。 若未遵守這些法規，品牌將面臨法律風險。 它可協助您避免傳送未經請求的通訊給您的收件者，這可能會使他們將您的訊息標示為垃圾訊息，並損害您的聲譽。
 

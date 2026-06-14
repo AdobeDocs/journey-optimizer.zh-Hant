@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c70b128e07c801e729a1268600265e47d7240291
 workflow-type: tm+mt
-source-wordcount: 2152
+source-wordcount: 2182
 ht-degree: 27%
 
 ---
 
 # 使用歷程事件 {#about-events}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;事件是啟動您歷程的即時觸發器 — 比較單一、企業和對象資格型別，針對每個使用案例挑選合適的型別。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
