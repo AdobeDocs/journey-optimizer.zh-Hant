@@ -8,28 +8,26 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # 建立即時動態 {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在Journey Optimizer中建立API觸發的行銷活動，以便您可從遠端啟動、更新及結束個別使用者或受眾的「上線」活動。
+
+>[!ENDSHADEBOX]
 
 設定行動設定並實作Adobe Experience Platform mobile SDK後，您就可以在Journey Optimizer中開始建立「即時」活動：
 
@@ -176,4 +174,4 @@ ht-degree: 9%
 
 探索如何使用 Adobe Journey Optimizer 設定 iOS 即時動態，以在 iPhone 鎖定畫面和動態島上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

@@ -8,31 +8,26 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # 開始使用即時動態 {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Live活動如何在iPhone鎖定畫面和動態島上提供永久、即時更新，以便讓使用者在持續性事件中持續參與，並規劃透過Adobe Journey Optimizer傳送這些事件所需的設定和API觸發的行銷活動。
+
+>[!ENDSHADEBOX]
 
 即時動態是裝置鎖定畫面上所顯示的永久、可瀏覽的 UI 元素。 它們可讓您的應用程式呈現即時且最新的資訊，讓使用者在整個進行中的事件中都能接收最新資訊，而不需要他們開啟應用程式或接收重複的推播通知。
 
@@ -63,7 +58,7 @@ ht-degree: 94%
 使用 Adobe Journey Optimizer，您可以透過 API 觸發的行銷活動，以程式設計方式從遠端&#x200B;**開始**、**更新**&#x200B;和&#x200B;**結束**&#x200B;即時動態，以大規模支援個別和客群型使用案例。
 
 即時活動只能&#x200B;**透過** API觸發&#x200B;**行銷活動啟動**，允許您提供自訂裝載，並透過您自己的裝載執行所有個人化。
-必須根據預期的即時活動使用案例選取適當的&#x200B;**API觸發**&#x200B;行銷活動型別：
+必須根據預期的即時活動使用案例選取適當的**API觸發**&#x200B;行銷活動型別：
 
 * 針對廣播使用案例選取 **API 觸發的行銷**——大規模傳送的客群型更新：
 
@@ -101,4 +96,4 @@ ht-degree: 94%
 
 探索如何使用 Adobe Journey Optimizer 設定 iOS 即時動態，以在 iPhone 鎖定畫面和動態島上提供豐富的即時更新。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479875/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
