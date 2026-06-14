@@ -9,8 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
 source-wordcount: 666
@@ -90,7 +92,7 @@ ht-degree: 10%
 
 1. 在條件版本畫面中，按一下&#x200B;**[!UICONTROL 儲存條件]**&#x200B;按鈕。
 
-1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。****
+1. 提供規則的名稱和說明（選擇性），然後按一下[新增]。**&#x200B;**
 
    ![](assets/conditions-name-description.png)
 
