@@ -30,7 +30,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="內容卡動作"
 >abstract="內容卡片入站動作會在設定檔達到歷程的此步驟時，向設定檔顯示內容卡片。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的內容卡設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），提供設定檔時間來檢視內容卡。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 
 內容卡片是傳入的應用程式內體驗，會直接在行動應用程式的專屬介面中顯示個人化內容（例如促銷活動、公告或推薦）。 和插入式訊息不同，這些訊息在應用程式中仍可供使用，直到使用者將其解除或您的傳送規則隱藏為止。
