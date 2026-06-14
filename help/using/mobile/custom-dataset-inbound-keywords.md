@@ -6,8 +6,12 @@ description: 瞭解如何使用Experience Platform結構描述、資料集和SMS
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 553
@@ -83,7 +87,7 @@ ht-degree: 7%
 
 1. 選擇&#x200B;**[!UICONTROL 從結構描述建立資料集]**。
 
-1. 選取在上一節中建立的結構描述，然後按一下[下一步] ****。
+1. 選取在上一節中建立的結構描述，然後按一下[下一步] **&#x200B;**。
 
    ![](assets/schema-sms-5.png)
 
@@ -111,7 +115,7 @@ ht-degree: 7%
 
    ![](assets/schema-sms-7.png)
 
-1. 完成任何剩餘的必要欄位，然後按一下[儲存]。****
+1. 完成任何剩餘的必要欄位，然後按一下[儲存]。**&#x200B;**
 
    >[!NOTE]
    >
