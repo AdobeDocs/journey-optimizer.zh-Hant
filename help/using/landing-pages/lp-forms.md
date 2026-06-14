@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 8%
 
 ---
 
 # 在您的登入頁面中使用表單 {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立表單，並將其內嵌在資料擷取登入頁面中，以收集訪客的設定檔屬性，並將提交內容寫入您的Experience Platform資料集。
+
+>[!ENDSHADEBOX]
 
 若要使用您的[!DNL Journey Optimizer]登陸頁面擷取設定檔資料並擴充[!DNL Experience Platform]資料集，您可以在登陸頁面中運用表單。 如需資料擷取案例和需求的概觀，請參閱[使用登入頁面擷取資料](get-started-lp.md#data-capture-lp)。
 

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 17%
+source-wordcount: 222
+ht-degree: 15%
 
 ---
 
 # 使用登陸頁面範本 {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將完成的登入頁面儲存為可重複使用的內容範本，然後套用以加速未來頁面的設計。
+
+>[!ENDSHADEBOX]
 
 ## 將頁面儲存為範本 {#save-as-template}
 

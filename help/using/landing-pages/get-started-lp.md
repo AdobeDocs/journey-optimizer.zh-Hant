@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # 開始使用登陸頁面 {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;登陸頁面將電子郵件、廣告或行銷活動的點按轉換為專用的網頁目的地，客戶可在此選擇加入或退出、管理其偏好設定，以及共用設定檔資料，協助您發展同意的受眾，並擷取推動個人化的第一方資料。
+
+>[!ENDSHADEBOX]
 
 登陸頁面是使用者從電子郵件、網站、廣告或任何其他數位位置按一下後被導向到的獨立網頁。
 
@@ -81,7 +87,7 @@ ht-degree: 96%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="不常使用" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>建立訂閱清單</strong></a>

@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # 在登入頁面中使用自訂JavaScript {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用自訂JavaScript擴充您的登入頁面，以驗證輸入、執行自訂表單提交、引發分析事件，或建立標準編輯器以外的動態行為。
+
+>[!ENDSHADEBOX]
 
 您可以使用自訂JavaScript來定義登入頁面內容。 例如，如果您需要執行進階樣式，或想要將自訂行為新增至登入頁面，您可以建置自己的控制項，並在[!DNL Journey Optimizer]中執行。
 

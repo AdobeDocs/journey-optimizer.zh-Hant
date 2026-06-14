@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: 1668
 ht-degree: 12%
 
 ---
 
 # 定義特定於著陸頁面的內容 {#lp-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;表單元件會將靜態登陸頁面轉換為互動式體驗 — 新增該元件，讓訪客可以選擇加入或退出、管理其訂閱，或提交會直接流入您Experience Platform資料集的資料。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"

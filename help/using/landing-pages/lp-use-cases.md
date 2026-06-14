@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1263
 ht-degree: 12%
 
 ---
 
 # 登陸頁面使用案例 {#lp-use-cases}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;逐步說明使用登入頁面推動訂閱、擷取退出，以及觸發表單提交中的後續歷程的實用範例。
+
+>[!ENDSHADEBOX]
 
 以下是如何使用[!DNL Journey Optimizer]登陸頁面，讓客戶選擇加入/退出接收部分或全部通訊的部分範例。
 

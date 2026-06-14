@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 9%
+source-wordcount: 469
+ht-degree: 8%
 
 ---
 
 # 管理登陸頁面 {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何尋找、篩選及組織您現有的登入頁面，並將其放入資料夾和標籤中，以便您的工作會隨著專案的成長而維持結構化。
+
+>[!ENDSHADEBOX]
 
 ## 存取登陸頁面 {#access-landing-pages}
 

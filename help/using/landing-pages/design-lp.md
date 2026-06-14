@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # 設計登陸頁面內容 {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索如何在內容設計工具中設計您的登入頁面內容 — 從頭開始、使用AI助理、使用您自己的HTML，或是從儲存的範本 — 以提供品牌上的訪客體驗。
+
+>[!ENDSHADEBOX]
 
 若要開始建立您的登陸[主要頁面](create-lp.md#configure-primary-page)或[子頁面](create-lp.md#configure-subpages)的內容，請將滑鼠移至您的頁面內容上，然後按一下&#x200B;**[!UICONTROL 開啟Designer]**。 您也可以按一下右側浮動視窗中對應的按鈕。
 
