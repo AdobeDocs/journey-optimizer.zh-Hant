@@ -10,12 +10,29 @@ level: Beginner
 keywords: journey optimizer，什麼是 ajo，adobe journey optimizer，開始使用，全管道，個人化，客戶歷程
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 1323
@@ -76,7 +93,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 延遲出貨復原 {#uc-delayed-shipment}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[統一輪廓 + 客群排除](../audience/get-started-profiles.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[統一輪廓 + 客群排除](../audience/get-started-profiles.md)
 
 服裝商店通常會向上週購買過產品的所有客戶傳送購買後調查。 由於天氣惡劣，少數貨物出現延誤。 在發現有客戶尚未收到發貨後，服裝店可以將他們排除在定時傳送的客戶滿意度調查之外，而改為向他們傳送一封個人化電子郵件，對延誤表示歉意，並根據客戶過去的購買情況，為其提供產品建議和折扣代碼。
 
@@ -84,7 +101,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 即時店內參與 {#uc-instore}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[地理柵欄觸發 + 推播](../push/get-started-push.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[地理柵欄觸發 + 推播](../push/get-started-push.md)
 
 同一家零售商可以向當下進入商店停車場的忠誠客戶傳送推播通知，告訴對方符合其尺寸的毛衣已有庫存，以此吸引其進店消費。
 
@@ -92,7 +109,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 購物車放棄復原 {#uc-cart}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[事件觸發的多步驟歷程](../building-journeys/journey-gs.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[事件觸發的多步驟歷程](../building-journeys/journey-gs.md)
 
 當客戶將商品新增到線上購物車但沒有完成購買就離開時，Journey Optimizer 會即時偵測事件並自動開始復原歷程。 客戶會收到個人化電子郵件，提醒他們留意剩下的項目。 如果他們沒有在 24 小時內點進，則會傳送後續推播通知，根據瀏覽歷史記錄和忠誠度狀態進行個人化。
 
@@ -100,7 +117,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 串流服務歡迎系列 {#uc-welcome}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[事件觸發的歡迎歷程](../building-journeys/journey-gs.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[事件觸發的歡迎歷程](../building-journeys/journey-gs.md)
 
 當客戶訂閱串流服務時，Journey Optimizer 會偵測註冊事件並立即開始多步驟歡迎歷程。 客戶會收到一封歡迎電子郵件，鼓勵他們第一次開啟應用程式。 如果 48 小時內未偵測到登入活動，則會傳送後續推播通知，其中包含根據註冊期間使用者宣告的興趣提供的個人化內容推薦，從第一天起，將被動訂閱者轉變為主動參與的使用者。
 
@@ -108,7 +125,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 含指示的預訂提醒 {#uc-reservation}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[已排程 + 傳送位置感知訊息](../campaigns/get-started-with-campaigns.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[已排程 + 傳送位置感知訊息](../campaigns/get-started-with-campaigns.md)
 
 餐旅品牌會在預訂開始前的一小時及時給每位來賓傳送提醒。 通知包括來賓姓名、預訂時間以及基於地點的路線指示，系統會從客戶輪廓和預訂資料中自動組合這些資訊，行銷團隊無需手動操作。
 
@@ -116,7 +133,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 主動式服務中斷通知 {#uc-outage}
 
-**角色：**&#x200B;營運 | **核心功能：**[大規模自動選取客群](../audience/about-audiences.md)
+**角色：**&#x200B;營運 | **核心功能：**&#x200B;[大規模自動選取客群](../audience/about-audiences.md)
 
 當服務中斷時，Journey Optimizer 會根據其帳戶資料和使用模式，自動識別受影響的客戶。 這些客戶會收到主動通知，確認問題並概述後續步驟，將潛在的負面體驗轉變為大規模提供的透明度和信任時刻。
 
@@ -124,7 +141,7 @@ You can also create audience-based campaigns to send messages.
 
 ### AI 支援的促銷活動 {#uc-ai-campaign}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**[AI 內容產生 + 實驗](ai-features.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[AI 內容產生 + 實驗](ai-features.md)
 
 規劃產品推出的零售品牌會使用 Journey Optimizer 的 AI 助理，在幾分鐘內產生多個主旨行與正文變化版本 (以自然語言提示及其上傳的品牌指導方針為指引)。 內建內容實驗會自動在初始客群範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
 
@@ -132,7 +149,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 透過行動應用程式維護警報 {#uc-maintenance}
 
-**角色：**&#x200B;營運 | **核心功能：**[非行銷歷程協調](../building-journeys/journey-gs.md)
+**角色：**&#x200B;營運 | **核心功能：**&#x200B;[非行銷歷程協調](../building-journeys/journey-gs.md)
 
 非行銷人員 (例如營運團隊和客戶支援) 可以使用 [!DNL Adobe Journey Optimizer] 來管理營運通知或監視上線流程。 例如，在訪客下載行動應用程式作為其體驗一部分的遊樂園：維護人員可以使用 Journey Optimizer 通知公園訪客哪些遊樂設施因維護而關閉。
 
