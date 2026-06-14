@@ -46,7 +46,7 @@ ht-degree: 11%
 >id="ajo_journey_action_in_app"
 >title="應用程式內訊息動作"
 >abstract="應用程式內訊息傳入動作會在設定檔到達歷程的此步驟時，向設定檔顯示應用程式內訊息。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的應用程式內設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視應用程式內訊息。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 
