@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # 在程式碼型體驗中使用可編輯的表單欄位 {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將可編輯的表單欄位新增至程式碼型體驗內容範本，讓行銷人員不需編輯程式碼即可自訂行銷活動和歷程中的內容。
+
+>[!ENDSHADEBOX]
 
 為了更靈活地控制程式碼型體驗，[!DNL Journey Optimizer]可讓您的開發團隊建立包含特定預先定義可編輯欄位的JSON或HTML內容範本。
 

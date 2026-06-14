@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 24%
+source-wordcount: 1009
+ht-degree: 23%
 
 ---
 
 # 管理網頁修改 {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何檢閱、刪除和復原從[修改]窗格套用至網頁的變更，以及如何直接在Adobe Journey Optimizer中新增CSS選取器和頁面標頭修改。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -172,7 +178,7 @@ ht-degree: 24%
 
 +++ **請一律將自訂程式碼包裝在一個元素中。**
 
-例如：
+例如:
 
 ```
 <script>

@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 100%
+source-wordcount: 986
+ht-degree: 96%
 
 ---
 
 # 開始使用程式碼型頻道 {#get-started-code-based}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解程式碼式頻道如何讓您在應用程式和網頁上，將個人化內容傳送到精細位置，以及何時使用它來取代其他頻道。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您透過所有接觸點 (例如：網頁應用程式、行動應用程式、桌面應用程式、視訊主控台、電視連結裝置、智慧型電視、資訊站、ATM、語音助理、IoT 裝置等)，個人化並測試您要提供給客戶的體驗。
 

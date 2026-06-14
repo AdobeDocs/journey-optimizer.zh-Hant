@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # 開始使用應用程式內頻道 {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的應用程式內傳訊頻道，透過通知與應用程式使用者互動，以推廣功能、優惠方案和上線。
+
+>[!ENDSHADEBOX]
 
 應用程式內訊息是可傳送給應用程式內使用者的通知，可引導他們前往特定興趣點。 這些通知可用於不同的用途，例如推廣新功能、呈現優惠或協助使用者上線。 藉由善用應用程式內訊息，您可有效與客群進行互動，並引導他們關注應用程式的重要環節。
 
@@ -56,7 +62,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="不常使用" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>設計您的應用程式內內容</strong></a>

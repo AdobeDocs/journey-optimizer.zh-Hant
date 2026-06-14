@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 91%
 
 ---
 
 # 開始使用網路頻道 {#get-started-web}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的Web頻道，以視覺化方式創作並在您的客戶歷程和行銷活動中提供個人化Web體驗。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] 可讓您以視覺化方式創作並為客戶提供個人化的網路體驗。
 
@@ -59,7 +65,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="create-web.md">
-<img alt="不常使用" src="../assets/do-not-localize/web-create.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>建立 Web 體驗</strong></a>。

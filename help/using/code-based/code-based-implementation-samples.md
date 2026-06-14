@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 7%
+source-wordcount: 1138
+ht-degree: 6%
 
 ---
 
 # 程式碼型實作方法範例 {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索使用者端、伺服器端和混合式實作範例，以擷取、顯示和追蹤應用程式中的程式碼型體驗內容。
+
+>[!ENDSHADEBOX]
 
 程式碼型體驗支援任何型別的客戶實施。 您可以在此頁面找到每種實作方法的範例：
 

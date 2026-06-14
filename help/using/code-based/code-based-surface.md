@@ -19,14 +19,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 52%
+source-wordcount: 853
+ht-degree: 50%
 
 ---
 
 # 程式碼型體驗表面 {#code-based-surface}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解什麼是程式碼式體驗介面和表面URI，以及它們如何識別傳遞內容的位置。
+
+>[!ENDSHADEBOX]
 
 ## 什麼是表面？ {#surface-definition}
 

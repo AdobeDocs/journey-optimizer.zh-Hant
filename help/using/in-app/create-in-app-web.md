@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: 721
 ht-degree: 6%
 
 ---
 
 # 建立網頁應用程式內訊息 {#create-in-app-web}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立網頁應用程式內訊息行銷活動，從設定頻道到定義對象、觸發器和內容。
+
+>[!ENDSHADEBOX]
 
 ## 設定網頁應用程式內頻道 {#configure-web-inapp}
 
@@ -60,7 +66,7 @@ ht-degree: 6%
 
 1. 若要指派自訂或核心資料使用標籤給應用程式內訊息，請選取&#x200B;**[!UICONTROL 管理存取權]**。 [了解更多](../administration/object-based-access.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
+1. 按一下&#x200B;**[!UICONTROL 選取對象]**&#x200B;按鈕，從可用的Adobe Experience Platform對象清單中定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
    ![](assets/in_app_web_surface_5.png)
 

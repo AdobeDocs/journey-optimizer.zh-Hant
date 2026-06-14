@@ -11,20 +11,26 @@ feature_v2:
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 20%
+source-wordcount: 1128
+ht-degree: 19%
 
 ---
 
 # 編輯網頁內容 {#edit-web-content}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Journey Optimizer網頁設計工具編輯您的網頁內容，包括新增元件、個人化、使用階層連結和瀏覽模式導覽，以及調整裝置大小。
+
+>[!ENDSHADEBOX]
+
 在您[將網頁體驗](create-web.md#create-web-experience)新增到歷程或行銷活動後，您可以使用網頁設計工具編輯您網站的內容。
 
 [透過此影片瞭解如何創作網路行銷活動](#video)
 
-在[!DNL Journey Optimizer]中，網頁製作是由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome瀏覽器擴充功能所支援。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
+在[!DNL Journey Optimizer]中，網頁撰寫是由&#x200B;**Adobe Experience Cloud Visual Helper** Chrome瀏覽器擴充功能所支援。 [了解更多](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >

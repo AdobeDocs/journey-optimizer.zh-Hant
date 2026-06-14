@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 16%
+source-wordcount: 1440
+ht-degree: 15%
 
 ---
 
 # 先決條件和護欄 {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱您在存取、編寫、傳送及報告Adobe Journey Optimizer中的Web體驗時，必須滿足的實作、視覺化撰寫、傳送及報告先決條件與護欄。
+
+>[!ENDSHADEBOX]
 
 若要能夠在[!DNL Journey Optimizer]使用者介面中存取及製作網頁，請遵循下列必要條件：
 
@@ -106,7 +112,7 @@ ht-degree: 16%
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-現在，當在[!DNL Journey Optimizer] [網頁設計工具](web-visual-editor.md)中開啟網站以進行編寫時，會自動啟用Adobe Experience Cloud Visual Editing Helper。
+Adobe Experience Cloud Visual Editing Helper現在會在[!DNL Journey Optimizer] [網頁設計工具](web-visual-editor.md)中開啟網站時自動啟用，以支援撰寫。
 
 擴充功能沒有任何條件設定，且會自動處理所有設定，包括SameSite Cookie設定。
 

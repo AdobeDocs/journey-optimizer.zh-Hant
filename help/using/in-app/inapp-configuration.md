@@ -27,14 +27,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1117
 ht-degree: 11%
 
 ---
 
 # 先決條件與設定 {#inapp-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何設定傳遞必要條件，並建立應用程式內頻道設定，以使用Adobe Journey Optimizer傳送應用程式內訊息。
+
+>[!ENDSHADEBOX]
 
 ## 設定步驟 {#inapp-steps}
 
@@ -107,7 +113,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >對於iOS和Android平台，傳送完全以應用程式ID為基礎。 如果兩個應用程式共用相同的應用程式ID，則無論在&#x200B;**[!UICONTROL 頻道設定]**&#x200B;中選取的平台為何，都會將內容傳送給兩者。
+   >對於iOS和Android平台，傳送完全以應用程式ID為基礎。如果兩個應用程式共用相同的應用程式ID，則無論在&#x200B;**[!UICONTROL 頻道設定]**&#x200B;中選取的平台為何，都會將內容傳送給兩者。
    >若要將應用程式內訊息傳送限制在特定平台，您必須在歷程或行銷活動邏輯中實作裝置特定規則。
 
    ![](assets/inapp_config_10.png)

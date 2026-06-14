@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: 832
 ht-degree: 10%
 
 ---
 
 # 程式碼型體驗必要條件 {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱將程式碼式體驗傳送至您的應用程式和網頁所需的實作、傳送和報表先決條件。
+
+>[!ENDSHADEBOX]
 
 若要能夠在[!DNL Journey Optimizer]中使用程式碼型體驗動作，並傳遞您的應用程式可以使用的程式碼內容裝載，請遵循下列先決條件：
 

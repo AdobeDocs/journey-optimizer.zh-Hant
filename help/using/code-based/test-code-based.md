@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: 899
 ht-degree: 21%
 
 ---
 
 # 測試程式碼型體驗 {#test-code-based}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在發佈之前使用測試設定檔和裝置上預覽來預覽和測試您的程式碼型體驗。
+
+>[!ENDSHADEBOX]
 
 ## 預覽您的基於程式碼的體驗 {#preview-code-based}
 
