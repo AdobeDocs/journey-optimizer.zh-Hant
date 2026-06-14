@@ -7,8 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2:
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 686
@@ -83,7 +85,7 @@ Do you need specific permissions to create AI models?
    >
    >下拉式清單中只會顯示從與&#x200B;**[!UICONTROL 體驗事件 — 主張互動]**&#x200B;欄位群組相關聯的結構描述建立的資料集。 您最多可以選取5個資料集。
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->選取要用來訓練AI模型的區段。
 
    >[!NOTE]
    >
