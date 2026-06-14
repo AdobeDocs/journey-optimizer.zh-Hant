@@ -26,14 +26,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 333
-ht-degree: 28%
+source-wordcount: 364
+ht-degree: 26%
 
 ---
 
 # 將中繼資料新增至電子郵件內容 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中設定電子郵件中繼資料，包括預覽文字、檔案標題和檔案語言，以改善電子郵件內容的可讀性和可存取性。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

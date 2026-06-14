@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # 開始使用電子郵件樣式 {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何從[電子郵件Designer樣式]窗格調整電子郵件內容的樣式，將顏色、字型、框線、邊界等設定套用到內文、結構或內容元件上。
+
+>[!ENDSHADEBOX]
 
 在 [!DNL Journey Optimizer] 中開始建立電子郵件內容後，您可從電子郵件設計工具&#x200B;**[!UICONTROL 樣式]**&#x200B;窗格調整許多樣式參數與屬性。
 

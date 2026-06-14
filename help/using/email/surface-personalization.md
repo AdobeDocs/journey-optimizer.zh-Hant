@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # 個人化電子郵件組態設定 {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件通道設定層級定義動態子網域、標頭引數和URL追蹤引數的個人化值。
+
+>[!ENDSHADEBOX]
 
 為了提高彈性並控制電子郵件設定，[!DNL Journey Optimizer]可讓您在建立電子郵件設定時，定義子網域、標題和URL追蹤引數的個人化值。
 

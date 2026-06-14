@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 78%
+source-wordcount: 563
+ht-degree: 73%
 
 ---
 
 # 開始使用電子郵件設定 {#get-starte-email-config}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解在Adobe Journey Optimizer中設定電子郵件通道的基本步驟，從委派子網域和建立IP集區，到設定通道設定、執行欄位和重試。
+
+>[!ENDSHADEBOX]
 
 在 Adobe Journey Optimizer 中設定電子郵件管道，是建立具影響力、個人化電子郵件體驗，進而有效吸引客群的閘道。
 

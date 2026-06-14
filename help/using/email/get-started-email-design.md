@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # 開始使用電子郵件設計 {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中設計您的電子郵件內容、從草稿開始建立電子郵件的關鍵步驟、程式碼或匯入的HTML，以及讓您的電子郵件在不同使用者端間正常呈現的最佳實務。
+
+>[!ENDSHADEBOX]
 
 若要存取電子郵件設計工具並開始設計您的電子郵件內容，您必須先在歷程或行銷活動中[建立電子郵件](create-email.md)。
 

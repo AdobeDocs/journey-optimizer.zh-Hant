@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 412
 ht-degree: 6%
 
 ---
 
 # 調整垂直對齊與邊框間距 {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何調整Email Designer中欄和結構的垂直對齊和填補，包括如何修正剩餘片段填補，以實現正確的行動呈現。
+
+>[!ENDSHADEBOX]
 
 在此範例中，我們將調整由三欄組成的結構元件內的邊框間距和垂直對齊方式。
 

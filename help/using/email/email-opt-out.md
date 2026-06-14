@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # 電子郵件選擇退出管理 {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;瞭解如何在您的電子郵件加入取消訂閱選項，包括電子郵件標題或內文中的一鍵選擇退出連結，以及透過登入頁面兩步驟選擇退出，以便收件者可以停止未來的通訊。
+
+>[!ENDSHADEBOX]
 
 從歷程或行銷活動傳送訊息時，您必須一律確保客戶可取消訂閱未來的通訊。 取消訂閱後，輪廓將自動從未來行銷訊息的客群中移除。  [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
 

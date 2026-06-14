@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
 
 # 設計無障礙內容 {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解在Adobe Journey Optimizer中設計無障礙電子郵件和登入頁面的最佳實務，內容涵蓋文字可讀性、替代文字、深色模式、無障礙屬性，以及符合WCAG 2.1等級AA的測試。
+
+>[!ENDSHADEBOX]
 
 [歐洲無障礙法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}是一項指令，旨在透過消除因各成員國的不同國家規則所造成的障礙，來增強無障礙產品和服務的內部市場。
 

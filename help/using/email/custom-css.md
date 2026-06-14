@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 10%
+source-wordcount: 769
+ht-degree: 9%
 
 ---
 
 # 將自訂 CSS 新增至您的電子郵件內容 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中為您的電子郵件內容新增自訂CSS以取得進階樣式、如何保持CSS有效以及如何疑難排解未套用的樣式。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
@@ -254,7 +260,7 @@ body {
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 
-  +++ 例如：
+  +++ 例如:
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
@@ -268,7 +274,7 @@ body {
 
    * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-     +++ 例如：
+     +++ 例如:
 
      ```css
      .acr-Form {

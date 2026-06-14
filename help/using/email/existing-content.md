@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 30%
+source-wordcount: 293
+ht-degree: 27%
 
 ---
 
 # 匯入電子郵件內容 {#existing-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何以HTML檔案或.zip資料夾形式匯入現有的HTML內容，以及如何轉換內容，以便使用電子郵件Designer進行編輯和個人化。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]可讓您匯入現有的HTML內容，以設計您的電子郵件。 此內容可以是：
 

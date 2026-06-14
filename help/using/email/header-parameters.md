@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 55%
+source-wordcount: 1172
+ht-degree: 54%
 
 ---
 
 # 標頭參數 {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在頻道設定中設定電子郵件標頭引數，包括[寄件者]、[回覆]、[錯誤]和選用的[寄件者]欄位，以及如何管理回覆處理和電子郵件轉寄。
+
+>[!ENDSHADEBOX]
 
 設定新的[電子郵件通道設定](email-settings.md)時，在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入與該設定所傳送電子郵件型別相關的寄件者名稱和電子郵件地址。
 

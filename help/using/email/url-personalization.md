@@ -11,14 +11,20 @@ keywords: url，連結，個人化，追蹤，編碼，大括弧
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # 個人化電子郵件中的URL {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用設定檔屬性（包括完整或基本URL和每個連結的追蹤引數）來個人化電子郵件URL，同時保持連結有效且可追蹤。
+
+>[!ENDSHADEBOX]
 
 個人化URL可協助您透過[!DNL Journey Optimizer]電子郵件訊息傳遞內容體驗，例如產生收件者特定連結或附加動態引數。
 

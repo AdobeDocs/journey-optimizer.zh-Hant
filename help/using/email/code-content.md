@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 22%
+source-wordcount: 529
+ht-degree: 21%
 
 ---
 
 # 為您自己的內容撰寫程式碼 {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer程式碼編輯器中撰寫或貼上原始HTML，以建置電子郵件內容，包括如何新增個人化及可用的日期和時間函式。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 自行編碼]**&#x200B;可讓您撰寫或貼上原始HTML，以直接在[!DNL Journey Optimizer]電子郵件Designer中建置電子郵件內容。 當您需要完全控制標籤或匯入現有HTML時，請使用此模式。
 
@@ -100,7 +106,7 @@ ht-degree: 22%
 
 * **`currentTimeInMillis()`** — 傳回目前時間（以Epoch毫秒為單位）。
 
-  範例：`{%= currentTimeInMillis() %}`
+  範例: `{%= currentTimeInMillis() %}`
 
 **建議的因應措施：**
 
@@ -108,11 +114,11 @@ ht-degree: 22%
 
 * **預先計算日期欄位** — 在傳送電子郵件之前，先計算資料管道或設定檔屬性中的必要日期值，然後在您的個人化中參考這些預先計算的值。
 
-  範例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+  範例: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
 * **使用日期操作函式** — 使用[日期/時間函式](../personalization/functions/dates.md) （例如`dayOfYear()`或`diffInDays()`）搭配設定檔屬性的日期值。
 
-  範例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+  範例: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **使用計算屬性** — 建立執行複雜日期計算的[計算屬性](../audience/computed-attributes.md)，使結果可做為設定檔屬性。
 

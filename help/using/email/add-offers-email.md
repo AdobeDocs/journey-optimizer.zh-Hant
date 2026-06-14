@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # 新增個人化產品建議 {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在您的電子郵件中插入並預覽優惠決定，讓Adobe Journey Optimizer為每位收件者提供最佳的個人化優惠。
+
+>[!ENDSHADEBOX]
 
 在[!DNL Journey Optimizer]封電子郵件中，您可以插入決定，這些決定會利用決定管理引擎來挑選最佳優惠以提供給您的客戶。
 

@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # 設定電子郵件設定 {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在通道設定中定義電子郵件設定，包括電子郵件型別、子網域、IP集區、清單取消訂閱、標頭引數、密件副本、種子清單、重試、URL追蹤及執行位址。
+
+>[!ENDSHADEBOX]
 
 若要開始建立電子郵件，您必須設定電子郵件管道設定，定義郵件訊息所需的所有技術參數。 [了解如何建立設定](../configuration/channel-surfaces.md)
 

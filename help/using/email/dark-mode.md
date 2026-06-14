@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 10%
+source-wordcount: 1584
+ht-degree: 9%
 
 ---
 
 # 管理深色模式內容 {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解電子郵件使用者端如何處理深色模式，以及如何在Email Designer中預覽和定義自訂深色模式設定，以及一致性轉譯的最佳實務。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
