@@ -44,7 +44,7 @@ ht-degree: 16%
 >id="ajo_journey_action_web"
 >title="網頁動作"
 >abstract="網路體驗傳入動作會在設定檔達到歷程的此步驟時，顯示設定檔的網路體驗。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的網頁設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視網頁體驗。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
 
 [!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 
