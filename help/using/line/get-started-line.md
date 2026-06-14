@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 TQID: https://experienceleague.adobe.com/fsaAAzI8lWdm37orBCXNoPFiY6tKBJ4q-N3-mpWlue8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # 開始使用 LINE {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解LINE傳訊在Journey Optimizer中的運作方式，讓您能夠透過歷程和行銷活動，透過其LINE應用程式觸及客戶。
+
+>[!ENDSHADEBOX]
 
 請在客戶的 LINE 應用程式上，使用 [!DNL Journey Optimizer] 傳送 LINE 簡訊給客戶。 您可以在 LINE 編輯器建立、個人化以及預覽訊息。
 
