@@ -331,4 +331,4 @@ x-sandbox-name: {SANDBOX_NAME}
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
