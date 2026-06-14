@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1007
+source-wordcount: 1034
 ht-degree: 1%
 
 ---
 
 # 設定 Sinch 提供者 {#sms-configuration-sinch}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何為SMS、MMS和RCS訊息設定個別的API認證，以將Sinch設定為您的提供者。
+
+>[!ENDSHADEBOX]
 
 搭配Journey Optimizer使用Sinch提供者時，您可以找到三個不同的選項：
 

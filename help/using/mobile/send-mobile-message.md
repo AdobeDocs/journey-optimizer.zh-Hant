@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 2%
+source-wordcount: 562
+ht-degree: 1%
 
 ---
 
 # 檢查並傳送您的行動訊息 {#send-sms}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中預覽、驗證和傳送您的行動訊息，包括檢查字元編碼和限制，以及在傳送前解決警示。
+
+>[!ENDSHADEBOX]
 
 ## 預覽您的行動裝置訊息 {#preview-sms}
 

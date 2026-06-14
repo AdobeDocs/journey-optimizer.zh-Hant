@@ -26,14 +26,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1040
 ht-degree: 24%
 
 ---
 
 # 開始使用行動訊息 {#get-started-sms}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的行動訊息，以在歷程和行銷活動中建立、個人化和傳送SMS、MMS和RCS訊息，包括提供者支援、設定要求和RCS先決條件。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

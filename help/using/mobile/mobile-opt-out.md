@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 14%
+source-wordcount: 701
+ht-degree: 13%
 
 ---
 
 # 行動訊息的選擇退出管理 {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer如何透過原生傳入關鍵字、封鎖清單、短程式碼和英數字元寄件者ID，管理簡訊、多媒體簡訊服務和RCS訊息的選擇退出。
+
+>[!ENDSHADEBOX]
 
 根據行業標準及法規，所有簡訊行銷訊息都必須包含讓收件者輕鬆取消訂閱的方式。 [進一步瞭解隱私權與選擇退出管理](../privacy/opt-out.md)
 

@@ -12,14 +12,20 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # 對傳入關鍵字使用自訂資料集 {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立Adobe Experience Platform結構描述和資料集，然後在Adobe Journey Optimizer SMS API認證中參照這些結構描述和資料集，將傳入的SMS關鍵字儲存在啟用設定檔的自訂資料集中。
+
+>[!ENDSHADEBOX]
 
 傳入簡訊關鍵字可以儲存在啟用設定檔的自訂資料集中。 此設定包含Adobe Experience Platform結構描述、從該結構描述建立的資料集，以及參照傳入訊息資料集的Journey Optimizer SMS API認證。
 

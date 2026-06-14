@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 42%
+source-wordcount: 456
+ht-degree: 40%
 
 ---
 
 # 開始使用行動設定 {#sms-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何整合提供者（例如Sinch、Twilio或Infobip）、建立webhook，以及設定行動設定，以設定您的Adobe Journey Optimizer環境來傳送SMS、MMS和RCS訊息。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -60,7 +66,7 @@ ht-degree: 42%
 在傳送SMS、MMS或RCS之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 
 1. 整合提供者設定與Journey Optimizer。
-步驟取決於您的簡訊提供者。 瀏覽以下連結以存取詳細檔案：
+步驟取決於您的簡訊提供者。瀏覽以下連結以存取詳細檔案：
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)
