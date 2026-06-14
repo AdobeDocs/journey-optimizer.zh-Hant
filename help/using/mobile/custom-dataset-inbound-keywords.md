@@ -49,7 +49,7 @@ ht-degree: 7%
 
 結構描述會定義適用於已擷取資料的結構和驗證規則。 新增下列現有欄位群組，為傳入關鍵字集合撰寫體驗事件結構描述。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解結構描述建立](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition)
 
 1. 在Adobe Experience Platform中，從&#x200B;**[!UICONTROL 資料管理]**，存取&#x200B;**[!UICONTROL 結構描述]**&#x200B;並選取&#x200B;**[!UICONTROL 建立結構描述]**。
 
