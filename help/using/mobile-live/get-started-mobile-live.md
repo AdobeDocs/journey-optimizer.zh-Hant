@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # 開始使用即時動態 {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Live活動如何在iPhone鎖定畫面和動態島上提供永久、即時更新，以便讓使用者在持續性事件中持續參與，並規劃透過Adobe Journey Optimizer傳送這些事件所需的設定和API觸發的行銷活動。
+
+>[!ENDSHADEBOX]
 
 即時動態是裝置鎖定畫面上所顯示的永久、可瀏覽的 UI 元素。 它們可讓您的應用程式呈現即時且最新的資訊，讓使用者在整個進行中的事件中都能接收最新資訊，而不需要他們開啟應用程式或接收重複的推播通知。
 

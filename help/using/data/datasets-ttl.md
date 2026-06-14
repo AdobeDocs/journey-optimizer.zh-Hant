@@ -26,14 +26,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1126
-ht-degree: 12%
+source-wordcount: 1162
+ht-degree: 11%
 
 ---
 
 # 資料集存留時間 (TTL) 護欄 {#ttl-guardrail}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Journey Optimizer系統產生的資料集的存留時間限制，以便您可以規劃追蹤、回饋和歷程資料能保留多久的時間，並在資料過期之前保留重要資料。
+
+>[!ENDSHADEBOX]
 
 自 2025 年 2 月起，將在 **新沙箱和新組織** 中，向 Journey Optimizer 系統產生的資料集，開放使用存留時間 (TTL) 護欄功能，如下所示：
 

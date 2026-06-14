@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # 歷程與行銷活動：選擇正確的方法 {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將歷程與動作、API觸發及協調的行銷活動進行比較，讓您能夠針對Adobe Journey Optimizer中的每個行銷使用案例選擇正確的方法。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]提供兩種主要方式來聯絡及吸引您的客戶：**歷程**&#x200B;和&#x200B;**行銷活動**。 歷程是專為受客戶行為驅動的即時、多步驟協調而設計，而行銷活動則更適合向已定義的對象進行一次性或排程廣播。 決定行銷活動後，您就可以選擇最適合您使用案例的行銷活動型別。
 
@@ -86,7 +92,7 @@ ht-degree: 4%
 * 以行為為基礎的條件式邏輯
 * 即時上下文至關重要
 
-**在排程的時間將簡單的訊息傳送給對象？**
+**在排程的時間向對象傳送簡單訊息？**
 → **使用動作行銷活動**
 * 所有設定檔都會同時接收訊息
 * 排程或週期性傳送

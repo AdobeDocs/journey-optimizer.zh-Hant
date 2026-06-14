@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，套件，授權，行銷活動，歷程，頻道，決策，傳出，行動，網頁，模組化
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 2%
 
 ---
 
 
 # Adobe Journey Optimizer套件和功能 {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解模組化Adobe Journey Optimizer封裝如何跨基本優惠方案、通路附加元件和決定附加元件運作，以便您選擇符合參與使用案例和預算的組合。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]使用模組化封裝模型。 從符合您主要使用案例的基本優惠方案開始，然後新增您需要的頻道和進階功能。
 

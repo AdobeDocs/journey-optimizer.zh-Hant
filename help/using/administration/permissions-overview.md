@@ -25,18 +25,24 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # 開始使用存取控制 {#permissions-overview}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;熟悉Journey Optimizer中的核心存取控制概念，包括角色、許可權、沙箱，以及物件和屬性型存取控制，因此您可以規劃如何授與使用者正確的存取權。
+
+>[!ENDSHADEBOX]
+
 [!DNL Journey Optimizer]可讓您定義並管理指派給不同使用者的許可權。 許可權是授權或拒絕存取產品內功能的一組許可權和限制。
 
-透過Adobe Experience Cloud中的&#x200B;**許可權**&#x200B;提供[!DNL Journey Optimizer]的存取控制。 此功能利用角色和原則，將使用者與許可權和沙箱連結。
+[!DNL Journey Optimizer]的存取控制是透過Adobe Experience Cloud中的&#x200B;**許可權**&#x200B;提供。 此功能利用角色和原則，將使用者與許可權和沙箱連結。
 
 若要設定Journey Optimizer的存取控制，您必須擁有組織的系統或產品管理員許可權。 可授予或撤銷許可權的最低角色為產品管理員。 可以管理許可權的其他管理員角色是系統管理員（無限制）。 如需詳細資訊，請參閱有關管理角色的[Adobe說明中心文章](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html){target="_blank"}。
 
@@ -54,8 +60,8 @@ ht-degree: 9%
 
 [!DNL Journey Optimizer]中的使用者管理是以這些重要概念為基礎：
 
-* **[!UICONTROL 角色]**：角色是指共用相同許可權和沙箱的使用者集合。 這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。 角色具有一組統一許可權（許可權），可讓使用者存取介面中的特定功能或物件。
-透過[!DNL Journey Optimizer]，您可以從預先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;範圍中進行選擇，每個角色都有不同的許可權層級，以指派給您的使用者。 深入瞭解[此頁面](ootb-product-profiles.md)上可用的&#x200B;**內建角色**。
+* **[!UICONTROL 角色]**：角色是指共用相同許可權和沙箱的使用者集合。這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。角色具有一組統一許可權（許可權），可讓使用者存取介面中的特定功能或物件。
+透過[!DNL Journey Optimizer]，您可以從預先存在的&#x200B;**[!UICONTROL 角色]**&#x200B;範圍中進行選擇，每個角色都有不同的許可權層級，以指派給您的使用者。深入瞭解[此頁面](ootb-product-profiles.md)上可用的&#x200B;**內建角色**。
 
 * **[!UICONTROL 許可權]**：許可權是統一許可權，可讓您定義指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的授權。 每個許可權都集中在資源（例如歷程或優惠）下，代表[!DNL Journey Optimizer]中的不同功能或物件。 在[權限層級](high-low-permissions.md)一節中了解更多 。
 

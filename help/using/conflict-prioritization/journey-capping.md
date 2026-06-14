@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 993
 ht-degree: 18%
 
 ---
 
 # 歷程上限與仲裁 {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;限制設定檔可以一次輸入或註冊多少歷程，以便防止通訊超載，並排定最重要的歷程的優先順序。
+
+>[!ENDSHADEBOX]
 
 歷程上限可幫助您限制設定檔可註冊的歷程次數，防止通訊過載。 在Journey Optimizer中，您可以設定兩種型別的上限規則：
 

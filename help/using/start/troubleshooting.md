@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4714
+source-wordcount: 4739
 ht-degree: 0%
 
 ---
 
 # 疑難排解常見問題集 {#ajo-troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找跨管道、資料、對象和設定之常見Adobe Journey Optimizer問題的解答和修正，以便您快速解決問題。
+
+>[!ENDSHADEBOX]
 
 以下為Adobe Journey Optimizer的疑難排解文章清單。 每個疑難排解區段都提供常見問題的解答和問題的解決方案。
 

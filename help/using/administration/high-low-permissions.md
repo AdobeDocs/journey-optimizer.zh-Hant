@@ -23,15 +23,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1545
 ht-degree: 0%
 
 ---
 
 # 權限層級 {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解高階許可權如何針對每個資源將基礎低階許可權分組，以便您可以授與角色完全符合使用者需要的功能存取許可權。
+
+>[!ENDSHADEBOX]
 
 每個角色都包含允許使用者存取不同功能的許可權。
 

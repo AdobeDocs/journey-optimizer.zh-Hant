@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: 447
 ht-degree: 9%
 
 ---
 
 # 建立即時動態 {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在Journey Optimizer中建立API觸發的行銷活動，以便您可從遠端啟動、更新及結束個別使用者或受眾的「上線」活動。
+
+>[!ENDSHADEBOX]
 
 設定行動設定並實作Adobe Experience Platform mobile SDK後，您就可以在Journey Optimizer中開始建立「即時」活動：
 

@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 792
 ht-degree: 8%
 
 ---
 
 # 管理使用者和角色 {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在許可權產品中指派、編輯及建立角色，這樣您就可以授與每位使用者在Journey Optimizer中完成工作所需的確切存取權。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 角色]**&#x200B;是指共用相同許可權和沙箱的使用者集合。 這些角色可讓您輕鬆管理組織內不同使用者群組的存取和許可權。
 

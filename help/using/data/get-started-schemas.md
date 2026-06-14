@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # 開始使用結構描述 {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Experience Platform標準和關聯式結構描述如何定義您的資料結構，以便您可以在Adobe Journey Optimizer中為個人化和協調行銷活動建立設定檔、行為事件和關聯式實體的模型。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] 仰賴 **Adobe Experience Platform 結構描述**，以一致且可重複使用的方式描述資料結構。 結構描述會提供真實物件 (例如個人) 等抽象定義，還會概述應加入物件的每個執行個體的資料 (例如名字、生日等)。 將資料擷取至 Experience Platform 時，其結構一律符合 **XDM 結構描述**。
 
@@ -52,7 +58,7 @@ Adobe Experience Platform 中有兩種結構描述：
 
   ➡️ [觀看這段影片，了解如何建立和設定標準結構描述](#video-schema) (影片)
 
-* **關聯式結構描述**&#x200B;是不使用類別或欄位群組的扁平、非階層式結構描述。 它們用於擷取關聯式實體的記錄資料，主要用於[!DNL Journey Optimizer]**協調行銷活動**。
+* **關聯式結構描述**&#x200B;是不使用類別或欄位群組的扁平、非階層式結構描述。 它們用於擷取關聯式實體的記錄資料，主要用於[!DNL Journey Optimizer]&#x200B;**協調行銷活動**。
 
   關聯式實體的範例包括：
    * 預訂、合約或訂閱

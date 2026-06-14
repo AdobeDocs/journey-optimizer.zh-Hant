@@ -25,14 +25,20 @@ subfeature_v2:
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 100%
+source-wordcount: 161
+ht-degree: 77%
 
 ---
 
 # 開始使用查詢 {#queries-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用由Adobe Experience Platform查詢服務支援的查詢編輯器，以便您可以編寫、驗證和執行客戶體驗資料的查詢，以便在Adobe Journey Optimizer中分析和探索資料。
+
+>[!ENDSHADEBOX]
 
 查詢編輯器是 Adobe Experience Platform 查詢服務提供的互動式工具，允許您在 [!DNL Adobe Journey Optimizer] 使用者介面編寫、驗證和執行對客戶體驗資料的查詢。
 

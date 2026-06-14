@@ -32,14 +32,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1238
 ht-degree: 2%
 
 ---
 
 # 內建權限 {#ootb-permissions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱每個功能可用的內建許可權，這樣您就可以指派角色，讓使用者在Journey Optimizer中工作所需的精確許可權。
+
+>[!ENDSHADEBOX]
 
 內建許可權代表可以指派給&#x200B;**[!UICONTROL 角色]**&#x200B;的各種許可權，以微調您對Journey Optimizer的使用者存取權。 高階許可權包含低階許可權，詳細資訊位於[此頁面](high-low-permissions.md)。
 

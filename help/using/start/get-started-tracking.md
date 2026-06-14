@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # 開始使用Journey Optimizer中的追蹤功能 {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何跨管道追蹤客戶互動，以及在Journey Optimizer中監視傳遞能力與系統健康狀況，以便您可以衡量行銷活動的成效並做出資料導向式決策。
+
+>[!ENDSHADEBOX]
 
 追蹤可讓您評估行銷活動的成效、最佳化客戶體驗，並確保訊息送達其預期的收件者。 Journey Optimizer提供全方位追蹤功能，可擷取客戶互動、傳遞效能及系統健康狀況，協助您做出資料導向式決策，同時尊重隱私權並維護合規性。
 
@@ -91,7 +97,7 @@ ht-degree: 3%
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="報告" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="報表" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>探索報告</strong></a>

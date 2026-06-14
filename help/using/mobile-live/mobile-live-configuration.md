@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 528
-ht-degree: 2%
+source-wordcount: 557
+ht-degree: 1%
 
 ---
 
 # 開始使用即時活動設定 {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定您的推送認證和Live Activity頻道設定，以便您可以授權Adobe Journey Optimizer傳送即時更新至您的iOS應用程式。
+
+>[!ENDSHADEBOX]
 
 在傳送即時活動之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 

@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 82%
+source-wordcount: 829
+ht-degree: 79%
 
 ---
 
 # 搜尋、篩選、整理 {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用通用搜尋、清單篩選器和標籤，快速找到並組織歷程、行銷活動和資產，讓您能夠在Journey Optimizer專案成長的同時保持生產力。
+
+>[!ENDSHADEBOX]
 
 隨著您的 Adobe Journey Optimizer 專案發展，尋找和整理內容對於提高工作效率至關重要。 此頁面說明如何使用通用搜尋快速找到歷程、行銷活動和資產；篩選清單以聚焦於特定項目；以及使用標籤和類別來整理您的工作。 這些工具可協助您導覽大量內容、維護跨團隊的一致性，並簡化您的日常工作流程。
 

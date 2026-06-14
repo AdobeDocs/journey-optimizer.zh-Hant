@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: 1112
 ht-degree: 4%
 
 ---
 
 # 屬性型存取控制 {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用Adobe Journey Optimizer中的屬性式存取控制，將敏感結構描述欄位、設定檔屬性和對象限製為授權角色，以便您可以保護個人資料並防止未經授權的使用者對其採取行動。
+
+>[!ENDSHADEBOX]
 
 以屬性為基礎的存取控制功能可讓您定義授權，以管理特定團隊或使用者群組的資料存取。 其目的在於保護敏感數位資產免受未經授權使用者的攻擊，進一步保護個人資料。
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1076
-ht-degree: 100%
+source-wordcount: 1099
+ht-degree: 97%
 
 ---
 
 # 系統管理員快速入門 {#get-started-sys-admins}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定使用者、許可權、沙箱和管道設定，讓您的團隊可以在Adobe Journey Optimizer中安全有效地工作。
+
+>[!ENDSHADEBOX]
 
 您身為&#x200B;**系統管理員**，可以設定 Journey Optimizer 環境、管理存取權，讓團隊更能有效、安全地工作。 您執行必要設定步驟，讓[資料工程師](data-engineer.md)、[開發商](developer.md)和[行銷人員](marketer.md)可以開始使用[!DNL Adobe Journey Optimizer]。
 
@@ -101,7 +107,7 @@ ht-degree: 100%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
+   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
 
 ## 其他功能
 

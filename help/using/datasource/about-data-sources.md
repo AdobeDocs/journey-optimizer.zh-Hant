@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # 開始使用資料來源 {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解什麼是資料來源，以及如何選擇正確的資料存取策略，以便您將其他資料帶入您的歷程，瞭解條件、個人化和時間安排。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

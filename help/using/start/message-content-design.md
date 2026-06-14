@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # 設計訊息內容{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索設計個人化電子郵件、推播、簡訊和應用程式內內容的工具和最佳實務，以便您傳送可促進參與度的品牌內訊息。
+
+>[!ENDSHADEBOX]
 
 在Adobe Journey Optimizer中設計訊息內容可讓您跨所有管道建立吸引人的個人化通訊。 無論您是使用豐富的視覺版面設計電子郵件、建立行動裝置最佳化推播通知、設計互動式應用程式內體驗，還是傳送SMS訊息，本節都能提供內容建立最佳實務的完整指引。 瞭解如何將範本和片段用於可重複使用的內容、套用個人化和動態內容以量身打造每個收件者的訊息，並確保協助工具合規性。 從瞭解設計原則到實作進階格式選項，您都能掌握所需的工具，以交付吸引人的品牌體驗，進而促進參與度和轉化率。
 

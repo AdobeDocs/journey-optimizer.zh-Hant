@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 948
 ht-degree: 6%
 
 ---
 
 # 設定勿打擾時間 {#quiet-hours}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義電子郵件、簡訊、推播和WhatsApp的時間型排除專案，以避免在錯誤的時間傳送訊息給客戶，並尊重其偏好設定和合規性要求。
+
+>[!ENDSHADEBOX]
 
 ## 什麼是無訊息時數
 

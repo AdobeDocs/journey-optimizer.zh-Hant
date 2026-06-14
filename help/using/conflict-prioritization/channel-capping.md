@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 9%
 
 ---
 
 # 依據頻道、通訊類型，設定頻率上限 {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;依頻道和通訊型別設定頻率上限，以便您可以限制設定檔接收多少訊息，並避免客戶因類似通訊而感到不知所措。
+
+>[!ENDSHADEBOX]
 
 **管道**&#x200B;規則集套用上限規則至通訊管道。 例如，每天傳送的電子郵件或 SMS 請勿超過 1 則。
 

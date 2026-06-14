@@ -26,14 +26,20 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 10%
+source-wordcount: 922
+ht-degree: 9%
 
 ---
 
 # 使用 Adobe Experience Platform 資料 {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;啟用以記錄為基礎的Adobe Experience Platform資料集以進行查詢，這樣您就可以擴充個人化、決策和歷程協調流程，並在Journey Optimizer執行階段擷取參考和異動資料。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
@@ -64,7 +70,7 @@ ht-degree: 10%
 
 * **Edge啟用區域** — 啟用查閱的資料集僅適用於資料集沙箱所在的區域（例如NLD2或VA7）的傳入邊緣型啟用。 您可以在UI中沙箱名稱旁邊看到沙箱區域。
 
-* **批次資料刪除** — 從資料集移除批次資料，會從查詢服務中完全移除所有相符的索引鍵。 例如：
+* **批次資料刪除** — 從資料集移除批次資料，會從查詢服務中完全移除所有相符的索引鍵。 例如:
 
   **批次1**： Sku1、Sku2、Sku3\
   **批次2**： Sku1、Sku2、Sku3、Sku4、Sku5、Sku6\

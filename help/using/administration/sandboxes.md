@@ -22,14 +22,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 25%
+source-wordcount: 464
+ht-degree: 24%
 
 ---
 
 # 使用並指派沙箱 {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用並指派沙箱，將您的Adobe Journey Optimizer執行個體分割成隔離的環境，以便您可以開發、測試和在生產環境中執行，而不會影響其他工作。
+
+>[!ENDSHADEBOX]
 
 **沙箱**&#x200B;是將您的Adobe Journey Optimizer執行個體分割成個別、獨立的工作區的虛擬環境，以用於開發、測試或生產。 您會在&#x200B;**管理** > **管道** > **連線您的系統和環境** （或透過介面右上角的沙箱切換器）下找到沙箱管理。 沙箱可協助您安全地實驗、為每個角色指派不同的存取權，並讓內容保持井然有序。 本頁涵蓋如何使用及指派沙箱、設定內容存取權，以及在[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)文章中，如何複製沙箱之間的歷程及範本。
 

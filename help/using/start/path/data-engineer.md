@@ -29,14 +29,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 991
-ht-degree: 100%
+source-wordcount: 1017
+ht-degree: 97%
 
 ---
 
 # 資料工程師快速入門 {#data-engineer}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立支援Adobe Journey Optimizer的結構描述、資料集、身分和資料來源，讓您的團隊可以提供即時、個人化的客戶體驗。
+
+>[!ENDSHADEBOX]
 
 作為&#x200B;**資料架構者**&#x200B;或&#x200B;**資料工程師**，您可以設定、維護客戶輪廓資料和其他資料來源，以便支援 [!DNL Journey Optimizer] 協調的體驗。 這包括將所有客戶、企業資料，不論是來自網頁、客戶關係管理，或是離線來源，都能一併整合入客戶統一的 360 度視圖中。 您可以將客戶設定檔資料、企業資料模型化為結構描述、設定來源連接器，以便擷取資料，同時確認資料流程順暢無阻，即可啟用即時客戶洞察、參與度。 當[系統管理員](administrator.md)授與您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 

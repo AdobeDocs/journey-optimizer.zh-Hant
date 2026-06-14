@@ -26,14 +26,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 2107
+source-wordcount: 2137
 ht-degree: 6%
 
 ---
 
 # 內建角色 {#ootb-product-profiles}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索內建角色和每個角色包含的許可權，以便您可以快速授予使用者符合其職責的現成存取層級。
+
+>[!ENDSHADEBOX]
 
 內建角色是一組統一許可權，可讓使用者存取介面中的特定功能或物件。 如需建立角色的可用許可權清單，請參閱[此頁面](ootb-permissions.md)。
 

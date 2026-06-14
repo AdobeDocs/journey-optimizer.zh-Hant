@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # 疑難排解即時動態 {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;系統化診斷您的Live活動無法出現、更新或結束的原因，以便您解決單一和廣播使用案例中的設定檔權杖、行銷活動設定、裝載和傳遞問題。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer中的已上線活動可在iOS鎖定畫面和動態島嶼上啟用即時、動態更新。 它們只能透過API觸發的行銷活動來觸發和管理。
 

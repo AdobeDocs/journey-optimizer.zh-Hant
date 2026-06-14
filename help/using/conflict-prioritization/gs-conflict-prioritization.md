@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # 衝突管理與優先順序 {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解衝突偵測、優先順序分數和規則集如何共同運作，以避免重疊的通訊，並控制傳送訊息給客戶的頻率。
+
+>[!ENDSHADEBOX]
 
 在 Journey Optimizer 中，務必要管理行銷活動和歷程的流量和時間，才能避免過多的互動給客戶帶來負擔。 衝突管理和優先順序工具可防止客戶疲勞並確保將正確的訊息傳達給您的客群，協助您提供周到且適時進行的通訊。 透過使用衝突偵測、優先順序分數和規則集，您可以簡化行銷活動和歷程，以避免跨管道重疊和平衡頻率。
 

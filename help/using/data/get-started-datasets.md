@@ -28,14 +28,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 91%
+source-wordcount: 1087
+ht-degree: 88%
 
 ---
 
 # 開始使用資料集 {#datasets-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取、建立和管理Adobe Experience Platform資料集，以便儲存和探索Adobe Journey Optimizer中支援歷程、行銷活動和報告的資料。
+
+>[!ENDSHADEBOX]
 
 所有擷取至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。
 

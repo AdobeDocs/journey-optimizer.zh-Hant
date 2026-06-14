@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1026
 ht-degree: 4%
 
 ---
 
 # 最佳做法 {#best-practices}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;套用Journey Optimizer最佳實務來結合身分、全通路個人化和歷程護欄，這樣您就能建立可靠的使用案例，並在系統限制內有效率地擴展。
+
+>[!ENDSHADEBOX]
 
 ## 即時使用案例和全通路個人化指引 {#real-time-guidance}
 
