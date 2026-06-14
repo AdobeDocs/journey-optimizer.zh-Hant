@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 892
-ht-degree: 8%
+source-wordcount: 920
+ht-degree: 7%
 
 ---
 
 # 排除原因 {#exclusion-list}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解排除的原因、錯誤碼以及無法傳送訊息的受影響管道，並瞭解在您的行銷活動報告中如何計算排除專案。
+
+>[!ENDSHADEBOX]
 
 ## 行銷活動報告中排除專案的計算方式
 

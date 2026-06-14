@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 676
 ht-degree: 4%
 
 ---
 
 # 建立歷程報告 {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Journey Optimizer如何自動將歷程步驟事件資料串流到Adobe Experience Platform，以便您可以將其與其他資料結合，並在Customer Journey Analytics中分析歷程績效。
+
+>[!ENDSHADEBOX]
 
 除了[即時報表](live-report.md)和內建[報告功能](report-gs-cja.md)之外，[!DNL Journey Optimizer]還可以自動將歷程績效資料傳送至Adobe Experience Platform，以便與其他資料結合以進行分析。
 

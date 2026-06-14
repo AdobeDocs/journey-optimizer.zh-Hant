@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 407
 ht-degree: 2%
 
 ---
 
 # 實驗歷程報告 {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何閱讀歷程報告中的實驗量度，包括實驗KPI、提升度和信賴度，以及內容和路徑實驗成功量度的變數效能。
+
+>[!ENDSHADEBOX]
 
 您的歷程報告可讓您全面瞭解實驗的執行情況，以及瞭解其影響所需的關鍵量度。
 

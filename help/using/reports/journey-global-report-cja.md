@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
 
 # 歷程報告 {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索Customer Journey Analytics中的Adobe Journey Optimizer歷程報告，分析歷程KPI、統計資料、排除專案、動作和事件績效以及歷程畫布。
+
+>[!ENDSHADEBOX]
 
 **歷程報告**&#x200B;可作為全方位儀表板，提供與您的歷程相關聯的基本量度分析。 這包含諸如輸入的設定檔計數和失敗的個人歷程例項等詳細資訊，提供全面的insight來瞭解歷程的有效性和參與程度。
 

@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # 查詢範例{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找現成的SQL查詢範例，以分析和疑難排解Adobe Experience Platform Data Lake中的歷程步驟事件。
+
+>[!ENDSHADEBOX]
 
 本節提供在資料湖中查詢歷程步驟事件的常用範例。 在深入研究特定使用案例之前，請務必瞭解歷程事件資料中使用的關鍵識別碼。
 

@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # journeyStep 事件識別欄位 {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;參考歷程步驟事件用來描述設定檔身分的身分識別欄位，包括設定檔識別碼及其名稱空間。
+
+>[!ENDSHADEBOX]
 
 此欄位群組是journeyStepEvent專屬的：此事件與歷程有關，且沒有identityMap，說明設定檔身分（如有）。
 

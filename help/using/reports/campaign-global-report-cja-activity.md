@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 692
 ht-degree: 1%
 
 ---
 
 # 即時活動行銷活動報告 {#campaign-global-report-cja-activity}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中閱讀即時活動行銷活動報告，以追蹤傳送統計資料、即時活動生命週期事件、錯誤原因和排除原因。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

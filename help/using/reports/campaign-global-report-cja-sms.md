@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: 700
 ht-degree: 3%
 
 ---
 
 # 簡訊行銷活動報告 {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中閱讀簡訊行銷活動報告，以分析您的簡訊的傳遞和點選趨勢、傳遞狀態、追蹤的連結、傳入訊息，以及退信、錯誤和排除原因。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

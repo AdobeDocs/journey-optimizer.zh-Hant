@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 507
 ht-degree: 4%
 
 ---
 
 # 行銷活動全域報告 {#objective-report}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用Adobe Journey Optimizer行銷活動全域報告來檢閱傳遞統計資料、鎖定特定目標，以及在實驗報告中比較變體效能。
+
+>[!ENDSHADEBOX]
 
 透過&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，可以直接從您的行銷活動存取行銷活動全域報告。
 

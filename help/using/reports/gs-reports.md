@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 23%
+source-wordcount: 526
+ht-degree: 21%
 
 ---
 
 # 開始使用報告功能 {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer的報告功能，包括最近24小時的即時報告，以及Customer Journey Analytics為您的行銷活動、歷程、登陸頁面和訂閱清單提供支援的所有時間報告。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer透過強大的報告功能，為您提供可操作的深入分析。 報告適用於行銷活動、歷程、登陸頁面、訂閱清單等。 可用的報告如下所列。
 

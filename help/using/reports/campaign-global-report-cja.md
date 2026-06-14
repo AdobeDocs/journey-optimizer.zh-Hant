@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 647
 ht-degree: 1%
 
 ---
 
 # 行銷活動報告 {#campaign-global-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中閱讀行銷活動報告，以檢閱行銷活動KPI、行銷活動概觀和funnel、追蹤的連結，以及行銷活動中使用之所有管道的目標效能。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

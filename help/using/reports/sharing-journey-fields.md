@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 6%
+source-wordcount: 159
+ht-degree: 5%
 
 ---
 
 # 歷程欄位 {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;參考歷程結構描述中使用的歷程欄位，說明歷程步驟事件報告中的每個歷程，例如歷程ID、版本、名稱和說明。
+
+>[!ENDSHADEBOX]
 
 此欄位群組用於&#x200B;**歷程**&#x200B;結構描述（與&#x200B;**journeyStepEvent**&#x200B;相關）。 它包含下列欄位。
 

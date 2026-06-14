@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 665
+source-wordcount: 685
 ht-degree: 2%
 
 ---
 
 # journeyStep 事件動作執行欄位 {#sharing-execution-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;當步驟處理自訂動作時，請參考新增到歷程步驟事件的動作執行欄位。
+
+>[!ENDSHADEBOX]
 
 此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 

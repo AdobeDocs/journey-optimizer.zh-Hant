@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: 659
 ht-degree: 0%
 
 ---
 
 # journeysteps事件常見欄位 {#sharing-common-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;參考Journey Optimizer針對歷程中處理的每個步驟傳送至Adobe Experience Platform的常見歷程步驟事件欄位。
+
+>[!ENDSHADEBOX]
 
 此欄位群組將由以下事件共用： **journeyStepEvent**&#x200B;和&#x200B;**journeyStepProfileEvent**。
 

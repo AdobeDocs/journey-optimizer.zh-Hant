@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 6%
+source-wordcount: 507
+ht-degree: 5%
 
 ---
 
 # 手動設定[!DNL Customer Journey Analytics] {#cja-ajo}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立連線和資料檢視，以手動設定Adobe Journey Optimizer與Customer Journey Analytics之間的整合，進而分析您的歷程和訊息資料。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]與[!DNL Customer Journey Analytics]的整合可透過自動化報告發佈和自訂資料視覺效果，提供您所有歷程的整體檢視。
 

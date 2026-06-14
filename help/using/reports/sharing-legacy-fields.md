@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 50%
+source-wordcount: 73
+ht-degree: 31%
 
 ---
 
 # 關於舊版欄位 {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;參考組成原始歷程步驟事件欄位群組的舊版欄位，包括通用、動作執行、資料擷取、身分和歷程欄位。
+
+>[!ENDSHADEBOX]
 
 此類別包含原始步驟事件欄位。 這些欄位是以下欄位群組的一部分：
 

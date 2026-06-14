@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 報告
+title: 報表
 description: 開始使用報告功能
 feature: Reporting
 topic: Content Management
@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1441
+source-wordcount: 1424
 ht-degree: 2%
 
 ---
 
 # 管理您的報告 {#channel-cja-manage}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在Adobe Journey Optimizer中分析資料、設定報表期間、匯出和排程報表、建立自訂量度，以及建立對象，藉此管理您的Customer Journey Analytics報表。
+
+>[!ENDSHADEBOX]
 
 ## 在Customer Journey Analytics中分析 {#analyze}
 
@@ -211,8 +217,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->每個組織僅限發佈25個對象。 此外，使用者每小時最多可發佈5個對象，每天最多可發佈20個對象。
-> 一次性對象的生命週期為48小時。 因此，如果在該時間範圍內發佈25個對象，則僅在48小時期間過後才能發佈其他對象。
+>每個組織僅限發佈25個對象。此外，使用者每小時最多可發佈5個對象，每天最多可發佈20個對象。
+> 一次性對象的生命週期為48小時。因此，如果在該時間範圍內發佈25個對象，則僅在48小時期間過後才能發佈其他對象。
 
 您現在可以選取表格中的特定資料，並從這些選取專案直接建立對象，以精簡及簡化對象建立流程。
 

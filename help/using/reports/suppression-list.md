@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 11%
+source-wordcount: 870
+ht-degree: 10%
 
 ---
 
 # 禁止名單 {#suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解隱藏清單如何從您的傳遞中排除特定的電子郵件地址和網域，以保護您的傳送信譽和傳遞率。
+
+>[!ENDSHADEBOX]
 
 隱藏清單包含您要從傳送中排除的地址和網域，因為傳送給這些聯絡人可能會損害您的傳送信譽和傳送率。
 

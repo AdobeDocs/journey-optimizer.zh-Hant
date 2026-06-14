@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 753
 ht-degree: 1%
 
 ---
 
 # 元件清單 {#list-of-components-live}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;參考在Adobe Journey Optimizer報告中使用的歷程、電子郵件、簡訊、登陸頁面及推播通知量度的定義。
+
+>[!ENDSHADEBOX]
 
 下表提供報表中使用的量度清單，以及量度定義（視傳送型別而定）。
 

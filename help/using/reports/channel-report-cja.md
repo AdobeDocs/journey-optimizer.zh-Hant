@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
 
 # 概觀報表 {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用概觀報告，以分析所有行銷活動和歷程的統一流量和參與量度，以及用於歷程、行銷活動、管道、歷程上限規則集和最佳化模型的專用標籤。
+
+>[!ENDSHADEBOX]
 
 概述報表可為使用者提供您環境中所有行銷活動和歷程的流量和參與量度的完整摘要。 這些量度會結合，針對來自不同管道（包含各種行銷活動和歷程）的動作呈現統一值。
 

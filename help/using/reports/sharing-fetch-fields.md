@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 377
+source-wordcount: 405
 ht-degree: 4%
 
 ---
 
 # journeyStep 事件資料擷取欄位 {#sharing-fetch-fields}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;當資料在步驟處理期間從Adobe Experience Platform或自訂來源擴充時，請參考新增到歷程步驟事件的資料擷取欄位。
+
+>[!ENDSHADEBOX]
 
 此欄位群組將由journeyStepEvent和journeyStepProfileEvent共用。
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 33%
+source-wordcount: 685
+ht-degree: 32%
 
 ---
 
 # 報告與實驗先決條件 {#reporting-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何新增資料集以設定報告資料來源，讓Journey Optimizer可以擷取您實驗和行銷活動報告中使用的其他量度。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

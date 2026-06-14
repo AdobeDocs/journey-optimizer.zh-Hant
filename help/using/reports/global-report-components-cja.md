@@ -28,14 +28,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2213
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
 
 # 指標清單 {#list-of-components-global}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找在各種傳遞型別（包括歷程、電子郵件、簡訊、推播、應用程式內、登陸頁面、直接郵件、內容卡片、網頁和程式碼式體驗量度）中，Adobe Journey Optimizer報表中所使用量度的定義。
+
+>[!ENDSHADEBOX]
 
 下表提供報表中使用的量度清單，以及量度定義（視傳送型別而定）。
 

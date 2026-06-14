@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 1%
 
 ---
 
 # 存取及訂閱系統警示 {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取、訂閱及管理Adobe Journey Optimizer中的系統警示，以主動監控歷程與行銷活動生命週期事件、自訂動作錯誤、設定檔問題以及電子郵件傳遞能力。
+
+>[!ENDSHADEBOX]
 
 ## 概觀
 

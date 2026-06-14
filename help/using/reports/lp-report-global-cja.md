@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # 登陸頁面報告 {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用Customer Journey Analytics分析Adobe Journey Optimizer中的登陸頁面效能，包括轉換率和跳出率、檢視次數，以及依歷程、行銷活動和管道的流量。
+
+>[!ENDSHADEBOX]
 
 **登陸頁面**&#x200B;報表可提供使用者行為、參與模式、轉換率和其他關鍵量度的寶貴見解，讓您能夠做出明智的決策，並有效最佳化您的登陸頁面績效。
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 690
 ht-degree: 3%
 
 ---
 
 # 簡訊歷程報告{#sms}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer歷程報告中的SMS量度，包括傳遞和點按趨勢、追蹤的連結、傳入訊息、提供者，以及退信、錯誤和排除原因。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
