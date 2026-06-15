@@ -8,28 +8,25 @@ role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
 TQID: https://experienceleague.adobe.com/rNKVHarq-q-lYz-e75uPxurvg-DQjdjBuIbNo8w6VVY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 10%
+source-wordcount: 1014
+ht-degree: 9%
 
 ---
 
 # 個人化您的品牌 {#brands-personalize}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中定義品牌識別、撰寫風格和視覺內容規則，以個人化您的品牌方針。
+
+>[!ENDSHADEBOX]
 
 ## 關於品牌 {#about-brand}
 
@@ -183,7 +180,7 @@ ht-degree: 10%
 
      ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 如有需要，請選取其中一個准則或排除專案來更新或刪除。
 
@@ -255,7 +252,7 @@ ht-degree: 10%
 
      ![](assets/brands-16.png)
 
-1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。**&#x200B;**
+1. 一旦您的指引、例外或排除設定完成後，請按一下[新增]。****
 
 1. 若要新增顯示正確使用方式的影像，請選取&#x200B;**[!UICONTROL 範例]**，然後按一下&#x200B;**[!UICONTROL 選取影像]**。 您也可以新增使用方式不正確的影像，作為排除範例。
 

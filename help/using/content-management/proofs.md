@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: 508
 ht-degree: 10%
 
 ---
 
 # 使用測試設定檔資料傳送校樣 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用測試設定檔資料傳送電子郵件校樣，讓收件者可以在訊息傳送給您的主要對象之前，檢閱轉譯、內容及個人化。
+
+>[!ENDSHADEBOX]
 
 校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
 

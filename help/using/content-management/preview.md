@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # 使用測試設定檔預覽您的內容 {#preview}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何根據選取的測試設定檔預覽您的訊息內容，以檢查每個變體的個人化欄位顯示方式。
+
+>[!ENDSHADEBOX]
 
 選取[測試設定檔](test-profiles.md)後，您可以使用其資料預覽您的內容。 您可以使用下列任一種模擬方法：
 

@@ -8,26 +8,25 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 3%
+source-wordcount: 923
+ht-degree: 2%
 
 ---
 
 # 存取及管理內容範本 {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中存取、搜尋、整理至資料夾、編輯、刪除和匯出不同沙箱的內容範本。
+
+>[!ENDSHADEBOX]
 
 ## 先決條件 {#prerequisites}
 
@@ -86,7 +85,7 @@ ht-degree: 3%
 
    ![](assets/content-template-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -126,7 +125,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+>此功能以可用性限制 (LA) 形式向一小部分客戶發行。
 
 ![](assets/content-template-grid-view.png)
 
@@ -146,7 +145,7 @@ ht-degree: 3%
 
 +++我建立的範本未顯示在清單中
 
-檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;**」，以顯示所有範本（無論資料夾為何）。**
+檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;]**」，以顯示所有範本（無論資料夾為何）。**[!UICONTROL 
 
 +++
 

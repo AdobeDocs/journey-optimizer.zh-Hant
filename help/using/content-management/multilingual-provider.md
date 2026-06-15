@@ -10,25 +10,25 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 62327f8c-7a9d-44c3-88f9-3048ff8bd326
 TQID: https://experienceleague.adobe.com/1-qEMD1SqNffo5LnFWxgRbQ-JommYJ5vm8Ti8gsJ0YU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 227
 ht-degree: 2%
 
 ---
 
 # 新增語言提供者 {#multilingual-provider}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何新增及設定協力廠商翻譯提供者及其支援的地區設定，以便用於您的多語言內容。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -62,4 +62,4 @@ Adobe Journey Optimizer與提供機器及人力翻譯服務的第三方翻譯提
 
    ![](assets/provider_4.png)
 
-1. 完成設定後，按一下[儲存]，完成設定。**&#x200B;**
+1. 完成設定後，按一下[儲存]，完成設定。****

@@ -10,28 +10,25 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 TQID: https://experienceleague.adobe.com/dnae-RgLGPhxmtipYP6sTPTmA64LSfWYYH6gk5Fd3dk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 33%
+source-wordcount: 667
+ht-degree: 31%
 
 ---
 
 # 開始使用多語言內容 {#multilingual-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用多語言內容，以使用手動或自動翻譯，在單一行銷活動或歷程中以多種語言建立訊息，並檢閱所需的先決條件。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"
@@ -67,7 +64,7 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 針對多語言內容，必須定義下列設定：
 
-* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
+* 若要在Journey Optimizer中使用翻譯功能，您需要將API指派給對應的角色。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#assign-api-to-a-role)
 
 * 若要開始建立多語言內容，使用者必須被授予&#x200B;**[!UICONTROL 管理語言設定]**&#x200B;許可權。 針對自動化流程，使用者還需要與&#x200B;**[!UICONTROL 翻譯服務]**&#x200B;功能相關的許可權。 [進一步瞭解許可權](../administration/permissions.md)
 
@@ -115,4 +112,4 @@ Adobe Journey Optimizer目前與翻譯提供者整合，這些翻譯提供者獨
 
 瞭解如何在單一行銷活動或歷程中以多種語言建立內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452125?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
