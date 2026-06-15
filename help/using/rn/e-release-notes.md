@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +92,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 </tbody>
 </table>
 
-* **動態優惠屬性** - Decisioning中的優惠屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。
-
-* **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 提供兩種模式：
-
-   * 位置專用上限：定義上限值，此上限值僅在優惠方案顯示在所選位置時適用。
-   * 每次刊登的上限：將上限獨立套用至選件出現的每個刊登版位，讓每個刊登版位維持其專屬的上限計數器。
+* **動態專案屬性** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。
 
 ### 電子郵件 {#june-26-email}
 
@@ -115,7 +110,6 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 <p>Journey Optimizer現在包含直接在電子郵件Designer中的自動化技術驗證，可幫助您在傳送前捕捉HTML和CSS問題。</p>
 <p>檢查涵蓋不支援的元素，例如<code>&lt;script&gt;</code>和<code>&lt;base&gt;</code>標籤、可能中斷Microsoft Outlook版面的空白div、HTML中繼重新整理標籤，以及觸發Gmail轉譯失敗的CSS或HTML大小臨界值。</p>
 <p>結果會直接在編寫面板中顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的一鍵式修正，因此無需離開編輯器即可解決問題。</p>
-<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
