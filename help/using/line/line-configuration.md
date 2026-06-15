@@ -8,23 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 TQID: https://experienceleague.adobe.com/yDRCVzfdPGXisgxJ59UT8HYsdXI82H07Ol--YP7wmE0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1356417d30312b74500dc930c92fe70e0d050a46
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 8%
+source-wordcount: 508
+ht-degree: 6%
 
 ---
 
@@ -66,6 +59,12 @@ ht-degree: 8%
    ![](assets/line-config-2.png)
 
 1. 選取您要對映的&#x200B;**[!UICONTROL LINE使用者識別碼]**。 這是用來將訊息連結至LINE頻道中個別使用者的識別碼。
+
+   >[!NOTE]
+   >
+   >您在此對應的LINE使用者識別碼必須已存在於客戶的[!DNL Real-Time Customer Profile]上。 擷取LINE使用者ID （例如，透過LINE登入或LIFF SDK），將其擷取到Adobe Experience Platform，然後將其拼接到具有Identity Service的已知識別碼，以便[!DNL Journey Optimizer]可以存取整合式設定檔。 [進一步瞭解Journey Optimizer中的身分識別](../audience/get-started-identity.md)。
+   >
+   >如需使用Identity Service將LINE使用者ID與客戶設定檔整合的端對端範例，請參閱社群文章[使用AEP Identity Stitching將LINE使用者ID與客戶設定檔整合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}。
 
 1. 輸入您的&#x200B;**[!UICONTROL 寄件者名稱]**，例如您的品牌名稱。
 
