@@ -12,15 +12,21 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 836
 ht-degree: 0%
 
 ---
 
 
 # 使用外部整合進行個人化 {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解行銷人員如何套用已設定的整合來個人化電子郵件、簡訊和推播內容，並將一個API呼叫鏈結到另一個以取得更豐富的動態訊息。
+
+>[!ENDSHADEBOX]
 
 在內容中使用外部整合之前，請確認管理員已設定&#x200B;**並啟動**&#x200B;每個整合（端點、驗證、原則、回應裝載和啟動），如[使用整合](integrations.md)中所述。
 

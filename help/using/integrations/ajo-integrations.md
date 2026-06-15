@@ -26,14 +26,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 1007
-ht-degree: 69%
+source-wordcount: 1048
+ht-degree: 66%
 
 ---
 
 # 與其他解決方案整合 {#integration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將Adobe Journey Optimizer連線至其他Adobe解決方案和協力廠商系統（例如Customer Journey Analytics、Experience Manager、Stock、GenStudio、Campaign和Workfront），以擴大其功能範圍並協助您處理特定使用案例。
+
+>[!ENDSHADEBOX]
 
 透過 Adobe Journey Optimizer，您可以輕鬆管理、保留這些資料，並將其匯出至屬於您技術堆疊一部分的平台或系統。 這些整合可協助您處理特定使用案例，並延伸 Adobe Journey Optimizer 功能範圍。
 

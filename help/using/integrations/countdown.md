@@ -11,14 +11,20 @@ exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 0%
 
 ---
 
 # 插入倒數計時器 {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在您的Journey Optimizer電子郵件中插入Dynamic Media倒數計時器，以產生Flash銷售和有時效性促銷的急迫性。
+
+>[!ENDSHADEBOX]
 
 利用Dynamic Media倒數計時器建立急迫性並最大化轉換次數，以在收件者開啟您的電子郵件時即時更新。 此功能適用於快閃銷售、限時優惠方案及對時間敏感的促銷活動。
 

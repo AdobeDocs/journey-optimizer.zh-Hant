@@ -11,14 +11,20 @@ keywords: 整合，廠商，協力廠商
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 10154
+source-wordcount: 10185
 ht-degree: 5%
 
 ---
 
 # 範例廠商組態 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將Adobe Journey Optimizer整合與任何公開相容API的外部平台搭配使用，並搭配作業護欄和說明性廠商模式來指導您的設定。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

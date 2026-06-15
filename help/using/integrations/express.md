@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 18%
+source-wordcount: 615
+ht-degree: 17%
 
 ---
 
 # 使用 [!DNL Adobe Express] 編輯資產{#express}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Journey Optimizer中的Adobe Express整合來編輯您的資產，以調整影像大小、移除背景、裁切視覺效果，以及將資產轉換為JPEG或PNG。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"

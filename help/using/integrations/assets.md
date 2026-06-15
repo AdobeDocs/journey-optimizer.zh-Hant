@@ -25,14 +25,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1277
 ht-degree: 8%
 
 ---
 
 # 使用[!DNL Experience Manager Assets]建立及管理資產{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中使用Experience Manager Assets來儲存、管理數位資產，以及將數位資產插入您的電子郵件內容。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -107,7 +113,7 @@ Adobe Journey Optimizer工作流程中的現有&#x200B;**資產選擇器**&#x200
 
 1. 選取您要上傳的檔案。 完成時，按一下&#x200B;**[!UICONTROL 上傳]**。 若要進一步瞭解如何管理您的資產，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=zh-Hant)。
 
-1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多資訊](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=zh-Hant){target="_blank"}。
+1. 若要使用Adobe Photoshop Express進一步編輯您的資產，請連按兩下資產。 然後，從右側功能表選取&#x200B;**[!UICONTROL 編輯模式]**&#x200B;圖示。 [了解更多](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=zh-Hant){target="_blank"}。
 
    ![](assets/media_library_12.png)
 

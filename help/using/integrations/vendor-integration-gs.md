@@ -11,15 +11,21 @@ keywords: 整合，廠商，協力廠商
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # 廠商整合 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瀏覽範例、Adobe測試的設定，用於跨內容、忠誠度、建議、資料和同意平台將Adobe Journey Optimizer整合連線至協力廠商廠商。
+
+>[!ENDSHADEBOX]
 
 當每個系統公開適合您使用案例的&#x200B;**API端點**，且與整合如何發出要求及使用回應相容時，您可以在Adobe Journey Optimizer中使用&#x200B;**整合**，透過HTTP **呼叫**&#x200B;外部系統。 如需完整的工作流程，請參閱[使用整合](integrations.md)。
 

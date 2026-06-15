@@ -11,14 +11,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: 793
 ht-degree: 1%
 
 ---
 
 # 考量事項和疑難排解 {#aem-fragments-limitations}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱Journey Optimizer中Adobe Experience Manager內容片段的主要考量事項和疑難排解步驟，內容涵蓋片段型別、多語言內容、存放庫存取、個人化和常見錯誤。
+
+>[!ENDSHADEBOX]
 
 ## 主要考量事項 {#considerations}
 
