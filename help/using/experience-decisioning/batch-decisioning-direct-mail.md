@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 批次決策、直接郵件、決策
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # 直接郵件中的批次決策 {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在直接郵件通道中使用批次決策，以便您能使用最佳決策專案將每位收件者的擷取檔案個人化，或將設定檔和決策資料匯出到下游系統。
+
+>[!ENDSHADEBOX]
 
 透過批次決策，決策會為每個設定檔選取一個或幾個最佳決策專案，並將這些結果包含在直接郵件提取檔案中。 設定決定原則時，您可以設定&#x200B;**[!UICONTROL 專案數]**，為每個設定檔傳回多個專案。 匯出的檔案可用於直接郵件個人化，或用於您將設定檔和決定屬性匯出至其他系統的批次使用案例。
 

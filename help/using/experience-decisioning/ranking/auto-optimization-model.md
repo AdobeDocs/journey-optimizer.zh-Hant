@@ -9,33 +9,31 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1795
 ht-degree: 0%
 
 ---
 
 # 自動最佳化模型 {#auto-optimization-model}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解自動最佳化強化學習模型如何探索和排名選件，以最大化點進率，讓您能夠決定何時將其用於單通道最佳化。
+
+>[!ENDSHADEBOX]
+
 [!DNL Adobe Journey Optimizer]的自動最佳化模型是強化學習模型，它會探索所有優惠方案（或內容），然後在套用適用性規則和頻率上限後，根據預測的CTR來排名專案，以最大化優惠方案點進率(CTR)。
 
 ## 使用案例和優點 {#use-cases-benefits}
 
-無論您想要快速輕鬆設定、想要尋找整體成功選件，以及想要在單一管道中最大化選件點按次數，隨時都可以使用自動最佳化。 例如：
+無論您想要快速輕鬆設定、想要尋找整體成功選件，以及想要在單一管道中最大化選件點按次數，隨時都可以使用自動最佳化。 例如:
 
 * 選擇最佳選件以插入至網頁，最大化選件點按次數。
 * 選擇要插入電子郵件中的最佳優惠方案，以最大化優惠方案點按次數。
@@ -106,7 +104,7 @@ ht-degree: 0%
 
 +++ 計算詳細資料
 
-若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) |資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值&#x200B;**𝛍 i**&#x200B;的可能性有多大。
+若要計算/更新分佈，請使用&#x200B;**貝葉斯定理**。 我們想要針對每個選件&#x200B;***i***&#x200B;計算其&#x200B;***P(𝛍i) |資料)***，亦即對於每個優惠方案&#x200B;***i***，考慮到我們目前為止針對該優惠方案所收集的資料，獎勵值**𝛍 i**的可能性有多大。
 
 從貝葉斯定理：
 

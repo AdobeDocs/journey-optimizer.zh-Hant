@@ -8,25 +8,25 @@ level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/tL3mwS9sDtSkSVljry1EeqPnYn4U34TvXCg5jX2ej3M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
 # 在決策中善用內容資料 {#context}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義內容資料並將資料從Adobe Experience Platform饋送至Decisioning，以便在決策規則和排名公式中使用決策要求時傳送的即時資訊。
+
+>[!ENDSHADEBOX]
 
 透過決策，您可以利用Adobe Experience Platform中任何可用的資訊來執行各種動作，例如建立[決策規則](rules.md)或[排名公式](ranking/ranking.md)。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 使用Adobe Experience Platform資料來摘要決策，步驟如下：
 
-1. 在Adobe Experience Platform及其相關之&#x200B;**資料集**&#x200B;中建立&#x200B;**體驗事件結構描述**。 [瞭解如何建立結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. 在Adobe Experience Platform及其相關之&#x200B;**資料集**&#x200B;中建立&#x200B;**體驗事件結構描述**。 [瞭解如何建立結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 建立新的Adobe Experience Platform資料流：
 
@@ -60,6 +60,6 @@ ht-degree: 0%
 
 如需如何使用Adobe Experience Platform的詳細指引，請探索下列資源：
 
-* [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [資料串流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview){target="_blank"}
+* [體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [資料串流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

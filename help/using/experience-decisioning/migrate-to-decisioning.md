@@ -7,35 +7,25 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1320
 ht-degree: 4%
 
 ---
 
 # 移轉至 Decisioning 的優點 {#migrate-to-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Decisioning提供的功能、優點以及可用的移轉工具，讓您決定是否移轉。
+
+>[!ENDSHADEBOX]
 
 ## 什麼是決策？ {#what-is-decisioning}
 
@@ -49,7 +39,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 ### AI和機器學習功能
 
-* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
+* **自訂量度**：能夠對AI模型使用自訂最佳化量度。 如此可提供與[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}的報告互通性、標準化兩個平台的報告，並改善資料一致性和可靠性。 緊密整合可提供更清楚的效能量度檢視，並新增功能，例如建立簡易量度、發佈對象、使用Insight Builder提出臨機問題，以及排程報表。
 
 * **提升度測量**：能夠在AI模型中視覺化探索與利用流量。 這讓行銷人員和資料科學家可以量化AI探索如何改善長期模型效能和發現新的成功選件。 流量分配的透明度可建立對AI決策的信任，並讓團隊能夠隨著時間推移最佳化學習和效能。 [了解更多](ranking/auto-optimization-model.md#lift)
 
@@ -89,7 +79,7 @@ Adobe Journey Optimizer中的新一代決策架構和功能集可讓品牌運用
 
 * **原生傳訊通道支援**：整合式傳訊與決策，於單一架構內跨多個通道： [程式碼型體驗](../code-based/get-started-code-based.md)、[電子郵件](../email/get-started-email.md)、[簡訊](../mobile/get-started-mobile.md)及[推播通知](../push/get-started-push.md)。 直覺式UI支援可讓使用者直接在訊息編寫工作流程中插入決策元件。
 
-* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
+* **Experience Platform資料集查閱**：能夠直接在優惠選擇規則、排名和個人化優惠內容中上傳和參考[Adobe Experience Platform資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}。 這允許決定邏輯使用動態外部資料來源，以擴充個人化和鎖定目標的彈性。 [了解更多](../data/lookup-aep-data.md)
 
 * **擴充性與效能**：架構增強功能，將決策運算從集線器移至邊緣，大幅減少延遲，並改善高流量使用案例的輸送量。
 
