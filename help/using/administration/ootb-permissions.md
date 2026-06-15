@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +76,7 @@ ht-degree: 2%
 | 報表 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL Reset sandboxes]**：可重設沙箱。</br>**[!DNL Share sandboxes]**：可共用沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：可重設沙箱。 |
+| 模擬的使用者 | **[!DNL Manage Simulated Users]**：讀取、建立及編輯模擬使用者，這些模擬使用者用於測試模擬中的歷程。</br>**[!DNL View Simulated Users]**：對模擬使用者的唯讀存取權。 |
 | 翻譯服務 | **[!DNL Manage translation in house]**：讀取、建立、編輯和刪除內部翻譯。</br>**[!DNL Manage translation projects]**：讀取、建立、編輯和刪除翻譯專案。</br> **[!DNL Manage translation reviews]**：讀取、建立、編輯和刪除翻譯評論。</br>**[!DNL Manage translation settings]**：讀取、建立、編輯和刪除翻譯設定。</br>**[!DNL Manage translation tasks]**：讀取、建立、編輯和刪除翻譯工作。</br>**[!DNL View translation in house]**：內部翻譯的唯讀存取權。</br>**[!DNL View translation projects]**：翻譯專案的唯讀存取權。</br>**[!DNL View translation reviews]**：翻譯評論的唯讀存取權。</br>**[!DNL View translation tasks]**：翻譯工作的唯讀存取權。 |
 
 {style="table-layout:fixed"}
