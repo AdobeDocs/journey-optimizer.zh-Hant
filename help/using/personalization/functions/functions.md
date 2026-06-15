@@ -6,18 +6,22 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2566
 ht-degree: 2%
 
 ---
 
 # 開始使用協助程式函式{#functions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：** Helper函式可讓您直接在個人化內容中轉換、格式化及套用條件至資料，因此您可以為每個客戶建立動態、量身打造的體驗。
+
+>[!ENDSHADEBOX]
 
 協助程式函式可讓您轉換和操控個人化內容中的資料。 使用它們來執行計算、格式化資料、套用條件並執行各種作業，為您的客戶建立動態的量身打造體驗。
 
