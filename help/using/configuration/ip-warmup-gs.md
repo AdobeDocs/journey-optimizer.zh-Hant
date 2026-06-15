@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 38%
+source-wordcount: 489
+ht-degree: 35%
 
 ---
 
 # 開始使用 IP 暖身計劃 {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解IP熱身計畫如何協助您逐步增加傳送量，以建立寄件者信譽，並探索在Adobe Journey Optimizer中實作的重要步驟。
+
+>[!ENDSHADEBOX]
 
 透過[!DNL Journey Optimizer]，您可以遵循最佳傳遞能力的最佳實務，以標準化且有效率的方式直接從使用者介面執行IP熱身工作流程。 使用新平台傳送電子郵件時，網際網路服務提供商 (ISP) 會懷疑無法辨識的 IP 位址。 如果突然傳送大量電子郵件，ISP 通常會將其標記為垃圾郵件。
 
@@ -84,10 +90,10 @@ Benefits
 
 探索這些實用的部落格，以取得有關IP熱身更深入的指引：
 
-* [Adobe Journey Optimizer傳遞能力指南：從零信譽到收件匣英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=zh-Hant) — 涵蓋信譽基礎知識、熱身行事曆、監控和疑難排解最佳實務的全面指南。
+* [Adobe Journey Optimizer傳遞能力指南：從零信譽到收件匣英雄](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) — 涵蓋信譽基礎知識、熱身行事曆、監控和疑難排解最佳實務的全面指南。
 
-* [瞭解如何設定IP熱身](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=zh-Hant) — 瞭解設定IP熱身計畫的基礎和成功實作的最佳實務。
+* [瞭解如何設定IP熱身](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) — 瞭解設定IP熱身計畫的基礎和成功實作的最佳實務。
 
-* [&#x200B; IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=zh-Hant) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
+* [&#x200B; IP熱身計畫中的進階功能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) — 探索進階功能與精細的控制項，以最佳化IP熱身策略。
 
-* [IP熱身疑難排解](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=zh-Hant) — 尋找對象延遲等常見問題的解決方案，並瞭解智慧重試機制。
+* [IP熱身疑難排解](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) — 尋找對象延遲等常見問題的解決方案，並瞭解智慧重試機制。

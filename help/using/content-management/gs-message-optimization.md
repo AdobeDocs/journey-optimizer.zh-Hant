@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: 770
 ht-degree: 15%
 
 ---
 
 # 開始使用內容最佳化 {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的內容最佳化如何使用目標定位、實驗或兩者，在您的行銷活動和歷程中提供表現最佳的個人化內容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
@@ -130,7 +136,7 @@ ht-degree: 15%
 
 ## 作法影片 {#video}
 
-瞭解如何在行動中或API觸發的行銷活動中運用內容最佳化。 您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。 本教學課程也涵蓋如何管理多管道行銷活動，同時維持訊息的一致性。
+瞭解如何在行動中或API觸發的行銷活動中運用內容最佳化。 您將深入了解如何鎖定子對象目標、建立以位置為依據的訊息變化、啟用遞補內容，以及在單一行銷活動中執行多個實驗。 本教學課程也涵蓋如何管理多頻道行銷活動，同時維持訊息的一致性。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3470379?captions=chi_hant&quality=12)
 

@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 3%
+source-wordcount: 923
+ht-degree: 2%
 
 ---
 
 # 存取及管理內容範本 {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中存取、搜尋、整理至資料夾、編輯、刪除和匯出不同沙箱的內容範本。
+
+>[!ENDSHADEBOX]
 
 ## 先決條件 {#prerequisites}
 
@@ -126,7 +132,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->此功能以有限可用性 (LA) 形式向一小部分客戶發布。
+>此功能以可用性限制 (LA) 形式向一小部分客戶發行。
 
 ![](assets/content-template-grid-view.png)
 

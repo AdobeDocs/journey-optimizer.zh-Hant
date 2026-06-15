@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # 使用預先定義的篩選器 {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立、套用、共用及管理預先定義的篩選器，以重複使用規則產生器中儲存的查詢來協調行銷活動。
+
+>[!ENDSHADEBOX]
 
 預先定義的篩選器是儲存的規則，您可以在規則產生器中重複使用。 使用這些範本來避免重新建立常見查詢，並標準化跨協調行銷活動的目標定位邏輯。
 

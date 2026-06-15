@@ -14,14 +14,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 530
-ht-degree: 56%
+source-wordcount: 551
+ht-degree: 54%
 
 ---
 
 # 關於協調的行銷活動 {#orchestrated-campaign-activities}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索畫布上可用的目標定位、頻道和流量控制活動，以建立跨頻道協調的行銷活動。
+
+>[!ENDSHADEBOX]
 
 可將協調行銷活動歸類成三大類別。 可用的活動可能會依據內容而有所不同。
 

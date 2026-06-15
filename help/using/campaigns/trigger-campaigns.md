@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # 執行API觸發的行銷活動 {#execute}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;擷取產生的cURL要求，並使用它透過API觸發您的即時API觸發行銷活動，並附上疑難排解指南，以便您解決傳送延遲和驗證錯誤。
+
+>[!ENDSHADEBOX]
 
 啟動行銷活動後，您需要擷取產生的範例cURL請求，並將其用於API中以建置您的裝載並觸發行銷活動。
 

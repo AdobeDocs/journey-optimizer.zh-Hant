@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1028
 ht-degree: 17%
 
 ---
 
 # 使用種子清單 {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立和使用種子清單，以在您的電子郵件傳遞中自動包含內部種子地址，以進行監控和郵寄清單保護。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的種子清單可讓您在傳遞中自動包含特定的種子地址。
 
@@ -48,7 +54,7 @@ ht-degree: 17%
 
 * 種子清單可在與客戶相同的時間以相同條件接收傳遞，可讓您監視傳送的電子郵件復本，以確保所有顯示格式、影像和連結正確無誤，並追蹤傳送給收件者的實際訊息。
 
-  例如：
+  例如:
 
   +++ 如果您是行銷經理：
 

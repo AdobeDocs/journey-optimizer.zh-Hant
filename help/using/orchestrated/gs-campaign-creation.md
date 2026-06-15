@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 67%
+source-wordcount: 337
+ht-degree: 61%
 
 ---
 
 # 建立協調行銷活動的重要步驟 {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解在Adobe Journey Optimizer中建立並啟動協調行銷活動的重要步驟，從建立和排程活動，到協調活動、監視執行和分析結果。
+
+>[!ENDSHADEBOX]
 
 此頁面將逐步引導您建立與啟動協調行銷活動的重要步驟，從設定和設計到監控與報告。
 

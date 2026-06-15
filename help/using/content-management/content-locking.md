@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 30%
+source-wordcount: 1319
+ht-degree: 29%
 
 ---
 
 # 鎖定電子郵件範本中的內容 {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在結構或元件層級或唯讀狀態下鎖定電子郵件範本中的內容，以防止行銷人員在Adobe Journey Optimizer中重複使用您的範本時意外編輯。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"

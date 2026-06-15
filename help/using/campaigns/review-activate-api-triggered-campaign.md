@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 5%
+source-wordcount: 345
+ht-degree: 4%
 
 ---
 
 # 檢閱並啟用API觸發的行銷活動 {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱您的API觸發的行銷活動設定和內容，以在啟動行銷活動之前先擷取錯誤，這樣您就可以放心地讓行銷活動上線並準備透過API觸發。
+
+>[!ENDSHADEBOX]
 
 設定API觸發的行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 要執行此操作，請依照下列步驟執行：
 

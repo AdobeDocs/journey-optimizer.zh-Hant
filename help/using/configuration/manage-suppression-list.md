@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 22%
 
 ---
 
 # 管理禁止名單 {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取、篩選、新增、移除及下載Adobe Journey Optimizer隱藏清單中的專案，以控制哪些電子郵件地址和網域會排除在傳送之外。
+
+>[!ENDSHADEBOX]
 
 透過[!DNL Journey Optimizer]，您可以監視自動排除而無法傳送歷程或行銷活動的所有電子郵件地址，例如硬退信、軟退信和垃圾郵件投訴。
 

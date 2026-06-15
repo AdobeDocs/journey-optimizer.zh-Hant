@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 14%
+source-wordcount: 541
+ht-degree: 13%
 
 ---
 
 # 將內容另存為片段 {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將您的全部或部分內容儲存為視覺化或運算式片段，以便您在歷程和行銷活動中重複使用。
+
+>[!ENDSHADEBOX]
 
 在[!DNL Journey Optimizer]中編輯內容時，您可以將全部或部分內容儲存為片段，以供日後重複使用。 您可以從電子郵件Designer[&#128279;](#save-as-visual-fragment)儲存內容為片段[，或從運算式編輯器](#save-as-expression-fragment)儲存內容。
 

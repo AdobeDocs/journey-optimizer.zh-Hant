@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # 使用規則產生器 {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用規則產生器來篩選資料，以及建立查詢，在您的協調行銷活動中鎖定對象。
+
+>[!ENDSHADEBOX]
 
 協調的行銷活動隨附規則產生器，可簡化根據各種條件篩選資料庫的流程。 規則產生器能有效管理非常複雜和冗長的查詢，提供增強的彈性和精確度。
 

@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 54%
+source-wordcount: 248
+ht-degree: 47%
 
 ---
 
 # 使用動作行銷活動 {#gs-action-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解什麼是行動行銷活動，並依照關鍵步驟建立行銷活動，以便您可以傳送簡單的排程批次通訊，例如促銷優惠、公告或政策更新。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"

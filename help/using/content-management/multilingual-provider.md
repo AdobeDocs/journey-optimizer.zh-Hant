@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 201
+source-wordcount: 227
 ht-degree: 2%
 
 ---
 
 # 新增語言提供者 {#multilingual-provider}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何新增及設定協力廠商翻譯提供者及其支援的地區設定，以便用於您的多語言內容。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

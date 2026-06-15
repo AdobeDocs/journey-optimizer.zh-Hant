@@ -14,14 +14,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 508
 ht-degree: 1%
 
 ---
 
 # 開始使用關聯式結構描述和資料集{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解建立關聯式結構描述和資料集、連結它們以及擷取經協調的行銷活動資料的重要概念和步驟。
+
+>[!ENDSHADEBOX]
 
 本指南會逐步引導您建立關聯式結構、設定用於協調行銷活動的資料集及擷取資料的程式。
 

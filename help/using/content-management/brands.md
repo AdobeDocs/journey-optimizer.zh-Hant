@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 35%
+source-wordcount: 721
+ht-degree: 33%
 
 ---
 
 # 建立和管理您的品牌 {#brands}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立、設定、發佈及管理品牌方針，包括設定預設品牌，讓AI助理可以產生符合您在Adobe Journey Optimizer中品牌身分識別的內容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"

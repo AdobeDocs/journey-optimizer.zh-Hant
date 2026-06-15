@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 20%
+source-wordcount: 1008
+ht-degree: 19%
 
 ---
 
 # 建立片段 {#create-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立、設計、鎖定、預覽及發佈視覺化與運算式片段，讓您能夠在Adobe Journey Optimizer行銷活動和歷程中重複使用內容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"

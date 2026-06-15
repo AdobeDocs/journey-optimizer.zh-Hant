@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 34%
+source-wordcount: 200
+ht-degree: 28%
 
 ---
 
 # 定義「動作」行銷活動屬性 {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立動作行銷活動並定義其核心屬性，例如名稱、說明、標籤和存取標籤，以便在設定動作之前，可以識別、組織並控制對行銷活動的存取。
+
+>[!ENDSHADEBOX]
 
 若要建立「動作」行銷活動並定義其屬性，請遵循下列步驟：
 

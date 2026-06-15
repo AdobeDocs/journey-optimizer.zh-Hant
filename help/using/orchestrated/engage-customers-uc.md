@@ -16,14 +16,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
 
 # 透過瀏覽活動與客戶互動 {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循協調的行銷活動使用案例，透過讀取對象、刪除重複專案、依流失風險分割對象，以及傳送個人化的後續追蹤訊息，根據客戶的瀏覽活動重新吸引客戶。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

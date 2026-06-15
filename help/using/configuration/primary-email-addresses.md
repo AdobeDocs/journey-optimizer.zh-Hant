@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 649
-ht-degree: 30%
+source-wordcount: 682
+ht-degree: 29%
 
 ---
 
 # 管理預設執行欄位 {#change-primary-email}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何定義及覆寫執行欄位，以判斷Adobe Journey Optimizer在設定檔上有數個電子郵件或電話號碼時，會優先傳送哪些電子郵件地址或電話號碼。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

@@ -26,14 +26,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: 995
 ht-degree: 2%
 
 ---
 
 # 使用手動翻譯建立多語言內容 {#multilingual-manual}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何設定語言設定，並直接在行銷活動和每個地區設定的歷程中翻譯或匯入內容，以手動翻譯建立多語言內容。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

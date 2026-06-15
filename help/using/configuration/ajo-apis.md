@@ -24,14 +24,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: 611
 ht-degree: 5%
 
 ---
 
 # 使用[!DNL Journey Optimizer] API {#apis-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取、驗證及使用Adobe Journey Optimizer RESTful API （包括決策管理和Experience Decisioning API），以程式設計方式執行關鍵作業。
+
+>[!ENDSHADEBOX]
 
 ## 快速存取 {#quick-access}
 

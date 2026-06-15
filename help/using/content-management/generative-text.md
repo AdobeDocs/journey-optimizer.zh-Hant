@@ -28,14 +28,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1663
+source-wordcount: 1694
 ht-degree: 2%
 
 ---
 
 # 使用AI助理產生文字 {#generative-text}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用AI助理產生、調整及完成品牌內文字內容，以用於Adobe Journey Optimizer中的電子郵件、網路、登陸頁面、推播通知和簡訊頻道。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

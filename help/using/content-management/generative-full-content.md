@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2033
 ht-degree: 2%
 
 ---
 
 # 使用AI助理產生完整內容 {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Journey Optimizer中的AI助理產生、調整及完成電子郵件、網頁、登入頁面及推播通知通道的完整文字和影像內容體驗。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

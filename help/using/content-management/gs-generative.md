@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 977
-ht-degree: 98%
+source-wordcount: 1005
+ht-degree: 95%
 
 ---
 
 # 開始使用 AI 助理 {#gs-content-assistant}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取Adobe Journey Optimizer中的AI小幫手、設定必要許可權，以及瞭解產生文字和影像內容的護欄。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"

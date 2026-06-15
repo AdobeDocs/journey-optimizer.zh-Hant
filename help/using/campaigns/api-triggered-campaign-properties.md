@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 19%
+source-wordcount: 330
+ht-degree: 18%
 
 ---
 
 # 定義API觸發的行銷活動屬性 {#api-properties}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立API觸發的行銷活動，並設定其型別、名稱、標籤和存取標籤，以便範圍設定正確且從一開始即可輕鬆找到。
+
+>[!ENDSHADEBOX]
 
 若要建立新的API觸發行銷活動，請遵循下列步驟：
 

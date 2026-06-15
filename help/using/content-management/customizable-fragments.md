@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
+source-wordcount: 1771
 ht-degree: 12%
 
 ---
 
 # 可自訂的片段 {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何讓視覺效果和運算式片段中的特定欄位可編輯，以便使用者在將片段新增至行銷活動或歷程時能夠自訂它們，而不會中斷原始片段的繼承。
+
+>[!ENDSHADEBOX]
 
 在行銷活動或歷程動作中使用片段時，由於繼承，預設情況下這些片段會鎖定。 這表示對片段所做的任何變更都會自動傳播至使用片段的所有行銷活動和歷程。
 

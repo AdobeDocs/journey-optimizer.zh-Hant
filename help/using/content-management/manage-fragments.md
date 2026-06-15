@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1551
 ht-degree: 18%
 
 ---
 
 # 管理片段 {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取、組織、編輯、封存及匯出您的內容片段，包括使用資料夾、追蹤片段狀態和探索每個片段參考的位置。
+
+>[!ENDSHADEBOX]
 
 ## 存取片段 {#access-fragments}
 

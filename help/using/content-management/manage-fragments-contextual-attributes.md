@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 8%
+source-wordcount: 392
+ht-degree: 7%
 
 ---
 
 # 將內容屬性新增到已發佈的片段 {#adding-contextual-attributes}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解特定客戶如何使用程式碼編輯器將內容屬性新增至已發佈的片段，以及牢記的護欄和限制。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

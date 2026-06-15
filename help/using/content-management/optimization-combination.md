@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # 結合目標定位與實驗 {#combination}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在單一歷程或行銷活動中結合目標定位與實驗，讓實驗始終特定於每個目標定位規則。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer也可讓您在單一歷程或行銷活動中結合目標定位和實驗，以建立更複雜的策略。
 

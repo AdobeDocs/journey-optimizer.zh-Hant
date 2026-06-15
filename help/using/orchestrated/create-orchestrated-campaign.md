@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 64%
+source-wordcount: 1261
+ht-degree: 63%
 
 ---
 
 # 建立及排程協調的行銷活動 {#create-first-campaign}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立協調的行銷活動，並定義其執行排程，以便在特定日期和時間立即執行，或定期執行。
+
+>[!ENDSHADEBOX]
 
 在[!DNL Adobe Journey Optimizer]中建立協調的行銷活動，並設定其執行排程，以控制其啟動時間和執行頻率。 選擇在特定日期與時間，立即啟動行銷活動，或可使用彈性排程選項，例如按照每日、每週或每月頻率，重複啟動行銷活動。
 

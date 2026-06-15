@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 16%
+source-wordcount: 216
+ht-degree: 14%
 
 ---
 
 # 編輯動作行銷活動內容 {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;為您選取的管道設計並測試您的行銷活動內容，以便在您啟動行銷活動之前準備好每則訊息。
+
+>[!ENDSHADEBOX]
 
 若要設定訊息內容，請瀏覽至&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤或按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 

@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 91%
+source-wordcount: 1947
+ht-degree: 89%
 
 ---
 
 # 建立首次規則 {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用規則產生器，透過新增資料庫屬性和運算式的條件、將它們與邏輯運運算元結合，以及驗證結果，為您的協調行銷活動建立目標查詢。
+
+>[!ENDSHADEBOX]
 
 為「已協調」行銷活動建立規則的主要步驟如下：
 

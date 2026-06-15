@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 480
 ht-degree: 2%
 
 ---
 
 # 編輯API觸發的行銷活動內容 {#api-content}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;使用API裝載中傳遞的內容資料，設計並個人化您的API觸發的行銷活動內容，以便每個收件者即時量身打造每則訊息。
+
+>[!ENDSHADEBOX]
 
 若要設定訊息內容，請瀏覽至&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤或按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕。
 

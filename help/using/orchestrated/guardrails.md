@@ -17,14 +17,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 2%
 
 ---
 
 # 護欄與限制 {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱在「協調的行銷活動」中，適用於資料儲存、擷取、資料模型、活動和管道的護欄和限制。
+
+>[!ENDSHADEBOX]
 
 使用協調的行銷活動時，您將找到下方的護欄和限制。
 

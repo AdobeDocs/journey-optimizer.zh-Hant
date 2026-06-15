@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # 為 API 觸發的行銷活動啟用高輸送量模式 {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;啟用API觸發行銷活動的高輸送量模式，如此一來，您就能以每秒最多5000筆交易來傳送超大型、即時異動電子郵件，不需要依賴設定檔。
+
+>[!ENDSHADEBOX]
 
 高輸送量模式是專為需要&#x200B;**超大規模即時異動訊息** （每秒最多5000個異動）的組織所設計。 不同於一般API觸發的行銷活動，高輸送量行銷活動會獨立於Adobe設定檔運作，且需要不同的設定模型。
 

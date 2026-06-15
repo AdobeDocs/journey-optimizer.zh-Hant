@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 48%
+source-wordcount: 957
+ht-degree: 47%
 
 ---
 
 # 協調行銷活動 {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在視覺畫布上新增、設定和連線活動，以建立協調的行銷活動。
+
+>[!ENDSHADEBOX]
 
 一旦您[建立協調的行銷活動](gs-campaign-creation.md)後，您就可以開始協調它將執行的不同工作。 為此，提供了視覺畫布，可讓您建構「已協調的行銷活動」畫布。 在此畫布中，您可以新增各種活動，並依序連線它們。
 
@@ -111,7 +117,7 @@ ht-degree: 48%
 * **[!UICONTROL 合併]**&#x200B;活動會排除忠誠度低於 50 點的客戶，
 * **[!UICONTROL 電子郵件傳遞]**&#x200B;活動會傳送電子郵件給產生的客戶。
 
-當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多資訊](trigger-orchestrated-campaign.md#signal-end)。
+當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 後續步驟 {#next}
 

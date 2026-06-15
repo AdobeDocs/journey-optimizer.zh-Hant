@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 54%
+source-wordcount: 185
+ht-degree: 44%
 
 ---
 
 # 協調行銷活動報告 {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中可供協調行銷活動使用的即時和全時報告，並瞭解如何測量電子郵件、簡訊、推播和直接郵件的參與度和管道績效。
+
+>[!ENDSHADEBOX]
 
 協調行銷活動會透過強大的報告功能，為您提供可採取行動的洞察。 這些洞察能協助您更加瞭解客群行為、評估客戶歷程中每步驟的績效，做出資料導向決策，以便將未來的行銷活動最佳化。 有了詳細量度和視覺效果，就可以追蹤參與度，同時微調目標定位策略，以便獲得最大影響力。
 

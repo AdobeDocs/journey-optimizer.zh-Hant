@@ -25,14 +25,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 19%
+source-wordcount: 1994
+ht-degree: 18%
 
 ---
 
 # 委派子網域 {#delegate-subdomain}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用完整委派或CNAME設定，將您的電子郵件傳送子網域委派至Adobe Journey Optimizer中的Adobe，以及如何存取、驗證和解除委派。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
@@ -220,7 +226,7 @@ ht-degree: 19%
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. 在能夠使用該子網域來傳送訊息之前，請確定所有DNS記錄都已正確建立，然後等待Adobe執行所需的檢查，這可能需要3個小時。 [了解更多資訊](#subdomain-validation)。
+1. 在能夠使用該子網域來傳送訊息之前，請確定所有DNS記錄都已正確建立，然後等待Adobe執行所需的檢查，這可能需要3個小時。 [了解更多](#subdomain-validation)。
 
 ### 子網域驗證 {#subdomain-validation}
 

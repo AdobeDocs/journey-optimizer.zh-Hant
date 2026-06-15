@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 3%
 
 ---
 
 # 檢閱並啟動動作行銷活動 {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱您的動作行銷活動的設定和內容，以在啟用行銷活動之前擷取任何錯誤，這樣您就可以放心地立即或於排程日期傳送訊息。
+
+>[!ENDSHADEBOX]
 
 設定您的Action行銷活動後，您必須先檢閱其引數和內容，才能加以啟用。 請依照下列步驟以執行此操作。
 

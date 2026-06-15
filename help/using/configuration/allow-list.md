@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 設定允許清單 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何啟用、填入及管理Adobe Journey Optimizer中的允許清單，以限制在沙箱層級將電子郵件傳送至受信任的地址和網域。
+
+>[!ENDSHADEBOX]
 
 允許清單是可在[沙箱](../administration/sandboxes.md)層級定義的傳送安全清單。 它會限制傳送至特定地址或網域的電子郵件，以確保只有明確列出的收件者才能接收來自指定沙箱的訊息。
 
@@ -157,7 +163,7 @@ ht-degree: 12%
 
 ### 使用API呼叫新增實體 {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如：
+若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如:
 
 ![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
 

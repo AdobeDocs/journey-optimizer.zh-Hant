@@ -12,15 +12,21 @@ exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # 在協調的行銷活動中定義全域變數 {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在協調的行銷活動上新增和管理全域變數，以便重複使用在規則產生器、測試條件和其他畫布邏輯間共用的名稱 — 值組。
+
+>[!ENDSHADEBOX]
 
 **全域變數**&#x200B;是您在單一「協調流程」行銷活動中設定的名稱 — 值組，並在每次執行時重複使用，因此您可以使用共用值（例如預設頻道或測試電子郵件）來控制&#x200B;**[!UICONTROL 測試]**&#x200B;條件、規則產生器和其他畫布邏輯，而不需將相同的值貼到每個活動中。
 

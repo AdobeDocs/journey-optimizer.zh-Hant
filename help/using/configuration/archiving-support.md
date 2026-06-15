@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1363
+source-wordcount: 1398
 ht-degree: 6%
 
 ---
 
 # 支援封存 {#archiving-support}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面：**&#x200B;瞭解如何封存您使用Adobe Journey Optimizer傳送的郵件以符合法規，包括電子郵件通道的內建密件副本電子郵件功能，以及其他通道的資料集型選項。
+
+>[!ENDSHADEBOX]
 
 ## 如何封存訊息 {#about-archiving}
 

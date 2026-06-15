@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 33%
+source-wordcount: 890
+ht-degree: 31%
 
 ---
 
 # 設定行銷活動動作 {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;選取頻道和頻道設定，以及最佳化和多語言內容，以設定行銷活動動作，並新增多個傳入動作，讓您的行銷活動跨頻道提供正確的體驗。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，選取訊息的頻道設定，再設定其他設定，例如追蹤、內容實驗或多語言內容。
 

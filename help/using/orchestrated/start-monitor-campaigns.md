@@ -18,14 +18,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1625
 ht-degree: 22%
 
 ---
 
 # 開始並監控協調式行銷活動 {#start-monitor}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何測試、發佈和監視Adobe Journey Optimizer中的協調行銷活動，包括行銷活動生命週期、執行記錄檔和活動狀態指標。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"

@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # 遵守新的 DMARC 要求 {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解您必須在Adobe Journey Optimizer中為委派給Adobe的子網域設定DMARC記錄，以符合Google和Yahoo寄件者要求的原因和時間。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -52,13 +58,13 @@ ht-degree: 100%
 
 * 如果您已將傳送子網域[完全委派](delegate-subdomain.md#set-up-subdomain) 給 Adobe，請依照下列其中一個選項進行：
 
-   * **在託管解決方案中**，於您所委派子網域的上層網域設定 DMARC。
+   * 在您的託管解決方案&#x200B;**中，針對委派子網域**&#x200B;的上層網域設定DMARC。
 或
    * **在[!DNL Journey Optimizer]** 設定使用者介面中，於委派的子網域設定 DMARC，無需對託管解決方案進行額外工作。 [了解作法](dmarc-record.md#implement-dmarc)
 
 * 如果您已使用 [CNAME](delegate-subdomain.md#cname-subdomain-setup) 設定傳送子網域，請依照下列其中一個選項進行：
 
-   * **在託管解決方案中**，於子網域或於子網域的上層網域設定 DMARC。
+   * 在您的子網域或託管解決方案&#x200B;**之子網域**&#x200B;的父網域上設定DMARC。
 或
    * **在[!DNL Journey Optimizer]** 設定使用者介面中，於委派的子網域設定 DMARC。 [了解作法](dmarc-record.md#implement-dmarc)
 

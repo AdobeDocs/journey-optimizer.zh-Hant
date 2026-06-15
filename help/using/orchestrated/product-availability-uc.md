@@ -16,14 +16,20 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 7%
+source-wordcount: 427
+ht-degree: 6%
 
 ---
 
 # 通知使用者產品可用性 {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;請依照此使用案例，建置備貨協調行銷活動，此行銷活動使用多重層級傳送，以在產品再次可用時，為每個已儲存的願望清單專案傳送個別的個人化電子郵件。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

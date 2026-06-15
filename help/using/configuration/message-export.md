@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1398
+source-wordcount: 1431
 ht-degree: 6%
 
 ---
 
 # 匯出訊息內容 {#message-export}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在電子郵件和簡訊通道設定上啟用訊息匯出，以將已傳送的訊息內容寫入Adobe Experience Platform資料集，並將其傳輸至您自己的儲存空間。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"

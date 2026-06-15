@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 53
-ht-degree: 15%
+source-wordcount: 77
+ht-degree: 10%
 
 ---
 
 # 下載IP熱身計畫範本和範例 {#ip-warmup-plan-files}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;下載空白的IP熱身計畫範本和填入的範例檔案，以在Adobe Journey Optimizer中準備您的計畫。
+
+>[!ENDSHADEBOX]
 
 <!--
 DO NOT MAKE PUBLIC AND DO NOT DELETE

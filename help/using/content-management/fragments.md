@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 19%
+source-wordcount: 412
+ht-degree: 17%
 
 ---
 
 # 開始使用片段 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的視覺效果和運算式內容片段，您可以一次建置且可重複使用的元件，以及在多個行銷活動和歷程中的電子郵件中參考。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"

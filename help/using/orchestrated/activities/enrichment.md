@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 64%
+source-wordcount: 877
+ht-degree: 62%
 
 ---
 
 # 擴充 {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在協調的行銷活動中使用擴充目標定位活動，以使用其他屬性、連結的表格資料及選件來增強您的對象，以實現更精確的目標定位和個人化。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"

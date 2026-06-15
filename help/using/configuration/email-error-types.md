@@ -23,14 +23,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 8%
+source-wordcount: 453
+ht-degree: 7%
 
 ---
 
 # 電子郵件錯誤類型 {#email-error-types}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱Adobe Journey Optimizer中的電子郵件傳遞錯誤完整清單，每個錯誤清單都有其錯誤標籤、錯誤型別、技術值和說明。
+
+>[!ENDSHADEBOX]
 
 傳送失敗的可能原因有多種。 下表詳細說明傳送包含[!DNL Journey Optimizer]的電子郵件傳遞時可能發生的所有錯誤，以及其說明和錯誤型別。
 

@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
 
 # 了解統計計算 {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer實驗背後的統計方法，包括隨時有效的信賴序列和信賴，可讓您持續監視結果，並判斷實驗何時已有結果。
+
+>[!ENDSHADEBOX]
 
 本文說明在Adobe Journey Optimizer中執行實驗時所使用的統計計算。
 
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 上表說明了不同的錯誤型別：
 
-* **誤判（Type-I錯誤）**：是對Null假設的錯誤拒絕，但實際上為True。 就線上實驗而言，這表示我們錯誤地斷定每個處理的結果量度不同，儘管相同。
+* **誤判（Type-I錯誤）**：是對Null假設的錯誤拒絕，但實際上為True。就線上實驗而言，這表示我們錯誤地斷定每個處理的結果量度不同，儘管相同。
   </br>在執行實驗之前，我們通常會挑選臨界值`\alpha`。 實驗執行之後，會計算`p-value`，而我們拒絕`null if p < \alpha`。選擇`/alpha`會根據獲得錯誤答案的後果，例如，在臨床試驗中，某人的生命可能會受到影響，您可能決定擁有`\alpha = 0.005`。 線上實驗中最常使用的臨界值為`\alpha = 0.05`，這表示長遠來看，我們預計每100個實驗中有5個是誤報。
 
 * **False Negatives （Type-II錯誤）**：表示我們無法拒絕Null假設，儘管它是False。 對於實驗，這表示我們不拒絕Null假設，但事實上它不同。 若要控制這類錯誤，我們通常需要在實驗中有足夠的使用者來保證特定的Power （定義為`1 - \beta`，亦即1減去II型錯誤的可能性）。

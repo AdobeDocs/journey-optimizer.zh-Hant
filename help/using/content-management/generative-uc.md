@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
 # AI 助理使用案例 {#generative-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中AI助理的實用使用案例，從重複使用現有內容及精簡文字變化，到產生影像、套用樣式參考及使用支援的語言。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

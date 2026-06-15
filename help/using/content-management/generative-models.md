@@ -10,14 +10,20 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 593
 ht-degree: 2%
 
 ---
 
 # 建立和管理生成模型 {#generative-models}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何新增、設定和管理內建、合作夥伴和自訂Firefly產生模型，這些模型用於Adobe Journey Optimizer中的AI影像產生。
+
+>[!ENDSHADEBOX]
 
 使用內建模型、自訂Firefly模型和協力廠商影像產生提供者，擴展您的AI影像建立功能，以符合您的特定需求並改善品牌一致性。
 

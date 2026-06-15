@@ -22,14 +22,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # 重試次數 {#retries}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer如何重試軟退信的電子郵件訊息、錯誤臨界值和重試時段如何運作，以及在將地址新增到隱藏清單之前如何調整它們。
+
+>[!ENDSHADEBOX]
 
 當電子郵件訊息因指定位址的暫時&#x200B;**軟退信**&#x200B;錯誤而失敗時，會執行多次重試。 每個錯誤都會增加錯誤計數器。 當此計數器達到限制臨界值時，電子郵件地址會新增到隱藏清單中。
 
@@ -45,7 +51,7 @@ ht-degree: 8%
 
 如果重試後傳送成功，位址的錯誤計數器會重新初始化。
 
-例如：
+例如:
 
 * 您會在星期一傳送一封電子郵件，其重試時段設定為24小時。 無法傳遞`emma.jones@mail.com`位址。 電子郵件最多會重試三次，並在達到24小時的重試期間時停止重試。
 

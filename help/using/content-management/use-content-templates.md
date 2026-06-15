@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 6%
+source-wordcount: 203
+ht-degree: 5%
 
 ---
 
 # 使用內容範本 {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立網路以外的任何管道的內容時，套用內容範本，以更快開始建立訊息。
+
+>[!ENDSHADEBOX]
 
 在[!DNL Journey Optimizer]中建立任何管道（網頁除外）的內容時，您可以使用自訂範本，可以：
 

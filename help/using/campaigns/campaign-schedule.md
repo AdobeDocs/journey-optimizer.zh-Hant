@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # 排程動作行銷活動 {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定開始和結束日期、收件者時區傳遞、執行頻率和速率控制，排程您的動作行銷活動，讓您的訊息在正確的時間送達正確的對象，而不會造成下游系統負擔。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤來定義行銷活動排程。
 

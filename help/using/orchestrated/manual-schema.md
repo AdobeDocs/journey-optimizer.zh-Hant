@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: 960
 ht-degree: 11%
 
 ---
 
 # 設定手動關聯式結構描述 {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在使用者介面中手動建立關聯式結構描述、新增屬性、連結結構描述，以及建立和啟用協調行銷活動的資料集。
+
+>[!ENDSHADEBOX]
 
 關聯式結構描述可以直接透過使用者介面建立，啟用屬性、主索引鍵、版本設定欄位和關係的詳細設定。
 

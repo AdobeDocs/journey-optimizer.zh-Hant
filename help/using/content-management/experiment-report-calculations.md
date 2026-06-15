@@ -16,14 +16,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 1%
 
 ---
 
 # 了解實驗報告中的統計計算 {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer行銷活動的實驗報告中使用的詳細統計計算，包括轉換率、提升度、隨時有效的信賴序列，以及如何決定最佳績效arm。
+
+>[!ENDSHADEBOX]
 
 本頁會記錄Adobe Journey Optimizer行銷活動的實驗報告中使用的詳細統計計算。
 

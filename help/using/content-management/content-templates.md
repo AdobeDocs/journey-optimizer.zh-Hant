@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 6%
+source-wordcount: 268
+ht-degree: 5%
 
 ---
 
 # 開始使用內容範本 {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用內容範本，以便為電子郵件、推播、應用程式內、簡訊和直接郵件通道建立獨立、可重複使用的內容，讓行銷人員可以在Adobe Journey Optimizer中的行銷活動和歷程中重複使用。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 48%
+source-wordcount: 1092
+ht-degree: 47%
 
 ---
 
 # 使用節流 API
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用節流API來建立、部署及監視節流設定，以限制Adobe Journey Optimizer每秒傳送至外部端點的事件數。
+
+>[!ENDSHADEBOX]
 
 節流API可協助您建立、設定和監視節流設定，以限制每秒傳送的事件數。
 

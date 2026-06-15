@@ -8,14 +8,20 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: 192
 ht-degree: 3%
 
 ---
 
 # 測試電子郵件轉譯 {#email-rendering}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將您的Litmus帳戶連線至Adobe Journey Optimizer，以測試熱門案頭、行動裝置和網頁型使用者端的電子郵件轉譯。
+
+>[!ENDSHADEBOX]
 
 您可以利用您的&#x200B;**Litmus**&#x200B;帳戶登入[!DNL Journey Optimizer]，在常見電子郵件使用者端立即預覽您的&#x200B;**電子郵件呈現**。 接著，您就可以確保電子郵件內容看起來不錯，並且在每個收件匣中都能正常運作。
 

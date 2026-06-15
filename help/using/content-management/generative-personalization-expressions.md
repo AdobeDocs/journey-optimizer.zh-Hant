@@ -12,14 +12,20 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1113
 ht-degree: 2%
 
 ---
 
 # 個人化運算式的 AI 助理{#generative-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中使用AI助理，以在Personalization編輯器和電子郵件Designer中從自然語言產生、修正和說明個人化運算式。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

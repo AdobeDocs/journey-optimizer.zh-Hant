@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # 使用DDL檔案建立關聯式結構描述 {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何透過上傳DDL檔案、定義表格之間的關係，以及將結構描述連結到現有實體以用於「協調的行銷活動」，在Adobe Experience Platform中建立關聯式結構描述。
+
+>[!ENDSHADEBOX]
 
 透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的關聯式資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
 

@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 571
 ht-degree: 3%
 
 ---
 
 # 定義API觸發的行銷活動對象 {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義對象、身分型別、自動建立設定檔及Webhook，讓您的API觸發的行銷活動可觸及正確的個人，並傳回即時傳遞狀態。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 對象]**&#x200B;標籤來定義行銷活動對象。
 

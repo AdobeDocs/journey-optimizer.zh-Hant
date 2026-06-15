@@ -24,14 +24,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 33%
+source-wordcount: 667
+ht-degree: 31%
 
 ---
 
 # 開始使用多語言內容 {#multilingual-gs}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;開始使用多語言內容，以使用手動或自動翻譯，在單一行銷活動或歷程中以多種語言建立訊息，並檢閱所需的先決條件。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"

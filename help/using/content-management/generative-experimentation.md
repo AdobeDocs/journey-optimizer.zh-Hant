@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 8%
+source-wordcount: 289
+ht-degree: 7%
 
 ---
 
 # 使用AI助理進行內容實驗{#generative-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用Adobe Journey Optimizer中的AI助理產生內容變異，並將它們轉換成實驗處理，以測量目標對象中的效能。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

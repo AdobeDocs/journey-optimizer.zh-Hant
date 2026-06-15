@@ -33,14 +33,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
+source-wordcount: 2475
 ht-degree: 2%
 
 ---
 
 # 將物件匯出至另一個沙箱 {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用封裝匯出和匯入，在沙箱之間複製Adobe Journey Optimizer物件，例如歷程、行銷活動、自訂動作、內容範本和片段。
+
+>[!ENDSHADEBOX]
 
 您可以使用套件匯出和匯入功能，跨多個沙箱複製物件，例如歷程、行銷活動、自訂動作、內容範本或片段。 套件可以包含單一物件或多個物件。 套件中包含的任何物件都必須來自相同沙箱。
 

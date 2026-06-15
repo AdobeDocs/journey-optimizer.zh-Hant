@@ -29,14 +29,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2063
+source-wordcount: 2099
 ht-degree: 19%
 
 ---
 
 # 使用自動化翻譯建立多語言內容 {#multilingual-automated}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何設定翻譯專案和語言設定，然後將您的行銷活動或歷程內容傳送給翻譯提供者進行稽核和發佈，以建立具有自動翻譯的多語言內容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"

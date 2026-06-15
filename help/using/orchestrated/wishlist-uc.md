@@ -17,14 +17,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 4%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
 # 傳送願望清單項目更新 {#wishist-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;請依照此使用案例，建立協調的行銷活動，透過個人化的電子郵件提醒，重新與收件者互動，提醒他們已儲存至願望清單中的產品。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

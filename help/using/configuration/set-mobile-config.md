@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 100%
+source-wordcount: 889
+ht-degree: 96%
 
 ---
 
 # 開始使用引導式管道設定 {#set-mobile-config}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解引導式管道設定工作流程如何自動建立在Adobe Journey Optimizer中設定行動裝置和網路管道所需的標籤屬性、資料串流和管道設定。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -199,7 +205,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -210,7 +216,7 @@ ht-degree: 100%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料串流</p>
+  <p>使用服務的資料流</p>
   </td>
   </tr>
   <tr>
@@ -294,7 +300,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -305,7 +311,7 @@ ht-degree: 100%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料串流</p>
+  <p>使用服務的資料流</p>
   </td>
   </tr>
   <tr>
@@ -389,7 +395,7 @@ ht-degree: 100%
   </tr>
   <tr>
   <td>
-  <p>Assurance</p>
+  <p>保證</p>
   </td>
   <td>
   <p>Assurance 工作階段</p>
@@ -400,7 +406,7 @@ ht-degree: 100%
   <p>資料串流</p>
   </td>
   <td>
-  <p>使用服務的資料串流</p>
+  <p>使用服務的資料流</p>
   </td>
   </tr>
   <tr>

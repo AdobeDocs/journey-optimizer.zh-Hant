@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 12%
+source-wordcount: 2795
+ht-degree: 11%
 
 ---
 
 # 執行 IP 暖身計劃 {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何定義IP熱身計畫的階段與執行、啟動它們，以及透過狀態與報告監視進度。
+
+>[!ENDSHADEBOX]
 
 在您[建立IP熱身計畫](ip-warmup-plan.md)並上傳與傳遞顧問準備的檔案後，您就可以定義階段並在計畫中執行。
 
