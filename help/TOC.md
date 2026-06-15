@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: 2b0718ccf2624fdbac9acc947f1e5ffc374f0603
 workflow-type: tm+mt
-source-wordcount: '3355'
-ht-degree: 95%
+source-wordcount: '3360'
+ht-degree: 94%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 95%
       + [了解其運作原理](using/start/understanding-ajo.md)
       + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
+      + {hide-from-toc}[此工作的哪個功能？](using/start/ajo-use-case-guide.md)
       + [護欄與限制](using/start/guardrails.md)
       + {hide-from-toc}[依據封裝的功能](using/start/ajo-packages.md)
       + {hide-from-toc}[封裝和功能(v2)](using/start/ajo-packages-v2.md)
