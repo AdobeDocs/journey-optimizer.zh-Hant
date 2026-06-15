@@ -6,21 +6,24 @@ description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # 設定目標維度 {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何將關聯式結構描述對應至客戶設定檔，以便您在實體層級傳遞訊息，藉此為協調的行銷活動設定目標維度。
+
+>[!ENDSHADEBOX]
 
 透過&#x200B;**[!UICONTROL 協調的行銷活動]**，您可以運用Adobe Experience Platform的關聯式結構描述功能，在實體層級設計並傳遞目標通訊。 Experience Platform使用結構描述，以一致且可重複使用的方式說明資料結構。 將資料擷取至Experience Platform時，會根據XDM結構描述進行架構。
 
@@ -40,7 +43,7 @@ ht-degree: 0%
 
   系統必須瞭解目標結構描述如何對應到`Profile`結構描述。 這是透過共用身分欄位來達成，該欄位存在於目標結構描述和`Profile`結構描述中，並且已設定為身分名稱空間。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 建立您的目標維度 {#targeting-dimension}
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`Recipient`結構描述中由唯一的`crmID`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

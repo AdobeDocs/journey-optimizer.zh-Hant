@@ -6,23 +6,24 @@ description: 瞭解如何設定您的頻道設定
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 501
 ht-degree: 0%
 
 ---
 
 # 設定您的頻道設定 {#channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何定義傳遞層級、目標維度及執行位址，以設定「協調的行銷活動」的管道設定，以及如何將URL追蹤引數新增至連結。
+
+>[!ENDSHADEBOX]
 
 設定[目標Dimension](target-dimension.md)後，您需要設定&#x200B;**[!UICONTROL 通道設定]**&#x200B;並定義適當的&#x200B;**[!UICONTROL 執行詳細資料]**。 這可讓您定義：
 
@@ -92,7 +93,7 @@ ht-degree: 0%
 * **`context.system.source.channel`**：頻道型別（電子郵件、簡訊、推播）
 * **`context.system.IdentityNamespace`**：已使用身分名稱空間
 
-例如：
+例如:
 
 ```
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}

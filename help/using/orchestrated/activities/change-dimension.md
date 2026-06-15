@@ -6,19 +6,23 @@ description: 了解如何使用變更維度活動
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 46%
 
 ---
 
 # 變更維度 {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用「變更」維度活動，在協調的行銷活動中移動目標維度，例如從願望清單切換至連結至其的收件者。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

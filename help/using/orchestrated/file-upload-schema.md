@@ -6,22 +6,24 @@ description: 瞭解如何透過上傳DDL在Adobe Experience Platform中建立關
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # 使用DDL檔案建立關聯式結構描述 {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何透過上傳DDL檔案、定義表格之間的關係，以及將結構描述連結到現有實體以用於「協調的行銷活動」，在Adobe Experience Platform中建立關聯式結構描述。
+
+>[!ENDSHADEBOX]
 
 透過建立結構描述（例如&#x200B;**忠誠會員資格**、**忠誠度交易**&#x200B;和&#x200B;**忠誠度獎勵**），定義協調行銷活動所需的關聯式資料模型。 每個結構描述都必須包含主索引鍵、版本設定屬性以及適當的關聯性，以參照實體，例如&#x200B;**收件者**&#x200B;或&#x200B;**品牌**。
 
@@ -37,7 +39,7 @@ ht-degree: 42%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## 上傳DDL檔案{#ddl-upload}
 
@@ -197,7 +199,7 @@ ht-degree: 42%
 
    ![](assets/schema_2.png)
 
-1. 輸入來自&#x200B;**目前結構描述的關係名稱**&#x200B;[!UICONTROL &#x200B;以及&#x200B;]&#x200B;**來自參考結構描述的關係名稱**。
+1. 輸入來自&#x200B;]**目前結構描述的關係名稱**[!UICONTROL &#x200B;以及&#x200B;]**來自參考結構描述的關係名稱**[!UICONTROL 。
 
 1. 按一下&#x200B;**[!UICONTROL 套用]**，以便儲存變更內容。
 

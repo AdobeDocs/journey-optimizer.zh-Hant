@@ -7,17 +7,22 @@ feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 938
 ht-degree: 0%
 
 ---
 
 
 # 建立重新定位查詢 {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立意見與追蹤式重新目標定位規則，這些規則會根據收件者回應先前協調行銷活動的方式，跟進收件者。
+
+>[!ENDSHADEBOX]
 
 重新定位可讓您根據收件者對先前已協調行銷活動的回應方式，來追蹤收件者。 例如，您可以傳送第二封電子郵件給已收到但未點按第一封的收件者。
 

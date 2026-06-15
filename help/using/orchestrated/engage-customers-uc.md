@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 625
 ht-degree: 4%
 
 ---
@@ -27,7 +22,13 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+**在此頁面上：**&#x200B;遵循協調的行銷活動使用案例，透過讀取對象、刪除重複專案、依流失風險分割對象，以及傳送個人化的後續追蹤訊息，根據客戶的瀏覽活動重新吸引客戶。
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+請注意，此使用案例始於已存在於Experience Platform中的受眾，特別是即時網路行為受眾，它會收集發生瀏覽活動的資訊。 [在Adobe Experience Platform中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **此使用案例所需的結構描述：**
 

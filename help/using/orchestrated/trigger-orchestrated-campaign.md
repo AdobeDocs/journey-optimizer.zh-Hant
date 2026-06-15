@@ -10,16 +10,21 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # 使用訊號觸發協調的行銷活動 {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用REST API或其他行銷活動之End活動的訊號來觸發協調的行銷活動，以及如何傳遞成為目標、條件和運算式之變數的裝載引數。
+
+>[!ENDSHADEBOX]
 
 您可以使用訊號（而非固定排程）來開始協調的行銷活動。 行銷活動收到訊號時，就會執行，而您可以在裝載中傳遞引數。 變數可用作目標、條件或運算式的變數。
 

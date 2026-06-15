@@ -6,19 +6,23 @@ description: 瞭解如何建立協調行銷活動的規則
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # 使用規則產生器 {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用規則產生器來篩選資料，以及建立查詢，在您的協調行銷活動中鎖定對象。
+
+>[!ENDSHADEBOX]
 
 協調的行銷活動隨附規則產生器，可簡化根據各種條件篩選資料庫的流程。 規則產生器能有效管理非常複雜和冗長的查詢，提供增強的彈性和精確度。
 
