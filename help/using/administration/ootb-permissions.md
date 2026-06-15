@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +60,7 @@ ht-degree: 2%
 | 報表 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL Reset sandboxes]**：可重設沙箱。</br>**[!DNL Share sandboxes]**：可共用沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。 |
 | 沙箱管理 | **[!DNL Export sandboxes]**：可匯出沙箱。</br>**[!DNL Manage packages]**：讀取、建立、編輯和刪除封裝。</br>**[!DNL Manage sandboxes]**：讀取、建立、編輯和刪除沙箱。</br>**[!DNL View sandboxes]**：屬於您組織的沙箱的唯讀存取權。</br>**[!DNL Reset sandboxes]**：可重設沙箱。 |
+| 模擬的使用者 | **[!DNL Manage Simulated Users]**：讀取、建立及編輯模擬使用者，這些模擬使用者用於測試模擬中的歷程。</br>**[!DNL View Simulated Users]**：對模擬使用者的唯讀存取權。 |
 | 翻譯服務 | **[!DNL Manage translation in house]**：讀取、建立、編輯和刪除內部翻譯。</br>**[!DNL Manage translation projects]**：讀取、建立、編輯和刪除翻譯專案。</br> **[!DNL Manage translation reviews]**：讀取、建立、編輯和刪除翻譯評論。</br>**[!DNL Manage translation settings]**：讀取、建立、編輯和刪除翻譯設定。</br>**[!DNL Manage translation tasks]**：讀取、建立、編輯和刪除翻譯工作。</br>**[!DNL View translation in house]**：內部翻譯的唯讀存取權。</br>**[!DNL View translation projects]**：翻譯專案的唯讀存取權。</br>**[!DNL View translation reviews]**：翻譯評論的唯讀存取權。</br>**[!DNL View translation tasks]**：翻譯工作的唯讀存取權。 |
 
 {style="table-layout:fixed"}
