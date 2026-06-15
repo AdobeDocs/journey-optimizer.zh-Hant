@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 16%
+source-wordcount: 806
+ht-degree: 15%
 
 ---
 
 # 建立AI模型 {#create-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立自動最佳化或個人化最佳化AI模型，並將其連線到您的轉換資料集，以便決策引擎可以自動排名優惠，並為每個設定檔提供轉換最高的優惠。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]可讓您建立&#x200B;**AI模型**，以根據您的業務目標來排名優惠。
 

@@ -21,14 +21,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 270
-ht-degree: 9%
+source-wordcount: 296
+ht-degree: 8%
 
 ---
 
 # 建立資料集以收集事件 {#create-dataset}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立擷取主張互動所需的體驗事件結構描述和資料集，以便將決策意見反應饋送至AI排名模型。
+
+>[!ENDSHADEBOX]
 
 若要收集體驗事件，您必須先建立要傳送這些事件的資料集。
 

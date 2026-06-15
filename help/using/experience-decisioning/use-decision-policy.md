@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
 
 # 在訊息中使用決定原則 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將決定原則程式碼插入您的程式碼式體驗、電子郵件、簡訊、推播通知和直接郵件內容，以便您可以使用傳回決定專案的屬性來個人化訊息。
+
+>[!ENDSHADEBOX]
 
 將決定原則新增至內容後，您就可以使用傳回決定專案的屬性進行個人化。 若要這麼做，請先將決定原則程式碼插入內容中。
 

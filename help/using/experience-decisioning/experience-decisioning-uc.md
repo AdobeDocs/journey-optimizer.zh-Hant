@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 896
+source-wordcount: 931
 ht-degree: 4%
 
 ---
 
 # 在包含內容實驗的程式碼式體驗中使用決策 {#experience-decisioning-uc}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;遵循使用案例，在程式碼型體驗內容實驗中建立兩個選取策略並比較排名方法，以便您判斷哪個決策方法最適合您的對象。
+
+>[!ENDSHADEBOX]
 
 此使用案例提供將Decisioning與[!DNL Journey Optimizer]程式碼型管道搭配使用所需的所有步驟。
 

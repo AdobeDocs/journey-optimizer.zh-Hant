@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: 887
 ht-degree: 0%
 
 ---
 
 # 決策常見問答 {#decisioning-faq}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找有關決策功能的常見問題解答，包括上限規則、排名公式和AI模型行為，以便您能夠自信地設定決策並疑難排解。
+
+>[!ENDSHADEBOX]
 
 本頁提供有關Adobe Journey Optimizer中決策功能的常見問題解答。
 

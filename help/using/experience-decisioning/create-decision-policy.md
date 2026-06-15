@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2372
-ht-degree: 6%
+source-wordcount: 2404
+ht-degree: 5%
 
 ---
 
 # 建立決定原則 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在您的行銷活動或歷程內容中新增並設定決定原則，以便您可以針對支援的管道中的每個設定檔，傳回最佳決定專案並進行排名。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

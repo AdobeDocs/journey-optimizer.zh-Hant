@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # 監視您的AI模型 {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;監視您的AI排名模型的健康情況、訓練狀態和效能，以便您確認它們正在改善您的業務結果，並在它們未改善時進行疑難排解。
+
+>[!ENDSHADEBOX]
 
 無論您是行銷人員、資料科學家或決策管理員，瞭解您的個人化最佳化模型的表現和行為方式可協助您使用AI為每位客戶選取最佳優惠方案。
 

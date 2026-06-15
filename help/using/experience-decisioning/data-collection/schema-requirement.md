@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 1%
+source-wordcount: 323
+ht-degree: 0%
 
 ---
 
 # 設定資料彙集 {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定曝光、點按和自訂事件的體驗事件欄位和主張互動結構描述需求，以便決策可以準確地為報表和AI型排名最佳化提供意見回饋。
+
+>[!ENDSHADEBOX]
 
 若要取得非決定事件的事件型別意見反應，您必須在傳送至Adobe Experience Platform的&#x200B;**體驗事件**&#x200B;中，為每個事件型別設定正確的值。
 

@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 16%
+source-wordcount: 314
+ht-degree: 14%
 
 ---
 
 # 決策護欄與限制 {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;檢閱適用於跨決定要求、專案、原則、適用性規則和排名公式之決定的護欄和限制，以便設計保持在支援臨界值內的決定設定。
+
+>[!ENDSHADEBOX]
 
 為確保最佳化使用決策，請謹記以下護欄和限制。
 

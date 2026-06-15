@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # 在決策原則中善用片段 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在決定原則中運用Journey Optimizer內容片段和AEM內容片段，以便個人化並最佳化跨管道的內容決定傳送。
+
+>[!ENDSHADEBOX]
 
 決策專案支援兩種型別的片段內容，在決策原則內編寫訊息時可運用這些內容：
 

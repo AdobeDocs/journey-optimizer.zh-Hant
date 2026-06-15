@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: 352
 ht-degree: 0%
 
 ---
 
 # 在決策中善用內容資料 {#context}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義內容資料並將資料從Adobe Experience Platform饋送至Decisioning，以便在決策規則和排名公式中使用決策要求時傳送的即時資訊。
+
+>[!ENDSHADEBOX]
 
 透過決策，您可以利用Adobe Experience Platform中任何可用的資訊來執行各種動作，例如建立[決策規則](rules.md)或[排名公式](ranking/ranking.md)。
 

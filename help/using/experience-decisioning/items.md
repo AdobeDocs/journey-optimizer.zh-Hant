@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
+source-wordcount: 2374
 ht-degree: 17%
 
 ---
 
 # 建立您的第一個決定項目 {#items}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立和管理決定專案，包括其屬性、資格和上限規則，讓您可以將正確的行銷優惠方案呈現給正確的設定檔。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"

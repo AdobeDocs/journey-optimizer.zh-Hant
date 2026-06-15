@@ -21,14 +21,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 34%
+source-wordcount: 733
+ht-degree: 32%
 
 ---
 
 # 開始使用決定原則 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;了解決定原則如何使用決定引擎，以及其護欄和關鍵步驟，以便您將最佳優惠方案提供給每個對象成員。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"

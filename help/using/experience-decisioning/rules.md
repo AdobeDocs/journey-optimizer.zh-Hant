@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1136
 ht-degree: 13%
 
 ---
 
 # 建置規則 {#rules}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立可重複使用的決定規則和鎖定目標規則，以便您可以控制要在行銷活動和歷程中向哪些對象顯示的決定專案和個人化內容。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
