@@ -6,18 +6,22 @@ description: 瞭解如何在Adobe Journey Optimizer中使用AI支援的語意搜
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # 使用Adobe Experience Manager內容顧問 {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何存取及使用Adobe Experience Manager內容警告器，以直接在Journey Optimizer編寫工作流程中透過AI支援的語意搜尋來探索資產、動態媒體及內容片段。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager Content Advisor以標準化意圖驅動的統一介面探索取代確定性探索。 它可直接在Journey Optimizer製作工作流程中，使用AI支援的統一探索Assets、動態媒體和內容片段，改善行銷人員生產力和行銷活動效率。
 
@@ -81,7 +85,7 @@ Dynamic Media的可用性取決於您的存放庫設定：
 
 * **Scene7**：可用於已發佈的資產（視訊和PDF除外）。 [進一步瞭解Dynamic Media Scene7修飾元](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=zh-Hant){target="_blank"}
+* **OpenAPI**：可用於核准的資產（視訊除外）。 [進一步瞭解具有OpenAPI修飾元的Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7和OpenAPI**：當兩個設定都存在且資產符合條件時，即可使用。
 

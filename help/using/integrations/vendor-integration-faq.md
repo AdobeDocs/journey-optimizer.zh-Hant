@@ -9,16 +9,21 @@ role: User
 level: Intermediate
 keywords: 整合，常見問題集，外部資料，個人化
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 877
 ht-degree: 1%
 
 ---
 
 # 關於整合的常見問題 {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;尋找有關Adobe Journey Optimizer整合的常見問題解答，包括設定、驗證、支援的管道和格式、許可權及疑難排解。
+
+>[!ENDSHADEBOX]
 
 以下是有關Adobe Journey Optimizer中&#x200B;**整合**&#x200B;的常見問題。
 

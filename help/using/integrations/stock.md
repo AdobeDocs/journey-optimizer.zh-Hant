@@ -10,30 +10,31 @@ level: Beginner
 keywords: stock，圖片，整合，像片
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: c08fcc42-2918-421a-a25e-e1bd9464c290
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 13%
+source-wordcount: 622
+ht-degree: 12%
 
 ---
 
 # 使用[!DNL Adobe Stock]個影像 {#stock}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何直接從Adobe Journey Optimizer的電子郵件Designer尋找、授權及插入Adobe Stock影像，包括類似的像片。
+
+>[!ENDSHADEBOX]
+
 ## 開始使用 [!DNL Adobe Stock] {#get-started-stock}
 
 [!DNL Adobe Stock] 和 [!DNL Adobe Journey Optimizer] 電子郵件設計工具整合外掛程式，為客戶提供了用於訊息製作的導覽、授權和儲存影像的簡單方法。
 
-[Adobe Stock](https://helpx.adobe.com/tw/stock/get-started.html){target="_blank"}可讓您存取數百萬張高品質、精選且免版稅的像片、影片、插圖及向量圖形。 您可以選擇購買信用套件以授權資產，或僅購買一個標準或延長授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}可讓您存取數百萬張高品質、精選且免版稅的像片、影片、插圖及向量圖形。 您可以選擇購買信用套件以授權資產，或僅購買一個標準或延長授權以授權所需資產。 Adobe Stock也提供免費的資產集合。
 
 使用 [!DNL Adobe Journey Optimizer]，您可直接從 [!DNL Adobe Stock] 將影像上傳到電子郵件，並使用&#x200B;**[!UICONTROL 尋找 Adobe Stock 照片]**&#x200B;選項將其新增到 **[!UICONTROL Assets]** 資料夾。 此外，**[!UICONTROL 尋找類似 Stock 照片]**&#x200B;選項可協助您尋找符合傳送中所用資產的內容、顏色與組成的影像。
 
@@ -41,7 +42,7 @@ ht-degree: 13%
 
 擁有AEM Assets Essentials產品設定檔存取許可權的使用者可以使用&#x200B;**[!UICONTROL 尋找Adobe Stock像片]**&#x200B;和&#x200B;**[!UICONTROL 尋找類似影像]**&#x200B;選項。
 
-如需詳細資訊，請參閱[Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=zh-Hant#add-users-to-essentials){target="_blank"}。
+如需詳細資訊，請參閱[Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}。
 
 ## 從[!DNL Adobe Stock]插入影像 {#add-stock-image}
 
@@ -113,5 +114,5 @@ ht-degree: 13%
 
 * [Journey Optimizer中的電子郵件設計](../email/get-started-email-design.md)
 * [電子郵件設計的元件設定](../email/content-components.md)
-* [Adobe Stock快速入門](https://helpx.adobe.com/tw/stock/get-started.html){target="_blank"}。
+* [Adobe Stock快速入門](https://helpx.adobe.com/stock/get-started.html){target="_blank"}。
 

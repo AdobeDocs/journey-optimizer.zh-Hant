@@ -9,18 +9,22 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM，內容片段，管理，存放庫，驗證，作者，發佈
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # 設定Adobe Experience Manager存放庫存取權 {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解管理員如何將沙箱連線至Adobe Experience Manager存放庫 — 設定僅限作者或發佈存取權、自訂網域及驗證 — 讓行銷人員能夠在其歷程及行銷活動中使用AEM內容片段。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer與&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;整合，因此您可以在歷程與行銷活動中使用&#x200B;**內容片段**。 **預設會從Adobe Experience Manager發佈存放庫讀取內容片段**，管理員可以在&#x200B;**[!UICONTROL AEM整合]**&#x200B;功能表中切換為僅限作者或調整發佈存取權。
 
