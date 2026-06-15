@@ -11,26 +11,25 @@ mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 TQID: https://experienceleague.adobe.com/IX6fnq5uYLb17J0dLmLuDLlbdiBfsH-2gzdBknwppkE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # 排程動作行銷活動 {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定開始和結束日期、收件者時區傳遞、執行頻率和速率控制，排程您的動作行銷活動，讓您的訊息在正確的時間送達正確的對象，而不會造成下游系統負擔。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤來定義行銷活動排程。
 

@@ -10,24 +10,24 @@ level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
 TQID: https://experienceleague.adobe.com/4cCtvRATLk-gNyMcY-jESte82DKpgVbhA75pE4fNKmQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 12%
+source-wordcount: 345
+ht-degree: 11%
 
 ---
 
 # 排程API觸發的行銷活動 {#api-schedule}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;在[排程]索引標籤中設定開始和結束日期以及速率控制，讓您的API觸發的行銷活動在正確的時間傳送，而不會造成下游系統負擔。
+
+>[!ENDSHADEBOX]
 
 使用&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤來定義行銷活動排程。
 

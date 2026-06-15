@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 keywords: 波段，批次，排程，行銷活動，歷程，傳遞能力
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # 在行銷活動中使用波段傳送 {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;將傳出行銷活動傳遞分割為排程批次（稱為波段），以便平衡負載、保護寄件者信譽並改善大量傳送的傳遞能力。
+
+>[!ENDSHADEBOX]
 
 您可以將傳出行銷活動訊息的傳送劃分為幾個批次（波段），並排程它們在一段時間內的傳送情況。 Wave傳送有助於平衡負載、避免壓倒性的下游系統（例如呼叫中心或登陸頁面），並支援傳遞能力與傳送者信譽，尤其是對於大量傳送而言。
 
