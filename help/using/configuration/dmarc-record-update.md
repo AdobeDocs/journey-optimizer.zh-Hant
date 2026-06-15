@@ -10,30 +10,25 @@ level: Experienced
 keywords: 子網域, 網域, 郵件, dmarc, 記錄
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 TQID: https://experienceleague.adobe.com/B-gnzjRpmhxELBiXRZxkBvE2yNNgozy-Hed5-k1oaIQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # 遵守新的 DMARC 要求 {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解您必須在Adobe Journey Optimizer中為委派給Adobe的子網域設定DMARC記錄，以符合Google和Yahoo寄件者要求的原因和時間。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -52,13 +47,13 @@ ht-degree: 100%
 
 * 如果您已將傳送子網域[完全委派](delegate-subdomain.md#set-up-subdomain) 給 Adobe，請依照下列其中一個選項進行：
 
-   * **在託管解決方案中**，於您所委派子網域的上層網域設定 DMARC。
+   * 在您的託管解決方案&#x200B;**中，針對委派子網域**的上層網域設定DMARC。
 或
    * **在[!DNL Journey Optimizer]** 設定使用者介面中，於委派的子網域設定 DMARC，無需對託管解決方案進行額外工作。 [了解作法](dmarc-record.md#implement-dmarc)
 
 * 如果您已使用 [CNAME](delegate-subdomain.md#cname-subdomain-setup) 設定傳送子網域，請依照下列其中一個選項進行：
 
-   * **在託管解決方案中**，於子網域或於子網域的上層網域設定 DMARC。
+   * 在您的子網域或託管解決方案&#x200B;**之子網域**的父網域上設定DMARC。
 或
    * **在[!DNL Journey Optimizer]** 設定使用者介面中，於委派的子網域設定 DMARC。 [了解作法](dmarc-record.md#implement-dmarc)
 

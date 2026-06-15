@@ -9,16 +9,21 @@ role: Admin
 level: Experienced
 keywords: 匯出，訊息，資料集，結構描述，電子郵件，簡訊
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 4%
+source-wordcount: 447
+ht-degree: 3%
 
 ---
 
 # AJO訊息匯出綱要 {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索AJO訊息匯出資料集的結構和個別欄位，此資料集會在Adobe Experience Platform中儲存已傳送的電子郵件和簡訊內容。
+
+>[!ENDSHADEBOX]
 
 在電子郵件或簡訊通道設定上啟用&#x200B;**訊息匯出**&#x200B;時，已傳送的訊息內容會寫入[!DNL Adobe Experience Platform]中的&#x200B;**AJO訊息匯出資料集**。
 

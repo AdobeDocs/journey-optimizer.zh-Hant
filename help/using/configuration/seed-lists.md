@@ -10,31 +10,26 @@ level: Intermediate
 keywords: 種子清單，種子清單，種子，設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 TQID: https://experienceleague.adobe.com/eec0MMgNbimonw-XcC7mA39iPu36GJ5WDqfy0rLx4ZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1028
 ht-degree: 17%
 
 ---
 
 # 使用種子清單 {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立和使用種子清單，以在您的電子郵件傳遞中自動包含內部種子地址，以進行監控和郵寄清單保護。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]中的種子清單可讓您在傳遞中自動包含特定的種子地址。
 
@@ -48,7 +43,7 @@ ht-degree: 17%
 
 * 種子清單可在與客戶相同的時間以相同條件接收傳遞，可讓您監視傳送的電子郵件復本，以確保所有顯示格式、影像和連結正確無誤，並追蹤傳送給收件者的實際訊息。
 
-  例如：
+  例如:
 
   +++ 如果您是行銷經理：
 
@@ -102,7 +97,7 @@ ht-degree: 17%
 >id="ajo_seed_list_details"
 >title="定義種子清單"
 >abstract="使用種子清單自動將指定的內部地址新增到您的傳遞對象，當作保障機制。 種子清單讓您可以監視發送出去的郵件副本，以確保所有顯示元素正確無誤並保護您的郵寄清單。 目前該功能僅適用於電子郵件管道。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"

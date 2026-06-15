@@ -9,30 +9,25 @@ level: Intermediate
 keywords: 允許清單，安全清單，電子郵件，傳遞能力，沙箱，網域，隱藏，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # 設定允許清單 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何啟用、填入及管理Adobe Journey Optimizer中的允許清單，以限制在沙箱層級將電子郵件傳送至受信任的地址和網域。
+
+>[!ENDSHADEBOX]
 
 允許清單是可在[沙箱](../administration/sandboxes.md)層級定義的傳送安全清單。 它會限制傳送至特定地址或網域的電子郵件，以確保只有明確列出的收件者才能接收來自指定沙箱的訊息。
 
@@ -157,13 +152,13 @@ ht-degree: 12%
 
 ### 使用API呼叫新增實體 {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如：
+若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如:
 
 ![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
 
 您可以執行&#x200B;**新增**、**刪除**&#x200B;和&#x200B;**取得**&#x200B;作業。
 
-在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=zh-Hant){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
+在[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}參考檔案中進一步瞭解如何進行API呼叫。
 
 ## 下載允許清單 {#download-allowed-list}
 
@@ -206,7 +201,7 @@ ht-degree: 12%
 
 * 如果實體是允許清單&#x200B;**上的**，而不是隱藏清單上的，則會傳送電子郵件給對應的收件者。 但是，如果實體也在[隱藏清單](../reports/suppression-list.md)上，則對應的收件者將不會收到電子郵件，原因為&#x200B;**[!UICONTROL 隱藏]**。
 
-* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**&#x200B;[!UICONTROL &#x200B;不允許&#x200B;]&#x200B;**。**
+* 如果實體不在允許清單&#x200B;**上（不在隱藏清單上），則對應的收件者將不會收到電子郵件，原因為**[!UICONTROL &#x200B;不允許&#x200B;]**。**
 
 >[!NOTE]
 >
@@ -218,7 +213,7 @@ ht-degree: 12%
 
 ## 排除報告 {#reporting}
 
-當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}進行下列API呼叫。
+當允許清單作用中時，您可以擷取由於不在允許清單中而未從傳送中的電子郵件地址或網域。 若要這麼做，您可以使用[Adobe Experience Platform查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}進行下列API呼叫。
 
 若要取得由於收件者不在允許清單中而未傳送的&#x200B;**封電子郵件數目**，請使用下列查詢：
 

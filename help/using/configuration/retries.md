@@ -10,26 +10,25 @@ level: Experienced
 keywords: 重試，退回，軟退回，最佳化工具，錯誤
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # 重試次數 {#retries}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer如何重試軟退信的電子郵件訊息、錯誤臨界值和重試時段如何運作，以及在將地址新增到隱藏清單之前如何調整它們。
+
+>[!ENDSHADEBOX]
 
 當電子郵件訊息因指定位址的暫時&#x200B;**軟退信**&#x200B;錯誤而失敗時，會執行多次重試。 每個錯誤都會增加錯誤計數器。 當此計數器達到限制臨界值時，電子郵件地址會新增到隱藏清單中。
 
@@ -45,7 +44,7 @@ ht-degree: 8%
 
 如果重試後傳送成功，位址的錯誤計數器會重新初始化。
 
-例如：
+例如:
 
 * 您會在星期一傳送一封電子郵件，其重試時段設定為24小時。 無法傳遞`emma.jones@mail.com`位址。 電子郵件最多會重試三次，並在達到24小時的重試期間時停止重試。
 
@@ -60,7 +59,7 @@ ht-degree: 8%
 >title="更新重試臨界值"
 >abstract="如果預設值不適合您的需求，您可以修改連續軟退信的允許次數。 當重試計數器達到特定電子郵件地址的錯誤臨界值時，會將該地址加入禁止名單中。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=zh-Hant" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 如果預設值5不符合您的需求，您可以按照以下步驟修改錯誤臨界值。

@@ -9,29 +9,26 @@ level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1860
 ht-degree: 23%
 
 ---
 
 # 與外部系統整合 {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解整合Adobe Journey Optimizer與外部系統的護欄和最佳實務，包括上限和節流API、歷程逾時和重試。
+
+>[!ENDSHADEBOX]
 
 本頁介紹Journey Optimizer在整合外部系統時提供的各種護欄，以及最佳實務：如何使用上限API最佳化外部系統的保護、如何設定歷程逾時，以及重試如何運作。
 
@@ -126,7 +123,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 您將找到有關整合Journey Optimizer與外部系統的常見問題集。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何設定上限或節流規則？ 有預設規則嗎？
 

@@ -11,16 +11,21 @@ keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 5%
+source-wordcount: 1301
+ht-degree: 4%
 
 ---
 
 # 將電子郵件子網域從CNAME移轉至自訂委派 {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何刪除現有的DNS記錄、上傳SSL憑證、完成回饋回圈以及建立新的DNS記錄，將電子郵件或登陸頁面子網域從CNAME委派移轉至Adobe Journey Optimizer中的自訂委派。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
