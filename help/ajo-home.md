@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 ::::landing-cards-container
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -67,7 +67,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -77,7 +77,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -87,7 +87,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -97,7 +97,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -107,7 +107,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 

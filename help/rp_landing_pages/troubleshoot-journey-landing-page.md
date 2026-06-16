@@ -6,9 +6,9 @@ description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '574'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 94%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 存取及訂閱系統警示
 
@@ -59,7 +59,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 錯誤碼參考
 
@@ -69,7 +69,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -79,7 +79,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 疑難排解即時歷程執行
 
@@ -89,7 +89,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 對歷程中的傳入動作進行疑難排解
 
@@ -99,7 +99,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 疑難排解自訂動作
 
@@ -109,13 +109,13 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
-支援票證准則
+支援票證指引
 
-瞭解聯絡Adobe支援時要包含哪些內容（環境詳細資訊、影響層級、複製步驟、記錄或熒幕擷取畫面以及相關ID）以加快解決問題。
+了解聯絡 Adobe 支援時要包含哪些內容 (環境詳細資訊、影響層級、複寫步驟、記錄或螢幕擷取畫面以及相關識別碼)，以加快解決問題。
 
-[支援票證准則](../using/start/user-interface.md#support-ticket-guidelines)
+[支援票證指引](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::

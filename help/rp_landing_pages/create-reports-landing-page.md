@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 建立決策管理報告
-description: 瞭解如何使用事件資料集和DecisioningEvents XDM結構描述建立決定管理報告，以分析優惠效能和決定結果。
+description: 瞭解如何使用事件資料集和 DecisioningEvents XDM 結構描述建立決策管理報告，以分析產品建議效能和決策結果。
 redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="舊版" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 50%
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
-# 建立決定管理報告{#section-overview}
+# 建立決策管理報告{#section-overview}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
-使用決定管理事件資料和DecisioningEvents XDM結構描述，在Adobe Journey Optimizer中建置自訂報告。 本節說明如何使用事件資料集，並存取分析優惠選擇、遞補使用量和版位有效性所需的XDM欄位。
+使用決策管理事件資料和 DecisioningEvents XDM 結構描述，在 Adobe Journey Optimizer 中建立自訂報告。本節說明如何使用事件資料集，並存取分析產品建議選擇、遞補使用方式和版位有效性所需的 XDM 欄位。
 
-## 建立決定管理報告
+## 建立決策管理報告
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用決策管理事件
 
@@ -35,7 +35,7 @@ ht-degree: 50%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 存取及探索 DecisioningEvents XDM 欄位
 

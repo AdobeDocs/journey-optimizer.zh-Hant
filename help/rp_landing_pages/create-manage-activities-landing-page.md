@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="舊版" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
-在 Adobe Journey Optimizer 中，建立並管理決策可讓您在適當的時間向客戶傳遞最相關的產品建議。決策可作為智慧型容器，用於評估客戶資料和商業規則，以針對每個人選取最佳產品建議。您將了解如何定義決策範圍、設定優先順序或 AI 等排名方法，並設定遞補選項以確保所有客戶都獲得產品建議。從草擬您的第一個決策到使用模擬進行測試，本指南將劃分每個步驟，為您提供工具來個人化體驗並推動有意義的參與。
+在 Adobe Journey Optimizer 中，建立並管理決策可讓您在適當的時間向客戶傳遞最相關的產品建議。 決策可作為智慧型容器，用於評估客戶資料和商業規則，以針對每個人選取最佳產品建議。 您將了解如何定義決策範圍、設定優先順序或 AI 等排名方法，並設定遞補選項以確保所有客戶都獲得產品建議。 從草擬您的第一個決策到使用模擬進行測試，本指南將劃分每個步驟，為您提供工具來個人化體驗並推動有意義的參與。
 
-## 建立和管理決定
+## 建立並管理決策
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Adobe Journey Optimizer 中建立決策
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定產品建議選取方法
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 模擬產品建議決策
 

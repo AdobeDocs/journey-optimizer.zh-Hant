@@ -6,24 +6,24 @@ description: 內容卡
 redpen-status: CREATED_||_2025-08-11_20-43-30
 exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
 # 內容卡{#section-overview}
 
-內容卡是 Adobe Journey Optimizer 新的數位傳訊功能，可直接在行動應用程式和網站提供個人化且吸引人的內容。與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。
+內容卡是 Adobe Journey Optimizer 新的數位傳訊功能，可直接在行動應用程式和網站提供個人化且吸引人的內容。 與傳統推播通知不同，內容卡可順暢整合到使用者介面，提供永久、非侵入式更新來增強使用者互動和體驗。
 
 此功能可讓行銷人員向使用者呈現相關的豐富媒體內容，促進更高參與度，同時確保看到重要訊息，而不會中斷使用者歷程。
 
-## 內容卡片檔案
+## 內容卡文件
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定內容卡管道
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及設定內容卡
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 設計內容卡
 
