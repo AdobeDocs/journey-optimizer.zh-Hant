@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 98%
+source-wordcount: 1765
+ht-degree: 90%
 
 ---
 
@@ -408,3 +392,32 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
 >abstract="**載入檔案**&#x200B;活動是一項&#x200B;**目標選擇**&#x200B;活動。 請用它在「協調的行銷活動」畫布上上傳 CSV 或 TXT 檔案，並將其當作行銷活動客群。 檔案資料會在執行時耗用，不會作為 Adobe Experience Platform 資料集保留。 列會使用身分識別欄和目標維度，與現有的收件者進行調和。"
+
+<!-- SMS Sinch Usage metrics -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_metrics"
+>title="簡訊使用量度"
+>abstract="產生SMS使用報告，以協調傳訊量與供應商帳單。 報表會按天彙總每個簡短代碼或電話號碼的行動終止(MT)和行動產生(MO)計數。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_report_name"
+>title="報告名稱"
+>abstract="輸入有助於您稍後在清單中識別此報告的標籤，例如2026年5月的計費檢閱。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_credential"
+>title="簡訊認證"
+>abstract="選取Sinch API認證，其傳送與接收流量應會顯示在此報表中。 若要新增或更新認證，請移至&#x200B;**管理** > **管道** > **API認證**，然後選擇&#x200B;**SMS供應商** > **Sinch MMS**。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_start_date"
+>title="開始日期"
+>abstract="要納入報表之日期範圍的第一天。 使用情況資料僅供過去90天使用。"
+
+<!--  channel type in Custom Provider in API credential  -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="頻道型別"
+>abstract="選填。 將使用此自訂SMS提供者認證傳送的訊息（例如SMS或RCS）分類。 Journey Optimizer會將該值寫入XDM體驗事件，以便您能夠依管道報告及追蹤傳送。"
