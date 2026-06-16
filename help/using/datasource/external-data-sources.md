@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: 外部，來源，資料，設定，連線，第三方
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 30%
+source-wordcount: 2462
+ht-degree: 27%
 
 ---
 
@@ -268,11 +258,64 @@ ht-degree: 30%
 
 `client_assertion`和`client_assertion_type`欄位從未由使用者編寫。 它們會在執行階段由平台自動插入，緊接在權杖端點呼叫之前。
 
-<!--
-rebuild
--->
+#### 運作方式 {#certificate-credential-how-it-works}
 
-以下是憑證認證驗證型別的範例：
+憑證式自訂驗證以JWT使用者端宣告實作OAuth 2.0使用者端認證，如[RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"}所定義 — 與Microsoft Entra ID和Okta支援的標準相同。 Journey Optimizer使用以Adobe受管理私密金鑰簽署的JWT來證明其身分，而非使用者端密碼。 您的身分提供者會使用Adobe的公開憑證來驗證簽名，您只需在身分提供者中註冊一次該憑證。
+
+代號交換會依照下列步驟進行：
+
+1. Journey Optimizer會建立以Adobe私密金鑰簽署的JWT使用者端宣告。
+1. 判斷提示會連同`client_id`、`grant_type`和`scope`一併傳送至您的Token端點。
+1. 您的身分提供者會根據Adobe註冊的公開憑證驗證JWT簽章。
+1. 您的身分提供者傳回持有者存取權杖。
+1. Journey Optimizer會使用該權杖來呼叫您的自訂動作端點。
+
+#### Adobe憑證詳細資料 {#certificate-credential-details}
+
+Adobe會管理憑證及其相關私密金鑰。 下表摘要列出其主要特性：
+
+| 屬性 | 價值 |
+| --- | --- |
+| 核發者 | DigiCert （公用CA） |
+| 管理者 | Adobe |
+| 演演算法 | RS256 (RSA) |
+| 在您的身分提供者中註冊什麼 | 僅限Adobe的葉憑證 — 不是中間或根CA |
+| 如何取得 | 從[mTLS公用憑證API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}擷取它（請參閱下面的&#x200B;**憑證**&#x200B;護欄） |
+| 旋轉 | Adobe會管理輪換，並提供至少30天的提前通知 |
+
+#### JWT宣告結構 {#certificate-credential-jwt}
+
+您不會編寫JWT使用者端宣告 — Journey Optimizer會產生宣告並簽署。 此處提供預期的結構，讓您的身分提供者團隊可以驗證宣告。
+
+標頭:
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+裝載：
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+請注意下列事項：
+
+* `exp` − `iat`一律≤10分鐘內 — 與Okta和Entra ID要求一致。
+* 每個判斷提示都使用唯一的`jti`，因此可以確保重播攻擊的安全。
+* `client_assertion`和`client_assertion_type`由平台自動插入，且永遠不會編寫。
+
+以下是Microsoft Entra ID的憑證憑證憑證驗證型別範例：
 
 ```json
 {
@@ -294,6 +337,28 @@ rebuild
 }
 ```
 
+以下是Okta中相同憑證認證驗證型別的範例：
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >設定憑證式自訂驗證時，請記住下列護欄：
@@ -302,7 +367,7 @@ rebuild
 >* **`method`**：必須是`POST`。 OAuth權杖端點僅接受POST請求。
 >* **`client_id`**：不得為空白，且開頭或結尾不能是空白字元。 空白值會產生看起來有效的JWT，身分提供者會以不透明錯誤拒絕該JWT。
 >* **`scope`**：在`bodyParams`中以單一空格分隔的字串表示。 最多總共1000個字元。
->* **憑證**： Adobe會管理憑證和私密金鑰 — 您絕對不會上傳或輸入憑證。 在即時歷程中使用自訂動作之前，您必須在身分提供者中註冊&#x200B;**Adobe的葉憑證** （不是根CA）。
+>* **憑證**： Adobe會管理憑證和私密金鑰 — 您絕對不會上傳或輸入憑證。 在即時歷程中使用自訂動作之前，您必須在身分提供者中註冊&#x200B;**Adobe的Leaf憑證**。 若要擷取它，請呼叫[mTLS公開憑證API](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}，並尋找`certCommonName`為`ajo-journeys.aep-mtls.adobe.com`的專案。 從該專案登入`publicCertificate`值 — 不要使用中間或根CA憑證。
 
 以下是標頭驗證型別的範例：
 
