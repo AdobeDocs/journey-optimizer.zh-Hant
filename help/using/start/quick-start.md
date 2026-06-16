@@ -267,7 +267,7 @@ Journey Optimizer 提供兩種主要方法來觸及和吸引客戶：
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。 影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
 
 ## 其他資源
 
