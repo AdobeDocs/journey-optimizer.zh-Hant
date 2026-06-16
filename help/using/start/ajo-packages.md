@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，套件，授權，行銷活動，歷程，頻道，決策，傳出，行動，網頁，模組化， sms， mms， whatsapp，附加元件，選擇， prime， ultimate，舊版
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 2%
 
 ---
@@ -276,5 +276,6 @@ ht-degree: 2%
 
 - **開始使用產品** — 設定您的環境並學習核心概念。 [開始使用Journey Optimizer](get-started.md)
 - **規劃您的實作** — 遵循專案的結構化上線路徑。 [入門專案指南](onboarding-hub.md)
+- **檢查功能可用性** — 檢視哪些功能已上線、其生命週期狀態(GA / LA / Beta)以及何時出貨。 [功能可用性](ajo-features-availability.md)
 - **尋找正確的使用案例** — 將您的參與目標對應至支援這些目標的功能。 [使用案例指南](ajo-use-case-guide.md)
 - **設定您的頻道** — 一旦您知道您擁有哪些附加元件，請設定您需要的頻道： [電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[簡訊/多媒體簡訊](../mobile/get-started-mobile.md)、[應用程式內傳訊](../in-app/get-started-in-app.md)、[內容卡](../content-card/get-started-content-card.md)、[網頁頻道](../web/get-started-web.md)以及[程式碼型體驗](../code-based/get-started-code-based.md)。
