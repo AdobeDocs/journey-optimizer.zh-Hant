@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 440
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -48,15 +42,15 @@ ht-degree: 87%
 將 WhatsApp 與 Journey Optimizer 整合需要下列項目：
 
 * Meta 企業管理員帳戶
-* [具有已驗證寄件者姓名和電話號碼的WhatsApp商業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [具有已驗證寄件者名稱與電話號碼的 WhatsApp 企業帳戶](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [使用者授權權杖擁有適當使用權限](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [核准的Meta範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [核准的 Meta 範本](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 在繼續整合之前，您還需要瞭解下列內容：
 
-* [WhatsApp內容規則](https://www.whatsapp.com/legal/messaging-guidelines)
-* [與Meta政策的合規性](https://www.whatsapp.com/legal)
-* [24小時交談限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [WhatsApp 內容規則](https://www.whatsapp.com/legal/messaging-guidelines)
+* [遵守 Meta 原則](https://www.whatsapp.com/legal)
+* [24 小時交談限制](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## 限制 {#limitations}
 
@@ -76,7 +70,7 @@ ht-degree: 87%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

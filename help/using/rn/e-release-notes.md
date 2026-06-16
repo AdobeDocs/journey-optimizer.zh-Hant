@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
 source-wordcount: 1951
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +23,7 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 ## 2026年6月發行前注意事項 {#june-26-rn}
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的檔案會在變更上線生產時發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出 — 如需詳細資訊，請參閱每個專案所列的「推出日期」。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的文件會在變更上線生產時發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出。如需詳細資訊，請參閱每個項目所列的推出日期。
 
 另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
@@ -272,7 +267,7 @@ The following improvement is coming to campaigns in this release.
 
 此版本的設定和管理功能即將改進以下內容。
 
-* **從串流模式移至批次模式的資料集** - AJO訊息回饋事件資料集正在從串流模式轉換為&#x200B;**批次擷取模式**。 這項變更可確保資料擷取不超過串流擷取限制。 如果您在Customer Journey Analytics報表中使用此資料集，或對其執行查詢，預計未來最多2小時的資料延遲會增加。
+* **從串流模式移至批次模式的資料集** - AJO訊息回饋事件資料集正在從串流模式轉換為&#x200B;**批次擷取模式**。 這項變更可確保資料擷取不超過串流擷取限制。 如果您在 Customer Journey Analytics 報告中使用此資料集，或對其執行查詢，預計未來最多 2 小時內資料延遲會增加。
 
 +++ 即將推出 — **下列資訊可能會變更**
 
@@ -282,7 +277,7 @@ The following improvement is coming to campaigns in this release.
 
 +++
 
-### 可用性改善 {#june-26-usability}
+### 可用性改進功能 {#june-26-usability}
 
 此版本即將推出下列可用性改善。
 

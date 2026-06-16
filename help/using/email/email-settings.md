@@ -10,25 +10,15 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 TQID: https://experienceleague.adobe.com/09Be2OEwtY2-wAMaWDUZtwZCVBqzXPsPgvNZuc1UO2M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +103,10 @@ ht-degree: 94%
 
 ## 標頭參數 {#email-header}
 
-在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入使用該組態傳送之電子郵件型別的&#x200B;**寄件者**、**回覆**&#x200B;及&#x200B;**錯誤**&#x200B;值。 [了解更多](header-parameters.md)
+在&#x200B;**[!UICONTROL 標頭參數]**&#x200B;區段中，輸入使用該設定所傳送電子郵件類型的&#x200B;**寄件者**、**回覆**&#x200B;和&#x200B;**錯誤**&#x200B;值。 [了解更多](header-parameters.md)
 
 
-或者，當傳送方與&#x200B;**來自**&#x200B;作者不同時，設定要新增至電子郵件標題的其他&#x200B;**寄件者**&#x200B;名稱和電子郵件。 [了解更多](header-parameters.md#sender-header)
+或者，當傳送方與&#x200B;**寄件者**&#x200B;作者不同時，設定要新增至電子郵件標頭的其他&#x200B;**寄件者**&#x200B;名稱和電子郵件。 [了解更多](header-parameters.md#sender-header)
 
 
 ## 密件副本電子郵件 {#bcc-email}
@@ -174,7 +164,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_surface_seed_list"
 >title="新增種子清單"
 >abstract="選取您所選的種子清單，以自動向您的對象新增特定的內部地址。 這些種子地址將在傳遞執行時包含在內，且為了保證目的將收到一份準確的訊息副本。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=zh-Hant#use-seed-list" text="什麼是種子清單?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="什麼是種子清單?"
 
 [!DNL Journey Optimizer] 內的種子清單，可讓您在您的傳送過程中自動包含特定的電子郵件種子地址。 [了解更多](../configuration/seed-lists.md)
 
@@ -197,7 +187,7 @@ You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey
 >id="ajo_admin_presets_retryperiod"
 >title="調整重試時段"
 >abstract="當電子郵件由於暫時性的軟退信錯誤而傳遞失敗時，將重試 3.5 天 (84 小時)。 您可以調整此預設的重試時段以進一步滿足您的需求。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=zh-Hant" text="關於重試"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="關於重試"
 
 您可以設定&#x200B;**電子郵件重試參數**。
 

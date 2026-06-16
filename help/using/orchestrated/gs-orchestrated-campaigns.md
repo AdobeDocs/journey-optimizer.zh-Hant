@@ -7,22 +7,14 @@ short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +51,8 @@ ht-degree: 88%
 <tr style="border: 0;">
 <td><img alt="隨選客群" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>隨選客群</b><br/>立即跨資料集查詢，以使用任何資料類型與維度的組合來建立客群細分群體。</td></tr>
 <tr style="border: 0;">
-<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體區段和傳送</b><br/>超越以人員為基礎的行銷活動 — 精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
-支援多級傳送，其中每個設定檔和每個關聯的次要實體會傳送一條訊息。這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。例如，這可讓行銷活動傳送至設定檔的所有已知地址，或為該設定檔相關聯的每個預訂傳送。</td></tr>
+<td><img alt="多實體細分和傳送" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>多實體細分和傳送</b><br/>超越以人員為基礎的行銷活動，精準使用產品目錄、商店位置或服務資料等實體來鎖定目標。<br/><br/>
+支援多級傳送，其中每個輪廓和每個關聯的次要實體會傳送一條訊息。這些次要實體可包括聯絡地址、預訂、訂閱、合約或其他連結的資料。例如，這可將行銷活動傳送至輪廓的所有已知地址，或為該輪廓相關聯的每個預訂傳送。</td></tr>
 <tr style="border: 0;">
 <td><img alt="預先傳送可見度與精確度" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>預先傳送可見度與精確度</b><br/>在行銷活動推出前，取得精確的細分計數與完整的行銷活動範圍可確保精確度與可信度。</td></tr>
 <tr style="border: 0;">
@@ -156,6 +148,6 @@ ht-degree: 88%
 * **[護欄和限制](guardrails.md)** - 檢視重要護欄、限制和最佳做法，以確保最佳行銷活動績效。
 * **[常見問題集](orchestrated-campaigns-faq.md)** - 尋找有關協調行銷活動特色、功能和使用案例的常見問題解答。
 * **[協調的行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 探索涵蓋功能和最佳做法的逐步教學課程影片。
-* **[透過瀏覽活動與客戶互動](engage-customers-uc.md)** — 使用多步驟協調的行銷活動，重新與已瀏覽但未購買的設定檔互動。
-* **[通知使用者產品可用性](product-availability-uc.md)** — 當客戶感興趣的產品有庫存時，通知客戶。
-* **[傳送願望清單專案更新](wishlist-uc.md)** — 當願望清單專案開始銷售或變為可用時，觸發個人化訊息。
+* **[透過瀏覽活動與客戶互動](engage-customers-uc.md)** - 使用多步驟協調的行銷活動，重新與已瀏覽但未購買的輪廓互動。
+* **[通知使用者產品可用性](product-availability-uc.md)** - 當客戶感興趣的產品有庫存時，通知客戶。
+* **[傳送願望清單項目更新](wishlist-uc.md)** - 當願望清單項目開始銷售或變為可用時，觸發個人化訊息。
