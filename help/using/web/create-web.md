@@ -7,28 +7,16 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -42,9 +30,9 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
->title="網頁動作"
->abstract="網路體驗傳入動作會在設定檔達到歷程的此步驟時，顯示設定檔的網路體驗。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的網頁設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視網頁體驗。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>title="網站動作"
+>abstract="網站體驗傳入動作會在輪廓到達歷程的此步驟時，向輪廓顯示網站體驗。 標籤會識別歷程畫布中的活動，而動作則會參考定義所顯示內容的網站設定。 「**最佳化**」區段可包含內容實驗或定向規則。 「**等待**」節點會自動插入至此活動之後 (預設為 3 天)，讓輪廓有時間檢視網站體驗。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 [!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 
@@ -306,4 +294,4 @@ ht-degree: 16%
 
 以下影片說明如何建立網站行銷活動、設定其屬性、檢閱及發佈。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449992/?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

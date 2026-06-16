@@ -10,27 +10,26 @@ level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1232
-ht-degree: 15%
+source-wordcount: 1266
+ht-degree: 23%
 
 ---
 
 # 建立新的直接郵件訊息 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;新增直接郵件訊息至行銷活動或歷程，並設定其擷取檔案，讓您的直接郵件提供者擁有傳送郵件給客戶所需的個人化資料。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
@@ -56,8 +55,8 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
 >title="直接郵件動作"
->abstract="當設定檔到達歷程的這個步驟時，直接郵件頻道動作會產生設定檔的直接郵件內容。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的直接郵件設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>abstract="直接郵件管道動作會在輪廓到達歷程的此步驟時，為輪廓產生直接郵件內容。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的直接郵件設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增直接郵件訊息。
 

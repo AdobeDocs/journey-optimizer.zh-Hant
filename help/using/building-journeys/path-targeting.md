@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 823
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="什麼是後備路徑？"
->abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。 </br>如果未選取此選項，則不符合鎖定目標規則的任何對象都不會進入後援路徑並退出歷程。"
+>abstract="透過後備路徑，在沒有任何目標選擇規則符合要求時，會讓您的客群進入替代路徑。 </br>如果未選取此選項，則任何不符合定向規則的客群都不會進入後備路徑，並會退出歷程。"
 
 目標規則可讓您根據特定受眾區段<!-- depending on profile attributes or contextual attributes-->，決定客戶必須符合哪些特定規則或資格，才能符合進入其中一個歷程路徑的資格。
 
@@ -65,7 +65,7 @@ With targeting, specific rules can be defined based on:
 
    金級與非金級會員的![忠誠度狀態目標規則](assets/journey-targeting-rule.png)
 
-1. 您也可以按一下「建立規則&#x200B;**>**&#x200B;[!UICONTROL &#x200B;選取規則&#x200B;]&#x200B;**」，選取從**&#x200B;[!UICONTROL &#x200B;規則&#x200B;]&#x200B;**功能表建立的現有目標規則。**&#x200B;[了解更多](../experience-decisioning/rules.md)
+1. 您也可以按一下「建立規則&#x200B;]**>**[!UICONTROL &#x200B;選取規則&#x200B;]**」，選取從**[!UICONTROL &#x200B;規則&#x200B;]**功能表建立的現有目標規則。**[!UICONTROL [了解更多](../experience-decisioning/rules.md)
 
    ![從[規則]功能表選取現有的鎖定目標規則](assets/journey-targeting-select-rule.png){width=70%}
 
