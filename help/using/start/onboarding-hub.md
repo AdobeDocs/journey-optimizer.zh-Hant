@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer入門中心 {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **在此頁面上：** Adobe Journey Optimizer快速上線 — 觀看簡短介紹、依照逐步指示出貨您的第一個體驗、瀏覽真實世界的使用案例，並深入瞭解精選影片內容。
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 第一次使用[!DNL Adobe Journey Optimizer]？ 此中心彙集各種資源，協助您從零開始使用第一個即時客戶體驗 — 提供常見目標的逐步指示、顯示可行功能的真實使用案例，以及精選影片內容（教學課程、逐步解說和實作練習）。
 
