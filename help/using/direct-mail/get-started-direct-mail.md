@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 89%
 
 ---
 
 # 開始使用直接郵件 {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解直接郵件通道如何運作，以便您產生第三方提供者用來傳送實體郵件給客戶的擷取檔案。
+
+>[!ENDSHADEBOX]
 
 直接郵件是離線管道，可讓您個人化和產生第三方直接郵件提供者傳送郵件給客戶所需的擷取檔案。
 
@@ -41,7 +47,7 @@ ht-degree: 79%
 
 ## 開始之前 {#before-you-start}
 
-建立直接郵件訊息之前，請先設定[檔案路由及直接郵件通道設定](direct-mail-configuration.md)。 您還需要Adobe Experience Platform中的對象和個人資料資料（例如郵寄地址）。
+建立直接郵件訊息之前，請先設定[檔案路由及直接郵件管道設定](direct-mail-configuration.md)。 您還需要 Adobe Experience Platform 中的客群和輪廓資料 (例如郵寄地址)。
 
 傳送直接郵件訊息的主要步驟如下：
 
@@ -51,7 +57,7 @@ ht-degree: 79%
 >
 >直接郵件訊息可以在歷程和行銷活動的內容中建立。 其無法在 API 觸發的行銷活動中使用。
 
-![Journey Optimizer中直接郵件頻道的動畫概觀](../rn/assets/do-not-localize/gif-dm.gif)
+![Journey Optimizer 中直接郵件管道的動畫概觀](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## 其他資源 {#additional-resources}
 
@@ -71,6 +77,6 @@ ht-degree: 79%
 
 +++
 
-如需相同步驟的書面逐步解說，請參閱[直接郵件通道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
+如需相同步驟的書面逐步解說，請參閱[直接郵件管道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}。
 
-如需直接郵件的常見問題，請參閱上面的[其他資源](#additional-resources)一節。
+如需關於直接郵件的常見問題，請參閱上面的[其他資源](#additional-resources)一節。

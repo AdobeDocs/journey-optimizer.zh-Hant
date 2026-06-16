@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 91%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="不頻繁" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>建立訂閱清單</strong></a>
@@ -137,4 +137,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
-➡️ **在實務中檢視：**&#x200B;探索[登入頁面使用案例](lp-use-cases.md)，以取得涵蓋訂閱管理、確認電子郵件及資料擷取案例的逐步範例。
+➡️ **在實作中檢視：**&#x200B;探索[登陸頁面使用案例](lp-use-cases.md)，以取得涵蓋訂閱管理、確認電子郵件及資料擷取案例的逐步範例。

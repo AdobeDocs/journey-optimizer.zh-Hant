@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1087
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 88%
 * 報表
 
    * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取 — 預期最多有2小時的資料延遲。**
-   * _報告 — 電子郵件追蹤體驗事件資料集_： `whatsAppChannelContext`欄位群組下電子郵件管道和WhatsApp管道內容資料的互動記錄。 用於報告和建立對象。 儲存的資訊包括一般使用者在電子郵件上執行的動作（開啟、點按等） 和WhatsApp互動。
+   * _報告 - 電子郵件追蹤體驗事件資料集_：電子郵件管道的互動記錄，以及 `whatsAppChannelContext` 欄位群組下的 WhatsApp 管道內容資料。 用於報告和建立客群。 儲存的資訊包含終端使用者在電子郵件和 WhatsApp 互動中執行的動作 (開啟、按一下等)。
    * _報告 - 推播追蹤體驗事件資料集_：用於報告與客群建立目的使用之推播通知頻道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
    * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。
    * _報告 - 歷程_：包含歷程每個步驟資訊的中繼資料資料集。
@@ -99,11 +99,11 @@ ht-degree: 88%
 
 * 傳入
 
-  _AJO傳入活動事件資料集_：儲存在[!DNL Journey Optimizer]中接收的傳入訊息的傳入活動事件。
+  _AJO 傳入活動事件資料集_：儲存在 [!DNL Journey Optimizer] 中接收的傳入訊息的傳入活動事件。
 
 >[!NOTE]
 >
->設定檔必須至少從[!DNL Journey Optimizer]傳送一則訊息，才能在此資料集中擷取傳入的訊息。
+>輪廓必須至少從 [!DNL Journey Optimizer] 傳送一則訊息，才能在此資料集中擷取傳入的訊息。
 
 ## 建立資料集{#create-datasets}
 

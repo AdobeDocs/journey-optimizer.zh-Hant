@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 79%
 
 ## 篩選清單 {#filter-lists}
 
-在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。 您也可以按一下欄標題來排序任何清單。 在「行銷活動」資料夾檢視中，也支援依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 頻道設定]**&#x200B;排序。
+在大部分清單中使用搜尋列來尋找特定項目並定義篩選條件。 您可以按一下欄位標頭來排序任何清單。 在行銷活動資料夾檢視中，也支援依&#x200B;**[!UICONTROL 優先順序]**&#x200B;和&#x200B;**[!UICONTROL 管道設定]**&#x200B;排序。
 
 按一下清單左上方的篩選圖示，即可存取篩選器。 篩選選單可讓您根據不同條件篩選顯示的元素：您可選擇僅顯示特定類型或狀態的元素、您建立的元素，或最近 30 天修改的元素。 選項會因內容而異。
 
@@ -69,16 +69,16 @@ ht-degree: 79%
 
 ## 大量動作 {#bulk-actions}
 
-在&#x200B;**行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單中，您可以使用核取方塊一次選取多個專案，並從熒幕底部出現的大量動作列套用作業至所有專案。
+在&#x200B;**行銷活動**、**片段**&#x200B;和&#x200B;**範本**&#x200B;清單中，您可以使用核取方塊一次選取多個項目，並從畫面底部顯示的大量動作列套用作業至所有項目。
 
-下列作業可供使用：
+可進行下列操作：
 
-* **[!UICONTROL 新增到封裝]** — 將選取的專案匯出到另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL 移至資料夾]** — 將選取的專案移至資料夾。
-* **[!UICONTROL 編輯標籤]** — 編輯指派給所選專案的標籤。 [瞭解如何使用標籤→](#add-tags)
-* **[!UICONTROL 管理存取權]** — 將存取權標籤套用至選取的專案。 [進一步瞭解物件層級存取控制→](../administration/object-based-access.md)
-* **[!UICONTROL 封存]** — 封存選取的專案。 可用於片段和範本。
-* **[!UICONTROL 刪除]** — 永久刪除選取的專案。 僅適用於Campaign。
+* **[!UICONTROL 新增到套件]** - 將選取的項目匯出到另一個沙箱。 [瞭解如何匯出物件 →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 移至資料夾]** - 將選取的項目移至資料夾。
+* **[!UICONTROL 編輯標籤]** - 編輯指派給所選項目的標籤。 [瞭解如何使用標籤 →](#add-tags)
+* **[!UICONTROL 管理存取權]** - 將存取權標籤套用至選取的項目。 [深入瞭解物件層級存取控制 →](../administration/object-based-access.md)
+* **[!UICONTROL 封存]** - 封存所選項目。 可用於片段和範本。
+* **[!UICONTROL 刪除]** - 永久刪除選取的項目。 僅適用於行銷活動。
 
 ![](assets/bulk-actions-fragments.png)
 

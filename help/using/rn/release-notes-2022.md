@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。同意原則是在Adobe Experience Platform中定義。在Journey Optimizer中，您可以將這些同意政策套用至自訂動作。例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷原則，以尊重客戶的同意偏好設定。同意原則在 Adobe Experience Platform 中定義。在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 <p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
 <p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
 </td>

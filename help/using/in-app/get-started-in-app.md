@@ -62,7 +62,7 @@ ht-degree: 89%
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="不頻繁" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>設計您的應用程式內內容</strong></a>

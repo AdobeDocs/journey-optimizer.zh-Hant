@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +113,10 @@ ht-degree: 94%
 
 ## 標頭參數 {#email-header}
 
-在&#x200B;**[!UICONTROL 標頭引數]**&#x200B;區段中，輸入使用該組態傳送之電子郵件型別的&#x200B;**寄件者**、**回覆**&#x200B;及&#x200B;**錯誤**&#x200B;值。 [了解更多](header-parameters.md)
+在&#x200B;**[!UICONTROL 標頭參數]**&#x200B;區段中，輸入使用該設定所傳送電子郵件類型的&#x200B;**寄件者**、**回覆**&#x200B;和&#x200B;**錯誤**&#x200B;值。 [了解更多](header-parameters.md)
 
 
-或者，當傳送方與&#x200B;**來自**&#x200B;作者不同時，設定要新增至電子郵件標題的其他&#x200B;**寄件者**&#x200B;名稱和電子郵件。 [了解更多](header-parameters.md#sender-header)
+或者，當傳送方與&#x200B;**寄件者**&#x200B;作者不同時，設定要新增至電子郵件標頭的其他&#x200B;**寄件者**&#x200B;名稱和電子郵件。 [了解更多](header-parameters.md#sender-header)
 
 
 ## 密件副本電子郵件 {#bcc-email}

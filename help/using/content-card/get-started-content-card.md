@@ -52,7 +52,7 @@ ht-degree: 85%
 </td>
 <td>
 <a href="create-content-card.md">
-<img alt="不頻繁" src="../assets/do-not-localize/sms-create.jpeg">
+<img alt="不常使用" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
 <a href="create-content-card.md"><strong>建立內容卡</strong></a>

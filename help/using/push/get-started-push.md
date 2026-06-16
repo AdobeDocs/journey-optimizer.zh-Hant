@@ -69,7 +69,7 @@ ht-degree: 93%
 </td>
 <td>
 <a href="design-push.md">
-<img alt="不頻繁" src="../assets/do-not-localize/push-design.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>設計推播通知</strong></a>

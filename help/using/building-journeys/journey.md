@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 
 **傳送訊息**
 
-針對電子郵件、推播、SMS/RCS/MMS、應用程式內、Web等使用內建頻道動作，全都在Journey Optimizer中設計。
+針對電子郵件、推播、簡訊/RCS/MMS、應用程式內、網頁等使用內建管道動作，全都在 Journey Optimizer 中設計。
 
 [可在歷程中傳送訊息](journey-action.md)
 :::

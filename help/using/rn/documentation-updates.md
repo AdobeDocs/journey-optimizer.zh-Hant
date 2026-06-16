@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
 source-wordcount: 8429
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -39,49 +39,49 @@ ht-degree: 85%
 
 * **寄件者標題**&#x200B;檔案現在澄清&#x200B;**[!UICONTROL 寄件者名稱]**&#x200B;和&#x200B;**[!UICONTROL 寄件者電子郵件]**&#x200B;必須同時設定或兩者皆留空，否則歷程和行銷活動無法發佈。 [閱讀更多](../email/header-parameters.md#sender-header)
 
-## 2026年5月 {#may-2026}
+## 2026 年 5 月 {#may-2026}
 
-* 新增了兩個新的高階許可權：**管理機碼登入** （可讓使用者檢視、建立、旋轉和撤銷機碼登入中的機碼）和&#x200B;**檢視機碼登入** （可讓使用者檢視機碼登入清單和機碼詳細資訊）。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
+* 新增了兩個新的高階權限：**管理金鑰登錄** (可讓使用者檢視、建立、旋轉和撤銷金鑰登錄中的金鑰) 和&#x200B;**檢視金鑰登錄** (可讓使用者檢視金鑰登錄清單和金鑰詳細資訊)。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
 
-* 訊息&#x200B;**中的**&#x200B;使用決定原則檔案現在說明如何從行銷活動摘要檢視決定原則的完整結構，並複製JSON技術摘要至剪貼簿以進行疑難排解。 [閱讀更多](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+* **在訊息中使用決策原則**&#x200B;文件現在說明如何從行銷活動摘要檢視決策原則的完整結構，並複製 JSON 技術摘要至剪貼簿以進行疑難排解。 [閱讀更多](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* 舊版&#x200B;**決定管理** [自動最佳化模型](../offers/ranking/auto-optimization-model.md)頁面已重新寫入，以符合更新的Decisioning檔案，包括增強學習概述、需求和限制、平衡最佳化與學習，以及湯普森取樣詳細資訊。 [閱讀更多](../offers/ranking/auto-optimization-model.md)
+* 舊版&#x200B;**決策管理** [自動最佳化模型](../offers/ranking/auto-optimization-model.md)頁面已重新寫入，以符合更新後的決策文件，包括增強學習概觀、需求和限制、平衡最佳化與學習，以及 Thompson 抽樣詳細資訊。 [閱讀更多](../offers/ranking/auto-optimization-model.md)
 
-* **發行說明**&#x200B;頁面已重新建構為主題式配置。 變更現在會依產品區域而非變更型別分組，並新增專屬的&#x200B;**可用性改善**&#x200B;區段。 即將推出的專案在各個主題中顯示為可展開的摺疊式功能表。 [閱讀更多](release-notes.md)
+* **發行說明**&#x200B;頁面已重新建構為主題型版面配置。 變更現在會依產品區域而非變更類型分組，並新增專屬的&#x200B;**可用性改進**&#x200B;區段。 即將推出項目在各個主題中顯示為可展開的摺疊式版面。 [閱讀更多](release-notes.md)
 
-* **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**頻道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
+* **協調行銷活動的護欄和限制**&#x200B;頁面現在會記錄每個協調行銷活動的&#x200B;**管道活動**&#x200B;限制。 [閱讀更多](../orchestrated/guardrails.md#activities-limitations)
 
-* **在沙箱之間複製Journey Optimizer物件**&#x200B;檔案現在包含&#x200B;**協調行銷活動**&#x200B;的重要注意事項：匯入後，請在目標沙箱中複製行銷活動，並使用重複資料來執行，以確保報告可正確擷取意見回饋和追蹤資料。 [閱讀更多](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
+* **在沙箱之間複製 Journey Optimizer 物件**&#x200B;文件現在包含&#x200B;**協調行銷活動**&#x200B;的重要注意事項：匯入後，請在目標沙箱中複製行銷活動，並使用複製的內容來執行，以確保報告可正確擷取意見回饋和追蹤資料。 [閱讀更多](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
-* **重要術語**&#x200B;頁面已改寫：新增6個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;去除混淆指南，用於四個常混淆術語配對。 已移除Adobe Experience Platform特定辭彙，並取代為連結至Adobe Experience Platform字彙表的附註。 [閱讀更多](../start/terminology.md)
+* **重要術語**&#x200B;頁面已改寫：新增 6 個新術語、新增&#x200B;**衝突與優先順序術語**&#x200B;區段，以及新增&#x200B;**當術語看起來相似時**&#x200B;的消除歧義指南，用於四個常混淆的術語對。 已移除 Adobe Experience Platform 特定術語，並取代為連結至 Adobe Experience Platform 詞彙表的附註。 [閱讀更多](../start/terminology.md)
 
-* **深層連結**&#x200B;檔案已擴充為新的&#x200B;**撰寫深層連結**&#x200B;區段，詳細說明可用於電子郵件的兩個選項（電子郵件Designer UI和Personalization編輯器程式碼）以及SMS的URL函式語法。 **建立SMS訊息**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀更多](../email/deeplinks.md)
+* **深層連結**&#x200B;文件已新增&#x200B;**製作深層連結**&#x200B;章節，詳細說明可用於電子郵件的兩個選項 (電子郵件設計工具 UI 和個人化編輯器程式碼) 以及可用於簡訊的 URL 函式語法。 **建立簡訊**&#x200B;頁面現在在內容製作流程中包含深層連結步驟。 [閱讀更多](../email/deeplinks.md)
 
-* **Url**&#x200B;協助程式參考已在Personalization檔案中以專屬區段更新。 [閱讀更多](../personalization/functions/helpers.md#url)
+* **Url** 協助程式參考已在個人化文件中更新專屬章節。 [閱讀更多](../personalization/functions/helpers.md#url)
 
-* **執行中繼資料**&#x200B;協助程式檔案已新增限制：傳入頻道（網頁、程式碼型體驗、應用程式內訊息、內容卡）不支援該函式。 [閱讀更多](../personalization/functions/helpers.md#execution-metadata)
+* **執行中繼資料**&#x200B;協助程式文件已新增限制：傳入管道 (網頁、程式碼型體驗、應用程式內訊息、內容卡) 不支援該函式。 [閱讀更多](../personalization/functions/helpers.md#execution-metadata)
 
-* 已新增新的&#x200B;**Personalization配方**&#x200B;頁面，為Journey Optimizer中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間配方（目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測）、字串配方（搭配變數指派使用`replaceAll`）以及條件式備援配方（使用`isEmpty`的空白欄位備援）。 [閱讀全文](../personalization/personalization-recipes.md)
+* 已新增&#x200B;**個人化方式**&#x200B;頁面，為 Journey Optimizer 中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間方式 (目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測)、字串方式 (搭配變數指派使用 `replaceAll`) 以及條件式遞補方式 (使用 `isEmpty` 的空白欄位遞補)。 [閱讀全文](../personalization/personalization-recipes.md)
 
-* 已更新&#x200B;**Personalization語法**&#x200B;檔案，其中擴充了簡介，澄清Handlebars (`{{...}}`)與PQL (`{%= ... %}`)語法之間的差異，包括使用表格、逸出常值雙引號的指引，以及適用於特殊屬性索引鍵&#x200B;**區段的新** PQL語法規則，涵蓋保留關鍵字、連字屬性索引鍵及數值事件ID。 還更正了反勾字元逸出的備註：連字欄位名稱可以直接在`{{...}}`區塊中參照；只有反勾語法會失敗。 [閱讀全文](../personalization/personalization-syntax.md)
+* 已更新&#x200B;**個人化語法**&#x200B;文件，其中擴充了簡介，澄清 Handlebars (`{{...}}`) 與 PQL (`{%= ... %}`) 語法之間的差異，包括使用表格、跳脫字面雙引號指引，以及&#x200B;**適用於特殊屬性索引鍵的新 PQL 語法規則**&#x200B;章節，涵蓋保留關鍵字、連字屬性索引鍵及數值事件識別碼。 還更正了反引號跳脫的輔助：連字欄位名稱可以直接在 `{{...}}` 區塊中參照；只有反引號語法會失敗。 [閱讀全文](../personalization/personalization-syntax.md)
 
-* **日期時間函式**&#x200B;檔案已新增真實世界的範例：針對`dateDiff`的倒數計時模式、針對`dayOfWeek`的週末與條件式工作日（附註說明如何使用歷程條件活動來路由使用案例），以及結合了`extractHours`與`extractMinutes`與前導零防護的純時間顯示模式。 [閱讀全文](../personalization/functions/dates.md)
+* **日期時間函式**&#x200B;文件已新增現實範例：針對 `dateDiff` 的倒計時模式、針對 `dayOfWeek` 的週末與平日條件式 (附註說明如何使用歷程條件活動來路由使用案例)，以及結合了 `extractHours` 及 `extractMinutes` 與前導零防護的純時間顯示模式。 [閱讀全文](../personalization/functions/dates.md)
 
-* **字串函式**&#x200B;檔案已更新`replaceAll`的新範例，說明如何將結果指派給`{% let %}`變數，以便在同一範本中重複使用多個運算式。 [閱讀全文](../personalization/functions/string.md#replace-all)
+* **字串函式**&#x200B;文件已更新 `replaceAll` 的新範例，說明如何將結果指派給 `{% let %}` 變數，以便在同一範本的多個運算式中重複使用。 [閱讀全文](../personalization/functions/string.md#replace-all)
 
-* 已更新&#x200B;**陣列函式**&#x200B;檔案，其中包含新的&#x200B;**在陣列上進行反複運算**&#x200B;區段，以記錄Handlebars `{{#each}}`區塊協助程式，包含澄清的備註，說明僅個人化編輯器支援`{{#each}}`，且無法在歷程條件活動內使用。 [閱讀全文](../personalization/functions/arrays-list.md#each-loop)
+* 已更新&#x200B;**陣列函式**&#x200B;文件，其中包含新的&#x200B;**反覆處理陣列**&#x200B;章節，以記錄 Handlebars `{{#each}}` 區塊協助程式，並包含備註以說明僅個人化編輯器支援 `{{#each}}`，且無法在歷程條件活動內使用。 [閱讀全文](../personalization/functions/arrays-list.md#each-loop)
 
-* **開始使用資料集**&#x200B;頁面已在系統資料集區段中更新為新的&#x200B;**輸入**&#x200B;專案，記錄&#x200B;_AJO輸入活動事件資料集_。 已新增附註，以釐清設定檔必須至少有一個訊息從[!DNL Journey Optimizer]傳送，才能在此資料集中擷取傳入訊息。 [閱讀全文](../data/get-started-datasets.md#system-datasets)
+* **開始使用資料集**&#x200B;頁面已在系統資料集章節中更新&#x200B;**傳入**&#x200B;項目，以記錄 _AJO 傳入活動事件資料集_。 已新增附註，用於說明輪廓必須至少從 [!DNL Journey Optimizer] 傳送一則訊息，才能在此資料集中擷取傳入的訊息。 [閱讀全文](../data/get-started-datasets.md#system-datasets)
 
-* **匯出訊息內容**&#x200B;檔案已擴充，包含&#x200B;**訊息匯出常見問題集** （個人化內容、影像和媒體、追蹤連結、PII、保留、使用案例等），以及&#x200B;**簡訊和電子郵件的JSON**&#x200B;匯出範例範例。 [閱讀全文](../configuration/message-export.md)
+* **匯出訊息內容**&#x200B;文件已新增&#x200B;**訊息匯出常見問題集** (個人化內容、影像和媒體、追蹤連結、PII、保留、使用案例等)，以及簡訊和電子郵件的&#x200B;**範例匯出的 JSON**&#x200B;範例。 [閱讀全文](../configuration/message-export.md)
 
-* 新的&#x200B;**AJO訊息匯出結構描述**&#x200B;頁面會記錄AJO訊息匯出資料集中的每個欄位，其中包含匯出的電子郵件和簡訊裝載的資料型別和階層。 [閱讀全文](../configuration/message-export-schema.md)
+* 新的 **AJO 訊息匯出結構描述**&#x200B;頁面會記錄 AJO 訊息匯出資料集中的每個欄位，其中包含匯出的電子郵件和簡訊承載的資料類型和階層。 [閱讀全文](../configuration/message-export-schema.md)
 
-* 已新增新的&#x200B;**個人化電子郵件中的URL**&#x200B;頁面，整合動態URL個人化、完整/基本URL個人化、URL追蹤引數個人化和關鍵護欄的相關指引。 [閱讀全文](../email/url-personalization.md)
+* 已新增&#x200B;**個人化電子郵件中的 URL** 頁面，整合動態 URL 個人化、完整/基本 URL 個人化、URL 追蹤參數個人化和關鍵護欄的相關指引。 [閱讀全文](../email/url-personalization.md)
 
-* 新的&#x200B;**商業規則查詢**&#x200B;區段已新增到查詢範例頁面，提供資料湖查詢以檢查特定日期後特定歷程上由於歷程頻率上限排除所放棄的所有設定檔。 查詢包含`eventCodeReason`欄位，以識別設定檔是否因為達到上限(`CAP_REACHED`)或低優先順序(`LOWER_PRIORITY`)而被排除。 [閱讀全文](../reports/query-examples.md#business-rules-queries)
+* 新的&#x200B;**業務規則查詢**&#x200B;區段已新增到查詢範例頁面，提供資料湖查詢以檢查特定日期後特定歷程上由於歷程頻率上限排除所放棄的所有輪廓。 查詢包含 `eventCodeReason` 欄位，以識別輪廓是否因為達到上限 (`CAP_REACHED`) 或優先順序較低 (`LOWER_PRIORITY`) 而被排除。 [閱讀全文](../reports/query-examples.md#business-rules-queries)
 
-* 已更新&#x200B;**歷程屬性**&#x200B;檔案，以記錄歷程屬性面板中的新&#x200B;**目前歷程裝載大小**&#x200B;指標。 此唯讀欄位顯示與設定限制（例如2 MB中的1.5 MB）相比的目前歷程裝載大小，可幫助您在發佈之前監控歷程複雜度並避免與大小相關的發佈錯誤。 [閱讀全文](../building-journeys/journey-properties.md#journey-payload-size)
+* 已更新&#x200B;**歷程屬性**&#x200B;文件，以記錄歷程屬性面板中的新&#x200B;**目前歷程承載大小**&#x200B;指標。 此唯讀欄位顯示與設定限制 (例如 2 MB 中的 1.5 MB) 相比的目前歷程承載大小，可幫助您在發佈之前監視歷程複雜度並避免與大小相關的發佈錯誤。 [閱讀全文](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026 年 4 月 {#april-2026}
 
@@ -97,7 +97,7 @@ ht-degree: 85%
 
 * **開始使用協調的行銷活動**&#x200B;頁面會在&#x200B;**協調的行銷活動內含哪些內容？**&#x200B;中記錄入門層級&#x200B;**建立客群 → 分支 → 管道 A + 管道 B** 模式，並交叉參考分支活動以及行銷與交易型訊息頁面。 [閱讀全文](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* 使用進階HTML編輯器的&#x200B;**編輯電子郵件內容**&#x200B;頁面已從內容管理區段移至檔案的&#x200B;**電子郵件**&#x200B;區段。 此頁面現在會記錄進階 HTML 編輯器可在電子郵件設計工具中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
+* **使用進階 HTML 編輯器編輯電子郵件內容**&#x200B;頁面已從「內容管理」區段移至文件的&#x200B;**電子郵件**&#x200B;區段。 此頁面現在會記錄進階 HTML 編輯器可在電子郵件設計工具中用於電子郵件訊息，以及用於電子郵件內容範本。 [閱讀全文](../email/email-expert-mode.md)
 
 * **開始和監視協調的行銷活動**&#x200B;文件已新增區段，以詳細說明內部發佈時間執行順序，以及行銷活動生命週期狀態表、發佈前檢查清單，以及非週期性行銷活動的傳送確認警告。 [閱讀全文](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 

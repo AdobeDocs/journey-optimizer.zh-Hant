@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ ht-degree: 95%
 * **[依管道的頻率上限](channel-capping.md)** - 設定管道層級的頻率上限，以防止過度傳訊。
 * **[設定勿打擾時間](quiet-hours.md)** - 定義基於時間的訊息傳遞排除。
 * **[衝突管理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - 逐步教學課程影片。
-* **[Journey Optimizer使用案例](../building-journeys/jo-use-cases.md)** — 瀏覽實用的模式，包括頻率上限和歷程抑制邏輯。
+* **[Journey Optimizer 使用案例](../building-journeys/jo-use-cases.md)** - 瀏覽實用的模式，包括頻率上限和歷程禁止邏輯。

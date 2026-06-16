@@ -407,7 +407,7 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動是一項&#x200B;**目標選擇**&#x200B;活動。 請用它在「協調的行銷活動」畫布上上傳 CSV 或 TXT 檔案，並將其當作行銷活動客群。 檔案資料會在執行時耗用，不會作為 Adobe Experience Platform 資料集保留。 列會使用身分識別欄和目標維度，與現有的收件者進行調和。"
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**目標定位**&#x200B;活動。 使用它在協調的行銷活動畫布上傳 CSV 或 TXT 檔案，並將其用作行銷活動客群。 檔案資料在執行時消耗，且不會儲存為 Adobe Experience Platform 資料集。 使用身分欄位和目標維度，將資料列調和至現有的收件者。"
 
 <!-- SMS Sinch Usage metrics -->
 

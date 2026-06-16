@@ -65,7 +65,7 @@ ht-degree: 91%
 </td>
 <td>
 <a href="create-web.md">
-<img alt="不頻繁" src="../assets/do-not-localize/web-create.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
 <a href="create-web.md"><strong>建立 Web 體驗</strong></a>。

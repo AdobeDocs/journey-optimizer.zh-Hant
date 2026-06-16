@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
 workflow-type: tm+mt
 source-wordcount: '3362'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -148,10 +148,10 @@ ht-degree: 94%
    + {hide-from-toc}[存取及管理挑戰與任務](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
-   + {hide-from-toc}[監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[監視忠誠度挑戰效能](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[設定忠誠度挑戰](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[忠誠度資料和資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-   + {hide-from-toc}[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+   + {hide-from-toc}[忠誠度挑戰 API 參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 行銷活動 {#campaigns}
    + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
    + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -245,7 +245,7 @@ ht-degree: 94%
       + [設定勿打擾時間](using/conflict-prioritization/quiet-hours.md)
    + 歷程仲裁 {#journey-arbitration}
       + [使用公式來排名歷程](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [使用AI模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
+      + [使用 AI 模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
 + 測試並核准 {#test}
    + [測試、驗證及核准](/help/rp_landing_pages/test-landing-page.md)
    + 預覽與測試內容 {#preview-test}
@@ -298,12 +298,12 @@ ht-degree: 94%
             + [使用電子郵件範本](using/email/use-email-templates.md)
             + [善用電子郵件主題](using/email/apply-email-themes.md)
             + [將 PDF 檔案附加到電子郵件](using/email/pdf-attachments.md)
-         + 編寫您的內容 {#add-content}
+         + 撰寫您的內容 {#add-content}
             + {hide-from-toc}[設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
             + [使用內容元件](using/email/content-components.md)
             + [運用視覺片段](using/email/use-visual-fragments.md)
             + [新增連結及追蹤訊息](using/email/message-tracking.md)
-            + [個人化URL](using/email/url-personalization.md)
+            + [個人化 URL](using/email/url-personalization.md)
             + [插入個人化優惠方案](using/email/add-offers-email.md)
             + [針對 AI 收件匣最佳化電子郵件](using/email/llm-email-optimizer.md)
             + [管理文字版本](using/email/text-version-email.md)
@@ -351,12 +351,12 @@ ht-degree: 94%
    + 簡訊 / MMS / RCS 管道 {#mobile}
       + [開始使用行動傳訊](using/mobile/get-started-mobile.md)
       + [建立行動訊息](using/mobile/create-mobile-message.md)
-      + [設計行動裝置訊息](using/mobile/design-mobile.md)
-      + [檢查並傳送您的行動裝置訊息](using/mobile/send-mobile-message.md)
-      + [管理行動訊息選擇退出](using/mobile/mobile-opt-out.md)
-      + [設定SMS子網域](using/mobile/mobile-subdomains.md)
+      + [建立行動訊息](using/mobile/design-mobile.md)
+      + [檢查並傳送行動訊息](using/mobile/send-mobile-message.md)
+      + [管理行動訊息的選擇退出](using/mobile/mobile-opt-out.md)
+      + [設定簡訊子網域](using/mobile/mobile-subdomains.md)
       + [簡訊成本最佳化的最佳做法](using/mobile/mobile-cost-optimization.md)
-      + 設定行動裝置頻道 {#configure-mobile}
+      + 設定行動裝置管道 {#configure-mobile}
          + [開始使用行動設定](using/mobile/mobile-configuration.md)
          + [設定 Sinch 提供者](using/mobile/mobile-configuration-sinch.md)
          + [設定 Infobip 提供者](using/mobile/mobile-configuration-infobip.md)
@@ -465,7 +465,7 @@ ht-degree: 94%
          + [字串函式](using/personalization/functions/string.md)
       + 個人化使用案例 {#personalization-use-cases}
          + [個人化使用案例](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
-         + [Personalization訣竅](using/personalization/personalization-recipes.md)
+         + [個人化方式](using/personalization/personalization-recipes.md)
          + [訂單狀態通知](using/personalization/personalization-use-case.md)
          + [放棄購物車電子郵件](using/personalization/personalization-use-case-helper-functions.md)
          + [健康計劃處方電子郵件](using/personalization/perso-uc-plan-prescriptions.md)
@@ -517,10 +517,10 @@ ht-degree: 94%
       + {hide-from-toc}[使用 Experience Manager 範本](using/integrations/aem-templates.md)
       + Experience Manager 內容片段 {#aem}
          + [開始使用 Experience Manager 內容片段](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[設定您的內容片段存放庫](using/integrations/aem-admin-settings.md)
+         + {hide-from-toc}[設定內容片段存放庫](using/integrations/aem-admin-settings.md)
          + [使用 Experience Manager 內容片段工作](using/integrations/aem-fragments.md)
          + [考量事項和疑難排解](using/integrations/aem-fragments-limitations.md)
-      + [使用Experience Manager內容顧問](using/integrations/aem-content-advisor.md)
+      + [使用 Experience Manager 內容顧問](using/integrations/aem-content-advisor.md)
       + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
       + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -529,10 +529,10 @@ ht-degree: 94%
          + [使用整合](using/integrations/integrations.md)
          + [使用外部整合進行個人化](using/integrations/integrations-personalization.md)
          + [常見問題集](using/integrations/vendor-integration-faq.md)
-         + 範例廠商 {#vendors}
-            + [開始使用廠商整合](using/integrations/vendor-integration-gs.md)
-            + [範例廠商組態](using/integrations/vendor-integration.md)
-      + [透過MCP使用AI工具](/help/using/integrations/ajo-mcp.md)
+         + 範例供應商 {#vendors}
+            + [開始使用供應商整合](using/integrations/vendor-integration-gs.md)
+            + [範例供應商設定](using/integrations/vendor-integration.md)
+      + [透過 MCP 使用 AI 工具](/help/using/integrations/ajo-mcp.md)
    + 用於內容產生的 AI 助理 {#ai-assistant}
       + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [開始使用 AI 助理](using/content-management/gs-generative.md)
@@ -910,7 +910,7 @@ ht-degree: 94%
    + [開始使用頻道設定](using/configuration/get-started-configuration.md)
    + [設定管道設定](using/configuration/channel-surfaces.md)
    + [匯出訊息內容](using/configuration/message-export.md)
-   + {hide-from-toc}[AJO訊息匯出結構描述](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[AJO 訊息匯出結構描述](using/configuration/message-export-schema.md)
    + 引導式管道設定 {#guided-setup}
       + [開始使用引導式管道設定](using/configuration/set-mobile-config.md)
       + [建立管道設定](using/configuration/create-channel-set-up.md)

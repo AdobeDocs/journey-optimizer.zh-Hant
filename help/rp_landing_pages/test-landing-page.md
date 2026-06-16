@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 此登陸頁面可協助您根據正在建立的內容 (行銷活動與歷程) 選擇正確的測試方法，引導您完成建議的測試工作流程，並可讓您快速存取所有測試和核准資源。 從[選擇下面的測試方法](#choose-your-testing-approach)開始，以識別哪些工具適用於您的使用案例。 如需關鍵測試術語的定義，請參閱[關鍵術語](#key-terminology)。
 
-## 測試和核准內容
+## 測試並核准內容
 
 :::: landing-cards-container
 :::
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>傳送多管道訊息</strong></a>
 </div>
 <p>
-測試結合讀取對象、反應事件和電子郵件/推播訊息的歷程。驗證從受眾目標定位到訊息傳送的整個流程。專注於多管道協調、反應事件、端對端流程驗證和測試/發佈步驟。
+測試結合讀取客群、反應事件和電子郵件/推播訊息的歷程。驗證從客群目標定位到訊息傳送的整個流程。專注於多管道協調、反應事件、端到端流程驗證和測試/發佈步驟。
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>傳送訊息給訂閱者</strong></a>
 </div>
 <p>
-使用動態電子郵件位址測試目標訂閱清單的歷程。驗證個人化運算式以找出正確的訂閱者目標。著重於個人化運算式、動態定址和訂閱清單目標定位。
+使用動態電子郵件定址測試以訂閱清單為目標的歷程。驗證個人化運算式以找出正確的訂閱者目標。著重於個人化運算式、動態定址和訂閱清單目標定位。
 </p>
 </td>
 <td>
@@ -349,7 +349,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>探索更多歷程使用案例</strong></a>
 </div>
 <p>
-存取涵蓋體驗事件、多頻道傳訊和外部系統整合的全方位實用範例集合。探索各種情境、進階模式和整合測試方法。
+存取涵蓋體驗事件、多管道傳訊和外部系統整合的全方位實用範例集合。探索多個案例、進階模式和整合測試方法。
 </p>
 </td>
 </tr></table>
@@ -398,7 +398,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 瞭解測試功能如何相互連線以及如何連線至您更廣泛的 Journey Optimizer 工作流程。 本節將對應先決條件、上游/下游相依性及常見功能組合。
 
-### 先決條件（測試前必填）
+### 先決條件 (測試前必須滿足)
 
 * 必須先建立測試輪廓，才能使用測試模式或內容預覽
 * 在提交以進行核准之前，必須先設定核准原則
@@ -407,14 +407,14 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 歷程必須處於草稿狀態，才能使用測試模式
 * 歷程必須已將命名空間設定為使用測試模式
 
-### 相依於哪些測試（上游）
+### 測試取決於什麼 (上游)
 
 * 內容建立：需要行銷活動或歷程進行測試
 * 測試輪廓：測試模式和內容預覽的必需項
 * 核准原則：核准工作流程的必需項
 * 設定：管道設定、電子郵件驗證、網域設定
 
-### 取決於測試（下游）的內容
+### 測試取決於什麼 (下游)
 
 * 行銷活動/歷程啟用：不解決錯誤就無法啟用
 * 發佈：發佈前可能需要核准
@@ -430,7 +430,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 測試輪廓 + 個人化 - 內容驗證
 * 試運行 + 測試模式 - 完整的歷程驗證
 
-### 通用功能組合
+### 常見功能組合
 
 * 內容測試：測試輪廓 + 範例輸入資料 + 個人化遊樂場
 * 電子郵件驗證：轉譯測試 + 垃圾郵件分數 + 測試輪廓 + 校樣
@@ -439,42 +439,42 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 >[!TAB 常見問題]
 
-### 問：啟動行銷活動之前需要哪些測試？
+### 問：啟動行銷活動之前需要進行哪些測試？
 
-**最小值：**&#x200B;包含測試設定檔的內容預覽+垃圾郵件分數檢查（電子郵件）
-**建議：** +電子郵件呈現+衝突偵測+核准工作流程
-**最佳實務：** +範例輸入資料測試+種子清單+ A/B實驗（如果最佳化）
+**最基本做法：**&#x200B;使用測試輪廓的內容預覽 + 垃圾郵件分數檢查 (電子郵件)
+**建議做法：** + 電子郵件轉譯 + 衝突偵測 + 核准工作流程
+**最佳做法：** + 範例輸入資料測試 + 種子清單 + A/B實驗 (如果最佳化)
 
-### 問：如何在不建立許多測試設定檔的情況下測試個人化？
+### 問：如何測試個人化而不建立許多測試輪廓？
 
-**主要解決方案：**&#x200B;使用[範例輸入資料](../using/test-approve/simulate-sample-input.md)搭配CSV/JSON檔案（支援最多30種變體）
-**替代方案：**&#x200B;建立3-5個代表[測試設定檔](../using/audience/creating-test-profiles.md)，涵蓋主要區段
+**主要解決方案：**&#x200B;使用[範例輸入資料](../using/test-approve/simulate-sample-input.md)搭配 CSV/JSON 檔案 (支援最多 30 種變化版本)
+**替代方案：**&#x200B;建立 3-5 個代表[測試輪廓](../using/audience/creating-test-profiles.md)，涵蓋主要區段
 **學習工具：**&#x200B;在[個人化遊樂場](../using/personalization/personalize.md#playground)中先進行實驗
 
-### 問：歷程的測試模式與試執行模式有何不同？
+### 問：歷程的測試模式與試運行之間有何差異？
 
-**測試模式：**&#x200B;透過歷程傳送測試設定檔、觸發實際動作、產生測試訊息。需要草稿歷程+名稱空間。
-**試執行：**&#x200B;追蹤執行路徑而不傳送任何內容。適用於任何歷程狀態。未傳送任何訊息，未執行任何動作。
-**搭配使用：**&#x200B;訊息測試的測試模式+邏輯驗證的試用 — 完整的涵蓋範圍。
+**測試模式：**&#x200B;透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。需要草稿歷程 + 命名空間。
+**試運行：**&#x200B;追蹤執行路徑而無需傳送任何內容。適用於任何歷程狀態。未傳送任何訊息，未執行任何動作。
+**搭配使用：**&#x200B;訊息測試的測試模式 + 邏輯驗證試運行 - 完整的涵蓋範圍。
 
 ### 問：我可以在生產/即時狀態中測試歷程嗎？
 
-**測試模式：**&#x200B;否 — 僅草稿歷程
-**練習：**&#x200B;是 — 適用於任何歷程狀態
-**內容預覽：**&#x200B;是 — 隨時預覽個別訊息
-**因應措施：**&#x200B;重複的即時歷程以草稿進行完整測試模式驗證
+**測試模式：**&#x200B;否，僅限草稿歷程
+**試運行：**&#x200B;是，適用於任何歷程狀態
+**內容預覽：**&#x200B;是，隨時預覽個別訊息
+**因應措施：**&#x200B;將即時歷程複製為草稿，以進行完整測試模式驗證
 
 ### 問：哪些測試功能需要外部整合？
 
-**電子郵件呈現：**&#x200B;需要Litmus整合（個別授權）
-**其他所有專案：**&#x200B;內建至Journey Optimizer，不需要其他整合
-**注意：**&#x200B;測試設定檔需要即時客戶設定檔服務（包含）
+**電子郵件轉譯：**&#x200B;需要 Litmus 整合 (個別授權)
+**所有其他功能：**&#x200B;內建至 Journey Optimizer，不需要其他整合
+**注意：**&#x200B;測試輪廓需要即時客戶輪廓服務 (已包含)
 
-### 問：如何測試API觸發的行銷活動？
+### 問：如何測試 API 觸發的行銷活動？
 
-**選項1：**&#x200B;使用[行銷活動模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;}進行程式設計測試
-**選項2：**&#x200B;在UI中使用測試設定檔預覽內容
-**選項3：**&#x200B;傳送校樣以測試電子郵件地址
-**最佳實務：**&#x200B;結合所有三個以進行全面驗證
+**選項 1：**&#x200B;使用[行銷活動模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} 進行程式設計測試
+**選項 2：**&#x200B;在 UI 中使用測試輪廓預覽內容
+**選項 3：**&#x200B;傳送校樣以測試電子郵件地址
+**最佳做法：**&#x200B;結合所有三個選項以進行全面驗證
 
 >[!ENDTABS]
