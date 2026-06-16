@@ -37,7 +37,7 @@ ht-degree: 17%
 >id="ajo_journey_action_code_based"
 >title="程式碼型體驗動作"
 >abstract="程式碼型體驗傳入動作會在輪廓到達歷程的此步驟時，向輪廓提供程式碼型體驗。 標籤會識別歷程畫布中的活動，而動作則會參考定義所顯示內容的程式碼型設定。 「**最佳化**」區段可包含內容實驗或定向規則。 「**等待**」節點會自動插入至此活動之後 (預設為 3 天)，讓輪廓有時間檢視體驗。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 在[!DNL Journey Optimizer]中，您可以在歷程或行銷活動中建立程式碼型體驗。
 

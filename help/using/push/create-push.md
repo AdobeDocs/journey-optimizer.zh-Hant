@@ -41,7 +41,7 @@ ht-degree: 25%
 >id="ajo_journey_action_push"
 >title="推播通知動作"
 >abstract="推播通知管道動作會在輪廓到達歷程的此步驟時，向輪廓傳送推播通知。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的推播設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 
 >[!CONTEXTUALHELP]

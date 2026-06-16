@@ -57,7 +57,7 @@ ht-degree: 18%
 >id="ajo_journey_action_sms"
 >title="行動訊息動作"
 >abstract="行動訊息管道動作會在輪廓到達歷程的此步驟時，向輪廓傳送文字 (簡訊)、多媒體 (MMS) 或進階通訊 (RCS) 訊息。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的行動訊息設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增行動訊息。
 

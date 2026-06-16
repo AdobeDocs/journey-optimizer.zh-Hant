@@ -78,7 +78,7 @@ WhatsApp支援下列訊息型別：
 >id="ajo_journey_action_whatsapp"
 >title="WhatsApp 動作"
 >abstract="WhatsApp 管道動作會在輪廓到達歷程的此步驟時，向輪廓傳送 WhatsApp 訊息。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的 WhatsApp 設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增WhatsApp訊息。
 
