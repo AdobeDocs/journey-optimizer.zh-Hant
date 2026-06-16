@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的網頁管道可讓您直接在您的網站上建�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 網頁管道快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的網頁管道可讓您直接在您的網站上建�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定網頁管道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的網頁管道可讓您直接在您的網站上建�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立及管理網頁體驗
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的網頁管道可讓您直接在您的網站上建�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 製作及管理網頁
 
