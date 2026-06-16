@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1481
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="建立歷程"
->abstract="**[!DNL Adobe Journey Optimizer]**&#x200B;會使用儲存在事件或資料來源中的情境資料，建置即時協調使用案例。"
+>abstract="**[!DNL Adobe Journey Optimizer]** 會使用事件或資料來源中所儲存的內容資料，建立即時協調使用案例。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="歷程"
->abstract="客戶歷程提供個人化的情境式體驗。 Journey Optimizer 可讓您利用儲存在事件或資料來源中內容相關的資料，建置即時協調流程使用案例。 **概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。 **瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
+>abstract="客戶歷程可提供個人化的內容體驗。 Journey Optimizer 可讓您利用儲存在事件或資料來源中內容相關的資料，建置即時協調流程使用案例。 **概觀&#x200B;**&#x200B;索引標籤會顯示儀表板，其中包含與您的歷程相關的關鍵量度。 **瀏覽&#x200B;**&#x200B;索引標籤會顯示現有歷程的清單。"
 
 [!DNL Adobe Journey Optimizer]包含全通路協調畫布，可讓行銷人員透過一對一客戶參與來協調行銷拓展。 使用者介面可讓您輕鬆將活動從浮動視窗拖放至畫布，以建立您的歷程。 歷程使用者介面在[此頁面](journey-ui.md)上詳細說明。
 

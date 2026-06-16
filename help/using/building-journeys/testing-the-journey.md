@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2335
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="測試您的歷程"
->abstract="測試設定檔可讓您在發佈歷程之前先測試歷程。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
+>abstract="測試輪廓可讓您在發佈前測試您的歷程。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="歷程試執行"
 
 一旦您建立了您的歷程，您就可以在發佈之前先測試它。 [!DNL Adobe Journey Optimizer]提供「測試模式」，以便在測試設定檔在歷程中移動時檢視測試設定檔，並在啟用之前偵測潛在錯誤。 執行快速測試可讓您檢查歷程是否正確運作，以便您能夠放心發佈。
@@ -154,7 +154,7 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="設定測試模式"
->abstract="如果歷程包含數個事件，系統會使用下拉式清單來選取事件。 對於每個事件，都會設定所傳遞的欄位以及事件傳送的執行。"
+>abstract="如果歷程包含多個事件，下拉式清單可用來選取事件。 對於每個事件，均需設定傳遞的欄位和事件傳送的執行。"
 
 使用&#x200B;**[!UICONTROL 觸發事件]**&#x200B;按鈕來設定讓人員進入歷程的事件。
 

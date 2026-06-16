@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1656
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="啟動傳送時間最佳化"
->abstract="選項按鈕決定是否要最佳化電子郵件開啟或電子郵件點進次數。 系統使用的傳送時間也可以包含在下一個選項中「傳送」的值中。"
+>abstract="選項按鈕可決定是否要最佳化電子郵件開啟次數或電子郵件點進次數。 系統所使用的傳送時間也可以用「傳送時間在未來」的值來限定。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="啟動傳送時間最佳化"
->abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。 系統使用的傳送時間也可以包含在下一個選項中「傳送」的值中。"
+>abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。 系統所使用的傳送時間也可以用「傳送時間在未來」的值來限定。"
 
 [!DNL Adobe Journey Optimizer]的傳送時間最佳化功能採用Adobe的Journey AI服務，可根據客戶的歷史開啟和點按行為，選擇最佳的電子郵件和推播訊息傳送時間，以最大化客戶參與度。
 

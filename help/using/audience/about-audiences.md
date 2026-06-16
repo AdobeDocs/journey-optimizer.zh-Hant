@@ -42,7 +42,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="對象"
+>title="客群"
 >abstract="透過使用即時客戶輪廓資料，Adobe Experience Platform 能讓您輕鬆建置區段定義，以建立能夠擷取客戶獨特行為與偏好的目標的客群。"
 
 >[!CONTEXTUALHELP]

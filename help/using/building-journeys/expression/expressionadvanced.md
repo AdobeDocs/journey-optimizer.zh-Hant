@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
 source-wordcount: 736
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="關於進階運算式編輯器"
->abstract="進階運算式編輯器會在介面的各種畫面中建置進階運算式。 例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。"
+>abstract="進階運算式編輯器可在介面的各個畫面中建立進階運算式。 例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。"
 
 使用Journey進階運算式編輯器，在介面的各種畫面中建置進階運算式。 例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。
 

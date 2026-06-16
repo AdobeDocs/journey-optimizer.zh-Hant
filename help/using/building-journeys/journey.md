@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="建立歷程"
->abstract="拖放式畫布可跨多個管道協調訊息和動作，運用情境資料和對象目標定位以獲得最大影響。"
+>abstract="拖放式畫布可協調多個管道的訊息和動作，並利用內容資料和客群定向來獲取最佳成效。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="建立您的第一個歷程"
 
 

@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
 source-wordcount: 782
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-## 新增LINE訊息 {#create-line-journey-campaign}
+## 新增 LINE 訊息 {#create-line-journey-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_line"
->title="LINE動作"
->abstract="LINE頻道動作會在設定檔達到歷程的此步驟時，傳送LINE訊息給設定檔。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的LINE設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>title="LINE 動作"
+>abstract="LINE 管道動作會在輪廓到達歷程的此步驟時，向輪廓傳送 LINE 訊息。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的 LINE 設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 瀏覽下列標籤，瞭解如何在行銷活動或歷程中新增LINE訊息。
 

@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="挑戰詳細資料"
->abstract="設定挑戰名稱和說明。 挑戰ID會在建立挑戰時自動指派，並可複製以供API或整合使用。"
+>abstract="設定挑戰名稱和說明。 挑戰 ID 會在建立挑戰時自動指派，並可複製以供 API 或整合使用。"
 
 1. 在&#x200B;**[!UICONTROL 挑戰詳細資料]**&#x200B;區段中，定義下列專案：
 
@@ -109,7 +109,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="客群"
->abstract="選擇可以參與挑戰的人。 新增Adobe Experience Platform對象，或讓對象保持空白，讓所有忠誠會員皆符合資格。 選擇性地要求完成其他挑戰作為先決條件。"
+>abstract="選擇哪些人可以參與挑戰。 新增 Adobe Experience Platform 客群，或將客群保持空白，使所有忠誠會員皆符合資格。 選擇性地要求完成其他挑戰來作為先決條件。"
 
 定義誰可以參與您的忠誠度挑戰。
 
@@ -124,7 +124,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑戰排程"
->abstract="使用開始和結束日期與時間以及時區設定挑戰現場的時間。 在作業完成視窗中，選擇客戶可在挑戰期間完成作業的時間。"
+>abstract="使用開始和結束日期與時間以及時區，設定挑戰的上線時間。 在任務完成視窗中，選擇客戶可在挑戰期間完成任務的時間。"
 
 設定您的挑戰執行時間：
 

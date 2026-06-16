@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="適用項目與排除項目"
->abstract="針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，請使用&#x200B;**[!UICONTROL 合格專案與排除]**&#x200B;屬性來選取哪些專案和群組計入任務完成，以及哪些專案與群組已排除。 從管理員設定的產品詳細目錄中搜尋料號或群組，然後視需要將其納入或排除。"
+>abstract="對於「**購買**」和「**支出**」活動，您可以使用「**[!UICONTROL 符合資格的項目與排除項目]**」屬性來選取哪些項目和群組會計入任務完成，而哪些不會計入。 從管理員所設定的產品庫存中搜尋項目或群組，然後視需要將其納入或排除。"
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

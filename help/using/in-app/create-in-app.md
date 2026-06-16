@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="應用程式內訊息動作"
->abstract="應用程式內訊息傳入動作會在設定檔到達歷程的此步驟時，向設定檔顯示應用程式內訊息。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的應用程式內設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視應用程式內訊息。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>abstract="應用程式內訊息傳入動作會在輪廓到達歷程的此步驟時，向輪廓顯示應用程式內訊息。 標籤會識別歷程畫布中的活動，而動作則會參考定義所顯示內容的應用程式內設定。 「**最佳化**」區段可包含內容實驗或定向規則。 「**等待**」節點會自動插入至此活動之後 (預設為 3 天)，讓輪廓有時間檢視應用程式內訊息。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 您可以在行銷活動或歷程中新增應用程式內訊息。 請依照下列詳細步驟，在兩個內容中建立應用程式內訊息。
 

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 16%
+ht-degree: 21%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
->title="網頁動作"
->abstract="網路體驗傳入動作會在設定檔達到歷程的此步驟時，顯示設定檔的網路體驗。 標籤會識別歷程畫布中的活動，而動作會參考定義所顯示內容的網頁設定。 **最佳化**&#x200B;區段可包含內容實驗或鎖定目標規則。 **等待**&#x200B;節點會自動插入此活動之後（預設為3天），讓設定檔有時間檢視網頁體驗。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>title="網站動作"
+>abstract="網站體驗傳入動作會在輪廓到達歷程的此步驟時，向輪廓顯示網站體驗。 標籤會識別歷程畫布中的活動，而動作則會參考定義所顯示內容的網站設定。 「**最佳化**」區段可包含內容實驗或定向規則。 「**等待**」節點會自動插入至此活動之後 (預設為 3 天)，讓輪廓有時間檢視網站體驗。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 [!DNL Journey Optimizer]可讓您個人化您透過傳入歷程或行銷活動提供給客戶的網頁體驗。
 

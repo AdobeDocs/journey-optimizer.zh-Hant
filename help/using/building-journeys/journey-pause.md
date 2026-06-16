@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2609
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="暫停您的歷程"
->abstract="暫停即時歷程會防止新設定檔進入。 可以捨棄目前歷程中的設定檔或將其保留在適當位置。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
+>abstract="暫停已上線的歷程可防止新的輪廓進入。 目前在歷程中的輪廓可以被捨棄，也可將其保留。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
 您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
@@ -126,7 +126,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="繼續歷程"
->abstract="繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。"
+>abstract="繼續已暫停的歷程可讓新的輪廓再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。"
 
 暫停的歷程會在最大暫停期間14天結束後自動恢復。 可隨時手動繼續進行。 繼續暫停的歷程可讓新設定檔再次進入。 如果輪廓在暫停期間是等待狀態，將會繼續其歷程。 非常適合在更新或暫停後安全地重新啟動歷程時使用。
 

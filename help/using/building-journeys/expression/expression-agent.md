@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
 source-wordcount: 661
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="使用運算式助理來產生運算式"
->abstract="運算式助理會使用生成式 AI，協助您直接在歷程進階運算式編輯器中建立和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以純文字描述您需要的內容時，助理會為您產生對應的運算式。"
+>abstract="運算式助理會使用生成式 AI，協助您直接在歷程進階運算式編輯器中建立和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以簡單明瞭的語言描述您所需的內容時，助理就會為您產生對應的運算式。"
 
 >[!AVAILABILITY]
 >

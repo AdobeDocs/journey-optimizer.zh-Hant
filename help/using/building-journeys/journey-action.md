@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1813
-ht-degree: 12%
+ht-degree: 22%
 
 ---
 
@@ -77,26 +77,26 @@ ht-degree: 12%
 * **建立新的歷程版本** — 新版本會繼續使用舊版活動。 您可以依原樣編輯和發佈；無需移轉。
 * **在歷程中複製並貼上舊版活動** — 貼上的活動仍然是舊版活動。 您可以依原樣編輯和發佈；無需移轉。
 
-## 將內建頻道動作新增至歷程  {#add-action}
+## 將內建管道動作新增至歷程  {#add-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="自動等待節點"
->abstract="對於傳入頻道動作（應用程式內訊息、網頁、內容卡和程式碼型體驗），會在動作之後自動插入&#x200B;**等待**&#x200B;節點（預設為3天）。 在歷程繼續進行下一個步驟之前，這可為設定檔提供檢視傳入體驗的時間。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>abstract="對於傳入管道動作 (應用程式內訊息、網站、內容卡和程式碼型體驗)，將會在動作之後自動插入&#x200B;**等待**&#x200B;節點 (預設為 3 天)。 這可在歷程繼續下一個步驟之前，為輪廓提供檢視傳入體驗的時間。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="最佳化"
->abstract="**最佳化**&#x200B;區段會將內容實驗、目標規則或兩者新增至頻道動作。 它可讓您測試變體，並為每個受眾成員傳遞最有效的內容。"
+>abstract="「**最佳化**」區段可將內容實驗、定向規則或兩者新增至管道動作。 它可讓您測試變體，並為每個客群成員提供最有效的內容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="使用最佳化活動"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多語言"
->abstract="**多語言**&#x200B;區段會在單一歷程中以多種語言提供頻道動作內容。 語言設定組態會定義此動作支援的區域設定和預設語言。"
+>abstract="「**多語言**」區段可在單一歷程中以多種語言提供管道動作內容。 語言設定定義了此動作支援的地區設定和預設語言。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="開始使用多語言內容"
 
 
@@ -286,7 +286,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="新增多項入站動作"
->abstract="單一歷程可包含數個入站動作。 您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
+>abstract="單一歷程可包含多個傳入動作。 您可以利用這項功能同時向不同位置傳遞多個程式碼型體驗、應用程式內訊息、內容卡片或是網頁動作，且每個動作都包含特定內容。"
 
 若要簡化歷程協調，您可以在單一歷程動作中定義數個傳入動作。
 

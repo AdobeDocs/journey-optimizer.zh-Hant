@@ -15,7 +15,7 @@ subfeature_v2: []
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1506
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="歷程清單和行事曆視圖"
->abstract="除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。 這些按鈕可隨時在清單和行事曆檢視之間切換。"
+>abstract="除了歷程清單之外，[!DNL Journey Optimizer] 還提供歷程的行事曆視圖，以清晰的視覺化方式呈現排程。 這些按鈕可以用來隨時切換清單和行事曆檢視。"
 
 ## 歷程儀表板 {#dashboard-jo}
 

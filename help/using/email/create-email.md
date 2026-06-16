@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1272
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -56,8 +56,8 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_email"
 >title="電子郵件動作"
->abstract="電子郵件頻道動作會在設定檔達到歷程的此步驟時，傳送電子郵件給設定檔。 標籤會識別歷程畫布中的活動，而動作會參考定義所傳送內容的電子郵件設定。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，**多語言**&#x200B;區段可傳送多種語言的內容，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用頻道動作"
+>abstract="電子郵件管道動作會在輪廓到達歷程的此步驟時，向輪廓傳送電子郵件。 標籤會識別歷程畫布中的活動，而動作則會參考定義所傳送內容的電子郵件設定。 「**最佳化**」區段可包含內容實驗或定向規則、「**多語言**」區段可用多種語言提供內容，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用管道動作"
 
 若要在[!DNL Journey Optimizer]中建立電子郵件，請新增&#x200B;**[!UICONTROL 電子郵件]**&#x200B;動作至歷程或行銷活動。 然後根據您的情況，遵循下列步驟。
 
