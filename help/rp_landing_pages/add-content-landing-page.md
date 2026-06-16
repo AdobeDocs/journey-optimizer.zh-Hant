@@ -6,15 +6,15 @@ description: 設計內容
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+workflow-type: ht
+source-wordcount: '319'
+ht-degree: 100%
 
 ---
 
 # 設計內容{#section-overview}
 
-在 Adobe Journey Optimizer 中設計您的內容，全都是為了建立個人化、具影響力的電子郵件體驗，並與您的客群溝通。無論您是要新增動態版面、可重複使用的視覺片段還是自訂連結，每個工具都可以搭配使用，讓您完全掌控電子郵件設計。您也會了解如何整合中繼資料以便存取、個人化產品建議以提供更大關聯性，甚至使用自訂 CSS 套用進階樣式。透過逐步指引，這些功能可讓您建立不僅在視覺上令人驚歎，而且能因應您的目標和客群需求量身打造的電子郵件。
+在 Adobe Journey Optimizer 中設計您的內容，全都是為了建立個人化、具影響力的電子郵件體驗，並與您的客群溝通。 無論您是要新增動態版面、可重複使用的視覺片段還是自訂連結，每個工具都可以搭配使用，讓您完全掌控電子郵件設計。 您也會了解如何整合中繼資料以便存取、個人化產品建議以提供更大關聯性，甚至使用自訂 CSS 套用進階樣式。 透過逐步指引，這些功能可讓您建立不僅在視覺上令人驚歎，而且能因應您的目標和客群需求量身打造的電子郵件。
 
 ## 設計內容
 
@@ -72,11 +72,11 @@ ht-degree: 87%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
 
-最佳化AI收件匣的電子郵件文字
+針對 AI 收件匣最佳化電子郵件文字
 
-建構電子郵件的純文字層，讓AI輔助收件匣使用者端能更妥善地摘要及擷取您的優惠方案及行動號召。
+建構電子郵件的純文字層，讓 AI 輔助收件匣用戶端能更妥善地摘要及擷取您的產品建議及行動號召。
 
-[最佳化AI收件匣的電子郵件文字](../using/email/llm-email-optimizer.md)
+[針對 AI 收件匣最佳化電子郵件文字](../using/email/llm-email-optimizer.md)
 :::
 
 :::

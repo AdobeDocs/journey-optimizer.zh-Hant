@@ -6,26 +6,26 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
 # LINE{#section-overview}
 
 
-請在客戶的 LINE 應用程式上，使用 [!DNL Journey Optimizer] 傳送 LINE 簡訊給客戶。您可以在 LINE 編輯器建立、個人化以及預覽訊息。
+請在客戶的 LINE 應用程式上，使用 [!DNL Journey Optimizer] 傳送 LINE 簡訊給客戶。 您可以在 LINE 編輯器建立、個人化以及預覽訊息。
 
-LINE 訊息可在歷程或行銷活動中建立和傳送。 
+LINE 訊息可在歷程或行銷活動中建立和傳送。
 
-* 在&#x200B;**歷程**&#x200B;中。建立歷程，新增 LINE 活動，同時定義基本設定，然後瀏覽至 **[!UICONTROL 動作：LINE]** 右窗格，以便建立 LINE 訊息的內容。在[此頁面](../using/building-journeys/journey-gs.md)中進一步了解如何建立歷程。
+* 在&#x200B;**歷程**&#x200B;中。 建立歷程，新增 LINE 活動，同時定義基本設定，然後瀏覽至 **[!UICONTROL 動作：LINE]** 右窗格，以便建立 LINE 訊息的內容。 在[此頁面](../using/building-journeys/journey-gs.md)中進一步了解如何建立歷程。
 
-* 在&#x200B;**行銷活動**&#x200B;中。建立行銷活動，選取 LINE 作為您的動作，並定義基本設定，然後編輯訊息內容，以便定義想要傳送的 LINE 訊息。在[此頁面](../using/campaigns/create-campaign.md#configure)了解如何建立行銷活動。
+* 在&#x200B;**行銷活動**&#x200B;中。 建立行銷活動，選取 LINE 作為您的動作，並定義基本設定，然後編輯訊息內容，以便定義想要傳送的 LINE 訊息。 在[此頁面](../using/campaigns/create-campaign.md#configure)了解如何建立行銷活動。
 
-建立 LINE 訊息之前，請先使用 Journey Optimizer，設定好 LINE 頻道。[了解更多](../using/line/line-configuration.md)。
+建立 LINE 訊息之前，請先使用 Journey Optimizer，設定好 LINE 頻道。 [了解更多](../using/line/line-configuration.md)。
 
-## LINE頻道檔案
+## LINE 管道文件
 
 :::: landing-cards-container
 

@@ -6,15 +6,15 @@ description: 設計您的電子郵件內容
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
 # 設計您的電子郵件內容{#section-overview}
 
-在 Adobe Journey Optimizer 中設計您的電子郵件內容，可讓您建立吸引客群的視覺上令人驚豔、個人化和回應式電子郵件。不論您是從頭開始、匯入 HTML 範本還是自訂樣式，本指南將逐步引導您完成每個步驟，從使用動態內容量身打造體驗，到使用中繼資料和 CSS 最佳化存取。探索實用秘訣、可重複使用的設計元件和 Adobe Stock 和 Experience Manager Assets Essentials 等工具，以簡化您的工作流程。有了清楚的指示和最佳做法，您就可以放心地製作在各平台和裝置間引起共鳴的有影響力的行銷活動。
+在 Adobe Journey Optimizer 中設計您的電子郵件內容，可讓您建立吸引客群的視覺上令人驚豔、個人化和回應式電子郵件。 不論您是從頭開始、匯入 HTML 範本還是自訂樣式，本指南將逐步引導您完成每個步驟，從使用動態內容量身打造體驗，到使用中繼資料和 CSS 最佳化存取。 探索實用秘訣、可重複使用的設計元件和 Adobe Stock 和 Experience Manager Assets Essentials 等工具，以簡化您的工作流程。 有了清楚的指示和最佳做法，您就可以放心地製作在各平台和裝置間引起共鳴的有影響力的行銷活動。
 
 ## 設計您的電子郵件內容
 

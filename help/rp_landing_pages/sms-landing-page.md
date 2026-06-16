@@ -6,17 +6,17 @@ description: 簡訊 / MMS / RCS 管道
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # 簡訊 / MMS / RCS 管道{#section-overview}
 
-Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓您透過個人化的行動訊息，直接在其行動裝置上吸引客戶。 無論您是透過SMS傳送簡單的更新、透過MMS傳送豐富的多媒體內容，還是透過RCS傳送互動式品牌訊息，此頻道都提供多種連線方式。 您將探索如何設定服務提供者、建立及個人化訊息、將其整合至行銷活動或歷程，以及確保遵循選擇退出管理。 在此過程中，了解如何測試、傳送和管理您的通訊以發揮最大影響，使其輕鬆、及時傳送相關的訊息，並引起您的客群的共鳴。
+Adobe Journey Optimizer 的簡訊/MMS/RCS 管道可讓您透過個人化的行動訊息，直接在行動裝置上與客戶互動。無論您是透過簡訊傳送簡單的更新、透過 MMS 傳送豐富的多媒體內容，還是透過 RCS 傳送互動式品牌訊息，此管道都提供多種連線方式。您將探索如何設定服務提供者、建立及個人化訊息、將其整合至行銷活動或歷程，以及確保遵循選擇退出管理。在此過程中，了解如何測試、傳送和管理您的通訊以發揮最大影響，使其輕鬆、及時傳送相關的訊息，並引起您的客群的共鳴。
 
-## 簡訊/多媒體簡訊/RCS頻道概述
+## 簡訊 / MMS / RCS 管道概觀
 
 :::: landing-cards-container
 :::

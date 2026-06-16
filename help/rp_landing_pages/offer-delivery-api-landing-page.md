@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="舊版" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！[了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向適當的客群提供個人化行銷產品建議，進而提升多個管道的參與度。無論您是使用邊緣決策 API 設計即時體驗、使用決策 API 量身打造特定產品建議，還是透過批次決策 API 擴大推廣，這些工具都提供適用於不同使用案例的多功能解決方案。您將探索每個 API 的運作方式，從處理內容資料到實施頻率上限，並探索根據您的業務需求量身打造的工作流程。開始解鎖更聰明的決策能力及順暢的整合功能，信心十足地提供具影響力的客戶體驗。
+Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向適當的客群提供個人化行銷產品建議，進而提升多個管道的參與度。 無論您是使用邊緣決策 API 設計即時體驗、使用決策 API 量身打造特定產品建議，還是透過批次決策 API 擴大推廣，這些工具都提供適用於不同使用案例的多功能解決方案。 您將探索每個 API 的運作方式，從處理內容資料到實施頻率上限，並探索根據您的業務需求量身打造的工作流程。 開始解鎖更聰明的決策能力及順暢的整合功能，信心十足地提供具影響力的客戶體驗。
 
-## 使用api傳遞優惠方案
+## 使用 API 傳遞產品建議
 
 :::: landing-cards-container
 :::

@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
 # 最新資訊{#section-overview}
 
-快速一覽 Journey Optimizer 產品和文件的最新增強功能！如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../using/rn/release-notes.md)。請造訪[文件更新頁面](../using/rn/documentation-updates.md)，以便掌握產品文件的最新變更。
+快速一覽 Journey Optimizer 產品和文件的最新增強功能！ 如需功能、改進項目與修正的完整清單，請參閱詳細的[發行說明](../using/rn/release-notes.md)。 請造訪[文件更新頁面](../using/rn/documentation-updates.md)，以便掌握產品文件的最新變更。
 
 >[!BEGINTABS]
 
 >[!TAB 行銷活動協調]
 
-Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。此發行版本推出行銷活動協調畫布和增強型資料模型，共同讓行銷人員規劃、鎖定目標及提供個人化的跨頻道行銷活動。
+Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。 此發行版本推出行銷活動協調畫布和增強型資料模型，共同讓行銷人員規劃、鎖定目標及提供個人化的跨頻道行銷活動。
 
 [![了解更多](../using/assets/do-not-localize/learn-more-button.svg)](../using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -41,14 +41,14 @@ Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/
 
 >[!TAB AEM 內容片段]
 
-透過將 Adobe Experience Manager as a Cloud Service 與 Adobe Journey Optimizer 整合在一處，您可以立即將 AEM 內容片段順利整合到 Journey Optimizer 內容當中。已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
+透過將 Adobe Experience Manager as a Cloud Service 與 Adobe Journey Optimizer 整合在一處，您可以立即將 AEM 內容片段順利整合到 Journey Optimizer 內容當中。 已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
 
 [![了解更多](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
 
-## 發行說明和檔案更新
+## 發行說明和文件更新
 
 :::: landing-cards-container
 :::

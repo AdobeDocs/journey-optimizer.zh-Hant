@@ -6,17 +6,17 @@ description: 所有期間報告
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
 # 所有期間報告{#section-overview}
 
-Adobe Journey Optimizer 中的「所有期間報告」是了解行銷活動與歷程在一段時間內的績效的閘道。此功能與 Customer Journey Analytics 整合，可讓您順暢地分析資料，確保跨管道 (例如電子郵件、簡訊、推播通知等) 的正確分析。您將了解如何存取詳細量度、設定報告資料來源，甚至直接從報告建立客群。無論您是探索行銷活動的成效，還是深入探索歷程分析，相互關聯的主題都提供清楚的藍圖，讓您能夠掌握報告工具，並自信地最佳化客戶參與。
+Adobe Journey Optimizer 中的「所有期間報告」是了解行銷活動與歷程在一段時間內的績效的閘道。 此功能與 Customer Journey Analytics 整合，可讓您順暢地分析資料，確保跨管道 (例如電子郵件、簡訊、推播通知等) 的正確分析。 您將了解如何存取詳細量度、設定報告資料來源，甚至直接從報告建立客群。 無論您是探索行銷活動的成效，還是深入探索歷程分析，相互關聯的主題都提供清楚的藍圖，讓您能夠掌握報告工具，並自信地最佳化客戶參與。
 
-## 所有時間報表功能
+## 所有期間報告功能
 
 :::: landing-cards-container
 :::

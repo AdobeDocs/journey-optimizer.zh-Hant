@@ -6,15 +6,15 @@ description: 決策功能
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
 # 決策功能{#section-overview}
 
-Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有接觸點為客戶提供最佳產品建議和個人化體驗。這些功能透過集中行銷產品建議目錄和進階決策引擎簡化個人化，該引擎使用規則和排名條件為每個人提供最相關的內容。
+Journey Optimizer 中的決策功能可讓您在正確的時間點，跨所有接觸點為客戶提供最佳產品建議和個人化體驗。 這些功能透過集中行銷產品建議目錄和進階決策引擎簡化個人化，該引擎使用規則和排名條件為每個人提供最相關的內容。
 
 ## 決策功能概觀
 

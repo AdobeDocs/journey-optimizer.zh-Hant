@@ -6,17 +6,17 @@ description: 管理同意
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
 # 管理同意{#section-overview}
 
-管理同意是建立與受眾之間信任關係的關鍵，同時可確保遵守GDPR等隱私權法規。 Adobe Journey Optimizer中的同意可與[隱私權管理](../using/privacy/get-started-privacy.md) （包括[資料要求](../using/privacy/requests.md)和[稽核記錄](../using/privacy/audit-logs.md)）以及[資料治理](../using/action/action-privacy.md)原則搭配使用，這些原則可保護敏感欄位不匯出至協力廠商系統。
+管理同意是建立與客群之間的信任關係，同時確保遵循隱私權法規 (例如 GDPR) 的關鍵。Adobe Journey Optimizer 中的同意可與[隱私權管理](../using/privacy/get-started-privacy.md) (包括[資料請求](../using/privacy/requests.md)和[稽核記錄](../using/privacy/audit-logs.md)) 以及[資料治理](../using/action/action-privacy.md)原則搭配使用，這些原則可保護敏感欄位不匯出至第三方系統。
 
-您可以透過三種方式處理同意： **電子郵件、簡訊和推播取消訂閱的選擇退出偏好設定**；**同意原則**&#x200B;套用至您的行銷活動和歷程，以控制資料使用和行銷動作；以及&#x200B;**偏好設定管理**，根據客戶選擇的訂閱主題和管道來鎖定客戶。 以下主題將引導您完成每個步驟。
+您可以透過三種方式處理同意：電子郵件、簡訊和推播取消訂閱的&#x200B;**選擇退出偏好設定**；套用至您的行銷活動和歷程的&#x200B;**同意原則**，以控制資料使用和行銷動作；以及&#x200B;**偏好設定管理**，根據客戶選擇的訂閱主題和管道來定位目標客戶。以下主題將引導您完成每個步驟。
 
 ## 管理同意
 
@@ -46,7 +46,7 @@ ht-degree: 31%
 
 管理客戶的偏好設定
 
-瞭解如何使用同意政策管理訂閱主題和管道偏好設定，以便根據客戶的選擇鎖定客戶，同時尊重其同意。
+瞭解如何使用同意原則管理訂閱主題和管道偏好設定，以便根據客戶的選擇定位目標客戶，同時尊重其同意。
 
 [管理客戶的偏好設定](../using/action/preference-center.md)
 :::
@@ -55,7 +55,7 @@ ht-degree: 31%
 
 ## 其他資源
 
-- **[開始使用隱私權](../using/privacy/get-started-privacy.md)** - Journey Optimizer中的隱私權管理概觀，包括資料請求和稽核記錄。
-- **[資料控管](../using/action/action-privacy.md)** — 保護敏感欄位，避免透過自訂動作匯出至協力廠商系統。
-- **[管理電子郵件選擇退出](../using/email/email-opt-out.md)** — 設定電子郵件特定的選擇退出和取消訂閱處理。
-- **[管理行動訊息選擇退出](../using/mobile/mobile-opt-out.md)** — 設定SMS/MMS/RCS選擇退出和取消訂閱處理。
+- **[隱私權快速入門](../using/privacy/get-started-privacy.md)** - Journey Optimizer 中的隱私權管理概觀，包括資料請求和稽核記錄。
+- **[資料治理](../using/action/action-privacy.md)** - 保護敏感欄位，避免透過自訂動作匯出至第三方系統。
+- **[管理電子郵件選擇退出](../using/email/email-opt-out.md)** - 設定電子郵件特定的選擇退出和取消訂閱處理。
+- **[管理行動訊息選擇退出](../using/mobile/mobile-opt-out.md)** - 設定簡訊/MMS/RCS 選擇退出和取消訂閱處理。

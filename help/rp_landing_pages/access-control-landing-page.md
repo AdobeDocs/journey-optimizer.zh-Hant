@@ -6,15 +6,15 @@ description: 存取控制
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
 # 存取控制{#section-overview}
 
-Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和治理標準來管理使用者存取權。使用&#x200B;**角色**、**權限**、**沙箱**，以及物件和屬性型控制項等進階模型，您可以在啟用共同作業時量身打造存取權以保護敏感資料。內建角色可簡化設定，而自訂權限和標籤可提供更精確的控制。這些工具有助於平衡安全性和彈性，讓團隊獲得所需的存取權，而不會影響合規性。
+Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和治理標準來管理使用者存取權。 使用&#x200B;**角色**、**權限**、**沙箱**，以及物件和屬性型控制項等進階模型，您可以在啟用共同作業時量身打造存取權以保護敏感資料。 內建角色可簡化設定，而自訂權限和標籤可提供更精確的控制。 這些工具有助於平衡安全性和彈性，讓團隊獲得所需的存取權，而不會影響合規性。
 
 ## 存取控制功能
 

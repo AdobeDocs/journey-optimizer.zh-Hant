@@ -13,14 +13,14 @@ landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
 source-git-commit: 33751376024706553ab43e96db118404ab92bf5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 148
 ht-degree: 100%
 
 ---
 
 
-# 僅限內部使用的中繼資料
+# 內部專用中繼資料
 
 metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 

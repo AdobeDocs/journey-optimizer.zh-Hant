@@ -6,17 +6,17 @@ description: 建立運算式
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
 # 建立運算式{#section-overview}
 
-Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您在歷程中建置複雜的邏輯，以實現精確的個人化和協調。您可以定義條件、對應動作參數，並將事件或外部資料轉換為可操作的邏輯。本節提供運算式語法的詳細指引，包括運算子、資料類型和條件式工作流程，以及資料彙總、日期處理和字串操作等任務的函式。這些工具支援進階使用案例，讓技術使用者靈活地根據特定業務需求量身打造歷程。
+Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您在歷程中建置複雜的邏輯，以實現精確的個人化和協調。 您可以定義條件、對應動作參數，並將事件或外部資料轉換為可操作的邏輯。 本節提供運算式語法的詳細指引，包括運算子、資料類型和條件式工作流程，以及資料彙總、日期處理和字串操作等任務的函式。 這些工具支援進階使用案例，讓技術使用者靈活地根據特定業務需求量身打造歷程。
 
-## 探索Adobe Journey Optimizer中的運算式建立
+## 探索如何在 Adobe Journey Optimizer 中建立運算式
 
 :::: landing-cards-container
 :::

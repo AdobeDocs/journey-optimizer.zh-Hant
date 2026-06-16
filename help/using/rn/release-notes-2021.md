@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2058
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 99%
 **管理**
 
 * **編輯訊息預設集** - 您現在可以編輯訊息預設集並監視其更新狀態。 [了解更多](../configuration/channel-surfaces.md#edit-channel-surface)
-* **編輯 PTR 記錄** - 您現在可以編輯 PTR 記錄並監視其更新狀態。 [進一步了解](../configuration/ptr-records.md#edit-ptr-record)
+* **編輯 PTR 記錄** - 您現在可以編輯 PTR 記錄並監視其更新狀態。 [了解更多](../configuration/ptr-records.md#edit-ptr-record)
 
 **個人化**
 
@@ -297,7 +297,7 @@ ht-degree: 99%
 
 **內容設計**
 
-* **背景** — 即時預覽現在支援背景影像。[進一步瞭解](../content-management/preview-test.md)
+* **背景** - 即時預覽現在支援背景影像。[了解更多](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **個人化**

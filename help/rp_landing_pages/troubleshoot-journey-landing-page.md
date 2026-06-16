@@ -6,9 +6,9 @@ description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '574'
+ht-degree: 100%
 
 ---
 
@@ -111,11 +111,11 @@ ht-degree: 94%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
 
-支援票證准則
+支援票證指引
 
-瞭解聯絡Adobe支援時要包含哪些內容（環境詳細資訊、影響層級、複製步驟、記錄或熒幕擷取畫面以及相關ID）以加快解決問題。
+了解聯絡 Adobe 支援時要包含哪些內容 (環境詳細資訊、影響層級、複寫步驟、記錄或螢幕擷取畫面以及相關識別碼)，以加快解決問題。
 
-[支援票證准則](../using/start/user-interface.md#support-ticket-guidelines)
+[支援票證指引](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::

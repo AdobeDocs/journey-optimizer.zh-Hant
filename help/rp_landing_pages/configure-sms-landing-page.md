@@ -6,15 +6,15 @@ description: 設定簡訊 / MMS / RCS 管道
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # 設定簡訊 / MMS / RCS 管道{#section-overview}
 
-Adobe Journey Optimizer中的SMS/MMS/RCS通道可讓企業透過行動訊息來與客戶連線，以提供異動警報或行銷活動。 無論您是要傳送簡單的SMS通知、多媒體內容豐富的MMS訊息，還是要運用互動RCS功能（例如品牌設定檔），本指南都會逐步引導您設定傳訊頻道。 您將瞭解如何整合Sinch、Twilio和Infobip等熱門提供者，或設定自訂提供者以滿足量身打造的訊息需求。 透過明確的指示、實用的範例以及許可權和設定的深入分析，您將可自信地設定符合目標的文字通訊。
+Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警報或行銷活動的行動訊息與客戶連線。無論您是要傳送簡單的簡訊通知、多媒體內容豐富的 MMS 訊息，還是要運用互動式 RCS 功能 (例如品牌輪廓)，本指南都會逐步引導您設定傳訊管道。您將瞭解如何整合 Sinch、Twilio 和 Infobip 等熱門提供者，或設定自訂提供者以滿足量身打造的訊息需求。透過明確的指示、實用的範例以及權限和設定的深入分析，您將可自信地設定符合目標的文字通訊。
 
 ## 設定簡訊 / MMS / RCS 管道
 

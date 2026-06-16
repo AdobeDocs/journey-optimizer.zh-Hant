@@ -6,15 +6,15 @@ description: 編輯樣式
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
 # 編輯樣式{#section-overview}
 
-Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具，可幫助您建立視覺上吸引人的回應式電子郵件。您可以自訂版面配置、調整對齊方式和間距、個人化背景，以及微調個別內容區塊的外觀。這些功能可讓您精確控制設計，讓您製作精美的電子郵件，反映您的品牌並與客群產生共鳴。
+Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具，可幫助您建立視覺上吸引人的回應式電子郵件。 您可以自訂版面配置、調整對齊方式和間距、個人化背景，以及微調個別內容區塊的外觀。 這些功能可讓您精確控制設計，讓您製作精美的電子郵件，反映您的品牌並與客群產生共鳴。
 
 ## 編輯樣式特徵
 

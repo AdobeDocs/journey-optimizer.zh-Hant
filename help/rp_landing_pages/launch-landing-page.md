@@ -6,15 +6,15 @@ description: 啟動您的首次協調行銷活動
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
 # 啟動您的首次協調行銷活動{#section-overview}
 
-在 Adobe Journey Optimizer 中啟動您的首次協調行銷活動，可讓您建立順暢的個人化客戶體驗，以因應每個人的歷程。本指南會逐步引導您完成每個步驟，從使用直覺式視覺畫布設定行銷活動及設計其流程，到測試、啟動、監視及分析其績效。您將了解如何協調活動、微調時機，並利用可操作的洞察來最佳化結果。無論您是排程一次性訊息，還是建立進階重定向策略，每個主題都旨在建立您的信心，並協助您將行銷願景化為現實。
+在 Adobe Journey Optimizer 中啟動您的首次協調行銷活動，可讓您建立順暢的個人化客戶體驗，以因應每個人的歷程。 本指南會逐步引導您完成每個步驟，從使用直覺式視覺畫布設定行銷活動及設計其流程，到測試、啟動、監視及分析其績效。 您將了解如何協調活動、微調時機，並利用可操作的洞察來最佳化結果。 無論您是排程一次性訊息，還是建立進階重定向策略，每個主題都旨在建立您的信心，並協助您將行銷願景化為現實。
 
 ## 首次投放的協調行銷活動
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
-建立及排程協調的行銷活動
+建立並安排協調的行銷活動
 
 探索如何建立和設定行銷活動屬性、執行排程，並確保最佳績效。
 
@@ -62,7 +62,7 @@ ht-degree: 92%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
-報告協調的行銷活動
+協調行銷活動報告
 
 透過協調行銷活動的詳細報告，存取可操作的洞察和績效量度。
 

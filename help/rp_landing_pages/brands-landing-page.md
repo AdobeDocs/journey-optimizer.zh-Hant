@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 品牌
-description: 瞭解如何在Journey Optimizer中建立、管理和個人化品牌指引，以確保所有行銷活動中的品牌內內容一致。
+description: 瞭解如何在 Journey Optimizer 中建立、管理和個人化品牌指引，以確保所有行銷活動中的內容一致且符合品牌形象。
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 70%
+workflow-type: ht
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
 # 品牌{#section-overview}
 
-在 Adobe Journey Optimizer 中，「品牌」功能可讓您在所有行銷工作中定義和維護您的品牌唯一身分。透過設定清晰的視覺和口頭方針 (例如顏色、標誌、寫作風格和影像)，您可以確保每一項內容都能引起客群的共鳴並強化您的品牌。您將探索如何建立並個人化這些方針、設定緊密整合的預設偏好設定，並使用 AI 助理等工具產生一致的符合品牌形象的內容。深入了解寫作風格、視覺內容及品牌一致性等主題，了解這些元素如何共同運作，為客戶建立統一的體驗。
+在 Adobe Journey Optimizer 中，「品牌」功能可讓您在所有行銷工作中定義和維護您的品牌唯一身分。 透過設定清晰的視覺和口頭方針 (例如顏色、標誌、寫作風格和影像)，您可以確保每一項內容都能引起客群的共鳴並強化您的品牌。 您將探索如何建立並個人化這些方針、設定緊密整合的預設偏好設定，並使用 AI 助理等工具產生一致的符合品牌形象的內容。 深入了解寫作風格、視覺內容及品牌一致性等主題，了解這些元素如何共同運作，為客戶建立統一的體驗。
 
 ## 品牌功能
 
@@ -44,7 +44,7 @@ ht-degree: 70%
 
 個人化您的品牌
 
-瞭解如何設定預設品牌偏好設定和量身打造品牌准則，以與AI產生的內容無縫整合。
+瞭解如何設定預設品牌偏好設定和量身打造品牌方針，以與 AI 產生的內容無縫整合。
 
 [個人化您的品牌](../using/content-management/brands-personalize.md)
 :::
@@ -52,11 +52,11 @@ ht-degree: 70%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
-建立和管理產生模型
+建立和管理生成式模型
 
-探索如何建立和管理根據您的品牌准則訓練的自訂產生AI模型，以實現一致的內容產生。
+探索如何建立和管理根據您的品牌方針訓練的自訂生成式 AI 模型，以實現一致的內容產生。
 
-[管理產生模型](../using/content-management/generative-models.md)
+[管理生成式模型](../using/content-management/generative-models.md)
 :::
 
 ::::
