@@ -24,9 +24,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
+source-wordcount: 3126
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
 * **[資料集查詢](#dataset-lookup)**：從Adobe Experience Platform資料集擷取的擴充資料
 * **[技術屬性](#technical-properties)**：歷程中繼資料，例如歷程ID和補充識別碼
 * **[歷程內容](#other-contexts)**：執行期間可存取的其他歷程相關資料
+* **協調的行銷活動擴充集合** （僅限協調的行銷活動）：請參閱[在協調的行銷活動中新增個人化](../orchestrated/add-personalization.md#enrichment-collections)。
 
 本指南會說明如何在訊息中逐一檢視陣列，以及如何在設定歷程活動時使用陣列。 從[Handlebars反複專案語法](#syntax)開始，以瞭解訊息個人化基本概念，或跳至[使用歷程運算式中的陣列](#arrays-in-journeys)，以瞭解如何將陣列資料傳遞至自訂動作和資料集查詢。
 
@@ -102,7 +103,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -526,7 +527,7 @@ context.journey.technicalProperties.supplementalId
 * **[設定檔屬性](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}** (`profile.*`)：來自Adobe Experience Platform的個別設定檔欄位
 * **[對象](../audience/about-audiences.md)** (`inAudience()`)：對象成員資格檢查
 * **[優惠決定](../offers/get-started/starting-offer-decisioning.md)**：決定管理優惠
-* **[Target屬性](../orchestrated/activities/channels.md#add-personalization)** （僅限協調的行銷活動）：在行銷活動畫布中計算的屬性
+* **[目標屬性](../orchestrated/add-personalization.md#attributes)** （僅限協調的行銷活動）：在行銷活動畫布上計算的屬性，包括擴充集合陣列
 * **權杖** (`context.token`)：工作階段或驗證權杖
 
 如需使用這些來源的完整個人化語法和範例，請參閱：

@@ -16,10 +16,10 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 61%
+source-wordcount: 367
+ht-degree: 53%
 
 ---
 
@@ -58,13 +58,19 @@ ht-degree: 61%
 
 ➡️[了解如何協調活動](../orchestrated/orchestrate-activities.md)
 
-## 步驟 3：開始並監視您的行銷活動 {#start}
+## 步驟3：新增個人化 {#personalize}
+
+在管道活動中，使用工作表的設定檔屬性和目標屬性（包括擴充集合陣列）個人化訊息。
+
+➡️ [瞭解如何在協調的行銷活動中新增個人化](../orchestrated/add-personalization.md)
+
+## 步驟4：開始並監視您的行銷活動 {#start}
 
 您即將完成！ 先以測試模式執行行銷活動以找出任何問題。 然後發佈並即時監視即時執行。追蹤進度、檢查錯誤，並檢視每個步驟中的輪廓。
 
 ➡️[了解如何開始及監視行銷活動](../orchestrated/start-monitor-campaigns.md)
 
-## 步驟 4：分析和報告結果 {#report}
+## 步驟5：分析和報告結果 {#report}
 
 啟動後，請使用內建報告來了解運作成果，以及可改進之處。 即時儀表板和深入分析可協助您最佳化未來的行銷活動，並調整策略。
 

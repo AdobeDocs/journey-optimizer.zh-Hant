@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: '3356'
+source-wordcount: '3358'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
    + [發行週期](using/rn/releases.md)
-   + [預發行說明](using/rn/e-release-notes.md)
+   + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
    + [最新發行說明](using/rn/release-notes.md)
    + 舊版發行說明 {#previous-rn-new}
       + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -196,6 +196,7 @@ ht-degree: 99%
          + [建立協調行銷活動的重要步驟](using/orchestrated/gs-campaign-creation.md)
          + [建立並安排行銷活動的時間](using/orchestrated/create-orchestrated-campaign.md)
          + [協調活動](using/orchestrated/orchestrate-activities.md)
+         + [新增個人化](using/orchestrated/add-personalization.md)
          + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
          + [報表](using/orchestrated/reporting-campaigns.md)
       + 查詢資料庫 {#query-database}

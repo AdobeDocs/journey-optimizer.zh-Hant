@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ ht-degree: 47%
 
 ## 後續步驟 {#next}
 
-成功設計協調行銷活動畫布後，您可以執行協調行銷活動並追蹤其各種任務的進度。 [瞭解如何開始協調的行銷活動並監視其執行](start-monitor-campaigns.md)
+將頻道活動新增至畫布後，[瞭解如何在電子郵件、簡訊和其他訊息中新增個人化](add-personalization.md)。
+
+當畫布準備就緒時，執行協調的行銷活動並追蹤其任務的進度。 [瞭解如何開始協調的行銷活動並監視其執行](start-monitor-campaigns.md)
