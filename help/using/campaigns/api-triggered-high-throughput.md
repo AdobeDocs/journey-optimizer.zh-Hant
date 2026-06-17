@@ -1,43 +1,54 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: 為 API 觸發的行銷活動啟用高輸送量模式
-description: 瞭解如何為API觸發的行銷活動啟用高輸送量模式。
-feature: Campaigns, API
-topic: Content Management
-role: Developer
-level: Experienced
-keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
-exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
-TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 4%
+source-wordcount: '815'
+ht-degree: 2%
+
+---
+該檔案不存在於管道存放庫中 — 它是作為上下文提供的檔案檔案。 我會依照指示直接撰寫完整的更新Markdown （僅輸出檔案，不提供說明）。
 
 ---
 
+解決方案： Journey Optimizer
+product： journey optimizer
+title：為API觸發的行銷活動啟用高輸送量模式
+description：瞭解如何為API觸發的行銷活動啟用高輸送量模式。
+功能： Campaigns， API
+主題：內容管理
+角色：開發人員
+level： Experience
+關鍵字：促銷活動、API觸發、REST、最佳化工具、訊息
+exl-id： 2b3e87dc-097a-4d05-873c-f421d11338c3
+TQID： https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
+product_v2：
+- id： cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label： Journey Optimizer
+feature_v2：
+- id： d556b755-390a-43f0-be32-a08cf6236126
+internal-label：設定
+- id： a653cc2e-bc85-4353-a306-399e5b247978
+internal-label： Journey Optimizer促銷活動
+subfeature_v2：
+- id： f7479fa1-474b-479d-8c98-f6cee5865a38
+內部標籤： API觸發的行銷活動
+- id： ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+internal-label：行銷活動管理
+role_v2：
+- id： ff6a42d2-313e-452e-93a6-792e4fad9ff8
+internal-label：開發人員
+topic_v2：
+- id： e0eb8757-182f-49f3-94a4-1587d16f5094
+internal-label： Personalization
+---
 # 為 API 觸發的行銷活動啟用高輸送量模式 {#high-throughput}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;啟用API觸發行銷活動的高輸送量模式，如此一來，您就能以每秒最多5000筆交易來傳送超大型、即時異動電子郵件，不需要依賴設定檔。
+**在此頁面上：**&#x200B;啟用API觸發行銷活動的高輸送量模式，如此一來，您就能以每秒最多5000筆交易（電子郵件）或每秒最多1500筆交易（推送）傳送非常大規模的即時交易訊息，不需要依賴設定檔。
 
 >[!ENDSHADEBOX]
 
-高輸送量模式是專為需要&#x200B;**超大規模即時異動訊息** （每秒最多5000個異動）的組織所設計。 不同於一般API觸發的行銷活動，高輸送量行銷活動會獨立於Adobe設定檔運作，且需要不同的設定模型。
+高輸送量模式是專為需要&#x200B;**超大規模即時異動訊息**&#x200B;的組織所設計。 不同於一般API觸發的行銷活動，高輸送量行銷活動會獨立於Adobe設定檔運作，且需要不同的設定模型。
 
 此頁面說明高輸送量行銷活動與標準API觸發的行銷活動有何不同、設定需求，以及何時選擇每個模式。
 
@@ -45,7 +56,12 @@ ht-degree: 4%
 
 * **存取** — 僅適用於美國地區，具有高輸送量異動訊息附加元件授權的組織。
 
-* **管道**：目前僅可用於電子郵件。
+* **頻道**：可用於電子郵件和推播通知。
+
+* **輸送量**：
+
+   * **電子郵件** — 每秒最多5000個交易。
+   * **推播** — 每秒最多1500個交易。 可用的階層輸送量等級如下：500 TPS （標準配備）、1000 TPS和1500 TPS。 較高的層級需要適當的附加權益。
 
 * **Personalization**：
 
@@ -76,8 +92,8 @@ ht-degree: 4%
 | 功能/需求 | 標準API觸發的行銷活動 | 高輸送量行銷活動 |
 |------------------------|---------------------------------|---------------------------|
 | **可用性** | 包含在基本產品中 | 需要高輸送量的異動訊息附加元件。 |
-| **輸送量** | 每秒最多500個交易 | 每秒最多5000個交易 |
-| **頻道** | 電子郵件、簡訊、推播 | 電子郵件 |
+| **輸送量** | 每秒最多500個交易 | 最高5000 TPS （電子郵件）；最高1500 TPS （推播） |
+| **頻道** | 電子郵件、簡訊、推播 | 電子郵件、推播 |
 | **個人化** | API承載中的設定檔+情境式 | 僅限API承載中的內容 |
 | **設定檔與拼接** | 存在或透過連結至設定檔的事件建立 | 沒有設定檔 |
 | **訊息磁碟區** | 標準權益與訊息套件 | 獨立的階層式訊息磁碟區 |
@@ -89,25 +105,25 @@ ht-degree: 4%
 
 * 選擇&#x200B;**標準API觸發**&#x200B;行銷活動，如果：
    * 您沒有簽訂高輸送量的合約。
-   * 您的輸送量需求低於500 TPS。
+   * 您的輸送量需求為≤500 TPS。
    * 您需要根據Adobe設定檔進行個人化。
    * 您想要將行銷活動資料連結至設定檔，以供日後目標定位。
-   * 您想使用電子郵件以外的其他管道。
+   * 您需要SMS訊息。
 
 * 選擇&#x200B;**高輸送量**&#x200B;行銷活動，如果：
    * 您需要輸送量大於500 TPS。
    * 您不需要個人資料拼接。
    * 您可以在API裝載中傳遞所有個人化。
-   * 您想要使用電子郵件頻道。
+   * 您想要使用電子郵件或推播頻道。
 
 ## 設定指南
 
 若要正確設定高輸送量的行銷活動，請遵循下列准則：
 
-1. 建立新的IP集區。 [瞭解如何建立IP集區](../configuration/ip-pools.md)
+1. **僅針對電子郵件高輸送量** — 建立新的IP集區。 [瞭解如何建立IP集區](../configuration/ip-pools.md)
 1. 建立新的管道設定。 [瞭解如何設定頻道設定](../configuration/channel-surfaces.md)
-1. 聯絡Adobe客戶服務，申請將啟用的介面對應至高輸送量功能。 提供通道設定、IP集區詳細資料以及您的組織ID。
+1. 聯絡Adobe客戶服務，申請將啟用的介面對應至高輸送量功能。 提供通道設定和IP集區詳細資料（適用於電子郵件）以及您的組織ID。
 
 >[!IMPORTANT]
 >
->為高輸送量交易式訊息指定的IP集區和通道設定必須專門用於該目的，不能用於使用API觸發的行銷活動或歷程的標準交易式訊息。
+>為高輸送量異動訊息指定的管道設定必須專門用於該目的，不能用於使用API觸發的行銷活動或歷程的標準異動訊息。 針對電子郵件高輸送量，為此目的指定的IP集區也必須專門用於高輸送量傳送。
