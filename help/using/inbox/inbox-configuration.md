@@ -5,16 +5,23 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # 設定收件匣 {#inbox-configuration}
 
-您必須先在&#x200B;**頻道設定**&#x200B;中定義&#x200B;**[!UICONTROL 收件匣]**&#x200B;頻道設定，才能透過收件匣傳遞內容卡片體驗。 該設定會將介面與同意、選用存取標籤以及體驗出現在網頁或iOS或Android應用程式中的位置連結起來。 請依照下列步驟建立設定：
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;定義收件匣通道設定，以設定同意、選擇性存取標籤，以及收件匣出現在網頁或iOS或Android應用程式中的位置，讓您可以透過收件匣傳送內容卡體驗。
+
+>[!ENDSHADEBOX]
+
+您必須先在&#x200B;**[!UICONTROL 頻道設定]**&#x200B;中定義&#x200B;**收件匣**&#x200B;頻道設定，才能透過收件匣傳遞內容卡片體驗。 該設定會將介面與同意、選用存取標籤以及體驗出現在網頁或iOS或Android應用程式中的位置連結起來。 請依照下列步驟建立設定：
 
 1. 存取&#x200B;**[!UICONTROL 頻道]** > **[!UICONTROL 一般設定]** > **[!UICONTROL 頻道設定]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立頻道設定]**。
 

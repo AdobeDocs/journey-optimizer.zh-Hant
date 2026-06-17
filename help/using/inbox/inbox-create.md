@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '320'
+ht-degree: 4%
 
 ---
 
 # 建立收件匣 {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;建立使用收件匣動作、鎖定對象以及排程或觸發該動作的行銷活動，以便您傳送使用者可在收件匣中重新造訪的永續性訊息。
+
+>[!ENDSHADEBOX]
 
 在建立收件匣之前，請先完成[收件匣組態](inbox-configuration.md)中的步驟。 此管道設定可識別目標應用程式或網站、頁面或規則，以及收件匣轉譯的位置。
 

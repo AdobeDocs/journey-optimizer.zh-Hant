@@ -6,20 +6,26 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 設計收件匣 {#inbox-design}
 
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定收件匣通道的配置、容量、未讀取的指標和空白狀態，讓訊息可在品牌上及可讀模式下呈現，讓目標設定檔在明暗模式下具有清晰、一致的體驗。
+
+>[!ENDSHADEBOX]
+
 收件匣設計會控管如何將每則訊息呈現給收件匣表面內的目標設定檔。 此設定包含收件匣範本、清單和展開簡報，以及可區分新訊息與已檢視訊息的讀取狀態指示器。
 
 如需建立收件匣行銷活動的完整程式，請參閱[建立收件匣](inbox-create.md)。
 
-1. 開啟您建立的&#x200B;**[!UICONTROL 收件匣行銷活動]**&#x200B;的[內容](inbox-create.md)標籤。
+1. 開啟您建立的[收件匣行銷活動](inbox-create.md)的&#x200B;**[!UICONTROL 內容]**&#x200B;標籤。
 
 1. 設定&#x200B;**[!UICONTROL 容器標題]**。
 
