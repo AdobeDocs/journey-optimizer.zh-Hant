@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 0ae04dfd501704d6ed6bb9ed85fa404caf4d90a1
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 18%
+source-wordcount: 1866
+ht-degree: 13%
 
 ---
 
@@ -165,6 +165,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    >
    >如果您已透過電子郵件Designer建立或匯入內容，此內容將會顯示在HTML中。
 
+1. 如有需要，請啟用&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項，以在發佈程式期間減少電子郵件HTML的大小。 [了解更多](#optimize-html-size)
+
 ## 檢查警報 {#check-email-alerts}
 
 在設計訊息時，如果缺少關鍵設定，警示會顯示在介面（畫面右上方）中。
@@ -191,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    * **[!UICONTROL 電子郵件內文中出現空白連結]**：檢查您電子郵件中的所有連結是否正確。 在[本節](content-from-scratch.md)中瞭解如何管理內容和連結。
 
-   * **[!UICONTROL 電子郵件大小已超過100KB的限制]**：若要取得最佳傳遞，請確定您的電子郵件大小不超過100KB。 瞭解如何在[本節](content-from-scratch.md)中編輯電子郵件內容。
+   * **[!UICONTROL 電子郵件大小已超過100KB的限制]**：若要取得最佳傳遞，請確定您的電子郵件大小不超過100KB。 若要減少HTML大小，請使用&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項。 [了解更多](#optimize-html-size)
 
 * **錯誤**&#x200B;會阻止您測試或啟用歷程/行銷活動，只要這些錯誤未解決，例如：
 
@@ -206,6 +208,50 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CAUTION]
 >
 >若要能夠使用電子郵件測試或啟動歷程/行銷活動，您必須解決所有&#x200B;**錯誤**&#x200B;警示。
+
+## 最佳化電子郵件HTML大小 {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_minification"
+>title="縮小HTML大小"
+>abstract="啟用此選項可移除不必要的空白字元、縮排及不必要的註解，以在發佈期間壓縮電子郵件HTML。 這有助於防止使用者端（例如Gmail）截斷超過100 KB的郵件。 請注意，使用多語言電子郵件時，所有地區設定預設都會啟用此選項。"
+
+[!DNL Journey Optimizer]可讓您移除不必要的空白字元、縮排及不必要的註解，在發佈程式期間壓縮電子郵件HTML版本。 保持HTML小型化可協助您：
+
+* 避免&#x200B;**電子郵件剪輯** — 某些使用者端（例如Gmail）會截斷大於~100 KB的郵件，使收件者無法檢視完整內容。
+* 改善收件者收件匣中的&#x200B;**電子郵件載入時間**。
+* 改善&#x200B;**傳遞能力**&#x200B;並減少頻寬使用量。
+
+此最佳化不會自動套用 — 您必須在[編輯內容](#define-email-content)畫面中手動啟用它。
+
+![](assets/email-optimize-html-size.png)
+
+>[!IMPORTANT]
+>
+> HTML大小縮減僅適用於發佈時。
+
+最佳化是電子郵件使用者端安全：
+
+* 它會保留MSO/Outlook條件式註解。
+* 這不會改變您的實際內容、影像或視訊。
+
+>[!NOTE]
+>
+>電子郵件大小的縮減取決於電子郵件原始HTML結構。 如果內容已壓縮或電子郵件承載非常大，縮減量可能極小，並且可能在所有情況下都無法完全防止剪輯。
+
+您可以在傳送校樣時先測試HTML大小最佳化的影響，然後再發佈。 [了解更多](#optimize-html-proof)
+
+### 在多語言電子郵件中最佳化HTML大小 {#optimize-html-multilingual}
+
+使用[多語言電子郵件變體](../content-management/multilingual-gs.md)時，**[!UICONTROL 最佳化HTML大小]**&#x200B;設定會在電子郵件層級追蹤，而非根據地區設定追蹤。
+
+因此，在任何一個地區設定上啟用此設定，會在發佈時套用至該電子郵件的所有地區設定，甚至在UI中核取方塊仍顯示為未勾選的地區設定也是如此。 您不需要針對每個地區設定重複此動作。
+
+若要停用HTML大小最佳化，您必須取消勾選每個地區設定的&#x200B;**[!UICONTROL 最佳化HTML大小]**。 即使在一個地區設定中將其保持啟用狀態，就足以在所有地區設定中套用最佳化。
+
+>[!NOTE]
+>
+>如果您正在執行[內容實驗](../content-management/content-experiment.md)，每個處理會分別管理&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;設定，因為每個處理都被視為個別的訊息。
 
 ## 檢查並傳送您的電子郵件
 
@@ -225,6 +271,34 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!NOTE]
 >
 >若要透過電子郵件開啟和/或互動追蹤收件者的行為，請確定&#x200B;**[!UICONTROL 追蹤]**&#x200B;區段中的專用選項已在歷程的[電子郵件活動](../building-journeys/journey-action.md)或電子郵件[行銷活動](../campaigns/create-campaign.md).<!--to move?-->中啟用
+
+### 測試HTML大小最佳化 {#optimize-html-proof}
+
+如果您已啟用[HTML大小最佳化](#optimize-html-size)選項，您可以在傳送校樣時先評估其影響，然後再發佈。 請遵循下列步驟。
+
+1. 在電子郵件Designer中，按一下右側欄中的「問題」圖示。 如果轉譯的電子郵件大小超過100 KB，會顯示一則訊息，警告您這可能會導致某些電子郵件使用者端發生截斷。<!--Learn more about content checks in [this section](#check-email-alerts).-->
+
+   ![電子郵件最佳化問題](assets/email-optimize-size-issues.png)
+
+1. 按一下&#x200B;**[!UICONTROL 模擬內容]**。
+
+   <!--![](assets/email-optimize-size-simulate-warning.png)-->
+
+1. 若要測試最佳化版本，請按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項。 這會將縮減的HTML大小的校樣傳送給測試收件者。
+
+   ![](assets/email-optimize-size-proof-option.png)
+
+   >[!NOTE]
+   >
+   >此設定獨立於電子郵件編輯器 — 校樣會反映您在校樣中選擇的任何內容，無論選項在電子郵件本身中是啟用還是停用。
+
+1. 選取測試收件者並按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;按鈕。 在[本節](../content-management/proofs.md)中進一步瞭解傳送校樣。
+1. 傳送後，在&#x200B;**[!UICONTROL Simulate]**&#x200B;畫面中，按一下&#x200B;**[!UICONTROL 檢視校樣]**&#x200B;按鈕。
+1. 按一下校樣狀態旁邊的資訊圖示。 最佳化詳細資訊會顯示在快顯視窗中，包括原始HTML大小、最佳化HTML大小和大小縮減百分比。
+
+   ![電子郵件最佳化詳細資料](assets/email-optimize-size-view-proof.png)
+
+   使用此資訊來驗證最佳化的輸出，並確認電子郵件在發佈之前保持在建議的100 KB臨界值內。
 
 <!--
 ## Define your email content {#email-content}
