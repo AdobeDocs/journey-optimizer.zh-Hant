@@ -197,6 +197,6 @@ AI產生的建議可用於所有受支援內容型別的文字型違規：電子
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)
 
 +++
