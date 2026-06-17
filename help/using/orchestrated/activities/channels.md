@@ -6,19 +6,14 @@ description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 36%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +78,7 @@ UNUSED IDs in BJ
 
 * **支援的頻道** — 協調的行銷活動僅支援SMS、推播、電子郵件和直接郵件頻道。
 
-* **頻道活動限制** — 協調的行銷活動支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 只有管道活動會計入此限制；目標定位和流量控制活動則不會。
+* **頻道活動限制** — 協調的行銷活動支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 只有管道活動會計入此限制，鎖定目標和流量控制活動則不會。
 
   如果您在儲存或發佈時超過限制，作業將會失敗。 若要保持在限制內，請減少頻道活動的數量，或將訊息傳送分割到多個協調的行銷活動中。
 
@@ -162,7 +157,7 @@ UNUSED IDs in BJ
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[&#128279;](../../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面](../../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -183,25 +178,11 @@ UNUSED IDs in BJ
 <td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td>
 </tr></table>
 
-### 新增個人化
+### 新增個人化 {#add-personalization}
 
-協調行銷活動中的Personalization的運作方式與其他[!DNL Journey Optimizer]行銷活動或歷程類似，但有幾個主要差異是特定於協調畫布。
+從通道活動的訊息編輯器，從行銷活動工作表插入&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;和&#x200B;**[!UICONTROL 目標屬性]** （目標維度和擴充資料）。
 
-當您從協調的行銷活動存取個人化編輯器時，有兩個主要資料夾包含可用於個人化的屬性，如下所述。
-
-* **[!UICONTROL 輪廓屬性]**
-
-  此資料夾包含來自[!DNL Adobe Experience Platform]的所有設定檔相關資料。 這些是標準屬性，例如名稱、電子郵件地址、位置或使用者設定檔中擷取的任何其他特徵。
-
-* **[!UICONTROL Target屬性]** （特定於協調的行銷活動）
-
-  此資料夾是協調行銷活動專屬的資料夾。 它包含直接在行銷活動畫布中計算的屬性。 它包含兩個子資料夾：
-
-   * **`<Targeting dimension>`** （例如「收件者」、「購買」）：包含與行銷活動所定位的維度相關的所有屬性。
-
-   * **`Enrichment`**：包含透過畫布中的&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料。 這可讓您根據外部資料集或在協調期間納入的其他邏輯來個人化訊息。 [瞭解如何使用擴充活動](../activities/enrichment.md)
-
-如需如何使用個人化編輯器的詳細概觀，請參閱[開始使用個人化](../../personalization/personalize.md)。
+➡️ [瞭解如何在協調的行銷活動中新增個人化](../add-personalization.md)，包括擴充集合陣列、陣列函式和`{{#each}}`反複專案。
 
 ### 檢查並測試您的內容 {#simulate-content-test-profiles}
 
