@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
+source-git-commit: 46a540ec28ee184b3cb475f64c26d68f6c06d898
 workflow-type: tm+mt
-source-wordcount: 1951
+source-wordcount: 1822
 ht-degree: 9%
 
 ---
@@ -48,21 +48,23 @@ Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以
 
 此版本中的協調行銷活動推出以下功能和改善。
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>協調行銷活動中的檔案型目標定位</strong><br/></th>
+<th><strong>File-based targeting in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>協調的行銷活動現在支援直接將<strong>CSV或TXT檔案</strong>載入行銷活動畫布，作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。 這尤其適合在無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>Orchestrated campaigns now support loading a <strong>CSV or TXT file</strong> directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. Rows that fail validation are rejected and logged before the campaign runs, keeping the audience clean without manual pre-processing. This is particularly suited for ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 * **在協調的行銷活動中關聯資料以回圈為基礎的個人化** — 個人化編輯器現在支援&#x200B;**回圈區塊**，可在關聯式集合（例如訂單、帳戶或預訂）上反複運算，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定，不需要撰寫運算式。 您可以在行銷活動上線之前，預覽循環區塊針對範例資料呈現的方式，包括處理空白集合。
 
