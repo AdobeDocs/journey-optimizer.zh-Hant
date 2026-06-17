@@ -1,240 +1,189 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
-workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
-
----
-更新的檔案內容已準備就緒。 以下是完整更新的Markdown — 複製並儲存為您的`send-time-optimization.md`：
-
-```markdown
----
 solution: Journey Optimizer
 product: journey optimizer
-title: Send time optimization
-description: Learn how to parameter send time optimization in your messages
+title: 傳送時間最佳化
+description: 瞭解如何在訊息中最佳化引數傳送時間
 feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
-keywords: send-time, send, message, optimization, journey, AI, Intelligent
+keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-    internal-label: Journey Optimizer
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-    internal-label: Activities
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-    internal-label: Journeys
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-    internal-label: Events
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-    internal-label: Intermediate
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-    internal-label: Customer engagement
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-    internal-label: Artificial intelligence
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-    internal-label: Behavioral data
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-    internal-label: Customer profiles
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+workflow-type: tm+mt
+source-wordcount: 1656
+ht-degree: 9%
+
 ---
-# Send-Time Optimization{#send-time-optimization}
+
+# 傳送時間最佳化{#send-time-optimization}
 
 >[!BEGINSHADEBOX]
 
-**On this page:** Learn how to enable Send-Time Optimization so Adobe's AI predicts the best time to deliver email, push, SMS, RCS, and WhatsApp messages based on each customer's historical open, click, and engagement behavior.
+**在此頁面上：**&#x200B;瞭解如何啟用傳送時間最佳化，讓Adobe的AI根據每位客戶的歷史開啟和點按行為，預測傳送電子郵件和推播訊息的最佳時機。
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="About Sent time optimization"
->abstract="[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's AI services, can predict the best time to send an email, push, SMS, RCS, or WhatsApp message to maximize engagement based on historical open, click, and engagement rates."
+>title="關於傳送時間最佳化"
+>abstract="[!DNL Adobe Journey Optimizer] 的傳送時間最佳化功能由 Adobe 的 AI 服務提供支援，可以預測傳送電子郵件或推播訊息的最佳時間，根據歷史開啟率和點擊率將參與度提高至最大限度。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activate Send-Time Optimization"
->abstract="A radio button determines whether to optimize on email opens or email click-throughs. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="啟動傳送時間最佳化"
+>abstract="選項按鈕可決定是否要最佳化電子郵件開啟次數或電子郵件點進次數。 系統所使用的傳送時間也可以用「傳送時間在未來」的值來限定。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activate Send-Time Optimization"
->abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. The send times used by the system can also be bracketed with a value for the Send within the next option."
+>title="啟動傳送時間最佳化"
+>abstract="推播訊息預設為開啟選項，因為點擊不適用於推播訊息。 系統所使用的傳送時間也可以用「傳送時間在未來」的值來限定。"
 
->[!CONTEXTUALHELP]
->id="jo_bestsendtime_mobile"
->title="Activate Send-Time Optimization"
->abstract="SMS, RCS, and WhatsApp messages are optimized for clicks on links contained in the message. The send times used by the system can also be bracketed with a value for the Send within the next option."
+[!DNL Adobe Journey Optimizer]的傳送時間最佳化功能採用Adobe的Journey AI服務，可根據客戶的歷史開啟和點按行為，選擇最佳的電子郵件和推播訊息傳送時間，以最大化客戶參與度。
 
-[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's Journey AI services, chooses the optimal send time for email, push, SMS, RCS, and WhatsApp messages to maximize customer engagement, based on your customers' historical open, click, and engagement behavior.
-
-Send-Time Optimization is only available for Journey Optimizer's built-in Email, Push, SMS, RCS, and WhatsApp action types and is not currently available for messages sent through custom actions or for other action types. Send-Time Optimization is available for these action types within both Journeys and Campaigns.
+傳送時間最佳化僅適用於Journey Optimizer的內建電子郵件和推播動作型別，目前不適用於透過自訂動作傳送的訊息或其他動作型別。 傳送時間最佳化僅適用於歷程中的電子郵件和推播動作，目前不適用於透過行銷活動傳送的訊息。
 
 >[!AVAILABILITY]
 >
->* The Send-Time Optimization feature is enabled for [!DNL Adobe Journey Optimizer] customers upon request. Contact Adobe Customer Care or your Adobe representative to activate the feature for your organization.
+>* 已依要求為[!DNL Adobe Journey Optimizer]客戶啟用傳送時間最佳化功能。 請聯絡 Adobe 客戶服務，或是您的 Adobe 代表，為貴組織啟用這項功能。
 >
->* Send-Time Optimization applies to **Email**, **Push notification**, **SMS**, **RCS**, and **WhatsApp** channels.
+>* 傳送時間最佳化僅適用於&#x200B;**電子郵件**&#x200B;和&#x200B;**推播通知**&#x200B;頻道。
 >
 
-## Use send-time optimization{#use-send-time-optimization}
+## 使用傳送時間最佳化{#use-send-time-optimization}
 
-To enable and configure Send-Time Optimization on an email, push, SMS, RCS, or WhatsApp action, follow the steps below.
+若要對電子郵件或推播動作啟用並設定傳送時間最佳化，請遵循下列步驟。
 
-Before starting, consider which messages are a good fit before you turn it on. Send-Time Optimization should not be used for urgent, time-sensitive operational messages, for example, an order confirmation, a password reset notification, or a flight gate change notification. It works best for less-urgent marketing communications, such as a weekly ad, promotional information on a new product, or information about a month-long sale.
+開始之前，請先考慮哪些訊息適合開啟。 「傳送時間最佳化」不應用於緊急且有時效性的作業訊息，例如訂單確認、密碼重設通知或航班閘道變更通知。 它最適合用於不太緊急的行銷通訊，例如每週廣告、新產品的促銷資訊，或長達一個月的銷售資訊。
 
-1. From your Journey or Campaign, open the **[!UICONTROL Configure action]** menu.
+1. 從您的歷程中，開啟&#x200B;**[!UICONTROL 設定動作]**&#x200B;功能表。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-1.png)
+   電子郵件通道設定中的![傳送時間最佳化切換](assets/sto-1.png)
 
-1. Turn on the **[!UICONTROL Send-Time Optimization]** switch in the Send time optimization menu.
+1. 開啟[傳送時間最佳化]功能表中的&#x200B;**[!UICONTROL 傳送時間最佳化]**&#x200B;引數。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-2.png)
+   電子郵件通道設定中的![傳送時間最佳化切換](assets/sto-2.png)
 
-1. For Email messages, choose whether to optimize for opens or for click-throughs by selecting the appropriate option. Push messages are always optimized for opens. SMS, RCS, and WhatsApp messages are always optimized for clicks on links contained in the message.
+1. 針對電子郵件訊息，選取適當的選項，以選擇最佳化開啟次數或點進次數。 推送訊息一律會針對開啟次數最佳化。
 
-    For best results, optimize most emails for **Clicks**. Choose **Opens** when the message is informational and not meant to drive a specific action.
+   為了獲得最佳結果，請針對&#x200B;**點按**&#x200B;最佳化大部分電子郵件。 當訊息是資訊性且不是用來驅動特定動作時，請選擇&#x200B;**開啟**。
 
-1. For all channel types, set **[!UICONTROL Send within next]** to the maximum number of hours (1–168) the system will wait before sending the message.
+1. 對於電子郵件和推播訊息，請將&#x200B;**[!UICONTROL 在next]**&#x200B;內傳送設定為系統在傳送訊息之前等待的最大小時數(1-168)。
 
-    For best results, choose a value between 6 and 24 hours. A lower value reduces the number of available send times and can limit the benefit of Send-Time Optimization. A higher value may mean the message is outdated or less relevant by the time it is sent.
+   為獲得最佳結果，請選擇6到24小時之間的值。 較低的值會減少可用傳送次數，並可限制傳送時間最佳化的好處。 較高的值可能表示訊息已過期，或在傳送時較不相關。
 
-    ![Send-Time Optimization toggle in email channel configuration](assets/sto-3.png)
+   電子郵件通道設定中的![傳送時間最佳化切換](assets/sto-3.png)
 
-1. For Email messages, choose how your action tracking is configured. You can track Email opens and track clicks on links and buttons in the Email.
+1. 針對電子郵件訊息，選擇動作追蹤的設定方式。 您可以追蹤電子郵件開啟次數，以及追蹤電子郵件中連結和按鈕的點按。
 
-When your journey or campaign is activated and a customer reaches the action, Send-Time Optimization will choose the best predicted send time available for each user within your specified limits.
+當您的歷程已啟用且客戶達到歷程中的電子郵件或推播動作時，傳送時間最佳化將在您的指定限制內，選擇每個使用者的最佳預測傳送時間。
 
-To monitor your journey's performance, refer to the [Overview page](../reports/channel-report-cja.md). 
+若要監視歷程的效能，請參閱[概觀頁面](../reports/channel-report-cja.md)。
 
-## How send-time optimization works {#how-send-time}
+## 傳送時間最佳化的運作方式 {#how-send-time}
 
-The Send-Time Optimization model ingests your organization's [!DNL Adobe Journey Optimizer] customer behavior data and looks at user-level open, click, and engagement events to determine when your customers are most likely to engage with your messaging.
+傳送時間最佳化模型會擷取您組織的[!DNL Adobe Journey Optimizer]客戶行為資料，並檢視使用者層級的開啟和點按事件，以判斷客戶何時最有可能與您的訊息互動。
 
-Send-Time Optimization makes predictions for each hour of the week, for each user, based on three types of behavioral data:
+傳送時間最佳化會根據三種行為資料，針對每位使用者預測一週中的每一小時：
 
-1. The behavior of your users overall
-1. The behavior of lookalike users in the same time zone
-1. The behavior of that individual user
+1. 使用者的整體行為
+1. 相同時區中相似使用者的行為
+1. 該個別使用者的行為
 
-These predictions are weighted and combined using a Bayesian approach, resulting in a "heat map" for each metric (email opens, email clicks, push opens, and mobile message clicks), for each customer, that indicates the hours of the week that contacting that user is most and least likely to result in the desired engagement outcome (open/click), as illustrated in the below example heatmap:
+這些預測會使用貝葉斯方法進行加權和組合，針對每個客戶產生每個量度（電子郵件開啟、電子郵件點按和推播開啟）的「熱度圖」，其指出每週聯絡該使用者最可能且最不可能導致所需參與結果（開啟/點按）的時數，如下例熱度圖所示：
 
-![Engagement heatmap showing optimal send times for email by day and hour](assets/heatmap-1.png)
+![依日期和小時顯示電子郵件最佳傳送時間的參與熱度圖](assets/heatmap-1.png)
 
-If a user with the above predicted probabilities is targeted for a message at 9 AM Wednesday with Send-Time Optimization turned on and a 7 hour maximum wait time, the selected send time for the message will be 12 PM:
+如果在星期三上午9點，且開啟傳送時間最佳化且等待時間上限為7小時的情況下，將具有上述預測概率的使用者設為目標，則訊息的選定傳送時間將會是晚上12點：
 
-![Engagement heatmap with detailed hour-by-hour optimization data](assets/heatmap-2.png)
+![參與熱度圖包含詳細的逐小時最佳化資料](assets/heatmap-2.png)
 
-## Send-Time Optimization model training and scoring details  {#model-send-time}
+## 傳送時間最佳化模型訓練和評分詳細資料  {#model-send-time}
 
-Once the Send-Time Optimization feature is enabled for your organization, the Journey AI model is trained on email and push send, open and click events, as well as SMS, RCS, and WhatsApp send and click events, across all your organization's journeys, actions, and campaigns over the last 16 weeks – regardless of whether those actions use Send-Time Optimization. This allows Send-Time Optimization to benefit from all data generated by your customers.
+為您的組織啟用傳送時間最佳化功能後，系統會針對過去16週您組織的所有歷程和動作，以電子郵件和推播傳送、開啟和點按事件來訓練Journey AI模型，不論這些動作是否使用傳送時間最佳化。 這可讓傳送時間最佳化受益於客戶產生的所有資料。
 
-Models are initially trained and scored weekly. After 16 weeks, models are retrained and rescored monthly. Model scoring includes all customer profiles – both existing and new since the last scoring run.
+模型最初會接受培訓，並每週評分。 16週後，模型會每月重新訓練並重新掃描。 模型評分包括所有客戶設定檔 — 自上次評分執行以來，既有且新的。
 
-Messages sent by Send-Time Optimization receive either an "exploration" message send time selected to test different send times and observe how customers respond, or an "optimized" message send times selected to maximize click/open rates. 5% of send events receive an "exploration" send time and 95% of send events are "optimized".
+「傳送時間最佳化」傳送的訊息會收到「探索」訊息傳送時間（選取以測試不同傳送時間並觀察客戶回應方式），或是「最佳化」訊息傳送時間（選取以最大化點按/開啟率）。 5%的傳送事件會收到「探索」傳送時間，而95%的傳送事件已「最佳化」。
 
-Exploration send times are selected at random from the send times made available by your configured maximum wait time. For example, in the case that a message is selected at 9 AM Wednesday with Send-Time Optimization turned on and a 3 hour maximum wait time, Exploration send times for the message will be split evenly between 9 AM, 10 AM, 11 AM and 12 PM.
+探索傳送時間是從傳送時間中隨機選取，而該傳送時間可由您設定的最長等待時間提供。 例如，如果在星期三上午9點選取訊息，並開啟傳送時間最佳化且等待時間上限3小時，則訊息的Exploration傳送時間將平均分割為上午9點、上午10點、上午11點與下午12點。
 
 
-## Frequently asked questions {#faq-send-time}
+## 常見問題 {#faq-send-time}
 
-You will find below Frequently Asked Questions about Send-Time Optimization.
+您可以在下方找到有關傳送時間最佳化的常見問題。
 
-Need more details? Use the feedback options at the bottom of this page to raise your question, or connect with [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}.
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
-+++How long do I need to wait before using Send-Time Optimization?
++++使用傳送時間最佳化前需要等候多久？
 
-Your organization should use the Email action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Email to allow for the collection of some email send, open, and click events.
+貴組織應先在Journey Optimizer中使用「電子郵件」動作，至少30天後再在電子郵件中使用「傳送時間最佳化」 ，以收集一些電子郵件傳送、開啟和點按事件。
 
-Your organization should use the Push action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Push to allow for the collection of some push send and open events.
+貴組織應先在Journey Optimizer內使用「推播」動作30天以上，再使用「推播」內的「傳送時間最佳化」來允許收集某些推播傳送和開啟事件。
 
-Your organization should use the SMS, RCS, or WhatsApp action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization for those channels to allow for the collection of some send and click events.
-
-If your organization has already been using the relevant action types for at least 30 days, your organization does not need to wait longer to use Send-Time Optimization after it has been enabled by Adobe. Results will continue to improve as your organization gathers data for up to 16 weeks.
+如果您的組織已使用電子郵件及/或推播動作型別至少30天，則貴組織在Adobe啟用傳送時間最佳化後，不需要等候更久即可使用。 隨著您的組織收集資料長達16週，結果將會持續改善。
 
 +++
 
-+++How can I see the send time a particular user will receive a message at?
++++我如何檢視特定使用者將在此收到訊息的傳送時間？
 
-In order to minimize the model's impact on profile richness, model scores are stored compressed in 3 Profile attributes stored in `_experience.intelligentServices.journeyAI.sendTimeOptimization`, and are not designed to be human readable.
-
-+++
-
-
-+++What is the average benefit of Send-Time Optimization?
-
-Send-Time Optimization may increase email click rate, push open rate, and mobile message click rate in the range of approximately 2% to 10% across all messages optimized by an organization.
-
-For example, if an organization sending email without send time optimization has a 5.0% click rate on average, the same set of emails with send time optimization might result in as much as a 5.5% click rate on average (5.0% * (1+10%) = 5.5%).
-
-Due to variability within small sample sizes, a benefit from Send-Time Optimization may not be observable on single message sends.
-
-Organizations are more likely to experience greater benefits from using Send-Time Optimization when:
-
-* Existing journeys use send times that are fixed and not well-optimized
-* Variability in customer behavior (clicks and opens) corresponds to customer location and customer preferences
-* Organizations use Send-Time Optimization on a larger fraction of email, push, and mobile messages
-* Organizations choose maximum wait times within the recommended range of 6-12 hours
-
-+++
-
-+++I always click on emails or push messages at 12pm, why didn't the algorithm send a message to me at 12pm?
-
-
-This may occur for multiple reasons:
-
-* Your message was selected as an "Exploration" message send time instead of an "Optimized" message send time.
-* The behavior of lookalike users influenced the model to recommend another send time.
-
-+++
-
-+++How does Send-Time Optimization know a user's time zone?
-
-Send-Time Optimization uses the `timeZone` profile field to determine a user's time zone. If not available for that user, Send-Time Optimization attempts to infer a user's time zone from other geographic information in the user's profile such as country and state.
+為了將模型對設定檔豐富度的影響降至最低，模型分數會壓縮儲存在`_experience.intelligentServices.journeyAI.sendTimeOptimization`中儲存的3個設定檔屬性中，且並非設計為人類看得懂的。
 
 +++
 
 
-+++Will Send-Time Optimization send Push or mobile messages to users during the night in their local time zone?
++++傳送時間最佳化的平均效益為何？
 
-Send-Time Optimization may send Push, SMS, RCS, or WhatsApp messages to users during the night in their local time zone in the following circumstances:
+傳送時間最佳化可在組織最佳化的所有郵件中，提高電子郵件點按率和推播開啟率，幅度約為2%至10%。
 
-* When users exhibit behavior that indicates they are likely to interact with a message sent at night
-* When the model chooses an "Exploration" send time
+例如，如果組織傳送電子郵件時未將傳送時間最佳化，則平均點按率為5.0%，而同一組具有傳送時間最佳化的電子郵件平均可產生高達5.5%的點按率(5.0% * (1+10%) = 5.5%)。
 
-To avoid sending messages to customers during night time hours, schedule batch message sends to occur in the morning or early afternoon and choose a shorter duration for Send-Time Optimization. (For example, a 9 AM send time and 8 hour maximum wait time.)
+由於小型樣本大小中的可變性，在傳送單一訊息時，可能無法觀察到傳送時間最佳化的好處。
+
+組織在以下情況下更有可能從使用傳送時間最佳化中獲得更大的好處：
+
+* 現有歷程使用的傳送時間是固定的且未妥善最佳化
+* 客戶行為的可變性（點按和開啟）會對應至客戶地點和客戶偏好設定
+* 組織對大部分電子郵件和推播訊息使用傳送時間最佳化
+* 組織選擇建議的6-12小時範圍內的最大等待時間
 
 +++
-```
 
-&#x200B;---
++++我總是會在中午12點按電子郵件或推送訊息，為什麼演演算法沒有在下午12點傳送訊息給我？
 
-以下是所做每個變更的摘要：
 
-**Beginshadebox / intro copy** — 新增SMS、RCS和WhatsApp至頻道清單，並將「開啟並點按」更新為「開啟、點按和參與行為」。
+發生此問題的原因有多種：
 
-**內容說明區塊** — 已更新`jo_bestsendtime_disabled`以包含行動裝置頻道；已為SMS/RCS/WhatsApp新增新的`jo_bestsendtime_mobile`區塊，說明這些頻道已針對連結點選最佳化。
+* 您的訊息已選取為「探索」訊息傳送時間，而非「最佳化」訊息傳送時間。
+* 相似使用者的行為影響了模型以建議另一個傳送時間。
 
-**範圍段落** — 移除行銷活動限制（「目前不適用於透過行銷活動傳送的訊息」），並將SMS、RCS和WhatsApp新增至頻道清單。 此句子現在顯示為：*可在歷程與行銷活動中用於這些動作型別。*
++++
 
-**可用性注意事項** — 更新頻道專案符號以包含SMS、RCS和WhatsApp。
++++傳送時間最佳化如何知道使用者的時區？
 
-**使用STO區段** — 步驟1現在顯示「歷程或行銷活動」；步驟3新增行動訊息最佳化規則（一律按一下）；步驟4將「適用於電子郵件和推播」的一般化為「適用於所有管道型別」；結束句子從「歷程」更新為「歷程或行銷活動」。
+傳送時間最佳化使用`timeZone`設定檔欄位來決定使用者的時區。 如果無法供該使用者使用，「傳送時間最佳化」會嘗試從使用者設定檔中的其他地理資訊（例如國家/地區和州）推斷使用者的時區。
 
-**運作方式區段** — 已更新熱度圖量度清單以包含「行動訊息點按」。
++++
 
-**模型訓練區段** — 新增SMS、RCS和WhatsApp傳送和點按事件到訓練資料說明；新增「和行銷活動」到範圍。
 
-**常見問題集** — 新增SMS/RCS/WhatsApp的30天整備段落；更新權益常見問題集以包含「行動訊息點選率」；更新夜間常見問題集問題和內文，以將SMS、RCS和WhatsApp與Push並列命名。
++++傳送時間最佳化是否會在使用者當地時區的夜間將推送訊息傳送給使用者？
+
+傳送時間最佳化可在下列情況下，於使用者當地時區的夜間將推播訊息傳送給使用者：
+
+* 當使用者表現出行為表示他們很可能會與夜間傳送的訊息互動時
+* 模型選擇「探索」傳送時間時
+
+為避免在夜間時段向客戶傳送推播訊息，請排程批次推播訊息傳送以在早上或午後發生，並選擇較短的持續時間以進行傳送時間最佳化。 （例如，上午9點的傳送時間與最長8小時的等候時間。）
+
++++
+
+
+
