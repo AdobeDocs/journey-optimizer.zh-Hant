@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 90%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -437,3 +437,8 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="頻道型別"
 >abstract="選填。 將使用此自訂SMS提供者認證傳送的訊息（例如SMS或RCS）分類。 Journey Optimizer會將該值寫入XDM體驗事件，以便您能夠依管道報告及追蹤傳送。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Authentication"
+>abstract="啟用後，僅接受透過Adobe IMS驗證的請求。 呼叫者在傳送資料至此端點時，必須包含有效的OAuth權杖。"
