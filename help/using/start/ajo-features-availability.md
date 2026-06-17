@@ -1,21 +1,25 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Journey Optimizer功能可用性
-description: 透過單一、整合的參考資料，瞭解哪些Adobe Journey Optimizer功能可用、其生命週期狀態（一般可用性、有限可用性或Beta）、其套用的基本選件以及其出貨時間，而不需交叉參考發行說明。
-feature: Get Started
-topic: Content Management
-role: Admin, User
-level: Beginner, Intermediate
-keywords: journey optimizer，功能可用性，可用功能， GA，有限可用性， Beta，生命週期，發行日期，權益，基本優惠，行銷活動，歷程
-hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 12%
+source-wordcount: '2004'
+ht-degree: 11%
+
+---
+檔案來源檔案位於檔案存放庫中，而非此管道專案。 由於指示中說要輸出完整的更新Markdown，因此它如下所示：
 
 ---
 
+解決方案： Journey Optimizer
+product： journey optimizer
+title： Journey Optimizer功能可用性
+description：尋找哪些Adobe Journey Optimizer功能可供使用、其生命週期狀態（一般可用性、有限可用性或Beta）、其套用的基本選件以及其出貨時間的單一整合參照，沒有交叉參照的發行說明。
+功能：開始使用
+主題：內容管理
+角色：管理員、使用者
+層級：初級，中級
+關鍵字： journey optimizer，功能可用性，可用功能， GA，有限可用性， Beta，生命週期，發行日期，權益，基本優惠方案，行銷活動，歷程
+隱藏： true
+---
 
 # Journey Optimizer功能可用性 {#ajo-features-availability}
 
@@ -63,6 +67,7 @@ ht-degree: 12%
 
 | 功能 | 狀態 | 套用至 | 可用起始日期 | 附註 |
 |---------|--------|-----------|-----------------|-------|
+| 傳送時間最佳化(STO)以傳送行動訊息 | Beta 版 | 所有基本優惠方案 | H2 2026 | AI驅動的SMS、RCS和WhatsApp的每個設定檔最佳傳送時間；可在歷程和行銷活動中使用 |
 | 新行動訊息頻道(SMS、MMS、RCS) | GA | 所有基本優惠方案 | 2026年5月20日 | 統一SMS/MMS/RCS；原生RCS製作（影像、輪播） |
 | 電子郵件設計工具中的深層連結 | GA | 所有基本優惠方案 | 2026年5月12日 | 需要行動應用程式設定 |
 | 針對 AI 收件匣最佳化電子郵件 | GA | 所有基本優惠方案 | 2026年4月17日 | Apple Intelligence， Gmail Gemini |
@@ -99,6 +104,7 @@ ht-degree: 12%
 | 內容決活動 | GA | 歷程；行銷活動和歷程 | 2026年2月10日 | 前身為LA |
 | 勿打擾時間 (不接收訊息的時間) | GA | 歷程；行銷活動和歷程 | 2026年1月29日 | 前身為LA |
 | 歷程運算式的AI助理 | Beta 版 | 歷程；行銷活動和歷程 | 2026年6月3日 | 公用Beta |
+| 傳送時間最佳化(STO)以傳送行動訊息 | Beta 版 | 歷程；行銷活動和歷程 | H2 2026 | AI驅動的SMS、RCS和WhatsApp的每個設定檔最佳傳送時間；請參閱管道索引標籤 |
 | 歷程仲裁 | LA | 歷程；行銷活動和歷程 | 2026年2月24日 | 請聯絡您的Adobe代表 |
 | 歷程仲裁 — AI模型 | LA | 歷程；行銷活動和歷程 | 2026年4月 | 請聯絡您的Adobe代表 |
 | 歷程中的資料集查詢支援 | LA | 歷程；行銷活動和歷程 | 2026年3月 | 適用於有權進行資料集查詢的客戶 |
@@ -119,6 +125,7 @@ ht-degree: 12%
 | 使用訊號觸發協調的行銷活動 | GA | 行銷活動；行銷活動和歷程 | 2026年3月 | 保持批次行銷活動 |
 | 協調行銷活動中的異動類別 | GA | 行銷活動；行銷活動和歷程 | 2026年3月 | 逐步由地區推出 |
 | 傳出訊息的波動傳送（行銷活動） | GA | 行銷活動；行銷活動和歷程 | 2026年2月19日 | LA in journeys |
+| 傳送時間最佳化(STO)以傳送行動訊息 | Beta 版 | 行銷活動；行銷活動和歷程 | H2 2026 | AI驅動的SMS、RCS和WhatsApp的每個設定檔最佳傳送時間；請參閱管道索引標籤 |
 | 批次行銷活動 | GA | 行銷活動；行銷活動和歷程 | 核心功能 | 已排程、以對象為基礎的傳送 |
 | 協調的行銷活動（多步驟工作流程） | GA | 行銷活動；行銷活動和歷程 | 核心功能 | 電子郵件、簡訊、推播、僅直接郵件 |
 | 交易型傳訊 | GA | 所有基本優惠方案 | 核心功能 | 電子郵件、推播、簡訊；隨附於每個基本優惠方案 |
@@ -197,3 +204,7 @@ ht-degree: 12%
 - **了解封裝內容** — [封裝和功能](ajo-packages.md)
 - **檢視所有出貨內容** — [發行說明](../rn/release-notes.md) | [2026年發行說明](../rn/release-notes-2026.md)
 - **開始使用** — [開始使用Journey Optimizer](get-started.md)
+
+---
+
+新增了三列 — 每個&#x200B;**管道**、**歷程**&#x200B;和&#x200B;**行銷活動**&#x200B;索引標籤各一個 — 遵循用於波動傳送的相同跨索引標籤模式。 此功能標示為&#x200B;**Beta / H2 2026**，因為票證的目標為2026年下半年，且功能尚未正式發行。 管道索引標籤具有權威說明；歷程和行銷活動列是簡短互動參照，將讀者指向管道索引標籤以取得詳細資料。
