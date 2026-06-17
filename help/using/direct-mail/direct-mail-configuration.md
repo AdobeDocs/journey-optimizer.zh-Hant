@@ -22,14 +22,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1994
 ht-degree: 20%
 
 ---
 
 # 直接郵件設定 {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;設定檔案路由及直接郵件通道設定，讓您的擷取檔案匯出至正確的伺服器，供直接郵件提供者擷取。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]可讓您個人化並產生直接郵件供應商傳送郵件給您的客戶所需的檔案。
 

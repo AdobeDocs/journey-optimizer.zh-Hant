@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 16%
+source-wordcount: 605
+ht-degree: 15%
 
 ---
 
 # 檢查並傳送直接郵件訊息 {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;預覽解壓縮檔案、驗證並啟用您的行銷活動或歷程，以及管理郵遞同意，讓您的直接郵件準確地送達正確的收件者。
+
+>[!ENDSHADEBOX]
 
 瞭解如何在Journey Optimizer中預覽解壓縮檔案、驗證及啟用直接郵件行銷活動或歷程，以及管理郵遞區段同意。
 
