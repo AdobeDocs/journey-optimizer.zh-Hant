@@ -10,28 +10,15 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
 workflow-type: tm+mt
-source-wordcount: 2780
+source-wordcount: 2609
 ht-degree: 5%
 
 ---
@@ -49,7 +36,7 @@ ht-degree: 5%
 >title="暫停您的歷程"
 >abstract="暫停已上線的歷程可防止新的輪廓進入。 目前在歷程中的輪廓可以被捨棄，也可將其保留。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續，或[停止或直接關閉新入口](#stop-close-paused)，而不先繼續。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
 
 ## 主要優點 {#journey-pause-benefits}
 
@@ -142,25 +129,6 @@ ht-degree: 5%
 
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
 
-## 停止或關閉暫停的歷程 {#stop-close-paused}
-
-您可以直接從&#x200B;**已暫停**&#x200B;狀態停止暫停的歷程或將其關閉到新入口。 之前，暫停的歷程必須先恢復為&#x200B;**即時**，然後才能停止或關閉。
-
-在暫停的歷程中，您可以：
-
-* **[!UICONTROL 靠近新入口]**：新設定檔無法再進入歷程，而已輸入的設定檔可以完成其路徑。 [進一步瞭解關閉歷程](end-journey.md#close-journey)。
-* **[!UICONTROL 停止]**：所有歷程處理都會立即結束，而且仍在歷程中的設定檔在其進度中會停止。 [進一步瞭解停止歷程](end-journey.md#stop-journey)。
-
-若要停止或關閉暫停的歷程，請遵循下列步驟：
-
-1. 開啟暫停的歷程。
-1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 停止]**&#x200B;或&#x200B;**[!UICONTROL 關閉新入口]**。
-1. 在對話方塊中確認。
-
->[!CAUTION]
->
->您無法重新啟動或刪除[已關閉](end-journey.md#close-journey)或[已停止](end-journey.md#stop-journey)歷程。 您可以[建立其新版本](publish-journey.md#journey-versions)或[複製它](journey-ui.md#duplicate-a-journey)。
-
 ## 檢視歷程何時暫停或繼續 {#view-pause-resume-info}
 
 若要檢視歷程上次暫停或恢復的時間以及由誰執行，請開啟歷程並前往其&#x200B;**屬性** （按一下歷程名稱旁的鉛筆圖示）。 使用&#x200B;**複製技術詳細資料**&#x200B;按鈕複製技術資訊，包括：
@@ -203,7 +171,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -256,7 +224,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
