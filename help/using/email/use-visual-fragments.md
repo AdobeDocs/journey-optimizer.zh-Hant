@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 1%
 
 ---
@@ -139,11 +139,13 @@ ht-degree: 1%
 
 1. 片段中所有可編輯的欄位都會顯示在&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中的片段屬性下。
 
-   ![](assets/fragment-editable-rich-fields.png)
+   在以下範例中，您可以編輯影像來源和替代文字，以及「標題」/「副標題」欄位和「更多資訊」按鈕URL。
+
+   ![](assets/fragment-editable-fields.png)
 
 1. 將滑鼠懸停在中央畫布中的任何可編輯欄位上。 欄位會以綠色反白，按一下其中包含的文字時，會出現一個鉛筆圖示。
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. 直接在中心電子郵件Designer畫布上內嵌編輯欄位文字。
 
@@ -155,15 +157,11 @@ ht-degree: 1%
 
    ![電子郵件Designer工具列中的RTF格式選項](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >在匯入RTF編輯功能之前建立的片段，其可編輯欄位預設為純文字模式。 若要啟用完整的格式選項，請使用&#x200B;**[!UICONTROL 開啟片段]**&#x200B;按鈕移至片段編輯器，按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;以解鎖RTF模式並&#x200B;**[!UICONTROL 儲存]**&#x200B;片段。 [了解更多](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. 在以下範例中，您可以編輯影像來源和替代文字，以及「標題」/「副標題」欄位和「更多資訊」按鈕URL。
-
-   ![](assets/fragment-editable-fields.png)
+   電子郵件Designer![&#128279;](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}中的相容性警告
 
 1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。 [進一步瞭解預覽內容](../content-management/preview-test.md)
 
