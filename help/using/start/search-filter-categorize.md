@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 96%
+source-wordcount: 826
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
 ## 搜尋 {#unified-search}
 
-在 Adobe Journey Optimizer 介面的任意處，利用頂端列中央的 Unified Adobe Experience Cloud 搜尋功能，在您的沙箱尋找資產、歷程、資料集等等。
+在Adobe Journey Optimizer介面中，使用頂端列中央的統一[!DNL Adobe CX Enterprise]搜尋功能，在您的沙箱中尋找資產、歷程、資料集等。
 
 開始輸入內容以顯示排名最前的結果。 有關輸入關鍵字的說明文章也會顯示在結果中。
 

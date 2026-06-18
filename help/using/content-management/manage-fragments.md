@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1559
 ht-degree: 18%
 
 ---
@@ -181,7 +181,7 @@ ht-degree: 18%
    >
    >編輯已發佈的片段時，您可以移除任何個人化欄位，但無法將新欄位新增至片段內容。 如果您想要新增個人化屬性，您必須復製片段。 [了解更多](#adding-new-attributes)
 
-1. 一旦您的變更準備就緒後，請儲存變更並按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕讓您的修改上線。 [了解更多](create-fragments.md#publish)
+1. 一旦您的變更準備就緒後，請儲存變更，然後返回片段詳細資料畫面並按一下「**[!UICONTROL 發佈]**」按鈕，讓您的修改上線。 [了解更多](create-fragments.md#publish)
 
 當您編輯片段時，變更會自動傳播至使用該片段的所有內容，包括即時歷程和行銷活動，但您中斷原始片段繼承的內容除外。
 

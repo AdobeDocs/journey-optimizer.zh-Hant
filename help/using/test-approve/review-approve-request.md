@@ -17,9 +17,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 374
 ht-degree: 3%
 
 ---
@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> 如果您未透過電子郵件收到核准通知，則需要更新Experience Cloud設定檔中的訂閱偏好設定。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)
+> 如果您未透過電子郵件收到核准通知，則需要在[!DNL CX Enterprise]設定檔中更新訂閱偏好設定。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)

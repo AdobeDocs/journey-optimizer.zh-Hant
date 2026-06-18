@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2652
+source-wordcount: 2650
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 ## Journey Optimizer 如何使用 Adobe Experience Platform 資料 {#aep-data}
 
-[!DNL Adobe Journey Optimizer] 建立於 [!DNL Adobe Experience Platform]。 它不會維護獨立的資料存放區。 而是使用與其他 Experience Cloud 應用程式相同的資料基礎。
+[!DNL Adobe Journey Optimizer] 建立於 [!DNL Adobe Experience Platform]。 它不會維護獨立的資料存放區。 而是使用與其他[!DNL CX Enterprise]應用程式相同的資料基礎。
 
 結構描述和資料集在 Adobe Experience Platform 中上線。 身分識別和[即時客戶輪廓](../audience/get-started-profiles.md)是由身分識別服務和輪廓服務所管理。 Journey Optimizer 會從 Adobe Experience Platform 讀取輪廓和事件資料，以評估歷程條件、個人化訊息，並選取產品建議。 它會將互動資料 (例如傳送、開啟、點選和退回事件，以及歷程步驟事件) 寫入回 Experience Platform 資料集。 它也可以在執行階段查詢其他資料集，而無需將該資料複製到輪廓中。
 

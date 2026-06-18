@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +764,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並獲取指定環境的運作洞察。 它適用於 Adobe Experience Cloud 的多種產品，包括 Adobe Journey Optimizer。</p>
+<p>AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於[!DNL Adobe CX Enterprise]的多個產品，包括Adobe Journey Optimizer。</p>
 <p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>。</p>
 </td>
 </tr>
@@ -1043,7 +1043,7 @@ table>
 
 **全球化**
 
-作為我們不斷努力提供統一使用者體驗的一部分，我們統一了 Adobe Experience Cloud 產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
+為了提供統一的使用者體驗，我們將[!DNL Adobe CX Enterprise]產品和應用程式中使用的術語統一起來。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
 
 
 ## 2024 年 4 月發行版本 {#apr-2024}
