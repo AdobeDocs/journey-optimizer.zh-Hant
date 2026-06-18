@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 575a5071b0cb9f64447308efb263749831d96c56
 workflow-type: tm+mt
-source-wordcount: '3358'
+source-wordcount: '3360'
 ht-degree: 99%
 
 ---
@@ -318,6 +318,7 @@ ht-degree: 99%
             + [新增自訂 CSS](using/email/custom-css.md)
             + [管理深色模式內容](using/email/dark-mode.md)
          + [建立可存取的內容](using/email/accessible-content.md)
+         + [內容檢查](using/email/content-check.md)
       + 設定電子郵件管道 {#configure-email}
          + {hide-from-toc}[設定電子郵件頻道](/help/rp_landing_pages/configure-email-landing-page.md)
          + [開始使用電子郵件設定](using/email/get-started-email-config.md)
