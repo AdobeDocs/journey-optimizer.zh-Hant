@@ -11,9 +11,9 @@ keywords: 實驗，實驗，歷程，路徑，最佳化， A/B測試，多臂吃
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1308
 ht-degree: 6%
 
 ---
@@ -72,11 +72,6 @@ ht-degree: 6%
    >
    >切換列會自動取用母體的10%。 您可以視需要調整此百分比。
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. 您可以為每個&#x200B;**[!UICONTROL 處理]**&#x200B;分配精確百分比，或直接開啟&#x200B;**[!UICONTROL 平均分配]**&#x200B;切換列。
 
    ![具有百分比分佈的處理配置滑桿](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ ht-degree: 6%
 
 1. [發佈](publish-journey.md)您的歷程。
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 歷程上線後，會隨機指派使用者沿著不同路徑前進。 [!DNL Journey Optimizer]追蹤哪個路徑執行效果最佳並提供可操作的深入分析。
 
 使用歷程路徑實驗報告追蹤您的歷程是否成功。 [了解更多](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## 歷程重新進入時的路徑指派 {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+設定檔的路徑指派會持續存在於相同歷程版本的多個入口。 例如，如果設定檔在第1天進入歷程，並被指派給路徑A，然後在第2天再次進入歷程，則會再次被指派給路徑A。這可確保使用者獲得一致的體驗，且在統計上有效的報表和分析中也是必需的。
+
+不過，這些指派只會持續存在於特定歷程版本中。 一旦您發佈新的歷程版本，隨機化就會變更，而設定檔最終可能會指派給不同路徑。
+
+如果您的歷程中有多個路徑實驗活動，則每個活動會套用獨立的隨機指派。
 
 ## 實驗使用案例 {#uc-experiment}
 

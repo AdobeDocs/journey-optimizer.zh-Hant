@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 16%
+source-wordcount: 1161
+ht-degree: 15%
 
 ---
 
@@ -72,6 +72,16 @@ ht-degree: 16%
 
 ## 建立您的API認證 {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="頻道型別"
+>abstract="選填。 將使用此自訂SMS提供者認證傳送的訊息（例如SMS或RCS）分類。 Journey Optimizer會將該值寫入XDM體驗事件，以便您能夠依管道報告及追蹤傳送。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Authentication"
+>abstract="啟用後，僅接受透過Adobe IMS驗證的請求。 呼叫者在傳送資料至此端點時，必須包含有效的OAuth權杖。"
+
 若要在Journey Optimizer中使用Adobe未提供的現成自訂提供者（例如Sinch、Infobip、Twilio）傳送行動訊息，請遵循下列步驟：
 
 1. 在左側邊欄中，瀏覽至&#x200B;**[!UICONTROL 管理]** `>` **[!UICONTROL 管道]**，選取&#x200B;**[!UICONTROL 簡訊設定]**&#x200B;下的&#x200B;**[!UICONTROL API認證]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 建立新的API認證]**&#x200B;按鈕。
@@ -89,6 +99,8 @@ ht-degree: 16%
    * **[!UICONTROL 提供者名稱]**：輸入您的SMS提供者的名稱。
 
    * **[!UICONTROL 提供者URL]**：輸入簡訊提供者的URL。
+
+   * **[!UICONTROL 頻道型別]**：選擇性。 指出此認證代表的行動裝置頻道，即SMS、RCS或MMS。
 
    * **[!UICONTROL 驗證型別&#x200B;]**：選取您的授權型別，並根據選取的驗證方法[完成對應的欄位](#auth-options)。
 

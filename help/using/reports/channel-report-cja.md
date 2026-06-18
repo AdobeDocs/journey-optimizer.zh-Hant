@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 0%
+source-wordcount: 1209
+ht-degree: 1%
 
 ---
 
@@ -92,6 +92,8 @@ ht-degree: 0%
 
 +++ 進一步瞭解歷程量度
 
+* **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
+
 * **[!UICONTROL 歷程進入者]**：到達歷程進入事件的個人總數。
 
 * **[!UICONTROL 歷程結束]**：結束歷程的個人總數。
@@ -122,6 +124,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
 
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
 +++
 
 ## 管道 {#channel}
@@ -143,6 +147,8 @@ ht-degree: 0%
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
 +++
 

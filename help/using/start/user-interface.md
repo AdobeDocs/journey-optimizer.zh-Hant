@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 525e32daf2f123dd06c18bb84ce610d1007bd8c5
+source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
-source-wordcount: 1786
-ht-degree: 88%
+source-wordcount: 1614
+ht-degree: 97%
 
 ---
 
@@ -409,36 +409,5 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >title="載入檔案活動"
 >abstract="**載入檔案**&#x200B;活動為&#x200B;**目標定位**&#x200B;活動。 使用它在協調的行銷活動畫布上傳 CSV 或 TXT 檔案，並將其用作行銷活動客群。 檔案資料在執行時消耗，且不會儲存為 Adobe Experience Platform 資料集。 使用身分欄位和目標維度，將資料列調和至現有的收件者。"
 
-<!-- SMS Sinch Usage metrics -->
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_metrics"
->title="簡訊使用量度"
->abstract="產生SMS使用報告，以協調傳訊量與供應商帳單。 報表會按天彙總每個簡短代碼或電話號碼的行動終止(MT)和行動產生(MO)計數。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_report_name"
->title="報告名稱"
->abstract="輸入有助於您稍後在清單中識別此報告的標籤，例如2026年5月的計費檢閱。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_credential"
->title="簡訊認證"
->abstract="選取Sinch API認證，其傳送與接收流量應會顯示在此報表中。 若要新增或更新認證，請移至&#x200B;**管理** > **管道** > **API認證**，然後選擇&#x200B;**SMS供應商** > **Sinch MMS**。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_usage_start_date"
->title="開始日期"
->abstract="要納入報表之日期範圍的第一天。 使用情況資料僅供過去90天使用。"
-
-<!--  channel type in Custom Provider in API credential  -->
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_api_byop_channel_type"
->title="頻道型別"
->abstract="選填。 將使用此自訂SMS提供者認證傳送的訊息（例如SMS或RCS）分類。 Journey Optimizer會將該值寫入XDM體驗事件，以便您能夠依管道報告及追蹤傳送。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_sms_webhook_require_auth"
->title="Authentication"
->abstract="啟用後，僅接受透過Adobe IMS驗證的請求。 呼叫者在傳送資料至此端點時，必須包含有效的OAuth權杖。"

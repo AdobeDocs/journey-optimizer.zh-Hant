@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 1%
@@ -161,7 +161,7 @@ ht-degree: 1%
    >
    >在匯入RTF編輯功能之前建立的片段，其可編輯欄位預設為純文字模式。 若要啟用完整的格式選項，請使用&#x200B;**[!UICONTROL 開啟片段]**&#x200B;按鈕移至片段編輯器，按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;以解鎖RTF模式並&#x200B;**[!UICONTROL 儲存]**&#x200B;片段。 [了解更多](../content-management/customizable-fragments.md#rich-text-visual)
 
-   電子郵件Designer![&#128279;](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}中的相容性警告
+   電子郵件Designer![&#128279;](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}中的相容性警告
 
 1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。 [進一步瞭解預覽內容](../content-management/preview-test.md)
 

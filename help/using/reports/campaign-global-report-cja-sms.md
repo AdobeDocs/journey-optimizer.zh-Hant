@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 3%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -72,23 +72,51 @@ ht-degree: 3%
 
 * **[!UICONTROL 已傳遞]**：成功傳送的SMS訊息數目（與SMS訊息總數相關）。
 
-* **[!UICONTROL 傳出頻道的跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數，與傳送的SMS訊息總數相關。
+* **[!UICONTROL 跳出數]**：在傳送程式期間累積的錯誤總數，以及相對於已傳送SMS訊息的總數的自動傳回處理次數。
 
-* **[!UICONTROL 傳出錯誤]**：發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 傳送錯誤]**：發生無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 傳出排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+* **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer已排除的設定檔數目。
 
 +++
 
-## 追蹤的連結標籤 {#track-link-label-sms}
+## Campaign 概觀 {#campaign-global}
 
-**[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
+**[!UICONTROL 行銷活動概覽]**&#x200B;表格可作為行銷活動中SMS效能的儀表板。 它會摘要目標設定檔、點按和點進量度（包括排除機器人和非人類互動流量的估計點按）和傳送結果，例如跳出、傳送錯誤和排除。
+
++++ 進一步瞭解Campaign概觀量度
+
+* **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 點進率]**：與訊息互動的使用者百分比。
+
+* **[!UICONTROL 點按]**：內容在訊息中的點按次數。
+
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 退信]**：在傳送程式期間累積的錯誤總數，以及相對於已傳送訊息總數的自動傳回處理。
+
+* **[!UICONTROL 傳送錯誤]**：傳送程式期間發生的總錯誤數，使它無法傳送至設定檔。
+
+* **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer已排除的設定檔數目。 [進一步瞭解排除專案的計算方式](exclusion-list.md#exclusion-list)。
+
++++
+
+## 追蹤的標籤 {#track-label-sms}
+
+**[!UICONTROL 追蹤的標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，並醒目提示產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
 +++ 深入瞭解追蹤的連結標籤量度
 
-* **[!UICONTROL 不重複點按]**：點按SMS訊息中內容的設定檔數目。
-
 * **[!UICONTROL 點按]**：內容在簡訊訊息中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
 
 +++
 
@@ -98,9 +126,11 @@ ht-degree: 3%
 
 +++ 深入瞭解追蹤的連結URL量度
 
-* **[!UICONTROL 不重複點按]**：點按SMS訊息中內容的設定檔數目。
-
 * **[!UICONTROL 點按]**：內容在簡訊訊息中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
 
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
