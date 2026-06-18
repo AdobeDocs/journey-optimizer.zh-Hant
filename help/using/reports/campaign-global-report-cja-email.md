@@ -9,31 +9,16 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 TQID: https://experienceleague.adobe.com/QtGuPZnO3Bka3GI9JaMjBJmho4Cry5qgl61h3Ohe3ek
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 1%
+source-wordcount: 2332
+ht-degree: 0%
 
 ---
 
@@ -48,7 +33,7 @@ ht-degree: 1%
 >[!INFO]
 >
 >由於Apple為原生郵件應用程式引入了新的隱私權保護功能，包括郵件隱私權保護，因此傳送者無法再使用追蹤畫素來收集已啟用Apple郵件隱私權保護的設定檔資料。因此，Adobe Journey Optimizer使用追蹤畫素來追蹤電子郵件開啟的能力可能會受到影響。
-> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=zh-Hant) Apple iOS隱私權變更對電子郵件行銷的影響。
+> [深入瞭解](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) Apple iOS隱私權變更對電子郵件行銷的影響。
 > 
 > 我們建議將重點放在點按次數和轉換量度上，而非開放率，以取得更準確的深入分析。
 
@@ -226,9 +211,13 @@ ht-degree: 1%
 
 * **[!UICONTROL 點進開啟率(CTOR)]**：電子郵件開啟的次數。
 
+* **[!UICONTROL 開啟率]**：至少開啟一次電子郵件的設定檔百分比（相對於已傳遞的電子郵件數目）。
+
 * **[!UICONTROL 預估的電子郵件開啟次數]**：預估的電子郵件開啟總次數，包括設定檔直接開啟以及郵件伺服器觸發的自動開啟次數。 此量度會套用由手動開啟電子郵件的收件者所計算的開啟率，並將此開啟率套用至僅由郵件伺服器開啟電子郵件的收件者，藉此調整郵件伺服器為隱私權或安全性掃描所觸發的開啟。
 
 * **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
 * **[!UICONTROL 垃圾訊息申訴]**：訊息被宣告為垃圾郵件或垃圾訊息的次數。
 
@@ -258,17 +247,19 @@ ht-degree: 1%
 
 +++
 
-## 追蹤的連結標籤 {#track-link-label}
+## 追蹤的標籤 {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-**[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您電子郵件中連結標籤的完整概觀，其中會強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
+**[!UICONTROL 追蹤的標籤]**&#x200B;表格提供您電子郵件中連結標籤的完整概觀，其中會強調產生最高訪客流量的那些標籤。 此功能可讓您識別最熱門的連結並加以優先處理。
 
 +++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 不重複點按]**：點按電子郵件中內容的設定檔數目。
 
 * **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
 +++
 
@@ -283,6 +274,8 @@ ht-degree: 1%
 * **[!UICONTROL 不重複點按]**：點按電子郵件中內容的設定檔數目。
 
 * **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
 +++
 

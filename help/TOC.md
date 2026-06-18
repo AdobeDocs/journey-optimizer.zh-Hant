@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c50a62ff4a57836833b0ef19012be949d483865d
+source-git-commit: 0563b1a3101cf0511d725b55ad7cbdfb60ef786a
 workflow-type: tm+mt
-source-wordcount: '3360'
-ht-degree: 99%
+source-wordcount: '3364'
+ht-degree: 98%
 
 ---
 
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [管理行動訊息的選擇退出](using/mobile/mobile-opt-out.md)
       + [設定簡訊子網域](using/mobile/mobile-subdomains.md)
       + [簡訊成本最佳化的最佳做法](using/mobile/mobile-cost-optimization.md)
+      + [產生SMS使用報告](using/mobile/sms-usage-report.md)
       + 設定行動裝置管道 {#configure-mobile}
          + [開始使用行動設定](using/mobile/mobile-configuration.md)
          + [設定 Sinch 提供者](using/mobile/mobile-configuration-sinch.md)

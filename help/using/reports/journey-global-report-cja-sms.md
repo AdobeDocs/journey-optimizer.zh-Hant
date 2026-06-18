@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: cf50ce33-7934-4e37-a757-08cda14e97ac
 TQID: https://experienceleague.adobe.com/6qTZDKZCYyZLV-L9kKHy6fwT-ElIAewxLyK2Oz7vPyk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 3%
+source-wordcount: 927
+ht-degree: 2%
 
 ---
 
@@ -68,23 +58,51 @@ ht-degree: 3%
 
 * **[!UICONTROL 已傳遞]**：成功傳送的SMS訊息數目（與SMS訊息總數相關）。
 
-* **[!UICONTROL 傳出頻道的跳出數]**：傳送程式與自動傳回處理期間累計的錯誤總數，與傳送的SMS訊息總數相關。
+* **[!UICONTROL 跳出數]**：在傳送程式期間累積的錯誤總數，以及相對於已傳送SMS訊息的總數的自動傳回處理次數。
 
-* **[!UICONTROL 傳出錯誤]**：發生且無法傳送至設定檔的錯誤總數。
+* **[!UICONTROL 傳送錯誤]**：發生無法傳送至設定檔的錯誤總數。
 
-* **[!UICONTROL 傳出排除]**： Adobe Journey Optimizer已排除的設定檔數目。
+* **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer已排除的設定檔數目。
 
 +++
 
-## 追蹤的連結標籤 {#track-link-label-sms}
+## Campaign 概觀 {#campaign-global}
 
-**[!UICONTROL 追蹤的連結標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，強調產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
+**[!UICONTROL 行銷活動概覽]**&#x200B;表格可作為您歷程中每個行銷活動動作的SMS效能儀表板。 它會摘要目標設定檔、點按和點進量度（包括排除機器人和非人類互動流量的估計點按）和傳送結果，例如跳出、傳送錯誤和排除。
+
++++ 進一步瞭解Campaign概觀量度
+
+* **[!UICONTROL 人員]**：符合訊息目標設定檔資格的使用者設定檔數目。
+
+* **[!UICONTROL 點進率]**：與訊息互動的使用者百分比。
+
+* **[!UICONTROL 點按]**：內容在訊息中的點按次數。
+
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 已傳遞]**：成功傳送的電子郵件數目，與已傳送的訊息總數相關。
+
+* **[!UICONTROL 退信]**：在傳送程式期間累積的錯誤總數，以及相對於已傳送訊息總數的自動傳回處理。
+
+* **[!UICONTROL 傳送錯誤]**：傳送程式期間發生的總錯誤數，使它無法傳送至設定檔。
+
+* **[!UICONTROL 傳送排除專案]**： Adobe Journey Optimizer已排除的設定檔數目。 [進一步瞭解排除專案的計算方式](exclusion-list.md#exclusion-list)。
+
++++
+
+## 追蹤的標籤 {#track-label-sms}
+
+**[!UICONTROL 追蹤的標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，並醒目提示產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
 +++ 深入瞭解追蹤的連結標籤量度
 
-* **[!UICONTROL 不重複點按]**：點按SMS訊息中內容的設定檔數目。
-
 * **[!UICONTROL 點按]**：內容在簡訊訊息中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
 
 +++
 
@@ -94,7 +112,7 @@ ht-degree: 3%
 
 +++ 深入瞭解追蹤的連結URL量度
 
-* **[!UICONTROL 不重複點按]**：點按SMS訊息中內容的設定檔數目。
+* **[!UICONTROL 不重複點按]**：至少在行動訊息中點選過一段內容的不重複設定檔數。
 
 * **[!UICONTROL 點按]**：內容在簡訊訊息中的點按次數。
 

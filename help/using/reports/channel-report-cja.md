@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 0%
+source-wordcount: 1209
+ht-degree: 1%
 
 ---
 
@@ -92,6 +82,8 @@ ht-degree: 0%
 
 +++ 進一步瞭解歷程量度
 
+* **[!UICONTROL 歷程參與]**：接收透過歷程傳送之訊息的不重複個人總數，代表到達歷程中指定動作點的不同設定檔。
+
 * **[!UICONTROL 歷程進入者]**：到達歷程進入事件的個人總數。
 
 * **[!UICONTROL 歷程結束]**：結束歷程的個人總數。
@@ -122,6 +114,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
 
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
 +++
 
 ## 管道 {#channel}
@@ -143,6 +137,8 @@ ht-degree: 0%
 * **[!UICONTROL 顯示]**：訊息開啟的次數。
 
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
 +++
 
@@ -166,7 +162,7 @@ ht-degree: 0%
 
 **[!UICONTROL 依規則集的歷程專案]**&#x200B;欄會顯示進入歷程的設定檔數目。 有三種入口型別：
 
-* **&#x200B;**&#x200B;[!UICONTROL 沒有衝突]&#x200B;**&#x200B;**：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
+* ****[!UICONTROL 沒有衝突]****：設定檔進入歷程時沒有任何規則集衝突。 沒有作用中的規則集可阻止此專案，且無論仲裁規則為何，都會發生歷程專案。
 
 * **較高優先順序**：設定檔進入歷程是因為其優先順序高於其他競爭歷程。 即使發生衝突（設定檔符合多個歷程的資格），但由於此歷程的優先順序分數較高，所以被選取。
 
