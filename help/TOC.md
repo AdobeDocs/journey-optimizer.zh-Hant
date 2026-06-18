@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [文件更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[改善的歷程畫布](using/rn/new-canvas.md)
 + 開始使用 {#get-started}
-   + [開始使用](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[入門中心](using/start/onboarding-hub.md)
+   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
+   + [入門中心](using/start/onboarding-hub.md)
    + 基本要點 {#essentials}
       + [什麼是 Journey Optimizer？](using/start/get-started.md)
       + [了解其運作原理](using/start/understanding-ajo.md)
       + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
-      + {hide-from-toc}[此工作的哪個功能？](using/start/ajo-use-case-guide.md)
+      + [此工作的哪個功能？](using/start/ajo-use-case-guide.md)
       + [護欄與限制](using/start/guardrails.md)
       + {hide-from-toc}[封裝和功能](using/start/ajo-packages.md)
       + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
