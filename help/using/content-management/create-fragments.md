@@ -9,26 +9,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1029
 ht-degree: 19%
 
 ---
@@ -56,6 +45,8 @@ ht-degree: 19%
 片段可從左側&#x200B;**[!UICONTROL 片段]**&#x200B;功能表從頭建立。 此外，您也可以在設計內容時，將現有內容的一部分儲存為片段。 [了解作法](save-fragments.md#)
 
 儲存後，您的片段即可用於歷程、行銷活動或範本。 在歷程和行銷活動中建置任何內容時，可以使用此片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)。
+
+➡️ [管理您的Adobe Experience Manager內容片段](../integrations/aem-fragments-manage.md)，以在&#x200B;**[!UICONTROL AEM片段]**&#x200B;索引標籤上檢視同步的片段、參考、標籤和手動同步。
 
 若要建立片段，請遵循以下步驟。
 
