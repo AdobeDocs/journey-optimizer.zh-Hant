@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18cd98d012910264c321de3677970212c658236e
+source-git-commit: 2d30d88bf4aa099a05b467d5b9878daa0118c31e
 workflow-type: tm+mt
-source-wordcount: 3672
+source-wordcount: 3720
 ht-degree: 25%
 
 ---
@@ -133,6 +133,11 @@ ht-degree: 25%
 </tr>
 </tbody>
 </table>
+
+
+* **直接停止或關閉暫停的歷程** — 您現在可以&#x200B;**直接從**&#x200B;暫停&#x200B;**狀態停止歷程或將其關閉到新入口**。 之前，暫停的歷程必須恢復為上線，然後才能停止或關閉。 [閱讀更多](../building-journeys/journey-pause.md#stop-close-paused)
+
+  推出日期： 2026年6月17日
 
 * **外部客群的補充識別碼支援** - 歷程中的補充識別碼現在支援外部客群，包括從 CSV 檔案匯入的客群和使用聯合客群構成建立的客群。 您可以從客群中指定任何非身分屬性或非個人身分屬性作為補充識別碼，不需要結構描述標籤。 [閱讀更多](../building-journeys/supplemental-identifier.md)
 

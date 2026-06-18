@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1241
 ht-degree: 2%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 2%
 如果您需要終止即時歷程，建議[您手動將其關閉](#close-to-new-entrances)。 接著，新客戶進入歷程時會被封鎖。 已進入歷程的個人檔案能夠體驗到結尾。
 
 您也可以[停止歷程](#stop-journey)，但僅限於緊急情況下且必須立即結束所有歷程處理時。 已進入歷程的人員都在進度中停止。
+
+>[!NOTE]
+>
+>您可以同時從&#x200B;**即時**&#x200B;和&#x200B;**已暫停**&#x200B;狀態關閉或停止歷程。 在停止暫停的歷程或將其關閉到新入口之前，不需要繼續該歷程。 [進一步瞭解暫停的歷程](journey-pause.md#stop-close-paused)。
 
 >[!IMPORTANT]
 >

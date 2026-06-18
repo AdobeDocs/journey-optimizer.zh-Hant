@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2780
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 5%
 >title="暫停您的歷程"
 >abstract="暫停已上線的歷程可防止新的輪廓進入。 目前在歷程中的輪廓可以被捨棄，也可將其保留。 若要保留，一旦歷程重新開始，輪廓將在下一個動作活動中繼續執行。 非常適合更新或緊急停止的情況使用，不會遺失任何進度。"
 
-您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續進行。
+您可以隨時暫停即時歷程、執行所有需要的變更，然後再次繼續。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 在暫停期間，您可以[套用設定檔屬性退出條件](#journey-exit-criteria)，以根據其屬性排除設定檔。 歷程會在暫停期間結束時自動繼續。 您也可以[手動](#journey-resume-steps)繼續，或[停止或直接關閉新入口](#stop-close-paused)，而不先繼續。
 
 ## 主要優點 {#journey-pause-benefits}
 
@@ -141,6 +141,25 @@ ht-degree: 5%
 
 
 從歷程清單中，您可以繼續一或多個&#x200B;**已暫停**&#x200B;歷程。 若要繼續歷程群組（_大量繼續_），請選取它們並按一下畫面底部藍色列中的&#x200B;**繼續**&#x200B;按鈕。 請注意，**繼續**&#x200B;按鈕只有在選取&#x200B;**已暫停**&#x200B;歷程時才可用。
+
+## 停止或關閉暫停的歷程 {#stop-close-paused}
+
+您可以直接從&#x200B;**已暫停**&#x200B;狀態停止暫停的歷程或將其關閉到新入口。 之前，暫停的歷程必須先恢復為&#x200B;**即時**，然後才能停止或關閉。
+
+在暫停的歷程中，您可以：
+
+* **[!UICONTROL 靠近新入口]**：新設定檔無法再進入歷程，而已輸入的設定檔可以完成其路徑。 [進一步瞭解關閉歷程](end-journey.md#close-journey)。
+* **[!UICONTROL 停止]**：所有歷程處理都會立即結束，而且仍在歷程中的設定檔在其進度中會停止。 [進一步瞭解停止歷程](end-journey.md#stop-journey)。
+
+若要停止或關閉暫停的歷程，請遵循下列步驟：
+
+1. 開啟暫停的歷程。
+1. 按一下歷程畫布右上角的&#x200B;**...更多**&#x200B;按鈕，然後選取&#x200B;**[!UICONTROL 停止]**&#x200B;或&#x200B;**[!UICONTROL 關閉新入口]**。
+1. 在對話方塊中確認。
+
+>[!CAUTION]
+>
+>您無法重新啟動或刪除[已關閉](end-journey.md#close-journey)或[已停止](end-journey.md#stop-journey)歷程。 您可以[建立其新版本](publish-journey.md#journey-versions)或[複製它](journey-ui.md#duplicate-a-journey)。
 
 ## 檢視歷程何時暫停或繼續 {#view-pause-resume-info}
 
