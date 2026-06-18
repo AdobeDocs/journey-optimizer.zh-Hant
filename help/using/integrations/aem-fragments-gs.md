@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
 workflow-type: tm+mt
-source-wordcount: 296
-ht-degree: 16%
+source-wordcount: 319
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 16%
 >
 >對於醫療保健客戶，只有在授權Journey Optimizer Healthcare Shield和Adobe Experience Manager增強式安全性附加方案後，才會啟用整合。
 
-透過將 Adobe Experience Manager as a Cloud Service 與 Adobe Journey Optimizer 整合在一處，您可以立即將 AEM 內容片段順利整合到 Journey Optimizer 內容當中。 已簡化的連線可以簡化存取，並運用 AEM 內容的程式，讓您建立個人化的動態行銷活動和歷程。
+將&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;與Adobe Journey Optimizer整合後，您便可以在歷程與行銷活動中使用AEM內容片段。 對於&#x200B;**[!DNL Adobe Experience Manager Managed Service]**，整合支援&#x200B;**AEM長期支援(LTS) SP2**&#x200B;上的&#x200B;**作者**&#x200B;和&#x200B;**發佈**&#x200B;層；此版本中不提供來自Adobe Experience Manager的即時更新。 請連絡您的Adobe Managed Services代表以進行執行個體設定，然後[設定Adobe Experience Manager存放庫存取權](aem-admin-settings.md)以新增您的Managed Services存放庫。
 
 若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
 
@@ -53,6 +53,6 @@ ht-degree: 16%
 
 內容是在&#x200B;**製作層級**&#x200B;上建立和管理的，其中片段可以具有狀態，例如，新增、草稿、已發佈、已修改或已取消發佈。 這些狀態僅適用於&#x200B;**作者階層**，並支援內容建立和檢閱。
 
-發佈內容片段時，會在&#x200B;**發佈階層**&#x200B;上建立復本，並透過公開、未驗證的端點公開。 Journey Optimizer只與此&#x200B;**發佈階層**&#x200B;整合。
+發佈內容片段時，會在&#x200B;**發佈階層**&#x200B;上建立復本，並透過公開、未驗證的端點公開。 對於&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**，Journey Optimizer支援與&#x200B;**作者階層**&#x200B;和&#x200B;**發佈階層**&#x200B;整合。
 
 因此，Journey Optimizer只會顯示已發佈或已修改的內容片段，並一律使用最新發佈的版本。 發佈後所做的任何變更，在重新發佈內容片段之前都不會反映在Journey Optimizer中。

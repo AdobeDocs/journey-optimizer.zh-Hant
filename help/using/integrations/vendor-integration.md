@@ -11,7 +11,7 @@ keywords: 整合，廠商，協力廠商
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
 workflow-type: tm+mt
 source-wordcount: 10185
 ht-degree: 5%
@@ -1208,6 +1208,10 @@ Marigold會公開忠誠度和參與API；主機會因地理位置而異（歐盟
 Adobe Target包含適用於伺服器端或整合式體驗的建議與傳送API，但須視權利而定。
 
 典型的使用案例包括將建議插入您在Journey Optimizer中撰寫的體驗，以及將索引鍵與設定檔或Experience Platform內容對齊。
+
+<!--
+➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
+-->
 
 >[!ENDSHADEBOX]
 

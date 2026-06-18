@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1029
 ht-degree: 19%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 19%
 片段可從左側&#x200B;**[!UICONTROL 片段]**&#x200B;功能表從頭建立。 此外，您也可以在設計內容時，將現有內容的一部分儲存為片段。 [了解作法](save-fragments.md#)
 
 儲存後，您的片段即可用於歷程、行銷活動或範本。 在歷程和行銷活動中建置任何內容時，可以使用此片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)。
+
+➡️ [管理您的Adobe Experience Manager內容片段](../integrations/aem-fragments-manage.md)，以在&#x200B;**[!UICONTROL AEM片段]**&#x200B;索引標籤上檢視同步的片段、參考、標籤和手動同步。
 
 若要建立片段，請遵循以下步驟。
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
+source-git-commit: 18cd98d012910264c321de3677970212c658236e
 workflow-type: tm+mt
-source-wordcount: 3659
+source-wordcount: 3672
 ht-degree: 25%
 
 ---
@@ -423,8 +423,6 @@ ht-degree: 25%
 
 此版本即將推出下列功能和改善專案以進行內容管理和整合。
 
-+++ 即將推出 — **下列資訊可能會變更。**
-
 <table>
 <thead>
 <tr>
@@ -443,10 +441,14 @@ ht-degree: 25%
 <li>現在，Adobe Journey Optimizer存取Adobe Experience Manager內容的方式有了彈性。 此發行版本引進了針對您的歷程與行銷活動中使用的內容片段<strong>切換來源存放庫</strong>的功能。</li>
 <li>現在與<b>Managed Services</b>相容，您可以直接在Journey Optimizer中檢視、存取及使用Adobe Experience Manager內容片段，以進行個人化。 只需在組態設定中新增Adobe Experience Manager Managed Services存放庫URL，作為一次性設定即可。</li>
 </ul>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-fragments-gs.md">詳細文件</a>。</p>
+<p>推出日期： 2026年6月18日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ 即將推出 — **下列資訊可能會變更。**
 
 <table>
 <thead>

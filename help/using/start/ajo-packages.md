@@ -9,7 +9,7 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，套件，授權，行銷活動，歷程，頻道，決策，傳出，行動，網頁，模組化， sms， mms， whatsapp，附加元件，選擇， prime， ultimate，舊版
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 2%
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 +++**行銷活動與歷程之間有何差異？**
 
-**行銷活動**&#x200B;是以對象為基礎，由行銷人員規劃 — 您可以定義對象、建立訊息，並以批次傳送方式排程或觸發。 它們最適合用於促銷外聯、電子報和多步驟受眾工作流程。
+**[行銷活動](../campaigns/get-started-with-campaigns.md)**&#x200B;是以對象為基礎，由行銷人員規劃 — 您可以定義對象、建立訊息，並以批次傳送方式排程或觸發。 它們最適合用於促銷外聯、電子報和多步驟受眾工作流程。
 
-**歷程**&#x200B;是即時且以事件導向 — 他們會對發生的個別客戶行為做出反應，並在接觸點間協調1:1體驗。 它們最適合用於上線流程、購買後序列和即時觸發訊息。
+**[歷程](../building-journeys/journey-gs.md)**&#x200B;是即時且以事件導向 — 他們會對發生的個別客戶行為做出反應，並在接觸點間協調1:1體驗。 它們最適合用於上線流程、購買後序列和即時觸發訊息。
 
 **行銷活動和歷程**&#x200B;提供您單一授權中的兩項功能。
 
@@ -65,8 +65,8 @@ ht-degree: 2%
 
 | 基本優惠方案 | 最適合 | 核心行為 |
 |-----------|---------|--------------|
-| **Journey Optimizer — 行銷活動** | 批次、行銷人員規劃的外聯活動 | 以對象為基礎、排程的協調流程。 批次參與和行銷人員計畫外聯的單一步或多步驟行銷活動工作流程。 |
-| **Journey Optimizer — 歷程** | 即時客戶參與 | 事件導向，1:1協調流程。 支援即時和已排程的歷程傳遞。 |
+| **[Journey Optimizer — 行銷活動](../campaigns/get-started-with-campaigns.md)** | 批次、行銷人員規劃的外聯活動 | 以對象為基礎、排程的協調流程。 批次參與和行銷人員計畫外聯的單一步或多步驟行銷活動工作流程。 |
+| **[Journey Optimizer — 歷程](../building-journeys/journey-gs.md)** | 即時客戶參與 | 事件導向，1:1協調流程。 支援即時和已排程的歷程傳遞。 |
 | **Journey Optimizer — 行銷活動和歷程** | 同時需要兩者的客戶 | 結合受眾型行銷活動協調與即時歷程協調。 |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ ht-degree: 2%
 
 | | Journey Optimizer — 行銷活動 | Journey Optimizer — 歷程 | Journey Optimizer — 行銷活動和歷程 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| 受眾型批次協調 | ✓ | 有限¹ | ✓ |
-| 即時事件導向式協調 | — | ✓ | ✓ |
+| [以對象為基礎的批次協調](../campaigns/get-started-with-campaigns.md) | ✓ | 有限¹ | ✓ |
+| [即時事件導向的協調流程](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 異動訊息（電子郵件、推播、簡訊） | ✓ | ✓ | ✓ |
-| 可用的管道附加元件 | ✓ | ✓ | ✓ |
-| 可用的決策附加元件 | ✓ | ✓ | ✓ |
+| [可用的頻道附加元件](#channel-addons) | ✓ | ✓ | ✓ |
+| [可用的決策附加元件](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹在&#x200B;**Journey Optimizer - Journeys**&#x200B;中，僅歷程使用案例才支援受眾型協調，不支援作為獨立批次行銷活動。
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 透過傳出訊息通道觸及對象。
 
-**包含：**&#x200B;電子郵件、推播通知、直接郵件
+**包含：** [電子郵件](../email/get-started-email.md)，[推播通知](../push/get-started-push.md)，[直接郵件](../direct-mail/get-started-direct-mail.md)
 
 **典型使用案例：**&#x200B;促銷電子郵件、異動推播警示、實體郵件行銷活動
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 透過工作階段中和持續性行動體驗，與應用程式使用者互動。
 
-**包含：**&#x200B;應用程式內訊息、推播通知、內容卡、行動介面的程式碼型頻道
+**包含：** [應用程式內傳訊](../in-app/get-started-in-app.md)、[推播通知](../push/get-started-push.md)、[內容卡](../content-card/get-started-content-card.md)、[行動介面的程式碼型頻道](../code-based/get-started-code-based.md)
 
 **典型使用案例：**&#x200B;上線流程、功能公告、忠誠度提示、即時應用程式內優惠
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 個人化Web體驗，無需部署程式碼。
 
-**包含：**&#x200B;網頁管道（視覺化與非視覺化編輯器）、網頁介面的程式碼型管道
+**包含：** [網頁管道](../web/get-started-web.md) （視覺化與非視覺化編輯器），[網頁介面的程式碼型管道](../code-based/get-started-code-based.md)
 
 **典型使用案例：**&#x200B;首頁橫幅、登陸頁面個人化、A/B測試、透過API的Headless網頁個人化
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 **所有管道**&#x200B;附加元件可在單次購買中套件組合傳出傳遞+行動+網頁。
 
-**包含：**&#x200B;三個個別附加元件的每個頻道 — 電子郵件、推播通知、直接郵件、應用程式內傳訊、內容卡、Web頻道和程式碼型頻道
+**包含：**&#x200B;來自三個個別附加元件的每個頻道 — [電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[直接郵件](../direct-mail/get-started-direct-mail.md)、[應用程式內傳訊](../in-app/get-started-in-app.md)、[內容卡](../content-card/get-started-content-card.md)、[網頁頻道](../web/get-started-web.md)和[程式碼型頻道](../code-based/get-started-code-based.md)
 
 **典型使用案例：**&#x200B;跨外寄、行動應用程式和網頁的協調全通路程式 — 例如，在電子郵件後面加上應用程式內訊息和個人化Web橫幅的行銷活動
 
@@ -174,11 +174,11 @@ ht-degree: 2%
 
 | 功能 | 行銷活動 | 歷程 | 行銷活動和歷程 |
 |-----------|:---------:|:--------:|:--------------------:|
-| 異動訊息（電子郵件、推播、簡訊） | ✓ | ✓ | ✓ |
-| 批次行銷活動 | ✓ | — | ✓ |
-| 協調的行銷活動&#x200B;_（電子郵件、簡訊、推播、僅限直接郵件）_ | ✓ | — | ✓ |
-| 自動化歷程 | — | ✓ | ✓ |
-| 即時事件觸發器 | — | ✓ | ✓ |
+| 異動訊息（[電子郵件](../email/get-started-email.md)，[推播](../push/get-started-push.md)，[簡訊](../mobile/get-started-mobile.md)） | ✓ | ✓ | ✓ |
+| [批次行銷活動](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md) _（電子郵件、簡訊、推播、僅直接郵件）_ | ✓ | — | ✓ |
+| [自動化歷程](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [即時事件觸發器](../event/about-events.md) | — | ✓ | ✓ |
 
 ### 管道和進階功能 {#channel-capabilities}
 
@@ -186,17 +186,17 @@ ht-degree: 2%
 
 | 功能 | 可用性 | 需要附加元件 |
 |-----------|-------------|----------------|
-| 電子郵件 | 所有基本優惠方案 | 傳出傳遞 |
-| 推播通知 | 所有基本優惠方案 | 傳出傳遞 |
-| 直接郵件 | 所有基本優惠方案 | 傳出傳遞 |
-| 簡訊/多媒體簡訊 | 根據您的授權設定 | 根據您的授權設定 |
-| 應用程式內傳訊 | 所有基本優惠方案 | Mobile |
-| 內容卡 | 所有基本優惠方案 | Mobile |
-| 網頁管道 | 所有基本優惠方案 | 網頁 |
-| 程式碼型體驗 | 所有基本優惠方案 | 行動或網頁 |
-| WhatsApp | 根據您的授權設定 | WhatsApp |
-| 決策 | 取決於授權 | 決策 |
-| AI支援排名 | 取決於授權 | 決策 |
+| [電子郵件](../email/get-started-email.md) | 所有基本優惠方案 | 傳出傳遞 |
+| [推播通知](../push/get-started-push.md) | 所有基本優惠方案 | 傳出傳遞 |
+| [直接郵件](../direct-mail/get-started-direct-mail.md) | 所有基本優惠方案 | 傳出傳遞 |
+| [簡訊/多媒體簡訊](../mobile/get-started-mobile.md) | 根據您的授權設定 | 根據您的授權設定 |
+| [應用程式內傳訊](../in-app/get-started-in-app.md) | 所有基本優惠方案 | 行動 |
+| [內容卡](../content-card/get-started-content-card.md) | 所有基本優惠方案 | 行動 |
+| [網路頻道](../web/get-started-web.md) | 所有基本優惠方案 | 網頁 |
+| [程式碼型體驗](../code-based/get-started-code-based.md) | 所有基本優惠方案 | 行動或網頁 |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | 根據您的授權設定 | WhatsApp |
+| [決策](../experience-decisioning/gs-experience-decisioning.md) | 取決於授權 | 決策 |
+| [由AI支援的排名](../offers/ranking/ai-models.md) | 取決於授權 | 決策 |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ ht-degree: 2%
 
 +++**協調的行銷活動支援哪些管道？**
 
-協調的行銷活動（使用行銷活動協調功能的多步驟對象工作流程）僅支援&#x200B;**電子郵件、簡訊、推播通知和直接郵件**。 協調的行銷活動工作流程不支援Web、應用程式內、程式碼和內容卡通道。
+[協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md) （使用行銷活動協調功能的多步驟對象工作流程）僅支援&#x200B;**電子郵件、簡訊、推播通知和直接郵件**。 協調的行銷活動工作流程不支援Web、應用程式內、程式碼和內容卡通道。
 
 +++
 
