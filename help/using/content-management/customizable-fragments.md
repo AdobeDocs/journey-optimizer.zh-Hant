@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 12%
+source-wordcount: 1658
+ht-degree: 5%
 
 ---
 
@@ -85,6 +75,45 @@ ht-degree: 12%
 >[!CAUTION]
 >
 >當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 [進一步瞭解追蹤](../email/message-tracking.md)
+
+## 在可自訂的視覺片段中啟用RTF編輯 {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="舊版片段"
+>abstract="此片段中的可編輯欄位處於純文字模式。 這表示您在電子郵件中編輯此片段時只能輸入純文字，不支援完整格式選項，例如粗體、斜體、超連結和分行符號。 在電子郵件中使用片段時，按一下「啟用<b></b>」以允許可編輯欄位中的RTF文字。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="舊版片段"
+>abstract="這個可編輯欄位為僅限文字模式。 完整的格式選項（粗體、斜體、超連結、分行符號等） 在片段升級為RTF模式之前無法使用。 前往片段內文設定，然後按一下<b>啟用</b>以解除鎖定可編輯欄位中的RTF文字。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="舊版片段"
+>abstract="此片段中的可編輯欄位處於純文字模式。 完整的格式選項（粗體、斜體、超連結、分行符號等） 在片段升級為RTF模式之前無法使用。 若要解除鎖定此模式，請開啟片段編輯器並按一下[啟用]。<b></b>"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
+
+可自訂的視覺化片段現在原生支援RTF文字<!--— including bold, italic, line breaks, and hyperlinks —-->。
+
+當電子郵件中使用可自訂的視覺片段時，您可以直接在片段的&#x200B;**[!UICONTROL 文字]**、**[!UICONTROL 按鈕]**&#x200B;和&#x200B;**[!UICONTROL Html]**&#x200B;元件的任何可編輯欄位中，運用完整的格式選項，例如粗體、斜體、分行符號、專案符號清單和超連結。 [瞭解如何自訂可編輯的欄位](../email/use-visual-fragments.md#customize-fields)
+
+不過，如果您在引進RTF功能之前已建立片段並定義可編輯欄位，可編輯欄位預設會設為純文字模式。
+
+* 片段編輯器中會顯示相容性警告。
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  若要在電子郵件中使用片段時，為這些可編輯欄位解鎖RTF模式，請按一下&#x200B;**啟用**&#x200B;按鈕並儲存片段。
+
+* 將片段新增至電子郵件後，在電子郵件Designer中選取片段時也會顯示相容性警告。
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  若要將片段升級為RTF模式，請使用&#x200B;**開啟片段**&#x200B;按鈕來存取片段編輯器，然後按一下&#x200B;**啟用**&#x200B;按鈕並儲存片段。
+
+在RTF模式解除鎖定之前，舊版可自訂的視覺片段仍僅支援純文字。 使用者無法在這些片段的可編輯欄位中輸入RTF文字。
 
 ## 將可編輯的欄位新增至HTML元件和運算式片段 {#expression}
 
@@ -167,78 +196,62 @@ ht-degree: 12%
 
    ![](assets/fragment-expression-use.png)
 
-## 在可自訂的片段中新增豐富文字 {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="舊版片段"
->abstract="此片段中的可編輯欄位處於純文字模式。 這表示在電子郵件中編輯此片段時只能輸入純文字；不支援粗體、斜體、超連結和換行符號等 RTF 文字。 在電子郵件中使用片段時，按一下「<b>切換至 HTML 模式</b>」，以便在可編輯欄位中使用 RTF 文字。"
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="舊版片段"
->abstract="這個可編輯欄位為僅限文字模式。 RTF 文字格式 (粗體、斜體、超連結、換行符號等) 在片段升級為 HTML 相容模式之前無法使用。 前往片段內文設定，然後按一下「<b>切換至 HTML 模式</b>」以啟用 RTF 文字編輯。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="舊版片段"
->abstract="此片段中的可編輯欄位處於純文字模式。 RTF 文字格式 (粗體、斜體、超連結、換行符號等) 在片段升級為 HTML 相容模式之前無法使用。 若要升級，開啟片段編輯器然後按一下「<b>切換至 HTML 模式</b>」。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
-
-RTF文字（例如分行符號、粗體、斜體等）可以使用HTML元件新增到可自訂的片段中。 若要執行此操作，請遵循下列步驟。
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### 建立包含RTF文字的片段 {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. 建立視覺化[片段](create-fragments.md)並開始新增元件。
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. 新增[HTML元件](../email/content-components.md#HTML)並開啟HTML編輯器。
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. 導覽至左側導覽窗格中的&#x200B;**[!UICONTROL 協助程式功能]**&#x200B;功能表，然後新增&#x200B;**內嵌**&#x200B;協助程式功能。
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. 將`"name"`取代為您要用於可編輯內容的ID，例如&quot;EditableContent&quot;。
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. 將`render_content`取代為您想要的預設豐富內容所對應的HTML程式碼。 您可以新增粗體、斜體、分行符號、專案符號清單等。
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. 在同一HTML元件中，為您的樣式元素新增另一個&#x200B;**內嵌**&#x200B;協助程式函式。
+    ![](assets/fragment-rich-editable-content.png)
 
-1. 以與您想要的預設樣式相對應的ID和HTML程式碼取代`"name"`和`render_content`。
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. 儲存您的內容。 選取的可編輯欄位會顯示在右側。
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. 儲存並[發佈](create-fragments.md#publish)片段。
+    ![](assets/fragment-rich-editable-fields.png)
 
-### 在可自訂片段中使用RTF文字 {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-將片段新增至電子郵件時，您現在可以編輯您所建立的RTF文字內容和樣式。 行銷人員請遵循下列步驟。
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. [在行銷活動或歷程中建立電子郵件](../email/create-email.md)，然後新增包含[已建立](#add-rich-text)之RTF文字的片段。
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   您可以在右側看到已建立的兩個可編輯欄位。
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. 使用任一模擬方法來檢視可編輯的內容和樣式呈現方式：按一下「模擬內容」**[!UICONTROL 以測試包含範例輸入資料或AI自動產生的內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「**[!UICONTROL 模擬內容（AEP設定檔）」]**，以使用測試設定檔預覽。 **&#x200B;**&#x200B;[進一步瞭解預覽內容](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 選取其中一個可編輯欄位旁的&#x200B;**[!UICONTROL 新增個人化]**&#x200B;圖示。
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. 在開啟的個人化編輯器中，新增或移除可編輯欄位的元素，視需要更新<!--CSS-->樣式和/或內容。
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464379/?captions=chi_hant&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

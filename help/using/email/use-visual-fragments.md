@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1236
 ht-degree: 1%
 
 ---
@@ -90,43 +76,38 @@ ht-degree: 1%
 1. 從&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤，您可以：
 
    * 選擇您要顯示片段的裝置。
-   * 視需要在新索引標籤中開啟片段以編輯。 [了解更多](../content-management/fragments.md#fragments)
+   * 在新索引標籤中開啟片段，並視需要加以編輯。 [了解更多](../content-management/manage-fragments.md#edit-fragments)
    * 探索引用。 [了解更多](../content-management/fragments.md#visual-expression)
-
-1. 您可以使用&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤進一步自訂您的片段。
 
 1. 如有需要，您可以中斷具有原始片段的繼承。 [了解更多](#break-inheritance)
 
+   解除鎖定後，您可以進一步將片段自訂為任何其他元件，並使用&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤。
+
 1. 新增您想要的片段數，然後&#x200B;**[!UICONTROL 儲存]**&#x200B;您的變更。
 
-### 在片段中使用動態內容時的限制 {#fragment-dynamic-content}
+## 管理片段中的條件式內容 {#fragment-dynamic-content}
+
+使用包含條件式內容的視覺片段時，請遵循下列准則。 [進一步瞭解動態內容](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->使用包含動態內容（條件內容）的片段時，請注意以下限制：
+>**不支援包含條件內容的巢狀片段。** 您不能將包含條件內容的片段放在也包含條件內容的已解除鎖定片段內。 此不受支援的設定可能導致：
 >
->**不支援使用動態內容巢狀片段。** 您無法將包含動態內容的片段放置在也包含動態內容的已解鎖片段中。 此不受支援的設定可能導致：
->
->* 遺失條件式內容對應
+>* 遺失條件內容變體對應
 >* 電子郵件Designer中的相容性模式警告
 >* 不一致的電子郵件呈現
->
->**建議的方法：**&#x200B;當您在電子郵件中使用多個具有動態內容的片段時，請在電子郵件層級將每個片段直接新增到自己的結構區塊中。 這可確保正常運作並防止上述問題。
 
-## 具有動態內容之片段的最佳實務 {#fragment-best-practices}
+**正確建構您的電子郵件：**&#x200B;使用具有條件內容的多個片段時，請在電子郵件層級將每個片段直接新增到其自己的結構區塊中。 避免在其他也包含條件內容的解除鎖定片段中，巢狀內嵌有條件內容的片段。
 
-使用視覺片段和動態內容（條件式內容）時，請遵循下列最佳作法：
+**預先規劃：**&#x200B;在將片段新增至您的電子郵件之前，請先識別哪些片段包含條件式內容，並據此規劃您的版面。 這有助於防止設定問題，並確保從一開始就是乾淨的結構。
 
-* **正確建構您的電子郵件**：使用包含動態內容的片段建置電子郵件時，請在電子郵件層級將每個片段新增到專屬的結構區塊中。 避免將包含動態內容的片段巢狀內嵌在其他也包含動態內容的已解鎖片段中。
+**仔細設計可重複使用的片段：**&#x200B;建立包含條件式內容的片段時，請考慮其使用方式。 如果片段需要巢狀內嵌於其他片段中，請避免同時新增條件式內容至父片段和子片段。
 
-* **提前計畫**：在將片段新增至您的電子郵件之前，請先識別哪些片段包含動態內容，並據此計畫您的版面。 這有助於防止設定問題，並確保從一開始就是乾淨的結構。
+**疑難排解：**&#x200B;如果您遇到條件式內容變體對應或相容性模式警告遺失的情況，請遵循下列步驟。
 
-* **仔細設計可重複使用的片段**：建立包含動態內容的片段時，請考慮其使用方式。 如果片段需要巢狀內嵌在其他片段中，請避免將動態內容新增到父片段和子片段。
-
-* **疑難排解**：如果您遺失條件式內容對應或相容性模式警告：
-   * 檢查包含動態內容的巢狀片段的電子郵件結構
-   * 透過在電子郵件層級將每個包含動態內容的片段移動到其自己的結構區塊中來重新構建
-   * 儲存並驗證條件式內容對應是否已正確還原
+* 檢查您的電子郵件結構，找出包含條件式內容的巢狀片段
+* 透過在電子郵件層級將每個具有條件內容的片段移動到其自己的結構區塊中來重新構建
+* 儲存並確認條件式內容變體已正確還原
 
 ## 使用隱含變數 {#implicit-variables-in-fragments}
 
@@ -136,25 +117,45 @@ ht-degree: 1%
 
 ## 自訂可編輯欄位 {#customize-fields}
 
-如果所選片段的某些部分已變為可編輯，您可以在將片段新增到內容中後覆寫其預設值。 [瞭解如何使您的片段可自訂](../content-management/customizable-fragments.md)
+如果所選片段的某些部分已變為可編輯，您可以在將片段新增到內容中後覆寫其預設值。 [瞭解如何使片段可自訂](../content-management/customizable-fragments.md)
 
-若要自訂片段中可編輯的欄位，請遵循下列步驟：
+若要自訂電子郵件所用片段中的可編輯欄位，請按照以下步驟操作。
 
-1. 將片段新增至您的內容。
+1. 新增可自訂的片段至您的電子郵件內容，並選取它以開啟右側的&#x200B;**[!UICONTROL 片段]**&#x200B;窗格。
 
-1. 選取它以開啟右側的屬性窗格。
+1. 片段中所有可編輯的欄位都會顯示在&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤中的片段屬性下。
 
-   片段中的所有可編輯欄位會顯示在&#x200B;**片段**&#x200B;區段下的&#x200B;**設定**&#x200B;標籤中。
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. 當您在右窗格中選取可編輯的欄位時，它會在中央預覽窗格中以綠色反白顯示，讓您輕鬆識別它在內容中的位置。
+1. 將滑鼠懸停在中央畫布中的任何可編輯欄位上。 欄位會以綠色反白，按一下其中包含的文字時，會出現一個鉛筆圖示。
 
-   在下列範例中，可以編輯影像&#x200B;**來源**&#x200B;和&#x200B;**替代文字**，以及[按一下這裡]按鈕&#x200B;**URL**。
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. 直接在中心電子郵件Designer畫布上內嵌編輯欄位文字。
+
+   >[!NOTE]
+   >
+   >若要輕鬆找到內容中的可編輯欄位，您也可以從右側窗格中選取它們，但您只能在中央畫布中編輯這些欄位。
+
+1. 針對&#x200B;**[!UICONTROL Text]**、**[!UICONTROL Button]**&#x200B;和&#x200B;**[!UICONTROL Html]**&#x200B;元件，電子郵件Designer工具列也可存取RTF格式選項 — 粗體、斜體、超連結等等。
+
+   ![電子郵件Designer工具列中的RTF格式選項](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >在匯入RTF編輯功能之前建立的片段，其可編輯欄位預設為純文字模式。 若要啟用完整的格式選項，請使用&#x200B;**[!UICONTROL 開啟片段]**&#x200B;按鈕移至片段編輯器，按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;以解鎖RTF模式並&#x200B;**[!UICONTROL 儲存]**&#x200B;片段。 [了解更多](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. 在以下範例中，您可以編輯影像來源和替代文字，以及「標題」/「副標題」欄位和「更多資訊」按鈕URL。
+
+   ![](assets/fragment-editable-fields.png)
+
+1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。 [進一步瞭解預覽內容](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 [進一步瞭解追蹤](../email/message-tracking.md)
+>當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 [進一步瞭解追蹤](message-tracking.md)
 
 ## 中斷繼承 {#break-inheritance}
 

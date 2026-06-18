@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
+source-wordcount: 3646
 ht-degree: 25%
 
 ---
@@ -340,12 +328,31 @@ ht-degree: 25%
 
   推出日期：2026 年 6 月 1 日
 
-+++ 即將推出 — **下列資訊可能會有變更。**
+<table>
+<thead>
+<tr>
+<th><strong>片段可編輯欄位中的RTF文字</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。</p>
+<p>例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md#rich-text-visual">詳細文件</a>。</p>
+<p>推出日期：2026年6月底</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ 即將推出 — **下列資訊可能會變更。**
 
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件Designer中的內容品質檢查</strong><br/></th>
+<th><strong>電子郵件Designer中的內容檢查</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +377,6 @@ ht-degree: 25%
 <td>
 <p>Journey Optimizer現在包含一個選項，可移除不必要的空格、評論和重複程式碼，進而縮小電子郵件的HTML大小，而不會影響電子郵件的呈現方式。</p>
 <p>這可避免某些電子郵件提供者用來標幟或拒絕訊息的大小臨界值，且可縮短收件者的載入時間，藉此改善傳遞能力。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>片段可編輯欄位中的RTF文字</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以新增RTF文字至您的電子郵件內容中所使用的可自訂片段。</p>
-<p>例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。</p>
 </td>
 </tr>
 </tbody>
