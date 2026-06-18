@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 90129e95b6df57ff93dcccde14b83ac2f2e14cf1
 workflow-type: tm+mt
-source-wordcount: 3672
+source-wordcount: 3682
 ht-degree: 25%
 
 ---
@@ -215,6 +215,8 @@ ht-degree: 25%
 
 * **動態專案屬性** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。
 
+  推出日期： 2026年6月22日
+
 +++
 
 ### 內容管理 {#june-26-content}
@@ -379,6 +381,10 @@ ht-degree: 25%
 </tbody>
 </table>
 
+* **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
+
+  推出日期： 2026年6月18日
+
 +++ 即將推出 — **下列資訊可能會變更。**
 
 <table>
@@ -413,9 +419,6 @@ ht-degree: 25%
 </tr>
 </tbody>
 </table>
-
-
-* **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
 
 +++
 
