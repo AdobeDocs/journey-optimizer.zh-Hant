@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 93%
+source-wordcount: 389
+ht-degree: 88%
 
 ---
 
@@ -44,7 +36,7 @@ ht-degree: 93%
 
 推播通知可協助您隨時聯絡行動應用程式使用者，尤其是當使用者目前未使用您的應用程式或瀏覽您的網站時。 推播通知可協助您達成各種使用案例，例如提供服務的更新、要求使用者採取動作、提醒使用者留意新交易等。裝置平台要求選擇加入，一般使用者才能接收或檢視您的通知。 使用者選擇加入的時間，最早可在應用程式於安裝後首次啟動後收到，或在後續的工作階段或工作流程收到。
 
-[!DNL Journey Optimizer] 支援推播通知，並協助您以領先業界的輸送率傳送高度相關的通知。 推播通知可能包括個人化及歷程型內容，以便利用您的品牌透過 Adobe Experience Cloud 獲得的資料洞察。
+[!DNL Journey Optimizer] 支援推播通知，並協助您以領先業界的輸送率傳送高度相關的通知。 推播通知可能包括個人化和歷程型內容，以利用您的品牌對[!DNL Adobe CX Enterprise]的資料深入分析。
 
 可建立的推播通知：
 
