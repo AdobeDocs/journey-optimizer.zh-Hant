@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 95%
+source-wordcount: 821
+ht-degree: 87%
 
 ---
 
@@ -85,17 +85,25 @@ ht-degree: 95%
 
    ![](assets/email_designer_create_options.png)
 
-1. 一旦定義並個人化您的電子郵件內容，您就可以匯出內容以供驗證或稍後使用。 按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
+1. 定義並個人化您的電子郵件內容後，您就可以使用&#x200B;**自動化內容檢查**&#x200B;來驗證您的電子郵件內容，以便在傳送之前直接在編寫面板中偵測HTML和CSS問題，例如不支援的標籤、空白div和大小限制違規。 [了解更多](content-check.md)
 
-   ![](assets/email_designer_export.png)
+   ![電子郵件Designer中有問題的內容檢查窗格](assets/content-check.png)
 
 1. 您也可以驗證內容品質，找出可讀性、內容一致性和有效性方面的潛在問題。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
+
+   ![](../content-management/assets/brand-score-7.png)
+
+1. 最後，您可以匯出內容以供驗證或稍後使用。 按一下&#x200B;**[!UICONTROL 匯出 HTML]** 以在您的電腦儲存包含您的 HTML 及資產的 zip 檔。
+
+   ![](assets/email_designer_export.png)
 
 ## 電子郵件設計最佳實務 {#best-practices}
 
 傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。 使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
-若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
+若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。
+
+無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
 
 請參閱下方表格，即可瞭解電子郵件設計的最佳實務：
 
