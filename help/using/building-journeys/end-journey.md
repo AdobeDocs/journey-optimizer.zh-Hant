@@ -10,23 +10,15 @@ keywords: 重新進入、歷程、結束、即時、停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1266
 ht-degree: 2%
 
 ---
@@ -119,6 +111,8 @@ ht-degree: 2%
 
 手動關閉歷程可確保已進入歷程的客戶完成其路徑，但新使用者無法進入歷程。 歷程關閉時（基於上述任何原因），其狀態為&#x200B;**[!UICONTROL 已關閉]**。 歷程停止讓新個人進入歷程。 已在歷程中的設定檔可以正常完成歷程。 預設全域逾時91天後，歷程將切換為&#x200B;**已完成**&#x200B;狀態。
 
+您可以從&#x200B;**即時**&#x200B;或&#x200B;**已暫停**&#x200B;狀態停止歷程。 當歷程為&#x200B;**已暫停**&#x200B;時，您不需要先將其恢復為&#x200B;**即時**。 [進一步瞭解如何停止暫停的歷程](journey-pause.md#stop-close-paused)。
+
 若要從歷程清單關閉歷程，請按一下歷程名稱右側的&#x200B;**[!UICONTROL 省略符號]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 關閉新入口]**。
 
 ![結束歷程的快速動作功能表中的完成動作下拉式清單](assets/journey-finish-quick-action.png)
@@ -136,6 +130,8 @@ ht-degree: 2%
 ## 停止歷程 {#stop-journey}
 
 如果您需要停止歷程中所有個人的進度，可以停止它。 停止歷程逾時歷程中的所有個人。 但是，停止歷程涉及已經進入歷程的人都在他們的進度中停止。 歷程已基本關閉。 如果您想要結束歷程，最佳實務是[關閉歷程](#close-journey)。
+
+您也可以直接停止&#x200B;**已暫停**&#x200B;歷程，而不需先將其恢復為&#x200B;**即時**。 [了解更多](journey-pause.md#stop-close-paused)。
 
 例如，如果行銷人員發現歷程鎖定了錯誤的對象，或應該傳送訊息的自訂動作無法正常運作，則可以停止歷程。 若要從歷程清單停止歷程，請按一下歷程名稱右側的&#x200B;**[!UICONTROL 省略符號]**&#x200B;按鈕，並選取&#x200B;**[!UICONTROL 停止]**。
 
@@ -162,3 +158,4 @@ ht-degree: 2%
 * [設定檔入口管理](entry-management.md) — 設定設定檔進入歷程的方式
 * [設定退出條件](journey-properties.md#exit-criteria) — 設定從歷程自動移除設定檔
 * [暫停歷程](journey-pause.md) — 暫時停止歷程執行
+* [停止或關閉暫停的歷程](journey-pause.md#stop-close-paused) — 結束暫停的歷程，但不先繼續
