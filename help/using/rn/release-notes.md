@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 3751
+source-wordcount: 3758
 ht-degree: 25%
 
 ---
@@ -211,9 +211,11 @@ ht-degree: 25%
 </tbody>
 </table>
 
-+++ 即將推出 — **下列資訊可能會變更。**
+* **在決定中利用Adobe Experience Manager內容片段** — 您現在可以將Adobe Experience Manager內容片段對應到決定中的決定專案，並在決定政策中利用這些內容片段，在適當的時間將適當的片段提供給適當的客戶。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 [閱讀更多](../experience-decisioning/fragments-decision-policies.md)
 
-* **在決定中利用Adobe Experience Manager內容片段** — 您現在可以將Adobe Experience Manager內容片段對應到決定中的決定專案，並在決定政策中利用這些內容片段，在適當的時間將適當的片段提供給適當的客戶。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。
+  推出日期： 2026年6月18日
+
++++ 即將推出 — **下列資訊可能會變更。**
 
 * **動態專案屬性** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。
 

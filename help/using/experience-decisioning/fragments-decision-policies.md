@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 1%
+source-wordcount: 1744
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->此功能在具有Decisioning支援的輸出管道的「有限可用性」中可用。 如欲請求存取權，請和您的 Adobe 代表聯絡。
+>此功能適用於支援決策的傳出頻道。
 
 在決定原則中運用AEM內容片段之前，請確定您具備：
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 在此範例中，決定原則包含兩個決定專案，這些決定專案有AEM片段透過其參考名稱繫結至它們。
 
-![](assets/aem-fragment-select.png)
+![Personalization編輯器在決定原則中顯示每個片段索引鍵名稱可用的AEM內容片段。](assets/aem-fragment-select.png)
 
 1. 按一下+按鈕，將所需的片段新增至運算式中。
 
@@ -181,9 +181,112 @@ ht-degree: 1%
 
 1. 選取片段後，您可以利用其屬性（例如影像URL、文字欄位或其他內容），並使用「決策」在適當的時間將適當的內容呈現給適當的客戶。
 
-   ![](assets/aem-fragment-attribute.png)
+   ![可在決定原則運算式中用於個人化的已選取AEM內容片段屬性。](assets/aem-fragment-attribute.png)
 
-1. 在啟用行銷活動或歷程之前，請使用模擬方法來預覽AEM內容片段欄位值將如何呈現：按一下「模擬內容」**[!UICONTROL 以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用特定測試設定檔預覽。**&#x200B;**&#x200B;**&#x200B;[進一步瞭解模擬內容](../content-management/preview-test.md)
+1. 在啟用您的行銷活動或歷程之前，請使用任一模擬方法來預覽AEM內容片段欄位值將如何呈現。 [進一步瞭解模擬內容](../content-management/preview-test.md)
+
+### 跨頻道使用AEM內容片段 {#aem-fragments-channels}
+
+如何從決定原則插入AEM內容片段屬性，取決於您使用的管道。
+
+>[!BEGINTABS]
+
+>[!TAB 電子郵件]
+
+若要使用決定原則將AEM內容片段屬性插入電子郵件：
+
+1. 在電子郵件Designer中開啟您的電子郵件草稿，然後按一下右側邊欄中的&#x200B;**[!UICONTROL 決策]**&#x200B;圖示以開啟決策原則面板。
+1. 選取您組裝的選取策略，並指定&#x200B;**位置**&#x200B;以定義將填入優惠方案的電子郵件區域。
+1. 按一下&#x200B;**+**&#x200B;圖示，然後從AEM內容片段中選取應在該區域中呈現的特定欄位，例如主圖影像URL欄位。
+
+   ![電子郵件Designer決定原則面板，其中包含已選取用於版位的AEM內容片段欄位。](assets/aem-fragment-email.png)
+
+1. 發佈之前，請按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以預覽結果，並驗證最高優先順序的選件及其內容片段是否如測試設定檔所預期般轉譯。
+
+>[!TAB 程式碼型體驗(JSON)]
+
+建置JSON型程式碼型體驗時，使用以下結構從決定原則轉譯AEM內容片段屬性。
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>AEM內容片段使用`aemContentReferencesMap`透過參考索引鍵查詢片段。 這與用於Journey Optimizer內容片段的`contentReferencesMap`不同。
+
+建置JSON裝載時，請記得下列事項：
+
+* 將JSON陣列括弧`[`與`]`放在`#each`回圈的&#x200B;**外部**。
+* 對JSON字串內的欄位值使用&#x200B;**三大括弧** `{{{ }}}`可防止HTML逸出特殊字元，並確保有效的JSON輸出。
+* `result='YOUR_REFERENCE_KEY'`引數會擷取該名稱下的已解析片段內容，以便您可以使用`YOUR_REFERENCE_KEY.fieldName`參考其欄位。
+
+![程式碼型體驗編輯器顯示從JSON的決定原則轉譯的AEM內容片段屬性。](assets/aem-fragments-cbe.png)
+
+>[!TAB 程式碼型體驗(HTML)]
+
+對於以HTML為基礎的程式碼體驗，請使用標準雙大括弧來轉譯欄位：
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### 使用來自AEM內容片段的資產 {#aem-cf-assets}
+
+AEM內容片段可能包含參照儲存在AEM中之資產的影像欄位。 由於Journey Optimizer只會接收這些資產的&#x200B;**相對路徑**，因此除非在完整發佈URL前面加上，否則影像無法載入。
+
+>[!NOTE]
+>
+>尚不支援內容片段內AEM資產參考的原生解析。 在新增該支援之前，以下方法都是可用的解決方法。
+
+>[!BEGINTABS]
+
+>[!TAB 在AEM發佈網域前面加上]
+
+1. 從您的AEM執行個體URL，識別作者網域，例如`author-p12345-e67890.adobeaemcloud.com`。
+
+   ![AEM執行個體URL顯示用來衍生髮佈網域的作者網域。](assets/aem-fragment-author-domain.png)
+
+1. 以`publish`取代`author`以取得發佈網域： `publish-p12345-e67890.adobeaemcloud.com`。
+
+1. 在Journey Optimizer個人化編輯器中，將該發佈網域附加至內容片段中的資產參考欄位。
+
+   ![Personalization編輯器，在內容片段資產參考欄位前面加上AEM發佈網域。](assets/aem-fragment-publish-domain.png)
+
+影像現在會在傳送時解析為完整發佈URL。
+
+>[!TAB 將發佈URL儲存在文字欄位中]
+
+1. 在AEM中開啟您的內容片段。
+1. 前往JSON預覽並檢查&#x200B;**參考**&#x200B;區段以找出已發佈的資產URL。
+
+   ![顯示已發佈資產URL的AEM內容片段JSON預覽參考區段。](assets/aem-fragment-published-url.png)
+
+1. 複製發佈URL並將其貼到內容片段內的專用文字欄位中。
+
+   ![包含所參考資產之複製發佈URL的AEM內容片段文字欄位。](assets/aem-fragment-copy-url.png)
+
+1. 在Journey Optimizer中，直接將該文字欄位作為個人化運算式中的影像來源參考。
+
+   ![將內容片段文字欄位做為影像來源的Journey Optimizer個人化運算式。](assets/aem-fragment-use-url.png)
+
+此方法可避免手動URL建構，並將發佈URL保留在內容片段本身內。
+
+>[!ENDTABS]
 
 ## 作法影片 {#video}
 
