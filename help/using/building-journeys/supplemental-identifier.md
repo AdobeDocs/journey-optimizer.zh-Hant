@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 2041
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="使用補充識別碼"
->abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。 若要定義它，請從對象或事件中選取任何非身分屬性（或非個人身分），以作為補充識別碼。"
+>abstract="補充識別碼是次要識別碼，提供更多有關歷程執行方式的背景資訊。 若要定義它，請從客群或事件中選取任何非身分識別屬性 (或非人員身分識別)，以用作補充識別碼。"
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
