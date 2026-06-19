@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 2176
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL 模擬]**&#x200B;中的任何歷程上，**[!UICONTROL 快速模擬]**&#x200B;會使用產生的使用者、事件值和預先填入的設定來執行歷程。
 
+
 1. 選取&#x200B;**[!UICONTROL 快速模擬]**。
 
 1. 檢閱Adobe Journey Optimizer為執行收集的欄位。 按一下&#x200B;**[!UICONTROL 更新值]**&#x200B;以變更測試設定和執行位址，或繼續而不變更。
@@ -61,6 +62,10 @@ ht-degree: 0%
    ![收集資訊步驟上的[快速模擬]對話方塊，包含[更新]值並繼續進行下一個步驟](assets/quick-simulation-2.png)
 
 1. 如果您開啟&#x200B;**[!UICONTROL 更新值]**，請編輯設定，例如用於訊息校訂的地址，然後確認開始模擬。
+
+   >[!NOTE]
+   >
+   >預先填寫的執行電子郵件和電話欄位來自您Adobe IMS使用者設定檔上的電子郵件地址和電話號碼。
 
    ![快速模擬更新值步驟包含等待時間覆寫和校訂電子郵件和電話欄位](assets/quick-simulation-3.png)
 
@@ -91,6 +96,10 @@ ht-degree: 0%
    Adobe Journey Optimizer會從歷程定義產生一組模擬使用者。
 
    對於具有電子郵件、推播或簡訊節點的歷程，AI會提示您確認要使用的電子郵件地址或電話號碼。 系統會使用這些定義的值產生模擬使用者。 完成後，按一下&#x200B;**[!UICONTROL 產生]**。
+
+   >[!NOTE]
+   >
+   >電子郵件和電話欄位已預先填寫您的Adobe IMS使用者設定檔。
 
    ![使用執行電子郵件和電話欄位以及[產生]按鈕來產生模擬使用者對話方塊](assets/simulate-generate.png)
 
@@ -124,15 +133,41 @@ ht-degree: 0%
 
       ![建立具有重複內容的模擬使用者卡片、套用所有屬性至其他使用者，以及刪除每個使用者](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
    +++ 從JSON建立
 
-   使用您的模擬使用者資料更新對應欄位，以定義新的模擬使用者。
+   在&#x200B;**[!UICONTROL 建立模擬使用者]**&#x200B;中，編輯JSON範本以定義使用者，然後按一下&#x200B;**[!UICONTROL 設定JSON格式]**&#x200B;和&#x200B;**[!UICONTROL 儲存]**。
 
    ![使用使用者範本和格式JSON控制項建立模擬使用者JSON編輯器](assets/simulate-json.png)
+
+   若要在[!DNL Adobe Experience Platform]中重複使用設定檔或[測試設定檔](../audience/creating-test-profiles.md)的屬性值：
+
+   1. 瀏覽至要做為參照的設定檔。 在設定檔詳細資訊頁面上，按一下&#x200B;**[!UICONTROL 檢視JSON]**。 [了解更多](../audience/get-started-profiles.md)
+
+      在Adobe Experience Platform中![設定檔JSON檢視](assets/simulate-json-1.png)
+
+   1. 從檢視器複製JSON。
+
+   1. 在歷程中，開啟&#x200B;**[!UICONTROL 模擬設定]**，開始&#x200B;**[!UICONTROL 建立模擬使用者]**，然後選擇&#x200B;**從JSON建立**。
+
+   1. 將JSON貼到模擬使用者範本的相符部分（例如，一個使用者的屬性區塊）。 按一下&#x200B;**[!UICONTROL 格式化JSON]**&#x200B;以驗證結構。
+
+      ![使用貼上的設定檔屬性建立模擬使用者JSON編輯器](assets/simulate-json-2.png)
+
+   1. 移除[!DNL Adobe Experience Platform]設定檔上僅繫結至來源設定檔的屬性，例如mergePolicyId或lastModifiedAt。
+
+   1. 設定模擬使用者範本所需的欄位： **[!UICONTROL 顯示名稱]**、**[!UICONTROL 身分名稱空間]**、身分值和頻道執行位址。
+
+   1. 按一下「**[!UICONTROL 儲存]**」。 在您執行&#x200B;**[!UICONTROL 模擬]**&#x200B;之前，使用已儲存模擬使用者上的![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg)來檢閱資料。
+
+      ![使用使用者範本和格式JSON控制項建立模擬使用者JSON編輯器](assets/simulate-json-3.png)
+
+      >[!WARNING]
+      >
+      >如果您貼上設定檔JSON，請移除或取代所有生產識別碼和聯絡視窗（電子郵件、電話、ECID、推播權杖等）。 模擬會使用您提供的資料傳送訊息。
 
    +++
 
@@ -147,7 +182,7 @@ ht-degree: 0%
 
    ![測試使用者清單，其中包含在畫布上反白顯示的編輯、傳送及移除動作和模擬路徑](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![使用新增使用者選項開啟管理使用者功能表，並清除所有使用者](assets/simulate-manage.png)
 
