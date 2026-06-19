@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 身為&#x200B;**行銷人員**&#x200B;或&#x200B;**業務人員**，您需要設計客戶歷程，以為客戶提供個人化的內容體驗。 您可以建立並管理這些個人化歷程的所有不同元件，包括電子郵件和推播訊息、產品建議以及決策元件，以智慧地個人化訊息內容。 Journey Optimizer 提供統一的使用者體驗，您可在同一處實作完整的端到端使用案例。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
 
+>[!NOTE]
+>
+>**實作順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) → [開發人員](developer.md) →您在這裡： **行銷人員**
+>
+>在建立歷程之前，請確認[環境設定](administrator.md)和[資料設定](data-engineer.md)已完成。
+
 ## 要點快速入門
 
-Journey Optimizer 可在單一應用程式中，整合即時客戶洞察、現代全管道協調流程和智慧決策。 跨電子郵件、簡訊、推播、網頁推播、應用程式內、網頁、直接郵件、內容卡等建立個人化、連線的客戶體驗。
-
-Journey Optimizer 提供兩種強大的協調方法：
-
-* **歷程**：即時、一對一的互動，每個客戶以自己的步調前進，由行為或事件觸發
-* **協調的行銷活動**：大規模複雜的多步驟批次行銷活動，透過工作流程讓多個客群保持同一進度，非常適合品牌啟動的行銷活動，例如季節性促銷活動、產品推出或帳戶型通訊
+>[!NOTE]
+>
+>不熟悉Journey Optimizer？ 在開始本指南之前，請先閱讀[什麼是Journey Optimizer](../get-started.md)。
 
 請與您的[管理員](administrator.md)合作以取得存取權，並與[資料工程師](data-engineer.md)合作以設定客群、資料和關聯式結構描述以進行進階細分。 檢視[開始使用資料管理](../../data/gs-data.md)概觀，以瞭解需要哪些資料設定，然後才能建立歷程和行銷活動。
 
@@ -235,3 +238,14 @@ Journey Optimizer 提供兩種強大的協調方法：
 2. **利用 AI**：使用 AI 助理提出問題並加快內容建立
 3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](administrator.md) |
+| 資料工程師 | [資料工程師快速入門](data-engineer.md) |
+| Developer | [開發人員快速入門](developer.md) |
+| 行銷人員 | [行銷人員快速入門](marketer.md) |
+
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

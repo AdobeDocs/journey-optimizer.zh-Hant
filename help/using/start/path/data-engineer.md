@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 作為&#x200B;**資料架構者**&#x200B;或&#x200B;**資料工程師**，您可以設定、維護客戶輪廓資料和其他資料來源，以便支援 [!DNL Journey Optimizer] 協調的體驗。 這包括將所有客戶、企業資料，不論是來自網頁、客戶關係管理，或是離線來源，都能一併整合入客戶統一的 360 度視圖中。 您可以將客戶設定檔資料、企業資料模型化為結構描述、設定來源連接器，以便擷取資料，同時確認資料流程順暢無阻，即可啟用即時客戶洞察、參與度。 當[系統管理員](administrator.md)授與您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
+
+>[!NOTE]
+>
+>**實作順序：** [管理員](administrator.md) →您在這裡： **資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
+>
+>先完成[系統管理員設定](administrator.md)，再開始資料基礎工作。
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ ht-degree: 97%
 * 支援進階使用案例的多實體細分
 
 >[!ENDTABS]
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](administrator.md) |
+| 資料工程師 | [資料工程師快速入門](data-engineer.md) |
+| Developer | [開發人員快速入門](developer.md) |
+| 行銷人員 | [行銷人員快速入門](marketer.md) |
+
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

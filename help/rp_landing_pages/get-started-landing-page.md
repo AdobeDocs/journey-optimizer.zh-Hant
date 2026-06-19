@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: 開始使用
-description: 開始使用 Adobe Journey Optimizer
+description: 從這裡開始 — 啟動和執行Adobe Journey Optimizer所需的一切。
+role: User, Admin, Developer
+level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 81%
 
 ---
 
 # 開始使用 Adobe Journey Optimizer{#get-started}
 
-Adobe Journey Optimizer 可讓您從單一應用程式跨每個管道大規模提供個人化的即時客戶體驗。如此一來，有意義的品牌體驗就能提升客戶忠誠度和終身價值。
+無論您是Journey Optimizer的新手還是回訪以探索新功能，此頁面都是您的起點。 選擇適合您的角色和目標的路徑。
 
-無論您是 Journey Optimizer 的新手還是希望擴展技能的經驗豐富使用者，本節都將為您提供快速有效地入門所需的一切。
-
-## 從基本要點開始 {#essentials}
+## 不熟悉Journey Optimizer？ {#essentials}
 
 了解 Adobe Journey Optimizer 的基礎知識，以及它如何實現大規模的資料導向個人化。
 
@@ -114,6 +114,62 @@ AI 與智慧功能
 
 [檢視所有角色和職責 →](../using/start/quick-start.md)
 
+## 探索使用案例 {#explore-use-cases}
+
+不確定從何處開始？ 尋找符合目標的功能。
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+
+為您的目標尋找合適的功能
+
+依業務目標瀏覽使用案例，並跳至建議的Journey Optimizer功能。
+
+[探索使用案例](../using/start/ajo-use-case-guide.md)
+:::
+
+::::
+
+## 已經上線了嗎？ {#already-onboarded}
+
+直接跳到您進行日常工作的區域。
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+
+歷程
+
+[設計歷程並傳送訊息](../using/building-journeys/journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+
+行銷活動
+
+[開始使用行銷活動](../using/campaigns/get-started-with-campaigns.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+
+內容管理
+
+[設計內容](content-management-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+
+報表
+
+[使用即時報告監視效能](../using/reports/live-report.md)
+:::
+
+::::
+
 ## 高效工作 {#work-efficiently}
 
 掌握介面並利用智慧功能來加快工作速度。
@@ -168,15 +224,6 @@ AI 與智慧功能
 * **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
 * **[文件更新](../using/rn/documentation-updates.md)** - 隨時了解文件的最新變更和新增內容
 
-## 準備好開始使用了嗎？
-
-選擇適合您的路徑：
-
-* **剛開始使用 Journey Optimizer？**&#x200B;首先學習[「什麼是 Journey Optimizer？」](../using/start/get-started.md)以瞭解基本知識
-* **知道您的角色嗎？**&#x200B;跳轉到符合您職責的[角色特定指南](../using/start/quick-start.md)
-* **想要探索嗎？**&#x200B;瀏覽 [AI 功能](../using/start/ai-features.md)或嘗試[使用案例教戰手冊](../using/start/ai-features.md#playbooks)
-* **需要協助嗎?**&#x200B;請檢視[疑難排解指南](../using/start/troubleshooting.md)或造訪[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}
-
 ## 快速連結 {#quick-links}
 
 使用這些重要指南立即開始建立：
@@ -193,3 +240,7 @@ AI 與智慧功能
 >[!NOTE]
 >
 >您的環境可用元件和功能取決於您的[權限](../using/administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有關於特定設定的問題，請聯絡您的 Adobe 客戶成功經理。
+
+## 正在尋找實作順序嗎？
+
+如果您的團隊是第一次設定Journey Optimizer，請參閱[角色和責任](../using/start/quick-start.md)，以瞭解所有角色的建議操作順序。

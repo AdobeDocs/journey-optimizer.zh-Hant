@@ -3,7 +3,7 @@ title: 開發人員快速入門
 description: 作為資料工程師，深入瞭解如何使用 Journey Optimizer
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 身為&#x200B;**開發人員**，您負責實作 [!DNL Adobe Journey Optimizer] 並將其整合至您的應用程式與系統。 一旦[系統管理員](administrator.md)及[資料工程師](data-engineer.md)授予您存取權限並準備好您的環境，您就可以開始使用 [!DNL Adobe Journey Optimizer]。
+
+>[!NOTE]
+>
+>**實作順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) →您在這裡： **開發人員** → [行銷人員](marketer.md)
+>
+>在實作您的行動裝置和網頁整合之前，請確定已設定[資料結構描述和事件](data-engineer.md)。
 
 ## 您在 Journey Optimizer 生態系統中的角色
 
@@ -316,3 +322,14 @@ Journey Optimizer 提供完整的 REST API 以便進行程式化存取：
 4. **自訂系統？** 查看[自訂動作](#custom-actions)
 
 每個區段都包含詳細技術文件、程式碼範例和教學課程的連結，以指導您的實作。
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](administrator.md) |
+| 資料工程師 | [資料工程師快速入門](data-engineer.md) |
+| Developer | [開發人員快速入門](developer.md) |
+| 行銷人員 | [行銷人員快速入門](marketer.md) |
+
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

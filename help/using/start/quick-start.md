@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 角色與職責
-description: 了解 Adobe Journey Optimizer 中涉及的不同角色及其職責
+title: 角色和責任 |Adobe Journey Optimizer
+description: 瞭解Adobe Journey Optimizer的角色、責任及建議實作順序。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer 可讓品牌在整個客戶歷程中提供連線、內容相關且個人化的體驗。 Journey Optimizer 以端到端的規模、速度和靈活性為中心打造，將三個主要的價值驅動因素結合在統一的應用程式中：
+Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對應每個角色的職責，並提供詳細快速入門手冊的連結。
 
-* **即時客戶洞察和參與**，由 Adobe 的即時客戶輪廓提供支援
-* 透過統一畫布 (針對即時歷程和批次行銷活動) 以及現代訊息設計工具進行&#x200B;**現代全管道協調**
-* 透過決策管理和 AI/ML 功能進行&#x200B;**智慧決策與個人化**
-
-Journey Optimizer 提供兩種主要方法來觸及和吸引客戶：
-
-* **歷程** — 即時、一對一的協調流程，每個客戶以自己的步調前進，由行為或事件觸發。 最適合入門序列、購物車放棄和生命週期參與。
-* **行銷活動** — 根據您的使用案例，提供三種傳送模式的客群型傳訊：
-   * **動作行銷活動** — 已排程或週期性訊息一次性傳送給定義的客群。 最適合於電子報、促銷公告和產品推出。
-   * **API 觸發的行銷活動** — 由外部系統透過 API 觸發的隨選訊息。 最適合用於訂單確認、運送警示和帳戶通知等交易型訊息。
-   * **協調的行銷活動** — 具有多實體細分和畫布型執行的複雜批次工作流程。 最適合季節性促銷、多步驟批次方案，以及需要確切預先傳送計數的行銷活動。
-
-此統一體驗可讓您在一個地方實作整個使用案例，從定義客群和設計歷程到建立個人化內容和分析結果。 本文件說明有效使用 Journey Optimizer 的主要角色、其職責以及如何開始使用。
+>[!NOTE]
+>
+>不熟悉Journey Optimizer？ 從[Journey Optimizer](get-started.md)開始。
 
 **重要注意事項：** Adobe Journey Optimizer 定義具有特定職責的不同角色。 視您的組織結構而定，個人可以執行多個角色或所有角色。
 
@@ -295,3 +285,12 @@ Journey Optimizer 提供兩種主要方法來觸及和吸引客戶：
 * [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]
+
+## 角色指南 {#role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](path/administrator.md) |
+| 資料工程師 | [資料工程師快速入門](path/data-engineer.md) |
+| Developer | [開發人員快速入門](path/developer.md) |
+| 行銷人員 | [行銷人員快速入門](path/marketer.md) |

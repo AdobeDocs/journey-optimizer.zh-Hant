@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 93%
 
 ---
 
@@ -48,6 +48,12 @@ ht-degree: 97%
 您的主要職責包括設定使用者群組和權限，建立並管理沙箱，以便劃分不同使用者群組的資料和歷程，同時設定傳遞管道、訊息預設集，才能確保有透過 Journey Optimizer 傳遞各種訊息和資產，具備前後一致的品牌形象。 您會確保合適的人員擁有合適的能力，同時維護資安和治理。
 
 這些功能可由具有存取權限產品的&#x200B;**[!UICONTROL 產品系統管理員]**&#x200B;加以管理。 [進一步了解權限](../../administration/permissions.md){target="_blank"}。
+
+>[!NOTE]
+>
+>**實作順序：**&#x200B;您在這裡： **管理員** → [資料工程師](data-engineer.md) → [開發人員](developer.md) → [行銷人員](marketer.md)
+>
+>管理員會先設定環境。 資料工程師、開發人員和行銷人員需先完成此工作，才能開始作業。
 
 ## 設定存取權和權限
 
@@ -163,3 +169,14 @@ ht-degree: 97%
 1. **驗證設定**：確認所有團隊成員都可以存取其必要的功能
 2. **監視使用情況**：使用管理儀表板追蹤系統使用情況並識別問題
 3. **維持權限**：隨著團隊角色發生變化，定期檢閱和更新權限
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](administrator.md) |
+| 資料工程師 | [資料工程師快速入門](data-engineer.md) |
+| Developer | [開發人員快速入門](developer.md) |
+| 行銷人員 | [行銷人員快速入門](marketer.md) |
+
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

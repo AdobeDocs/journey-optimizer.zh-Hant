@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0563b1a3101cf0511d725b55ad7cbdfb60ef786a
+source-git-commit: 7bd8036e51649105a2e235a2e99fd32d98a0ef37
 workflow-type: tm+mt
 source-wordcount: '3364'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
    + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [入門中心](using/start/onboarding-hub.md)
    + 基本要點 {#essentials}
-      + [什麼是 Journey Optimizer？](using/start/get-started.md)
+      + [什麼是Journey Optimizer](using/start/get-started.md)
       + [了解其運作原理](using/start/understanding-ajo.md)
       + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
