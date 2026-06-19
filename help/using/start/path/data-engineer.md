@@ -8,31 +8,16 @@ role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +30,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 作為&#x200B;**資料架構者**&#x200B;或&#x200B;**資料工程師**，您可以設定、維護客戶輪廓資料和其他資料來源，以便支援 [!DNL Journey Optimizer] 協調的體驗。 這包括將所有客戶、企業資料，不論是來自網頁、客戶關係管理，或是離線來源，都能一併整合入客戶統一的 360 度視圖中。 您可以將客戶設定檔資料、企業資料模型化為結構描述、設定來源連接器，以便擷取資料，同時確認資料流程順暢無阻，即可啟用即時客戶洞察、參與度。 當[系統管理員](administrator.md)授與您存取權限並準備好您的環境，您就可以開始使用[!DNL Adobe Journey Optimizer]。
+
+>[!NOTE]
+>
+>**實作順序：** [管理員](administrator.md) →您在這裡： **資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
+>
+>先完成[系統管理員設定](administrator.md)，再開始資料基礎工作。
 
 >[!NOTE]
 >
@@ -135,3 +126,14 @@ ht-degree: 97%
 * 支援進階使用案例的多實體細分
 
 >[!ENDTABS]
+
+## 其他角色指南 {#other-role-guides}
+
+| 角色 | 指南 |
+|------|-------|
+| 管理員 | [管理員開始使用](administrator.md) |
+| 資料工程師 | [資料工程師快速入門](data-engineer.md) |
+| Developer | [開發人員快速入門](developer.md) |
+| 行銷人員 | [行銷人員快速入門](marketer.md) |
+
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)
