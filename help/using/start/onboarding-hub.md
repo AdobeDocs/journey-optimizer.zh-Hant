@@ -39,7 +39,7 @@ rebuild
 
 如果您有10分鐘，請從此方向影片開始。 它會逐步解說介面，並依角色強調主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
 
 然後，利用這些學習資源建立實作信心：
 
