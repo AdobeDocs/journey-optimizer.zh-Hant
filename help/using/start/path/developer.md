@@ -286,26 +286,26 @@ Journey Optimizer 提供完整的 REST API 以便進行程式化存取：
 * 呼叫的&#x200B;**逾時為60秒**；內部重試處理未預期的逾時。
 * 如果設定了行銷活動的開始/結束日期，則這些日期以外的API呼叫將失敗。
 * 若要建置您的裝載，請在Journey Optimizer UI中，從您即時行銷活動的&#x200B;**cURL請求**&#x200B;區段中擷取產生的範例cURL請求，此區段包含該行銷活動的所有個人化變數。
-* 標準和[高輸送量行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)使用不同的端點。
+* 標準和[高輸送量行銷活動](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-high-throughput)使用不同的端點。
 
-[API參考](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [程式碼範例](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [使用API觸發的行銷活動](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+[API參考](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [程式碼範例](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [使用API觸發的行銷活動](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### 外部端點的上限和節流 {#capping-throttling}
 
 當歷程透過自訂動作或資料來源呼叫外部系統時，上限和節流API可保護這些系統避免過載。 上限會拒絕超過設定限制的呼叫；節流會將它們排入最多6小時的佇列（僅限生產沙箱、自訂動作）。
 
-[上限API參考](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [使用上限API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [使用節流API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
+[上限API參考](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [使用上限API](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/connect-systems/external-systems/capping) · [使用節流API](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/connect-systems/external-systems/throttling)
 
 ### 更多REST API {#more-rest-apis}
 
 | 您需要做什麼 | API 參考 |
 | ------------------- | ------------- |
-| 以程式設計方式排除要傳送的電子郵件地址或網域 | [隱藏API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [管理隱藏清單](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
+| 以程式設計方式排除要傳送的電子郵件地址或網域 | [隱藏API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [管理隱藏清單](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list) |
 | 擷取歷程中繼資料以進行稽核或外部同步 | [歷程API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 從外部管道建立和管理內容範本和片段 | [內容API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [範本](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [片段](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/fragments) |
+| 從外部管道建立和管理內容範本和片段 | [內容API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [範本](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-templates/content-templates) · [片段](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/fragments/fragments) |
 | 擷取及篩選動作行銷活動 | [行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 預覽行銷活動並以程式設計方式傳送校樣 | [模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| 驗證資料集並觸發協調的行銷活動執行 | [資料集驗證](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [觸發器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [啟用資料集](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
+| 驗證資料集並觸發協調的行銷活動執行 | [資料集驗證](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [觸發器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [啟用資料集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/schemas-datasets/manual-schema) |
 
 ## 其他資源 {#additional-resources}
 
