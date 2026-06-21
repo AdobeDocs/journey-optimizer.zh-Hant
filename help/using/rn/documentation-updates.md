@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,13 @@ ht-degree: 94%
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
-## 2026年6月 {#june-2026}
+## 2026 年 6 月 {#june-2026}
+
+* 新的&#x200B;**開始使用Adobe Journey Optimizer**&#x200B;上線中心現已推出。 新使用者可以依角色選擇路徑、探索基礎知識，或跳至已上線的日常區域，而不需要知道該先前往何處。 [閱讀更多](../../rp_landing_pages/get-started-landing-page.md)
+
+* 從您的目標&#x200B;**開始的全新**&#x200B;頁面可讓您從您想要達成的目標開始，而不是從功能名稱開始。 此維度會將業務目標對應至設定、歷程、行銷活動、個人化、決策和報表中建議的Journey Optimizer功能。 [閱讀更多](../start/ajo-use-case-guide.md)
+
+* 更新&#x200B;**開發人員快速入門**&#x200B;角色指南，每個區段的簡介更清楚，並改善&#x200B;**跨參考歷程及重要實作頁面連結的角色共同作業**&#x200B;標籤。 [閱讀更多](../start/path/developer.md)
 
 * 已在&#x200B;**路徑實驗**&#x200B;檔案中新增歷程重新進入&#x200B;**子區段上的新**&#x200B;路徑指派。 它說明路徑指派會持續存在於相同歷程版本的多個入口中的設定檔，但僅限於該歷程版本。 發佈新歷程版本時，指派會重設，且歷程中的每個路徑實驗活動會套用獨立的隨機指派。 [閱讀更多](../building-journeys/path-experimentation.md#path-assignment)
 * 在[!DNL Journey Optimizer]檔案中，**Adobe Experience Cloud**&#x200B;的參考已與&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌一致。
