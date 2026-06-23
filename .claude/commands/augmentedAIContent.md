@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - 僅`+++`線上上關閉摺疊式功能表
 - 開頭`+++`之前和結尾`+++`之後的空白行
 
----
+&#x200B;---
 
 ## 工作流程
 
@@ -66,7 +66,7 @@ Content here — any standard markdown is valid.
 - 略過的檔案+原因（已有收合式選單/空白/索引頁面）
 - 在步驟2期間出現的任何驗證警告
 
----
+&#x200B;---
 
 ## 內容產生規則
 
@@ -176,7 +176,7 @@ For complete understanding, this information should be combined with the documen
 - 請&#x200B;**不**&#x200B;該頁面不支援的發明內容
 - 請&#x200B;**不**&#x200B;使用下列不精確的辭彙，除非它們一字不差地出現在頁面本文中：「合成」、「假資料」、「沒有真實資料」、「回覆」、「回覆」（描述產品狀態轉換時）
 
----
+&#x200B;---
 
 ## 產生後驗證檢查清單
 
@@ -198,7 +198,7 @@ For complete understanding, this information should be combined with the documen
 
 如果任何檢查失敗，請先更正摺疊式功能表，然後再附加。 在步驟4報表中記錄更正。
 
----
+&#x200B;---
 
 ## 同步處理責任
 
@@ -210,7 +210,7 @@ For complete understanding, this information should be combined with the documen
 
 在收合式選單(`<!-- ai-accordion-version -->`)之後附加的同步註解是訊號：如果收合式選單之前的檔案內容在寫入雜湊之後已變更，則收合式選單是可供檢閱的候選專案。
 
----
+&#x200B;---
 
 ## 完整範本
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## 附註
 
