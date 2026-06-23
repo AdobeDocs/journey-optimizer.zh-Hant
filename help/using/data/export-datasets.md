@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1228
 ht-degree: 5%
 
 ---
@@ -135,3 +135,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | 歷程步驟事件 | 擷取從Journey Optimizer產生並供Reporting等服務使用的所有歷程步驟體驗事件。 |
 | 歷程 | 中繼資料資料集存放歷程中每個步驟的資訊 |
 | ODE DecisionEvents - prod decisioning | 每當我們根據請求做出決定時，就會將其計為決定事件 |
+
+## 報告資料集和裝載中繼資料對應 {#reporting-payload-metadata-mapping}
+
+若要針對程式碼型體驗和決定回應建立自訂報表，請使用&#x200B;**`scopeDetails.correlationID`**&#x200B;將互動或意見回饋資料聯結至&#x200B;**AJO實體資料集**，並擷取促銷活動、歷程和訊息中繼資料。 使用&#x200B;**`exdRequestID`**&#x200B;將單一決定請求連結至分析事件。
+
+如果`correlationID`遺失（例如，保留對象），請使用匯出的資料集和記錄的加入金鑰，而非解碼未記錄的裝載欄位。 [實體資料集查詢範例](datasets-query-examples.md#entity-dataset)說明如何在`correlationID`上聯結。
