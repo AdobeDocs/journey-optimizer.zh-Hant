@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 874
-ht-degree: 10%
+source-wordcount: 1339
+ht-degree: 6%
 
 ---
 
@@ -201,3 +201,51 @@ ht-degree: 10%
 * **[運算式語法](generalities.md)** — 掌握撰寫歷程運算式的語法規則
 * **[運運算元](operators.md)** — 探索您可以與函式搭配使用以建置邏輯的運運算元
 * **[欄位參考](field-references.md)** — 瞭解如何在運算式中參考資料欄位
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面是Journey進階運算式編輯器中所有60個以上內建函式的分類參考，涵蓋彙總、轉換、日期/時間、清單、數學、字串和Adobe Experience Platform對象函式。
+
+**意圖：**
+
+* 瀏覽分類函式表，識別任務的正確函式
+* 使用轉換函式在字串、整數、小數、布林值、日期和持續時間之間轉換資料型別
+* 使用`inLastDays`、`inNextHours`和`nowWithDelta`之類的函式執行日期型篩選
+* 使用類似`contain`、`replace`、`split`和`trim`的函式操控及驗證字串值
+* 使用彙總函式（如`count`、`avg`、`sum`和`distinctCount`）對集合執行統計計算
+* 使用`inAudience`函式檢查歷程條件中的對象成員資格
+
+**字彙表：**
+
+* **彙總函式**：從值集合&#x200B;*（產品特定）*&#x200B;計算單一值（計數、總和、平均值、最小值、最大值）的函式
+* **轉換函式**：將值從一個資料型別轉換為另一個資料型別的函式（例如`toString`、`toDateTime`、`toDuration`） *（產品特定）*
+* **日期函式**：在歷程運算式&#x200B;*（產品特定）*&#x200B;中處理日期、時間和時區值的函式
+* **列出函式**：篩選、排序及分析陣列/集合資料的函式&#x200B;*（產品專屬）*
+* **inAudience**：檢查設定檔是否屬於指定Adobe Experience Platform對象區段&#x200B;*（產品專用）*&#x200B;的函式
+
+**護欄：**
+
+* 函式遵循一致的語法： `functionName(param1, param2, ...)`
+* 函式可以有多個簽名（不同的引數集）以處理不同的使用案例
+* 每個函式都有固定的傳回型別 — 確保傳回型別符合運算式內容的預期
+* 歷程運算式編輯器中的可用函式與個人化編輯器中的可用函式不同
+
+**術語：**
+
+* 正式名稱：函式 — 縮寫：無 — 變體：內建函式，運算式函式
+* 同義字：&quot;aggregation functions&quot; = &quot;statistical functions&quot;；&quot;conversion functions&quot; = &quot;type casting functions&quot;
+* 請勿混淆：歷程運算式函式≠個人化編輯器函式（不同的集合）
+
+**常見問題集：**
+
+* **問：歷程運算式編輯器中有多少函式可用？**  — 超過60個函式可跨類別組織，包括彙總、轉換、日期、清單、數學、字串和Adobe Experience Platform。
+* **問：如何檢查設定檔是否屬於歷程條件的對象？**  — 使用具有對象識別碼的`inAudience`函式。
+* **問：我應使用哪個函式來取得目前日期與時間位移（天數）？**  — 使用`nowWithDelta(N, "days")`取得目前時間的dateTime位移。
+* **問：函式能否依據其呼叫方式傳回不同的型別？**  — 函式具有每個簽章的特定傳回型別，但單一函式名稱可以具有多個具有不同引數集和傳回型別的簽章。
+* **問：`count`與`countWithNull`之間有何差異？** — `count`只計算非null元素；`countWithNull`計算包括null的所有元素。
+
++++

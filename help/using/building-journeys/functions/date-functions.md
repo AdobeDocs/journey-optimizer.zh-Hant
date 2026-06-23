@@ -9,20 +9,15 @@ keywords: 日期，函式，運算式，歷程，時間
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 11%
+source-wordcount: 1275
+ht-degree: 7%
 
 ---
 
@@ -568,5 +563,48 @@ ht-degree: 11%
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
 如果時間戳記欄位的值為`2021-11-16T16:55:12.939318+01:00`，則函式會傳回`2021-11-17T02:55:12.942115+11:00`。
+
++++
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面會記錄AJO歷程運算式中可用的所有日期和時間函式，包括如何取得目前時間、檢查日期是否在相對時間範圍內，以及修改日期/時間元件。
+
+**意圖：**
+* 使用`now`或`nowWithDelta`取得目前的日期時間（含選擇性的時區）
+* 使用`currentTimeInMillis`以epoch整數擷取目前時間
+* 使用`inLastDays`、`inLastHours`、`inLastMonths`、`inLastYears`檢查日期時間在過去N天、小時、月或年之內
+* 使用`inNextDays`、`inNextHours`、`inNextMonths`、`inNextYears`檢查日期時間在接下來的N天、小時、月或年之內
+* 使用`setHours`或`setDays`，在日期時間值上強制指定一小時或當月某日
+* 將日期時間轉換為不同的時區，同時使用`updateTimeZone`保留相同的瞬間
+
+**字彙表：**
+* **dateTime**：包含時區位移資訊&#x200B;*（產品專用）*&#x200B;的日期時間值
+* **dateTimeOnly**：沒有時區資訊的日期時間值&#x200B;*（產品特定）*
+* **紀元毫秒**：代表自1970-01-01T00:00:00Z以來經過的毫秒數的整數
+* **差異**：整數位移（正數或負數），與`nowWithDelta`搭配使用，將目前時間移動數年、月、日、小時、分鐘或秒
+
+**護欄：**
+* `now()`僅在歷程運算式中可用；對於電子郵件個人化，請使用`getCurrentZonedDateTime()`
+* `nowWithDelta`中的時區ID必須是字串常數 — 不支援欄位參考和動態運算式
+* `updateTimeZone`中的時區識別碼必須是字串常數
+
+**術語：**
+* 正式名稱：日期函式 — 首字母縮寫：none — 變體：日期時間函式，暫時函式
+* 同義字： &quot;now()&quot; = &quot;current datetime&quot;； &quot;currentTimeInMillis()&quot; = &quot;current epoch milliseconds&quot;
+* 請勿混淆：「inLastDays」（回顧時間）≠「inNextDays」（回顧時間）
+* 請勿混淆：「setHours」（取代hour元件）≠「nowWithDelta」（位移目前時間）
+* 請勿混淆：「updateTimeZone」（相同的即時、不同時區表示）≠「setHours」（變更時間值本身）
+
+**常見問題集：**
+* **問：我可以在電子郵件個人化內容中使用`now()`嗎？**  — 否，`now()`僅在歷程運算式中可用。 使用`getCurrentZonedDateTime()`進行電子郵件個人化。
+* **問：如何檢查事件是否發生在過去24小時內？**  — 使用`inLastHours(@event{MyEvent.timestamp}, 24)`。
+* **問：如何取得過去2小時內的目前時間位移？**  — 使用`nowWithDelta(-2, "hours")`。
+* **問：`updateTimeZone`與`setHours`有何不同之處？** — `updateTimeZone`保持相同的即時時間，但以不同的時區表示，而`setHours`實際上會變更datetime值的小時元件。
+* **問：`nowWithDelta`中的時區引數可以是設定檔欄位嗎？**  — 否，時區ID必須是字串常數；不支援欄位參考。
 
 +++

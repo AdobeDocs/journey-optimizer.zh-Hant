@@ -4,21 +4,14 @@ description: 瞭解如何在歷程中使用補充識別碼。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2041
-ht-degree: 3%
+source-wordcount: 2742
+ht-degree: 2%
 
 ---
 
@@ -135,11 +128,11 @@ ht-degree: 3%
 
    1. 在&#x200B;**[!UICONTROL Supplemental identifier]**&#x200B;欄位中，使用運算式編輯器來選取補充識別碼屬性。
 
-   針對從CSV檔案匯入的對象[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
+   針對從CSV檔案匯入的對象[](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}，如果您的CSV對象包含每個設定檔ID的多個列，請確定先啟用「快速啟用」 — 請參閱[外部對象的補充識別碼](#external-audiences)。
 
        >[！NOTE]
-       >
-       >請確定您在&#x200B;**[!UICONTROL 進階模式]**&#x200B;中使用運算式編輯器來選取屬性。
+     >
+     >請確定您在**[!UICONTROL 進階模式]**中使用運算式編輯器來選取屬性。
    
 >[!ENDTABS]
 
@@ -206,7 +199,7 @@ ht-degree: 3%
 
 ## 外部對象的補充識別碼 {#external-audiences}
 
-外部對象支援補充ID，包括從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}匯入的對象以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
+外部對象支援補充ID，包括從CSV檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}匯入的對象[以及使用[同盟對象構成](../audience/get-started-audience-orchestration.md)建立的對象。 設定從CSV或Federated對象構成對象讀取的歷程時，您可以指定該對象中的任何非身分屬性作為補充ID。 接著Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。
 
 * 使用案例1：每個唯一設定檔一列+補充ID組
 
@@ -278,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`預設為`false`。 它必須在建立對象時設定，並且無法在建立後變更。 所有同盟對象構成對象預設都會啟用「快速啟動」，不需要此標幟。
 
-如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
 
 +++
 
@@ -331,4 +324,54 @@ x-sandbox-name: {SANDBOX_NAME}
 
 瞭解如何在[!DNL Adobe Journey Optimizer]中啟用並套用補充識別碼。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464803?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何在Adobe Journey Optimizer歷程中使用補充識別碼，以允許單一設定檔擁有多個並行歷程執行個體，每個執行個體都限定為不同的次要ID，例如預訂、訂閱或原則ID。
+
+**意圖：**
+* 瞭解何時及為何使用補充識別碼，而非僅依賴設定檔ID
+* 在事件方案中將屬性標籤為身分，以在事件觸發的歷程中設定補充識別碼
+* 啟用讀取對象活動中的選項，在讀取對象歷程中設定補充識別碼
+* 使用運算式編輯器參考訊息個人化和條件邏輯的補充識別碼屬性
+* 套用正確的運算式語法，以透過補充ID作為索引鍵的物件陣列進行反複運算
+* 在歷程中實作補充識別碼之前，識別護欄和限制
+
+**字彙表：**
+* **補充識別碼**：與設定檔識別碼搭配使用的次要識別碼（例如，訂單ID、預訂ID、訂閱ID），以將歷程執行個體範圍設定為特定記錄，為每個設定檔&#x200B;*（產品特定）*&#x200B;啟用多個並行執行個體
+* **設定檔識別碼**：預設用來執行歷程的主要識別碼；歷程中作用中的設定檔若沒有補充ID，就無法重新進入另一個歷程
+* **非人員識別碼名稱空間**：不代表人員的身分名稱空間（補充ID所需）；必須與主要身分名稱空間不同
+* **joai名稱空間**：不適用於此頁面（請參閱傳入動作疑難排解）
+* **DULE**：資料使用標籤和實行 — Adobe Experience Platform中的資料治理原則驗證架構；補充ID不受DULE檢查
+
+**護欄：**
+* 僅事件觸發和讀取對象歷程支援補充識別碼，對象資格歷程不支援
+* 設定檔不能有超過10個同時歷程執行個體
+* 即使透過補充識別碼建立，每個歷程執行個體都會計入頻率上限
+* 補充識別碼必須是型別`string`；不支援字串陣列和對應
+* 在結構描述中，補充ID屬性不可標示為主要身分
+* 用於補充ID的名稱空間必須是非人員識別碼名稱空間
+* 將非人員身分名稱空間套用至結構描述後，必須建立新事件或欄位群組；無法重新整理現有實體
+* 對於具有補充ID的讀取對象歷程：每個歷程執行個體的讀取率限製為每秒500個設定檔；僅支援統一設定檔服務對象；補充ID必須是設定檔欄位（而非事件/內容欄位）
+* 相同歷程中的下游事件必須使用相同的補充ID和名稱空間
+* 使用業務事件的讀取對象歷程已停用補充ID
+
+**術語：**
+* 正式名稱：增補識別碼 — 縮寫：none — 變體：增補ID、次要識別碼
+* 同義字： &quot;supplemental identifier&quot; = &quot;supplemental ID&quot; （在UI和檔案中可互換使用）
+* 請勿混淆：「supplemental identifier」≠「primary identity」 — 在結構描述中，絕不可將補充ID標示為主要身分
+
+**常見問題集：**
+* **問：什麼是Supplemental ID用於？**  — 它可讓單一設定檔同時多次輸入及執行歷程，而每個執行個體範圍限定為不同的次要記錄，例如預訂、訂閱或原則ID。
+* **問：哪些歷程型別支援補充識別碼？**  — 事件觸發的歷程和讀取對象歷程。 對象資格歷程不支援補充識別碼。
+* **問：設定檔可以有多少個並行歷程執行個體具有補充識別碼？**  — 每個設定檔最多10個同時歷程執行個體。
+* **問：我可以在訊息個人化中使用補充ID屬性嗎？**  — 是。 透過運算式編輯器或個人化編輯器中的內容屬性選單，參考這些內容。
+* **問：補充ID是否需要在結構描述中標示為主要身分？**  — 否。 它必須標籤為身分，但不得設定為主要身分。
+* **問：DULE治理原則是否套用至補充識別碼？**  — 否。 補充識別碼上不會執行DULE驗證檢查。
+
++++

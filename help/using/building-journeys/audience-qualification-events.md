@@ -11,26 +11,16 @@ keywords: 資格，事件，對象，歷程，平台
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 13%
+source-wordcount: 2501
+ht-degree: 10%
 
 ---
 
@@ -118,8 +108,8 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**&#x200B;對象參與狀態。
-   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至[!DNL Adobe Experience Platform]中的&#x200B;**Realized**&#x200B;和&#x200B;**Exited**對象參與狀態。
+   >請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。 此欄位預設會自動填入上次使用的命名空間。
 
@@ -164,7 +154,7 @@ ht-degree: 13%
 
 避免使用具有串流細分的開啟和傳送事件。 請改用真正的使用者活動訊號，例如點選、購買或信標資料。 如需頻率或隱藏邏輯，請使用商業規則，而非傳送事件。 [了解更多](../audience/about-audiences.md)
 
-請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
+請參閱[[!DNL Adobe Experience Platform] 串流細分檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}。
 
 >[!NOTE]
 >
@@ -202,7 +192,7 @@ ht-degree: 13%
 
   ![在[!DNL Adobe Experience Platform]](assets/segment-error.png)中找不到對象時的錯誤訊息
 
-* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=zh-Hant){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
+* 為歷程中使用的資料來源和動作設定上限規則，以避免其過載。 進一步瞭解[Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}。 請注意，上限規則沒有重試。 如果您需要重試，請核取方塊&#x200B;**[!UICONTROL 在逾時或在條件或動作中發生錯誤]**&#x200B;時新增替代路徑，以在歷程中使用替代路徑。
 
 * 在生產歷程中使用對象之前，請每天評估符合此對象資格的個人數量。 若要這麼做，請檢查&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、開啟對象，然後檢視&#x200B;**[!UICONTROL 隨著時間變化的設定檔]**&#x200B;圖表。
 
@@ -246,4 +236,50 @@ ht-degree: 13%
 
 透過此影片瞭解對象資格歷程的適用使用案例。 瞭解如何使用對象資格建立歷程，以及套用哪些最佳實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446215?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何設定和使用Journey Optimizer中的對象資格事件活動，以在設定檔進入或退出Adobe Experience Platform對象時，在歷程中觸發或推進設定檔。
+
+**意圖：**
+* 設定對象資格事件活動，以在對象成員資格變更時觸發歷程專案
+* 選取對象資格活動的正確行為（入口、出口或兩者）
+* 套用最佳實務，以避免使用批次或串流對象時系統過載
+* 瞭解為什麼有些合格的設定檔可能不會進入歷程，以及如何緩解此問題
+* 在下游條件和動作中使用AudienceQualification節點裝載
+
+**字彙表：**
+* **對象資格事件**：歷程事件活動，會偵聽Adobe Experience Platform對象中的設定檔入口或出口，並觸發歷程進展&#x200B;*（產品特定）*
+* **行為（進入/退出）**：控制歷程對對象&#x200B;*（產品特定）*&#x200B;的加入（「已實現」）、離開（「已退出」）或兩種狀態的設定檔做出回應的設定
+* **串流對象**：使用「高頻對象」選項持續即時評估對象；建議用於對象資格活動&#x200B;*（產品特定）*
+* **批次對象**：對象每天重新計算一次；引進每日設定檔專案尖峰值，並需要在細分工作完成&#x200B;*（產品專屬）*&#x200B;後2小時整備視窗
+* **AudienceQualification節點**：在對象資格活動後，運算式編輯器中可用的內容節點，會顯示上次資格時間和狀態&#x200B;*（產品特定）*
+* **Edge對集線器傳輸**：在歷程對其採取行動之前，在Edge評估的串流區段會籍會同步到集線器的程式；通常需要15到30分鐘&#x200B;*（產品特定）*
+
+**護欄：**
+* 新的對象資格歷程最多需要10分鐘，才能在發佈後啟用
+* 使用批次擷取屬性的批次或串流對象在細分工作完成約2小時後準備就緒
+* 只能使用使用使用區段定義建立的對象；不支援構成工作流程或自訂上傳對象
+* 體驗事件欄位群組不能用於以對象資格開始的歷程
+* 名稱空間欄位僅提供以人物為基礎的身分名稱空間，不支援查詢表格名稱空間
+* 歷程發佈前已在對象中的設定檔將不會回溯進入歷程
+* 串流區段的Edge對集線器傳輸通常需要15到30分鐘
+
+**術語：**
+* 正式名稱：對象資格事件 — 縮寫：none — 變體：區段資格、對象資格活動
+* 同義字： &quot;Enter&quot; = &quot;Realized&quot; ； &quot;Exit&quot; = &quot;Exited&quot;
+* 請勿混淆：「對象資格」≠「讀取對象」（「對象資格」會對即時成員資格變更做出反應；「讀取對象」會在排程時間處理所有成員）
+
+**常見問題集：**
+* **問：新發佈的對象資格歷程何時開始處理專案？**  — 發佈後最多需要10分鐘，活動才會變成作用中並開始接聽設定檔專案與退出。
+* **問：為什麼設定檔沒有進入我的對象資格歷程？**  — 常見原因包括：發佈前設定檔已在對象中、10分鐘的啟動時段尚未過去，或串流區段的Edge對集線器傳輸（15-30分鐘）尚未完成。
+* **問：我可以在對象資格活動中使用批次對象嗎？**  — 可以，但不建議使用。 批次對象會產生每日輸入峰值，不適合即時使用案例；請改用讀取對象活動來表示批次案例。
+* **問：AudienceQualification承載中有哪些資料可用？**  — 裝載包括行為（進入或退出）、資格的時間戳記和對象ID。
+* **問：我是否可以在對象資格活動中使用從組合工作流程建立的對象？**  — 否，此活動僅支援使用區段定義建立的對象。
+
++++

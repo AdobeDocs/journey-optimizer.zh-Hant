@@ -11,28 +11,16 @@ keywords: 使用案例，多頻道，訊息，歷程，頻道，事件，推播
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/o4-7bKdQzB3Yyz22khT4RHNpNvKL0sCg8YPPnaeav9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 1%
+source-wordcount: 1720
+ht-degree: 0%
 
 ---
 
@@ -166,4 +154,52 @@ ht-degree: 1%
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面提供兩個實用的歷程使用案例：結合讀取對象、反應事件、電子郵件和推播的多通道訊息流程；以及使用跳轉活動將複雜歷程分解為可管理的子歷程的多階段忠誠度歷程模式。
+
+**意圖：**
+
+* 建立多管道歷程，根據客戶是否開啟初始電子郵件，傳送後續電子郵件或推播
+* 設定購買事件以在歷程中觸發感謝推播通知
+* 使用回應事件，根據電子郵件開啟行為來分支歷程
+* 將複雜的多階段歷程分解為由Jump活動連線的較小子歷程
+* 建立並設定規則型事件以作為歷程觸發器
+* 根據目標歷程專案的城市和出生年屬性定義對象
+
+**字彙表：**
+
+* **回應事件**：當設定檔與訊息互動（例如，開啟電子郵件或按一下連結）時觸發的歷程事件，可啟用行為導向分支。 *（產品特定）*
+* **讀取對象活動**：載入指定Adobe Experience Platform對象中所有設定檔以開始歷程的歷程進入活動。 *（產品特定）*
+* **跳轉活動**：將設定檔從一個歷程（來源）推送到另一個歷程（目標）的動作活動，可啟用模組化子歷程架構。 *（產品特定）*
+* **規則型事件**：事件型別，其中觸發條件是由規則運算式所定義，而非協調流程ID，對於購買或行為觸發程式非常有用。 *（產品特定）*
+
+**護欄：**
+
+* 回應事件逾時路徑必須設定為處理在定義的期間內未與訊息互動的設定檔
+* 使用案例中使用的對象必須在建立歷程之前建立
+* 必須先設定購買事件，才能在歷程中使用
+* 透過跳轉連線的子歷程必須使用與來源歷程相同的名稱空間
+* 電子郵件地址覆寫（引數覆寫）僅應用於特定使用案例，不應作為主要地址的一般取代
+
+**術語：**
+
+* 正式名稱：回應事件 — 縮寫：無 — 變體：回應活動，訊息回應
+* 同義字： &quot;origin journey&quot; = &quot;source journey&quot;； &quot;target journey&quot; = &quot;destination journey&quot;
+* 請勿混淆：「讀取對象活動」≠「對象資格活動」 — 讀取對象會一次以批次載入所有對象成員；當成員資格變更時，會即時觸發每個設定檔的對象資格
+
+**常見問題集：**
+
+* **問：如何只傳送後續追蹤訊息給未開啟電子郵件的客戶？**  — 新增具有逾時路徑的回應事件（已開啟電子郵件）；未在逾時期間內開啟的設定檔會沿著放置後續追蹤電子郵件的逾時路徑流過。
+* **問：在多管道使用案例中如何設定購買事件？**  — 作為具有條件（例如`purchaseMessage="thank you"`）的規則型事件，已設定結構描述、裝載欄位（產品、日期、購買ID）、名稱空間和設定檔識別碼。
+* **問：為何要將複雜的歷程分解為子歷程？**  — 複雜的歷程可能會公開20個或多個不重複的客戶路徑，而且複雜度會隨著每個接觸點以指數方式增加。 子歷程讓每個階段都能讀取、測試並獨立維護。
+* **問：設定檔在跳轉後能否同時位於來源和目標歷程中？**  — 是；當設定檔達到跳轉步驟時，它會在來源歷程中繼續前進，同時進入目標歷程。
+* **問：在多階段忠誠度範例中使用了多少次子歷程？**  — 三個子歷程：階段1 （應用程式下載）、階段2 （第一個交易）和階段3 （第二個交易），使用跳轉活動依序連線。
+
++++
 

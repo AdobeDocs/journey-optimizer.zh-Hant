@@ -11,21 +11,15 @@ keywords: 運算式、條件、使用案例、事件
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 4%
+source-wordcount: 1103
+ht-degree: 2%
 
 ---
 
@@ -186,3 +180,50 @@ substr(
 
 
 如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=zh-Hant)。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面提供使用進階運算式編輯器建立歷程條件的實用範例，這些條件會依購物車活動、詳細目錄狀態、地理圍欄事件、字串操控，以及時間戳記視窗來篩選使用者。
+
+**意圖：**
+
+* 使用`in()`和`inLastDays()`建立購物車放棄條件，以鎖定新增專案但未在7天內完成購買的使用者
+* 依時間戳記視窗篩選體驗事件集合，以避免擷取歷史資料
+* 將區分大小寫和不區分大小寫的字串比較套用至地理圍欄事件欄位
+* 使用`substr`和`lastIndexOf`從行動應用程式啟動事件擷取及操控CRM ID
+* 比較數量欄位與臨界值，以檢查產品存貨可用性
+* 在歷程條件中使用`and` / `not`邏輯結合多個布林運算式
+
+**字彙表：**
+
+* **進階運算式編輯器**：使用函式、運運算元和欄位參考&#x200B;*（產品特定）*&#x200B;來撰寫複雜程式碼層級運算式的Journey Optimizer介面
+* **currentDataPackField**：反複處理`all()`、`first()`或`last()`函式&#x200B;*（產品特定）*&#x200B;內的資料來源集合時，所使用的回圈變數
+* **inLastDays(timestamp， N)**：如果指定的時間戳記在最近N天內，則會傳回True的日期函式&#x200B;*（產品專屬）*
+* **體驗事件**：儲存在Adobe Experience Platform中的時間序列行為資料記錄，以反向時間順序&#x200B;*（產品特定）*&#x200B;擷取
+
+**護欄：**
+
+* 不支援直接在歷程運算式/條件中使用體驗事件；應改用運算屬性或受眾區段等替代方法
+* 對時間序列資料（例如購買或點選的集合）的查詢，必須使用進階運算式編輯器（而不是簡單編輯器）
+* 在左側面板中按兩下欄位可將其快速插入運算式中；避免手動輸入欄位路徑以減少錯誤
+* 查詢體驗事件的運算式會傳回布林值，請確定下游邏輯需要布林值型別
+
+**術語：**
+
+* 正式名稱：進階運算式編輯器 — 縮寫：無 — 變體：運算式編輯器、進階編輯器
+* 同義字： &quot;addToCart&quot; = &quot;add to cart interaction&quot;； &quot;completePurchase&quot; = &quot;purchase completion event&quot;
+* 請勿混淆：事件（前置詞為`@`）≠資料來源（前置詞為`#`）
+
+**常見問題集：**
+
+* **問：為什麼我必須使用進階編輯器，而不是簡單的編輯器來進行購物車放棄查詢？**  — 簡單編輯器無法對時間序列集合執行查詢；`all()`、`first()`和`last()`集合函式需要進階編輯器。
+* **問：如何在運算式中參照最新的「addToCart」事件？**  — 在由`productInteraction == "addToCart"`篩選的體驗事件集合上使用`first()`函式，因為事件會以反向時間順序傳回。
+* **問：如何在進階編輯器中讓字串比較不區分大小寫？**  — 使用`equalIgnoreCase()`函式而非`==`運運算元。
+* **問：查詢購物車事件時新增時間戳記視窗的用途為何？**  — 同時指定開始和結束時間戳記，可防止擷取落在預定活動期間之外的歷史資料。
+* **問：如何從事件中傳遞的CRM ID字串移除大括弧？**  — 使用`substr()`與`lastIndexOf()`組合以擷取大括弧之間的內容。
+
++++

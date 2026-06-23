@@ -11,27 +11,16 @@ keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1656
-ht-degree: 9%
+source-wordcount: 2279
+ht-degree: 6%
 
 ---
 
@@ -132,7 +121,7 @@ ht-degree: 9%
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 
@@ -193,6 +182,51 @@ ht-degree: 9%
 * 模型選擇「探索」傳送時間時
 
 為避免在夜間時段向客戶傳送推播訊息，請排程批次推播訊息傳送以在早上或午後發生，並選擇較短的持續時間以進行傳送時間最佳化。 （例如，上午9點的傳送時間與最長8小時的等候時間。）
+
++++
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;本頁說明如何在Adobe Journey Optimizer中設定和使用傳送時間最佳化，這是AI支援的功能，可預測傳送電子郵件或推播訊息給每個人的最佳時間，以最大化參與度。
+
+**意圖：**
+* 對歷程中的電子郵件或推播動作啟用傳送時間最佳化
+* 選擇是否要最佳化電子郵件訊息的開啟或點進次數
+* 設定延遲傳遞的最大等待期間（在下個期間內傳送）
+* 瞭解AI模型如何使用行為資料來預測最佳傳送時間
+* 判斷傳送時間最佳化是否適合給定的訊息型別
+
+**字彙表：**
+* **傳送時間最佳化(STO)**： AI支援的功能，會延遲訊息傳送至每個設定檔，直到設定之時間範圍&#x200B;*（產品特定）*&#x200B;內的預測最佳參與小時為止
+* **Journey AI**： Adobe的AI服務在Journey Optimizer *（產品特定）*&#x200B;中支援傳送時間最佳化
+* **探索傳送時間**：隨機選取的傳送時間（用於5%的傳送）以測試不同時間並改善模型準確度&#x200B;*（產品特定）*
+* **最佳化的傳送時間**：選取模型預測的傳送時間，以將點按或開啟率最大化（用於95%的傳送） *（產品特定）*
+* **在下個時間內傳送**：系統傳送訊息給指定設定檔&#x200B;*（產品特定）之前等待的最大小時數(1-168)*
+
+**護欄：**
+* 傳送時間最佳化必須由Adobe為組織啟用；請聯絡Adobe客戶服務或您的Adobe代表以啟用它。
+* 傳送時間最佳化僅適用於歷程中的電子郵件和推播通知通道；不適用於行銷活動或自訂動作。
+* 在傳送時間最佳化產生有意義的結果之前，組織必須在Journey Optimizer中使用電子郵件或推播動作至少30天。
+* 請勿將傳送時間最佳化用於緊急或時效性作業訊息（例如訂單確認、密碼重設、航班登機口變更）。
+* 等待時間範圍的上限為1-168小時；建議範圍為6-24小時以獲得最佳結果。
+* 模型分數儲存在`_experience.intelligentServices.journeyAI.sendTimeOptimization`的設定檔屬性中，且無法由人類讀取。
+* 最初每週訓練模型，然後在16週後每月重新訓練和重新訓練。
+
+**術語：**
+* 正式名稱：傳送時間最佳化 — 縮寫：STO — 變體：最佳傳送時間、傳送時間AI、智慧型傳送時間
+* 同義字：「傳送時間最佳化」=「最佳傳送時間」=「AI傳送時間」
+* 請勿混淆：「探索傳送時間」≠「最佳化傳送時間」（探索是隨機進行模型測試；最佳化是模型預測的參與）
+
+**常見問題集：**
+* **問：哪些通道支援傳送時間最佳化？**  — 僅歷程中的電子郵件和推播通知管道；不支援行銷活動和自訂動作。
+* **問：我是否應該針對開啟或點按電子郵件進行最佳化？**  — 針對大多數電子郵件的點按次數最佳化。 當訊息僅供參考，且無意圖驅動特定動作時，請選擇開啟。
+* **問：啟用STO之前，組織需要等候多久？**  — 至少需要30天的Journey Optimizer電子郵件或推播使用量，才能收集足夠的行為資料。 結果持續改善達16週。
+* **問：STO可以在晚上傳送推播通知嗎？**  — 可以，如果使用者的行為建議夜間參與，或選擇了探索傳送時間。 為避免此問題，請使用具有短最長等待時段的早上傳送時間。
+* **問：傳送時間最佳化的預期效益為何？**  — 所有最佳化訊息的電子郵件點按率或推播開啟率提升約2-10%，不過個別小量傳送可能不會帶來明顯好處。
 
 +++
 

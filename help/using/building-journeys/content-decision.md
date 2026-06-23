@@ -11,25 +11,15 @@ keywords: 活動，決策，內容決定，決定原則，畫布，歷程
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
+source-wordcount: 1913
 ht-degree: 1%
 
 ---
@@ -104,7 +94,7 @@ ht-degree: 1%
 
 ## 使用內容決定活動的輸出 {#use-content-decision-output}
 
-內容決定的輸出可用於多個歷程活動。 例如，您可以使用具有條件[&#128279;](#add-condition-activity)的最佳化活動，根據為設定檔擷取的選件數目，將設定檔移至歷程的特定分支。
+內容決定的輸出可用於多個歷程活動。 例如，您可以使用具有條件](#add-condition-activity)的[最佳化活動，根據為設定檔擷取的選件數目，將設定檔移至歷程的特定分支。
 
 您也可以新增[自訂動作](#add-custom-action)至您的歷程，以便從內容決定活動將優惠方案共用至外部系統。
 
@@ -258,3 +248,48 @@ ht-degree: 1%
   }
 }
 ```
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何設定和使用Journey Optimizer歷程中的內容決定活動，以透過決定原則擷取個人化優惠，並使用條件和自訂動作路由或轉寄優惠。
+
+**意圖：**
+* 將內容決定活動新增到歷程並設定決定原則
+* 在決定原則中選取並排序決定專案與選取策略
+* 在最佳化活動條件中使用內容決定輸出，以根據擷取的優惠方案分支設定檔
+* 使用自訂動作將擷取的優惠方案轉寄給外部系統
+* 在歷程步驟事件中檢查決策資料，以進行稽核和疑難排解
+
+**字彙表：**
+* **內容決定活動**：歷程協調活動，會評估決定原則並擷取每個設定檔&#x200B;*（產品特定）*&#x200B;的最佳合格優惠
+* **決定原則**：指定評估哪些決定專案和選擇原則，以及傳回&#x200B;*（產品特定）*&#x200B;多少專案的組態
+* **選擇策略**：在決定原則中使用的排名評估方法，用來判斷哪些優惠方案符合資格，以及這些優惠方案的評分方式&#x200B;*（產品特定）*
+* **主張**：決定原則執行的輸出單位，包含選取的專案以及關聯的範圍和排名中繼資料&#x200B;*（產品特定）*
+* **listSize函式**：運算式編輯器函式，用來計算內容決定傳回的專案數，例如`listSize(@decision{Name.items})>0` *（產品特定）*
+* **提供目錄結構描述**：定義決策專案上可用屬性的結構描述；可在進階運算式編輯器模式&#x200B;*（產品特定）*&#x200B;中透過內容節點存取
+
+**護欄：**
+* 內容決定活動的輸出不能用於原生頻道活動（電子郵件、推播、簡訊等）
+* 內容決定輸出只能在運算式編輯器的進階模式中存取；在簡單模式中無法使用
+* 需要決策許可權才能編寫決策原則
+* 同意原則更新最多需要48小時，才能對決定原則中參照的屬性生效
+* 同意原則僅適用於具有Adobe Healthcare Shield或Privacy and Security Shield附加元件的組織
+* 選件結構描述屬性上受限制的資料使用標籤(DULE)可能會導致治理原則違規
+
+**術語：**
+* 正式名稱：內容決定活動 — 首字母縮寫：none — 變體：內容決定節點，決定活動
+* 同義字： &quot;decision policy&quot; = &quot;offer selection policy&quot; ； &quot;proposition&quot; = &quot;decision output&quot;
+* 請勿混淆：「內容決定活動」≠「原生頻道動作」（內容決定會擷取優惠，但不會直接傳送；需要有自訂動作或條件才能對輸出採取行動）
+
+**常見問題集：**
+* **問：我可以直接在電子郵件中使用內容決定活動傳回的優惠嗎？**  — 否，內容決定活動的輸出不能用於原生管道活動；您必須將優惠方案傳遞給自訂動作，才能將其傳送至外部系統。
+* **問：如何檢查是否已針對設定檔傳回任何優惠？**  — 在進階運算式編輯器中使用listSize函式： `listSize(@decision{ContentdecisionName.items})>0`。
+* **問：我可以在運算式編輯器的哪裡存取內容決定輸出？**  — 切換到進階模式，展開內容節點，然後導覽至您的決定原則以檢視所有可用的優惠方案目錄結構描述屬性。
+* **問：同意原則更新套用至決定原則需要多久時間？**  — 更新同意原則後最多48小時。
+* **問：歷程步驟事件中有哪些決策資料可用？**  — 每個步驟事件都包含exdRequestID、propositionEventType和主張陣列 — 每個主張都包含ID、scopeDetails （決定提供者、correlationID、決定原則）以及具有ID、名稱、分數和itemSelection詳細資訊的專案陣列。
+
++++

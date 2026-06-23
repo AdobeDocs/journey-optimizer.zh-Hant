@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 7%
+source-wordcount: 1105
+ht-degree: 5%
 
 ---
 
@@ -508,5 +508,45 @@ ht-degree: 7%
 `sum([10.5,null,8.1])`
 
 傳回18.6。
+
++++
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;本頁會記錄AJO歷程運算式中可用的所有彙總函式，包括如何計算清單與陣列上的平均值、總和、最小值/最大值、計數及相異計數。
+
+**意圖：**
+* 使用`avg`計算數值清單的平均值
+* 使用`sum`加總清單或事件欄位中的數值
+* 使用`min`或`max`尋找清單中的最小值或最大值
+* 使用`count`、`countOnlyNull`或`countWithNull`計算清單中的非null、僅限null或所有元素
+* 使用`distinctCount`或`distinctCountWithNull`計算清單中不同的值（無論有無null）
+* 使用`distinctCount`搭配索引鍵引數，依特定索引鍵屬性篩選listObject中的唯一物件
+
+**字彙表：**
+* **listObject**：複雜物件的清單（欄位參考）；不能包含Null物件&#x200B;*（產品特定）*
+* **listAny**：任何支援的純量型別（字串、布林值、整數、小數、持續時間、dateTime、dateTimeOnly、dateOnly）清單&#x200B;*（產品特定）*
+* **Null值**：清單中有不存在或未定義的專案；大多數彙總函式會忽略null，除非函式明確處理它們（例如，`countOnlyNull`、`countWithNull`、`distinctCountWithNull`）
+
+**護欄：**
+* `countOnlyNull`、`countWithNull`和`distinctCountWithNull`不支援`<listObject>`引數型別
+* `listObject`上的`distinctCount`要求清單是欄位參考，而非內嵌常值
+* `listObject`上的`count`需要清單為欄位參考；listObject不能包含null物件
+
+**術語：**
+* 正式名稱：彙總函式 — 首字母縮寫：none — 變體：彙總函式、集合函式
+* 同義字： &quot;count&quot; = &quot;count non-null elements&quot;； &quot;countWithNull&quot; = &quot;count all elements include null&quot;
+* 請勿混淆：「distinctCount」（忽略null）≠「distinctCountWithNull」（包含null作為不同值）
+
+**常見問題集：**
+* **問： `avg`是否在計算中包含Null值？**  — 否，`avg`會自動忽略null值。
+* **問：`count`與`countWithNull`之間有何差異？** — `count`會從總計中排除null值，而`countWithNull`會計算每個元素（包括null）。
+* **問：我可以在listObject上使用`countOnlyNull`嗎？**  — 否，`countOnlyNull`、`countWithNull`或`distinctCountWithNull`不支援`<listObject>`。
+* **問：我如何根據特定屬性計算陣列中不同的物件？**  — 使用`distinctCount(@event{...}, "attributeName")`提供索引鍵屬性名稱做為第二個引數。
+* **問：當清單包含null時，`max`會傳回什麼？** — `max`會忽略null值，並傳回非null元素中的最大值。
 
 +++

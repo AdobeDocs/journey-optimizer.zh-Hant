@@ -11,10 +11,10 @@ keywords: 查詢，集合，函式，裝載，歷程
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
+source-wordcount: 1222
+ht-degree: 1%
 
 ---
 
@@ -233,7 +233,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
@@ -263,3 +263,52 @@ _aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.S
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明歷程運算式語言中可用的集合管理函式`all()`、`first()`、`last()`和`at()`，並提供使用推播通知權杖裝載和體驗事件資料的範例。
+
+**意圖：**
+
+* 使用帶有`all(<condition>)`的布林條件來篩選集合，以擷取相符元素
+* 使用與`all()`結合的`count()`函式計算集合中的專案
+* 使用`first()`或`last()`擷取篩選集合的第一個或最後一個元素
+* 使用`at(<index>)`建立索引來存取集合中的特定元素
+* 結合巢狀集合查詢，以依SKU或依事件型別和價格臨界值查詢產品名稱
+
+**字彙表：**
+
+* **all(condition)**：篩選清單並傳回符合指定布林運算式&#x200B;*（產品特定）*&#x200B;之專案的集合函式
+* **first(condition)**：傳回符合條件&#x200B;*（產品特定）*&#x200B;之第一個（體驗事件的最近）元素的集合函式
+* **last(condition)**：傳回符合條件&#x200B;*（產品特定）*&#x200B;之最後（體驗事件的最舊）專案的集合函式
+* **at(index)**：傳回位於特定從零開始的索引&#x200B;*（產品特定）*&#x200B;之專案的集合函式
+* **currentEventField**：重複處理`all()`、`first()`或`last()`內的事件集合時，可以使用回圈變數&#x200B;*（產品特定）*
+* **currentDataPackField**：重複處理資料來源集合&#x200B;*（產品特定）時可以使用回圈變數*
+* **currentActionField**：重複處理自訂動作回應集合&#x200B;*（產品特定）時可以使用回圈變數*
+
+**護欄：**
+
+* 支援在歷程運算式/條件中使用體驗事件，但不建議使用；請考慮將計算屬性或受眾區段作為替代方案
+* `currentEventField`僅適用於事件集合；`currentDataPackField`適用於資料來源集合；`currentActionField`適用於自訂動作回應集合
+* `all`函式不一定要用來計算集合的元素 — `count()`可以直接套用至集合欄位
+* 體驗事件會以反向時間順序擷取： `first()`會傳回最近的事件，`last()`會傳回最舊的事件
+
+**術語：**
+
+* 正式名稱：集合管理函式 — 縮寫：無 — 變體：集合函式，查詢集合函式
+* 同義字： &quot;all()&quot; = &quot;filter function&quot;； &quot;first()&quot; = &quot;most recent element function&quot; （適用於體驗事件）
+* 請勿混淆： `first()` （最近體驗事件）≠插入順序的第一個專案
+
+**常見問題集：**
+
+* **問：當條件為空時，`all()`會傳回什麼？**  — 它會傳回清單中的所有元素，相當於沒有篩選。
+* **問：如何計算集合中推播通知權杖的數量？**  — 直接在權杖欄位路徑上使用`count()`，不需要`all()`，例如`count(@event{...pushNotificationTokens.token})`。
+* **問：如何取得集合的第二個元素？**  — 使用`at(1)`，因為索引0是第一個元素。
+* **問：為什麼`first()`會傳回最近的體驗事件？**  — 體驗事件是從Adobe Experience Platform中擷取，並依照反向時間順序，因此`first()`會挑選排名最前的（最新）專案。
+* **問：如何檢查使用者在過去24小時內是否未收到任何通訊？**  — 篩選以`nowWithDelta(-1, "days")`作為時間戳記下限的體驗事件集合，並使用`count(...) == 0`。
+
++++

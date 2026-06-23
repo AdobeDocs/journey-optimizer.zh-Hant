@@ -9,17 +9,14 @@ keywords: 轉換，函式，運算式，歷程，型別，轉型
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 6%
+source-wordcount: 1723
+ht-degree: 4%
 
 ---
 
@@ -461,5 +458,49 @@ ISO-8601字串已包含時區資訊。
 `toString(toDuration(1520))`
 
 傳回「PT1.52S」。
+
++++
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面記錄了AJO歷程運算式中的所有轉換函式，說明如何在字串、整數、小數、布林值、日期、日期時間和持續時間等型別之間轉換值。
+
+**意圖：**
+* 使用`toDateTime`將字串或epoch整數轉換為時區感知的日期時間
+* 使用`toDateTimeOnly`將字串或日期時間轉換為無時區的日期時間
+* 使用`toDateOnly`從字串或日期時間擷取僅日期值（年 — 月 — 日）
+* 使用`toInteger`、`toDecimal`或`toBool`將值轉換為整數、十進位或布林值
+* 使用`toString`將任何值序列化為它的字串表示法
+* 使用`toDuration`將字串或毫秒整數轉換為持續時間
+
+**字彙表：**
+* **dateTime**：包含時區位移資訊&#x200B;*（產品專用）*&#x200B;的日期時間值
+* **dateTimeOnly**：沒有時區資訊的datetime值&#x200B;*（產品特定）*
+* **dateOnly**：代表年月日的日期值，沒有時間元件&#x200B;*（產品特定）*
+* **持續時間**：以ISO-8601格式表示的時間段（例如PT10H） *（產品特定）*
+* **epoch毫秒**：自1970-01-01T00:00:00Z以來的Unix時間戳記以毫秒表示
+
+**護欄：**
+* `toDateTime`中的時區引數必須是字串常數 — 不允許欄位參考和動態運算式
+* `toDateTime`和`toDateTimeOnly`的字串輸入必須遵循ISO-8601格式；格式錯誤的字串傳回null且沒有錯誤
+* 帶有epoch整數的`toDateTime`需要毫秒；請在傳遞前將秒數形式的時間戳記乘以1000
+* `toBool`只會針對完全相同的字串`"true"`傳回`true`；如`"1"`、`"yes"`或`"TRUE"`等字串會傳回`false`
+
+**術語：**
+* 正式名稱：轉換函式 — 縮寫：無 — 變體：型別轉換函式，型別轉換函式
+* 同義字： &quot;toDateTime&quot; = &quot;convert to datetime with timezone&quot;； &quot;toDateTimeOnly&quot; = &quot;convert to datetime without timezone&quot;
+* 請勿混淆：「toDateTime」（可感知時區）≠「toDateTimeOnly」（無時區）
+* 請勿混淆：「toDateOnly」（僅限日期，無時間）≠「toDateTime」（具有時區的日期和時間）
+
+**常見問題集：**
+* **問：何時應該使用`toDateTime`而非`toDateTimeOnly`？**  — 在時區資訊很重要時使用`toDateTime` （例如，排程或跨區域比較）；在只有當地日期時間相關且可以忽略時區時使用`toDateTimeOnly`。
+* **問：為什麼`toBool("TRUE")`傳回false？** — `toBool`僅可辨識精確的小寫字串`"true"`；所有其他字串值（包括`"TRUE"`或`"yes"`）都會傳回false。
+* **問：如何將Unix時間戳記（以秒為單位）轉換為dateTime？**  — 將秒數值乘以1000以取得毫秒，然後傳給`toDateTime`，例如`toDateTime(myField * 1000)`。
+* **問：是否可從設定檔屬性讀取`toDateTime`中的時區？**  — 否，時區ID必須是字串常數；不支援欄位參考和運算式。
+* **問：`toDuration`接受哪種格式作為字串？** — ISO-8601期間格式，例如`"PT10H"`表示10小時，或`"P1DT2H"`表示1天又2小時。
 
 +++

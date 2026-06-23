@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 16%
+source-wordcount: 2580
+ht-degree: 12%
 
 ---
 
@@ -67,7 +61,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 新增和管理條件路徑 {#about_condition}
 
@@ -213,4 +207,52 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明Journey Optimizer中的條件活動，涵蓋五個可用的條件型別：資料Source、時間、百分比分割、日期和設定檔上限，以及如何根據規則、資料或對象成員資格，將設定檔路由至不同的歷程路徑。
+
+**意圖：**
+* 將條件活動新增至歷程並建立多個分支路徑
+* 使用運算式編輯器設定資料Source條件，以評估設定檔或事件屬性
+* 設定時間條件，以根據一天中的時間或星期幾路由設定檔
+* 使用百分比分割來隨機分佈路徑上的設定檔
+* 套用設定檔上限以限制採用特定歷程路徑的設定檔數
+* 使用對象成員資格檢查作為歷程路徑中的條件
+
+**字彙表：**
+* **條件活動**：歷程活動，會根據結果&#x200B;*（產品專屬）*&#x200B;評估規則並將設定檔路由到不同路徑
+* **資料Source條件**：使用運算式編輯器&#x200B;*（產品特定）*&#x200B;評估資料來源或歷程事件之欄位的條件型別
+* **時間條件**：一種條件型別，會根據一天中的小時數、星期幾或兩者的組合來篩選設定檔&#x200B;*（產品特定）*
+* **百分比分割**：使用統計Java隨機機制&#x200B;*（產品專屬）*&#x200B;將設定檔隨機分散到各個路徑的條件型別
+* **設定檔上限**：條件型別，會限制可採用特定路徑的設定檔數目；會將其他設定檔路由至替代路徑&#x200B;*（產品特定）*
+* **替代路徑**：當錯誤、逾時或設定檔上限達到&#x200B;*（產品專屬）*&#x200B;時，會啟動遞補路徑
+
+**護欄：**
+* 在設定檔存放區中有兩個以上跨裝置身分的設定檔條件評估失敗
+* 沒有擷取資料的結構描述欄位會解譯為Null；對於這類欄位，isEmpty()和isNull()會評估為true，這可能會導致非預期的行為
+* 時區是在歷程層級定義，而不是在個別條件層級
+* 「顯示其他案例的路徑」選項在「百分比分割」條件中無法使用
+* 個人資料上限預設為1,000；計數器會在歷程重複或建立新版本時重設，但不會在重複發生循環歷程之間重設
+* 對於超過10,000的上限，請插入設定檔數量上限的至少1.3倍；對於低於10,000的上限，請插入至少1,000加上上限
+* 設定檔上限未在測試模式中套用
+* 簡單運算式編輯器不支援時間序列查詢（例如購買清單、過去的點按）；必須使用進階編輯器
+
+**術語：**
+* 正式名稱：條件活動 — 縮寫：無 — 變體：條件節點，條件步驟
+* 同義字： &quot;Data Source condition&quot; = &quot;expression-based condition&quot; ； &quot;Percentage split&quot; = &quot;random split&quot;
+* 請勿混淆：「百分比分割」≠「設定檔上限」（百分比分割會隨機分佈所有設定檔；一旦達到計數臨界值，設定檔上限會停止路由傳送到路徑）
+
+**常見問題集：**
+* **問：定義多個路徑且設定檔符合多個條件時，會發生什麼情況？**  — 僅執行第一個符合條件的路徑（畫布上由上至下）；路徑順序決定優先順序。
+* **問：我可以為不符合任何條件的設定檔新增遞補路徑嗎？**  — 是，啟用「為上述情況以外的其他情況顯示路徑」 — 除了在「百分比分割」條件中，其中所有設定檔一律會輸入分割路徑之一。
+* **問：為什麼我預期有資料的欄位的isEmpty()條件會評估為true？**  — 如果結構描述欄位存在，但尚未為其擷取任何資料，Journey Optimizer和即時客戶設定檔會將其解譯為Null，因此isEmpty()和isNull()會傳回true。
+* **問：設定檔上限計數器是否會在週期性歷程中重設？**  — 否，計數器不會在重複發生之間重設；它只會在重複歷程或建立新版本時重設。
+* **問：百分比分割在測試模式中如何運作？**  — 在測試模式中，無論設定的分割百分比為何，一律選擇頂端分支。
+
++++

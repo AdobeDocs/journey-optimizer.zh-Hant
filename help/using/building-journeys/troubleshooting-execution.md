@@ -11,25 +11,16 @@ keywords: 疑難排解，疑難排解，歷程，檢查，錯誤
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 11%
+source-wordcount: 2993
+ht-degree: 8%
 
 ---
 
@@ -43,9 +34,9 @@ ht-degree: 11%
 
 在本節中，瞭解如何疑難排解歷程事件、檢查設定檔是否進入您的歷程、如何導覽歷程，以及是否傳送訊息。
 
-您也可以在測試或發佈歷程之前疑難排解錯誤。 在此頁面[&#128279;](troubleshooting.md)上瞭解如何。
+您也可以在測試或發佈歷程之前疑難排解錯誤。 在此頁面](troubleshooting.md)上瞭解如何[。
 
-如果您使用輸入動作，請在此頁面[&#128279;](troubleshooting-inbound.md)瞭解如何疑難排解。
+如果您使用輸入動作，請在此頁面](troubleshooting-inbound.md)瞭解如何疑難排解[。
 
 ## 檢查是否已正確傳送事件 {#checking-that-events-are-properly-sent}
 
@@ -53,7 +44,7 @@ ht-degree: 11%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
+不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}以疑難排解串流獲取API。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -83,12 +74,12 @@ ht-degree: 11%
 
 * **已捨棄事件 — 不符合資格條件** — 對於規則型事件，如果事件裝載不符合&#x200B;**資格條件** （例如，必要欄位空白或遺失，或欄位上的條件`isNotEmpty`失敗），則事件為&#x200B;**已接收但已捨棄**，且未觸發歷程。 記錄檔和Splunk追蹤可顯示已接收事件但已捨棄該事件，因為它不符合資格條件，並含有捨棄程式碼，例如`notSuitableInitialEvent`。 這是預期行為：若不符合資格條件，將會捨棄事件，且不會為該設定檔觸發歷程。 確認事件裝載包含預期的欄位和值，並確認事件設定中的規則符合您傳送的資料。 如果事件是由另一個歷程的&#x200B;**自訂動作**&#x200B;所觸發，請參閱自訂動作疑難排解中的[處理捨棄事件和閒置逾時](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts)。
 
-&#x200B;>>
+>>
 **針對具有串流對象的對象資格歷程**：如果您使用對象資格活動作為歷程進入點，請注意，由於時間因素、對象快速退出，或設定檔在發佈前已在對象中，並非所有符合對象資格的設定檔都一定會進入歷程。 深入瞭解[串流對象資格計時考量事項](audience-qualification-events.md#streaming-entry-caveats)。
 
 ### 驗證事件身分 {#verify-event-identity-and-rule-data-types}
 
-設定事件型歷程時，請確認裝載的身分欄位符合在事件[&#128279;](../event/about-creating.md#select-the-namespace)中選取的名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。 同樣地，如果事件具有&#x200B;**資格條件** （例如，欄位必須是非空白的），則不符合該條件的事件為&#x200B;**捨棄**，且不會觸發歷程；記錄檔可能會顯示捨棄的程式碼，例如`notSuitableInitialEvent`。
+設定事件型歷程時，請確認裝載的身分欄位符合在事件](../event/about-creating.md#select-the-namespace)中選取的[名稱空間。 如果事件包含設定檔比對的欄位，請驗證事件條件中的&#x200B;**字母大小寫**&#x200B;和&#x200B;**資料型別**&#x200B;是否完全符合傳入資料。 例如，如果事件結構描述將`roStatus`定義為字串，則歷程規則也必須將其評估為字串。 不相符的資料型別（例如，字串與整數）會導致規則評估失敗，並捨棄有效事件。 同樣地，如果事件具有&#x200B;**資格條件** （例如，欄位必須是非空白的），則不符合該條件的事件為&#x200B;**捨棄**，且不會觸發歷程；記錄檔可能會顯示捨棄的程式碼，例如`notSuitableInitialEvent`。
 
 若要在[!DNL Journey Optimizer]中驗證您的事件條件，請在事件設定中使用裝載預覽，並確保規則中的型別和值符合裝載結構。 瞭解如何[預覽承載](../event/about-creating.md#preview-the-payload)和[設定規則型事件](../event/about-creating.md)。
 
@@ -252,3 +243,51 @@ ht-degree: 11%
 如果已傳送電子郵件中的追蹤URL包含空白的預留位置，例如`cid=em-acou-adob{}`，這可能表示無法解析內容欄位，例如`context.system.source.actionId`。 這通常發生在歷程關閉且相關產品變更後尚未重新發佈時 — 重新發佈的歷程只會正確填入追蹤URL中的這些內容欄位。
 
 若要解決此問題，請重新發佈歷程（[建立新版本並發佈](publish-journey.md#journey-create-new-version)），或從頻道設定或電子郵件內容中的[URL追蹤引數](../email/url-tracking.md)移除受影響內容欄位的參考。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面為Adobe Journey Optimizer中即時歷程執行的完整疑難排解參考，涵蓋事件傳送、設定檔專案失敗、測試模式轉換問題、捨棄事件、重複步驟事件記錄檔、訊息傳送檢查，以及儀表板量度差異。
+
+**意圖：**
+* 檢查裝載結構、標題和資格條件，以診斷事件未觸發歷程專案的原因
+* 驗證設定檔是否正在進入及進行即時或測試模式歷程
+* 解決未來開始日期或身分名稱空間設定錯誤所導致的測試模式轉換失敗
+* 瞭解並處理封鎖之歷程執行個體的`maxInstanceStackEventsReached`捨棄原因
+* 識別並正確查詢後端自動縮放導致的重複歷程步驟事件記錄專案
+* 透過檢查歷程報告和自訂動作呼叫結果來調查缺少的訊息
+* 修正已關閉歷程之電子郵件中的空白追蹤URL預留位置
+
+**字彙表：**
+* **歷程步驟事件**：記錄歷程中每個執行之設定檔步驟的資料集，用於報告和偵錯&#x200B;*（產品特定）*
+* **notSuitableInitialEvent**：已收到表示事件的捨棄代碼，但因不符合資格條件而捨棄&#x200B;*（產品特定）*
+* **maxInstanceStackEventsReceived**：表示每個設定檔歷程執行個體事件棧疊限制10的捨棄程式碼已超過&#x200B;*（產品特定）*
+* **isValidTransition**：歷程技術詳細資料中的僅限UI屬性；null值可能表示未來的開始日期或損壞的節點連線，但不會影響後端處理&#x200B;*（產品特定）*
+* **資格條件**：在事件上定義的規則，必須滿足該規則才能觸發歷程；若未滿足此條件，則會捨棄事件
+* **重新平衡**： AJO微服務中的後端自動縮放作業，可建立具有不同值`_id`的重複Journey Step事件記錄檔專案
+
+**護欄：**
+* 在歷程的作用中日期/時間範圍以外傳送的事件會無訊息地捨棄，不會出現錯誤訊息
+* 每個設定檔歷程執行個體事件棧疊限製為10個事件；超過此限制會導致事件與`maxInstanceStackEventsReached`一起捨棄
+* 具有不同`_id`值的重複歷程步驟事件專案是預期的系統行為，不表示訊息重複
+* 控制面板概觀量度僅包含過去24小時內具有流量的歷程；量度可能需要最多30分鐘才能重新整理
+* 產品變更後尚未重新發佈的已關閉歷程可能會在追蹤URL中產生空白預留位置
+
+**術語：**
+* 正式名稱：歷程步驟事件 — 首字母縮寫：none — 變體：步驟事件，歷程執行記錄
+* 正式名稱：資格條件 — 縮寫：無 — 變體：事件資格規則、事件條件
+* 同義字：「重新平衡」=「自動縮放」（後端作業造成重複記錄專案）
+* 請勿混淆：「重複`_id`」≠「來自重新平衡的重複記錄專案」 — true重複專案共用相同的`_id`；重新平衡重複專案有不同的`_id`值
+
+**常見問題集：**
+* **問：為什麼我的事件沒有觸發歷程，即使它們已成功傳送？**  — 檢查歷程是否為即時或處於測試模式、裝載符合事件結構描述結構、符合資格條件且包含正確的標頭(`X-gw-ims-org-id`、`Content-type`)。
+* **問：為什麼測試設定檔會進入歷程但不會前進到超過第一個步驟？**  — 最常見的原因是歷程開始日期設定在未來；事件會在作用中日期範圍外自動捨棄。 同時確認測試設定檔標幟與身分名稱空間相符。
+* **問：`maxInstanceStackEventsReached`是什麼意思？**  — 歷程執行階段已達到特定設定檔執行個體的內部10事件棧疊限制，通常是因為長時間執行的步驟會阻止處理。 減少長時間的等待、去除重複的上游事件，或將案例分割為多個歷程。
+* **問：我在歷程步驟事件中看到重複的列 — 發生錯誤嗎？**  — 否。 需要不同`_id`值的重複專案，且結果來自後端自動縮放。 實際只傳送一封郵件；請使用`ajo_message_feedback_event_dataset`進行驗證。
+* **問：為什麼電子郵件中的追蹤URL會顯示空白的預留位置，例如`cid=em-acou-adob{}`？**  — 歷程在產品變更後已關閉且未重新發佈；無法解析內容欄位。 重新發佈歷程或從URL追蹤引數中移除受影響的內容欄位參考。
+* **問：為什麼[概觀]儀表板顯示的數字與[瀏覽]索引標籤不同？**  — 儀表板只會計算過去24小時內具有流量的歷程，量度最多需要30分鐘才能重新整理，而且存取許可權可能會限制可見度。
+
++++

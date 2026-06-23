@@ -11,23 +11,16 @@ keywords: 活動，條件，畫布，歷程
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1969
-ht-degree: 15%
+source-wordcount: 2629
+ht-degree: 11%
 
 ---
 
@@ -50,7 +43,7 @@ ht-degree: 15%
 >
 >在歷程中建立條件路徑的新工具是[最佳化](optimize.md)活動。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從 UI 中移除。 現在，所有條件式邏輯都可透過此頁面上顯示的「最佳化活動」條件來處理。
 >
->如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B;條件&#x200B;]&#x200B;**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
+>如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**[!UICONTROL &#x200B;條件&#x200B;]**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
 
 ## 新增條件。 {#add-condition-activity}
 
@@ -75,7 +68,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 管理條件路徑 {#condition_paths}
 
@@ -222,6 +215,52 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 ➡️ **實際檢視：**&#x200B;瞭解如何使用時間和一週中的某天條件，[只在工作日傳送電子郵件](weekday-email-uc.md)。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何在Journey Optimizer的「最佳化」活動中設定條件，涵蓋五種條件型別：資料Source、時間、百分比分割、日期和設定檔上限，可根據規則、時間或對象成員資格將設定檔路由至不同的歷程路徑。
+
+**意圖：**
+* 使用最佳化活動新增條件至歷程並選取條件方法
+* 建立多個分支路徑並管理其在歷程畫布中的優先順序
+* 使用運算式編輯器設定資料Source條件，以評估設定檔或事件屬性
+* 設定時間條件，以根據一天中的小時或星期幾路由設定檔
+* 套用設定檔上限以限制沿著特定路徑繞線的設定檔數
+* 使用對象成員資格檢查作為歷程路徑中的條件
+
+**字彙表：**
+* **最佳化活動**：取代先前條件活動的目前歷程活動；所有條件分支邏輯現在已透過其方法下拉式清單&#x200B;*（產品特定）*&#x200B;設定
+* **資料來源條件**：條件方法，使用運算式編輯器&#x200B;*（產品特定）*&#x200B;評估資料來源或歷程事件的欄位
+* **百分比分割**：使用統計Java隨機機制&#x200B;*（產品專屬）*&#x200B;將設定檔隨機分散到各個路徑的條件方法
+* **設定檔上限**：條件方法，一旦在名義路徑&#x200B;*（產品專屬）*&#x200B;上達到定義的最大計數，就會將設定檔路由到替代路徑
+* **名義路徑**：與設定檔上限條件關聯的主要歷程路徑；其優先順序一律高於替代路徑&#x200B;*（產品特定）*
+
+**護欄：**
+* 在設定檔存放區中有兩個以上跨裝置身分的設定檔條件評估失敗
+* 沒有擷取資料的結構描述欄位會解譯為Null；對於這類欄位，isEmpty()和isNull()會評估為true
+* 時區是在歷程層級定義，而不是在個別條件層級
+* 「顯示其他案例的路徑」選項在「百分比分割」條件中無法使用
+* 設定檔上限預設為1,000；在歷程複製或建立新版本時，計數器會重設，但不會在重複發生之間重設
+* 對於超過10,000的上限，請注入至少1.3倍的上限；對於低於10,000的上限，請注入至少1,000倍加上上限
+* 設定檔上限未在測試模式中套用；在測試模式中，頂部分支一律被選擇為「百分比分割」
+
+**術語：**
+* 正式名稱：條件 — 縮寫：無 — 變體：條件活動、條件方法、條件分支
+* 同義字：「最佳化活動（條件方法）」=「先前的條件活動」
+* 請勿混淆：「百分比分割」≠「設定檔上限」（百分比分割會以統計方式分發所有設定檔；設定檔上限會在計數臨界值後停止路由傳送到名義路徑）
+
+**常見問題集：**
+* **問：條件活動已從我的UI消失 — 取代它的是什麼？** — 「最佳化」活動已取代「條件」活動。 從「方法」下拉式清單中選取「條件」，以取得相同的行為。 包含「條件」活動的現有歷程會持續運作，現在會以「最佳化」圖示顯示。
+* **問：當多個路徑符合設定檔的資格時，會採用哪個路徑？**  — 僅執行第一個符合條件的路徑（畫布上的最高位置）；您可以透過垂直重新排序路徑來重新排列優先順序。
+* **問：為什麼我的isEmpty()條件會意外評估為true？**  — 如果結構描述欄位存在，但尚未為其擷取任何資料，Journey Optimizer會將其解譯為Null，導致isEmpty()和isNull()傳回true。
+* **問：設定檔上限計數器是否會在週期性歷程中重設？**  — 否，計數器不會在重複發生之間重設；它只會在重複歷程或建立新版本時重設。
+* **問：我可以使用Adobe Experience Platform對象作為條件嗎？**  — 是，拖放「最佳化」活動、選取「資料來源條件」、新增路徑，然後從運算式編輯器的「對象」節點拖曳對象。
+
++++

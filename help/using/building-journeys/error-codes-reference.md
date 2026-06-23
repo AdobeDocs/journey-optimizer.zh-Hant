@@ -11,9 +11,9 @@ keywords: 錯誤，程式碼，疑難排解，歷程，行銷活動，訊息
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 3%
 
 | 錯誤碼 | 說明 | 根本原因 | 解決方法 |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | 超過工作流程步驟的最大執行次數（例如IP相似性布建步驟逾時） | 工作流程/布建工作未在允許的重試/時間內完成，通常是因為基礎架構/服務延遲或暫時性後端問題 | &#x200B;1. 請稍後重試<br/>2。 檢查[Adobe Status](https://status.adobe.com/zh-tw/)是否有中斷情形<br/>3。 透過工作流程/工作/組織詳細資訊<br/>4向上呈報至Adobe支援。 提供記錄檔和網路擷取（若有）<br/><br/>**相關檔案**： [歷程疑難排解](troubleshooting.md) |
+| **CJMRT-110001-500** | 超過工作流程步驟的最大執行次數（例如IP相似性布建步驟逾時） | 工作流程/布建工作未在允許的重試/時間內完成，通常是因為基礎架構/服務延遲或暫時性後端問題 | &#x200B;1. 請稍後重試<br/>2。 檢查[Adobe Status](https://status.adobe.com/)是否有中斷情形<br/>3。 透過工作流程/工作/組織詳細資訊<br/>4向上呈報至Adobe支援。 提供記錄檔和網路擷取（若有）<br/><br/>**相關檔案**： [歷程疑難排解](troubleshooting.md) |
 | **CJMRT-000071-400** | 歷程/測試事件或API呼叫期間的錯誤請求 | 裝載/引數格式錯誤或遺失；輸入參考不存在的或非使用中的資源 | &#x200B;1. 檢閱要求內文以取得錯誤詳細資料<br/>2。 正確的參考/引數<br/>3。 請移除進階組態並重試<br/>4。 逐一新增功能以識別問題&#x200B;<br/><br/>**相關檔案**： [歷程疑難排解](troubleshooting.md)，[事件組態](../event/about-events.md) |
 | **CJMRT-000013-401** | 訊息執行階段作業/API事件期間發生未獲授權的錯誤 | 驗證失敗： Token已到期、缺少許可權，或整合/使用者已失去環境存取權 | &#x200B;1. 驗證許可權和角色<br/>2。 重新整理驗證Token<br/>3。 使用已知有效的使用者/服務帳戶<br/>4。 檢閱產品設定檔指派&#x200B;<br/><br/>**相關檔案**： [許可權](../administration/permissions.md) |
 | **CJMRT-080605-400** | 來自歷程執行階段的錯誤請求（例如，節點觸發器、動作等） | 設定會參考已移除/重新命名或過時的功能/範本/頻道 | &#x200B;1. 驗證所有資源參考<br/>2。 稽核歷程組態和功能旗標<br/>3。 更新中斷的參考<br/>4。 檢閱最近的系統更新和移轉&#x200B;<br/><br/>**相關檔案**： [歷程建立](journey-gs.md) |
@@ -91,7 +91,7 @@ ht-degree: 3%
 | 錯誤碼 | 說明 | 根本原因 | 解決方法 |
 |------------|-------------|-----------|-----------|
 | **CJMMAS-1732-500** | 校訂失敗 — 使用AEM資產傳送校訂/測試時所有資產未發佈 | 最近發佈的資產尚未在AJO中；資產ID不相符；跨存放庫使用；AEM同步延遲 | &#x200B;1. 僅使用來自正確存放庫/環境<br/>2的已發行資產ID。 留出時間在AEM與AJO<br/>3之間同步。 請使用已知良好的資產<br/>4重試。 在AEM <br/><br/>**相關檔案**&#x200B;中驗證資產發佈狀態： [Assets整合](../integrations/assets.md) |
-| **CJMMAS-1069-500** | 儲存或發佈訊息範本時發生內部錯誤 | 後端例外狀況（基礎架構/服務錯誤或內容問題）；不支援的標籤/功能 | &#x200B;1. 簡化或降低範本複雜度<br/>2。 以累加步驟重新新增內容以識別問題<br/>3。 檢查[Adobe Status頁面](https://status.adobe.com/zh-tw/)<br/>4。 移除不支援的功能或標籤&#x200B;<br/><br/>**相關檔案**： [內容範本](../content-management/content-templates.md) |
+| **CJMMAS-1069-500** | 儲存或發佈訊息範本時發生內部錯誤 | 後端例外狀況（基礎架構/服務錯誤或內容問題）；不支援的標籤/功能 | &#x200B;1. 簡化或降低範本複雜度<br/>2。 以累加步驟重新新增內容以識別問題<br/>3。 檢查[Adobe Status頁面](https://status.adobe.com/)<br/>4。 移除不支援的功能或標籤&#x200B;<br/><br/>**相關檔案**： [內容範本](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | 儲存訊息、預設集或變體時發生錯誤請求 | 訊息中缺少必填欄位或設定錯誤 | &#x200B;1. 完成所有必要欄位（標示星號）<br/>2。 驗證訊息/預設集組態<br/>3。 檢查欄位值格式和限制<br/>4。 檢閱UI <br/><br/>**相關檔案**&#x200B;中的驗證訊息： [電子郵件頻道](../email/get-started-email.md)，[頻道介面](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | 訊息預設集編輯中無法處理的實體 | 驗證錯誤、不支援的欄位或不正確的語法 | &#x200B;1. 請更正語法/欄位錯誤，如指示所示<br/>2。 與已知良好組態比較<br/>3。 在儲存<br/>4之前使用訊息UI驗證。 檢閱檔案&#x200B;<br/><br/>**相關檔案**&#x200B;中的欄位需求： [訊息預設集](../configuration/channel-surfaces.md)，[電子郵件設定](../email/email-settings.md) |
 | **CJMMAS-1300-500** | 訊息製作發生內部錯誤 | 因基礎建設問題、大型內容或服務停機造成後端當機 | &#x200B;1. 簡化範本/內容（減少大小/複雜性）<br/>2。 請重試操作<br/>3。 逐步儲存工作<br/>4。 若為持續性，請升級至Adobe支援&#x200B;<br/><br/>**相關檔案**： [內容範本](../content-management/content-templates.md) |
@@ -189,16 +189,65 @@ ht-degree: 3%
 如果您遇到無法使用此指南解決的持續錯誤：
 
 1. **收集資訊**：收集錯誤碼、請求ID、時間戳記和要再現的步驟
-2. **檢查系統狀態**：如需已知的服務問題，請造訪[Adobe Status](https://status.adobe.com/zh-tw/){target="_blank"}
+2. **檢查系統狀態**：如需已知的服務問題，請造訪[Adobe Status](https://status.adobe.com/){target="_blank"}
 3. **搜尋檔案**：檢閱[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=zh-Hant){target="_blank"}以瞭解解決方案
-4. **參與社群**：在[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中張貼問題
+4. **參與社群**：在[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}中張貼問題
 5. **聯絡Adobe支援**： [提交支援票證](../start/user-interface.md#support-ticket-guidelines)並提供所有相關詳細資料
 
 >[!NOTE]
 >
->當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[[!DNL Adobe Journey Optimizer] 社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=zh-Hant){target="_blank"}。
+>當識別並記錄新程式碼時，此錯誤碼參考會持續更新。 如需最新資訊，請定期檢視[[!DNL Adobe Journey Optimizer] 社群部落格](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}。
 
 **相關主題**
 
-* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼的神秘面紗：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant){target="_blank"}
-* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼的神秘面紗：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=zh-Hant){target="_blank"}
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼的神秘面紗：第1部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [揭開 [!DNL Adobe Journey Optimizer] 錯誤碼的神秘面紗：第2部分](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;本頁是依服務首碼組織的標準化Adobe Journey Optimizer錯誤碼的參考指南，說明每個錯誤的根本原因，並提供逐步解決指南。
+
+**意圖：**
+
+* 識別哪個AJO服務使用錯誤碼中的服務首碼產生錯誤
+* 診斷並解決影響訊息傳遞的推播/傳輸錯誤(CJMPTS)
+* 疑難排解歷程執行或事件處理期間的歷程執行階段和API錯誤(CJMRT)
+* 修正建立、儲存或發佈訊息時的訊息編寫錯誤(CJMAS)
+* 在行銷活動啟動或核准期間解決行銷活動錯誤(CJMCMP)
+* 將持續性錯誤升級至Adobe支援，並提供正確資訊
+
+**字彙表：**
+
+* **服務前置詞**：AJO錯誤碼開頭的英數字元代碼，可識別產生錯誤的服務（例如CJMRT = Journey Runtime） *（產品特定）*
+* **HTTP狀態碼**：內嵌於AJO錯誤碼中的標準狀態碼（例如400 =錯誤請求、403 =禁止、422 =無法處理的實體、500 =內部伺服器錯誤）
+* **請求ID**：唯一識別碼與升級至Adobe支援&#x200B;*（產品專屬）*&#x200B;時所需的錯誤一起出現
+* **CJMRT**： Journey Runtime服務前置詞 — 歷程執行和API作業期間發生錯誤&#x200B;*（產品特定）*
+* **CJMMAS**：訊息編寫服務前置詞 — 訊息建立和發佈&#x200B;*（產品特定）期間發生錯誤*
+* **CJMPTS**：推播/傳輸服務前置詞 — 推播通知和訊息傳輸期間發生錯誤&#x200B;*（產品特定）*
+
+**護欄：**
+
+* 電子郵件變體必須包含選擇退出/取消訂閱連結；省略它會觸發CJMMAS-2001-200。
+* 停止歷程需要管理歷程許可權（與涉及許可權的CJMRT錯誤相關）。
+* 子網域委派的DNS傳播最多可能需要72小時（與CJMRT-080608-400相關）。
+* 資料集查詢活動的查詢索引鍵必須在進階模式（而非簡單模式）中定義。
+
+**術語：**
+
+* 正式名稱：錯誤碼 — 縮寫： n/a — 變體：錯誤訊息，錯誤識別碼
+* 同義字： &quot;service prefix&quot; = &quot;error prefix&quot; = &quot;component identifier&quot;
+* 請勿混淆：「400 Bad Request」≠「422 Unprocessable Entity」 — 400表示輸入格式錯誤； 422表示有效格式，但每個結構描述規則的內容無效
+
+**常見問題集：**
+
+* **問：我如何知道哪個AJO服務導致錯誤？**  — 讀取錯誤碼開頭的服務首碼：CJMPTS （推播/傳輸）、CJMRT （歷程執行階段）、CJMMAS （訊息編寫）、CJMCMP （行銷活動）、CJMTL （傳輸層）、CJMRPS （報告/布建）。
+* **問：收到500系列錯誤時該怎麼辦？**  — 請於數分鐘後重試，檢查Adobe Status是否有中斷情形，然後使用完整錯誤代碼向上呈報至Adobe支援，如果問題仍然存在，請索取ID。
+* **問：為何CJMMAS-2001-200會顯示錯誤橫幅，即使狀態為「success」亦然？**  — 電子郵件變體缺少必要的選擇退出/取消訂閱連結；請將其新增至所有變體和語言版本。
+* **問：在聯絡Adobe支援之前，我應該收集哪些資訊？**  — 收集完整的錯誤代碼、請求ID、時間戳記、要再現的步驟以及任何相關的設定詳細資料。
+* **問：導致CJMRT-030012-422的原因是什麼？**  — 無效的輸入資料，例如參照不存在的對象、事件或屬性；確認所有參照的物件都存在且作用中。
+
++++

@@ -11,22 +11,15 @@ keywords: 設定檔，更新，歷程，活動
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 6%
+source-wordcount: 1491
+ht-degree: 4%
 
 ---
 
@@ -47,7 +40,7 @@ ht-degree: 6%
 
 ## 資料集選取範圍 {#dataset-selection}
 
-**[!UICONTROL 更新設定檔]**&#x200B;活動需要專用的資料集來儲存更新。 由於此活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"} （而非Datalake），所有更新應該儲存在專為&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作指定的[設定檔啟用資料集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
+**[!UICONTROL 更新設定檔]**&#x200B;活動需要專用的資料集來儲存更新。 由於此活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} （而非Datalake），所有更新應該儲存在專為&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作指定的[設定檔啟用資料集](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}中。
 
 >[!CAUTION]
 >
@@ -114,6 +107,56 @@ ht-degree: 6%
 * 您無法使用&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作來產生[體驗事件](../event/about-events.md)，例如購買。
 * 如同任何其他動作，您可以定義[替代路徑，以防發生錯誤或逾時](using-the-journey-designer.md#paths)。 兩個動作無法並行放置。
 * 不保證個人資料更新可立即用於相同歷程的下游。 請避免在寫入欄位的&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作之後直接放置讀取欄位的動作，因為更新值可能尚未反映出來。
-* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}，不會更新Data Lake。
+* **[!UICONTROL 更新設定檔]**&#x200B;活動只會更新[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}，不會更新Data Lake。
 * 單一&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作中最多可更新五個欄位/值組。 使用&#x200B;**[!UICONTROL 更新其他欄位]**&#x200B;按鈕以新增更多配對。
 * 為獲得更好的效能，請將多個屬性更新群組為單一&#x200B;**[!UICONTROL 更新設定檔]**&#x200B;動作，而不是為每個屬性使用一個動作。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何設定更新設定檔活動，以在客戶進行歷程時，使用來自歷程事件、資料來源或靜態值的資料來擴充或修正現有的Adobe Experience Platform設定檔。
+
+**意圖：**
+
+* 設定更新設定檔活動，以在歷程中修改現有的設定檔屬性
+* 選取專用於更新設定檔動作的已啟用設定檔的資料集
+* 將歷程事件、資料來源或靜態值的欄位值對應到設定檔屬性
+* 在單一活動中更新多個設定檔屬性（最多五個）
+* 在歷程測試模式下測試設定檔更新
+
+**字彙表：**
+
+* **更新設定檔活動**：當設定檔經過歷程&#x200B;*（產品特定）*&#x200B;時，此動作活動會即時將新值寫入Adobe Experience Platform設定檔中的現有欄位
+* **設定檔存放區**：包含即時客戶設定檔資料的Adobe Experience Platform存放區，與資料湖&#x200B;*（產品專用）*&#x200B;不同
+* **身分名稱空間**：識別身分內容（例如電子郵件、CRM ID）的標籤，這些內容用於比對要更新的設定檔&#x200B;*（產品特定）*
+* **啟用設定檔的資料集**：設定為貢獻記錄給統一設定檔&#x200B;*（產品專用）*&#x200B;的Adobe Experience Platform資料集
+
+**護欄：**
+
+* 「更新設定檔」動作只能用於已定義名稱空間的歷程中。
+* 動作只會更新現有的XDM欄位，無法建立新的設定檔欄位。
+* 僅支援簡單欄位型別（字串、數字、布林值）；不支援列舉、物件陣列和複雜集合。
+* 該動作無法產生體驗事件，例如購買。
+* 在單一「更新設定檔」動作中最多可更新五個欄位/值組。
+* 請勿與批次或串流擷取流程共用專用資料集，因為其他擷取執行將會覆寫更新設定檔變更。
+* 設定檔更新可能不會在同一歷程執行中的下游立即可用。
+* 活動只會更新設定檔存放區，不會更新資料湖。
+
+**術語：**
+
+* 正式名稱：更新設定檔 — 縮寫：無 — 變體：更新設定檔活動、更新設定檔動作
+* 同義字： &quot;Profile Store&quot; = &quot;Real-Time Customer Profile Store&quot;
+* 請勿混淆：「設定檔存放區」（由此活動更新）≠「資料湖」（此活動未更新）
+
+**常見問題集：**
+
+* **問：更新設定檔活動可以建立新的設定檔欄位嗎？**  — 否，它只能更新已存在於所選XDM設定檔結構描述中的欄位。
+* **問：為什麼我應使用專用的資料集來更新設定檔動作？**  — 使用批次或串流擷取共用資料集，可能會導致其他擷取執行覆寫更新設定檔活動所做的變更。
+* **問：相同歷程中的下游活動是否可以立即看到設定檔更新？**  — 否，如果動作在更新設定檔活動寫入欄位後立即讀取相同欄位，則更新值可能尚未反映。
+* **問：在單一更新設定檔動作中可以更新多少欄位？**  — 使用「更新其他欄位」按鈕時，最多可在單一活動中設定五個欄位/值組。
+* **問：設定檔更新是否適用於測試模式？**  — 是，在測試模式中，更新會在測試設定檔上立即生效，而且不會模擬。
+
++++

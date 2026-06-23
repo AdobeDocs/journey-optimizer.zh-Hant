@@ -10,17 +10,14 @@ keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 5%
+source-wordcount: 1001
+ht-degree: 3%
 
 ---
 
@@ -496,3 +493,51 @@ Datetimeonly可以與Datetimeonly比較。
 ```
 
 傳回&#x200B;_持續時間_ PT2H
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面是歷程進階運算式編輯器中可用運運算元的完整參考，涵蓋邏輯(`and`、`or`、`not`)、比較(`==`、`!=`、`>`、`>=`、`<`、`<=`、`is null`、`is not null`、`has null`)、算術(`+`、`-`、`/`、`*`、`%`)、數學型別檢查(`is numeric`、`is integer`、`is decimal`)、字串串連和日期算術運算子。
+
+**意圖：**
+
+* 使用邏輯運運算元`and`、`or`和`not`結合布林條件
+* 使用`is null` / `is not null`檢查欄位或運算式值是否為Null或不為Null
+* 使用`has null`運運算元偵測清單中的null值
+* 使用`>`、`>=`、`<`、`<=`、`==`和`!=`比較數值、日期時間和日期時間值
+* 使用`+`、`-`、`/`、`*`和`%`對數值執行算術
+* 使用`+`運運算元將期間新增至dateTime、dateTimeOnly或duration值
+
+**字彙表：**
+
+* **一元運運算元**：套用至單一運算元的運運算元；可以是左側（例如`not`）或右側（例如`is null`） *（產品特定）*
+* **二進位運運算元**：在兩個運算元（例如`and`， `==`， `+`） *（產品特定）*&#x200B;之間套用的運運算元
+* **具有null**：如果清單包含至少一個null專案&#x200B;*（產品特定）*，右邊一元運運算元會傳回true
+* **是數值/是整數/是十進位**：根據運算式&#x200B;*（產品特定）*&#x200B;的數值子型別傳回布林值的型別檢查運運算元
+
+**護欄：**
+
+* 使用乘法(`*`)時，兩個運算元必須是相同的數值型別（整數或兩個小數） — 混合型別會導致錯誤
+* 使用`+`運運算元進行日期算術時，運算式必須用括弧括住，以避免剖析錯誤
+* 比較運運算元(`>`、`>=`、`<`、`<=`)只在相容型別之間有效：具有Datetime的Datetime、具有DatetimeOnly的DatetimeOnly或具有數值的numeric — 禁止任何其他組合
+* 空白字串`""`不視為Null — `has null`會針對包含`""`的清單傳回False
+* `==`和`!=`運運算元在運算元之間不執行任何資料型別控制
+
+**術語：**
+
+* 正式名稱：運運算元 — 縮寫：無 — 變體：運算式運運算元、歷程運運算元
+* 同義字： `and` = &quot;logical AND&quot;；`or` = &quot;logical OR&quot;；`not` = &quot;logical NOT&quot;；`%` = &quot;modulo&quot;
+* 請勿混淆： `is null` （運算式沒有評估值） ≠ `== null` （不是有效的語法）； `has null` （清單包含null） ≠ `is null` （運算式本身為null）
+
+**常見問題集：**
+
+* **問：我可以直接將整數乘以十進位嗎？** — No； `*`的兩個運算元都必須是相同型別。 使用`3.0 * 4.0` （小數）或`3 * 4` （整數）。
+* **問：如何新增15分鐘至dateTime？**  — 使用`(toDateTime("...")) + (toDuration("PT15M"))`。
+* **問：`is null`與`has null`之間有何差異？** — `is null`檢查單一運算式是否沒有評估值；`has null`檢查清單是否包含至少一個null專案。
+* **問：`"" has null`是否傳回True？** — No；空白字串不會視為Null，因此結果為false。
+* **問：為什麼`3 * 4.0`會造成錯誤？** — `*`運運算元要求兩個運算元必須是相同的數值型別；不允許混合整數與小數。
+
++++
