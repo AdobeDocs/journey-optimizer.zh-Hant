@@ -9,24 +9,15 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 TQID: https://experienceleague.adobe.com/RmJeQGDGLOM5LbdRS4HQbWE7sttyT4jGsuyXF-BdB-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -51,6 +42,10 @@ ht-degree: 2%
 
 如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](#list-of-components-live)。
 
+>[!NOTE]
+>
+>即時報表和即時報表之間的短期差異是可預期的。 即時報表使用近乎即時資料摘要，而所有時間報表都需仰賴彙總資料。 如果發生衝突，請在協調兩個報表前至少等待兩個小時，因為資料通常會在該時間範圍內傳播到彙總檢視。
+
 ## 自訂儀表板 {#modify-dashboard}
 
 每個報告儀表板都可以透過調整大小或移除小工具來修改。 變更Widget只會影響目前使用者的儀表板。 其他使用者將看到自己的儀表板或預設設定的儀表板。
@@ -71,7 +66,7 @@ ht-degree: 2%
 
    ![](assets/report_modify_8.png)
 
-1. 按一下「移除&#x200B;**&#x200B;**」以移除任何您不需要的Widget。
+1. 按一下「移除&#x200B;****」以移除任何您不需要的Widget。
 
    ![](assets/report_modify_9.png)
 
@@ -91,7 +86,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為PDF檔案]
 
-1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。**&#x200B;**&#x200B;**&#x200B;**
+1. 從您的報表中，按一下[匯出]，然後選取[匯出]，並選取[PDF檔案]。********
 
    ![](assets/export_6.png)
 
@@ -105,7 +100,7 @@ ht-degree: 2%
 
 >[!TAB 將報表匯出為CSV檔案]
 
-1. 從您的報表按一下[匯出]&#x200B;**&#x200B;**，然後選取[CSV檔案]&#x200B;**&#x200B;**&#x200B;來產生整體報表層級的CSV檔案。
+1. 從您的報表按一下[匯出]****，然後選取[CSV檔案]****&#x200B;來產生整體報表層級的CSV檔案。
 
    ![](assets/export_4.png)
 
