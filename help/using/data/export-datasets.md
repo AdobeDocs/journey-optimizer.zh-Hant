@@ -9,27 +9,15 @@ level: Beginner
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1228
 ht-degree: 5%
 
 ---
@@ -54,17 +42,17 @@ Journey Optimizer可讓您與雲端儲存位置建立即時連線，以匯出資
 
 Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=zh-Hant){target="_blank"}
-* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=zh-Hant){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=zh-Hant){target="_blank"}
-* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=zh-Hant){target="_blank"}
-* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=zh-Hant){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=zh-Hant){target="_blank"}。
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [資料登陸區域](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}。
 
 
 ## 先決條件 {#prerequisites}
 
-若要匯出資料集，您需要下列[存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#permissions){target="_blank"}。 閱讀[存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=zh-Hant){target="_blank"}或連絡您的產品管理員以取得必要的許可權。
+若要匯出資料集，您需要下列[存取控制許可權](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"}。 閱讀[存取控制總覽](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"}或連絡您的產品管理員以取得必要的許可權。
 
 | 類別 | 權限 |
 |--|--|
@@ -78,9 +66,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 ![](assets/dataset-export-process.png)
 
-每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target="_blank"}中取得。
+每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}中取得。
 
-1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant#setup){target="_blank"}中瞭解如何建立新的目的地連線。
+1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}中瞭解如何建立新的目的地連線。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -104,7 +92,7 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
    <!--![](assets/dataset-export-review.png)-->
 
-匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證資料集匯出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant#verify){target="_blank"}。
+匯出完成後，資料集的內容會根據您設定的排程儲存在雲端儲存位置。 [瞭解如何驗證資料集匯出是否成功](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}。
 
 ## 可供匯出的可用資料集 {#datasets}
 
@@ -135,3 +123,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 | 歷程步驟事件 | 擷取從Journey Optimizer產生並供Reporting等服務使用的所有歷程步驟體驗事件。 |
 | 歷程 | 中繼資料資料集存放歷程中每個步驟的資訊 |
 | ODE DecisionEvents - prod decisioning | 每當我們根據請求做出決定時，就會將其計為決定事件 |
+
+## 報告資料集和裝載中繼資料對應 {#reporting-payload-metadata-mapping}
+
+若要針對程式碼型體驗和決定回應建立自訂報表，請使用&#x200B;**`scopeDetails.correlationID`**&#x200B;將互動或意見回饋資料聯結至&#x200B;**AJO實體資料集**，並擷取促銷活動、歷程和訊息中繼資料。 使用&#x200B;**`exdRequestID`**&#x200B;將單一決定請求連結至分析事件。
+
+如果`correlationID`遺失（例如，保留對象），請使用匯出的資料集和記錄的加入金鑰，而非解碼未記錄的裝載欄位。 [實體資料集查詢範例](datasets-query-examples.md#entity-dataset)說明如何在`correlationID`上聯結。
