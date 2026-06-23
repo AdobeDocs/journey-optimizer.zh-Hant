@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 15%
+source-wordcount: 1668
+ht-degree: 10%
 
 ---
 
@@ -885,5 +885,54 @@ ht-degree: 15%
 `uuid()`
 
 傳回「79e70b7f-8a85-400b-97a1-9f9826121553」。
+
++++
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面記錄了AJO歷程運算式中可用的所有字串函式，涵蓋文字搜尋、比較、轉換、擷取、驗證、取代、分割和產生唯一識別碼。
+
+**意圖：**
+* 使用`concat`串連兩個或多個字串
+* 使用`contain`或`containIgnoreCase`搜尋字串中的子字串（區分大小寫或不區分大小寫）
+* 比較兩個字串，但忽略使用`equalIgnoreCase`或`notEqualIgnoreCase`的大小寫
+* 使用`startWith`、`endWith`及其不區分大小寫的變體，檢查字串的開頭或結尾是否為特定首碼或尾碼
+* 使用`substr`依索引位置擷取子字串
+* 使用`replace`或`replaceAll`取代字串中模式的第一次或所有事件
+* 使用`split`以分隔符號將字串分割為權杖清單
+* 使用`uuid`針對唯一識別碼需求產生隨機UUID
+* 使用`isEmpty`或`isNotEmpty`檢查字串是否為空白或非空白
+
+**字彙表：**
+* **RegExp**：在`replace`、`replaceAll`和`matchRegExp`中當作目標引數使用的規則運算式模式 — 特殊字元必須以`\\`逸出
+* **UUID**：通用唯一識別碼 — `uuid()`傳回的隨機產生字串識別碼
+* **substr**：透過指定開始索引和選擇性結束索引（以零為基礎）來擷取字串的一部分
+
+**護欄：**
+* 將`replace`與`replaceAll`中的`target`引數視為RegExp；特殊字元（如`|`、`.`）必須以`\\`逸出
+* `replace`僅取代第一個相符專案；使用`replaceAll`取代每個專案
+* `isEmpty`傳回False作為Null值（不是True）；Null不被視為空字串
+* 找不到相符專案時，`indexOf`和`lastIndexOf`會傳回–1
+* 字串索引位置以零為基礎（第一個字元位於位置0）
+
+**術語：**
+* 正式名稱：字串函式 — 首字母縮寫：none — 變體：文字函式，字串操作函式
+* 同義字： &quot;contain&quot; = &quot;substring check&quot;；&quot;split&quot; = &quot;tokenize string&quot;；&quot;trim&quot; = &quot;strip whitespace&quot;
+* 請勿混淆：「replace」（僅限第一次發生）≠「replaceAll」（所有發生）
+* 請勿混淆：「indexOf」（第一個發生位置）≠「lastIndexOf」（最後一個發生位置）
+* 請勿混淆：「isEmpty」（僅對零長度字串為true）≠null檢查（對null，isEmpty會傳回false）
+* 請勿混淆：「equalIgnoreCase」（在相等忽略大小寫時傳回true）≠「notEqualIgnoreCase」（在不同的忽略大小寫時傳回true）
+
+**常見問題集：**
+* **問：如何檢查字串是否包含子字串（不論大小寫為何）？**  — 使用`containIgnoreCase("myString", "searchTerm")`，如果在任何情況下都能找到搜尋字詞，則會傳回true。
+* **問：`replace`與`replaceAll`之間有何差異？** — `replace`僅取代第一個相符專案；`replaceAll`取代字串中的每個專案。
+* **問：為什麼我需要在`replace`中逸出`|`字元？**  — 目標引數會被視為規則運算式；`|`是特殊的RegExp字元，必須以`\\|`逸出，才能被視為常值管道。
+* **問： `isEmpty`是否為null傳回true？** — No，`isEmpty`傳回False代表Null；它只傳回True代表零長度字串`""`。
+* **問：如何從「20.45.2.3434」之類的版本字串擷取主要版本號碼？**  — 使用`getListItem(split(@event{event.appVersion}, "\\."), 0)`以點分割並擷取第一個元素。
+* **問：如何在歷程運算式中產生唯一識別碼？**  — 使用`uuid()`，這會傳回隨機產生的UUID字串，而不需要引數。
 
 +++

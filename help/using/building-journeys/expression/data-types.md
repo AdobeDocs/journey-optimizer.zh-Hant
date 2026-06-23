@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 5%
+source-wordcount: 1124
+ht-degree: 3%
 
 ---
 
@@ -130,7 +130,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **說明**
 
@@ -158,7 +158,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **說明**
 
@@ -348,3 +348,50 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明歷程進階運算式編輯器支援的每個資料型別（字串、整數、小數、布林值、dateOnly、dateTimeOnly、dateTime、duration和list）及其JSON格式、序列化規則和常值表示語法。
+
+**意圖：**
+
+* 在寫入歷程運算式時，識別每種資料型別的正確常值語法
+* 瞭解`dateOnly`、`dateTimeOnly`和`dateTime`型別之間的差異，以及何時使用各型別
+* 使用ISO-8601格式或毫秒搭配`toDuration()`函式表示持續時間值
+* 使用方括弧語法建構清單運算式以用於集合運算
+* 使用轉換函式(`toDateTime`， `toDateTimeOnly`， `toDuration`， `toDateOnly`)建立型別常數
+
+**字彙表：**
+
+* **dateOnly**：不含時間或時區的日期，格式為YYYY-MM-DD；適用於生日或行事曆日期&#x200B;*（產品特定）*
+* **dateTimeOnly**：沒有時區資訊的日期和時間；無法表示沒有位移&#x200B;*的特定時刻（產品特定）*
+* **dateTime**：包含UTC位移（代表特定時刻）的日期時間常數；也可以從紀元整數&#x200B;*（產品特定）*&#x200B;建立
+* **duration**：以毫秒為模型化的時間型金額；使用ISO-8601 `PnDTnHnMn.nS`格式；不支援年度和月份&#x200B;*（產品特定）*
+* **list**：相同型別的運算式集合（以逗號分隔），以方括弧&#x200B;*（產品特定）*&#x200B;分隔
+
+**護欄：**
+
+* 「持續時間」僅支援毫秒、秒、分鐘、小時和天 — 不支援年和月，因為它們不是固定的時間量
+* `duration`值必須包裝在`toDuration()`中 — 它不能表示為純文字
+* `list`中的所有運算式都必須有相同的型別 — 不支援多型
+* `dateTimeOnly`無法表示沒有額外位移或時區的即時時間
+
+**術語：**
+
+* 正式名稱：資料型別 — 縮寫：無 — 變體：運算式資料型別、歷程資料型別
+* 同義字：&quot;dateTime&quot; = &quot;date-time with timezone&quot;；&quot;dateTimeOnly&quot; = &quot;local date-time&quot;
+* 請勿混淆： `dateOnly` （無時間） ≠ `dateTimeOnly` （日期+時間，無時區） ≠ `dateTime` （日期+時間+時區/位移）
+
+**常見問題集：**
+
+* **問：`dateTimeOnly`與`dateTime`之間有何差異？** — `dateTimeOnly`沒有時區或位移，無法表示精確的瞬間；`dateTime`包含UTC位移並代表特定時間點。
+* **問：如何表示2天3小時的持續時間？**  — 使用`toDuration("P2DT3H")`。
+* **問：我可以在清單運算式中混合整數和字串嗎？** — No；清單中的所有運算式都必須是相同的型別。
+* **問：如何從紀元時間戳記（以毫秒為單位）建立`dateTime`？**  — 使用`toDateTime(<epoch in milliseconds>)`，例如`toDateTime(1560762190189)`。
+* **問：`true`或`True`是否為正確的布林值常值？**  — 使用小寫`true`或`false`；大寫變體無效。
+
++++

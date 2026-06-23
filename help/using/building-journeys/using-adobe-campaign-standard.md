@@ -28,10 +28,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 953
-ht-degree: 8%
+source-wordcount: 1484
+ht-degree: 5%
 
 ---
 
@@ -140,3 +140,51 @@ ht-degree: 8%
 >您無法在個人化資料中傳遞集合。 如果交易式推播需要集合，則無法運作。 另請注意，個人化資料採用預期格式（例如：字串、小數等）。 您必須注意遵守這些預期的格式。
 
 這些是[!DNL Adobe Campaign]標準訊息中使用的交易式範本預期的欄位。 這些欄位可用於個人化您的訊息、套用條件式格式，或挑選特定的訊息變體。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何透過Campaign異動訊息範本，在Journey Optimizer歷程中使用內建的Adobe Campaign Standard電子郵件、簡訊和推播動作活動。
+
+**意圖：**
+
+* 使用Adobe Campaign Standard整合設定歷程中的電子郵件、簡訊或推播動作活動
+* 選擇並將Campaign Standard交易式訊息範本對應到歷程欄位
+* 將歷程事件或資料來源中的地址和Personalization資料欄位對應到訊息裝載
+* 處理事件和設定檔異動電子郵件範本的取消訂閱
+* 設定Campaign Standard推播動作的推播通知目標平台和註冊權杖
+
+**字彙表：**
+
+* **異動訊息**： Adobe Campaign Standard根據事件&#x200B;*（產品特定）*&#x200B;傳送觸發的即時訊息（電子郵件、簡訊、推播）的功能
+* **rtEvent**： Adobe Campaign Standard中的即時事件交易式訊息範本，用於事件型訊息&#x200B;*（產品特定）*
+* **設定檔交易式範本**：使用設定檔資料進行收件者解析和取消訂閱處理&#x200B;*（產品特定）*&#x200B;的Campaign Standard交易式訊息範本
+* **註冊Token**：將推播通知定位至特定行動應用程式安裝&#x200B;*（產品特定）*&#x200B;所需的裝置層級識別碼
+
+**護欄：**
+
+* 內建動作必須在使用前進行設定；請參閱動作設定頁面。
+* 必須發佈Campaign Standard交易式訊息及其相關事件，範本才能在Journey Optimizer中使用。
+* 無法在Personalization資料欄位中傳遞集合。
+* 對於事件型(rtEvent)範本，在傳送之前必須以條件手動處理取消訂閱管理。
+* 若為設定檔推送訊息，系統會自動擷取「目標」欄位，「目標」類別僅會顯示在事件訊息中。
+* 必須先使用Campaign Standard設定行動應用程式，才能使用推播活動。
+
+**術語：**
+
+* 正式名稱：Adobe Campaign Standard — 首字母縮寫：ACS — 變體：Campaign Standard
+* 同義字：&quot;event transactional message&quot; = &quot;rtEvent&quot;；&quot;real-time transactional message&quot; = &quot;rtEvent&quot;
+* 請勿混淆：「設定檔交易式範本」（自動處理取消訂閱）≠「事件交易式範本」（必須手動處理取消訂閱）
+
+**常見問題集：**
+
+* **問：透過Adobe Campaign Standard整合可以使用哪些管道？**  — 電子郵件、簡訊和推播通知通道可作為內建動作活動使用。
+* **問：在Journey Optimizer中使用交易式訊息之前，是否需要在Campaign Standard中發佈該訊息？**  — 是，交易式訊息及其相關事件都必須發佈；未發佈的訊息將無法使用，即使顯示在介面中亦然。
+* **問：設定檔電子郵件範本的取消訂閱處理方式為何？**  — 使用設定檔交易式範本時，Adobe Campaign Standard會自動處理取消訂閱；在範本中納入取消訂閱連結內容區塊。
+* **問：我可以將集合傳遞為個人化資料嗎？**  — 否，無法在Personalization資料中傳遞集合；交易式訊息不能預期集合。
+* **問：我應將事件型電子郵件的收件者地址對應到何處？**  — 活動設定窗格中的位址類別僅對事件交易式訊息可見；對於設定檔訊息，會自動擷取位址。
+
++++

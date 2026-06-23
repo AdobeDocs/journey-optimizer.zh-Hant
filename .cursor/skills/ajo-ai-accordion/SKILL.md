@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: 在每個Markdown檔案結尾加上AI Assistant摺疊式功能表區段，以豐富Adobe Journey Optimizer檔案頁面。 讀取每個頁面，根據頁面主題自動產生相關的AI Assistant內容，並將其插入為可摺疊的摺疊式功能表。 當使用者想要將AI資訊新增至AJO檔案、透過AI內容擴充AJO Markdown頁面，或透過AI摺疊式功能表區段處理Markdown檔案的檔案或資料夾時使用。
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Content here — any standard markdown is valid.
 ### 完整摺疊式功能表範本
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

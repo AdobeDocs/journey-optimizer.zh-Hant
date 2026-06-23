@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 3%
+source-wordcount: 1085
+ht-degree: 1%
 
 ---
 
@@ -202,3 +202,46 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. 根據您的使用案例填入歷程版本ID、節點ID、節點名稱和其他屬性。
 
    複雜欄位對應的![進階模式編輯器](assets/custom-action-aep-9.png)
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+- **TL；DR：**&#x200B;此使用案例說明如何在Journey Optimizer中設定自訂動作，以使用HTTP API入口和OAuth伺服器對伺服器驗證的呼叫將歷程事件資料寫入Adobe Experience Platform。
+
+**意圖：**
+- 設定具有OAuth伺服器對伺服器憑證的Adobe Developer Console IO專案，以進行AEP API驗證
+- 在Adobe Experience Platform中建立HTTP API入口來源，以接收串流歷程事件資料
+- 使用正確的URL、標題和自訂持有人權杖驗證，在Journey Optimizer中設定自訂動作
+- 將歷程欄位（歷程版本ID、節點ID、客戶ID）動態對應為自訂動作裝載中的變數
+- 在歷程中使用自訂動作，將自訂事件寫入AEP資料集
+
+**字彙表：**
+- **HTTP API入口**： Adobe Experience Platform來源聯結器會建立串流端點，以透過HTTP POST要求擷取資料&#x200B;*（產品專用）*
+- **OAuth伺服器對伺服器**： Adobe Developer Console中的驗證認證型別會產生伺服器對伺服器API呼叫的持有者權杖，而不需要使用者互動&#x200B;*（產品特定）*
+- **自訂授權**： Journey Optimizer自訂動作驗證型別，它會從指定的端點擷取Bearer權杖，並在設定的期間&#x200B;*（產品特定）*&#x200B;快取該權杖
+- **XDM實體**：符合體驗資料模型結構描述的資料裝載結構，在透過HTTP API入口&#x200B;*（產品特定）*&#x200B;將事件寫入AEP時作為內文
+- **cacheDuration**：自訂授權組態中的權杖快取設定，可控制要求的新Bearer權杖重複使用時間長度&#x200B;*（產品特定）*
+
+**護欄：**
+- 建立Adobe Developer Console專案後，必須先明確授予開發人員和API存取控制許可權，才能使用認證
+- HTTP API入口來源必須在啟用驗證的情況下建立；必須複製並儲存連線端點URL和結構描述裝載，才能用於自訂動作設定
+- 自訂動作標頭必須包含Content-Type、Charset和sandbox-name
+- 在執行階段要動態填入的欄位，必須在自訂動作裝載設定中從常數變更為變數
+
+**術語：**
+- 正式名稱：自訂動作 — 縮寫：無 — 變體：自訂動作組態、Journey Optimizer自訂動作
+- 正式名稱：Adobe Experience Platform — 縮寫：AEP — 變體：Experience Platform、Platform
+- 同義字： &quot;HTTP API Inlet&quot; = &quot;streaming endpoint&quot; = &quot;DCS collection endpoint&quot;
+- 請勿混淆：「OAuth伺服器對伺服器」≠「OAuth使用者驗證」（伺服器對伺服器不需要使用者登入，而是使用使用者端認證）
+
+**常見問題集：**
+- **問：從Journey Optimizer自訂動作呼叫AEP HTTP API Inlet時，使用什麼型別的驗證？**  — 使用從Adobe IMS權杖端點擷取的OAuth伺服器對伺服器使用者端憑證進行自訂持有人權杖驗證。
+- **問：我可以在哪裡找到client_id、client_secret、grant_type和範圍值？**  — 在Adobe Developer Console IO專案的「OAuth伺服器對伺服器認證」區段中，按一下「檢視cURL命令」。
+- **問：如何在承載中讓歷程特定欄位（例如journeyVersionId、nodeId）成為動態欄位？**  — 在自訂動作裝載設定中，將其欄位設定從常數變更為變數，以便在執行階段從歷程內容填入。
+- **問：Adobe Developer Console專案需要哪些許可權？**  — 開發人員和API存取控制必須在專案建立後授予正確的許可權，如AEP API驗證檔案所述。
+- **問：驗證承載中cacheDuration設定的用途為何？**  — 控制在自訂動作要求新權杖之前，擷取的Bearer權杖要快取和重新使用多久（範例中為28,000秒）。
+
++++
