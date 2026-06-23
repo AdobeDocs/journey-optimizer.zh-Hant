@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: 1198
 ht-degree: 15%
 
 ---
@@ -162,6 +162,10 @@ ht-degree: 15%
    ![](assets/verify-connection.png)
 
 在建立及設定您的API認證後，您現在需要為Webhook[&#128279;](#webhook)設定簡訊的傳入設定。
+
+>[!TIP]
+>
+>一律為每個沙箱（生產、開發等）建立和維護單獨的代理程式設定 以防止跨環境webhook回應問題。 請勿在沙箱間重複使用相同的API認證、webhook或提供者回呼URL （包括RCS代理程式）。
 
 ### 自訂 SMS 提供者的驗證選項 {#auth-options}
 

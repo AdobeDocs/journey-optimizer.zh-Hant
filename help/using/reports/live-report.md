@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -50,6 +50,10 @@ ht-degree: 2%
   ![](assets/report_campaign.png)
 
 如需Adobe Journey Optimizer中每個可用量度的詳細清單，請參閱[此頁面](#list-of-components-live)。
+
+>[!NOTE]
+>
+>即時報表和即時報表之間的短期差異是可預期的。 即時報表使用近乎即時資料摘要，而所有時間報表都需仰賴彙總資料。 如果發生衝突，請在協調兩個報表前至少等待兩個小時，因為資料通常會在該時間範圍內傳播到彙總檢視。
 
 ## 自訂儀表板 {#modify-dashboard}
 
