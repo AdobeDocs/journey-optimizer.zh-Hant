@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ ht-degree: 1%
 * 對象資格和讀取對象歷程不能包含跳轉活動，且不能是另一個歷程中跳轉活動的目標
 * 對象資格歷程需要串流評估的對象以進行即時進入；批次評估的對象會導致最多24小時的進入延遲
 * 單一事件和受眾資格歷程在組織層級都有5,000個TPS輸送量限制；讀取受眾歷程支援每個沙箱最多20,000個TPS
+* 大部分歷程型別都支援模擬，但商務事件專案不支援；請參閱節點層級限制的模擬限制
 * 歷程中已存在的設定檔無法重新進入該歷程的相同版本，無論重新進入設定為何
 
 **術語：**
