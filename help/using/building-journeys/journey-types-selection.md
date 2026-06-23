@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程類型和選取指南
+title: 歷程型別：選擇正確的型別
 description: 透過決策指南和功能相容性矩陣，比較歷程型別並選擇適合您使用案例的型別
 feature: Journeys, Get Started, Overview
 role: User
@@ -27,14 +27,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
 workflow-type: tm+mt
-source-wordcount: 2053
+source-wordcount: 2055
 ht-degree: 2%
 
 ---
 
-# 歷程類型和選取指南 {#journey-types-selection}
+# 歷程型別：選擇正確的型別 {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
