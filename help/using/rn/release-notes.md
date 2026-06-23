@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
+source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
 workflow-type: tm+mt
-source-wordcount: 3596
+source-wordcount: 3520
 ht-degree: 26%
 
 ---
@@ -186,8 +186,6 @@ ht-degree: 26%
 * **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定，不需要撰寫運算式。 [閱讀更多](../orchestrated/add-personalization.md#enrichment-collections)
 
   推出日期：2026年6月底
-
-* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化&#x200B;**電子郵件標題欄位**，包括寄件者名稱、寄件者地址和回覆對象。 如此可讓寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由傳送所有傳送。 可在管道層級設定標題值，並使用內容相關資料覆寫每個行銷活動，以獲得更精確的控制。
 
 +++
 
