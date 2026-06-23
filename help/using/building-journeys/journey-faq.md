@@ -11,36 +11,16 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 1%
+source-wordcount: 6208
+ht-degree: 0%
 
 ---
 
@@ -54,7 +34,7 @@ ht-degree: 1%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？ 使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
+需要更多詳細資料？ 使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
@@ -306,7 +286,7 @@ ht-degree: 1%
 
 可以。 使用具有&#x200B;**逾時**&#x200B;的&#x200B;**[!UICONTROL 回應]**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -329,7 +309,7 @@ ht-degree: 1%
 5. **建立兩個路徑**：
    * **如果發生購買事件**：結束歷程或繼續購買後的流程
    * **逾時路徑（無購買）**：傳送包含購物車內容的放棄提醒電子郵件
-6. **選擇性**：在&#x200B;**逾時提醒電子郵件（24小時）之後，立即新增另一個**&#x200B;[!UICONTROL &#x200B;回應&#x200B;]&#x200B;**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
+6. **選擇性**：在&#x200B;**逾時提醒電子郵件（24小時）之後，立即新增另一個**[!UICONTROL &#x200B;回應&#x200B;]**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
 
 >[!IMPORTANT]
 >
@@ -1005,3 +985,53 @@ Journey Optimizer與[!DNL Adobe Campaign]原生整合，以運用其進階功能
 * [疑難排解指南](troubleshooting.md)
 * [歷程使用案例](jo-use-cases.md)
 * [Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面提供完整的常見問題集，包括Adobe Journey Optimizer中的歷程協調概念、建置歷程、測試和發佈、執行監控、進階功能和最佳作法。
+
+**意圖：**
+* 瞭解四種歷程型別（單一、讀取對象、對象資格、業務事件）以及何時使用各種
+* 針對特定使用案例在歷程與行銷活動之間決定
+* 設定重新進入設定，以控制設定檔進入相同歷程的頻率
+* 疑難排解設定檔未輸入或訊息未傳送的原因
+* 套用歷程上限規則以防止多個歷程中的訊息疲勞
+* 使用歷程片段來重複使用歷程中的通用節點順序
+
+**字彙表：**
+* **單一歷程**：歷程一次觸發了一個即時事件，例如購買或註冊&#x200B;*（產品特定）*
+* **讀取對象歷程**：一次或依排程&#x200B;*（產品特定）*&#x200B;處理批次對象中所有設定檔的歷程
+* **對象資格歷程**：設定檔進入或退出串流對象區段&#x200B;*（產品專用）時觸發的歷程*
+* **歷程上限**：此設定會限制設定檔在某個時間範圍內可進入歷程的次數，或設定檔可同時處於多少歷程中&#x200B;*（產品特定）*
+* **歷程片段**：一組可重複使用的靜態歷程節點，只建置一次，並在設計時&#x200B;*（產品特定）*&#x200B;插入多個歷程
+* **傳送時間最佳化(STO)**：一種AI驅動功能，可預測每個個別設定檔的最佳傳送時間，以最大化參與&#x200B;*（產品特定）*
+* **補充識別碼**：可讓設定檔為不同實體（例如不同訂單）多次進入相同歷程的其他識別碼&#x200B;*（產品專屬）*
+
+**護欄：**
+* 每個歷程最多50個活動
+* 歷程持續時間上限為91天（全域逾時）
+* 上傳對象和同盟對象構成對象不支援對象資格歷程
+* 反應事件必須放置在頻道動作之後立即執行，且中間不應有等待活動
+* 歷程片段內不允許跳轉活動
+* 歷程片段支援最多20個節點；沙箱支援最多200個使用中片段
+* 在針對已存在於對象中的設定檔發佈歷程後，串流對象資格最多可延遲10分鐘
+
+**術語：**
+* 正式名稱：歷程 — 首字母縮寫：none — 變體：客戶歷程、協調流程、流程
+* 同義字：「靠近新入口」=「正常停止」；「停止」=「立即停止」
+* 請勿混淆：「歷程」≠「行銷活動」 — 歷程支援多步驟事件觸發的協調流程；行銷活動為單次或排程的對象型傳送
+* 請勿混淆：「模擬」≠「測試模式」≠「練習」 — 模擬使用暫時的模擬使用者；測試模式使用持續的AEP測試設定檔；練習使用真實的生產資料，而不需聯絡客戶或更新設定檔
+
+**常見問題集：**
+* **問：歷程中的活動數目上限是多少？** — 50個活動；簡化歷程，可改善可維護性和效能。
+* **問：為什麼設定檔沒有進入我的歷程？**  — 常見原因包括未收到觸發事件、不符合對象條件、阻止重新進入的重新進入規則、正在取消發佈歷程，或名稱空間不符。
+* **問：我可以修改即時歷程的結構嗎？**  — 否；結構變更需要建立新的歷程版本。 訊息內容不需新版本即可更新。
+* **問：暫停、關閉新入口和停止之間有何差異？**  — 暫停會在保留或捨棄飛行中設定檔時暫時暫停歷程。 關閉新進入會停止新專案，但會讓現有的設定檔完成。 停止立即退出所有設定檔。
+* **問：何時應使用歷程片段來取代跳轉活動？**  — 在設計時使用片段來重複使用通用節點邏輯（複製 — 貼上行為）。 使用「跳轉」將設定檔重新導向至執行階段的另一個即時歷程。
+* **問：我如何防止傳送過多訊息給同一個客戶？**  — 套用歷程上限規則（登入上限或並行上限），並對個別管道動作使用頻率上限商業規則。
+
++++

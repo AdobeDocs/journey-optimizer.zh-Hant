@@ -10,29 +10,16 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2787
-ht-degree: 5%
+source-wordcount: 3545
+ht-degree: 4%
 
 ---
 
@@ -202,7 +189,7 @@ ht-degree: 5%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -255,7 +242,7 @@ ht-degree: 5%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
@@ -297,5 +284,53 @@ ht-degree: 5%
 
    1. 如果歷程在選取保留選項的情況下暫停，但設定檔因超過1000萬配額而被捨棄，則這些設定檔在到達下一個動作節點時仍會被捨棄。
 
++++ AI知識參考
 
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
 
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;此頁面說明如何在Adobe Journey Optimizer中暫停並繼續即時歷程，包括暫停期間的設定檔保留或捨棄行為、如何在暫停時套用設定檔屬性退出條件，以及如何使用查詢服務疑難排解設定檔捨棄。
+
+**意圖：**
+* 暫停即時歷程以防止新的設定檔專案，並在下一個動作節點保留或捨棄飛行中的設定檔
+* 手動繼續暫停的歷程，或瞭解其在最長暫停期間後何時自動繼續
+* 套用設定檔屬性退出條件，以在歷程暫停時排除特定設定檔（例如依國家/地區）
+* 從歷程詳細目錄清單大量暫停或大量恢復多個即時歷程
+* 使用Adobe Experience Platform查詢服務步驟事件查詢，疑難排解暫停歷程中的設定檔捨棄
+* 檢視暫停或繼續歷程以及何時暫停或繼續歷程的稽核軌跡
+
+**字彙表：**
+* **暫停（歷程）**：暫時暫停即時歷程、阻止新進入並在下一個動作節點停止設定檔進度的狀態；暫停時不會傳送任何通訊&#x200B;*（產品特定）*
+* **保留模式**：暫停選項，可讓飛行中設定檔在下一個動作節點等候，直到歷程繼續&#x200B;*（產品特定）*
+* **捨棄模式**：當飛行中設定檔到達下一個動作節點&#x200B;*（產品特定）*&#x200B;時，從歷程中結束的暫停選項
+* **以設定檔屬性為基礎的退出條件**：套用至暫停歷程的篩選器，在繼續&#x200B;*（產品特定）*&#x200B;時，排除與下一個動作節點所定義運算式相符的設定檔
+* **大量暫停/大量繼續**：能夠同時從歷程詳細目錄清單&#x200B;*（產品特定）*&#x200B;暫停或繼續多個即時或暫停的歷程
+
+**護欄：**
+* 只有具有&#x200B;**發佈歷程**&#x200B;許可權的使用者才能暫停並繼續歷程；停止暫停的歷程需要&#x200B;**管理歷程** (以及&#x200B;**行銷活動>發佈行銷活動** （如果存在內嵌行銷活動或訊息節點）
+* 暫停持續時間可在1到14天之間設定；之後歷程會自動繼續
+* 在暫停期間保留的設定檔在最多5,000 TPS處繼續進行；歷程會保留在繼續中，直到所有保留的設定檔都已繼續為止
+* 組織中所有暫停的歷程中最多可保留1000萬個設定檔；會自動捨棄多餘的設定檔
+* 每個歷程只能設定一個設定檔屬性型退出條件
+* 歷程暫停時，只能建立、更新或刪除以設定檔屬性為基礎的退出條件
+* 暫停的歷程計入即時歷程配額
+* 在暫停期間仍會套用歷程全域逾時（91天）
+* 在繼續傳送暫停之前已觸發傳入活動通訊；若要停止這些通訊，必須完全停止歷程
+* 批次區段的警報不會在暫停的歷程中觸發
+* 暫停歷程時，無論保留或捨棄模式為何，新進入一律會被捨棄
+
+**術語：**
+* 正式名稱：暫停歷程 — 首字母縮寫：none — 變體：歷程暫停、暫停/繼續
+* 同義字： &quot;Hold&quot; = &quot;park profiles&quot;； &quot;Discard&quot; = &quot;exit profiles&quot;
+* 請勿混淆：「暫停」≠「停止」 — 暫停是暫時的並允許繼續；「停止」會立即退出所有設定檔，且無法復原為即時狀態
+* 請勿混淆：「暫停」≠「靠近新入口」 — 靠近新入口可讓現有設定檔完成，但不會暫停它們；暫停會在下一個動作節點暫停所有執行中的設定檔
+
+**常見問題集：**
+* **問：當歷程暫停時，已在歷程中的設定檔會發生什麼事？**  — 根據在暫停時選擇的選項，設定檔會保留（在下個動作節點等待）或捨棄（在下個動作節點從歷程退出）。
+* **問：歷程可以暫停多久？**  — 介於1到14天之間（在暫停時間選擇）；之後會自動繼續。
+* **問：我可以在歷程暫停時排除某些設定檔嗎？**  — 是；在歷程暫停時，套用設定檔屬性型退出條件（每個歷程一個），以在繼續時排除下一個動作節點中的相符設定檔。
+* **問：暫停歷程是否已觸發應用程式內或Web訊息？**  — 否；在暫停之前已觸發輸入通訊，繼續傳遞。 若要停止所有傳入通訊，您必須完全停止歷程。
+* **問：如何找出在暫停期間捨棄的設定檔？**  — 使用具有歷程版本ID的`PAUSED_JOURNEY_VERSION`或`JOURNEY_IN_PAUSED_STATE`事件型別篩選器查詢Adobe Experience Platform查詢服務中的`journey_step_events`資料集。
+
++++
