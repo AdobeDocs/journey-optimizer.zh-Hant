@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 **最適合：**&#x200B;購買後的訂單確認、有人訂閱時的歡迎電子郵件、密碼重設通知，以及登入後個人化。
 
-➡️ [瞭解事件](../event/about-events.md) | [傳送訊息給訂閱者使用案例](message-to-subscribers-uc.md)
+➡️ [瞭解事件](../event/about-events.md) | [傳送訊息給訂閱者使用案例](message-to-subscribers-uc.md) | [建立單一事件歷程](#build-unitary-event)
 
 >[!TAB 讀取對象歷程]
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **最適合：**&#x200B;每月電子報、目標區段的促銷活動、產品公告、週期性重新參與系列和季節性行銷活動。
 
-➡️ [瞭解閱讀對象](read-audience.md) | [開始使用對象](../audience/about-audiences.md)
+➡️ [瞭解閱讀對象](read-audience.md) | [開始使用對象](../audience/about-audiences.md) | [建置讀取對象歷程](#build-read-audience)
 
 >[!TAB 對象資格歷程]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 **最適合：** VIP層級升級通知、首次購買慶祝訊息、流失風險警示以及忠誠度生命週期階段轉換。
 
-➡️ [瞭解對象資格](audience-qualification-events.md) | [建立對象](../audience/creating-a-segment-definition.md)
+➡️ [瞭解對象資格](audience-qualification-events.md) | [建立對象](../audience/creating-a-segment-definition.md) | [建立對象資格歷程](#build-audience-qualification)
 
 >[!TAB 商務活動歷程]
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 **完美搭配：**&#x200B;向感興趣的客戶發出低庫存警示、快閃銷售公告、降價通知以及產品補貨警示。
 
-➡️ [瞭解業務活動](../event/about-creating-business.md) | [專案管理](entry-management.md)
+➡️ [瞭解業務活動](../event/about-creating-business.md) | [專案管理](entry-management.md) | [建立商務活動歷程](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ ht-degree: 2%
 
 ## 後續步驟 {#next-steps}
 
-現在您已瞭解歷程型別，您已準備：
+每個表格都列出該歷程型別的設定與管理步驟。
+
+### 單一事件歷程 {#build-unitary-event}
 
 * **[建立您的第一個歷程](journey-gs.md)** — 逐步指南
 * **[瞭解歷程設計器](using-the-journey-designer.md)** — 設計您的歷程畫布
