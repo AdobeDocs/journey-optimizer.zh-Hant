@@ -9,16 +9,16 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
-# 產生SMS使用報告 {#sms-usage-report}
+# 產生簡訊使用情況報告 {#sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
->title="簡訊使用量度"
->abstract="產生SMS使用報告，以協調傳訊量與供應商帳單。 報表會按天彙總每個簡短代碼或電話號碼的行動終止(MT)和行動產生(MO)計數。"
+>title="簡訊使用情況量度"
+>abstract="產生簡訊使用情況報告，以便核對訊息傳送量與供應商帳單。 報告會列出每個簡短代碼或電話號碼之行動終止 (MT) 和行動起源 (MO) 訊息數量，並按日彙總。"
 
 >[!BEGINSHADEBOX]
 
@@ -38,22 +38,22 @@ ht-degree: 1%
 
 這些步驟需要&#x200B;**[!UICONTROL 管理簡訊設定]**&#x200B;許可權。 [深入了解權限](../administration/high-low-permissions.md#administration-permissions)。
 
-## 設定和檢視SMS使用報告 {#configure-sms-usage-report}
+## 設定和檢視 SMS 使用情況報告 {#configure-sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="報告名稱"
->abstract="輸入有助於您稍後在清單中識別此報告的標籤，例如2026年5月的計費檢閱。"
+>abstract="輸入這份報告的標籤，方便您稍後在清單中找到報告，例如 2026 年 5 月的帳單審閱。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
->title="簡訊認證"
->abstract="選取Sinch API認證，其傳送與接收流量應會顯示在此報表中。 若要新增或更新認證，請移至&#x200B;**管理** > **管道** > **API認證**，然後選擇&#x200B;**SMS供應商** > **Sinch MMS**。"
+>title="SMS 認證"
+>abstract="選取 Sinch API 認證，其傳送與接收流量應該會出現在此報告中。 若要新增或更新認證，請前往「**管理**」>「**管道**」>「**API 認證**」，然後選擇「**SMS 供應商**」>「**Sinch MMS**」。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
 >title="開始日期"
->abstract="要納入報表之日期範圍的第一天。 使用情況資料僅供過去90天使用。"
+>abstract="要納入報告之日期範圍的第一天。 僅提供過去 90 天的使用資料。"
 
 SMS使用報告透過短程式碼呈現行動來源(MO)和行動終止(MT)的磁碟區，以支援Journey Optimizer中供應商帳單和訊息活動之間的調解。
 
@@ -67,7 +67,7 @@ SMS使用報告透過短程式碼呈現行動來源(MO)和行動終止(MT)的磁
 
    * **[!UICONTROL 報表名稱]**：輸入有助於您辨識報表的標籤。
    * **[!UICONTROL SMS認證]**：選取您先前為您的SMS使用報告建立的&#x200B;**Sinch MMS** API認證。
-   * **[!UICONTROL 開始日期]**&#x200B;和&#x200B;**[!UICONTROL 結束日期]**：設定報表的日期範圍。 使用情況資料僅供過去90天使用。
+   * **[!UICONTROL 開始日期]**&#x200B;和&#x200B;**[!UICONTROL 結束日期]**：設定報表的日期範圍。 僅提供過去 90 天的使用資料。
 
      ![](assets/usage_report_2.png)
 
