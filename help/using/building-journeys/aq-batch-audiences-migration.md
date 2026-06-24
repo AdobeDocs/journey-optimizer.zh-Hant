@@ -10,8 +10,12 @@ level: Intermediate
 hide: true
 keywords: 對象資格，批次對象，淘汰，移轉，讀取對象，串流對象
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
 workflow-type: tm+mt
 source-wordcount: 874
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 **建議的替代方案：**
 
-使用已啟用批次對象評估&#x200B;]**選項的**[&#x200B;讀取對象&#x200B;](read-audience.md)**歷程及**[!UICONTROL &#x200B;觸發器。 此內建功能會保留歷程執行，直到細分工作完成，然後在有新資料可用時立即開始，而不需要「對象資格」節點。 [瞭解如何設定此選項](read-audience.md#schedule)
+使用已啟用批次對象評估&#x200B;**選項的**&#x200B;[&#x200B;讀取對象&#x200B;](read-audience.md)**歷程及**&#x200B;觸發器。 此內建功能會保留歷程執行，直到細分工作完成，然後在有新資料可用時立即開始，而不需要「對象資格」節點。 [瞭解如何設定此選項](read-audience.md#schedule)
 
 
 ### 使用案例3 — 大量定期批次對象啟用 {#use-case-3}
