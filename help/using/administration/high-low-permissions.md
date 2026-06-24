@@ -10,22 +10,14 @@ level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ ht-degree: 0%
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：** Journey Optimizer角色是建置在高層級許可權中，每個角色都隨附使用者在歷程、行銷活動、決定、頻道設定等之間讀取、寫入、發佈或刪除資源所需的特定低階API許可權。
+
+**意圖：**
+
+* 瞭解高階與低階許可權的區別
+* 識別每個高階許可權所授予的低階許可權
+* 精確地設定歷程、行銷活動、決定管理、頻道設定和協調行銷活動的角色
+* 授予AI助理產生內容的存取權
+* 瞭解相較於「管理歷程」許可權，「發佈歷程」許可權所能提供的功能
+
+**字彙表：**
+
+* **高階許可權**：指派給包含一或多個低階許可權&#x200B;*（產品特定）*&#x200B;之角色（例如管理歷程、發佈歷程）的已命名許可權
+* **低階許可權**：從高階許可權&#x200B;*（產品特定）*&#x200B;衍生並包含的精細API層級許可權（例如journeys.read、journeys.write）
+* **角色**：組織&#x200B;*（產品特定）*&#x200B;內共用相同許可權和沙箱的使用者集合
+
+**術語：**
+
+* 請勿混淆：「高階許可權」（可指派給角色的命名許可權）≠「低階許可權」（基礎的精細API許可權，不可直接指派）
+* 請勿混淆：「管理歷程」（允許建立、編輯、刪除、停止 — 包括即時、測試模式和練習）≠「發佈歷程」（允許發佈、開始測試模式、開始練習、暫停和恢復歷程）
+* 請勿混淆：「管理歷程事件、資料來源和動作」（關於事件、來源、動作的完整CRUD）≠「檢視歷程事件、資料來源和動作」（對這些物件的唯讀存取權）
+* 請勿混淆：「產生內容」（存取Journey Optimizer中的AI助理）≠其他歷程或行銷活動許可權
+* 請勿混淆：「測試模式」（在發佈歷程和管理歷程中作為可啟動或停止的歷程執行模式參照）≠「練習」（在這些相同許可權中也會參照的個別歷程執行模式）
+
+**常見問題集：**
+
+* **問：管理歷程許可權是否允許使用者發佈歷程？**  — 否；發佈歷程需要個別發佈歷程的高階許可權。
+* **問：「產生內容」許可權授予什麼？**  — 存取Journey Optimizer中的AI助理。
+* **問：使用者是否可以在沒有「管理歷程」許可權的情況下設定歷程事件？**  — 是；管理歷程事件、資料來源和動作是涵蓋事件、資料來源和動作設定的個別高階許可權。
+* **問：檢視歷程報告中包含哪些低階許可權？** — journeys_report.read和messages_report.read，以及來自Adobe Experience Platform的datasets.read、queries.read、queries.write和queries.delete。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

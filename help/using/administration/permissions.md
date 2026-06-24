@@ -10,24 +10,16 @@ role: Admin
 level: Intermediate
 keywords: 產品，設定檔，沙箱
 TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 8%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -69,9 +61,9 @@ ht-degree: 8%
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。**&#x200B;**
+1. 輸入您的使用者名稱或電子郵件地址，或從清單中選取使用者，然後按一下[儲存]。****
 
-   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html?lang=zh-Hant){target="_blank"}。
+   如果使用者先前未在[!DNL Admin Console]中建立，請參閱[新增使用者檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html){target="_blank"}。
 
    ![](assets/do-not-localize/access_control_4.png)
 
@@ -150,4 +142,46 @@ ht-degree: 8%
 
 您的&#x200B;**[!UICONTROL 角色]**&#x200B;現已建立並設定。 您現在需要將其指派給使用者。
 
-如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=zh-Hant){target="_blank"}。
+如需角色建立與管理的詳細資訊，請參閱[Adobe Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html){target="_blank"}。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+- **TL；DR：**&#x200B;此頁面會逐步引導產品及系統管理員完成許可權產品中的三個角色管理任務：指派現有角色給使用者、編輯角色的許可權，以及建立具有特定許可權和沙箱的新自訂角色。
+
+**意圖：**
+
+- 在Journey Optimizer中指派內建或自訂角色給使用者
+- 編輯現有角色的許可權（新增或移除許可權）
+- 建立具有特定許可權和沙箱指派的新自訂角色
+- 瞭解誰有權執行角色和許可權管理
+
+**字彙表：**
+
+- **角色**：共用相同許可權和沙箱的使用者集合，用來管理組織&#x200B;*（產品特定）*&#x200B;內的存取權
+- **許可權產品**： Adobe CX Enterprise介面（透過[!DNL Permissions]存取），其中設定了角色、許可權和沙箱&#x200B;*（產品特定）*
+- **內建角色**：預先存在的角色，具有已定義的許可權集，可立即指派而不需要自訂組態&#x200B;*（產品特定）*
+
+**護欄：**
+
+- 只有產品或系統管理員可以指派、編輯或建立角色（硬性先決條件，如頁面上重要備註所述）
+- 對內建或自訂角色進行的變更會影響指派給該角色的所有使用者（如頁面上重要註解所述）
+
+**術語：**
+
+- 正式名稱：許可權產品 — 變體：Adobe許可權、許可權UI、Adobe CX企業許可權
+- 請勿混淆：「指派角色」（將使用者新增至現有角色）≠「建立角色」（從頭開始使用具有自己許可權和沙箱的新角色）
+- 請勿混淆：「編輯現有角色」（修改現有角色的許可權或沙箱；影響所有指派的使用者）≠「建立新角色」（建立新角色而不影響任何現有角色或其使用者）
+
+**常見問題集：**
+
+- **問：誰可以在Journey Optimizer中指派角色給使用者？**  — 僅限產品或系統管理員。
+- **問：如果我編輯內建角色的許可權，會發生什麼事？**  — 變更會影響目前指派給該角色的所有使用者。
+- **問：在產品中，我該前往哪裡管理角色？**  — 在「許可權」產品中，瀏覽至「角色」標籤。
+- **問：指派角色之後，使用者是否會收到通知？**  — 是；使用者會自動收到一封電子郵件，會將他們重新導向至執行個體。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

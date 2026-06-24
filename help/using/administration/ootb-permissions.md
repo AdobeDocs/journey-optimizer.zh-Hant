@@ -10,32 +10,16 @@ level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ ht-degree: 2%
 | 翻譯服務 | **[!DNL Manage translation in house]**：讀取、建立、編輯和刪除內部翻譯。</br>**[!DNL Manage translation projects]**：讀取、建立、編輯和刪除翻譯專案。</br> **[!DNL Manage translation reviews]**：讀取、建立、編輯和刪除翻譯評論。</br>**[!DNL Manage translation settings]**：讀取、建立、編輯和刪除翻譯設定。</br>**[!DNL Manage translation tasks]**：讀取、建立、編輯和刪除翻譯工作。</br>**[!DNL View translation in house]**：內部翻譯的唯讀存取權。</br>**[!DNL View translation projects]**：翻譯專案的唯讀存取權。</br>**[!DNL View translation reviews]**：翻譯評論的唯讀存取權。</br>**[!DNL View translation tasks]**：翻譯工作的唯讀存取權。 |
 
 {style="table-layout:fixed"}
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+- **TL；DR：**&#x200B;此頁面是Journey Optimizer中每個內建許可權的完整參考（依功能區域分組），讓管理員可以在建立或稽核角色時，準確地識別要包含哪些許可權。
+
+**意圖：**
+
+- 查詢指定功能區域的所有可用許可權（歷程、行銷活動、決定管理、AI助理等）
+- 識別要新增至自訂或內建角色的正確許可權
+- 區分每個資源的「管理」和「檢視」許可權
+- 尋找AI助理、協調的行銷活動和體驗決策的許可權
+- 識別涵蓋歷程執行模式（測試模式、練習、模擬）的許可權
+
+**字彙表：**
+
+- **內建許可權**：可指派給角色以控制Journey Optimizer中功能與物件存取權的預先定義單一許可權；高階許可權包含低階許可權&#x200B;*（產品專屬）*
+- **功能**：將相關許可權分組的功能區域（例如，歷程、行銷活動、決定管理、AI助理） *（產品專屬）*
+- **測試模式**：歷程執行模式；發佈歷程許可權包含啟動測試模式&#x200B;*（產品特定）*&#x200B;的功能
+- **試執行**：歷程執行模式；發佈歷程許可權包含開始試執行&#x200B;*（產品特定）*&#x200B;的能力
+- **模擬**：單獨的歷程功能；「模擬歷程」許可權涵蓋在歷程&#x200B;*（產品特定）*&#x200B;中讀取、建立和編輯模擬
+
+**術語：**
+
+- 正式名稱：內建許可權 — 變體：立即可用許可權、OOTB許可權
+- 請勿混淆：「管理歷程」（包括即時停止、測試模式和試運行）≠「發佈歷程」（包括發佈、開始測試模式、開始試運行、暫停和恢復）
+- 請勿混淆：「模擬歷程」（在歷程中讀取、建立和編輯模擬的許可權）≠「模擬內容」（存取訊息預覽和校訂的「模擬內容」選項）
+- 請勿混淆：「產生內容」（Journey Optimizer中的AI助理存取）≠「啟用AI助理」（啟用或存取AI支援的行銷活動和受眾功能）
+- 請勿混淆：「測試模式」（透過發佈歷程許可權控制的歷程執行模式）≠「試運行」（也透過發佈歷程許可權控制的單獨歷程執行模式）≠「模擬」（透過模擬歷程許可權控制的單獨功能）
+- 請勿混淆：「管理決策」（決策實體的CRUD）≠「管理體驗決策」（體驗決策設定和決策原則的CRUD）
+
+**常見問題集：**
+
+- **問：使用AI助理產生內容需要哪個許可權？**  — 產生內容（在AI助理功能下）。
+- **問：哪個許可權可讓使用者匯出隱藏清單？**  — 匯出隱藏清單（在「頻道設定」下）。
+- **問：哪個許可權授予歷程的唯讀存取權？**  — 檢視歷程（在歷程功能底下）。
+- **問：發佈協調的行銷活動需要什麼許可權？**  — 發佈協調的行銷活動（位於協調的行銷活動下）；使用訊號觸發協調的行銷活動也需要此許可權。
+- **問：模擬歷程許可權涵蓋哪些內容？**  — 讀取、建立和編輯歷程中的模擬。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

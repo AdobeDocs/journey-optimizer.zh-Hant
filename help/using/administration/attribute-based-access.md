@@ -10,25 +10,16 @@ level: Intermediate
 keywords: abac，屬性，授權，資料，存取，敏感，資產
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -54,13 +45,13 @@ ht-degree: 4%
 
 1. 使用Adobe Journey Optimizer中的&#x200B;**[!UICONTROL 結構描述欄位]**。
 
-請注意，也可以使用屬性式存取控制API來存取&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 原則]**&#x200B;和&#x200B;**[!UICONTROL 產品]**。 如需詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html?lang=zh-Hant){target="_blank"}。
+請注意，也可以使用屬性式存取控制API來存取&#x200B;**[!UICONTROL 角色]**、**[!UICONTROL 原則]**&#x200B;和&#x200B;**[!UICONTROL 產品]**。 如需詳細資訊，請參閱此[檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html){target="_blank"}。
 
 ## 建立角色並指派標籤 {#assign-role}
 
 >[!IMPORTANT]
 >
->&#x200B;>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=zh-Hant){target="_blank"}。
+>>在管理角色的許可權之前，請先建立原則。 如需詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html){target="_blank"}。
 
 **[!UICONTROL 角色]**&#x200B;是一組使用者，在您的組織內共用相同的許可權、標籤和沙箱。 屬於&#x200B;**[!UICONTROL 角色]**&#x200B;的每個使用者都有權使用產品中包含的Adobe應用程式和服務。 您也可以建立自己的&#x200B;**[!UICONTROL 角色]**，以微調使用者對介面中特定功能或物件的存取權。
 
@@ -96,7 +87,7 @@ ht-degree: 4%
 
    ![](assets/role_9.png)
 
-1. 選取您要新增至角色的&#x200B;**[!UICONTROL 標籤]**，然後按一下[儲存]。**&#x200B;** 在此範例中，授予標籤C2給使用者，以存取先前限制的結構描述欄位。
+1. 選取您要新增至角色的&#x200B;**[!UICONTROL 標籤]**，然後按一下[儲存]。**** 在此範例中，授予標籤C2給使用者，以存取先前限制的結構描述欄位。
 
    ![儲存標籤組態](assets/role_4.png)
 
@@ -124,11 +115,11 @@ ht-degree: 4%
 
    ![編輯欄位的治理標籤](assets/label_3.png)
 
-1. 選取對應的&#x200B;**[!UICONTROL 標籤]**，在此例中，C2 — 資料無法匯出至協力廠商。 如需可用標籤的詳細清單，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hant#contract-labels){target="_blank"}。
+1. 選取對應的&#x200B;**[!UICONTROL 標籤]**，在此例中，C2 — 資料無法匯出至協力廠商。 如需可用標籤的詳細清單，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html#contract-labels){target="_blank"}。
 
    ![](assets/label_4.png)
 
-1. 視需要進一步個人化您的結構描述，然後啟用它。 如需如何啟用結構描述的詳細步驟，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant#profile){target="_blank"}。
+1. 視需要進一步個人化您的結構描述，然後啟用它。 如需如何啟用結構描述的詳細步驟，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#profile){target="_blank"}。
 
 現在，您結構描述的欄位將僅對屬於以C2標籤設定的角色的使用者可見及使用。 藉由將&#x200B;**[!UICONTROL 標籤]**&#x200B;套用至您的&#x200B;**[!UICONTROL 欄位名稱]**，**[!UICONTROL 標籤]**&#x200B;將自動套用至每個已建立結構描述中的&#x200B;**國籍**&#x200B;欄位。
 
@@ -181,3 +172,51 @@ ht-degree: 4%
 * 使用者Y可以刪除運算式。
 * 使用者Y將無法測試歷程。
 * 使用者Y將無法發佈歷程。
+
++++ AI知識參考
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+* **TL；DR：**&#x200B;將治理標籤套用至結構描述欄位，並將符合的標籤指派至角色，讓未經授權的使用者無法檢視、編輯、測試或發佈使用這些受限制欄位的歷程，藉此保護Journey Optimizer中的敏感資料欄位。
+
+**意圖：**
+
+* 建立角色並指派治理標籤，以限制對特定結構描述欄位的存取權
+* 將標籤套用至Adobe Experience Platform中的結構欄位以強制執行存取限制
+* 在Journey Optimizer歷程中使用標籤的結構描述欄位
+* 瞭解沒有必要標籤的使用者如何在歷程中體驗存取限制
+* 透過屬性式存取控制API管理角色、原則和產品
+
+**字彙表：**
+
+* **ABAC （以屬性為基礎的存取控制）**：根據標籤&#x200B;*（產品特定）*&#x200B;等屬性，定義管理特定團隊或使用者群組資料存取的授權的功能
+* **角色**：一組使用者共用組織&#x200B;*（產品特定）*&#x200B;內相同的許可權、標籤和沙箱
+* **標籤**：治理標籤（例如C2）已套用至結構描述欄位、資料集或對象，以控制哪些角色可以存取它們&#x200B;*（產品特定）*
+* **原則**：在管理角色的許可權之前必須先建立的設定 — ABAC *（產品特定）*&#x200B;的先決條件
+* **XDM結構描述**：用來定義Adobe Experience Platform *（產品特定）*&#x200B;中資料結構的體驗資料模型結構描述
+
+**護欄：**
+
+* 在管理角色的許可權之前，必須先建立原則（先決條件，如頁面上的重要附註所述）
+* 不正確的標籤使用方式可能會中斷人員的存取權並觸發原則違規（如頁面上的「警告」中所述）
+* 沒有與受限欄位相符標籤的使用者無法：檢視受限欄位名稱、在進階模式下編輯參照它的運算式、測試歷程或發佈歷程
+
+**術語：**
+
+* 正式名稱：屬性型存取控制 — 縮寫：ABAC — 變體：屬性型存取管理
+* 正式名稱：體驗資料模型 — 縮寫：XDM — 變體：XDM結構、XDM結構
+* 同義字： &quot;Label&quot; = &quot;governance label&quot; = &quot;data governance label&quot;
+* 請勿混淆：「角色」（具有共用許可權和標籤的使用者群組）≠「原則」（根據標籤規範資料存取強制的規則）
+* 請勿混淆： ABAC （透過平台層級的標籤原則控制對結構欄位、資料集和受眾的存取）≠OLAC (控制對特定Journey Optimizer物件（例如歷程和行銷活動）的存取
+
+**常見問題集：**
+
+* **問：標籤可以新增至內建角色嗎？**  — 可以，標籤可新增至自訂與內建角色。
+* **問：缺少歷程中限制欄位標籤的使用者會發生什麼事？**  — 他們看不到該欄位；他們無法編輯引用該欄位的運算式、測試歷程或發佈歷程。
+* **問：標籤可以套用至結構描述欄位以外的物件嗎？**  — 是；標籤也可以套用至結構描述、資料集和對象。
+* **問：是否有使用ABAC管理角色、原則和產品的API？**  — 是；角色、原則和產品可透過屬性型存取控制API存取。
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->
