@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ ht-degree: 0%
 在&#x200B;**[!UICONTROL 模擬]**&#x200B;中驗證歷程後，請檢閱&#x200B;**[!UICONTROL 結果]**&#x200B;記錄。 如果發生錯誤，請保留&#x200B;**[!UICONTROL 模擬]**，將必要的變更套用至歷程，然後再次執行&#x200B;**[!UICONTROL 模擬]**，直到執行看起來正確為止。 接著，您就可以發佈歷程。 檢視[發佈您的歷程](../building-journeys/publish-journey.md)。
 
 ## 觸發您的事件 {#firing-events}
+
+>[!NOTE]
+>
+>模擬中觸發的事件儲存在Adobe Experience Platform的專用資料集中，標籤如下： ``JOtestmode - <schema of your event>``。
 
 如果您的歷程包含一或多個單一事件，您可以在模擬作用中時觸發這些事件。 對於不是從事件開始但包含事件的歷程，此區段在模擬使用者進入歷程之前不會顯示。
 
