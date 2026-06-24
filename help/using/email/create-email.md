@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -209,12 +209,12 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >若要能夠使用電子郵件測試或啟動歷程/行銷活動，您必須解決所有&#x200B;**錯誤**&#x200B;警示。
 
-## 最佳化電子郵件HTML大小 {#optimize-html-size}
+## 最佳化電子郵件 HTML 大小 {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="縮小HTML大小"
->abstract="啟用此選項可移除不必要的空白字元、縮排及不必要的註解，以在發佈期間壓縮電子郵件HTML。 這有助於防止使用者端（例如Gmail）截斷超過100 KB的郵件。 請注意，使用多語言電子郵件時，所有地區設定預設都會啟用此選項。"
+>title="縮減 HTML 大小"
+>abstract="啟用此選項可移除不必要的空白字元、縮排及非必要的註解，以便在發佈時壓縮電子郵件 HTML。 這樣可以避免在 Gmail 一類用戶端中發生電子郵件內容截斷的狀況，因為用戶端會截斷超過 100 KB 大小的郵件。 請注意，使用多語言電子郵件時，所有地區設定都預設啟用此選項。"
 
 [!DNL Journey Optimizer]可讓您移除不必要的空白字元、縮排及不必要的註解，在發佈程式期間壓縮電子郵件HTML版本。 保持HTML小型化可協助您：
 

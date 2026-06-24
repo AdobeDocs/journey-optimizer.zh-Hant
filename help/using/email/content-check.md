@@ -11,17 +11,17 @@ keywords: 電子郵件，內容檢查， HTML， CSS，驗證，呈現，品質
 source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
 
-# 電子郵件Designer中的內容檢查 {#content-check}
+# 電子郵件設計工具中的內容檢查功能 {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
 >title="驗證您的電子郵件內容"
->abstract="內容檢查會在您傳送前，自動偵測電子郵件中的HTML和CSS問題。 這類變數會標籤不支援的標籤、空白div和大小限制，這些可能會中斷Gmail或Microsoft Outlook中的轉譯。 問題會顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的單鍵修正。"
+>abstract="內容檢查功能會在您傳送電子郵件前，自動偵測郵件中的 HTML 和 CSS 問題。 這項檢查會標示出可能導致 Gmail 或 Microsoft Outlook 郵件轉譯異常的不支援標記、空的 div 和大小限制。 各類問題會以錯誤、警告或資訊性通知的形式呈現，內含背景資訊並於適用情境下提供一鍵修復。"
 
 [!DNL Journey Optimizer]包含直接在電子郵件Designer中的自動化技術驗證，可協助您在傳送前捕捉HTML和CSS問題。
 

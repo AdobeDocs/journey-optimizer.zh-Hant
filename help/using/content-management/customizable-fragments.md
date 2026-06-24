@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -86,23 +86,23 @@ ht-degree: 5%
 >
 >當按鈕元件的&#x200B;**標籤**&#x200B;和&#x200B;**URL**&#x200B;在片段中都可以編輯時，追蹤報告會顯示URL而非按鈕標籤。 [進一步瞭解追蹤](../email/message-tracking.md)
 
-## 在可自訂的視覺片段中啟用RTF編輯 {#rich-text-visual}
+## 在可自訂的視覺片段中啟用 RTF 文字編輯功能 {#rich-text-visual}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="舊版片段"
->abstract="此片段中的可編輯欄位處於純文字模式。 這表示您在電子郵件中編輯此片段時只能輸入純文字，不支援完整格式選項，例如粗體、斜體、超連結和分行符號。 在電子郵件中使用片段時，按一下「啟用<b></b>」以允許可編輯欄位中的RTF文字。"
+>abstract="此片段中的可編輯欄位處於純文字模式。 這表示在電子郵件中編輯此片段時只能輸入純文字，而完整的格式選項，例如粗體、斜體、超連結和換行符號均不支援。 在電子郵件中使用片段時，按一下「<b>啟用</b>」即可在可編輯欄位中使用 RTF 文字。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="舊版片段"
->abstract="這個可編輯欄位為僅限文字模式。 完整的格式選項（粗體、斜體、超連結、分行符號等） 在片段升級為RTF模式之前無法使用。 前往片段內文設定，然後按一下<b>啟用</b>以解除鎖定可編輯欄位中的RTF文字。"
+>abstract="這個可編輯欄位為僅限文字模式。 完整的格式選項 (粗體、斜體、超連結、換行符號等) 在片段升級為 RTF 文字模式之前無法使用。 前往片段內文設定，點選「<b>啟用</b>」即可在可編輯欄位中使用 RTF 文字。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="舊版片段"
->abstract="此片段中的可編輯欄位處於純文字模式。 完整的格式選項（粗體、斜體、超連結、分行符號等） 在片段升級為RTF模式之前無法使用。 若要解除鎖定此模式，請開啟片段編輯器並按一下[啟用]。<b></b>"
+>abstract="此片段中的可編輯欄位處於純文字模式。 完整的格式選項 (粗體、斜體、超連結、換行符號等) 在片段升級為 RTF 文字模式之前無法使用。 若要使用此模式，請開啟片段編輯器並按一下「<b>啟用</b>」。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="在片段中自訂可編輯欄位"
 
 可自訂的視覺化片段現在原生支援RTF文字<!--— including bold, italic, line breaks, and hyperlinks —-->。
