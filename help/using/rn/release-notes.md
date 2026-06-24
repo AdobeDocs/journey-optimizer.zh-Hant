@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 26%
 <p>例如，使用文字元件作為電子郵件Designer中的可編輯欄位時，您可以直接格式化內容（例如粗體和斜體）並插入超連結。</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md#rich-text-visual">詳細文件</a>。</p>
-<p>推出日期：2026年6月底</p>
+<p>推出日期： 2026年6月19日</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ ht-degree: 26%
 
 * **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
 
-  推出日期： 2026年6月18日
+  推出日期：2026年6月底
 
 +++ 即將推出 — **下列資訊可能會變更。**
 
@@ -402,6 +402,7 @@ ht-degree: 26%
 <td>
 <p>Journey Optimizer現在包含一個選項，可移除不必要的空格、評論和重複程式碼，進而縮小電子郵件的HTML大小，而不會影響電子郵件的呈現方式。</p>
 <p>這可避免某些電子郵件提供者用來標幟或拒絕訊息的大小臨界值，且可縮短收件者的載入時間，藉此改善傳遞能力。</p>
+<p>推出日期：2026年6月底</p>
 </td>
 </tr>
 </tbody>
