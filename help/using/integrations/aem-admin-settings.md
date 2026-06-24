@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adobe Journey Optimizer與&#x200B;**[!DNL Adobe Experience Manager as a Cloud Se
 > **[!UICONTROL AEM整合]**&#x200B;儲存每個沙箱&#x200B;**的存放庫設定**。 每個沙箱都會保留自己的整合，且不會套用至多個沙箱。
 
 Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫儲存一個整合。 如果您儲存相同組合的新整合，它會取代先前的設定，而只保留最新的設定。
+
+➡️ [在影片中探索Adobe Experience Manager Managed Service的功能](#video)
 
 若要設定您的存放庫：
 
@@ -109,3 +111,8 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
 儲存此設定時，Journey Optimizer會將該存放庫的設定儲存在目前的沙箱中。 然後，在&#x200B;**內容建議程式**&#x200B;選取器中瀏覽及選取內容時，您可以使用該存放庫及其設定。
 
+## 作法影片 {#video}
+
+瞭解管理員如何在Journey Optimizer中設定Adobe Experience Manager Managed Services存放庫設定，讓行銷人員可以在歷程及行銷活動中使用內容片段。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492538?captions=chi_hant&quality=12)

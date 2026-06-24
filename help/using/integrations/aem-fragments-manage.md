@@ -6,14 +6,20 @@ description: 瞭解如何管理AEM內容片段
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # 管理您的Adobe Experience Manager內容片段 {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;從內容管理片段清單管理AEM內容片段，以監視狀態和中繼資料，檢視片段在歷程和行銷活動中的使用位置、從Experience Manager同步發佈的更新，以及在不離開Journey Optimizer的情況下開啟片段進行編輯。
+
+>[!ENDSHADEBOX]
 
 將Adobe Experience Manager as a Cloud Service或Managed Services與Adobe Journey Optimizer整合後，您便可在內容中使用AEM內容片段，且無需離開Journey Optimizer即可檢查片段狀態。
 
