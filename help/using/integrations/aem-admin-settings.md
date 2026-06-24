@@ -115,4 +115,4 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
 瞭解管理員如何在Journey Optimizer中設定Adobe Experience Manager Managed Services存放庫設定，讓行銷人員可以在歷程及行銷活動中使用內容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492538?captions=chi_hant&quality=12)
