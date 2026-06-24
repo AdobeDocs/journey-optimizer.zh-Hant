@@ -28,9 +28,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +246,15 @@ ht-degree: 3%
 
 1. 您可以在&#x200B;**[!UICONTROL Adobe主題]**&#x200B;和&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤之間導覽，並為您的片段選取最多5個相容的主題（從這兩個標籤）。
 
+   >[!NOTE]
+   >
+   >基於相容性和效能原因而強制執行此限制。 無法移除&#x200B;**[!UICONTROL Adobe預設主題]**，因此您最多可以選取四個其他自訂主題。
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >在電子郵件內容中使用片段時，請務必[套用您為此片段定義的主題](#apply-themes-email)。 若未這麼做，可能會導致顯示問題，尤其是在Outlook 2021和舊版中。
+   >在電子郵件內容中使用此片段時，電子郵件主題必須是與片段關聯的其中一個主題。 如果主題不符，則會封鎖片段插入。
 
 1. 按一下 **[!UICONTROL 關閉]**。
 

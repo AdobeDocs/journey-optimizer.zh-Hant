@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 已澄清片段&#x200B;**檔案中的**&#x200B;善用主題，以明確記錄5個主題相容性限制（包括Adobe預設主題限制），並解釋當電子郵件主題不是其中一個片段關聯主題時，會封鎖片段插入。 [閱讀更多](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * 更新&#x200B;**開始使用資料集**&#x200B;和&#x200B;**開始使用結構描述**&#x200B;頁面，其中包含為Real-Time Customer Profile啟用資料集和結構描述的指引，包括關鍵考量事項、停用資料集與其基礎結構描述的區別，以及Adobe Experience Platform規劃和最佳實務檔案的連結。 [進一步瞭解資料集](../data/get-started-datasets.md)和[進一步瞭解結構描述](../data/get-started-schemas.md)
 
