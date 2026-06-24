@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +106,8 @@ ht-degree: 2%
 
 **[!UICONTROL 追蹤的標籤]**&#x200B;表格提供您SMS訊息中連結標籤的完整概觀，並醒目提示產生最高訪客流量的連結。 此功能可讓您識別最熱門的連結並加以優先處理。
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ 深入瞭解追蹤的連結標籤量度
 
 * **[!UICONTROL 點按]**：內容在簡訊訊息中的點按次數。
@@ -119,6 +121,8 @@ ht-degree: 2%
 ## 追蹤的連結 URL {#track-link-url-sms}
 
 **[!UICONTROL 追蹤的連結URL]**&#x200B;表格提供您SMS訊息中吸引最高訪客流量的URL的完整概觀。 這可讓您識別最熱門的連結並排定其優先順序，讓您更瞭解簡訊訊息中特定內容的設定檔參與情形。
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ 深入瞭解追蹤的連結URL量度
 
