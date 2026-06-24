@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
+source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 26%
@@ -389,7 +389,7 @@ ht-degree: 26%
 
 * **增強影像至HTML轉換工具** — 現已提供新版本的影像至HTML轉換工具功能，可提高HTML產生的正確性。 此更新利用較高層級的LLM模型，從影像輸入提供更精確且可靠的HTML輸出。
 
-  推出日期：2026年6月底
+  推出日期： 2026年6月18日
 
 +++ 即將推出 — **下列資訊可能會變更。**
 
