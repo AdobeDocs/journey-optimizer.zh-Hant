@@ -2,12 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 從對象資格歷程移轉批次對象
-description: 瞭解如何在2026年8月3日執行日期前移轉在對象資格節點中使用批次對象的歷程。
+description: 瞭解如何在2026年8月執行日期之前，移轉在對象資格節點中使用批次對象的歷程。
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 對象資格，批次對象，淘汰，移轉，讀取對象，串流對象
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
 product_v2:
@@ -16,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 869
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ ht-degree: 0%
 
 # 從對象資格歷程移轉批次對象 {#aq-batch-migration}
 
-自2026年8月3日起，Journey Optimizer將封鎖在「對象資格」節點中使用批次對象之歷程的發佈。 在下方識別您的使用案例，並遵循建議的移轉路徑。
+自2026年8月起，Journey Optimizer將封鎖在「對象資格」節點中使用批次對象之歷程的發佈。 在下方識別您的使用案例，並遵循建議的移轉路徑。
 
 >[!CAUTION]
 >
->**強制日期： 2026年8月3日。** 在此日期之後，將無法發佈在「對象資格」節點中使用批次對象的新歷程、草稿歷程和重複歷程。 自2026年6月發行版本以來，歷程畫布中已出現驗證警告。
+>**強制日期： 2026年8月。** 在此日期之後，將無法發佈在「對象資格」節點中使用批次對象的新歷程、草稿歷程和重複歷程。 自2026年6月發行版本以來，歷程畫布中已出現驗證警告。
 
 ## 為何發生此變更 {#why}
 
@@ -42,10 +41,10 @@ ht-degree: 0%
 
 ## 您的歷程會如何受影響 {#impact}
 
-在「對象資格」節點中使用批次對象的即時歷程在2026年8月3日之後繼續執行。 但是，如果您停止、複製或重新發佈歷程，則會在更新設定前遭到封鎖。
+在「對象資格」節點中使用批次對象的即時歷程在2026年8月之後繼續執行。 但是，如果您停止、複製或重新發佈歷程，則會在更新設定前遭到封鎖。
 
 
-| 歷程狀態 | 2026年8月3日之後的影響 |
+| 歷程狀態 | 2026年8月之後的影響 |
 | --- | --- |
 | **即時歷程** | 未受影響。 現有的即時歷程會繼續執行。 不會自動停止。 |
 | **新歷程** | 在取代批次對象之前，禁止發佈。 |

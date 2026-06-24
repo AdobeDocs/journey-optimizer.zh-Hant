@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 10%
+source-wordcount: 2552
+ht-degree: 9%
 
 ---
 
@@ -149,6 +149,10 @@ ht-degree: 10%
 此資訊的接收速度很快。 測量顯示每秒接收10,000個事件。 規劃進入尖峰、儘可能避免尖峰，並準備您的歷程以處理尖峰。 在[本節](entry-management.md#journey-processing-rate)中深入了解歷程處理速率和輸送量限制。
 
 ### 批次對象 {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**淘汰通知 — 2026年8月**：自&#x200B;**2026年8月**&#x200B;起，Journey Optimizer將封鎖在&#x200B;**對象資格**&#x200B;節點中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年8月之前更新。 [瞭解如何移轉您的歷程](aq-batch-audiences-migration.md)
 
 針對批次對象使用「對象資格」時，請注意，入口尖峰會在每日計算時發生。 尖峰的大小視每天進入或離開對象的個人數量而定。
 
