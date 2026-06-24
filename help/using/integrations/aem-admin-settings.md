@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +49,25 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
    ![](assets/aem-admin-settings-1.png)
 
-1. 如果您使用&#x200B;**[!DNL Adobe Experience Manager Managed Services]**，請在&#x200B;**[!UICONTROL 自訂AMS存放庫ID]**&#x200B;欄位中輸入以`adobecqms.net`結尾的存放庫主機名稱。
+1. 選擇設定方法：
 
-   ![](assets/aem-admin-settings-6.png)
+   * 針對&#x200B;**[!DNL Adobe Experience Manager Managed Services]**&#x200B;存放庫，在&#x200B;**[!UICONTROL AMS存放庫主機名稱]**&#x200B;欄位中輸入以`adobecqms.net`結尾的存放庫主機名稱。
 
-1. 如果您使用&#x200B;**[!DNL Adobe Experience as a Cloud Service]**，請選擇要設定的存放庫，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+     ![](assets/aem-admin-settings-6.png)
 
-   此外，您可以按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;來存取此存放庫。
+   * 如果您使用&#x200B;**[!DNL Adobe Experience as a Cloud Service]**，請選擇要設定的存放庫，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-   >[!IMPORTANT]
-   >
-   >儲存相同組織、沙箱和存放庫的新設定&#x200B;**取代**&#x200B;預設設定，即&#x200B;**發佈**&#x200B;存放庫。
+     此外，您可以按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;來存取此存放庫。
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >儲存相同組織、沙箱和存放庫的新設定&#x200B;**取代**&#x200B;預設設定，即&#x200B;**發佈**&#x200B;存放庫。
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
-1. 選擇您的設定：
+1. 請在下方的下拉式清單中選擇您的設定：
 
    +++ 僅作者設定
 
@@ -74,6 +76,8 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ 發佈執行個體設定
 
