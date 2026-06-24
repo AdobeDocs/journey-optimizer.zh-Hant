@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 更新&#x200B;**開始使用資料集**&#x200B;和&#x200B;**開始使用結構描述**&#x200B;頁面，其中包含為Real-Time Customer Profile啟用資料集和結構描述的指引，包括關鍵考量事項、停用資料集與其基礎結構描述的區別，以及Adobe Experience Platform規劃和最佳實務檔案的連結。 [進一步瞭解資料集](../data/get-started-datasets.md)和[進一步瞭解結構描述](../data/get-started-schemas.md)
 
 * 新的&#x200B;**開始使用Adobe Journey Optimizer**&#x200B;上線中心現已推出。 新使用者可以依角色選擇路徑、探索基礎知識，或跳至已上線的日常區域，而不需要知道該先前往何處。 [閱讀更多](../../rp_landing_pages/get-started-landing-page.md)
 
@@ -693,7 +695,7 @@ ht-degree: 93%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
