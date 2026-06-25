@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 8799
+source-wordcount: 8836
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 已更新&#x200B;**分割**&#x200B;活動檔案，以記錄每個子集設定中可用的&#x200B;**[!UICONTROL 區段代碼]**&#x200B;欄位，其可讓您為每個對象區段指派唯一的識別碼，以用於追蹤和報告目的。 [閱讀更多](../orchestrated/activities/split.md)
 
 * 已更新&#x200B;**設定目標維度**&#x200B;頁面，以記錄協調行銷活動中可用的兩種目標維度型別：內建的&#x200B;**設定檔目標維度** （不需要設定）以及根據關聯式結構描述的&#x200B;**自訂目標維度**。 [閱讀更多](../orchestrated/target-dimension.md)
 
