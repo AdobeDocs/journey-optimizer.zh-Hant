@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: 2584
 ht-degree: 9%
 
 ---
@@ -114,6 +114,10 @@ ht-degree: 9%
 
    ![複製按鈕以JSON格式複製對象名稱和ID](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >若要在使用對象之前識別其評估方法，請開啟&#x200B;**[!UICONTROL 對象]**&#x200B;功能表、選取對象，然後檢查&#x200B;**[!UICONTROL 評估方法]**&#x200B;欄位 — **串流**、**批次**&#x200B;或&#x200B;**Edge**。 您也可以將&#x200B;**[!UICONTROL 評估方法]**&#x200B;欄新增至此活動的對象清單。 評估方法會影響專案時間以及套用哪些最佳實務 — 請參閱[批次對象](#batch-speed-segment-qualification)和[串流對象](#streamed-speed-segment-qualification)。
+
 1. 在&#x200B;**[!UICONTROL 行為]**&#x200B;欄位中，選擇您是要聆聽對象入口、出口或兩者。
 
    >[!NOTE]
@@ -172,9 +176,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->串流區段會籍的傳播時間取決於會籍的評估方式及其在歷程中的使用位置：
->
->* **對象資格節點+串流區段：**&#x200B;當設定檔符合Edge的串流區段資格時，該成員資格會先從Edge投影到集線器，歷程才能對其採取行動。 此Edge對集線器傳輸通常需要&#x200B;**15到30分鐘**。 如果設定檔未如預期進入對象資格歷程，請在進一步調查之前允許此傳播視窗（酌情新增等待活動）。 對於需要真正即時輸入的使用案例，請考慮改為單一事件觸發器。
+>當設定檔符合Edge的串流區段資格時，會先從Edge將成員資格投影到Hub，歷程才能對其採取行動。 此Edge對集線器傳輸通常需要&#x200B;**15到30分鐘**。 如果設定檔未如預期進入對象資格歷程，請在進一步調查之前允許此傳播視窗（酌情新增等待活動）。 對於需要真正即時輸入的使用案例，請考慮改為單一事件觸發器。
 
 #### 為何不是所有合格的設定檔都可以進入歷程 {#streaming-entry-caveats}
 
