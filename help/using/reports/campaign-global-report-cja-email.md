@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
@@ -233,6 +233,8 @@ ht-degree: 0%
 * **[!UICONTROL 點按]**：內容在電子郵件中的點按次數。
 
 * **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 預估的CTR]** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
 
 * **[!UICONTROL 垃圾訊息申訴]**：訊息被宣告為垃圾郵件或垃圾訊息的次數。
 

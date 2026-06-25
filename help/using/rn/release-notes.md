@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ ht-degree: 26%
 </table>
 
 +++
+
+### 報表 {#june-26-reporting}
+
+下列改善專案已新增至此版本的報告。
+
+* **電子郵件報告的新預估點按量度** — 為了更準確地檢視實際客戶參與度，歷程、行銷活動和頻道報告現在提供新的預估量度。
+
+   * **預估的CTR** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
+
+   * **預估的CTOR** （點按至開啟率）：計算為相對於預估開啟總數的預估點按次數。
+
+  推出日期： 2026年6月25日
 
 ### 管理 {#june-26-administration}
 

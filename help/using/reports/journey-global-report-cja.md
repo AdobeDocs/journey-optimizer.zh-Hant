@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1061
-ht-degree: 0%
+source-wordcount: 1100
+ht-degree: 1%
 
 ---
 
@@ -147,6 +147,10 @@ ht-degree: 0%
 * **[!UICONTROL 點進率]**：與動作互動的使用者百分比。
 
 * **[!UICONTROL 點按]**：內容在您的動作中被點按的次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 預估的CTR]** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
 
 * **[!UICONTROL 已傳遞]**：與已傳送動作總數相關的成功傳送動作數。
 

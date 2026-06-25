@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: 1243
 ht-degree: 1%
 
 ---
@@ -126,6 +126,8 @@ ht-degree: 1%
 
 * **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
 
+* **[!UICONTROL 預估的CTR]** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
+
 +++
 
 ## 管道 {#channel}
@@ -149,6 +151,8 @@ ht-degree: 1%
 * **[!UICONTROL 點按]**：內容在訊息中的點按次數。
 
 * **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 預估的CTR]** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
 
 +++
 
