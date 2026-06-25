@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 440
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解WhatsApp頻道在Journey Optimizer中的運作方式，以及其先決條件和限制，以便您可以決定如何將WhatsApp新增至您的歷程與行銷活動。
+**在此頁面上：**&#x200B;瞭解 WhatsApp 管道在 Journey Optimizer 中的運作方式，以及其先決條件和限制，以便您可以決定如何將 WhatsApp 新增至您的歷程與行銷活動。
 
 >[!ENDSHADEBOX]
 

@@ -6,19 +6,19 @@ description: 管道設定
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
 # 管道設定{#section-overview}
 
-Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如電子郵件、簡訊、推播通知和網頁）傳送訊息的方式，確保量身打造且有效的通訊。
+Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如電子郵件、簡訊、推播通知和網頁) 傳送訊息的方式，確保實現量身打造且有效的通訊。
 
-無論您是要設定技術引數、設定子網域，還是要透過IP熱身計畫最佳化電子郵件傳遞能力，每個步驟都旨在增強訊息效能及法規遵循。
+無論您是要設定技術參數、設定子網域，還是要透過 IP 暖身計劃最佳化電子郵件傳遞能力，每個步驟都旨在增強訊息績效及合規性。
 
-您也會找到用來監視電子郵件信譽、管理隱藏清單，甚至封存訊息以供稽核的工具。
+您也會找到用來監視電子郵件信譽、管理禁止名單，甚至封存訊息以供稽核的工具。
 
 深入了解接下來的主題，以探索這些設定如何共同運作，幫助您建立順暢、具影響力的客戶體驗。
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 管道設定快速入門
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定及管理管道設定
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 引導式管道設定
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 委派及管理電子郵件子網域
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 實施 IP 暖身計劃
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer中的頻道設定可讓您管理跨不同頻道（例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 監視電子郵件傳遞能力和信譽
 

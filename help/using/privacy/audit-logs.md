@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;檢閱記錄使用者對Journey Optimizer資源的動作的稽核記錄，以便提高可見度、疑難排解問題，並展示是否符合法規和資料管理政策。
+**在此頁面上：**&#x200B;檢閱記錄使用者對 Journey Optimizer 資源採取的動作的稽核記錄，以便提高可見度、疑難排解問題，並展示是否符合法規和資料管理原則。
 
 >[!ENDSHADEBOX]
 
@@ -83,6 +83,6 @@ ht-degree: 90%
 | 歷程自訂動作 | 建立/刪除/更新 |
 | 歷程資料來源 | 建立/刪除/更新 |
 | 歷程事件 | 建立/刪除/更新 |
-| 歷程片段 | 建立/刪除/更新/啟動/封存 |
+| 歷程片段 | 建立/刪除/更新/啟用/封存 |
 | 訊息頻率規則 | 建立/刪除/更新 |
 | 排名策略 | 建立/刪除/更新 |

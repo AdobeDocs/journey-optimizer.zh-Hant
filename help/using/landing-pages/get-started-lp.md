@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;登陸頁面將電子郵件、廣告或行銷活動的點按轉換為專用的網頁目的地，客戶可在此選擇加入或退出、管理其偏好設定，以及共用設定檔資料，協助您發展同意的受眾，並擷取推動個人化的第一方資料。
+**在此頁面上：**&#x200B;登陸頁面將電子郵件、廣告或行銷活動的點按轉換為專用的網頁目的地，客戶可在此選擇加入或退出、管理其偏好設定，以及共用輪廓資料，協助您發展同意的客群，並擷取第一方資料以支援個人化。
 
 >[!ENDSHADEBOX]
 

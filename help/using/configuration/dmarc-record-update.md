@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解您必須在Adobe Journey Optimizer中為委派給Adobe的子網域設定DMARC記錄，以符合Google和Yahoo寄件者要求的原因和時間。
+**在此頁面上：**&#x200B;瞭解您必須在 Adobe Journey Optimizer 中為委派給 Adobe 的子網域設定 DMARC 記錄的原因和時機，以符合 Google 和 Yahoo 寄件者需求。
 
 >[!ENDSHADEBOX]
 

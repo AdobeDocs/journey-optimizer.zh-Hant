@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解引導式管道設定工作流程如何自動建立在Adobe Journey Optimizer中設定行動裝置和網路管道所需的標籤屬性、資料串流和管道設定。
+**在此頁面上：**&#x200B;瞭解引導式管道設定工作流程如何自動建立在 Adobe Journey Optimizer 中設定行動裝置和網頁管道所需的標記屬性、資料流和管道設定。
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ ht-degree: 96%
     <tbody>
       <tr>
         <td>
-          <p>資料收集</p>
+          <p>資料彙集</p>
         </td>
         <td>
           <ul>

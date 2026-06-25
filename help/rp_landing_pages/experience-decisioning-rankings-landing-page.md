@@ -6,21 +6,21 @@ description: 建立排名
 redpen-status: CREATED_||_2025-08-11_20-56-11
 exl-id: 11edd7b2-0319-4576-9fef-042c239b25be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '223'
 ht-degree: 100%
 
 ---
 
 # 建立排名{#section-overview}
 
-在 Adobe Journey Optimizer 中，建立排名可讓您根據客群的唯一輪廓和內容，排列產品建議或推薦等項目向客群顯示的優先順序。使用簡單的公式或進階 AI 模型，您可以量身打造符合業務目標的決策流程，無論是最大化參與度、促進轉換還是符合其他關鍵量度。本節將逐步引導您了解各項要點，從了解排名方法的角色，到製作根據即時資料調整的 AI 驅動公式和模型。有了這些工具，您就能精確、彈性地在適當的時間將適當的內容提供給適當的客群。
+在 Adobe Journey Optimizer 中，建立排名可讓您根據客群的唯一輪廓和內容，排列產品建議或推薦等項目向客群顯示的優先順序。 使用簡單的公式或進階 AI 模型，您可以量身打造符合業務目標的決策流程，無論是最大化參與度、促進轉換還是符合其他關鍵量度。 本節將逐步引導您了解各項要點，從了解排名方法的角色，到製作根據即時資料調整的 AI 驅動公式和模型。 有了這些工具，您就能精確、彈性地在適當的時間將適當的內容提供給適當的客群。
 
 ## 建立排名
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立和使用排名方法
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 AI 公式產生器
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 了解和實作 AI 模型
 

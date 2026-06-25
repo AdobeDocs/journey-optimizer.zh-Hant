@@ -6,21 +6,21 @@ description: 開始建立內容
 redpen-status: CREATED_||_2025-08-11_20-31-35
 exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '245'
+workflow-type: ht
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
 # 開始建立內容{#section-overview}
 
-在 Adobe Journey Optimizer 中建立內容與彈性和效率息息相關，可讓您設計個人化電子郵件，以便與客群聯絡。無論您是從頭開始、匯入現有的 HTML、編寫您自己內容的程式碼、使用範本，還是套用可重複使用的主題，您都能找到符合需求和技能的正確方法。每種方法都有獨特的工具和功能 (例如拖放編輯、動態內容或模組化設計)，協助您製作吸引人的訊息。透過本指南，您將了解這些選項如何搭配運作，讓您能夠自信地建立、自訂並簡化您的電子郵件行銷活動。
+在 Adobe Journey Optimizer 中建立內容與彈性和效率息息相關，可讓您設計個人化電子郵件，以便與客群聯絡。 無論您是從頭開始、匯入現有的 HTML、編寫您自己內容的程式碼、使用範本，還是套用可重複使用的主題，您都能找到符合需求和技能的正確方法。 每種方法都有獨特的工具和功能 (例如拖放編輯、動態內容或模組化設計)，協助您製作吸引人的訊息。 透過本指南，您將了解這些選項如何搭配運作，讓您能夠自信地建立、自訂並簡化您的電子郵件行銷活動。
 
 ## 開始建立內容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 從草稿開始設計電子郵件內容
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 匯入現有電子郵件內容
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 撰寫您自己電子郵件內容的程式碼
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 使用電子郵件範本
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 善用電子郵件主題
 

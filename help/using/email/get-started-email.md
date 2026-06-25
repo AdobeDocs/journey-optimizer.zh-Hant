@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 344
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的電子郵件頻道，並瞭解如何使用電子郵件Designer在歷程和行銷活動中建立、設計、個人化和預覽電子郵件訊息。
+**在此頁面上：**&#x200B;開始使用 Adobe Journey Optimizer 中的電子郵件管道，並瞭解如何使用電子郵件設計工具在歷程和行銷活動中建立、設計、個人化和預覽電子郵件訊息。
 
 >[!ENDSHADEBOX]
 

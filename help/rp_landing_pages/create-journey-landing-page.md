@@ -8,20 +8,20 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
 
 # 建立歷程{#section-overview}
 
-在 Adobe Journey Optimizer 中建立歷程，可讓您製作個人化、自動化的客戶體驗，以因應個別行為和偏好。無論您是設計行銷活動還是協調客戶支援工作流程，您將了解如何使用直覺式的拖放介面來設定關鍵元素，例如觸發程序、客群和動作。從設定屬性和測試情境到追蹤即時績效和管理更新，每個步驟都建立在下一個步驟的基礎之上，以確保您的歷程既具影響力又沒有錯誤。掌握這些工具，您就能掌握跨管道提供順暢、資料導向時刻所需的一切。
+在 Adobe Journey Optimizer 中建立歷程，可讓您製作個人化、自動化的客戶體驗，以因應個別行為和偏好。 無論您是設計行銷活動還是協調客戶支援工作流程，您將了解如何使用直覺式的拖放介面來設定關鍵元素，例如觸發程序、客群和動作。 從設定屬性和測試情境到追蹤即時績效和管理更新，每個步驟都建立在下一個步驟的基礎之上，以確保您的歷程既具影響力又沒有錯誤。 掌握這些工具，您就能掌握跨管道提供順暢、資料導向時刻所需的一切。
 
 ## 建立歷程
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立您的第一個客戶歷程
 
@@ -31,17 +31,17 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定義和管理歷程屬性
 
-設定您歷程的進入規則、時間相關設定、存取管理等。
+設定您歷程的進入規則、時間相關設定、存取權管理等。
 
 [設定歷程屬性](../using/building-journeys/journey-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 如何設計您的歷程
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何測試您的歷程
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 以試運行模式測試歷程
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 發佈歷程
 
@@ -87,4 +87,4 @@ ht-degree: 100%
 
 - **[管理暫停的歷程](../using/building-journeys/journey-pause.md)** — 安全地暫停並繼續即時歷程、管理輪廓，以及在暫停期間套用全域篩選器。
 - **[設定及追蹤歷程量度](../using/building-journeys/success-metrics.md)** — 定義、指派及監視量度，以評估歷程成否與否。
-- **[您的歷程畫布中的即時報告](../using/building-journeys/report-journey.md)** — 即時監視歷程量度，並直接從畫布獲取績效深入分析。
+- **[您的歷程畫布中的即時報告](../using/building-journeys/report-journey.md)** — 即時監視歷程量度，並直接從畫布獲取績效洞察。

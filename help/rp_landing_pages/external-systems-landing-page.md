@@ -6,21 +6,21 @@ description: 將您的歷程與外部系統整合
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
 
 # 將您的歷程與外部系統整合{#section-overview}
 
-在 Adobe Journey Optimizer 中將您的歷程與外部系統整合，可讓您順暢地與 API 和資料來源連線，確保順暢的通訊和最佳化的績效。無論您是要透過上限和節流來限制 API 呼叫的速率、管理逾時和重試以確保可靠性，還是要設定自訂動作的容量，這些工具都有助於維護系統完整性，同時最大化效率。每個概念都以其他概念為基礎，提供實用策略來控制資料流並有效處理外部互動。深入探索關鍵技術和最佳做法，讓您根據需求建立強大、可擴充的整合。
+在 Adobe Journey Optimizer 中將您的歷程與外部系統整合，可讓您順暢地與 API 和資料來源連線，確保順暢的通訊和最佳化的績效。 無論您是要透過上限和節流來限制 API 呼叫的速率、管理逾時和重試以確保可靠性，還是要設定自訂動作的容量，這些工具都有助於維護系統完整性，同時最大化效率。 每個概念都以其他概念為基礎，提供實用策略來控制資料流並有效處理外部互動。 深入探索關鍵技術和最佳做法，讓您根據需求建立強大、可擴充的整合。
 
 ## 將您的歷程與外部系統整合
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部系統整合的最佳做法
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 上限 API 概觀與實作指南
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 節流 API：設定和管理指南
 

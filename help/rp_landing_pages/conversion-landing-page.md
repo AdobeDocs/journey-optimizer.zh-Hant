@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '262'
+workflow-type: ht
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
 
 # 轉換{#section-overview}
 
-Adobe Journey Optimizer 中的轉換區段可讓您將資料轉換為符合工作流程需求的格式，讓您更輕鬆地建立動態、個人化的歷程。不論是將字串轉換為布林值、將日期轉換為整數，還是將持續時間轉換為可讀取的格式，此類別中的每個函式都有其獨特用途，同時擁有簡化資料處理的共同目標。您將探索「toBool」、「toDateOnly」和「toInteger」等函式的運作方式，並透過清楚的範例來取得指引。掌握這些工具，您就可以順暢地調整資料，以符合歷程規則，並精準地提供量身打造的體驗。
+Adobe Journey Optimizer 中的轉換區段可讓您將資料轉換為符合工作流程需求的格式，讓您更輕鬆地建立動態、個人化的歷程。 不論是將字串轉換為布林值、將日期轉換為整數，還是將持續時間轉換為可讀取的格式，此類別中的每個函式都有其獨特用途，同時擁有簡化資料處理的共同目標。 您將探索「toBool」、「toDateOnly」和「toInteger」等函式的運作方式，並透過清楚的範例來取得指引。 掌握這些工具，您就可以順暢地調整資料，以符合歷程規則，並精準地提供量身打造的體驗。
 
 ## Adobe Journey Optimizer 中的轉換函式
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool 函式
 
@@ -31,7 +31,7 @@ toBool 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly 函式
 
@@ -41,7 +41,7 @@ toDateOnly 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime 函式
 
@@ -51,7 +51,7 @@ toDateTime 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly 函式
 
@@ -61,7 +61,7 @@ toDateTimeOnly 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal 函式
 
@@ -71,7 +71,7 @@ toDecimal 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration 函式
 

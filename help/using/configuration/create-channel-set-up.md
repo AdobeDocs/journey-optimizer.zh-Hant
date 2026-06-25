@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 692
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何使用引導式設定在Adobe Journey Optimizer中設定行動裝置和網路頻道、自動建立所需資源，以及與您的行銷活動和歷程團隊共用頻道設定。
+**在此頁面上：**&#x200B;瞭解如何使用引導式設定在 Adobe Journey Optimizer 中設定行動裝置和網頁管道、自動建立所需資源，以及與您的行銷活動和歷程團隊共用管道設定。
 
 >[!ENDSHADEBOX]
 

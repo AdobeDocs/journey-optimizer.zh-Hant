@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解收件匣通道如何讓行銷訊息保留在應用程式或網站內的一個固定位置，方便使用者返回閱讀並採取行動。
+**在此頁面上：**&#x200B;瞭解收件匣管道如何讓行銷訊息保留在應用程式或網站內的一個固定位置，方便使用者隨時返回閱讀並採取行動。
 
 >[!ENDSHADEBOX]
 

@@ -29,9 +29,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 312
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;設定並管理客戶自控金鑰(CMK)，以便使用您自己的金鑰來加密Adobe Journey Optimizer資料，並保護資料在傳輸中及閒置中。
+**在此頁面上：**&#x200B;設定並管理客戶自控金鑰 (CMK)，以便使用您自己的金鑰來加密 Adobe Journey Optimizer 資料，並保護傳輸中及閒置中的資料。
 
 >[!ENDSHADEBOX]
 

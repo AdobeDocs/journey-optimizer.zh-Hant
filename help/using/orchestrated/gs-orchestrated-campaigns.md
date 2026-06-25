@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 940
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的協調行銷活動如何讓您查詢關聯式資料集、建立具有精確計數的對象，以及跨多個管道傳遞行銷和異動訊息。
+**在此頁面上：**&#x200B;探索 Adobe Journey Optimizer 中的協調行銷活動如何讓您查詢關聯式資料集、建立具有精確計數的客群，以及跨多個管道傳遞行銷和交易型訊息。
 
 >[!ENDSHADEBOX]
 

@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;建立將標籤連結至行銷動作的治理原則，然後將它們套用至歷程、行銷活動和自訂動作，以便受限制的欄位無法外部共用，藉此保護敏感資料。
+**在此頁面上：**&#x200B;建立將標籤連結至行銷動作的治理原則，然後將它們套用至歷程、行銷活動和自訂動作，以便受限制的欄位無法在外部共用，藉此保護敏感資料。
 
 >[!ENDSHADEBOX]
 

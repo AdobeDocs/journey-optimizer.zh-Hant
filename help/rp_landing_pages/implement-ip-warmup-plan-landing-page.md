@@ -6,21 +6,21 @@ description: 實施 IP 暖身計劃
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '249'
+workflow-type: ht
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
 
 # 實施 IP 暖身計劃{#section-overview}
 
-在 Adobe Journey Optimizer 中實施 IP 暖身計劃，可透過逐步建立與電子郵件提供者的信任，確保您的電子郵件可送達收件匣，而非垃圾郵件資料夾。此過程包括從新的 IP 位址傳送穩定、逐漸增多的電子郵件，以建立良好的寄件者信譽。您將了解如何建立量身打造的暖身行銷活動、設定電子郵件管道，以及使用預先定義或自訂網域群組來建構詳細計劃。從定義階段和執行到監視進度，每個步驟都旨在最佳化電子郵件傳遞能力。無論您是傳遞能力專家還是管理員，本指南都能讓您自信地管理整個流程。
+在 Adobe Journey Optimizer 中實施 IP 暖身計劃，可透過逐步建立與電子郵件提供者的信任，確保您的電子郵件可送達收件匣，而非垃圾郵件資料夾。 此過程包括從新的 IP 位址傳送穩定、逐漸增多的電子郵件，以建立良好的寄件者信譽。 您將了解如何建立量身打造的暖身行銷活動、設定電子郵件管道，以及使用預先定義或自訂網域群組來建構詳細計劃。 從定義階段和執行到監視進度，每個步驟都旨在最佳化電子郵件傳遞能力。 無論您是傳遞能力專家還是管理員，本指南都能讓您自信地管理整個流程。
 
 ## 實施 IP 暖身計劃
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 IP 暖身傳遞能力指南
 
@@ -30,7 +30,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 開始使用 IP 暖身計劃
 
@@ -40,7 +40,7 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立 IP 暖身行銷活動
 
@@ -50,17 +50,17 @@ IP 暖身傳遞能力指南
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何建立和管理 IP 暖身計劃
 
 了解如何建立、設定和管理 IP 暖身計劃，包括設定權限和準備網域群組。
 
-[了解更多](../using/configuration/ip-warmup-plan.md)
+[瞭解更多](../using/configuration/ip-warmup-plan.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 執行並管理您的 IP 暖身計劃
 

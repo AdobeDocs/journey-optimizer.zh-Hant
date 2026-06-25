@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的應用程式內傳訊頻道，透過通知與應用程式使用者互動，以推廣功能、優惠方案和上線。
+**在此頁面上：**&#x200B;開始使用 Adobe Journey Optimizer 中的應用程式內傳訊管道，透過通知與應用程式使用者互動，以推廣功能、產品建議和上線。
 
 >[!ENDSHADEBOX]
 

@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 188
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解LINE傳訊在Journey Optimizer中的運作方式，讓您能夠透過歷程和行銷活動，透過其LINE應用程式觸及客戶。
+**在此頁面上：**&#x200B;瞭解 LINE 訊息在 Journey Optimizer 中的運作方式，讓您能夠透過歷程和行銷活動，在其 LINE 應用程式上觸及客戶。
 
 >[!ENDSHADEBOX]
 

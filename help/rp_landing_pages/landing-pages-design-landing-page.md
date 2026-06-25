@@ -6,21 +6,21 @@ description: 設計內容
 redpen-status: CREATED_||_2025-08-12_00-36-39
 exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
 # 設計內容{#section-overview}
 
-在 Adobe Journey Optimizer 中設計內容，可讓您根據行銷活動目標打造具影響力的登陸頁面。無論您是從頭開始、匯入 HTML 還是運用範本，提供的工具都能讓您輕鬆打造引人入勝的體驗。您可以自訂表單、整合內容資料以進行個人化，甚至可以透過自訂 JavaScript 增強功能。從使用內容設計工具到儲存範本或新增進階程式碼，每個子主題都建立了明確的路徑來掌握登陸頁面建立流程。透過彈性和精確度，您將擁有以有意義的方式與客群聯絡所需的一切。
+在 Adobe Journey Optimizer 中設計內容，可讓您根據行銷活動目標打造具影響力的登陸頁面。 無論您是從頭開始、匯入 HTML 還是運用範本，提供的工具都能讓您輕鬆打造引人入勝的體驗。 您可以自訂表單、整合內容資料以進行個人化，甚至可以透過自訂 JavaScript 增強功能。 從使用內容設計工具到儲存範本或新增進階程式碼，每個子主題都建立了明確的路徑來掌握登陸頁面建立流程。 透過彈性和精確度，您將擁有以有意義的方式與客群聯絡所需的一切。
 
 ## 設計內容
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在 Adobe Journey Optimizer 中設計登陸頁面
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 建立及自訂登陸頁面內容
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用登陸頁面範本
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在登陸頁面中使用自訂 JavaScript
 

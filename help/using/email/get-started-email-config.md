@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 563
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解在Adobe Journey Optimizer中設定電子郵件通道的基本步驟，從委派子網域和建立IP集區，到設定通道設定、執行欄位和重試。
+**在此頁面上：**&#x200B;瞭解在 Adobe Journey Optimizer 中設定電子郵件管道的基本步驟，從委派子網域和建立 IP 集區，到設定管道設定、執行欄位和重試。
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ ht-degree: 94%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用電子郵件組態
 
@@ -90,7 +90,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 定義電子郵件組態設定
 
@@ -100,7 +100,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 啟用並設定取消清單訂閱
 
@@ -110,7 +110,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定電子郵件標頭參數
 
@@ -120,7 +120,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 設定電子郵件管道的 URL 追蹤
 
@@ -130,7 +130,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 個人化電子郵件組態設定
 

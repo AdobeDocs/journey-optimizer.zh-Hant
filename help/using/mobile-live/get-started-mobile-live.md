@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Live活動如何在iPhone鎖定畫面和動態島上提供永久、即時更新，以便讓使用者在持續性事件中持續參與，並規劃透過Adobe Journey Optimizer傳送這些事件所需的設定和API觸發的行銷活動。
+**在此頁面上：**&#x200B;探索即時動態如何在 iPhone 鎖定畫面和動態島上提供永久、即時更新，以便讓使用者在持續性事件中持續參與，並規劃透過 Adobe Journey Optimizer 傳送這些事件所需的設定和 API 觸發的行銷活動。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ ht-degree: 89%
 
 使用 Adobe Journey Optimizer，您可以透過 API 觸發的行銷活動，以程式設計方式從遠端&#x200B;**開始**、**更新**&#x200B;和&#x200B;**結束**&#x200B;即時動態，以大規模支援個別和客群型使用案例。
 
-即時動態&#x200B;**只能**&#x200B;透過 **API 觸發**&#x200B;的行銷活動啟動，可讓您提供自訂承載，並透過自己的承載執行所有個人化。
+即時動態&#x200B;**只能**&#x200B;透過 **API 觸發**的行銷活動啟動，可讓您提供自訂承載，並透過自己的承載執行所有個人化。
 必須根據預期的即時動態使用案例選取適當的 **API 觸發**&#x200B;行銷活動類型：
 
 * 針對廣播使用案例選取 **API 觸發的行銷**——大規模傳送的客群型更新：

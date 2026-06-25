@@ -17,9 +17,9 @@ subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;內嵌核准程式會在檢閱期間鎖定歷程和行銷活動，讓適當的利害關係人在任何專案上線前登出，並集中管理和追蹤每個請求。
+**在此頁面上：**&#x200B;內嵌核准流程會在檢閱期間鎖定歷程和行銷活動，讓適當的利害關係人在任何項目上線前簽核，並集中管理和追蹤每個請求。
 
 >[!ENDSHADEBOX]
 
@@ -131,7 +131,7 @@ ht-degree: 93%
 
 當多個作用中核准原則可套用至相同歷程或行銷活動時，**最近啟用**&#x200B;的原則會優先套用。 該原則中定義的核准者使用者群組是收到通知並負責處理請求的群組。
 
-[了解更多](approval-policies.md#multiple-policies)
+[瞭解更多](approval-policies.md#multiple-policies)
 
 +++
 
@@ -146,4 +146,4 @@ ht-degree: 93%
 * **[建立核准原則](approval-policies.md)** - 了解如何設定核准原則，以強制執行行銷活動和歷程的審閱工作流程。
 * **[請求核准](request-approval.md)** - 了解如何提交內容以供核准及追蹤核准狀態。
 * **[審閱及核准請求](review-approve-request.md)** - 了解如何以核准者身分審閱、核准或拒絕核准請求。
-* **[模擬內容變化](simulate-sample-input.md)** — 按一下&#x200B;**[!UICONTROL 模擬內容]**，以使用範例輸入資料、AI自動產生或模擬的使用者來測試內容變化。 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+* **[模擬內容變化版本](simulate-sample-input.md)** - 按一下&#x200B;**[!UICONTROL 模擬內容]**，以使用範例輸入資料、AI 自動產生或模擬的使用者來測試內容變化版本。按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。

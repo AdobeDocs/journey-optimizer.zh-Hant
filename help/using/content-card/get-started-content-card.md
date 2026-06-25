@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 196
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;內容卡會直接在您的行動應用程式和網站中傳送個人化、非侵入式訊息，在內容中吸引使用者，而不會中斷他們的工作。
+**在此頁面上：**&#x200B;內容卡會直接在您的行動應用程式和網站中傳送個人化、非侵入式訊息，在內容中吸引使用者，而不會中斷他們原本要執行的操作。
 
 >[!ENDSHADEBOX]
 

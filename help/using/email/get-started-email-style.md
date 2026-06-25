@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何從[電子郵件Designer樣式]窗格調整電子郵件內容的樣式，將顏色、字型、框線、邊界等設定套用到內文、結構或內容元件上。
+**在此頁面上：**&#x200B;瞭解如何從 [電子郵件設計工具樣式] 窗格調整電子郵件內容的樣式，將顏色、字型、框線、邊界等設定套用到正文、結構或內容元件上。
 
 >[!ENDSHADEBOX]
 
