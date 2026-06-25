@@ -9,19 +9,14 @@ keywords: 日期，函式，運算式，歷程，時間
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -446,6 +441,12 @@ ht-degree: 7%
 
 傳回2小時前的dateTime。
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+在2026-01-31評估時，傳回2026-02-28T...；在2026-05-31評估時，傳回2026-06-30T...
+
+`nowWithDelta()`使用行事曆月算術。 如果目標月份的天數少於當月當月，則結果會標準化為該月的最後一個有效日。 函式不會捲動至下個月。
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ ht-degree: 7%
 * **問：如何取得過去2小時內的目前時間位移？**  — 使用`nowWithDelta(-2, "hours")`。
 * **問：`updateTimeZone`與`setHours`有何不同之處？** — `updateTimeZone`保持相同的即時時間，但以不同的時區表示，而`setHours`實際上會變更datetime值的小時元件。
 * **問：`nowWithDelta`中的時區引數可以是設定檔欄位嗎？**  — 否，時區ID必須是字串常數；不支援欄位參考。
+* **問：`nowWithDelta()`搭配月份使用，而目前日期是月底日期時，會發生什麼情況？**  — 此函式使用行事曆月份算術，並將結果標準化為目標月份的最後一個有效日。 例如，新增1個月至1月31日會傳回2月28日（而不是3月3日）。
 
 +++
