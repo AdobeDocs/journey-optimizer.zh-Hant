@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
-source-wordcount: 8915
+source-wordcount: 8952
 ht-degree: 90%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 90%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* **高輸送量模式**&#x200B;頁面已更新，以反映擴充的區域可用性：此功能現在可在所有區域使用，除了瑞士，適用於獲授權擁有高輸送量異動訊息附加元件的組織。 [閱讀更多](../campaigns/api-triggered-high-throughput.md)
 
 * 新的&#x200B;**可參與設定檔和授權使用情況**&#x200B;區段已新增到&#x200B;**開始使用設定檔**&#x200B;頁面，作為此概念的單一信任來源，並在「對象」、「行銷活動」及「決策」區段中新增目標參考。 [閱讀更多](../audience/get-started-profiles.md#engageable-profiles)
 
