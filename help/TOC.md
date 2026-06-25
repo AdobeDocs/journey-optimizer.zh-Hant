@@ -40,8 +40,8 @@ ht-degree: 98%
       + [AI 與智慧功能](using/start/ai-features.md)
       + [重要術語](using/start/terminology.md)
       + [從您的目標開始](using/start/ajo-use-case-guide.md)
-      + [護欄與限制](using/start/guardrails.md)
-      + {hide-from-toc}[封裝和功能](using/start/ajo-packages.md)
+      + [護欄 &amp; 限制](using/start/guardrails.md)
+      + {hide-from-toc}[套件和功能](using/start/ajo-packages.md)
       + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
    + 角色快速入門 {#by-role}
       + [角色與職責](using/start/quick-start.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
       + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
       + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
       + 模擬 {#simulate-journey}
-         + [開始歷程模擬](using/building-journeys/simulate-journey-gs.md)
+         + [開始使用歷程模擬](using/building-journeys/simulate-journey-gs.md)
          + [模擬您的歷程](using/building-journeys/simulate-journey.md)
       + [測試您的歷程](using/building-journeys/testing-the-journey.md)
       + [歷程試運行](using/building-journeys/journey-dry-run.md)
@@ -89,7 +89,7 @@ ht-degree: 98%
       + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
       + [一般事件](using/building-journeys/general-events.md)
-      + [反應事件](using/building-journeys/reaction-events.md)
+      + [回應事件](using/building-journeys/reaction-events.md)
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)
       + 最佳化 {#optimize-activity}
          + [開始使用「最佳化」活動](using/building-journeys/optimize.md)
@@ -358,7 +358,7 @@ ht-degree: 98%
       + [管理行動訊息的選擇退出](using/mobile/mobile-opt-out.md)
       + [設定簡訊子網域](using/mobile/mobile-subdomains.md)
       + [簡訊成本最佳化的最佳做法](using/mobile/mobile-cost-optimization.md)
-      + [產生SMS使用報告](using/mobile/sms-usage-report.md)
+      + [產生簡訊使用情況報告](using/mobile/sms-usage-report.md)
       + 設定行動裝置管道 {#configure-mobile}
          + [開始使用行動設定](using/mobile/mobile-configuration.md)
          + [設定 Sinch 提供者](using/mobile/mobile-configuration-sinch.md)
