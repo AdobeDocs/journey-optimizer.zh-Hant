@@ -8,27 +8,16 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 25%
 
 ---
 
@@ -60,12 +49,32 @@ ht-degree: 36%
 
 **資料共用** — 與Amazon Web Services、Microsoft Azure和Google Cloud等頂級雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
 
+## 參與設定檔與授權使用情況 {#engageable-profiles}
+
+**可參與的設定檔**&#x200B;是代表個人資訊的記錄，該資訊儲存在設定檔服務中，且已由歷程或行銷活動參與。 這是[!DNL Adobe Journey Optimizer]的金鑰授權量度。
+
+主要特性：
+
+* **12個月的滾動期間**：此計數反映了您在過去12個月嘗試使用Journey Optimizer的編寫、決策、傳送、實驗或協調功能參與的不重複設定檔。
+* **每個沙箱計算一次**：在沙箱中進入多個歷程或行銷活動的設定檔將計為該沙箱的單一可參與設定檔。
+* **根據您的可定址對象**：可參與的設定檔是根據您的可定址對象所計算。 此計數代表過去12個月使用任何Journey Optimizer功能參與的受眾（在可定址的受眾總數中）。
+* **量度行為**：可參與的設定檔計數：
+   * 當新設定檔透過歷程或行銷活動參與時，可能會增加
+   * 除非未與某些設定檔進行超過12個月的互動，否則無法減少
+   * 當假名設定檔連結到已知設定檔時，可能會減少
+
+>[!TIP]
+>
+>使用傳入管道（例如，網頁、應用程式內或程式碼型體驗）來鎖定目標為假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與設定檔的計數和相關成本。 [進一步瞭解傳入頻道護欄](../start/guardrails.md#profile-management-inbound)
+
+隨時從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**&#x200B;監視您組織的可參與設定檔計數。 如果您發現計數突然尖峰，請參閱[疑難排解區段](license-usage.md#troubleshooting-engageable-profiles)以取得詳細指引。 [進一步瞭解授權使用儀表板](license-usage.md)
+
 >[!MORELIKETHIS]
 >
 >* [開始使用 Journey Optimizer 的資料管理](../data/gs-data.md)
 >* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
 >* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
+>* {&#x200B;0}資料擷取檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}[
 
 ## 設定檔儀表板
 
