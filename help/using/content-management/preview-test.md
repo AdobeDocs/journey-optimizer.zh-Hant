@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 606
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何使用測試設定檔或範例輸入資料，在Adobe Journey Optimizer中預覽及測試您的訊息內容，以在傳送之前驗證轉譯、個人化及準確性。
+**在此頁面上：**&#x200B;瞭解如何使用測試輪廓或範例輸入資料，在 Adobe Journey Optimizer 中預覽及測試您的訊息內容，以在傳送之前驗證轉譯、個人化及準確性。
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +36,7 @@ ht-degree: 84%
 
 您也可以將電子郵件訊息的測試傳遞傳送給特定收件者或訂閱者，以便進行測試和驗證，同時檢查郵件內容在熱門桌面、行動裝置和網頁型用戶端中的轉譯內容。 此外，您也可以評估一般內容品質方面，例如可讀性和有效性。 [了解更多關於內容品質驗證的資訊](brands-score.md#validate-quality)
 
-所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，您可從訊息的編輯內容畫面或電子郵件與網頁通道的電子郵件與網頁設計工具存取該按鈕。 按一下&#x200B;**[!UICONTROL 模擬內容]**，使用範例輸入資料測試內容變化。 若要使用測試設定檔預覽、傳送校樣或檢查電子郵件呈現，請從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**。
+所有這些動作都可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;按鈕來執行，可以從訊息的編輯內容畫面，或透過電子郵件、網頁管道的電子郵件和網頁設計工具，存取此按鈕。按一下&#x200B;**[!UICONTROL 模擬內容]**，使用範例輸入資料來測試內容變化版本。若要使用測試輪廓預覽、傳送校樣或檢查電子郵件轉譯，請從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**。
 
 ![](../email/assets/email-preview-button.png)
 
@@ -81,4 +80,4 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
 了解如何使用測試輪廓來測試各個收件匣裡的電子郵件轉譯，根據測試輪廓預覽您的個人化電子郵件，同時傳送校樣。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430345?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

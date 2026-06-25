@@ -7,21 +7,21 @@ redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
-source-wordcount: '405'
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
 # 日期{#section-overview}
 
-Adobe Journey Optimizer 中的日期函式可讓您順暢地處理時間相關資料，協助您根據目前時間、過去間隔或未來預測建立動態運算式。無論您是需要評估事件是否在特定小時、天或年中發生，還是調整時區並設定自訂日期元件，這些工具都能提供對暫時資料的精確控制。每個函式 (如「currentTimeInMillis」、「inLastDays」或「updateTimeZone」) 都有其獨特用途，可讓您建立個人化歷程，並滿懷信心地自動化決策。探索子主題以發現其不同的角色，以及它們如何組合在一起來簡化您的工作流程。
+Adobe Journey Optimizer 中的日期函式可讓您順暢地處理時間相關資料，協助您根據目前時間、過去間隔或未來預測建立動態運算式。 無論您是需要評估事件是否在特定小時、天或年中發生，還是調整時區並設定自訂日期元件，這些工具都能提供對暫時資料的精確控制。 每個函式 (如「currentTimeInMillis」、「inLastDays」或「updateTimeZone」) 都有其獨特用途，可讓您建立個人化歷程，並滿懷信心地自動化決策。 探索子主題以發現其不同的角色，以及它們如何組合在一起來簡化您的工作流程。
 
 ## Adobe Journey Optimizer 的日期函式
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 函式參考
 
@@ -31,7 +31,7 @@ currentTimeInMillis 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 函式
 
@@ -41,7 +41,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastHours 函式
 
@@ -51,7 +51,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastMonths 函式
 
@@ -61,7 +61,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastYears 函式
 
@@ -71,7 +71,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 函式
 

@@ -6,21 +6,21 @@ description: 管理決策項目
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
+workflow-type: ht
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
 
 # 管理決策項目{#section-overview}
 
-在 Adobe Journey Optimizer 中管理決策項目，全都是為了確保正確的行銷產品建議在正確的時間觸及正確的客群。本節向您介紹用於組織項目的目錄、用於量身打造產品建議的詳細屬性，以及用於智慧地將產品建議分組的集合等關鍵工具。您也會探索資格規則、產品建議出現頻率的限制，以及編輯和維護項目的實用秘訣。無論您是設定個人化行銷活動還是微調您的決策策略，這些功能可搭配使用，協助您自信地提供具影響力、定位目標的體驗。
+在 Adobe Journey Optimizer 中管理決策項目，全都是為了確保正確的行銷產品建議在正確的時間觸及正確的客群。 本節向您介紹用於組織項目的目錄、用於量身打造產品建議的詳細屬性，以及用於智慧地將產品建議分組的集合等關鍵工具。 您也會探索資格規則、產品建議出現頻率的限制，以及編輯和維護項目的實用秘訣。 無論您是設定個人化行銷活動還是微調您的決策策略，這些功能可搭配使用，協助您自信地提供具影響力、定位目標的體驗。
 
 ## 管理決策項目
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定項目目錄
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立並管理決策項目
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 管理項目集合
 

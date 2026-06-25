@@ -10,22 +10,15 @@ level: Beginner
 keywords: 直接郵件, 訊息, 行銷活動
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解直接郵件通道如何運作，以便您產生第三方提供者用來傳送實體郵件給客戶的擷取檔案。
+**在此頁面上：**&#x200B;瞭解直接郵件管道如何運作，以便您產生第三方提供者用來傳送實體郵件給客戶的擷取檔案。
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +56,7 @@ ht-degree: 89%
 
 * **[建立直接郵件](create-direct-mail.md)** - 了解如何建立直接郵件傳遞，以及設定離線管道的擷取檔案。
 * **[設定直接郵件管道](direct-mail-configuration.md)** - 設定直接郵件介面和檔案路由設定。
-* **[直接郵件中的批次決策](../experience-decisioning/batch-decisioning-direct-mail.md)** — 使用決策功能來個人化直接郵件的擷取檔案，或匯出下游系統的決策資料。
+* **[直接郵件中的批次決策](../experience-decisioning/batch-decisioning-direct-mail.md)** - 使用決策功能來個人化直接郵件的擷取檔案，或為下游系統匯出決策資料。
 * **[測試並傳送直接郵件](test-send-direct-mail.md)** - 了解如何測試、驗證及發佈您的直接郵件傳遞。
 * **[直接郵件教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - 探索直接郵件功能和最佳做法的逐步教學課程影片。
 
@@ -73,7 +66,7 @@ ht-degree: 89%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3479173?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 

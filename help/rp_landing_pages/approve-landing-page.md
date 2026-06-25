@@ -6,21 +6,21 @@ description: 核准歷程與行銷活動
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
 # 核准歷程與行銷活動{#section-overview}
 
-在 Adobe Journey Optimizer 中核准歷程和行銷活動，可確保每個行動方案在投入使用前皆經過審查和驗證，讓團隊更能掌控品質和合規性。此功能可讓使用者設定結構化的核准工作流程、定義核准條件，並輕鬆監視請求。無論您是要建立原則、傳送核准請求，還是要檢閱提交內容，每個步驟都旨在簡化共同作業，並保障您的行銷工作。深入了解核准原則的建立方式、請求的管理方式和變更的處理方式，以便您能夠自信地執行符合組織標準的行銷活動。
+在 Adobe Journey Optimizer 中核准歷程和行銷活動，可確保每個行動方案在投入使用前皆經過審查和驗證，讓團隊更能掌控品質和合規性。 此功能可讓使用者設定結構化的核准工作流程、定義核准條件，並輕鬆監視請求。 無論您是要建立原則、傳送核准請求，還是要檢閱提交內容，每個步驟都旨在簡化共同作業，並保障您的行銷工作。 深入了解核准原則的建立方式、請求的管理方式和變更的處理方式，以便您能夠自信地執行符合組織標準的行銷活動。
 
 ## 核准歷程與行銷活動
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 設定及管理歷程與行銷活動核准
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何建立和管理核准原則
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何請求核准歷程與行銷活動
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 審閱及核准歷程與行銷活動的請求
 

@@ -6,21 +6,21 @@ description: API 觸發的行銷活動
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '315'
+workflow-type: ht
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
 
 # API 觸發的行銷活動{#section-overview}
 
-Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API 呼叫，在需要時提供即時、個人化的訊息，例如購買確認或促銷優惠。不論您是傳送交易型更新還是行銷訊息，此功能可確保根據您的客群量身打造精確、自動化的傳送。您將了解如何定義行銷活動屬性、設定多語言內容或參與追蹤等動作，以及設定客群的身分類型。從排程到啟動和執行，每個步驟都朝著順暢、具影響力的溝通方向建立。透過實用的指引和範例，您將準備好建立即時連線的行銷活動。
+Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API 呼叫，在需要時提供即時、個人化的訊息，例如購買確認或促銷優惠。 不論您是傳送交易型更新還是行銷訊息，此功能可確保根據您的客群量身打造精確、自動化的傳送。 您將了解如何定義行銷活動屬性、設定多語言內容或參與追蹤等動作，以及設定客群的身分類型。 從排程到啟動和執行，每個步驟都朝著順暢、具影響力的溝通方向建立。 透過實用的指引和範例，您將準備好建立即時連線的行銷活動。
 
 ## 由 API 觸發的行銷活動
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立和管理由 API 觸發的行銷活動
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 定義由 API 觸發的行銷活動屬性
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定由 API 觸發的行銷活動動作
 
@@ -50,17 +50,17 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 編輯及個人化由 API 觸發的行銷活動內容
 
-使用內容資料自訂及個人化行銷活動內容。了解如何設計、測試和設定有效的訊息。
+使用內容資料自訂及個人化行銷活動內容。 了解如何設計、測試和設定有效的訊息。
 
 [編輯並個人化內容](../using/campaigns/api-triggered-campaign-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定義由 API 觸發的行銷活動的客群
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中由 API 觸發的行銷活動可讓您透過 REST API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 安排由 API 觸發的行銷活動
 

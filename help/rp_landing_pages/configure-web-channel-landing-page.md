@@ -6,21 +6,21 @@ description: 設定網頁管道
 redpen-status: CREATED_||_2025-08-11_20-39-49
 exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '189'
+workflow-type: ht
+source-wordcount: '201'
 ht-degree: 100%
 
 ---
 
 # 設定網頁管道{#section-overview}
 
-在 Adobe Journey Optimizer 中設定網頁管道，可讓您直接將個人化的動態內容傳送給網站訪客。只要您了解如何設定必要的先決條件、管理子網域和定義目標網頁屬性，您就能獲得工具，建立順暢且量身打造的網頁體驗。無論是確保實施準備就緒、委派子網域，還是製作精確的 URL 比對規則，每個步驟都能在最佳化客群在線上與品牌互動的方式中發揮獨特的作用。本節將引導您完成此流程，讓您輕鬆自信地設計、提供和調整具影響力的網頁行銷活動。
+在 Adobe Journey Optimizer 中設定網頁管道，可讓您直接將個人化的動態內容傳送給網站訪客。 只要您了解如何設定必要的先決條件、管理子網域和定義目標網頁屬性，您就能獲得工具，建立順暢且量身打造的網頁體驗。 無論是確保實施準備就緒、委派子網域，還是製作精確的 URL 比對規則，每個步驟都能在最佳化客群在線上與品牌互動的方式中發揮獨特的作用。 本節將引導您完成此流程，讓您輕鬆自信地設計、提供和調整具影響力的網頁行銷活動。
 
 ## 設定網頁管道
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 網頁管道先決條件
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定網頁子網域
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及設定網頁管道
 

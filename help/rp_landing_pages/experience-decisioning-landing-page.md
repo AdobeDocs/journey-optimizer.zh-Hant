@@ -7,30 +7,30 @@ redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: ht
-source-wordcount: '354'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # 決策{#section-overview}
 
-Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強大的決策引擎，讓您能夠提供個人化行銷產品建議。無論您是針對個別客群量身打造內容，還是透過 AI 驅動的排名最佳化策略，決策都能提供進行大規模資料導向決策的工具。深入了解決策項目、規則和原則等主要概念，並探索這些元素如何共同運作，為您的行銷活動選取最佳內容並設定優先順序。從管理集合和刊登版位到運用 Adobe Experience Platform 資料，本全方位指南可幫助您解鎖更智慧的個人化，並帶來具影響力的客戶體驗。
+Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強大的決策引擎，讓您能夠提供個人化行銷產品建議。 無論您是針對個別客群量身打造內容，還是透過 AI 驅動的排名最佳化策略，決策都能提供進行大規模資料導向決策的工具。 深入了解決策項目、規則和原則等主要概念，並探索這些元素如何共同運作，為您的行銷活動選取最佳內容並設定優先順序。 從管理集合和刊登版位到運用 Adobe Experience Platform 資料，本全方位指南可幫助您解鎖更智慧的個人化，並帶來具影響力的客戶體驗。
 
 ## 決策功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Decisioning 簡介
+決策簡介
 
 了解 Adobe Journey Optimizer 中決策的基礎知識，包括個人化內容傳遞和關鍵設定步驟。
 
-[開始使用 Decisioning](../using/experience-decisioning/gs-experience-decisioning.md)
+[開始使用決策](../using/experience-decisioning/gs-experience-decisioning.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 決策護欄與限制
 
@@ -40,7 +40,7 @@ Decisioning 簡介
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 常見問題
 
@@ -50,7 +50,7 @@ Decisioning 簡介
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API 參考：傳遞產品建議
 
@@ -60,7 +60,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 管理決策項目與目錄
 
@@ -70,7 +70,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 建立決策規則
 
@@ -80,7 +80,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用 AI 模型建立排名
 
