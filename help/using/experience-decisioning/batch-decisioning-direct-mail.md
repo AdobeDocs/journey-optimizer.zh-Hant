@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: 批次決策、直接郵件、決策
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. **新增決定原則**：
 
    1. 按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以設定擷取檔案。
-   1. 將欄新增至解壓縮檔案，並使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+   1. 將欄新增至解壓縮檔案，並使用![](assets/do-not-localize/editor-icon.svg)圖示開啟個人化編輯器。
 
       ![](assets/decision-policy-dm-add.png)
 

@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -137,7 +137,7 @@ ht-degree: 23%
 
 1. 在行銷活動或歷程設定畫面中，按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕以設定擷取檔案內容。
 
-1. 若要新增決定原則至您的直接郵件訊息，請在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中選取欄，並使用![](../experience-decisioning/assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表以建立和插入決定原則。 然後，您就可以在擷取檔案中，將決策專案屬性當做欄資料使用。
+1. 若要新增決定原則至您的直接郵件訊息，請在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中選取欄，並使用![](../experience-decisioning/assets/do-not-localize/editor-icon.svg)圖示開啟個人化編輯器。 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表以建立和插入決定原則。 然後，您就可以在擷取檔案中，將決策專案屬性當做欄資料使用。
 
    >[!AVAILABILITY]
    >

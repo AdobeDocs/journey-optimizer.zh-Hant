@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 5%
 
 +++從決定功能表新增決定原則
 
-1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+1. 按一下屬性窗格中的![](assets/do-not-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
 1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
@@ -111,7 +111,7 @@ ht-degree: 5%
 
    +++從Personalization編輯器新增決定原則
 
-   1. 使用主旨行欄位或電子郵件內文中可新增個人化的任何欄位中可用的![](assets/do-no-localize/editor-icon.svg)圖示，開啟個人化編輯器。
+   1. 使用主旨行欄位或電子郵件內文中可新增個人化的任何欄位中可用的![](assets/do-not-localize/editor-icon.svg)圖示，開啟個人化編輯器。
 
    1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
@@ -123,7 +123,7 @@ ht-degree: 5%
 
    1. 開啟電子郵件Designer並選取電子郵件結構中的任何元件。
 
-   1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+   1. 按一下屬性窗格中的![](assets/do-not-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
    1. 按一下&#x200B;**[!UICONTROL 新增原則]**&#x200B;按鈕。
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 
 +++從個人化編輯器新增決定原則
 
-1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+1. 使用![](assets/do-not-localize/editor-icon.svg)圖示開啟個人化編輯器。
 1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +164,7 @@ ht-degree: 5%
 
 +++從決定功能表新增決定原則
 
-1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+1. 按一下屬性窗格中的![](assets/do-not-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
 1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
@@ -178,7 +178,7 @@ ht-degree: 5%
 
 +++從個人化編輯器新增決定原則
 
-1. 使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+1. 使用![](assets/do-not-localize/editor-icon.svg)圖示開啟個人化編輯器。
 1. 瀏覽至&#x200B;**[!UICONTROL 決定原則]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +187,7 @@ ht-degree: 5%
 
 +++從決定功能表新增決定原則
 
-1. 按一下屬性窗格中的![](assets/do-no-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
+1. 按一下屬性窗格中的![](assets/do-not-localize/decisioning-icon.png)圖示以存取&#x200B;**[!UICONTROL 決策]**&#x200B;功能表。
 
 1. 按一下&#x200B;**[!UICONTROL 新增決定原則]**&#x200B;按鈕。
 
@@ -195,7 +195,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->具有推播通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中檢視您平台的所有可用SDK版本。
+>具有推播通知的體驗決策需要特定版本的 Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}，以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中檢視您平台的所有可用 SDK 版本。
 
 +++
 
@@ -205,7 +205,7 @@ ht-degree: 5%
 
 1. 在&#x200B;**[!UICONTROL 資料欄位]**&#x200B;區段中，選取欄或按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以建立欄。
 
-1. 在格式窗格中，使用![](assets/do-no-localize/editor-icon.svg)圖示開啟個人化編輯器。
+1. 在格式窗格中，使用![](assets/do-not-localize/editor-icon.svg)圖示開啟個人化編輯器。
 
    ![](assets/decision-policy-dm-add.png)
 
