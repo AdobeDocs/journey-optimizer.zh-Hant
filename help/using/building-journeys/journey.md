@@ -34,9 +34,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2277
+source-wordcount: 2278
 ht-degree: 70%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 70%
 
 [!DNL Adobe Journey Optimizer] 支援四種歷程，分別針對不同進入機制和業務情境而設計：
 
-* **單一歷程**：即時、事件觸發體驗（訂單確認、歡迎電子郵件）
+* **單一歷程**：即時、事件觸發的體驗（購物車放棄復原、歡迎電子郵件）
 * **閱讀對象歷程**：已排程批次通訊至對象區段 (電子報、促銷行銷活動)
 * **客群資格鑑定歷程**：對客群會籍變更的即時回應 (VIP 升級、重新參與)
 * **商業事件歷程**：影響許多客戶的業務狀況（詳細目錄警報、限時特賣）
