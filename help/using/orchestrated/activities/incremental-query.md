@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +51,9 @@ ht-degree: 21%
 * **傳訊與對象**：只將新註冊、新購買者或其他「自上次執行以來的新專案」區段提取至下一個步驟（例如電子郵件、簡訊）。
 * **持續匯出**：只將新的或更新後的資料列傳送至檔案以供報表或BI工具使用，而不會複製您已匯出的資料。
 
-當執行未傳回任何資料列時，協調的行銷活動會在&#x200B;**增量查詢**&#x200B;停止。 只有在有資料時（行銷活動再次執行時），增量查詢之後的活動才會執行。
+>[!IMPORTANT]
+>
+>當執行未傳回任何資料列時，協調的行銷活動會在&#x200B;**增量查詢**&#x200B;停止。 只有在有資料時（行銷活動再次執行時），增量查詢之後的活動才會執行。
 
 ## 設定增量查詢活動 {#incremental-query-configuration}
 
