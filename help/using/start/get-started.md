@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 804
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer是什麼、其核心功能及具體使用案例，以便您決定如何配合客戶參與目標。
+**在此頁面上：**&#x200B;瞭解 Adobe Journey Optimizer 是什麼、其核心功能及具體使用案例，以便您決定如何配合客戶參與目標。
 
 >[!ENDSHADEBOX]
 

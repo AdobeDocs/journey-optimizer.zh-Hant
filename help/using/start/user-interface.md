@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;在Adobe Journey Optimizer介面（頂端列、首頁和左側導覽）中尋找方向，讓您快速存取所需的功能。
+**在此頁面上：**&#x200B;在 Adobe Journey Optimizer 介面 (頂端列、首頁和左側導覽) 中尋找方向，讓您快速存取所需的功能。
 
 >[!ENDSHADEBOX]
 
@@ -360,7 +360,7 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
->title="Authentication"
+>title="驗證"
 >abstract="如果您的端點需要 JWT 驗證，請從清單中選取 **JWT 驗證**，並提供必要的詳細資料。"
 
 >[!CONTEXTUALHELP]

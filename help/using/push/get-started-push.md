@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 389
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;開始使用Adobe Journey Optimizer中的推播通知，透過歷程和行銷活動觸及您的行動應用程式使用者和Web訪客。
+**在此頁面上：**&#x200B;開始使用 Adobe Journey Optimizer 中的推播通知，透過歷程和行銷活動觸及您的行動應用程式使用者和網頁訪客。
 
 >[!ENDSHADEBOX]
 

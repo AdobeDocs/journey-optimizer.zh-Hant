@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何在電子郵件Designer中設計您的電子郵件內容、從草稿開始建立電子郵件的關鍵步驟、程式碼或匯入的HTML，以及讓您的電子郵件在不同使用者端間正常呈現的最佳實務。
+**在此頁面上：**&#x200B;瞭解如何在電子郵件設計工具中設計您的電子郵件內容、從頭開始建立電子郵件的關鍵步驟、程式碼或匯入的 HTML，以及讓您的電子郵件在不同用戶端間正常轉譯的最佳做法。
 
 >[!ENDSHADEBOX]
 

@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;遵循行銷人員的快速入門路徑，這樣您就可以建立對象、設計內容，以及在Journey Optimizer中協調提供個人化客戶體驗的歷程和行銷活動。
+**在此頁面上：**&#x200B;遵循行銷人員的快速入門路徑，這樣您就可以建立客群、設計內容，以及在 Journey Optimizer 中協調提供個人化客戶體驗的歷程和行銷活動。
 
 >[!ENDSHADEBOX]
 

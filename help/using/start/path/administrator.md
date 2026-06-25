@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1168
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;設定使用者、許可權、沙箱和管道設定，讓您的團隊可以在Adobe Journey Optimizer中安全有效地工作。
+**在此頁面上：**&#x200B;設定使用者、權限、沙箱和管道設定，讓您的團隊可以在 Adobe Journey Optimizer 中安全有效地工作。
 
 >[!ENDSHADEBOX]
 

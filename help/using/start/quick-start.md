@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 2102
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer實作中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
+**在此頁面上：**&#x200B;瞭解 Adobe Journey Optimizer 實作中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
 
 >[!ENDSHADEBOX]
 

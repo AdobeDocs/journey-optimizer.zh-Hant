@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;使用通用搜尋、清單篩選器和標籤，快速找到並組織歷程、行銷活動和資產，讓您能夠在Journey Optimizer專案成長的同時保持生產力。
+**在此頁面上：**&#x200B;使用通用搜尋、清單篩選器和標籤，快速找到並整理歷程、行銷活動和資產，讓您能夠在 Journey Optimizer 專案推進的同時保持生產力。
 
 >[!ENDSHADEBOX]
 

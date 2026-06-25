@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;取得資料如何流進/流出Adobe Journey Optimizer的實用總覽，涵蓋結構描述、資料集、身分、設定檔和資料來源，讓您的團隊可以在建立歷程和行銷活動之前完成資料整備步驟。
+**在此頁面上：**&#x200B;取得資料如何流進/流出 Adobe Journey Optimizer 的實用概觀，涵蓋結構描述、資料集、身分識別、輪廓和資料來源，讓您的團隊可以在建立歷程和行銷活動之前完成資料整備步驟。
 
 >[!ENDSHADEBOX]
 

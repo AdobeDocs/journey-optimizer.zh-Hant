@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1072
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;建立支援Adobe Journey Optimizer的結構描述、資料集、身分和資料來源，讓您的團隊可以提供即時、個人化的客戶體驗。
+**在此頁面上：**&#x200B;建立支援 Adobe Journey Optimizer 的結構描述、資料集、身分和資料來源，讓您的團隊可以提供即時、個人化的客戶體驗。
 
 >[!ENDSHADEBOX]
 

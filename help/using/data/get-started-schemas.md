@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Adobe Experience Platform標準和關聯式結構描述如何定義您的資料結構，以便您可以在Adobe Journey Optimizer中為個人化和協調行銷活動建立設定檔、行為事件和關聯式實體的模型。
+**在此頁面上：**&#x200B;瞭解 Adobe Experience Platform 標準和關聯式結構描述如何定義您的資料結構，以便您可以在 Adobe Journey Optimizer 中為個人化和協調行銷活動建立輪廓、行為事件和關聯式實體的模型。
 
 >[!ENDSHADEBOX]
 

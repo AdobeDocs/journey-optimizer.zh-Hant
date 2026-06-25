@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何存取、建立和管理Adobe Experience Platform資料集，以便儲存和探索Adobe Journey Optimizer中支援歷程、行銷活動和報告的資料。
+**在此頁面上：**&#x200B;瞭解如何存取、建立和治理 Adobe Experience Platform 資料集，以便儲存和探索 Adobe Journey Optimizer 中支援歷程、行銷活動和報告的資料。
 
 >[!ENDSHADEBOX]
 
 所有擷取至 Adobe Experience Platform 的資料都會以資料集的形式保留在資料湖。 資料集是資料集合的儲存和管理結構，通常是包含方案 (欄) 和欄位 (列) 的表格。
 
-## 護欄與限制
+## 護欄 &amp; 限制
 
 * 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
 
@@ -80,7 +80,7 @@ ht-degree: 78%
 
 * 報表
 
-   * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取 — 預期最多有2小時的資料延遲。**
+   * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取，預期最多有 2 小時的資料延遲。**
    * _報告 - 電子郵件追蹤體驗事件資料集_：電子郵件管道的互動記錄，以及 `whatsAppChannelContext` 欄位群組下的 WhatsApp 管道內容資料。 用於報告和建立客群。 儲存的資訊包含終端使用者在電子郵件和 WhatsApp 互動中執行的動作 (開啟、按一下等)。
    * _報告 - 推播追蹤體驗事件資料集_：用於報告與客群建立目的使用之推播通知頻道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
    * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。

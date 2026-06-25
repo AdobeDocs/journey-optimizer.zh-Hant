@@ -18,14 +18,14 @@ subfeature_v2:
 source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
 workflow-type: tm+mt
 source-wordcount: 43
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
 # 搶鮮版發行說明 {#e-release-notes}
 
-Adobe Journey Optimizer持續提供新功能、現有功能的增強功能，以及錯誤修正。 所有變更都會在每月底整合於[發行說明](release-notes.md)。
+Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並修正錯誤。 所有變更都會在每月底整合於[發行說明](release-notes.md)。
 
 <!--
 ## June '26 pre-release notes {#june-26-rn}
