@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 91%
 
 * 已在&#x200B;**路徑實驗**&#x200B;檔案中新增歷程重新進入&#x200B;**子區段上的新**&#x200B;路徑指派。 它說明路徑指派會持續存在於相同歷程版本的多個入口中的設定檔，但僅限於該歷程版本。 發佈新歷程版本時，指派會重設，且歷程中的每個路徑實驗活動會套用獨立的隨機指派。 [閱讀更多](../building-journeys/path-experimentation.md#path-assignment)
 * 在[!DNL Journey Optimizer]檔案中，**Adobe Experience Cloud**&#x200B;的參考已與&#x200B;**[!DNL Adobe CX Enterprise]**&#x200B;品牌一致。
+
+* **`nowWithDelta()`日期函式**&#x200B;檔案已更新，以釐清月底行為：當目標月份的天數少於當月的目前日期時，結果會標準化為該月的最後有效日期。 [閱讀更多](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * **傳遞能力快速入門**&#x200B;頁面已更新為新的&#x200B;**提供者，沒有每個收件者的FBL**&#x200B;子區段。 它會列出未傳回每個收件者垃圾郵件投訴的主要信箱提供者 — Gmail / Google Workspace、Apple iCloud和企業Microsoft 365 / Exchange Online — 並說明為何使用這些服務的收件者預期會缺少隱藏清單專案。 [閱讀更多](../reports/deliverability.md#providers-no-fbl)
 
