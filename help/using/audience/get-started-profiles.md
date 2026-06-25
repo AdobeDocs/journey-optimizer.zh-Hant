@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 25%
@@ -80,12 +80,6 @@ ht-degree: 25%
 
 隨時從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**&#x200B;監視您組織的可參與設定檔計數。 如果您發現計數突然尖峰，請參閱[疑難排解區段](license-usage.md#troubleshooting-engageable-profiles)以取得詳細指引。 [進一步瞭解授權使用儀表板](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [開始使用 Journey Optimizer 的資料管理](../data/gs-data.md)
->* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
->* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
->* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## 設定檔儀表板
 
@@ -104,3 +98,12 @@ ht-degree: 25%
 瞭解Adobe Experience Platform如何組合和更新即時客戶設定檔，以及如何存取和使用這些設定檔。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [開始使用 Journey Optimizer 的資料管理](../data/gs-data.md)
+>* [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=zh-Hant){target="_blank"}
+>* [即時客戶個人檔案資料和細分的預設護欄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/guardrails){target="_blank"}
+>* {&#x200B;0}資料擷取檔案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/home){target="_blank"}
