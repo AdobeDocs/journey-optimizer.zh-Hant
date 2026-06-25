@@ -47,7 +47,7 @@ ht-degree: 82%
 
 ## 護欄 &amp; 限制
 
-* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
+* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
 
 * 自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ ht-degree: 82%
 
 如需詳細指引，請參閱Adobe Experience Platform檔案：
 
-* [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分設定、欄位群組選取和資料集用途驗證。
-* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有關淘汰已啟用設定檔的結構描述（包括重新命名策略）的指南。
+* [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分設定、欄位群組選取和資料集用途驗證。
+* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有關淘汰已啟用設定檔的結構描述（包括重新命名策略）的指南。
 
 ## 資料治理
 
@@ -157,4 +157,4 @@ ht-degree: 82%
 >* [資料集文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 >* [資料管理授權權益最佳做法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
