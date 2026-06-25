@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +30,12 @@ ht-degree: 0%
 
 透過&#x200B;**[!UICONTROL 協調的行銷活動]**，您可以運用Adobe Experience Platform的關聯式結構描述功能，在實體層級設計並傳遞目標通訊。 Experience Platform使用結構描述，以一致且可重複使用的方式說明資料結構。 將資料擷取至Experience Platform時，會根據XDM結構描述進行架構。
 
-雖然&#x200B;**[!UICONTROL 協調的行銷活動]**&#x200B;的區段主要在關聯式結構描述上運作，但實際的訊息傳送一律發生在&#x200B;**設定檔**&#x200B;層級。
+**[!UICONTROL 協調的行銷活動]**&#x200B;支援兩種型別的目標維度：
 
-設定鎖定目標時，您可定義兩個關鍵面向：
+* **設定檔目標維度**：內建預設值，直接使用&#x200B;**設定檔**&#x200B;結構描述來目標定位收件者。
+* **自訂目標維度**：透過關聯式結構描述鎖定收件者（例如`Recipients`、`Visitors`、`Customers`）。 當您需要在實體層級（例如根據訂閱或根據合約）而不是設定檔層級傳送訊息時，請使用此選項。
+
+設定自訂目標維度時，您可定義兩個關鍵面向：
 
 * **可定位的結構描述**
 
