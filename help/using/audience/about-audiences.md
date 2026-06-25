@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -99,6 +99,10 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 ## 在歷程和行銷活動中鎖定對象 {#target-audiences}
 
 一旦您的對象準備就緒後，您就可以在建立歷程或建立行銷活動時選取他們，讓您透過相關訊息在適當的時間聯絡適當的人。 [進一步瞭解Journey Optimizer中的Audience Activation](target-audiences.md)。
+
+>[!NOTE]
+>
+>透過對象啟動參與的設定檔 — 無論是在歷程、行銷活動或決策活動中 — 會計入您組織的&#x200B;**可參與的設定檔**&#x200B;授權量度。 每個沙箱會在滾動的12個月期間內，將每個設定檔計算一次。 [監視可參與的設定檔計數](license-usage.md)
 
 ## 作法影片 {#video}
 

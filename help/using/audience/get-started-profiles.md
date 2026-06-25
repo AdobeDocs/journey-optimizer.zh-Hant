@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 25%
 
 ---
 
@@ -59,6 +59,26 @@ ht-degree: 36%
 **客戶參與度** — 使用即時客戶設定檔來提供情境式個人化體驗，例如鎖定目標的選件和訊息。透過各種管道與客&#x200B;戶互動，包括行銷活動、客戶支援和交易更新。&#x200B;URL
 
 **資料共用** — 與Amazon Web Services、Microsoft Azure和Google Cloud等頂級雲端儲存提供者共用客戶設定檔。 使用共用的設定檔，透過商業智慧工具進行報告、資料封存或更深入的分析。
+
+## 參與設定檔與授權使用情況 {#engageable-profiles}
+
+**可參與的設定檔**&#x200B;是代表個人資訊的記錄，該資訊儲存在設定檔服務中，且已由歷程或行銷活動參與。 這是[!DNL Adobe Journey Optimizer]的金鑰授權量度。
+
+主要特性：
+
+* **12個月的滾動期間**：此計數反映了您在過去12個月嘗試使用Journey Optimizer的編寫、決策、傳送、實驗或協調功能參與的不重複設定檔。
+* **每個沙箱計算一次**：在沙箱中進入多個歷程或行銷活動的設定檔將計為該沙箱的單一可參與設定檔。
+* **根據您的可定址對象**：可參與的設定檔是根據您的可定址對象所計算。 此計數代表過去12個月使用任何Journey Optimizer功能參與的受眾（在可定址的受眾總數中）。
+* **量度行為**：可參與的設定檔計數：
+   * 當新設定檔透過歷程或行銷活動參與時，可能會增加
+   * 除非未與某些設定檔進行超過12個月的互動，否則無法減少
+   * 當假名設定檔連結到已知設定檔時，可能會減少
+
+>[!TIP]
+>
+>使用傳入管道（例如，網頁、應用程式內或程式碼型體驗）來鎖定目標為假名設定檔（未驗證的訪客）時，請考慮設定自動刪除設定檔的存留時間(TTL)，以管理可參與設定檔的計數和相關成本。 [進一步瞭解傳入頻道護欄](../start/guardrails.md#profile-management-inbound)
+
+隨時從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**&#x200B;監視您組織的可參與設定檔計數。 如果您發現計數突然尖峰，請參閱[疑難排解區段](license-usage.md#troubleshooting-engageable-profiles)以取得詳細指引。 [進一步瞭解授權使用儀表板](license-usage.md)
 
 >[!MORELIKETHIS]
 >

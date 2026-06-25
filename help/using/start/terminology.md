@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 7%
 |------|------------|
 | **客群** | 一組具有共同特徵或行為的客戶，例如「過去30天內購買的客戶」或「忠誠計畫會員」。 受眾是用來鎖定特定客戶區段。 [了解更多](../audience/about-audiences.md) |
 | **對象資格** | 客戶加入或離開對象時發生的自動程式。 Journey Optimizer可在有人進入或離開對象時觸發動作，以確保及時且相關的通訊。 [了解更多](../building-journeys/audience-qualification-events.md) |
-| **可參與的對象** | 您可以根據授權合約，透過Adobe Journey Optimizer主動聯絡的客戶設定檔數目。 這通常是指過去12個月內參與的設定檔。 |
+| **可參與的設定檔** | 在滾動12個月期間內，透過歷程、行銷活動或決策活動參與的不重複客戶設定檔。 這是Journey Optimizer的主要授權量度：每個沙箱會計算每個設定檔一次，無論其進入多少歷程或行銷活動。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 授權使用情況]**&#x200B;監視計數。 [了解更多](../audience/license-usage.md) |
 | **測試設定檔** | 在傳送給真實客戶之前用於測試和預覽訊息的虛構設定檔。 測試設定檔有助於驗證個人化、內容和歷程邏輯。 [了解更多](../audience/creating-test-profiles.md) |
 
 ## 內容與個人化詞語 {#content-terms}
