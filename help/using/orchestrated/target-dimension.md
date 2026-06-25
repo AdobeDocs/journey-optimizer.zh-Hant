@@ -6,16 +6,13 @@ description: 瞭解如何將關聯式結構描述對應到客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 539
 ht-degree: 0%
 
 ---
@@ -30,9 +27,12 @@ ht-degree: 0%
 
 透過&#x200B;**[!UICONTROL 協調的行銷活動]**，您可以運用Adobe Experience Platform的關聯式結構描述功能，在實體層級設計並傳遞目標通訊。 Experience Platform使用結構描述，以一致且可重複使用的方式說明資料結構。 將資料擷取至Experience Platform時，會根據XDM結構描述進行架構。
 
-雖然&#x200B;**[!UICONTROL 協調的行銷活動]**&#x200B;的區段主要在關聯式結構描述上運作，但實際的訊息傳送一律發生在&#x200B;**設定檔**&#x200B;層級。
+**[!UICONTROL 協調的行銷活動]**&#x200B;支援兩種型別的目標維度：
 
-設定鎖定目標時，您可定義兩個關鍵面向：
+* **設定檔目標維度**：內建預設值，直接使用&#x200B;**設定檔**&#x200B;結構描述來目標定位收件者。
+* **自訂目標維度**：透過關聯式結構描述鎖定收件者（例如`Recipients`、`Visitors`、`Customers`）。 當您需要在實體層級（例如根據訂閱或根據合約）而不是設定檔層級傳送訊息時，請使用此選項。
+
+設定自訂目標維度時，您可定義兩個關鍵面向：
 
 * **可定位的結構描述**
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
   系統必須瞭解目標結構描述如何對應到`Profile`結構描述。 這是透過共用身分欄位來達成，該欄位存在於目標結構描述和`Profile`結構描述中，並且已設定為身分名稱空間。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 建立您的目標維度 {#targeting-dimension}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`Recipient`結構描述中由唯一的`crmID`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
