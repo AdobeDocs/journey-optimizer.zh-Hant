@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
 source-wordcount: 3695
 ht-degree: 84%
@@ -170,7 +170,7 @@ ht-degree: 84%
 
 * **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定的，不需要撰寫運算式。 [閱讀更多](../orchestrated/add-personalization.md#enrichment-collections)
 
-  推出日期：2026 年 6 月底
+  推出日期： 2026年6月26日
 
 +++ 即將推出 — **下列資訊可能會變更。**
 
