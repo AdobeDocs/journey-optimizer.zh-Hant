@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3383'
 ht-degree: 98%
 
 ---
@@ -55,10 +55,12 @@ ht-degree: 98%
       + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [協助工具](using/start/accessibility.md)
       + [歷程與行銷活動](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[歷程與行銷活動 — 2](using/start/journeys-vs-campaigns-v2.md)
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + {hide-from-toc}[歷程快速入門指南](using/building-journeys/journey-get-started.md)
    + [歷程型別：選擇正確的型別](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[歷程型別：選擇正確的1-2](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
       + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
