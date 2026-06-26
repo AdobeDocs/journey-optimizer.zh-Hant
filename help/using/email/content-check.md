@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件，內容檢查， HTML， CSS，驗證，呈現，品質
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="有限可用性" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 8%
+source-wordcount: '1066'
+ht-degree: 9%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 8%
 >id="ajo_email_content_check"
 >title="驗證您的電子郵件內容"
 >abstract="內容檢查功能會在您傳送電子郵件前，自動偵測郵件中的 HTML 和 CSS 問題。 這項檢查會標示出可能導致 Gmail 或 Microsoft Outlook 郵件轉譯異常的不支援標記、空的 div 和大小限制。 各類問題會以錯誤、警告或資訊性通知的形式呈現，內含背景資訊並於適用情境下提供一鍵修復。"
+
+>[!AVAILABILITY]
+>
+>此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
 [!DNL Journey Optimizer]包含直接在電子郵件Designer中的自動化技術驗證，可協助您在傳送前捕捉HTML和CSS問題。
 
@@ -51,10 +56,8 @@ ht-degree: 8%
 
 視問題而定，您可以檢視更多內容、套用一鍵式修正，或儲存電子郵件以重新整理檢查結果。
 
-* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以摺疊。
-  ![電子郵件Designer中的內容檢查窗格，包含詳細資料](assets/content-check-details.png){width="80%"}
-* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**&#x200B;按鈕，並在可用處套用一鍵修正。如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。
-  ![電子郵件Designer中的[內容檢查]窗格及[套用]修正按鈕](assets/content-check-fix.png){width="80%"}
+* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。 按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以摺疊。  ![電子郵件Designer中的內容檢查窗格，包含詳細資料](assets/content-check-details.png){width="80%"}
+* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**&#x200B;按鈕，並在可用處套用一鍵修正。 如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。  ![電子郵件Designer中的[內容檢查]窗格及[套用]修正按鈕](assets/content-check-fix.png){width="80%"}
 
 ### 重新計算支票 {#recalculation}
 
