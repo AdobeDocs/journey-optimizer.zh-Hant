@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +168,10 @@ ht-degree: 84%
 
 下列功能和改進功能將新增到此版本的協調行銷活動。
 
+* **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定的，不需要撰寫運算式。 [閱讀更多](../orchestrated/add-personalization.md#enrichment-collections)
+
+  推出日期：2026 年 6 月底
+
 +++ 即將推出 — **下列資訊可能會變更。**
 
 <table>
@@ -186,10 +190,6 @@ ht-degree: 84%
 </tr>
 </tbody>
 </table>
-
-* **關聯式資料以回圈為基礎的個人化** — 個人化編輯器現在支援在關聯式集合（例如訂單、帳戶或預訂）上重複執行的Loop區塊，並在單一電子郵件或簡訊中為每個記錄呈現一個內容區塊。 集合是使用個人化權杖透過資料選擇器設定的，不需要撰寫運算式。 [閱讀更多](../orchestrated/add-personalization.md#enrichment-collections)
-
-  推出日期：2026 年 6 月底
 
 +++
 
@@ -353,6 +353,25 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
+<th><strong>啟用電子郵件縮小功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 現在包含一個選項，可移除不必要的空格、註解和重複程式碼，進而縮小電子郵件的 HTML 大小，而不會影響電子郵件的轉譯方式。</p>
+<p>這可避免某些電子郵件提供者用來標記或拒絕訊息的大小臨界值，且可縮短收件者的載入時間，藉此改善傳遞能力。</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../email/create-email.md#optimize-html-size">詳細文件</a>。</p>
+<p>推出日期： 2026年6月26日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>片段可編輯欄位中的 RTF 文字</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +413,6 @@ ht-degree: 84%
   推出日期： 2026年6月18日
 
 +++ 即將推出 — **下列資訊可能會變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>啟用電子郵件縮小功能</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 現在包含一個選項，可移除不必要的空格、註解和重複程式碼，進而縮小電子郵件的 HTML 大小，而不會影響電子郵件的轉譯方式。</p>
-<p>這可避免某些電子郵件提供者用來標記或拒絕訊息的大小臨界值，且可縮短收件者的載入時間，藉此改善傳遞能力。</p>
-<p>推出日期：2026 年 6 月底</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
