@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
 workflow-type: tm+mt
-source-wordcount: 2143
+source-wordcount: 2159
 ht-degree: 9%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 9%
 
 | 進入點 | 使用時機…… | 設定檔輸入 |
 |---|---|---|
-| **[讀取對象](read-audience.md)** | 您想要傳送已排程或循環的訊息給已定義的設定檔集（電子報、促銷活動、入門系列）。 | 一次或依排程從批次對象取得所有設定檔。 |
+| **[讀取對象](read-audience.md)** | 您想要傳送已排程或循環的訊息給已定義的設定檔集（電子報、促銷活動、入門系列）。 | 一次或依排程從批次對象取得所有設定檔。 [瞭解對象匯出和時間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[對象資格](audience-qualification-events.md)** | 當設定檔進入或退出對象時（忠誠度等級升級、流失風險標幟），您需要即時回應。 | 一次一個設定檔，當符合串流受眾中的資格時。 |
 | **單一事件** | 設定檔動作會觸發立即回應（放棄購買、提交表單、應用程式登入）。 | 一次一個設定檔，即時。 |
 | **[商務活動](../event/about-creating-business.md)** | 非設定檔事件會一次影響多個人員（航班取消、補充存貨、突發新聞警報）。 | 透過自動讀取對象步驟，與事件相關聯的所有設定檔。 |

@@ -8,7 +8,6 @@ role: User
 level: Beginner
 keywords: 歷程型別，單一，讀取對象，對象資格，業務事件，比較，決定指南，選擇，選擇，即時，已排程，批次，事件觸發
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
 product_v2:
@@ -27,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: 2274
 ht-degree: 1%
 
 ---
@@ -223,13 +222,12 @@ ht-degree: 1%
 * 對象資格和讀取對象歷程不能包含跳轉活動，且不能是另一個歷程中跳轉活動的目標
 * 對象資格歷程需要串流評估的對象。 從2026年8月開始，批次評估的對象不能用於對象資格節點 — 請參閱[移轉指南](aq-batch-audiences-migration.md)
 * 單一事件和受眾資格歷程在組織層級都有5,000個TPS輸送量限制；讀取受眾歷程支援每個沙箱最多20,000個TPS
-* 大部分歷程型別都支援模擬，但商務事件專案不支援；請參閱節點層級限制的模擬限制
 * 歷程中已存在的設定檔無法重新進入該歷程的相同版本，無論重新進入設定為何
 
 **術語：**
 
 * 正式名稱：單一事件歷程 — 變體：事件觸發的歷程、單一歷程
-* 正式名稱：讀取對象歷程 — 變體：批次歷程、區段觸發歷程、讀取區段歷程
+* 正式名稱：讀取對象歷程 — 變體：批次歷程
 * 正式名稱：對象資格歷程 — 變體：對象資格事件歷程
 * 正式名稱：業務事件歷程 — 變體：業務事件觸發的歷程
 * 請勿混淆：「讀取對象歷程」≠「對象資格歷程」 — 讀取對象會依排程批次處理所有對象成員；對象資格會即時回應個別成員資格變更（串流對象僅供即時進入）

@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* 新的&#x200B;**歷程型別：選擇正確的**&#x200B;頁面現已可用。 它會比較所有歷程進入點（讀取對象、對象資格、單一事件和業務事件）與決定指南和功能相容性矩陣，以幫助您選擇使用案例的正確型別。 [閱讀更多](../building-journeys/journey-types-selection.md)
+
+* 新&#x200B;**歷程與行銷活動**&#x200B;頁面現已可用。 它會跨執行樣式、資料模型和使用案例比較歷程、動作行銷活動和API觸發的行銷活動，包括低延遲邊緣個人化的傳入通道啟用、多表面傳入傳送，以及使用協調行銷活動（隨機對象構成、同盟資料）的時機指南。 [閱讀更多](../start/journeys-vs-campaigns.md)
 
 * **高輸送量模式**&#x200B;頁面已更新，以反映擴充的區域可用性：此功能現在可在所有區域使用，除了瑞士，適用於獲授權擁有高輸送量異動訊息附加元件的組織。 [閱讀更多](../campaigns/api-triggered-high-throughput.md)
 
