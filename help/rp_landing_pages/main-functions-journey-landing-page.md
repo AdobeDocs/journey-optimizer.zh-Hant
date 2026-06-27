@@ -31,7 +31,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用 inAudience 函式
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 的日期函式
 

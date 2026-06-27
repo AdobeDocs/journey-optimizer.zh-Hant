@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您將高度個人化的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 程式碼型體驗簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您將高度個人化的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定程式碼型管道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您將高度個人化的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立程式碼型體驗
 

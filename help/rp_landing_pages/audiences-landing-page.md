@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 客群快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理客群
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 在行銷活動和歷程中啟用客群
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 善用擴充屬性
 
