@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 9%
 
 * **以事件為基礎的專案** — 當個人執行動作（例如購買或註冊）時，會即時觸發歷程。 [設定事件](../event/about-events.md)以定義觸發程式及其所攜帶的資料。
 
-**不確定要使用哪個進入點？** 下表對映右側開始活動的最常見使用案例。
+**不確定要使用哪個進入點？** 下表對映右側開始活動的最常見使用案例。 進一步瞭解[歷程型別選擇矩陣](journey-types-selection.md)。
 
 | 進入點 | 使用時機…… | 設定檔輸入 |
 |---|---|---|

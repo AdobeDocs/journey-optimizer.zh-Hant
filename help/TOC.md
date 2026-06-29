@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -59,7 +59,6 @@ ht-degree: 98%
 + 歷程 {#orchestrate-journeys}
    + [開始使用歷程](using/building-journeys/journey.md)
    + {hide-from-toc}[歷程快速入門指南](using/building-journeys/journey-get-started.md)
-   + [歷程型別：選擇正確的型別](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[歷程型別：選擇正確的1-2](using/building-journeys/journey-types-selection-v2.md)
    + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
    + 建立歷程 {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + 活動 {#about-journey-building}
       + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [開始使用歷程活動](using/building-journeys/about-journey-activities.md)
+      + [歷程型別：選擇正確的型別](using/building-journeys/journey-types-selection.md)
       + [一般事件](using/building-journeys/general-events.md)
       + [回應事件](using/building-journeys/reaction-events.md)
       + [客群資格篩選](using/building-journeys/audience-qualification-events.md)

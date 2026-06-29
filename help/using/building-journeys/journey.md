@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ ht-degree: 71%
 * **客群資格鑑定歷程**：對客群會籍變更的即時回應 (VIP 升級、重新參與)
 * **商業事件歷程**：影響許多客戶的業務狀況（詳細目錄警報、限時特賣）
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[歷程型別：選擇正確的歷程型別](journey-types-selection.md)** — 詳細比較、決定指南，以及功能相容性矩陣
+
 
 ## 使用歷程設計工具，完成建置 {#journey-designer}
 
@@ -413,14 +411,12 @@ ht-degree: 71%
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ 我該使用哪個歷程型別？
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+根據您的觸發機制和使用案例，使用[決策指南](journey-types-selection.md#decision-guide)或[比較表](journey-types-selection.md#journey-types-comparison)在「單一」、「讀取對象」、「對象資格」和「業務事件」歷程之間選擇。
 
 +++
--->
+
 
 +++ 我可以編輯即時歷程嗎？
 
