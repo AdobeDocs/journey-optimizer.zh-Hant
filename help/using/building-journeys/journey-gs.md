@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ ht-degree: 9%
 
 1. 編輯歷程的設定窗格以定義歷程的名稱並設定其屬性。 瞭解如何在[此頁面](journey-properties.md)上設定您的歷程屬性。
 
-   >[!TIP]
-   >
-   >**我應該選擇哪個歷程型別？** 如果您是Journey Optimizer的新手，請使用&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動從對象歷程開始 — 它不需要先前的事件設定，並且是熟悉畫布的最簡單方法。 對於事件觸發的即時體驗（例如對購買或表單提交做出反應），請先設定事件並使用事件型專案。 準備好更深入了嗎？ [探索所有歷程型別及其進入規則](entry-management.md#types-of-journeys)。
-
    ![歷程屬性面板，包含設定和組態選項](assets/jo-properties.png)
 
 接著，您就可以開始設計您的歷程。
+
+>[!TIP]
+>
+>**我應該選擇哪個歷程型別？**
+>
+>如果您是Journey Optimizer的新手，請使用&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動從對象歷程開始 — 它不需要先前的事件設定，並且是熟悉畫布的最簡單方法。 對於事件觸發的即時體驗（例如對購買或表單提交做出反應），請先設定事件並使用事件型專案。 準備好更深入了嗎？ [探索所有歷程型別及其進入規則](entry-management.md#types-of-journeys)。
 
 ## 設計歷程 {#jo-design}
 
