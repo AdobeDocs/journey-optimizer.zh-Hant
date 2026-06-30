@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->如果您是第一次建立行動訊息，請確定行動訊息通道已設定。 [了解更多](mobile-configuration.md)
-
 使用[!DNL Journey Optimizer]透過單一SMS/MMS/RCS編輯器，透過三個通道（**SMS**、**MMS**&#x200B;和&#x200B;**RCS**）將行動訊息傳送給您的客戶，您可以在其中建立、個人化和預覽您的內容。
 
 * **SMS （短訊息服務）**：傳送最多160個字元的純文字訊息，所有行動裝置均支援。
 * **MMS （多媒體訊息服務）**：使用影像、視訊、音訊片段和GIF，加上最多1,600個字元的文字，豐富您的訊息。 [深入瞭解 MMS 限制](../start/guardrails.md#sms-guardrails)
 * **RCS （豐富通訊服務）**:Deliver&#x200B;品牌化的互動式內容，直接在客戶的原生訊息應用程式中，不需要額外下載應用程式。
+
+>[!IMPORTANT]
+>
+>如果您是第一次建立行動訊息，請確定行動訊息通道已設定。 [了解更多](mobile-configuration.md)
 
 行動訊息可在歷程或行銷活動中使用行動訊息動作來建立和傳送：
 
