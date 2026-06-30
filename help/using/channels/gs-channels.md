@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ iOS 即時動態
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
 
-直接郵件行銷活動
+直接郵件
 
 了解如何建立和管理直接郵件行銷活動，包括匯出第三方提供者的摘取檔案，以及確保符合使用者同意。
 
-[進一步了解直接郵件行銷活動](../../rp_landing_pages/direct-mail-landing-page.md)
+[進一步瞭解直接郵件](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer，套件，授權，行銷活動，歷程，頻道，決策，傳出，行動，網頁，模組化， sms， mms， whatsapp，附加元件，選擇， prime， ultimate，舊版
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer]使用模組化封裝模型。 從符合您主要使用案例的基本優惠方案開始，然後新增您需要的頻道和進階功能。
 
+套件可用性和包含的功能可能會因您的合約、選取的附加元件和地區可用性而有所不同。 請聯絡您的Adobe代表，瞭解貴組織的特定詳細資訊。
+
 >[!TIP]
 >
 >**不確定您使用哪個模型？** 如果您以模組化封裝模式購買[!DNL Adobe Journey Optimizer]，則本頁說明的基本選件和附加元件適用於您。 如果您看到合約中參考的&#x200B;**Select**、**Prime**&#x200B;或&#x200B;**Ultimate**，表示您使用舊版封裝模式 — 請連絡您的Adobe代表以確認您目前的權益。
-
->[!NOTE]
->
->套件可用性和包含的功能可能會因您的合約、選取的附加元件和地區可用性而有所不同。 請聯絡您的Adobe代表，瞭解貴組織的特定詳細資訊。
 
 ## 快速解答 {#quick-answers}
 
@@ -77,13 +75,13 @@ ht-degree: 2%
 
 | | Journey Optimizer — 行銷活動 | Journey Optimizer — 歷程 | Journey Optimizer — 行銷活動和歷程 |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [以對象為基礎的批次協調](../campaigns/get-started-with-campaigns.md) | ✓ | 有限¹ | ✓ |
+| [以對象為基礎的批次協調](../campaigns/get-started-with-campaigns.md) | ✓ | 有限<sup>1</sup> | ✓ |
 | [即時事件導向的協調流程](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | 異動訊息（電子郵件、推播、簡訊） | ✓ | ✓ | ✓ |
 | [可用的頻道附加元件](#channel-addons) | ✓ | ✓ | ✓ |
 | [可用的決策附加元件](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹在&#x200B;**Journey Optimizer - Journeys**&#x200B;中，僅歷程使用案例才支援受眾型協調，不支援作為獨立批次行銷活動。
+<sup>1</sup>在&#x200B;**Journey Optimizer - Journeys**&#x200B;中，僅在歷程使用案例中支援對象型協調，不支援作為獨立批次行銷活動。
 
 ## 步驟2 — 新增您需要的管道 {#channel-addons}
 
@@ -190,8 +188,8 @@ ht-degree: 2%
 | [推播通知](../push/get-started-push.md) | 所有基本優惠方案 | 傳出傳遞 |
 | [直接郵件](../direct-mail/get-started-direct-mail.md) | 所有基本優惠方案 | 傳出傳遞 |
 | [簡訊/多媒體簡訊](../mobile/get-started-mobile.md) | 根據您的授權設定 | 根據您的授權設定 |
-| [應用程式內傳訊](../in-app/get-started-in-app.md) | 所有基本優惠方案 | 行動 |
-| [內容卡](../content-card/get-started-content-card.md) | 所有基本優惠方案 | 行動 |
+| [應用程式內傳訊](../in-app/get-started-in-app.md) | 所有基本優惠方案 | Mobile |
+| [內容卡](../content-card/get-started-content-card.md) | 所有基本優惠方案 | Mobile |
 | [網路頻道](../web/get-started-web.md) | 所有基本優惠方案 | 網頁 |
 | [程式碼型體驗](../code-based/get-started-code-based.md) | 所有基本優惠方案 | 行動或網頁 |
 | [WhatsApp](../whatsapp/get-started-whatsapp.md) | 根據您的授權設定 | WhatsApp |
@@ -274,7 +272,7 @@ ht-degree: 2%
 
 現在您已瞭解[!DNL Adobe Journey Optimizer]的封裝方式，接下來該前往何處：
 
-- **開始使用產品** — 設定您的環境並學習核心概念。 [開始使用Journey Optimizer](get-started.md)
+- **開始使用產品** — 設定您的環境並學習核心概念。 [開始使用 Journey Optimizer](get-started.md)
 - **規劃您的實作** — 遵循專案的結構化上線路徑。 [入門專案指南](onboarding-hub.md)
 - **檢查功能可用性** — 檢視哪些功能已上線、其生命週期狀態(GA / LA / Beta)以及何時出貨。 [功能可用性](ajo-features-availability.md)
 - **尋找正確的使用案例** — 將您的參與目標對應至支援這些目標的功能。 [使用案例指南](ajo-use-case-guide.md)
