@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ ht-degree: 96%
 
 ### 行銷活動協調
 
-* **選擇對的方法**：[比較歷程類型](../../building-journeys/journey.md#journey-types)，還可取得即時、行為觸發的體驗，或[促銷活動類型](../../campaigns/get-started-with-campaigns.md#campaign-types)，就能取得排程的批次行銷活動
+* **選擇正確的方法**：參閱[歷程與行銷活動](../journeys-vs-campaigns.md)，決定要如何即時協調與排程傳送，然後[歷程型別：選擇正確的方法](../../building-journeys/journey-types-selection.md)，以選擇正確的歷程型別
 * **定義明確的行銷活動目標**：在設計多步驟工作流程之前建立目標
 * **從試驗客群開始**：在擴充之前驗證計數和細分邏輯
 * **運用關聯式資料**：使用多實體細分，將客戶資料與帳戶、購買、訂閱連線，以進行精確目標定位

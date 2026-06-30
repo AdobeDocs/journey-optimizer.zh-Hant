@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1072
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,7 @@ ht-degree: 95%
 * 根據其行銷活動和歷程需求建立客群
 * 為協調的行銷活動設定關聯式結構描述
 * 支援進階使用案例的多實體細分
+* 當行銷人員選擇歷程與行銷活動時，共用[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程型別：選擇正確的型別](../../building-journeys/journey-types-selection.md)，以協助他們為使用案例選擇正確的資料架構
 
 >[!ENDTABS]
 

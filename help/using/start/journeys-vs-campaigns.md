@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +88,22 @@ ht-degree: 2%
 
 ### 步驟1：您的執行需求為何？
 
-**個人對客戶行為的即時回應？**
-→ **使用歷程**
+**個人對客戶行為的即時回應？→**&#x200B;使用歷程&#x200B;**
 * 設定檔需要按照自己的速度移動
 * 以行為為基礎的條件式邏輯
 * 即時上下文至關重要
 
-**在排程的時間向對象傳送簡單訊息？**
-→ **使用動作行銷活動**
+**在排程的時間將簡單的訊息傳送給對象？→**&#x200B;使用動作行銷活動&#x200B;**
 * 所有設定檔都會同時接收訊息
 * 排程或週期性傳送
 * 不需要複雜的多步驟邏輯
 
-**外部系統觸發立即訊息？**
-→ **使用API觸發的行銷活動** （單一訊息） **或單一事件歷程** （多步驟協調）
+**外部系統觸發立即訊息？→**&#x200B;使用API觸發的行銷活動&#x200B;**（單一訊息）**&#x200B;或單一事件歷程&#x200B;**（多步驟協調）
 * 透過API呼叫隨選觸發 — 行銷活動傳遞一則訊息；單一歷程透過[Experience Platform擷取](../event/additional-steps-to-send-events-to-journey.md)擷取事件，並執行完整的歷程流程
 * 裝載驅動的個人化
 * 當不需要多步驟邏輯時選擇行銷活動
 
-**具有進階分段、多實體資料或精確預先傳送計數的複雜批次工作流程？**
-→ **使用協調的行銷活動** — 如需詳細指引，請參閱[開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)。
+**具有進階分段、多實體資料或精確預先傳送計數的複雜批次工作流程？→**&#x200B;使用協調的行銷活動&#x200B;**— 如需詳細指引，請參閱[開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)。
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 每個客戶都會根據其動作，體驗各自的歷程時間表。
 
-[進一步瞭解歷程](../building-journeys/journey.md)
+[進一步瞭解歷程](../building-journeys/journey.md) | [歷程型別：選擇正確的歷程型別](../building-journeys/journey-types-selection.md)
 
 ### 行銷活動：簡單批次或觸發式傳送
 
@@ -292,11 +288,13 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 準備好開始建立了嗎？ 探索所選方法的詳細檔案：
 
 * **[開始使用歷程](../building-journeys/journey.md)** — 歷程型別、設計工具和工作流程
+* **[歷程型別：選擇正確的型別](../building-journeys/journey-types-selection.md)** — 單一事件、讀取對象、對象資格和業務事件
 * **[開始使用行銷活動](../campaigns/get-started-with-campaigns.md)** — 動作和API觸發的行銷活動
 * **[開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md)** — 使用多實體資料的批次畫布工作流程（個別指南）
 
 >[!MORELIKETHIS]
 >
+>* [歷程型別：選擇正確的型別](../building-journeys/journey-types-selection.md)
 >* [歷程型別比較](../building-journeys/journey.md#journey-types-comparison)
 >* [促銷活動型別比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [歷程常見問題集](../building-journeys/journey-faq.md)

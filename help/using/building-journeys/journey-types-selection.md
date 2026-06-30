@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2274
+source-wordcount: 2296
 ht-degree: 1%
 
 ---
@@ -180,6 +180,7 @@ ht-degree: 1%
 
 現在您已選擇歷程型別：
 
+* **[歷程與行銷活動](../start/journeys-vs-campaigns.md)** — 不確定歷程或行銷活動是否為正確的工具？ 先後退至更高級別的決定
 * **[建立您的第一個歷程](journey-gs.md)** — 從輸入到發佈的逐步指南
 * **[瞭解歷程設計器](using-the-journey-designer.md)** — 設計您的歷程畫布
 * **[歷程中的設定檔入口](entry-management.md)** — 依型別的進入規則、重新進入和輸送量
