@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 83%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -158,7 +146,7 @@ ht-degree: 83%
   推出日期：2026年6月18日。 未來幾天，此功能將逐步推廣到所有地區。
 
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 * **歷程標頭中的開始和結束日期** - 當即時歷程設定開始和/或結束日期時，它們現在會出現在即時狀態徽章旁邊的&#x200B;**歷程標頭**&#x200B;中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。
 
@@ -172,7 +160,7 @@ ht-degree: 83%
 
   推出日期： 2026年6月26日
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
 <thead>
@@ -253,7 +241,7 @@ ht-degree: 83%
 </table>
 
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
 <thead>
@@ -413,7 +401,7 @@ ht-degree: 83%
 
   推出日期： 2026年6月18日
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
 <thead>
@@ -463,7 +451,7 @@ ht-degree: 83%
 </tbody>
 </table>
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
 <thead>
@@ -555,11 +543,9 @@ ht-degree: 83%
 
 ### 可用性改進功能 {#june-26-usability}
 
-+++ 即將推出 — **下列資訊可能會變更。**
+* **歷程資料夾** — 您現在可以將歷程整理到&#x200B;**資料夾**&#x200B;中，以改善介面中的導覽和管理。 [閱讀更多](../building-journeys/journey-ui.md#journeys-folders)
 
-* **歷程 &amp; 行銷活動的資料夾** - 您現在可以將歷程與行銷活動整理到&#x200B;**資料夾**，以改善介面中的導覽和管理。
-
-+++
+  推出日期： 2026年6月30日
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
