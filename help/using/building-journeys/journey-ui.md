@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2122
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 ## 歷程儀表板 {#dashboard-jo}
 
-在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL 歷程]**。 有兩個索引標籤可供使用： **[!UICONTROL 概觀]**&#x200B;和&#x200B;**[!UICONTROL 瀏覽]**。
+在「歷程管理」功能表區段中，按一下&#x200B;**[!UICONTROL 歷程]**。 有三個專用索引標籤可供使用： **[!UICONTROL 總覽]** （儀表板）、**[!UICONTROL 瀏覽]** （清單和行事曆）及&#x200B;**[!UICONTROL 資料夾檢視]** （在資料夾中整理歷程）。
 
 ### 歷程概觀
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 
 ### 歷程清單
 
-**[!UICONTROL 瀏覽]**&#x200B;索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器並對每個元素執行基本動作。 例如，您可以複製或刪除項目。
+**[!UICONTROL 瀏覽]**&#x200B;索引標籤會顯示現有歷程的清單。 您可以搜尋歷程、使用篩選器，以及對每個元素執行基本動作。 例如，您可以複製或刪除項目。
 
 ![歷程儀表板醒目提示「瀏覽」索引標籤](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ ht-degree: 10%
 
    ![已開啟資訊窗格的行銷活動清單](assets/journey-calendar-4.png)
 
+### 資料夾檢視 {#journeys-folders}
+
+開啟歷程資料夾檢視，該檢視具有歷程清單上的&#x200B;**[!UICONTROL 顯示資料夾]**&#x200B;圖示，或使用&#x200B;**[!UICONTROL 資料夾檢視]**&#x200B;標籤。 [瞭解如何使用資料夾](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>歷程的資料夾可用性有限。 如需目前發行狀態，請參閱[Journey Optimizer發行週期](../rn/releases.md)。
 
 ## 篩選您的歷程 {#journey-filter}
 

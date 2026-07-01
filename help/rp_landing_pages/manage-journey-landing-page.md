@@ -5,10 +5,10 @@ title: 管理您的歷程
 description: 管理您的歷程
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 
 瀏覽及篩選您的歷程
 
-了解如何有效導覽、篩選及管理歷程，包括歷程儀表板量度、行事曆檢視和複製流程。
+瞭解如何在資料夾中導覽、篩選、組織歷程及有效管理歷程，包括歷程儀表板量度、行事曆檢視和復製程式。
 
 [探索歷程管理](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 歷程中的輪廓入口
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 時區管理
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 傳送時間最佳化
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 結束您的歷程
 
