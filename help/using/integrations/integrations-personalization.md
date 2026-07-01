@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 1302
 ht-degree: 1%
 
 ---
@@ -137,20 +137,19 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-<!--
-## Use Adobe Target data in templates {#use-adobe-target-in-templates}
+## 在範本中使用Adobe Target資料 {#use-adobe-target-in-templates}
 
-This section explains how to use **Integrations** in Adobe Journey Optimizer to fetch personalization data from **[!DNL Adobe Target]** at send time and use it in message templates. It assumes the Target Delivery API has already been configured as an integration.
+本節說明如何在Adobe Journey Optimizer中使用&#x200B;**整合**，在傳送時從&#x200B;**[!DNL Adobe Target]**&#x200B;擷取個人化資料，並將其用於訊息範本。 此變數假設Target傳送API已設定為整合。
 
-For configuration steps, see [Work with Integrations](integrations.md) and the [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations) sample.
+如需設定步驟，請參閱[使用整合](integrations.md)和[Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)範例。
 
-The Target Delivery API returns a `prefetch.mboxes` array. Each mbox includes an `options` object with `content` and `type` fields. The `type` value determines how you use `content` in your template. Open the tab that matches your mbox response, then follow the steps to use that data in your message.
+Target傳送API傳回`prefetch.mboxes`陣列。 每個mbox包含具有`content`和`type`欄位的`options`物件。 `type`值決定您在範本中使用`content`的方式。 開啟與您的mbox回應相符的標籤，然後依照步驟在訊息中使用該資料。
 
 >[!BEGINTABS]
 
->[!TAB JSON content]
+>[!TAB JSON內容]
 
-When `type` is `json`, the `content` field is a **JSON string**. Parse it before you access nested fields. The example below shows a typical Delivery API response for a JSON mbox.
+當`type`是`json`時，`content`欄位是&#x200B;**JSON字串**。 在存取巢狀欄位之前先加以剖析。 以下範例顯示JSON mbox的典型傳送API回應。
 
 ```json
 {
@@ -170,61 +169,63 @@ When `type` is `json`, the `content` field is a **JSON string**. Parse it before
 }
 ```
 
-Use three helpers in sequence to fetch, extract, and parse the Target response.
+依序使用三個協助程式來擷取、擷取及剖析Target回應。
 
-1. **Fetch the Target response.** Call your configured Target integration with `externalDataLookup`. Set `integrationName` to the **[!UICONTROL Name]** of that integration (replace the example placeholder `target_recommendations`). Use the `result` parameter to name the template variable that holds the full Delivery API payload—for example, `targetResponse`.
+1. **擷取目標回應。** 呼叫您設定的Target與`externalDataLookup`的整合。 將`integrationName`設定為該整合的&#x200B;**[!UICONTROL 名稱]** （取代範例預留位置`target_recommendations`）。 使用`result`引數來命名包含完整傳送API裝載的範本變數，例如`targetResponse`。
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    ```
+   您也可以在個人化編輯器左側導覽的&#x200B;**[!UICONTROL 整合]**&#x200B;功能表中，直接選取整合。 請參閱[將整合個人化套用至您的內容](#apply-integration-personalization)。
 
-1. **Extract a specific mbox using valueAtPath.** `valueAtPath` extracts an element from an array by its 0-based index and assigns it to a template variable. Use the `idx` parameter to specify which element to access.
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   ```
 
-    ```handlebars
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    ```
+1. **使用valueAtPath擷取特定mbox。** `valueAtPath`透過其以0為基礎的索引從陣列中擷取元素，並將其指派給範本變數。 使用`idx`引數指定要存取的元素。
 
-    | Parameter | Description |
-    | --- | --- |
-    | `path` | Path to the array (positional, no keyword) |
-    | `idx` | 0-based index for array access (optional) |
-    | `result` | Variable name to store the extracted value |
+   ```handlebars
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If `idx` is out of bounds, rendering throws an exception. Guard invalid indexes with `{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}` when the index may be invalid. PQL expressions cannot be used as the path. **Available since release 2025.9.0.**
+   | 參數 | 說明 |
+   | --- | --- |
+   | `path` | 陣列的路徑（位置，無關鍵字） |
+   | `idx` | 0型索引，用於陣列存取（選擇性） |
+   | `result` | 儲存擷取值的變數名稱 |
 
-1. **Parse the JSON string using parseJson.** The mbox `options.content` field is a raw JSON string. `parseJson` converts it into a structured object whose fields can then be accessed directly in the template.
+   >[!NOTE]
+   >
+   > 如果`idx`超出範圍，演算會擲回例外狀況。 當索引可能無效時，保護具有`{%#if idx >= 0 and idx < count(targetResponse.prefetch.mboxes)%}`的無效索引。 PQL運算式無法當作路徑使用。 **自2025.9.0發行後可用。**
 
-    ```handlebars
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
-    ```
+1. **使用parseJson剖析JSON字串。** mbox `options.content`欄位是原始JSON字串。 `parseJson`將其轉換為結構化物件，然後可以在範本中直接存取其欄位。
 
-    | Parameter | Description |
-    | --- | --- |
-    | `jsonStr` | Path to the string field containing valid JSON |
-    | `result` | Variable name to store the parsed object |
+   ```handlebars
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   ```
 
-    >[!NOTE]
-    >
-    > If the JSON string is invalid or the reference is null, `result` is set to `null` — no rendering error is thrown. Test with your actual Target response to confirm the content is valid JSON. **Available since: 2026.6.0**
+   | 參數 | 說明 |
+   | --- | --- |
+   | `jsonStr` | 包含有效JSON的字串欄位的路徑 |
+   | `result` | 儲存剖析物件的變數名稱 |
 
-1. **Access the data.** Once parsed, use dot notation to access fields from `summerOfferContent`. To render a list of recommendations:
+   >[!NOTE]
+   >
+   > 如果JSON字串無效或參考為Null，則`result`設定為`null` — 不會擲回演算錯誤。 以您的實際Target回應進行測試，以確認內容是有效的JSON。 **推出日期： 2026.6.0**
 
-    ```handlebars
-    {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
-    {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
-    {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+1. **存取資料。** 剖析後，請使用點標籤法來存取`summerOfferContent`中的欄位。 若要呈現建議清單：
 
-    Strategy: {{summerOfferContent.strategy}}
-    {{#each summerOfferContent.recommendations as |rec|}}
-      {{rec.name}} — {{rec.price}}
-    {{/each}}
-    ```
+   ```handlebars
+   {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
+   {{valueAtPath targetResponse.prefetch.mboxes idx=0 result="summerOffer"}}
+   {{parseJson jsonStr=summerOffer.options.content result="summerOfferContent"}}
+   
+   Strategy: {{summerOfferContent.strategy}}
+   {{#each summerOfferContent.recommendations as |rec|}}
+     {{rec.name}} — {{rec.price}}
+   {{/each}}
+   ```
 
->[!TAB HTML content]
+>[!TAB HTML內容]
 
-When `type` is `html`, the `content` field is a ready-to-render HTML string. You do not need to parse it. The example below shows a typical Delivery API response for an HTML mbox.
+當`type`為`html`時，`content`欄位是準備呈現的HTML字串。 您不需要剖析。 以下範例顯示HTML mbox的典型傳送API回應。
 
 ```json
 {
@@ -244,7 +245,7 @@ When `type` is `html`, the `content` field is a ready-to-render HTML string. You
 }
 ```
 
-Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
+擷取並擷取mbox，然後直接轉譯`content`。 略過`parseJson`。
 
 ```handlebars
 {{externalDataLookup integrationName="target_recommendations" result="targetResponse"}}
@@ -254,11 +255,9 @@ Fetch and extract the mbox, then render `content` directly. Skip `parseJson`.
 
 >[!NOTE]
 >
-> Use **triple braces** `{{{...}}}` to render HTML content as-is. Double braces `{{...}}` will escape HTML entities and render raw tag strings instead of the HTML.
+> 使用&#x200B;**三重大括弧** `{{{...}}}`將HTML內容依原樣呈現。 雙大括弧`{{...}}`將逸出HTML實體並轉譯原始標籤字串而非HTML。
 
 >[!ENDTABS]
-
--->
 
 ## 作法影片 {#video}
 
