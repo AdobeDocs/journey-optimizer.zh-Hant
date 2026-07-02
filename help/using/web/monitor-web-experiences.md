@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 2%
 
 若要進一步改善網站體驗監控，您也可以追蹤網站任何特定元素的點按次數。 這可讓您在網頁報告中顯示該元素的點按次數。 [了解作法](#use-click-tracing)
 
-## 使用點選追蹤 {#use-click-tracking}
+## 使用點按追蹤 {#use-click-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
->title="使用點選追蹤"
->abstract="追蹤網頁任何元素上的點按，以監控使用者互動。 選取元素，從內容功能表中選擇&#x200B;**按一下追蹤元素**，然後新增有意義的標籤。 追蹤的資料會出現在您的網路報表中，協助您瞭解使用者如何與您的內容互動。"
+>title="使用點按追蹤"
+>abstract="追蹤您網頁的任何元素上的點按，以監視使用者互動。 選取一個元素，從內容關聯式功能表中選擇「**點按追蹤元素**」，然後新增有意義的標籤。 追蹤的資料會顯示在您的網頁報告中，協助您了解使用者如何與您的內容互動。"
 
 網頁設計工具可讓您選取網站的任何元素，並追蹤對該元素的點按。
 
