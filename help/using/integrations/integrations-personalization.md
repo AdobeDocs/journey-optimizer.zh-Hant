@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 2668028bbdf9299aed836fecea983c548ce74d8e
+source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: 1311
 ht-degree: 1%
 
 ---
@@ -137,9 +137,9 @@ ht-degree: 1%
 
 ![](assets/uc-integrations-7.png)
 
-## 在範本中使用Adobe Target資料 {#use-adobe-target-in-templates}
+## 在您的內容中使用Adobe Target Recommendations {#use-adobe-target-in-templates}
 
-本節說明如何在Adobe Journey Optimizer中使用&#x200B;**整合**，在傳送時從&#x200B;**[!DNL Adobe Target]**&#x200B;擷取個人化資料，並將其用於訊息範本。 此變數假設Target傳送API已設定為整合。
+本節說明如何在Adobe Journey Optimizer中使用&#x200B;**整合**，在傳送時從&#x200B;**[!DNL Adobe Target]**&#x200B;擷取個人化資料，並將其用於您的訊息內容（無論是在範本中還是內嵌中撰寫）。 此變數假設Target傳送API已設定為整合。
 
 如需設定步驟，請參閱[使用整合](integrations.md)和[Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)範例。
 
