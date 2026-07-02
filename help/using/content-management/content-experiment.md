@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 6%
 
 ---
@@ -122,8 +122,6 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 1. 使用應用程式內或Web頻道設定實驗，並選擇&#x200B;**[!UICONTROL 傳入點按]**、**[!UICONTROL 不重複傳入點按]**、**[!UICONTROL 頁面檢視]**&#x200B;或&#x200B;**[!UICONTROL 不重複頁面檢視量度]**&#x200B;時，**[!UICONTROL 維度]**&#x200B;欄位可讓您精確追蹤和監視特定頁面上的點按和檢視。
 
-   ![](assets/content_experiment_20.png)
-
 1. 如果您已建立API觸發的行銷活動，請從&#x200B;**[!UICONTROL 實驗型別]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL A/B實驗]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增處理]**&#x200B;以建立所需數量的新處理。
@@ -149,8 +147,6 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
    ![](assets/content_experiment_12.png)
 
 1. 然後，您可以選擇為每個&#x200B;**[!UICONTROL 處理]**&#x200B;分配精確百分比，或直接開啟&#x200B;**[!UICONTROL 平均分配]**&#x200B;切換列。
-
-   ![](assets/content_experiment_13.png)
 
 1. 啟用自動縮放實驗以自動轉出實驗的成功變數。 [進一步瞭解如何縮放成功者](#scale-winner)
 
@@ -240,7 +236,7 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
 ## 設計您的處理方式 {#treatment-experiment}
 
-1. 從&#x200B;**[!UICONTROL 編輯內容]**&#x200B;視窗中，選取您的處理B以變更內容。
+1. 從&#x200B;**[!UICONTROL Content]**&#x200B;索引標籤中，選取您的處理B以變更內容。
 
    在此處，我們選擇不在&#x200B;**[!UICONTROL 主旨列]**&#x200B;中指定選件。
 
@@ -250,15 +246,14 @@ Journey Optimizer內容實驗可讓您定義多種傳送處理方式，以衡量
 
    ![](assets/content_experiment_9.png)
 
-1. 設計處理之後，按一下&#x200B;**[!UICONTROL 更多動作]**&#x200B;以存取與處理相關的選項： **[!UICONTROL 重新命名]**、**[!UICONTROL 複製]**&#x200B;以及&#x200B;**[!UICONTROL 刪除]**。
-
-   ![](assets/content_experiment_7.png)
-
-1. 如有需要，請存取&#x200B;**[!UICONTROL 實驗設定]**&#x200B;功能表以變更您的處理組態。
+1. 如有需要，請從&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，存取&#x200B;**[!UICONTROL 實驗設定]**&#x200B;功能表以變更您的處理設定。
 
    ![](assets/content_experiment_19.png)
 
-1. 定義訊息內容後，請使用模擬方法來控制傳遞的呈現，並檢查個人化設定：按一下[模擬內容] **，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下[模擬內容]**，然後從下拉式清單中選取[模擬內容（AEP設定檔）] **，以使用測試設定檔預覽。**&#x200B;**&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
+1. 定義訊息內容後，請使用任一模擬方法來控制傳遞的呈現，並檢查個人化設定：
+
+   * 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。
+   * 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。 [了解更多](../content-management/preview-test.md)
 
 設定實驗後，您可以在報表中追蹤傳送成功。 [了解更多](../reports/campaign-global-report-cja-experimentation.md)
 
