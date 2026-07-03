@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,7 +312,12 @@ Journey Optimizer會在平台層級執行資料控管和同意原則，但您的
 | 從外部管道建立和管理內容範本和片段 | [內容API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [範本](../../content-management/content-templates.md) · [片段](../../content-management/fragments.md) |
 | 擷取及篩選動作行銷活動 | [行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | 預覽行銷活動並以程式設計方式傳送校樣 | [模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| 驗證資料集並觸發協調的行銷活動執行 | [資料集驗證](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [觸發器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [啟用資料集](../../orchestrated/manual-schema.md) |
+
+>[!NOTE]
+>
+>模擬API可用於API觸發和動作（已排程）行銷活動。 **協調行銷活動不支援**：請改用協調行銷活動使用者介面中的預覽和校訂工作流程來進行。
+
+|驗證資料集並觸發協調的行銷活動執行 | [資料集驗證](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [觸發器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [啟用資料集](../../orchestrated/manual-schema.md) |
 
 ## 其他資源 {#additional-resources}
 
