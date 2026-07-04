@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 使用測試輪廓資料，傳送校樣
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=zh-Hant)
 
 如何使用 Litmus 測試電子郵件轉譯
 

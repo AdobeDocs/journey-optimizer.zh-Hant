@@ -36,7 +36,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 設定及管理管道設定
 
