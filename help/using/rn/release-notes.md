@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3602
-ht-degree: 84%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -47,6 +47,25 @@ ht-degree: 84%
 >[!NOTE]
 >
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更在您的環境中可用的時間。 **即將推出**&#x200B;摺疊式版面中的項目預計將在未來幾天或幾週內推出。 這些部分的資訊可能會有變更。
+
+## 2026年7月更新 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動中的檔案型目標定位</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>協調的行銷活動現在支援直接將<strong>CSV或TXT檔案</strong>載入行銷活動畫布，作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。 這尤其適合在無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/load-file.md">詳細文件</a>。</p>
+<p> 推出日期：2026年7月6日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026年6月發行說明 {#june-26-rn}
 
@@ -172,27 +191,6 @@ ht-degree: 84%
 
   推出日期： 2026年6月26日
 
-+++ 即將推出 — **下列資訊可能會有變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>協調行銷活動中的檔案型目標定位</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>協調的行銷活動現在支援直接將<strong>CSV或TXT檔案</strong>載入行銷活動畫布，作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。 這尤其適合在無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p> 推出日期： 2026年6月30日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### 決策 {#june-26-decisioning}
 
 下列功能和改進功能已新增到此版本的決策。
@@ -219,14 +217,6 @@ ht-degree: 84%
 
   推出日期： 2026年6月18日
 
-+++ 即將推出 — **下列資訊可能會變更。**
-
-* **動態項目屬性** - 決策項目自訂屬性現在可以在傳送時使用輪廓、內容和客群資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變化版本維持重複的產品建議，而能夠管理較少、較靈活的決策項目。
-
-  推出日期：2026 年 6 月底
-
-+++
-
 ### 內容管理 {#june-26-content}
 
 下列功能和改善專案已新增至此版本的內容管理。
@@ -251,91 +241,6 @@ ht-degree: 84%
 </tr>
 </tbody>
 </table>
-
-
-+++ 即將推出 — **下列資訊可能會有變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>模擬內容變化版本 — 更新的體驗和 AI 變體產生</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>模擬內容</strong>工作流程現在有兩個更新：</p>
-<ul>
-<li><strong>新的預設路徑</strong> — 按一下<strong>模擬內容</strong>現在預設會開啟<strong>模擬內容變化版本</strong>體驗。 您可以從單一畫面手動或 CSV/JSON 檔案新增範例輸入、重複使用模擬使用者、預覽轉譯及傳送校樣。 若要使用 Adobe Experience Platform 測試輪廓預覽、傳送包含測試輪廓資料的校樣，或檢查電子郵件收件匣轉譯和垃圾郵件報告，請按一下<strong>模擬內容</strong>，然後從下拉式清單中選取<strong>模擬內容 (AEP 輪廓)</strong>。</li>
-<li><strong>AI 產生的內容變體</strong> — 在<strong>模擬內容變化版本</strong>體驗中，按一下<strong>產生</strong>以使用 AI 自動建立內容變體。 系統會分析您的訊息、偵測個人化欄位和條件式分支，並填入實際值，以便您驗證轉譯，且無需手動建立每個變體。</li>
-</ul>
-<p>如需詳細資訊，請參閱<a href="../test-approve/simulate-sample-input.md">詳細文件</a>。</p>
-<p>推出日期：2026 年 6 月底</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Optimizer 中 Adobe Experience Manager 內容片段的改進</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此版本提供數項增強功能，使 <strong>Adobe Experience Manager 內容片段</strong>在 Journey Optimizer 製作工作流程中更實用、更易於控管，且更易於投入生產：</p>
-<ul>
-<li>Journey Optimizer 現在支援從多個 Adobe Experience Manager 設定擷取內容片段，包括製作者、發佈和已驗證的發佈層級。</li>
-<li>選取片段後，其內容會保留在訊息中，讓製作者可以跨內容區塊重複使用片段欄位，而無需重新選取。</li>
-<li>Journey Optimizer 已引入新的專用內容片段清單頁面，以改進生命週期管理；使用者可以識別不同步的片段，並觸發手動同步以保持最新狀態。</li>
-<li>地區設定和變化版本支援現在可讓行銷人員更刻意地使用相同內容片段的替代版本。</li>
-<li>現在，您可以靈活地使用 Adobe Journey Optimizer 存取 Adobe Experience Manager 內容。 此版本引入了為歷程與行銷活動所使用的內容片段<strong>切換來源存放庫</strong>的功能。</li>
-<li>現在與 <b>Managed Services</b> 相容，您可以直接在 Journey Optimizer 中檢視、存取及使用 Adobe Experience Manager 內容片段，以進行個人化。 只需在組態設定中新增 Adobe Experience Manager Managed Services 存放庫 URL，作為一次性設定即可。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>AI 助理與 Adobe Experience Manager Asset Essentials 整合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI 助理現在會在產生電子郵件、網頁和推播通知時，直接從您的 Adobe Experience Manager Assets 自動擷取<b>品牌核准的影像</b>。 如此一來，您就不需要手動搜尋資產或仰賴一般 AI 遞補功能，確保每個視覺效果都完全正確且符合品牌規範。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>用於內容產生的 AI 助理增強功能</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>此版本透過更強大的影像編輯、更可靠的品牌擷取以及影像流程中的內容真實性支援，改善 <strong>AI 助理</strong>內容產生體驗：</p>
-<ul>
-<li><strong>AI 影像編輯</strong>現在可用於影像產生流程，包括 Firefly 第三方模型支援，因此您無需離開助理即可調整來源影像。</li>
-<li><strong>品牌訊號擷取</strong>可提供更高品質的結果。 選取的頁面訊號不足時，改良的遞補功能現在會填入顏色、印刷樣式、撰寫准則和其他品牌屬性。</li>
-<li><strong>網頁式品牌擷取</strong>比較可靠。 改善的逾時處理功能有助於防止緩慢頁面、快顯視窗和 Cookie 橫幅封鎖擷取。</li>
-<li>影像流程現在支援 <strong>Content Authenticity (CAI)</strong>。 此版本也修正了參考影像上傳問題，並改善對沒有現有 C2PA 資訊清單之影像的處理。</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 
 ### 電子郵件管道 {#june-26-email}
@@ -413,27 +318,6 @@ ht-degree: 84%
 
   推出日期： 2026年6月18日
 
-+++ 即將推出 — **下列資訊可能會有變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件設計工具中的模組</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>電子郵件設計工具現在包含現成可用的版面模組 (例如頁首、產品卡、資訊區塊和頁尾) 資料庫，您可以將這些模組直接拖放到電子郵件畫布中。</p>
-<p>每個模組都預先設定了可編輯的屬性 (影像、標題、文字、按鈕、連結)，並可透過 WYSIWYG 介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
-<p>推出日期：2026 年 6 月底</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### 內容與整合 {#june-26-integration}
 
 下列功能和改進功能將新增到此版本的內容管理與整合。
@@ -463,18 +347,19 @@ ht-degree: 84%
 </tbody>
 </table>
 
-+++ 即將推出 — **下列資訊可能會有變更。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>AI 助理與 Adobe Experience Manager Asset Essentials 整合</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI 助理現在會在產生電子郵件、網頁和推播通知時，直接從您的 Adobe Experience Manager Assets 自動擷取<b>品牌核准的影像</b>。 如此一來，您就不需要手動搜尋資產或仰賴一般 AI 遞補功能，確保每個視覺效果都完全正確且符合品牌規範。</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -483,18 +368,18 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>用於內容產生的 AI 助理增強功能</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此版本透過更強大的影像編輯、更可靠的品牌擷取以及影像流程中的內容真實性支援，改善 <strong>AI 助理</strong>內容產生體驗：</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li><strong>AI 影像編輯</strong>現在可用於影像產生流程，包括 Firefly 第三方模型支援，因此您無需離開助理即可調整來源影像。</li>
-<li><strong>品牌訊號擷取</strong>可提供更高品質的結果。 選取的頁面訊號不足時，改良的遞補功能現在會填入顏色、印刷樣式、撰寫准則和其他品牌屬性。</li>
-<li><strong>網頁式品牌擷取</strong>比較可靠。 改善的逾時處理功能有助於防止緩慢頁面、快顯視窗和 Cookie 橫幅封鎖擷取。</li>
-<li>影像流程現在支援 <strong>Content Authenticity (CAI)</strong>。 此版本也修正了參考影像上傳問題，並改善對沒有現有 C2PA 資訊清單之影像的處理。</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -502,6 +387,7 @@ ht-degree: 84%
 </table>
 
 +++
+-->
 
 ### 報表 {#june-26-reporting}
 
@@ -547,7 +433,7 @@ ht-degree: 84%
 
 * **簡訊的預計點按次數報告** — 新的預計點按次數量度現在可用於電子郵件和簡訊的歷程、行銷活動和頻道報告。 此量度不包括已識別的機器人和非人類互動 (NHI) 流量，以提供更清楚的真實客戶參與檢視。 現有的點按次數量度仍可使用，並繼續報告總點按次數。
 
-+++ 即將推出 — **下列資訊可能會變更。**
++++ 即將推出 — **下列資訊可能會有變更。**
 
 * **LINE 管道 - 製作變更** - LINE 管道 UI 已升級進階訊息製作功能。 此版本引入對&#x200B;**多種訊息格式**&#x200B;的支援，包括文字、影像、影像地圖、輪播和 Flex (JSON編輯器)，以及即時裝置預覽。 使用者現在可以管理最多五個已排序訊息的群組訊息 (包含新增、移除和重新排序控制項)，並利用整合的個人化編輯器進行驗證的動態傳訊。
 
