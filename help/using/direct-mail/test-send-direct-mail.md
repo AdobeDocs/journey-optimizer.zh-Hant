@@ -10,25 +10,16 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 15%
+source-wordcount: 829
+ht-degree: 11%
 
 ---
 
@@ -83,9 +74,32 @@ ht-degree: 15%
 * [直接郵件行銷活動報告](../reports/campaign-global-report-cja-direct.md)
 * [直接郵件歷程報告](../reports/journey-global-report-cja-direct.md)
 
+## 瞭解匯出時間與檔案產生 {#dm-export-timing}
+
+直接郵件匯出會在&#x200B;**02:01**、**06:01**、**10:01**、**14:01**、**18:01**&#x200B;和&#x200B;**22:01**&#x200B;的固定4小時UTC週期執行。
+
+設定檔到達直接郵件活動後，便會包含在&#x200B;*下一個*&#x200B;匯出週期中。 這表示檔案建立是以設定檔到達直接郵件節點的時間為基礎，而不是以行銷活動或歷程首次啟動的時間為基礎。
+
+* **為什麼您一天可以收到多個檔案** — 如果設定檔到達不同4小時視窗中的直接郵件活動，Journey Optimizer會為每個視窗產生個別的匯出檔案。 這是預期行為。
+
+  例如:
+
+   * 在&#x200B;**14:01**&#x200B;之前抵達的設定檔會匯出至&#x200B;**14:01**。
+   * 從&#x200B;**14:02**&#x200B;到&#x200B;**18:01**&#x200B;的設定檔已匯出至&#x200B;**18:01**。
+
+  這不會複製設定檔，而是依抵達視窗進行批次。
+
+* **更新設定檔活動時間** — 在歷程中，當設定檔到達活動時，**[!UICONTROL 更新設定檔]**&#x200B;活動會在歷程執行階段立即執行。 它不會等待直接郵件匯出週期。
+
+* **對於每天一個檔案的情況的建議** — 如果您每天需要一個檔案，請考慮下列選項：
+
+   * **24小時路由頻率**：保證每天有一個檔案，但會導致傳遞延遲。
+   * **等候到當天時間**：可以將設定檔對齊相同的匯出視窗，但結果取決於歷程時間。
+   * **4小時路由頻率**：提供最低的延遲，但每天可能會產生多個檔案。
+
 ## 管理直接郵件的同意 {#dm-consent-management}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。
 
 如果設定檔已選擇不接收直接郵件，則在對應的Experience Platform設定檔屬性中，`consents.marketing.postalMail.val`的值將為`n`，且對應的設定檔將從後續傳遞中排除。
 
