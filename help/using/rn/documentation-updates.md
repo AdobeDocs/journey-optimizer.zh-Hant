@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026 年 6 月 {#june-2026}
+
+* **檢查並傳送直接郵件訊息**&#x200B;頁面已更新，以釐清直接郵件匯出時間與批次處理行為，包括固定的4小時UTC匯出排程、為何在一天內可以產生多個檔案（在歷程中執行&#x200B;**[!UICONTROL 更新設定檔]**），以及針對每天一個檔案的案例的建議。 [閱讀更多](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * 新的&#x200B;**歷程型別：選擇正確的**&#x200B;頁面現已可用。 它會比較所有歷程進入點（讀取對象、對象資格、單一事件和業務事件）與決定指南和功能相容性矩陣，以幫助您選擇使用案例的正確型別。 [閱讀更多](../building-journeys/journey-types-selection.md)
 
