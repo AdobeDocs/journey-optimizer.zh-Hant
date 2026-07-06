@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +368,6 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >title="標頭參數"
 >abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="AEM 設定說明"
->abstract="深入了解建立和管理設定"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="執行個體設定"
->abstract="為您的設定選取適當的執行個體設定類型。 </br>僅限作者設定：使用來自 AEM 作者執行個體的內容片段。 不支援發佈執行個體設定和即時更新。</br>發佈執行個體設定：設定發佈執行個體設定。 可選擇啟用「將權杖傳送至發佈執行個體」以提供用於驗證的服務認證。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="將權杖傳送至發佈執行個體"
->abstract="啟用後，將會傳送服務認證，以驗證發佈執行個體的請求。 請在下方提供有效的服務認證 JSON。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="貼上服務認證 JSON"
->abstract="透過瀏覽公開的技術帳戶文件，在建立您的 AEM 服務認證 JSON 後將其貼上。 它將自動進行格式設定並驗證。"
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="自訂網域"
->abstract="選填。 提供自訂網域 ifpublish-p16552-e147195.adobeaemcloud.comis，以防止為您的組織擷取內容"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 

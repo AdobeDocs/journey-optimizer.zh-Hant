@@ -12,14 +12,40 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # 設定Adobe Experience Manager存放庫存取權 {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="「Adobe Experience Manager設定"
+>abstract="透過設定僅限作者或發佈存取權、自訂網域和驗證，將沙箱連線至Adobe Experience Manager存放庫，讓行銷人員能夠在其歷程和行銷活動中使用Adobe Experience Manager內容片段。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="執行個體設定"
+>abstract="為您的設定選取適當的執行個體設定類型。 </br>僅限作者設定：使用來自 AEM 作者執行個體的內容片段。 不支援發佈執行個體設定和即時更新。</br>發佈執行個體設定：設定發佈執行個體設定。 可選擇啟用「將權杖傳送至發佈執行個體」以提供用於驗證的服務認證。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="將權杖傳送至發佈執行個體"
+>abstract="啟用後，會傳送服務認證以驗證發佈執行個體的請求。 在下方輸入有效的服務認證JSON。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="貼上服務認證 JSON"
+>abstract="貼上您的Adobe Experience Manager服務認證JSON。 它將自動進行格式設定並驗證。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="自訂網域"
+>abstract="選填。 如果封鎖「your-publish-instance.adobeaemcloud.com」以取得您組織的內容，請提供自訂網域。"
 
 >[!BEGINSHADEBOX]
 
