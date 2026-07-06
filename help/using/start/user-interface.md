@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +352,6 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >title="標頭參數"
 >abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="AEM 設定說明"
->abstract="深入了解建立和管理設定"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="執行個體設定"
->abstract="為您的設定選取適當的執行個體設定類型。 </br>僅限作者設定：使用來自 AEM 作者執行個體的內容片段。 不支援發佈執行個體設定和即時更新。</br>發佈執行個體設定：設定發佈執行個體設定。 可選擇啟用「將權杖傳送至發佈執行個體」以提供用於驗證的服務認證。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="將權杖傳送至發佈執行個體"
->abstract="啟用後，將會傳送服務認證，以驗證發佈執行個體的請求。 請在下方提供有效的服務認證 JSON。"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="貼上服務認證 JSON"
->abstract="透過瀏覽公開的技術帳戶文件，在建立您的 AEM 服務認證 JSON 後將其貼上。 它將自動進行格式設定並驗證。"
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="自訂網域"
->abstract="選填。 提供自訂網域 ifpublish-p16552-e147195.adobeaemcloud.comis，以防止為您的組織擷取內容"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
