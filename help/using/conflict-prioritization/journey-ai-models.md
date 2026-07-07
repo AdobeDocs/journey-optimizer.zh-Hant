@@ -11,14 +11,14 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 5%
+source-wordcount: 701
+ht-degree: 7%
 
 ---
 
-# 使用AI模型來排名歷程 {#journey-ai-models}
+# 使用 AI 模型來排名歷程 {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +29,8 @@ ht-degree: 5%
 >[!AVAILABILITY]
 >
 >此功能目前處於「有限可用性」。 請聯絡您的 Adobe 代表以取得存取權。
+>
+>AI模型僅適用於已購買&#x200B;**決策**&#x200B;附加元件產品的組織。
 
 [!DNL Adobe Journey Optimizer]可協助您控制當設定檔符合超出系統允許範圍的資格時，可輸入哪些歷程。 若要這麼做，您可以使用[規則集](rule-sets.md)來定義歷程專案或並行的最大值。 當設定檔符合的歷程數量超過上限允許時，指派給每個歷程的優先順序將決定選取的歷程。
 
