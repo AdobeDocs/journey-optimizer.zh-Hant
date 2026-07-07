@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
+source-git-commit: 4b7a08e4a4f04685757948ca66b3747417f102b7
 workflow-type: tm+mt
-source-wordcount: 9109
+source-wordcount: 9155
 ht-degree: 92%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 92%
 # 文件更新 {#latest-updates}
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
+
+## 2026年7月 {#july-2026}
+
+* 新的&#x200B;**動態片段**&#x200B;頁面現已可用。 它記錄如何在[!DNL Journey Optimizer]中使用動態片段解析，以根據設定檔屬性、資料集查詢或傳送時傳遞的內容資料，選取在執行階段插入訊息中的已發佈片段。 [閱讀更多](../content-management/dynamic-fragments.md)
 
 ## 2026 年 6 月 {#june-2026}
 
@@ -713,7 +717,7 @@ ht-degree: 92%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=zh-Hant){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3415'
+ht-degree: 97%
 
 ---
 
@@ -335,11 +335,13 @@ ht-degree: 98%
    + 應用程式內管道 {#in-app}
       + [應用程式內管道](/help/rp_landing_pages/in-app-landing-page.md)
       + [開始使用應用程式內的內容](using/in-app/get-started-in-app.md)
-      + [應用程式內管道先決條件](using/in-app/inapp-configuration.md)
       + [建立行動裝置應用程式內訊息](using/in-app/create-in-app.md)
       + [建立網頁應用程式內訊息](using/in-app/create-in-app-web.md)
       + [設計您的應用程式內內容](using/in-app/design-in-app.md)
       + [檢查並傳送應用程式內通知](using/in-app/send-in-app.md)
+      + 設定應用程式內頻道 {#configure-inapp}
+         + [應用程式內頻道設定和先決條件](using/in-app/inapp-configuration.md)
+         + [在Web SDK中設定網頁應用程式內傳訊](using/in-app/web-in-app-messaging.md)
    + 推播通知管道 {#push}
       + [推播通知管道](/help/rp_landing_pages/push-landing-page.md)
       + [開始使用推播通知](using/push/get-started-push.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [使用非視覺化編輯器](using/web/web-non-visual-editor.md)
          + [管理修改](using/web/manage-web-modifications.md)
          + [監視網站體驗](using/web/monitor-web-experiences.md)
+      + 單頁應用程式和網頁SDK {#web-sdk}
          + [編寫單頁應用程式](using/web/web-spa.md)
+         + [實作單頁應用程式](using/web/web-spa-implementation.md)
+         + [Journey Optimizer搭配Experience Platform Web SDK](using/web/web-sdk.md)
    + 程式碼型體驗 {#code-based-experience}
       + [程式碼型體驗](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [開始使用程式碼型頻道](using/code-based/get-started-code-based.md)
@@ -506,6 +511,7 @@ ht-degree: 98%
       + [建立片段](using/content-management/create-fragments.md)
       + [將現有內容另存為片段](using/content-management/save-fragments.md)
       + [可自訂的片段](using/content-management/customizable-fragments.md)
+      + [動態片段](using/content-management/dynamic-fragments.md)
       + [管理片段](using/content-management/manage-fragments.md)
       + {hide-from-toc}[將內容屬性新增到已發佈的片段](using/content-management/manage-fragments-contextual-attributes.md)
    + 動態內容 {#dynamic}

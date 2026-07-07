@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 54%
+source-wordcount: 628
+ht-degree: 47%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 54%
 
 >[!ENDSHADEBOX]
 
-可將協調行銷活動歸類成三大類別。 可用的活動可能會依據內容而有所不同。
-
-以下各節會詳細介紹所有活動：
+協調的行銷活動會分組為數個類別。 可用的活動可能會依據內容而有所不同。 以下各節會詳細介紹所有活動：
 
 * [目標定位活動](#targeting)
+* [資料管理活動](#data-management)
 * [管道活動](#channel)
 * [流量控制活動](#flow-control)
 
@@ -45,7 +44,7 @@ ht-degree: 54%
 
 ## 護欄與限制 {#activity-guardrails}
 
-* **頻道活動限制** — 協調的行銷活動在發佈時支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 鎖定目標和流量控制活動不會計入此限制。
+* **頻道活動限制** — 協調的行銷活動在發佈時支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 鎖定目標、資料管理和流量控制活動不會計入此限制。
 
 * **畫布活動限制** — 畫布上的活動數限製為500。 針對可維護性和效能，請將工作流程保持在實踐中的100個活動以下。
 
@@ -66,6 +65,14 @@ ht-degree: 54%
 * [擴充](enrichment.md)：定義要在您的協調行銷活動中處理的其他資料。 透過此活動，您可以利用傳入轉變並設定活動，以使用其他資料完成傳出轉變。
 * [調和](reconciliation.md)：定義 Journey Optimizer資料中的資料與工作表中資料之間的連結，例如從外部檔案載入的資料。
 * [分割](split.md)：將傳入族群分割成許多子集。
+
+## 資料管理活動 {#data-management}
+
+這些活動可讓您使用儲存在外部檔案中的資料，並使其可用於畫布上的目標定位、個人化或下游活動。
+
+可用的資料管理活動包括：
+
+* [載入檔案](load-file.md) （可用性限制）：在畫布上上傳CSV或TXT檔案，並使用它來定義行銷活動對象（檔案型鎖定目標），而不先將檔案擷取到Adobe Experience Platform。 如欲請求存取權，請和您的 Adobe 代表聯絡。
 
 ## 管道活動 {#channel}
 

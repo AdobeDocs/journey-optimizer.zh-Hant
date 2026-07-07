@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 17%
+source-wordcount: 439
+ht-degree: 18%
 
 ---
 
@@ -58,6 +58,7 @@ ht-degree: 17%
 
 * **建立您自己的片段**：從草稿開始建立視覺化或運算式片段，或將內容儲存為片段。 [瞭解如何建立片段](create-fragments.md)。 此外，您可以運用Journey Optimizer **內容REST API**&#x200B;來管理內容片段。 如需詳細資訊，請參閱[Journey Optimizer API檔案](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}。
 * **重複使用您的片段：**&#x200B;視需要在內容中多次使用這些片段。 請參閱[新增視覺化片段](../email/use-visual-fragments.md)和[運用運算式片段](../personalization/use-expression-fragments.md)
+* **使用動態片段：**&#x200B;根據設定檔屬性、資料集查詢或內容資料，解析每個收件者在執行階段要插入的片段。 [瞭解如何使用動態片段](dynamic-fragments.md)
 
 
 >[!NOTE]

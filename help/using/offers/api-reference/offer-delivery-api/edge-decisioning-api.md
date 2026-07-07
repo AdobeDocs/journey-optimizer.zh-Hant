@@ -26,9 +26,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4a7f98ce24af02658620485840d11190c0954c09
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: 1158
 ht-degree: 3%
 
 ---
@@ -48,6 +48,29 @@ Experience Platform Web SDK支援查詢Adobe的個人化解決方案，包括決
 有兩種方式可透過[平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant#video-overview)實作決定管理。 一種方式是針對開發人員，且需要網站和程式設計知識。 另一種方式是使用Adobe Experience Platform使用者介面來設定選件，該選件只需要在HTML頁面標頭中參照小型指令碼。
 
 如需有關如何使用Adobe Experience Platform Web SDK來提供個人化優惠的詳細資訊，請參閱[決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=zh-Hant#enabling-offer-decisioning)上的Adobe Experience Platform檔案。
+
+### 決策範圍 {#decision-scopes}
+
+決定範圍是JSON物件的Base64編碼字串，其中包含您要優惠決定服務用來建議優惠的活動和位置ID。
+
+*決定範圍JSON：*
+
+```json
+{
+  "activityId":"xcore:offer-activity:11cfb1fa93381aca",
+  "placementId":"xcore:offer-placement:1175009612b0100c"
+}
+```
+
+*決定範圍Base64編碼字串：*
+
+```json
+"eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ=="
+```
+
+>[!TIP]
+>
+>您可以從UI中的&#x200B;**活動概覽**&#x200B;頁面複製決定範圍值。
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
@@ -277,6 +300,99 @@ let offerImageURL = offer['image'];
 
 document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
+```
+
+### 多個decisionScopes值 {#multiple-decision-scopes}
+
+您也可以在單一`sendEvent`呼叫中傳送多個決定範圍。 在此範例中，回應會傳回每個請求範圍的主張。
+
+**範例**:
+
+```javascript
+alloy("sendEvent", {
+    "decisionScopes":
+    [
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTIyMjA4YjNhODc0MDU1OCIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjEyMjIwNDUyOTUxNGEyYzAifQ=="
+    ]
+});
+```
+
+回應中每個解析的範圍都包含一個裝載專案：
+
+```json
+{
+    "requestId": "94c4f2f1-9218-43ce-afd3-eb0d853c5174",
+    "handle": [
+        {
+            "payload": [
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MTEyMyIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDExMjMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381123",
+                        "etag": "1"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b01123",
+                        "etag": "3"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a22954123",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-text",
+                            "etag": "2",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a22954123",
+                                "format": "text/text",
+                                "language": [
+                                    "en"
+                                ],
+                                "content": "20% Off on shipping",
+                                "characteristics": {
+                                    "foo2": "bar2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381aca",
+                        "etag": "2"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b0100c",
+                        "etag": "1"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a2295415d",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                            "etag": "1",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a2295415d",
+                                "format": "image/png",
+                                "language": [
+                                    "en"
+                                ],
+                                "deliveryURL": "https://image.jpeg",
+                                "characteristics": {
+                                    "foo": "bar",
+                                    "foo1": "bar1"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "type": "personalization:decisions",
+            "eventIndex": 0
+        }
+    ]
+}
 ```
 
 <!--

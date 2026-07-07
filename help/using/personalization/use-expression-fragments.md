@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -227,6 +227,12 @@ ht-degree: 0%
    ![](../content-management/assets/fragment-expression-use.png)
 
 [本節](../content-management/customizable-fragments.md#example)提供範例，說明如何在建立電子郵件時，將可編輯欄位新增至運算式片段並覆寫其值。
+
+## 使用動態片段解析 {#dynamic-resolution}
+
+您可以在執行階段為每個收件者動態解析片段ID，而不是在設計時靜態嵌入片段ID。 這可讓不同的設定檔根據設定檔屬性、資料集查詢或內容資料，在相同行銷活動或歷程中接收完全不同的內容區塊。
+
+[瞭解如何使用動態片段](../content-management/dynamic-fragments.md)
 
 ## 中斷繼承 {#break-inheritance}
 
