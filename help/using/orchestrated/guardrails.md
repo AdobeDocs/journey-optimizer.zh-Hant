@@ -6,20 +6,13 @@ description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 2%
 
 ---
@@ -50,7 +43,7 @@ ht-degree: 2%
 
 * **每個結構描述的屬性** — 每個結構描述的屬性平均數目不應超過50個資料行，以維持管理性和效能。
 
-* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料擷取 {#data-ingestion}
 
@@ -88,13 +81,7 @@ ht-degree: 2%
 
 * **複合主索引鍵** — 目前不支援具有檔案上傳流程的複合主索引鍵。
 
-## 活動限制 {#activities-limitations}
-
-* **頻道活動限制** — 協調的行銷活動支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 只有管道活動會計入此限制。 目標定位和流量控制活動不計算（例如，建立對象、等待、分割、擴充、調解、分支、結束或測試）。
-
-  如果您在儲存或發佈時超過限制，作業將會失敗。 若要保持在限制內，請減少頻道活動的數量，或將訊息傳送分割到多個協調的行銷活動中。
-
-* **畫布活動限制** — 已協調的行銷活動畫布上的活動數限製為500。 此限制適用於畫布上的所有活動型別。 它與發佈時執行的管道活動限制不同。 針對可維護性和效能，請將工作流程保持在實踐中的100個活動以下。
+## 客群
 
 * **僅限純量屬性** — 對象定義僅支援純量屬性；不允許對應和陣列。
 
@@ -108,9 +95,19 @@ ht-degree: 2%
 
 * **受眾最佳化** — 使用大型或複雜的受眾定義時，強烈建議最佳化以確保效能。
 
-* **儲存的對象是靜態的** — 儲存的對象活動是靜態的；它們反映行銷活動執行時可用的資料。
+* **已儲存的對象**
+
+   * **儲存的對象是靜態的** — 儲存的對象活動是靜態的；它們反映行銷活動執行時可用的資料。
 
 * **沒有附加至已儲存的對象** — 不支援附加至已儲存的對象活動。 任何修改都需要完全覆寫對象。
+
+## 活動限制 {#activities-limitations}
+
+* **頻道活動限制** — 協調的行銷活動支援最多10個頻道活動（電子郵件、簡訊、推播或直接郵件）。 只有管道活動會計入此限制。 鎖定目標、資料管理和流量控制活動不計算（例如，建立對象、載入檔案、等待、分割、擴充、調解、分支、結束或測試）。
+
+  如果您在儲存或發佈時超過限制，作業將會失敗。 若要保持在限制內，請減少頻道活動的數量，或將訊息傳送分割到多個協調的行銷活動中。
+
+* **畫布活動限制** — 已協調的行銷活動畫布上的活動數限製為500。 此限制適用於畫布上的所有活動型別。 它與發佈時執行的管道活動限制不同。 針對可維護性和效能，請將工作流程保持在實踐中的100個活動以下。
 
 ## 頻道限制
 

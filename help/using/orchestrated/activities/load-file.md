@@ -5,18 +5,14 @@ title: 使用載入檔案活動
 description: 瞭解如何使用載入檔案活動，在CSV或TXT檔案中鎖定協調行銷活動對象，而不將檔案擷取至Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
-ht-degree: 5%
+source-wordcount: 1697
+ht-degree: 4%
 
 ---
 
@@ -35,11 +31,11 @@ ht-degree: 5%
 
 **[!UICONTROL 載入檔案]**&#x200B;活動是一項&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
 
+在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。
+
 >[!AVAILABILITY]
 >
->一組組織的&#x200B;**載入檔案**&#x200B;活動可在&#x200B;**有限可用性**&#x200B;中使用。 如欲請求存取權，請和您的 Adobe 代表聯絡。 如需可用性階段資訊，請參閱[Journey Optimizer發行週期](../../rn/releases.md)。
->
->此活動目前無法與&#x200B;**Healthcare Shield**&#x200B;搭配使用。
+>**載入檔案**&#x200B;活動目前無法與&#x200B;**Healthcare Shield**&#x200B;搭配使用。
 
 ## 權限 {#permissions}
 
