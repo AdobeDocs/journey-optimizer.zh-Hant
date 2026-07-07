@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3421'
 ht-degree: 97%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 97%
    + [文件更新](using/rn/documentation-updates.md)
    + {hide-from-toc}[改善的歷程畫布](using/rn/new-canvas.md)
    + {hide-from-toc}[從對象資格移轉批次對象](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[電子郵件追蹤畫素的CNIL指引](using/privacy/cnil-pixel-tracking.md)
 + 開始使用 {#get-started}
    + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
    + [入門中心](using/start/onboarding-hub.md)
@@ -582,8 +583,8 @@ ht-degree: 97%
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
    + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-   + 客群 {#audiences}
-      + [客群](/help/rp_landing_pages/audiences-landing-page.md)
+   + 對象 {#audiences}
+      + [對象](/help/rp_landing_pages/audiences-landing-page.md)
       + [開始使用 Audiences](using/audience/about-audiences.md)
       + 建立客群 {#create}
          + [建立客群](/help/rp_landing_pages/create-landing-page.md)
