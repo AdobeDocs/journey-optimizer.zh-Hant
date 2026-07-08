@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
 workflow-type: tm+mt
-source-wordcount: 9187
+source-wordcount: 9227
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* 已更新&#x200B;**個人化最佳化模型**&#x200B;頁面，以反映最新的模型改善，包括整體模型如何運作、資料集需求、使用案例、關鍵假設和冷啟動行為。 請閱讀[Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md)和[Offer Decisioning](../offers/ranking/personalized-optimization-model.md)章節中的詳細資訊。
 
 * 已在&#x200B;**歷程仲裁排名公式**&#x200B;頁面新增附註，以指定排名公式僅適用於已購買&#x200B;**決策**&#x200B;附加元件產品的組織。 [閱讀更多](../conflict-prioritization/journey-ranking-formulas.md)
 
