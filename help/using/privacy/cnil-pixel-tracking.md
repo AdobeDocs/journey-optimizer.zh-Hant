@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL，追蹤，畫素，電子郵件，同意，選擇退出，隱私權
-source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
+source-git-commit: dc428295d1916580c1b15eacce987696f178668b
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%
@@ -154,4 +154,3 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### 報表 {#reporting}
 
 Adobe Journey Optimizer的電子郵件報告透過[即時報告](../reports/live-report.md)和[Customer Journey Analytics報告](../reports/report-gs-cja.md)提供開啟和點按量度。 當針對郵件停用&#x200B;**[!UICONTROL 電子郵件開啟]**&#x200B;追蹤時，將不會收集該傳遞的開啟資料；報告只會反映點按次數和其他參與訊號。
-
