@@ -10,24 +10,12 @@ keywords: 重新進入、歷程、設定檔、週期性
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
 source-wordcount: 1875
 ht-degree: 2%
@@ -102,7 +90,7 @@ ht-degree: 2%
 
 * 如果停用重新進入，則設定檔無法在全域歷程逾時期間內多次進入相同歷程。 請參閱[本章節](../building-journeys/journey-properties.md#global_timeout)。
 
-依預設，歷程允許重新進入。 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 它可讓您定義允許設定檔再次進入歷程之前的等待時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 持續時間上限為91天（[全域逾時](journey-properties.md#global_timeout)）。
+依預設，歷程允許重新進入。 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 它可讓您定義允許設定檔再次進入歷程之前的等待時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天（[全域逾時](journey-properties.md#global_timeout)）。
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
