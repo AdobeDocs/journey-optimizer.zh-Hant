@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +46,26 @@ ht-degree: 24%
 
 * 在&#x200B;**行銷活動**:Create&#x200B;行銷活動中，選取行動訊息作為您的動作，定義基本設定，然後編輯訊息內容。 了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
+## 使用案例 {#use-cases}
+
+SMS、MMS和RCS最適合您在需要可靠地聯絡使用者時使用，無論使用者已安裝您的應用程式或可使用網際網路連線。
+
+| 優點 | 原因 | 範例使用案例 |
+| --- | --- | --- |
+| 最大觸及率和即時性 | 接收訊息不需要應用程式或網際網路連線 | 在未安裝智慧型手機應用程式的情況下聯絡使用者 |
+| 有保證的可見度 | 簡訊的開放率超過90% | OTP代碼、約會提醒、傳遞通知 |
+| 透過MMS/RCS提供豐富的內容 | 新增純文字以外的影像、視訊和互動元素 | 品牌行銷活動、產品目錄 |
+| 觸及沒有應用程式存取權的使用者 | 適用於尚未安裝或開啟應用程式的收件者 | 重新吸引失效的應用程式使用者，加入非應用程式客戶 |
+| 高度緊急的CTA | 直接傳送給裝置使用者，使用者經常檢查 | 快閃銷售、詐騙警示、服務中斷通知 |
+| 使用其他色版分層 | 補充推播、電子郵件和應用程式內傳訊，以擴大涵蓋範圍 | 以SMS作為遞補頻道的多頻道歷程 |
+
+## 何時不使用 {#when-not-to-use}
+
+SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況下考慮另一個管道：
+
+* 成本是高傳送量時的考量，因為簡訊和多媒體簡訊是按訊息計費，且每訊息成本會快速大規模增加
+* 內容是長式或複雜的，更適合電子郵件，支援更豐富的格式和較長的文字
+* 收件者未明確選擇加入，這會在大多數地區和訊息傳送法規中帶來法律與合規風險
 
 ## 主要功能 {#key-features}
 
@@ -88,7 +101,7 @@ ht-degree: 24%
 
 ## 其他資源 {#additional-resources}
 
-瀏覽下列主題，進一步瞭解Journey Optimizer中的行動裝置傳訊。
+瀏覽下列主題，進一步瞭解Journey Optimizer中的行動裝置傳訊。 另請參閱行動學習中心中的[SMS/MMS/RCS總覽](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}，瞭解更多使用案例和最佳實務。
 
 +++設定指南
 
@@ -196,7 +209,7 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

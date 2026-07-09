@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 64%
 
 ---
 
@@ -42,6 +36,28 @@ ht-degree: 100%
 * 在&#x200B;**行銷活動**&#x200B;中。 建立行銷活動，選取 **WhatsApp** 作為您的動作並定義基本設定，然後編輯訊息內容以定義要傳送的 WhatsApp 訊息。 了解如何建立[動作行銷活動](../campaigns/campaign-action.md#action-campaign-action) | [API 觸發的行銷活動](../campaigns/api-triggered-campaigns.md) | [協調的行銷活動](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## 使用案例 {#use-cases}
+
+當您的對象已使用平台，而您想要將豐富的內容與真正的雙向交談結合在一起時，WhatsApp的運作成效最佳。
+
+| 優點 | 原因 | 範例使用案例 |
+| --- | --- | --- |
+| 高全球參與度 | 廣泛使用的傳訊平台，在許多地區有廣泛的採用 | 觸及已在WhatsApp上活躍的國際受眾 |
+| 豐富互動式訊息 | 支援影像、影片、按鈕和快速回覆 | 產品目錄、具有快速回複選項的約會確認 |
+| 雙向對話體驗 | 收件者可在相同對話串中回覆 | 客戶支援對話、訂單追蹤問題 |
+| 透過官方API的合規性和信任 | 透過Meta已驗證的Cloud API （含傳送者驗證）傳遞 | 建立收件者信任的品牌驗證通訊 |
+| 與其他管道整合 | 可與歷程和行銷活動以及其他管道一起分層 | 使用WhatsApp作為補充接觸點的多管道歷程 |
+
+## 何時不使用 {#when-not-to-use}
+
+WhatsApp依賴對象採用和明確的同意，因此不適用於所有情況。 在下列情況下考慮另一個管道：
+
+* 您的對象沒有使用WhatsApp，因為採用率因地區和人口統計而有很大的差異
+* 收件者尚未提供明確的選擇加入，這是Meta傳訊政策的必要條件
+* 此訊息緊急，需要保證傳送，在特定WhatsApp的傳送和範本稽核限制下，SMS或推播可更好地處理
+* 內容冗長或複雜，更適合電子郵件，提供更充裕的空間及更豐富的格式設定
+* 即時對話支援在您的身上不可行，因為雙向WhatsApp執行緒設定了及時回覆的期望
 
 ## 先決條件 {#prereq}
 
@@ -76,7 +92,7 @@ ht-degree: 100%
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
