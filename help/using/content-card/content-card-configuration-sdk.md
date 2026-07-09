@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 3%
+source-wordcount: 558
+ht-degree: 6%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 3%
 >[!PREREQUISITES]
 >
 >您必須安裝節點和npm。 [請參閱此檔案](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>若要搭配內容卡片使用取消資格規則，需使用Web SDK 2.28.0版或更新版本。
 
 
 1. 設定HTTPS的本機SSL憑證。 這些範例需要本機簽署的SSL憑證，才能透過HTTPS提供內容：
