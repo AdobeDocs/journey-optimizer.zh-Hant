@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -54,6 +54,28 @@ ht-degree: 100%
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
 ➡️[本章節](../experience-decisioning/experience-decisioning-uc.md)呈現了一個端到端使用案例，說明如何使用內容實驗來比較決策與程式碼型體驗管道。
+
+## 使用案例 {#use-cases}
+
+若您的使用案例超出視覺編輯器可支援的範圍，且您擁有可用來建置和維護實作的開發資源，程式碼型管道的運作成效最佳。
+
+| 優點 | 原因 | 範例使用案例 |
+| --- | --- | --- |
+| 深度個人化 | 支援視覺編輯器所公開的複雜邏輯和即時資料 | 由即時詳細目錄或使用者內容驅動的Personalization |
+| 與外部系統整合 | 可以使用外部系統的資料來撰寫內容 | 天氣型促銷活動、即時詳細目錄導向優惠 |
+| 進階、多步驟條件式工作流程 | 不限於視覺管道的預先定義動作 | 跨接觸點的多步驟決策邏輯 |
+| 超越平台限制 | 可讓開發人員建置自訂互動元素 | 現成可用的管道不支援自訂UI元件 |
+| 改善行銷活動的彈性 | 內容和邏輯由您自己的實作所定義 | Headless、API型或非瀏覽器數位屬性 |
+
+## 何時不使用 {#when-not-to-use}
+
+程式碼型管道需要開發工作，因此並非適用於每個案例的正確選擇。 在下列情況下考慮另一個管道：
+
+* 您的行銷活動既快速又簡單，而且可以使用Web或應用程式內這類無程式碼管道進行建置，無需任何開發工作
+* 您沒有開發人員資源或測試環境可用來建置及驗證自訂實施
+* 您的自訂開發時間表或預算有限，因為程式碼型體驗需要更多預先規劃
+* 標準傳訊功能已經符合內建的管道功能，因此不需要進行自訂開發
+* 自訂程式碼的長期可維護性是一個問題，因為表面和實施需要持續的開發人員支援
 
 ## 何時使用程式碼型頻道，而不是其他頻道 {#code-based-vs-other-channels}
 
@@ -133,4 +155,5 @@ ht-degree: 100%
 * **[測試程式碼型體驗](test-code-based.md)** - 了解如何在發佈之前預覽和測試您的程式碼型體驗。
 * **[實作範例](code-based-implementation-samples.md)** - 探索各種使用案例的程式碼範例和實作模式。
 * **[程式碼型體驗教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - 探索有關程式碼型功能和最佳做法的逐步教學課程影片。
+
 
