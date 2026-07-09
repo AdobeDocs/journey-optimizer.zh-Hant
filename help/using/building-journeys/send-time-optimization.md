@@ -11,26 +11,15 @@ keywords: 傳送時間，傳送，訊息，最佳化，歷程， AI，智慧
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
+source-wordcount: 2316
 ht-degree: 6%
 
 ---
@@ -68,6 +57,8 @@ ht-degree: 6%
 >
 >* 傳送時間最佳化僅適用於&#x200B;**電子郵件**&#x200B;和&#x200B;**推播通知**&#x200B;頻道。
 >
+>* 下列AEP中樞區域支援傳送時間最佳化： **VA7、NLD2、AUS5、CAN2、GBR9、IND2、CHE2**。 這些是Adobe部署區域代碼，如果您不確定您的組織使用哪個區域，請聯絡您的Adobe代表。
+>
 
 ## 使用傳送時間最佳化{#use-send-time-optimization}
 
@@ -87,7 +78,7 @@ ht-degree: 6%
 
    為了獲得最佳結果，請針對&#x200B;**點按**&#x200B;最佳化大部分電子郵件。 當訊息是資訊性且不是用來驅動特定動作時，請選擇&#x200B;**開啟**。
 
-1. 對於電子郵件和推播訊息，請將&#x200B;**[!UICONTROL 在next]**&#x200B;內傳送設定為系統在傳送訊息之前等待的最大小時數(1-168)。
+1. 對於電子郵件和推播訊息，請將&#x200B;**[!UICONTROL 在next]**&#x200B;內傳送設定為系統在傳送訊息之前等待的最大小時數(2-100)。
 
    為獲得最佳結果，請選擇6到24小時之間的值。 較低的值會減少可用傳送次數，並可限制傳送時間最佳化的好處。 較高的值可能表示訊息已過期，或在傳送時較不相關。
 
@@ -132,7 +123,7 @@ ht-degree: 6%
 
 您可以在下方找到有關傳送時間最佳化的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連絡。
 
 +++使用傳送時間最佳化前需要等候多久？
 
@@ -216,14 +207,14 @@ ht-degree: 6%
 * **Journey AI**： Adobe的AI服務在Journey Optimizer *（產品特定）*&#x200B;中支援傳送時間最佳化
 * **探索傳送時間**：隨機選取的傳送時間（用於5%的傳送）以測試不同時間並改善模型準確度&#x200B;*（產品特定）*
 * **最佳化的傳送時間**：選取模型預測的傳送時間，以將點按或開啟率最大化（用於95%的傳送） *（產品特定）*
-* **在下個時間內傳送**：系統傳送訊息給指定設定檔&#x200B;*（產品特定）之前等待的最大小時數(1-168)*
+* **在下個時間內傳送**：系統傳送訊息至指定設定檔&#x200B;*（產品特定）*&#x200B;之前等待的最大小時數(2-100)
 
 **護欄：**
 * 傳送時間最佳化必須由Adobe為組織啟用；請聯絡Adobe客戶服務或您的Adobe代表以啟用它。
 * 傳送時間最佳化僅適用於歷程中的電子郵件和推播通知通道；不適用於行銷活動或自訂動作。
 * 在傳送時間最佳化產生有意義的結果之前，組織必須在Journey Optimizer中使用電子郵件或推播動作至少30天。
 * 請勿將傳送時間最佳化用於緊急或時效性作業訊息（例如訂單確認、密碼重設、航班登機口變更）。
-* 等待時間範圍的上限為1-168小時；建議範圍為6-24小時以獲得最佳結果。
+* 等待時間範圍的上限為2-100小時；建議範圍為6-24小時以獲得最佳結果。
 * 模型分數儲存在`_experience.intelligentServices.journeyAI.sendTimeOptimization`的設定檔屬性中，且無法由人類讀取。
 * 最初每週訓練模型，然後在16週後每月重新訓練和重新訓練。
 
