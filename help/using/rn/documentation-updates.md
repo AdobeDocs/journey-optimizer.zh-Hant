@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* **編輯PTR記錄**&#x200B;頁面已新增警告，以通知客戶在將新的轉送DNS記錄新增至其平台時，必須等到移動完成後才能移除舊子網域的轉送DNS記錄，因為這樣做會導致編輯失敗。 [閱讀更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* 已更新使用波段&#x200B;**的**&#x200B;傳送，以釐清跨波段的對象重新評估行為：對象會籍在啟動時（快照）固定，但在每個波段處理時則會評估設定檔屬性和同意。 這表示會遵守波段之間發生的選擇退出。 在[歷程](../building-journeys/send-using-waves.md#faq)與[行銷活動](../campaigns/send-using-waves.md#faq)常見問題集章節中瞭解更多。
+
+* **資料控管**&#x200B;頁面已更新，以澄清DULE原則強制僅適用於&#x200B;**設定檔屬性欄位**。 不支援事件型欄位（歷程事件欄位之類的內容屬性）：套用至UI中這些欄位的標籤不會限制資料使用。 [閱讀更多](../action/action-privacy.md)
 
 * **傳送時間最佳化**&#x200B;檔案已更新，以反映新的&#x200B;**[!UICONTROL 在未來]**&#x200B;的&#x200B;**2-100小時**&#x200B;限制內傳送 （先前為1-168），並記錄支援此功能的AEP中心區域。 [閱讀更多](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 

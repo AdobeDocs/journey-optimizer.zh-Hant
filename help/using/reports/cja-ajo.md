@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -79,9 +79,12 @@ ht-degree: 5%
 
 * **在[!DNL Journey Optimizer]個報表中，傳送的量度也包含重試量度。**
 
-  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。不過，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**&#x200B;量度。
-為了減少差異，請使用一週前或之後的日期範圍。
+  **[!UICONTROL 重試]**&#x200B;將不會包含在[!DNL Customer Journey Analytics]的&#x200B;**[!UICONTROL 已傳送]**&#x200B;量度中。 這會導致[!DNL Customer Journey Analytics] **[!UICONTROL 已傳送]**&#x200B;個量度顯示低於[!DNL Journey Optimizer]的值。 但是，重試資料已整合至&#x200B;**[!UICONTROL 個成功傳送的郵件]**&#x200B;或&#x200B;**[!UICONTROL 退信]**&#x200B;量度。為了減少差異，請使用一週前或之後的日期範圍。
 
 * **報告是由不同的資料來源提供。**
 
   這可能會造成產品之間出現1-2%的資料差異。
+
+* **資料集最近已新增至報表連線。**
+
+  新新增資料集的自動歷史回填可能需要幾天的時間才能完成。 在完成之前，該資料集的歷史報告可能會顯示為不完整或零，即使新資料已正確流入。 請注意，這是預期行為，而非資料遺失。

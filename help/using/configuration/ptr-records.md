@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 80%
+source-wordcount: 922
+ht-degree: 76%
 
 ---
 
@@ -117,11 +117,13 @@ ht-degree: 80%
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. 如果您收到下列訊息：「請先建立轉寄 DNS，然後再試一次」，請依照下列步驟操作：
+   * 如果成功建立轉寄 DNS 記錄，請檢查 DNS 提供者。
+   * 跨 DNS 的記錄可能不會立即同步。 請等待幾分鐘，然後再試一次。
+
+   >[!WARNING]
    >
-   >如果您收到下列訊息：「請先建立轉寄 DNS，然後再試一次」，請依照下列步驟操作：
-   >   * 如果成功建立轉寄 DNS 記錄，請檢查 DNS 提供者。
-   >   * 跨 DNS 的記錄可能不會立即同步。 請等待幾分鐘，然後再試一次。
+   >在您的代管平台上新增新子網域的轉送DNS記錄時，請勿在移動完成前移除舊子網域的轉送DNS記錄。 在處理完成之前移除舊記錄會導致編輯PTR記錄失敗。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**，以確認您所做的變更。 請注意，**[!UICONTROL IP]**&#x200B;與&#x200B;**[!UICONTROL PTR記錄]**&#x200B;欄位無法修改。
 
