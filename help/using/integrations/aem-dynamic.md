@@ -22,9 +22,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1213
 ht-degree: 7%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 7%
 >請確定Adobe Experience Manager as a Cloud Service已啟用Dynamic Media with OpenAPI。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
 Dynamic Media與Adobe Journey Optimizer的整合適用於Dynamic Media [Scene7模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}和[搭配OpenAPI](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}。
+
+對於Dynamic Media Scene7資產，Journey Optimizer會在URL開頭新增預設修飾元(`bfc=off&fmt=png-alpha`)。 如果您的預設集也設定`fmt`或`bfc`，則會優先使用，因為Scene7會使用重複引數的最後一次出現。 為避免意外結果，請從預設集中移除`fmt`/`bfc`，或將它移到URL中的預設修飾元之前。
 
 <!--
 >[!AVAILABILITY]
