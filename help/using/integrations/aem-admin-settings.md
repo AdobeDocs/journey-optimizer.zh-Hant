@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM，內容片段，管理，存放庫，驗證，作者，發佈
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -20,6 +18,14 @@ ht-degree: 10%
 ---
 
 # 設定Adobe Experience Manager存放庫存取權 {#aem-admin-settings}
+
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解管理員如何將沙箱連線至Adobe Experience Manager存放庫、設定僅限作者或發佈存取權、自訂網域及驗證，以便行銷人員能夠在其歷程及行銷活動中使用AEM內容片段。
+
+>[!ENDSHADEBOX]
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
@@ -46,12 +52,6 @@ ht-degree: 10%
 >id="ajo_admin_aem_custom_domain"
 >title="自訂網域"
 >abstract="選填。 如果封鎖「your-publish-instance.adobeaemcloud.com」以取得您組織的內容，請提供自訂網域。"
-
->[!BEGINSHADEBOX]
-
-**在此頁面上：**&#x200B;瞭解管理員如何將沙箱連線至Adobe Experience Manager存放庫、設定僅限作者或發佈存取權、自訂網域及驗證，以便行銷人員能夠在其歷程及行銷活動中使用AEM內容片段。
-
->[!ENDSHADEBOX]
 
 Adobe Journey Optimizer與&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;整合，因此您可以在歷程和行銷活動中使用&#x200B;**內容片段**。 **預設會從Adobe Experience Manager發佈存放庫讀取內容片段**，管理員可以在&#x200B;**[!UICONTROL AEM整合]**&#x200B;功能表中切換為僅限作者或調整發佈存取權。
 
@@ -145,4 +145,4 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
 瞭解管理員如何在Journey Optimizer中設定Adobe Experience Manager Managed Services存放庫設定，讓行銷人員可以在歷程及行銷活動中使用內容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492538?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
