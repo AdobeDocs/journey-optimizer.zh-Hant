@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 39%
+source-wordcount: 1877
+ht-degree: 37%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Target區段的預留位置"
+>abstract="**[!UICONTROL Target]**&#x200B;區段會設定此管道活動的傳遞目標。 使用&#x200B;**[!UICONTROL 目標維度]**&#x200B;來選取要套用至此傳送的目標維度。 然後，選擇&#x200B;**[!UICONTROL 每個設定檔一則訊息]**&#x200B;以便每人傳送一則訊息，或選擇&#x200B;**[!UICONTROL 每個次要維度一則訊息]**&#x200B;以便每個合格的次要維度傳送一則訊息 — 例如，當同一旅客有多個相符的航班時，每個航班傳送一封電子郵件。"
 
 <!--
 UNUSED IDs in BJ

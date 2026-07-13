@@ -12,9 +12,9 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
-></br>
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 >
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -41,7 +40,7 @@ ht-degree: 2%
 * **[!UICONTROL Personalization編輯器]** — 只要跨管道（主旨列、內文和開啟此編輯器的其他欄位）有編輯器，即可使用。 這是AI輔助個人化的一般路徑。 如需瞭解在何處以及如何開啟編輯器，請參閱[新增個人化](../personalization/personalization-build-expressions.md#where)。
 * **電子郵件Designer工具列** — 當您在電子郵件Designer中編寫電子郵件時，請選取元件並在內容工具列中使用&#x200B;**[!UICONTROL 新增運算式]**&#x200B;在工具箱中開啟小幫手，而不先開啟完整的編輯器。 此進入點在電子郵件製作外部無法使用。 請參閱[從電子郵件Designer](#generate-email-designer)產生。
 
-如需更廣泛的AI助理設定和語言，請參閱[開始使用AI助理](gs-generative.md)。 如需個人化概念，請參閱[開始使用個人化](../personalization/personalize.md)。 如需提示性的想法，請參閱[AI提示最佳實務](ai-assistant-prompting-guide.md)。
+如需更廣泛的AI助理設定和語言，請參閱[開始使用AI助理](gs-generative.md)。 如需個人化概念，請參閱[開始使用個人化](../personalization/personalize.md)。 若要寫入產生可用運算式的提示，請參閱[為個人化運算式寫入有效提示](#prompt-best-practices)。 如需產生內容的提示概念（色調、樣式、品牌），請參閱[AI提示最佳實務](ai-assistant-prompting-guide.md)。
 
 根據您的行銷活動或歷程內容，助理可以處理資料並建構已公開的[!UICONTROL Personalization編輯器] — 例如設定檔屬性、區段成員資格、協助程式功能和相關的個人化來源。
 
@@ -145,3 +144,37 @@ ht-degree: 2%
    * 在完整編輯器中調整運算式 — 按一下![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg "編輯")圖示以開啟&#x200B;**[!UICONTROL Personalization編輯器]**。
 
 1. 當您對結果感到滿意時，請按一下&#x200B;**[!UICONTROL 插入]**，將運算式新增至您的內容。
+
+## 撰寫個人化運算式的有效提示 {#prompt-best-practices}
+
+個人化運算式的提示與內容產生提示不同，後者以色調、樣式和品牌為中心。 由於助理員會建立可針對設定檔與內容資料解析的範本邏輯，因此您的提示應準確說明該邏輯。 從您要提供的客戶體驗開始，然後以助理可以翻譯為運算式的辭彙來表示。
+
+有效的提示通常定義了四個元素：
+
+* **資料來源** — 要評估的設定檔屬性、內容資料、區段、選件或其他資源。 當您知道欄位路徑時，請包含該確切的欄位路徑，例如`profile.person.name.firstName`。
+* **條件** — 要套用的邏輯，例如值是否存在或符合特定條件。
+* **輸出** — 符合條件時要顯示的內容，包括任何必要的格式。
+* **遞補** — 資料遺失或不符合條件時，要顯示哪些專案。
+
+例如，要求&#x200B;*取得客戶的續約日期、新增一年、將其格式化為MM/dd/yy，且在續約日期遺失時不會顯示任何內容*&#x200B;提供了資料來源、轉換、輸出格式和遞補 — 助理必須產生可用運算式的所有條件。
+
+### 推薦 {#prompt-recommendations}
+
+若要取得最相關的結果：
+
+* 讓每個提示聚焦於單一個人化規則，而非將數個不相關的規則合併到一個請求中。
+* 僅參考您環境中存在的欄位、片段、選件和資料集。 小幫手會處理編輯器公開的內容，不會為您建立資料來源。
+* 說明選用或可能遺失資料的遞補行為，因此運算式會適當地解析每個設定檔。
+* 在重要時明確指出預期的輸出結構，例如，選件裝載必須傳回JSON的金鑰。
+* 當您編輯現有程式碼時，僅提供相關的運算式作為內容，而非整個訊息，並在套用&#x200B;**[!UICONTROL 修正]**&#x200B;或其他變更之前，使用&#x200B;**[!UICONTROL 說明]**&#x200B;來瞭解程式碼。
+
+## 資料與設定需求 {#requirements}
+
+助理員會從[!UICONTROL Personalization編輯器]已公開的資源產生運算式，因此基礎資料必須設定且可供使用。 如果提示未傳回可用的運算式，請確認：
+
+* 您參考的欄位屬於您環境中作用中的結構描述，
+* 您要重複使用的任何片段都會發佈，
+* 用於查詢的任何資料集都會啟用以供查詢，並且
+* 您的請求與範本個人化相關，而不是其他任務。
+
+設定正確時，請澄清資料來源、條件、輸出和遞補內容以縮小提示範圍，然後再次產生。
