@@ -10,12 +10,21 @@ level: Intermediate
 keywords: 優惠，決定，電子郵件，個人化，決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 TQID: https://experienceleague.adobe.com/ajycOqX0Q6spKP8RgXmF-QLR95AYsCLLfIaKofpd95k
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 678
@@ -66,7 +75,7 @@ ht-degree: 1%
 
       [位置](../offers/offer-library/creating-placements.md)是用來展示您的優惠方案的容器。 在此範例中，我們將使用「電子郵件上層影像」位置。 此位置已在選件資料庫中建立，以顯示位於訊息頂端的影像型別選件。
 
-   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。****
+   1. 與所選位置相符的決定隨即顯示。 選取要在內容元件中使用的決定，然後按一下[新增]。**&#x200B;**
 
       >[!NOTE]
       >
@@ -94,7 +103,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節](../audience/get-started-identity.md)中進一步瞭解Adobe Experience Platform識別名稱空間[。
+      >在此範例中，我們使用&#x200B;**電子郵件**&#x200B;名稱空間。 在本節[&#128279;](../audience/get-started-identity.md)中進一步瞭解Adobe Experience Platform識別名稱空間。
 
    1. 在&#x200B;**[!UICONTROL 識別值]**&#x200B;欄位中，輸入識別測試設定檔的值。 在此範例中，輸入測試設定檔的電子郵件地址。
 

@@ -36,7 +36,7 @@ ht-degree: 10%
 
 * [存取及管理挑戰與工作](access-loyalty-challenges.md)
 * [創造挑戰](create-challenges.md)
-* **建立任務** ◀}︎**您在這裡**
+* **建立任務** ◀&rbrace;︎**您在這裡**
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
 
 </td>

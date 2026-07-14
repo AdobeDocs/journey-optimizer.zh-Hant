@@ -9,12 +9,26 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
@@ -147,7 +161,7 @@ ht-degree: 1%
    >
    >在匯入RTF編輯功能之前建立的片段，其可編輯欄位預設為純文字模式。 若要啟用完整的格式選項，請使用&#x200B;**[!UICONTROL 開啟片段]**&#x200B;按鈕移至片段編輯器，按一下&#x200B;**[!UICONTROL 啟用]**&#x200B;以解鎖RTF模式並&#x200B;**[!UICONTROL 儲存]**&#x200B;片段。 [了解更多](../content-management/customizable-fragments.md#rich-text-visual)
 
-   電子郵件Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}中的![相容性警告
+   電子郵件Designer![&#128279;](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}中的相容性警告
 
 1. 您可以按一下&#x200B;**[!UICONTROL 模擬內容]**，檢視可編輯的內容和樣式如何呈現。 [進一步瞭解預覽內容](../content-management/preview-test.md)
 
