@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 運算式，編輯器， handlebars，反複專案，陣列，內容，個人化
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 3132
 ht-degree: 1%
 
 ---
@@ -103,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### 範例：來自事件的購物車專案
 
-如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
+如果您的[事件結構描述](../event/experience-event-schema.md)包含`productListItems`陣列（標準[XDM格式](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}），您可以顯示購物車內容，如下列範例所詳述。
 
 +++ 檢視範常式式碼
 
@@ -899,7 +891,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 +++
 
-深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細範例和其他因應措施。
+深入瞭解如何在回圈](use-expression-fragments.md#fragments-in-loops)中使用運算式片段[，包括詳細範例和其他因應措施。
 
 
 
@@ -1043,7 +1035,7 @@ Handlebars在回圈中提供特殊變數，有助於進階反複運算模式：
 
    **解決方案**：定義片段在訊息層級（回圈外）需要的任何變數，讓這些變數可全域存取。
 
-深入瞭解如何在回圈[&#128279;](use-expression-fragments.md#fragments-in-loops)中使用運算式片段，包括詳細的說明、範例和建議的模式。
+深入瞭解如何在回圈](use-expression-fragments.md#fragments-in-loops)中使用運算式片段[，包括詳細的說明、範例和建議的模式。
 
 +++
 

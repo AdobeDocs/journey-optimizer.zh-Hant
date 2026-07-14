@@ -1,15 +1,12 @@
 ---
-title: Personalization訣竅
+title: 個人化方式
 description: Adobe Journey Optimizer的常見個人化模式和真實世界範例
 feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
 source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
 source-wordcount: 845
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Personalization訣竅 {#personalization-recipes}
+# 個人化方式 {#personalization-recipes}
 
 >[!BEGINSHADEBOX]
 

@@ -6,7 +6,7 @@ description: 設定訊息和歷程上限規則
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 # 設定訊息和歷程上限規則{#section-overview}
 
-上限規則是[衝突管理與優先順序](../using/conflict-prioritization/gs-conflict-prioritization.md)的一部分，它們有助於確保客戶獲得適當的通訊量，而不會感到不知所措。在套用規則之前，請使用[衝突偵測工具](../using/conflict-prioritization/conflicts.md)來識別重疊的歷程與行銷活動。當多個通訊符合同一個輪廓的資格時，[優先順序分數](../using/conflict-prioritization/priority-scores.md)會決定先傳遞哪個訊息。
+上限規則是[衝突管理與優先順序](../using/conflict-prioritization/gs-conflict-prioritization.md)的一部分，它們有助於確保客戶獲得適當的通訊量，而不會感到不知所措。 在套用規則之前，請使用[衝突偵測工具](../using/conflict-prioritization/conflicts.md)來識別重疊的歷程與行銷活動。 當多個通訊符合同一個輪廓的資格時，[優先順序分數](../using/conflict-prioritization/priority-scores.md)會決定先傳遞哪個訊息。
 
-您可以設定傳送訊息的頻率 (頻率上限)、輪廓可以進入的歷程數 (歷程上限) 以及訊息封鎖的時間 (勿打擾時間)。 規則會分組到&#x200B;**規則集**&#x200B;並套用至行銷活動或歷程。如需外部系統的程式化控制，請參閱[上限 API](../using/configuration/capping.md)。
+您可以設定傳送訊息的頻率 (頻率上限)、輪廓可以進入的歷程數 (歷程上限) 以及訊息封鎖的時間 (勿打擾時間)。 規則會分組到&#x200B;**規則集**&#x200B;並套用至行銷活動或歷程。 如需外部系統的程式化控制，請參閱[上限 API](../using/configuration/capping.md)。
 
 ## 設定訊息和歷程上限規則
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用規則集
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 歷程上限與仲裁
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 依據管道的頻率限定
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 設定勿打擾時間
 

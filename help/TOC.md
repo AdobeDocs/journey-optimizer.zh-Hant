@@ -583,8 +583,8 @@ ht-degree: 97%
          + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
    + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-   + 對象 {#audiences}
-      + [對象](/help/rp_landing_pages/audiences-landing-page.md)
+   + 客群 {#audiences}
+      + [客群](/help/rp_landing_pages/audiences-landing-page.md)
       + [開始使用 Audiences](using/audience/about-audiences.md)
       + 建立客群 {#create}
          + [建立客群](/help/rp_landing_pages/create-landing-page.md)

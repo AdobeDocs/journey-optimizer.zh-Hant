@@ -15,8 +15,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 2%
+source-wordcount: 544
+ht-degree: 4%
 
 ---
 
@@ -87,10 +87,7 @@ A direct **Analyze in CJA** button will be added to the reporting interface befo
 
 頁面頂端會顯示下列測量結果：
 
-**熟客方案會員** — 在選取期間有效的熟客方案會員數目。
-**挑戰註冊** — 所有挑戰的新挑戰註冊總數。
-**收入** — 期間內與挑戰活動相連結的總收入。
-**平均完成率** — 完成至少一項挑戰的已註冊客戶百分比。
+**熟客方案會員** — 在選取期間有效的熟客方案會員數目。**挑戰註冊** — 所有挑戰的新挑戰註冊總數。**收入** — 期間內與挑戰活動相連結的總收入。**平均完成率** — 完成至少一項挑戰的已註冊客戶百分比。
 
 在這些量度底下，**每日挑戰參與度**&#x200B;時間表會顯示挑戰參與度在這段期間如何演化，並繪製三個系列：
 

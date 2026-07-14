@@ -10,30 +10,16 @@ keywords: 使用案例、多管道、歷程、事件
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1523
-ht-degree: 12%
+source-wordcount: 1666
+ht-degree: 10%
 
 ---
 
@@ -60,10 +46,7 @@ ht-degree: 12%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="exp-event-lookup.md">
-    <img alt="體驗事件查詢最佳實務" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>瞭解常見的模式和可擴充的方法，以協助您在[!DNL Adobe Journey Optimizer]中善用體驗事件。這些使用案例旨在協助您解決經常遇到的挑戰，例如管理選擇退出、控制訊息頻率、根據使用者行為個人化內容以及對即時訊號做出反應。
-    </div>
+    <br>瞭解常見的模式和可擴充的方法，以協助您在[!DNL Adobe Journey Optimizer]中善用體驗事件。 這些使用案例旨在協助您解決經常遇到的挑戰，例如管理選擇退出、控制訊息頻率、根據使用者行為個人化內容以及對即時訊號做出反應。</div>
       <div>
      <a href="exp-event-lookup.md">了解更多</a></div>
     </div>
@@ -78,8 +61,8 @@ ht-degree: 12%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="../data/datasets-query-examples.md">
-    <img alt="查詢範例" src="../assets/do-not-localize/icon-configure.svg"/></a> 
+    
+     
     <br>若要建置使用案例，您需要查詢[!DNL Adobe Journey Optimizer]資料集，例如用於擷取追蹤體驗事件的系統資料集、用於擷取歷程中步驟事件的資料集、用於擷取優惠方案主張給使用者的資料集等等。
     </div>
       <div>
@@ -89,7 +72,7 @@ ht-degree: 12%
 </tr>
 </table>
 
-另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
+另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
 
 
 ## 企業使用案例
@@ -174,34 +157,34 @@ ht-degree: 12%
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
+      
     <br/>
       <strong>客戶上線</strong><br/><p>了解如何在 Journey Optimizer 中實施客戶入門歷程。</p> - <a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">觀看使用案例影片</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
+      
     <br/>
       <strong>放棄的購物車</strong><br/><p>瞭解如何使用[!DNL Adobe Journey Optimizer]中的Playbook功能來實作放棄的購物車使用案例。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">觀看使用案例影片</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-content.svg" width="35px">
+      
     <br/>
       <strong>重新參與</strong><br/><p>瞭解Adobe如何在資料架構師和資料工程師教學課程以及Experience Platform Web SDK教學課程中記錄的基礎實作基礎上，調整智慧型重新參與使用案例以搭配Luma示範網站使用。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">觀看使用案例影片</a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
+      
     <br/>
       <strong>即時優惠個人化</strong><br/><p>在[!DNL Adobe Journey Optimizer]中使用與天氣相關的資料來提供選件，可讓企業根據真實世界的即時環境條件來個人化客戶體驗。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">依照逐步教學課程進行</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
+      
     <br/>
       <strong>追蹤和報告透過決策傳遞的優惠</strong><br/><p>啟用透過[!DNL Adobe Journey Optimizer]傳遞之優惠的報告和效能分析：當優惠是根據內容訊號進行個人化和傳遞時，必須追蹤曝光次數和使用者互動以評估其成效。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">依照逐步教學課程進行</a> 
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
+      
     <br/>
       <strong>使用排名公式個人化優惠</strong><br/><p>瞭解如何在[!DNL Adobe Journey Optimizer]內運用郵遞區號和年收入等使用者屬性，提供個人化的財務優惠方案。 透過使用排名公式，優惠方案會根據特定地點促銷活動與收入型資格進行智慧評分與優先順序。</p><a href="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">依照逐步教學課程進行</a> 
     </td>
@@ -220,41 +203,41 @@ ht-degree: 12%
 <td>
 <img alt="部落格貼文" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">使用案例：如何僅在[!DNL Adobe Journey Optimizer]</a>的工作日傳送電子郵件 — 也可作為<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=zh-Hant" target="_blank">社群部落格</a>使用</p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=zh-Hant" target="_blank">使用案例：進階核准策略</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant" target="_blank">使用案例：每日頻率限定</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hant" target="_blank">最佳實務：讀取對象歷程</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=zh-Hant" target="_blank">使用案例：測試您的歷程</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=zh-Hant" target="_blank">使用案例：核准工作流程</a></p>
+<p><a href="weekday-email-uc.md">使用案例：如何僅在[!DNL Adobe Journey Optimizer]</a>的工作日傳送電子郵件 — 也可作為<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">社群部落格</a>使用</p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">使用案例：進階核准策略</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">使用案例：每日頻率限定</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">最佳實務：讀取對象歷程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">使用案例：測試您的歷程</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">使用案例：核准工作流程</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="歷程中的步驟事件" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=zh-Hant" target="_blank">在[!DNL Adobe Journey Optimizer]中掌握步驟事件：資料導向行銷活動的基礎、結構描述和基本查詢
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">在[!DNL Adobe Journey Optimizer]中掌握步驟事件：資料導向行銷活動的基礎、結構描述和基本查詢
+</p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">使用案例：可自訂上傳的快速外部Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">使用案例：設定檔以外的Personalization
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=zh-Hant" target="_blank">使用案例：可自訂上傳的快速外部Audience Activation</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=zh-Hant" target="_blank">使用案例：設定檔以外的Personalization
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">搭配Personalization飛翔：航空公司如何提升優惠方案 [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=zh-Hant" target="_blank">搭配Personalization飛翔：航空公司如何提升優惠方案 [!DNL Adobe Journey Optimizer]
-</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=zh-Hant" target="_blank">掌握Real-Time Personalization：AEM內容片段和行銷人員指南 [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">掌握Real-Time Personalization：AEM內容片段和行銷人員指南 [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="自訂動作" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=zh-Hant" target="_blank">如何使用自訂動作延伸[!DNL Adobe Journey Optimizer]：整合使用案例
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">如何使用自訂動作延伸[!DNL Adobe Journey Optimizer]：整合使用案例
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=zh-Hant" target="_blank">[!DNL Adobe Journey Optimizer]的自訂委派功能可解決企業法規遵循方面的挑戰
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]的自訂委派功能可解決企業法規遵循方面的挑戰
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=zh-Hant" target="_blank">Journey Optimizer中的LINE：從第一個行銷活動到進階運算式片段和自訂動作使用案例
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">Journey Optimizer中的LINE：從第一個行銷活動到進階運算式片段和自訂動作使用案例
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=zh-Hant" target="_blank">適用於iOS的Journey Optimizer通用連結整合指南
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">適用於iOS的Journey Optimizer通用連結整合指南
 </a></p>
 </div>
 </td>

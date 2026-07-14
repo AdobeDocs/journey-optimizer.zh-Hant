@@ -5,7 +5,7 @@ title: Adobe Experience Platform
 description: 瞭解如何在 Journey Optimizer 歷程中使用 Adobe Experience Platform 資料和客群函式，包括 inAudience 函式。
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inAudience 函式
 
@@ -30,7 +30,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用 Adobe Experience Platform 資料進行個人化
 
@@ -40,7 +40,7 @@ Adobe Experience Platform 是提供真正個人化客戶體驗的基礎，可協
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 在歷程中使用 Adobe Experience Platform 資料
 

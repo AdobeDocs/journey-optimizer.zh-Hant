@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1222
+source-wordcount: 1231
 ht-degree: 1%
 
 ---
@@ -233,8 +233,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
-索引0是集合的第一個索引。
+**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
 

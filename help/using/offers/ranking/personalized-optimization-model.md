@@ -9,12 +9,8 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 product_v2: []
 source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
 workflow-type: tm+mt
@@ -68,7 +64,7 @@ ht-degree: 1%
 | 功能型別 | 如何新增特徵至模型 |
 |--------------|----------------------------|
 | 決策物件(placementID、activityID、decisionScopeID) | 傳送至AEP的決定管理回饋體驗事件的一部分 |
-| 對象 | 建立排名AI模型時，可以新增0到50個對象作為功能 |
+| 客群 | 建立排名AI模型時，可以新增0到50個對象作為功能 |
 | 上下文資料 | 傳送至AEP的決定回饋體驗事件的一部分。 可新增至結構描述的可用內容資料： Commerce詳細資料、通道詳細資料、應用程式詳細資料、Web詳細資料、環境詳細資料、裝置詳細資料、placeContext |
 
 模型有兩個階段：

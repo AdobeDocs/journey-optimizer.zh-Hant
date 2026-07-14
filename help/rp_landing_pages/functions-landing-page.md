@@ -6,7 +6,7 @@ description: 協助程式函式清單
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用協助程式函式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 彙總函式庫
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 算術函式庫
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 陣列和清單函式參考
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 日期和時間函式庫
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 布林值和比較函式庫
 

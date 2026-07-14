@@ -64,7 +64,7 @@ Adobe Journey Optimizer可運用XDM檢視，讓行銷人員透過Journey Optimiz
 
 若要完成一次性開發人員設定，需要執行下列步驟：
 
-1. 安裝[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant){target="_blank"}並檢查[Web Channel必要條件](web-prerequisites.md)頁面。
+1. 安裝[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}並檢查[Web Channel必要條件](web-prerequisites.md)頁面。
 
 2. 決定您要個人化之單頁應用程式中的所有XDM檢視。
 

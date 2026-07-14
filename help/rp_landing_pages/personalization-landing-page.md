@@ -6,7 +6,7 @@ description: 個人化
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 新增及驗證個人化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 了解個人化語法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 重複使用運算式片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 使用 Adobe Experience Platform 資料進行個人化 (Beta)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 協助程式函式參考指南
 

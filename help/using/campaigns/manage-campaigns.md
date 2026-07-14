@@ -11,25 +11,16 @@ level: Beginner
 keywords: 管理行銷活動、狀態、排程、存取、最佳化工具
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
 source-wordcount: 1797
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -114,7 +105,7 @@ ht-degree: 9%
 **對於所有行銷活動型別：**
 
 * **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。 [進一步瞭解行銷活動報告→](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 [瞭解如何使用標籤→](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 [瞭解如何使用標籤 →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 複製]** — 使用此選項來複製行銷活動，例如，執行已停止的協調行銷活動。 [進一步瞭解複製→](#duplicate-a-campaign)
 * **[!UICONTROL 刪除]** — 使用此選項刪除行銷活動。 [進一步瞭解刪除→](#delete-a-campaign)
 * **[!UICONTROL 封存]** — 封存行銷活動。 所有已封存的行銷活動都會在其上次修改日期後的30天內，以滾動排程刪除。 此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。 [進一步了解封存→](#archive-a-campaign)
@@ -125,7 +116,7 @@ ht-degree: 9%
 Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
 * **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
 -->
-* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
 **僅供協調的行銷活動使用：**
@@ -275,7 +266,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 ## 刪除行銷活動 {#delete-a-campaign}
 
-若要刪除行銷活動，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取&#x200B;**[!UICONTROL 刪除]**。
+若要刪除行銷活動，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取&#x200B;**[!UICONTROL 刪除]**。
 
 ![](assets/delete-a-campaign.png){width="70%"}
 
@@ -285,7 +276,7 @@ Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign l
 
 ## 複製行銷活動 {#duplicate-a-campaign}
 
-若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕![&#128279;](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號影像，並選取[複製]&#x200B;**&#x200B;**。
+若要複製行銷活動，例如，如果行銷活動已停止，請使用顯示[更多動作]按鈕](assets/do-not-localize/rule-builder-icon-more.svg)按鈕的省略符號![影像，並選取[複製]****。
 
 輸入行銷活動的名稱並進行確認。
 

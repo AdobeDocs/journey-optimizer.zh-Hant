@@ -8,26 +8,15 @@ role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2328
+source-wordcount: 2384
 ht-degree: 2%
 
 ---
@@ -45,8 +34,7 @@ ht-degree: 2%
 >title="提示範例"
 >abstract="探索 Journey Optimizer 文件，了解如何建立有效的提示，產生高轉換率之符合品牌形象的行銷內容。"
 
-本指南可協助您建構請求、清楚傳達意圖，並確保AI產生的訊息符合您的品牌指引、受眾需求和行銷活動目標。
-瞭解如何撰寫有效提示，讓AI助理產生為您的目標量身打造的高品質品牌行銷內容。
+本指南可協助您建構請求、清楚傳達意圖，並確保AI產生的訊息符合您的品牌指引、受眾需求和行銷活動目標。瞭解如何撰寫有效提示，讓AI助理產生為您的目標量身打造的高品質品牌行銷內容。
 
 ## 使用提示小幫手 {#prompt-assistant}
 
@@ -68,11 +56,11 @@ ht-degree: 2%
 
 1. 回答澄清問題，為助理提供所需的內容。 您的答案會納入用於產生的精細提示中。
 
-   按一下[更新內容] **&#x200B;**，然後按一下[分析提示] **&#x200B;**&#x200B;（如果您需要另一個階段）。
+   按一下[更新內容] ****，然後按一下[分析提示] **** （如果您需要另一個階段）。
 
    ![](assets/prompt-assistant-4.png)
 
-1. 檢閱助理意見且對提示感到滿意後，請按一下[使用這個提示] **以套用它，並繼續產生內容。**
+1. 檢閱助理意見且對提示感到滿意後，請按一下[使用這個提示] ]**以套用它，並繼續產生內容。**[!UICONTROL 
 
    ![](assets/prompt-assistant-5.png)
 
@@ -214,8 +202,7 @@ ht-degree: 2%
 
 ### 建構您的目標
 
-一律提供內容和價值主張，讓AI可產生相關內容。
-使用此公式來協助您撰寫有效的目標： **動作+產品/服務+值/利益+急迫性/內容**
+一律提供內容和價值主張，讓AI可產生相關內容。使用此公式來協助您撰寫有效的目標： **動作+產品/服務+值/利益+急迫性/內容**
 
 **好目標的範例：**
 
@@ -326,8 +313,7 @@ ht-degree: 2%
 >
 >如果您已透過&#x200B;**品牌Assets**&#x200B;功能表上傳品牌資產，則不需要在提示中參考該資產。 系統會自動使用任何選取的檔案。
 
-品牌資產提供真實資訊，透過特定且準確的詳細資料來豐富您產生的內容。
-當您上傳廣泛檔案（例如產品手冊）時，請在提示中新增要重點處理的部分：
+品牌資產提供真實資訊，透過特定且準確的詳細資料來豐富您產生的內容。當您上傳廣泛檔案（例如產品手冊）時，請在提示中新增要重點處理的部分：
 
 * **請避免使用** _「使用產品手冊」_ **您應該使用** _「著重於進階安全性功能與法規遵循認證，尤其是SOC 2法規遵循與資料加密」_
 

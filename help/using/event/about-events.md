@@ -10,24 +10,12 @@ level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
 source-wordcount: 2181
@@ -70,7 +58,7 @@ ht-degree: 27%
 
 ## 商業事件 {#business-events}
 
-**企業**&#x200B;事件未連結至特定設定檔。 例如，可以是新聞警報、運動更新、航班變更或取消、詳細目錄更新、天氣事件等。雖然這些事件不是設定檔所特有，但任何數量的設定檔都可能有興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。業務事件一律以規則為基礎。 當您在歷程中放置商業活動時，它會在之後自動新增&#x200B;**讀取對象**&#x200B;活動。 在此頁面[&#128279;](../event/about-creating-business.md)瞭解如何建立商務活動。
+**企業**&#x200B;事件未連結至特定設定檔。 例如，可以是新聞警報、運動更新、航班變更或取消、詳細目錄更新、天氣事件等。雖然這些事件不是設定檔所特有，但任何數量的設定檔都可能有興趣：訂閱特定新聞主題的個人、航班上的乘客、對無存貨產品感興趣的購物者等。業務事件一律以規則為基礎。 當您在歷程中放置商業活動時，它會在之後自動新增&#x200B;**讀取對象**&#x200B;活動。 在此頁面](../event/about-creating-business.md)瞭解如何建立商務活動[。
 
 ## 對象資格鑑定事件 {#audience-qualification-events}
 
@@ -186,13 +174,13 @@ Adobe Journey Optimizer會在組織層級，對所有沙箱針對每個事件型
 
 為避免中斷現有歷程，當您編輯用於&#x200B;**草稿**、**即時**&#x200B;或&#x200B;**已關閉**&#x200B;歷程的事件時，您只能變更名稱、說明或新增裝載欄位。
 
-無法刪除&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已關閉**&#x200B;歷程中使用的任何事件。 要刪除已使用的事件，您必須停止使用該事件的歷程，和/或將其從使用它的草稿歷程中移除。 您可以檢查&#x200B;**欄位中的**&#x200B;已使用。 它會顯示使用該特定事件的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
+無法刪除&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已關閉**&#x200B;歷程中使用的任何事件。 要刪除已使用的事件，您必須停止使用該事件的歷程，和/或將其從使用它的草稿歷程中移除。 您可以檢查&#x200B;]**欄位中的**[!UICONTROL &#x200B;已使用。 它會顯示使用該特定事件的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
 ## 作法影片 {#video}
 
 了解如何設定事件、指定串流端點和事件的裝載。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431513?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 

@@ -6,7 +6,7 @@ description: 編輯樣式
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 自訂電子郵件樣式
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 個人化電子郵件背景
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 調整垂直對齊方式與內距
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 新增內嵌樣式屬性
 

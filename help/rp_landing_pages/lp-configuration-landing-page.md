@@ -6,7 +6,7 @@ description: 瞭解如何在 Journey Optimizer 中設定登陸頁面子網域和
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
 source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 本節包含兩個方面：
 
-* **子網域** — 設定託管登陸頁面的位置。瞭解如何委派、設定或取消委派登陸頁面的網域設定。
+* **子網域** — 設定託管登陸頁面的位置。 瞭解如何委派、設定或取消委派登陸頁面的網域設定。
 * **預設集** — 定義可重複使用的設定 (包括子網域和其他管道設定)，以便您可以一致地建立和管理登陸頁面。
 
 無論您使用現有網域還是新設定，這些步驟都有助於您將登陸頁面與行銷活動和目標保持一致。
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定及管理登陸頁面子網域
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 定義登陸頁面預設集
 
