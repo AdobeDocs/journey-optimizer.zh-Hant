@@ -11,19 +11,12 @@ level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Du6LWrtaD6lS54qfxT7K8YIRvft8gO8ZlZabCMJ84tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 855cddf7a2f05dcee99a4ec108cf47622c2bcfd5
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 22%
@@ -42,7 +35,7 @@ ht-degree: 22%
 >abstract="當一般使用者不具備任何個人化優惠的資格時，遞補優惠會是顯示的預設優惠。"
 
 >[!CONTEXTUALHELP]
->id="ajo_decisioning_fallback_offer_details "
+>id="ajo_decisioning_fallback_offer_details"
 >title="後備產品建議詳細資訊"
 >abstract="指定後備產品建議的名稱。 您也可以將一或多個現有的集合限定詞與其建立關聯，讓您更輕鬆地搜尋及組織「產品建議資料庫」。"
 
@@ -78,7 +71,7 @@ ht-degree: 22%
    >
    >遞補優惠應包含[決定](../offer-activities/create-offer-activities.md)內使用的所有代表。 例如，如果您在決定中有5個優惠方案，而且每個優惠方案都有不同的代表方式，則備援優惠方案應包含5個代表方式。
 
-1. 新增遞補優惠的宣告後，會顯示摘要。 如果所有專案皆已正確設定，且您的遞補優惠已準備好呈現給客戶，請按一下[完成]&#x200B;**&#x200B;**，然後選取[儲存]並核准&#x200B;**。**
+1. 新增遞補優惠的宣告後，會顯示摘要。 如果所有專案皆已正確設定，且您的遞補優惠已準備好呈現給客戶，請按一下[完成]****，然後選取[儲存]並核准&#x200B;]**。**[!UICONTROL 
 
    您也可以將遞補優惠儲存為草稿，以便稍後編輯及核准。
 
