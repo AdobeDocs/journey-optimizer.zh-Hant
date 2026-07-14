@@ -83,7 +83,7 @@ ht-degree: 34%
     <div>
     
      
-    <br>此外，請檢視<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">此Adobe社群部落格</a>，其中詳述<strong>常見錯誤碼</strong>以及如何有效解決它們。
+    <br>此外，請檢視<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant" target="_blank">此Adobe社群部落格</a>，其中詳述<strong>常見錯誤碼</strong>以及如何有效解決它們。
     </div>
   </td>
 </tr>

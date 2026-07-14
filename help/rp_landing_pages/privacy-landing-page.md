@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 隱私管理概觀
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 管理隱私請求
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 使用者動作的稽核記錄
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 執行資料生命週期作業
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 同意管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 資料治理概觀
 

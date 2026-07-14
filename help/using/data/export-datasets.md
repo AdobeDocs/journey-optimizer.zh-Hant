@@ -78,9 +78,9 @@ Adobe Experience Platform檔案中提供每個目的地的詳細資訊：
 
 ![](assets/dataset-export-process.png)
 
-每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}中取得。
+每個步驟的詳細資訊可在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target="_blank"}中取得。
 
-1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}中瞭解如何建立新的目的地連線。
+1. **設定您的雲端儲存空間目的地**。 如果您尚未這麼做，請從目的地目錄連線至雲端儲存空間目的地。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant#setup){target="_blank"}中瞭解如何建立新的目的地連線。
 
    <!--![](assets/dataset-export-setup.png)-->
 

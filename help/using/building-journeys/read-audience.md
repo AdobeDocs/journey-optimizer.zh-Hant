@@ -118,7 +118,7 @@ ht-degree: 10%
    >[!NOTE]
    >
    >此外，您可以鎖定使用[對象組合](../audience/get-started-audience-orchestration.md)建立的[!DNL Adobe Experience Platform]對象。
-   >您也可以鎖定從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}上傳的對象。
+   >您也可以鎖定從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}上傳的對象。
    >[進一步瞭解如何在Journey Optimizer中產生及鎖定對象](../audience/about-audiences.md)。
 
    請注意，您可以自訂清單中顯示的欄並加以排序。
@@ -145,7 +145,7 @@ ht-degree: 10%
 
 除了設定檔識別碼之外，您可以選擇啟用&#x200B;**使用補充識別碼**，在次要識別碼（例如訂單ID或預訂ID）的內容中執行歷程。 當補充識別碼不同時，這允許同一設定檔的多個入口。
 
-[瞭解如何在歷程中使用補充識別碼](supplemental-identifier.md)。 對於讀取對象歷程，補充識別碼是從&#x200B;**整合設定檔服務**&#x200B;對象的&#x200B;**聯合/設定檔結構描述**&#x200B;準備的，或是從&#x200B;**外部對象**&#x200B;的合格屬性中選取的（例如，從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}匯入的對象或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象）。 使用補充ID時，每個歷程執行個體的讀取率限製為每秒500個設定檔。
+[瞭解如何在歷程中使用補充識別碼](supplemental-identifier.md)。 對於讀取對象歷程，補充識別碼是從&#x200B;**整合設定檔服務**&#x200B;對象的&#x200B;**聯合/設定檔結構描述**&#x200B;準備的，或是從&#x200B;**外部對象**&#x200B;的合格屬性中選取的（例如，從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience){target="_blank"}匯入的對象或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象）。 使用補充ID時，每個歷程執行個體的讀取率限製為每秒500個設定檔。
 
 ### 護欄和推薦 {#must-read}
 
@@ -154,7 +154,7 @@ ht-degree: 10%
 **推薦**
 
 * 最佳做法是在&#x200B;**讀取對象**&#x200B;活動中使用批次對象，以獲得可靠且一致的計數。 讀取對象是針對批次使用案例而設計。 如果您的使用案例需要即時資料，請改用[對象資格](audience-qualification-events.md)活動。
-* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
+* 可在&#x200B;**讀取對象**&#x200B;活動中選取從CSV檔案[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hant#import-audience)匯入或從[組合工作流程](../audience/get-started-audience-orchestration.md)產生的對象。 **對象資格**&#x200B;活動中沒有這些對象。
 * 如需有關對象快照計時、批次分段完成視窗以及如何確保您的歷程一律以最新資料執行的資訊，請參閱[計時和資料傳播](#timing-and-data-propagation)。 對於週期性歷程，請考慮啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**&#x200B;選項，以自動延遲執行，直到最新的對象快照準備就緒為止。 [了解更多](#schedule)。
 
 >[!CAUTION]
@@ -393,7 +393,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 資料驗證 {#data-validation-and-monitoring}
 
-* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
+* **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hant){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
 
 * **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}中的合併原則。
 
@@ -436,7 +436,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * [測試歷程](testing-the-journey.md) — 在上線之前，使用測試設定檔驗證您的歷程邏輯。
 * [發佈歷程](../building-journeys/publish-journey.md) — 啟動您的歷程並監視其初始執行。
 * [傳送訊息給訂閱者](message-to-subscribers-uc.md) — 端對端使用案例：從設定到傳遞，使用讀取對象歷程鎖定訂閱清單。
-* [讀取對象歷程的最佳實務](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} — 社群部落格涵蓋常見陷阱、計數差異和公認的最佳實務。
+* [讀取對象歷程的最佳實務](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=zh-Hant){target="_blank"} — 社群部落格涵蓋常見陷阱、計數差異和公認的最佳實務。
 
 ## 作法影片 {#video}
 

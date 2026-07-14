@@ -55,7 +55,7 @@ ht-degree: 8%
 
 * **內容實驗**
 
-  確認應用程式的[資料流](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
+  確認應用程式的[資料流](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/overview#_blank){target="_blank"}中使用的資料集也包含在內容實驗報告設定中。 如果資料集不符，應用程式資料不會顯示在報表中。
 
   瞭解如何在[本節](../reports/reporting-configuration.md)中為內容實驗報告新增資料集。
 

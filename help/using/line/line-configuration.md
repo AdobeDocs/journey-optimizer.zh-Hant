@@ -71,7 +71,7 @@ ht-degree: 6%
    >
    >您在此對應的LINE使用者識別碼必須已存在於客戶的[!DNL Real-Time Customer Profile]上。 擷取LINE使用者ID （例如，透過LINE登入或LIFF SDK），將其擷取到Adobe Experience Platform，然後將其拼接到具有Identity Service的已知識別碼，以便[!DNL Journey Optimizer]可以存取整合式設定檔。 [進一步瞭解Journey Optimizer中的身分識別](../audience/get-started-identity.md)。
    >
-   >如需使用Identity Service將LINE使用者ID與客戶設定檔整合的端對端範例，請參閱社群文章[使用AEP Identity Stitching將LINE使用者ID與客戶設定檔整合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}。
+   >如需使用Identity Service將LINE使用者ID與客戶設定檔整合的端對端範例，請參閱社群文章[使用AEP Identity Stitching將LINE使用者ID與客戶設定檔整合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=zh-Hant){target="_blank"}。
 
 1. 輸入您的&#x200B;**[!UICONTROL 寄件者名稱]**，例如您的品牌名稱。
 

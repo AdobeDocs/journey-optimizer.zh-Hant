@@ -20,7 +20,7 @@ Adobe Journey Optimizer 資料集是您管理和利用資料來建立有意義�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 在 Adobe Journey Optimizer 中使用和管理資料集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 資料集是您管理和利用資料來建立有意義�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 資料集存留時間 (TTL) 護欄
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 資料集是您管理和利用資料來建立有意義�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 匯出 Adobe Journey Optimizer 資料集
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 資料集是您管理和利用資料來建立有意義�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer：資料集查詢範例
 

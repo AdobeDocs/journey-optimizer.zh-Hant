@@ -70,7 +70,7 @@ ht-degree: 11%
 
 * 在[Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant){target="_blank"}中，確定您已定義資料串流，例如在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;服務下您已啟用&#x200B;**[!UICONTROL Adobe Journey Optimizer]**&#x200B;選項。
 
-  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+  這可確保Adobe Experience Platform Edge正確處理Journey Optimizer傳入事件。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant){target="_blank"}
 
   ![](../web/assets/web-aep-datastream-ajo.png)
 
@@ -88,7 +88,7 @@ ht-degree: 11%
 
 ## 報表必要條件 {#reporting-prerequisites}
 
-若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
+若要啟用程式碼型管道的報告，您必須確定應用程式實作[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}中使用的[資料集](../data/get-started-datasets.md)也包含在報告設定中。
 
 換言之，在設定報表時，如果您新增的應用程式資料流中不存在的資料集，應用程式資料將不會顯示在報表中。
 
