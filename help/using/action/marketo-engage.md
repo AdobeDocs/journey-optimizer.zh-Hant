@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. 在[管理]功能表區段中選取&#x200B;**[!UICONTROL 組態]**。
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 建立動作]**。 動作設定窗格會在畫面右側開啟。
-1. 輸入名稱、說明，然後選取&#x200B;**Adobe Marketo Engage**&#x200B;做為&#x200B;**動作型別**
+1. 輸入名稱、說明，然後選取&#x200B;**Adobe Marketo Engage**&#x200B;做為&#x200B;**動作型別
    ![](assets/engage-customaction-creation.png){width="40%"}
 1. 按一下您的&#x200B;**要求**&#x200B;和&#x200B;**回應**&#x200B;裝載的&#x200B;**編輯裝載**&#x200B;圖示。
 1. 針對這兩者，撰寫您的裝載並貼到專用的快顯視窗中。

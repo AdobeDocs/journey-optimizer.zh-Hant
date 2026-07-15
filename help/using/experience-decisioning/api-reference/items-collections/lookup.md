@@ -26,7 +26,7 @@ ht-degree: 5%
 
 # 查詢專案集合 {#lookup-item-collection}
 
-您可以向優惠資料庫API發出GET請求，在請求路徑中包含ID，藉此查詢特定專案集合。
+您可以透過向選件程式庫API發出GET要求（要求路徑中包含ID），以查詢特定專案集合。
 
 **API格式**
 

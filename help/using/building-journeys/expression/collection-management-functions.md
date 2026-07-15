@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1000
+source-wordcount: 1009
 ht-degree: 1%
 
 ---
@@ -169,8 +169,7 @@ _`<listExpression>.last(<condition>)`_
 
 ## at(`<index>`)函式
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
-索引0是集合的第一個索引。
+**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
 

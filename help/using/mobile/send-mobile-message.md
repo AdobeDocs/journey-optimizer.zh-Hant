@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 562
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 定義訊息內容後，您可以使用任一模擬方法來預覽其內容：
 
 * 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
-* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。
 
 ![](assets/sms_preview_2.png)
 

@@ -6,7 +6,7 @@ description: 瞭解 Journey Optimizer 實驗背後的統計方法，包括信賴
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 技術說明{#section-overview}
 
-這些技術說明會解釋 Adobe Journey Optimizer 實驗與報告中使用的統計方法。運用這些說明瞭解實驗如何受到監視、提升度和轉換率等量度的計算方式，以及如何滿懷信心地解讀結果。
+這些技術說明會解釋 Adobe Journey Optimizer 實驗與報告中使用的統計方法。 運用這些說明瞭解實驗如何受到監視、提升度和轉換率等量度的計算方式，以及如何滿懷信心地解讀結果。
 
 ## 技術說明
 

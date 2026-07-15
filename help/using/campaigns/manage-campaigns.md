@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
 source-wordcount: 1797
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 9%
 **對於所有行銷活動型別：**
 
 * **[!UICONTROL 檢視所有時間報表]** / **[!UICONTROL 檢視過去24小時的報表]** — 存取報表以測量並視覺化行銷活動的影響和效能。 [進一步瞭解行銷活動報告→](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 [瞭解如何使用標籤→](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 編輯標籤]** — 編輯與行銷活動相關聯的標籤。 [瞭解如何使用標籤 →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL 複製]** — 使用此選項來複製行銷活動，例如，執行已停止的協調行銷活動。 [進一步瞭解複製→](#duplicate-a-campaign)
 * **[!UICONTROL 刪除]** — 使用此選項刪除行銷活動。 [進一步瞭解刪除→](#delete-a-campaign)
 * **[!UICONTROL 封存]** — 封存行銷活動。 所有已封存的行銷活動都會在其上次修改日期後的30天內，以滾動排程刪除。 此動作適用於除&#x200B;**[!UICONTROL 草稿]**&#x200B;行銷活動以外的所有行銷活動。 [進一步了解封存→](#archive-a-campaign)
@@ -125,7 +125,7 @@ ht-degree: 9%
 Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
 * **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
 -->
-* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件→](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 
 **僅供協調的行銷活動使用：**

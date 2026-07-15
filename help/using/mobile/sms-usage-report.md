@@ -18,7 +18,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="簡訊使用情況量度"
->abstract="產生簡訊使用情況報告，以便核對訊息傳送量與供應商帳單。 報告會列出每個簡短代碼或電話號碼之行動終止 (MT) 和行動起源 (MO) 訊息數量，並按日彙總。"
+>abstract="產生簡訊使用報告，以協調傳訊量與供應商帳單。 報告會按天彙總每個簡短代碼或電話號碼的行動接收 (MT) 和行動發送 (MO) 計數。"
 
 >[!BEGINSHADEBOX]
 
@@ -43,17 +43,17 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="報告名稱"
->abstract="輸入這份報告的標籤，方便您稍後在清單中找到報告，例如 2026 年 5 月的帳單審閱。"
+>abstract="輸入有助於您稍後在清單中識別此報告的標籤，例如 2026 年 5 月的帳單檢閱。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
->title="SMS 認證"
->abstract="選取 Sinch API 認證，其傳送與接收流量應該會出現在此報告中。 若要新增或更新認證，請前往「**管理**」>「**管道**」>「**API 認證**」，然後選擇「**SMS 供應商**」>「**Sinch MMS**」。"
+>title="簡訊認證"
+>abstract="選取 Sinch API 認證，其傳送與接收流量應會顯示在此報告中。 若要新增或更新認證，請移至&#x200B;**管理** > **管道** > **API 認證**，然後選擇&#x200B;**簡訊供應商** > **Sinch MMS**。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
 >title="開始日期"
->abstract="要納入報告之日期範圍的第一天。 僅提供過去 90 天的使用資料。"
+>abstract="要納入報表之日期範圍的第一天。 僅提供過去 90 天的使用資料。"
 
 SMS使用報告透過短程式碼呈現行動來源(MO)和行動終止(MT)的磁碟區，以支援Journey Optimizer中供應商帳單和訊息活動之間的調解。
 

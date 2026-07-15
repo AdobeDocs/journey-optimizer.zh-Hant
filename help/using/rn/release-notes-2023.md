@@ -16,8 +16,8 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 4372
+workflow-type: tm+mt
+source-wordcount: 4450
 ht-degree: 100%
 
 ---
@@ -125,8 +125,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料摘要為輪廓屬性，以強化基於行為的細分、個人化和啟用。透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶輪廓目的地或 Journey Optimizer。<br/><br/>
-此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多。</p>
+<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為輪廓屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶輪廓目的地或 Journey Optimizer。此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多相關資訊。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,8 +323,7 @@ A new option is available in the email surface settings to include email address
 **歷程**
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。 此功能目前以 Beta 的形式提供。 [了解更多](../action/action-response.md)。
-* 已引入新型系統警報。您現在可以在自訂動作失敗時收到通知。[深入瞭解](../reports/alerts.md)。
-  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。 [了解更多](../reports/alerts.md)。  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直接郵件**
@@ -1001,14 +999,13 @@ Note that each widget can be resized and deleted as needed.
 <p>您現在可以建立獨立內容範本，這些範本可用於歷程及行銷活動，以快速重複使用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>中瞭解如何建立、編輯和使用內容範本。如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。
-</p>
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。 如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細說明文件</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 功能改進 {#jan-2023-improvements}
+### 改進 {#jan-2023-improvements}
 
 **歷程**
 

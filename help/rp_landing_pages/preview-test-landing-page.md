@@ -6,7 +6,7 @@ description: 啟動前驗證訊息的準確性。 使用測試輪廓預覽個人
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 **內容：**&#x200B;實際範例，說明如何在典型使用案例中套用測試工具。
 
 **案例 1：測試多區段行銷活動的個人化電子郵件**
-→ 使用[範例輸入資料](../using/test-approve/simulate-sample-input.md)測試最多 30 個變化版本，而無需建立個別的測試輪廓。上傳具有不同客戶屬性的 CSV、手動新增值，或使用 AI 自動產生變體並一次性預覽全部。
+→ 使用[範例輸入資料](../using/test-approve/simulate-sample-input.md)測試最多 30 個變化版本，而無需建立個別的測試輪廓。 上傳具有不同客戶屬性的 CSV、手動新增值，或使用 AI 自動產生變體並一次性預覽全部。
 
 **案例 2：在主要傳送之前驗證電子郵件轉譯**
 → 執行 [Litmus 測試](../using/content-management/rendering.md)以檢查主要電子郵件用戶端的顯示情形，然後檢查[垃圾郵件報告](../using/content-management/spam-report.md)以確保收件匣的版位。

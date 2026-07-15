@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 278
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Adobe Experience Platform 和 Journey Optimizer 提供各種工具，協助您�
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="不常使用" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="不頻繁" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
 <a href="audit-logs.md"><strong>稽核使用者的動作</strong></a>

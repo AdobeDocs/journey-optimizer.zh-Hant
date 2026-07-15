@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2902
+source-wordcount: 2923
 ht-degree: 3%
 
 ---
@@ -32,8 +32,7 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer]錯誤碼遵循一致的命名模式，這有助於識別元件和問題型別：
 
-* **服務首碼**：指出哪個[!DNL Adobe Journey Optimizer]服務產生錯誤。
-範例： CJMPTS （推播/傳輸服務）、CJMRT （歷程執行階段）、CJMMAS （訊息製作服務）、CJMCMP （行銷活動）、CJMTL （傳輸層）、CJMRPS （報告/布建服務）
+* **服務首碼**：指出哪個[!DNL Adobe Journey Optimizer]服務產生錯誤。範例： CJMPTS （推播/傳輸服務）、CJMRT （歷程執行階段）、CJMMAS （訊息製作服務）、CJMCMP （行銷活動）、CJMTL （傳輸層）、CJMRPS （報告/布建服務）
 * **錯誤號碼**：特定錯誤條件的唯一識別碼
 * **HTTP狀態碼**：標準HTTP狀態碼（例如400、403、422、500）
 

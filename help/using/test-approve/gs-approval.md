@@ -17,7 +17,7 @@ subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 當多個作用中核准原則可套用至相同歷程或行銷活動時，**最近啟用**&#x200B;的原則會優先套用。 該原則中定義的核准者使用者群組是收到通知並負責處理請求的群組。
 
-[瞭解更多](approval-policies.md#multiple-policies)
+[了解更多](approval-policies.md#multiple-policies)
 
 +++
 
@@ -146,4 +146,4 @@ ht-degree: 100%
 * **[建立核准原則](approval-policies.md)** - 了解如何設定核准原則，以強制執行行銷活動和歷程的審閱工作流程。
 * **[請求核准](request-approval.md)** - 了解如何提交內容以供核准及追蹤核准狀態。
 * **[審閱及核准請求](review-approve-request.md)** - 了解如何以核准者身分審閱、核准或拒絕核准請求。
-* **[模擬內容變化版本](simulate-sample-input.md)** - 按一下&#x200B;**[!UICONTROL 模擬內容]**，以使用範例輸入資料、AI 自動產生或模擬的使用者來測試內容變化版本。按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。
+* **[模擬內容變化版本](simulate-sample-input.md)** - 按一下&#x200B;**[!UICONTROL 模擬內容]**，以使用範例輸入資料、AI 自動產生或模擬的使用者來測試內容變化版本。 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。

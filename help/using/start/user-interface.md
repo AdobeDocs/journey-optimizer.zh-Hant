@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
 source-wordcount: 1515
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -389,5 +389,5 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_line"
->title="Line活動"
->abstract="**Line**&#x200B;活動可讓您新增LINE動作至您的協調行銷活動。 建立個人化內容，從文字和貼圖到影像、影片、位置和Flex訊息，以線上上吸引客戶。"
+>title="Line 活動"
+>abstract="**Line** 活動可讓您將 LINE 動作新增至您的協調行銷活動。 建立個人化內容 (從文字和貼圖到影像、影片、位置及 Flex 訊息)，以吸引 LINE 上的客戶。"

@@ -145,7 +145,7 @@ ht-degree: 16%
       <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>建立推播<strong></a>
+      <a href="../push/create-push.md"><strong>建立推播通知
       </div>
       <p>
       </td>
@@ -194,7 +194,7 @@ ht-degree: 16%
       <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
-      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
+      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗
       </div>
       <p>
       </td>

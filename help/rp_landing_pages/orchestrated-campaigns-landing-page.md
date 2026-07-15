@@ -6,7 +6,7 @@ description: 協調的行銷活動
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 

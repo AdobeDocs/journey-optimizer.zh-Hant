@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1276
-ht-degree: 20%
+source-wordcount: 1277
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 * 自訂動作 URL 不支援動態參數。 
 * 僅支援POST和PUT呼叫方法。 
-* 查詢引數或標題的名稱不得以「。」或「$」開頭。 
+* 查詢參數或標題的名稱不得以「.」開頭 或「$」。
 * 不允許IP位址。 
 * 內部Adobe位址(.adobe.) 是不允許的。
 

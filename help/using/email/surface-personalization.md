@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 6%
 在行銷活動或歷程中使用個人化設定時，您可以預覽電子郵件內容，以使用您定義的動態設定檢查潛在錯誤。 您可以使用下列任一種模擬方法：
 
 * 按一下&#x200B;**[!UICONTROL 模擬內容]**&#x200B;以測試內容變數與範例輸入資料或AI自動產生。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md)
-* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以使用測試設定檔預覽。
+* 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。
 
 若要使用測試設定檔預覽您的內容，請執行下列步驟：
 

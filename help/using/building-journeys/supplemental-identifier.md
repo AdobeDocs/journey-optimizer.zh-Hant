@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2792
 ht-degree: 2%
 
 ---
@@ -38,8 +38,7 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。為避免此問題，除了設定檔ID之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
-      <p>在此範例中，我們已新增<b>預訂ID</b>作為補充識別碼。</p>
+      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，除了設定檔識別碼之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  <p>在此範例中，我們已新增<b>預訂ID</b>作為補充識別碼。</p>
       <p>如此一來，歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。</p>
       <p>此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。</p>
     </td>
@@ -278,7 +277,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`預設為`false`。 它必須在建立對象時設定，並且無法在建立後變更。 所有同盟對象構成對象預設都會啟用「快速啟動」，不需要此標幟。
 
-如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
 
 +++
 
@@ -293,7 +292,7 @@ x-sandbox-name: {SANDBOX_NAME}
 
 當對象啟用「快速啟用」（同盟對象構成一律為True — 必須為CSV明確設定）時，Journey Optimizer會根據歷程的設定方式處理重複資料刪除：
 
-| 藍本 | 範例對象列 | 行為 |
+| 情境 | 範例對象列 | 行為 |
 | --- | --- | --- |
 | **具有補充ID的歷程 — 沒有重複的（設定檔ID、補充ID）配對** | (P1、S1)、(P1、S2) | 預期使用案例。 Journey Optimizer會為每個唯一設定檔+補充ID組合建立個別的歷程執行個體。 允許所有列。 |
 | **具有補充ID的歷程 — 存在重複的（設定檔識別碼、補充ID）配對** | (P1、S1)、(P1、S1)、(P1、S2) | 共用相同（設定檔ID、補充ID）組合的列會依一般歷程重新進入邏輯篩選掉。 僅允許每個唯一組合的第一個相符列。 |

@@ -6,7 +6,7 @@ description: 實施 IP 暖身計劃
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ IP 暖身傳遞能力指南
 
 了解如何建立、設定和管理 IP 暖身計劃，包括設定權限和準備網域群組。
 
-[瞭解更多](../using/configuration/ip-warmup-plan.md)
+[了解更多](../using/configuration/ip-warmup-plan.md)
 :::
 
 :::

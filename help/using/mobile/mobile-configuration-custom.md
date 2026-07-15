@@ -75,12 +75,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="管道類型"
->abstract="選填。 將使用此自訂 SMS 提供者認證 (例如 SMS 或 RCS) 傳送的訊息分類。 Journey Optimizer 會將該值寫入 XDM 體驗事件，以便您能夠依管道報告及追蹤傳遞。"
+>abstract="選填。 將使用此自訂簡訊提供者認證傳送的訊息進行分類，例如簡訊或 RCS。 Journey Optimizer 會將該值寫入 XDM 體驗事件，以便您能夠依管道報告及追蹤傳送。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"
 >title="驗證"
->abstract="啟用後，僅接受透過 Adobe IMS 完成驗證的請求。 呼叫者在傳送資料至此端點時，必須包含有效的 OAuth 權杖。"
+>abstract="啟用後，僅接受透過 Adobe IMS 驗證的請求。 呼叫者在傳送資料至此端點時，必須包含有效的 OAuth 權杖。"
 
 若要在Journey Optimizer中使用Adobe未提供的現成自訂提供者（例如Sinch、Infobip、Twilio）傳送行動訊息，請遵循下列步驟：
 

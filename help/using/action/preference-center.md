@@ -30,8 +30,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 911
-ht-degree: 10%
+source-wordcount: 968
+ht-degree: 11%
 
 ---
 
@@ -49,8 +49,7 @@ ht-degree: 10%
 
 在現代行銷自動化生態系統中，品牌與各個接觸點的客戶互動，面對不相關或過度通訊、導致脫離、垃圾郵件投訴和合規風險的風險。 這就是為什麼他們需要管理客戶的偏好設定，以便獲得對受眾的即時見解，並提供個人化、尊重的溝通。
 
-透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。這可確保[!DNL Journey Optimizer]僅根據客戶的選擇來鎖定客戶，同時尊重他們的同意。
-<!-- their preferred channels and on the subscription topics-->
+透過[!DNL Adobe Journey Optimizer]，使用[同意原則](consent.md)，您可以尊重客戶的偏好設定<!-- in terms of **channels** and **topics**-->。 這可確保[!DNL Journey Optimizer]僅根據客戶的選擇來鎖定客戶，同時尊重他們的同意。
 
 若要使用[!DNL Journey Optimizer]管理您的使用者偏好設定，您可以：
 
@@ -64,8 +63,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->同意優先於偏好設定。例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們。
-<!-- on yoga-->
+>同意優先於偏好設定。 例如，您的其中一位客戶指出他們慣用的頻道是電子郵件，並同意接收電子報<!-- they are interested in yoga-->；但是，如果他們選擇不接收來自您的任何通訊，則您傳送的電子郵件電子報無法鎖定他們。
 
 ## 記錄與執行喜好設定 {#manage-preferences}
 

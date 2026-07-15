@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 39%
+source-wordcount: 492
+ht-degree: 38%
 
 ---
 
@@ -65,8 +65,7 @@ ht-degree: 39%
 
 在傳送SMS、MMS或RCS之前，您必須設定您的Adobe Journey Optimizer環境。 若要執行此動作：
 
-1. 整合提供者設定與Journey Optimizer。
-步驟取決於您的簡訊提供者。瀏覽以下連結以存取詳細檔案：
+1. 整合提供者設定與Journey Optimizer。步驟取決於您的簡訊提供者。 瀏覽以下連結以存取詳細檔案：
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)

@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2230
 ht-degree: 13%
 
 ---
@@ -77,8 +77,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
->如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
+>如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 新增媒體 {#add-media-push}
 

@@ -27,7 +27,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 880
 ht-degree: 6%
 
 ---
@@ -177,8 +177,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >每個輸入自訂動作的設定檔都會觸發呼叫。 即使回應一律相同，歷程仍會為每個設定檔執行一個呼叫。
 
-1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。在我們的範例中，我們使用
-   **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
+1. 在逾時和錯誤分支中，新增條件並利用內建的&#x200B;**jo_status_code**&#x200B;欄位。 在我們的範例中，我們使用   **http_400**&#x200B;錯誤型別。 請參閱[本節](#error-status)。
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"

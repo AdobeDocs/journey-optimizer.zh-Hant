@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_placement"
->title="刊登"
+>title="放置環境"
 >abstract="選取用於傳遞產品建議的放置環境。"
 
 >[!CONTEXTUALHELP]
@@ -220,8 +220,7 @@ ht-degree: 10%
 
 選件1 - 10
 選件2 - 20
-條件1的優惠3 - 30，條件2的優惠45。兩者中的最高會納入考量，因此會考慮45。
-選件4 - 40
+條件1的優惠3 - 30，條件2的優惠45。 兩者中的最高會納入考量，因此會考慮45。選件4 - 40
 選件5 - 50
 
 排名選件現在如下：選件5、選件3、選件4、選件2、選件1。

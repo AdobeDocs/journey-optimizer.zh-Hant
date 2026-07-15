@@ -63,4 +63,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/placements/offerPlacemen
 
 成功的回應會傳回HTTP狀態200和空白內文。
 
-您可以嘗試向位置查詢(GET)請求來確認刪除，應該會收到HTTP狀態404 （找不到），因為位置已移除。
+您可以嘗試對位置進行查詢(GET)要求以確認刪除，應該會收到HTTP狀態404 （找不到），因為位置已移除。

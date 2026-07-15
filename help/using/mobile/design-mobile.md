@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ---
 
-# 設計行動裝置訊息 {#design-mobile}
+# 建立行動訊息 {#design-mobile}
 
 >[!BEGINSHADEBOX]
 

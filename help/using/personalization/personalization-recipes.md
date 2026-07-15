@@ -1,5 +1,5 @@
 ---
-title: Personalization訣竅
+title: 個人化方式
 description: Adobe Journey Optimizer的常見個人化模式和真實世界範例
 feature: Personalization
 topic: Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Personalization訣竅 {#personalization-recipes}
+# 個人化方式 {#personalization-recipes}
 
 >[!BEGINSHADEBOX]
 

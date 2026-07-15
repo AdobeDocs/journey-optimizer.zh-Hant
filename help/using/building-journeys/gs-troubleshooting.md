@@ -30,8 +30,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 255
-ht-degree: 38%
+source-wordcount: 281
+ht-degree: 34%
 
 ---
 
@@ -81,8 +81,8 @@ ht-degree: 38%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant">
-    <img alt="瞭解常見錯誤代碼" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
+    
+     
     <br>此外，請檢視<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=zh-Hant" target="_blank">此Adobe社群部落格</a>，其中詳述<strong>常見錯誤碼</strong>以及如何有效解決它們。
     </div>
   </td>

@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 報告
-description: 報告
+title: 報表
+description: 報表
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
 ---
 
-# 報告{#section-overview}
+# 報表{#section-overview}
 
 Adobe Journey Optimizer 的報告功能是將原始資料轉換為可操作的洞察，協助您調整客戶歷程和行銷策略。 無論您是要以即時報告進行即時更新，還是要透過所有時間報告分析長期趨勢，此功能都能讓您分析各個管道和體驗的績效。 了解即時報告和所有時間報告如何互補、提供立即的意見回饋，以及由 Customer Journey Analytics 支援的更深入分析。 深入了解為傳出行銷活動、傳入體驗和自訂歷程資料量身打造的洞察，所有這些都是為了幫助您滿懷信心地做出資料導向式決策。
 

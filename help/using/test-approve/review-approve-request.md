@@ -19,7 +19,7 @@ subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 393
 ht-degree: 3%
 
 ---
@@ -38,8 +38,7 @@ ht-degree: 3%
 
 ![核准要求通知](assets/request-notification.png)
 
-若要檢閱歷程/行銷活動，請從電子郵件或警報中將其開啟，並檢查其設定，例如對象、內容或設定。
-完成後，您可以[核准並發佈歷程/行銷活動](#approve)，或在啟用它之前[要求變更](#changes)。
+若要檢閱歷程/行銷活動，請從電子郵件或警報中將其開啟，並檢查其設定，例如對象、內容或設定。完成後，您可以[核准並發佈歷程/行銷活動](#approve)，或在啟用它之前[要求變更](#changes)。
 
 >[!NOTE]
 >

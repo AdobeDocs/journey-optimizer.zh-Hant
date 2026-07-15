@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 835
 ht-degree: 3%
 
 ---
@@ -45,8 +45,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->與Adobe Experience Manager的整合目前僅對特定使用者開放Beta版。
->以測試版使用者身分，使用[此表單](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享意見。
+>與Adobe Experience Manager的整合目前僅對特定使用者開放Beta版。以測試版使用者身分，使用[此表單](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}分享意見。
 
 
 ### 先決條件 {#prerequisites}

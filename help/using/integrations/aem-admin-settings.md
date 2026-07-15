@@ -15,11 +15,11 @@ subfeature_v2:
 source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
-# 設定Adobe Experience Manager存放庫存取權 {#aem-admin-settings}
+# 設定 Adobe Experience Manager 存放庫存取權 {#aem-admin-settings}
 
 
 >[!BEGINSHADEBOX]
@@ -31,8 +31,8 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="「Adobe Experience Manager設定"
->abstract="透過設定僅限作者或發佈存取權、自訂網域和驗證，將沙箱連線至Adobe Experience Manager存放庫，讓行銷人員能夠在其歷程和行銷活動中使用Adobe Experience Manager內容片段。"
+>title="Adobe Experience Manager 設定"
+>abstract="透過設定僅限作者或發佈的存取權、自訂網域和驗證，將沙箱連接至 Adobe Experience Manager 存放庫，讓行銷人員能夠在其歷程和行銷活動中使用 Adobe Experience Manager 內容片段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
@@ -42,18 +42,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="將權杖傳送至發佈執行個體"
->abstract="啟用後，會傳送服務認證以驗證發佈執行個體的請求。 在下方輸入有效的服務認證JSON。"
+>abstract="啟用後，將會傳送服務認證，以驗證發佈執行個體的請求。 請在下方輸入有效的服務認證 JSON。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
 >title="貼上服務認證 JSON"
->abstract="貼上您的Adobe Experience Manager服務認證JSON。 它將自動進行格式設定並驗證。"
+>abstract="貼上您的 Adobe Experience Manager 服務認證 JSON。 它將自動進行格式設定並驗證。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="自訂網域"
->abstract="選填。 如果封鎖「your-publish-instance.adobeaemcloud.com」以取得您組織的內容，請提供自訂網域。"
+>abstract="選填。 如果「your-publish-instance.adobeaemcloud.com」被禁止為您的組織擷取內容，請提供自訂網域。"
 
 Adobe Journey Optimizer與&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;整合，因此您可以在歷程和行銷活動中使用&#x200B;**內容片段**。 **預設會從Adobe Experience Manager發佈存放庫讀取內容片段**，管理員可以在&#x200B;**[!UICONTROL AEM整合]**&#x200B;功能表中切換為僅限作者或調整發佈存取權。
 

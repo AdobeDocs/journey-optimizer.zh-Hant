@@ -16,8 +16,8 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 7779
-ht-degree: 100%
+source-wordcount: 7797
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   推出日期：2026 年 5 月 6 日
 
-### 電子郵件管道 {#may-26-email}
+### 電子郵件頻道 {#may-26-email}
 
 下列功能和改進功能已新增到此版本的電子郵件管道。
 
@@ -567,8 +567,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。此工具可讓您測試、變更以及自訂通訊、排序和時機，以便最有效地觸及客戶。
-</p>
+<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>作為「一般可用性」的一部分，此版本針對單一歷程引入了<strong>實驗類型</strong>選擇 (A/B 或多臂老虎機) 和<strong>擴充獲勝者</strong>。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>

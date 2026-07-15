@@ -21,7 +21,7 @@ subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 148
+source-wordcount: 163
 ht-degree: 2%
 
 ---
@@ -52,14 +52,12 @@ ht-degree: 2%
 <li>
       <strong>處方識別碼：</strong> pres1<br>
       <strong>名稱：</strong>藥物A<br>
-      <strong>狀態：</strong>就緒
-   </li>
+      <strong>狀態：</strong>就緒</li>
 
 <li>
       <strong>處方識別碼：</strong> pres2<br>
       <strong>名稱：</strong>藥物B<br>
-      <strong>狀態：</strong>回收
-   </li>
+      <strong>狀態：</strong>撤銷</li>
 
 </ul>
 
@@ -70,8 +68,7 @@ ht-degree: 2%
 <li>
       <strong>處方識別碼：</strong> pres4<br>
       <strong>名稱：</strong>藥物D<br>
-      <strong>狀態：</strong>就緒
-   </li>
+      <strong>狀態：</strong>就緒</li>
 
 </ul>
 

@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 789
 ht-degree: 8%
 
 ---
@@ -54,8 +54,7 @@ ht-degree: 8%
 | [!DNL GET] | /endpointConfigs/`{uid}` | 擷取端點上限設定 |
 | [!DNL DELETE] | /endpointConfigs/`{uid}` | 刪除端點上限設定 |
 
-建立或更新設定時，會自動執行檢查以確保語法和裝載的完整性。
-如果發生某些問題，作業會傳回警告或錯誤，以協助您更正設定。
+建立或更新設定時，會自動執行檢查以確保語法和裝載的完整性。如果發生某些問題，作業會傳回警告或錯誤，以協助您更正設定。
 
 此外，[這裡](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)也提供Postman集合，協助您進行測試設定。
 

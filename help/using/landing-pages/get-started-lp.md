@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 781
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="不常使用" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>建立訂閱清單</strong></a>

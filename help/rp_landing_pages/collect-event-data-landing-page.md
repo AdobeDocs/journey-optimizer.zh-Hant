@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-07
 badge: label="舊版" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
 在 Adobe Journey Optimizer 中收集事件資料可讓您追蹤關鍵互動，例如決策、曝光、點按和自訂事件，確保您的產品建議是量身打造且有效果的。 此資料可與 Adobe Experience Platform 緊密整合，以推動關鍵程序，例如報告、頻率上限和 AI 模型建立。 您將了解自動觸發或自訂定義的不同事件類型如何共同運作，以提供可操作的意見回饋。 從建立資料集到設定結構描述，每個步驟都為擷取和利用洞察奠定了基礎，可幫助您做出明智的決策，並滿懷信心地最佳化客戶體驗。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 決策管理資料收集快速入門
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 設定決策管理的事件資料擷取
 

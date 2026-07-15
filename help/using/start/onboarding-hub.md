@@ -11,7 +11,7 @@ hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
 source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1139'
 ht-degree: 12%
 
 ---
@@ -54,8 +54,7 @@ rebuild
 
 ### 歡迎新客戶 {#build-welcome}
 
-**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
-**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
 2. [建立您的第一個歷程](../building-journeys/journey-gs.md)，並將註冊事件當做專案。
@@ -66,8 +65,7 @@ rebuild
 
 ### 復原放棄的購物車 {#build-cart}
 
-**您將建置：**&#x200B;即時復原流程，提醒客戶留下的專案。
-**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**您將建置：**&#x200B;即時復原流程，提醒客戶留下的專案。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
 2. [建置由放棄事件觸發的歷程](../building-journeys/journey-gs.md)。
@@ -78,8 +76,7 @@ rebuild
 
 ### 傳送異動訊息 {#build-transactional}
 
-**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。
-**最佳對象：**&#x200B;行銷人員和開發人員· **功能：** API觸發的行銷活動
+**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。**最佳對象：**&#x200B;行銷人員和開發人員· **功能：** API觸發的行銷活動
 
 1. 檢閱[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)如何運作，以及它們預期的裝載。
 2. 設計訊息範本，並[使用交易詳細資料進行個人化](../personalization/personalize.md)。
@@ -89,8 +86,7 @@ rebuild
 
 ### 使用A/B測試啟動行銷活動 {#build-campaign}
 
-**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
-**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
+**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。**最適合：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
 2. 使用[AI內容產生](../content-management/gs-generative.md)來草稿主旨行並複製變化。
@@ -100,8 +96,7 @@ rebuild
 
 ### 根據客戶個人化優惠方案 {#build-offers}
 
-**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
-**最適合行銷人員：** · **功能：**&#x200B;決策
+**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。
 2. 將決定新增至[歷程](../building-journeys/journey-gs.md)或行銷活動訊息。
@@ -121,7 +116,7 @@ rebuild
 
 >[!BEGINTABS]
 
->[!TAB 開始使用]
+>[!TAB 快速入門]
 
 * [Journey Optimizer簡介](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心概念與產品導覽。
 * [Journey Optimizer教學課程總覽](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 引導式影片的完整目錄。

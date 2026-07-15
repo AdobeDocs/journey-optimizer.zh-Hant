@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1301
 ht-degree: 26%
 
 ---
@@ -126,8 +126,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_3.png)
 
-輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。[進一步瞭解資產管理](../integrations/assets.md)。
-您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
+輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../integrations/assets.md)。您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 

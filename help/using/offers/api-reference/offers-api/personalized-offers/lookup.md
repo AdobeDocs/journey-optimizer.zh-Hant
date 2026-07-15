@@ -37,7 +37,7 @@ ht-degree: 19%
 
 個人化優惠是根據適用性規則和限制的可自訂行銷訊息。
 
-您可以透過向[!DNL Offer Library] API發出GET請求，在請求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
+您可以向[!DNL Offer Library] API發出GET要求，在要求路徑中包含個人化優惠ID，以查詢特定的個人化優惠。
 
 **API格式**
 

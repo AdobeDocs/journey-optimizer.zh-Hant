@@ -78,7 +78,7 @@ Adobe Experience Platform 中有兩種結構描述：
 
 >[!IMPORTANT]
 >
->為即時客戶設定檔啟用結構描述是永久決定：啟用後，無法停用或刪除結構描述。 可以個別停用或刪除以該結構描述為基礎的資料集，但這麼做會移除關聯的設定檔記錄，並可能影響細分和啟用工作流程。 在啟用之前，請先完成您的身分設定和欄位群組選擇。 如需詳細指引，請參閱Adobe Experience Platform檔案中的[設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
+>為即時客戶設定檔啟用結構描述是永久決定：啟用後，無法停用或刪除結構描述。 可以個別停用或刪除以該結構描述為基礎的資料集，但這麼做會移除關聯的設定檔記錄，並可能影響細分和啟用工作流程。 在啟用之前，請先完成您的身分設定和欄位群組選擇。 如需詳細指引，請參閱Adobe Experience Platform檔案中的[設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}和[管理啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}。
 
 ## 作法影片{#video-schema}
 
@@ -92,7 +92,7 @@ Adobe Experience Platform 中有兩種結構描述：
 >* [建立結構描述、資料集及擷取資料，即可在 Journey Optimizer 新增測試輪廓](../audience/creating-test-profiles.md)
 >* [XDM 系統概觀](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}
 >* [資料模式的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=zh-Hant){target="_blank"}
->* [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 >* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [使用結構描述登錄 API，建立結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=zh-Hant){target="_blank"}
 >* [使用結構描述編輯器，定義兩種結構描述之間的關係](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=zh-Hant){target="_blank"}

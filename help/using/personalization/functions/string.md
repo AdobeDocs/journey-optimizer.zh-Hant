@@ -797,8 +797,7 @@ Your code: WELCOME-{%= upperCase(cleanName) %}
 
 ## 子字串 {#sub-string}
 
-`Count string`函式用來傳回開始索引和結束索引之間的字串運算式的子字串。
-**語法**
+`Count string`函式用來傳回開始索引和結束索引之間的字串運算式的子字串。**語法**
 
 ```sql
 {= substr(string, integer, integer) %}: string

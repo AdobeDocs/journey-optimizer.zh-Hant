@@ -6,8 +6,8 @@ description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: ht
-source-wordcount: '635'
+workflow-type: tm+mt
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
@@ -140,8 +140,7 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">文件</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
-</td>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">文件</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a></td>
 </tr></table>
 
 <!--

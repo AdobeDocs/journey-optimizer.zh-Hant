@@ -100,17 +100,17 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="行銷活動"
->abstract="提供單一或定期的傳出交易型動作。 支援的管道：電子郵件、SMS、推播。"
+>abstract="傳遞單次或定期的傳出交易型動作。 支援的管道：電子郵件、簡訊、推播。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="行銷活動"
->abstract="向目標客群傳遞個人化的行銷通訊。 支援的管道：電子郵件、SMS、推播。"
+>abstract="向目標客群傳遞個人化的行銷通訊。 支援的管道：電子郵件、簡訊、推播。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="行銷活動"
->abstract="向個別輪廓或輪廓集傳送交易型通訊。 支援的管道：電子郵件、SMS、推播。"
+>abstract="向個別輪廓或輪廓集傳送交易型通訊。 支援的管道：電子郵件、簡訊、推播。"
 
 Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性內容傳送給特定客群。 使用行銷活動，您可以同時執行協調的行銷動作，在正確的時間以正確的訊息觸及客群。
 

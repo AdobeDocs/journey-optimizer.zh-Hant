@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2210
+source-wordcount: 2223
 ht-degree: 9%
 
 ---
@@ -188,8 +188,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
          >[!NOTE]
          >
-         > 僅支援.p8 Apple推播通知金鑰。如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
-         >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
+         > 僅支援.p8 Apple推播通知金鑰。 如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。         >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 
       1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。 您可以在&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;索引標籤下找到它。

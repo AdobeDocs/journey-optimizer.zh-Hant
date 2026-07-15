@@ -47,7 +47,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Target"
+>title="目標"
 >abstract="**[!UICONTROL Target]**&#x200B;區段會設定此管道活動的傳遞目標。 使用&#x200B;**[!UICONTROL 目標維度]**&#x200B;來選取要套用至此傳送的目標維度。 然後，選擇&#x200B;**[!UICONTROL 每個設定檔一則訊息]**&#x200B;以便每人傳送一則訊息，或選擇&#x200B;**[!UICONTROL 每個次要維度一則訊息]**&#x200B;以便每個合格的次要維度傳送一則訊息 — 例如，當同一旅客有多個相符的航班時，每個航班傳送一封電子郵件。"
 
 <!--

@@ -132,7 +132,7 @@ ht-degree: 82%
 
 如需詳細指引，請參閱Adobe Experience Platform檔案：
 
-* [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分設定、欄位群組選取和資料集用途驗證。
+* [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分設定、欄位群組選取和資料集用途驗證。
 * [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有關淘汰已啟用設定檔的結構描述（包括重新命名策略）的指南。
 
 ## 資料治理

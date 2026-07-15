@@ -24,7 +24,7 @@ subfeature_v2:
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 733
-ht-degree: 32%
+ht-degree: 37%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_placements"
->title="刊登"
+>title="放置環境"
 >abstract="產品建議放置環境決定從決策引擎傳回的項目出現在訊息中的位置。 您可以在報告中追蹤他們在不同產品建議放置環境的效能。"
 
 >[!CONTEXTUALHELP]
@@ -71,7 +71,7 @@ ht-degree: 32%
 
 * **支援的管道** — 程式碼式體驗、電子郵件、簡訊、推播通知和直接郵件。
 
-* **推送通知SDK需求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用SDK版本。
+* **推送通知SDK需求** — 具有推送通知的Experience Decisioning需要特定版本的Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}，以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}中檢視您平台的所有可用 SDK 版本。
 * **追蹤和連結型別** — 若要追蹤由決定產生的連結，請在結構描述中將其定義為「決定Assets」。 無法追蹤屬性型連結。
 * **在電子郵件中巢狀內嵌決定原則** — 您無法在已經有關聯決定原則的父級電子郵件元件中巢狀內嵌多個決定原則。
 * **含決策的重複歷程/行銷活動** — 如果您重複包含決策原則的歷程或行銷活動，重複版本會參考原始電子郵件或程式碼型體驗，而造成錯誤。 複製後請一律重新設定決定原則。

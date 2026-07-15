@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3196
 ht-degree: 1%
 
 ---
@@ -531,8 +531,7 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 
 ### 編輯警報
 
-您可以按一下警示的行來檢查其詳細資訊。名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 更新設定檔
+title: 更新輪廓
 description: 瞭解如何在歷程中使用更新設定檔活動
 feature: Journeys, Profiles, Activities
 topic: Content Management
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ---
 
-# 更新設定檔 {#update-profile}
+# 更新輪廓 {#update-profile}
 
 >[!BEGINSHADEBOX]
 

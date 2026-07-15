@@ -852,7 +852,7 @@ table>
   任何建立的新歷程都會反映此新逾時。 請參考此[常見問題集章節](../building-journeys/journey-properties.md#timeout-faq)以進一步了解。 請注意，這些變更將於 6 月期間逐步推出。
 
 
-* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀更多](../privacy/requests.md)
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
 * 您現在可以調整歷程庫存中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)

@@ -14,7 +14,7 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 2835
+source-wordcount: 2888
 ht-degree: 3%
 
 ---
@@ -40,8 +40,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-在Journey Optimizer中建立新API認證時，SMS webhook現在可讓您擷取傳入關鍵字和意見回饋事件，例如傳送和錯誤。由於每個提供者都有不同的功能，因此有不同的指示可啟用Webhook。
-有了webhook現在支援自訂提供者，現在可以從任何提供者收集意見回饋和傳入關鍵字集合，以在Journey Optimizer中報告和採取行動。
+在Journey Optimizer中建立新API認證時，SMS webhook現在可讓您擷取傳入關鍵字和意見回饋事件，例如傳送和錯誤。 由於每個提供者都有不同的功能，因此有不同的指示可啟用Webhook。有了webhook現在支援自訂提供者，現在可以從任何提供者收集意見回饋和傳入關鍵字集合，以在Journey Optimizer中報告和採取行動。
 
 * **新客戶：**&#x200B;您可以依照這裡的指示正確設定SMS webhook。
 
@@ -185,8 +184,7 @@ ht-degree: 3%
 
    * 針對MMS頻道，[在Sinch檔案中進一步瞭解](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
-   * 對於透過Journey Optimizer直接購買簡訊的客戶，請向Adobe支援提交支援票證。Adobe帳戶團隊將為您設定webhook URL。
-     ![](assets/webhook-4.png)
+   * 對於透過Journey Optimizer直接購買簡訊的客戶，請向Adobe支援提交支援票證。 Adobe帳戶團隊將為您設定webhook URL。     ![](assets/webhook-4.png)
 
 如果您的webhook使用附加到現有頻道設定的API認證，webhook將立即生效。 否則，請建立新的頻道設定。
 

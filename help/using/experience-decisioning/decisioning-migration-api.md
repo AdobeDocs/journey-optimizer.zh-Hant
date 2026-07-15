@@ -81,7 +81,7 @@ Decisioning移轉服務API提供下列功能：
 
 使用以下基底URL：
 
-* **生產**： `https://decisioning-migration.adobe.io`
+* **生產**： 
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Authentication {#authentication}
@@ -358,7 +358,7 @@ curl --request GET \
 | 排名公式 | 排名公式 |
 | 決定 | 選擇策略+決定策略 |
 | 促銷活動 | 行銷活動&#x200B;*（僅限基本內容）* |
-| 刊登 | 表面+頻道設定 |
+| 放置環境 | 表面+頻道設定 |
 | 標記 | 統一標籤 |
 | 產品建議屬性 | 個人化優惠方案專案結構描述中的`migratedofferattributes`欄位 |
 | 內容屬性 | 結構描述中的`migratedcontextattributes`欄位已附加至移轉期間提供的資料集 |

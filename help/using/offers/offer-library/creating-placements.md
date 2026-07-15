@@ -40,7 +40,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
->title="刊登"
+>title="放置環境"
 >abstract="位置是用於展示產品建議的容器。 它有助於確保正確的產品建議內容顯示在訊息中的正確位置。 產品建議放置環境是從「元件」選單建立的。"
 
 >[!CONTEXTUALHELP]
