@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
+source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: 1877
-ht-degree: 37%
+source-wordcount: 1972
+ht-degree: 35%
 
 ---
 
@@ -69,13 +69,19 @@ UNUSED IDs in BJ
 >title="直接郵件活動"
 >abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。 此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。 您可以將管道活動與協調行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
-[!DNL Adobe Journey Optimizer]可讓您針對行銷和異動訊息，跨管道（電子郵件、簡訊、推播通知和直接郵件）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_custom"
+>title="自訂管道活動"
+>abstract="自訂頻道活動可讓您透過協力廠商系統或自訂整合在協調的行銷活動中傳送訊息。 它可讓您將受眾資料匯出至外部系統，以觸發外部傳遞程式，例如合作夥伴平台或專屬傳訊工具。 您可以將自訂管道活動與行銷活動畫布中的其他管道活動結合，建立跨管道行銷活動，以吸引原生和自訂接觸點的客戶。"
+
+[!DNL Adobe Journey Optimizer]可讓您針對行銷和異動訊息，跨管道（電子郵件、簡訊、推播通知、直接郵件和自訂）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
 例如:
 
 * 透過電子郵件、簡訊、推播和直接郵件傳送歡迎系列。
 * 請在購買後提供後續電子郵件。
 * 透過簡訊，傳送個人化生日問候。
+* 客戶放棄購物車時，透過自訂頻道觸發訊息。
 
 使用管道活動，您即可建立全面性和個人化的行銷活動，從多個接觸點和客戶互動並提升轉換率。
 
@@ -180,7 +186,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>建立簡訊</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td>
 </tr></table>
 
 ### 新增個人化 {#add-personalization}
@@ -238,6 +244,22 @@ UNUSED IDs in BJ
 >[!IMPORTANT]
 >
 >設定傳送率時，行銷活動對象可執行的時間範圍上限為12小時。 如果傳送率設為不允許在12小時時間範圍內傳送訊息給所有對象的值，則剩餘的設定檔會從行銷活動中排除。 您可以在行銷活動報告中檢視這些排除的設定檔計數。
+
+<!--
+## Example: cross-channel campaign with a custom channel {#example-custom}
+
+The following example shows an Orchestrated campaign that combines native and custom channels to re-engage lapsed customers.
+
+The campaign targets customers who have not made a purchase in the last 90 days:
+
+1. A **Build audience** activity filters profiles with no purchase in the last 90 days.
+1. A **Split** activity divides the audience into two groups:
+   * **Group A** — customers with a known email address receive a re-engagement email with a personalized discount offer.
+   * **Group B** — customers without an email address, or those who did not open the email after 3 days, are routed to a **Custom channel** activity that triggers a message through a third-party messaging platform (for example, a WhatsApp Business provider or an in-house notification system).
+1. Both branches converge on a **Wait** activity, then a follow-up **SMS** is sent to all profiles who still have not converted.
+
+This pattern lets you extend your campaign reach beyond native channels and engage customers on the platforms they are most active on, without requiring a separate campaign workflow.
+-->
 
 ## 後續步驟 {#next}
 

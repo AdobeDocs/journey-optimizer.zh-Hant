@@ -19,10 +19,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 163
-ht-degree: 2%
+source-wordcount: 522
+ht-degree: 1%
 
 ---
 
@@ -52,12 +52,14 @@ ht-degree: 2%
 <li>
       <strong>處方識別碼：</strong> pres1<br>
       <strong>名稱：</strong>藥物A<br>
-      <strong>狀態：</strong>就緒</li>
+      <strong>狀態：</strong>就緒
+   </li>
 
 <li>
       <strong>處方識別碼：</strong> pres2<br>
       <strong>名稱：</strong>藥物B<br>
-      <strong>狀態：</strong>撤銷</li>
+      <strong>狀態：</strong>撤銷
+   </li>
 
 </ul>
 
@@ -68,7 +70,8 @@ ht-degree: 2%
 <li>
       <strong>處方識別碼：</strong> pres4<br>
       <strong>名稱：</strong>藥物D<br>
-      <strong>狀態：</strong>就緒</li>
+      <strong>狀態：</strong>就緒
+   </li>
 
 </ul>
 
@@ -141,3 +144,53 @@ ht-degree: 2%
 ```
 
 >[!ENDTABS]
+
+## 快速參考 {#quick-reference}
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+>[!BEGINTABS]
+
+>[!TAB 概觀]
+
+**TL；DR**
+
+此頁面示範完整的個人化使用案例：使用條件式篩選來反複處理巢狀設定檔陣列（包含處方的健康情況計畫），以在電子郵件中僅顯示處於「就緒」或「召回」狀態的處方。
+
+**個意圖**
+
+* 檢視個人化健康計畫電子郵件的轉譯輸出範例
+* 使用巢狀`{{#each}}`和`{%#if%}`區塊進行條件陣列反複專案，瞭解HTML範本
+* 瞭解必要的設定檔資料結構： `plans`陣列，其中每個計畫都包含具有`state`欄位的`prescriptions`陣列
+
+>[!TAB 字彙]
+
+* **巢狀反複專案**：在其他`{{#each}}`回圈內使用`{{#each}}`回圈，以周遊設定檔資料中的多階層陣列結構（例如，計畫→處方）。
+* **處方狀態**：每個處方物件上的欄位，指出其在此使用案例中的生命週期狀態 — 使用的值為「就緒」、「召回」和「已提取」。 *（使用案例特定）*
+* **`{%#if%}`/`{%/if%}`**：訊息範本中使用的條件區塊語法，在反複專案期間篩選陣列專案（不同於雙捲曲`{{#if}}` Handlebars語法）。
+
+>[!TAB 術語]
+
+* **正式名稱：**&#x200B;巢狀陣列反複專案 — 變體：巢狀回圈，每個巢狀多層反複專案
+* **請勿混淆：** `{{#each}}` / `{{/each}}` （Handlebars反複專案語法，雙大括弧）≠ `{%#if%}` / `{%/if%}` （條件語法，% — 大括弧） — 這兩個專案在此範本中同時使用
+* **請勿混淆：** 「已備妥」（處方可供提取）≠「回收」（處方已回收）≠「提取」（處方已收集 — 條件篩選條件會從輸出中排除）
+
+>[!TAB 常見問題集]
+
+**問：電子郵件輸出包含哪些處方狀態？**
+
+只會顯示狀態為「就緒」或「召回」的處方。 `{%#if prescription.state = "ready" or prescription.state = "recall"%}`條件篩選條件會排除狀態為「已擷取」的處方。
+
+**問：此使用案例需要什麼設定檔資料結構？**
+
+具有`plans`陣列的設定檔，其中每個計畫物件都包含`prescriptions`陣列。 每個處方物件都必須有`prescription_id`、`name`和`state`欄位。
+
+**問：範本中如何反複使用計畫和處方？**
+
+外部`{{#each profile.plans as |plan|}}`回圈會在每個健康狀態計畫上反複執行。 在其中，`{{#each plan.prescriptions as |prescription|}}`反複執行每個計畫的處方，並且條件式區塊篩選器僅篩選為「就緒」或「召回」狀態。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 4b68d597 -->

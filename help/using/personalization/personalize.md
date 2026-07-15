@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 710
-ht-degree: 22%
+source-wordcount: 1403
+ht-degree: 11%
 
 ---
 
@@ -145,3 +145,70 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 >[!VIDEO](https://video.tv.adobe.com/v/3475963?captions=chi_hant&quality=12)
 
 在[Personalization教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}中探索更多有關個人化功能和最佳實務的教學課程影片
+
+## 快速參考 {#quick-reference}
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+>[!BEGINTABS]
+
+>[!TAB 概觀]
+
+**TL；DR**
+
+本頁介紹Journey Optimizer中的個人化 — Handlebars式個人化編輯器的運作方式、其使用的資料、互動遊樂場、適用於運算式的AI Assistant，以及在電子郵件Designer和推播編輯器中編輯內嵌屬性。
+
+**個意圖**
+
+* 瞭解Journey Optimizer個人化的運作方式（使用雙大括弧的Handlebars語法）
+* 識別可用於個人化的資料來源（XDM個別設定檔結構、計算屬性、Beta版中的AEP資料集查詢）
+* 使用不具即時沙箱的互動式遊樂場進行個人化實驗
+* 使用AI助理從自然語言產生、說明或修正個人化運算式
+* 透過輸入`{{`在電子郵件Designer或推播編輯器中插入內嵌設定檔屬性
+
+>[!TAB 字彙]
+
+* **Personalization編輯器**：用於建置、自訂及驗證個人化運算式的完整功能工具；可在任何支援個人化的Journey Optimizer欄位中使用。 *（產品特定）*
+* **XDM Individual Profile結構描述**：唯一可用來個人化Journey Optimizer內容的結構描述；定義所有可用於個人化的設定檔屬性。 *（產品特定）*
+* **計算屬性**：將個別行為事件彙總為設定檔層級值的預先計算設定檔屬性；可與標準XDM設定檔欄位一起作為個人化資料。 *（產品特定）*
+* **Personalization Playground**： Experience League上的互動式模擬環境，可使用範例資料來撰寫及測試個人化程式碼，不需要即時資料集或沙箱。 *（產品特定）*
+* **內嵌編輯**：可在電子郵件Designer或推播頻道編輯器的任何文字欄位中輸入`{{`，以觸發自動完成下拉式清單並插入設定檔屬性，而不需開啟完整個人化編輯器。 *（產品特定）*
+* **AI Assistant （個人化運算式）**：個人化編輯器和電子郵件Designer中的AI工具，可從自然語言產生個人化運算式、說明現有程式碼，以及修正選取範圍中的問題。 *（產品特定）*
+
+>[!TAB 術語]
+
+* **正式名稱：**&#x200B;個人化 — 變體：內容個人化、訊息個人化、運算式個人化
+* **正式名稱：**&#x200B;個人化編輯器 — 變體：個人化功能
+* **請勿混淆：** Personalization編輯器（用來建置訊息和選件中的內容運算式 — 同時支援Handlebars和PQL）≠進階運算式編輯器（用於歷程中的資料來源和事件資訊、自訂等待活動及動作引數對應條件 — 提供內建函式及運運算元，不同於個人化編輯器中的函式及運運算元）
+* **請勿混淆：**&#x200B;內嵌編輯（在電子郵件Designer中輸入`{{`，或在未開啟完整編輯器的情況下以推播方式插入快速屬性）≠個人化編輯器（適用於複雜運算式、協助程式函式、條件式規則和片段的完整工具）
+* **請勿混淆：** XDM Individual Profile結構描述（Journey Optimizer中唯一可用於個人化的結構描述）≠其他AEP結構描述（除非透過資料集查詢公開，否則無法用於個人化）
+
+>[!TAB 護欄與限制]
+
+* XDM Individual Profile結構描述是唯一可用於個人化Journey Optimizer內容的結構描述。
+* 查詢個人化的AEP資料集時，必須先透過API呼叫啟用資料集，才能加以使用；此功能目前仍在測試階段。
+* 內嵌編輯（在電子郵件Designer或推播編輯器中輸入`{{`）僅支援設定檔屬性。
+
+>[!TAB 常見問題集]
+
+**問：哪些資料可以在Journey Optimizer中用於個人化？**
+
+來自XDM個別設定檔結構的設定檔資料、運算屬性（在設定檔層級摘要的行為事件）和AEP記錄資料集查詢（目前為測試版 — 需要透過API啟用資料集）。
+
+**問：什麼是個人化遊樂場？**
+
+Experience League上的互動式模擬環境，您可以使用範例資料來撰寫及測試個人化程式碼，而不需要即時Journey Optimizer沙箱或真實資料集。
+
+**問：內嵌屬性編輯如何運作？**
+
+在電子郵件Designer或推播通道編輯器的任何文字欄位中輸入`{{`，以開啟游標位置處的自動完成下拉式清單。 開始輸入以篩選設定檔屬性，然後選取一個以插入作為個人化權杖。 只有設定檔屬性可內嵌。
+
+**問：AI助理可以在個人化編輯器中做什麼？**
+
+它可以從自然語言描述產生新的個人化運算式、說明現有程式碼的作用，並修正所選運算式中的問題 — 然後在其符合您的意圖時套用輸出。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 248b894f -->

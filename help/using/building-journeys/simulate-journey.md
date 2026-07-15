@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >預先填寫的執行電子郵件和電話欄位來自您Adobe IMS使用者設定檔上的電子郵件地址和電話號碼。
+   >預填的執行電子郵件和電話欄位來自先前在歷程模擬中使用並在瀏覽器中快取的值。
 
    ![快速模擬更新值步驟包含等待時間覆寫和校訂電子郵件和電話欄位](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >電子郵件和電話欄位已預先填寫您的Adobe IMS使用者設定檔。
+   >電子郵件和電話欄位會從先前在歷程模擬中使用的值預先填入，並會快取到您的瀏覽器中。
 
    ![使用執行電子郵件和電話欄位以及[產生]按鈕來產生模擬使用者對話方塊](assets/simulate-generate.png)
 
