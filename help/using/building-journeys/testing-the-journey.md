@@ -11,27 +11,16 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 6%
+source-wordcount: 3541
+ht-degree: 5%
 
 ---
 
@@ -82,12 +71,13 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 * **重新啟用彈性** — 您可以視需要多次啟用和停用測試模式。
 * **自動停用** — 在測試模式中停用&#x200B;**一週**&#x200B;的歷程會自動退出測試模式並返回「草稿」狀態。 不會遺失歷程內容；只會結束測試模式工作階段。
 * **編輯與發佈** — 測試模式作用中時，您無法修改歷程。 不過，您可以直接發佈歷程，之前不需要停用測試模式。
+* **訊息傳送** — 在測試模式中，訊息會使用與生產相同的傳送管道傳送到測試設定檔的實際收件匣。 這與[歷程練習](journey-dry-run.md)不同，後者模擬歷程執行，但不傳遞訊息或觸發真正的頻道動作。 兩種方法都不會複製即時傳送的每個層面；請使用中繼環境進行完整的端對端驗證。
 
 ### 執行
 
-* **分割行為** — 當歷程達到分割時，一律會選取頂端分支。 如果您想要測試不同的路徑，請重新排序分支。
+* **分割行為** — 當歷程達到分割時，一律會在測試模式中選取頂端分支。 這不會反映即時執行期間統計上選取的路徑。 如果您想要測試不同的路徑，請重新排序分支。
 * **事件計時** — 如果歷程包含多個事件，請依序觸發每個事件。 太早（第一個等待節點完成之前）或太晚（在設定的逾時之後）傳送事件將會捨棄事件。 然後，設定檔將傳送至逾時路徑。 一律透過在定義的視窗中傳送裝載，確認對事件裝載欄位的任何參考保持有效。
-* **作用中的日期視窗** — 確定歷程設定的[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，觸發的測試事件會以無訊息方式捨棄。 在此頁面[&#128279;](troubleshooting-execution.md#troubleshooting-test-transitions)上進一步了解疑難排解此問題。
+* **作用中的日期視窗** — 確定歷程設定的[開始和結束日期/時間](journey-properties.md#dates)視窗包括起始測試模式時的目前時間。 否則，會以無訊息方式捨棄觸發的測試事件，並包含記錄訊息`DISPATCHER DISCARD #16 — unqualified on journey version enablements`。 若要在測試期間解決此問題，請將歷程開始日期暫時設定為目前時間之前的時間，然後在發佈之前還原。 在此頁面](troubleshooting-execution.md#troubleshooting-test-transitions)上進一步了解疑難排解此問題[。
 * **回應事件** — 對於逾時的回應事件，最小和預設等待時間為40秒。
 * **測試資料集** — 在測試模式中觸發的事件會儲存在專用的資料集中，標示如下： `JOtestmode - <schema of your event>`
 * **共用基礎架構** — 測試模式會在與生產相同的基礎架構上執行。 在高流量期間，您可能會注意到電子郵件傳送或事件處理有所延遲。 在這種情況下，請檢查平台流量儀表板，或在非尖峰時段重試您的測試。
@@ -149,6 +139,17 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 >* 您輸入的設定檔識別碼在[!DNL Adobe Experience Platform]中被標籤為測試設定檔。
 >* 歷程設定的開始和結束日期包括目前時間。 在此視窗之外觸發的事件會以無訊息方式捨棄。 [了解更多](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
+## 疑難排解測試模式 {#troubleshoot-test-mode}
+
+在開啟支援票證之前，使用此表格可自我診斷常見的測試模式失敗。
+
+| 症狀 | 可能的原因 | 解決方法 |
+| --- | --- | --- |
+| 事件傳送成功，但設定檔絕不會出現在歷程記錄中 | 設定檔識別碼中的名稱空間不相符 — 名稱空間值與事件結構描述中定義的名稱空間不相符 | 驗證識別碼格式： `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`。 `<NamespaceName>`必須完全符合事件結構描述（區分大小寫）。 請參閱[必要條件](#trigger-events-prerequisites)。 |
+| 事件已接受（200個回應），但歷程不會觸發；記錄顯示`DISPATCHER DISCARD #16 — unqualified on journey version enablements` | 歷程開始日期設定在將來；測試事件會在作用中日期範圍外自動捨棄 | 將歷程開始日期暫時設定為目前時間之前。 請在發佈前還原。 檢視[歷程日期](journey-properties.md#dates)。 |
+| 讀取對象歷程會顯示批次區段評估記錄，但沒有設定檔專案 | 批次區段評估與個別設定檔專案分開記錄；批次記錄不會確認設定檔已進入歷程 | 等候批次處理視窗完成。 如需即時記錄意見回饋，請使用單一事件歷程進行測試。 |
+| 無法啟用測試模式；錯誤`ERR_MODEL_RULES_16` | 事件不包含身分名稱空間，當歷程使用頻道動作時是必要的 | 將[身分名稱空間](../audience/get-started-identity.md)新增至事件設定。 |
+
 ## 觸發您的事件 {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +165,12 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 作為先決條件，您必須知道哪些設定檔在[!DNL Adobe Experience Platform]中被標籤為測試設定檔。 事實上，測試模式僅允許在歷程中這些設定檔。
 
 事件必須包含ID。 預期的ID取決於事件設定。 例如，可以是ECID或電子郵件地址。 需要將此金鑰的值新增到&#x200B;**設定檔識別碼**&#x200B;欄位中。
+
+**設定檔識別碼**&#x200B;值必須與儲存在事件結構描述中的識別完全相符。 事件裝載中用來參照身分的格式為：
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+將`<NamespaceName>`取代為您事件結構描述中定義的名稱空間（例如`Email`或`Phone`）。 名稱空間不相符導致&#x200B;**無訊息下降**：事件被接受並傳回成功回應，但設定檔從未進入歷程，且UI中未出現任何錯誤。 如果設定檔在觸發事件後未出現在測試記錄中，請確認&#x200B;**設定檔識別碼**&#x200B;中的名稱空間與事件結構描述名稱空間完全相符。
 
 如果您的歷程無法啟用測試模式，錯誤為`ERR_MODEL_RULES_16`，請確定使用的事件包含使用通道動作時的[身分名稱空間](../audience/get-started-identity.md)。
 
@@ -237,6 +244,10 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 * _extrendedData_：歷程使用資料來源時，歷程已擷取的資料。
 * _transitionHistory_：個人遵循的步驟清單。 對於事件，會顯示裝載。
 * _actionExecutionErrors_ ：發生錯誤的相關資訊。
+
+>[!NOTE]
+>
+>測試記錄檔只顯示&#x200B;**單一設定檔專案事件**&#x200B;的專案。 如果您要測試讀取對象歷程，批次區段評估記錄與個別設定檔專案記錄會分開。 正在評估的批次區段不會確認個別設定檔已進行到歷程步驟。 如果在觸發讀取對象歷程後未顯示任何設定檔專案，請等待批次處理視窗完成，然後再得出結論。
 
 以下是個人歷程的不同狀態：
 

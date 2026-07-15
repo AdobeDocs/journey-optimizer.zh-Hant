@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 16%
+source-wordcount: 352
+ht-degree: 14%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 16%
 >abstract="使用測試設定檔預覽和測試您的內容。 若您已新增個人化欄位，便能使用測試設定檔資料確認其顯示方式。"
 
 測試設定檔是不符合已定義定位准則的其他收件者。 [瞭解如何建立測試輪廓](../audience/creating-test-profiles.md)
+
+在選取測試設定檔之前，請確定您計畫使用的身分名稱空間符合測試設定檔在Adobe Experience Platform中儲存的名稱空間（例如，**電子郵件**&#x200B;或&#x200B;**電話**）。 不相符會妨礙在搜尋欄位中正確解析測試設定檔。
 
 使用測試設定檔測試內容之前，您必須先選取設定檔。 要執行此操作，請依照下列步驟執行：
 
