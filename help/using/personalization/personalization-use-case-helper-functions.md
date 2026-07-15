@@ -10,23 +10,16 @@ level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -72,7 +65,7 @@ ht-degree: 2%
 1. 建立其結構描述包含`productListItems`陣列的事件。
 1. 將此陣列中的所有欄位定義為此事件的裝載欄位。
 
-   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=zh-Hant){target="_blank"}中進一步瞭解產品清單專案資料型別。
+   在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}中進一步瞭解產品清單專案資料型別。
 
 1. 建立從此事件開始的歷程。
 1. 將&#x200B;**電子郵件**&#x200B;活動新增至歷程。
@@ -125,7 +118,7 @@ ht-degree: 2%
 
       ![運算式編輯器顯示具有設定檔名字語彙基元的大寫](assets/personalization-uc-helpers-5.png)
 
-      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=zh-Hant){target="_blank"}中進一步瞭解人員名稱資料型別。
+      在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}中進一步瞭解人員名稱資料型別。
 
 1. 按一下&#x200B;**[!UICONTROL 驗證]**，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -255,7 +248,7 @@ ht-degree: 2%
       {%/if%}
       ```
 
-      具有if協助程式範本![&#128279;](assets/personalization-uc-helpers-12.png)的運算式編輯器
+      具有if協助程式範本](assets/personalization-uc-helpers-12.png)的![運算式編輯器
 
 1. 從運算式移除此條件：
 
@@ -367,3 +360,65 @@ ht-degree: 2%
 瞭解如何使用協助程式函式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## 快速參考 {#quick-reference}
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+>[!BEGINTABS]
+
+>[!TAB 概觀]
+
+**TL；DR**
+
+此頁面會使用三個協助程式功能（`upperCase`、`each`和`if`），逐步說明購物車放棄電子郵件使用案例，以大寫顯示客戶的名字、列出購物車專案，以及有條件地插入產品專屬送貨通知。
+
+**個意圖**
+
+* 建立其結構描述包含`productListItems`陣列的歷程事件
+* 使用`{%= upperCase(profile.person.name.firstName) %}`以大寫插入客戶的名字
+* 使用`{{#each}}`反複運算`context.journey.events.event_ID.productListItems`以列出購物車專案
+* 使用`{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %}&#39;有條件地顯示產品專屬備註
+* 使用具有事件有效負載的測試設定檔，在測試模式下測試歷程，然後發佈
+
+>[!TAB 字彙]
+
+* **`upperCase`**：將字串轉換為大寫的PQL字串函式；以`{%= upperCase(string) %}`呼叫。 *（產品特定）*
+* **`each`協助程式**： Handlebars區塊協助程式(`{{#each array as |alias|}} ... {{/each}}`)在陣列（例如`productListItems`）上反複運算。 *（產品特定）*
+* **`if`協助程式**：條件式區塊協助程式(`{%#if condition%} ... {%else%} ... {%/if%}`)，只會在指定的條件為true時呈現內容。
+* **`productListItems`**：代表購物車內容的標準XDM陣列，其欄位包括`name`、`quantity`和`priceTotal`。 *（產品特定）*
+* **測試模式**：歷程功能，可傳送測試訊息給測試設定檔位址，以在發佈之前驗證歷程和訊息行為。 *（產品特定）*
+
+>[!TAB 術語]
+
+* **正式名稱：**&#x200B;購物車放棄電子郵件 — 變體：購物車放棄使用案例
+* **請勿混淆：** `context.journey.events.event_ID.productListItems` （事件來源陣列，透過內容屬性存取）≠`profile.*`屬性（設定檔來源，永遠可用）
+
+>[!TAB 護欄與限制]
+
+* 內容屬性（包括歷程事件資料）只有在訊息已放置在包含相關事件的歷程中後，才可在個人化編輯器中使用。
+* 測試模式僅適用於測試設定檔。
+
+>[!TAB 常見問題集]
+
+**問：在此使用案例中使用了哪些協助程式函式？**
+
+三： `upperCase` （以大寫呈現名字）、`each` （在購物車專案陣列上進行反複運算）及`if` （有條件地顯示產品專屬送貨備註）。
+
+**問：購物車專案資料來自個人化運算式中的何處？**
+
+從歷程事件的`productListItems`陣列，透過`context.journey.events.event_ID.productListItems`的關聯式屬性存取。
+
+**問：在將訊息放入歷程之前，可以使用內容屬性嗎？**
+
+沒有。 只有在將訊息放在包含相關事件的歷程中後，個人化編輯器中才能使用內容屬性。
+
+**問：如何測試包含購物車資料的電子郵件？**
+
+開啟歷程中的&#x200B;**測試**&#x200B;切換，按一下&#x200B;**觸發事件**，然後在事件設定視窗中輸入輸入值，然後按一下&#x200B;**傳送**。 電子郵件會傳送至測試設定檔的地址。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
