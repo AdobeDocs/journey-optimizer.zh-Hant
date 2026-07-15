@@ -8,14 +8,12 @@ level: Experienced
 hide: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 5%
+source-wordcount: 2044
+ht-degree: 3%
 
 ---
 
@@ -219,7 +217,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 
@@ -236,3 +234,81 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 目前不會。 未來將支援此功能。
 
 +++
+
+## 快速參考 {#quick-reference}
+
+本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
+
+如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
+
+>[!BEGINTABS]
+
+>[!TAB 概觀]
+
+**TL；DR**
+
+此頁面說明如何設定外部端點的動作，以及在個人化編輯器中使用`externalDataLookup`協助程式在執行階段動態擷取該資料，以個人化傳入通道內容。
+
+**個意圖**
+
+* 設定定義外部端點的動作（URL、HTTP方法、引數、要求/回應結構）
+* 在輸入動作的個人化運算式中插入`externalDataLookup`協助程式
+* 在呼叫時將變數標頭、查詢、裝載或路徑引數傳遞至外部端點
+* 使用個人化運算式和協助程式函式，透過結果別名存取擷取的資料
+* 以遞補內容模式妥善處理逾時和錯誤
+* 使用Adobe Experience Platform Assurance對外部查詢問題進行偵錯
+
+>[!TAB 字彙]
+
+* **externalDataLookup**：個人化編輯器中的協助程式功能，可在要求時動態擷取已設定外部端點的資料，以用於傳入管道內容個人化。 *（產品特定）*
+* **動作**： Journey Optimizer （管理>設定）中的設定物件，定義外部端點 — URL、HTTP方法、標頭/查詢引數、POST內文結構描述和回應結構描述。 使用`externalDataLookup`之前必須使用。 *（產品特定）*
+* **結果變數**：在`externalDataLookup`呼叫中指派的任意別名；用來參考後續個人化運算式中擷取之回應中的所有欄位。
+* **傳入頻道**：當使用者開啟介面時隨選傳送內容的頻道 — 程式碼型體驗、網頁、應用程式內訊息。 *（產品特定）*
+* **AEP Edge Network**：在執行階段接收個人化要求並觸發外部資料查詢呼叫的基礎結構。
+
+>[!TAB 術語]
+
+* **正式名稱：** externalDataLookup — 變體：外部資料查詢、外部資料查詢協助程式、外部資料查詢協助程式
+* **同義字：** &quot;externalDataLookup&quot; = &quot;external data lookup helper&quot;
+* **請勿混淆：** `actionId` （已設定動作的ID，識別外部端點） ≠ `result` （擷取的回應資料的別名）≠引數名稱（呼叫時傳遞給端點的變數值）
+* **請勿混淆：**&#x200B;在傳入個人化動作（在Edge Network要求時間動態擷取資料）≠在歷程活動中使用自訂動作（擷取歷程流程中的內容）中使用`externalDataLookup`
+
+>[!TAB 護欄與限制]
+
+* 功能僅於「有限可用性」中提供 — 僅適用於一組組織。
+* 外部端點呼叫的預設逾時： 300毫秒（預設；請聯絡您的Adobe代表以提高特定端點的此逾時）。
+* 個人化編輯器不支援瀏覽回應結構；Journey Optimizer不會驗證運算式中所使用回應對JSON屬性的引用。
+* 承載變數引數支援的資料型別： `String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal`。
+* 目前不支援`externalDataLookup`協助程式引數中的變數替代。
+* 目前不支援動態URL路徑。
+* `externalDataLookup`目前不支援動作設定中的驗證選項；請使用API金鑰授權或純文字授權的標頭欄位作為因應措施。
+* 動作設定的變更不會反映在使用該動作的即時行銷活動或歷程中；複製或修改任何即時行銷活動/歷程以套用變更。
+* 支援多重傳遞轉譯。
+* Journey Optimizer目前不會快取外部端點回應。
+* 外部端點至少必須能夠處理指定介面傳送至AEP Edge Network之入站流量的同時負載和輸送量。
+
+>[!TAB 常見問題集]
+
+**問：如果外部端點逾時或傳回錯誤，會發生什麼情況？**
+
+結果變數將是空的。 結果中的屬性參考將顯示為空白，而陣列反複專案將不會傳回任何專案。 使用遞補內容模式（例如，單一屬性使用`?: "none found"`，整個內容區塊使用`{%#if result%}…{%else%}…{%/if%}`）以妥善處理這些案例。
+
+**問：如何從要求傳遞內容屬性做為引數給外部資料查詢？**
+
+使用個人化編輯器中的內容屬性>資料串流>事件功能表來瀏覽體驗事件結構描述，並將相關屬性插入為引數值，例如： `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`。
+
+**問：Journey Optimizer是否快取外部端點回應？**
+
+目前不會。 未來將支援快取。
+
+**問：我如何偵錯externalDataLookup的問題？**
+
+使用Adobe Experience Platform Assurance。 開始Assurance工作階段、從您的網頁或行動實作啟動Journey Optimizer呼叫，並使用Edge Delivery檢視來檢查customActions區塊，以取得逾時或錯誤詳細資訊。
+
+**問：我是否可以在包含externalDataLookup的Action設定中使用驗證？**
+
+目前不支援動作設定中的驗證選項。 針對API金鑰型或其他純文字授權，請在動作設定中將認證指定為標頭欄位。
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->
