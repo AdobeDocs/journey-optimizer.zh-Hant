@@ -10,32 +10,16 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 9%
+source-wordcount: 2330
+ht-degree: 8%
 
 ---
 
@@ -87,12 +71,14 @@ Journey Dirun提供：
 
   ![在試執行歷程中灰色的動作活動](assets/dry-run-greyed-activities.png){width="80%"}
 
-* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式[&#128279;](#journey-dry-run-start)時，您可以變更此行為。
+* **資料來源** （包括外部資料來源）和&#x200B;**等待**&#x200B;活動預設為於試執行期間停用。 不過，在啟動試執行模式](#journey-dry-run-start)時，您可以變更此行為[。
 
 * **回應**&#x200B;節點未執行：進入它的所有設定檔都將成功結束。 但是，下列優先順序規則適用：
 
    * 如果&#x200B;**回應**&#x200B;節點同時搭配一或多個&#x200B;**單一事件**&#x200B;節點使用，則設定檔將一律透過回應事件。
    * 如果&#x200B;**反應**&#x200B;節點同時與一或多個&#x200B;**反應事件**&#x200B;節點一起使用，則設定檔將一律通過畫布中的第一個節點（頂端的節點）。
+
+* **已排程執行時間（每日、每週或每月）的讀取對象**&#x200B;活動未依循歷程中設定的時間 — 排程已錨定至啟動試執行的那一刻。 例如，如果您的歷程設定為每日上午10點執行，但您於上午8點啟動模擬執行，則所有後續排程讀取都會在模擬執行期間於上午8點執行。
 
 >[!CAUTION]
 >
@@ -144,7 +130,8 @@ Journey Dirun提供：
 也可以手動停止練習歷程。 若要停用「試執行」模式，請執行下列步驟：
 
 1. 開啟您要停止的練習歷程。
-1. 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;按鈕以結束測試。確認畫面中提供過去24小時與所有時間報表的連結。
+1. 選取&#x200B;**[!UICONTROL 關閉]**按鈕以結束測試。
+確認畫面中提供過去24小時與所有時間報表的連結。
 
    ![停止歷程試執行作業](assets/dry-run-stop.png){width="50%"}
 
@@ -157,7 +144,8 @@ Journey Dirun提供：
 * 處於試執行模式的歷程計入即時歷程配額
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+* 在練習中未啟用&#x200B;**跳轉**動作。
+當來源歷程觸發到目的地歷程的**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 
@@ -207,11 +195,15 @@ Journey Dirun提供：
 
 試執行產生標示有`inDryRun`和`dryRunID`的&#x200B;**stepEvents**。 使用[!DNL Adobe Experience Platform]查詢服務分析歷程報告量度時，排除`inDryRun`為`true`的步驟事件（僅包括`inDryRun`為`null`或`false`的事件）。
 
+**讀取對象活動的排程執行時間在試執行中是否會變更？**
+
+有。 對於使用具有排程時間（每日、每週或每月）的&#x200B;**讀取對象**&#x200B;活動的歷程，練習會將排程錨定到練習啟用的時間，而不是歷程中設定的時間。 例如，如果歷程設定在早上10點執行，但您在上午8點啟動練習，則練習期間的所有每日讀取都會在早上8點執行。
+
 ## 作法影片 {#dry-run-video}
 
 透過此影片瞭解如何練習您的歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464693/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ AI知識參考
 
@@ -243,6 +235,7 @@ Journey Dirun提供：
 * 在練習期間不執行反應節點；設定檔成功退出，具有平行單一分支和反應分支的優先順序規則
 * 報告資料僅在練習作用中時才能使用；一旦停止，資料將無法再存取
 * 練習歷程不會影響商業規則
+* 對於使用具有排程時間（每日、每週或每月）的&#x200B;**讀取對象**&#x200B;活動的歷程，練習未遵循設定的歷程排程 — 排程錨定到練習啟動的時刻（例如將歷程設定為10 AM、練習於上午8 AM啟動→所有讀取期間於上午8 AM執行）
 
 **術語：**
 * 正式名稱：歷程練習 — 首字母縮寫：none — 變體：練習模式、練習出版模式
@@ -255,5 +248,6 @@ Journey Dirun提供：
 * **問：如何從歷程分析查詢中排除試執行資料？**  — 篩選`inDryRun`為`true`的步驟事件；僅包含`inDryRun`為`null`或`false`的事件。
 * **問：在試執行期間，設定檔是否計算於任何限制之下？**  — 是；設定檔會計入可參與設定檔，而試執行歷程會計入即時歷程配額。
 * **問：我可以在試執行期間啟用「等待」活動與外部資料來源呼叫嗎？**  — 兩者預設為停用，但您可以選擇在啟動試執行時啟用或停用它們。
+* **問：試執行是否會遵守在讀取對象歷程中設定的排程執行時間？**  — 否。 練習將排程錨定至啟動時間，而非設定的歷程時間。 如果歷程設定在早上10點執行，但練習在早上8點啟動，則所有排程的讀取都會在早上8點執行。
 
 +++
