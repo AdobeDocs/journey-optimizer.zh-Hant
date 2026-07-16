@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 11%
 
 ---
 
@@ -166,6 +166,10 @@ ht-degree: 14%
 
    * **[!UICONTROL 可以完成的次數]**：啟用重複時，請指定成員可以完成挑戰的次數。
 
+* **[!UICONTROL 完成需求]** *（僅限標準挑戰）*：
+
+   * **[!UICONTROL 在單一交易內完成]**：啟用時，客戶必須完成單一交易內的所有工作。 停用時，可以跨不同的交易完成工作。
+
 ### 自訂中繼資料 {#custom-metadata}
 
 在&#x200B;**[!UICONTROL 自訂中繼資料]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 新增索引鍵/值組]**&#x200B;以新增自訂中繼資料。 使用中繼資料來追蹤或與外部系統整合。
@@ -278,28 +282,31 @@ ht-degree: 14%
 
    +++
 
-在設定包含任務和獎勵的挑戰結構後，設計內容卡以向客戶顯示挑戰。
+在設定包含任務和獎勵的挑戰結構後，您可以選擇設定如何向客戶呈現挑戰。 如果您不需要挑戰內容，請略過此步驟，直接繼續進行[設定訊息](#configure-messaging)。
 
-## 設定內容卡片 {#configure-content-cards}
+## 設定挑戰內容（選填） {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="內容"
->abstract="設定內容卡片，呈現您在客戶裝置上的挑戰，並顯示挑戰資訊、進度和獎勵。 輸入卡片名稱，選取管道設定，讓傳遞能使用正確的技術設定 (例如標頭、子網域或行動應用程式)，然後選取「編輯內容」，設計卡片體驗並將其個人化。"
+>abstract="設定如何在忠誠會員存取挑戰並追蹤其進度的位置呈現您的挑戰。 使用「新增」動作，選擇「內容」卡片以顯示卡片式體驗，或選擇程式碼式體驗，透過您自己的自訂實施來傳送內容。"
 
-內容卡以視覺化方式呈現您在客戶裝置上的挑戰，顯示挑戰資訊、進度和獎勵。 [進一步瞭解內容卡](../content-card/create-content-card.md)。
+**[!UICONTROL Content]**&#x200B;標籤控制如何在忠誠會員存取挑戰並追蹤其進度的位置呈現挑戰。
 
-若要設定挑戰的內容卡：
+設定挑戰內容：
 
-1. 導覽至&#x200B;**[!UICONTROL Content]**&#x200B;標籤，然後輸入內容卡的&#x200B;**[!UICONTROL 名稱]**。
+1. 瀏覽至&#x200B;**[!UICONTROL 內容]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增動作]**。
 
-1. 選取&#x200B;**[!UICONTROL 通道設定]**。 頻道設定包含所有傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。[進一步瞭解頻道設定](../configuration/channel-surfaces.md)。
+1. 選擇動作型別：
 
-1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以設計您的內容卡。 [瞭解如何設計和個人化內容卡](../content-card/design-content-card.md)。
+   * **[!UICONTROL 內容卡]**：在客戶裝置上以卡片式體驗來顯示挑戰。 選取&#x200B;**[!UICONTROL 頻道設定]**，然後按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以設計和個人化卡片。 [進一步瞭解內容卡](../content-card/create-content-card.md)。
+   * **[!UICONTROL 程式碼型體驗]**：使用Journey Optimizer的程式碼型通道，透過您自己的自訂實作提供挑戰內容。 選取&#x200B;**[!UICONTROL 頻道設定]**&#x200B;並按一下&#x200B;**[!UICONTROL 編輯內容]**&#x200B;以定義內容。 [進一步瞭解程式碼型體驗](../code-based/create-code-based.md)。
 
    ![](assets/challenge-create-content.png)
 
-設定內容卡後，設定訊息以在挑戰生命週期中吸引客戶。
+   您可以新增多個動作來代表不同表面的挑戰。
+
+設定內容後，設定傳送訊息，以在整個挑戰生命週期中吸引客戶。
 
 ### 設定傳送訊息 {#configure-messaging}
 
