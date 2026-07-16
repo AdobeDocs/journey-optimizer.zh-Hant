@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ ht-degree: 20%
 >title="全域設定"
 >abstract="全域設定定義了忠誠度挑戰的組織層級設定，包括用於識別事件和挑戰中成員的身分識別命名空間。"
 
-開啟&#x200B;**[!UICONTROL 全域設定]**&#x200B;標籤，並在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;下拉式清單中選取Adobe Experience Platform [身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)以利忠誠度挑戰。 此名稱空間必須符合在您的資料中識別成員設定檔的方式。
+開啟&#x200B;**[!UICONTROL 全域設定]**&#x200B;標籤，設定忠誠度挑戰的全域設定。
 
 ![](assets/admin-global-settings.png)
 
-➡️ [瞭解如何使用身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* 在&#x200B;**[!UICONTROL 組織組態]**&#x200B;區段中，針對忠誠度挑戰選取Adobe Experience Platform [身分名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces)。 此名稱空間必須符合在您的資料中識別成員設定檔的方式。
+
+  ➡️ [瞭解如何使用身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* 使用&#x200B;**[!UICONTROL 報表]**&#x200B;區段來設定貴組織忠誠度分析儀表板的優先順序量度。 此設定會決定摘要中強調的深入分析，讓您聚焦於對業務而言最重要的量度。
+
+  選取下列KPI選項之一：
+
+   * **[!UICONTROL 收入]** — 排定與貨幣交易和銷售績效相關的深入分析的優先順序
+   * **[!UICONTROL 參與]** — 排定與成員活動和參與率相關的深入分析的優先順序
+   * **[!UICONTROL 贖回]** — 優先處理與獎勵贖回率與活動相關的深入分析
+   * **[!UICONTROL 轉換]** — 排定與轉換量度和目標完成相關的深入分析的優先順序
+
+  選取KPI時，與該量度相關的深入分析會獲得評分提升，導致其升至摘要的頂端。 這表示所選KPI最相關的深入分析會最先出現。 未隱藏深入分析：您的完整insight摘要會繼續顯示，以重要性排序，而您選取的KPI會優先於其他量度。 此設定只會影響見解在摘要中的排名，不會修改忠誠度計畫的運作方式或挑戰的評估方式。 您可以隨時變更KPI選取專案，而insight摘要會在下一個重新整理週期中重新排定優先順序，以反映您的新優先順序。
+
+  如需熟客方案見解和績效監視的詳細資訊，請參閱[監視熟客方案挑戰績效](loyalty-reporting.md)。
 
 ## 獎勵提供者 {#reward-providers}
 
@@ -251,11 +266,11 @@ ht-degree: 20%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
    ![](assets/admin-inventory-group.png)
 
@@ -288,11 +303,11 @@ ht-degree: 20%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
 <!-- SCREENSHOT: Exclusion group details -->
 
