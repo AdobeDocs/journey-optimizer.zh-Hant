@@ -6,12 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1180
+source-wordcount: 1188
 ht-degree: 3%
 
 ---
@@ -32,7 +31,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 ## 條件{#if-function}
 
-`if`協助程式用於定義條件區塊。如果運算式評估傳回true，則會轉譯區塊，否則會略過該區塊。
+`if`協助程式用於定義條件區塊。
+如果運算式評估傳回true，則會轉譯區塊，否則會略過該區塊。
 
 **語法**
 
@@ -41,7 +41,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-在`if`協助程式之後，您可以輸入`else`陳述式，以指定要執行的程式碼區塊（如果相同條件為false）。`elseif`陳述式將指定新條件來測試第一個陳述式是否傳回false。
+在`if`協助程式之後，您可以輸入`else`陳述式，以指定要執行的程式碼區塊（如果相同條件為false）。
+`elseif`陳述式將指定新條件來測試第一個陳述式是否傳回false。
 
 
 **格式**
@@ -134,7 +135,9 @@ Some edu specific content
 
 ## 每個{#each}
 
-`each`協助程式是用來反複處理陣列。協助程式的語法為`{{#each ArrayName}}` YourContent `{{/each}}`。我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+`each`協助程式是用來反複處理陣列。
+協助程式的語法為`{{#each ArrayName}}` YourContent `{{/each}}`。
+我們可以在區塊內使用關鍵字**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -307,9 +310,9 @@ Some edu specific content
 
 **限制**
 
-每個動作的機碼值組有2kb的上限。 如果超過2Kb限制，訊息仍會傳送，但任何索引鍵值配對都可能遭截斷。
-
-系統不會為動作中排除的設定檔擷取中繼資料。 當設定檔被排除而無法接收訊息時，資料集中不會為該設定檔建立中繼資料專案。
+* 每個動作最多可傳遞50個機碼值組。
+* 每個動作的中繼資料裝載總計上限為2 KB。 如果超過2 KB限制，仍會傳送訊息，但任何索引鍵/值組都可能被截斷。
+* 系統不會為動作中排除的設定檔擷取中繼資料。 當設定檔被排除而無法接收訊息時，資料集中不會為該設定檔建立中繼資料專案。
 
 **範例**
 
