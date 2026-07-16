@@ -10,12 +10,24 @@ level: Intermediate, Experienced
 keywords: 事件，事件，歷程，定義，開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
 source-wordcount: 2407
@@ -213,7 +225,7 @@ Adobe Journey Optimizer會在組織層級，對所有沙箱針對每個事件型
 
 為避免中斷現有歷程，當您編輯用於&#x200B;**草稿**、**即時**&#x200B;或&#x200B;**已關閉**&#x200B;歷程的事件時，您只能變更名稱、說明或新增裝載欄位。
 
-無法刪除&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已關閉**&#x200B;歷程中使用的任何事件。 要刪除已使用的事件，您必須停止使用該事件的歷程，和/或將其從使用它的草稿歷程中移除。 您可以檢查&#x200B;]**欄位中的**[!UICONTROL &#x200B;已使用。 它會顯示使用該特定事件的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
+無法刪除&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已關閉**&#x200B;歷程中使用的任何事件。 要刪除已使用的事件，您必須停止使用該事件的歷程，和/或將其從使用它的草稿歷程中移除。 您可以檢查&#x200B;**欄位中的**&#x200B;已使用。 它會顯示使用該特定事件的歷程次數。 您可以按一下&#x200B;**[!UICONTROL 檢視歷程]**&#x200B;按鈕以顯示對應歷程的清單。
 
 ## 常見問題 {#faq}
 
@@ -224,10 +236,10 @@ Adobe Journey Optimizer會在組織層級，對所有沙箱針對每個事件型
 否 — 業務事件不能與單一事件或對象資格活動用於同一個歷程。
 
 **我需要為對象資格事件設定任何專案嗎？**
-否 — 未在**管理>事件**&#x200B;中設定對象資格事件。 直接在歷程畫布上選取對象作為第一個步驟。
+否 — 未在&#x200B;**管理>事件**&#x200B;中設定對象資格事件。 直接在歷程畫布上選取對象作為第一個步驟。
 
 **我可以使用批次擷取的資料來觸發歷程嗎？**
-否 — 只有串流事件才能觸發歷程。 若要批次處理資料，請建置對象並改用**讀取對象**&#x200B;活動。
+否 — 只有串流事件才能觸發歷程。 若要批次處理資料，請建置對象並改用&#x200B;**讀取對象**&#x200B;活動。
 
 **我的歷程未觸發 — 我應該檢查什麼？**
 
