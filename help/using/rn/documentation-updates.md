@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* **內容檢查**&#x200B;頁面已更新為新的&#x200B;**關於HTML和CSS大小**&#x200B;區段，說明製作時間預估包含的專案（HTML結構、內嵌CSS、個人化權杖、片段、條件區塊和影像參考）、預估與傳送的大小不同的原因，以及大小警告對作者的意義。 [閱讀更多](../email/content-check.md#size-estimation)
+
+* **建立IP熱身行銷活動**&#x200B;頁面已更新，以釐清目標規則可套用至IP熱身行銷活動，並記錄評估行為：對象成員資格在執行啟動（每日批次細分）時修正，而設定檔屬性在執行階段從最近擷取的批次資料中讀取。 [閱讀更多](../configuration/ip-warmup-campaign.md)
+* 已更新&#x200B;**結束歷程**&#x200B;頁面，以釐清非週期性讀取對象歷程的自動停止時間：排程執行後約&#x200B;**96小時（~4天）**&#x200B;的安全緩衝區，其間歷程可以在轉換成&#x200B;**已停止**&#x200B;的下一個掃描器通過之前維持&#x200B;**即時**&#x200B;狀態。 頁面現在也釐清以波段為基礎的歷程（包括傳送時間最佳化使用案例）會從此自動停止中排除，而是遵循標準91天歷程逾時。 [閱讀更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* 已更正&#x200B;**自訂上傳**&#x200B;和&#x200B;**讀取對象**&#x200B;頁面，以釐清外部/自訂對象的增量讀取行為（包括CSV上傳和同盟對象構成）：這些對象型別目前不支援增量讀取，並且無論增量讀取切換設定為何，都會在每次週期時處理完整對象。 指導現在會交叉連結循環控制項，包括&#x200B;**在循環時強制重新進入**。 [深入瞭解自訂上傳](../audience/custom-upload.md)及[深入瞭解閱讀對象排程](../building-journeys/read-audience.md#schedule)
 
 * **編輯PTR記錄**&#x200B;頁面已新增警告，以通知客戶在將新的轉送DNS記錄新增至其平台時，必須等到移動完成後才能移除舊子網域的轉送DNS記錄，因為這樣做會導致編輯失敗。 [閱讀更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

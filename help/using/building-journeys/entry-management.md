@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 2%
+source-wordcount: 2175
+ht-degree: 1%
 
 ---
 
@@ -115,6 +115,35 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 <!--
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
+
+### 跨歷程版本重新進入 {#reentrance-versions}
+
+設定檔無法在同一歷程中同時作用中多次，包括該歷程的作用中版本。
+
+重新進入設定是在目前的歷程版本上設定，但[!DNL Journey Optimizer]也會檢查設定檔是否已在相同歷程的其他使用中版本中啟用。 如果設定檔仍在執行舊版，則會封鎖新專案，直到該活動執行個體結束或移除設定檔為止。
+
+發佈新歷程版本不會將執行中的設定檔移動到新版本。 已進入先前版本的設定檔會保留在該版本，直到結束歷程為止。 如果他們稍後再次符合資格，則會輸入最新的即時版本。
+
+**範例**
+
+若要瞭解跨版本封鎖的運作方式，請考量下列順序：
+
+1. 歷程版本1為即時狀態，且設定檔已進入歷程。
+1. 您發佈相同歷程的第2版。
+1. 如果設定檔在版本1中仍處於活動狀態，則無法同時在版本2中啟動新的活動執行個體。
+1. 設定檔退出舊版執行個體後，即可根據歷程的重新進入設定，再次輸入最新的即時版本。
+
+>[!WARNING]
+>
+>**為什麼我看到`exportedsegment_existinginstance`？**
+>
+>如果您看到錯誤`exportedsegment_existinginstance`，這通常表示設定檔在相同歷程中已經有使用中的執行個體。 當週期性或重複專案嘗試在該歷程的另一個執行個體（包括較早的有效版本）中仍處於作用中狀態時開始時，最常會發生這種情況。
+>
+>疑難排解此錯誤時，請檢查下列專案：
+>
+>* 設定檔是否仍在歷程的另一個作用中版本中進行。
+>* 上一個週期性執行是否仍然有效。
+>* 歷程設計是否包括長時間等待或其他活動，以將設定檔保持作用中狀態一段長時間。
 
 ## 業務歷程 {#entry-business}
 

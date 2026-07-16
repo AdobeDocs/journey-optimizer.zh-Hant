@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: 613
 ht-degree: 8%
 
 ---
@@ -63,6 +63,18 @@ ht-degree: 8%
 忠誠度挑戰仰賴Adobe Experience Platform的身分、設定檔屬性、體驗事件和受眾。 使用此頁面瞭解要準備哪些資料、涉及哪些資料集，以及&#x200B;**存留時間(TTL)**&#x200B;在您編寫挑戰或使用忠誠度挑戰API之前如何影響保留率。
 
 請連絡您的Adobe管理員，以設定Journey Optimizer方案，或在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定獎勵履行和事件對應。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。 如需REST端點與驗證的相關資訊，請參閱[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。
+
+## 透過來源的忠誠度聯結器 {#loyalty-connectors-sources}
+
+如果您的忠誠度資料是在外部獎勵平台中進行管理，您可以使用&#x200B;**來源**&#x200B;聯結器將該資料擷取到Adobe Experience Platform，然後用於忠誠度挑戰。
+
+Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
+
+* **Talon.One**
+* **毛細管**
+* **Kobie**
+
+如需聯結器上線和端對端設定，請參閱[開始使用來源聯結器](../start/get-started-sources.md)和[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}。
 
 ## Adobe Experience Platform資料 {#aep-data}
 

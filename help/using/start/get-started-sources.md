@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 100%
+source-wordcount: 726
+ht-degree: 99%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer 支援各種類型的來源，以便連線至您現有的系�
 * Salesforce
 * Salesforce Marketing Cloud
 
+**忠誠度與獎勵：**
+* Talon.One
+* 毛細管
+* Kobie
+
 ➡️請在 [Experience Platform 來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}中，檢視完整清單
 
 ## 開始之前 {#prerequisites}
@@ -138,7 +143,7 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 的來源框架。 以�
 現在您已瞭解來源以及其重要的原因：
 
 * 探索[來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}，尋找您系統的連接器
-* 瞭解如何[建立來源連線](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=zh-Hant){target="_blank"}
-* 瞭解[資料對應和轉換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=zh-Hant){target="_blank"}
+* 瞭解如何[建立來源連線](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home){target="_blank"}
+* 瞭解[資料對應和轉換](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home){target="_blank"}
 * 瞭解如何[在歷程中使用匯入的資料](../building-journeys/journey-gs.md)
 * 檢閱[開始使用資料管理](../data/gs-data.md)概觀，瞭解來源如何融入 Journey Optimizer 的完整資料設定

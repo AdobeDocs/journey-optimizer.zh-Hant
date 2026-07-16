@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件，內容檢查， HTML， CSS，驗證，呈現，品質
-badge: label="有限可用性" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="驗證您的電子郵件內容"
 >abstract="內容檢查功能會在您傳送電子郵件前，自動偵測郵件中的 HTML 和 CSS 問題。 這項檢查會標示出可能導致 Gmail 或 Microsoft Outlook 郵件轉譯異常的不支援標記、空的 div 和大小限制。 各類問題會以錯誤、警告或資訊性通知的形式呈現，內含背景資訊並於適用情境下提供一鍵修復。"
-
->[!AVAILABILITY]
->
->此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
 [!DNL Journey Optimizer]包含直接在電子郵件Designer中的自動化技術驗證，可協助您在傳送前捕捉HTML和CSS問題。
 
@@ -56,8 +51,10 @@ ht-degree: 9%
 
 視問題而定，您可以檢視更多內容、套用一鍵式修正，或儲存電子郵件以重新整理檢查結果。
 
-* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。 按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以摺疊。  ![電子郵件Designer中的內容檢查窗格，包含詳細資料](assets/content-check-details.png){width="80%"}
-* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**&#x200B;按鈕，並在可用處套用一鍵修正。 如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。  ![電子郵件Designer中的[內容檢查]窗格及[套用]修正按鈕](assets/content-check-fix.png){width="80%"}
+* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。 按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以摺疊。
+  ![電子郵件Designer中的內容檢查窗格，包含詳細資料](assets/content-check-details.png){width="80%"}
+* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**&#x200B;按鈕，並在可用處套用一鍵修正。 如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。
+  ![電子郵件Designer中的[內容檢查]窗格及[套用]修正按鈕](assets/content-check-fix.png){width="80%"}
 
 ### 重新計算支票 {#recalculation}
 
@@ -111,6 +108,26 @@ ht-degree: 9%
 
 ## 關於HTML和CSS大小 {#size-estimation}
 
-HTML和CSS大小值是在編寫時計算的&#x200B;**估計值**，並且可能與傳遞給收件者的實際大小不同，例如，當您的電子郵件使用條件式區塊（每個收件者只有一個分支呈現）時，或在傳送時啟用HTML縮制時。
+電子郵件Designer中顯示的HTML和CSS大小值是在編寫時計算的&#x200B;**估計值**。 它們反映當下編輯器中存在的完整轉譯裝載，並包括：
 
-大小警告是主動訊號，可協助您在傳送前最佳化內容，而非硬區塊。
+* **HTML結構** — 所有標籤、標籤、版麵包裝函式和內嵌樣式
+* **內嵌CSS** — 計算大小之前以電子郵件傳送Designer內嵌樣式，這是電子郵件使用者端的標準，但會增加原始數字與外部樣式表的比較
+* **文字內容** — 所有複製和個人化Token，以其預留位置長度（而非其解析值）計算
+* **片段** — 所有參考的片段都會內嵌展開，因此每個片段都會將其完整的HTML/CSS權重分配至總計
+* **條件式區塊(if-else)** - **所有分支**&#x200B;在編寫時都包含在大小估計中，因為要等到傳送時間才會評估條件
+* **影像** — 只計算影像參考(src URL)，不計算二進位影像資料本身
+
+### 為什麼估算可能與傳遞的大小不同 {#size-estimate-difference}
+
+顯示的大小是最差情況的預估上限，而非收件者將收到的確切電子郵件。 可能由於以下原因而有所不同：
+
+* **條件式內容**：在傳送時，只會轉譯符合收件者設定檔的分支。 在編輯器中顯示120 KB的範本可能會為大多數收件者產生60 KB的電子郵件。
+* **Personalization權杖**：預留位置權杖是以其原始權杖長度計算。 解析的值通常較短。
+* **HTML大小最佳化**：如果已啟用&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項，傳送時就會移除空格、註解及多餘的字元，減少最終裝載。 [了解更多](create-email.md#optimize-html-size)
+
+### 大小警告對作者的意義 {#size-warnings}
+
+大小警告（例如，超過100 KB的HTML）是&#x200B;**主動訊號**，可協助您在傳送前最佳化電子郵件 — 這些不是硬性區塊，而且不會反映收件者將看到的確切大小。 它們的存在有助於避免：
+
+* Gmail剪裁的電子郵件，會以大約102 KB的HTML剪裁訊息
+* 在行動裝置或低頻寬連線上呈現時速度緩慢

@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 10%
+source-wordcount: 5162
+ht-degree: 9%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
+   >只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會進入歷程。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
 
 1. 在&#x200B;**[!UICONTROL 名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別個人。 此欄位預設會自動填入上次使用的命名空間。 [進一步瞭解名稱空間](../event/about-creating.md#select-the-namespace)。
 
@@ -236,6 +236,14 @@ ht-degree: 10%
 
 對於週期性歷程，特定選項可協助您管理設定檔對歷程的進入。 展開下列各節，瞭解各個選項的詳細資訊。
 
+>[!NOTE]
+>
+>**如何使用對象快照**
+>
+>每個讀取對象執行都會使用執行時可用的對象成員資格。 對於批次對象，[!DNL Journey Optimizer]會從最新可用的批次對象快照中讀取。 它不會在歷程開始時即時重新計算對象。
+>
+>對於週期性歷程，每個發生次數都會使用該發生次數可用的快照。 如果您希望歷程在執行之前等待最新的批次對象評估，請啟用&#x200B;**[!UICONTROL 批次對象評估後觸發]**。
+
 ![讀取對象循環選項：增量讀取、強制重新進入、批次後觸發](assets/read-audience-options.png)
 
 +++**[!UICONTROL 增量讀取]**
@@ -253,7 +261,9 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->如果您在歷程中鎖定[自訂上傳對象](../audience/about-audiences.md#about-segments)，則只有在循環歷程中啟用此選項時，才會於第一次循環時擷取設定檔。 這些對象是固定的。
+>對於[自訂上傳對象](../audience/custom-upload.md) （CSV上傳）和其他外部對象（例如同盟對象構成），**[!UICONTROL 目前不支援增量讀取]**&#x200B;的功能。 無論增量讀取切換設定為何，系統都會在每個週期處理&#x200B;**整個對象**。
+>
+>若要控制週期性專案，請使用[在週期上強制重新進入](#schedule)。
 
 +++
 
@@ -264,6 +274,30 @@ ht-degree: 10%
 例如，如果您在每日循環歷程中等候2天，啟用此選項會將設定檔移至下一個歷程執行。 無論他們是否在下一個執行的對象中，這都會在隔天發生。
 
 如果此歷程中設定檔的生命週期可能超過週期頻率，請勿啟用此選項以確保設定檔可完成其歷程。
+
++++
+
++++**[!UICONTROL 增量讀取]和[!UICONTROL 在週期上強制重新進入]如何共同運作**
+
+這兩個選項可控制歷程執行的不同部分：
+
+* **[!UICONTROL 增量讀取]**&#x200B;控制&#x200B;**從對象**&#x200B;中選取哪些設定檔以供下次重複執行。
+* **[!UICONTROL 重複時強制重新進入]**&#x200B;控制&#x200B;**下次重複執行開始時，在歷程中仍處於作用中狀態的設定檔會發生什麼情況**。
+
+請使用下表來瞭解下次執行的合併行為。
+
+| [!UICONTROL 增量讀取] | [!UICONTROL 在週期時強制重新進入] | 下次執行時的行為 |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| 關閉 | 關閉 | [!DNL Journey Optimizer]讀取該回合的完整對象。 仍在歷程中的設定檔不會自動重設。 |
+| 於 | 關閉 | [!DNL Journey Optimizer]只會讀取自上次執行以來新增到對象中的設定檔。 仍在歷程中的設定檔不會自動重設。 |
+| 關閉 | 於 | [!DNL Journey Optimizer]會在開始下一次執行前，從目前的歷程執行中移除作用中的參與者，然後再次讀取完整對象。 如此可讓設定檔在新發生次數時重新開始。 |
+| 於 | 於 | [!DNL Journey Optimizer]會在開始下一次執行前，從目前的歷程執行中移除作用中的參與者，然後只讀取自上次執行以來新增到受眾的設定檔。 強制重新進入會重設作用中的歷程參與率，但增量讀取仍會將選擇限製為新新增的對象成員。 |
+
+換言之，**[!UICONTROL 重複時強制重新進入]不會停用[!UICONTROL 增量讀取]**。 如果兩個選項都啟用，則設定檔會在下次發生次數開始前從使用中的歷程例項中移除，但下次發生次數仍只會選取自上次執行以來被視為新的對象成員。
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL 在週期]**&#x200B;強制重新進入移除的設定檔不會自動視為&#x200B;**[!UICONTROL 增量讀取]**&#x200B;的新對象成員。 對象選擇仍取決於設定檔自上次執行以來是否新新增到對象。
 
 +++
 
@@ -381,7 +415,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### 時間與資料傳播 {#timing-and-data-propagation}
 
-* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}。
+* **批次分段工作完成**：對於批次對象，請確保在歷程執行之前完成每日批次分段工作並更新快照。 批次對象在細分工作完成約&#x200B;**2小時**&#x200B;後即可使用。 深入瞭解[對象評估方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#evaluate-segments){target="_blank"}。
 
 * **資料擷取時間**：驗證在歷程執行之前，設定檔資料擷取是否已完全完成。 如果在歷程開始前不久擷取設定檔，這些設定檔可能不會反映在對象中。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}中的資料擷取。
 
@@ -395,7 +429,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **檢查分段工作狀態**：在[!DNL Adobe Experience Platform] [監視儀表板](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=zh-Hant){target="_blank"}中監視批次分段工作完成時間。 用它來驗證對象資料何時準備就緒。
 
-* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}中的合併原則。
+* **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant){target="_blank"}中的合併原則。
 
 * **檢閱區段定義**：確認區段定義已正確設定，並包含所有預期的資格條件。 深入瞭解[建立對象](../audience/creating-a-segment-definition.md)。 請特別注意：
    * 可能根據事件時間戳記排除設定檔的時間型條件

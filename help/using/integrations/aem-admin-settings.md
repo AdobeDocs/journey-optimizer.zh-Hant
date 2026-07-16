@@ -12,7 +12,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
+source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 22%
@@ -28,10 +28,9 @@ ht-degree: 22%
 
 >[!ENDSHADEBOX]
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="Adobe Experience Manager 設定"
+>title="Adobe Experience Manager設定"
 >abstract="透過設定僅限作者或發佈的存取權、自訂網域和驗證，將沙箱連接至 Adobe Experience Manager 存放庫，讓行銷人員能夠在其歷程和行銷活動中使用 Adobe Experience Manager 內容片段。"
 
 >[!CONTEXTUALHELP]
