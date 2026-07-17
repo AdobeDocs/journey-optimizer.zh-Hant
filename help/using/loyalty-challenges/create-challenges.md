@@ -11,9 +11,9 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **設定並整合**
 
 * [設定忠誠度挑戰](loyalty-admin.md)
+* [獎勵定義指南](reward-definition-guide.md)
+* [事件轉換器指南](event-transformer-guide.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -149,26 +151,26 @@ ht-degree: 11%
 
 * **[!UICONTROL 選擇加入觸發程式]**：
 
-   * **[!UICONTROL 選擇加入方法]**：選擇客戶是手動加入挑戰，還是透過事件觸發器加入。
-   * **[!UICONTROL 事件]**：對於事件型選擇加入，請選取觸發選擇加入的事件。 管理員可以按一下![齒輪](assets/do-not-localize/settings-icon.svg)按鈕來建立事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL 選擇加入方法]**：選擇客戶是手動加入挑戰，還是透過事件觸發器加入。
+  * **[!UICONTROL 事件]**：對於事件型選擇加入，請選取觸發選擇加入的事件。 管理員可以按一下![齒輪](assets/do-not-localize/settings-icon.svg)按鈕來建立事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL 開始追蹤進度]**：
 
-   * **[!UICONTROL 任務進度追蹤開始]**：選擇任務完成何時計入挑戰進度。 例如，選取&#x200B;**[!UICONTROL 當挑戰開始（在選擇加入之後）]**，所以進度會在成員選擇加入且挑戰為作用中之後開始。
+  * **[!UICONTROL 任務進度追蹤開始]**：選擇任務完成何時計入挑戰進度。 例如，選取&#x200B;**[!UICONTROL 當挑戰開始（在選擇加入之後）]**，所以進度會在成員選擇加入且挑戰為作用中之後開始。
 
-     當成員看到挑戰時，您可以在追蹤進度時將其與分離。 例如，可能會出現挑戰卡片，並在任務完成前接受選擇加入，以開始計入稍後日期的進度。
+    當成員看到挑戰時，您可以在追蹤進度時將其與分離。 例如，可能會出現挑戰卡片，並在任務完成前接受選擇加入，以開始計入稍後日期的進度。
 
-   * **[!UICONTROL 開始]**：當您選擇自訂開始選項時，請設定進度追蹤開始的日期和時間。
+  * **[!UICONTROL 開始]**：當您選擇自訂開始選項時，請設定進度追蹤開始的日期和時間。
 
 * **[!UICONTROL 重複限制]**：
 
-   * **[!UICONTROL 可以完成挑戰]**：選擇挑戰可以完成一次還是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定義的完成數。
+  * **[!UICONTROL 可以完成挑戰]**：選擇挑戰可以完成一次還是多次。 例如，**[!UICONTROL 一次]**&#x200B;或定義的完成數。
 
-   * **[!UICONTROL 可以完成的次數]**：啟用重複時，請指定成員可以完成挑戰的次數。
+  * **[!UICONTROL 可以完成的次數]**：啟用重複時，請指定成員可以完成挑戰的次數。
 
 * **[!UICONTROL 完成需求]** *（僅限標準挑戰）*：
 
-   * **[!UICONTROL 在單一交易內完成]**：啟用時，客戶必須完成單一交易內的所有工作。 停用時，可以跨不同的交易完成工作。
+  * **[!UICONTROL 在單一交易內完成]**：啟用時，客戶必須完成單一交易內的所有工作。 停用時，可以跨不同的交易完成工作。
 
 ### 自訂中繼資料 {#custom-metadata}
 

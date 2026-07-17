@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 551
 ht-degree: 4%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 4%
 **設定並整合**
 
 * [設定忠誠度挑戰](loyalty-admin.md)
+* [獎勵定義指南](reward-definition-guide.md)
+* [事件轉換器指南](event-transformer-guide.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 

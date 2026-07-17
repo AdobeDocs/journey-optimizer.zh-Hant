@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -82,11 +82,18 @@ ht-degree: 10%
 
    >[!IMPORTANT]
    >
-   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
+   >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
    >
    >IP熱身行銷活動不支援CSV上傳對象，且會在行銷活動啟用時導致錯誤。
 
    如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
+
+1. 選擇性地從&#x200B;**[!UICONTROL 最佳化]**&#x200B;區段，新增目標規則，以根據設定檔屬性將不同內容傳遞至對象的子集。 [了解更多](../content-management/optimization-targeting.md)
+
+   如果使用鎖定目標規則，請牢記以下事項：
+
+   * 透過每日批次細分週期，對IP熱身行銷活動對象進行&#x200B;**次**&#x200B;評估。 設定檔成員資格在執行啟動時修正，且不會在每次執行時重新評估。
+   * 目標規則中使用的設定檔屬性會在每次執行時讀取，以反映最近擷取的批次設定檔資料 — 而不是即時設定檔更新。
 
 1. [啟動](../campaigns/review-activate-campaign.md)行銷活動。 其狀態變更為&#x200B;**[!UICONTROL 即時]**。
 

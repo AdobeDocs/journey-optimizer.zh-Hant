@@ -4,7 +4,10 @@ product: journey optimizer
 title: 新的歷程介面
 feature: Release Notes
 topic: Content Management
-description: 新的歷程介面
+description: 瞭解為Journey Optimizer歷程引入的新簡化歷程模型、重新設計的歷程畫布UI和即時報告。
+keywords: 歷程畫布，新歷程模型，即時報告，歷程設計器
+role: User
+level: Beginner, Intermediate
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
@@ -18,16 +21,16 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
 workflow-type: tm+mt
-source-wordcount: 558
-ht-degree: 2%
+source-wordcount: 727
+ht-degree: 1%
 
 ---
 
 # 歡迎使用經改善的 Journey Designer {#new-canvas}
 
-Journey Optimizer現在提供&#x200B;**簡化的歷程模型**，旨在改善使用者體驗和內部程式。 自4月發行版本開始，您可以受益於下列功能：
+[!DNL Journey Optimizer]現在提供&#x200B;**簡化的歷程模型**，旨在改善使用者體驗和內部程式。 自4月發行版本開始，您可以受益於下列功能：
 
 * 重新設計的&#x200B;**歷程畫布**，提供現代化的UI體驗
 * 歷程畫布中直接可用的&#x200B;**即時報告** UI
@@ -36,7 +39,9 @@ Journey Optimizer現在提供&#x200B;**簡化的歷程模型**，旨在改善使
 >
 >請注意，此功能的推出將是漸進式的。 您可能無法立即看到變更。
 
-## 歷程模型的更新
+若要進一步瞭解如何在新畫布上建置歷程，請參閱[使用歷程設計器](../building-journeys/using-the-journey-designer.md#canvas-capabilities)。
+
+## 歷程模型的更新 {#updates-journey-model}
 
 新的歷程模型將與現有模型並存，這表示將有使用&#x200B;**兩個不同模型的歷程**：
 
@@ -47,7 +52,7 @@ Journey Optimizer現在提供&#x200B;**簡化的歷程模型**，旨在改善使
 
 如以下熒幕擷圖所示，節點為圓形，這是舊版模型上歷程的舊UI。
 
-![](assets/new-canvas.png)
+![舊版歷程畫布顯示AirportBeacon和Email的圓形活動節點，以簡單的水準流程連線](assets/new-canvas.png)
 
 但是，當您&#x200B;**建立新歷程**&#x200B;或&#x200B;**複製現有歷程**&#x200B;時，它將會在新模型上。 在大部分客戶轉換為新版之前，仍支援舊版模式上的歷程。
 
@@ -55,32 +60,32 @@ Journey Optimizer現在提供&#x200B;**簡化的歷程模型**，旨在改善使
 
 在下方熒幕擷圖中，您可以看到重新設計的歷程畫布UI （僅適用於新模式）：
 
-![](assets/new-canvas2.png)
+![重新設計歷程畫布，顯示方形活動方塊（忠誠會員讀取對象、條件）分支至歡迎電子郵件和Slack訊息活動](assets/new-canvas2.png)
 
 **新增至歷程設計器的任何新功能（包括即時報告）將僅適用於從此時間點開始的新模型上的歷程。**
 
-## 改善歷程畫布設計
+## 改善歷程畫布設計 {#improved-canvas-design}
 
 我們透過新的歷程模式，推出全新及改良的&#x200B;**歷程畫布UI**，完美融入[!DNL Adobe CX Enterprise]解決方案和應用程式生態系統，提供直覺式且有效率的使用者體驗。 新模型中的任何歷程都將採用新設計。
 
-![](assets/new-canvas3.gif)
+![新歷程畫布設計的動畫示範，顯示具有「開始」、「忠誠度」成員讀取 — 對象活動和「結束」節點的歷程](assets/new-canvas3.gif)
 
 現在，活動將以方塊表示，且具有下列功能：
 
-* 代表活動型別的第一行通常會被更多情境式資訊覆寫（在讀取對象上，它將包含所選對象的名稱），或者如果您定義一個活動型別，則會被自訂標籤覆寫。
+* 第一行代表活動型別，通常會由更多情境式資訊（在讀取對象上，包含所選對象的名稱）覆寫，或是由自訂標籤（若您定義）覆寫。
 * 第二行一律代表活動型別。
 
-![](assets/new-canvas4.png)
+![活動方塊在第一行顯示活動標籤「忠誠會員」，在第二行顯示活動型別「讀取對象」](assets/new-canvas4.png)
 
 這個新的UI提供&#x200B;**更清楚的活動標籤和型別**，以改善歷程畫布的可讀性。
 
 它也能讓產品團隊透過較少的點按在畫布上新增更多資訊。 「更多資訊」的一個範例是在歷程畫布中包含即時報告，您可以在其中檢視由於錯誤而進入和退出活動的設定檔。
 
-![](assets/new-canvas5.png)
+![活動方塊，其即時報告量度顯示已輸入56個設定檔，且忠誠會員活動出現0個錯誤](assets/new-canvas5.png)
 
-## 歷程畫布中的即時報告
+## 歷程畫布中的即時報告 {#live-reporting-canvas}
 
-除了改良的歷程畫布版面配置外，也引入新功能，允許使用者直接在歷程畫布中檢視過去&#x200B;**24小時**&#x200B;的即時報告量度（稱為即時報告）。
+除了改良的歷程畫布版面配置外，也引入新功能，允許使用者直接在歷程畫布中檢視過去&#x200B;**24小時**&#x200B;的即時報告量度（稱為即時報告）。 此專案補充現有的[歷程即時報告](../reports/journey-live-report.md)。
 
 對於使用新模型的每個即時歷程中的每個活動，您都有權存取：
 
@@ -88,7 +93,7 @@ Journey Optimizer現在提供&#x200B;**簡化的歷程模型**，旨在改善使
 * 進入此活動的設定檔計數。
 * 由於錯誤而退出此活動的設定檔計數。
 
-![](assets/new-canvas6bis.png)
+![顯示每個活動的已輸入和錯誤計數的即時歷程畫布，包括測試設定檔、條件和跨不同路徑的多個Slack自訂動作](assets/new-canvas6bis.png)
 
 <!--
 `

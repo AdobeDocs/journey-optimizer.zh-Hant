@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 18%
+source-wordcount: 1834
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 18%
 **設定並整合**
 
 * **設定忠誠度挑戰** ◀︎ **您在這裡**
+* [獎勵定義指南](reward-definition-guide.md)
+* [事件轉換器指南](event-transformer-guide.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -71,8 +73,8 @@ ht-degree: 18%
 若要開啟設定介面，請從左側導覽選取&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表。 介面會整理為標籤：
 
 * **全域設定** — 選取您程式的Experience Platform身分名稱空間。 [瞭解如何設定全域設定](#global-settings)
-* **獎勵提供者** — 連線完成客戶進度或完成挑戰時獎勵的API。 [瞭解如何設定獎勵提供者](#reward-providers)
-* **事件定義** — 將傳入體驗事件對應至&#x200B;**[!UICONTROL 自訂事件]**&#x200B;工作中所使用的活動。 [瞭解如何設定事件定義](#event-definitions)
+* **獎勵提供者** — 連線完成客戶進度或完成挑戰時獎勵的API。 [瞭解如何設定獎勵提供者](#reward-providers)。
+* **事件定義** — 將傳入體驗事件對應至&#x200B;**[!UICONTROL 自訂事件]**&#x200B;工作中所使用的活動。 [瞭解如何設定事件定義](#event-definitions)。
 * **產品詳細目錄** — 上傳專案對群組的對應，以用於工作適用性規則。 [瞭解如何設定產品詳細目錄](#product-inventory)
 * **排除專案** — 上傳整個組織的專案和群組排除專案以進行任務設定。 [瞭解如何設定排除專案](#exclusions)
 
@@ -95,10 +97,10 @@ ht-degree: 18%
 
   選取下列KPI選項之一：
 
-   * **[!UICONTROL 收入]** — 排定與貨幣交易和銷售績效相關的深入分析的優先順序
-   * **[!UICONTROL 參與]** — 排定與成員活動和參與率相關的深入分析的優先順序
-   * **[!UICONTROL 贖回]** — 優先處理與獎勵贖回率與活動相關的深入分析
-   * **[!UICONTROL 轉換]** — 排定與轉換量度和目標完成相關的深入分析的優先順序
+  * **[!UICONTROL 收入]** — 排定與貨幣交易和銷售績效相關的深入分析的優先順序
+  * **[!UICONTROL 參與]** — 排定與成員活動和參與率相關的深入分析的優先順序
+  * **[!UICONTROL 贖回]** — 優先處理與獎勵贖回率與活動相關的深入分析
+  * **[!UICONTROL 轉換]** — 排定與轉換量度和目標完成相關的深入分析的優先順序
 
   選取KPI時，與該量度相關的深入分析會獲得評分提升，導致其升至摘要的頂端。 這表示所選KPI最相關的深入分析會最先出現。 未隱藏深入分析：您的完整insight摘要會繼續顯示，以重要性排序，而您選取的KPI會優先於其他量度。 此設定只會影響見解在摘要中的排名，不會修改忠誠度計畫的運作方式或挑戰的評估方式。 您可以隨時變更KPI選取專案，而insight摘要會在下一個重新整理週期中重新排定優先順序，以反映您的新優先順序。
 
@@ -128,6 +130,8 @@ ht-degree: 18%
 
 **獎勵提供者**&#x200B;會通知[!DNL Journey Optimizer]當記錄挑戰進度或完成挑戰時，要將履行呼叫傳送到何處。 例如，將忠誠度點數或起點數歸於成員帳戶的API。
 
+使用此區段進行端對端提供者設定（連線、Proxy、驗證權杖產生器和獎勵定義資源）。 如需獎勵定義設計和裝載策略的重點指引，請參閱[獎勵定義指南](reward-definition-guide.md)。
+
 若要建立獎勵提供者，請遵循下列步驟：
 
 1. 開啟&#x200B;**[!UICONTROL 獎勵提供者]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 建立獎勵提供者]**。
@@ -149,7 +153,9 @@ ht-degree: 18%
    * 輸入&#x200B;**[!UICONTROL 名稱]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
    * 指定定義是否為&#x200B;**[!UICONTROL 已啟用]**。
    * 切換&#x200B;**[!UICONTROL 預設]**，將一個定義標示為此提供者的預設。
-   * 定義隨履行呼叫傳送的&#x200B;**裝載**。
+   * 使用JSONata運算式定義如何將獎勵裝載轉換為履行裝載請求。
+
+   如需詳細資訊，請參閱[獎勵定義指南](reward-definition-guide.md#writing-the-rewardjsonata-expression)。
 
    ![](assets/admin-reward-definition.png)
 
@@ -209,16 +215,18 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="事件結構描述和轉換器"
->abstract="當您的組織以自訂 JSON 格式傳送事件時，請使用&#x200B;**[!UICONTROL 結構描述]**&#x200B;來驗證承載，並使用&#x200B;**[!UICONTROL 轉換器]** (例如 JSONata 運算式) 將欄位對應到忠誠度挑戰期望的格式。"
+>abstract="在「事件」結構描述區段中，提供&#x200B;**[!UICONTROL 轉換器]** JSONata運算式，以將傳入的事件欄位對應到「忠誠度挑戰」預期的格式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="事件識別"
->abstract="指定 [!DNL Journey Optimizer] 如何使用識別碼路徑、識別碼值、XDM 結構描述 ID 或這些欄位的組合，來辨識傳入承載中的事件。"
+>abstract="在事件識別區段中，提供事件名稱以及用於識別傳入事件的必要XDM結構描述ID。"
 
 **[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在任務產生器中建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時，會參考這些定義。 不符合任何定義的事件會被忽略。
 
-當您的組織以自己的JSON格式傳送事件時，**[!UICONTROL 結構描述]**&#x200B;和&#x200B;**[!UICONTROL 轉換器]**&#x200B;會協助[!DNL Journey Optimizer]驗證承載、剖析該承載，並決定是否追蹤活動。
+使用此區段進行端對端定義設定（事件識別加上轉換器運算式）。 如需轉換程式編寫的重點指引，請參閱[事件轉換程式指南](event-transformer-guide.md)。
+
+當您的組織以自己的JSON格式傳送事件時，[**[!UICONTROL 轉換器]**](event-transformer-guide.md#writing-the-transformer)可協助[!DNL Journey Optimizer]對應並剖析傳入裝載，以便正確追蹤事件。
 
 若要建立事件定義，請遵循下列步驟：
 
@@ -226,18 +234,12 @@ ht-degree: 18%
 
    ![](assets/admin-event-definition.png)
 
-1. 輸入事件的&#x200B;**[!UICONTROL 名稱]** （例如，`Coffee purchase`）。 行銷人員在設定&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時看到此名稱。
+1. 在&#x200B;**[!UICONTROL 事件識別碼]**&#x200B;中輸入必要的值：
 
-1. 指定[!DNL Journey Optimizer]如何辨識傳入裝載中的事件。 提供&#x200B;**[!UICONTROL 識別碼路徑]**、**[!UICONTROL XDM結構描述識別碼]**，或兩者皆提供：
+   * **[!UICONTROL 名稱]** — 事件定義的標籤（例如，`Coffee purchase`）。
+   * **[!UICONTROL XDM結構描述ID]** — 此事件型別的Experience Platform XDM結構描述識別碼。
 
-   * **[!UICONTROL 識別碼路徑]** — 裝載中欄位的路徑（例如，`data.memberId`）。 依承載中的值比對事件時，請使用此選項。
-   * **[!UICONTROL 識別碼值]** — 識別碼路徑上的值必須存在，才能符合此定義。
-   * **[!UICONTROL XDM結構描述ID]** — 此事件型別的Experience Platform XDM結構描述識別碼。 在根據已知結構描述擷取事件時，請使用此選項。
-
-1. 如有需要，請將字串貼到&#x200B;**[!UICONTROL 結構描述]**&#x200B;和&#x200B;**[!UICONTROL 轉換器]**&#x200B;中：
-
-   * **[!UICONTROL 結構描述]** — 傳入承載的驗證字串。
-   * **[!UICONTROL Transformer]** — 轉換運算式（例如JSONata），可將您的裝載對應至「忠誠度挑戰」所預期的格式。
+1. 在&#x200B;**[!UICONTROL 事件結構描述]**&#x200B;中，提供必要的[JSONata](event-transformer-guide.md#writing-the-transformer)運算式，將您的裝載對應至「忠誠度挑戰」所預期的格式。
 
 1. 儲存事件定義。 它出現在&#x200B;**[!UICONTROL 事件定義]**&#x200B;清單中，可在行銷人員建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時取得。 [瞭解如何建立任務](create-tasks.md#choose-activity)
 

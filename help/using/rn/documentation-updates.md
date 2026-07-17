@@ -2,7 +2,8 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 文件更新
-description: 瞭解最新的文件更新
+description: 瞭解Adobe Journey Optimizer的最新檔案更新，包括新頁面、重新組織和說明。
+keywords: 檔案更新、發行說明、journey optimizer、變更記錄檔
 feature: Release Notes
 topic: Content Management
 role: User
@@ -14,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
+source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
 workflow-type: tm+mt
-source-wordcount: 9685
-ht-degree: 87%
+source-wordcount: 9505
+ht-degree: 86%
 
 ---
 
@@ -27,12 +28,7 @@ ht-degree: 87%
 
 ## 2026年7月 {#july-2026}
 
-* **內容檢查**&#x200B;頁面已更新為新的&#x200B;**關於HTML和CSS大小**&#x200B;區段，說明製作時間預估包含的專案（HTML結構、內嵌CSS、個人化權杖、片段、條件區塊和影像參考）、預估與傳送的大小不同的原因，以及大小警告對作者的意義。 [閱讀更多](../email/content-check.md#size-estimation)
-
-* **建立IP熱身行銷活動**&#x200B;頁面已更新，以釐清目標規則可套用至IP熱身行銷活動，並記錄評估行為：對象成員資格在執行啟動（每日批次細分）時修正，而設定檔屬性在執行階段從最近擷取的批次資料中讀取。 [閱讀更多](../configuration/ip-warmup-campaign.md)
-* 已更新&#x200B;**結束歷程**&#x200B;頁面，以釐清非週期性讀取對象歷程的自動停止時間：排程執行後約&#x200B;**96小時（~4天）**&#x200B;的安全緩衝區，其間歷程可以在轉換成&#x200B;**已停止**&#x200B;的下一個掃描器通過之前維持&#x200B;**即時**&#x200B;狀態。 頁面現在也釐清以波段為基礎的歷程（包括傳送時間最佳化使用案例）會從此自動停止中排除，而是遵循標準91天歷程逾時。 [閱讀更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
-
-* 已更正&#x200B;**自訂上傳**&#x200B;和&#x200B;**讀取對象**&#x200B;頁面，以釐清外部/自訂對象的增量讀取行為（包括CSV上傳和同盟對象構成）：這些對象型別目前不支援增量讀取，並且無論增量讀取切換設定為何，都會在每次週期時處理完整對象。 指導現在會交叉連結循環控制項，包括&#x200B;**在循環時強制重新進入**。 [深入瞭解自訂上傳](../audience/custom-upload.md)及[深入瞭解閱讀對象排程](../building-journeys/read-audience.md#schedule)
+* **結束歷程**&#x200B;頁面已更新，以釐清非循環讀取對象歷程的自動停止時間：排程執行後約&#x200B;**96小時（~4天）**&#x200B;的安全緩衝區（24小時閒置視窗+ 72小時無訊息允許時間），在此期間歷程可在緩衝結束後不久轉換為&#x200B;**已停止**&#x200B;之前維持&#x200B;**即時**&#x200B;狀態。 頁面現在也釐清以波段（多波段）為基礎的歷程，以及使用傳送時間最佳化的歷程，會從此自動停止中排除，而是遵循標準91天歷程逾時。 [閱讀更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **編輯PTR記錄**&#x200B;頁面已新增警告，以通知客戶在將新的轉送DNS記錄新增至其平台時，必須等到移動完成後才能移除舊子網域的轉送DNS記錄，因為這樣做會導致編輯失敗。 [閱讀更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
@@ -70,7 +66,7 @@ ht-degree: 87%
 
 * 新的&#x200B;**開始使用Adobe Journey Optimizer**&#x200B;上線中心現已推出。 新使用者可以依角色選擇路徑、探索基礎知識，或跳至已上線的日常區域，而不需要知道該先前往何處。 [閱讀更多](../../rp_landing_pages/get-started-landing-page.md)
 
-* 從您的目標&#x200B;**開始的全新**&#x200B;頁面可讓您從您想要達成的目標開始，而不是從功能名稱開始。 此維度會將業務目標對應至設定、歷程、行銷活動、個人化、決策和報表中建議的Journey Optimizer功能。 [閱讀更多](../start/ajo-use-case-guide.md)
+* 從您的目標&#x200B;**開始的全新**&#x200B;頁面可讓您從您想要達成的目標開始，而不是從功能名稱開始。 此維度會將業務目標對應至設定、歷程、行銷活動、個人化、決策和報表中建議的[!DNL Journey Optimizer]功能。 [閱讀更多](../start/ajo-use-case-guide.md)
 
 * 更新&#x200B;**開發人員快速入門**&#x200B;角色指南，每個區段的簡介更清楚，並改善&#x200B;**跨參考歷程及重要實作頁面連結的角色共同作業**&#x200B;標籤。 [閱讀更多](../start/path/developer.md)
 
@@ -115,7 +111,7 @@ ht-degree: 87%
 
 * **執行中繼資料**&#x200B;協助程式文件已新增限制：傳入管道 (網頁、程式碼型體驗、應用程式內訊息、內容卡) 不支援該函式。 [閱讀更多](../personalization/functions/helpers.md#execution-metadata)
 
-* 已新增&#x200B;**個人化方式**&#x200B;頁面，為 Journey Optimizer 中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間方式 (目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測)、字串方式 (搭配變數指派使用 `replaceAll`) 以及條件式遞補方式 (使用 `isEmpty` 的空白欄位遞補)。 [閱讀全文](../personalization/personalization-recipes.md)
+* 已新增新的&#x200B;**Personalization配方**&#x200B;頁面，為[!DNL Journey Optimizer]中最常見的使用案例提供現成的個人化模式。 它涵蓋日期和時間方式 (目前的日期格式、到期倒數、計算前的天數、僅限時間的顯示、週末與平日偵測)、字串方式 (搭配變數指派使用 `replaceAll`) 以及條件式遞補方式 (使用 `isEmpty` 的空白欄位遞補)。 [閱讀全文](../personalization/personalization-recipes.md)
 
 * 已更新&#x200B;**個人化語法**&#x200B;文件，其中擴充了簡介，澄清 Handlebars (`{{...}}`) 與 PQL (`{%= ... %}`) 語法之間的差異，包括使用表格、跳脫字面雙引號指引，以及&#x200B;**適用於特殊屬性索引鍵的新 PQL 語法規則**&#x200B;章節，涵蓋保留關鍵字、連字屬性索引鍵及數值事件識別碼。 還更正了反引號跳脫的輔助：連字欄位名稱可以直接在 `{{...}}` 區塊中參照；只有反引號語法會失敗。 [閱讀全文](../personalization/personalization-syntax.md)
 
@@ -303,7 +299,7 @@ ht-degree: 87%
 
 * 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀全文](../channels/gs-channels.md#channels)
 
-* 已建立新的全面追蹤登陸頁面，以協助使用者探索及存取 Journey Optimizer 中提供的所有追蹤與監視功能。 [閱讀全文](../start/get-started-tracking.md)
+* 已建立新的完整追蹤登入頁面，以協助使用者探索及存取[!DNL Journey Optimizer]中提供的所有追蹤與監視功能。 [閱讀全文](../start/get-started-tracking.md)
 
 * 已增強「電子郵件選擇退出管理」頁面，其中包含有關取消訂閱流程的詳細資訊，說明登陸頁面選擇退出的預期事件順序。 [閱讀全文](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -317,7 +313,7 @@ ht-degree: 87%
 
 * 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀全文](../building-journeys/weekday-email-uc.md)
 
-* 推出新頁面，說明 Journey Optimizer 的決策功能，包括新一代決策框架與現有的決策管理解決方案之間的差異，以及跨管道提供個人化產品建議的主要優點。 [閱讀全文](../experience-decisioning/gs-decision.md)
+* 新頁面現已推出，說明[!DNL Journey Optimizer]的決策功能，包括新一代決策架構與已建立的決策管理解決方案之間的差異，以及這些跨管道提供個人化優惠方案的主要優點。 [閱讀全文](../experience-decisioning/gs-decision.md)
 
 * 客群啟用文件已新增一個區段，說明如何在 [!DNL Journey Optimizer] 中啟用不支援的客群類型 (例如 Customer Journey Analytics 客群)，方法是在客群入口網站中以新的區段定義來包裝這些客群。 [閱讀全文](../audience/target-audiences.md#activation-non-supported)
 
@@ -380,7 +376,7 @@ ht-degree: 87%
 
 * 現在提供有關如何使用歷程步驟事件的文件。 [閱讀全文](../reports/journey-step-events-overview.md)
 
-* 推出有關歷程進入和退出條件的全新全面指南，其中包含最佳做法、真實範例，以及在 Adobe Journey Optimizer 中管理輪廓進入和退出歷程時機的實用指引。 [閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
+* 現在提供有關歷程進入和退出條件的全新指南，其中包含最佳實務、真實世界的範例，以及在[!DNL Adobe Journey Optimizer]中管理設定檔進入和退出歷程時的實用指引。 [閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
 
 * 推出新頁面，說明如何反覆處理訊息中的內容資料。 本指南說明如何使用 Handlebars 語法，以顯示個人化中事件、自訂動作回應、資料集查詢和其他內容來源的動態清單。 [閱讀全文](../personalization/iterate-contextual-data.md)
 
@@ -392,7 +388,7 @@ ht-degree: 87%
 
 * 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀全文](../content-management/image-to-html.md)
 
-* 現在提供 Adobe Journey Optimizer 發行週期的相關資訊。 [閱讀全文](releases.md)
+* 有關[!DNL Adobe Journey Optimizer]發行週期的資訊現已可用。 [閱讀全文](releases.md)
 
 * 全新歷程常見問題頁面已推出。 [閱讀全文](../building-journeys/journey-faq.md)
 
@@ -438,7 +434,7 @@ ht-degree: 87%
 
 * 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀全文](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 疑難排解章節已新增到暫停歷程中了解的輪廓捨棄。 [閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 已新增疑難排解章節，以瞭解暫停歷程中的設定檔捨棄。 [閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * 結構描述概觀文件中已新增資訊，以區分用於協調行銷活動的標準和關聯式結構描述。 [閱讀全文](../data/gs-data.md)
 
@@ -456,11 +452,11 @@ ht-degree: 87%
 
 * 已更新歷程中的補充識別碼文件，其說明如下：
 
-   * 將補充識別碼新增到結構描述後，必須建立新事件 (適用於事件觸發的歷程) 或新欄位群組 (適用於讀取客群歷程)。 現有實體不會自動重新整理，且將無法識別新識別碼。
+  * 將補充識別碼新增到結構描述後，必須建立新事件 (適用於事件觸發的歷程) 或新欄位群組 (適用於讀取客群歷程)。 現有實體不會自動重新整理，且將無法識別新識別碼。
 
-   * 補充識別碼不會根據資料使用標籤和實作 (DULE) 原則驗證，並且在歷程中的資料治理檢查期間不予考慮。
+  * 補充識別碼不會根據資料使用標籤和實作 (DULE) 原則驗證，並且在歷程中的資料治理檢查期間不予考慮。
 
-     [閱讀全文](../building-journeys/supplemental-identifier.md)
+    [閱讀全文](../building-journeys/supplemental-identifier.md)
 
 * 行銷活動中的最佳化頁面已更新，以反映最佳化，現在也可用於歷程的事實。 [閱讀全文](../content-management/gs-message-optimization.md)
 
@@ -474,7 +470,7 @@ ht-degree: 87%
 
 * 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [了解更多](../content-management/create-fragments.md#content)
 
-* 在 Journey Optimizer 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀全文](../configuration/delegate-subdomain.md#guardrails)
+* 套用至[!DNL Journey Optimizer]中子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀全文](../configuration/delegate-subdomain.md#guardrails)
 
 * 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。 [閱讀全文](../offers/offer-library/creating-fallback-offers.md)
 
@@ -512,11 +508,11 @@ ht-degree: 87%
 
 ## 2025 年 5 月 {#may-2025}
 
-* 目前已經可以到「連線系統和環境」區段那邊，使用 Journey Optimizer 提供的 Adobe 整合功能。 [閱讀全文](../integrations/ajo-integrations.md)
+* [!DNL Journey Optimizer]提供的Adobe整合現在列於「連線您的系統和環境」區段。 [閱讀全文](../integrations/ajo-integrations.md)
 
 * 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀全文](../integrations/content-integrations.md)
 
-* 已更新 Adobe Experience Platform 和 Journey Optimizer 的架構圖。 [閱讀全文](../start/get-started.md#architecture)
+* 已更新Adobe Experience Platform和[!DNL Journey Optimizer]的架構圖表。 [閱讀全文](../start/get-started.md#architecture)
 
 * 新增有關個人化編輯器遊樂場的影片，以便幫助您瞭解如何使用樣本資料，編寫並測試個人化程式碼。 [閱讀全文](../personalization/personalize.md#video-perso)
 
@@ -530,9 +526,9 @@ ht-degree: 87%
 
 * 已新增[頁面](../code-based/code-based-decisioning-implementations.md)，以便說明如何在程式碼型體驗中使用決策功能時，將下列標幟新增至用戶端實作：
 
-   * 正在新增 `dryRun` 標幟，以便測試程式碼型體驗中的決策。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+  * 正在新增 `dryRun` 標幟，以便測試程式碼型體驗中的決策。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * 請將重複資料刪除套用至程式碼型體驗中的決策請求。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+  * 請將重複資料刪除套用至程式碼型體驗中的決策請求。 [閱讀全文](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## 2025 年 4 月 {#apr-2025}
 
@@ -556,7 +552,7 @@ ht-degree: 87%
 * 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
 * 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
 * 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
-* Adobe Journey Optimizer 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
+* 有關[!DNL Adobe Journey Optimizer]個人化功能的區段已重新整理並改良。 [閱讀全文](../personalization/personalize.md)
 * 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 * 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -571,8 +567,8 @@ ht-degree: 87%
 * 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
 * 內建頻道動作頁面已重新整理。 [閱讀全文](../building-journeys/journey-action.md)
 * 決策和決策管理區段新增了護欄與限制。
-   * [決策護欄與限制](../experience-decisioning/decisioning-guardrails.md)
-   * [決策管理護欄與限制](../offers/decision-management-guardrails.md)
+  * [決策護欄與限制](../experience-decisioning/decisioning-guardrails.md)
+  * [決策管理護欄與限制](../offers/decision-management-guardrails.md)
 * 已在決策管理檔案中新增內容資料的新區段。 它提供如何在決策引擎中運用內容資料的資訊，例如，設計決策規則，要求作出決策請求時當下天氣為 ≥ 80 度。 [閱讀全文](../offers/context-data.md)
 
 ## 2025 年 1 月 {#jan-2025}
@@ -597,7 +593,7 @@ ht-degree: 87%
 
 +++ 2024
 
-## 2024 年 12 月 {#nov-2024}
+## 2024 年 12 月 {#december-2024}
 
 * 已新增備註，以便協助處理疑難排解，當使用 Adobe Experience Platform 資料來啟用個人化資料集的 API 呼叫時，很可能傳出錯誤訊息。 [閱讀全文](../personalization/aep-data-perso.md)
 
@@ -610,7 +606,7 @@ ht-degree: 87%
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。 [閱讀全文](../data/get-started-datasets.md)
 * 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。 [閱讀全文](../code-based/test-code-based.md#preview-on-device)
 * 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
-* 已新增新頁面，以便介紹 Journey Optimizer 中可用的決定功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
+* 已新增新頁面，以介紹[!DNL Journey Optimizer]中可用的決定功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
 * Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}

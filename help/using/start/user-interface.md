@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 99%
+source-wordcount: 1516
+ht-degree: 98%
 
 ---
 
@@ -369,12 +369,12 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
 
 
-<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+<!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="運算式助理"
->abstract="使用運算式助理，在 Journey Optimizer 中產生並調整運算式。"
+>title="使用AI產生運算式"
+>abstract="使用AI在Journey Optimizer中產生和調整運算式。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

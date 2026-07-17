@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 3064
 ht-degree: 74%
@@ -201,7 +201,7 @@ ht-degree: 74%
 <p>AI 助理現在會在進階的運算式編輯器中運作，將自然語言提示轉換為有效的運算式和條件式邏輯。 描述您想要建立的運算式，而 AI 助理會產生現成的程式碼，您可以立即套用或透過後續提示進行調整。</p>
 <p>此功能以公開 Beta 版的形式提供給所有客戶。</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/expression-agent.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期：2026 年 6 月 3 日</p> 
 </td>
 </tr>
@@ -452,9 +452,9 @@ ht-degree: 74%
 
 * **電子郵件報告的新預估點按量度** — 為了更準確地檢視實際客戶參與度，歷程、行銷活動和頻道報告現在提供新的預估量度。
 
-   * **預估的CTR** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
+  * **預估的CTR** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
 
-   * **預估的CTOR** （點按至開啟率）：計算為相對於預估開啟總數的預估點按次數。
+  * **預估的CTOR** （點按至開啟率）：計算為相對於預估開啟總數的預估點按次數。
 
   推出日期： 2026年6月25日
 
