@@ -8,10 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM，內容片段，管理，存放庫，驗證，作者，發佈
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
@@ -146,4 +144,4 @@ Journey Optimizer會為每個組織、沙箱和Adobe Experience Manager存放庫
 
 瞭解管理員如何在Journey Optimizer中設定Adobe Experience Manager Managed Services存放庫設定，讓行銷人員可以在歷程及行銷活動中使用內容片段。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492538?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
