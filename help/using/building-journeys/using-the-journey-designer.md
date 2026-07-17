@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
-source-wordcount: 2366
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +86,21 @@ ht-degree: 2%
 根據歷程的狀態，您可以使用右上角的按鈕對歷程執行不同的動作： **[!UICONTROL 發佈]**、**[!UICONTROL 重複]**、**[!UICONTROL 刪除]**、**[!UICONTROL 測試模式]**、**[!UICONTROL 管理存取]**、**[!UICONTROL 警報]**。 未選取任何活動時，這些按鈕就會顯示。 有些按鈕會根據內容顯示。 測試模式啟動時，測試模式記錄按鈕出現。
 
 ![歷程動作按鈕：發佈、複製、刪除、測試模式、管理存取、警示](assets/journey41.png)
+
+## 歷程介面新體驗 {#canvas-capabilities}
+
+**新使用者介面**&#x200B;可用於歷程畫布，建置以配合您最複雜的使用案例進行擴充：
+
+* **效能** — 有效處理包含許多步驟和分支的大型歷程。
+* **自動配置** — 自動組織活動以提高可讀性。
+* **引導式撰寫** — 提供結構化的撰寫體驗，協助您輕鬆有效率地建立歷程。
+
+![](assets/journey-new-canvas.png)
+
+若要切換到新體驗，請按一下歷程畫布中的&#x200B;**[!UICONTROL 新體驗]**&#x200B;按鈕。 切換後，此設定會儲存在歷程層級，因此後續造訪時預設會在新體驗中開啟歷程。 若要還原，請按一下&#x200B;**[!UICONTROL 舊體驗]**&#x200B;按鈕。
+
+![](assets/journey-new-experience-switch.png)
+
 
 ## 開始您的歷程 {#start-your-journey}
 
@@ -167,10 +182,13 @@ ht-degree: 2%
 以下是複製/貼上活動的步驟：
 
 1. 開啟歷程。
-1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。   ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
+1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
+   ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。   ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
-1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。   ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
+   ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
+1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
+   ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)
 
 +++ AI知識參考
 

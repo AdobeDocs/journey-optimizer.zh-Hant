@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ ht-degree: 18%
 * 將片段移至資料夾。 [了解更多](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 快速啟動捷徑 {#quick-launch-fragments}
+
+從每個片段旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕中，也可使用下列快速啟動捷徑：
+
+* **[!UICONTROL 編輯]** — 直接開啟片段編輯器。
+* **[!UICONTROL 開啟]** — 開啟片段詳細資料和預覽畫面。
+* **[!UICONTROL 捨棄草稿]** — 捨棄目前的草稿版本，並還原至上次發佈的版本。
+
+![](assets/fragment-quick-launch.png)
 
 ### 大量動作 {#bulk-actions-fragments}
 
