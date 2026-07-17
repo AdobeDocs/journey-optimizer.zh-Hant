@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
 workflow-type: tm+mt
-source-wordcount: 1205
+source-wordcount: 1206
 ht-degree: 3%
 
 ---
@@ -175,11 +175,11 @@ Reward Provider  (endpoint, auth, headers)
 
 +++
 
-## 正在寫入`rewardJsonata`運算式
+## 撰寫rewardJsonata運算式
 
 運算式會接收獎勵內容作為其輸入，且必須傳回JSON物件 — 裝載已對提供者的端點進行POST。 該物件的形狀完全取決於提供者的API；您可以將內容欄位對應到提供者期望的任何結構。
 
-### 簡單固定裝載
++++簡單固定裝載
 
 最簡單的情況：提供者需要點數和成員ID，兩者都從內容中得知。
 
@@ -203,7 +203,9 @@ Reward Provider  (endpoint, auth, headers)
 
 > `rewardContext.rewardValue`永遠是字串。 如果您的提供者需要數值，請使用`$number()`進行轉換。
 
-### 針對提供者特定的中繼資料使用`kvpCustom`
++++
+
++++針對提供者特定的中繼資料使用`kvpCustom`
 
 提供者通常需要行銷活動ID或原始系統程式碼等欄位，這些欄位是每個挑戰執行所專屬。 編寫挑戰時將這些專案儲存在`challenge.kvpCustom`中，然後在運算式中參照它們 — 讓運算式可跨行銷活動重複使用。
 
@@ -218,7 +220,9 @@ Reward Provider  (endpoint, auth, headers)
 
 您也可以將`reward.kvpCustom`用於固定特定獎勵型別（而非每個挑戰）的常數。
 
-### 使用工作累計器資料
++++
+
++++使用工作累計器資料
 
 任務累計器會儲存每個合格事件的記錄。 使用`item_list[-1]`存取最近套用的專案 — 其`transactionId`和`timestamp`對於提供者端的稽核追蹤和重複資料刪除很有用。
 
@@ -231,7 +235,9 @@ Reward Provider  (endpoint, auth, headers)
 }
 ```
 
-### 建構文字訊息
++++
+
++++建構文字訊息
 
 對於通知型提供者（Slack、簡訊、電子郵件），您可以使用JSONata的`&`串連運運算元直接建置訊息字串：
 
@@ -248,6 +254,8 @@ Reward Provider  (endpoint, auth, headers)
   "text": "You just earned 50 Stars!"
 }
 ```
+
++++
 
 ## 範例
 
