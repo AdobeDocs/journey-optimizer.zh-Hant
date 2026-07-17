@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: 619
 ht-degree: 8%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 8%
 **設定並整合**
 
 * [設定忠誠度挑戰](loyalty-admin.md)
+* [獎勵定義指南](reward-definition-guide.md)
+* [事件轉換器指南](event-transformer-guide.md)
 * **忠誠度資料和資料集** ◀︎ **您在這裡**
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -82,9 +84,9 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;類別中挑戰對象、個人化和報告使用設定檔。 將您用於忠誠度挑戰的身分識別[名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}與設定檔資料中的成員識別方式以及在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表的&#x200B;**[!UICONTROL 全域設定]**&#x200B;中選取的名稱空間對齊。
 
-對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
+對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### 體驗事件 {#experience-events}
 

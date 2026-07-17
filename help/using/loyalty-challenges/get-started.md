@@ -12,11 +12,10 @@ badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 906
 ht-degree: 16%
 
 ---
@@ -46,6 +45,8 @@ ht-degree: 16%
 **設定並整合**
 
 * [設定忠誠度挑戰](loyalty-admin.md)
+* [獎勵定義指南](reward-definition-guide.md)
+* [事件轉換器指南](event-transformer-guide.md)
 * [熟客資料與資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -212,7 +213,7 @@ ht-degree: 16%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
