@@ -1,45 +1,44 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用運算式助理來產生運算式
-description: 瞭解如何使用Adobe Journey Optimizer中的運算式輔助程式，透過自然語言提示直接在Journey進階運算式編輯器中產生運算式。
+title: 使用AI產生運算式
+description: 瞭解如何在Adobe Journey Optimizer中使用AI，使用自然語言提示直接在Journey進階運算式編輯器中產生運算式。
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 7%
+source-wordcount: 1132
+ht-degree: 2%
 
 ---
 
 
-# 使用運算式助理來產生運算式 {#expression-agent}
+# 使用AI產生運算式 {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用運算式助理來產生運算式"
->abstract="運算式助理會使用生成式 AI，協助您直接在歷程進階運算式編輯器中建立和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以簡單明瞭的語言描述您所需的內容時，助理就會為您產生對應的運算式。"
+>title="使用AI產生運算式"
+>abstract="使用AI直接在Journey進階運算式編輯器中建置和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以純文字描述所需的內容時，AI會為您產生對應的運算式。"
 
 >[!AVAILABILITY]
 >
 >此功能目前在&#x200B;**公開測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../../rn/releases.md)。
 >
->在使用Expression Assistant之前，請先閱讀適用於Journey Optimizer中產生AI功能的相關[護欄和限制](../../content-management/gs-generative.md#generative-guardrails)。
+在使用此功能之前，請先閱讀適用於Journey Optimizer中產生AI功能的相關[護欄和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
-Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯器中。 它可幫助您從純語言提示產生有效的運算式。
+此AI支援的功能，內建在Journey進階運算式編輯器中，可幫助您從純語言提示產生有效的運算式。
 
 在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
 
 ## 產生運算式 {#generate}
 
-若要使用「運算式輔助程式」產生運算式：
+若要使用AI產生運算式：
 
 1. 在您的歷程中開啟&#x200B;**[!UICONTROL 進階運算式編輯器]**，例如從分支條件、**[!UICONTROL 最佳化]**&#x200B;活動或具有自訂日期的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。
 
@@ -103,42 +102,42 @@ Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯
 
 如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
 
-* **TL；DR：**&#x200B;此頁面說明Expression Assistant，這是Journey進階運算式編輯器中AI支援的功能，可從純語言提示產生有效的歷程運算式。
+* **TL；DR：**&#x200B;此頁面說明如何在Journey進階運算式編輯器中使用AI，從純語言提示產生有效的歷程運算式。
 
 **意圖：**
 
-* 使用運算式助理從自然語言說明產生歷程運算式
+* 使用AI從自然語言說明產生歷程運算式
 * 使用套用按鈕，將產生的運算式直接套用至進階運算式編輯器
-* 在最佳化活動、條件活動和自訂日期等待活動中使用運算式助理
+* 在最佳化活動、條件活動和自訂日期等待活動內使用AI型運算式產生
 * 提供事件型條件和`dateTimeOnly`等待運算式的範例提示
 * 修改提示以參考有效欄位名稱和資料來源，以疑難排解失敗的產生
 
 **字彙表：**
 
-* **Expression Assistant**：內嵌於Journey Advanced運算式編輯器中的AI支援產生功能，可將純文字提示轉換為有效的歷程運算式&#x200B;*（產品專用）*
+* **使用AI產生運算式**：內嵌於Journey Advanced運算式編輯器中的AI支援產生功能，可將純文字提示轉換為有效的歷程運算式&#x200B;*（產品專用）*
 * **進階運算式編輯器**：在條件、等待活動及動作引數對應&#x200B;*（產品特定）*&#x200B;中寫入複雜運算式的Journey Optimizer介面
 * **dateTimeOnly**：不含時區的日期 — 時間運算式型別，自訂日期等待活動&#x200B;*（產品特定）*&#x200B;所需
 * **最佳化活動**：支援分支條件的歷程活動，可透過進階運算式編輯器&#x200B;*（產品特定）*&#x200B;設定
 
 **護欄：**
 
-* Expression Assistant目前在&#x200B;**公開測試版**&#x200B;中 — 可用性和行為可能會變更
+* 使用AI產生運算式目前在&#x200B;**公開測試版**&#x200B;中 — 可用性和行為可能會改變
 * 主要AI Assistant檔案中的創作AI護欄和限制適用於此功能
 * 如果助理參考的欄位未出現在您歷程的資料來源中，則會傳回錯誤 — 請修改提示以使用可用的欄位名稱
 * 確切產生的運算式語法取決於特定歷程中設定的欄位和活動
 
 **術語：**
 
-* 正式名稱：運算式助理 — 縮寫：none — 變體：運算式AI、歷程運算式產生器
-* 同義字： &quot;Expression Assistant&quot; = &quot;AI運算式產生器&quot;
-* 請勿混淆： Expression Assistant （AI支援的產生器）≠進階運算式編輯器（手動程式碼編輯器本身）
+* 正式名稱：使用AI產生運算式 — 縮寫：none — 變體：AI運算式產生、歷程運算式產生器
+* 同義字： &quot;使用AI產生運算式&quot; = &quot;AI運算式產生器&quot;
+* 請勿混淆：使用AI （AI支援的產生器）≠進階運算式編輯器（手動程式碼編輯器本身）產生運算式
 
 **常見問題集：**
 
-* **問：哪裡可以使用Expression Assistant？**  — 可在歷程進階運算式編輯器開啟的任何位置使用，包括條件活動、最佳化活動以及具有自訂日期的等待活動。
-* **問：如果助理無法產生有效的運算式會發生什麼情況？**  — 出現錯誤訊息；您應該修訂提示，使用歷程設定中存在的欄位名稱和資料來源。
+* **問：哪裡可以使用AI產生Generate運算式？**  — 可在歷程進階運算式編輯器開啟的任何位置使用，包括條件活動、最佳化活動以及具有自訂日期的等待活動。
+* **問：如果AI無法產生有效的運算式會發生什麼事？**  — 出現錯誤訊息；您應該修訂提示，使用歷程設定中存在的欄位名稱和資料來源。
 * **問：如何將產生的運算式插入編輯器？**  — 按一下助理面板中的&#x200B;**套用**&#x200B;按鈕，將它直接插入進階運算式編輯器中目前游標位置。
-* **問：運算式助理可以產生`dateTimeOnly`等待活動的運算式嗎？**  — 是；例如，提示「從現在起的30天下午10點僅作為日期時間」會產生適當的`dateTimeOnly`運算式。
-* **問：運算式助理一般可用嗎？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
+* **問：可以使用AI產生運算式，為等待活動建立`dateTimeOnly`運算式嗎？**  — 是；例如，提示「從現在起的30天下午10點僅作為日期時間」會產生適當的`dateTimeOnly`運算式。
+* **問：使用AI產生運算式是否一般可用？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
 
 +++
