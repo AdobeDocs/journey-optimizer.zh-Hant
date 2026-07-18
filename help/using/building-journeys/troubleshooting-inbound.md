@@ -239,7 +239,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 - [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)
 -->
 
 +++ AI知識參考

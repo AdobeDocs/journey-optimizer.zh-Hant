@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=zh-Hant)
 
 輪廓：管理和最佳化客戶資料
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的客群、輪廓和身分依賴 [Adobe 即時客戶
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 授權使用情況儀表板
 

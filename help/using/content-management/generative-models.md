@@ -71,7 +71,7 @@ ht-degree: 2%
 
 透過建立自訂Firefly模型提供者，您可以將AI功能擴展至預設模型之外，並確保產生的內容一致地反映您品牌獨特的審美觀和要求。
 
-➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [瞭解如何訓練您的自訂模型](https://helpx.adobe.com/tw/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. 從&#x200B;**[!UICONTROL 品牌]**&#x200B;功能表，存取&#x200B;**[!UICONTROL 產生式模型]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增模型]**。
 
