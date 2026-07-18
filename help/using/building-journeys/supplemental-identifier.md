@@ -277,7 +277,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`預設為`false`。 它必須在建立對象時設定，並且無法在建立後變更。 所有同盟對象構成對象預設都會啟用「快速啟動」，不需要此標幟。
 
-如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
+如需完整參考資訊，請參閱[建立外部對象API檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}。
 
 +++
 
