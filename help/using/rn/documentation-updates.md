@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
+source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
 workflow-type: tm+mt
-source-wordcount: 9505
-ht-degree: 86%
+source-wordcount: 9560
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 86%
 ## 2026年7月 {#july-2026}
 
 * **結束歷程**&#x200B;頁面已更新，以釐清非循環讀取對象歷程的自動停止時間：排程執行後約&#x200B;**96小時（~4天）**&#x200B;的安全緩衝區（24小時閒置視窗+ 72小時無訊息允許時間），在此期間歷程可在緩衝結束後不久轉換為&#x200B;**已停止**&#x200B;之前維持&#x200B;**即時**&#x200B;狀態。 頁面現在也釐清以波段（多波段）為基礎的歷程，以及使用傳送時間最佳化的歷程，會從此自動停止中排除，而是遵循標準91天歷程逾時。 [閱讀更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* **建立IP熱身行銷活動**&#x200B;頁面已更新，以釐清目標規則可套用至IP熱身行銷活動，並記錄評估行為：對象成員資格在執行啟動（每日批次細分）時修正，而設定檔屬性在執行階段從最近擷取的批次資料中讀取。 [閱讀更多](../configuration/ip-warmup-campaign.md)
 
 * **編輯PTR記錄**&#x200B;頁面已新增警告，以通知客戶在將新的轉送DNS記錄新增至其平台時，必須等到移動完成後才能移除舊子網域的轉送DNS記錄，因為這樣做會導致編輯失敗。 [閱讀更多](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
