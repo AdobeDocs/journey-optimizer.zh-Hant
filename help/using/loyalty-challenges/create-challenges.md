@@ -11,10 +11,10 @@ hide: true
 badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 11%
+source-wordcount: '2578'
+ht-degree: 9%
 
 ---
 
@@ -59,6 +59,16 @@ ht-degree: 11%
 >此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 本頁涵蓋建立忠誠度挑戰的完整流程，從選擇挑戰型別和設定設定、結構、內容和訊息，到產生和發佈將挑戰傳遞給客戶的歷程。
+
+建立質疑涉及以下步驟：
+
+1. **[建立挑戰](#create-the-challenge)** — 選取挑戰型別並開啟挑戰編輯器。
+1. **[設定設定](#settings)** — 定義挑戰名稱、對象、排程、選擇加入規則和重複限制。
+1. **[設定結構](#structure)** — 新增任務和獎勵（不適用於「自攜」資料挑戰）。
+1. **[設定內容](#configure-content-cards)** *（選擇性）* — 定義使用內容卡或程式碼式體驗對成員顯示挑戰的方式。
+1. **[設定訊息](#configure-messaging)** *（選擇性）* — 設定Launch、In-progress和End階段的通道訊息。
+1. **[發佈挑戰](#launch)** — 讓挑戰可用於產生歷程。
+1. **[產生並發佈歷程](#launch)** — 觸發自動產生的歷程，將挑戰傳遞給客戶。
 
 ## 建立挑戰 {#create-the-challenge}
 
@@ -231,10 +241,6 @@ ht-degree: 11%
 
    +++
 
-1. 依預設，標準和循序挑戰可讓客戶跨多個交易完成任務。 若要要求所有工作均在單一異動中完成，請開啟[工作選項]功能表，然後開啟[單一異動]選項。
-
-   ![](assets/challenge-create-single-transaction.png)
-
 將任務新增至挑戰後，請設定客戶完成任務即可獲得的獎勵。
 
 ### 設定獎勵 {#rewards}
@@ -315,50 +321,75 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="傳送訊息"
->abstract="傳送訊息有助於推動挑戰生命週期內的參與。 在「傳送訊息」索引標籤上，針對每個階段新增訊息：啟動 (挑戰開始時)、進行中 (提醒和進度更新) 以及完成 (慶祝成功並確認獎勵)。 針對每個階段新增訊息、選擇管道、選取管道設定，然後選取「編輯」，設計訊息內容。"
+>abstract="傳送訊息有助於推動挑戰生命週期內的參與。 在「訊息」標籤上，為每個階段新增訊息：啟動（宣佈挑戰並邀請參與者加入）、進行中（讓參與者參與並完成任務）以及結束（慶祝完成並通知參與者其獎勵）。 針對每個階段，按一下新增訊息按鈕、選擇頻道、選取頻道設定，然後選取「編輯」以設計訊息內容。"
 
 設定多管道訊息，在挑戰生命週期的關鍵階段與客戶互動。 傳訊功能為選用，但建議儘量擴大客戶參與度。
 
-1. 導覽至&#x200B;**[!UICONTROL 傳訊]**&#x200B;標籤，並為每個生命週期階段設定訊息：
+導覽至&#x200B;**[!UICONTROL 傳訊]**&#x200B;標籤，並為每個生命週期階段設定訊息：
 
-   * **啟動**&#x200B;訊息：當挑戰開始時通知客戶
-   * **進行中**&#x200B;訊息：讓客戶持續參與提醒和進度更新
-   * **完成**&#x200B;訊息：慶祝成功並確認獎勵配置
+* **[!UICONTROL 啟動]**：宣佈挑戰並邀請參與者加入。
+* **[!UICONTROL 進行中]**：讓參與者持續參與並完成工作。
+* **[!UICONTROL 結束]**：慶祝完成並通知參與者其獎勵。
 
-1. 對於每個階段，按一下新增訊息按鈕，以建立該階段的訊息。
+對於每個階段，按一下新增訊息按鈕（**[!UICONTROL 新增啟動訊息]**、**[!UICONTROL 新增進行中訊息]**&#x200B;或&#x200B;**[!UICONTROL 新增已結束的挑戰訊息]**）並選擇頻道。
 
-1. 選擇您想要的頻道： **[!UICONTROL 應用程式內]**、**[!UICONTROL 電子郵件]**&#x200B;或&#x200B;**[!UICONTROL 推播通知]**，並選取相關的頻道設定。
+選取相關的&#x200B;**[!UICONTROL 頻道設定]**&#x200B;並按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;來設計您的訊息內容。
 
-1. 選取![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選擇&#x200B;**[!UICONTROL 編輯]**&#x200B;來設計您的訊息內容。
+![](assets/challenge-create-messaging.png)
 
-   ![](assets/challenge-create-messaging.png)
-
-在以下章節中瞭解如何建立特定頻道的訊息： [應用程式內訊息](../in-app/get-started-in-app.md) - [電子郵件訊息](../email/get-started-email.md) - [推播通知](../push/get-started-push.md)
+| 管道 | 說明 |
+|---|---|
+| **[!UICONTROL 應用程式內]** | 在您的行動或網頁應用程式中顯示訊息。 [關於應用程式內訊息](../in-app/get-started-in-app.md) · [設計應用程式內訊息](../in-app/design-in-app.md) |
+| **[!UICONTROL 電子郵件]** | 傳送電子郵件通知。 [關於電子郵件](../email/get-started-email.md) · [設計電子郵件內容](../email/get-started-email-design.md) |
+| **[!UICONTROL 推播通知]** | 傳送推播通知至行動裝置。 [關於推播通知](../push/get-started-push.md) · [設計推播通知](../push/design-push.md) |
+| **[!UICONTROL 內容卡]** | 在應用程式或網頁介面中提供永續性卡片式訊息。 [關於內容卡](../content-card/get-started-content-card.md) · [設計內容卡](../content-card/design-content-card.md) |
+| **[!UICONTROL 程式碼型體驗]** | 使用AJO的程式碼型通道，透過自訂實作傳遞內容。 [關於程式碼型體驗](../code-based/get-started-code-based.md) · [建立程式碼型體驗](../code-based/create-code-based.md) |
+| **[!UICONTROL 自訂動作]** | 觸發外部系統或自訂端點。 [關於自訂動作](../action/about-custom-action-configuration.md) |
 
 您的挑戰現在已完整設定其設定、結構、內容和訊息。 若要啟動它，您必須發佈挑戰及其相關歷程。
 
 ## 發起挑戰 {#launch}
 
-啟動挑戰需要&#x200B;**三個步驟**： (1)發佈挑戰、(2)產生歷程、(3)發佈歷程。 必須完成全部三個步驟，才能將挑戰傳遞給客戶。
+您有兩個選項可以啟動您的挑戰：
+
+* **[!UICONTROL 發佈挑戰]** （可在&#x200B;**[!UICONTROL ...]**&#x200B;功能表中取得） — 使用此選項發佈挑戰，而不產生歷程。 這可讓您在傳送前測試、預覽和模擬挑戰體驗。 在您產生並發佈歷程之前，客戶不會收到挑戰。
+
+* **[!UICONTROL 產生歷程]** — 使用此選項可自動發佈挑戰，並建立將協調您的挑戰傳送給客戶的歷程。
+
+### 發佈挑戰 {#publish-challenge}
 
 1. 請檢閱您的挑戰設定，以確保所有必填欄位都已完成。
 
-1. 按一下![](assets/do-not-localize/Smock_More_18_N.svg)圖示並選取&#x200B;**[!UICONTROL 發佈]**。
+1. 按一下&#x200B;**[!UICONTROL 產生歷程]**&#x200B;按鈕旁的![](assets/do-not-localize/Smock_More_18_N.svg)圖示，然後選取&#x200B;**[!UICONTROL 發佈]**。
 
    ![](assets/challenge-create-publish.png)
 
-1. 選取&#x200B;**[!UICONTROL 產生歷程]**&#x200B;以建立將協調您的挑戰傳遞的歷程。
+   系統會將您重新導向至挑戰詳細目錄。 挑戰現在顯示為&#x200B;**[!UICONTROL 已發佈]**&#x200B;狀態。
+
+   當您準備好將挑戰傳遞給客戶時，您可以產生關聯的歷程。 如需詳細資訊，請參閱[產生歷程](#generate-journey)。
+
+### 產生歷程 {#generate-journey}
+
+1. 請檢閱您的挑戰設定，以確保所有必填欄位都已完成。
+
+1. 選取&#x200B;**[!UICONTROL 產生歷程]**&#x200B;以自動發佈挑戰，並建立將協調挑戰傳遞的歷程。
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer會自動建立狀態為「草稿」的歷程。 歷程會以名稱格式&#x200B;*「歷程： [挑戰名稱]」*&#x200B;出現在您的歷程詳細目錄中。 [進一步瞭解歷程詳細目錄](../building-journeys/journey-ui.md)。
+   確認訊息隨即顯示。 按一下&#x200B;**[!UICONTROL 開啟歷程]**&#x200B;直接導覽至產生的歷程，或按一下&#x200B;**[!UICONTROL 認可]**&#x200B;關閉歷程並於稍後存取歷程。
+
+   >[!IMPORTANT]
+   >
+   >任何挑戰變更必須在「忠誠度挑戰」編輯器中進行，且需要您產生新歷程。 如果您變更挑戰，直接在現有挑戰歷程中完成的任何工作都將遺失。
+
+1. 開啟產生的歷程並發佈。 歷程以&#x200B;**草稿**&#x200B;狀態顯示，名稱格式為&#x200B;*&quot;歷程： [挑戰名稱]&quot;*，可從下列位置存取：
+
+   * 上一步的確認訊息 — 按一下&#x200B;**[!UICONTROL 開啟歷程]**。
+   * **挑戰詳細目錄** — 使用挑戰旁邊的&#x200B;**[!UICONTROL 歷程]**&#x200B;資料行連結。
+   * **歷程詳細目錄** — 依名稱尋找歷程。
+
+   發佈後，歷程會在您指定的挑戰開始日期自動開始。 [瞭解如何發佈歷程](../building-journeys/publish-journey.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. 開啟歷程並發佈。 歷程將在您指定的挑戰開始日期自動開始，並根據您的設定傳送內容和訊息。 [瞭解如何發佈歷程](../building-journeys/publish-journey.md)。
-
 1. 一旦您的挑戰上線，請在[忠誠度挑戰報告](loyalty-reporting.md)中監視方案KPI、挑戰結果和任務層級量度。 您也可以在[歷程報告](../reports/journey-global-report-cja.md)中監視訊息傳遞。
-
->[!NOTE]
->
->可以自訂自動產生的歷程，以新增其他邏輯或訊息。 不過，直接對歷程進行的變更不會同步回挑戰設定。 如果您稍後編輯挑戰，則重新產生歷程時，所有歷程自訂都將遺失。
