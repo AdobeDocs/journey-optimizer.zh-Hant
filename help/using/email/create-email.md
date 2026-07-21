@@ -183,27 +183,27 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告**&#x200B;參考建議和最佳實務，例如：
 
-   * **[!UICONTROL 電子郵件內文中不存在選擇退出的連結]**：將取消訂閱連結新增至您的電子郵件內文是最佳做法。 在[本節](../privacy/opt-out.md#opt-out-decision-management)中瞭解如何進行設定。
+  * **[!UICONTROL 電子郵件內文中不存在選擇退出的連結]**：將取消訂閱連結新增至您的電子郵件內文是最佳做法。 在[本節](../privacy/opt-out.md#opt-out-decision-management)中瞭解如何進行設定。
 
-     >[!NOTE]
-     >
-     >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）是在[頻道設定](email-settings.md#email-type)層級，以及[從歷程或行銷活動建立訊息](#create-email-journey-campaign)時定義的。
+    >[!NOTE]
+    >
+    >行銷類電子郵件務必要加入選擇退出連結，管理異動類的訊息則非必要。 訊息類別（**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**）是在[頻道設定](email-settings.md#email-type)層級，以及[從歷程或行銷活動建立訊息](#create-email-journey-campaign)時定義的。
 
-   * **[!UICONTROL HTML的文字版本是空的]**：別忘了定義您的電子郵件內文的文字版本，因為當HTML內容無法顯示時，將會使用此版本。 瞭解如何在[本節](text-version-email.md)中建立文字版本。
+  * **[!UICONTROL HTML的文字版本是空的]**：別忘了定義您的電子郵件內文的文字版本，因為當HTML內容無法顯示時，將會使用此版本。 瞭解如何在[本節](text-version-email.md)中建立文字版本。
 
-   * **[!UICONTROL 電子郵件內文中出現空白連結]**：檢查您電子郵件中的所有連結是否正確。 在[本節](content-from-scratch.md)中瞭解如何管理內容和連結。
+  * **[!UICONTROL 電子郵件內文中出現空白連結]**：檢查您電子郵件中的所有連結是否正確。 在[本節](content-from-scratch.md)中瞭解如何管理內容和連結。
 
-   * **[!UICONTROL 電子郵件大小已超過100KB的限制]**：若要取得最佳傳遞，請確定您的電子郵件大小不超過100KB。 若要減少HTML大小，請使用&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項。 [了解更多](#optimize-html-size)
+  * **[!UICONTROL 電子郵件大小已超過100KB的限制]**：若要取得最佳傳遞，請確定您的電子郵件大小不超過100KB。 若要減少HTML大小，請使用&#x200B;**[!UICONTROL 最佳化HTML大小]**&#x200B;選項。 [了解更多](#optimize-html-size)
 
 * **錯誤**&#x200B;會阻止您測試或啟用歷程/行銷活動，只要這些錯誤未解決，例如：
 
-   * **[!UICONTROL 主旨列遺失]**：電子郵件主旨列是必要的。 在[本節](create-email.md)中瞭解如何定義和個人化它。
+  * **[!UICONTROL 主旨列遺失]**：電子郵件主旨列是必要的。 在[本節](create-email.md)中瞭解如何定義和個人化它。
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL 郵件的電子郵件版本是空的]**：尚未設定電子郵件內容時，會顯示此錯誤。 在[本節](get-started-email-design.md)中瞭解如何設計電子郵件內容。
+  * **[!UICONTROL 郵件的電子郵件版本是空的]**：尚未設定電子郵件內容時，會顯示此錯誤。 在[本節](get-started-email-design.md)中瞭解如何設計電子郵件內容。
 
-   * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
+  * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
 
 >[!CAUTION]
 >
@@ -214,7 +214,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="縮減 HTML 大小"
->abstract="啟用此選項可移除不必要的空白和縮排，以在發佈期間壓縮電子郵件HTML。 這樣可以避免在 Gmail 一類用戶端中發生電子郵件內容截斷的狀況，因為用戶端會截斷超過 100 KB 大小的郵件。 請注意，使用多語言電子郵件時，所有地區設定都預設啟用此選項。"
+>abstract="啟用此選項可移除不必要的空白字元和縮排，以便在發佈時壓縮電子郵件 HTML。 這樣可以避免在 Gmail 一類用戶端中發生電子郵件內容截斷的狀況，因為用戶端會截斷超過 100 KB 大小的郵件。 請注意，使用多語言電子郵件時，所有地區設定都預設啟用此選項。"
 
 [!DNL Journey Optimizer]可讓您移除不必要的空白字元和縮排，在發佈程式期間壓縮電子郵件HTML版本。 保持HTML小型化可協助您：
 

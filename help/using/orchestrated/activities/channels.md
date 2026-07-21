@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="目標"
->abstract="**[!UICONTROL Target]**&#x200B;區段會設定此管道活動的傳遞目標。 使用&#x200B;**[!UICONTROL 目標維度]**&#x200B;來選取要套用至此傳送的目標維度。 然後，選擇&#x200B;**[!UICONTROL 每個設定檔一則訊息]**&#x200B;以便每人傳送一則訊息，或選擇&#x200B;**[!UICONTROL 每個次要維度一則訊息]**&#x200B;以便每個合格的次要維度傳送一則訊息 — 例如，當同一旅客有多個相符的航班時，每個航班傳送一封電子郵件。"
+>abstract="「**[!UICONTROL 目標]**」區段會設定此管道活動的傳遞目標。 使用「**[!UICONTROL 目標維度]**」選取要套用於此傳送的目標維度。 然後選擇「**[!UICONTROL 每個輪廓一則訊息]**」，對每個人傳送一則訊息，或選擇「**[!UICONTROL 每個次要維度一則訊息]**」，向每個符合條件的次要維度傳送一則訊息，例如當同一旅客有多個相符的航班時，對每個航班傳送一封電子郵件。"
 
 <!--
 UNUSED IDs in BJ
