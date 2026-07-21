@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
@@ -108,40 +108,28 @@ ht-degree: 1%
 | 欄位 | 必要 | 附註 |
 |--------------------------------|--------------------|-------|
 | `loyalty_identity` | **是** | 必須包含`id` — 成員的忠誠度識別碼。 |
-| `item_list` | **是** | 必須至少包含一個專案。 空白`item_list`會導致事件因無效而被拒絕。 |
-| `item_set` | **是** （每個專案） | 此陣列中的識別碼是挑戰任務包含/排除清單的相符專案。 包含每個相關的識別碼 — SKU、產品類別、部門代碼、事件名稱 — 以便任務篩選器可正確運作。 |
+| `item_list` | **是** | 必須有≥1個專案；空的item_list被拒絕。 |
+| `item_set` | **是** （每個專案） | 比對的識別碼工作包含/排除清單。 |
 | `timestamp` | **是** | 用於日期視窗評估。 必須是ISO 8601。 |
-| `utc_offset` | 建議 | 日時段比對和計算連續日連線時需要。 如果省略，則會略過時段評估和連續日期計數。 |
-| `_id` | 無 | 如果已為組織啟用重複資料偵測，Challenge Service會拒絕已處理`_id`的事件。 |
-| `sub_total` | 無 | 用於支出臨界值工作。 如果省略，則專案貢獻零支出。 |
+| `utc_offset` | 建議 | 日時段比對和連續日計數所需。 |
+| `_id` | 無 | 若組織已啟用重複資料偵測，則用於重複資料刪除。 |
+| `sub_total` | 無 | 花費臨界值任務會使用它；省略表示零支出。 |
 
 ## 事件定義欄位
 
 | 欄位 | 類型 | 必要 | 說明 |
 |--------------------------------|------------------|----------------------|-------------|
-| `guid` | 字串 | 否（系統指派） | 建立時指派的唯一識別碼。 唯讀。 |
+| `guid` | 字串 | 否（系統指派） | 系統指派的唯一識別碼；唯讀。 |
 | `name` | 字串 | **是** | 人類可讀的標籤，例如`"Starbucks POS Purchase"`。 |
-| `xdmSchemaId` | 字串 | 否* | XDM結構描述ID用於比對透過&#x200B;**DCCS擷取路由**&#x200B;到達的事件。 平台會讀取內嵌在傳入事件中的結構描述參考，並將其與此值比較。 |
-| `identifierPath` | 字串 | 否* | 事件JSON中的點標籤法路徑，用來比對透過&#x200B;**直接HTTP路由(adobe.io)**&#x200B;到達的事件。 平台會讀取此路徑的值，並根據`identifier`檢查它。 |
-| `identifier` | 字串陣列 | 無 | 預期值為`identifierPath`。 如果提供且非空白，則路徑上的值必須符合這些值之一。 如果為空，則路徑中具有值的任何事件都會相符。 |
-| `schema` | 字串 | 否 | [JSON結構描述](https://json-schema.org/)檔案（作為JSON字串），用於在轉換之前驗證傳入的事件。 如果驗證失敗，則會以描述性錯誤拒絕事件。 |
-| `transformer` | 字串 | **是** | 將傳入事件對應至Adobe忠誠度事件格式的JSONata運算式。 |
-
-\*至少必須提供`xdmSchemaId`或`identifierPath`其中之一。
+| `xdmSchemaId` | 字串 | **是** | 依XDM結構描述ID比對事件（請參閱比對的運作方式）。 |
+| `schema` | 字串 | 否 | [JSON結構描述](https://json-schema.org/) （以字串形式）來驗證傳入的事件。 |
+| `transformer` | 字串 | **是** | 將事件對應至忠誠度格式的JSONata運算式。 |
 
 ## 比對的運作方式
 
-相符策略取決於事件到達平台的方式：
+透過資料收集核心服務(DCCS)到達的事件在其信封中附帶XDM結構描述參考。 平台會從`/body/xdmMeta/schemaRef/id`讀取結構描述ID，並將其與每個定義的`xdmSchemaId`做比較。
 
-**DCCS擷取路由** — 透過資料收集核心服務(DCCS)到達的事件在其信封中附有XDM結構描述參考。 平台會從`/body/xdmMeta/schemaRef/id`讀取結構描述ID，並將其與每個定義的`xdmSchemaId`做比較。 針對此路由的定義設定`xdmSchemaId`。
-
-**直接HTTP路由(adobe.io)** — 透過adobe.io API直接發佈至平台的事件不包含XDM結構描述參考。 平台改為使用`identifierPath`周遊事件JSON，並檢查在那裡找到的值：
-* 如果`identifier`不是空的：值必須符合其中一個設定的字串。
-* 如果`identifier`是空的：任何在路徑有非null值的事件都是相符的。
-
-針對此路由的定義設定`identifierPath` （以及選擇性的`identifier`）。
-
-平台會依順序&#x200B;**逐步執行組織的事件定義**&#x200B;並套用第一個相符專案。 找到相符專案後，`xdmEntity`內文（針對DCCS事件）或完整事件內文（針對直接HTTP事件）會傳遞至轉換器。
+平台會依順序&#x200B;**逐步執行組織的事件定義**&#x200B;並套用第一個相符專案。 找到相符專案後，`xdmEntity`主體會傳遞給轉換器。
 
 ## 寫入轉換器
 
@@ -291,10 +279,9 @@ ht-degree: 1%
 
 ```json
 {
-  "name":           "Mobile Store Check-In",
-  "identifierPath": "eventName",
-  "identifier":     ["store-checkin"],
-  "transformer":    "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
+  "name":        "Mobile Store Check-In",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/store-checkin-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
 }
 ```
 
@@ -366,10 +353,9 @@ ht-degree: 1%
 
 ```json
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
 }
 ```
 
@@ -550,10 +536,9 @@ x-sandbox-name: {SANDBOX}
 Content-Type: application/json
 
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{ ... }"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{ ... }"
 }
 ```
 
