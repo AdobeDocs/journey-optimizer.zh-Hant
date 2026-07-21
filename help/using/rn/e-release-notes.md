@@ -7,9 +7,14 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: c6fd0f81f39777f81758ade2bc93bd311bc10e23
 workflow-type: tm+mt
 source-wordcount: 2337
@@ -186,7 +191,7 @@ Journey Optimizer推出入門中心，此版本的新功能。
 
 * **檢視協調的行銷活動轉換許可權** — 新的&#x200B;**檢視協調的行銷活動轉換**&#x200B;許可權會取代舊版的&#x200B;**檢視協調的行銷活動檔案**&#x200B;選項。 此變更可讓您在行銷活動轉變中隱藏預覽結果，以支援PII法規遵循。 ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
 
-* Line **的**[ OC]支援 — 您現在可以直接新增LINE動作至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (有限可用性)。 若想取得存取權，請聯絡您的 Adobe 代表。 ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* Line **的**&#x200B;[ OC]支援 — 您現在可以直接新增LINE動作至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (有限可用性)。 若想取得存取權，請聯絡您的 Adobe 代表。 ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
 
 * **新協調行銷活動公開API** — 現已為協調行銷活動提供新API規格。 這些API可讓您以程式設計方式建立、管理和觸發協調的行銷活動，實現與外部系統和自動化管道的更深層整合。 ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
 
