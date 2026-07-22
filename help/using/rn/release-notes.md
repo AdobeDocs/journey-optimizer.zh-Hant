@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: f8c463ae9baa6a106c6aec83bbe44cb60b3ed167
 workflow-type: tm+mt
-source-wordcount: 3064
-ht-degree: 74%
+source-wordcount: 3111
+ht-degree: 73%
 
 ---
 
@@ -95,6 +95,8 @@ ht-degree: 74%
 * **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
 
   推出日期： 2026年7月9日
+
+* **資料集存留時間(TTL)護欄 — 現有的沙箱** - Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將從&#x200B;**2026年10月1日起，在**&#x200B;現有的客戶沙箱和組織&#x200B;**上強制執行**。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
 
 
 ### 可用性改進功能 {#july-26-usability}
