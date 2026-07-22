@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 6f12c9d87f9a12bfe5d43c984439c066e881b680
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 98%
+source-wordcount: 1650
+ht-degree: 90%
 
 ---
 
@@ -391,3 +391,39 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_orchestration_line"
 >title="Line 活動"
 >abstract="**Line** 活動可讓您將 LINE 動作新增至您的協調行銷活動。 建立個人化內容 (從文字和貼圖到影像、影片、位置及 Flex 訊息)，以吸引 LINE 上的客戶。"
+
+
+<!-- Onboarding hub -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_connection_name"
+>title="連線名稱"
+>abstract="識別來源系統的描述性名稱（例如「Marketing-Automation-Prod」）。 開頭必須是字母，而且只能包含英數、底線或連字型大小（4-50個字元）。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_base_api_url"
+>title="基本API URL"
+>abstract="API的根URL，不含資源路徑或查詢字串，例如https://api.example.com。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_authentication_method"
+>title="選擇驗證方法"
+>abstract="API金鑰會隨每個請求傳送單一認證，而OAuth 2.0則使用權杖型通訊協定，該通訊協定更適合企業和第三方API。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_id"
+>title="用戶端 ID"
+>abstract="您的應用程式的公用識別碼，會在您向授權伺服器註冊時發出。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_secret"
+>title="使用者端密碼"
+>abstract="只有應用程式和授權伺服器才知道的機密認證。 切勿在使用者端程式碼中公開。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_token_url"
+>title="權杖URL"
+>abstract="發出使用者端憑證流程存取權杖的授權伺服器端點，通常以/oauth/token或/token結尾。"
+

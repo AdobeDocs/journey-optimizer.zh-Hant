@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 9560
+source-wordcount: 9592
 ht-degree: 85%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 85%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* 已更新&#x200B;**To Precision**&#x200B;函式檔案，以澄清`toPrecision`的行為類似於JavaScript `toFixed()`：它會傳回具有固定小數位數的字串，包括必要時使用填零字元。 [閱讀更多](../personalization/functions/math.md#to-precision)
 
 * **結束歷程**&#x200B;頁面已更新，以釐清非循環讀取對象歷程的自動停止時間：排程執行後約&#x200B;**96小時（~4天）**&#x200B;的安全緩衝區（24小時閒置視窗+ 72小時無訊息允許時間），在此期間歷程可在緩衝結束後不久轉換為&#x200B;**已停止**&#x200B;之前維持&#x200B;**即時**&#x200B;狀態。 頁面現在也釐清以波段（多波段）為基礎的歷程，以及使用傳送時間最佳化的歷程，會從此自動停止中排除，而是遵循標準91天歷程逾時。 [閱讀更多](../building-journeys/end-journey.md#auto-stop-non-recurring)
 

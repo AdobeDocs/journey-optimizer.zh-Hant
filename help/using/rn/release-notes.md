@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f8c463ae9baa6a106c6aec83bbe44cb60b3ed167
+source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
 workflow-type: tm+mt
-source-wordcount: 3111
-ht-degree: 73%
+source-wordcount: 3115
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的內容檢查功能</strong><br/></th>
+<th><strong>電子郵件Designer中的內容檢查（一般可用性）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -355,7 +355,7 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件設計工具中的內容檢查功能</strong><br/></th>
+<th><strong>電子郵件Designer中的內容檢查（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
