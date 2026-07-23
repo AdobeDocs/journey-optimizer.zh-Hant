@@ -13,7 +13,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
+source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1731
 ht-degree: 1%
@@ -689,3 +689,4 @@ x-sandbox-name: {SANDBOX}
 對於DCCS事件，轉換器只會接收`xdmEntity`內文，而不會接收外部AJO信封。 所有路徑都必須相對於XDM實體根。 如果您的運算式參考位於外部信封中的欄位（例如`/body/xdmMeta/...`），將無法找到這些欄位，而且會無訊息地產生null。
 
 +++
+
