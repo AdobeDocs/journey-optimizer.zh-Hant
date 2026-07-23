@@ -12,7 +12,7 @@ badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯器中。 它可幫助您從純語言提示產生有效的運算式。
 
-在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
+在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
 
 ## 產生運算式 {#generate}
 
@@ -137,4 +137,3 @@ Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯
 * **問：運算式助理一般可用嗎？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
 
 +++
-
