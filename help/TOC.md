@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
 workflow-type: tm+mt
-source-wordcount: '3482'
+source-wordcount: '3477'
 ht-degree: 95%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
   + [發行週期](using/rn/releases.md)
-  + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
+  + [搶鮮版發行說明](using/rn/e-release-notes.md)
   + [最新發行說明](using/rn/release-notes.md)
   + 舊版發行說明 {#previous-rn-new}
     + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -599,8 +599,8 @@ ht-degree: 95%
       + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
   + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-  + 客群 {#audiences}
-    + [客群](/help/rp_landing_pages/audiences-landing-page.md)
+  + 對象 {#audiences}
+    + [對象](/help/rp_landing_pages/audiences-landing-page.md)
     + [開始使用 Audiences](using/audience/about-audiences.md)
     + 建立客群 {#create}
       + [建立客群](/help/rp_landing_pages/create-landing-page.md)
