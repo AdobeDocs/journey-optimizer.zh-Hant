@@ -5,10 +5,10 @@ title: 品牌
 description: 瞭解如何在 Journey Optimizer 中建立、管理和個人化品牌指引，以確保所有行銷活動中的內容一致且符合品牌形象。
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
@@ -60,3 +60,7 @@ ht-degree: 100%
 :::
 
 ::::
+
+## 其他資源
+
+- **[參加課程：由AI支援的品牌內內容建立](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 瞭解如何使用AI支援的工具在Adobe Journey Optimizer中為行銷人員建立品牌內內容。

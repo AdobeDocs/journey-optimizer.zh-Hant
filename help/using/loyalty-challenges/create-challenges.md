@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
 source-wordcount: '2578'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -292,12 +292,12 @@ ht-degree: 9%
 
 在設定包含任務和獎勵的挑戰結構後，您可以選擇設定如何向客戶呈現挑戰。 如果您不需要挑戰內容，請略過此步驟，直接繼續進行[設定訊息](#configure-messaging)。
 
-## 設定挑戰內容（選填） {#configure-content-cards}
+## 設定挑戰內容 (選擇性) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="內容"
->abstract="設定如何在忠誠會員存取挑戰並追蹤其進度的位置呈現您的挑戰。 使用「新增」動作，選擇「內容」卡片以顯示卡片式體驗，或選擇程式碼式體驗，透過您自己的自訂實施來傳送內容。"
+>abstract="設定如何在忠誠會員存取挑戰並追蹤其進度的位置呈現您的挑戰。 使用「新增」動作，選擇「內容卡」以顯示卡片式體驗，或選擇「程式碼型體驗」以透過您自己的自訂實作來傳遞內容。"
 
 **[!UICONTROL Content]**&#x200B;標籤控制如何在忠誠會員存取挑戰並追蹤其進度的位置呈現挑戰。
 

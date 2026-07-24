@@ -30,7 +30,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="Adobe Experience Manager設定"
+>title="Adobe Experience Manager 設定"
 >abstract="透過設定僅限作者或發佈的存取權、自訂網域和驗證，將沙箱連接至 Adobe Experience Manager 存放庫，讓行銷人員能夠在其歷程和行銷活動中使用 Adobe Experience Manager 內容片段。"
 
 >[!CONTEXTUALHELP]

@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
 workflow-type: tm+mt
 source-wordcount: 1206
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_reward_definition"
 >title="獎勵定義指南"
->abstract="使用本指南來設定忠誠度獎勵提供者的獎勵定義，包括預設定義行為和履行裝載欄位。"
+>abstract="使用本指南來設定忠誠度獎勵提供者的獎勵定義，包括預設定義行為和履行承載欄位。"
 
 >[!BEGINSHADEBOX]
 

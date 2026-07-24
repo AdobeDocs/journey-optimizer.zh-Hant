@@ -8,19 +8,19 @@ level: Experienced
 badge: label="有限可用性" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 1%
+source-wordcount: '1538'
+ht-degree: 15%
 
 ---
 
 
-# 設定自訂頻道 {#create-custom-channel}
+# 設定自訂管道 {#create-custom-channel}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
->title="關於自訂頻道"
->abstract="自訂通道可讓Adobe Journey Optimizer透過您自己的API端點將個人化訊息傳送至外部系統。 定義一般屬性、端點、驗證和裝載，然後測試並啟用新的自訂頻道。 完成後，您就可以在建立管道設定時使用它，讓行銷人員可以在歷程及行銷活動中使用。"
->additional-url="" text="開始使用自訂頻道"
+>title="關於自訂管道"
+>abstract="自訂管道可讓 Adobe Journey Optimizer 透過您自己的 API 端點將個人化訊息傳送至外部系統。 定義一般屬性、端點、驗證和承載，然後測試並啟用您的新自訂管道。 完成後，您就可以在建立管道設定時使用它，以便行銷人員在歷程及行銷活動中使用它。"
+>additional-url="" text="開始使用自訂管道"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
 
@@ -122,16 +122,16 @@ ht-degree: 1%
 
    * **[!UICONTROL 啟用節流]** — 預設為停用。 設定每秒要求數上限（預設值： **5,000c**）。 一旦達到限制，請求就會排入佇列，並儘快傳送。
    * **[!UICONTROL 啟用重試]** — 預設為啟用。 設定失敗要求的重試次數上限（預設值： **3**，可設定的範圍： 0-10）。 這有助於避免在暫時性失敗期間讓端點不知所措。
-   * **[!UICONTROL 逾時]** — 預設值： **5,000毫秒**。 設定在認為要求失敗之前等待端點回應的時間上限。
+   * **[!UICONTROL 逾時]** — 預設值： **5,000毫秒**。設定在認為要求失敗之前等待端點回應的時間上限。
      <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 驗證設定 {#authentication-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
->title="定義驗證型別"
->abstract="驗證可確保只將授權請求傳送到外部傳訊系統。 您可以從數種驗證方法中選擇，包括API金鑰、基本驗證和OAuth 2.0。 啟動後，Adobe Journey Optimizer會自動為該頻道產生一組API初始認證，可在API認證詳細目錄中管理。 不過，即使您之後可以變更認證，您也必須在此提供驗證詳細資訊，以在啟用通道之前測試與端點的連線。"
->additional-url="" text="深入瞭解API認證"
+>title="定義驗證類型"
+>abstract="驗證可確保只將授權請求傳送至您的外部傳訊系統。 您可以從幾種驗證方法中選擇，包括 API 金鑰、基本驗證和 OAuth 2.0。 啟用後，Adobe Journey Optimizer 會自動為該管道產生一組 API 初始認證，該認證可在 API 認證庫存中進行管理。 不過，即使您之後可以變更認證，您也必須在這裡提供驗證詳細資料，以便在啟用管道之前測試與您端點的連線。"
+>additional-url="" text="深入了解 API 認證"
 
 選取您需要用於此通道的&#x200B;**[!UICONTROL 驗證型別]**。 可用的選項取決於外部傳訊系統支援的驗證方法。
 
@@ -149,13 +149,13 @@ ht-degree: 1%
 
 不過，在啟用通道之前，必須在此提供驗證詳細資訊，以測試與端點的連線。 可以使用&#x200B;**[!UICONTROL 測試連線]**&#x200B;按鈕來驗證驗證設定。 [了解更多](#test-activate)
 
-## 裝載設定 {#payload-configuration}
+## 承載設定 {#payload-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"
->title="啟用頻道設定的欄位"
->abstract="如果已啟用，此欄中的欄位會出現在通道設定中，可讓管理員為每個設定設定設定不同的值（例如，每個品牌或地區設定不同的傳送者ID）。 這對於可能會因行銷活動或歷程內容而異的欄位非常有用，例如寄件者資訊或訊息範本。"
->additional-url="" text="在自訂通道設定中設定動態引數"
+>title="啟用管道設定的欄位"
+>abstract="如果啟用，此欄中的欄位便會顯示在管道設定中，讓管理員可為每個設定設定不同的值 (例如，為每個品牌或區域設定不同的寄件者 ID)。 這對於可能因行銷活動或歷程情境而異的欄位非常有用，例如寄件者資訊或訊息範本。"
+>additional-url="" text="在自訂管道設定中設定動態參數"
 
 <!--Create a page on Custom channel config to explain how to use the payload in a channel configuration.-->
 

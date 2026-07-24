@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -373,8 +373,8 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用AI產生運算式"
->abstract="使用AI在Journey Optimizer中產生和調整運算式。"
+>title="使用 AI 產生運算式"
+>abstract="在 Journey Optimizer 中使用 AI 來產生及調整運算式。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->
