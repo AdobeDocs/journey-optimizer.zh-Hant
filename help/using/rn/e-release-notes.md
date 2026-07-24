@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 80336cfa196d79b69713cb5649a6758d99658e8d
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 2047
 ht-degree: 15%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -177,7 +172,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 </tbody>
 </table>
 
-* **行銷活動的資料夾** — 您現在可以將行銷活動整理到資料夾中，以改善介面中的導覽和管理。<!-- Documentation link: TBD -->
+* **行銷活動的資料夾** — 您現在可以將行銷活動整理到資料夾中，以改善介面中的導覽和管理。 此功能僅適用於動作和API觸發的行銷活動。<!-- Documentation link: TBD -->
 
 * **覆寫行銷活動中的預設執行欄位** — 先前可在歷程層級使用，您現在可以覆寫行銷活動引數中電子郵件、簡訊和WhatsApp傳送的預設執行欄位全域設定。<!-- Documentation link: TBD -->
 
@@ -224,7 +219,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **從自然語言運算式建立決策規則** — 您現在可以使用純語言描述您要建立的決策規則，並讓AI為您產生它。 此功能適用於具有Adobe AI功能存取權的客戶。
 
-  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
 
