@@ -5,10 +5,10 @@ title: 用於內容產生的 AI 助理
 description: 用於內容產生的 AI 助理
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 產生完整內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 僅產生文字
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 僅產生影像
 
@@ -67,3 +67,4 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 - **[使用 AI 進行內容實驗](../using/content-management/generative-experimentation.md)** - 使用內容實驗功能測試並測量多個內容變化版本的效能。
 - **[AI 助理使用案例](../using/content-management/generative-uc.md)** - 探索各種利用 AI 助理進行內容產生、完善和自訂的方法。
 - **[品牌管理與一致性](brands-landing-page.md)** - 管理品牌方針，並確保在 AI 產生的內容和行銷活動中保持一致。
+- **[參加課程：由AI支援的品牌內內容建立](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 瞭解如何使用AI支援的工具在Adobe Journey Optimizer中為行銷人員建立品牌內內容。
