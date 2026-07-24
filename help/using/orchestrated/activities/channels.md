@@ -6,19 +6,14 @@ description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: 1972
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
@@ -72,7 +67,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
 >title="自訂管道活動"
->abstract="自訂頻道活動可讓您透過協力廠商系統或自訂整合在協調的行銷活動中傳送訊息。 它可讓您將受眾資料匯出至外部系統，以觸發外部傳遞程式，例如合作夥伴平台或專屬傳訊工具。 您可以將自訂管道活動與行銷活動畫布中的其他管道活動結合，建立跨管道行銷活動，以吸引原生和自訂接觸點的客戶。"
+>abstract="「自訂管道」活動可讓您在協調的行銷活動內透過第三方系統或自訂整合來傳送訊息。 它可讓您透過將客群資料匯出至外部系統，以觸發外部傳遞程序，例如合作夥伴平台或專屬傳訊工具。 您可以將自訂管道活動與行銷活動畫布中的其他管道活動結合，以建立跨管道行銷活動來吸引原生和自訂接觸點的客戶。"
 
 [!DNL Adobe Journey Optimizer]可讓您針對行銷和異動訊息，跨管道（電子郵件、簡訊、推播通知、直接郵件和自訂）自動執行行銷活動。 您可以將這些頻道活動結合到行銷活動畫布中，以建立跨頻道協調的行銷活動。 這些行銷活動可以根據客戶行為和資料觸發動作。
 
@@ -168,7 +163,7 @@ UNUSED IDs in BJ
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[&#128279;](../../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面](../../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 

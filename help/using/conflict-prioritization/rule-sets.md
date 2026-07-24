@@ -10,20 +10,12 @@ level: Intermediate
 keywords: 訊息，頻率，規則，壓力
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 TQID: https://experienceleague.adobe.com/lGYAilnXh7r01VhcdRj-lGArRw7OK3gg2npwBKY5VWw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -54,8 +46,8 @@ ht-degree: 32%
 
 * **管道**&#x200B;規則集套用規則至通訊管道。 它們可讓您設定：
 
-   * **頻率上限規則** - *每天傳送不超過1封電子郵件、簡訊、推播、直接郵件或WhatsApp通訊。*
-   * **安靜時數規則** - *請勿在早上8點至晚上9點的時段以外傳送電子郵件訊息。*
+  * **頻率上限規則** - *每天傳送不超過1封電子郵件、簡訊、推播、直接郵件或WhatsApp通訊。*
+  * **安靜時數規則** - *請勿在早上8點至晚上9點的時段以外傳送電子郵件訊息。*
 
 * **歷程**&#x200B;規則集將專案與並行上限規則套用至歷程。 例如，請勿同時在多個歷程中輸入設定檔。
 
@@ -203,4 +195,4 @@ NOT USED?
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

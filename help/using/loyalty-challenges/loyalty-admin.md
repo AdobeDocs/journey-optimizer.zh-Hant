@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
 source-wordcount: 1834
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -215,12 +215,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="事件結構描述和轉換器"
->abstract="在「事件」結構描述區段中，提供&#x200B;**[!UICONTROL 轉換器]** JSONata運算式，以將傳入的事件欄位對應到「忠誠度挑戰」預期的格式。"
+>abstract="在「事件結構描述」區段中，提供&#x200B;**[!UICONTROL 轉換器]** JSONata 運算式，以將傳入事件欄位對應到忠誠度挑戰預期的格式。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="事件識別"
->abstract="在事件識別區段中，提供事件名稱以及用於識別傳入事件的必要XDM結構描述ID。"
+>abstract="在「事件識別」區段中，提供事件名稱以及用於識別傳入事件所需的 XDM 結構描述 ID。"
 
 **[!UICONTROL 事件定義]**&#x200B;告知[!DNL Journey Optimizer]要處理哪些傳入的Adobe Experience Platform體驗事件。 例如，購買或飯店簽到。 行銷人員在任務產生器中建立&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務時，會參考這些定義。 不符合任何定義的事件會被忽略。
 
@@ -268,11 +268,11 @@ ht-degree: 15%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
    ![](assets/admin-inventory-group.png)
 
@@ -305,11 +305,11 @@ ht-degree: 15%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個排除群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

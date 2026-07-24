@@ -9,7 +9,7 @@ badge: label="有限可用性" type="Informative"
 source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
->title="自訂頻道動作"
->abstract="自訂頻道動作會在設定檔達到歷程的此步驟時，傳送訊息給設定檔。 標籤會識別歷程畫布中的活動，而動作會參考自訂頻道設定，該設定會定義用於傳送訊息的端點、裝載和認證。 **最佳化**&#x200B;區段可包含內容實驗或目標定位規則，而&#x200B;**逾時或錯誤**&#x200B;區段可定義動作失敗時的替代路徑。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用自訂頻道"
+>title="自訂管道動作"
+>abstract="自訂管道動作會在輪廓到達歷程的此步驟時，向輪廓傳遞訊息。 標籤會識別歷程畫布中的活動，而動作則會參考定義了用於傳遞訊息的端點、承載和認證的自訂管道設定。 「**最佳化**」區段可包含內容實驗或定位規則，而「**逾時或錯誤**」區段則可定義動作失敗時的替代路徑。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="開始使用自訂管道"
 
 
 

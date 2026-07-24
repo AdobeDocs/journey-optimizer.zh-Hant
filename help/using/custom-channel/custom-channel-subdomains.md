@@ -9,7 +9,7 @@ badge: label="有限可用性" type="Informative"
 source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_channel"
 >title="委派自訂管道子網域"
->abstract="您必須設定用於自訂頻道訊息的子網域，因為您需要此子網域來建立自訂頻道設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="設定自訂頻道"
+>abstract="您必須設定要用於自訂管道訊息的子網域，因為您需要此子網域來建立自訂管道設定。 您可以使用已委派給 Adobe 的子網域，也可以設定新的子網域。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="設定自訂管道"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_custom_channel_subdomain"
 >title="選取自訂管道子網域"
->abstract="若要建立自訂管道設定，請確定您先前已設定至少一個自訂管道子網域，以從子網域名稱清單中挑選。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="設定自訂頻道"
+>abstract="為了能夠建立自訂管道設定，請確保您之前已設定了至少一個自訂管道子網域，才能從子網域名稱清單中進行挑選。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="設定自訂管道"
 
 ## 開始使用自訂管道子網域 {#gs-custom-channel-subdomains}
 
@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## 使用現有的子網域 {#custom-channel-use-existing-subdomain}
 
 若要使用已委派給Adobe的子網域，請遵循下列步驟。
@@ -91,7 +90,7 @@ TBC
 >[!CONTEXTUALHELP]
 >id="ajo_admin_custom_channel_subdomain_dns"
 >title="產生相符的 DNS 記錄"
->abstract="若要設定新的自訂管道子網域，您需要複製Journey Optimizer介面中顯示的Adobe名稱伺服器資訊，並將其貼到您的網域託管解決方案中，以產生相符的DNS記錄。 檢查成功後，子網域即準備好用來建立自訂通道設定。"
+>abstract="若要設定新的自訂管道子網域，您需要複製 Journey Optimizer 介面中顯示的 Adobe 名稱伺服器資訊，並將其貼到您的網域託管解決方案中，以產生相符的 DNS 記錄。 一旦檢查成功，子網域就可以用於建立自訂管道設定。"
 
 若要設定新的子網域，請遵循下列步驟。
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 使用AI產生運算式
+title: 使用 AI 產生運算式
 description: 瞭解如何在Adobe Journey Optimizer中使用AI，使用自然語言提示直接在Journey進階運算式編輯器中產生運算式。
 feature: Journeys
 topic: Content Management
@@ -14,27 +14,27 @@ subfeature_v2: []
 source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
 source-wordcount: 1132
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 
-# 使用AI產生運算式 {#generate-expression}
+# 使用 AI 產生運算式 {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="使用AI產生運算式"
->abstract="使用AI直接在Journey進階運算式編輯器中建置和產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以純文字描述所需的內容時，AI會為您產生對應的運算式。"
+>title="使用 AI 產生運算式"
+>abstract="使用 AI 在歷程進階運算式編輯器中直接建立及產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以簡單明瞭的語言描述您所需的內容時，AI 就會為您產生對應的運算式。"
 
 >[!AVAILABILITY]
 >
 >此功能目前在&#x200B;**公開測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../../rn/releases.md)。
 >
->在使用此功能之前，請先閱讀適用於Journey Optimizer中產生AI功能的相關[護欄和限制](../../content-management/gs-generative.md#generative-guardrails)。
+在使用此功能之前，請先閱讀適用於Journey Optimizer中產生AI功能的相關[護欄和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
 此AI支援的功能，內建在Journey進階運算式編輯器中，可幫助您從純語言提示產生有效的運算式。
 
-在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
+在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
 
 ## 產生運算式 {#generate}
 
