@@ -12,7 +12,7 @@ badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -137,4 +137,3 @@ Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯
 * **問：運算式助理一般可用嗎？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
 
 +++
-
