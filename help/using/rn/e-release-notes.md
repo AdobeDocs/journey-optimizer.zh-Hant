@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 80336cfa196d79b69713cb5649a6758d99658e8d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b82181c7415383035a632f390fc70e5970948af5
 workflow-type: tm+mt
-source-wordcount: 2047
-ht-degree: 15%
+source-wordcount: 2250
+ht-degree: 14%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -228,7 +223,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
 
-  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **優惠層級的Personalization** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。<!-- Documentation link: TBD -->
 
@@ -356,3 +351,11 @@ The following improvements have been added to integrations in this release.
 </tr>
 </tbody>
 </table>
+
+### 可用性改進功能 {#july-26-usability}
+
+此版本即將推出下列可用性改善。
+
+* 內容範本中SMS、推播、應用程式內和程式碼基底頻道的&#x200B;**快速啟動捷徑** — 「內容範本」清單中的&#x200B;**更多動作**&#x200B;按鈕現在提供其他頻道特定捷徑。 對於SMS範本，請快速編輯訊息或檢查字元計數/區段。 對於推播範本，請編輯標題、本文或媒體。 針對應用程式內範本，請編輯訊息標頭、訊息本文或媒體URL。 對於程式碼基底通道範本，請直接編輯程式碼。 這些捷徑可擴充現有的電子郵件頻道快速啟動捷徑。<!-- Documentation link: TBD -->
+
+* **內容測試的新內容模擬體驗** - **模擬內容**&#x200B;工作流程引入重新設計的體驗：所有變體現在都會在單一可捲動格線（並排、棧疊或包裝的版面）中一起呈現，取代一次一個變體。 單一底部動作列可整合測試變體之間的導覽、縮放、檢視區切換（案頭/行動裝置）、地區設定切換、新增範例輸入、使用AI產生變體、挑選並儲存模擬使用者，以及匯入或匯出變體。 移除左側邊欄並收合額外的頁首圖層可大幅增加預覽的空間。 下方動作列中的&#x200B;**切換為傳統體驗**&#x200B;選項可讓您隨時還原成先前的體驗。<!-- Documentation link: TBD -->
