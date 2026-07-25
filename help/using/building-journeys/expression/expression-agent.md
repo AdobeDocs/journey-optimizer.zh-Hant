@@ -12,7 +12,7 @@ badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: aa4b97e1d655d9110ae0652caa244b3f4342dc2f
+source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -134,6 +134,6 @@ Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯
 * **問：如果助理無法產生有效的運算式會發生什麼情況？**  — 出現錯誤訊息；您應該修訂提示，使用歷程設定中存在的欄位名稱和資料來源。
 * **問：如何將產生的運算式插入編輯器？**  — 按一下助理面板中的&#x200B;**套用**&#x200B;按鈕，將它直接插入進階運算式編輯器中目前游標位置。
 * **問：運算式助理可以產生`dateTimeOnly`等待活動的運算式嗎？**  — 是；例如，提示「從現在起的30天下午10點僅作為日期時間」會產生適當的`dateTimeOnly`運算式。
-* **問：運算式助理一般可用嗎？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
+* **問：運算式助理一般可用嗎？**  — 否，目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
 
 +++
