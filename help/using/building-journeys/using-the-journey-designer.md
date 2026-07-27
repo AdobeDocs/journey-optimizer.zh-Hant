@@ -103,7 +103,7 @@ ht-degree: 2%
 
 觀看此影片，瞭解新歷程畫布體驗的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496202?captions=chi_hant)
 
 ## 開始您的歷程 {#start-your-journey}
 
