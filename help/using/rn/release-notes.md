@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
+source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
 workflow-type: tm+mt
-source-wordcount: 2984
-ht-degree: 71%
+source-wordcount: 3165
+ht-degree: 69%
 
 ---
 
@@ -51,6 +51,31 @@ ht-degree: 71%
 ## 2026年7月更新 {#july-26-updates}
 
 ### 全新功能 {#july-26-new-capabilities}
+
+<table>
+<thead>
+<tr>
+<th><strong>頻道最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以設定歷程動作以包含多個傳出頻道（電子郵件、推播、簡訊），並讓Journey Optimizer透過最佳頻道自動傳送給每個客戶。 有三種最佳化模式可供使用：</p>
+<ul>
+<li>手動排名：指定您偏好的管道順序。</li>
+<li>客戶偏好設定：從他們的設定檔使用客戶偏好的管道（體驗資料模型同意和偏好設定屬性）。</li>
+<li>AI模型型排名：使用機器學習傾向分數來推斷每位客戶最有效的管道。</li>
+</ul>
+<p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年7月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -91,6 +116,10 @@ ht-degree: 71%
 </table>
 
 ### 功能改進 {#july-26-improvements}
+
+* **決定專案的動態自訂屬性** — 決定專案自訂屬性現在可以在傳遞時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變化版本維持重複的產品建議，而能夠管理較少、較靈活的決策項目。 [閱讀更多](../experience-decisioning/items.md#attributes)
+
+  推出日期： 2026年7月27日
 
 * **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
 

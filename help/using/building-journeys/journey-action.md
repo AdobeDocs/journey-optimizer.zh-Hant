@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 16%
 
 * 透過單一精簡的介面設定任何內建頻道動作。
 * 將數個傳入體驗合併為一個[多重動作群組](#multi-action)。
+* 將多個傳出頻道新增至單一動作，並使用[頻道最佳化](channel-optimization.md)來自動選取每位客戶的最佳頻道（可用性限制）。
 * 將[最佳化](../content-management/gs-message-optimization.md)、[多語言內容](../content-management/multilingual-gs.md)和通道特定設定套用至任何動作。
 
 >[!NOTE]
@@ -126,6 +127,12 @@ ht-degree: 16%
 
 1. 如果您選取入站頻道，則可新增多個動作。 [了解更多](#multi-action)
 
+1. 如果您選取傳出頻道（電子郵件、推播、簡訊），則可新增多個頻道，並使用頻道最佳化來自動選取每位客戶的最佳頻道。 [了解更多](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >此功能為有限可用性。 請聯絡您的Adobe代表，為您的組織啟用此功能。
+
 1. 根據所選管道設定您的活動。 以下連結提供詳細的設定指南。
 
    * 瞭解建立傳出動作的詳細步驟，如下所示：
@@ -145,7 +152,7 @@ ht-degree: 16%
       <img alt="不頻繁" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong>建立推播通知
+      <a href="../push/create-push.md"><strong>建立推播<strong></a>
       </div>
       <p>
       </td>
@@ -194,7 +201,7 @@ ht-degree: 16%
       <img alt="不頻繁" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
-      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗
+      <a href="../code-based/create-code-based.md"><strong>建立程式碼型體驗<strong></a>
       </div>
       <p>
       </td>
@@ -292,7 +299,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->此容量僅適用於傳入頻道。 目前不支援傳出頻道，例如電子郵件。
+>此容量適用於傳入頻道。 對於傳出頻道（電子郵件、推播、簡訊），請使用[頻道最佳化](channel-optimization.md)來新增多個頻道，並自動為每個客戶選取最佳頻道。
 
 此容量可讓您同時將各種程式碼型體驗、應用程式內訊息、內容卡片或網頁動作傳送至不同位置，而不需要建立多個歷程動作。 這可讓您的歷程部署更輕鬆，並允許更流暢的報告，將所有資料整合到一個歷程中。
 
@@ -354,8 +361,8 @@ ht-degree: 16%
 
 * 如果您使用Adobe Campaign，請參閱下列章節：
 
-   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
 
 +++ AI知識參考
 

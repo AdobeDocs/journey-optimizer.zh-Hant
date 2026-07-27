@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b82181c7415383035a632f390fc70e5970948af5
+source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
 workflow-type: tm+mt
 source-wordcount: 2250
 ht-degree: 14%
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 The following capabilities and improvements are coming to journeys in this release.
 
+<table>
+<thead>
+<tr>
+<th><strong>Channel optimization (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add multiple outbound channels (Email, Push, SMS) to a single journey action and let Journey Optimizer automatically deliver through the best channel for each customer. Three optimization modes are available: manual ranking, customer profile preference (XDM attribute), and AI model-based ranking using propensity scores. When the top-ranked channel is unavailable, the system falls back to the next available channel.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>For more information, refer to the <a href="../building-journeys/channel-optimization.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Increased live journey limit and new guardrails** - You can now have up to **200 active journeys**, increased from the previous limit of 100.
 
 
 
@@ -224,11 +242,11 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **從自然語言運算式建立決策規則** — 您現在可以使用純語言描述您要建立的決策規則，並讓AI為您產生它。 此功能適用於具有Adobe AI功能存取權的客戶。
 
-  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
 
-  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **優惠層級的Personalization** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。<!-- Documentation link: TBD -->
 
