@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 
 # 管理API認證 {#api-credentials}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中檢視、管理及建立自訂管道的API認證集，以便您可以跨不同品牌或環境驗證端點的請求，而不會複製管道。
+
+>[!ENDSHADEBOX]
 
 當使用非&#x200B;**None**&#x200B;的驗證型別建立自訂管道時，啟動管道時會自動產生初始API認證集。
 

@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '383'
+ht-degree: 8%
 
 ---
 
 
 # 建立管道設定 {#create-channel-config}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中建立自訂頻道的頻道設定，並將其連結至API認證、選用子網域和裝載預設值，以便行銷人員在建立行銷活動和歷程時能夠選取它。
+
+>[!ENDSHADEBOX]
 
 管道設定會將您的自訂管道連結至行銷人員在建立行銷活動和歷程時選取的已命名、可重複使用的預設集。
 
@@ -32,7 +38,7 @@ ht-degree: 2%
 
 1. 如果您已在[!DNL Journey Optimizer]中設定自訂管道的子網域，您可以選取要用於追蹤此設定之裝載中出現之連結的委派子網域。 [瞭解如何委派子網域](custom-channel-subdomains.md)
 
-1. 如果選取的管道具有定義成端點URL之變數[&#128279;](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
+1. 如果選取的管道具有定義成端點URL之變數](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數[，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
 
    輸入每個引數的值。 您可以使用個人化編輯器來插入動態值（例如，從設定檔解析的使用者識別碼）。 這可讓您根據每位收件者的設定檔資料自訂其請求。
 
@@ -42,7 +48,7 @@ ht-degree: 2%
 
    ![承載欄位](assets/custom_channel_config_payload.png){width="100%"}
 
-   為此設定每個欄位設定適當的值。 這對於可能會因行銷活動或歷程內容而異的欄位非常有用，例如寄件者資訊或訊息範本。
+   為此設定每個欄位設定適當的值。 這對於可能因行銷活動或歷程情境而異的欄位非常有用，例如寄件者資訊或訊息範本。
 
 1. 針對協調的行銷活動，請完成&#x200B;**[!UICONTROL 執行詳細資料]**&#x200B;區段以對應設定檔維度並指定執行地址。
 

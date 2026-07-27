@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '398'
 ht-degree: 9%
 
 ---
 
 
-# 設定自訂頻道 {#custom-channel-configuration}
+# 設定自訂管道 {#custom-channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;取得管理員在Adobe Journey Optimizer中設定自訂頻道時必須完成的四個步驟的概觀：建立頻道、管理API認證、將子網域委派給連結追蹤，以及為行銷人員建立頻道設定。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1575'
 ht-degree: 15%
 
 ---
 
 
 # 設定自訂管道 {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何使用頻道產生器，透過定義端點URL、標頭、驗證、節流原則及訊息裝載結構，在Adobe Journey Optimizer中建立自訂頻道。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ ht-degree: 15%
 
 您必須設定端點，這是外部傳訊系統的HTTP URL。 當設定檔符合促銷活動或歷程的資格時，[!DNL Journey Optimizer]會使用個人化裝載將POST要求傳送至此端點。
 
-![端點組態](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![端點組態](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. 在&#x200B;**[!UICONTROL 端點組態]**&#x200B;區段中，輸入外部傳訊系統的主機&#x200B;**[!UICONTROL URL]**。
+1. 在&#x200B;**[!UICONTROL 端點組態]**&#x200B;區段中，輸入外部傳訊系統的主機&#x200B;**[!UICONTROL URL]**。 例如: `https://api.my-messaging-provider.com/v1/messages`。
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![標頭設定](assets/custom_channel_endpoint_headers.png)
+   ![標頭設定](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    對於每個標頭，您可以定義其值是否為：
 
@@ -135,7 +141,7 @@ ht-degree: 15%
 
 選取您需要用於此通道的&#x200B;**[!UICONTROL 驗證型別]**。 可用的選項取決於外部傳訊系統支援的驗證方法。
 
-![驗證型別](assets/custom_channel_authentication_type.png){width="70%"}
+![驗證型別](assets/custom_channel_authentication_type.png){width="85%"}
 
 提供端點所需的驗證詳細資料。
 
@@ -165,7 +171,17 @@ ht-degree: 15%
 
 1. 按一下&#x200B;**[!UICONTROL 定義承載]**，然後選擇如何定義承載：
 
-   * **[!UICONTROL 貼上範例JSON裝載]** — 貼上代表性的JSON物件，然後[!DNL Journey Optimizer]自動推斷出其中的結構描述。
+   * **[!UICONTROL 貼上範例JSON裝載]** — 貼上代表性的JSON物件，然後[!DNL Journey Optimizer]自動推斷出其中的結構描述。 例如:
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL 匯入JSON結構描述]** （即將推出） — 上傳完整的JSON結構描述檔案。
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ ht-degree: 15%
 
 1. 產生結構描述後，[!DNL Journey Optimizer]會在表單檢視中顯示所有偵測到的欄位。
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![承載設定](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. 針對每個欄位，設定下列設定：
 

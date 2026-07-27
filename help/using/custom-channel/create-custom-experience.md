@@ -6,15 +6,21 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 15%
+source-wordcount: '1001'
+ht-degree: 14%
 
 ---
 
 
 # 建立自訂管道體驗 {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將自訂頻道新增到歷程、行銷活動或協調的行銷活動，並使用運算式編輯器編寫個人化訊息裝載。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -52,7 +58,7 @@ ht-degree: 15%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;下拉式清單中，選取您要使用的自訂頻道。 自訂管道會依「管道產生器」中指派的名稱和圖示列出。
 
-   ![](assets/custom_channel_journey_action.png){width="80%"}
+   ![歷程畫布中的自訂頻道動作選擇](assets/custom_channel_journey_action.png){width="80%"}
 
 1. 新增標籤至您的動作，按一下右側面板中的&#x200B;**[!DNL Configure action]**，然後選取要使用的&#x200B;**[!UICONTROL 頻道設定]**。 [瞭解如何建立自訂頻道設定](custom-channel-configuration.md#create-channel-config)
 
@@ -75,9 +81,11 @@ ht-degree: 15%
 
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;區段中，從頻道選取器中選取自訂頻道。 在您的沙箱上設定的所有自訂頻道都會與原生頻道一起顯示。
 
-   ![](assets/custom_channel_campaign_action.png){width="80%"}
+   ![促銷活動自訂動作選擇](assets/custom_channel_campaign_action.png){width="80%"}
 
 1. 選取或建立要使用的&#x200B;**[!UICONTROL 頻道設定]**。 [瞭解如何建立管道設定](custom-channel-configuration.md#create-channel-config)
+
+   ![自訂頻道組態選擇](assets/custom_channel_campaign_action_config.png){width="80%"}
 
 1. 選擇性地啟用&#x200B;**[!UICONTROL 動作追蹤]**，以自動追蹤訊息裝載中包含的連結（需要為自訂管道設定的子網域）。 [瞭解如何委派自訂管道的子網域](custom-channel-subdomains.md#subdomain-delegation)
 
@@ -112,7 +120,7 @@ To add a custom channel in an orchestrated campaign:
 
 內容編輯器會反映您在設定自訂頻道時定義的裝載結構。 按一下&#x200B;**[!UICONTROL 編輯代碼]**&#x200B;以開啟裝載編輯器並輸入您的訊息內容。
 
-![](assets/custom_channel_payload_editor.png){width="80%"}
+![自訂管道裝載編輯器](assets/custom_channel_payload_editor.png){width="80%"}
 
 畫面會顯示您可以編寫和個人化的欄位。 您可以善用[!DNL Journey Optimizer]個人化編輯器及其所有個人化和編寫功能。 [了解更多](../personalization/personalization-build-expressions.md)
 
@@ -139,17 +147,32 @@ To add a custom channel in an orchestrated campaign:
 >
 >目前編寫時並沒有驗證裝載。 您可以使用&#x200B;**[!UICONTROL 模擬內容]**&#x200B;功能來驗證您的裝載是否為格式正確的JSON，以及所有個人化運算式是否都能正確解析您的測試設定檔。 [了解更多](test-custom-channel.md#simulate-content)
 
-### 範例承載 {#example-payload}
-
-下列範例顯示具有自訂訊息頻道<!--(to be replaced with a meaningful realistic example)-->設定檔個人化的JSON裝載：
+下列範例顯示具有設定檔個人化的JSON裝載：
 
 ```json
 {
-  "recipient_id": "{{profile.mobilePhone.number}}",
-  "message_text": "Hello {{profile.person.name.firstName}}, your order {{context.journey.events.0.commerce.order.purchaseID}} has been confirmed.",
-  "channel": "my-custom-channel",
+  "message": {
+    "template": "Limited offer just for you, {{profile.person.name.firstName}}!",
+    "header": "You have a FREE drink when you buy a King menu!"
+  },
+  "campaign_ref": {
+    "id": "2grjya",
+    "type": "loyalty",
+    "url": "/companies/wNmRsLbu/campaigns/wallet/2grjya"
+  }
+}
+```
+
+```json
+{
+  "messaging_product": "mess",
+  "recipient_type": "individual",
+  "to": "{{profile.mobilePhone.number}}",
+  "zipCode": 4001,
+  "type": "image",
   "image": {
-    "id": "{{profile.preferences.imageId | default('default-image-001')}}"
+    "id": "1479537139650973",
+    "caption": "The best succulent ever?"
   }
 }
 ```
@@ -170,17 +193,19 @@ To add a custom channel in an orchestrated campaign:
 >
 >連結追蹤需要為自訂頻道設定的子網域。 [瞭解如何委派自訂管道的子網域](custom-channel-subdomains.md#subdomain-delegation)
 
-**範例 — LINE承載中的追蹤連結：**
+**範例 — 追蹤的Viber承載中的連結：**
 
 ```json
 {
-  "to": "{{profile.mobilePhone.number}}",
-  "messages": [
-    {
-      "type": "text",
-      "text": "Hello! Check out our latest offer: {{url trackedUrl='' originalUrl='https://example.com/' type='TRACKED'}}"
-    }
-  ]
+  "receiver": "{{profile.mobilePhone.number}}",
+  "min_api_version": 1,
+  "sender": {
+    "name": "Luma Rewards",
+    "avatar": "https://avatar.example.com"
+  },
+  "tracking_data": "{{profile.person.name.firstName}}",
+  "type": "text",
+  "text": "Hello {{profile.person.name.firstName}}! Discover our new collection: {{url trackedUrl='' originalUrl='https://luma.com/collection' type='TRACKED'}}"
 }
 ```
 
