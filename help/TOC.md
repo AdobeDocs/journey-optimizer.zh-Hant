@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 36e1d03ac83635cded965e64f697a38692684a29
+source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
 workflow-type: tm+mt
-source-wordcount: '3477'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 95%
     + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
     + [時區管理](using/building-journeys/timezone-management.md)
     + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
+    + [頻道最佳化](using/building-journeys/channel-optimization.md)
     + [結束您的歷程](using/building-journeys/end-journey.md)
   + 活動 {#about-journey-building}
     + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -114,7 +115,7 @@ ht-degree: 95%
   + 建立運算式 {#building-advanced-conditions-journeys}
     + [建立運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [使用進階運算式編輯器](using/building-journeys/expression/expressionadvanced.md)
-    + [使用AI產生運算式](using/building-journeys/expression/generate-expression.md)
+    + [使用 AI 產生運算式](using/building-journeys/expression/generate-expression.md)
     + {hide-from-toc}[使用運算式助理產生運算式](using/building-journeys/expression/expression-agent.md)
     + 語法 {#syntax}
       + [語法](/help/rp_landing_pages/syntax-landing-page.md)
