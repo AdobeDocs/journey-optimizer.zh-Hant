@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
 workflow-type: tm+mt
-source-wordcount: 2363
-ht-degree: 16%
+source-wordcount: 2475
+ht-degree: 15%
 
 ---
 
@@ -69,6 +66,18 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 1. **標籤**&#x200B;欄位可讓您將Adobe Experience Platform統一標籤指派給您的決定專案。 這可讓您輕鬆分類並改善搜尋。 [了解如何使用標籤](../start/search-filter-categorize.md#tags)
 
+1. 選擇性地指定自訂屬性。 它們是針對您的需求量身打造的特定屬性，您可以將其指派給決策專案，在決策專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
+
+   您可以按一下欄標題並使用搜尋欄位搜尋特定屬性，以排序自訂屬性。
+
+   ![具有自訂屬性區段的決定專案建立畫面](assets/item-custom-attributes.png){width="80%"}
+
+1. 對於在目錄結構描述中以&#x200B;**[!UICONTROL 決策內容]**&#x200B;型別定義的任何自訂屬性，按一下欄位旁的個人化編輯器圖示以開啟運算式編輯器，您可以在其中使用把手語法來撰寫程式碼及新增屬性參考（例如`{{profile.person.name.firstName}}`）。
+
+   這可讓您定義在傳送時使用設定檔、內容、歷程和受眾資料評估的值，並允許單一決策專案為不同設定檔提供量身打造的內容，而不會重複。 [進一步瞭解新增個人化](../personalization/personalization-build-expressions.md)
+
+   ![具有個人化編輯器圖示的決定專案建立畫面](assets/item-custom-attribute-personalization.png){width="80%"}
+
 1. 將片段新增至您的決定專案以豐富其內容。 支援兩種型別的片段：
 
    * **Journey Optimizer內容片段** — 使用在Journey Optimizer中建立的可重複使用運算式片段，根據內容顯示不同的內容，例如跨多個行動裝置模型。 您可以在具有決策功能的所有管道（程式碼型體驗、電子郵件、推播、簡訊和歷程）的決策政策中利用這些片段。 [了解作法](fragments-decision-policies.md#ajo-fragments)
@@ -83,8 +92,6 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
      如需先決條件和護欄，請參閱[將AEM內容片段用於Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning)。
 
-1. 指定自訂屬性（選擇性）。 自訂屬性是根據您的需求訂製並且可以指派給決定項目的特定屬性。 它們會在決定專案的目錄結構描述中定義。 [瞭解如何使用目錄](catalogs.md)
-
 1. 定義決定專案的屬性後，按一下&#x200B;**[!UICONTROL 下一步]**。
 
 ## 設定決定項目的適用性 {#eligibility}
@@ -95,8 +102,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

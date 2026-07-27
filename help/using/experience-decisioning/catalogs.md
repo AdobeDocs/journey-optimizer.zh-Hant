@@ -8,21 +8,14 @@ level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/PnRmHbBhPq33Fb723aBgYPmknwfETTRra3zBdmwf0O4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 4fb27cfb9c9e0b0e808a9f1a389aa9cc8ab3f732
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 544
 ht-degree: 10%
 
 ---
@@ -52,7 +45,11 @@ ht-degree: 10%
 
 * **支援的資料型別**
 
-  目前，Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間、Decisioning資產和物件。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
+  目前，Decisioning僅支援下列資料型別：字串、整數、布林值、日期、日期時間、Decisioning資產、Decisioning內容和物件。 在製作決定專案或目錄時，落在這些資料型別之外的任何欄位都無法使用。
+
+  >[!NOTE]
+  >
+  >若要讓欄位可用於個人化，請選取&#x200B;**[!UICONTROL 決策內容]**&#x200B;型別。 [了解更多](#access-catalog-schema)
 
 * **自訂屬性限制**
 
@@ -79,11 +76,17 @@ ht-degree: 10%
 
    ![在結構描述編輯器中新增自訂屬性按鈕](assets/catalogs-add.png)
 
-1. 填寫新增屬性的必要欄位，然後按一下&#x200B;**[!UICONTROL 套用]**。
+1. 填寫新增屬性的必要欄位。
+
+1. 若要讓自訂屬性可用於個人化，請選取&#x200B;**[!UICONTROL 決策內容]**&#x200B;型別。 這可讓您使用設定檔、內容、歷程和受眾資料，定義傳送時的屬性值。 [了解更多](items.md#personalization-attributes)
+
+   ![目錄結構描述新屬性欄位屬性](assets/catalogs-new-attribute-type.png){width=35%}
+
+1. 按一下&#x200B;**[!UICONTROL 套用]**。
 
    在具有決策資產屬性的屬性上輸入的值是公用URL。 在大多數情況下，這會指向影像。 有關如何使用[!DNL Adobe Experience Platform]結構描述的詳細資訊，請參閱[XDM系統檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant)。
 
-1. 新增您所需的自訂屬性後，請儲存結構。 新欄位現在可在&#x200B;**[!UICONTROL 自訂屬性]**&#x200B;區段的決定專案建立畫面中使用。
+1. 新增您所需的自訂屬性後，請儲存結構。 新欄位現在可在&#x200B;**[!UICONTROL 自訂屬性]**&#x200B;區段的[決定專案建立](items.md#attributes)畫面中使用。
 
    下列範例顯示具有自訂屬性（例如結構描述中定義的物件）的專案建立畫面。
 
