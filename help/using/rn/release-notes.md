@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1ddc46d8ea79660610ff6ba9600ed78d57c86ab5
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 33%
+source-wordcount: 1446
+ht-degree: 28%
 
 ---
 
@@ -74,6 +62,35 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
+### 傳出頻道 {#july-26-outbound-channels}
+
+此發行版本已引入下列功能。
+
+<table>
+<thead>
+<tr>
+<th><strong>頻道最佳化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以設定歷程或行銷活動動作，以包含多個傳出頻道（電子郵件、推播、簡訊），並讓Journey Optimizer透過最佳頻道自動傳送給每個客戶。 有三種最佳化模式可供使用：</p>
+<ul>
+<li>手動排名：指定您偏好的管道順序。</li>
+<li>客戶偏好設定：從他們的設定檔使用客戶偏好的管道（體驗資料模型同意和偏好設定屬性）。</li>
+<li>AI模型型排名：使用機器學習傾向分數來推斷每位客戶最有效的管道。</li>
+</ul>
+<p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
+<p>推出日期： 2026年7月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 歷程 {#july-26-journeys}
 
 下列功能和改進功能已新增到此版本的歷程。
@@ -97,6 +114,31 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </table>
 
 * [!BADGE 淘汰]{type=Negative}對象資格節點中不再支援批次對象 — 自2026年8月3日起，Journey Optimizer會封鎖在「對象資格」節點中使用批次對象之任何歷程的發佈。 此強制措施取代了6月版本中推出的畫布警告。 現有的即時歷程不受影響。 在「對象資格」節點中使用串流對象，或切換至「讀取對象」活動。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
+
+### 電子郵件設計工具 {#july-26-email}
+
+下列功能已新增至此版本的電子郵件通道。
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件Designer中的內容檢查（一般可用性）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer 現在包含直接在電子郵件設計工具中的自動化技術驗證，可幫助您在傳送前捕捉 HTML 和 CSS 問題。</p>
+<p>檢查涵蓋不支援的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 標籤、可能中斷 Microsoft Outlook 版面的空白 div、HTML 中繼重新整理標籤，以及觸發 Gmail 轉譯失敗的 CSS 或 HTML 大小臨界值。</p>
+<p>結果會直接在製作面板中顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的一鍵式修正，因此無需離開編輯器即可解決問題。</p>
+<p>此功能之前以「有限可用性」的名義提供，現在可供所有客戶使用。</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>。</p>
+<p>推出日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 協調的行銷活動 {#july-26-oc}
 
@@ -131,56 +173,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
   ![](../content-management/assets/content-template-quick-launch.png)
 
-### 電子郵件管道 {#july-26-email}
-
-下列改善專案已新增至此版本的電子郵件通道。
-
-<table>
-<thead>
-<tr>
-<th><strong>頻道最佳化</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以設定歷程或行銷活動動作，以包含多個傳出頻道（電子郵件、推播、簡訊），並讓Journey Optimizer透過最佳頻道自動傳送給每個客戶。 有三種最佳化模式可供使用：</p>
-<ul>
-<li>手動排名：指定您偏好的管道順序。</li>
-<li>客戶偏好設定：從他們的設定檔使用客戶偏好的管道（體驗資料模型同意和偏好設定屬性）。</li>
-<li>AI模型型排名：使用機器學習傾向分數來推斷每位客戶最有效的管道。</li>
-</ul>
-<p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
-<p>推出日期： 2026年7月22日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件Designer中的內容檢查（一般可用性）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer 現在包含直接在電子郵件設計工具中的自動化技術驗證，可幫助您在傳送前捕捉 HTML 和 CSS 問題。</p>
-<p>檢查涵蓋不支援的元素，例如 <code>&lt;script&gt;</code> 和 <code>&lt;base&gt;</code> 標籤、可能中斷 Microsoft Outlook 版面的空白 div、HTML 中繼重新整理標籤，以及觸發 Gmail 轉譯失敗的 CSS 或 HTML 大小臨界值。</p>
-<p>結果會直接在製作面板中顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的一鍵式修正，因此無需離開編輯器即可解決問題。</p>
-<p>此功能之前以「有限可用性」的名義提供，現在可供所有客戶使用。</p>
-<p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>。</p>
-<p>推出日期： 2026年7月16日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 內容與整合 {#july-26-integration}
 
 下列功能和改進功能將新增到此版本的內容管理與整合。
@@ -192,6 +184,30 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 * **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
 
   推出日期： 2026年7月9日
+
+* **個人化運算式中的新協助程式函式** — 個人化運算式現在提供新協助程式函式：
+
+  * `appendQueryParams`：將查詢引數附加至URL，或如果索引鍵已存在則取代它。
+  * `dateBetween`：檢查日期是否落在開始和結束日期範圍（含）。
+  * `equalsAnyIgnoreCase`：當字串符合任何提供的值時傳回true，忽略大小寫。
+  * `getUrlFragment`：擷取URL的片段部分（#之後的部分）。
+  * `join`：使用分隔符號將陣列元素串連到單一字串中。
+  * `decode64`：解碼Base64編碼的字串。 如果輸入不是有效的Base64，原始輸入字串會傳回不變。
+  * `parseJson`：將JSON字串剖析為可在範本中使用的結構化變數。
+  * `valueAtPath`：從資料路徑指派值給範本變數，並附上選擇性索引，以從陣列或集合中擷取特定元素。
+  * `abort`：在轉譯期間到達時停止訊息傳遞。
+
+  `concat`函式也已增強，現在支援兩個或多個引數。
+
+  此外，下列範本移轉功能現已可協助您將現有範本移轉至Journey Optimizer：
+
+  * `ampCompare`：使用指定的比較運運算元比較兩個值。
+  * `ampSubstr`：傳回指定開始與結束索引之間的字串部分。
+  * `compareTo`：以字典方式比較兩個字串。
+
+  [進一步瞭解協助程式功能](../personalization/functions/functions.md)
+
+  推出日期： 2026年7月28日
 
 ### 管理 {#july-26-administration}
 
