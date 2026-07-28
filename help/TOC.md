@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [文件更新](using/rn/documentation-updates.md)
   + {hide-from-toc}[改善的歷程畫布](using/rn/new-canvas.md)
   + {hide-from-toc}[從對象資格移轉批次對象](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[電子郵件追蹤畫素的CNIL指引](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[關於電子郵件追蹤像素的 CNIL 指引](using/privacy/cnil-pixel-tracking.md)
 + 開始使用 {#get-started}
   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入門中心](using/start/onboarding-hub.md)
@@ -431,6 +431,7 @@ ht-degree: 95%
   + 收件匣 {#inbox}
     + [開始使用收件匣](using/inbox/inbox-gs.md)
     + [在 Journey Optimizer 中設定收件匣管道](using/inbox/inbox-configuration.md)
+    + [在網頁SDK中設定收件匣支援](using/inbox/inbox-configuration-sdk.md)
     + [建立您的收件匣](using/inbox/inbox-create.md)
     + [設計您的收件匣](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
