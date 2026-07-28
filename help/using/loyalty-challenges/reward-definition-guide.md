@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 5%
@@ -475,3 +475,4 @@ Content-Type: application/json
 | `task.accumulators.item_list[-1]`為null | 未套用任何專案後才簽發獎勵（非購買事件） | 以條件式保全，或改用內容中的`timestamp` |
 | `milestone`在來源為`"task"`或`"challenge"`時存取 | `milestone`為空；運算式擲回或產生null欄位 | 存取`milestone`前請先檢查`rewardContext.source`，或僅在附加至里程碑獎勵的定義中使用`milestone` |
 | 運算式傳回陣列而非物件 | 提供者接收未預期的裝載結構 | 在外部物件中換行傳回陣列的運算式： `{ "items": [...] }` |
+

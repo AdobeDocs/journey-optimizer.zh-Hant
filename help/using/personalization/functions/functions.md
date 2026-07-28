@@ -6,13 +6,11 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2758
 ht-degree: 2%
 
 ---
@@ -156,6 +154,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">日期差異</a></td><td>此函式擷取兩個日期之間的天數差。</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-between">日期介於</a></td><td>此函式檢查指定日期是否介於開始日期和結束日期之間（兩個範圍均包含）。</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">當月的第幾天</a></td><td>此函式傳回代表該月某日的數字。</td>
@@ -302,10 +303,16 @@ ht-degree: 2%
         <td><a href="string.md#char-code-at">字元代碼位於</a></td><td>此函式傳回字元的ASCII值，例如JavaScript中的charCodeAt函式</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>此函式用於將兩個字串合併為一個</td>
+        <td><a href="string.md#concate">Concat</a></td><td>此函式將兩個或多個字串串串連成一個。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#append-query-params">附加查詢引數</a></td><td>此函式會附加或取代URL中的查詢引數。</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">包含</a></td><td>此函式用於決定字串是否包含指定的子字串</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#decode64">解碼64</a></td><td>此函式解碼Base64編碼的字串</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">不包含</a></td><td>此函式用於決定字串是否不包含指定的子字串</td>
@@ -330,6 +337,9 @@ ht-degree: 2%
         <td><a href="string.md#equalsIgnoreCase">等於（忽略大小寫）</a></td><td>此函式用於決定字串是否不以指定的子字串開頭，不區分大小寫</td>
     </tr>
     <tr>
+        <td><a href="string.md#equals-any-ignore-case">等於任何忽略大小寫</a></td><td>此函式檢查字串是否等於提供的任何比較值，忽略字母大小寫。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#extractEmailDomain">擷取電子郵件網域</a></td><td>此函式用於擷取電子郵件地址的網域</td>
     </tr>
     <tr>
@@ -345,6 +355,9 @@ ht-degree: 2%
         <td><a href="string.md#get-url-protocol">取得url通訊協定</a></td><td>此函式用於取得url通訊協定</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-fragment">取得url片段</a></td><td>此函式用於取得url片段</td>
+    </tr>
+    <tr>
         <td><a href="string.md#index-of">索引：</a></td><td>此函式傳回第二個引數在第一個引數中第一次出現的位置。 如果沒有相符專案，則傳回–1</td>
     </tr>
     <tr>
@@ -352,6 +365,9 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果引數中的字串不是空的，此函式傳回true。</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#join">加入</a></td><td>此函式使用分隔符號將陣列元素串連到單一字串中。</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">最後索引：</a></td><td>此函式傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。</td>
@@ -453,6 +469,9 @@ ht-degree: 2%
         <td><a href="helpers.md#default">預設遞補值</a></td><td>此函式用於呈現具有預設值的變數</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#abort">中止</a></td><td>在轉譯期間叫用時，此協助程式會停止訊息傳遞（可用性限制）</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#each">每個</a></td><td>此函式用於反複處理陣列</td>
     </tr>
     <tr>
@@ -468,10 +487,16 @@ ht-degree: 2%
         <td><a href="helpers.md#let">Let</a></td><td>此函式允許將運算式儲存為變數，以便稍後在查詢中使用</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#parse-json">剖析JSON</a></td><td>此協助程式會剖析JSON字串，並將剖析的物件儲存在範本變數中</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>此函式用於定義條件區塊 — 如果運算式評估傳回false，則會轉譯區塊</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">加密</a></td><td>使用沙箱登入中的作用中機碼，在轉譯時加密URL查詢引數的運算式值 </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#value-at-path">路徑上的值</a></td><td>此協助程式會將資料路徑中的值指派給範本變數，並附上選用的陣列索引</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-function">Url</a></td><td>此函式處理SMS訊息內容中的URL；將其與<code>originalUrl</code>搭配使用以縮短URL，並將<code>type='DEEPLINK'</code>插入深層連結</td>
@@ -539,6 +564,23 @@ ht-degree: 2%
     </tr>
     <tr>
         <td><a href="operators.md#notequal">不等於</a></td><td>此運運算元檢查給定的運算式是否不等於給定值</td>
+    </tr>
+</table>
+
+
+### 範本移轉功能 {#template-migration-functions}
+
+範本移轉功能可協助您將現有範本移轉至Journey Optimizer。
+
+<table>
+    <tr>
+        <td><a href="operators.md#amp-compare">透過運運算元比較</a></td><td>此函式使用指定的比較運運算元比較兩個值</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#amp-substr">子字串範圍</a></td><td>此函式傳回指定開始和結束索引之間的字串部分</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#compare-to">比較對象</a></td><td>此函式以字典方式比較兩個字串</td>
     </tr>
 </table>
 

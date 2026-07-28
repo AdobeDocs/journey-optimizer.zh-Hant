@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1960
-ht-degree: 14%
+source-wordcount: 1772
+ht-degree: 15%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -263,7 +258,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
 
-  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **優惠層級的Personalization** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。<!-- Documentation link: TBD -->
 
@@ -296,25 +291,6 @@ The following improvements have been added to integrations in this release.
 下列改善專案已新增至此版本中的個人化。
 
 * **管理完整/基本URL個人化的網域** — 您現在可以直接從Adobe Journey Optimizer中的管理設定建立和管理核准的完整和基本URL個人化的網域，而無需連絡Adobe支援。<!-- Documentation link: TBD -->
-
-* **個人化運算式中的新協助程式函式** — 個人化運算式現在提供新協助程式函式：
-
-  * `appendQueryParams`：將查詢引數附加至URL，或如果索引鍵已存在則取代它。
-  * `dateBetween`：檢查日期是否落在開始和結束日期範圍（含）。
-  * `equalsAnyIgnoreCase`：當字串符合任何提供的值時傳回true，忽略大小寫。
-  * `getUrlFragment`：擷取URL的片段部分（#之後的部分）。
-  * `join`：使用分隔符號將陣列元素串連到單一字串中。
-  * `decode64`：解碼Base64編碼的字串。 如果輸入不是有效的Base64，原始輸入字串會傳回不變。
-  * `parseJson`：將JSON字串剖析為可在範本中使用的結構化變數。
-  * `valueAtPath`：從資料路徑指派值給範本變數，並附上選擇性索引，以從陣列或集合中擷取特定元素。
-
-  `concat`函式也已增強，現在支援兩個或多個引數。
-
-  此外，下列範本移轉功能現已可協助您將現有範本移轉至Journey Optimizer：
-
-  * `ampCompare`：使用指定的比較運運算元比較兩個值。
-  * `ampSubstr`：傳回指定開始與結束索引之間的字串部分。
-  * `compareTo`：以字典方式比較兩個字串。
 
 <!-- Documentation link: TBD -->
 

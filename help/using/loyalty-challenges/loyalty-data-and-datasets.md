@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -43,11 +43,11 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 
 在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;類別中挑戰對象、個人化和報告使用設定檔。 將您用於忠誠度挑戰的身分識別[名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}與設定檔資料中的成員識別方式以及在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表的&#x200B;**[!UICONTROL 全域設定]**&#x200B;中選取的名稱空間對齊。
 
-對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
+對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [AJO結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}
+➡️ [AJO結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 體驗事件 {#experience-events}
 
@@ -70,3 +70,4 @@ Journey Optimizer將TTL護欄套用至許多系統產生的資料集。 忠誠�
 >[!NOTE]
 >
 >組織層級的熟客方案設定可包含透過熟客方案中繼資料服務管理的封存和保留設定（例如封存期間）。 如果您需要調整組織的保留率，請洽詢Adobe管理員。
+

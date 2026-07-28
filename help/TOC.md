@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 94%
@@ -1038,5 +1038,3 @@ ht-degree: 94%
     + [管理客戶的偏好設定](using/action/preference-center.md)
   + [資料治理](using/action/action-privacy.md)
   + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
-
-

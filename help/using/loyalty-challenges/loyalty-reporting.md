@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 0%
@@ -89,3 +89,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **產品** | 產品目錄績效，包括檢視、贖回和目錄層級趨勢 |
 | **成員生命週期** | 成員在註冊、參與和流失階段中的進度 |
 | **趨勢** | 以時間為基礎的模式，例如，每週週期、季節性尖峰或趨勢逆轉 |
+

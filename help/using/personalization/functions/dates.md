@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1762
+source-wordcount: 1811
 ht-degree: 5%
 
 ---
@@ -281,6 +277,29 @@ Your points have expired.
 輸出（範例）： `Your points expire in 7 days — use them before they're gone!`
 
 +++
+
+## 日期介於 {#date-between}
+
+`dateBetween`函式會檢查指定日期是否介於開始日期和結束日期之間（兩者皆包含）。
+
+**語法**
+
+```sql
+{%= dateBetween(date, startDate, endDate) %}
+```
+
+| 引數 | 說明 |
+| --------- | ----------- |
+| `date` | 要評估的日期。 |
+| `startDate` | 範圍的開始日期（含）。 |
+| `endDate` | 範圍的結束日期（含）。 |
+
+++範例
+
+* 輸入： `{%= dateBetween(stringToDate("2024-06-15T00:00:00Z"), stringToDate("2024-06-01T00:00:00Z"), stringToDate("2024-06-30T00:00:00Z")) %}`
+* 輸出： `true`
+
+++
 
 ## 當月的第幾天 {#day-month}
 
@@ -782,7 +801,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter`函式用於將日期時間截斷為其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日），截斷時間為00:00。
+`truncateToStartOfQuarter`函式用於將日期時間截斷為其季度的第一天（例如，1月1日、4月1日、7月1日、10月1日）的00:00。
 
 **語法**
 
@@ -799,7 +818,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一為00:00），以修改指定的日期時間。
+`truncateToStartOfWeek`函式將指定日期時間設定為一週的開始（星期一的00:00），以修改指定的日期時間。
 
 **語法**
 
@@ -816,7 +835,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfYear {#truncate-year}
 
-`truncateToStartOfYear`函式是用來修改指定的日期時間，方法是將其截斷至一年的第一天（1月1日），網址為00:00。
+`truncateToStartOfYear`函式是用來修改指定的日期時間，方法是在00:00將日期時間截斷為一年的第一天（1月1日）。
 
 **語法**
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '2584'
 ht-degree: 12%
@@ -363,3 +363,4 @@ ht-degree: 12%
    ![](assets/challenge-create-journey.png)
 
 1. 一旦您的挑戰上線，請在[忠誠度挑戰報告](loyalty-reporting.md)中監視方案KPI、挑戰結果和任務層級量度。 您也可以在[歷程報告](../reports/journey-global-report-cja.md)中監視訊息傳遞。
+
