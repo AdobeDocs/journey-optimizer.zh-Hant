@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 10%
+source-wordcount: 1104
+ht-degree: 9%
 
 ---
 
 # 建立任務 {#create-tasks}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-[開始應對忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* [創造挑戰](create-challenges.md)
-* **建立任務** ◀&rbrace;︎**您在這裡**
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 任務會定義客戶在忠誠度挑戰中必須完成的特定動作或里程碑，才能獲得獎勵。 您可以設定購買和支出任務，或是&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，用於追蹤貴組織已擷取的Adobe Experience Platform體驗事件。
 
@@ -97,7 +56,7 @@ ht-degree: 10%
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
 * **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
-若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。 每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
+若要選取活動，請按一下&#x200B;**+**圖示，然後選取最符合您結果目標的客戶活動。每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
 
 ## 定義任務屬性 {#define-attributes}

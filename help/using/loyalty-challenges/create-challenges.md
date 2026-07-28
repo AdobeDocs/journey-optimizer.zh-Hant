@@ -7,58 +7,28 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 11%
+source-wordcount: '2584'
+ht-degree: 12%
 
 ---
 
+
 # 創造挑戰 {#create-challenges}
 
->[!BEGINSHADEBOX]
+本頁說明在Adobe Journey Optimizer中建立和發佈忠誠度挑戰的完整程式。
 
-**目錄**
+建立質疑涉及以下步驟：
 
-[開始應對忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* **建立挑戰** ◀︎**您在這裡**
-* [建立任務](create-tasks.md)
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
-
-本頁涵蓋建立忠誠度挑戰的完整流程，從選擇挑戰型別和設定設定、結構、內容和訊息，到產生和發佈將挑戰傳遞給客戶的歷程。
+1. **[建立挑戰](#create-the-challenge)** — 選取挑戰型別並開啟挑戰編輯器。
+1. **[設定設定](#settings)** — 定義挑戰名稱、對象、排程、選擇加入規則和重複限制。
+1. **[設定結構](#structure)** — 新增任務和獎勵（不適用於「自攜」資料挑戰）。
+1. **[設定內容](#configure-content-cards)** *（選擇性）* — 定義使用內容卡或程式碼式體驗對成員顯示挑戰的方式。
+1. **[設定訊息](#configure-messaging)** *（選擇性）* — 設定Launch、In-progress和End階段的通道訊息。
+1. **[發佈挑戰](#launch)** — 讓挑戰可用於產生歷程。
+1. **[產生並發佈歷程](#launch)** — 觸發自動產生的歷程，將挑戰傳遞給客戶。
 
 建立質疑涉及以下步驟：
 
@@ -72,7 +42,7 @@ ht-degree: 11%
 
 ## 建立挑戰 {#create-the-challenge}
 
-1. 在Journey Optimizer中導覽至&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**。
+1. 導覽至Journey Optimizer中的&#x200B;**[!UICONTROL 忠誠度挑戰]**。
 
 1. 選取&#x200B;**[!UICONTROL 挑戰]**&#x200B;標籤，並選取&#x200B;**[!UICONTROL 建立挑戰]**。
 
@@ -321,7 +291,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="傳送訊息"
->abstract="傳送訊息有助於推動挑戰生命週期內的參與。 在「訊息」標籤上，為每個階段新增訊息：啟動（宣佈挑戰並邀請參與者加入）、進行中（讓參與者參與並完成任務）以及結束（慶祝完成並通知參與者其獎勵）。 針對每個階段，按一下新增訊息按鈕、選擇頻道、選取頻道設定，然後選取「編輯」以設計訊息內容。"
+>abstract="傳送訊息有助於推動挑戰生命週期內的參與。 在「傳送訊息」分頁標籤上，為每個階段新增訊息：啟動 (宣佈挑戰並邀請參與者加入)、進行中 (讓參與者參與並完成任務)，以及結束 (慶祝完成並通知參與者其獎勵)。 針對每個階段，按一下「新增訊息」按鈕、選擇管道、選取管道設定，然後選取「編輯」以設計訊息內容。"
 
 設定多管道訊息，在挑戰生命週期的關鍵階段與客戶互動。 傳訊功能為選用，但建議儘量擴大客戶參與度。
 

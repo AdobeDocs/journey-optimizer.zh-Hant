@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 4%
+source-wordcount: 470
+ht-degree: 0%
 
 ---
 
 # 存取及管理挑戰與工作 {#access-loyalty-challenges}
 
->[!BEGINSHADEBOX]
-
-**目錄**
-
-[開始應對忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* **存取及管理挑戰與工作** ◀︎ **您在這裡**
-* [創造挑戰](create-challenges.md)
-* [建立任務](create-tasks.md)
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
-
 ## 存取及管理挑戰與工作
 
-若要存取忠誠度挑戰，請導覽至Journey Optimizer，並在「**[!UICONTROL 歷程管理]**」區段下選取「**[!UICONTROL 忠誠度挑戰(Beta)]**」。 「忠誠度挑戰」介面提供一個集中位置，讓您檢視、管理及組織所有挑戰和任務。
+若要存取忠誠度挑戰，請導覽至Journey Optimizer，並在「**[!UICONTROL 歷程管理]**」區段下選取「**[!UICONTROL 忠誠度挑戰]**」。 「忠誠度挑戰」介面提供一個集中位置，讓您檢視、管理及組織所有挑戰和任務。
 
 介面提供兩個主要存貨的存取權：
 
