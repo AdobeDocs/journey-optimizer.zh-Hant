@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # 監視忠誠度挑戰績效 {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**目錄**
-
-[開始應對忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* [創造挑戰](create-challenges.md)
-* [建立任務](create-tasks.md)
-* **監視忠誠度挑戰績效** ◀︎ **您在這裡**
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
-
 使用忠誠度挑戰報告來檢視您的挑戰表現如何。 檢視哪些人正在報名、哪些人正在完成挑戰，以及您的計畫產生了多少收入 — 全都集中在一處。 資料來自Adobe Customer Journey Analytics。
 
-若要開啟報告控制面板，請前往Journey Optimizer中的&#x200B;**[!UICONTROL 忠誠度挑戰(Beta)]**，並在左側導覽中選取&#x200B;**[!UICONTROL 忠誠度報告]**。
+若要開啟報告控制面板，請前往Journey Optimizer中的&#x200B;**[!UICONTROL 忠誠度挑戰]**，並在左側導覽中選取&#x200B;**[!UICONTROL 忠誠度報告]**。
 
 報告介面有兩個標籤：
 
@@ -130,3 +89,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **產品** | 產品目錄績效，包括檢視、贖回和目錄層級趨勢 |
 | **成員生命週期** | 成員在註冊、參與和流失階段中的進度 |
 | **趨勢** | 以時間為基礎的模式，例如，每週週期、季節性尖峰或趨勢逆轉 |
+

@@ -7,66 +7,29 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 16%
+source-wordcount: 942
+ht-degree: 13%
 
 ---
 
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
 
->[!BEGINSHADEBOX]
-
-**目錄**
-
-**[開始解決忠誠度挑戰](get-started.md)** ◀︎ **您在這裡**
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* [創造挑戰](create-challenges.md)
-* [建立任務](create-tasks.md)
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
-
-## 概觀 {#overview}
-
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠誠度挑戰"
 >abstract="您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。"
+
+>[!AVAILABILITY]
+>
+>Journey Optimizer忠誠度目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
+
+## 概觀 {#overview}
 
 您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。
 
@@ -94,23 +57,24 @@ ht-degree: 16%
 
 * **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像處理任何其他挑戰型別一樣設定「設定」、「內容」和「傳訊」。
 
+>[!TIP]
+>您也可以使用[CX Co-worker Journey Skills](../start/ajo-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠誠度挑戰管理**，以自然語言提示來建立和管理忠誠度挑戰，以加快挑戰建立的速度。
+
 ## 運作方式 {#how-it-works}
 
-建立和啟動忠誠度挑戰會遵循此工作流程：
+使用忠誠度挑戰涉及三個廣泛的階段：設定、執行和測量，通常在管理員和從業人員角色之間共用。
 
-1. **建立挑戰** — 選擇挑戰型別(標準、條紋、循序或自備資料（可用時）。 [瞭解如何選擇挑戰型別](create-challenges.md#create-the-challenge)。
+**1. 設定您的程式** *（管理員）*
 
-1. **設定設定** — 在[設定]索引標籤中，定義挑戰詳細資料、對象、排程、規則（選擇加入、進度追蹤、重複限制）和選用的中繼資料。 [瞭解挑戰設定](create-challenges.md#settings)。
+在編寫挑戰之前，管理員會設定方案基礎：獎勵提供者、將客戶動作對應到任務完成的事件定義、產品詳細目錄和排除清單。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。
 
-1. **新增任務和獎勵** — 在[結構]索引標籤中，定義任務和獎勵（自帶資料挑戰不需要）。
+**2. 作者和啟動挑戰** *（從業人員）*
 
-1. **設計內容卡** — 使用顯示在客戶裝置上的Journey Optimizer內容卡，以視覺化方式呈現您的挑戰。
+行銷人員藉由選取型別（標準、條紋、循序或自備資料）、設定設定（對象、排程、規則）以及定義任務和獎勵來建立挑戰。 他們可以選擇使用&#x200B;**內容卡**&#x200B;或&#x200B;**程式碼型體驗**，在面向成員的介面上顯示挑戰，並在挑戰生命週期中設定關鍵時刻的頻道通知。 設定後，他們會發佈挑戰、產生自動建立的歷程並發佈，以讓挑戰上線。 [瞭解如何建立挑戰](create-challenges.md)。
 
-1. **設定訊息** （選擇性） — 設定關鍵生命週期階段的多通道訊息（應用程式內、電子郵件、推播）：啟動、進行中及完成。
+**3. 監視效能** *（從業人員/分析人員）*
 
-1. **啟動挑戰** — 發佈挑戰，然後產生歷程。 Journey Optimizer會自動建立挑戰歷程。 發佈自動產生的歷程，讓客戶瞭解挑戰。
-
-如需詳細逐步指示，請參閱[建立挑戰](create-challenges.md)。
+挑戰開始後，內建的報告儀表板會提供挑戰層級的量度：對象funnel績效、任務完成率、獎勵簽發和收入影響。 AI支援的深入分析引擎也會呈現上下文建議，以協助最佳化方案效能。 [瞭解忠誠度報告](loyalty-reporting.md)。
 
 ## 先決條件 {#prerequisites}
 
@@ -118,28 +82,9 @@ ht-degree: 16%
 
 +++必要權限
 
-若要使用忠誠度挑戰，您需要在Journey Optimizer和Adobe Experience Platform中擁有適當許可權。
+若要使用「忠誠度挑戰」，您必須被指派到「忠誠度」角色。 在Prod沙箱中，管理員、從業人員和分析人員可以使用預設角色。 對於非Prod沙箱，您的管理員必須建立具有所需忠誠度許可權的自訂角色。
 
-**Journey Optimizer：**
-
-* `journeys.read`
-* `journeys.write`
-* `journeys.delete`
-* `journeys.publish`
-* `journeys_events.read`
-* `journeys_events.write`
-* `journeys_events.delete`
-* `journeys_report.read`
-* `messages.read`
-* `messages_report.read`
-
-**Adobe Experience Platform：**
-
-* `segments.read`
-* `profiles.read`
-* `identity_namespace.read`
-
-如果您無法存取功能或需要其他許可權，請聯絡管理員。
+如果您無法存取功能或需要其他許可權，請聯絡管理員。 [瞭解如何設定忠誠度挑戰許可權](loyalty-permissions.md)。
 
 +++
 
@@ -227,3 +172,4 @@ ht-degree: 16%
 ## API 參考 {#api-reference}
 
 若要以程式設計方式管理忠誠度挑戰，請使用[忠誠度挑戰API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 此API可讓您透過REST端點建立、更新和管理挑戰與工作。
+

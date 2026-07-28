@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,11 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB 忠誠度挑戰]
+
+瞭解如何建立和管理&#x200B;**忠誠度挑戰**，以透過gamification功能吸引和獎勵您最忠誠的客戶。
+
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB 用於個人化的 AI 助理]
 
@@ -41,14 +46,6 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 了解如何使用反覆處理語法來顯示訊息中各種來源的動態資料清單，包括事件、自訂動作回應和其他內容資料。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
-
-
->[!TAB 行銷活動協調]
-
-Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品牌啟動的批次行銷活動而建置的新功能。
-
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
 
 >[!ENDTABS]
 
@@ -140,7 +137,8 @@ Journey Optimizer 現在包含&#x200B;**行銷活動協調**，這是專為品�
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">文件</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a></td>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant" target="_blank">文件</a> - <a href="https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html" target="_blank">開發人員資源</a>
+</td>
 </tr></table>
 
 <!--

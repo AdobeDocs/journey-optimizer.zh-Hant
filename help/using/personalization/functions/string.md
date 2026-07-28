@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2122
 ht-degree: 6%
 
 ---
@@ -65,21 +65,23 @@ ht-degree: 6%
 
 ## Concat {#concate}
 
-`concat`函式將兩個字串合併為一個。
+`concat`函式串連兩個或多個字串，並傳回產生的字串。
 
 **語法**
 
 ```sql
-{%= concat(string,string) %}
+{%= concat(string1, string2, ...) %}
 ```
 
 **範例**
 
-以下函式會將個人資料城市和國家/地區結合在單一字串中。
+下列函式將多個字串結合為單一值。
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
+{%= concat("Hello", " ", "World") %}
 ```
+
+傳回「Hello World」。
 
 ## 包含 {#contains}
 
@@ -194,6 +196,28 @@ doesNotEndWith(person.emailAddress,".com")
 {%= encode64(string) %}
 ```
 
+## 解碼64{#decode64}
+
+`decode64`函式會解碼Base64編碼的字串。 如果輸入不是有效的Base64，原始輸入字串會傳回不變。
+
+**語法**
+
+```sql
+{%= decode64(string) %}
+```
+
+| 引數 | 說明 |
+| --------- | ----------- |
+| `string` | 要解碼的Base64編碼字串。 |
+
+**範例**
+
+```sql
+{%= decode64("aGVsbG8=") %}
+```
+
+此運算式傳回`hello`。
+
 ## 結束於{#endsWith}
 
 `endsWith`函式用於決定字串的結尾是否為指定的子字串。
@@ -264,6 +288,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
+
+## 等於任何忽略大小寫 {#equals-any-ignore-case}
+
+`equalsAnyIgnoreCase`函式會檢查字串是否等於提供的任何比較值，忽略字母大小寫的差異。
+
+**語法**
+
+```sql
+{%= equalsAnyIgnoreCase(string, string, ...) %}
+```
+
+| 引數 | 說明 |
+| --------- | ----------- |
+| `string` | 要比較的Source字串。 |
+| `string, ...` | 一到十個比較字串。 |
+
+**範例**
+
+```sql
+{%= equalsAnyIgnoreCase("Icon", "icon", "ambassador", "luminary") %}
+```
+
+傳回`true`。
 
 ## 擷取電子郵件網域 {#extractEmailDomain}
 
@@ -355,6 +402,48 @@ doesNotEndWith(person.emailAddress,".com")
 
 傳回&quot;http&quot;
 
+## 取得url片段 {#get-url-fragment}
+
+`getUrlFragment`函式用於擷取URL的片段部分。
+
+**語法**
+
+```sql
+{%= getUrlFragment(string) %}: string
+```
+
+**範例**
+
+```sql
+{%= getUrlFragment("https://www.myurl.com/contact.html#faq") %}
+```
+
+傳回「faq」
+
+## 附加查詢引數 {#append-query-params}
+
+`appendQueryParams`函式會在URL中附加或取代查詢引數，將引數插入任何片段之前。
+
+**語法**
+
+```sql
+{%= appendQueryParams(url, key, value) %}
+```
+
+| 引數 | 說明 |
+| --------- | ----------- |
+| `url` | 要更新的URL。 |
+| `key` | 要附加或取代的查詢引數索引鍵。 |
+| `value` | 要針對索引鍵設定的查詢引數值。 |
+
+**範例**
+
+```sql
+{%= appendQueryParams("https://example.com/page", "utm_source", "email") %}
+```
+
+傳回`https://example.com/page?utm_source=email`。
+
 ## 索引： {#index-of}
 
 `indexOf`函式是用來傳回第二個引數第一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
@@ -413,6 +502,29 @@ doesNotEndWith(person.emailAddress,".com")
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
+
+## 加入 {#join}
+
+`join`函式使用分隔符號將陣列中的元素串連到單一字串中。
+
+**語法**
+
+```sql
+{%= join(array, separator) %}
+```
+
+| 引數 | 說明 |
+| --------- | ----------- |
+| `array` | 要串連的陣列。 |
+| `separator` | 在每個陣列元素之間插入的字串。 |
+
+**範例**
+
+```sql
+{%= join(["red", "green", "blue"], ",") %}
+```
+
+傳回`red,green,blue`。
 
 ## 最後索引： {#last-index-of}
 
@@ -797,7 +909,8 @@ Your code: WELCOME-{%= upperCase(cleanName) %}
 
 ## 子字串 {#sub-string}
 
-`Count string`函式用來傳回開始索引和結束索引之間的字串運算式的子字串。**語法**
+`Count string`函式用來傳回開始索引和結束索引之間的字串運算式的子字串。
+**語法**
 
 ```sql
 {= substr(string, integer, integer) %}: string

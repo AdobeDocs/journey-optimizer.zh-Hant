@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1188
-ht-degree: 3%
+source-wordcount: 1329
+ht-degree: 4%
 
 ---
 
@@ -137,8 +137,8 @@ Some edu specific content
 ## 每個{#each}
 
 `each`協助程式是用來反複處理陣列。
-協助程式的語法為`{{#each ArrayName}}` YourContent `{{/each}}`。
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
+協助程式的語法是`{{#each ArrayName}}` YourContent `{{/each}}`。
+我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 
@@ -217,6 +217,89 @@ Some edu specific content
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## 中止 {#abort}
+
+>[!AVAILABILITY]
+>
+>此功能目前處於「有限可用性」。
+
+`abort`協助程式會在訊息轉譯期間到達時停止訊息傳遞。
+
+使用條件式區塊（例如`{%#if%}`）來控制協助程式執行的時機。 執行`abort`時，傳遞中止。
+
+**語法**
+
+```handlebars
+{{abort code='code' description='description'}}
+```
+
+**參數**
+
+| 參數 | 說明 |
+| --- | --- |
+| `code` | 引發錯誤中包含的可選中止代碼。 |
+| `description` | 選擇性人工可讀的中止原因。 |
+
+**範例**
+
+```handlebars
+{%#if profile.person.email = ""%}
+  {{abort code='ERR_001' description='Missing email'}}
+{%/if%}
+Hello {{profile.person.name.firstName}}!
+```
+
+在此範例中，轉譯會在`email`出現時進行。 當條件符合時，傳遞會因提供的`code`和`description`而中止。
+
+## 剖析JSON {#parse-json}
+
+`parseJson`協助程式會剖析JSON字串並將剖析的物件儲存在範本變數中，以便您可以直接存取個人化運算式中的欄位。
+
+**語法**
+
+```handlebars
+{{parseJson jsonStr=jsonStringPath result="variableName"}}
+```
+
+**參數**
+
+| 參數 | 說明 |
+| --- | --- |
+| `jsonStr` | 要剖析的JSON字串。 這可以是資料參考或常值JSON字串。 |
+| `result` | 儲存剖析物件的變數名稱。 |
+
+**範例**
+
+```handlebars
+{{parseJson jsonStr=targetResponse.options.content result="offerContent"}}
+{{offerContent.title}}
+```
+
+## 路徑上的值 {#value-at-path}
+
+`valueAtPath`協助程式從資料路徑指派值給範本變數。 您可以選擇使用索引，從陣列或集合中擷取特定元素。
+
+**語法**
+
+```handlebars
+{{valueAtPath path idx=indexPath result="value"}}
+```
+
+**參數**
+
+| 參數 | 說明 |
+| --- | --- |
+| `path` | 要從中擷取值（位置引數）的來源路徑。 |
+| `idx` | 選用的0型索引，用於從陣列或集合中擷取特定元素。 |
+| `result` | 儲存擷取值的變數名稱。 |
+
+**範例**
+
+```handlebars
+{{valueAtPath targetResponse.prefetch.mboxes idx=0 result="firstMbox"}}
+{{firstMbox.name}}
 ```
 
 ## Url {#url}

@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 9592
-ht-degree: 85%
+source-wordcount: 9638
+ht-degree: 84%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* 新的&#x200B;**CX Co-worker Skills**&#x200B;頁面現已推出。 它提供Journey Optimizer中所有歷程技能的完整檔案，包括歷程建立、管道內容建立、忠誠度挑戰管理和歷程分析，以及每種技能的使用案例、範例提示和最佳實務。 [閱讀更多](../start/ajo-coworker-skills.md)
 
 * 已更新&#x200B;**To Precision**&#x200B;函式檔案，以澄清`toPrecision`的行為類似於JavaScript `toFixed()`：它會傳回具有固定小數位數的字串，包括必要時使用填零字元。 [閱讀更多](../personalization/functions/math.md#to-precision)
 

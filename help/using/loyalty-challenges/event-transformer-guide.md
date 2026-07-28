@@ -7,16 +7,14 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 1%
+source-wordcount: 1708
+ht-degree: 3%
 
 ---
 
@@ -60,10 +58,6 @@ ht-degree: 1%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需[!DNL Journey Optimizer]中發行週期與可用性階段的完整詳細資訊，請參閱[發行週期](../rn/releases.md)。
 
 在將客戶交易套用至忠誠度挑戰之前，必須採用「挑戰服務」可瞭解的&#x200B;**Adobe忠誠度事件**&#x200B;格式。 客戶事件（來自POS系統、行動應用程式、電子商務平台或任何其他來源）通常會使用客戶自己的資料結構。 **事件轉換器**&#x200B;會橋接此間隙，不需要變更上游系統。
 
@@ -689,4 +683,5 @@ x-sandbox-name: {SANDBOX}
 對於DCCS事件，轉換器只會接收`xdmEntity`內文，而不會接收外部AJO信封。 所有路徑都必須相對於XDM實體根。 如果您的運算式參考位於外部信封中的欄位（例如`/body/xdmMeta/...`），將無法找到這些欄位，而且會無訊息地產生null。
 
 +++
+
 

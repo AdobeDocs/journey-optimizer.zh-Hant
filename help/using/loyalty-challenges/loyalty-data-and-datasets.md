@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="私人測試版" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # 熟客資料與資料集 {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**目錄**
-
-[開始應對忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* [創造挑戰](create-challenges.md)
-* [建立任務](create-tasks.md)
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* [事件轉換器指南](event-transformer-guide.md)
-* **忠誠度資料和資料集** ◀︎ **您在這裡**
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**私人測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../rn/releases.md)。
 
 ## 概觀 {#overview}
 
@@ -88,6 +47,8 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 
 ➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
+➡️ [AJO結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}
+
 ### 體驗事件 {#experience-events}
 
 **[!UICONTROL 購買]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務取決於內嵌到Adobe Experience Platform中的體驗事件。 針對&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，必須在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定相符的事件定義（識別碼路徑、選用的XDM結構描述ID、結構描述及轉換器），行銷人員才能在任務產生器中輸入自訂事件值。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
@@ -108,4 +69,5 @@ Journey Optimizer將TTL護欄套用至許多系統產生的資料集。 忠誠�
 
 >[!NOTE]
 >
->組織層級的熟客方案設定可包含透過熟客方案中繼資料服務管理的封存和保留設定（例如封存期間）。 如果您需要調整私人測試環境的保留率，請洽詢Adobe管理員。
+>組織層級的熟客方案設定可包含透過熟客方案中繼資料服務管理的封存和保留設定（例如封存期間）。 如果您需要調整組織的保留率，請洽詢Adobe管理員。
+

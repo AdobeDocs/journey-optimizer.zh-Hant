@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: '3473'
-ht-degree: 95%
+source-wordcount: '3495'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
   + [發行週期](using/rn/releases.md)
-  + [搶鮮版發行說明](using/rn/e-release-notes.md)
+  + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
   + [最新發行說明](using/rn/release-notes.md)
   + 舊版發行說明 {#previous-rn-new}
     + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [文件更新](using/rn/documentation-updates.md)
   + {hide-from-toc}[改善的歷程畫布](using/rn/new-canvas.md)
   + {hide-from-toc}[從對象資格移轉批次對象](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[電子郵件追蹤畫素的CNIL指引](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[關於電子郵件追蹤像素的 CNIL 指引](using/privacy/cnil-pixel-tracking.md)
 + 開始使用 {#get-started}
   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入門中心](using/start/onboarding-hub.md)
@@ -40,6 +40,7 @@ ht-degree: 95%
     + [什麼是Journey Optimizer](using/start/get-started.md)
     + [了解其運作原理](using/start/understanding-ajo.md)
     + [AI 與智慧功能](using/start/ai-features.md)
+    + [CX Co-worker中的Journey Optimizer技能](using/start/ajo-coworker-skills.md)
     + [重要術語](using/start/terminology.md)
     + [從您的目標開始](using/start/ajo-use-case-guide.md)
     + [護欄 &amp; 限制](using/start/guardrails.md)
@@ -149,16 +150,19 @@ ht-degree: 95%
     + [使用外部資料來源和自訂動作限制輸送量](using/building-journeys/limit-throughput.md)
     + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 忠誠度挑戰 {#loyalty-challenges}
-  + {hide-from-toc}[開始使用忠誠度挑戰](using/loyalty-challenges/get-started.md)
-  + {hide-from-toc}[存取及管理挑戰與任務](using/loyalty-challenges/access-loyalty-challenges.md)
-  + {hide-from-toc}[建立挑戰](using/loyalty-challenges/create-challenges.md)
-  + {hide-from-toc}[建立任務](using/loyalty-challenges/create-tasks.md)
-  + {hide-from-toc}[監視忠誠度挑戰效能](using/loyalty-challenges/loyalty-reporting.md)
-  + {hide-from-toc}[設定忠誠度挑戰](using/loyalty-challenges/loyalty-admin.md)
-  + {hide-from-toc}[獎勵定義指南](using/loyalty-challenges/reward-definition-guide.md)
-  + {hide-from-toc}[事件轉換器指南](using/loyalty-challenges/event-transformer-guide.md)
-  + {hide-from-toc}[忠誠度資料和資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-  + {hide-from-toc}[忠誠度挑戰 API 參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+  + [開始應對忠誠度挑戰](using/loyalty-challenges/get-started.md)
+  + 建立和管理挑戰 {#create-manage-challenges}
+    + [存取及管理挑戰與工作](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [創造挑戰](using/loyalty-challenges/create-challenges.md)
+    + [建立任務](using/loyalty-challenges/create-tasks.md)
+    + [監視忠誠度挑戰績效](using/loyalty-challenges/loyalty-reporting.md)
+  + 設定和整合 {#configure-integrate-loyalty}
+    + [設定忠誠度挑戰](using/loyalty-challenges/loyalty-admin.md)
+    + [獎勵定義指南](using/loyalty-challenges/reward-definition-guide.md)
+    + [事件轉換器指南](using/loyalty-challenges/event-transformer-guide.md)
+    + [忠誠度挑戰許可權](using/loyalty-challenges/loyalty-permissions.md)
+    + [熟客資料與資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 行銷活動 {#campaigns}
   + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
   + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
@@ -431,6 +435,7 @@ ht-degree: 95%
   + 收件匣 {#inbox}
     + [開始使用收件匣](using/inbox/inbox-gs.md)
     + [在 Journey Optimizer 中設定收件匣管道](using/inbox/inbox-configuration.md)
+    + [在網頁SDK中設定收件匣支援](using/inbox/inbox-configuration-sdk.md)
     + [建立您的收件匣](using/inbox/inbox-create.md)
     + [設計您的收件匣](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
@@ -1033,5 +1038,3 @@ ht-degree: 95%
     + [管理客戶的偏好設定](using/action/preference-center.md)
   + [資料治理](using/action/action-privacy.md)
   + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
-
-
