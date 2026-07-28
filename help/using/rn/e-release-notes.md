@@ -7,18 +7,13 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c8082b429d351a35f2c2ed9627551e3eac64df68
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 2c83cd791d11f47eebd03f9f064a730340d560aa
 workflow-type: tm+mt
-source-wordcount: 2181
-ht-degree: 12%
+source-wordcount: 2130
+ht-degree: 13%
 
 ---
 
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -184,7 +179,9 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **檢視協調的行銷活動轉換許可權** — 新增新的&#x200B;**檢視協調的行銷活動轉換**&#x200B;許可權，以取代舊版&#x200B;**在協調的行銷活動中檢視檔案**&#x200B;選項。 此變更可讓您隱藏促銷活動轉變中的預覽結果，以支援個人識別資訊的合規性。
 
-* **以批次傳送訊息** — 您現在可以排程來自協調行銷活動的輸出訊息，以控管批次方式傳送一段時間的訊息。 波次傳送也支援更好的傳遞能力，並降低被標籤為垃圾訊息的風險，有助於維持強大的寄件者信譽，是高流量或時間敏感型行銷活動的理想選擇。
+<!--
+* **Send messages in waves** - You can now schedule outbound messages from orchestrated campaigns to be delivered in controlled batches over time. Ideal for high-volume or time-sensitive campaigns, wave sending also supports better deliverability and helps maintain a strong sender reputation by reducing the risk of being flagged as spam.
+-->
 
 <!--
 ### Optimization {#july-26-optimization}
@@ -285,7 +282,7 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 
 * **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
 
-  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+  此功能僅適用於一組組織 (可用性限制)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **優惠層級的Personalization** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。<!-- Documentation link: TBD -->
 
