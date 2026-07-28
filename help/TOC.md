@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a5db996df4b53b5c4a7a0d737f97fe49753d1fbd
+source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
 workflow-type: tm+mt
-source-wordcount: '3479'
+source-wordcount: '3473'
 ht-degree: 95%
 
 ---
@@ -116,7 +116,6 @@ ht-degree: 95%
     + [建立運算式](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [使用進階運算式編輯器](using/building-journeys/expression/expressionadvanced.md)
     + [使用 AI 產生運算式](using/building-journeys/expression/generate-expression.md)
-    + {hide-from-toc}[使用運算式助理產生運算式](using/building-journeys/expression/expression-agent.md)
     + 語法 {#syntax}
       + [語法](/help/rp_landing_pages/syntax-landing-page.md)
       + [進階運算式編輯器語法](using/building-journeys/expression/generalities.md)

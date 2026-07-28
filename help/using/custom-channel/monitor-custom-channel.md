@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
 
 
 # 監視自訂通道 {#monitor-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何管理自訂管道的生命週期，並透過Adobe Journey Optimizer的開箱即用報告來監視傳送績效，包括成功傳送、錯誤和連結點選等量度。
+
+>[!ENDSHADEBOX]
 
 自訂管道建立並啟動後，您可以[管理其生命週期](create-custom-channel.md#access-channel-builder)，並透過[!DNL Journey Optimizer]介面監控傳遞效能。
 

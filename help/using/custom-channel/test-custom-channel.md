@@ -5,15 +5,21 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '809'
 ht-degree: 2%
 
 ---
 
 
 # 測試您的自訂頻道 {#test-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何在自訂頻道上線之前進行驗證，方法是從Channel Builder測試端點連線、使用測試設定檔模擬內容，以及傳送校樣。
+
+>[!ENDSHADEBOX]
 
 在啟用使用自訂頻道的歷程或行銷活動之前，請驗證您的端點是否可連線、驗證是否有效，以及個人化權杖是否可正確解析您的目標設定檔。
 

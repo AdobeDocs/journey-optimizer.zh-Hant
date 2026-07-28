@@ -1,20 +1,26 @@
 ---
-title: 開始使用自訂頻道
+title: 開始使用自訂管道
 description: 瞭解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 並將其用於行銷活動、歷程及協調的行銷活動。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="有限可用性" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 5%
 
 ---
 
 
-# 開始使用自訂頻道 {#get-started-custom-channel}
+# 開始使用自訂管道 {#get-started-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的自訂管道、它們與自訂動作的比較，以及將任何輸出HTTP端點帶入AJO的整體工作流程，以便用於行銷活動、歷程及協調的行銷活動。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

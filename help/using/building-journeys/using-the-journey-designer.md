@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
+source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
 workflow-type: tm+mt
 source-wordcount: 2387
 ht-degree: 2%
@@ -112,7 +112,6 @@ ht-degree: 2%
 有兩種可能性：
 
 1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
-
 1. **從讀取對象開始**：您可以設定您的歷程以聆聽[!DNL Adobe Experience Platform]個對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
 ## 定義後續步驟{#define-next-steps}

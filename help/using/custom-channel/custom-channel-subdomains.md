@@ -6,9 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 自訂頻道、子網域、設定
 badge: label="有限可用性" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '872'
 ht-degree: 20%
 
 ---
@@ -54,13 +54,13 @@ TBC
 
 1. 瀏覽至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]**&#x200B;功能表，並選取&#x200B;**[!UICONTROL 管道產生器]** > **[!UICONTROL 子網域]**。
 
-   ![](assets/custom_channel_subdomains.png){width="100%"}
+   ![自訂管道子網域詳細目錄](assets/custom_channel_subdomains.png){width="100%"}
 
 1. 按一下&#x200B;**[!UICONTROL 建立自訂管道子網域]**。
 
 1. 從&#x200B;**[!UICONTROL 組態型別]**&#x200B;區段中選取&#x200B;**[!UICONTROL 使用委派的子網域]**。
 
-   ![](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![使用委派的子網域設定表單](assets/custom_channel_create_subdomain.png){width="100%"}
 
 1. 輸入將顯示在自訂頻道URL中的前置詞。 只允許使用英數字元和連字型大小。
 
@@ -101,7 +101,7 @@ TBC
 
 1. 從&#x200B;**[!UICONTROL 組態型別]**&#x200B;區段中選取&#x200B;**[!UICONTROL 新增您自己的網域]**。
 
-   ![](assets/custom_channel_new_subdomain.png){width="70%"}
+   ![新增您自己的網域設定表單](assets/custom_channel_new_subdomain.png){width="70%"}
 
 1. 指定要委派的子網域。
 
@@ -119,7 +119,7 @@ TBC
 
 1. 請確定已在您的網域託管解決方案中產生DNS記錄。 如果所有專案皆已正確設定，請勾選「我確認……」方塊，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
-   ![](assets/custom_channel_new_subdomain_confirm.png)
+   子網域提交前![DNS記錄確認核取方塊](assets/custom_channel_new_subdomain_confirm.png)
 
    當您設定新的自訂管道子網域時，它始終指向CNAME記錄。
 
