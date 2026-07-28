@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3495'
 ht-degree: 94%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 94%
     + [什麼是Journey Optimizer](using/start/get-started.md)
     + [了解其運作原理](using/start/understanding-ajo.md)
     + [AI 與智慧功能](using/start/ai-features.md)
+    + [CX Co-worker中的Journey Optimizer技能](using/start/ajo-coworker-skills.md)
     + [重要術語](using/start/terminology.md)
     + [從您的目標開始](using/start/ajo-use-case-guide.md)
     + [護欄 &amp; 限制](using/start/guardrails.md)
