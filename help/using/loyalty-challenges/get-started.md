@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
 workflow-type: tm+mt
 source-wordcount: 942
 ht-degree: 13%
@@ -20,8 +19,6 @@ ht-degree: 13%
 
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
 
-## 概觀 {#overview}
-
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="忠誠度挑戰"
@@ -29,7 +26,9 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->* Journey Optimizer忠誠度目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
+>Journey Optimizer忠誠度目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
+
+## 概觀 {#overview}
 
 您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。
 
@@ -159,7 +158,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
@@ -172,3 +171,4 @@ ht-degree: 13%
 ## API 參考 {#api-reference}
 
 若要以程式設計方式管理忠誠度挑戰，請使用[忠誠度挑戰API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。 此API可讓您透過REST端點建立、更新和管理挑戰與工作。
+
