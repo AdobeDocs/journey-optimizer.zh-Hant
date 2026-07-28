@@ -44,7 +44,7 @@ CX Co-worker提供各種管理歷程與忠誠度挑戰的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -294,7 +294,7 @@ Journey Create支援下列功能：
 
 歷程技能可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過歷程技能，從業人員可以快速識別並解決排程和/或對象衝突，偵測歷程中的使用者放棄點並提供見解或建議。 它讓從業人員能夠進行資料導向式決策、改善客戶參與度並簡化歷程協調。
 
-在此[總覽](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
+在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
 
 >[!AVAILABILITY]
 >
@@ -487,6 +487,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
