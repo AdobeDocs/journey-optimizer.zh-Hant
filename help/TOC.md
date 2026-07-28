@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
+source-git-commit: 0ccd65f3e2f37c7893e81ab0a94ee4842cd4565d
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 95%
@@ -19,7 +19,7 @@ ht-degree: 95%
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
   + [發行週期](using/rn/releases.md)
-  + [搶鮮版發行說明](using/rn/e-release-notes.md)
+  + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
   + [最新發行說明](using/rn/release-notes.md)
   + 舊版發行說明 {#previous-rn-new}
     + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
