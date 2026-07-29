@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: '3501'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -163,7 +163,6 @@ ht-degree: 94%
     + [事件轉換器指南](using/loyalty-challenges/event-transformer-guide.md)
     + [忠誠度挑戰許可權](using/loyalty-challenges/loyalty-permissions.md)
     + [熟客資料與資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + 行銷活動 {#campaigns}
   + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
   + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)
