@@ -6,14 +6,11 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1246
 ht-degree: 4%
 
 ---
@@ -75,13 +72,17 @@ Decisioning移轉服務API提供下列功能：
 
 如需沙箱管理的詳細資訊，請參閱[使用和指派沙箱](../administration/sandboxes.md)。
 
+>[!NOTE]
+>
+>目標沙箱可與來源沙箱相同。 移轉程式會處理此情境並確保資料完整性，無論物件是移轉至相同沙箱中還是移轉至不同沙箱。
+
 ## API 基本概念 {#api-basics}
 
 ### 基礎URL {#base-url}
 
 使用以下基底URL：
 
-* **生產**： 
+* **生產**： `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Authentication {#authentication}
