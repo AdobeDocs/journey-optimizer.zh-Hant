@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1ddc46d8ea79660610ff6ba9600ed78d57c86ab5
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 1446
-ht-degree: 28%
+source-wordcount: 2889
+ht-degree: 19%
 
 ---
 
@@ -64,8 +64,9 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <tr>
 <td>
 <p>忠誠度挑戰會將忠誠度方案轉換為吸引人的遊戲化體驗，激勵客戶採取有價值的行動，例如進行購買、撰寫評論或任何想要的行為。</p>
-<p>管理員可以使用「忠誠度管理員」功能表，將Journey Optimizer與您的忠誠度生態系統連結，包括獎勵履行API、事件定義、產品詳細目錄、排除和身分設定。 行銷人員隨後可以設計標準、連續或循序挑戰，定義任務和獎勵，提供品牌內容卡和訊息，以及使用AI支援的報告儀表板來監控效能。 Journey Optimizer會產生歷程，在背景協調每個挑戰，讓團隊可以聚焦於客戶體驗和業務目標。</p>
+<p>管理員可以使用「忠誠度設定」選單，將Journey Optimizer與您的忠誠度生態系統連線，包括獎勵履行API、事件定義、產品詳細目錄、排除和身分設定。 行銷人員隨後可以設計標準、連續或循序挑戰，定義任務和獎勵，提供品牌內容卡和訊息，以及使用AI支援的報告儀表板來監控效能。 Journey Optimizer會產生歷程，在背景協調每個挑戰，讓團隊可以聚焦於客戶體驗和業務目標。</p>
 <p>忠誠度也會引進同事技能，讓團隊更有效率地執行關鍵挑戰操作，包括建立挑戰、設定挑戰屬性、管理對象和相關設定，以及檢閱見解以監控挑戰參與度和獎勵績效。</p>
+<p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>此功能僅適用於獲得Journey Optimizer忠誠度授權的組織。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細說明文件</a>。</p>
 <p> 推出日期： 2026年7月28日</p>
@@ -74,9 +75,9 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
-### 傳出頻道 {#july-26-outbound-channels}
+### 管道 {#july-26-channels}
 
-此發行版本已引入下列功能。
+此發行版本已引入下列功能和改進。
 
 <table>
 <thead>
@@ -103,33 +104,60 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
-### 歷程 {#july-26-journeys}
++++ 即將推出
 
-下列功能和改進功能已新增到此版本的歷程。
 <table>
 <thead>
 <tr>
-<th><strong>新使用者介面</strong><br/></th>
+<th><strong>自訂傳出頻道</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>已針對歷程畫布引入<b>新使用者介面</b>，為大型歷程提供更優異的效能、可更好閱讀的自動版面配置，以及引導式撰寫體驗。</p>
-<p><img src="../building-journeys/assets/journey-new-canvas.png"></p>
-<p>若要切換到新的UI，請按一下<b>新增體驗</b>按鈕。 此設定會儲存在歷程層級，因此預設會在新體驗中重新開啟歷程。 若要還原，請按一下<b>舊體驗</b>。 <a href="../building-journeys/using-the-journey-designer.md#canvas-capabilities">了解更多</a>。</p>
-<p><img src="../building-journeys/assets/journey-new-experience-switch.png"></p>
-<p> 推出日期： 2026年7月16日</p>
+<p>Journey Optimizer現在推出自訂管道，這項新功能可讓管理員透過無程式碼管道產生器，將任何外寄的HTTP傳訊管道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。</p >
+<p>設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意和治理實施。</p>
+<p>這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專用頻道功能。</p>
+<p>自訂傳出頻道目前以「有限可用性」的形式提供。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* [!BADGE 淘汰]{type=Negative}對象資格節點中不再支援批次對象 — 自2026年8月3日起，Journey Optimizer會封鎖在「對象資格」節點中使用批次對象之任何歷程的發佈。 此強制措施取代了6月版本中推出的畫布警告。 現有的即時歷程不受影響。 在「對象資格」節點中使用串流對象，或切換至「讀取對象」活動。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
+* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。
 
-### 電子郵件設計工具 {#july-26-email}
+* **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
 
-下列功能已新增至此版本的電子郵件通道。
+  * 頁首自訂：您現在可以編輯預設的Content-Type頁首值，並新增最多10個自訂頁首引數。
+
+  * SMS裝載支援：在SMS裝載中新增Adobe Journey Optimizer協助程式功能的支援，包括encode64。
+
++++
+
+### 電子郵件設計 {#july-26-email}
+
+此發行版本的電子郵件設計已新增下列功能和改善。
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件設計工具中的模組</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件設計工具現在包含現成可用的版面模組 (例如頁首、產品卡、資訊區塊和頁尾) 資料庫，您可以將這些模組直接拖放到電子郵件畫布中。</p>
+<p>每個模組都預先設定了可編輯的屬性 (影像、標題、文字、按鈕、連結)，並可透過 WYSIWYG 介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
+<p><img src="assets/do-not-localize/email-modules.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../email/email-modules.md">詳細文件</a>。</p>
+<p>推出日期： 2026年7月29日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -152,6 +180,38 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
+* **在`<head>`**&#x200B;中支援運算式片段 — 現在可以在電子郵件範本的`<head>`中使用運算式片段。 這可讓您集中處理單一片段中的樣式或任何自訂程式碼，並在多個範本中重複使用。 更新並重新發佈片段時，所有根據範本建立的電子郵件都會自動繼承最新的程式碼，無需手動個別更新每封電子郵件。 [了解更多](../personalization/use-expression-fragments.md)
+
+  推出日期： 2026年7月29日
+
+### 歷程 {#july-26-journeys}
+
+下列功能和改進功能已新增到此版本的歷程。
+<table>
+<thead>
+<tr>
+<th><strong>新使用者介面</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已針對歷程畫布引入<b>新使用者介面</b>，為大型歷程提供更優異的效能、可更好閱讀的自動版面配置，以及引導式撰寫體驗。</p>
+<p><img src="../building-journeys/assets/journey-new-canvas.png"></p>
+<p>若要切換到新的UI，請按一下<b>新增體驗</b>按鈕。 此設定會儲存在歷程層級，因此預設會在新體驗中重新開啟歷程。 若要還原，請按一下<b>舊體驗</b>。 <a href="../building-journeys/using-the-journey-designer.md#canvas-capabilities">了解更多</a>。</p>
+<p><img src="../building-journeys/assets/journey-new-experience-switch.png"></p>
+<p> 推出日期： 2026年7月16日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* [!BADGE 淘汰]{type=Negative} **對象資格節點和退出條件不再支援批次對象** — 從2026年9月開始，Journey Optimizer將封鎖在「對象資格」節點或退出條件中使用批次對象之任何歷程的發佈。 歷程畫布中已經出現驗證警告。  現有的即時歷程不受影響。 包含此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 在「對象資格」節點中使用串流對象，或切換至「讀取對象」活動。 若是退出條件，請使用串流對象。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
+
+* **歷程模擬中的外部對象** — 歷程模擬現在支援外部對象。 模擬以CSV或同盟對象構成對象為目標的歷程時，您可以直接透過UI表單或JSON匯入，從這些對象中模擬擴充屬性。 UI只會動態顯示歷程邏輯中使用的特定擴充屬性，以在決策分支和個人化規則上線之前進行精確驗證。 [了解更多](../building-journeys/simulate-journey.md)
+
+  推出日期： 2026年7月29日
+
 ### 協調的行銷活動 {#july-26-oc}
 
 下列功能和改進功能將新增到此版本的協調行銷活動。
@@ -173,6 +233,34 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
+* **檢視協調的行銷活動轉換許可權** — 新增新的&#x200B;**檢視協調的行銷活動轉換**&#x200B;許可權，以取代舊版&#x200B;**在協調的行銷活動中檢視檔案**&#x200B;選項。 此變更可讓您隱藏促銷活動轉變中的預覽結果，以支援個人識別資訊的合規性。
+
+  推出日期： 2026年7月29日
+
+  [了解更多](../administration/ootb-permissions.md)
+
+### 決策 {#decisioning}
+
+* **從自然語言運算式建立決策規則** — 您現在可以使用純語言描述您要建立的決策規則，並讓AI為您產生它。 此功能適用於具有Adobe AI功能存取權的客戶。
+
+  此功能適用於具有Adobe AI功能存取權的組織。 它僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+  推出日期： 2026年7月29日
+
+  [了解更多](../experience-decisioning/rules.md#build-rule-with-ai)
+
+* **決定專案的動態自訂屬性** — 決定專案自訂屬性現在可以在傳遞時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變化版本維持重複的產品建議，而能夠管理較少、較靈活的決策項目。 [了解更多](../experience-decisioning/items.md#attributes)
+
+  推出日期： 2026年7月27日
+
+* **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
+
+  此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+  推出日期： 2026年7月29日
+
+  [進一步瞭解規則模擬](../experience-decisioning/rules.md) | [進一步瞭解排名公式模擬](../experience-decisioning/ranking/ranking-formulas.md)
+
 ### 內容管理 {#july-26-content}
 
 下列功能和改善專案已新增至此版本的內容管理。
@@ -184,18 +272,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 * **範本詳細目錄中的快速啟動捷徑** — 「內容範本」清單中的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕現在提供對常見動作的快速存取：編輯範本詳細資料、模擬內容以及刪除範本。 對於電子郵件範本，其他捷徑可讓您編輯主旨行和電子郵件內文、檢視或傳送校樣、執行垃圾郵件報告，以及呈現電子郵件。 [了解更多](../content-management/access-content-templates.md#quick-launch-templates)
 
   ![](../content-management/assets/content-template-quick-launch.png)
-
-### 內容與整合 {#july-26-integration}
-
-下列功能和改進功能將新增到此版本的內容管理與整合。
-
-* **決定專案的動態自訂屬性** — 決定專案自訂屬性現在可以在傳遞時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變化版本維持重複的產品建議，而能夠管理較少、較靈活的決策項目。 [閱讀更多](../experience-decisioning/items.md#attributes)
-
-  推出日期： 2026年7月27日
-
-* **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
-
-  推出日期： 2026年7月9日
 
 * **個人化運算式中的新協助程式函式** — 個人化運算式現在提供新協助程式函式：
 
@@ -221,10 +297,98 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
   推出日期： 2026年7月28日
 
++++ 即將推出
+
+* **彈性的AI內容產生影像來源** — 在Journey Optimizer中產生內容現在會直接從Adobe Experience Manager Assets Essentials等來源取得品牌核准的影像。 三種模式可控制平衡：Assets （數位資產管理來源，預設）、平衡（數位資產管理優先，AI填補差距）和Creative （AI優先）。 這可確保每個視覺效果都準確、符合品牌規範，並為歷程和行銷活動做好生產準備。
+
+* **多語言改善** — 語言設定現在可以從現有的作用中設定複製，因此您不再需要完全重建設定以進行變更。 您也可以在編寫「語言設定」時，將條件從一個地區設定複製到另一個地區設定，以簡化具有多種語言的網站的設定。
+
+* **「AI小幫手」已重新命名為「產生內容」** — 「AI小幫手」已重新命名為「透過Adobe Journey Optimizer產生內容」。 此更新僅限於命名和術語；未引入任何功能變更。 內容產生、影像產生、個人化運算式和內容實驗的導覽標籤、按鈕、功能表和對話方塊已從「AI助理」重新命名為「產生內容」。
+
++++
+
+### 內容與整合 {#july-26-integration}
+
+此版本中的內容管理及整合即將推出下列改善專案。
+
+* **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
+
+  推出日期： 2026年7月9日
+
+### 報表 {#july-26-reporting}
+
+此版本中報告下列改善專案。
+
+* **電子郵件報告的新預估點按量度** — 為了更準確地檢視實際客戶參與度，歷程、行銷活動和頻道即時報告現在提供新的預估量度。
+
+  * 預估的CTR （點進率）：計算為相對於已傳送訊息總數的預估點按。
+
+  * 預估的CTOR （點按至開啟率）：計算為相對於預估開啟總數的預估點按次數。
+
+    推出日期： 2026年7月29日
+
 ### 管理 {#july-26-administration}
 
 此版本中的管理和資料管理已新增下列改善專案。
 
 * **資料集存留時間(TTL)護欄 — 現有的沙箱** - Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將從&#x200B;**2026年10月1日起，在**&#x200B;現有的客戶沙箱和組織&#x200B;**上強制執行**。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
 
++++即將推出
 
+<table>
+<thead>
+<tr>
+<th><strong>Web應用程式防火牆IP允許清單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援登入頁面的Web應用程式防火牆IP允許清單，可讓組織強制所有傳入要求都透過其設定的Web應用程式防火牆基礎架構專門路由。 透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過Web應用程式防火牆層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。</p>
+<p>此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。</p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **管理完整/基本URL個人化的網域** — 您現在可以直接從Adobe Journey Optimizer中的管理設定建立和管理核准的完整和基本URL個人化的網域，而無需連絡Adobe支援。<!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
+
++++
+
+### 行銷活動 {#campaigns}
+
++++ 即將推出
+
+<table>
+<thead>
+<tr>
+<th><strong>API觸發的電子郵件中的個人化PDF附件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer現在支援在API觸發的行銷活動中，每封電子郵件最多附加5個收件者特定PDF。 PDF檔案會從Azure或AWS儲存空間中安全地擷取，並在傳送時附加，每個檔案的位置都直接在API裝載中傳遞。 這可讓現有的上游檔案產生系統維持原狀，由Journey Optimizer處理傳送。</p>
+<p>支援的使用案例包括發票、對帳單、票證、合約、出貨標籤，以及依收件者而異的類似檔案。 個人化PDF附件僅適用於API觸發的行銷活動，在歷程或其他行銷活動型別（動作、協調）中不支援。</p>
+<p>PDF附件附加元件支援較大的附件數量與大小；如需詳細資訊，請聯絡您的Adobe代表。</p>
+<p></p>
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **行銷活動的資料夾** — 您現在可以將行銷活動整理到資料夾中，以改善介面中的導覽和管理。 此功能僅適用於動作和API觸發的行銷活動。
+
+* **API觸發的行銷活動中的輸送量的效能附加元件 — 推播** — 在API觸發的行銷活動中提供新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
+
++++
+
+### 可用性改進功能 {#july-26-usability}
+
++++即將推出
+
+* **內容測試的新內容模擬體驗** - **模擬內容**&#x200B;工作流程引入重新設計的體驗：所有變體現在都會在單一可捲動格線（並排、棧疊或包裝的版面）中一起呈現，取代一次一個變體。 單一底部動作列可整合測試變體之間的導覽、縮放、檢視區切換（案頭/行動裝置）、地區設定切換、新增範例輸入、使用AI產生變體、挑選並儲存模擬使用者，以及匯入或匯出變體。 移除左側邊欄並收合額外的頁首圖層可大幅增加預覽的空間。 下方動作列中的&#x200B;**切換為傳統體驗**&#x200B;選項可讓您隨時還原成先前的體驗。
+
++++

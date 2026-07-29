@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 94%
 + 開始使用 {#get-started}
   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入門中心](using/start/onboarding-hub.md)
+  + {hide-from-toc}[移轉內容與歷程](using/start/migrate-content-and-journeys.md)
   + 基本要點 {#essentials}
     + [什麼是Journey Optimizer](using/start/get-started.md)
     + [了解其運作原理](using/start/understanding-ajo.md)
@@ -313,6 +314,7 @@ ht-degree: 94%
       + 撰寫您的內容 {#add-content}
         + {hide-from-toc}[設計您的內容](/help/rp_landing_pages/add-content-landing-page.md)
         + [使用內容元件](using/email/content-components.md)
+        + [使用模組](using/email/email-modules.md)
         + [運用視覺片段](using/email/use-visual-fragments.md)
         + [新增連結及追蹤訊息](using/email/message-tracking.md)
         + [個人化 URL](using/email/url-personalization.md)

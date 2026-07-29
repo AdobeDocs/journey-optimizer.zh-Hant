@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1136
-ht-degree: 13%
+source-wordcount: 1619
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ ht-degree: 13%
 
 * 從每個專案旁的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您可以：
 
-   * 如果您選取了&#x200B;**[!UICONTROL 決定專案]**&#x200B;實體，請將規則新增至套件，以便將其匯出至另一個沙箱。 瞭解如何[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)。
-   * 複製規則。
-   * 刪除規則。
+  * 如果您選取了&#x200B;**[!UICONTROL 決定專案]**&#x200B;實體，請將規則新增至套件，以便將其匯出至另一個沙箱。 瞭解如何[將物件匯出至另一個沙箱](../configuration/copy-objects-to-sandbox.md)。
+  * 複製規則。
+  * 刪除規則。
 
 ![](assets/rules-list.png){width=100%}
 
@@ -105,14 +105,23 @@ ht-degree: 13%
 
 1. 導覽至&#x200B;**[!UICONTROL 決策]** > **[!UICONTROL 策略設定]** > **[!UICONTROL 規則]**，然後按一下&#x200B;**[!UICONTROL 建立規則]**&#x200B;按鈕。
 
-1. 選取規則實體，以指定要為其建立規則的物件型別。
+1. 在&#x200B;**[!UICONTROL 建立規則]**&#x200B;對話方塊中，選擇下列其中一個標籤：
+
+   * **[!UICONTROL 從頭開始建立]**&#x200B;以繼續規則建立流程。
+   * **[!UICONTROL 使用AI建立]**&#x200B;以使用AI輔助的編寫。 描述您要建立的規則，然後確認。 系統會將您重新導向規則產生器，而AI助理會在右側窗格中產生規則建議。 有關如何使用AI產生規則的詳細資訊，請參閱[使用AI建立規則](#build-rule-with-ai)區段。
+
+     >[!NOTE]
+     >
+     >此功能適用於具有Adobe AI功能存取權的組織。
+
+1. 如果您選擇&#x200B;**[!UICONTROL 從頭開始建立]**，請選取規則實體，以指定要建立規則的物件型別。
 
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 決定專案]** — 規則可以套用至決策內容中的[決定專案](#decision-rules)；
    * **[!UICONTROL 鎖定目標]** — 建置[鎖定目標](#targeting-rules)規則時，可使用此規則，做為行銷活動中[內容最佳化](../building-journeys/path-targeting.md)的一部分，或在[最佳化歷程活動](../building-journeys/path-targeting.md)中的歷程。
 
-1. 如果您建立&#x200B;**[!UICONTROL 決定專案]**&#x200B;規則，可以選取&#x200B;**[!UICONTROL 啟用資料集查閱]**，以使用來自Adobe Experience Platform的資料，以使用外部資料擴充您的決定邏輯。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
+   如果您建立&#x200B;**[!UICONTROL 決定專案]**&#x200B;規則，可以選取&#x200B;**[!UICONTROL 啟用資料集查閱]**，以使用來自Adobe Experience Platform的資料，以使用外部資料擴充您的決定邏輯。 這對於經常變更的屬性（例如產品可用性或即時定價）特別有用。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
 
 1. 規則建立畫面隨即開啟。 為規則命名並提供說明。
 
@@ -148,6 +157,68 @@ ht-degree: 13%
 >規則字串的大小最多可達15KB （UTF-8編碼字元）。 這相當於15,000個ASCII字元（每個1個位元組），或3,750-7,500個非ASCII字元（每個2-4個位元組）。
 >
 >[進一步瞭解適用性規則護欄和限制](decisioning-guardrails.md#eligibility-rules)
+
+## 使用AI建置規則 {#build-rule-with-ai}
+
+>[!NOTE]
+>
+>此功能適用於具有Adobe AI功能存取權的組織。 它僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
+>
+>目前，AI輔助規則產生不支援Journey內容資料型運算式產生。
+
+您可以從兩個地方開始AI輔助規則製作：
+
+* 在「建立規則」對話方塊的&#x200B;**[!UICONTROL 使用AI建立]**&#x200B;索引標籤中：
+
+  ![](assets/rule-ai-create.png){width=85%}
+
+* 在規則產生器中，使用&#x200B;**[!UICONTROL AI助理]**&#x200B;按鈕。
+
+  ![](assets/rule-ai-generate.png){width=85%}
+
+在AI助理窗格中，以純文字描述您要建置的規則。 AI助理會產生規則建議，您可以將其套用至產生器或捨棄。
+
+![](assets/rule-ai-generate-prompt.png)
+
+>[!CAUTION]
+>
+>當您按一下&#x200B;**[!UICONTROL 套用至產生器]**&#x200B;時，AI產生的規則會取代目前產生器畫布中建置的任何現有規則邏輯。
+
+## 模擬您的規則 {#simulate-rules}
+
+在決策策略或行銷活動中使用規則之前，您可以使用範例或產生的資料加以測試，以驗證規則邏輯並確保其運作如預期。
+
+1. 開啟現有規則或[建立新規則](#create)，然後按一下&#x200B;**[!UICONTROL 模擬規則]**&#x200B;按鈕。
+
+   ![](assets/rule-simulate-button.png)
+
+
+1. 模擬畫面會開啟，其中包含多個區段：
+
+   ![](assets/rule-simulate-new.png)
+
+   * **測試變體**：您產生或建立手動測試變體的位置
+   * **規則運算式**：顯示參考的規則定義
+   * **模擬結果**：顯示設定檔是否符合此規則的資格
+
+1. 使用以下兩種方法之一，使用規則所需的屬性新增測試變體：
+   * 若要建立手動樣本，請選取&#x200B;**[!UICONTROL 建立樣本]**&#x200B;按鈕。
+   * 若要使用AI產生測試變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
+
+>[!NOTE]
+>
+>擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
+
+「測試變體」區段會自動填入已建立或已產生的範例。 每個變體都包含規則中使用的屬性。 您可以直接編輯欄位值以模擬不同的情境。
+
+若要檢視規則評估結果，請從清單中選取測試變體。 「模擬」結果區域會顯示此規則是否符合「設定檔」的條件。
+
+在以下範例中，第一個測試變體顯示&#x200B;**[!UICONTROL 通過]**&#x200B;模擬結果，而第二個測試變體顯示&#x200B;**[!UICONTROL 失敗]**&#x200B;結果。
+
+| 通過範例 | 失敗的範例 |
+| --- | --- |
+| ![](assets/rule-simulate-pass.png) | ![](assets/rule-simulate-fail.png) |
+| 變體資料符合所有規則條件，因此設定檔符合規則。 | 一或多個條件不符合，因此設定檔不符合規則。 |
 
 ## AI支援的規則最佳化 {#optimize}
 

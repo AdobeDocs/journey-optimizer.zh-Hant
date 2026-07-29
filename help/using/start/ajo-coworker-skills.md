@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 9%
+source-wordcount: '2860'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ## 概觀 {#overview}
 
-CX Co-worker為Adobe Journey Optimizer帶來AI支援的功能。 [CX Co-worker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home){target="_blank"}是Adobe的對話式AI小幫手，可與您的商務應用程式整合，協助您更有效率地工作。
+CX Co-worker為Adobe Journey Optimizer帶來AI支援的功能。 [CX Co-worker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home){target="_blank"}是Adobe的對話式體驗，可與您的商務應用程式整合，協助您更有效率地工作。
 
 憑藉AI支援的技能，CX Co-worker可讓Journey Optimizer使用者使用自然語言介面來建立、分析和最佳化行銷歷程。 透過歷程技能，從業人員可以快速建立歷程、偵測並解決排程或對象衝突、分析績效和流失點，並識別表現最佳的歷程以復寫以供未來行銷活動。 它讓從業人員能夠進行資料導向式決策、改善客戶參與度並簡化歷程協調。
 
@@ -57,15 +57,15 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 
 >[!AVAILABILITY]
 >
->Agent Orchestrator Explorer程式中的客戶可使用Journey Create 。 您也將需要以下許可權才能完全使用Journey Create功能：
+>您需要下列許可權才能完整使用「歷程建立」功能：
 >
->**管理歷程**：此許可權可讓您直接在AI助理中建立新的歷程。
+>**管理歷程**：此許可權可讓您直接在CX Co-worker中建立新的歷程。
 >
->**檢視歷程事件、資料來源和動作**：此許可權可確保AI助理員可搜尋歷程事件和自訂動作。
+>**檢視歷程事件、資料來源及動作**：此許可權可確保CX同事能夠搜尋歷程事件和自訂動作。
 >
->**檢視區段**：此許可權可確保AI助理員在建立歷程時可以搜尋對象區段。
+>**檢視區段**：此許可權可確保CX Co-worker在建立歷程時可搜尋對象區段。
 >
->**管理區段**：此許可權可讓您直接在AI助理中建立新對象。
+>**管理區段**：此許可權可讓您直接在CX Co-worker中建立新對象。
 
 ### 主要使用案例
 
@@ -294,19 +294,17 @@ Journey Create支援下列功能：
 
 歷程技能可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過歷程技能，從業人員可以快速識別並解決排程和/或對象衝突，偵測歷程中的使用者放棄點並提供見解或建議。 它讓從業人員能夠進行資料導向式決策、改善客戶參與度並簡化歷程協調。
 
-在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
-
 >[!AVAILABILITY]
 >
->所有有權存取AI Assistant的客戶皆可使用歷程技巧。 不過，您需要下列許可權才能完整使用「歷程技能」功能：
+>所有可存取CX Co-worker的客戶皆可使用歷程技巧。 不過，您需要下列許可權才能完整使用「歷程技能」功能：
 >
->**檢視歷程**：此許可權可讓您直接在AI助理中檢視歷程的深入分析。
+>**檢視歷程**：此許可權可讓您直接在CX Co-worker中檢視歷程的深入分析。
 >
->**管理歷程**：若要取得許可權，您可以直接在AI助理中建立新的歷程。
+>**管理歷程**：此許可權可讓您直接在CX Co-worker中建立新的歷程。
 >
->**檢視區段**：此許可權可讓您直接在AI助理中檢視對象的深入分析。
+>**檢視區段**：此許可權可讓您直接在CX Co-worker中檢視對象的深入分析。
 >
->**管理區段**：此許可權可讓您直接在AI助理中建立新對象。
+>**管理區段**：此許可權可讓您直接在CX Co-worker中建立新對象。
 
 ### 主要使用案例
 
@@ -364,8 +362,8 @@ Journey Analyze提供一系列可用來最佳化行銷工作的功能：
 Journey Analyze支援下列功能：
 
 * **反應式查詢**：使用者能夠詢問關於歷程績效、客群使用情形，以及排程衝突的具體問題。
-* **與其他代理整合**：與 Audience 代理和 Data Insights 代理協同合作，進行更深入的分析。
-* **代理程式回應結構**：推理（說明邏輯）、分析摘要（強調關鍵點）、問題詳細資訊（說明問題）以及建議（建議後續步驟）。
+* **與其他技能整合**：與Audience和Data Insights功能共同作業，以進行更深入的分析。
+* **回應結構**：推理（說明邏輯）、分析摘要（強調關鍵點）、問題詳細資訊（說明問題）以及建議（建議後續步驟）。
 
 ### 超出範圍技能
 
@@ -383,7 +381,7 @@ Journey Analyze支援下列功能：
 若要讓Journey Analytics獲得最大成效，請遵循下列最佳實務：
 
 1. **具體**：使用清楚且簡潔的提示獲得指定目標的洞察。 例如，與其問「我的歷程為何？」，改為指定「列出上個月建立的所有歷程」。
-1. **結合洞察**：整合 Audience 代理和 Data Insights 代理的洞察，掌握歷程的整體績效。
+1. **結合見解**：整合受眾的見解和資料見解功能，以整體檢視歷程績效。
 1. **反覆改善**：使用流失分析和重疊分析來反覆改善歷程設計與排程。
 
 ### 設定最佳做法

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 9638
+source-wordcount: 9688
 ht-degree: 84%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 84%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* **Decisioning移轉API**&#x200B;檔案已更新，其中說明目標沙箱&#x200B;**可與來源沙箱**&#x200B;相同。 移轉程式會處理此情境並確保資料完整性，無論物件是移轉至相同沙箱中還是移轉至不同沙箱。 [閱讀更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
 
 * 新的&#x200B;**CX Co-worker Skills**&#x200B;頁面現已推出。 它提供Journey Optimizer中所有歷程技能的完整檔案，包括歷程建立、管道內容建立、忠誠度挑戰管理和歷程分析，以及每種技能的使用案例、範例提示和最佳實務。 [閱讀更多](../start/ajo-coworker-skills.md)
 

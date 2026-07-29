@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 任務會定義客戶在忠誠度挑戰中必須完成的特定動作或里程碑，才能獲得獎勵。 您可以設定購買和支出任務，或是&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，用於追蹤貴組織已擷取的Adobe Experience Platform體驗事件。
 
 每項任務都代表可測量的動作，有助於完成挑戰。 任務是可重複使用的元件，可以獨立建立，然後新增到一個或多個挑戰，或直接在挑戰中建立。
+
+➡️ [觀看如何建立任務](#video)
 
 ## 建立任務 {#create-task}
 
@@ -54,7 +56,7 @@ ht-degree: 9%
 
 * **[!UICONTROL 購買]**：客戶必須購買一或多個專案才能完成此工作
 * **[!UICONTROL 支出]**：客戶必須支出指定的金額才能完成此工作
-* **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自訂事件]**：客戶必須執行Adobe Experience Platform體驗事件所代表的活動。 例如，飯店簽到、行動應用程式動作或稽核提交。 必須在Experience Platform中擷取基礎事件，並透過&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中的事件定義進行對應。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
 若要選取活動，請按一下&#x200B;**+**&#x200B;圖示，然後選取最符合您結果目標的客戶活動。每個活動型別都有特定的可設定屬性，可進一步定義及塑造任務需求。
 ![](assets/task-create-activity.png)
@@ -90,7 +92,7 @@ ht-degree: 9%
 
 **[!UICONTROL 自訂事件]**&#x200B;活動的可用屬性：
 
-* **[!UICONTROL 自訂事件值]**：輸入客戶必須完成的自訂事件值。 請使用逗號來分隔每個值。 這些值必須符合&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定的事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+* **[!UICONTROL 自訂事件值]**：輸入客戶必須完成的自訂事件值。 請使用逗號來分隔每個值。 這些值必須符合&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中設定的事件定義。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
 ![](assets/task-create-custom.png)
 
@@ -107,7 +109,7 @@ ht-degree: 9%
 
 針對&#x200B;**購買**&#x200B;和&#x200B;**支出**&#x200B;活動，您可以使用&#x200B;**[!UICONTROL 合格專案及排除專案]**&#x200B;區段來定義哪些專案和群組符合資格，哪些專案及群組被排除。 您可以藉此鎖定特定的目標產品、類別或位置，使其符合您的挑戰活動目標。
 
-選取器中可用的專案和群組是由管理員使用者在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中定義。 管理員會上傳用於合格專案的產品詳細目錄，並設定全組織範圍的排除專案，這些排除專案會在行銷人員建立任務時自動套用。 [瞭解如何設定產品詳細目錄](loyalty-admin.md#product-inventory)和[排除專案](loyalty-admin.md#exclusions)
+選取器中可用的專案和群組是由管理員使用者在&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中定義。 管理員會上傳用於合格專案的產品詳細目錄，並設定全組織範圍的排除專案，這些排除專案會在行銷人員建立任務時自動套用。 [瞭解如何設定產品詳細目錄](loyalty-admin.md#product-inventory)和[排除專案](loyalty-admin.md#exclusions)
 
 **[!UICONTROL 自訂事件]**&#x200B;工作未使用符合資格的專案和排除專案；完成是由您設定的&#x200B;**[!UICONTROL 自訂事件值]**&#x200B;所驅動。
 
@@ -163,4 +165,10 @@ ht-degree: 9%
 ![](assets/tasks-create-properties.png)
 
 在設定所有屬性和屬性之後，選取&#x200B;**[!UICONTROL 建立]**&#x200B;以儲存工作。 任務會儲存到您的任務詳細目錄，如果是從挑戰中建立的，則會自動新增到該挑戰。
+
+## 作法影片 {#video}
+
+透過此逐步教學課程，瞭解如何建立及設定工作：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496451?captions=chi_hant&quality=12)
 

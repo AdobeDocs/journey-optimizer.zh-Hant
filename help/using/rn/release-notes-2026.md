@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2732c1a2b177c3317974f8ec91cfde911ac2bcf6
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 10049
+source-wordcount: 10054
 ht-degree: 95%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 95%
 </table>
 
 
-* [!BADGE 淘汰]{type=Negative} **對象資格節點中已淘汰的批次對象** — 從&#x200B;**2026年8月**&#x200B;開始，Journey Optimizer將封鎖在&#x200B;**對象資格**&#x200B;節點中使用批次對象之任何歷程的發佈。 歷程畫布中已經出現驗證警告。 現有的即時歷程不受影響。 包含此設定的新歷程、草稿歷程和重複歷程必須在2026年8月之前更新。 在「對象資格」節點中使用串流對象，或切換至&#x200B;**讀取對象**&#x200B;活動。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE 淘汰]{type=Negative} **對象資格節點和退出條件不再支援批次對象** — 從2026年9月開始，Journey Optimizer會封鎖在「對象資格」節點或退出條件中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 包含此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 在「對象資格」節點中使用串流對象，或切換至「讀取對象」活動。 若是退出條件，請使用串流對象。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
 
 * **直接停止暫停的歷程** — 您現在可以直接從&#x200B;**暫停**&#x200B;狀態停止歷程。 之前，暫停的歷程必須先恢復為&#x200B;**即時**，才能停止。 [閱讀更多](../building-journeys/journey-pause.md#stop-close-paused)
 

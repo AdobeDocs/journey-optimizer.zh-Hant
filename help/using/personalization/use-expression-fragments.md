@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: e71668f881bbaac88b1a0980838ff27b3d9dfc76
 workflow-type: tm+mt
-source-wordcount: 2174
+source-wordcount: 2200
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 開啟[個人化編輯器](personalization-build-expressions.md)並在左窗格上選取&#x200B;**[!UICONTROL 片段]**&#x200B;按鈕。
 
    清單會顯示目前沙箱上已建立或儲存為片段的所有運算式片段。 [瞭解如何建立片段](../content-management/create-fragments.md)
-它們會依建立日期排序：最近新增的運算式片段會先顯示在清單中。
+   它們會依建立日期排序：最近新增的運算式片段會先顯示在清單中。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -66,7 +66,11 @@ ht-degree: 0%
    >
    >如果您在編輯內容時修改或新增了某些片段，清單會以最新變更更新。
 
-1. 按一下運算式片段旁的+圖示，將對應的片段ID插入編輯器中。
+1. 將游標置於內容中所需的位置，然後按一下運算式片段旁的+圖示，將對應的片段ID插入編輯器中。
+
+   >[!NOTE]
+   >
+   >您也可以新增運算式片段至電子郵件或內容範本的`<head>`區段。
 
    ![](assets/expression-fragment-add.png)
 

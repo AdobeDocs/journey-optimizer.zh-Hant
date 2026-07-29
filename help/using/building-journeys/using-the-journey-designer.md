@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -97,7 +97,8 @@ ht-degree: 2%
 
 ![](assets/journey-new-canvas.png)
 
-若要切換到新體驗，請按一下歷程畫布中的&#x200B;**[!UICONTROL 新體驗]**&#x200B;按鈕。 切換後，此設定會儲存在歷程層級，因此後續造訪時預設會在新體驗中開啟歷程。 若要還原，請按一下&#x200B;**[!UICONTROL 舊體驗]**&#x200B;按鈕。
+若要切換到新體驗，請按一下歷程畫布中的&#x200B;**[!UICONTROL 新體驗]**&#x200B;按鈕。切換後，此設定會儲存在歷程層級，因此後續造訪時預設會在新體驗中開啟歷程。若要還原，請按一下&#x200B;**[!UICONTROL 舊體驗]**&#x200B;按鈕。
+此外，系統現在會在使用者層級記住您上次選取的體驗（舊或新）。此後，每當您建立新歷程時，就會自動套用此喜好設定，因此您不需要每次都手動切換。
 
 ![](assets/journey-new-experience-switch.png)
 

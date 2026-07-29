@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 1755
 ht-degree: 17%
@@ -27,7 +27,7 @@ ht-degree: 17%
 >
 >除了忠誠度挑戰所需的許可權之外，忠誠度挑戰設定需要管理員存取您的[!DNL Journey Optimizer]執行個體。 請聯絡您的Adobe管理員以取得存取權。
 
-若要開啟設定介面，請從左側導覽選取&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表。 介面會整理為標籤：
+若要開啟設定介面，請從左側導覽選取&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表。 介面會整理為標籤：
 
 * **全域設定** — 選取您程式的Experience Platform身分名稱空間。 [瞭解如何設定全域設定](#global-settings)
 * **獎勵提供者** — 連線完成客戶進度或完成挑戰時獎勵的API。 [瞭解如何設定獎勵提供者](#reward-providers)。

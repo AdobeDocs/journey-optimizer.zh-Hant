@@ -22,10 +22,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 5%
+source-wordcount: 2024
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,9 @@ ht-degree: 5%
 
 ![](../assets/ranking-formula-dataset.png)
 
-## 使用公式產生器定義條件 {#ranking-select-criteria}
+## 定義條件
+
+### 使用公式產生器定義條件 {#ranking-select-criteria}
 
 定義將決定相符決定專案排名分數的&#x200B;**條件**。
 
@@ -157,7 +159,7 @@ ht-degree: 5%
 
 您現在可以從清單中存取排名公式，以檢視其詳細資訊，並編輯或刪除它。 已準備好在[選取策略](../selection-strategies.md)中使用它來排名合格的決定專案。
 
-## 使用程式碼編輯器定義條件 {#ranking-code-editor}
+### 使用程式碼編輯器定義條件 {#ranking-code-editor}
 
 當您想要將排名邏輯寫入或編輯為&#x200B;**PQL**&#x200B;運算式時，請使用&#x200B;**[!UICONTROL 切換至程式碼編輯器]**。
 
@@ -290,6 +292,42 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## 模擬您的排名公式 {#simulate-ranking-formula}
+
+將排名公式套用至您的選擇策略之前，您可以使用範例或產生的資料來測試它，以驗證排名結果並確保它達成預期行為。
+
+1. 開啟現有的公式，或[建立新的公式](#create-ranking-formula)，然後按一下&#x200B;**[!UICONTROL 模擬公式]**&#x200B;按鈕。
+
+   ![](../assets/ranking-formula-simulate-button.png)
+
+1. 模擬畫面會開啟，其中包含多個區段：
+
+   ![](../assets/ranking-formula-simulate-new.png)
+
+   * **測試變體**：您產生或建立手動測試變體的位置
+   * **排名運算式**：顯示公式運算式以供參考
+   * **模擬結果**：選取變體時顯示排名優惠
+
+1. 使用下列兩種方法之一新增測試變體：
+
+   * 若要建立手動樣本，請選取&#x200B;**[!UICONTROL 建立樣本]**&#x200B;按鈕，然後選取您要用來測試的選件專案。
+   * 若要使用AI產生測試變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
+
+   >[!NOTE]
+   >
+   >擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
+
+「測試變體」區段會自動填入選取的專案或產生的範例。 每個變體都包含在運算式中使用的屬性。 您可以直接編輯欄位值以模擬不同的情境。
+
+若要檢視模擬的排名結果，請從清單中選取測試變體。 「模擬」結果區域會顯示排名優惠方案及其分數，顯示您的公式如何根據變體資料對專案進行排名。
+
+針對每個選取的變體，模擬會傳回排序結果：
+
+* 排名最高的優惠方案是該變體運算分數最高的優惠方案。
+* 排名較低的優惠方案仍符合資格，但會在分數較高的優惠方案之後排序。
+
+![](../assets/ranking-formula-simulate-result.png)
 
 ## AI支援的公式最佳化 {#optimize}
 

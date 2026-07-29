@@ -46,7 +46,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join_merging"
 >title="合併選項"
->abstract="選取您要參加的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
+>abstract="選取您要連接的活動。 在「**主要集合**」下拉選單中，選擇您要保留的傳入轉變群體。"
 
 請按照以下步驟設定&#x200B;**[!UICONTROL 合併連結]**&#x200B;活動：
 

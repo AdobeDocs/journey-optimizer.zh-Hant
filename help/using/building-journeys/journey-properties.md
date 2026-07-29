@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -359,6 +359,10 @@ ht-degree: 10%
 
 ## 退出條件 {#exit-criteria}
 
+>[!CAUTION]
+>
+>**淘汰通知 — 2026年9月**：從&#x200B;**2026年9月**&#x200B;開始，Journey Optimizer將封鎖在&#x200B;**退出條件**&#x200B;中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 [瞭解如何移轉您的歷程](aq-batch-audiences-migration.md)
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="退出條件"
@@ -430,8 +434,8 @@ ht-degree: 10%
 * **僅可用於暫停的歷程**\
   您只能在歷程暫停時新增或編輯「設定檔屬性」退出條件。
 
-   * 在&#x200B;**草稿歷程**&#x200B;中，*設定檔屬性*&#x200B;選項顯示為停用（唯讀），而&#x200B;*事件*&#x200B;和&#x200B;*對象*&#x200B;選項保持作用中。
-   * 在&#x200B;**暫停的歷程**&#x200B;中，*設定檔屬性*&#x200B;選項會變成可編輯，*事件*&#x200B;和&#x200B;*對象*&#x200B;選項會變成唯讀。
+  * 在&#x200B;**草稿歷程**&#x200B;中，*設定檔屬性*&#x200B;選項顯示為停用（唯讀），而&#x200B;*事件*&#x200B;和&#x200B;*對象*&#x200B;選項保持作用中。
+  * 在&#x200B;**暫停的歷程**&#x200B;中，*設定檔屬性*&#x200B;選項會變成可編輯，*事件*&#x200B;和&#x200B;*對象*&#x200B;選項會變成唯讀。
 
 ### 相關主題 {#exit-criteria-related}
 

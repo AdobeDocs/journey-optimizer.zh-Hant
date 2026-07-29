@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 275d8ae4307bbd6b96711ceabf171bd33c413823
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3652
 ht-degree: 26%
 
 ---
@@ -147,6 +147,10 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 * **[!UICONTROL 開啟]**：訊息開啟的次數。
 
 * **[!UICONTROL 點按]**：內容被點按的次數。
+
+* **[!UICONTROL 預估點按次數]**：在您的訊息中點按內容的次數，排除已識別的機器人與非人類互動(NHI)流量。
+
+* **[!UICONTROL 預估的CTR]** （點進率）：計算為相對於已傳遞訊息總數的預估點按。
 
 * **[!UICONTROL 取消訂閱]**：取消訂閱連結的點按次數。
 

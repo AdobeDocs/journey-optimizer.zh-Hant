@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 9%
@@ -156,7 +156,7 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**淘汰通知 — 2026年8月**：自&#x200B;**2026年8月**&#x200B;起，Journey Optimizer將封鎖在&#x200B;**對象資格**&#x200B;節點中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年8月之前更新。 [瞭解如何移轉您的歷程](aq-batch-audiences-migration.md)
+>**淘汰通知 — 2026年9月**：自&#x200B;**2026年9月**&#x200B;起，Journey Optimizer將封鎖在&#x200B;**對象資格**&#x200B;節點中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 [瞭解如何移轉您的歷程](aq-batch-audiences-migration.md)
 
 針對批次對象使用「對象資格」時，請注意，入口尖峰會在每日計算時發生。 尖峰的大小視每天進入或離開對象的個人數量而定。
 
@@ -227,8 +227,8 @@ ht-degree: 9%
 
 * [!DNL Adobe Experience Platform]個對象會每天計算一次（**批次**&#x200B;個對象），或即時計算（針對&#x200B;**串流**&#x200B;個對象，使用[!DNL Adobe Experience Platform]的「高頻對象」選項）。
 
-   * 如果對選取的對象進行串流，屬於此對象的個人可能會即時進入歷程。
-   * 如果對象是批次，則新符合此對象資格的人員可能會在[!DNL Adobe Experience Platform]上執行對象計算時進入歷程。
+  * 如果對選取的對象進行串流，屬於此對象的個人可能會即時進入歷程。
+  * 如果對象是批次，則新符合此對象資格的人員可能會在[!DNL Adobe Experience Platform]上執行對象計算時進入歷程。
 
   最佳做法是在&#x200B;**對象資格**&#x200B;活動中使用串流對象。 若是批次使用案例，請使用&#x200B;**[讀取對象](read-audience.md)**&#x200B;活動。
 
