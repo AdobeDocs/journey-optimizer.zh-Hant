@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 13%
@@ -92,9 +91,9 @@ ht-degree: 13%
 
 +++設定熟客方案（管理員）
 
-管理員可在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定獎勵提供者、事件定義、產品詳細目錄、排除專案和全域設定。 僅能帶來挑戰的行銷人員不需要存取此選單。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)
+管理員會在&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中設定獎勵提供者、事件定義、產品詳細目錄、排除專案和全域設定。 僅能帶來挑戰的行銷人員不需要存取此選單。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)
 
-如果左側導覽中看不到&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表，請聯絡您的管理員。
+如果左側導覽中看不到&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表，請聯絡您的管理員。
 
 +++
 
@@ -161,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
@@ -179,5 +178,5 @@ ht-degree: 13%
 
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

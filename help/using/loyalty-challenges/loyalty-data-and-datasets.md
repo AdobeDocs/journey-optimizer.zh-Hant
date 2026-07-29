@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 忠誠度挑戰仰賴Adobe Experience Platform的身分、設定檔屬性、體驗事件和受眾。 使用此頁面瞭解要準備哪些資料、涉及哪些資料集，以及&#x200B;**存留時間(TTL)**&#x200B;在您編寫挑戰或使用忠誠度挑戰API之前如何影響保留率。
 
-請連絡您的Adobe管理員，以設定Journey Optimizer方案，或在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定獎勵履行和事件對應。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。 如需REST端點與驗證的相關資訊，請參閱[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。
+請連絡您的Adobe管理員，以設定Journey Optimizer方案，或在&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中設定獎勵履行和事件對應。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。 如需REST端點與驗證的相關資訊，請參閱[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。
 
 ## 透過來源的忠誠度聯結器 {#loyalty-connectors-sources}
 
@@ -41,17 +41,17 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 
 ### 輪廓屬性 {#profile-attributes}
 
-在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;類別中挑戰對象、個人化和報告使用設定檔。 將您用於忠誠度挑戰的身分識別[名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}與設定檔資料中的成員識別方式以及在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表的&#x200B;**[!UICONTROL 全域設定]**&#x200B;中選取的名稱空間對齊。
+在&#x200B;**[!DNL XDM Individual Profile]**&#x200B;類別中挑戰對象、個人化和報告使用設定檔。 將您用於忠誠度挑戰的身分識別[名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/features/namespaces){target="_blank"}與您設定檔資料中識別成員的方式，以及與&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中&#x200B;**[!UICONTROL 全域設定]**&#x200B;中選取的名稱空間對齊。
 
-對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
+對於設定檔上的標準熟客屬性（點、層級、方案、狀態和相關欄位），請使用Experience Platform **[熟客詳細資料](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**&#x200B;結構描述欄位群組。 該欄位群組定義`loyalty`物件及其屬性（例如`points`、`tier`、`program`和`status`）。
 
-➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [熟客方案詳細資料結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [AJO結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}
+➡️ [AJO結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### 體驗事件 {#experience-events}
 
-**[!UICONTROL 購買]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務取決於內嵌到Adobe Experience Platform中的體驗事件。 針對&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，必須在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中設定相符的事件定義（識別碼路徑、選用的XDM結構描述ID、結構描述及轉換器），行銷人員才能在任務產生器中輸入自訂事件值。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+**[!UICONTROL 購買]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務取決於內嵌到Adobe Experience Platform中的體驗事件。 針對&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，必須在&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中設定相符的事件定義（識別碼路徑、選用的XDM結構描述ID、結構描述及轉換器），行銷人員才能在任務產生器中輸入自訂事件值。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
 確保事件裝載使用與您的忠誠度挑戰設定相同的身分名稱空間，好讓進度可歸因於正確的設定檔。
 

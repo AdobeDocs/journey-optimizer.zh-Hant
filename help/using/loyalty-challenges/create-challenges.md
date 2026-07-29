@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 12%
@@ -224,7 +224,7 @@ ht-degree: 12%
    * **[!UICONTROL 當挑戰進度完成時，在任務完成里程碑提供獎勵]**：當客戶完成個別任務時，獎勵會遞增（僅適用於需要多個任務的挑戰）\
      *範例：在任務1後獎勵10分，在任務2後獎勵20分，在任務3後獎勵50分*
 
-1. 選取您的獎勵提供者。 這是管理客戶點數和獎勵的忠誠度解決方案。 在您編寫挑戰之前，會在&#x200B;**[!UICONTROL 忠誠度管理員]**&#x200B;功能表中建立獎勵提供者。 [瞭解如何設定獎勵提供者](loyalty-admin.md#reward-providers)
+1. 選取您的獎勵提供者。 這是管理客戶點數和獎勵的忠誠度解決方案。 在您編寫挑戰之前，會在&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中建立獎勵提供者。 [瞭解如何設定獎勵提供者](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
