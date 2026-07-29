@@ -170,5 +170,5 @@ ht-degree: 9%
 
 透過此逐步教學課程，瞭解如何建立及設定工作：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496451?captions=chi_hant&quality=12)
 
