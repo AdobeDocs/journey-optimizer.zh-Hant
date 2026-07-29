@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 12%
 
 ---
@@ -30,15 +30,7 @@ ht-degree: 12%
 1. **[發佈挑戰](#launch)** — 讓挑戰可用於產生歷程。
 1. **[產生並發佈歷程](#launch)** — 觸發自動產生的歷程，將挑戰傳遞給客戶。
 
-建立質疑涉及以下步驟：
-
-1. **[建立挑戰](#create-the-challenge)** — 選取挑戰型別並開啟挑戰編輯器。
-1. **[設定設定](#settings)** — 定義挑戰名稱、對象、排程、選擇加入規則和重複限制。
-1. **[設定結構](#structure)** — 新增任務和獎勵（不適用於「自攜」資料挑戰）。
-1. **[設定內容](#configure-content-cards)** *（選擇性）* — 定義使用內容卡或程式碼式體驗對成員顯示挑戰的方式。
-1. **[設定訊息](#configure-messaging)** *（選擇性）* — 設定Launch、In-progress和End階段的通道訊息。
-1. **[發佈挑戰](#launch)** — 讓挑戰可用於產生歷程。
-1. **[產生並發佈歷程](#launch)** — 觸發自動產生的歷程，將挑戰傳遞給客戶。
+➡️ [觀看如何建立挑戰](#video)
 
 ## 建立挑戰 {#create-the-challenge}
 
@@ -363,4 +355,16 @@ ht-degree: 12%
    ![](assets/challenge-create-journey.png)
 
 1. 一旦您的挑戰上線，請在[忠誠度挑戰報告](loyalty-reporting.md)中監視方案KPI、挑戰結果和任務層級量度。 您也可以在[歷程報告](../reports/journey-global-report-cja.md)中監視訊息傳遞。
+
+## 作法影片 {#video}
+
+瞭解如何透過這些逐步教學課程影片來建立及設定忠誠度挑戰：
+
+* **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+* **設定獎勵** — 設定獎勵傳遞與履行
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
