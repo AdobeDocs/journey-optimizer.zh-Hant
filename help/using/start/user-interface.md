@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
 workflow-type: tm+mt
 source-wordcount: 1650
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -398,31 +398,31 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="連線名稱"
->abstract="識別來源系統的描述性名稱（例如「Marketing-Automation-Prod」）。 開頭必須是字母，而且只能包含英數、底線或連字型大小（4-50個字元）。"
+>abstract="識別來源系統的說明性名稱 (例如「Marketing-Automation-Prod」)。 開頭必須是字母，並且只能包含英數字元、底線或連字號 (4 至 50 個字元)。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_base_api_url"
 >title="基本API URL"
->abstract="API的根URL，不含資源路徑或查詢字串，例如https://api.example.com。"
+>abstract="API 的根 URL，不含資源路徑或查詢字串，例如 https://api.example.com。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_authentication_method"
 >title="選擇驗證方法"
->abstract="API金鑰會隨每個請求傳送單一認證，而OAuth 2.0則使用權杖型通訊協定，該通訊協定更適合企業和第三方API。"
+>abstract="API 金鑰會隨每個請求傳送單一認證，而 OAuth 2.0 則會使用權杖型通訊協定，該通訊協定更適合企業和第三方 API。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_id"
 >title="用戶端 ID"
->abstract="您的應用程式的公用識別碼，會在您向授權伺服器註冊時發出。"
+>abstract="您的應用程式的公用識別碼，它會在您向授權伺服器註冊時核發。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_secret"
 >title="使用者端密碼"
->abstract="只有應用程式和授權伺服器才知道的機密認證。 切勿在使用者端程式碼中公開。"
+>abstract="只有應用程式和授權伺服器才知道的機密認證。 切勿在用戶端程式碼中公開。"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_token_url"
->title="權杖URL"
->abstract="發出使用者端憑證流程存取權杖的授權伺服器端點，通常以/oauth/token或/token結尾。"
+>title="權杖 URL"
+>abstract="為用戶端認證流程核發存取權杖的授權伺服器端點，通常以 /oauth/token 或 /token 結尾。"
