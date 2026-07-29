@@ -116,7 +116,7 @@ ht-degree: 10%
 
 1. 新增您的&#x200B;**[!UICONTROL 主旨列]**，並將每個個人化預留位置對應至對應的設定檔屬性。
 
-   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![已匯入主旨行欄位和個人化預留位置對應的電子郵件編輯器](assets/onboarding-hub-8.png)
 
