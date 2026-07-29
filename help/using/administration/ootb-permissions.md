@@ -10,31 +10,15 @@ level: Intermediate
 keywords: 許可權，製作，訊息
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1757
+source-wordcount: 1771
 ht-degree: 1%
 
 ---
@@ -60,7 +44,7 @@ ht-degree: 1%
 | 資料生命週期 | **[!DNL Manage data lifecycle]**：讀取、建立、編輯和刪除資料生命週期。</br>**[!DNL View data lifecycle]**：資料生命週期的唯讀存取。 |
 | 資料攝取 | **[!DNL Manage sources]**：讀取、建立、編輯和停用來源。</br>**[!DNL View sources]**：對[目錄]索引標籤中的可用來源以及[瀏覽]索引標籤中的已驗證來源進行唯讀存取。 |
 | 資料管理 | **[!DNL Data monitoring]**：監視資料集和資料流的唯讀存取權。</br>**[!DNL Manage datasets]**：讀取、建立、編輯和刪除資料集。 結構描述的唯讀存取權。</br>**[!DNL View datasets]**：資料集和結構描述的唯讀存取權。 |
-| 資料模式 | **[!DNL Manage identity metadata]**：讀取、建立、編輯和刪除結構描述的身分中繼資料。</br> **[!DNL Manage relationships]**：讀取、建立、編輯和刪除結構描述關係。</br>**[!DNL Manage schemas]**：讀取、建立和編輯Experience Data Model (XDM)結構描述。</br>**[!DNL View schemas]**：對結構描述的唯讀存取權。 |
+| 資料建模 | **[!DNL Manage identity metadata]**：讀取、建立、編輯和刪除結構描述的身分中繼資料。</br> **[!DNL Manage relationships]**：讀取、建立、編輯和刪除結構描述關係。</br>**[!DNL Manage schemas]**：讀取、建立和編輯Experience Data Model (XDM)結構描述。</br>**[!DNL View schemas]**：對結構描述的唯讀存取權。 |
 | 決策管理 | **[!DNL Manage Experience decisioning]**：讀取、建立、編輯和刪除Experience Decisioning設定，包括決定原則和執行階段選項。</br>**[!DNL Manage decisions]**：讀取、建立、編輯和刪除決定實體。</br>**[!DNL Manage offers]**：讀取、建立、編輯和刪除所有優惠、元件、讀取決定和集合。</br>**[!DNL Manage ranking strategies]**：讀取、建立、編輯和刪除自訂報告，以及使用動作功能。</br>**[!DNL View Experience decisioning]**：以唯讀方式存取Experience Decisioning設定和設定。 </br>**[!DNL View decisions]**：優惠方案實體的唯讀存取權。 |
 | 目的地 | **[!DNL Activate destinations]**：讓使用者能夠啟用現有目的地的對象。</br>**[!DNL Activate segment without mapping]**：讓使用者能夠啟用現有目的地的對象，而不顯示對應步驟。 使用者可以在啟動工作流程中新增和移除對象，但無法新增或移除對應的屬性或身分。</br>**[!DNL Destination authoring]**：使用Adobe Experience Platform Destination SDK的作者目的地。</br>**[!DNL Manage and activate dataset destination]**：讀取、建立、編輯和停用資料集匯出流程。 也能啟用已建立之使用中資料集的資料。</br>**[!DNL Manage destinations]**：讀取、建立及刪除目的地啟用流程和目的地帳戶。</br>**[!DNL View destinations]**：以唯讀方式存取[目錄]索引標籤中的可用目的地和[瀏覽]索引標籤中的已驗證目的地。 |
 | Experimentation Accelerator | **[!DNL Manage Experiment Metada]**：讀取、建立、編輯和刪除實驗中繼資料。</br>**[!DNL View Experiments]**：唯讀存取Experimentation加速器中的實驗。 |
@@ -70,7 +54,7 @@ ht-degree: 1%
 | Journey Optimizer規則 | **[!DNL Manage frequency rules]**：存取、建立、編輯或刪除訊息頻率規則。</br>**[!DNL View frequency rules]**：規則的唯讀存取權。 |
 | 歷程 | **[!DNL Approve & publish Journeys]**：套用原則時核准和發佈歷程的權利。</br> **[!DNL Manage journeys]**：讀取、建立、編輯、停止（即時、測試模式和試執行）並刪除歷程。 若要存取及管理歷程，請將此許可權與&#x200B;**[!DNL View journeys events, data sources and actions]**&#x200B;結合。</br>**[!DNL Manage journeys events, data sources and actions]**：讀取、建立、編輯和刪除事件、來源或動作。</br>**[!DNL Simulate Journeys]**：讀取、建立及編輯歷程中的模擬。</br>**[!DNL Publish journeys]**：發佈、開始測試模式、開始試執行、暫停及恢復歷程。</br>**[!DNL View journeys]**：對歷程的唯讀存取。</br>**[!DNL View journeys events, data sources and actions]**：對歷程事件、歷程自訂動作及歷程資料來源的唯讀存取。</br>**[!DNL View journeys report]**：讀取及編輯歷程報告。</br> |
 | 訊息 | **[!DNL Manage messages]**：讀取、建立、編輯和刪除訊息。 </br>**[!DNL Manage messages preview and test]**：套用原則時核准和發佈訊息的許可權。</br>**[!DNL Publish messages]**：發佈訊息的許可權。</br>**[!DNL View messages]**：訊息的唯讀存取權。</br>**[!DNL View messages report]**：讀取和編輯訊息報告。 |
-| 協調的行銷活動 | **[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯及刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調解。</br>**[!DNL Publish orchestrated campaigns]**：發佈協調的行銷活動。 使用訊號觸發協調行銷活動也需要此許可權。 </br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。</br>**[!DNL View orchestrated campaigns]**：讀取並編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。 |
+| 協調的行銷活動 | **[!DNL Manage File in Orchestrated Campaigns]**：建立或設定&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動。 </br>**[!DNL Manage orchestrated campaigns]**：讀取、建立、編輯及刪除協調的行銷活動。</br>**[!DNL Manage orchestrated campaigns admin]**：讀取、建立、編輯及刪除Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調解。 </br>**[!DNL Publish orchestrated campaigns]**：發佈協調的行銷活動。 使用訊號觸發協調行銷活動也需要此許可權。</br>**[!DNL View orchestrated campaigns admin]**：讀取和編輯Adobe Experience Platform設定檔與關聯式存放區實體之間的連結與調節。 </br>**[!DNL View orchestrated campaigns]**：讀取並編輯協調的行銷活動。</br>**[!DNL View orchestrated campaigns report]**：讀取並編輯協調的行銷活動報告。</br>**[!DNL View orchestrated campaign transitions]**：讀取協調的行銷活動轉換中的預覽結果。 |
 | 輪廓管理 | **[!DNL Evaluate a segment to an audience]**：評估區段定義來產生對象的設定檔。</br>**[!DNL Export audience segments]**：將評估的對象區段匯出至資料集。</br>**[!DNL Import audience segments]**：將外部對象區段匯入Adobe Experience Platform，以用於區段和啟動。</br>**[!DNL Manage merge policies]**：讀取、建立、編輯和刪除合併原則。</br>**[!DNL Manage profiles]**：讀取、建立、編輯和刪除用於客戶設定檔的資料集。 對可用設定檔的唯讀存取權。</br>**[!DNL Manage segments]**：讀取、建立、編輯和刪除對象區段定義。</br>**[!DNL View merge policies]**：對可用合併原則的唯讀存取權。</br>**[!DNL View profiles]**：對可用設定檔的唯讀存取權。</br>**[!DNL View segments]**：對可用對象的唯讀存取權。 |
 | 查詢服務 | **[!DNL Manage queries]**：讀取、建立、編輯及刪除Platform資料的結構化SQL查詢。</br>**[!DNL Manage query service integration]**：建立、更新及刪除Query Service存取權不會到期的認證。 |
 | 報表 | **[!DNL View channel reports]**：讀取和編輯頻道報告。 |

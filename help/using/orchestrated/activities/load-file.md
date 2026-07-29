@@ -5,17 +5,13 @@ title: 使用載入檔案活動
 description: 瞭解如何使用載入檔案活動，在CSV或TXT檔案中鎖定協調行銷活動對象，而不將檔案擷取至Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +37,6 @@ ht-degree: 4%
 >
 >**載入檔案**&#x200B;活動目前無法與&#x200B;**Healthcare Shield**&#x200B;搭配使用。
 
-## 權限 {#permissions}
-
-若要在協調的行銷活動中使用&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，必須指派正確的許可權給使用者。 這兩個許可權都可在許可權UI中的&#x200B;**[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL 協調的行銷活動]**&#x200B;下使用。
-
-* **[!UICONTROL 在協調的行銷活動中檢視檔案]** — 授予唯讀存取權。 具有此許可權的使用者可以在包含&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動的協調行銷活動上預覽結果，但無法新增活動或上傳檔案。
-* **[!UICONTROL 在協調的行銷活動中管理檔案]** — 需要將&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動新增至行銷活動畫布並上傳檔案。 將此許可權指派給需要建立或設定&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動的使用者。
-
-如需指派許可權的指示，請參閱[管理使用者和角色](../../administration/permissions.md)。
-
 ## 護欄與限制 {#limitations}
 
 下列限制適用於載入檔案活動：
@@ -63,6 +50,10 @@ ht-degree: 4%
 ## 先決條件 {#prerequisites}
 
 管理員必須先完成下列一次性設定，您才能將&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動新增至已協調的行銷活動並連線至訊息活動。
+
+若要在協調的行銷活動中使用&#x200B;**[!UICONTROL 載入檔案]**&#x200B;活動，必須指派使用者&#x200B;**[!UICONTROL 在協調的行銷活動中管理檔案]**&#x200B;許可權。
+
+如需指派許可權的指示，請參閱[管理使用者和角色](../../administration/permissions.md)。
 
 ### 建立檔案型別目標維度 {#file-target-dimension}
 
@@ -134,17 +125,17 @@ ht-degree: 4%
    * **[!UICONTROL 資料型別]** — 資料行中的資料型別。
    * **[!UICONTROL 允許NULL]** — 指定如何管理資料行中的空白值：
 
-      * **[!UICONTROL Adobe Campaign預設值]** — 僅為數值欄位產生錯誤。 否則插入NULL值。
-      * **[!UICONTROL 允許空值]** — 授權空值。 因此插入值 NULL。
-      * **[!UICONTROL 一律填入]** — 如果值為空，則產生錯誤。
+     * **[!UICONTROL Adobe Campaign預設值]** — 僅為數值欄位產生錯誤。 否則插入NULL值。
+     * **[!UICONTROL 允許空值]** — 授權空值。 因此插入值 NULL。
+     * **[!UICONTROL 一律填入]** — 如果值為空，則產生錯誤。
 
    * **[!UICONTROL 處理時發生錯誤]** — 定義在資料行中發生錯誤時的行為：
 
-      * **[!UICONTROL 忽略值]** — 忽略該值。
-      * **[!UICONTROL 拒絕行]** — 未處理整行。
-      * **[!UICONTROL 發生錯誤時使用預設值]** — 將造成錯誤的值取代為&#x200B;**[!UICONTROL 預設值]**&#x200B;欄位中定義的預設值。
-      * **[!UICONTROL 在值未重新對應時使用預設值]** — 除非已針對錯誤值定義對應，否則以在&#x200B;**[!UICONTROL 預設值]**&#x200B;欄位中定義的預設值取代造成錯誤的值。
-      * **[!UICONTROL 沒有重新對應值時拒絕此行]** — 除非已經為錯誤值定義對應，否則不會處理整行。
+     * **[!UICONTROL 忽略值]** — 忽略該值。
+     * **[!UICONTROL 拒絕行]** — 未處理整行。
+     * **[!UICONTROL 發生錯誤時使用預設值]** — 將造成錯誤的值取代為&#x200B;**[!UICONTROL 預設值]**&#x200B;欄位中定義的預設值。
+     * **[!UICONTROL 在值未重新對應時使用預設值]** — 除非已針對錯誤值定義對應，否則以在&#x200B;**[!UICONTROL 預設值]**&#x200B;欄位中定義的預設值取代造成錯誤的值。
+     * **[!UICONTROL 沒有重新對應值時拒絕此行]** — 除非已經為錯誤值定義對應，否則不會處理整行。
 
    * **[!UICONTROL 預設值]** — 將&#x200B;**[!UICONTROL 錯誤處理]**&#x200B;時使用的預設值設定為使用預設值。
    * **[!UICONTROL 值重新對應]** — 將特定值對應到新值。 按一下&#x200B;**[!UICONTROL 新增對應]**&#x200B;以定義每個對應（例如，將`True`/`False`取代為`1`/`0`）。
@@ -163,14 +154,14 @@ ht-degree: 4%
 
    * **[!UICONTROL 格式]** — 定義如何讀取檔案中的數值：
 
-      * **[!UICONTROL 其他]** — 定義&#x200B;**[!UICONTROL 分隔符號]**&#x200B;區段中的&#x200B;**[!UICONTROL 千位分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 小數分隔符號]**。
-      * **[!UICONTROL 1,000.00]** — 逗號做為千位分隔符號，句號做為小數分隔符號。
-      * **[!UICONTROL 1 000,00]** — 以千位分隔符號表示空格，以逗號表示小數分隔符號。
+     * **[!UICONTROL 其他]** — 定義&#x200B;**[!UICONTROL 分隔符號]**&#x200B;區段中的&#x200B;**[!UICONTROL 千位分隔符號]**&#x200B;和&#x200B;**[!UICONTROL 小數分隔符號]**。
+     * **[!UICONTROL 1,000.00]** — 逗號做為千位分隔符號，句號做為小數分隔符號。
+     * **[!UICONTROL 1 000,00]** — 以千位分隔符號表示空格，以逗號表示小數分隔符號。
 
    * **[!UICONTROL 分隔符號]** （當&#x200B;**[!UICONTROL 格式]**&#x200B;為&#x200B;**[!UICONTROL 其他]**&#x200B;時）：
 
-      * **[!UICONTROL 千位分隔符號]** — 將千位分組為數值的字元（若未使用，請留空）。
-      * **[!UICONTROL 小數分隔符號]** — 用於數值小數部分的字元（例如，`,`或`.`）。
+     * **[!UICONTROL 千位分隔符號]** — 將千位分組為數值的字元（若未使用，請留空）。
+     * **[!UICONTROL 小數分隔符號]** — 用於數值小數部分的字元（例如，`,`或`.`）。
 
    +++
 
@@ -183,14 +174,14 @@ ht-degree: 4%
    * **[!UICONTROL 日期格式]** — 符合日期在檔案中顯示方式的模式（例如，`yyyy/mm/dd`）。
    * **[!UICONTROL 分隔符號]**：
 
-      * **[!UICONTROL 年、月、日]** — 年、月和日元件之間的字元（例如，`/`）。
+     * **[!UICONTROL 年、月、日]** — 年、月和日元件之間的字元（例如，`/`）。
 
    **時間**
 
    * **[!UICONTROL 時間格式]** — 符合時間在檔案中顯示方式的模式（例如，`13:30`表示24小時與分鐘）。
    * **[!UICONTROL 分隔符號]**：
 
-      * **[!UICONTROL 小時、分鐘、秒]** — 小時、分鐘和秒元件之間的字元（例如，`:`）。
+     * **[!UICONTROL 小時、分鐘、秒]** — 小時、分鐘和秒元件之間的字元（例如，`:`）。
 
    **日期和時間**
 
