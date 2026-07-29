@@ -8,24 +8,16 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 5%
+source-wordcount: 2024
+ht-degree: 4%
 
 ---
 
@@ -52,7 +44,7 @@ ht-degree: 5%
 建立排名公式之前，請記住下列限制：
 
 * AI公式產生器不支援使用連續量度的[個人化最佳化模型](personalized-optimization-model.md)。
-* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量[&#128279;](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的轉換率中。
+* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的[轉換率中。
 * 排名公式中的巢狀深度限製為30個層級，測量方式為計算PQL字串中的`)`。
 * UTF-8編碼字元的排名公式字串最多可達8KB （8,000個ASCII字元或2,000-4,000個非ASCII字元）。
 * 排名公式不支援回顧期間（例如，上個月以來的體驗事件）。 嘗試儲存此類公式會觸發錯誤。
@@ -94,7 +86,9 @@ ht-degree: 5%
 
 ![](../assets/ranking-formula-dataset.png)
 
-## 使用公式產生器定義條件 {#ranking-select-criteria}
+## 定義條件
+
+### 使用公式產生器定義條件 {#ranking-select-criteria}
 
 定義將決定相符決定專案排名分數的&#x200B;**條件**。
 
@@ -137,7 +131,7 @@ ht-degree: 5%
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -157,7 +151,7 @@ ht-degree: 5%
 
 您現在可以從清單中存取排名公式，以檢視其詳細資訊，並編輯或刪除它。 已準備好在[選取策略](../selection-strategies.md)中使用它來排名合格的決定專案。
 
-## 使用程式碼編輯器定義條件 {#ranking-code-editor}
+### 使用程式碼編輯器定義條件 {#ranking-code-editor}
 
 當您想要將排名邏輯寫入或編輯為&#x200B;**PQL**&#x200B;運算式時，請使用&#x200B;**[!UICONTROL 切換至程式碼編輯器]**。
 
@@ -291,6 +285,42 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 +++
 
+## 模擬您的排名公式 {#simulate-ranking-formula}
+
+將排名公式套用至您的選擇策略之前，您可以使用範例或產生的資料來測試它，以驗證排名結果並確保它達成預期行為。
+
+1. 開啟現有的公式，或[建立新的公式](#create-ranking-formula)，然後按一下&#x200B;**[!UICONTROL 模擬公式]**&#x200B;按鈕。
+
+   ![](../assets/ranking-formula-simulate-button.png)
+
+1. 模擬畫面會開啟，其中包含多個區段：
+
+   ![](../assets/ranking-formula-simulate-new.png)
+
+   * **測試變體**：您產生或建立手動測試變體的位置
+   * **排名運算式**：顯示公式運算式以供參考
+   * **模擬結果**：選取變體時顯示排名優惠
+
+1. 使用下列兩種方法之一新增測試變體：
+
+   * 若要建立手動樣本，請選取&#x200B;**[!UICONTROL 建立樣本]**&#x200B;按鈕，然後選取您要用來測試的選件專案。
+   * 若要使用AI產生測試變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
+
+   >[!NOTE]
+   >
+   >擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
+
+「測試變體」區段會自動填入選取的專案或產生的範例。 每個變體都包含在運算式中使用的屬性。 您可以直接編輯欄位值以模擬不同的情境。
+
+若要檢視模擬的排名結果，請從清單中選取測試變體。 「模擬」結果區域會顯示排名優惠方案及其分數，顯示您的公式如何根據變體資料對專案進行排名。
+
+針對每個選取的變體，模擬會傳回排序結果：
+
+* 排名最高的優惠方案是該變體運算分數最高的優惠方案。
+* 排名較低的優惠方案仍符合資格，但會在分數較高的優惠方案之後排序。
+
+![](../assets/ranking-formula-simulate-result.png)
+
 ## AI支援的公式最佳化 {#optimize}
 
 [!DNL Journey Optimizer]可以自動分析排名公式，並建議保留原始邏輯的簡化。 只有PQL運算式大於&#x200B;**2 KB** （UTF-8編碼）的公式才合格，不會分析較小的運算式。 找到簡化後，清單中的公式名稱旁邊會出現紅色指示器。
@@ -309,7 +339,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
    ![](../assets/ranking-formula-ai-details.png)
 
-1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] **，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**
+1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] ]**，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**[!UICONTROL 
 
 1. 一旦滿意，按一下&#x200B;**[!UICONTROL 套用]**，以最佳化的運算式取代原始運算式。
 

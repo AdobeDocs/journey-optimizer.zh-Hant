@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: 1630
 ht-degree: 15%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -256,14 +251,6 @@ Journey Optimizer introduces the Onboarding Assistant, a new capability in this 
 ### 決策 {#july-26-decisioning}
 
 下列改善專案已新增至此版本中的決策。
-
-* **從自然語言運算式建立決策規則** — 您現在可以使用純語言描述您要建立的決策規則，並讓AI為您產生它。 此功能適用於具有Adobe AI功能存取權的客戶。
-
-  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
-
-* **決策規則和排名公式模擬** — 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體或使用AI產生變體，然後對您的測試資料執行運算式，以驗證資格並檢閱排名結果，所有這些都部署至生產環境之前。 具有存取Adobe AI功能之客戶可使用產生變體。
-
-  此功能僅適用於一組組織 (有限可用性)。 若要取得存取權，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 
 * **優惠層級的Personalization** — 決策專案自訂屬性現在可以在傳送時使用設定檔、情境和對象資料進行個人化。 如此一來，行銷人員就不需要針對次要內容變數維持重複的優惠方案，而能夠管理較少、較靈活的決策專案。<!-- Documentation link: TBD -->
 
