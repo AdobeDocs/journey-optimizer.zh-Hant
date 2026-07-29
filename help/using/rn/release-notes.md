@@ -8,12 +8,24 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
 source-wordcount: 1474
@@ -113,7 +125,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
-* 
+* &#x200B;
   * [!BADGE 淘汰]{type=Negative} **對象資格節點和退出條件不再支援批次對象** — 從2026年9月開始，Journey Optimizer將封鎖在「對象資格」節點或退出條件中使用批次對象之任何歷程的發佈。 歷程畫布中已經出現驗證警告。  現有的即時歷程不受影響。 包含此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 在「對象資格」節點中使用串流對象，或切換至「讀取對象」活動。 若是退出條件，請使用串流對象。 [瞭解如何移轉您的歷程](../building-journeys/aq-batch-audiences-migration.md)
 
 ### 電子郵件設計工具 {#july-26-email}
