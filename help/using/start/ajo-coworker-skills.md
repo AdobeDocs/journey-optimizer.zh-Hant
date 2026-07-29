@@ -7,9 +7,9 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
+source-git-commit: 512c6ce7550abb6265d5ed9790d98d3486e5d2cf
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ CX Co-worker提供各種管理歷程與忠誠度挑戰的技能：
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -112,10 +112,10 @@ Journey Create提供可加快行銷執行進度的功能：
    * 根據客戶屬性建立決策分支。
    * 根據客戶偏好設計分割路徑。
 
-1. **從影像建立歷程**
+&lt;!-1. **從影像建立歷程**
 
-   * 將參考影像上傳到同事中，並要求使用影像作為參考建立歷程
-   * 歷程建立技能將從您的參考影像中擷取可編輯的提示
+    *將參考影像上傳到同事中，並要求使用影像作為參考來建立歷程
+    *歷程建立技能將從您的參考影像中擷取可編輯的提示 — >
 
 透過這項技能，自然語言需求將轉換為結構化的歷程設定。
 
@@ -485,6 +485,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
