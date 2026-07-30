@@ -20,7 +20,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 產生內容快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 產生完整內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
 
 僅產生文字
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
 
 僅產生影像
 
