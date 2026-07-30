@@ -11,12 +11,19 @@ level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
 source-wordcount: 822
@@ -106,7 +113,7 @@ ht-degree: 3%
 
 1. 在&#x200B;**[!UICONTROL 範本屬性]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 管理存取權]**&#x200B;按鈕，將自訂或核心資料使用標籤指派給範本。 [進一步瞭解物件層級存取控制(OLAC)](../administration/object-based-access.md)
 
-1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
+1. 若要進一步個人化您的Experience Manager範本，並將自訂個人化新增至您的內容，請按一下[編輯內容]。**&#x200B;** 這可讓您輕鬆進行變更，並根據您的特定需求量身打造範本。 [了解更多](../email/get-started-email-design.md)
 
    >[!WARNING]
    >
@@ -122,7 +129,7 @@ ht-degree: 3%
 
    ![](assets/aem_ajo_5.png)
 
-1. 如果您將個人化內容新增至Experience Manager範本，請使用模擬方法來預覽該內容在訊息中的顯示方式：按一下「模擬內容」****，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」]**，以使用測試設定檔預覽。**[!UICONTROL **[!UICONTROL 
+1. 如果您將個人化內容新增至Experience Manager範本，請使用模擬方法來預覽該內容在訊息中的顯示方式：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。**&#x200B;**
 
    [進一步瞭解預覽和測試設定檔](../content-management/preview-test.md)
 

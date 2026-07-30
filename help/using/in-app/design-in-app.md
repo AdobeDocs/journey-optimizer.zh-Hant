@@ -8,12 +8,21 @@ level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 1284
@@ -118,7 +127,7 @@ ht-degree: 26%
 ![](assets/in_app_web_design_3.png)
 
 輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。[進一步瞭解資產管理](../integrations/assets.md)。
-您也可以為熒幕閱讀應用程式新增**[!UICONTROL 替代文字]**。
+您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 
@@ -137,7 +146,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器[中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -168,7 +177,7 @@ ht-degree: 26%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
 
 +++更多具有進階格式的選項
 
@@ -255,7 +264,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
 ## 資料標籤 {#data-tab}
 
-您可以從&#x200B;**資料**&#x200B;索引標籤中定義**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
+您可以從&#x200B;**資料**&#x200B;索引標籤中定義&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
 
 如需詳細資訊，請參閱[開發人員檔案](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
@@ -263,7 +272,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
    ![](assets/in-app-data-menu.png)
 
-1. 填寫**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
+1. 填寫&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
 
    ![](assets/in-app-data-menu-1.png)
 
