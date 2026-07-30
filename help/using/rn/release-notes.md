@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5b6a24aca7aa88452448756042b5e10df06b2bdc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
 workflow-type: tm+mt
-source-wordcount: 3033
-ht-degree: 18%
+source-wordcount: 3110
+ht-degree: 19%
 
 ---
 
@@ -104,6 +92,14 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
+* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。 [了解更多](../data/get-started-datasets.md)
+
+* **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
+
+  * 頁首自訂：您現在可以編輯預設的Content-Type頁首值，並新增最多10個自訂頁首引數。
+
+  * SMS裝載支援：在SMS裝載中新增Adobe Journey Optimizer協助程式功能的支援，包括encode64。
+
 +++ 即將推出
 
 <table>
@@ -125,14 +121,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tr>
 </tbody>
 </table>
-
-* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。
-
-* **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
-
-  * 頁首自訂：您現在可以編輯預設的Content-Type頁首值，並新增最多10個自訂頁首引數。
-
-  * SMS裝載支援：在SMS裝載中新增Adobe Journey Optimizer協助程式功能的支援，包括encode64。
 
 +++
 
@@ -297,6 +285,25 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 ### 內容管理 {#july-26-content}
 
 下列功能和改善專案已新增至此版本的內容管理。
+
+<table>
+<thead>
+<tr>
+<th><strong>引導式採用功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過引導式功能，協助您將現有電子郵件內容和歷程移至Journey Optimizer，讓從其他行銷平台轉換至Adobe Journey Optimizer變得更輕鬆。 專屬的工作區可讓您重複使用現有工作，而非從頭重建。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><img src="assets/do-not-localize/guided-adoption.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細說明文件</a>。</p>
+<p> 推出日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **片段詳細目錄中的快速啟動捷徑** — 您現在可以使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，從片段清單中快速存取常見動作。 可用的捷徑包括編輯片段、開啟其詳細資訊以及捨棄草稿版本。 [了解更多](../content-management/manage-fragments.md#quick-launch-fragments)
 
