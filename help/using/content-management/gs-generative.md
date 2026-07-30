@@ -162,7 +162,7 @@ ht-degree: 62%
 ### 合法使用與透明度
 
 * 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在內容或專案包含Content Credentials產生的資產下載或匯出時套用Firefly。[進一步瞭解](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在內容或專案包含Content Credentials產生的資產下載或匯出時套用Firefly。[進一步瞭解](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 產生個人化運算式的內容 {#ai-assistant-personalization-editor-guardrails}
