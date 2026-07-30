@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 4614
+source-wordcount: 4612
 ht-degree: 93%
 
 ---
@@ -415,9 +415,9 @@ Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊�
 
 本節涵蓋內容建立與管理的護欄，包括登陸頁面、子網域和片段。
 
-### AI 助理護欄 {#ai-assistant-g}
+### 產生內容護欄 {#ai-assistant-g}
 
-**AI 助理內容產生**&#x200B;的護欄和限制列於[此頁面](../content-management/gs-generative.md#generative-guardrails)，包括支援的管道 (電子郵件、推播、網頁、簡訊) 和個人化編輯器限制。
+**產生內容**&#x200B;的護欄和限制 — 包括支援的管道（電子郵件、推播、網頁、簡訊）及個人化編輯器限制 — 列於[此頁面](../content-management/gs-generative.md#generative-guardrails)。
 
 ### 登陸頁面護欄 {#lp-guardrails}
 

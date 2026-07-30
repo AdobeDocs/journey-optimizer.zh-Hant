@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -139,7 +139,7 @@ SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況�
 * [預覽、測試和傳送訊息](send-mobile-message.md)
 * [行動訊息中的Personalization](../personalization/personalize.md)
 * [動態內容](../personalization/get-started-dynamic-content.md)
-* [使用 AI 助理產生簡訊內容](../content-management/generative-text.md)
+* [使用AI產生簡訊內容](../content-management/generative-text.md)
 
 +++
 

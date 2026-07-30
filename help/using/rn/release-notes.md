@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
 workflow-type: tm+mt
-source-wordcount: 2970
-ht-degree: 18%
+source-wordcount: 3110
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,14 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
+* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。 [了解更多](../data/get-started-datasets.md)
+
+* **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
+
+  * 頁首自訂：您現在可以編輯預設的Content-Type頁首值，並新增最多10個自訂頁首引數。
+
+  * SMS裝載支援：在SMS裝載中新增Adobe Journey Optimizer協助程式功能的支援，包括encode64。
+
 +++ 即將推出
 
 <table>
@@ -126,15 +134,36 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
-* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。
-
-* **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
-
-  * 頁首自訂：您現在可以編輯預設的Content-Type頁首值，並新增最多10個自訂頁首引數。
-
-  * SMS裝載支援：在SMS裝載中新增Adobe Journey Optimizer協助程式功能的支援，包括encode64。
-
 +++
+
+### 管理 {#july-26-administration}
+
+下列功能和改善專案已新增至此版本中的管理和資料管理。
+
+<table>
+<thead>
+<tr>
+<th><strong>Web應用程式防火牆IP允許清單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer現在支援登入頁面的Web應用程式防火牆IP允許清單，可讓組織強制所有傳入要求都透過其設定的Web應用程式防火牆基礎架構專門路由。 透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過Web應用程式防火牆層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。</p>
+<p>此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。</p>
+<p><img src="assets/do-not-localize/allowed-ips.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../configuration/waf-ip-allowlist.md">詳細文件</a>。</p>
+<p>推出日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **管理完整/基本URL個人化的網域** — 您現在可以直接從Adobe Journey Optimizer中的管理設定建立和管理核准的完整和基本URL個人化的網域，而無需連絡Adobe支援。 [了解更多](../email/url-personalization.md#personalize-complete-base-url)
+
+  推出日期： 2026年7月30日
+
+* **資料集存留時間(TTL)護欄 — 現有的沙箱** - Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將從&#x200B;**2026年10月1日起，在**&#x200B;現有的客戶沙箱和組織&#x200B;**上強制執行**。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
 
 ### 電子郵件設計 {#july-26-email}
 
@@ -212,7 +241,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
   推出日期： 2026年7月29日
 
-* **慢速自訂動作端點的斷路器保護** — 對於透過慢速自訂動作服務路由的端點，如果120秒觀察時段內至少有200個呼叫，則Journey Optimizer現在會在120秒時段內超過20%的呼叫超過10秒時，暫時將所有呼叫限制在5分鐘以內。 這有助於防止超載已經很慢的端點。 [了解更多](../configuration/external-systems.md#response-time)
+* **針對慢速自訂動作端點的斷路器保護** — 對於透過慢速自訂動作服務路由的端點，如果120秒觀察時段內至少有200個呼叫，則120秒時段內超過20%的呼叫超過10秒，Journey Optimizer現在會暫時將所有呼叫限制在5分鐘以內。 這有助於防止超載已經很慢的端點。 [了解更多](../configuration/external-systems.md#response-time)
 
   推出日期：2026年7月29日。 這項功能正在各個地區陸續推出。
 
@@ -269,6 +298,25 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
 下列功能和改善專案已新增至此版本的內容管理。
 
+<table>
+<thead>
+<tr>
+<th><strong>引導式採用功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>透過引導式功能，協助您將現有電子郵件內容和歷程移至Journey Optimizer，讓從其他行銷平台轉換至Adobe Journey Optimizer變得更輕鬆。 專屬的工作區可讓您重複使用現有工作，而非從頭重建。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p><img src="assets/do-not-localize/guided-adoption.gif"></p>
+<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細說明文件</a>。</p>
+<p> 推出日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **片段詳細目錄中的快速啟動捷徑** — 您現在可以使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，從片段清單中快速存取常見動作。 可用的捷徑包括編輯片段、開啟其詳細資訊以及捨棄草稿版本。 [了解更多](../content-management/manage-fragments.md#quick-launch-fragments)
 
   ![](../content-management/assets/fragment-quick-launch.png)
@@ -301,19 +349,42 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
   推出日期： 2026年7月28日
 
-+++ 即將推出
+* **「AI小幫手」已重新命名為「產生內容」** — 「AI小幫手」已重新命名為「透過Adobe Journey Optimizer產生內容」。 此更新僅限於命名和術語；未引入任何功能變更。 內容產生、影像產生、個人化運算式和內容實驗的導覽標籤、按鈕、功能表和對話方塊已從「AI助理」重新命名為「產生內容」。
 
-* **彈性的AI內容產生影像來源** — 在Journey Optimizer中產生內容現在會直接從Adobe Experience Manager Assets Essentials等來源取得品牌核准的影像。 三種模式可控制平衡：Assets （數位資產管理來源，預設）、平衡（數位資產管理優先，AI填補差距）和Creative （AI優先）。 這可確保每個視覺效果都準確、符合品牌規範，並為歷程和行銷活動做好生產準備。
+  推出日期： 2026年7月30日
 
 * **多語言改善** — 語言設定現在可以從現有的作用中設定複製，因此您不再需要完全重建設定以進行變更。 您也可以在編寫「語言設定」時，將條件從一個地區設定複製到另一個地區設定，以簡化具有多種語言的網站的設定。
 
-* **「AI小幫手」已重新命名為「產生內容」** — 「AI小幫手」已重新命名為「透過Adobe Journey Optimizer產生內容」。 此更新僅限於命名和術語；未引入任何功能變更。 內容產生、影像產生、個人化運算式和內容實驗的導覽標籤、按鈕、功能表和對話方塊已從「AI助理」重新命名為「產生內容」。
+  推出日期： 2026年7月30日
+
++++ 即將推出
+
+* **彈性的AI內容產生影像來源** — 在Journey Optimizer中產生內容現在會直接從Adobe Experience Manager Assets Essentials等來源取得品牌核准的影像。 三種模式可控制平衡：Assets （數位資產管理來源，預設）、平衡（數位資產管理優先，AI填補差距）和Creative （AI優先）。 這可確保每個視覺效果都準確、符合品牌規範，並為歷程和行銷活動做好生產準備。
 
 +++
 
 ### 內容與整合 {#july-26-integration}
 
 此版本中的內容管理及整合即將推出下列改善專案。
+
+<table>
+<thead>
+<tr>
+<th><strong>使用Dynamic Media的倒數計時器</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Optimizer與Adobe Experience Manager Dynamic Media整合</strong>可為Dynamic Media範本啟用開放時間個人化，解除鎖定超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md#countdown">詳細文件</a>。</p>
+<p> 推出日期： 2026年7月30日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 * **AJO MCP伺服器新工具** - [!DNL Adobe Journey Optimizer] MCP伺服器現在會公開五個額外的唯讀&#x200B;**通道設定工具**，讓您能夠直接從AI助理查詢通道設定、支援資源和行銷動作。 您現在可以使用&#x200B;**列出頻道設定** （橫跨所有AJO頻道）、**取得頻道設定**、**列出設定資源**、**取得設定資源**&#x200B;以及&#x200B;**列出行銷動作**。 [閱讀更多](../integrations/ajo-mcp.md#mcp-tools)
 
@@ -330,35 +401,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
   * 預估的CTOR （點按至開啟率）：計算為相對於預估開啟總數的預估點按次數。
 
     推出日期： 2026年7月29日
-
-### 管理 {#july-26-administration}
-
-此版本中的管理和資料管理已新增下列改善專案。
-
-* **資料集存留時間(TTL)護欄 — 現有的沙箱** - Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將從&#x200B;**2026年10月1日起，在**&#x200B;現有的客戶沙箱和組織&#x200B;**上強制執行**。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
-
-+++即將推出
-
-<table>
-<thead>
-<tr>
-<th><strong>Web應用程式防火牆IP允許清單</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer現在支援登入頁面的Web應用程式防火牆IP允許清單，可讓組織強制所有傳入要求都透過其設定的Web應用程式防火牆基礎架構專門路由。 透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過Web應用程式防火牆層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。</p>
-<p>此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **管理完整/基本URL個人化的網域** — 您現在可以直接從Adobe Journey Optimizer中的管理設定建立和管理核准的完整和基本URL個人化的網域，而無需連絡Adobe支援。<!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
-
-+++
 
 ### 行銷活動 {#campaigns}
 
@@ -382,8 +424,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tr>
 </tbody>
 </table>
-
-* **行銷活動的資料夾** — 您現在可以將行銷活動整理到資料夾中，以改善介面中的導覽和管理。 此功能僅適用於動作和API觸發的行銷活動。
 
 * **API觸發的行銷活動中的輸送量的效能附加元件 — 推播** — 在API觸發的行銷活動中提供新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
 

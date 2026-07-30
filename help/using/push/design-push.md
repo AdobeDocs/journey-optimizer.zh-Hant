@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 13%
+source-wordcount: 2178
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
 
 使用裝置預覽區段來視覺化推播通知在iOS、Android和Web上的顯示方式。
 
-使用AI Assistant加速內容建立，並使用[AI Assistant產生吸引人的推播通知文字，以產生文字](../content-management/generative-text.md)，或使用[AI Assistant建立完整的推播通知，以產生完整內容](../content-management/generative-full-content.md)。
+使用「產生內容」加速內容建立，並使用[使用AI產生文字](../content-management/generative-text.md)產生引人入勝的推播通知文字，或使用[使用AI產生完整內容](../content-management/generative-full-content.md)建立完整的推播通知。
 
 ## 點按時行為 {#on-click-behavior}
 
@@ -99,7 +99,7 @@ ht-degree: 13%
 
 您可以使用下列其中一種方法來新增媒體：
 
-* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從[Adobe Experience Manager Assets](../integrations/assets.md)中選取資產，或存取AI小幫手以產生[將影像吸引到推播通知](../content-management/generative-image.md)。
+* **[!UICONTROL 新增媒體]**&#x200B;按鈕：從[Adobe Experience Manager Assets](../integrations/assets.md)中選取資產，或存取產生內容以產生推播通知的[吸引影像](../content-management/generative-image.md)。
 
 * **[!UICONTROL 新增媒體]**&#x200B;欄位：直接輸入媒體URL。 您可以在URL中包含個人化權杖。
 
@@ -131,7 +131,7 @@ ht-degree: 13%
 
 在&#x200B;**[!UICONTROL 新增媒體]**&#x200B;欄位中輸入媒體URL。 您也可以在URL中包含個人化代號，以便自訂每個使用者的內容。
 
-按一下![使用AI助理編輯文字](assets/do-not-localize/Smock_ImageAdd_18_N.svg)，以使用Journey Optimizer AI助理快速產生媒體。
+按一下![編輯文字並產生內容](assets/do-not-localize/Smock_ImageAdd_18_N.svg)，以使用Journey Optimizer的產生內容快速產生媒體。
 
 ![](assets/web-media.png)
 

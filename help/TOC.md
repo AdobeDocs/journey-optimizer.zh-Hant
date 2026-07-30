@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3485'
+ht-degree: 93%
 
 ---
 
@@ -556,7 +556,6 @@ ht-degree: 94%
       + [考量事項和疑難排解](using/integrations/aem-fragments-limitations.md)
     + [使用 Experience Manager 內容顧問](using/integrations/aem-content-advisor.md)
     + [使用 Dynamic Media 工作](using/integrations/aem-dynamic.md)
-    + {hide-from-toc}[插入倒數計時器](using/integrations/countdown.md)
     + [使用 GenStudio for Performance Marketing](using/integrations/genstudio.md)
     + [與 Intelligent Services 整合](using/integrations/intelligent-services.md)
     + 整合 {#integrations}
@@ -567,17 +566,16 @@ ht-degree: 94%
         + [開始使用供應商整合](using/integrations/vendor-integration-gs.md)
         + [範例供應商設定](using/integrations/vendor-integration.md)
     + [透過 MCP 使用 AI 工具](/help/using/integrations/ajo-mcp.md)
-  + 用於內容產生的 AI 助理 {#ai-assistant}
-    + [用於內容產生的 AI 助理](/help/rp_landing_pages/ai-assistant-landing-page.md)
-    + [開始使用 AI 助理](using/content-management/gs-generative.md)
+  + 產生內容 {#generate-content}
+    + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
+    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
-    + [個人化運算式的 AI 助理](using/content-management/generative-personalization-expressions.md)
-    + [AI 助理使用案例](using/content-management/generative-uc.md)
+    + [產生個人化運算式的內容](using/content-management/generative-personalization-expressions.md)
+    + [產生內容使用案例](using/content-management/generative-uc.md)
     + 品牌 {#brands}
-      + [品牌](/help/rp_landing_pages/brands-landing-page.md)
       + [建立並管理品牌](using/content-management/brands.md)
       + [個人化您的品牌](using/content-management/brands-personalize.md)
       + [建立和管理生成式模型](using/content-management/generative-models.md)
@@ -976,6 +974,7 @@ ht-degree: 94%
   + [將副本欄位新增至電子郵件](using/configuration/cc-email-field.md)
   + [管理執行欄位](using/configuration/primary-email-addresses.md)
   + [建立意見回饋 Webhook](using/configuration/feedback-webhooks.md)
+  + [管理允許的IP](using/configuration/waf-ip-allowlist.md)
 + 歷程設定 {#configure-journeys}
   + [歷程設定](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [開始使用歷程設定](using/configuration/about-data-sources-events-actions.md)

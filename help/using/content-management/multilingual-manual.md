@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ ht-degree: 2%
 
    +++
 
+1. 一旦您建立了地區設定的條件，您就可以將其重複用於其他地區設定，而不是從頭開始重建。 按一下&#x200B;**[!UICONTROL 複製到……]**，然後選取一或多個要套用條件的目標地區設定。
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >複製條件會覆寫所選目標地區設定的任何現有條件。
+
 1. 拖放地區設定以重新排序，並在清單中管理其優先順序。
 
 1. 若要刪除地區設定，請按一下bin圖示。
@@ -152,6 +160,10 @@ ht-degree: 2%
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以建立您的&#x200B;**[!UICONTROL 語言設定]**。
 
 請注意，設定您的語言偏好設定後，您將無法再選擇編輯它們。
+
+若要新增地區設定或變更使用中&#x200B;**[!UICONTROL 語言設定]**&#x200B;的條件，請存取![](assets/do-not-localize/Smock_More_18_N.svg)並選取&#x200B;**[!UICONTROL 複製]**。 這會建立現有設定的復本，然後您可以編輯它。
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 49%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 49%
    ![](assets/email_designer.png)
 
 
-1. 使用AI Assistant加速電子郵件建立，並使用[AI Assistant產生包含文字和影像的完整電子郵件內容，以進行完整內容產生](../content-management/generative-full-content.md)。
+1. 使用「產生內容」加速電子郵件建立，並使用[使用AI產生完整內容](../content-management/generative-full-content.md)產生包含文字和影像的完整電子郵件內容。
 
 1. 將&#x200B;**[!UICONTROL Structures]**&#x200B;拖放到畫布中，以定義電子郵件的配置，開始設計您的內容。
 

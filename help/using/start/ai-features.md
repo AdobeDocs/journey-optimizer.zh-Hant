@@ -29,9 +29,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: bccad6a764b6415d87a6c8f4a1d5f0496899ec4e
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: 2521
+source-wordcount: 2514
 ht-degree: 4%
 
 ---
@@ -206,15 +206,15 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 ## 由AI支援的內容產生 {#content-generation}
 
-使用創作AI建立跨多個管道的內容並加以個人化，可在維持品牌一致性的同時加速內容建立流程。 用於產生內容的AI助理可用於[電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[簡訊](../mobile/get-started-mobile.md)和[網頁](../web/get-started-web.md)體驗 — 協助您產生主旨列、內文、影像和完整的訊息變化。
+使用創作AI建立跨多個管道的內容並加以個人化，可在維持品牌一致性的同時加速內容建立流程。 產生內容適用於[電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[簡訊](../mobile/get-started-mobile.md)和[網頁](../web/get-started-web.md)體驗 — 協助您產生主旨列、內文、影像和完整的訊息變化。
 
 ### 主要功能
 
-* **產生完整內容** — 以單一流程產生電子郵件、網頁、登入頁面和推播的完整內容體驗（文字和影像）。 [使用AI助理產生完整內容](../content-management/generative-full-content.md)
+* **產生完整內容** — 以單一流程產生電子郵件、網頁、登入頁面和推播的完整內容體驗（文字和影像）。 [使用AI產生完整內容](../content-management/generative-full-content.md)
 * **文字產生** — 根據您的品牌語調和目標建立吸引人的復本。 [使用AI產生文字](../content-management/generative-text.md)
 * **影像產生** — 使用Adobe Firefly產生自訂影像。 [使用AI產生影像](../content-management/generative-image.md)
 * **內容變數** — 產生A/B測試的多個變數。 [使用AI的內容實驗](../content-management/generative-experimentation.md)
-* **Personalization** — 從Personalization編輯器或電子郵件Designer工具列（**新增運算式**）產生新運算式、說明現有程式碼或修正AI助理的問題。 適用於Personalization運算式的[AI小幫手](../content-management/generative-personalization-expressions.md)
+* **Personalization** — 從Personalization編輯器或電子郵件Designer工具列（**新增運算式**）產生新運算式、說明現有程式碼或修正產生內容的問題。 [產生個人化運算式的內容](../content-management/generative-personalization-expressions.md)
 * **品牌一致性** — 確保產生的內容符合您的品牌指導方針。 [評估品牌一致性](../content-management/brands-score.md)
 * **範本支援** — 善用您現有的電子郵件範本。 [使用內容範本](../content-management/content-templates.md)
 
@@ -309,7 +309,7 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 
 +++**權限**
 
-此功能使用與&#x200B;**AI小幫手**&#x200B;相同的產生AI存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 [進一步瞭解AI助理存取](../content-management/gs-generative.md#generative-access)
+此功能使用與&#x200B;**產生內容**&#x200B;相同的產生AI存取控制項。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 [深入瞭解產生內容存取權](../content-management/gs-generative.md#generative-access)
 
 +++
 
@@ -369,7 +369,7 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 
 +++**我需要AI功能的哪些許可權？**
 
-* 用於產生內容的&#x200B;**[AI小幫手](#content-generation)** — 需要[產生內容]許可權
+* **[產生內容](#content-generation)** — 需要「產生內容」許可權
 * **[AI小幫手](#ai-assistant)**&#x200B;產品知識 — 需要與Adobe Generative AI使用者指南取得共識
 * **[歷程分析代理程式](#journey-analyze-skill)** — 需要檢視/管理歷程和檢視/管理區段許可權
 * **[歷程建立代理程式](#journey-create-skill)** — 需要管理歷程、檢視歷程事件/資料來源/動作、檢視區段及管理區段許可權
@@ -405,7 +405,7 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 >
 >* [什麼是Journey Optimizer？](get-started.md)  — 主要功能、使用案例和架構的概觀。
 >* [瞭解其運作方式](understanding-ajo.md) — Journey Optimizer與Experience Platform如何搭配運作。
->* [AI內容產生](../content-management/gs-generative.md) — 使用AI助理產生電子郵件、推播、簡訊和網頁內容。
+>* [AI內容產生](../content-management/gs-generative.md) — 產生包含產生內容的電子郵件、推播、簡訊和網頁內容。
 >* [傳送時間最佳化](../building-journeys/send-time-optimization.md) — 預測並最佳化每個人的訊息傳送時間。
 >* 用於決策的[AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自動排名和個人化優惠。
 >* [使用MCP使用者端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP伺服器查詢Claude Web、Claude Desktop或Cursor的行銷活動、歷程和優惠方案。

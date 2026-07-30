@@ -11,7 +11,7 @@ badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1132
 ht-degree: 6%
@@ -94,7 +94,7 @@ ht-degree: 6%
 ## 相關資源 {#related}
 
 * [使用進階運算式編輯器](expressionadvanced.md) — 運算式編輯器介面的概覽和支援的語法。
-* [開始使用Journey Optimizer中的AI助理](../../content-management/gs-generative.md) — 一般護欄、存取及設定產生式AI功能。
+* [開始使用Journey Optimizer中的產生內容](../../content-management/gs-generative.md) — 產生AI功能的一般護欄、存取和設定。
 
 +++ AI知識參考
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 **護欄：**
 
 * 使用AI產生運算式目前在&#x200B;**公開測試版**&#x200B;中 — 可用性和行為可能會改變
-* 主要AI Assistant檔案中的創作AI護欄和限制適用於此功能
+* 主要產生內容檔案的產生AI護欄和限制適用於此功能
 * 如果助理參考的欄位未出現在您歷程的資料來源中，則會傳回錯誤 — 請修改提示以使用可用的欄位名稱
 * 確切產生的運算式語法取決於特定歷程中設定的欄位和活動
 

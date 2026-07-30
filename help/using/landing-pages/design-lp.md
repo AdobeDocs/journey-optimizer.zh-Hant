@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索如何在內容設計工具中設計您的登入頁面內容 — 從頭開始、使用AI助理、使用您自己的HTML，或是從儲存的範本 — 以提供品牌上的訪客體驗。
+**在此頁面上：**&#x200B;探索如何在內容設計工具中設計您的登入頁面內容（從頭開始、使用AI、使用您自己的HTML，或從儲存的範本），以提供品牌上的訪客體驗。
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ ht-degree: 17%
 
 * **透過內容設計工具的介面，從頭開始設計您的登入頁面**，並運用[Adobe Experience Manager Assets](../integrations/assets.md)的影像。 瞭解如何設計您的內容<!--or use built-in templates--> [在此區段](../email/content-from-scratch.md)。
 
-* **使用AI助理產生內容**&#x200B;以使用AI產生的文字和影像加速登陸頁面的建立。 [進一步瞭解AI助理](../content-management/generative-full-content.md)。
+* **使用AI產生內容**&#x200B;以使用AI產生的文字和影像加速登陸頁面的建立。 [深入瞭解產生內容](../content-management/generative-full-content.md)。
 
 * **將原始HTML**&#x200B;直接編碼或貼到內容設計工具中。 在本節[&#128279;](../email/code-content.md)中瞭解如何編碼您自己的內容。
 

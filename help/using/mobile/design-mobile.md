@@ -11,9 +11,9 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 4%
 
 ---
@@ -137,7 +137,7 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    ![](assets/sms-content.png)
 
-1. 使用[AI Assistant產生文字產生](../content-management/generative-text.md)，產生針對您的對象量身打造的吸引人行動訊息。
+1. 使用[使用AI產生文字](../content-management/generative-text.md)產生針對您的對象量身打造的吸引人行動訊息。
 
 1. 使用個人化編輯器來定義內容、新增個人化和動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。 瀏覽下列頁面，瞭解個人化編輯器中[個人化](../personalization/personalize.md)和[動態內容](../personalization/get-started-dynamic-content.md)的詳細資訊。
 

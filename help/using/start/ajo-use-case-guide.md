@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，使用案例，決定指南，哪些功能，開始使用，從業者目標，教學課程
-source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3186'
-ht-degree: 30%
+source-wordcount: '3183'
+ht-degree: 29%
 
 ---
 
@@ -298,7 +298,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 **角色：**&#x200B;行銷人員 | **核心功能：** [內容產生+實驗](ai-features.md)
 
-規劃產品推出的零售品牌會使用 Journey Optimizer 的 AI 助理，在幾分鐘內產生多個主旨行與正文變化版本 (以自然語言提示及其上傳的品牌指導方針為指引)。 內建內容實驗會自動在初始客群範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
+規劃產品推出的零售品牌會使用Journey Optimizer的「產生內容」，在數分鐘內產生多個主旨行與正文變化，並以自然語言提示及其上傳的品牌指導方針為指引。 內建內容實驗會自動在初始客群範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
 
 [探索智慧型功能](ai-features.md) | [瞭解內容實驗](../content-management/experiment-accelerator-gs.md)
 
@@ -328,7 +328,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!TAB Personalization &amp; intelligence]
 
-* [用於產生內容的AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
+* [產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
 * [使用決策功能個人化Web優惠方案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根據客戶量身打造優惠方案。
 
 >[!TAB 報告與最佳化]

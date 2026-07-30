@@ -22,7 +22,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 2024
 ht-degree: 4%
@@ -337,7 +337,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 >[!NOTE]
 >
->AI支援的公式最佳化依賴與&#x200B;**AI Assistant**&#x200B;相同的產生AI功能，並使用相同的存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取AI小幫手](../../content-management/gs-generative.md#generative-access)。
+>AI支援的公式最佳化依賴與&#x200B;**產生內容**&#x200B;相同的產生AI功能，並使用相同的存取控制項。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取產生內容](../../content-management/gs-generative.md#generative-access)。
 
 若要最佳化排名公式：
 

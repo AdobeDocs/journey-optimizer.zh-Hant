@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1402
 ht-degree: 11%
 
 ---
@@ -62,13 +62,13 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 ➡️ [存取個人化遊樂場](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## 個人化運算式的 AI 助理 {#ai-personalization-expressions}
+## 產生個人化運算式的內容 {#ai-personalization-expressions}
 
-在&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;中或從Email Designer工具列（**[!UICONTROL 新增運算式]**）中，**[!UICONTROL AI Assistant]**&#x200B;可協助您從自然語言產生新的運算式、說明現有程式碼的作用，並修正選取範圍中的問題，然後在其符合您的意圖時套用輸出。
+在&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;中或從Email Designer工具列（**[!UICONTROL 新增運算式]**）中，**[!UICONTROL 產生內容]**&#x200B;可協助您從自然語言產生新的運算式、說明現有程式碼的作用，並修正選取範圍中的問題，然後在其符合您的意圖時套用輸出。
 
 ![](../content-management/assets/ai-perso-generate.png)
 
-➡️ [瞭解如何使用Personalization運算式的AI小幫手](../content-management/generative-personalization-expressions.md)
+➡️ [瞭解如何使用產生個人化運算式的內容](../content-management/generative-personalization-expressions.md)
 
 ## 內嵌編輯設定檔屬性 {#inline-personalization}
 
@@ -158,14 +158,14 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 
 **TL；DR**
 
-本頁介紹Journey Optimizer中的個人化 — Handlebars式個人化編輯器的運作方式、其使用的資料、互動遊樂場、適用於運算式的AI Assistant，以及在電子郵件Designer和推播編輯器中編輯內嵌屬性。
+本頁介紹Journey Optimizer中的個人化 — Handlebars式個人化編輯器的運作方式、其使用的資料、互動遊樂場、產生運算式的內容以及在電子郵件Designer和推播編輯器中編輯內嵌屬性。
 
 **個意圖**
 
 * 瞭解Journey Optimizer個人化的運作方式（使用雙大括弧的Handlebars語法）
 * 識別可用於個人化的資料來源（XDM個別設定檔結構、計算屬性、Beta版中的AEP資料集查詢）
 * 使用不具即時沙箱的互動式遊樂場進行個人化實驗
-* 使用AI助理從自然語言產生、說明或修正個人化運算式
+* 使用AI從自然語言產生、說明或修正個人化運算式
 * 透過輸入`{{`在電子郵件Designer或推播編輯器中插入內嵌設定檔屬性
 
 >[!TAB 字彙]
@@ -175,7 +175,7 @@ Personalization是以由Adobe Experience Platform中定義的&#x200B;**XDM個別
 * **計算屬性**：將個別行為事件彙總為設定檔層級值的預先計算設定檔屬性；可與標準XDM設定檔欄位一起作為個人化資料。 *（產品特定）*
 * **Personalization Playground**： Experience League上的互動式模擬環境，可使用範例資料來撰寫及測試個人化程式碼，不需要即時資料集或沙箱。 *（產品特定）*
 * **內嵌編輯**：可在電子郵件Designer或推播頻道編輯器的任何文字欄位中輸入`{{`，以觸發自動完成下拉式清單並插入設定檔屬性，而不需開啟完整個人化編輯器。 *（產品特定）*
-* **AI Assistant （個人化運算式）**：個人化編輯器和電子郵件Designer中的AI工具，可從自然語言產生個人化運算式、說明現有程式碼，以及修正選取範圍中的問題。 *（產品特定）*
+* **產生內容（個人化運算式）**：個人化編輯器和電子郵件Designer中的AI工具，可從自然語言產生個人化運算式、說明現有程式碼，並修正選取範圍中的問題。 *（產品特定）*
 
 >[!TAB 術語]
 
@@ -205,7 +205,7 @@ Experience League上的互動式模擬環境，您可以使用範例資料來撰
 
 在電子郵件Designer或推播通道編輯器的任何文字欄位中輸入`{{`，以開啟游標位置處的自動完成下拉式清單。 開始輸入以篩選設定檔屬性，然後選取一個以插入作為個人化權杖。 只有設定檔屬性可內嵌。
 
-**問：AI助理可以在個人化編輯器中做什麼？**
+**問：在個人化編輯器中可以產生什麼內容？**
 
 它可以從自然語言描述產生新的個人化運算式、說明現有程式碼的作用，並修正所選運算式中的問題 — 然後在其符合您的意圖時套用輸出。
 

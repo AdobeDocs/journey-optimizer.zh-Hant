@@ -5,10 +5,10 @@ title: 內容管理
 description: 內容管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 94%
 
 ---
 
@@ -84,6 +84,6 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 ## 其他資源
 
-- **[用於產生內容的 AI 助理](ai-assistant-landing-page.md)** - 利用 AI 工具來產生和個人化跨電子郵件、簡訊、網頁和實驗的內容。
+- **[產生內容](ai-assistant-landing-page.md)** — 使用AI產生並個人化電子郵件、簡訊、網頁和實驗中的內容。
 - **[多語言內容管理](content-multilingual-landing-page.md)** - 使用手動和自動化翻譯工作流程建立和管理多語言內容。
 - **[內容實驗](../using/content-management/get-started-experiment.md)** - 設定和分析實驗，以最佳化客群參與度和行銷活動結果。

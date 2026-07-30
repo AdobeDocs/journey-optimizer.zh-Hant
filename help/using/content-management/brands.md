@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +33,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何建立、設定、發佈及管理品牌方針，包括設定預設品牌，讓AI助理可以產生符合您在Adobe Journey Optimizer中品牌身分識別的內容。
+**在此頁面上：**&#x200B;瞭解如何建立、設定、發佈及管理品牌指引，包括設定預設品牌，以便產生內容可以在Adobe Journey Optimizer中建立符合您品牌身分識別的內容。
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ ht-degree: 33%
 
 >[!AVAILABILITY]
 >
->您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用「產生內容」。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 
 ## 存取品牌 {#generative-access}
@@ -125,7 +125,7 @@ ht-degree: 33%
 
    ![](assets/brands-18.png)
 
-1. 設定之後，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下&#x200B;**[!UICONTROL 發佈]**，讓您的品牌指引可在AI助理中取得。
+1. 設定之後，按一下「儲存」**&#x200B;**，然後按一下「發佈」**&#x200B;**，讓您的品牌指引可在「產生內容」中使用。
 
 1. 若要修改您發佈的品牌，請按一下[編輯品牌]。**&#x200B;**
 
@@ -148,7 +148,7 @@ ht-degree: 33%
 
    ![](assets/brands-6.png)
 
-您現在可以從AI Assistant功能表的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取品牌指南，使其產生符合您規格的內容和資產。 [進一步瞭解AI小幫手](gs-generative.md)
+您的品牌指南現在可從「產生內容」功能表中的&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉式清單存取，使其產生符合您規格的內容和資產。 [深入瞭解產生內容](gs-generative.md)
 
 ![](assets/brands-7.png)
 

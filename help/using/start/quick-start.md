@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 4. **行銷人員**：設計和執行客戶體驗\
    行銷人員運用所有基礎工作來建立歷程、建立內容，並跨所有管道最佳化客戶體驗。
    * 使用細分、CSV 上傳或客群構成建立客群
-   * 使用 AI 助理和範本設計個人化內容
+   * 使用產生內容和範本設計個人化內容
    * 使用事件和客群觸發程序建立多管道歷程
    * 啟動前使用核准工作流程進行測試
    * 根據報告深入分析監視績效並最佳化
@@ -270,7 +270,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 * [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}：所有角色的逐步教學課程影片
 * [開始使用資料管理](../data/gs-data.md) - Journey Optimizer 的結構描述、資料集、身分識別和資料整備檢查清單
 * [歷程使用案例資料庫](../building-journeys/jo-use-cases.md)：實際範例和實施模式
-* [AI 與智慧型功能](ai-features.md)：瞭解 AI 助理、傳送時間最佳化和內容產生
+* [AI和智慧型功能](ai-features.md) — 瞭解AI、傳送時間最佳化和內容產生
 * [使用者介面指南](user-interface.md)：有效瀏覽Journey Optimizer
 
 >[!TAB 隨時掌握]

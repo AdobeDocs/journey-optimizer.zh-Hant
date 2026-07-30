@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -226,7 +226,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->AI支援的規則最佳化依賴與&#x200B;**AI Assistant**&#x200B;相同的產生AI功能，並使用相同的存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取AI小幫手](../content-management/gs-generative.md#generative-access)。
+>AI支援的規則最佳化依賴與&#x200B;**產生內容**&#x200B;相同的產生AI功能，並使用相同的存取控制項。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取產生內容](../content-management/gs-generative.md#generative-access)。
 
 ![](assets/decision-rules-ai.png)
 

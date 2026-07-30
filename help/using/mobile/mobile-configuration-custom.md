@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 20%
 
 1. 在&#x200B;**[!UICONTROL 標頭]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增引數]**&#x200B;以指定將傳送給外部服務的要求訊息的HTTP標頭。
 
-   **Content-Type**&#x200B;和&#x200B;**Charset**&#x200B;標頭欄位已預設設定，無法刪除。
+   **Content-Type**&#x200B;和&#x200B;**Charset**&#x200B;標頭欄位是預設設定，無法刪除，不過您可以編輯預設的&#x200B;**Content-Type**&#x200B;值。 您可以新增最多10個自訂標頭引數。
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +129,8 @@ ht-degree: 20%
    >[!NOTE]
    >
    >設定具有基本或持有者驗證的自訂SMS提供者時，您必須在JSON裝載中包含`authOption`引數。 此外，**提供者承載**&#x200B;必須參考範本變數`{{fromNumber}}`、`{{toNumber}}`和`{{message}}`。
+   >
+   >**提供者承載**&#x200B;也支援Adobe Journey Optimizer [個人化協助程式功能](../personalization/functions/string.md)，包括[`encode64`](../personalization/functions/string.md#encode64)。
 
 1. 選取&#x200B;**[!UICONTROL 使用傳入的自訂資料集]**，將此認證的傳入SMS路由至您從下拉式清單中選擇的預先建立資料集。 [進一步瞭解如何使用傳入關鍵字的自訂資料集](custom-dataset-inbound-keywords.md)
 

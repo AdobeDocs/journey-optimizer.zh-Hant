@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 693
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用「產生內容」。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
 「品牌一致性」功能可協助您建立、檢閱和管理符合品牌指引的內容。 它可確保您的電子郵件行銷活動的語調、訊息和視覺身分的一致性，同時在內容上線之前作為品質檢查。
 

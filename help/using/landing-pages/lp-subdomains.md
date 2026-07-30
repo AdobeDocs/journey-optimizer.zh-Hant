@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 21%
 ## 開始使用登陸頁面子網域 {#gs-lp-subdomains}
 
 若要能夠[建立登陸頁面預設集](lp-presets.md)，您必須設定您將用於登陸頁面的子網域。
+
+>[!NOTE]
+>
+>委派登入頁面子網域後，您可以設定WAF IP允許清單，強制傳入該子網域的所有流量都只通過您的Web應用程式防火牆。 [瞭解如何設定WAF IP允許清單](../configuration/waf-ip-allowlist.md)
 
 您可以使用已委派給Adobe的子網域，也可以設定另一個子網域。 在[本節](../configuration/delegate-subdomain.md)中進一步瞭解將子網域委派至Adobe。
 

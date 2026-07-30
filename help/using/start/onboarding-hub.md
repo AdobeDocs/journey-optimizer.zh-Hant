@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1101'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ rebuild
 
 >[!TAB Personalization和AI]
 
-* [用於產生內容的AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
+* [產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
 * [使用決策功能個人化Web優惠方案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根據客戶量身打造優惠方案。
 
 >[!TAB 報告與最佳化]

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI助理內容提示指南
+title: 產生內容提示指南
 description: 瞭解如何使用CO-STAR框架為產生AI支援的內容製作有效提示，以建立高轉換率、符合品牌的行銷內容。
 topic: Artificial Intelligence
 role: User
@@ -25,18 +25,18 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# AI 助理提示最佳做法 {#ai-assistant-prompting-guide}
+# 產生內容提示最佳實務 {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何使用提示助理和CO-STAR架構撰寫有效的AI助理提示，以在Adobe Journey Optimizer中產生高轉換率的品牌行銷內容。
+**在此頁面上：**&#x200B;瞭解如何使用提示助理和CO-STAR架構撰寫有效的「產生內容」提示，以在Adobe Journey Optimizer中產生高轉換率的品牌行銷內容。
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +46,13 @@ ht-degree: 2%
 >abstract="探索 Journey Optimizer 文件，了解如何建立有效的提示，產生高轉換率之符合品牌形象的行銷內容。"
 
 本指南可協助您建構請求、清楚傳達意圖，並確保AI產生的訊息符合您的品牌指引、受眾需求和行銷活動目標。
-瞭解如何撰寫有效提示，讓AI助理產生為您的目標量身打造的高品質品牌行銷內容。
+瞭解如何撰寫有效提示，讓您能夠使用人工智慧產生根據目標量身打造的高品質品牌行銷內容。
 
 ## 使用提示小幫手 {#prompt-assistant}
 
 提示助理可協助您強化開場提示，減少內容產生的來回需求。 從第一個輸入中，您可能會獲得建議、建議的重寫、選用的增強功能，以及澄清問題。 您的回答會調整用於產生內容的提示。
 
-1. 從&#x200B;**[!UICONTROL AI小幫手]**&#x200B;功能表，開啟&#x200B;**[!UICONTROL 提示小幫手]**，在您產生內容之前調整您的提示。
+1. 從&#x200B;**[!UICONTROL 產生內容]**&#x200B;功能表，開啟&#x200B;**[!UICONTROL 提示小幫手]**&#x200B;以在產生內容之前調整您的提示。
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 ## 使用CO-STAR架構 {#costar-framework}
 
-為使AI助理達到最佳效果，請使用CO-STAR框架組織您的提示。 這種結構化方法可確保AI完全瞭解您所需的內容。
+為獲得產生內容的最佳結果，請使用CO-STAR框架組織您的提示。 這種結構化方法可確保AI完全瞭解您所需的內容。
 
 | 元件 | 其含義 | 為何這項能力很重要 |
 |-|-|-|
