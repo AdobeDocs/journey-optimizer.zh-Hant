@@ -26,7 +26,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 管道設定快速入門
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 引導式管道設定
 

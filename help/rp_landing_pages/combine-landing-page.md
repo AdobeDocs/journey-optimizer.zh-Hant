@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 使用 Adobe Experience Manager Assets
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=zh-Hant)
 
 使用 Adobe Express 編輯資產
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用 AEM 內容片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用 Dynamic Media 工作
 

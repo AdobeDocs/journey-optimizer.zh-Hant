@@ -21,7 +21,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 應用程式內管道設定
 

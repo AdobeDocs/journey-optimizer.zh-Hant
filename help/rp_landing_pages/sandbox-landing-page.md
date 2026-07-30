@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的沙箱就像虛擬工作區，可協助您讓環�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 使用並指派沙箱
 

@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的報告功能是將原始資料轉換為可操作的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 自訂歷程報告
 

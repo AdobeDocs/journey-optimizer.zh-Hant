@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
 
 電子郵件管道
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
 
 簡訊 / MMS / RCS 訊息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
 
 直接郵件行銷活動
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 管理隱私請求
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的隱私工具可讓您以負責的方式管理敏感�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 資料治理概觀
 

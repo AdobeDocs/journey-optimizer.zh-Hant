@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 個人化電子郵件背景
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 新增內嵌樣式屬性
 

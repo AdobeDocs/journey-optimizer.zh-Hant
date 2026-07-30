@@ -55,7 +55,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立 AI 模型
 

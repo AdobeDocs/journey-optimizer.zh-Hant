@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 定義動作行銷活動屬性
 

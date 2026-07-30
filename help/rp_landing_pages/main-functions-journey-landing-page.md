@@ -41,7 +41,7 @@ Adobe Journey Optimizer 的主要函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 彙總函式參考
 

@@ -71,7 +71,7 @@ AI 與智慧功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=zh-Hant)
 
 針對行銷人員
 
@@ -81,7 +81,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 針對資料工程師
 
@@ -161,7 +161,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 報表
 
@@ -176,7 +176,7 @@ AI 與智慧功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
 
 瀏覽介面
 
@@ -221,7 +221,7 @@ AI 與智慧功能
 * **[使用案例教戰手冊](../using/start/ai-features.md#playbooks)** - 針對捨棄購物車復原和歡迎行銷活動等常見案例，預先建立工作流程
 * **[監視與疑難排解](troubleshoot-journey-landing-page.md)** - 追蹤績效、識別問題和快速解決問題的工具
 * **[最新資訊](../using/rn/release-notes.md)** - 了解最新功能、改進和修正
-* **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
+* **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
 * **[文件更新](../using/rn/documentation-updates.md)** - 隨時了解文件的最新變更和新增內容
 
 ## 快速連結 {#quick-links}

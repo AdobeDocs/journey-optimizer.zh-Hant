@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 協調的行銷活動簡介
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 為協調的行銷活動查詢資料庫
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中協調的行銷活動可讓您設計和執行複雜�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 行銷活動的全面指南
 

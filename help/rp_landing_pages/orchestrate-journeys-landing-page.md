@@ -31,7 +31,7 @@ Adobe Journey Optimizer 歷程快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立及管理歷程的全面指南
 

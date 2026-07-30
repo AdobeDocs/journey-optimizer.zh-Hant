@@ -155,7 +155,7 @@ Journey Optimizer 中的資料來源會定義 Adobe Experience Platform (或外�
 建立 **XDM 個人輪廓**&#x200B;結構描述以擷取客戶屬性，例如名稱和聯絡資訊、偏好設定和興趣，以及生命週期階段或同意狀態。 建立 **XDM ExperienceEvent** 結構描述，以擷取行為與交易型資料，例如網頁與應用程式事件、購買和離線互動。 在適當的地方，將正確的欄位標示為身分識別和輪廓屬性。
 
 ➡️ [深入瞭解結構描述](get-started-schemas.md)\
-➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +164,8 @@ Journey Optimizer 中的資料來源會定義 Adobe Experience Platform (或外�
 在 Adobe Experience Platform 中，根據您的 XDM 結構描述建立資料集，並在任何應有助於即時客戶輪廓的資料集上啟用輪廓。 確認 Journey Optimizer 建立的系統產生資料集在資料集工作區中可見。
 
 ➡️ [深入瞭解資料集](get-started-datasets.md)\
-➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -275,7 +275,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 **使用 Adobe Experience Platform 資料 (查詢)**
 
@@ -285,7 +285,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 **開始使用查詢**
 

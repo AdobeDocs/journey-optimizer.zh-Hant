@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 客群資格鑑定事件
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用最佳化活動 (條件)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
 
 設定等待活動
 

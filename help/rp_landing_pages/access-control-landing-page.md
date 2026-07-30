@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用存取控制
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的存取控制可讓管理員根據組織需求和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 內建權限
 

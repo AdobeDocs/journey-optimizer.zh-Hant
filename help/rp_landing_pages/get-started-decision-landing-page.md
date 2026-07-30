@@ -25,7 +25,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 決策管理簡介
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 產品建議庫使用者介面指南
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理產品建議的重要步驟
 
