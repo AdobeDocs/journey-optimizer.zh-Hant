@@ -7,7 +7,7 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf，防火牆， ip，子網域，安全性，流量，傳入
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 若要存取您已允許Web應用程式防火牆IP的子網域清單，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]**，然後選取&#x200B;**[!UICONTROL 允許清單 — IP]**。
 
-![WAF IP允許清單詳細目錄](assets/waf-ip-allowlist.png)
+![WAF IP允許清單詳細目錄](assets/waf-ip-allowlist.png){width="90%"}
 
 詳細目錄頁面會列出所有管道型別（電子郵件、登陸頁面、簡訊、網頁）中至少允許一個WAF IP的所有子網域。 在[本節](about-subdomain-delegation.md)中進一步瞭解子網域。
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 ![刪除允許IP清單的[動作]欄中的圖示](assets/waf-ip-allowlist-delete-icon.png)
 
-確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。**&#x200B;**
+確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。****
 
 ![確認移除子網域的所有WAF允許IP](assets/waf-ip-allowlist-remove.png){width="80%"}
 

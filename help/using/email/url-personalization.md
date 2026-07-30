@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url，連結，個人化，追蹤，編碼，大括弧
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
 workflow-type: tm+mt
-source-wordcount: 570
-ht-degree: 0%
+source-wordcount: 842
+ht-degree: 1%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 1. 選取個人化圖示。
 
-   ![](assets/message-tracking-insert-link-perso.png)
+   電子郵件Designer內容工具列中的![Personalization圖示](assets/message-tracking-insert-link-perso.png)
 
 1. 使用個人化編輯器新增您想要個人化URL的設定檔屬性。
 
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 ## 個人化完整/基本URL {#personalize-complete-base-url}
 
-Journey Optimizer也支援個人化&#x200B;**整個** URL或URL的&#x200B;**基本網域**，例如：
+Journey Optimizer支援個人化&#x200B;**整個** URL或URL的&#x200B;**基本網域**，例如：
 
 ```html
 <a href="{{profile.social.link}}" />
@@ -75,13 +74,58 @@ Journey Optimizer也支援個人化&#x200B;**整個** URL或URL的&#x200B;**基�
 
 >[!CAUTION]
 >
->* 若要啟用完整或基本URL個人化，請聯絡Adobe並提供您接受的網域清單。 這有助於防止不安全的重新導向。
+>若要啟用完整或基本URL個人化，您必須先將接受的網域新增至允許清單。 [了解做法](#manage-accepted-domains)
 >
->* 動態產生的URL （其中整個URL或基本網域在傳送時從設定檔屬性解析）具有已知的追蹤限制： Journey Optimizer無法可靠地追蹤這些連結的點按，且&#x200B;**點按資料可能不會出現在歷程或促銷活動報告中**。 發生此狀況是因為追蹤重新導向在設計階段（在得知最終URL之前）套用。 當每個收件者的解析值不同時，重新導向鏈結會中斷且點按次數不會記錄。 此外，每個收件者的已解析URL必須以`http`或`https`開頭 — 如果不是，則會自動略過該連結的追蹤。 若要維持可靠的點選追蹤，請使用下列其中一種方法：
+>動態產生的URL具有已知限制：點選資料可能不會出現在歷程或促銷活動報表中。 [了解更多](#click-tracking-limitation)
+
+
+### 新增完整/基本URL個人化的網域 {#manage-accepted-domains}
+
+若要啟用完整或基本URL個人化，您必須先將接受的網域新增至允許清單。
+
+這樣可確保個人化URL中僅使用核准的網域，並協助防止不安全的重新導向。
+
+>[!NOTE]
 >
->   * 使用固定的基底URL，並僅附加個人化引數（例如，`https://www.example.com/page?uid={{profile.person.crmid}}`）。
->   
->   * 為每位收件者預先產生個人化URL，將其儲存為設定檔屬性，並在電子郵件內容中參照。
+>若要檢視、新增或移除允許清單中的網域，您需要&#x200B;**[!UICONTROL 管理郵件一般設定]**&#x200B;和&#x200B;**[!UICONTROL 檢視郵件一般設定]**&#x200B;許可權。 [了解更多](../administration/ootb-permissions.md)
+
+若要管理允許的網域，請遵循下列步驟。
+
+1. 在Adobe Journey Optimizer中，移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 電子郵件設定]** > **[!UICONTROL 允許清單 — 網域]**。
+
+   ![允許清單 — 網域頁面顯示核准的網域及其新增的收件者和日期資訊](assets/allowed-list-domains.png)
+
+   從那裡，您可以瀏覽所有核准的網域、新增網域，以及刪除現有網域。
+
+1. 按一下&#x200B;**[!UICONTROL 新增網域]**&#x200B;按鈕。
+
+1. 輸入完整的子網域或根網域。
+
+   ![表單新增網域至允許清單](assets/allowed-list-domains-add.png){width="80%"}
+
+   >[!NOTE]
+   >
+   >請勿包含https://或結尾的斜線，因為這會造成網域遭到拒絕。 例如，輸入`www.example.com`或`example.com`，而不是`https://www.example.com/`。
+
+1. 按一下「**[!UICONTROL 確認]**」。 網域會新增至允許清單，且現在可用於完整或基本URL個人化。
+
+1. 若要移除網域，請按一下該網域旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示。
+
+   >[!CAUTION]
+   >
+   >如果移除個人化URL中已使用的網域，則無法保證連結的安全性。 從允許清單中移除之前，請務必更新參考此網域的任何個人化URL。
+
+### 點選追蹤限制 {#click-tracking-limitation}
+
+動態產生的URL （其中整個URL或基本網域在傳送時從設定檔屬性解析）具有已知的追蹤限制： Journey Optimizer無法可靠地追蹤這些連結的點按，且&#x200B;**點按資料可能不會出現在歷程或促銷活動報告中**。
+
+發生此狀況是因為追蹤重新導向在設計階段（在得知最終URL之前）套用。 當每個收件者的解析值不同時，重新導向鏈結會中斷且點按次數不會記錄。 此外，每個收件者的已解析URL必須以`http`或`https`開頭 — 如果不是，則會自動略過該連結的追蹤。
+
+若要維持可靠的點選追蹤，請使用下列其中一種方法：
+
+* 使用固定的基底URL，並僅附加個人化引數（例如，`https://www.example.com/page?uid={{profile.person.crmid}}`）。
+
+* 為每位收件者預先產生個人化URL，將其儲存為設定檔屬性，並在電子郵件內容中參照。
 
 ## 個人化URL追蹤引數 {#personalize-url-tracking-parameters}
 
@@ -89,7 +133,7 @@ Journey Optimizer也支援個人化&#x200B;**整個** URL或URL的&#x200B;**基�
 
 若要這麼做，[插入連結](message-tracking.md#insert-links)、選取個人化圖示、新增URL追蹤引數，並從[個人化編輯器](../personalization/personalization-build-expressions.md)中選取您選擇的設定檔屬性。
 
-![](assets/message-tracking-perso-parameter.png)
+電子郵件Designer](assets/message-tracking-perso-parameter.png)中URL追蹤引數的![Personalization圖示
 
 針對您要新增此追蹤引數的每個連結，重複上述步驟。
 
