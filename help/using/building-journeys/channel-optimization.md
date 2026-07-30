@@ -176,7 +176,7 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 
 瞭解Adobe Journey Optimizer的管道最佳化功能如何協助您使用手動優先順序、設定檔屬性或Adobe的AI模型，透過最有效的管道觸及客戶。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492141?captions=chi_hant&quality=12)
 
 <!--
 **Related topics**
