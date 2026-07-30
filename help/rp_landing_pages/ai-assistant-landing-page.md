@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用 AI 助理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 產生完整內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 僅產生文字
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的 AI 助理利用生成式 AI，針對電子郵件、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 僅產生影像
 

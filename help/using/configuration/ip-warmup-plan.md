@@ -10,20 +10,11 @@ level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 1853
@@ -123,10 +114,10 @@ IP熱身是一項活動，包括逐漸增加從您的IP和網域傳送到主要�
 
 * 您最多可以有6欄（網域群組為4欄，其他為&#x200B;**個**&#x200B;欄，其他為&#x200B;**參與天數**&#x200B;欄）。 在此範例中，計劃分為六個欄：
 
-   * 其中三個對應至要在您的計畫（Gmail、Yahoo和Microsoft）中使用的&#x200B;**現成可用的網域群組**。 現成可用的網域群組全部列在[OOTB網域群組](#ootb-domain-groups-tab)索引標籤中。
-   * 一個資料行對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
-   * 第五欄&#x200B;**其他**&#x200B;包含計畫未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
-   * 最後一欄&#x200B;**參與天數**&#x200B;可讓您指定應追蹤或評估參與的天數。
+  * 其中三個對應至要在您的計畫（Gmail、Yahoo和Microsoft）中使用的&#x200B;**現成可用的網域群組**。 現成可用的網域群組全部列在[OOTB網域群組](#ootb-domain-groups-tab)索引標籤中。
+  * 一個資料行對應到自訂網域群組（您需要使用[自訂網域群組](#custom-domain-group-tab)索引標籤來新增）。
+  * 第五欄&#x200B;**其他**&#x200B;包含計畫未明確涵蓋之其他網域的所有剩餘位址。 此欄是選用的：如果省略，電子郵件將只傳送到指定的網域。
+  * 最後一欄&#x200B;**參與天數**&#x200B;可讓您指定應追蹤或評估參與的天數。
 
 我們的想法是逐步增加每個執行中的目標位址數量，同時減少每個階段的執行數量。
 
@@ -245,7 +236,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
 ### 複製並貼上預設網域 {#copy-paste}
 
-舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從[&#128279;](#ip-warmup-plan-tab)上方提供的清單複製並貼上網域。
+舉例來說，如果您想建立包含所有Hotmail網域的自訂網域群組，您可以從[IP熱身計畫範本](assets/IPWarmupPlan-Template.xlsx)的&#x200B;**OOTB網域群組**&#x200B;索引標籤，或從](#ip-warmup-plan-tab)上方提供的[清單複製並貼上網域。
 
 然後使用Excel轉換工具將文字轉換為欄：
 
@@ -265,7 +256,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
    * **未啟動**：尚未啟動任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
    * **即時**：在第一階段中的第一次執行成功啟動後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> &lbrack;瞭解更多
+   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取計畫名稱旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示並確認刪除。
@@ -283,7 +274,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 >id="ajo_admin_ip_warmup_upload"
 >title="指定您的 IP 暖身計劃"
 >abstract="在 Excel 範本中填入將成為計劃內容的所有資料，例如 IP 暖身階段以及設定檔的目標數量，然後在此處上傳。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=zh-Hant#prepare-file" text="準備 IP 暖身計畫檔案"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="準備 IP 暖身計畫檔案"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

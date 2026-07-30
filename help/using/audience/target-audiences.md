@@ -9,21 +9,12 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
 source-wordcount: 841
@@ -47,13 +38,13 @@ ht-degree: 10%
 
 * **自訂上傳與同盟對象構成** — 對於自訂上傳與同盟對象構成對象，請注意下列護欄：
 
-   * **預覽和校訂支援：**&#x200B;目前，使用CSV上傳或同盟對象構成所建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
+  * **預覽和校訂支援：**&#x200B;目前，使用CSV上傳或同盟對象構成所建立的對象不支援預覽和校訂。 在規劃行銷活動時，請記住這一點。
 
-   * **鎖定新設定檔：**&#x200B;當記錄與整合設定檔服務設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 因為這個新的設定檔是空的，所以通常在[!DNL Journey Optimizer]中使用的目標欄位（例如personalEmail.address、mobilePhone.number）是空的。 因此，這些欄位無法用於目標定位。
+  * **鎖定新設定檔：**&#x200B;當記錄與整合設定檔服務設定檔之間找不到相符專案時，會建立新的空白設定檔。 此設定檔連結至儲存在Data Lake中的擴充屬性。 因為這個新的設定檔是空的，所以通常在[!DNL Journey Optimizer]中使用的目標欄位（例如personalEmail.address、mobilePhone.number）是空的。 因此，這些欄位無法用於目標定位。
 
-     若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這可確保在建立受眾時選擇作為身分的屬性將是在[!DNL Journey Optimizer]中用於定位的屬性。
+    若要解決此問題，您可以在通道設定中將「執行欄位」（或「執行地址」，視通道而定）指定為「identityMap」。 這可確保在建立受眾時選擇作為身分的屬性將是在[!DNL Journey Optimizer]中用於定位的屬性。
 
-   * **啟用的記錄與身分拼接：**&#x200B;對象中的每個記錄都已啟動，包括任何重複專案。 在下次統一設定檔服務設定檔匯出期間，這些記錄會進行身分拼接。 因此，啟用的記錄數可能與身分拼接後的設定檔數不同。
+  * **啟用的記錄與身分拼接：**&#x200B;對象中的每個記錄都已啟動，包括任何重複專案。 在下次統一設定檔服務設定檔匯出期間，這些記錄會進行身分拼接。 因此，啟用的記錄數可能與身分拼接後的設定檔數不同。
 
 ## 對象啟用延遲 {#activation}
 

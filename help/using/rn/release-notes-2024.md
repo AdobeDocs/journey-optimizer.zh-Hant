@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +283,9 @@ ht-degree: 99%
 
 * 我們引進下列增強功能，即可改善使用 Infobip 和 Sinch 的簡訊傳送訊息功能：
 
-   * 您可以定義並管理簡訊行銷活動，還有歷程的唯一關鍵字，啟用更個人化、有效率的通訊服務。
+  * 您可以定義並管理簡訊行銷活動，還有歷程的唯一關鍵字，啟用更個人化、有效率的通訊服務。
 
-   * 當無法辨識關鍵字時，您可以先建立並傳遞預設簡訊。
+  * 當無法辨識關鍵字時，您可以先建立並傳遞預設簡訊。
 
   在 [Infobip](../mobile/mobile-configuration-infobip.md) 和 [Sinch](../mobile/mobile-configuration-sinch.md) 的簡訊設定文件中，進一步瞭解改進項目。
 
@@ -311,8 +307,8 @@ ht-degree: 99%
 
 * **資料集存留時間 (TTL)**：自 2025 年 2 月起，將在新沙箱和新組織中，向 Journey Optimizer 系統產生的資料集，開放使用存留時間 (TTL) 護欄功能，如下所示：
 
-   * 輪廓存放區中的資料為 90 天
-   * 資料湖中的資料為 13 個月
+  * 輪廓存放區中的資料為 90 天
+  * 資料湖中的資料為 13 個月
 
   將在後續階段，開放現有客戶沙箱使用這項變更。 [了解更多](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +635,7 @@ ht-degree: 99%
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，預設情況下，**[!UICONTROL 時間條件]**&#x200B;現在會從 00:00 到 12:00，依小時設定。 [閱讀全文](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/conditions.md#time_condition)
 * 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#activity-errors)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
@@ -653,9 +649,9 @@ ht-degree: 99%
 
 * 已將新的使用案例新增至全新報告體驗：
 
-   * 可直接在報告中建立自訂計算量度。
-   * 請從報告資料那邊建立對象。
-   * 使用探索分析工具，可從已選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**，輕鬆地建立表格和視覺效果。
+  * 可直接在報告中建立自訂計算量度。
+  * 請從報告資料那邊建立對象。
+  * 使用探索分析工具，可從已選取的&#x200B;**[!UICONTROL 維度]**&#x200B;和&#x200B;**[!UICONTROL 量度]**，輕鬆地建立表格和視覺效果。
 
   如需詳細資訊，請參閱[詳細文件](../reports/report-cja-manage.md)。
 
@@ -852,7 +848,7 @@ table>
   任何建立的新歷程都會反映此新逾時。 請參考此[常見問題集章節](../building-journeys/journey-properties.md#timeout-faq)以進一步了解。 請注意，這些變更將於 6 月期間逐步推出。
 
 
-* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀更多](../privacy/requests.md)
 * 您現在可以調整歷程庫存中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)

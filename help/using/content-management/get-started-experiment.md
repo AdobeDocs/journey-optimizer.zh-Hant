@@ -10,31 +10,16 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 90%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
@@ -119,12 +104,14 @@ Adobe Journey Optimizer 接著會使用進階的「隨時有效」統計方法�
 
 +++在適當的對象人數上執行測試，或夠長的時間
 
-如果您執行測試的時間更長，將能夠偵測不同處理方式之間目標量度的較小差異。 不過，如果目標量度的基線值較小，則需要較大的樣本量。實驗必須包含的使用者數量取決於您要偵測的效果大小、目標量度的變數或分佈，以及您對誤報的容忍度。 在傳統實驗中，您可以使用[樣本大小電腦](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){_blank}來決定測試必須執行多久。
+如果您執行測試的時間更長，將可偵測到不同處理之間目標量度的較小差異。不過，如果目標量度的基準值很小，則您需要較大的樣本大小。
+實驗必須包含的使用者數目取決於您要偵測的效果大小、目標量度的差異或分佈，以及您對誤報和誤報錯誤的容許度。在傳統實驗中，您可以使用[樣本大小電腦](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=zh-Hant){_blank}來決定測試必須執行多久。
 +++ 
 
 +++瞭解統計上的不確定性
 
-如果您正在執行的實驗有 1000 位使用者看到了一種處理方式，並且轉換率設為 5%。 如果您的所有使用者都包含在內，這是否為實際轉換率？ 真正的轉換率是多少？統計方法為我們提供了一種將不確定性正規化的方法。 執行線上實驗時需要了解的最重要概念之一，就是觀察到的轉換率與一系列潛在的真正轉換率一致，這表示您必須等到這些估計值足夠精確才能嘗試得出結論。 信賴區間及信賴度有助於量化這種不確定性。
+如果您正在執行的實驗有1000名使用者看到一個處理，則轉換率設定為5%。如果包含您的所有使用者，這是否為實際轉換率？真正的轉換率是多少？
+統計方法可讓我們將這種不確定性正規化。執行線上實驗時，要瞭解的最重要概念之一，就是觀察到的轉換率與一系列基礎的真實轉換率一致，這表示您必須等到這些估計足夠精確後，才能嘗試得出結論。信賴區間和信賴有助於量化這種不確定性。
 +++
 
 +++建立新的假設，並持續測試

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通訊管道簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 電子郵件管道
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推播通知管道
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 簡訊 / MMS / RCS 訊息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直接郵件行銷活動
 

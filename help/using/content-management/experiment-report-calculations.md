@@ -6,19 +6,14 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 TQID: https://experienceleague.adobe.com/fvhdR1yMUsQ9H6N2V1-q-nEWXhuKkzcfRgeEKH-vsbk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8d
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 978
 ht-degree: 1%
 
 ---
@@ -88,7 +83,7 @@ Adobe使用漸近信賴序列，對具有平均預估值`μ`的個別變體而�
 
 Adobe使用的信賴度是「隨時有效」的信賴度，這是透過反轉平均處理效果的信賴度序列所取得。
 
-更精確地說，在兩個樣本&#x200B;*t*&#x200B;測試中兩個變體之間的平均值差異中，此測試的&#x200B;*p* — 值與平均值差異的信賴區間之間有1:1對應。 類比，透過反轉平均處理效果估計器的（隨時有效）信賴序列，可獲得隨時有效的&#x200B;*p* — 值：
+更準確地說，在兩個樣本&#x200B;*t*&#x200B;測試中兩個變體之間的平均值差異中，此測試的&#x200B;*p* — 值與平均值差異的信賴區間之間有一個1:1對應。 類比，透過反轉平均處理效果估計器的（隨時有效）信賴序列，可獲得隨時有效的&#x200B;*p* — 值：
 
 ![](assets/statistical_6.png){width="200" align="center"}
 

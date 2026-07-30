@@ -10,20 +10,12 @@ level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 641
@@ -47,7 +39,7 @@ ht-degree: 5%
 如需自訂上傳對象的詳細資訊，請參閱區段：
 
 * [開始使用audiences和Journey Optimizer](../audience/about-audiences.md)
-* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [在Adobe Experience Platform中匯入對象](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必讀 {#must-read}
 
@@ -61,9 +53,9 @@ ht-degree: 5%
 
 * 使用自訂上傳對象建立決定規則：
 
-   1. 編寫規則時，請存取&#x200B;**對象**&#x200B;索引標籤，然後在清單中搜尋您的CSV對象。 將對象拖放至規則畫布。
-   1. 使用&#x200B;**屬性**&#x200B;標籤，並導覽至連結至所選對象的擴充結構描述。 這可讓您存取CSV檔案中的所有資料，並在您的規則中使用這些資料。 [瞭解如何建立決定規則](../offers/offer-library/creating-decision-rules.md)
-   1. 儲存規則。 建立規則後，即可在優惠和決定層級使用，以精簡適用性。
+  1. 編寫規則時，請存取&#x200B;**對象**&#x200B;索引標籤，然後在清單中搜尋您的CSV對象。 將對象拖放至規則畫布。
+  1. 使用&#x200B;**屬性**&#x200B;標籤，並導覽至連結至所選對象的擴充結構描述。 這可讓您存取CSV檔案中的所有資料，並在您的規則中使用這些資料。 [瞭解如何建立決定規則](../offers/offer-library/creating-decision-rules.md)
+  1. 儲存規則。 建立規則後，即可在優惠和決定層級使用，以精簡適用性。
 
   決定規則畫布中的![CSV對象](assets/csv-rule.png)
 
@@ -71,8 +63,8 @@ ht-degree: 5%
 
   編寫優惠方案時，請在&#x200B;**新增限制**&#x200B;步驟中執行以下任一操作：
 
-   * 使用自訂上傳對象來定義優惠方案適用性，
-   * 套用規則以運用自訂上傳對象。
+  * 使用自訂上傳對象來定義優惠方案適用性，
+  * 套用規則以運用自訂上傳對象。
 
   ![自訂上傳對象限制選項](assets/csv-offer.png)
 

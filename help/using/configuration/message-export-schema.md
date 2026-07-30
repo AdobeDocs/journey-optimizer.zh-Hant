@@ -9,8 +9,7 @@ role: Admin
 level: Experienced
 keywords: 匯出，訊息，資料集，結構描述，電子郵件，簡訊
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 447
@@ -63,55 +62,55 @@ ht-degree: 3%
   **欄位：** `recipient`\
   **型別：**&#x200B;物件
 
-   * 密件副本
+  * 密件副本
 
-     **欄位：** `bcc`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `bcc`\
+    **型別：**&#x200B;字串陣列
 
-   * cc
+  * cc
 
-     **欄位：** `cc`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `cc`\
+    **型別：**&#x200B;字串陣列
 
-   * 電子郵件
+  * 電子郵件
 
-     **欄位：** `email`\
-     **型別：**&#x200B;字串
+    **欄位：** `email`\
+    **型別：**&#x200B;字串
 
-   * 名稱
+  * 名稱
 
-     **欄位：** `name`\
-     **型別：**&#x200B;字串
+    **欄位：** `name`\
+    **型別：**&#x200B;字串
 
 * 寄件者
 
   **欄位：** `sender`\
   **型別：**&#x200B;物件
 
-   * 電子郵件
+  * 電子郵件
 
-     **欄位：** `email`\
-     **型別：**&#x200B;字串
+    **欄位：** `email`\
+    **型別：**&#x200B;字串
 
-   * errorEmail
+  * errorEmail
 
-     **欄位：** `errorEmail`\
-     **型別：**&#x200B;字串
+    **欄位：** `errorEmail`\
+    **型別：**&#x200B;字串
 
-   * 名稱
+  * 名稱
 
-     **欄位：** `name`\
-     **型別：**&#x200B;字串
+    **欄位：** `name`\
+    **型別：**&#x200B;字串
 
-   * replyToEmail
+  * replyToEmail
 
-     **欄位：** `replyToEmail`\
-     **型別：**&#x200B;字串
+    **欄位：** `replyToEmail`\
+    **型別：**&#x200B;字串
 
-   * replyToName
+  * replyToName
 
-     **欄位：** `replyToName`\
-     **型別：**&#x200B;字串
+    **欄位：** `replyToName`\
+    **型別：**&#x200B;字串
 
 +++
 
@@ -125,20 +124,20 @@ ht-degree: 3%
   **欄位：** `recipient`\
   **型別：**&#x200B;物件
 
-   * 數字
+  * 數字
 
-     **欄位：** `number`\
-     **型別：**&#x200B;字串
+    **欄位：** `number`\
+    **型別：**&#x200B;字串
 
 * 寄件者
 
   **欄位：** `sender`\
   **型別：**&#x200B;物件
 
-   * 數字
+  * 數字
 
-     **欄位：** `numbers`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `numbers`\
+    **型別：**&#x200B;字串陣列
 
 +++
 
@@ -152,15 +151,15 @@ ht-degree: 3%
   **欄位：** `audience`\
   **型別：**&#x200B;物件
 
-   * id
+  * id
 
-     **欄位：** `id`\
-     **型別：**&#x200B;字串
+    **欄位：** `id`\
+    **型別：**&#x200B;字串
 
-   * 類型
+  * 類型
 
-     **欄位：** `type`\
-     **型別：**&#x200B;字串
+    **欄位：** `type`\
+    **型別：**&#x200B;字串
 
 * fragmentPublicationIDs
 
@@ -172,34 +171,34 @@ ht-degree: 3%
   **欄位：** `metadata`\
   **型別：**&#x200B;對應
 
-   * [對應索引鍵]
+  * [對應索引鍵]
 
-     **型別：**&#x200B;字串
+    **型別：**&#x200B;字串
 
 * parentSourceMeta
 
   **欄位：** `parentSourceMeta`\
   **型別：**&#x200B;物件
 
-   * sourceActionID
+  * sourceActionID
 
-     **欄位：** `sourceActionID`\
-     **型別：**&#x200B;字串
+    **欄位：** `sourceActionID`\
+    **型別：**&#x200B;字串
 
-   * sourceID
+  * sourceID
 
-     **欄位：** `sourceID`\
-     **型別：**&#x200B;字串
+    **欄位：** `sourceID`\
+    **型別：**&#x200B;字串
 
-   * sourceType
+  * sourceType
 
-     **欄位：** `sourceType`\
-     **型別：**&#x200B;字串
+    **欄位：** `sourceType`\
+    **型別：**&#x200B;字串
 
-   * sourceVersionID
+  * sourceVersionID
 
-     **欄位：** `sourceVersionID`\
-     **型別：**&#x200B;字串
+    **欄位：** `sourceVersionID`\
+    **型別：**&#x200B;字串
 
 * batchinstanceid
 
@@ -278,55 +277,55 @@ ht-degree: 3%
   **欄位：** `channel`\
   **型別：**&#x200B;物件
 
-   * contentType
+  * contentType
 
-     **欄位：** `contentTypes`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `contentTypes`\
+    **型別：**&#x200B;字串陣列
 
-   * locationtypes
+  * locationtypes
 
-     **欄位：** `locationTypes`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `locationTypes`\
+    **型別：**&#x200B;字串陣列
 
-   * metricTypes
+  * metricTypes
 
-     **欄位：** `metricTypes`\
-     **型別：**&#x200B;字串陣列
+    **欄位：** `metricTypes`\
+    **型別：**&#x200B;字串陣列
 
-   * _id
+  * _id
 
-     **欄位：** `_id`\
-     **型別：**&#x200B;字串
+    **欄位：** `_id`\
+    **型別：**&#x200B;字串
 
-   * _type
+  * _type
 
-     **欄位：** `_type`\
-     **型別：**&#x200B;字串
+    **欄位：** `_type`\
+    **型別：**&#x200B;字串
 
-   * mediaAction
+  * mediaAction
 
-     **欄位：** `mediaAction`\
-     **型別：**&#x200B;字串
+    **欄位：** `mediaAction`\
+    **型別：**&#x200B;字串
 
-   * mediaType
+  * mediaType
 
-     **欄位：** `mediaType`\
-     **型別：**&#x200B;字串
+    **欄位：** `mediaType`\
+    **型別：**&#x200B;字串
 
-   * 模式
+  * 模式
 
-     **欄位：** `mode`\
-     **型別：**&#x200B;字串
+    **欄位：** `mode`\
+    **型別：**&#x200B;字串
 
-   * referringSource
+  * referringSource
 
-     **欄位：** `referringSource`\
-     **型別：**&#x200B;字串
+    **欄位：** `referringSource`\
+    **型別：**&#x200B;字串
 
-   * typeAtSource
+  * typeAtSource
 
-     **欄位：** `typeAtSource`\
-     **型別：**&#x200B;字串
+    **欄位：** `typeAtSource`\
+    **型別：**&#x200B;字串
 
 * isSendTimeOptimized
 
@@ -380,40 +379,40 @@ ht-degree: 3%
   **欄位：** `emailContent`\
   **型別：**&#x200B;物件
 
-   * html
+  * html
 
-     **欄位：** `html`\
-     **型別：**&#x200B;字串
+    **欄位：** `html`\
+    **型別：**&#x200B;字串
 
-   * 主旨
+  * 主旨
 
-     **欄位：** `subject`\
-     **型別：**&#x200B;字串
+    **欄位：** `subject`\
+    **型別：**&#x200B;字串
 
-   * 文字
+  * 文字
 
-     **欄位：** `text`\
-     **型別：**&#x200B;字串
+    **欄位：** `text`\
+    **型別：**&#x200B;字串
 
 * smsContent
 
   **欄位：** `smsContent`\
   **型別：**&#x200B;物件
 
-   * 媒體
+  * 媒體
 
-     **欄位：** `media`\
-     **型別：**&#x200B;字串
+    **欄位：** `media`\
+    **型別：**&#x200B;字串
 
-   * 訊息
+  * 訊息
 
-     **欄位：** `message`\
-     **型別：**&#x200B;字串
+    **欄位：** `message`\
+    **型別：**&#x200B;字串
 
-   * 標題
+  * 標題
 
-     **欄位：** `title`\
-     **型別：**&#x200B;字串
+    **欄位：** `title`\
+    **型別：**&#x200B;字串
 
 +++
 
@@ -426,20 +425,20 @@ ht-degree: 3%
 
   **型別：**&#x200B;物件陣列
 
-   * authenticatedState
+  * authenticatedState
 
-     **欄位：** `authenticatedState`\
-     **型別：**&#x200B;字串
+    **欄位：** `authenticatedState`\
+    **型別：**&#x200B;字串
 
-   * id
+  * id
 
-     **欄位：** `id`\
-     **型別：**&#x200B;字串
+    **欄位：** `id`\
+    **型別：**&#x200B;字串
 
-   * 主要
+  * 主要
 
-     **欄位：** `primary`\
-     **型別：**&#x200B;布林值
+    **欄位：** `primary`\
+    **型別：**&#x200B;布林值
 
 +++
 

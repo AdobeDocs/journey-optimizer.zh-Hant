@@ -10,24 +10,15 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 840
 ht-degree: 11%
 
 ---
@@ -93,8 +84,8 @@ ht-degree: 11%
 
   例如:
 
-   * 在&#x200B;**14:01**&#x200B;之前抵達的設定檔會匯出至&#x200B;**14:01**。
-   * 從&#x200B;**14:02**&#x200B;到&#x200B;**18:01**&#x200B;的設定檔已匯出至&#x200B;**18:01**。
+  * 在&#x200B;**14:01**&#x200B;前抵達的設定檔會匯出至&#x200B;**14:01**。
+  * 從&#x200B;**14:02**&#x200B;到&#x200B;**18:01**&#x200B;的設定檔會在&#x200B;**18:01**&#x200B;匯出。
 
   這不會複製設定檔，而是依抵達視窗進行批次。
 
@@ -102,13 +93,13 @@ ht-degree: 11%
 
 * **對於每天一個檔案的情況的建議** — 如果您每天需要一個檔案，請考慮下列選項：
 
-   * **24小時路由頻率**：保證每天有一個檔案，但會導致傳遞延遲。
-   * **等候到當天時間**：可以將設定檔對齊相同的匯出視窗，但結果取決於歷程時間。
-   * **4小時路由頻率**：提供最低的延遲，但每天可能會產生多個檔案。
+  * **24小時路由頻率**：保證每天有一個檔案，但會導致傳遞延遲。
+  * **等候到當天時間**：可以將設定檔對齊相同的匯出視窗，但結果取決於歷程時間。
+  * **4小時路由頻率**：提供最低的延遲，但每天可能會產生多個檔案。
 
 ## 管理直接郵件的同意 {#dm-consent-management}
 
-請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [&#x200B; 同意結構描述 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。
+請在 [!DNL Journey Optimizer] 中，同意交由體驗平台 [ 同意結構描述 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=zh-Hant){target="_blank"} 處理。 預設情況下，如「同意」欄位值為空，則視為同意接受通訊。
 
 如果設定檔已選擇不接收直接郵件，則在對應的Experience Platform設定檔屬性中，`consents.marketing.postalMail.val`的值將為`n`，且對應的設定檔將從後續傳遞中排除。
 

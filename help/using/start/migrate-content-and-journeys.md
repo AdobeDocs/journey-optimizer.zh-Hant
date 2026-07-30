@@ -110,13 +110,13 @@ ht-degree: 10%
 
    電子郵件內容的![HTML檔案上傳區域](assets/onboarding-hub-7.png)
 
-1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。****
 
 1. 存取您匯入的電子郵件，並檢閱匯入的HTML。
 
 1. 新增您的&#x200B;**[!UICONTROL 主旨列]**，並將每個個人化預留位置對應至對應的設定檔屬性。
 
-   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![已匯入主旨行欄位和個人化預留位置對應的電子郵件編輯器](assets/onboarding-hub-8.png)
 
@@ -150,7 +150,7 @@ ht-degree: 10%
 
    ![歷程影像的熒幕擷圖上傳區域](assets/onboarding-hub-13.png)
 
-1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。****
 
 1. 預覽工作區從您的來源產生的歷程。
 

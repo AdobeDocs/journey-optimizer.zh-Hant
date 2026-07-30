@@ -11,23 +11,12 @@ level: Beginner, Intermediate
 keywords: 電子郵件主題，模組，可重複使用，品牌一致性，電子郵件設計，自訂CSS，行動裝置最佳化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
 source-wordcount: 1798
@@ -64,25 +53,25 @@ ht-degree: 3%
 
 * [片段](../content-management/fragments.md)在使用主題和手動樣式模式之間不相容。
 
-   * 主題片段無法在未使用主題建立的電子郵件內容中使用。
+  * 主題片段無法在未使用主題建立的電子郵件內容中使用。
 
-   * 若要在主題內容中利用[片段](../content-management/fragments.md)，此片段必須已使用主題自行建立。 [了解更多](#leverage-themes-fragment)
+  * 若要在主題內容中利用[片段](../content-management/fragments.md)，此片段必須已使用主題自行建立。 [了解更多](#leverage-themes-fragment)
 
-   * 在電子郵件內容中使用片段時，請務必套用您為此片段定義的主題。 若未這麼做，可能會導致顯示問題，尤其是在Outlook 2021和舊版中。 [了解更多](#leverage-themes-fragment)
+  * 在電子郵件內容中使用片段時，請務必套用您為此片段定義的主題。 若未這麼做，可能會導致顯示問題，尤其是在Outlook 2021和舊版中。 [了解更多](#leverage-themes-fragment)
 
 * 如果使用在HTML中建立的內容，您將處於[相容性模式](existing-content.md)，而且您無法直接將主題套用至此內容。
 
-   * 若要套用主題，您必須先將匯入的內容[儲存為新範本](../content-management/create-content-templates.md#save-as-template)，然後將此範本轉換為主題相容的內容。 然後，您可以使用此範本建立您的電子郵件內容。 在[本節](#theme-convertor)中瞭解如何轉換使用手動樣式建立的範本。
+  * 若要套用主題，您必須先將匯入的內容[儲存為新範本](../content-management/create-content-templates.md#save-as-template)，然後將此範本轉換為主題相容的內容。 然後，您可以使用此範本建立您的電子郵件內容。 在[本節](#theme-convertor)中瞭解如何轉換使用手動樣式建立的範本。
 
-   * 您仍然可以轉換匯入的HTML內容。 [了解更多](existing-content.md)
+  * 您仍然可以轉換匯入的HTML內容。 [了解更多](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * 在主題中使用自訂網頁字型（包括Google字型）時，請注意，許多電子郵件使用者端並不支援這些字型。 請一律在您的主題中定義適當的遞補字型，以確保所有電子郵件使用者端的可讀性。
 
-   * Gmail和Yahoo！ 不載入外部網頁字型，且會回覆成系統字型，無論HTML/CSS中指定的字型系列為何。
-   * Gmail唯一支援的Google字型是Roboto和Google Sans。
-   * *做*&#x200B;支援Web字型的電子郵件使用者端包括Apple Mail、iOS Mail、Android Mail、Thunderbird和Outlook for macOS。
+  * Gmail和Yahoo！ 不載入外部網頁字型，且會回覆成系統字型，無論HTML/CSS中指定的字型系列為何。
+  * Gmail唯一支援的Google字型是Roboto和Google Sans。
+  * *做*&#x200B;支援Web字型的電子郵件使用者端包括Apple Mail、iOS Mail、Android Mail、Thunderbird和Outlook for macOS。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -142,7 +131,7 @@ ht-degree: 3%
 
    ![](assets/theme-buttons.png)
 
-1. 按一下[儲存]儲存此佈景主題以供日後使用。 **&#x200B;**&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
+1. 按一下[儲存]儲存此佈景主題以供日後使用。 ****&#x200B;它現在顯示在&#x200B;**[!UICONTROL 我的主題]**&#x200B;標籤中。
 
 <!--A little strange upon hitting Save, because once the theme is created, you need to hit Close to go back to Design your template screen, then click Cancel if you don't want to proceed with template creation.-->
 
@@ -288,4 +277,4 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)
+1. 按一下[儲存]****&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)

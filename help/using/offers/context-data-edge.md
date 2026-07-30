@@ -10,19 +10,11 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
@@ -74,7 +66,7 @@ ht-degree: 4%
 
 1. 建立資料集（此處為「選件內容」）並確保已為設定檔啟用它。
 
-1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
+1. 從&#x200B;**[!UICONTROL 資料彙集]** > **[!UICONTROL 資料串流]**&#x200B;功能表建立新的資料串流。 瞭解如何在[!DNL Adobe Experience Platform] [資料串流指南](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}中建立和設定資料串流
 
    我們已建立「優惠內容」資料流，並選取「優惠內容」事件結構描述。
 
@@ -96,23 +88,23 @@ ht-degree: 4%
 
 * iphone裝置規則：
 
-   * 規則名稱： 「Edge內容規則 — iphone」
-   * 設定： deviceType = &#39;iphone&#39;
-   * PQL語法：
+  * 規則名稱： 「Edge內容規則 — iphone」
+  * 設定： deviceType = &#39;iphone&#39;
+  * PQL語法：
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * ipad裝置規則：
 
-   * 規則名稱： 「Edge內容規則 — ipad」
-   * 設定： deviceType = &#39;ipad&#39;
-   * PQL語法
+  * 規則名稱： 「Edge內容規則 — ipad」
+  * 設定： deviceType = &#39;ipad&#39;
+  * PQL語法
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## 建立優惠 {#offers}
 
@@ -120,13 +112,13 @@ ht-degree: 4%
 
 * iPhone使用者適用的選件：
 
-   * 選件名稱： 「Edge內容 — iPhone選件內容」
-   * 相關規則：「Edge內容規則 — iphone」
+  * 選件名稱： 「Edge內容 — iPhone選件內容」
+  * 相關規則：「Edge內容規則 — iphone」
 
 * iPad使用者適用的選件：
 
-   * 選件名稱： 「Edge內容 — iPad選件內容」
-   * 相關規則：「Edge內容規則 — ipad」
+  * 選件名稱： 「Edge內容 — iPad選件內容」
+  * 相關規則：「Edge內容規則 — ipad」
 
 此外，建立遞補優惠（此處為「內容遞補內容」），以在不符合特定裝置條件時顯示。
 

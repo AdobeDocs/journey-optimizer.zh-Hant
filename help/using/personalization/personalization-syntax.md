@@ -10,19 +10,12 @@ level: Intermediate
 keywords: 運算式，編輯器，語法，個人化
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -163,13 +156,13 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++範例參考
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +180,10 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   其中：
 
-   * `offers`會識別屬於優惠方案名稱空間的路徑運算式
-   * `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
-   * `Placement Id`和`Activity Id`是位置與活動識別碼
-   * `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
+  * `offers`會識別屬於優惠方案名稱空間的路徑運算式
+  * `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
+  * `Placement Id`和`Activity Id`是位置與活動識別碼
+  * `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
 
   如需有關Decisions API和優惠宣告的詳細資訊，請參閱[此頁面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +191,21 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++範例參考
 
-   * 影像的託管位置：
+  * 影像的託管位置：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * 按一下影像時的目標URL：
+  * 按一下影像時的目標URL：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * 來自決策引擎的優惠方案文字內容：
+  * 來自決策引擎的優惠方案文字內容：
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * 來自決策引擎之優惠方案的HTML內容：
+  * 來自決策引擎之優惠方案的HTML內容：
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 
@@ -388,7 +381,7 @@ PQL使用單一`=`運運算元來相等。 使用`==`會導致語法錯誤。
 
 **問：我如何參照名稱是保留關鍵字的結構描述欄位（例如`next`、`last`、`this`）？**
 
-以反引號括住它： `{{profile.person.\`next\&#39;.name&rbrace;&rbrace;&#39;。 這同時適用於Handlebars路徑和PQL運算式。
+以反引號括住它： `{{profile.person.\`next\&#39;.name}}&#39;。 這同時適用於Handlebars路徑和PQL運算式。
 
 **問：我可以在`{{...}}` Handlebars區塊中呼叫PQL函式嗎？**
 

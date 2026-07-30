@@ -9,20 +9,12 @@ role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 TQID: https://experienceleague.adobe.com/QXJ9G3btsn7ZEwSB2Bm0uGt89gsh8D7SnNZ-Vw2muXM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 411
@@ -57,11 +49,11 @@ ht-degree: 10%
 
 * **錯誤**&#x200B;會阻止您測試或啟用歷程，只要這些錯誤尚未解決，例如：
 
-   * **[!UICONTROL 訊息的推播版本是空的]**：當缺少推播通知本文或標題時，會顯示此錯誤。 瞭解如何在[本節](create-push.md)中定義推播通知內容。
+  * **[!UICONTROL 訊息的推播版本是空的]**：當缺少推播通知本文或標題時，會顯示此錯誤。 瞭解如何在[本節](create-push.md)中定義推播通知內容。
 
-   * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
+  * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
 
-   * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不能超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 在[本節](../push/create-push.md)中瞭解如何管理推播通知內容。
+  * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不能超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 在[本節](../push/create-push.md)中瞭解如何管理推播通知內容。
 
   ![](assets/push_alert.png)
 

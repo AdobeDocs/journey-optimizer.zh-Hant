@@ -6,15 +6,11 @@ description: 瞭解如何針對單一和廣播使用案例（包括設定檔權�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 5973
+source-wordcount: 5967
 ht-degree: 1%
 
 ---
@@ -144,7 +140,7 @@ Adobe Experience Platform Assurance中的「已上線活動」檢視可驗證應
 * 設定檔名稱空間，例如ECID、電子郵件、客戶ID
 * API呼叫中使用的設定檔ID
 
-確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何查詢設定檔。
+確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何[查詢設定檔。
 
 +++
 
@@ -177,12 +173,12 @@ API傳回HTTP 200，但未顯示上線活動。 常見原因：
 #### 預先檢查
 
 * iOS應用程式需求：
-   * iOS 16.1+
-   * 在`Info.plist`中將`NSSupportsLiveActivities`設定為`YES`
-   * `ActivityAttributes`已正確實作。
+  * iOS 16.1+
+  * 在`Info.plist`中將`NSSupportsLiveActivities`設定為`YES`
+  * `ActivityAttributes`已正確實作。
 * 行動SDK整合：
-   * Adobe Experience Platform Mobile SDK （傳訊SDK 5.11.0+）
-   * 使用Live活動推播權杖實作及呼叫`Messaging.registerLiveActivities`。
+  * Adobe Experience Platform Mobile SDK （傳訊SDK 5.11.0+）
+  * 使用Live活動推播權杖實作及呼叫`Messaging.registerLiveActivities`。
 
 #### 偵錯步驟
 
@@ -393,8 +389,8 @@ API傳回HTTP 200，但未顯示上線活動。 常見原因：
 
 * 在`content-state`中包含所有`ContentState`欄位（所有事件型別都需要）。
 * 在`attributes`中包含所有`LiveActivityAttributes`欄位（僅限開始事件），包括：
-   * `liveActivityData` （必要；通常包含`liveActivityID`或類似的識別碼）
-   * 結構中的所有自訂欄位
+  * `liveActivityData` （必要；通常包含`liveActivityID`或類似的識別碼）
+  * 結構中的所有自訂欄位
 * 完全符合欄位名稱（區分大小寫）。
 * 符合資料型別（String、Int、Bool、巢狀物件）。
 * 保留巢狀物件結構。
@@ -449,15 +445,15 @@ API傳回HTTP 200，但未顯示上線活動。 常見原因：
 **預先檢查**
 
 * **已驗證的先前案例：**
-   * 具有正確`liveActivityPushNotificationDetails`的設定檔已存在
-   * 行銷活動表面和活動型別正確
-   * API裝載對目前時間戳記有效
-   * 更新Token已同步（適用於更新/結束事件）
+  * 具有正確`liveActivityPushNotificationDetails`的設定檔已存在
+  * 行銷活動表面和活動型別正確
+  * API裝載對目前時間戳記有效
+  * 更新Token已同步（適用於更新/結束事件）
 
 * **已確認的API呼叫：**
 
-   * API呼叫傳回HTTP 200 （成功）
-   * 行銷活動ID和收件者詳細資料正確
+  * API呼叫傳回HTTP 200 （成功）
+  * 行銷活動ID和收件者詳細資料正確
 
 #### 偵錯步驟
 
@@ -744,8 +740,8 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **預先檢查：**
 
 * **促銷活動型別**：
-   * 確認行銷活動建立為API觸發的行銷活動（廣播/對象型行銷活動的必要專案）。
-   * 確認對象已定義於行銷活動設定中。
+  * 確認行銷活動建立為API觸發的行銷活動（廣播/對象型行銷活動的必要專案）。
+  * 確認對象已定義於行銷活動設定中。
 * **設定檔和權杖驗證**：從對象中取樣多個設定檔，以驗證它們是否具有有效的`liveActivityPushNotificationDetails`。 如需詳細的驗證步驟，請遵循[案例1](#scenario-1-profile-or-push-token-issues)。
 
 #### 偵錯步驟
@@ -807,17 +803,17 @@ curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
 **重要廣播特定欄位：**
 
 * **`input-push-channel`**:
-   * 所有廣播Live活動皆需要。
-   * 作為此特定廣播執行個體的唯一識別碼。
-   * 對象中的所有設定檔都會收到連結至此管道的已上線活動。
-   * 必須符合`liveActivityData.channelID`中的`channelID` （請參閱步驟3）。
-   * 使用者端必須在Apple開發人員入口網站上為`appID`建立。
-   * 只有為特定`appID`建立的頻道才能用來廣播該應用程式上的即時活動。
+  * 所有廣播Live活動皆需要。
+  * 作為此特定廣播執行個體的唯一識別碼。
+  * 對象中的所有設定檔都會收到連結至此管道的已上線活動。
+  * 必須符合`liveActivityData.channelID`中的`channelID` （請參閱步驟3）。
+  * 使用者端必須在Apple開發人員入口網站上為`appID`建立。
+  * 只有為特定`appID`建立的頻道才能用來廣播該應用程式上的即時活動。
 
 * **`audience.id`**:
-   * 必須參考在Adobe Experience Platform中建立的有效對象區段。
-   * 此對象中的所有設定檔都是上線活動的目標。
-   * 必須啟用對象，並包含具有有效`liveActivityPushNotificationDetails`的設定檔。
+  * 必須參考在Adobe Experience Platform中建立的有效對象區段。
+  * 此對象中的所有設定檔都是上線活動的目標。
+  * 必須啟用對象，並包含具有有效`liveActivityPushNotificationDetails`的設定檔。
 
 **一律使用最新的時間戳記：**
 
@@ -955,8 +951,8 @@ Adobe Experience Platform使用不同的對象評估方法，判斷設定檔更�
 **預先檢查：**
 
 * **行銷活動和承載驗證**：
-   * 完成[此情境](#broadcast-config)中的檢查，以確保行銷活動和承載正確。
-   * 確認API承載中的`audience.id`符合行銷活動設定。
+  * 完成[此情境](#broadcast-config)中的檢查，以確保行銷活動和承載正確。
+  * 確認API承載中的`audience.id`符合行銷活動設定。
 * **設定檔存在**：確認設定檔存在於AEP中，且有效`liveActivityPushNotificationDetails`。
 
 #### 偵錯步驟
@@ -1030,9 +1026,9 @@ Adobe Experience Platform使用不同的對象評估方法，判斷設定檔更�
 1. **解決問題：**
    * **對於新設定檔**：如果符合條件，它們會自動符合條件。 不需要採取任何動作。
    * **對於沒有最近更新的現有設定檔：**
-      * 對設定檔進行微幅更新（例如，更新時間戳記欄位）。
-      * 這會觸發串流評估，並將設定檔新增至對象。
-      * 替代方案：針對現有設定檔使用批次對象或邊緣對象。
+     * 對設定檔進行微幅更新（例如，更新時間戳記欄位）。
+     * 這會觸發串流評估，並將設定檔新增至對象。
+     * 替代方案：針對現有設定檔使用批次對象或邊緣對象。
 
 +++
 
@@ -1112,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`是結構化MAP型別，不是字串。 使用上述陣列和結構存取子語法。 `LIKE`之類的字串函式將傳回`DATATYPE_MISMATCH`錯誤。
 >
 ></br>
->&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的&#x200B;**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
+&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
 
 ### feedbackStatus值
 

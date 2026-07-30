@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: 整合，廠商，協力廠商
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10209
+source-wordcount: 10210
 ht-degree: 5%
 
 ---
@@ -1229,7 +1228,7 @@ Adobe Target包含適用於伺服器端或整合式體驗的建議與傳送API�
 
 使用以下程式，在Journey Optimizer中設定這項整合。 請參閱&#x200B;**範例整合欄位**&#x200B;以取得請求詳細資訊，並在您環境的廠商檔案中確認這些值。
 
-1. 遵循[使用整合](integrations.md)。 傳遞呼叫通常是具有JSON內文的&#x200B;**POST**。 根據[目標驗證](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/api/configure-authentication){target="_blank"}設定OAuth、貼上範例回應、對應欄位、在預期的磁碟區下測試。
+1. 遵循[使用整合](integrations.md)。 傳遞呼叫通常是具有JSON內文的&#x200B;**POST**。 根據[目標驗證](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}設定OAuth、貼上範例回應、對應欄位、在預期的磁碟區下測試。
 
 1. 在Journey Optimizer中，移至&#x200B;**[!UICONTROL 組態]** > **[!UICONTROL 管理]**，然後選取&#x200B;**[!UICONTROL 建立整合專案]**。
 
@@ -1282,7 +1281,7 @@ Adobe Target包含適用於伺服器端或整合式體驗的建議與傳送API�
 
 **驗證**
 
-參考[Target驗證組態](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/api/configure-authentication)並將JSON新增至承載。
+參考[Target驗證組態](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)並將JSON新增至承載。
 
 **要求承載**
 
@@ -2039,7 +2038,7 @@ Bazaarvoice提供評等、評論和UGC API。
 | 參數 | 名稱 | 類型 | 值 | 強制 |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | 常數 | 5.4 | 是（開啟） |
-| `filter` | `filter` | 變數 | 識別碼:47950830 | 否（關閉） |
+| `filter` | `filter` | 變數 | Id：47950830 | 否（關閉） |
 | `stats` | `stats` | 變數 | 全部 | 否（關閉） |
 
 +++

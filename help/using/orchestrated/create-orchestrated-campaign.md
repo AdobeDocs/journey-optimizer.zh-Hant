@@ -6,12 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的�
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1261
@@ -114,10 +111,10 @@ ht-degree: 63%
    每日或在選取的日期執行行銷活動。
 
    * **[!UICONTROL 每日週期]**：選擇行銷活動執行的頻率：
-      * **[!UICONTROL 每天]**：在一週的每一天 (包括週末) 執行行銷活動。
-      * **[!UICONTROL 工作日]**：僅從星期一到星期五執行行銷活動。
-      * **[!UICONTROL 經過特定期間]**：在定義的日期範圍內 (例如 7 月 1 日至 7 月 15 日) 每天執行行銷活動。 行銷活動不會在此範圍以外執行。
-      * **[!UICONTROL 一星期的選定日]**：僅在一星期的指定日執行行銷活動 (例如，星期一、星期三、星期五)。
+     * **[!UICONTROL 每天]**：在一週的每一天 (包括週末) 執行行銷活動。
+     * **[!UICONTROL 工作日]**：僅從星期一到星期五執行行銷活動。
+     * **[!UICONTROL 經過特定期間]**：在定義的日期範圍內 (例如 7 月 1 日至 7 月 15 日) 每天執行行銷活動。 行銷活動不會在此範圍以外執行。
+     * **[!UICONTROL 一星期的選定日]**：僅在一星期的指定日執行行銷活動 (例如，星期一、星期三、星期五)。
 
    * **[!UICONTROL 開始時間]**：定義行銷活動每天應執行的時間。
 
@@ -149,11 +146,11 @@ ht-degree: 63%
 
    * **[!UICONTROL 每月週期]**：選取行銷活動是每個月執行，還是只在特定月份執行。
    * **[!UICONTROL 每日週期]**：
-      * **[!UICONTROL 每天]**：在該月的每個行事曆日 (包括週末) 執行行銷活動。
-      * **[!UICONTROL 每月的最後一天]**：僅在每月的最後一個行事曆日執行行銷活動 (例如，1 月 31 日、2 月 28/29 日)。
-      * **[!UICONTROL 一個月的特定日 (例如，15 日)]**：在指定日執行行銷活動 (例如，每個月的 15 日)。
-      * **[!UICONTROL 一週的第一天/最後一天或第 n 天]** (例如，第一個星期一)：⋯⋯在指定的工作日執行行銷活動 (例如，每週的 15 日)。
-      * **[!UICONTROL 一週的選定日]**：在指定日執行行銷活動。
+     * **[!UICONTROL 每天]**：在該月的每個行事曆日 (包括週末) 執行行銷活動。
+     * **[!UICONTROL 每月的最後一天]**：僅在每月的最後一個行事曆日執行行銷活動 (例如，1 月 31 日、2 月 28/29 日)。
+     * **[!UICONTROL 一個月的特定日 (例如，15 日)]**：在指定日執行行銷活動 (例如，每個月的 15 日)。
+     * **[!UICONTROL 一週的第一天/最後一天或第 n 天]** (例如，第一個星期一)：⋯⋯在指定的工作日執行行銷活動 (例如，每週的 15 日)。
+     * **[!UICONTROL 一週的選定日]**：在指定日執行行銷活動。
 
    * **[!UICONTROL 開始時間]**：設定行銷活動應執行的時間。
 

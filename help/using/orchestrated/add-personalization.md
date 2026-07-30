@@ -5,14 +5,9 @@ title: 在協調的行銷活動中新增個人化
 description: 瞭解如何使用設定檔屬性、工作表中的目標屬性及擴充收集陣列，個人化協調的行銷活動訊息。
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 477
@@ -48,9 +43,9 @@ ht-degree: 0%
 
   在促銷活動畫布上從工作表中計算的屬性。 此資料夾有兩個子資料夾：
 
-   * **`<Targeting dimension>`** （例如，收件者或購買） — 與您在行銷活動中定位的維度相關的屬性。
+  * **`<Targeting dimension>`** （例如，收件者或購買） — 與您在行銷活動中定位的維度相關的屬性。
 
-   * **`Enrichment`** — 透過&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料（關聯式連結、收集的行、彙總）。 在1:N **[!UICONTROL 收集資料]**&#x200B;擴充後，您會同時取得編號行和集合陣列。 [瞭解如何使用擴充集合資料](#enrichment-collections)
+  * **`Enrichment`** — 透過&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料（關聯式連結、收集的行、彙總）。 在1:N **[!UICONTROL 收集資料]**&#x200B;擴充後，您會同時取得編號行和集合陣列。 [瞭解如何使用擴充集合資料](#enrichment-collections)
 
 如需[!DNL Journey Optimizer]的個人化編輯器的詳細總覽，請參閱[開始使用個人化](../personalization/personalize.md)。
 

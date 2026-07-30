@@ -8,22 +8,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 TQID: https://experienceleague.adobe.com/Prpr3jo8SYkY7dI-eXrN9ZBm4SdjePKJY7i0ze2Xu5M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1319
@@ -74,15 +64,15 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
 * 鎖定結構時：
 
-   * 依預設，該結構內的所有內容也會鎖定。
-   * 無法新增任何內容至結構。
-   * 依預設，您無法刪除結構。 您可以啟用「允許刪除」選項來覆寫此限制。
-   * 可將鎖定結構內的個別內容元件設定為可編輯。
+  * 依預設，該結構內的所有內容也會鎖定。
+  * 無法新增任何內容至結構。
+  * 依預設，您無法刪除結構。 您可以啟用「允許刪除」選項來覆寫此限制。
+  * 可將鎖定結構內的個別內容元件設定為可編輯。
 
 * 當結構可編輯（結構未鎖定）時：
 
-   * 個別內容元件可鎖定在該結構內。
-   * 依預設，如果元件已鎖定，或選取「僅可編輯的內容鎖定」，則無法刪除元件。 您可以啟用「允許刪除」選項來覆寫此限制。
+  * 個別內容元件可鎖定在該結構內。
+  * 依預設，如果元件已鎖定，或選取「僅可編輯的內容鎖定」，則無法刪除元件。 您可以啟用「允許刪除」選項來覆寫此限制。
 
 >[!AVAILABILITY]
 >
@@ -219,4 +209,4 @@ Journey Optimizer可讓您鎖定電子郵件範本中的內容，鎖定整個範
 
 瞭解如何鎖定電子郵件範本中的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451618?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

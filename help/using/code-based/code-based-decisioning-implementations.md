@@ -7,19 +7,11 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
@@ -81,9 +73,9 @@ ht-degree: 8%
 
 * 針對請求中的&#x200B;**多個**&#x200B;決定原則/位置：
 
-   * 如果`allowDuplicateDecisionItems`設為`false`：回應中的所有專案都是唯一的（無論專案是用於哪個訊息/決定原則/位置）。
+  * 如果`allowDuplicateDecisionItems`設為`false`：回應中的所有專案都是唯一的（無論專案是用於哪個訊息/決定原則/位置）。
 
-   * 如果`allowDuplicateDecisionItems`設為`true` （預設）：回應中的專案可以重複（如果多個訊息/決定原則/位置符合該請求的相同決定專案的資格）。
+  * 如果`allowDuplicateDecisionItems`設為`true` （預設）：回應中的專案可以重複（如果多個訊息/決定原則/位置符合該請求的相同決定專案的資格）。
 
 ### 在請求中套用重複資料刪除 {#deduplication-in-request}
 
@@ -154,13 +146,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * 如果`itemId-X`是同時符合決定原則與位置組合的單一決定專案：
 
-   * 如果`allowDuplicateDecisionItems`是`true`（預設）：在單一回應中傳回兩個主張的`itemId-X`。
+  * 如果`allowDuplicateDecisionItems`是`true`（預設）：在單一回應中傳回兩個主張的`itemId-X`。
 
-   * 如果`allowDuplicateDecisionItems`是`false`：
+  * 如果`allowDuplicateDecisionItems`是`false`：
 
-      * 第一個主張會傳回`itemId-X`。
+    * 第一個主張會傳回`itemId-X`。
 
-      * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
+    * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
 
 +++決定範例回應(`allowDuplicateDecisionItems` = `true`)
 

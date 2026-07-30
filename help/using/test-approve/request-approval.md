@@ -6,18 +6,14 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -34,15 +30,17 @@ ht-degree: 0%
 
 * **沒有使用中的核准原則**
 
-   * **行銷活動**：如果沙箱中的行銷活動物件沒有有效的核准原則，行銷活動將會顯示&#x200B;**[!UICONTROL 啟用]**&#x200B;按鈕，可讓您在不需要核准的情況下啟用它們。
+  * **行銷活動**：如果沙箱中的行銷活動物件沒有有效的核准原則，行銷活動將會顯示&#x200B;**[!UICONTROL 啟用]**&#x200B;按鈕，可讓您在不需要核准的情況下啟用它們。
 
-   * **歷程**：如果歷程物件沒有有效的核准原則，歷程會顯示&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕，讓您直接發佈。
+  * **歷程**：如果歷程物件沒有有效的核准原則，歷程會顯示&#x200B;**[!UICONTROL 發佈]**&#x200B;按鈕，讓您直接發佈。
 
 * **存在使用中的核准原則**
 
-   * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
+  * **行銷活動**：如果沙箱中的Campaign物件存在一或多個作用中核准原則，則所述沙箱中的所有行銷活動都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
+    如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
-   * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**&#x200B;按鈕。如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
+  * **歷程**：如果沙箱中的Journey物件存在一或多個使用中的核准原則，則所有歷程都會顯示&#x200B;**[!UICONTROL 要求核准]**按鈕。
+    如果按一下**[!UICONTROL 請求核准]**&#x200B;按鈕時沒有核准原則套用至選取的物件，則會觸發自動核准工作流程。
 
 ## 傳送核准請求
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 * 如果按一下&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕後，沒有任何核准原則適用於行銷活動或歷程，則行銷活動或歷程將會自動核准並啟動或發佈。
 
-**[!UICONTROL 要求核准]**&#x200B;窗格開啟。 視需要提供訊息給核准者，然後按一下[傳送]&#x200B;**[!UICONTROL 以提交您的要求。]**
+**[!UICONTROL 要求核准]**&#x200B;窗格開啟。 視需要提供訊息給核准者，然後按一下[傳送]**[!UICONTROL 以提交您的要求。]**
 
 ![核准要求對話方塊](assets/approval-request.png)
 

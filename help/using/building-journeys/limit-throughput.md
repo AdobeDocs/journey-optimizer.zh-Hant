@@ -10,18 +10,11 @@ keywords: 歷程，資料來源，限制，輸送量，自訂，動作
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r96xAEjUJDufjpxGMrxoYS0VthagaSyYdS9NQttT9x0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1454
@@ -85,12 +78,12 @@ ht-degree: 3%
 1. 之後，使用每個分支中的特定計時器新增「等待」活動。 我們在這裡設定30秒等候每一個。 每秒鐘有100個設定檔流入每個分支。
 
    * 在分支1上，它們將等待30秒，這表示：
-      * 在第二個1,100個設定檔將等待第二個31
-      * 在第二個2,100個設定檔將等待第二個32等。
+     * 在第二個1,100個設定檔將等待第二個31
+     * 在第二個2,100個設定檔將等待第二個32等。
 
    * 在分支2上，則會等待60秒，這表示：
-      * 在第二個1,100個設定檔將等待第二個61 （1英尺1英吋）
-      * 在第二個2,100個設定檔將等待第二個62 （1英尺2英吋）等。
+     * 在第二個1,100個設定檔將等待第二個61 （1英尺1英吋）
+     * 在第二個2,100個設定檔將等待第二個62 （1英尺2英吋）等。
 
    * 知道我們預計最多需要20秒來讀取所有設定檔，每個分支之間將不會重疊，第二個20是設定檔將流入條件的最後一個。 在第二個31和第二個51之間，將處理分支1中的所有設定檔。 在第二個61 （1&#39;01英吋）和第二個81 （1&#39;21英吋）之間，將處理分支2中的所有設定檔等。
 

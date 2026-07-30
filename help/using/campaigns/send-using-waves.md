@@ -9,14 +9,11 @@ role: User
 level: Intermediate
 keywords: 波段，批次，排程，行銷活動，歷程，傳遞能力
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 966
+source-wordcount: 974
 ht-degree: 1%
 
 ---
@@ -78,7 +75,7 @@ Journey Optimizer可讓您定義波段數、波段大小（以對象百分比或
 >
 >兩個波段開始的最小間隔為&#x200B;**30分鐘**。
 
-系統接著會自動排程後續波段（例如，第一個波段在早上9:00，第二個波段在晚上11:00，第三個波段在晚上1:00，第四個波段在晚上3:00）。
+系統接著會自動排程後續波段（例如，第一個波段是在上午9:00、第二個是在上午11:00、第三個是在下午1:00、第四個是在下午3:00）。
 
 ### 自訂分佈 {#custom-distribution}
 
@@ -96,7 +93,7 @@ Journey Optimizer可讓您定義波段數、波段大小（以對象百分比或
 
 ### 自訂排程 {#custom-schedule}
 
-選取&#x200B;**[!UICONTROL 排程每個波段]**&#x200B;以定義每個波段的特定開始日期和時間。 波段不需要平均間距（例如，上午9:00、上午11:00、下午5:00、下午8:30）。
+選取&#x200B;**[!UICONTROL 排程每個波段]**&#x200B;以定義每個波段的特定開始日期和時間。 波段不需要均勻隔開（例如，上午9:00、上午11:00、下午5:00、晚上8:30）。
 
 ![](assets/campaign-wave-custom-schedule.png){width="80%"}
 

@@ -10,18 +10,11 @@ level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
 TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 666
@@ -49,8 +42,8 @@ ht-degree: 4%
 
 * **Personalization**：
 
-   * 所有個人化必須以&#x200B;**內容資料**&#x200B;的形式包含在API承載中。 [瞭解如何使用內容相關資料個人化內容](../campaigns/api-triggered-campaign-content.md#contextual)
-   * 不支援設定檔個人化。 如果使用設定檔變數，則會發生驗證錯誤。
+  * 所有個人化必須以&#x200B;**內容資料**&#x200B;的形式包含在API承載中。 [瞭解如何使用內容相關資料個人化內容](../campaigns/api-triggered-campaign-content.md#contextual)
+  * 不支援設定檔個人化。 如果使用設定檔變數，則會發生驗證錯誤。
 
 * **個人化管道設定** — 使用[設定檔個人化](../email/surface-personalization.md)的管道設定，無法用於高輸送量的行銷活動。 只能使用沒有設定檔個人化的表面。
 
@@ -64,8 +57,8 @@ ht-degree: 4%
 
   使用的資料集包括：
 
-   * **AJO訊息回饋事件資料集 — 非設定檔**
-   * **AJO電子郵件追蹤體驗事件資料集 — 非設定檔**
+  * **AJO訊息回饋事件資料集 — 非設定檔**
+  * **AJO電子郵件追蹤體驗事件資料集 — 非設定檔**
 
 * **輸送量配置** — 在「高輸送量」附加元件下布建的輸送量已專門保留給高輸送量行銷活動。 標準和高輸送量API觸發的行銷活動之間不共用輸送量。
 
@@ -88,17 +81,17 @@ ht-degree: 4%
 換句話說：
 
 * 選擇&#x200B;**標準API觸發**&#x200B;行銷活動，如果：
-   * 您沒有簽訂高輸送量的合約。
-   * 您的輸送量需求低於500 TPS。
-   * 您需要根據Adobe設定檔進行個人化。
-   * 您想要將行銷活動資料連結至設定檔，以供日後目標定位。
-   * 您想使用電子郵件以外的其他管道。
+  * 您沒有簽訂高輸送量的合約。
+  * 您的輸送量需求低於500 TPS。
+  * 您需要根據Adobe設定檔進行個人化。
+  * 您想要將行銷活動資料連結至設定檔，以供日後目標定位。
+  * 您想使用電子郵件以外的其他管道。
 
 * 選擇&#x200B;**高輸送量**&#x200B;行銷活動，如果：
-   * 您需要輸送量大於500 TPS。
-   * 您不需要個人資料拼接。
-   * 您可以在API裝載中傳遞所有個人化。
-   * 您想要使用電子郵件頻道。
+  * 您需要輸送量大於500 TPS。
+  * 您不需要個人資料拼接。
+  * 您可以在API裝載中傳遞所有個人化。
+  * 您想要使用電子郵件頻道。
 
 ## 設定指南
 

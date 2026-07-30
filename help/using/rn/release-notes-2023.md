@@ -9,15 +9,11 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
-source-wordcount: 4450
+source-wordcount: 4372
 ht-degree: 100%
 
 ---
@@ -94,9 +90,9 @@ ht-degree: 100%
 
 * 現在，您可在任何等待時間中定義的最長期間是 29 天，而不是 30 天。 此項改進的目的是在防止等待的持續時間超過 30 天的歷程期限。 這適用於：
 
-   * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
-   * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期**
-   * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
+  * [等待活動](../building-journeys/wait-activity.md)中的&#x200B;**時間長度**&#x200B;欄位
+  * [歷程屬性](../building-journeys/journey-properties.md#entrance)中的&#x200B;**重新進入等待期**
+  * [事件活動](../building-journeys/general-events.md#events-specific-time)逾時定義中的&#x200B;**等待**&#x200B;欄位。
 
 <!--
 **Consent in channel configuration**
@@ -125,7 +121,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料總結為輪廓屬性，以增強行為型細分、個人化和啟用。 透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶輪廓目的地或 Journey Optimizer。此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。 在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多相關資訊。</p>
+<p>計算屬性可讓您透過直覺式使用者介面，輕鬆地將事件資料摘要為輪廓屬性，以強化基於行為的細分、個人化和啟用。透過此功能，您可以自助建立計算屬性、管理這些屬性，並用於細分、即時客戶輪廓目的地或 Journey Optimizer。<br/><br/>
+此外，計算屬性可簡化細分和歷程工作流程，協助您順暢地提供相關體驗。在<a href="../audience/computed-attributes.md">詳細文件</a>中了解更多。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -323,7 +320,8 @@ A new option is available in the email surface settings to include email address
 **歷程**
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。 此功能目前以 Beta 的形式提供。 [了解更多](../action/action-response.md)。
-* 已引進新類型的系統警報。 您現在可以在自訂動作失敗時收到通知。 [了解更多](../reports/alerts.md)。  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+* 已引入新型系統警報。您現在可以在自訂動作失敗時收到通知。[深入瞭解](../reports/alerts.md)。
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **直接郵件**
@@ -613,16 +611,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * 為了因應全面推出的 Audience Portal 功能，Adobe Experience Platform 正在更新系統和文件內「對象」和「區段」的使用情況。
 
-   * 客群：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
-   * 區段定義：在 Adobe Experience Platform 中，用來描述目標客群之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
+  * 客群：一組具有共同特徵和行為的人員、帳戶、家庭或其他實體。
+  * 區段定義：在 Adobe Experience Platform 中，用來描述目標客群之關鍵特性或行為的規則。 此辭彙先前稱為「區段」。
 
   因此，在 Adobe Journey Optimizer 和 Adobe Experience Platform UI 中，您會看到「區段」被「客群」取代，以反映建立和管理客群的新路徑。
 
   在指稱目標為接收訊息的一組輪廓時，「客群」一詞的翻譯已在部分語言的所有數位體驗產品中保持一致：
 
-   * 德文：Zielgruppe
-   * 巴西葡萄牙文：público-alvo
-   * 西班牙文：público destinatario
+  * 德文：Zielgruppe
+  * 巴西葡萄牙文：público-alvo
+  * 西班牙文：público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -999,13 +997,14 @@ Note that each widget can be resized and deleted as needed.
 <p>您現在可以建立獨立內容範本，這些範本可用於歷程及行銷活動，以快速重複使用。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>瞭解如何建立、編輯並使用內容範本。 如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細說明文件</a>。</p>
+<p>在<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=zh-Hant">此影片</a>中瞭解如何建立、編輯和使用內容範本。如需詳細資訊，請參閱<a href="../content-management/content-templates.md">詳細文件</a>。
+</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改進 {#jan-2023-improvements}
+### 功能改進 {#jan-2023-improvements}
 
 **歷程**
 

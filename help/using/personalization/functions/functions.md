@@ -6,10 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 2758
@@ -369,7 +367,7 @@ ht-degree: 2%
         <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果引數中的字串不是空的，此函式傳回true。</td>
     </tr>
     <tr>
-        <td><a href="string.md#join">加入</a></td><td>此函式使用分隔符號將陣列元素串連到單一字串中。</td>
+        <td><a href="string.md#join">連接</a></td><td>此函式使用分隔符號將陣列元素串連到單一字串中。</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">最後索引：</a></td><td>此函式傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。</td>

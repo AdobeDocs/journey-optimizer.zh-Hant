@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 新增個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立登陸頁面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 內容範本
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重複使用內容片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立動態內容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解決方案使用案例
 

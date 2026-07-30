@@ -10,19 +10,11 @@ level: Beginner
 keywords: 電子郵件、範本、設計
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 TQID: https://experienceleague.adobe.com/HP8iEU4nkKqCXEi-os2z67LaDMnofSjr4H-OFIWw9Cc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 292
@@ -53,9 +45,9 @@ ht-degree: 19%
 
 * **儲存的範本**。 您也可以使用自訂範本，執行以下動作之一：
 
-   * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#content-templates)
+  * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#content-templates)
 
-   * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#video-templates)
+  * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#video-templates)
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 

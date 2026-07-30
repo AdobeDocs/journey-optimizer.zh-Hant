@@ -25,7 +25,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 決策管理簡介
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 決策管理護欄與限制
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 產品建議庫使用者介面指南
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 建立和管理產品建議的重要步驟
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 善用自訂上傳客群，以便做決策
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 在電子郵件中使用個人化產品建議
 

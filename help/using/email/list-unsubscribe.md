@@ -10,22 +10,11 @@ level: Experienced
 keywords: 設定、電子郵件、設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 TQID: https://experienceleague.adobe.com/WyaT1gRFAeGUCWn74PC3qyRpLn3hHMOniVbzifStsxA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1916
@@ -106,11 +95,11 @@ ht-degree: 100%
 
 * 如果您不想使用預設產生的一鍵取消訂閱 URL，可以取消核取該功能。
 
-   * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
+  * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 如果您未在訊息內容加入一鍵選擇退出連結，且管道設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 取消勾選，則沒有 URL 會傳遞至「取消清單訂閱」標題的電子郵件標頭。
+  * 如果您未在訊息內容加入一鍵選擇退出連結，且管道設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 取消勾選，則沒有 URL 會傳遞至「取消清單訂閱」標題的電子郵件標頭。
 
   >[!NOTE]
   >
@@ -280,13 +269,13 @@ GET 呼叫分述如下。
 
 * **emailParamsSub**：從在 Mailto 地址收到的電子郵件主旨擷取的字串。
 
-   * 範例：*unsubscribev1.abc*
+  * 範例：*unsubscribev1.abc*
 
-   * 剖析值：*v1.abc*
+  * 剖析值：*v1.abc*
 
 * **emailParamsBody**：從電子郵件正文 (如果存在) 擷取的字串，格式為 *unsubscribev1.xyz*。
 
-   * 剖析值：*v1.xyz*
+  * 剖析值：*v1.xyz*
 
 API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 

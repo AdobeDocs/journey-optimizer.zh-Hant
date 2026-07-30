@@ -10,26 +10,15 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、協助工具
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -77,8 +66,8 @@ ht-degree: 1%
 
 **色彩對比**
 
-* 維持文字與背景之間的對比率至少為4.5:1。
-* 對於大型文字（≥24px或粗體18px），請確定至少3:1對比度。
+* 文字和背景之間的對比率至少維持在4.5:1。
+* 對於大型文字（≥24px或粗體18px），請確定至少3:1的對比。
 * 避免白色背景上的淺灰色或淡色文字。
 * 請勿僅仰賴顏色來傳達意義，而是要使用底線、圖示等。
 
@@ -354,40 +343,40 @@ ht-degree: 1%
 
 * 透過鍵盤聚焦
 
-   * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
+  * 確認所有互動式元素（例如按鈕、核取方塊、連結）皆有`tabindex="0"`，使其以自然索引標籤順序包含。
 
-   * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
+  * 允許使用Tab鍵和方向鍵(↑ ↓ ← →)導覽，這應該會明顯反白標示重點元素。
 
 * 自訂焦點樣式
 
-   * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
+  * 套用清晰且可區分的樣式，以聚焦於可操作的元素：
 
-     +++範例(CSS)
+    +++範例(CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
+  * 確保焦點指標符合WCAG 2.2焦點外觀標準，包括：
 
-      * 最小區域：2個CSS畫素粗輪廓。
+    * 最小區域：2個CSS畫素粗輪廓。
 
-      * 對比率：焦點狀態和非焦點狀態之間的對比≥3:1。
+    * 對比率：焦點狀態與未焦點狀態之間的對比。
 
 * 鍵盤啟動支援
 
-   * 確認核取方塊和按鈕會回應Enter和Space鍵。
+  * 確認核取方塊和按鈕會回應Enter和Space鍵。
 
-   * 僅使用鍵盤驗證互動：
+  * 僅使用鍵盤驗證互動：
 
-      * Enter或Space應該切換核取方塊。
+    * Enter或Space應該切換核取方塊。
 
-      * 輸入或空格應該會觸發按鈕。
+    * 輸入或空格應該會觸發按鈕。

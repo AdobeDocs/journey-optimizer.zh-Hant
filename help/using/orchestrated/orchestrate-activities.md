@@ -6,12 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer建立協調的行銷活�
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 981
@@ -109,9 +106,9 @@ ht-degree: 45%
 * **[!UICONTROL 分支]**&#x200B;活動將協調的行銷活動分為三個路徑。
 * **[!UICONTROL 建立客群]**&#x200B;活動以三組客戶為目標：
 
-   * 擁有電子郵件的客戶，
-   * 已購買至少美金 100 元的客戶，
-   * 忠誠度點數少於 50 的客戶。
+  * 擁有電子郵件的客戶，
+  * 已購買至少美金 100 元的客戶，
+  * 忠誠度點數少於 50 的客戶。
 
 * **[!UICONTROL 合併]**&#x200B;活動群組將擁有電子郵件的客戶與已購買至少美金 100 元的客戶合併，
 * **[!UICONTROL 合併]**&#x200B;活動會排除忠誠度低於 50 點的客戶，

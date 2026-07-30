@@ -6,17 +6,10 @@ description: 瞭解協調的行銷活動護欄和限制
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 763
@@ -50,7 +43,7 @@ ht-degree: 2%
 
 * **每個結構描述的屬性** — 每個結構描述的屬性平均數目不應超過50個資料行，以維持管理性和效能。
 
-* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **設定檔啟用** — 無法為Adobe Experience Platform設定檔啟用關聯式結構描述。 Adobe Experience Platform設定檔僅支援標準XDM結構描述。 關聯式結構描述可以針對協調的行銷活動或動作行銷活動啟用。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### 資料擷取 {#data-ingestion}
 
@@ -58,9 +51,9 @@ ht-degree: 2%
 
 * **變更資料擷取來源** — 所有擷取都必須透過變更資料擷取來源進行：
 
-   * **檔案型來源** - `_change_request_type`欄位為必填。 支援的值是`u` （更新插入）或`d` （刪除）。 這些值必須為小寫 `u` 和 `d`，而非大寫 `U` 和 `D`。
+  * **檔案型來源** - `_change_request_type`欄位為必填。 支援的值是`u` （更新插入）或`d` （刪除）。 這些值必須為小寫 `u` 和 `d`，而非大寫 `U` 和 `D`。
 
-   * **雲端型來源** — 必須啟用資料表記錄。
+  * **雲端型來源** — 必須啟用資料表記錄。
 
 * **僅完整記錄** — 不允許部分記錄更新；每一列都必須提供為完整記錄。
 
@@ -68,11 +61,11 @@ ht-degree: 2%
 
 * **擷取延遲** — 關聯式存放區中的擷取延遲通常介於15分鐘到2小時之間，具體取決於：
 
-   * 資料量
+  * 資料量
 
-   * 系統並行
+  * 系統並行
 
-   * 操作型別（例如，插入比更新快）
+  * 操作型別（例如，插入比更新快）
 
 * **資料流到資料集關聯性** — 資料流到資料集關聯性是1-1。 在指定時間，只有一個來源可以饋送一個資料集。 若要切換來源，請刪除現有的資料流，並使用新來源建立新的資料流。
 
@@ -88,7 +81,7 @@ ht-degree: 2%
 
 * **複合主索引鍵** — 目前不支援具有檔案上傳流程的複合主索引鍵。
 
-## 客群
+## 對象
 
 * **僅限純量屬性** — 對象定義僅支援純量屬性；不允許對應和陣列。
 
@@ -104,7 +97,7 @@ ht-degree: 2%
 
 * **已儲存的對象**
 
-   * **儲存的對象是靜態的** — 儲存的對象活動是靜態的；它們反映行銷活動執行時可用的資料。
+  * **儲存的對象是靜態的** — 儲存的對象活動是靜態的；它們反映行銷活動執行時可用的資料。
 
 * **沒有附加至已儲存的對象** — 不支援附加至已儲存的對象活動。 任何修改都需要完全覆寫對象。
 

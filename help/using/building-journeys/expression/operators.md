@@ -10,12 +10,9 @@ keywords: 運算式，語法，運運算元，編輯器，歷程
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
@@ -48,12 +45,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 重要備註{#important-notes}
 
 * 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
-   * 下列範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0`將導致錯誤
+  * 下列範例是正確的： `3.0 * 4.0`
+  * `3 * 4.0`將導致錯誤
 
 * 使用`+`運運算元時，運算式必須封裝在括弧中。 範例：
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
 
 ## 邏輯  {#logical}
 
