@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 3%
 | `guid` | 字串 | 否（系統指派） | 系統指派的唯一識別碼；唯讀。 |
 | `name` | 字串 | **是** | 人類可讀的標籤，例如`"Starbucks POS Purchase"`。 |
 | `xdmSchemaId` | 字串 | **是** | 依XDM結構描述ID比對事件（請參閱比對的運作方式）。 |
-| `schema` | 字串 | 否 | [JSON結構描述](https://json-schema.org/) （以字串形式）來驗證傳入的事件。 |
+| `schema` | 字串 | **是** | [JSON結構描述](https://json-schema.org/) （以字串形式）來驗證傳入的事件。 |
 | `transformer` | 字串 | **是** | 將事件對應至忠誠度格式的JSONata運算式。 |
 
 ## 比對的運作方式
@@ -461,9 +461,9 @@ ht-degree: 3%
 
 +++
 
-## 新增JSON結構描述驗證（選用）
+## 新增JSON結構描述驗證
 
-如果您希望平台在嘗試轉換之前先驗證傳入事件的結構，請將`schema`欄位設定為編碼為JSON字串的[JSON結構描述](https://json-schema.org/draft-04)檔案。
+`schema`欄位為必填。 將其設定為編碼為JSON字串的[JSON結構描述](https://json-schema.org/draft-04)檔案，以在轉換執行之前驗證傳入事件的結構。
 
 結構描述驗證失敗的事件會在轉換執行前被拒絕。 錯誤回應包含特定驗證失敗，因此可輕鬆診斷格式錯誤的上游事件。
 
