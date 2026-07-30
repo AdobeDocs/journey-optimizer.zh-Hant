@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 6defc249832fd571706a3d20679deeb441309354
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB 用於個人化的 AI 助理]
+>CX Co-worker中的[!TAB Journey Optimizer技能]
 
-在個人化編輯器或電子郵件設計工具工具列 (**新增運算式**) 中使用 **AI 助理**，以純文字描述您想要的內容，並取得個人化運算式，或選取現有程式碼來加以說明、修正問題或建議改進。
+我們已新增CX Co-worker **中** Journey Optimizer技能的檔案頁面，包含&#x200B;**以歷程為中心**&#x200B;及&#x200B;**以忠誠度為中心**&#x200B;的技能，並附上指引和範例提示。
 
-[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
+[![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
 
 >[!TAB 反覆處理內容資料]
@@ -54,7 +54,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 ::::landing-cards-container
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -94,7 +94,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
