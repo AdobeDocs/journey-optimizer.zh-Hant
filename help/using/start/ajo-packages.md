@@ -11,7 +11,7 @@ keywords: journey optimizer，套件，授權，行銷活動，歷程，頻道�
 hide: true
 source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1995'
 ht-degree: 2%
 
 ---

@@ -13,8 +13,8 @@ subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 3%
+source-wordcount: 1575
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,8 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+></br>
 >
 >您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用AI小幫手。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
@@ -70,7 +71,7 @@ AI助理可以為您的電子郵件行銷活動、網頁體驗和登入頁面產
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
    * **[!UICONTROL 產生式模型]**：從現成可用的&#x200B;**[!UICONTROL Adobe模型]**、**[!UICONTROL 提供特殊功能的「合作夥伴」模型]**&#x200B;或&#x200B;**[!UICONTROL 根據您的品牌資產訓練的自訂模型]**&#x200B;中選取。 [了解更多](generative-models.md)。 若要使用夥伴模型(**Gemini**)，在產生的影像上使用&#x200B;**文字重疊**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
-   * **[!UICONTROL 外觀比例]**：這會決定資產的寬度和高度。 您可以選擇一般比率，例如16:9、4:3、3:2或1:1，或者您可以輸入自訂大小。
+   * **[!UICONTROL 外觀比例]**：這會決定資產的寬度和高度。 您可以選擇一般比例，例如16:9、4:3、3:2或1:1，或者輸入自訂大小。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
    * **[!UICONTROL 色彩和色調]**：影像中顏色的整體外觀及其傳達的氣氛或氣氛。

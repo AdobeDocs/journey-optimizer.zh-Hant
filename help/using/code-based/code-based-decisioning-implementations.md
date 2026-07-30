@@ -81,9 +81,9 @@ ht-degree: 8%
 
 * 針對請求中的&#x200B;**多個**&#x200B;決定原則/位置：
 
-   * 如果`allowDuplicateDecisionItems`設為`false`：回應中的所有專案都是唯一的（無論專案是用於哪個訊息/決定原則/位置）。
+  * 如果`allowDuplicateDecisionItems`設為`false`：回應中的所有專案都是唯一的（無論專案是用於哪個訊息/決定原則/位置）。
 
-   * 如果`allowDuplicateDecisionItems`設為`true` （預設）：回應中的專案可以重複（如果多個訊息/決定原則/位置符合該請求的相同決定專案的資格）。
+  * 如果`allowDuplicateDecisionItems`設為`true` （預設）：回應中的專案可以重複（如果多個訊息/決定原則/位置符合該請求的相同決定專案的資格）。
 
 ### 在請求中套用重複資料刪除 {#deduplication-in-request}
 
@@ -154,13 +154,13 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 * 如果`itemId-X`是同時符合決定原則與位置組合的單一決定專案：
 
-   * 如果`allowDuplicateDecisionItems`是`true`（預設）：在單一回應中傳回兩個主張的`itemId-X`。
+  * 如果`allowDuplicateDecisionItems`是`true`（預設）：在單一回應中傳回兩個主張的`itemId-X`。
 
-   * 如果`allowDuplicateDecisionItems`是`false`：
+  * 如果`allowDuplicateDecisionItems`是`false`：
 
-      * 第一個主張會傳回`itemId-X`。
+    * 第一個主張會傳回`itemId-X`。
 
-      * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
+    * 系統會為第二個主張傳遞遞補決定專案（也是唯一的）或空白決定專案。
 
 +++決定範例回應(`allowDuplicateDecisionItems` = `true`)
 

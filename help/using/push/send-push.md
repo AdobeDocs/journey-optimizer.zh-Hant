@@ -57,11 +57,11 @@ ht-degree: 10%
 
 * **錯誤**&#x200B;會阻止您測試或啟用歷程，只要這些錯誤尚未解決，例如：
 
-   * **[!UICONTROL 訊息的推播版本是空的]**：當缺少推播通知本文或標題時，會顯示此錯誤。 瞭解如何在[本節](create-push.md)中定義推播通知內容。
+  * **[!UICONTROL 訊息的推播版本是空的]**：當缺少推播通知本文或標題時，會顯示此錯誤。 瞭解如何在[本節](create-push.md)中定義推播通知內容。
 
-   * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
+  * **[!UICONTROL 設定不存在]**：如果您選取的設定在建立訊息之後被刪除，則無法使用訊息。 如果發生此錯誤，請在訊息&#x200B;**[!UICONTROL 屬性]**&#x200B;中選取其他設定。 在[本節](../configuration/channel-surfaces.md)中進一步瞭解通道設定。
 
-   * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不能超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 在[本節](../push/create-push.md)中瞭解如何管理推播通知內容。
+  * **[!UICONTROL 推播iOS/Android承載已超過4KB的限制]**：推播通知大小不能超過4KB。 為遵守此限制，請嘗試減少使用影像或表情符號。 在[本節](../push/create-push.md)中瞭解如何管理推播通知內容。
 
   ![](assets/push_alert.png)
 

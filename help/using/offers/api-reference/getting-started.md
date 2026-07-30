@@ -57,7 +57,7 @@ ht-degree: 100%
 本指南需要您深入了解下列 Adobe Experience Platform 元件：
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}：[!DNL Experience Platform] 據以組織客戶體驗資料的標準化框架。
-   * [結構構成的基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：了解 XDM 結構的基本建置區塊。
+  * [結構構成的基本概念](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant){target="_blank"}：了解 XDM 結構的基本建置區塊。
 * [決策管理](../../../using/offers/get-started/starting-offer-decisioning.md)：說明用於一般 Decisioning，特別是決策管理之概念和元件。 說明在客戶體驗期間用於選取最佳選項的策略。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=zh-Hant){target="_blank"}：PQL是一種在 XDM 執行個體上編寫運算式的强大語言。 PQL 用於定義決策規則。
 

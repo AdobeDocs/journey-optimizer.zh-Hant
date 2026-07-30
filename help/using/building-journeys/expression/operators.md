@@ -48,12 +48,12 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## 重要備註{#important-notes}
 
 * 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
-   * 下列範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0`將導致錯誤
+  * 下列範例是正確的： `3.0 * 4.0`
+  * `3 * 4.0`將導致錯誤
 
 * 使用`+`運運算元時，運算式必須封裝在括弧中。 範例：
-   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
-   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
+  * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))`正確
+  * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))`將導致錯誤
 
 ## 邏輯  {#logical}
 

@@ -503,7 +503,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
 
-## 加入 {#join}
+## 連接 {#join}
 
 `join`函式使用分隔符號將陣列中的元素串連到單一字串中。
 

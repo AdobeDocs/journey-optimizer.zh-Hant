@@ -25,7 +25,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: 749
 ht-degree: 6%
 
 ---
@@ -44,9 +44,9 @@ ht-degree: 6%
 
 * 執行[!DNL Batch Decisioning] API，其中包含兩個要求：
 
-   1. **批次POST要求**，用以啟動工作負載，以批次處理選件選擇。
+  1. **批次POST要求**，用以啟動工作負載，以批次處理選件選擇。
 
-   2. **批次GET要求**&#x200B;以取得批次工作負載狀態。
+  2. **批次GET要求**&#x200B;以取得批次工作負載狀態。
 
 * 將資料集匯出至訊息傳送供應商API。
 

@@ -21,7 +21,7 @@ subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 507
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 <li>
       <strong>處方識別碼：</strong> pres2<br>
       <strong>名稱：</strong>藥物B<br>
-      <strong>狀態：</strong>撤銷
+      <strong>狀態：</strong>回收
    </li>
 
 </ul>

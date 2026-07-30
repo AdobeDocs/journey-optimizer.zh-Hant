@@ -215,17 +215,17 @@ ht-degree: 17%
 
   在下列範例中，您想要限制結帳次數。
 
-   1. 從清單中選取&#x200B;**[!UICONTROL 自訂事件]**，並使用&#x200B;**[!UICONTROL 新增自訂事件]**&#x200B;按鈕。
+  1. 從清單中選取&#x200B;**[!UICONTROL 自訂事件]**，並使用&#x200B;**[!UICONTROL 新增自訂事件]**&#x200B;按鈕。
 
-   1. 使用&#x200B;**[!UICONTROL 建立自訂事件規則]**&#x200B;產生器來選取相關事件。 您可以選擇任何您想要限制選件的使用者動作。
+  1. 使用&#x200B;**[!UICONTROL 建立自訂事件規則]**&#x200B;產生器來選取相關事件。 您可以選擇任何您想要限制選件的使用者動作。
 
-      在這裡選擇&#x200B;**[!UICONTROL Commerce]** > **[!UICONTROL 結帳]** > **[!UICONTROL 值]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 存在]**。
+     在這裡選擇&#x200B;**[!UICONTROL Commerce]** > **[!UICONTROL 結帳]** > **[!UICONTROL 值]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 存在]**。
 
-      ![](../assets/offer-capping-custom-event.png)
+     ![](../assets/offer-capping-custom-event.png)
 
-   1. 建立規則後，它會顯示在&#x200B;**[!UICONTROL 自訂事件查詢]**&#x200B;欄位中。
+  1. 建立規則後，它會顯示在&#x200B;**[!UICONTROL 自訂事件查詢]**&#x200B;欄位中。
 
-      ![](../assets/offer-capping-custom-event-query.png)
+     ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >

@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的「設定內容卡管道」區段可讓您透過�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Mobile SDK 中設定內容卡支援
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的「設定內容卡管道」區段可讓您透過�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在 Web SDK 中設定內容卡支援
 

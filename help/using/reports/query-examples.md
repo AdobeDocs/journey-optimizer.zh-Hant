@@ -182,8 +182,8 @@ WHERE
 * **actionExecutionError** — 設為`businessRuleProfileDiscarded`時，表示設定檔已因商業規則而捨棄。 `eventType`欄位提供特定商業規則造成捨棄的其他詳細資料。
 
 * **eventType** — 指定造成捨棄的商業規則型別：
-   * `quietHours`：由於設定無訊息時數，已捨棄設定檔
-   * `forcedDiscardDueToQuietHours`：已強制捨棄設定檔，因為在無訊息小時內保留的設定檔已達到護欄限制
+  * `quietHours`：由於設定無訊息時數，已捨棄設定檔
+  * `forcedDiscardDueToQuietHours`：已強制捨棄設定檔，因為在無訊息小時內保留的設定檔已達到護欄限制
 
 +++
 

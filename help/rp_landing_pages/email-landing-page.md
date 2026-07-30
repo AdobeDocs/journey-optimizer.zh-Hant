@@ -32,7 +32,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立電子郵件
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 管理電子郵件選擇退出
 

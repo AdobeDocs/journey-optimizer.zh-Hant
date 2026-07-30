@@ -14,7 +14,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 1%
 >
 >兩個波段開始的最小間隔為&#x200B;**30分鐘**。
 
-系統接著會自動排程後續波段（例如，第一個波段在早上9:00，第二個波段在晚上11:00，第三個波段在晚上1:00，第四個波段在晚上3:00）。
+系統接著會自動排程後續波段（例如，第一個波段是在上午9:00、第二個是在上午11:00、第三個是在下午1:00、第四個是在下午3:00）。
 
 ### 自訂分佈 {#custom-distribution}
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 自訂排程 {#custom-schedule}
 
-選取&#x200B;**[!UICONTROL 排程每個波段]**&#x200B;以定義每個波段的特定開始日期和時間。 波段不需要平均間距（例如，上午9:00、上午11:00、下午5:00、下午8:30）。
+選取&#x200B;**[!UICONTROL 排程每個波段]**&#x200B;以定義每個波段的特定開始日期和時間。 波段不需要均勻隔開（例如，上午9:00、上午11:00、下午5:00、晚上8:30）。
 
 ![](assets/journey-wave-custom-schedule.png){width="70%"}
 

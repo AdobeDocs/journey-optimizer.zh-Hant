@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: 1284
 ht-degree: 26%
 
 ---
@@ -82,11 +82,11 @@ ht-degree: 26%
 
 * **[!UICONTROL 自訂]**：自訂訊息模式可讓您直接匯入及編輯其中一個預先設定的HTML訊息。
 
-   * 選取&#x200B;**[!UICONTROL 撰寫]**&#x200B;以輸入或貼上您的原始HTML程式碼。
+  * 選取&#x200B;**[!UICONTROL 撰寫]**&#x200B;以輸入或貼上您的原始HTML程式碼。
 
-     使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
+    使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
 
-   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
+  * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
 
 ## 內容索引標籤 {#content-tab}
 
@@ -126,7 +126,8 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_3.png)
 
-輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../integrations/assets.md)。您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
+輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。[進一步瞭解資產管理](../integrations/assets.md)。
+您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 

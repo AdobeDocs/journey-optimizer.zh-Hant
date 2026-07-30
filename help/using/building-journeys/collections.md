@@ -166,43 +166,43 @@ ht-degree: 2%
 
   範例：
 
-   1. 下列範例說明&#x200B;**不支援的使用案例**。
+  1. 下列範例說明&#x200B;**不支援的使用案例**。
 
-      在此範例中，產品陣列包含具有動態專案數的巢狀陣列(`locations`)，這在要求裝載中不受支援。
+     在此範例中，產品陣列包含具有動態專案數的巢狀陣列(`locations`)，這在要求裝載中不受支援。
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. 支援的範例，包含定義為常數的固定專案。
+  2. 支援的範例，包含定義為常數的固定專案。
 
-      在此情況下，巢狀位置會由固定欄位(`location1`， `location2`)取代，讓裝載在支援的設定中保持有效。
+     在此情況下，巢狀位置會由固定欄位(`location1`， `location2`)取代，讓裝載在支援的設定中保持有效。
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **測試集合**：若要使用測試模式測試集合，您必須使用程式碼檢視模式。 請注意，商業事件不支援程式碼檢視模式，因此在這種情況下，您只能傳送包含單一元素的集合。

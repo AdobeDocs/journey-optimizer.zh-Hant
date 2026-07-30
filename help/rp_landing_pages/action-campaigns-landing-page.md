@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立動作行銷活動
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定行銷活動動作
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 善用訊息最佳化
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 編輯行銷活動內容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的動作行銷活動可讓您及時傳送目標訊�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 定義行銷活動的客群
 

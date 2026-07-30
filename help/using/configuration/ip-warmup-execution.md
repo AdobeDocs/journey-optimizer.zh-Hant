@@ -231,11 +231,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果啟動階段的第一次執行：
 
-   * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+  * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
-   * 已使用下列命名慣例為已排除的網域群組（如果有的話）建立對象： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
+  * 已使用下列命名慣例為已排除的網域群組（如果有的話）建立對象： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
-   * 已針對已排除的歷程對象建立另一個對象（如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
+  * 已針對已排除的歷程對象建立另一個對象（如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`。
 
   >[!NOTE]
   >
@@ -245,23 +245,23 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 啟用任何回合時：
 
-   * 系統會使用下列命名慣例，為最後一個參與篩選器建立另一個對象： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
+  * 系統會使用下列命名慣例，為最後一個參與篩選器建立另一個對象： `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`。
 
-     >[!NOTE]
-     >
-     >將熱身計畫標示為完成之後，就會清除對象。
-     >
-     >在後續階段的最後一個參與篩選器沒有變更時，系統不會建立新的對象。
+    >[!NOTE]
+    >
+    >將熱身計畫標示為完成之後，就會清除對象。
+    >
+    >在後續階段的最後一個參與篩選器沒有變更時，系統不會建立新的對象。
 
-   * 已建立[對象構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}，對應促銷活動將傳送至的對象，其命名慣例如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 已建立[對象構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=zh-Hant){target="_blank"}，對應促銷活動將傳送至的對象，其命名慣例如下： `<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
-     >[!NOTE]
-     >
-     >每次執行都會建立新的對象構成。 由於限製為10個，同時使用已發佈對象構成來執行多個行銷活動、歷程和IP熱身計畫的使用者必須提前計畫，以保持在此限制內進行平行操作。
-     >
-     >當啟動下一個疊代時，會清除對象構成（以及因此產生的輸出對象）。
+    >[!NOTE]
+    >
+    >每次執行都會建立新的對象構成。 由於限製為10個，同時使用已發佈對象構成來執行多個行銷活動、歷程和IP熱身計畫的使用者必須提前計畫，以保持在此限制內進行平行操作。
+    >
+    >當啟動下一個疊代時，會清除對象構成（以及因此產生的輸出對象）。
 
-   * 已使用下列命名慣例建立輸出對象： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
+  * 已使用下列命名慣例建立輸出對象： `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`。
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

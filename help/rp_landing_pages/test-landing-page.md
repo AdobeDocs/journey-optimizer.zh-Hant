@@ -11,7 +11,7 @@ redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2281'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 個人化遊樂場
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 內容實驗和 A/B 測試
 
@@ -313,7 +313,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>傳送多管道訊息</strong></a>
 </div>
 <p>
-測試結合讀取客群、回應事件和電子郵件/推播訊息的歷程。 驗證從客群目標定位到訊息傳送的整個流程。 專注於多管道協調、回應事件、端到端流程驗證和測試/發佈步驟。</p>
+測試結合讀取客群、反應事件和電子郵件/推播訊息的歷程。驗證從客群目標定位到訊息傳送的整個流程。專注於多管道協調、反應事件、端到端流程驗證和測試/發佈步驟。
+</p>
 </td>
 <td>
 <a href="../using/building-journeys/message-to-subscribers-uc.md">
@@ -323,7 +324,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>傳送訊息給訂閱者</strong></a>
 </div>
 <p>
-使用動態電子郵件位址測試定位訂閱清單的歷程。 驗證個人化運算式以找出正確的訂閱者目標。 著重於個人化運算式、動態定址和訂閱清單目標定位。</p>
+使用動態電子郵件定址測試以訂閱清單為目標的歷程。驗證個人化運算式以找出正確的訂閱者目標。著重於個人化運算式、動態定址和訂閱清單目標定位。
+</p>
 </td>
 <td>
 <a href="../using/building-journeys/weekday-email-uc.md">
@@ -333,7 +335,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>傳送時效性訊息</strong></a>
 </div>
 <p>
-使用以時間為基礎的條件測試歷程，以確保訊息在特定日期傳送。 驗證等待活動和排程邏輯。 著重於以時間為基礎的條件、等待活動和排程驗證。</p>
+使用以時間為基礎的條件測試歷程，以確保訊息在特定日期傳送。驗證等待活動和排程邏輯。著重於以時間為基礎的條件、等待活動和排程驗證。
+</p>
 </td>
 </tr></table>
 
@@ -346,7 +349,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>探索更多歷程使用案例</strong></a>
 </div>
 <p>
-存取涵蓋體驗事件、多管道傳訊和外部系統整合的全方位實用範例集合。 探索各種案例、進階模式和整合測試方法。</p>
+存取涵蓋體驗事件、多管道傳訊和外部系統整合的全方位實用範例集合。探索多個案例、進階模式和整合測試方法。
+</p>
 </td>
 </tr></table>
 
@@ -449,7 +453,9 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 問：歷程的測試模式與試運行之間有何差異？
 
-**測試模式：**&#x200B;透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。 需要草稿歷程 + 命名空間。**試運行：**&#x200B;追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 不傳送任何訊息，不執行任何動作。**搭配使用：**&#x200B;測試訊息的測試模式 + 驗證邏輯的試運行 - 完整的涵蓋範圍。
+**測試模式：**透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。需要草稿歷程 + 命名空間。
+**試運行：**追蹤執行路徑而無需傳送任何內容。適用於任何歷程狀態。未傳送任何訊息，未執行任何動作。
+**搭配使用：**&#x200B;訊息測試的測試模式 + 邏輯驗證試運行 - 完整的涵蓋範圍。
 
 ### 問：我可以在生產/即時狀態中測試歷程嗎？
 

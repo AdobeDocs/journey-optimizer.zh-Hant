@@ -96,23 +96,23 @@ ht-degree: 4%
 
 * iphone裝置規則：
 
-   * 規則名稱： 「Edge內容規則 — iphone」
-   * 設定： deviceType = &#39;iphone&#39;
-   * PQL語法：
+  * 規則名稱： 「Edge內容規則 — iphone」
+  * 設定： deviceType = &#39;iphone&#39;
+  * PQL語法：
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * ipad裝置規則：
 
-   * 規則名稱： 「Edge內容規則 — ipad」
-   * 設定： deviceType = &#39;ipad&#39;
-   * PQL語法
+  * 規則名稱： 「Edge內容規則 — ipad」
+  * 設定： deviceType = &#39;ipad&#39;
+  * PQL語法
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## 建立優惠 {#offers}
 
@@ -120,13 +120,13 @@ ht-degree: 4%
 
 * iPhone使用者適用的選件：
 
-   * 選件名稱： 「Edge內容 — iPhone選件內容」
-   * 相關規則：「Edge內容規則 — iphone」
+  * 選件名稱： 「Edge內容 — iPhone選件內容」
+  * 相關規則：「Edge內容規則 — iphone」
 
 * iPad使用者適用的選件：
 
-   * 選件名稱： 「Edge內容 — iPad選件內容」
-   * 相關規則：「Edge內容規則 — ipad」
+  * 選件名稱： 「Edge內容 — iPad選件內容」
+  * 相關規則：「Edge內容規則 — ipad」
 
 此外，建立遞補優惠（此處為「內容遞補內容」），以在不符合特定裝置條件時顯示。
 

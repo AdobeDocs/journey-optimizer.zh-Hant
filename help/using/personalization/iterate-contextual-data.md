@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3893
+source-wordcount: 3887
 ht-degree: 1%
 
 ---
@@ -621,8 +621,8 @@ serializeList(
 * `currentEventField`：代表事件陣列中的每個專案，因為您會在其中重複執行
 * `.SKU`：專案清單以僅包含SKU值
 * `serializeList(list, delimiter, addQuotes)`：將清單加入字串
-   * `","`：使用逗號做為分隔符號
-   * `true`：在每個字串元素周圍加上引號
+  * `","`：使用逗號做為分隔符號
+  * `true`：在每個字串元素周圍加上引號
 * 結果： `"SKU-1,SKU-3"` （適用於查詢引數）
 
 進一步瞭解：

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 2889
-ht-degree: 19%
+source-wordcount: 2970
+ht-degree: 18%
 
 ---
 
@@ -211,6 +211,10 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 * **歷程模擬中的外部對象** — 歷程模擬現在支援外部對象。 模擬以CSV或同盟對象構成對象為目標的歷程時，您可以直接透過UI表單或JSON匯入，從這些對象中模擬擴充屬性。 UI只會動態顯示歷程邏輯中使用的特定擴充屬性，以在決策分支和個人化規則上線之前進行精確驗證。 [了解更多](../building-journeys/simulate-journey.md)
 
   推出日期： 2026年7月29日
+
+* **慢速自訂動作端點的斷路器保護** — 對於透過慢速自訂動作服務路由的端點，如果120秒觀察時段內至少有200個呼叫，則Journey Optimizer現在會在120秒時段內超過20%的呼叫超過10秒時，暫時將所有呼叫限制在5分鐘以內。 這有助於防止超載已經很慢的端點。 [了解更多](../configuration/external-systems.md#response-time)
+
+  推出日期：2026年7月29日。 這項功能正在各個地區陸續推出。
 
 ### 協調的行銷活動 {#july-26-oc}
 

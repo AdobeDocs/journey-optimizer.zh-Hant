@@ -50,7 +50,7 @@ WhatsApp 訊息快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 預覽、驗證和傳送 WhatsApp 訊息
 

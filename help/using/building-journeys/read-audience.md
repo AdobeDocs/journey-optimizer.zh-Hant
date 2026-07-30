@@ -432,9 +432,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * **驗證合併原則**：確定為對象設定的合併原則符合合併不同來源設定檔資料的預期行為。 深入瞭解 [!DNL Adobe Experience Platform][&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=zh-Hant){target="_blank"}中的合併原則。
 
 * **檢閱區段定義**：確認區段定義已正確設定，並包含所有預期的資格條件。 深入瞭解[建立對象](../audience/creating-a-segment-definition.md)。 請特別注意：
-   * 可能根據事件時間戳記排除設定檔的時間型條件
-   * 取決於最近更新資料的屬性資格
-   * 串流與批次評估方法
+  * 可能根據事件時間戳記排除設定檔的時間型條件
+  * 取決於最近更新資料的屬性資格
+  * 串流與批次評估方法
 
 * **驗證名稱空間設定**：確定&#x200B;**讀取對象**&#x200B;活動中選取的名稱空間符合對象中設定檔使用的主要身分。 沒有所選名稱空間的設定檔將不會進入歷程。 深入瞭解[識別名稱空間](../event/about-creating.md#select-the-namespace)。
 

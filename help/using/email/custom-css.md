@@ -270,16 +270,16 @@ body {
 
 * 確保您的CSS不會被其他CSS規則覆寫，包括任何套用至您內容的[主題](apply-email-themes.md)。
 
-   * 使用您的瀏覽器開發人員工具來檢查內容，並確認您的CSS是否鎖定正確的選取器。
+  * 使用您的瀏覽器開發人員工具來檢查內容，並確認您的CSS是否鎖定正確的選取器。
 
-   * 請考慮將`!important`加入宣告中，以確保它們優先。
+  * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-     +++ 例如:
+    +++ 例如:
 
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
 
-     +++
+    +++

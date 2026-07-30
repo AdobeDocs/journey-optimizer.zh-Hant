@@ -53,9 +53,9 @@ ht-degree: 19%
 
 * **儲存的範本**。 您也可以使用自訂範本，執行以下動作之一：
 
-   * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#content-templates)
+  * 使用&#x200B;**[!UICONTROL 內容範本]**&#x200B;功能表從頭建立。 [了解更多](../content-management/content-templates.md#content-templates)
 
-   * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#video-templates)
+  * 使用&#x200B;**[!UICONTROL 另存為內容範本]**&#x200B;選項，從歷程或行銷活動中的電子郵件儲存。 [了解更多](../content-management/content-templates.md#video-templates)
 
 若要使用其中一個範例或儲存的範本開始建立您的內容，請遵循下列步驟。
 

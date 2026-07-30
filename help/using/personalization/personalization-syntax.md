@@ -163,13 +163,13 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++範例參考
 
-   * `{{profile.person.name.fullName}}`
-   * `{{profile.person.name.firstName}}`
-   * `{{profile.person.gender}}`
-   * `{{profile.personalEmail.address}}`
-   * `{{profile.mobilePhone.number}}`
-   * `{{profile.homeAddress.city}}`
-   * `{{profile.faxPhone.number}}`
+  * `{{profile.person.name.fullName}}`
+  * `{{profile.person.name.firstName}}`
+  * `{{profile.person.gender}}`
+  * `{{profile.personalEmail.address}}`
+  * `{{profile.mobilePhone.number}}`
+  * `{{profile.homeAddress.city}}`
+  * `{{profile.faxPhone.number}}`
 
   +++
 
@@ -187,10 +187,10 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   其中：
 
-   * `offers`會識別屬於優惠方案名稱空間的路徑運算式
-   * `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
-   * `Placement Id`和`Activity Id`是位置與活動識別碼
-   * `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
+  * `offers`會識別屬於優惠方案名稱空間的路徑運算式
+  * `Type`決定優惠方案宣告的型別。 可能的值為： `image`、`html`和`text`
+  * `Placement Id`和`Activity Id`是位置與活動識別碼
+  * `Attributes`是優惠方案特定屬性，其取決於優惠方案型別。 範例： `deliveryUrl`影像
 
   如需有關Decisions API和優惠宣告的詳細資訊，請參閱[此頁面](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -198,21 +198,21 @@ PQL是強型別。 比較或傳遞值時，兩邊的型別必須相同。 常見
 
   +++範例參考
 
-   * 影像的託管位置：
+  * 影像的託管位置：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-   * 按一下影像時的目標URL：
+  * 按一下影像時的目標URL：
 
-     `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-   * 來自決策引擎的優惠方案文字內容：
+  * 來自決策引擎的優惠方案文字內容：
 
-     `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-   * 來自決策引擎之優惠方案的HTML內容：
+  * 來自決策引擎之優惠方案的HTML內容：
 
-     `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
   +++
 

@@ -13,7 +13,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10209
+source-wordcount: 10210
 ht-degree: 5%
 
 ---
@@ -2039,7 +2039,7 @@ Bazaarvoice提供評等、評論和UGC API。
 | 參數 | 名稱 | 類型 | 值 | 強制 |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | 常數 | 5.4 | 是（開啟） |
-| `filter` | `filter` | 變數 | 識別碼:47950830 | 否（關閉） |
+| `filter` | `filter` | 變數 | Id：47950830 | 否（關閉） |
 | `stats` | `stats` | 變數 | 全部 | 否（關閉） |
 
 +++

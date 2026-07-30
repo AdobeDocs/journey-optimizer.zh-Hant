@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 實施方法範例
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 程式碼型體驗實作中的決策
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立程式碼型體驗設定
 

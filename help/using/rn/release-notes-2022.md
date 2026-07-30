@@ -34,7 +34,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
-source-wordcount: 3645
+source-wordcount: 3603
 ht-degree: 100%
 
 ---
@@ -162,13 +162,14 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>自動同意實作（同意政策）</strong><br/></th>
+<th><strong>自動同意實行 (同意政策)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。<p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
+<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷原則，以尊重客戶的同意偏好設定。同意原則在 Adobe Experience Platform 中定義。在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+<p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
 <p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
 </td>
 </tr>
@@ -792,8 +793,8 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **報告**
 
 * 現在可以根據狀態篩選傳遞：
-   * 您現在可以從「訊息執行」清單排除傳遞清單中的校樣。
-   * 您可以選擇從即時/全域報告排除測試事件。
+  * 您現在可以從「訊息執行」清單排除傳遞清單中的校樣。
+  * 您可以選擇從即時/全域報告排除測試事件。
 
 * 您現在可以存取有關最佳化傳送時間資料的報告：即時訊息的人數，以及經過 1 小時最佳化、2 小時最佳化等訊息的人數。
 
@@ -839,7 +840,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 改進
+### 功能改進
 
 **歷程**
 

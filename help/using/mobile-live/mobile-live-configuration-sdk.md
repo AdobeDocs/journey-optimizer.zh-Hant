@@ -72,9 +72,9 @@ Adobe Experience Platform Mobile SDK為Apple的Live活動提供內建支援。 �
 **必要條件：**
 
 * **iOS：**
-   * **iOS16.1或更新版本**：基本上線活動功能
-   * **iOS 17.2+**：推送至啟動支援
-   * **iOS 18+**：廣播頻道支援
+  * **iOS16.1或更新版本**：基本上線活動功能
+  * **iOS 17.2+**：推送至啟動支援
+  * **iOS 18+**：廣播頻道支援
 * **Xcode：** 14.0或更新版本
 * **Swift：** 5.7或更新版本
 * **相依性：** AEPCore、AEPMessaging、AEPMessagingLiveActivity、ActivityKit
@@ -99,8 +99,8 @@ import ActivityKit
 主要元件包括：
 
 * 包含Adobe Experience Platform特定資料的&#x200B;**`liveActivityData`** （必要）。
-   * 個別使用者：使用`LiveActivityData(liveActivityID: "unique-id")`
-   * 廣播：使用`LiveActivityData(channelID: "channel-id")`
+  * 個別使用者：使用`LiveActivityData(liveActivityID: "unique-id")`
+  * 廣播：使用`LiveActivityData(channelID: "channel-id")`
 
 * 靜態屬性、使用案例專屬的自訂屬性，例如`restaurantName`。
 

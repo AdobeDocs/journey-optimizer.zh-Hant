@@ -110,7 +110,7 @@ ht-degree: 20%
 1. **建立決定原則並將其內嵌至您的歷程或行銷活動** （程式碼型體驗、電子郵件、簡訊或推播）：決定原則會結合多個選取策略，以決定要顯示給目標對象的合格決定專案。
 
    ➡️ [瞭解如何使用決定原則](create-decision.md)
-➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。
+   ➡️若要透過程式碼型體驗通道成功傳遞優惠方案，請依照[本節](../code-based/code-based-implementation-samples.md)中的實作步驟操作。
 
 >[!NOTE]
 >

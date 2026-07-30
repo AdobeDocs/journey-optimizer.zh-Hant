@@ -369,7 +369,7 @@ ht-degree: 2%
         <td><a href="string.md#is-not-empty">不是空的</a></td><td>如果引數中的字串不是空的，此函式傳回true。</td>
     </tr>
     <tr>
-        <td><a href="string.md#join">加入</a></td><td>此函式使用分隔符號將陣列元素串連到單一字串中。</td>
+        <td><a href="string.md#join">連接</a></td><td>此函式使用分隔符號將陣列元素串連到單一字串中。</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">最後索引：</a></td><td>此函式傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。</td>

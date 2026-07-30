@@ -55,7 +55,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 </td>
 <td>
 <a href="send-line.md">
-<img alt="不頻繁" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-line.md"><strong>傳送 LINE 訊息</strong></a>
@@ -63,10 +63,10 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 <p></td>
 <td>
 <a href="line-configuration.md">
-<img alt="不頻繁" src="../assets/do-not-localize/inapp-config.jpg">
+<img alt="不常使用" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
-<a href="line-configuration.md"><strong>設定 LINE 管道</strong>
-
+<a href="line-configuration.md"><strong>設定 LINE 頻道</strong>
+</a>
 </div>
 </td>
 </tr></table>

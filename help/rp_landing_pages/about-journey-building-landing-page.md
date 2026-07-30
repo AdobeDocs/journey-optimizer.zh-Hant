@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 歷程活動簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 使用一般事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的活動是建構區塊，可讓您跨管道觸發�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定回應事件
 

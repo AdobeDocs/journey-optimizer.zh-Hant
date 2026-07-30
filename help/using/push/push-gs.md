@@ -78,16 +78,16 @@ ht-degree: 4%
 * **推播通知服務提供者**&#x200B;是從遠端伺服器傳送通知到行動應用程式的核心元件Web服務。
 
   [!DNL Adobe Journey Optimizer]同時支援Android和iOS平台，因此將與下列專案整合：
-   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 傳送通知給Android行動應用程式
-   * [Apple推播通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 傳送通知給iOS行動應用程式
+  * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) — 傳送通知給Android行動應用程式
+  * [Apple推播通知服務(APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) — 傳送通知給iOS行動應用程式
 
 * **Adobe Experience Platform Mobile SDK**，可透過Android與iOS相容的SDK，為您的行動裝置提供使用者端整合API。 SDK提供[!DNL Adobe Journey Optimizer]擴充功能，公開各種推送訊息專屬的API，並啟用資料流程，例如註冊推送代號或傳送推送追蹤事件或任何其他自訂體驗事件至Adobe Experience Platform。 SDK也提供多種其他擴充功能，可啟用其他[!DNL Adobe CX Enterprise]以及第三方合作夥伴功能。
 
   SDK整合也需要設定Adobe Experience Platform [資料收集](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant){target="_blank"}服務，例如：
 
-   * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
-   * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。
-   * 註冊行動應用程式套件組合識別碼和應用程式認證
+  * 建立資料串流，以設定資料據以流入Adobe Experience Platform的設定檔和體驗事件資料集
+  * 建立使用者端行動屬性並新增擴充功能。 SDK與這些擴充功能緊密整合，以提供順暢的資料收集體驗。
+  * 註冊行動應用程式套件組合識別碼和應用程式認證
 
 * **Adobe Experience Platform即時客戶設定檔**&#x200B;透過合併來自多個管道（包括Web、行動裝置、CRM和協力廠商）的資料，維護每個個別客戶的整體檢視。 設定檔可讓您將客戶資料合併成統一的檢視畫面，針對每個客戶互動提供可採取行動且附有時間戳記的說明。 特定應用程式使用者的推播權杖會針對使用者的設定檔儲存為記錄資料，而使用者對推播通知所做的互動則會追蹤為時間序列事件資料。 [進一步瞭解Adobe Experience Platform即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant){target="_blank"}。
 

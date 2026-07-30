@@ -84,9 +84,9 @@ Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受
 
 * **區段定義**：使用Adobe Experience Platform Segmentation Service建立新的對象定義。 對象是從區段定義產生，並會根據其評估型別在不同時間重新整理：
 
-   * 串流區段：隨著新資料流入，對象會即時更新，以確保根據使用者活動保持持續相關性。
-   * 批次細分：對象每24小時重新整理一次，以固定間隔擷取設定檔快照。 在歷程中使用時，新限定的區段成員要等到下次快照時才會出現。 [進一步瞭解時間](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
-   * Edge區段：對象會在邊緣即時評估，以便即時個人化。
+  * 串流區段：隨著新資料流入，對象會即時更新，以確保根據使用者活動保持持續相關性。
+  * 批次細分：對象每24小時重新整理一次，以固定間隔擷取設定檔快照。 在歷程中使用時，新限定的區段成員要等到下次快照時才會出現。 [進一步瞭解時間](../building-journeys/audience-qualification-events.md#timing-segment-membership)。
+  * Edge區段：對象會在邊緣即時評估，以便即時個人化。
 
   [瞭解如何建立區段定義](creating-a-segment-definition.md)
 

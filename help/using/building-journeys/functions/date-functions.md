@@ -21,7 +21,7 @@ topic_v2:
 subfeature_v2: []
 source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1384
+source-wordcount: 1391
 ht-degree: 7%
 
 ---
@@ -494,7 +494,7 @@ ht-degree: 7%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-傳回明天晚上8:XY，XY是目前時間評估的分鐘數。 如果評估發生在上午2:45，則傳回的時間將會是晚上8:45。
+傳回明天晚上8:XY，XY是目前時間評估的分鐘數。 如果評估在凌晨2:45進行，則傳回時間將會是晚上8:45。
 
 +++
 

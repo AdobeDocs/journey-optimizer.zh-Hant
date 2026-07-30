@@ -65,11 +65,11 @@ ht-degree: 7%
 
 * **[!UICONTROL 自訂]**：自訂訊息模式可讓您直接匯入及編輯其中一個預先設定的HTML訊息。
 
-   * 選取&#x200B;**[!UICONTROL 撰寫]**&#x200B;以輸入或貼上您的原始HTML程式碼。
+  * 選取&#x200B;**[!UICONTROL 撰寫]**&#x200B;以輸入或貼上您的原始HTML程式碼。
 
-     使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
+    使用左窗格以運用Journey Optimizer個人化功能。 如需詳細資訊，請參閱[本章節](../personalization/personalize.md)。
 
-   * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
+  * 選取&#x200B;**[!UICONTROL 匯入]**&#x200B;以匯入包含HTML內容的HTML或.zip檔案。
 
 ## 內容索引標籤 {#content-tab}
 

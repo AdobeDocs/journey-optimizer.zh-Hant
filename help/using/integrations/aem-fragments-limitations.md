@@ -31,34 +31,34 @@ ht-degree: 1%
 在[!DNL Journey Optimizer]中使用[!DNL Adobe Experience Manager]的內容片段時，請記住下列事項：
 
 * **內容片段型別**
-   * 支援簡單內容片段、巢狀內容片段和&#x200B;**內容片段變數**。 當您在[!DNL Journey Optimizer]中插入片段時，請選擇變數。 如果您未選取變數，則會使用&#x200B;**主要**&#x200B;變數（片段在[!DNL Adobe Experience Manager]中的主要內容）。
+  * 支援簡單內容片段、巢狀內容片段和&#x200B;**內容片段變數**。 當您在[!DNL Journey Optimizer]中插入片段時，請選擇變數。 如果您未選取變數，則會使用&#x200B;**主要**&#x200B;變數（片段在[!DNL Adobe Experience Manager]中的主要內容）。
 
 * **多語言內容**
-   * 必須在[!DNL Adobe Experience Manager]中編寫、標籤和發佈每個變數。 在[!DNL Journey Optimizer]中，選取符合每個訊息語言或地區設定的片段變數。
-   * 沒有自動的語言解析或變數之間的遞補。
+  * 必須在[!DNL Adobe Experience Manager]中編寫、標籤和發佈每個變數。 在[!DNL Journey Optimizer]中，選取符合每個訊息語言或地區設定的片段變數。
+  * 沒有自動的語言解析或變數之間的遞補。
 
 * **存放庫存取權**
-   * [!DNL Journey Optimizer]僅與[!DNL Adobe Experience Manager] **發佈**&#x200B;層（網站、內容片段）整合。 內容片段可透過公開、未驗證的端點使用。
-   * 存放庫選擇器中可能會顯示作者存放庫，但只有發佈至&#x200B;**發佈**&#x200B;的片段才能在[!DNL Journey Optimizer]中使用。
+  * [!DNL Journey Optimizer]僅與[!DNL Adobe Experience Manager] **發佈**&#x200B;層（網站、內容片段）整合。 內容片段可透過公開、未驗證的端點使用。
+  * 存放庫選擇器中可能會顯示作者存放庫，但只有發佈至&#x200B;**發佈**&#x200B;的片段才能在[!DNL Journey Optimizer]中使用。
 
 * **內容片段狀態**
-   * 片段可以顯示&#x200B;**[!UICONTROL 已發佈]**&#x200B;或&#x200B;**[!UICONTROL 已修改]**&#x200B;狀態；[!DNL Journey Optimizer]一律使用&#x200B;**最新發佈的版本**。
-   * 在[!DNL Adobe Experience Manager]中重新發佈片段之前，發佈後所做的變更不會反映在[!DNL Journey Optimizer]中。 這兩個產品之間沒有自動版本調解。
+  * 片段可以顯示&#x200B;**[!UICONTROL 已發佈]**&#x200B;或&#x200B;**[!UICONTROL 已修改]**&#x200B;狀態；[!DNL Journey Optimizer]一律使用&#x200B;**最新發佈的版本**。
+  * 在[!DNL Adobe Experience Manager]中重新發佈片段之前，發佈後所做的變更不會反映在[!DNL Journey Optimizer]中。 這兩個產品之間沒有自動版本調解。
 
 * **個人化**
-   * 支援：設定檔屬性、內容屬性、靜態字串和預先宣告的變數。
-   * 不支援：衍生或計算屬性。
+  * 支援：設定檔屬性、內容屬性、靜態字串和預先宣告的變數。
+  * 不支援：衍生或計算屬性。
 
 * **更新與版本設定**
-   * 更新需要從[!DNL Adobe Experience Manager]手動重新發佈。 沒有自動版本調解。
-   * 在[!DNL Adobe Experience Manager]中發佈或重新發佈內容片段時，[!DNL Journey Optimizer]會更新該片段，並重新整理&#x200B;**在作用中行銷活動或歷程中參考之該片段的所有變數**。
-   * [!DNL Adobe Experience Manager] [發佈動作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延遲。 完成時，[!DNL Journey Optimizer]會收到事件並重新整理內容。
-   * 成功更新後，單一歷程的變更通常會在約&#x200B;**5分鐘**&#x200B;內提供，批次使用案例的變更通常會在約&#x200B;**下一個批次**&#x200B;內提供。
+  * 更新需要從[!DNL Adobe Experience Manager]手動重新發佈。 沒有自動版本調解。
+  * 在[!DNL Adobe Experience Manager]中發佈或重新發佈內容片段時，[!DNL Journey Optimizer]會更新該片段，並重新整理&#x200B;**在作用中行銷活動或歷程中參考之該片段的所有變數**。
+  * [!DNL Adobe Experience Manager] [發佈動作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)可能延遲。 完成時，[!DNL Journey Optimizer]會收到事件並重新整理內容。
+  * 成功更新後，單一歷程的變更通常會在約&#x200B;**5分鐘**&#x200B;內提供，批次使用案例的變更通常會在約&#x200B;**下一個批次**&#x200B;內提供。
 
 * **快取和校樣**
-   * 片段首次新增至行銷活動或歷程時，[!DNL Journey Optimizer]會快取它。 如果您透過&#x200B;**[!UICONTROL 開啟AEM內容警告器]**&#x200B;選取已在其他地方使用的片段，則會從[!DNL Journey Optimizer]快取載入該片段。
-   * 當您在[!DNL Adobe Experience Manager]中重新發佈修改的片段後，[!DNL Journey Optimizer]會接聽該事件並更新快取。
-   * 校訂一律會反映&#x200B;**最近發佈的**&#x200B;版本；您無法鎖定歷史版本以進行校訂。
+  * 片段首次新增至行銷活動或歷程時，[!DNL Journey Optimizer]會快取它。 如果您透過&#x200B;**[!UICONTROL 開啟AEM內容警告器]**&#x200B;選取已在其他地方使用的片段，則會從[!DNL Journey Optimizer]快取載入該片段。
+  * 當您在[!DNL Adobe Experience Manager]中重新發佈修改的片段後，[!DNL Journey Optimizer]會接聽該事件並更新快取。
+  * 校訂一律會反映&#x200B;**最近發佈的**&#x200B;版本；您無法鎖定歷史版本以進行校訂。
 
 ## 疑難排解 {#troubleshooting}
 

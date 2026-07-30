@@ -173,20 +173,20 @@ ht-degree: 26%
 * 端點（`GET`或`POST`）上的HTTP要求方法
 * `headers`：必要時，在此呼叫中插入做為標題的機碼值組
 * `body`：說明方法為POST時呼叫的主體。 我們支援有限的正文結構，如bodyParams （索引鍵值配對）中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
-   * `form`：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
-   * `json`：表示內容型別將會是application/json （字元集UTF-8），而金鑰 — 值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
+  * `form`：表示內容型別將會是application/x-www-form-urlencoded （字元集UTF-8），而金鑰 — 值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+  * `json`：表示內容型別將會是application/json （字元集UTF-8），而金鑰 — 值配對將會序列化為JSON物件，如下所示： _{ &quot;key1&quot;： &quot;value1&quot;， &quot;key2&quot;： &quot;value2&quot;， ...}_
 
 ### 存取權杖插入動作之HTTP要求必須採用的方式定義{#custom-authentication-access-token}
 
 * **authorizationType**：定義如何將產生的存取權杖插入動作的HTTP呼叫。 可能的值包括：
 
-   * `bearer`：表示存取權杖必須插入到Authorization標頭中，例如： _Authorization： Bearer &lt;access token>_
-   * `header`：表示存取權杖必須插入為標頭，而標頭名稱是由屬性`tokenTarget`定義。 例如，如果`tokenTarget`是`myHeader`，則存取權杖將會插入為標題，如下所示： _myHeader： &lt;access token>_
-   * `queryParam`：表示存取權杖必須插入為queryParam，而查詢引數名稱會由屬性tokenTarget定義。 舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
+  * `bearer`：表示存取權杖必須插入到Authorization標頭中，例如： _Authorization： Bearer &lt;access token>_
+  * `header`：表示存取權杖必須插入為標頭，而標頭名稱是由屬性`tokenTarget`定義。 例如，如果`tokenTarget`是`myHeader`，則存取權杖將會插入為標題，如下所示： _myHeader： &lt;access token>_
+  * `queryParam`：表示存取權杖必須插入為queryParam，而查詢引數名稱會由屬性tokenTarget定義。 舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
 
 * **tokenInResponse**：指示如何從驗證呼叫擷取存取權杖。 此屬性可以是：
-   * `response`：指出HTTP回應是存取權杖
-   * JSON的選擇器（假設回應為JSON，我們不支援XML等其他格式）。 此選擇器的格式為 _json://&lt;path to the access token property>_。 舉例來說，若呼叫的回應是：_{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_ json: //access_token_
+  * `response`：指出HTTP回應是存取權杖
+  * JSON的選擇器（假設回應為JSON，我們不支援XML等其他格式）。 此選擇器的格式為 _json://&lt;path to the access token property>_。 舉例來說，若呼叫的回應是：_{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_ json: //access_token_
 
 此驗證的格式為：
 

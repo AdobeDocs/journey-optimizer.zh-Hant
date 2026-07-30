@@ -48,9 +48,9 @@ ht-degree: 0%
 
   在促銷活動畫布上從工作表中計算的屬性。 此資料夾有兩個子資料夾：
 
-   * **`<Targeting dimension>`** （例如，收件者或購買） — 與您在行銷活動中定位的維度相關的屬性。
+  * **`<Targeting dimension>`** （例如，收件者或購買） — 與您在行銷活動中定位的維度相關的屬性。
 
-   * **`Enrichment`** — 透過&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料（關聯式連結、收集的行、彙總）。 在1:N **[!UICONTROL 收集資料]**&#x200B;擴充後，您會同時取得編號行和集合陣列。 [瞭解如何使用擴充集合資料](#enrichment-collections)
+  * **`Enrichment`** — 透過&#x200B;**[!UICONTROL 擴充]**&#x200B;活動新增的資料（關聯式連結、收集的行、彙總）。 在1:N **[!UICONTROL 收集資料]**&#x200B;擴充後，您會同時取得編號行和集合陣列。 [瞭解如何使用擴充集合資料](#enrichment-collections)
 
 如需[!DNL Journey Optimizer]的個人化編輯器的詳細總覽，請參閱[開始使用個人化](../personalization/personalize.md)。
 

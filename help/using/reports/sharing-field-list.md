@@ -137,8 +137,8 @@ ht-degree: 8%
 
 * 對於在暫停的歷程中發生的捨棄：
 
-   * **PAUSED_JOURNEY_VERSION**：捨棄歷程進入點發生的專案
-   * **JOURNEY_IN_PAUSED_STATE**：捨棄設定檔在歷程中時發生的
+  * **PAUSED_JOURNEY_VERSION**：捨棄歷程進入點發生的專案
+  * **JOURNEY_IN_PAUSED_STATE**：捨棄設定檔在歷程中時發生的
 
   在[暫停歷程區段](../building-journeys/journey-pause.md#discards-troubleshoot)中進一步瞭解這些事件，以及如何疑難排解它們。
 

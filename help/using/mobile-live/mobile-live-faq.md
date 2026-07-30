@@ -28,7 +28,7 @@ topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 1881
+source-wordcount: 1851
 ht-degree: 1%
 
 ---
@@ -94,7 +94,8 @@ Apple將即時活動限製為&#x200B;**8小時的作用中更新**。 之後，�
 
 +++需要為「上線」活動建立個別的Widget擴充功能嗎？
 
-可以。 已上線的活動是透過WidgetKit顯示，因此您需要在Xcode專案中建立Widget擴充功能並實作`ActivityConfiguration`。[進一步瞭解Widget設定](mobile-live-configuration-sdk.md)
+是。已上線的活動是透過WidgetKit顯示，因此您需要在Xcode專案中建立Widget擴充功能並實作`ActivityConfiguration`。
+[進一步瞭解Widget設定](mobile-live-configuration-sdk.md)
 
 +++
 

@@ -99,9 +99,9 @@ ht-degree: 6%
 
    * 內容：請啟用我的環境以使用AA事件。
 
-      * 組織ID： &quot;XXX@AdobeOrg&quot;
+     * 組織ID： &quot;XXX@AdobeOrg&quot;
 
-      * 資料來源ID： &quot;ID： xxxxx&quot;
+     * 資料來源ID： &quot;ID： xxxxx&quot;
 
 1. 一旦您確認環境準備就緒，即可在您的歷程中使用Adobe Analytics資料。
 

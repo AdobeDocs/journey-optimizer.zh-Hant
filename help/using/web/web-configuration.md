@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: 955
 ht-degree: 12%
 
 ---
@@ -122,7 +122,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
   | 等於  | 網域的完全相符專案。  | |
   | 開始於  | 符合以輸入字串開頭的所有網域（包括子網域）。  | 例如：「開頭為：dev」 ->符合開頭為「dev」的所有網域和子網域，例如：dev.example.com、dev.products.example.com、developer.example.com  |
   | 結束於  | 比對以輸入字串結尾的所有網域（包括子網域）。  | 例如：「結尾為：example.com」 ->會比對所有結尾為「example.com」的網域和子網域，例如：stage.example.com、prod.example.com、myexample.com  |
-  | 萬用字元比對  | 「萬用字元符合」運運算元可讓使用者在字串中間定義萬用字元符合，例如&quot;dev.*.example.com&quot;。 驗證規則是當運運算元為「萬用字元比對」時，值必須包含且僅包含一個萬用字元（星號）。 | 例如：「萬用字元符合： dev.*.example.com」 ->符合網域，例如： dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
+  | 萬用字元比對  | 「萬用字元符合」運運算元可讓使用者在字串中間定義萬用字元符合，例如&quot;dev.*.example.com&quot;。驗證規則是當運運算元為「萬用字元比對」時，值必須包含且僅包含一個萬用字元（星號）。  | 例如：「萬用字元符合： dev.*.example.com」 ->符合網域，例如： dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com  |
   | 任何  | 符合所有網域 — 在跨網域測試特定路徑時很有用  |  |
 
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 在 Adobe Journey Optimizer 中設定產品建議
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立遞補產品建議
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立和管理產品建議集合
 

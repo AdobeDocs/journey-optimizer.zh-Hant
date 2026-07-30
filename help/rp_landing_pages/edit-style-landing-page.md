@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 自訂電子郵件樣式
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的電子郵件設計工具包括強大的樣式工具�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 調整垂直對齊方式與內距
 

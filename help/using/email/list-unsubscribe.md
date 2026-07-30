@@ -106,11 +106,11 @@ ht-degree: 100%
 
 * 如果您不想使用預設產生的一鍵取消訂閱 URL，可以取消核取該功能。
 
-   * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
+  * 在&#x200B;**[!UICONTROL 啟用取消清單訂閱]**&#x200B;選項處於開啟狀態且&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 功能處於取消勾選的情況下，如果您在使用此設定所建立的訊息中新增[一鍵選擇退出連結](../email/email-opt-out.md#one-click-opt-out)，則「取消清單訂閱」標頭會取得您在電子郵件內文插入的一鍵選擇退出連結，並將其用作一鍵取消訂閱 URL 值。
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * 如果您未在訊息內容加入一鍵選擇退出連結，且管道設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 取消勾選，則沒有 URL 會傳遞至「取消清單訂閱」標題的電子郵件標頭。
+  * 如果您未在訊息內容加入一鍵選擇退出連結，且管道設定中的預設&#x200B;**[!UICONTROL 一鍵取消訂閱 URL]** 取消勾選，則沒有 URL 會傳遞至「取消清單訂閱」標題的電子郵件標頭。
 
   >[!NOTE]
   >
@@ -280,13 +280,13 @@ GET 呼叫分述如下。
 
 * **emailParamsSub**：從在 Mailto 地址收到的電子郵件主旨擷取的字串。
 
-   * 範例：*unsubscribev1.abc*
+  * 範例：*unsubscribev1.abc*
 
-   * 剖析值：*v1.abc*
+  * 剖析值：*v1.abc*
 
 * **emailParamsBody**：從電子郵件正文 (如果存在) 擷取的字串，格式為 *unsubscribev1.xyz*。
 
-   * 剖析值：*v1.xyz*
+  * 剖析值：*v1.xyz*
 
 API範例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 

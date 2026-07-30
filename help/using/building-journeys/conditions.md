@@ -26,7 +26,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2629
+source-wordcount: 2631
 ht-degree: 11%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 11%
 >
 >* 時區不是條件所特有，而是在歷程屬性中的歷程層級定義。 [了解更多](../building-journeys/timezone-management.md)
 >
->* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是以小時設定，從00:00到12:00。
+>* 根據預設，**[!UICONTROL 時間條件]**&#x200B;是依小時設定，從00:00到12:00。
 
 ![具有小時範圍和星期幾選擇器的時間條件](assets/journey51.png)
 

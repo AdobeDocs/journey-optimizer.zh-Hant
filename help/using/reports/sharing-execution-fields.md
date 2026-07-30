@@ -183,12 +183,12 @@ actionExecOrigError的錯誤碼。
 值：
 
 * 內建
-   * ACS電子郵件
-   * ACS簡訊
-   * ACS推播
+  * ACS電子郵件
+  * ACS簡訊
+  * ACS推播
 * 客戶
-   * Epsilon
-   * ...
+  * Epsilon
+  * ...
 
 型別：字串
 

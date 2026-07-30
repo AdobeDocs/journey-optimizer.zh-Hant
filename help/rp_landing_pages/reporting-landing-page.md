@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的報告功能是將原始資料轉換為可操作的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 報告簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的報告功能是將原始資料轉換為可操作的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 即時報告
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的報告功能是將原始資料轉換為可操作的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 所有時間報告
 

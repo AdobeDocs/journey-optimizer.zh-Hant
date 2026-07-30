@@ -10,7 +10,7 @@ level: Beginner
 keywords: journey optimizer，使用案例，決定指南，哪些功能，開始使用，從業者目標，教學課程
 source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
 workflow-type: tm+mt
-source-wordcount: '3224'
+source-wordcount: '3186'
 ht-degree: 30%
 
 ---
@@ -187,7 +187,8 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 歡迎新客戶 {#flow-welcome}
 
-**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
+**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
 1. [建立您的第一個歷程](../building-journeys/journey-gs.md)，並將註冊事件當做專案。
@@ -198,7 +199,8 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 復原放棄的購物車 {#flow-cart}
 
-**您將建置：**&#x200B;自動復原流程，提醒客戶留下的專案。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**您將建置：**&#x200B;自動復原流程，提醒客戶留下的專案。
+**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
 1. [建置由放棄事件觸發的歷程](../building-journeys/journey-gs.md)。
@@ -209,7 +211,8 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 傳送異動訊息 {#flow-transactional}
 
-**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。**最佳對象：**&#x200B;行銷人員和開發人員· **功能：**&#x200B;由外部系統觸發的行銷活動
+**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。
+**最佳對象：**&#x200B;行銷人員和開發人員· **功能：**&#x200B;由外部系統觸發的行銷活動
 
 1. 檢閱由外部系統[&#128279;](../campaigns/api-triggered-campaigns.md)觸發的行銷活動如何運作，以及它們預期的裝載。
 1. 設計訊息範本，並[使用交易詳細資料進行個人化](../personalization/personalize.md)。
@@ -219,7 +222,8 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 透過內容測試來啟動行銷活動 {#flow-campaign}
 
-**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。**最適合：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
+**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
+**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
 1. 使用[內容產生](../content-management/gs-generative.md)來草稿主旨行並複製變化。
@@ -229,7 +233,8 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 根據客戶個人化優惠方案 {#flow-offers}
 
-**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;決策
+**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
+**最適合行銷人員：** · **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。
 1. 將決定新增至[歷程](../building-journeys/journey-gs.md)或行銷活動訊息。
@@ -311,7 +316,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!BEGINTABS]
 
->[!TAB 快速入門]
+>[!TAB 開始使用]
 
 * [Journey Optimizer簡介](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 核心概念與產品導覽。
 * [Journey Optimizer教學課程總覽](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 引導式影片的完整目錄。

@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2223
+source-wordcount: 2210
 ht-degree: 9%
 
 ---
@@ -178,34 +178,35 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
      ![](assets/add-app-config-ios.png)
 
-      1. 輸入行動應用程式&#x200B;**[!UICONTROL 應用程式識別碼]**。
+     1. 輸入行動應用程式&#x200B;**[!UICONTROL 應用程式識別碼]**。
 
-      1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
+     1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
 
-      1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
+     1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
 
-      1. 拖放您的.p8 Apple推播通知驗證金鑰檔案。 此金鑰可從&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面取得。
+     1. 拖放您的.p8 Apple推播通知驗證金鑰檔案。 此金鑰可從&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面取得。
 
-         >[!NOTE]
-         >
-         > 僅支援.p8 Apple推播通知金鑰。 如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。         >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
+        >[!NOTE]
+        >
+        > 僅支援.p8 Apple推播通知金鑰。如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
+        >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 
-      1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。 您可以在&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;索引標籤下找到它。
+     1. 提供&#x200B;**金鑰識別碼**。 這是在p8驗證金鑰建立期間指派的10字元字串。 您可以在&#x200B;**憑證**、**識別碼**&#x200B;和&#x200B;**設定檔**&#x200B;頁面中的&#x200B;**金鑰**&#x200B;索引標籤下找到它。
 
-      1. 提供&#x200B;**團隊識別碼**。 這是字串值，可在「成員資格」標籤下找到。
+     1. 提供&#x200B;**團隊識別碼**。 這是字串值，可在「成員資格」標籤下找到。
 
    * **對於 Android**
 
      ![](assets/add-app-config-android.png)
 
-      1. 提供&#x200B;**[!UICONTROL 應用程式ID]**，封裝名稱通常是`build.gradle`檔案中的應用程式ID。
+     1. 提供&#x200B;**[!UICONTROL 應用程式ID]**，封裝名稱通常是`build.gradle`檔案中的應用程式ID。
 
-      1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
+     1. 啟用&#x200B;**[!UICONTROL 套用至所有沙箱]**&#x200B;選項，讓這些推送認證可用於所有沙箱。 如果特定沙箱針對相同的平台和應用程式ID組有自己的認證，系統會優先採用這些沙箱專屬的認證。
 
-      1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
+     1. 已開啟&#x200B;**[!UICONTROL 手動輸入推播認證]**&#x200B;按鈕以新增您的認證。
 
-      1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
+     1. 拖放FCM推送認證。 如需有關如何取得推送認證的詳細資訊，請參閱[Google檔案](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}。
 
 <!--
     * **For Web**

@@ -35,8 +35,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+source-wordcount: 832
+ht-degree: 79%
 
 ---
 
@@ -80,7 +80,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 現代全管道協調與執行
 
-在單一版面上，協調並最佳化客戶歷程，以便達成1:1客戶參與度和行銷推廣的目標，在客戶生命週期期間，也能協助品牌提供更多價值。 在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
+在單一畫布上協調並最佳化客戶歷程，以實現1:1客戶參與和行銷拓展，以協助品牌在客戶生命週期中提供更多價值。 在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 智慧決策與個人化
 
