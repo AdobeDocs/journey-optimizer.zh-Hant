@@ -10,22 +10,14 @@ level: Experienced
 keywords: 許可權，高階，低階，設定檔， admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 1995
+source-wordcount: 1996
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ ht-degree: 0%
       * experiments.read
       * experiments.write
       * experiments.delete
-    -->
+-->
 
 +++
 
@@ -558,7 +550,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## AI協助資源 {#ai-permissions}
 
-* **[!DNL Generate content]**&#x200B;高階許可權可讓使用者存取Journey Optimizer中的AI助理。
+* **[!DNL Generate content]**&#x200B;高階許可權可讓使用者存取Journey Optimizer中的「產生內容」功能表。
 
   +++ 其中包含下列低階許可權：  
 
@@ -701,7 +693,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 * 瞭解高階與低階許可權的區別
 * 識別每個高階許可權所授予的低階許可權
 * 精確地設定歷程、行銷活動、決定管理、頻道設定和協調行銷活動的角色
-* 授予AI助理產生內容的存取權
+* 授與產生內容的內容存取權
 * 瞭解相較於「管理歷程」許可權，「發佈歷程」許可權所能提供的功能
 
 **字彙表：**

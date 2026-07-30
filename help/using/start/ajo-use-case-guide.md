@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，使用案例，決定指南，哪些功能，開始使用，從業者目標，教學課程
-source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '3186'
-ht-degree: 30%
+source-wordcount: '3183'
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!TIP]
 >
->不熟悉Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/zh-hant/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
+>不熟悉Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
 
 ## 為您的團隊設定Journey Optimizer {#setup-admin}
 
@@ -83,7 +83,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!BEGINSHADEBOX]
 
-**建置之前：**&#x200B;您需要(1) Adobe Experience Platform[&#128279;](../audience/about-audiences.md)中定義的對象來識別非作用中設定檔（例如60天內未購買或登入）、(2)重新參與管道（電子郵件、推播或簡訊）的決定，以及(3)隱藏規則或[頻率上限](../conflict-prioritization/channel-capping.md)，以避免連絡最近傳送的設定檔。 針對此情境使用&#x200B;**讀取對象**&#x200B;歷程專案（非事件）。
+**建置之前：**&#x200B;您需要(1) Adobe Experience Platform](../audience/about-audiences.md)中定義的[對象來識別非作用中設定檔（例如60天內未購買或登入）、(2)重新參與管道（電子郵件、推播或簡訊）的決定，以及(3)隱藏規則或[頻率上限](../conflict-prioritization/channel-capping.md)，以避免連絡最近傳送的設定檔。 針對此情境使用&#x200B;**讀取對象**&#x200B;歷程專案（非事件）。
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 | 我想…… | 建議的功能 | 在這裡開始 |
 | --- | --- | --- |
-| 啟動具有A/B測試的產品 | 內容實驗&#x200B;**(AI)** | [開始使用內容實驗](../content-management/experiment-accelerator-gs.md) · [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| 啟動具有A/B測試的產品 | 內容實驗&#x200B;**(AI)** | [開始使用內容實驗](../content-management/experiment-accelerator-gs.md) · [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客戶發生中斷或服務更新 | 已排程的行銷活動+對象 | [關於對象](../audience/about-audiences.md) |
 | 使用分支邏輯設計多步驟行銷活動 | 協調的行銷活動 | [開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md) |
 | 僅將目標定位為我上次執行行銷活動後變更的設定檔 | 協調的行銷活動 — 增量查詢 | [在協調的行銷活動中建置查詢](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -187,7 +187,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 歡迎新客戶 {#flow-welcome}
 
-**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
+**您將建置：**自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
 **最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
@@ -199,7 +199,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 復原放棄的購物車 {#flow-cart}
 
-**您將建置：**&#x200B;自動復原流程，提醒客戶留下的專案。
+**您將建置：**自動復原流程，提醒客戶留下的專案。
 **最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
@@ -211,10 +211,10 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 傳送異動訊息 {#flow-transactional}
 
-**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。
+**您將建置：**由外部系統觸發的隨選訂單、送貨或約會確認。
 **最佳對象：**&#x200B;行銷人員和開發人員· **功能：**&#x200B;由外部系統觸發的行銷活動
 
-1. 檢閱由外部系統[&#128279;](../campaigns/api-triggered-campaigns.md)觸發的行銷活動如何運作，以及它們預期的裝載。
+1. 檢閱由外部系統](../campaigns/api-triggered-campaigns.md)觸發的[行銷活動如何運作，以及它們預期的裝載。
 1. 設計訊息範本，並[使用交易詳細資料進行個人化](../personalization/personalize.md)。
 1. 請您的開發人員從您的訂單或履行系統呼叫行銷活動端點。
 
@@ -222,7 +222,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 透過內容測試來啟動行銷活動 {#flow-campaign}
 
-**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
+**您將建置：**排定的促銷活動，會自動挑選表現最佳的內容。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
@@ -233,7 +233,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 根據客戶個人化優惠方案 {#flow-offers}
 
-**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
+**您將建置：**顯示給每位客戶之單一最佳優惠的決定。
 **最適合行銷人員：** · **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。
@@ -248,7 +248,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 延遲出貨復原 {#scenario-delayed-shipment}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[統一輪廓 + 客群排除](../audience/get-started-profiles.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**[統一輪廓 + 客群排除](../audience/get-started-profiles.md)
 
 服裝商店通常會向上週購買過產品的所有客戶傳送購買後調查。 由於天氣惡劣，少數貨物出現延誤。 在發現有客戶尚未收到發貨後，服裝店可以將他們排除在定時傳送的客戶滿意度調查之外，而改為向他們傳送一封個人化電子郵件，對延誤表示歉意，並根據客戶過去的購買情況，為其提供產品建議和折扣代碼。
 
@@ -256,7 +256,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 即時店內參與 {#scenario-instore}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[地理柵欄觸發 + 推播](../push/get-started-push.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**[地理柵欄觸發 + 推播](../push/get-started-push.md)
 
 同一retailer可以傳送推播通知，告知符合客戶尺寸的毛衣有庫存，以此吸引進入商店停車場的忠實客戶。
 
@@ -264,7 +264,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 購物車放棄復原 {#scenario-cart}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[事件觸發的多步驟歷程](../building-journeys/journey-gs.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**[事件觸發的多步驟歷程](../building-journeys/journey-gs.md)
 
 當客戶將專案新增至線上購物車但未完成購買就離開時，Journey Optimizer會偵測事件並自動開始復原歷程。 客戶會收到個人化電子郵件，提醒他們留意剩下的項目。 如果他們沒有在 24 小時內點進，則會傳送後續推播通知，根據瀏覽歷史記錄和忠誠度狀態進行個人化。
 
@@ -272,7 +272,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 串流服務歡迎系列 {#scenario-welcome}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[事件觸發的歡迎歷程](../building-journeys/journey-gs.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**[事件觸發的歡迎歷程](../building-journeys/journey-gs.md)
 
 當客戶訂閱串流服務時，Journey Optimizer 會偵測註冊事件並立即開始多步驟歡迎歷程。 客戶會收到一封歡迎電子郵件，鼓勵他們第一次開啟應用程式。 如果 48 小時內未偵測到登入活動，則會傳送後續推播通知，其中包含根據註冊期間使用者宣告的興趣提供的個人化內容推薦，從第一天起，將被動訂閱者轉變為主動參與的使用者。
 
@@ -280,7 +280,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 含指示的預訂提醒 {#scenario-reservation}
 
-**角色：**&#x200B;行銷人員 | **核心功能：**&#x200B;[已排程 + 傳送位置感知訊息](../campaigns/get-started-with-campaigns.md)
+**角色：**&#x200B;行銷人員 | **核心功能：**[已排程 + 傳送位置感知訊息](../campaigns/get-started-with-campaigns.md)
 
 餐旅品牌會在預訂開始前的一小時及時給每位來賓傳送提醒。 通知包括來賓姓名、預訂時間以及基於地點的路線指示，系統會從客戶輪廓和預訂資料中自動組合這些資訊，行銷團隊無需手動操作。
 
@@ -288,7 +288,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 ### 主動式服務中斷通知 {#scenario-outage}
 
-**角色：**&#x200B;營運 | **核心功能：**&#x200B;[大規模自動選取客群](../audience/about-audiences.md)
+**角色：**&#x200B;營運 | **核心功能：**[大規模自動選取客群](../audience/about-audiences.md)
 
 當服務中斷時，Journey Optimizer 會根據其帳戶資料和使用模式，自動識別受影響的客戶。 這些客戶會收到主動通知，確認問題並概述後續步驟，將潛在的負面體驗轉變為大規模提供的透明度和信任時刻。
 
@@ -298,13 +298,13 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 **角色：**&#x200B;行銷人員 | **核心功能：** [內容產生+實驗](ai-features.md)
 
-規劃產品推出的零售品牌會使用 Journey Optimizer 的 AI 助理，在幾分鐘內產生多個主旨行與正文變化版本 (以自然語言提示及其上傳的品牌指導方針為指引)。 內建內容實驗會自動在初始客群範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
+規劃產品推出的零售品牌會使用Journey Optimizer的「產生內容」，在數分鐘內產生多個主旨行與正文變化，並以自然語言提示及其上傳的品牌指導方針為指引。 內建內容實驗會自動在初始客群範例中識別表現最佳的變體。 成功訊息隨後會部署到其餘的收件者，無需額外的撰稿工作即可最大化參與度。
 
 [探索智慧型功能](ai-features.md) | [瞭解內容實驗](../content-management/experiment-accelerator-gs.md)
 
 ### 透過行動應用程式維護警報 {#scenario-maintenance}
 
-**角色：**&#x200B;營運 | **核心功能：**&#x200B;[非行銷歷程協調](../building-journeys/journey-gs.md)
+**角色：**&#x200B;營運 | **核心功能：**[非行銷歷程協調](../building-journeys/journey-gs.md)
 
 非行銷人員 (例如營運團隊和客戶支援) 可以使用 [!DNL Adobe Journey Optimizer] 來管理營運通知或監視上線流程。 例如，在訪客下載行動應用程式作為其體驗一部分的遊樂園：維護人員可以使用 Journey Optimizer 通知公園訪客哪些遊樂設施因維護而關閉。
 
@@ -328,13 +328,13 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!TAB Personalization &amp; intelligence]
 
-* [用於產生內容的AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
+* [產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} — 產生復本、影像和變化。
 * [使用決策功能個人化Web優惠方案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — 根據客戶量身打造優惠方案。
 
 >[!TAB 報告與最佳化]
 
 * [使用即時報告監視和分析您的歷程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 在您的歷程執行時追蹤效能。
-* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
+* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
 
 >[!ENDTABS]
 

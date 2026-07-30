@@ -6,7 +6,7 @@ description: 最新資訊
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
@@ -32,11 +32,11 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 [![了解更多](../using/assets/do-not-localize/learn-more-button.svg)](../using/integrations/express.md)
 
 <!--
->[!TAB AI Assistant]
+>[!TAB Generate Content]
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+Immerse yourself in a hands-on experience with our [Generate Content](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 -->
 
 >[!TAB AEM 內容片段]
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 的最新發行說明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer 的舊版發行說明
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer 的舊版發行說明
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer 文件最新更新
 

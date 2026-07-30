@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 19%
+source-wordcount: 1313
+ht-degree: 18%
 
 ---
 
@@ -108,7 +101,7 @@ SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況�
 
 ## 其他資源 {#additional-resources}
 
-瀏覽下列主題，進一步瞭解Journey Optimizer中的行動裝置傳訊。 另請參閱行動學習中心中的[SMS/MMS/RCS總覽](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}，瞭解更多使用案例和最佳實務。
+瀏覽下列主題，進一步瞭解Journey Optimizer中的行動裝置傳訊。 另請參閱行動學習中心中的[SMS/MMS/RCS總覽](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"}，瞭解更多使用案例和最佳實務。
 
 +++設定指南
 
@@ -139,7 +132,7 @@ SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況�
 * [預覽、測試和傳送訊息](send-mobile-message.md)
 * [行動訊息中的Personalization](../personalization/personalize.md)
 * [動態內容](../personalization/get-started-dynamic-content.md)
-* [使用 AI 助理產生簡訊內容](../content-management/generative-text.md)
+* [使用AI產生簡訊內容](../content-management/generative-text.md)
 
 +++
 
@@ -216,7 +209,7 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3430375?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -226,6 +219,6 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 
 +++收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

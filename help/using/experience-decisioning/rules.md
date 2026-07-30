@@ -8,20 +8,13 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -145,7 +138,7 @@ ht-degree: 9%
    >
    >當規則引數包含未儲存在設定檔中的資料（例如內容資料）時，設定檔預估無法使用。
 
-1. 一旦您的規則準備就緒，請按一下[建立]。**&#x200B;** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
+1. 一旦您的規則準備就緒，請按一下[建立]。**** 建立的規則會顯示在清單中，而且會根據您建立的實體而可供使用：
 
    * 在&#x200B;**個決定專案**&#x200B;和&#x200B;**選取策略**&#x200B;中，用來控管將決定專案呈現給設定檔；
    * 或在內容最佳化或路徑最佳化中建置&#x200B;**目標**&#x200B;時。
@@ -226,7 +219,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->AI支援的規則最佳化依賴與&#x200B;**AI Assistant**&#x200B;相同的產生AI功能，並使用相同的存取控制。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取AI小幫手](../content-management/gs-generative.md#generative-access)。
+>AI支援的規則最佳化依賴與&#x200B;**產生內容**&#x200B;相同的產生AI功能，並使用相同的存取控制項。 必須授予使用者在&#x200B;**[!UICONTROL AI小幫手]**&#x200B;資源上的&#x200B;**[!UICONTROL 產生內容]**&#x200B;許可權。 如需詳細資訊，請參閱[存取產生內容](../content-management/gs-generative.md#generative-access)。
 
 ![](assets/decision-rules-ai.png)
 
@@ -246,4 +239,4 @@ ht-degree: 9%
 
 瞭解如何在Adobe Journey Optimizer中建立、複製和套用可重複使用的&#x200B;**目標定位規則**，以根據客戶屬性（例如地區、語言和行為）有效率地個人化行銷活動 — 在提高對象精確度的同時節省時間。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476138/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
