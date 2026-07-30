@@ -10,25 +10,15 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ ht-degree: 2%
    >
    >這些先決條件僅是應用程式內和內容卡管道的必要條件。
 
-   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 
@@ -143,6 +133,14 @@ ht-degree: 2%
 
    +++
 
+1. 一旦您建立了地區設定的條件，您就可以將其重複用於其他地區設定，而不是從頭開始重建。 按一下&#x200B;**[!UICONTROL 複製到……]**，然後選取一或多個要套用條件的目標地區設定。
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >複製條件會覆寫所選目標地區設定的任何現有條件。
+
 1. 拖放地區設定以重新排序，並在清單中管理其優先順序。
 
 1. 若要刪除地區設定，請按一下bin圖示。
@@ -152,6 +150,10 @@ ht-degree: 2%
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以建立您的&#x200B;**[!UICONTROL 語言設定]**。
 
 請注意，設定您的語言偏好設定後，您將無法再選擇編輯它們。
+
+若要新增地區設定或變更使用中&#x200B;**[!UICONTROL 語言設定]**&#x200B;的條件，請存取![](assets/do-not-localize/Smock_More_18_N.svg)並選取&#x200B;**[!UICONTROL 複製]**。 這會建立現有設定的復本，然後您可以編輯它。
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
@@ -196,7 +198,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-6.png)
 
-1. 若要停用您的多語言組態，請按一下[新增語言] **&#x200B;**，然後選取要保留為當地語言的語言。
+1. 若要停用您的多語言組態，請按一下[新增語言] ****，然後選取要保留為當地語言的語言。
 
    ![](assets/multilingual-campaign-7.png)
 
