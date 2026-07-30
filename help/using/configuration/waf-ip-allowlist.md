@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf，防火牆， ip，子網域，安全性，流量，傳入
-source-git-commit: 5efd5ef3add0f0f95ea7f104e39ed533407a88ca
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # 管理允許的IP {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="輸入所選子網域允許的IP"
+>abstract="選取委派的子網域，並輸入Web應用程式防火牆的公用輸出IP。 儲存後，[!DNL Journey Optimizer]將拒絕任何來自其中一個宣告IP的傳入要求，該要求不會傳送給子網域。 儲存之前，請務必向您的安全團隊確認確切的輸出IP。"
+
 >[!BEGINSHADEBOX]
 
 **在此頁面上：**&#x200B;直接在[!DNL Journey Optimizer]中新增和管理每個委派子網域的Web應用程式防火牆(WAF)輸出IP，以便只有路由通過防火牆的流量才能連線到您的[!DNL Journey Optimizer]託管連結。
 
 >[!ENDSHADEBOX]
-
 
 具有嚴格網路安全性要求的組織（例如金融部門的組織）可以強制要求對[!DNL Adobe Journey Optimizer]所託管連結的所有要求都必須通過客戶管理的&#x200B;**Web應用程式防火牆** (WAF)，才能連線到Adobe網路。 任何繞過防火牆的請求都必須被拒絕。
 
@@ -72,9 +76,9 @@ ht-degree: 0%
 
 若要存取您已允許Web應用程式防火牆IP的子網域清單，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 一般設定]**，然後選取&#x200B;**[!UICONTROL 允許清單 — IP]**。
 
-![WAF IP允許清單詳細目錄](assets/waf-ip-allowlist.png){width="90%"}
+![IP允許清單詳細目錄](assets/waf-ip-allowlist.png){width="90%"}
 
-詳細目錄頁面會列出所有管道型別（電子郵件、登陸頁面、簡訊、網頁）中至少允許一個WAF IP的所有子網域。 在[本節](about-subdomain-delegation.md)中進一步瞭解子網域。
+詳細目錄頁面會列出所有管道型別（電子郵件、登陸頁面、簡訊、網頁）中至少允許一個IP的所有子網域。 在[本節](about-subdomain-delegation.md)中進一步瞭解子網域。
 
 此清單會顯示每個子網域允許的IP數量，以及上次修改的作者。
 
@@ -82,12 +86,7 @@ ht-degree: 0%
 
 ## 將IP新增至允許清單 {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="輸入所選子網域的WAF允許IP"
->abstract="選取委派的子網域，並輸入Web應用程式防火牆的公用輸出IP。 儲存後，[!DNL Journey Optimizer]將拒絕任何來自其中一個宣告IP的傳入要求，該要求不會傳送給子網域。 儲存之前，請務必向您的安全團隊確認確切的輸出IP。"
-
-若要將Web應用程式防火牆IP新增至指定子網域的允許清單，請遵循下列步驟。
+若要將IP新增至指定子網域的允許清單，請遵循下列步驟。
 
 1. 從&#x200B;**[!UICONTROL 允許清單 — IP]**&#x200B;詳細目錄，按一下&#x200B;**[!UICONTROL 新增允許的IP]**&#x200B;按鈕。
 
@@ -97,7 +96,7 @@ ht-degree: 0%
 
    每個有效的非重複專案在新增之前都會內嵌驗證。 每個子網域&#x200B;**最多可新增** 50個IP專案。
 
-   ![新增子網域的WAF允許IP](assets/waf-ip-allowlist-add-ip.png)
+   ![為子網域新增允許的IP](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ ht-degree: 0%
 
 若要更新現有子網域允許的IP，請按一下詳細目錄中的子網域名稱。
 
-**子網域**&#x200B;欄位是唯讀的<!--as well as the Channel field--> — 建立後即無法變更。
+**[!UICONTROL 子網域]**&#x200B;欄位是唯讀的<!--as well as the Channel field--> — 建立後即無法變更。
 
 使用輸入欄位新增IP，或按一下每個晶片上的&#x200B;**✕**&#x200B;圖示移除現有的IP。
 
-![編輯或移除WAF允許的IP](assets/waf-ip-allowlist-edit-ip.png)
+![編輯或移除允許的IP](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ ht-degree: 0%
 
 ## 移除允許的IP {#waf-ip-allowlist-remove}
 
-若要從子網域的允許清單中移除所有IP，請使用詳細目錄內「動作」欄中的「刪除」圖示。 如此將可完全解除該子網域的WAF限制。
+若要從子網域的允許清單中移除所有IP，請使用詳細目錄中&#x200B;**[!UICONTROL 動作]**&#x200B;欄的&#x200B;**刪除**&#x200B;圖示。 如此將可完全解除該子網域的WAF限制。
 
 ![刪除允許IP清單的[動作]欄中的圖示](assets/waf-ip-allowlist-delete-icon.png)
 
-確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。**&#x200B;**
+確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。****
 
-![確認移除子網域的所有WAF允許IP](assets/waf-ip-allowlist-remove.png){width="80%"}
+![確認移除子網域的所有允許IP](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->確認後，此動作會移除您輸入之子網域的所有允許清單IP。 將再次接受來自任何來源的輸入流量，包括略過網頁應用程式防火牆的請求。 此動作無法復原 — 必須重新輸入IP才能還原限制。
+>確認後，此動作會移除您輸入之子網域的所有允許IP。 將再次接受來自任何來源的輸入流量，包括略過網頁應用程式防火牆的請求。 此動作無法復原 — 必須重新輸入IP才能還原限制。
 
 移除所有IP後，子網域不再出現在詳細目錄中。 您可以隨時透過為此子網域再次新增IP來重新設定它。
