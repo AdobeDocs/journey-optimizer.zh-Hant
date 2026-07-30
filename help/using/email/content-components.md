@@ -10,27 +10,16 @@ level: Beginner, Intermediate
 keywords: 元件，電子郵件Designer，編輯器，電子郵件
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -179,7 +168,7 @@ ht-degree: 46%
 
    ![](assets/email_designer_html_component.png)
 
-1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。**&#x200B;**
+1. 複製並貼上您要新增至電子郵件的HTML程式碼，然後按一下[儲存]。****
 
    ![](assets/email_designer_html_content.png)
 
@@ -197,7 +186,7 @@ ht-degree: 46%
 
 1. 在&#x200B;**[!UICONTROL 設定]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 瀏覽]**&#x200B;以從您的資產選擇影像檔案，或按一下&#x200B;**[!UICONTROL 匯入媒體]**&#x200B;以將資產上傳到Adobe Experience Manager Assets。
 
-   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   若要深入瞭解[!DNL Adobe Experience Manager Assets]，請參閱[Adobe Experience Manager Assets檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
    >[!NOTE]
    >
@@ -259,3 +248,27 @@ ht-degree: 46%
 >[!IMPORTANT]
 >
 >如果對歷程訊息中使用的優惠決定進行變更，您需要取消發佈歷程並重新發佈。  這將確保將變更納入歷程的訊息中，並且該訊息與最新更新一致。
+
+## 格線 {#grid}
+
+使用&#x200B;**[!UICONTROL 網格]**&#x200B;元件將內容組織成由列和欄組成的結構，其中每個儲存格可以包含其他內容元件。
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. 就像[Container](#container)元件一樣，將其他內容元件拖放至格線的每個儲存格中。
+
+   例如，您可以新增&#x200B;**[!UICONTROL Text]**&#x200B;元件、**[!UICONTROL Image]**&#x200B;元件和兩個&#x200B;**[!UICONTROL Button]**&#x200B;元件。 接著，您可以新增影像並個別編輯每個元件的內容。
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. 若要調整格線的結構，請選取格線並移至[電子郵件Designer]右窗格的&#x200B;**[!UICONTROL 設定]**&#x200B;標籤。
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. 您可以定義網格包含多少欄和列、編輯欄和列之間的間距，以及變更每個個別欄的寬度（百分比）。
+
+   >[!NOTE]
+   >
+   >使用&#x200B;**[!UICONTROL 請勿在行動裝置上棧疊欄]**&#x200B;選項可保留行動裝置上的格線配置，而非垂直棧疊欄。
+
+1. 視需要將其他內容元件放入每個儲存格，並從每個元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤調整樣式。
