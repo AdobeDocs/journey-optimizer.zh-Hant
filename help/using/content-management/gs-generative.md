@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始使用 Journey Optimizer 的 AI 助理
-description: 了解如何在 Journey Optimizer 存取並使用 AI 助理完成工作
+title: 開始使用Journey Optimizer中的產生內容
+description: 瞭解如何在Journey Optimizer中存取及使用產生內容
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,47 +10,36 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 100%
+source-wordcount: 992
+ht-degree: 62%
 
 ---
 
-# 開始使用 AI 助理 {#gs-content-assistant}
+# 開始使用產生內容 {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何存取 Adobe Journey Optimizer 中的 AI 助理、設定必要權限，以及瞭解產生文字和影像內容的護欄。
+**在此頁面上：**&#x200B;瞭解如何存取Adobe Journey Optimizer中的「產生內容」、設定必要許可權，以及瞭解產生文字和影像內容的護欄。
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="Journey Optimizer 的 AI 助理"
->abstract="精心打造並個人化您要傳遞的內容之後，便可以使用 Journey Optimizer 的 AI 助理來加強內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
+>title="在Journey Optimizer中產生內容"
+>abstract="完成傳遞的製作和個人化後，您就可以使用AI來編輯和調整內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上傳品牌資產"
->abstract="您可以使用「上傳品牌資產」選單新增任何品牌資產而且其中包含可為 Journey Optimizer 的 AI 助理提供更多背景資訊的內容，或者選取先前上傳的資產。 此選項可確保 AI 助理能夠存取所有必要的資料，以增強其功能與相關性。"
+>abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為Journey Optimizer中的「產生內容」提供額外內容的內容，或是選取先前上傳的資產。 此選項可確保「產生內容」可存取所有必要的素材，以增強其功能性和關聯性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -63,9 +52,9 @@ ht-degree: 100%
 >透過[即時功能預覽](https://experienceleague.adobe.com/zh-hant/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}，讓您親身體驗實作，直接探索並全面了解各項功能。
 
 
-在 Adobe Journey Optimizer 中，Azure OpenAI 與 Azure Firefly 所支援的 AI 助理，可為文字和影像提供主動式內容變化版本建議。 這項新功能提供&#x200B;**提示型文字與影像產生功能**。 透過 Adobe Firefly 管理影像產生功能。
+在Adobe Journey Optimizer中產生內容，由Microsoft Azure OpenAI和Adobe Firefly提供技術支援，針對文字和影像提供主動式內容變數建議。 這項新功能提供&#x200B;**提示型文字與影像產生功能**。 透過 Adobe Firefly 管理影像產生功能。
 
-AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠觸及並吸引不同的全球客群。 AI 助理提供下列語言版本：
+「產生內容」支援以多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -98,18 +87,18 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
   </tbody>
 </table>
 
-使用 Adobe Journey Optimizer 的 AI 助理，利用不同的主要標題和影像進行實驗，讓訊息的影響達到最佳成效。 產生多個變體並建置實驗加以比較。 運用 **Journey Optimizer 內容實驗**，您可以定義多種訊息處理，以測量對目標客群執行哪種處理的效果最佳。 您可以選擇變更傳遞內容或主旨。 訊息客群會隨機分配給每種處理，以就指定的量度而言，判斷哪種處理的效果最佳。 若要了解內容實驗的詳細資訊，請參閱[本章節](../content-management/content-experiment.md)。
+使用AI透過實驗不同的主要標題和影像，將訊息的影響最佳化。 產生多個變體並建置實驗加以比較。 運用 **Journey Optimizer 內容實驗**，您可以定義多種訊息處理，以測量對目標客群執行哪種處理的效果最佳。 您可以選擇變更傳遞內容或主旨。 訊息客群會隨機分配給每種處理，以就指定的量度而言，判斷哪種處理的效果最佳。 若要了解內容實驗的詳細資訊，請參閱[本章節](../content-management/content-experiment.md)。
 
 >[!IMPORTANT]
 >
 >* 開始使用此功能之前，請先閱讀相關的[護欄與限制](#generative-guardrails)。
 >
 >
->* 您必須先同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}後，才能使用 Adobe Journey Optimizer 的 AI 助理。 如需詳細資訊，請聯絡您的 Adobe 代表。
+>* 您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}，才能在Adobe Journey Optimizer中使用「產生內容」。 如需詳細資訊，請聯絡您的 Adobe 代表。
 
-## 存取 AI 助理 {#generative-access}
+## 存取權產生內容 {#generative-access}
 
-若要存取 Adobe Journey Optimizer 的 AI 助理，使用者必須擁有&#x200B;**產生內容**&#x200B;的權限。 [了解更多](../administration/permissions.md)
+若要在Adobe Journey Optimizer中存取「產生內容」，使用者必須被授與&#x200B;**「產生內容」**&#x200B;許可權。 [了解更多](../administration/permissions.md)
 
 +++  了解如何指派內容產生相關權限
 
@@ -137,7 +126,7 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ## 護欄與限制 {#generative-guardrails}
 
-以下列出使用 Adobe Journey Optimizer 的 AI 助手產生電子郵件的一般準則：
+在Adobe Journey Optimizer中使用「產生內容」來產生電子郵件的一般准則如下：
 
 ### 支援的管道
 
@@ -157,23 +146,24 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ### 電子郵件範本和影像
 
-* 使用品牌特定範本，或是自訂範本，就能使用 Adobe Journey Optimizer 的 AI 助理，建立電子郵件內容。 建議電子郵件範本最多包含 8-10 張影像。
+* 使用品牌特定或自訂範本，以使用Adobe Journey Optimizer中的「產生內容」來建立您的電子郵件內容。 建議電子郵件範本最多包含 8-10 張影像。
 
 ### 合法使用與透明度
 
-* 您對 AI 助理的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在內容或專案包含Content Credentials產生的資產下載或匯出時套用Firefly。[進一步瞭解](https://helpx.adobe.com/firefly/using/content-credentials.html)
+  <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
-### 個人化運算式的 AI 助理 {#ai-assistant-personalization-editor-guardrails}
+### 產生個人化運算式的內容 {#ai-assistant-personalization-editor-guardrails}
 
-下列護欄適用於[!UICONTROL 個人化編輯器]和電子郵件設計工具中[個人化運算式的 AI 助理](generative-personalization-expressions.md)。
+下列護欄適用於[!UICONTROL Personalization編輯器]和電子郵件Designer中的[產生個人化運算式](generative-personalization-expressions.md)的內容。
 
 * 不支援&#x200B;**產品建議與體驗決策**。
 * 不支援&#x200B;**最愛項目**。
 * 不支援&#x200B;**儲存的條件**。
 * 不支援 **Adobe Experience Manager 內容片段**。
 
-## AI 助理內容產生功能 {#generative-features}
+## 產生內容功能 {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -205,5 +195,5 @@ AI 助理支援&#x200B;**使用多種語言**&#x200B;產生內容，讓您能夠
 
 ## 其他資源
 
-* **[AI 助理使用案例](generative-uc.md)** - 透過使用案例了解如何使用 AI 助理
-* **[AI 助理教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - 探索有關 AI 助理功能和最佳做法的逐步教學課程影片。
+* **[產生內容使用案例](generative-uc.md)** — 透過使用案例瞭解如何使用產生內容
+* **[產生內容教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** — 探索有關「產生內容」功能和最佳實務的逐步教學課程影片。
