@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3488'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 93%
 + 開始使用 {#get-started}
   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入門中心](using/start/onboarding-hub.md)
-  + {hide-from-toc}[移轉內容與歷程](using/start/migrate-content-and-journeys.md)
+  + [移轉內容和歷程](using/start/migrate-content-and-journeys.md)
   + 基本要點 {#essentials}
     + [什麼是Journey Optimizer](using/start/get-started.md)
     + [了解其運作原理](using/start/understanding-ajo.md)
@@ -163,6 +163,7 @@ ht-degree: 93%
     + [事件轉換器指南](using/loyalty-challenges/event-transformer-guide.md)
     + [忠誠度挑戰許可權](using/loyalty-challenges/loyalty-permissions.md)
     + [熟客資料與資料集](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [忠誠度挑戰API](using/loyalty-challenges/loyalty-challenges-api.md)
 + 行銷活動 {#campaigns}
   + {hide-from-toc}[行銷活動](/help/rp_landing_pages/campaigns-landing-page.md)
   + [開始使用行銷活動](using/campaigns/get-started-with-campaigns.md)

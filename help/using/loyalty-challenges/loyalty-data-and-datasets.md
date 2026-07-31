@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 565
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 忠誠度挑戰仰賴Adobe Experience Platform的身分、設定檔屬性、體驗事件和受眾。 使用此頁面瞭解要準備哪些資料、涉及哪些資料集，以及&#x200B;**存留時間(TTL)**&#x200B;在您編寫挑戰或使用忠誠度挑戰API之前如何影響保留率。
 
-請連絡您的Adobe管理員，以設定Journey Optimizer方案，或在&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中設定獎勵履行和事件對應。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。 如需REST端點與驗證的相關資訊，請參閱[忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}。
+請連絡您的Adobe管理員，以設定Journey Optimizer方案，或在&#x200B;**[!UICONTROL 熟客方案設定]**&#x200B;功能表中設定獎勵履行和事件對應。 [瞭解如何設定忠誠度挑戰](loyalty-admin.md)。 如需REST端點和驗證資訊，請參閱[熟客挑戰中繼資料API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}和[熟客挑戰狀態API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}。
 
 ## 透過來源的忠誠度聯結器 {#loyalty-connectors-sources}
 
@@ -51,7 +51,7 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 
 ### 體驗事件 {#experience-events}
 
-**[!UICONTROL 購買]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務取決於內嵌到Adobe Experience Platform中的體驗事件。 針對&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，必須在&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中設定相符的事件定義（識別碼路徑、選用的XDM結構描述ID、結構描述及轉換器），行銷人員才能在任務產生器中輸入自訂事件值。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
+**[!UICONTROL 購買]**、**[!UICONTROL 支出]**&#x200B;和&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務取決於內嵌到Adobe Experience Platform中的體驗事件。 針對&#x200B;**[!UICONTROL 自訂事件]**&#x200B;任務，必須在&#x200B;**[!UICONTROL 忠誠度設定]**&#x200B;功能表中設定相符的事件定義（識別碼路徑、XDM結構描述ID、結構描述及轉換器），行銷人員才能在任務產生器中輸入自訂事件值。 [瞭解如何設定事件定義](loyalty-admin.md#event-definitions)
 
 確保事件裝載使用與您的忠誠度挑戰設定相同的身分名稱空間，好讓進度可歸因於正確的設定檔。
 

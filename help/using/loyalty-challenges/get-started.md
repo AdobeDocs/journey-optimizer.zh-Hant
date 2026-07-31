@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 12%
+source-wordcount: 1005
+ht-degree: 13%
 
 ---
 
@@ -170,6 +170,15 @@ ht-degree: 12%
   </td>
 </tr>
 </table>
+
+## 開發人員資源 {#developer-resources}
+
+忠誠度挑戰公開REST API，可讓您以程式設計方式管理挑戰並追蹤個人檔案參與率：
+
+* **[忠誠度挑戰中繼資料API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}** — 建立、擷取、更新、發佈、封存和重複挑戰。
+* **[忠誠度挑戰狀態API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}** — 查詢並更新個別設定檔的挑戰參與狀態。
+
+如需驗證和必要的標頭，請參閱[驗證教學課程](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
 
 ## 作法影片 {#video}
 
