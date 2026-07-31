@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="有限可用性" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 5%
 
 ---
@@ -92,10 +92,40 @@ ht-degree: 5%
 
 設定和使用自訂管道會遵循以下主要階段：
 
-1. **設定** （管理員） — 管理員會在&#x200B;**頻道產生器**&#x200B;中建立自訂頻道，定義端點、驗證、節流原則及訊息裝載結構。 接著會建立管道設定並連結至自訂管道。 [了解更多](configure-custom-channel.md)
-1. **建立** （行銷人員） — 行銷人員將自訂管道新增至歷程或行銷活動、選取管道設定，並使用[!DNL Journey Optimizer]的個人化編輯器編寫訊息裝載。 [了解更多](create-custom-experience.md)
+1. **設定** （管理員） — 管理員會在&#x200B;**頻道產生器**&#x200B;中建立自訂頻道，定義端點、驗證、節流原則及訊息裝載結構。 接著會建立管道設定並連結至自訂管道。
+1. **建立** （行銷人員） — 行銷人員將自訂管道新增至歷程或行銷活動、選取管道設定，並使用[!DNL Journey Optimizer]的個人化編輯器編寫訊息裝載。
 1. **傳送** — 當設定檔符合資格時，[!DNL Journey Optimizer]會將個人化裝載傳送至設定的端點。 外部系統處理呼叫並傳遞訊息。
-1. **監視** （管理員/行銷人員） — 管理員和行銷人員可以透過[!DNL Journey Optimizer]的報告和監視儀表板來監視自訂頻道的效能和可靠性。 [了解更多](monitor-custom-channel.md)
+1. **監視** （管理員/行銷人員） — 管理員和行銷人員可以透過[!DNL Journey Optimizer]的報告和監視儀表板來監視自訂頻道的效能和可靠性。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="設定" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>設定自訂頻道</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="建立" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>建立自訂管道體驗</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="監視" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>監視自訂頻道</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}
