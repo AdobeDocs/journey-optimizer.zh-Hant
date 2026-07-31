@@ -9,16 +9,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e267b222b35465e6bb8a253d3f13441128a527a1
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9757
+ht-degree: 83%
 
 ---
 
@@ -27,6 +23,8 @@ ht-degree: 84%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年7月 {#july-2026}
+
+* 已在&#x200B;**設計您的歷程**&#x200B;頁面中新增提示，指出有關&#x200B;**如何分離及重新加入新歷程畫布中的節點**&#x200B;的Experience League社群文章。 [閱讀更多](../building-journeys/using-the-journey-designer.md)
 
 * **網格**&#x200B;元件區段已新增到&#x200B;**電子郵件Designer內容元件**&#x200B;頁面。 它可讓您將內容組織到由行和欄組成的結構化格線中，每個儲存格都可以包含其他內容元件。 [閱讀更多](../email/content-components.md#grid)
 
