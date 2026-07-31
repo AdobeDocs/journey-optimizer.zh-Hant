@@ -7,15 +7,18 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 10%
+source-wordcount: '1317'
+ht-degree: 11%
 
 ---
 
 # 移轉內容和歷程 {#migrate-content-and-journeys}
+
+>[!AVAILABILITY]
+>
+>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 如果您從另一個行銷平台移至[!DNL Journey Optimizer]，您不必從空白顯示窗開始。 Journey Optimizer包含專用工作區，可匯入您現有的電子郵件內容和歷程。 它會將其轉換為[!DNL Journey Optimizer]內容範本和歷程，以便您可以擷取離開的位置，而不是從頭開始重建所有內容。
 
@@ -110,13 +113,13 @@ ht-degree: 10%
 
    電子郵件內容的![HTML檔案上傳區域](assets/onboarding-hub-7.png)
 
-1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。****
 
 1. 存取您匯入的電子郵件，並檢閱匯入的HTML。
 
 1. 新增您的&#x200B;**[!UICONTROL 主旨列]**，並將每個個人化預留位置對應至對應的設定檔屬性。
 
-   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![已匯入主旨行欄位和個人化預留位置對應的電子郵件編輯器](assets/onboarding-hub-8.png)
 
@@ -150,7 +153,7 @@ ht-degree: 10%
 
    ![歷程影像的熒幕擷圖上傳區域](assets/onboarding-hub-13.png)
 
-1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。****
 
 1. 預覽工作區從您的來源產生的歷程。
 
