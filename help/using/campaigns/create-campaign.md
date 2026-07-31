@@ -11,18 +11,12 @@ mini-toc-levels: 1
 keywords: 建立，最佳化工具，行銷活動，表面，訊息
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 TQID: https://experienceleague.adobe.com/ntMHR5n0EgM9QaGV1JtwBxKHNpeibCQ8b4krEeFtlO4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -57,13 +51,13 @@ ht-degree: 47%
 
 ## Action行銷活動建立的關鍵步驟 {#steps}
 
-開始行銷活動之前，請檢查本節[&#128279;](get-started-with-campaigns.md#prerequisites)中列出的下列必要條件。 在滿足這些先決條件後，您就可以開始建立行銷活動：
+開始行銷活動之前，請檢查本節](get-started-with-campaigns.md#prerequisites)中列出的下列必要條件[。 在滿足這些先決條件後，您就可以開始建立行銷活動：
 
 1. [定義「動作」行銷活動屬性](campaign-properties.md)
 1. [設定行銷活動動作](campaign-action.md)
 1. [編輯動作行銷活動內容](campaign-content.md)
 1. [定義「動作」行銷活動對象](campaign-audience.md)
-1. [排程動作行銷活動](campaign-schedule.md)。 選擇性[使用波段](send-using-waves.md)傳送，以批次傳遞一段時間的訊息。
+1. [排程動作行銷活動](campaign-schedule.md)。 選擇性[使用波段](../delivery/send-using-waves.md)傳送，以批次傳遞一段時間的訊息。
 1. [檢閱並啟動動作行銷活動](review-activate-campaign.md)
 
 深入瞭解[完整行銷活動建立工作流程，其中包含特定型別的指南→](get-started-with-campaigns.md#workflow)

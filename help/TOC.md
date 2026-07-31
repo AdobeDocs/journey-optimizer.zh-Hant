@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: a8927f55a10a60111fc2f5db68b3a34329d1cc35
+source-git-commit: 4ef6a978cf22596e9827442687d36a67955d86df
 workflow-type: tm+mt
-source-wordcount: '3492'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 94%
     + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
     + [設定您的歷程屬性](using/building-journeys/journey-properties.md)
-    + [在歷程中使用波段傳送](using/building-journeys/send-using-waves.md)
     + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
     + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
     + 模擬 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 94%
     + [在歷程中使用補充識別碼](using/building-journeys/supplemental-identifier.md)
     + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
     + [時區管理](using/building-journeys/timezone-management.md)
-    + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
-    + [頻道最佳化](using/building-journeys/channel-optimization.md)
     + [結束您的歷程](using/building-journeys/end-journey.md)
   + 活動 {#about-journey-building}
     + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 94%
     + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
     + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
     + [安排行銷活動](using/campaigns/campaign-schedule.md)
-    + [使用波段傳送](using/campaigns/send-using-waves.md)
     + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
   + API 觸發的行銷活動 {#api-triggered-campaigns}
     + [API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 94%
   + 歷程仲裁 {#journey-arbitration}
     + [使用公式來排名歷程](using/conflict-prioritization/journey-ranking-formulas.md)
     + [使用 AI 模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
++ 傳遞設定 {#delivery-settings}
+  + [使用波段傳送](using/delivery/send-using-waves.md)
+  + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
+  + [頻道最佳化](using/building-journeys/channel-optimization.md)
 + 測試並核准 {#test}
   + [測試、驗證及核准](/help/rp_landing_pages/test-landing-page.md)
   + 預覽與測試內容 {#preview-test}
@@ -570,7 +570,7 @@ ht-degree: 94%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
