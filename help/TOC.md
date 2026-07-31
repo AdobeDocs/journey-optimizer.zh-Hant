@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
+source-git-commit: 50a5713be405c11882e58987f2032d8d7141f928
 workflow-type: tm+mt
 source-wordcount: '3492'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
       + [設定即時動態 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自訂通道 {#custom-channel}
-    + {hide-from-toc}[開始使用自訂頻道](using/custom-channel/get-started-custom-channel.md)
+    + [開始使用自訂管道](using/custom-channel/get-started-custom-channel.md)
     + 設定自訂頻道 {#configure-custom-channel}
-      + {hide-from-toc}[設定您的自訂頻道](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[建立自訂頻道](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[管理API認證](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[委派子網域](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[建立頻道設定](using/custom-channel/custom-channel-configuration.md)
+      + [設定您的自訂頻道](using/custom-channel/configure-custom-channel.md)
+      + [建立自訂頻道](using/custom-channel/create-custom-channel.md)
+      + [管理API認證](using/custom-channel/custom-channel-api-credentials.md)
+      + [委派子網域](using/custom-channel/custom-channel-subdomains.md)
+      + [建立管道設定](using/custom-channel/custom-channel-configuration.md)
     + 建立自訂管道體驗 {#create-custom-channel-experiences}
-      + {hide-from-toc}[建立自訂管道體驗](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[測試您的自訂管道體驗](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[監視自訂通道](using/custom-channel/monitor-custom-channel.md)
+      + [建立自訂管道體驗](using/custom-channel/create-custom-experience.md)
+      + [測試您的自訂管道體驗](using/custom-channel/test-custom-channel.md)
+    + [監視自訂通道](using/custom-channel/monitor-custom-channel.md)
 + 內容管理 {#content-management}
   + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
   + 個人化 {#personalization}
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)

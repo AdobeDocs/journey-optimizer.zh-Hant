@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1006'
 ht-degree: 14%
 
 ---
@@ -193,7 +193,7 @@ To add a custom channel in an orchestrated campaign:
 >
 >連結追蹤需要為自訂頻道設定的子網域。 [瞭解如何委派自訂管道的子網域](custom-channel-subdomains.md#subdomain-delegation)
 
-**範例 — 追蹤的Viber承載中的連結：**
+**範例 — 在承載中追蹤的連結：**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->在啟用之前預覽和測試您的自訂管道裝載。 [了解做法](test-custom-channel.md)
+>在啟用之前預覽和測試您的自訂管道裝載。 [了解做法](test-custom-channel.md#preview-test)
 >
 >如果您的行銷活動或歷程受核准原則的約束，您必須在啟用之前請求核准。 [了解更多](../test-approve/gs-approval.md)
 
-* **從歷程** — 按一下右上角區域中的&#x200B;**[!UICONTROL 發佈]**。 歷程開始上線，並開始呼叫您的外部端點以符合設定檔資格。
-* **從行銷活動** — 按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，檢閱您的設定，然後按一下&#x200B;**[!UICONTROL 啟用]**。 此行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態（或如果已定義未來的開始日期，則為&#x200B;**[!UICONTROL 已排程]**）。
+* **從歷程** — 按一下右上角區域中的&#x200B;**[!UICONTROL 發佈]**。 歷程開始上線，並開始呼叫您的外部端點以符合設定檔資格。 深入瞭解[發佈歷程](../building-journeys/journey-gs.md#publish-journey)。
+* **從行銷活動** — 按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，檢閱您的設定，然後按一下&#x200B;**[!UICONTROL 啟用]**。 此行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態（或如果已定義未來的開始日期，則為&#x200B;**[!UICONTROL 已排程]**）。 深入瞭解[啟用行銷活動](../campaigns/create-campaign.md#review-activate)。

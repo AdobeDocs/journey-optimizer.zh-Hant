@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '994'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 1%
 ## 善用行銷活動和歷程報告 {#reporting}
 
 [!DNL Journey Optimizer]為自訂管道提供現成可用的報告。
+
+自訂管道行銷活動報告在[本節](../reports/campaign-global-report-cja-custom-channel.md)中有詳細說明。
+
+<!--The Custom channel journey report is detailed in this section. TBC-->
 
 下列量度可用於即時(24h)和全域(CJA)報表中的自訂管道。<!--TBC and add or replace with CJA link when available-->
 

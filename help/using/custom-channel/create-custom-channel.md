@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 15%
@@ -111,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![標頭設定](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![標頭設定](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    對於每個標頭，您可以定義其值是否為：
 
@@ -120,11 +120,11 @@ ht-degree: 15%
 
 1. 可選擇使用相同的常數/變數模式，新增&#x200B;**[!UICONTROL 查詢引數]**。 查詢引數會在傳送時附加至端點URL。 常數引數一律會新增相同的值；變數引數會在傳送時解析，例如從設定檔傳遞使用者識別碼。
 
-   ![查詢引數](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![查詢引數](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. 在&#x200B;**[!UICONTROL 原則組態]**&#x200B;區段中，定義[!DNL Journey Optimizer]如何處理要求輸送量和失敗。 這對於確保您的外部系統能夠處理大量請求並避免超出需求非常重要。
 
-   ![原則組態](assets/custom_channel_endpoint_policy_config.png)
+   ![原則組態](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL 啟用節流]** — 預設為停用。 設定每秒要求數上限（預設值： **5,000c**）。 一旦達到限制，請求就會排入佇列，並儘快傳送。
    * **[!UICONTROL 啟用重試]** — 預設為啟用。 設定失敗要求的重試次數上限（預設值： **3**，可設定的範圍： 0-10）。 這有助於避免在暫時性失敗期間讓端點不知所措。
