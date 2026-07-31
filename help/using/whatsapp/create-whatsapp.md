@@ -9,23 +9,15 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -171,6 +163,10 @@ WhatsApp支援下列訊息型別：
 
    ![](assets/whatsapp-design-2.png)
 
+   >[!NOTE]
+   >
+   >您可以選取&#x200B;**WhatsApp流程**&#x200B;範本，直接在WhatsApp交談中提供互動式多熒幕體驗，例如調查或潛在客戶擷取表單。 所有傳入的WhatsApp回應，包括透過WhatsApp流程範本提交的回應，都會在&#x200B;_AJO管道追蹤事件資料集_&#x200B;中擷取。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)。
+
 1. 在&#x200B;**[!UICONTROL 影像URL]**&#x200B;欄位中，新增媒體URL以取代範本中的任何預留位置。 Meta的範本媒體只是預留位置。 若要正確顯示影像、音訊或視訊，您必須使用來自Adobe Experience Manager或其他來源的外部URL。
 
    ![](assets/whatsapp-design-3.png)
@@ -232,6 +228,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470293/?captions=chi_hant&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
