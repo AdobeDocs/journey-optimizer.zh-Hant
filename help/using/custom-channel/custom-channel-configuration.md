@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 1. 如果您已在[!DNL Journey Optimizer]中設定自訂管道的子網域，您可以選取要用於追蹤此設定之裝載中出現之連結的委派子網域。 [瞭解如何委派子網域](custom-channel-subdomains.md)
 
-1. 如果選取的管道具有定義成端點URL之變數[&#128279;](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
+1. 如果選取的管道具有定義成端點URL之變數](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數[，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
 
    輸入每個引數的值。 您可以使用個人化編輯器來插入動態值（例如，從設定檔解析的使用者識別碼）。 這可讓您根據每位收件者的設定檔資料自訂其請求。
 
@@ -50,9 +50,11 @@ ht-degree: 8%
 
    為此設定每個欄位設定適當的值。 這對於可能因行銷活動或歷程情境而異的欄位非常有用，例如寄件者資訊或訊息範本。
 
-1. 針對協調的行銷活動，請完成&#x200B;**[!UICONTROL 執行詳細資料]**&#x200B;區段以對應設定檔維度並指定執行地址。
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![協調行銷活動中的執行詳細資料](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存並啟動頻道設定。
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [建立自訂管道體驗](create-custom-experience.md)
 * [測試您的自訂頻道](test-custom-channel.md)
-* [監視自訂通道](configure-custom-channel.md)
+* [監視自訂通道](monitor-custom-channel.md)

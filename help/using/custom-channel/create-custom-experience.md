@@ -1,14 +1,14 @@
 ---
 title: 建立自訂管道體驗
-description: 瞭解如何在歷程、行銷活動或Adobe Journey Optimizer中的協調行銷活動中使用自訂頻道。
+description: 瞭解如何在歷程或Adobe Journey Optimizer的行銷活動中使用自訂頻道。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '997'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將自訂頻道新增到歷程、行銷活動或協調的行銷活動，並使用運算式編輯器編寫個人化訊息裝載。
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將自訂頻道新增到歷程或行銷活動，並使用運算式編輯器編寫個人化訊息裝載。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
-在[!DNL Journey Optimizer]中，您可以使用行銷活動、歷程及協調行銷活動中的自訂管道來傳遞訊息。 請依照下列步驟，設定您的自訂管道體驗。
+在[!DNL Journey Optimizer]中，您可以使用行銷活動和歷程中的自訂管道來傳遞訊息。 請依照下列步驟，設定您的自訂管道體驗。
 
 >[!NOTE]
 >

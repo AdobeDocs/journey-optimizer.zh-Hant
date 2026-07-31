@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 38f8ff8d08d57ffbea5d9788a3a4e67f132c26e4
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3492'
 ht-degree: 93%
 
 ---
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [行銷活動報告](using/reports/campaign-global-report-cja.md)
       + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
       + [內容卡行銷活動報告](using/reports/campaign-global-report-cja-content.md)
+      + [自訂管道行銷活動報告](using/reports/campaign-global-report-cja-custom-channel.md)
       + [直接郵件行銷活動報告](using/reports/campaign-global-report-cja-direct.md)
       + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
       + [實驗行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)
