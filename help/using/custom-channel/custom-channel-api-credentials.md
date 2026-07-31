@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 您可以從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管道]** > **[!UICONTROL 管道產生器]** > **[!UICONTROL API認證]**&#x200B;檢視、管理和編輯認證。
 
-![API認證](assets/custom_channel_api_credentials.png){width="100%"}
+![API認證](assets/custom_channel_api_credentials.png){width="90%"}
 
 對相同管道擁有多個認證可讓您將不同的驗證值附加到不同的管道設定 — 例如，針對不同品牌或使用案例 — 而不複製管道定義。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 1. 提供名稱和說明。
 
-   ![建立API認證](assets/custom_channel_create_api_credentials.png){width="100%"}
+   ![建立API認證](assets/custom_channel_create_api_credentials.png){width="80%"}
 
 1. 選取您要建立認證的&#x200B;**[!UICONTROL 管道]**。
 

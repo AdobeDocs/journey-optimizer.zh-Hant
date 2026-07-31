@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -156,7 +156,7 @@ rebuild
 
 ## 相關資源 {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [移轉內容與歷程](migrate-content-and-journeys.md) — 從其他行銷平台匯入電子郵件內容與歷程。
 * [為您的目標尋找正確的Journey Optimizer功能](ajo-use-case-guide.md) — 每個功能的目標優先決定指南。
 * [歷程使用案例庫](../building-journeys/jo-use-cases.md) — 實用的範例和實作模式。
 * [重要術語](terminology.md) — 釐清每項功能背後的概念。

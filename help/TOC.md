@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 93%
+source-wordcount: '3489'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 93%
     + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
     + [設定您的歷程屬性](using/building-journeys/journey-properties.md)
-    + [在歷程中使用波段傳送](using/building-journeys/send-using-waves.md)
     + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
     + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
     + 模擬 {#simulate-journey}
@@ -88,8 +87,6 @@ ht-degree: 93%
     + [在歷程中使用補充識別碼](using/building-journeys/supplemental-identifier.md)
     + [使用歷程步驟事件](using/reports/journey-step-events-overview.md)
     + [時區管理](using/building-journeys/timezone-management.md)
-    + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
-    + [頻道最佳化](using/building-journeys/channel-optimization.md)
     + [結束您的歷程](using/building-journeys/end-journey.md)
   + 活動 {#about-journey-building}
     + [活動](/help/rp_landing_pages/about-journey-building-landing-page.md)
@@ -176,7 +173,6 @@ ht-degree: 93%
     + [編輯行銷活動的內容](using/campaigns/campaign-content.md)
     + [定義行銷活動的客群](using/campaigns/campaign-audience.md)
     + [安排行銷活動](using/campaigns/campaign-schedule.md)
-    + [使用波段傳送](using/campaigns/send-using-waves.md)
     + [審閱並啟動動作的行銷活動](using/campaigns/review-activate-campaign.md)
   + API 觸發的行銷活動 {#api-triggered-campaigns}
     + [API 觸發的行銷活動](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -259,6 +255,10 @@ ht-degree: 93%
   + 歷程仲裁 {#journey-arbitration}
     + [使用公式來排名歷程](using/conflict-prioritization/journey-ranking-formulas.md)
     + [使用 AI 模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
++ 傳遞設定 {#delivery-settings}
+  + [使用波段傳送](using/delivery/send-using-waves.md)
+  + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
+  + [頻道最佳化](using/building-journeys/channel-optimization.md)
 + 測試並核准 {#test}
   + [測試、驗證及核准](/help/rp_landing_pages/test-landing-page.md)
   + 預覽與測試內容 {#preview-test}
@@ -461,17 +461,17 @@ ht-degree: 93%
       + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
       + [設定即時動態 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自訂通道 {#custom-channel}
-    + {hide-from-toc}[開始使用自訂頻道](using/custom-channel/get-started-custom-channel.md)
+    + [開始使用自訂管道](using/custom-channel/get-started-custom-channel.md)
     + 設定自訂頻道 {#configure-custom-channel}
-      + {hide-from-toc}[設定您的自訂頻道](using/custom-channel/configure-custom-channel.md)
-      + {hide-from-toc}[建立自訂頻道](using/custom-channel/create-custom-channel.md)
-      + {hide-from-toc}[管理API認證](using/custom-channel/custom-channel-api-credentials.md)
-      + {hide-from-toc}[委派子網域](using/custom-channel/custom-channel-subdomains.md)
-      + {hide-from-toc}[建立頻道設定](using/custom-channel/custom-channel-configuration.md)
+      + [設定您的自訂頻道](using/custom-channel/configure-custom-channel.md)
+      + [建立自訂頻道](using/custom-channel/create-custom-channel.md)
+      + [管理API認證](using/custom-channel/custom-channel-api-credentials.md)
+      + [委派子網域](using/custom-channel/custom-channel-subdomains.md)
+      + [建立管道設定](using/custom-channel/custom-channel-configuration.md)
     + 建立自訂管道體驗 {#create-custom-channel-experiences}
-      + {hide-from-toc}[建立自訂管道體驗](using/custom-channel/create-custom-experience.md)
-      + {hide-from-toc}[測試您的自訂管道體驗](using/custom-channel/test-custom-channel.md)
-    + {hide-from-toc}[監視自訂通道](using/custom-channel/monitor-custom-channel.md)
+      + [建立自訂管道體驗](using/custom-channel/create-custom-experience.md)
+      + [測試您的自訂管道體驗](using/custom-channel/test-custom-channel.md)
+    + [監視自訂通道](using/custom-channel/monitor-custom-channel.md)
 + 內容管理 {#content-management}
   + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
   + 個人化 {#personalization}
@@ -646,6 +646,7 @@ ht-degree: 93%
       + [行銷活動報告](using/reports/campaign-global-report-cja.md)
       + [程式碼型行銷活動報告](using/reports/campaign-global-report-cja-code.md)
       + [內容卡行銷活動報告](using/reports/campaign-global-report-cja-content.md)
+      + [自訂管道行銷活動報告](using/reports/campaign-global-report-cja-custom.md)
       + [直接郵件行銷活動報告](using/reports/campaign-global-report-cja-direct.md)
       + [電子郵件行銷活動報告](using/reports/campaign-global-report-cja-email.md)
       + [實驗行銷活動報告](using/reports/campaign-global-report-cja-experimentation.md)

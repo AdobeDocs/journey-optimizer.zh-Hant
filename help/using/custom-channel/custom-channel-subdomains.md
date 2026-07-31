@@ -6,7 +6,7 @@ feature: Channel Configuration
 level: Intermediate
 keywords: 自訂頻道、子網域、設定
 badge: label="有限可用性" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 20%
@@ -60,7 +60,7 @@ TBC
 
 1. 從&#x200B;**[!UICONTROL 組態型別]**&#x200B;區段中選取&#x200B;**[!UICONTROL 使用委派的子網域]**。
 
-   ![使用委派的子網域設定表單](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![使用委派的子網域設定表單](assets/custom_channel_create_subdomain.png){width="90%"}
 
 1. 輸入將顯示在自訂頻道URL中的前置詞。 只允許使用英數字元和連字型大小。
 

@@ -1,14 +1,14 @@
 ---
 title: 建立自訂管道體驗
-description: 瞭解如何在歷程、行銷活動或Adobe Journey Optimizer中的協調行銷活動中使用自訂頻道。
+description: 瞭解如何在歷程或Adobe Journey Optimizer的行銷活動中使用自訂頻道。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1006'
 ht-degree: 14%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將自訂頻道新增到歷程、行銷活動或協調的行銷活動，並使用運算式編輯器編寫個人化訊息裝載。
+**在此頁面上：**&#x200B;瞭解如何在Adobe Journey Optimizer中將自訂頻道新增到歷程或行銷活動，並使用運算式編輯器編寫個人化訊息裝載。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 >
 >此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
-在[!DNL Journey Optimizer]中，您可以使用行銷活動、歷程及協調行銷活動中的自訂管道來傳遞訊息。 請依照下列步驟，設定您的自訂管道體驗。
+在[!DNL Journey Optimizer]中，您可以使用行銷活動和歷程中的自訂管道來傳遞訊息。 請依照下列步驟，設定您的自訂管道體驗。
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ To add a custom channel in an orchestrated campaign:
 >
 >連結追蹤需要為自訂頻道設定的子網域。 [瞭解如何委派自訂管道的子網域](custom-channel-subdomains.md#subdomain-delegation)
 
-**範例 — 追蹤的Viber承載中的連結：**
+**範例 — 在承載中追蹤的連結：**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->在啟用之前預覽和測試您的自訂管道裝載。 [了解做法](test-custom-channel.md)
+>在啟用之前預覽和測試您的自訂管道裝載。 [了解做法](test-custom-channel.md#preview-test)
 >
 >如果您的行銷活動或歷程受核准原則的約束，您必須在啟用之前請求核准。 [了解更多](../test-approve/gs-approval.md)
 
-* **從歷程** — 按一下右上角區域中的&#x200B;**[!UICONTROL 發佈]**。 歷程開始上線，並開始呼叫您的外部端點以符合設定檔資格。
-* **從行銷活動** — 按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，檢閱您的設定，然後按一下&#x200B;**[!UICONTROL 啟用]**。 此行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態（或如果已定義未來的開始日期，則為&#x200B;**[!UICONTROL 已排程]**）。
+* **從歷程** — 按一下右上角區域中的&#x200B;**[!UICONTROL 發佈]**。 歷程開始上線，並開始呼叫您的外部端點以符合設定檔資格。 深入瞭解[發佈歷程](../building-journeys/journey-gs.md#publish-journey)。
+* **從行銷活動** — 按一下&#x200B;**[!UICONTROL 檢閱以啟用]**，檢閱您的設定，然後按一下&#x200B;**[!UICONTROL 啟用]**。 此行銷活動會採用&#x200B;**[!UICONTROL 即時]**&#x200B;狀態（或如果已定義未來的開始日期，則為&#x200B;**[!UICONTROL 已排程]**）。 深入瞭解[啟用行銷活動](../campaigns/create-campaign.md#review-activate)。

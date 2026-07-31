@@ -28,10 +28,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 82%
+source-wordcount: 1343
+ht-degree: 81%
 
 ---
 
@@ -86,6 +86,7 @@ ht-degree: 82%
   * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。
   * _報告 - 歷程_：包含歷程每個步驟資訊的中繼資料資料集。
   * _報告 - 密件副本_：用於儲存密件副本電子郵件的傳遞記錄意見事件資料集。 用於報告用途。
+  * _AJO管道追蹤事件資料集_：擷取所有傳入的WhatsApp回應，包括透過WhatsApp流程範本提交的回應。
 
 * 同意
 

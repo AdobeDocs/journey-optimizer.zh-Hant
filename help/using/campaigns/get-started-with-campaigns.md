@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -246,7 +246,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 2. **選取行銷活動類型** (動作、API 觸發或協調)
 3. **選擇您的客群**
 4. 如果使用衝突管理，**設定優先順序**
-5. **設定排程** (針對動作行銷活動) 或 API 詳細資料 (針對 API 觸發)。 針對動作行銷活動，您也可以[使用波段傳送](send-using-waves.md)，以隨著時間分批次傳送訊息。
+5. **設定排程** (針對動作行銷活動) 或 API 詳細資料 (針對 API 觸發)。 針對動作行銷活動，您也可以[使用波段傳送](../delivery/send-using-waves.md)，以隨著時間分批次傳送訊息。
 
 **特定類型的指南：**&#x200B;[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
 

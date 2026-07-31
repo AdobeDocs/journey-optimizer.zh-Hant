@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 5041
 ht-degree: 10%
@@ -450,7 +450,7 @@ ht-degree: 10%
 
 >[!TIP]
 >
->排程歷程時，您也可以設定波形傳送，以隨著時間分批傳送歷程動作。 [瞭解如何在歷程中使用波段傳送](send-using-waves.md)
+>排程歷程時，您也可以設定波形傳送，以隨著時間分批傳送歷程動作。 [瞭解如何在歷程中使用波段傳送](../delivery/send-using-waves.md)
 
 
 ## 衝突管理 {#conflict}

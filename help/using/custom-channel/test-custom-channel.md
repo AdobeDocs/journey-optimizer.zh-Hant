@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 2%
 
 當自訂管道處於&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態時，請使用管道產生器中的&#x200B;**[!UICONTROL 測試]**&#x200B;按鈕，將測試請求傳送至您的端點，並在啟用之前驗證端對端連線。 [了解更多](create-custom-channel.md#test-connection)
 
+![測試連線按鈕](assets/custom_channel_test_connection.png){width="70%"}
+
 此測試會確認：
 
 * 可從[!DNL Journey Optimizer]的輸出IP連線到端點。
@@ -35,7 +37,13 @@ ht-degree: 2%
 
 檢查外部系統的記錄，確認已收到測試請求，其中包含預期的標頭和裝載結構。
 
-## 模擬測試設定檔的內容 {#simulate-content}
+## 預覽和測試您的自訂管道體驗 {#preview-test}
+
+建立自訂管道體驗後，您可以先驗證個人化內容的端對端傳送，然後再啟動歷程或行銷活動。
+
+使用以下功能來預覽和測試您的自訂管道裝載，並驗證端對端體驗。
+
+### 模擬測試設定檔的內容 {#simulate-content}
 
 **[!UICONTROL 模擬內容]**&#x200B;功能會針對測試設定檔解析個人化運算式，讓您能夠檢查在傳送任何實際訊息之前會傳送的確切裝載。
 
@@ -50,17 +58,23 @@ ht-degree: 2%
    * 必填的裝載欄位已填入。
    * 協助程式函式會產生預期的格式化輸出。
 
+   ![使用測試設定檔模擬內容](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >使用代表不同受眾區段的多個設定檔進行測試，以擷取邊緣案例，例如，在個人化欄位中缺少選擇性屬性、非拉丁字元集或null值的設定檔。
 
-## 傳送校樣 {#send-proof}
+深入瞭解[本節](../content-management/preview-test.md)中預覽和測試內容。
+
+### 傳送校樣 {#send-proof}
 
 若要在啟用之前驗證端對端傳送，請傳送證明給一組測試收件者：
 
 1. 在&#x200B;**[!UICONTROL 模擬內容]**&#x200B;面板中，切換至&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;標籤。
 
-1. 新增您要使用的設定檔。 您可以上傳含有未定義為[!DNL Journey Optimizer]中測試設定檔之設定檔的CSV檔案。
+1. 新增您要使用的設定檔。 您可以上傳含有未定義為[!DNL Journey Optimizer]中測試設定檔之設定檔的CSV檔案。 深入瞭解[建立測試設定檔](../audience/creating-test-profiles.md)
+
+   ![傳送證明索引標籤](assets/custom_channel_send_proof.png){width="70%"}
 
 1. 按一下&#x200B;**[!UICONTROL 傳送證明]**。 [!DNL Journey Optimizer]會使用每個所選設定檔的個人化裝載呼叫您的外部端點。
 
@@ -68,9 +82,9 @@ ht-degree: 2%
 
 使用與電子郵件校樣相同的驗證模式顯示校樣結果：傳送校樣之前會顯示必填欄位、型別不匹配和結構描述驗證錯誤。
 
-進一步瞭解如何在[行銷活動](../campaigns/create-campaign.md#send-proof)和[歷程](../building-journeys/testing-the-journey.md)中傳送校樣。
+在[本節](../content-management/proofs.md)中進一步瞭解傳送校樣
 
-## 在歷程測試模式下測試 {#test-journey}
+### 在歷程測試模式下測試 {#test-journey}
 
 若要進行端對端歷程驗證，請在&#x200B;**[!UICONTROL 測試模式]**&#x200B;中啟用歷程：
 
@@ -86,9 +100,9 @@ ht-degree: 2%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL 停止測試]**。
 
-深入瞭解如何在[測試模式](../building-journeys/testing-the-journey.md)中測試歷程。
+在[本節](../building-journeys/testing-the-journey.md)中進一步瞭解以測試模式測試歷程。
 
-## 模擬歷程 {#simulate-journey}
+### 模擬歷程 {#simulate-journey}
 
 [!DNL Journey Optimizer]的&#x200B;**模擬**&#x200B;模式可讓您使用模擬的使用者（類似暫時的設定檔實體，不會在Adobe Experience Platform中持續存在）來端對端驗證您的歷程，而不需要預先建立的測試設定檔。
 
@@ -108,9 +122,9 @@ ht-degree: 2%
 >
 >模擬可用於草稿和即時歷程，並使用不會計入設定檔配額或實際端點呼叫的臨時模擬使用者。
 
-[進一步瞭解歷程模擬](../building-journeys/simulate-journey-gs.md)
+在[本節](../building-journeys/simulate-journey-gs.md)中進一步瞭解歷程模擬。
 
-## 啟動前檢查清單 {#checklist}
+### 啟動前檢查清單 {#checklist}
 
 在啟用您的歷程或行銷活動之前，請確認下列專案：
 

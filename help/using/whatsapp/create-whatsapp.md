@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6e13f186799c120eaf674fda2d722572af8e0149
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1212
 ht-degree: 11%
 
 ---
@@ -170,6 +170,10 @@ WhatsApp支援下列訊息型別：
    [進一步瞭解如何建立Whatsapp範本](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
+
+   >[!NOTE]
+   >
+   >您可以選取&#x200B;**WhatsApp流程**&#x200B;範本，直接在WhatsApp交談中提供互動式多熒幕體驗，例如調查或潛在客戶擷取表單。 所有傳入的WhatsApp回應，包括透過WhatsApp流程範本提交的回應，都會在&#x200B;_AJO管道追蹤事件資料集_&#x200B;中擷取。 [進一步瞭解系統資料集](../data/get-started-datasets.md#system-datasets)。
 
 1. 在&#x200B;**[!UICONTROL 影像URL]**&#x200B;欄位中，新增媒體URL以取代範本中的任何預留位置。 Meta的範本媒體只是預留位置。 若要正確顯示影像、音訊或視訊，您必須使用來自Adobe Experience Manager或其他來源的外部URL。
 

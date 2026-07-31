@@ -7,15 +7,18 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 10%
+source-wordcount: '1317'
+ht-degree: 11%
 
 ---
 
 # 移轉內容和歷程 {#migrate-content-and-journeys}
+
+>[!AVAILABILITY]
+>
+>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 如果您從另一個行銷平台移至[!DNL Journey Optimizer]，您不必從空白顯示窗開始。 Journey Optimizer包含專用工作區，可匯入您現有的電子郵件內容和歷程。 它會將其轉換為[!DNL Journey Optimizer]內容範本和歷程，以便您可以擷取離開的位置，而不是從頭開始重建所有內容。
 

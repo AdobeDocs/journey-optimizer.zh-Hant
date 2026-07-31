@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 15%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 1. 選取&#x200B;**[!UICONTROL 頻道產生器]**&#x200B;區段下的&#x200B;**[!UICONTROL 自訂頻道]**。
 
-   ![自訂管道清查](assets/custom_channels_inventory.png){width="70%"}
+   ![自訂管道清查](assets/custom_channels_inventory.png){width="100%"}
 
 1. 詳細目錄會列出您沙箱中的所有自訂管道，包括其目前狀態以及用於連線至外部端點的驗證型別。
 
@@ -60,7 +60,7 @@ ht-degree: 15%
 
 1. 若要封存管道，請從詳細目錄開啟它，然後按一下&#x200B;**[!UICONTROL 封存]**。
 
-   封存使用中管道會將其從所有選取項下拉式清單（行銷活動動作選擇器、歷程動作調色盤、協調的行銷活動管道清單、管道設定和內容範本）中移除。 已使用此管道的現有歷程和行銷活動可繼續正常運作。
+   封存使用中頻道會將它從所有選取專案下拉式清單（行銷活動動作選擇器、歷程動作浮動視窗、<!--orchestrated campaigns channel list,-->頻道設定和內容範本）中移除。 已使用此管道的現有歷程和行銷活動可繼續正常運作。
 
 ## 建立自訂頻道 {#create-channel}
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    ![一般設定](assets/custom_channel_properties.png){width="70%"}
 
-1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，為您的自訂頻道輸入&#x200B;**[!UICONTROL 名稱]**。 此名稱會出現在歷程畫布、行銷活動動作選擇器及協調的行銷活動頻道清單中。
+1. 在&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中，為您的自訂頻道輸入&#x200B;**[!UICONTROL 名稱]**。 此名稱會出現在歷程畫布和行銷活動動作選擇器<!--and orchestrated campaigns channel list-->中。
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ ht-degree: 15%
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![標頭設定](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![標頭設定](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    對於每個標頭，您可以定義其值是否為：
 
@@ -120,11 +120,11 @@ ht-degree: 15%
 
 1. 可選擇使用相同的常數/變數模式，新增&#x200B;**[!UICONTROL 查詢引數]**。 查詢引數會在傳送時附加至端點URL。 常數引數一律會新增相同的值；變數引數會在傳送時解析，例如從設定檔傳遞使用者識別碼。
 
-   ![查詢引數](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![查詢引數](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. 在&#x200B;**[!UICONTROL 原則組態]**&#x200B;區段中，定義[!DNL Journey Optimizer]如何處理要求輸送量和失敗。 這對於確保您的外部系統能夠處理大量請求並避免超出需求非常重要。
 
-   ![原則組態](assets/custom_channel_endpoint_policy_config.png)
+   ![原則組態](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL 啟用節流]** — 預設為停用。 設定每秒要求數上限（預設值： **5,000c**）。 一旦達到限制，請求就會排入佇列，並儘快傳送。
    * **[!UICONTROL 啟用重試]** — 預設為啟用。 設定失敗要求的重試次數上限（預設值： **3**，可設定的範圍： 0-10）。 這有助於避免在暫時性失敗期間讓端點不知所措。

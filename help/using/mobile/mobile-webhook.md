@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
 source-wordcount: 2835
 ht-degree: 3%
@@ -262,7 +262,7 @@ ht-degree: 3%
 
    +++ 自訂
 
-   * 設定單一自訂關鍵字。 當使用者的訊息符合此關鍵字時，該關鍵字會寫入&#x200B;**[!UICONTROL 訊息意見追蹤]**&#x200B;資料集，以用於報告和建立對象。
+   * 設定單一自訂關鍵字。 當使用者的訊息符合此關鍵字時，該關鍵字會寫入&#x200B;**[!UICONTROL AJO電子郵件追蹤]**&#x200B;資料集，以用於報告和建立受眾。
 
    * 建立參照此關鍵字的對象（串流或批次），以用於您的歷程和行銷活動。
 

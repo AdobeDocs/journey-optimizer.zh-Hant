@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 8%
+source-wordcount: '359'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 8%
 
 1. 從&#x200B;**[!UICONTROL 選取管道]**&#x200B;下拉式清單中，選取其中一個已啟動的自訂管道。
 
-   ![選取頻道](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. 如果選取的管道使用驗證（型別不是&#x200B;**無**），則會顯示&#x200B;**[!UICONTROL API認證]**&#x200B;欄位。 選取要用於此設定的認證。 [進一步瞭解API認證](custom-channel-api-credentials.md)
 
@@ -42,17 +42,19 @@ ht-degree: 8%
 
    輸入每個引數的值。 您可以使用個人化編輯器來插入動態值（例如，從設定檔解析的使用者識別碼）。 這可讓您根據每位收件者的設定檔資料自訂其請求。
 
-   ![動態引數](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![動態引數](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. 如果自訂頻道具有啟用&#x200B;**[!UICONTROL 頻道設定]**&#x200B;核取方塊的裝載欄位，這些欄位會顯示在&#x200B;**[!UICONTROL 裝載設定]**&#x200B;區段中。 [了解更多](create-custom-channel.md#payload-configuration)
 
-   ![承載欄位](assets/custom_channel_config_payload.png){width="100%"}
+   ![承載欄位](assets/custom_channel_config_payload.png){width="70%"}
 
    為此設定每個欄位設定適當的值。 這對於可能因行銷活動或歷程情境而異的欄位非常有用，例如寄件者資訊或訊息範本。
 
-1. 針對協調的行銷活動，請完成&#x200B;**[!UICONTROL 執行詳細資料]**&#x200B;區段以對應設定檔維度並指定執行地址。
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![協調行銷活動中的執行詳細資料](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以儲存並啟動頻道設定。
 
@@ -68,4 +70,4 @@ ht-degree: 8%
 
 * [建立自訂管道體驗](create-custom-experience.md)
 * [測試您的自訂頻道](test-custom-channel.md)
-* [監視自訂通道](configure-custom-channel.md)
+* [監視自訂通道](monitor-custom-channel.md)

@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -63,7 +63,7 @@ ht-degree: 47%
 1. [設定行銷活動動作](campaign-action.md)
 1. [編輯動作行銷活動內容](campaign-content.md)
 1. [定義「動作」行銷活動對象](campaign-audience.md)
-1. [排程動作行銷活動](campaign-schedule.md)。 選擇性[使用波段](send-using-waves.md)傳送，以批次傳遞一段時間的訊息。
+1. [排程動作行銷活動](campaign-schedule.md)。 選擇性[使用波段](../delivery/send-using-waves.md)傳送，以批次傳遞一段時間的訊息。
 1. [檢閱並啟動動作行銷活動](review-activate-campaign.md)
 
 深入瞭解[完整行銷活動建立工作流程，其中包含特定型別的指南→](get-started-with-campaigns.md#workflow)

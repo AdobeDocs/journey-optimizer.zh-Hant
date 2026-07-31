@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '396'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 9%
 >
 >此功能為有限可用性。 請聯絡您的 Adobe 代表以取得存取權。
 
-設定自訂頻道是管理員工作，每個頻道發生一次。 設定頻道後，行銷人員可以立即在行銷活動、歷程和協調行銷活動中選取它，就像任何原生[!DNL Journey Optimizer]頻道一樣。
+設定自訂頻道是管理員工作，每個頻道發生一次。 設定頻道後，行銷人員可以立即在行銷活動和歷程中選取它，就像任何原生[!DNL Journey Optimizer]頻道一樣。
 
 設定程式包含四個步驟：定義管道本身（端點、驗證、裝載）、管理用於驗證請求的API認證、選擇性地委派子網域以進行連結追蹤，以及最終建立行銷人員將在編寫時選取的管道設定。
 

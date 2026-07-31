@@ -1,12 +1,12 @@
 ---
 title: 開始使用自訂管道
-description: 瞭解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 並將其用於行銷活動、歷程及協調的行銷活動。
+description: 瞭解如何使用 [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer] 並將其用於行銷活動和歷程。
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的自訂管道、它們與自訂動作的比較，以及將任何輸出HTTP端點帶入AJO的整體工作流程，以便用於行銷活動、歷程及協調的行銷活動。
+**在此頁面上：**&#x200B;瞭解Adobe Journey Optimizer中的自訂管道、它們與自訂動作的比較，以及將任何輸出HTTP端點帶入AJO的整體工作流程，以便用於行銷活動和歷程。
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 <!--Multilingual support, business rules enforcement, and [!DNL Adobe Experience Decisioning] integration are planned for a future release.-->
 
-[!DNL Journey Optimizer]的&#x200B;**自訂管道**&#x200B;功能可讓您將任何傳出管道匯入[!DNL Journey Optimizer]，以便用於行銷活動、歷程及協調的行銷活動，就像任何原生管道一樣。 使用&#x200B;**頻道產生器**，管理員可以建立及設定新的頻道，而不需要工程部門的介入，行銷人員可以立即開始使用這些頻道與客戶通訊。
+[!DNL Journey Optimizer]的&#x200B;**自訂管道**&#x200B;功能可讓您將任何傳出管道匯入[!DNL Journey Optimizer]，以便用於行銷活動和歷程，就像任何原生管道一樣。 使用&#x200B;**頻道產生器**，管理員可以建立及設定新的頻道，而不需要工程部門的介入，行銷人員可以立即開始使用這些頻道與客戶通訊。
 
 ## 它可解決什麼問題？ {#why-custom-channels}
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 如果您之前在[!DNL Journey Optimizer]歷程中使用過[自訂動作](../action/action.md)，自訂管道會處理一組不同的使用案例。
 
-**當您需要透過[!DNL Journey Optimizer]未原生支援的平台（例如WeChat、Kakao Talk或自訂訊息閘道）傳送訊息給使用者時**，請使用自訂頻道。 行銷活動、歷程及協調的行銷活動皆提供自訂頻道，以及支援：
+**當您需要透過[!DNL Journey Optimizer]未原生支援的平台（例如WeChat、Kakao Talk或自訂訊息閘道）傳送訊息給使用者時**，請使用自訂頻道。 行銷活動和歷程中提供自訂頻道，以及支援：
 
 * 透過個人化編輯器完全個人化，類似於原生傳出頻道
 * 視覺/表單裝載編輯器、預覽和校訂
@@ -92,10 +92,40 @@ ht-degree: 5%
 
 設定和使用自訂管道會遵循以下主要階段：
 
-1. **設定** （管理員） — 管理員會在&#x200B;**頻道產生器**&#x200B;中建立自訂頻道，定義端點、驗證、節流原則及訊息裝載結構。 接著會建立管道設定並連結至自訂管道。 [了解更多](configure-custom-channel.md)
-1. **建立** （行銷人員） — 行銷人員將自訂管道新增至歷程、行銷活動或精心安排的行銷活動，選取管道設定，並使用[!DNL Journey Optimizer]的個人化編輯器編寫訊息裝載。 [了解更多](create-custom-experience.md)
+1. **設定** （管理員） — 管理員會在&#x200B;**頻道產生器**&#x200B;中建立自訂頻道，定義端點、驗證、節流原則及訊息裝載結構。 接著會建立管道設定並連結至自訂管道。
+1. **建立** （行銷人員） — 行銷人員將自訂管道新增至歷程或行銷活動、選取管道設定，並使用[!DNL Journey Optimizer]的個人化編輯器編寫訊息裝載。
 1. **傳送** — 當設定檔符合資格時，[!DNL Journey Optimizer]會將個人化裝載傳送至設定的端點。 外部系統處理呼叫並傳遞訊息。
-1. **監視** （管理員/行銷人員） — 管理員和行銷人員可以透過[!DNL Journey Optimizer]的報告和監視儀表板來監視自訂頻道的效能和可靠性。 [了解更多](monitor-custom-channel.md)
+1. **監視** （管理員/行銷人員） — 管理員和行銷人員可以透過[!DNL Journey Optimizer]的報告和監視儀表板來監視自訂頻道的效能和可靠性。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="設定" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>設定自訂頻道</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="建立" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>建立自訂管道體驗</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="監視" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>監視自訂頻道</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}

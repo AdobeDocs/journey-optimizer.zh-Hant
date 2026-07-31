@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ ht-degree: 13%
 
 若要隨著時間分批傳送行銷活動訊息，而非一次傳送所有訊息，您可以使用波動傳送。 這有助於平衡負載、支援傳遞能力，並避免壓倒性的下游系統（例如呼叫中心或登陸頁面）。 您可以定義波次的數目、其大小（以百分比或絕對數表示），以及每個波次的排程。
 
-[瞭解如何使用波段傳送](send-using-waves.md)。
+[瞭解如何使用波段傳送](../delivery/send-using-waves.md)。
 
 ## 後續步驟 {#next}
 

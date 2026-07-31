@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 64%
+source-wordcount: 707
+ht-degree: 62%
 
 ---
 
@@ -52,6 +52,7 @@ ht-degree: 64%
 | 高全球參與度 | 廣泛使用的傳訊平台，在許多地區有廣泛的採用 | 觸及已在WhatsApp上活躍的國際受眾 |
 | 豐富互動式訊息 | 支援影像、影片、按鈕和快速回覆 | 產品目錄、具有快速回複選項的約會確認 |
 | 雙向對話體驗 | 收件者可在相同對話串中回覆 | 客戶支援對話、訂單追蹤問題 |
+| 互動式多熒幕體驗 | WhatsApp流程範本可讓您在聊天中建立引導式多步驟互動 | 調查，潛在客戶擷取表單 |
 | 透過官方API的合規性和信任 | 透過Meta已驗證的Cloud API （含傳送者驗證）傳遞 | 建立收件者信任的品牌驗證通訊 |
 | 與其他管道整合 | 可與歷程和行銷活動以及其他管道一起分層 | 使用WhatsApp作為補充接觸點的多管道歷程 |
 

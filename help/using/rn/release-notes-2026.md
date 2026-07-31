@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
 ht-degree: 95%
@@ -1385,7 +1385,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **更新輪廓動作：支援多個輪廓屬性** - **更新輪廓**&#x200B;動作活動現在支援在單一節點中最多更新五個輪廓屬性。 以前，每個動作一次只能更新一個屬性，因此需要多個節點來更新多個屬性。 使用新的&#x200B;**更新其他欄位**&#x200B;按鈕來新增其他欄位/值組，減少版面複雜性並改善效能。 [了解更多](../building-journeys/update-profiles.md)
 
-* **在歷程中波次傳送傳出訊息** - 您現在可以排程來自 Journey Optimizer 歷程的訊息，在一段時間內以受控批次方式傳送。 [了解更多](../building-journeys/send-using-waves.md)
+* **在歷程中波次傳送傳出訊息** - 您現在可以排程來自 Journey Optimizer 歷程的訊息，在一段時間內以受控批次方式傳送。 [了解更多](../delivery/send-using-waves.md)
 
   此功能之前以「有限可用性」的名義發行並供歷程使用，目前所有環境都適用 (一般可用性)。
 
