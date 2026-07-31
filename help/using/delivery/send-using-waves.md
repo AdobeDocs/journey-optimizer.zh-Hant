@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
+source-git-commit: 1a025ae1d15bc10ab9c0d02526a9b765ae17c2cd
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%

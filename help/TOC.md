@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 19f34fc38ae8325f077149067584183cdcd353bd
+source-git-commit: 1a025ae1d15bc10ab9c0d02526a9b765ae17c2cd
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 94%
@@ -257,8 +257,8 @@ ht-degree: 94%
     + [使用 AI 模型來排名歷程](using/conflict-prioritization/journey-ai-models.md)
 + 傳遞設定 {#delivery-settings}
   + [使用波段傳送](using/delivery/send-using-waves.md)
-  + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
   + [頻道最佳化](using/building-journeys/channel-optimization.md)
+  + [傳送時間最佳化](using/building-journeys/send-time-optimization.md)
 + 測試並核准 {#test}
   + [測試、驗證及核准](/help/rp_landing_pages/test-landing-page.md)
   + 預覽與測試內容 {#preview-test}
@@ -570,7 +570,7 @@ ht-degree: 94%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
