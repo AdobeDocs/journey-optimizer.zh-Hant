@@ -10,23 +10,12 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
 source-wordcount: 992
@@ -65,7 +54,7 @@ ht-degree: 62%
 
 在Adobe Journey Optimizer中產生內容，由Microsoft Azure OpenAI和Adobe Firefly提供技術支援，針對文字和影像提供主動式內容變數建議。 這項新功能提供&#x200B;**提示型文字與影像產生功能**。 透過 Adobe Firefly 管理影像產生功能。
 
-「產生內容」支援以多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
+「產生內容」支援以多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -162,7 +151,7 @@ ht-degree: 62%
 ### 合法使用與透明度
 
 * 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在內容或專案包含Content Credentials產生的資產下載或匯出時套用Firefly。[進一步瞭解](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* 作為Adobe提升在媒體建立中使用創作AI工具之透明度的承諾的一部分，Adobe將在內容或專案包含Content Credentials產生的資產下載或匯出時套用Firefly。[進一步瞭解](https://helpx.adobe.com/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 產生個人化運算式的內容 {#ai-assistant-personalization-editor-guardrails}
