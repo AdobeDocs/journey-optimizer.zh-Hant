@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您根據業務目標和客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 自動最佳化模型
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 結合 Adobe 解決方案以管理內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的跨解決方案使用案例可讓您順暢地與其�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=zh-Hant)
 
 使用 Adobe Stock 影像
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 決策管理快速入門
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 建立及管理決策元件
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立和管理產品建議
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立和管理決定
 

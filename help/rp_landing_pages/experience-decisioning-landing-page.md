@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 決策簡介
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 決策護欄與限制
 
@@ -60,7 +60,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 管理決策項目與目錄
 
@@ -70,7 +70,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 建立決策規則
 
@@ -80,7 +80,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 使用 AI 模型建立排名
 
