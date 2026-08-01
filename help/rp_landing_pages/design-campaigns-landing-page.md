@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 使用合併連結活動
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的協調行銷活動可讓您設計順暢、資料�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 合併活動
 

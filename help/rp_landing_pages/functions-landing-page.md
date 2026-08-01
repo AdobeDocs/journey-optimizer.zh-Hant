@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用協助程式函式
 

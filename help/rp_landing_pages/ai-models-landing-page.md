@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用 AI 模型
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 了解自動最佳化模型
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的 AI 模型可協助您透過排名產品建議來�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 了解個人化最佳化模型
 
