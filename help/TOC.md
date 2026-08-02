@@ -6,13 +6,12 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 94%
 
 ---
-
 
 # Adobe Journey Optimizer 說明 {#using}
 
@@ -207,7 +206,7 @@ ht-degree: 94%
       + [協調活動](using/orchestrated/orchestrate-activities.md)
       + [新增個人化](using/orchestrated/add-personalization.md)
       + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
-      + [報表](using/orchestrated/reporting-campaigns.md)
+      + [報告](using/orchestrated/reporting-campaigns.md)
     + 查詢資料庫 {#query-database}
       + [查詢資料庫](/help/rp_landing_pages/query-database-landing-page.md)
       + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
@@ -570,7 +569,7 @@ ht-degree: 94%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-content-credentials.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
@@ -604,8 +603,8 @@ ht-degree: 94%
       + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
   + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-  + 對象 {#audiences}
-    + [對象](/help/rp_landing_pages/audiences-landing-page.md)
+  + 客群 {#audiences}
+    + [客群](/help/rp_landing_pages/audiences-landing-page.md)
     + [開始使用 Audiences](using/audience/about-audiences.md)
     + 建立客群 {#create}
       + [建立客群](/help/rp_landing_pages/create-landing-page.md)
@@ -622,8 +621,8 @@ ht-degree: 94%
     + [使用計算屬性](using/audience/computed-attributes.md)
   + [身分識別](using/audience/get-started-identity.md)
   + [授權使用情況](using/audience/license-usage.md)
-+ 報表 {#reporting}
-  + [報表](/help/rp_landing_pages/reporting-landing-page.md)
++ 報告 {#reporting}
+  + [報告](/help/rp_landing_pages/reporting-landing-page.md)
   + [開始使用報告](using/reports/gs-reports.md)
   + 即時報告 {#live-report}
     + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)

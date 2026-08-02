@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,3 +290,4 @@ Wave傳送可協助您控制何時傳送以及傳送多少訊息，改善傳遞�
 * **問：每個波段是否重新評估對象？**  — 否；啟用時會擷取對象。 在Wave處理時讀取設定檔屬性（個人化、同意）。
 
 +++
+
