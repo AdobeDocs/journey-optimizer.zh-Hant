@@ -34,7 +34,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->CX Co-worker中的[!TAB Journey Optimizer技能]
+>[!TAB CX Co-worker中的 Journey Optimizer技能]
 
 我們已新增CX Co-worker **中** Journey Optimizer技能的檔案頁面，包含&#x200B;**以歷程為中心**&#x200B;及&#x200B;**以忠誠度為中心**&#x200B;的技能，並附上指引和範例提示。
 
