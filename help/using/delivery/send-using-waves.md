@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 1%
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 波動傳送僅適用於&#x200B;**傳出**&#x200B;動作（電子郵件、簡訊、推播、直接郵件）。
 * 波段開始不能早於行銷活動開始。
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 設定波段傳送 {#configure-wave-sending}
 
