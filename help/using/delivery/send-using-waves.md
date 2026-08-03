@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ ht-degree: 1%
 1. 選擇如何定義波次大小與時間，詳細資訊見下方的[波次大小與時間](#wave-options)區段。
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
