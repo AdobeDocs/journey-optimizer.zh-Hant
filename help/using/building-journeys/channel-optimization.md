@@ -22,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
 workflow-type: tm+mt
 source-wordcount: 1219
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -118,12 +118,12 @@ ht-degree: 2%
 
 1. [儲存並發佈](publish-journey.md)您的歷程，或[檢閱並啟用](../campaigns/review-activate-campaign.md)您的行銷活動。
 
-## 設定頻道最佳化方法 {#optimization-modes}
+## 設定管道最佳化方法 {#optimization-modes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_optimization_method"
->title="定義管道選取的運作方式"
->abstract="選擇Journey Optimizer如何為每個客戶選取最佳管道： **手動優先順序** — 管道會以您定義的順序嘗試；可用性是透過套用與所選管道設定關聯的訂閱偏好設定和行銷同意規則，以及與行銷活動或歷程關聯的所有商業規則（例如管道頻率限定）來決定。 **客戶設定檔屬性** — 首先選取符合客戶在其設定檔中宣告偏好設定的管道。 如果找不到偏好設定，則會套用手動優先順序。 **AI最佳化** — 機器學習模型會根據客戶的歷史參與為每個管道評分，並選取最高評分的可用管道。"
+>title="定義管道選擇的運作方式"
+>abstract="選擇 Journey Optimizer 如何為每個客戶選取最佳管道：**手動優先順序**，管道會以您定義的順序嘗試；可用性是透過套用與所選管道設定關聯的訂閱偏好設定和行銷同意規則，以及與行銷活動或歷程關聯的所有業務規則 (例如管道頻率上限) 來決定。 **客戶輪廓屬性**，會先選取與客戶在其輪廓中宣告的偏好設定相符的管道。 如果找不到偏好設定，則會套用手動優先順序。 **AI 最佳化**，機器學習模型會根據客戶的歷史參與度為每個管道評分，並選取最高評分的可用管道。"
 
 <!--
 Previous content for contextual help: "The customer's first available channel, based on the selected prioritization method, is used for this action. Availability is determined by the customer's subscription preferences and marketing consent rules for the selected channel configurations, as well as any business rules — such as frequency capping — configured for the campaign or journey." TBC which to keep.
@@ -185,4 +185,3 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 * [Send-Time optimization](send-time-optimization.md)
 * [Content optimization](../content-management/gs-message-optimization.md)
 -->
-
