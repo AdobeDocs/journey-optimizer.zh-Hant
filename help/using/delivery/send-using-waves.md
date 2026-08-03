@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何將傳出訊息傳遞分割為排程批次（波段），以平衡負載、保護寄件者信譽並改善傳遞能力，這些可在讀取對象歷程、動作行銷活動和協調行銷活動中使用。
+**在此頁面上：**&#x200B;瞭解如何將傳出訊息傳遞分割成排程批次（稱為波段），以平衡負載、保護寄件者信譽並改善傳遞能力。 波次傳送可用於讀取對象歷程、動作行銷活動和協調的行銷活動。
 
 >[!ENDSHADEBOX]
 
