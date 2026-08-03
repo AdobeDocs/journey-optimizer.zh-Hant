@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6defc249832fd571706a3d20679deeb441309354
+source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 91%
@@ -34,7 +34,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Co-worker中的 Journey Optimizer技能]
+>CX Co-worker中的[!TAB Journey Optimizer技能]
 
 我們已新增CX Co-worker **中** Journey Optimizer技能的檔案頁面，包含&#x200B;**以歷程為中心**&#x200B;及&#x200B;**以忠誠度為中心**&#x200B;的技能，並附上指引和範例提示。
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 ::::landing-cards-container
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新發行說明
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 快速入門
 
@@ -74,7 +74,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 完整的歷程指南
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 了解及管理行銷活動
 
@@ -94,7 +94,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通訊管道
 
@@ -104,7 +104,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 衝突管理與優先順序
 
@@ -145,3 +145,4 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
 <b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table
 -->
+
