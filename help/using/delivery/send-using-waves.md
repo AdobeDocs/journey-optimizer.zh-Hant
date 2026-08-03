@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 限制和護欄 {#limitations-guardrails}
 
-下列限制適用於所有內容：
+下列限制適用於任何內容中的波動傳送：
 
 * 您必須定義至少&#x200B;**2個波段**，最多可新增&#x200B;**10個波段**。
 * 兩個波段開始的最小間隔為&#x200B;**30分鐘**。
