@@ -8,7 +8,8 @@ role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 593
@@ -56,7 +57,7 @@ ht-degree: 2%
 
    ![](assets/gen-model-manage-6.png){zoomable="yes"}
 
-1. 按一下[新增模型]****，從頭開始建立新的產生模型。
+1. 按一下[新增模型]&#x200B;**&#x200B;**，從頭開始建立新的產生模型。
 
 現在當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 

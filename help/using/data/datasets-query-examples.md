@@ -10,11 +10,23 @@ level: Experienced
 keywords: 資料集，最佳化工具，使用案例
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1152
@@ -42,7 +54,7 @@ ht-degree: 2%
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
-另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
@@ -286,9 +298,9 @@ group by
 ```
 
 
-另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 ## 決策事件資料集{#ode-decisionevents}
 
