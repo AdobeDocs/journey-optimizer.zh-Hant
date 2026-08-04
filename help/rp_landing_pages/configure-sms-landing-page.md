@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 簡訊/MMS/RCS 管道設定快速入門
 

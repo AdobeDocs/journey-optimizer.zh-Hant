@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的「設定程式碼型管道」區段可讓您透�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 程式碼型體驗表面
 

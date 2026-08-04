@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 步驟事件欄位清單
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 舊版步驟事件欄位
 

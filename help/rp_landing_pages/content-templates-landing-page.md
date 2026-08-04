@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 存取並管理範本
 

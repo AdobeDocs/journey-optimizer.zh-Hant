@@ -20,7 +20,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 產生內容快速入門
 

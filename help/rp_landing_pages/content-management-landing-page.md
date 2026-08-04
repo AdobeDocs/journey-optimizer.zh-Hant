@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 新增個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立登陸頁面
 

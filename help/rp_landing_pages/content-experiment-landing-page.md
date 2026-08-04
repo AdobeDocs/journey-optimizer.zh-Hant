@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立及擴大內容實驗
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 實驗的進階統計技術
 

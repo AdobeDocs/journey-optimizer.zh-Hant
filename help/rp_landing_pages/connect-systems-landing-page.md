@@ -20,7 +20,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將 Adobe Journey Optimizer 與其他解決方案整合
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 將您的歷程與外部系統整合
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 使用 Adobe 解決方案傳送
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 可讓您順暢地連線系統和環境，確保您的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的沙箱管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的沙箱管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用來源連接器
 

@@ -41,7 +41,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 動作行銷活動
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的行銷活動可讓您跨管道提供個人化、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 由 API 觸發的行銷活動
 
