@@ -176,7 +176,7 @@ ht-degree: 14%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
 
 +++ AI知識參考
 
