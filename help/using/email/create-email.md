@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
 workflow-type: tm+mt
 source-wordcount: 1901
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="電子郵件建立"
 >abstract="定義您的電子郵件主旨行，然後開啟電子郵件設計工具來建立電子郵件內容。"
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="參加AI內容課程"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="參加 AI 內容課程"
 
 
 ## 新增電子郵件動作 {#email-action}

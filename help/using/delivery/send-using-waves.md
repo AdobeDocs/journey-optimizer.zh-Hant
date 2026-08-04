@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何將傳出訊息傳遞分割為排程批次（波段），以平衡負載、保護寄件者信譽並改善傳遞能力，這些可在讀取對象歷程、動作行銷活動和協調行銷活動中使用。
+**在此頁面上：**&#x200B;瞭解如何將傳出訊息傳遞分割成排程批次（稱為波段），以平衡負載、保護寄件者信譽並改善傳遞能力。 波次傳送可用於讀取對象歷程、動作行銷活動和協調的行銷活動。
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ## 限制和護欄 {#limitations-guardrails}
 
-下列限制適用於所有內容：
+下列限制適用於任何內容中的波動傳送：
 
 * 您必須定義至少&#x200B;**2個波段**，最多可新增&#x200B;**10個波段**。
 * 兩個波段開始的最小間隔為&#x200B;**30分鐘**。
@@ -58,14 +58,14 @@ ht-degree: 1%
 * 波動傳送僅適用於&#x200B;**傳出**&#x200B;動作（電子郵件、簡訊、推播、直接郵件）。
 * 波段開始不能早於行銷活動開始。
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## 設定波段傳送 {#configure-wave-sending}
 
