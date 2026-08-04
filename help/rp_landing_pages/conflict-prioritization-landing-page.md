@@ -31,7 +31,7 @@ Adobe Journey Optimizer 中的衝突管理和優先順序可防止客戶疲勞�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 識別潛在衝突
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的成功取決於專家團隊的通力合作，每個�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 資料工程師快速入門
 

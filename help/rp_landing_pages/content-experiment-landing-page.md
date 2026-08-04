@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的內容實驗可讓您透過比較不同內容變�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用內容實驗
 

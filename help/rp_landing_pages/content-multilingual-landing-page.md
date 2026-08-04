@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的多語言內容功能可讓您建立多種語言�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用多語言內容
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的多語言內容功能可讓您建立多種語言�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 使用手動翻譯建立多語言內容
 
