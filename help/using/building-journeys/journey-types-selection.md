@@ -10,26 +10,16 @@ keywords: 歷程型別，單一，讀取對象，對象資格，業務事件，�
 version: Journey Orchestration
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
 source-wordcount: 2296
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -104,12 +94,12 @@ ht-degree: 1%
 | 您的目標 | 建議的歷程型別 | 原因 |
 |-----------|--------------------------|-----|
 | 復原捨棄的購物車 | 單一事件 | 對個人行為立即回應 |
-| 傳送每月電子報給訂閱者 | 讀取對象 | 排定的批次通訊 |
+| 傳送每月電子報給訂閱者 | 讀取受眾 | 排定的批次通訊 |
 | 當客戶達到VIP狀態時通知客戶 | 客群鑑定 | 對串流受眾進入的即時回應 |
 | 提醒客戶留意已觀看專案的庫存不足 | 業務事件 | 業務狀況影響多個客戶 |
 | 歡迎新應用程式使用者 | 單一事件或對象資格 | 註冊事件（單一事件）或進入新使用者串流對象（對象資格） |
-| 重新與非作用中客戶互動（週期性、已排程） | 讀取對象 | 針對非活動對象重複執行批次 |
-| 目標區段的季節性促銷 | 讀取對象 | 已排程行銷活動給對象 |
+| 重新與非作用中客戶互動（週期性、已排程） | 讀取受眾 | 針對非活動對象重複執行批次 |
+| 目標區段的季節性促銷 | 讀取受眾 | 已排程行銷活動給對象 |
 | 快閃銷售公告 | 業務事件 | 業務決策影響多個客戶 |
 | 客戶達到金級忠誠度時立即回應 | 客群鑑定 | 串流對象，即時個人登入 |
 
@@ -132,7 +122,7 @@ ht-degree: 1%
 
 並非所有功能都適用於所有歷程型別。 使用此矩陣來瞭解哪些功能適用於哪些歷程型別：
 
-| 功能 | 單一事件 | 讀取對象 | 客群鑑定 | 業務事件 |
+| 功能 | 單一事件 | 讀取受眾 | 客群鑑定 | 業務事件 |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
 | **進入機制** | | | | |
 | 事件觸發的專案 | ✅ | ❌ | ❌ | ✅ （業務事件會觸發歷程；設定檔會透過內部讀取對象步驟進入） |

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 了解舊版欄位
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 歷程欄位概觀
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 歷程步驟事件的常見欄位
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 動作執行欄位
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 資料擷取欄位
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的舊版步驟事件欄位對於監視和分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 JourneyStep 身分識別欄位
 

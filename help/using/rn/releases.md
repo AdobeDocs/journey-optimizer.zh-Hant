@@ -9,17 +9,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
 workflow-type: tm+mt
 source-wordcount: 993
@@ -111,7 +104,7 @@ ht-degree: 90%
 
 您將會找到下列有關[!DNL Adobe Journey Optimizer]發行週期的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 何時排程[!DNL Adobe Journey Optimizer]發行？
 
@@ -135,7 +128,7 @@ ht-degree: 90%
 
 +++ 所有功能都會經歷 Beta 和有限可用性階段嗎？
 
-否。 視其性質和整備程度而定，部分功能會直接發行至 GA 或僅發行至 LA。 發行路徑會針對每項功能量身打造，以平衡靈敏度、品質和穩定性。
+沒有。 視其性質和整備程度而定，部分功能會直接發行至 GA 或僅發行至 LA。 發行路徑會針對每項功能量身打造，以平衡靈敏度、品質和穩定性。
 
 +++
 

@@ -6,12 +6,9 @@ description: 瞭解如何使用Adobe Journey Optimizer建立協調的行銷活�
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 981
@@ -117,7 +114,7 @@ ht-degree: 45%
 * **[!UICONTROL 合併]**&#x200B;活動會排除忠誠度低於 50 點的客戶，
 * **[!UICONTROL 電子郵件傳遞]**&#x200B;活動會傳送電子郵件給產生的客戶。
 
-當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多](trigger-orchestrated-campaign.md#signal-end)。
+當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多資訊](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 後續步驟 {#next}
 

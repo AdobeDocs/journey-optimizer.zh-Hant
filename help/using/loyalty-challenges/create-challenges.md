@@ -362,9 +362,9 @@ ht-degree: 12%
 
 **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
 
->[!VIDEO](https://video.tv.adobe.com/v/3496480?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **設定獎勵** — 設定獎勵傳遞與履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496490?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 

@@ -47,12 +47,12 @@ Content Credentials是長效的隱藏中繼資料，可記錄內容的建立或�
 
 ## 內容移動時發生什麼事 {#cc-content-moves}
 
-Content Credentials會隨影像檔案移動。 從Adobe Journey Optimizer下載或匯出使用產生AI產生或編輯的影像時，會保留其Content Credentials。 [進一步瞭解Content Credentials](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}。
+Content Credentials會隨影像檔案移動。 從Adobe Journey Optimizer下載或匯出使用產生AI產生或編輯的影像時，會保留其Content Credentials。 [進一步瞭解Content Credentials](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}。
 
 將影像帶入內容的某些方法(例如從PDF或內嵌(base64)來源擷取影像)可能無法保留原始Content Credential。 在這些情況下，無法從來源讀取任何Content Credential，也不會針對結果建立任何專案。
 
 ## 其他資源
 
-* [Adobe Content Credentials](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}：進一步瞭解Content Credentials如何跨Adobe產品運作。
+* [Adobe Content Credentials](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}：進一步瞭解Content Credentials如何跨Adobe產品運作。
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [護欄與限制](gs-generative.md#generative-guardrails)

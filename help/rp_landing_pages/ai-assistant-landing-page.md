@@ -8,7 +8,7 @@ exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 31%
+ht-degree: 35%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 產生內容快速入門
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 產生完整內容
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 僅產生文字
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer的產生內容功能利用產生式人工智慧為電子
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 僅產生影像
 

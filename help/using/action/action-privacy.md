@@ -13,7 +13,7 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: 1421
 ht-degree: 94%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 94%
 定義標籤與行銷動作後，您可以建立連結這兩個元素的&#x200B;**資料治理原則**。 例如，您可以設定將「ePHI」標籤與「電子郵件目標定位」行銷動作建立關聯的原則，確保標記為「ePHI」的欄位不會用於個人化電子郵件訊息。 [了解如何建立資料治理原則](#policy)
 
 建立治理原則後，您可以將行銷動作套用至歷程/行銷活動以及歷程自訂動作。
-[瞭解如何在 Journey Optimizer 中套用行銷動作](#apply-marketing-actions)
+[了解如何在 Journey Optimizer 套用行銷動作](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >

@@ -142,7 +142,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在行銷策略中結合歷程和行銷活動嗎？
 
-可以。 許多組織會針對不同情境使用所有方法：
+有。 許多組織會針對不同情境使用所有方法：
 
 * **行為即時參與歷程**
 * 針對排程通訊或傳入啟用的&#x200B;**動作行銷活動**
@@ -178,7 +178,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在歷程和行銷活動中使用相同的對象嗎？
 
-可以。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
+有。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
 
 +++
 

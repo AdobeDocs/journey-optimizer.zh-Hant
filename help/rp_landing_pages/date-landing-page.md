@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的日期函式可讓您順暢地處理時間相關�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 函式參考
 
@@ -31,7 +31,7 @@ currentTimeInMillis 函式參考
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 函式
 
@@ -41,7 +41,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastHours 函式
 
@@ -51,7 +51,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastMonths 函式
 
@@ -61,7 +61,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 使用 inLastYears 函式
 
@@ -71,7 +71,7 @@ inLastDays 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 函式
 

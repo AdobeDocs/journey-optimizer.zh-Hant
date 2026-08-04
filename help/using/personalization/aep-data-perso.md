@@ -11,19 +11,12 @@ level: Intermediate
 keywords: 運算式，編輯器
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 TQID: https://experienceleague.adobe.com/DRnUwE5hO6ysGY9D9NeqgAHESjd8HHsCpiHDeqHLiJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: f0577040-fadd-46a1-b0ae-9c7f828bb2da
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1335
@@ -76,7 +69,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
    +++在哪裡擷取資料集ID？
 
-   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
+   可在Adobe Experience Platform使用者介面中擷取資料集ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}中瞭解如何使用資料集。
 
    ![](assets/aep-data-dataset.png)
 
@@ -109,7 +102,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
      +++在何處擷取欄位ID？
 
-     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
+     在Adobe Experience Platform使用者介面中預覽資料集時，可以擷取欄位ID。 在[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}中瞭解如何預覽資料集。
 
      ![](assets/aep-data-field.png)
 
@@ -120,7 +113,7 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. 現在您的程式碼已準備就緒，您可以照常完成您的內容，並使用模擬方法進行測試：按一下「模擬內容」**[!UICONTROL 以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。**&#x200B;**&#x200B;**&#x200B;[瞭解如何預覽和測試內容](../content-management/preview-test.md)
+1. 現在您的程式碼已準備就緒，您可以照常完成您的內容，並使用模擬方法進行測試：按一下「模擬內容」**[!UICONTROL 以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」]**，以使用測試設定檔預覽。]****[!UICONTROL **[!UICONTROL [瞭解如何預覽和測試內容](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

@@ -10,25 +10,15 @@ level: Beginner
 keywords: 歷程，行銷活動，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2515
+source-wordcount: 2546
 ht-degree: 2%
 
 ---
@@ -94,7 +84,7 @@ ht-degree: 2%
 * 以行為為基礎的條件式邏輯
 * 即時上下文至關重要
 
-**在排程的時間向對象傳送簡單訊息？**
+**在排程的時間將簡單的訊息傳送給對象？**
 → **使用動作行銷活動**
 * 所有設定檔都會同時接收訊息
 * 排程或週期性傳送
@@ -247,7 +237,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在行銷策略中結合歷程和行銷活動嗎？
 
-可以。 許多組織會針對不同情境使用所有方法：
+有。 許多組織會針對不同情境使用所有方法：
 
 * **行為即時參與歷程**
 * 針對排程通訊或傳入啟用的&#x200B;**動作行銷活動**
@@ -283,7 +273,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在歷程和行銷活動中使用相同的對象嗎？
 
-可以。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
+有。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
 
 +++
 

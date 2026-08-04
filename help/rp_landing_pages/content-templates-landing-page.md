@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用內容範本
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 存取並管理範本
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 建立內容範本
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 鎖定電子郵件範本中的內容
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立內容範本
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 使用內容範本
 

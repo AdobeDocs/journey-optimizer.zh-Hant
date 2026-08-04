@@ -9,28 +9,15 @@ role: User
 level: Beginner
 exl-id: 9dd3970c-cf24-424c-b734-f30571374942
 TQID: https://experienceleague.adobe.com/-XlVD0y5JOVf04u8AolPd3c5MQmt9h39gC-aulCjp6c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 8d7dc9c39744bdaa6fa65f5808d538835631beaf
 workflow-type: tm+mt
-source-wordcount: 1597
+source-wordcount: 1598
 ht-degree: 3%
 
 ---
@@ -45,7 +32,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
 >您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用「產生內容」。 如需詳細資訊，請聯絡您的 Adobe 代表。
@@ -63,7 +50,7 @@ ht-degree: 3%
 1. 建立及設定您的行銷活動或歷程：
 
    * **電子郵件**：建立並設定您的電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../email/create-email.md)
-   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]&#x200B;**&#x200B;**。 [了解更多](../web/create-web.md)
+   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]****。 [了解更多](../web/create-web.md)
    * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 開啟設計工具]**。 [了解更多](../landing-pages/create-lp.md)
 
 1. 選取&#x200B;**[!UICONTROL 文字元件]**&#x200B;以僅鎖定特定內容，並存取&#x200B;**[!UICONTROL 產生內容]**&#x200B;功能表（或&#x200B;**[!UICONTROL 顯示產生網頁內容]**）。
@@ -98,7 +85,7 @@ ht-degree: 3%
 
    ![品牌資產下拉式功能表](assets/text-genai-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -132,7 +119,7 @@ ht-degree: 3%
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。 **&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
+1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」****，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**[!UICONTROL ，以使用測試設定檔預覽。 ****[了解更多](../content-management/preview-test.md)
 
 1. 檢閱並啟用您的內容：
    * **電子郵件**：當您定義內容、對象和排程時，就可以準備電子郵件行銷活動了。 [了解更多](../campaigns/review-activate-campaign.md)
@@ -187,7 +174,7 @@ ht-degree: 3%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 
@@ -223,6 +210,6 @@ ht-degree: 3%
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。 **&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
+1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」****，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**[!UICONTROL ，以使用測試設定檔預覽。 ****[了解更多](../content-management/preview-test.md)
 
 當您定義內容、對象和排程時，就能準備好準備行動裝置行銷活動。 [了解更多](../campaigns/review-activate-campaign.md)

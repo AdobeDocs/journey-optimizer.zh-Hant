@@ -8,10 +8,8 @@ level: Experienced
 hide: true
 badge: label="有限可用性" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 2044
@@ -109,7 +107,7 @@ ht-degree: 3%
 * 承載引數： `payload.<parameter-name>`
 * 路徑引數： `dynamic_path.<parameter-name>`
 
-例如:
+例如：
 
 ```
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
@@ -209,7 +207,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 為了協助進行偵錯，外部資料查詢的逾時和錯誤詳細資料包含在Adobe Experience Platform Assurance的Edge Delivery檢視中。 如果您在傳入動作中看不到externalDataLookup協助程式的預期結果，您可以啟動Assurance工作階段、從Web或行動實作起始[!DNL Journey Optimizer]呼叫，並使用Edge Delivery檢視來檢查逾時或錯誤詳細資料。
 
-例如:
+例如：
 
 在執行詳細資訊中的保證追蹤的Edge Delivery區段底下，已新增新的customActions區塊，其請求和回應詳細資訊類似於以下內容。 如果在執行自訂動作時發生任何問題，錯誤區段應該有助於進行偵錯
 
@@ -219,7 +217,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 您可以在下方找到有關外部資料查詢協助程式的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何將內容屬性從請求以引數的形式傳遞至外部資料查詢？
 

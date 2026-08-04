@@ -35,13 +35,13 @@ Web應用程式內傳訊功能需要最新版的Web SDK標籤擴充功能。
 default-src  blob:;
 ```
 
-如需設定CSP的詳細資訊，請參閱[資料收集檔案](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=zh-Hant){target="_blank"}。
+如需設定CSP的詳細資訊，請參閱[資料收集檔案](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}。
 
 ## 使用Web SDK標籤擴充功能設定Web應用程式內訊息 {#tag-extension}
 
-請參閱[網頁SDK標籤擴充功能組態頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant){target="_blank"}，瞭解您可在何處找到下述設定。
+請參閱[網頁SDK標籤擴充功能組態頁面](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}，瞭解您可在何處找到下述設定。
 
-在您[安裝](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=zh-Hant#install-the-web-sdk-tag-extension){target="_blank"} Web SDK標籤擴充功能後，請依照下列步驟設定Web應用程式內傳訊的擴充功能。
+在您[安裝](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} Web SDK標籤擴充功能後，請依照下列步驟設定Web應用程式內傳訊的擴充功能。
 
 在&#x200B;**[!UICONTROL Personalization]**&#x200B;區段中，勾選&#x200B;**[!UICONTROL 啟用個人化儲存空間]**&#x200B;選項。 此選項可讓Web SDK追蹤使用者在頁面載入過程中看過哪些體驗。
 
@@ -172,7 +172,7 @@ Web應用程式內傳訊支援兩種型別的觸發器：
 
 您可以透過`personalizationStorageEnabled`設定選項，選擇在使用者設定次數內或每次造訪頁面時，向使用者顯示應用程式內訊息。
 
-在[網頁SDK組態](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant){target="_blank"}中，根據您的需求設定`personalizationStorageEnabled`選項：
+在[網頁SDK組態](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"}中，根據您的需求設定`personalizationStorageEnabled`選項：
 
 * `personalizationStorageEnabled: true`會以您在[行銷活動](create-in-app-web.md#configure-inapp)中定義的頻率觸發應用程式內訊息。
 * `personalizationStorageEnabled: false`會在每次頁面載入時觸發應用程式內訊息。

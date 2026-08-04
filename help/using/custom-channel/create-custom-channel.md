@@ -8,7 +8,7 @@ level: Experienced
 badge: label="有限可用性" type="Informative"
 source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1584'
 ht-degree: 15%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 15%
 
    * **[!UICONTROL 啟用節流]** — 預設為停用。 設定每秒要求數上限（預設值： **5,000c**）。 一旦達到限制，請求就會排入佇列，並儘快傳送。
    * **[!UICONTROL 啟用重試]** — 預設為啟用。 設定失敗要求的重試次數上限（預設值： **3**，可設定的範圍： 0-10）。 這有助於避免在暫時性失敗期間讓端點不知所措。
-   * **[!UICONTROL 逾時]** — 預設值： **5,000毫秒**。設定在認為要求失敗之前等待端點回應的時間上限。
+   * **[!UICONTROL 逾時]** — 預設值： **5,000毫秒**。 設定在認為要求失敗之前等待端點回應的時間上限。
      <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## 驗證設定 {#authentication-settings}
@@ -171,7 +171,7 @@ ht-degree: 15%
 
 1. 按一下&#x200B;**[!UICONTROL 定義承載]**，然後選擇如何定義承載：
 
-   * **[!UICONTROL 貼上範例JSON裝載]** — 貼上代表性的JSON物件，然後[!DNL Journey Optimizer]自動推斷出其中的結構描述。 例如:
+   * **[!UICONTROL 貼上範例JSON裝載]** — 貼上代表性的JSON物件，然後[!DNL Journey Optimizer]自動推斷出其中的結構描述。 例如：
 
      ```json
      {

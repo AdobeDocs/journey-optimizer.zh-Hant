@@ -21,7 +21,7 @@ Adobe Journey Optimizer 中的彙總函式可讓您從複雜的資料集中彙�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的 avg 函式
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 的 avg 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Count 函式文件
 
@@ -41,7 +41,7 @@ Count 函式文件
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull 函式 — 計算清單中的 Null 值
 
@@ -51,7 +51,7 @@ countOnlyNull 函式 — 計算清單中的 Null 值
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull 函式概觀
 
@@ -61,7 +61,7 @@ countWithNull 函式概觀
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer 的 distinctCount 函式
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer 的 distinctCount 函式
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctCountWithNull 函式：計算唯一值 (包括 Null)
 
