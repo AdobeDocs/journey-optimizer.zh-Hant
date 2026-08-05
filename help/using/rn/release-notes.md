@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
 workflow-type: tm+mt
 source-wordcount: 3121
 ht-degree: 19%
@@ -47,6 +35,29 @@ ht-degree: 19%
 >[!NOTE]
 >
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更在您的環境中可用的時間。 **即將推出**&#x200B;摺疊式版面中的項目預計將在未來幾天或幾週內推出。 這些部分的資訊可能會有變更。
+
+## 2026年8月更新 {#aug-26-updates}
+
+### 內容管理
+
+<table>
+<thead>
+<tr>
+<th><strong>AI內容產生的彈性影像來源</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在Journey Optimizer中產生內容現在會直接從Adobe Experience Manager Assets Essentials等來源取得品牌核准的影像。 三種模式可控制平衡：平衡（數位資產管理優先、AI填補差距、預設）、Assets （數位資產管理來源）和Creative (AI)。</p>
+<p><img src="../content-management/assets/image-mode-3.png"></p>
+<p>如需詳細資訊，請參閱<a href="../content-management/generative-uc.md#image-mode">詳細文件</a>以瞭解詳情。</p>
+<p> 推出日期： 2026年8月5日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2026年7月發行說明 {#july-26-updates}
 
@@ -353,12 +364,6 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 * **多語言改善** — 語言設定現在可以從現有的作用中設定複製，因此您不再需要完全重建設定以進行變更。 您也可以在編寫「語言設定」時，將條件從一個地區設定複製到另一個地區設定，以簡化具有多種語言的網站的設定。
 
   推出日期： 2026年7月30日
-
-+++ 即將推出
-
-* **彈性的AI內容產生影像來源** — 在Journey Optimizer中產生內容現在會直接從Adobe Experience Manager Assets Essentials等來源取得品牌核准的影像。 三種模式可控制平衡：Assets （數位資產管理來源，預設）、平衡（數位資產管理優先，AI填補差距）和Creative （AI優先）。 這可確保每個視覺效果都準確、符合品牌規範，並為歷程和行銷活動做好生產準備。
-
-+++
 
 ### 內容與整合 {#july-26-integration}
 

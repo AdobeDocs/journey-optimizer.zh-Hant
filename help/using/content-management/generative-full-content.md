@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2112
 ht-degree: 3%
 
 ---
@@ -59,7 +49,7 @@ ht-degree: 3%
 
 1. 建立及設定您的行銷活動或歷程：
    * **電子郵件**：建立並設定您的電子郵件行銷活動後，請按一下&#x200B;**[!UICONTROL 編輯內容]**。 [了解更多](../campaigns/create-campaign.md)
-   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]&#x200B;**&#x200B;**。 [了解更多](../web/create-web.md)
+   * **網頁**：建立並設定網頁之後，請按一下[編輯網頁]****。 [了解更多](../web/create-web.md)
    * **登陸頁面**：建立並設定您的登陸頁面後，請按一下&#x200B;**[!UICONTROL 開啟設計工具]**。 [了解更多](../landing-pages/create-lp.md)
 
 1. 從右側功能表選取&#x200B;**[!UICONTROL 產生內容]** （或&#x200B;**[!UICONTROL 顯示網頁的內容小幫手]**）。
@@ -76,7 +66,7 @@ ht-degree: 3%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。 [進一步瞭解提示最佳實務](ai-assistant-prompting-guide.md)
 
-   ![提示欄位與提示程式庫按鈕](assets/full-email-2-bis.png){zoomable="yes"}
+   ![提示欄位與提示程式庫按鈕](assets/full-email-2.png){zoomable="yes"}
 
 1. **對於電子郵件**，您可以切換&#x200B;**[!UICONTROL 主旨列]**&#x200B;和&#x200B;**[!UICONTROL 預先標題]**&#x200B;選項以將其包含在變體產生中。
 
@@ -90,6 +80,10 @@ ht-degree: 3%
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要提供AI。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生模型]**：從可用的內建模型、根據您的品牌資產訓練的自訂Firefly模型或協力廠商影像產生提供者中選取，以建立符合您特定需求和品牌需求的影像。 [了解更多](generative-models.md)。 對於影像上有&#x200B;**文字重疊**&#x200B;的&#x200B;**Gemini**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
@@ -105,7 +99,7 @@ ht-degree: 3%
 
    ![具有上傳品牌資產按鈕的品牌資產區段](assets/full-email-3.png){zoomable="yes"}
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#refine-finalize}
 
@@ -133,13 +127,13 @@ ht-degree: 3%
 
    * **[!UICONTROL 變更通訊策略]**：根據您的目標修改傳訊方式，例如建立緊急狀態或強調令人興奮的吸引力。
 
-     ![調整功能表顯示選項](assets/full-email-5-bis.png){zoomable="yes"}
+     ![調整功能表顯示選項](assets/full-email-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
-1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。 **&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
+1. 插入個人化欄位，以根據設定檔資料自訂您的內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」****，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**[!UICONTROL ，以使用測試設定檔預覽。 ****[了解更多](../content-management/preview-test.md)
 
 1. 檢閱並啟用您的內容：
    * **電子郵件**：當您定義內容、對象和排程時，就可以準備電子郵件行銷活動了。 [了解更多](../campaigns/review-activate-campaign.md)
@@ -193,6 +187,10 @@ ht-degree: 3%
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要參考Firefly。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生模型]**：從可用的內建模型、根據您的品牌資產訓練的自訂Firefly模型或協力廠商影像產生提供者中選取，以建立符合您特定需求和品牌需求的影像。 [了解更多](generative-models.md)。 對於影像上有&#x200B;**文字重疊**&#x200B;的&#x200B;**Gemini**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
@@ -206,7 +204,7 @@ ht-degree: 3%
 
    先前上傳的檔案可在&#x200B;**[!UICONTROL 已上傳的參考內容]**&#x200B;下拉式清單中使用。 只需切換您要納入產生代的資產。
 
-1. 提示就緒後，請按一下[產生]。**&#x200B;**
+1. 提示就緒後，請按一下[產生]。****
 
 ### 精簡並完成 {#mobile-refine-finalize}
 
@@ -240,7 +238,7 @@ ht-degree: 3%
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
-1. 插入個人化欄位，以根據設定檔資料自訂推播通知內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」**&#x200B;**，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**，以使用測試設定檔預覽。 **&#x200B;**&#x200B;[了解更多](../content-management/preview-test.md)
+1. 插入個人化欄位，以根據設定檔資料自訂推播通知內容。 然後，使用模擬方法控制呈現並檢查個人化設定：按一下「模擬內容」****，以使用範例輸入資料或AI自動產生來測試內容變異，或按一下「模擬內容」]**，然後從下拉式清單中選取「模擬內容（AEP設定檔）」**[!UICONTROL ，以使用測試設定檔預覽。 ****[了解更多](../content-management/preview-test.md)
 
 定義內容、對象和排程後，您就可以準備推播行銷活動。 [了解更多](../campaigns/review-activate-campaign.md)
 
