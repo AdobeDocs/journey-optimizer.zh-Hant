@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 設定自訂簡訊提供者
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的簡訊/MMS/RCS 管道可讓企業透過交易警�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立簡訊/MMS/RCS 管道設定
 

@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2210
+source-wordcount: 2223
 ht-degree: 9%
 
 ---
@@ -188,7 +188,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
         >[!NOTE]
         >
-        > 僅支援.p8 Apple推播通知金鑰。如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
+        > 僅支援.p8 Apple推播通知金鑰。 如果您達到.p8金鑰限制，請使用另一個Apple開發人員帳戶。
         >如需Apple金鑰限制的詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)。
 
 
@@ -263,7 +263,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 選擇您的&#x200B;**[!UICONTROL 平台]**： Android和/或iOS <!--and/or Web-->。
 
-1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [了解更多](#app-id-personalization)
+1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [進一步了解](#app-id-personalization)
 
 1. **儲存**&#x200B;您的變更。
 

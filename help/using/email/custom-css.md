@@ -260,7 +260,7 @@ body {
 
 * 檢查`global-custom`樣式標籤是否已將屬性`data-disabled`設定為`true`。 若是如此，則不會套用自訂CSS。
 
-  +++ 例如:
+  +++ 例如：
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
@@ -274,7 +274,7 @@ body {
 
   * 請考慮將`!important`加入宣告中，以確保它們優先。
 
-    +++ 例如:
+    +++ 例如：
 
     ```css
     .acr-Form {

@@ -92,12 +92,12 @@ Reward Provider  (endpoint, auth, headers)
 <tr><th>欄位</th><th>類型</th><th>必要</th><th>說明</th></tr>
 <tr><td><code>guid</code></td><td><code>String</code></td><td>否（系統指派）</td><td>唯一識別碼。 唯讀。</td></tr>
 <tr><td><code>name</code></td><td><code>String</code></td><td><strong>是</strong></td><td>顯示名稱，組織內唯一。</td></tr>
-<tr><td><code>desc</code></td><td><code>String</code></td><td>無</td><td>提供者可讀取的說明。</td></tr>
-<tr><td><code>enabled</code></td><td><code>Boolean</code></td><td>無</td><td>當<code>false</code>時，已針對此提供者下的所有定義暫停<br>獎勵傳遞。</td></tr>
+<tr><td><code>desc</code></td><td><code>String</code></td><td>否</td><td>提供者可讀取的說明。</td></tr>
+<tr><td><code>enabled</code></td><td><code>Boolean</code></td><td>否</td><td>當<code>false</code>時，已針對此提供者下的所有定義暫停<br>獎勵傳遞。</td></tr>
 <tr><td><code>url</code></td><td><code>String</code></td><td><strong>是</strong></td><td>接收獎勵裝載的HTTP端點。<br>平台POST將評估過的<br><code>rewardJsonata</code>輸出傳至此URL。</td></tr>
-<tr><td><code>additionalHeaders</code></td><td><code>Object</code></td><td>無</td><td>自訂HTTP標頭，可包含在每<br>個傳遞要求中（例如API金鑰、<br>內容型別覆寫）。</td></tr>
-<tr><td><code>maxRatePerSecond</code></td><td><code>Integer</code></td><td>無</td><td>選擇性的每個提供者速率限制(1-5000)。<br>Null表示無限制。</td></tr>
-<tr><td><code>enableMTLS</code></td><td><code>Boolean</code></td><td>無</td><td>端點是否需要雙向TLS。</td></tr>
+<tr><td><code>additionalHeaders</code></td><td><code>Object</code></td><td>否</td><td>自訂HTTP標頭，可包含在每<br>個傳遞要求中（例如API金鑰、<br>內容型別覆寫）。</td></tr>
+<tr><td><code>maxRatePerSecond</code></td><td><code>Integer</code></td><td>否</td><td>選擇性的每個提供者速率限制(1-5000)。<br>Null表示無限制。</td></tr>
+<tr><td><code>enableMTLS</code></td><td><code>Boolean</code></td><td>否</td><td>端點是否需要雙向TLS。</td></tr>
 </table>
 
 +++
@@ -114,10 +114,10 @@ Reward Provider  (endpoint, auth, headers)
 <tr><th>欄位</th><th>類型</th><th>必要</th><th>說明</th></tr>
 <tr><td><code>guid</code></td><td><code>String</code></td><td>否（系統指派）</td><td>唯一識別碼。 唯讀。</td></tr>
 <tr><td><code>name</code></td><td><code>String</code></td><td><strong>是</strong></td><td>顯示名稱，在提供者中唯一。</td></tr>
-<tr><td><code>denomination</code></td><td><code>String</code></td><td>無</td><td>獎勵的單位，用於顯示<br>，可在運算式中作為<br><code>reward.denomination</code><br>使用（例如<code>"Stars"</code>、<code>"Points"</code>、<code>"Miles"</code>）。</td></tr>
-<tr><td><code>desc</code></td><td><code>String</code></td><td>無</td><td>獎勵的說明，可在運算式中以<code>reward.desc</code>形式取得<br>。</td></tr>
-<tr><td><code>enabled</code></td><td><code>Boolean</code></td><td>無</td><td>當<code>false</code>時，此定義為非使用中<br>且不會發出獎勵。</td></tr>
-<tr><td><code>isDefault</code></td><td><code>Boolean</code></td><td>無</td><td>將此專案標籤為沙箱範圍的預設<br>獎勵定義。 所有提供者一次只能有一個定義<br>是預設值；<br>設定新的預設值會清除上一個定義。<br>用於在發佈時自動填入<br>個人化挑戰的獎勵詳細資料。</td></tr>
+<tr><td><code>denomination</code></td><td><code>String</code></td><td>否</td><td>獎勵的單位，用於顯示<br>，可在運算式中作為<br><code>reward.denomination</code><br>使用（例如<code>"Stars"</code>、<code>"Points"</code>、<code>"Miles"</code>）。</td></tr>
+<tr><td><code>desc</code></td><td><code>String</code></td><td>否</td><td>獎勵的說明，可在運算式中以<code>reward.desc</code>形式取得<br>。</td></tr>
+<tr><td><code>enabled</code></td><td><code>Boolean</code></td><td>否</td><td>當<code>false</code>時，此定義為非使用中<br>且不會發出獎勵。</td></tr>
+<tr><td><code>isDefault</code></td><td><code>Boolean</code></td><td>否</td><td>將此專案標籤為沙箱範圍的預設<br>獎勵定義。 所有提供者一次只能有一個定義<br>是預設值；<br>設定新的預設值會清除上一個定義。<br>用於在發佈時自動填入<br>個人化挑戰的獎勵詳細資料。</td></tr>
 <tr><td><code>rewardJsonata</code></td><td><code>String</code></td><td><strong>是</strong></td><td>JSONata運算式在<br>獎勵問題時間評估。 接收完整<br>獎勵內容，且必須將JSON<br>裝載傳回至POST給提供者。</td></tr>
 </table>
 

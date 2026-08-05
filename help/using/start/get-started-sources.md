@@ -128,7 +128,7 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 的來源框架。 以�
 >
 >**協調行銷活動的資料擷取** - 對於搭配協調行銷活動使用的檔案式變更資料擷取來源，「`_change_request_type`」欄位為必填項。 支援的值為 `u` (更新插入) 或 `d` (刪除)。 這些值必須為小寫 `u` 和 `d`，而非大寫 `U` 和 `D`。 [詳細瞭解協調行銷活動的護欄和限制](../orchestrated/guardrails.md)
 
-## 了解更多 {#learn-more}
+## 瞭解更多 {#learn-more}
 
 ![](assets/sources-home.png)
 

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您製作量身打造、具影響力的產品建議，在適當的時間觸及適當的客群。 無論您是要建立個人化產品建議、提供可廣泛吸引人的遞補選項，還是將產品建議組織成動態或靜態集合以進行順暢管理，本節都能提供清晰、可行的指引。 您將了解如何透過版位、限制和優先順序等策略設定來最佳化您的產品建議，確保每次互動都有意義。 深入了解這些元件如何共同運作，協助您為客戶提供更聰明、更吸引人的體驗。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 在 Adobe Journey Optimizer 中設定產品建議
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 如何建立遞補產品建議
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的「建立和管理產品建議」區段可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 如何建立和管理產品建議集合
 

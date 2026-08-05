@@ -58,7 +58,7 @@ ht-degree: 8%
 * [Fixed date](#fixed_date) 
 -->
 
-## 推薦 {#wait-recommendations}
+## 建議 {#wait-recommendations}
 
 使用這些建議來確保等待可預測且安全。
 

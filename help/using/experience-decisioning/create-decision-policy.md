@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
-source-wordcount: 2404
+source-wordcount: 2436
 ht-degree: 8%
 
 ---
@@ -316,7 +316,7 @@ ht-degree: 8%
 
      選件1 - 10
      選件2 - 20
-     策略1的優惠3 - 30，策略2的優惠45。兩者中的最高會納入考量，因此會考慮45。
+     策略1的優惠3 - 30，策略2的優惠45。 兩者中的最高會納入考量，因此會考慮45。
      選件4 - 40
      選件5 - 50
 

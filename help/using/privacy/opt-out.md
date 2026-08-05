@@ -82,7 +82,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="../mobile/mobile-opt-out.md">
-<img alt="不常使用" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
+<img alt="不頻繁" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
 <a href="../mobile/mobile-opt-out.md"><strong>簡訊選擇退出管理</strong></a>

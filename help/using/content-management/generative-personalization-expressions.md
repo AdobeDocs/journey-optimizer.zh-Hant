@@ -14,8 +14,8 @@ subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1541
-ht-degree: 1%
+source-wordcount: 1542
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->開始使用此功能之前，請先閱讀相關的[護欄和限制](gs-generative.md#generative-guardrails)。
+>開始使用此功能之前，請先閱讀相關的[護欄與限制](gs-generative.md#generative-guardrails)。
 ></br>
 >
 >您必須同意[使用者合約](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)，才能在Journey Optimizer中使用「產生內容」。 如需詳細資訊，請聯絡您的 Adobe 代表。

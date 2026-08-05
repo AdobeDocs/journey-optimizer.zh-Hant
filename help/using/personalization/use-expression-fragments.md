@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 然後您就可以照常使用[個人化編輯器](personalization-build-expressions.md)的所有個人化和編寫功能，自訂及驗證您的內容。
 
-1. 某些情況下，您只需要計算變數，因此您可能想要隱藏運算式片段的內容。 若要這麼做，請使用`render`屬性並將其設定為`false`。 例如:
+1. 某些情況下，您只需要計算變數，因此您可能想要隱藏運算式片段的內容。 若要這麼做，請使用`render`屬性並將其設定為`false`。 例如：
 
    ```
    Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}

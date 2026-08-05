@@ -67,7 +67,7 @@ Adobe Experience Platform 和 Journey Optimizer 提供各種工具，協助您�
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="不常使用" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="不頻繁" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
 <a href="audit-logs.md"><strong>稽核使用者的動作</strong></a>

@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
-source-wordcount: 10054
+source-wordcount: 10072
 ht-degree: 95%
 
 ---
@@ -194,7 +194,7 @@ ht-degree: 95%
 </table>
 
 
-### 電子郵件管道 {#june-26-email}
+### 電子郵件頻道 {#june-26-email}
 
 下列改善專案已新增至此版本的電子郵件通道。
 
@@ -218,7 +218,7 @@ ht-degree: 95%
 <p>Journey Optimizer 現在包含一個選項，可移除不必要的空格、註解和重複程式碼，進而縮小電子郵件的 HTML 大小，而不會影響電子郵件的轉譯方式。</p>
 <p>這可避免某些電子郵件提供者用來標記或拒絕訊息的大小臨界值，且可縮短收件者的載入時間，藉此改善傳遞能力。</p>
 <p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/create-email.md#optimize-html-size">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/create-email.md#optimize-html-size">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年6月26日</p>
 </td>
 </tr>
@@ -237,7 +237,7 @@ ht-degree: 95%
 <p>您現在可以將 RTF 文字新增至您電子郵件內容中所使用的可自訂片段。</p>
 <p>例如，使用文字元件作為電子郵件設計工具中的可編輯欄位時，您可以直接格式化內容 (例如粗體和斜體) 並插入超連結。</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md#rich-text-visual">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/customizable-fragments.md#rich-text-visual">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年6月19日</p>
 </td>
 </tr>
@@ -258,7 +258,7 @@ ht-degree: 95%
 <p>結果會直接在製作面板中顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的一鍵式修正，因此無需離開編輯器即可解決問題。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年6月18日</p>
 </td>
 </tr>
@@ -291,7 +291,7 @@ ht-degree: 95%
 <li>現在，您可以靈活地使用 Adobe Journey Optimizer 存取 Adobe Experience Manager 內容。 此版本引入了為歷程與行銷活動所使用的內容片段<strong>切換來源存放庫</strong>的功能。</li>
 <li>現在與 <b>Managed Services</b> 相容，您可以直接在 Journey Optimizer 中檢視、存取及使用 Adobe Experience Manager 內容片段，以進行個人化。 只需在組態設定中新增 Adobe Experience Manager Managed Services 存放庫 URL，作為一次性設定即可。</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../integrations/aem-fragments-gs.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-fragments-gs.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年6月18日</p>
 </td>
 </tr>
@@ -943,7 +943,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <tbody>
 <tr>
 <td>
-<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。此工具可讓您測試、變更以及自訂通訊、排序和時機，以便最有效地觸及客戶。
+<p>使用新的<strong>最佳化</strong>節點，執行 A/B 測試或多臂老虎機實驗，以判斷達到以業務為中心的 KPI 所需的最佳途徑。 此工具可讓您測試、變更及自訂通訊、順序和時間，以便最好地觸及客戶。
 </p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
 <p>作為「一般可用性」的一部分，此版本針對單一歷程引入了<strong>實驗類型</strong>選擇 (A/B 或多臂老虎機) 和<strong>擴充獲勝者</strong>。</p>
@@ -1342,7 +1342,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   推出日期：2026 年 4 月 1 日
 
-#### 報表
+#### 報告
 
 * **傳送時間最佳化：更新的控制項位置和新的提升度報告** - 傳送時間最佳化 (STO) 控制項已重新放置到 [動作] 設定功能表。 此外，歷程報表現在提供新的提升度報告，以測量 STO 對行銷活動績效量度的影響。 [閱讀全文](../reports/channel-report-cja.md#optimization-models)
 

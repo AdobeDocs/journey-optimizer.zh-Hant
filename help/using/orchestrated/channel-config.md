@@ -98,7 +98,7 @@ ht-degree: 0%
 * **`context.system.source.channel`**：頻道型別（電子郵件、簡訊、推播）
 * **`context.system.IdentityNamespace`**：已使用身分名稱空間
 
-例如:
+例如：
 
 ```
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: 對象
-description: 對象
+title: 客群
+description: 客群
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# 對象{#section-overview}
+# 客群{#section-overview}
 
 Adobe Journey Optimizer 中的客群可協助您根據客戶的行為、偏好和特性，將其組織成有意義的群組，在適當的時間與合適的人聯絡。 無論您是定義區段、上傳自訂清單，還是結合來自多個來源的資料，此功能都能讓您建立高度個人化的行銷活動和歷程。 您將探索細分工具、即時啟用客群的方法，以及擴充客戶輪廓的技術，以提供量身打造的體驗。
 

@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 188
+source-wordcount: 189
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 </td>
 <td>
 <a href="send-line.md">
-<img alt="不常使用" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-line.md"><strong>傳送 LINE 訊息</strong></a>
@@ -63,9 +63,9 @@ LINE 訊息可在歷程或行銷活動中建立和傳送。
 <p></td>
 <td>
 <a href="line-configuration.md">
-<img alt="不常使用" src="../assets/do-not-localize/inapp-config.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/inapp-config.jpg">
 <div>
-<a href="line-configuration.md"><strong>設定 LINE 頻道</strong>
+<a href="line-configuration.md"><strong>設定 LINE 管道</strong>
 </a>
 </div>
 </td>

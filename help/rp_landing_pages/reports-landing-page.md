@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 建立和分析歷程報告
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 資料分析的 SQL 查詢範例
 

@@ -83,7 +83,7 @@ ht-degree: 18%
 
    ![](assets/sms_create_2.png)
 
-1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [了解更多](../conflict-prioritization/channel-capping.md)
+1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [進一步了解](../conflict-prioritization/channel-capping.md)
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-mobile.md)
 
@@ -113,7 +113,7 @@ ht-degree: 18%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤行動訊息中連結的點按次數。
 
-1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
+1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 

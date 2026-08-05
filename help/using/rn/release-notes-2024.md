@@ -639,7 +639,7 @@ ht-degree: 98%
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀更多](../building-journeys/conditions.md#time_condition)
 * 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#activity-errors)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
@@ -765,7 +765,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於[!DNL Adobe CX Enterprise]的多個產品，包括Adobe Journey Optimizer。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -852,7 +852,7 @@ table>
   任何建立的新歷程都會反映此新逾時。 請參考此[常見問題集章節](../building-journeys/journey-properties.md#timeout-faq)以進一步了解。 請注意，這些變更將於 6 月期間逐步推出。
 
 
-* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀更多](../privacy/requests.md)
+* Adobe Journey Optimizer 現在支援隱私權刪除/存取請求，以及資料生命週期管理請求。 [閱讀全文](../privacy/requests.md)
 * 您現在可以調整歷程庫存中的欄大小。
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
 * **合併原則**&#x200B;現已正式上市 - 歷程使用的合併原則現在在整個歷程中可見且一致。 [閱讀全文](../building-journeys/journey-properties.md#merge-policies)

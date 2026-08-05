@@ -117,7 +117,7 @@ ht-degree: 45%
 * **[!UICONTROL 合併]**&#x200B;活動會排除忠誠度低於 50 點的客戶，
 * **[!UICONTROL 電子郵件傳遞]**&#x200B;活動會傳送電子郵件給產生的客戶。
 
-當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多](trigger-orchestrated-campaign.md#signal-end)。
+當您到達分支結尾時，可以新增&#x200B;**[!UICONTROL End]**&#x200B;活動以在畫布上標示完成。 您也可以設定&#x200B;**[!UICONTROL 結束]**&#x200B;活動，將訊號傳送至另一個已協調的行銷活動（設定為&#x200B;**[!UICONTROL 由訊號]**&#x200B;觸發），並在承載中傳遞引數。 [了解更多資訊](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 後續步驟 {#next}
 

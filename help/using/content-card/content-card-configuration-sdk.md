@@ -235,12 +235,12 @@ ht-degree: 6%
         <th>如何滿足觸發程式規則</th>
     </tr>
     <tr>
-        <td>無</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-2.png"></td>
         <td>sendEvent命令。 沒有使用者端規則可滿足。</td>
     </tr>
     <tr>
-        <td>無</td>
+        <td>None</td>
         <td><img src="assets/content-card-web-3.png"></td>
         <td>sendEvent命令。 沒有使用者端規則可滿足。</td>
     </tr>

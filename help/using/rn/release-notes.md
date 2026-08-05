@@ -68,7 +68,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>忠誠度也會引進同事技能，讓團隊更有效率地執行關鍵挑戰操作，包括建立挑戰、設定挑戰屬性、管理對象和相關設定，以及檢閱見解以監控挑戰參與度和獎勵績效。</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>此功能僅適用於獲得Journey Optimizer忠誠度授權的組織。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月28日</p>
 </td>
 </tr>
@@ -93,7 +93,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專用頻道功能。</p>
 <p>自訂傳出頻道目前以「有限可用性」的形式提供。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月31日</p>
 </td>
 </tr>
@@ -118,7 +118,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年7月22日</p>
 </td>
 </tr>
@@ -149,7 +149,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>Adobe Journey Optimizer現在支援登入頁面的Web應用程式防火牆IP允許清單，可讓組織強制所有傳入要求都透過其設定的Web應用程式防火牆基礎架構專門路由。 透過這項增強功能，客戶可設定Journey Optimizer以拒絕任何略過Web應用程式防火牆層的直接請求，確保一致套用Imperva等工具中定義的安全性原則。</p>
 <p>此功能可加強具有嚴格網路存取需求之企業的安全狀況，讓企業能夠完全控制其Journey Optimizer託管登陸頁面的流量。</p>
 <p><img src="assets/do-not-localize/allowed-ips.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../configuration/waf-ip-allowlist.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../configuration/waf-ip-allowlist.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年7月30日</p>
 </td>
 </tr>
@@ -178,7 +178,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>電子郵件設計工具現在包含現成可用的版面模組 (例如頁首、產品卡、資訊區塊和頁尾) 資料庫，您可以將這些模組直接拖放到電子郵件畫布中。</p>
 <p>每個模組都預先設定了可編輯的屬性 (影像、標題、文字、按鈕、連結)，並可透過 WYSIWYG 介面完全自訂，因此無需您從頭開始建立結構，即可加速電子郵件的建立。</p>
 <p><img src="assets/do-not-localize/email-modules.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/email-modules.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/email-modules.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年7月29日</p>
 </td>
 </tr>
@@ -199,7 +199,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>結果會直接在製作面板中顯示為錯誤、警告或資訊性通知，其中包含內容詳細資訊和適用的一鍵式修正，因此無需離開編輯器即可解決問題。</p>
 <p>此功能之前以「有限可用性」的名義提供，現在可供所有客戶使用。</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../email/content-check.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年7月16日</p>
 </td>
 </tr>
@@ -256,7 +256,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <tr>
 <td>
 <p>協調的行銷活動現在支援直接將<strong>CSV或TXT檔案</strong>載入行銷活動畫布，作為目標對象，而不先將檔案擷取到Adobe Experience Platform。 檔案資料會在執行時使用，不會儲存為Adobe Experience Platform資料集。 在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。 這尤其適合在無法建立完整擷取管道的臨時傳送或合作夥伴清單行銷活動。</p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/load-file.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/load-file.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期：2026年7月6日</p>
 </td>
 </tr>
@@ -307,7 +307,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>透過引導式功能，協助您將現有電子郵件內容和歷程移至Journey Optimizer，讓從其他行銷平台轉換至Adobe Journey Optimizer變得更輕鬆。 專屬的工作區可讓您重複使用現有工作，而非從頭重建。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月30日</p>
 </td>
 </tr>
@@ -374,7 +374,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <tr>
 <td>
 <p><strong>Journey Optimizer與Adobe Experience Manager Dynamic Media整合</strong>可為Dynamic Media範本啟用開放時間個人化，解除鎖定超個人化使用案例。 客戶可以在Adobe Experience Manager中建立和發佈個人化範本，並在Journey Optimizer中使用這些範本，在開放時間呈現資料。</p>
-<p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md#countdown">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../integrations/aem-dynamic.md#countdown">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月30日</p>
 </td>
 </tr>

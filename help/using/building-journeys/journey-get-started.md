@@ -172,7 +172,7 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 
 使用AI支援的傳送時間最佳化，在每個客戶最有可能參與時傳送電子郵件。
 
-[了解更多](send-time-optimization.md)
+[瞭解更多](send-time-optimization.md)
 :::
 
 :::
@@ -182,7 +182,7 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 
 逐步增加訊息量，以便改善寄件者的信譽，避開傳遞能力問題。
 
-[了解更多](ramp-up-deliveries-uc.md)
+[瞭解更多](ramp-up-deliveries-uc.md)
 :::
 
 :::

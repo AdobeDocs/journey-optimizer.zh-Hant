@@ -163,7 +163,7 @@ ht-degree: 12%
 
 ### 使用API呼叫新增實體 {#api-call-allowed-list}
 
-若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如:
+若要填入允許清單，您也可以使用`listType`屬性的`ALLOWED`值呼叫隱藏API。 例如：
 
 ![使用隱藏API將專案新增至允許清單的API呼叫範例](assets/allow-list-api.png)
 

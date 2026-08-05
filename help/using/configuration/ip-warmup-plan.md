@@ -26,7 +26,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1853
+source-wordcount: 1859
 ht-degree: 8%
 
 ---
@@ -265,7 +265,7 @@ Hotmail外部的網域和來自網域群組Microsoft的網域將收集到&#x200B
 
    * **未啟動**：尚未啟動任何執行。 [了解更多](ip-warmup-execution.md#define-runs)
    * **即時**：在第一階段中的第一次執行成功啟動後，計畫就會變更為此狀態。 [了解更多](ip-warmup-execution.md#define-runs)
-   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [了解更多](ip-warmup-execution.md#mark-as-completed)
+   * **已完成**：計畫已標示為已完成。<!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [瞭解更多](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. 若要刪除IP熱身計畫，請選取計畫名稱旁的&#x200B;**[!UICONTROL 刪除]**&#x200B;圖示並確認刪除。

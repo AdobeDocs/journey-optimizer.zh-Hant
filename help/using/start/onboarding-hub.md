@@ -11,8 +11,8 @@ hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
 source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: '1149'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ rebuild
 ### 歡迎新客戶 {#build-welcome}
 
 **您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
-**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
 2. [建立您的第一個歷程](../building-journeys/journey-gs.md)，並將註冊事件當做專案。
@@ -67,7 +67,7 @@ rebuild
 ### 復原放棄的購物車 {#build-cart}
 
 **您將建置：**&#x200B;即時復原流程，提醒客戶留下的專案。
-**最適合的客戶：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
+**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
 2. [建置由放棄事件觸發的歷程](../building-journeys/journey-gs.md)。
@@ -90,7 +90,7 @@ rebuild
 ### 使用A/B測試啟動行銷活動 {#build-campaign}
 
 **您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
-**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
+**最適合：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
 2. 使用[AI內容產生](../content-management/gs-generative.md)來草稿主旨行並複製變化。
@@ -101,7 +101,7 @@ rebuild
 ### 根據客戶個人化優惠方案 {#build-offers}
 
 **您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
-**最適合行銷人員：** · **功能：**&#x200B;決策
+**最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。
 2. 將決定新增至[歷程](../building-journeys/journey-gs.md)或行銷活動訊息。

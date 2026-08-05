@@ -34,7 +34,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2266
+source-wordcount: 2330
 ht-degree: 8%
 
 ---
@@ -161,7 +161,7 @@ Journey Dirun提供：
 * 練習歷程不會影響商業規則
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * 在練習中未啟用&#x200B;**跳轉**&#x200B;動作。
-當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。舉例來說，如果歷程的最新版本為模擬執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略模擬執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
+當來源歷程觸發到目的地歷程的&#x200B;**跳轉**&#x200B;事件時，該跳轉事件將不適用於練習歷程版本。 舉例來說，如果歷程的最新版本為試執行，而上一個版本為&#x200B;**即時**，則跳轉事件會忽略試執行版本，僅適用於&#x200B;**即時**&#x200B;版本。
 
 ## 歷程步驟事件與練習 {#journey-step-events}
 

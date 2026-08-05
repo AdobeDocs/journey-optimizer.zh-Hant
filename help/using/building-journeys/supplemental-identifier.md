@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
+source-wordcount: 2792
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。為避免此問題，除了設定檔ID之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
+      <p>依預設，歷程會在<b>設定檔ID</b>的內容中執行。 這表示，只要設定檔在指定歷程中處於作用中狀態，就無法將設定檔重新進入另一個歷程。 為避免此問題，除了設定檔識別碼之外，Journey Optimizer可讓您擷取<b>補充識別碼</b>，例如訂單ID、訂閱ID、處方ID。  
       <p>在此範例中，我們已新增<b>預訂ID</b>作為補充識別碼。</p>
       <p>如此一來，歷程會在與補充識別碼（此處為預訂ID）相關聯的設定檔ID內容中執行。 每個補充識別碼的疊代都會執行一個歷程例項。 如果訪客已進行不同預約，這可在歷程中讓多個入口使用相同的設定檔ID。</p>
       <p>此外，Journey Optimizer可讓您運用補充識別碼的屬性來自訂訊息（例如預訂編號、處方續約日期、產品型別），確保高度相關的通訊。</p>

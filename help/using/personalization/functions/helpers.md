@@ -11,7 +11,7 @@ feature_v2:
 subfeature_v2: []
 source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: 1388
 ht-degree: 4%
 
 ---
@@ -137,8 +137,8 @@ Some edu specific content
 ## 每個{#each}
 
 `each`協助程式是用來反複處理陣列。
-協助程式的語法是`{{#each ArrayName}}` YourContent `{{/each}}`。
-我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。可以使用`{{@index}}`轉譯陣列專案的索引。
+協助程式的語法為`{{#each ArrayName}}` YourContent `{{/each}}`。
+我們可以在區塊內使用關鍵字&#x200B;**this**&#x200B;來參照個別陣列專案。 可以使用`{{@index}}`轉譯陣列專案的索引。
 
 **語法**
 

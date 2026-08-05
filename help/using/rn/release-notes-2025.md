@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 9272
+source-wordcount: 9308
 ht-degree: 100%
 
 ---
@@ -954,7 +954,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 此版本讓行銷人員可完全控制品牌啟動、以對象為基礎的批次行銷，結合彈性的資料建模與特意建置的協調體驗。 它專為即時歷程的批次行銷活動協調而設計，同時提供進階的個人化與擴充性。
 
-### 了解更多
+### 瞭解更多
 
 閱讀[行銷活動協調文件](../orchestrated/gs-orchestrated-campaigns.md)並深入了解。
 
@@ -1084,8 +1084,8 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 * **行銷活動**
 
-  * **行銷活動中的多個傳入動作** - 若要簡化您的行銷活動協調，您現在可以在單一行銷活動中定義多個傳入動作。此功能可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡或網頁動作，每個動作都包含特定內容。
-    [閱讀更多](../campaigns/campaign-action.md#multi-action)
+  * **行銷活動中有多個傳入動作** — 為簡化行銷活動協調，您現在可以在單一行銷活動中定義數個傳入動作。 此功能可讓您同時向不同位置提供多個程式碼型體驗、應用程式內訊息、內容卡或網頁動作，每個動作都包含特定內容。
+    [閱讀全文](../campaigns/campaign-action.md#multi-action)
 
   * **行銷活動庫存重組** — 排程和 API 觸發的行銷活動現在分割為行銷活動詳細目錄中的個別索引標籤，以便更輕鬆導覽和管理。
 
@@ -1958,7 +1958,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media 資產現在可直接在 Journey Optimizer 中使用和存取。此整合可讓您：
+<p>Dynamic Media 資產現在可直接在 Journey Optimizer 中使用和存取。 此整合可讓您：
 <ul>
 <li>透過即時更新集中管理資產</li>
 <li>立即修改您的資產設定，例如寬度和高度</li>

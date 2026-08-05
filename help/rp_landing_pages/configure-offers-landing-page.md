@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [了解更多](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] 的新決策功能「決策」現在可透過程式碼型體驗和電子郵件管道使用！ [瞭解更多](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和管理完全符合客群需求和偏好的個人化產品建議。 無論您是從頭開始建立產品建議、定義其刊登版位，還是微調資格和頻率等限制，這些工具都有助於確保在適當的時間將訊息傳達給適當的人。 您將探索如何針對不同內容製作引人入勝的內容、設定產品建議出現的時間和位置的規則，以及調整優先順序以最大化影響。 課程結束時，您將具備建立動態、目標式產品建議的技能，可提高參與度並帶來可衡量的結果。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立個人化產品建議
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的「設定產品建議」區段可讓您設計和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 在產品建議中新增聲明
 

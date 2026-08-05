@@ -33,7 +33,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2056
+source-wordcount: 2062
 ht-degree: 99%
 
 ---
@@ -297,7 +297,7 @@ ht-degree: 99%
 
 **內容設計**
 
-* **背景** - 即時預覽現在支援背景影像。[了解更多](../content-management/preview-test.md)
+* **背景** - 即時預覽現在支援背景影像。 [瞭解更多](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **個人化**
@@ -307,7 +307,7 @@ ht-degree: 99%
 **電子郵件設定**
 
 * **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [了解更多](../configuration/manage-suppression-list.md#access-suppression-list)
+* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 

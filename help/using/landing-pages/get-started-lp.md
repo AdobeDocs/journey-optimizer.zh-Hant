@@ -87,7 +87,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="不常使用" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="不頻繁" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="subscription-list.md"><strong>建立訂閱清單</strong></a>

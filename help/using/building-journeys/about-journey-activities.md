@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 1263
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 8%
 從浮動視窗的畫面左側，有下列協調活動：
 
 * [最佳化](optimize.md)
-* [讀取對象](read-audience.md)
+* [讀取受眾](read-audience.md)
 * [等待](wait-activity.md)
 * [歷程片段](journey-fragments.md)
 * [內容決策](content-decision.md)

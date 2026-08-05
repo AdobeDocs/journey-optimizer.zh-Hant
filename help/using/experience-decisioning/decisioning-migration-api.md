@@ -13,7 +13,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1246
+source-wordcount: 1249
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ Decisioning移轉服務API提供下列功能：
 
 ## API 基本概念 {#api-basics}
 
-### 基礎URL {#base-url}
+### 基底 URL {#base-url}
 
 使用以下基底URL：
 

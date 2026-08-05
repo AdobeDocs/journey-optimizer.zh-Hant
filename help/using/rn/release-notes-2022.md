@@ -34,7 +34,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
-source-wordcount: 3603
+source-wordcount: 3645
 ht-degree: 100%
 
 ---
@@ -162,13 +162,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>自動同意實行 (同意政策)</strong><br/></th>
+<th><strong>自動同意實作（同意政策）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷原則，以尊重客戶的同意偏好設定。同意原則在 Adobe Experience Platform 中定義。在 Journey Optimizer 中，您可以將這些同意原則套用至自訂動作。例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
+<p>Adobe Experience Platform 可讓您輕鬆採用及強制執行行銷政策，以尊重客戶的同意偏好設定。 在 Adobe Experience Platform 中定義的同意原則。 在 Journey Optimizer 中，您可以將這些同意政策套用至自訂動作。 例如，您可以定義同意原則，以排除尚未同意接收電子郵件、推播或簡訊通訊的客戶。
 <p>自動同意實作目前僅適用於已購買 Healthcare Shield 附加元件產品的組織。</p>
 <p>如需詳細資訊，請參閱<a href="../action/consent.md">詳細文件</a>。
 </td>
@@ -432,7 +432,7 @@ table>
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [進一步了解](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -708,7 +708,7 @@ table>
 
 **個人化**
 
-* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/use-expression-fragments.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [進一步了解](../personalization/use-expression-fragments.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 
@@ -840,11 +840,11 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 功能改進
+### 改進
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [進一步了解](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 

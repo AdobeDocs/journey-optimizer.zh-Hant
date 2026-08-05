@@ -40,7 +40,7 @@ Expression Assistant是AI支援的功能，內建在Journey進階運算式編輯
 
    ![](../assets/expression-assistant-pane.png)
 
-1. 在文字欄位中，以純文字描述您要產生的運算式。 例如:
+1. 在文字欄位中，以純文字描述您要產生的運算式。 例如：
 
    * *&quot;來自美國的使用者年齡超過18歲&quot;*
    * *「過去30天內購買過的客戶」*

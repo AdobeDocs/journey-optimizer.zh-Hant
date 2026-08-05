@@ -226,7 +226,7 @@ ht-degree: 18%
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. 在能夠使用該子網域來傳送訊息之前，請確定所有DNS記錄都已正確建立，然後等待Adobe執行所需的檢查，這可能需要3個小時。 [了解更多](#subdomain-validation)。
+1. 在能夠使用該子網域來傳送訊息之前，請確定所有DNS記錄都已正確建立，然後等待Adobe執行所需的檢查，這可能需要3個小時。 [了解更多資訊](#subdomain-validation)。
 
 ### 子網域驗證 {#subdomain-validation}
 

@@ -57,7 +57,7 @@ ht-degree: 100%
 
 在執行大規模刪除之前，請先驗證並匯出任何必要的傳遞資料，或是報告資料。 如果資料檢疫後仍需要協調，請與 Adobe 支援協調，以便存取已封存記錄，或者使用訊息意見回饋事件資料集查詢，即可取得近期資料。
 
-## 了解更多 {#data-hygiene-learn-more}
+## 瞭解更多 {#data-hygiene-learn-more}
 
 有關隱私權服務以及如何執行資料生命週期操作的詳細資訊，請參閱 Adobe Experience Platform 文件：
 
