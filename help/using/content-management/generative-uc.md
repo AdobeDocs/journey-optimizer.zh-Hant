@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
@@ -257,6 +257,41 @@ ht-degree: 0%
 
 1. 當文字覆蓋看起來正確時，按一下&#x200B;**[!UICONTROL 儲存]**，然後按一下您要使用的變數&#x200B;**[!UICONTROL 套用]**。
 
+## 使用影像設定模式 {#image-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_assets_selection_mode"
+>title="Assets選擇模式"
+>abstract="[!UICONTROL Assets模式]設定可控制您的視覺資產來源。 它可讓您定義影像是直接從數位資產管理(DAM)資料庫擷取，還是使用AI產生的內容以動態方式產生。"
 
+**[!UICONTROL 影像設定]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;選項可控制影像如何從您的數位資產管理程式庫取得並產生內容。
 
+1. 設定行銷活動後，選取&#x200B;**[!UICONTROL 編輯內容]**。
+
+1. 開啟&#x200B;**[!UICONTROL 產生內容]**&#x200B;區段。
+
+1. 在&#x200B;**[!UICONTROL 提示]**&#x200B;方塊中指定您的要求來調整內容，並視需要自訂設定。
+
+1. 在&#x200B;**[!UICONTROL 影像設定]**&#x200B;功能表中選擇您的&#x200B;**[!UICONTROL 模式]**：
+
+   * **[!UICONTROL 平衡]** （預設）： AI會先使用您數位資產管理程式庫中的相符影像。 當這不足以涵蓋您需要的視覺效果時，它會使用AI產生影像。
+     若要使用此專案，請啟用「使用來自DAM的影像」 ，然後從您的數位資產管理資料庫中選擇一個資料夾以設定您的DAM路徑。
+   * **[!UICONTROL DAM]** （數位資產管理）： AI會在您的數位資產管理程式庫中尋找相符的影像，並將其作為所產生內容的一部分。 如果找不到相符專案，請在產生前手動新增參考內容或影像。
+     從您的數位資產管理資料庫中選擇一個資料夾，以設定您的DAM路徑。
+   * **[!UICONTROL Creative]**： AI會使用產生AI建立影像，且不會直接從您的數位資產管理資料庫提取影像。
+
+   ![](assets/image-mode-3.png)
+
+1. 按一下&#x200B;**[!UICONTROL 產生]**&#x200B;並瀏覽&#x200B;**[!UICONTROL 變數建議]**&#x200B;以尋找所需的資產。
+
+1. 按一下&#x200B;**[!UICONTROL 預覽]**&#x200B;以檢視所選變數的全熒幕版本。
+
+1. 如果影像來自您的資料庫，請按一下&#x200B;**[!UICONTROL 影像選項]**&#x200B;來瀏覽其他相關資產。
+
+   ![](assets/image-mode-1.png)
+
+1. 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以變更您的資產。
+
+1. 如果AI在您的Digital Asset Management資料庫中找不到相符的影像，變化會顯示預留位置影像。 手動新增參考內容或上傳影像，然後再次產生。
+
+   ![](assets/image-mode-2.png)

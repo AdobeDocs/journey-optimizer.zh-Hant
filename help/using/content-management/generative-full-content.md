@@ -25,9 +25,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2112
 ht-degree: 3%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 3%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。 [進一步瞭解提示最佳實務](ai-assistant-prompting-guide.md)
 
-   ![提示欄位與提示程式庫按鈕](assets/full-email-2-bis.png){zoomable="yes"}
+   ![提示欄位與提示程式庫按鈕](assets/full-email-2.png){zoomable="yes"}
 
 1. **對於電子郵件**，您可以切換&#x200B;**[!UICONTROL 主旨列]**&#x200B;和&#x200B;**[!UICONTROL 預先標題]**&#x200B;選項以將其包含在變體產生中。
 
@@ -90,6 +90,10 @@ ht-degree: 3%
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要提供AI。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生模型]**：從可用的內建模型、根據您的品牌資產訓練的自訂Firefly模型或協力廠商影像產生提供者中選取，以建立符合您特定需求和品牌需求的影像。 [了解更多](generative-models.md)。 對於影像上有&#x200B;**文字重疊**&#x200B;的&#x200B;**Gemini**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
@@ -133,7 +137,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 變更通訊策略]**：根據您的目標修改傳訊方式，例如建立緊急狀態或強調令人興奮的吸引力。
 
-     ![調整功能表顯示選項](assets/full-email-5-bis.png){zoomable="yes"}
+     ![調整功能表顯示選項](assets/full-email-5.png){zoomable="yes"}
 
 1. 開啟&#x200B;**[!UICONTROL 品牌一致性]**&#x200B;標籤，檢視您的內容如何與您的[品牌指南](brands.md)一致。
 
@@ -193,6 +197,10 @@ ht-degree: 3%
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要參考Firefly。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生模型]**：從可用的內建模型、根據您的品牌資產訓練的自訂Firefly模型或協力廠商影像產生提供者中選取，以建立符合您特定需求和品牌需求的影像。 [了解更多](generative-models.md)。 對於影像上有&#x200B;**文字重疊**&#x200B;的&#x200B;**Gemini**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。

@@ -11,9 +11,9 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a923d702836704542a4a6273d056a12225daab2d
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 1550
+source-wordcount: 1654
 ht-degree: 3%
 
 ---
@@ -66,10 +66,14 @@ ht-degree: 3%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![使用選項](assets/image-genai-2-bis.png){zoomable="yes"}產生內容影像產生面板
+   ![使用選項](assets/image-genai-2.png){zoomable="yes"}產生內容影像產生面板
 
 1. 使用&#x200B;**[!UICONTROL 影像設定]**&#x200B;選項量身打造您的提示：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要提供AI。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生式模型]**：從現成可用的&#x200B;**[!UICONTROL Adobe模型]**、**[!UICONTROL 提供特殊功能的「合作夥伴」模型]**&#x200B;或&#x200B;**[!UICONTROL 根據您的品牌資產訓練的自訂模型]**&#x200B;中選取。 [了解更多](generative-models.md)。 若要使用夥伴模型(**Gemini**)，在產生的影像上使用&#x200B;**文字重疊**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 外觀比例]**：這會決定資產的寬度和高度。 您可以選擇一般比例，例如16:9、4:3、3:2或1:1，或者輸入自訂大小。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
@@ -109,7 +113,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 儲存]**&#x200B;以儲存資產以供稍後存取。
 
-     ![調整顯示可用動作的選項](assets/image-genai-5-bis.png){zoomable="yes"}
+     ![調整顯示可用動作的選項](assets/image-genai-5.png){zoomable="yes"}
 
 1. 找到適當的內容後，按一下&#x200B;**[!UICONTROL 選取]**。
 
@@ -148,12 +152,16 @@ ht-degree: 3%
 
    如果您正在尋求製作提示的協助，請存取&#x200B;**[!UICONTROL 提示資料庫]**，其中提供各種提示概念，以改進您的行銷活動。
 
-   ![產生推播的內容影像](assets/push-gen-img-bis.png){zoomable="yes"}
+   ![產生推播的內容影像](assets/push-gen-img.png){zoomable="yes"}
 
 1. 選取&#x200B;**[!UICONTROL 影像]**&#x200B;作為要產生的欄位。
 
 1. 選擇您的&#x200B;**[!UICONTROL 影像設定]**：
 
+   * **[!UICONTROL 模式]**：影像如何從您的數位資產管理資料庫取得並參考內容。 [了解更多](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**：使用數位資產管理中的相符影像作為參考內容，否則手動新增參考內容。
+     * **[!UICONTROL 平衡]**：先參考內容，然後視需要提供AI。
+     * **[!UICONTROL Creative]**： Generative AI，不直接依賴數位資產管理。
    * **[!UICONTROL 產生式模型]**：從現成可用的&#x200B;**[!UICONTROL Adobe模型]**、**[!UICONTROL 提供特殊功能的「合作夥伴」模型]**&#x200B;或&#x200B;**[!UICONTROL 根據您的品牌資產訓練的自訂模型]**&#x200B;中選取。 [了解更多](generative-models.md)。 若要使用夥伴模型(**Gemini**)，在產生的影像上使用&#x200B;**文字重疊**，請參閱[使用Gemini做為文字重疊影像的產生模型](generative-uc.md#generative-gemini)。
    * **[!UICONTROL 內容型別]**：這會分類視覺元素的性質，區分不同的視覺呈現形式，例如像片、圖形或藝術品。
    * **[!UICONTROL 視覺強度]**：您可以調整影像的強度來控制影像的影響。 較低的設定(2)可建立更柔和、更克制的外觀，而較高的設定(10)則可讓影像更生動、視覺效果更強大。
