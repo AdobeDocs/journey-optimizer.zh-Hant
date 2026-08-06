@@ -29,8 +29,8 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 67%
+source-wordcount: 1005
+ht-degree: 74%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="在Journey Optimizer中產生內容"
->abstract="完成傳遞的製作和個人化後，您就可以使用AI來編輯和調整內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
+>title="在 Journey Optimizer 產生內容"
+>abstract="在您精心設計和個人化傳遞後，您可以使用 AI 來編輯和調整內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上傳品牌資產"
->abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為Journey Optimizer中的「產生內容」提供額外內容的內容，或是選取先前上傳的資產。 此選項可確保「產生內容」可存取所有必要的素材，以增強其功能性和關聯性。"
+>abstract="您可以使用「上傳品牌資產」選單新增任何品牌資產，當中包含提供予「在 Journey Optimizer 產生內容」的額外背景資訊，或者選取先前上傳的資產。 此選項可確保產生內容能存取所有必要的素材，以增強其功能和相關性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"

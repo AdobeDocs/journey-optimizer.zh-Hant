@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 管理允許的IP
+title: 管理允許的 IP
 description: 瞭解如何在Journey Optimizer中設定IP允許清單，以確保所有流向您Journey Optimizer託管連結的傳入流量，都只會流經您的Web應用程式防火牆。
 feature: Channel Configuration, Deliverability
 role: Admin
@@ -10,16 +10,16 @@ keywords: waf，防火牆， ip，子網域，安全性，流量，傳入
 source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# 管理允許的IP {#waf-ip-allowlist}
+# 管理允許的 IP {#waf-ip-allowlist}
 
 >[!CONTEXTUALHELP]
 >id="ajo_waf_allowed_ips"
->title="輸入所選子網域允許的IP"
->abstract="選取委派的子網域，並輸入Web應用程式防火牆的公用輸出IP。 儲存後，[!DNL Journey Optimizer]將拒絕任何來自其中一個宣告IP的傳入要求，該要求不會傳送給子網域。 儲存之前，請務必向您的安全團隊確認確切的輸出IP。"
+>title="輸入所選子網域允許的 IP"
+>abstract="選取委派的子網域，並輸入網頁應用程式防火牆的公用輸出 IP。 儲存後，[!DNL Journey Optimizer] 便會拒絕任何並非來自其中一個宣告 IP 的子網域傳入要求。 儲存之前，請務必向您的安全團隊確認輸出 IP 準確。"
 
 >[!BEGINSHADEBOX]
 
