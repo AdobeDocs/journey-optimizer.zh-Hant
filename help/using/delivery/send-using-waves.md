@@ -12,7 +12,7 @@ keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送�
 source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
 >title="使用波段傳送"
->abstract="將訊息傳遞分割為排定的批次（波段），以控制一段時間的數量。 您最多可以定義10個相同或自訂大小和時間的波段。"
+>abstract="將訊息傳遞分割為排定的批次 (波段)，以隨時間控制傳送量。 您最多可以定義 10 個相同或自訂大小和時間的波段。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_wave_sending"
 >title="使用波段傳送"
->abstract="將訊息傳遞分割為排定的批次（波段），以控制一段時間的數量。 您最多可以定義10個相同或自訂大小和時間的波段。"
+>abstract="將訊息傳遞分割為排定的批次 (波段)，以隨時間控制傳送量。 您最多可以定義 10 個相同或自訂大小和時間的波段。"
 
 啟用波段傳送的步驟取決於您的上下文 — 讀取對象歷程或動作行銷活動。 選取下列相關標籤，然後參考[波次大小和時間](#wave-options)區段以完成設定。
 

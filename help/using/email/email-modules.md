@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 在電子郵件Designer中使用模組
+title: 在電子郵件設計工具中使用模組
 description: 瞭解如何使用現成可用的模組，以在Adobe Journey Optimizer中更快建立電子郵件。
 feature: Email Design
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: 模組，電子郵件設計工具，標題，主圖，卡片，頁尾�
 source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# 在電子郵件Designer中使用模組 {#email-layout-modules}
+# 在電子郵件設計工具中使用模組 {#email-layout-modules}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
 >title="關於模組"
->abstract="模組是預先定義、可重複使用的電子郵件版面配置區塊，您可以將其直接拖放至電子郵件畫布中。 每個模組都預先設定了一組精選的可編輯屬性，例如影像、文字、按鈕和連結，您可以透過WYSIWYG介面加以自訂。"
+>abstract="模組是預先定義、可重複使用的電子郵件版面配置區塊，您可以將其直接拖放至電子郵件畫布中。 每個模組都預先設定了一組精選的可編輯屬性，例如影像、文字、按鈕和連結，您可以透過 WYSIWYG 介面加以自訂。"
 
 電子郵件Designer包含&#x200B;**模組**&#x200B;的程式庫：可立即使用的完整結構化內容區塊，設計用於加速電子郵件組合併提升通訊的設計一致性。
 

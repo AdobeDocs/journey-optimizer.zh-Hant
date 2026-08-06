@@ -10,27 +10,16 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: 4bdf774d4d38b3c7d97daebade3dfb6ab0403a5e
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 67%
+source-wordcount: 1005
+ht-degree: 74%
 
 ---
 
@@ -44,13 +33,13 @@ ht-degree: 67%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="在Journey Optimizer中產生內容"
->abstract="完成傳遞的製作和個人化後，您就可以使用AI來編輯和調整內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
+>title="在 Journey Optimizer 產生內容"
+>abstract="在您精心設計和個人化傳遞後，您可以使用 AI 來編輯和調整內容。 此功能可讓您透過描述想要產生的內容來微調內容，進而簡化個人化和內容改善的過程。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="上傳品牌資產"
->abstract="「上傳品牌資產」選單可讓您新增任何品牌資產，其中包含可為Journey Optimizer中的「產生內容」提供額外內容的內容，或是選取先前上傳的資產。 此選項可確保「產生內容」可存取所有必要的素材，以增強其功能性和關聯性。"
+>abstract="您可以使用「上傳品牌資產」選單新增任何品牌資產，當中包含提供予「在 Journey Optimizer 產生內容」的額外背景資訊，或者選取先前上傳的資產。 此選項可確保產生內容能存取所有必要的素材，以增強其功能和相關性。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -65,7 +54,7 @@ ht-degree: 67%
 
 在Adobe Journey Optimizer中產生內容，由Microsoft Azure OpenAI和Adobe Firefly提供技術支援，針對文字和影像提供主動式內容變數建議。 這項新功能提供&#x200B;**提示型文字與影像產生功能**。 透過 Adobe Firefly 管理影像產生功能。
 
-「產生內容」支援以多種語言產生&#x200B;**&#x200B;**，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
+「產生內容」支援以多種語言產生&#x200B;****，讓您能夠觸及並吸引不同的全球對象。 產生內容提供下列語言版本：
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -162,7 +151,7 @@ ht-degree: 67%
 ### 合法使用與透明度
 
 * 您使用「產生內容」時，必須遵守Adobe Experience Cloud Generative AI使用准則。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [瞭解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [瞭解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 產生個人化運算式的內容 {#ai-assistant-personalization-editor-guardrails}
