@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ## 受影響的資料集 {#datasets}
 
-下表列出所有Journey Optimizer系統產生的資料集，以及資料湖和[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中的各自存留時間。 時間序列資料集受TTL限制；列出記錄型別資料集以供參考，並在兩欄中標示`n/a`。 「可用性」欄會指出資料集是否預設包含，或需要特定的附加元件或授權。
+下表列出所有Journey Optimizer系統產生的資料集，以及資料湖和[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中的各自存留時間。 時間序列資料集受TTL限制；列出記錄型別資料集以供參考，並在兩欄中標示`n/a`。 「可用性」欄會指出資料集是否預設包含，或需要特定的附加元件或授權。
 
 | 資料集 | 可用性 | 資料湖TTL | 設定檔存放區TTL |
 |------|-----|-----|-----|
@@ -80,7 +80,7 @@ ht-degree: 13%
 
 您可以在下方找到資料集存留時間(TTL)的常見問題集。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
 
 +++哪些型別的資料集須遵循TTL？
 
@@ -112,13 +112,13 @@ TTL僅適用於時間序列資料集。 記錄型別資料集（例如實體資�
 
 >[!NOTE]
 >
->儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
+>儲存在設定檔中的資料受限於「總資料量」權益。 因此，設定檔上因TTL延伸所增加的任何資料儲存都將計入「總資料量」權益。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=zh-Hant){target="_blank"}
 
 +++
 
 +++客戶能否為Data Lake中的[!DNL Journey Optimizer]系統資料集增加TTL？ 
 
-目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+目前不支援TTL副檔名。 客戶可以透過目的地匯出資料，以保留更長的資料時間。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target="_blank"}。 此外，擁有&#x200B;**[!DNL Data Distiller]**&#x200B;權益的客戶可以建立衍生資料集，以便在沒有TTL的情況下將資料儲存在Data Lake中。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -158,8 +158,8 @@ TTL僅適用於時間序列資料集。 記錄型別資料集（例如實體資�
 
 需要更長保留期的客戶有兩種選擇：
 
-* **匯出至外部儲存體**：在TTL到期之前，從AJO資料集匯出相關資料。 Adobe Journey Optimizer支援將資料集匯出至各種雲端儲存空間目標（Amazon S3、Azure Blob、Google雲端儲存空間等）。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
-* **資料Distiller衍生的資料集**：擁有Data Distiller許可權的客戶可以設定自動化查詢，以將關鍵資料複製到資料湖的衍生資料集中，該資料集可以不使用TTL儲存。 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **匯出至外部儲存體**：在TTL到期之前，從AJO資料集匯出相關資料。 Adobe Journey Optimizer支援將資料集匯出至各種雲端儲存空間目標（Amazon S3、Azure Blob、Google雲端儲存空間等）。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=zh-Hant){target="_blank"}
+* **資料Distiller衍生的資料集**：擁有Data Distiller許可權的客戶可以設定自動化查詢，以將關鍵資料複製到資料湖的衍生資料集中，該資料集可以不使用TTL儲存。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
