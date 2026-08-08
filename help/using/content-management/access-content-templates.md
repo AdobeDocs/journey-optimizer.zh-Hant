@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1038
 ht-degree: 2%
 
 ---
@@ -39,9 +32,9 @@ ht-degree: 2%
 
 若要存取和管理內容範本，請確定以下事項：
 
-* **內容範本許可權** — 您的角色必須包含&#x200B;**[!UICONTROL 管理內容範本]**&#x200B;許可權（在&#x200B;**內容管理**&#x200B;資源下）。 如果沒有它，左側導覽中就不會顯示&#x200B;**內容範本**&#x200B;功能表。 [瞭解如何管理許可權](../administration/permissions.md)
-* **沙箱範圍** — 內容範本是沙箱專屬的。 在一個沙箱中建立的範本無法用於另一個沙箱。 搜尋範本之前，請確定您位於正確的沙箱中。
-* **HTML範本（已棄用）** — 自2025年3月起，將棄用HTML型別的內容範本。 現有的HTML範本仍可存取，但無法建立新的範本。
+* **內容範本許可權**：您的角色必須包含&#x200B;**[!UICONTROL 管理內容範本]**&#x200B;許可權（在&#x200B;**內容管理**&#x200B;資源下）。 如果沒有它，左側導覽中就不會顯示&#x200B;**內容範本**&#x200B;功能表。 [瞭解如何管理許可權](../administration/permissions.md)
+* **沙箱範圍**：內容範本是沙箱專屬的。 在一個沙箱中建立的範本無法用於另一個沙箱。 搜尋範本之前，請確定您位於正確的沙箱中。
+* **HTML範本（已棄用）**：自2025年3月起，已棄用HTML型別的內容範本。 現有的HTML範本仍可存取，但無法建立新的範本。
 
 ## Access 內容範本 {#access}
 
@@ -92,7 +85,7 @@ ht-degree: 2%
 
    ![](assets/content-template-create-folder.png)
 
-1. 輸入新資料夾的名稱，然後按一下[儲存]。**&#x200B;** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
+1. 輸入新資料夾的名稱，然後按一下[儲存]。**** 新資料夾會顯示在&#x200B;**[!UICONTROL Root]**&#x200B;資料夾內內容範本清單的頂端，或顯示在目前選取的資料夾內。
 
 1. 您可以按一下&#x200B;**[!UICONTROL 其他動作]**&#x200B;按鈕，重新命名或刪除資料夾。
 
@@ -110,24 +103,35 @@ ht-degree: 2%
 
 從每個範本旁邊的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕，您可以存取下列捷徑和動作：
 
-* **[!UICONTROL 編輯詳細資料]** — 編輯範本名稱、說明和標籤。
-* **[!UICONTROL 模擬內容]** — 預覽和測試範本內容。
-* **[!UICONTROL 刪除]** — 刪除範本。
+* **[!UICONTROL 編輯詳細資料]**：編輯範本名稱、說明和標籤。
+* **[!UICONTROL 模擬內容]**：預覽和測試範本內容。
+* **[!UICONTROL 刪除]**：刪除範本。
 
-對於電子郵件範本，還提供下列其他捷徑：
+視通道而定，還有其他可用的捷徑，請存取下列下拉式清單以瞭解更多資訊：
 
-* **[!UICONTROL 編輯主旨列]** — 快速更新電子郵件主旨列。
-* **[!UICONTROL 編輯電子郵件內文]** — 開啟電子郵件設計工具以修改範本內容。
-* **[!UICONTROL 檢視校訂]** — 檢視電子郵件範本的校訂。
-* **[!UICONTROL 傳送校樣]** — 傳送範本的校樣給指定的收件者。
-* **[!UICONTROL 垃圾郵件報告]** — 分析範本以防範垃圾郵件篩選器。
-* **[!UICONTROL 轉譯電子郵件]** — 預覽電子郵件在不同電子郵件使用者端間的轉譯方式。
++++ 適用於電子郵件範本
 
-![](assets/content-template-quick-launch.png)
+* **[!UICONTROL 編輯電子郵件內文]**：開啟電子郵件設計工具以修改範本內容。
+* **[!UICONTROL 檢視校訂]**：檢視電子郵件範本的校訂。
+* **[!UICONTROL 傳送校樣]**：傳送範本的校樣給指定的收件者。
+* **[!UICONTROL 垃圾郵件報告]**：分析範本以防範垃圾郵件篩選器。
+* **[!UICONTROL 轉譯電子郵件]**：預覽電子郵件在不同電子郵件使用者端間的轉譯方式。
+
+![](assets/content-template-quick-launch-email.png)
+
++++
+
++++ 針對簡訊範本
+
+* **[!UICONTROL 檢查字元計數/區段]**：檢查訊息使用的字元計數和區段數。
+
+![](assets/content-template-quick-launch-sms.png)
+
++++
 
 若要編輯範本的完整內容，請從清單中按一下所需的專案，然後進行所需的變更。 您也可以按一下範本名稱旁邊的編輯按鈕，以編輯內容範本屬性。
 
-    ！[&#128279;](assets/content-template-edit.png)
+    ！[](assets/content-template-edit.png)
 
 >[!NOTE]
 >
@@ -165,7 +169,7 @@ ht-degree: 2%
 
 +++我建立的範本未顯示在清單中
 
-檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;**」，以顯示所有範本（無論資料夾為何）。**
+檢查您是否在正確的沙箱中 — 範本是沙箱專屬的。 同時確認是否在左窗格中選取資料夾；選取資料夾時，只會顯示該資料夾中的範本。 按一下「所有內容範本&#x200B;]**」，以顯示所有範本（無論資料夾為何）。**[!UICONTROL 
 
 +++
 
