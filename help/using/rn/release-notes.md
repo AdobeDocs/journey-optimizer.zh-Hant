@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ebc8a412a74f4099840da6f6be57c0c4a0e3257
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3132
 ht-degree: 19%
 
 ---
@@ -91,7 +91,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>忠誠度也會引進同事技能，讓團隊更有效率地執行關鍵挑戰操作，包括建立挑戰、設定挑戰屬性、管理對象和相關設定，以及檢閱見解以監控挑戰參與度和獎勵績效。</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>此功能僅適用於獲得Journey Optimizer忠誠度授權的組織。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細說明文件</a>。</p>
 <p> 推出日期： 2026年7月28日</p>
 </td>
 </tr>
@@ -116,7 +116,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專用頻道功能。</p>
 <p>自訂傳出頻道目前以「有限可用性」的形式提供。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細說明文件</a>。</p>
 <p> 推出日期： 2026年7月31日</p>
 </td>
 </tr>
@@ -141,7 +141,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年7月22日</p>
 </td>
 </tr>
@@ -330,7 +330,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>透過引導式功能，協助您將現有電子郵件內容和歷程移至Journey Optimizer，讓從其他行銷平台轉換至Adobe Journey Optimizer變得更輕鬆。 專屬的工作區可讓您重複使用現有工作，而非從頭重建。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細說明文件</a>。</p>
 <p> 推出日期： 2026年7月30日</p>
 </td>
 </tr>
@@ -341,9 +341,9 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 
   ![](../content-management/assets/fragment-quick-launch.png)
 
-* **範本詳細目錄中的快速啟動捷徑** — 「內容範本」清單中的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕現在提供對常見動作的快速存取：編輯範本詳細資料、模擬內容以及刪除範本。 對於電子郵件範本，其他捷徑可讓您編輯主旨行和電子郵件內文、檢視或傳送校樣、執行垃圾郵件報告，以及呈現電子郵件。 [了解更多](../content-management/access-content-templates.md#quick-launch-templates)
+* **範本詳細目錄中的快速啟動捷徑** — 「內容範本」清單中的&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕現在提供對常見動作的快速存取：編輯範本詳細資料、模擬內容以及刪除範本。 也可使用其他通道特定的捷徑：針對電子郵件範本、編輯電子郵件內文、檢視或傳送校樣、執行垃圾郵件報告，以及轉譯電子郵件；針對簡訊範本，檢查字元計數和區段數。 [了解更多](../content-management/access-content-templates.md#edit)
 
-  ![](../content-management/assets/content-template-quick-launch.png)
+  ![](../content-management/assets/content-template-quick-launch-email.png)
 
 * **個人化運算式中的新協助程式函式** — 個人化運算式現在提供新協助程式函式：
 

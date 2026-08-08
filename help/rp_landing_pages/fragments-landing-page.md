@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 如何建立可重複使用的片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中可重複使用的內容片段可讓您建立可在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 管理內容片段
 
