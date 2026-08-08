@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
 workflow-type: tm+mt
-source-wordcount: 9823
-ht-degree: 83%
+source-wordcount: 9976
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 83%
 # 文件更新 {#latest-updates}
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
+
+## 2026年8月 {#august-2026}
+
+* **資料集存留時間(TTL)護欄**&#x200B;頁面已更新，包含大幅擴充的&#x200B;**受影響的資料集**&#x200B;表格，現在已涵蓋所有Journey Optimizer系統產生的資料集（包括數個先前未列出的資料集，例如AJO同意服務、互動式訊息設定檔、推送設定檔及訊息匯出資料集），以及新的&#x200B;**可用性**&#x200B;欄，指出每個資料集是否已依預設納入，或需要特定附加元件或授權。 **護欄和限制**&#x200B;頁面也已更新，以反映此護欄的確認執行日期：此變更將從&#x200B;**2026年10月1日**&#x200B;開始在&#x200B;**現有客戶沙箱**&#x200B;上強制執行。 [閱讀更多](../data/datasets-ttl.md#datasets)
+
+* 新的&#x200B;**使用影像設定模式**&#x200B;區段已新增至產生式內容檔案。 它說明了&#x200B;**[!UICONTROL 影像設定]**&#x200B;下可用的&#x200B;**平衡**、**DAM**&#x200B;和&#x200B;**Creative**&#x200B;模式，這些模式可控制AI產生的內容來源影像是來自您的數位資產管理程式庫、以AI產生影像，還是兩者混合在一起。 [閱讀更多](../content-management/generative-uc.md#image-mode)
 
 ## 2026年7月 {#july-2026}
 
@@ -315,9 +321,9 @@ ht-degree: 83%
 
 * 已在校樣傳送文件中新增附註，以釐清頻率上限規則適用於校樣。 頁面現在包含「必須閱讀」區段，其中包含有關頻率上限行為、鏡像頁面限制和資產可存取性規則的重要考量。 [閱讀全文](../content-management/proofs.md)
 
-* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀更多](../channels/gs-channels.md#channels)
+* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀全文](../channels/gs-channels.md#channels)
 
-* 已建立新的完整追蹤登入頁面，以協助使用者探索及存取[!DNL Journey Optimizer]中提供的所有追蹤與監視功能。 [閱讀更多](../start/get-started-tracking.md)
+* 已建立新的完整追蹤登入頁面，以協助使用者探索及存取[!DNL Journey Optimizer]中提供的所有追蹤與監視功能。 [閱讀全文](../start/get-started-tracking.md)
 
 * 已增強「電子郵件選擇退出管理」頁面，其中包含有關取消訂閱流程的詳細資訊，說明登陸頁面選擇退出的預期事件順序。 [閱讀全文](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -329,9 +335,9 @@ ht-degree: 83%
 
 * 推出新的歷程使用案例資料庫，整理實用使用案例集合，包括戰術模式 (禁止邏輯、個人化技術、歷程退出策略) 和涵蓋行銷和技術工作流程的完整端到端案例。 [閱讀全文](../building-journeys/jo-use-cases.md)
 
-* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀更多](../building-journeys/weekday-email-uc.md)
+* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀全文](../building-journeys/weekday-email-uc.md)
 
-* 新頁面現已推出，說明[!DNL Journey Optimizer]的決策功能，包括新一代決策架構與已建立的決策管理解決方案之間的差異，以及這些跨管道提供個人化優惠方案的主要優點。 [閱讀更多](../experience-decisioning/gs-decision.md)
+* 新頁面現已推出，說明[!DNL Journey Optimizer]的決策功能，包括新一代決策架構與已建立的決策管理解決方案之間的差異，以及這些跨管道提供個人化優惠方案的主要優點。 [閱讀全文](../experience-decisioning/gs-decision.md)
 
 * 客群啟用文件已新增一個區段，說明如何在 [!DNL Journey Optimizer] 中啟用不支援的客群類型 (例如 Customer Journey Analytics 客群)，方法是在客群入口網站中以新的區段定義來包裝這些客群。 [閱讀全文](../audience/target-audiences.md#activation-non-supported)
 
@@ -366,7 +372,7 @@ ht-degree: 83%
 * 區段定義文件已新增附註，以澄清 `frequencyMap` 屬性不支援用於區段定義，且無法用作客群細分條件的一部分。 對於以頻率為基礎的目標定位，請考慮在商業規則下使用頻率上限規則。 [閱讀全文](../audience/creating-a-segment-definition.md)
 * API 呼叫回應文件中已新增一個範例，說明如何在原生管道中使用自訂動作回應。 此範例示範如何在電子郵件、推播和簡訊中使用 Handlebars 語法，從自訂動作回應中反覆處理巢狀陣列。 [閱讀全文](../action/action-response.md#response-in-channels)
 
-* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。 該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀更多](../action/acc-action.md#update-action)
+* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。 該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀全文](../action/acc-action.md#update-action)
 
 * 已在視覺片段檔案中新增限制和最佳實務章節，以警告使用者不要將包含條件內容的片段巢狀內嵌在其他具有條件內容的已解除鎖定片段中。 該指南包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。 [閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
 
@@ -392,9 +398,9 @@ ht-degree: 83%
 
 * 表示無法為先前建立之產品建議啟用或停用的頻率上限的警告說明，已從「將限制新增至產品建議」頁面中移除。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
 
-* 現在提供有關如何使用歷程步驟事件的文件。 [閱讀更多](../reports/journey-step-events-overview.md)
+* 現在提供有關如何使用歷程步驟事件的文件。 [閱讀全文](../reports/journey-step-events-overview.md)
 
-* 現在提供有關歷程進入和退出條件的全新指南，其中包含最佳實務、真實世界的範例，以及在[!DNL Adobe Journey Optimizer]中管理設定檔進入和退出歷程時的實用指引。 [閱讀更多](../building-journeys/entry-exit-criteria-guide.md)
+* 現在提供有關歷程進入和退出條件的全新指南，其中包含最佳實務、真實世界的範例，以及在[!DNL Adobe Journey Optimizer]中管理設定檔進入和退出歷程時的實用指引。 [閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
 
 * 推出新頁面，說明如何反覆處理訊息中的內容資料。 本指南說明如何使用 Handlebars 語法，以顯示個人化中事件、自訂動作回應、資料集查詢和其他內容來源的動態清單。 [閱讀全文](../personalization/iterate-contextual-data.md)
 
@@ -404,9 +410,9 @@ ht-degree: 83%
 
 ## 2025 年 10 月 {#october-2025}
 
-* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀更多](../content-management/image-to-html.md)
+* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀全文](../content-management/image-to-html.md)
 
-* 有關[!DNL Adobe Journey Optimizer]發行週期的資訊現已可用。 [閱讀更多](releases.md)
+* 有關[!DNL Adobe Journey Optimizer]發行週期的資訊現已可用。 [閱讀全文](releases.md)
 
 * 全新歷程常見問題頁面已推出。 [閱讀全文](../building-journeys/journey-faq.md)
 
@@ -450,9 +456,9 @@ ht-degree: 83%
 
 * 已在歷程步驟事件文件中新增疑難排解章節，其中包含最常捨棄事件類型的定義、常見原因和疑難排解步驟。 [閱讀全文](../reports/sharing-field-list.md#discarded-events)
 
-* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀更多](../building-journeys/supplemental-identifier.md#exit-criteria)
+* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀全文](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 已新增疑難排解章節，以瞭解暫停歷程中的設定檔捨棄。 [閱讀更多](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 已新增疑難排解章節，以瞭解暫停歷程中的設定檔捨棄。 [閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * 結構描述概觀文件中已新增資訊，以區分用於協調行銷活動的標準和關聯式結構描述。 [閱讀全文](../data/gs-data.md)
 
@@ -488,7 +494,7 @@ ht-degree: 83%
 
 * 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [了解更多](../content-management/create-fragments.md#content)
 
-* 套用至[!DNL Journey Optimizer]中子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀更多](../configuration/delegate-subdomain.md#guardrails)
+* 套用至[!DNL Journey Optimizer]中子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀全文](../configuration/delegate-subdomain.md#guardrails)
 
 * 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。 [閱讀全文](../offers/offer-library/creating-fallback-offers.md)
 
@@ -526,11 +532,11 @@ ht-degree: 83%
 
 ## 2025 年 5 月 {#may-2025}
 
-* [!DNL Journey Optimizer]提供的Adobe整合現在列於「連線您的系統和環境」區段。 [閱讀更多](../integrations/ajo-integrations.md)
+* [!DNL Journey Optimizer]提供的Adobe整合現在列於「連線您的系統和環境」區段。 [閱讀全文](../integrations/ajo-integrations.md)
 
-* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀更多](../integrations/content-integrations.md)
+* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀全文](../integrations/content-integrations.md)
 
-* 已更新Adobe Experience Platform和[!DNL Journey Optimizer]的架構圖表。 [閱讀更多](../start/get-started.md#architecture)
+* 已更新Adobe Experience Platform和[!DNL Journey Optimizer]的架構圖表。 [閱讀全文](../start/get-started.md#architecture)
 
 * 新增有關個人化編輯器遊樂場的影片，以便幫助您瞭解如何使用樣本資料，編寫並測試個人化程式碼。 [閱讀全文](../personalization/personalize.md#video-perso)
 
@@ -569,8 +575,8 @@ ht-degree: 83%
 * 資料衛生現在是產品使用者介面的資料生命週期。 說明文件已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
 * 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
 * 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
-* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀更多](../email/message-tracking.md)
-* 有關[!DNL Adobe Journey Optimizer]個人化功能的區段已重新整理並改良。 [閱讀更多](../personalization/personalize.md)
+* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
+* 有關[!DNL Adobe Journey Optimizer]個人化功能的區段已重新整理並改良。 [閱讀全文](../personalization/personalize.md)
 * 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 * 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -578,8 +584,8 @@ ht-degree: 83%
 ## 2025 年 2 月 {#feb-2025}
 
 * 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。 [閱讀全文](../building-journeys/read-audience.md)
-* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀更多](../start/guardrails.md#ac-g)
-* 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀更多](../building-journeys/journey-gs.md)
+* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
+* 已詳細說明建立第一個歷程的步驟，並新增檔案區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
 * **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
@@ -591,7 +597,7 @@ ht-degree: 83%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。 [閱讀更多](../email/email-settings.md#execution-address)
+* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但預設設定可針對特定電子郵件設定覆寫。 [閱讀全文](../email/email-settings.md#execution-address)
 
 * **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。 [閱讀全文](../reports/deliverability.md#reputation)
 
@@ -623,8 +629,8 @@ ht-degree: 83%
 * 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。 [閱讀全文](../data/get-started-datasets.md)
 * 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。 [閱讀全文](../code-based/test-code-based.md#preview-on-device)
-* 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀更多](../offers/custom-upload-decisioning.md)
-* 已新增新頁面，以介紹[!DNL Journey Optimizer]中可用的決定功能。 [閱讀更多](../experience-decisioning/gs-decision.md)
+* 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
+* 已新增新頁面，以介紹[!DNL Journey Optimizer]中可用的決定功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
 * Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
@@ -633,7 +639,7 @@ ht-degree: 83%
 * 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀更多](../content-management/generative-full-content.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [深入了解](../content-management/generative-full-content.md#video)
 
 +++
 

@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
 workflow-type: tm+mt
-source-wordcount: 4612
-ht-degree: 93%
+source-wordcount: 4611
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 輪廓存放區中的資料為 **90 天**
 * 資料湖中的資料為 **13 個月**
 
-將在後續階段，開放&#x200B;**現有客戶沙箱**&#x200B;使用這項變更。 [進一步瞭解資料集存留時間 (TTL) 護欄](../data/datasets-ttl.md)
+此變更將從&#x200B;**2026年10月1日**&#x200B;開始強制在&#x200B;**現有客戶沙箱**&#x200B;上執行。 [進一步瞭解資料集存留時間 (TTL) 護欄](../data/datasets-ttl.md)
 
 ## 歷程 {#journeys-guardrails}
 
