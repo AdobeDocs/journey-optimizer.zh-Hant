@@ -7,19 +7,11 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 TQID: https://experienceleague.adobe.com/QtTkevbB9U3-Aad9mOZ6eI8ZMCjx-riEWyPaQ0eLqmc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 976
@@ -81,7 +73,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 >title="定義內容製作和預覽 URL"
 >abstract="此欄位可確保根據規則產生或符合的頁面具有指定的 URL，這對於有效建立和預覽內容至關重要。"
 
-建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;**的**&#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。
+建立網頁或[程式碼型體驗](../code-based/get-started-code-based.md)設定時，您可以建置符合規則&#x200B;]**的**[!UICONTROL &#x200B;頁面，以鎖定多個符合相同規則的URL。 因此，您可以一次將相同的內容變更套用至多個頁面。
 
 例如，您可能會想要將變更套用至整個網站的主圖橫幅，或新增顯示在網站所有產品頁面上的最上方影像。
 
@@ -113,7 +105,7 @@ Web設定是由URL識別的Web屬性，將會傳送內容。 它可以比對單�
 
 ### 建立頁面比對規則的可用運運算元 {#available-operators}
 
-建立符合多個頁面[&#128279;](#web-page-matching-rule)的規則時，您可以在&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 路徑]**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 可用的運運算元如下所列。
+建立符合多個頁面](#web-page-matching-rule)的[規則時，您可以在&#x200B;**[!UICONTROL 網域]**&#x200B;和&#x200B;**[!UICONTROL 路徑]**&#x200B;區段上使用不同的運運算元來建置您想要的規則。 可用的運運算元如下所列。
 
 * **網域**
 
