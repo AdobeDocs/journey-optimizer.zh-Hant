@@ -7,7 +7,6 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
 product_v2:
@@ -25,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+source-git-commit: 0ea831b383982d312357e1d7893675818650325e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1432
 ht-degree: 3%
 
 ---
@@ -39,6 +38,10 @@ ht-degree: 3%
 **在此頁面上：**&#x200B;測試使用AI產生的變體、手動輸入、從檔案匯入或根據模擬的使用者，然後預覽並傳送校樣，以確認您個人化的內容正確轉譯給每一種型別的收件者。
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>現在提供重新設計的模擬體驗，所有變體都以可捲動並排的格線顯示、整合的底部動作列，以及更多熒幕空間供預覽。 [探索新體驗](simulate-content-variations.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

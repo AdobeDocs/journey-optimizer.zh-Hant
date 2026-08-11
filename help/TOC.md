@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
 workflow-type: tm+mt
-source-wordcount: '3489'
-ht-degree: 94%
+source-wordcount: '3496'
+ht-degree: 93%
 
 ---
 
@@ -267,7 +267,8 @@ ht-degree: 94%
     + [使用測試設定檔進行預覽](using/content-management/preview.md)
     + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
     + [測試電子郵件轉譯](using/content-management/rendering.md)
-    + [模擬內容變化版本](using/test-approve/simulate-sample-input.md)
+    + [模擬內容變數（傳統體驗）](using/test-approve/simulate-sample-input.md)
+    + [模擬內容變數（新體驗）](using/test-approve/simulate-content-variations.md)
     + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
   + 核准歷程與行銷活動 {#approve}
     + [核准歷程與行銷活動](/help/rp_landing_pages/approve-landing-page.md)
@@ -569,7 +570,7 @@ ht-degree: 94%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
@@ -975,7 +976,7 @@ ht-degree: 94%
   + [將副本欄位新增至電子郵件](using/configuration/cc-email-field.md)
   + [管理執行欄位](using/configuration/primary-email-addresses.md)
   + [建立意見回饋 Webhook](using/configuration/feedback-webhooks.md)
-  + [管理允許的IP](using/configuration/waf-ip-allowlist.md)
+  + [管理允許的 IP](using/configuration/waf-ip-allowlist.md)
 + 歷程設定 {#configure-journeys}
   + [歷程設定](/help/rp_landing_pages/configure-journeys-landing-page.md)
   + [開始使用歷程設定](using/configuration/about-data-sources-events-actions.md)
