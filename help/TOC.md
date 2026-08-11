@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
