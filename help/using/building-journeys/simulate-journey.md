@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
+source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 2933
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
 
       ![建立具有重複內容的模擬使用者卡片、套用所有屬性至其他使用者，以及刪除每個使用者](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -153,33 +153,33 @@ ht-degree: 0%
 
    ![使用使用者範本和格式JSON控制項建立模擬使用者JSON編輯器](assets/simulate-json.png)
 
-   若要在[!DNL Adobe Experience Platform]中重複使用設定檔或[測試設定檔](../audience/creating-test-profiles.md)的屬性值：
-
-   1. 瀏覽至要做為參照的設定檔。 在設定檔詳細資訊頁面上，按一下&#x200B;**[!UICONTROL 檢視JSON]**。 [了解更多](../audience/get-started-profiles.md)
-
-      在Adobe Experience Platform中![設定檔JSON檢視](assets/simulate-json-1.png)
-
-   1. 從檢視器複製JSON。
-
-   1. 在歷程中，開啟&#x200B;**[!UICONTROL 模擬設定]**，開始&#x200B;**[!UICONTROL 建立模擬使用者]**，然後選擇&#x200B;**從JSON建立**。
-
-   1. 將JSON貼到模擬使用者範本的相符部分（例如，一個使用者的屬性區塊）。 按一下&#x200B;**[!UICONTROL 格式化JSON]**&#x200B;以驗證結構。
-
-      ![使用貼上的設定檔屬性建立模擬使用者JSON編輯器](assets/simulate-json-2.png)
-
-   1. 移除[!DNL Adobe Experience Platform]設定檔上僅繫結至來源設定檔的屬性，例如mergePolicyId或lastModifiedAt。
-
-   1. 設定模擬使用者範本所需的欄位： **[!UICONTROL 顯示名稱]**、**[!UICONTROL 身分名稱空間]**、身分值和頻道執行位址。
-
-   1. 按一下「**[!UICONTROL 儲存]**」。 在您執行&#x200B;**[!UICONTROL 模擬]**&#x200B;之前，使用已儲存模擬使用者上的![編輯圖示](assets/do-not-localize/Smock_Edit_18_N.svg)來檢閱資料。
-
-      ![使用使用者範本和格式JSON控制項建立模擬使用者JSON編輯器](assets/simulate-json-3.png)
-
-      >[!WARNING]
-      >
-      >如果您貼上設定檔JSON，請移除或取代所有生產識別碼和聯絡視窗（電子郵件、電話、ECID、推播權杖等）。 模擬會使用您提供的資料傳送訊息。
-
    +++
+
+<!--
+    To reuse attribute values from a profile or [test profile](../audience/creating-test-profiles.md) in [!DNL Adobe Experience Platform]:
+
+    1. Browse to the profile you want to use as a reference. On the profile detail page, click **[!UICONTROL View JSON]**. [Learn more](../audience/get-started-profiles.md)
+
+        ![Profile JSON view in Adobe Experience Platform](assets/simulate-json-1.png)
+
+    1. Copy the JSON from the viewer.
+
+    1. In the journey, open **[!UICONTROL Simulation settings]**, start **[!UICONTROL Create Simulated Users]**, and choose **Create from JSON**.
+
+    1. Paste the JSON into the matching part of the simulated user template (for example, the attribute block for one user). Click **[!UICONTROL Format JSON]** to validate the structure.
+
+        ![Create Simulated Users JSON editor with pasted profile attributes](assets/simulate-json-2.png)
+
+    1. Remove properties that exist on the [!DNL Adobe Experience Platform] profile only tied to the source profile, such as mergePolicyId or lastModifiedAt.
+
+    1. Set the fields required by the simulated user template: **[!UICONTROL Display name]**, **[!UICONTROL Identity namespace]**, identity value, and channel execution addresses.
+
+    1. Click **[!UICONTROL Save]**. Use ![Edit icon](assets/do-not-localize/Smock_Edit_18_N.svg) on the saved simulated user to review the data before you run **[!UICONTROL Simulation]**.
+
+        ![Create Simulated Users JSON editor with users template and Format JSON control](assets/simulate-json-3.png)
+
+        If you paste profile JSON, remove or replace all production identifiers and contact points (email, phone, ECID, push token, and similar). Simulation will send messages using the data you provide.
+-->
 
 1. 您建立的模擬使用者會顯示在&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中。 針對每個專案，選取下列其中一項：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    ![測試使用者清單，其中包含在畫布上反白顯示的編輯、傳送及移除動作和模擬路徑](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![使用新增使用者選項開啟管理使用者功能表，並清除所有使用者](assets/simulate-manage.png)
 
