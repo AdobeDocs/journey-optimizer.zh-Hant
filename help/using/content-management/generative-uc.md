@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_assets_selection_mode"
 >title="資產選擇模式"
->abstract="[!UICONTROL Assets模式]設定可控制您的視覺資產來源。 它可讓您定義影像是直接從數位資產管理(DAM)資料庫擷取，還是使用AI產生的內容以動態方式產生。"
+>abstract="[!UICONTROL 資產模式]設定可控制您的視覺資產來源。 它可讓您定義影像是直接從數位資產管理 (DAM) 資料庫擷取，還是使用 AI 產生的內容以動態方式產生。"
 
 **[!UICONTROL 影像設定]**&#x200B;下的&#x200B;**[!UICONTROL 模式]**&#x200B;選項可控制影像如何從您的數位資產管理程式庫取得並產生內容。
 
