@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +61,14 @@ The following capability is coming to onboarding in this release.
 <table>
 <thead>
 <tr>
-<th><strong>歷程層級保留</strong><br/></th>
+<th><strong>歷程層級保留（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>您現在可以直接從歷程屬性設定歷程的保留群組。 保留是目標受眾中可設定的百分比，會排除在進入歷程之外且不會收到任何通訊。 將保留設定檔與Customer Journey Analytics報告中的作用中設定檔進行比較，即可測量歷程帶來的增量提升度（實際影響）。</p>
+<p> 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -91,13 +87,13 @@ The following capability is coming to onboarding in this release.
 <table>
 <thead>
 <tr>
-<th><strong>Action行銷活動中的傳入體驗模擬</strong><br/></th>
+<th><strong>Action Campaigns中的傳入體驗模擬</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以在上線前在「動作」行銷活動中模擬傳入頻道動作。 使用模擬模式透過模擬使用者測試您的設定並預覽呈現的體驗，包括產生的URL和QR碼，因此您可以端對端驗證規則、決策和內容呈現。</p>
+<p>您現在可以在上線前在「動作行銷活動」中模擬傳入頻道動作。 使用模擬模式透過模擬使用者測試您的設定並預覽呈現的體驗，包括產生的URL和QR碼，因此您可以端對端驗證規則、決策和內容呈現。</p>
 <p>此功能目前為私人測試版，僅供有限的組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -112,11 +108,11 @@ The following capability is coming to onboarding in this release.
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中電子郵件、簡訊和WhatsApp傳遞的預設執行欄位全域設定。<!-- Documentation link: TBD -->
+* **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。<!-- Documentation link: TBD -->
 
 ### 協調的行銷活動 {#august-26-oc}
 
-下列功能和改進功能將新增到此版本的協調行銷活動。
+此版本中的協調行銷活動推出下列功能和改善。
 
 <table>
 <thead>
@@ -127,7 +123,7 @@ The following capability is coming to onboarding in this release.
 <tbody>
 <tr>
 <td>
-<p>您現在可以套用無訊息時數。 無訊息小時可讓您定義以時間為基礎的排除，以防止在特定期間傳送訊息，協助您在行銷活動協調使用案例中遵守客戶偏好設定和合規性要求。</p>
+<p>您現在可以套用安靜時間。 「無訊息時間」可讓您定義以時間為基礎的排除專案，以防止訊息在特定期間傳送，協助您在行銷活動協調使用案例中遵守客戶偏好設定和合規性要求。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -214,7 +210,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
