@@ -10,21 +10,14 @@ level: Experienced
 keywords: 行銷活動， API觸發， REST，最佳化工具，訊息
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
 TQID: https://experienceleague.adobe.com/bGwpeOAxkX8JWh2c-CNrq7-L1YphGT0aoQvUJBia4IE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 521
 ht-degree: 5%
 
 ---
@@ -56,7 +49,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)不依賴Adobe設定檔：所有個人化必須作為內容資料包含在API承載中，如下所述。 此模式僅適用於美國地區的電子郵件通道和。
+>[高輸送量行銷活動](../campaigns/api-triggered-high-throughput.md)不依賴Adobe設定檔：所有個人化必須作為內容資料包含在API承載中，如下所述。 此模式僅適用於電子郵件頻道和美國地區。
+
+## 附加個人化PDF檔案 {#attachments}
+
+對於異動API觸發的電子郵件行銷活動，您最多可以在電子郵件中包含五個PDF附件，包括靜態和個人化附件。 每位收件者可接收不同的個人化PDF。 [瞭解如何附加個人化PDF檔案](../email/pdf-attachments.md#personalized-attachments)
 
 ## 使用內容資料製作個人化內容 {#contextual}
 
