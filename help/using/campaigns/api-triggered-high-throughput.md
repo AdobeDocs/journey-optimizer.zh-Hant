@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 4%
   * **AJO電子郵件追蹤體驗事件資料集 — 非設定檔**
 
 * **輸送量配置** — 在「高輸送量」附加元件下布建的輸送量已專門保留給高輸送量行銷活動。 標準和高輸送量API觸發的行銷活動之間不共用輸送量。
+
+* **個人化的PDF附件** — 當高輸送量行銷活動容錯移轉至其他區域時，不支援此功能。 [進一步瞭解個人化PDF附件](../email/pdf-attachments.md#personalized-attachments)
 
 ## 在標準行銷活動與高輸送量行銷活動之間選擇
 
