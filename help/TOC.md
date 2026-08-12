@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cdb1d9318947718af080792d1257ede354d76c87
+source-git-commit: 2de32d7aee9f1d3c9404aec30700893e3bcd9798
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
   + [發行週期](using/rn/releases.md)
-  + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
+  + [搶鮮版發行說明](using/rn/e-release-notes.md)
   + [最新發行說明](using/rn/release-notes.md)
   + 舊版發行說明 {#previous-rn-new}
     + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
