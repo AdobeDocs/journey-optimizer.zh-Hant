@@ -66,7 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
+   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME型別]**&#x200B;區段中的&#x200B;**[!UICONTROL PDF]**&#x200B;篩選器，將選取範圍限製為正確的檔案格式。
 
@@ -105,9 +105,9 @@ ht-degree: 7%
 >
 >* 個人化和靜態PDF附件計入相同的配額。 [了解更多](#pdf-attachments)
 
-個人化的PDF附件必須上傳至附件特定的[資料登陸區域](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然後在API裝載中參考。 資料登陸區域是目前唯一支援個人化PDF附件的儲存位置。
+個人化的PDF附件必須上傳至附件特定的[資料登陸區域](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然後在API裝載中參考。 資料登陸區域是目前唯一支援個人化PDF附件的儲存位置。
 
-1. 使用與執行請求相同的IMS組織和沙箱的`type=ajoemailattachments`，為您的沙箱擷取資料登陸區域認證，如[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}所述。 根據雲端提供者，使用Azure容器或AWS貯體和資料夾（由API傳回）。
+1. 使用與執行請求相同的IMS組織和沙箱的`type=ajoemailattachments`，為您的沙箱擷取資料登陸區域認證，如[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}所述。 根據雲端提供者，使用Azure容器或AWS貯體和資料夾（由API傳回）。
 
 1. 使用您選擇的工具產生PDF檔案，並將其上傳至您的資料登陸區域容器。
 
