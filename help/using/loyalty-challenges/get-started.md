@@ -184,5 +184,5 @@ ht-degree: 13%
 
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
 
