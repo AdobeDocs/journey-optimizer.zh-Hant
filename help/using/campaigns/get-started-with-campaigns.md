@@ -11,31 +11,16 @@ mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 1697
-ht-degree: 95%
+source-wordcount: 1692
+ht-degree: 94%
 
 ---
 
@@ -90,7 +75,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="行銷活動"
->abstract="建立您的細分流程、精心製作跨管道訊息，並規劃您的行銷活動。 支援的管道：電子郵件、簡訊、推播、直接郵件。"
+>abstract="建立您的細分流程、精心製作跨管道訊息，並規劃您的行銷活動。 支援傳出頻道。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -248,7 +233,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 4. 如果使用衝突管理，**設定優先順序**
 5. **設定排程** (針對動作行銷活動) 或 API 詳細資料 (針對 API 觸發)。 針對動作行銷活動，您也可以[使用波段傳送](../delivery/send-using-waves.md)，以隨著時間分批次傳送訊息。
 
-**特定類型的指南：**&#x200B;[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -262,7 +247,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
 * 使用輪廓屬性和內容資料新增&#x200B;**個人化**
 
-**特定類型的指南：**&#x200B;[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -276,7 +261,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 如果使用核准工作流程，則&#x200B;**請求核准**
 * 使用種子清單&#x200B;**測試傳遞能力**
 
-**特定類型的指南：**&#x200B;[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -290,7 +275,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 注意：無法編輯作用中的行銷活動 (您必須複製才能進行變更)
 
-**特定類型的指南：**&#x200B;[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -304,7 +289,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 分析轉換率和 ROI
 * 使用洞察進行最佳化
 
-**特定類型的指南：**&#x200B;[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -323,7 +308,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -333,7 +318,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -343,7 +328,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **客群目標定位**
 
@@ -353,7 +338,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -373,7 +358,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 
