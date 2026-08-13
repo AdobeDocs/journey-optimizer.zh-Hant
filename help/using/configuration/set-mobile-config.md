@@ -96,7 +96,7 @@ ht-degree: 100%
     <tbody>
       <tr>
         <td>
-          <p>資料收集</p>
+          <p>資料彙集</p>
         </td>
         <td>
           <ul>

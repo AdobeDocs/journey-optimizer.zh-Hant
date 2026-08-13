@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 42%
+source-wordcount: 2012
+ht-degree: 43%
 
 ---
 
@@ -49,6 +49,13 @@ ht-degree: 42%
 >id="ajo_orchestration_target"
 >title="目標"
 >abstract="「**[!UICONTROL 目標]**」區段會設定此管道活動的傳遞目標。 使用「**[!UICONTROL 目標維度]**」選取要套用於此傳送的目標維度。 然後選擇「**[!UICONTROL 每個輪廓一則訊息]**」，對每個人傳送一則訊息，或選擇「**[!UICONTROL 每個次要維度一則訊息]**」，向每個符合條件的次要維度傳送一則訊息，例如當同一旅客有多個相符的航班時，對每個航班傳送一封電子郵件。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Line 活動"
+>abstract="**Line** 活動可讓您將 LINE 動作新增至您的協調行銷活動。 建立個人化內容 (從文字和貼圖到影像、影片、位置及 Flex 訊息)，以吸引 LINE 上的客戶。"
+
 
 <!--
 UNUSED IDs in BJ
@@ -186,8 +193,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>建立簡訊</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="折線圖" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>建立LINE訊息(LA)</strong></a></td></tr></table>
 
 ### 新增個人化 {#add-personalization}
 

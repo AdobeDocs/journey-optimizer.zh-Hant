@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 701ba9b669c454e7369c10cb14e68b62c1753f3e
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1482
 ht-degree: 99%
 
 ---
@@ -383,16 +383,6 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
 >abstract="**載入檔案**&#x200B;活動為&#x200B;**目標定位**&#x200B;活動。 使用它在協調的行銷活動畫布上傳 CSV 或 TXT 檔案，並將其用作行銷活動客群。 檔案資料在執行時消耗，且不會儲存為 Adobe Experience Platform 資料集。 使用身分欄位和目標維度，將資料列調和至現有的收件者。"
-
-
-<!-- OC - LINE ACTIVITY -->
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_line"
->title="Line 活動"
->abstract="**Line** 活動可讓您將 LINE 動作新增至您的協調行銷活動。 建立個人化內容 (從文字和貼圖到影像、影片、位置及 Flex 訊息)，以吸引 LINE 上的客戶。"
-
-
 
 <!-- Asset selector content generation -->
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 3245
+source-wordcount: 3334
 ht-degree: 19%
 
 ---
@@ -106,6 +106,25 @@ ht-degree: 19%
 <p>支援的使用案例包括發票、對帳單、票證、合約、出貨標籤，以及依收件者而異的類似檔案。 個人化PDF附件僅適用於異動API觸發的電子郵件行銷活動，在歷程或協調的行銷活動中不支援。</p>
 <p>PDF附件附加元件支援較大的附件數量與大小；如需詳細資訊，請聯絡您的Adobe代表。</p>
 <p>如需詳細資訊，請參閱<a href="../email/pdf-attachments.md#personalized-attachments">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年8月12日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 協調的行銷活動 {#august-26-oc}
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE頻道支援（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>自訂傳出頻道功能推出後，您現在可以直接將LINE動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年8月12日</p>
 </td>
 </tr>
@@ -199,7 +218,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 </tbody>
 </table>
 
-* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。 [了解更多](../data/get-started-datasets.md)
+* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。 [了解更多](../data/get-started-datasets.md#system-datasets)
 
 * **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
 
