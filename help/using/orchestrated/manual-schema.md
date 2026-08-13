@@ -6,15 +6,10 @@ description: 瞭解如何直接透過使用者介面建立關聯式結構描述�
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
 source-wordcount: 985
@@ -44,7 +39,7 @@ ht-degree: 11%
 
 1. 從支援的來源[將資料擷取到](ingest-data.md)您的資料集中。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解手動關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## 建立您的結構描述 {#schema}
 
@@ -130,7 +125,7 @@ ht-degree: 11%
 
 建立並儲存屬性後，您可以定義關係，將綱要與其他關聯式綱要連結。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 連結結構描述 {#link-schema}
 

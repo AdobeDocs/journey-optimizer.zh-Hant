@@ -132,7 +132,7 @@ ht-degree: 6%
 
 ![刪除允許IP清單的[動作]欄中的圖示](assets/waf-ip-allowlist-delete-icon.png)
 
-確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。**&#x200B;**
+確認快顯視窗隨即開啟。 請輸入要確認的確切子網域名稱，然後按一下[移除]。****
 
 ![確認移除子網域的所有允許IP](assets/waf-ip-allowlist-remove.png){width="80%"}
 
