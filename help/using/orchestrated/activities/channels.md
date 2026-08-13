@@ -6,19 +6,14 @@ description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 42%
+source-wordcount: 2012
+ht-degree: 43%
 
 ---
 
@@ -49,6 +44,13 @@ ht-degree: 42%
 >id="ajo_orchestration_target"
 >title="目標"
 >abstract="「**[!UICONTROL 目標]**」區段會設定此管道活動的傳遞目標。 使用「**[!UICONTROL 目標維度]**」選取要套用於此傳送的目標維度。 然後選擇「**[!UICONTROL 每個輪廓一則訊息]**」，對每個人傳送一則訊息，或選擇「**[!UICONTROL 每個次要維度一則訊息]**」，向每個符合條件的次要維度傳送一則訊息，例如當同一旅客有多個相符的航班時，對每個航班傳送一封電子郵件。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Line 活動"
+>abstract="**Line** 活動可讓您將 LINE 動作新增至您的協調行銷活動。 建立個人化內容 (從文字和貼圖到影像、影片、位置及 Flex 訊息)，以吸引 LINE 上的客戶。"
+
 
 <!--
 UNUSED IDs in BJ
@@ -168,7 +170,7 @@ UNUSED IDs in BJ
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[&#128279;](../../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面](../../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -186,8 +188,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="電子郵件" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>建立電子郵件</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>建立簡訊</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="折線圖" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>建立LINE訊息(LA)</strong></a></td></tr></table>
 
 ### 新增個人化 {#add-personalization}
 
