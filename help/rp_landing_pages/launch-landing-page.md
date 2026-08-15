@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 協調行銷活動
 

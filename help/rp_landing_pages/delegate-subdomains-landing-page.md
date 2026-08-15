@@ -42,7 +42,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 設定自訂子網域
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 設定 DMARC 記錄
 

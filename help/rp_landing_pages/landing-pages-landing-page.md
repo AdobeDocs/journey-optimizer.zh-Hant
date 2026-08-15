@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的登陸頁面可讓您建立量身打造的獨立�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 建立和發佈登陸頁面
 

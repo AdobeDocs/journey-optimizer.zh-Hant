@@ -40,7 +40,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 在歷程中使用補充識別碼
 
@@ -50,7 +50,7 @@ ht-degree: 93%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 時區管理
 

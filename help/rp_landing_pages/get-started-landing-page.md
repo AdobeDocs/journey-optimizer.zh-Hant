@@ -24,7 +24,7 @@ ht-degree: 81%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 什麼是 Journey Optimizer？
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 AI 與智慧功能
 
@@ -81,7 +81,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 針對資料工程師
 
@@ -101,7 +101,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
 
 針對開發人員
 
@@ -153,7 +153,7 @@ AI 與智慧功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 內容管理
 

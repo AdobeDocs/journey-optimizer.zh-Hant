@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的協助程式函式可讓您透過操控資料、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
 
 日期和時間函式庫
 

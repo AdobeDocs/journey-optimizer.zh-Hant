@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的決策管理可讓您在適當時機將適當的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 建立及管理決策元件
 

@@ -65,7 +65,7 @@ Adobe Journey Optimizer 的決策管理功能可讓行銷人員透過多個管�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 善用自訂上傳客群，以便做決策
 

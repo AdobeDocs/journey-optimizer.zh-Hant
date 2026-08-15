@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 傳送多管道訊息
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的使用案例可讓您結合行銷策略、技術工�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 使用 Campaign v7/v8 傳送訊息
 
