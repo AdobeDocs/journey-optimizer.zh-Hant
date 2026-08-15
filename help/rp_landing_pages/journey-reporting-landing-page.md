@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的歷程報告提供強大的工具，可分析客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
 應用程式內傳送訊息洞察
 

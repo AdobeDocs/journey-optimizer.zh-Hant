@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的內容範本是功能強大的工具，旨在簡�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 建立內容範本
 

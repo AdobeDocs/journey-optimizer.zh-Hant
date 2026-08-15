@@ -72,7 +72,7 @@ Adobe Journey Optimizer 中的電子郵件管道可讓您以精確和創意的�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 掌握電子郵件傳遞能力
 

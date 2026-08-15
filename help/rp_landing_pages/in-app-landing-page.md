@@ -21,7 +21,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 應用程式內管道設定
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立行動應用程式內訊息
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 的應用程式內管道可讓您透過直接顯示在�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 建立網頁應用程式內訊息
 

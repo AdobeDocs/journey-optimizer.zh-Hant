@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
 
 決策護欄與限制
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的決策功能結合集中式決策項目目錄與強�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
 
 常見問題
 
@@ -70,7 +70,7 @@ API 參考：傳遞產品建議
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 建立決策規則
 

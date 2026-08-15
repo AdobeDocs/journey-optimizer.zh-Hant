@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
 
 使用歷程事件
 
@@ -50,7 +50,7 @@ ExperienceEvent 結構描述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 Adobe Analytics 整合功能
 
