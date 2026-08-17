@@ -6,16 +6,13 @@ description: 瞭解如何使用Adobe Journey Optimizer建立及排程協調的�
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +65,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="排程器"
->abstract="身為行銷活動管理員，您可以將行銷活動安排在特定時間自動啟動，或將其設定為&#x200B;**由訊號觸發**，以便在從 REST API 或其他協調行銷活動的&#x200B;**結束**&#x200B;活動呼叫時開始。 [了解更多](trigger-orchestrated-campaign.md)"
+>abstract="身為行銷活動管理員，您可以將行銷活動安排在特定時間自動啟動，或將其設定為&#x200B;**由訊號觸發**，以便在從 REST API 或其他協調行銷活動的&#x200B;**結束**&#x200B;活動呼叫時開始。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +75,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="排程器選項"
->abstract="選擇行銷活動的開始方式：一次性或定期排程 (一次、每日、每週、每月等)，或&#x200B;**由訊號觸發**，如此它便會等候 API 呼叫或上游行銷活動的&#x200B;**結束**&#x200B;活動。 對於訊號觸發的行銷活動，您可以定義要在承載中傳遞的參數。 [了解更多](trigger-orchestrated-campaign.md)"
+>abstract="選擇行銷活動的開始方式：一次性或定期排程 (一次、每日、每週、每月等)，或&#x200B;**由訊號觸發**，如此它便會等候 API 呼叫或上游行銷活動的&#x200B;**結束**&#x200B;活動。 對於訊號觸發的行銷活動，您可以定義要在承載中傳遞的參數。"
 
 根據預設，協調的行銷活動在手動啟動時開始，並在執行相關活動後結束。 如果您偏好延遲執行或循環執行行銷活動，可以定義行銷活動的排程。
 
