@@ -5,10 +5,10 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 存取及訂閱系統警示
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 錯誤碼參考
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在測試或發佈您的歷程之前對錯誤進行疑難排解
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 疑難排解即時歷程執行
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 對歷程中的傳入動作進行疑難排解
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 疑難排解自訂動作
 
@@ -109,7 +109,27 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+
+疑難排解即時活動
+
+診斷為什麼即時活動無法出現、更新或結束，涵蓋設定檔權杖、行銷活動設定、裝載和單一和廣播使用案例的傳送問題。
+
+[修正已上線活動問題](../using/mobile-live/troubleshoot-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+
+AEM內容片段疑難排解
+
+檢閱在Journey Optimizer中使用Adobe Experience Manager內容片段時的主要考量事項和常見問題，包括片段型別、存放庫存取權和個人化。
+
+[解決內容片段問題](../using/integrations/aem-fragments-limitations.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 支援票證指引
 
@@ -122,6 +142,22 @@ ht-degree: 100%
 
 ## 其他資源
 
+### 歷程
+
 * [歷程常見問題集](../using/building-journeys/journey-faq.md) - 有關歷程的全方位常見問題解答，內容涵蓋歷程類型、執行、設定和疑難排解最佳做法。
 
 * [護欄和限制](../using/start/guardrails.md) - 了解 Journey Optimizer 護欄、產品限制、績效考量事項、支援的瀏覽器，以便確保最佳使用方式。
+
+### 行銷活動
+
+* [疑難排解行銷活動啟動](../using/campaigns/trigger-campaigns.md#troubleshooting) — 解決檢閱和啟動行銷活動時遇到的常見問題。
+
+### 管道和整合
+
+* [疑難排解WhatsApp頻道設定](../using/whatsapp/whatsapp-configuration.md#troubleshooting) — 在設定WhatsApp頻道時，診斷並修正常見的設定問題。
+
+* [整合疑難排解常見問題集](../using/integrations/vendor-integration-faq.md#troubleshooting) — 尋找第三方整合的常見連線與測試連線失敗解答。
+
+### 設定
+
+* [疑難排解自訂子網域委派](../using/configuration/delegate-custom-subdomain.md#check-list) — 檢閱清單以解決提交自訂子網域的問題。
