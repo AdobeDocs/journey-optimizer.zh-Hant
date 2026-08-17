@@ -10,28 +10,15 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
 workflow-type: tm+mt
-source-wordcount: 3618
+source-wordcount: 3677
 ht-degree: 3%
 
 ---
@@ -202,7 +189,7 @@ ht-degree: 3%
 >
 >* 您只能在&#x200B;**已暫停**&#x200B;歷程中建立、更新或刪除以設定檔屬性為基礎的退出條件。
 >
->* 在本節[&#128279;](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件。
+>* 在本節](journey-properties.md#profile-exit-criteria)中進一步瞭解設定檔屬性型退出條件[。
 
 ## 護欄與限制 {#journey-pause-guardrails}
 
@@ -221,6 +208,7 @@ ht-degree: 3%
 * 即使暫停後，隨著事件繼續處理，這些事件也會計入每秒的Journey Events數量配額，之後節流會成為單一專案
 * 當設定檔在暫停的歷程中保留時，在繼續時會重新整理設定檔屬性
 * 條件仍會在暫停的歷程中執行，因此如果歷程因資料品質問題而暫停，則可以使用錯誤的資料評估動作節點之前的任何條件
+* 在歷程暫停前已通過&#x200B;**最佳化**&#x200B;活動的設定檔，會保留當時進行的路徑指派。 即使基礎對象或條件定義在暫停期間變更，系統也不會回溯重新評估此指派。 系統只會根據最新定義，評估歷程恢復後到達活動的設定檔。
 * 對於以&#x200B;**讀取對象**&#x200B;歷程為基礎的增量對象，會考慮暫停的持續時間。 對象資格或事件型歷程則非如此（如果在暫停期間收到對象資格或事件，且他們是歷程中的第一個活動，則捨棄這些事件）
 * 如果設定檔保留在歷程中，而且此歷程在幾天後自動繼續，則設定檔會繼續歷程且不會捨棄。 如果您想要卸除這些物件，您必須停止歷程
 * 在暫停的歷程中，不會為[批次區段警示觸發警示](../reports/alerts.md#alert-read-audiences)
@@ -242,11 +230,11 @@ ht-degree: 3%
 
 1. **AddToCart**&#x200B;活動：所有新設定檔入口都已封鎖。 如果設定檔在暫停前已進入歷程，則會繼續前往下一個動作節點。
 1. **等待**&#x200B;活動：設定檔繼續在節點上正常等待，而且即使歷程暫停，也會退出節點。
-1. **條件**：設定檔會繼續通過條件，並根據條件上定義的運算式，移至正確的分支。
+1. **最佳化（條件）**：設定檔會繼續通過條件，並根據條件所定義的運算式，移至正確的分支。
 1. **推播**/**電子郵件**&#x200B;活動：在暫停的歷程中，設定檔會開始等待或捨棄（根據使用者在暫停時所做的選擇）下一個動作節點。 因此，設定檔將會開始等待或捨棄在那裡。
 1. **動作**&#x200B;節點之後的&#x200B;**事件**：如果設定檔正在等候&#x200B;**動作**&#x200B;節點，而且之後有&#x200B;**事件**&#x200B;活動，如果觸發該事件，則會捨棄該事件。
 
-根據此行為，您會看到暫停歷程中的設定檔數目增加，大多是在&#x200B;**動作**&#x200B;活動前的活動中。 舉例來說，在該範例中，**等待**&#x200B;活動仍處於啟用狀態，當設定檔結束&#x200B;**條件**&#x200B;活動時，會增加該活動的設定檔數量。
+根據此行為，您會看到暫停歷程中的設定檔數目增加，大多是在&#x200B;**動作**&#x200B;活動前的活動中。 舉例來說，在該範例中，**等待**&#x200B;活動仍處於啟用狀態，當設定檔結束&#x200B;**最佳化（條件）**&#x200B;活動時，會增加該活動的設定檔數量。
 
 當您繼續此歷程時：
 
@@ -255,7 +243,7 @@ ht-degree: 3%
 
 ## 疑難排解暫停歷程中的設定檔捨棄 {#discards-troubleshoot}
 
-您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=zh-Hant){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
+您可以使用[[!DNL Adobe Experience Platform] 查詢服務](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}來查詢步驟事件，這可根據設定檔捨棄發生的時間提供詳細資訊。
 
 * 對於在設定檔進入歷程之前發生的捨棄，請使用下列程式碼：
 
