@@ -5,10 +5,10 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 82%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 存取及訂閱系統警示
 
@@ -59,7 +59,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 錯誤碼參考
 
@@ -69,9 +69,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-在測試或發佈您的歷程之前對錯誤進行疑難排解
+疑難排解歷程錯誤
 
 識別並解決歷程範圍的錯誤、活動問題，並設定遞補動作，以確保順暢的測試和發佈。
 
@@ -79,9 +79,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-疑難排解即時歷程執行
+疑難排解歷程執行
 
 診斷即時執行期間的事件驗證、輪廓輸入、歷程導覽和訊息傳送問題。
 
@@ -89,9 +89,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-對歷程中的傳入動作進行疑難排解
+疑難排解傳入動作
 
 使用詳細的逐步指南對輪廓退出後的傳入動作問題進行偵錯，例如遺失內容或繼續傳送。
 
@@ -99,7 +99,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 疑難排解自訂動作
 
@@ -109,7 +109,7 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 疑難排解即時活動
 
@@ -119,9 +119,9 @@ ht-degree: 82%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-AEM內容片段疑難排解
+疑難排解AEM內容片段
 
 檢閱在Journey Optimizer中使用Adobe Experience Manager內容片段時的主要考量事項和常見問題，包括片段型別、存放庫存取權和個人化。
 
@@ -129,7 +129,7 @@ AEM內容片段疑難排解
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 支援票證指引
 
