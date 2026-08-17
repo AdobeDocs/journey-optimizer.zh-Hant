@@ -5,10 +5,10 @@ title: 管道設定
 description: 管道設定
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -93,3 +93,4 @@ Adobe Journey Optimizer 中的管道設定可讓您管理跨不同管道 (例如
 - **[使用種子清單](../using/configuration/seed-lists.md)** - 了解如何建立和管理種子清單，以監視電子郵件傳遞並確保行銷活動保證。
 - **[為確保合規性的封存支援](../using/configuration/archiving-support.md)** - 設定封存功能，例如 BCC 電子郵件和資料集管理，以確保符合 GDPR 和 HIPAA 等法規。
 - **[管理執行地址](../using/configuration/primary-email-addresses.md)** - 設定電子郵件或電話號碼欄位，並排定其優先順序，方便跨歷程與行銷活動通訊。
+- **[監視與疑難排解](troubleshoot-journey-landing-page.md)** — 快速診斷與解決問題，包括疑難排解自訂子網域委派。

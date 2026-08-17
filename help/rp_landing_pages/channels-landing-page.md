@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: 通訊管道
 description: 通訊管道
 redpen-status: CREATED_||_2025-08-11_20-45-04
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -88,4 +88,5 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 - **[程式碼型體驗](code-based-experience-landing-page.md)** - 深入了解程式碼型體驗，以使用 SDK 和 API 跨數位平台提供個人化內容。
 - **[內容卡](content-card-landing-page.md)** - 探索如何設定、建立及設計內容卡，以在行動應用程式和網站中建立具有吸引力的個人化訊息。
 - **[WhatsApp 訊息](whatsapp-landing-page.md)** - 了解如何透過 Meta 的雲端 API 整合及使用 WhatsApp 訊息，以進行個人化和合規的通訊行銷活動。
+- **[監視與疑難排解](troubleshoot-journey-landing-page.md)** — 快速診斷及解決頻道問題，包括WhatsApp頻道設定與組態疑難排解。
 - **[LINE 訊息](line-landing-page.md)** - 探索如何設定、建立及個人化 LINE 訊息，以便在行銷活動和歷程中有效通訊。

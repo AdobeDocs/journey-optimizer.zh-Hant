@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -1247,23 +1247,23 @@ _範例輸出_
 
 +++
 
-+++過去12個月內所有歷程參與的不重複設定檔總數
++++過去12個月內所有歷程參與的不重複身分總數
 
-此查詢提供過去12個月所有歷程中參與的不重複設定檔計數，可讓您概略瞭解歷程型參與。
+此查詢提供過去12個月所有歷程中參與的不重複身分計數，可讓您概略瞭解歷程型參與。
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_IDENTITIES
 FROM journey_step_events
 WHERE timestamp > (now() - interval '12' month);
 ```
 
 _範例輸出_
 
-| TOTAL_ENGAGED_PROFILES |
+| TOTAL_ENGAGED_IDENTITIES |
 |---|
 | 2,547,890 |
 
-此單一數字代表過去12個月內至少參與一個歷程的不重複設定檔總數。
+此單一數字代表過去12個月內至少有一個歷程參與的不重複身分總數。
 
 >[!NOTE]
 >

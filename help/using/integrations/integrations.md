@@ -16,9 +16,9 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
 workflow-type: tm+mt
-source-wordcount: 1153
+source-wordcount: 1160
 ht-degree: 8%
 
 ---
@@ -190,4 +190,9 @@ ht-degree: 8%
    ![](assets/external-integration-content-12.png)
 
 測試成功後，在整合組態中選取&#x200B;**[!UICONTROL 啟動]**。 請參閱[設定整合](#configure)。
+
+**另請參閱**
+
+* [整合疑難排解常見問答](vendor-integration-faq.md#troubleshooting)
+* [監視與疑難排解](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 

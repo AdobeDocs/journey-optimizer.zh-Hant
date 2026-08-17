@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 2%
 
 ![](assets/journey-new-experience-switch.png)
 
+使用新體驗時，您可以按住&#x200B;**Shift**&#x200B;鍵並在畫布上拖曳滑鼠，一次選取多個節點。 選取後，您可以在選取的節點上執行大量動作，例如複製、刪除或另存為歷程片段。
+
 >[!TIP]
 >
 >如需在歷程畫布中分離及重新加入節點的逐步指引，請參閱此[Experience League社群文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hant){target="_blank"}。
+
+
 
 觀看此影片，瞭解新歷程畫布體驗的影片概觀：
 

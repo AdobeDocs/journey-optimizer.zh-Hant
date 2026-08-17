@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 9%
+source-wordcount: 1346
+ht-degree: 7%
 
 ---
 
@@ -54,9 +54,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->* [!DNL Adobe Journey Optimizer] 的 GenStudio 整合目前無法搭配 **Healthcare Shield** 或 **Privacy and Security Shield** 附加元件方案使用。
->
->* 此功能僅適用於電子郵件頻道。
+> 此功能僅適用於電子郵件頻道。
 
 若要提升行銷效率並維持品牌一致性，您可以將&#x200B;[!DNL **GenStudio for Performance Marketing**]&#x200B;體驗與&#x200B;[!DNL **Adobe Journey Optimizer**]&#x200B;緊密整合。 這可讓您運用[!DNL GenStudio]的AI支援內容建立以及[!DNL Journey Optimizer]的進階協調功能。
 

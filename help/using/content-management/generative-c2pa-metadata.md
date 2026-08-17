@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: eeea63d195527451e3ce40481b2ff4657aa76d3b
+source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,5 @@ C2PA中繼資料會隨影像檔案移動。 從Adobe Journey Optimizer下載或�
 
 ## 其他資源
 
-* [Adobe C2PA中繼資料](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}：進一步瞭解C2PA中繼資料如何跨Adobe產品運作。
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [護欄與限制](gs-generative.md#generative-guardrails)

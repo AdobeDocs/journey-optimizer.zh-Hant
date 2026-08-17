@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1118
 ht-degree: 18%
 
 ---
@@ -165,9 +165,10 @@ The following capability is coming to onboarding in this release.
 
 * **使用波段傳送** — 您現在可以排程輸出訊息，以控管批次方式傳送一段時間。 波次傳送也支援更好的傳遞能力，並降低被標籤為垃圾訊息的風險，有助於維持強大的寄件者信譽，是高流量或時間敏感型行銷活動的理想選擇。<!-- Documentation link: TBD -->
 
-### 管道 {#august-26-channels}
 
-此版本中的管道即將推出下列功能和改善。
+### 決策 {#august-26-decisioning}
+
+此版本中的決定即將提供下列功能和改善。
 
 <table>
 <thead>
@@ -186,22 +187,9 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-
-* **輸送量的效能附加元件 — 推播** — 在API觸發的行銷活動中提供新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 如需詳細資訊，請聯絡您的Adobe代表。<!-- Documentation link: TBD -->
-
-### 決策 {#august-26-decisioning}
-
-此版本中的決定功能即將進行下列改良。
-
 * **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 有兩種模式可供使用：版位特定上限，定義只適用於所選版位中顯示優惠方案的上限；以及每次版位上限，會針對出現優惠方案的每個版位獨立套用上限，因此每個版位都會維持其自己的上限計數器。 請注意，與位置相關的上限不適用於使用以Adobe Experience Platform資料為基礎的規則來設定上限的優惠方案。<!-- Documentation link: TBD -->
 
 * **視覺片段中的映象頁面** — 您現在可以將映象頁面插入視覺片段中。 即使片段用於運用Decisioning的電子郵件行銷活動中，決策屬性仍可在映象頁面連結上正確轉譯。 必須在發佈片段之前將映象頁面新增到視覺片段，以便顯示決策屬性。<!-- Documentation link: TBD -->
-
-### 電子郵件設計工具 {#august-26-email}
-
-此版本中的電子郵件Designer即將進行下列改進。
-
-* **電子郵件Designer中的新表格元件** — 電子郵件Designer現在包含內建的表格元件，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有條理的版面配置，而不依賴自訂HTML。<!-- Documentation link: TBD -->
 
 ### 管理 {#august-26-administration}
 
