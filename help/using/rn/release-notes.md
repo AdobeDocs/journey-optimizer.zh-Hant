@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5c0904fd87e824e1f3b13f7bf4b496889b5254d6
 workflow-type: tm+mt
-source-wordcount: 3334
+source-wordcount: 3351
 ht-degree: 19%
 
 ---
@@ -124,7 +112,7 @@ ht-degree: 19%
 <tr>
 <td>
 <p>自訂傳出頻道功能推出後，您現在可以直接將LINE動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年8月12日</p>
 </td>
 </tr>
@@ -161,7 +149,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>忠誠度也會引進同事技能，讓團隊更有效率地執行關鍵挑戰操作，包括建立挑戰、設定挑戰屬性、管理對象和相關設定，以及檢閱見解以監控挑戰參與度和獎勵績效。</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>此功能僅適用於獲得Journey Optimizer忠誠度授權的組織。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/get-started.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月28日</p>
 </td>
 </tr>
@@ -186,7 +174,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>這填補了先前由自訂動作填補的空白，這些動作僅限於歷程，且缺乏專用頻道功能。</p>
 <p>自訂傳出頻道目前以「有限可用性」的形式提供。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../custom-channel/get-started-custom-channel.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月31日</p>
 </td>
 </tr>
@@ -211,14 +199,18 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>當最上層頻道無法使用（未選擇加入、頻率限定或未設定）時，系統會退回至下一個可用頻道。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/channel-optimization.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年7月22日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新Journey Optimizer管道追蹤事件資料集中的原始JSON裝載。 [了解更多](../data/get-started-datasets.md#system-datasets)
+* **WhatsApp管道：支援WhatsApp流程範本** — 您現在可以在Adobe Journey Optimizer中傳送WhatsApp流程範本，以提供互動式的多熒幕體驗，例如調查和潛在客戶擷取。 回應會在提交時擷取，並儲存為新的Journey Optimizer管道追蹤事件資料集中的原始JSON裝載：
+
+  * **AJO管道追蹤事件資料集**：擷取所有傳入的WhatsApp回應，包括透過WhatsApp流程範本提交的回應。
+
+  [了解更多](../data/get-started-datasets.md#system-datasets)
 
 * **增強的自訂提供者整合 — Mobile** — 自訂提供者整合現在透過關鍵訊息和標題更新提供擴充的彈性：
 
@@ -400,7 +392,7 @@ Journey Optimizer推出「忠誠度挑戰」，此版本的新功能。
 <p>透過引導式功能，協助您將現有電子郵件內容和歷程移至Journey Optimizer，讓從其他行銷平台轉換至Adobe Journey Optimizer變得更輕鬆。 專屬的工作區可讓您重複使用現有工作，而非從頭重建。</p>
 <p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
-<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細文件</a>以瞭解詳情。</p>
 <p> 推出日期： 2026年7月30日</p>
 </td>
 </tr>
