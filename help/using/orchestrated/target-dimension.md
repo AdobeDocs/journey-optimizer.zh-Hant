@@ -6,16 +6,13 @@ description: 瞭解如何將關聯式結構描述對應至客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -49,7 +46,7 @@ ht-degree: 0%
 
   系統必須瞭解目標結構描述如何對應到`Profile`結構描述。 這是透過共用身分欄位來達成，該欄位存在於目標結構描述和`Profile`結構描述中，並且已設定為身分名稱空間。
 
-➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [在Adobe Experience Platform檔案中進一步瞭解關聯式結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## 建立您的目標維度 {#targeting-dimension}
 
@@ -69,10 +66,14 @@ ht-degree: 0%
 
    在此範例中，客戶設定檔連結到多個訂閱，每個訂閱在`Recipient`結構描述中由唯一的`crmID`表示。 透過設定&#x200B;**[!UICONTROL Target Dimension]**&#x200B;使用`Recipient`結構描述及其`crmID`身分，您可以在訂閱層級傳送訊息，而非傳送至主要客戶設定檔，確保每個合約或服務內容都能收到自己的個人化訊息。
 
-   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#identity)
+   [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以完成設定。 請注意，一旦建立，**[!UICONTROL Target維度]**&#x200B;便無法移除或編輯。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以完成設定。 請注意，一旦建立，**[!UICONTROL Target維度]**&#x200B;便無法編輯。
+
+1. 存取![進階功能表](assets/do-not-localize/rule-builder-icon-more.svg)以刪除您的&#x200B;**[!UICONTROL 目標維度]**。
+
+   ![](assets/target-dimension-5.png)
 
 設定&#x200B;**[!UICONTROL 目標Dimension]**&#x200B;後，繼續建立和設定您的&#x200B;**[!UICONTROL 通道設定]**，並定義對應的&#x200B;**[!UICONTROL 執行詳細資料]**。
