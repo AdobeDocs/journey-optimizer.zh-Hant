@@ -166,4 +166,4 @@ Outlook有許多轉譯怪異，若在設計期間未考慮在內，可能會影�
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
