@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 92%
+source-wordcount: 1043
+ht-degree: 72%
 
 ---
 
@@ -101,19 +87,32 @@ ht-degree: 92%
 
 傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。 使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
-若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。
+若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 這同樣適用於透過行動裝置網頁瀏覽器在Gmail或Outlook中開啟電子郵件時，其中CSS處理與原生應用程式明顯不同 — 最安全的選擇為具有完整內嵌樣式的簡單、表格式版面配置。 [了解更多](../content-management/rendering.md#rendering-limitations)
 
 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
 
 請參閱下方表格，即可瞭解電子郵件設計的最佳實務：
 
-| 建議 | 使用時請務必謹慎 | 並不建議 |
+| 建議 | 謹慎使用 | 並不建議 |
 |-|-|-|
 | <ul><li>結構為<b>以靜態表格為基礎的版面</b></li> <li><b>HTML 表格和巢狀表格</b>，維持版面一致性</li> <li><b>範本寬度</b>介於 600px 到 800px 之間 </li> <li>樣式的<b>簡單、內嵌 CSS</b> </li> <li><b>網頁安全字型</b>兼具通用相容性</li> | <ul><li><b>背景圖片</b>可能不會出現在某些電子郵件平台上。</li><li><b>自訂網頁字型</b>缺少通用支援。</li><li><b>寬版面</b>可能無法在較小的螢幕上正常顯示。</li><li><b>影像圖片</b>只提供有限功能。</li><li>有時會在電子郵件傳送期間，將<b>嵌入 CSS</b> 移除。</li> | <ul><li>電子郵件環境中，通常不會支援 <b>JavaScript</b>。</li> <li> 大多數的平台上，都已封鎖 <b>`<iframe>`</b> 個標籤。 </li> <li><b>Flash</b> 已過時，系統不再提供支援。</li> <li><b>嵌入音訊</b>通常無法正常播放。</li> <li><b>嵌入影片</b>和許多電子郵件平台並不相容。</li> <li> <b>表單</b>無法在電子郵件中正常運作。</li> <li> `<div>` 分層可能會導致轉譯問題。</li> |
 
 >[!NOTE]
 >
 >[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 除了本節中列出的電子郵件設計最佳做法之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用電子郵件設計工具建立無障礙內容。
+
+### Outlook演算考量事項 {#outlook-tips}
+
+Outlook有許多轉譯怪異，若在設計期間未考慮，可能會影響您的電子郵件配置：
+
+* 使用偶數來表示內距、字型大小和寬度。 Outlook會在內部將畫素轉換為點，當使用奇數時，可能會造成不平均的間距及不想要的白線。
+* 設定表格寬度（以畫素為單位，而非百分比）。 以百分比為基礎的寬度可能會中斷Outlook中的版面。 直接在每個表格的樣式屬性中套用寬度值。
+* 一律使用`width`屬性設定影像寬度。 如果沒有HTML屬性，Outlook會忽略影像上的CSS `width`和`height`屬性，並退回檔案的原生維度。
+* 在所有影像上包含替代文字。 這可以防止在影像遭到封鎖時的顯示和安全問題。
+* 將框線套用至表格儲存格，而非表格元素本身。 如果邊框未如預期呈現，請將其從`<table>`移至`<td>`。
+* 避免使用圓角。 Outlook不可靠支援CSS `border-radius` — 方角為安全的預設值。
+
+如需深色模式設計考量，包括如何使用媒體查詢和Outlook.com專屬的影像交換技術，請參閱[此頁面](dark-mode.md)。
 
 ## 作法影片 {#video}
 
@@ -123,4 +122,4 @@ ht-degree: 92%
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
