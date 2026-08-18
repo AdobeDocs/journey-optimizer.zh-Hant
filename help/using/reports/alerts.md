@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3196
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -439,7 +439,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 * **[全域（沙箱）訂閱](#subscribe-alerts)**：接收&#x200B;**目前沙箱**&#x200B;中所有相符歷程或行銷活動的通知。 當您想要廣泛涵蓋範圍時，請使用此選項。
 * **[歷程特定訂閱](#subscribe-alerts)**：對於支援的歷程警示，將通知限製為從歷程詳細目錄一次一個&#x200B;**歷程**。
-* **促銷活動特定訂閱**：促銷活動生命週期警示目前只能在沙箱層級訂閱。
+* **[促銷活動特定訂閱](#subscribe-alerts)**：對於支援的促銷活動生命週期警示，從促銷活動詳細目錄一次限制通知為&#x200B;**一個促銷活動**。
 
 >[!BEGINTABS]
 
@@ -501,29 +501,33 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 >
 >[讀取對象觸發失敗](#available-alerts)警示只能透過全域訂閱取得，不能透過每個歷程訂閱取得。
 
+>[!TAB 促銷活動特定訂閱]
+
+促銷活動特定訂閱適用於[促銷活動生命週期警示](#available-alerts)。 它們可讓您監視個別高優先順序的行銷活動，而不會收到沙箱中每個行銷活動的相同警報。
+
+**若要訂閱特定行銷活動的行銷活動生命週期警示：**
+
+1. 移至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;詳細目錄，並開啟行銷活動型別的標籤（**[!UICONTROL 動作]**&#x200B;或&#x200B;**[!UICONTROL 觸發的API]**）。
+
+1. 按一下您要監視之行銷活動的&#x200B;**⋯** （其他動作）功能表。
+
+1. 選取&#x200B;**[!UICONTROL 訂閱警示]**。
+
+   ![訂閱特定行銷活動的警示](assets/subscribe-campaign-alert.png){width=75%}
+
+1. 從可用選項中選取您想要的行銷活動生命週期警報（請參閱[行銷活動警報](#available-alerts)）。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認您的訂閱。
+
+**取消訂閱：**
+
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
-
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
+>[!TIP]
+>
+>您可以將&#x200B;**沙箱層級**&#x200B;訂閱（來自警示&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤）與&#x200B;**促銷活動特定**&#x200B;訂閱結合。 對沙箱中的所有內容使用沙箱層級涵蓋範圍，並僅針對您想要個別追蹤的行銷活動新增每個行銷活動的訂閱。
 
 <!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
 

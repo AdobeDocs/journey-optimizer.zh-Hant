@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 25%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +172,14 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 >* 建立高度依賴執行階段個人化的電子郵件時（例如`#each`回圈、巢狀物件、大型裝載資料），映象頁面URL可能會變得過大，尤其是在API觸發的行銷活動使用來自裝載的廣泛內容資料時。 這可能會導致瀏覽器或郵件使用者端發生HTTP錯誤(404、422、502)。 Adobe建議限制動態欄位的廣度和深度，減少對複雜片段的依賴，並將個人化結構扁平化以防止連結失敗。
 >
 >* 在傳送到測試設定檔的[校訂](../content-management/proofs.md)中，映象頁面的連結未啟用。 它只會在最終訊息中處於活動狀態。
+
+### 在映象頁面中決策 {#decisioning-mirror-page}
+
+您可以使用[!DNL Decisioning]來個人化及最佳化您的電子郵件內容，利用優先順序分數、公式或AI模型來顯示最相關的優惠方案與內容給每位收件者。 這[!DNL Decisioning]個屬性也會在映象頁面中轉譯，包括當映象頁面插入[視覺片段](../content-management/fragments.md)時，前提是在發佈片段之前新增映象頁面。
+
+>[!CAUTION]
+>
+>如果您將映象頁面新增至已發佈的視覺化片段，您必須重新發佈使用映象頁面的[!DNL Decisioning]屬性行銷活動或歷程，才能在點按連結時顯示。
 
 ## 自訂連結外觀和目標 {#adjust-links}
 

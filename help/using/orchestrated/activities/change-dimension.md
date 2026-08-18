@@ -11,10 +11,10 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 46%
+source-wordcount: 444
+ht-degree: 38%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 46%
 行銷人員可在協調的行銷活動中，從一個資料實體變更為相關的資料實體，藉此增強受眾目標定位。 這可讓您超越使用者輪廓，並專注於特定行為，例如購買、預訂或其他互動。
 
 若要達成此目的，請使用&#x200B;**[!UICONTROL 變更維度]**&#x200B;活動。 它可讓您在協調的行銷活動期間調整目標維度。
+
+>[!NOTE]
+>
+>對於許多&#x200B;**多實體**&#x200B;情境，明確的&#x200B;**[!UICONTROL 變更維度]**&#x200B;是選擇性的。 當關聯性路徑允許時，您可以將&#x200B;**[!UICONTROL 建立對象]**&#x200B;活動直接連線到通道活動，並設定每個次要維度&#x200B;**的**&#x200B;一則訊息。 請參閱[新增管道活動並定義其屬性](channels.md#add)。  產品可從連結至您查詢的目標結構描述推斷可行的主要和&#x200B;**次要**&#x200B;維度。 當工作流程中需要刻意切換軸時，新增&#x200B;**[!UICONTROL 變更維度]**。
 
 <!--
 >[!IMPORTANT]

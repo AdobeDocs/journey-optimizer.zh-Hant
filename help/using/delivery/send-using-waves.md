@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: 波段，批次，排程，歷程，行銷活動，協調，可遞送性
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 4%
 
 下列限制適用於任何內容中的波動傳送：
 
+* 波動傳送僅適用於&#x200B;**傳出**&#x200B;管道（電子郵件、簡訊、推播、直接郵件）。
 * 您必須定義至少&#x200B;**2個波段**，最多可新增&#x200B;**10個波段**。
 * 兩個波段開始的最小間隔為&#x200B;**30分鐘**。
 * 波次開始不能設定在過去。
@@ -55,17 +56,13 @@ ht-degree: 4%
 
 >[!TAB 動作行銷活動]
 
-* 波動傳送僅適用於&#x200B;**傳出**&#x200B;動作（電子郵件、簡訊、推播、直接郵件）。
 * 波段開始不能早於行銷活動開始。
 
+>[!TAB 協調的行銷活動]
+
+* 波次傳送設定於&#x200B;**頻道活動層級**，行銷活動中的每個頻道活動都是獨立的。
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## 設定波段傳送 {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ ht-degree: 4%
 
 1. 選擇如何定義波次大小與時間，詳細資訊見下方的[波次大小與時間](#wave-options)區段。
 
->[!ENDTABS]
+>[!TAB 協調的行銷活動]
 
+1. 在協調的行銷活動畫布中開啟管道活動（電子郵件、簡訊、推播或直接郵件）。
 
-<!--
->[!TAB Orchestrated campaigns]
+1. 前往頻道活動的&#x200B;**[!UICONTROL 排程]**&#x200B;標籤。
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. 在&#x200B;**[!UICONTROL 波次排程]**&#x200B;下，啟用&#x200B;**[!UICONTROL 波次傳遞]**&#x200B;切換按鈕。
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   ![頻道活動排程索引標籤，其中在Wave排程下啟用以波段傳送切換](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. 使用&#x200B;**[!UICONTROL 選取波段數]**&#x200B;下拉式清單來設定波段數。
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >您至少必須定義2個波段，最多可新增10個波段。
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. 選擇如何定義波次大小與時間，詳細資訊見下方的[波次大小與時間](#wave-options)區段。
+
+>[!ENDTABS]
 
 ## 波段大小和計時 {#wave-options}
 
@@ -194,15 +188,15 @@ Wave傳送可協助您控制何時傳送以及傳送多少訊息，改善傳遞�
 
 * **客服中心或回應管理：**&#x200B;限制每天或每小時傳出的訊息數目，以便下游團隊（例如客戶服務）能夠以可管理的速率處理回應。
 
-  ![波次傳送範例：每天20則訊息設定為符合客服中心回應容量](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![波次傳送範例：每天20則訊息設定為符合客服中心回應容量](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **高音量和傳遞能力：**&#x200B;請避免一次傳送大量對象。 隨時間散佈傳遞內容有助於維護寄件者的信譽，並降低被標示為垃圾郵件的風險。
 
-  ![波次傳送範例：傳遞橫跨多日，以支援高流量傳送的寄件者信譽](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![波次傳送範例：傳遞橫跨多日，以支援高流量傳送的寄件者信譽](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **IP熱身：**&#x200B;使用新平台或IP位址時，逐步增加音量（例如，第一波為10%，然後為15%、20%等）以逐步建立傳送信譽。
 
-  ![波次傳送範例：IP熱身波次的漸進式音量會增加，從10%開始，每個波次都會增加](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![波次傳送範例：IP熱身波次的漸進式音量會增加，從10%開始，每個波次都會增加](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## 常見問題 {#faq}
 
@@ -242,7 +236,7 @@ Wave傳送可協助您控制何時傳送以及傳送多少訊息，改善傳遞�
 
 * [在歷程中使用對象](../building-journeys/read-audience.md) — 設定讀取對象活動
 * [排程動作行銷活動](../campaigns/campaign-schedule.md) — 設定開始日期、結束日期和頻率
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* [協調行銷活動中的頻道活動](../orchestrated/activities/channels.md) — 在協調畫布中設定頻道活動
 
 +++ AI知識參考
 
@@ -271,7 +265,7 @@ Wave傳送可協助您控制何時傳送以及傳送多少訊息，改善傳遞�
 
 * 讀取對象歷程（僅限「儘快」或「一次」排程器 — 不適用於循環、事件觸發、業務事件、測試或試執行歷程）
 * 動作行銷活動（僅限傳出頻道動作）
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* 協調的行銷活動（僅限傳出頻道活動，根據頻道活動設定）
 
 **公用護欄（所有內容）：**
 

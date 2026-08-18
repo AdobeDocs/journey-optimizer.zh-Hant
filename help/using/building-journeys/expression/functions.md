@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1353
+source-wordcount: 1377
 ht-degree: 7%
 
 ---
@@ -129,10 +129,11 @@ ht-degree: 7%
 
 **集合操作和分析**
 
-篩選、排序、轉換和分析陣列和清單，以處理複雜的資料結構並執行設定作業。
+篩選、排序、轉換和分析陣列和清單，以處理複雜的資料結構並執行集合操作，例如交集、等位和差異。
 
 | 函數 | 說明 |
 |----------|-------------|
+| [差異清單](../functions/list-functions.md#differenceLists) | 取得一個清單中的專案不在另一個清單中 |
 | [distinct](../functions/list-functions.md#distinct) | 取得唯一值（不包括Null） |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | 取得唯一值（包括空值） |
 | [篩選器](../functions/list-functions.md#filter) | 根據條件篩選清單 |
@@ -141,6 +142,7 @@ ht-degree: 7%
 | [相交](../functions/list-functions.md#intersect) | 尋找清單之間的共同元素 |
 | [限制](../functions/list-functions.md#limit) | 限制傳回的專案數 |
 | [listSize](../functions/list-functions.md#listSize) | 取得清單大小 |
+| [mergeLists](../functions/list-functions.md#mergeLists) | 合併兩個清單，無論是否重複資料刪除 |
 | [serializeList](../functions/list-functions.md#serializeList) | 將清單轉換為字串 |
 | [sort](../functions/list-functions.md#sort) | 排序清單元素 |
 

@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2352
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -155,6 +155,16 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 | 全域模擬使用者保留 | 12個月 | 全域模擬使用者會在建立12個月後自動刪除。 |
 
 +++
+
+## 作法影片 {#video}
+
+以下影片說明如何使用快速模擬，自動化關鍵流程以測試客戶歷程。 它會產生測試設定檔、協調事件、加快等待時間並驗證情境。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497484/?captions=chi_hant&learn=on)
+
+
+
+</br>
 
 +++ AI知識參考
 

@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 938
 ht-degree: 6%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 6%
 ## 護欄與限制
 
 * **支援的管道** — 電子郵件、簡訊、推播和WhatsApp。
-* **協調的行銷活動** — 協調的行銷活動不支援無訊息時間。
 * **傳輸延遲** — 無訊息時數規則的更新可能需要最多12小時才能套用至已使用該規則的管道動作。
 * **大量延遲** — 若是大量通訊，系統可能需要額外的時間，才能開始成功強制實施無訊息小時抑制。
 

@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 298aaf6b76a4a508175d579ca3913d1f7d681675
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1824
 ht-degree: 10%
 
 ---
@@ -121,10 +121,7 @@ ht-degree: 10%
 
 **僅適用於Action和API觸發的行銷活動：**
 
-<!--
-Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
-* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
--->
+* **[!UICONTROL 訂閱警示]** — 選擇哪些行銷活動生命週期系統警示僅套用至此行銷活動（除了任何沙箱範圍警示訂閱之外）。 [進一步瞭解系統警示→](../reports/alerts.md#subscribe-alerts)
 * **[!UICONTROL 新增至封裝]** — 將行銷活動新增至封裝，以便將其匯出至另一個沙箱。 [瞭解如何匯出物件 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL 開啟草稿版本]** — 如果已建立新版本的行銷活動且尚未啟動，您可以使用此動作存取其草稿版本。
 

@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
+source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
 workflow-type: tm+mt
 source-wordcount: 4611
 ht-degree: 92%
@@ -353,7 +353,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 * 您無法使用相同的傳送網域從[!DNL Adobe Journey Optimizer]和其他產品 (例如[!DNL Adobe Campaign]或[!DNL Adobe Marketo Engage]) 傳送電子郵件訊息。
 
-在設計電子郵件訊息時，系統會檢查關鍵設定並顯示警告 (建議和最佳做法) 和錯誤 (封鎖會阻礙測試或啟用的問題) 的警示。 在[本節](../email/create-email.md#check-email-alerts)中進一步了解電子郵件警示和驗證需求。
+* 在設計電子郵件訊息時，系統會檢查關鍵設定並顯示警告 (建議和最佳做法) 和錯誤 (封鎖會阻礙測試或啟用的問題) 的警示。 在[本節](../email/create-email.md#check-email-alerts)中進一步了解電子郵件警示和驗證需求。
 
 #### 歷程發佈的訊息內容大小 {#message-content-size}
 

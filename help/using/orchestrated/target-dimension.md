@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 建立您的目標維度
-description: 瞭解如何將關聯式結構描述對應到客戶設定檔
+description: 瞭解如何將關聯式結構描述對應至客戶設定檔
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/6IPCwJE4-ktVWFENfoVe25VqPV-OZ7J-oVq4gmOsAz4
@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
 
    ![](assets/target-dimension-2.png)
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以完成設定。 請注意，一旦建立，**[!UICONTROL Target維度]**&#x200B;便無法移除或編輯。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以完成設定。 請注意，一旦建立，**[!UICONTROL Target維度]**&#x200B;便無法編輯。
+
+1. 存取![進階功能表](assets/do-not-localize/rule-builder-icon-more.svg)以刪除您的&#x200B;**[!UICONTROL 目標維度]**。
+
+   ![](assets/target-dimension-5.png)
 
 設定&#x200B;**[!UICONTROL 目標Dimension]**&#x200B;後，繼續建立和設定您的&#x200B;**[!UICONTROL 通道設定]**，並定義對應的&#x200B;**[!UICONTROL 執行詳細資料]**。

@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 啟用後，包含讀取對象專案的批次歷程提供兩種執行模擬的方式：
 
-* **[!UICONTROL 快速模擬]**&#x200B;會以產生的使用者、產生的事件值，以及由Journey Agent支援的預設測試設定，端對端執行。 這是以最少干預快速模擬端對端歷程的方法。 只要選取此選項，快速模擬就會開始。
+* **[!UICONTROL 快速模擬]**&#x200B;會以產生的使用者、產生的事件值，以及由Journey Agent支援的預設測試設定，端對端執行。 這是以最少干預快速模擬端對端歷程的方法。 只要選取此選項，快速模擬就會開始。 [觀看快速模擬影片](simulate-journey-gs.md#video)
 
 * **[!UICONTROL 手動模擬]**&#x200B;可讓您手動逐步執行模擬。 建立模擬使用者（手動或使用Journey Agent）、將其觸發至歷程、定義事件裝載（手動或使用Journey Agent），以及覆寫等待時間。
 

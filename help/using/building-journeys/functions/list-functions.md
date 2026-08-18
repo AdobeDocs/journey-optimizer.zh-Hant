@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 6%
+source-wordcount: 2071
+ht-degree: 5%
 
 ---
 
@@ -37,9 +37,70 @@ ht-degree: 6%
 * 檢查集合中是否存在值([in](#in))
 * 限制從清單傳回的專案數([limit](#limit))
 * 取得清單([listSize](#listSize))的大小，或將清單轉換為不同的格式([serializeList](#serializeList))
-* 執行集合作業，例如在清單之間尋找共同元素（[相交](#intersect)）
+* 執行集合操作，例如在清單（[相交](#intersect)）之間尋找通用元素、組合清單([mergeLists](#mergeLists))，或從另一個清單中減去一個清單([differenceLists](#differenceLists))
 
 清單函式提供強大的工具，用於處理複雜的資料結構，實現複雜的資料操作和根據收集內容的條件式邏輯。
+
+## 差異清單 {#differenceLists}
+
+傳回不在第二個清單中的第一個清單專案（設定差異： `list 1 - list 2`）。 會略過Null專案。 結果一律會移除重複值，並保留第一個清單的插入順序。
+
++++語法
+
+`differenceLists(<parameters>)`
+
++++
+
++++參數
+
+| 參數 | 類型 | 說明 |
+|-----------|------------------|------------------|
+| 清單1 | listString、listInteger、listDecimal、listBoolean、listDuration、listDateTime、listDateTimeOnly或listDateOnly | 要減去的清單。 |
+| 清單2 | 與清單1的型別相同。 | 要從清單1移除的專案清單。 |
+
++++
+
++++簽章與傳回的型別
+
+`differenceLists(listString,listString)`： listString
+
+`differenceLists(listInteger,listInteger)`： listInteger
+
+`differenceLists(listDecimal,listDecimal)`： listDecimal
+
+`differenceLists(listBoolean,listBoolean)`：清單布林值
+
+`differenceLists(listDuration,listDuration)`： listDuration
+
+`differenceLists(listDateTime,listDateTime)`： listDateTime
+
+`differenceLists(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
+
+`differenceLists(listDateOnly,listDateOnly)`： listDateOnly
+
++++
+
++++範例
+
+```json
+differenceLists(['a','b','c'], ['b'])
+```
+
+傳回`['a','c']`。
+
+```json
+differenceLists(['a','a','b'], [])
+```
+
+傳回`['a','b']`。
+
+```json
+differenceLists([], ['a'])
+```
+
+傳回`[]`。
+
++++
 
 ## distinct {#distinct}
 
@@ -620,6 +681,64 @@ intersect(
 
 +++
 
+## mergeList {#mergeLists}
+
+結合兩個清單。 當`deduplicate`為`true`時，會傳回兩個清單的聯集，並移除重複值。 當`deduplicate`為`false`時，會傳回兩個清單（清單1的專案後面接著清單2的專案）的串連，保留重複專案。 會略過Null專案。
+
+**注意：** `deduplicate`引數必須是常值`true`或`false`，而不是動態布林運算式。
+
++++語法
+
+`mergeLists(<parameters>)`
+
++++
+
++++參數
+
+| 參數 | 類型 | 說明 |
+|-----------|------------------|------------------|
+| 清單1 | listString、listInteger、listDecimal、listBoolean、listDuration、listDateTime、listDateTimeOnly或listDateOnly | 第一個清單。 它的專案會先新增到結果中。 |
+| 清單2 | 與清單1的型別相同。 | 第二個清單。 它的專案會新增到清單1的專案之後。 |
+| 去重複化 | 布林值常值 | `true`會傳回兩個清單的聯集，並移除重複專案。 `false`會傳回兩個清單的串連，保留重複專案。 必須為常值`true`或`false`。 |
+
++++
+
++++簽章與傳回的型別
+
+`mergeLists(listString,listString,boolean)`： listString
+
+`mergeLists(listInteger,listInteger,boolean)`： listInteger
+
+`mergeLists(listDecimal,listDecimal,boolean)`： listDecimal
+
+`mergeLists(listBoolean,listBoolean,boolean)`：清單布林值
+
+`mergeLists(listDuration,listDuration,boolean)`： listDuration
+
+`mergeLists(listDateTime,listDateTime,boolean)`： listDateTime
+
+`mergeLists(listDateTimeOnly,listDateTimeOnly,boolean)`： listDateTimeOnly
+
+`mergeLists(listDateOnly,listDateOnly,boolean)`： listDateOnly
+
++++
+
++++範例
+
+```json
+mergeLists(['a','b'], ['b','c'], true)
+```
+
+傳回`['a','b','c']`。
+
+```json
+mergeLists(['a','b'], ['b','c'], false)
+```
+
+傳回`['a','b','b','c']`。
+
++++
+
 ## serializeList {#serializeList}
 
 將指定清單（listObject以外的任何型別）轉換為字串。
@@ -752,7 +871,7 @@ intersect(
 
 如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
 
-* **TL；DR：**&#x200B;此頁面記錄了AJO歷程運算式中可用的所有清單功能，包括如何篩選、排序、去除重複專案、檢查成員資格、限制、序列化和尋找清單與陣列的交集。
+* **TL；DR：**&#x200B;本頁會記錄AJO歷程運算式中可用的所有清單功能，包括如何篩選、排序、去重複化、檢查成員資格、限制、序列化、合併、減去及尋找清單與陣列的交集。
 
 **意圖：**
 * 使用`distinct` （略過null）或`distinctWithNull` （保留null）從清單中移除重複值
@@ -760,6 +879,8 @@ intersect(
 * 使用`getListItem`從清單中擷取特定索引處的專案
 * 使用`in`檢查清單中是否存在值
 * 使用`intersect`尋找兩個清單之間的共同元素
+* 使用`mergeLists`合併兩個清單（無論是否重複資料刪除）
+* 使用`differenceLists`從另一個清單中減去一個清單（設定差異）
 * 使用`limit`傳回清單的第一個或最後的N個元素
 * 使用`listSize`計算清單中的元素總數
 * 使用`serializeList`將清單轉換為分隔字串
@@ -769,12 +890,17 @@ intersect(
 * **listObject**：必須是欄位參考的複雜物件清單；不能包含Null物件&#x200B;*（產品特定）*
 * **keyAttributeName**：與`distinct`、`filter`和`sort`搭配使用的選擇性字串引數，用來識別要用於重複資料刪除、篩選或排序&#x200B;*（產品特定）*&#x200B;的物件屬性
 * **相交**： set作業只傳回兩個輸入清單中出現的專案
+* **mergeLists**：集合作業傳回兩個清單的聯合（去重複化）或串連（含重複項），取決於`deduplicate`引數&#x200B;*（產品特定）*
+* **differenceLists**：集合作業，傳回不在第二個清單&#x200B;*（產品特定）*&#x200B;中的第一個清單專案
 
 **護欄：**
 * `distinctWithNull`不支援`<listObject>`引數型別
 * `filter`需要listObject引數為欄位參考，而非內嵌常值
 * listObject上的`listSize`需要清單為欄位參考；listObject不能包含null物件
 * `serializeList`不支援`listObject`型別
+* `mergeLists`和`differenceLists`僅支援純量清單型別（字串、整數、小數、布林值、dateTime、dateTimeOnly、dateOnly、持續時間）；不支援`listObject`
+* `mergeLists`的`deduplicate`引數必須是常值`true`/`false`，而不是動態布林運算式
+* `differenceLists`一律會刪除其結果的重複專案；沒有選項可保留重複專案
 
 **術語：**
 * 正式名稱：清單函式 — 首字母縮寫：none — 變體：集合函式，陣列函式
@@ -782,6 +908,7 @@ intersect(
 * 請勿混淆：「distinct」（忽略null）≠「distinctWithNull」（保留null為不重複值）
 * 請勿混淆： 「limit」與第三個引數`true` （傳回前N個專案）≠「limit」與`false` （傳回最後N個專案）
 * 請勿混淆：「相交」（兩個清單之間的通用元素）≠「篩選」（符合特定鍵值的元素）
+* 請勿混淆：「mergeLists」（結合兩個清單、聯集或串連）≠「differenceLists」（從另一個清單中減去一個清單）≠「intersect」（僅限通用元素）
 
 **常見問題集：**
 * **問：如何取得清單的前3個專案？**  — 使用`limit(myList, 3)`或`limit(myList, 3, true)`；預設為傳回第一個專案。
@@ -790,5 +917,9 @@ intersect(
 * **問：我可以使用`filter`篩選字串清單嗎？**  — 否，`filter`僅適用於`listObject`；對於純量清單，請使用`in`或`distinct`進行重複資料刪除。
 * **問：如何檢查清單中是否有值？**  — 使用`in(value, myList)`，如果值在清單中找到，則傳回true。
 * **問：我是否可依特定屬性排序listObject？**  — 是，使用`sort(@event{...}, "attributeName", true)`，其中第二個引數是屬性名稱，第三個是排序方向（true =升序）。
+* **問：如何合併兩個清單並移除重複專案？**  — 使用`mergeLists(list1, list2, true)`。
+* **問：如何合併兩個清單但保留重複值？**  — 使用`mergeLists(list1, list2, false)`。
+* **問：如何在一個清單中找到不在另一個清單中的專案？**  — 使用`differenceLists(list1, list2)`，這會傳回`list2`中未出現的`list1`專案。
+* **問：`intersect`與`differenceLists`之間有何差異？** — `intersect`會傳回兩個清單通用的專案；`differenceLists`會傳回第一個清單中第二個清單中沒有的專案。
 
 +++

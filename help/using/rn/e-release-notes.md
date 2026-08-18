@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
+source-git-commit: a0bba0ee8c2f7623d7cf7053b0c8dfc215b45fe0
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 744
 ht-degree: 18%
 
 ---
@@ -85,6 +85,12 @@ The following capability is coming to onboarding in this release.
 
 * **歷程標題中的開始和結束日期** — 當在歷程上設定開始和/或結束日期時，它們現在會出現在狀態徽章旁邊的歷程標題中。 顯示的標籤會根據每個日期是近期到來或已過去而調整。<!-- Documentation link: TBD -->
 
+### 管道 {#august-26-channels}
+
+此版本中的Campaigns即將進行下列改進：
+
+* **即時活動執行中繼資料(executionMetadata)** - API觸發的即時活動行銷活動（交易和行銷）現在支援每個收件者的可選executionMetadata欄位。 這可讓您將自訂索引鍵/值資料（例如訂單ID、忠誠度層級或區域代碼）附加至執行。
+
 ### 行銷活動 {#august-26-camp}
 
 此版本中的行銷活動推出下列功能和改善。
@@ -115,57 +121,6 @@ The following capability is coming to onboarding in this release.
 
 * **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。<!-- Documentation link: TBD -->
 
-### 協調的行銷活動 {#august-26-oc}
-
-此版本中的協調行銷活動推出下列功能和改善。
-
-<table>
-<thead>
-<tr>
-<th><strong>無訊息小時支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以套用安靜時間。 「無訊息時間」可讓您定義以時間為基礎的排除專案，以防止訊息在特定期間傳送，協助您在行銷活動協調使用案例中遵守客戶偏好設定和合規性要求。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>LINE頻道支援（可用性限制）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>自訂傳出頻道功能的推出後，您現在可以直接將LINE動作新增到行銷活動中。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **管理設定檔目標維度的功能** — 您現在可以刪除設定檔目標Dimension，或編輯並交換其設定的身分名稱空間，讓您對資料設定有更優異的控制權和彈性。<!-- Documentation link: TBD -->
-
-<!-- * **New public APIs** - New API specifications are now available. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. Documentation link: TBD -->
-
-* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料（可用性限制）** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者首碼、回覆名稱和回覆電子郵件，以及執行地址。 如此一來，寄件者詳細資料就能反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由所有傳送。 可在管道層級設定標頭值，並使用內容資料覆寫每個行銷活動，以獲得更精確的控制。
-此功能僅適用於一組組織 (可用性限制)。
-  <!-- Documentation link: TBD -->
-
-* **目標維度簡化** — 作用中目標維度現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。 多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。 此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。<!-- Documentation link: TBD -->
-
-* **使用波段傳送** — 您現在可以排程輸出訊息，以控管批次方式傳送一段時間。 波次傳送也支援更好的傳遞能力，並降低被標籤為垃圾訊息的風險，有助於維持強大的寄件者信譽，是高流量或時間敏感型行銷活動的理想選擇。<!-- Documentation link: TBD -->
-
-
 ### 決策 {#august-26-decisioning}
 
 此版本中的決定即將提供下列功能和改善。
@@ -188,8 +143,6 @@ The following capability is coming to onboarding in this release.
 </table>
 
 * **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 有兩種模式可供使用：版位特定上限，定義只適用於所選版位中顯示優惠方案的上限；以及每次版位上限，會針對出現優惠方案的每個版位獨立套用上限，因此每個版位都會維持其自己的上限計數器。 請注意，與位置相關的上限不適用於使用以Adobe Experience Platform資料為基礎的規則來設定上限的優惠方案。<!-- Documentation link: TBD -->
-
-* **視覺片段中的映象頁面** — 您現在可以將映象頁面插入視覺片段中。 即使片段用於運用Decisioning的電子郵件行銷活動中，決策屬性仍可在映象頁面連結上正確轉譯。 必須在發佈片段之前將映象頁面新增到視覺片段，以便顯示決策屬性。<!-- Documentation link: TBD -->
 
 ### 管理 {#august-26-administration}
 
