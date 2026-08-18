@@ -6,19 +6,14 @@ description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2338
-ht-degree: 37%
+source-wordcount: 2370
+ht-degree: 36%
 
 ---
 
@@ -132,7 +127,7 @@ UNUSED IDs in BJ
 
    ![影像顯示具有次要維度選項的目標區段](../assets/secondary-dimension.png)
 
-   **範例** — 假設「航班」表格已連結至您的收件者表格，而您想要每個設定檔在適用於他們的每個航班上接收一封訊息。 選取每個次要維度&#x200B;**一個**&#x200B;訊息。 當您只想要每個設定檔有一則訊息時（無論有多少相關航班列符合資格），請為每個設定檔使用&#x200B;**[!UICONTROL 一則訊息]**。
+   **範例** — 假設「航班」表格已連結至您的收件者表格，而您想要每個設定檔在適用於他們的每個航班上接收一封訊息。 選取每個次要維度&#x200B;]**一個**[!UICONTROL &#x200B;訊息。 當您只想要每個設定檔有一則訊息時（無論有多少相關航班列符合資格），請為每個設定檔使用&#x200B;**[!UICONTROL 一則訊息]**。
 
    如需目標維度以及如何設定維度的詳細資訊，請參閱本頁面： [設定目標維度](../target-dimension.md)
 
@@ -209,7 +204,7 @@ UNUSED IDs in BJ
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[&#128279;](../../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面](../../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -258,6 +253,10 @@ UNUSED IDs in BJ
 您可以在發佈協調的行銷活動之前停用傳送確認。 若要這麼做，請在畫布上選取頻道活動，移至&#x200B;**右側邊欄**&#x200B;中的&#x200B;**[!UICONTROL 屬性]**，然後開啟&#x200B;**[!UICONTROL 傳送，而不需要確認]**。
 
 ![影像顯示傳送但不含確認按鈕](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>在確認之前，您可以使用波動傳送將傳送分割為排程批次。 此選項僅適用於傳出頻道活動（電子郵件、簡訊、推播或直接郵件）。 [瞭解如何使用波段傳送](../../delivery/send-using-waves.md)
 
 ## 設定速率控制 {#rate-control}
 
