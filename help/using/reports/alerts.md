@@ -9,27 +9,15 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3196
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -65,7 +53,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant#permissions){target="_blank"}中的必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -406,7 +394,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 >[!NOTE]
 >
->如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"}。
+>如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 訂閱警報 {#subscribe-alerts}
 
@@ -431,7 +419,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}。
+若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 ### 訂閱方法
 
@@ -439,7 +427,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 * **[全域（沙箱）訂閱](#subscribe-alerts)**：接收&#x200B;**目前沙箱**&#x200B;中所有相符歷程或行銷活動的通知。 當您想要廣泛涵蓋範圍時，請使用此選項。
 * **[歷程特定訂閱](#subscribe-alerts)**：對於支援的歷程警示，將通知限製為從歷程詳細目錄一次一個&#x200B;**歷程**。
-* **促銷活動特定訂閱**：促銷活動生命週期警示目前只能在沙箱層級訂閱。
+* **[促銷活動特定訂閱](#subscribe-alerts)**：對於支援的促銷活動生命週期警示，從促銷活動詳細目錄一次限制通知為&#x200B;**一個促銷活動**。
 
 >[!BEGINTABS]
 
@@ -467,7 +455,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
 
 >[!TAB 歷程特定訂閱]
 
@@ -495,44 +483,48 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
 
 >[!NOTE]
 >
 >[讀取對象觸發失敗](#available-alerts)警示只能透過全域訂閱取得，不能透過每個歷程訂閱取得。
 
+>[!TAB 促銷活動特定訂閱]
+
+促銷活動特定訂閱適用於[促銷活動生命週期警示](#available-alerts)。 它們可讓您監視個別高優先順序的行銷活動，而不會收到沙箱中每個行銷活動的相同警報。
+
+**若要訂閱特定行銷活動的行銷活動生命週期警示：**
+
+1. 移至&#x200B;**[!UICONTROL 行銷活動]**&#x200B;詳細目錄，並開啟行銷活動型別的標籤（**[!UICONTROL 動作]**&#x200B;或&#x200B;**[!UICONTROL 觸發的API]**）。
+
+1. 按一下您要監視之行銷活動的&#x200B;**⋯** （其他動作）功能表。
+
+1. 選取&#x200B;**[!UICONTROL 訂閱警示]**。
+
+   ![訂閱特定行銷活動的警示](assets/subscribe-campaign-alert.png){width=75%}
+
+1. 從可用選項中選取您想要的行銷活動生命週期警報（請參閱[行銷活動警報](#available-alerts)）。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以確認您的訂閱。
+
+**取消訂閱：**
+
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
+>[!TIP]
+>
+>您可以將&#x200B;**沙箱層級**&#x200B;訂閱（來自警示&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤）與&#x200B;**促銷活動特定**&#x200B;訂閱結合。 對沙箱中的所有內容使用沙箱層級涵蓋範圍，並僅針對您想要個別追蹤的行銷活動新增每個行銷活動的訂閱。
 
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
-
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 管理警報 {#manage-alerts}
 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -587,6 +579,6 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 **警示架構：**
 
 * [Adobe Experience Platform警示概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"} — 瞭解警示架構
-* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant){target="_blank"} — 檢視、訂閱和管理警報
-* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"} — 進階整合選項
-* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"} — 完整的可用平台警示清單
+* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 檢視、訂閱和管理警報
+* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 進階整合選項
+* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 完整的可用平台警示清單
