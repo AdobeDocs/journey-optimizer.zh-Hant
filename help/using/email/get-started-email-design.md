@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: 電子郵件、設計、素材、資產
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
 workflow-type: tm+mt
-source-wordcount: 1043
-ht-degree: 72%
+source-wordcount: 1325
+ht-degree: 57%
 
 ---
 
@@ -87,6 +73,10 @@ ht-degree: 72%
 
 1. 定義並個人化您的電子郵件內容後，您就可以使用&#x200B;**自動化內容檢查**&#x200B;來驗證您的電子郵件內容，以便在傳送之前直接在編寫面板中偵測HTML和CSS問題，例如不支援的標籤、空白div和大小限制違規。 [了解更多](content-check.md)
 
+   >[!NOTE]
+   >
+   >系統也會在您設計時檢查金鑰設定，並顯示警告（建議和最佳實務）和錯誤（阻止阻止測試或啟用的問題）警報。 [進一步瞭解電子郵件警示](create-email.md#check-email-alerts)
+
    ![電子郵件Designer中有問題的內容檢查窗格](assets/content-check.png)
 
 1. 您也可以驗證內容品質，找出可讀性、內容一致性和有效性方面的潛在問題。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
@@ -101,7 +91,11 @@ ht-degree: 72%
 
 傳送電子郵件時，務必考慮到收件者有可能轉寄郵件，這有時可能會導致電子郵件呈現的問題。 使用用於轉寄的電子郵件提供商可能不支援的 CSS 類別時尤其如此，例如，如果您使用「is-desktop-hidden」CSS 類別來隱藏行動裝置上的影像。
 
-若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。 這同樣適用於透過行動裝置網頁瀏覽器在Gmail或Outlook中開啟電子郵件時，其中CSS處理與原生應用程式明顯不同 — 最安全的選擇為具有完整內嵌樣式的簡單、表格式版面配置。 [了解更多](../content-management/rendering.md#rendering-limitations)
+若要將這些呈現問題降至最低，建議您盡可能維持電子郵件設計結構的簡單性。 請嘗試使用單一設計以便同時適用於桌面與行動裝置，並避免使用複雜 CSS 類別或其他設計元素，因為可能並非所有電子郵件用戶端均可完全支援。
+
+>[!NOTE]
+>
+>這同樣適用於透過行動裝置網頁瀏覽器在Gmail或Outlook中開啟電子郵件時，其中CSS處理與原生應用程式明顯不同 — 最安全的選擇為具有完整內嵌樣式的簡單、表格式版面配置。 [了解更多](#mobile-web-limitations)
 
 無論收件者如何檢視或轉寄電子郵件，您都可遵循這些最佳實務來確保其均能以一致的方式正確呈現電子郵件。
 
@@ -115,9 +109,31 @@ ht-degree: 72%
 >
 >[歐洲無障礙法案](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}規定所有數位通訊都應該能透過無障礙方式取得。 除了本節中列出的電子郵件設計最佳做法之外，請務必遵循[此頁面](accessible-content.md)上列出的准則，這些准則專用於使用電子郵件設計工具建立無障礙內容。
 
+## 特定護欄和限制 {#email-guardrails}
+
+即使是結構良好的電子郵件，也會根據使用者端或開啟環境的不同而呈現不同的內容。 以下各節記錄設計電子郵件時應牢記的已知限制和使用者端特定行為。
+
+### 行動網站瀏覽器限制 {#mobile-web-limitations}
+
+當收件者透過行動裝置網頁瀏覽器&#x200B;**（例如手機上的Chrome）開啟Gmail或Outlook**&#x200B;時，電子郵件呈現可能會有所不同，而不是使用原生行動應用程式或案頭使用者端。 這是行動網站郵件環境的已知限制，並非特定於Journey Optimizer。
+
+這種轉譯差異來自於網頁郵件使用者端在行動瀏覽器中的行為。 瀏覽器會先轉譯完整的案頭網頁郵件UI，將電子郵件置於兩層深，超出任何回應式CSS或媒體查詢的觸及。 Gmail Web另外會移除CSS `<style>`區塊，並將電子郵件內容包裝在自己的`<div>`中，這樣可能會覆寫您的樣式並建立對齊衝突。
+
+典型的症狀包括文字對齊位移（顯示置中的左對齊文字）、內容區段之間的額外白色分隔線，以及與範本設計不同的整體版面。
+
+這些問題僅發生在透過行動瀏覽器存取的Gmail Web和Outlook Web中。 Outlook和Gmail原生行動應用程式，以及所有案頭使用者端不受影響。
+
+>[!TIP]
+>
+>若要將影響降至最低：
+>
+>* 使用具有完整內嵌CSS的簡單表格式版面。
+>
+>* 避免依賴媒體查詢或`<style>`區塊來取得關鍵版面配置屬性，例如文字對齊。
+
 ### Outlook演算考量事項 {#outlook-tips}
 
-Outlook有許多轉譯怪異，若在設計期間未考慮，可能會影響您的電子郵件配置：
+Outlook有許多轉譯怪異，若在設計期間未考慮在內，可能會影響您的電子郵件配置。 若要協助確保電子郵件在Outlook中正確呈現，請遵循下列最佳實務：
 
 * 使用偶數來表示內距、字型大小和寬度。 Outlook會在內部將畫素轉換為點，當使用奇數時，可能會造成不平均的間距及不想要的白線。
 * 設定表格寬度（以畫素為單位，而非百分比）。 以百分比為基礎的寬度可能會中斷Outlook中的版面。 直接在每個表格的樣式屬性中套用寬度值。
@@ -136,4 +152,4 @@ Outlook有許多轉譯怪異，若在設計期間未考慮，可能會影響您�
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
