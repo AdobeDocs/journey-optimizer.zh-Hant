@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 啟用後，包含讀取對象專案的批次歷程提供兩種執行模擬的方式：
 
-* **[!UICONTROL 快速模擬]**&#x200B;會以產生的使用者、產生的事件值，以及由Journey Agent支援的預設測試設定，端對端執行。 這是以最少干預快速模擬端對端歷程的方法。 只要選取此選項，快速模擬就會開始。
+* **[!UICONTROL 快速模擬]**&#x200B;會以產生的使用者、產生的事件值，以及由Journey Agent支援的預設測試設定，端對端執行。 這是以最少干預快速模擬端對端歷程的方法。 只要選取此選項，快速模擬就會開始。 [觀看快速模擬影片](simulate-journey-gs.md#video)
 
 * **[!UICONTROL 手動模擬]**&#x200B;可讓您手動逐步執行模擬。 建立模擬使用者（手動或使用Journey Agent）、將其觸發至歷程、定義事件裝載（手動或使用Journey Agent），以及覆寫等待時間。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
       ![建立具有重複內容的模擬使用者卡片、套用所有屬性至其他使用者，以及刪除每個使用者](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    ![測試使用者清單，其中包含在畫布上反白顯示的編輯、傳送及移除動作和模擬路徑](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![使用新增使用者選項開啟管理使用者功能表，並清除所有使用者](assets/simulate-manage.png)
 

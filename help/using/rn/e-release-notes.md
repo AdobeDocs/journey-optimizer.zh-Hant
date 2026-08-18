@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fbbab8c264a03f2170f4ab37fa89f1b4e77d6e50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: a0bba0ee8c2f7623d7cf7053b0c8dfc215b45fe0
 workflow-type: tm+mt
-source-wordcount: 1040
+source-wordcount: 744
 ht-degree: 18%
 
 ---
@@ -121,56 +116,6 @@ The following capability is coming to onboarding in this release.
 
 * **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。<!-- Documentation link: TBD -->
 
-### 協調的行銷活動 {#august-26-oc}
-
-此版本中的協調行銷活動推出下列功能和改善。
-
-<table>
-<thead>
-<tr>
-<th><strong>無訊息小時支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以套用安靜時間。 「無訊息時間」可讓您定義以時間為基礎的排除專案，以防止訊息在特定期間傳送，協助您在行銷活動協調使用案例中遵守客戶偏好設定和合規性要求。</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>使用波段傳送</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以排程輸出訊息，以控管批次傳送一段時間。 波次傳送也支援更好的傳遞能力，並降低被標籤為垃圾訊息的風險，有助於維持強大的寄件者信譽，是高流量或時間敏感型行銷活動的理想選擇。 </p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **管理設定檔目標維度的功能** — 您現在可以刪除設定檔目標Dimension，或編輯並交換其設定的身分名稱空間，讓您對資料設定有更優異的控制權和彈性。<!-- Documentation link: TBD -->
-
-<!-- * **New public APIs** - New API specifications are now available. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. Documentation link: TBD -->
-
-* **個人化每個收件者和行銷活動的電子郵件寄件者詳細資料（可用性限制）** — 協調的行銷活動現在支援使用設定檔屬性或關聯資料，個人化電子郵件標題欄位，包括寄件者名稱、寄件者首碼、回覆名稱和回覆電子郵件，以及執行地址。 如此一來，寄件者詳細資料就能反映每個收件者的相關顧問、位置或分支，而非透過單一公司地址路由所有傳送。 可在管道層級設定標頭值，並使用內容資料覆寫每個行銷活動，以獲得更精確的控制。
-此功能僅適用於一組組織 (可用性限制)。
-  <!-- Documentation link: TBD -->
-
-* **目標維度簡化** — 作用中目標維度現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。 多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。 此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。<!-- Documentation link: TBD -->
-
-
-
 ### 決策 {#august-26-decisioning}
 
 此版本中的決定即將提供下列功能和改善。
@@ -206,7 +151,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
