@@ -6,19 +6,14 @@ description: 瞭解如何在多步驟行銷活動中，新增頻道活動
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 43%
+source-wordcount: 2338
+ht-degree: 37%
 
 ---
 
@@ -121,9 +116,22 @@ UNUSED IDs in BJ
 
 1. 選取活動並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**、**[!UICONTROL 編輯推播]**&#x200B;或&#x200B;**[!UICONTROL 編輯直接郵件]** （視選取的頻道而定）。
 
-   ![影像顯示擁有電子郵件活動的畫布](../assets/channel-edit.png)
+1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;區段中，設定傳遞的目標：
 
-1. 請在&#x200B;**[!UICONTROL 屬性]**&#x200B;索引標籤中，輸入說明，然後切換至&#x200B;**[!UICONTROL 動作]**&#x200B;索引標籤，以便設定活動。
+   * 從下拉式清單中選取此傳送的&#x200B;**[!UICONTROL 目標維度]**。
+
+   * 套用次要維度時（連結至每個設定檔的相關表格），選擇要傳送的訊息數量：
+
+     * **[!UICONTROL 每個設定檔有一則訊息]**：即使存在次要維度的多個資料列，也為每個設定檔傳送一則訊息。
+     * **[!UICONTROL 每個次要維度一則訊息]**：從次要維度傳送每個合格資料列一則訊息。 當多個資料列符合相同的設定檔時，該設定檔可以接收多條訊息。
+
+   ![影像顯示具有次要維度選項的目標區段](../assets/secondary-dimension.png)
+
+   **範例** — 假設「航班」表格已連結至您的收件者表格，而您想要每個設定檔在適用於他們的每個航班上接收一封訊息。 選取每個次要維度&#x200B;]**一個**[!UICONTROL &#x200B;訊息。 當您只想要每個設定檔有一則訊息時（無論有多少相關航班列符合資格），請為每個設定檔使用&#x200B;**[!UICONTROL 一則訊息]**。
+
+   如需目標維度以及如何設定維度的詳細資訊，請參閱本頁面： [設定目標維度](../target-dimension.md)
+
+1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**、**[!UICONTROL 編輯推播]**&#x200B;或&#x200B;**[!UICONTROL 編輯直接郵件]** （視您選擇的頻道而定），以照常建立郵件，然後返回&#x200B;**右側邊欄**&#x200B;完成&#x200B;**[!UICONTROL 動作]**。
 
 ## 行銷與交易式訊息 {#marketing-vs-transactional}
 
@@ -149,11 +157,13 @@ UNUSED IDs in BJ
 
    會由[系統管理員](../../start/path/administrator.md)定義設定。 它包含所有用於傳送訊息的技術引數，例如標頭引數、子網域、行動應用程式等。[瞭解如何設定頻道設定](../../configuration/channel-surfaces.md)
 
+   從畫布選取通道設定清單時，會根據您在屬性窗格中為傳送設定的目標來篩選該清單。 只會顯示與該目標相容的設定。
+
    ![顯示 [動作] 區段的影像](../assets/channel-actions.png)
 
 1. **套用上限規則**
 
-   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定頻率上限，以防止訊息相似的客戶超載。 [瞭解如何使用規則集](../../conflict-prioritization/rule-sets.md)。
+   在&#x200B;**[!UICONTROL 規則集]**&#x200B;下拉式清單中，選取管道規則集以將上限規則套用至行銷活動。 運用管道規則集，可讓您根據通訊型別設定規則，包括頻率上限和安靜時間，以防止訊息相似的客戶超載，並避免在設定的安靜時間傳送訊息給他們。 [瞭解如何使用規則集](../../conflict-prioritization/rule-sets.md)。
 
 1. **建立內容實驗**
 
@@ -167,6 +177,25 @@ UNUSED IDs in BJ
 
 根據所選的通訊通道，有其他設定可供使用。 請展開下列各節以取得詳細資訊。
 
++++**電子郵件標頭個人化** （電子郵件）。
+
+>[!AVAILABILITY]
+>
+>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+選取您的頻道設定後，啟用&#x200B;**[!UICONTROL 覆寫電子郵件傳遞設定]**&#x200B;以取代該設定中定義的值。 您可以自訂此管道活動的下列設定：
+
+* **電子郵件標頭引數**： **[!UICONTROL 從名稱]**、**[!UICONTROL 從電子郵件前置詞]**、**[!UICONTROL 回覆名稱]**&#x200B;和&#x200B;**[!UICONTROL 回覆電子郵件]**
+
+* **執行位址**： **[!UICONTROL Source]** （**[!UICONTROL 設定檔]**&#x200B;或&#x200B;**[!UICONTROL 目標Dimension]**），以及&#x200B;**[!UICONTROL 傳遞位址]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+對於您留空的任何欄位，[!DNL Journey Optimizer]會使用所選管道設定的值。
+
+![影像顯示電子郵件標頭個人化設定](../assets/email-header.png)
++++
+
 +++**追蹤參與** （電子郵件和簡訊）。
 
 使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
@@ -175,7 +204,7 @@ UNUSED IDs in BJ
 
 +++**啟用快速傳遞模式** （推播）。
 
-快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面[&#128279;](../../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+快速傳送模式是[!DNL Journey Optimizer]附加元件，可讓您透過行銷活動以非常快的速度大量傳送推播訊息。 當訊息傳送的延遲對業務至關重要，需要使用快速傳送。 例如，您想要在行動電話上傳送緊急推播警報，例如傳送重大新聞給已安裝您新聞頻道應用程式的使用者。 瞭解如何在此頁面](../../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時的效能詳細資訊，請參閱[Adobe Journey Optimizer產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -184,7 +213,6 @@ UNUSED IDs in BJ
 當設定好頻道活動後，請選取 **[!UICONTROL [內容]]** 索引標籤，即可定義內容。
 
 ## 定義內容 {#content}
-
 
 ### 建立訊息內容
 
@@ -218,11 +246,11 @@ UNUSED IDs in BJ
 
 ## 確認訊息傳送
 
-根據預設，對於非週期性協調的行銷活動，訊息傳送會暫停，直到您明確核准傳送為止。 發佈行銷活動後，從管道活動的屬性窗格確認傳送請求。
+根據預設，對於非週期性協調的行銷活動，訊息傳送會暫停，直到您明確核准傳送為止。 發佈行銷活動後，在選取頻道活動時，從&#x200B;**右側邊欄**&#x200B;中的&#x200B;**[!UICONTROL 屬性]**&#x200B;確認傳送請求。
 
 顯示[確認]按鈕的![影像](../assets/confirm-sending.png)
 
-您可以在發佈協調的行銷活動之前停用傳送確認。 若要這麼做，請在畫布中選取頻道活動以顯示其屬性，然後開啟&#x200B;**[!UICONTROL 傳送而不確認]**。
+您可以在發佈協調的行銷活動之前停用傳送確認。 若要這麼做，請在畫布上選取頻道活動，移至&#x200B;**右側邊欄**&#x200B;中的&#x200B;**[!UICONTROL 屬性]**，然後開啟&#x200B;**[!UICONTROL 傳送，而不需要確認]**。
 
 ![影像顯示傳送但不含確認按鈕](../assets/send-without-confirmation.png)
 

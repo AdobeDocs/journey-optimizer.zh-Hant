@@ -6,18 +6,13 @@ description: 瞭解如何設定您的頻道設定
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +49,11 @@ ht-degree: 0%
 
    * **[!UICONTROL 目標Dimension]**：傳送給主要實體，例如，收件者。
 
-   * **[!UICONTROL 目標+次要Dimension]**：使用主要和次要實體來傳送，例如，收件者+合約。
+   * **[!UICONTROL 目標+次要Dimension]**：使用主要和次要實體來傳送，例如，收件者+合約，或收件者+航班。
 
-1. 從下拉式清單中選取您先前建立的[目標Dimension](#targeting-dimension)。
+     選擇此選項可支援多實體協調行銷活動，其中一個設定檔可接收數則訊息 — 在您選取為[!UICONTROL 次要Dimension]的連結表格中，每個合格列可接收一則訊息（例如連結至&#x200B;**收件者**&#x200B;的&#x200B;**航班**，或連結至&#x200B;**航班**&#x200B;的&#x200B;**航班詳細資料**，視您的資料模型而定）。
+
+1. 從下拉式清單中選取您先前建立的[目標Dimension](target-dimension.md#targeting-dimension)。
 
    ![](assets/target-dimension-4.png)
 
