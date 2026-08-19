@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer 搶鮮版發行說明
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a0bba0ee8c2f7623d7cf7053b0c8dfc215b45fe0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 556acc780e4077e129394a6e8c8fdf93e814e426
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 18%
+source-wordcount: 790
+ht-degree: 17%
 
 ---
 
@@ -142,13 +137,15 @@ The following capability is coming to onboarding in this release.
 </tbody>
 </table>
 
-* **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 有兩種模式可供使用：版位特定上限，定義只適用於所選版位中顯示優惠方案的上限；以及每次版位上限，會針對出現優惠方案的每個版位獨立套用上限，因此每個版位都會維持其自己的上限計數器。 請注意，與位置相關的上限不適用於使用以Adobe Experience Platform資料為基礎的規則來設定上限的優惠方案。<!-- Documentation link: TBD -->
+* **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 有兩種模式可供使用： **特定位置上限**，其定義上限僅套用在選取的位置中顯示優惠時，以及&#x200B;**每個位置上限**，其將上限獨立套用於優惠出現的每個位置，因此每個位置都會維護自己的上限計數器。 請注意，與位置相關的上限不適用於使用以Adobe Experience Platform資料為基礎的規則來設定上限的優惠方案。<!-- Documentation link: TBD -->
 
-### 管理 {#august-26-administration}
+### 內容管理 {#august-26-content}
 
-此版本中的管理即將進行下列改進。
+此版本中的內容管理即將推出下列改善專案。
 
-* **自訂子網域的Feedback Loop OTP程式** — 直接在產品UI中顯示Yahoo寄件者中心一次性密碼(OTP)，已改善Feedback Loop (FBL)自訂子網域設定程式。 使用者現在可以自動擷取及顯示Yahoo寄件者中心網域擁有權驗證期間產生的OTP。<!-- Documentation link: TBD -->
+* **內容變體大小警告** — 現在，當內容變體超過其建議的大小臨界值時，Journey Optimizer會顯示軟限制警告 — 範本和訊息為1200 KB、片段為700 KB、登陸頁面為1000 KB。 不會封鎖儲存和發佈。
+
+* 內容&#x200B;**片段計數限制** - Journey Optimizer現在會驗證一段內容中所使用的不重複片段數量：每個變體最多60個，而單一訊息的所有變體最多120個。 警告會出現在每個限制的75%；一旦達到硬性限制，就會封鎖發佈。
 
 <!--
 
@@ -156,7 +153,7 @@ The following capability is coming to onboarding in this release.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
