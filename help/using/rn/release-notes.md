@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8e72cd3a4172a96eadbb9918bf44156324e592ad
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 25%
+source-wordcount: 1436
+ht-degree: 24%
 
 ---
 
@@ -201,6 +201,12 @@ ht-degree: 25%
   推出日期： 2026年8月18日
 
 ### 管道 {#august-26-channels}
+
+
+* **即時活動執行中繼資料(executionMetadata)** - API觸發的即時活動行銷活動（交易和行銷）現在支援每個收件者的可選executionMetadata欄位。 這可讓您將自訂索引鍵/值資料（例如訂單ID、忠誠度層級或區域代碼）附加至執行。 [了解更多](../mobile-live/create-mobile-live.md#metadata)
+
+  推出日期： 2026年8月19日
+
 
 * **輸送量的效能附加元件 — 推播** — 在API觸發的行銷活動中提供新的高輸送量異動訊息模式。 此模式專為大規模即時交易型傳訊而設計，最高可支援每秒 5,000 筆交易，而且可用性更高。 此功能先前僅適用於電子郵件頻道，現在也可用於推播頻道，適用於已購買Adobe高輸送量異動訊息附加元件產品的組織。 請聯絡您的 Adobe 代表以取得更多資訊。 [了解更多](../campaigns/api-triggered-high-throughput.md)
 

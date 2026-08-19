@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
+source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 13%
@@ -65,11 +65,11 @@ ht-degree: 13%
 | AJO ExD決定事件資料集&#x200B;*（先前稱為： ODE DecisionEvents - prod decisioning）* | 需要決策附加元件 | 13 個月 | 不適用 |
 | AJO Live活動意見反應事件資料集 | 已包含 | 13 個月 | 不適用 |
 | AJO STO摘要資料集 | 已包含 | 13 個月 | 不適用 |
-| AJO同意服務資料集 | 已包含 | 13 個月 | 90 天 |
-| AJO互動式訊息設定檔資料集 | 已包含 | 13 個月 | 90 天 |
-| AJO推播設定檔資料集 | 已包含 | 13 個月 | 90 天 |
-| AJO設定檔計數器擴充功能 | 已包含 | 13 個月 | 90 天 |
-| 傳入歷程 | 已包含 | 13 個月 | 90 天 |
+| AJO同意服務資料集 | 已包含 | 不適用 | 不適用 |
+| AJO互動式訊息設定檔資料集 | 已包含 | 不適用 | 不適用 |
+| AJO推播設定檔資料集 | 已包含 | 不適用 | 不適用 |
+| AJO設定檔計數器擴充功能 | 已包含 | 不適用 | 不適用 |
+| 傳入歷程 | 已包含 | 不適用 | 不適用 |
 | AJO分類資料集 | 已包含 | 不適用 | 不適用 |
 | AJO管道追蹤事件資料集 | 已包含 | 13 個月 | 90 天 |
 | Adobe忠誠度挑戰狀態變更事件資料集 | 需要Journey Optimizer忠誠度授權 | 13 個月 | 不適用 |

@@ -31,9 +31,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
+source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
-source-wordcount: 1901
+source-wordcount: 1958
 ht-degree: 16%
 
 ---
@@ -305,6 +305,10 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
    ![電子郵件最佳化詳細資料](assets/email-optimize-size-view-proof.png)
 
    使用此資訊來驗證最佳化的輸出，並確認電子郵件在發佈之前保持在建議的100 KB臨界值內。
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL 檢視校樣]**&#x200B;快顯視窗中顯示的大小反映了HTML範本的大小，其中Handlebars運算式會以其最小可能值評估，而不是最終傳送之電子郵件的大小。 在傳遞時，動態運算式（例如`{{#each}}`回圈）會針對收件者的設定檔資料進行解析，這可能會大幅增加實際電子郵件大小。
 
 <!--
 ## Define your email content {#email-content}

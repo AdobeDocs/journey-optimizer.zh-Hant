@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 10068
-ht-degree: 81%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 81%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年8月 {#august-2026}
+
+* **護欄和限制**&#x200B;頁面已更新，以釐清「對象資格」活動和「事件」護欄：措辭現在一致地參考「對象資格」活動&#x200B;**活動** （而非節點），包括當做為退出條件使用時，且兩個護欄現在都明確涵蓋&#x200B;**即時、已關閉、已暫停、測試模式和試運行**&#x200B;歷程。 [閱讀更多](../start/guardrails.md#audience-qualif-g)
+
+* 已在&#x200B;**測試HTML大小最佳化**&#x200B;區段中新增附註，以釐清校樣大小是反映HTML範本大小（Handlebars具有最小值），而非最終傳送的電子郵件大小，在傳送時解析動態運算式後，最終傳送的電子郵件大小可能會更大。 [閱讀更多](../email/create-email.md#optimize-html-proof)
 
 * 新的&#x200B;**行動網站瀏覽器限制**&#x200B;區段已新增至&#x200B;**開始使用電子郵件設計**&#x200B;頁面，說明透過行動瀏覽器存取時，電子郵件在Gmail或Outlook中呈現不同的原因，並提供因應措施。 [閱讀更多](../email/get-started-email-design.md#mobile-web-limitations)
 
