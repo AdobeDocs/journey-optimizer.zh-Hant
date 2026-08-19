@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1497
 ht-degree: 4%
 
 ---
@@ -51,6 +49,8 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    純文字內文，內含選用的互動式按鈕。 最適合用於不需要視覺效果的通知、警示、提醒和對話流程。
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ 媒體
@@ -59,7 +59,10 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    1. 在[頁首]功能表中，輸入指向要顯示的影像或視訊的&#x200B;**[!UICONTROL 媒體URL]**。
 
+      ![](assets/rcs_media.png)
+
    1. 如果媒體是視訊檔案，您可以選擇輸入&#x200B;**[!UICONTROL 縮圖URL]**。
+
 
    +++
 
@@ -69,7 +72,10 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    1. 輸入&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
+
    1. 輸入指向要顯示的影像或視訊的&#x200B;**[!UICONTROL 媒體URL]**。
+
+      ![](assets/rcs_card.png)
 
    1. 如果媒體是視訊檔案，您可以選擇輸入&#x200B;**[!UICONTROL 縮圖URL]**。
 
@@ -80,11 +86,18 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
    在單一訊息中可水準捲動的一系列豐富卡片，每個卡片都有自己的影像、標題、說明和按鈕。 最適合產品目錄或促銷活動。 至少需要2張卡片。
 
    1. 選取&#x200B;**[!UICONTROL 卡片寬度]**&#x200B;來控制每個卡片的顯示寬度。
+
+      ![](assets/rcs_caroussel.png)
+
    1. 請為每張卡片輸入&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**。
 
    1. 輸入指向該卡片影像或視訊的&#x200B;**[!UICONTROL 媒體URL]**。
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. 選擇性地選取&#x200B;**[!UICONTROL 媒體高度]**&#x200B;並新增建議的動作按鈕。
+
+   1. 按一下&#x200B;**[!UICONTROL 新增卡片]**，將卡片新增至您的輪播。
 
    +++
 
