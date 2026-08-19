@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
 workflow-type: tm+mt
-source-wordcount: 1497
+source-wordcount: 1499
 ht-degree: 4%
 
 ---
@@ -109,13 +107,17 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    1. 輸入位置的小數&#x200B;**[!UICONTROL 緯度]**&#x200B;和&#x200B;**[!UICONTROL 經度]**。
 
+      ![](assets/rcs_location.png)
+
    1. 選擇性地輸入&#x200B;**[!UICONTROL 位置名稱]**，以便在地圖圖釘上顯示為標籤。
 
    +++
 
-1. 在&#x200B;**[!UICONTROL 訊息文字]**&#x200B;欄位中輸入您的訊息內容。 您可以使用個人化來量身打造每個設定檔的文字。 請注意，字元限制依訊息型別而異：多媒體（單一）為3,072字元，基本RCS為160字元。
+1. 在&#x200B;**[!UICONTROL 訊息文字]**&#x200B;或&#x200B;**[!UICONTROL 描述]**&#x200B;欄位中，輸入您的訊息內容。 您可以使用個人化來量身打造每個設定檔的文字。 請注意，字元限制依訊息型別而異：多媒體（單一）為3,072字元，基本RCS為160字元。
 
 1. 使用&#x200B;**[!UICONTROL Personalization編輯器]**&#x200B;來定義內容、新增個人化及動態內容。 您可以使用任何屬性，例如設定檔名稱或城市。 您也可以定義條件式規則。
+
+   ![](assets/rcs_perso.png)
 
 1. 您可以選擇性地新增&#x200B;**[!UICONTROL 建議的動作]**、互動式按鈕，讓設定檔只要點一下即可執行動作。
 
@@ -131,9 +133,13 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
    * **[!UICONTROL 檢視位置]**：在指定的位置開啟裝置的預設地圖應用程式。 提供要顯示位置的小數&#x200B;**[!UICONTROL 緯度]**&#x200B;和&#x200B;**[!UICONTROL 經度]**。
 
+     ![](assets/rcs_actions.png)
+
 1. 在&#x200B;**[!UICONTROL 預設後援文字]**&#x200B;欄位中，輸入您訊息的純文字SMS版本。 此為必要項，且會傳送至裝置或電信業者不支援RCS的設定檔。
 
 1. 從&#x200B;**[!UICONTROL Webview]**&#x200B;下拉式清單中，選擇傳送&#x200B;**[!UICONTROL 開啟URL]**&#x200B;動作時&#x200B;**[!UICONTROL Webview]**&#x200B;的大小。
+
+   ![](assets/rcs_webview.png)
 
 1. 按一下「**[!UICONTROL 儲存]**」並在預覽中查看您的訊息。 您現在可以測試並檢查您的訊息內容，如[本節](send-mobile-message.md)所詳述。
 
