@@ -11,11 +11,10 @@ keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 1205
+source-wordcount: 1254
 ht-degree: 5%
 
 ---
@@ -76,7 +75,7 @@ ht-degree: 5%
    >
    >此階段的移轉前步驟為選用，但強烈建議使用。 在&#x200B;**開始移轉前**&#x200B;完成這些作業可縮短停機時間，並有助於確保順利轉換。
 
-   ![](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
+   子網域設定中的![移轉前CSR產生區段](assets/subdomain-migrate-pre-migration-csr.png){width="70%"}
 
 1. 在專用區段中選取&#x200B;**[!UICONTROL 立即移轉]**。
 
@@ -100,7 +99,7 @@ ht-degree: 5%
 
 1. 填寫顯示並重新產生憑證申請檔(CSR)的表單。
 
-   ![](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
+   ![重新產生憑證申請表單](assets/subdomain-migrate-regenerate-csr.png){width="60%"}
 
    >[!NOTE]
    >
@@ -126,7 +125,7 @@ ht-degree: 5%
 
 1. 請確定所有DNS記錄都已刪除。 完成後，勾選「我確認我已從代管網站刪除所需記錄」方塊。
 
-   ![](assets/subdomain-migrate-delete-dns.png){width="75%"}
+   ![刪除現有DNS記錄的確認核取方塊](assets/subdomain-migrate-delete-dns.png){width="75%"}
 
 ## 上傳SSL憑證 {#upload-ssl-certificate}
 
@@ -148,7 +147,7 @@ ht-degree: 5%
 
 1. 擷取SSL憑證後，請按一下&#x200B;**[!UICONTROL 上傳憑證]**。
 
-   ![](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
+   在SSL憑證區段![上傳憑證按鈕](assets/subdomain-migrate-ssl-certificate.png){width="75%"}
 
 1. 使用完整的憑證鏈將SSL憑證上傳至.pem格式的[!DNL Journey Optimizer]。 以下是.pem檔案格式的範例：
 
@@ -164,7 +163,7 @@ ht-degree: 5%
 
 然後，完成回饋回圈步驟以驗證網域所有權並報告電子郵件地址。
 
-![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
+![網域所有權驗證的回饋回圈步驟](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
 此程式與設定新的自訂子網域時的程式相同。 請依照[設定自訂子網域](delegate-custom-subdomain.md#feedback-loop-steps)頁面上詳述的步驟操作。
 
@@ -179,7 +178,7 @@ ht-degree: 5%
 
 1. 如果所有驗證都成功，則會顯示&#x200B;**[!UICONTROL 要建立的記錄]**&#x200B;區段。
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
+   ![要在主控平台中建立的DNS記錄清單](assets/subdomain-migrate-records-to-create.png){width="75%"}
 
 1. 在您的託管平台中建立所有必要的記錄。
 

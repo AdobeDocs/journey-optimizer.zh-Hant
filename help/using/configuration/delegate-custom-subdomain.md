@@ -11,24 +11,15 @@ keywords: 子網域、委派、網域、DNS
 badge: label="有限可用性" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 24%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +51,7 @@ ht-degree: 24%
 
 1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自訂委派]**。
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![在設定方法區段中選取的自訂委派選項](assets/subdomain-method-custom.png){width=90%}
 
 1. 指定要委派的子網域名稱。
 
@@ -83,7 +74,7 @@ ht-degree: 24%
 
 1. 如果所有專案都已正確設定，請勾選「我確認……」方塊。
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   在主控解決方案中產生DNS記錄後![確認核取方塊](assets/subdomain-custom-submit.png){width="75%"}
 
 ## 上傳 SSL 憑證 {#upload-ssl-certificate}
 
@@ -99,7 +90,7 @@ ht-degree: 24%
 
 1. 在&#x200B;**[!UICONTROL SSL憑證]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 產生CSR]**。
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   在SSL憑證區段![產生CSR按鈕](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +98,7 @@ ht-degree: 24%
 
 1. 填寫顯示和產生憑證申請檔(CSR)的表單。
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   ![表單以產生憑證簽署要求](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -117,9 +108,11 @@ ht-degree: 24%
 
 1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。
 
-   * 下載的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作為主體替代名稱(SAN) — 在提交到您的CA之前，不需要手動新增SAN。 例如，如果您正在委派`example.adobe.com`，CSR會同時涵蓋`data.example.adobe.com`和`cdn.example.adobe.com`。
+   >[!NOTE]
+   >
+   >下載的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作為主體替代名稱(SAN) — 在提交到您的CA之前，不需要手動新增SAN。 例如，如果您正在委派`example.adobe.com`，CSR會同時涵蓋`data.example.adobe.com`和`cdn.example.adobe.com`。
 
-   * 簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
+   簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
 
 1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證上傳到.pem格式的[!DNL Journey Optimizer]，並附上完整的憑證鏈結。 以下是.pem檔案格式的範例：
 
@@ -162,11 +155,11 @@ ht-degree: 24%
 
 1. 如果所有專案皆已正確設定，請勾選「我已完成……」方塊。
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   完成回饋回圈步驟後![確認核取方塊](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## 複製SSL CDN URL驗證記錄 {#copy-ssl-cdn-url-record}
 
-1. 按一下[繼續]&#x200B;**&#x200B;**，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
+1. 按一下[繼續]****，然後等到Adobe驗證記錄是否已在您的代管解決方案上產生且沒有錯誤。 此程式最多可能需要2分鐘。
 
    >[!NOTE]
    >
