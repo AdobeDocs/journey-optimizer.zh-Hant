@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ ht-degree: 10%
 * **已暫停**：已使用&#x200B;**暫停**&#x200B;按鈕暫停即時歷程。 [了解更多](../building-journeys/journey-pause.md)
 * **已停止**：歷程已使用&#x200B;**停止**&#x200B;按鈕關閉。 所有個人會立即退出歷程。 [了解更多](../building-journeys/end-journey.md#stop-journey)
 * **已關閉**：歷程已使用&#x200B;**關閉新入口**&#x200B;按鈕關閉。 歷程停止讓新個人進入歷程。 已在歷程中的人可以正常完成歷程。 [了解更多](../building-journeys/end-journey.md)
+
+任何已設定的[開始和結束日期](journey-properties.md#dates)會出現在歷程標題中、狀態徽章旁。 這讓您不需要開啟屬性面板，就能一目瞭然地檢視歷程排程。
 
 >[!NOTE]
 >
