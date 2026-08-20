@@ -11,12 +11,11 @@ keywords: 子網域、委派、移轉、CNAME、自訂委派
 badge: label="有限可用性" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 4%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -108,20 +107,13 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
-1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。 在將此CSR提交給CA進行簽署之前，請注意以下幾個重要事項：
+1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。
 
-   * 從步驟3下載的CSR僅適用於data.subdomain.com。
+   >[!NOTE]
+   >
+   >下載的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作為主體替代名稱(SAN) — 在提交到您的CA之前，不需要手動新增SAN。 例如，如果您正在委派`example.adobe.com`，CSR會同時涵蓋`data.example.adobe.com`和`cdn.example.adobe.com`。
 
-   * 不過，憑證應同時涵蓋data.subdomain.com和cdn.subdomain.com ，做為單一憑證中的主體替代名稱(SAN)專案。 例如，如果您委派example.adobe.com，則data.subdomain.com會對應至data.example.adobe.com，而cdn.subdomain.com會對應至cdn.example.adobe.com。
-
-   * 資料(data.example.adobe.com)和CDN (cdn.example.adobe.com)子網域都需要新增為相同憑證中的對等專案。 不應將其他子網域新增至此憑證。
-
-   * 大部分的CA都允許您在簽署過程中新增其他SAN （例如CDN子網域）
-
-     * 透過CA入口網站（建議使用，如果有的話），或
-     * 如果入口網站選項無法使用，請手動向他們的支援團隊請求。
-
-   * 簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
+   簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
 
 ## 刪除現有的DNS記錄 {#delete-dns}
 
