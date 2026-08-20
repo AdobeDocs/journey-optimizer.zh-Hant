@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f5e0c4ebcc6af1cef57c2c02a69f3f483887bff1
 workflow-type: tm+mt
-source-wordcount: 1436
-ht-degree: 24%
+source-wordcount: 2034
+ht-degree: 21%
 
 ---
 
@@ -93,6 +81,14 @@ ht-degree: 24%
 </tbody>
 </table>
 
++++ 即將推出 — **下列資訊可能會有變更。**
+
+* **內容變體大小警告** — 現在，當內容變體超過其建議的大小臨界值時，Journey Optimizer會顯示軟限制警告 — 範本和訊息為1200 KB、片段為700 KB、登陸頁面為1000 KB。 不會封鎖儲存和發佈。
+
+* 內容&#x200B;**片段計數限制** - Journey Optimizer現在會驗證一段內容中所使用的不重複片段數量：每個變體最多60個，而單一訊息的所有變體最多120個。 警告會出現在每個限制的75%；一旦達到硬性限制，就會封鎖發佈。
+
++++
+
 ### 歷程 {#aug-26-journeys}
 
 * **進階運算式編輯器中的新清單函式** — 進階運算式編輯器中有兩個新函式： `mergeLists`會結合兩個清單（無論是否重複資料刪除），且`differenceLists`會傳回一個清單中不存在另一個清單的專案。 [了解更多](../building-journeys/functions/list-functions.md)
@@ -102,6 +98,30 @@ ht-degree: 24%
 * **等待活動中的傳送時間最佳化** — 等待活動現在提供傳送時間最佳化，讓Adobe的AI決定繼續任何下游活動的最佳時間。 [了解更多](../building-journeys/wait-activity.md#sto-wait)
 
   推出日期： 2026年8月13日
+
++++ 即將推出 — **下列資訊可能會有變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程層級保留（可用性限制）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以直接從歷程屬性設定歷程的保留群組。 保留是目標受眾中可設定的百分比，會排除在進入歷程之外且不會收到任何通訊。 將保留設定檔與Customer Journey Analytics報告中的作用中設定檔進行比較，即可測量歷程帶來的增量提升度（實際影響）。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **在歷程運算式編輯器中加入新的dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，該函式會以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。
+
+* **歷程標題中的開始和結束日期** — 當在歷程上設定開始和/或結束日期時，它們現在會出現在狀態徽章旁邊的歷程標題中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。
+
++++
 
 ### 行銷活動 {#aug-26-campaigns}
 
@@ -128,6 +148,32 @@ ht-degree: 24%
 
 * **每個行銷活動生命週期警報訂閱** — 除了現有的沙箱層級訂閱之外，您現在可以訂閱單一行銷活動支援的行銷活動生命週期警報。 這可讓您監視個別高優先順序的行銷活動，而不會收到沙箱中每個行銷活動的相同警報。 [瞭解更多](../reports/alerts.md#subscribe-alerts)
 推出日期： 2026年8月13日
+
++++ 即將推出 — **下列資訊可能會有變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>Action Campaigns中的傳入體驗模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在上線前在「動作行銷活動」中模擬傳入頻道動作。 使用模擬模式透過模擬使用者測試您的設定並預覽呈現的體驗，包括產生的URL和QR碼，因此您可以端對端驗證規則、決策和內容呈現。</p>
+<p>此功能目前為私人測試版，僅供有限的組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Action Campaign編寫流程重新設計** - Adobe Journey Optimizer Action Campaign編寫流程已重新設計，以提供更直覺、更有效率且順暢的使用者體驗。
+
+* **動作行銷活動的資料夾** — 您現在可以將動作行銷活動整理到資料夾中，以改善介面中的導覽和管理。
+
+* **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
+
++++
 
 ### 協調的行銷活動 {#august-26-oc}
 
@@ -233,3 +279,24 @@ ht-degree: 24%
   推出日期： 2026年8月11日
 
   [了解更多](../email/message-tracking.md#decisioning-mirror-page)
+
++++ 即將推出 — **下列資訊可能會有變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>Web Channel中的決策支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning現在可用於Web管道。 您可以直接在網頁視覺化編輯器中使用決定原則，將最相關的選件傳送給每位訪客。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **決策中的版位層級頻率上限** — 決策中的頻率上限規則現在可以將範圍限定於個別版位，讓您更能掌控優惠方案在指定介面中的顯示頻率。 有兩種模式可供使用： **特定位置上限**，其定義上限僅套用在選取的位置中顯示優惠時，以及&#x200B;**每個位置上限**，其將上限獨立套用於優惠出現的每個位置，因此每個位置都會維護自己的上限計數器。 請注意，與位置相關的上限不適用於使用以Adobe Experience Platform資料為基礎的規則來設定上限的優惠方案。
+
++++
