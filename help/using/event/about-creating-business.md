@@ -10,27 +10,16 @@ level: Intermediate, Experienced
 keywords: 事件，歷程，業務，設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -55,7 +44,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 請注意，該結構描述不需要為設定檔啟用。
+>您也可以觀看業務事件使用案例[教學課程](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}。 請注意，該結構描述不需要為設定檔啟用。
 
 ## 重要備註 {#important-notes}
 
@@ -69,6 +58,7 @@ ht-degree: 14%
 * 測試業務事件時，您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 此外，在測試業務事件型歷程時，您只能觸發單一設定檔入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。 在測試模式中，沒有「程式碼檢視」模式可用。
 * 如果新的業務事件到來，目前處於歷程中的個人會發生什麼事？ 其行為與當新的週期發生時，個人仍在循環歷程中的情況相同。 其路徑已結束。 因此，行銷人員如果預期業務事件頻繁，必須注意避免建立太長的歷程。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
+* 業務事件的裝載限製為最多&#x200B;**64 KB的未壓縮、縮制的JSON**。 此限制也適用於單一事件。 超過此大小的事件會遭到捨棄，且不會觸發歷程。 [進一步瞭解護欄和限制](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 多個業務事件 {#multiple-business-events}
 
