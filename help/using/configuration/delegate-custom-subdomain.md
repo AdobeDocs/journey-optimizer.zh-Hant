@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 21%
 
 1. 從&#x200B;**[!UICONTROL 設定方法]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自訂委派]**。
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![在設定方法區段中選取的自訂委派選項](assets/subdomain-method-custom.png){width=90%}
 
 1. 指定要委派的子網域名稱。
 
@@ -83,7 +83,7 @@ ht-degree: 21%
 
 1. 如果所有專案都已正確設定，請勾選「我確認……」方塊。
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   在主控解決方案中產生DNS記錄後![確認核取方塊](assets/subdomain-custom-submit.png){width="75%"}
 
 ## 上傳 SSL 憑證 {#upload-ssl-certificate}
 
@@ -99,7 +99,7 @@ ht-degree: 21%
 
 1. 在&#x200B;**[!UICONTROL SSL憑證]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 產生CSR]**。
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   在SSL憑證區段![產生CSR按鈕](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ ht-degree: 21%
 
 1. 填寫顯示和產生憑證申請檔(CSR)的表單。
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   ![表單以產生憑證簽署要求](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -115,20 +115,13 @@ ht-degree: 21%
 
 1. 按一下&#x200B;**[!UICONTROL 下載CSR]**&#x200B;並將表單儲存到您的本機電腦。
 
-1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。 在將此CSR提交給CA進行簽署之前，請注意以下幾個重要事項：
+1. 將它傳送給憑證授權單位(CA)以取得您的SSL憑證。
 
-   * 從步驟3下載的CSR僅適用於data.subdomain.com。
+   >[!NOTE]
+   >
+   >下載的CSR已包含`data.subdomain.com`和`cdn.subdomain.com`作為主體替代名稱(SAN) — 在提交到您的CA之前，不需要手動新增SAN。 例如，如果您正在委派`example.adobe.com`，CSR會同時涵蓋`data.example.adobe.com`和`cdn.example.adobe.com`。
 
-   * 不過，憑證應同時涵蓋data.subdomain.com和cdn.subdomain.com ，做為單一憑證中的主體替代名稱(SAN)專案。 例如，如果您委派example.adobe.com，則data.subdomain.com會對應至data.example.adobe.com，而cdn.subdomain.com會對應至cdn.example.adobe.com。
-
-   * 資料(data.example.adobe.com)和CDN (cdn.example.adobe.com)子網域都需要新增為相同憑證中的對等專案。
-
-   * 大部分的CA都允許您在簽署過程中新增其他SAN （例如CDN子網域）
-
-     * 透過CA入口網站（建議使用，如果有的話），或
-     * 如果入口網站選項無法使用，請手動向他們的支援團隊請求。
-
-   * 簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
+   簽署後，CA將會核發單一憑證，涵蓋Data網域和CDN子網域。
 
 1. 擷取之後，按一下&#x200B;**[!UICONTROL 上傳SSL憑證]**&#x200B;並將憑證上傳到.pem格式的[!DNL Journey Optimizer]，並附上完整的憑證鏈結。 以下是.pem檔案格式的範例：
 
@@ -171,7 +164,7 @@ ht-degree: 21%
 
 1. 如果所有專案皆已正確設定，請勾選「我已完成……」方塊。
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   完成回饋回圈步驟後![確認核取方塊](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## 複製SSL CDN URL驗證記錄 {#copy-ssl-cdn-url-record}
 
