@@ -27,10 +27,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -69,6 +69,7 @@ ht-degree: 14%
 * 測試業務事件時，您必須傳遞事件引數，以及將進入測試中歷程之測試設定檔的識別碼。 此外，在測試業務事件型歷程時，您只能觸發單一設定檔入口。 請參閱[本節](../building-journeys/testing-the-journey.md#test-business)。 在測試模式中，沒有「程式碼檢視」模式可用。
 * 如果新的業務事件到來，目前處於歷程中的個人會發生什麼事？ 其行為與當新的週期發生時，個人仍在循環歷程中的情況相同。 其路徑已結束。 因此，行銷人員如果預期業務事件頻繁，必須注意避免建立太長的歷程。
 * 業務事件不能與單一事件或客群資格篩選活動結合使用。
+* 業務事件的裝載限製為最多&#x200B;**64 KB的未壓縮、縮制的JSON**。 此限制也適用於單一事件。 超過此大小的事件會遭到捨棄，且不會觸發歷程。 [進一步瞭解護欄和限制](../start/guardrails.md#journeys-guardrails-journeys)。
 
 ## 多個業務事件 {#multiple-business-events}
 
