@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
+source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -457,7 +457,7 @@ ht-degree: 93%
     + [建立即時動態](using/mobile-live/create-mobile-live.md)
     + [疑難排解即時動態](using/mobile-live/troubleshoot-mobile-live.md)
     + [常見問題集](using/mobile-live/mobile-live-faq.md)
-    + 設定即時動態管道 {#configure}
+    + 設定即時動態管道 {#configure-live-activity}
       + [在 Journey Optimizer 中設定即時活動](using/mobile-live/mobile-live-configuration.md)
       + [設定即時動態 SDK 整合](using/mobile-live/mobile-live-configuration-sdk.md)
   + 自訂通道 {#custom-channel}
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + AI助理中的{hide-from-toc}[Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)
@@ -834,7 +834,7 @@ ht-degree: 93%
       + [API 參考](/help/rp_landing_pages/api-reference-landing-page.md)
       + [快速入門](using/offers/api-reference/getting-started.md)
       + 使用 API，建立並管理優惠 {#offers-api}
-        + 刊登版位 {#placements}
+        + 刊登版位 {#dm-placements}
           + [清單位置](using/offers/api-reference/offers-api/placements/placements-list.md)
           + [查詢位置](using/offers/api-reference/offers-api/placements/lookup.md)
           + [建立位置](using/offers/api-reference/offers-api/placements/create.md)
