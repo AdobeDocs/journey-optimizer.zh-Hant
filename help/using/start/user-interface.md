@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 99%
+source-wordcount: 1509
+ht-degree: 97%
 
 ---
 
@@ -191,7 +191,7 @@ Journey Optimizer 介面包含四個主要區域：
 **連線** - 與其他系統整合
 
 * **來源** - 從外部系統擷取資料。 [設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)
+* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 您也可以從[Adobe Target目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant){target="_blank"}啟用對象至合格的個人化目的地，例如Experience Platform。
 
 **客戶** - 管理客群和輪廓
 

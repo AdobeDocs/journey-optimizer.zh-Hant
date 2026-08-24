@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
+source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
 workflow-type: tm+mt
-source-wordcount: 10165
+source-wordcount: 10200
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 80%
 * **資料集存留時間(TTL)護欄**&#x200B;頁面已更新，包含大幅擴充的&#x200B;**受影響的資料集**&#x200B;表格，現在已涵蓋所有Journey Optimizer系統產生的資料集（包括數個先前未列出的資料集，例如AJO同意服務、互動式訊息設定檔、推送設定檔及訊息匯出資料集），以及新的&#x200B;**可用性**&#x200B;欄，指出每個資料集是否已依預設納入，或需要特定附加元件或授權。 **護欄和限制**&#x200B;頁面也已更新，以反映此護欄的確認執行日期：此變更將從&#x200B;**2026年10月1日**&#x200B;開始在&#x200B;**現有客戶沙箱**&#x200B;上強制執行。 [閱讀更多](../data/datasets-ttl.md#datasets)
 
 * 新的&#x200B;**使用影像設定模式**&#x200B;區段已新增至產生式內容檔案。 它說明了&#x200B;**[!UICONTROL 影像設定]**&#x200B;下可用的&#x200B;**平衡**、**DAM**&#x200B;和&#x200B;**Creative**&#x200B;模式，這些模式可控制AI產生的內容來源影像是來自您的數位資產管理程式庫、以AI產生影像，還是兩者混合在一起。 [閱讀更多](../content-management/generative-uc.md#image-mode)
+
+* **左側導覽>主要區段**&#x200B;底下的&#x200B;**目的地**&#x200B;說明已更新，以備註具有[!DNL Real-Time CDP]或[!DNL Adobe Journey Optimizer]的組織也可以從Experience Platform目的地目錄啟用受眾至合格的個人化目的地，例如[!DNL Adobe Target]。 [閱讀更多](../start/user-interface.md#main-sections)
 
 ## 2026年7月 {#july-2026}
 
