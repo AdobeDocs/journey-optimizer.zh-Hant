@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +54,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 首先定義決定專案的標準和自訂屬性：
 
-![](assets/item-attributes.png)
+![顯示屬性欄位（包括名稱、說明、開始和結束日期、優先順序及標籤）的決定專案建立表單](assets/item-attributes.png)
 
 1. 提供名稱和說明。
 1. 指定開始和結束日期。 在此日期內，決策引擎僅會考慮該專案。
@@ -105,8 +102,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -124,9 +121,9 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 * 若要將決策專案的呈現限制在一或多個Adobe Experience Platform對象的成員中，請選取&#x200B;**[!UICONTROL 屬於一或多個對象的訪客]**&#x200B;選項，然後從左窗格新增一或多個對象，並使用&#x200B;**[!UICONTROL And]** / **[!UICONTROL Or]**&#x200B;邏輯運運算元將其合併。 [了解更多關於客群](../audience/about-audiences.md)
 
-* 若要將特定決定規則與決定專案建立關聯，請選取&#x200B;**[!UICONTROL 依規則]**，然後將需要的規則從左側窗格拖曳到中央區域。 [進一步了解決定規則](rules.md)
+  ![顯示對象選擇選項的決定專案適用性區段](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* 若要將特定決定規則與決定專案建立關聯，請選取&#x200B;**[!UICONTROL 依規則]**，然後將需要的規則從左側窗格拖曳到中央區域。 [進一步了解決定規則](rules.md)
 
 當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -141,9 +138,14 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >title="運算式"
 >abstract="您可以定義自己的運算式，而不是使用靜態值作為上限臨界值。 這使您可以使用決定屬性和/或 Adobe Experience Platform 資料集中的外部屬性，動態地計算臨界值。<br/><br/>上限規則&#x200B;**運算式**&#x200B;目前做為可用性受限的功能供所有使用者使用。 它們僅支援&#x200B;**[!UICONTROL 總計]**&#x200B;上限類型。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="限定範圍"
+>abstract="定義上限規則如何跨版位套用。 依預設，無論放置位置為何，都會套用單一頂端。 選取&#x200B;**每個版位**&#x200B;可個別追蹤每個版位的上限，或選取&#x200B;**特定版位**&#x200B;將上限限製為僅限選取的版位。 請注意，**特定位置**&#x200B;上限僅支援Web和電子郵件管道。"
+
 上限會用作限制，以定義優惠方案專案可顯示的最大次數。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。 您最多可以為特定決定專案建立10個上限。
 
-![](assets/item-capping.png)
+![決策專案顯示具有建立上限按鈕的上限規則面板](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +154,13 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 設定上限規則時，您可以參照儲存在Adobe Experience Platform資料集中的屬性來定義臨界值。 若要使用資料集，請在&#x200B;**[!UICONTROL 資料集]**&#x200B;區段中選取它。 [瞭解如何將Adobe Experience Platform資料用於決策](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![上限組態中的資料集選取欄位，可將Adobe Experience Platform屬性參照為臨界值](assets/exd-lookup-capping.png){width="80%"}
 
-若要設定決定專案的上限規則，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，然後遵循以下詳細步驟。
-
-![](assets/item-capping-create.png)
+若要設定決定專案的上限規則，請遵循以下詳細步驟。
 
 1. 定義將考慮哪個&#x200B;**[!UICONTROL 上限事件]**&#x200B;以增加計數器。
+
+   ![建立上限規則表單，顯示上限事件、範圍、型別、臨界值和重設頻率設定](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL 決定事件]** （預設值）：可顯示優惠的最大次數。
    * **[!UICONTROL 曝光次數]** （僅限傳入管道）：可向使用者顯示選件的次數上限。
@@ -171,7 +173,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
    對於推播通知，來自行動頻道的追蹤事件包含Experience Cloud ID (ECID)。 建議在Campaign或歷程設定中使用ECID來維持身分一致性，並確保上限按預期運作。
 
-   ![](assets/push-capping.png)
+   ![推播上限組態顯示自訂事件選項以及推播追蹤事件型別選擇](assets/push-capping.png)
 
    +++
 
@@ -182,6 +184,26 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
    * [設定資料彙集](data-collection/schema-requirement.md)
 
    +++
+
+1. 使用&#x200B;**[!UICONTROL 上限範圍]**&#x200B;區段來定義上限規則如何跨位置套用。 [進一步瞭解位置](placements.md#about)
+
+   ![範圍上限區段會顯示選件層級、每個位置和特定位置選項選項](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL 優惠方案層級]** （預設）：無論優惠方案的顯示位置為何，上限都會套用到每個優惠方案。 每個決定事件會將多個位置中顯示的相同選件計為一次。
+   * **[!UICONTROL 每個位置]**：上限適用於此優惠方案出現的每個位置。 每個版位都會維護自己的上限計數器，而且會在第一次看到新版位時自動加以追蹤。 例如，如果優惠方案出現在主圖橫幅和側邊欄中，則每個版位會獨立追蹤曝光數 — 在一個版位中設定優惠方案上限不會影響另一個版位。
+   * **[!UICONTROL 特定位置]**：上限僅適用於選取的位置中顯示選件的情況。
+
+     >[!CAUTION]
+     >
+     >**僅支援**&#x200B;網頁&#x200B;**和**&#x200B;電子郵件&#x200B;**管道的特定位置**&#x200B;上限。 它不適用於程式碼型體驗、SMS、推播或直接郵件通道。
+
+     按一下&#x200B;**[!UICONTROL 選取版位]**&#x200B;以挑選要封閉的版位。 其他刊登版位則不受限制地通過。 例如，如果您選取每日曝光次數上限為3次的主圖橫幅版位，則選件在出現3次曝光後即停止出現在主圖橫幅中，但其他所有版位皆符合資格。
+
+     ![已選取特定版位限定範圍，顯示[選取版位]按鈕和選取的版位標籤](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >刊登版位層級上限不適用根據Adobe Experience Platform資料使用規則限定之選件。
 
 1. 選擇上限型別：
 
@@ -211,7 +233,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
    若要使用運算式，請啟用&#x200B;**[!UICONTROL 運算式]**&#x200B;選項，然後視需要編輯運算式。
 
-   ![](assets/exd-lookup-capping-expression.png)
+   使用決定或資料集屬性定義動態上限臨界值的![運算式編輯器](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +245,11 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
    * 無論是在核准決定專案或建立上限時（取兩者最後發生者），將事件計入頻率上限限制之前，最多可能有15分鐘的緩衝時間。
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認建立上限規則。 您最多可以為單一決定專案建立10個規則。 若要這麼做，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，並重複上述步驟。
+1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以確認建立上限規則。
 
-   ![](assets/item-capping-rules.png)
+1. 您最多可以為單一決定專案建立10個規則。 若要這麼做，請按一下&#x200B;**[!UICONTROL 建立上限]**&#x200B;按鈕，並重複上述步驟。
+
+   ![決策專案顯示列出多個上限規則，並附有「建立上限」按鈕以新增更多規則](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +262,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. 決定專案現在會顯示在清單中，並具有&#x200B;**[!UICONTROL 草稿]**&#x200B;狀態。 當它準備好呈現給設定檔時，按一下省略符號按鈕並選取&#x200B;**[!UICONTROL 核准]**。
 
-   ![](assets/item-approve.png)
+   ![決策專案清單，其省略符號功能表已開啟，顯示[核准]選項](assets/item-approve.png)
 
 ## 管理決策項目 {#manage}
 
@@ -259,7 +283,6 @@ If a marketer wants to determine how many times a specific customer has been sho
 
   如果核准的優惠專案用於集合或決定，則無法刪除這些專案。 若要刪除它們，請將它們的狀態變更為「草稿」。 若要這麼做，請按一下省略符號按鈕，然後選取&#x200B;**[!UICONTROL 復原核准]**。
 
-  ![](assets/item-undo.png)
+  ![決策專案省略符號選單顯示復原核准選項](assets/item-undo.png)
 
 * **[!UICONTROL 封存]**：將決定專案狀態設為&#x200B;**[!UICONTROL 已封存]**。 決定專案仍然可以從清單中使用，但您不能將其狀態設定回&#x200B;**[!UICONTROL 草稿]**&#x200B;或&#x200B;**[!UICONTROL 已核准]**。 您只能複製或刪除它。
-
