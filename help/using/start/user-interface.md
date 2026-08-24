@@ -191,7 +191,7 @@ Journey Optimizer 介面包含四個主要區域：
 **連線** - 與其他系統整合
 
 * **來源** - 從外部系統擷取資料。 [設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 如果您的組織有Real-Time CDP或Adobe Journey Optimizer，您也可以從[Experience Platform目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}啟用對象至合格的個人化目的地，例如Adobe Target。
+* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 如果您的組織有Real-Time CDP或Adobe Journey Optimizer，您也可以從[Experience Platform目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant){target="_blank"}啟用對象至合格的個人化目的地，例如Adobe Target。
 
 **客戶** - 管理客群和輪廓
 
