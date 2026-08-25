@@ -9,26 +9,29 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 1%
+source-wordcount: 473
+ht-degree: 24%
 
 ---
 
 # 為API觸發的行銷活動建立意見回饋Webhook {#webhooks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="基本設定"
+>abstract="在此區段中，輸入說明性名稱以識別 Webhook 並選取此 Webhook 應接收意見回饋 (電子郵件和/或簡訊) 的頻道。 在 Webhook URL 欄位中，提供必須傳送意見回饋事件的 HTTPS 端點。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="回饋 Webhook"
+>abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。 每個組織 + 沙箱組合只允許一個 Webhook 設定。"
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +48,22 @@ ht-degree: 1%
 >[!NOTE]
 >每個&#x200B;**組織+沙箱**&#x200B;組合只允許一個webhook設定。
 
-## 建立意見回饋webhook
+## 建立意見回饋webhook {#feedback-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="驗證"
+>abstract="如果您的端點需要 JWT 驗證，請從清單中選取 **JWT 驗證**，並提供必要的詳細資料。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="標頭參數"
+>abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_relay_url"
+>title="轉送URL"
+>abstract="用於為此Webhook傳遞事件的HTTPS端點Journey Optimizer呼叫，包括傳遞狀態更新，以及在啟用時，按原樣轉送的傳入SMS/RCS訊息。"
 
 若要建立webhook，請執行下列步驟：
 
