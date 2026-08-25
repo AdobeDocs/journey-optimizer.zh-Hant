@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 4aa3c525afceb9e70100e9f76427f9f64ab2b113
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: 624
 ht-degree: 47%
 
 ---
@@ -85,12 +85,12 @@ Adobe Journey Optimizer 讓您能夠跨越多重管道，自動執行行銷活�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="結束活動"
->abstract="**結束**&#x200B;活動會在畫布上標記分支的結束。 您也可以使用&#x200B;**外部訊號**&#x200B;來開始下游協調行銷活動，並在分支完成時傳遞參數。 [了解更多](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="**結束**&#x200B;活動會在畫布上標記分支的結束。 您也可以使用&#x200B;**外部訊號**&#x200B;來開始下游協調行銷活動，並在分支完成時傳遞參數。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="外部訊號"
->abstract="選取此分支結束時要開始的下游協調行銷活動，並對應參數名稱和值以在訊號中傳送。 下游行銷活動必須設定為&#x200B;**由訊號觸發**，並在此行銷活動到達「結束」活動之前發佈。 [了解更多](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="選取此分支結束時要開始的下游協調行銷活動，並對應參數名稱和值以在訊號中傳送。 下游行銷活動必須設定為&#x200B;**由訊號觸發**，並在此行銷活動到達「結束」活動之前發佈。"
 
 下列活動是組織和執行「協調的行銷活動」專屬的活動。 他們的主要任務是協調其他活動。
 

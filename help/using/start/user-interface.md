@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 97%
+source-wordcount: 1429
+ht-degree: 96%
 
 ---
 
@@ -352,21 +352,6 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="回饋 Webhook"
 >abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。 每個組織 + 沙箱組合只允許一個 Webhook 設定。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_configuration"
->title="基本設定"
->abstract="在此區段中，輸入說明性名稱以識別 Webhook 並選取此 Webhook 應接收意見回饋 (電子郵件和/或簡訊) 的頻道。 在 Webhook URL 欄位中，提供必須傳送意見回饋事件的 HTTPS 端點。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_authentication"
->title="驗證"
->abstract="如果您的端點需要 JWT 驗證，請從清單中選取 **JWT 驗證**，並提供必要的詳細資料。"
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="標頭參數"
->abstract="在此區段中，您可以設定隨每個 Webhook 請求傳送的其他自訂標頭。"
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->

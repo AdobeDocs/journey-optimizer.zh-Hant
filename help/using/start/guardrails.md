@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 4732
-ht-degree: 89%
+source-wordcount: 4884
+ht-degree: 86%
 
 ---
 
@@ -413,9 +413,26 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 
 Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊息**&#x200B;的尖峰量。
 
+### 子網域護欄 {#subdomain-guardrails}
+
+[本頁](../configuration/delegate-subdomain.md#guardrails)詳細說明了套用至 Journey Optimizer 子網域委派的護欄和限制。
+
 ## 內容與資產 {#content-assets}
 
-本節涵蓋內容建立與管理的護欄，包括登陸頁面、子網域和片段。
+本節涵蓋內容建立與管理的護欄，包括登入頁面與片段。
+
+### 內容製作護欄 {#content-authoring}
+
+建議的內容型別大小限制如下：
+
+| 內容型別 | 建議的大小限制 |
+|---|---|
+| 範本 | 1200 KB |
+| 片段 | 700 KB |
+| 訊息 | 1200 KB |
+| 登陸頁面 | 1000 KB |
+
+當內容變體超過其建議的大小臨界值時，會顯示警告。 這適用於所有內容型別和管道，且不會阻礙儲存或發佈。
 
 ### 產生內容護欄 {#ai-assistant-g}
 
@@ -430,10 +447,6 @@ Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊�
 * 您無法將預覽文字新增至登陸頁面。
 * 在設計登陸主要頁面時，您無法選取&#x200B;**自行編碼**&#x200B;選項。
 
-### 子網域護欄 {#subdomain-guardrails}
-
-[本頁](../configuration/delegate-subdomain.md#guardrails)詳細說明了套用至 Journey Optimizer 子網域委派的護欄和限制。
-
 ### 片段護欄 {#fragments-guardrails}
 
 下列防護措施適用於[片段](../content-management/fragments.md)：
@@ -442,6 +455,11 @@ Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊�
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
 * 視覺化片段不能超過 **100 KB**。 運算式片段不能超過 **200 KB**。
+* **片段計數限制**：在編寫期間會驗證內容片段中所使用的不重複片段數目。 僅計算直接引用的片段（包括AEM片段） — 巢狀在其他片段中的片段不會單獨計算。
+
+  * **每個變體**：每個內容變體最多60個獨特片段。 當使用量達到45 （達到限制的75%）時會顯示警告；發佈在60時會遭到封鎖。
+  * **跨變體**：單一訊息的所有變體最多有120個不重複片段。 當使用量達到90 （達到限制的75%）時會顯示警告；發佈在120時會遭到封鎖。
+
 * 若要在歷程或行銷活動中使用片段，它現在必須處於&#x200B;**即時**&#x200B;狀態。
 * 片段中不支援[內容屬性](../personalization/personalization-build-expressions.md)。
 * 視覺片段在使用主題和手動樣式模式之間不相容。 為了能夠在您想要套用主題的內容中使用片段，此片段必須在使用主題模式中建立。 [進一步了解主題](../email/apply-email-themes.md)
