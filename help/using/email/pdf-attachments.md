@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
 source-wordcount: 916
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="新增PDF附件"
->abstract="瀏覽並選取要附加至電子郵件的 PDF 檔案。</br>您每年最多可以傳送6封含有PDF附件的郵件。 每個附件的允許檔案大小上限為5 MB。</br>對於任何其他大小或磁碟區，您可以購買PDF附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。"
+>title="新增 PDF 附件"
+>abstract="瀏覽並選取要附加至電子郵件的 PDF 檔案。</br>針對每個輪廓，您每年最多可以傳送 6 封含有 PDF 附件的訊息。 每個附件允許的檔案大小上限為 5 MB。</br>如需增加檔案大小或數量，您可以購買 PDF 附件附加元件。 如需詳細資訊，請聯絡您的 Adobe 代表。"
 
 您可以將靜態PDF檔案附加至您透過[!DNL Journey Optimizer]傳送的電子郵件訊息。 如果您使用[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)，您也可以為每個收件者附加[個人化PDF檔案](#personalized-attachments)。
 

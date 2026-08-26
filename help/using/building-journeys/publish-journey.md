@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +54,17 @@ ht-degree: 14%
 * **有效負載在限制內** — 歷程有效負載必須在設定的限制內（預設為4 MB）。 請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)。
 * **已取得核准** — 如果您的歷程受限於核准原則，請在發佈前要求並取得核准。 [了解更多](../test-approve/gs-approval.md)。
 
->[!TIP]
->
->發佈之前，請使用其中一個可用的測試選項來驗證您的歷程：
->
->* [模擬](simulate-journey-gs.md) — 使用模擬使用者進行測試，而不使用Adobe Experience Platform中的持續性測試設定檔。
->* [測試模式](testing-the-journey.md) — 使用在Adobe Experience Platform中標籤為測試設定檔的持續設定檔進行測試。
->* [試用](journey-dry-run.md) — 以真實的生產資料進行測試，無需連絡設定檔。
+### 發佈之前選擇正確的驗證方法 {#choose-validation-method}
+
+使用其中一個可用的測試選項來驗證您的歷程。 每個使用不同型別的資料，且適合您組建的不同階段：
+
+| 選項 | 使用的資料 | 最適合 | 是否傳送真正的訊息？ |
+| --- | --- | --- | --- |
+| [模擬](simulate-journey-gs.md) | 臨時模擬使用者，自動產生 | 歷程設計期間的快速反複專案 — 不需要建立或等待AEP測試設定檔傳播 | 否 |
+| [測試模式](testing-the-journey.md) | 持續性AEP測試設定檔 | 在草稿歷程中逐步手動驗證分支和訊息邏輯 | 是 — 使用與生產相同的傳送管道，傳送至測試設定檔的真實收件匣 |
+| [試用](journey-dry-run.md) | 實際生產對象資料 | 無需連絡任何人，即可進行實際對象觸及和大規模目標定位的最終啟動前檢查 | 否 |
+
+模擬和練習都不能提供真正的通訊或更新即時設定檔資料。 測試模式確實會傳送真正的訊息，但只傳送給您明確標籤為測試設定檔的設定檔。
 
 ## 發佈程式 {#journey-publication}
 
@@ -212,6 +216,7 @@ ht-degree: 14%
 * 正式名稱：發佈歷程 — 縮寫：無 — 變體：啟動歷程，上線
 * 同義字： &quot;Publish&quot; = &quot;activate&quot; = &quot;go live&quot;
 * 請勿混淆：停止（緊急停止所有設定檔） ≠關閉新入口（手動正常關閉；現有設定檔完成）≠已關閉狀態（發佈新版本時自動關閉，或手動關閉新入口）
+* 請勿混淆：模擬（臨時模擬使用者，不需要AEP測試設定檔）≠測試模式（永久AEP測試設定檔，僅限草稿歷程）≠練習（實際生產對象資料，無聯絡人，無設定檔更新，略過動作節點）
 
 **常見問題集：**
 * **問：歷程發佈後可以編輯嗎？**  — 只能變更標籤、說明和歷程名稱。 若要進行其他修改，請建立歷程的新版本。

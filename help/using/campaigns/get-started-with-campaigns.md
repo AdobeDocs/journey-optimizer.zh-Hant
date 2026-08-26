@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
 workflow-type: tm+mt
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="行銷活動"
->abstract="建立您的細分流程、精心製作跨管道訊息，並規劃您的行銷活動。 支援傳出頻道。"
+>abstract="建立您的細分流程、精心製作跨管道訊息，並規劃您的行銷活動。 支援傳出管道。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
