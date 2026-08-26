@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
+source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -570,7 +570,7 @@ ht-degree: 93%
   + 產生內容 {#generate-content}
     + [開始使用產生內容](using/content-management/gs-generative.md)
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
+    + [AI助理中的Content Credentials](using/content-management/generative-c2pa-metadata.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)

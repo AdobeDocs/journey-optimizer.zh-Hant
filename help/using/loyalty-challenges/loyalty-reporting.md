@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 使用忠誠度挑戰報告來檢視您的挑戰表現如何。 檢視哪些人正在報名、哪些人正在完成挑戰，以及您的計畫產生了多少收入 — 全都集中在一處。 資料來自Adobe Customer Journey Analytics。
 
 若要開啟報告控制面板，請前往Journey Optimizer中的&#x200B;**[!UICONTROL 忠誠度挑戰]**，並在左側導覽中選取&#x200B;**[!UICONTROL 效能]**。
+
+➡️ [觀看如何使用挑戰報告測量挑戰效能](#video)
 
 報告介面有兩個標籤：
 
@@ -90,3 +92,8 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 | **成員生命週期** | 成員在註冊、參與和流失階段中的進度 |
 | **趨勢** | 以時間為基礎的模式，例如，每週週期、季節性尖峰或趨勢逆轉 |
 
+## 作法影片 {#video}
+
+➡️觀看如何使用挑戰報告測量挑戰效能
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497568?captions=chi_hant&quality=12)

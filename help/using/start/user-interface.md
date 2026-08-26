@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 96%
+source-wordcount: 1608
+ht-degree: 86%
 
 ---
 
@@ -371,3 +371,24 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="驗證內文"
+>abstract="請求內文Journey Optimizer會在請求Token時傳送至驗證端點。 一律輸入有效的JSON，即使Auth內容型別設定為`application/x-www-form-urlencoded`亦然。 Journey Optimizer會在呼叫權杖端點之前，先將其序列化為正確的格式伺服器端。 範例: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="標頭參數"
+>abstract="每個轉送請求都包含靜態HTTP標頭，例如傳送到目的地端點的API金鑰，例如x-api-key。 這些會與上述設定的任何驗證Token一併傳送。 每列新增一個標頭，作為名稱/值組。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="驗證型別"
+>abstract="Journey Optimizer如何透過轉送目的地進行驗證。 選擇&#x200B;**無驗證**&#x200B;以轉送沒有認證的訊息，或選擇&#x200B;**自訂驗證**&#x200B;以先從驗證端點（例如OAuth使用者端認證流程）要求權杖，並將其附加至每個轉送要求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="轉送目的地URL"
+>abstract="用於轉送每個傳入訊息的HTTPS端點Journey Optimizer呼叫。 Journey Optimizer會針對收到的每則訊息傳送個別HTTP POST至此處。 這與「自訂驗證」下的「驗證URL」不同，後者僅用於取得存取Token，而非接收訊息。"
