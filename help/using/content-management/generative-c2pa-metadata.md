@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 hide: true
-source-git-commit: b5482c8671b8380f852c18fb4394cd927cbb1a74
+source-git-commit: 22a514528dd9746bbf45da59a20d6fe17feb6e40
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -55,3 +55,4 @@ C2PA中繼資料會隨影像檔案移動。 從Adobe Journey Optimizer下載或�
 
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [護欄與限制](gs-generative.md#generative-guardrails)
+* [Generative AI內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)

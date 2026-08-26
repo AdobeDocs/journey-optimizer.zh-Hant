@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
-source-wordcount: 986
-ht-degree: 98%
+source-wordcount: 989
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="協調的行銷活動概觀"
->abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>利用多實體資料</b><br/>了解協調式行銷活動如何利用關聯式資料集來擴充資料，以執行 Segmentation &amp; personalization<br/><br/><b>臨時分段和精準計數</b><br/>利用精準計數逐步建置您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件"
+>abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集來豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件、LINE、自訂管道"
 
 [!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動 — **行銷**&#x200B;和&#x200B;**異動**。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
 

@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
+source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 13%
+source-wordcount: 2032
+ht-degree: 12%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 13%
 * **沒有驗證錯誤** — 您無法發佈包含錯誤的歷程。 [請先測試您的歷程](testing-the-journey.md)，然後[疑難排解任何活動錯誤](../building-journeys/troubleshooting.md#activity-errors)。
 * **發佈許可權** — 發佈需要&#x200B;**[!DNL Publish journeys]**&#x200B;高階許可權。 深入瞭解[管理存取許可權](../administration/permissions-overview.md)。
 * **有效負載在限制內** — 歷程有效負載必須在設定的限制內（預設為4 MB）。 請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)。
-* **已取得核准** — 如果您的歷程受限於核准原則，請在發佈前要求並取得核准。 [了解更多](../test-approve/gs-approval.md)。
+* **核准原則法規遵循** — 如果您的歷程受限於核准原則，發佈會將它提交以供核准，而不是立即發佈。 核准者簽核後，歷程會自動發佈 — 沒有單獨的發佈步驟可供日後執行。 [了解更多](../test-approve/gs-approval.md)。
 
 ### 發佈之前選擇正確的驗證方法 {#choose-validation-method}
 
@@ -60,11 +60,11 @@ ht-degree: 13%
 
 | 選項 | 使用的資料 | 最適合 | 是否傳送真正的訊息？ |
 | --- | --- | --- | --- |
-| [模擬](simulate-journey-gs.md) | 臨時模擬使用者，自動產生 | 歷程設計期間的快速反複專案 — 不需要建立或等待AEP測試設定檔傳播 | 否 |
+| [模擬](simulate-journey-gs.md) | 臨時模擬使用者，手動建立或自動產生 | 歷程設計期間的快速反複專案 — 不需要建立或等待AEP測試設定檔傳播 | 是 — 至在模擬使用者層級定義的執行地址 |
 | [測試模式](testing-the-journey.md) | 持續性AEP測試設定檔 | 在草稿歷程中逐步手動驗證分支和訊息邏輯 | 是 — 使用與生產相同的傳送管道，傳送至測試設定檔的真實收件匣 |
 | [試用](journey-dry-run.md) | 實際生產對象資料 | 無需連絡任何人，即可進行實際對象觸及和大規模目標定位的最終啟動前檢查 | 否 |
 
-模擬和練習都不能提供真正的通訊或更新即時設定檔資料。 測試模式確實會傳送真正的訊息，但只傳送給您明確標籤為測試設定檔的設定檔。
+練習決不會提供真正的通訊或更新即時設定檔資料。 模擬和測試模式確實會傳送真實訊息 — 模擬至在模擬使用者上定義的執行地址，而測試模式則傳送至您已明確標示為測試設定檔的真實設定檔收件匣。
 
 ## 發佈程式 {#journey-publication}
 
@@ -76,7 +76,7 @@ ht-degree: 13%
 
    >[!NOTE]
    >
-   > 如果您的歷程受核准政策的約束，您必須請求核准才能發佈您的歷程。 [了解更多](../test-approve/gs-approval.md)
+   > 如果您的歷程受限於核准原則，按一下&#x200B;**[!UICONTROL 發佈]**&#x200B;會提交歷程以供核准，而非立即發佈。 核准者簽署後，歷程就會自動發佈 — 您不需要再次發佈。 [了解更多](../test-approve/gs-approval.md)
 
    歷程工具列中的![發佈按鈕以啟動歷程](assets/journeyuc1_18.png)
 
