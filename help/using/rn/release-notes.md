@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
 workflow-type: tm+mt
-source-wordcount: 2118
+source-wordcount: 2183
 ht-degree: 20%
 
 ---
@@ -104,7 +92,7 @@ ht-degree: 20%
 ### 歷程 {#aug-26-journeys}
 
 
-* **歷程標題中的開始和結束日期** — 當在歷程上設定開始和/或結束日期時，它們現在會出現在狀態徽章旁邊的歷程標題中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀更多](../building-journeys/journey-properties.md#dates)
+* **歷程標題中的開始和結束日期** — 當在歷程上設定開始和/或結束日期時，它們現在會出現在狀態徽章旁邊的歷程標題中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀全文](../building-journeys/journey-properties.md#dates)
 
 
 推出日期： 2026年8月20日
@@ -118,6 +106,23 @@ ht-degree: 20%
   推出日期： 2026年8月13日
 
 +++ 即將推出 — **下列資訊可能會有變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>在歷程中使用AI產生運算式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>推出日期： 2026年8月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -239,7 +244,7 @@ ht-degree: 20%
 <tr>
 <td>
 <p>您現在可以新增LINE動作至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容，包括文字、貼圖、影像、影片、位置資料和豐富的Flex訊息，以便在LINE平台上順暢地吸引您的客戶。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年8月12日</p>
 </td>
 </tr>
