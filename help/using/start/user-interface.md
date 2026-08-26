@@ -9,32 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 96%
+source-wordcount: 1608
+ht-degree: 86%
 
 ---
 
@@ -191,7 +175,7 @@ Journey Optimizer 介面包含四個主要區域：
 **連線** - 與其他系統整合
 
 * **來源** - 從外部系統擷取資料。 [設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 您也可以從[Adobe Target目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant){target="_blank"}啟用對象至合格的個人化目的地，例如Experience Platform。
+* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 您也可以從[Adobe Target目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}啟用對象至合格的個人化目的地，例如Experience Platform。
 
 **客戶** - 管理客群和輪廓
 
@@ -371,3 +355,24 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 
 <!-- Asset selector content generation -->
 
+<!--SMS webhooks inbound relay -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_body"
+>title="驗證內文"
+>abstract="請求內文Journey Optimizer會在請求Token時傳送至驗證端點。 一律輸入有效的JSON，即使Auth內容型別設定為`application/x-www-form-urlencoded`亦然。 Journey Optimizer會在呼叫權杖端點之前，先將其序列化為正確的格式伺服器端。 範例: `{"grant_type":"client_credentials","client_id":"...","client_secret":"...","scope":"..."}`"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_header_parameters"
+>title="標頭參數"
+>abstract="每個轉送請求都包含靜態HTTP標頭，例如傳送到目的地端點的API金鑰，例如x-api-key。 這些會與上述設定的任何驗證Token一併傳送。 每列新增一個標頭，作為名稱/值組。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_auth_type"
+>title="驗證型別"
+>abstract="Journey Optimizer如何透過轉送目的地進行驗證。 選擇&#x200B;**無驗證**&#x200B;以轉送沒有認證的訊息，或選擇&#x200B;**自訂驗證**&#x200B;以先從驗證端點（例如OAuth使用者端認證流程）要求權杖，並將其附加至每個轉送要求。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_relay_url"
+>title="轉送目的地URL"
+>abstract="用於轉送每個傳入訊息的HTTPS端點Journey Optimizer呼叫。 Journey Optimizer會針對收到的每則訊息傳送個別HTTP POST至此處。 這與「自訂驗證」下的「驗證URL」不同，後者僅用於取得存取Token，而非接收訊息。"
