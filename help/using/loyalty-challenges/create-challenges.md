@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 12%
 
 ---
@@ -276,6 +276,8 @@ ht-degree: 12%
 
    您可以新增多個動作來代表不同表面的挑戰。
 
+➡️ [觀看如何建立挑戰內容卡](#video)
+
 設定內容後，設定傳送訊息，以在整個挑戰生命週期中吸引客戶。
 
 ### 設定傳送訊息 {#configure-messaging}
@@ -308,6 +310,8 @@ ht-degree: 12%
 | **[!UICONTROL 程式碼型體驗]** | 使用AJO的程式碼型通道，透過自訂實作傳遞內容。 [關於程式碼型體驗](../code-based/get-started-code-based.md) · [建立程式碼型體驗](../code-based/create-code-based.md) |
 | **[!UICONTROL 自訂動作]** | 觸發外部系統或自訂端點。 [關於自訂動作](../action/about-custom-action-configuration.md) |
 
+➡️ [觀看如何設定挑戰專案的生命週期訊息](#video)
+
 您的挑戰現在已完整設定其設定、結構、內容和訊息。 若要啟動它，您必須發佈挑戰及其相關歷程。
 
 ## 發起挑戰 {#launch}
@@ -317,6 +321,8 @@ ht-degree: 12%
 * **[!UICONTROL 發佈挑戰]** （可在&#x200B;**[!UICONTROL ...]**&#x200B;功能表中取得） — 使用此選項發佈挑戰，而不產生歷程。 這可讓您在傳送前測試、預覽和模擬挑戰體驗。 在您產生並發佈歷程之前，客戶不會收到挑戰。
 
 * **[!UICONTROL 產生歷程]** — 使用此選項可自動發佈挑戰，並建立將協調您的挑戰傳送給客戶的歷程。
+
+➡️ [觀看如何發佈挑戰並產生歷程](#video)
 
 ### 發佈挑戰 {#publish-challenge}
 
@@ -362,9 +368,21 @@ ht-degree: 12%
 
 **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
 
->[!VIDEO](https://video.tv.adobe.com/v/3496480?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **設定獎勵** — 設定獎勵傳遞與履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496490?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+
+➡️觀看如何建立挑戰內容卡
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+
+➡️觀看如何針對挑戰設定生命週期訊息
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+
+➡️觀看如何發佈挑戰並產生歷程
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
