@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 ### 模擬歷程 {#simulate-journey}
 
-[!DNL Journey Optimizer]的&#x200B;**模擬**&#x200B;模式可讓您使用模擬的使用者（類似暫時的設定檔實體，不會在Adobe Experience Platform中持續存在）來端對端驗證您的歷程，而不需要預先建立的測試設定檔。
+[!DNL Journey Optimizer]的&#x200B;**模擬**&#x200B;模式可讓您使用模擬的使用者（類似暫時設定檔的實體）來端對端驗證歷程，而不需要預先建立的測試設定檔。
 
 對於自訂管道，模擬會解析個人化運算式，並呈現每個模擬使用者的裝載預覽，因此您可以在上線前驗證內容是否正確。
 
@@ -117,10 +117,6 @@ ht-degree: 2%
 1. 設定任何必要的進入事件，然後透過歷程觸發模擬使用者。
 
 1. 當模擬使用者到達自訂管道動作節點時，請在預覽面板中檢查已解析的裝載，以確認個人化權杖和裝載結構正確無誤。
-
->[!NOTE]
->
->模擬可用於草稿和即時歷程，並使用不會計入設定檔配額或實際端點呼叫的臨時模擬使用者。
 
 在[本節](../building-journeys/simulate-journey-gs.md)中進一步瞭解歷程模擬。
 

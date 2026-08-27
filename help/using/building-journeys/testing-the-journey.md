@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 3541
+source-wordcount: 3556
 ht-degree: 5%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 5%
 **在此頁面上：**&#x200B;瞭解如何透過使用模擬使用者或測試模式與測試設定檔的模擬來及早攔截錯誤，以在發佈之前驗證您的歷程。
 
 >[!ENDSHADEBOX]
+
+您不確定測試模式是不是適合您使用的方法？ [比較所有三個驗證選項](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"

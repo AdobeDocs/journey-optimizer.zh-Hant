@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
-ht-degree: 80%
+source-wordcount: 10287
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 80%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年8月 {#august-2026}
+
+* 新的&#x200B;**選擇驗證方法**&#x200B;頁面現已可用。 它會比較歷程模擬、測試模式和歷程練習，每個都會使用資料、是否傳送真正的訊息、要避免的常見錯誤，以及在建立歷程的每個階段選擇正確方法的決策指南。 [閱讀更多](../building-journeys/choose-validation-method.md)
 
 * **護欄和限制**&#x200B;頁面已更新，以釐清「對象資格」活動和「事件」護欄：措辭現在一致地參考「對象資格」活動&#x200B;**活動** （而非節點），包括當做為退出條件使用時，且兩個護欄現在都明確涵蓋&#x200B;**即時、已關閉、已暫停、測試模式和試運行**&#x200B;歷程。 [閱讀更多](../start/guardrails.md#audience-qualif-g)
 
