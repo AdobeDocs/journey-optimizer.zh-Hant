@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
 workflow-type: tm+mt
-source-wordcount: 4884
-ht-degree: 86%
+source-wordcount: 4929
+ht-degree: 85%
 
 ---
 
@@ -196,7 +187,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * 如果出現錯誤，將系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。 除 HTTP 401、403 和 404 外，會對所有 HTTP 錯誤執行重試。
 * 內建的&#x200B;**反應**&#x200B;事件可讓您對開箱即用的動作做出反應。 請在[此頁面](../building-journeys/reaction-events.md)了解更多。 如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。
 * 您無法同時進行兩個動作，必須逐一新增。
-* 對於作用中的[&#128279;](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
+* 對於作用中的](../building-journeys/publish-journey.md#journey-create-new-version)歷程版本[中，設定檔無法在同一歷程中同時出現多次。 如果啟用重新進入，輪廓可以重新進入歷程，但必須完全退出歷程的上一個執行個體，才能執行此動作。 [閱讀全文](../building-journeys/end-journey.md)
 
 ### 自訂動作 {#custom-actions-g}
 
@@ -291,7 +282,7 @@ Adobe [!DNL Journey Optimizer] 介面的設計可在最新版 Google Chrome 中�
 * **讀取客群**&#x200B;活動只能作為歷程中的第一個活動，或商業事件活動後的第一個活動。
 * 歷程只能有一個&#x200B;**讀取客群**&#x200B;活動。
 * **讀取客群**&#x200B;活動在每個歷程中只能鎖定一個客群。 如果需要多個客群，請先將他們合併為單一客群。 [瞭解如何使用構成工作流程合併客群](../audience/get-started-audience-orchestration.md)。
-* 每個組織在所有沙箱和歷程中最多可同時執行&#x200B;**五個**&#x200B;**讀取客群**&#x200B;執行個體 (已排程或已觸發業務事件)。 避免同時開始超過五個具有&#x200B;**讀取客群**&#x200B;的歷程；讓它們相隔 5 到 10 分鐘。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
+* 每個組織在所有沙箱和歷程中最多可同時執行&#x200B;**五個****讀取客群**&#x200B;執行個體 (已排程或已觸發業務事件)。 避免同時開始超過五個具有&#x200B;**讀取客群**&#x200B;的歷程；讓它們相隔 5 到 10 分鐘。 在[本節](../building-journeys/entry-management.md#journey-processing-rate)中深入了解歷程處理速率。
 * 沙箱輸送量：系統管理每個沙箱的處理，在所有&#x200B;**讀取客群**&#x200B;活動中&#x200B;**每秒最多共用 20,000 個輪廓**。 個別活動可設定為&#x200B;**每秒 500 至 20,000 個輪廓**。 如果達到沙箱限制，工作可能會排入佇列。
 * 工作處理逾時：無法於 **12 小時**&#x200B;內處理的&#x200B;**讀取客群**&#x200B;工作會自動清除，且不會執行。
 * 擷取匯出工作時，預設會對客群觸發的歷程套用重試。 如果在匯出工作建立期間發生錯誤，將每隔 10 分鐘進行重試，最長為 **1 小時**。 之後，該歷程會被視為失敗，因此最多可在排程時間後的 1小 時內執行。
@@ -454,7 +445,12 @@ Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊�
 * 若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;權限。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
-* 視覺化片段不能超過 **100 KB**。 運算式片段不能超過 **200 KB**。
+* 片段不能超過&#x200B;**700 KB**。 這是用於儲存和處理片段大小的系統護欄。 若要維持在此臨界值以下，請將大型內容分割為多個可重複使用的片段、減少大量標籤，並最佳化連結資產。
+
+  >[!NOTE]
+  >
+  >如果視覺片段超過&#x200B;**100 KB**&#x200B;或運算式片段超過&#x200B;**200 KB**，這可能會導致電子郵件傳遞出現截斷問題。
+
 * **片段計數限制**：在編寫期間會驗證內容片段中所使用的不重複片段數目。 僅計算直接引用的片段（包括AEM片段） — 巢狀在其他片段中的片段不會單獨計算。
 
   * **每個變體**：每個內容變體最多60個獨特片段。 當使用量達到45 （達到限制的75%）時會顯示警告；發佈在60時會遭到封鎖。
