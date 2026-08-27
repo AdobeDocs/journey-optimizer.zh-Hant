@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: 測試、驗證、核准、品質保證、QA、測試輪廓、個人化、轉譯、垃圾郵件檢查、內容實驗、a/b 測試、衝突偵測、種子清單、校樣、範例資料、核准工作流程、電子郵件測試、驗證工作流程
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 100%
+source-wordcount: '2600'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -46,17 +46,17 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
-使用特定輪廓進行測試以在發佈前驗證您的歷程，以確保事件、條件和動作如預期般運作。 適用於使用命名空間的草稿歷程。
+使用特定輪廓進行測試以在發佈前驗證您的歷程，以確保事件、條件和動作如預期般運作。 適用於使用命名空間的草稿歷程。 對於沒有測試設定檔的快速反複專案，請改用[歷程模擬](../using/building-journeys/simulate-journey-gs.md)。
 
 [測試您的歷程](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 個人化遊樂場
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 內容實驗和 A/B 測試
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監視的種子清單
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -238,14 +238,18 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **對於所有歷程：**
 
-* 使用[測試模式](../using/building-journeys/testing-the-journey.md)來模擬輪廓進度 (僅草稿歷程，需要命名空間) 或[試運行](../using/building-journeys/journey-dry-run.md)來分析執行路徑而不傳送訊息
+* 使用[歷程模擬](../using/building-journeys/simulate-journey-gs.md)快速測試具有臨時模擬使用者的分支，不需要測試設定檔
+* 使用[測試模式](../using/building-journeys/testing-the-journey.md)，以實際AEP測試設定檔手動瀏覽分支和訊息邏輯（僅限草稿歷程，需要名稱空間）
+* 使用[練習](../using/building-journeys/journey-dry-run.md)在發佈前大規模檢查實際對象觸及範圍和分支邏輯，而不傳送訊息
 * 使用[預覽和校樣](../using/content-management/preview-test.md)測試個別訊息
 * 檢查與其他歷程和行銷活動的[衝突](../using/conflict-prioritization/conflicts.md)
 * 發佈前提交以進行[核准](../using/test-approve/gs-approval.md)
 
+不確定要使用哪三種歷程驗證方法？ 檢視[選擇如何測試及驗證您的歷程](../using/building-journeys/choose-validation-method.md)以進行完整比較。
+
 **對於複雜歷程：**
 
-* 使用測試模式並一起試運行，以徹底驗證分支邏輯和執行路徑
+* 在迭代分支邏輯時使用歷程模擬，然後測試模式並一起練習，以在發佈之前完整驗證分支邏輯和執行路徑
 * 系統地測試不同的輸入條件和輪廓屬性
 
 **注意：**&#x200B;衝突偵測和歷程上限僅適用於單一、客群資格和讀取客群歷程。
@@ -279,6 +283,8 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 1. **使用種子清單進行利害關係人監視** - 設定[種子清單](../using/configuration/seed-lists.md)以自動包含內部利害關係人，在執行階段這些利害關係人將收到所有傳遞的複本，以進行品質監視和合規性驗證 (僅限電子郵件管道)。
 
+1. **在建立測試設定檔之前反複使用歷程模擬** — 使用[歷程模擬](../using/building-journeys/simulate-journey-gs.md)快速驗證具有臨時模擬使用者的新分支或決定原則路徑，儲存[測試模式](../using/building-journeys/testing-the-journey.md)以用於您需要以真實的AEP測試設定檔手動瀏覽歷程的情況。
+
 1. **模擬歷程路徑** - 對於具有多個分支的複雜歷程，請使用[測試模式](../using/building-journeys/testing-the-journey.md)測試不同的進入條件和輪廓屬性，以驗證所有可能的路徑。 適用於使用命名空間的草稿歷程。
 
 1. **檢查傳遞能力指標** - 先檢閱[垃圾郵件分數](../using/content-management/spam-report.md)、驗證狀態和電子郵件健康情況量度，再進行大量傳送 (僅限電子郵件管道)。
@@ -295,7 +301,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 |-------|-------------|-------------|
 | **1. 內容驗證** | 個人化、設計、轉譯 | [使用測試輪廓預覽](../using/content-management/preview-test.md)、使用 CSV/JSON 測試[多個變化版本](../using/test-approve/simulate-sample-input.md)、驗證跨裝置的[轉譯](../using/content-management/rendering.md) |
 | **2. 技術檢查** | 傳遞能力、連結、衝突 | 執行[垃圾郵件分數檢查](../using/content-management/spam-report.md)、驗證連結、檢查是否與其他行銷活動[衝突](../using/conflict-prioritization/conflicts.md) |
-| **3. 歷程邏輯** (僅限歷程) | 進入條件、流程、分支 | 使用[測試模式](../using/building-journeys/testing-the-journey.md)來模擬進度，針對複雜路徑執行[試運行](../using/building-journeys/journey-dry-run.md) |
+| **3. 歷程邏輯** (僅限歷程) | 進入條件、流程、分支 | 使用[歷程模擬](../using/building-journeys/simulate-journey-gs.md)進行快速反複運算，[測試模式](../using/building-journeys/testing-the-journey.md)以實際測試設定檔逐步執行邏輯，以及[試用](../using/building-journeys/journey-dry-run.md)進行大規模的最終檢查 — 請參閱[如何選擇](../using/building-journeys/choose-validation-method.md) |
 | **4. 啟動前** | 設定、核准、監視 | 提交以進行[核准](../using/test-approve/gs-approval.md)、驗證排程和客群、啟用[警示](../using/reports/alerts.md) |
 
 **專業提示：**&#x200B;從[個人化遊樂場](../using/personalization/personalize.md#playground)開始，在建立內容之前先測試運算式，並一律在啟動之前檢查[衝突偵測](../using/conflict-prioritization/conflicts.md)，以防止過度傳訊。
@@ -360,7 +366,9 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 **[測試輪廓](../using/content-management/test-profiles.md)** - 用於預覽個人化內容的綜合客戶輪廓 (不是真正的客戶)。 在即時客戶輪廓服務中標記。 測試模式和內容預覽的必需項 [瞭解如何建立測試輪廓](../using/audience/creating-test-profiles.md)
 
-**[測試模式](../using/building-journeys/testing-the-journey.md)** - 透過歷程路徑傳送測試輪廓的歷程模擬功能。 限制：僅限草稿歷程，需要命名空間，僅限測試輪廓。 [參閱測試模式文件](../using/building-journeys/testing-the-journey.md)
+**[歷程模擬](../using/building-journeys/simulate-journey-gs.md)** — 以手動建立或自動產生的臨時模擬使用者執行歷程的驗證方法，而不是真正的AEP測試設定檔。 使用案例：在歷程設計期間快速反複專案。 [開始使用歷程模擬](../using/building-journeys/simulate-journey-gs.md)
+
+**[測試模式](../using/building-journeys/testing-the-journey.md)** — 透過歷程路徑傳送真實AEP測試設定檔的歷程驗證功能。 限制：僅限草稿歷程，需要命名空間，僅限測試輪廓。 [參閱測試模式文件](../using/building-journeys/testing-the-journey.md)
 
 **[試運行](../using/building-journeys/journey-dry-run.md)** - 追蹤路徑而不傳送訊息或進行 API 呼叫的歷程執行分析工具。 使用案例：驗證邏輯而不佔用資源。 [瞭解試運行](../using/building-journeys/journey-dry-run.md)
 
@@ -428,13 +436,13 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * 測試 + 內容實驗 - 績效最佳化
 * 測試 + 報告 - 持續改善週期
 * 測試輪廓 + 個人化 - 內容驗證
-* 試運行 + 測試模式 - 完整的歷程驗證
+* 歷程模擬+測試模式+練習 — 完整的歷程驗證
 
 ### 常見功能組合
 
 * 內容測試：測試輪廓 + 範例輸入資料 + 個人化遊樂場
 * 電子郵件驗證：轉譯測試 + 垃圾郵件分數 + 測試輪廓 + 校樣
-* 歷程驗證：測試模式 + 試運行 + 測試輪廓
+* 歷程驗證：歷程模擬+測試模式+試執行+測試設定檔
 * 啟動前檢查清單：所有技術測試 + 衝突偵測 + 核准工作流程
 
 >[!TAB 常見問題]
@@ -451,11 +459,12 @@ Use this decision tree to quickly identify the right testing tools for your spec
 **替代方案：**&#x200B;建立 3-5 個代表[測試輪廓](../using/audience/creating-test-profiles.md)，涵蓋主要區段
 **學習工具：**&#x200B;在[個人化遊樂場](../using/personalization/personalize.md#playground)中先進行實驗
 
-### 問：歷程的測試模式與試運行之間有何差異？
+### 問：歷程模擬、測試模式與試執行之間有何差異？
 
-**測試模式：**透過歷程傳送測試輪廓、觸發實際動作、產生測試訊息。 需要草稿歷程 + 命名空間。
-**試運行：**追蹤執行路徑而不傳送任何內容。 適用於任何歷程狀態。 不傳送任何訊息，不執行任何動作。
-**搭配使用：**&#x200B;測試訊息的測試模式 + 驗證邏輯的試運行 - 完整的涵蓋範圍。
+**歷程模擬：**使用暫時的模擬使用者執行歷程，不需要真正的AEP測試設定檔。 傳送真實訊息給模擬使用者的設定位址。
+**測試模式：**透過歷程傳送真實的AEP測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程 + 命名空間。
+**練習：**追蹤實際生產對象資料的執行路徑，不傳送任何內容。 不傳送任何訊息，不執行任何動作。
+**搭配使用：**&#x200B;重複設計時的歷程模擬、使用真實測試設定檔進行手動訊息/邏輯測試的測試模式、大規模進行最終邏輯檢查的練習。 檢視[選擇如何測試及驗證您的歷程](../using/building-journeys/choose-validation-method.md)以進行完整比較。
 
 ### 問：我可以在生產/即時狀態中測試歷程嗎？
 

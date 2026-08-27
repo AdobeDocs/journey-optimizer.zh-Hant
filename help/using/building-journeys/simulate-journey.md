@@ -11,9 +11,9 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2995
+source-wordcount: 3009
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
+不確定模擬是適合您使用的方法嗎？ [比較所有三個驗證選項](choose-validation-method.md)。
 
 使用&#x200B;**[!UICONTROL 模擬]**，在您發佈之前先與&#x200B;**模擬使用者**&#x200B;驗證您的歷程。 此頁面會逐步引導您完成&#x200B;**[!UICONTROL 快速模擬]**&#x200B;和&#x200B;**[!UICONTROL 手動模擬]**、建立和傳送模擬的使用者、在您的歷程需要這些使用者時觸發單一事件，以及檢閱&#x200B;**[!UICONTROL 結果]**&#x200B;記錄。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
       ![建立具有重複內容的模擬使用者卡片、套用所有屬性至其他使用者，以及刪除每個使用者](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
    ![測試使用者清單，其中包含在畫布上反白顯示的編輯、傳送及移除動作和模擬路徑](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![使用新增使用者選項開啟管理使用者功能表，並清除所有使用者](assets/simulate-manage.png)
 

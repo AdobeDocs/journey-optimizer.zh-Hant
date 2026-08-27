@@ -11,36 +11,16 @@ keywords: 歷程，問題，回答，疑難排解，說明，指南，協調
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 6214
-ht-degree: 0%
+source-wordcount: 6276
+ht-degree: 1%
 
 ---
 
@@ -54,7 +34,7 @@ ht-degree: 0%
 
 在[!DNL Adobe Journey Optimizer]中尋找Journey Orchestration相關常見問題的解答。
 
-需要更多詳細資料？ 使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}連線。
+需要更多詳細資料？ 使用本頁底部的意見回饋選項來提出您的問題。 您也可以與[[!DNL Adobe Journey Optimizer] 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}連線。
 
 ## 一般概念
 
@@ -193,7 +173,7 @@ ht-degree: 0%
 
 * 您傳送批次通訊給群組（例如每月電子報、促銷活動）
 * 所有客戶應在大約相同的時間收到訊息
-* 您的目標是預先定義的對象區段
+* 您正在鎖定預先定義的對象區段
 
 +++
 
@@ -306,7 +286,7 @@ ht-degree: 0%
 
 可以。 使用具有&#x200B;**逾時**&#x200B;的&#x200B;**[!UICONTROL 回應]**&#x200B;事件：
 
-1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**&#x200B;** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
+1. 傳送訊息後，在頻道動作後立即新增&#x200B;**[!UICONTROL 回應]**&#x200B;事件&#x200B;**** （中間沒有任何&#x200B;**[!UICONTROL 等待]**&#x200B;活動）
 2. 在&#x200B;**[!UICONTROL 回應]**&#x200B;事件上設定逾時期間（例如3天），以接聽電子郵件開啟或點按
 3. 建立兩個路徑：
    * **若已開啟/按一下**：繼續後續步驟或結束歷程
@@ -329,7 +309,7 @@ ht-degree: 0%
 5. **建立兩個路徑**：
    * **如果發生購買事件**：結束歷程或繼續購買後的流程
    * **逾時路徑（無購買）**：傳送包含購物車內容的放棄提醒電子郵件
-6. **選擇性**：在&#x200B;**逾時提醒電子郵件（24小時）之後，立即新增另一個**&#x200B;[!UICONTROL &#x200B;回應&#x200B;]&#x200B;**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
+6. **選擇性**：在&#x200B;**逾時提醒電子郵件（24小時）之後，立即新增另一個**[!UICONTROL &#x200B;回應&#x200B;]**事件**，並傳送第二個附有獎勵的提醒（例如10%折扣）
 
 >[!IMPORTANT]
 >
@@ -415,14 +395,15 @@ Journey Optimizer提供幾個時區管理選項：
 
 +++ 如何在發佈前測試我的歷程？
 
-Journey Optimizer提供兩種測試方法：
+Journey Optimizer提供三種驗證方法：
 
-* **測試模式**：模擬個別設定檔在歷程中逐步移動，可讓您在上線之前驗證邏輯、條件和動作。
+* **歷程模擬**：使用手動建立或自動產生的臨時模擬使用者來驗證您的歷程 — 不需要建立或等待真正的測試設定檔。 最適合在歷程設計期間快速反複專案。
+* **測試模式**：逐步逐步逐步執行真實（但已指定的測試）設定檔，讓您在上線之前驗證邏輯、條件和動作。
 * **試執行模式**：使用真實的生產資料執行您的歷程，而不需連絡實際客戶或更新設定檔資訊。 這可讓您信賴受眾目標定位和歷程設計。
 
 **最佳實務**：發佈前請務必先測試歷程，以確保歷程如預期般運作，並及早識別任何問題。
 
-深入瞭解[測試模式](testing-the-journey.md)和[試用](journey-dry-run.md)。
+請參閱[選擇如何測試及驗證您的歷程](choose-validation-method.md)以進行完整比較，或瞭解更多關於[模擬](simulate-journey-gs.md)、[測試模式](testing-the-journey.md)及[試用](journey-dry-run.md)的資訊。
 
 +++
 
@@ -712,7 +693,7 @@ Learn more about [action responses](../action/action-response.md).
 * **允許重新進入**：設定檔在完成歷程後可以多次進入歷程
 * **重新進入等待期間**：定義歷程專案之間的最短時間（例如7天）
 * **在事件上強制重新進入**：即使設定檔已在歷程中，仍會觸發新的歷程執行個體
-* **補充識別碼**：使用補充ID可允許設定檔針對不同實體（例如，不同訂單、預訂或交易）多次重新進入歷程，即使他們已經在歷程中亦然
+* **補充識別碼**：使用補充ID可允許設定檔針對不同實體（例如，不同訂單、預訂或交易）多次重新進入歷程，即使它們已在歷程中
 
 **最佳實務**：使用重新進入規則來防止訊息疲勞並確保適當的步調。 請考慮對異動歷程使用補充識別碼，其中設定檔需要為不同異動輸入多次。
 

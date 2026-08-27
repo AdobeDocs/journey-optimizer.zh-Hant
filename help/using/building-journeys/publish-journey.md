@@ -11,20 +11,15 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2032
+source-wordcount: 2093
 ht-degree: 12%
 
 ---
@@ -65,6 +60,8 @@ ht-degree: 12%
 | [試用](journey-dry-run.md) | 實際生產對象資料 | 無需連絡任何人，即可進行實際對象觸及和大規模目標定位的最終啟動前檢查 | 否 |
 
 練習決不會提供真正的通訊或更新即時設定檔資料。 模擬和測試模式確實會傳送真實訊息 — 模擬至在模擬使用者上定義的執行地址，而測試模式則傳送至您已明確標示為測試設定檔的真實設定檔收件匣。
+
+如需這三個方法的完整比較，請參閱[選擇如何測試及驗證您的歷程](choose-validation-method.md)。
 
 ## 發佈程式 {#journey-publication}
 
@@ -164,7 +161,7 @@ ht-degree: 12%
 
 **我可以發佈需要核准的歷程嗎？**
 
-如果您的歷程受限於核准政策，您必須在發佈前要求核准。 [進一步瞭解核准](../test-approve/gs-approval.md)。
+如果您的歷程受限於核准原則，請按一下「**[!UICONTROL 發佈]**」將其提交核准，而非立即發佈。 核准者登出後會自動發佈歷程 — 之後沒有獨立發佈步驟可執行。 [進一步瞭解核准](../test-approve/gs-approval.md)。
 
 ## 相關主題 {#related-topics}
 
@@ -180,7 +177,7 @@ ht-degree: 12%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI知識參考
 
@@ -223,6 +220,6 @@ ht-degree: 12%
 * **問：發佈新版本時，舊版歷程版本中的設定檔會發生什麼事？**  — 先前版本中已存在的設定檔會一直保留到完成；新的設定檔會輸入最新版本。
 * **問：我可以重新發佈已關閉歷程版本嗎？**  — 否。 關閉舊版後，即使最新版本停止，也會保持關閉狀態。
 * **問：如果歷程中使用的優惠決定變更，怎麼辦？**  — 取消發佈歷程並重新發佈以納入更新的優惠決定。
-* **問：發佈前是否需要核准？**  — 僅當您的歷程受限於核准政策時；在這種情況下，您必須先請求核准。
+* **問：發佈前是否需要核准？**  — 僅當您的歷程受限於核准政策時；在這種情況下，發佈會提交歷程以供核准，而不是立即發佈，並且會在核准者簽署後自動發佈。
 
 +++
