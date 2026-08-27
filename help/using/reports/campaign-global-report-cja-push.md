@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
 TQID: https://experienceleague.adobe.com/wsbWXuQT-JWFmKKu-qIG8OgzKQ7mMY4yFcqKLaM3RDc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0c288debdccbc9b5b3e5f051a857afddf8f6fc19
 workflow-type: tm+mt
-source-wordcount: 782
-ht-degree: 7%
+source-wordcount: 675
+ht-degree: 8%
 
 ---
 
@@ -127,12 +117,6 @@ ht-degree: 7%
 +++ 進一步瞭解錯誤原因
 
 根據推播通知提供者（[!DNL Apple Push Notification service (APNs)]或[!DNL Firebase Cloud Messaging (FCM)]）傳回的回應，每個推播通知傳送都會分類為下列其中一個原因：
-
-* **SENT**：提供者已接受通知。
-* **DENYLIST**：裝置權杖已無效（例如，應用程式已解除安裝或權杖已過期）。 代號會新增至封鎖清單，並略過未來傳送至該代號。
-* **MALFORM_NOTIFICATION**：提供者拒絕通知裝載為無效（例如，裝載太大、空白或遺漏必要欄位）。
-* **INVALID_PUSH_CREDENTIAL**：用來傳送通知的推播認證（憑證、金鑰或主題組態）無效或不符合目標裝置/應用程式。
-* **PUSH_PROVIDER_ERROR**：提供者傳回暫時性或意外的錯誤（例如，速率限制或內部錯誤）。 系統會自動重試這些傳送。
 
 **個APN**
 
