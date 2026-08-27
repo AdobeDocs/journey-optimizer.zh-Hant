@@ -10,34 +10,16 @@ keywords: 歷程、探索、開始、單一、讀取對象、對象資格、商�
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2411
-ht-degree: 62%
+source-wordcount: 2403
+ht-degree: 63%
 
 ---
 
@@ -112,7 +94,7 @@ ht-degree: 62%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -122,7 +104,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -132,7 +114,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -142,7 +124,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **善用資料**
 
@@ -152,7 +134,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -162,7 +144,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調流程活動**
 
@@ -212,7 +194,7 @@ ht-degree: 62%
 * 驗證所有條件、訊息和操作是否如預期運作。
 * 檢查時間、資料流程和個人化
 
-[選擇如何測試及驗證您的歷程→](choose-validation-method.md) | [測試您的歷程→](testing-the-journey.md) | [了解試用→](journey-dry-run.md)
+[選擇驗證方法→](choose-validation-method.md) | [測試您的歷程→](testing-the-journey.md) | [了解試用→](journey-dry-run.md)
 
 ### &#x200B;4. 發佈您的歷程 {#publish}
 
@@ -254,7 +236,7 @@ ht-degree: 62%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -264,7 +246,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -274,7 +256,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
@@ -284,7 +266,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -294,7 +276,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多管道行銷活動**
 
@@ -304,7 +286,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -322,7 +304,7 @@ ht-degree: 62%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -332,7 +314,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -342,7 +324,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試運行**
 
@@ -352,7 +334,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -362,7 +344,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和整理**
 
@@ -372,7 +354,7 @@ ht-degree: 62%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -389,7 +371,7 @@ ht-degree: 62%
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -495,7 +477,7 @@ ht-degree: 62%
 * **問：Journey Optimizer中的歷程與行銷活動有何不同？**  — 歷程提供1:1即時協調，每個設定檔透過條件式邏輯以各自的進度進行；行銷活動會依排程或透過API觸發程式同時傳送訊息給對象；協調的行銷活動是複雜多實體細分的批次畫布工作流程。
 * **問：是否可以編輯即時歷程？**  — 可以編輯有限的元素，例如名稱和訊息內容；結構變更需要建立歷程的新版本。
 * **問：建置歷程的步驟為何？**  — 六步驟工作流程為：規劃、在畫布中進行設計、測試（測試模式或試運行）、發佈、監控效能以及最佳化/迭代。
-* **問：如何在不連絡真實客戶的情況下驗證歷程？**  — 使用模擬（臨時模擬使用者 — 注意，這確實會傳送真實訊息，但只會傳送給在這些模擬使用者上設定的執行地址）、測試模式（持續的AEP測試設定檔 — 注意，這確實會傳送真實訊息給這些測試設定檔的收件匣）或練習（真實的生產資料、略過的動作節點、不傳送訊息）。 試執行設定檔會計入可參與設定檔和即時歷程配額。 檢視[選擇如何測試及驗證您的歷程](choose-validation-method.md)以進行完整比較。
+* **問：如何在不連絡真實客戶的情況下驗證歷程？**  — 使用模擬（臨時模擬使用者 — 注意，這確實會傳送真實訊息，但只會傳送給在這些模擬使用者上設定的執行地址）、測試模式（持續的AEP測試設定檔 — 注意，這確實會傳送真實訊息給這些測試設定檔的收件匣）或練習（真實的生產資料、略過的動作節點、不傳送訊息）。 試執行設定檔會計入可參與設定檔和即時歷程配額。 如需完整比較，請參閱[選擇驗證方法](choose-validation-method.md)。
 * **問：訂閱所觸發的歡迎電子郵件應該使用哪種歷程型別？**  — 使用單一歷程，此歷程是由特定個別事件（例如訂閱註冊）觸發。
 
 +++

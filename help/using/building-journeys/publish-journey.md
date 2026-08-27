@@ -11,20 +11,15 @@ keywords: 發佈，歷程，即時，有效性，檢查
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -66,7 +61,7 @@ ht-degree: 12%
 
 練習決不會提供真正的通訊或更新即時設定檔資料。 模擬和測試模式確實會傳送真實訊息 — 模擬至在模擬使用者上定義的執行地址，而測試模式則傳送至您已明確標示為測試設定檔的真實設定檔收件匣。
 
-如需這三個方法的完整比較，請參閱[選擇如何測試及驗證您的歷程](choose-validation-method.md)。
+如需這三個方法的完整比較，請參閱[選擇驗證方法](choose-validation-method.md)。
 
 ## 發佈程式 {#journey-publication}
 
@@ -182,7 +177,7 @@ ht-degree: 12%
 
 透過此影片瞭解如何發佈歷程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3427942?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ AI知識參考
 

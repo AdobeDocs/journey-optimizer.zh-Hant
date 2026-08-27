@@ -6,9 +6,9 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 93%
     + [設定並追蹤歷程量度](using/building-journeys/success-metrics.md)
     + [設計您的歷程](using/building-journeys/using-the-journey-designer.md)
     + 驗證您的歷程 {#validate-journey}
-      + [選擇如何測試和驗證您的歷程](using/building-journeys/choose-validation-method.md)
+      + [選擇驗證方法](using/building-journeys/choose-validation-method.md)
       + 模擬 {#simulate-journey}
         + [開始使用歷程模擬](using/building-journeys/simulate-journey-gs.md)
         + [模擬您的歷程](using/building-journeys/simulate-journey.md)

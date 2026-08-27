@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 選擇如何測試和驗證您的歷程
+title: 選擇驗證方法
 description: 比較歷程模擬、歷程測試模式和歷程練習，並在發佈之前為您的歷程選擇正確的驗證方法。
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: 測試，模擬，模擬，測試模式，練習，歷程，驗證，比較，選擇，決定指南
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# 選擇如何測試和驗證您的歷程 {#choose-validation-method}
+# 選擇驗證方法 {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 
