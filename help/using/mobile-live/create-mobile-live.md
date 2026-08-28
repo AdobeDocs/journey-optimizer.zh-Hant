@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +185,9 @@ ht-degree: 7%
 > `executionMetadata`可用於&#x200B;**API觸發的交易式**&#x200B;和&#x200B;**API觸發的行銷**&#x200B;行銷活動。
 
 使用選用的`executionMetadata`欄位，將您自己的&#x200B;**自訂資料**&#x200B;附加至設定檔，例如訂單ID、忠誠度等級或地區代碼。 Journey Optimizer會將此資料與執行一併儲存，以便您稍後可從&#x200B;**Live活動意見回饋資料集**&#x200B;擷取資料，並將傳遞結果與您自己的業務記錄比對。
+
+若要透過API傳送此資料，請參閱`executionMetadata`欄位[&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request)的傳訊API參考。 若要在裝置上讀取回值，請參閱關於從API觸發程式接收執行中繼資料的[Mobile SDK指南](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger)。
+
 若要新增具有執行中繼資料的自訂資料：
 
 * 將`executionMetadata`新增到設定檔，在`userId`和`namespace`旁邊。 僅接受字串鍵和字串值，請在傳送前將任何非字串值轉換為字串。
@@ -242,9 +245,6 @@ ht-degree: 7%
 ```
 
 +++
-
-設計您的即時活動後，您可以使用[內建報告](../reports/campaign-global-report-cja-activity.md)來追蹤測量即時活動的影響。
-
 
 ## 作法影片
 
