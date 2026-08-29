@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
+source-git-commit: c7309ac3d1ad9c5d9d2e497077cb09769ed74339
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 9%
+source-wordcount: 597
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,9 @@ ht-degree: 9%
    >
    >IP熱身行銷活動中允許的對象必須以[區段為基礎](../audience/creating-a-segment-definition.md)，並使用[預設合併原則](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}建立。
    >
-   >IP熱身行銷活動不支援CSV上傳對象，且會在行銷活動啟用時導致錯誤。
+   >IP熱身行銷活動不支援下列對象型別，並會在行銷活動啟用時導致錯誤：
+   >* [CSV上傳對象](../audience/custom-upload.md)
+   >* [資料Distiller對象](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} （使用SQL查詢建立的對象）
 
    如需如何設定行銷活動的詳細資訊，請參閱[此頁面](../campaigns/get-started-with-campaigns.md)。
 
