@@ -96,4 +96,4 @@ Each card has a priority badge — **High**, **Medium**, or **Low** — based on
 
 ➡️觀看如何使用挑戰報告測量挑戰效能
 
->[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497568?captions=chi_hant&quality=12)
