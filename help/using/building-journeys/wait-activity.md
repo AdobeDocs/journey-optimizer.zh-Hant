@@ -11,25 +11,16 @@ keywords: 等待，活動，歷程，下一步，畫布
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
 source-wordcount: 2072
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -74,7 +65,7 @@ ht-degree: 6%
 
 ### 等待和測試模式 {#wait-test-mode}
 
-在測試模式中，測試&#x200B;**中的**&#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。 這將確保您能快速獲得測試結果。 請在[此頁面](../building-journeys/testing-the-journey.md)了解更多。
+在測試模式中，測試&#x200B;]**中的**[!UICONTROL &#x200B;等待時間引數可讓您定義每個&#x200B;**等待**&#x200B;活動的持續時間。 預設時間為 10 秒。 這將確保您能快速獲得測試結果。 請在[此頁面](../building-journeys/testing-the-journey.md)了解更多。
 
 ### 等待和行動裝置頻道 {#wait-mobile-channels}
 
@@ -124,22 +115,22 @@ Select the date for the execution of the next activity.
 
 若要驗證等待活動是否如預期運作，您可以使用步驟事件。 [了解更多](../reports/query-examples.md#common-queries)。
 
-### 傳送時間最佳化等候 {#sto-wait}
+### 傳送時間最佳化等待 {#sto-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="最佳化管道"
->abstract="選擇計算每個設定檔最佳等待時間時，要使用的頻道傳送時間最佳化模型：電子郵件或推播通知。 等待活動會重複使用已針對該管道計算的參與分數，因此您選取的管道應該符合您想要讓等待最佳化的傳訊行為。"
+>abstract="選擇計算每個輪廓的最佳等待時間時，要使用的管道傳送時間最佳化模型：電子郵件或推播通知。 等待活動會重複使用已針對該管道計算的參與分數，因此您所選的管道應符合您想要讓等待最佳化的傳訊行為。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
->title="最佳化型別"
->abstract="針對電子郵件，選擇是否應計算最佳等待時間以最大化開啟次數或點進次數。 由於點選追蹤不適用於推送訊息，推送一律會針對開啟次數最佳化。 挑選最符合此次等待之後活動目標的參與型別。"
+>title="最佳化類型"
+>abstract="若是電子郵件，請選擇是否應計算最佳等待時間以將開啟次數或點進次數最大化。 由於點按追蹤不適用於推播訊息，因此推播會始終針對開啟次數最佳化。 挑選最符合此等待之後的活動目標的參與類型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="下次傳送於："
->abstract="設定在繼續下一個活動之前，系統可等待的最大小時數(2-100)。 這會定義「傳送時間最佳化」在挑選最佳時機時所考量的時段外部界限：較短的時段會限制AI模型可提供的好處有多少，而較長的時段可能會比預期更延遲下游活動。"
+>title="在以下時段內傳送"
+>abstract="設定在繼續下一個活動之前，系統可等待的最大時數 (2 至 100)。 這會定義「傳送時間最佳化」在挑選最佳時機時所考量的時段外部界限：較短的時段會限制 AI 模型可提供的好處有多少，而較長的時段可能會比預期更延遲下游活動。"
 
 ![定義等待期間](assets/wait_sto.png)
 

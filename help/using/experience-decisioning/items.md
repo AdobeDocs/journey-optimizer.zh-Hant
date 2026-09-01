@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
 source-wordcount: 2888
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -105,8 +102,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -143,8 +140,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
->title="限定範圍"
->abstract="定義上限規則如何跨版位套用。 依預設，無論放置位置為何，都會套用單一頂端。 選取&#x200B;**每個版位**&#x200B;可個別追蹤每個版位的上限，或選取&#x200B;**特定版位**&#x200B;將上限限製為僅限選取的版位。 請注意，**特定位置**&#x200B;上限僅支援Web和電子郵件管道。"
+>title="上限範圍"
+>abstract="定義上限規則如何跨放置環境套用。 依據預設，無論放置環境為何，都會套用單一上限。 選取「**每個放置環境**」以個別追蹤每個放置環境的上限，或選取「**特定放置環境**」以將上限限制在所選的放置環境。 請注意，只有網路和電子郵件管道支援「**特定放置環境**」上限。"
 
 上限會用作限制，以定義優惠方案專案可顯示的最大次數。 限制使用者取得特定優惠方案的次數，可讓您避免過度向客戶提供需求，進而使用最佳優惠方案將每個接觸點最佳化。 您最多可以為特定決定專案建立10個上限。
 
