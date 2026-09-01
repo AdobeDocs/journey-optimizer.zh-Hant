@@ -7,14 +7,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="公開測試版" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 6%
+source-wordcount: 1117
+ht-degree: 5%
 
 ---
 
@@ -26,21 +25,19 @@ ht-degree: 6%
 >title="使用 AI 產生運算式"
 >abstract="使用 AI 在歷程進階運算式編輯器中直接建立及產生運算式。 例如：在條件、**最佳化**&#x200B;活動、或使用自訂日期的&#x200B;**等待**&#x200B;活動中。 當您以簡單明瞭的語言描述您所需的內容時，AI 就會為您產生對應的運算式。"
 
->[!AVAILABILITY]
->
->此功能目前在&#x200B;**公開測試版**&#x200B;中。 如需發行週期與可用性階段的完整詳細資訊，請參閱 [Journey Optimizer 發行週期](../../rn/releases.md)。
+>[!IMPORTANT]
 >
 >在使用此功能之前，請先閱讀適用於Journey Optimizer中產生AI功能的相關[護欄和限制](../../content-management/gs-generative.md#generative-guardrails)。
 
 此AI支援的功能，內建在Journey進階運算式編輯器中，可幫助您從純語言提示產生有效的運算式。
 
-在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**&#x200B;活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
+在歷程&#x200B;**[!UICONTROL 進階運算式編輯器]**&#x200B;開啟的任何位置，都可以使用它。 例如，當您在&#x200B;**[最佳化活動](../optimize.md)**&#x200B;中設定條件和路由，或當您設定使用自訂日期的[**[!UICONTROL 等待&#x200B;]**活動](../wait-activity.md)，而您需要`dateTimeOnly`運算式時。
 
 ## 產生運算式 {#generate}
 
 若要使用AI產生運算式：
 
-1. 在您的歷程中開啟&#x200B;**[!UICONTROL 進階運算式編輯器]**，例如從分支條件、**[!UICONTROL 最佳化]**&#x200B;活動或具有自訂日期的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。
+1. 開啟歷程中的&#x200B;**[!UICONTROL 進階運算式編輯器]**，例如，從分支條件、**[!UICONTROL 最佳化]**&#x200B;活動或具有自訂日期的&#x200B;**[!UICONTROL 等待]**&#x200B;活動。
 
    ![](../assets/expression-assistant-pane.png)
 
@@ -91,6 +88,12 @@ ht-degree: 6%
 * *「等待節點：從現在起的30天下午10點，僅日期時間」*
 * *&quot;等到UTC時區的今天上午9點，僅傳回為日期時間&quot;*
 
+### 對象成員資格提示 {#example-prompts-audience}
+
+以簡單的語言說明您要進行的對象成員資格檢查。 例如：
+
+* *「檢視設定檔是否在Gold Loyalty對象中」*
+
 ## 相關資源 {#related}
 
 * [使用進階運算式編輯器](expressionadvanced.md) — 運算式編輯器介面的概覽和支援的語法。
@@ -110,6 +113,7 @@ ht-degree: 6%
 * 使用套用按鈕，將產生的運算式直接套用至進階運算式編輯器
 * 在最佳化活動、條件活動和自訂日期等待活動內使用AI型運算式產生
 * 提供事件型條件和`dateTimeOnly`等待運算式的範例提示
+* 使用自然語言提示檢查對象會籍，例如詢問設定檔是否位於金會員對象中
 * 修改提示以參考有效欄位名稱和資料來源，以疑難排解失敗的產生
 
 **字彙表：**
@@ -121,7 +125,6 @@ ht-degree: 6%
 
 **護欄：**
 
-* 使用AI產生運算式目前在&#x200B;**公開測試版**&#x200B;中 — 可用性和行為可能會改變
 * 主要產生內容檔案的產生AI護欄和限制適用於此功能
 * 如果助理參考的欄位未出現在您歷程的資料來源中，則會傳回錯誤 — 請修改提示以使用可用的欄位名稱
 * 確切產生的運算式語法取決於特定歷程中設定的欄位和活動
@@ -138,6 +141,4 @@ ht-degree: 6%
 * **問：如果AI無法產生有效的運算式會發生什麼事？**  — 出現錯誤訊息；您應該修訂提示，使用歷程設定中存在的欄位名稱和資料來源。
 * **問：如何將產生的運算式插入編輯器？**  — 按一下助理面板中的&#x200B;**套用**&#x200B;按鈕，將它直接插入進階運算式編輯器中目前游標位置。
 * **問：可以使用AI產生運算式，為等待活動建立`dateTimeOnly`運算式嗎？**  — 是；例如，提示「從現在起的30天下午10點僅作為日期時間」會產生適當的`dateTimeOnly`運算式。
-* **問：使用AI產生運算式是否一般可用？**  — 否；目前為公開測試版。 請檢視Journey Optimizer發行週期頁面，瞭解可用性更新。
-
 +++
