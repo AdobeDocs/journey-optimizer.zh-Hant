@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 14b3d7013504dc3a2544301a899c8cdf0fcf4c92
 workflow-type: tm+mt
 source-wordcount: 2072
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -124,22 +124,22 @@ Select the date for the execution of the next activity.
 
 若要驗證等待活動是否如預期運作，您可以使用步驟事件。 [了解更多](../reports/query-examples.md#common-queries)。
 
-### 傳送時間最佳化等候 {#sto-wait}
+### 傳送時間最佳化等待 {#sto-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
 >title="最佳化管道"
->abstract="選擇計算每個設定檔最佳等待時間時，要使用的頻道傳送時間最佳化模型：電子郵件或推播通知。 等待活動會重複使用已針對該管道計算的參與分數，因此您選取的管道應該符合您想要讓等待最佳化的傳訊行為。"
+>abstract="選擇計算每個輪廓的最佳等待時間時，要使用的管道傳送時間最佳化模型：電子郵件或推播通知。 等待活動會重複使用已針對該管道計算的參與分數，因此您所選的管道應符合您想要讓等待最佳化的傳訊行為。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_type"
->title="最佳化型別"
->abstract="針對電子郵件，選擇是否應計算最佳等待時間以最大化開啟次數或點進次數。 由於點選追蹤不適用於推送訊息，推送一律會針對開啟次數最佳化。 挑選最符合此次等待之後活動目標的參與型別。"
+>title="最佳化類型"
+>abstract="若是電子郵件，請選擇是否應計算最佳等待時間以將開啟次數或點進次數最大化。 由於點按追蹤不適用於推播訊息，因此推播會始終針對開啟次數最佳化。 挑選最符合此等待之後的活動目標的參與類型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="下次傳送於："
->abstract="設定在繼續下一個活動之前，系統可等待的最大小時數(2-100)。 這會定義「傳送時間最佳化」在挑選最佳時機時所考量的時段外部界限：較短的時段會限制AI模型可提供的好處有多少，而較長的時段可能會比預期更延遲下游活動。"
+>title="在以下時段內傳送"
+>abstract="設定在繼續下一個活動之前，系統可等待的最大時數 (2 至 100)。 這會定義「傳送時間最佳化」在挑選最佳時機時所考量的時段外部界限：較短的時段會限制 AI 模型可提供的好處有多少，而較長的時段可能會比預期更延遲下游活動。"
 
 ![定義等待期間](assets/wait_sto.png)
 
