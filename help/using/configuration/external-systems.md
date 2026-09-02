@@ -9,22 +9,13 @@ level: Beginner
 keywords: 外部， API，最佳化工具，上限
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0af9a79a9f06d99c6136618c3635c05e4dc653e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 1937
 ht-degree: 22%
@@ -104,7 +95,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 此緩慢自訂動作服務每30秒套用150,000次呼叫的上限限制。 此限制會使用滑動視窗來執行，滑動視窗可從該30秒期間內的任何毫秒開始。 視窗一旦滿滿，就會拒絕其他呼叫，並出現上限錯誤。 系統不會等待下一個固定間隔，而是在達到30秒臨界值後立即開始上限設定。
 
-此外，為了協助防止讓已然緩慢的端點超載，如果任何120秒視窗中超過20%的呼叫超過10秒，緩慢自訂動作服務會暫時將所有呼叫限制在5分鐘以內。 此斷路器機制僅適用於120秒視窗中至少有200個呼叫的情況。 此保護功能目前僅開放部分地區使用，未來幾天將逐步推廣到所有地區。
+此外，為了協助防止讓已然緩慢的端點過載，如果任何120秒的視窗中超過20%的呼叫超過5秒，緩慢自訂動作服務會暫時將所有呼叫限制在5分鐘以內。 此斷路器機制僅適用於120秒視窗中至少有200個呼叫的情況。 此保護功能目前僅開放部分地區使用，未來幾天將逐步推廣到所有地區。
 
 由於速度緩慢的端點會導致管道中所有佇列動作的延遲，因此建議不要使用回應時間緩慢的端點來設定自訂動作。 將此類動作路由至緩慢的服務有助於保護整體系統效能，並防止其他自訂動作增加延遲。
 
@@ -134,7 +125,7 @@ Journey Optimizer執行外部API呼叫時，技術護欄會依照以下方式執
 
 您將找到有關整合Journey Optimizer與外部系統的常見問題集。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
 +++ 如何設定上限或節流規則？ 有預設規則嗎？
 
