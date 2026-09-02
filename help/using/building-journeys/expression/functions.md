@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: 1421
 ht-degree: 7%
 
 ---
@@ -109,6 +109,7 @@ ht-degree: 7%
 | 函數 | 說明 |
 |----------|-------------|
 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) | 取得目前時間（以毫秒為單位） |
+| [dateDiff](../functions/date-functions.md#dateDiff) | 計算兩個日期或日期時間之間的差異 |
 | [inLastDays](../functions/date-functions.md#inLastDays) | 檢查日期是否在過去的N天內 |
 | [inLastHours](../functions/date-functions.md#inLastHours) | 檢查日期是否在過去N小時內 |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | 檢查日期是否在過去的N個月內 |
@@ -216,7 +217,7 @@ ht-degree: 7%
 
 * 瀏覽分類函式表，識別任務的正確函式
 * 使用轉換函式在字串、整數、小數、布林值、日期和持續時間之間轉換資料型別
-* 使用`inLastDays`、`inNextHours`和`nowWithDelta`之類的函式執行日期型篩選
+* 使用`inLastDays`、`inNextHours`、`nowWithDelta`和`dateDiff`之類的函式執行日期型篩選
 * 使用類似`contain`、`replace`、`split`和`trim`的函式操控及驗證字串值
 * 使用彙總函式（如`count`、`avg`、`sum`和`distinctCount`）對集合執行統計計算
 * 使用`inAudience`函式檢查歷程條件中的對象成員資格
@@ -247,6 +248,7 @@ ht-degree: 7%
 * **問：歷程運算式編輯器中有多少函式可用？**  — 超過60個函式可跨類別組織，包括彙總、轉換、日期、清單、數學、字串和Adobe Experience Platform。
 * **問：如何檢查設定檔是否屬於歷程條件的對象？**  — 使用具有對象識別碼的`inAudience`函式。
 * **問：我應使用哪個函式來取得目前日期與時間位移（天數）？**  — 使用`nowWithDelta(N, "days")`取得目前時間的dateTime位移。
+* **問：如何計算兩個日期之間的差異？**  — 使用`dateDiff`函式。 兩個引數必須是相同的型別： `dateOnly`引數傳回以天為單位的差異，而`dateTimeOnly`和`dateTime`引數傳回以毫秒為單位的差異。
 * **問：函式能否依據其呼叫方式傳回不同的型別？**  — 函式具有每個簽章的特定傳回型別，但單一函式名稱可以具有多個具有不同引數集和傳回型別的簽章。
 * **問：`count`與`countWithNull`之間有何差異？** — `count`只計算非null元素；`countWithNull`計算包括null的所有元素。
 

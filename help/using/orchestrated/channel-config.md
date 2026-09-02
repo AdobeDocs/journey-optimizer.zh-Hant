@@ -15,9 +15,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +77,9 @@ ht-degree: 0%
    * **[!UICONTROL 次要Dimension]**：使用&#x200B;**[!UICONTROL Target +次要Dimension]**&#x200B;作為傳遞方式時，請選取您先前設定的相關&#x200B;**[!UICONTROL 次要Dimension]**。
 
      例如，如果次要維度代表預訂或訂閱，則可以從該層級取得執行地址，例如電子郵件。 若在預訂或訂閱服務時，設定檔使用不同的聯絡人詳細資訊，則此功能會很有用。
+
+     >[!NOTE]
+     >用於次要維度的結構描述必須具有主索引鍵。 次要維度不支援複合主索引鍵。
 
 1. 從&#x200B;**[!UICONTROL 傳遞地址]**&#x200B;欄位中，按一下![編輯圖示](assets/do-not-localize/edit.svg)以選擇要用於訊息傳遞的特定欄位。
 

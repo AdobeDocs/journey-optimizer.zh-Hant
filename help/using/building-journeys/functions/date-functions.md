@@ -19,10 +19,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1391
-ht-degree: 7%
+source-wordcount: 1710
+ht-degree: 6%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 7%
 有以下需求時，請使用日期函式：
 
 * 取得目前時間或具有特定時區處理的日期([now](#now)，[nowWithDelta](#nowWithDelta)，[currentTimeInMillis](#currentTimeInMillis))
+* 根據引數型別([dateDiff](#dateDiff))，計算兩個日期或日期時間之間的差異（以天或毫秒為單位）
 * 檢查日期是否落在特定時間範圍內([inLastDays](#inLastDays)，[inLastHours](#inLastHours)，[inLastMonths](#inLastMonths)，[inLastYears](#inLastYears)，[inNextDays](#inNextDays)，[inNextHours](#inNextHours)，[inNextMonths](#inNextMonths)，[inNextYears](#inNextYears))
 * 修改日期和時間元件([setHours](#setHours)， [setDays](#setDays)， [updateTimeZone](#updateTimeZone))
 * 執行以時間為基礎的計算和比較
@@ -73,6 +74,67 @@ ht-degree: 7%
 `currentTimeInMillis()`
 
 傳回「1544712617131」。
+
++++
+
+## dateDiff {#dateDiff}
+
+傳回相同型別的兩個日期或日期時間之間的差異。 結果的單位取決於引數型別： `dateOnly`引數傳回&#x200B;**天**&#x200B;的差異，而`dateTimeOnly`和`dateTime`引數傳回&#x200B;**毫秒**&#x200B;的差異。 如果任一引數為`null`，則傳回`null`。
+
+>[!NOTE]
+>
+>這是與[個人化編輯器](../../personalization/functions/dates.md#date-diff)中可用的`dateDiff`不同的函式。 個人化編輯器版本只接受`dateTime`個引數，並一律傳回天數的差異。
+
++++語法
+
+`dateDiff(<date1>,<date2>)`
+
++++
+
++++參數
+
+| 參數 | 類型 |
+|-----------|--------------------------------------|
+| 日期1 | dateOnly、dateTimeOnly或dateTime |
+| 日期2 | dateOnly、dateTimeOnly或dateTime |
+
+兩個引數必須使用相同的資料型別；不支援混合型別（例如`dateOnly`搭配`dateTime`）。 引數可以是常值日期值、其他函式（例如`now()`）或內容屬性（事件裝載欄位、自訂動作回應欄位、設定檔或實體欄位以及變數），只要它們是`dateOnly`、`dateTimeOnly`或`dateTime`型別即可。
+
++++
+
++++簽章與傳回型別
+
+`dateDiff(<dateOnly>,<dateOnly>)`
+
+傳回整數，代表兩個日期之間的天數。
+
+`dateDiff(<dateTimeOnly>,<dateTimeOnly>)`
+
+傳回代表兩個日期時間之間的毫秒數的整數。
+
+`dateDiff(<dateTime>,<dateTime>)`
+
+傳回代表兩個日期時間之間的毫秒數的整數。
+
++++
+
++++範例
+
+`dateDiff(toDateOnly('2023-12-15'), toDateOnly('2023-12-12'))`
+
+傳回3 （天）。
+
+`dateDiff(toDateTimeOnly('2023-12-15T00:00:00'), toDateTimeOnly('2023-12-12T00:00:00'))`
+
+傳回259200000 （毫秒，等於3天）。
+
+`dateDiff(now(), toDateTime('2024-12-25T00:00:00Z'))`
+
+傳回今天和2024年12月25日之間的毫秒數。
+
+`dateDiff(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate}, toDateOnly('2023-01-01'))`
+
+傳回設定檔的`birthDate`欄位與2023年1月1日之間的天數，假設`birthDate`是輸入為`dateOnly`。
 
 +++
 
@@ -588,12 +650,14 @@ ht-degree: 7%
 **意圖：**
 * 使用`now`或`nowWithDelta`取得目前的日期時間（含選擇性的時區）
 * 使用`currentTimeInMillis`以epoch整數擷取目前時間
+* 使用`dateDiff`計算兩個日期或日期時間之間的差異
 * 使用`inLastDays`、`inLastHours`、`inLastMonths`、`inLastYears`檢查日期時間在過去N天、小時、月或年之內
 * 使用`inNextDays`、`inNextHours`、`inNextMonths`、`inNextYears`檢查日期時間在接下來的N天、小時、月或年之內
 * 使用`setHours`或`setDays`，在日期時間值上強制指定一小時或當月某日
 * 將日期時間轉換為不同的時區，同時使用`updateTimeZone`保留相同的瞬間
 
 **字彙表：**
+* **dateOnly**：沒有時間或時區資訊的日期值&#x200B;*（產品特定）*
 * **dateTime**：包含時區位移資訊&#x200B;*（產品專用）*&#x200B;的日期時間值
 * **dateTimeOnly**：沒有時區資訊的日期時間值&#x200B;*（產品特定）*
 * **紀元毫秒**：代表自1970-01-01T00:00:00Z以來經過的毫秒數的整數
@@ -603,6 +667,9 @@ ht-degree: 7%
 * `now()`僅在歷程運算式中可用；對於電子郵件個人化，請使用`getCurrentZonedDateTime()`
 * `nowWithDelta`中的時區ID必須是字串常數 — 不支援欄位參考和動態運算式
 * `updateTimeZone`中的時區識別碼必須是字串常數
+* `dateDiff`要求兩個引數必須是相同的資料型別（`dateOnly`、`dateTimeOnly`或`dateTime`）；不支援混合型別
+* 如果任一引數為`null`，`dateDiff`會傳回`null`
+* `dateDiff`傳回`dateOnly`個引數的天數，但`dateTimeOnly`和`dateTime`個引數的毫秒（非天數） — 在不同型別比較結果時進行相應的轉換
 
 **術語：**
 * 正式名稱：日期函式 — 首字母縮寫：none — 變體：日期時間函式，暫時函式
@@ -610,6 +677,7 @@ ht-degree: 7%
 * 請勿混淆：「inLastDays」（回顧時間）≠「inNextDays」（回顧時間）
 * 請勿混淆：「setHours」（取代hour元件）≠「nowWithDelta」（位移目前時間）
 * 請勿混淆：「updateTimeZone」（相同的即時、不同時區表示）≠「setHours」（變更時間值本身）
+* 請勿混淆：歷程運算式編輯器的`dateDiff` （接受`dateOnly`、`dateTimeOnly`或`dateTime`；視型別而傳回天數或毫秒）≠個人化編輯器的`dateDiff` （僅接受`dateTime`；一律傳回天數）
 
 **常見問題集：**
 * **問：我可以在電子郵件個人化內容中使用`now()`嗎？**  — 否，`now()`僅在歷程運算式中可用。 使用`getCurrentZonedDateTime()`進行電子郵件個人化。

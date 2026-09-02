@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10287
-ht-degree: 79%
+source-wordcount: 10520
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,21 @@ ht-degree: 79%
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
+## 2026年9月 {#september-2026}
+
+* **設定您的管道組態**&#x200B;頁面現在包含澄清用於次要維度的結構描述必須具有主索引鍵，並且不支援複合主索引鍵的備註。 [閱讀更多](../orchestrated/channel-config.md)
+
+* **忠誠度資料和資料集**&#x200B;和&#x200B;**開始使用來源**&#x200B;頁面已更新，將LAVA作為支援的忠誠度和獎勵聯結器，以及Talon.One、Capillary和Kobie。 [閱讀更多](../loyalty-challenges/loyalty-data-and-datasets.md)
+
 ## 2026年8月 {#august-2026}
+
+* **將視覺片段新增至您的電子郵件**&#x200B;頁面現在會釐清「電子郵件Designer」中具有動態內容和空白預設狀態的片段會顯示為空白 — 以相符的設定檔進行模擬以預覽內容。 [閱讀更多](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* **追蹤您的訊息**&#x200B;頁面已更新，以釐清不支援的URL字元（例如單引號）必須以百分比編碼，而且若不加以編碼，可能會中斷追蹤的連結和URL追蹤引數。 [閱讀更多](../email/message-tracking.md#insert-links)
+
+* 已更新「使用波段傳送」**&#x200B;**&#x200B;頁面，以記錄讀取對象歷程中的最後一個波段必須排程在歷程開始的&#x200B;**6天及18小時**&#x200B;內。 超過此視窗會觸發驗證錯誤，並防止歷程進入測試模式或上線。 [閱讀更多](../delivery/send-using-waves.md#limitations-guardrails)
+
+* 新的&#x200B;**抑制意見事件**&#x200B;區段已新增至&#x200B;**決定管理資料集合**&#x200B;頁面，記錄如何在測試期間使用`dryRun`旗標抑制決定事件，以及防止擷取意見以用於報告和頻率上限計數器。 [閱讀更多](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * 新的&#x200B;**選擇驗證方法**&#x200B;頁面現已可用。 它會比較歷程模擬、測試模式和歷程練習，每個都會使用資料、是否傳送真正的訊息、要避免的常見錯誤，以及在建立歷程的每個階段選擇正確方法的決策指南。 [閱讀更多](../building-journeys/choose-validation-method.md)
 

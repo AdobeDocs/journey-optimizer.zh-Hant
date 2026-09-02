@@ -25,9 +25,9 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 727
 ht-degree: 99%
 
 ---
@@ -99,6 +99,7 @@ Journey Optimizer 支援各種類型的來源，以便連線至您現有的系�
 * Talon.One
 * 毛細管
 * Kobie
+* 熔岩
 
 ➡️請在 [Experience Platform 來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}中，檢視完整清單
 

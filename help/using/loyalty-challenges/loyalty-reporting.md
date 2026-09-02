@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 ![](assets/reporting-challenge-challenges.png)
 
 * **挑戰參與**：此時間表會顯示該期間有多少成員已開始、正在進行中，以及已完成挑戰。
-* **挑戰報告**：包含型別、任務、狀態和註冊號碼等詳細資訊的所有挑戰表格。 使用搜尋列尋找特定挑戰。 選取挑戰，以檢視其包含參與趨勢和績效詳細資訊的完整報告。
+* **挑戰報告**：包含型別、狀態和註冊號碼等詳細資訊的所有挑戰表格。 使用搜尋列尋找特定挑戰。 選取挑戰，以檢視其包含參與趨勢和績效詳細資訊的完整報告。
 
   +++挑戰報告範例
 

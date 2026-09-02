@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 566
 ht-degree: 5%
 
 ---
@@ -34,6 +34,7 @@ Journey Optimizer檔案中列出的熟客和獎勵聯結器包括：
 * **Talon.One**
 * **毛細管**
 * **Kobie**
+* **熔岩**
 
 如需聯結器上線和端對端設定，請參閱[開始使用來源聯結器](../start/get-started-sources.md)和[Experience Platform來源目錄](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hant#sources-catalog){target="_blank"}。
 

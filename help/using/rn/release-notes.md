@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 20%
+source-wordcount: 2281
+ht-degree: 21%
 
 ---
 
@@ -48,28 +48,70 @@ ht-degree: 20%
 >
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更在您的環境中可用的時間。 **即將推出**&#x200B;摺疊式版面中的項目預計將在未來幾天或幾週內推出。 這些部分的資訊可能會有變更。
 
-## 2026年8月發行說明 {#aug-26-updates}
-
-<!--
-### Loyalty {#aug-26-loyalty}
+## 2026年9月更新 {#sep-26-updates}
 
 <table>
 <thead>
 <tr>
-<th><strong>Loyalty Insights skill</strong><br/></th>
+<th><strong>歷程層級保留（可用性限制）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
-<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
-<p>Availability date: August 12, 2026</p>
+<p>您現在可以直接從歷程屬性設定歷程的保留群組。 保留是目標受眾中可設定的百分比，會排除在進入歷程之外且不會收到任何通訊。 將保留設定檔與Customer Journey Analytics報告中的作用中設定檔進行比較，即可測量歷程帶來的增量提升度（實際影響）。</p>
+<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。 如需發行週期與可用性階段的完整詳細資訊，請參閱 <a href="releases.md">Journey Optimizer 發行週期</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journey-properties.md#performance-management">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>在歷程中使用AI產生運算式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
+<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
+<p>推出日期： 2026年9月1日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **歷程運算式編輯器中的新dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。  [了解更多](../building-journeys/functions/date-functions.md#dateDiff)
+
+  推出日期： 2026年9月1日
+
++++ 即將推出 — **下列資訊可能會有變更。**
+
+<table>
+<thead>
+<tr>
+<th><strong>Action Campaigns中的傳入體驗模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在上線前在「動作行銷活動」中模擬傳入頻道動作。 使用模擬模式透過模擬使用者測試您的設定並預覽呈現的體驗，包括產生的URL和QR碼，因此您可以端對端驗證規則、決策和內容呈現。</p>
+<p>此功能目前為私人測試版，僅供有限的組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
+<p>推出日期： 2026年9月4日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+## 2026年8月發行說明 {#aug-26-updates}
 
 ### 內容管理
 
@@ -117,45 +159,6 @@ ht-degree: 20%
 
   推出日期： 2026年8月13日
 
-+++ 即將推出 — **下列資訊可能會有變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>在歷程中使用AI產生運算式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>推出日期： 2026年8月31日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程層級保留（可用性限制）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以直接從歷程屬性設定歷程的保留群組。 保留是目標受眾中可設定的百分比，會排除在進入歷程之外且不會收到任何通訊。 將保留設定檔與Customer Journey Analytics報告中的作用中設定檔進行比較，即可測量歷程帶來的增量提升度（實際影響）。</p>
-<p>此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **在歷程運算式編輯器中加入新的dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，該函式會以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。
-
-+++
-
 ### 行銷活動 {#aug-26-campaigns}
 
 此版本已為Campaigns引進下列功能和改善。
@@ -184,21 +187,6 @@ ht-degree: 20%
 
 +++ 即將推出 — **下列資訊可能會有變更。**
 
-<table>
-<thead>
-<tr>
-<th><strong>Action Campaigns中的傳入體驗模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以在上線前在「動作行銷活動」中模擬傳入頻道動作。 使用模擬模式透過模擬使用者測試您的設定並預覽呈現的體驗，包括產生的URL和QR碼，因此您可以端對端驗證規則、決策和內容呈現。</p>
-<p>此功能目前為私人測試版，僅供有限的組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Action Campaign編寫流程重新設計** - Adobe Journey Optimizer Action Campaign編寫流程已重新設計，以提供更直覺、更有效率且順暢的使用者體驗。
 
@@ -278,6 +266,25 @@ ht-degree: 20%
 * **目標維度簡化** — 作用中目標維度現在會顯示在工作流程畫布上，以便您檢視頻道活動使用的維度。 多實體區段流程較簡單，因為您不再需要個別的「變更維度」活動。 此外，您現在可以明確選擇訊息是在設定檔層級還是在次要維度層級傳送。 [了解更多](../orchestrated/activities/channels.md#add)
 
   推出日期： 2026年8月18日
+
+### 忠誠度 {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>熟客分析技能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer推出<strong>忠誠度深入分析</strong>，這是CX同事的新技能，可詢問有關挑戰效能的問題以及擷取到Adobe Experience Platform中忠誠度欄位群組中的其他忠誠度計畫資料。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ajo-coworker-skills.md#loyalty-skills">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年8月31日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 管道 {#august-26-channels}
 
