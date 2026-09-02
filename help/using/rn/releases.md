@@ -9,21 +9,14 @@ role: User
 level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 993
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +51,7 @@ ht-degree: 90%
 
 ## 發行路徑 {#release-paths}
 
-[!DNL Journey Optimizer]中的功能根據其複雜性、相依性和範圍而遵循不同的發行路徑。 此平台使用數個可用性標籤 (Beta、有限可用性、一般可用性)，但並非每個功能都會經歷所有階段。
+位於 [!DNL Journey Optimizer] 中的功能根據其複雜性、相依性和範圍而遵循不同的發行路徑。 此平台使用數個可用性標籤 (Beta、有限可用性、一般可用性)，但並非每個功能都會經歷所有階段。
 
 常見的發行路徑包括：
 
@@ -99,21 +92,21 @@ ht-degree: 90%
 * 監視&#x200B;**搶鮮版發行說明** (如有)，以預覽即將推出的功能。
 * 如需 Beta 或「有限可用性」存取權或權益資訊，請聯絡您的 Adobe 代表。
 
-您可以訂閱[!DNL Journey Optimizer]產品發行版本的&#x200B;**電子郵件和產品內通知**。 若要訂閱：
+您可以訂閱 [!DNL Journey Optimizer] 產品發行的&#x200B;**電子郵件和產品內警示**。若要訂閱：
 
 1. 瀏覽至 **Adobe Experience Cloud 偏好設定**。
 1. 在&#x200B;**通知**&#x200B;下，尋找 **Journey Optimizer**
 1. 啟用&#x200B;**新版本**&#x200B;應用程式內及電子郵件通知
 
-![適用於Journey Optimizer的Adobe Experience Cloud通知偏好設定面板，針對警示、核准和新版本類別啟用應用程式內和電子郵件通知](assets/do-not-localize/pulse-notif.png){width="70%"}
+![Journey Optimizer 的 Adobe Experience Cloud 通知偏好設定面板，已針對「警示」、「核准」和「新版本」類別啟用應用程式內和電子郵件通知](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## 常見問題集 {#faq}
 
-您將會找到下列有關[!DNL Adobe Journey Optimizer]發行週期的常見問題。
+您可以在下方找到關於 [!DNL Adobe Journey Optimizer] 發行週期的常見問題。
 
-需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}聯絡。
+需要更多詳細資料？ 使用此頁面底部的意見回饋選項來提出您的問題，或與 [Adobe Journey Optimizer 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}聯絡。
 
-+++ 何時排程[!DNL Adobe Journey Optimizer]發行？
++++ 何時排定 [!DNL Adobe Journey Optimizer] 發行？
 
 [!DNL Adobe Journey Optimizer] 通常會在每個月的最後一週發佈更新。 每季結束時，版本可能會提前最多兩週發行，以符合跨解決方案或平台範圍的更新。
 

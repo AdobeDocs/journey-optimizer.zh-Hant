@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +37,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**實作順序：**&#x200B;您在這裡： **管理員** → [資料工程師](data-engineer.md) → [開發人員](developer.md) → [行銷人員](marketer.md)
+>**實施順序：**&#x200B;您在這裡： **管理員** → [資料工程師](data-engineer.md) → [開發人員](developer.md) → [行銷人員](marketer.md)
 >
->管理員會先設定環境。 資料工程師、開發人員和行銷人員需先完成此工作，才能開始作業。
+>管理員會先設定環境。資料工程師、開發人員和行銷人員需先完成此工作，才能開始作業。
 
 ## 設定存取權和權限
 
@@ -113,7 +99,7 @@ ht-degree: 93%
 
    * 此[允許清單](../../configuration/allow-list.md)可讓您指定個別電子郵件地址或網域，這些地址或網域將是唯一獲授權接收您從特定沙箱傳送之電子郵件的收件者或網域。 此舉可防止您在測試環境中意外傳送電子郵件至真實的客戶地址。 了解如何[啟用允許的清單](../../configuration/allow-list.md)。
 
-   請在此頁面[&#128279;](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] 的傳遞能力管理。
+   請在此頁面](../../reports/deliverability.md)進一步了解[!DNL Adobe Journey Optimizer] [的傳遞能力管理。
 
 ## 其他功能
 
@@ -159,7 +145,7 @@ ht-degree: 93%
 * 設定他們將使用的管道 (電子郵件、推播、簡訊等)
 * 支援測試環境和核准工作流程
 * 啟用新功能的存取權
-* 共用決定指南以協助您的團隊選擇正確的方法：[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程型別：選擇正確的方法](../../building-journeys/journey-types-selection.md)
+* 分享決策指南，協助您的團隊選擇正確方法：[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程類型：選擇合適類型](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -175,9 +161,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員開始使用](administrator.md) |
+| 管理員 | [管理員快速入門](administrator.md) |
 | 資料工程師 | [資料工程師快速入門](data-engineer.md) |
-| Developer | [開發人員快速入門](developer.md) |
+| 開發人員 | [開發人員快速入門](developer.md) |
 | 行銷人員 | [行銷人員快速入門](marketer.md) |
 
-返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色與職責總覽](../quick-start.md) · 返回[快速入門](../../../rp_landing_pages/get-started-landing-page.md)

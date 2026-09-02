@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 707
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -45,26 +39,26 @@ ht-degree: 62%
 
 ## 使用案例 {#use-cases}
 
-當您的對象已使用平台，而您想要將豐富的內容與真正的雙向交談結合在一起時，WhatsApp的運作成效最佳。
+當您的客群已經使用 WhatsApp，而您想結合豐富內容與真正的雙向對話時，WhatsApp 效果最佳。
 
-| 優點 | 原因 | 範例使用案例 |
+| 優點 | 原因 | 使用案例範例 |
 | --- | --- | --- |
-| 高全球參與度 | 廣泛使用的傳訊平台，在許多地區有廣泛的採用 | 觸及已在WhatsApp上活躍的國際受眾 |
-| 豐富互動式訊息 | 支援影像、影片、按鈕和快速回覆 | 產品目錄、具有快速回複選項的約會確認 |
-| 雙向對話體驗 | 收件者可在相同對話串中回覆 | 客戶支援對話、訂單追蹤問題 |
-| 互動式多熒幕體驗 | WhatsApp流程範本可讓您在聊天中建立引導式多步驟互動 | 調查，潛在客戶擷取表單 |
-| 透過官方API的合規性和信任 | 透過Meta已驗證的Cloud API （含傳送者驗證）傳遞 | 建立收件者信任的品牌驗證通訊 |
-| 與其他管道整合 | 可與歷程和行銷活動以及其他管道一起分層 | 使用WhatsApp作為補充接觸點的多管道歷程 |
+| 全球參與度高 | 廣泛使用的傳訊平台，在許多地區採用率高 | 觸及已活躍於 WhatsApp 的國際客群 |
+| 豐富的互動式訊息 | 支援影像、影片、按鈕和快速回覆 | 產品目錄、含快速回覆選項的預約確認 |
+| 雙向對話體驗 | 收件者可以在同一個對話串中回覆 | 客戶支援對話、訂單追蹤問題 |
+| 互動式多畫面體驗 | WhatsApp Flow 範本可讓您在聊天中建立引導式多步驟互動 | 問卷調查、潛在客戶擷取表單 |
+| 透過官方 API 實現合規性與信任 | 透過 Meta 已驗證的 Cloud API 傳遞，並進行傳送者驗證 | 建立收件者信任的品牌驗證通訊 |
+| 與其他管道整合 | 可與其他管道一起納入歷程和行銷活動中 | 將 WhatsApp 作為輔助接觸點的多管道歷程 |
 
-## 何時不使用 {#when-not-to-use}
+## 不適用情境 {#when-not-to-use}
 
-WhatsApp依賴對象採用和明確的同意，因此不適用於所有情況。 在下列情況下考慮另一個管道：
+WhatsApp 仰賴客群採用和明確同意，因此並不適用於所有情境。在下列情況下，建議考慮採用其他管道：
 
-* 您的對象沒有使用WhatsApp，因為採用率因地區和人口統計而有很大的差異
-* 收件者尚未提供明確的選擇加入，這是Meta傳訊政策的必要條件
-* 此訊息緊急，需要保證傳送，在特定WhatsApp的傳送和範本稽核限制下，SMS或推播可更好地處理
-* 內容冗長或複雜，更適合電子郵件，提供更充裕的空間及更豐富的格式設定
-* 即時對話支援在您的身上不可行，因為雙向WhatsApp執行緒設定了及時回覆的期望
+* 您的客群未使用 WhatsApp，因為採用率會因地區和人口統計特徵而大幅不同
+* 收件者尚未明確選擇加入，而這是 Meta 傳訊政策的要求
+* 訊息很緊急且需要保證送達；鑑於 WhatsApp 的傳遞和範本審查限制，SMS 或推播更能處理此類需求
+* 內容冗長或複雜，更適合使用電子郵件，因為電子郵件提供更多空間和更豐富的格式設定
+* 您這邊無法提供即時對話支援，因為雙向 WhatsApp 對話串會讓人期待及時回覆
 
 ## 先決條件 {#prereq}
 
@@ -99,7 +93,7 @@ WhatsApp依賴對象採用和明確的同意，因此不適用於所有情況。
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470255?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

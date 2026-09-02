@@ -9,29 +9,15 @@ level: Experienced
 keywords: 平台、資料湖、建立、湖、資料集、設定檔
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: de8759bda1690076110ba19f878ff940441907e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1343
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +33,11 @@ ht-degree: 81%
 
 ## 護欄 &amp; 限制
 
-* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
+* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
 
 * 自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
-* 為設定檔啟用資料集會在結構描述層級產生永久影響。 在啟用之前，請仔細規劃您的方案和身分設計。 [了解更多](#profile-datasets)
+* 為輪廓啟用資料集會在結構描述層級產生永久影響。啟用之前，請仔細規劃您的結構描述和身分識別設計。[了解更多](#profile-datasets)
 
 ## 存取資料集 {#access}
 
@@ -86,7 +72,7 @@ ht-degree: 81%
   * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。
   * _報告 - 歷程_：包含歷程每個步驟資訊的中繼資料資料集。
   * _報告 - 密件副本_：用於儲存密件副本電子郵件的傳遞記錄意見事件資料集。 用於報告用途。
-  * _AJO管道追蹤事件資料集_：擷取所有傳入的WhatsApp回應，包括透過WhatsApp流程範本提交的回應。
+  * _AJO 管道追蹤事件資料集_：擷取所有傳入的 WhatsApp 回應，包括透過 WhatsApp 流程範本提交的回應。
 
 * 同意
 
@@ -121,20 +107,20 @@ ht-degree: 81%
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## 為設定檔啟用資料集 {#profile-datasets}
+## 為輪廓啟用資料集 {#profile-datasets}
 
-當您建立資料集時，可以啟用它來貢獻[即時客戶個人檔案](../audience/get-started-profiles.md)。 這允許其包含的資料用於[!DNL Journey Optimizer]中的細分、個人化和歷程條件。
+當您建立資料集時，可以啟用它來貢獻[即時客戶輪廓](../audience/get-started-profiles.md)。 這允許其包含的資料用於[!DNL Journey Optimizer]中的細分、個人化和歷程條件。
 
 在啟用之前，請牢記以下事項：
 
-* **結構描述啟用是永久性的。** 為設定檔啟用資料集基礎的結構描述後，便無法還原 — 無法停用或刪除結構描述。 只能單獨停用或刪除資料集本身。
-* **停用資料集會有後果。** 您可以停用或刪除設定檔的資料集，而不受其結構描述影響，但這麼做會移除關聯的設定檔記錄，並可能干擾細分和啟動工作流程。
-* **在啟用之前先規劃您的設定。** 啟用設定檔後，身分欄位和欄位群組選取專案變得更難以變更。 先完成您的結構描述設計。
+* **結構描述啟用是永久性的。** 為輪廓啟用資料集基礎的結構描述後，便無法還原，無法停用或刪除結構描述。 只能單獨停用或刪除資料集本身。
+* **停用資料集會有後果。** 您可以停用或刪除輪廓的資料集，而不受其結構描述影響，但這麼做會移除關聯的輪廓記錄，並可能干擾細分和啟動工作流程。
+* **在啟用之前先規劃您的設定。** 啟用輪廓後，身分識別欄位和欄位群組選取專案變得更難以變更。 先完成您的結構描述設計。
 
-如需詳細指引，請參閱Adobe Experience Platform檔案：
+如需詳細指引，請參閱 Adobe Experience Platform 文件：
 
-* [設定檔啟用計畫](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分設定、欄位群組選取和資料集用途驗證。
-* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有關淘汰已啟用設定檔的結構描述（包括重新命名策略）的指南。
+* [輪廓啟用計劃](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — 預先啟用檢查清單，涵蓋身分識別設定、欄位群組選取和資料集用途驗證。
+* [管理已啟用輪廓的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — 有關淘汰已啟用輪廓的結構描述 (包括重新命名策略) 的指南。
 
 ## 資料治理
 
@@ -158,4 +144,4 @@ ht-degree: 81%
 >* [資料集文件](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=zh-Hant){target="_blank"}
 >* [資料擷取文件](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=zh-Hant){target="_blank"}。
 >* [資料管理授權權益最佳做法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [管理已啟用輪廓的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}

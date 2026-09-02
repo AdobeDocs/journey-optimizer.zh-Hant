@@ -8,31 +8,16 @@ role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +33,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**實作順序：** [管理員](administrator.md) →您在這裡： **資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
+>**實施順序：** [管理員](administrator.md) →您在這裡：**資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
 >
->先完成[系統管理員設定](administrator.md)，再開始資料基礎工作。
+>先完成[管理員設定](administrator.md)，再開始資料基礎工作。
 
 >[!NOTE]
 >
@@ -139,7 +124,7 @@ ht-degree: 93%
 * 根據其行銷活動和歷程需求建立客群
 * 為協調的行銷活動設定關聯式結構描述
 * 支援進階使用案例的多實體細分
-* 當行銷人員選擇歷程與行銷活動時，共用[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程型別：選擇正確的型別](../../building-journeys/journey-types-selection.md)，以協助他們為使用案例選擇正確的資料架構
+* 當行銷人員選擇歷程與行銷活動時，分享[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程類型：選擇正確的類型](../../building-journeys/journey-types-selection.md)，以協助他們為使用案例選擇正確的資料架構。
 
 >[!ENDTABS]
 
@@ -147,9 +132,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員開始使用](administrator.md) |
+| 管理員 | [管理員快速入門](administrator.md) |
 | 資料工程師 | [資料工程師快速入門](data-engineer.md) |
-| Developer | [開發人員快速入門](developer.md) |
+| 開發人員 | [開發人員快速入門](developer.md) |
 | 行銷人員 | [行銷人員快速入門](marketer.md) |
 
-返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和職責總覽](../quick-start.md) · 返回[快速入門](../../../rp_landing_pages/get-started-landing-page.md)
