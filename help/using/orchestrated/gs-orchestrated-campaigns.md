@@ -7,22 +7,14 @@ short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
 source-wordcount: 989
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +31,7 @@ ht-degree: 94%
 >title="協調的行銷活動概觀"
 >abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>運用多實體資料</b><br/>瞭解協調的行銷活動如何運用關聯式資料集來豐富資料以進行細分和個人化<br/><br/><b>臨機細分和精確計數</b><br/>使用精確計數逐步建立您的區段<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件、LINE、自訂管道"
 
-[!DNL Adobe Journey Optimizer]中的行銷活動協調流程可跨管道支援複雜且品牌啟動的行銷活動 — **行銷**&#x200B;和&#x200B;**異動**。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
+在 [!DNL Adobe Journey Optimizer] 中，行銷活動協調流程可支援進階且由品牌主動發起的跨管道行銷活動，包括&#x200B;**行銷**&#x200B;和&#x200B;**交易型**&#x200B;兩種類型。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
 
 >[!IMPORTANT]
 >

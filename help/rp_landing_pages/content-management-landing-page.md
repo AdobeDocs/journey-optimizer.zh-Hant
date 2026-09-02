@@ -8,7 +8,7 @@ exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 新增個人化
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立登陸頁面
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 內容範本
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 可重複使用內容片段
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 建立動態內容
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 跨解決方案使用案例
 
@@ -84,7 +84,7 @@ Adobe Journey Optimizer 的內容管理功能可讓您順暢地建立、個人�
 
 ## 其他資源
 
-- **[產生內容](ai-assistant-landing-page.md)** — 使用AI產生並個人化電子郵件、簡訊、網頁和實驗中的內容。
+- **[產生內容](ai-assistant-landing-page.md)** - 使用 AI 產生並個人化電子郵件、簡訊、網頁和實驗中的內容。
 - **[多語言內容管理](content-multilingual-landing-page.md)** - 使用手動和自動化翻譯工作流程建立和管理多語言內容。
 - **[內容實驗](../using/content-management/get-started-experiment.md)** - 設定和分析實驗，以最佳化客群參與度和行銷活動結果。
-- **[在Adobe Journey Optimizer中為行銷人員建立AI支援的品牌內內容](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** — 瞭解如何使用Adobe Journey Optimizer的AI功能和特性來建立、調整和管理跨頻道和區域設定的品牌內內容。
+- **[在Adobe Journey Optimizer中為行銷人員建立AI支援的品牌內內容](https://experienceleague.adobe.com/zh-hant/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)** — 瞭解如何使用Adobe Journey Optimizer的AI功能和特性來建立、調整和管理跨頻道和區域設定的品牌內內容。

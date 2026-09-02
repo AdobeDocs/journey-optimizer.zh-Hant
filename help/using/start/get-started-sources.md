@@ -8,23 +8,12 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 TQID: https://experienceleague.adobe.com/vlCiIs-yHeTzHxkij1OTVljHm07GI-jLtS-RKFV5nKs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
 source-wordcount: 727
@@ -97,7 +86,7 @@ Journey Optimizer 支援各種類型的來源，以便連線至您現有的系�
 
 **忠誠度與獎勵：**
 * Talon.One
-* 毛細管
+* Capillary
 * Kobie
 * 熔岩
 
@@ -129,7 +118,7 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 的來源框架。 以�
 >
 >**協調行銷活動的資料擷取** - 對於搭配協調行銷活動使用的檔案式變更資料擷取來源，「`_change_request_type`」欄位為必填項。 支援的值為 `u` (更新插入) 或 `d` (刪除)。 這些值必須為小寫 `u` 和 `d`，而非大寫 `U` 和 `D`。 [詳細瞭解協調行銷活動的護欄和限制](../orchestrated/guardrails.md)
 
-## 瞭解更多 {#learn-more}
+## 了解更多 {#learn-more}
 
 ![](assets/sources-home.png)
 
