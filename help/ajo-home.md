@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 >[!TAB 忠誠度挑戰]
 
-瞭解如何建立和管理&#x200B;**忠誠度挑戰**，以透過gamification功能吸引和獎勵您最忠誠的客戶。
+了解如何建立和管理&#x200B;**忠誠度挑戰**，運用遊戲化功能吸引並獎勵最忠誠的客戶。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Co-worker中的 Journey Optimizer技能]
+>[!TAB CX Coworker 中的 Journey Optimizer 技能]
 
-我們已新增CX Co-worker **中** Journey Optimizer技能的檔案頁面，包含&#x200B;**以歷程為中心**&#x200B;及&#x200B;**以忠誠度為中心**&#x200B;的技能，並附上指引和範例提示。
+我們已新增 **CX Coworker 中的 Journey Optimizer 技能**&#x200B;文件頁面，內含&#x200B;**著重歷程**&#x200B;和&#x200B;**著重忠誠度**&#x200B;的技能，並提供指引和範例提示。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 

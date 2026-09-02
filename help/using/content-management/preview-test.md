@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Journey Optimizer 有提供兩種體驗，測試您的內容：
 
   ➡️ [模擬內容變化版本](../test-approve/simulate-sample-input.md)
 
-針對API觸發和動作（已排程）行銷活動，您也可以使用[模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以程式設計方式傳送校樣。 協調的行銷活動不支援此功能。
+針對API觸發和動作 (已排程) 行銷活動，您也可以使用 [模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} 以程式設計方式傳送校樣。 協調的行銷活動不支援此功能。
 
 ## 必讀
 

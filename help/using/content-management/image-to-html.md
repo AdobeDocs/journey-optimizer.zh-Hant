@@ -12,9 +12,9 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
-source-wordcount: 2126
+source-wordcount: 2103
 ht-degree: 4%
 
 ---
@@ -74,8 +74,6 @@ ht-degree: 4%
 若要存取此功能，貴組織必須已透過Adobe簽署[!DNL Generative AI]增補。 如果您不確定，請聯絡您的Adobe代表。
 
 **權限**
-
-* 若要存取及建立範本，您的角色必須包含&#x200B;**[!UICONTROL 管理內容範本]**&#x200B;許可權（在&#x200B;**內容管理**&#x200B;資源下）。 [進一步瞭解許可權](../administration/permissions.md)
 
 * 若要使用影像到HTML轉換器，您必須被授予&#x200B;**產生內容**&#x200B;許可權。 瞭解如何在[本節](../content-management/gs-generative.md#generative-access)中指派內容產生相關許可權。
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: 探索Adobe Journey Optimizer是什麼、其主要功能，以及它如何融入Adobe Experience Platform。
+description: 探索 Adobe Journey Optimizer 是什麼、其主要功能，以及它如何融入 Adobe Experience Platform。
 feature: Get Started
 topic: Content Management
 role: User
@@ -34,9 +34,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 832
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -80,27 +80,27 @@ You can also create audience-based campaigns to send messages.
 
 ### 現代全管道協調與執行
 
-在單一畫布上協調並最佳化客戶歷程，以實現1:1客戶參與和行銷拓展，以協助品牌在客戶生命週期中提供更多價值。 在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
+在單一畫布中協調並最佳化客戶歷程，以實現 1:1 客戶互動與行銷觸及，協助品牌在整個客戶生命週期中創造更多價值。在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 智慧決策與個人化
 
 品牌可套用集中式決策，並整合人工智慧與機器學習，以在整體客戶體驗中設定預測性洞察，讓自動化決策與大規模最佳化體驗更加輕鬆。 產品建議决策可透過 [!DNL Adobe Journey Optimizer] 大規模提供跨管道的集中式產品建議。 [探索產品建議決策](../offers/get-started/starting-offer-decisioning.md) | [探索 AI 功能](ai-features.md)
 
 
-## 常見使用實例 {#use-cases}
+## 常見使用案例 {#use-cases}
 
-Journey Optimizer支援廣泛的情境 — 從即時觸發的歷程和放棄的購物車復原，到排程的行銷活動、決策和營運通知。
+Journey Optimizer 支援廣泛的情境，涵蓋即時觸發的歷程、購物車放棄挽回、排程行銷活動、決策和營運通知。
 
-若要尋找符合您目標的功能，請參閱[Journey Optimizer使用案例總覽](ajo-use-case-guide.md)。 如需端對端的有效範例，請瀏覽[歷程使用案例庫](../building-journeys/jo-use-cases.md)。
+若要找出符合您目標的功能，請參閱 [Journey Optimizer 使用案例概觀](ajo-use-case-guide.md)。如需端到端的實作範例，請瀏覽[歷程使用案例庫](../building-journeys/jo-use-cases.md)。
 
-不確定要將歷程或行銷活動用於您的目標？ 檢視[歷程與行銷活動：選擇正確的方法](journeys-vs-campaigns.md)。
+不確定該使用歷程還是行銷活動來達成目標嗎？請參閱[歷程與行銷活動：選擇正確方法](journeys-vs-campaigns.md)。
 
 
 ## 可用性與授權 {#availability}
 
 本文件涵蓋 Journey Optimizer 的最新版本，除非另有說明，否則同時適用於 B2C 和 B2B Edition 使用者。 目前環境可用元件和功能取決於[使用權限](../administration/permissions.md)，還有您的[授權封裝](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 
-[!DNL Adobe CX Enterprise]一般隱私權准則和程式適用於[!DNL Journey Optimizer]。 [進一步瞭解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
+[!DNL Adobe CX Enterprise] 的一般隱私權準則和程序適用於 [!DNL Journey Optimizer]。[進一步了解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
 
 
 ## 架構 {#architecture}
@@ -120,10 +120,10 @@ Journey Optimizer 是以原生方式建立在 Adobe Experience Platform 上，�
 
 ## 下一步該前往何處 {#where-next}
 
-| 我想…… | 移至…… |
+| 我想… | 移至… |
 |------------|--------|
-| 瞭解Journey Optimizer如何與Adobe Experience Platform整合 | [瞭解Journey Optimizer](understanding-ajo.md) |
-| 開始使用我的特定角色 | [角色和責任](quick-start.md) |
-| 探索使用案例 | [Journey Optimizer使用案例總覽](ajo-use-case-guide.md) |
+| 瞭解 Journey Optimizer 如何與 Adobe Experience Platform 整合 | [瞭解 Journey Optimizer](understanding-ajo.md) |
+| 開始使用我的特定角色 | [角色與職責](quick-start.md) |
+| 探索使用案例 | [Journey Optimizer 使用案例概觀](ajo-use-case-guide.md) |
 | 在歷程與行銷活動之間做決定 | [歷程與行銷活動](journeys-vs-campaigns.md) |
 | 檢視重要術語 | [術語](terminology.md) |

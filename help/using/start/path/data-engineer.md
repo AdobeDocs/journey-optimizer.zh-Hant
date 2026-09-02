@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**實作順序：** [管理員](administrator.md) →您在這裡： **資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
+>**實施順序：** [管理員](administrator.md) →您在這裡：**資料工程師** → [開發人員](developer.md) → [行銷人員](marketer.md)
 >
->先完成[系統管理員設定](administrator.md)，再開始資料基礎工作。
+>先完成[管理員設定](administrator.md)，再開始資料基礎工作。
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ ht-degree: 93%
 * 根據其行銷活動和歷程需求建立客群
 * 為協調的行銷活動設定關聯式結構描述
 * 支援進階使用案例的多實體細分
-* 當行銷人員選擇歷程與行銷活動時，共用[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程型別：選擇正確的型別](../../building-journeys/journey-types-selection.md)，以協助他們為使用案例選擇正確的資料架構
+* 當行銷人員選擇歷程與行銷活動時，分享[歷程與行銷活動](../journeys-vs-campaigns.md)和[歷程類型：選擇正確的類型](../../building-journeys/journey-types-selection.md)，以協助他們為使用案例選擇正確的資料架構。
 
 >[!ENDTABS]
 
@@ -147,9 +147,9 @@ ht-degree: 93%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員開始使用](administrator.md) |
+| 管理員 | [管理員快速入門](administrator.md) |
 | 資料工程師 | [資料工程師快速入門](data-engineer.md) |
-| Developer | [開發人員快速入門](developer.md) |
+| 開發人員 | [開發人員快速入門](developer.md) |
 | 行銷人員 | [行銷人員快速入門](marketer.md) |
 
-返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和職責總覽](../quick-start.md) · 返回[快速入門](../../../rp_landing_pages/get-started-landing-page.md)

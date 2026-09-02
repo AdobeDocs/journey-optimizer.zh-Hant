@@ -6,9 +6,9 @@ description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 80%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
-疑難排解歷程錯誤
+對歷程錯誤進行疑難排解
 
 識別並解決歷程範圍的錯誤、活動問題，並設定遞補動作，以確保順暢的測試和發佈。
 
@@ -81,7 +81,7 @@ ht-degree: 80%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
-疑難排解歷程執行
+對歷程執行進行疑難排解
 
 診斷即時執行期間的事件驗證、輪廓輸入、歷程導覽和訊息傳送問題。
 
@@ -91,7 +91,7 @@ ht-degree: 80%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
-疑難排解傳入動作
+對傳入動作進行疑難排解
 
 使用詳細的逐步指南對輪廓退出後的傳入動作問題進行偵錯，例如遺失內容或繼續傳送。
 
@@ -101,7 +101,7 @@ ht-degree: 80%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
-疑難排解自訂動作
+對自訂動作進行疑難排解
 
 使用&#x200B;**傳送測試請求**&#x200B;功能，驗證自訂動作，進行偵錯，以便確保 API 呼叫、驗證設定正確無誤。
 
@@ -111,19 +111,19 @@ ht-degree: 80%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
 
-疑難排解即時活動
+對即時動態進行疑難排解
 
-診斷為什麼即時活動無法出現、更新或結束，涵蓋設定檔權杖、行銷活動設定、裝載和單一和廣播使用案例的傳送問題。
+診斷為什麼即時動態未能顯示、更新或結束的原因，涵蓋單一和廣播使用案例中的設定檔權杖、行銷活動設定、承載和傳送問題。
 
-[修正已上線活動問題](../using/mobile-live/troubleshoot-mobile-live.md)
+[修正即時動態問題](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=zh-Hant)
 
-疑難排解AEM內容片段
+對 AEM 內容片段進行疑難排解
 
-檢閱在Journey Optimizer中使用Adobe Experience Manager內容片段時的主要考量事項和常見問題，包括片段型別、存放庫存取權和個人化。
+檢閱在 Journey Optimizer 中使用 Adobe Experience Manager 內容片段時的主要考量事項和常見問題，包括片段類型、存放庫存取權及個人化。
 
 [解決內容片段問題](../using/integrations/aem-fragments-limitations.md)
 :::
@@ -150,14 +150,14 @@ ht-degree: 80%
 
 ### 行銷活動
 
-* [疑難排解行銷活動啟動](../using/campaigns/trigger-campaigns.md#troubleshooting) — 解決檢閱和啟動行銷活動時遇到的常見問題。
+* [行銷活動啟動疑難排解](../using/campaigns/trigger-campaigns.md#troubleshooting) - 解決檢閱和啟動行銷活動時遇到的常見問題。
 
 ### 管道和整合
 
-* [疑難排解WhatsApp頻道設定](../using/whatsapp/whatsapp-configuration.md#troubleshooting) — 在設定WhatsApp頻道時，診斷並修正常見的設定問題。
+* [WhatsApp 管道設定疑難排解](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - 診斷並修正設定 WhatsApp 管道時遇到的常見設定問題。
 
-* [整合疑難排解常見問題集](../using/integrations/vendor-integration-faq.md#troubleshooting) — 尋找第三方整合的常見連線與測試連線失敗解答。
+* [整合疑難排解常見問題集](../using/integrations/vendor-integration-faq.md#troubleshooting) - 尋找第三方整合的常見連線與測試連線失敗的解答。
 
 ### 設定
 
-* [疑難排解自訂子網域委派](../using/configuration/delegate-custom-subdomain.md#check-list) — 檢閱清單以解決提交自訂子網域的問題。
+* [自訂子網域委派疑難排解](../using/configuration/delegate-custom-subdomain.md#check-list) - 逐項對照檢查清單，以解決提交自訂子網域時遇到的問題。

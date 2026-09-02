@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
-source-wordcount: 2062
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2058
+ht-degree: 100%
 
 ---
 
@@ -292,7 +292,7 @@ ht-degree: 99%
 
 **使用者介面**
 
-* **搜尋** — 在每個頁面上，您現在可以直接從[整合[!DNL CX Enterprise]]搜尋欄位搜尋商業物件和說明文章。 [了解更多](../start/user-interface.md#unified-search)
+* **搜尋** - 現在，您可以在每個頁面直接從統一[!DNL CX Enterprise]搜尋欄位搜尋業務物件和說明文章。[了解更多](../start/user-interface.md#unified-search)
 * **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。 [了解更多](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**

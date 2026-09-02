@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解行銷活動基本概念、比較可用的行銷活動型別，並遵循端對端建立工作流程，以便您可以選擇正確的方法，並在Adobe Journey Optimizer中建立跨管道提供目標內容的行銷活動。
+**在此頁面上：**&#x200B;了解行銷活動基本概念、比較可用的行銷活動類型，並依照端到端建立工作流程，協助您選擇正確方法，在 Adobe Journey Optimizer 中建立可跨管道傳遞目標內容的行銷活動。
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
   >[!NOTE]
   >
-  >行銷活動啟用的每個設定檔都會計入您組織的&#x200B;**可啟用的設定檔**&#x200B;授權量度（滾動的12個月期間，每個沙箱計算一次）。 對大型或新受眾啟用行銷活動可能會導致此計數大幅增加。 [監視可參與的設定檔計數](../audience/license-usage.md)
+  >行銷活動啟用的每個輪廓都會計入您組織的&#x200B;**可啟用的輪廓**&#x200B;授權量度 (滾動的 12 個月期間，每個沙箱計算一次)。 對大型或新客群啟用行銷活動可能會導致此計數大幅增加。 [監視可啟用的輪廓計數](../audience/license-usage.md)
 
 * **管道設定** - 管道設定 (預設集) 必須已建立，並且可供您想要使用的管道使用。 [設定管道設定 →](../configuration/channel-surfaces.md)
 
@@ -248,11 +248,11 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 4. 如果使用衝突管理，**設定優先順序**
 5. **設定排程** (針對動作行銷活動) 或 API 詳細資料 (針對 API 觸發)。 針對動作行銷活動，您也可以[使用波段傳送](../delivery/send-using-waves.md)，以隨著時間分批次傳送訊息。
 
-**特定類型的指南：**&#x200B;[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動屬性](campaign-properties.md) | [API 觸發的行銷活動屬性](api-triggered-campaign-properties.md) | [協調的行銷活動設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;3. 設計您的內容
++++&#x200B;3. 設計內容
 
 為客群建立吸引人的訊息：
 
@@ -262,7 +262,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 建立&#x200B;**應用程式內**&#x200B;和&#x200B;**網頁**&#x200B;體驗
 * 使用輪廓屬性和內容資料新增&#x200B;**個人化**
 
-**特定類型的指南：**&#x200B;[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動內容](campaign-content.md) | [API 觸發的行銷活動內容](api-triggered-campaign-content.md) | [協調的行銷活動內容](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -276,7 +276,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 如果使用核准工作流程，則&#x200B;**請求核准**
 * 使用種子清單&#x200B;**測試傳遞能力**
 
-**特定類型的指南：**&#x200B;[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[檢閱動作行銷活動](review-activate-campaign.md) | [檢閱 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [檢閱協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -290,7 +290,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 注意：無法編輯作用中的行銷活動 (您必須複製才能進行變更)
 
-**特定類型的指南：**&#x200B;[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[啟用動作行銷活動](review-activate-campaign.md) | [啟用 API 觸發的行銷活動](review-activate-api-triggered-campaign.md) | [啟用協調的行銷活動](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -304,7 +304,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 * 分析轉換率和 ROI
 * 使用洞察進行最佳化
 
-**特定類型的指南：**&#x200B;[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
+**特定類型的指南：**[動作行銷活動報告](../reports/campaign-global-report-cja.md) | [API 觸發的行銷活動監視](api-triggered-campaigns.md#monitor) | [協調的行銷活動分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 

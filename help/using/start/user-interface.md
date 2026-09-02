@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 >[!ENDSHADEBOX]
 
-若要存取Adobe Journey Optimizer，請使用您的Adobe ID登入[[!DNL Adobe CX Enterprise]](https://experience.adobe.com)，然後選取[!DNL Journey Optimizer]。
+若要存取 Adobe Journey Optimizer，請使用您的 Adobe ID 登入 [[!DNL Adobe CX Enterprise]](https://experience.adobe.com)，然後選取 [!DNL Journey Optimizer]。
 
 >[!NOTE]
 >

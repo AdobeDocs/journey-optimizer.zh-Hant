@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 角色和責任 |Adobe Journey Optimizer
-description: 瞭解Adobe Journey Optimizer的角色、責任及建議實作順序。
+title: 角色與職責 | Adobe Journey Optimizer
+description: 了解 Adobe Journey Optimizer 的角色、職責和建議實施順序。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2101
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,15 +51,15 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解 Adobe Journey Optimizer 實作中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
+**在此頁面上：**&#x200B;了解 Adobe Journey Optimizer 實施中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對應每個角色的職責，並提供詳細快速入門手冊的連結。
+Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應各角色的職責，並連結至詳細的快速入門指南。
 
 >[!NOTE]
 >
->不熟悉Journey Optimizer？ 從[Journey Optimizer](get-started.md)開始。
+>剛開始使用 Journey Optimizer？ 請先從[什麼是 Journey Optimizer](get-started.md) 開始。
 
 **重要注意事項：** Adobe Journey Optimizer 定義具有特定職責的不同角色。 視您的組織結構而定，個人可以執行多個角色或所有角色。
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 >
 >* 目前環境可用元件和功能取決於[使用權限](../administration/permissions.md)，還有您的[授權封裝](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 >
->* [!DNL Adobe CX Enterprise]一般隱私權准則和程式適用於[!DNL Journey Optimizer]。 [進一步瞭解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
+>* [!DNL Adobe CX Enterprise] 的一般隱私權準則和程序適用於 [!DNL Journey Optimizer]。[進一步了解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
 
 ## 開始之前 {#before-you-begin}
 
@@ -126,7 +126,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 4. **行銷人員**：設計和執行客戶體驗\
    行銷人員運用所有基礎工作來建立歷程、建立內容，並跨所有管道最佳化客戶體驗。
    * 使用細分、CSV 上傳或客群構成建立客群
-   * 使用產生內容和範本設計個人化內容
+   * 使用 AI 助理和範本設計個人化內容
    * 使用事件和客群觸發程序建立多管道歷程
    * 啟動前使用核准工作流程進行測試
    * 根據報告深入分析監視績效並最佳化
@@ -270,7 +270,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 * [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}：所有角色的逐步教學課程影片
 * [開始使用資料管理](../data/gs-data.md) - Journey Optimizer 的結構描述、資料集、身分識別和資料整備檢查清單
 * [歷程使用案例資料庫](../building-journeys/jo-use-cases.md)：實際範例和實施模式
-* [AI和智慧型功能](ai-features.md) — 瞭解AI、傳送時間最佳化和內容產生
+* [AI &amp; 智慧型功能](ai-features.md) - 瞭解 AI、傳送時間最佳化和內容產生
 * [使用者介面指南](user-interface.md)：有效瀏覽Journey Optimizer
 
 >[!TAB 隨時掌握]
@@ -290,7 +290,7 @@ Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對�
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員開始使用](path/administrator.md) |
+| 管理員 | [管理員快速入門](path/administrator.md) |
 | 資料工程師 | [資料工程師快速入門](path/data-engineer.md) |
-| Developer | [開發人員快速入門](path/developer.md) |
+| 開發人員 | [開發人員快速入門](path/developer.md) |
 | 行銷人員 | [行銷人員快速入門](path/marketer.md) |

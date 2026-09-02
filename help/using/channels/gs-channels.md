@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,9 +79,9 @@ iOS 即時動態
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
 
-行動裝置訊息
+行動訊息
 
-了解如何建立、管理和設定簡訊、MMS 和 RCS訊息以用於行銷和交易目的，包括合規性和個人化。
+瞭解如何建立、管理及設定簡訊、MMS 和 RCS 訊息，用於行銷和交易型用途，包含合規性和個人化。
 
 [進一步瞭解行動訊息](../mobile/get-started-mobile.md)
 :::
@@ -91,7 +91,7 @@ iOS 即時動態
 
 直接郵件
 
-了解如何建立和管理直接郵件行銷活動，包括匯出第三方提供者的摘取檔案，以及確保符合使用者同意。
+瞭解如何建立和管理直接郵件行銷活動，包括為第三方提供者匯出擷取檔案，以及確保符合使用者同意要求。
 
 [進一步瞭解直接郵件](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
