@@ -10,11 +10,10 @@ level: Beginner
 keywords: 電子郵件，範本，影像， HTML， AI，設計，轉換器
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: ba8127e3c99a8bb54785c34a1453bb8c9b62588e
 workflow-type: tm+mt
-source-wordcount: 2126
+source-wordcount: 2103
 ht-degree: 4%
 
 ---
@@ -74,8 +73,6 @@ ht-degree: 4%
 若要存取此功能，貴組織必須已透過Adobe簽署[!DNL Generative AI]增補。 如果您不確定，請聯絡您的Adobe代表。
 
 **權限**
-
-* 若要存取及建立範本，您的角色必須包含&#x200B;**[!UICONTROL 管理內容範本]**&#x200B;許可權（在&#x200B;**內容管理**&#x200B;資源下）。 [進一步瞭解許可權](../administration/permissions.md)
 
 * 若要使用影像到HTML轉換器，您必須被授予&#x200B;**產生內容**&#x200B;許可權。 瞭解如何在[本節](../content-management/gs-generative.md#generative-access)中指派內容產生相關許可權。
 
@@ -167,7 +164,7 @@ ht-degree: 4%
 
    ![電子郵件內容範本，顯示影像轉換產生的草稿](../email/assets/email_designer_converted_img.png){width=90%}
 
-1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**&#x200B;區段，與Adobe分享您的想法與建議，以協助我們改善功能。
+1. 使用&#x200B;**[!UICONTROL Image to template converter feedback]**區段，與Adobe分享您的想法與建議，以協助我們改善功能。
    ![Journey Optimizer中的意見回饋區段，其中包含分享您的想法與建議的文字區域](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. 按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**。 轉換後的範本會在[電子郵件Designer](../email/get-started-email-design.md)中開啟，並具備完整的編輯功能。 您現在可以：
@@ -182,7 +179,7 @@ ht-degree: 4%
 
    進行任何必要的調整以調整範本並符合您的品牌方針。
 
-1. 在滿意您的範本後，請按一下[儲存]。**&#x200B;**
+1. 在滿意您的範本後，請按一下[儲存]。****
 
 您的範本現在可在內容範本資料庫中使用，並可在歷程或行銷活動中建立電子郵件時使用。 [瞭解如何使用內容範本](../email/use-email-templates.md)
 
