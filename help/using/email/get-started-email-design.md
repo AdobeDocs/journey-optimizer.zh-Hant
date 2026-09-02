@@ -166,4 +166,4 @@ Outlook 有許多可能影響電子郵件版面的轉譯特性，設計時必須
 
 了解如何設定內容實驗以進行 A/B 測試並探索電子郵件內容，以最佳方式推動您的業務目標。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447342?captions=chi_hant)
