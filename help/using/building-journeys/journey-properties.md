@@ -11,12 +11,23 @@ keywords: 歷程，設定，屬性
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
 source-wordcount: 5676
@@ -92,7 +103,7 @@ ht-degree: 10%
 * `transitionStateForAutoResume` — 歷程在暫停期間結束時自動恢復時套用的狀態（例如，停止或繼續）
 * `pauseId` — 目前暫停執行個體的唯一識別碼
 
-在本頁](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們[。
+在本頁[&#128279;](expression/journey-properties.md)進一步瞭解與特定設定檔之歷程相關的技術欄位，以及如何使用它們。
 
 ## 進入與重新進入 {#entrance}
 
@@ -213,7 +224,7 @@ ht-degree: 10%
 
 自2024年6月[!DNL Adobe Journey Optimizer]日發行版本開始，歷程全域逾時已從30天移動至91天。 影響會列於以下的常見問題集中：
 
-單一歷程的&#x200B;****
+單一歷程的&#x200B;**&#x200B;**
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -258,7 +269,7 @@ ht-degree: 10%
   </tr>
 </table>
 
-針對區段觸發器歷程&#x200B;****
+針對區段觸發器歷程&#x200B;**&#x200B;**
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -485,7 +496,7 @@ ht-degree: 10%
 
 1. 在歷程屬性&#x200B;**[!UICONTROL 效能測量]**&#x200B;區段中，選取您要用來測量歷程的效能並計算保留群組遞增提升度的&#x200B;**[!UICONTROL 成功量度]**。
 
-1. 使用保留&#x200B;]**切換**[!UICONTROL &#x200B;量值提升度以啟用保留群組。
+1. 使用保留&#x200B;**切換**&#x200B;量值提升度以啟用保留群組。
 
 1. 輸入&#x200B;**[!UICONTROL 保留百分比]**：將排除在進入歷程之外的對象比例。
 
@@ -622,6 +633,6 @@ ht-degree: 10%
 
 **問：保留群組如何運作？**
 
-保留群組是可設定的目標受眾百分比，可將其排除在進入歷程之外。 指派是確定性的（相同的設定檔一律對映至相同歷程的保留樣本），並在登入時評估。 保留設定檔不會收到任何通訊，但會透過資料集中的排除事件來追蹤，以用於下游CJA提升度報表。 檢視具有保留群組](#performance-management)的[測量歷程提升度。
+保留群組是可設定的目標受眾百分比，可將其排除在進入歷程之外。 指派是確定性的（相同的設定檔一律對映至相同歷程的保留樣本），並在登入時評估。 保留設定檔不會收到任何通訊，但會透過資料集中的排除事件來追蹤，以用於下游CJA提升度報表。 檢視具有保留群組[&#128279;](#performance-management)的測量歷程提升度。
 
 >[!ENDTABS]
