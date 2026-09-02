@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
 workflow-type: tm+mt
-source-wordcount: 2240
+source-wordcount: 2234
 ht-degree: 21%
 
 ---
@@ -49,6 +37,8 @@ ht-degree: 21%
 >這些發行說明中列出的功能包括&#x200B;**可用日期**，指出每個變更在您的環境中可用的時間。 **即將推出**&#x200B;摺疊式版面中的項目預計將在未來幾天或幾週內推出。 這些部分的資訊可能會有變更。
 
 ## 2026年9月更新 {#sep-26-updates}
+
+### 歷程 {#sep-26-journeys}
 
 <table>
 <thead>
@@ -90,6 +80,8 @@ ht-degree: 21%
 
   推出日期： 2026年9月1日
 
+### 行銷活動 {#sep-26-campaigns}
+
 +++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
@@ -108,6 +100,12 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
+
+* **動作行銷活動的資料夾** — 您現在可以將動作行銷活動整理到資料夾中，以改善介面中的導覽和管理。
+
+* **Action Campaign編寫流程重新設計** - Adobe Journey Optimizer Action Campaign編寫流程已重新設計，以提供更直覺、更有效率且順暢的使用者體驗。
+
+* **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
 
 +++
 
@@ -148,7 +146,6 @@ ht-degree: 21%
 
 * **歷程標題中的開始和結束日期** — 當在歷程上設定開始和/或結束日期時，它們現在會出現在狀態徽章旁邊的歷程標題中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀全文](../building-journeys/journey-properties.md#dates)
 
-
   推出日期： 2026年8月20日
 
 * **進階運算式編輯器中的新清單函式** — 進階運算式編輯器中有兩個新函式： `mergeLists`會結合兩個清單（無論是否重複資料刪除），且`differenceLists`會傳回一個清單中不存在另一個清單的專案。 [了解更多](../building-journeys/functions/list-functions.md)
@@ -185,17 +182,6 @@ ht-degree: 21%
 * **每個行銷活動生命週期警報訂閱** — 除了現有的沙箱層級訂閱之外，您現在可以訂閱單一行銷活動支援的行銷活動生命週期警報。 這可讓您監視個別高優先順序的行銷活動，而不會收到沙箱中每個行銷活動的相同警報。 [了解更多](../reports/alerts.md#subscribe-alerts)
 
   推出日期： 2026年8月13日
-
-+++ 即將推出 — **下列資訊可能會有變更。**
-
-
-* **Action Campaign編寫流程重新設計** - Adobe Journey Optimizer Action Campaign編寫流程已重新設計，以提供更直覺、更有效率且順暢的使用者體驗。
-
-* **動作行銷活動的資料夾** — 您現在可以將動作行銷活動整理到資料夾中，以改善介面中的導覽和管理。
-
-* **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
-
-+++
 
 ### 協調的行銷活動 {#august-26-oc}
 
