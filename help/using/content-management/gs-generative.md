@@ -162,7 +162,7 @@ Adobe Journey Optimizer 中由 Microsoft Azure OpenAI 與 Adobe Firefly 所支�
 ### 合法使用與透明度
 
 * 您對「產生內容」的使用必須遵守 Adobe Experience Cloud Generative AI 使用者指南。 [了解更多](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [了解更多](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Adobe 承諾提升在媒體創作中使用生成式 AI 工具的透明度，Adobe 將在下載或匯出的內容或專案包含 Firefly 產生的資產時，套用 Content Credentials。 [了解更多](https://helpx.adobe.com/tw/firefly/using/content-credentials.html)
   <!--* See [Content Credentials in AI Assistant](generative-content-credentials.md) for details on which actions attach Content Credentials and what happens as your content moves.-->
 
 ### 為個人化運算式產生內容 {#ai-assistant-personalization-editor-guardrails}
