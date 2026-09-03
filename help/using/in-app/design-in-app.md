@@ -8,25 +8,16 @@ level: Beginner
 keywords: 應用程式內、訊息、設計、格式
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +86,7 @@ ht-degree: 26%
 ### 關閉按鈕 {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="選擇關閉按鈕的樣式。"
 >abstract="關閉按鈕部分提供選項讓您選取訊息關閉按鈕的變化，以及上傳自訂影像的選項。"
 
@@ -118,7 +109,7 @@ ht-degree: 26%
 ### 媒體 {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="新增媒體至您的應用程式內訊息，以建立令一般使用者信服的體驗。"
 >abstract="提供至內容的直接連結，或使用資產選擇器從 Asset Essentials 挑選要新增至訊息的媒體。"
 
@@ -127,7 +118,7 @@ ht-degree: 26%
 ![](assets/in_app_web_design_3.png)
 
 輸入您的媒體URL或按一下&#x200B;**[!UICONTROL 選取Assets]**&#x200B;圖示，直接將儲存在Assets資料庫中的資產新增至您的應用程式內訊息。 [進一步瞭解資產管理](../integrations/assets.md)。
-您也可以為熒幕閱讀應用程式新增&#x200B;**[!UICONTROL 替代文字]**。
+您也可以為熒幕閱讀應用程式新增**[!UICONTROL 替代文字]**。
 
 +++更多具有進階格式的選項
 
@@ -138,7 +129,7 @@ ht-degree: 26%
 ### 內容 {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="若要撰寫訊息，請在「標題」與「本文」欄位輸入內容。"
 >abstract="此處可以新增標題與內容文字。 若要納入個人化語彙基元，請開啟個人化對話框。"
 
@@ -146,7 +137,7 @@ ht-degree: 26%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器[中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -161,7 +152,7 @@ ht-degree: 26%
 ### 按鈕 {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="新增按鈕讓使用者可以和您的應用程式內訊息互動。"
 >abstract="本部份可讓您在訊息中新增召喚行動按鈕。 您也可以針對每個按鈕納入自訂的文字與目標。"
 
@@ -177,7 +168,7 @@ ht-degree: 26%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
 
 +++更多具有進階格式的選項
 
@@ -204,6 +195,11 @@ ht-degree: 26%
 >title="預覽您的應用程式內訊息。"
 >abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="預覽您的應用程式內訊息。"
+>abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
+
 >[!NOTE]
 >
 >預覽僅適用於行動應用程式內訊息。
@@ -221,9 +217,15 @@ ht-degree: 26%
 ### 版面配置 {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="定義應用程式內訊息的訊息版面。"
 >abstract="本部份可讓您在應用程式內訊息中新增背景。 這需要 UI 接管才能啟用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="定義應用程式內訊息的訊息版面。"
+>abstract="本部份可讓您在應用程式內訊息中新增背景。 這需要 UI 接管才能啟用。"
+
 
 ![](assets/in_app_web_design_6.png)
 
@@ -264,7 +266,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
 ## 資料標籤 {#data-tab}
 
-您可以從&#x200B;**資料**&#x200B;索引標籤中定義&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
+您可以從&#x200B;**資料**&#x200B;索引標籤中定義**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**，以便在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。
 
 如需詳細資訊，請參閱[開發人員檔案](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata)。
 
@@ -272,7 +274,7 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 
    ![](assets/in-app-data-menu.png)
 
-1. 填寫&#x200B;**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
+1. 填寫**[!UICONTROL 索引鍵]**&#x200B;和&#x200B;**[!UICONTROL 值]**&#x200B;欄位。
 
    ![](assets/in-app-data-menu-1.png)
 
