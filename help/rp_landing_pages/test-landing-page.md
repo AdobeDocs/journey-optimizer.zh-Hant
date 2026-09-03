@@ -26,7 +26,7 @@ ht-degree: 87%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 預覽、測試和驗證內容
 
@@ -36,7 +36,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 歷程與行銷活動的核准工作流程
 
@@ -46,7 +46,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 測試您的歷程
 
@@ -56,7 +56,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 歷程試運行
 
@@ -66,7 +66,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視與疑難排解
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 個人化遊樂場
 
@@ -86,7 +86,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 內容實驗和 A/B 測試
 
@@ -96,7 +96,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 利害關係人監視的種子清單
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 衝突偵測
 
@@ -449,7 +449,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 問：啟動行銷活動之前需要進行哪些測試？
 
-**最基本做法：**&#x200B;使用測試輪廓的內容預覽 + 垃圾郵件分數檢查 (電子郵件)
+**最基本做法：**使用測試輪廓的內容預覽 + 垃圾郵件分數檢查 (電子郵件)
 **建議做法：** + 電子郵件轉譯 + 衝突偵測 + 核准工作流程
 **最佳做法：** + 範例輸入資料測試 + 種子清單 + A/B實驗 (如果最佳化)
 
@@ -461,29 +461,29 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 ### 問：歷程模擬、測試模式與試執行之間有何差異？
 
-**歷程模擬：**&#x200B;使用暫時的模擬使用者執行歷程，不需要真正的AEP測試設定檔。 傳送真實訊息給模擬使用者的設定位址。
-**測試模式：**&#x200B;透過歷程傳送真實的AEP測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程 + 命名空間。
-**練習：**&#x200B;追蹤實際生產對象資料的執行路徑，不傳送任何內容。 不傳送任何訊息，不執行任何動作。
+**歷程模擬：**使用暫時的模擬使用者執行歷程，不需要真正的AEP測試設定檔。 傳送真實訊息給模擬使用者的設定位址。
+**測試模式：**透過歷程傳送真實的AEP測試設定檔、觸發實際動作、產生測試訊息。 需要草稿歷程 + 命名空間。
+**練習：**追蹤實際生產對象資料的執行路徑，不傳送任何內容。 不傳送任何訊息，不執行任何動作。
 **搭配使用：**&#x200B;重複設計時的歷程模擬、使用真實測試設定檔進行手動訊息/邏輯測試的測試模式、大規模進行最終邏輯檢查的練習。 如需完整比較，請參閱[選擇驗證方法](../using/building-journeys/choose-validation-method.md)。
 
 ### 問：我可以在生產/即時狀態中測試歷程嗎？
 
-**測試模式：**&#x200B;否，僅限草稿歷程
-**試運行：**&#x200B;是，適用於任何歷程狀態
-**內容預覽：**&#x200B;是，隨時預覽個別訊息
+**測試模式：**否，僅限草稿歷程
+**試運行：**是，適用於任何歷程狀態
+**內容預覽：**是，隨時預覽個別訊息
 **因應措施：**&#x200B;將即時歷程複製為草稿，以進行完整測試模式驗證
 
 ### 問：哪些測試功能需要外部整合？
 
-**電子郵件轉譯：**&#x200B;需要 Litmus 整合 (個別授權)
-**所有其他功能：**&#x200B;內建至 Journey Optimizer，不需要其他整合
+**電子郵件轉譯：**需要 Litmus 整合 (個別授權)
+**所有其他功能：**內建至 Journey Optimizer，不需要其他整合
 **注意：**&#x200B;測試輪廓需要即時客戶輪廓服務 (已包含)
 
 ### 問：如何測試 API 觸發的行銷活動？
 
 **選項 1：**&#x200B;使用[行銷活動模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} 進行程式設計測試
-**選項 2：**&#x200B;在 UI 中使用測試輪廓預覽內容
-**選項 3：**&#x200B;傳送校樣以測試電子郵件地址
+**選項 2：**在 UI 中使用測試輪廓預覽內容
+**選項 3：**傳送校樣以測試電子郵件地址
 **最佳做法：**&#x200B;結合所有三個選項以進行全面驗證
 
 >[!ENDTABS]

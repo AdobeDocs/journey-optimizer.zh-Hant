@@ -11,31 +11,16 @@ mini-toc-levels: 1
 keywords: 行銷活動、如何進行、開始、最佳化程式
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1686
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -43,7 +28,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;了解行銷活動基本概念、比較可用的行銷活動類型，並依照端到端建立工作流程，協助您選擇正確方法，在 Adobe Journey Optimizer 中建立可跨管道傳遞目標內容的行銷活動。
+**在此頁面上：**&#x200B;瞭解行銷活動基本概念、比較可用的行銷活動型別，並遵循端對端建立工作流程，以便您可以選擇正確的方法，並在Adobe Journey Optimizer中建立跨管道提供目標內容的行銷活動。
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +178,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
   >[!NOTE]
   >
-  >行銷活動啟用的每個輪廓都會計入您組織的&#x200B;**可啟用的輪廓**&#x200B;授權量度 (滾動的 12 個月期間，每個沙箱計算一次)。 對大型或新客群啟用行銷活動可能會導致此計數大幅增加。 [監視可啟用的輪廓計數](../audience/license-usage.md)
+  >行銷活動啟用的每個設定檔都會計入您組織的&#x200B;**可啟用的設定檔**&#x200B;授權量度（滾動的12個月期間，每個沙箱計算一次）。 對大型或新受眾啟用行銷活動可能會導致此計數大幅增加。 [監視可參與的設定檔計數](../audience/license-usage.md)
 
 * **管道設定** - 管道設定 (預設集) 必須已建立，並且可供您想要使用的管道使用。 [設定管道設定 →](../configuration/channel-surfaces.md)
 
@@ -252,7 +237,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 
 +++
 
-+++&#x200B;3. 設計內容
++++&#x200B;3. 設計您的內容
 
 為客群建立吸引人的訊息：
 
@@ -323,7 +308,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **排程與時間**
 
@@ -333,7 +318,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **速率控制**
 
@@ -343,7 +328,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **客群目標定位**
 
@@ -353,7 +338,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **核准工作流程**
 
@@ -363,7 +348,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **勿打擾時間**
 
@@ -373,7 +358,7 @@ Adobe Journey Optimizer 可讓您跨多個管道，將具針對性的一次性�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最佳化**
 

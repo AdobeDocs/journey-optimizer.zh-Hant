@@ -6,21 +6,21 @@ description: 瞭解如何在 Journey Optimizer 中建立、管理和個人化品
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
 # 品牌{#section-overview}
 
-在 Adobe Journey Optimizer 中，「品牌」功能可讓您在所有行銷工作中定義和維護您的品牌唯一身分。 透過設定清晰的視覺和口頭方針 (例如顏色、標誌、寫作風格和影像)，您可以確保每一項內容都能引起客群的共鳴並強化您的品牌。 您將探索如何建立並個人化這些方針、設定無縫整合的預設偏好設定，並使用 Generate Content 等工具產生一致且符合品牌形象的內容。深入了解寫作風格、視覺內容及品牌一致性等主題，了解這些元素如何共同運作，為客戶建立統一的體驗。
+在 Adobe Journey Optimizer 中，「品牌」功能可讓您在所有行銷工作中定義和維護您的品牌唯一身分。 透過設定清晰的視覺和口頭方針 (例如顏色、標誌、寫作風格和影像)，您可以確保每一項內容都能引起客群的共鳴並強化您的品牌。 您將探索如何建立並個人化這些方針、設定無縫整合的預設偏好設定，並使用「產生內容」等工具來產生一致的品牌上內容。 深入了解寫作風格、視覺內容及品牌一致性等主題，了解這些元素如何共同運作，為客戶建立統一的體驗。
 
 ## 品牌功能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立和管理您的品牌方針
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 評估您的品牌一致性分數
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 個人化您的品牌
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立和管理生成式模型
 
@@ -63,4 +63,4 @@ ht-degree: 100%
 
 ## 其他資源
 
-- **[參加課程：由 AI 支援的符合品牌形象的內容建立](https://experienceleague.adobe.com/zh-hant/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 瞭解如何使用 AI 支援的工具在 Adobe Journey Optimizer 中為行銷人員建立符合品牌形象的內容。
+- **[參加課程：由AI支援的品牌內內容建立](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}** — 瞭解如何使用AI支援的工具在Adobe Journey Optimizer中為行銷人員建立品牌內內容。

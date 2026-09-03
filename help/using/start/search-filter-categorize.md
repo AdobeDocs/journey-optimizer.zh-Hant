@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 837
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -41,7 +34,7 @@ ht-degree: 100%
 
 ## 搜尋 {#unified-search}
 
-在 Adobe Journey Optimizer 介面中，使用頂端列中央的統一[!DNL Adobe CX Enterprise]搜尋功能，在您的沙箱中尋找資產、歷程、資料集等項目。
+在Adobe Journey Optimizer介面中，使用頂端列中央的統一[!DNL Adobe CX Enterprise]搜尋功能，在您的沙箱中尋找資產、歷程、資料集等。
 
 開始輸入內容以顯示排名最前的結果。 有關輸入關鍵字的說明文章也會顯示在結果中。
 
@@ -69,7 +62,7 @@ ht-degree: 100%
 
 ## 大量動作 {#bulk-actions}
 
-在&#x200B;**行銷活動**、**片段**、**歷程**&#x200B;和&#x200B;**範本**&#x200B;清單中，您可以使用核取方塊一次選取多個項目，並從畫面底部顯示的大量動作列對所有項目套用作業。
+在&#x200B;**行銷活動**、**片段**、**歷程**&#x200B;及&#x200B;**範本**&#x200B;清單中，您可以使用核取方塊一次選取多個專案，並從熒幕底部出現的批次動作列套用作業至所有專案。
 
 可進行下列操作：
 
@@ -82,7 +75,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->歷程也支援大量&#x200B;**[!UICONTROL 暫停]**&#x200B;和&#x200B;**[!UICONTROL 繼續]**。[瞭解更多 →](../building-journeys/journey-ui.md#bulk-operations)
+>歷程也支援大量&#x200B;**[!UICONTROL 暫停]**&#x200B;和&#x200B;**[!UICONTROL 繼續]**。 [深入瞭解→](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

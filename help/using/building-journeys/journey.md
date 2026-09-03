@@ -10,30 +10,12 @@ keywords: 歷程、探索、開始、單一、讀取對象、對象資格、商�
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
 source-wordcount: 2403
@@ -112,7 +94,7 @@ ht-degree: 63%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **定義進入點**
 
@@ -122,7 +104,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **傳送訊息**
 
@@ -132,7 +114,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -142,7 +124,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **善用資料**
 
@@ -152,7 +134,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **連線外部系統**
 
@@ -162,7 +144,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **新增協調流程活動**
 
@@ -254,7 +236,7 @@ ht-degree: 63%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **歡迎新的訂閱者**
 
@@ -264,7 +246,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **傳送時間最佳化**
 
@@ -274,7 +256,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **加快交付速度**
 
@@ -284,7 +266,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **依據工作日鎖定目標**
 
@@ -294,7 +276,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **多管道行銷活動**
 
@@ -304,7 +286,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **所有使用案例**
 
@@ -322,7 +304,7 @@ ht-degree: 63%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **進階運算式**
 
@@ -332,7 +314,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **時區管理**
 
@@ -342,7 +324,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **測試模式與試運行**
 
@@ -352,7 +334,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **複製到沙箱**
 
@@ -362,7 +344,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **標籤和整理**
 
@@ -372,7 +354,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **輸送量控制**
 
@@ -389,7 +371,7 @@ ht-degree: 63%
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 

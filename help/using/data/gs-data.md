@@ -8,30 +8,16 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -155,7 +141,7 @@ Journey Optimizer 中的資料來源會定義 Adobe Experience Platform (或外�
 建立 **XDM 個人輪廓**&#x200B;結構描述以擷取客戶屬性，例如名稱和聯絡資訊、偏好設定和興趣，以及生命週期階段或同意狀態。 建立 **XDM ExperienceEvent** 結構描述，以擷取行為與交易型資料，例如網頁與應用程式事件、購買和離線互動。 在適當的地方，將正確的欄位標示為身分識別和輪廓屬性。
 
 ➡️ [深入瞭解結構描述](get-started-schemas.md)\
-➡️ [輪廓啟用規劃](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +150,8 @@ Journey Optimizer 中的資料來源會定義 Adobe Experience Platform (或外�
 在 Adobe Experience Platform 中，根據您的 XDM 結構描述建立資料集，並在任何應有助於即時客戶輪廓的資料集上啟用輪廓。 確認 Journey Optimizer 建立的系統產生資料集在資料集工作區中可見。
 
 ➡️ [深入瞭解資料集](get-started-datasets.md)\
-➡️ [輪廓啟用規劃](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [管理已啟用輪廓的結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [設定檔啟用計畫](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [管理已啟用設定檔的結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -245,7 +231,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **開始使用結構描述**
 
@@ -255,7 +241,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **使用資料集**
 
@@ -265,7 +251,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **設定資料來源**
 
@@ -275,7 +261,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **使用 Adobe Experience Platform 資料 (查詢)**
 
@@ -285,7 +271,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **開始使用查詢**
 
@@ -295,7 +281,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **開始使用輪廓**
 
@@ -305,7 +291,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **設定資料概觀教學課程**
 
@@ -315,7 +301,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **建立資料集並擷取資料教學課程**
 

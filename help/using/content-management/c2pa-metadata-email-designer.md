@@ -58,4 +58,4 @@ C2PA中繼資料會透過Adobe Journey Optimizer中的電子郵件和登陸頁�
 ## 其他資源
 
 * [產生內容中的C2PA中繼資料](generative-c2pa-metadata.md)
-* [Generative AI內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Generative AI內容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)

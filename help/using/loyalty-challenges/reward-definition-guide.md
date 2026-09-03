@@ -482,4 +482,4 @@ Content-Type: application/json
 
 ➡️觀看如何設定忠誠獎勵提供者
 
->[!VIDEO](https://video.tv.adobe.com/v/3497418?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

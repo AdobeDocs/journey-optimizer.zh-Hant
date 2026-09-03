@@ -10,20 +10,11 @@ level: Experienced
 keywords: IP、群組、子網域、傳遞能力
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 TQID: https://experienceleague.adobe.com/AF925ZJj5sJoiDs-8YnYAUMURi2y71R3vq8LGmIbMaI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 2795
@@ -54,7 +45,7 @@ ht-degree: 11%
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="排除網域群組"
 >abstract="選取要從目前階段排除的網域。 網域排除需要非執行階段，因此您可能必須分割執行中階段才能新增排除。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=zh-Hant#split-phase" text="分割階段"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="分割階段"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -97,13 +88,13 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >一旦IP熱身計畫執行後，如果您更新用於IP熱身行銷活動的電子郵件通道[設定](channel-surfaces.md)中的[執行位址](../email/email-settings.md#execution-address)，網域排除可能會失敗。 在IP熱身計畫啟動後，請勿編輯電子郵件通道設定。
 
-   1. 在用於排除設定檔&#x200B;**區段的**&#x200B;行銷活動中，選取要從目前階段排除對象的行銷活動。
+   1. 在用於排除設定檔&#x200B;]**區段的**[!UICONTROL &#x200B;行銷活動中，選取要從目前階段排除對象的行銷活動。
 
       ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
       例如，在執行階段1時，由於任何原因，您必須[分割它](#split-phase)。 因此，您可以排除階段1中使用的行銷活動，如此一來，階段1中先前聯絡的設定檔就不會包含在階段2中。 您也可以從其他IP熱身計畫中排除行銷活動。
 
-   1. 在排除設定檔&#x200B;**區段的**&#x200B;歷程中，選取包含您要從目前階段排除之對象的歷程。
+   1. 在排除設定檔&#x200B;]**區段的**[!UICONTROL &#x200B;歷程中，選取包含您要從目前階段排除之對象的歷程。
 
       +++ 若要使用歷程來排除設定檔選項，您需要在AJO訊息回饋事件與AJO實體記錄結構描述之間建立關係。
 
@@ -169,7 +160,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. 或者，您可以定義一個時間範圍，在萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#how-segmentation-works){target="_blank"}有任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
+1. 或者，您可以定義一個時間範圍，在萬一[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}有任何延遲時，可以執行IP熱身行銷活動。 若要這麼做，請按一下左上角計畫名稱旁的「屬性」圖示，然後使用&#x200B;**[!UICONTROL 重試執行時間]**&#x200B;下拉式清單來選取持續時間 — 最多240分鐘（4小時）。
 
    >[!NOTE]
    >
@@ -179,7 +170,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    例如，如果您將傳送時間設定在指定的上午9點，並選取120分鐘作為重試執行時間，則允許針對對象評估中任何未預期的延遲執行機會2小時（上午9點至上午11點）的時段。
 
-1. 如有需要，請從[更多動作]圖示中選取[編輯執行]。 **&#x200B;**&#x200B;您可以在此處更新每欄中的地址數。 例如，您也可以更新「**[!UICONTROL 上次參與]**」欄位，以僅針對過去20天內與您品牌參與的使用者。
+1. 如有需要，請從[更多動作]圖示中選取[編輯執行]。 ****&#x200B;您可以在此處更新每欄中的地址數。 例如，您也可以更新「**[!UICONTROL 上次參與]**」欄位，以僅針對過去20天內與您品牌參與的使用者。
 
    >[!NOTE]
    >
@@ -219,7 +210,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 同時執行多個IP熱身計畫時，如果所有計畫的目標都是相同的IP集區和網域，預測可能造成的影響至關重要。 例如，如果ISP執行每日100封電子郵件的限制，則針對相同網域執行數個計畫可能會超過此臨界值。
 
-請確定您已排程足夠的時間來允許執行[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#how-segmentation-works){target="_blank"}。
+請確定您已排程足夠的時間來允許執行[對象評估](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -231,7 +222,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * 如果啟動階段的第一次執行：
 
-  * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
+  * 已針對已排除的行銷活動對象建立[對象](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} （如果有的話），其命名慣例如下： `<warmupName>-Phase<phaseNo>-Audience Exclusion`。
 
   * 已使用下列命名慣例為已排除的網域群組（如果有的話）建立對象： `<warmupName>-Phase<phaseNo>-Domain Exclusion`。
 
@@ -320,7 +311,7 @@ IP熱身計畫本身可在單一位置作為整合報表。 您可以檢查每�
 
 例如，如果您為「執行#4段」選取此選項，則#8要執行的執行#4段將移至目前階段之後的新階段。
 
-請依照上述步驟[&#128279;](#define-phases)定義新階段。
+請依照上述步驟[](#define-phases)定義新階段。
 
 * 您可以為該新階段使用&#x200B;**[!UICONTROL 取代]**&#x200B;或&#x200B;**[!UICONTROL 清除]**&#x200B;選項。
 

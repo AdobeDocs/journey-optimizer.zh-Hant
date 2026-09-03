@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 角色與職責 | Adobe Journey Optimizer
-description: 了解 Adobe Journey Optimizer 的角色、職責和建議實施順序。
+title: 角色和責任 |Adobe Journey Optimizer
+description: 瞭解Adobe Journey Optimizer的角色、責任及建議實作順序。
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -11,39 +11,16 @@ keywords: 角色，責任，行銷人員，管理員，資料工程師，開發�
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6MbvGvYY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072fid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2101
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -51,15 +28,15 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;了解 Adobe Journey Optimizer 實施中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
+**在此頁面上：**&#x200B;瞭解 Adobe Journey Optimizer 實作中的主要角色及其職責，以便您找到適合您團隊的正確起點和快速入門工作。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應各角色的職責，並連結至詳細的快速入門指南。
+Adobe Journey Optimizer是由四個不同的角色依序實作。 此頁面對應每個角色的職責，並提供詳細快速入門手冊的連結。
 
 >[!NOTE]
 >
->剛開始使用 Journey Optimizer？ 請先從[什麼是 Journey Optimizer](get-started.md) 開始。
+>不熟悉Journey Optimizer？ 從[Journey Optimizer](get-started.md)開始。
 
 **重要注意事項：** Adobe Journey Optimizer 定義具有特定職責的不同角色。 視您的組織結構而定，個人可以執行多個角色或所有角色。
 
@@ -67,7 +44,7 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 >
 >* 目前環境可用元件和功能取決於[使用權限](../administration/permissions.md)，還有您的[授權封裝](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 >
->* [!DNL Adobe CX Enterprise] 的一般隱私權準則和程序適用於 [!DNL Journey Optimizer]。[進一步了解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
+>* [!DNL Adobe CX Enterprise]一般隱私權准則和程式適用於[!DNL Journey Optimizer]。 [進一步瞭解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
 
 ## 開始之前 {#before-you-begin}
 
@@ -126,7 +103,7 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 4. **行銷人員**：設計和執行客戶體驗\
    行銷人員運用所有基礎工作來建立歷程、建立內容，並跨所有管道最佳化客戶體驗。
    * 使用細分、CSV 上傳或客群構成建立客群
-   * 使用 AI 助理和範本設計個人化內容
+   * 使用產生內容和範本設計個人化內容
    * 使用事件和客群觸發程序建立多管道歷程
    * 啟動前使用核准工作流程進行測試
    * 根據報告深入分析監視績效並最佳化
@@ -257,7 +234,7 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 
 若要進一步了解 Journey Optimizer 的主要功能和人物誌，請觀看簡介影片。 影片會逐步介紹使用者介面，並根據角色專屬工作流程重點說明主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## 其他資源
 
@@ -270,7 +247,7 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 * [教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}：所有角色的逐步教學課程影片
 * [開始使用資料管理](../data/gs-data.md) - Journey Optimizer 的結構描述、資料集、身分識別和資料整備檢查清單
 * [歷程使用案例資料庫](../building-journeys/jo-use-cases.md)：實際範例和實施模式
-* [AI &amp; 智慧型功能](ai-features.md) - 瞭解 AI、傳送時間最佳化和內容產生
+* [AI和智慧型功能](ai-features.md) — 瞭解AI、傳送時間最佳化和內容產生
 * [使用者介面指南](user-interface.md)：有效瀏覽Journey Optimizer
 
 >[!TAB 隨時掌握]
@@ -281,8 +258,8 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 
 >[!TAB 社群與支援]
 
-* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：和其他使用者和專家保持聯繫
-* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}：提問、共享知識
+* [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：和其他使用者和專家保持聯繫
+* [產品論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}：提問、共享知識
 
 >[!ENDTABS]
 
@@ -290,7 +267,7 @@ Adobe Journey Optimizer 由四個不同角色依序實施。此頁面會對應�
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員快速入門](path/administrator.md) |
+| 管理員 | [管理員開始使用](path/administrator.md) |
 | 資料工程師 | [資料工程師快速入門](path/data-engineer.md) |
-| 開發人員 | [開發人員快速入門](path/developer.md) |
+| Developer | [開發人員快速入門](path/developer.md) |
 | 行銷人員 | [行銷人員快速入門](path/marketer.md) |

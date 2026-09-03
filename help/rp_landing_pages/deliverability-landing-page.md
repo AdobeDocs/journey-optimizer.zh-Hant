@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 電子郵件傳遞能力簡介
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 了解禁止名單
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 遵守新的 DMARC 要求
 

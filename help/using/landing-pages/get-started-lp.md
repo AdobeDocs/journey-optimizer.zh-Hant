@@ -10,21 +10,12 @@ level: Beginner
 keywords: 登陸、登陸頁面、開始、開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
@@ -135,6 +126,6 @@ ht-degree: 100%
 
 以下影片說明如何建立訂閱清單、設定登陸頁面以選擇加入或選擇退出服務、將選擇加入/選擇退出選項整合至訊息以及設定相關歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502221?captions=chi_hant&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **在實作中檢視：**&#x200B;探索[登陸頁面使用案例](lp-use-cases.md)，以取得涵蓋訂閱管理、確認電子郵件及資料擷取案例的逐步範例。

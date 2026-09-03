@@ -29,7 +29,7 @@ ht-degree: 2%
 
 1. 請詳閱[必要條件](web-prerequisites.md)，尤其是：
    * 設定[!DNL Adobe Experience Cloud Visual Editing Helper]。
-   * 在您的[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=zh-Hant){target="_blank"}中啟用[!DNL Adobe Journey Optimizer]。
+   * 在您的[資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"}中啟用[!DNL Adobe Journey Optimizer]。
    * 啟用[!UICONTROL Edge上的Active-On合併原則]選項。
 
 1. 將`renderDecisions`選項新增至您的事件。 將`renderDecisions`設為`true`，以在網頁表面上自動呈現傳遞的Journey Optimizer內容主張。
@@ -41,7 +41,7 @@ ht-degree: 2%
    })
    ```
 
-1. 可選擇在事件中指定其他介面。 根據預設，網頁SDK會自動產生目前網頁的網頁表面，並將其納入Edge Network要求中。 如有需要，可在`sendEvent`命令的`personalization.surfaces`選項中，或在Web SDK擴充功能的對應&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL 傳送事件]動作](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=zh-Hant#send-event){target="_blank"}設定中指定這些專案，以便在要求中包含其他介面。
+1. 可選擇在事件中指定其他介面。 根據預設，網頁SDK會自動產生目前網頁的網頁表面，並將其納入Edge Network要求中。 如有需要，可在`sendEvent`命令的`personalization.surfaces`選項中，或在Web SDK擴充功能的對應&#x200B;**[!UICONTROL Surfaces]** [[!UICONTROL 傳送事件]動作](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"}設定中指定這些專案，以便在要求中包含其他介面。
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ ht-degree: 2%
    }
    ```
 
-1. 如同其他個人化功能，您可以新增&#x200B;**[預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=zh-Hant){target="_blank"}**，以便在擷取體驗時只隱藏頁面的某些部分。
+1. 如同其他個人化功能，您可以新增&#x200B;**[預先隱藏程式碼片段](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}**，以便在擷取體驗時只隱藏頁面的某些部分。
 
 ## 呈現個人化內容 {#rendering-personalized-content}
 
-如需呈現個人化內容的詳細資訊，請參閱[Adobe Experience Platform Web SDK檔案](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=zh-Hant){target="_blank"}。
+如需呈現個人化內容的詳細資訊，請參閱[Adobe Experience Platform Web SDK檔案](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"}。
 
 網頁介面的Adobe Journey Optimizer主張的處理方式與`__view__`決定範圍主張類似。 具體來說，當`sendEvent`命令中的`renderDecisions`選項設定為`true`時，這些將會由網頁SDK自動轉譯。
 
@@ -124,6 +124,6 @@ Journey Optimizer內容主張範例：
 
 ## 除錯 {#debugging}
 
-若要偵錯Adobe Journey Optimizer個人化實作，請使用[Web SDK偵錯](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=zh-Hant){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)進行疑難排解時，有[!DNL Adobe Journey Optimizer]個偵錯追蹤可供使用。 檢查具有`AJO:`首碼的事件。
+若要偵錯Adobe Journey Optimizer個人化實作，請使用[Web SDK偵錯](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)進行疑難排解時，有[!DNL Adobe Journey Optimizer]個偵錯追蹤可供使用。 檢查具有`AJO:`首碼的事件。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)

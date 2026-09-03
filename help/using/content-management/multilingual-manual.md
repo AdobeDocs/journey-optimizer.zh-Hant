@@ -10,25 +10,15 @@ level: Beginner
 keywords: 開始使用、開始、內容、實驗
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ ht-degree: 2%
    >
    >這些先決條件僅是應用程式內和內容卡管道的必要條件。
 
-   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. 在Adobe Experience Platform資料彙集中存取&#x200B;**[!UICONTROL 規則]**&#x200B;功能表並建立新規則。 有關如何建立規則的詳細資訊，請參閱[!DNL Adobe Experience Platform] [資料收集檔案](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    2. 在規則的&#x200B;**[!UICONTROL IF]**&#x200B;區段中，新增設定如下的事件：
 
@@ -198,6 +188,10 @@ ht-degree: 2%
 
 1. 存取&#x200B;**[!UICONTROL 地區]**&#x200B;功能表的進階設定，並選取&#x200B;**[!UICONTROL 複製到所有地區]**。
 
+   >[!NOTE]
+   >
+   >此操作會處理後端中的完整電子郵件裝載，並須遵守與歷程發佈相同的[訊息內容大小護欄](../start/guardrails.md#message-content-size) （最大2 MB，最好少於1 MB）。 如果您的內容很大，請一次複製到較少的地區。
+
    ![](assets/multilingual-campaign-4.png)
 
 1. 現在您的內容已在您選取的&#x200B;**[!UICONTROL 地區設定]**&#x200B;中重複，請存取每個地區設定，然後按一下&#x200B;**[!UICONTROL 編輯電子郵件內文]**&#x200B;來翻譯您的內容。
@@ -208,7 +202,7 @@ ht-degree: 2%
 
    ![](assets/multilingual-campaign-6.png)
 
-1. 若要停用您的多語言組態，請按一下[新增語言] **&#x200B;**，然後選取要保留為當地語言的語言。
+1. 若要停用您的多語言組態，請按一下[新增語言] ****，然後選取要保留為當地語言的語言。
 
    ![](assets/multilingual-campaign-7.png)
 

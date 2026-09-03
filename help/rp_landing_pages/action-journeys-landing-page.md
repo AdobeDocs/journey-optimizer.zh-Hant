@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用自訂動作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 如何設定自訂動作
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 在自訂動作中使用 API 呼叫回應
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的動作設定可讓您將客戶歷程順暢地與�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視自訂動作
 

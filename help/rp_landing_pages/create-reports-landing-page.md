@@ -25,7 +25,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用決策管理事件
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 存取及探索 DecisioningEvents XDM 欄位
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 使用歷程事件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 設定單一事件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的事件設定全都是關於設定啟動個人化�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent 結構描述
 
@@ -50,7 +50,7 @@ ExperienceEvent 結構描述
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics 整合功能
 
@@ -60,7 +60,7 @@ Adobe Analytics 整合功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 設定業務事件
 
@@ -70,7 +70,7 @@ Adobe Analytics 整合功能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 使用串流 API 傳送事件
 

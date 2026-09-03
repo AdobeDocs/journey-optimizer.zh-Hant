@@ -9,8 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
 source-wordcount: 1005
@@ -27,7 +26,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->Journey Optimizer忠誠度目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
+>Journey Optimizer Loyalty目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
 
 ## 概觀 {#overview}
 
@@ -161,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
@@ -184,5 +183,5 @@ ht-degree: 13%
 
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
