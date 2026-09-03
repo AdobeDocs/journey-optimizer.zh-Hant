@@ -9,26 +9,19 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
 source-wordcount: 473
-ht-degree: 24%
+ht-degree: 33%
 
 ---
 
-# 為API觸發的行銷活動建立意見回饋Webhook {#webhooks}
+# 為 API 觸發的行銷活動建立回饋 Webhook {#webhooks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
@@ -55,7 +48,7 @@ ht-degree: 24%
 >[!NOTE]
 >每個&#x200B;**組織+沙箱**&#x200B;組合只允許一個webhook設定。
 
-## 建立意見回饋webhook {#feedback-webhook}
+## 建立回饋 Webhook {#feedback-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -69,8 +62,8 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_relay_url"
->title="轉送URL"
->abstract="用於為此Webhook傳遞事件的HTTPS端點Journey Optimizer呼叫，包括傳遞狀態更新，以及在啟用時，按原樣轉送的傳入SMS/RCS訊息。"
+>title="轉送 URL"
+>abstract="此 HTTPS 端點，Journey Optimizer 叫用傳遞事件的 Webhook ，包括傳遞狀態更新，以及 (當啟用時) 依原樣轉送的傳入簡訊/RCS 訊息。"
 
 若要建立webhook，請執行下列步驟：
 
