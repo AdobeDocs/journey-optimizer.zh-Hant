@@ -10,12 +10,19 @@ level: Intermediate
 keywords: 運算式，編輯器，協助程式，使用案例，個人化
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
 source-wordcount: 1712
@@ -248,7 +255,7 @@ ht-degree: 1%
       {%/if%}
       ```
 
-      具有if協助程式範本](assets/personalization-uc-helpers-12.png)的![運算式編輯器
+      具有if協助程式範本![&#128279;](assets/personalization-uc-helpers-12.png)的運算式編輯器
 
 1. 從運算式移除此條件：
 
@@ -380,7 +387,7 @@ ht-degree: 1%
 * 建立其結構描述包含`productListItems`陣列的歷程事件
 * 使用`{%= upperCase(profile.person.name.firstName) %}`以大寫插入客戶的名字
 * 使用`{{#each}}`反複運算`context.journey.events.event_ID.productListItems`以列出購物車專案
-* 使用`{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %}&#39;有條件地顯示產品專屬備註
+* 使用`{%#if context.journey.events.\`event_ID\&#39;.productListItems.name = &quot;product_name&quot; %&rbrace;&#39;有條件地顯示產品專屬備註
 * 使用具有事件有效負載的測試設定檔，在測試模式下測試歷程，然後發佈
 
 >[!TAB 字彙]
