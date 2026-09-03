@@ -10,23 +10,15 @@ level: Intermediate
 keywords: 行銷活動，檢閱，驗證，啟用，啟用，最佳化工具
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 TQID: https://experienceleague.adobe.com/BKGXccq-kwZJA-cZ4SAyf3zJBIvyJnr5V01xmbQgwmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: 341
 ht-degree: 3%
 
 ---
@@ -57,7 +49,7 @@ ht-degree: 3%
 
 1. 當行銷活動在其內容中使用[決定原則](../experience-decisioning/create-decision.md)時，您可以檢閱每個原則的結構，並直接從行銷活動摘要複製技術詳細資訊。 [了解做法](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。**&#x200B;**
+1. 檢查您的行銷活動是否已正確設定，然後按一下[啟動]。****
 
 1. 行銷活動已啟動。 其狀態為&#x200B;**[!UICONTROL 即時]**，或者&#x200B;**[!UICONTROL 已排程]** （如果您已輸入開始日期）。 行銷活動中設定的訊息會立即傳送或在指定日期傳送。
 
@@ -67,6 +59,6 @@ ht-degree: 3%
 
 1. 行銷活動啟動後，您可以隨時透過開啟行銷活動來檢查其資訊。 摘要可讓您取得目標設定檔與傳送和失敗動作數的統計資料。
 
-   您也可以按一下&#x200B;**[!UICONTROL 報表]**&#x200B;按鈕，在專用報表中取得其他統計資料。 [了解更多](../reports/campaign-global-report-cja.md)
+   您也可以按一下&#x200B;**[!UICONTROL 檢視報告]**&#x200B;按鈕，在專用報告中取得其他統計資料。 [了解更多](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
