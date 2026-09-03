@@ -20,7 +20,7 @@ Adobe Journey Optimizer 可讓您透過 WhatsApp 與客群連線，這是一個�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 WhatsApp 訊息快速入門
 

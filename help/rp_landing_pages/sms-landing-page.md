@@ -30,7 +30,7 @@ Adobe Journey Optimizer 的簡訊/MMS/RCS 管道可讓您透過個人化的行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 如何建立簡訊、MMS 和 RCS 訊息
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的簡訊/MMS/RCS 管道可讓您透過個人化的行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 檢查並傳送文字訊息
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 的簡訊/MMS/RCS 管道可讓您透過個人化的行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 設定簡訊 / MMS / RCS 管道
 

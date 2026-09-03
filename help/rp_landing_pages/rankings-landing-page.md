@@ -45,7 +45,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 產品建議排名的 AI 模型
 

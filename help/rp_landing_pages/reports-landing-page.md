@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的自訂歷程報告可讓您使用歷程步驟事�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 資料分析的 SQL 查詢範例
 

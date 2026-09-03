@@ -20,7 +20,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 使用進階運算式編輯器
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 進階運算式語法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 包含&#x200B;**進階運算式編輯器**，可讓您�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 中的函式
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer 中的函式
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 Journey Optimizer 資料集、相關使用案例的查詢範例
 
@@ -61,7 +61,7 @@ Journey Optimizer 資料集、相關使用案例的查詢範例
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 資料分析的 SQL 查詢範例
 

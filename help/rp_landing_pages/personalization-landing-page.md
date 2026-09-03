@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 新增及驗證個人化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 了解個人化語法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 重複使用運算式片段
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=zh-Hant)
 
 協助程式函式參考指南
 
