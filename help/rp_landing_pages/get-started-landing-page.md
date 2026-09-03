@@ -8,17 +8,17 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 # 開始使用 Adobe Journey Optimizer{#get-started}
 
-無論您是 Journey Optimizer 的新手還是回訪以探索新功能，此頁面都是您的起點。 選擇適合您的角色和目標的路徑。
+無論您是Journey Optimizer的新手還是回訪以探索新功能，此頁面都是您的起點。 選擇適合您的角色和目標的路徑。
 
-## 剛開始使用 Journey Optimizer？ {#essentials}
+## 不熟悉Journey Optimizer？ {#essentials}
 
 了解 Adobe Journey Optimizer 的基礎知識，以及它如何實現大規模的資料導向個人化。
 
@@ -124,7 +124,7 @@ AI 與智慧功能
 
 為您的目標尋找合適的功能
 
-依業務目標瀏覽使用案例，並跳至建議的 Journey Optimizer 功能。
+依業務目標瀏覽使用案例，並跳至建議的Journey Optimizer功能。
 
 [探索使用案例](../using/start/ajo-use-case-guide.md)
 :::
@@ -163,7 +163,7 @@ AI 與智慧功能
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
-報告
+報表
 
 [使用即時報告監視效能](../using/reports/live-report.md)
 :::
@@ -241,6 +241,6 @@ AI 與智慧功能
 >
 >您的環境可用元件和功能取決於您的[權限](../using/administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有關於特定設定的問題，請聯絡您的 Adobe 客戶成功經理。
 
-## 正在尋找實施順序？
+## 正在尋找實作順序嗎？
 
-如果您的團隊是第一次設定 Journey Optimizer，請參閱[角色與責任](../using/start/quick-start.md)，以瞭解所有角色的建議操作順序。
+如果您的團隊是第一次設定Journey Optimizer，請參閱[角色和責任](../using/start/quick-start.md)，以瞭解所有角色的建議操作順序。

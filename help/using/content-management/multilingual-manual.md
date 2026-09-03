@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ ht-degree: 2%
 1. 從下拉式選單中選擇所需的地區設定，以套用至現有的編寫內容。
 
 1. 存取&#x200B;**[!UICONTROL 地區]**&#x200B;功能表的進階設定，並選取&#x200B;**[!UICONTROL 複製到所有地區]**。
+
+   >[!NOTE]
+   >
+   >此操作會處理後端中的完整電子郵件裝載，並須遵守與歷程發佈相同的[訊息內容大小護欄](../start/guardrails.md#message-content-size) （最大2 MB，最好少於1 MB）。 如果您的內容很大，請一次複製到較少的地區。
 
    ![](assets/multilingual-campaign-4.png)
 

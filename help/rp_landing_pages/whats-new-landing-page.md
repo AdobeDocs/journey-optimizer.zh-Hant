@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Immerse yourself in a hands-on experience with our [Generate Content](../help/us
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 的最新發行說明
 

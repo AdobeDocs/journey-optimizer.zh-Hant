@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1733
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**實施順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) → [開發人員](developer.md) →您在這裡： **行銷人員**
+>**實作順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) → [開發人員](developer.md) →您在這裡： **行銷人員**
 >
 >在建立歷程之前，請確認[環境設定](administrator.md)和[資料設定](data-engineer.md)已完成。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->剛開始使用 Journey Optimizer？ 在開始本指南之前，請先閱讀[什麼是 Journey Optimizer](../get-started.md)。
+>不熟悉Journey Optimizer？ 在開始本指南之前，請先閱讀[什麼是Journey Optimizer](../get-started.md)。
 
 請與您的[管理員](administrator.md)合作以取得存取權，並與[資料工程師](data-engineer.md)合作以設定客群、資料和關聯式結構描述以進行進階細分。 檢視[開始使用資料管理](../../data/gs-data.md)概觀，以瞭解需要哪些資料設定，然後才能建立歷程和行銷活動。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 1. **建立客群**。 透過區段定義、上傳 CSV 檔案或使用客群構成來建立客群。 Journey Optimizer 提供多種方法來鎖定合適的客戶。 深入了解[客群](../../audience/about-audiences.md)和[建立區段定義](../../audience/creating-a-segment-definition.md)。
 
 1. **設計內容**。 跨所有管道建立吸引人的訊息，包括電子郵件、簡訊、推播、網頁推播、應用程式內、網頁、直接郵件和內容卡：
-   * 根據您的品牌方針，使用 AI 產生電子郵件內容、主旨列以及影像。 [了解 AI 內容產生](../../content-management/gs-generative.md)
+   * 根據您的品牌方針，使用AI產生電子郵件內容、主旨行和影像。 [了解 AI 內容產生](../../content-management/gs-generative.md)
    * 使用客戶資料、動態內容和條件式邏輯&#x200B;**個人化訊息**。 [了解個人化](../../personalization/personalize.md)
    * **反覆處理內容資料**&#x200B;以顯示事件、自訂動作和資料集查詢的動態清單。 [了解如何反覆處理內容資料](../../personalization/iterate-contextual-data.md)
    * 建立可重複使用的&#x200B;**內容範本**&#x200B;和&#x200B;**片段**，以維持品牌一致性。 [使用範本](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ ht-degree: 100%
 
 * **從範本開始**：使用預先建立的範本和內容片段來加速建立並維持一致性
 * **及早測試，經常測試**：一律預覽跨裝置的內容，並使用測試輪廓來驗證個人化
-* **明智地運用 AI**：使用 AI 製作初稿和變化版本，但務必檢閱並調整，使其符合您的品牌語調
+* **明智地利用AI**：將AI用於初始草稿和變體，但一律檢閱並調整您的品牌聲音
 * **保持簡潔**：簡潔、簡明的訊息與強大的行動號召比複雜的版面效果更好
 
 ### 歷程設計
@@ -145,7 +145,7 @@ ht-degree: 100%
 
 ### 行銷活動協調
 
-* **選擇正確的方法**：參閱[歷程與行銷活動](../journeys-vs-campaigns.md)，判斷要使用即時協調流程還是排程傳送，再參閱[歷程類型：選擇正確類型](../../building-journeys/journey-types-selection.md)，以挑選合適的歷程類型
+* **選擇正確的方法**：參閱[歷程與行銷活動](../journeys-vs-campaigns.md)，決定要如何即時協調與排程傳送，然後[歷程型別：選擇正確的方法](../../building-journeys/journey-types-selection.md)，以選擇正確的歷程型別
 * **定義明確的行銷活動目標**：在設計多步驟工作流程之前建立目標
 * **從試驗客群開始**：在擴充之前驗證計數和細分邏輯
 * **運用關聯式資料**：使用多實體細分，將客戶資料與帳戶、購買、訂閱連線，以進行精確目標定位
@@ -235,7 +235,7 @@ ht-degree: 100%
 ## 後續步驟
 
 1. **從小事做起**：建立簡單的歡迎歷程或單一訊息行銷活動，以了解平台
-2. **善用 AI**：使用 AI 提問並加速內容建立
+2. **利用AI**：使用AI提出問題並加速內容建立
 3. **加入社群**：與 [Experience League 社群](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}中的其他 Journey Optimizer 使用者交流
 4. **探索教學課程**：觀看 [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} 上的逐步影片
 
@@ -243,9 +243,9 @@ ht-degree: 100%
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員快速入門](administrator.md) |
+| 管理員 | [管理員開始使用](administrator.md) |
 | 資料工程師 | [資料工程師快速入門](data-engineer.md) |
-| 開發人員 | [開發人員快速入門](developer.md) |
+| Developer | [開發人員快速入門](developer.md) |
 | 行銷人員 | [行銷人員快速入門](marketer.md) |
 
-返回[角色與職責總覽](../quick-start.md) · 返回[快速入門](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

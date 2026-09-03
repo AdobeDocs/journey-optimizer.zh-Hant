@@ -780,7 +780,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 當當作第二個引數的運算式是特殊規則運算式字元時，請使用雙反斜線(`//`)。  特殊規則運算式字元包括：[.， +， *， ？， ^， $， (， )， [，]， {， }， |， \.]
+> 當當作第二個引數的運算式是特殊規則運算式字元時，請使用雙反斜線(`//`)。  特殊規則運算式字元包括：[.、+、*、？、^、$、(、)、[、]、{、}、 |， \.]
 > 
 > 進一步瞭解[Oracle檔案](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}。
 >

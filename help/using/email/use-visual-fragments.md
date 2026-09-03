@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
+source-git-commit: d8f0a7fc524651079c39ca683f7916234d68bab3
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
 * 檢查您的電子郵件結構，找出包含條件式內容的巢狀片段
 * 透過在電子郵件層級將每個具有條件內容的片段移動到其自己的結構區塊中來重新構建
 * 儲存並確認條件式內容變體已正確還原
+
+>[!NOTE]
+>
+>如果片段使用動態內容且其預設狀態為空白，則當片段新增至電子郵件Designer中的電子郵件時，可能會顯示空白。 這是預期行為 — 系統使用預設變體作為後援以確保一致性。 若要預覽實際內容，[使用符合片段動態內容規則中定義條件的設定檔來模擬您的電子郵件](../content-management/preview-test.md)。
 
 ## 使用隱含變數 {#implicit-variables-in-fragments}
 

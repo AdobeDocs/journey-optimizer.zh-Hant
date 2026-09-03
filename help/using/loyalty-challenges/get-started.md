@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->Journey Optimizer忠誠度目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
+>Journey Optimizer Loyalty目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
 
 ## 概觀 {#overview}
 

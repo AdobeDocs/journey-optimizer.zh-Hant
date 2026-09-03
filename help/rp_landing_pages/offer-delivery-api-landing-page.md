@@ -55,7 +55,7 @@ Adobe Journey Optimizer 的產品建議傳遞 API 可讓您在適當的時間向
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 使用批次決策 API 傳遞產品建議
 

@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -89,3 +89,25 @@ ht-degree: 7%
 * 瞭解如何建立將在[此區段](create-dataset.md)中收集體驗事件的資料集。
 
 * 在[本節](schema-requirement.md)中瞭解如何定義要傳送意見回饋資料的體驗事件。
+
+## 隱藏意見回饋事件 {#suppress-feedback}
+
+測試實作時，您可以使用`dryRun`旗標來抑制意見反應事件，並防止擷取這些事件以用於報表和頻率上限計數器。
+
+>[!CAUTION]
+>
+>`dryRun`旗標僅供測試之用。 請確保在投入使用前將其移除，因為將其保留在生產中將會無訊息地抑制所有意見資料，並防止頻率上限計數器增加。
+
+將`dryRun`標幟新增至使用者端實作中的XDM事件`data`區塊：
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```

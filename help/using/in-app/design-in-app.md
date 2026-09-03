@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 26%
 ### 關閉按鈕 {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="選擇關閉按鈕的樣式。"
 >abstract="關閉按鈕部分提供選項讓您選取訊息關閉按鈕的變化，以及上傳自訂影像的選項。"
 
@@ -118,7 +118,7 @@ ht-degree: 26%
 ### 媒體 {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="新增媒體至您的應用程式內訊息，以建立令一般使用者信服的體驗。"
 >abstract="提供至內容的直接連結，或使用資產選擇器從 Asset Essentials 挑選要新增至訊息的媒體。"
 
@@ -138,7 +138,7 @@ ht-degree: 26%
 ### 內容 {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="若要撰寫訊息，請在「標題」與「本文」欄位輸入內容。"
 >abstract="此處可以新增標題與內容文字。 若要納入個人化語彙基元，請開啟個人化對話框。"
 
@@ -161,7 +161,7 @@ ht-degree: 26%
 ### 按鈕 {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="新增按鈕讓使用者可以和您的應用程式內訊息互動。"
 >abstract="本部份可讓您在訊息中新增召喚行動按鈕。 您也可以針對每個按鈕納入自訂的文字與目標。"
 
@@ -204,6 +204,11 @@ ht-degree: 26%
 >title="預覽您的應用程式內訊息。"
 >abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="預覽您的應用程式內訊息。"
+>abstract="這是預覽影像，將會在訊息傳送至裝置的訊息摘要時顯示。"
+
 >[!NOTE]
 >
 >預覽僅適用於行動應用程式內訊息。
@@ -221,9 +226,15 @@ ht-degree: 26%
 ### 版面配置 {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="定義應用程式內訊息的訊息版面。"
 >abstract="本部份可讓您在應用程式內訊息中新增背景。 這需要 UI 接管才能啟用。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="定義應用程式內訊息的訊息版面。"
+>abstract="本部份可讓您在應用程式內訊息中新增背景。 這需要 UI 接管才能啟用。"
+
 
 ![](assets/in_app_web_design_6.png)
 

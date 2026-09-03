@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 716
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 電子郵件管道
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 推播通知管道
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer 提供各式各樣的原生管道，讓您有效與客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 iOS 即時動態
 
@@ -77,27 +77,27 @@ iOS 即時動態
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
-行動訊息
+行動裝置訊息
 
-瞭解如何建立、管理及設定簡訊、MMS 和 RCS 訊息，用於行銷和交易型用途，包含合規性和個人化。
+了解如何建立、管理和設定簡訊、MMS 和 RCS訊息以用於行銷和交易目的，包括合規性和個人化。
 
 [進一步瞭解行動訊息](../mobile/get-started-mobile.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 直接郵件
 
-瞭解如何建立和管理直接郵件行銷活動，包括為第三方提供者匯出擷取檔案，以及確保符合使用者同意要求。
+了解如何建立和管理直接郵件行銷活動，包括匯出第三方提供者的摘取檔案，以及確保符合使用者同意。
 
 [進一步瞭解直接郵件](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp 訊息
 
@@ -107,7 +107,7 @@ WhatsApp 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE 訊息
 
@@ -125,7 +125,7 @@ LINE 訊息
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息
 
@@ -135,7 +135,7 @@ LINE 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 網頁
 
@@ -145,7 +145,7 @@ LINE 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 程式碼型體驗
 
@@ -155,7 +155,7 @@ LINE 訊息
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 內容卡片
 

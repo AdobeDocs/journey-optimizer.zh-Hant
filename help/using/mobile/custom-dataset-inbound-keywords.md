@@ -75,7 +75,7 @@ ht-degree: 12%
    * [!DNL Adobe CJM ExperienceEvent - Message Execution Details]
    * [!DNL Adobe CJM ExperienceEvent - Message Profile Details]
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 建立資料集 {#create-dataset}
 
@@ -99,7 +99,7 @@ ht-degree: 12%
 
    ![](assets/schema-sms-6.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 設定API認證 {#configure-api-credentials}
 

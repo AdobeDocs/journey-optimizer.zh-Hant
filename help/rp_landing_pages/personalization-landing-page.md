@@ -20,7 +20,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用個人化
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 中的個人化可讓您根據個別輪廓、行為和�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 使用 Adobe Experience Platform 資料進行個人化 (Beta)
 

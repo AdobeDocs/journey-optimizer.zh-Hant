@@ -5,9 +5,9 @@ title: 通訊管道
 description: 通訊管道
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 應用程式內傳送訊息
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 
 簡訊 / MMS / RCS 訊息
 
-瞭解如何建立、管理及設定簡訊、MMS 和 RCS 訊息，用於行銷和交易型用途，包含合規性和個人化。
+了解如何建立、管理和設定簡訊、MMS 和 RCS訊息以用於行銷和交易目的，包括合規性和個人化。
 
 [深入了解簡訊/MMS/RCS 訊息](sms-landing-page.md)
 :::
@@ -74,7 +74,7 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 
 直接郵件行銷活動
 
-瞭解如何建立和管理直接郵件行銷活動，包括為第三方提供者匯出擷取檔案，以及確保符合使用者同意要求。
+了解如何建立和管理直接郵件行銷活動，包括匯出第三方提供者的摘取檔案，以及確保符合使用者同意。
 
 [進一步了解直接郵件行銷活動](direct-mail-landing-page.md)
 :::
@@ -88,5 +88,5 @@ Adobe Journey Optimizer 的通訊管道可讓您透過各種接觸點與客戶�
 - **[程式碼型體驗](code-based-experience-landing-page.md)** - 深入了解程式碼型體驗，以使用 SDK 和 API 跨數位平台提供個人化內容。
 - **[內容卡](content-card-landing-page.md)** - 探索如何設定、建立及設計內容卡，以在行動應用程式和網站中建立具有吸引力的個人化訊息。
 - **[WhatsApp 訊息](whatsapp-landing-page.md)** - 了解如何透過 Meta 的雲端 API 整合及使用 WhatsApp 訊息，以進行個人化和合規的通訊行銷活動。
-- **[監視與疑難排解](troubleshoot-journey-landing-page.md)** - 快速診斷並解決管道問題，包括 WhatsApp 管道設定的疑難排解。
+- **[監視與疑難排解](troubleshoot-journey-landing-page.md)** — 快速診斷及解決頻道問題，包括WhatsApp頻道設定與組態疑難排解。
 - **[LINE 訊息](line-landing-page.md)** - 探索如何設定、建立及個人化 LINE 訊息，以便在行銷活動和歷程中有效通訊。

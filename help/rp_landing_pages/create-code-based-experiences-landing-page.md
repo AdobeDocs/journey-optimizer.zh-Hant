@@ -30,7 +30,7 @@ Adobe Journey Optimizer 中的程式碼型體驗可讓您使用程式碼，為�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 在程式碼型體驗中使用可編輯的欄位
 

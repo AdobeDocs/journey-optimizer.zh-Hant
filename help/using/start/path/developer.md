@@ -28,9 +28,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 100%
+ht-degree: 53%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;實施 SDK、事件串流、自訂動作端點，以及可將應用程式連接到 Adobe Journey Optimizer 的 API，讓您的歷程能根據即時資料執行。
+**在此頁面上：**&#x200B;實作SDK、事件串流、自訂動作端點以及連線應用程式至Adobe Journey Optimizer的API，讓您的歷程可以在即時資料上執行。
 
 >[!ENDSHADEBOX]
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**實作順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) → 您在這裡：**開發人員** → [行銷人員](marketer.md)
+>**實作順序：** [管理員](administrator.md) → [資料工程師](data-engineer.md) →您在這裡： **開發人員** → [行銷人員](marketer.md)
 >
->實施行動和網頁整合之前，請確定已設定[資料結構描述和事件](data-engineer.md)。
+>在實作您的行動裝置和網頁整合之前，請確定已設定[資料結構描述和事件](data-engineer.md)。
 
 ## 您在 Journey Optimizer 生態系統中的角色
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 ### 設定 Adobe Experience Platform Mobile SDK
 
-行動 SDK 是您直接內嵌在 iOS 或 Android 應用程式中的程式庫集合。 它可作為應用程式與 Adobe Experience Platform 之間的通訊層：可識別使用者、收集行為事件，並從 Journey Optimizer 提供指示，包括推播通知、應用程式內訊息和個人化內容。 若沒有它，Journey Optimizer 就無法得知您的應用程式使用者在做什麼，也無法聯絡上他們。
+行動SDK是您直接內嵌在iOS或Android應用程式中的程式庫集合。 它可作為應用程式與Adobe Experience Platform之間的通訊層：可識別使用者、收集行為事件，並從Journey Optimizer提供指示，包括推播通知、應用程式內訊息和個人化內容。 若沒有它，Journey Optimizer就無法得知您的應用程式使用者在做什麼，也無法聯絡上他們。
 
 1. **安裝及設定 Mobile SDK**：請依照 [Adobe Experience Platform Mobile SDK 文件](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}操作，開始進行 SDK 整合。
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ### 實作程式碼型體驗 (Mobile SDK)
 
-程式碼型體驗可讓您向原生行動應用程式中的任何表面提供個人化內容 (從入門畫面和產品詳細資料頁面，到應用程式內橫幅和功能標幟)，而不需要新的應用程式版本。 使用 Mobile SDK 在執行階段擷取及呈現個人化內容，讓您的團隊可完全掌控版位和呈現方式：
+程式碼型體驗可讓您向原生行動應用程式中的任何表面提供個人化內容（從入門畫面和產品詳細資料頁面，到應用程式內橫幅和功能標幟），而不需要新的應用程式版本。 使用Mobile SDK在執行階段擷取及呈現個人化內容，讓您的團隊可完全掌控版位和簡報：
 
 * 請依照[本教學課程](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}中的指示實作 Mobile SDK
 * 檢閱 [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} 和 [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} 的範例實作
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 ### 設定 Adobe Experience Platform Web SDK
 
-Web SDK (`alloy.js`) 是單一 JavaScript 程式庫，可取代您網站原本可能需要的零散 Adobe 標籤。 它會收集行為資料、透過您設定的資料流將其串流至 Adobe Experience Platform，並接收回傳的個人化指示，所有這些都在一個網路往返中。 設定完成後，Journey Optimizer 就可以識別訪客、從他們的動作觸發歷程，並立即將自訂內容提供給您的頁面。
+Web SDK (`alloy.js`)是單一JavaScript資料庫，可取代您網站可能需要的個別Adobe標籤的修補程式。 它會收集行為資料、透過您設定的資料流將其串流至Adobe Experience Platform，並接收回傳的個人化指示 — 所有這些都在一個網路往返中。 設定完成後，Journey Optimizer就可以識別訪客、從他們的動作觸發歷程，並立即將自訂內容提供給您的頁面。
 
 1. **安裝 Web SDK**：請依照 [Web SDK 實作指南](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=zh-Hant){target="_blank"}操作，在您的網站上設定 SDK。
 
@@ -123,7 +123,7 @@ Web SDK (`alloy.js`) 是單一 JavaScript 程式庫，可取代您網站原本�
 
 ### 實作程式碼型體驗 (Web SDK)
 
-不同於行銷人員完全控制版面的視覺管道，程式碼型體驗可讓您完全掌控個人化內容在頁面上的呈現方式。 Journey Optimizer 會傳回包含個人化資料的 JSON 承載；您的程式碼會決定要在哪裡以及如何顯示。 此模型適用於任何網路介面 (英雄橫幅、建議輪播、搜尋結果排名、A/B 測試變體)，而無需視覺化編輯器或頁面發佈工作流程。
+不同於行銷人員完全控制版面的視覺管道，程式碼型體驗可讓您完全掌控個人化內容在頁面上的呈現方式。 Journey Optimizer會傳回包含個人化資料的JSON裝載；您的程式碼會決定要在哪裡以及如何顯示。 此模型適用於任何網路介面（英雄橫幅、建議輪播、搜尋結果排名、A/B測試變體），而無需視覺化編輯器或頁面發佈工作流程。
 
 1. **選擇您的實作方法**：用戶端、伺服器端或混合式。 檢閱每個方法的[實作範例](../../code-based/code-based-implementation-samples.md)。
 
@@ -141,7 +141,7 @@ Web SDK (`alloy.js`) 是單一 JavaScript 程式庫，可取代您網站原本�
 
 ### 傳送事件以觸發歷程
 
-歷程會根據事件執行 — 使用者登入、將商品加入購物車、完成購買、放棄表單。 您的工作是在正確的時間從應用程式發出這些事件。 每個事件都是傳送至 Experience Platform 串流攝取 API 的 XDM 結構化 JSON 承載；Journey Optimizer 會在毫秒內攝取該事件，並將輪廓路由至任何相符歷程。 事件結構描述和承載結構是由您的[資料工程師](data-engineer.md)所定義，在您開始編碼之前先與其協調。
+歷程在事件上執行 — 使用者登入、將專案新增至購物車、完成購買、放棄表單。 您的工作是在正確的時間從應用程式發出這些事件。 每個事件都是傳送至Experience Platform串流擷取API的XDM結構化JSON裝載；Journey Optimizer會在毫秒內擷取該事件，並將設定檔路由至任何相符歷程。 事件結構描述和裝載結構是由您的[資料工程師](data-engineer.md)所定義 — 在您開始編碼之前先與其協調。
 
 1. **了解事件承載**：請與您的資料工程師合作，取得事件結構描述和必要的承載結構。 承載必須符合其所設定的 XDM 結構描述。 了解[事件結構描述需求](../../event/experience-event-schema.md)。
 
@@ -187,7 +187,7 @@ Content-Type: application/json
 
 ## 開發自訂動作端點 {#custom-actions}
 
-當歷程達到自訂動作步驟時，Journey Optimizer 會對您提供的URL (您的後端、CRM、忠誠度平台、任何 REST 端點) 發出傳出 HTTP 呼叫。 您的工作是建置並公開該端點：定義請求合約 (承載形狀、驗證方法、回應格式)、實作其背後的商業邏輯，並確保其可處理 Journey Optimizer 將產生的呼叫量。 您的[管理員](administrator.md)接著會在 Journey Optimizer 中註冊端點，讓行銷人員可以將其用作其歷程中的步驟。
+當歷程達到自訂動作步驟時，Journey Optimizer會對您提供的URL （您的後端、CRM、忠誠度平台、任何REST端點）發出傳出HTTP呼叫。 您的工作是建置並公開該端點：定義請求合約（裝載形狀、驗證方法、回應格式）、實作其背後的商業邏輯，並確保其可處理Journey Optimizer將產生的呼叫量。 您的[管理員](administrator.md)接著會在Journey Optimizer中註冊端點，讓行銷人員可以將其用作其歷程中的步驟。
 
 1. **建立您的 API 端點**：建立 Journey Optimizer 將在歷程執行期間呼叫的 RESTful API 端點。 您的端點應：
    * 接受 JSON 承載
@@ -209,7 +209,7 @@ Content-Type: application/json
 
 ## 使用 Journey Optimizer API {#apis}
 
-並非所有事情都需要透過 Journey Optimizer UI 完成。有時您需要從自己的後端觸發行銷活動、在隱私權請求後抑制電子郵件地址，或從外部 CMS 同步內容範本。Journey Optimizer 的 REST API 可讓您以程式設計方式存取平台的核心功能。所有呼叫都使用 OAuth 伺服器對伺服器驗證，舊版 JWT 方法已淘汰。
+並非所有事情都需要透過Journey Optimizer UI進行。 有時您需要從自己的後端觸發行銷活動、在隱私權請求後隱藏電子郵件地址，或從外部CMS同步內容範本。 Journey Optimizer的REST API可讓您以程式設計方式存取平台的核心功能。 所有呼叫都使用OAuth伺服器對伺服器驗證，舊版的JWT方法已過時。
 
 1. **了解 API 功能**：Journey Optimizer API 可讓您以程式設計方式建立、讀取、更新和刪除各種資源。 深入了解 [Journey Optimizer API](../../configuration/ajo-apis.md)。
 
@@ -227,9 +227,9 @@ Content-Type: application/json
 
 ## 測試和偵錯 {#testing}
 
-在實施正式上線之前，您需要確信事件會在正確時機引發、歷程會如預期觸發、自訂動作能在真實負載下運作，且個人化內容會正確呈現。本節介紹可及早發現問題的工具與技巧，涵蓋從底層 SDK 記錄，到使用真實輪廓進行端到端歷程測試執行。
+在實作上線之前，您需要確保事件在適當的時刻引發、歷程如預期般觸發、自訂動作在真實負載下運作，以及個人化內容正確呈現。 本節說明用於及早發現問題的工具和技術，從低階SDK記錄，到使用真實設定檔的端對端歷程測試執行。
 
-1. **偵錯 SDK 實施**：使用 Adobe Experience Platform Assurance 即時檢查 SDK 事件、驗證資料收集，並疑難排解整合問題。[深入了解 Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}。
+1. **偵錯SDK實作**：使用Adobe Experience Platform Assurance檢查SDK事件、驗證資料收集，並在整合問題發生時進行疑難排解。 [深入了解 Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}。
 
 1. **測試事件傳送**：確認 Adobe Experience Platform 已正確接收來自您應用程式的事件，並如預期觸發歷程。 監視事件擷取並驗證承載結構。
 
@@ -251,71 +251,71 @@ Content-Type: application/json
 
 ## 進階開發人員主題 {#advanced-topics}
 
-一旦核心 SDK、事件和 API 就緒，這些主題可協助您更進一步：在執行階段豐富歷程資料，而不讓設定檔膨脹；處理同意訊號，讓選擇退出狀態傳播到每個整合；並調整實作，以滿足生產規模所需的輸送量和可靠性。
+一旦您的核心SDK、事件和API準備就緒，這些主題可協助您更進一步：在執行階段豐富歷程資料而不會膨脹設定檔、處理同意訊號以便選擇退出會傳播到每個整合，以及調整您的實作，以符合生產規模需求的輸送量和可靠性。
 
 ### 使用內容資料及擴充
 
-歷程通常需要比觸發事件傳入的資料更多，例如產品名稱、忠誠度等級或訂單明細項目清單。與其將所有這些資料預先載入每個輪廓，情境擴充可讓歷程在執行階段從 AEP 資料集查詢資料，或從自訂動作回應中延續該資料。接著，您的訊息和分支條件即可參照該資料，而不必將其永久儲存在輪廓中。
+歷程通常需要比觸發事件中提供的更多資料，例如產品名稱、忠誠度等級、訂單條列專案清單。 內容擴充功能可讓您的歷程在執行階段從AEP資料集查詢資料，或從自訂動作回應將其結轉，而非將所有這些預先載入每個設定檔。 然後，您的訊息和分支條件可以參考該資料，而不會將其永久儲存在設定檔上。
 
 * **反覆處理陣列**：使用 Handlebars 語法在訊息中顯示來自事件、自訂動作回應和資料集查詢的動態清單。 了解如何[反覆處理內容資料](../../personalization/iterate-contextual-data.md)。
 * **資料集查詢**：實作資料集查詢，以擴充 Adobe Experience Platform 資料集的歷程資料。 與您的資料工程師共同處理設定。 了解[資料集查詢](../../building-journeys/dataset-lookup.md)。
 
 ### 使用同意與治理
 
-Journey Optimizer 會在平台層級強制執行資料治理和同意原則，但您的整合也必須遵守這些原則。當客戶選擇退出行銷通訊，或資料使用標籤限制某個欄位的使用方式時，這些規則必須傳播到您的自訂動作和資料集查詢中，而不只是封鎖 UI 中的動作。
+Journey Optimizer會在平台層級執行資料控管和同意原則，但您的整合也需要遵守這些原則。 當客戶選擇退出行銷通訊，或資料使用標籤限制欄位的使用方式時，這些規則需要在您的自訂動作和資料集查詢中傳播，而不僅僅是封鎖UI中的動作。
 
 * **資料治理**：將資料使用原則套用至自訂動作。 深入了解[資料治理](../../action/action-privacy.md)。
 * **同意管理**：在您的實作中處理客戶同意偏好設定。 了解[同意](../../action/consent.md)。
 
 ### 最佳化和最佳做法
 
-生產環境中的 Journey Optimizer 實施通常會處理每秒數百萬個事件和數千次歷程執行。這些資源可協助您針對這種規模調整整合：在觸及速率限制前先了解限制，避開會悄悄捨棄設定檔的常見歷程設計陷阱，並建立可優雅降級而非不明原因失敗的錯誤處理機制。
+生產Journey Optimizer實施會定期處理每秒數百萬個事件和數千個歷程執行。 這些資源可協助您針對該規模調整整合 — 在達到速率限制之前先瞭解限制、避免常見的歷程設計陷阱而無訊息地捨棄設定檔，以及建置可正常降低而不是不透明地失敗的錯誤處理。
 
 * **上限與節流**：了解速率限制並實作適當的節流。 了解[外部系統](../../configuration/external-systems.md)。
 * **歷程最佳化**：遵循[歷程最佳化](../../building-journeys/optimize.md)的最佳做法。
 * **錯誤處理**：實作強大的錯誤處理。 檢閱[錯誤碼](../../building-journeys/error-codes-reference.md)和[疑難排解指南](../../building-journeys/troubleshooting.md)。
 
-## 呼叫 Journey Optimizer REST API {#rest-apis}
+## 呼叫Journey Optimizer REST API {#rest-apis}
 
-除了實施 SDK 和事件串流之外，您也可以從自己的系統以程式設計方式驅動 Journey Optimizer。完整的 API 參考、OpenAPI 規格和程式碼範例可在 [Journey Optimizer 開發人員入口網站](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}取得。
+除了實作SDK和事件串流，您也可以以程式設計方式從您自己的系統中推動Journey Optimizer。 完整的API參考、OpenAPI規格和程式碼範例位於[Journey Optimizer開發人員入口網站](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}。
 
 >[!NOTE]
 >
->所有整合都必須使用 OAuth 伺服器對伺服器驗證，JWT 方法已淘汰。[設定驗證](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+>所有整合都必須使用OAuth伺服器對伺服器驗證 — JWT方法已過時。 [設定驗證](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
-### 執行 API 觸發的行銷活動 {#api-triggered}
+### 執行API觸發的行銷活動 {#api-triggered}
 
-使用互動式訊息執行 REST API，從外部系統觸發交易型或行銷訊息。呼叫端點之前：
+使用互動式訊息執行REST API，觸發來自外部系統的交易或行銷訊息。 呼叫端點之前：
 
-* 端點接受呼叫之前，行銷活動必須&#x200B;**啟用**。
-* 呼叫有 **60 秒逾時**；內部重試會處理非預期的逾時。
-* 如果設定了行銷活動的開始/結束日期，則這些日期以外的 API 呼叫將失敗。
-* 若要建置裝載，請在 Journey Optimizer UI 中，從即時行銷活動的 **cURL 請求**&#x200B;區段檢索產生的範例 cURL 請求，其中包含該行銷活動的所有個人化變數。
-* 標準行銷活動和[高輸送量行銷活動](../../campaigns/api-triggered-high-throughput.md)使用不同的端點。
+* 在端點接受呼叫之前，行銷活動必須是&#x200B;**已啟動**。
+* 呼叫的&#x200B;**逾時為60秒**；內部重試處理未預期的逾時。
+* 如果設定了行銷活動的開始/結束日期，則這些日期以外的API呼叫將失敗。
+* 若要建置您的裝載，請在Journey Optimizer UI中，從您即時行銷活動的&#x200B;**cURL請求**&#x200B;區段中擷取產生的範例cURL請求，此區段包含該行銷活動的所有個人化變數。
+* 標準和[高輸送量行銷活動](../../campaigns/api-triggered-high-throughput.md)使用不同的端點。
 
-[API 參考](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [程式碼範例](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [使用 API 觸發的行銷活動](../../campaigns/api-triggered-campaigns.md)
+[API參考](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [程式碼範例](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [使用API觸發的行銷活動](../../campaigns/api-triggered-campaigns.md)
 
 ### 外部端點的上限和節流 {#capping-throttling}
 
-當歷程透過自訂動作或資料來源呼叫外部系統時，上限和節流 API 可保護這些系統免於過載。上限會拒絕超過設定限制的呼叫；節流會將這些呼叫排入佇列，最多 6 小時 (僅限生產沙箱和自訂動作)。
+當歷程透過自訂動作或資料來源呼叫外部系統時，上限和節流API可保護這些系統避免過載。 上限會拒絕超過設定限制的呼叫；節流會將它們排入最多6小時的佇列（僅限生產沙箱、自訂動作）。
 
-[上限 API 參考](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [使用上限 API](../../configuration/capping.md) · [使用節流 API](../../configuration/throttling.md)
+[上限API參考](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [使用上限API](../../configuration/capping.md) · [使用節流API](../../configuration/throttling.md)
 
-### 更多 REST API {#more-rest-apis}
+### 更多REST API {#more-rest-apis}
 
-除了傳訊和上限之外，Journey Optimizer 還提供 REST 端點，用於抑制管理、內容範本化、行銷活動檢索、校樣和協調式行銷活動執行。當您需要自動化操作時，請使用這些選項，否則UI中需要手動步驟，例如，拉取資料後大量隱藏位址，或從外部內容管道同步範本。
+除了傳訊和上限，Journey Optimizer還會公開REST端點，用於隱藏管理、內容範本、行銷活動擷取、校訂和精心安排的行銷活動執行。 當您需要自動化操作時，請使用這些選項，否則UI中需要手動步驟，例如，拉取資料後大量隱藏位址，或從外部內容管道同步範本。
 
-| 需要執行的事項 | API 參考 |
+| 您需要做什麼 | API 參考 |
 | ------------------- | ------------- |
-| 以程式設計方式排除電子郵件地址或網域，避免向其傳送郵件 | [禁止名單 API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [管理禁止名單](../../configuration/manage-suppression-list.md) |
-| 檢索歷程中繼資料以進行稽核或外部同步 | [歷程 API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
-| 從外部管道建立和管理內容範本和片段 | [內容 API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [範本](../../content-management/content-templates.md) · [片段](../../content-management/fragments.md) |
-| 檢索及篩選動作行銷活動 | [行銷活動 API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
-| 預覽行銷活動並以程式設計方式傳送校樣 | [模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| 以程式設計方式排除要傳送的電子郵件地址或網域 | [隱藏API](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [管理隱藏清單](../../configuration/manage-suppression-list.md) |
+| 擷取歷程中繼資料以進行稽核或外部同步 | [歷程API](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| 從外部管道建立和管理內容範本和片段 | [內容API](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [範本](../../content-management/content-templates.md) · [片段](../../content-management/fragments.md) |
+| 擷取及篩選動作行銷活動 | [行銷活動API](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| 預覽行銷活動並以程式設計方式傳送校樣 | [模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
 
 >[!NOTE]
 >
->模擬 API 可用於 API 觸發和動作 (已排程) 行銷活動。 **協調行銷活動不支援**：請改用協調行銷活動使用者介面中的預覽和校訂工作流程來進行。
+>模擬API可用於API觸發和動作（已排程）行銷活動。 **協調行銷活動不支援**：請改用協調行銷活動使用者介面中的預覽和校訂工作流程來進行。
 
 |驗證資料集並觸發協調的行銷活動執行 | [資料集驗證](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [觸發器](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [啟用資料集](../../orchestrated/manual-schema.md) |
 
@@ -334,30 +334,30 @@ Journey Optimizer 會在平台層級強制執行資料治理和同意原則，�
 
 >[!TAB 與資料工程師合作]
 
-與[資料工程師](data-engineer.md)共同處理資料與事件設定。 每個對使用者行為回應的歷程都取決於您傳送的事件，資料工程師會定義結構，您實施產生結構的程式碼。
+與[資料工程師](data-engineer.md)共同作業資料與事件設定。 每個對使用者行為回應的歷程都取決於您傳送的事件 — 資料工程師會定義結構，您實作產生結構的程式碼。
 
-* 取得您需要實施的 [XDM 結構描述](../../data/get-started-schemas.md) 和事件結構
-* 了解您需要傳送哪些事件及其必要的承載格式，請參閱[使用歷程事件](../../event/about-events.md)
-* 確認每個事件承載中的哪些欄位是必要欄位與選用欄位，以及當預期欄位遺失或格式錯誤時，在歷程中會發生什麼情況，請參閱[結構描述需求](../../event/experience-event-schema.md#schema-requirements)
-* 使用 [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"} 一起測試事件傳遞和資料攝取
+* 取得您需要實作的[XDM結構描述](../../data/get-started-schemas.md)和事件結構
+* 瞭解您需要傳送哪些事件及其必要的裝載格式 — 請參閱[使用歷程事件](../../event/about-events.md)
+* 確認每個事件裝載中的哪些欄位是必要欄位與選用欄位，以及當預期欄位遺失或格式錯誤時，在歷程中會發生什麼情況 — 請參閱[結構描述需求](../../event/experience-event-schema.md#schema-requirements)
+* 使用[Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=zh-Hant){target="_blank"}一起測試事件傳遞和資料擷取
 
 >[!TAB 與管理員合作]
 
-與[管理員](administrator.md)共同處理存取權和頻道設定。歷程只能透過管理員設定的管道觸及使用者，及早協調，讓您的 SDK 運作及其設定保持同步。
+與[管理員](administrator.md)共同作業存取和通道設定。 歷程只能透過管理員設定的管道觸及使用者 — 及早協調，讓您的SDK運作及其設定保持同步。
 
-* 提供他們將在 Journey Optimizer 中設定的[自訂動作](../../action/about-custom-action-configuration.md) API 規格
-* 透過 [Adobe Developer Console](https://developer.adobe.com){target="_blank"} 請求必要的權限和 API 認證
-* 協調管道設定需求 — [iOS](../../push/push-configuration.md) 和 Android 的推播憑證、[網頁推播](../../push/push-configuration-web.md)設定、[SMS webhook](../../mobile/mobile-webhook.md) 端點
+* 提供將在Journey Optimizer中設定的[自訂動作](../../action/about-custom-action-configuration.md)的API規格
+* 透過[Adobe Developer Console](https://developer.adobe.com){target="_blank"}要求必要的許可權和API認證
+* 協調通道組態需求 — [iOS](../../push/push-configuration.md)和Android的推播憑證、[網頁推播](../../push/push-configuration-web.md)設定、[SMS webhook](../../mobile/mobile-webhook.md)端點
 * 在執行[歷程測試模式](../../building-journeys/testing-the-journey.md)之前，對齊沙箱策略和測試環境
 
 >[!TAB 與行銷人員合作]
 
-與[行銷人員](marketer.md)共同進行歷程設計和測試。行銷人員建立的歷程和內容完全取決於您傳送的事件和公開的表面，您對齊得越緊密，歷程就越快上線。
+與[行銷人員](marketer.md)共同作業歷程設計與測試。 行銷人員建立的歷程和內容完全取決於您傳送的事件和您公開的表面 — 您對齊越近，歷程上線就越快。
 
-* 一起檢閱 [Journey Optimizer](../../building-journeys/journey.md) 中的歷程設計，瞭解哪些使用者互動必須觸發事件，以及哪些表面需要個人化
-* 實施追蹤，讓行銷人員能測量[內容績效和使用者參與度](../../reports/report-gs-cja.md)
-* 使用測試輪廓一起執行[歷程測試模式](../../building-journeys/testing-the-journey.md)，以端到端驗證完整流程
-* 針對訊息傳送、個人化轉譯或[自訂動作](../../action/action.md)回應問題進行疑難排解
+* 一起檢閱[Journey Optimizer](../../building-journeys/journey.md)中的歷程設計，瞭解哪些使用者互動必須觸發事件，以及哪些表面需要個人化
+* 實作追蹤，讓行銷人員可以測量[內容效能和使用者參與度](../../reports/report-gs-cja.md)
+* 使用測試設定檔一起執行[歷程測試模式](../../building-journeys/testing-the-journey.md)，以端對端驗證完整流程
+* 疑難排解訊息傳送、個人化轉譯，或[自訂動作](../../action/action.md)回應的問題
 
 >[!ENDTABS]
 
@@ -376,9 +376,9 @@ Journey Optimizer 會在平台層級強制執行資料治理和同意原則，�
 
 | 角色 | 指南 |
 |------|-------|
-| 管理員 | [管理員快速入門](administrator.md) |
+| 管理員 | [管理員開始使用](administrator.md) |
 | 資料工程師 | [資料工程師快速入門](data-engineer.md) |
-| 開發人員 | [開發人員快速入門](developer.md) |
+| Developer | [開發人員快速入門](developer.md) |
 | 行銷人員 | [行銷人員快速入門](marketer.md) |
 
-返回[角色與職責總覽](../quick-start.md) · 返回[快速入門](../../../rp_landing_pages/get-started-landing-page.md)
+返回[角色和責任總覽](../quick-start.md) ·返回[開始](../../../rp_landing_pages/get-started-landing-page.md)

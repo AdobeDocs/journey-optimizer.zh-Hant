@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 36%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -184,9 +184,13 @@ UNUSED IDs in BJ
 
 +++**電子郵件標頭個人化** （電子郵件）。
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+> 
+>Journey Optimizer可讓您個人化寄件者資訊，包括來自Campaign Orchestration關聯式存放區的資料，並可啟用使用案例，例如以客戶經理的名義傳送電子郵件。 由於此資料可能會受到貴組織或法規所定義的使用限制所約束，請確保您在Journey Optimizer中的資料作業符合您的法律和法規義務。
+>
+>Adobe Journey Optimizer會透過Adobe Experience Platform (AEP)在設定檔層級處理同意。 使用Journey Optimizer Campaign Orchestration關聯式非設定檔資料進行個人化時，組織應使用細分和個人化來建立並強制執行同意原則。
 
 選取您的頻道設定後，啟用&#x200B;**[!UICONTROL 覆寫電子郵件傳遞設定]**&#x200B;以取代該設定中定義的值。 您可以自訂此管道活動的下列設定：
 

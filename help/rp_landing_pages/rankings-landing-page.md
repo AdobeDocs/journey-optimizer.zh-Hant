@@ -25,7 +25,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 排名快速入門
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 中的排名可讓您量身打造首先向客群顯示�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 建立及使用排名公式
 

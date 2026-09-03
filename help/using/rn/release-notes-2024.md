@@ -15,9 +15,9 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 6911
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -639,7 +639,7 @@ ht-degree: 100%
 
 **歷程**
 
-* 在&#x200B;**條件**&#x200B;活動中，**[!UICONTROL 時間條件]**&#x200B;現在預設會依小時設定，範圍從 00:00 到 12:00。 [閱讀更多](../building-journeys/conditions.md#time_condition)
+* 在&#x200B;**條件**&#x200B;活動中，預設的&#x200B;**[!UICONTROL 時間條件]**&#x200B;現在會依小時設定，從00:00到12:00。 [閱讀全文](../building-journeys/conditions.md#time_condition)
 * 當建立歷程時，現在會從&#x200B;**警示**&#x200B;按鈕顯示提醒，跟其他提醒保持同步，提供一致的使用者體驗。 [閱讀全文](../building-journeys/troubleshooting.md#activity-errors)
 * 已改善歷程工具列的縮放選項：您現在可以看到縮放百分比，可以更輕鬆將重設縮放值。
 
@@ -764,8 +764,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>AI 助理是使用者介面功能，可用於導覽和了解 Adobe 概念，並取得指定環境的運作洞察。 它適用於橫跨[!DNL Adobe CX Enterprise]的多種產品，包括 Adobe Journey Optimizer。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>以了解詳情。</p>
+<p>AI Assistant是使用者介面功能，可用於導覽和瞭解Adobe概念，並取得您特定環境的營運深入分析。 它適用於[!DNL Adobe CX Enterprise]的多個產品，包括Adobe Journey Optimizer。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#ai-assistant">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -1043,7 +1043,7 @@ table>
 
 **全球化**
 
-作為持續提供統一使用者體驗的一環，我們會統一 [!DNL Adobe CX Enterprise] 產品和應用程式中使用的術語。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
+為了提供統一的使用者體驗，我們將[!DNL Adobe CX Enterprise]產品和應用程式中使用的術語統一起來。 這會影響德文術語「標題」，在與物件名稱相關時會變更為「標籤」。 這些變更將會逐步在使用者介面與檔案中逐步推出。
 
 
 ## 2024 年 4 月發行版本 {#apr-2024}
