@@ -368,21 +368,21 @@ ht-degree: 12%
 
 **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496480?captions=chi_hant&quality=12)
 
 **設定獎勵** — 設定獎勵傳遞與履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496490?captions=chi_hant&quality=12)
 
 ➡️觀看如何建立挑戰內容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496538?captions=chi_hant&quality=12)
 
 ➡️觀看如何針對挑戰設定生命週期訊息
 
->[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497464?captions=chi_hant&quality=12)
 
 ➡️觀看如何發佈挑戰並產生歷程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498586?captions=chi_hant&quality=12)
 

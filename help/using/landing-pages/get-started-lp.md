@@ -135,6 +135,6 @@ ht-degree: 100%
 
 以下影片說明如何建立訂閱清單、設定登陸頁面以選擇加入或選擇退出服務、將選擇加入/選擇退出選項整合至訊息以及設定相關歷程。
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502221?captions=chi_hant&quality=12&learn=on)
 
 ➡️ **在實作中檢視：**&#x200B;探索[登陸頁面使用案例](lp-use-cases.md)，以取得涵蓋訂閱管理、確認電子郵件及資料擷取案例的逐步範例。
