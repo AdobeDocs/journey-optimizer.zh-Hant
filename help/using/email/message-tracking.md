@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ ht-degree: 24%
 
 1. 在對應欄位中輸入所需的URL，或選取登入頁面，並定義連結設定和樣式。 [了解更多](#adjust-links)
 
-   >[!NOTE]
+   若要解譯URL，[!DNL Journey Optimizer]符合URI語法（[RFC 3986標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），這會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果您傳回的錯誤涉及新增到內容的URL，則URL會將字串編碼為因應措施。 例如，如果URL路徑包含撇號(`'`)，請改用`%27` （例如，`https://example.com/nature%27s-miracle`而非`https://example.com/nature's-miracle`）。
+
+   >[!CAUTION]
    >
-   >若要解譯URL，[!DNL Journey Optimizer]符合URI語法（[RFC 3986標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}），這會停用URL中的某些特殊國際字元。 嘗試傳送校樣或電子郵件時，如果您傳回的錯誤涉及新增到內容的URL，您可以URL編碼字串作為因應措施。
+   >使用追蹤連結或附加的URL追蹤引數時，若將不支援的字元保留為未編碼，可能會導致重新導向後的下游URL處理不正確。 對任何不支援的字元進行編碼，以協助保留完整的目的地URL。
 
 1. 您可以個人化連結。 [了解更多](url-personalization.md)
 
