@@ -111,6 +111,6 @@ Journey Optimizer中的&#x200B;**標籤類別**&#x200B;可提供更好的替代�
 
 >[!TIP]
 >
->如需深入討論此方法及其大規模優點，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
+>如需深入討論此方法及其大規模優點，請參閱[Journey Optimizer中進階歷程的最佳實務](https://experienceleague.adobe.com/zh-hant/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}。
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-tags.md}}

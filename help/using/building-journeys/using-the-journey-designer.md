@@ -106,7 +106,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->如需在歷程畫布中分離及重新加入節點的逐步指引，請參閱此[Experience League社群文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}。
+>如需在歷程畫布中分離及重新加入節點的逐步指引，請參閱此[Experience League社群文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hant){target="_blank"}。
 
 
 
