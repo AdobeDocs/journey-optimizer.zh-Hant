@@ -113,6 +113,6 @@ ht-degree: 24%
 * 將網站修改套用至多個檢視或所有探索到的檢視
 * 對修改執行大量動作
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446896/?captions=chi_hant&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-web-spa.md}}
