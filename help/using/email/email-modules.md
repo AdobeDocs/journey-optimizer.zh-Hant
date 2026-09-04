@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 模組，電子郵件設計工具，標題，主圖，卡片，頁尾，電子郵件版面配置，拖放
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 10%
@@ -81,6 +81,8 @@ ht-degree: 10%
 | **[!UICONTROL 卡片]** | 單欄或多欄格線配置中的產品、文章或內容專案。 |
 | **[!UICONTROL 團隊]** | 團隊成員、作者或擁有像片、姓名和角色的演講者。 |
 | **[!UICONTROL 頁尾]** | 完整的電子郵件頁尾，包含導覽連結、社群媒體圖示、法律副本，以及必要的退出和映象頁面連結。 |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

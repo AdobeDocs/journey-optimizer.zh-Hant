@@ -11,7 +11,7 @@ keywords: 文字，電子郵件，版本，純文字，編輯器
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1199
 ht-degree: 8%
@@ -267,3 +267,5 @@ Your input helps us improve our service.
 
 **我是否應該包含純文字的影像？**\
 否，純文字不支援影像。 請改為說明影像所顯示的內容，或提供線上檢視影像的連結。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-text-version-email.md}}

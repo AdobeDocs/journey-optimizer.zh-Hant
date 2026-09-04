@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 614
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
 
    ![電子郵件Designer工具列中HTML按鈕的位置](assets/email-template-expert-mode-button.png)
 
-1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] **以繼續。**&#x200B;[了解更多](#guardrails)
+1. 第一次開啟進階HTML編輯器時，會顯示警告訊息。 請仔細檢閱，然後按一下[確定] ]**以繼續。**[!UICONTROL [了解更多](#guardrails)
 
    ![第一次開啟進階HTML編輯器時出現警告對話方塊](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
@@ -96,3 +96,5 @@ ht-degree: 6%
 * [撰寫您自己電子郵件內容的程式碼](code-content.md)
 * [建立內容範本](../content-management/create-content-templates.md)
 * [開始使用電子郵件設計工具](get-started-email-design.md)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-expert-mode.md}}

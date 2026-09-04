@@ -9,9 +9,8 @@ role: User
 level: Intermediate, Experienced
 keywords: url，連結，個人化，追蹤，編碼，大括弧
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 281619fd97fde20e0088847eb77e3ccd778e5300
 workflow-type: tm+mt
 source-wordcount: 842
 ht-degree: 1%
@@ -134,7 +133,7 @@ Journey Optimizer支援個人化&#x200B;**整個** URL或URL的&#x200B;**基本�
 
 若要這麼做，[插入連結](message-tracking.md#insert-links)、選取個人化圖示、新增URL追蹤引數，並從[個人化編輯器](../personalization/personalization-build-expressions.md)中選取您選擇的設定檔屬性。
 
-電子郵件Designer![&#128279;](assets/message-tracking-perso-parameter.png)中URL追蹤引數的Personalization圖示
+電子郵件Designer](assets/message-tracking-perso-parameter.png)中URL追蹤引數的![Personalization圖示
 
 針對您要新增此追蹤引數的每個連結，重複上述步驟。
 
@@ -186,3 +185,5 @@ Before activating a journey or campaign, follow the recommendations below:
 * Send a [proof](../content-management/proofs.md) and click links to confirm the resolved URL starts with `http`/`https` and keeps the expected structure.
 * If tracking parameters are appended, confirm the final URL includes them (either via configuration-level URL tracking or per-link tracking parameters).
 -->
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-url-personalization.md}}

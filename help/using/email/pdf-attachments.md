@@ -10,19 +10,12 @@ level: Beginner
 keywords: 電子郵件，訊息，附件， pdf，編輯器，個人化， API觸發
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 916
 ht-degree: 11%
@@ -66,7 +59,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=zh-Hant){target="_blank"}。
+   >設計訊息時，您可以直接從Journey Optimizer介面存取Assets Essentials存放庫。 若要深入瞭解內嵌[!DNL Assets Essentials]使用者介面，請參閱[Experience Manager Assets Essentials檔案](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}。
 
 1. 使用&#x200B;**[!UICONTROL MIME型別]**&#x200B;區段中的&#x200B;**[!UICONTROL PDF]**&#x200B;篩選器，將選取範圍限製為正確的檔案格式。
 
@@ -105,9 +98,9 @@ ht-degree: 11%
 >
 >* 個人化和靜態PDF附件計入相同的配額。 [了解更多](#pdf-attachments)
 
-個人化的PDF附件必須上傳至附件特定的[資料登陸區域](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然後在API裝載中參考。 資料登陸區域是目前唯一支援個人化PDF附件的儲存位置。
+個人化的PDF附件必須上傳至附件特定的[資料登陸區域](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}容器，然後在API裝載中參考。 資料登陸區域是目前唯一支援個人化PDF附件的儲存位置。
 
-1. 使用與執行請求相同的IMS組織和沙箱的`type=ajoemailattachments`，為您的沙箱擷取資料登陸區域認證，如[Adobe Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}所述。 根據雲端提供者，使用Azure容器或AWS貯體和資料夾（由API傳回）。
+1. 使用與執行請求相同的IMS組織和沙箱的`type=ajoemailattachments`，為您的沙箱擷取資料登陸區域認證，如[Adobe Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}所述。 根據雲端提供者，使用Azure容器或AWS貯體和資料夾（由API傳回）。
 
 1. 使用您選擇的工具產生PDF檔案，並將其上傳至您的資料登陸區域容器。
 
@@ -133,3 +126,5 @@ ht-degree: 11%
 在傳送時，[!DNL Journey Optimizer]會從指定的位置擷取檔案，並將其附加至該收件者的郵件。 主要區域的[高輸送量](../campaigns/api-triggered-high-throughput.md)行銷活動支援個人化PDF附件。 區域容錯移轉期間不支援這些功能。
 
 如需完整的API裝載參考，請參閱[互動式訊息執行API檔案](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution){target="_blank"}。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-pdf-attachments.md}}

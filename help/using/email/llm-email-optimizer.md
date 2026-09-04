@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1148
 ht-degree: 3%
@@ -49,7 +49,7 @@ ht-degree: 3%
 >
 >確切的AI助理行為取決於收件匣提供者和模型版本。 傳送電子郵件後，外部AI使用者端提供的回答和摘要可能會不正確、不完整或混淆網頁結果。
 >
->針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI[&#128279;](#inbox-ai-risks)的限制和風險。
+>針對AI收件匣最佳化電子郵件功能僅會在Journey Optimizer中產生專用版本；無法保證第三方助理將如何解譯或顯示訊息。 深入瞭解第三方收件匣AI](#inbox-ai-risks)的[限制和風險。
 
 ## 建議的使用案例 {#use-cases}
 
@@ -125,3 +125,5 @@ ht-degree: 3%
 
 * [開始使用電子郵件設計](get-started-email-design.md)
 * 如需更廣泛的Adobe產生功能，請參閱[開始使用產生內容](../content-management/gs-generative.md)。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-llm-email-optimizer.md}}
