@@ -9,20 +9,13 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2225
 ht-degree: 13%
@@ -77,7 +70,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**&#x200B;動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
+>如果您的推播通知包含在iOS中設定為通用連結的URL，則無論您選擇的&#x200B;**[!UICONTROL 網頁URL]**動作為何，推播都會開啟相關聯的應用程式（如果已安裝）。 若要強制開啟瀏覽器，請使用未針對通用連結設定的網域，或移除該網域的通用連結註冊。
 >如需Adobe SDK如何處理深層連結及通用連結的詳細資訊，請參閱[Adobe Experience Platform Mobile SDK檔案](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}。
 
 ## 新增媒體 {#add-media-push}
@@ -233,3 +226,5 @@ ht-degree: 13%
 | **[!UICONTROL 通知優先順序]** （僅限Android） | 定義推播通知的重要性從低到高。 這會決定推播通知在傳送時會如何「干擾」。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL 傳遞優先順序]** （僅限Android） | 設定推播通知的高優先順序或一般優先順序。 如需訊息優先順序的詳細資訊，請參閱 [Google 開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
 | **[!UICONTROL 存留時間]** （僅限Android） | 設定訊息到期的秒數。 在Android上，到期日會被視為傳遞期間：Firebase Cloud Messaging (FCM)從收到訊息開始，將到期時間轉換為存留時間(TTL)值，這表示未傳遞的行銷活動可能會比預期更晚傳送，甚至超出所需的時間範圍。 如需詳細資訊，請參閱[Android開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-design-push.md}}

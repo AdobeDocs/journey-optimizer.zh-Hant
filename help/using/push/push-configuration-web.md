@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -50,11 +40,11 @@ ht-degree: 8%
 
 ### 設定許可權 {#setup-permissions}
 
-建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}。
+建立行動應用程式之前，您必須先確定您擁有或指派適用於Adobe Experience Platform標籤的正確使用者許可權。 進一步瞭解[標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}。
 
 >[!CAUTION]
 >
->推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
+>推播設定必須由專家使用者執行。 根據您的實施模式以及此實施中涉及的角色，您可能需要將完整的許可權集指派給單一產品設定檔，或應用程式開發人員與&#x200B;**Adobe Journey Optimizer**&#x200B;管理員共用許可權。 在[本檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}中進一步瞭解&#x200B;**標籤**&#x200B;許可權。
 
 <!--
 ou need to your have access to perform following roles :
@@ -72,7 +62,7 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=zh-Hant#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
+1. 選取現有的&#x200B;**[!UICONTROL 產品設定檔]**，或使用&#x200B;**[!UICONTROL 新增設定檔]**&#x200B;按鈕建立新的設定檔。 在[Admin Console檔案](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}中瞭解如何建立新的&#x200B;**[!UICONTROL 新設定檔]**。
 
 1. 從&#x200B;**[!UICONTROL 許可權]**&#x200B;索引標籤中，選取&#x200B;**[!UICONTROL 屬性權利]**。
 
@@ -205,3 +195,5 @@ ou need to your have access to perform following roles :
 在Adobe Experience Platform和[!DNL Adobe Experience Platform Data Collection]中完成Web推播設定後，您可以在將Web推播通知傳送至設定檔之前先測試實施。 測試可確保訂閱已正確註冊，且通知會正確傳送至使用者的瀏覽器。
 
 如需使用事件建立測試歷程以驗證Web推播設定的詳細指示，請參閱[行動應用程式推播通知設定檔案](push-configuration.md)，其中提供適用於行動裝置和網頁推播通道的完整測試工作流程。
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}
