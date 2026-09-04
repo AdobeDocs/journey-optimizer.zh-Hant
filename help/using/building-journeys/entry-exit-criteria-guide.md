@@ -10,31 +10,16 @@ keywords: 登入，退出，條件，歷程，設定檔，重新進入，最佳�
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2251
-ht-degree: 3%
+source-wordcount: 1700
+ht-degree: 4%
 
 ---
 
@@ -128,7 +113,7 @@ ht-degree: 3%
 
 **在這裡瞭解您需要瞭解的有關進入條件的所有內容：**
 
-* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 事件]**&#x200B;中設定事件[&#128279;](../event/about-creating.md)，並定義[事件結構描述和欄位](../event/experience-event-schema.md)。 然後從[歷程設計器](using-the-journey-designer.md)的&#x200B;**[!UICONTROL 事件]**&#x200B;浮動視窗新增事件。
+* **[事件型觸發器](../event/about-events.md)**：使用「設定檔建立」、「交易完成」或自訂事件等事件來開始歷程。 在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 事件]**&#x200B;中設定事件](../event/about-creating.md)，並定義[事件結構描述和欄位](../event/experience-event-schema.md)。 [然後從[歷程設計器](using-the-journey-designer.md)的&#x200B;**[!UICONTROL 事件]**&#x200B;浮動視窗新增事件。
 
 * **[以對象為基礎的專案](read-audience.md)**：以一次性批次或重複排程的方式，將歷程鎖定在屬於特定對象的設定檔中。 在&#x200B;**[!UICONTROL 對象]**&#x200B;功能表中建立[對象](../audience/creating-a-segment-definition.md)，然後新增&#x200B;**[!UICONTROL 讀取對象]**&#x200B;活動並[設定排程](journey-properties.md#schedule)。 進入之後，使用條件來[分段、排除或合併分支](read-audience.md#audience-targeting-in-journeys)。
 
@@ -136,7 +121,7 @@ ht-degree: 3%
 
 * **[屬性篩選器](conditions.md)**：使用AND/OR邏輯，結合事件或對象與設定檔屬性和內容，以調整專案條件。 使用[條件](conditions.md)參照[設定檔屬性](../audience/get-started-profiles.md)、事件或[外部資料](../datasource/about-data-sources.md)。
 
-* **[時間視窗與排程](journey-properties.md#schedule)**：設定暫時性限制，讓歷程保持及時且相關。 在讀取對象活動[&#128279;](read-audience.md)上設定排程，使用[等待活動](wait-activity.md)，並新增[以時間為基礎的條件](conditions.md)來控制時間。
+* **[時間視窗與排程](journey-properties.md#schedule)**：設定暫時性限制，讓歷程保持及時且相關。 在讀取對象活動](read-audience.md)上設定[排程，使用[等待活動](wait-activity.md)，並新增[以時間為基礎的條件](conditions.md)來控制時間。
 
 >[!ENDSHADEBOX]
 
@@ -236,56 +221,10 @@ ht-degree: 3%
 
 **教學課程與範例**
 
-[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=zh-Hant)
+[歷程使用案例](jo-use-cases.md) | [客戶入門影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [捨棄的購物車影片](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [社群部落格：登入與退出條件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **相關功能**
 
 [對象資格事件](audience-qualification-events.md) | [成功量度和目標](success-metrics.md) | [衝突管理](../conflict-prioritization/conflicts.md) | [頻率上限](../conflict-prioritization/rule-sets.md) | [測試歷程](testing-the-journey.md) | [最佳化活動](optimize.md) | [反應事件](reaction-events.md) | [等待活動](wait-activity.md)
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;本指南說明如何定義、設定和最佳化Adobe Journey Optimizer中的歷程進入和退出條件，並提供真實世界的範例和最佳實務，以確保在正確的時間達到正確的設定檔。
-
-**意圖：**
-
-* 為歷程設定事件型、受眾型或屬性型進入條件
-* 根據歷程完成、成功量度、非活動逾時或對象資格取消來設定退出條件
-* 套用重新進入規則以控制設定檔是否可以多次進入歷程
-* 使用衝突管理和優先順序分數來避免重疊歷程
-* 使用歷程報告監控並最佳化登入和退出率
-
-**字彙表：**
-
-* **進入條件**：決定客戶設定檔何時符合進入歷程&#x200B;*（產品專屬）*&#x200B;的條件
-* **退出條件**：定義設定檔何時及如何從歷程&#x200B;*（產品特定）*&#x200B;中離開或移除的條件
-* **對象資格**：當設定檔以即時&#x200B;*（產品特定）*&#x200B;進入或退出串流對象時，會觸發的歷程進入機制
-* **重新進入**：設定檔多次進入相同歷程的能力，可使用等待期間&#x200B;*（產品特定）*&#x200B;設定
-* **頻率上限**：限制設定檔在指定時間範圍內&#x200B;*（產品特定）*&#x200B;可接收多少訊息的規則
-
-**護欄：**
-
-* 設定檔無法在同一歷程中同時出現多次。
-* 必須明確啟用重新進入；預設重新進入等待期間為5分鐘，最多91天。
-* 對於進階的多歷程頻率管理，請使用歷程上限和仲裁，而不是個別退出條件。
-* 必須主動管理歷程重疊；使用衝突管理和優先順序分數來解決競爭歷程。
-
-**術語：**
-
-* 正式名稱：進入條件 — 縮寫： n/a — 變體：進入條件，歷程觸發程式
-* 正式名稱：退出條件 — 縮寫： n/a — 變體：退出條件，設定檔移除規則
-* 同義字： &quot;audience disqualification&quot; = &quot;audience exit&quot;作為退出觸發器
-* 請勿混淆：「靠近新入口」≠「退出條件」 — 前者會封鎖新入口；退出條件會移除進行中的設定檔
-
-**常見問題集：**
-
-* **問：設定檔是否可以同時在同一個歷程中執行兩次？**  — 否，設定檔不能同時存在於相同歷程中。 設定檔身分會作為強制執行此功能的金鑰。
-* **問：如何防止設定檔重新進入歷程？**  — 停用歷程屬性面板中的重新進入，或新增條件以檢查設定檔是否已進入。
-* **問：退出條件與關閉歷程之間有何差異？**  — 退出條件會根據條件從即時歷程中移除個別設定檔；關閉歷程會停止所有新入口，同時讓目前的設定檔完成。
-* **問：我如何在多重歷程中停止和客戶的過度通訊？**  — 使用頻率上限規則和歷程上限和仲裁，強制執行跨歷程訊息限制。
-* **問：什麼是對象取消資格作為退出觸發器？**  — 當設定檔不再符合目標對象區段條件時，則會自動從歷程中移除該設定檔，以保持通訊的相關性。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-entry-exit-criteria-guide.md}}

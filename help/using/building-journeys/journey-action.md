@@ -11,30 +11,16 @@ keywords: 歷程，訊息，推播，簡訊，電子郵件，應用程式內，�
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 16%
+source-wordcount: 1891
+ht-degree: 21%
 
 ---
 
@@ -256,7 +242,7 @@ ht-degree: 16%
 
 當您想要在行動電話上，傳送緊急推播警報時，例如傳送重大新聞給已安裝新聞頻道應用程式的使用者參考，如果對企業來說，延後傳遞訊息很重要，就可能會使用快速傳遞功能。
 
-瞭解如何在此頁面[&#128279;](../push/create-push.md#rapid-delivery)啟用推播通知的快速傳遞模式。
+瞭解如何在此頁面](../push/create-push.md#rapid-delivery)啟用推播通知[的快速傳遞模式。
 
 如需使用快速傳遞模式時效能的詳細資訊，請參閱[[!DNL Adobe Journey Optimizer] 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。
 
@@ -364,46 +350,4 @@ ht-degree: 16%
   * [[!DNL Journey Optimizer]和Campaign v7/v8](../action/acc-action.md)
   * [[!DNL Journey Optimizer]與Campaign Standard](../action/acs-action.md)
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;此頁面說明如何在歷程畫布中使用統一動作活動，以設定內建頻道動作（電子郵件、推播、簡訊、應用程式內、網頁、內容卡片、程式碼型體驗）、建立多輸入動作群組，以及套用最佳化或多語言設定。
-
-**意圖：**
-* 使用動作活動將內建頻道動作（電子郵件、推播、簡訊、應用程式內、網路、內容卡片、程式碼型體驗）新增至歷程
-* 設定多動作群組，從單一歷程節點同時傳遞多個傳入動作
-* 將頻率限定規則套用至傳出頻道動作，以防止訊息疲勞
-* 在不重新發佈的情況下更新即時歷程中的訊息內容
-* 使用自訂動作將協力廠商傳訊系統連線到歷程
-* 為大量緊急推播通知啟用快速傳送模式
-
-**字彙表：**
-* **動作活動**：統一歷程畫布活動，可作為所有內建頻道動作的單一進入點，取代個別舊版頻道活動&#x200B;*（產品專用）*
-* **多重動作**：單一「動作」活動節點中的設定，允許同時傳遞最多10個傳入頻道動作&#x200B;*（產品特定）*
-* **快速傳遞模式**：可為時間關鍵型警示&#x200B;*（產品特定）*&#x200B;啟用快速大量推播訊息傳送的附加元件
-* **自動等待節點**：在每個傳入頻道動作之後自動插入3天等待活動，讓設定檔有時間在歷程前進之前檢視體驗&#x200B;*（產品特定）*
-* **優先順序分數**：指派給歷程動作的值，可決定當多個動作競爭相同的頻道設定&#x200B;*（產品特定）*&#x200B;時，哪個傳入體驗優先
-
-**護欄：**
-* 舊版個別頻道活動（電子郵件、推播、簡訊、應用程式內、網路、程式碼型體驗、內容卡）自2026年3月版本起即已淘汰；現有歷程仍可繼續運作，恕不移轉
-* 多動作僅適用於傳入頻道；多動作群組不支援傳出頻道，例如電子郵件
-* 多動作群組支援最多10個傳入動作
-* 在即時歷程中，個人化屬性（設定檔屬性和內容相關資料）無法變更；只能更新訊息內容
-* 無法在即時歷程中修改應用程式內觸發器
-
-**術語：**
-* 正式名稱：動作活動 — 縮寫：無 — 變體：頻道動作、訊息活動、內建頻道動作
-* 同義字：&quot;Action activity&quot; = &quot;channel action activity&quot;
-* 請勿混淆：「動作活動」≠「自訂動作」 — 「動作」活動使用內建的原生通道，而自訂動作透過API與協力廠商系統整合
-
-**常見問題集：**
-* **問：動作活動中有哪些可用管道？**  — 電子郵件、推播、SMS/RCS/MMS、應用程式內、Web、程式碼型體驗和內容卡。
-* **問：我可以傳送至相同歷程節點中的多個輸入端點嗎？**  — 是，使用多重動作型別，您最多可以在單一「動作」活動節點中新增10個輸入動作（程式碼型體驗、應用程式內、內容卡、Web）。
-* **問：使用已棄用舊版管道活動的歷程會發生什麼事？**  — 它們可繼續運作，而不會有任何變更；不需要移轉。
-* **問：我可以變更即時歷程的電子郵件主旨列嗎？**  — 您可以在即時歷程中更新訊息內容，但無法變更該內容中使用的個人化屬性或內容相關資料。
-* **問：如何將頻率上限套用至頻道動作？**  — 使用動作設定中的「商業規則」下拉式清單，選取套用所選管道之上限規則的規則集。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-action.md}}

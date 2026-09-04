@@ -11,30 +11,15 @@ keywords: 設計，畫布，歷程，介面，拖放
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2595
+source-wordcount: 2029
 ht-degree: 2%
 
 ---
@@ -97,7 +82,7 @@ ht-degree: 2%
 
 ![](assets/journey-new-canvas.png)
 
-若要切換到新體驗，請按一下歷程畫布中的&#x200B;**[!UICONTROL 新體驗]**&#x200B;按鈕。 切換後，此設定會儲存在歷程層級，因此後續造訪時預設會在新體驗中開啟歷程。 若要還原，請按一下&#x200B;**[!UICONTROL 舊體驗]**&#x200B;按鈕。
+若要切換到新體驗，請按一下歷程畫布中的&#x200B;**[!UICONTROL 新體驗]**&#x200B;按鈕。 切換後，此設定會儲存在歷程層級，因此後續造訪時預設會在新體驗中開啟歷程。 若要還原，請按一下&#x200B;**[!UICONTROL 舊體驗]**按鈕。
 此外，系統現在會在使用者層級記住您上次選取的體驗（舊或新）。 此後，每當您建立新歷程時，就會自動套用此喜好設定，因此您不需要每次都手動切換。
 
 ![](assets/journey-new-experience-switch.png)
@@ -106,13 +91,13 @@ ht-degree: 2%
 
 >[!TIP]
 >
->如需在歷程畫布中分離及重新加入節點的逐步指引，請參閱此[Experience League社群文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=zh-Hant){target="_blank"}。
+>如需在歷程畫布中分離及重新加入節點的逐步指引，請參閱此[Experience League社群文章](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}。
 
 
 
 觀看此影片，瞭解新歷程畫布體驗的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496202?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3496193)
 
 ## 開始您的歷程 {#start-your-journey}
 
@@ -120,7 +105,7 @@ ht-degree: 2%
 
 有兩種可能性：
 
-1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;**&#x200B;**。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
+1. **從事件開始**：當歷程設定為接聽事件時，個人會即時統一進入歷程&#x200B;****。 您歷程中包含的訊息會傳送給目前流入歷程的人。 [進一步瞭解事件](../event/about-events.md)
 1. **從讀取對象開始**：您可以設定您的歷程以聆聽[!DNL Adobe Experience Platform]個對象。 在這種情況下，屬於指定受眾的所有個人都會進入歷程。 歷程中包含的訊息會傳送給屬於該對象的個人。 深入瞭解[閱讀對象](read-audience.md)。 如需如何在Journey Optimizer中產生及鎖定對象的詳細資訊，請參閱[本節](../audience/about-audiences.md)。
 
 ## 定義後續步驟{#define-next-steps}
@@ -196,56 +181,9 @@ ht-degree: 2%
 1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![在歷程中選取多個活動以進行複製](assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
    ![在活動設定窗格中復製圖示](assets/copy-paste2.png)
 1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
    ![已貼上歷程畫布中的活動已準備好連線](assets/copy-paste3.png)
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;此頁面介紹Journey Optimizer歷程設計器畫布，說明如何從浮動視窗拖放事件、協調流程和動作活動，以建立多步驟歷程。
-
-**意圖：**
-
-* 導覽至歷程設計器介面（浮動視窗、畫布、工具列、活動設定窗格）
-* 將事件、協調活動和動作活動新增至歷程畫布
-* 在逾時或錯誤時，為條件和動作活動設定遞補替代路徑
-* 在相同歷程中或相同執行個體不同歷程中複製並貼上活動
-* 使用事件觸發器或讀取對象進入點開始歷程
-
-**字彙表：**
-
-* **浮動視窗**：歷程設計工具中的左側面板，列出所有可用的事件、協調流程和動作活動，以拖放至畫布&#x200B;*（產品專用）*
-* **畫布**：歷程設計程式的中央設計區域，在此放置、連線及設定活動&#x200B;*（產品特定）*
-* **活動設定窗格**：在畫布上選取活動時開啟的右側面板，用來填入活動設定&#x200B;*（產品專屬）*
-* **歷程片段**：預先建立的歷程節點集合可重複使用，可直接插入畫布以避免重新建置共同邏輯&#x200B;*（產品特定）*
-* **回應事件**：根據收件者追蹤互動（開啟、點按） *（產品特定）*，在郵件之後放置的事件活動，以分支歷程
-
-**護欄：**
-
-* 動作、條件、等待活動和反應事件不能作為新歷程的第一步。
-* 僅支援在相同執行個體內複製/貼上，不支援跨執行個體複製/貼上。
-* 您無法將事件複製/貼上至使用不同名稱空間的目的地歷程。
-* 從不同沙箱貼上的活動可能會參考不存在於目的地歷程中的資料。
-* 只有事件和等待活動可以並行設定；其他活動型別不能並行執行。
-* 替代路徑（逾時/錯誤備援）僅適用於「條件」和「動作」活動。
-
-**術語：**
-
-* 正式名稱：歷程Designer — 首字母縮寫：none — 變體：歷程畫布、協調畫布
-* 同義字： &quot;palette&quot; = &quot;activity panel&quot;； &quot;canvas&quot; = &quot;design area&quot;
-* 請勿混淆：「事件」（觸發歷程輸入或分支）≠「動作」（客戶發生的情況，例如傳送訊息）
-
-**常見問題集：**
-
-* **問：設定檔如何進入歷程？**  — 在收到已設定的事件時單一即時輸入設定檔，或在「讀取對象」活動觸發歷程時批次輸入設定檔。
-* **問：我可以新增多個事件到歷程嗎？**  — 是的，您可以新增多個事件，只要它們都使用相同的名稱空間。
-* **問：如何在動作失敗時定義遞補？**  — 在活動屬性中，啟用「在逾時或錯誤的情況下新增替代路徑」選項，在活動後新增遞補路徑。
-* **問：我可以從唯讀歷程複製活動嗎？**  — 可以，您可以從任何歷程複製活動（不論其狀態為何），但您只能貼在相同執行個體內。
-* **問：什麼是歷程片段？**  — 預先建立的歷程節點集（例如資格檢查、歡迎序列）可重複使用，可直接插入畫布上，避免從頭重建通用邏輯。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-using-the-journey-designer.md}}

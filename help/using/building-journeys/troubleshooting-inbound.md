@@ -11,24 +11,16 @@ keywords: 傳入動作，疑難排解，歷程，偵錯，自助，檢查，錯�
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2642
-ht-degree: 1%
+source-wordcount: 1840
+ht-degree: 2%
 
 ---
 
@@ -55,7 +47,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 開始疑難排解之前，請先確定下列事項：
 
-1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[[!DNL Adobe Experience Platform] Assurance檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
+1. 設定&#x200B;**Assurance**&#x200B;工作階段。 在[[!DNL Adobe Experience Platform] Assurance檔案](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}中進一步瞭解。
 
 1. 導覽至包含傳入動作的歷程，以擷取歷程名稱和版本ID。
 
@@ -69,7 +61,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![活動設定面板程式碼檢視中的動作ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
+1. 取得設定檔名稱空間和ID，以識別設定檔遇到的問題。 根據您的設定，例如名稱空間可以是ECID、電子郵件或客戶ID。 在[Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}中瞭解如何查詢設定檔。
 
 ## 案例1：使用者尚未收到傳入內容 {#scenario-1}
 
@@ -100,7 +92,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 應用程式內頻道]
 
-1. 前往[Assurance](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
+1. 前往[Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段，然後從左側面板選取&#x200B;**[!UICONTROL 應用程式內傳訊]**&#x200B;區段。
 
 1. 在&#x200B;**[!UICONTROL 裝置]**&#x200B;上的訊息，按一下&#x200B;**[!UICONTROL 訊息]**&#x200B;下拉式清單。
 
@@ -112,11 +104,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB 網路頻道]
 
-造訪頁面並檢查網路標籤，或在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
+造訪頁面並檢查網路標籤，或在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!TAB 程式碼型體驗管道]
 
-使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api)執行curl要求，並在[Edge](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
+使用[Adobe的API](https://developer.adobe.com/data-collection-apis/docs/api)執行curl要求，並在[Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}工作階段的&#x200B;**[!UICONTROL Edge Delivery]**&#x200B;區段中檢查Assurance回應裝載。
 
 >[!ENDTABS]
 
@@ -150,7 +142,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    您可以開啟「設定檔」區段的&#x200B;**segmentsMap**&#x200B;元素，並尋找&#x200B;**joai**&#x200B;區段ID是否存在，來仔細檢查&#x200B;**joai**&#x200B;區段是否存在於設定檔的Edge Network傳遞伺服器檢視中。
 
-1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. 如果Edge Network傳遞伺服器未檢視設定檔為位於相關的&#x200B;**joai**&#x200B;區段中，請移至下一個步驟。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 步驟3：檢查「joai」對象會籍是否已傳播至Edge網路 {#step-3}
 
@@ -237,55 +229,9 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;此頁面針對Adobe Journey Optimizer歷程中的兩個輸入動作情境提供逐步自助偵錯指南：進入輸入步驟但未接收內容的設定檔，以及退出歷程後繼續接收內容的設定檔。
-
-**意圖：**
-* 在偵錯傳入動作問題之前，先設定Assurance工作階段為先決條件
-* 確認裝置或使用者端是否正使用Assurance從Edge Network接收傳入內容
-* 檢查Edge Network符合資格和不符合資格的活動，以判斷設定檔是否符合傳入歷程動作的資格
-* 確認工作對象區段會籍已從Hub設定檔傳播至Edge設定檔
-* 在設定檔進入入站動作後，診斷集線器設定檔上新增區段擷取的延遲
-* 當自助服務步驟無法解決問題時，請使用正確的診斷資訊呈報給Adobe客戶服務
-
-**字彙表：**
-* **傳入動作**：將個人化內容傳送到使用者裝置或瀏覽器的歷程活動，包括應用程式內、網頁和程式碼型體驗管道&#x200B;*（產品專屬）*
-* **joai名稱空間**：在設定檔`segmentMembership`中使用的特殊身分名稱空間，以啟動傳入歷程動作步驟&#x200B;*（產品特定）*&#x200B;的設定檔
-* **joai區段**：對應至特定傳入歷程動作的joai名稱空間中自動建立的對象區段；設定檔必須在此區段中處於已實現狀態，才能接收內容&#x200B;*（產品特定）*
-* **歷程傳入資料集**：用來儲存設定檔進入傳入歷程動作&#x200B;*（產品特定）*&#x200B;時所進行設定檔更新的AEP資料集
-* **中心設定檔**： Adobe Experience Platform中的中心設定檔存放區已用作設定檔屬性和區段會籍的信任來源
-* **Edge設定檔**： Edge Network傳遞伺服器用來即時評估內容適用性的中心設定檔預計復本
-* **Assurance**：Adobe Experience Platform工具，用於使用者端SDK行為和Edge Network回應的即時偵錯
-
-**護欄：**
-* 傳入動作正常運作之前，必須先在目前沙箱中啟用歷程傳入資料集以擷取設定檔
-* 必須在沙箱的Platform身分中定義工作名稱空間
-* 從Hub將Joai區段會籍傳播至Edge最多可能需要15至30分鐘
-* 在設定檔進入入站動作後，將Joai區段會籍擷取至中心設定檔最多可能需要15至30分鐘
-* 如果在30-60分鐘後仍然缺少內容，請透過歷程版本ID、動作ID、Assurance追蹤以及Edge和中心設定檔JSON檢視，向上呈報至Adobe客戶服務
-
-**術語：**
-* 正式名稱：joai名稱空間 — 縮寫：joai — 變體：joai身分，joai區段名稱空間
-* 正式名稱：傳入動作 — 首字母縮寫：none — 變體：傳入頻道、傳入內容
-* 同義字： &quot;Hub profile&quot; = &quot;central profile&quot; (AEP)；&quot;Edge profile&quot; = &quot;projected profile&quot; （由Edge Network使用）
-* 請勿混淆： Edge Delivery檢視中的「合格活動」≠「不合格活動」 — 合格表示設定檔已接收內容；不合格表示未接收，並顯示排除原因
-
-**常見問題集：**
-* **問：本指南涵蓋的兩個主要輸入動作失敗案例為何？**  — 案例1：設定檔進入入站步驟，但使用者從未看到內容。 案例2：設定檔已退出歷程，但使用者仍會收到傳入內容。
-* **問：我使用什麼工具來偵錯傳入動作傳送？** —Adobe Experience Platform Assurance。 先設定Assurance工作階段，然後使用應用程式內傳訊和Edge Delivery檢視來檢查內容傳遞和Edge Network回應。
-* **問：什麼是Joai區段，它為什麼重要？**  — 當設定檔進入入站動作時，會自動符合該特定動作範圍的歷程對象區段的資格。 只有在設定檔處於該歷程區段的已實現狀態時，Edge Network才會傳送傳入內容。
-* **問：joai區段會籍需要多久才會出現在Edge設定檔中？**  — 更新集線器設定檔後，從Hub傳輸至Edge最多需要15至30分鐘。
-* **問：如果Edge設定檔上的joai區段ID處於已退出狀態，怎麼辦？**  — 設定檔已離開歷程區段，這表示其已退出傳入歷程動作。 如果這是意外狀況，請透過集線器設定檔擷取回溯，然後檢查設定檔是否已正確進入輸入動作步驟。
-* **問：當向Adobe客戶服務提出申請時，應提供哪些資訊？**  — 歷程版本ID、歷程動作ID、發生非預期行為的步驟、完整Assurance追蹤，以及Edge和Hub設定檔的JSON檢視。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-troubleshooting-inbound.md}}

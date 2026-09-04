@@ -10,30 +10,16 @@ hide: true
 keywords: 歷程，協調，快速入門，入門，功能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 26%
+source-wordcount: 1011
+ht-degree: 42%
 
 ---
 
@@ -172,7 +158,7 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 
 使用AI支援的傳送時間最佳化，在每個客戶最有可能參與時傳送電子郵件。
 
-[瞭解更多](send-time-optimization.md)
+[了解更多](send-time-optimization.md)
 :::
 
 :::
@@ -182,7 +168,7 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 
 逐步增加訊息量，以便改善寄件者的信譽，避開傳遞能力問題。
 
-[瞭解更多](ramp-up-deliveries-uc.md)
+[了解更多](ramp-up-deliveries-uc.md)
 :::
 
 :::
@@ -279,7 +265,7 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 
 探索歷程的元件，並瞭解在畫布中建立歷程的基本概念。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### 其他資源
 
@@ -289,44 +275,4 @@ Journey Optimizer歷程設計工具提供行銷人員和歷程從業人員跨頻
 * **[歷程教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** — 透過實作影片教學課程瞭解如何建立歷程
 * **[歷程護欄和限制](../start/guardrails.md)** — 使用[!DNL Adobe Journey Optimizer]時檢查護欄和限制
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;此為Adobe Journey Optimizer中歷程協調的全方位快速入門手冊，涵蓋關鍵功能（即時和批次傳送、情境資料、內建和自訂動作、視覺化設計工具、歷程片段和測試）、常見使用案例，以及所有主要學習資源的連結。
-
-**意圖：**
-* 在建置第一個歷程之前，先瞭解Journey Optimizer歷程設計器中可用的關鍵功能
-* 導覽至建立、管理、測試或疑難排解歷程的正確資源
-* 瞭解如何使用歷程設計器觸發任何管道上的1:1即時訊息
-* 探索歷程片段如何實現跨歷程重複使用通用節點邏輯
-* 存取常見歷程使用案例（例如歡迎系列、購物車放棄和傳送時間最佳化）的影片教學課程和逐步指南
-
-**字彙表：**
-* **歷程設計器**： Adobe Journey Optimizer中的拖放式視覺畫布可用來建置和協調多步驟客戶歷程&#x200B;*（產品專用）*
-* **歷程片段**：一組可重複使用的歷程節點（例如資格檢查、管道路由邏輯），已建置一次並插入多個歷程&#x200B;*（產品專屬）*
-* **單一傳遞**：當特定事件發生時，針對單一設定檔觸發的即時訊息&#x200B;*（產品特定）*
-* **批次傳送**：一次或依排程&#x200B;*（產品特定）*&#x200B;傳送給Adobe Experience Platform對象中所有設定檔的訊息
-* **傳送時間最佳化(STO)**： AI驅動的功能，可預測傳送訊息給每個個別設定檔的最佳時間，以最大化參與度&#x200B;*（產品特定）*
-* **自訂動作**：透過API連線至協力廠商系統的歷程活動，以傳送訊息或擷取資料&#x200B;*（產品特定）*
-
-**護欄：**
-* 歷程護欄和限制在護欄頁面上分開詳述，並在大規模設計之前檢閱
-* 自訂動作必須先由技術使用者設定，才能用於歷程中
-* 歷程片段必須先處於作用中狀態，才能將其插入歷程中
-
-**術語：**
-* 正式名稱：Journey — 首字母縮寫：none — 變體：customer journey、orchestration flow、multistep journey
-* 同義字： &quot;journey designer&quot; = &quot;journey canvas&quot; = &quot;journey builder&quot;
-* 請勿混淆：「內建頻道動作」≠「自訂動作」 — 內建動作使用原生AJO頻道；自訂動作呼叫外部第三方API
-
-**常見問題集：**
-* **問：在歷程中，即時（單一）傳遞和批次傳遞之間有何差異？**  — 單一傳遞會在事件發生時即時觸發一個設定檔的訊息。 批次傳送會使用讀取對象活動，一次或依排程處理對象中的所有設定檔。
-* **問：我可以在多個歷程中重複使用通用邏輯（例如資格檢查）嗎？**  — 是；將節點儲存為歷程片段並將作用中片段插入跨沙箱的任何歷程中。
-* **問：我該前往何處建立第一個歷程？**  — 遵循「建立您的第一個歷程」頁面上的逐步指南，逐步說明登入點選擇、畫布設計、測試和發佈。
-* **問：如何透過協力廠商系統從歷程傳送訊息？**  — 設定自訂動作以呼叫外部API，然後將其新增為歷程畫布中的動作活動。
-* **問：我可以在哪裡找到常見歷程問題的解答？**  — 請造訪歷程常見問題集頁面，瞭解概念、建立、測試、執行、監控和最佳實務等問題的解答。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-get-started.md}}

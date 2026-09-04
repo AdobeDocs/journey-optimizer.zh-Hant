@@ -10,34 +10,16 @@ keywords: 歷程、探索、開始、單一、讀取對象、對象資格、商�
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2403
-ht-degree: 63%
+source-wordcount: 1729
+ht-degree: 87%
 
 ---
 
@@ -132,7 +114,7 @@ ht-degree: 63%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **新增邏輯和條件**
 
@@ -389,7 +371,7 @@ ht-degree: 63%
 
 取得歷程元件的視覺簡介，並瞭解在畫布中建立歷程的基本知識：
 
->[!VIDEO](https://video.tv.adobe.com/v/3430349?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **想要更多影片？** [探索歷程影片教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -452,50 +434,4 @@ ht-degree: 63%
 
 **準備好建立您的第一個歷程了嗎？** [立即開始 →](journey-gs.md)
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;此頁面是Adobe Journey Optimizer歷程的快速入門中樞，說明哪些歷程、四種歷程型別、六步驟建立工作流程、真實世界使用案例和進階功能的連結。
-
-**意圖：**
-
-* 瞭解歷程是什麼，以及它們與行銷活動和協調行銷活動的差異
-* 針對使用案例選擇正確的歷程型別（單一、讀取對象、對象資格或業務事件）
-* 遵循六個步驟的歷程建立工作流程：計畫、設計、測試、發佈、監視、最佳化
-* 使用模擬、測試模式或模擬執行，在歷程上線前驗證歷程
-* 發佈歷程並透過報告和警報監控效能
-* 探索進階功能，例如運算式、時區管理、複製到沙箱和輸送量控制
-
-**字彙表：**
-
-* **歷程**：自動化、多步驟客戶體驗，可針對客戶行為、業務活動或排程的行銷活動，協調跨管道的個人化互動。 *（產品特定）*
-* **歷程設計器**： AJO中的視覺拖放畫布可用來建立及設定歷程流程，而不需撰寫程式碼。 *（產品特定）*
-* **測試模式**：歷程驗證模式，使用持續性Adobe Experience Platform測試設定檔（明確標籤為測試設定檔）在發佈之前周遊草稿歷程。 *（產品特定）*
-* **練習**：一種特殊的發佈模式，可針對真實的生產資料執行歷程，而不需傳送通訊或更新設定檔。 *（產品特定）*
-* **模擬**：使用暫時模擬使用者（手動建立或自動產生）的驗證模式；模擬使用者不會持續存在於Adobe Experience Platform中。 *（產品特定）*
-* **協調的行銷活動**： AJO中的多步驟批次工作流程使用關聯式資料（設定檔+產品/商店/預訂），並處理所有設定檔與精確的預先傳送計數。 *（產品特定）*
-
-**護欄：**
-
-* 即時歷程無法進行結構編輯；變更需要建立新版本
-* 發佈之前必須使用測試模式和模擬執行，才能擷取問題
-
-**術語：**
-
-* 正式名稱：歷程 — 縮寫：無 — 變體：客戶歷程、AJO歷程
-* 同義字： &quot;journey designer&quot; = &quot;canvas&quot; = &quot;journey canvas&quot;
-* 請勿混淆：「歷程」≠「行銷活動」 — 歷程會維護個別客戶狀態，以供即時、多步驟行為導向的體驗使用；行銷活動會依排程或透過API觸發程式，批次傳送訊息給對象
-* 請勿混淆：「模擬」≠「測試模式」≠「演習」 — 模擬使用臨時模擬使用者；測試模式在草稿歷程中使用持續的AEP測試設定檔；演習會針對真實生產資料執行，而不需聯絡客戶或更新設定檔
-
-**常見問題集：**
-
-* **問：Journey Optimizer中的歷程與行銷活動有何不同？**  — 歷程提供1:1即時協調，每個設定檔透過條件式邏輯以各自的進度進行；行銷活動會依排程或透過API觸發程式同時傳送訊息給對象；協調的行銷活動是複雜多實體細分的批次畫布工作流程。
-* **問：是否可以編輯即時歷程？**  — 可以編輯有限的元素，例如名稱和訊息內容；結構變更需要建立歷程的新版本。
-* **問：建置歷程的步驟為何？**  — 六步驟工作流程為：規劃、在畫布中進行設計、測試（測試模式或試運行）、發佈、監控效能以及最佳化/迭代。
-* **問：如何在不連絡真實客戶的情況下驗證歷程？**  — 使用模擬（臨時模擬使用者 — 注意，這確實會傳送真實訊息，但只會傳送給在這些模擬使用者上設定的執行地址）、測試模式（持續的AEP測試設定檔 — 注意，這確實會傳送真實訊息給這些測試設定檔的收件匣）或練習（真實的生產資料、略過的動作節點、不傳送訊息）。 試執行設定檔會計入可參與設定檔和即時歷程配額。 如需完整比較，請參閱[選擇驗證方法](choose-validation-method.md)。
-* **問：訂閱所觸發的歡迎電子郵件應該使用哪種歷程型別？**  — 使用單一歷程，此歷程是由特定個別事件（例如訂閱註冊）觸發。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey.md}}

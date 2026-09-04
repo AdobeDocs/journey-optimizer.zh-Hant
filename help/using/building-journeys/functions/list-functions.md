@@ -9,19 +9,15 @@ keywords: 清單，函式，運算式，歷程，陣列，集合
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2071
-ht-degree: 5%
+source-wordcount: 1395
+ht-degree: 8%
 
 ---
 
@@ -865,61 +861,4 @@ mergeLists(['a','b'], ['b','c'], false)
 
 +++
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-* **TL；DR：**&#x200B;本頁會記錄AJO歷程運算式中可用的所有清單功能，包括如何篩選、排序、去重複化、檢查成員資格、限制、序列化、合併、減去及尋找清單與陣列的交集。
-
-**意圖：**
-* 使用`distinct` （略過null）或`distinctWithNull` （保留null）從清單中移除重複值
-* 篩選listObject以使用`filter`只傳回符合特定索引鍵值的物件
-* 使用`getListItem`從清單中擷取特定索引處的專案
-* 使用`in`檢查清單中是否存在值
-* 使用`intersect`尋找兩個清單之間的共同元素
-* 使用`mergeLists`合併兩個清單（無論是否重複資料刪除）
-* 使用`differenceLists`從另一個清單中減去一個清單（設定差異）
-* 使用`limit`傳回清單的第一個或最後的N個元素
-* 使用`listSize`計算清單中的元素總數
-* 使用`serializeList`將清單轉換為分隔字串
-* 使用`sort`以遞增或遞減順序排序清單
-
-**字彙表：**
-* **listObject**：必須是欄位參考的複雜物件清單；不能包含Null物件&#x200B;*（產品特定）*
-* **keyAttributeName**：與`distinct`、`filter`和`sort`搭配使用的選擇性字串引數，用來識別要用於重複資料刪除、篩選或排序&#x200B;*（產品特定）*&#x200B;的物件屬性
-* **相交**： set作業只傳回兩個輸入清單中出現的專案
-* **mergeLists**：集合作業傳回兩個清單的聯合（去重複化）或串連（含重複項），取決於`deduplicate`引數&#x200B;*（產品特定）*
-* **differenceLists**：集合作業，傳回不在第二個清單&#x200B;*（產品特定）*&#x200B;中的第一個清單專案
-
-**護欄：**
-* `distinctWithNull`不支援`<listObject>`引數型別
-* `filter`需要listObject引數為欄位參考，而非內嵌常值
-* listObject上的`listSize`需要清單為欄位參考；listObject不能包含null物件
-* `serializeList`不支援`listObject`型別
-* `mergeLists`和`differenceLists`僅支援純量清單型別（字串、整數、小數、布林值、dateTime、dateTimeOnly、dateOnly、持續時間）；不支援`listObject`
-* `mergeLists`的`deduplicate`引數必須是常值`true`/`false`，而不是動態布林運算式
-* `differenceLists`一律會刪除其結果的重複專案；沒有選項可保留重複專案
-
-**術語：**
-* 正式名稱：清單函式 — 首字母縮寫：none — 變體：集合函式，陣列函式
-* 同義字： &quot;listSize&quot; = &quot;count list elements&quot;； &quot;serializeList&quot; = &quot;join list to string&quot;
-* 請勿混淆：「distinct」（忽略null）≠「distinctWithNull」（保留null為不重複值）
-* 請勿混淆： 「limit」與第三個引數`true` （傳回前N個專案）≠「limit」與`false` （傳回最後N個專案）
-* 請勿混淆：「相交」（兩個清單之間的通用元素）≠「篩選」（符合特定鍵值的元素）
-* 請勿混淆：「mergeLists」（結合兩個清單、聯集或串連）≠「differenceLists」（從另一個清單中減去一個清單）≠「intersect」（僅限通用元素）
-
-**常見問題集：**
-* **問：如何取得清單的前3個專案？**  — 使用`limit(myList, 3)`或`limit(myList, 3, true)`；預設為傳回第一個專案。
-* **問：如何取得清單的最後3個專案？**  — 使用`limit(myList, 3, false)`。
-* **問：`distinct`與`distinctWithNull`之間有何差異？** — `distinct`會忽略null值，並將它們從結果中排除；`distinctWithNull`會將null視為不同的值，並在出現任何null時包含一個null專案。
-* **問：我可以使用`filter`篩選字串清單嗎？**  — 否，`filter`僅適用於`listObject`；對於純量清單，請使用`in`或`distinct`進行重複資料刪除。
-* **問：如何檢查清單中是否有值？**  — 使用`in(value, myList)`，如果值在清單中找到，則傳回true。
-* **問：我是否可依特定屬性排序listObject？**  — 是，使用`sort(@event{...}, "attributeName", true)`，其中第二個引數是屬性名稱，第三個是排序方向（true =升序）。
-* **問：如何合併兩個清單並移除重複專案？**  — 使用`mergeLists(list1, list2, true)`。
-* **問：如何合併兩個清單但保留重複值？**  — 使用`mergeLists(list1, list2, false)`。
-* **問：如何在一個清單中找到不在另一個清單中的專案？**  — 使用`differenceLists(list1, list2)`，這會傳回`list2`中未出現的`list1`專案。
-* **問：`intersect`與`differenceLists`之間有何差異？** — `intersect`會傳回兩個清單通用的專案；`differenceLists`會傳回第一個清單中第二個清單中沒有的專案。
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-functions-list-functions.md}}
