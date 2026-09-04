@@ -99,7 +99,7 @@ WhatsApp 仰賴客群採用和明確同意，因此並不適用於所有情境�
 
 +++ 收看影片
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470255?captions=chi_hant&learn=on)
 
 +++
 
