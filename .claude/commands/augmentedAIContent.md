@@ -37,7 +37,7 @@ Content here — any standard markdown is valid.
 
 透過`{{$include}}`從`help/_includes/do-not-localize/`提取的內容是&#x200B;**從本地化排除** — 這是區塊未翻譯的方式。
 
----
+&#x200B;---
 
 ## 工作流程
 
@@ -89,7 +89,7 @@ Content here — any standard markdown is valid.
 
 **更正規則：**&#x200B;如果任何檢查失敗，請在寫入區塊&#x200B;**之前更正內容**。 在步驟5報表中記錄每次校正。
 
----
+&#x200B;---
 
 ### 步驟4 — 將區塊寫入「不要本地化」包含，然後包含它
 
@@ -131,7 +131,7 @@ title: AI Knowledge Reference
 - 略過的檔案+原因（已經有區塊/空白/索引頁面）
 - 在步驟2期間出現的任何驗證警告
 
----
+&#x200B;---
 
 ## 內容產生規則
 
@@ -246,7 +246,7 @@ For complete understanding, this information should be combined with the documen
 - 請&#x200B;**不**&#x200B;該頁面不支援的發明內容
 - 請&#x200B;**不**&#x200B;使用下列不精確的辭彙，除非它們一字不差地出現在頁面本文中：「合成」、「假資料」、「沒有真實資料」、「回覆」、「回覆」（描述產品狀態轉換時）
 
----
+&#x200B;---
 
 ## 產生後驗證檢查清單
 
@@ -269,7 +269,7 @@ For complete understanding, this information should be combined with the documen
 
 如果任何檢查失敗，請先更正區塊，再寫入Include。 在「步驟5」報表中記錄更正。
 
----
+&#x200B;---
 
 ## 同步處理責任
 
@@ -282,7 +282,7 @@ AI知識參考區塊是某個時間點頁面主體的衍生。 必須將其視�
 
 包含檔案(`<!-- ai-section-version -->`)內的同步處理註解是訊號：如果包含頁面的內文在寫入雜湊後已變更，則區塊是可供檢閱的候選專案。 更新時，請編輯`help/_includes/do-not-localize/`下的包含檔案，而非頁面。
 
----
+&#x200B;---
 
 ## 完整範本
 
