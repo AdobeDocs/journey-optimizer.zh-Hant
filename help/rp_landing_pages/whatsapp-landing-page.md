@@ -30,7 +30,7 @@ WhatsApp 訊息快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 設定 WhatsApp 管道
 
@@ -40,7 +40,7 @@ WhatsApp 訊息快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 建立 WhatsApp 訊息
 
@@ -50,7 +50,7 @@ WhatsApp 訊息快速入門
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=zh-Hant)
 
 預覽、驗證和傳送 WhatsApp 訊息
 
