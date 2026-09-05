@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 293
 ht-degree: 27%
@@ -80,3 +80,5 @@ ht-degree: 27%
 瞭解如何匯入現有的 HTML 內容、調整設計、新增鏡像頁面和取消訂閱連結，以及如何編寫內容的程式碼。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-existing-content.md}}

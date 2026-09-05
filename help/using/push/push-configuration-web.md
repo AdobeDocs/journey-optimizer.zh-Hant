@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -205,3 +205,5 @@ ou need to your have access to perform following roles :
 在Adobe Experience Platform和[!DNL Adobe Experience Platform Data Collection]中完成Web推播設定後，您可以在將Web推播通知傳送至設定檔之前先測試實施。 測試可確保訂閱已正確註冊，且通知會正確傳送至使用者的瀏覽器。
 
 如需使用事件建立測試歷程以驗證Web推播設定的詳細指示，請參閱[行動應用程式推播通知設定檔案](push-configuration.md)，其中提供適用於行動裝置和網頁推播通道的完整測試工作流程。
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

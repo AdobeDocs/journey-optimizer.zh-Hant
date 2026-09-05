@@ -27,7 +27,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2223
 ht-degree: 9%
@@ -263,7 +263,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. 選擇您的&#x200B;**[!UICONTROL 平台]**： Android和/或iOS <!--and/or Web-->。
 
-1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [進一步了解](#app-id-personalization)
+1. 針對&#x200B;**[!UICONTROL 應用程式識別碼]**，選取與您的[推播認證](#push-credentials-launch)相符的值。 或者，使用個人化，從單一歷程或行銷活動中推動許多應用程式。 [了解更多](#app-id-personalization)
 
 1. **儲存**&#x200B;您的變更。
 
@@ -453,3 +453,5 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 按一下&#x200B;**[!UICONTROL 傳送]**。
 
 您的事件將會觸發，而您將會收到傳送至行動應用程式的推播通知。
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration.md}}

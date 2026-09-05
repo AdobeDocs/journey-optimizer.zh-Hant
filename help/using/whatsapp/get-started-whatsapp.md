@@ -20,8 +20,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: ht
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
+workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ## 不適用情境 {#when-not-to-use}
 
-WhatsApp 仰賴客群採用和明確同意，因此並不適用於所有情境。在下列情況下，建議考慮採用其他管道：
+WhatsApp 仰賴客群採用和明確同意，因此並不適用於所有情境。 在下列情況下，建議考慮採用其他管道：
 
 * 您的客群未使用 WhatsApp，因為採用率會因地區和人口統計特徵而大幅不同
 * 收件者尚未明確選擇加入，而這是 Meta 傳訊政策的要求
@@ -109,3 +109,4 @@ WhatsApp 仰賴客群採用和明確同意，因此並不適用於所有情境�
 
 ➡️ [WhatsApp 管道教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-get-started-whatsapp.md}}

@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2225
 ht-degree: 13%
@@ -233,3 +233,5 @@ ht-degree: 13%
 | **[!UICONTROL 通知優先順序]** （僅限Android） | 定義推播通知的重要性從低到高。 這會決定推播通知在傳送時會如何「干擾」。 如需詳細資訊，請參閱[Android開發人員檔案](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL 傳遞優先順序]** （僅限Android） | 設定推播通知的高優先順序或一般優先順序。 如需訊息優先順序的詳細資訊，請參閱 [Google 開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。 |
 | **[!UICONTROL 存留時間]** （僅限Android） | 設定訊息到期的秒數。 在Android上，到期日會被視為傳遞期間：Firebase Cloud Messaging (FCM)從收到訊息開始，將到期時間轉換為存留時間(TTL)值，這表示未傳遞的行銷活動可能會比預期更晚傳送，甚至超出所需的時間範圍。 如需詳細資訊，請參閱[Android開發人員檔案](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)。 |
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-design-push.md}}

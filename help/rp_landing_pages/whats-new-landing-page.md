@@ -52,7 +52,7 @@ Immerse yourself in a hands-on experience with our [Generate Content](../help/us
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 Adobe Journey Optimizer 的最新發行說明
 

@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 100%
@@ -81,3 +81,5 @@ ht-degree: 100%
   >這是最常見的使用案例。 Adobe 建議在欄層級設定背景顏色，因為這樣可以在編輯整個電子郵件內容時具有更大的彈性。
 
   您也可以在欄層級設定背景影像，但這很少使用。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-backgrounds.md}}

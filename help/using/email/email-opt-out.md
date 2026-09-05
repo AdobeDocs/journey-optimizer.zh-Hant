@@ -31,7 +31,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 1259
 ht-degree: 21%
@@ -215,3 +215,5 @@ ht-degree: 21%
    因此，除非再次訂閱，否則此使用者將不會收到您品牌的通訊。
 
 此事件序列可確保正確追蹤取消訂閱過程，並在系統中準確反映設定檔的同意偏好設定。 如果此流程中的任何步驟遺失或不按順序發生，則可能表示應調查的選擇退出實施發生問題。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-opt-out.md}}

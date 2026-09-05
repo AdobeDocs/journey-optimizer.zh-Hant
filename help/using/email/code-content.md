@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 529
 ht-degree: 21%
@@ -106,7 +106,7 @@ ht-degree: 21%
 
 * **`currentTimeInMillis()`** — 傳回目前時間（以Epoch毫秒為單位）。
 
-  範例：`{%= currentTimeInMillis() %}`
+  範例: `{%= currentTimeInMillis() %}`
 
 **建議的因應措施：**
 
@@ -114,12 +114,14 @@ ht-degree: 21%
 
 * **預先計算日期欄位** — 在傳送電子郵件之前，先計算資料管道或設定檔屬性中的必要日期值，然後在您的個人化中參考這些預先計算的值。
 
-  範例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
+  範例: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
 * **使用日期操作函式** — 使用[日期/時間函式](../personalization/functions/dates.md) （例如`dayOfYear()`或`diffInDays()`）搭配設定檔屬性的日期值。
 
-  範例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
+  範例: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
 * **使用計算屬性** — 建立執行複雜日期計算的[計算屬性](../audience/computed-attributes.md)，使結果可做為設定檔屬性。
 
 如需支援函式的完整清單，請參閱[日期與時間函式](../personalization/functions/dates.md)。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-code-content.md}}

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: ajo；ajo網頁；adobe journey optimizer；renderDecisions；介面；決定；主張；範圍；結構
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 2%
@@ -127,3 +127,5 @@ Journey Optimizer內容主張範例：
 若要偵錯Adobe Journey Optimizer個人化實作，請使用[Web SDK偵錯](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=zh-Hant){target="_blank"}。 使用[[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/)進行疑難排解時，有[!DNL Adobe Journey Optimizer]個偵錯追蹤可供使用。 檢查具有`AJO:`首碼的事件。
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-sdk.md}}

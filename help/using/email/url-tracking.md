@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 521
 ht-degree: 61%
@@ -104,3 +104,5 @@ ht-degree: 61%
 >[!NOTE]
 >
 >您也可以將動態個人化追蹤引數新增至電子郵件內容呈現的連結。 [了解更多](surface-personalization.md#personalize-url-tracking)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-url-tracking.md}}

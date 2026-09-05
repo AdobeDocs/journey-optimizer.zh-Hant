@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 49%
@@ -155,3 +155,5 @@ ht-degree: 49%
 1. 您也可以驗證內容品質，以評估可讀性、有效性和內容一致性。 [了解更多關於內容品質驗證的資訊](../content-management/brands-score.md#validate-quality)
 
 1. 當您的內容準備就緒時，請按一下[儲存]。**&#x200B;**
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-from-scratch.md}}

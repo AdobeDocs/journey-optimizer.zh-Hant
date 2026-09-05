@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1658
 ht-degree: 41%
@@ -283,3 +283,5 @@ ht-degree: 41%
    >使用&#x200B;**[!UICONTROL 請勿在行動裝置上棧疊欄]**&#x200B;選項可保留行動裝置上的格線配置，而非垂直棧疊欄。
 
 1. 視需要將其他內容元件放入每個儲存格，並從每個元件的&#x200B;**[!UICONTROL 樣式]**&#x200B;索引標籤調整樣式。
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}

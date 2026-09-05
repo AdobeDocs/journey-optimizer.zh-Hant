@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -59,3 +59,5 @@ ht-degree: 100%
 * [自訂收件匣](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox)：調整 Android 應用程式的收件匣版面配置、樣式和互動行為 (Adobe Developer 文件)。
 
 * [聆聽收件匣事件](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events)：訂閱 Android 上的使用者動作和生命週期更新的收件匣回呼 (Adobe Developer 文件)。
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-gs.md}}

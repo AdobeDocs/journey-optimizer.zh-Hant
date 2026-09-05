@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 614
 ht-degree: 6%
@@ -96,3 +96,5 @@ ht-degree: 6%
 * [撰寫您自己電子郵件內容的程式碼](code-content.md)
 * [建立內容範本](../content-management/create-content-templates.md)
 * [開始使用電子郵件設計工具](get-started-email-design.md)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-expert-mode.md}}

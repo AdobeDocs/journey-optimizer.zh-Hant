@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 366
 ht-degree: 16%
@@ -77,3 +77,5 @@ ht-degree: 16%
 1. 若要移除元素上的點選追蹤，請選取對應的刪除圖示。
 
 一旦您的行銷活動上線，您就可以檢查行銷活動網頁[即時報告](../reports/campaign-live-report.md#web-tab)和[Customer Journey Analytics報告](../reports/campaign-global-report-cja-web.md)中每個元素的點按次數。
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-monitor-web-experiences.md}}

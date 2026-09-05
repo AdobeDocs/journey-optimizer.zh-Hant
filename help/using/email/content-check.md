@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件，內容檢查， HTML， CSS，驗證，呈現，品質
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 電子郵件Designer中一律提供內容檢查。 若要檢視，請按一下右側邊欄中的「問題」圖示，以開啟&#x200B;**[!UICONTROL 內容檢查]**&#x200B;窗格 — 此處列出所有偵測到的問題。
 
-![電子郵件Designer中有問題的內容檢查窗格](assets/content-check.png)
+![電子郵件設計工具中含有問題的內容檢查窗格](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -131,3 +131,5 @@ ht-degree: 6%
 
 * Gmail剪裁的電子郵件，會以大約102 KB的HTML剪裁訊息
 * 在行動裝置或低頻寬連線上呈現時速度緩慢
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}

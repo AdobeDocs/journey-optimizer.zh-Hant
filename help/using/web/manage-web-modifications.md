@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1009
 ht-degree: 23%
@@ -209,3 +209,5 @@ ht-degree: 23%
 如果您對影響相同URL的兩個行銷活動使用&#x200B;**[!UICONTROL 頁面`<head>`]**&#x200B;修改型別，則JavaScript會從兩個行銷活動插入頁面。 [!DNL Journey Optimizer]會自動決定傳遞內容的順序。 請確定程式碼不依賴位置。 您必須確保程式碼中沒有衝突。
 
 +++
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-manage-web-modifications.md}}

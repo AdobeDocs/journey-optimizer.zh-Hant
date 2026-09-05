@@ -28,7 +28,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 1798
 ht-degree: 3%
@@ -288,4 +288,6 @@ ht-degree: 3%
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解作法](#apply-themes-email)
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存此新主題以供重複使用。 您現在可以將此主題套用至您的內容，例如任何其他主題。 [了解做法](#apply-themes-email)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-apply-email-themes.md}}
