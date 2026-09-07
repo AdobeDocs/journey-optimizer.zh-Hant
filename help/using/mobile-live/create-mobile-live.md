@@ -22,9 +22,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
+source-git-commit: a2c3b641cc80cc876cb6a4a7e3f922ffdc6a9818
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: 722
 ht-degree: 6%
 
 ---
@@ -182,7 +182,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
-> `executionMetadata`可用於&#x200B;**API觸發的交易式**&#x200B;和&#x200B;**API觸發的行銷**&#x200B;行銷活動。
+> `executionMetadata`僅適用於&#x200B;**API觸發的交易式**&#x200B;行銷活動。
 
 使用選用的`executionMetadata`欄位，將您自己的&#x200B;**自訂資料**&#x200B;附加至設定檔，例如訂單ID、忠誠度等級或地區代碼。 Journey Optimizer會將此資料與執行一併儲存，以便您稍後可從&#x200B;**Live活動意見回饋資料集**&#x200B;擷取資料，並將傳遞結果與您自己的業務記錄比對。
 

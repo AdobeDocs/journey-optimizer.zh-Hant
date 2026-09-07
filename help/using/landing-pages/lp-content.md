@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +107,14 @@ ht-degree: 12%
    * **[!UICONTROL 如果勾選則選擇加入]**：使用者需要勾選方塊才能同意（選擇加入）。
    * **[!UICONTROL 如果勾選則選擇退出]**：使用者需要勾選方塊以移除其同意（選擇退出）。
    * **[!UICONTROL 選取時選擇加入，取消選取時選擇退出]**：此選項可讓您插入選擇加入/選擇退出的單一核取方塊。 使用者需要勾選方塊同意 (選擇加入)，並取消勾選方塊移除其同意 (選擇退出)。
+
+1. 如果想要要求使用者在提交表單之前先選取此核取方塊，請針對選擇加入/選擇退出核取方塊，選取&#x200B;**[!UICONTROL 將表單欄位設為必要欄位]**。
+
+   >[!NOTE]
+   >
+   >依預設會選取此選項。
+
+   如果已啟用此選項，且使用者未選取核取方塊，則無法提交表單。
 
 1. 選擇要在下列三個選項之間更新的專案：
 

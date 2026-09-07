@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 10520
+source-wordcount: 10562
 ht-degree: 96%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 96%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年9月 {#september-2026}
+
+* **設計您的歷程**&#x200B;頁面現在包含有關新畫布體驗的完整教學課程區段，涵蓋如何新增活動、使用工具列圖示、選取多個活動以進行大量動作、複製和貼上活動，以及加入或分離分支。 [閱讀更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * **設定您的管道組態**&#x200B;頁面現在包含澄清用於次要維度的結構描述必須具有主索引鍵，並且不支援複合主索引鍵的備註。 [閱讀更多](../orchestrated/channel-config.md)
 

@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 5006
-ht-degree: 90%
+source-wordcount: 4973
+ht-degree: 91%
 
 ---
 
@@ -457,11 +457,7 @@ Journey Optimizer 在行銷活動中支援&#x200B;**每秒 500 則交易型訊�
 * 若要建立、編輯、封存和發佈片段，您需要&#x200B;**[!DNL Content Library Manager]**&#x200B;產品設定檔中包含的&#x200B;**[!DNL Manage library items]**&#x200B;和&#x200B;**[發佈片段]**&#x200B;權限。 [了解更多](../administration/ootb-product-profiles.md#content-library-manager)
 * 視覺片段僅可用於電子郵件管道。
 * 運算式片段不適用於應用程式內管道。
-* 片段不能超過&#x200B;**700 KB**。 這是用於儲存和處理片段大小的系統護欄。 若要維持在此臨界值以下，請將大型內容分割為多個可重複使用的片段、減少大量標籤，並最佳化連結資產。
-
-  >[!NOTE]
-  >
-  >如果視覺片段超過&#x200B;**100 KB**&#x200B;或運算式片段超過&#x200B;**200 KB**，這可能會導致電子郵件傳遞出現截斷問題。
+* 片段不能超過&#x200B;**700 KB**。 若要維持在此臨界值以下，請將大型內容分割為多個可重複使用的片段、減少大量標籤，並最佳化連結資產。
 
 * **片段計數限制**：在編寫期間會驗證內容片段中所使用的不重複片段數目。 僅計算直接引用的片段（包括AEM片段） — 巢狀在其他片段中的片段不會單獨計算。
 
