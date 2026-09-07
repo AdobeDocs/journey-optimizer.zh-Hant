@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 忠誠度挑戰許可權
+title: 忠誠度挑戰權限
 description: 瞭解在Adobe Journey Optimizer中存取、設定和使用忠誠度挑戰所需的許可權。
 feature: Journeys
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7d6d4f18-8c5d-4c9c-9f7d-2d6c5f9a8b31
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 967
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 忠誠度挑戰許可權 {#loyalty-permissions}
+# 忠誠度挑戰權限 {#loyalty-permissions}
 
 ## 概觀 {#overview}
 

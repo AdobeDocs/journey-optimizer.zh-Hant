@@ -8,12 +8,12 @@ topic: Content Management
 role: Admin
 level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1755
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -225,11 +225,11 @@ ht-degree: 17%
 
    ![](assets/admin-inventory-upload.png)
 
-1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄中的**&#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
+1. 檢閱詳細目錄清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄中的**[!UICONTROL &#x200B;群組會將該專案的每個產品群組顯示為藥丸，或當專案屬於多個群組時顯示數個藥丸。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視產品群組中的所有專案，請在任一列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
    ![](assets/admin-inventory-group.png)
 
@@ -262,11 +262,11 @@ ht-degree: 17%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;**欄的**&#x200B;群組會將該專案的每個排除群組當做藥丸，或當專案屬於多個群組時包含多個藥丸。
+1. 檢閱排除專案清單中的匯入資料。 清單會為每個專案顯示一列。 包含在&#x200B;]**欄的**[!UICONTROL &#x200B;群組會將該專案的每個排除群組當做藥丸，或當專案屬於多個群組時包含多個藥丸。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;**欄中所包含的**&#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
+1. 若要檢視排除群組中的所有專案，請在任何列的&#x200B;]**欄中所包含的**[!UICONTROL &#x200B;群組中，選取該群組的藥丸。 群組詳細資訊檢視會列出群組中的每個專案。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

@@ -7,9 +7,11 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1317
 ht-degree: 11%
 
 ---
@@ -113,13 +115,13 @@ ht-degree: 11%
 
    電子郵件內容的![HTML檔案上傳區域](assets/onboarding-hub-7.png)
 
-1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從[電子郵件]清單中選擇，然後按一下[匯入]。****
 
 1. 存取您匯入的電子郵件，並檢閱匯入的HTML。
 
 1. 新增您的&#x200B;**[!UICONTROL 主旨列]**，並將每個個人化預留位置對應至對應的設定檔屬性。
 
-   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
+   工作區會自動將來源指令碼語法轉換為Handlebars語法。 如需支援的運運算元清單，請參閱[運運算元](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators)。
 
    ![已匯入主旨行欄位和個人化預留位置對應的電子郵件編輯器](assets/onboarding-hub-8.png)
 
@@ -153,7 +155,7 @@ ht-degree: 11%
 
    ![歷程影像的熒幕擷圖上傳區域](assets/onboarding-hub-13.png)
 
-1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。**&#x200B;**
+1. 若要從連線匯入，請從歷程清單中選擇，然後按一下[匯入]。****
 
 1. 預覽工作區從您的來源產生的歷程。
 

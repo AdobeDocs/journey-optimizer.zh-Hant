@@ -9,9 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1149
 ht-degree: 11%
 
 ---
@@ -39,12 +41,12 @@ rebuild
 
 如果您有10分鐘，請從此方向影片開始。 它會逐步解說介面，並依角色強調主要功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430323?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 然後，利用這些學習資源建立實作信心：
 
 * [Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — 每個角色的逐步影片和引導式逐步說明。
-* [專家組織的影片播放清單](https://experienceleague.adobe.com/zh-hant/playlists?solution=Journey+Optimizer){target="_blank"} — 依序觀看的短片集。
+* [專家組織的影片播放清單](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} — 依序觀看的短片集。
 * [訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — 安全的環境，其中包含要在中練習的範例資料。
 * [實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — 運用引導式練習所學的知識。
 
@@ -54,7 +56,7 @@ rebuild
 
 ### 歡迎新客戶 {#build-welcome}
 
-**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
+**您將建置：**自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
@@ -66,7 +68,7 @@ rebuild
 
 ### 復原放棄的購物車 {#build-cart}
 
-**您將建置：**&#x200B;即時復原流程，提醒客戶留下的專案。
+**您將建置：**即時復原流程，提醒客戶留下的專案。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
@@ -78,7 +80,7 @@ rebuild
 
 ### 傳送異動訊息 {#build-transactional}
 
-**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。
+**您將建置：**由外部系統觸發的隨選訂單、送貨或約會確認。
 **最佳對象：**&#x200B;行銷人員和開發人員· **功能：** API觸發的行銷活動
 
 1. 檢閱[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)如何運作，以及它們預期的裝載。
@@ -89,7 +91,7 @@ rebuild
 
 ### 使用A/B測試啟動行銷活動 {#build-campaign}
 
-**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
+**您將建置：**排定的促銷活動，會自動挑選表現最佳的內容。
 **最適合：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
@@ -100,7 +102,7 @@ rebuild
 
 ### 根據客戶個人化優惠方案 {#build-offers}
 
-**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
+**您將建置：**顯示給每位客戶之單一最佳優惠的決定。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。
@@ -139,7 +141,7 @@ rebuild
 >[!TAB 報告與最佳化]
 
 * [使用即時報告監視和分析您的歷程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 即時追蹤效能。
-* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
+* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
 
 >[!ENDTABS]
 

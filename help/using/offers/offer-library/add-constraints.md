@@ -11,19 +11,12 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrwifXQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2787
 ht-degree: 17%
@@ -74,7 +67,7 @@ ht-degree: 17%
 
    ![](../assets/offer-capping.png)
 
-1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以確認您定義的所有限制。
+1. 按一下[下一步]****&#x200B;以確認您定義的所有限制。
 
 例如，如果您設定下列限制：
 
@@ -125,7 +118,7 @@ ht-degree: 17%
 
   >[!CAUTION]
   >
-  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
+  >[!DNL Journey Optimizer]目前不支援事件型優惠。 如果您根據[事件](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}建立決定規則，則無法在優惠方案中使用它。
 
 當您選取對象或決定規則時，您可以看到有關預估合格設定檔的資訊。 按一下&#x200B;**[!UICONTROL 重新整理]**&#x200B;以更新資料。
 
@@ -324,7 +317,7 @@ ht-degree: 17%
 
 變更優惠方案的日期時，您必須謹慎進行，因為如果符合以下條件，這可能會對上限產生影響：
 
-* 優惠方案已核准[&#128279;](#review)。
+* 優惠方案已核准[](#review)。
 * [上限](#capping)已套用至選件。
 * 上限是按設定檔定義的。
 
@@ -340,15 +333,15 @@ ht-degree: 17%
 
 | 案例：<br>如果…… | 發生下列情況：<br>然後…… | 對上限計數的可能影響 |
 |--- |--- |--- |
-| ...優惠方案開始日期會在原始優惠方案開始日期之前更新， | ...上限計數將從新的開始日期開始。 | 無 |
-| ...新的開始日期在目前的結束日期之前， | ...上限會以新的開始日期繼續，而每個設定檔的先前上限計數則會延續。 | 無 |
+| ...優惠方案開始日期會在原始優惠方案開始日期之前更新， | ...上限計數將從新的開始日期開始。 | 否 |
+| ...新的開始日期在目前的結束日期之前， | ...上限會以新的開始日期繼續，而每個設定檔的先前上限計數則會延續。 | 否 |
 | ...新的開始日期在目前結束日期之後， | ...目前的上限將會到期，而新的上限計數將會從新開始日期的所有設定檔的0重新開始。 | 是 |
 
 以下是&#x200B;**延長優惠方案結束日期**&#x200B;時的可能情況：
 
 | 案例：<br>如果…… | 發生下列情況：<br>然後…… | 對上限計數的可能影響 |
 |--- |--- |--- |
-| ...決策請求在原始優惠方案結束日期之前發生， | ...上限計數將更新，每個設定檔的先前上限計數將結轉。 | 無 |
+| ...決策請求在原始優惠方案結束日期之前發生， | ...上限計數將更新，每個設定檔的先前上限計數將結轉。 | 否 |
 | ...在原始結束日期之前不會發生任何決策請求， | ...上限計數將在每個設定檔的原始結束日期重設。 新的上限計數隨後將從0開始，任何新決策請求將發生在原始結束日期之後。 | 是 |
 
 **範例**

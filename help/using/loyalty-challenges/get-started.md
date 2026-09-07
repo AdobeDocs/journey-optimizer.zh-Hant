@@ -1,20 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 開始應對忠誠度挑戰
+title: 開始使用忠誠度挑戰
 description: 瞭解如何在Adobe Journey Optimizer中建立和管理忠誠度挑戰，以建立吸引人、獎勵的忠誠度計畫。
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -161,7 +160,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
@@ -184,5 +183,5 @@ ht-degree: 13%
 
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

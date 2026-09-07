@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 頻道最佳化
+title: 管道內容最佳化
 description: 瞭解如何使用管道最佳化，根據客戶的偏好或AI預測的傾向分數，自動為每個客戶選取最佳傳出管道。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management, Artificial Intelligence
@@ -9,20 +9,13 @@ role: User
 level: Intermediate
 keywords: 頻道，最佳化，偏好設定，傾向， AI，傳出，電子郵件，推播，行動訊息
 badge: label="有限可用性" type="Informative"
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1219
 ht-degree: 11%
@@ -30,7 +23,7 @@ ht-degree: 11%
 ---
 
 
-# 頻道最佳化 {#channel-optimization}
+# 管道內容最佳化 {#channel-optimization}
 
 >[!BEGINSHADEBOX]
 
@@ -176,7 +169,7 @@ Additional content for contextual help: For **Manual priority** and **Customer p
 
 瞭解Adobe Journey Optimizer的管道最佳化功能如何協助您使用手動優先順序、設定檔屬性或Adobe的AI模型，透過最有效的管道觸及客戶。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492141?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
 
 <!--
 **Related topics**

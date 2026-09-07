@@ -1,25 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 產生個人化運算式的內容
+title: 為個人化運算式產生內容
 description: 瞭解如何使用Journey Optimizer中的「產生內容」從Personalization編輯器中的自然語言產生個人化運算式，以及「新增運算式」控制項在電子郵件Designer中的運作方式。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0e98b784ec90c5a816e3d5db69a5f96a737ab31a
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1504
 ht-degree: 2%
 
 ---
 
-# 產生個人化運算式的內容{#generative-personalization-expressions}
+# 為個人化運算式產生內容{#generative-personalization-expressions}
 
 >[!BEGINSHADEBOX]
 
@@ -59,7 +57,7 @@ ht-degree: 2%
 
    ![](assets/ai-perso-access.png)
 
-1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。**&#x200B;**
+1. 在文字欄位中，以純文字描述您想要的個人化運算式 — 例如您需要的設定檔屬性、區段或邏輯，然後按一下[產生]。****
 
    您也可以使用&#x200B;**[!UICONTROL 快速提示]**&#x200B;區段的現成提示，例如個人化問候語、促銷程式碼產生等等。
 

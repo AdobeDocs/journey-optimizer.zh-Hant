@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 電子郵件，內容檢查， HTML， CSS，驗證，呈現，品質
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: 1310
 ht-degree: 7%
 
 ---
@@ -51,9 +53,9 @@ ht-degree: 7%
 
 視問題而定，您可以檢視更多內容、套用一鍵式修正，或儲存電子郵件以重新整理檢查結果。
 
-* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。 按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以摺疊。
+* 對於某些偵測到的問題，您可以按一下&#x200B;**[!UICONTROL 顯示詳細資料]**&#x200B;按鈕來檢視更多內容。 按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**以摺疊。
   ![電子郵件Designer中的內容檢查窗格，包含詳細資料](assets/content-check-details.png){width="80%"}
-* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**&#x200B;按鈕，並在可用處套用一鍵修正。 如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。
+* 同樣地，您可以按一下&#x200B;**[!UICONTROL Show fix]**按鈕，並在可用處套用一鍵修正。 如果無法自動套用修正，則會顯示訊息，您必須手動解決問題。
   ![電子郵件Designer中的[內容檢查]窗格及[套用]修正按鈕](assets/content-check-fix.png){width="80%"}
 
 ### 重新計算支票 {#recalculation}

@@ -7,9 +7,11 @@ feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 5a3b83eb2e92263a5fed39b9b3670cf1fb1e15ae
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 764
 ht-degree: 3%
 
 ---
@@ -46,7 +48,7 @@ C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或�
 
 ## 內容移動時發生什麼事 {#cc-content-moves}
 
-C2PA中繼資料會隨影像檔案移動。 從Adobe Journey Optimizer下載或匯出使用產生AI產生或編輯的影像時，會保留其C2PA中繼資料。 [進一步瞭解C2PA中繼資料](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}。
+C2PA中繼資料會隨影像檔案移動。 從Adobe Journey Optimizer下載或匯出使用產生AI產生或編輯的影像時，會保留其C2PA中繼資料。 [進一步瞭解C2PA中繼資料](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}。
 
 將影像帶入內容的某些方法(例如從PDF或內嵌(base64)來源擷取影像)可能不會保留原始C2PA中繼資料。 在這些情況下，無法從來源讀取任何C2PA中繼資料，也無法針對結果建立任何資料。
 
@@ -54,4 +56,4 @@ C2PA中繼資料會隨影像檔案移動。 從Adobe Journey Optimizer下載或�
 
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [護欄與限制](gs-generative.md#generative-guardrails)
-* [Generative AI內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [Generative AI內容透明度](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)

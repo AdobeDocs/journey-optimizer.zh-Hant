@@ -5,9 +5,11 @@ feature: Web Channel
 topic: Content Management
 role: Developer
 level: Intermediate
-source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: d056adbe-402d-4f42-9746-f3d424e598b1id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 898
 ht-degree: 2%
 
 ---
@@ -64,7 +66,7 @@ Adobe Journey Optimizer可運用XDM檢視，讓行銷人員透過Journey Optimiz
 
 若要完成一次性開發人員設定，需要執行下列步驟：
 
-1. 安裝[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant){target="_blank"}並檢查[Web Channel必要條件](web-prerequisites.md)頁面。
+1. 安裝[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"}並檢查[Web Channel必要條件](web-prerequisites.md)頁面。
 
 2. 決定您要個人化之單頁應用程式中的所有XDM檢視。
 
