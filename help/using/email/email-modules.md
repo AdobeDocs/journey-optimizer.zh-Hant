@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 模組，電子郵件設計工具，標題，主圖，卡片，頁尾，電子郵件版面配置，拖放
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt

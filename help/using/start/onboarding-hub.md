@@ -9,8 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1149
@@ -56,7 +59,7 @@ rebuild
 
 ### 歡迎新客戶 {#build-welcome}
 
-**您將建置：**自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
+**您將建置：**&#x200B;自動歡迎系列，歡迎每位新訂閱者並推播非作用中訂閱者。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確認您的[統一設定檔和對象](../audience/get-started-profiles.md)正在接收註冊事件。
@@ -68,7 +71,7 @@ rebuild
 
 ### 復原放棄的購物車 {#build-cart}
 
-**您將建置：**即時復原流程，提醒客戶留下的專案。
+**您將建置：**&#x200B;即時復原流程，提醒客戶留下的專案。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;事件觸發的歷程
 
 1. 確定放棄購物車事件已送達Journey Optimizer （如有需要，請與您的[資料團隊](../data/gs-data.md)合作）。
@@ -80,7 +83,7 @@ rebuild
 
 ### 傳送異動訊息 {#build-transactional}
 
-**您將建置：**由外部系統觸發的隨選訂單、送貨或約會確認。
+**您將建置：**&#x200B;由外部系統觸發的隨選訂單、送貨或約會確認。
 **最佳對象：**&#x200B;行銷人員和開發人員· **功能：** API觸發的行銷活動
 
 1. 檢閱[API觸發的行銷活動](../campaigns/api-triggered-campaigns.md)如何運作，以及它們預期的裝載。
@@ -91,7 +94,7 @@ rebuild
 
 ### 使用A/B測試啟動行銷活動 {#build-campaign}
 
-**您將建置：**排定的促銷活動，會自動挑選表現最佳的內容。
+**您將建置：**&#x200B;排定的促銷活動，會自動挑選表現最佳的內容。
 **最適合：**&#x200B;行銷人員· **功能：**&#x200B;排程行銷活動+內容實驗
 
 1. [開始使用行銷活動](../campaigns/get-started-with-campaigns.md)並定義您的對象。
@@ -102,7 +105,7 @@ rebuild
 
 ### 根據客戶個人化優惠方案 {#build-offers}
 
-**您將建置：**顯示給每位客戶之單一最佳優惠的決定。
+**您將建置：**&#x200B;顯示給每位客戶之單一最佳優惠的決定。
 **最佳對象：**&#x200B;行銷人員· **功能：**&#x200B;決策
 
 1. [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)，並建立您的優惠方案和適用性規則。

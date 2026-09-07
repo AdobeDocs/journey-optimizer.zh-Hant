@@ -8,8 +8,10 @@ role: User
 level: Beginner
 keywords: 歷程型別，單一，讀取對象，對象資格，業務事件，比較，決定指南，選擇，選擇，即時，已排程，批次，事件觸發
 version: Journey Orchestration
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1077
@@ -88,7 +90,7 @@ ht-degree: 4%
 
 如果您想要在客戶達到里程碑時&#x200B;**回應** — 加入忠誠度等級、達到流失風險臨界值、完成首次購買 — 請使用&#x200B;**對象資格歷程**。 當串流受眾成員資格變更時，就會立即觸發，而非依固定排程觸發。
 
-如果您的企業中有某些事情變更了&#x200B;****，而這個變更同時影響了多位客戶 — 庫存水準下降、價格變更、銷售開始 — 請使用&#x200B;**業務事件歷程**。
+如果您的企業中有某些事情變更了&#x200B;**&#x200B;**，而這個變更同時影響了多位客戶 — 庫存水準下降、價格變更、銷售開始 — 請使用&#x200B;**業務事件歷程**。
 
 >[!TIP]
 >

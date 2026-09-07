@@ -7,8 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 593
@@ -56,7 +58,7 @@ ht-degree: 2%
 
    ![](assets/gen-model-manage-6.png){zoomable="yes"}
 
-1. 按一下[新增模型]****，從頭開始建立新的產生模型。
+1. 按一下[新增模型]&#x200B;**&#x200B;**，從頭開始建立新的產生模型。
 
 現在當您在內容中建立影像時，可以選取任何產生模型。 [進一步瞭解如何產生影像](generative-image.md)。
 

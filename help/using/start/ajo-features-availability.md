@@ -9,8 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: journey optimizer，功能可用性，可用功能， GA，有限可用性， Beta，生命週期，發行日期，權益，基本優惠，行銷活動，歷程
 hide: true
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1878
