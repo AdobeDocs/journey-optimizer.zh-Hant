@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# CX Coworker 中的 Journey Optimizer 技能 {#ajo-coworker-skills}
+# CX Co-worker中的Journey Optimizer AI功能 {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索CX Co-worker中可用的Adobe Journey Optimizer技能（從建立和分析歷程到產生管道內容和管理內容資產），並提供每項技能的詳細指引、範例提示和最佳實務。
+**在此頁面上：**&#x200B;探索CX Co-worker中可用的Adobe Journey Optimizer AI功能（從建立和分析歷程到產生管道內容和管理內容資產），瞭解每項功能的詳細指引、範例提示和最佳實務。
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ CX Co-worker為Adobe Journey Optimizer帶來AI支援的功能。 [CX Co-worker](
 
 CX Co-worker提供各種管理歷程與忠誠度挑戰的技能：
 
-**以歷程為主的技能：**
+**以歷程為中心的AI功能：**
 
 * **歷程建立**：透過自然語言提示建立及設定行銷歷程
 * **頻道內容建立**：產生、編輯和管理使用AI支援的內容產生之歷程的頻道特定內容（電子郵件、推播、簡訊）
 * **歷程分析**：分析歷程、偵測問題、發掘見解並最佳化歷程績效
 
-**以忠誠度為主的技能：**
+**以忠誠度為中心的AI功能：**
 
 * **忠誠度挑戰管理**：使用自然語言提示建立和管理忠誠度挑戰
 * **熟客方案 — 資料Insight技能**：使用自然語言查詢和分析熟客方案績效資料
@@ -48,14 +48,14 @@ CX Co-worker也包含一組&#x200B;**內容管理MCP工具**，以探索、建�
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
 * Quick simulation
 -->
 
-## 歷程技能 {#journey-skills}
+## 歷程 {#journey-skills}
 
 ### 歷程建立 {#journey-create}
 
@@ -315,6 +315,21 @@ Journey Analyze提供一系列可用來最佳化行銷工作的功能：
    * 「顯示歷程[歷程名稱]中自訂動作失敗的根本原因。」
    * 「目前是否有任何影響歷程[歷程名稱]的自訂動作錯誤？」
 
+1. **分析歷程異常**
+
+   * 偵測歷程的登入、退出或訊息傳送計數與歷史基線相比出現非預期的尖峰、下降或平線，包括問題措辭為進入、退出或完成歷程的設定檔數目時。
+   * 使用確定性統計檢查，而非僅依賴原始異常標幟，確認標幟的變更是否為真正的異常。
+   * 針對歷程執行資料執行有界限的唯讀診斷，以識別可能的根本原因，呈現每個檢查所尋找和找到的內容以及建議。
+   * 調查參考特定歷程版本和時間戳記的異常警報。
+
+   範例提示：
+   * 「為什麼昨天我的歡迎歷程中的專案會中斷？」
+   * 「本週購物車放棄歷程的退出次數尖峰嗎？」
+   * 「今天續約提醒歷程的傳送次數看起來很低 — 發生什麼事了？」
+   * 「在過去30天裡，進入我的會員週年感謝歷程的設定檔數量為何突然減少？」
+   * 「本月完成我續約提醒歷程的設定檔少於平常 — 為什麼？」
+   * 「在[timestamp]觸發歷程[歷程版本ID]的異常警報 — 調查。」
+
 #### 範圍技能
 
 Journey Analyze支援下列功能：
@@ -323,13 +338,13 @@ Journey Analyze支援下列功能：
 * **與其他技能整合**：與Audience和Data Insights功能共同作業，以進行更深入的分析。
 * **回應結構**：推理（說明邏輯）、分析摘要（強調關鍵點）、問題詳細資訊（說明問題）以及建議（建議後續步驟）。
 * **自訂動作錯誤分析**：偵測並診斷歷程中的自訂動作失敗和錯誤尖峰。
+* **異常偵測**：偵測並確認歷程進入、退出或傳送計數中具有統計意義的尖峰、下降或平線，並找出可能的根本原因。
 
 #### 超出範圍技能
 
 目前不支援以下功能：
 
 * **自動建立歷程**
-* **即時異常偵測**
 * **管道重疊**
 * **歷程進入分析**
 * **技術問題分析**
@@ -349,7 +364,7 @@ Journey Analyze支援下列功能：
 * **定期監視**：安排定期檢查歷程績效，以發現趨勢和異常。
 * **細分最佳化**：確保客群細分維持平衡，避免疲勞並實現最高參與度。
 
-## 熟客技能 {#loyalty-skills}
+## 忠誠度 {#loyalty-skills}
 
 >[!AVAILABILITY]
 >
@@ -627,6 +642,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
