@@ -42,7 +42,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!TIP]
 >
->剛開始使用 Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
+>剛開始使用 Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/zh-hant/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
 
 ## 為您的團隊設定Journey Optimizer {#setup-admin}
 
@@ -114,7 +114,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 | 我想…… | 建議的功能 | 在這裡開始 |
 | --- | --- | --- |
-| 啟動具有A/B測試的產品 | 內容實驗&#x200B;**(AI)** | [開始使用內容實驗](../content-management/experiment-accelerator-gs.md) · [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| 啟動具有A/B測試的產品 | 內容實驗&#x200B;**(AI)** | [開始使用內容實驗](../content-management/experiment-accelerator-gs.md) · [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 通知客戶發生中斷或服務更新 | 已排程的行銷活動+對象 | [關於對象](../audience/about-audiences.md) |
 | 使用分支邏輯設計多步驟行銷活動 | 協調的行銷活動 | [開始使用協調的行銷活動](../orchestrated/gs-orchestrated-campaigns.md) |
 | 僅將目標定位為我上次執行行銷活動後變更的設定檔 | 協調的行銷活動 — 增量查詢 | [在協調的行銷活動中建置查詢](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -339,7 +339,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 >[!TAB 報告與最佳化]
 
 * [使用即時報告監視和分析您的歷程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — 在您的歷程執行時追蹤效能。
-* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
+* [建立電子郵件行銷活動的內容實驗](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — 測試並最佳化內容。
 
 >[!ENDTABS]
 
