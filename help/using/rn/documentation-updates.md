@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ ht-degree: 96%
 * **網格**&#x200B;元件區段已新增到&#x200B;**電子郵件設計工具內容元件**&#x200B;頁面中。 它可讓您將內容組織到由列和欄組成的結構化網格，其中每個儲存格都可包含其他內容元件。 [閱讀更多](../email/content-components.md#grid)
 
 * **決策移轉 API** 文件已更新，其中補充說明目標沙箱&#x200B;**可以與來源沙箱**&#x200B;相同。 移轉流程會處理此情境並確保資料完整性，無論物件是在同一個沙盒內移轉，還是移轉至不同的沙箱。 [閱讀更多](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* 加強&#x200B;**決策移轉API**&#x200B;檔案，並提供移轉決策管理物件至Decisioning的全面指引。 新區段包括：具有10個命名慣例的實體對應參考、範圍內與範圍外涵蓋範圍、詳細請求/回應模型比較、具有Cookie處理的三種實作模式（使用者端、伺服器端、混合）、包含5個事件JSON範例的事件追蹤需求、跨沙箱移轉先決條件、端對端5步驟移轉程式，以及移轉常見問題集。 [閱讀更多](../experience-decisioning/decisioning-migration-api.md)
 
 * 全新的 **CX Co-worker 技能**&#x200B;頁面現已推出。 它提供 Journey Optimizer 中所有歷程技能的完整文件，包括歷程建立、管道內容建立、忠誠度挑戰管理及歷程分析，並隨附每種技能的使用案例、範例提示和最佳做法。 [閱讀更多](../start/ajo-coworker-skills.md)
 

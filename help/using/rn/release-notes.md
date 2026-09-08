@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
 workflow-type: tm+mt
-source-wordcount: 2424
-ht-degree: 79%
+source-wordcount: 2515
+ht-degree: 77%
 
 ---
 
@@ -109,6 +109,17 @@ ht-degree: 79%
 </tbody>
 </table>
 
+* **歷程模擬中的決策** — 您現在可以模擬依賴Adobe Journey Optimizer決策的歷程，新增支援下列專案：
+
+  * 「模擬」現在支援「內容決策」節點。
+  * 「模擬」現在支援「最佳化」活動的目標定位規則方法。
+  * 具有Adobe Journey Optimizer決策內容的動作（例如使用決策原則的電子郵件）現在可在模擬中支援。
+  * 完全支援使用優惠資格，以及依規則、對象、優先順序或公式排名的決定原則。 依AI模型排名 — 也支援Personalization，不過傳回的優惠方案可能因執行而異。
+
+  [了解更多](../building-journeys/simulate-journey-gs.md)
+
+  推出日期： 2026年9月8日
+
 * **歷程運算式編輯器中的新dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。  [了解更多](../building-journeys/functions/date-functions.md#dateDiff)
 
   推出日期： 2026年9月1日
@@ -118,6 +129,8 @@ ht-degree: 79%
   推出日期： 2026年9月2日
 
 ### 行銷活動 {#sep-26-campaigns}
+
+* **動作行銷活動編寫流程重新設計** - Adobe Journey Optimizer 動作行銷活動編寫流程已重新設計，提供更直覺、高效且順暢的使用者體驗。
 
 +++ 即將推出 — **下列資訊可能會有變更。**
 
@@ -132,15 +145,12 @@ ht-degree: 79%
 <td>
 <p>您現在可以於上線前，在動作行銷活動中模擬傳入管道動作。 使用模擬模式，透過模擬使用者測試您的設定並預覽呈現的體驗 (包括產生的 URL 和 QR 碼)，讓您可以端到端驗證規則、決策機制與內容呈現。</p>
 <p>此功能目前為 Private Beta 版本，僅供特定組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
-<p>推出日期： 2026年9月4日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 * **動作行銷活動的資料夾** — 您現在可以將動作行銷活動整理到資料夾中，以改善介面中的導覽和管理。
-
-* **動作行銷活動編寫流程重新設計** - Adobe Journey Optimizer 動作行銷活動編寫流程已重新設計，提供更直覺、高效且順暢的使用者體驗。
 
 * **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
 
