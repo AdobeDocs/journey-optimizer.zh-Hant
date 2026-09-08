@@ -8,26 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer 發行說明
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 879d334b22c40cd366a3c9df8092b06828c1f493
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
 workflow-type: tm+mt
-source-wordcount: 2419
-ht-degree: 79%
+source-wordcount: 2515
+ht-degree: 77%
 
 ---
 
@@ -108,6 +98,17 @@ ht-degree: 79%
 </tr>
 </tbody>
 </table>
+
+* **歷程模擬中的決策** — 您現在可以模擬依賴Adobe Journey Optimizer決策的歷程，新增支援下列專案：
+
+  * 「模擬」現在支援「內容決策」節點。
+  * 「模擬」現在支援「最佳化」活動的目標定位規則方法。
+  * 具有Adobe Journey Optimizer決策內容的動作（例如使用決策原則的電子郵件）現在可在模擬中支援。
+  * 完全支援使用優惠資格，以及依規則、對象、優先順序或公式排名的決定原則。 依AI模型排名 — 也支援Personalization，不過傳回的優惠方案可能因執行而異。
+
+  [了解更多](../building-journeys/simulate-journey-gs.md)
+
+  推出日期： 2026年9月8日
 
 * **歷程運算式編輯器中的新dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。  [了解更多](../building-journeys/functions/date-functions.md#dateDiff)
 
