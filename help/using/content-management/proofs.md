@@ -5,13 +5,14 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-feature_v2: []
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 539
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -30,7 +31,7 @@ ht-degree: 10%
 * 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容（AEP設定檔）]**，以傳送包含測試設定檔的校樣。
 * 按一下&#x200B;**[!UICONTROL 模擬內容]**，針對使用範例輸入資料或AI自動產生所建立的內容變化傳送校樣。 [瞭解如何模擬內容變化](../test-approve/simulate-sample-input.md#proofs)
 
-針對API觸發和動作（已排程）行銷活動，您也可以使用[模擬API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}以程式設計方式傳送校樣。 協調的行銷活動不支援此功能。
+針對API觸發和動作 (已排程) 行銷活動，您也可以使用 [模擬 API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} 以程式設計方式傳送校樣。 協調的行銷活動不支援此功能。
 
 ## 必讀 {#must-read}
 

@@ -9,9 +9,13 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: journey optimizer，功能可用性，可用功能， GA，有限可用性， Beta，生命週期，發行日期，權益，基本優惠，行銷活動，歷程
 hide: true
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: 1878
 ht-degree: 14%
 
 ---
@@ -131,7 +135,7 @@ ht-degree: 14%
 | 整合（第三方資料來源） | GA | 所有基本優惠方案 | 2026年5月4日 | Beta前身 |
 | 限製片段中的繼承中斷 | GA | 所有基本優惠方案 | 2026 年 5 月 21 日 | 鎖定片段以防止本機編輯 |
 | Adobe Express 整合 | GA | 所有基本優惠方案 | 2026年4月23日 | 前身為LA |
-| 產生個人化運算式的內容 | GA | 所有基本優惠方案 | 2026年4月13日 | 在個人化編輯器和電子郵件Designer中 |
+| 為個人化運算式產生內容 | GA | 所有基本優惠方案 | 2026年4月13日 | 在個人化編輯器和電子郵件Designer中 |
 | 將影像轉換為電子郵件內容範本 | GA | 所有基本優惠方案 | 2026 年 3 月 31 日 | 前身為LA |
 | 登陸頁面自訂表單 | GA | 所有基本優惠方案 | 2026年3月26日 | 前身是洛杉磯（美國和澳洲） |
 | 整合自訂Firefly和協力廠商影像模型 | GA | 所有基本優惠方案 | 2026年3月2日 | Adobe、合作夥伴(Gemini)和自訂模型 |

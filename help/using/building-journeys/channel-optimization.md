@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 頻道最佳化
+title: 管道內容最佳化
 description: 瞭解如何使用管道最佳化，根據客戶的偏好或AI預測的傾向分數，自動為每個客戶選取最佳傳出管道。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management, Artificial Intelligence
@@ -22,7 +22,8 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
+subfeature_v2: []
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1219
 ht-degree: 11%
@@ -30,7 +31,7 @@ ht-degree: 11%
 ---
 
 
-# 頻道最佳化 {#channel-optimization}
+# 管道內容最佳化 {#channel-optimization}
 
 >[!BEGINSHADEBOX]
 

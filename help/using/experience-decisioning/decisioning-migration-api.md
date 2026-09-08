@@ -11,10 +11,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 1249
-ht-degree: 4%
+source-wordcount: 1246
+ht-degree: 6%
 
 ---
 
@@ -77,7 +77,7 @@ Decisioning移轉服務API提供下列功能：
 
 >[!NOTE]
 >
->目標沙箱可與來源沙箱相同。 移轉程式會處理此情境並確保資料完整性，無論物件是移轉至相同沙箱中還是移轉至不同沙箱。
+>目標沙箱可與來源沙箱相同。 移轉流程會處理此情境並確保資料完整性，無論物件是在同一個沙盒內移轉，還是移轉至不同的沙箱。
 
 ## API 基本概念 {#api-basics}
 

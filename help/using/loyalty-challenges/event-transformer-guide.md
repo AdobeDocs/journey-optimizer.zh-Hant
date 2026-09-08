@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1705
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 **目錄**
 
-[開始應對忠誠度挑戰](get-started.md)
+[開始使用忠誠度挑戰](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,8 +39,8 @@ ht-degree: 3%
 
 **建立和管理挑戰**
 
-* [存取及管理挑戰與工作](access-loyalty-challenges.md)
-* [創造挑戰](create-challenges.md)
+* [存取和管理挑戰與任務](access-loyalty-challenges.md)
+* [建立挑戰](create-challenges.md)
 * [建立任務](create-tasks.md)
 * [監視忠誠度挑戰績效](loyalty-reporting.md)
 
@@ -50,7 +52,7 @@ ht-degree: 3%
 * [設定忠誠度挑戰](loyalty-admin.md)
 * [獎勵定義指南](reward-definition-guide.md)
 * **事件轉換器指南** ◀︎ **您在這裡**
-* [熟客資料與資料集](loyalty-data-and-datasets.md)
+* [忠誠度資料和資料集](loyalty-data-and-datasets.md)
 * [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 </td>

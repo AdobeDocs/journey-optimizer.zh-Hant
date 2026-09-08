@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
 source-wordcount: 5676
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -371,7 +371,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**淘汰通知 — 2026年9月**：從&#x200B;**2026年9月**&#x200B;開始，Journey Optimizer將封鎖在&#x200B;**退出條件**&#x200B;中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 [瞭解如何移轉您的歷程](aq-batch-audiences-migration.md)
+>**淘汰通知 — 2026年9月**：從&#x200B;**2026年9月**&#x200B;開始，Journey Optimizer將封鎖在&#x200B;**退出條件**&#x200B;中使用批次對象之任何歷程的發佈。 現有的即時歷程不受影響。 使用此設定的新歷程、草稿歷程和重複歷程必須在2026年9月之前更新。 [了解如何移轉您的歷程](aq-batch-audiences-migration.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
@@ -475,7 +475,7 @@ ht-degree: 10%
 
 * **檢視與其他歷程、行銷活動或頻道設定衝突**。 如果您想要識別對象、開始和結束日期、頻道設定、頻道或規則集上的重疊，您可以在此處檢視潛在衝突。 [瞭解如何識別歷程中的潛在衝突](../conflict-prioritization/conflicts.md)
 
-## 使用保留群組測量歷程提升度 {#performance-management}
+## 使用保留組測量歷程提升效果 {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -484,7 +484,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
 >title="效能測量"
->abstract="設定歷程層級的保留群組以測量歷程的遞增有效性。 選取成功量度並設定保留百分比，以排除該部分對象無法進入歷程。 排除的設定檔會透過排除事件進行追蹤，並可與Customer Journey Analytics報表中的作用中設定檔比較，以測量提升度。"
+>abstract="設定歷程層級的保留組，用於測量歷程的遞增成效。 選取一個成功量度並設定保留百分比來排除該部分客群，避免其進入歷程。 透過排除事件來追蹤排除的輪廓，並可與 Customer Journey Analytics 報告中的有效輪廓比較，以測量提升成效。"
 
 歷程屬性中的&#x200B;**[!UICONTROL 效能測量]**&#x200B;區段可讓您設定&#x200B;**歷程層級的保留群組**，以測量歷程的遞增效益。
 

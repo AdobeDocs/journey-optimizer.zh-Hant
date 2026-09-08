@@ -9,14 +9,15 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1612
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +36,7 @@ ht-degree: 4%
 
 **[!UICONTROL 載入檔案]**&#x200B;活動是一項&#x200B;**[!UICONTROL 資料管理]**&#x200B;活動。 使用它來處理儲存在外部檔案中的設定檔和資料。 如果您的收件者清單來自外部系統（例如，CRM匯出或合作夥伴檔案），而且您想要執行行銷活動而不先建置完整的Adobe Experience Platform擷取管道，則它在協調的行銷活動中支援&#x200B;**檔案型鎖定目標**。
 
-在檔案設定期間，您可以定義欄對應、資料型別、NULL處理和每欄錯誤原則。 未通過驗證的列會在行銷活動執行前遭到拒絕並記錄，讓對象保持乾淨，無需手動預先處理。
+在檔案設定期間，您可以定義欄位對應、資料類型、NULL 處理，以及每個欄位的錯誤原則。 未通過驗證的資料列會在行銷活動執行前遭拒並記錄，讓客群保持乾淨，無需手動預先處理。
 
 >[!AVAILABILITY]
 >

@@ -9,9 +9,14 @@ role: User
 level: Beginner
 hide: true
 keywords: 歷程，行銷活動，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1968'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---
@@ -142,7 +147,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在行銷策略中結合歷程和行銷活動嗎？
 
-可以。 許多組織會針對不同情境使用所有方法：
+有。 許多組織會針對不同情境使用所有方法：
 
 * **行為即時參與歷程**
 * 針對排程通訊或傳入啟用的&#x200B;**動作行銷活動**
@@ -178,7 +183,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 +++ 我可以在歷程和行銷活動中使用相同的對象嗎？
 
-可以。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
+有。 在[!DNL Adobe Experience Platform]中建立的對象可用於歷程、動作行銷活動和協調的行銷活動。 API觸發的行銷活動是裝載導向，不使用相同方式的預先建立對象。
 
 +++
 

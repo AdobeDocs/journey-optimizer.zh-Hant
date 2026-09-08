@@ -13,7 +13,7 @@ TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
@@ -33,8 +33,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 832
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ You can also create audience-based campaigns to send messages.
 
 ### 現代全管道協調與執行
 
-在單一畫布中協調並最佳化客戶歷程，以實現 1:1 客戶互動與行銷觸及，協助品牌在整個客戶生命週期中創造更多價值。在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
+在單一畫布中協調並最佳化客戶歷程，以實現 1:1 客戶互動與行銷觸及，協助品牌在整個客戶生命週期中創造更多價值。 在 [!DNL Adobe Journey Optimizer] 中設計的客戶歷程可以是動態且以事件為基礎，以協助品牌對即時訊號做出反應，並將這些互動與已排程的行銷活動進行連結，以便針對要傳送客戶的通訊、傳送時間及透過哪些頻道做出正確的決定。 內嵌式內容建立工具 (包括拖放式視覺化設計工具、可重複使用的範本、內容片段及個人化編輯器) 可讓團隊直接在同一個工作流程中為每個管道製作、個人化及管理訊息。 [建立您的第一個歷程](../building-journeys/journey-gs.md) | [設計您的內容](../../rp_landing_pages/content-management-landing-page.md)
 
 ### 智慧決策與個人化
 
@@ -91,16 +91,16 @@ You can also create audience-based campaigns to send messages.
 
 Journey Optimizer 支援廣泛的情境，涵蓋即時觸發的歷程、購物車放棄挽回、排程行銷活動、決策和營運通知。
 
-若要找出符合您目標的功能，請參閱 [Journey Optimizer 使用案例概觀](ajo-use-case-guide.md)。如需端到端的實作範例，請瀏覽[歷程使用案例庫](../building-journeys/jo-use-cases.md)。
+若要找出符合您目標的功能，請參閱 [Journey Optimizer 使用案例概觀](ajo-use-case-guide.md)。 如需端到端的實作範例，請瀏覽[歷程使用案例庫](../building-journeys/jo-use-cases.md)。
 
-不確定該使用歷程還是行銷活動來達成目標嗎？請參閱[歷程與行銷活動：選擇正確方法](journeys-vs-campaigns.md)。
+不確定該使用歷程還是行銷活動來達成目標嗎？ 請參閱[歷程與行銷活動：選擇正確方法](journeys-vs-campaigns.md)。
 
 
 ## 可用性與授權 {#availability}
 
 本文件涵蓋 Journey Optimizer 的最新版本，除非另有說明，否則同時適用於 B2C 和 B2B Edition 使用者。 目前環境可用元件和功能取決於[使用權限](../administration/permissions.md)，還有您的[授權封裝](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有任何問題，請聯絡您的 Adobe 客戶成功經理或 Adobe 代表。
 
-[!DNL Adobe CX Enterprise] 的一般隱私權準則和程序適用於 [!DNL Journey Optimizer]。[進一步了解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
+[!DNL Adobe CX Enterprise] 的一般隱私權準則和程序適用於 [!DNL Journey Optimizer]。 [進一步了解 [!DNL Adobe CX Enterprise] 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target="_blank"}。
 
 
 ## 架構 {#architecture}

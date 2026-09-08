@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 811
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->透過歷程或行銷活動接收決定的設定檔會計入組織的&#x200B;**可參與設定檔**&#x200B;授權量度，以及透過其他Journey Optimizer功能參與的設定檔。 [監視可參與的設定檔計數](../audience/license-usage.md)
+>透過歷程或行銷活動接收決定的設定檔會計入組織的&#x200B;**可參與設定檔**&#x200B;授權量度，以及透過其他Journey Optimizer功能參與的設定檔。 [監視可啟用的輪廓計數](../audience/license-usage.md)
 
 ## 決策程式 {#process}
 

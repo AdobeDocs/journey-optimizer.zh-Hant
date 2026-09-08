@@ -9,12 +9,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 9308
 ht-degree: 100%
@@ -954,7 +952,7 @@ Adobe Journey Optimizer 現在支援連結至以人員為基礎的輪廓的關�
 
 此版本讓行銷人員可完全控制品牌啟動、以對象為基礎的批次行銷，結合彈性的資料建模與特意建置的協調體驗。 它專為即時歷程的批次行銷活動協調而設計，同時提供進階的個人化與擴充性。
 
-### 瞭解更多
+### 了解更多
 
 閱讀[行銷活動協調文件](../orchestrated/gs-orchestrated-campaigns.md)並深入了解。
 

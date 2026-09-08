@@ -13,11 +13,9 @@ TQID: https://experienceleague.adobe.com/C8d6L0NrvfiqCKnEFxitLC-X-6mrG3oWvNTV2Lw
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -32,7 +30,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 3645
 ht-degree: 100%
@@ -432,7 +430,7 @@ table>
 
 * **允許清單邏輯更新** - 現在，即使清單為空，允許清單邏輯在功能啟用後立即適用。 [了解更多](../configuration/allow-list.md#logic)
 
-* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [進一步了解](../email/email-settings.md#url-tracking)
+* **URL 追蹤參數** - 現在，您可以使用運算式編輯器在電子郵件介面中設定 URL 追蹤參數 (即預設集)。 [了解更多](../email/email-settings.md#url-tracking)
 
 **決定管理**
 
@@ -708,7 +706,7 @@ table>
 
 **個人化**
 
-* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [進一步了解](../personalization/use-expression-fragments.md)
+* 您現在可以在程式庫中儲存 40 多組個人化運算式。 [了解更多](../personalization/use-expression-fragments.md)
 
 ## 2022 年 2 月發佈內容 {#feb-2022-release}
 
@@ -844,7 +842,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **歷程**
 
-* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [進一步了解](../reports/sharing-overview.md#integration-cja)
+* Journey Optimizer 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。 內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../reports/sharing-overview.md#integration-cja)
 
 **決定管理**
 

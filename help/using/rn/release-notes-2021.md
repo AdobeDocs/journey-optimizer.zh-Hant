@@ -13,11 +13,9 @@ TQID: https://experienceleague.adobe.com/3i0k1Wzvdf3Z3NccHSFE-nzIrYC45iLqs-ftmQZ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -31,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2058
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -292,7 +290,7 @@ ht-degree: 99%
 
 **使用者介面**
 
-* **搜尋** — 在每個頁面上，您現在可以直接從[整合[!DNL CX Enterprise]]搜尋欄位搜尋商業物件和說明文章。 [了解更多](../start/user-interface.md#unified-search)
+* **搜尋** - 現在，您可以在每個頁面直接從統一[!DNL CX Enterprise]搜尋欄位搜尋業務物件和說明文章。 [了解更多](../start/user-interface.md#unified-search)
 * **收件者** - 在 Adobe Journey Optimizer 首頁顯示收件者元素的功能，現在已擴充至其他業務物件。 透過此更新，提供包括您最近存取的訊息、歷程、客群、結構描述、資料集、資料來源、事件、動作、來源和目的地的捷徑。 [了解更多](../action/about-custom-action-configuration.md#passing-collection)
 
 **內容設計**
@@ -307,7 +305,7 @@ ht-degree: 99%
 **電子郵件設定**
 
 * **允許清單** - 您現在可以透過 API 呼叫，在非生產沙箱上啟用和停用允許清單。 [了解更多](../configuration/allow-list.md#enable-allow-list)
-* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [進一步了解](../configuration/manage-suppression-list.md#access-suppression-list)
+* **導覽** - 可在&#x200B;**管理 > 管道 > 電子郵件設定 > 一般**&#x200B;功能表中存取的禁止名單，已移至新的&#x200B;**禁止名單**&#x200B;子功能表，收集所有相關功能以便更輕鬆存取。 [了解更多](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **決定管理**
 

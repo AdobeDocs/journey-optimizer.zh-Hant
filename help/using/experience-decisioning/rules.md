@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1619
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
      >[!NOTE]
      >
-     >此功能適用於具有Adobe AI功能存取權的組織。
+     >此功能適用於可存取 Adobe AI 功能的組織。
 
 1. 如果您選擇&#x200B;**[!UICONTROL 從頭開始建立]**，請選取規則實體，以指定要建立規則的物件型別。
 
@@ -162,7 +162,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->此功能適用於具有Adobe AI功能存取權的組織。 它僅適用於一組組織（可用性限制）。 若想取得存取權，請聯絡您的 Adobe 代表。
+>此功能適用於可存取 Adobe AI 功能的組織。 此功能僅適用於一組組織 (有限可用性)。 若想取得存取權，請聯絡您的 Adobe 代表。
 >
 >目前，AI輔助規則產生不支援Journey內容資料型運算式產生。
 

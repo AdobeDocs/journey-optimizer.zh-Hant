@@ -8,9 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: journey optimizer，使用案例，決定指南，哪些功能，開始使用，從業者目標，教學課程
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3221'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +42,7 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 
 >[!TIP]
 >
->不熟悉Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/zh-hant/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
+>剛開始使用 Journey Optimizer？ 從[開始使用Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md)為您的角色選擇正確的路徑，然後閱讀[何謂Journey Optimizer](get-started.md)的要點。 若要建立實作信賴度，請瀏覽[Journey Optimizer教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}、觀看專家組織的[影片播放清單](https://experienceleague.adobe.com/zh-hant/playlists?solution=Journey+Optimizer){target="_blank"}，並在[訓練沙箱](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}或進行[實作挑戰](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}中練習。
 
 ## 為您的團隊設定Journey Optimizer {#setup-admin}
 

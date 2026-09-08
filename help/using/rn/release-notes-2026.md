@@ -9,12 +9,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 12662
 ht-degree: 99%
@@ -354,7 +352,7 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
 
   可用日期：2026 年 7 月 9 日
 
-### 報告 {#july-26-reporting}
+### 報表 {#july-26-reporting}
 
 此版本即將在報告方面推出下列改善項目。
 
@@ -691,7 +689,7 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
 +++
 -->
 
-### 報告 {#june-26-reporting}
+### 報表 {#june-26-reporting}
 
 此版本在報告中新增了下列改善項目。
 
@@ -1693,7 +1691,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   推出日期：2026 年 4 月 1 日
 
-#### 報告
+#### 報表
 
 * **傳送時間最佳化：更新的控制項位置和新的提升度報告** - 傳送時間最佳化 (STO) 控制項已重新放置到 [動作] 設定功能表。 此外，歷程報表現在提供新的提升度報告，以測量 STO 對行銷活動績效量度的影響。 [閱讀全文](../reports/channel-report-cja.md#optimization-models)
 
