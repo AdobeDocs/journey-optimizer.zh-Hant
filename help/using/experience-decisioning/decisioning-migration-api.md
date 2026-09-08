@@ -6,8 +6,11 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
 source-wordcount: 3211
@@ -451,23 +454,23 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **標頭：**
-- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
-- `x-api-key: <API_KEY>` （來自Developer Console）
-- `x-gw-ims-org-id: <IMS_ORG_ID>` （格式： `{ORG_ID}@AdobeOrg`）
-- `x-request-id: <UNIQUE_REQUEST_ID>` （用於追蹤與重複資料刪除）
-- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
-- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
-- `x-sandbox-name: <SANDBOX_NAME>` （例如prod、dev）
+&#x200B;- `Authorization: Bearer <IMS_ACCESS_TOKEN>`
+&#x200B;- `x-api-key: <API_KEY>` （來自Developer Console）
+&#x200B;- `x-gw-ims-org-id: <IMS_ORG_ID>` （格式： `{ORG_ID}@AdobeOrg`）
+&#x200B;- `x-request-id: <UNIQUE_REQUEST_ID>` （用於追蹤與重複資料刪除）
+&#x200B;- `Content-Type: application/vnd.adobe.xdm+json; schema="…/decision-request;version=1.0"`
+&#x200B;- `Accept: application/vnd.adobe.xdm+json; schema="…/decision-response;version=1.0"`
+&#x200B;- `x-sandbox-name: <SANDBOX_NAME>` （例如prod、dev）
 
 **要求內文引數：**
-- `xdm:dryRun` (true/false) — 測試要求而不汙染報告
-- `xdm:propositionRequests[]` — 決定要求陣列：
-  - `activityId` — 決定活動識別碼
-  - `placementId` — 位置識別碼
-  - `itemCount` — 要傳回的最大優惠方案數量
-- `xdm:profiles[].xdm:identityMap` — 身分對應（電子郵件、ECID等）
-- `xdm:validateContextData` — 嚴格的內容資料驗證旗標
-- `xdm:responseFormat.xdm:includeContent` — 僅包含實際內容與ID
+&#x200B;- `xdm:dryRun` (true/false) — 測試要求而不汙染報告
+&#x200B;- `xdm:propositionRequests[]` — 決定要求陣列：
+  &#x200B;- `activityId` — 決定活動識別碼
+  &#x200B;- `placementId` — 位置識別碼
+  &#x200B;- `itemCount` — 要傳回的最大優惠方案數量
+&#x200B;- `xdm:profiles[].xdm:identityMap` — 身分對應（電子郵件、ECID等）
+&#x200B;- `xdm:validateContextData` — 嚴格的內容資料驗證旗標
+&#x200B;- `xdm:responseFormat.xdm:includeContent` — 僅包含實際內容與ID
 
 **範例要求內文：**
 
@@ -501,15 +504,15 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **金鑰要求欄位：**
-- `query.identity.fetch` — 要解析的身分型別陣列（例如，`["ECID"]`）
-- `event.xdm.environment.type` — 環境型別： `"browser"`、`"app"`或`"server"`
-- `event.xdm.environment.browserDetails` — 瀏覽器中繼資料(`viewportWidth`， `viewportHeight`， `userAgent`)
-- `event.xdm.identityMap` — 與決定管理相同的身分對應
-- `event.xdm.timestamp` - ISO 8601時間戳記
-- `query.personalization.surfaces` — 目標表面的陣列（例如，`["web://site.com/homepage"]`） — 取代`decisionScope`
-- `query.personalization.schemas` — 要傳回的內容結構描述（例如，`["json-content-item", "html-content-item"]`）
-- `data.__adobe.ajo.allowDuplicateDecisionItems` — 重複資料刪除控制項（預設為`true`；設定`false`，以便符合多個表面的專案僅傳回一次，而其他表面接收遞補/空白專案）。 取代決定管理`allowDuplicatePropositions`。
-- `data.__adobe.ajo.dryRun` — 測試旗標；隱藏報表和上限計數器的意見回饋事件。 取代決定管理`xdm:dryRun`。 在生產前移除。
+&#x200B;- `query.identity.fetch` — 要解析的身分型別陣列（例如，`["ECID"]`）
+&#x200B;- `event.xdm.environment.type` — 環境型別： `"browser"`、`"app"`或`"server"`
+&#x200B;- `event.xdm.environment.browserDetails` — 瀏覽器中繼資料(`viewportWidth`， `viewportHeight`， `userAgent`)
+&#x200B;- `event.xdm.identityMap` — 與決定管理相同的身分對應
+&#x200B;- `event.xdm.timestamp` - ISO 8601時間戳記
+&#x200B;- `query.personalization.surfaces` — 目標表面的陣列（例如，`["web://site.com/homepage"]`） — 取代`decisionScope`
+&#x200B;- `query.personalization.schemas` — 要傳回的內容結構描述（例如，`["json-content-item", "html-content-item"]`）
+&#x200B;- `data.__adobe.ajo.allowDuplicateDecisionItems` — 重複資料刪除控制項（預設為`true`；設定`false`，以便符合多個表面的專案僅傳回一次，而其他表面接收遞補/空白專案）。 取代決定管理`allowDuplicatePropositions`。
+&#x200B;- `data.__adobe.ajo.dryRun` — 測試旗標；隱藏報表和上限計數器的意見回饋事件。 取代決定管理`xdm:dryRun`。 在生產前移除。
 
 **範例要求內文（伺服器端）：**
 
@@ -618,16 +621,16 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 **金鑰回應欄位：**
-- `handle[].type` — 控制代碼型別(`personalization:decisions`， `locationHint:result`， `state:store`)
-- `payload[].id` — 唯一的主張執行個體識別碼 — 在顯示/互動事件上回呼
-- `payload[].scope` — 主張已解析的表面URI
-- `payload[].scopeDetails.decisionProvider` — 確認引擎為`AJO`
-- `payload[].scopeDetails.correlationID` — 連結決策執行個體以服務事件
-- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` — 主張的排名和行銷活動/動作中繼資料
-- `payload[].scopeDetails.characteristics.eventToken` — 訊息層級追蹤權杖
-- `payload[].scopeDetails.characteristics.subPropositions` — 決定專案&#x200B;**的Base64編碼**&#x200B;陣列；每個專案都有自己的每個專案`token`。 這些每個專案的代號就是您在顯示/互動事件中傳入`propositionAction.tokens`的內容
-- `payload[].items[].schema` / `payload[].items[].data.content` — 要呈現的內容結構描述和實際選件內容(JSON/HTML)
-- `state:store`裝載 — 要在後續請求上保留及轉送的身分和叢集Cookie （伺服器端）
+&#x200B;- `handle[].type` — 控制代碼型別(`personalization:decisions`， `locationHint:result`， `state:store`)
+&#x200B;- `payload[].id` — 唯一的主張執行個體識別碼 — 在顯示/互動事件上回呼
+&#x200B;- `payload[].scope` — 主張已解析的表面URI
+&#x200B;- `payload[].scopeDetails.decisionProvider` — 確認引擎為`AJO`
+&#x200B;- `payload[].scopeDetails.correlationID` — 連結決策執行個體以服務事件
+&#x200B;- `payload[].scopeDetails.rank` / `payload[].scopeDetails.activity` — 主張的排名和行銷活動/動作中繼資料
+&#x200B;- `payload[].scopeDetails.characteristics.eventToken` — 訊息層級追蹤權杖
+&#x200B;- `payload[].scopeDetails.characteristics.subPropositions` — 決定專案&#x200B;**的Base64編碼**&#x200B;陣列；每個專案都有自己的每個專案`token`。 這些每個專案的代號就是您在顯示/互動事件中傳入`propositionAction.tokens`的內容
+&#x200B;- `payload[].items[].schema` / `payload[].items[].data.content` — 要呈現的內容結構描述和實際選件內容(JSON/HTML)
+&#x200B;- `state:store`裝載 — 要在後續請求上保留及轉送的身分和叢集Cookie （伺服器端）
 
 `characteristics.subPropositions`字串base64會解碼成服務專案的陣列，每個專案都有其個別專案`token`：
 
@@ -678,19 +681,19 @@ Decisioning支援三種實施方法：
 需要`eventType`和`_experience.decisioning.propositionEventType`。 如果缺少其中一項，則對應的display/interact計數器不會增加。
 
 * **`eventType`** — 指定事件類別：
-  - `decisioning.propositionDisplay` — 曝光事件（向使用者顯示的優惠）
-  - `decisioning.propositionInteract` — 互動事件（使用者已點按或參與優惠方案）
+  &#x200B;- `decisioning.propositionDisplay` — 曝光事件（向使用者顯示的優惠）
+  &#x200B;- `decisioning.propositionInteract` — 互動事件（使用者已點按或參與優惠方案）
 
 * **`_experience.decisioning.propositionEventType`** — 標幟事件子型別。 包含設定為`1`的&#x200B;**一個**&#x200B;事件型別索引鍵（每個值為`1`或`0`；請勿將多個事件型別設定為相同物件中的`1`）：
-  - `{ "display": 1 }` — 曝光事件
-  - `{ "interact": 1 }` — 互動事件
-  - 如果所有`display`/`interact`/`dismiss`都是`0` — 或`eventType`是`decisioning.proposition<Display|Interact|Dismiss>`以外的任何值 — 此事件會視為&#x200B;**自訂事件**。
+  &#x200B;- `{ "display": 1 }` — 曝光事件
+  &#x200B;- `{ "interact": 1 }` — 互動事件
+  &#x200B;- 如果所有`display`/`interact`/`dismiss`都是`0` — 或`eventType`是`decisioning.proposition<Display|Interact|Dismiss>`以外的任何值 — 此事件會視為&#x200B;**自訂事件**。
 
 * **`_experience.decisioning.propositionAction.tokens[]`** — 每個專案的Token識別要遞增計數器的服務專案：
-  - 從已解碼的`subPropositions`陣列複製每個專案的`token` — **not** `scopeDetails.characteristics.eventToken`，這是不同的訊息層級權杖。
-  - 完全按照收到的方式傳遞Token，未加以修改。
-  - **互動事件：**&#x200B;提供&#x200B;**正好一個**&#x200B;權杖（點選的專案）。
-  - **顯示事件：**&#x200B;選擇性 — 提供語彙基元以遞增特定專案，或&#x200B;**省略** `tokens`以遞增`subPropositions`中&#x200B;**所有**&#x200B;專案的計數器。
+  &#x200B;- 從已解碼的`subPropositions`陣列複製每個專案的`token` — **not** `scopeDetails.characteristics.eventToken`，這是不同的訊息層級權杖。
+  &#x200B;- 完全按照收到的方式傳遞Token，未加以修改。
+  &#x200B;- **互動事件：**&#x200B;提供&#x200B;**正好一個**&#x200B;權杖（點選的專案）。
+  &#x200B;- **顯示事件：**&#x200B;選擇性 — 提供語彙基元以遞增特定專案，或&#x200B;**省略** `tokens`以遞增`subPropositions`中&#x200B;**所有**&#x200B;專案的計數器。
 
 * **`_experience.decisioning.propositions[]`** — 回應已提供的主張，包括`id`、`scope`和回應中的完整`scopeDetails` （包含`characteristics.subPropositions`且需要`decisionProvider`）。 您不需要建置明確的`items[]`陣列。
 
@@ -701,9 +704,9 @@ Decisioning支援三種實施方法：
 1. 在Experience Platform中，開啟您的事件資料集結構
 2. 新增`Experience Event - Proposition Details`欄位群組
 3. 確認下列欄位已對應：
-   - `_experience.decisioning.*`欄位
-   - `_experience.decisioning.propositionAction.tokens`
-   - `_experience.decisioning.propositionEventType`
+   &#x200B;- `_experience.decisioning.*`欄位
+   &#x200B;- `_experience.decisioning.propositionAction.tokens`
+   &#x200B;- `_experience.decisioning.propositionEventType`
 
 ### 追蹤權杖處理 {#tracking-token}
 
