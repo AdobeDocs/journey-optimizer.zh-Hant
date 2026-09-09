@@ -7,8 +7,11 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
 source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
 source-wordcount: 204
@@ -28,7 +31,7 @@ ht-degree: 4%
 Adobe Journey Optimizer可讓品牌建立和管理即時客戶設定檔和對象，以提供個人化的客戶體驗。 此概&#x200B;覽可讓您大致瞭解如何在Journey Optimizer中使用設定檔和受眾。 如需詳細資訊，請參閱設定檔與對象的特定區段。
 
 **個設定檔**
-Adobe Journey Optimizer提供一系列功能以搭配即時客戶個人檔案，讓品牌可建立其客戶的統一、360度全方位檢視。 主要&#x200B;功能包括即時資料擷取、身分圖表建立以及客戶參與工具。 透過歷程、行銷活動或決策參與的設定檔會計入您的**可參與的設定檔**&#x200B;授權量度。 [開始使用設定檔](get-started-profiles.md) | [監視授權使用情況](license-usage.md)
+Adobe Journey Optimizer提供一系列功能以搭配即時客戶個人檔案，讓品牌可建立其客戶的統一、360度全方位檢視。 主要&#x200B;功能包括即時資料擷取、身分圖表建立以及客戶參與工具。 透過歷程、行銷活動或決策參與的設定檔會計入您的&#x200B;**可參與的設定檔**&#x200B;授權量度。 [開始使用設定檔](get-started-profiles.md) | [監視授權使用情況](license-usage.md)
 
 **個對象**
 Adobe Journey Optimizer提供強大的工具，用於建立、管理和豐富受眾，以強化行銷工作。 主&#x200B;要功能包括對象細分、擴充、管理和啟動，以及治理和隱私權工具。 [開始使用對象](about-audiences.md)
