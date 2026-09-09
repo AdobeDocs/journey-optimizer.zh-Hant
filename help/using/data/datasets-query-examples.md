@@ -109,7 +109,7 @@ AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳
 >
 >此資料集使用批次擷取。 查詢此資料集或將其用於報告用途時，預計資料延遲最長可達2小時。
 
-如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
+如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳
 
 當填入欄位時，使用`isTestExecution`欄位區分測試執行與非測試執行。
 
-建立查詢之前，請使用[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}確認AJO訊息回饋事件結構描述的目前欄位路徑、資料型別和描述。
+建立查詢之前，請使用[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}確認AJO訊息回饋事件結構描述的目前欄位路徑、資料型別和描述。
 
 將填入值解釋如下：
 
@@ -133,7 +133,7 @@ AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳
 
 某些歷史或特定頻道的記錄可能無法填入每個訊息內容欄位。 因此，您應該透過管道測試欄位可用性並保留null，而不是將其視為空白字串或推斷值。
 
-只有在確認[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路徑後，才執行此查詢：
+只有在確認[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路徑後，才執行此查詢：
 
 ```sql
 SELECT
