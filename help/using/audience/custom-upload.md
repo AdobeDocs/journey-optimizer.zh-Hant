@@ -40,7 +40,7 @@ Adobe Experience Platform對象入口網站可讓您使用CSV檔案匯入對象�
 
 ![](assets/import-audience.png)
 
-Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}提供了有關如何匯入對象的詳細資訊。
+Adobe Experience Platform [Segmentation Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}提供了有關如何匯入對象的詳細資訊。
 
 >[!NOTE]
 >

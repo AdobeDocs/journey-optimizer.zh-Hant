@@ -492,7 +492,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->如需完整的決定管理(OD)要求/回應參考，請參閱[Edge Decisioning API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) （網頁SDK / Edge變體，其使用帶有`activityId`和`placementId`的base64編碼`decisionScopes`）。
+>如需完整的決定管理(OD)要求/回應參考，請參閱[Edge Decisioning API](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) （網頁SDK / Edge變體，其使用帶有`activityId`和`placementId`的base64編碼`decisionScopes`）。
 
 ### 決定Edge請求（移轉後） {#decisioning-request}
 
@@ -561,7 +561,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->如需完整的Journey Optimizer Decisioning網頁SDK / Edge參考資料，請參閱[程式碼型體驗：決策實作](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+>如需完整的Journey Optimizer Decisioning網頁SDK / Edge參考資料，請參閱[程式碼型體驗：決策實作](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ### 決定Edge回應 {#decisioning-response}
 
@@ -857,7 +857,7 @@ Decisioning支援三種實施方法：
 }
 ```
 
-這些事件可啟用頻率限定、現成可用的報告，以及Decisioning中的AI驅動排名最佳化。 若要使用Web SDK傳送主張事件，請參閱[程式碼型體驗：決策實施](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
+這些事件可啟用頻率限定、現成可用的報告，以及Decisioning中的AI驅動排名最佳化。 若要使用Web SDK傳送主張事件，請參閱[程式碼型體驗：決策實施](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations)。
 
 ## 端對端移轉程式 {#migration-process}
 

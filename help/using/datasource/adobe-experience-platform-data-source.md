@@ -70,7 +70,7 @@ Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔�
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source設定僅支援XDM個別設定檔結構描述。 如需詳細資訊，請參閱[XDM個別設定檔類別](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
+   >[!DNL Journey Optimizer] Data Source設定僅支援XDM個別設定檔結構描述。 如需詳細資訊，請參閱[XDM個別設定檔類別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}。
 
 1. 選取要使用的欄位，並儲存變更。
 

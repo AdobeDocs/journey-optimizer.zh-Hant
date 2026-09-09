@@ -37,7 +37,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用 Adobe Journey Optimizer
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 完整的歷程指南
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=zh-Hant)
 
 了解及管理行銷活動
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=zh-Hant)
 
 衝突管理與優先順序
 
