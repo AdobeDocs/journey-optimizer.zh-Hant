@@ -293,4 +293,4 @@ AEM內容片段可能包含參照儲存在AEM中之資產的影像欄位。 由�
 
 瞭解如何使用Adobe Experience Manager內容片段搭配Journey Optimizer Decisioning來個人化和最佳化內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492224/?captions=chi_hant&learn=on&enablevpops)

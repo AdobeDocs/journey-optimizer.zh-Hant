@@ -200,7 +200,7 @@ ht-degree: 2%
 
 瞭解如何使用新的歷程畫布體驗。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496202?captions=chi_hant)
 
 ## 開始您的歷程 {#start-your-journey}
 
