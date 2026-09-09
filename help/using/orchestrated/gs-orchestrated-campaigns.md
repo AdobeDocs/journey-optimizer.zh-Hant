@@ -7,22 +7,13 @@ short-description: 探索協調式行銷活動的主要功能和使用案例。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c630aa6152126b2732cd46521c529d5b626127a7
 workflow-type: tm+mt
-source-wordcount: 989
+source-wordcount: 936
 ht-degree: 100%
 
 ---
@@ -34,11 +25,6 @@ ht-degree: 100%
 **在此頁面上：**&#x200B;探索 Adobe Journey Optimizer 中的協調行銷活動如何讓您查詢關聯式資料集、建立具有精確計數的客群，以及跨多個管道傳遞行銷和交易型訊息。
 
 >[!ENDSHADEBOX]
-
->[!CONTEXTUALHELP]
->id="campaigns_overview_orchestrated"
->title="協調的行銷活動概觀"
->abstract="<b>行銷活動協調</b><br/>分割、合併、擴充及操作關聯式資料集來定義您的客群<br/><br/> <b>利用多實體資料</b><br/>了解協調的行銷活動如何利用關聯式資料集來擴充資料，以執行 Segmentation &amp; personalization<br/><br/><b>臨時細分和確切計數</b><br/>利用確切計數逐步建立您的細分群體<br/><br/><b>可用管道</b><br/>電子郵件、簡訊、推播通知、直接郵件、LINE、自訂管道"
 
 在 [!DNL Adobe Journey Optimizer] 中，行銷活動協調流程可支援進階且由品牌主動發起的跨管道行銷活動，包括&#x200B;**行銷**&#x200B;和&#x200B;**交易型**&#x200B;兩種類型。 行銷活動可協助您大規模提高參與度、收入和客戶忠誠度。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
 
