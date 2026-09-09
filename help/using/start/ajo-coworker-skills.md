@@ -8,13 +8,11 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,14 +43,14 @@ CX Co-worker提供各種管理歷程與忠誠度挑戰的技能：
 **以忠誠度為中心的AI功能：**
 
 * **忠誠度挑戰管理**：使用自然語言提示建立和管理忠誠度挑戰
-* **熟客方案 — 資料Insight技能**：使用自然語言查詢和分析熟客方案績效資料
+* **熟客方案見解技能**：使用自然語言查詢和分析熟客方案績效資料
 
 CX Co-worker也包含一組&#x200B;**內容管理MCP工具**，以探索、建立和管理Journey Optimizer內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容。 [了解更多](#content-management)
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -432,9 +430,9 @@ Journey Analyze支援下列功能：
 1. **說明獎勵**：積分、里程、宣告積分、狀態延期、憑單，或完成時授予的額外津貼。
 1. **參考資格確認事件**：指向挑戰追蹤的特定SKU、產品、帳戶動作或參與事件。
 
-### 熟客代理 — 資料Insight {#loyalty-data-insight}
+### 熟客方案分析技能 {#loyalty-data-insight}
 
-熟客代理 — 資料Insight技能可讓Journey Optimizer使用者使用自然語言來分析和查詢熟客方案績效資料。 此技能可提供忠誠度點數、成員層級、贖回和收入量度的深入分析，讓忠誠度管理員和分析師可針對其忠誠度計畫進行資料導向式決策。
+熟客方案深入分析技能可讓Journey Optimizer使用者使用自然語言來分析和查詢熟客方案績效資料。 此技能可提供忠誠度點數、成員層級、贖回和收入量度的深入分析，讓忠誠度管理員和分析師可針對其忠誠度計畫進行資料導向式決策。
 
 主要使用案例：
 
@@ -646,6 +644,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
