@@ -11,20 +11,16 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,9 +75,9 @@ iOS 即時動態
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=zh-Hant)
 
-行動裝置訊息
+行動訊息
 
-了解如何建立、管理和設定簡訊、MMS 和 RCS訊息以用於行銷和交易目的，包括合規性和個人化。
+瞭解如何建立、管理及設定簡訊、MMS 和 RCS 訊息，用於行銷和交易型用途，包含合規性和個人化。
 
 [進一步瞭解行動訊息](../mobile/get-started-mobile.md)
 :::
@@ -91,7 +87,7 @@ iOS 即時動態
 
 直接郵件
 
-了解如何建立和管理直接郵件行銷活動，包括匯出第三方提供者的摘取檔案，以及確保符合使用者同意。
+瞭解如何建立和管理直接郵件行銷活動，包括為第三方提供者匯出擷取檔案，以及確保符合使用者同意要求。
 
 [進一步瞭解直接郵件](../../rp_landing_pages/direct-mail-landing-page.md)
 :::

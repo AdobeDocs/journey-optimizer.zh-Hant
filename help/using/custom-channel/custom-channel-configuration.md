@@ -6,10 +6,16 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 9%
+source-wordcount: 359
+ht-degree: 11%
 
 ---
 
@@ -70,4 +76,4 @@ ht-degree: 9%
 
 * [建立自訂管道體驗](create-custom-experience.md)
 * [測試您的自訂頻道](test-custom-channel.md)
-* [監視自訂通道](monitor-custom-channel.md)
+* [監視自訂管道](monitor-custom-channel.md)
