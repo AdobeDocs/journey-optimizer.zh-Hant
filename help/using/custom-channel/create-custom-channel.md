@@ -1,15 +1,17 @@
 ---
-title: 建立自訂頻道
+title: 建立自訂管道
 description: 瞭解如何使用頻道產生器在Adobe Journey Optimizer中建立和設定自訂頻道。
 feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 15%
+source-wordcount: 1584
+ht-degree: 16%
 
 ---
 
@@ -62,7 +64,7 @@ ht-degree: 15%
 
    封存使用中頻道會將它從所有選取專案下拉式清單（行銷活動動作選擇器、歷程動作浮動視窗、<!--orchestrated campaigns channel list,-->頻道設定和內容範本）中移除。 已使用此管道的現有歷程和行銷活動可繼續正常運作。
 
-## 建立自訂頻道 {#create-channel}
+## 建立自訂管道 {#create-channel}
 
 若要建立新的自訂管道，請遵循下列步驟。
 

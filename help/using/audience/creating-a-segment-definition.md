@@ -9,23 +9,13 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 TQID: https://experienceleague.adobe.com/yKwBevAZeHTG1n5NXcO-okHQW-pYL1McS8HT-0Tgv6E
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 1158
 ht-degree: 11%
@@ -55,7 +45,7 @@ ht-degree: 11%
 
    ![](assets/create-segment.png)
 
-   區段定義畫面可讓您設定定義對象的所有必要欄位。 在[Segmentation Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/methods/overview){target="_blank"}中瞭解如何設定對象。
+   區段定義畫面可讓您設定定義對象的所有必要欄位。 在[Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"}中瞭解如何設定對象。
 
    ![](assets/segment-builder.png)
 
@@ -65,7 +55,7 @@ ht-degree: 11%
 
 1. 將所需欄位從左窗格拖放至中央工作區，然後視需要加以設定。
 
-   區段定義的基本建置區塊是&#x200B;**屬性**&#x200B;和&#x200B;**事件**。 此外，現有對象中包含的屬性和事件可作為新定義的元件。 [進一步瞭解Segmentation服務檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
+   區段定義的基本建置區塊是&#x200B;**屬性**&#x200B;和&#x200B;**事件**。 此外，現有對象中包含的屬性和事件可作為新定義的元件。 [進一步瞭解Segmentation服務檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#building-blocks){target="_blank"}
 
    >[!NOTE]
    >
@@ -103,7 +93,7 @@ ht-degree: 11%
 
 當新資料流入系統時，對象的設定檔清單會即時保持最新。
 
-串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=zh-Hant){target="_blank"}。
+串流細分是持續進行的資料選擇流程，其會根據使用者活動來更新客群。 在建置區段定義並儲存產生的客群後，區段定義會套用至傳入 Journey Optimizer 的資料。 這表示當個人設定檔資料變更時，將會在對象中新增或移除該個人，以確保您的目標對象永遠相關。 [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -123,17 +113,17 @@ ht-degree: 11%
 
 批次細分透過區段定義一次處理所有設定檔資料，建立對象的快照，可儲存和匯出以供使用。 與串流細分不同，批次細分不會持續即時更新對象清單。 在批次程式後傳入的新資料，在下一個批次程式前不會反映在對象中。 嘗試強制立即更新不會覆寫每日週期。 如需立即的增量更新，請考慮使用串流或隨選細分選項。
 
-如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant#batch){target="_blank"}
+如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 
 +++ 邊緣分段
 
-Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant){target="_blank"}的區段，啟用相同頁面和下一頁個人化使用案例。 目前只有選取的查詢型別可使用邊緣分段進行評估。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=zh-Hant#query-types){target="_blank"}
+Edge區段能在Adobe Experience Platform中即時評估[邊緣](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}的區段，啟用相同頁面和下一頁個人化使用案例。 目前只有選取的查詢型別可使用邊緣分段進行評估。 如需詳細資訊，請參閱[Adobe Experience Platform劃分服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
-如果您知道要使用的評估方法，請使用下拉式清單選取它。 您也可以按一下帶有放大鏡的瀏覽圖示資料夾圖示，以檢視可用區段定義評估方法的清單。 如需詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=zh-Hant#segment-properties){target="_blank"}。
+如果您知道要使用的評估方法，請使用下拉式清單選取它。 您也可以按一下帶有放大鏡的瀏覽圖示資料夾圖示，以檢視可用區段定義評估方法的清單。 如需詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}。
 
 ![](assets/evaluation-methods.png)
 
@@ -159,10 +149,10 @@ Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受�
 1. 即時評估對象以確保準確性。 若要這麼做，請選擇您要評估的對象，然後選取「評估對象」，前提是這些對象符合特定條件（例如以人物為基礎、分段服務來源）。
 1. 在Adobe Journey Optimizer行銷活動或歷程中使用評估過的對象來精確鎖定目標。
 
-您可以一次評估最多20個對象，不符合資格的對象會自動排除。 如需詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
+您可以一次評估最多20個對象，不符合資格的對象會自動排除。 如需詳細資訊，請參閱[Adobe Experience Platform Segmentation Service檔案](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)。
 
 ## 作法影片{#video-segment}
 
 瞭解Journey Optimizer如何使用規則產生閱聽眾，並瞭解如何使用屬性、事件和現有閱聽眾來建立閱聽眾。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430328?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

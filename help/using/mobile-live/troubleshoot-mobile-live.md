@@ -6,13 +6,9 @@ description: 瞭解如何針對單一和廣播使用案例（包括設定檔權�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -144,7 +140,7 @@ Adobe Experience Platform Assurance中的「已上線活動」檢視可驗證應
 * 設定檔名稱空間，例如ECID、電子郵件、客戶ID
 * API呼叫中使用的設定檔ID
 
-確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何查詢設定檔。
+確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何[查詢設定檔。
 
 +++
 
@@ -1112,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`是結構化MAP型別，不是字串。 使用上述陣列和結構存取子語法。 `LIKE`之類的字串函式將傳回`DATATYPE_MISMATCH`錯誤。
 >
 ></br>
->&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的&#x200B;**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
+&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
 
 ### feedbackStatus值
 

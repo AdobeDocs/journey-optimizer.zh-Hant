@@ -6,10 +6,12 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804did: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 9%
+source-wordcount: 359
+ht-degree: 11%
 
 ---
 
@@ -38,7 +40,7 @@ ht-degree: 9%
 
 1. 如果您已在[!DNL Journey Optimizer]中設定自訂管道的子網域，您可以選取要用於追蹤此設定之裝載中出現之連結的委派子網域。 [瞭解如何委派子網域](custom-channel-subdomains.md)
 
-1. 如果選取的管道具有定義成端點URL之變數[&#128279;](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
+1. 如果選取的管道具有定義成端點URL之變數](create-custom-channel.md#endpoint-configuration)的標頭或查詢引數[，則會顯示&#x200B;**[!UICONTROL 動態引數]**&#x200B;區段。
 
    輸入每個引數的值。 您可以使用個人化編輯器來插入動態值（例如，從設定檔解析的使用者識別碼）。 這可讓您根據每位收件者的設定檔資料自訂其請求。
 
@@ -70,4 +72,4 @@ ht-degree: 9%
 
 * [建立自訂管道體驗](create-custom-experience.md)
 * [測試您的自訂頻道](test-custom-channel.md)
-* [監視自訂通道](monitor-custom-channel.md)
+* [監視自訂管道](monitor-custom-channel.md)

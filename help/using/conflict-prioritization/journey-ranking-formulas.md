@@ -7,12 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="有限可用性" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 1174
 ht-degree: 3%
@@ -100,7 +97,7 @@ ht-degree: 3%
 
    ![使用變數、屬性或靜態值指派排名分數的運算式產生器](assets/journey-formula-expression.png){width="70%"}
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 

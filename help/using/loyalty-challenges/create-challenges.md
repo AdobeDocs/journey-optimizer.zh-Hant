@@ -8,11 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 2577
 ht-degree: 12%
@@ -372,21 +370,21 @@ ht-degree: 12%
 
 **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
 
->[!VIDEO](https://video.tv.adobe.com/v/3496480?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **設定獎勵** — 設定獎勵傳遞與履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496490?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️觀看如何建立挑戰內容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496538?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️觀看如何針對挑戰設定生命週期訊息
 
->[!VIDEO](https://video.tv.adobe.com/v/3497464?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️觀看如何發佈挑戰並產生歷程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498586?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
