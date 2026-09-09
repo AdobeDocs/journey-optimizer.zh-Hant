@@ -37,10 +37,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 967
-ht-degree: 5%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -151,6 +151,34 @@ FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
+
+**自訂動作分析**
+
+使用歷程步驟事件來驗證Journey Optimizer是否執行自訂動作，並檢查其狀態、延遲和錯誤詳細資訊：
+
+```sql
+-- Example: Inspect custom action execution for a given custom action and profile in a journey
+SELECT
+  timestamp,
+  _experience.journeyOrchestration.stepEvents.actionID AS action_id,
+  _experience.journeyOrchestration.stepEvents.actionName AS action_name,
+  _experience.journeyOrchestration.stepEvents.actionType AS action_type,
+  _experience.journeyOrchestration.stepEvents.stepStatus AS step_status,
+  _experience.journeyOrchestration.stepEvents.actionExecutionError AS action_execution_error,
+  _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode AS action_execution_error_code
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
+AND _experience.journeyOrchestration.stepEvents.actionType = 'customHttpAction'
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profile-id>'
+AND _experience.journeyOrchestration.stepEvents.nodeName = '<node-name>'
+ORDER BY timestamp DESC;
+```
+
+>[!NOTE]
+>
+>此查詢的範圍設定為單一設定檔和歷程節點。 如果沒有`profileID`和`nodeName`篩選器，查詢可能會傳回大量列，尤其是包含多個自訂動作節點的高流量歷程或歷程。
+
+此查詢僅報告Journey Optimizer端的執行詳細資料。 成功的結果不會確認外部系統已傳送訊息 — 請檢查外部服務的記錄或報告下游傳送狀態。 瞭解如何[為訊息傳遞回饋意見選擇正確的資料集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 **歷程funnel分析**
 

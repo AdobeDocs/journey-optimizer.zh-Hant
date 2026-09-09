@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
 workflow-type: tm+mt
-source-wordcount: 1608
-ht-degree: 98%
+source-wordcount: 1624
+ht-degree: 95%
 
 ---
 
@@ -268,45 +268,42 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="可用頻道"
->abstract="電子郵件、簡訊、推播通知、直接郵件"
+>abstract="電子郵件、簡訊、推播通知和直接郵件"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_1"
+>id="ajo_oc_jo_camppaign_ovv_1"
 >title="建立並傳送行銷活動的引導式 UI"
->abstract="設定一個管道的單一或多個動作，選擇客群，設定內容，決定排程，然後即可準備傳送"
-
+>abstract="設定一個管道的單一或多個動作，選擇客群，設定內容，定義排程，最後一切就緒，進行傳送"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_2"
+>id="ajo_oc_jo_camppaign_ovv_2"
 >title="可用頻道"
 >abstract="電子郵件、簡訊、推播通知、應用程式內、網頁、程式碼型體驗"
 
-
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
 
-
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_1"
+>id="ajo_oc_api_camppaign_ovv_1"
 >title="交易型 API 觸發的行銷活動"
 >abstract="透過 API 呼叫觸發即時訊息"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_2"
+>id="ajo_oc_api_camppaign_ovv_2"
 >title="行銷訊息"
->abstract="促銷內容（需選擇加入，遵守商業規則）"
+>abstract="促銷內容，包括廣播直播活動，例如運動分數或航班狀態更新（需要選擇加入，但須遵守商業規則）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_3"
+>id="ajo_oc_api_camppaign_ovv_3"
 >title="交易型訊息"
 >abstract="服務相關內容（確認、警示則不受到行銷同意約束）"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_4"
+>id="ajo_oc_api_camppaign_ovv_4"
 >title="可用頻道"
->abstract="電子郵件、簡訊、推播通知"
+>abstract="電子郵件、簡訊、推播通知和即時活動"
 
 <!--APPROVAL POLICIES-->
 

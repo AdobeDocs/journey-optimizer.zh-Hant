@@ -12,9 +12,9 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +545,7 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
 
 ### 電子郵件頻道 {#june-26-email}
 
-此版本在電子郵件管道中新增了下列改善項目。
-
-* **URL 參數加密** - 您現在可以加密追蹤中的 URL 參數，以及新增至您電子郵件訊息的登陸頁面連結。 這為敏感的參數資料提供額外的安全層。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 [閱讀更多](../personalization/url-parameter-encryption.md)
-
-  推出日期：2026 年 6 月 1 日
-
-* **金鑰登錄的新權限** - 現在需要兩個新權限，才能存取和管理 URL 參數加密所需的金鑰：**管理金鑰登錄**&#x200B;和&#x200B;**檢視金鑰登錄**。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
-
-  推出日期：2026 年 6 月 1 日
+下列功能已新增至此版本的電子郵件通道。
 
 <table>
 <thead>
@@ -700,6 +692,18 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
   * **預估 CTOR** (點按開啟率)：以預估點按次數相對於預估開啟總數計算。
 
   可用日期：2026 年 6 月 25 日
+
+### 設定 {#june-26-configuration}
+
+此版本即將推出下列設定改進。
+
+* **URL 參數加密** - 您現在可以加密追蹤中的 URL 參數，以及新增至您電子郵件訊息的登陸頁面連結。 這為敏感的參數資料提供額外的安全層。 此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。 [閱讀更多](../personalization/url-parameter-encryption.md)
+
+  推出日期：2026 年 6 月 1 日
+
+* **金鑰登錄的新權限** - 現在需要兩個新權限，才能存取和管理 URL 參數加密所需的金鑰：**管理金鑰登錄**&#x200B;和&#x200B;**檢視金鑰登錄**。 [閱讀更多](../administration/high-low-permissions.md#administration-permissions)
+
+  推出日期：2026 年 6 月 1 日
 
 ### 管理 {#june-26-administration}
 

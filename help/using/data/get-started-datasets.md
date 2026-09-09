@@ -26,10 +26,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: fb4dabc9839ce736abad94c5c12b7652188f1daa
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 100%
+source-wordcount: 1370
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 * 報表
 
-  * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取，預期最多有 2 小時的資料延遲。**
+  * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取，預期最多有 2 小時的資料延遲。** 如需欄位層級定義和路徑，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。 如需SQL報表範例，請參閱[資料集查詢範例](../data/datasets-query-examples.md)。
   * _報告 - 電子郵件追蹤體驗事件資料集_：電子郵件管道的互動記錄，以及 `whatsAppChannelContext` 欄位群組下的 WhatsApp 管道內容資料。 用於報告和建立客群。 儲存的資訊包含終端使用者在電子郵件和 WhatsApp 互動中執行的動作 (開啟、按一下等)。
   * _報告 - 推播追蹤體驗事件資料集_：用於報告與客群建立目的使用之推播通知頻道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
   * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。

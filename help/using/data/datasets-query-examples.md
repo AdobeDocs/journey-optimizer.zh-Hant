@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1152
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +56,29 @@ ht-degree: 2%
 
 另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
+## 選擇正確的資料集 {#choose-the-correct-dataset}
+
+在執行查詢之前，請確認哪個資料集符合您要在歷程中分析的動作型別。
+
+1. 若要檢查原生Journey Optimizer頻道動作（例如`sent`或`bounce`狀態）的訊息傳遞回饋，請使用[訊息回饋事件資料集](#message-feedback-event-dataset)。
+1. 若要檢查電子郵件互動事件（例如開啟和點按），請使用[電子郵件追蹤體驗事件資料集](#email-tracking-experience-event-dataset)。
+1. 若要驗證Journey Optimizer是否執行自訂動作，以及檢查其執行狀態、延遲和錯誤詳細資料，請使用[歷程步驟事件](#journey-step-event)資料集。
+
+>[!NOTE]
+>
+>成功的自訂動作HTTP呼叫只會確認呼叫已完成。 它不會確認外部系統已傳遞訊息。 若要確認下游傳送，請檢查外部系統的記錄或報告。 瞭解如何[疑難排解您的即時歷程執行](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully)。
+
+### 如果查詢傳回「資料集未布建表格」 {#table-not-provisioned}
+
+此訊息不一定表示資料集無法布建。 在聯絡Adobe支援之前，請檢查下列專案：
+
+1. 在資料集工作區中，啟用&#x200B;**顯示系統資料集**。 預設會隱藏系統產生的資料集。 瞭解如何[存取資料集](get-started-datasets.md#access)。
+1. 確認查詢中使用的確切表格名稱符合沙箱的資料集工作區中顯示的表格名稱。
+1. 確認歷程動作型別符合您正在查詢的資料集。 請參閱[選擇正確的資料集](#choose-the-correct-dataset)。
+1. 針對使用批次擷取的資料集（例如訊息回饋事件資料集），最多可允許兩小時讓資料變為可用。
+1. 對於自訂動作，請查詢[歷程步驟事件](#journey-step-event)資料集，而不是期望外部傳遞的訊息回饋事件記錄。
+
+如果資料集應包含資料，但表格仍無法使用，請先收集沙箱名稱、資料集名稱、查詢ID和時間戳記，再聯絡Adobe支援。
 
 ## 電子郵件追蹤體驗事件資料集{#email-tracking-experience-event-dataset}
 
@@ -101,13 +124,55 @@ limit 100;
 
 介面中的&#x200B;_名稱： AJO訊息回饋事件資料集_
 
-用於從Journey Optimizer擷取電子郵件和推播應用程式意見回饋事件的資料集。
+AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳遞回饋。 它支援跨訊息通道（包括電子郵件、SMS/RCS/MMS和直接郵件）的傳遞回饋分析。 意見事件可用於報告和建立受眾使用案例。
 
 相關結構描述是AJO訊息回饋事件結構描述。
 
 >[!NOTE]
 >
 >此資料集使用批次擷取。 查詢此資料集或將其用於報告用途時，預計資料延遲最長可達2小時。
+
+如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。
+
+>[!NOTE]
+>
+>我們並不保證會在每個訊息回饋事件中填入頻道特定內容欄位。 欄位可用性可能取決於頻道、提供者意見回應裝載、事件型別和傳送階段。 使用訊息執行識別碼、回饋狀態、失敗詳細資料、時間戳記和身分資訊作為主要相互關聯欄位。
+
+### 將測試和非測試執行分類{#classify-test-executions}
+
+當填入欄位時，使用`isTestExecution`欄位區分測試執行與非測試執行。
+
+建立查詢之前，請使用[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}確認AJO訊息回饋事件結構描述的目前欄位路徑、資料型別和描述。
+
+將填入值解釋如下：
+
+| 值 | 解釋 |
+| ------- | ------- |
+| `true` | 該訊息是測試執行的一部分。 |
+| `false` | 該訊息不是測試執行的一部分。 |
+| `NULL`或遺失 | 未記錄此欄位的值。 除非已驗證通道和時間特定對應，否則將此視為未知。 |
+
+請勿自動將`NULL`轉換為`false`，且不要假設每個null值都代表生產執行。 如果報表實作已驗證Null值代表特定管道或歷史期間的非測試記錄，請在下游報表檢視中套用該對應，並明確記錄規則。
+
+某些歷史或特定頻道的記錄可能無法填入每個訊息內容欄位。 因此，您應該透過管道測試欄位可用性並保留null，而不是將其視為空白字串或推斷值。
+
+只有在確認[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路徑後，才執行此查詢：
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+此查詢會依測試執行指標和傳遞回饋狀態將訊息回饋記錄分組。 結果會保留null或遺失`isTestExecution`值，以便可以個別檢閱沒有記錄測試執行值的記錄。
 
 此查詢顯示特定訊息的不同電子郵件回饋狀態（已傳送、退回等）的計數：
 

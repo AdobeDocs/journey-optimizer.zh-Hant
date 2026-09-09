@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 14%
@@ -201,7 +201,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
      >
      >**僅支援**&#x200B;網頁&#x200B;**和**&#x200B;電子郵件&#x200B;**管道的特定位置**&#x200B;上限。 它不適用於程式碼型體驗、SMS、推播或直接郵件通道。
 
-     按一下&#x200B;**[!UICONTROL 選取版位]**&#x200B;以挑選要封閉的版位。 其他刊登版位則不受限制地通過。 例如，如果您選取每日曝光次數上限為3次的主圖橫幅版位，則選件在出現3次曝光後即停止出現在主圖橫幅中，但其他所有版位皆符合資格。
+     按一下「**[!UICONTROL 選取位置]**」以選取要封閉的位置。 其他刊登版位則不受限制地通過。 例如，如果您選取每日曝光次數上限為3次的主圖橫幅版位，則選件在出現3次曝光後即停止出現在主圖橫幅中，但其他所有版位皆符合資格。
 
      ![已選取特定版位限定範圍，顯示[選取版位]按鈕和選取的版位標籤](assets/item-capping-scope-specific.png){width="75%"}
 

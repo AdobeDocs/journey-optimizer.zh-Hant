@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ ht-degree: 11%
 * [!DNL Journey Optimizer]已成功傳送訊息。 檢查歷程報告以確定沒有錯誤。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。 如果呼叫與自訂動作相關聯的外部系統並未導致錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。
+
+>[!NOTE]
+>
+>對於原生Journey Optimizer頻道動作，請查詢訊息回饋事件資料集以確認傳遞狀態，例如`sent`或`bounce`。 對於自訂動作，請查詢歷程步驟事件資料集，以確認Journey Optimizer已成功執行動作 — 成功的HTTP呼叫本身不會確認外部系統已傳送訊息。 瞭解如何[為您的使用案例選擇正確的資料集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 ## 瞭解歷程步驟事件中的重複專案 {#duplicate-step-events}
 

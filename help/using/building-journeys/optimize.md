@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -72,10 +72,6 @@ ht-degree: 16%
 * [執行路徑實驗](path-experimentation.md) — 根據隨機分割測試不同的路徑，以根據預先定義的成功量度（例如：轉換率、收入、參與）判斷哪些路徑執行效果最佳。
 
 * [運用目標規則](path-targeting.md) — 根據對象區段、設定檔屬性或內容資料，定義客戶必須符合的特定規則，才有資格輸入其中一個歷程路徑。 這可確保正確的對象進入指定路徑。
-
-  >[!AVAILABILITY]
-  >
-  >此功能目前處於「有限可用性」。 如欲請求存取權，請和您的 Adobe 代表聯絡。
 
 * [套用條件](conditions.md) — 根據特定條件建立條件路徑，例如資料來源、時間、日期、百分比分割或設定檔上限。 這等同於前一個「條件」活動。
 
