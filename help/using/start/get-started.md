@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -115,7 +115,6 @@ Journey Optimizer 是以原生方式建立在 Adobe Experience Platform 上，�
 * [設計歷程與傳送訊息](../building-journeys/journey-gs.md) — 建立您的第一個客戶歷程並設定管道動作。
 * [即時報告](../reports/live-report.md) — 即時監視行銷活動和歷程績效。
 * [Journey Optimizer 簡介教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — 逐步解說 Journey Optimizer 核心概念的引導式影片。
-* [Journey Optimizer 安全性概覽](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) — 安全性架構、資料保護和合規性詳細資料。
 * [Journey Optimizer 產品描述](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — 正式授權條款與版本功能細目。
 
 ## 下一步該前往何處 {#where-next}

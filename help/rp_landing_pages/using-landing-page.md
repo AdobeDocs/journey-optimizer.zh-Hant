@@ -21,10 +21,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 100%
+source-wordcount: 450
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品描述</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">安全性概觀 (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API 參考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer 結構描述字典</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant" target="_blank">教學課程</a> - <a href="https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">產品說明</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API參考</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant" target="_blank">Journey Optimizer結構描述字典</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
