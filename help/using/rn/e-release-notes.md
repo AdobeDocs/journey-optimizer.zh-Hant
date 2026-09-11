@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 790300d6e9bf99e4465a1f673073b4d2c45b0e9a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
 workflow-type: tm+mt
-source-wordcount: 1951
+source-wordcount: 1958
 ht-degree: 19%
 
 ---
@@ -98,7 +95,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -206,7 +203,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p><strong>自訂傳出頻道</strong>可讓管理員透過無程式碼的Channel Builder，將任何傳出以HTTP為基礎的訊息頻道（例如WeChat、Kakao Talk、Messenger或專屬提供者）直接帶入Journey Optimizer。 設定之後，便可在各種行銷活動、歷程和精心安排的行銷活動中使用自訂管道，並提供與原生管道相同的完整功能集：使用運算式編輯器進行個人化、內容實驗、預覽和校樣、現成可用的報告，以及同意與治理強制執行。</p>
-<p>自訂管道也獲得幾個新功能：</p>
+<p>在此版本中，自訂傳出頻道也獲得幾個新功能：</p>
 <ul>
 <li>透過Journey Optimizer編輯器在自訂管道裝載中使用Personalization Decisioning，與程式碼型體驗中的方式相同。</li>
 <li>套用商業規則至自訂管道，就像您在原生管道上所做的那樣。</li>
@@ -365,7 +362,22 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-* **電子郵件Designer中的新資料表元件** — 電子郵件Designer現在包含內建&#x200B;**資料表元件**，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有條理的版面配置，而不依賴自訂HTML。<!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件Designer中的新表格元件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件Designer現在包含內建<strong>表格元件</strong>，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有組織的版面配置，而不依賴自訂HTML。</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 * **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。<!-- Documentation link: TBD -->
 
