@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: d6216ad8546cbbfbccb66104fe61ff6f86a1e68e
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: 1928
 ht-degree: 19%
 
 ---
@@ -98,7 +95,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -340,7 +337,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>電子郵件主題現在支援深色模式的獨立樣式。 在佈景主題產生器中，您可以為特定變體開啟深色模式，以產生專用深色模式樣式表，讓您從淺色模式樣式中單獨編輯該樣式表 — 在一種模式中所做的變更不再覆寫另一種模式。 在電子郵件和範本編輯器中，案頭和行動檢視選項旁新的預覽切換可讓您以深色模式預覽內容。</p>
-<p>由於此編輯器內預覽內容仰賴CSS篩選器，而且並非畫素完美，因此我們建議傳送校樣，以驗證在啟用深色模式的電子郵件使用者端中的精確轉譯。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
