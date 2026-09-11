@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,21 +27,23 @@ ht-degree: 91%
 
 ## 2026年9月 {#september-2026}
 
-* **最佳化**&#x200B;活動檔案不再將&#x200B;**鎖定目標規則**&#x200B;方法標示為有限可用性：鎖定目標規則現在普遍可用。 [閱讀更多](../building-journeys/optimize.md#optimization-methods)
+* **個人化您的電子郵件背景**&#x200B;頁面已展開並改良。 它現在會記錄背景影像的完整&#x200B;**影像位置**&#x200B;下拉式清單，並新增背景色彩和影像的最佳實務，包括建議在實際的電子郵件使用者端中測試背景影像，而非僅仰賴電子郵件Designer預覽。 [閱讀更多](../email/backgrounds.md)
+
+* 已重新整理並釐清&#x200B;**使用電子郵件Designer**&#x200B;頁面從頭開始設計內容：它將&#x200B;**[!UICONTROL n:n欄]**&#x200B;結構與固定的預設結構區分開來、可增加結構的欄數而不遺失現有內容的檔案、說明行動裝置上的欄棧疊行為，以及新增使用&#x200B;**[!UICONTROL 模組]**&#x200B;以快速開始建立電子郵件的步驟。 [閱讀更多](../email/content-from-scratch.md)
 
 * **設計您的歷程**&#x200B;頁面現在包含有關新畫布體驗的完整教學課程區段，涵蓋如何新增活動、使用工具列圖示、選取多個活動以進行大量動作、複製和貼上活動，以及加入或分離分支。 [閱讀更多](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * 已新增驗證自訂動作傳送的指南： **資料集查詢範例**&#x200B;頁面現在說明如何根據動作型別在訊息回饋事件、電子郵件追蹤和歷程步驟事件資料集之間進行選擇，以及說明如何解決「資料集未布建的表格」錯誤的檔案。 **歷程步驟事件總覽**&#x200B;和&#x200B;**疑難排解您的即時歷程執行**&#x200B;頁面已據此更新，澄清成功的自訂動作呼叫只會確認Journey Optimizer已執行動作，不會確認外部系統已傳送訊息。 [閱讀更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* 已在CX Co-worker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../start/ajo-coworker-skills.md#journey-analyze)
+* 已在CX Coworker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../start/ajo-coworker-skills.md#journey-analyze)
 
-* **護欄和限制**&#x200B;頁面已更正，以移除過時的附註，指出超過100 KB的視覺片段或超過200 KB的運算式片段可能會導致電子郵件傳送出現截斷問題：僅適用單一700 KB片段大小護欄。 [閱讀更多](../start/guardrails.md#fragments-guardrails)
+* **護欄和限制**&#x200B;頁面已更正，以反映超過100 KB的視覺片段或超過200 KB的運算式片段不會再造成電子郵件傳送的截斷問題：現在單一700 KB片段大小護欄適用。 [閱讀更多](../start/guardrails.md#fragments-guardrails)
 
 * **建立即時活動**&#x200B;頁面已更正： `executionMetadata`欄位僅適用於&#x200B;**API觸發的交易式**&#x200B;行銷活動，不適用於先前所述的API觸發的行銷活動。 [閱讀更多](../mobile-live/create-mobile-live.md#metadata)
 
 * **AJO訊息回饋事件資料集**&#x200B;檔案已擴充，以澄清其涵蓋所有管道（電子郵件、SMS/RCS/MMS、直接郵件）的訊息傳遞回饋，而不只是電子郵件和推播，現在包含&#x200B;**將測試和非測試執行分類**&#x200B;區段，說明如何解譯`isTestExecution`欄位，包括`NULL`或缺少的值。 [閱讀更多](../data/datasets-query-examples.md#classify-test-executions)
 
-* 已針對CX Co-worker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示來探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../start/ajo-coworker-skills.md#content-management)
+* 已針對CX Coworker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../start/ajo-coworker-skills.md#content-management)
 
 * **將內容新增至您的登入頁面**&#x200B;檔案現在說明&#x200B;**將表單欄位設為同意核取方塊的必要欄位**&#x200B;選項：啟用時，除非選取核取方塊，且檢查在使用者端和伺服器端強制執行，否則無法提交表單。 [閱讀更多](../landing-pages/lp-content.md#use-form-component)
 

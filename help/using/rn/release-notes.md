@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +345,16 @@ ht-degree: 77%
 * **視覺片段中的鏡像頁面** - 您現在可以將鏡像頁面插入視覺片段中。 即使片段用於採用決策功能的電子郵件行銷活動中，決策屬性仍可在鏡像頁面連結上正確呈現。 必須在發佈片段之前，先將鏡像頁面新增到視覺片段，才能顯示決策屬性。 [了解更多](../email/message-tracking.md#decisioning-mirror-page)
 
   推出日期：2026 年 8 月 11 日
+
+### 電子郵件設計工具 {#august-26-email-designer}
+
+* **增加欄數而不遺失電子郵件Designer中的內容** — 您現在可以增加現有結構的欄數（例如，從2欄增加到3欄），而不刪除它也不遺失您的內容。 [了解更多](../email/content-from-scratch.md)
+
+  推出日期：2026 年 8 月 5 日
+
+* **電子郵件Designer中有更多背景影像放置選項** — 四個新的影像放置選項可用於背景影像：全寬 — 上、全寬 — 下、全高 — 左和全高 — 右。 每個選項都會按比例沿著一個軸縮放影像，例如現有的「全寬」和「全高」選項，但會將影像錨定至特定邊緣而非置中，讓您更能掌控主圖影像的哪一部分會保留在檢視中。 [了解更多](../email/backgrounds.md)
+
+  推出日期： 2026年8月4日
 
 ### 可用性改進功能 {#august-26-usability}
 
