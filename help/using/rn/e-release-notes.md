@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 498ffd4d4d68dfc678ae4e2e8ad9ae39834a6b23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2594
-ht-degree: 13%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -100,7 +97,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -415,6 +412,36 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </table>
 
 * **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+
+### 報表 {#sep-26-reporting}
+
+以下功能即將在此版本中報告。
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Management中的新輸入監檢視形</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以從<strong>資料管理&gt;監視&gt; Edge</strong>直接監視傳入資料健康情況，共有六個新的圖表涵蓋輸送量、延遲和主張事件：</p>
+<ul>
+<li><strong>AJO輸入輸送量</strong> — 一段時間的整體輸入輸送量（每秒記錄數）。</li>
+<li><strong>AJO傳入輸送量劃分</strong> — 依位置劃分的傳入輸送量。</li>
+<li><strong>AJO傳入延遲</strong> — 傳入要求延遲（以毫秒為單位），依值分佈（P50、P90等）劃分。</li>
+<li><strong>AJO傳入主張事件輸送量</strong> — 主張事件的輸送量（使用者互動、檢視或觸發個人化優惠時產生的追蹤訊號）。</li>
+<li><strong>依管道的AJO傳入主張事件輸送量</strong> — 依傳入管道（CBE、應用程式內、內容卡）劃分的主張事件輸送量。</li>
+<li><strong>依事件型別</strong>的AJO傳入主張事件輸送量 — 依事件型別（已解除、已隱藏、已顯示、已觸發、已互動、已傳送）劃分的主張事件輸送量。</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 可用性改進功能 {#sep-26-usability}
 
