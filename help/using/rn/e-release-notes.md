@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
 workflow-type: tm+mt
-source-wordcount: 2527
-ht-degree: 13%
+source-wordcount: 2747
+ht-degree: 12%
 
 ---
 
@@ -299,6 +299,8 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * **直接加入UX改良功能** — 從相關集合新增屬性時，您現在可以在三種加入模式（新預設值，警告您卡式產品對效能的潛在影響，加上現有的彙總和進階模式）之間選擇，讓您更容易在建置查詢之前瞭解查詢的取捨。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
 
+* **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中為協調的行銷活動建立條件式內容時，您現在可以直接在&#x200B;**關聯式資料**&#x200B;上建立條件，例如與設定檔相關聯的相關記錄，而不只是標準設定檔屬性。 如此將可縮短與原始版本的差距，因此行銷人員不需要工程協助即可以視覺化方式建置這些條件。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
+
 ### 行銷活動 {#sep-26-campaigns}
 
 此版本中的行銷活動推出下列功能和改善。
@@ -413,6 +415,36 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </table>
 
 * **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+
+### 報表 {#sep-26-reporting}
+
+以下功能即將在此版本中報告。
+
+<table>
+<thead>
+<tr>
+<th><strong>Data Management中的新輸入監檢視形</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以從<strong>資料管理&gt;監視&gt; Edge</strong>直接監視傳入資料健康情況，共有六個新的圖表涵蓋輸送量、延遲和主張事件：</p>
+<ul>
+<li><strong>AJO輸入輸送量</strong> — 一段時間的整體輸入輸送量（每秒記錄數）。</li>
+<li><strong>AJO傳入輸送量劃分</strong> — 依位置劃分的傳入輸送量。</li>
+<li><strong>AJO傳入延遲</strong> — 傳入要求延遲（以毫秒為單位），依值分佈（P50、P90等）劃分。</li>
+<li><strong>AJO傳入主張事件輸送量</strong> — 主張事件的輸送量（使用者互動、檢視或觸發個人化優惠時產生的追蹤訊號）。</li>
+<li><strong>依管道的AJO傳入主張事件輸送量</strong> — 依傳入管道（CBE、應用程式內、內容卡）劃分的主張事件輸送量。</li>
+<li><strong>依事件型別</strong>的AJO傳入主張事件輸送量 — 依事件型別（已解除、已隱藏、已顯示、已觸發、已互動、已傳送）劃分的主張事件輸送量。</li>
+</ul>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 可用性改進功能 {#sep-26-usability}
 
