@@ -43,13 +43,13 @@ ht-degree: 0%
 
 將&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;和&#x200B;**[!DNL Adobe Experience Manager Managed Service]**&#x200B;與Adobe Journey Optimizer整合後，您便可以在歷程與行銷活動中使用AEM內容片段。 對於&#x200B;**[!DNL Adobe Experience Manager Managed Service]**，整合支援&#x200B;**AEM長期支援(LTS) SP2**&#x200B;上的&#x200B;**作者**&#x200B;和&#x200B;**發佈**&#x200B;層；此版本中不提供來自Adobe Experience Manager的即時更新。 請連絡您的Adobe Managed Services代表以進行執行個體設定，然後[設定Adobe Experience Manager存放庫存取權](aem-admin-settings.md)以新增您的Managed Services存放庫。
 
-若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
+若要深入瞭解AEM內容片段，請參閱Experience Manager檔案中的[使用內容片段](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"}。
 
 ## 內容片段生命週期
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-內容片段會根據其存在的Adobe Experience Manager層級遵循不同的生命週期階段。 [在Adobe Experience Manager檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+內容片段會根據其存在的Adobe Experience Manager層級遵循不同的生命週期階段。 [在Adobe Experience Manager檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 內容是在&#x200B;**製作層級**&#x200B;上建立和管理的，其中片段可以具有狀態，例如，新增、草稿、已發佈、已修改或已取消發佈。 這些狀態僅適用於&#x200B;**作者階層**，並支援內容建立和檢閱。
 
