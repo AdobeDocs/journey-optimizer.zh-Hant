@@ -6,11 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1584
 ht-degree: 16%
@@ -233,3 +231,5 @@ ht-degree: 16%
 * [設定API認證](custom-channel-api-credentials.md) （如果通道使用驗證）
 * [委派子網域](custom-channel-subdomains.md) （選用 — 需要連結追蹤）
 * [建立管道設定](custom-channel-configuration.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-channel.md}}
