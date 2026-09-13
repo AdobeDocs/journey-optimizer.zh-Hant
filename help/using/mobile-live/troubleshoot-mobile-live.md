@@ -6,14 +6,9 @@ description: 瞭解如何針對單一和廣播使用案例（包括設定檔權�
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -145,7 +140,7 @@ Adobe Experience Platform Assurance中的「已上線活動」檢視可驗證應
 * 設定檔名稱空間，例如ECID、電子郵件、客戶ID
 * API呼叫中使用的設定檔ID
 
-確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何查詢設定檔。
+確定您可以在Adobe Experience Platform中查詢此設定檔。 在Experience Platform檔案](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)中瞭解如何[查詢設定檔。
 
 +++
 
@@ -1113,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap`是結構化MAP型別，不是字串。 使用上述陣列和結構存取子語法。 `LIKE`之類的字串函式將傳回`DATATYPE_MISMATCH`錯誤。
 >
 ></br>
->&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的&#x200B;**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
+&gt;訊息回饋事件資料集只會將ECID儲存在其「identityMap」中。 如果受影響的設定檔由自訂名稱空間而非ECID識別，請先解析ECID：導覽至AEP中的**設定檔**，使用自訂名稱空間和身分值搜尋設定檔，然後從設定檔的身分詳細資料擷取ECID。 在上述查詢中使用該ECID值。
 
 ### feedbackStatus值
 
@@ -1133,4 +1128,6 @@ ORDER BY timestamp ASC
 `sent`的`feedbackStatus`確認Journey Optimizer已成功將通知傳遞至APN。 它&#x200B;**不**&#x200B;會確認已在裝置上轉譯即時活動。
 
 當通知離開APN時，iOS不提供回呼。 無法從資料集中觀察裝置端失敗，例如作業系統限制、APN與裝置之間的網路中斷，或達到8小時的即時活動持續時間限制。 如果`feedbackStatus`是`sent`，但裝置上未出現任何上線活動，則問題不屬於Journey Optimizer管道。 使用Assurance外掛程式或應用程式層級記錄來診斷裝置端行為。
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 
