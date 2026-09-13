@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -410,3 +410,5 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 >* [傳送時間最佳化](../building-journeys/send-time-optimization.md) — 預測並最佳化每個人的訊息傳送時間。
 >* 用於決策的[AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自動排名和個人化優惠。
 >* [使用MCP使用者端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP伺服器查詢Claude Web、Claude Desktop或Cursor的行銷活動、歷程和優惠方案。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}

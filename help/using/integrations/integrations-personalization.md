@@ -12,7 +12,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1311
 ht-degree: 1%
@@ -264,3 +264,5 @@ Target傳送API傳回`prefetch.mboxes`陣列。 每個mbox包含具有`content`�
 此影片說明&#x200B;**整合**&#x200B;如何將Adobe Journey Optimizer連線至外部API，以便您可以將即時資料和內容提取至&#x200B;**傳出頻道**&#x200B;電子郵件、簡訊和推播，以進行更相關的個人化。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484129/?captions=chi_hant&learn=on)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations-personalization.md}}

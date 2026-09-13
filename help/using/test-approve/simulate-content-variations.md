@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 884
 ht-degree: 1%
@@ -136,3 +136,5 @@ ht-degree: 1%
 * **[!UICONTROL 轉譯電子郵件]** — 預覽您的電子郵件在常見電子郵件使用者端與裝置間的轉譯方式。 [了解更多](../content-management/rendering.md)
 * **[!UICONTROL 傳送校樣]** — 傳送一或多個變體的校樣給一組電子郵件收件者。 按一下&#x200B;**[!UICONTROL 傳送校樣]**、新增最多10個收件者地址、選取要包含的變體，然後按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;以進行確認。 若要檢閱先前傳送的校樣，請按一下&#x200B;**[!UICONTROL 檢視校樣]**。 [了解更多](../content-management/proofs.md)
 * **[!UICONTROL 檢視設定詳細資料]** — 檢閱套用至此內容的頻道設定。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

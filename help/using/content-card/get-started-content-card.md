@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 100%
@@ -94,3 +94,4 @@ ht-degree: 100%
 * **[內容卡報告](content-card-report.md)** - 使用詳細的量度和深入分析追蹤並分析內容卡績效。
 * **[內容卡教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - 探索內容卡功能與最佳做法的逐步教學課程影片。
 
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-get-started-content-card.md}}

@@ -25,7 +25,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 7%
@@ -167,3 +167,5 @@ Journey Optimizer提供三種以不同方式啟動的行銷活動型別，並處
 * [開始使用行銷活動](../campaigns/get-started-with-campaigns.md) — 瞭解三種行銷活動型別（動作、API觸發、協調）以及何時使用各型別。
 * [衝突管理與優先順序](../conflict-prioritization/gs-conflict-prioritization.md) — 瞭解如何使用規則集、頻率限定、優先順序分數和無訊息時數，以避免過度傳訊。
 * [開始使用通訊頻道](../channels/gs-channels.md) — 瀏覽所有可用的頻道、其先決條件以及如何設定它們。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-terminology.md}}

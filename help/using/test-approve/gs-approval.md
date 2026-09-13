@@ -17,7 +17,7 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
@@ -148,3 +148,5 @@ ht-degree: 100%
 * **[請求核准](request-approval.md)** - 了解如何提交內容以供核准及追蹤核准狀態。
 * **[審閱及核准請求](review-approve-request.md)** - 了解如何以核准者身分審閱、核准或拒絕核准請求。
 * **[模擬內容變化版本](simulate-sample-input.md)** - 按一下&#x200B;**[!UICONTROL 模擬內容]**，以使用範例輸入資料、AI 自動產生或模擬的使用者來測試內容變化版本。 按一下&#x200B;**[!UICONTROL 模擬內容]**，然後從下拉式清單中選取&#x200B;**[!UICONTROL 模擬內容 (AEP 輪廓)]**，以使用測試輪廓預覽。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-gs-approval.md}}

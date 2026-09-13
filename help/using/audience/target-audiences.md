@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ ht-degree: 10%
 如果您需要定位非支援對象（例如Customer Journey Analytics對象）的設定檔，則需要將其包裝在對象入口網站的新區段定義中。 [區段產生器檔案](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}提供了如何在區段定義中新增對象的詳細資訊
 
 完成後，請等待區段評估完成，以便用於您的歷程和行銷活動。
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

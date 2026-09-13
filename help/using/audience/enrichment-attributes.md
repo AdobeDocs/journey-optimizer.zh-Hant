@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 595
 ht-degree: 9%
@@ -111,3 +111,5 @@ ht-degree: 9%
 目前不支援。 即使在等待或事件節點之後，擴充屬性值仍會維持與歷程開始時的相同。
 
 +++
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-enrichment-attributes.md}}

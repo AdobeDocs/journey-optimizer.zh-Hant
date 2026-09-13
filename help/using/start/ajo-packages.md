@@ -13,7 +13,7 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1995
 ht-degree: 2%
@@ -281,3 +281,5 @@ ht-degree: 2%
 - **檢查功能可用性** — 檢視哪些功能已上線、其生命週期狀態(GA / LA / Beta)以及何時出貨。 [功能可用性](ajo-features-availability.md)
 - **尋找正確的使用案例** — 將您的參與目標對應至支援這些目標的功能。 [使用案例指南](ajo-use-case-guide.md)
 - **設定您的頻道** — 一旦您知道您擁有哪些附加元件，請設定您需要的頻道： [電子郵件](../email/get-started-email.md)、[推播通知](../push/get-started-push.md)、[簡訊/多媒體簡訊](../mobile/get-started-mobile.md)、[應用程式內傳訊](../in-app/get-started-in-app.md)、[內容卡](../content-card/get-started-content-card.md)、[網頁頻道](../web/get-started-web.md)以及[程式碼型體驗](../code-based/get-started-code-based.md)。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ajo-packages.md}}

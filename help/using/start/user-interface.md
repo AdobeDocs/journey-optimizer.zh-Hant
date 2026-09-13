@@ -31,7 +31,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1624
 ht-degree: 95%
@@ -389,3 +389,5 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_admin_sms_webhook_relay_url"
 >title="轉送目標 URL"
 >abstract="用於轉送每個傳入訊息的 HTTPS 端點 Journey Optimizer 呼叫。 Journey Optimizer 會針對收到的每則訊息將個別 HTTP POST 傳送到此處。 這與「自訂驗證」下方的「驗證 URL」不同，後者僅用於取得存取權杖，而非接收訊息。"
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1784
 ht-degree: 0%
@@ -271,3 +271,5 @@ Journey Optimizer可讓您選擇在插入片段時使用的變數，如此一來
    > 如果您未選取變數，或是在變數支援可用之前新增片段，Journey Optimizer會在傳送時自動使用&#x200B;**主要**&#x200B;變數。
 
 插入含有變數的片段後，在Adobe Experience Manager中重新發佈該片段，並自動在作用中行銷活動或歷程中每&#x200B;**個引用的變數**&#x200B;更新一次。 預覽和校訂仍使用您選擇的變數，以及該變數的最新發佈內容。
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments.md}}

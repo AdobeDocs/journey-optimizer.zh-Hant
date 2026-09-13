@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 2590
 ht-degree: 26%
@@ -421,3 +421,5 @@ Adobe會在到期前60天自動輪換憑證。 先前的憑證有效期至到期
 >[!CAUTION]
 >
 >設定自訂動作的自訂驗證時，請注意，巢狀JSON物件（例如`bodyParams`內的子物件）是&#x200B;**支援**。
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-external-data-sources.md}}

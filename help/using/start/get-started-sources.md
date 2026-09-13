@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Adobe Journey Optimizer 使用 Adobe Experience Platform 的來源框架。 以�
 * 瞭解[資料對應和轉換](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/home){target="_blank"}
 * 瞭解如何[在歷程中使用匯入的資料](../building-journeys/journey-gs.md)
 * 檢閱[開始使用資料管理](../data/gs-data.md)概觀，瞭解來源如何融入 Journey Optimizer 的完整資料設定
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

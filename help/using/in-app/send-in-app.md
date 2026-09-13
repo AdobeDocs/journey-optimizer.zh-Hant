@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 436
 ht-degree: 12%
@@ -96,3 +96,5 @@ ht-degree: 12%
 * [設計應用程式內訊息](design-in-app.md)
 * [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-send-in-app.md}}

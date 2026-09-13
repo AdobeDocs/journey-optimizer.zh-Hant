@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ DOCAC-10977
 * 如果您接近畫布上的節點限制，請考慮使用動態引數或內容來合併動作，以提供適當的內容而非明確的節點。
 
 * 如果您有批次區段(A)的&#x200B;**讀取對象**&#x200B;歷程，且在歷程中使用inAudience串流區段(B)來排除（即執行A-B），請考慮將該邏輯移至分段邏輯，並將排除當做分段邏輯本身的一部分。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

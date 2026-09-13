@@ -25,7 +25,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 1158
 ht-degree: 11%
@@ -166,3 +166,5 @@ Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受�
 瞭解Journey Optimizer如何使用規則產生閱聽眾，並瞭解如何使用屬性、事件和現有閱聽眾來建立閱聽眾。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430328?captions=chi_hant&quality=12)
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-a-segment-definition.md}}

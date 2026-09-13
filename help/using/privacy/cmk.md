@@ -27,7 +27,7 @@ feature_v2:
 subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 287250716d690c6d4ca23d1237b96a1d60b15c2b
 workflow-type: tm+mt
 source-wordcount: 312
 ht-degree: 100%
@@ -60,3 +60,5 @@ Journey Optimizer 的設定流程包含兩個部分，運用 Adobe Experience Pl
 Adobe Experience Platform 與客戶託管金鑰會在傳輸和存放時將資料加密，確保資料的安全性。 無論是否使用客戶託管金鑰，您的資料都會受到保護。
 
 如需在 Adobe Experience Platform 進行資料加密的詳細資訊，請參閱資料加密[文件](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/encryption.html?lang=zh-Hant){target="_blank"}。
+
+{{$include /help/_includes/do-not-localize/privacy/ai-augmented-cmk.md}}

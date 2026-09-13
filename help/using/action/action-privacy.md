@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +152,5 @@ ht-degree: 100%
 此對話框指出目前的歷程/行銷活動設定違反現有的資料治理原則。 使用資料譜系圖表，即可了解在啟用歷程或行銷活動之前，還必須進行哪些其他設定變更。
 
 如需詳細資訊，請參閱[資料使用原則違規文件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}。
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}

@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -77,3 +77,5 @@ Adobe Experience Platform 資料來源會定義和 Adobe 即時客戶設定檔�
 >[!TIP]
 >
 >將滑鼠懸停在欄位群組的名稱上，可在右側顯示兩個圖示。 使用這些來&#x200B;**複製**&#x200B;或&#x200B;**刪除**&#x200B;欄位群組。 請注意，**[!UICONTROL 刪除]**&#x200B;圖示只有在任何&#x200B;**即時**、**草稿**&#x200B;或&#x200B;**已完成**&#x200B;歷程中未使用欄位群組時才可用。 請參考&#x200B;**[!UICONTROL 用於]**&#x200B;欄位以檢查情況是否如此。
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}

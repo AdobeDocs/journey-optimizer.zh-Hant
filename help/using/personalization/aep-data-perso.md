@@ -24,10 +24,10 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 1335
-ht-degree: 1%
+source-wordcount: 784
+ht-degree: 2%
 
 ---
 
@@ -125,71 +125,4 @@ Journey Optimizer可讓您利用個人化編輯器中Adobe Experience Platform�
 
    ![](assets/aep-data-sample.png)
 
-## 快速參考 {#quick-reference}
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
->[!BEGINTABS]
-
->[!TAB 概觀]
-
-**TL；DR**
-
-此頁面會教導如何在Journey Optimizer個人化編輯器中使用`datasetLookup`協助程式功能，以從Adobe Experience Platform記錄資料集中擷取欄位，並將這些欄位整合到訊息個人化中。
-
-**個意圖**
-
-* 啟用AEP記錄資料集，以進行查詢個人化
-* 將`datasetLookup`協助程式功能新增至個人化運算式
-* 使用資料集ID、加入金鑰、結果別名和必要的旗標來設定函式
-* 使用結果別名參考個人化運算式中擷取的資料集欄位
-* 使用模擬內容流程測試個人化內容
-
->[!TAB 字彙]
-
-* **datasetLookup**：個人化編輯器中的協助程式函式，透過加入指定索引鍵從AEP記錄資料集中擷取欄位值。 *（產品特定）*
-* **記錄資料集**： Adobe Experience Platform資料集型別包含可啟用查詢個人化的記錄層級資料。 *（產品特定）*
-* **查詢個人化**：在傳送時從AEP記錄資料集擷取欄位，以個人化訊息內容的程式。 *（產品特定）*
-* **結果引數**：在`datasetLookup`呼叫中指派的任意別名；用來參照後續運算式中所有擷取的欄位值（例如`{{result.fieldId}}`）。
-* **必要的引數**： `datasetLookup`中的布林值旗標，可控制訊息傳遞是否需要要在資料集中找到相符的索引鍵。
-
->[!TAB 術語]
-
-* **正式名稱：** datasetLookup — 變體：資料集查詢、資料集查詢協助程式、資料集查詢協助程式函式
-* **同義字：** &quot;datasetLookup&quot; = &quot;dataset lookup helper function&quot;
-* **請勿混淆：** 「datasetId」（AEP資料集的識別碼）≠「id」（用來聯結資料集主要身分的來源資料行）≠「result」（參考擷取欄位值的別名）
-
->[!TAB 護欄與限制]
-
-* 功能目前處於「有限可用性」 — 尚未普遍提供給所有客戶。
-* 運算式片段中的`datasetLookup`協助程式函式僅供有限的客戶集使用；請聯絡您的Adobe代表以取得存取權。
-* 資料集必須明確啟用查詢個人化功能，才能與`datasetLookup`搭配使用。
-* 將每`datasetLookup`次呼叫擷取的欄位數保持在50以下，以避免影響輸送量（建議限制 — 頁面上未說明硬性限制）。
-
->[!TAB 常見問題集]
-
-**問： `datasetLookup`協助程式函式是什麼？**
-
-這是個人化編輯器中的協助程式功能，可擷取Adobe Experience Platform記錄資料集中的欄位值，讓您將該資料併入訊息個人化。
-
-**問：如果在資料集中找不到`required=false`和相符的索引鍵，會發生什麼情況？**
-
-訊息仍可傳送。 在使用`required=false`時，建議考慮訊息內容中的遞補或預設值。
-
-**問：如果找不到`required=true`和相符的金鑰，會發生什麼情況？**
-
-只有在資料集中找到相符的索引鍵時，才會傳遞訊息。
-
-**問：在哪裡可以找到語法所需的資料集ID和欄位ID？**
-
-可在Adobe Experience Platform UI中的「資料集」下擷取資料集ID。 在AEP UI中預覽資料集和瀏覽記錄結構描述時，會顯示欄位ID。
-
-**問：如何測試使用`datasetLookup`的內容？**
-
-使用&#x200B;**模擬內容**&#x200B;按鈕以使用範例輸入資料或AI自動產生進行測試，或從下拉式清單中選取&#x200B;**模擬內容（AEP設定檔）**，以使用測試設定檔預覽。
-
->[!ENDTABS]
-
-<!-- ai-section-version: 1 | source-hash: 89d99e47 -->
+{{$include /help/_includes/do-not-localize/personalization/ai-augmented-aep-data-perso.md}}

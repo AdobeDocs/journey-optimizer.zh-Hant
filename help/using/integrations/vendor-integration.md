@@ -11,7 +11,7 @@ keywords: 整合，廠商，協力廠商
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 10212
 ht-degree: 5%
@@ -967,7 +967,7 @@ Salesforce忠誠度管理會公開Salesforce平台上的REST API，供成員、�
 
 +++
 
-### 毛細管 {#capillary}
+### Capillary {#capillary}
 
 >[!IMPORTANT]
 >
@@ -2220,7 +2220,7 @@ Meta Graph和Marketing API會公開目錄和促銷活動物件，以進行授權
 | 參數 | 名稱 | 類型 | 值 | 強制 |
 | --- | --- | --- | --- | --- |
 | `fields` | `fields` | 變數 | id | 否 |
-| `filter` | `filter` | 變數 | — | 無 |
+| `filter` | `filter` | 變數 | — | 否 |
 
 +++
 
@@ -2408,3 +2408,4 @@ Epsilon會根據企業合約公開API；基本URL和驗證來自您的帳戶團�
 
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration.md}}

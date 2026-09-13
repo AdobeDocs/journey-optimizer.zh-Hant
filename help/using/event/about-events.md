@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 15%
@@ -268,3 +268,5 @@ Adobe Journey Optimizer會在組織層級，對所有沙箱針對每個事件型
 瞭解業務事件的適用使用案例。 瞭解如何使用業務事件建立歷程，以及套用哪些最佳實務。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-about-events.md}}

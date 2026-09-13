@@ -26,10 +26,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1422
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 * 輪廓存放區中的資料為 90 天
 * 資料湖中的資料為 13 個月
 
-此變更將從&#x200B;**2026年10月1日**&#x200B;開始強制在&#x200B;**現有客戶沙箱**&#x200B;上執行。
+此變更將從&#x200B;**2026 年 10 月 1 日**&#x200B;開始，強制在&#x200B;**現有客戶沙箱**&#x200B;中執行。
 
 ## 受影響的資料集 {#datasets}
 
@@ -72,7 +72,7 @@ ht-degree: 13%
 | 傳入歷程 | 已包含 | 不適用 | 不適用 |
 | AJO分類資料集 | 已包含 | 不適用 | 不適用 |
 | AJO管道追蹤事件資料集 | 已包含 | 13 個月 | 90 天 |
-| Adobe忠誠度挑戰狀態變更事件資料集 | 需要Journey Optimizer忠誠度授權 | 13 個月 | 不適用 |
+| Adobe忠誠度挑戰狀態變更事件資料集 | 需要Journey Optimizer Loyalty授權 | 13 個月 | 不適用 |
 | AJO訊息匯出資料集 | 需要訊息匯出附加元件 | 30 天 | 不適用 |
 | AJO訊息事件中繼資料資料資料集 | 需要訊息匯出附加元件 | 30 天 | 不適用 |
 
@@ -189,3 +189,5 @@ Journey Optimizer系統產生的資料集受到保護，且無法透過標準Ado
 
 
 +++
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-datasets-ttl.md}}

@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 0%
@@ -163,3 +163,5 @@ Adobe Experience Manager內容警告器提供下列內容片段功能：
    ![](assets/content-advisor-13.png){zoomable="yes"}
 
 1. 瀏覽並選取您要使用的資產或內容片段，然後將其插入您的內容。
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-content-advisor.md}}

@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 1012
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 3%
 
 ---
 
@@ -94,44 +94,4 @@ Adobe Experience Platform資料來源會定義與Adobe即時客戶個人檔案�
 
 ![](assets/computed-attributes-ajo.png)
 
-+++ AI知識參考
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
-- **TL；DR：**&#x200B;瞭解如何在Adobe Experience Platform上建立計算屬性，並在Journey Optimizer中運用這些屬性進行細分、個人化和歷程邏輯。
-
-**意圖：**
-- 瞭解什麼是計算屬性，以及它們與標準設定檔屬性的差異
-- 結合事件屬性、彙總函式和回顧期間來建立計算屬性
-- 將SystemComputedAttributes欄位群組新增至AJO中的Experience Platform資料來源
-- 在歷程條件、對象建立和訊息個人化中使用計算屬性
-
-**字彙表：**
-- **計算屬性**：從彙總行為事件資料衍生的設定檔屬性，儲存在客戶設定檔&#x200B;*（產品特定）*&#x200B;中
-- **回顧期間**：計算計算屬性的彙總規則（例如「過去3個月」）時所套用的時間範圍&#x200B;*（產品特定）*
-- **SystemComputedAttributes欄位群組**： Experience Platform資料來源中的欄位群組，會公開所有已發佈的運算屬性，以用於歷程和個人化&#x200B;*（產品特定）*
-- **設定檔聯合結構描述**：合併特定身分的所有設定檔片段的合併結構描述，其中儲存計算屬性
-
-**護欄：**
-- 需要&#x200B;**檢視計算屬性**&#x200B;和&#x200B;**管理計算屬性**&#x200B;許可權才能存取此功能
-- 計算屬性必須先在AEP中&#x200B;**發佈**，才能在Journey Optimizer下游使用
-- 計算屬性必須先明確新增至AJO中的&#x200B;**Experience Platform資料來源**，才能用於歷程或個人化
-- 運算屬性以擷取至Adobe Experience Platform的設定檔已啟用體驗事件資料集為基礎
-
-**術語：**
-- 正式名稱：Adobe Journey Optimizer — 縮寫：AJO — 變體：Journey Optimizer、A-JO
-- 正式名稱：Adobe Experience Platform — 首字母縮寫：AEP
-- 同義字：「computed attributes」=「computed profile attributes」
-- 請勿混淆：「計算屬性」（AEP/AJO專屬彙總功能）≠通用「設定檔屬性」
-
-**常見問題集：**
-- **問：什麼是計算屬性？**  — 彙總的行為事件資料（例如購買總計、上次檢視的專案）會儲存在AEP上的設定檔屬性，並可在AJO中使用。
-- **問：我需要特殊許可權嗎？**  — 是：「檢視計算屬性」和「管理計算屬性」都是必要的。
-- **問：如何在Journey Optimizer中使用運算屬性？**  — 將`SystemComputedAttributes`欄位群組新增至[設定] > [資料來源]下的Experience Platform資料來源。
-- **問：我可以在哪裡使用AJO的計算屬性？**  — 在「條件」活動（歷程分割）、建立對象和個人化編輯器中。
-- **問：什麼是回顧期間？**  — 用來設定彙總規則範圍的時間範圍，例如「過去3週內的購買總和」。
-- **問：我可以在即時歷程中使用運算屬性嗎？**  — 是，發佈並新增至資料來源後，即可像存取任何其他設定檔屬性一樣存取它們。
-
-+++
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-computed-attributes.md}}

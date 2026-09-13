@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ ht-degree: 5%
 * 對於電子郵件，歷程可對點按、傳送、開啟或失敗的訊息做出反應。 [進一步瞭解回應事件](../building-journeys/reaction-events.md)。
 
 使用協力廠商系統傳送訊息時，您必須新增並設定自訂動作。 [進一步瞭解自訂動作組態](../action/about-custom-action-configuration.md)。
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

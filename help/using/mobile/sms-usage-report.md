@@ -10,7 +10,7 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 500
 ht-degree: 27%
@@ -90,3 +90,5 @@ SMS使用報告透過短程式碼呈現行動來源(MO)和行動終止(MT)的磁
      ![](assets/usage_report_3.png)
 
 1. 若要匯出報表，請按一下&#x200B;**[!UICONTROL 下載CSV]**。 Journey Optimizer會下載您檢視之報表的CSV檔案。
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-sms-usage-report.md}}

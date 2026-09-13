@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1133,4 +1133,6 @@ ORDER BY timestamp ASC
 `sent`的`feedbackStatus`確認Journey Optimizer已成功將通知傳遞至APN。 它&#x200B;**不**&#x200B;會確認已在裝置上轉譯即時活動。
 
 當通知離開APN時，iOS不提供回呼。 無法從資料集中觀察裝置端失敗，例如作業系統限制、APN與裝置之間的網路中斷，或達到8小時的即時活動持續時間限制。 如果`feedbackStatus`是`sent`，但裝置上未出現任何上線活動，則問題不屬於Journey Optimizer管道。 使用Assurance外掛程式或應用程式層級記錄來診斷裝置端行為。
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 

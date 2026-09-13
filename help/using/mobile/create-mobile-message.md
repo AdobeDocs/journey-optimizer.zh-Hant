@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 889
 ht-degree: 18%
@@ -83,7 +83,7 @@ ht-degree: 18%
 
    ![](assets/sms_create_2.png)
 
-1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [進一步了解](../conflict-prioritization/channel-capping.md)
+1. 此外，您可以選取&#x200B;**[!UICONTROL 商業規則]**&#x200B;下拉式清單中的規則集，將上限規則套用至行動訊息動作。 [了解更多](../conflict-prioritization/channel-capping.md)
 
 1. 選取&#x200B;**[!UICONTROL 編輯內容]**&#x200B;按鈕，並視需要建立您的內容。 [了解更多](design-mobile.md)
 
@@ -113,7 +113,7 @@ ht-degree: 18%
 
 1. 在&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段中，指定是否要追蹤行動訊息中連結的點按次數。
 
-1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多資訊](../audience/about-audiences.md)。
+1. 在「**[!UICONTROL 對象]**」標籤中，按一下「**[!UICONTROL 選取對象]**」按鈕，從可用的Adobe Experience Platform對象清單定義要定位的對象。 [了解更多](../audience/about-audiences.md)。
 
 1. 在&#x200B;**[!UICONTROL 身分識別名稱空間]**&#x200B;欄位中，選擇要使用的名稱空間，以識別所選對象中的個人。 [了解更多](../event/about-creating.md#select-the-namespace)。
 
@@ -140,3 +140,4 @@ ht-degree: 18%
 * [設定行動訊息頻道](mobile-configuration.md)
 * [行動訊息報表](../reports/journey-global-report-cja-sms.md)
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-create-mobile-message.md}}

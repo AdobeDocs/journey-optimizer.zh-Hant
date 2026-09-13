@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 19%
@@ -183,3 +183,5 @@ SMS子網域設定是&#x200B;**在所有環境之間共用**。 因此，對SMS�
 >SMS子網域可以指向CNAME記錄，因為它是使用[CNAME方法](../configuration/delegate-subdomain.md#cname-subdomain-setup)委派給Adobe的[現有子網域](#sms-use-existing-subdomain)，或是您設定的[新SMS子網域](#sms-configure-new-subdomain)。
 
 Adobe處理您的請求後，未委派網域不再顯示在子網域詳細目錄頁面上。
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-subdomains.md}}

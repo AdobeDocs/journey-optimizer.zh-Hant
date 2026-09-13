@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1313
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 18%
 
 SMS、MMS和RCS最適合您在需要可靠地聯絡使用者時使用，無論使用者已安裝您的應用程式或可使用網際網路連線。
 
-| 優點 | 原因 | 範例使用案例 |
+| 優點 | 原因 | 使用案例範例 |
 | --- | --- | --- |
 | 最大觸及率和即時性 | 接收訊息不需要應用程式或網際網路連線 | 在未安裝智慧型手機應用程式的情況下聯絡使用者 |
 | 有保證的可見度 | 簡訊的開放率超過90% | OTP代碼、約會提醒、傳遞通知 |
@@ -66,9 +66,9 @@ SMS、MMS和RCS最適合您在需要可靠地聯絡使用者時使用，無論�
 | 高度緊急的CTA | 直接傳送給裝置使用者，使用者經常檢查 | 快閃銷售、詐騙警示、服務中斷通知 |
 | 使用其他色版分層 | 補充推播、電子郵件和應用程式內傳訊，以擴大涵蓋範圍 | 以SMS作為遞補頻道的多頻道歷程 |
 
-## 何時不使用 {#when-not-to-use}
+## 不適用情境 {#when-not-to-use}
 
-SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況下考慮另一個管道：
+SMS、MMS和RCS並不一定是最有效率或適當的選擇。 在下列情況下，建議考慮採用其他管道：
 
 * 成本是高傳送量時的考量，因為簡訊和多媒體簡訊是按訊息計費，且每訊息成本會快速大規模增加
 * 內容是長式或複雜的，更適合電子郵件，支援更豐富的格式和較長的文字
@@ -229,3 +229,5 @@ RCS訊息會出現在與標準SMS訊息相同的位置 — 在裝置的原生訊
 >[!VIDEO](https://video.tv.adobe.com/v/3464766?captions=chi_hant)
 
 +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-get-started-mobile.md}}

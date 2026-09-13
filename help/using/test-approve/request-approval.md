@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +72,5 @@ ht-degree: 0%
 ![已要求變更通知](assets/changes-requested.png)
 
 若要處理變更請求，請從電子郵件或警報中將其開啟，以存取歷程或促銷活動，並進行請求的變更。 當您的歷程/行銷活動準備好再次接受檢閱時，請使用&#x200B;**[!UICONTROL 請求核准]**&#x200B;按鈕傳送新的核准請求。
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}
