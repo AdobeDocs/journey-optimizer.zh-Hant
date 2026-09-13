@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AI知識參考區塊
 
-此技能會產生並維護的&#x200B;**AI知識參考**摺疊式功能表區塊
+此技能會產生並維護的&#x200B;**AI知識參考**&#x200B;摺疊式功能表區塊
 Adobe Journey Optimizer檔案(`journey-optimizer.en`)。 區塊結構化，
 附加至檔案頁面的非本地化內容，讓AI助理回答以下問題：
 Journey Optimizer更準確。
@@ -25,7 +25,7 @@ Journey Optimizer更準確。
 > - `references/generation-spec.md` — 區塊結構，固定開口，逐段
 >   內容規則和每個精確度規則(硬式與建議限制、驗證模式、
 >   狀態標籤、無縮寫、禁止單詞清單)。
-> - `references/verification-round.md` — **強制**獨立對手事實檢查
+> - `references/verification-round.md` — **強制**&#x200B;獨立對手事實檢查
 >   這是最後的品質閘道。 這不是選用專案，無法略過。
 > - `references/git-jira-tracking.md` — 分支/認可/PR流程(在開啟
 >   PR；**絕不合併**)和DOCAC JIRA追蹤。
@@ -71,7 +71,7 @@ Journey Optimizer更準確。
 md5 -q help/using/<folder>/<page>.md | cut -c1-8
 ```
 
-在編輯頁面&#x200B;**之前**計算它（雜湊會覆蓋內文，如同區塊所在時一樣）
+在編輯頁面&#x200B;**之前**&#x200B;計算它（雜湊會覆蓋內文，如同區塊所在時一樣）
 （已產生）。 在Linux上使用`md5sum help/using/<folder>/<page>.md | cut -c1-8`。
 
 ### 2 — 產生（或重新整理）區塊
@@ -81,7 +81,7 @@ md5 -q help/using/<folder>/<page>.md | cut -c1-8
 - 兩個&#x200B;**固定開啟段落**，逐字重複，逐位元組（從未轉譯）。
 - 節順序： **TL；DR、意圖、字彙表、護欄、術語、常見問題集**。
 - 只以頁面本文為根據的每個宣告。 無收縮。 限定數字為
-  `(hard limit)` / `(recommended)` **僅**當頁面使用強制執行/建議時
+  `(hard limit)` / `(recommended)` **僅**&#x200B;當頁面使用強制執行/建議時
   用詞；否則就沒有限定詞。 使用頁面的確切驗證模式和狀態標籤。
   保留`[!UICONTROL ...]` / `[!DNL ...]`字串。 絕對不要使用禁止的不精確度
   除非字詞在頁面上逐字出現。

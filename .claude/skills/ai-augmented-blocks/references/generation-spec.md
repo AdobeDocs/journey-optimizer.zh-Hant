@@ -95,7 +95,7 @@ For complete understanding, this information should be combined with the documen
 ### &#x200B;4. 護欄
 頁面上所述的限制、必要條件、許可權、限制。
 
-- **將每個數值限制**&#x200B;限定為`(hard limit)`或`(recommended)` — 但&#x200B;**僅限**當
+- **將每個數值限制**&#x200B;限定為`(hard limit)`或`(recommended)` — 但&#x200B;**僅限**&#x200B;當
 頁面使用強制措辭（錯誤/已拒絕/上限/不能超過/僅限……支援）
 或建議用語（為獲得最佳效能/建議使用）。 如果頁面未提供
 限定詞，不提供。 **永遠不要將可產生、預設或可設定的值標示為實數。**
@@ -103,7 +103,7 @@ For complete understanding, this information should be combined with the documen
   `(default)`，不是硬式。
 - **將每個輸送量/速率數字限定為其範圍** （每個沙箱/每個組織/每個執行個體）。
 - **對照頁面內文交叉檢查每個數字。** 頁面本文是權威的。
-- **請勿推斷**頁面未顯示的護欄。 無中繼註解(「此頁面不
+- **請勿推斷**&#x200B;頁面未顯示的護欄。 無中繼註解(「此頁面不
 指定……」)。
 
 ### &#x200B;5. 術語
@@ -112,7 +112,7 @@ For complete understanding, this information should be combined with the documen
 - **同義字** (`"A" = "B"`)僅適用於&#x200B;**true等同專案** — 兩個表單都必須出現在頁面上
 意思是一樣的。 任何*對比*&#x200B;低於&#x200B;**請勿混淆**
 (`"X" ≠ "Y"`)，不是同義字。
-- **狀態/生命週期精確度：**從頁面本文複製精確的狀態標籤；不要
+- **狀態/生命週期精確度：**&#x200B;從頁面本文複製精確的狀態標籤；不要
 轉述。 使用「請勿混淆」來分隔共用根字的狀態。
 
 ### &#x200B;6. 常見問題集
@@ -154,5 +154,5 @@ For complete understanding, this information should be combined with the documen
 - [ ]沒有禁止的字詞/沒有縮寫（在逐字UI字串之外）。
 - [ ]字彙表沒有泛用術語；常見問題集不會引入頁面中缺少的內容。
 
-閘門1是檢查自己工作的區塊作者。 它&#x200B;**不會**取代
+閘門1是檢查自己工作的區塊作者。 它&#x200B;**不會**&#x200B;取代
 `verification-round.md`中的獨立驗證回合（閘門2）。
