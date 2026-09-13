@@ -9,28 +9,13 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -123,7 +108,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程分析技能 {#journey-analyze-skill}
 
-[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
+[歷程分析代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
 
 +++**主要功能**
 
@@ -146,7 +131,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程建立技能 {#journey-create-skill}
 
-[歷程建立代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
 
 +++**主要功能**
 
@@ -364,7 +349,7 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 
 +++
 
-[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## 常見問題 {#faq}
 
@@ -410,3 +395,5 @@ Adobe Journey Optimizer可以自動分析[決策規則](../experience-decisionin
 >* [傳送時間最佳化](../building-journeys/send-time-optimization.md) — 預測並最佳化每個人的訊息傳送時間。
 >* 用於決策的[AI模型](../experience-decisioning/ranking/ai-models.md) — 使用AI排名模型自動排名和個人化優惠。
 >* [使用MCP使用者端](../integrations/ajo-mcp.md) — 使用Journey Optimizer MCP伺服器查詢Claude Web、Claude Desktop或Cursor的行銷活動、歷程和優惠方案。
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}
