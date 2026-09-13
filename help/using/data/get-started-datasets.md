@@ -45,7 +45,7 @@ ht-degree: 98%
 
 ## 護欄 &amp; 限制
 
-* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}每日上限的使用案例說明。
+* 自 2024 年 11 月 1 日起，串流分段已不再支援來自 [!DNL Journey Optimizer] 追蹤、回饋資料集的傳送、開啟事件。 針對實作頻率上限或疲勞管理部分，請改用企業規則。 您可在[本章節](../conflict-prioritization/rule-sets.md)中找到更多詳細資料，包括[此處](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=zh-Hant){target="_blank"}每日上限的使用案例說明。
 
 * 自 2025 年 2 月起，存留時間 (TTL) 護欄正推廣至 Journey Optimizer 系統產生的資料集。 [了解更多](datasets-ttl.md)
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
 * 報表
 
-  * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取，預期最多有 2 小時的資料延遲。** 如需欄位層級定義和路徑，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。 如需SQL報表範例，請參閱[資料集查詢範例](../data/datasets-query-examples.md)。
+  * _報告 - 訊息意見事件資料集_：訊息傳遞記錄檔。 有關用於報告與客群建立目的，而從 Journey Optimizer 傳遞之所有訊息的資訊。 電子郵件 ISP 對退回郵件的意見也會記錄在此資料集。 **此資料集使用批次擷取，預期最多有 2 小時的資料延遲。** 如需欄位層級定義和路徑，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。 如需SQL報表範例，請參閱[資料集查詢範例](../data/datasets-query-examples.md)。
   * _報告 - 電子郵件追蹤體驗事件資料集_：電子郵件管道的互動記錄，以及 `whatsAppChannelContext` 欄位群組下的 WhatsApp 管道內容資料。 用於報告和建立客群。 儲存的資訊包含終端使用者在電子郵件和 WhatsApp 互動中執行的動作 (開啟、按一下等)。
   * _報告 - 推播追蹤體驗事件資料集_：用於報告與客群建立目的使用之推播通知頻道的互動記錄。 儲存的資訊會通知終端使用者在推播通知執行的動作。
   * _報告 - 歷程步驟事件_：擷取從 Journey Optimizer 產生的所有歷程步驟體驗事件，供報告等服務使用。 對於在 Customer Journey Analytics 建立 YoY 分析也很重要。 繫結至歷程中繼資料。

@@ -244,7 +244,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 **開始使用結構描述**
 
@@ -254,7 +254,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=zh-Hant)
 
 **使用資料集**
 
@@ -264,7 +264,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=zh-Hant)
 
 **設定資料來源**
 
@@ -274,7 +274,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=zh-Hant)
 
 **使用 Adobe Experience Platform 資料 (查詢)**
 
@@ -284,7 +284,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=zh-Hant)
 
 **開始使用查詢**
 
@@ -294,7 +294,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=zh-Hant)
 
 **開始使用輪廓**
 
@@ -304,7 +304,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 **設定資料概觀教學課程**
 
@@ -314,7 +314,7 @@ Journey Optimizer 會建立數個系統產生的資料集，用於追蹤、意�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 **建立資料集並擷取資料教學課程**
 
