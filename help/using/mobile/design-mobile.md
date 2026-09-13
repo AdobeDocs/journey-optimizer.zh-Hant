@@ -7,11 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1499
 ht-degree: 4%
@@ -226,3 +224,4 @@ RCS可讓您傳送包含影像、影片、浮動視窗和互動式按鈕的豐�
 
 一旦您執行測試並驗證內容後，您就可以將行動訊息傳送給對象。 這些步驟在[此頁面](send-mobile-message.md)上詳細說明
 
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-design-mobile.md}}
