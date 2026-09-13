@@ -165,6 +165,6 @@ Adobe Experience Platform受眾入口網站可讓您依需求針對選取的受�
 
 瞭解Journey Optimizer如何使用規則產生閱聽眾，並瞭解如何使用屬性、事件和現有閱聽眾來建立閱聽眾。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430328?captions=chi_hant&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-creating-a-segment-definition.md}}
