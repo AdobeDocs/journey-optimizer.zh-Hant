@@ -6,13 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 1%
@@ -39,15 +35,15 @@ ht-degree: 1%
 
 * **[!UICONTROL 小型影像]**：在文字旁邊顯示精簡的影像，非常適合內容優先於視覺效果的訊息。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate)[。
 
 * **[!UICONTROL 大型影像]**：在文字上方或旁顯示顯著的影像，讓視覺效果成為您訊息的主要焦點。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate)[。
 
 * **[!UICONTROL 僅限影像]**：顯示不含隨附文字的影像，非常適合視覺化訊息或獨立影像。
 
-  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template)和Android[&#128279;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)。
+  如需瞭解詳細資訊，請參閱iOS的Adobe Developer檔案[](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template)和Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate)[。
 
 ## 內容索引標籤 {#content-tab}
 
@@ -143,3 +139,5 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 ![](assets/content-card-design-6.png)
 
 在&#x200B;**[!UICONTROL 自訂資料]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL 新增索引鍵/值組]**&#x200B;以在承載中包含自訂變數。 這些索引鍵/值配對可讓您根據特定設定傳遞其他資料。 這可讓您新增個人化或動態內容、追蹤資訊，或與設定相關的任何其他資料。
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-design-content-card.md}}
