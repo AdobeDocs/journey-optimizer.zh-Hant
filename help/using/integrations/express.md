@@ -10,19 +10,13 @@ level: Beginner
 keywords: 資產，整合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 TQID: https://experienceleague.adobe.com/43x74R7p0jqfEdqkl6wLoOlez4iHmKWnCRw5K5jMW5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 615
 ht-degree: 17%
@@ -52,7 +46,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 若要進一步瞭解Adobe Express，請參閱[本檔案](https://helpx.adobe.com/tw/express/user-guide.html)。
 
-若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]&#x200B;**&#x200B;**。
+若要存取&#x200B;**[!DNL Adobe Express]**&#x200B;功能表，請從[電子郵件Designer]存取您的&#x200B;**影像設定**，然後按一下[在Adobe Express中編輯]****。
 
 ![](assets/express_1.png)
 
@@ -66,7 +60,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 ![](assets/express-licence.png)
 
-有關擁有Adobe Express企業授權的使用者可用使用案例的詳細資訊，請參閱[Adobe Express網頁檔案](https://helpx.adobe.com/tw/express/web.html)。
+有關擁有Adobe Express企業授權的使用者可用使用案例的詳細資訊，請參閱[Adobe Express網頁檔案](https://helpx.adobe.com/express/web.html)。
 
 ## 在沒有企業授權的情況下使用Adobe Express  {#edit}
 
@@ -109,7 +103,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 1. 系統會自動顯示您的資產，而不會顯示其背景。
 
-   按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。
+   按一下[套用&#x200B;****]以將此用於您的內容。
 
    ![](assets/express-background-2.png)
 
@@ -131,7 +125,7 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
    ![](assets/express-crop-2.png)
 
-1. 按一下[套用&#x200B;**&#x200B;**]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
+1. 按一下[套用&#x200B;****]以將此用於您的內容。 然後，**[!UICONTROL 儲存]**&#x200B;您修改的資產。
 
 1. 在&#x200B;**[!UICONTROL 上傳影像]**&#x200B;視窗中，按一下&#x200B;**[!UICONTROL 下一步]**，然後選取資料夾以儲存您修改的資產。
 
@@ -165,7 +159,6 @@ Adobe Journey Optimizer 中的 Adobe Express 整合讓您可以在建立內容�
 
 了解如何使用 Adobe Express 工具在 Adobe Journey Optimizer 編輯您的資產。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455534/?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
-
-
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-express.md}}

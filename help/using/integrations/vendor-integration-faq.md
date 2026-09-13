@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 keywords: 整合，常見問題集，外部資料，個人化
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 877
 ht-degree: 1%
@@ -190,3 +189,5 @@ ht-degree: 1%
 ➡️ [進一步瞭解廠商整合程式](vendor-integration.md)
 
 +++
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-vendor-integration-faq.md}}
