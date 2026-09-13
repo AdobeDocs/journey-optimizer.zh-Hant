@@ -9,8 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: 歷程，行銷活動，比較，選擇，決定，工作流程，即時，批次，協調，多步驟，已排程， API觸發，事件導向
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
 source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
 source-wordcount: 1283
