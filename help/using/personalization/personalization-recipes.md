@@ -5,14 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 18067b68e09b98e616126dd40b8ad729233c49fa
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -298,78 +295,5 @@ PQL是強型別。 當設定檔欄位儲存為字串，但您需要以數值加�
 {%= toBool(profile.consents.email.val) = true %}
 ```
 
-## 快速參考 {#quick-reference}
-
-本節包含結構化知識，用於支援與本主題相關的解譯、擷取和問答。
-
-如需完整瞭解，此資訊應結合本頁的檔案。 兩者皆非獨立來源；頁面說明功能，本節提供額外內容，以協助去除術語、意圖、適用性和限制條件的歧義。
-
->[!BEGINTABS]
-
->[!TAB 概觀]
-
-**TL；DR**
-
-此頁面提供16種立即可用的複製貼上個人化配方，涵蓋日期、陣列、字串、條件邏輯和PQL邊緣案例，適用於Journey Optimizer電子郵件、簡訊和推播內容。
-
-**個意圖**
-
-* 複製可供使用的日期/時間模式（目前日期、倒計時、位移日期、時間顯示、週末偵測）
-* 複製陣列和回圈圖樣（清單專案、前N個專案、每個專案的條件式轉譯）
-* 複製字串格式模式（清除並重複使用字串、JSON引號、大寫日期元件）
-* 複製條件邏輯模式（多重分支if/elseif/else、null安全屬性顯示）
-* 處理PQL邊緣案例（連字鍵、數值事件ID、型別脅迫）
-
->[!TAB 字彙]
-
-* **Personalization配方**：使用個人化編輯器語法，針對常見個人化使用案例的現成複製 — 貼上模式。 *（產品特定）*
-* **`formatDate`**：使用指定的格式模式（例如`"MMMM dd, yyyy"`）將日期轉換為字串的函式。
-* **`dateDiff`**：計算兩個日期之間數值差異的函式。
-* **`getCurrentZonedDateTime()`**：以時區感知格式傳回目前日期和時間的函式。
-* **`topN`**： PQL函式，依指定的數值欄位以遞減順序排序陣列，並傳回前N個專案。 必須先透過`{% let %}`指派，才能在Handlebars回圈中使用。
-* **`{% let %}`**：儲存計算值的Handlebars變數指派語法；當需要在後續Handlebars內容中參照PQL函式結果時需要。
-* **`replaceAll`**：字串函式，取代字串中所有出現的模式；傳回新的字串，而不修改原始字串。
-
->[!TAB 術語]
-
-* **正式名稱：**&#x200B;個人化配方 — 變體：模式，範本，範例，複製 — 貼上模式
-* **請勿混淆：** `{%= ... %}` （PQL運算式語法 — 已評估，傳回計算值）≠`{{...}}` （Handlebars內插 — 呈現變數或範本運算式）
-* **請勿混淆：** `{%#if%}` / `{%/if%}` （Journey Optimizer條件語法，% — 大括弧） ≠ `{{#if}}` / `{{/if}}` （標準Handlebars條件語法）
-* **不要混淆：** `topN(array, field, n)` （依欄位遞減排序，傳回前N個）≠`head(array)` （僅傳回陣列中的第一個專案）
-* **請勿混淆：** `dayOfWeek()` （用於訊息內容中，以根據日期調整顯示）≠歷程時間條件「星期」選項（用於歷程條件活動，以不同方式路由設定檔）
-* **請勿混淆：**&#x200B;日期格式模式`y` （行事曆年度 — 正確）≠`Y` （以周為基礎的年度 — 可能會在年度邊界產生非預期的結果）
-
->[!TAB 護欄與限制]
-
-* 歷程條件活動不支援`{{#each}}`；請使用集合管理函式在歷程條件中篩選陣列。
-* 僅在PQL運算式(`{%= ... %}`)中支援連字屬性索引鍵的反勾逸出；純Handlebars內插(`{{...}}`)中不接受反勾號。
-* `topN`是PQL函式，必須指派給`{% let %}`變數，才能用作`{{#each}}`回圈目標。
-* 在`{%#if%}`區塊內使用回圈變數時，請宣告具名回圈別名（例如`as |order|`）；`{%#if%}`內的PQL評估程式並未解析`this.status`。
-* 在日曆年度的`formatDate`模式中使用小寫`y`；`Y` （以周為基礎的年度）可能會在年終邊界產生非預期的值。
-
->[!TAB 常見問題集]
-
-**問：個人化中的`{%= ... %}`和`{{...}}`之間有何差異？**
-
-`{%= ... %}`是PQL運算式語法 — 經過評估並傳回計算值（數字、字串、布林值）。 `{{...}}`是Handlebars內插 — 它呈現變數或範本運算式。 兩者都會出現在個人化內容中，但用途不同。
-
-**問：如何在Handlebars `{{#each}}`回圈中使用PQL函式結果？**
-
-使用`{% let variableName = pqlFunction(...) %}`將PQL函式結果指派給變數，然後使用`{{#each variableName}}`來反複處理。
-
-**問：`{{#each}}`是否可用於歷程條件活動？**
-
-沒有。 `{{#each}}`僅可用於訊息個人化內容（電子郵件、簡訊、推播）。 若要在歷程條件中篩選陣列，請使用集合管理函式。
-
-**問：我如何參考名稱包含連字型大小的欄位？**
-
-在PQL運算式中以反引號括住連字鍵： ``{%= profile.events.`order-total` > 100 %}``。 純Handlebars內插不支援反引號 — 如有需要，請使用`{% let %}`變數作為中間步驟。
-
-**問：為什麼`topN`在`{{#each}}`回圈之前需要`{% let %}`？**
-
-`topN`是傳回PQL清單的PQL函式。 將其指派給`{% let %}`變數，可讓結果出現在Handlebars內容中，以便使用`{{#each}}`進行反複運算。
-
->[!ENDTABS]
-
-<!-- ai-section-version: 1 | source-hash: 20c7ee0f -->
+{{$include /help/_includes/do-not-localize/personalization/ai-augmented-personalization-recipes.md}}
 
