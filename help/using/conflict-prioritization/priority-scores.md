@@ -90,6 +90,6 @@ Journey Optimizer也可讓您為[動作](../building-journeys/journey-action.md)
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445012?captions=chi_hant&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-priority-scores.md}}

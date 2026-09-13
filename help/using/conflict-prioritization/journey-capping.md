@@ -140,6 +140,6 @@ ht-degree: 18%
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447626?captions=chi_hant&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-capping.md}}

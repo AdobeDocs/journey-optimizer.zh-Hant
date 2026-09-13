@@ -203,6 +203,6 @@ NOT USED?
 
 ## 作法影片 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444737?captions=chi_hant&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-rule-sets.md}}
