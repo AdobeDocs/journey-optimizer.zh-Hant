@@ -7,13 +7,9 @@ role: User
 level: Beginner
 keywords: 應用程式內、訊息、建立、開始
 hide: true
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 829
 ht-degree: 7%
@@ -116,7 +112,7 @@ ht-degree: 7%
 
 ![](assets/in_app_web_design_4.png)
 
-使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節[&#128279;](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器中的個人化。
+使用&#x200B;**[!UICONTROL Personalization]**&#x200B;圖示來新增個人化。 在本節](../personalization/personalize.md)中進一步瞭解Adobe Journey Optimizer個人化編輯器[中的個人化。
 
 +++更多具有進階格式的選項
 
@@ -142,7 +138,7 @@ ht-degree: 7%
 
 1. 在&#x200B;**[!UICONTROL 目標]**&#x200B;欄位中輸入您的網頁URL或深層連結。
 
-1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;**&#x200B;**。
+1. 若要新增多個按鈕，請按一下[新增]按鈕&#x200B;****。
 
 +++更多具有進階格式的選項
 
@@ -197,3 +193,5 @@ UI接管選項預設為啟用，可讓您讓應用程式內訊息背後的背景
 * [測試並傳送您的應用程式內訊息](send-in-app.md)
 * [應用程式內報告](../reports/campaign-global-report-cja-inapp.md)
 * [應用程式內設定](inapp-configuration.md)
+
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-in-app-web-design.md}}
