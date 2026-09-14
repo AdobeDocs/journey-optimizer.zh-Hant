@@ -9,17 +9,19 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
+    internal-label: Edge Decisioning
+source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
-source-wordcount: 2888
-ht-degree: 14%
-
+source-wordcount: '2888'
+ht-degree: 13%
 ---
-
 # 建立您的第一個決定項目 {#items}
 
 >[!BEGINSHADEBOX]
@@ -106,8 +108,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -140,7 +142,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="運算式"
->abstract="您可以定義自己的運算式，而不是使用靜態值作為上限臨界值。 這使您可以使用決定屬性和/或 Adobe Experience Platform 資料集中的外部屬性，動態地計算臨界值。<br/><br/>上限規則&#x200B;**運算式**&#x200B;目前做為可用性受限的功能供所有使用者使用。 它們僅支援&#x200B;**[!UICONTROL 總計]**&#x200B;上限類型。"
+>abstract="與其使用靜態值作為上限臨界值，您可以定義自己的運算式。 這使您可以使用決定屬性和/或 Adobe Experience Platform 資料集中的外部屬性，動態地計算臨界值。<br/><br/>上限規則&#x200B;**運算式**&#x200B;目前做為可用性受限的功能供所有使用者使用。 它們僅支援&#x200B;**[!UICONTROL 總計]**&#x200B;上限類型。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
@@ -227,7 +229,7 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 
    +++運算式臨界值
 
-   您可以定義自己的運算式，而不是使用靜態值作為上限臨界值。 這使您可以使用決定屬性和/或 Adobe Experience Platform 資料集中的外部屬性，動態地計算臨界值。
+   與其使用靜態值作為上限臨界值，您可以定義自己的運算式。 這使您可以使用決定屬性和/或 Adobe Experience Platform 資料集中的外部屬性，動態地計算臨界值。
 
    例如，行銷人員可能會決定新增乘數來調整曝光。 例如，他們可以將可用存貨乘以2，讓選件顯示的客戶數量是可用單位的兩倍。 此方法預計並非所有客戶都會轉換，確保獲得更好的觸及率，而不會過度銷售。
 
