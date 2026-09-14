@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
 workflow-type: tm+mt
-source-wordcount: 2943
+source-wordcount: '2976'
 ht-degree: 11%
-
 ---
-
 
 # 搶鮮版發行說明 {#e-release-notes}
 
@@ -100,7 +101,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -178,7 +179,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在會等待任何正在進行中的批次分段完成，確保歷程使用執行中的資料，而不是退回至較舊的快照。 如果沒有正在進行的批次細分，歷程會使用最新可用的對象資料立即引發。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **與CX Coworker比較歷程版本** — 現在，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內逐個節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和預先發佈檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過CX Coworker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，恢復完整保真&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
 
@@ -348,7 +349,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-* **從CX Co-worker產生決策規則** — 先前透過右邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Co-worker存取，以取代右邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **從CX Coworker產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Coworker存取，其會取代右側邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### 直接郵件 {#sep-26-direct-mail}
 
