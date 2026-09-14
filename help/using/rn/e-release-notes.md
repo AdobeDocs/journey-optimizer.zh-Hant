@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3422'
 ht-degree: 10%
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -111,6 +111,8 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </table>
 
 * **CX同事忠誠度建議技能** — 行銷人員現在可以在CX同事的對話介面中直接要求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得實際的挑戰想法，並在不離開聊天室的情況下將其轉換為即時挑戰。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+
+* **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
 
 ### 入門 {#sep-26-onboarding}
 
@@ -377,7 +379,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-* **從CX Co-worker產生決策規則** — 先前透過右邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Co-worker存取，以取代右邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **從CX Coworker產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Coworker存取，其會取代右側邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
 
 ### 直接郵件 {#sep-26-direct-mail}
 
@@ -488,5 +490,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 ### 可用性改進功能 {#sep-26-usability}
 
 * **內容模擬體驗中的可用性改善** — 新的內容模擬體驗現在可讓您命名並組織變體以便輕鬆比較、直接從每個卡片複製或刪除變體詳細資料、依需求檢視完整屬性路徑和每個卡片管道設定，以及從更顯眼的上傳按鈕上傳您自己的CSV、JSON或JSONL設定檔。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+
+* **行銷活動、歷程及協調行銷活動的統一行事曆** — 歷程及行銷活動的行事曆檢視現在會從個別的清查移至統一的左側邊欄可存取功能表，這兩個功能表都會顯示在一個合併的檢視中。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
 
 
