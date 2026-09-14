@@ -16,10 +16,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 45438d2e7d89e2131145abf723bd695c50865022
+source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 11%
+source-wordcount: '3322'
+ht-degree: 10%
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -179,6 +179,24 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>傳入活動停用歷程活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程畫布中的新<strong>傳入活動停用</strong>活動可讓您直接從歷程中移除最多五個傳入活動或體驗的設定檔，將傳入取消資格從歷程退出中解耦，以進行更進階的跨頻道協調。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
 * **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
 
 * **與CX Coworker比較歷程版本** — 現在，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內逐個節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和預先發佈檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過CX Coworker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，恢復完整保真&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
@@ -188,6 +206,14 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 * **偵測到新的歷程異常警報** — 現在，當即時歷程的每日流量在歷程登入、歷程退出和事件傳送之間偏離其歷史基準線，或意外降至零時，新的系統警報會警告您。 此警報目前僅可用於生產沙箱。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
 
 * **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **自訂報告的練習步驟事件隱藏** — 作為步驟事件最佳化的一部分，Journey Optimizer現在會在歷程練習期間停止產生某些無法報告的步驟事件。 這只會影響建置在這些模擬執行步驟事件型別上的自訂報表。 如果您受到影響，請重新觸發試執行以重新產生資料。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+
+* **衛生分析同事技能** - CX Coworker中的新&#x200B;**衛生分析**&#x200B;技能會掃描您的使用中歷程和草稿歷程，找出中斷的設定、無訊息失敗，以及過時或未使用的資產，例如過時的草稿歷程、孤立的資料來源、持續的自訂動作錯誤和高同意排除率，並直接在聊天時顯示建議的修正。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+
+* **業務績效分析同事技能** - CX Coworker中的新&#x200B;**業務績效分析**&#x200B;技能會分析您的歷程如何執行、說明績效較低的區域，並建議具體的最佳化，例如重新參與等待、管道升級、傳送時間最佳化、A/B實驗、頻率上限或使用設定檔時區，與每個歷程的目標連結。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+
+* **歷程屬性中的自動事件復原逾時** — 歷程屬性現在包含&#x200B;**設定事件復原逾時**&#x200B;設定：依預設，受影響的歷程事件會在服務中斷後自動重播長達72小時，而不需要任何動作。 您可以開啟此設定來控制對時間敏感的歷程的重播視窗（0-72小時）。 現有的&#x200B;**逾時或錯誤**&#x200B;欄位也已重新命名為&#x200B;**自訂動作/IDS動作逾時**，以避免這兩個設定混淆。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
 
 ### 管道 {#sep-26-channels}
 
