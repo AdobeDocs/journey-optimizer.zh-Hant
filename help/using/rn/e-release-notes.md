@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
@@ -32,6 +32,23 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
 **發行日期**： 2026年9月22至23日
+
+>[!BEGINSHADEBOX]
+
+**本月CX Coworker的新增功能**
+
+此版本提供數項全新及改善的[CX Coworker](../start/ai-features.md#cx-coworker)功能和技能，此處列出以供檢視。 每項資料亦會在下文相關章節中詳細說明。
+
+* [訊息複製和電子郵件設計外掛程式](#sep-26-content-management) — 兩個新外掛程式，可簡化CX Coworker中的傳訊和電子郵件工作流程，從行銷活動簡報到生產就緒的副本和HTML。
+* [忠誠度推薦技能](#sep-26-loyalty) — 直接在CX Coworker的對話介面中要求挑戰機會，並將它們轉換為即時挑戰，而不需要離開聊天。
+* [歷程模擬（MCP和聊天）](#sep-26-journeys) — 自動進行端對端歷程驗證，並直接在CX Coworker中解譯結果。
+* [從CX Coworker邊欄建立歷程](#sep-26-journeys) — 直接從CX Coworker右側邊欄使用AI產生歷程，取代先前的AI助理體驗。
+* [比較歷程版本](#sep-26-journeys) — 透過CX Coworker Chat取得任意兩個歷程版本之間的完整保真、結構化差異。
+* [衛生分析技能](#sep-26-journeys) — 掃描使用中的和草稿歷程，以找出中斷的設定、無訊息失敗，以及過時或未使用的資產，並提供建議的修正。
+* [業務績效分析技能](#sep-26-journeys) — 直接從聊天室分析歷程績效並取得具體的最佳化建議。
+* [決策規則產生](#sep-26-decisioning) — 直接在CX Coworker中建置AI輔助決策規則，這會取代此體驗的正確邊欄。
+
+>[!ENDSHADEBOX]
 
 ### 內容管理 {#sep-26-content-management}
 
@@ -98,7 +115,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +227,8 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * **與CX Coworker比較歷程版本** — 現在，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內逐個節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和預先發佈檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過CX Coworker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，恢復完整保真&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。
 
-* **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **自訂報告的練習步驟事件隱藏** — 作為步驟事件最佳化的一部分，Journey Optimizer現在會在歷程練習期間停止產生某些無法報告的步驟事件。 這只會影響建置在這些模擬執行步驟事件型別上的自訂報表。 如果您受到影響，請重新觸發試執行以重新產生資料。
 
