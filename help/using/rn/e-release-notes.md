@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
+source-git-commit: daf832195eebc5dab1af33bfc8d4b0f50dc951f7
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3472'
 ht-degree: 10%
 ---
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -380,6 +380,8 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </table>
 
 * **從CX Coworker產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Coworker存取，其會取代右側邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+
+* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15702" target="_blank">DOCAC-15702</a> <!-- Documentation link: TBD -->
 
 ### 直接郵件 {#sep-26-direct-mail}
 
