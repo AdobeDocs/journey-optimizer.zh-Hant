@@ -5,20 +5,18 @@ user-guide-title: Journey Optimizer 指南
 user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結、情境式和個人化的體驗
 type: Documentation
 solution: Journey Optimizer
-nudge: true
-source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
+nudge: yes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: '3511'
-ht-degree: 99%
-
+source-wordcount: '3525'
+ht-degree: 98%
 ---
-
 # Adobe Journey Optimizer 說明 {#using}
 
 + [Journey Optimizer 文件](ajo-home.md)
 + 最新資訊 {#whats-new}
   + [發行週期](using/rn/releases.md)
-  + {hide-from-toc}[預發行說明](using/rn/e-release-notes.md)
+  + [搶鮮版發行說明](using/rn/e-release-notes.md)
   + [最新發行說明](using/rn/release-notes.md)
   + 舊版發行說明 {#previous-rn-new}
     + {hide-from-toc}[上一版的發行說明](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -35,15 +33,16 @@ ht-degree: 99%
 + 開始使用 {#get-started}
   + [在這裡開始](/help/rp_landing_pages/get-started-landing-page.md)
   + [入門中心](using/start/onboarding-hub.md)
+  + [使用AI](using/start/ai-features.md)
   + [移轉內容和歷程](using/start/migrate-content-and-journeys.md)
   + 基本要點 {#essentials}
     + [什麼是 Journey Optimizer](using/start/get-started.md)
     + [了解其運作原理](using/start/understanding-ajo.md)
-    + [AI 與智慧功能](using/start/ai-features.md)
-    + [CX Coworker 中的 Journey Optimizer 技能](using/start/ajo-coworker-skills.md)
     + [重要術語](using/start/terminology.md)
     + [從您的目標開始](using/start/ajo-use-case-guide.md)
-    + [護欄 &amp; 限制](using/start/guardrails.md)
+    + [護欄與限制](using/start/guardrails.md)
+    + [歷程與行銷活動](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[歷程與行銷活動 - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[套件和功能](using/start/ajo-packages.md)
     + {hide-from-toc}[功能可用性](using/start/ajo-features-availability.md)
   + 角色快速入門 {#by-role}
@@ -55,15 +54,14 @@ ht-degree: 99%
   + 高效工作 {#work-efficiently}
     + [瀏覽介面](using/start/user-interface.md)
     + [搜尋、篩選與整理](using/start/search-filter-categorize.md)
-    + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [協助工具](using/start/accessibility.md)
-    + [歷程與行銷活動](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[歷程與行銷活動 - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [疑難排解常見問題集](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + 歷程 {#orchestrate-journeys}
   + [開始使用歷程](using/building-journeys/journey.md)
   + {hide-from-toc}[歷程快速入門指南](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[歷程類型：選擇正確的1-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
+  + [歷程的CX Coworker技能](using/start/journeys-coworker-skills.md)
   + 建立歷程 {#create-journey}
     + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
@@ -150,6 +148,8 @@ ht-degree: 99%
     + [使用自訂動作在 Experience Platform 中編寫歷程事件](using/building-journeys/custom-action-aep.md)
 + 忠誠度挑戰 {#loyalty-challenges}
   + [開始使用忠誠度挑戰](using/loyalty-challenges/get-started.md)
+  + [互動式示範](using/loyalty-challenges/loyalty-challenges-demo.md)
+  + [適用於忠誠度的CX Coworker技能](using/start/loyalty-coworker-skills.md)
   + 建立和管理挑戰 {#create-manage-challenges}
     + [存取和管理挑戰與任務](using/loyalty-challenges/access-loyalty-challenges.md)
     + [建立挑戰](using/loyalty-challenges/create-challenges.md)
@@ -208,7 +208,7 @@ ht-degree: 99%
       + [協調活動](using/orchestrated/orchestrate-activities.md)
       + [新增個人化](using/orchestrated/add-personalization.md)
       + [開始並監視行銷活動](using/orchestrated/start-monitor-campaigns.md)
-      + [報告](using/orchestrated/reporting-campaigns.md)
+      + [報表](using/orchestrated/reporting-campaigns.md)
     + 查詢資料庫 {#query-database}
       + [查詢資料庫](/help/rp_landing_pages/query-database-landing-page.md)
       + [使用規則產生器](using/orchestrated/orchestrated-rule-builder.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
     + [使用測試設定檔進行預覽](using/content-management/preview.md)
     + [使用測試設定檔資料，傳送校樣](using/content-management/proofs.md)
     + [測試電子郵件轉譯](using/content-management/rendering.md)
+    + {hide-from-toc}[模擬傳入體驗](using/test-approve/simulate-inbound-experiences.md)
     + [模擬內容變化版本 (經典體驗)](using/test-approve/simulate-sample-input.md)
     + [模擬內容變化版本 (新體驗)](using/test-approve/simulate-content-variations.md)
     + [電子郵件垃圾郵件報告](using/content-management/spam-report.md)
@@ -476,6 +477,7 @@ ht-degree: 99%
     + [監視自訂管道](using/custom-channel/monitor-custom-channel.md)
 + 內容管理 {#content-management}
   + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
+  + [CX Coworker內容管理工具](using/start/content-management-coworker-skills.md)
   + 個人化 {#personalization}
     + [個人化](/help/rp_landing_pages/personalization-landing-page.md)
     + [開始使用個人化](using/personalization/personalize.md)
@@ -608,8 +610,8 @@ ht-degree: 99%
       + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
   + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-  + 客群 {#audiences}
-    + [客群](/help/rp_landing_pages/audiences-landing-page.md)
+  + 對象 {#audiences}
+    + [對象](/help/rp_landing_pages/audiences-landing-page.md)
     + [開始使用 Audiences](using/audience/about-audiences.md)
     + 建立客群 {#create}
       + [建立客群](/help/rp_landing_pages/create-landing-page.md)
@@ -626,8 +628,8 @@ ht-degree: 99%
     + [使用計算屬性](using/audience/computed-attributes.md)
   + [身分識別](using/audience/get-started-identity.md)
   + [授權使用情況](using/audience/license-usage.md)
-+ 報告 {#reporting}
-  + [報告](/help/rp_landing_pages/reporting-landing-page.md)
++ 報表 {#reporting}
+  + [報表](/help/rp_landing_pages/reporting-landing-page.md)
   + [開始使用報告](using/reports/gs-reports.md)
   + 即時報告 {#live-report}
     + [即時報告](/help/rp_landing_pages/live-report-landing-page.md)
