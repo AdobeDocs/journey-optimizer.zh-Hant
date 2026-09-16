@@ -46,52 +46,52 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2410'
 ht-degree: 3%
 ---
 # 使用AI {#ai-features}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中的AI和機器學習功能，從CX Coworker、AI Assistant和專業代理程式，到創作內容和Journey Optimizer功能中的AI支援整合及最佳化功能。
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中的AI和機器學習功能，從CX Enterprise Coworker、AI Assistant和專業代理程式，到創作內容和Journey Optimizer功能中的AI支援整合及最佳化功能。
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助您建立、最佳化和提供卓越的客戶體驗。 從CX Coworker和AI Assistant中的交談式代理程式，到預測最佳傳送時間並產生個人化內容，AI功能可簡化您的工作流程並最大化影響。
+Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助您建立、最佳化和提供卓越的客戶體驗。 從同事和AI Assistant中的交談式代理，到預測最佳傳送時間並產生個人化內容，AI功能可簡化您的工作流程並最大化影響。
 
 ## 快速導覽 {#quick-navigation}
 
 使用這些群組連結來跳至您需要的功能：
 
-* **對話式AI和同事：** [Journey Optimizer中的CX Coworker技能](#cx-coworker)、[MCP伺服器](#mcp-server)、[AI助理和代理程式](#ai-assistant)
+* **對話式AI與CX Enterprise Coworker：** [Journey Optimizer中的同事技能](#cx-coworker)、[MCP伺服器](#mcp-server)、[AI助理與代理程式](#ai-assistant)
 * **內容建立：** [AI支援的內容產生](#content-generation)
 * **AI相關功能：** Journey Optimizer中的[AI功能](#ajo-ai-features)：公式最佳化、內容實驗、傳送時間最佳化、影像至HTML、GenStudio for Performance Marketing、品牌調整、決策的AI模型)
 * **說明：** [常見問題](#faq)
 
-## CX 同事 {#cx-coworker}
+## Coworker {#cx-coworker}
 
-### 關於CX Coworker {#about-cx-coworker}
+### 關於同事 {#about-cx-coworker}
 
-CX Coworker是Adobe的對話式體驗，可與您的業務應用程式整合，協助您更高效地工作，將整個Adobe應用程式的客戶體驗和行銷工作流程自動化。 您不必一次執行一個手動設定步驟，而是以自然語言描述業務目標，然後由同事計畫、執行及驗證工作。
+CX Enterprise Coworker是Adobe的對話式體驗，可與您的業務應用程式整合，協助您更高效地工作，將整個Adobe應用程式的客戶體驗和行銷工作流程自動化。 您不必一次執行一個手動設定步驟，而是以自然語言描述業務目標，然後由同事計畫、執行及驗證工作。
 
-CX Coworker是AI Assistant的進化：它保留了AI Assistant代理程式已執行的所有工作（產品知識、營運和資料深入分析），同時新增了完成端對端工作所需的企業工具、技能、治理和記憶體，而不僅僅是回答問題。 組織正在以滾動方式從AI助理轉換為CX Coworker，並且某些組織可能會保留對AI助理的存取權，直到它們啟用CX Coworker為止。 [進一步了解轉換至CX Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+Co-worker是AI Assistant的進化：它保留了AI Assistant代理程式已經執行的所有工作（產品知識、營運和資料深入分析），同時新增了完成端對端工作所需的企業工具、技能、治理和記憶體，而不僅僅是回答問題。 正在以滾動方式將組織從AI助理轉換為同事，並且某些組織可能會保留對AI助理的存取權，直到為同事啟用為止。 [進一步了解轉換至同事](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
 
-在CX Enterprise Coworker檔案中進一步瞭解：
+在Co-worker檔案中瞭解更多：
 
 * [關於同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
-* [什麼是技能？](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概觀，包括示範影片。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
-* [同事聊天使用案例](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 所有Adobe解決方案的所有可用使用案例。
+* [什麼是技能？](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概觀，包括示範影片。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
+* [同事聊天使用案例](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 所有Adobe解決方案的所有可用使用案例。
 
-### 適用於Journey Optimizer的CX Coworker技能 {#cx-coworker-skills}
+### Journey Optimizer的同事技能 {#cx-coworker-skills}
 
-在Adobe Journey Optimizer中，CX Coworker提供這些功能的專屬技能：
+在Adobe Journey Optimizer中， Co-worker可提供這些功能的專屬技能：
 
-* **歷程**：使用自然語言提示建立歷程（歷程建立）、產生頻道特定的訊息復本和設計（頻道內容建立），並診斷歷程流失、排程重疊和執行異常（歷程分析）。 [檢視歷程的所有CX Coworker技能](journeys-coworker-skills.md)。
-* **忠誠度**：建立並設定忠誠度挑戰（忠誠度挑戰管理），以及查詢忠誠度點數、層級分配和收入量度（忠誠度深入分析）。 [檢視忠誠度的所有CX Coworker技能](loyalty-coworker-skills.md)。
-* **內容管理**：使用15個讀取/寫入MCP工具來探索、建立、更新、複製及發佈範本、片段、登入頁面和內嵌訊息變體。 [檢視所有CX Coworker內容管理工具](content-management-coworker-skills.md)。
+* **歷程**：使用自然語言提示建立歷程（歷程建立）、產生頻道特定的訊息復本和設計（頻道內容建立），並診斷歷程流失、排程重疊和執行異常（歷程分析）。 [檢視歷程的所有同事技能](../building-journeys/journeys-coworker-skills.md)。
+* **忠誠度**：建立並設定忠誠度挑戰（忠誠度挑戰管理），以及查詢忠誠度點數、層級分配和收入量度（忠誠度深入分析）。 [檢視忠誠度的所有同事技能](../loyalty-challenges/loyalty-coworker-skills.md)。
+* **內容管理**：使用15個讀取/寫入MCP工具來探索、建立、更新、複製及發佈範本、片段、登入頁面和內嵌訊息變體。 [檢視所有同事內容管理工具](../content-management/content-management-coworker-skills.md)。
 
 ## MCP伺服器 {#mcp-server}
 
@@ -101,7 +101,7 @@ CX Coworker是AI Assistant的進化：它保留了AI Assistant代理程式已執
 
 ## AI助理和AI代理程式 {#ai-assistant}
 
-AI Assistant是您的Adobe Journey Optimizer產品內對話指南，由創作AI和用於歷程最佳化和實驗的專業代理程式提供技術支援。 AI助理正由[CX Coworker](#cx-coworker)成功 — 請參閱上方以瞭解兩者的關係。
+AI Assistant是您的Adobe Journey Optimizer產品內對話指南，由創作AI和用於歷程最佳化和實驗的專業代理程式提供技術支援。 AI助理正由[同事](#cx-coworker)成功 — 請參閱上文，瞭解兩者的關係。
 
 ### 存取 AI 助理
 
@@ -163,7 +163,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程分析技能 {#journey-analyze-skill}
 
-[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
+[歷程分析代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
 
 +++**主要功能**
 
@@ -186,7 +186,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程建立技能 {#journey-create-skill}
 
-[歷程建立代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
 
 +++**主要功能**
 

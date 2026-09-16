@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 14%
 ---
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
@@ -61,7 +61,7 @@ ht-degree: 14%
 * **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像處理任何其他挑戰型別一樣設定「設定」、「內容」和「傳訊」。
 
 >[!TIP]
->您也可以使用[CX Coworker技巧中的&#x200B;**忠誠度挑戰管理**&#x200B;來建立和管理忠誠度挑戰，以獲得忠誠度](../start/loyalty-coworker-skills.md#loyalty-challenge-management)，並使用自然語言提示來加速挑戰建立。
+>您也可以使用[忠誠度的同事技能](loyalty-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠誠度挑戰管理**，以自然語言提示快速建立挑戰，來建立和管理忠誠度挑戰。
 
 ➡️ [觀看功能概觀](#video)
 
@@ -164,7 +164,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
@@ -187,7 +187,7 @@ ht-degree: 14%
 
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
->[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## 互動式示範 {#demo}
 

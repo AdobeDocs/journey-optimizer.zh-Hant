@@ -6,10 +6,10 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '3525'
-ht-degree: 98%
+source-wordcount: '3520'
+ht-degree: 99%
 ---
 # Adobe Journey Optimizer 說明 {#using}
 
@@ -61,7 +61,7 @@ ht-degree: 98%
   + {hide-from-toc}[歷程快速入門指南](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[歷程類型：選擇正確的1-2](using/building-journeys/journey-types-selection-v2.md)
   + [Journey Orchestration 常見問題集](using/building-journeys/journey-faq.md)
-  + [歷程的CX Coworker技能](using/start/journeys-coworker-skills.md)
+  + [歷程的同事](using/building-journeys/journeys-coworker-skills.md)
   + 建立歷程 {#create-journey}
     + [建立歷程](/help/rp_landing_pages/create-journey-landing-page.md)
     + [建立您的第一個歷程](using/building-journeys/journey-gs.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + 忠誠度挑戰 {#loyalty-challenges}
   + [開始使用忠誠度挑戰](using/loyalty-challenges/get-started.md)
   + [互動式示範](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [適用於忠誠度的CX Coworker技能](using/start/loyalty-coworker-skills.md)
+  + [忠誠度的同事](using/loyalty-challenges/loyalty-coworker-skills.md)
   + 建立和管理挑戰 {#create-manage-challenges}
     + [存取和管理挑戰與任務](using/loyalty-challenges/access-loyalty-challenges.md)
     + [建立挑戰](using/loyalty-challenges/create-challenges.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [監視自訂管道](using/custom-channel/monitor-custom-channel.md)
 + 內容管理 {#content-management}
   + [內容管理](/help/rp_landing_pages/content-management-landing-page.md)
-  + [CX Coworker內容管理工具](using/start/content-management-coworker-skills.md)
+  + [內容管理的同事](using/content-management/content-management-coworker-skills.md)
   + 個人化 {#personalization}
     + [個人化](/help/rp_landing_pages/personalization-landing-page.md)
     + [開始使用個人化](using/personalization/personalize.md)
@@ -576,7 +576,7 @@ ht-degree: 98%
     + [AI 提示最佳做法](using/content-management/ai-assistant-prompting-guide.md)
     + C2PA中繼資料 {#c2pa}
       + [產生內容中的C2PA中繼資料](using/content-management/generative-c2pa-metadata.md)
-      + [電子郵件和登陸頁面Designer中的C2PA中繼資料](using/content-management/c2pa-metadata-email-designer.md)
+      + [電子郵件和登陸頁面設計工具中的 C2PA 中繼資料](using/content-management/c2pa-metadata-email-designer.md)
     + [使用 AI 產生完整內容](using/content-management/generative-full-content.md)
     + [使用 AI 產生文字](using/content-management/generative-text.md)
     + [使用 AI 產生影像](using/content-management/generative-image.md)

@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 68%
@@ -68,7 +68,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>CX Coworker現在有一組新的<strong>內容管理MCP工具</strong>，可讓您透過自然語言提示探索和管理Journey Optimizer內容資產。 要求其列出或擷取內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容。 此外也可以建立內容、更新範本，以及建立、更新、複製和發佈片段，並直接在歷程和行銷活動中更新內嵌頻道動作內容。</p>
-<p>如需詳細資訊，請參閱<a href="../start/content-management-coworker-skills.md#content-management">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../content-management/content-management-coworker-skills.md#content-management">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月3日</p>
 </td>
 </tr>
@@ -120,7 +120,7 @@ ht-degree: 68%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 68%
 
   推出日期： 2026年9月1日
 
-* **分析歷程異常技能** - CX Coworker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程進入、退出或訊息傳送計數中的非預期尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../start/journeys-coworker-skills.md#journey-analyze)
+* **分析歷程異常技能** - CX Coworker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程進入、退出或訊息傳送計數中的非預期尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   推出日期： 2026年9月2日
 
@@ -227,7 +227,7 @@ ht-degree: 68%
 ### 歷程 {#aug-26-journeys}
 
 
-* **歷程標頭中的開始和結束日期** - 當歷程設定了開始及/或結束日期時，這些日期現在會顯示在即時狀態徽章旁邊的歷程頁首中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀更多](../building-journeys/journey-properties.md#dates)
+* **歷程標頭中的開始和結束日期** - 當歷程設定了開始及/或結束日期時，這些日期現在會顯示在即時狀態徽章旁邊的歷程頁首中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀全文](../building-journeys/journey-properties.md#dates)
 
   推出日期： 2026年8月20日
 
@@ -349,7 +349,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>Journey Optimizer推出<strong>忠誠度深入分析</strong>，這是CX Coworker的一項新技能，可讓您詢問有關挑戰績效的問題，以及擷取到Adobe Experience Platform中忠誠度欄位群組中的其他忠誠度計畫資料。</p>
-<p>如需詳細資訊，請參閱<a href="../start/loyalty-coworker-skills.md">詳細文件</a>以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-coworker-skills.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年8月31日</p>
 </td>
 </tr>
