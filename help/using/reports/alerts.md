@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # 存取及訂閱系統警示 {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 * **畫布內驗證警示**：建立歷程與行銷活動時，請使用畫布中的&#x200B;**警示**&#x200B;按鈕，在發佈之前識別並解決設定錯誤。 瞭解如何[疑難排解您的歷程](../building-journeys/troubleshooting.md)並檢閱您的行銷活動： [動作行銷活動](../campaigns/review-activate-campaign.md) | [API觸發的行銷活動](../campaigns/review-activate-api-triggered-campaign.md) | [協調的行銷活動](../orchestrated/start-monitor-campaigns.md)。
 
-* **系統監視警示** （在此頁面上詳細說明）：當超過操作臨界值或在即時歷程和通道設定中偵測到問題時，以及當發生重要行銷活動生命週期事件（啟用、傳遞、停止和相關失敗）時，接收主動通知。 除了這些行銷活動事件外，系統警報還會監視度量，例如錯誤率、設定檔捨棄和電子郵件傳遞問題。
+* **系統監視警示** （在此頁面上詳細說明）：當超過操作臨界值或在即時歷程和通道設定中偵測到問題時，以及當發生重要行銷活動生命週期事件（啟用、傳遞、停止和相關失敗）時，接收主動通知。 除了這些行銷活動事件外，系統警報還會監視各種量度，例如錯誤率、設定檔捨棄、異常歷程流量和電子郵件傳遞問題。
 
 **系統警示的主要優點：**
 
@@ -64,7 +73,7 @@ Adobe Journey Optimizer提供兩種警報：
 
 處理警示之前：
 
-* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant#permissions){target="_blank"}中的必要許可權。
+* **許可權**：您需要特定許可權才能檢視及管理警示。 檢視Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}中的[必要許可權。
 
 * **沙箱感知度**：警示訂閱是沙箱專屬訂閱。 當您訂閱警報時，警報只會套用至目前的沙箱。 沙箱重設時，所有警報訂閱也會重設。
 
@@ -215,6 +224,28 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 * 監視外部端點，以確保其可以處理預期的負載。
 
 ➡️ [設定自訂動作上限](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ 偵測到歷程異常
+
+當即時歷程的每日流量偏離其本身的歷史基準線，或意外降至零時，此警報會警告您。 每個歷程分別監視三個量度： **[!UICONTROL 歷程專案]**、**[!UICONTROL 歷程結束]**&#x200B;以及&#x200B;**[!UICONTROL 事件傳送]**。 檢查每天執行一次，每個歷程回顧期30天。
+
+**基準線：**&#x200B;每個量度的預期值會結合Customer Journey Analytics當天的預測與歷程本身實際值的7天滾動中位數。 如果預測低於滾動中位數的50%，則改為使用滾動中位數，以避免低估一直在穩定執行的歷程。
+
+下列原因可能會觸發警報：
+
+* **零異常**：如果量度在歷程先前產生非零流量的當天掉至0，就會立即引發。 **讀取對象**&#x200B;歷程在當天免除，因為當天的執行可能尚未完成。
+* **偏差臨界值**：當實際值與預期值相差35%或以上時、當歷程已顯示3至4個連續的非零日歷程時，且僅當預期值至少為100時（以避免標幟小數字雜訊）才會引發。
+* 如果&#x200B;**歷程專案**&#x200B;在指定日期出現異常，**退出點**&#x200B;和&#x200B;**事件傳送**&#x200B;的相關異常會在同一天和歷程中隱藏，因此單一根本原因不會引發多個警示。
+
+請注意，此警示僅適用於型別&#x200B;**單一事件**、**讀取對象**&#x200B;或&#x200B;**對象資格**&#x200B;的即時歷程（僅限循環&#x200B;**讀取對象**&#x200B;歷程），並需要組織或沙箱訂閱警示。
+
+➡️ [檢查歷程即時報告以疑難排解&#x200B;**偵測到歷程異常**&#x200B;警報](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>此警報目前僅適用於生產沙箱，不適用於開發或中繼沙箱。
 
 +++
 
@@ -405,7 +436,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 >[!NOTE]
 >
->如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"}。
+>如需其他Adobe Experience Platform服務（資料擷取、身分解析、細分等）的警示，請參閱[標準警示規則檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}。
 
 ## 訂閱警報 {#subscribe-alerts}
 
@@ -430,7 +461,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}。
+若要進行進階整合，您可以透過I/O事件訂閱以傳送警報給外部系統。 請參閱[Adobe Experience Platform檔案](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}。
 
 ### 訂閱方法
 
@@ -466,7 +497,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **替代訂閱方法：**
 
-您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
+您也可以透過[I/O事件通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}訂閱，此通知可與外部系統整合。 歷程警示I/O訂閱名稱記錄在&#x200B;**可用警示**&#x200B;下的[歷程警示標籤](#available-alerts)中（如果適用）。 Campaign生命週期警報會遵循相同的Platform訂閱模式；如需程式化整合，請參閱相關檔案。
 
 >[!TAB 歷程特定訂閱]
 
@@ -494,7 +525,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -520,7 +551,7 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 
 **取消訂閱：**
 
-開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。**&#x200B;**
+開啟相同的對話方塊，取消選取警示，然後按一下[儲存]。****
 
 >[!ENDTABS]
 
@@ -528,14 +559,14 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 >
 >您可以將&#x200B;**沙箱層級**&#x200B;訂閱（來自警示&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤）與&#x200B;**促銷活動特定**&#x200B;訂閱結合。 對沙箱中的所有內容使用沙箱層級涵蓋範圍，並僅針對您想要個別追蹤的行銷活動新增每個行銷活動的訂閱。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## 管理警報 {#manage-alerts}
 
 ### 編輯警報
 
 您可以按一下警示的行來檢查其詳細資訊。 名稱、狀態和通知通道會顯示在左側面板中。
-對於歷程警示，請使用&#x200B;**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
+對於歷程警示，請使用**[!UICONTROL 更多動作]**&#x200B;按鈕來編輯它們。 然後您可以為這些警示定義[自訂臨界值](#custom-threshold)。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -590,6 +621,6 @@ Journey Optimizer提供預先設定的警報規則，可監控歷程、行銷活
 **警示架構：**
 
 * [Adobe Experience Platform警示概述](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=zh-Hant){target="_blank"} — 瞭解警示架構
-* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=zh-Hant){target="_blank"} — 檢視、訂閱和管理警報
-* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=zh-Hant){target="_blank"} — 進階整合選項
-* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=zh-Hant){target="_blank"} — 完整的可用平台警示清單
+* [在UI中管理警報](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} — 檢視、訂閱和管理警報
+* [透過I/O事件訂閱警示](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} — 進階整合選項
+* [標準警示規則](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} — 完整的可用平台警示清單
