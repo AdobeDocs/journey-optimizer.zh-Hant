@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2921'
 ht-degree: 67%
 ---
 # 發行說明 {#release-notes}
@@ -88,6 +88,10 @@ ht-degree: 67%
 * **「永遠」忠誠度挑戰** — 忠誠度挑戰現在可以無限期地執行。 設定排程時，將&#x200B;**挑戰結束**&#x200B;設為&#x200B;**無結束日期**，挑戰永不過期。 [了解更多](../loyalty-challenges/create-challenges.md#schedule)
 
   推出日期： 2026年9月1日
+
+* **Healthcare Shield與Privacy and Security Shield客戶可使用Loyalty** - Healthcare Shield與Privacy and Security Shield客戶現在可使用Journey Optimizer Loyalty。 [了解更多](../loyalty-challenges/get-started.md)
+
+  推出日期： 2026年9月15日
 
 ### 歷程 {#sep-26-journeys}
 
