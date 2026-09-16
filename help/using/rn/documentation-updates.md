@@ -11,21 +11,23 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 11249
-ht-degree: 90%
-
+source-wordcount: '11356'
+ht-degree: 89%
 ---
-
 
 # 文件更新 {#latest-updates}
 
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年9月 {#september-2026}
+
+* 新的&#x200B;**互動式示範**&#x200B;頁面現在可用於忠誠度挑戰，連結至自我引導的可點選示範，其中涵蓋行銷人員的挑戰建立流程（包括自攜資料和見解儀表板）、最終客戶體驗，以及CX Coworker中的忠誠度挑戰管理。 [閱讀更多](../loyalty-challenges/loyalty-challenges-demo.md)
 
 * **個人化您的電子郵件背景**&#x200B;頁面已展開並改良。 它現在會記錄背景影像的完整&#x200B;**影像位置**&#x200B;下拉式清單，並新增背景色彩和影像的最佳實務，包括建議在實際的電子郵件使用者端中測試背景影像，而非僅仰賴電子郵件Designer預覽。 [閱讀更多](../email/backgrounds.md)
 
@@ -35,7 +37,9 @@ ht-degree: 90%
 
 * 已新增驗證自訂動作傳送的指南： **資料集查詢範例**&#x200B;頁面現在說明如何根據動作型別在訊息回饋事件、電子郵件追蹤和歷程步驟事件資料集之間進行選擇，以及說明如何解決「資料集未布建的表格」錯誤的檔案。 **歷程步驟事件總覽**&#x200B;和&#x200B;**疑難排解您的即時歷程執行**&#x200B;頁面已據此更新，澄清成功的自訂動作呼叫只會確認Journey Optimizer已執行動作，不會確認外部系統已傳送訊息。 [閱讀更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* 已在CX Coworker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../start/ajo-coworker-skills.md#journey-analyze)
+* 有關CX Coworker的資訊已新增至&#x200B;**使用AI**&#x200B;頁面，內容涵蓋CX Coworker是什麼、它與AI助理的關係，以及官方同事檔案的參考資料。 每個功能指南中也新增了專屬的技能頁面 — [歷程的CX Coworker技能](../start/journeys-coworker-skills.md)、[忠誠度的CX Coworker技能](../start/loyalty-coworker-skills.md)和[CX Coworker內容管理工具](../start/content-management-coworker-skills.md)。 [閱讀更多](../start/ai-features.md#cx-coworker)
+
+* 已在CX Coworker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../start/journeys-coworker-skills.md#journey-analyze)
 
 * **護欄和限制**&#x200B;頁面已更正，以反映超過100 KB的視覺片段或超過200 KB的運算式片段不會再造成電子郵件傳送的截斷問題：現在單一700 KB片段大小護欄適用。 [閱讀更多](../start/guardrails.md#fragments-guardrails)
 
@@ -43,7 +47,7 @@ ht-degree: 90%
 
 * **AJO訊息回饋事件資料集**&#x200B;檔案已擴充，以澄清其涵蓋所有管道（電子郵件、SMS/RCS/MMS、直接郵件）的訊息傳遞回饋，而不只是電子郵件和推播，現在包含&#x200B;**將測試和非測試執行分類**&#x200B;區段，說明如何解譯`isTestExecution`欄位，包括`NULL`或缺少的值。 [閱讀更多](../data/datasets-query-examples.md#classify-test-executions)
 
-* 已針對CX Coworker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../start/ajo-coworker-skills.md#content-management)
+* 已針對CX Coworker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../start/content-management-coworker-skills.md#content-management)
 
 * **將內容新增至您的登入頁面**&#x200B;檔案現在說明&#x200B;**將表單欄位設為同意核取方塊的必要欄位**&#x200B;選項：啟用時，除非選取核取方塊，且檢查在使用者端和伺服器端強制執行，否則無法提交表單。 [閱讀更多](../landing-pages/lp-content.md#use-form-component)
 
@@ -99,7 +103,7 @@ ht-degree: 90%
 
 * 加強&#x200B;**決策移轉API**&#x200B;檔案，並提供移轉決策管理物件至Decisioning的全面指引。 新區段包括：具有10個命名慣例的實體對應參考、範圍內與範圍外涵蓋範圍、詳細請求/回應模型比較、具有Cookie處理的三種實作模式（使用者端、伺服器端、混合）、包含5個事件JSON範例的事件追蹤需求、跨沙箱移轉先決條件、端對端5步驟移轉程式，以及移轉常見問題集。 [閱讀更多](../experience-decisioning/decisioning-migration-api.md)
 
-* 全新的 **CX Co-worker 技能**&#x200B;頁面現已推出。 它提供 Journey Optimizer 中所有歷程技能的完整文件，包括歷程建立、管道內容建立、忠誠度挑戰管理及歷程分析，並隨附每種技能的使用案例、範例提示和最佳做法。 [閱讀更多](../start/ajo-coworker-skills.md)
+* 全新的 **CX Co-worker 技能**&#x200B;頁面現已推出。 它提供 Journey Optimizer 中所有歷程技能的完整文件，包括歷程建立、管道內容建立、忠誠度挑戰管理及歷程分析，並隨附每種技能的使用案例、範例提示和最佳做法。 [閱讀更多](../start/ai-features.md#cx-coworker)
 
 * **至精確度**&#x200B;函式文件已更新，釐清 `toPrecision` 的運作方式類似於 JavaScript `toFixed()`：它會傳回具有固定小數位數的字串，包括在需要時補零。 [閱讀更多](../personalization/functions/math.md#to-precision)
 

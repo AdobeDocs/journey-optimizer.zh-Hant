@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # 瀏覽介面 {#user-interface}
 
@@ -193,7 +193,7 @@ Journey Optimizer 介面包含四個主要區域：
 * **內容範本** - 行銷活動和歷程的可重複使用訊息範本。 [建立範本](../content-management/content-templates.md)
 * **片段** - 可用於多個訊息的內容區塊。 [使用片段](../content-management/fragments.md)
 * **登陸頁面** - 訂閱和偏好設定的網頁表單。 [設計登陸頁面](../landing-pages/get-started-lp.md)
-* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。 [探索教戰手冊](ai-features.md#playbooks)
+* **使用案例教戰手冊** - 為常見行銷案例預先建立工作流程。 [探索教戰手冊](ajo-use-case-guide.md#playbooks)
 
 **資料管理** - 管理您的資料基礎。 [了解結構描述和資料集](../data/get-started-schemas.md)
 
@@ -411,6 +411,18 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_journey_inbound_activity_deactivation"
 >title="傳入活動停用活動"
 >abstract="從歷程中直接移除最多5個傳入活動或體驗的設定檔，將傳入取消資格與歷程退出分離。"
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="設定事件復原逾時"
+>abstract="控制歷程會自動重播受服務中斷影響的事件多長時間。 預設為關閉（72小時自動重播）；開啟以將重播時段從對時間敏感的歷程的0小時調整為72小時。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="自訂動作/ IDS動作逾時"
+>abstract="自訂動作/ IDS動作逾時選項會在動作逾時或傳回錯誤時，定義歷程中的替代路徑，因此設定檔會繼續透過遞補路徑進行，而非在此步驟停止。 建議值介於 1 至 30 秒之間。"
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

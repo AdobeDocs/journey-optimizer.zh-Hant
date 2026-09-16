@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer 搶鮮版發行說明
 description: Adobe Journey Optimizer 搶鮮版發行說明
-hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
@@ -16,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: daf832195eebc5dab1af33bfc8d4b0f50dc951f7
+source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
 workflow-type: tm+mt
-source-wordcount: '3472'
+source-wordcount: '3522'
 ht-degree: 10%
 ---
 
@@ -34,6 +33,23 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 **發行日期**： 2026年9月22至23日
 
+>[!BEGINSHADEBOX]
+
+**本月CX Enterprise Coworker的新增功能**
+
+此版本提供數項全新及改善的[同事](../start/ai-features.md#cx-coworker)功能和技能，列於此處，以供您瞭解。 每項資料亦會在下文相關章節中詳細說明。
+
+* [訊息複製與電子郵件設計外掛程式](#sep-26-content-management) — 兩個新外掛程式，可簡化同事的傳訊與電子郵件工作流程，從行銷活動簡報到生產就緒的復本及HTML。
+* [忠誠度推薦技能](#sep-26-loyalty) — 直接在同事的對話介面中要求挑戰機會，並將它們變成即時挑戰，而不需要離開聊天。
+* [歷程模擬（MCP和聊天）](#sep-26-journeys) — 自動進行端對端歷程驗證，並直接在同事中解譯結果。
+* [從同事邊欄建立歷程](#sep-26-journeys) — 使用AI直接從同事右側邊欄產生歷程，取代先前的AI助理體驗。
+* [比較歷程版本](#sep-26-journeys) — 透過同事聊天，取得任意兩個歷程版本之間的完整保真、結構化差異。
+* [衛生分析技能](#sep-26-journeys) — 掃描使用中的和草稿歷程，以找出中斷的設定、無訊息失敗，以及過時或未使用的資產，並提供建議的修正。
+* [業務績效分析技能](#sep-26-journeys) — 直接從聊天室分析歷程績效並取得具體的最佳化建議。
+* [決策規則產生](#sep-26-decisioning) — 直接在Co-worker中建置AI輔助決策規則，這會取代此體驗的正確邊欄。
+
+>[!ENDSHADEBOX]
+
 ### 內容管理 {#sep-26-content-management}
 
 以下功能即將推出此版本的內容管理。
@@ -41,13 +57,13 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <table>
 <thead>
 <tr>
-<th><strong>CX Co-worker中的訊息複製與電子郵件設計外掛程式</strong><br/></th>
+<th><strong>Co-worker中的訊息複製和電子郵件設計外掛程式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Co-worker現在提供兩種新的外掛程式，可簡化您從策略到部署的<strong>訊息和電子郵件工作流程</strong>：</p>
+<p>Co-worker現在提供兩個新的外掛程式，以簡化從策略到部署的<strong>訊息和電子郵件工作流程</strong>：</p>
 <p><strong>訊息複製外掛程式</strong>：</p>
 <ul>
 <li>擷取行銷活動簡報，並定義訊息地圖、敘述弧和頻道角色。</li>
@@ -62,7 +78,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <li>稽核針對企業法規遵循、視覺設計品質和WCAG 2.1 AA協助工具標準而組裝的電子郵件程式碼。</li>
 <li>將核准的HTML直接匯出至Adobe Journey Optimizer和Adobe Campaign。</li>
 </ul>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15642" target="_blank">DOCAC-15642</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -84,7 +99,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>忠誠度績效選單現在包含<strong>機會標籤</strong>，其中會顯示AI偵測到的趨勢和差距，例如層級進展摩擦或挑戰任務流失，每個都具有預計的影響，以及按一下「使用AI建立」動作以產生可解決它的挑戰。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15563" target="_blank">DOCAC-15563</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -102,17 +116,14 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15661" target="_blank">DOCAC-15661</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* **CX同事忠誠度建議技能** — 行銷人員現在可以在CX同事的對話介面中直接要求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得實際的挑戰想法，並在不離開聊天室的情況下將其轉換為即時挑戰。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">DOCAC-15565</a> <!-- Documentation link: TBD -->
+* **同事忠誠度建議技能** — 行銷人員現在可以在同事的對話介面中直接要求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得實際的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。
 
-* **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">DOCAC-15681</a> <!-- Documentation link: TBD -->
+* **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。
 
 ### 入門 {#sep-26-onboarding}
 
@@ -129,13 +140,16 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <td>
 <p>透過引導式功能，您可以更輕鬆地從其他行銷平台轉換至 Adobe Journey Optimizer，將現有電子郵件內容和歷程移至 Journey Optimizer。 <strong>專屬工作區</strong>可讓您重複使用現有工作，而非從頭重建。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15330" target="_blank">DOCAC-15330</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
+
+### 對象 {#sep-26-audiences}
+
+以下提醒適用於此版本中的對象。
+
+* **即將變更對象構成擴充對象** — 在10月發行（10月底）期間，Journey Optimizer將停止使用或參考來源資料集沒有&#x200B;**主要身分描述項**&#x200B;的對象構成對象的歷程和行銷活動。 此後，歷程和行銷活動僅支援使用主要身分描述項建立的對象構成對象。 如果您需要這些歷程或行銷活動才能保持作用中，請聯絡您的Adobe代表 — 我們的產品團隊可以協助您移轉。<!-- Documentation link: TBD -->
 
 ### 歷程 {#sep-26-journeys}
 
@@ -144,36 +158,43 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <table>
 <thead>
 <tr>
-<th><strong>CX Co-worker中的歷程模擬（MCP與聊天）</strong><br/></th>
+<th><strong>同事中的歷程模擬（MCP與聊天）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Co-worker中的<strong>歷程模擬技能</strong>可自動進行端對端歷程驗證，讓您輕鬆解讀結果。 請注意，此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15374" target="_blank">DOCAC-15374</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
+<p>Co-worker中的<strong>歷程模擬技能</strong>可自動進行端對端歷程驗證，並讓您輕鬆解讀結果。 請注意，此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* 歷程模擬中的&#x200B;**決策路徑實驗** - **路徑實驗** （決策中最佳化活動的一部分）現在支援歷程模擬。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">DOCAC-15641</a> <!-- Documentation link: TBD -->
-
-* **歷程模擬中的補充ID支援** - **歷程模擬現在支援Supplemental ID**，可讓您針對讀取對象和事件觸發的歷程測試複雜的使用者案例。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">DOCAC-15448</a> <!-- Documentation link: TBD -->
-
 <table>
 <thead>
 <tr>
-<th><strong>從CX同事邊欄建立歷程</strong><br/></th>
+<th><strong>從同事邊欄建立歷程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>使用AI建立歷程</strong>現在可直接從CX Co-worker右側邊欄取得，將先前的AI Assistant體驗取代為品牌重塑的整合式進入點，以產生歷程。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14898" target="_blank">DOCAC-14898</a></p>
+<p><strong>使用AI建立歷程</strong>現在可直接從同事右側邊欄取得，將先前的AI助理體驗取代為品牌重塑的整合式進入點以產生歷程。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程警示的AI推薦卡</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer首頁現在會在歷程警報觸發時顯示<strong>AI建議卡</strong>，其中涵蓋<strong>歷程自訂動作失敗</strong>和<strong>偵測到歷程異常</strong>警報。 選取卡片會開啟歷程，其中右邊欄已預先填入已執行的分析。</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -191,31 +212,31 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>歷程畫布中的新<strong>傳入活動停用</strong>活動可讓您直接從歷程中移除最多五個傳入活動或體驗的設定檔，將傳入取消資格從歷程退出中解耦，以進行更進階的跨頻道協調。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">DOCAC-15465</a> <!-- Documentation link: TBD -->
+* **歷程模擬中的補充ID支援** - **歷程模擬現在支援Supplemental ID**，可讓您針對讀取對象和事件觸發的歷程測試複雜的使用者案例。
 
-* **與CX Coworker比較歷程版本** — 現在，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內逐個節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和預先發佈檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過CX Coworker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，恢復完整保真&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">DOCAC-15297</a> <!-- Documentation link: TBD -->
+* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。
 
-* **歷程畫布中的內容預覽** — 今天檢閱管道內容需要一次開啟一個節點，個別開啟每個節點 — 在具有多個管道節點的歷程中緩慢且容易出錯，尤其是當個人化需要檢查每個節點的多個處理或變體時。 **內容預覽**&#x200B;透過直接在畫布中為每個管道節點呈現內容縮圖，以全熒幕模式檢查並在處理與變體之間切換，來移除該摩擦。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">DOCAC-15456</a> <!-- Documentation link: TBD -->
+* **歷程模擬中的補充ID支援** - **歷程模擬現在支援Supplemental ID**，可讓您針對讀取對象和事件觸發的歷程測試複雜的使用者案例。
 
-* **偵測到新的歷程異常警報** — 現在，當即時歷程的每日流量在歷程登入、歷程退出和事件傳送之間偏離其歷史基準線，或意外降至零時，新的系統警報會警告您。 此警報目前僅可用於生產沙箱。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">DOCAC-15545</a> <!-- Documentation link: TBD -->
+* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。
 
-* **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **與同事比較歷程版本** — 今天，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內依節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和發佈前檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過Co-worker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，取回完整保真的&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。
 
-* **自訂報告的練習步驟事件隱藏** — 作為步驟事件最佳化的一部分，Journey Optimizer現在會在歷程練習期間停止產生某些無法報告的步驟事件。 這只會影響建置在這些模擬執行步驟事件型別上的自訂報表。 如果您受到影響，請重新觸發試執行以重新產生資料。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">DOCAC-15691</a> <!-- Documentation link: TBD -->
+* **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
-* **衛生分析同事技能** - CX Coworker中的新&#x200B;**衛生分析**&#x200B;技能會掃描您的使用中歷程和草稿歷程，找出中斷的設定、無訊息失敗，以及過時或未使用的資產，例如過時的草稿歷程、孤立的資料來源、持續的自訂動作錯誤和高同意排除率，並直接在聊天時顯示建議的修正。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">DOCAC-15689</a> <!-- Documentation link: TBD -->
+* **自訂報告的練習步驟事件隱藏** — 作為步驟事件最佳化的一部分，Journey Optimizer現在會在歷程練習期間停止產生某些無法報告的步驟事件。 這只會影響建置在這些模擬執行步驟事件型別上的自訂報表。 如果您受到影響，請重新觸發試執行以重新產生資料。
 
-* **業務績效分析同事技能** - CX Coworker中的新&#x200B;**業務績效分析**&#x200B;技能會分析您的歷程如何執行、說明績效較低的區域，並建議具體的最佳化，例如重新參與等待、管道升級、傳送時間最佳化、A/B實驗、頻率上限或使用設定檔時區，與每個歷程的目標連結。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">DOCAC-15688</a> <!-- Documentation link: TBD -->
+* **衛生分析同事技能** — 同事中的新衛生分析技能會掃描您的使用中歷程和草稿歷程，找出中斷的設定、無訊息的失敗，以及過時或未使用的資產，例如過時的草稿歷程、孤立的資料來源和持續的自訂動作錯誤，並直接在聊天中顯示建議的修正。<!-- Documentation link: TBD -->
 
-* **歷程屬性中的自動事件復原逾時** — 歷程屬性現在包含&#x200B;**設定事件復原逾時**&#x200B;設定：依預設，受影響的歷程事件會在服務中斷後自動重播長達72小時，而不需要任何動作。 您可以開啟此設定來控制對時間敏感的歷程的重播視窗（0-72小時）。 現有的&#x200B;**逾時或錯誤**&#x200B;欄位也已重新命名為&#x200B;**自訂動作/IDS動作逾時**，以避免這兩個設定混淆。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">DOCAC-15685</a> <!-- Documentation link: TBD -->
+* **業務績效分析同事技能** — 同事中的新&#x200B;**業務績效分析**&#x200B;技能可分析您的歷程執行情形、說明績效較低的領域，並建議具體的最佳化，例如重新參與等待、管道升級和傳送時間最佳化。 <!-- Documentation link: TBD -->
+
+* **歷程屬性中的自動事件復原逾時** — 歷程屬性現在包含&#x200B;**設定事件復原逾時**&#x200B;設定：依預設，受影響的歷程事件會在服務中斷後自動重播長達72小時，而不需要任何動作。 您可以開啟此設定來控制對時間敏感的歷程的重播視窗（0-72小時）。 現有的&#x200B;**逾時或錯誤**&#x200B;欄位也已重新命名為&#x200B;**自訂動作/IDS動作逾時**，以避免這兩個設定混淆。
 
 ### 管道 {#sep-26-channels}
 
@@ -232,9 +253,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <td>
 <p>Journey Optimizer現在將<strong>即時活動支援擴充至Android</strong>，以擴充其即時行動個人化功能。 您可以直接將即時進度更新傳送給使用者，例如訂單追蹤、航班狀態、即時活動更新和即時運動分數。</p>
 <p>除了支援iOS Live活動以外，Journey Optimizer現在還管理其平台設定中Android Live更新的暫時推送代號。 它使用API觸發的行銷活動和Headless API來支援廣播和交易式更新流程。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15510" target="_blank">DOCAC-15510</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -257,9 +275,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <li>在管道清單中選取API觸發行銷活動的自訂管道，這在之前是不可能的。</li>
 <li>為自訂管道定義報表webhook並將其附加至管道設定，以便您可以透過互動事件豐富Journey Optimizer報表。</li>
 </ul>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14037" target="_blank">DOCAC-14037</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -276,15 +291,12 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <td>
 <p>建立您的歷程和行銷活動時，您現在可以直接在歷程或行銷活動動作層級覆寫從所選管道設定衍生的電子郵件引數。</p>
 <p>這可讓您個人化電子郵件標題欄位（<strong>來自名稱</strong>、<strong>來自電子郵件前置詞</strong>、<strong>回覆名稱</strong>和<strong>回覆電子郵件</strong>）、執行位址和清單取消訂閱值，使用設定檔屬性或內容資料以取得更精確的控制權。 特別是，這允許寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而不是透過單一公司地址路由傳送所有傳送。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14718" target="_blank">DOCAC-14718</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* **自訂SMS BYOP驗證彈性** — 您現在可以在連線您的SMS提供者的OAuth設定時，設定&#x200B;**自訂驗證標頭**，包括權杖在傳出訊息中的放置位置以及權杖請求本身的格式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15638" target="_blank">DOCAC-15638</a> <!-- Documentation link: TBD -->
+* **自訂SMS BYOP驗證彈性** — 您現在可以在連線您的SMS提供者的OAuth設定時，設定&#x200B;**自訂驗證標頭**，包括權杖在傳出訊息中的放置位置以及權杖請求本身的格式。
 
 ### 協調的行銷活動 {#sep-26-oc}
 
@@ -300,9 +312,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>在協調的行銷活動中，<strong>加入活動</strong>現在支援AND和OR加入條件。 使用OR邏輯時，完成任一上游分支（而非全部）的設定檔會沿著單一共用下游路徑繼續。 如此一來，就可以直接在畫布上建立「如果A、B或C，則執行此動作」的模式，而不需跨不同分支重複下游步驟。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15020" target="_blank">DOCAC-15020</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -318,21 +327,21 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>協調的行銷活動現在透過在歷程及行銷活動中使用的相同警報架構，支援<strong>自動警報</strong>。 當行銷活動執行失敗、逾時或需要確認時會觸發警報，每個警報包括所發生的情況、時間、地點以及監控檢視的直接連結，並按嚴重程度分類，以便團隊無需手動UI檢查即可優先排序。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14886" target="_blank">DOCAC-14886</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* 協調行銷活動的&#x200B;**LINE頻道** - LINE現在可做為協調行銷活動的原生傳出頻道，連同電子郵件、簡訊和推播。 您可以直接從行銷活動畫布建立及傳送LINE訊息，包括文字、貼圖、影像、影片、位置資料和Flex訊息，在日本和APAC等以LINE為主的市場支援促銷、交易和持續參與使用案例。 此功能先前以「有限可用性」發行，現已正式推出。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">DOCAC-15102</a> <!-- Documentation link: TBD -->
+* 協調行銷活動的&#x200B;**LINE頻道** - LINE現在可做為協調行銷活動的原生傳出頻道，連同電子郵件、簡訊和推播。 您可以直接從行銷活動畫布建立及傳送LINE訊息，包括文字、貼圖、影像、影片、位置資料和Flex訊息，在日本和APAC等以LINE為主的市場支援促銷、交易和持續參與使用案例。 此功能先前以「有限可用性」發行，現已正式推出。
 
-* **新的協調行銷活動監控API** — 新的&#x200B;**API規格**&#x200B;現在可用於協調行銷活動，可讓您以程式設計方式建立、管理和觸發協調行銷活動，與外部系統和自動化管道進行更深入的整合。 <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">DOCAC-14308</a> <!-- Documentation link: TBD -->
+* **新的協調行銷活動監控API** — 新的&#x200B;**API規格**&#x200B;現在可用於協調行銷活動，可讓您以程式設計方式建立、管理和觸發協調行銷活動，與外部系統和自動化管道進行更深入的整合。
 
-* **直接加入UX改良功能** — 從相關集合新增屬性時，您現在可以在三種加入模式（新預設值，警告您卡式產品對效能的潛在影響，加上現有的彙總和進階模式）之間選擇，讓您更容易在建置查詢之前瞭解查詢的取捨。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">DOCAC-15675</a> <!-- Documentation link: TBD -->
+* **直接加入UX改良功能** — 從相關集合新增屬性時，您現在可以在三種加入模式（新預設值，警告您卡式產品對效能的潛在影響，加上現有的彙總和進階模式）之間選擇，讓您更容易在建置查詢之前瞭解查詢的取捨。
 
-* **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中為協調的行銷活動建立條件式內容時，您現在可以直接在&#x200B;**關聯式資料**&#x200B;上建立條件，例如與設定檔相關聯的相關記錄，而不只是標準設定檔屬性。 如此將可縮短與原始版本的差距，因此行銷人員不需要工程協助即可以視覺化方式建置這些條件。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">DOCAC-15679</a> <!-- Documentation link: TBD -->
+* **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中為協調的行銷活動建立條件式內容時，您現在可以直接在&#x200B;**關聯式資料**&#x200B;上建立條件，例如與設定檔相關聯的相關記錄，而不只是標準設定檔屬性。 如此將可縮短與原始版本的差距，因此行銷人員不需要工程協助即可以視覺化方式建置這些條件。
+
+* **促銷活動協調流程監控** — 現在有新的使用者介面可用，以追蹤協調促銷活動細分所使用的關聯式存放區資料的擷取狀態和最新狀態。 它可讓您直接檢視傳送批次對象之資料的健康狀態。 Adobe Experience Platform的「監控」控制面板中新增的「促銷活動協調」索引標籤，能顯示關聯式存放區資料流程（擷取/更新/刪除/失敗/略過的記錄）的健康情況，並具備向下鑽研圖表和每個資料流程/資料集劃分，包括譜系。
+
 
 ### 行銷活動 {#sep-26-campaigns}
 
@@ -349,13 +358,12 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <td>
 <p>您現在可以於上線前，在動作行銷活動中模擬傳入管道動作。 使用模擬模式，透過模擬使用者測試您的設定並預覽呈現的體驗 (包括產生的 URL 和 QR 碼)，讓您可以端到端驗證規則、決策機制與內容呈現。</p>
 <p>此功能目前為 Private Beta 版本，僅供特定組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15166" target="_blank">DOCAC-15166</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **行銷活動的資料夾** — 您現在可以將行銷活動整理到&#x200B;**資料夾**&#x200B;中，以改善介面中的導覽和管理。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15098" target="_blank">DOCAC-15098</a> <!-- Documentation link: TBD -->
+* **行銷活動的資料夾** — 您現在可以將行銷活動整理到&#x200B;**資料夾**&#x200B;中，以改善介面中的導覽和管理。
 
 ### 決策 {#sep-26-decisioning}
 
@@ -371,25 +379,22 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>決策功能現在可用於網頁管道。 您可以直接在網頁視覺化編輯器中使用決策原則，將最相關的產品建議傳送給每位訪客。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11548" target="_blank">DOCAC-11548</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* **從CX Coworker產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過CX Coworker存取，其會取代右側邊欄，作為使用AI建立規則的方式。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">DOCAC-15290</a> <!-- Documentation link: TBD -->
+* **從同事產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過同事存取，取代右側邊欄，作為使用AI建立規則的方式。
 
-* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15702" target="_blank">DOCAC-15702</a> <!-- Documentation link: TBD -->
+* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。
 
 ### 直接郵件 {#sep-26-direct-mail}
 
 此版本中的Direct Mail即將提供下列功能和改善。
 
-* **自動分割大型檔案** — 現在，直接郵件檔案在大約超過20 GB時，可以自動分割成多個部分，或在檔案路由設定中選擇目標檔案大小時手動分割。 選用的JSON資訊清單檔案說明了所有產生的部分。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15677" target="_blank">DOCAC-15677</a> <!-- Documentation link: TBD -->
+* **自動分割大型檔案** — 現在，直接郵件檔案在大約超過20 GB時，可以自動分割成多個部分，或在檔案路由設定中選擇目標檔案大小時手動分割。 選用的JSON資訊清單檔案說明了所有產生的部分。
 
-* **提高對象上限** — 直接郵件管道對象上限已從300萬個設定檔提升至1億個，讓您可將目標鎖定在較大對象上，而不會出現檔案建立錯誤。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15676" target="_blank">DOCAC-15676</a> <!-- Documentation link: TBD -->
+* **提高對象上限** — 直接郵件管道對象上限已從300萬個設定檔提升至1億個，讓您可將目標鎖定在較大對象上，而不會出現檔案建立錯誤。
 
 ### 電子郵件設計工具 {#sep-26-email-designer}
 
@@ -405,9 +410,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>電子郵件主題現在支援深色模式的獨立樣式。 在佈景主題產生器中，您可以為特定變體開啟深色模式，以產生專用深色模式樣式表，讓您從淺色模式樣式中單獨編輯該樣式表 — 在一種模式中所做的變更不再覆寫另一種模式。 在電子郵件和範本編輯器中，案頭和行動檢視選項旁新的預覽切換可讓您以深色模式預覽內容。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15663" target="_blank">DOCAC-15663</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -423,9 +425,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>電子郵件Designer的Dynamic Media元件現在可讓您在瀏覽現有Dynamic Media範本之外，直接匯入Photoshop (PSD)檔案為新範本。 將PSD檔案拖放至元件中，Adobe Journey Optimizer會自動將其轉換為儲存在Dynamic Media中的動態媒體範本，不需要手動轉換或穿過Adobe Experience Manager來迴轉換。 匯入後，您可使用內建的Dynamic Media編輯器編輯範本，這與電子郵件Designer中的Adobe Express內容使用相同的體驗。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15664" target="_blank">DOCAC-15664</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -441,15 +440,12 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>電子郵件Designer現在包含內建<strong>表格元件</strong>，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有組織的版面配置，而不依賴自訂HTML。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15093" target="_blank">DOCAC-15093</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
 </table>
 
-* **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">DOCAC-15662</a> <!-- Documentation link: TBD -->
+* **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。
 
 ### 報表 {#sep-26-reporting}
 
@@ -473,9 +469,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <li><strong>依管道的AJO傳入主張事件輸送量</strong> — 依傳入管道（CBE、應用程式內、內容卡）劃分的主張事件輸送量。</li>
 <li><strong>依事件型別</strong>的AJO傳入主張事件輸送量 — 依事件型別（已解除、已隱藏、已顯示、已觸發、已互動、已傳送）劃分的主張事件輸送量。</li>
 </ul>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15680" target="_blank">DOCAC-15680</a></p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
 </td>
 </tr>
 </tbody>
@@ -485,14 +478,13 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 下列提醒適用於此版本中的管理。
 
-* **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15239" target="_blank">DOCAC-15239</a> <!-- Documentation link: TBD -->
-
-* **即將變更對象構成擴充對象** — 在10月發行（10月底）期間，Journey Optimizer將停止使用或參考來源資料集沒有&#x200B;**主要身分描述項**&#x200B;的對象構成對象的歷程。 此後，歷程中僅支援使用主要身分描述項建置的對象構成對象。 如果您需要這些歷程保持作用中，請聯絡您的Adobe代表 — 我們的產品團隊可幫助您移轉。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15690" target="_blank">DOCAC-15690</a> <!-- Documentation link: TBD -->
+* **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。
 
 ### 可用性改進功能 {#sep-26-usability}
 
-* **內容模擬體驗中的可用性改善** — 新的內容模擬體驗現在可讓您命名並組織變體以便輕鬆比較、直接從每個卡片複製或刪除變體詳細資料、依需求檢視完整屬性路徑和每個卡片管道設定，以及從更顯眼的上傳按鈕上傳您自己的CSV、JSON或JSONL設定檔。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">DOCAC-15570</a>
+* **內容模擬體驗中的可用性改善** — 新的內容模擬體驗現在可讓您命名並組織變體以便輕鬆比較、直接從每個卡片複製或刪除變體詳細資料、依需求檢視完整屬性路徑和每個卡片管道設定，以及從更顯眼的上傳按鈕上傳您自己的CSV、JSON或JSONL設定檔。
 
-* **行銷活動、歷程及協調行銷活動的統一行事曆** — 歷程及行銷活動的行事曆檢視現在會從個別的清查移至統一的左側邊欄可存取功能表，這兩個功能表都會顯示在一個合併的檢視中。 <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">DOCAC-15571</a> <!-- Documentation link: TBD -->
+* **歷程畫布中的內容預覽** — 今天檢閱管道內容需要一次開啟一個節點，個別開啟每個節點 — 在具有多個管道節點的歷程中緩慢且容易出錯，尤其是當個人化需要檢查每個節點的多個處理或變體時。 **內容預覽**&#x200B;透過直接在畫布中為每個管道節點呈現內容縮圖，以全熒幕模式檢查並在處理與變體之間切換，來移除該摩擦。
 
+* **行銷活動、歷程及協調行銷活動的統一行事曆** — 歷程及行銷活動的行事曆檢視現在會從個別的清查移至統一的左側邊欄可存取功能表，這兩個功能表都會顯示在一個合併的檢視中。
 

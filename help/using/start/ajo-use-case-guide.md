@@ -10,16 +10,17 @@ level: Beginner
 keywords: journey optimizer，使用案例，決定指南，哪些功能，開始使用，從業者目標，教學課程
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # 從您的目標開始 {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ ht-degree: 29%
 
 如果特定案例沒有提供端對端教學課程，連結會帶您前往目前的最佳起點，以瞭解功能並開始進行。
 
-AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;標籤。 對話式[AI助理](ai-features.md#ai-assistant)也可以隨時回答產品問題，並呈現有關您歷程的營運深入分析。 如需完整的智慧型功能集，請參閱[AI與智慧型功能](ai-features.md)。
+AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;標籤。 對話式[AI助理](ai-features.md#ai-assistant)也可以隨時回答產品問題，並呈現有關您歷程的營運深入分析。 如需完整的智慧型功能集，請參閱[使用AI](ai-features.md)。
 
 >[!TIP]
 >
@@ -246,6 +247,43 @@ AI內建於許多這些功能中 — 在下表中尋找&#x200B;**(AI)**&#x200B;�
 1. [智慧型功能](ai-features.md)中的圖層，可自動排名及最佳化優惠方案。
 
 ➡️ [開始使用Offer Decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## 使用案例教戰手冊 {#playbooks}
+
+使用案例教戰手冊是預先建立的工作流程，可幫助您快速實施常見行銷情境。 每個教戰手冊都包含現成的歷程、訊息、方案和區段。
+
+![使用案例教戰手冊介面](assets/playbooks-filter.png)
+
++++**教戰手冊的運作方式**
+
+1. **瀏覽** Playbook資料庫以尋找符合您目標的使用案例
+2. **啟用**&#x200B;行動手冊以自動產生所有必要的資源
+3. **自訂**&#x200B;產生的資產，以符合您的品牌和需求
+4. **將**&#x200B;部署至生產環境或在開發沙箱中測試
+
++++
+
++++**可用的教戰手冊**
+
+瀏覽Journey Optimizer教戰手冊，瞭解常見情境，例如：
+
+* 捨棄的購物車復原
+* 新客戶的歡迎系列
+* 購買後參與
+* 生日訊息
+* 重新參與行銷活動
+
++++
+
++++**先決條件**
+
+* 具有適當許可權的沙箱
+* 電子郵件、推播和/或簡訊的頻道設定
+* 建立歷程和訊息的使用者許可權
+
++++
+
+[檢視所有可用的教戰手冊](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=zh-Hant){target="_blank"} | [在Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=zh-Hant){target="_blank"}
 
 ## 範例情境 {#example-scenarios}
 

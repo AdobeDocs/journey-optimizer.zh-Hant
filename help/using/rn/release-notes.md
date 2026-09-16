@@ -10,27 +10,35 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+    internal-label: Journey Optimizer release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
+    internal-label: Personalization
+source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 73%
-
+source-wordcount: '2877'
+ht-degree: 68%
 ---
-
 # 發行說明 {#release-notes}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +61,14 @@ ht-degree: 73%
 <table>
 <thead>
 <tr>
-<th><strong>CX Co-worker中的內容管理MCP工具</strong><br/></th>
+<th><strong>CX Coworker中的內容管理MCP工具</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>CX Co-worker現在擁有一組新的<strong>內容管理MCP工具</strong>，可讓您透過自然語言提示探索和管理Journey Optimizer內容資產。 要求其列出或擷取內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容。 此外也可以建立內容、更新範本，以及建立、更新、複製和發佈片段，並直接在歷程和行銷活動中更新內嵌頻道動作內容。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ajo-coworker-skills.md#content-management">詳細文件</a>以瞭解詳情。</p>
+<p>CX Coworker現在有一組新的<strong>內容管理MCP工具</strong>，可讓您透過自然語言提示探索和管理Journey Optimizer內容資產。 要求其列出或擷取內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容。 此外也可以建立內容、更新範本，以及建立、更新、複製和發佈片段，並直接在歷程和行銷活動中更新內嵌頻道動作內容。</p>
+<p>如需詳細資訊，請參閱<a href="../start/content-management-coworker-skills.md#content-management">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月3日</p>
 </td>
 </tr>
@@ -70,6 +78,16 @@ ht-degree: 73%
 * **登陸頁面的強制同意核取方塊** — 您現在可以在登陸頁面表單元件中讓核取方塊成為強制性，要求訪客在提交表單前先選取該核取方塊（例如，提供同意）。 [了解更多](../landing-pages/lp-content.md#use-form-component)
 
   推出日期： 2026年9月4日
+
+* **個人化語法中的其他保留關鍵字** - Profile Query Language (PQL)中的保留關鍵字清單已展開，以包含一般關鍵字、時間單位和布林值/邏輯運運算元。 如果您的XDM結構描述包含符合其中一個關鍵字的欄位名稱，請以反引號將其包住，以便在個人化運算式中參照。 [了解更多](../personalization/personalization-syntax.md#reserved-keywords)
+
+  推出日期： 2026年9月1日
+
+### 忠誠度 {#sep-26-loyalty}
+
+* **「永遠」忠誠度挑戰** — 忠誠度挑戰現在可以無限期地執行。 設定排程時，將&#x200B;**挑戰結束**&#x200B;設為&#x200B;**無結束日期**，挑戰永不過期。 [了解更多](../loyalty-challenges/create-challenges.md#schedule)
+
+  推出日期： 2026年9月1日
 
 ### 歷程 {#sep-26-journeys}
 
@@ -109,6 +127,18 @@ ht-degree: 73%
 </tbody>
 </table>
 
+* **偵測到新的歷程異常警報** — 現在，當即時歷程的每日流量在歷程登入、歷程退出和事件傳送之間偏離其歷史基準線，或意外降至零時，新的系統警報會警告您。 此警報目前僅可用於生產沙箱。
+
+  [了解更多](../reports/alerts.md)
+
+  推出日期： 2026年9月15日
+
+* 歷程模擬中的&#x200B;**決策** — 模擬現在支援路徑實驗，作為&#x200B;**最佳化**&#x200B;活動的一部分。
+
+  [了解更多](../building-journeys/simulate-journey-gs.md)
+
+  推出日期： 2026年9月15日
+
 * **歷程模擬中的決策** — 您現在可以模擬依賴Adobe Journey Optimizer決策的歷程，新增支援下列專案：
 
   * 「模擬」現在支援「內容決策」節點。
@@ -124,7 +154,7 @@ ht-degree: 73%
 
   推出日期： 2026年9月1日
 
-* **分析歷程異常技能** - CX Co-worker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程的登入、退出或訊息傳送計數中意外的尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../start/ajo-coworker-skills.md#journey-analyze)
+* **分析歷程異常技能** - CX Coworker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程進入、退出或訊息傳送計數中的非預期尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../start/journeys-coworker-skills.md#journey-analyze)
 
   推出日期： 2026年9月2日
 
@@ -155,6 +185,12 @@ ht-degree: 73%
 * **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
 
 +++
+
+### 可用性改進功能 {#sep-26-usability}
+
+* **更輕鬆地在新的歷程畫布中分離及加入分支** — 您現在可以將分支從歷程的其餘部分分離而不刪除它，並稍後透過直接在畫布上選取符合資格的活動，或從已中斷連線或已使用分支的清單中選取它，在不同的時間點重新加入。 [了解更多](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
+
+  推出日期： 2026年9月1日
 
 ## 2026 年 8 月發行說明 {#aug-26-updates}
 
@@ -312,8 +348,8 @@ ht-degree: 73%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer推出<strong>忠誠度深入分析</strong>，這是CX同事的新技能，可詢問有關挑戰效能的問題以及擷取到Adobe Experience Platform中忠誠度欄位群組中的其他忠誠度計畫資料。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ajo-coworker-skills.md#loyalty-skills">詳細文件</a>以瞭解詳情。</p>
+<p>Journey Optimizer推出<strong>忠誠度深入分析</strong>，這是CX Coworker的一項新技能，可讓您詢問有關挑戰績效的問題，以及擷取到Adobe Experience Platform中忠誠度欄位群組中的其他忠誠度計畫資料。</p>
+<p>如需詳細資訊，請參閱<a href="../start/loyalty-coworker-skills.md">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年8月31日</p>
 </td>
 </tr>

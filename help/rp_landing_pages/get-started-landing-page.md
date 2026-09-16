@@ -7,18 +7,16 @@ role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 81%
-
+ht-degree: 100%
 ---
-
 # 開始使用 Adobe Journey Optimizer{#get-started}
 
-無論您是Journey Optimizer的新手還是回訪以探索新功能，此頁面都是您的起點。 選擇適合您的角色和目標的路徑。
+無論您是 Journey Optimizer 的新手還是回訪以探索新功能，此頁面都是您的起點。 選擇適合您的角色和目標的路徑。
 
-## 不熟悉Journey Optimizer？ {#essentials}
+## 剛開始使用 Journey Optimizer？ {#essentials}
 
 了解 Adobe Journey Optimizer 的基礎知識，以及它如何實現大規模的資料導向個人化。
 
@@ -124,7 +122,7 @@ AI 與智慧功能
 
 為您的目標尋找合適的功能
 
-依業務目標瀏覽使用案例，並跳至建議的Journey Optimizer功能。
+依業務目標瀏覽使用案例，並跳至建議的 Journey Optimizer 功能。
 
 [探索使用案例](../using/start/ajo-use-case-guide.md)
 :::
@@ -218,7 +216,7 @@ AI 與智慧功能
 ### 學習並取得支援
 
 * **[教學課程影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"}** - 涵蓋核心功能的逐步教學課程影片
-* **[使用案例教戰手冊](../using/start/ai-features.md#playbooks)** - 針對捨棄購物車復原和歡迎行銷活動等常見案例，預先建立工作流程
+* **[使用案例教戰手冊](../using/start/ajo-use-case-guide.md#playbooks)** - 針對捨棄購物車復原和歡迎行銷活動等常見案例，預先建立工作流程
 * **[監視與疑難排解](troubleshoot-journey-landing-page.md)** - 追蹤績效、識別問題和快速解決問題的工具
 * **[最新資訊](../using/rn/release-notes.md)** - 了解最新功能、改進和修正
 * **[社群論壇](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=zh-Hant){target="_blank"}** - 與其他使用者交流、提出問題並分享最佳做法
@@ -241,6 +239,6 @@ AI 與智慧功能
 >
 >您的環境可用元件和功能取決於您的[權限](../using/administration/permissions.md)和[授權套件](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}。 如有關於特定設定的問題，請聯絡您的 Adobe 客戶成功經理。
 
-## 正在尋找實作順序嗎？
+## 正在尋找實施順序？
 
-如果您的團隊是第一次設定Journey Optimizer，請參閱[角色和責任](../using/start/quick-start.md)，以瞭解所有角色的建議操作順序。
+如果您的團隊是第一次設定 Journey Optimizer，請參閱[角色與責任](../using/start/quick-start.md)，以瞭解所有角色的建議操作順序。

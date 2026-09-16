@@ -10,16 +10,17 @@ level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1021'
 ht-degree: 14%
-
 ---
-
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
 
 >[!CONTEXTUALHELP]
@@ -60,7 +61,7 @@ ht-degree: 14%
 * **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像處理任何其他挑戰型別一樣設定「設定」、「內容」和「傳訊」。
 
 >[!TIP]
->您也可以使用[CX Co-worker Journey Skills](../start/ajo-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠誠度挑戰管理**，以自然語言提示來建立和管理忠誠度挑戰，以加快挑戰建立的速度。
+>您也可以使用[CX Coworker技巧中的&#x200B;**忠誠度挑戰管理**&#x200B;來建立和管理忠誠度挑戰，以獲得忠誠度](../start/loyalty-coworker-skills.md#loyalty-challenge-management)，並使用自然語言提示來加速挑戰建立。
 
 ➡️ [觀看功能概觀](#video)
 
@@ -187,4 +188,8 @@ ht-degree: 14%
 **剛開始面對忠誠度挑戰？** 觀看此概觀，瞭解功能和優點：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496460?captions=chi_hant&quality=12)
+
+## 互動式示範 {#demo}
+
+想要先瞭解行動中的忠誠度挑戰？ 請檢視[互動式示範](loyalty-challenges-demo.md)。
 

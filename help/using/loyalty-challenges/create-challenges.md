@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: 2577
-ht-degree: 12%
-
+source-wordcount: '2634'
+ht-degree: 11%
 ---
-
 
 # 建立挑戰 {#create-challenges}
 
@@ -102,14 +102,14 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑戰排程"
->abstract="使用開始和結束日期與時間以及時區，設定挑戰的上線時間。 在任務完成視窗中，選擇客戶可在挑戰期間完成任務的時間。"
+>abstract="使用開始和結束日期與時間以及時區設定當問答為即時狀態時，或選取「沒有結束日期」以無限期執行問答。 在任務完成視窗中，選擇客戶可在挑戰期間完成任務的時間。"
 
 設定您的挑戰執行時間：
 
 1. 在&#x200B;**[!UICONTROL 排程]**&#x200B;區段中，設定：
 
    * **[!UICONTROL 開始日期和時間]**：客戶可以提出質詢的時間。
-   * **[!UICONTROL 結束日期和時間]**：挑戰到期且不再接受新完成時。
+   * **[!UICONTROL 結束日期和時間]**：挑戰到期且不再接受新完成時。 選取&#x200B;**[!UICONTROL 無結束日期]**，而非無限期執行質詢的日期。
    * **[!UICONTROL 時區]**：用於挑戰排程的時區。
 
    ![](assets/challenge-create-schedule.png)
@@ -353,6 +353,8 @@ ht-degree: 12%
    >[!IMPORTANT]
    >
    >任何挑戰變更必須在「忠誠度挑戰」編輯器中進行，且需要您產生新歷程。 如果您變更挑戰，直接在現有挑戰歷程中完成的任何工作都將遺失。
+   >
+   >不會針對以&#x200B;**[!UICONTROL 無結束日期]**&#x200B;設定的挑戰產生歷程，因為歷程的執行時間不能超過90天。 挑戰本身仍可正確執行，成員仍可以選擇加入並完成任務。
 
 1. 開啟產生的歷程並發佈。 歷程以&#x200B;**草稿**&#x200B;狀態顯示，名稱格式為&#x200B;*&quot;歷程： [挑戰名稱]&quot;*，可從下列位置存取：
 

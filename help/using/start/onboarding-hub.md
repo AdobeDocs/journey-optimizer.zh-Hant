@@ -11,16 +11,17 @@ hide: true
 keywords: journey optimizer，入門，入門中心，使用案例，影片，教學課程，開始，升級，第一個歷程
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # Journey Optimizer入門中心 {#onboarding-hub}
 
 
@@ -165,5 +166,5 @@ rebuild
 * [為您的目標尋找正確的Journey Optimizer功能](ajo-use-case-guide.md) — 每個功能的目標優先決定指南。
 * [歷程使用案例庫](../building-journeys/jo-use-cases.md) — 實用的範例和實作模式。
 * [重要術語](terminology.md) — 釐清每項功能背後的概念。
-* [AI與智慧型功能](ai-features.md) — 探索AI小幫手、傳送時間最佳化及內容產生。
+* [使用AI](ai-features.md) — 探索AI小幫手、傳送時間最佳化及內容產生。
 * [開始使用資料管理](../data/gs-data.md) — 如何擷取、統一及啟用資料。
