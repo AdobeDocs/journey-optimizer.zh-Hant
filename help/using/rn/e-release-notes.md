@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3549'
 ht-degree: 8%
 ---
 
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 </td>
 </tr>
 </tbody>
@@ -295,6 +295,29 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Android推播通知範本改善</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Android推播通知先前以單一固定版面呈現：影像一律會置中對齊，長內文會被截斷。 此版本在製作時引入範本選擇器，讓行銷人員可控制Android推播通知的版面。</p>
+<p>有以下改良功能可供使用：</p>
+<ul>
+<li><b>配置選擇</b>：編寫Android推播時新增推播通知配置選擇器（標準/展開）。</li>
+<li><b>標準版面配置為「顯示整個影像」</b>：選擇裁切成填色與縮放成符合。</li>
+<li><b>展開的版面</b>：不含截斷的多行內文，加上選用的大圖示縮圖。</li>
+<li><b>收合內文（展開版面）</b>：為收合狀態設定個別較短的內文。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 * **自訂SMS BYOP驗證彈性** — 您現在可以在連線您的SMS提供者的OAuth設定時，設定&#x200B;**自訂驗證標頭**，包括權杖在傳出訊息中的放置位置以及權杖請求本身的格式。
 
