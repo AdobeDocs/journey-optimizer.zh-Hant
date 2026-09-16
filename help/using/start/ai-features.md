@@ -76,14 +76,14 @@ Adobe Journey Optimizer運用人工智慧和機器學習的強大功能，協助
 
 CX Enterprise Coworker是Adobe的對話式體驗，可與您的業務應用程式整合，協助您更高效地工作，將整個Adobe應用程式的客戶體驗和行銷工作流程自動化。 您不必一次執行一個手動設定步驟，而是以自然語言描述業務目標，然後由同事計畫、執行及驗證工作。
 
-Co-worker是AI Assistant的進化：它保留了AI Assistant代理程式已經執行的所有工作（產品知識、營運和資料深入分析），同時新增了完成端對端工作所需的企業工具、技能、治理和記憶體，而不僅僅是回答問題。 正在以滾動方式將組織從AI助理轉換為同事，並且某些組織可能會保留對AI助理的存取權，直到為同事啟用為止。 [進一步了解轉換至同事](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
+Co-worker是AI Assistant的進化：它保留了AI Assistant代理程式已經執行的所有工作（產品知識、營運和資料深入分析），同時新增了完成端對端工作所需的企業工具、技能、治理和記憶體，而不僅僅是回答問題。 正在以滾動方式將組織從AI助理轉換為同事，並且某些組織可能會保留對AI助理的存取權，直到為同事啟用為止。 [進一步了解轉換至同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}。
 
 在Co-worker檔案中瞭解更多：
 
 * [關於同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
-* [什麼是技能？](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概觀，包括示範影片。
-* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
-* [同事聊天使用案例](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 所有Adobe解決方案的所有可用使用案例。
+* [什麼是技能？](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"}  — 同事技能概觀，包括示範影片。
+* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
+* [同事聊天使用案例](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — 所有Adobe解決方案的所有可用使用案例。
 
 ### Journey Optimizer的同事技能 {#cx-coworker-skills}
 
@@ -163,7 +163,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程分析技能 {#journey-analyze-skill}
 
-[歷程分析代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
+[歷程分析代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"}可協助您透過自然語言分析將歷程效能最佳化：
 
 +++**主要功能**
 
@@ -186,7 +186,7 @@ Journey Agent包含AI助理中的兩項技能：分析和建立。 使用它們�
 
 #### 歷程建立技能 {#journey-create-skill}
 
-[歷程建立代理程式](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
+[歷程建立代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"}可幫助您從自然語言提示建立歷程，將您的目標轉換為結構化的歷程設定：
 
 +++**主要功能**
 
