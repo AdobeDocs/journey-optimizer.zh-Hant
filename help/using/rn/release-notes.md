@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # 發行說明 {#release-notes}
 
@@ -120,12 +120,18 @@ ht-degree: 68%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+* 歷程模擬中的&#x200B;**決策** — 模擬現在支援路徑實驗，作為&#x200B;**最佳化**&#x200B;活動的一部分。 路由是由Decisioning處理，而且每個模擬使用者是隨機且非確定性的。
+
+  [了解更多](../building-journeys/simulate-journey-gs.md)
+
+  推出日期： 2026年9月15日
 
 * **偵測到新的歷程異常警報** — 現在，當即時歷程的每日流量在歷程登入、歷程退出和事件傳送之間偏離其歷史基準線，或意外降至零時，新的系統警報會警告您。 此警報目前僅可用於生產沙箱。
 
@@ -133,13 +139,7 @@ ht-degree: 68%
 
   推出日期： 2026年9月15日
 
-* 歷程模擬中的&#x200B;**決策** — 模擬現在支援路徑實驗，作為&#x200B;**最佳化**&#x200B;活動的一部分。
-
-  [了解更多](../building-journeys/simulate-journey-gs.md)
-
-  推出日期： 2026年9月15日
-
-* **歷程模擬中的決策** — 您現在可以模擬依賴Adobe Journey Optimizer決策的歷程，新增支援下列專案：
+* **歷程模擬中的決策** — 您現在可以模擬依賴決策的歷程，新增支援下列專案：
 
   * 「模擬」現在支援「內容決策」節點。
   * 「模擬」現在支援「最佳化」活動的目標定位規則方法。
