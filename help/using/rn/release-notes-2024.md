@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 6911
+source-wordcount: '6911'
 ht-degree: 100%
-
 ---
-
 # 發行說明 2024 年 {#release-notes-2024}
 
 此頁面列出了於 2024 年發行的 [!DNL Journey Optimizer] 所有功能和改進項目。
@@ -1328,7 +1328,7 @@ table>
 <tr>
 <td>
 <p>在 Real-Time CDP 和 Journey Optimizer 中，利用特定產業使用案例教戰手冊的目錄，解決您可以使用 Adobe Experience Platform 和 Adobe Journey Optimizer 來執行的常見使用案例。</p><p>在您選擇最符合需求的教戰手冊後，您可加以啟用來產生歷程、訊息、結構描述或區段等支援使用案例所需的資產，並根據結構描述來予以自訂，以加速創造價值。</p>
-<p>如需詳細資訊，請參閱<a href="../start/ai-features.md#playbooks">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../start/ajo-use-case-guide.md#playbooks">詳細說明文件</a>。</p>
 <br/><img src="assets/do-not-localize/playbooks.gif"/>
 </tr>
 </tbody>
