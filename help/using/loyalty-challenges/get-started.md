@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="忠誠度挑戰"
 >abstract="您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。"
-
->[!AVAILABILITY]
->
->Journey Optimizer Loyalty目前不適用於Healthcare Shield和Privacy and Security Shield客戶。 未來功能準備就緒時，Healthcare Shield和Privacy and Security Shield客戶的可用性將會更新。
 
 ## 概觀 {#overview}
 
@@ -61,7 +57,7 @@ ht-degree: 14%
 * **自備資料挑戰** （可用性受限）：挑戰框架（任務和獎勵）是由您的「忠誠度挑戰」資料整合所組成。 您可以像處理任何其他挑戰型別一樣設定「設定」、「內容」和「傳訊」。
 
 >[!TIP]
->您也可以使用[CX Coworker技巧中的&#x200B;**忠誠度挑戰管理**&#x200B;來建立和管理忠誠度挑戰，以獲得忠誠度](../start/loyalty-coworker-skills.md#loyalty-challenge-management)，並使用自然語言提示來加速挑戰建立。
+>您也可以使用[忠誠度的同事技能](loyalty-coworker-skills.md#loyalty-challenge-management)中的&#x200B;**忠誠度挑戰管理**，以自然語言提示快速建立挑戰，來建立和管理忠誠度挑戰。
 
 ➡️ [觀看功能概觀](#video)
 

@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '11356'
 ht-degree: 89%
@@ -37,9 +37,9 @@ ht-degree: 89%
 
 * 已新增驗證自訂動作傳送的指南： **資料集查詢範例**&#x200B;頁面現在說明如何根據動作型別在訊息回饋事件、電子郵件追蹤和歷程步驟事件資料集之間進行選擇，以及說明如何解決「資料集未布建的表格」錯誤的檔案。 **歷程步驟事件總覽**&#x200B;和&#x200B;**疑難排解您的即時歷程執行**&#x200B;頁面已據此更新，澄清成功的自訂動作呼叫只會確認Journey Optimizer已執行動作，不會確認外部系統已傳送訊息。 [閱讀更多](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* 有關CX Coworker的資訊已新增至&#x200B;**使用AI**&#x200B;頁面，內容涵蓋CX Coworker是什麼、它與AI助理的關係，以及官方同事檔案的參考資料。 每個功能指南中也新增了專屬的技能頁面 — [歷程的CX Coworker技能](../start/journeys-coworker-skills.md)、[忠誠度的CX Coworker技能](../start/loyalty-coworker-skills.md)和[CX Coworker內容管理工具](../start/content-management-coworker-skills.md)。 [閱讀更多](../start/ai-features.md#cx-coworker)
+* 有關CX Coworker的資訊已新增至&#x200B;**使用AI**&#x200B;頁面，內容涵蓋CX Coworker是什麼、它與AI助理的關係，以及官方同事檔案的參考資料。 每個功能指南中也新增了專屬的技能頁面 — [歷程的CX Coworker技能](../building-journeys/journeys-coworker-skills.md)、[忠誠度的CX Coworker技能](../loyalty-challenges/loyalty-coworker-skills.md)和[CX Coworker內容管理工具](../content-management/content-management-coworker-skills.md)。 [閱讀更多](../start/ai-features.md#cx-coworker)
 
-* 已在CX Coworker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../start/journeys-coworker-skills.md#journey-analyze)
+* 已在CX Coworker頁面的&#x200B;**歷程分析**&#x200B;下記錄新的&#x200B;**分析歷程異常**&#x200B;技能。 它會根據歷史基準偵測歷程的進入、退出或傳送計數中意外的尖峰、下降或平線，並執行唯讀診斷以找出可能的根本原因。 [閱讀更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * **護欄和限制**&#x200B;頁面已更正，以反映超過100 KB的視覺片段或超過200 KB的運算式片段不會再造成電子郵件傳送的截斷問題：現在單一700 KB片段大小護欄適用。 [閱讀更多](../start/guardrails.md#fragments-guardrails)
 
@@ -47,7 +47,7 @@ ht-degree: 89%
 
 * **AJO訊息回饋事件資料集**&#x200B;檔案已擴充，以澄清其涵蓋所有管道（電子郵件、SMS/RCS/MMS、直接郵件）的訊息傳遞回饋，而不只是電子郵件和推播，現在包含&#x200B;**將測試和非測試執行分類**&#x200B;區段，說明如何解譯`isTestExecution`欄位，包括`NULL`或缺少的值。 [閱讀更多](../data/datasets-query-examples.md#classify-test-executions)
 
-* 已針對CX Coworker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../start/content-management-coworker-skills.md#content-management)
+* 已針對CX Coworker記錄新的&#x200B;**內容管理**&#x200B;功能，由15個讀取/寫入MCP工具提供支援，可讓您使用自然語言提示探索、建立、更新、複製及發佈內容範本、片段、登陸頁面及歷程/行銷活動內嵌訊息內容。 [閱讀更多](../content-management/content-management-coworker-skills.md#content-management)
 
 * **將內容新增至您的登入頁面**&#x200B;檔案現在說明&#x200B;**將表單欄位設為同意核取方塊的必要欄位**&#x200B;選項：啟用時，除非選取核取方塊，且檢查在使用者端和伺服器端強制執行，否則無法提交表單。 [閱讀更多](../landing-pages/lp-content.md#use-form-component)
 
@@ -379,9 +379,9 @@ ht-degree: 89%
 
 * 已在校樣傳送文件中新增附註，以釐清頻率上限規則適用於校樣。 頁面現在包含「必須閱讀」區段，其中包含有關頻率上限行為、鏡像頁面限制和資產可存取性規則的重要考量。 [閱讀全文](../content-management/proofs.md)
 
-* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀更多](../channels/gs-channels.md#channels)
+* 「管道快速入門」頁面已新增新的通訊管道可用性表格，顯示哪些管道在歷程和行銷活動 (動作行銷活動、API 觸發的行銷活動以及協調的行銷活動) 中受到支援。 [閱讀全文](../channels/gs-channels.md#channels)
 
-* 已建立新的全面追蹤登陸頁面，以協助使用者探索及存取 [!DNL Journey Optimizer] 中提供的所有追蹤與監視功能。 [閱讀更多](../start/get-started-tracking.md)
+* 已建立新的全面追蹤登陸頁面，以協助使用者探索及存取 [!DNL Journey Optimizer] 中提供的所有追蹤與監視功能。 [閱讀全文](../start/get-started-tracking.md)
 
 * 已增強「電子郵件選擇退出管理」頁面，其中包含有關取消訂閱流程的詳細資訊，說明登陸頁面選擇退出的預期事件順序。 [閱讀全文](../email/email-opt-out.md#send-message-unsubscribe-link)
 
@@ -393,9 +393,9 @@ ht-degree: 89%
 
 * 推出新的歷程使用案例資料庫，整理實用使用案例集合，包括戰術模式 (禁止邏輯、個人化技術、歷程退出策略) 和涵蓋行銷和技術工作流程的完整端到端案例。 [閱讀全文](../building-journeys/jo-use-cases.md)
 
-* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀更多](../building-journeys/weekday-email-uc.md)
+* 推出新使用案例，示範如何設定歷程以僅在工作日 (星期一至星期五) 傳送電子郵件，以及在星期一指定時間自動整理週末項目佇列。 [閱讀全文](../building-journeys/weekday-email-uc.md)
 
-* 已推出新頁面說明 [!DNL Journey Optimizer] 的決策功能，包括新一代決策框架與現有的決策管理解決方案之間的差異，以及跨管道提供個人化產品建議的主要優點。 [閱讀更多](../experience-decisioning/gs-decision.md)
+* 已推出新頁面說明 [!DNL Journey Optimizer] 的決策功能，包括新一代決策框架與現有的決策管理解決方案之間的差異，以及跨管道提供個人化產品建議的主要優點。 [閱讀全文](../experience-decisioning/gs-decision.md)
 
 * 客群啟用文件已新增一個區段，說明如何在 [!DNL Journey Optimizer] 中啟用不支援的客群類型 (例如 Customer Journey Analytics 客群)，方法是在客群入口網站中以新的區段定義來包裝這些客群。 [閱讀全文](../audience/target-audiences.md#activation-non-supported)
 
@@ -430,7 +430,7 @@ ht-degree: 89%
 * 區段定義文件已新增附註，以澄清 `frequencyMap` 屬性不支援用於區段定義，且無法用作客群細分條件的一部分。 對於以頻率為基礎的目標定位，請考慮在商業規則下使用頻率上限規則。 [閱讀全文](../audience/creating-a-segment-definition.md)
 * API 呼叫回應文件中已新增一個範例，說明如何在原生管道中使用自訂動作回應。 此範例示範如何在電子郵件、推播和簡訊中使用 Handlebars 語法，從自訂動作回應中反覆處理巢狀陣列。 [閱讀全文](../action/action-response.md#response-in-channels)
 
-* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。 該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀更多](../action/acc-action.md#update-action)
+* Campaign v7/v8 整合文件中已新增章節，說明在即時 (RT) 端點變更時如何更新現有的自訂動作。 該章節包含更新端點 URL、測試連線以及在儲存前驗證變更的逐步指示。 [閱讀全文](../action/acc-action.md#update-action)
 
 * 視覺片段文件中已新增新的限制和最佳做法章節，以警告使用者不支援將包含條件式內容的片段，巢狀嵌套在其他同樣包含條件式內容的未鎖定片段中。 該指南包括相容性模式問題的疑難排解步驟，以及正確電子郵件結構設計的建議。 [閱讀全文](../email/use-visual-fragments.md#fragment-dynamic-content)
 
@@ -456,9 +456,9 @@ ht-degree: 89%
 
 * 表示無法為先前建立之產品建議啟用或停用的頻率上限的警告說明，已從「將限制新增至產品建議」頁面中移除。 [閱讀全文](../offers/offer-library/add-constraints.md#capping)
 
-* 現在提供有關如何使用歷程步驟事件的文件。 [閱讀更多](../reports/journey-step-events-overview.md)
+* 現在提供有關如何使用歷程步驟事件的文件。 [閱讀全文](../reports/journey-step-events-overview.md)
 
-* 現已推出有關歷程進入和退出條件的全新全面指南，其中包含最佳做法、真實範例，以及在 [!DNL Adobe Journey Optimizer] 中管理輪廓進入和退出歷程時機的實用指引。 [閱讀更多](../building-journeys/entry-exit-criteria-guide.md)
+* 現已推出有關歷程進入和退出條件的全新全面指南，其中包含最佳做法、真實範例，以及在 [!DNL Adobe Journey Optimizer] 中管理輪廓進入和退出歷程時機的實用指引。 [閱讀全文](../building-journeys/entry-exit-criteria-guide.md)
 
 * 推出新頁面，說明如何反覆處理訊息中的內容資料。 本指南說明如何使用 Handlebars 語法，以顯示個人化中事件、自訂動作回應、資料集查詢和其他內容來源的動態清單。 [閱讀全文](../personalization/iterate-contextual-data.md)
 
@@ -468,9 +468,9 @@ ht-degree: 89%
 
 ## 2025 年 10 月 {#october-2025}
 
-* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀更多](../content-management/image-to-html.md)
+* 您現在可以使用影像至 HTML 轉換工具，將影像轉換為 HTML 範本。 [閱讀全文](../content-management/image-to-html.md)
 
-* 現在提供 [!DNL Adobe Journey Optimizer] 發行週期的相關資訊。 [閱讀更多](releases.md)
+* 現在提供 [!DNL Adobe Journey Optimizer] 發行週期的相關資訊。 [閱讀全文](releases.md)
 
 * 全新歷程常見問題頁面已推出。 [閱讀全文](../building-journeys/journey-faq.md)
 
@@ -514,9 +514,9 @@ ht-degree: 89%
 
 * 已在歷程步驟事件文件中新增疑難排解章節，其中包含最常捨棄事件類型的定義、常見原因和疑難排解步驟。 [閱讀全文](../reports/sharing-field-list.md#discarded-events)
 
-* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀更多](../building-journeys/supplemental-identifier.md#exit-criteria)
+* 有關如何在歷程中使用補充識別碼的文件現在包含一個表格，詳細說明當使用補充識別碼在歷程中套用退出條件時，輪廓的行為方式。 [閱讀全文](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* 已新增疑難排解區段，以協助瞭解暫停歷程中的輪廓捨棄。 [閱讀更多](../building-journeys/journey-pause.md#discards-troubleshoot)
+* 已新增疑難排解區段，以協助瞭解暫停歷程中的輪廓捨棄。 [閱讀全文](../building-journeys/journey-pause.md#discards-troubleshoot)
 
 * 結構描述概觀文件中已新增資訊，以區分用於協調行銷活動的標準和關聯式結構描述。 [閱讀全文](../data/gs-data.md)
 
@@ -552,7 +552,7 @@ ht-degree: 89%
 
 * 「片段」區段已新增附註，指定在歷程或行銷活動中啟用追蹤時，如果連結存在於片段中，且此片段用於訊息中，則會追蹤這些連結，例如訊息中包含的所有其他連結。 [了解更多](../content-management/create-fragments.md#content)
 
-* 在 [!DNL Journey Optimizer] 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀更多](../configuration/delegate-subdomain.md#guardrails)
+* 在 [!DNL Journey Optimizer] 中套用至子網域委派的護欄和限制已擴充並整合至一個專用區段。 [閱讀全文](../configuration/delegate-subdomain.md#guardrails)
 
 * 「建立遞補優惠」和「建立決定」頁面已新增附註，其中提及遞補優惠應包含決定內使用的所有代表。 [閱讀全文](../offers/offer-library/creating-fallback-offers.md)
 
@@ -590,11 +590,11 @@ ht-degree: 89%
 
 ## 2025 年 5 月 {#may-2025}
 
-* 目前已經可以到「連線系統和環境」區段，使用 [!DNL Journey Optimizer] 提供的 Adobe 整合功能。 [閱讀更多](../integrations/ajo-integrations.md)
+* 目前已經可以到「連線系統和環境」區段，使用 [!DNL Journey Optimizer] 提供的 Adobe 整合功能。 [閱讀全文](../integrations/ajo-integrations.md)
 
-* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀更多](../integrations/content-integrations.md)
+* 目前已將內容整合社為群組，歸類到 [內容管理] 區段。 [閱讀全文](../integrations/content-integrations.md)
 
-* 已更新 Adobe Experience Platform 和 [!DNL Journey Optimizer] 的架構圖。 [閱讀更多](../start/get-started.md#architecture)
+* 已更新 Adobe Experience Platform 和 [!DNL Journey Optimizer] 的架構圖。 [閱讀全文](../start/get-started.md#architecture)
 
 * 新增有關個人化編輯器遊樂場的影片，以便幫助您瞭解如何使用樣本資料，編寫並測試個人化程式碼。 [閱讀全文](../personalization/personalize.md#video-perso)
 
@@ -633,8 +633,8 @@ ht-degree: 89%
 * 資料衛生現在是產品使用者介面的資料生命週期。 說明文件已更新，以反映此變更。 [閱讀全文](../privacy/data-hygiene.md)
 * 檔案已新增缺少的登陸頁面內建權限。 [閱讀全文](../administration/ootb-permissions.md)
 * 已新增有關排程定期性行銷活動的附註。 [閱讀全文](../campaigns/create-campaign.md)
-* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀更多](../email/message-tracking.md)
-* [!DNL Adobe Journey Optimizer] 個人化功能的相關區段已重新整理並改善。 [閱讀更多](../personalization/personalize.md)
+* 有關在電子郵件訊息中插入連結及啟用追蹤的區段已更新並重新組織。 [閱讀全文](../email/message-tracking.md)
+* [!DNL Adobe Journey Optimizer] 個人化功能的相關區段已重新整理並改善。 [閱讀全文](../personalization/personalize.md)
 * 用於列出個人化產品建議的決策管理 API 已更新，並示範了如果回應中缺少多個個人化產品建議，則執行分頁。 [閱讀全文](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * 已建立新頁面，收集有關清單取消訂閱功能的所有資訊，以提高清晰度。 [閱讀全文](../email/list-unsubscribe.md)
 * 已更新「頻率限定」章節，其中包含如何在 Edge Decisioning API 之外更新「決策」和「批次決策」API 的頻率限定計數器。 [閱讀全文](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -642,8 +642,8 @@ ht-degree: 89%
 ## 2025 年 2 月 {#feb-2025}
 
 * 已更新「讀取客群」活動護欄，以指定歷程中只能使用一個活動，並只能鎖定一個客群。 [閱讀全文](../building-journeys/read-audience.md)
-* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀更多](../start/guardrails.md#ac-g)
-* 現已詳細說明建立第一個歷程的步驟，並新增導向文件區段的連結。 [閱讀更多](../building-journeys/journey-gs.md)
+* 使用 Adobe Campaign 行銷活動時的歷程護欄已更新。 [閱讀全文](../start/guardrails.md#ac-g)
+* 現已詳細說明建立第一個歷程的步驟，並新增導向文件區段的連結。 [閱讀全文](../building-journeys/journey-gs.md)
 * 新頁面現在已可用，以詳細說明歷程控制面板和篩選使用者介面。 [閱讀全文](../building-journeys/journey-ui.md)
 * **[!UICONTROL 傳送時間最佳化]** 的文件及其相關常見問題集已更新、改進並移至新的專用頁面。 [閱讀全文](../building-journeys/send-time-optimization.md)
 * 已新增歷程事件護欄。 [閱讀全文](../start/guardrails.md#events-g)
@@ -655,7 +655,7 @@ ht-degree: 89%
 
 ## 2025 年 1 月 {#jan-2025}
 
-* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但可以就特定的電子郵件組態覆寫此預設設定。 [閱讀更多](../email/email-settings.md#execution-address)
+* 已新增有關電子郵件設定中&#x200B;**[!UICONTROL 執行地址]**&#x200B;選項的新區段。 主要地址是在沙箱層級定義，但可以就特定的電子郵件組態覆寫此預設設定。 [閱讀全文](../email/email-settings.md#execution-address)
 
 * **開始使用傳遞能力**&#x200B;頁面已更新，可以直接從使用者介面建立 IP 熱身工作流程。 [閱讀全文](../reports/deliverability.md#reputation)
 
@@ -687,8 +687,8 @@ ht-degree: 89%
 * 已更新&#x200B;**建立網頁管道設定**&#x200B;頁面，以便釐清建立頁面比對規則的步驟，此規則也適用於程式碼型體驗設定。 [閱讀全文](../web/web-configuration.md#web-page-matching-rule)
 * 已新增有關系統產生資料集的近期存留時間 (TTL) 護欄的備註。 [閱讀全文](../data/get-started-datasets.md)
 * 已新增新區段，方便說明如何操作，當要在歷程或行銷活動中模擬內容時，就能透過瀏覽器，或是在行動裝置上，使用&#x200B;**在裝置上預覽**&#x200B;的選項，直接預覽程式碼型個人化體驗。 [閱讀全文](../code-based/test-code-based.md#preview-on-device)
-* 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀更多](../offers/custom-upload-decisioning.md)
-* 已新增頁面，介紹 [!DNL Journey Optimizer] 中可用的決策功能。 [閱讀更多](../experience-decisioning/gs-decision.md)
+* 已新增頁面，說明如何善用自訂上傳對象做決策。 [閱讀全文](../offers/custom-upload-decisioning.md)
+* 已新增頁面，介紹 [!DNL Journey Optimizer] 中可用的決策功能。 [閱讀全文](../experience-decisioning/gs-decision.md)
 * Decisioning 文件已新增護欄和限制。 [閱讀全文](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## 2024 年 9 月 {#sept-2024}
@@ -697,7 +697,7 @@ ht-degree: 89%
 * 新增歷程重試管理的相關章節。 [閱讀全文](../building-journeys/read-audience.md#read-audience-retry)
 * 已更新自訂動作的上限/節流規則相關常見問題，以提及預設上限規則。 [閱讀全文](../configuration/external-systems.md#faq)
 * 已更新「控制存取權」章節，其中包含與 AI 助理內容產生器相關的權限。 [閱讀全文](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [閱讀更多](../content-management/generative-full-content.md#video)
+* 已新增有關 AI 助理內容產生器影片，可用於電子郵件產生。 [深入了解](../content-management/generative-full-content.md#video)
 
 +++
 

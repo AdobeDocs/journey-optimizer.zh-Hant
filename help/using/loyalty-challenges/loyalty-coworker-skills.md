@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 適用於忠誠度的CX Coworker技能
-description: 透過深入的指導和範例提示，探索可用於在Adobe Journey Optimizer中建立、管理和分析忠誠度挑戰的CX Coworker技能。
+title: 忠誠度的同事
+description: 透過深入的指導和範例提示，探索可用於在Adobe Journey Optimizer中建立、管理和分析忠誠度挑戰的CX Enterprise Coworker技能。
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,35 +15,35 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1029'
 ht-degree: 2%
 ---
 
-# 適用於忠誠度的CX Coworker技能 {#loyalty-coworker-skills}
+# 忠誠度的同事 {#loyalty-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索CX Coworker中可用於忠誠度挑戰的Adobe Journey Optimizer技能 — 建立和管理挑戰，以及查詢忠誠度計畫績效 — 提供詳細的指引、範例提示，以及每種技能的最佳實務。
+**在此頁面上：**&#x200B;探索CX Enterprise Coworker中可用於忠誠度挑戰的Adobe Journey Optimizer技能 — 建立和管理挑戰，以及查詢忠誠度計畫績效 — 提供詳細的指引、範例提示，以及每種技能的最佳實務。
 
 了解更多：
 
-* 適用於Journey Optimizer的[CX Coworker技能](ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理的CX Coworker技能概觀。
-* [CX Coworker檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理之同事技能的概觀。
+* [同事檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->CX Coworker為符合資格的組織提供熟客技能。 擁有忠誠度授權的客戶可以存取這些忠誠度技能，即使他們沒有額外的CX Coworker授權亦然。
+>同事中可提供忠誠度技能給符合資格的組織。 擁有忠誠度授權的客戶可以存取這些忠誠度技能，即使他們沒有額外的同事授權。
 
 熟客技能可讓熟客管理員和分析人員使用自然語言建立、管理和分析熟客方案。 透過這些AI支援的技能，您可以快速設計引人入勝的忠誠度挑戰、追蹤績效量度，並做出資料導向式決策，以將成員參與度和計畫獲利能力最佳化。 無論您是要提出新的挑戰，或是要分析熟客方案趨勢，熟客技能都能簡化整個熟客方案管理工作流程。
 
 ## 忠誠度挑戰管理 {#loyalty-challenge-management}
 
-忠誠度挑戰管理可讓Journey Optimizer使用者使用自然語言提示，在CX Coworker中建立和管理忠誠度挑戰。 如需建立、設定和管理忠誠度挑戰的完整檔案，包括詳細的設定指示，請參閱[忠誠度挑戰指南](../loyalty-challenges/get-started.md)。
+忠誠度挑戰管理可讓Journey Optimizer使用者使用自然語言提示，在同事中建立和管理忠誠度挑戰。 如需建立、設定和管理忠誠度挑戰的完整檔案，包括詳細的設定指示，請參閱[忠誠度挑戰指南](get-started.md)。
 
 ### 主要使用案例
 

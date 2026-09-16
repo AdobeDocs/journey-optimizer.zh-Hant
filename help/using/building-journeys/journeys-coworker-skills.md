@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 歷程的CX Coworker技能
-description: 探索可用於在Adobe Journey Optimizer中建置、產生內容及分析歷程的CX Coworker技能，並提供深入指引和範例提示。
+title: 歷程的同事
+description: 探索可用於在Adobe Journey Optimizer中建置、產生內容及分析歷程的CX Enterprise Coworker技能，並提供深入指引和範例提示。
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2511'
 ht-degree: 8%
 ---
 
-# 歷程的CX Coworker技能 {#journeys-coworker-skills}
+# 歷程的同事 {#journeys-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中歷程可用的CX Coworker技能 — 從自然語言建立歷程、產生頻道內容和分析歷程績效 — 提供每項技能的詳細指引、範例提示和最佳實務。
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中歷程可用的CX Enterprise Coworker技能 — 從自然語言建立歷程、產生頻道內容和分析歷程績效 — 提供每項技能的詳細指引、範例提示和最佳實務。
 
 了解更多：
 
-* 適用於Journey Optimizer的[CX Coworker技能](ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理的CX Coworker技能概觀。
-* [CX Coworker檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理之同事技能的概觀。
+* [同事檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
 
 >[!ENDSHADEBOX]
@@ -43,13 +43,13 @@ ht-degree: 8%
 >
 >您需要下列許可權才能完整使用「歷程建立」功能：
 >
->**管理歷程**：此許可權可讓您直接在CX Coworker中建立新的歷程。
+>**管理歷程**：此許可權可讓您直接在同事中建立新的歷程。
 >
->**檢視歷程事件、資料來源和動作**：此許可權可確保CX Coworker可搜尋歷程事件和自訂動作。
+>**檢視歷程事件、資料來源及動作**：此許可權可確保同事能夠搜尋歷程事件和自訂動作。
 >
->**檢視區段**：此許可權可確保CX Coworker在建立歷程時能夠搜尋對象區段。
+>**檢視區段**：此許可權可確保同事在建立歷程時能夠搜尋對象區段。
 >
->**管理區段**：此許可權可讓您直接在CX Coworker中建立新對象。
+>**管理區段**：此許可權可讓您直接在同事中建立新對象。
 
 ### 主要使用案例
 
@@ -218,15 +218,15 @@ Journey Create支援下列功能：
 
 >[!AVAILABILITY]
 >
->所有有權存取CX Coworker的客戶皆可使用歷程技能。 不過，您需要下列許可權才能完整使用「歷程技能」功能：
+>所有有權存取Co-worker的客戶皆可使用歷程技能。 不過，您需要下列許可權才能完整使用「歷程技能」功能：
 >
->**檢視歷程**：此許可權可讓您直接在CX Coworker中檢視歷程的深入分析。
+>**檢視歷程**：此許可權可讓您直接在同事中檢視歷程的深入分析。
 >
->**管理歷程**：此許可權可讓您直接在CX Coworker中建立新的歷程。
+>**管理歷程**：此許可權可讓您直接在同事中建立新的歷程。
 >
->**檢視區段**：此許可權可讓您直接在CX Coworker中檢視對象的深入分析。
+>**檢視區段**：此許可權可讓您直接在同事中檢視對象的深入分析。
 >
->**管理區段**：此許可權可讓您直接在CX Coworker中建立新對象。
+>**管理區段**：此許可權可讓您直接在同事中建立新對象。
 
 ### 主要使用案例
 

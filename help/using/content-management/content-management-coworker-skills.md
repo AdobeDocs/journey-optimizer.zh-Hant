@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: CX Coworker內容管理工具
-description: 探索可用於探索、建立和管理CX Coworker內容資產的Journey Optimizer內容管理工具，其中包含深入指引和範例提示。
+title: 內容管理的同事
+description: 探索可用於探索、建立和管理CX Enterprise Coworker內容資產的Journey Optimizer內容管理工具，其中包含深入指引和範例提示。
 feature: Overview
 topic: Artificial Intelligence
 role: User
@@ -15,22 +15,22 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '759'
 ht-degree: 2%
 ---
 
-# CX Coworker內容管理工具 {#content-management-coworker-skills}
+# 內容管理的同事 {#content-management-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中可用的CX Coworker內容管理工具 — 以瀏覽、建立、更新、複製和發佈內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌內容 — 提供詳細指引、範例提示和最佳實務。
+**在此頁面上：**&#x200B;探索Adobe Journey Optimizer中可用的CX Enterprise Coworker內容管理工具 — 以瀏覽、建立、更新、複製和發佈內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌內容 — 提供詳細指引、範例提示和最佳實務。
 
 了解更多：
 
-* 適用於Journey Optimizer的[CX Coworker技能](ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理的CX Coworker技能概觀。
-* [CX Coworker檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
+* [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理之同事技能的概觀。
+* [同事檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
 * [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
 
 >[!ENDSHADEBOX]
@@ -39,9 +39,9 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->所有可存取CX Co-worker的客戶皆可使用內容管理。
+>所有有權存取Co-worker的客戶皆可使用內容管理。
 
-Journey Optimizer使用者可以使用自然語言提示，直接從CX Co-worker探索及管理內容資產（內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容）。 它可讓您從「告訴我我的內容」到「建立、更新和發佈」，而不需離開交談。 這項功能由15種可讀取和寫入的MCP工具提供支援，適用於Journey Optimizer內容。
+Journey Optimizer使用者可以使用自然語言提示，直接從同事探索和管理內容資產，包括內容範本、片段、登陸頁面，以及歷程/行銷活動內嵌訊息內容。 它可讓您從「告訴我我的內容」到「建立、更新和發佈」，而不需離開交談。 這項功能由15種可讀取和寫入的MCP工具提供支援，適用於Journey Optimizer內容。
 
 ### 主要使用案例
 

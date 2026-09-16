@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer 文件
 description: Adobe Journey Optimizer 文件
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 98%
+ht-degree: 93%
 ---
 # Adobe Journey Optimizer 文件{#section-overview}
 
@@ -32,9 +32,9 @@ Adobe Journey Optimizer 可讓團隊透過電子郵件、簡訊等管道，設�
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB CX Coworker 中的 Journey Optimizer 技能]
+>[!TAB CX Enterprise Coworker中的 Journey Optimizer技能]
 
-我們已新增 **CX Coworker 中的 Journey Optimizer 技能**&#x200B;文件頁面，內含&#x200B;**著重歷程**&#x200B;和&#x200B;**著重忠誠度**&#x200B;的技能，並提供指引和範例提示。
+我們已新增同事中&#x200B;**Journey Optimizer技能的檔案頁面**，包含&#x200B;**以歷程為中心**&#x200B;及&#x200B;**以忠誠度為中心**&#x200B;的技能，並附上指引和範例提示。
 
 [![了解更多](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
