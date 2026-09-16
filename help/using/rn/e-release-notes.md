@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * [訊息複製與電子郵件設計外掛程式](#sep-26-content-management) — 兩個新外掛程式，可簡化同事的傳訊與電子郵件工作流程，從行銷活動簡報到生產就緒的復本及HTML。
 * [忠誠度推薦技能](#sep-26-loyalty) — 直接在同事的對話介面中要求挑戰機會，並將它們變成即時挑戰，而不需要離開聊天。
-* [歷程模擬（MCP和聊天）](#sep-26-journeys) — 自動進行端對端歷程驗證，並直接在同事中解譯結果。
+* [歷程模擬](#sep-26-journeys) — 自動進行端對端歷程驗證，並直接在同事中解譯結果。
 * [從同事邊欄建立歷程](#sep-26-journeys) — 使用AI直接從同事右側邊欄產生歷程，取代先前的AI助理體驗。
 * [比較歷程版本](#sep-26-journeys) — 透過同事聊天，取得任意兩個歷程版本之間的完整保真、結構化差異。
 * [衛生分析技能](#sep-26-journeys) — 掃描使用中的和草稿歷程，以找出中斷的設定、無訊息失敗，以及過時或未使用的資產，並提供建議的修正。
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <table>
 <thead>
 <tr>
-<th><strong>同事中的歷程模擬（MCP與聊天）</strong><br/></th>
+<th><strong>同事中的歷程模擬</strong><br/></th>
 </tr>
 </thead>
 <tbody>
