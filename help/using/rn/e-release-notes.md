@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
+source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 10%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
@@ -115,7 +115,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 </td>
 </tr>
 </tbody>
@@ -345,23 +345,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 ### 行銷活動 {#sep-26-campaigns}
 
-此版本中的行銷活動推出下列功能和改善。
-
-<table>
-<thead>
-<tr>
-<th><strong>Action Campaigns (Beta)中的傳入體驗模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以於上線前，在動作行銷活動中模擬傳入管道動作。 使用模擬模式，透過模擬使用者測試您的設定並預覽呈現的體驗 (包括產生的 URL 和 QR 碼)，讓您可以端到端驗證規則、決策機制與內容呈現。</p>
-<p>此功能目前為 Private Beta 版本，僅供特定組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
-</td>
-</tr>
-</tbody>
-</table>
+此版本中的行銷活動即將進行下列改進。
 
 * **行銷活動的資料夾** — 您現在可以將行銷活動整理到&#x200B;**資料夾**&#x200B;中，以改善介面中的導覽和管理。
 
