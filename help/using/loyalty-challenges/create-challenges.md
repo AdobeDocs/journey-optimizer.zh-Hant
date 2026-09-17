@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # 建立挑戰 {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立、設定、發佈和啟動忠誠度挑戰，包括其設定、結構、內容、訊息、工作和獎勵。
+
+>[!ENDSHADEBOX]
 
 本頁說明在Adobe Journey Optimizer中建立和發佈忠誠度挑戰的完整程式。
 

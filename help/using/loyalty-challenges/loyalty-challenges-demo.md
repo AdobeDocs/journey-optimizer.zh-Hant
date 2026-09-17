@@ -14,12 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 0780bc3e7ab3acc95dfcbf8d0bf94e964457bfa3
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 2%
 ---
 # 互動式示範 {#loyalty-challenges-demo}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;探索互動式忠誠度挑戰示範，內容涵蓋挑戰建立、客戶體驗、績效和見解，以及CX Coworker中的忠誠度挑戰管理。
+
+>[!ENDSHADEBOX]
 
 在圍繞Adobe虛構的生活方式零售品牌「Luma」建立的自我引導式、可點按的示範中，檢視行動中的忠誠度挑戰。
 

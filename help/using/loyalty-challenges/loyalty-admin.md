@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: '1775'
 ht-degree: 18%
-
 ---
-
 # 設定忠誠度挑戰 {#loyalty-admin}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解管理員如何設定忠誠度挑戰，包括全域設定、獎勵提供者、事件對應、產品詳細目錄和排除。
+
+>[!ENDSHADEBOX]
 
 ## 概觀 {#access-loyalty-admin}
 

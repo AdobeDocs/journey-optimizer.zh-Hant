@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # 開始應對忠誠度挑戰 {#get-started-loyalty-challenges}
@@ -27,6 +27,12 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="忠誠度挑戰"
 >abstract="您可以透過忠誠度挑戰建立吸引人、遊戲化的忠誠度方案，推動客戶行為及深化品牌關係。 建置挑戰，獎勵客戶的特定動作，包括從購買和撰寫評論，到參與社交媒體和轉介朋友。"
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;取得忠誠度挑戰的概觀、瞭解計畫的運作方式、檢閱先決條件，並尋找設定、建立、啟動和測量挑戰所需的檔案。
+
+>[!ENDSHADEBOX]
 
 ## 概觀 {#overview}
 
