@@ -166,7 +166,7 @@ ht-degree: 14%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>設定忠誠度挑戰</strong></a>
     </div>
     <p>
