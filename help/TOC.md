@@ -6,7 +6,7 @@ user-guide-description: 使用 Journey Optimizer 向客戶建立與傳遞連結�
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
 workflow-type: tm+mt
 source-wordcount: '3520'
 ht-degree: 99%
@@ -610,8 +610,8 @@ ht-degree: 99%
       + [了解實驗報告中的統計計算](using/content-management/experiment-report-calculations.md)
 + 客群、輪廓與身分 {#audiences-profiles-identities}
   + [客群、輪廓與身分](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
-  + 對象 {#audiences}
-    + [對象](/help/rp_landing_pages/audiences-landing-page.md)
+  + 客群 {#audiences}
+    + [客群](/help/rp_landing_pages/audiences-landing-page.md)
     + [開始使用 Audiences](using/audience/about-audiences.md)
     + 建立客群 {#create}
       + [建立客群](/help/rp_landing_pages/create-landing-page.md)
@@ -1045,3 +1045,4 @@ ht-degree: 99%
     + [管理客戶的偏好設定](using/action/preference-center.md)
   + [資料治理](using/action/action-privacy.md)
   + [設定和管理客戶託管金鑰](using/privacy/cmk.md)
+
