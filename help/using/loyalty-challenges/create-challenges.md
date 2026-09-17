@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # 建立挑戰 {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**在此頁面上：**&#x200B;瞭解如何建立、設定、發佈和啟動忠誠度挑戰，包括其設定、結構、內容、訊息、工作和獎勵。
+
+>[!ENDSHADEBOX]
 
 本頁說明在Adobe Journey Optimizer中建立和發佈忠誠度挑戰的完整程式。
 
@@ -374,21 +380,21 @@ ht-degree: 11%
 
 **設定忠誠度挑戰** — 建立並設定新的忠誠度挑戰
 
->[!VIDEO](https://video.tv.adobe.com/v/3496480?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **設定獎勵** — 設定獎勵傳遞與履行
 
->[!VIDEO](https://video.tv.adobe.com/v/3496490?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️觀看如何建立挑戰內容卡
 
->[!VIDEO](https://video.tv.adobe.com/v/3496538?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️觀看如何針對挑戰設定生命週期訊息
 
->[!VIDEO](https://video.tv.adobe.com/v/3497464?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️觀看如何發佈挑戰並產生歷程
 
->[!VIDEO](https://video.tv.adobe.com/v/3498586?captions=chi_hant&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

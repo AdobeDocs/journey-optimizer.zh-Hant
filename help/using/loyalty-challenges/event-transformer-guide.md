@@ -11,15 +11,15 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 5%
-
+source-wordcount: '1680'
+ht-degree: 2%
 ---
-
 # 事件轉換器指南 {#event-transformer-guide}
 
 >[!CONTEXTUALHELP]
@@ -29,35 +29,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**目錄**
-
-[開始使用忠誠度挑戰](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**建立和管理挑戰**
-
-* [存取和管理挑戰與任務](access-loyalty-challenges.md)
-* [建立挑戰](create-challenges.md)
-* [建立任務](create-tasks.md)
-* [監視忠誠度挑戰績效](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**設定並整合**
-
-* [設定忠誠度挑戰](loyalty-admin.md)
-* [獎勵定義指南](reward-definition-guide.md)
-* **事件轉換器指南** ◀︎ **您在這裡**
-* [忠誠度資料和資料集](loyalty-data-and-datasets.md)
-* [忠誠度挑戰API參考](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
+**在此頁面上：**&#x200B;瞭解事件對應如何識別傳入事件，並使用JSONata運算式將其轉換為Adobe熟客量事件格式，包括欄位要求、比對行為、範例和API作業。
 
 >[!ENDSHADEBOX]
 
