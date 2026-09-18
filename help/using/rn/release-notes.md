@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # 發行說明 {#release-notes}
 
@@ -124,7 +124,7 @@ ht-degree: 67%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -161,6 +161,10 @@ ht-degree: 67%
 * **分析歷程異常技能** - CX Coworker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程進入、退出或訊息傳送計數中的非預期尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   推出日期： 2026年9月2日
+
+* **批次對象評估後觸發** — 對於以批次對象為目標的週期性歷程，您可以在歷程執行前設定最多6小時的等待時間，以進行新的批次評估。 如果評估正在進行中，歷程會等待它完成；如果上次執行使用了最新的快照，則會等待較新的批次。 如果等候期間結束時沒有可用的新受眾，則會略過該事件。 [了解更多](../building-journeys/read-audience.md)
+
+  推出日期： 2026年9月18日
 
 ### 行銷活動 {#sep-26-campaigns}
 

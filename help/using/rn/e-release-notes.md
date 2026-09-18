@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ed5fc837094662e56eb94ec57de3e0dff2825e8c
+source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3505'
 ht-degree: 8%
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 ## 2026年9月發行前注意事項 {#sep-26-rn}
 
-**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的文件會在變更上線生產時發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出。如需詳細資訊，請參閱每個項目所列的推出日期。
+**至發行日期之前，下方搶鮮版發行說明如有變更，恕不另行通知**。 連結、畫面和更新的文件會在變更於生產環境上線後發佈。 雖然大多數變更會在發行日期提供，但有些可能會稍後推出。如需詳細資訊，請參閱每個項目所列的推出日期。
 
 另請參閱 [Adobe Experience Platform 預發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}。
 
@@ -238,8 +238,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * **對象資格歷程的跳轉支援** — 以&#x200B;**對象資格**&#x200B;開始的歷程現在可以使用&#x200B;**跳轉**&#x200B;活動來進入事件型開始歷程；跳到對象資格型歷程仍不受支援。
 
-* **已改良批次對象評估等待邏輯** — 在&#x200B;**讀取對象活動**&#x200B;中，歷程中的「批次對象評估後觸發」選項現在一律會等待進行中的批次分段完成，確保歷程使用執行的資料，而不是遞補為較舊的快照。 如果沒有正在進行的批次分段，歷程會立即使用最新的可用快照 — 除非該快照與上次執行中使用的批次相同，在這種情況下，歷程會等待至設定的視窗以用於較新的批次，如果沒有及時到達，則會跳過當天的執行。
-
 * **與同事比較歷程版本** — 今天，檢閱兩個歷程版本之間的變更內容時，需要在Journey Optimizer節點內依節點手動比較 — 沒有結構化的差異，這會導致變更檢閱、稽核和發佈前檢查緩慢且容易出錯，尤其是當歷程越來越複雜時。 此功能可讓客戶或AI代理程式透過Co-worker Chat比較歷程的任意兩個版本，在不開啟Journey Optimizer的情況下，取回完整保真的&#x200B;**結構化diff** — 新增/移除/修改/移動具有欄位層級詳細資訊、變更連線、歷程層級屬性變更和統計計數的節點。
 
 * **減少等待和事件活動的步驟事件** — 不再為&#x200B;**等待**&#x200B;活動和&#x200B;**事件**&#x200B;活動產生步驟事件，因為設定檔實際上未在該活動中處理。<!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
@@ -298,22 +296,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <table>
 <thead>
 <tr>
-<th><strong>覆寫電子郵件通道組態設定</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>建立您的歷程和行銷活動時，您現在可以直接在歷程或行銷活動動作層級覆寫從所選管道設定衍生的電子郵件引數。</p>
-<p>這可讓您個人化電子郵件標題欄位（<strong>來自名稱</strong>、<strong>來自電子郵件前置詞</strong>、<strong>回覆名稱</strong>和<strong>回覆電子郵件</strong>）、執行位址和清單取消訂閱值，使用設定檔屬性或內容資料以取得更精確的控制權。 特別是，這允許寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而不是透過單一公司地址路由傳送所有傳送。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Android推播通知範本改善</strong><br/></th>
 </tr>
 </thead>
@@ -335,6 +317,90 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 
 * **自訂SMS BYOP驗證彈性** — 您現在可以在連線您的SMS提供者的OAuth設定時，設定&#x200B;**自訂驗證標頭**，包括權杖在傳出訊息中的放置位置以及權杖請求本身的格式。
+
+### 直接郵件 {#sep-26-direct-mail}
+
+此版本中的Direct Mail即將提供下列功能和改善。
+
+* **自動分割大型檔案** — 現在，直接郵件檔案在大約超過20 GB時，可以自動分割成多個部分，或在檔案路由設定中選擇目標檔案大小時手動分割。
+
+* **提高對象上限** — 直接郵件管道對象上限已從300萬個設定檔提升至1億個，讓您可將目標鎖定在較大對象上，而不會出現檔案建立錯誤。
+
+### 電子郵件頻道 {#sep-26-email-channel}
+
+此版本的電子郵件頻道即將提供下列功能和改善。
+
+<table>
+<thead>
+<tr>
+<th><strong>覆寫電子郵件通道組態設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>建立您的歷程和行銷活動時，您現在可以直接在歷程或行銷活動動作層級覆寫從所選管道設定衍生的電子郵件引數。</p>
+<p>這可讓您個人化電子郵件標題欄位（<strong>來自名稱</strong>、<strong>來自電子郵件前置詞</strong>、<strong>回覆名稱</strong>和<strong>回覆電子郵件</strong>）、執行位址和清單取消訂閱值，使用設定檔屬性或內容資料以取得更精確的控制權。 特別是，這允許寄件者詳細資料反映每個收件者的相關顧問、位置或分支，而不是透過單一公司地址路由傳送所有傳送。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **電子郵件動作層級的隱藏清單覆寫** — 您現在可以在電子郵件動作層級覆寫本機隱藏清單行為，因此視需要仍可透過專用設定傳送作業或法規遵循關鍵通訊。 全域隱藏清單行為保持不變。
+
+* **電子郵件製作中的URL語法驗證** - Journey Optimizer現在會驗證電子郵件製作流程中先前的URL，並在偵測到語法格式錯誤時顯示更清楚的指引。 這有助於作者在定稿前找出問題、減少發佈錯誤，並提升傳送可信度。
+
+### 電子郵件設計工具 {#sep-26-email-designer}
+
+此版本中的電子郵件Designer即將提供下列功能和改善。
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件主題變體的深色模式支援</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件主題現在支援深色模式，因此每個顏色變體都可以呈現為收件者量身打造的外觀，適合在啟用深色模式的使用者端中檢視您的電子郵件。</p>
+<p>啟用後，系統會自動為每個變體產生預設的深色調色盤，而您可以使用不同的調色盤或您自己的自訂顏色來進一步自訂調色盤 — 與淺色模式設計無關，因此在一個模式中所做的變更不會影響另一個模式。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>直接在電子郵件Designer中從PSD檔案匯入Dynamic Media範本</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件Designer的Dynamic Media元件現在可讓您在瀏覽現有Dynamic Media範本之外，直接匯入Photoshop (PSD)檔案為新範本。 將PSD檔案拖放至元件中，Adobe Journey Optimizer會自動將其轉換為儲存在Dynamic Media中的動態媒體範本，不需要手動轉換或穿過Adobe Experience Manager來迴轉換。 匯入後，您可使用內建的Dynamic Media編輯器編輯範本，這與電子郵件Designer中的Adobe Express內容使用相同的體驗。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子郵件Designer中的新表格元件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>電子郵件Designer現在包含內建<strong>表格元件</strong>，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有組織的版面配置，而不依賴自訂HTML。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。
 
 ### 協調的行銷活動 {#sep-26-oc}
 
@@ -409,66 +475,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 * **從同事產生決策規則** — 先前透過右側邊欄提供的&#x200B;**AI輔助決策規則產生**&#x200B;體驗現在可透過同事存取，取代右側邊欄，作為使用AI建立規則的方式。
 
 * **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。
-
-### 直接郵件 {#sep-26-direct-mail}
-
-此版本中的Direct Mail即將提供下列功能和改善。
-
-* **自動分割大型檔案** — 現在，直接郵件檔案在大約超過20 GB時，可以自動分割成多個部分，或在檔案路由設定中選擇目標檔案大小時手動分割。 選用的JSON資訊清單檔案說明了所有產生的部分。
-
-* **提高對象上限** — 直接郵件管道對象上限已從300萬個設定檔提升至1億個，讓您可將目標鎖定在較大對象上，而不會出現檔案建立錯誤。
-
-### 電子郵件設計工具 {#sep-26-email-designer}
-
-此版本中的電子郵件Designer即將提供下列功能和改善。
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件主題變體的深色模式支援</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>電子郵件主題現在支援深色模式，因此每個顏色變體都可以呈現為收件者量身打造的外觀，適合在啟用深色模式的使用者端中檢視您的電子郵件。</p>
-<p>啟用後，系統會自動為每個變體產生預設的深色調色盤，而您可以使用不同的調色盤或您自己的自訂顏色來進一步自訂調色盤 — 與淺色模式設計無關，因此在一個模式中所做的變更不會影響另一個模式。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>直接在電子郵件Designer中從PSD檔案匯入Dynamic Media範本</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>電子郵件Designer的Dynamic Media元件現在可讓您在瀏覽現有Dynamic Media範本之外，直接匯入Photoshop (PSD)檔案為新範本。 將PSD檔案拖放至元件中，Adobe Journey Optimizer會自動將其轉換為儲存在Dynamic Media中的動態媒體範本，不需要手動轉換或穿過Adobe Experience Manager來迴轉換。 匯入後，您可使用內建的Dynamic Media編輯器編輯範本，這與電子郵件Designer中的Adobe Express內容使用相同的體驗。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>電子郵件Designer中的新表格元件</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>電子郵件Designer現在包含內建<strong>表格元件</strong>，可讓您直接在電子郵件中建構列和欄的內容。 將元件拖放至畫布上、自訂列和欄數，並獨立設定每個儲存格的樣式，以建立清晰、有組織的版面配置，而不依賴自訂HTML。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **電子郵件主題中自訂字型的遞補字型** — 您現在可以為任何透過電子郵件主題套用的自訂(Web)字型定義遞補字型。 如果訂閱者的電子郵件使用者端不支援自訂字型，Adobe Journey Optimizer會自動顯示指定的遞補字型，而不會將選項保留給電子郵件使用者端的預設值。 這可讓電子郵件印刷樣式更貼近您的品牌方針，並減少電子郵件使用者端間的字型轉譯不一致問題。
 
 ### 報表 {#sep-26-reporting}
 
