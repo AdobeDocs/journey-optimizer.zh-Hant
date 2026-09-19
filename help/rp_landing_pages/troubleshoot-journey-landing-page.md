@@ -5,13 +5,11 @@ title: 疑難排解
 description: 疑難排解
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # 追蹤、監視和疑難排解 {#section-overview}
 
 全方位追蹤是有效管理客戶歷程的開端，可以主動監控、提供深入分析報告，同時有效進行疑難排解。 Adobe Journey Optimizer 提供完整的框架，可擷取客戶互動和系統事件、分析績效量度，並在發生問題時，快速解決問題。
@@ -23,6 +21,20 @@ ht-degree: 100%
 使用詳細錯誤碼、逐步執行記錄檔，解決歷程失敗、執行方式前後不一致，或是動作層面問題等目標指引，有效處理&#x200B;**疑難排解**&#x200B;問題。
 
 本頁面彙集一些基本資源，可幫您監視歷程的健康情況，存取關鍵報告深入分析，同時有效解決客戶歷程各階段問題。
+
+## 尋找您的問題
+
+使用最符合您問題的症狀，直接前往相關的疑難排解指南：
+
+| 如果您遇到此問題 | 在這裡開始 |
+| --- | --- |
+| 您無法測試或發佈歷程 | [疑難排解歷程錯誤](../using/building-journeys/troubleshooting.md) |
+| 設定檔不會進入或進行歷程 | [疑難排解歷程執行](../using/building-journeys/troubleshooting-execution.md) |
+| 設定檔退出後，傳入體驗不會顯示或繼續 | [疑難排解傳入動作](../using/building-journeys/troubleshooting-inbound.md) |
+| 自訂動作測試或API呼叫失敗 | [疑難排解自訂動作](../using/action/troubleshoot-custom-action.md) |
+| 您需要主動監視即時歷程和行銷活動 | [存取及訂閱系統警示](../using/reports/alerts.md) |
+| 您有Journey Optimizer錯誤代碼 | [檢視錯誤碼參考](../using/building-journeys/error-codes-reference.md) |
+| 電子郵件已傳遞，但未如預期觸及收件者的收件匣 | [檢閱傳遞能力指引](../using/reports/deliverability.md) |
 
 ## 開始使用追蹤功能
 
@@ -83,7 +95,7 @@ ht-degree: 100%
 
 對歷程執行進行疑難排解
 
-診斷即時執行期間的事件驗證、輪廓輸入、歷程導覽和訊息傳送問題。
+診斷即時執行期間的事件驗證、輪廓進入、歷程導覽和訊息傳送問題。
 
 [修正即時歷程問題](../using/building-journeys/troubleshooting-execution.md)
 :::
@@ -93,7 +105,7 @@ ht-degree: 100%
 
 對傳入動作進行疑難排解
 
-使用詳細的逐步指南對輪廓退出後的傳入動作問題進行偵錯，例如遺失內容或繼續傳送。
+使用詳細的逐步指南對傳入動作問題進行偵錯，例如內容遺失或在輪廓退出後仍持續傳遞。
 
 [對傳入動作進行偵錯](../using/building-journeys/troubleshooting-inbound.md)
 :::
