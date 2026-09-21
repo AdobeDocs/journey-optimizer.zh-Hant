@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # 匯出訊息內容 {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ ht-degree: 6%
 透過此功能，透過[!DNL Journey Optimizer]傳送且標示為要匯出的電子郵件和簡訊內容會寫入[!DNL Experience Platform] [AJO訊息匯出資料集](message-export-schema.md)。
 
 然後，記錄會保留在資料集中的七天日曆天內，期間您可以將記錄匯出至您選擇的外部系統。
+
+當您需要檢閱或保留傳送給個人的確切內容時（例如，針對客戶服務、法規遵循或下游系統使用案例），訊息匯出是支援的替代方案。 它不會產生或傳回映象頁面URL；會匯出已傳送訊息內容和相關中繼資料，讓您的組織可以在其自己的系統中儲存和顯示資訊。
 
 ➡️如需常見問題與解答，請參閱[訊息匯出常見問答集](#message-export-faq)。
 
@@ -84,9 +94,9 @@ ht-degree: 6%
 >
 >必須針對每個沙箱設定此設定。
 
-1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
+1. 選擇Experience Platform [目的地型別](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}。 [此頁面](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}上有準備好接收資料的可用目的地平台清單。
 
-1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. 在[!DNL Experience Platform]中，定義認證、貯體/容器、路徑首碼和安全性選項來設定您的目的地。 [了解作法](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 使用下列資料建立資料集匯出流程：
 
@@ -426,6 +436,12 @@ ht-degree: 6%
 
 +++
 
++++ 「郵件匯出」是否提供映象頁面URL？
+
+沒有。 「訊息匯出」提供AJO訊息匯出資料集中的已傳送訊息內容和相關中繼資料。 它不會產生或傳回映象頁面URL。 [進一步瞭解映象頁面](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ 郵件匯出無法執行的動作
 
 郵件匯出不會：
@@ -434,6 +450,7 @@ ht-degree: 6%
 * 在Adobe系統中提供無限制或長期的資料保留
 * 提供試用環境
 * 自動封存Adobe以外的訊息
+* 產生、公開或重建映象頁面URL
 
 +++
 

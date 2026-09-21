@@ -12,30 +12,41 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdd844ccf6e77e34cc2f9fff1b0f8096e3798707
+    internal-label: Privacy
+source-git-commit: 813613268cd90d6bb10a2013bcc65b9dcc463955
 workflow-type: tm+mt
-source-wordcount: 1631
-ht-degree: 23%
-
+source-wordcount: '1697'
+ht-degree: 22%
 ---
-
 # 新增連結及追蹤訊息 {#tracking}
 
 >[!BEGINSHADEBOX]
@@ -98,7 +109,7 @@ ht-degree: 23%
 
 若要將連結插入到電子郵件內容，請依照以下步驟進行：
 
-1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。**&#x200B;**
+1. 選取元素（文字或影像），然後按一下內容工具列中的[插入連結]。****
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -164,13 +175,15 @@ Adobe Journey Optimizer產生的映象頁面包含所有個人化資料。
 
 映象頁面的保留期為&#x200B;**90天**。 該段時間之後，鏡像頁面無法繼續使用。
 
+映象頁面URL目前無法當作Adobe Experience Platform資料集中的記錄欄位使用，且[!DNL Journey Optimizer]未提供公開API來使用傳遞ID、訊息ID、訊息執行ID或收件者識別碼來擷取它。 如果您需要檢閱或保留傳送給收件者的內容，請改用[訊息匯出](../configuration/message-export.md)或[密件副本封存](../configuration/archiving-support.md#bcc-email)。
+
 >[!CAUTION]
 >
 >* 鏡像頁面連結是自動產生的，無法編輯。 它們包含轉譯原始電子郵件所需的所有加密的個人化資料。 因此，使用具有大值的個人化屬性可能會產生過長的映象頁面URL，使得連結無法在URL長度上限的網頁瀏覽器中運作。
 >
 >* 建立高度依賴執行階段個人化的電子郵件時（例如`#each`回圈、巢狀物件、大型裝載資料），映象頁面URL可能會變得過大，尤其是在API觸發的行銷活動使用來自裝載的廣泛內容資料時。 這可能會導致瀏覽器或郵件使用者端發生HTTP錯誤(404、422、502)。 Adobe建議限制動態欄位的廣度和深度，減少對複雜片段的依賴，並將個人化結構扁平化以防止連結失敗。
 >
->* 在傳送到測試設定檔的[校訂](../content-management/proofs.md)中，映象頁面的連結未啟用。 它只會在最終訊息中處於活動狀態。
+>* 在傳送到測試設定檔的[校訂](../content-management/proofs.md)中（包括從歷程[模擬](../building-journeys/simulate-journey.md)傳送的校訂），指向映象頁面的連結未啟用。 它只會在最終訊息中處於活動狀態。
 
 ### 在映象頁面中決策 {#decisioning-mirror-page}
 

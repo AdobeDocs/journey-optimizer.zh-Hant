@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # 使用測試設定檔資料傳送校樣 {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -24,7 +24,7 @@ ht-degree: 15%
 
 >[!ENDSHADEBOX]
 
-校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：轉譯、內容、個人化設定、設定。
+校樣是一種特定訊息，可讓您在將訊息傳送至主要客群之前先測試訊息。 校樣的收件者負責核准訊息：呈現效果、內容、個人化設定、設定。
 
 您可以使用以下任一種模擬方法傳送校樣：
 
@@ -37,7 +37,7 @@ ht-degree: 15%
 
 **頻率上限規則** — 所有現有的頻率上限規則都適用於校樣。 如果您已設定[頻率上限規則](../conflict-prioritization/channel-capping.md) （例如，每個設定檔的最大傳送量），則傳送校樣時也會套用這些限制。 如果測試設定檔已達到頻率上限，校樣將顯示為已完成，但不會傳送電子郵件。 如需重複測試，請考慮使用唯一的測試設定檔，或視需要調整校訂情境的頻率上限。
 
-**映象頁面** — 在傳送的校樣中，指向映象頁面的連結未啟用。 它僅在最終訊息中啟用。
+**映象頁面** — 校訂中映象頁面的連結未啟用。 校樣可讓您檢閱電子郵件呈現、內容、個人化和內容變數，但不會檢閱映象頁面導覽，因為連結僅在傳送最終訊息後才會啟用。 若要在啟動前確認映象頁面呈現，請將最終訊息傳送給小型、受控制的內部對象，而非您的即時客戶清單。 [進一步瞭解映象頁面](../email/message-tracking.md#mirror-page)。
 
 **Assets** - Assets和影像有特定的協助工具規則：
 
