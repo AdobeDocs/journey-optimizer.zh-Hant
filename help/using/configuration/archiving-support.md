@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # 支援封存 {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ HIPAA等法規要求[!DNL Journey Optimizer]應提供一種封存傳送給個人
 >[!NOTE]
 >
 >[!DNL Journey Optimizer]不支援SMS封存需求。 如需專屬的封存支援，請與您的SMS供應商（Sinch、Infobip或Twilio）合作。
+
+使用下表找出符合您需求的正確選項。
+
+| 需求 | 建議的選項 | 重要區別 |
+| --- | --- | --- |
+| 保留傳出電子郵件訊息的隱藏副本 | 密件副本電子郵件 | 傳送復本至已設定的信箱；不會公開映象頁面URL或建立可查詢的Experience Platform欄位。 |
+| 將已傳送的電子郵件或簡訊內容匯出至外部系統 | [訊息匯出](../configuration/message-export.md) | 將傳送的內容和中繼資料寫入到AJO訊息匯出資料集，以供下游匯出；不會產生映象頁面URL。 |
+| 向收件者顯示電子郵件的線上版本 | [映象頁面連結](../email/message-tracking.md#mirror-page) | 產生為已傳送電子郵件的一部分；不是支援的後傳送URL擷取API。 |
+| 儲存非個人化訊息範本或傳遞中繼資料 | 實體資料集 | 無法提供個人收到的精確個人化內容。 |
 
 ## 如何使用密件副本寄送電子郵件 {#bcc-email}
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## 常見問題 {#faq}
+
++++ 我可以在傳送電子郵件後擷取映象頁面URL嗎？
+
+目前不可透過記錄的公用API或Adobe Experience Platform資料集欄位進行。 [映象頁面URL](../email/message-tracking.md#mirror-page)是在郵件傳遞過程中產生的。 如果您需要保留或檢查已傳送的內容，請使用[訊息匯出](message-export.md)或[密件副本封存](#bcc-email)。
+
++++
+
++++ 實體資料集或其他追蹤資料集中是否有映象頁面URL？
+
+沒有。 [實體資料集](../data/datasets-query-examples.md#entity-dataset)提供訊息範本和中繼資料資訊，但不應將其用作收件者所收到之確切個人化內容的來源。
+
++++
+
++++ 可以使用「訊息匯出」來重新建構映象頁面URL嗎？
+
+沒有。 [訊息匯出](message-export.md)提供已傳送的訊息內容和中繼資料，以供下游匯出、封存、法規遵循或客戶服務使用。 它不會產生或傳回[映象頁面URL](../email/message-tracking.md#mirror-page)。
+
++++
+
++++ 如需檢視傳送給客戶的確切訊息，應使用哪個選項？
+
+當您需要外部系統中的結構化傳送訊息內容和中繼資料時，請使用[訊息匯出](message-export.md)。 當您只需要信箱中保留的傳出電子郵件的隱藏復本時，請使用[密件副本](#bcc-email)。 這兩個選項都不會擷取原始映象頁面URL。
+
++++

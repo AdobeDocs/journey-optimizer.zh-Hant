@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 此版本提供數項全新及改善的[同事](../start/ai-features.md#cx-coworker)功能和技能，列於此處，以供您瞭解。 每項資料亦會在下文相關章節中詳細說明。
 
-* [訊息複製與電子郵件設計外掛程式](#sep-26-content-management) — 兩個新外掛程式，可簡化同事的傳訊與電子郵件工作流程，從行銷活動簡報到生產就緒的復本及HTML。
+* [CE Channel內容外掛程式](#sep-26-content-management) — 此新外掛程式可在同事中結合行銷活動副本、影像和電子郵件HTML技能，從行銷活動簡報到生產就緒副本和HTML。
 * [忠誠度推薦技能](#sep-26-loyalty) — 直接在同事的對話介面中要求挑戰機會，並將它們變成即時挑戰，而不需要離開聊天。
 * [歷程模擬](#sep-26-journeys) — 自動進行端對端歷程驗證，並直接在同事中解譯結果。
 * [從同事邊欄建立歷程](#sep-26-journeys) — 使用AI直接從同事右側邊欄產生歷程，取代先前的AI助理體驗。
@@ -57,26 +57,25 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <table>
 <thead>
 <tr>
-<th><strong>Co-worker中的訊息複製和電子郵件設計外掛程式</strong><br/></th>
+<th><strong>Co-worker中的管道內容外掛程式</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Co-worker現在提供兩個新的外掛程式，以簡化從策略到部署的<strong>訊息和電子郵件工作流程</strong>：</p>
-<p><strong>訊息複製外掛程式</strong>：</p>
+<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**&#x200B;外掛程式提供下列技能：</p>
 <ul>
-<li>擷取行銷活動簡報，並定義訊息地圖、敘述弧和頻道角色。</li>
-<li>建立跨管道、接觸點、地區、對象和變體量身打造的多維度內容矩陣。</li>
-<li>產生全新副本，並運用Adobe Firefly來產生、裁切及調整行銷活動視覺效果。</li>
-<li>允許就地內容評估，並直接將核准的資產同步回Journey Optimizer、Adobe Campaign V8和Marketo。</li>
-</ul>
-<p><strong>電子郵件設計外掛程式</strong>：</p>
-<ul>
-<li>將行銷目標、參考熒幕擷取畫面或Figma設計連結轉換為自訂版面配置計畫和生產就緒電子郵件HTML。</li>
-<li>管理可重複使用的品牌資產、設計權杖和結構化電子郵件範本。</li>
-<li>稽核針對企業法規遵循、視覺設計品質和WCAG 2.1 AA協助工具標準而組裝的電子郵件程式碼。</li>
-<li>將核准的HTML直接匯出至Adobe Journey Optimizer和Adobe Campaign。</li>
+<li><strong>協調內容製作</strong>。</li>
+<li><strong>探索內容策略</strong></li>
+<li><strong>內容簡介</strong></li>
+<li><strong>產生內容</strong></li>
+<li><strong>檢查內容整備</strong></li>
+<li><strong>修訂與重新產生內容</strong></li>
+<li><strong>產生影像</strong></li>
+<li><strong>評估內容設計</strong></li>
+<li><strong>儲存頻道內容</strong></li>
+<li><strong>從Figma建立電子郵件</strong></li>
+<li><strong>品牌查詢</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->

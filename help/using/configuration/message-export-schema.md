@@ -10,15 +10,15 @@ level: Experienced
 keywords: 匯出，訊息，資料集，結構描述，電子郵件，簡訊
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Channel configurations
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: '467'
 ht-degree: 3%
-
 ---
-
 # AJO訊息匯出綱要 {#ajo-message-export-schema}
 
 >[!BEGINSHADEBOX]
@@ -30,6 +30,8 @@ ht-degree: 3%
 在電子郵件或簡訊通道設定上啟用&#x200B;**訊息匯出**&#x200B;時，已傳送的訊息內容會寫入[!DNL Adobe Experience Platform]中的&#x200B;**AJO訊息匯出資料集**。
 
 本節列出匯出資料集中的可用欄位。
+
+如需訊息匯出功能、啟用步驟和支援的使用案例的概觀，請參閱[Journey Optimizer中的訊息匯出](message-export.md)。
 
 ## 資料集欄位
 

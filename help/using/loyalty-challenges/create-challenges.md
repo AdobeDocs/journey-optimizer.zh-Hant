@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # 建立挑戰 {#create-challenges}
@@ -108,7 +108,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="挑戰排程"
->abstract="使用開始和結束日期與時間以及時區設定當問答為即時狀態時，或選取「沒有結束日期」以無限期執行問答。 在任務完成視窗中，選擇客戶可在挑戰期間完成任務的時間。"
+>abstract="使用開始和結束日期與時間以及時區來設定挑戰的上線時間，或選取「無結束日期」以無限期地運行挑戰。 在任務完成視窗中，選擇客戶可在挑戰期間完成任務的時間。"
 
 設定您的挑戰執行時間：
 

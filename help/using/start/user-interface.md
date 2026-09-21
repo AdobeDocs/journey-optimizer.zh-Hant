@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
 source-wordcount: '1738'
-ht-degree: 90%
+ht-degree: 98%
 ---
 # 瀏覽介面 {#user-interface}
 
@@ -148,7 +148,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ### 使用案例和快速入門工作流程 {#use-cases}
 
-快速入門工作流程可協助您完成日常工作：
+快速入門工作流程可協助您完成常見工作：
 
 * **建立測試設定檔**：使用 CSV 範本，產生測試設定檔
 * **傳送生日賀詞簡訊**：自動傳送生日賀詞電子郵件（即將推出）
@@ -232,7 +232,7 @@ Journey Optimizer 介面包含四個主要區域：
 
 ## AI 助理 {#ai-assistant}
 
-AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助理圖示，以便：
+AI 助理可提供即時說明和運作洞察。 按一下頂端列中的 AI 助理圖示，以便：
 
 * 取得產品功能相關解答
 * 收到有關歷程的運作洞察
@@ -275,7 +275,7 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
 >title="臨時細分和確切計算"
->abstract="使用確切計算，逐步建立區段"
+>abstract="使用確切計數，逐步建立區段"
 
 
 
@@ -307,17 +307,17 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="行銷訊息"
->abstract="促銷內容，包括廣播直播活動，例如運動分數或航班狀態更新（需要選擇加入，但須遵守商業規則）"
+>abstract="宣傳性內容，包括運動賽事比分或航班狀態更新等即時動態播送 (需要選擇加入，須遵守商業規則)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"
 >title="交易型訊息"
->abstract="服務相關內容（確認、警示則不受到行銷同意約束）"
+>abstract="服務相關內容（確認、警示，不受行銷同意約束）"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_4"
 >title="可用頻道"
->abstract="電子郵件、簡訊、推播通知和即時活動"
+>abstract="電子郵件、SMS、推播通知和即時動態"
 
 <!--APPROVAL POLICIES-->
 
@@ -378,7 +378,7 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="載入檔案活動"
->abstract="**載入檔案**&#x200B;活動為&#x200B;**目標定位**&#x200B;活動。 使用它在協調的行銷活動畫布上傳 CSV 或 TXT 檔案，並將其用作行銷活動客群。 檔案資料在執行時消耗，且不會儲存為 Adobe Experience Platform 資料集。 使用身分欄位和目標維度，將資料列調和至現有的收件者。"
+>abstract="**載入檔案**&#x200B;活動為&#x200B;**目標定位**&#x200B;活動。 使用它在協調的行銷活動畫布上上傳 CSV 或 TXT 檔案，並將其用作行銷活動客群。 檔案資料會在執行時使用，且不會儲存為 Adobe Experience Platform 資料集。 使用身分欄位和目標維度，將資料列調和至現有的收件者。"
 
 <!-- Asset selector content generation -->
 
@@ -410,19 +410,19 @@ AI 助理有提供立即說明、運作洞察。 按一下頂端列中的 AI 助
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
 >title="傳入活動停用活動"
->abstract="從歷程中直接移除最多5個傳入活動或體驗的設定檔，將傳入取消資格與歷程退出分離。"
+>abstract="從歷程中直接移除最多 5 個傳入活動或體驗的輪廓，將傳入取消資格與歷程退出分離。"
 
 <!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_recovery_timeout"
 >title="設定事件復原逾時"
->abstract="控制歷程會自動重播受服務中斷影響的事件多長時間。 預設為關閉（72小時自動重播）；開啟以將重播時段從對時間敏感的歷程的0小時調整為72小時。"
+>abstract="控制歷程會將受服務中斷影響的事件自動重播多長的時間。 預設為關閉 (72 小時自動重播)；開啟可將對時間敏感的歷程的重播時段從 0 小時調整為 72 小時。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
->title="自訂動作/ IDS動作逾時"
->abstract="自訂動作/ IDS動作逾時選項會在動作逾時或傳回錯誤時，定義歷程中的替代路徑，因此設定檔會繼續透過遞補路徑進行，而非在此步驟停止。 建議值介於 1 至 30 秒之間。"
+>title="自訂動作/IDS 動作逾時"
+>abstract="「自訂動作/IDS 動作逾時」選項會定義動作逾時或傳回錯誤時歷程中的替代路徑，如此輪廓便會繼續通過後備路徑，而非在此步驟停止。 建議值為 1 至 30 秒之間。"
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

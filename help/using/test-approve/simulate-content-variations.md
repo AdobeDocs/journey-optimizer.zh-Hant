@@ -10,27 +10,35 @@ level: Intermediate
 exl-id: d9f7e0a3-b8c2-4e5f-92a1-3c1d7e8a4f65
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+    internal-label: Proofs
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+    internal-label: Approval workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+    internal-label: Personalization
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: 884
-ht-degree: 1%
-
+source-wordcount: '905'
+ht-degree: 6%
 ---
-
 
 # 模擬內容變化版本 {#simulate-content-variations}
 
@@ -43,7 +51,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_content_variations"
 >title="使用範例輸入進行模擬"
->abstract="在此畫面中，您可以並排預覽及比較所有內容變體。 透過手動輸入值、上傳CSV或JSON檔案、使用AI自動產生變體，或選取現有模擬使用者來建立變體。"
+>abstract="在此畫面中，您可以並排預覽及比較所有內容變化版本。 建立變化版本的方法包括手動輸入值、上傳 CSV 或 JSON 檔案、使用 AI 自動產生變化版本，或選取現有模擬使用者。"
 
 **[!UICONTROL 模擬內容變體]**&#x200B;體驗已重新設計，讓測試與比較變體更快速輕鬆。 所有變體現在都會在單一可捲動格線中一起呈現，而您需要的每個控制項都可從單一底部動作列取得。
 
@@ -136,5 +144,9 @@ ht-degree: 1%
 * **[!UICONTROL 轉譯電子郵件]** — 預覽您的電子郵件在常見電子郵件使用者端與裝置間的轉譯方式。 [了解更多](../content-management/rendering.md)
 * **[!UICONTROL 傳送校樣]** — 傳送一或多個變體的校樣給一組電子郵件收件者。 按一下&#x200B;**[!UICONTROL 傳送校樣]**、新增最多10個收件者地址、選取要包含的變體，然後按一下&#x200B;**[!UICONTROL 傳送校樣]**&#x200B;以進行確認。 若要檢閱先前傳送的校樣，請按一下&#x200B;**[!UICONTROL 檢視校樣]**。 [了解更多](../content-management/proofs.md)
 * **[!UICONTROL 檢視設定詳細資料]** — 檢閱套用至此內容的頻道設定。
+
+>[!NOTE]
+>
+>針對變體傳送的校樣中，映象頁面連結未啟用。 它只會在最終訊息中啟動。 [了解更多](../email/message-tracking.md#mirror-page)。
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}
