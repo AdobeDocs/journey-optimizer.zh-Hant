@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3056'
+ht-degree: 64%
 ---
 # 發行說明 {#release-notes}
 
@@ -123,7 +123,7 @@ ht-degree: 65%
 <tr>
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>此功能先前為限額版本，現在已可在所有環境中使用 (正式版本)。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
@@ -193,6 +193,12 @@ ht-degree: 65%
 * **覆寫動作行銷活動中的預設執行欄位** — 您現在可以覆寫動作行銷活動引數中針對電子郵件、簡訊和WhatsApp傳遞全域設定的預設執行欄位（先前可在歷程層級使用）。
 
 +++
+
+### 協調的行銷活動 {#sep-26-orchestrated-campaigns}
+
+* **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中針對協調的行銷活動建立條件式內容時，您現在可以直接在關聯式資料（例如與設定檔相關聯的相關記錄）上建立條件，而不只是標準設定檔屬性。 [了解更多](../orchestrated/activities/channels.md#add-personalization)
+
+  推出日期： 2026年9月22日
 
 ### 可用性改進功能 {#sep-26-usability}
 
@@ -321,7 +327,7 @@ ht-degree: 65%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將 LINE 動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容 (包括文字、貼圖、影像、影片、位置資料以及豐富的 Flex 訊息)，以便在 LINE 平台上順暢地與您的客戶互動。 此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>您現在可以將 LINE 動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容 (包括文字、貼圖、影像、影片、位置資料以及豐富的 Flex 訊息)，以便在 LINE 平台上順暢地與您的客戶互動。 此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細文件</a>以了解詳情。</p>
 <p>推出日期：2026 年 8 月 12 日</p>
 </td>
