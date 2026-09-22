@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3056'
-ht-degree: 64%
+source-wordcount: '3158'
+ht-degree: 62%
 ---
 # 發行說明 {#release-notes}
 
@@ -196,7 +196,30 @@ ht-degree: 64%
 
 ### 協調的行銷活動 {#sep-26-orchestrated-campaigns}
 
+<table>
+<thead>
+<tr>
+<th><strong>協調行銷活動的警報</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>協調的行銷活動現在透過在歷程及行銷活動中使用的相同警報架構，支援<strong>自動警報</strong>。 行銷活動執行失敗、逾時時時會觸發警報，每個警報都包含已發生的事件、發生時間、地點以及畫布的直接連結，以便檢視記錄檔中的進一步詳細資訊。</p>
+<p>如需詳細資訊，請參閱<a href="../orchestrated/start-monitor-campaigns.md#alerting">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中針對協調的行銷活動建立條件式內容時，您現在可以直接在關聯式資料（例如與設定檔相關聯的相關記錄）上建立條件，而不只是標準設定檔屬性。 [了解更多](../orchestrated/activities/channels.md#add-personalization)
+
+  推出日期： 2026年9月22日
+
+### 個人化 {#sep-26-personalization}
+
+* **使用AI修正語法** — 偵測到PQL語法驗證錯誤時，Personalization編輯器現在會提供「使用AI修正」選項，協助直接從編輯器解決問題。
 
   推出日期： 2026年9月22日
 
@@ -327,7 +350,7 @@ ht-degree: 64%
 <tbody>
 <tr>
 <td>
-<p>您現在可以將 LINE 動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容 (包括文字、貼圖、影像、影片、位置資料以及豐富的 Flex 訊息)，以便在 LINE 平台上順暢地與您的客戶互動。 此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>您現在可以將 LINE 動作新增至您的協調行銷活動。 這項新活動可讓您建立及提供高度個人化的內容 (包括文字、貼圖、影像、影片、位置資料以及豐富的 Flex 訊息)，以便在 LINE 平台上順暢地與您的客戶互動。 此功能僅適用於部分組織 (限額推出)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p>如需詳細資訊，請參閱<a href="../orchestrated/activities/channels.md">詳細文件</a>以了解詳情。</p>
 <p>推出日期：2026 年 8 月 12 日</p>
 </td>
