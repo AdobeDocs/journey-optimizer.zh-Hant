@@ -55,7 +55,7 @@ ht-degree: 15%
 >
 >在歷程中建立條件路徑的新工具是[最佳化](optimize.md)活動。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從 UI 中移除。 現在，所有條件式邏輯都可透過此頁面上顯示的「最佳化活動」條件來處理。
 >
->如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**[!UICONTROL &#x200B;條件&#x200B;]**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
+>如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B;條件&#x200B;]&#x200B;**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
 
 ## 新增條件。 {#add-condition-activity}
 
@@ -227,7 +227,7 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**對象參與率的個人
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與率的個人
    >狀態將被視為對象的成員。 如需如何操作的詳細資訊
    >評估對象，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
    >
