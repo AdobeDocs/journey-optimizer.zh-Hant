@@ -10,26 +10,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 2024
+source-wordcount: '2134'
 ht-degree: 4%
-
 ---
-
 # 建立排名公式 {#create-ranking-formulas}
 
 >[!BEGINSHADEBOX]
@@ -53,7 +60,7 @@ ht-degree: 4%
 建立排名公式之前，請記住下列限制：
 
 * AI公式產生器不支援使用連續量度的[個人化最佳化模型](personalized-optimization-model.md)。
-* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量[&#128279;](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的轉換率中。
+* 在排名公式中使用AI模型時，資料不會反映在保留和模型驅動流量](../../reports/campaign-global-report-cja-code.md#conversion-rate)報表的[轉換率中。
 * 排名公式中的巢狀深度限製為30個層級，測量方式為計算PQL字串中的`)`。
 * UTF-8編碼字元的排名公式字串最多可達8KB （8,000個ASCII字元或2,000-4,000個非ASCII字元）。
 * 排名公式不支援回顧期間（例如，上個月以來的體驗事件）。 嘗試儲存此類公式會觸發錯誤。
@@ -140,7 +147,7 @@ ht-degree: 4%
    >
    >按一下欄位旁的圖示，新增預先定義的變數。
 
-1. 按一下[新增條件]&#x200B;**&#x200B;**，視需要多次新增一或多個條件。 邏輯如下：
+1. 按一下[新增條件]****，視需要多次新增一或多個條件。 邏輯如下：
    * 如果指定決策專案的第一個條件為true，則其優先於下一個條件。
    * 如果不為true，則決策引擎會繼續執行第二個標準，以此類推。
 
@@ -298,6 +305,8 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 將排名公式套用至您的選擇策略之前，您可以使用範例或產生的資料來測試它，以驗證排名結果並確保它達成預期行為。
 
+### 存取模擬工作區
+
 1. 開啟現有的公式，或[建立新的公式](#create-ranking-formula)，然後按一下&#x200B;**[!UICONTROL 模擬公式]**&#x200B;按鈕。
 
    ![](../assets/ranking-formula-simulate-button.png)
@@ -310,7 +319,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
    * **排名運算式**：顯示公式運算式以供參考
    * **模擬結果**：選取變體時顯示排名優惠
 
-1. 使用下列兩種方法之一新增測試變體：
+### 新增測試變體
+
+1. 使用下列其中一種方法新增測試變體：
 
    * 若要建立手動樣本，請選取&#x200B;**[!UICONTROL 建立樣本]**&#x200B;按鈕，然後選取您要用來測試的選件專案。
    * 若要使用AI產生測試變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
@@ -320,6 +331,24 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
    >擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
 
 「測試變體」區段會自動填入選取的專案或產生的範例。 每個變體都包含在運算式中使用的屬性。 您可以直接編輯欄位值以模擬不同的情境。
+
+### 使用Adobe Experience Platform測試設定檔填入變數
+
+建立或產生變體後，您可以使用現有[Adobe Experience Platform測試設定檔](../../audience/creating-test-profiles.md)的屬性來填入其屬性。
+
+1. 在變體上選取「**[!UICONTROL 編輯]**」，然後按一下「**[!UICONTROL 選取AEP設定檔]**」按鈕。
+
+   ![](../assets/ranking-formula-simulate-aep.png)
+
+1. 選取身分名稱空間，輸入對應的身分值。
+
+   **最近**&#x200B;區域列出您已成功套用的設定檔。 最近使用的設定檔會依組織和沙箱儲存在瀏覽器中，以最新的順序排序，並限製為10個專案。
+
+   ![](../assets/ranking-formula-simulate-aep-recents.png)
+
+1. 按一下&#x200B;**[!UICONTROL 選取設定檔]**&#x200B;按鈕。 測試設定檔的屬性已新增到所選的變體。
+
+### 檢視模擬結果
 
 若要檢視模擬的排名結果，請從清單中選取測試變體。 「模擬」結果區域會顯示排名優惠方案及其分數，顯示您的公式如何根據變體資料對專案進行排名。
 
@@ -348,7 +377,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
    ![](../assets/ranking-formula-ai-details.png)
 
-1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] **，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**
+1. 若要驗證這兩個運算式是否產生相同的排名結果，請按一下[下載最佳化分析(TSV)] ]**，下載一個檔案，顯示如何針對每個版本評估模擬設定檔。**[!UICONTROL 
 
 1. 一旦滿意，按一下&#x200B;**[!UICONTROL 套用]**，以最佳化的運算式取代原始運算式。
 

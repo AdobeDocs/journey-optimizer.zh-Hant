@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 61%
+source-wordcount: '3274'
+ht-degree: 60%
 ---
 # 發行說明 {#release-notes}
 
@@ -123,7 +123,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
-<p>此功能先前為限額版本，現在已可在所有環境中使用 (正式版本)。</p>
+<p>此功能先前以限額版本推出，現在已可在所有環境中使用 (正式版本)。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
@@ -224,6 +224,12 @@ ht-degree: 61%
 ### 個人化 {#sep-26-personalization}
 
 * **使用AI修正語法** — 偵測到PQL語法驗證錯誤時，Personalization編輯器現在會提供「使用AI修正」選項，協助直接從編輯器解決問題。
+
+  推出日期： 2026年9月22日
+
+### 決策 {#sep-26-decisioning}
+
+* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
   推出日期： 2026年9月22日
 
