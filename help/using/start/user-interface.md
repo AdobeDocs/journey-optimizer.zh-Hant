@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 98%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # 瀏覽介面 {#user-interface}
 
@@ -205,7 +205,7 @@ Journey Optimizer 介面包含四個主要區域：
 **連線** - 與其他系統整合
 
 * **來源** - 從外部系統擷取資料。 [設定來源](get-started-sources.md)
-* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 您也可以從[Adobe Target目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=zh-Hant){target="_blank"}啟用對象至合格的個人化目的地，例如Experience Platform。
+* **目的地** - 將資料匯出至雲端儲存空間。 [設定目的地](../data/export-datasets.md)。 您也可以從[Adobe Target目的地目錄](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}啟用對象至合格的個人化目的地，例如Experience Platform。
 
 **客戶** - 管理客群和輪廓
 
@@ -359,10 +359,6 @@ AI 助理可提供即時說明和運作洞察。 按一下頂端列中的 AI 助
 >title="啟用 Webhook"
 >abstract="啟用 Webhook 以接收有關訊息執行狀態的即時回饋。 在啟用此選項之前，請確定您已在&#x200B;**管理**/**頻道**/**回饋 Webhook** 選單中設定 Webhook。"
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="回饋 Webhook"
->abstract="意見回饋 Webhook 可讓您接收透過交易型 API 觸發的行銷活動傳送之訊息執行狀態的即時回饋。 每個組織 + 沙箱組合只允許一個 Webhook 設定。"
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -403,6 +399,13 @@ AI 助理可提供即時說明和運作洞察。 按一下頂端列中的 AI 助
 >id="ajo_admin_sms_webhook_relay_url"
 >title="轉送目標 URL"
 >abstract="用於轉送每個傳入訊息的 HTTPS 端點 Journey Optimizer 呼叫。 Journey Optimizer 會針對收到的每則訊息將個別 HTTP POST 傳送到此處。 這與「自訂驗證」下方的「驗證 URL」不同，後者僅用於取得存取權杖，而非接收訊息。"
+
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="設定為預設"
+>abstract="啟用此選項以使用公用webhook URL來處理提供者意見以及從提供者接收的傳入訊息。"
 
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 
