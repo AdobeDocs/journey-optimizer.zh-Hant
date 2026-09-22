@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: de7c17af32c7d198c2dbfce64b8f408dbd96d94d
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 15%
@@ -55,7 +55,7 @@ ht-degree: 15%
 >
 >在歷程中建立條件路徑的新工具是[最佳化](optimize.md)活動。 它取代了先前的&#x200B;**條件**&#x200B;活動，此活動已從 UI 中移除。 現在，所有條件式邏輯都可透過此頁面上顯示的「最佳化活動」條件來處理。
 >
->如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**&#x200B;[!UICONTROL &#x200B;條件&#x200B;]&#x200B;**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
+>如果您有使用&#x200B;**[!UICONTROL 條件]**&#x200B;活動的現有歷程，您可以像之前一樣繼續使用。 它們現在會以新圖示顯示，作為&#x200B;**[!UICONTROL 使用**[!UICONTROL &#x200B;條件&#x200B;]**方法最佳化]**&#x200B;活動，但行為未變更。 您在節點上設定的任何自訂標籤都會保留。
 
 ## 新增條件。 {#add-condition-activity}
 
@@ -80,7 +80,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
+>在[設定檔存放區](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}中包含兩個以上跨裝置身分的設定檔條件評估將會失敗。
 
 ## 管理條件路徑 {#condition_paths}
 
@@ -227,12 +227,9 @@ ht-degree: 15%
 
    >[!NOTE]
    >
-   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與率的個人
-   >狀態將被視為對象的成員。 如需如何操作的詳細資訊
-   >評估對象，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+   >請注意，只有具有&#x200B;**已實現**&#x200B;對象參與狀態的個人才會被視為對象的成員。 如需如何評估對象的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
    >
-   >適用於對象驗證護欄，包括5,000個對象快取
-   >限制和因應措施，請參閱[inAudience函式](functions/functioninaudience.md#guardrails)。
+   >如需對象驗證護欄，包括5,000對象快取限制和因應措施，請參閱[inAudience函式](functions/functioninaudience.md#guardrails)。
 
 ➡️ **實際檢視：**&#x200B;瞭解如何使用時間和一週中的某天條件，[只在工作日傳送電子郵件](weekday-email-uc.md)。
 
