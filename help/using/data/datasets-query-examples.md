@@ -64,7 +64,7 @@ ht-degree: 1%
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
-另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
 ## 選擇正確的資料集 {#choose-the-correct-dataset}
 
@@ -373,9 +373,9 @@ group by
 ```
 
 
-另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
+另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
 
-瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
 
 ## 決策事件資料集{#ode-decisionevents}
 
