@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
+source-git-commit: 6f4268a1056816f2a61cac11ff818657c48ca41c
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3504'
 ht-degree: 8%
 ---
 
@@ -63,7 +63,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**&#x200B;外掛程式提供下列技能：</p>
+<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**外掛程式提供下列技能：</p>
 <ul>
 <li><strong>協調內容製作</strong>。</li>
 <li><strong>探索內容策略</strong></li>
@@ -83,6 +83,14 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tr>
 </tbody>
 </table>
+
+### 整合 {#sep-26-integrations}
+
+此版本即將整合以下功能。
+
+* **Experience Manager片段的動態權杖替代** - Experience Manager內容片段參考現在支援&#x200B;**tokenSubstitution**&#x200B;屬性。 設定為`false`時，片段欄位內的個人化會直接解析，參考中不含Token對應。 其預設值為`true`，這會保留現有行為。
+
+  此功能僅適用於部分組織 (限額推出)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 ### 忠誠度 {#sep-26-loyalty}
 
@@ -114,7 +122,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 </td>
 </tr>
 </tbody>
