@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1571'
+ht-degree: 26%
 ---
 # 發行說明 {#release-notes}
 
@@ -177,28 +177,15 @@ ht-degree: 31%
 
   推出日期： 2026年9月1日
 
++++ 即將推出 — **下列資訊可能會有變更。**
+
+* **衛生分析技能** - CX Coworker現在可以掃描您的使用中歷程和草稿歷程，找出中斷的設定、無訊息失敗、過時或未使用的資產，例如過時的草稿歷程、孤立的資料來源和持續的自訂動作錯誤，並直接在聊天中呈現建議的修正。<!-- Documentation link: TBD -->
+
++++
 
 ### 行銷活動 {#sep-26-campaigns}
 
-* **動作行銷活動編寫流程重新設計** - Adobe Journey Optimizer 動作行銷活動編寫流程已重新設計，提供更直覺、高效且順暢的使用者體驗。
-
 +++ 即將推出 — **下列資訊可能會有變更。**
-
-<table>
-<thead>
-<tr>
-<th><strong>動作行銷活動中的傳入體驗模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>您現在可以於上線前，在動作行銷活動中模擬傳入管道動作。 使用模擬模式，透過模擬使用者測試您的設定並預覽呈現的體驗 (包括產生的 URL 和 QR 碼)，讓您可以端到端驗證規則、決策機制與內容呈現。</p>
-<p>此功能目前為 Private Beta 版本，僅供特定組織使用。 請聯絡您的 Adobe 代表以取得更多資訊。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **動作行銷活動的資料夾** — 您現在可以將動作行銷活動整理到資料夾中，以改善介面中的導覽和管理。
 

@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14472'
 ht-degree: 97%
 ---
 # 2026 年發行說明 {#release-notes-2026}
@@ -57,7 +57,6 @@ ht-degree: 97%
 
 ### 歷程 {#aug-26-journeys}
 
-
 * **歷程標頭中的開始和結束日期** - 當歷程設定了開始及/或結束日期時，這些日期現在會顯示在即時狀態徽章旁邊的歷程頁首中。 顯示的標籤會根據每個日期是即將到來或是已過去而調整。 [閱讀全文](../building-journeys/journey-properties.md#dates)
 
   推出日期： 2026年8月20日
@@ -96,6 +95,10 @@ ht-degree: 97%
 * **個別行銷活動生命週期警報訂閱** - 除了現有的沙箱層級訂閱之外，您現在也可以訂閱單一行銷活動支援的行銷活動生命週期警報。 這可讓您監視個別高優先順序的行銷活動，而不會收到沙箱中每個行銷活動的相同警報。 [了解更多](../reports/alerts.md#subscribe-alerts)
 
   推出日期：2026 年 8 月 13 日
+
+* **動作行銷活動編寫流程重新設計** - Adobe Journey Optimizer 動作行銷活動編寫流程已重新設計，提供更直覺、高效且順暢的使用者體驗。
+
+  推出日期： 2026年8月23日
 
 ### 協調的行銷活動 {#august-26-oc}
 
@@ -479,7 +482,7 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
 
 * **決策規則和排名公式模擬** - 您現在可以直接從規則或公式編輯器模擬決策規則和排名公式。 新增手動測試變體，或使用 AI 產生變體，然後根據測試資料執行運算式，以驗證資格並檢閱排名結果；所有操作都可在部署至生產環境前完成。 變體產生功能適用於可存取 Adobe AI 功能的客戶。
 
-  此功能僅適用於部分組織 (限額推出)。 若想取得存取權，請聯絡您的 Adobe 代表。
+  此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
   可用日期：2026 年 7 月 29 日
 
@@ -499,7 +502,7 @@ Journey Optimizer 在此版本中推出新功能「忠誠度挑戰」。
 <tr>
 <td>
 <p>透過引導式功能，您可以更輕鬆地從其他行銷平台轉換至 Adobe Journey Optimizer，將現有電子郵件內容和歷程移至 Journey Optimizer。 專屬工作區可讓您重複使用現有資產，而不必從頭重建。</p>
-<p>此功能僅適用於部分組織 (限額推出)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
+<p>此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
 <p>如需詳細資訊，請參閱<a href="../start/migrate-content-and-journeys.md">詳細文件</a>以了解詳情。</p>
 <p> 可用日期：2026 年 7 月 30 日</p>
@@ -1647,7 +1650,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **發行日期**：2026 年 3 月 24 日至 25 日
@@ -2401,7 +2404,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI 助理內容品質檢查** - 除了品牌一致性之外，您現在還可以評估整體的<strong>內容品質</strong>，以找出潛在的<strong>可讀性</strong>、一致性和效能問題，不受品牌准則影響。 這些自動化檢查有助於識別不清楚的訊息、不一致的語調或結構性缺口。 [閱讀全文](../content-management/brands-score.md#validate-quality)。
 
-  [在影片中探索此功能](https://video.tv.adobe.com/v/3470557/?captions=chi_hant&learn=on)。
+  [在影片中探索此功能](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### 歷程
 
