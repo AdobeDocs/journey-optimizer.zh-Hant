@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7183'
+source-wordcount: '7217'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 此頁面列出 [!DNL Journey Optimizer] 文件中的所有最新變更，以及與每月發行功能和改進相關的更新。
 
 ## 2026年9月 {#september-2026}
+
+* `inAudience`護欄現在包含超過5,000個受眾的沙箱的因應措施，在歷程編寫期間可能會拒絕較舊的受眾，因為驗證只會檢查5,000個最近更新的受眾。 [閱讀更多](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * 電子郵件映象頁面的指引已擴展：本檔案現在說明無法透過公用API或資料集擷取映象頁面URL、建議訊息匯出或密件副本封存以保留已傳送的內容，並澄清映象頁面連結在校訂和模擬中為非作用中。 [閱讀更多](../email/message-tracking.md#mirror-page)
 
@@ -71,7 +73,7 @@ ht-degree: 82%
 
 * **追蹤您的訊息**&#x200B;頁面已更新，以釐清不支援的URL字元（例如單引號）必須以百分比編碼，而且若不加以編碼，可能會中斷追蹤的連結和URL追蹤引數。 [閱讀更多](../email/message-tracking.md#insert-links)
 
-* 已更新「使用波段傳送」**&#x200B;**&#x200B;頁面，以記錄讀取對象歷程中的最後一個波段必須排程在歷程開始的&#x200B;**6天及18小時**&#x200B;內。 超過此視窗會觸發驗證錯誤，並防止歷程進入測試模式或上線。 [閱讀更多](../delivery/send-using-waves.md#limitations-guardrails)
+* 已更新「使用波段傳送」****&#x200B;頁面，以記錄讀取對象歷程中的最後一個波段必須排程在歷程開始的&#x200B;**6天及18小時**&#x200B;內。 超過此視窗會觸發驗證錯誤，並防止歷程進入測試模式或上線。 [閱讀更多](../delivery/send-using-waves.md#limitations-guardrails)
 
 * 新的&#x200B;**抑制意見事件**&#x200B;區段已新增至&#x200B;**決定管理資料集合**&#x200B;頁面，記錄如何在測試期間使用`dryRun`旗標抑制決定事件，以及防止擷取意見以用於報告和頻率上限計數器。 [閱讀更多](../offers/data-collection/data-collection.md#suppress-feedback)
 
