@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 定義歷程的屬性
-description: 瞭解如何使用 [!DNL Adobe Journey Optimizer]設定您歷程的屬性
+description: 瞭解如何使用[!DNL Adobe Journey Optimizer]設定您歷程的屬性
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -13,28 +13,37 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+    internal-label: Journey properties
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4644
+source-wordcount: '4716'
 ht-degree: 13%
-
 ---
-
 # 設定您的歷程屬性 {#jo-properties}
 
 >[!BEGINSHADEBOX]
@@ -117,7 +126,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_entrance"
 >title="允許重新進入"
 >abstract="預設情況下，新歷程允許重新進入。 取消勾選「**允許重新進入**」選項可防止某人再次進入歷程，例如：在某人進入商店時提供一次性禮物。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓進入管理"
 
 預設情況下，新歷程允許重新進入。 您可以取消勾選「單次」歷程的&#x200B;**允許重新進入**&#x200B;選項，例如，如果您想要在某人進入商店時提供一次性禮物。
 
@@ -127,7 +136,7 @@ ht-degree: 13%
 >id="ajo_journey_properties_re-entrance_wait"
 >title="重新進入等待期"
 >abstract="重新進入等待期是指在單一歷程中輪廓再次進入歷程之前的等待時間。 它可防止使用者在選定的期間內重新進入歷程。 最長持續時間：90 天。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓入口管理"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="輪廓進入管理"
 
 啟動&#x200B;**允許重新進入**&#x200B;選項時，會顯示&#x200B;**重新進入等待期間**&#x200B;欄位。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或客群資格篩選開始) 之前等待的時間。 這可防止同一事件多次錯誤觸發歷程。 預設情況下，欄位會設為 5 分鐘。 持續時間上限為90天。
 
@@ -146,15 +155,15 @@ ht-degree: 13%
 >title="目前歷程承載大小"
 >abstract="顯示歷程承載相較於設定之限制的目前大小。 此指標有助於在發佈之前監視歷程複雜性，並避免因超過承載大小限制而造成的錯誤。"
 
-歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示與設定限制相關的歷程裝載目前大小，例如&#x200B;*1.5 MB （共2 MB）*。 此唯讀指標可在歷程編寫的任何階段顯示。
+歷程屬性面板中的&#x200B;**[!UICONTROL 目前歷程裝載大小]**&#x200B;欄位會顯示序列化歷程定義相對於設定限制的目前大小，例如&#x200B;*1.5 MB / 2 MB*。 此唯讀指標在歷程編寫期間提供。
 
 ![歷程屬性面板中目前的歷程裝載大小指標](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-使用這些資訊在發佈之前監視歷程的複雜性。 如果裝載大小接近或超過限制，則歷程發佈失敗。 若要減少大小，請考慮簡化歷程邏輯或減少活動數量。
+值會反映歷程的已儲存設定，包括其活動、運算式、條件、資料對應、引數和動作。 不會單獨從活動計數中計算。 如果裝載接近設定的限制，Journey Optimizer會顯示警告。 如果承載達到或超過設定的限制，則會封鎖儲存或發佈歷程。
 
-預設限製為4 MB。 如果您需要申請更高的組織上限，請聯絡Adobe客戶服務。
+預設的歷程承載大小上限為&#x200B;**2 MB （2,000,000位元組）**。 某些組織可能有 Adobe 設定的自訂限制。 如果您需要有關組織特定限制的資訊，請聯絡您的Adobe代表。
 
-如需閾值、警告和錯誤訊息以及疑難排解步驟的完整詳細資訊，請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。
+如需有關臨界值、最大貢獻活動、錯誤行為和減少策略的詳細資訊，請參閱[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。 參照的實體（例如電子郵件動作參照的電子郵件內容）不會包含在序列化歷程裝載中；電子郵件訊息內容受個別大小護欄的約束。
 
 ## 歷程和設定檔時區 {#timezone}
 
@@ -380,7 +389,7 @@ ht-degree: 13%
 
 ### 歷程退出條件 {#exit-criteria-desc}
 
-透過新增退出條件，您可以讓設定檔在事件發生時（例如「購買」）或符合對象資格時立即退出歷程。 這能阻止使用者從歷程處取得任何進一步通訊資料。
+透過新增退出條件，您可以讓設定檔在事件發生時（例如「購買」）或符合對象資格時立即退出歷程。 這能防止使用者再收到來自此歷程的任何通訊。
 
 當設定檔不再符合歷程的目的時，您可能會想要從歷程中移除設定檔。 這可透過與目標管理密切相關的&#x200B;**全域退出條件**&#x200B;來達成。
 
@@ -526,7 +535,7 @@ ht-degree: 13%
 
 **為什麼我的歷程會因為裝載大小而無法發佈？**
 
-**[!UICONTROL 目前的歷程裝載大小]**&#x200B;指標會針對設定的限制（預設為4 MB）顯示您的歷程裝載。 如果裝載接近或超過限制，發佈會失敗。 透過簡化歷程邏輯或減少活動數量來縮小規模，或聯絡Adobe客戶服務以要求更高的限制。 檢視[歷程裝載大小](#journey-payload-size)、[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。
+**[!UICONTROL 目前的歷程裝載大小]**&#x200B;指標會針對設定的限制(**2 MB （2,000,000位元組）**，顯示序列化的歷程定義。 值會反映歷程的已儲存設定，而非僅活動計數。 當承載達到限制的90%時會顯示警告；儲存或發佈會以100%或以上的比例遭到封鎖。 透過簡化運算式、條件、資料對應或引數來縮小大小。 檢視[歷程裝載大小](#journey-payload-size)、[歷程裝載大小驗證](../start/guardrails.md#journey-payload-size)和[一般歷程護欄](../start/guardrails.md#journeys-guardrails-journeys)。
 
 **我的歷程使用哪個合併原則？**
 

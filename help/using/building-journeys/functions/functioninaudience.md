@@ -11,22 +11,26 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Customer experience
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '840'
 ht-degree: 2%
-
 ---
-
 # inAudience 函式 {#inAudience}
 
 `inAudience`函式是Adobe Experience Platform函式，可讓您檢查歷程中的個人是否屬於特定對象。 這項強大的功能可讓您根據對象成員資格建立個人化的歷程路徑，在您的客戶體驗中啟用複雜的細分和目標定位。
@@ -122,6 +126,12 @@ inAudience("Unsubscribed") == false
 **合併原則考量事項：**
 * 透過`inAudience`函式使用多個對象時，合併原則不一致會導致錯誤或警示
 * 如需合併原則行為的詳細資訊，請參閱[歷程屬性](../journey-properties.md)
+
+**驗證的對象快取：**
+
+* 在包含超過5,000個對象的沙箱中，當您使用`inAudience`時，較舊的對象可能會在歷程編寫期間遭到拒絕，因為驗證會檢查僅包含5,000個最近更新對象的快取。
+* 若要解決此問題，請對對象進行微幅變更，例如更新說明，或清除較舊對象以將總數保持在限制以下。
+* 深入瞭解[在條件中使用對象](../conditions.md#using-a-segment)。
 
 **傳播時間：** {#propagation-timing}
 

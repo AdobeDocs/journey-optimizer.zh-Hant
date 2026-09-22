@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # 疑難排解您的即時歷程執行 {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -52,7 +60,7 @@ ht-degree: 10%
 
 歷程的起點永遠是一個事件。 您可以使用 Postman 等工具執行測試。
 
-您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
+您可以檢查您透過這些工具傳送的 API 呼叫是否已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
 
 不會直接將事件從來源推送到歷程。 事實上，歷程依賴[!DNL Adobe Experience Platform]的串流獲取API。 因此，如果發生與事件相關的問題，您可以參閱[[!DNL Adobe Experience Platform] 檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant){target="_blank"}以疑難排解串流獲取API。
 
@@ -69,7 +77,7 @@ ht-degree: 10%
 您可以透過下列問題開始進行疑難排解：
 
 * 您確定您預期會發生傳入事件的歷程處於測試模式或是即時狀態？
-* 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
+* 在從承載預覽複製承載之前，您是否已儲存事件？
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？ 請參閱[此頁面](../event/about-creating.md#preview-the-payload)。
@@ -135,7 +143,7 @@ ht-degree: 10%
 以下是一些要檢查的事項：
 
 * 是否是因為某個條件排除此人？ 例如，條件是 &quot;gender = male&quot;，但人員是女性。 如果條件並非太複雜，則可由業務使用者執行此檢查。
-* 是否是因為呼叫資料來源未回應？ 當歷程處於測試模式時，可在測試模式日誌中看到此資訊。 當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。 管理員也可以複製歷程並進行測試。
+* 是否是因為呼叫資料來源未回應？ 當歷程處於測試模式時，可在測試模式日誌中看到此資訊。 當歷程為啟用狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。 管理員也可以複製歷程並進行測試。
 
 ## 由於封鎖歷程執行個體，已捨棄事件 {#max-instance-stack-events-reached}
 
@@ -162,7 +170,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->對於原生Journey Optimizer頻道動作，請查詢訊息回饋事件資料集以確認傳遞狀態，例如`sent`或`bounce`。 對於自訂動作，請查詢歷程步驟事件資料集，以確認Journey Optimizer已成功執行動作 — 成功的HTTP呼叫本身不會確認外部系統已傳送訊息。 瞭解如何[為您的使用案例選擇正確的資料集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
+>對於原生Journey Optimizer頻道動作，請查詢訊息回饋事件資料集以確認傳遞狀態，例如`sent`或`bounce`。 在Adobe Journey Optimizer中，`sent`是成功訊息傳遞結果的相關狀態；`delivered`值未用於Adobe Journey Optimizer訊息回饋事件資料集。 對於自訂動作，請查詢歷程步驟事件資料集，以確認Journey Optimizer已成功執行動作 — 成功的HTTP呼叫本身不會確認外部系統已傳送訊息。 瞭解如何[為您的使用案例選擇正確的資料集](../data/datasets-query-examples.md#choose-the-correct-dataset)。
 
 ## 瞭解歷程步驟事件中的重複專案 {#duplicate-step-events}
 

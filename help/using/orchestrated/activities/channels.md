@@ -8,21 +8,25 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Personalization
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 2470
-ht-degree: 35%
-
+source-wordcount: '2536'
+ht-degree: 34%
 ---
-
 # 管道活動 {#channel}
 
 >[!BEGINSHADEBOX]
@@ -34,17 +38,17 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="電子郵件活動"
->abstract="電子郵件活動讓您能在協調的行銷活動中傳送電子郵件，單次訊息和定期訊息兩者均適用。 此活動會自動執行傳送電子郵件至相同協調式行銷活動內計算的某個目標的流程。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="電子郵件活動讓您能在協調的行銷活動中傳送電子郵件，單次訊息和定期訊息兩者均適用。 此活動會自動執行傳送電子郵件至相同協調的行銷活動內計算的某個目標的流程。 您可以將管道活動結合至多步驟行銷活動畫布中，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="簡訊活動"
->abstract="SMS 活動讓您能在協調的行銷活動中傳送簡訊，單次訊息和定期訊息兩者均適用。 此活動可自動化流程，將簡訊傳送給在同一協調式行銷活動中計算出的目標。 您可以將管道活動與多步驟行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="SMS 活動讓您能在協調的行銷活動中傳送簡訊，單次訊息和定期訊息兩者均適用。 此活動可自動化流程，將簡訊傳送給在同一協調的行銷活動中計算出的目標。 您可以將管道活動與多步驟行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="推播活動"
->abstract="推播活動讓您能在協調的行銷活動當中傳送推播。 推播活動可以傳送單次和定期之協調的行銷活動訊息，自動傳送推播至相同協調的行銷活動內預先定義的目標。 您可以將管道活動與行銷活動版面結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="推播活動讓您能在協調的行銷活動當中傳送推播。 推播活動可以傳送單次和定期之協調的行銷活動訊息，自動傳送推播至相同協調的行銷活動內預先定義的目標。 您可以將管道活動與行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
@@ -75,7 +79,7 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="直接郵件活動"
->abstract="直接郵件活動讓您在協調式行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。 此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。 您可以將管道活動與協調行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
+>abstract="直接郵件活動讓您在協調的行銷活動中傳送直接郵件更加方便，單次訊息和定期訊息皆適用。 此類活動會自動化流程，產生直接郵件提供者所需的摘取檔案。 您可以將管道活動與協調的行銷活動畫布結合，建立可根據客戶行為和資料觸發動作的跨管道行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
@@ -118,7 +122,7 @@ UNUSED IDs in BJ
 
    ![影像會顯示擁有可用活動的畫布](../assets/channel-add.png)
 
-1. 在右邊欄中，使用&#x200B;**[!UICONTROL 類別]**&#x200B;欄位為此訊息選擇&#x200B;**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急或取消。
+1. 在右邊欄中，使用&#x200B;**[!UICONTROL 類別]**&#x200B;欄位為此訊息選擇&#x200B;**[!UICONTROL 行銷]**&#x200B;或&#x200B;**[!UICONTROL 異動]**。 交易型訊息不需要選擇加入，且適合用於時效性強的通訊，例如中斷、緊急情況或取消。
 
 1. 選取活動並按一下&#x200B;**[!UICONTROL 編輯電子郵件]**、**[!UICONTROL 編輯簡訊]**、**[!UICONTROL 編輯推播]**&#x200B;或&#x200B;**[!UICONTROL 編輯直接郵件]** （視選取的頻道而定）。
 
@@ -187,7 +191,7 @@ UNUSED IDs in BJ
 
 >[!IMPORTANT]
 >
->此功能僅適用於一組組織 (可用性限制)。 若想取得存取權，請聯絡您的 Adobe 代表。
+>此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。
 > 
 >Journey Optimizer可讓您個人化寄件者資訊，包括來自Campaign Orchestration關聯式存放區的資料，並可啟用使用案例，例如以客戶經理的名義傳送電子郵件。 由於此資料可能會受到貴組織或法規所定義的使用限制所約束，請確保您在Journey Optimizer中的資料作業符合您的法律和法規義務。
 >
@@ -208,7 +212,7 @@ UNUSED IDs in BJ
 
 +++**追蹤參與** （電子郵件和簡訊）。
 
-使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 一旦執行行銷活動完畢，即可從行銷活動報告，存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
+使用&#x200B;**[!UICONTROL 動作追蹤]**&#x200B;區段，追蹤收件者對電子郵件或簡訊傳遞的反應。 執行行銷活動後，即可從行銷活動報告中存取追蹤結果。 [深入瞭解行銷活動報告](../../reports/campaign-global-report-cja.md)
 
 +++
 
@@ -233,11 +237,20 @@ UNUSED IDs in BJ
 <td><a href="../../mobile/create-mobile-message.md"><img alt="簡訊" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>建立簡訊</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="推播" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>建立推播通知</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="直接郵件" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>建立直接郵件</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="自訂頻道" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>建立自訂動作</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="折線圖" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>建立LINE訊息(LA)</strong></a></td></tr></table>
 
-### 新增個人化 {#add-personalization}
+### 新增個人化和條件式內容{#add-personalization}
 
 從通道活動的訊息編輯器，從行銷活動工作表插入&#x200B;**[!UICONTROL 設定檔屬性]**&#x200B;和&#x200B;**[!UICONTROL 目標屬性]** （目標維度和擴充資料）。
 
 ➡️ [瞭解如何在協調的行銷活動中新增個人化](../add-personalization.md)，包括擴充集合陣列、陣列函式和`{{#each}}`反複專案。
+
+![](../assets/oc-personalization.png)
+
+為電子郵件傳遞建立條件式內容時，您可以使用行銷活動工作表中的&#x200B;**[!UICONTROL Target]**&#x200B;屬性。 這些屬性包括關聯式結構描述的傳入對象或擴充資料，因此您可以根據目標籤錄顯示不同的內容。 條件專屬於目前傳遞，無法儲存為可重複使用的條件。
+
+➡️ [瞭解如何在電子郵件Designer](../../personalization/dynamic-content.md#emails)中建立條件式內容。
+
+
+![](../assets/conditional-content-target.png)
 
 ### 檢查並測試您的內容 {#simulate-content-test-profiles}
 

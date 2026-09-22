@@ -12,28 +12,38 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+    internal-label: Journey Optimizer schemas
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
+    internal-label: Data management
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: '1770'
 ht-degree: 1%
-
 ---
-
 # 查詢範例 {#query-examples}
 
 >[!BEGINSHADEBOX]
@@ -126,17 +136,17 @@ limit 100;
 
 AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳遞回饋。 它支援跨訊息通道（包括電子郵件、SMS/RCS/MMS和直接郵件）的傳遞回饋分析。 意見事件可用於報告和建立受眾使用案例。
 
-相關結構描述是AJO訊息回饋事件結構描述。
+相關的結構描述是`AJO Message Feedback Event`結構描述。
 
 >[!NOTE]
 >
->此資料集使用批次擷取。 查詢此資料集或將其用於報告用途時，預計資料延遲最長可達2小時。
+>* 在Adobe Journey Optimizer中，`sent`是用於成功訊息傳遞結果的值；訊息回饋事件資料集中不使用`delivered`。
+>
+>* 此資料集使用批次擷取，因此資料最多可能延遲2小時。
+>
+>* 我們並不保證會在每個事件填入管道特定的內容欄位。 使用訊息執行識別碼、回饋狀態、失敗詳細資料、時間戳記和身分資訊作為主要相互關聯欄位。
 
 如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。
-
->[!NOTE]
->
->我們並不保證會在每個訊息回饋事件中填入頻道特定內容欄位。 欄位可用性可能取決於頻道、提供者意見回應裝載、事件型別和傳送階段。 使用訊息執行識別碼、回饋狀態、失敗詳細資料、時間戳記和身分資訊作為主要相互關聯欄位。
 
 ### 將測試和非測試執行分類{#classify-test-executions}
 

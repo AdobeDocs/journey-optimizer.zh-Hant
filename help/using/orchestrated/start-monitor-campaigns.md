@@ -10,23 +10,28 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 22%
-
+source-wordcount: '1679'
+ht-degree: 21%
 ---
-
-# 開始並監控協調式行銷活動 {#start-monitor}
+# 開始並監視協調式行銷活動 {#start-monitor}
 
 >[!BEGINSHADEBOX]
 
@@ -36,7 +41,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
->title="發佈協調式行銷活動"
+>title="發佈協調的行銷活動"
 >abstract="若要開始您的行銷活動，您必須發佈該活動。 在發佈前，請確定所有錯誤都已清除。"
 
 一旦您建立了協調的行銷活動並設計了要在畫布中執行的任務，您就可以發佈它並監視其執行方式。 您也可以在測試模式下執行行銷活動，以檢查其執行和不同活動的結果。
@@ -153,11 +158,11 @@ ht-degree: 22%
 
 ### 視覺流量監視 {#flow}
 
-在執行時（在測試或即時模式下），視覺流程會顯示設定檔如何即時穿越歷程。 畫面上會顯示任務之間轉變的設定檔數目。
+在執行時（在測試或即時模式下），視覺流程會顯示設定檔如何即時穿越歷程。 畫面上會顯示在任務之間轉換的設定檔數目。
 
 ![顯示設定檔流程的行銷活動工作流程執行](assets/workflow-execution.png){zoomable="yes"}
 
-透過轉變從一個活動傳輸到另一個活動的資料會儲存在暫時工作表中。 此資料可針對每個轉變顯示。 若要檢查在活動之間傳遞的資料：
+透過轉換從一個活動傳輸到另一個活動的資料會儲存在暫時工作表格中。 此資料可針對每個轉變顯示。 若要檢查在活動之間傳遞的資料：
 
 1. 選取轉變。
 1. 在屬性窗格中，按一下「**[!UICONTROL 預覽結構描述]**」以檢視工作表結構描述。 選取「**[!UICONTROL 預覽結果]**」以檢視傳輸的資料。
@@ -198,6 +203,12 @@ ht-degree: 22%
 * 「**[!UICONTROL 任務]**」索引標籤詳細說明了活動的逐步執行順序。
 
 在這兩個標籤中，您可以選擇顯示的欄及其順序，套用篩選器，並使用搜尋欄位來快速尋找所需的資訊。
+
+### 設定警報 {#alerting}
+
+系統警報會提供關於您協調行銷活動中的問題的主動通知，因此您可以進行調查並採取更正動作，而不需持續檢查監控檢視。 您可以從&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 警示]**&#x200B;檢視和管理可用警示。
+
+如需有關可用警示以及如何訂閱的資訊，請參閱[存取及訂閱系統警示](../reports/alerts.md)。
 
 ## 後續步驟 {#next}
 

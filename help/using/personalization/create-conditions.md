@@ -11,15 +11,15 @@ keywords: 運算式，編輯器，條件，規則
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+    internal-label: Conditional instruction
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '697'
 ht-degree: 10%
-
 ---
-
 # 使用條件規則 {#conditions}
 
 >[!BEGINSHADEBOX]
@@ -53,12 +53,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="建立條件"
->abstract="結合設定檔屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
+>abstract="結合輪廓屬性、內容事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="建立條件"
->abstract="結合設定檔屬性、內容關聯式事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
+>abstract="結合輪廓屬性、內容事件或對象以建置定義在訊息中應顯示哪些內容的規則。"
 
 建立條件規則的步驟如下：
 
@@ -75,6 +75,7 @@ ht-degree: 10%
    * **[!UICONTROL 設定檔]**：
      * **[!UICONTROL 對象]**&#x200B;列出所有對象屬性（即狀態、版本等） 針對[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}，
      * **[!UICONTROL XDM個人設定檔]**&#x200B;列出與Adobe Experience Platform中定義的[體驗資料模型(XDM)結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant){target="_blank"}相關聯的所有設定檔屬性。
+     * **[!UICONTROL Target]**：在協調的行銷活動中，此資料夾會列出行銷活動工作表中的傳入對象和擴充屬性，包括關聯式結構描述中的資料。 [進一步瞭解協調行銷活動中的設定檔和目標屬性](../orchestrated/add-personalization.md#attributes)。
    * **[!UICONTROL 內容]**：當您的訊息用於歷程時，內容歷程欄位可透過此索引標籤使用。
    * **[!UICONTROL 對象]**：列出從[Adobe Experience Platform細分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant){target="_blank"}中建立的區段定義產生的所有對象。
 

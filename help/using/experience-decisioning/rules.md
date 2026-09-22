@@ -10,25 +10,31 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Optimization
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1729'
 ht-degree: 11%
-
 ---
-
 # 建置規則 {#rules}
 
 >[!BEGINSHADEBOX]
@@ -189,10 +195,11 @@ ht-degree: 11%
 
 在決策策略或行銷活動中使用規則之前，您可以使用範例或產生的資料加以測試，以驗證規則邏輯並確保其運作如預期。
 
+### 存取模擬工作區
+
 1. 開啟現有規則或[建立新規則](#create)，然後按一下&#x200B;**[!UICONTROL 模擬規則]**&#x200B;按鈕。
 
    ![](assets/rule-simulate-button.png)
-
 
 1. 模擬畫面會開啟，其中包含多個區段：
 
@@ -202,15 +209,35 @@ ht-degree: 11%
    * **規則運算式**：顯示參考的規則定義
    * **模擬結果**：顯示設定檔是否符合此規則的資格
 
-1. 使用以下兩種方法之一，使用規則所需的屬性新增測試變體：
+### 新增測試變體
+
+1. 使用下列其中一種方法，以規則所需的屬性新增測試變體：
    * 若要建立手動樣本，請選取&#x200B;**[!UICONTROL 建立樣本]**&#x200B;按鈕。
    * 若要使用AI產生測試變體，請按一下&#x200B;**[!UICONTROL 產生]**&#x200B;按鈕。
 
->[!NOTE]
->
->擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
+   >[!NOTE]
+   >
+   >擁有Adobe AI功能存取權的組織可使用AI型測試變體產生。
 
 「測試變體」區段會自動填入已建立或已產生的範例。 每個變體都包含規則中使用的屬性。 您可以直接編輯欄位值以模擬不同的情境。
+
+### 使用Adobe Experience Platform測試設定檔填入變數
+
+建立或產生變體後，您可以使用[Adobe Experience Platform測試設定檔](../audience/creating-test-profiles.md)的屬性來填入其屬性。
+
+1. 在變體上選取「**[!UICONTROL 編輯]**」，然後按一下「**[!UICONTROL 選取AEP設定檔]**」按鈕。
+
+   ![](assets/rule-simulate-aep.png)
+
+1. 選取身分名稱空間，輸入對應的身分值。
+
+   **最近**&#x200B;區域列出您已成功套用的設定檔。 最近使用的設定檔會依組織和沙箱儲存在瀏覽器中，以最新的順序排序，並限製為10個專案。
+
+   ![](assets/ranking-formula-simulate-aep-recents.png)
+
+1. 按一下&#x200B;**[!UICONTROL 選取設定檔]**&#x200B;按鈕。 測試設定檔的屬性已新增到所選的變體。
+
+### 檢視模擬結果
 
 若要檢視規則評估結果，請從清單中選取測試變體。 「模擬」結果區域會顯示此規則是否符合「設定檔」的條件。
 
