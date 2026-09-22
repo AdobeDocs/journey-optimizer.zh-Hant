@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3223'
+ht-degree: 61%
 ---
 # 發行說明 {#release-notes}
 
@@ -157,6 +157,10 @@ ht-degree: 62%
 * **歷程運算式編輯器中的新dateDiff函式** — 歷程運算式編輯器現在包含`dateDiff`函式，以天數計算兩個日期之間的差異。 此函式適用於以時間為基礎的邏輯，例如建立截止日期、計算客戶生命週期持續時間或在歷程條件中建立倒數計時器。  [了解更多](../building-journeys/functions/date-functions.md#dateDiff)
 
   推出日期： 2026年9月1日
+
+* **受眾資格歷程中的跳轉活動支援** — 您現在可以在以受眾資格節點開始的歷程中使用跳轉活動，以跳至事件型歷程。 此功能正在逐步推廣至組織。 如果您的環境中沒有看到此內容，可能是因為您仍在對象資格中使用批次對象。 [了解更多](../building-journeys/jump.md)
+
+  推出日期：2026年9月22日。
 
 * **分析歷程異常技能** - CX Coworker現在可以使用&#x200B;**分析歷程異常**&#x200B;技能，根據歷史基準線，偵測歷程進入、退出或訊息傳送計數中的非預期尖峰、下降或平線。 在確認真正的異常後，該技能會執行唯讀診斷，以找出可能的根本原因和建議。 [了解更多](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
