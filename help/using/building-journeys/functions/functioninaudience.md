@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '840'
 ht-degree: 2%
 ---
 # inAudience 函式 {#inAudience}
@@ -52,7 +52,7 @@ ht-degree: 2%
 * **已實現**：該個人符合對象定義的資格且是作用中成員
 * **已退出**：個人已離開對象，不再符合資格
 
-只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results){target="_blank"}。
+只有狀態為&#x200B;**已實現**&#x200B;的個人才會被視為作用中對象成員。 函式傳回`true`時，會確認個人已實現狀態；傳回`false`時，會表示已結束狀態。 如需對象評估的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}。
 
 +++語法
 
@@ -128,11 +128,9 @@ inAudience("Unsubscribed") == false
 * 如需合併原則行為的詳細資訊，請參閱[歷程屬性](../journey-properties.md)
 
 **驗證的對象快取：**
-* 在包含超過5,000個對象的沙箱中，較舊的對象可能是
-在您使用`inAudience`時於歷程編寫期間遭拒，因為驗證
-檢查僅包含5,000個最近更新對象的快取。
-* 若要解決此問題，請對對象進行微幅變更，例如更新
-說明，或清除較舊對象，使總計低於限制。
+
+* 在包含超過5,000個對象的沙箱中，當您使用`inAudience`時，較舊的對象可能會在歷程編寫期間遭到拒絕，因為驗證會檢查僅包含5,000個最近更新對象的快取。
+* 若要解決此問題，請對對象進行微幅變更，例如更新說明，或清除較舊對象以將總數保持在限制以下。
 * 深入瞭解[在條件中使用對象](../conditions.md#using-a-segment)。
 
 **傳播時間：** {#propagation-timing}
@@ -140,7 +138,7 @@ inAudience("Unsubscribed") == false
 在條件節點中使用`inAudience()`時，區段會籍評估時間會依條件在歷程中出現的位置而有所不同：
 
 * **在讀取對象歷程中，在等待活動之前：** Journey Optimizer會從設定檔的批次投影中讀取。 此投影中的資料在內嵌後&#x200B;**2小時**&#x200B;內已重新整理。 依賴日型或時間型條件的對象可能會遇到額外的延遲。 在歷程開始時新增短的[等待活動](../wait-activity.md)，或允許緩衝時間，以確保反映最新的區段會籍。
-* **在單一事件歷程中或等待活動後：**&#x200B;從串流（單一）投影讀取區段會籍。 資料通常可在&#x200B;**15分鐘**&#x200B;內取得。 如需詳細資訊，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
+* **在單一事件歷程中或等待活動後：**&#x200B;從串流（單一）投影讀取區段會籍。 資料通常可在&#x200B;**15分鐘**&#x200B;內取得。 如需詳細資訊，請參閱[Adobe Experience Platform串流擷取檔案](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}。
 
 ## 相關主題
 

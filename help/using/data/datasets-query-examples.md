@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # 查詢範例 {#query-examples}
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 若要檢視每個結構描述的欄位與屬性完整清單，請參閱 [Journey Optimizer 結構描述字典](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=zh-Hant){target="_blank"}。
 
-另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
+另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
 
 ## 選擇正確的資料集 {#choose-the-correct-dataset}
 
@@ -136,27 +136,23 @@ limit 100;
 
 AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳遞回饋。 它支援跨訊息通道（包括電子郵件、SMS/RCS/MMS和直接郵件）的傳遞回饋分析。 意見事件可用於報告和建立受眾使用案例。
 
-相關結構描述是AJO訊息回饋事件結構描述。
+相關的結構描述是`AJO Message Feedback Event`結構描述。
 
 >[!NOTE]
 >
->在Adobe Journey Optimizer中，`sent`是郵件回饋事件資料集中用於成功郵件傳遞結果的值。 `delivered`值未用於Adobe Journey Optimizer訊息回饋事件資料集。
-
->[!NOTE]
+>* 在Adobe Journey Optimizer中，`sent`是用於成功訊息傳遞結果的值；訊息回饋事件資料集中不使用`delivered`。
 >
->此資料集使用批次擷取。 查詢此資料集或將其用於報告用途時，預計資料延遲最長可達2小時。
-
-如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}。
-
->[!NOTE]
+>* 此資料集使用批次擷取，因此資料最多可能延遲2小時。
 >
->我們並不保證會在每個訊息回饋事件中填入頻道特定內容欄位。 欄位可用性可能取決於頻道、提供者意見回應裝載、事件型別和傳送階段。 使用訊息執行識別碼、回饋狀態、失敗詳細資料、時間戳記和身分資訊作為主要相互關聯欄位。
+>* 我們並不保證會在每個事件填入管道特定的內容欄位。 使用訊息執行識別碼、回饋狀態、失敗詳細資料、時間戳記和身分資訊作為主要相互關聯欄位。
+
+如需欄位、欄位路徑、資料型別和說明的完整清單，請參閱[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}。
 
 ### 將測試和非測試執行分類{#classify-test-executions}
 
 當填入欄位時，使用`isTestExecution`欄位區分測試執行與非測試執行。
 
-建立查詢之前，請使用[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}確認AJO訊息回饋事件結構描述的目前欄位路徑、資料型別和描述。
+建立查詢之前，請使用[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}確認AJO訊息回饋事件結構描述的目前欄位路徑、資料型別和描述。
 
 將填入值解釋如下：
 
@@ -170,7 +166,7 @@ AJO訊息回饋事件資料集會儲存Adobe Journey Optimizer產生的訊息傳
 
 某些歷史或特定頻道的記錄可能無法填入每個訊息內容欄位。 因此，您應該透過管道測試欄位可用性並保留null，而不是將其視為空白字串或推斷值。
 
-只有在確認[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/zh-hant/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路徑後，才執行此查詢：
+只有在確認[Adobe Journey Optimizer結構描述參考](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}中的`isTestExecution`路徑後，才執行此查詢：
 
 ```sql
 SELECT
@@ -377,9 +373,9 @@ group by
 ```
 
 
-另請參閱幾個查詢歷程步驟事件[&#128279;](../reports/query-examples.md)的常用範例。
+另請參閱幾個查詢歷程步驟事件](../reports/query-examples.md)的常用[範例。
 
-瞭解如何在journey_step_events[&#128279;](../reports/sharing-field-list.md#discarded-events)中疑難排解捨棄的事件型別。
+瞭解如何在journey_step_events](../reports/sharing-field-list.md#discarded-events)中[疑難排解捨棄的事件型別。
 
 ## 決策事件資料集{#ode-decisionevents}
 
