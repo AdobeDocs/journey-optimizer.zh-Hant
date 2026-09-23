@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '2223'
+ht-degree: 20%
 ---
 # 發行說明 {#release-notes}
 
@@ -85,6 +85,23 @@ ht-degree: 26%
 
 ### 忠誠度 {#sep-26-loyalty}
 
+<table>
+<thead>
+<tr>
+<th><strong>熟客方案事件對應更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **「永遠」忠誠度挑戰** — 忠誠度挑戰現在可以無限期地執行。 設定排程時，將&#x200B;**挑戰結束**&#x200B;設為&#x200B;**無結束日期**，挑戰永不過期。 [了解更多](../loyalty-challenges/create-challenges.md#schedule)
 
   推出日期： 2026年9月1日
@@ -95,11 +112,43 @@ ht-degree: 26%
 
 +++ 即將推出 — **下列資訊可能會有變更。**
 
+<table>
+<thead>
+<tr>
+<th><strong>挑戰建議</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>忠誠度績效選單現在包含&#x200B;**機會**&#x200B;和**趨勢**&#x200B;標籤，這些標籤會顯示AI偵測到的趨勢和差距，例如層級進展摩擦或挑戰任務流失，每個都具有預計的影響，以及按一下即可使用AI建立以解決該問題的挑戰。</p><p>此外，行銷人員可以直接在同事的對話介面中請求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得基礎性的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **每個成員忠誠度挑戰完成期限** — 忠誠度挑戰現在支援每個成員完成期限：在「完成要求」底下選擇「選擇加入後的數天內」，以便每個成員的截止日期根據其自己的選擇加入日期計算，而不是整個方案的固定結束日期。 如果挑戰結束日期及此選擇加入期間皆已設定，則每個成員的截止日期為第一個出現的日期。<!-- Documentation link: TBD -->
 
 +++
 
 ### 歷程 {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>同事中的歷程模擬</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Co-worker中的<strong>歷程模擬技能</strong>可自動進行端對端歷程驗證，並讓您輕鬆解讀結果。 請注意，此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -129,8 +178,8 @@ ht-degree: 26%
 <tr>
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
-<p>此功能先前為限額版本，現在已可在所有環境中使用 (正式版本)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
+<p>此功能先前以限額版本推出，現在已可在所有環境中使用 (正式版本)。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -179,6 +228,22 @@ ht-degree: 26%
 
 +++ 即將推出 — **下列資訊可能會有變更。**
 
+<table>
+<thead>
+<tr>
+<th><strong>歷程畫布中的內容預覽</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>今天檢閱管道內容需要一次一個地個別開啟每個活動 — 在包含許多管道活動的歷程中緩慢且容易出錯，尤其是當個人化表示檢查每個活動的多個處理或變體時。 <strong>內容預覽</strong>透過直接在畫布中顯示每個頻道活動的內容縮圖，以全熒幕模式檢查並在處理與變體之間切換，來移除該摩擦。</p>
+<p>目標推出日期： 2026年9月28日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **衛生分析技能** - CX Coworker現在可以掃描您的使用中歷程和草稿歷程，找出中斷的設定、無訊息失敗、過時或未使用的資產，例如過時的草稿歷程、孤立的資料來源和持續的自訂動作錯誤，並直接在聊天中呈現建議的修正。<!-- Documentation link: TBD -->
 
 +++
@@ -216,6 +281,30 @@ ht-degree: 26%
 
   推出日期： 2026年9月22日
 
+### 入門 {#sep-26-onboarding}
+
+以下改進即將在此版本中推出。
+
+<table>
+<thead>
+<tr>
+<th><strong>入門電子郵件和歷程的引導功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>入門電子郵件和歷程的引導功能現在包括下列改進：</p>
+<ul>
+<li>當您移轉電子郵件時，[!DNL Journey Optimizer]會識別該電子郵件所參考的內容區塊，並將其顯示為行動專案，因此您可以隨電子郵件移轉內容區塊。</li>
+<li>介面已經過改良，讓引導式入門更直覺。</li></ul>
+<p>如需詳細資訊，請參閱<a href="../start/onboarding-hub.md">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月23日</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 個人化 {#sep-26-personalization}
 
 * **使用AI修正語法** — 偵測到PQL語法驗證錯誤時，Personalization編輯器現在會提供「使用AI修正」選項，協助直接從編輯器解決問題。
@@ -224,11 +313,7 @@ ht-degree: 26%
 
 ### 決策 {#sep-26-decisioning}
 
-* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  推出日期： 2026年9月22日
-
-+++ 即將推出 — **下列資訊可能會有變更。**
+此版本中的決策功能即將提供下列功能和改善。
 
 <table>
 <thead>
@@ -238,16 +323,39 @@ ht-degree: 26%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>決策功能現在可用於網頁管道。 您可以直接在網頁視覺化編輯器中使用決策原則，將最相關的產品建議傳送給每位訪客。</p>
+<td>決策功能現在可用於網頁管道。 您可以直接在網頁視覺化編輯器中使用決策原則，將最相關的產品建議傳送給每位訪客。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/use-decision-policy.md">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月22日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **在Decisioning中可供AEM客戶使用的Managed Services內容片段** — 之前，在Decisioning中只能供使用&#x200B;**Adobe Experience Manager as a Cloud Service**&#x200B;整合的客戶使用。 此功能現在也可供使用&#x200B;**Adobe Experience Manager Managed Services**&#x200B;的客戶使用。 [了解更多](../experience-decisioning/items.md#attributes)
+
+  推出日期： 2026年9月23日
+
+* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  推出日期： 2026年9月22日
+
+### 客群 {#sep-26-audiences}
+
+以下提醒適用於此版本中的對象。
+
+* **即將變更對象構成擴充對象** — 在10月發行（10月底）期間，Journey Optimizer將停止使用或參考來源資料集沒有&#x200B;**主要身分描述項**&#x200B;的對象構成對象的歷程和行銷活動。 此後，歷程和行銷活動僅支援使用主要身分描述項建立的對象構成對象。 如果您需要這些歷程或行銷活動才能保持作用中，請聯絡您的Adobe代表 — 我們的產品團隊可以協助您移轉。<!-- Documentation link: TBD -->
+
+### 管理 {#sep-26-administration}
+
+下列提醒適用於此版本中的管理。
+
+* **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。
 
 ### 可用性改進功能 {#sep-26-usability}
+
+* **片段驗證警示中的AI總覽** — 片段驗證警示對話方塊現在包含AI總覽，其中總結並說明了驗證問題（例如格式錯誤的運算式、缺少設定檔欄位以及無效的JSON），讓使用者可以更快進行疑難排解。
+
+  推出日期： 2026年9月22日
 
 * **更輕鬆地在新的歷程畫布中分離及加入分支** — 您現在可以將分支從歷程的其餘部分分離而不刪除它，並稍後透過直接在畫布上選取符合資格的活動，或從已中斷連線或已使用分支的清單中選取它，在不同的時間點重新加入。 [了解更多](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 

@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # 開始使用歷程模擬 {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+當歷程在&#x200B;**[!UICONTROL 模擬]**&#x200B;中時，您可以用&#x200B;**模擬使用者**&#x200B;測試它：您新增用於測試的暫時的、設定檔類似的實體，而不是在Adobe Experience Platform中的持續性測試設定檔。
+
+Adobe Journey Optimizer提供三種方法來測試和驗證您的歷程：
+
+* **[歷程模擬](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程功能，在Adobe Experience Platform中模擬沒有預先建立設定檔的使用者，同時支援AI支援和手動建立的使用者。
+
+* **[歷程測試模式](testing-the-journey.md)**：使用在Adobe Experience Platform中標示為測試設定檔的持續性設定檔，可跨工作階段重複使用。 當您需要一致、預先定義的資料時，請選擇此方法。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+
+* **[歷程練習](journey-dry-run.md)**：在不連絡真實客戶或更新設定檔資訊的情況下，針對真實的生產對象和細分資料執行歷程。 會略過動作節點，例如電子郵件、簡訊和自訂動作。 [進一步瞭解歷程練習](journey-dry-run.md)。
+
 不確定模擬是適合您使用的方法嗎？ [比較所有三個驗證選項](choose-validation-method.md)。
 
->[!IMPORTANT]
->
->* 若要使用&#x200B;**[!UICONTROL 模擬]**，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能指派至少一個許可權： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 相同的許可權可讓您建立和管理模擬的使用者，不需要&#x200B;**[!UICONTROL 模擬的使用者]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
->
->* 若要管理不含&#x200B;**[!UICONTROL 模擬]**&#x200B;的模擬使用者，請指派&#x200B;**管理模擬使用者**&#x200B;或&#x200B;**檢視模擬使用者** （來自&#x200B;**[!UICONTROL 模擬使用者]**&#x200B;功能）。
->
->* 針對模擬中的AI （**[!UICONTROL 快速模擬]**、AI產生的使用者、**[!UICONTROL 產生事件值]**），從&#x200B;**[!UICONTROL AI助理]**&#x200B;功能指派&#x200B;**[!UICONTROL 產生內容]**。
 
-除了&#x200B;**草稿**、**測試模式**&#x200B;和&#x200B;**即時**&#x200B;之外，您還可以將歷程設定為&#x200B;**[!UICONTROL 模擬]**。 在模擬中，您使用&#x200B;**個模擬的使用者進行測試**：您新增的臨時設定檔樣實體，而不使用Adobe Experience Platform中的持續測試設定檔。
+## 必要權限 {#required-permissions}
 
-Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
+若要使用&#x200B;**[!UICONTROL 模擬]**，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能指派至少一個許可權： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 這些許可權也可讓您建立和管理模擬使用者；**[!UICONTROL 不需要]**&#x200B;模擬使用者。 [了解更多](../administration/permissions.md)
 
-* **[模擬](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程功能，並模擬沒有在Adobe Experience Platform中預先建立設定檔的使用者，同時支援AI支援和手動建立的使用者。
+若要管理不含&#x200B;**[!UICONTROL 模擬]**&#x200B;的模擬使用者，請指派&#x200B;**管理模擬使用者**&#x200B;或&#x200B;**檢視模擬使用者** （來自&#x200B;**[!UICONTROL 模擬使用者]**&#x200B;功能）。
 
-* **[測試模式](testing-the-journey.md)**：使用在Adobe Experience Platform中標示為測試設定檔的持續設定檔，可跨工作階段重複使用。 當您需要一致、預先定義的資料時，請選擇此方法。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+針對模擬中的AI （**[!UICONTROL 快速模擬]**、AI產生的使用者和&#x200B;**[!UICONTROL 產生事件值]**），從&#x200B;**[!UICONTROL AI助理]**&#x200B;功能指派&#x200B;**[!UICONTROL 產生內容]**。
 
 ## 依歷程型別模擬 {#by-journey-type}
 

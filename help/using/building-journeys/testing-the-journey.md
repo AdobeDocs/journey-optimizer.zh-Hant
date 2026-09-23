@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;瞭解如何透過使用模擬使用者或測試模式與測試設定檔的模擬來及早攔截錯誤，以在發佈之前驗證您的歷程。
+**在此頁面上：**&#x200B;瞭解如何使用歷程模擬、歷程測試模式或歷程練習，在發佈之前驗證您的歷程。
 
 >[!ENDSHADEBOX]
-
-您不確定測試模式是不是適合您使用的方法？ [比較所有三個驗證選項](choose-validation-method.md)。
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -65,17 +63,21 @@ ht-degree: 6%
 
 只有測試輪廓才能進入旅程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 在[本節](../audience/creating-test-profiles.md)中進一步瞭解測試設定檔。
 
-Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
+Adobe Journey Optimizer提供三種方法來測試和驗證您的歷程：
 
-* **[模擬](simulate-journey.md#test-users)**：將歷程設定為&#x200B;**[!UICONTROL 模擬]**，並使用模擬的使用者（您即時建立或產生的暫存設定檔，沒有在Adobe Experience Platform中預先建立的設定檔）。
+* **[歷程模擬](simulate-journey.md#test-users)**：將歷程設定為&#x200B;**[!UICONTROL 模擬]**，並使用模擬的使用者（您即時建立或產生的暫時設定檔，沒有在Adobe Experience Platform中預先建立的設定檔）。
 
-* **[測試模式](#test-profiles)**：在Adobe Experience Platform中明確標籤為測試設定檔的持續設定檔。 它們可以在多個測試工作階段重複使用。 建議使用此方法來測試一致且預先定義的設定檔資料。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+* **[歷程測試模式](#test-profiles)**：在Adobe Experience Platform中明確標籤為測試設定檔的持續設定檔。 它們可以在多個測試工作階段重複使用。 建議使用此方法來測試一致且預先定義的設定檔資料。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+
+* **[歷程練習](journey-dry-run.md)**：在不連絡真實客戶或更新設定檔資訊的情況下，針對真實的生產對象和細分資料執行歷程。 會略過動作節點，例如電子郵件、簡訊和自訂動作。 [進一步瞭解歷程練習](journey-dry-run.md)。
+
+您不確定測試模式是不是適合您使用的方法？ [比較所有三個驗證選項](choose-validation-method.md)。
 
 >[!NOTE]
 >
 >在測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 在[本節](../building-journeys/troubleshooting.md)中測試之前，請先瞭解如何檢查錯誤。 如果測試設定檔無法在測試模式中進行，請參閱[疑難排解測試模式轉換](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
-## 重要備註 {#important_notes}
+## 護欄與限制 {#important_notes}
 
 在歷程中執行測試之前，請先檢閱這些附註。
 
@@ -207,7 +209,7 @@ Adobe Journeys Optimizer提供兩種方式來測試和驗證您的歷程：
 
 ### 事件設定 {#trigger-events-configuration}
 
-如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存測試工作階段中最後使用的引數，以供稍後使用。
+如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行方式。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存測試工作階段中最後使用的引數，以供稍後使用。
 
 ![事件設定介面，其中包含事件選取範圍的欄位和下拉式清單](assets/journeytest4.png)
 

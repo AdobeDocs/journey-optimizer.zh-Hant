@@ -10,27 +10,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Get started
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '813'
 ht-degree: 21%
-
 ---
-
 # 開始使用決策 {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
@@ -46,13 +54,13 @@ ht-degree: 21%
 
 ## 什麼是決策 {#about}
 
-決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個人。
+決策會透過提供集中行銷產品建議目錄 (又稱為「決策項目」) 以及複雜的決策引擎，來簡化個人化。 此引擎運用規則與排名標準來選取並呈現最相關的決策項目給每個個體。
 
-這些決定專案會順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗：[程式碼型體驗](../code-based/get-started-code-based.md)、電子郵件、簡訊、推播通知，以及[直接郵件](batch-decisioning-direct-mail.md)，用於批次決定和個人化的直接郵件匯出。 直接郵件的Experience Decisioning支援是一項新功能；之前，直接郵件擷取檔案不提供該Decisioning引擎。
+這些決定專案會順暢地整合至[!DNL Adobe Journey Optimizer]通道的訊息和體驗：[程式碼型體驗](../code-based/get-started-code-based.md)、[網頁](../web/get-started-web.md)、電子郵件、簡訊、推播通知，以及[直接郵件](batch-decisioning-direct-mail.md)，以便批次決定和個人化的直接郵件匯出。 直接郵件的Experience Decisioning支援是一項新功能；之前，直接郵件擷取檔案不提供該Decisioning引擎。
 
 >[!IMPORTANT]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**推播通知**、**簡訊**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
+>決定原則適用於&#x200B;**[程式碼型體驗](../code-based/get-started-code-based.md)**、**[網頁](../web/get-started-web.md)**、**[電子郵件](../email/get-started-email.md)**、**[推播通知](../push/get-started-push.md)**、**[簡訊](../mobile/get-started-mobile.md)**&#x200B;及&#x200B;**[直接郵件](../direct-mail/get-started-direct-mail.md)**&#x200B;管道的所有客戶。
 
 ➡️ [在影片中探索此功能](#video)
 

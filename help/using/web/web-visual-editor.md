@@ -9,28 +9,37 @@ exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 TQID: https://experienceleague.adobe.com/o-MhiSpCJc-gmuHTnBvw3Bb-rBSQpvN7SvDbuQKvFb4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1018'
 ht-degree: 10%
-
 ---
-
 # 使用網頁設計工具 {#work-with-web-designer}
 
 >[!BEGINSHADEBOX]
@@ -139,6 +148,8 @@ ht-degree: 10%
 
 若要新增個人化，請選取容器，然後從顯示的內容功能表列中選取個人化圖示。 使用個人化編輯器新增變更。 [了解更多](../personalization/personalization-build-expressions.md)
 
+您也可以使用&#x200B;**決策**，將最相關的選件提供給每位訪客。 在個人化編輯器中，導覽至&#x200B;**[!UICONTROL 決定原則]**，並選取&#x200B;**[!UICONTROL 插入語法]**&#x200B;以將決定原則新增至網頁元件。 [了解更多](../experience-decisioning/use-decision-policy.md)
+
 ![](assets/web-designer-personalization.png)
 
 ## 瀏覽網頁設計工具 {#navigate-web-designer}
@@ -162,7 +173,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="使用瀏覽模式"
->abstract="在此模式下，您可以從要個人化的選取設定導覽至確切的頁面。"
+>abstract="在此模式下，您可以從選取的設定導覽至要個人化的確切頁面。"
 
 您可以使用專用按鈕，將預設&#x200B;**[!UICONTROL 設計]**&#x200B;模式切換至&#x200B;**[!UICONTROL 瀏覽]**&#x200B;模式。
 

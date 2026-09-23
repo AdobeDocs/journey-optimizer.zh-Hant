@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -85,11 +85,13 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 ### 整合 {#sep-26-integrations}
 
-此版本即將整合以下功能。
+此版本即將整合下列功能。
 
 * **Experience Manager片段的動態權杖替代** - Experience Manager內容片段參考現在支援&#x200B;**tokenSubstitution**&#x200B;屬性。 設定為`false`時，片段欄位內的個人化會直接解析，參考中不含Token對應。 其預設值為`true`，這會保留現有行為。
 
   此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。
+
+* **決策中的AEM Managed Services內容片段支援** — 現在管理決策專案時，決策中可支援AEM Managed Services內容片段。
 
 ### 忠誠度 {#sep-26-loyalty}
 
@@ -112,71 +114,34 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>熟客方案事件對應更新</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **同事忠誠度建議技能** — 行銷人員現在可以在同事的對話介面中直接要求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得實際的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。
-
 * **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 入門 {#sep-26-onboarding}
-
-以下功能即將在此版本中上線。
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>入門電子郵件和歷程的引導功能（一般可用性）</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過引導式功能，您可以更輕鬆地從其他行銷平台轉換至 Adobe Journey Optimizer，將現有電子郵件內容和歷程移至 Journey Optimizer。 <strong>專屬工作區</strong>可讓您重複使用現有工作，而非從頭重建。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 客群 {#sep-26-audiences}
-
-以下提醒適用於此版本中的對象。
-
-* **即將變更對象構成擴充對象** — 在10月發行（10月底）期間，Journey Optimizer將停止使用或參考來源資料集沒有&#x200B;**主要身分描述項**&#x200B;的對象構成對象的歷程和行銷活動。 此後，歷程和行銷活動僅支援使用主要身分描述項建立的對象構成對象。 如果您需要這些歷程或行銷活動才能保持作用中，請聯絡您的Adobe代表 — 我們的產品團隊可以協助您移轉。<!-- Documentation link: TBD -->
+-->
 
 ### 歷程 {#sep-26-journeys}
 
 下列功能和改進功能將新增到此版本的歷程。
-
-<table>
-<thead>
-<tr>
-<th><strong>同事中的歷程模擬</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Co-worker中的<strong>歷程模擬技能</strong>可自動進行端對端歷程驗證，並讓您輕鬆解讀結果。 請注意，此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -220,21 +185,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>歷程畫布中的新<strong>傳入活動停用</strong>活動可讓您直接從歷程中移除最多五個傳入活動或體驗的設定檔，將傳入取消資格從歷程退出中解耦，以進行更進階的跨頻道協調。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程畫布中的內容預覽</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>今天檢閱管道內容需要一次一個地個別開啟每個節點 — 在具有許多管道節點的歷程中緩慢且容易出錯，特別是當個人化表示檢查每個節點的多個處理或變體時。 <strong>內容預覽</strong>透過直接在畫布中為每個管道節點呈現內容縮圖，以全熒幕模式檢查並在處理與變體之間切換，來移除該摩擦。</p>
 </td>
 </tr>
 </tbody>
@@ -459,17 +409,9 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tbody>
 </table>
 
-### 管理 {#sep-26-administration}
-
-下列提醒適用於此版本中的管理。
-
-* **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。
-
 ### 可用性改進功能 {#sep-26-usability}
 
 * **內容模擬體驗中的可用性改善** — 新的內容模擬體驗現在可讓您命名並組織變體以便輕鬆比較、直接從每個卡片複製或刪除變體詳細資料、依需求檢視完整屬性路徑和每個卡片管道設定，以及從更顯眼的上傳按鈕上傳您自己的CSV、JSON或JSONL設定檔。
-
-* **片段驗證警示中的AI總覽** — 片段驗證警示對話方塊現在包含AI總覽，其中總結並說明了驗證問題（例如格式錯誤的運算式、缺少設定檔欄位以及無效的JSON），讓使用者可以更快進行疑難排解。
 
 * **行銷活動、歷程及協調行銷活動的統一行事曆** — 歷程及行銷活動的行事曆檢視現在會從個別的清查移至統一的左側邊欄可存取功能表，這兩個功能表都會顯示在一個合併的檢視中。
 

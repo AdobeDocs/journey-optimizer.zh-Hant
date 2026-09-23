@@ -11,31 +11,39 @@ exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 在訊息中使用決定原則 {#create-decision}
 
 >[!BEGINSHADEBOX]
 
-**在此頁面上：**&#x200B;將決定原則程式碼插入您的程式碼式體驗、電子郵件、簡訊、推播通知和直接郵件內容，以便您可以使用傳回決定專案的屬性來個人化訊息。
+**在此頁面上：**&#x200B;將決定原則程式碼插入您的程式碼式體驗、網頁、電子郵件、簡訊、推播通知和直接郵件內容，以便您可以使用傳回決定專案的屬性來個人化訊息。
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +51,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->決定原則適用於&#x200B;**程式碼型體驗**、**電子郵件**、**簡訊**、**推播通知**&#x200B;和&#x200B;**直接郵件**&#x200B;管道的所有客戶。
+>決定原則適用於&#x200B;**程式碼型體驗**、**網頁**、**電子郵件**、**簡訊**、**推播通知**&#x200B;及&#x200B;**直接郵件**&#x200B;管道的所有客戶。
 
 ## 插入決定原則代碼 {#insert}
 
@@ -51,7 +59,7 @@ ht-degree: 6%
 
 >[!TAB 程式碼型體驗]
 
-1. 編輯您的程式碼型體驗，並導覽至&#x200B;**[!UICONTROL 決定原則]**。
+1. 開啟&#x200B;**Personalization編輯器**&#x200B;並導覽至&#x200B;**[!UICONTROL 決定原則]**。
 
 2. 選取&#x200B;**[!UICONTROL 插入原則]**&#x200B;以新增決定原則代碼。
 
@@ -111,6 +119,20 @@ ht-degree: 6%
 >
 >具有推播通知的體驗決策需要特定版本的 Mobile SDK。 在實作此功能之前，請檢查[發行說明](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}，以識別所需的版本，並確定您已相應地升級。 您也可以在[本節](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}中檢視您平台的所有可用 SDK 版本。
 
+>[!TAB 網頁]
+
+1. 開啟您的網頁行銷活動或歷程，並導覽至&#x200B;**網頁視覺編輯器**。
+
+2. 選取您要個人化的元件，然後從內容功能表按一下個人化圖示。
+
+3. 在&#x200B;**Personalization編輯器**&#x200B;中，導覽至&#x200B;**[!UICONTROL 決定原則]**。
+
+4. 選取&#x200B;**[!UICONTROL 插入語法]**&#x200B;以新增決策原則的程式碼。
+
+>[!IMPORTANT]
+>
+>Web Channel回應的總裝載大小不得超過&#x200B;**64 KB**。 超過此限制的請求將會導致錯誤。 確保您的決策專案和屬性維持在此臨界值以內。
+
 >[!TAB 直接郵件]
 
 1. 從擷取檔案設定中，開啟&#x200B;**Personalization編輯器** （例如，在欄的&#x200B;**[!UICONTROL Data]**&#x200B;欄位中）。
@@ -127,7 +149,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->針對程式碼型體驗、電子郵件和直接郵件頻道，針對您想要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於簡訊和推播頻道，只能傳回一個決定專案。
+>針對程式碼型體驗、網頁、電子郵件和直接郵件頻道，針對您想要傳回的每個決定專案重複此順序一次。 例如，如果您選擇在[建立決定](create-decision-policy.md)時傳回2個專案，請重複該順序兩次。 對於簡訊和推播頻道，只能傳回一個決定專案。
 
 ## 使用決策專案屬性個人化 {#attributes}
 
@@ -143,7 +165,7 @@ ht-degree: 6%
 
 若要新增屬性，請按一下屬性旁的&#x200B;**`+`**&#x200B;圖示。 您可以視需要新增任意數量的屬性。 您也可以包含其他個人化屬性，例如設定檔資料。
 
-* 針對&#x200B;**電子郵件**、**程式碼型**&#x200B;和&#x200B;**直接郵件**&#x200B;管道，請使用方括弧`[ ]`將`#each`回圈中的屬性換行，並在結尾的`/each`標籤前加上逗號。
+* 針對&#x200B;**電子郵件**、**網頁**、**程式碼型**&#x200B;和&#x200B;**直接郵件**&#x200B;管道，請使用方括弧`[ ]`將`#each`回圈中的屬性換行，並在結尾的`/each`標籤前加上逗號。
 
   +++檢視範例
 
