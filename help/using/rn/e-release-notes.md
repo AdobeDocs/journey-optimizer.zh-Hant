@@ -62,7 +62,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**外掛程式提供下列技能：</p>
+<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**&#x200B;外掛程式提供下列技能：</p>
 <ul>
 <li><strong>協調內容製作</strong>。</li>
 <li><strong>探索內容策略</strong></li>
