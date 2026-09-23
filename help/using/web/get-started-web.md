@@ -9,28 +9,37 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 TQID: https://experienceleague.adobe.com/7LxkDJdH0RqWKCVLLK2ISDDnNR5ZwGmgfpX7W251GBU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
+    internal-label: Web SDK
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Web experience
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 100%
-
+source-wordcount: '339'
+ht-degree: 94%
 ---
-
 # 開始使用網路頻道 {#get-started-web}
 
 >[!BEGINSHADEBOX]
@@ -41,7 +50,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] 可讓您以視覺化方式創作並為客戶提供個人化的網路體驗。
 
-透過直覺的視覺化介面，使用網路管道，就能輕鬆修改網路屬性，以便實驗，並將的終端使用者行銷活動最佳化、個人化。
+透過直覺的視覺化介面，使用網頁管道，就能輕鬆修改網路屬性，以便實驗，並將終端使用者行銷活動最佳化、個人化。
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 
@@ -100,6 +109,7 @@ ht-degree: 100%
 * **[管理網頁修改](manage-web-modifications.md)** - 了解如何組織、套用及管理網頁體驗中的修改。
 * **[監視網頁體驗](monitor-web-experiences.md)** - 透過詳細報告追蹤及分析網頁行銷活動的績效。
 * **[使用 AI 產生網頁內容](../content-management/generative-full-content.md)** - 運用 AI 以文字和影像建立並最佳化網頁內容。
+* **[在網頁體驗中使用決策](../experience-decisioning/use-decision-policy.md)** — 使用決策原則個人化網頁體驗，以傳遞最相關的選件給每位訪客。
 * **[網頁行銷活動教學課程](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - 探索有關網頁管道功能和最佳做法的逐步教學課程影片。
 
 

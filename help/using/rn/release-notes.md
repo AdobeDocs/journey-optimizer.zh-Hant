@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2079'
 ht-degree: 21%
 ---
 # 發行說明 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月22日</p>
 </td>
@@ -164,7 +164,7 @@ ht-degree: 21%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能先前以限額版本推出，現在已可在所有環境中使用 (正式版本)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -290,7 +290,6 @@ ht-degree: 21%
 </tbody>
 </table>
 
-
 ### 個人化 {#sep-26-personalization}
 
 * **使用AI修正語法** — 偵測到PQL語法驗證錯誤時，Personalization編輯器現在會提供「使用AI修正」選項，協助直接從編輯器解決問題。
@@ -298,12 +297,6 @@ ht-degree: 21%
   推出日期： 2026年9月22日
 
 ### 決策 {#sep-26-decisioning}
-
-* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  推出日期： 2026年9月22日
-
-+++ 即將推出 — **下列資訊可能會有變更。**
 
 <table>
 <thead>
@@ -313,14 +306,17 @@ ht-degree: 21%
 </thead>
 <tbody>
 <tr>
-<td>
-<p>決策功能現在可用於網頁管道。 您可以直接在網頁視覺化編輯器中使用決策原則，將最相關的產品建議傳送給每位訪客。</p>
+<td>決策功能現在可用於網頁管道。 您可以直接在網頁視覺化編輯器中使用決策原則，將最相關的產品建議傳送給每位訪客。</p>
+<p>如需詳細資訊，請參閱<a href="../experience-decisioning/use-decision-policy.md">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月22日</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  推出日期： 2026年9月22日
 
 ### 客群 {#sep-26-audiences}
 
