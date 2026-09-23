@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 8519e5f342809046780427f225c7ce6473363710
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 22%
+source-wordcount: '1991'
+ht-degree: 21%
 ---
 # 發行說明 {#release-notes}
 
@@ -94,7 +94,7 @@ ht-degree: 22%
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月22日</p>
 </td>
@@ -164,7 +164,7 @@ ht-degree: 22%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能先前為限額版本，現在已可在所有環境中使用 (正式版本)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -310,6 +310,10 @@ ht-degree: 22%
 * **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。
 
 ### 可用性改進功能 {#sep-26-usability}
+
+* **片段驗證警示中的AI總覽** — 片段驗證警示對話方塊現在包含AI總覽，其中總結並說明了驗證問題（例如格式錯誤的運算式、缺少設定檔欄位以及無效的JSON），讓使用者可以更快進行疑難排解。
+
+  推出日期： 2026年9月22日
 
 * **更輕鬆地在新的歷程畫布中分離及加入分支** — 您現在可以將分支從歷程的其餘部分分離而不刪除它，並稍後透過直接在畫布上選取符合資格的活動，或從已中斷連線或已使用分支的清單中選取它，在不同的時間點重新加入。 [了解更多](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
