@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '1815'
+ht-degree: 23%
 ---
 # 發行說明 {#release-notes}
 
@@ -84,6 +84,23 @@ ht-degree: 26%
   推出日期： 2026年9月1日
 
 ### 忠誠度 {#sep-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>熟客方案事件對應更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月22日</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **「永遠」忠誠度挑戰** — 忠誠度挑戰現在可以無限期地執行。 設定排程時，將&#x200B;**挑戰結束**&#x200B;設為&#x200B;**無結束日期**，挑戰永不過期。 [了解更多](../loyalty-challenges/create-challenges.md#schedule)
 
@@ -246,6 +263,18 @@ ht-degree: 26%
 </table>
 
 +++
+
+### 客群 {#sep-26-audiences}
+
+以下提醒適用於此版本中的對象。
+
+* **即將變更對象構成擴充對象** — 在10月發行（10月底）期間，Journey Optimizer將停止使用或參考來源資料集沒有&#x200B;**主要身分描述項**&#x200B;的對象構成對象的歷程和行銷活動。 此後，歷程和行銷活動僅支援使用主要身分描述項建立的對象構成對象。 如果您需要這些歷程或行銷活動才能保持作用中，請聯絡您的Adobe代表 — 我們的產品團隊可以協助您移轉。<!-- Documentation link: TBD -->
+
+### 管理 {#sep-26-administration}
+
+下列提醒適用於此版本中的管理。
+
+* **資料集存留時間(TTL)護欄 — 現有的沙箱** — 從2026年10月1日起，Journey Optimizer系統產生的資料集的存留時間(TTL)護欄（設定檔存放區為90天，資料湖為13個月）將強制用於現有的客戶沙箱和組織。
 
 ### 可用性改進功能 {#sep-26-usability}
 
