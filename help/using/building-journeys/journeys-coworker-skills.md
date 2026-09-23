@@ -368,7 +368,7 @@ Journey Simulation技能將AI驅動的快速模擬帶入聊天介面，讓使用
 
 此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。
 
-使用快速模擬來快速且自動地檢查歷程邏輯的健全度。 若要對模擬的使用者和案例進行精細控制，請使用Journey Optimizer](simulate-journey-gs.md)中的[手動模擬體驗。
+使用快速模擬來快速且自動地檢查歷程邏輯的健全度。 若要對模擬的使用者和案例進行精細控制，請使用Journey Optimizer[&#128279;](simulate-journey-gs.md)中的手動模擬體驗。
 
 在此快速模擬體驗中，使用者無法：
 
