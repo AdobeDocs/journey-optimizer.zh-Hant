@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # 開始使用歷程模擬 {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+當歷程在&#x200B;**[!UICONTROL 模擬]**&#x200B;中時，您可以用&#x200B;**模擬使用者**&#x200B;測試它：您新增用於測試的暫時的、設定檔類似的實體，而不是在Adobe Experience Platform中的持續性測試設定檔。
+
+Adobe Journey Optimizer提供三種方法來測試和驗證您的歷程：
+
+* **[歷程模擬](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程功能，在Adobe Experience Platform中模擬沒有預先建立設定檔的使用者，同時支援AI支援和手動建立的使用者。
+
+* **[歷程測試模式](testing-the-journey.md)**：使用在Adobe Experience Platform中標示為測試設定檔的持續性設定檔，可跨工作階段重複使用。 當您需要一致、預先定義的資料時，請選擇此方法。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+
+* **[歷程練習](journey-dry-run.md)**：在不連絡真實客戶或更新設定檔資訊的情況下，針對真實的生產對象和細分資料執行歷程。 會略過動作節點，例如電子郵件、簡訊和自訂動作。 [進一步瞭解歷程練習](journey-dry-run.md)。
+
 不確定模擬是適合您使用的方法嗎？ [比較所有三個驗證選項](choose-validation-method.md)。
 
->[!IMPORTANT]
->
->* 若要使用&#x200B;**[!UICONTROL 模擬]**，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能指派至少一個許可權： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 相同的許可權可讓您建立和管理模擬的使用者，不需要&#x200B;**[!UICONTROL 模擬的使用者]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
->
->* 若要管理不含&#x200B;**[!UICONTROL 模擬]**&#x200B;的模擬使用者，請指派&#x200B;**管理模擬使用者**&#x200B;或&#x200B;**檢視模擬使用者** （來自&#x200B;**[!UICONTROL 模擬使用者]**&#x200B;功能）。
->
->* 針對模擬中的AI （**[!UICONTROL 快速模擬]**、AI產生的使用者、**[!UICONTROL 產生事件值]**），從&#x200B;**[!UICONTROL AI助理]**&#x200B;功能指派&#x200B;**[!UICONTROL 產生內容]**。
 
-除了&#x200B;**草稿**、**測試模式**&#x200B;和&#x200B;**即時**&#x200B;之外，您還可以將歷程設定為&#x200B;**[!UICONTROL 模擬]**。 在模擬中，您使用&#x200B;**個模擬的使用者進行測試**：您新增的臨時設定檔樣實體，而不使用Adobe Experience Platform中的持續測試設定檔。
+## 必要權限 {#required-permissions}
 
-Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
+若要使用&#x200B;**[!UICONTROL 模擬]**，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能指派至少一個許可權： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 這些許可權也可讓您建立和管理模擬使用者；**[!UICONTROL 不需要]**&#x200B;模擬使用者。 [了解更多](../administration/permissions.md)
 
-* **[模擬](simulate-journey.md#test-users)**：使用&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程功能，並模擬沒有在Adobe Experience Platform中預先建立設定檔的使用者，同時支援AI支援和手動建立的使用者。
+若要管理不含&#x200B;**[!UICONTROL 模擬]**&#x200B;的模擬使用者，請指派&#x200B;**管理模擬使用者**&#x200B;或&#x200B;**檢視模擬使用者** （來自&#x200B;**[!UICONTROL 模擬使用者]**&#x200B;功能）。
 
-* **[測試模式](testing-the-journey.md)**：使用在Adobe Experience Platform中標示為測試設定檔的持續設定檔，可跨工作階段重複使用。 當您需要一致、預先定義的資料時，請選擇此方法。 [瞭解如何建立測試設定檔](../audience/creating-test-profiles.md)。
+針對模擬中的AI （**[!UICONTROL 快速模擬]**、AI產生的使用者和&#x200B;**[!UICONTROL 產生事件值]**），從&#x200B;**[!UICONTROL AI助理]**&#x200B;功能指派&#x200B;**[!UICONTROL 產生內容]**。
 
 ## 依歷程型別模擬 {#by-journey-type}
 
@@ -57,8 +60,8 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 +++ 具有讀取對象的批次歷程
 
 
-歷程是由&#x200B;**[!UICONTROL 讀取對象]**&#x200B;觸發，而且畫布沒有單一事件活動。 模擬期間不會觸發對象母體。 只有模擬的使用者進入歷程。
-為模擬選取的模擬使用者會出現在&#x200B;**測試使用者**&#x200B;區段中：
+歷程是由&#x200B;**[!UICONTROL 讀取對象]**觸發，而且畫布沒有單一事件活動。 模擬期間不會觸發對象母體。 只有模擬的使用者進入歷程。
+為模擬選取的模擬使用者會出現在**測試使用者**&#x200B;區段中：
 
 ![僅讀取對象之批次歷程的模擬面板](assets/simulate-batch.png)
 
@@ -76,7 +79,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 +++ 單一歷程
 
 歷程從單一事件開始，而不是讀取對象。 直到為其觸發該開始事件後，模擬使用者才會進入歷程。
-為模擬選取的模擬使用者與設定的事件將分別顯示在&#x200B;**測試使用者**&#x200B;與&#x200B;**測試事件**&#x200B;區段中。 **測試使用者**&#x200B;區段不包含將模擬使用者觸發歷程的動作。 您從&#x200B;**測試事件**&#x200B;觸發專案。
+為模擬選取的模擬使用者與設定的事件將分別顯示在**測試使用者**&#x200B;與&#x200B;**測試事件**&#x200B;區段中。 **測試使用者**&#x200B;區段不包含將模擬使用者觸發歷程的動作。 您從&#x200B;**測試事件**&#x200B;觸發專案。
 
 ![僅讀取對象之批次歷程的模擬面板](assets/simulate-batch-3.png)
 
@@ -169,7 +172,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 | 護欄 | 限制 | 附註 |
 | --- | --- | --- |
 | 可以選取和觸發一個批次的最大模擬使用者數（批次歷程、事件觸發的流程和對象資格流程） | 20 | 每個&#x200B;**[!UICONTROL 傳送全部]**&#x200B;或&#x200B;**[!UICONTROL 觸發選取的事件]**&#x200B;都會計入，而非整個歷程的累積上限。 |
-| 每一代請求的最大模擬使用者數 | 50 | 透過&#x200B;**[!UICONTROL 快速模擬]**&#x200B;或&#x200B;**[!UICONTROL 在**&#x200B;[!UICONTROL &#x200B;手動模擬&#x200B;]&#x200B;**中使用AI]**&#x200B;產生，在一個要求中產生的模擬使用者AI數目上限。 如果歷程具有超過&#x200B;**50**&#x200B;個路徑，AI會隨機選取路徑以產生這些&#x200B;**50**&#x200B;個模擬使用者。 |
+| 每一代請求的最大模擬使用者數 | 50 | 透過&#x200B;**[!UICONTROL 快速模擬]**&#x200B;或&#x200B;**[!UICONTROL 在**[!UICONTROL &#x200B;手動模擬&#x200B;]**中使用AI]**&#x200B;產生，在一個要求中產生的模擬使用者AI數目上限。 如果歷程具有超過&#x200B;**50**&#x200B;個路徑，AI會隨機選取路徑以產生這些&#x200B;**50**&#x200B;個模擬使用者。 |
 | 在單一模擬回合中測試的不重複模擬使用者上限 | 100 | 在一個執行區塊中聯絡&#x200B;**100**&#x200B;個不重複使用者&#x200B;**[!UICONTROL 為新的模擬使用者選取模擬使用者]**。 如果您位於&#x200B;**90**，在相同區塊之前最多可以新增&#x200B;**10**。 |
 | 可以在一個沙箱中同時在&#x200B;**[!UICONTROL 模擬]**&#x200B;中執行的最大歷程數 | 20 | Cap一次由該沙箱中的每個&#x200B;**[!UICONTROL 模擬]**&#x200B;歷程共用。 |
 | 一個沙箱中最大活動模擬使用者數 | 2,000 | 一次可存在於沙箱中的最大模擬使用者數。 Adobe可能會根據客戶意見反應調整此限制。 |
@@ -183,7 +186,7 @@ Adobe Journey Optimizer提供兩種方式來測試和驗證您的歷程：
 
 以下影片說明如何使用快速模擬，自動化關鍵流程以測試客戶歷程。 它會產生測試設定檔、協調事件、加快等待時間並驗證情境。
 
->[!VIDEO](https://video.tv.adobe.com/v/3497484/?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
 
 
 
