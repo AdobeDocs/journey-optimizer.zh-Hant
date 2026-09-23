@@ -11,15 +11,15 @@ keywords: 測試，歷程，檢查，錯誤，疑難排解
 version: Journey Orchestration
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey testing
+source-git-commit: 62544007a145783ebb8d55dd9816f922e04cd476
 workflow-type: tm+mt
-source-wordcount: 2282
+source-wordcount: '2210'
 ht-degree: 0%
-
 ---
-
 # 模擬您的歷程 {#simulate-journey}
 
 >[!BEGINSHADEBOX]
@@ -28,19 +28,13 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-不確定模擬是適合您使用的方法嗎？ [比較所有三個驗證選項](choose-validation-method.md)。
-
 使用&#x200B;**[!UICONTROL 模擬]**，在您發佈之前先與&#x200B;**模擬使用者**&#x200B;驗證您的歷程。 此頁面會逐步引導您完成&#x200B;**[!UICONTROL 快速模擬]**&#x200B;和&#x200B;**[!UICONTROL 手動模擬]**、建立和傳送模擬的使用者、在您的歷程需要這些使用者時觸發單一事件，以及檢閱&#x200B;**[!UICONTROL 結果]**&#x200B;記錄。
 
->[!IMPORTANT]
->
->* 若要使用&#x200B;**[!UICONTROL 模擬]**，請從&#x200B;**[!UICONTROL 歷程]**&#x200B;功能指派至少一個許可權： **模擬歷程**、**發佈歷程**&#x200B;或&#x200B;**核准並發佈歷程**。 相同的許可權可讓您建立和管理模擬的使用者，不需要&#x200B;**[!UICONTROL 模擬的使用者]**&#x200B;許可權。 [了解更多](../administration/permissions.md)
->
->* 若要管理不含&#x200B;**[!UICONTROL 模擬]**&#x200B;的模擬使用者，請指派&#x200B;**管理模擬使用者**&#x200B;或&#x200B;**檢視模擬使用者** （來自&#x200B;**[!UICONTROL 模擬使用者]**&#x200B;功能）。
->
->* 針對模擬中的AI （**[!UICONTROL 快速模擬]**、AI產生的使用者、**[!UICONTROL 產生事件值]**），從&#x200B;**[!UICONTROL AI助理]**&#x200B;功能指派&#x200B;**[!UICONTROL 產生內容]**。
+如需必要許可權，請參閱[必要許可權](simulate-journey-gs.md#required-permissions)。
 
 如需依歷程型別的概觀，請參閱[開始使用歷程模擬](simulate-journey-gs.md)。
+
+不確定模擬是適合您使用的方法嗎？ [比較所有三個驗證選項](choose-validation-method.md)。
 
 ## 模擬型別 {#simulation-types}
 
@@ -149,7 +143,7 @@ ht-degree: 0%
 
       ![建立具有重複內容的模擬使用者卡片、套用所有屬性至其他使用者，以及刪除每個使用者](assets/simulate-form-2.png)
 
-   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。**&#x200B;**
+   1. 當您完成此工作階段中的使用者設定時，請按一下[儲存]。****
 
    +++
 
@@ -200,7 +194,7 @@ ht-degree: 0%
 
    ![測試使用者清單，其中包含在畫布上反白顯示的編輯、傳送及移除動作和模擬路徑](assets/simulate-4-2.png)
 
-1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 **&#x200B;**&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
+1. 若要在選取後變更清單，請按一下[管理使用者]，從詳細目錄或建立新使用者新增更多模擬使用者。 ****&#x200B;若要從此回合的&#x200B;**[!UICONTROL 測試使用者]**&#x200B;清單中移除所有使用者，請選擇&#x200B;**[!UICONTROL 清除所有使用者]**。
 
    ![使用新增使用者選項開啟管理使用者功能表，並清除所有使用者](assets/simulate-manage.png)
 
