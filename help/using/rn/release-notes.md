@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8519e5f342809046780427f225c7ce6473363710
+source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2074'
 ht-degree: 21%
 ---
 # 發行說明 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月22日</p>
 </td>
@@ -163,7 +163,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
-<p>此功能先前為限額版本，現在已可在所有環境中使用 (正式版本)。</p>
+<p>此功能先前以限額版本推出，現在已可在所有環境中使用 (正式版本)。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
@@ -265,6 +265,31 @@ ht-degree: 21%
 * **在協調的行銷活動中具有關聯資料的條件式內容** — 在電子郵件Designer中針對協調的行銷活動建立條件式內容時，您現在可以直接在關聯式資料（例如與設定檔相關聯的相關記錄）上建立條件，而不只是標準設定檔屬性。 [了解更多](../orchestrated/activities/channels.md#add-personalization)
 
   推出日期： 2026年9月22日
+
+### 入門 {#sep-26-onboarding}
+
+以下改進即將在此版本中推出。
+
+<table>
+<thead>
+<tr>
+<th><strong>入門電子郵件和歷程的引導功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>入門電子郵件和歷程的引導功能現在包括下列改進：</p>
+<ul>
+<li>當您移轉電子郵件時，[!DNL Journey Optimizer]會識別該電子郵件所參考的內容區塊，並將其顯示為行動專案，因此您可以隨電子郵件移轉內容區塊。</li>
+<li>介面已經過改良，讓引導式入門更直覺。</li></ul>
+<p>如需詳細資訊，請參閱<a href="../start/onboarding-hub.md">詳細文件</a>以瞭解詳情。</p>
+<p>推出日期： 2026年9月2日s3</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 個人化 {#sep-26-personalization}
 
