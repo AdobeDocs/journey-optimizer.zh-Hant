@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**&#x200B;外掛程式提供下列技能：</p>
+<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**外掛程式提供下列技能：</p>
 <ul>
 <li><strong>協調內容製作</strong>。</li>
 <li><strong>探索內容策略</strong></li>
@@ -89,7 +89,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * **Experience Manager片段的動態權杖替代** - Experience Manager內容片段參考現在支援&#x200B;**tokenSubstitution**&#x200B;屬性。 設定為`false`時，片段欄位內的個人化會直接解析，參考中不含Token對應。 其預設值為`true`，這會保留現有行為。
 
-  此功能僅適用於部分組織 (限額推出)。 若想取得存取權，請聯絡您的 Adobe 代表。
+  此功能僅適用於部分組織 (限額版本)。 若想取得存取權，請聯絡您的 Adobe 代表。
 
 * **決策中的AEM Managed Services內容片段支援** — 現在管理決策專案時，決策中可支援AEM Managed Services內容片段。
 
@@ -113,8 +113,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 </tr>
 </tbody>
 </table>
-
-* **同事忠誠度建議技能** — 行銷人員現在可以在同事的對話介面中直接要求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得實際的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。
 
 * **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。
 
