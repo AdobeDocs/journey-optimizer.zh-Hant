@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: 1bcaf85fc61ee991c871eea7b451155835426bb3
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2722'
 ht-degree: 8%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 * [Journey Optimizer的同事技能](../start/ai-features.md#cx-coworker-skills) — Journey Optimizer中跨歷程、忠誠度和內容管理之同事技能的概觀。
 * [同事檔案](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"} — 同事的行銷活動、聊天和專案功能概觀。
-* [同事聊天UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
+* [同事聊天UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"} — 如何存取和瀏覽同事聊天。
 
 >[!ENDSHADEBOX]
 
@@ -259,7 +259,7 @@ Journey Analyze提供一系列可用來最佳化行銷工作的功能：
 1. **歷程排程重疊分析**
 
    * 偵測針對相同客群的已排程歷程之間時機衝突的狀況。
-   * 避免過度通訊並提升排程效率。
+   * 避免過度溝通並提升排程效率。
    * 確保歷程在最佳時間點進行，發揮最大的客群影響力。
 
    範例提示：
@@ -339,5 +339,43 @@ Journey Analyze支援下列功能：
 * **定義明確目標**：在分析歷程之前，先設定明確的目標 (例如提高保留率、提高轉換率)。
 * **定期監視**：安排定期檢查歷程績效，以發現趨勢和異常。
 * **細分最佳化**：確保客群細分維持平衡，避免疲勞並實現最高參與度。
+
+## 歷程模擬 {#journey-simulation}
+
+Journey Simulation技能將AI驅動的快速模擬帶入聊天介面，讓使用者透過對話方式驗證歷程邏輯。 透過Co-worker，使用者可以產生模擬測試資料、執行和管理模擬，以及審查結果。
+
+### 主要使用案例
+
+1. **產生模擬測試資料**
+
+   * 產生執行歷程分支所需的最小模擬使用者。
+   * 為事件觸發的歷程產生事件資料，因此每個分支都會觸發。
+
+1. **執行和管理模擬**
+
+   * 開始模擬回合。
+   * 重設模擬執行。
+   * 檢查模擬執行的狀態。
+   * 列出執行中包含的模擬使用者。
+   * 擷取執行記錄。
+
+1. **檢閱模擬結果**
+
+   * 傳回詳細結果，包括逐步路徑周遊。
+   * 傳回模擬執行的分支結果。
+
+### 限制
+
+此功能目前僅支援快速模擬流程，不會完全取代Journey Optimizer手動模擬體驗。
+
+使用快速模擬來快速且自動地檢查歷程邏輯的健全度。 若要對模擬的使用者和案例進行精細控制，請使用Journey Optimizer](simulate-journey-gs.md)中的[手動模擬體驗。
+
+在此快速模擬體驗中，使用者無法：
+
+* 選擇要執行的現有已儲存模擬使用者。
+* 在重新執行模擬之前編輯模擬的使用者。
+* 透過聊天建立、瀏覽、更新或刪除持續性的模擬使用者。
+* 鎖定特定路徑或自訂測試案例。
+
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-journeys-coworker-skills.md}}
