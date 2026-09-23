@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # 發行說明 {#release-notes}
@@ -94,7 +94,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>建立或編輯事件對應現在使用新的&#x200B;**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
+<p>建立或編輯事件對應現在使用新的**視覺對應產生器**：選取結構、從可搜尋的欄位選擇器挑選欄位、將每個欄位對應到具有每列連線狀態的忠誠度事件欄位，以及預覽自動產生的JSONata運算式，並可以選擇隨時切換為手動JSONata編輯。</p><p>此外，忠誠度管理員中的「事件定義」已重新命名為「事件對應」，而重新整理的清單檢視會顯示人類看得懂的體驗事件結構描述名稱。</p>
 <p>如需詳細資訊，請參閱<a href="../loyalty-challenges/loyalty-admin.md#event-mappings">詳細文件</a>以瞭解詳情。</p>
 <p>推出日期： 2026年9月22日</p>
 </td>
@@ -121,7 +121,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>忠誠度績效選單現在包含&#x200B;**機會**&#x200B;和**趨勢**&#x200B;標籤，這些標籤會顯示AI偵測到的趨勢和差距，例如層級進展摩擦或挑戰任務流失，每個都具有預計的影響，以及按一下即可使用AI建立以解決該問題的挑戰。</p><p>此外，行銷人員可以直接在同事的對話介面中請求&#x200B;**挑戰機會**，根據真正的忠誠度計畫趨勢獲得基礎性的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。</p>
+<p>忠誠度績效選單現在包含**機會**和**趨勢**標籤，這些標籤會顯示AI偵測到的趨勢和差距，例如層級進展摩擦或挑戰任務流失，每個都具有預計的影響，以及按一下即可使用AI建立以解決該問題的挑戰。</p><p>此外，行銷人員可以直接在同事的對話介面中請求**挑戰機會**，根據真正的忠誠度計畫趨勢獲得基礎性的挑戰想法，並在不離開聊天的情況下將其轉換為即時挑戰。</p>
 </td>
 </tr>
 </tbody>
@@ -179,7 +179,7 @@ ht-degree: 20%
 <td>
 <p>歷程進階運算式編輯器現在整合了AI支援的運算式產生：說明您要以自然語言建置的運算式，而編輯器產生您可以立即套用或通過後續提示調整的現成程式碼。</p>
 <p>此功能先前以限額版本推出，現在已可在所有環境中使用 (正式版本)。</p>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/expression/generate-expression.md">詳細說明文件</a>。</p>
 <p>推出日期： 2026年9月1日</p>
 </td>
 </tr>
@@ -299,7 +299,7 @@ ht-degree: 20%
 <li>當您移轉電子郵件時，[!DNL Journey Optimizer]會識別該電子郵件所參考的內容區塊，並將其顯示為行動專案，因此您可以隨電子郵件移轉內容區塊。</li>
 <li>介面已經過改良，讓引導式入門更直覺。</li></ul>
 <p>如需詳細資訊，請參閱<a href="../start/onboarding-hub.md">詳細文件</a>以瞭解詳情。</p>
-<p>推出日期： 2026年9月2日s3</p>
+<p>推出日期： 2026年9月23日</p>
 </td>
 </tr>
 </tbody>
@@ -312,6 +312,8 @@ ht-degree: 20%
   推出日期： 2026年9月22日
 
 ### 決策 {#sep-26-decisioning}
+
+此版本中的決策功能即將提供下列功能和改善。
 
 <table>
 <thead>
@@ -328,6 +330,10 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
+* **在Decisioning中可供AEM客戶使用的Managed Services內容片段** — 之前，在Decisioning中只能供使用&#x200B;**Adobe Experience Manager as a Cloud Service**&#x200B;整合的客戶使用。 此功能現在也可供使用&#x200B;**Adobe Experience Manager Managed Services**&#x200B;的客戶使用。 [了解更多](../experience-decisioning/items.md#attributes)
+
+  推出日期： 2026年9月23日
 
 * **在規則和排名公式模擬中支援Adobe Experience Platform設定檔** — 模擬規則或排名公式時，您現在可以選取Adobe Experience Platform設定檔來自動填入測試資料變體的屬性，而不是手動輸入。 [了解更多](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 

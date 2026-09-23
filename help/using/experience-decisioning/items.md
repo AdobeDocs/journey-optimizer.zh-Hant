@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2914'
 ht-degree: 14%
 ---
 # 建立您的第一個決定項目 {#items}
@@ -95,6 +95,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
      >[!AVAILABILITY]
      >
      >此功能適用於支援決策的管道。
+     >
+     >整合Adobe Experience Manager **as a Cloud Service**&#x200B;或&#x200B;**Managed Services**&#x200B;與Adobe Journey Optimizer的客戶可在決策中使用AEM內容片段。 [了解更多](../integrations/aem-fragments-gs.md)
 
      如需先決條件和護欄，請參閱[將AEM內容片段用於Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning)。
 
@@ -108,8 +110,8 @@ Journey Optimizer 可讓您建立行銷產品建議 (稱為決定項目)，您�
 >abstract="預設情況下，所有設定檔都有資格接收決定項目，但您可以使用對象或規則將該項目限制為僅限特定設定檔。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
