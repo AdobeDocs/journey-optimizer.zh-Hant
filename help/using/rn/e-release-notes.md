@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0905e570576a4587cd7734aa036d8f09276e0127
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '2943'
-ht-degree: 8%
+source-wordcount: '2798'
+ht-degree: 7%
 ---
 
 # 搶鮮版發行說明 {#e-release-notes}
@@ -62,7 +62,7 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tbody>
 <tr>
 <td>
-<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**&#x200B;外掛程式提供下列技能：</p>
+<p>Co-worker現在提供新的<strong>管道內容</strong>外掛程式，將行銷活動復本、影像和組合電子郵件HTML技能整合到策略到部署的單一外掛程式中。 **Channel Content**外掛程式提供下列技能：</p>
 <ul>
 <li><strong>協調內容製作</strong>。</li>
 <li><strong>探索內容策略</strong></li>
@@ -118,29 +118,28 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 
 * **內容卡個人化編輯器中的挑戰網域** — 內容卡個人化編輯器現在支援&#x200B;**挑戰**&#x200B;作為網域，讓您在編寫內容卡個人化時存取挑戰中繼資料。 如此一來，您就更輕鬆地針對挑戰的每一個階段（啟動、進行中及結束）建立量身打造的內容，而不需要自訂程式碼。
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### 入門 {#sep-26-onboarding}
-
-以下功能即將在此版本中上線。
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>入門電子郵件和歷程的引導功能（一般可用性）</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>透過引導式功能，您可以更輕鬆地從其他行銷平台轉換至 Adobe Journey Optimizer，將現有電子郵件內容和歷程移至 Journey Optimizer。 <strong>專屬工作區</strong>可讓您重複使用現有工作，而非從頭重建。</p>
-<p>此功能之前以「有限可用性」的名義發行，目前所有環境都適用 (一般可用性)。</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
+-->
 
 ### 歷程 {#sep-26-journeys}
 
@@ -188,21 +187,6 @@ Adobe Journey Optimizer 持續提供新功能、現有功能的增強功能並�
 <tr>
 <td>
 <p>歷程畫布中的新<strong>傳入活動停用</strong>活動可讓您直接從歷程中移除最多五個傳入活動或體驗的設定檔，將傳入取消資格從歷程退出中解耦，以進行更進階的跨頻道協調。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>歷程畫布中的內容預覽</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>今天檢閱管道內容需要一次一個地個別開啟每個節點 — 在具有許多管道節點的歷程中緩慢且容易出錯，特別是當個人化表示檢查每個節點的多個處理或變體時。 <strong>內容預覽</strong>透過直接在畫布中為每個管道節點呈現內容縮圖，以全熒幕模式檢查並在處理與變體之間切換，來移除該摩擦。</p>
 </td>
 </tr>
 </tbody>
