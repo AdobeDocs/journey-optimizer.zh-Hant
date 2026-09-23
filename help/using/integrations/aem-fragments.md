@@ -186,7 +186,7 @@ Journey Optimizer只有在包含您&#x200B;**組織**&#x200B;和&#x200B;**沙箱
    1. **靜態字串對應**：將固定字串值放在雙引號中，例如名稱= &quot;John&quot;，以指派固定字串值。
 
    1. **變數對應**：參照同一HTML中先前宣告的變數，例如name = &#39;variableName&#39;。
-      在此情況下，請確保在新增片段ID之前使用以下語法宣告**_variableName_**：
+      在此情況下，請確保在新增片段ID之前使用以下語法宣告&#x200B;**_variableName_**：
 
       ```html
       {% let variableName = attribute name %} 
